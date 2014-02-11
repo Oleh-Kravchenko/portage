@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=!<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=a simple way to support the Session Initiation Protocol
+EAPI=5
+HOMEPAGE=http://www.gnu.org/software/osip/
+IUSE=test
+KEYWORDS=amd64 ppc ~sparc x86 ~ppc-macos ~x86-macos
+LICENSE=LGPL-2
+SLOT=2/4.0
+SRC_URI=mirror://gnu/osip/libosip2-4.0.0.tar.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	eutils	40081e8c7e7f7c4f9db349a1d6d52925	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=737760d56c4b81bcf3ac8d181581108c

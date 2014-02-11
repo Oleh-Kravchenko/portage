@@ -1,0 +1,34 @@
+# ChangeLog for x11-terms/terminology
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-terms/terminology/ChangeLog,v 1.6 2014/01/25 16:31:07 tommy Exp $
+
+*terminology-0.4.0 (25 Jan 2014)
+
+  25 Jan 2014; Thomas Sachau (Tommy[D]) <tommy@gentoo.org>
+  +terminology-0.4.0.ebuild:
+  Version bump for move to efl-1.8
+
+*terminology-0.4.0_alpha1 (13 Nov 2013)
+
+  13 Nov 2013; Ralph Sennhauser <sera@gentoo.org>
+  +terminology-0.4.0_alpha1.ebuild:
+  Version bump
+  Loosen version requirements so it works with current releases
+
+  12 Apr 2013; Christian Faulhammer <fauli@gentoo.org>
+  terminology-0.3.0.ebuild:
+  add ~x86
+
+  29 Mar 2013; Ralph Sennhauser <sera@gentoo.org> terminology-0.3.0.ebuild:
+  Add use dep dbus for media-libs/ethumb. #463514
+
+*terminology-0.3.0 (24 Mar 2013)
+
+  24 Mar 2013; Ralph Sennhauser <sera@gentoo.org> +terminology-0.3.0.ebuild:
+  Version bump.
+
+*terminology-0.2.0 (19 Dec 2012)
+
+  19 Dec 2012; Ralph Sennhauser <sera@gentoo.org> +terminology-0.2.0.ebuild,
+  +metadata.xml:
+  New package.

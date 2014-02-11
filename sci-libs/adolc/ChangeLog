@@ -1,0 +1,34 @@
+# ChangeLog for sci-libs/adolc
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-libs/adolc/ChangeLog,v 1.5 2014/01/15 19:44:44 bicatali Exp $
+
+  15 Jan 2014; Sébastien Fabbro <bicatali@gentoo.org> -adolc-2.4.0.ebuild,
+  adolc-2.4.1.ebuild:
+  Cleanup, removed old, sub-slotted
+
+*adolc-2.4.1 (26 May 2013)
+
+  26 May 2013; Sébastien Fabbro <bicatali@gentoo.org> +adolc-2.4.1.ebuild,
+  -adolc-2.3.0-r1.ebuild, -files/adolc-2.3.0-libdir.patch,
+  -files/adolc-2.3.0-no-colpack.patch:
+  Version bump
+
+*adolc-2.4.0 (03 Mar 2013)
+
+  03 Mar 2013; Sébastien Fabbro <bicatali@gentoo.org> +adolc-2.4.0.ebuild,
+  +files/adolc-2.4.0-no-colpack.patch:
+  Version bump. Thanks Jauhien Piatlicki (bug #459880)
+
+*adolc-2.3.0-r1 (19 Jul 2012)
+
+  19 Jul 2012; Sébastien Fabbro <bicatali@gentoo.org> +adolc-2.3.0-r1.ebuild,
+  +files/adolc-2.3.0-libdir.patch, +files/adolc-2.3.0-no-colpack.patch,
+  -adolc-2.3.0.ebuild:
+  Fixed libdir installation directory (affects amd64-linux) and do not link with
+  colpack when not asked
+
+*adolc-2.3.0 (09 Jul 2012)
+
+  09 Jul 2012; Sébastien Fabbro <bicatali@gentoo.org> +adolc-2.3.0.ebuild,
+  +metadata.xml:
+  Fixed when sparse is not set (bug #425408), and import to the main tree

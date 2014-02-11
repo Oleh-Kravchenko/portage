@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst prepare setup
+DEPEND=!minimal? ( dev-lang/lua usb? ( virtual/libusb:0 ) ) virtual/pkgconfig
+DESCRIPTION=Entropy Key userspace daemon
+EAPI=4
+HOMEPAGE=http://www.entropykey.co.uk/
+IUSE=usb kernel_linux munin minimal
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT GPL-2
+RDEPEND=!minimal? ( dev-lang/lua usb? ( virtual/libusb:0 ) dev-lua/luasocket kernel_linux? ( virtual/udev ) usb? ( !kernel_linux? ( sys-apps/usbutils ) ) munin? ( net-analyzer/munin ) ) !app-crypt/ekey-egd-linux sys-apps/openrc
+REQUIRED_USE=minimal? ( !munin !usb )
+SLOT=0
+SRC_URI=http://www.entropykey.co.uk/res/download/ekeyd-1.1.4.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	linux-info	a9cbd6bbe2b28166e403321882f3c73c	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	udev	a9a8d051efb42bfe884c1db82ce161de	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=6966068f62c831a6d64ee1bce9e218b2

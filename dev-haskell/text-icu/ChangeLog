@@ -1,0 +1,21 @@
+# ChangeLog for dev-haskell/text-icu
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/text-icu/ChangeLog,v 1.4 2013/12/10 11:06:08 gienah Exp $
+
+*text-icu-0.6.3.7 (10 Dec 2013)
+
+  10 Dec 2013; Mark Wright <gienah@gentoo.org> +text-icu-0.6.3.7.ebuild:
+  Bump text-icu to 0.6.3.7
+
+  24 Nov 2013; Agostino Sarubbo <ago@gentoo.org> text-icu-0.6.3.5.ebuild:
+  Stable for x86, wrt bug #488750
+
+  05 Nov 2013; Tony Vroon <chainsaw@gentoo.org> text-icu-0.6.3.5.ebuild:
+  Marked stable on AMD64 based on arch testing by Elijah "Armageddon" El
+  Lazkani in bug #488750.
+
+*text-icu-0.6.3.5 (26 Aug 2013)
+
+  26 Aug 2013; Alexander Vershilov <qnikst@gentoo.org> +metadata.xml,
+  +text-icu-0.6.3.5.ebuild:
+  dev-haskell/text-icu: initial layout

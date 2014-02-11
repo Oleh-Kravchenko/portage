@@ -1,0 +1,34 @@
+# ChangeLog for dev-python/hacking
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/hacking/ChangeLog,v 1.5 2014/01/02 15:06:38 idella4 Exp $
+
+*hacking-0.7.2-r1 (02 Jan 2014)
+*hacking-0.8.0-r1 (02 Jan 2014)
+
+  02 Jan 2014; Ian Delaney <idella4@gentoo.org> +hacking-0.7.2-r1.ebuild,
+  +hacking-0.8.0-r1.ebuild, -hacking-0.7.2.ebuild:
+  revbumps; 0.7.2-r1; add 1 missing test dep, tidy up, both; Add py3.2 support,
+  upgrade test phase with upstream bug added for fails under py3, remove only
+  old 0.7.2 for now
+
+  02 Jan 2014; Ian Delaney <idella4@gentoo.org> hacking-0.8.0.ebuild:
+  correct 1 char white space
+
+*hacking-0.8.0 (02 Jan 2014)
+
+  02 Jan 2014; Ian Delaney <idella4@gentoo.org> +hacking-0.8.0.ebuild,
+  metadata.xml:
+  Add herd, version bump; add USE doc, doc build, install, update all deps, test
+  phase
+
+*hacking-0.7.2 (25 Oct 2013)
+
+  25 Oct 2013; Matthew Thode <prometheanfire@gentoo.org> +hacking-0.7.2.ebuild,
+  hacking-0.5.6.ebuild:
+  bump of hacking, also, test support
+
+*hacking-0.5.6 (13 Aug 2013)
+
+  13 Aug 2013; Matthew Thode <prometheanfire@gentoo.org> +hacking-0.5.6.ebuild,
+  +metadata.xml:
+  adding hacking as it is needed for testing support for sys-cluster/swift

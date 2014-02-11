@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst postrm preinst prepare setup
+DEPEND=net-libs/libnetfilter_queue net-libs/libnfnetlink dbus? ( sys-apps/dbus ) zlib? ( sys-libs/zlib ) qt4? ( sys-auth/polkit-qt dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 || ( kde-base/kdesu x11-libs/gksu x11-misc/ktsuss ) ) virtual/pkgconfig sys-devel/libtool:2 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool >=sys-apps/sed-4 virtual/pkgconfig
+DESCRIPTION=Privacy oriented firewall application
+EAPI=5
+HOMEPAGE=https://sourceforge.net/projects/peerguardian/
+IUSE=cron dbus logrotate networkmanager qt4 zlib
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=net-libs/libnetfilter_queue net-libs/libnfnetlink dbus? ( sys-apps/dbus ) zlib? ( sys-libs/zlib ) qt4? ( sys-auth/polkit-qt dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 || ( kde-base/kdesu x11-libs/gksu x11-misc/ktsuss ) ) net-firewall/iptables sys-apps/sysvinit cron? ( virtual/cron ) logrotate? ( app-admin/logrotate ) networkmanager? ( net-misc/networkmanager )
+REQUIRED_USE=qt4? ( dbus )
+SLOT=0
+SRC_URI=mirror://sourceforge/peerguardian/pgl-2.2.2.tar.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	eutils	40081e8c7e7f7c4f9db349a1d6d52925	gnome2-utils	d7c71c6a7d871f567b416a363d65c3dc	libtool	b9b3340e3a19510f0d9f05cfccbf209f	linux-info	a9cbd6bbe2b28166e403321882f3c73c	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	systemd	9f063b2cc19c5e8030911372aa246c4e	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=75f028d5e387e56a5dd859142316c59c

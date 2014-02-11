@@ -1,0 +1,22 @@
+# ChangeLog for net-analyzer/multimon-ng
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/multimon-ng/ChangeLog,v 1.4 2013/12/16 05:04:53 zerochaos Exp $
+
+  16 Dec 2013; Rick Farina <zerochaos@gentoo.org> multimon-ng-1.0.0.ebuild,
+  multimon-ng-9999.ebuild:
+  fixing bug 493756, thanks to Florian Knodt for report
+
+  28 Jun 2013; Rick Farina <zerochaos@gentoo.org> multimon-ng-1.0.0.ebuild,
+  multimon-ng-9999.ebuild:
+  making pulseaudio optional thanks to chithead
+
+  28 Jun 2013; Rick Farina <zerochaos@gentoo.org> multimon-ng-1.0.0.ebuild,
+  multimon-ng-9999.ebuild:
+  fixing S for stable version
+
+*multimon-ng-1.0.0 (27 Jun 2013)
+*multimon-ng-9999 (27 Jun 2013)
+
+  27 Jun 2013; Rick Farina <zerochaos@gentoo.org> +metadata.xml,
+  +multimon-ng-1.0.0.ebuild, +multimon-ng-9999.ebuild:
+  initial commit of multimon-ng

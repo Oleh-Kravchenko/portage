@@ -1,0 +1,25 @@
+# ChangeLog for dev-python/sphinxcontrib-httpdomain
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/sphinxcontrib-httpdomain/ChangeLog,v 1.4 2013/10/28 07:17:11 patrick Exp $
+
+*sphinxcontrib-httpdomain-1.2.0 (28 Oct 2013)
+
+  28 Oct 2013; Patrick Lauer <patrick@gentoo.org>
+  +sphinxcontrib-httpdomain-1.2.0.ebuild:
+  Bump
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org>
+  sphinxcontrib-httpdomain-1.1.8.ebuild, sphinxcontrib-httpdomain-1.1.9.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*sphinxcontrib-httpdomain-1.1.9 (10 Aug 2013)
+
+  10 Aug 2013; Patrick Lauer <patrick@gentoo.org>
+  +sphinxcontrib-httpdomain-1.1.9.ebuild:
+  Bump
+
+*sphinxcontrib-httpdomain-1.1.8 (10 Jun 2013)
+
+  10 Jun 2013; Ian Delaney <idella4@gentoo.org> +metadata.xml,
+  +sphinxcontrib-httpdomain-1.1.8.ebuild:
+  ebuild prepared by me, needed for flask-restless

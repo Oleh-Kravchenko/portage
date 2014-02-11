@@ -1,0 +1,31 @@
+# ChangeLog for dev-python/pylibmc
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pylibmc/ChangeLog,v 1.7 2013/09/05 18:46:33 mgorny Exp $
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> pylibmc-1.2.3.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+  17 Mar 2013; Markos Chandras <hwoarang@gentoo.org> metadata.xml:
+  Add proxy-maintainers to metadata.xml
+
+  24 Jan 2013; Dirkjan Ochtman <djc@gentoo.org> pylibmc-1.2.3.ebuild:
+  Port pylibmc to distutils-r1 (bug 451912).
+
+*pylibmc-1.2.3 (08 May 2012)
+
+  08 May 2012; Dirkjan Ochtman <djc@gentoo.org> +pylibmc-1.2.3.ebuild:
+  Version bump to 1.2.3 (bug 414425).
+
+  03 May 2012; Dirkjan Ochtman <djc@gentoo.org> -pylibmc-1.2.1.ebuild:
+  Remove old version.
+
+*pylibmc-1.2.2 (30 Oct 2011)
+
+  30 Oct 2011; Dirkjan Ochtman <djc@gentoo.org> +pylibmc-1.2.2.ebuild:
+  Version bump to 1.2.2 with fixes, bug 388559.
+
+*pylibmc-1.2.1 (24 Oct 2011)
+
+  24 Oct 2011; Dirkjan Ochtman <djc@gentoo.org> +pylibmc-1.2.1.ebuild,
+  +metadata.xml:
+  Initial version (from sunrise, bug 267143).

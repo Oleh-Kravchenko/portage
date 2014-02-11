@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=tcl? ( dev-lang/tcl ) tk? ( dev-lang/tk )
+DESCRIPTION=HFS FS Access utils
+EAPI=5
+HOMEPAGE=http://www.mars.org/home/rob/proj/hfs/
+IUSE=tcl tk
+KEYWORDS=amd64 ~arm ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=tcl? ( dev-lang/tcl ) tk? ( dev-lang/tk )
+REQUIRED_USE=tk? ( tcl )
+SLOT=0
+SRC_URI=ftp://ftp.mars.org/pub/hfs/hfsutils-3.2.6.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=332063f435dc9e038525b58ef281e537

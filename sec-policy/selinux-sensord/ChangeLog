@@ -1,0 +1,37 @@
+# ChangeLog for sec-policy/selinux-sensord
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sec-policy/selinux-sensord/ChangeLog,v 1.6 2014/01/12 20:22:11 swift Exp $
+
+  12 Jan 2014; Sven Vermeulen <swift@gentoo.org>
+  selinux-sensord-2.20130424-r4.ebuild:
+  Stabilize 2.20130424-r4
+
+*selinux-sensord-2.20130424-r4 (11 Dec 2013)
+
+  11 Dec 2013; Sven Vermeulen <swift@gentoo.org>
+  +selinux-sensord-2.20130424-r4.ebuild:
+  Release of 2.20130424-r4
+
+*selinux-sensord-2.20130424-r3 (26 Sep 2013)
+
+  26 Sep 2013; Sven Vermeulen <swift@gentoo.org>
+  +selinux-sensord-2.20130424-r3.ebuild:
+  Release 2.20130424-r3, fixing bugs #480628, #482196, #475432, #485304, #480870
+  and #428322
+
+  15 Aug 2013; Sven Vermeulen <swift@gentoo.org>
+  selinux-sensord-2.20130424-r2.ebuild:
+  Stabilize r2 of policies
+
+  24 Jul 2013; Sven Vermeulen <swift@gentoo.org>
+  selinux-sensord-2.20130424-r1.ebuild:
+  Stabilizing -r1 for sensord, matches other r1 policies
+
+*selinux-sensord-2.20130424-r1 (24 Jul 2013)
+*selinux-sensord-9999 (24 Jul 2013)
+*selinux-sensord-2.20130424-r2 (24 Jul 2013)
+
+  24 Jul 2013; Sven Vermeulen <swift@gentoo.org> +metadata.xml,
+  +selinux-sensord-2.20130424-r1.ebuild, +selinux-sensord-2.20130424-r2.ebuild,
+  +selinux-sensord-9999.ebuild:
+  Adding SELinux sensord policy ebuild

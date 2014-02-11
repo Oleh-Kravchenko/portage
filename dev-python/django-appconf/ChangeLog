@@ -1,0 +1,36 @@
+# ChangeLog for dev-python/django-appconf
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/django-appconf/ChangeLog,v 1.8 2013/06/30 21:54:24 tampakrap Exp $
+
+  30 Jun 2013; Theo Chatzimichos <tampakrap@gentoo.org>
+  django-appconf-0.6.ebuild:
+  Fix tests
+
+  25 Jun 2013; Ian Delaney <idella4@gentoo.org> django-appconf-0.6.ebuild:
+  add required rdep six
+
+  31 May 2013; Mike Gilbert <floppym@gentoo.org> django-appconf-0.6.ebuild:
+  Make python_test do something useful.
+
+  20 May 2013; Ian Delaney <idella4@gentoo.org> django-appconf-0.6.ebuild:
+  proper fix to test phase
+
+*django-appconf-0.6 (18 May 2013)
+
+  18 May 2013; Ian Delaney <idella4@gentoo.org> +django-appconf-0.6.ebuild,
+  +files/docs.patch:
+  bump
+
+  14 Nov 2012; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  Updating maintainer, metadata.xml
+
+  16 May 2012; Theo Chatzimichos <tampakrap@gentoo.org>
+  django-appconf-0.5.ebuild:
+  src_prepare removed and instead uses ' -m' for importing modules, src_test
+  adjusted accordingly, PYTHON_DEPEND->2:2.6, changes done by idella4
+
+*django-appconf-0.5 (25 Apr 2012)
+
+  25 Apr 2012; Theo Chatzimichos <tampakrap@gentoo.org>
+  +django-appconf-0.5.ebuild, +metadata.xml:
+  Initial commit, ebuild by idella4

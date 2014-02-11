@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=>=dev-libs/glib-2.14:2 >=dev-libs/dbus-glib-0.73 >=dev-libs/libunique-1:1 >=gnome-base/gconf-2 >=gnome-base/gnome-desktop-2.14:2 media-gfx/sane-backends media-libs/lcms:0 media-libs/libcanberra[gtk] media-libs/tiff net-print/cups virtual/udev[gudev] x11-libs/libX11 x11-libs/libXxf86vm x11-libs/libXrandr >=x11-libs/gtk+-2.14:2 x11-libs/libnotify >=x11-libs/vte-0.22:0 app-text/gnome-doc-utils app-text/scrollkeeper >=dev-util/intltool-0.35 doc? ( >=dev-util/gtk-doc-1.9 ) >=sys-apps/sed-4
+DESCRIPTION=Color profile manager for the GNOME desktop
+EAPI=3
+HOMEPAGE=http://projects.gnome.org/gnome-color-manager/
+IUSE=doc
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.14:2 >=dev-libs/dbus-glib-0.73 >=dev-libs/libunique-1:1 >=gnome-base/gconf-2 >=gnome-base/gnome-desktop-2.14:2 media-gfx/sane-backends media-libs/lcms:0 media-libs/libcanberra[gtk] media-libs/tiff net-print/cups virtual/udev[gudev] x11-libs/libX11 x11-libs/libXxf86vm x11-libs/libXrandr >=x11-libs/gtk+-2.14:2 x11-libs/libnotify >=x11-libs/vte-0.22:0
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-color-manager/2.32/gnome-color-manager-2.32.0.tar.bz2
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	gnome.org	8fef8f967214f56e08fa92d61163d891	gnome2	774182647ff84c6a2365bbcd9635044c	gnome2-utils	d7c71c6a7d871f567b416a363d65c3dc	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=0e6981aaeb07f0cf82612daf5f5cac8e

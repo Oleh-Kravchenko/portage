@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-libs/gmp
+DESCRIPTION=Another implementation of the double description method
+EAPI=3
+HOMEPAGE=http://www.ifor.math.ethz.ch/~fukuda/cdd_home/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/gmp
+SLOT=0
+SRC_URI=ftp://ftp.ifor.math.ethz.ch/pub/fukuda/cdd/cdd+-077a.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=7d7e87048b141fb5d99b93632b43b795

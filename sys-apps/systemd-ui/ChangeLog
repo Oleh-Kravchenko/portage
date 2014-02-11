@@ -1,0 +1,39 @@
+# ChangeLog for sys-apps/systemd-ui
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd-ui/ChangeLog,v 1.7 2014/01/07 09:58:32 pacho Exp $
+
+  07 Jan 2014; Pacho Ramos <pacho@gentoo.org> systemd-ui-2.ebuild,
+  systemd-ui-9999.ebuild:
+  Vala 0.22 needed per https://bugs.freedesktop.org/show_bug.cgi?id=69643#c5
+  (this could explain why I wasn't able to reproduce while Justin was some
+  months ago)
+
+  06 Oct 2013; Pacho Ramos <pacho@gentoo.org> systemd-ui-2.ebuild,
+  systemd-ui-9999.ebuild:
+  Fix vala.eclass usage (the package doesn't have any incompatibility needing to
+  add a MAX version that we would need to update on every vala bump, it only
+  needs vala >= 0.10, also call vala_src_prepare at prepare phase)
+
+  11 Jul 2013; Michał Górny <mgorny@gentoo.org> systemd-ui-2.ebuild,
+  systemd-ui-9999.ebuild:
+  Use systemd_get_utildir to get the systemd path.
+
+  29 Mar 2013; Michał Górny <mgorny@gentoo.org> -systemd-ui-1.ebuild,
+  systemd-ui-2.ebuild, systemd-ui-9999.ebuild:
+  Use vala.eclass. Drop old.
+
+*systemd-ui-2 (25 Mar 2013)
+
+  25 Mar 2013; Michał Górny <mgorny@gentoo.org> +systemd-ui-2.ebuild:
+  Version bump.
+
+*systemd-ui-9999 (15 Dec 2012)
+
+  15 Dec 2012; Michał Górny <mgorny@gentoo.org> +systemd-ui-9999.ebuild:
+  Import the live ebuild.
+
+*systemd-ui-1 (31 Mar 2012)
+
+  31 Mar 2012; Michał Górny <mgorny@gentoo.org> +systemd-ui-1.ebuild,
+  +metadata.xml:
+  Introduce a separate ebuild for the first release of systemd-ui.

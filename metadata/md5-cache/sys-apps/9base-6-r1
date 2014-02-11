@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare setup
+DESCRIPTION=A port of various original Plan 9 tools for Unix, based on plan9port
+EAPI=5
+HOMEPAGE=http://tools.suckless.org/9base
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=9base MIT
+SLOT=0
+SRC_URI=http://dl.suckless.org/tools/9base-6.tar.gz
+_eclasses_=multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=7c52ddf04509cf72f759f61b1eaa1560

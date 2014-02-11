@@ -1,0 +1,69 @@
+# ChangeLog for x11-drivers/nvidia-drivers
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/ChangeLog,v 1.523 2014/02/08 21:42:26 jer Exp $
+
+*nvidia-drivers-334.16-r4 (08 Feb 2014)
+
+  08 Feb 2014; Jeroen Roovers <jer@gentoo.org>
+  -nvidia-drivers-334.16-r3.ebuild, +nvidia-drivers-334.16-r4.ebuild:
+  Install libnvidia-eglcore.so too (bug #500708 by Mariusz Ceier).
+
+*nvidia-drivers-334.16-r3 (08 Feb 2014)
+
+  08 Feb 2014; Jeroen Roovers <jer@gentoo.org>
+  -nvidia-drivers-334.16-r2.ebuild, +nvidia-drivers-334.16-r3.ebuild:
+  Install libGLESv2.so differently.
+
+*nvidia-drivers-334.16-r2 (07 Feb 2014)
+
+  07 Feb 2014; Jeroen Roovers <jer@gentoo.org>
+  -nvidia-drivers-334.16-r1.ebuild, +nvidia-drivers-334.16-r2.ebuild:
+  Install libnvidia-fbc.so only for native ABI.
+
+  07 Feb 2014; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-334.16-r1.ebuild:
+  Do not install libnvidia-fbc.so (bug #500634).
+
+*nvidia-drivers-334.16-r1 (07 Feb 2014)
+
+  07 Feb 2014; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-334.16.ebuild,
+  +nvidia-drivers-334.16-r1.ebuild:
+  Install some missing libraries.
+
+*nvidia-drivers-334.16 (07 Feb 2014)
+
+  07 Feb 2014; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-334.16.ebuild:
+  Version bump.
+
+  05 Feb 2014; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-304.117.ebuild,
+  nvidia-drivers-304.119.ebuild:
+  Stable for AMD64 x86 too.
+
+*nvidia-drivers-304.119 (27 Jan 2014)
+
+  27 Jan 2014; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-304.119.ebuild:
+  Version bump.
+
+  23 Jan 2014; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-319.76.ebuild,
+  -nvidia-drivers-331.20.ebuild, nvidia-drivers-331.38.ebuild:
+  Stable for AMD64 x86 too.
+
+  17 Jan 2014; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-319.82.ebuild:
+  Superseded by 331.38 for GeForce 820M support.
+
+*nvidia-drivers-331.38 (13 Jan 2014)
+
+  13 Jan 2014; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-331.38.ebuild:
+  Version bump.
+
+*nvidia-drivers-319.82 (10 Jan 2014)
+
+  10 Jan 2014; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-319.82.ebuild:
+  Version bump.
+
+  01 Jan 2014; Andreas K. Huettel <dilfridge@gentoo.org> +ChangeLog-2013:
+  Rotate ChangeLog
+
+  01 Jan 2014; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-304.116.ebuild:
+  Old.
+
+  For previous entries, please see ChangeLog-2013.

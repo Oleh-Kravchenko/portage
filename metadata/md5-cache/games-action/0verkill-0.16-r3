@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=X? ( x11-libs/libXpm ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=a bloody 2D action deathmatch-like game in ASCII-ART
+EAPI=2
+HOMEPAGE=http://artax.karlin.mff.cuni.cz/~brain/0verkill/
+IUSE=X
+KEYWORDS=amd64 ia64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=X? ( x11-libs/libXpm )
+SLOT=0
+SRC_URI=http://artax.karlin.mff.cuni.cz/~brain/0verkill/release/0verkill-0.16.tgz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	40081e8c7e7f7c4f9db349a1d6d52925	games	0e2f69d5415e0363531260d2eabb0826	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=e9f3a238474ee1be06fc6d0258d4b233

@@ -1,0 +1,20 @@
+# ChangeLog for dev-ruby/rb-gsl
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/rb-gsl/ChangeLog,v 1.3 2014/01/13 04:03:21 mrueg Exp $
+
+*rb-gsl-1.15.3.1 (13 Jan 2014)
+
+  13 Jan 2014; Manuel Rüger <mrueg@gentoo.org> +rb-gsl-1.15.3.1.ebuild:
+  Version bump.
+
+*rb-gsl-1.15.3-r1 (30 Nov 2013)
+
+  30 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +rb-gsl-1.15.3-r1.ebuild,
+  -rb-gsl-1.15.3.ebuild:
+  Use gemfile as source.
+
+*rb-gsl-1.15.3 (30 Nov 2013)
+
+  30 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +metadata.xml,
+  +rb-gsl-1.15.3.ebuild:
+  Initial ebuild.

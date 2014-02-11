@@ -1,0 +1,18 @@
+# ChangeLog for dev-python/mwlib-rl
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/mwlib-rl/ChangeLog,v 1.3 2013/11/27 21:37:16 dev-zero Exp $
+
+*mwlib-rl-0.14.4 (27 Nov 2013)
+
+  27 Nov 2013; Tiziano Müller <dev-zero@gentoo.org> +mwlib-rl-0.14.4.ebuild:
+  Version bump.
+
+  01 Jul 2013; Tiziano Müller <dev-zero@gentoo.org> mwlib-rl-0.14.3.ebuild:
+  Only tested with pillow, remove imaging.
+
+*mwlib-rl-0.14.3 (01 Jul 2013)
+
+  01 Jul 2013; Tiziano Müller <dev-zero@gentoo.org>
+  +files/0.14.3-use-system-fonts.patch, +metadata.xml, +mwlib-rl-0.14.3.ebuild:
+  Initial commit, required by recent mwlib/mediawiki to get working pdf-
+  generation solution.

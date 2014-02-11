@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/tcl-8.2 >=dev-tcltk/tcllib-1.2 xml? ( >=dev-libs/libxml2-2.6.9 ) expat? ( dev-libs/expat virtual/libiconv ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13 >=sys-devel/automake-1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Pure Tcl implementation of an XML parser.
+HOMEPAGE=http://tclxml.sourceforge.net/
+IUSE=debug expat threads xml
+KEYWORDS=alpha amd64 ppc sparc x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/tcl-8.2 >=dev-tcltk/tcllib-1.2 xml? ( >=dev-libs/libxml2-2.6.9 ) expat? ( dev-libs/expat virtual/libiconv )
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/tclxml/tclxml-3.1.tar.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	eutils	40081e8c7e7f7c4f9db349a1d6d52925	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=e6550047f32b6c5fb832e66a53169ae4

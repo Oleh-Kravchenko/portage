@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=dev-libs/boost >=dev-libs/glib-2.14.0 =dev-lang/python-2* virtual/pkgconfig doc? ( app-doc/doxygen ) dev-lang/python !dev-lang/python[-threads]
+DESCRIPTION=C++ utility library primarily aimed at audio/musical applications.
+EAPI=4
+HOMEPAGE=http://wiki.drobilla.net/Raul
+IUSE=debug doc test
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/boost >=dev-libs/glib-2.14.0
+SLOT=0
+SRC_URI=http://download.drobilla.net/raul-0.8.0.tar.bz2
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	waf-utils	6fae459bd65a96ab400f7b9dc8a3fc72
+_md5_=12288922b4f8f57185d4f8eee3d4f396

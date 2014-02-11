@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=app-arch/unzip sys-devel/flex sys-devel/bison sys-libs/zlib gnutls? ( net-libs/gnutls ) ssl? ( dev-libs/openssl ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=A cross-platform open source C and C++ SDK to ease the development of SOAP/XML Web services
+EAPI=4
+HOMEPAGE=http://gsoap2.sourceforge.net
+IUSE=doc debug examples ipv6 gnutls +ssl
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 gSOAP
+SLOT=0
+SRC_URI=mirror://sourceforge/gsoap2/gsoap_2.8.12.zip
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	eutils	40081e8c7e7f7c4f9db349a1d6d52925	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=0b42fce5367368b90a407e86f106bbbd

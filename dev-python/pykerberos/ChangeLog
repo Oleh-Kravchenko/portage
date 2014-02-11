@@ -1,0 +1,36 @@
+# ChangeLog for dev-python/pykerberos
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pykerberos/ChangeLog,v 1.8 2013/12/07 14:23:02 pacho Exp $
+
+  07 Dec 2013; Pacho Ramos <pacho@gentoo.org> pykerberos-1.1-r1.ebuild:
+  x86 stable, bug #488744
+
+  13 Nov 2013; Tony Vroon <chainsaw@gentoo.org> pykerberos-1.1-r1.ebuild:
+  Marked stable on AMD64 based on arch testing by Elijah "Armageddon" El
+  Lazkani in bug #488744.
+
+*pykerberos-1.1-r2 (01 Sep 2013)
+
+  01 Sep 2013; Michał Górny <mgorny@gentoo.org> +pykerberos-1.1-r2.ebuild:
+  Convert to distutils-r1.
+
+  21 Feb 2012; Patrick Lauer <patrick@gentoo.org> pykerberos-1.1-r1.ebuild:
+  Restricting jython
+
+  04 Feb 2012; Maxim Koltsov <maksbotan@gentoo.org> metadata.xml:
+  Fix maintainer's email in metadata
+
+*pykerberos-1.1-r1 (25 Jan 2012)
+
+  25 Jan 2012; Jeroen Roovers <jer@gentoo.org> -pykerberos-1.1.ebuild,
+  +pykerberos-1.1-r1.ebuild:
+  Bump the ebuild so everyone can enjoy.
+
+  25 Jan 2012; Jeroen Roovers <jer@gentoo.org> pykerberos-1.1.ebuild:
+  Inherit eutils by William Throwe (bug #400683).
+
+*pykerberos-1.1 (04 Nov 2011)
+
+  04 Nov 2011; Maxim Koltsov <maksbotan@gentoo.org> +pykerberos-1.1.ebuild,
+  +files/PyKerberos-delegation.patch, +metadata.xml:
+  Add dev-python/pykerberos-1.1, bug #388965. Thanks to slepnoga.

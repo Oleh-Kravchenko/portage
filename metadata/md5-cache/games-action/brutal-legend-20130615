@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install nofetch postinst postrm preinst prepare setup unpack
+DEPEND=app-arch/unzip >=sys-apps/sed-4
+DESCRIPTION=Crush skulls, ravage the road in the Deuce, and unleash the power of Heavy Metal to reign down fire from the sky
+EAPI=5
+HOMEPAGE=https://www.ea.com/de/brutal-legend
+KEYWORDS=~amd64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=amd64? ( || ( ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-opengl app-emulation/emul-linux-x86-xlibs ) ( sys-libs/zlib[abi_x86_32] virtual/glu[abi_x86_32] virtual/opengl[abi_x86_32] x11-libs/libX11[abi_x86_32] x11-libs/libXau[abi_x86_32] x11-libs/libXdmcp[abi_x86_32] x11-libs/libXext[abi_x86_32] x11-libs/libxcb[abi_x86_32] ) ) ) x86? ( sys-libs/zlib virtual/glu virtual/opengl x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext x11-libs/libxcb )
+RESTRICT=bindist fetch splitdebug
+SLOT=0
+SRC_URI=BrutalLegend-Linux-2013-06-15-setup.bin
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	40081e8c7e7f7c4f9db349a1d6d52925	games	0e2f69d5415e0363531260d2eabb0826	gnome2-utils	d7c71c6a7d871f567b416a363d65c3dc	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	04385b0f181c42fa9c18ec0e31729d1f	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=9acb795cd4f7e5327f06c7e0cdb51f50

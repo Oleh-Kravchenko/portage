@@ -1,0 +1,57 @@
+# ChangeLog for dev-python/stevedore
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/stevedore/ChangeLog,v 1.12 2013/11/12 06:06:51 prometheanfire Exp $
+
+  12 Nov 2013; Matthew Thode <prometheanfire@gentoo.org>
+  -stevedore-0.9.1.ebuild, stevedore-0.12.ebuild:
+  adding pypy2_0 to stevedore
+
+*stevedore-0.12 (19 Sep 2013)
+
+  19 Sep 2013; Tim Harder <radhermit@gentoo.org> +stevedore-0.12.ebuild:
+  Version bump.
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> stevedore-0.9.1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*stevedore-0.11 (29 Aug 2013)
+
+  29 Aug 2013; Tim Harder <radhermit@gentoo.org> +stevedore-0.11.ebuild:
+  Version bump.
+
+  28 Aug 2013; Agostino Sarubbo <ago@gentoo.org> stevedore-0.9.1.ebuild:
+  Stable for x86, wrt bug #450086
+
+*stevedore-0.10 (08 Aug 2013)
+
+  08 Aug 2013; Tim Harder <radhermit@gentoo.org> -stevedore-0.6.ebuild,
+  -stevedore-0.8-r1.ebuild, +stevedore-0.10.ebuild:
+  Version bump and remove old.
+
+  30 Jul 2013; Agostino Sarubbo <ago@gentoo.org> stevedore-0.9.1.ebuild:
+  Stable for amd64, wrt bug #450086
+
+  16 Jun 2013; Ian Delaney <idella4@gentoo.org> stevedore-0.9.1.ebuild:
+  correct setuotools in deps wrt Bug #473278
+
+*stevedore-0.9.1 (14 Jun 2013)
+
+  14 Jun 2013; Ian Delaney <idella4@gentoo.org> +stevedore-0.9.1.ebuild,
+  stevedore-0.8-r1.ebuild:
+  corrections to 0.8-r1 inc. setting of <setuptools-0.7, fixes Bug #473278, bump
+
+*stevedore-0.8-r1 (19 Apr 2013)
+
+  19 Apr 2013; Ian Delaney <idella4@gentoo.org> +stevedore-0.8-r1.ebuild:
+  migration -> distutils-r1
+
+*stevedore-0.8 (26 Jan 2013)
+
+  26 Jan 2013; Matthew Thode <prometheanfire@gentoo.org> +stevedore-0.8.ebuild:
+  adding stevedore-0.8 since sys-cluster/cinder needs it
+
+*stevedore-0.6 (05 Nov 2012)
+
+  05 Nov 2012; Patrick Lauer <patrick@gentoo.org> +metadata.xml,
+  +stevedore-0.6.ebuild:
+  Initial import, ebuilds by Mark Lewandowski #440806

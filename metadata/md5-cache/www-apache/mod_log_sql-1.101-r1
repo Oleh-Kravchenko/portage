@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst setup
+DEPEND=virtual/mysql dbi? ( dev-db/libdbi ) ssl? ( dev-libs/openssl ) =www-servers/apache-2.2*
+DESCRIPTION=An Apache module for logging to an SQL (MySQL) database.
+HOMEPAGE=http://www.outoforder.cc/projects/apache/mod_log_sql/
+IUSE=dbi ssl
+KEYWORDS=amd64 ppc x86
+LICENSE=Artistic
+RDEPEND=virtual/mysql dbi? ( dev-db/libdbi ) ssl? ( dev-libs/openssl ) =www-servers/apache-2.2*
+SLOT=0
+SRC_URI=http://www.outoforder.cc/downloads/mod_log_sql/mod_log_sql-1.101.tar.bz2
+_eclasses_=apache-module	5c4c90da2d68c2dc8391666824f1293c	depend.apache	1a38534d3f755d1ab1d92ce120bd7dbd	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=b1e9a8ff22e3650626d28fbcbac760a1

@@ -1,0 +1,37 @@
+# ChangeLog for sci-libs/minfx
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-libs/minfx/ChangeLog,v 1.7 2013/10/22 15:11:59 jlec Exp $
+
+*minfx-1.0.5 (22 Oct 2013)
+
+  22 Oct 2013; Justin Lecher <jlec@gentoo.org> +minfx-1.0.5.ebuild:
+  Version Bump
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> minfx-1.0.3-r1.ebuild,
+  minfx-1.0.4.ebuild, minfx-1.0.4_pre98.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*minfx-1.0.4 (13 May 2013)
+
+  13 May 2013; Justin Lecher <jlec@gentoo.org> +minfx-1.0.4.ebuild:
+  Version Bump
+
+  04 Feb 2013; Justin Lecher <jlec@gentoo.org> minfx-1.0.4_pre98.ebuild:
+  Allow py3
+
+*minfx-1.0.4_pre98 (04 Feb 2013)
+
+  04 Feb 2013; Justin Lecher <jlec@gentoo.org> +minfx-1.0.4_pre98.ebuild:
+  Add snapshot from svn
+
+*minfx-1.0.3-r1 (04 Feb 2013)
+
+  04 Feb 2013; Justin Lecher <jlec@gentoo.org> minfx-1.0.3.ebuild,
+  +minfx-1.0.3-r1.ebuild, metadata.xml:
+  Bump to new python eclasses
+
+*minfx-1.0.3 (19 Jul 2012)
+
+  19 Jul 2012; Justin Lecher <jlec@gentoo.org> +minfx-1.0.3.ebuild,
+  +metadata.xml:
+  New addition

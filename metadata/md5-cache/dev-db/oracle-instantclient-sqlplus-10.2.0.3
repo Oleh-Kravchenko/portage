@@ -1,0 +1,12 @@
+DEFINED_PHASES=install nofetch postinst setup unpack
+DEPEND=>=dev-db/oracle-instantclient-basic-10.2.0.3 app-arch/unzip
+DESCRIPTION=Oracle 10g client installation for Linux: SQL*Plus
+HOMEPAGE=http://www.oracle.com/technology/tech/oci/instantclient/index.html
+KEYWORDS=-* amd64 x86
+LICENSE=OTN
+RDEPEND=>=dev-db/oracle-instantclient-basic-10.2.0.3
+RESTRICT=fetch
+SLOT=0
+SRC_URI=amd64? ( instantclient-sqlplus-linux-x86-64-10.2.0.3-20070103.zip ) x86? ( instantclient-sqlplus-linux32-10.2.0.3-20061115.zip )
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=dda96444bae7d06d65e46a9a865c0219

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare test
+DEPEND=dev-lang/perl
+DESCRIPTION=convert filenames to utf8 or any other charset
+EAPI=3
+HOMEPAGE=http://j3e.de/linux/convmv
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=http://j3e.de/linux/convmv/convmv-1.15.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=a0fbeb417209af6af7da82f2add660cd

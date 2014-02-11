@@ -1,0 +1,24 @@
+# ChangeLog for media-libs/opusfile
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-libs/opusfile/ChangeLog,v 1.5 2014/01/01 15:00:18 hwoarang Exp $
+
+  01 Jan 2014; Markos Chandras <hwoarang@gentoo.org> opusfile-0.4.ebuild:
+  Stable on amd64 wrt bug #492908
+
+  08 Dec 2013; Markos Chandras <hwoarang@gentoo.org> opusfile-0.2.ebuild:
+  Stable on amd64 wrt bug #492908
+
+*opusfile-0.4 (29 Nov 2013)
+
+  29 Nov 2013; Lars Wendler <polynomial-c@gentoo.org> opusfile-0.2.ebuild,
+  +opusfile-0.4.ebuild:
+  Version bump with kind permission from hwoarang. Fixed docdir location.
+
+  19 Apr 2013; Agostino Sarubbo <ago@gentoo.org> opusfile-0.2.ebuild:
+  Add ~ppc, wrt bug #466276
+
+*opusfile-0.2 (17 Apr 2013)
+
+  17 Apr 2013; Markos Chandras <hwoarang@gentoo.org> +metadata.xml,
+  +opusfile-0.2.ebuild:
+  Initial commit

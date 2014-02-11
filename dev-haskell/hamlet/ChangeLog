@@ -1,0 +1,24 @@
+# ChangeLog for dev-haskell/hamlet
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/hamlet/ChangeLog,v 1.4 2013/12/11 06:01:18 gienah Exp $
+
+*hamlet-1.1.7.5 (11 Dec 2013)
+
+  11 Dec 2013; Mark Wright <gienah@gentoo.org> +hamlet-1.1.7.5.ebuild:
+  Bump hamlet to 1.1.7.5
+
+*hamlet-1.1.7.3 (20 Oct 2013)
+
+  20 Oct 2013; Mark Wright <gienah@gentoo.org> +hamlet-1.1.7.3.ebuild:
+  Bump hamlet to 1.1.7.3
+
+*hamlet-1.1.7.2 (13 Sep 2013)
+
+  13 Sep 2013; Mark Wright <gienah@gentoo.org> +hamlet-1.1.7.2.ebuild:
+  Bump hamlet to 1.1.7.2
+
+*hamlet-1.1.7.1 (26 Aug 2013)
+
+  26 Aug 2013; Alexander Vershilov <qnikst@gentoo.org> +hamlet-1.1.7.1.ebuild,
+  +metadata.xml:
+  dev-haskell/hamlet: initial layout

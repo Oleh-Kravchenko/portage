@@ -1,0 +1,38 @@
+# ChangeLog for games-arcade/gnome-robots
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-arcade/gnome-robots/ChangeLog,v 1.8 2014/02/06 22:31:36 eva Exp $
+
+*gnome-robots-3.10.2 (06 Feb 2014)
+
+  06 Feb 2014; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-robots-3.10.2.ebuild:
+  Version bump.
+
+*gnome-robots-3.10.0 (24 Dec 2013)
+
+  24 Dec 2013; Pacho Ramos <pacho@gentoo.org> +gnome-robots-3.10.0.ebuild,
+  -gnome-robots-3.8.1.ebuild:
+  Version bump for Gnome 3.10, drop old
+
+  08 Dec 2013; Pacho Ramos <pacho@gentoo.org> gnome-robots-3.8.2.ebuild:
+  x86 stable, bug #478252
+
+  30 Nov 2013; Pacho Ramos <pacho@gentoo.org> gnome-robots-3.8.2.ebuild:
+  amd64 stable, bug #478252
+
+*gnome-robots-3.8.2 (17 Nov 2013)
+
+  17 Nov 2013; Pacho Ramos <pacho@gentoo.org> +gnome-robots-3.8.2.ebuild:
+  Version bump
+
+  06 Nov 2013; Pacho Ramos <pacho@gentoo.org> gnome-robots-3.8.1.ebuild:
+  x86 keyword, bug #476710
+
+  31 Aug 2013; Sergey Popov <pinkbyte@gentoo.org> gnome-robots-3.8.1.ebuild:
+  Add ~arm keyword, wrt bug #476710
+
+*gnome-robots-3.8.1 (30 Jun 2013)
+
+  30 Jun 2013; Pacho Ramos <pacho@gentoo.org> +gnome-robots-3.8.1.ebuild,
+  +metadata.xml:
+  Add game splitted from gnome-games by upstream

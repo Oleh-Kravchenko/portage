@@ -1,0 +1,13 @@
+# ChangeLog for net-p2p/ppcoind
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-p2p/ppcoind/ChangeLog,v 1.2 2014/01/08 06:27:32 vapier Exp $
+
+  08 Jan 2014; Mike Frysinger <vapier@gentoo.org> ppcoind-0.3.0.ebuild:
+  Inherit the user eclass for enewuser/etc...
+
+*ppcoind-0.3.0 (01 Dec 2013)
+
+  01 Dec 2013; Anthony G. Basile <blueness@gentoo.org> +ppcoind-0.3.0.ebuild,
+  +files/ppcoin.conf, +files/ppcoin.confd, +files/ppcoin.initd,
+  +files/ppcoin.service, +files/ppcoind.logrotate, +metadata.xml:
+  Initial commit

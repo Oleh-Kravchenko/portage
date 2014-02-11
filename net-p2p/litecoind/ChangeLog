@@ -1,0 +1,21 @@
+# ChangeLog for net-p2p/litecoind
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-p2p/litecoind/ChangeLog,v 1.3 2014/01/08 06:28:02 vapier Exp $
+
+  08 Jan 2014; Mike Frysinger <vapier@gentoo.org> litecoind-0.8.5.3_rc3.ebuild,
+  litecoind-0.8.6.1.ebuild:
+  Inherit the user eclass for enewuser/etc...
+
+*litecoind-0.8.6.1 (28 Dec 2013)
+
+  28 Dec 2013; Anthony G. Basile <blueness@gentoo.org>
+  +litecoind-0.8.6.1.ebuild:
+  Version bump, bug #494942
+
+*litecoind-0.8.5.3_rc3 (01 Dec 2013)
+
+  01 Dec 2013; Anthony G. Basile <blueness@gentoo.org>
+  +litecoind-0.8.5.3_rc3.ebuild, +files/litecoin.conf, +files/litecoin.confd,
+  +files/litecoin.initd, +files/litecoin.service,
+  +files/litecoin-sys_leveldb.patch, +files/litecoind.logrotate, +metadata.xml:
+  Initial commit

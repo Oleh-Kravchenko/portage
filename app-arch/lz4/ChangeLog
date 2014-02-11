@@ -1,0 +1,56 @@
+# ChangeLog for app-arch/lz4
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-arch/lz4/ChangeLog,v 1.12 2014/02/08 13:34:55 hattya Exp $
+
+  08 Feb 2014; Akinori Hattori <hattya@gentoo.org> lz4-0_p106-r1.ebuild:
+  keyword ~ia64 wrt bug #499468
+
+  06 Feb 2014; Jeroen Roovers <jer@gentoo.org> lz4-0_p106-r1.ebuild:
+  Marked ~hppa (bug #499468).
+
+  06 Feb 2014; Jeroen Roovers <jer@gentoo.org> lz4-0_p106-r1.ebuild,
+  +files/lz4-0_p106-cflags.patch:
+  Do not set -Os/-O3/-march=native (bug #499470).
+
+  06 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> lz4-0_p106-r1.ebuild:
+  Keyword x86, amd64-linux and x86-linux
+
+*lz4-0_p106-r1 (13 Oct 2013)
+
+  13 Oct 2013; Richard Yao <ryao@gentoo.org>
+  +files/lz4-0_p106-install-to-bindir.patch, +lz4-0_p106-r1.ebuild,
+  lz4-9999.ebuild:
+  Introduce app-arch/lz4-0_p106-r1 to replace short-lived app-arch/lz4-0_p106:
+  Path issues are fixed; app-arch/lz4-9999 has been synchronized with app-
+  arch/lz4-0_p106-r1
+
+  13 Oct 2013; Richard Yao <ryao@gentoo.org> -lz4-0_p106.ebuild,
+  lz4-9999.ebuild:
+  Remove lz4-0_p106.ebuild pending a fix for incorrectly installed paths
+
+*lz4-0_p106 (13 Oct 2013)
+
+  13 Oct 2013; Richard Yao <ryao@gentoo.org> +lz4-0_p106.ebuild,
+  lz4-9999.ebuild:
+  Add app-arch/lz4-0_p106 (snapshot of upstream r106), which is initially
+  keyworded on ~amd64 (additional keywords welcome); invoke cmake_src_prepare()
+  in src_prepare()
+
+  13 Oct 2013; Richard Yao <ryao@gentoo.org> lz4-9999.ebuild:
+  Fix build regressions
+
+  10 Oct 2013; Rick Farina <zerochaos@gentoo.org> lz4-9999.ebuild:
+  ship headers and build shared lib for mksquashfs and other things that dep on
+  lz4
+
+  18 Sep 2013; Michał Górny <mgorny@gentoo.org> lz4-9999.ebuild:
+  Fix creating lz4c symlink on amd64.
+
+  10 Aug 2013; Richard Yao <ryao@gentoo.org> lz4-9999.ebuild:
+  Drop ~amd64 keyboard from app-arch/lz4-9999: It should never have been
+  keyworded in the first place. Thanks to radhermit for pointing that out.
+
+*lz4-9999 (07 Aug 2013)
+
+  07 Aug 2013; Richard Yao <ryao@gentoo.org> +lz4-9999.ebuild, +metadata.xml:
+  New package: app-arch/lz4

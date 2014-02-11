@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=dev-libs/glib:2 dev-util/gtk-doc virtual/pkgconfig test? ( media-libs/netpbm ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool virtual/fortran
+DESCRIPTION=GNU Triangulated Surface Library
+EAPI=5
+HOMEPAGE=http://gts.sourceforge.net/
+IUSE=doc examples static-libs test
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~x86 ~amd64-fbsd ~amd64-linux ~x86-linux
+LICENSE=LGPL-2
+RDEPEND=dev-libs/glib:2 virtual/fortran
+RESTRICT=test
+SLOT=0
+SRC_URI=http://gts.sourceforge.net/tarballs/gts-snapshot-121130.tar.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	autotools-utils	559ed17194292ec42d68145dcca2fa32	eutils	40081e8c7e7f7c4f9db349a1d6d52925	fortran-2	db8710b355fc5598015c4bc3aad3bdb0	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=97119cd63dfe2f6ca9a25dca0c7ec83b

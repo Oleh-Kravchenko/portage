@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-cpp/gtkmm:2.4 sndfile? ( media-libs/libsndfile ) virtual/pkgconfig
+DESCRIPTION=A fast interactive 2D plotter
+EAPI=1
+HOMEPAGE=http://quickplot.sourceforge.net/
+IUSE=sndfile
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-cpp/gtkmm:2.4 sndfile? ( media-libs/libsndfile )
+SLOT=0
+SRC_URI=mirror://sourceforge/quickplot/quickplot-0.8.13.tar.bz2
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=1b1f4a1928e35c77ef67bbf04e08bbd2

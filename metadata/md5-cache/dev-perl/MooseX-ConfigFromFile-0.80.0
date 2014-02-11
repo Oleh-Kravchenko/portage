@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Moose-0.350.0 dev-perl/MooseX-Getopt dev-perl/MooseX-Types-Path-Tiny dev-perl/Try-Tiny dev-perl/namespace-autoclean >=virtual/perl-ExtUtils-MakeMaker-6.360.0 test? ( dev-perl/Path-Class dev-perl/Path-Tiny dev-perl/Test-CheckDeps dev-perl/Test-Deep dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.420.0 >=dev-perl/Test-NoWarnings-1.40.0 dev-perl/Test-Requires dev-perl/Test-Without-Module ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=An abstract Moose role for setting attributes from a configfile
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/MooseX-ConfigFromFile/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=>=dev-perl/Moose-0.350.0 dev-perl/MooseX-Getopt dev-perl/MooseX-Types-Path-Tiny dev-perl/Try-Tiny dev-perl/namespace-autoclean dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/MooseX-ConfigFromFile-0.08.tar.gz
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	1d50a6ea2d8d319e3205b005b3ed0dfa	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=0289e4fa27e882e2e9cb0c684e41cd9f

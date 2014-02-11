@@ -1,0 +1,19 @@
+# ChangeLog for dev-python/errorhandler
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/errorhandler/ChangeLog,v 1.3 2013/06/07 06:16:38 idella4 Exp $
+
+*errorhandler-1.1.1-r1 (07 Jun 2013)
+
+  07 Jun 2013; Ian Delaney <idella4@gentoo.org> +errorhandler-1.1.1-r1.ebuild,
+  +files/docs.patch, -errorhandler-1.1.1.ebuild:
+  revbump, migrate -> distutils-r1, patch for docs, rm old
+
+  14 Nov 2012; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  Updating maintainer, metadata.xml
+
+*errorhandler-1.1.1 (27 Apr 2012)
+
+  27 Apr 2012; Theo Chatzimichos <tampakrap@gentoo.org>
+  +errorhandler-1.1.1.ebuild, +files/errorhandler-1.1.1-test.patch,
+  +metadata.xml:
+  Initial commit, ebuild by idella4

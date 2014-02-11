@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/qmail >=net-mail/vpopmail-5.3 net-mail/autorespond maildrop? ( >=mail-filter/maildrop-2.0.1 )
+DESCRIPTION=A web interface for managing a qmail system with virtual domains
+HOMEPAGE=http://www.inter7.com/qmailadmin.html
+IUSE=maildrop
+KEYWORDS=amd64 arm ~hppa ppc s390 sh sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/qmail >=net-mail/vpopmail-5.3 net-mail/autorespond maildrop? ( >=mail-filter/maildrop-2.0.1 )
+RESTRICT=userpriv
+SLOT=0
+SRC_URI=mirror://sourceforge/qmailadmin/qmailadmin-1.2.10.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=80e4146bcac829fa38b52ddf46576f4c

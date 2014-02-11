@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=!media-sound/aacplusenc fftw? ( sci-libs/fftw:3.0 ) app-arch/unzip virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=HE-AAC+ v2 library, based on the reference implementation
+EAPI=5
+HOMEPAGE=http://tipok.org.ua/node/17
+IUSE=bindist fftw static-libs
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~x86 ~amd64-fbsd ~x86-fbsd
+LICENSE=LGPL-2.1
+RDEPEND=!media-sound/aacplusenc fftw? ( sci-libs/fftw:3.0 )
+REQUIRED_USE=!bindist
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~aballier/libaacplus-2.0.2.tar.gz http://tipok.ath.cx/downloads/media/aac+/libaacplus/libaacplus-2.0.2.tar.gz http://217.20.164.161/~tipok/aacplus/libaacplus-2.0.2.tar.gz http://www.3gpp.org/ftp/Specs/archive/26_series/26.410/26410-800.zip
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	autotools-utils	559ed17194292ec42d68145dcca2fa32	eutils	40081e8c7e7f7c4f9db349a1d6d52925	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=0de9d0ba3e209c382589478b9b22f52c

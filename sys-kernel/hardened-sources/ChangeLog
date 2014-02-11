@@ -1,0 +1,85 @@
+# ChangeLog for sys-kernel/hardened-sources
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/hardened-sources/ChangeLog,v 1.985 2014/02/06 22:20:32 blueness Exp $
+
+*hardened-sources-3.13.1-r1 (06 Feb 2014)
+
+  06 Feb 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.13.1-r1.ebuild:
+  vanilla-3.13.1 + genpatches-3.13-3 + grsecurity-3.0-3.13.1-201402052349
+
+*hardened-sources-3.2.54-r5 (06 Feb 2014)
+
+  06 Feb 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.2.54-r5.ebuild:
+  vanilla-3.2.54 + genpatches-3.2-16 + grsecurity-3.0-3.2.54-201402052347
+
+*hardened-sources-3.13.1 (01 Feb 2014)
+
+  01 Feb 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.13.1.ebuild:
+  vanilla-3.13.1 + genpatches-3.13-3 + grsecurity-3.0-3.13.1-201401301657
+
+*hardened-sources-3.2.54-r4 (01 Feb 2014)
+
+  01 Feb 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.2.54-r4.ebuild:
+  vanilla-3.2.54 + genpatches-3.2-16 + grsecurity-3.0-3.2.54-201401281850
+
+*hardened-sources-3.12.8-r1 (22 Jan 2014)
+
+  22 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.12.8-r1.ebuild:
+  vanilla-3.12.8 + genpatches-3.12-9 + grsecurity-3.0-3.12.8-201401191015
+
+*hardened-sources-3.2.54-r3 (22 Jan 2014)
+
+  22 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.2.54-r3.ebuild:
+  vanilla-3.2.54 + genpatches-3.2-16 + grsecurity-3.0-3.2.54-201401191012
+
+*hardened-sources-3.10.1-r1 (20 Jan 2014)
+
+  20 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.10.1-r1.ebuild:
+  Restored by request
+
+  19 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  -hardened-sources-2.6.32-r178.ebuild, -hardened-sources-3.10.1-r1.ebuild,
+  -hardened-sources-3.2.48-r4.ebuild:
+  Remove older stables
+
+  19 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  -hardened-sources-2.6.32-r188.ebuild, -hardened-sources-3.12.6-r4.ebuild,
+  -hardened-sources-3.2.53-r5.ebuild, -hardened-sources-3.2.54.ebuild:
+  Remove older unstables
+
+*hardened-sources-3.12.8 (19 Jan 2014)
+
+  19 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.12.8.ebuild:
+  vanilla-3.12.8 + genpatches-3.12-9 + grsecurity-3.0-3.12.8-201401160931
+
+*hardened-sources-3.2.54-r2 (19 Jan 2014)
+
+  19 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.2.54-r2.ebuild:
+  vanilla-3.2.54 + genpatches-3.2-16 + grsecurity-3.0-3.2.54-201401160931
+
+*hardened-sources-3.2.54 (06 Jan 2014)
+
+  06 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.2.54.ebuild:
+  vanilla-3.2.54 + genpatches-3.2-16 + grsecurity-3.0-3.2.54-201401051649
+
+*hardened-sources-3.12.6-r4 (04 Jan 2014)
+
+  04 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-3.12.6-r4.ebuild, -hardened-sources-3.12.6-r1.ebuild,
+  -hardened-sources-3.12.6-r2.ebuild, -hardened-sources-3.12.6-r3.ebuild:
+  vanilla-3.12.6 + genpatches-3.12-7 + grsecurity-3.0-3.12.6-201401021726
+
+  01 Jan 2014; Andreas K. Huettel <dilfridge@gentoo.org> +ChangeLog-2013:
+  Rotate ChangeLog
+
+  For previous entries, please see ChangeLog-2013.

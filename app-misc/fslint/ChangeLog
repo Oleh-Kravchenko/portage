@@ -1,0 +1,27 @@
+# ChangeLog for app-misc/fslint
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-misc/fslint/ChangeLog,v 1.6 2014/01/16 17:50:42 jer Exp $
+
+  16 Jan 2014; Jeroen Roovers <jer@gentoo.org> fslint-2.42.ebuild,
+  metadata.xml:
+  Spelling. Drop longdescription (== DESCRIPTION).
+
+  28 Aug 2013; Agostino Sarubbo <ago@gentoo.org> fslint-2.42.ebuild:
+  Stable for x86, wrt bug #481946
+
+  23 Aug 2013; Agostino Sarubbo <ago@gentoo.org> fslint-2.42.ebuild:
+  Stable for amd64, wrt bug #481946
+
+  09 Apr 2013; Tom Wijsman <TomWij@gentoo.org> fslint-2.42.ebuild:
+  No PN variable in HOMEPAGE as per the dev manual.
+
+  29 Mar 2013; Tom Wijsman <TomWij@gentoo.org> fslint-2.42.ebuild:
+  Removed fperms calls, instead the doins calls have been replaced by doexe
+  calls. Reported by jannis, fix by rej. Fixes bug #463708.
+
+*fslint-2.42 (28 Mar 2013)
+
+  28 Mar 2013; Tom Wijsman <TomWij@gentoo.org> +fslint-2.42.ebuild,
+  +metadata.xml:
+  New ebuild for fslint, from sunrise overlay. EAPI 5. Made install function
+  more specific and give binaries +x permissions. Fixes bug #33341.

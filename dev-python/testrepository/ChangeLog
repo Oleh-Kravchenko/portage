@@ -1,0 +1,32 @@
+# ChangeLog for dev-python/testrepository
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/testrepository/ChangeLog,v 1.5 2014/01/03 15:09:39 idella4 Exp $
+
+  03 Jan 2014; Ian Delaney <idella4@gentoo.org> testrepository-0.0.17-r2.ebuild,
+  testrepository-0.0.18.ebuild:
+  pypy support dropped (unrequired and problematic in test phase), set for
+  IN_SOURCE_BUILD (required for test phase), test phase fixed
+
+*testrepository-0.0.17-r2 (02 Jan 2014)
+*testrepository-0.0.18 (02 Jan 2014)
+
+  02 Jan 2014; Ian Delaney <idella4@gentoo.org>
+  +testrepository-0.0.17-r2.ebuild, +testrepository-0.0.18.ebuild,
+  -testrepository-0.0.17.ebuild, testrepository-0.0.17-r1.ebuild:
+  tidy up, remove old, revbump; add py3 & pypy support, upgraded accordingly,
+  bump
+
+  13 Dec 2013; Ian Delaney <idella4@gentoo.org> testrepository-0.0.17-r1.ebuild:
+  revert of entry of dep subunit
+
+*testrepository-0.0.17-r1 (12 Dec 2013)
+
+  12 Dec 2013; Ian Delaney <idella4@gentoo.org>
+  +testrepository-0.0.17-r1.ebuild, metadata.xml:
+  switch herd, virtual re-write
+
+*testrepository-0.0.17 (17 Sep 2013)
+
+  17 Sep 2013; Matthew Thode <prometheanfire@gentoo.org> +metadata.xml,
+  +testrepository-0.0.17.ebuild:
+  testrepository adding

@@ -1,0 +1,41 @@
+# ChangeLog for dev-libs/libgit2-glib
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libgit2-glib/ChangeLog,v 1.9 2014/02/08 13:47:13 jlec Exp $
+
+*libgit2-glib-0.0.10 (08 Feb 2014)
+
+  08 Feb 2014; Justin Lecher <jlec@gentoo.org> +libgit2-glib-0.0.10.ebuild:
+  Version Bump, #497518
+
+  08 Dec 2013; Pacho Ramos <pacho@gentoo.org> libgit2-glib-0.0.6.ebuild:
+  x86 stable, bug #478252
+
+  08 Dec 2013; Pacho Ramos <pacho@gentoo.org> libgit2-glib-0.0.6.ebuild:
+  Sometimes repository test gets stuck, check again on next major release
+
+  30 Nov 2013; Pacho Ramos <pacho@gentoo.org> libgit2-glib-0.0.6.ebuild:
+  amd64 stable, bug #478252
+
+  13 Oct 2013; Pacho Ramos <pacho@gentoo.org> -libgit2-glib-0.0.4.ebuild,
+  libgit2-glib-0.0.6.ebuild:
+  Also compatible with python3_3
+
+  25 Aug 2013; Markus Meier <maekke@gentoo.org> libgit2-glib-0.0.6.ebuild:
+  add ~x86, bug #473736
+
+*libgit2-glib-0.0.6 (02 Jul 2013)
+
+  02 Jul 2013; Pacho Ramos <pacho@gentoo.org> +libgit2-glib-0.0.6.ebuild,
+  -libgit2-glib-0.0.2.ebuild:
+  Version bump, drop old
+
+*libgit2-glib-0.0.4 (25 Jun 2013)
+
+  25 Jun 2013; Pacho Ramos <pacho@gentoo.org> +libgit2-glib-0.0.4.ebuild:
+  Version bump
+
+*libgit2-glib-0.0.2 (18 Jun 2013)
+
+  18 Jun 2013; Pacho Ramos <pacho@gentoo.org> +libgit2-glib-0.0.2.ebuild,
+  +metadata.xml:
+  Import libgit2-glib as required by latest gedit-plugins

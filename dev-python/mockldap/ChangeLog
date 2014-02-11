@@ -1,0 +1,28 @@
+# ChangeLog for dev-python/mockldap
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/mockldap/ChangeLog,v 1.5 2013/09/21 08:52:53 tampakrap Exp $
+
+  21 Sep 2013; Theo Chatzimichos <tampakrap@gentoo.org> -mockldap-0.1.1.ebuild,
+  -mockldap-0.1.2.ebuild, -mockldap-0.1.ebuild, mockldap-0.1.4.ebuild:
+  Add py2.6 support
+
+*mockldap-0.1.4 (20 Sep 2013)
+
+  20 Sep 2013; Pavlos Ratis <dastergon@gentoo.org> +mockldap-0.1.4.ebuild:
+  Version bump to 0.1.4.
+
+*mockldap-0.1.2 (19 Sep 2013)
+
+  19 Sep 2013; Michał Górny <mgorny@gentoo.org> +mockldap-0.1.2.ebuild:
+  Version bump.
+
+*mockldap-0.1.1 (09 Sep 2013)
+
+  09 Sep 2013; Michał Górny <mgorny@gentoo.org> +mockldap-0.1.1.ebuild:
+  Version bump.
+
+*mockldap-0.1 (08 Sep 2013)
+
+  08 Sep 2013; Michał Górny <mgorny@gentoo.org> +metadata.xml,
+  +mockldap-0.1.ebuild:
+  Package the initial release of mockldap.

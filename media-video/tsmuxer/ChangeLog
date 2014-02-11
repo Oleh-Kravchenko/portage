@@ -1,0 +1,47 @@
+# ChangeLog for media-video/tsmuxer
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-video/tsmuxer/ChangeLog,v 1.11 2013/12/30 08:10:35 aballier Exp $
+
+  30 Dec 2013; Alexis Ballier <aballier@gentoo.org> tsmuxer-1.10.6-r1.ebuild:
+  update multilib deps to use multilib converted packages when available. bug
+  #489058 by Michael Mair-Keimberger (iamnr3)
+
+  21 Jul 2013; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup due #92799
+
+  02 Mar 2013; Markos Chandras <hwoarang@gentoo.org> tsmuxer-1.10.6-r1.ebuild:
+  Move Qt dependencies to the new category
+
+  24 Sep 2012; Mike Frysinger <vapier@gentoo.org> tsmuxer-1.10.6-r1.ebuild:
+  QA_DT_HASH (old/deprecated) -> QA_FLAGS_IGNORED (new hotness).
+
+  21 May 2012; Samuli Suominen <ssuominen@gentoo.org> tsmuxer-1.10.6-r1.ebuild:
+  inherit eutils for make_desktop_entry
+
+  25 Oct 2011; Stefan Briesenick <sbriesen@gentoo.org>
+  tsmuxer-1.10.6-r1.ebuild:
+  fixing $HOMEPAGE, some ebuild cleanups, solving bug #388393.
+
+  10 Jul 2011; Stefan Briesenick <sbriesen@gentoo.org>
+  tsmuxer-1.10.6-r1.ebuild, -files/icon.png:
+  icon.png moved to distfiles
+
+  06 Jan 2011; Mike Frysinger <vapier@gentoo.org> tsmuxer-1.10.6-r1.ebuild:
+  Update upx-bin DEPEND after package move.
+
+  16 Oct 2010; Stefan Briesenick <sbriesen@gentoo.org>
+  tsmuxer-1.10.6-r1.ebuild:
+  added libpng:1.2 dependency, solving bug #340227.
+
+*tsmuxer-1.10.6-r1 (30 Jul 2010)
+
+  30 Jul 2010; Stefan Briesenick <sbriesen@gentoo.org>
+  +tsmuxer-1.10.6-r1.ebuild, metadata.xml:
+  reworked ebuild, added missing dependencies, decompress executables with
+  upx. thanks to beandog@gentoo.org
+
+*tsmuxer-1.10.6 (28 Jul 2010)
+
+  28 Jul 2010; Stefan Briesenick <sbriesen@gentoo.org>
+  +tsmuxer-1.10.6.ebuild, +files/icon.png, +metadata.xml:
+  initial commit

@@ -1,0 +1,31 @@
+# ChangeLog for dev-python/selenium
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/selenium/ChangeLog,v 1.6 2014/01/25 09:55:33 radhermit Exp $
+
+*selenium-2.39.0 (25 Jan 2014)
+
+  25 Jan 2014; Tim Harder <radhermit@gentoo.org> +selenium-2.39.0.ebuild:
+  Version bump.
+
+  24 Sep 2013; Mike Frysinger <vapier@gentoo.org> selenium-2.26.0.ebuild,
+  selenium-2.29.0.ebuild:
+  Add arm love for ChromiumOS.
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> selenium-2.29.0.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+  24 Jan 2013; Tim Harder <radhermit@gentoo.org> selenium-2.29.0.ebuild,
+  metadata.xml:
+  Try to use a more fnmatch-like pattern for QA_PREBUILT and remove whitespace
+  from metadata.
+
+*selenium-2.29.0 (24 Jan 2013)
+
+  24 Jan 2013; Tim Harder <radhermit@gentoo.org> +selenium-2.29.0.ebuild:
+  Version bump. Migrate to distutils-r1 and set QA_PREBUILT for bug #450994.
+
+*selenium-2.26.0 (30 Nov 2012)
+
+  30 Nov 2012; Ian Delaney <idella4@gentoo.org> +metadata.xml,
+  +selenium-2.26.0.ebuild:
+  New package, initial ebuild written by me, requested by tampakrap

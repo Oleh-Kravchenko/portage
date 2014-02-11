@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=dev-db/postgresql-base:9.2 !iodbc? ( dev-db/unixODBC ) iodbc? ( dev-db/libiodbc ) ssl? ( dev-libs/openssl )
+DESCRIPTION=Official ODBC driver for PostgreSQL
+EAPI=4
+HOMEPAGE=http://www.postgresql.org/
+IUSE=doc iodbc ssl threads unicode
+KEYWORDS=~x86 ~amd64
+LICENSE=LGPL-2
+RDEPEND=dev-db/postgresql-base:9.2 !iodbc? ( dev-db/unixODBC ) iodbc? ( dev-db/libiodbc ) ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=mirror://postgresql/odbc/versions/src/psqlodbc-09.02.0100.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=4833e3cb6975aa86b52f8ab0fb4ad90a

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-util/diffstat dev-util/patchutils sys-apps/diffutils sys-apps/findutils virtual/awk sys-apps/grep sys-apps/less sys-apps/sed sys-apps/coreutils sys-devel/patch sys-apps/groff test? ( sys-process/time ) >=sys-apps/sed-4
+DESCRIPTION=program for applying patches that patch cannot apply because of conflicting changes
+EAPI=3
+HOMEPAGE=http://neil.brown.name/wiggle http://neil.brown.name/git?p=wiggle
+IUSE=test
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=dev-util/diffstat dev-util/patchutils sys-apps/diffutils sys-apps/findutils virtual/awk sys-apps/grep sys-apps/less sys-apps/sed sys-apps/coreutils sys-devel/patch
+SLOT=0
+SRC_URI=http://neil.brown.name/wiggle/wiggle-0.8.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	fixheadtails	f96922acc9287f1e889a1e50a6c8986e	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=022eec739ceb1693a45ff567b14e1a72

@@ -1,0 +1,29 @@
+# ChangeLog for sys-apps/roccat-tools
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/roccat-tools/ChangeLog,v 1.5 2014/01/08 06:15:29 vapier Exp $
+
+  08 Jan 2014; Mike Frysinger <vapier@gentoo.org> roccat-tools-0.20.0.ebuild,
+  roccat-tools-1.0.0.ebuild, roccat-tools-1.1.0.ebuild:
+  Inherit the user eclass for enewuser/etc...
+
+  13 Dec 2013; Markos Chandras <hwoarang@gentoo.org> roccat-tools-1.0.0.ebuild,
+  roccat-tools-1.1.0.ebuild:
+  Fix broken package installation due to missing roccat group. Patch by poncho
+  on bug #494102
+
+*roccat-tools-1.1.0 (30 Nov 2013)
+*roccat-tools-1.0.0 (30 Nov 2013)
+
+  30 Nov 2013; Markos Chandras <hwoarang@gentoo.org> +roccat-tools-1.0.0.ebuild,
+  +roccat-tools-1.1.0.ebuild, files/README.gentoo:
+  Version bump by Dmitry Pisklov <dpisklov@gmail.com>. Bug #492810
+
+  09 Sep 2013; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Fix maintainer spelling
+
+*roccat-tools-0.20.0 (08 Sep 2013)
+
+  08 Sep 2013; Markos Chandras <hwoarang@gentoo.org> +files/README.gentoo,
+  +metadata.xml, +roccat-tools-0.20.0.ebuild:
+  Initial commit. Ebuild by Dmitry Pisklov <dpisklov@gmail.com>. He will also be
+  the maintainer of the package. Bug #395171

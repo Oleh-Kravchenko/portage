@@ -1,0 +1,9 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/profiles/base/package.mask,v 1.64 2014/02/02 09:49:34 swift Exp $
+
+# Anthony G. Basile <blueness@gentoo.org> (15 Jun 2013)
+# Make sure sys-libs/musl is only available for musl profiles or
+# where the user explicitly unmasks it as using it incorrectly
+# can break a system.  It is still available with crossdev.
+sys-libs/musl

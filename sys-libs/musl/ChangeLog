@@ -1,0 +1,81 @@
+# ChangeLog for sys-libs/musl
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-libs/musl/ChangeLog,v 1.17 2014/01/27 16:11:07 blueness Exp $
+
+  27 Jan 2014; Anthony G. Basile <blueness@gentoo.org> musl-0.9.15.ebuild,
+  musl-9999.ebuild:
+  Add nls support with gettext
+
+  23 Jan 2014; Anthony G. Basile <blueness@gentoo.org> musl-0.9.15.ebuild,
+  musl-9999.ebuild:
+  RDEPEND on sys-apps/getent to provide user/group management
+
+  23 Jan 2014; Anthony G. Basile <blueness@gentoo.org> -musl-0.9.14.ebuild:
+  Remove older version
+
+*musl-0.9.15 (14 Jan 2014)
+
+  14 Jan 2014; Anthony G. Basile <blueness@gentoo.org> +musl-0.9.15.ebuild,
+  -musl-0.9.13.ebuild:
+  Version bump, drop oldest unstable
+
+*musl-0.9.14 (24 Sep 2013)
+
+  24 Sep 2013; Anthony G. Basile <blueness@gentoo.org> +musl-0.9.14.ebuild,
+  -musl-0.9.12.ebuild:
+  Version bump, drop oldest unstable
+
+*musl-0.9.13 (31 Aug 2013)
+
+  31 Aug 2013; Anthony G. Basile <blueness@gentoo.org> +musl-0.9.13.ebuild:
+  Version bump
+
+  09 Aug 2013; Anthony G. Basile <blueness@gentoo.org> musl-0.9.12.ebuild,
+  musl-9999.ebuild:
+  Keyword ~x86
+
+  09 Aug 2013; Anthony G. Basile <blueness@gentoo.org> -musl-0.9.10.ebuild,
+  -musl-0.9.11.ebuild:
+  Remove older versions
+
+*musl-0.9.12 (30 Jul 2013)
+
+  30 Jul 2013; Anthony G. Basile <blueness@gentoo.org> +musl-0.9.12.ebuild:
+  Version bump
+
+*musl-0.9.11 (30 Jun 2013)
+
+  30 Jun 2013; Anthony G. Basile <blueness@gentoo.org> +musl-0.9.11.ebuild,
+  metadata.xml:
+  Version bump
+
+  13 Jun 2013; Anthony G. Basile <blueness@gentoo.org> -musl-0.9.9.ebuild,
+  musl-0.9.10.ebuild, musl-9999.ebuild:
+  Remove older version, fix incorrect $S path
+
+  14 Apr 2013; Anthony G. Basile <blueness@gentoo.org> ChangeLog:
+  Fix gpg signing of Manifest
+
+*musl-0.9.10 (14 Apr 2013)
+
+  14 Apr 2013; Anthony G. Basile <blueness@gentoo.org> +musl-0.9.10.ebuild:
+  Version bump
+
+*musl-0.9.9 (23 Feb 2013)
+
+  23 Feb 2013; Anthony G. Basile <blueness@gentoo.org> +musl-0.9.9.ebuild:
+  Add release 0.9.9, bug #458846
+
+  26 Dec 2012; Anthony G. Basile <blueness@gentoo.org> metadata.xml,
+  musl-9999.ebuild:
+  Added ~mips and removed some lint
+
+  25 Dec 2012; Anthony G. Basile <blueness@gentoo.org> metadata.xml,
+  musl-9999.ebuild:
+  Correct minor typo, add myself as co-maintainer
+
+*musl-9999 (25 Dec 2012)
+
+  25 Dec 2012; Luca Barbato <lu_zero@gentoo.org> +musl-9999.ebuild,
+  +metadata.xml:
+  Initial commit

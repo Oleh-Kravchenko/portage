@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=sys-devel/make dev-lang/perl !<sys-devel/gettext-0.18.1.1-r3 =sys-devel/automake-1.9* >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Open source PAM library.
+EAPI=2
+HOMEPAGE=http://www.openpam.org/
+IUSE=debug vim-syntax
+KEYWORDS=~amd64-fbsd ~sparc-fbsd ~x86-fbsd
+LICENSE=BSD
+PDEPEND=sys-auth/pambase vim-syntax? ( app-vim/pam-syntax )
+RDEPEND=!sys-libs/pam
+SLOT=0
+SRC_URI=mirror://sourceforge/openpam/openpam-20120526.tar.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	eutils	40081e8c7e7f7c4f9db349a1d6d52925	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=150d4054e093dd1021131f3504de2415

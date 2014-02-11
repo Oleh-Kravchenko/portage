@@ -1,0 +1,101 @@
+#!/sbin/runscript
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+RUNDIR=/var/run/sabnzbd
+
+depend() {
+    need net
+}
+
+get_var() {
+    echo $(sed -n \
+        '/^\[misc]/,/^'$1'/ s/^'$1' = \([[:alnum:].]\+\)[\r|\n|\r\n]*$/\1/p' \
+        ${SABNZBD_CONFIGFILE})
+}
+
+get_port() {
+    if [ "$(get_var 'enable_https')" == "1" ]; then
+        echo $(get_var 'https_port')
+    else
+        echo $(get_var 'port')
+    fi
+}
+
+get_addr() {
+    local host=$(get_var 'host')
+    local port=$(get_port)
+    local protocol
+
+    [ "${host}" == "0.0.0.0" ] && host=localhost
+    if [ "$(get_var 'enable_https')" == "1" ]; then
+        protocol="https"
+    else
+        protocol="http"
+    fi
+
+    echo ${protocol}://${host}:${port}
+}
+
+get_pidfile() {
+    local port=$(get_port)
+    echo "${RUNDIR}/sabnzbd-${port}.pid"
+}
+
+start() {
+    ebegin "Starting SABnzbd"
+
+    checkpath -q -d -o ${SABNZBD_USER}:${SABNZBD_GROUP} -m 0770 "${RUNDIR}"
+
+    start-stop-daemon \
+        --quiet \
+        --start \
+        --user ${SABNZBD_USER} \
+        --group ${SABNZBD_GROUP} \
+        --name sabnzbd \
+        --background \
+        --pidfile $(get_pidfile) \
+        --exec /usr/bin/sabnzbd \
+        -- \
+        --config-file ${SABNZBD_CONFIGFILE} \
+        --logging ${SABNZBD_LOGGING} \
+        --daemon \
+        --pid ${RUNDIR}
+
+    eend $?
+}
+
+start_pre() {
+    if [ "$RC_CMD" == "restart" ]; then
+        local pidfile=$(get_pidfile)
+        while [ -e ${pidfile} ]; do
+            sleep 1
+        done
+    fi
+
+    return 0
+}
+
+stop() {
+    local api_key=$(get_var 'api_key')
+    local addr=$(get_addr)
+    local pidfile=$(get_pidfile)
+    local rc=1
+
+    ebegin "Stopping SABnzbd @ ${addr}"
+
+    # SABnzbd will return "ok" if shutdown is successful
+    rc=$(/usr/bin/curl -k -s "${addr}/sabnzbd/api?mode=shutdown&apikey=${api_key}")
+    if [ "${rc}" == "ok" ]; then
+		rc=0
+	else
+        einfo "Falling back to SIGTERM, this may not work if you restarted via the web interface"
+        start-stop-daemon \
+            --stop \
+            --pidfile ${pidfile} \
+            --retry SIGTERM/1/SIGKILL/5
+        rc=$?
+    fi
+
+    eend ${rc}
+}

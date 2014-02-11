@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install nofetch prepare setup
+DEPEND==dev-lang/tk-8.5*[-truetype] dev-lang/perl dev-python/numpy sci-libs/netcdf virtual/opengl >=x11-libs/fltk-1.1.10-r2:1 x11-libs/libXft x11-libs/libXi cuda? ( >=dev-util/nvidia-cuda-toolkit-3.1 ) xinerama? ( x11-libs/libXinerama ) dev-lang/swig =dev-lang/python-2*
+DESCRIPTION=Visual Molecular Dynamics
+EAPI=4
+HOMEPAGE=http://www.ks.uiuc.edu/Research/vmd/
+IUSE=cuda msms povray tachyon xinerama
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=vmd
+RDEPEND==dev-lang/tk-8.5*[-truetype] dev-lang/perl dev-python/numpy sci-libs/netcdf virtual/opengl >=x11-libs/fltk-1.1.10-r2:1 x11-libs/libXft x11-libs/libXi cuda? ( >=dev-util/nvidia-cuda-toolkit-3.1 ) xinerama? ( x11-libs/libXinerama ) sci-biology/stride sci-chemistry/surf x11-terms/xterm msms? ( sci-chemistry/msms-bin ) povray? ( media-gfx/povray ) tachyon? ( media-gfx/tachyon ) =dev-lang/python-2*
+RESTRICT=fetch
+SLOT=0
+SRC_URI=mirror://gentoo/vmd-1.9.1-gentoo-patches.tar.xz vmd-1.9.1.src.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=3adf303361cc697df18c0a5903cafe98

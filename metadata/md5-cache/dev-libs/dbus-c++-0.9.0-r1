@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=sys-apps/dbus ecore? ( dev-libs/ecore ) glib? ( dev-libs/glib ) doc? ( app-doc/doxygen ) dev-util/cppunit virtual/pkgconfig
+DESCRIPTION=provide a C++ API for D-BUS
+EAPI=4
+HOMEPAGE=http://sourceforge.net/projects/dbus-cplusplus/ http://sourceforge.net/apps/mediawiki/dbus-cplusplus/index.php?title=Main_Page
+IUSE=doc ecore glib static-libs test
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=sys-apps/dbus ecore? ( dev-libs/ecore ) glib? ( dev-libs/glib )
+SLOT=0
+SRC_URI=mirror://sourceforge/dbus-cplusplus/libdbus-c++-0.9.0.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=6b1051b1060bb40388403c34e2baba91

@@ -1,0 +1,17 @@
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/profiles/arch/amd64-fbsd/package.use.mask,v 1.17 2013/12/02 21:45:17 pacho Exp $
+
+# Pacho Ramos <pacho@gentoo.org> (02 Dec 2013)
+# Missing keywords, bug #493156
+media-libs/libgphoto2 serial
+
+# nvidia-driver uses acpid
+x11-drivers/nvidia-drivers acpi
+
+# Needs emul libs and the package isnt multilib at all for FreeBSD x86_64
+x11-drivers/nvidia-drivers multilib
+
+# requires nvidia-cg-toolkit which is not available on bsd
+# see http://developer.nvidia.com/cg-toolkit-download
+media-libs/libprojectm video_cards_nvidia

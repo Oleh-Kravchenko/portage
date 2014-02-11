@@ -1,0 +1,13 @@
+# ChangeLog for games-emulation/pcsxr
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-emulation/pcsxr/ChangeLog,v 1.2 2013/12/11 19:07:06 mgorny Exp $
+
+  11 Dec 2013; Michał Górny <mgorny@gentoo.org> pcsxr-1.9.94.ebuild:
+  Pass missing --datarootdir.
+
+*pcsxr-1.9.94 (11 Dec 2013)
+
+  11 Dec 2013; Michał Górny <mgorny@gentoo.org>
+  +files/pcsxr-1.9.94-disable-sdl2.patch,
+  +files/pcsxr-1.9.94-install-paths.patch, +metadata.xml, +pcsxr-1.9.94.ebuild:
+  Introduce an ebuild for pcsxr, the forked PSX emu. Bug #492936.

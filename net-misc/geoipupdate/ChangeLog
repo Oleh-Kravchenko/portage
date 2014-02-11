@@ -1,0 +1,21 @@
+# ChangeLog for net-misc/geoipupdate
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-misc/geoipupdate/ChangeLog,v 1.5 2014/02/02 15:23:12 pinkbyte Exp $
+
+  02 Feb 2014; Sergey Popov <pinkbyte@gentoo.org> geoipupdate-2.0.0.ebuild:
+  Add ~s390, wrt bug #490062
+
+  28 Jan 2014; Akinori Hattori <hattya@gentoo.org> geoipupdate-2.0.0.ebuild:
+  keyword ~ia64 wrt bug #490062
+
+  26 Dec 2013; Markus Meier <maekke@gentoo.org> geoipupdate-2.0.0.ebuild:
+  add ~arm, bug #490062
+
+  04 Nov 2013; Naohiro Aota <naota@gentoo.org> geoipupdate-2.0.0.ebuild:
+  Add ~x86-fbsd. #490062
+
+*geoipupdate-2.0.0 (01 Nov 2013)
+
+  01 Nov 2013; Jeroen Roovers <jer@gentoo.org> +geoipupdate-2.0.0.ebuild,
+  +metadata.xml:
+  Initial commit.

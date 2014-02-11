@@ -1,0 +1,25 @@
+# ChangeLog for dev-haskell/temporary
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/temporary/ChangeLog,v 1.5 2013/11/24 19:33:48 ago Exp $
+
+  24 Nov 2013; Agostino Sarubbo <ago@gentoo.org> temporary-1.1.2.4.ebuild:
+  Stable for x86, wrt bug #488750
+
+  05 Nov 2013; Tony Vroon <chainsaw@gentoo.org> temporary-1.1.2.4.ebuild:
+  Marked stable on AMD64 based on arch testing by Elijah "Armageddon" El
+  Lazkani in bug #488750.
+
+*temporary-1.1.2.4 (18 Nov 2012)
+
+  18 Nov 2012; Mark Wright <gienah@gentoo.org> +temporary-1.1.2.4.ebuild:
+  Bump temporary to 1.1.2.4
+
+  12 Sep 2012; Alexander Vershilov <qnikst@gentoo.org> temporary-1.1.2.3.ebuild:
+  move dev-haskell/temporary/temporary-1.1.2.3.ebuild ebuild to mirror://hackage
+
+*temporary-1.1.2.3 (10 Mar 2012)
+
+  10 Mar 2012; Sergei Trofimovich <slyfox@gentoo.org> +metadata.xml,
+  +temporary-1.1.2.3.ebuild:
+  Initial version. Haskell library to deal with temporary files in a portable
+  way. A depend for app-text/pandoc-1.9.

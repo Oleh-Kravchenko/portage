@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prerm setup test unpack
+DEPEND=>=dev-lang/ghc-6.12 <dev-lang/ghc-7 >=dev-haskell/cabal-1.6 doc? ( ~app-text/docbook-xml-dtd-4.2 app-text/docbook-xsl-stylesheets >=dev-libs/libxslt-1.1.2 ) >=dev-haskell/cabal-1.1.4 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13 >=sys-devel/automake-1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=A documentation-generation tool for Haskell libraries
+HOMEPAGE=http://www.haskell.org/haddock/
+IUSE=doc
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-6.12 <dev-lang/ghc-7
+SLOT=0
+SRC_URI=mirror://hackage/packages/archive/haddock/2.6.1/haddock-2.6.1.tar.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	eutils	40081e8c7e7f7c4f9db349a1d6d52925	ghc-package	419a74a0fe876385690dfe3c4281bac7	haskell-cabal	481d999da090733b68828c266eda24fb	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	pax-utils	2424f959506320f5196de8f79fa05297	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=1d1fd9ee8e20a525561976d7499c749b

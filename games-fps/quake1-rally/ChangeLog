@@ -1,0 +1,18 @@
+# ChangeLog for games-fps/quake1-rally
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-fps/quake1-rally/ChangeLog,v 1.4 2013/05/13 16:56:52 mr_bones_ Exp $
+
+  13 May 2013; Michael Sterrett <mr_bones_@gentoo.org> quake1-rally-1.2.ebuild:
+  update SRC_URI
+
+  21 Feb 2007; Piotr Jaroszyński <peper@gentoo.org> ChangeLog:
+  Transition to Manifest2.
+
+  26 Sep 2005; Chris Gianelloni <wolf31o2@gentoo.org>
+  quake1-rally-1.2.ebuild:
+  Making games last on inherit line.
+
+*quake1-rally-1.2 (16 Jan 2004)
+
+  16 Jan 2004; Mike Frysinger <vapier@gentoo.org> :
+  Initial import.  Ebuild submitted by me.

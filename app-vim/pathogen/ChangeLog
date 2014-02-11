@@ -1,0 +1,19 @@
+# ChangeLog for app-vim/pathogen
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-vim/pathogen/ChangeLog,v 1.4 2013/12/01 00:58:32 johu Exp $
+
+  01 Dec 2013; Johannes Huber <johu@gentoo.org> pathogen-2.2.ebuild:
+  x86 stable wrt bug #481876
+
+  05 Nov 2013; Tony Vroon <chainsaw@gentoo.org> pathogen-2.2.ebuild:
+  Marked stable on AMD64 based on arch testing by Elijah "Armageddon" El
+  Lazkani in bug #481876.
+
+  21 Oct 2013; Fabian Groffen <grobian@gentoo.org> pathogen-2.2.ebuild:
+  Marked ~x64-macos, bug #486818
+
+*pathogen-2.2 (27 Jan 2013)
+
+  27 Jan 2013; Tim Harder <radhermit@gentoo.org> +pathogen-2.2.ebuild,
+  +metadata.xml:
+  Initial import.

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=dev-dotnet/gio-sharp >=dev-dotnet/glib-sharp-2.12 >=dev-dotnet/gtk-sharp-2.12 >=dev-dotnet/gtk-sharp-gapi-2.12 virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=GTK+ API C# binding
+EAPI=2
+HOMEPAGE=http://github.com/mono/gtk-sharp-beans
+KEYWORDS=amd64 x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-dotnet/gio-sharp >=dev-dotnet/glib-sharp-2.12 >=dev-dotnet/gtk-sharp-2.12 >=dev-dotnet/gtk-sharp-gapi-2.12
+SLOT=0
+SRC_URI=http://github.com/mono/gtk-sharp-beans/tarball/2.14.0 -> gtk-sharp-beans-2.14.0.tar.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	libtool	b9b3340e3a19510f0d9f05cfccbf209f	mono	203a4295c06155d318bdff9c6b2d5e1c	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=37d1f672ebfbc54e3b2e06e53c1f027a

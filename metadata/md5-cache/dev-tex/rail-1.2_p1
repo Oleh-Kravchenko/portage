@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare unpack
+DEPEND=app-text/texlive app-arch/unzip sys-devel/bison sys-devel/flex virtual/latex-base >=sys-apps/texinfo-4.2-r5
+DESCRIPTION=Offers syntax/railroad diagrams
+EAPI=4
+HOMEPAGE=http://www.ctan.org/tex-archive/support/rail/
+KEYWORDS=~x86 ~amd64
+LICENSE=LPPL-1.2
+RDEPEND=app-text/texlive virtual/latex-base
+SLOT=0
+SRC_URI=http://mirror.ctan.org/support/rail.zip -> rail-1.2_p1.zip
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	40081e8c7e7f7c4f9db349a1d6d52925	latex-package	999c52f495ebb8dd3b69bda982bb2817	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=772c2b1929404f628e24404e9be353ac

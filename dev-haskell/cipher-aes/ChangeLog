@@ -1,0 +1,26 @@
+# ChangeLog for dev-haskell/cipher-aes
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/cipher-aes/ChangeLog,v 1.5 2013/12/11 05:16:36 gienah Exp $
+
+*cipher-aes-0.2.6 (11 Dec 2013)
+
+  11 Dec 2013; Mark Wright <gienah@gentoo.org> +cipher-aes-0.2.6.ebuild:
+  Bump cipher-aes to 0.2.6
+
+  24 Nov 2013; Agostino Sarubbo <ago@gentoo.org> cipher-aes-0.2.5.ebuild:
+  Stable for x86, wrt bug #488750
+
+  05 Nov 2013; Tony Vroon <chainsaw@gentoo.org> cipher-aes-0.2.5.ebuild:
+  Marked stable on AMD64 based on arch testing by Elijah "Armageddon" El
+  Lazkani in bug #488750.
+
+*cipher-aes-0.2.5 (13 Sep 2013)
+
+  13 Sep 2013; Mark Wright <gienah@gentoo.org> +cipher-aes-0.2.5.ebuild:
+  Bump cipher-aes to 0.2.5
+
+*cipher-aes-0.1.8 (26 Aug 2013)
+
+  26 Aug 2013; Alexander Vershilov <qnikst@gentoo.org> +cipher-aes-0.1.8.ebuild,
+  +metadata.xml:
+  dev-haskell/cipher-aes: 0.1.8

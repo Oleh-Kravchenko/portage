@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install
+DEPEND=dev-lang/erlang
+DESCRIPTION=Erlang's multi-protocol distributed load testing tool
+EAPI=3
+HOMEPAGE=http://tsung.erlang-projects.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/erlang
+RESTRICT=test
+SLOT=0
+SRC_URI=http://tsung.erlang-projects.org/dist/tsung-1.5.0.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=062bf02a0133a5478dc5b7cd0309f52e

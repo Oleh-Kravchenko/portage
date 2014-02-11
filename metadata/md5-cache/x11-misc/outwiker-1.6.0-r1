@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile postinst setup
+DEPEND=dev-python/pywebkitgtk dev-python/wxpython =dev-lang/python-2.7*
+DESCRIPTION=The tree notes organizer
+EAPI=4
+HOMEPAGE=http://jenyay.net/Outwiker/English
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-python/pywebkitgtk dev-python/wxpython =dev-lang/python-2.7*
+SLOT=0
+SRC_URI=http://jenyay.net/uploads/Soft/Outwiker/outwiker-1.6.0-src.tar.gz
+_eclasses_=multilib	fac675dcccf94392371a6abee62d909f	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=8aa8a0f8c04117521ad6ec56d4284a4c

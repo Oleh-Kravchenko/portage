@@ -1,0 +1,24 @@
+# ChangeLog for net-libs/libblkmaker
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-libs/libblkmaker/ChangeLog,v 1.7 2014/01/26 11:45:00 ago Exp $
+
+  26 Jan 2014; Agostino Sarubbo <ago@gentoo.org> libblkmaker-0.3.2.ebuild:
+  Stable for x86, wrt bug #489300
+
+  19 Jan 2014; Pacho Ramos <pacho@gentoo.org> libblkmaker-0.3.2.ebuild:
+  amd64 stable, bug 489300
+
+*libblkmaker-0.3.2 (22 Oct 2013)
+
+  22 Oct 2013; Anthony G. Basile <blueness@gentoo.org>
+  +libblkmaker-0.3.2.ebuild, libblkmaker-0.3.1.ebuild:
+  Version bump
+
+  26 Jun 2013; Anthony G. Basile <blueness@gentoo.org> libblkmaker-0.3.1.ebuild:
+  Keyword ~arm for bfgminer
+
+  26 Jun 2013; Anthony G. Basile <blueness@gentoo.org> libblkmaker-0.3.1.ebuild:
+  Keyword ~ppc ~ppc64 for bfgminer
+
+  14 Jun 2013; Anthony G. Basile <blueness@gentoo.org> ChangeLog:
+  Initial commit: needed for bfgminer

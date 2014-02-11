@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare pretend test
+DEPEND=~app-leechcraft/lc-core-0.5.99 sys-devel/make >=dev-util/cmake-2.8.9 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) app-arch/xz-utils
+DESCRIPTION=CSTP, the clean & stupid HTTP implementation for LeechCraft.
+EAPI=4
+HOMEPAGE=http://leechcraft.org/
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=Boost-1.0
+RDEPEND=~app-leechcraft/lc-core-0.5.99 virtual/leechcraft-task-show
+SLOT=0
+SRC_URI=mirror://sourceforge/leechcraft/leechcraft-0.5.99.tar.xz http://dist.leechcraft.org/LeechCraft/0.5.99/leechcraft-0.5.99.tar.xz
+_eclasses_=cmake-utils	db5236989678f4de51b2588767b5b69d	eutils	40081e8c7e7f7c4f9db349a1d6d52925	flag-o-matic	9a539029fe1d390c1828ff633baf26b5	leechcraft	4557a8dab7ef51789fcdf55a9a94992d	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=ccec5f385ea481f83b83286ea07bc599

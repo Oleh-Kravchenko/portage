@@ -1,0 +1,14 @@
+# ChangeLog for dev-haskell/word8
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/word8/ChangeLog,v 1.2 2013/10/20 02:21:30 gienah Exp $
+
+*word8-0.0.4 (20 Oct 2013)
+
+  20 Oct 2013; Mark Wright <gienah@gentoo.org> +word8-0.0.4.ebuild:
+  Bump word8 to 0.0.4
+
+*word8-0.0.3 (26 Aug 2013)
+
+  26 Aug 2013; Alexander Vershilov <qnikst@gentoo.org> +metadata.xml,
+  +word8-0.0.3.ebuild:
+  dev-haskell/word8: initial layout

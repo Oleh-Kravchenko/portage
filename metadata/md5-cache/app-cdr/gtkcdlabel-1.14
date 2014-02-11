@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=>=app-cdr/cdlabelgen-4 dev-python/pygtk || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+DESCRIPTION=a GUI frontend to cdlabelgen which is a program that can generate a variety of CD tray covers.
+EAPI=3
+HOMEPAGE=http://gtkcdlabel.sourceforge.net
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-cdr/cdlabelgen-4 dev-python/pygtk || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+SLOT=0
+SRC_URI=mirror://sourceforge/gtkcdlabel/gtkcdlabel-1.14.tar.bz2
+_eclasses_=multilib	fac675dcccf94392371a6abee62d909f	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=dc748b31d0dea8e6ace46e453cab6f80

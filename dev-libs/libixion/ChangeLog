@@ -1,0 +1,40 @@
+# ChangeLog for dev-libs/libixion
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libixion/ChangeLog,v 1.8 2013/10/27 12:05:23 ago Exp $
+
+  27 Oct 2013; Agostino Sarubbo <ago@gentoo.org> libixion-0.5.0.ebuild:
+  Stable for x86, wrt bug #486204
+
+  20 Oct 2013; Tony Vroon <chainsaw@gentoo.org> libixion-0.5.0.ebuild:
+  Marked stable on AMD64 based on arch testing by Elijah "Armageddon" El
+  Lazkani in bug #486204.
+
+  10 Jul 2013; Tomáš Chvátal <scarabeus@gentoo.org> libixion-0.5.0.ebuild,
+  libixion-9999.ebuild:
+  Subslot the ixion dep too.
+
+  10 Jul 2013; Tomáš Chvátal <scarabeus@gentoo.org> libixion-0.5.0.ebuild,
+  libixion-9999.ebuild:
+  Boost is actually linked to ixion so depend on it properly.
+
+  19 Apr 2013; Tomáš Chvátal <scarabeus@gentoo.org> libixion-0.5.0.ebuild,
+  libixion-9999.ebuild:
+  Keyword ~arm.
+
+*libixion-0.5.0 (19 Apr 2013)
+
+  19 Apr 2013; Tomáš Chvátal <scarabeus@gentoo.org> +libixion-0.5.0.ebuild,
+  -libixion-0.3.0.ebuild, libixion-9999.ebuild:
+  Version bump to latest. Cleanup live ebuild. Remove oldest.
+
+*libixion-9999 (02 Sep 2012)
+
+  02 Sep 2012; Tomáš Chvátal <scarabeus@gentoo.org> +libixion-9999.ebuild:
+  Provide also live version
+
+*libixion-0.3.0 (02 Sep 2012)
+
+  02 Sep 2012; Tomáš Chvátal <scarabeus@gentoo.org> +libixion-0.3.0.ebuild,
+  +metadata.xml:
+  Initial commit of this multipurpose library, will be used by orcus in future
+  when it has release.

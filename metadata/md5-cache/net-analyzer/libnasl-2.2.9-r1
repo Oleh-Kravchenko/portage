@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=~net-analyzer/nessus-libraries-2.2.9 sys-devel/bison
+DESCRIPTION=A remote security scanner for Linux (libnasl)
+EAPI=4
+HOMEPAGE=http://www.nessus.org/
+IUSE=static-libs
+KEYWORDS=~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd ~amd64-linux
+LICENSE=GPL-2
+RDEPEND=~net-analyzer/nessus-libraries-2.2.9
+SLOT=0
+SRC_URI=ftp://ftp.nessus.org/pub/nessus/nessus-2.2.9/src/libnasl-2.2.9.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=0ad6919d0a705fc0fefa06ff73be4834

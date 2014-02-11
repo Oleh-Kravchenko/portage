@@ -1,0 +1,42 @@
+# ChangeLog for dev-python/pbr
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pbr/ChangeLog,v 1.9 2014/01/21 01:43:35 idella4 Exp $
+
+*pbr-0.5.23-r1 (21 Jan 2014)
+
+  21 Jan 2014; Ian Delaney <idella4@gentoo.org> +pbr-0.5.23-r1.ebuild,
+  pbr-0.5.23.ebuild:
+  revbump; add py3.3 support, update to test phase
+
+  13 Dec 2013; Matthew Thode <prometheanfire@gentoo.org> pbr-0.5.23.ebuild:
+  more missing test deps
+
+  11 Dec 2013; Matthew Thode <prometheanfire@gentoo.org> pbr-0.5.23.ebuild:
+  fixes for bug 493930
+
+*pbr-0.5.23 (10 Dec 2013)
+
+  10 Dec 2013; Ian Delaney <idella4@gentoo.org> +pbr-0.5.23.ebuild,
+  metadata.xml:
+  bump; virtual re-write
+
+  12 Nov 2013; Matthew Thode <prometheanfire@gentoo.org> pbr-0.5.21.ebuild:
+  adding pypy2_0 to pbr
+
+  09 Aug 2013; Matthew Thode <prometheanfire@gentoo.org> pbr-0.5.21.ebuild:
+  added python 3.2 and python 3.3 support
+
+  09 Aug 2013; Matthew Thode <prometheanfire@gentoo.org> pbr-0.5.21.ebuild:
+  restricting tests for 478800
+
+*pbr-0.5.21 (09 Aug 2013)
+
+  09 Aug 2013; Matthew Thode <prometheanfire@gentoo.org> +pbr-0.5.21.ebuild,
+  -pbr-0.5.11.ebuild:
+  update to dev-python/pbr fixes the distribute problem
+
+*pbr-0.5.11 (31 May 2013)
+
+  31 May 2013; Matthew Thode <prometheanfire@gentoo.org> +metadata.xml,
+  +pbr-0.5.11.ebuild:
+  new dep required by openstack packages

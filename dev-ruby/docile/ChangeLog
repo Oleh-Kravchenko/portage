@@ -1,0 +1,23 @@
+# ChangeLog for dev-ruby/docile
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/docile/ChangeLog,v 1.4 2014/01/12 06:34:12 graaff Exp $
+
+*docile-1.1.2 (12 Jan 2014)
+
+  12 Jan 2014; Hans de Graaff <graaff@gentoo.org> +docile-1.1.2.ebuild:
+  Version bump.
+
+*docile-1.1.1 (27 Nov 2013)
+
+  27 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +docile-1.1.1.ebuild,
+  -docile-1.1.0.ebuild:
+  Version bump. Drop old.
+
+  13 Nov 2013; Hans de Graaff <graaff@gentoo.org> docile-1.1.0.ebuild:
+  Add ruby20, jruby.
+
+*docile-1.1.0 (04 Sep 2013)
+
+  04 Sep 2013; Manuel Rüger <mrueg@gentoo.org> +docile-1.1.0.ebuild,
+  +metadata.xml:
+  Initial version.

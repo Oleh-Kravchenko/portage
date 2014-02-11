@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install preinst prepare setup
+DEPEND=>=virtual/jre-1.4 >=dev-java/antlr-2.7.1:0[java] >=virtual/jdk-1.4 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool >=dev-java/java-config-2.1.9-r1 source? ( app-arch/zip )
+DESCRIPTION=A javadoc compatible Java source documentation generator.
+EAPI=2
+HOMEPAGE=http://www.gnu.org/software/cp-tools/
+IUSE=xmldoclet elibc_FreeBSD source
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-fbsd ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.4 >=dev-java/antlr-2.7.1:0[java] >=dev-java/java-config-2.1.9-r1 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=mirror://gnu/classpath/gjdoc-0.7.9.tar.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	eutils	40081e8c7e7f7c4f9db349a1d6d52925	java-pkg-2	65bbb59987d777c1106ae8aa4bf36e7b	java-utils-2	8d0d93b7a8605ea346cce4604f6db516	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=f5f27b93aed9b93e5609dd91eb3135aa

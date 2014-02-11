@@ -1,0 +1,62 @@
+# ChangeLog for net-misc/netifrc
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-misc/netifrc/ChangeLog,v 1.18 2014/01/19 19:38:15 ago Exp $
+
+  19 Jan 2014; Agostino Sarubbo <ago@gentoo.org> netifrc-0.1.ebuild:
+  Stable for sparc, wrt bug #487332
+
+  19 Jan 2014; Agostino Sarubbo <ago@gentoo.org> netifrc-0.1.ebuild:
+  Stable for ppc64, wrt bug #487332
+
+  19 Jan 2014; Agostino Sarubbo <ago@gentoo.org> netifrc-0.1.ebuild:
+  Stable for ppc, wrt bug #487332
+
+  18 Jan 2014; Mike Frysinger <vapier@gentoo.org> netifrc-0.1.ebuild,
+  netifrc-9999.ebuild:
+  Add arm64 love.
+
+  17 Jan 2014; Mike Frysinger <vapier@gentoo.org> netifrc-0.1.ebuild:
+  Mark m68k/s390/sh stable.
+
+  14 Jan 2014; Pacho Ramos <pacho@gentoo.org> netifrc-0.1.ebuild:
+  ia64 stable, bug #487332 (thanks to Emeric Maschino for testing)
+
+  30 Nov 2013; Jeroen Roovers <jer@gentoo.org> metadata.xml:
+  Typo.
+
+  29 Nov 2013; Johannes Huber <johu@gentoo.org> netifrc-0.1.ebuild:
+  x86 stable wrt bug #487332
+
+  27 Nov 2013; Rick Farina <zerochaos@gentoo.org> netifrc-0.1.ebuild:
+  arm stable, bug #487332
+
+  24 Nov 2013; Pacho Ramos <pacho@gentoo.org> netifrc-0.1.ebuild:
+  amd64 stable, bug #487332
+
+  13 Nov 2013; Matt Turner <mattst88@gentoo.org> netifrc-0.1.ebuild:
+  alpha stable, bug 487332.
+
+  12 Nov 2013; Jeroen Roovers <jer@gentoo.org> netifrc-0.1.ebuild:
+  Stable for HPPA (bug #487332).
+
+  28 Aug 2013; Robin H. Johnson <robbat2@gentoo.org> netifrc-9999.ebuild:
+  Per bug #482604, start include a changelog. Also install the other docs.
+
+  27 Aug 2013; Ian Stakenvicius <axs@gentoo.org> netifrc-9999.ebuild:
+  added a dodoc to install README as it is not part of 'make install' anymore
+
+  21 Aug 2013; William Hubbs <williamh@gentoo.org> metadata.xml:
+  assign maintainership to netifrc alias
+
+  21 Aug 2013; William Hubbs <williamh@gentoo.org> netifrc-9999.ebuild:
+  point to the netifrc repository instead of oldnet
+
+  18 Aug 2013; Ian Stakenvicius <axs@gentoo.org> metadata.xml:
+  added myself to metadata as tertiary maintainer
+
+*netifrc-9999 (14 Aug 2013)
+*netifrc-0.1 (14 Aug 2013)
+
+  14 Aug 2013; William Hubbs <williamh@gentoo.org> +netifrc-0.1.ebuild,
+  +netifrc-9999.ebuild, +metadata.xml:
+  initial commit

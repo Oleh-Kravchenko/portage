@@ -1,0 +1,79 @@
+# ChangeLog for kde-base/ktnef
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/kde-base/ktnef/ChangeLog,v 1.129 2014/02/09 10:04:30 ago Exp $
+
+  09 Feb 2014; Agostino Sarubbo <ago@gentoo.org> ktnef-4.11.5.ebuild:
+  Stable for amd64, wrt bug #493782
+
+*ktnef-4.12.2 (06 Feb 2014)
+
+  06 Feb 2014; Andreas K. Huettel <dilfridge@gentoo.org> +ktnef-4.12.2.ebuild:
+  Version bump KDE SC 4.12.2
+
+  20 Jan 2014; Michael Palimaka <kensington@gentoo.org> -ktnef-4.12.0.ebuild:
+  Remove KDE SC 4.12.0
+
+  20 Jan 2014; Michael Palimaka <kensington@gentoo.org> ktnef-4.11.5.ebuild:
+  Restore keywords that were accidentally omitted.
+
+  19 Jan 2014; Agostino Sarubbo <ago@gentoo.org> ktnef-4.12.1.ebuild:
+  Add ~arm, wrt bug #498424
+
+*ktnef-4.12.1 (18 Jan 2014)
+
+  18 Jan 2014; Andreas K. Huettel <dilfridge@gentoo.org> +ktnef-4.12.1.ebuild:
+  Version bump KDE SC 4.12.1
+
+  10 Jan 2014; Chris Reffett <creffett@gentoo.org> -ktnef-4.11.4.ebuild:
+  Remove KDE SC 4.11.4
+
+*ktnef-4.11.5 (10 Jan 2014)
+
+  10 Jan 2014; Chris Reffett <creffett@gentoo.org> +ktnef-4.11.5.ebuild:
+  Bump KDE SC 4.11.5
+
+*ktnef-4.12.0 (18 Dec 2013)
+
+  18 Dec 2013; Johannes Huber <johu@gentoo.org> +ktnef-4.12.0.ebuild:
+  Version bump KDE SC 4.12.0
+
+  14 Dec 2013; Johannes Huber <johu@gentoo.org> ktnef-4.11.4.ebuild:
+  Sync keywords with stable.
+
+  11 Dec 2013; Agostino Sarubbo <ago@gentoo.org> ktnef-4.11.2.ebuild:
+  Stable for ppc64, wrt bug #484884
+
+  11 Dec 2013; Agostino Sarubbo <ago@gentoo.org> ktnef-4.11.2.ebuild:
+  Stable for ppc, wrt bug #484884
+
+  10 Dec 2013; Agostino Sarubbo <ago@gentoo.org> ktnef-4.11.2.ebuild:
+  Stable for ppc, wrt bug #484884
+
+  09 Dec 2013; Agostino Sarubbo <ago@gentoo.org> ktnef-4.11.2.ebuild:
+  Stable for x86, wrt bug #484884
+
+  08 Dec 2013; Agostino Sarubbo <ago@gentoo.org> ktnef-4.11.2.ebuild:
+  Stable for amd64, wrt bug #484884
+
+  04 Dec 2013; Johannes Huber <johu@gentoo.org> -ktnef-4.11.3.ebuild:
+  Remove KDE SC 4.11.3
+
+*ktnef-4.11.4 (03 Dec 2013)
+
+  03 Dec 2013; Johannes Huber <johu@gentoo.org> +ktnef-4.11.4.ebuild:
+  Version bump KDE SC 4.11.4
+
+  01 Dec 2013; Markus Meier <maekke@gentoo.org> ktnef-4.11.3.ebuild:
+  add ~arm, bug #487666
+
+*ktnef-4.11.3 (05 Nov 2013)
+
+  05 Nov 2013; Andreas K. Huettel <dilfridge@gentoo.org> +ktnef-4.11.3.ebuild:
+  Version bump KDE SC 4.11.3
+
+*ktnef-4.11.2 (11 Oct 2013)
+
+  11 Oct 2013; Johannes Huber <johu@gentoo.org> +ktnef-4.11.2.ebuild,
+  +metadata.xml:
+  New package wrt bug #486798. Initial ebuild by Chris Reffett
+  <creffett@gentoo.org> in kde overlay.

@@ -1,0 +1,19 @@
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/profiles/arch/s390/make.defaults,v 1.7 2014/01/16 17:40:18 dilfridge Exp $
+
+ARCH="s390"
+ACCEPT_KEYWORDS="s390 ~s390"
+
+MULTILIB_ABIS="s390"
+DEFAULT_ABI="s390"
+ABI=${DEFAULT_ABI}
+
+CHOST="s390-ibm-linux-gnu"
+CFLAGS="-O2 -pipe"
+CXXFLAGS="${CFLAGS}"
+FFLAGS="${CFLAGS}"
+FCFLAGS="${CFLAGS}"
+
+INPUT_DEVICES="void"
+VIDEO_CARDS="dummy"

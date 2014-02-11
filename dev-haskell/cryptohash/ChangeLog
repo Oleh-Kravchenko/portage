@@ -1,0 +1,26 @@
+# ChangeLog for dev-haskell/cryptohash
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/cryptohash/ChangeLog,v 1.5 2013/12/11 05:55:55 gienah Exp $
+
+*cryptohash-0.11.1 (11 Dec 2013)
+
+  11 Dec 2013; Mark Wright <gienah@gentoo.org> +cryptohash-0.11.1.ebuild:
+  Bump cryptohash to 0.11.1
+
+  24 Nov 2013; Agostino Sarubbo <ago@gentoo.org> cryptohash-0.10.0.ebuild:
+  Stable for x86, wrt bug #488750
+
+  05 Nov 2013; Tony Vroon <chainsaw@gentoo.org> cryptohash-0.10.0.ebuild:
+  Marked stable on AMD64 based on arch testing by Elijah "Armageddon" El
+  Lazkani in bug #488750.
+
+*cryptohash-0.10.0 (13 Sep 2013)
+
+  13 Sep 2013; Mark Wright <gienah@gentoo.org> +cryptohash-0.10.0.ebuild:
+  Bump cryptohash to 0.10.0
+
+*cryptohash-0.9.1 (25 Aug 2013)
+
+  25 Aug 2013; Alexander Vershilov <qnikst@gentoo.org> +cryptohash-0.9.1.ebuild,
+  +metadata.xml:
+  dec-haskell/cryptohash

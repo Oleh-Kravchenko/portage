@@ -1,0 +1,37 @@
+# ChangeLog for dev-python/passlib
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/passlib/ChangeLog,v 1.8 2014/01/06 03:32:36 idella4 Exp $
+
+*passlib-1.6.2 (06 Jan 2014)
+
+  06 Jan 2014; Ian Delaney <idella4@gentoo.org> +passlib-1.6.2.ebuild,
+  metadata.xml:
+  bump; intro new dep bcrypt, test phase
+
+  04 Jan 2014; Mike Gilbert <floppym@gentoo.org> passlib-1.6.1-r1.ebuild:
+  Drop py-bcrypt dep.
+
+*passlib-1.6.1-r1 (18 Nov 2013)
+
+  18 Nov 2013; Matthew Thode <prometheanfire@gentoo.org>
+  +passlib-1.6.1-r1.ebuild, -passlib-1.6.1.ebuild:
+  py-bcrypt added as a dep
+
+  17 Nov 2013; Matthew Thode <prometheanfire@gentoo.org> passlib-1.6.1.ebuild:
+  adding python 3.2 and 3.3 support for bug 487904
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> passlib-1.6.1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+  12 Feb 2013; Michał Górny <mgorny@gentoo.org> metadata.xml,
+  passlib-1.6.1.ebuild:
+  Migrate to distutils-r1. Clean up a bit.
+
+  01 Jan 2013; Matthew Thode <prometheanfire@gentoo.org> passlib-1.6.1.ebuild:
+  refactor into distutils-r1 and eapi5
+
+*passlib-1.6.1 (28 Nov 2012)
+
+  28 Nov 2012; Matthew Thode <prometheanfire@gentoo.org> +passlib-1.6.1.ebuild,
+  +metadata.xml:
+  adding as it is needed for keystone

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl virtual/perl-Term-ANSIColor dev-perl/Shell-EnvImporter !minimal? ( dev-perl/IO-Socket-SSL virtual/perl-Sys-Syslog )
+DESCRIPTION=Portage abstraction layer for perl
+HOMEPAGE=http://download.mpsna.de/opensource/PortageXS/
+IUSE=minimal
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 sh sparc x86 ~x86-fbsd ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x86-solaris
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl virtual/perl-Term-ANSIColor dev-perl/Shell-EnvImporter !minimal? ( dev-perl/IO-Socket-SSL virtual/perl-Sys-Syslog )
+SLOT=0
+SRC_URI=http://download.mpsna.de/opensource/PortageXS/PortageXS-0.02.10.tar.gz
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	1d50a6ea2d8d319e3205b005b3ed0dfa	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=bb816bfb0f690c51b5b9cb904534dd59

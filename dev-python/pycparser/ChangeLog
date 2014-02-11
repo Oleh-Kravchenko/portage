@@ -1,0 +1,56 @@
+# ChangeLog for dev-python/pycparser
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pycparser/ChangeLog,v 1.13 2013/12/07 19:14:14 pacho Exp $
+
+  07 Dec 2013; Pacho Ramos <pacho@gentoo.org> pycparser-2.10.ebuild:
+  x86 stable, bug #488738
+
+  29 Nov 2013; Pacho Ramos <pacho@gentoo.org> pycparser-2.10.ebuild:
+  amd64 stable, bug #488738
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> pycparser-2.09.1-r1.ebuild,
+  pycparser-2.10.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*pycparser-2.10 (03 Aug 2013)
+
+  03 Aug 2013; Dirkjan Ochtman <djc@gentoo.org> +pycparser-2.10.ebuild:
+  Version bump pycparser to 2.10.
+
+  03 Aug 2013; Dirkjan Ochtman <djc@gentoo.org> -pycparser-2.07.ebuild,
+  -pycparser-2.08.ebuild:
+  Remove old versions.
+
+  09 May 2013; Markus Meier <maekke@gentoo.org> pycparser-2.09.1-r1.ebuild:
+  add ~arm, bug #462506
+
+  08 May 2013; Mike Gilbert <floppym@gentoo.org> pycparser-2.09.1-r1.ebuild:
+  Use pushd/popd.
+
+*pycparser-2.09.1-r1 (08 May 2013)
+
+  08 May 2013; Mike Gilbert <floppym@gentoo.org> +pycparser-2.09.1-r1.ebuild,
+  -pycparser-2.09.1.ebuild:
+  Pregenerate lexer and parser tables.
+
+  08 May 2013; Ian Delaney <idella4@gentoo.org> pycparser-2.09.1.ebuild:
+  Add py3.3 support
+
+  20 Mar 2013; Ian Delaney <idella4@gentoo.org> pycparser-2.09.1.ebuild:
+  pypy support tested, added
+
+*pycparser-2.09.1 (08 Jan 2013)
+
+  08 Jan 2013; Tim Harder <radhermit@gentoo.org> +pycparser-2.09.1.ebuild:
+  Version bump. Migrate to distutils-r1.
+
+*pycparser-2.08 (29 Aug 2012)
+
+  29 Aug 2012; Patrick Lauer <patrick@gentoo.org> +pycparser-2.08.ebuild:
+  Bump
+
+*pycparser-2.07 (27 Jul 2012)
+
+  27 Jul 2012; Dirkjan Ochtman <djc@gentoo.org> +pycparser-2.07.ebuild,
+  +metadata.xml:
+  Initial version (bug 364801).

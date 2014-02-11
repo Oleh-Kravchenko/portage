@@ -1,0 +1,26 @@
+# ChangeLog for dev-python/hgdistver
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/hgdistver/ChangeLog,v 1.6 2013/12/07 19:13:01 pacho Exp $
+
+  07 Dec 2013; Pacho Ramos <pacho@gentoo.org> hgdistver-0.16-r1.ebuild:
+  x86 stable, bug #488738
+
+  29 Nov 2013; Pacho Ramos <pacho@gentoo.org> hgdistver-0.16-r1.ebuild:
+  amd64 stable, bug #488738
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> hgdistver-0.16-r1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*hgdistver-0.16-r1 (23 Jun 2013)
+
+  23 Jun 2013; Ian Delaney <idella4@gentoo.org> +hgdistver-0.16-r1.ebuild:
+  revbump; migrate -> distutils-r1, added link to upstream bug re the test suite
+
+  09 May 2013; Markus Meier <maekke@gentoo.org> hgdistver-0.16.ebuild:
+  add ~arm, bug #462506
+
+*hgdistver-0.16 (10 Oct 2012)
+
+  10 Oct 2012; Dirkjan Ochtman <djc@gentoo.org> +hgdistver-0.16.ebuild,
+  +metadata.xml:
+  Initial version of hgdistver (for cffi, bug 437768).

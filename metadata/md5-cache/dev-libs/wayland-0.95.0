@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure prepare
+DEPEND=dev-libs/expat virtual/libffi dev-libs/libxslt !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Wayland protocol libraries
+EAPI=4
+HOMEPAGE=http://wayland.freedesktop.org/
+IUSE=static-libs
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~x86
+LICENSE=MIT
+RDEPEND=dev-libs/expat virtual/libffi
+SLOT=0
+SRC_URI=http://wayland.freedesktop.org/releases/wayland-0.95.0.tar.xz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=f4fcf4741626247d40e7324ca53adf45

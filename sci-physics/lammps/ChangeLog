@@ -1,0 +1,56 @@
+# ChangeLog for sci-physics/lammps
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-physics/lammps/ChangeLog,v 1.10 2014/02/06 19:54:16 nicolasbock Exp $
+
+*lammps-20140201 (06 Feb 2014)
+
+  06 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140201.ebuild,
+  lammps-20131201.ebuild, lammps-20131216.ebuild, lammps-20131217.ebuild,
+  lammps-20140122.ebuild, lammps-20140129.ebuild:
+  sci-physics/lammps: Moved lammps-20140201 from sci overlay to portage.  This
+  version is considered "stable" by upstream, as opposed to the normal frequent
+  snapshot releases. I had originally placed the stable version in a new slot,
+  but after discussing this with ottxor, decided to move 20140201 back into slot
+  0 and open a stabilization request for it.
+
+  05 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> lammps-20140129.ebuild:
+  sci-physics/lammps: Trying to add blocker, ottxor beat me to it :)
+
+  05 Feb 2014; Christoph Junghans <ottxor@gentoo.org> lammps-20131201.ebuild,
+  lammps-20131216.ebuild, lammps-20131217.ebuild, lammps-20140122.ebuild,
+  lammps-20140129.ebuild:
+  block stable slot
+
+*lammps-20140122 (22 Jan 2014)
+
+  22 Jan 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140122.ebuild:
+  sci-physics/lammps: Version bump.
+
+  02 Jan 2014; Nicolas Bock <nicolasbock@gentoo.org> -lammps-20130526.ebuild:
+  sci-physics/lammps: Removing old version.
+
+*lammps-20131217 (02 Jan 2014)
+
+  02 Jan 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20131217.ebuild,
+  lammps-20131201.ebuild, lammps-20131216.ebuild:
+  sci-physics/lammps-20131217: Version bump.
+
+  22 Dec 2013; Christoph Junghans <ottxor@gentoo.org> lammps-20130526.ebuild,
+  lammps-20131201.ebuild, lammps-20131216.ebuild:
+  remove elog message
+
+*lammps-20131201 (17 Dec 2013)
+*lammps-20131216 (17 Dec 2013)
+
+  17 Dec 2013; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20131201.ebuild,
+  +lammps-20131216.ebuild:
+  sci-physics/lammps: Adding recent versions of the code.
+
+  13 Dec 2013; Nicolas Bock <nicolasbock@gentoo.org> metadata.xml:
+  sci-physics/lammps: Updated maintainer email to gentoo.org
+
+*lammps-20130526 (26 Jun 2013)
+
+  26 Jun 2013; Christoph Junghans <ottxor@gentoo.org> +lammps-20130526.ebuild,
+  +metadata.xml:
+  initial import from sci overlay

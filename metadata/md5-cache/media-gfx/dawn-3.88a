@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/tk X? ( x11-libs/libX11 ) opengl? ( virtual/opengl ) app-shells/tcsh doc? ( virtual/latex-base )
+DESCRIPTION=3D geometrical postscript renderer
+HOMEPAGE=http://geant4.kek.jp/~tanaka/DAWN/About_DAWN.html
+IUSE=doc opengl X
+KEYWORDS=amd64 hppa ~ppc x86
+LICENSE=public-domain
+RDEPEND=dev-lang/tk X? ( x11-libs/libX11 ) opengl? ( virtual/opengl )
+SLOT=0
+SRC_URI=http://geant4.kek.jp/~tanaka/src/dawn_3_88a.taz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=79176e4e0a0ec220046df1ea5e55ada9

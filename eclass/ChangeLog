@@ -1,0 +1,118 @@
+# ChangeLog for eclass directory
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1140 2014/02/09 08:30:23 pacho Exp $
+
+  09 Feb 2014; Pacho Ramos <pacho@gentoo.org> gnome2-utils.eclass:
+  Drop also values of DGSEAL_ENABLE (#500730)
+
+  06 Feb 2014; Michael Palimaka <kensington@gentoo.org> kde4-meta.eclass:
+  Disable more bogus dependency checks wrt bug #494680.
+
+  05 Feb 2014; Ryan Hill <dirtyepic@gentoo.org> tests/toolchain.sh,
+  toolchain.eclass:
+  Limit downgrading flags to amd64 and x86. Strip -mtune for < 3.4. Only
+  worry about -mno* flags, -m* are removed by strip-flags. Add -mno-movbe.
+
+  02 Feb 2014; Ryan Hill <dirtyepic@gentoo.org> +tests/toolchain.sh,
+  toolchain.eclass:
+  Add downgrade_arch_flags() to automatically replace/strip unsupported -march
+  and instruction set flags. Add testsuite.
+
+  02 Feb 2014; Julian Ospald <hasufell@gentoo.org> games.eclass:
+  respect ECONF_SOURCE wrt #494210
+
+  02 Feb 2014; Joerg Bornkessel <hd_brummy@gentoo.org> vdr-plugin-2.eclass:
+  removed debuginfos depends on base.eclass removing, wrt bug #497056
+
+  01 Feb 2014; Ryan Hill <dirtyepic@gentoo.org> flag-o-matic.eclass:
+  Add -fdiagnostics* and ISA flags for 4.8 and 4.9.
+
+  26 Jan 2014; Sergey Popov <pinkbyte@gentoo.org> myspell-r2.eclass:
+  Drop inheriting base eclass, wrt bug #497040
+
+  25 Jan 2014; Julian Ospald <hasufell@gentoo.org> games.eclass:
+  set --datarootdir=/usr/share wrt #493954
+
+  25 Jan 2014; Joerg Bornkessel <hd_brummy@gentoo.org> vdr-plugin-2.eclass:
+  major changes depend on wrt bug 497056, vdr-plugin-2.eclass
+
+  25 Jan 2014; Mike Gilbert <floppym@gentoo.org> cmake-utils.eclass:
+  Improve support for ninja, bug 490280.
+
+  24 Jan 2014; Joerg Bornkessel <hd_brummy@gentoo.org> vdr-plugin-2.eclass:
+  changed debug info in vdr-plugin-2_src_install for Makefile handling
+
+  24 Jan 2014; Ryan Hill <dirtyepic@gentoo.org> toolchain.eclass:
+  Work around bug #357287.
+
+  19 Jan 2014; Dion Moult <moult@gentoo.org> gtk-sharp-module.eclass:
+  Change virtual/monodoc dependency to dev-lang/mono as the former is being
+  treecleaned
+
+  19 Jan 2014; Sergei Trofimovich <slyfox@gentoo.org> ghc-package.eclass:
+  Add 'ghc-supports-interpreter' helper to detect interpreter support.
+
+  18 Jan 2014; Mike Gilbert <floppym@gentoo.org> distutils-r1.eclass:
+  Silence sandbox for /usr/local, bug 498232.
+
+  18 Jan 2014; Mike Gilbert <floppym@gentoo.org> kernel-2.eclass:
+  Convert to python-any-r1.eclass
+
+  18 Jan 2014; Andreas K. Huettel <dilfridge@gentoo.org> kde4-base.eclass:
+  Sync from kde overlay, adds subslot
+
+  17 Jan 2014; Mike Pagano <mpagano@gentoo.org> kernel-2.eclass:
+  Fix QA warning concerning inherit
+
+  17 Jan 2014; Michael Pagano <mpagano@gentoo.org> kernel-2.eclass:
+  Fix kernel-2.eclass to use python.eclass for it's python needs. (deblob
+  script). See bug #497966
+
+  17 Jan 2014; Jeroen Roovers <jer@gentoo.org> mozcoreconf-2.eclass:
+  Revert inadvertent change, as noted by arfrever.
+
+  17 Jan 2014; Jeroen Roovers <jer@gentoo.org> mozcoreconf-2.eclass,
+  python-utils-r1.eclass:
+  Spelling.
+
+  16 Jan 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Typo.
+
+  16 Jan 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Support MULTILIB_CHOST_TOOLS for tool renaming/preserving.
+
+  16 Jan 2014; Hans de Graaff <graaff@gentoo.org> ruby-ng.eclass:
+  Explicitly cp symlinks as-is. The default for this changed in coreutils 8.22.
+  Fixes bug 472710.
+
+  15 Jan 2014; Michał Górny <mgorny@gentoo.org> autotools-multilib.eclass:
+  Actually enable in-source build support.
+
+  15 Jan 2014; Joerg Bornkessel <hd_brummy@gentoo.org> vdr-plugin.eclass:
+  vdr-plugin.eclass marked @DEAD
+
+  14 Jan 2014; Michael Pagano <mpagano@gentoo.org> linux-mod.eclass:
+  Remove use of sed in linux-mod.eclass. Replace with bash.
+
+  13 Jan 2014; Ryan Hill <dirtyepic@gentoo.org> toolchain.eclass:
+  Add EAPI 0 compatible USE defaults (bug #372663).
+
+  10 Jan 2014; Magnus Granberg <zorry@gentoo.org> toolchain.eclass:
+  Add support for default ssp on >=gcc-4.8.2 #484714
+
+  08 Jan 2014; Patrick Lauer <patrick@gentoo.org> apache-2.eclass,
+  python-utils-r1.eclass:
+  Removing silly beep from apache-2.eclass
+
+  05 Jan 2014; Pacho Ramos <pacho@gentoo.org> aspell-dict.eclass,
+  freedict.eclass, myspell.eclass, myspell-r2.eclass:
+  Cleanup due
+  http://gentoo.2317880.n4.nabble.com/app-dicts-herd-is-empty-td271273.html
+
+  05 Jan 2014; Michał Górny <mgorny@gentoo.org> twisted-r1.eclass:
+  Fix twisted SRC_URI. Thanks to yac for the patch.
+
+  01 Jan 2014; Andreas K. Huettel <dilfridge@gentoo.org> +ChangeLog-2013:
+  Rotate ChangeLog
+
+  For previous entries, please see ChangeLog-2013.

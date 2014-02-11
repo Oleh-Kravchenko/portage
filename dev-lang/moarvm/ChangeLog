@@ -1,0 +1,34 @@
+# ChangeLog for dev-lang/moarvm
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/moarvm/ChangeLog,v 1.7 2014/01/15 03:09:47 patrick Exp $
+
+  15 Jan 2014; Patrick Lauer <patrick@gentoo.org> moarvm-2013.10.ebuild,
+  moarvm-9999.ebuild:
+  Whitespace, silence repoman
+
+  09 Jan 2014; Patrick Lauer <patrick@gentoo.org> +files/Configure-9999.patch,
+  moarvm-9999.ebuild:
+  Hack up -9999 ebuild to have a chance of working with nqp
+
+*moarvm-9999 (09 Jan 2014)
+
+  09 Jan 2014; Patrick Lauer <patrick@gentoo.org> +moarvm-9999.ebuild:
+  Add -9999 ebuild
+
+  09 Jan 2014; Patrick Lauer <patrick@gentoo.org> moarvm-2013.10.1.ebuild,
+  moarvm-2013.10.ebuild:
+  Fix homepage
+
+  06 Dec 2013; Patrick Lauer <patrick@gentoo.org> moarvm-2013.10.1.ebuild:
+  Hack in version so that build system doesn't make us sad
+
+*moarvm-2013.10.1 (06 Dec 2013)
+
+  06 Dec 2013; Patrick Lauer <patrick@gentoo.org> +moarvm-2013.10.1.ebuild:
+  Bump to current HEAD as nqp relies on newer features
+
+*moarvm-2013.10 (06 Dec 2013)
+
+  06 Dec 2013; Patrick Lauer <patrick@gentoo.org> +files/Configure.patch,
+  +metadata.xml, +moarvm-2013.10.ebuild:
+  Initial commit, dependency of nqp/rakudo

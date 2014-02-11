@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prerm setup test
+DEPEND=>=dev-haskell/convertible-1.0.10.0:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/text:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-6.12.1:= >=dev-haskell/cabal-1.8 test? ( dev-haskell/hunit dev-haskell/quickcheck dev-haskell/testpack ) doc? ( dev-haskell/haddock ) hscolour? ( dev-haskell/hscolour ) >=dev-haskell/cabal-1.1.4
+DESCRIPTION=Haskell Database Connectivity
+EAPI=5
+HOMEPAGE=https://github.com/hdbc/hdbc
+IUSE=mysql odbc postgres sqlite3 test doc hscolour profile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=mysql? ( dev-haskell/hdbc-mysql ) odbc? ( =dev-haskell/hdbc-odbc-2.3* ) postgres? ( =dev-haskell/hdbc-postgresql-2.3* ) sqlite3? ( >=dev-haskell/hdbc-sqlite-2.3 )
+RDEPEND=>=dev-haskell/convertible-1.0.10.0:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/text:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-6.12.1:=
+SLOT=2/2.3.1.2
+SRC_URI=mirror://hackage/packages/archive/HDBC/2.3.1.2/HDBC-2.3.1.2.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	ghc-package	419a74a0fe876385690dfe3c4281bac7	haskell-cabal	481d999da090733b68828c266eda24fb	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=52886e78a8e91e488c0716bad2eac55a

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile config configure install postinst prepare
+DEPEND=>=virtual/mysql-4.0 dev-db/unixODBC qt4? ( >=dev-qt/qtgui-4:4 ) doc? ( dev-lang/perl ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=ODBC driver for MySQL
+EAPI=2
+HOMEPAGE=http://www.mysql.com/products/myodbc/
+IUSE=debug doc static qt4
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/mysql-4.0 dev-db/unixODBC qt4? ( >=dev-qt/qtgui-4:4 )
+RESTRICT=primaryuri
+SLOT=5.1
+SRC_URI=mirror://mysql/Downloads/Connector-ODBC/5.1/mysql-connector-odbc-5.1.6.tar.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	eutils	40081e8c7e7f7c4f9db349a1d6d52925	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	versionator	a8a3963967d6140be9a14b08bb8f047f
+_md5_=eb767775908b47831627cc8f73db2ed6

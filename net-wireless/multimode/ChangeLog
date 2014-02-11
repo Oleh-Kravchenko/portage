@@ -1,0 +1,31 @@
+# ChangeLog for net-wireless/multimode
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-wireless/multimode/ChangeLog,v 1.6 2013/09/22 03:41:03 zerochaos Exp $
+
+  22 Sep 2013; Rick Farina <zerochaos@gentoo.org> multimode-1.00.ebuild,
+  multimode-9999.ebuild:
+  fix for bug #485548, properly dep gnuradio[utils]
+
+  10 Jun 2013; Rick Farina <zerochaos@gentoo.org> multimode-1.00.ebuild,
+  multimode-9999.ebuild:
+  adding subslot dep on gnuradio
+
+  05 Jun 2013; Rick Farina <zerochaos@gentoo.org> multimode-1.00.ebuild,
+  multimode-9999.ebuild:
+  fixing deps and adding ~arm keyword
+
+  14 Sep 2012; Michael Sterrett <mr_bones_@gentoo.org> multimode-9999.ebuild:
+  inherit goes before description
+
+*multimode-1.00 (13 Sep 2012)
+
+  13 Sep 2012; Rick Farina <zerochaos@gentoo.org> +multimode-1.00.ebuild,
+  multimode-9999.ebuild:
+  add stable release, most deps still have no stable but moving in the right
+  direction
+
+*multimode-9999 (10 Sep 2012)
+
+  10 Sep 2012; Rick Farina <zerochaos@gentoo.org> +metadata.xml,
+  +multimode-9999.ebuild:
+  initial commit of multimode, thanks to Arfrever for helping cleanup

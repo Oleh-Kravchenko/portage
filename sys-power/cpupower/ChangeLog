@@ -1,0 +1,58 @@
+# ChangeLog for sys-power/cpupower
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-power/cpupower/ChangeLog,v 1.12 2013/12/25 11:46:32 ssuominen Exp $
+
+*cpupower-3.12 (25 Dec 2013)
+
+  25 Dec 2013; Samuli Suominen <ssuominen@gentoo.org> +cpupower-3.12.ebuild,
+  +files/init.d-r4:
+  Version bump with updated init.d script wrt #453794#c23 by Lars Wendler
+
+*cpupower-3.11-r1 (20 Oct 2013)
+
+  20 Oct 2013; Samuli Suominen <ssuominen@gentoo.org> +cpupower-3.11-r1.ebuild,
+  +files/init.d-r3:
+  Skip non-existing sysfs entry wrt #453794#c21 by Holger Hoffstätte
+
+  27 Sep 2013; Samuli Suominen <ssuominen@gentoo.org> -cpupower-3.8.ebuild,
+  -cpupower-3.8-r1.ebuild, -files/conf.d, -files/conf.d-r1, -files/init.d,
+  -files/init.d-r1:
+  old
+
+*cpupower-3.11 (27 Sep 2013)
+
+  27 Sep 2013; Samuli Suominen <ssuominen@gentoo.org> +cpupower-3.11.ebuild,
+  +files/conf.d-r2, +files/init.d-r2:
+  Version bump to cpupower from Linux 3.11 source tree as well as update
+  conf.d/init.d wrt #453794 by "Khayyam"
+
+*cpupower-3.8-r1 (24 Apr 2013)
+
+  24 Apr 2013; Samuli Suominen <ssuominen@gentoo.org> +cpupower-3.8-r1.ebuild,
+  +files/conf.d-r1, +files/init.d-r1:
+  New revision of conf.d/init.d files with SYSFS_EXTRA argument wrt #453794,
+  Comment #4 by "khayyam"
+
+  23 Apr 2013; Patrick Lauer <patrick@gentoo.org> cpupower-3.8.ebuild:
+  Add blocker for cpufrequtils as they install the same header
+
+  23 Apr 2013; Samuli Suominen <ssuominen@gentoo.org> -cpupower-3.8_rc4.ebuild:
+  old
+
+*cpupower-3.8 (23 Apr 2013)
+
+  23 Apr 2013; Samuli Suominen <ssuominen@gentoo.org> +cpupower-3.8.ebuild,
+  +files/conf.d, +files/init.d:
+  Version bump. Initial conf.d and init.d files wrt #453794 by "khayyam"
+  Next version will be 3.9 because we want to use the same kernel sources that
+  are already in mirrors from sys-kernel/gentoo-sources and
+  sys-kernel/vanilla-sources.
+
+  24 Jan 2013; Samuli Suominen <ssuominen@gentoo.org> cpupower-3.8_rc4.ebuild:
+  Missing os-headers and pciutils dependencies wrt #453776 by Mieszko Ślusarczyk
+
+*cpupower-3.8_rc4 (23 Jan 2013)
+
+  23 Jan 2013; Samuli Suominen <ssuominen@gentoo.org> +cpupower-3.8_rc4.ebuild:
+  The official cpufreq utilities from the kernel source tree, separated from
+  sys-apps/linux-misc-apps.

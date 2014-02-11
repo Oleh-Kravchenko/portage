@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare unpack
+DEPEND=kernel_linux? ( sys-apps/lsb-release )
+DESCRIPTION=UPnP client library and a simple UPnP client
+EAPI=4
+HOMEPAGE=http://miniupnp.free.fr/
+IUSE=static-libs
+KEYWORDS=amd64 ~arm ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=BSD
+RESTRICT=test
+SLOT=0
+SRC_URI=http://miniupnp.free.fr/files/miniupnpc-1.6.tar.gz
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=4d5f2145e5bd2fc6b72e6a4e843af2ba

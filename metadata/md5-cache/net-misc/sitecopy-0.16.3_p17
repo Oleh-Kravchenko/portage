@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=rsh? ( net-misc/netkit-rsh ) >=net-libs/neon-0.24.6[zlib?,ssl?,expat?] xml? ( >=net-libs/neon-0.24.6[-expat] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=sitecopy is for easily maintaining remote web sites
+EAPI=2
+HOMEPAGE=http://packages.debian.org/unstable/sitecopy http://www.lyra.org/sitecopy/
+IUSE=expat nls rsh ssl webdav xml zlib
+KEYWORDS=amd64 ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=GPL-2
+RDEPEND=rsh? ( net-misc/netkit-rsh ) >=net-libs/neon-0.24.6[zlib?,ssl?,expat?] xml? ( >=net-libs/neon-0.24.6[-expat] )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/s/sitecopy/sitecopy_0.16.3.orig.tar.gz mirror://debian/pool/main/s/sitecopy/sitecopy_0.16.3-17.diff.gz
+_eclasses_=autotools	d76ee21296238133bd2df8dea7f33a05	eutils	40081e8c7e7f7c4f9db349a1d6d52925	libtool	b9b3340e3a19510f0d9f05cfccbf209f	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=7276543e37ff8604079f357aca9c6596
