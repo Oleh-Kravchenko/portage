@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-extra/sensors-applet/sensors-applet-3.0.0.ebuild,v 1.7 2013/12/08 18:59:56 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-extra/sensors-applet/sensors-applet-3.0.0.ebuild,v 1.9 2014/02/22 22:05:08 pacho Exp $
 
 EAPI=4
 GCONF_DEBUG=no

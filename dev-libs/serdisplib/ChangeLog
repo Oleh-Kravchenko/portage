@@ -1,6 +1,20 @@
 # ChangeLog for dev-libs/serdisplib
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/serdisplib/ChangeLog,v 1.16 2013/05/13 03:25:37 patrick Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/serdisplib/ChangeLog,v 1.20 2014/03/05 15:22:56 ago Exp $
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> serdisplib-1.97.9.ebuild:
+  Stable for ppc, wrt bug #500644
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> serdisplib-1.97.9.ebuild:
+  amd64 stable, bug #500644
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  serdisplib-1.97.9.ebuild:
+  x86 stable wrt bug #500644
+
+  11 Feb 2014; Michael Sterrett <mr_bones_@gentoo.org>
+  -serdisplib-1.97.5.ebuild:
+  old
 
   13 May 2013; Patrick Lauer <patrick@gentoo.org> metadata.xml:
   Removing removed lcd herd from metadata

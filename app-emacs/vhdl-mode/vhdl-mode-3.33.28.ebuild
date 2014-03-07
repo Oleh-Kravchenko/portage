@@ -1,6 +1,6 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emacs/vhdl-mode/vhdl-mode-3.33.28.ebuild,v 1.4 2011/01/08 00:53:13 ranger Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emacs/vhdl-mode/vhdl-mode-3.33.28.ebuild,v 1.5 2014/02/27 18:11:39 ulm Exp $
 
 EAPI=3
 
@@ -10,7 +10,7 @@ DESCRIPTION="VHDL-mode for Emacs"
 HOMEPAGE="http://www.iis.ee.ethz.ch/~zimmi/emacs/vhdl-mode.html"
 SRC_URI="http://www.iis.ee.ethz.ch/~zimmi/emacs/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="amd64 ppc x86"
 IUSE=""

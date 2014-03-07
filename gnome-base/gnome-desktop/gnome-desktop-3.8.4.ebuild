@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-desktop/gnome-desktop-3.8.4.ebuild,v 1.3 2013/12/08 18:28:37 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-desktop/gnome-desktop-3.8.4.ebuild,v 1.5 2014/02/22 21:41:32 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="yes"

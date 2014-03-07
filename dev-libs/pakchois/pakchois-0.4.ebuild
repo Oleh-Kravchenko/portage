@@ -1,6 +1,6 @@
-# Copyright 1999-2008 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/pakchois/pakchois-0.4.ebuild,v 1.13 2008/11/12 05:48:33 pva Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/pakchois/pakchois-0.4.ebuild,v 1.14 2014/02/15 19:50:26 alonbl Exp $
 
 DESCRIPTION="PaKChoiS - PKCS #11 wrapper library"
 HOMEPAGE="http://www.manyfish.co.uk/pakchois/"

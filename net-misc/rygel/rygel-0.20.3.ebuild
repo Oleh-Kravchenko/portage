@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/rygel/rygel-0.20.3.ebuild,v 1.1 2014/02/06 23:46:26 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/rygel/rygel-0.20.3.ebuild,v 1.3 2014/02/22 22:33:24 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"

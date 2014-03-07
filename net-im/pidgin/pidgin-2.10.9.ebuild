@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-im/pidgin/pidgin-2.10.9.ebuild,v 1.6 2014/02/09 08:26:50 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-im/pidgin/pidgin-2.10.9.ebuild,v 1.11 2014/02/22 07:31:17 ago Exp $
 
 EAPI=5
 
@@ -14,7 +14,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~hppa ~ia64 ppc ppc64 sparc x86 ~x86-freebsd ~amd64-linux ~x86-linux ~x86-macos"
+KEYWORDS="alpha amd64 arm ~hppa ia64 ppc ppc64 sparc x86 ~x86-freebsd ~amd64-linux ~x86-linux ~x86-macos"
 IUSE="dbus debug doc eds gadu gnutls +gstreamer +gtk idn meanwhile mxit"
 IUSE+=" networkmanager nls perl silc tcl tk spell sasl ncurses"
 IUSE+=" groupwise prediction python +xscreensaver zephyr zeroconf" # mono"
@@ -121,7 +121,7 @@ pkg_setup() {
 		elog "You did not pick the ncurses or gtk use flags, only libpurple"
 		elog "will be built."
 	fi
-	if use dbus || { use ncurses && use python; }; then
+	if use python || use dbus ; then
 		python-single-r1_pkg_setup
 	fi
 
@@ -136,8 +136,10 @@ pkg_setup() {
 }
 
 src_prepare() {
-	epatch "${FILESDIR}/${PN}-2.10.0-gold.patch"
-
+	epatch "${FILESDIR}/${PN}-2.10.0-gold.patch" \
+		"${FILESDIR}/${P}-fix-gtkmedia.patch" \
+		"${FILESDIR}/${P}-python3_fix1.patch" \
+		"${FILESDIR}/${P}-python3_fix2.patch"
 	epatch_user
 
 	eautoreconf

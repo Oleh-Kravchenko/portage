@@ -1,6 +1,6 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/ghc/ghc-6.12.3-r2.ebuild,v 1.8 2012/04/30 15:38:41 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/ghc/ghc-6.12.3-r2.ebuild,v 1.10 2014/02/15 08:52:36 slyfox Exp $
 
 # Brief explanation of the bootstrap logic:
 #
@@ -85,6 +85,8 @@ PDEPEND="!ghcbootstrap? ( || ( =app-admin/haskell-updater-1.2* =app-admin/haskel
 # http://hackage.haskell.org/trac/ghc/ticket/3580
 STRIP_MASK="*/HSffi.o"
 
+use binary && QA_PREBUILT="*"
+
 append-ghc-cflags() {
 	local flag compile assemble link
 	for flag in $*; do
@@ -108,6 +110,9 @@ ghc_setup_cflags() {
 	# We also use these CFLAGS for building the C parts of ghc, ie the rts.
 	strip-flags
 	strip-unsupported-flags
+
+	# Cmm can't parse line numbers #482086
+	replace-flags -ggdb[3-9] -ggdb2
 
 	GHC_CFLAGS=""
 	for flag in ${CFLAGS}; do

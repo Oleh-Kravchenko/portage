@@ -1,6 +1,23 @@
 # ChangeLog for dev-libs/efl
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/efl/ChangeLog,v 1.2 2014/02/01 15:12:17 tommy Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/efl/ChangeLog,v 1.6 2014/03/06 01:04:33 zerochaos Exp $
+
+  06 Mar 2014; Rick Farina <zerochaos@gentoo.org> efl-1.8.5.ebuild,
+  efl-1.9.0.ebuild:
+  QA fix: adding soft blocker to RDEP to avoid file collisions on binpkg install
+
+  04 Mar 2014; Thomas Sachau (Tommy[D]) <tommy@gentoo.org> efl-1.9.0.ebuild:
+  Disable support for gstreamer:1.0 in favour of gstreamer:0.10 for now until
+  evas_generic_loaders also supports gstreamer:1.0
+
+*efl-1.9.0 (01 Mar 2014)
+
+  01 Mar 2014; Thomas Sachau (Tommy[D]) <tommy@gentoo.org> +efl-1.9.0.ebuild,
+  metadata.xml:
+  Version bump to 1.9 series
+
+  23 Feb 2014; Markus Meier <maekke@gentoo.org> efl-1.8.5.ebuild:
+  add ~arm, bug #499974
 
 *efl-1.8.5 (01 Feb 2014)
 

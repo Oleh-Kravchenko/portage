@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-extra/gnome-screensaver/gnome-screensaver-3.6.1.ebuild,v 1.6 2013/12/08 18:49:18 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-extra/gnome-screensaver/gnome-screensaver-3.6.1.ebuild,v 1.8 2014/02/22 21:57:11 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="yes"

@@ -1,6 +1,24 @@
 # ChangeLog for sys-fs/ntfs3g
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/ntfs3g/ChangeLog,v 1.154 2014/01/26 12:10:16 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/ntfs3g/ChangeLog,v 1.158 2014/03/01 22:11:24 mgorny Exp $
+
+  01 Mar 2014; Michał Górny <mgorny@gentoo.org> ntfs3g-2013.1.13.ebuild,
+  ntfs3g-2014.2.15.ebuild:
+  Update libgcrypt dep to use slot :0.
+
+  27 Feb 2014; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Cleanup metadata.xml
+
+*ntfs3g-2014.2.15 (27 Feb 2014)
+
+  27 Feb 2014; Patrick McLean <chutzpah@gentoo.org>
+  -ntfs3g-2012.1.15-r1.ebuild, -ntfs3g-2012.1.15-r2.ebuild,
+  ntfs3g-2013.1.13.ebuild, +ntfs3g-2014.2.15.ebuild:
+  Version bump. Drop old versions. Update libgcrypt dep in 2013.1.13 to specify
+  less than 1.6.0.
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> ntfs3g-2013.1.13.ebuild:
+  x86 stable wrt bug #495310
 
   26 Jan 2014; Agostino Sarubbo <ago@gentoo.org> ntfs3g-2013.1.13.ebuild:
   Stable for sparc, wrt bug #495310

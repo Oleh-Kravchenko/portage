@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/libav/libav-0.8.9-r1.ebuild,v 1.2 2013/12/30 14:36:38 lu_zero Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/libav/libav-0.8.9-r1.ebuild,v 1.3 2014/02/09 22:07:01 lu_zero Exp $
 
 EAPI=5
 
@@ -316,7 +316,7 @@ pkg_postinst() {
 	elog "but will be removed in the next version"
 }
 
-src_test() {
-	LD_LIBRARY_PATH="${S}/libavcore:${S}/libswscale:${S}/libavcodec:${S}/libavdevice:${S}/libavfilter:${S}/libavformat:${S}/libavutil" \
+multilib_src_test() {
+	LD_LIBRARY_PATH="${BUILD_DIR}/libavcore:${BUILD_DIR}/libswscale:${BUILD_DIR}/libavcodec:${BUILD_DIR}/libavdevice:${BUILD_DIR}/libavfilter:${BUILD_DIR}/libavformat:$BUILD_DIRS}/libavutil" \
 		emake fate SAMPLES="${WORKDIR}/fate"
 }

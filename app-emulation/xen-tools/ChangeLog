@@ -1,6 +1,91 @@
 # ChangeLog for app-emulation/xen-tools
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/xen-tools/ChangeLog,v 1.217 2014/02/08 08:13:43 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/xen-tools/ChangeLog,v 1.230 2014/03/01 23:06:15 mgorny Exp $
+
+  01 Mar 2014; Michał Górny <mgorny@gentoo.org> xen-tools-4.2.3-r1.ebuild,
+  xen-tools-4.2.4.ebuild, xen-tools-4.3.1-r5.ebuild, xen-tools-4.3.1-r6.ebuild,
+  xen-tools-4.3.2.ebuild:
+  Update libgcrypt dep to use slot :0.
+
+  23 Feb 2014; Yixun Lan <dlan@gentoo.org> files/xenstored.initd:
+  fix bug #502056, thanks KK <klaus.kreil at univie.ac.at>
+
+  21 Feb 2014; Ian Delaney <idella4@gentoo.org> xen-tools-4.2.3-r1.ebuild,
+  xen-tools-4.2.4.ebuild, xen-tools-4.3.2.ebuild:
+  correct typos, tidy
+
+  20 Feb 2014; Yixun Lan <dlan@gentoo.org>
+  -files/xen-4-CVE-2013-0215-XSA-38.patch,
+  -files/xen-4-CVE-2013-1919-XSA-46.patch,
+  -files/xen-4-CVE-2013-1922-XSA-48.patch,
+  -files/xen-4-CVE-2013-1952-XSA-49.patch,
+  -files/xen-4-CVE-2013-1952-XSA_49.patch,
+  -files/xen-4-CVE-2013-2072-XSA-56.patch,
+  -files/xen-4.2-CVE-2013-1-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-12to13-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-14-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-16-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-17-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-18to19-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-2-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-20to23-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-3-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-4-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-5to7-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-6-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-7-XSA-55.patch,
+  -files/xen-4.2-CVE-2013-9to10-XSA-55.patch, -files/xen-4.2-CVE-XSA-57.patch,
+  -files/xen-tools-4-CVE-2013-4369-XSA-68.patch,
+  -files/xen-tools-4-CVE-2013-4370-XSA-69.patch,
+  -files/xen-tools-4-CVE-2013-4371-XSA-70.patch,
+  -files/xen-tools-4-CVE-2013-4416-XSA-72.patch:
+  clean up unused XSA patches
+
+  20 Feb 2014; Yixun Lan <dlan@gentoo.org> -xen-tools-4.2.2-r3.ebuild,
+  -xen-tools-4.2.2-r7.ebuild, -xen-tools-4.2.3.ebuild:
+  drop old ebuild, clean up
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> xen-tools-4.2.3-r1.ebuild:
+  Stable for x86, wrt bug #500530
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> xen-tools-4.2.3-r1.ebuild:
+  Stable for amd64, wrt bug #500530
+
+*xen-tools-4.3.2 (19 Feb 2014)
+*xen-tools-4.2.4 (19 Feb 2014)
+
+  19 Feb 2014; Yixun Lan <dlan@gentoo.org> +xen-tools-4.2.4.ebuild,
+  +xen-tools-4.3.2.ebuild:
+  revision bump 4.2.4, 4.3.2
+
+*xen-tools-4.3.1-r6 (18 Feb 2014)
+*xen-tools-4.2.3-r1 (18 Feb 2014)
+
+  18 Feb 2014; Yixun Lan <dlan@gentoo.org> +xen-tools-4.2.3-r1.ebuild,
+  -xen-tools-4.3.1-r3.ebuild, xen-tools-4.3.1-r5.ebuild,
+  +xen-tools-4.3.1-r6.ebuild, +files/xen-tools-4-unbundle-ipxe.patch,
+  +files/xen-tools-4-unbundle-seabios.patch, metadata.xml:
+  fix bug #496708, thanks Radoslaw Szkodzinski
+
+  15 Feb 2014; Agostino Sarubbo <ago@gentoo.org> xen-tools-4.3.1-r5.ebuild:
+  Stable for x86, wrt bug #500530
+
+  15 Feb 2014; Agostino Sarubbo <ago@gentoo.org> xen-tools-4.3.1-r5.ebuild:
+  Stable for amd64, wrt bug #500530
+
+*xen-tools-4.2.3 (14 Feb 2014)
+
+  14 Feb 2014; Yixun Lan <dlan@gentoo.org> +xen-tools-4.2.3.ebuild:
+  bumped, fix security bugs, see #500530 for details
+
+*xen-tools-4.3.1-r5 (13 Feb 2014)
+*xen-tools-4.2.2-r7 (13 Feb 2014)
+
+  13 Feb 2014; Yixun Lan <dlan@gentoo.org> -xen-tools-4.2.2-r6.ebuild,
+  +xen-tools-4.2.2-r7.ebuild, -xen-tools-4.3.1-r4.ebuild,
+  +xen-tools-4.3.1-r5.ebuild, +files/xen-tools-4-CVE-2014-1950-XSA-88.patch,
+  +files/xen-tools-4.2.2-rt-link.patch, files/xenconsoled.initd:
+  fix sec bug #500530, #501080, missing -lrt bug #463840, glib deps bug #500604
 
 *xen-tools-4.3.1-r4 (08 Feb 2014)
 

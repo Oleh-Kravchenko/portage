@@ -1,6 +1,16 @@
 # ChangeLog for app-arch/file-roller
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-arch/file-roller/ChangeLog,v 1.329 2013/12/24 15:21:05 pacho Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-arch/file-roller/ChangeLog,v 1.332 2014/02/22 20:54:28 pacho Exp $
+
+  22 Feb 2014; Pacho Ramos <pacho@gentoo.org> file-roller-3.10.2.1.ebuild:
+  Fix wrong commit, bug 502160
+
+  22 Feb 2014; Pacho Ramos <pacho@gentoo.org> file-roller-3.10.2.1.ebuild:
+  arch stable, bug 888
+
+  20 Feb 2014; Pacho Ramos <pacho@gentoo.org> file-roller-2.32.2.ebuild,
+  file-roller-3.10.2.1.ebuild, file-roller-3.8.4-r2.ebuild:
+  Fix typo (#501776 by Francesco Turco)
 
 *file-roller-3.10.2.1 (24 Dec 2013)
 

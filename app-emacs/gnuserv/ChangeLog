@@ -1,6 +1,32 @@
 # ChangeLog for app-emacs/gnuserv
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emacs/gnuserv/ChangeLog,v 1.29 2010/04/30 14:15:19 grobian Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-emacs/gnuserv/ChangeLog,v 1.33 2014/02/18 00:33:10 ulm Exp $
+
+  18 Feb 2014; Ulrich Müller <ulm@gentoo.org> gnuserv-3.12.8-r2.ebuild:
+  Add missing elisp-site-regen call to postinst and postrm phases.
+
+  17 Feb 2014; Ulrich Müller <ulm@gentoo.org> gnuserv-3.12.8-r2.ebuild:
+  Add strong blockers against app-editors/xemacs versions that are installing
+  gnuserv binaries without an -xemacs suffix.
+
+*gnuserv-3.12.8-r2 (17 Feb 2014)
+
+  17 Feb 2014; Ulrich Müller <ulm@gentoo.org> -gnuserv-3.12.8-r1.ebuild,
+  +gnuserv-3.12.8-r2.ebuild, +files/50gnuserv-gentoo-3.12.8-r2.el,
+  +files/gnuclient.desktop:
+  Install binaries with -emacs suffix to avoid file collisions with XEmacs;
+  active versions of gnuclient and gnudoit can now be selected with the
+  gnuclient eselect module, bug 177936. Install the gnuserv binary under
+  /usr/libexec and set the path in the site-init file accordingly. Install a
+  desktop entry with USE=X.
+
+*gnuserv-3.12.8-r1 (15 Feb 2014)
+
+  15 Feb 2014; Ulrich Müller <ulm@gentoo.org> +gnuserv-3.12.8-r1.ebuild:
+  Recent XEmacs includes a gnuserv that is no longer compatible with this
+  standalone version. Install binary programs, instead of splitting them off
+  to app-emacs/gnuserv-programs. Add blockers against that package and against
+  app-editors/xemacs.
 
   30 Apr 2010; Fabian Groffen <grobian@gentoo.org> gnuserv-3.12.8.ebuild:
   Marked ~x86-linux and ~ppc-macos

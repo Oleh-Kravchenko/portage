@@ -1,12 +1,11 @@
-diff -ru a/Makefile b/Makefile
---- a/Makefile	2009-01-23 22:23:43.000000000 -0600
-+++ b/Makefile	2009-01-23 22:27:06.000000000 -0600
+--- a/Makefile
++++ b/Makefile
 @@ -1,7 +1,7 @@
  # Makefile for IFStatus
  # Gabriel Montenegro 
  
 -LDFLAGS = -lncurses
-+LDLIBS = -lncurses
++LDLIBS = $(shell pkg-config --libs ncurses)
  
  BIN = ifstatus
  OBJ = BorderDecorator.o\

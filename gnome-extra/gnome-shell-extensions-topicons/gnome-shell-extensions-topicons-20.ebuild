@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-extra/gnome-shell-extensions-topicons/gnome-shell-extensions-topicons-20.ebuild,v 1.1 2014/02/08 22:12:56 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-extra/gnome-shell-extensions-topicons/gnome-shell-extensions-topicons-20.ebuild,v 1.3 2014/02/22 21:57:29 pacho Exp $
 
 EAPI="5"
 

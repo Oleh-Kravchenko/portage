@@ -1,6 +1,58 @@
 # ChangeLog for x11-drivers/nvidia-drivers
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/ChangeLog,v 1.523 2014/02/08 21:42:26 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/ChangeLog,v 1.534 2014/03/03 21:52:09 jer Exp $
+
+  03 Mar 2014; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-331.49.ebuild,
+  -nvidia-drivers-334.16-r7.ebuild:
+  Stable for AMD64 x86 too.
+
+*nvidia-drivers-334.21 (03 Mar 2014)
+
+  03 Mar 2014; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-334.21.ebuild:
+  Version bump.
+
+  28 Feb 2014; Mike Frysinger <vapier@gentoo.org> nvidia-drivers-331.38.ebuild,
+  nvidia-drivers-331.49.ebuild, nvidia-drivers-334.16-r7.ebuild:
+  Update license to newer version.
+
+  19 Feb 2014; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-331.49.ebuild:
+  Raise supported kernel version dependency.
+
+*nvidia-drivers-331.49 (19 Feb 2014)
+
+  19 Feb 2014; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-331.49.ebuild:
+  Version bump.
+
+*nvidia-drivers-334.16-r7 (18 Feb 2014)
+
+  18 Feb 2014; Jeroen Roovers <jer@gentoo.org>
+  -nvidia-drivers-334.16-r6.ebuild, +nvidia-drivers-334.16-r7.ebuild:
+  Run linux-mod_pkg_setup after MODULE_NAMES but before BUILD_PARAMS is set
+  (bug #501676 by Olivier Huber).
+
+  17 Feb 2014; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-334.16-r6.ebuild:
+  Whitespace.
+
+*nvidia-drivers-334.16-r6 (17 Feb 2014)
+
+  17 Feb 2014; Jeroen Roovers <jer@gentoo.org>
+  -nvidia-drivers-334.16-r5.ebuild, +nvidia-drivers-334.16-r6.ebuild:
+  Set up MODULE_NAMES so that nvidia-uvm gets built first (bug #501540).
+
+  17 Feb 2014; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-334.16-r5.ebuild:
+  Invert if/else.
+
+  17 Feb 2014; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-334.16-r5.ebuild,
+  metadata.xml:
+  Install the Unified Memory kernel module (nvidia-uvm) (bug #501540 by Andreas
+  Steinmetz).
+
+*nvidia-drivers-334.16-r5 (10 Feb 2014)
+
+  10 Feb 2014; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-334.16-r5.ebuild,
+  -nvidia-drivers-334.16-r4.ebuild:
+  Install the correct libGLESv2.so in multilib cases (bug #500866 by Enrico
+  Tagliavini).
 
 *nvidia-drivers-334.16-r4 (08 Feb 2014)
 

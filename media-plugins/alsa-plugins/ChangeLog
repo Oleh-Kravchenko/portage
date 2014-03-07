@@ -1,6 +1,30 @@
 # ChangeLog for media-plugins/alsa-plugins
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-plugins/alsa-plugins/ChangeLog,v 1.180 2013/11/30 22:02:14 mgorny Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-plugins/alsa-plugins/ChangeLog,v 1.187 2014/03/02 09:13:44 hattya Exp $
+
+  02 Mar 2014; Akinori Hattori <hattya@gentoo.org>
+  alsa-plugins-1.0.27-r1.ebuild:
+  ia64 stable wrt bug #498186
+
+  23 Feb 2014; Pacho Ramos <pacho@gentoo.org> alsa-plugins-1.0.27-r1.ebuild:
+  x86 stable, bug #498186
+
+  22 Feb 2014; Markus Meier <maekke@gentoo.org> alsa-plugins-1.0.27-r1.ebuild:
+  arm stable, bug #498186
+
+  18 Feb 2014; Jeroen Roovers <jer@gentoo.org> alsa-plugins-1.0.27-r1.ebuild:
+  Stable for HPPA (bug #498186).
+
+  17 Feb 2014; Samuli Suominen <ssuominen@gentoo.org>
+  alsa-plugins-1.0.27-r1.ebuild:
+  amd64 stable wrt #498186
+
+  17 Feb 2014; Samuli Suominen <ssuominen@gentoo.org>
+  +files/alsa-plugins-1.0.27-ffmpeg.patch, alsa-plugins-1.0.27-r1.ebuild:
+  Include upstream patch for newer libav support wrt #501524 by Renato Gallo
+
+  15 Feb 2014; Akinori Hattori <hattya@gentoo.org> alsa-plugins-1.0.27.ebuild:
+  ia64 stable wrt bug #473404
 
 *alsa-plugins-1.0.27-r1 (30 Nov 2013)
 

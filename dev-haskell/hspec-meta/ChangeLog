@@ -1,6 +1,20 @@
 # ChangeLog for dev-haskell/hspec-meta
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-haskell/hspec-meta/ChangeLog,v 1.5 2013/12/11 06:04:28 gienah Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/hspec-meta/ChangeLog,v 1.9 2014/03/05 09:08:00 qnikst Exp $
+
+  05 Mar 2014; Alexander Vershilov <qnikst@gentoo.org> -hspec-meta-1.5.4.ebuild:
+  drop old
+
+  04 Mar 2014; Agostino Sarubbo <ago@gentoo.org> hspec-meta-1.8.1.ebuild:
+  Stable for x86, wrt bug #502680
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> hspec-meta-1.8.1.ebuild:
+  amd64 stable, bug #502680
+
+*hspec-meta-1.8.3 (28 Feb 2014)
+
+  28 Feb 2014; Alexander Vershilov <qnikst@gentoo.org> +hspec-meta-1.8.3.ebuild:
+  add new version
 
 *hspec-meta-1.8.1 (11 Dec 2013)
 

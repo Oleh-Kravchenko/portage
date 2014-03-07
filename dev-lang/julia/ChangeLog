@@ -1,6 +1,21 @@
 # ChangeLog for dev-lang/julia
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/julia/ChangeLog,v 1.2 2014/01/09 08:02:20 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/julia/ChangeLog,v 1.6 2014/02/26 09:41:27 gienah Exp $
+
+  26 Feb 2014; Mark Wright <gienah@gentoo.org> julia-0.2.0-r1.ebuild:
+  Fix for bug #501868 requires pkg-config --libs-only-l blas
+
+*julia-0.2.0-r1 (26 Feb 2014)
+
+  26 Feb 2014; Mark Wright <gienah@gentoo.org> +julia-0.2.0-r1.ebuild:
+  Add 0.2.0-r1 with calchan's fix for bug #501868 and USE_BLAS64=0. paxmark m
+  executables during build for Gentoo hardened. Tweak for multilib-strict.
+
+  26 Feb 2014; Patrick Lauer <patrick@gentoo.org> julia-0.2.0.ebuild:
+  Revert changes that break build #501868
+
+  25 Feb 2014; Denis Dupeyron <calchan@gentoo.org> julia-0.2.0.ebuild:
+  Fixed bug #501868 as well as general brokenness.
 
   09 Jan 2014; Patrick Lauer <patrick@gentoo.org> julia-0.2.0.ebuild:
   Fix homepage

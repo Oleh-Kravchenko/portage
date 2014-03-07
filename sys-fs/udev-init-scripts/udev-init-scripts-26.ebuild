@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev-init-scripts/udev-init-scripts-26.ebuild,v 1.15 2014/01/18 05:16:49 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev-init-scripts/udev-init-scripts-26.ebuild,v 1.16 2014/03/05 18:59:49 ssuominen Exp $
 
 EAPI=5
 
@@ -25,8 +25,12 @@ fi
 
 RESTRICT="test"
 
-DEPEND="virtual/pkgconfig"
-RDEPEND=">=virtual/udev-180
+# net.sh and 90-network.rules are part of >=net-misc/netifrc-0.2.1:
+COMMON_DEPEND="!>=net-misc/netifrc-0.2.1"
+DEPEND="${COMMON_DEPEND}
+	virtual/pkgconfig"
+RDEPEND="${COMMON_DEPEND}
+	>=virtual/udev-180
 	!<sys-fs/udev-186"
 
 src_prepare()

@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-misc/workrave/workrave-1.10.ebuild,v 1.4 2013/12/08 17:43:18 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-misc/workrave/workrave-1.10.ebuild,v 1.6 2014/02/22 21:00:34 pacho Exp $
 
 EAPI=5
 GCONF_DEBUG="yes"

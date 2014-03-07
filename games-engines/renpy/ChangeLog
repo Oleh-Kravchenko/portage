@@ -1,6 +1,34 @@
 # ChangeLog for games-engines/renpy
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/games-engines/renpy/ChangeLog,v 1.27 2014/01/30 20:20:13 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-engines/renpy/ChangeLog,v 1.32 2014/03/05 23:35:54 hasufell Exp $
+
+*renpy-6.17.3 (05 Mar 2014)
+
+  05 Mar 2014; Julian Ospald <hasufell@gentoo.org> -renpy-6.17.1.ebuild,
+  -files/renpy-6.17.1-multiple-abi.patch, -renpy-6.17.2.ebuild,
+  -files/renpy-6.17.2-multiple-abi.patch, +renpy-6.17.3.ebuild,
+  +files/renpy-6.17.3-multiple-abi.patch:
+  version bump, remove old
+
+  02 Mar 2014; Michał Górny <mgorny@gentoo.org> renpy-6.16.5.ebuild,
+  renpy-6.17.1.ebuild, renpy-6.17.2.ebuild:
+  Update to use dev-lang/python-exec. Again.
+
+*renpy-6.17.2 (01 Mar 2014)
+
+  01 Mar 2014; Julian Ospald <hasufell@gentoo.org> -renpy-6.17.0.ebuild,
+  -files/renpy-6.17.0-multiple-abi.patch, +renpy-6.17.2.ebuild,
+  +files/renpy-6.17.2-multiple-abi.patch:
+  version bump, remove old
+
+*renpy-6.17.1 (25 Feb 2014)
+
+  25 Feb 2014; Julian Ospald <hasufell@gentoo.org> +renpy-6.17.1.ebuild,
+  +files/renpy-6.17.1-multiple-abi.patch:
+  version bump
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> renpy-6.16.5.ebuild:
+  x86 stable wrt bug #499832
 
   30 Jan 2014; Julian Ospald <hasufell@gentoo.org> -renpy-6.15.4.ebuild,
   -files/renpy-6.15.4-multiple-abi.patch, -renpy-6.16.2.ebuild,

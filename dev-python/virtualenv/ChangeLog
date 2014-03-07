@@ -1,6 +1,23 @@
 # ChangeLog for dev-python/virtualenv
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/virtualenv/ChangeLog,v 1.112 2014/02/03 10:01:33 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/virtualenv/ChangeLog,v 1.116 2014/03/04 20:50:00 naota Exp $
+
+  04 Mar 2014; Naohiro Aota <naota@gentoo.org> virtualenv-1.11.4.ebuild:
+  Add ~x86-fbsd wrt bug #503094
+
+*virtualenv-1.11.4 (03 Mar 2014)
+
+  03 Mar 2014; Tim Harder <radhermit@gentoo.org> +virtualenv-1.11.4.ebuild:
+  Version bump.
+
+  03 Mar 2014; Jeroen Roovers <jer@gentoo.org> virtualenv-1.11.3.ebuild:
+  Marked ~hppa (bug #503094).
+
+*virtualenv-1.11.3 (21 Feb 2014)
+
+  21 Feb 2014; Justin Lecher <jlec@gentoo.org> -virtualenv-1.11.2.ebuild,
+  +virtualenv-1.11.3.ebuild, +files/virtualenv-1.11.3-skip-broken-test.patch:
+  Version Bump, fix testsuite #497090
 
 *virtualenv-1.11.2 (03 Feb 2014)
 

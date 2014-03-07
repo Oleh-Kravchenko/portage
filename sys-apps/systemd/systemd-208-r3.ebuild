@@ -1,11 +1,11 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-208-r3.ebuild,v 1.1 2014/01/20 22:53:07 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-208-r3.ebuild,v 1.3 2014/03/01 22:37:05 mgorny Exp $
 
 EAPI=5
 
 AUTOTOOLS_PRUNE_LIBTOOL_FILES=all
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python{2_7,3_2,3_3} )
 inherit autotools-utils bash-completion-r1 fcaps linux-info multilib \
 	multilib-minimal pam python-single-r1 systemd toolchain-funcs udev \
 	user
@@ -30,7 +30,7 @@ COMMON_DEPEND=">=sys-apps/dbus-1.6.8-r1
 	acl? ( sys-apps/acl )
 	audit? ( >=sys-process/audit-2 )
 	cryptsetup? ( >=sys-fs/cryptsetup-1.6 )
-	gcrypt? ( >=dev-libs/libgcrypt-1.4.5 )
+	gcrypt? ( >=dev-libs/libgcrypt-1.4.5:0 )
 	gudev? ( >=dev-libs/glib-2[${MULTILIB_USEDEP}] )
 	http? ( net-libs/libmicrohttpd )
 	introspection? ( >=dev-libs/gobject-introspection-1.31.1 )

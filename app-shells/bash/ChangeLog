@@ -1,6 +1,16 @@
 # ChangeLog for app-shells/bash
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-shells/bash/ChangeLog,v 1.351 2014/01/31 05:42:08 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-shells/bash/ChangeLog,v 1.353 2014/02/28 22:45:30 vapier Exp $
+
+  28 Feb 2014; Mike Frysinger <vapier@gentoo.org> -bash-4.3_rc2.ebuild,
+  bash-4.3.ebuild:
+  Fix up doc install, delete a bit of debug code, keep the old src_unpack to
+  avoid warnings when using patches, and use POSIX shell in pkg_* funcs.
+
+*bash-4.3 (27 Feb 2014)
+
+  27 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> +bash-4.3.ebuild:
+  Version bump.
 
 *bash-4.3_rc2 (31 Jan 2014)
 

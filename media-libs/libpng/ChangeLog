@@ -1,6 +1,28 @@
 # ChangeLog for media-libs/libpng
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libpng/ChangeLog,v 1.436 2014/01/27 14:16:07 hattya Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libpng/ChangeLog,v 1.441 2014/02/21 05:59:16 ssuominen Exp $
+
+  21 Feb 2014; Samuli Suominen <ssuominen@gentoo.org> -libpng-1.2.50.ebuild,
+  -libpng-1.5.15.ebuild, -libpng-1.5.17-r1.ebuild, -libpng-1.6.6.ebuild,
+  -libpng-1.6.7.ebuild:
+  old
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> libpng-1.6.8.ebuild:
+  Stable for sparc, wrt bug #494962
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> libpng-1.6.8.ebuild:
+  Stable for ppc64, wrt bug #494962
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> libpng-1.6.8.ebuild:
+  Stable for ppc, wrt bug #494962
+
+*libpng-1.5.18 (17 Feb 2014)
+*libpng-1.6.9 (17 Feb 2014)
+*libpng-1.2.51 (17 Feb 2014)
+
+  17 Feb 2014; Samuli Suominen <ssuominen@gentoo.org> +libpng-1.2.51.ebuild,
+  +libpng-1.5.18.ebuild, +libpng-1.6.9.ebuild:
+  Version bump.
 
   27 Jan 2014; Akinori Hattori <hattya@gentoo.org> libpng-1.6.8.ebuild:
   ia64 stable wrt bug #494962

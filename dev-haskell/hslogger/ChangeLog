@@ -1,6 +1,22 @@
 # ChangeLog for dev-haskell/hslogger
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-haskell/hslogger/ChangeLog,v 1.21 2013/11/24 07:40:44 qnikst Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/hslogger/ChangeLog,v 1.25 2014/03/03 23:36:57 pacho Exp $
+
+  03 Mar 2014; Pacho Ramos <pacho@gentoo.org> hslogger-1.2.1-r2.ebuild:
+  amd64 stable, bug #491990
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  hslogger-1.2.1-r2.ebuild:
+  x86 stable wrt bug #491990
+
+  22 Feb 2014; Sergei Trofimovich <slyfox@gentoo.org> hslogger-1.2.3.ebuild:
+  Resore accidentally dropped ~amd64-linux.
+
+*hslogger-1.2.3 (21 Feb 2014)
+
+  21 Feb 2014; Sergei Trofimovich <slyfox@gentoo.org> +hslogger-1.2.3.ebuild,
+  -hslogger-1.1.5.ebuild, metadata.xml:
+  Version bump.
 
   24 Nov 2013; Alexander Vershilov <qnikst@gentoo.org> hslogger-1.2.1-r2.ebuild:
   Restore ~amd64-linux keyword for hslogger-1.2.1-r2

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/libfm/libfm-9999.ebuild,v 1.38 2014/02/07 22:43:19 hwoarang Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/libfm/libfm-9999.ebuild,v 1.39 2014/03/06 20:34:11 hwoarang Exp $
 
 EAPI=5
 
@@ -13,7 +13,7 @@ DESCRIPTION="A library for file management"
 HOMEPAGE="http://pcmanfm.sourceforge.net/"
 
 LICENSE="GPL-2"
-SLOT="0/4.7.1" #copy ABI_VERSION because it seems upstream change it randomly
+SLOT="0/4.0.0" #copy ABI_VERSION because it seems upstream change it randomly
 IUSE="+automount debug doc examples udisks vala"
 KEYWORDS=""
 
@@ -44,7 +44,7 @@ REQUIRED_USE="udisks? ( automount )"
 
 src_prepare() {
 	if ! use doc; then
-		sed -ie '/SUBDIRS=/s#docs##' "${S}"/Makefile.am || die "sed failed"
+		sed -ie '/^SUBDIR.*=/s#docs##' "${S}"/Makefile.am || die "sed failed"
 		sed -ie '/^[[:space:]]*docs/d' configure.ac || die "sed failed"
 	else
 		gtkdocize --copy || die

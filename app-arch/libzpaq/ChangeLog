@@ -1,6 +1,15 @@
 # ChangeLog for app-arch/libzpaq
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-arch/libzpaq/ChangeLog,v 1.11 2013/09/19 09:04:01 mgorny Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-arch/libzpaq/ChangeLog,v 1.13 2014/02/19 17:32:36 mgorny Exp $
+
+*libzpaq-6.49 (19 Feb 2014)
+
+  19 Feb 2014; Michał Górny <mgorny@gentoo.org> +libzpaq-6.49.ebuild:
+  Version bump.
+
+  19 Feb 2014; Michał Górny <mgorny@gentoo.org> -libzpaq-6.38.ebuild,
+  files/0001-Add-autotools-files.patch, libzpaq-6.41.ebuild:
+  Drop old. Remove stale features from the patch.
 
 *libzpaq-6.41 (19 Sep 2013)
 

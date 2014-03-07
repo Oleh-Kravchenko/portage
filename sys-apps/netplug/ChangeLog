@@ -1,6 +1,19 @@
 # ChangeLog for sys-apps/netplug
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/netplug/ChangeLog,v 1.26 2013/05/27 19:12:48 jer Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/netplug/ChangeLog,v 1.30 2014/03/05 16:12:25 ago Exp $
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> netplug-1.2.9.2-r1.ebuild:
+  Stable for ppc, wrt bug #500978
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> netplug-1.2.9.2-r1.ebuild:
+  amd64 stable, bug #500978
+
+  25 Feb 2014; Markus Meier <maekke@gentoo.org> netplug-1.2.9.2-r1.ebuild:
+  arm stable, bug #500978
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  netplug-1.2.9.2-r1.ebuild:
+  x86 stable wrt bug #500978
 
   27 May 2013; Jeroen Roovers <jer@gentoo.org>
   files/netplug-1.2.9-warn_unused_result_write_call.patch:

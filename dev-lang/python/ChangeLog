@@ -1,6 +1,19 @@
 # ChangeLog for dev-lang/python
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/python/ChangeLog,v 1.741 2014/02/08 04:30:23 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/python/ChangeLog,v 1.745 2014/03/01 22:49:32 floppym Exp $
+
+  01 Mar 2014; Mike Gilbert <floppym@gentoo.org> python-3.4.0_rc1.ebuild:
+  Disable ensurepip.
+
+*python-3.4.0_rc1 (17 Feb 2014)
+
+  17 Feb 2014; Mike Gilbert <floppym@gentoo.org> +python-3.4.0_rc1.ebuild:
+  Version bump for testing. Thanks to Arfrever for the patches.
+
+*python-3.3.4 (17 Feb 2014)
+
+  17 Feb 2014; Mike Gilbert <floppym@gentoo.org> +python-3.3.4.ebuild:
+  Version bump. Thanks to Arfrever for maintaining the patchset.
 
   08 Feb 2014; Mike Gilbert <floppym@gentoo.org> python-3.3.3.ebuild:
   Add workaround for race condition when generating Python-ast.c and Python-

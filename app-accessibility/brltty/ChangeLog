@@ -1,6 +1,38 @@
 # ChangeLog for app-accessibility/brltty
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-accessibility/brltty/ChangeLog,v 1.144 2014/01/19 10:17:26 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-accessibility/brltty/ChangeLog,v 1.148 2014/02/22 20:04:25 teiresias Exp $
+
+  22 Feb 2014; Christopher Brannon <teiresias@gentoo.org> -brltty-4.2.ebuild,
+  -brltty-4.2-r1.ebuild, -files/brltty-4.2-fix-a2.patch,
+  -files/brltty-4.2-fix-ldflags.patch,
+  -files/brltty-4.2-fix-ocaml-install.patch,
+  -files/brltty-4.2-fix-svnversion.patch, -files/brltty-4.2-glibc-212.patch:
+  Remove old versions.
+
+*brltty-5.0-r2 (22 Feb 2014)
+
+  22 Feb 2014; Christopher Brannon <teiresias@gentoo.org>
+  -brltty-5.0-r1.ebuild, +brltty-5.0-r2.ebuild, files/brltty.tmpfiles.conf:
+  Fix an incorrect path in tmpfiles listing.
+
+*brltty-5.0-r1 (20 Feb 2014)
+
+  20 Feb 2014; Christopher Brannon <teiresias@gentoo.org> -brltty-5.0.ebuild,
+  +brltty-5.0-r1.ebuild, +files/brltty.tmpfiles.conf:
+  * Fixed installation of locale messages.
+  * Fixed some configure switches broken by 4.5 to 5.0 transition.
+  * Use /run/brltty for the writable directory, not /var/runn/brltty.
+
+  This gets rid of the annoying post-installation message about the
+
+  old /var/run symlink.
+
+*brltty-5.0 (09 Feb 2014)
+
+  09 Feb 2014; Christopher Brannon <teiresias@gentoo.org> +brltty-5.0.ebuild,
+  +files/brltty-5.0-fix-ldflags.patch, +files/brltty-5.0-respect-AR.patch,
+  +files/brltty-5.0-udev.patch:
+  New upstream version.
 
   19 Jan 2014; Agostino Sarubbo <ago@gentoo.org> brltty-4.5-r3.ebuild:
   Stable for ppc64, wrt bug #495312

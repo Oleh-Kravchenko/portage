@@ -1,6 +1,29 @@
 # ChangeLog for dev-php/PEAR-DB_DataObject
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-php/PEAR-DB_DataObject/ChangeLog,v 1.51 2013/11/14 21:37:52 mabi Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-php/PEAR-DB_DataObject/ChangeLog,v 1.57 2014/03/06 10:38:59 ago Exp $
+
+  06 Mar 2014; Agostino Sarubbo <ago@gentoo.org>
+  PEAR-DB_DataObject-1.11.2.ebuild:
+  Stable for ppc64, wrt bug #495562
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org>
+  PEAR-DB_DataObject-1.11.2.ebuild:
+  Stable for ppc, wrt bug #495562
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> PEAR-DB_DataObject-1.11.2.ebuild:
+  amd64 stable, bug #495562
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  PEAR-DB_DataObject-1.11.2.ebuild:
+  x86 stable wrt bug #495562
+
+  14 Feb 2014; Akinori Hattori <hattya@gentoo.org>
+  PEAR-DB_DataObject-1.11.2.ebuild:
+  ia64 stable wrt bug #495562
+
+  11 Feb 2014; Jeroen Roovers <jer@gentoo.org>
+  PEAR-DB_DataObject-1.11.2.ebuild:
+  Stable for HPPA (bug #495562).
 
   14 Nov 2013; Matti Bickel <mabi@gentoo.org> PEAR-DB_DataObject-1.11.2.ebuild:
   version 1.11.2 can choose between PEAR-DB and PEAR-MDB2

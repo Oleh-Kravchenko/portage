@@ -1,6 +1,19 @@
 # ChangeLog for www-client/seamonkey
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/seamonkey/ChangeLog,v 1.477 2014/02/06 12:59:12 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/seamonkey/ChangeLog,v 1.481 2014/02/22 08:38:54 polynomial-c Exp $
+
+  22 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> -seamonkey-2.22.1.ebuild,
+  -seamonkey-2.23.ebuild, -files/seamonkey-freetype251.patch:
+  Removed vulnerable versions.
+
+  15 Feb 2014; Agostino Sarubbo <ago@gentoo.org> seamonkey-2.24.ebuild:
+  Stable for amd64, wrt bug #500320
+
+  11 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> seamonkey-2.24.ebuild:
+  x86 stable wrt security bug #500320
+
+  10 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> seamonkey-2.24.ebuild:
+  Adjusted dependency on libpng.
 
 *seamonkey-2.24 (06 Feb 2014)
 

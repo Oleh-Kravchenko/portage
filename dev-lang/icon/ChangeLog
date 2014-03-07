@@ -1,6 +1,21 @@
 # ChangeLog for dev-lang/icon
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/icon/ChangeLog,v 1.51 2014/02/08 14:54:30 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/icon/ChangeLog,v 1.56 2014/03/06 10:31:04 ago Exp $
+
+  06 Mar 2014; Agostino Sarubbo <ago@gentoo.org> icon-9.5.0.ebuild:
+  Stable for ppc64, wrt bug #470260
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> icon-9.5.0.ebuild:
+  Stable for ppc, wrt bug #470260
+
+  01 Mar 2014; Pacho Ramos <pacho@gentoo.org> icon-9.5.0.ebuild:
+  amd64 stable, bug #470260
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> icon-9.5.0.ebuild:
+  x86 stable wrt bug #470260
+
+  11 Feb 2014; Akinori Hattori <hattya@gentoo.org> icon-9.5.0.ebuild:
+  ia64 stable wrt bug #470260
 
   08 Feb 2014; Jeroen Roovers <jer@gentoo.org> icon-9.5.0.ebuild:
   Stable for HPPA (bug #470260).

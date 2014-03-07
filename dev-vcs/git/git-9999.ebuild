@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-vcs/git/git-9999.ebuild,v 1.54 2014/02/07 07:59:03 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-vcs/git/git-9999.ebuild,v 1.56 2014/02/22 02:07:52 robbat2 Exp $
 
 EAPI=5
 
@@ -10,6 +10,7 @@ GENTOO_DEPEND_ON_PERL=no
 PYTHON_COMPAT=( python2_{6,7} )
 [[ ${PV} == *9999 ]] && SCM="git-2"
 EGIT_REPO_URI="git://git.kernel.org/pub/scm/git/git.git"
+EGIT_MASTER=master
 
 inherit toolchain-funcs eutils elisp-common perl-module bash-completion-r1 python-single-r1 systemd ${SCM}
 
@@ -224,7 +225,7 @@ src_unpack() {
 
 src_prepare() {
 	# bug #350330 - automagic CVS when we don't want it is bad.
-	epatch "${FILESDIR}"/git-1.8.5-optional-cvs.patch
+	epatch "${FILESDIR}"/git-1.9.0_rc3-optional-cvs.patch
 
 	# install mediawiki perl modules also in vendor_dir
 	# hack, needs better upstream solution
@@ -522,6 +523,7 @@ src_test() {
 	local tests_cvs="t9200-git-cvsexportcommit.sh \
 					t9400-git-cvsserver-server.sh \
 					t9401-git-cvsserver-crlf.sh \
+					t9402-git-cvsserver-refs.sh \
 					t9600-cvsimport.sh \
 					t9601-cvsimport-vendor-branch.sh \
 					t9602-cvsimport-branches-tags.sh \

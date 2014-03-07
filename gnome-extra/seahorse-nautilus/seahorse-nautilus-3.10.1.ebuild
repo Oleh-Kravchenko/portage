@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-extra/seahorse-nautilus/seahorse-nautilus-3.10.1.ebuild,v 1.2 2014/02/09 09:35:53 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-extra/seahorse-nautilus/seahorse-nautilus-3.10.1.ebuild,v 1.4 2014/02/22 22:04:45 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no" # --disable-debug disables all assertions

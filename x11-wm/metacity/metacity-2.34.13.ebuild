@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-wm/metacity/metacity-2.34.13.ebuild,v 1.3 2013/12/08 19:55:17 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-wm/metacity/metacity-2.34.13.ebuild,v 1.5 2014/02/22 22:54:57 pacho Exp $
 
 EAPI="5"
 # debug only changes CFLAGS

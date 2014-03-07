@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-print/cups/cups-1.7.1.ebuild,v 1.4 2014/01/24 18:56:52 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-print/cups/cups-1.7.1.ebuild,v 1.14 2014/03/01 22:33:47 mgorny Exp $
 
 EAPI=5
 
@@ -24,7 +24,7 @@ if [[ ${PV} == *9999 ]]; then
 	KEYWORDS=""
 else
 	SRC_URI="http://www.cups.org/software/${MY_PV}/${MY_P}-source.tar.bz2"
-	KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~m68k-mint"
+	KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~m68k-mint"
 fi
 
 DESCRIPTION="The Common Unix Printing System"
@@ -57,7 +57,7 @@ RDEPEND="
 	selinux? ( sec-policy/selinux-cups )
 	ssl? (
 		gnutls? (
-			dev-libs/libgcrypt
+			dev-libs/libgcrypt:0
 			net-libs/gnutls
 		)
 		!gnutls? ( >=dev-libs/openssl-0.9.8g )

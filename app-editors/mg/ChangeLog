@@ -1,6 +1,27 @@
 # ChangeLog for app-editors/mg
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-editors/mg/ChangeLog,v 1.65 2013/11/18 01:06:38 ulm Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-editors/mg/ChangeLog,v 1.70 2014/03/03 21:49:00 ulm Exp $
+
+  03 Mar 2014; Ulrich Müller <ulm@gentoo.org> mg-20140220.ebuild,
+  +files/mg-20140220-freebsd.patch:
+  Patch for FreeBSD, and don't depend on libbsd there. Re-add previously
+  dropped ~amd64-fbsd and ~x86-fbsd keywords.
+
+  02 Mar 2014; Jeroen Roovers <jer@gentoo.org> mg-20140220.ebuild:
+  Marked ~hppa (bug #503166).
+
+*mg-20140220 (01 Mar 2014)
+
+  01 Mar 2014; Ulrich Müller <ulm@gentoo.org> +mg-20140220.ebuild:
+  Version bump. The dev-libs/clens dependency is replaced by dev-libs/libbsd.
+  Dropped some keywords again.
+
+  13 Feb 2014; Jeroen Roovers <jer@gentoo.org> mg-20131118.ebuild:
+  Stable for HPPA (bug #501184).
+
+  13 Feb 2014; Ulrich Müller <ulm@gentoo.org> -mg-20130922-r2.ebuild,
+  -files/mg-20130922-dirname.patch:
+  Remove old.
 
 *mg-20131118 (18 Nov 2013)
 

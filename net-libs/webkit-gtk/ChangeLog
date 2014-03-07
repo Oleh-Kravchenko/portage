@@ -1,6 +1,62 @@
 # ChangeLog for net-libs/webkit-gtk
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/webkit-gtk/ChangeLog,v 1.238 2014/02/06 19:14:09 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/webkit-gtk/ChangeLog,v 1.249 2014/03/04 20:21:03 vincent Exp $
+
+  04 Mar 2014; Vicente Olivert Riera <vincent@gentoo.org>
+  webkit-gtk-2.2.5.ebuild:
+  Add ~mips keyword.
+
+  04 Mar 2014; Vicente Olivert Riera <vincent@gentoo.org>
+  webkit-gtk-2.2.5-r200.ebuild:
+  Add ~mips keyword.
+
+  01 Mar 2014; Pacho Ramos <pacho@gentoo.org>
+  +files/webkit-gtk-2.2.5-hppa-platform.patch,
+  +files/webkit-gtk-2.2.5-ia64-malloc.patch,
+  +files/webkit-gtk-2.2.5-ia64-platform.patch, webkit-gtk-2.2.5-r200.ebuild,
+  webkit-gtk-2.2.5.ebuild:
+  Apply various fixes to improve support on some arches (#502492 by Emeric
+  Maschino)
+
+  24 Feb 2014; Pacho Ramos <pacho@gentoo.org> webkit-gtk-2.2.5-r200.ebuild,
+  webkit-gtk-2.2.5.ebuild:
+  Parallel install fails sometimes (#501990)
+
+  23 Feb 2014; Pacho Ramos <pacho@gentoo.org> -webkit-gtk-2.2.4-r200.ebuild,
+  -webkit-gtk-2.2.4.ebuild, webkit-gtk-2.2.5-r200.ebuild,
+  webkit-gtk-2.2.5.ebuild:
+  Needs subslot dep on webp, drop old
+
+  22 Feb 2014; Pacho Ramos <pacho@gentoo.org> webkit-gtk-2.0.4.ebuild,
+  webkit-gtk-2.2.5-r200.ebuild, webkit-gtk-2.2.5.ebuild:
+  Fix wrong commit, bug 502160
+
+*webkit-gtk-2.2.5-r200 (21 Feb 2014)
+*webkit-gtk-2.2.5 (21 Feb 2014)
+
+  21 Feb 2014; Pacho Ramos <pacho@gentoo.org> +webkit-gtk-2.2.5-r200.ebuild,
+  +webkit-gtk-2.2.5.ebuild, webkit-gtk-1.10.2-r300.ebuild,
+  webkit-gtk-1.8.3-r200.ebuild:
+  Version bump
+
+  11 Feb 2014; Gilles Dartiguelongue <eva@gentoo.org> webkit-gtk-2.2.4.ebuild,
+  webkit-gtk-2.2.4-r200.ebuild:
+  Really drop unsupported LDFLAG for ld.gold.
+
+  11 Feb 2014; Pacho Ramos <pacho@gentoo.org> webkit-gtk-2.2.4-r200.ebuild,
+  webkit-gtk-2.2.4.ebuild:
+  web-audio relies on gstreamer (#500406 by Dennis New)
+
+  11 Feb 2014; Pacho Ramos <pacho@gentoo.org> webkit-gtk-2.2.4-r200.ebuild,
+  webkit-gtk-2.2.4.ebuild:
+  reduce-memory-overheads options is not recognized by ld.gold (#469942 by
+  Samuli Suominen)
+
+  10 Feb 2014; Pacho Ramos <pacho@gentoo.org> webkit-gtk-1.10.2-r300.ebuild,
+  webkit-gtk-1.8.3-r200.ebuild, webkit-gtk-2.2.4-r200.ebuild,
+  webkit-gtk-2.2.4.ebuild:
+  >=dev-libs/atk-2.8.0 is needed because atk_object_get_object_locale is used
+  (#500898 by Balint SZENTE)
 
   06 Feb 2014; Pacho Ramos <pacho@gentoo.org> -webkit-gtk-2.2.2.ebuild,
   webkit-gtk-2.2.4-r200.ebuild, webkit-gtk-2.2.4.ebuild:

@@ -1,6 +1,18 @@
 # ChangeLog for dev-java/pdf-renderer
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/pdf-renderer/ChangeLog,v 1.8 2012/03/29 11:32:19 sera Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-java/pdf-renderer/ChangeLog,v 1.11 2014/03/04 20:24:31 ago Exp $
+
+  04 Mar 2014; Agostino Sarubbo <ago@gentoo.org> pdf-renderer-0.9.1.ebuild:
+  Stable for x86, wrt bug #496916
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> pdf-renderer-0.9.1.ebuild:
+  amd64 stable, bug #496916
+
+*pdf-renderer-1.0.5 (19 Feb 2014)
+
+  19 Feb 2014; Johann Schmitz <ercpe@gentoo.org> +pdf-renderer-1.0.5.ebuild:
+  Version bump as per #501786.  Added version 1.0.5 from maven repository
+  because upstream doesn't seem to have something like a release process.
 
 *pdf-renderer-0.9.1 (27 Mar 2012)
 *pdf-renderer-0_pre20090523 (27 Mar 2012)
@@ -38,4 +50,3 @@
   22 May 2009; Petteri Räty <betelgeuse@gentoo.org>
   +pdf-renderer-0.20090523.ebuild, +metadata.xml:
   Add pdf-renderer need for itext rups use flag. Ebuild written by me.
-

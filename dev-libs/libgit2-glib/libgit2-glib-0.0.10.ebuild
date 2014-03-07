@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/libgit2-glib/libgit2-glib-0.0.10.ebuild,v 1.1 2014/02/08 13:47:13 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libgit2-glib/libgit2-glib-0.0.10.ebuild,v 1.4 2014/02/22 21:16:56 pacho Exp $
 
 EAPI=5
 
@@ -28,7 +28,8 @@ RDEPEND="
 		dev-python/pygobject:3[${PYTHON_USEDEP}] )
 "
 DEPEND="${RDEPEND}
-	dev-util/gtk-doc-am
+	>=dev-util/gtk-doc-am-1.11
+	virtual/pkgconfig
 "
 
 src_configure() {

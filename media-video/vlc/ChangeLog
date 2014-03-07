@@ -1,6 +1,46 @@
 # ChangeLog for media-video/vlc
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/ChangeLog,v 1.884 2014/01/30 18:13:24 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/ChangeLog,v 1.892 2014/03/01 22:23:36 mgorny Exp $
+
+  01 Mar 2014; Michał Górny <mgorny@gentoo.org> vlc-2.0.5.ebuild,
+  vlc-2.0.7.ebuild:
+  Update libgcrypt dep to use slot :0.
+
+  23 Feb 2014; Tom Wijsman <TomWij@gentoo.org> vlc-2.1.0.ebuild,
+  vlc-2.1.1.ebuild, vlc-2.1.2.ebuild, vlc-2.1.4.ebuild, vlc-2.1.9999.ebuild,
+  vlc-9999.ebuild:
+  Adjust vdpau USE flag libav blocker to match libavcodec requirement in
+  configure script; fixes bug #489606, reported by Nikolaj Sjujskij.
+
+*vlc-2.1.4 (22 Feb 2014)
+
+  22 Feb 2014; Tom Wijsman <TomWij@gentoo.org> +vlc-2.1.4.ebuild,
+  vlc-2.1.9999.ebuild, vlc-9999.ebuild:
+  There is no opengles in Portage yet; and thus, disabled GLES support until
+  there is. Dropped amd64-fbsd temporarily due to libvncserver dependency.
+  Version bump to 2.1.4; fixes bug #500678, reported (and tested) by Frank
+  Krömmelbein.
+
+  22 Feb 2014; Tom Wijsman <TomWij@gentoo.org> metadata.xml, vlc-9999.ebuild:
+  Update description of USE flag xcb with explanation that it is needed in order
+  to display video; fixes bug #492548, reported by YumekuiNeru.
+
+  22 Feb 2014; Tom Wijsman <TomWij@gentoo.org> vlc-2.0.8.ebuild,
+  vlc-2.0.8a.ebuild, vlc-2.0.9.ebuild, vlc-2.0.9999.ebuild, vlc-9999.ebuild:
+  Enable qt4 by default on the 2.0 ebuilds that didn't have it as the default;
+  fixes bug #473614, reported by Pacho Ramos.
+
+  22 Feb 2014; Tom Wijsman <TomWij@gentoo.org> metadata.xml:
+  Clarify USE flag upnp; fixes bug #447252, reported by mgorny.
+
+  21 Feb 2014; Tom Wijsman <TomWij@gentoo.org> vlc-2.1.9999.ebuild,
+  vlc-9999.ebuild:
+  Backport the 9999 fixes that still apply to the 2.1.9999 branch, preparing for
+  the 2.1.3 version bump.
+
+  20 Feb 2014; Tom Wijsman <TomWij@gentoo.org> metadata.xml, vlc-9999.ebuild:
+  Preparation for version bump by updating 9999 ebuild, small USE flag and
+  medium configure parameter changes.
 
   30 Jan 2014; Tom Wijsman <TomWij@gentoo.org> vlc-2.0.8.ebuild,
   vlc-2.0.8a.ebuild, vlc-2.0.9.ebuild, vlc-2.1.0.ebuild, vlc-2.1.1.ebuild,

@@ -1,6 +1,24 @@
 # ChangeLog for Gentoo base-profile
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/base/ChangeLog,v 1.637 2014/02/03 12:42:50 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/base/ChangeLog,v 1.643 2014/02/28 05:50:07 phajdan.jr Exp $
+
+  27 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> package.use.mask:
+  Unmask aura for chromium-34 (build works now).
+
+  27 Feb 2014; Michał Górny <mgorny@gentoo.org> package.use.mask:
+  Mask experimental USE=kdbus on systemd.
+
+  26 Feb 2014; Mike Gilbert <floppym@gentoo.org> use.mask:
+  Mask avx2
+
+  18 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> package.use.mask:
+  Mask aura for chromium-34 (build failures).
+
+  17 Feb 2014; Mike Gilbert <floppym@gentoo.org> package.use.force:
+  Force-enable python_targets_python3_4 for python-exec.
+
+  17 Feb 2014; Mike Gilbert <floppym@gentoo.org> use.mask:
+  Mask python_single_target_python3_4.
 
   03 Feb 2014; Mike Frysinger <vapier@gentoo.org> package.use.mask:
   Mask elfutils[threads] for now. #465754 by Toralf Förster.

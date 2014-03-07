@@ -1,15 +1,16 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-devel/autoconf/autoconf-9999.ebuild,v 1.11 2014/01/17 04:23:13 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/autoconf/autoconf-9999.ebuild,v 1.13 2014/02/14 21:54:43 vapier Exp $
 
-EAPI="3"
+EAPI="4"
 
 inherit eutils
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI="git://git.savannah.gnu.org/${PN}.git
 		http://git.savannah.gnu.org/r/${PN}.git"
-
+	# We need all the tags in order to figure out the right version.
+	# The git-r3 eclass doesn't support that, so have to stick to 2.
 	inherit git-2
 	SRC_URI=""
 	#KEYWORDS=""
@@ -50,9 +51,7 @@ src_configure() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" install || die
-	dodoc AUTHORS BUGS NEWS README TODO THANKS \
-		ChangeLog ChangeLog.0 ChangeLog.1 ChangeLog.2
+	default
 
 	if use multislot ; then
 		local f

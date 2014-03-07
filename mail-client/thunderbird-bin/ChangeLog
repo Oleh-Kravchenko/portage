@@ -1,6 +1,24 @@
 # ChangeLog for mail-client/thunderbird-bin
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/mail-client/thunderbird-bin/ChangeLog,v 1.136 2014/02/07 14:11:22 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/mail-client/thunderbird-bin/ChangeLog,v 1.140 2014/03/04 12:20:48 polynomial-c Exp $
+
+*thunderbird-bin-24.3.0-r1 (04 Mar 2014)
+
+  04 Mar 2014; Lars Wendler <polynomial-c@gentoo.org>
+  -thunderbird-bin-24.3.0.ebuild, +thunderbird-bin-24.3.0-r1.ebuild:
+  Revbump to fix dependency on libpng. Thanks to Ingo Schmitt for reporting
+  this via E-Mail.
+
+  22 Feb 2014; Lars Wendler <polynomial-c@gentoo.org>
+  -thunderbird-bin-24.1.1.ebuild:
+  Removed vulnerable versions.
+
+  15 Feb 2014; Agostino Sarubbo <ago@gentoo.org> thunderbird-bin-24.3.0.ebuild:
+  Stable for amd64, wrt bug #500320
+
+  11 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  thunderbird-bin-24.3.0.ebuild:
+  x86 stable wrt security bug #500320
 
 *thunderbird-bin-24.3.0 (07 Feb 2014)
 

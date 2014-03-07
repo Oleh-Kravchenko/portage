@@ -1,6 +1,16 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/arch/arm/package.use.mask,v 1.192 2014/01/27 02:19:31 zx2c4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/arch/arm/package.use.mask,v 1.196 2014/03/05 21:23:59 maekke Exp $
+
+# Markus Meier <maekke@gentoo.org> (25 Feb 2014)
+# stable reverse deps of media-libs/libquvi, bug #495254
+=dev-libs/totem-pl-parser-2.32.6-r3 quvi
+=media-video/mplayer2-2.0_p20130126 quvi
+=media-video/mplayer2-2.0_p20130428-r1 quvi
+
+# Markus Meier <maekke@gentoo.org> (23 Feb 2014)
+# unkeyworded dep, bug #499974
+dev-libs/efl physics
 
 # Jason A. Donenfeld <zx2c4@gentoo.org> (27 Jan 2014)
 # luajit isn't keyworded for arm yet, which is a bummer
@@ -163,6 +173,7 @@ net-print/cups java
 =sys-devel/gettext-0.18.1.1-r1 java
 =sys-devel/gettext-0.18.1.1-r3 java
 =sys-devel/gettext-0.18.2 java
+=sys-devel/gettext-0.18.3.2 java
 =sys-libs/db-1.85-r3 java
 =sys-libs/db-3.2.9_p2 java
 =sys-libs/db-4.2.52_p5-r1 java
@@ -300,7 +311,7 @@ app-cdr/brasero vcd
 
 # Pacho Ramos <pacho@gentoo.org> (02 Apr 2011)
 # quvi support is needed to play youtube files now
-media-video/totem flash youtube
+media-video/totem youtube
 
 # Markus Meier <maekke@gentoo.org> (13 Mar 2011)
 # needs stable kde stuff

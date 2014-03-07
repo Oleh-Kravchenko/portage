@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/gupnp-av/gupnp-av-0.12.5.ebuild,v 1.1 2014/02/06 22:37:28 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/gupnp-av/gupnp-av-0.12.5.ebuild,v 1.3 2014/02/22 22:25:55 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"

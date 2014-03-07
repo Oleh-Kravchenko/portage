@@ -1,6 +1,18 @@
 # ChangeLog for net-misc/portfwd
 # Copyright 2000-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/portfwd/ChangeLog,v 1.24 2014/01/07 10:11:57 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/portfwd/ChangeLog,v 1.28 2014/03/05 07:45:23 kensington Exp $
+
+  05 Mar 2014; Michael Palimaka <kensington@gentoo.org> -portfwd-0.28.ebuild:
+  Remove old.
+
+  04 Mar 2014; Agostino Sarubbo <ago@gentoo.org> portfwd-0.29.ebuild:
+  Stable for x86, wrt bug #501388
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> portfwd-0.29.ebuild:
+  amd64 stable, bug #501388
+
+  20 Feb 2014; Akinori Hattori <hattya@gentoo.org> portfwd-0.29.ebuild:
+  ia64 stable wrt bug #501388
 
 *portfwd-0.29 (07 Jan 2014)
 

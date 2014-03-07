@@ -1,6 +1,16 @@
 # ChangeLog for app-arch/lzip
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-arch/lzip/ChangeLog,v 1.47 2014/01/26 12:10:56 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-arch/lzip/ChangeLog,v 1.50 2014/02/25 00:07:16 bicatali Exp $
+
+  25 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> lzip-1.15.ebuild:
+  Keyword amd64-linux and x86-linux
+
+  22 Feb 2014; Akinori Hattori <hattya@gentoo.org> lzip-1.14.ebuild,
+  lzip-1.15.ebuild:
+  keyword ~ia64 wrt bug #502018
+
+  22 Feb 2014; Fabian Groffen <grobian@gentoo.org> lzip-1.15.ebuild:
+  Keyworded for Mac OS X and Solaris
 
   26 Jan 2014; Agostino Sarubbo <ago@gentoo.org> lzip-1.15.ebuild:
   Stable for sparc, wrt bug #495324

@@ -1,6 +1,48 @@
 # ChangeLog for dev-perl/Capture-Tiny
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-perl/Capture-Tiny/ChangeLog,v 1.40 2013/12/22 18:11:25 zlogene Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-perl/Capture-Tiny/ChangeLog,v 1.53 2014/02/25 20:49:20 maekke Exp $
+
+  25 Feb 2014; Markus Meier <maekke@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  add ~arm, bug #501346
+
+  24 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  Add ~mips keyword wrt bug #501346
+
+  23 Feb 2014; Naohiro Aota <naota@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  Add ~x86-fbsd wrt bug #501346
+
+  15 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> -Capture-Tiny-0.170.0.ebuild,
+  -Capture-Tiny-0.210.0.ebuild:
+  drop old wrt bug #500596
+
+  15 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  ppc stable wrt bug #500596
+
+  15 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  ppc64 stable wrt bug #500596
+
+  15 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  sparc stable wrt bug #500596
+
+  15 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  x86 stable wrt bug #500596
+
+  15 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  amd64 stable wrt bug #500596
+
+  15 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  alpha stable wrt bug #500596
+
+  15 Feb 2014; Akinori Hattori <hattya@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  ia64 stable wrt bug #500596
+
+  15 Feb 2014; Jeroen Roovers <jer@gentoo.org> Capture-Tiny-0.240.0.ebuild:
+  Stable for HPPA (bug #500596).
+
+*Capture-Tiny-0.240.0 (15 Feb 2014)
+
+  15 Feb 2014; Tim Harder <radhermit@gentoo.org> +Capture-Tiny-0.240.0.ebuild:
+  Version bump.
 
   22 Dec 2013; Mikle Kolyada <zlogene@gentoo.org> Capture-Tiny-0.210.0.ebuild:
   ppc64 stable wrt bug #487638

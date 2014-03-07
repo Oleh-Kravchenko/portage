@@ -1,6 +1,121 @@
 # ChangeLog for sys-kernel/gentoo-sources
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/gentoo-sources/ChangeLog,v 1.1256 2014/02/07 19:37:29 mpagano Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/gentoo-sources/ChangeLog,v 1.1276 2014/03/06 15:05:54 jer Exp $
+
+  06 Mar 2014; Jeroen Roovers <jer@gentoo.org> gentoo-sources-3.10.32.ebuild:
+  Stable for HPPA (bug #503402).
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> gentoo-sources-3.10.32.ebuild:
+  Stable for x86, wrt bug #503402
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> gentoo-sources-3.10.32.ebuild:
+  Stable for amd64, wrt bug #503402
+
+  25 Feb 2014; Mike Pagano <mpagano@gentoo.org> -gentoo-sources-3.0.101.ebuild,
+  -gentoo-sources-3.2.54.ebuild, -gentoo-sources-3.4.76.ebuild,
+  -gentoo-sources-3.4.77.ebuild, -gentoo-sources-3.4.78.ebuild,
+  -gentoo-sources-3.4.79.ebuild, -gentoo-sources-3.4.80.ebuild,
+  -gentoo-sources-3.9.11-r1.ebuild, -gentoo-sources-3.10.7.ebuild,
+  -gentoo-sources-3.10.28.ebuild, -gentoo-sources-3.10.29.ebuild,
+  -gentoo-sources-3.10.30.ebuild, -gentoo-sources-3.11.10.ebuild,
+  -gentoo-sources-3.11.9999.ebuild, -gentoo-sources-3.12.9.ebuild,
+  -gentoo-sources-3.12.10.ebuild, -gentoo-sources-3.12.11.ebuild,
+  -gentoo-sources-3.13.0.ebuild, -gentoo-sources-3.13.0-r1.ebuild,
+  -gentoo-sources-3.13.1.ebuild, -gentoo-sources-3.13.2.ebuild,
+  -gentoo-sources-3.13.3.ebuild:
+  Removing old, unsupported versions
+
+*gentoo-sources-3.10.32 (25 Feb 2014)
+
+  25 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.32.ebuild:
+  Linux patch 3.10.32
+
+*gentoo-sources-3.12.13 (24 Feb 2014)
+
+  24 Feb 2014; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-3.12.13.ebuild:
+  Linux patch 3.12.13
+
+*gentoo-sources-3.4.82 (24 Feb 2014)
+
+  24 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.4.82.ebuild:
+  Version bump
+
+*gentoo-sources-3.13.5 (24 Feb 2014)
+
+  24 Feb 2014; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-3.13.5.ebuild:
+  Linux patch 3.13.5
+
+*gentoo-sources-3.4.81-r1 (21 Feb 2014)
+
+  21 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  -gentoo-sources-3.4.81.ebuild, +gentoo-sources-3.4.81-r1.ebuild:
+  Fix 3.4.81 to use proper genpatches release 61
+
+*gentoo-sources-3.4.81 (21 Feb 2014)
+
+  21 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.4.81.ebuild:
+  Linux patch 3.4.81
+
+*gentoo-sources-3.10.31 (21 Feb 2014)
+
+  21 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.31.ebuild:
+  Linux patch 3.10.31
+
+*gentoo-sources-3.12.12 (21 Feb 2014)
+
+  21 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.12.12.ebuild:
+  Linux patch 3.12.12
+
+*gentoo-sources-3.13.4 (20 Feb 2014)
+
+  20 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.13.4.ebuild:
+  Linux patch 3.13.4
+
+*gentoo-sources-3.2.55 (18 Feb 2014)
+
+  18 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.2.55.ebuild:
+  Linux patch 3.2.55
+
+*gentoo-sources-3.4.80 (17 Feb 2014)
+
+  17 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.4.80.ebuild:
+  Linux patch 3.4.80
+
+*gentoo-sources-3.10.30 (17 Feb 2014)
+
+  17 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.30.ebuild:
+  Linux patch 3.10.30
+
+*gentoo-sources-3.12.11 (14 Feb 2014)
+
+  14 Feb 2014; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-3.12.11.ebuild:
+  Linux patch 3.12.11
+
+*gentoo-sources-3.13.3 (14 Feb 2014)
+
+  14 Feb 2014; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-3.13.3.ebuild:
+  Linux patch 3.13.3
+
+*gentoo-sources-3.10.29 (10 Feb 2014)
+
+  10 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.29.ebuild:
+  Linux patch 3.10.29
+
+*gentoo-sources-3.4.79 (09 Feb 2014)
+
+  09 Feb 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.4.79.ebuild:
+  Linux patch 3.4.79
 
 *gentoo-sources-3.12.10 (07 Feb 2014)
 

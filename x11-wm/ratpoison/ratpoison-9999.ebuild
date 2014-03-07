@@ -1,10 +1,10 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-wm/ratpoison/ratpoison-9999.ebuild,v 1.1 2014/01/29 12:21:49 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-wm/ratpoison/ratpoison-9999.ebuild,v 1.2 2014/03/06 18:31:27 jer Exp $
 
 EAPI=5
 
-inherit autotools elisp-common eutils git-r3
+inherit autotools elisp-common eutils git-r3 toolchain-funcs
 
 DESCRIPTION="Ratpoison is an extremely light-weight and barebones wm modelled after screen"
 HOMEPAGE="http://www.nongnu.org/ratpoison/"
@@ -13,7 +13,7 @@ EGIT_REPO_URI="git://git.savannah.nongnu.org/ratpoison.git"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""
-IUSE="debug emacs +history +xft"
+IUSE="debug emacs +history sloppy +xft"
 
 RDEPEND="
 	emacs? ( virtual/emacs )
@@ -26,6 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	app-arch/xz-utils
+	virtual/pkgconfig
 "
 
 SITEFILE=50ratpoison-gentoo.el
@@ -49,6 +50,16 @@ src_compile() {
 	if use emacs; then
 		elisp-compile contrib/ratpoison.el || die "elisp-compile failed"
 	fi
+
+	if use sloppy; then
+		pushd contrib
+		$(tc-getCC) \
+			${CFLAGS} \
+			${LDFLAGS} \
+			-o sloppy{,.c} \
+			$( $(tc-getPKG_CONFIG) --libs x11) \
+			|| die
+	fi
 }
 
 src_install() {
@@ -58,7 +69,9 @@ src_install() {
 	newexe "${FILESDIR}"/ratpoison.xsession ratpoison
 
 	insinto /usr/share/xsessions
-	doins "${FILESDIR}"/${PN}.desktop || die
+	doins "${FILESDIR}"/${PN}.desktop
+
+	use sloppy && dobin contrib/sloppy
 
 	docinto example
 	dodoc contrib/{genrpbindings,split.sh} \

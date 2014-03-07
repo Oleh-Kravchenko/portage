@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/base/use.mask,v 1.186 2014/01/28 09:48:41 olemarkus Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/base/use.mask,v 1.189 2014/03/03 18:36:18 aballier Exp $
 
 # masking here and unmasking in default/linux/
 kmod
@@ -61,7 +61,9 @@ sse4_2
 ssse3
 avx
 avx128fma
+avx2
 avx256
+fma3
 fma4
 svga
 nvram
@@ -334,6 +336,7 @@ abi_mips_n64
 # Zac Medico <zmedico@gentoo.org> (21 Mar 2013)
 # Python 3.4 pre-releases not available in main tree yet.
 python_targets_python3_4
+python_single_target_python3_4
 
 # Andrey Grozin <grozin@gentoo.org> (1 May 2013)
 # gcl is masked, cmucl only available on x86, clozurecl on x86 and amd64

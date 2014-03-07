@@ -1,6 +1,21 @@
 # ChangeLog for sys-apps/ed
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/ed/ChangeLog,v 1.102 2014/01/18 03:08:43 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/ed/ChangeLog,v 1.106 2014/02/27 20:14:08 ssuominen Exp $
+
+  27 Feb 2014; Samuli Suominen <ssuominen@gentoo.org> ed-1.10.ebuild:
+  Use the unpacker_src_uri_depends() function to pull in either pdlzip or lzip
+  wrt #502990 by Denis Sokolovsky
+
+  27 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> ed-1.10.ebuild:
+  Use unpacker.eclass for lzip compressed releases.
+
+  22 Feb 2014; Akinori Hattori <hattya@gentoo.org> ed-1.10.ebuild:
+  keyword ~ia64 wrt bug #502020
+
+*ed-1.10 (21 Feb 2014)
+
+  21 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> +ed-1.10.ebuild:
+  Version bump.
 
   18 Jan 2014; Mike Frysinger <vapier@gentoo.org> ed-1.6.ebuild, ed-1.8.ebuild,
   ed-1.9.ebuild:

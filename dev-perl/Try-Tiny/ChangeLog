@@ -1,6 +1,41 @@
 # ChangeLog for dev-perl/Try-Tiny
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-perl/Try-Tiny/ChangeLog,v 1.57 2014/02/01 23:36:07 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-perl/Try-Tiny/ChangeLog,v 1.68 2014/03/06 10:37:16 ago Exp $
+
+  06 Mar 2014; Agostino Sarubbo <ago@gentoo.org> Try-Tiny-0.180.0.ebuild:
+  Stable for ppc64, wrt bug #495496
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> Try-Tiny-0.180.0.ebuild:
+  Stable for ppc, wrt bug #495496
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> Try-Tiny-0.180.0.ebuild:
+  amd64 stable, bug #495496
+
+  28 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> Try-Tiny-0.180.0.ebuild:
+  x86 stable wrt bug #495496
+
+  25 Feb 2014; Markus Meier <maekke@gentoo.org> Try-Tiny-0.190.0.ebuild:
+  add ~arm, bug #501346
+
+  24 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> Try-Tiny-0.190.0.ebuild:
+  Add ~mips keyword wrt bug #501346
+
+  23 Feb 2014; Naohiro Aota <naota@gentoo.org> Try-Tiny-0.190.0.ebuild:
+  Add ~x86-fbsd wrt bug #501346
+
+  22 Feb 2014; Markus Meier <maekke@gentoo.org> Try-Tiny-0.180.0.ebuild:
+  arm stable, bug #495496
+
+  20 Feb 2014; Akinori Hattori <hattya@gentoo.org> Try-Tiny-0.180.0.ebuild:
+  ia64 stable wrt bug #495496
+
+  18 Feb 2014; Jeroen Roovers <jer@gentoo.org> Try-Tiny-0.180.0.ebuild:
+  Stable for HPPA (bug #495496).
+
+*Try-Tiny-0.190.0 (15 Feb 2014)
+
+  15 Feb 2014; Tim Harder <radhermit@gentoo.org> +Try-Tiny-0.190.0.ebuild:
+  Version bump.
 
   01 Feb 2014; Mike Frysinger <vapier@gentoo.org> Try-Tiny-0.120.0.ebuild,
   Try-Tiny-0.160.0.ebuild, Try-Tiny-0.180.0.ebuild:

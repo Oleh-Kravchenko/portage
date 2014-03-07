@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/clutter-gtk/clutter-gtk-1.4.4.ebuild,v 1.4 2013/12/08 19:10:19 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/clutter-gtk/clutter-gtk-1.4.4.ebuild,v 1.6 2014/02/22 22:13:35 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="yes"

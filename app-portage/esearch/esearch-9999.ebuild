@@ -1,14 +1,12 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-portage/esearch/esearch-9999.ebuild,v 1.5 2012/12/11 08:17:36 fuzzyray Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-portage/esearch/esearch-9999.ebuild,v 1.6 2014/02/13 20:28:18 fuzzyray Exp $
 
-EAPI="3"
-SUPPORT_PYTHON_ABIS="1"
-RESTRICT_PYTHON_ABIS="2.[45] *-jython 2.7-pypy-*"
-PYTHON_USE_WITH="readline"
-PYTHON_NONVERSIONED_EXECUTABLES=(".*")
+EAPI="5"
+PYTHON_COMPAT=(python{2_6,2_7,3_2,3_3})
+PYTHON_REQ_USE="readline(+)"
 
-inherit distutils python git-2
+inherit distutils-r1 git-2
 
 EGIT_REPO_URI="git://github.com/fuzzyray/esearch.git"
 
@@ -25,18 +23,15 @@ KEYWORDS=""
 DEPEND="sys-apps/portage"
 RDEPEND="${DEPEND}"
 
-distutils_src_compile_pre_hook() {
-	echo VERSION="9999-${EGIT_VERSION}" "$(PYTHON)" setup.py set_version
-	VERSION="9999-${EGIT_VERSION}" "$(PYTHON)" setup.py set_version
+python_prepare_all() {
+	python_export_best
+	echo VERSION="9999-${EGIT_VERSION}" "${PYTHON}" setup.py set_version
+	VERSION="9999-${EGIT_VERSION}" "${PYTHON}" setup.py set_version
+	distutils-r1_python_prepare_all
 }
 
-src_compile() {
-	distutils_src_compile
-}
-
-src_install() {
-	python_convert_shebangs -r "" build-*/scripts-*
-	distutils_src_install
+python_install_all() {
+	distutils-r1_python_install_all
 	dodoc eupdatedb.cron || die "dodoc failed"
 
 	# Remove unused man pages according to the linguas flags

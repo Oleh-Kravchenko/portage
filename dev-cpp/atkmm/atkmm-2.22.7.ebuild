@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-cpp/atkmm/atkmm-2.22.7.ebuild,v 1.5 2013/12/22 15:35:52 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-cpp/atkmm/atkmm-2.22.7.ebuild,v 1.7 2014/02/22 21:08:09 pacho Exp $
 
 EAPI=5
 GCONF_DEBUG="no"

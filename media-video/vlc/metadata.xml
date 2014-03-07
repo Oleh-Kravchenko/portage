@@ -69,7 +69,7 @@
 		<flag name="swscale">Enables image scaling and conversion via libswscale (part of FFmpeg).</flag>
 		<flag name="tremor">Enables tremor, a fixed-point version of the Ogg Vorbis decoder.</flag>
 		<flag name="twolame">Enables twolame support (MPEG Audio Layer 2 encoder).</flag>
-		<flag name="upnp">Enables support for Intel UPnP stack.</flag>
+		<flag name="upnp">Enables support for the Intel SDK stack based UPnP discovery module instead of CyberLink.</flag>
 		<flag name="vaapi">Enables VAAPI (Video Acceleration API) for hardware decoding</flag>
 		<flag name="vcdx">Enables VCD with navigation via libvcdinfo (depends on cdio)</flag>
 		<flag name="visual">Enables a libvisual based visualization plugin.</flag>
@@ -79,6 +79,7 @@
 		<flag name="wingdi">Enable Win32 GDI module.</flag>
 		<flag name="wma-fixed">Enables fixed point WMA decoder.</flag>
 		<flag name="X">Enables support for, e.g., fullscreen mode via the X Window System. By itself, this flag does not build a graphical interface.</flag>
+		<flag name="xcb">Support the X C-language Binding, a replacement for Xlib; !!! you will need this option to be able to integrate video in the Qt interface, see bug #500678.</flag>
 		<flag name="zvbi">Enables support for teletext subtitles via the zvbi library.</flag>
 	</use>
 </pkgmetadata>

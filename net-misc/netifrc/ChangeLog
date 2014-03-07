@@ -1,6 +1,24 @@
 # ChangeLog for net-misc/netifrc
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/netifrc/ChangeLog,v 1.18 2014/01/19 19:38:15 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/netifrc/ChangeLog,v 1.22 2014/03/05 20:22:31 ssuominen Exp $
+
+  05 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> netifrc-0.2.1.ebuild:
+  Use udev.eclass and get_udevdir to set a default value for UDEVDIR even if
+  udev.pc isn't installed to avoid adding USE="udev" and virtual/udev
+  dependency.
+
+  05 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> netifrc-0.2.1.ebuild:
+  Block <sys-fs/udev-init-scripts-26-r1 to prevent net.sh and 90-network.rules
+  file collision.
+
+  05 Mar 2014; Robin H. Johnson <robbat2@gentoo.org> netifrc-0.2.1.ebuild,
+  netifrc-9999.ebuild:
+  Update for pkgconfig DEPEND, and update 9999 ebuild for newer 0.2.1 changes.
+
+*netifrc-0.2.1 (05 Mar 2014)
+
+  05 Mar 2014; Robin H. Johnson <robbat2@gentoo.org> +netifrc-0.2.1.ebuild:
+  Version bump. Includes fix for bug #487922.
 
   19 Jan 2014; Agostino Sarubbo <ago@gentoo.org> netifrc-0.1.ebuild:
   Stable for sparc, wrt bug #487332

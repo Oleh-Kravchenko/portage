@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/gnutls/gnutls-2.12.23-r1.ebuild,v 1.13 2013/06/15 22:37:41 alonbl Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/gnutls/gnutls-2.12.23-r1.ebuild,v 1.15 2014/03/01 22:16:17 mgorny Exp $
 
 EAPI=5
 
@@ -20,7 +20,7 @@ RDEPEND=">=dev-libs/libtasn1-0.3.4
 	<dev-libs/libtasn1-3
 	guile? ( >=dev-scheme/guile-1.8[networking] )
 	nettle? ( >=dev-libs/nettle-2.1[gmp] )
-	!nettle? ( >=dev-libs/libgcrypt-1.4.0 )
+	!nettle? ( >=dev-libs/libgcrypt-1.4.0:0 )
 	nls? ( virtual/libintl )
 	pkcs11? ( >=app-crypt/p11-kit-0.11 )
 	zlib? ( >=sys-libs/zlib-1.2.3.1 )

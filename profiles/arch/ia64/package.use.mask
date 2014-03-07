@@ -1,6 +1,19 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/arch/ia64/package.use.mask,v 1.136 2014/01/22 22:08:09 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/arch/ia64/package.use.mask,v 1.140 2014/02/23 10:49:49 pacho Exp $
+
+# Pacho Ramos <pacho@gentoo.org> (23 Feb 2013)
+# Needed dependencies cannot be installed on ia64, bug #498638
+dev-util/dbus-test-runner test
+
+# Pacho Ramos <pacho@gentoo.org> (22 Feb 2013)
+# Missing keywords, bug #495250
+>=gnome-base/gnome-extra-apps-3.10 tracker
+
+# Pacho Ramos <pacho@gentoo.org> (10 Feb 2014)
+# Missing keywords, bug #495254
+>=dev-libs/totem-pl-parser-3.10 quvi
+>=media-video/totem-3.10 flash
 
 # Pacho Ramos <pacho@gentoo.org> (19 Jan 2014)  
 # Missing keywords, bug #478254

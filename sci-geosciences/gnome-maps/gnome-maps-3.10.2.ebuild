@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-geosciences/gnome-maps/gnome-maps-3.10.2.ebuild,v 1.2 2014/01/21 23:01:00 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/sci-geosciences/gnome-maps/gnome-maps-3.10.2.ebuild,v 1.4 2014/02/22 22:38:43 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"

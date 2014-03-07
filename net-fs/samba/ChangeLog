@@ -1,6 +1,32 @@
 # ChangeLog for net-fs/samba
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-fs/samba/ChangeLog,v 1.650 2014/01/12 13:14:39 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-fs/samba/ChangeLog,v 1.654 2014/03/06 09:35:19 polynomial-c Exp $
+
+*samba-4.1.5-r1 (06 Mar 2014)
+*samba-4.0.15-r1 (06 Mar 2014)
+
+  06 Mar 2014; Lars Wendler <polynomial-c@gentoo.org> -samba-4.0.14.ebuild,
+  -samba-4.0.15.ebuild, +samba-4.0.15-r1.ebuild, -samba-4.1.4.ebuild,
+  -samba-4.1.5.ebuild, +samba-4.1.5-r1.ebuild,
+  +files/samba-4.x-readline63_typedef_fix.patch:
+  Fixed compilation with sys-libs/readline-6.3 (bug #503580). Removed broken
+  versions.
+
+  01 Mar 2014; Michał Górny <mgorny@gentoo.org> samba-4.0.14.ebuild,
+  samba-4.0.15.ebuild, samba-4.1.4.ebuild, samba-4.1.5.ebuild:
+  Update libgcrypt dep to use slot :0.
+
+*samba-4.1.5 (21 Feb 2014)
+
+  21 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> -samba-4.1.3.ebuild,
+  +samba-4.1.5.ebuild, +files/named.conf.dlz.patch:
+  Version bump. Removed old.
+
+*samba-4.0.15 (19 Feb 2014)
+
+  19 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> -samba-4.0.13.ebuild,
+  +samba-4.0.15.ebuild:
+  Version bump. Removed old.
 
   12 Jan 2014; Agostino Sarubbo <ago@gentoo.org> samba-3.6.22.ebuild:
   Stable for ia64, wrt bug #493664

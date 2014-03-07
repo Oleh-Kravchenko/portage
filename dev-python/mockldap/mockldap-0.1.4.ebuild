@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/mockldap/mockldap-0.1.4.ebuild,v 1.2 2013/09/21 08:52:53 tampakrap Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/mockldap/mockldap-0.1.4.ebuild,v 1.3 2014/02/20 07:30:41 jlec Exp $
 
 EAPI=5
 
@@ -17,7 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
-RDEPEND="dev-python/funcparserlib[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/funcparserlib[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/python-ldap[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}

@@ -1,6 +1,24 @@
 # ChangeLog for dev-python/configobj
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/configobj/ChangeLog,v 1.37 2013/09/05 18:46:27 mgorny Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/configobj/ChangeLog,v 1.42 2014/03/06 10:41:16 ago Exp $
+
+  06 Mar 2014; Agostino Sarubbo <ago@gentoo.org> configobj-4.7.2-r2.ebuild:
+  Stable for ppc64, wrt bug #495582
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> configobj-4.7.2-r2.ebuild:
+  Stable for ppc, wrt bug #495582
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> configobj-4.7.2-r2.ebuild:
+  amd64 stable, bug #495582
+
+*configobj-5.0.1 (25 Feb 2014)
+
+  25 Feb 2014; Tim Harder <radhermit@gentoo.org> +configobj-5.0.1.ebuild:
+  Version bump.
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  configobj-4.7.2-r2.ebuild:
+  x86 stable wrt bug #495582
 
   05 Sep 2013; Michał Górny <mgorny@gentoo.org> configobj-4.7.2-r1.ebuild,
   configobj-4.7.2-r2.ebuild:

@@ -1,6 +1,23 @@
 # ChangeLog for dev-util/systemtap
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/systemtap/ChangeLog,v 1.110 2013/11/07 19:56:12 swegener Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-util/systemtap/ChangeLog,v 1.114 2014/03/05 20:45:52 swegener Exp $
+
+*systemtap-2.4-r1 (05 Mar 2014)
+
+  05 Mar 2014; Sven Wegener <swegener@gentoo.org> +systemtap-2.4-r1.ebuild:
+  Convert ebuild to python-single-r1, bug #459984.
+
+  04 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org> -systemtap-1.6.ebuild,
+  -systemtap-1.7.ebuild, -systemtap-2.0.ebuild,
+  -files/systemtap-2.0-gettext.patch, -systemtap-2.1.ebuild,
+  -systemtap-2.2.ebuild, -systemtap-2.3.ebuild:
+  Remove old
+
+  03 Mar 2014; Pacho Ramos <pacho@gentoo.org> systemtap-2.4.ebuild:
+  amd64 stable, bug #500728
+
+  23 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> systemtap-2.4.ebuild:
+  x86 stable wrt bug #500728
 
 *systemtap-2.4 (07 Nov 2013)
 

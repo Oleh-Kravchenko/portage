@@ -1,6 +1,97 @@
 # ChangeLog for sys-kernel/dracut
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/dracut/ChangeLog,v 1.151 2014/01/19 11:29:56 aidecoe Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/dracut/ChangeLog,v 1.162 2014/03/06 08:31:30 aidecoe Exp $
+
+  06 Mar 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> dracut-036-r4.ebuild:
+  Remove systemd module if systemd USE flag is disabled.
+
+  27 Feb 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> dracut-034-r4.ebuild,
+  dracut-036-r3.ebuild, dracut-036-r4.ebuild:
+  The same goes for systemd: blocking 210, for the new 99-default.link file
+
+  27 Feb 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> dracut-034-r4.ebuild,
+  dracut-036-r3.ebuild, dracut-036-r4.ebuild:
+  >=sys-fs/udev-210 moved /sbin/udevd to /lib/systemd/systemd-udevd, and
+  started installing a new file for network interface naming setup at
+  /lib/systemd/network/99-default.link
+
+*dracut-036-r4 (26 Feb 2014)
+
+  26 Feb 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> +dracut-036-r4.ebuild,
+  +files/036-0008-Add-legacy-flag-l-to-lz4-and-update-ma.patch:
+  Fixed bug #502102.
+
+  Commit on behalf of Alexander Tsoy <alexander@tsoy.me>.
+
+  24 Feb 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> -dracut-036.ebuild,
+  -dracut-036-r1.ebuild, -dracut-036-r2.ebuild:
+  Removed older revisions of 036.
+
+  24 Feb 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> dracut-036-r3.ebuild:
+  elog message in postinst reformatted.
+
+*dracut-036-r3 (24 Feb 2014)
+
+  24 Feb 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> +dracut-036-r3.ebuild:
+  Added missing patch entry to the list.
+
+*dracut-036-r2 (23 Feb 2014)
+
+  23 Feb 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> +dracut-036-r2.ebuild,
+  +files/036-0007-Added-missing-quotes.patch:
+  Fixed bug #502064 and bug #501566.
+
+  Commit on behalf of Alexander Tsoy <alexander@tsoy.me>.
+
+*dracut-036-r1 (17 Feb 2014)
+
+  17 Feb 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> +dracut-036-r1.ebuild,
+  +files/036-0006-dracut.sh-Fix-variable-name-typo.patch:
+  Fixed problem with root= boot parameter being ignored by dracut in hostonly
+  mode. Rels comment #40 of bug #498832.
+
+  Commit on behalf of Alexander Tsoy <alexander@tsoy.me>.
+
+*dracut-036 (16 Feb 2014)
+
+  16 Feb 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> +dracut-036.ebuild,
+  +files/036-0001-NEWS-update-for-version-036.patch,
+  +files/036-0002-dracut-functions.sh-support-for-altern.patch,
+  +files/036-0003-gentoo.conf-let-udevdir-be-handled-by-.patch,
+  +files/036-0004-Use-the-same-paths-in-dracut.sh-as-tho.patch,
+  +files/036-0005-Install-dracut-install-into-libexec-di.patch:
+  Version bump.
+
+  At the request of QA team the use of DRACUT_MODULES use-expand has been
+  removed as well as run-time (pseudo-suggested) dependencies.  Instead, the
+  list of suggested dependencies is printed in postinst log message.  See
+  bug #498832.
+
+  NEWS
+  ~~~~
+  (since dracut-034)
+
+  - fixed skipcpio signature checking
+  - new argument "--rebuild"
+  - add lzo, lz4 compression
+  - install: install all binaries with <name> found in PATH
+  - lsinitrd can now handle initramfs images with an early cpio prepended
+    (microcode, ACPI tables)
+  - mkinitrd-suse added as a compat stub for dracut
+  - lvm: install thin utils for non-hostonly
+  - resume: fix swap detection in hostonly
+  - avoid loading unnecessary 32-bit libraries for 64-bit initrds
+  - crypt: wait for systemd password agents
+  - crypt: skip crypt swaps with password files
+  - network: before doing dhcp, dracut now checks, if the link has a carrier
+  - network: dhclient-script.sh now sets the lease time
+  - network: include usbnet drivers
+  - network: include all ethernet drivers
+  - network: add rd.bootif=0 to ignore BOOTIF
+  - i18n: introduce i18n_install_all, to install everything i18n related
+  - usrmount: always install the module,
+    so always mount /usr from within the initramfs
+  - "halt" the machine in systemd mode for die()
 
   19 Jan 2014; Amadeusz Żołnowski <aidecoe@gentoo.org> metadata.xml:
   Removed desc. of no longer existing 'optimization' flag.

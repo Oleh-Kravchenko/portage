@@ -1,8 +1,8 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/stunnel/stunnel-4.54.ebuild,v 1.2 2013/02/25 21:36:59 zmedico Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/stunnel/stunnel-4.54.ebuild,v 1.3 2014/03/06 16:42:13 blueness Exp $
 
-EAPI="4"
+EAPI="5"
 
 inherit autotools ssl-cert eutils user
 

@@ -1,6 +1,30 @@
 # ChangeLog for dev-lang/ruby
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/ruby/ChangeLog,v 1.639 2014/01/26 13:06:16 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/ruby/ChangeLog,v 1.643 2014/03/06 06:33:07 graaff Exp $
+
+*ruby-2.1.1 (06 Mar 2014)
+
+  06 Mar 2014; Hans de Graaff <graaff@gentoo.org> +ruby-2.1.1.ebuild:
+  Version bump. Update module selection code to fix automagic dependencies.
+  Remove USE=tk for bug 500894. Backport fix for readline 6.3 breakage, bug
+  503106.
+
+*ruby-2.0.0_p451 (05 Mar 2014)
+
+  05 Mar 2014; Hans de Graaff <graaff@gentoo.org> +ruby-2.0.0_p451.ebuild:
+  Version bump. Update module selection code to fix automagic dependencies.
+  Remove USE=tk for bug 500894. Backport fix for readline 6.3 breakage, bug
+  503106.
+
+*ruby-1.9.3_p545 (26 Feb 2014)
+
+  26 Feb 2014; Hans de Graaff <graaff@gentoo.org> +ruby-1.9.3_p545.ebuild:
+  Version bump. Drop tk USE flag due to bug 500894.
+
+*ruby-2.0.0_p353-r2 (23 Feb 2014)
+
+  23 Feb 2014; Hans de Graaff <graaff@gentoo.org> +ruby-2.0.0_p353-r2.ebuild:
+  Backport support for uclibc, fixing bug 484534.
 
   26 Jan 2014; Agostino Sarubbo <ago@gentoo.org> ruby-2.0.0_p353.ebuild:
   Stable for alpha, wrt bug #483254

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/spidermonkey/spidermonkey-24.2.0.ebuild,v 1.2 2014/02/03 13:19:33 axs Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/spidermonkey/spidermonkey-24.2.0.ebuild,v 1.4 2014/03/02 21:36:04 dilfridge Exp $
 
 EAPI="5"
 WANT_AUTOCONF="2.1"
@@ -26,7 +26,8 @@ BUILDDIR="${S}/js/src"
 
 RDEPEND=">=dev-libs/nspr-4.9.4
 	virtual/libffi
-	system-icu? ( >=dev-libs/icu-1.51 )"
+	>=sys-libs/zlib-1.1.4
+	system-icu? ( >=dev-libs/icu-1.51:= )"
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}
 	app-arch/zip

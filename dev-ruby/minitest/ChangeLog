@@ -1,6 +1,16 @@
 # ChangeLog for dev-ruby/minitest
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/minitest/ChangeLog,v 1.136 2014/02/06 06:34:36 graaff Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/minitest/ChangeLog,v 1.138 2014/02/25 14:49:44 graaff Exp $
+
+*minitest-4.7.5 (25 Feb 2014)
+
+  25 Feb 2014; Hans de Graaff <graaff@gentoo.org> +minitest-4.7.5.ebuild:
+  Version bump.
+
+*minitest-5.2.3 (11 Feb 2014)
+
+  11 Feb 2014; Manuel Rüger <mrueg@gentoo.org> +minitest-5.2.3.ebuild:
+  Version bump.
 
 *minitest-5.2.2 (06 Feb 2014)
 

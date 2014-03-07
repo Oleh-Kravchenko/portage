@@ -1,6 +1,21 @@
 # ChangeLog for media-libs/alsa-lib
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/alsa-lib/ChangeLog,v 1.380 2014/01/04 23:06:59 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/alsa-lib/ChangeLog,v 1.385 2014/03/02 09:12:46 hattya Exp $
+
+  02 Mar 2014; Akinori Hattori <hattya@gentoo.org> alsa-lib-1.0.27.2.ebuild:
+  ia64 stable wrt bug #498186
+
+  23 Feb 2014; Pacho Ramos <pacho@gentoo.org> alsa-lib-1.0.27.2.ebuild:
+  x86 stable, bug #498186
+
+  22 Feb 2014; Markus Meier <maekke@gentoo.org> alsa-lib-1.0.27.2.ebuild:
+  arm stable, bug #498186
+
+  15 Feb 2014; Jeroen Roovers <jer@gentoo.org> alsa-lib-1.0.27.2.ebuild:
+  Stable for HPPA (bug #498186).
+
+  15 Feb 2014; Pacho Ramos <pacho@gentoo.org> alsa-lib-1.0.27.2.ebuild:
+  amd64 stable, bug #498186
 
   04 Jan 2014; Michał Górny <mgorny@gentoo.org> alsa-lib-1.0.27.1-r1.ebuild,
   alsa-lib-1.0.27.2.ebuild:

@@ -1,6 +1,18 @@
 # ChangeLog for app-benchmarks/siege
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-benchmarks/siege/ChangeLog,v 1.63 2014/01/30 12:02:59 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-benchmarks/siege/ChangeLog,v 1.67 2014/02/23 08:52:01 ago Exp $
+
+  23 Feb 2014; Agostino Sarubbo <ago@gentoo.org> siege-3.0.3.ebuild:
+  Stable for ppc, wrt bug #491904
+
+  22 Feb 2014; Agostino Sarubbo <ago@gentoo.org> siege-3.0.3.ebuild:
+  Stable for x86, wrt bug #491904
+
+  15 Feb 2014; Chema Alonso <nimiux@gentoo.org> siege-3.0.3.ebuild:
+  Stable for amd64 wrt bug #491904
+
+  11 Feb 2014; Jeroen Roovers <jer@gentoo.org> siege-3.0.3.ebuild:
+  Stable for HPPA (bug #491904).
 
   30 Jan 2014; Fabian Groffen <grobian@gentoo.org> siege-3.0.6.ebuild:
   Fixed for Prefix, marked ~x64-macos

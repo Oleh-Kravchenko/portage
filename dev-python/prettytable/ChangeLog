@@ -1,6 +1,15 @@
 # ChangeLog for dev-python/prettytable
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/prettytable/ChangeLog,v 1.7 2014/01/18 15:24:29 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/prettytable/ChangeLog,v 1.10 2014/03/04 20:07:20 ago Exp $
+
+  04 Mar 2014; Agostino Sarubbo <ago@gentoo.org> prettytable-0.7.1.ebuild:
+  Stable for x86, wrt bug #495600
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> prettytable-0.7.1.ebuild:
+  amd64 stable, bug #495600
+
+  13 Feb 2014; Jason A. Donenfeld <zx2c4@gentoo.org> metadata.xml:
+  I am no longer maintaining this package.
 
 *prettytable-0.7.1-r1 (18 Jan 2014)
 

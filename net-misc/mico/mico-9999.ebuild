@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/mico/mico-9999.ebuild,v 1.5 2013/03/02 23:04:31 hwoarang Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/mico/mico-9999.ebuild,v 1.6 2014/02/19 14:10:04 haubi Exp $
 
 EAPI="3"
 
@@ -122,6 +122,9 @@ src_configure() {
 
 src_install() {
 	emake INSTDIR="${ED}"usr SHARED_INSTDIR="${ED}"usr install LDCONFIG=: || die "install failed"
+	if [[ $(get_libdir) != lib ]]; then #500744
+		mv "${ED}"usr/lib "${ED}"usr/$(get_libdir) || die
+	fi
 
 	dodir /usr/share || die
 	mv "${ED}"usr/man "${ED}"usr/share || die

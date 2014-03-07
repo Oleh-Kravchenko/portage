@@ -1,8 +1,13 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/arch/hppa/package.use.mask,v 1.135 2014/01/31 15:37:16 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/arch/hppa/package.use.mask,v 1.137 2014/03/06 15:33:47 jer Exp $
 
 # DON'T TOUCH THIS FILE. Instead, file a bug and assign it to <hppa@gentoo.org>.
+
+# Jeroen Roovers <jer@gentoo.org> (6 Mar 2014)
+# USE=gui requires x11-libs/qscintilla,
+# USE=jit requires sys-devel/llvm (bug #503594)
+sci-mathematics/octave gui jit
 
 # Jeroen Roovers <jer@gentoo.org> (31 Jan 2014)
 # Mask x11-libs/libgksu dependency (bug #499900)
@@ -62,7 +67,9 @@ dev-libs/libpcre jit
 # Arun Raghavan <ford_prefect@gentoo.org> (24 May 2012)
 # media-sound/pulseaudio needs PyQt4[dbus] for making the equalizer module
 # usable. Mask until this is available.
-media-sound/pulseaudio equalizer
+# Jeroen Roovers <jer@gentoo.org> (18 Feb 2014)
+# OSS is the only kernel audio interface that works on HPPA
+media-sound/pulseaudio equalizer -oss
 
 # Jeroen Roovers <jer@gentoo.org> (21 May 2012)
 # media-sound/lilypond has problems running mpost (bug #416961)

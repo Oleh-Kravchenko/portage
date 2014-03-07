@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/ghc/ghc-7.6.3.ebuild,v 1.2 2013/07/19 10:21:35 slyfox Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/ghc/ghc-7.6.3.ebuild,v 1.4 2014/02/15 08:52:36 slyfox Exp $
 
 # Brief explanation of the bootstrap logic:
 #
@@ -122,6 +122,8 @@ PDEPEND="
 # ia64 fails to return from STG GMP primitives (stage2 always SIGSEGVs)
 REQUIRED_USE="ia64? ( !gmp )"
 
+use binary && QA_PREBUILT="*"
+
 is_crosscompile() {
 	[[ ${CHOST} != ${CTARGET} ]]
 }
@@ -159,6 +161,9 @@ ghc_setup_cflags() {
 	# We also use these CFLAGS for building the C parts of ghc, ie the rts.
 	strip-flags
 	strip-unsupported-flags
+
+	# Cmm can't parse line numbers #482086
+	replace-flags -ggdb[3-9] -ggdb2
 
 	GHC_FLAGS=""
 	for flag in ${CFLAGS}; do

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/vlc-2.1.9999.ebuild,v 1.14 2014/01/30 16:40:36 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/vlc-2.1.9999.ebuild,v 1.17 2014/02/23 08:44:23 tomwij Exp $
 
 EAPI="5"
 
@@ -52,7 +52,7 @@ IUSE="a52 aalib alsa altivec atmo +audioqueue avahi +avcodec
 	png +postproc projectm pulseaudio +qt4 qt5 rdp rtsp run-as-root samba
 	schroedinger sdl sdl-image sftp shout sid skins speex sse svg +swscale
 	taglib theora tremor truetype twolame udev upnp vaapi v4l vcdx vdpau
-	vlm vorbis wma-fixed +X x264 +xcb xml xv zvbi"
+	vlm vnc vorbis wma-fixed +X x264 +xcb xml xv zvbi"
 
 RDEPEND="
 		!<media-video/ffmpeg-1.2:0
@@ -143,7 +143,8 @@ RDEPEND="
 		v4l? ( media-libs/libv4l:0 )
 		vaapi? ( x11-libs/libva:0 virtual/ffmpeg[vaapi] )
 		vcdx? ( >=dev-libs/libcdio-0.78.2:0 >=media-video/vcdimager-0.7.22:0 )
-		vdpau? ( >=x11-libs/libvdpau-0.6:0 !<media-video/libav-9.11 )
+		vdpau? ( >=x11-libs/libvdpau-0.6:0 !<media-video/libav-10_beta1 )
+		vnc? ( >=net-libs/libvncserver-0.9.9:0 )
 		vorbis? ( media-libs/libvorbis:0 )
 		X? ( x11-libs/libX11:0 )
 		x264? ( >=media-libs/x264-0.0.20090923:0= )
@@ -237,7 +238,7 @@ src_prepare() {
 	epatch "${FILESDIR}"/${PN}-2.1.0-newer-rdp.patch
 	epatch "${FILESDIR}"/${PN}-2.1.0-libva-1.2.1-compat.patch
 
-	# Fix up broken audio; first is a fixed reversed bisected commit, latter two are backported.
+	# Fix up broken audio when skipping using a fixed reversed bisected commit.
 	epatch "${FILESDIR}"/${PN}-2.1.0-TomWij-bisected-PA-broken-underflow.patch
 
 	# Disable avcodec checks when avcodec is not used.
@@ -323,6 +324,7 @@ src_configure() {
 		$(use_enable httpd) \
 		$(use_enable ieee1394 dv1394) \
 		$(use_enable ios-vout) \
+		$(use_enable ios-vout ios-vout2) \
 		$(use_enable jack) \
 		$(use_enable kate) \
 		$(use_with kde kde-solid) \
@@ -353,6 +355,7 @@ src_configure() {
 		$(use_enable neon) \
 		$(use_enable ogg) $(use_enable ogg mux_ogg) \
 		$(use_enable omxil) \
+		$(use_enable omxil omxil-vout) \
 		$(use_enable opencv) \
 		$(use_enable opengl glx) \
 		$(use_enable opus) \
@@ -389,6 +392,7 @@ src_configure() {
 		$(use_enable vcdx) \
 		$(use_enable vdpau) \
 		$(use_enable vlm) \
+		$(use_enable vnc libvnc) \
 		$(use_enable vorbis) \
 		$(use_enable wma-fixed) \
 		$(use_with X x) \
@@ -397,19 +401,30 @@ src_configure() {
 		$(use_enable xml libxml2) \
 		$(use_enable xv xvideo) \
 		$(use_enable zvbi) $(use_enable !zvbi telx) \
+		--disable-coverage \
+		--disable-cprof \
 		--disable-crystalhd \
 		--disable-decklink \
+		--disable-gles1 \
+		--disable-gles2 \
 		--disable-goom \
+		--disable-ios-audio \
 		--disable-kai \
 		--disable-kva \
+		--disable-maintainer-mode \
+		--disable-merge-ffmpeg \
+		--disable-opensles \
 		--disable-oss \
 		--disable-quicksync \
+		--disable-quicktime \
+		--disable-rpi-omxil \
 		--disable-shine \
 		--disable-sndio \
 		--disable-vda \
-		--disable-vsxu
+		--disable-vsxu \
+		--disable-wasapi
 
-		# ^ We don't have these disables libraries in the Portage tree yet.
+		# ^ We don't have these disabled libraries in the Portage tree yet.
 }
 
 src_test() {

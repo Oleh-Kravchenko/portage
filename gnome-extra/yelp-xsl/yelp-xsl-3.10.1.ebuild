@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-extra/yelp-xsl/yelp-xsl-3.10.1.ebuild,v 1.2 2014/01/20 19:24:33 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-extra/yelp-xsl/yelp-xsl-3.10.1.ebuild,v 1.4 2014/02/22 22:06:03 pacho Exp $
 
 EAPI="5"
 

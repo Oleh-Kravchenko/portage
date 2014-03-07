@@ -1,6 +1,6 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/epiphany-extensions/epiphany-extensions-3.6.0.ebuild,v 1.2 2012/12/27 08:23:01 tetromino Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/epiphany-extensions/epiphany-extensions-3.6.0.ebuild,v 1.4 2014/02/22 22:40:45 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="yes"

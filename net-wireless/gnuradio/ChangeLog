@@ -1,6 +1,30 @@
 # ChangeLog for net-wireless/gnuradio
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-wireless/gnuradio/ChangeLog,v 1.36 2013/11/30 04:41:09 zerochaos Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-wireless/gnuradio/ChangeLog,v 1.40 2014/03/05 16:18:40 zerochaos Exp $
+
+*gnuradio-3.6.5.1-r2 (05 Mar 2014)
+*gnuradio-3.7.2.1-r2 (05 Mar 2014)
+
+  05 Mar 2014; Rick Farina <zerochaos@gentoo.org> +gnuradio-3.6.5.1-r2.ebuild,
+  +gnuradio-3.7.2.1-r2.ebuild, -gnuradio-3.6.5.1-r1.ebuild,
+  -gnuradio-3.7.2.1-r1.ebuild, gnuradio-9999.ebuild:
+  fix python shebang issue thanks to mgorny, minor fixes
+
+  03 Mar 2014; Rick Farina <zerochaos@gentoo.org> gnuradio-3.6.5.1-r1.ebuild,
+  gnuradio-3.7.2.1-r1.ebuild, gnuradio-9999.ebuild:
+  python-single-r1 fixes, shouldn't affect installed users
+
+*gnuradio-3.7.2.1-r1 (03 Mar 2014)
+*gnuradio-3.6.5.1-r1 (03 Mar 2014)
+
+  03 Mar 2014; Rick Farina <zerochaos@gentoo.org> +gnuradio-3.6.5.1-r1.ebuild,
+  +gnuradio-3.7.2.1-r1.ebuild, gnuradio-9999.ebuild:
+  merge all versions together, remove base.eclass inherit and migrate, migrate
+  from python to python-single-r1
+
+  02 Mar 2014; Rick Farina <zerochaos@gentoo.org> -gnuradio-3.7.1.1.ebuild,
+  -gnuradio-3.7.2.ebuild:
+  remove old
 
 *gnuradio-3.7.2.1 (30 Nov 2013)
 

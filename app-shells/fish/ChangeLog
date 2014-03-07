@@ -1,6 +1,41 @@
 # ChangeLog for app-shells/fish
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-shells/fish/ChangeLog,v 1.62 2013/11/04 19:35:22 polynomial-c Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-shells/fish/ChangeLog,v 1.67 2014/03/03 00:45:14 jer Exp $
+
+  03 Mar 2014; Jeroen Roovers <jer@gentoo.org> +fish-2.1.0-r3.ebuild,
+  -files/fish-1.22.3-gettext.patch, -files/fish-1.23.0-gentoo-alt.patch,
+  -files/fish-1.23.0-glibc-2.8.patch, -files/fish-1.23.1-fish_indent.patch,
+  -files/fish-1.23.1-gentoo-alt.patch,
+  -files/fish-1.23.1-multi-line_prompts.patch, +files/fish-2.1.0-tinfo.patch:
+  Fix building against sys-libs/ncurses[tinfo] (bug #459768).
+
+*fish-2.1.0-r3 (03 Mar 2014)
+
+  03 Mar 2014; Jeroen Roovers <jer@gentoo.org> +fish-2.1.0-r3.ebuild,
+  -files/fish-1.22.3-gettext.patch, -files/fish-1.23.0-gentoo-alt.patch,
+  -files/fish-1.23.0-glibc-2.8.patch, -files/fish-1.23.1-fish_indent.patch,
+  -files/fish-1.23.1-gentoo-alt.patch,
+  -files/fish-1.23.1-multi-line_prompts.patch, +files/fish-2.1.0-tinfo.patch:
+  Fix building against sys-libs/ncurses[tinfo] (bug #).
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> fish-2.1.0-r2.ebuild:
+  x86 stable wrt bug #493316
+
+  15 Feb 2014; Chema Alonso <nimiux@gentoo.org> fish-2.1.0-r2.ebuild:
+  Stable for amd64 wrt bug #493316
+
+  11 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> fish-2.1.0-r2.ebuild:
+  Tests only work when the package is already installed (bug #319571).
+
+*fish-2.1.0-r2 (11 Feb 2014)
+
+  11 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> -fish-1.23.1.ebuild,
+  -fish-1.23.1-r2.ebuild, fish-2.0.0.ebuild, -fish-2.1.0-r1.ebuild,
+  +fish-2.1.0-r2.ebuild:
+  Added an elog message to install python for making manpage-completion
+  functional (bug #490478). Removed www-client/htmlview from RDEPEND and added
+  an elog note how to make the help system work (bug #488012). Removed old
+  versions.
 
   04 Nov 2013; Lars Wendler <polynomial-c@gentoo.org> metadata.xml:
   Took over maintenance.

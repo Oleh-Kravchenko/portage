@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/vte/vte-0.34.9.ebuild,v 1.4 2013/12/22 16:25:21 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/vte/vte-0.34.9.ebuild,v 1.6 2014/02/22 22:48:39 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="yes"

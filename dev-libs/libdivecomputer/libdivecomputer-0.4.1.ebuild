@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/libdivecomputer/libdivecomputer-0.4.1.ebuild,v 1.1 2013/08/24 14:37:18 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libdivecomputer/libdivecomputer-0.4.1.ebuild,v 1.3 2014/02/27 08:38:43 pinkbyte Exp $
 
 EAPI="5"
 
@@ -8,8 +8,12 @@ if [[ ${PV} = *9999* ]]; then
 	EGIT_REPO_URI="git://libdivecomputer.git.sourceforge.net/gitroot/libdivecomputer/libdivecomputer"
 	GIT_ECLASS="git-2"
 	AUTOTOOLIZE=yes
+	KEYWORDS=""
+else
+	KEYWORDS="~amd64 ~x86"
 fi
 
+AUTOTOOLS_IN_SOURCE_BUILD=1
 inherit eutils autotools-utils ${GIT_ECLASS}
 
 if [[ ${PV} = *9999* ]]; then
@@ -22,7 +26,6 @@ DESCRIPTION="Library for communication with dive computers from various manufact
 HOMEPAGE="http://www.divesoftware.org/libdc"
 LICENSE="LGPL-2.1"
 
-KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE="usb +static-libs -tools"
 
@@ -30,11 +33,11 @@ RDEPEND="usb? ( virtual/libusb:1 )"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig"
 
-AUTOTOOLS_IN_SOURCE_BUILD=1
-
 src_prepare() {
 	if [[ -n ${AUTOTOOLIZE} ]]; then
-		eautoreconf
+		autotools-utils_src_prepare
+	else
+		epatch_user
 	fi
 }
 

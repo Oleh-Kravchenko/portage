@@ -1,6 +1,27 @@
 # ChangeLog for dev-libs/elfutils
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/elfutils/ChangeLog,v 1.178 2014/02/08 13:00:40 hattya Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/elfutils/ChangeLog,v 1.186 2014/03/06 10:32:13 ago Exp $
+
+  06 Mar 2014; Agostino Sarubbo <ago@gentoo.org> elfutils-0.158.ebuild:
+  Stable for ppc64, wrt bug #500178
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> elfutils-0.158.ebuild:
+  Stable for ppc, wrt bug #500178
+
+  27 Feb 2014; Richard Freeman <rich0@gentoo.org> elfutils-0.158.ebuild:
+  amd64 stable - 500178
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> elfutils-0.158.ebuild:
+  x86 stable wrt bug #500178
+
+  23 Feb 2014; Markus Meier <maekke@gentoo.org> elfutils-0.158.ebuild:
+  arm stable, bug #500178
+
+  18 Feb 2014; Mike Frysinger <vapier@gentoo.org> elfutils-0.158.ebuild:
+  Mark m68k/s390/sh stable #500178.
+
+  11 Feb 2014; Matt Turner <mattst88@gentoo.org> elfutils-0.158.ebuild:
+  alpha stable, bug 500178.
 
   08 Feb 2014; Akinori Hattori <hattya@gentoo.org> elfutils-0.158.ebuild:
   ia64 stable wrt bug #500178

@@ -1,6 +1,72 @@
 # ChangeLog for net-misc/youtube-dl
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/youtube-dl/ChangeLog,v 1.298 2014/02/08 15:20:15 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/youtube-dl/ChangeLog,v 1.312 2014/03/05 16:11:35 ago Exp $
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> youtube-dl-2014.02.10.ebuild:
+  Stable for ppc, wrt bug #501090
+
+*youtube-dl-2014.03.03 (03 Mar 2014)
+
+  03 Mar 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.03.03.ebuild:
+  Version bump.
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> youtube-dl-2014.02.10.ebuild:
+  amd64 stable, bug #501090
+
+*youtube-dl-2014.02.28 (28 Feb 2014)
+
+  28 Feb 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.02.28.ebuild:
+  Version bump.
+
+*youtube-dl-2014.02.26 (26 Feb 2014)
+
+  26 Feb 2014; Jeroen Roovers <jer@gentoo.org> -youtube-dl-2014.02.03.ebuild,
+  -youtube-dl-2014.02.04.1.ebuild, -youtube-dl-2014.02.06.2.ebuild,
+  -youtube-dl-2014.02.06.3.ebuild, -youtube-dl-2014.02.08.2.ebuild,
+  +youtube-dl-2014.02.26.ebuild:
+  Version bump.
+
+*youtube-dl-2014.02.24 (24 Feb 2014)
+
+  24 Feb 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.02.24.ebuild:
+  Version bump.
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  youtube-dl-2014.02.10.ebuild:
+  x86 stable wrt bug #501090
+
+*youtube-dl-2014.02.22 (22 Feb 2014)
+
+  22 Feb 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.02.22.ebuild:
+  Version bump.
+
+*youtube-dl-2014.02.21 (21 Feb 2014)
+
+  21 Feb 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.02.21.ebuild:
+  Version bump.
+
+*youtube-dl-2014.02.17 (17 Feb 2014)
+
+  17 Feb 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.02.17.ebuild:
+  Version bump.
+
+*youtube-dl-2014.02.13 (14 Feb 2014)
+
+  14 Feb 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.02.13.ebuild:
+  Version bump.
+
+  13 Feb 2014; Jeroen Roovers <jer@gentoo.org> youtube-dl-2014.02.10.ebuild:
+  Stable for HPPA (bug #501090).
+
+*youtube-dl-2014.02.10 (10 Feb 2014)
+
+  10 Feb 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.02.10.ebuild:
+  Version bump.
+
+*youtube-dl-2014.02.08.2 (09 Feb 2014)
+
+  09 Feb 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.02.08.2.ebuild:
+  Version bump.
 
 *youtube-dl-2014.02.06.3 (08 Feb 2014)
 

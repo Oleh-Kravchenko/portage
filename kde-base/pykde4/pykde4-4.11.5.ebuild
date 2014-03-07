@@ -1,16 +1,16 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/kde-base/pykde4/pykde4-4.11.5.ebuild,v 1.3 2014/02/09 10:04:39 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-base/pykde4/pykde4-4.11.5.ebuild,v 1.7 2014/02/25 01:32:04 creffett Exp $
 
 EAPI=5
 PYTHON_COMPAT=( python{2_6,2_7,3_2,3_3} )
 PYTHON_REQ_USE="threads"
 OPENGL_REQUIRED="always"
 
-inherit python-r1 portability kde4-base multilib
+inherit python-r1 portability kde4-base multilib eutils
 
 DESCRIPTION="Python bindings for KDE4"
-KEYWORDS="amd64 ~arm ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~arm ppc ppc64 x86 ~amd64-linux ~x86-linux"
 IUSE="debug doc examples semantic-desktop test"
 HOMEPAGE="http://techbase.kde.org/Development/Languages/Python"
 
@@ -139,7 +139,7 @@ src_install() {
 	# As we don't call the eclass's src_install, we have to install the docs manually
 	DOCS=("${S}"/{AUTHORS,NEWS,README})
 	use doc && HTML_DOCS=("${S}/docs/html/")
-	base_src_install_docs
+	einstalldocs
 
 	if ${have_python2}; then
 		pushd "${WORKDIR}/wrapper" > /dev/null

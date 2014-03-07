@@ -1,10 +1,10 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/cairo/cairo-9999.ebuild,v 1.36 2013/08/21 15:41:17 chithanh Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/cairo/cairo-9999.ebuild,v 1.37 2014/02/28 20:42:55 mgorny Exp $
 
 EAPI=5
 
-inherit eutils flag-o-matic autotools
+inherit eutils flag-o-matic autotools multilib-minimal
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-2
@@ -25,29 +25,29 @@ IUSE="X aqua debug directfb doc drm gallium gles2 +glib legacy-drivers opengl op
 # Test causes a circular depend on gtk+... since gtk+ needs cairo but test needs gtk+ so we need to block it
 RESTRICT="test"
 
-RDEPEND="media-libs/fontconfig
-	media-libs/freetype:2
-	media-libs/libpng:0=
-	sys-libs/zlib
-	>=x11-libs/pixman-0.28.0
+RDEPEND="dev-libs/lzo[${MULTILIB_USEDEP}]
+	media-libs/fontconfig[${MULTILIB_USEDEP}]
+	media-libs/freetype:2[${MULTILIB_USEDEP}]
+	media-libs/libpng:0=[${MULTILIB_USEDEP}]
+	sys-libs/zlib[${MULTILIB_USEDEP}]
+	>=x11-libs/pixman-0.28.0[${MULTILIB_USEDEP}]
 	directfb? ( dev-libs/DirectFB )
-	gles2? ( media-libs/mesa[gles2] )
-	glib? ( >=dev-libs/glib-2.28.6:2 )
-	opengl? ( || ( media-libs/mesa[egl] media-libs/opengl-apple ) )
-	openvg? ( media-libs/mesa[openvg] )
-	qt4? ( >=dev-qt/qtgui-4.8:4 )
+	gles2? ( media-libs/mesa[gles2,${MULTILIB_USEDEP}] )
+	glib? ( >=dev-libs/glib-2.28.6:2[${MULTILIB_USEDEP}] )
+	opengl? ( || ( media-libs/mesa[egl,${MULTILIB_USEDEP}] media-libs/opengl-apple ) )
+	openvg? ( media-libs/mesa[openvg,${MULTILIB_USEDEP}] )
+	qt4? ( >=dev-qt/qtgui-4.8:4[${MULTILIB_USEDEP}] )
 	X? (
-		>=x11-libs/libXrender-0.6
-		x11-libs/libXext
-		x11-libs/libX11
+		>=x11-libs/libXrender-0.6[${MULTILIB_USEDEP}]
+		x11-libs/libXext[${MULTILIB_USEDEP}]
+		x11-libs/libX11[${MULTILIB_USEDEP}]
 		drm? (
-			>=virtual/udev-136
-			gallium? ( media-libs/mesa[gallium] )
+			>=virtual/udev-136[${MULTILIB_USEDEP}]
+			gallium? ( media-libs/mesa[gallium,${MULTILIB_USEDEP}] )
 		)
 	)
 	xcb? (
-		x11-libs/libxcb
-		x11-libs/xcb-util
+		x11-libs/libxcb[${MULTILIB_USEDEP}]
 	)"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig
@@ -57,10 +57,10 @@ DEPEND="${RDEPEND}
 		~app-text/docbook-xml-dtd-4.2
 	)
 	X? (
-		x11-proto/renderproto
+		x11-proto/renderproto[${MULTILIB_USEDEP}]
 		drm? (
-			x11-proto/xproto
-			>=x11-proto/xextproto-7.1
+			x11-proto/xproto[${MULTILIB_USEDEP}]
+			>=x11-proto/xextproto-7.1[${MULTILIB_USEDEP}]
 		)
 	)"
 
@@ -92,13 +92,20 @@ src_prepare() {
 	eautoreconf
 }
 
-src_configure() {
+multilib_src_configure() {
 	local myopts
 
 	[[ ${CHOST} == *-interix* ]] && append-flags -D_REENTRANT
 
 	use elibc_FreeBSD && myopts+=" --disable-symbol-lookup"
 
+	# TODO: remove this (and add USE-dep) when DirectFB is converted,
+	# bug #484248 -- but beware of the circular dep.
+	if ! multilib_build_binaries; then
+		myopts+=" --disable-directfb"
+	fi
+
+	ECONF_SOURCE="${S}" \
 	econf \
 		--disable-dependency-tracking \
 		$(use_with X x) \
@@ -130,11 +137,14 @@ src_configure() {
 		${myopts}
 }
 
-src_install() {
+multilib_src_install() {
 	# parallel make install fails
 	emake -j1 DESTDIR="${D}" install
-	find "${ED}" -name '*.la' -exec rm -f {} +
-	dodoc AUTHORS ChangeLog NEWS README
+}
+
+multilib_src_install_all() {
+	prune_libtool_files --all
+	einstalldocs
 }
 
 pkg_postinst() {

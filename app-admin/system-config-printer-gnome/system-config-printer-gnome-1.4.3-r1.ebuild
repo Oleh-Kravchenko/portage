@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/system-config-printer-gnome/system-config-printer-gnome-1.4.3-r1.ebuild,v 1.1 2014/01/10 20:40:26 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/system-config-printer-gnome/system-config-printer-gnome-1.4.3-r1.ebuild,v 1.3 2014/02/22 20:54:00 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"

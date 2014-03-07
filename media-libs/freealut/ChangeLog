@@ -1,6 +1,25 @@
 # ChangeLog for media-libs/freealut
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/freealut/ChangeLog,v 1.29 2013/08/04 12:00:27 maekke Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-libs/freealut/ChangeLog,v 1.35 2014/03/06 10:45:31 ago Exp $
+
+  06 Mar 2014; Agostino Sarubbo <ago@gentoo.org> freealut-1.1.0-r2.ebuild:
+  Stable for ppc64, wrt bug #495714
+
+  05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> freealut-1.1.0-r2.ebuild:
+  Stable for ppc, wrt bug #495714
+
+  02 Mar 2014; Pacho Ramos <pacho@gentoo.org> freealut-1.1.0-r2.ebuild:
+  amd64 stable, bug #495714
+
+  23 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  freealut-1.1.0-r2.ebuild:
+  x86 stable wrt bug #495714
+
+  22 Feb 2014; Akinori Hattori <hattya@gentoo.org> freealut-1.1.0-r2.ebuild:
+  ia64 stable wrt bug #495714
+
+  11 Feb 2014; Jeroen Roovers <jer@gentoo.org> freealut-1.1.0-r2.ebuild:
+  Stable for HPPA (bug #495714).
 
   04 Aug 2013; Markus Meier <maekke@gentoo.org> freealut-1.1.0-r2.ebuild:
   add ~arm, bug #473826

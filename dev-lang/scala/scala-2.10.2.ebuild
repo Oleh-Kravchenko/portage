@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/scala/scala-2.10.2.ebuild,v 1.2 2013/08/30 13:55:11 gienah Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/scala/scala-2.10.2.ebuild,v 1.3 2014/02/12 13:46:58 gienah Exp $
 
 EAPI="5"
 JAVA_PKG_IUSE="doc examples source"
@@ -117,7 +117,7 @@ java_prepare() {
 		done
 		# gentoo patch (by gienah) to stop it calling git log in the build
 		epatch "${FILESDIR}/${PN}-2.10.2-no-git.patch"
-		if has_version ">=virtual/jdk-1.7.0"; then
+		if java-pkg_is-vm-version-ge "1.7" ; then
 			# This patch bumped to 2.10.2: http://pkgs.fedoraproject.org/cgit/scala.git/tree/scala-2.10.0-java7.patch
 			epatch "${FILESDIR}/${PN}-2.10.2-jdk-1.7-swing.patch"
 		fi

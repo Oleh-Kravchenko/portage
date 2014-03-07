@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-text/gnome-doc-utils/gnome-doc-utils-0.20.10-r1.ebuild,v 1.6 2013/12/22 15:25:48 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-text/gnome-doc-utils/gnome-doc-utils-0.20.10-r1.ebuild,v 1.8 2014/02/22 21:04:52 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"

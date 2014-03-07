@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/gupnp-tools/gupnp-tools-0.8.9.ebuild,v 1.1 2014/02/06 22:32:29 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/gupnp-tools/gupnp-tools-0.8.9.ebuild,v 1.3 2014/02/22 22:31:28 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"

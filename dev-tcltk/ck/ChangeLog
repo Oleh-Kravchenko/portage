@@ -1,6 +1,12 @@
 # ChangeLog for dev-tcltk/ck
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-tcltk/ck/ChangeLog,v 1.12 2013/04/27 16:25:54 jlec Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-tcltk/ck/ChangeLog,v 1.14 2014/03/03 23:30:38 pacho Exp $
+
+  03 Mar 2014; Pacho Ramos <pacho@gentoo.org> ck-8.0-r4.ebuild:
+  amd64 stable, bug #474210
+
+  23 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> ck-8.0-r4.ebuild:
+  x86 stable wrt bug #474210
 
 *ck-8.0-r4 (27 Apr 2013)
 
@@ -47,4 +53,3 @@
 
   10 Mar 2003; Jason Shoemaker <kutsuya@gentoo.org> ck-8.0.ebuild : Initial 
   import.
-

@@ -1,6 +1,34 @@
 # ChangeLog for kde-base/pykde4
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/kde-base/pykde4/ChangeLog,v 1.260 2014/02/09 10:04:39 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-base/pykde4/ChangeLog,v 1.268 2014/03/04 19:30:47 johu Exp $
+
+  04 Mar 2014; Johannes Huber <johu@gentoo.org>
+  files/kpythonpluginfactorywrapper.c-r1, files/pykde4-4.10.1-arm-sip.patch:
+  Version bump KDE Workspace 4.11.7
+
+*pykde4-4.12.3 (04 Mar 2014)
+
+  04 Mar 2014; Johannes Huber <johu@gentoo.org> +pykde4-4.12.3.ebuild:
+  Version bump KDE SC 4.12.3
+
+  25 Feb 2014; Chris Reffett <creffett@gentoo.org> pykde4-4.11.5.ebuild,
+  pykde4-4.12.2.ebuild:
+  Change base_src_install_docs calls to einstalldocs calls wrt bug 501544
+
+  23 Feb 2014; Agostino Sarubbo <ago@gentoo.org> -pykde4-4.11.2-r1.ebuild:
+  Remove old
+
+  23 Feb 2014; Agostino Sarubbo <ago@gentoo.org> pykde4-4.11.5.ebuild:
+  Stable for ppc64, wrt bug #493782
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> pykde4-4.11.5.ebuild:
+  Stable for ppc, wrt bug #493782
+
+  16 Feb 2014; Agostino Sarubbo <ago@gentoo.org> pykde4-4.11.5.ebuild:
+  Stable for x86, wrt bug #493782
+
+  14 Feb 2014; Johannes Huber <johu@gentoo.org> -pykde4-4.12.1.ebuild:
+  Remove KDE SC 4.12.1
 
   09 Feb 2014; Agostino Sarubbo <ago@gentoo.org> pykde4-4.11.5.ebuild:
   Stable for amd64, wrt bug #493782

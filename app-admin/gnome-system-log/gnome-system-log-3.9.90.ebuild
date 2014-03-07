@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/gnome-system-log/gnome-system-log-3.9.90.ebuild,v 1.1 2013/12/24 15:19:44 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/gnome-system-log/gnome-system-log-3.9.90.ebuild,v 1.3 2014/02/22 20:52:40 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"

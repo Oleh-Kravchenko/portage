@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/itstool/itstool-1.2.0-r1.ebuild,v 1.2 2014/01/20 19:24:37 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-util/itstool/itstool-1.2.0-r1.ebuild,v 1.4 2014/02/22 21:30:34 pacho Exp $
 
 EAPI=5
 

@@ -8,4 +8,4 @@ LICENSE=GPL-2+
 RDEPEND=app-admin/eselect-gnome-shell-extensions >=gnome-base/gnome-shell-3.10
 SLOT=0
 SRC_URI=http://94.247.144.115/repo/topicons/snapshot/topicons-20.tar.xz
-_md5_=02896c656c287901a2c114d2717d28e6
+_md5_=e417eae7fb9f13c7e84cadf434852521

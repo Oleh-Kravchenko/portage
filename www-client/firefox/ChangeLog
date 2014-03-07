@@ -1,6 +1,39 @@
 # ChangeLog for www-client/firefox
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/firefox/ChangeLog,v 1.298 2014/02/09 10:49:11 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/firefox/ChangeLog,v 1.308 2014/02/26 12:50:31 polynomial-c Exp $
+
+*firefox-27.0.1 (26 Feb 2014)
+
+  26 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> +firefox-27.0.1.ebuild:
+  Version bump (bug #502512).
+
+  22 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> -firefox-24.1.1.ebuild,
+  -firefox-24.2.0.ebuild, -firefox-26.0.ebuild:
+  Removed vulnerable versions.
+
+  22 Feb 2014; Agostino Sarubbo <ago@gentoo.org> firefox-24.3.0.ebuild:
+  Stable for ppc64, wrt bug #500320
+
+  22 Feb 2014; Agostino Sarubbo <ago@gentoo.org> firefox-24.3.0.ebuild:
+  Stable for arm, wrt bug #500320
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> firefox-24.3.0.ebuild:
+  Stable for ppc, wrt bug #500320
+
+  15 Feb 2014; Agostino Sarubbo <ago@gentoo.org> firefox-24.3.0.ebuild:
+  Stable for amd64, wrt bug #500320
+
+  11 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> firefox-24.3.0.ebuild:
+  x86 stable wrt security bug #500320
+
+  10 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> firefox-27.0.ebuild:
+  Another dependency fix (bug #500810).
+
+  10 Feb 2014; Lars Wendler <polynomial-c@gentoo.org> firefox-27.0.ebuild:
+  Fixed dependencies (bug #500822).
+
+  10 Feb 2014; Jeroen Roovers <jer@gentoo.org> firefox-24.3.0.ebuild:
+  Stable for HPPA (bug #500320).
 
 *firefox-27.0 (09 Feb 2014)
 *firefox-24.3.0 (09 Feb 2014)

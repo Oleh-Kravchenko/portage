@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-misc/colord/colord-1.0.3.ebuild,v 1.5 2014/01/10 20:46:44 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-misc/colord/colord-1.0.3.ebuild,v 1.7 2014/02/22 22:50:16 pacho Exp $
 
 EAPI="5"
 VALA_MIN_API_VERSION="0.18"

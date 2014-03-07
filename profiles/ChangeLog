@@ -1,10 +1,275 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.8594 2014/02/08 18:42:53 hd_brummy Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.8674 2014/03/06 16:17:16 mrueg Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  06 Mar 2014; Manuel Rüger <mrueg@gentoo.org> package.mask:
+  Mask further ruby18-only packages.
+
+  06 Mar 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask dev-python/python-exec for removal.
+
+  05 Mar 2014; Markus Meier <maekke@gentoo.org> package.mask:
+  remove hugin-2014 mask regarding dev-libs/boost-1.55 unmasking, bug #492594
+
+  05 Mar 2014; Manuel Rüger <mrueg@gentoo.org> package.mask:
+  Mask further ruby18-only packages.
+
+  05 Mar 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask the systemd-stable snapshot due to bugs 503470, 503472.
+
+  05 Nar 2014; Mikle Kolyada <zlogene@gentoo.org> package.mask:
+  Fix mask for perl-5.18* releases.
+
+  05 Mar 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Mask mate-base/mate-panel, mate-base/mate-settings-daemon,
+  net-wireless/mate-bluetooth, x11-themes/mate-icon-theme and
+  x11-wm/mate-window-manager for MATE introduction.
+
+  04 Mar 2014; Julian Ospald <hasufell@gentoo.org> license_groups:
+  add PAPERS-PLEASE to EULA license group
+
+  04 Mar 2014; Mike Gilbert <floppym@gentoo.org> package.mask:
+  Restore mask on www-plugins/chrome-binary-plugins:unstable.
+
+  04 Mar 2014; Julian Ospald <hasufell@gentoo.org>
+  hardened/linux/amd64/no-multilib/package.mask:
+  mask games-misc/papers-please for no-multilib
+
+  04 Mar 2014; Sergey Popov <pinkbyte@gentoo.org> package.mask:
+  Unmask Boost 1.54 and 1.55
+
+  04 Mar 2014; Alexandre Rostovtsev <tetromino@gentoo.org> package.mask:
+  Mask multilib libxslt until multilib libgcrypt is unmasked (bug #480402).
+
+  04 Mar 2014; Alexandre Rostovtsev <tetromino@gentoo.org> package.mask:
+  Mask multilib pangox-compat until multilib graphite2 is unmasked (bug
+  #488870).
+
+  04 Mar 2014; Alexandre Rostovtsev <tetromino@gentoo.org>
+  targets/desktop/gnome/package.use:
+  Add media-libs/grilo[playlist] to gnome profile for media-sound/gnome-music
+
+  03 Mar 2014; Pacho Ramos <pacho@gentoo.org> package.mask:
+  Adjust to last bump for gdk-pixbuf
+
+  03 Mar 2014; Alexis Ballier <aballier@gentoo.org> arch/amd64/use.mask,
+  arch/x86/use.mask, base/use.mask:
+  mask fma3 useflag and unmask on x86/amd64
+
+  03 Mar 2014; Joerg Bornkessel <hd_brummy@gentoo.org> package.mask:
+  removed pmask for media-plugins/vdr-music-0.9.9
+
+  03 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> package.mask:
+  Mask lxde-base/lxpolkit to avoid confusion for removal at a later date.
+
+  03 Mar 2014; Patrick Lauer <patrick@gentoo.org> package.mask:
+  Remove cryptsetup mask as cryptsetup-1.6.4 doesn't segfault anymore
+
+  02 Mar 2014; Ulrich Müller <ulm@gentoo.org> license_groups:
+  Move Broadcom license from EULA to BINARY-REDISTRIBUTABLE group, as discussed
+  with robbat2.
+
+  01 Mar 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask app-emacs/delicious for removal.
+
+  01 Mar 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask pango & deps before committing.
+
+  01 Mar 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask gdk-pixbuf before committing.
+
+  28 Feb 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask new emul-linux-x86-gtklibs.
+
+  28 Feb 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask new emul-linux as well.
+
+  28 Feb 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask new multilib packages before committing.
+
+  28 Feb 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Expand MATE mask messages to be more verbose, include more details, give
+  advice to early installers and help overlay users.
+
+  28 Feb 2014; Samuli Suominen <ssuominen@gentoo.org> desc/xfce_plugins.desc:
+  Introduce xfce_plugins_xmonad to get rid of USE="xfce4" in xmonad-log-applet
+  as per Xfce policy to not include generic flags like USE="xfce xfce4" in
+  gentoo-x86
+
+  28 Feb 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Mask dev-libs/libmateweather, mate-base/mate-desktop,
+  mate-extra/mate-dialogs, mate-extra/mate-polkit and x11-libs/libmatewnck for
+  MATE introduction.
+
+  28 Feb 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Mask app-text/mate-doc-utils and mate-base/libmatekbd for MATE introduction.
+
+  27 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> package.mask:
+  Update dev channel mask for chromium-35.
+
+  27 Feb 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Mask mate-base/mate-menus for MATE introduction.
+
+  27 Feb 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Mask mate-base/mate-session-manager for MATE introduction.
+
+  27 Feb 2014; Pacho Ramos <pacho@gentoo.org>
+  default/linux/alpha/13.0/package.use.stable.mask:
+  USE stable mask on alpha until we are able to stabilize thunderbird, bug
+  #488766
+
+  25 Feb 2014; Michael Palimaka <kensington@gentoo.org> package.mask:
+  Mask media-gfx/kgraphviewer for removal.
+
+  25 Feb 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask new systemd for testing.
+
+  24 Feb 2014; Michael Palimaka <kensington@gentoo.org> updates/1Q-2014:
+  Move sys-block/kvpm from SLOT 0 to 4.
+
+  24 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask app-emacs/tnt for removal.
+
+  24 Feb 2014; Andrey Grozin <grozin@gentoo.org> package.mask:
+  Unmask dev-python/pyfeyn - added a patch to fix problems
+
+  24 Feb 2014; Andrey Grozin <grozin@gentoo.org> package.mask:
+  Mask dev-python/pyfeyn - many incompatibilities with dev-python/pyx-0.12.1-r1
+
+  23 Feb 2014; Pacho Ramos <pacho@gentoo.org> arch/ia64/package.use.mask:
+  Needed dependencies cannot be installed on ia64, bug #498638
+
+  21 Feb 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Mask mate-base/mate-common for MATE introduction.
+
+  21 Feb 2014; Vladimir Smirnov <civil@gentoo.org> package.mask:
+  Unmask mail-filter/dovecot_deleted_to_trash-0.5-r1, as it's fixed.
+
+  21 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask app-emacs/mairix for removal.
+
+  21 Feb 2014; Patrick Lauer <patrick@gentoo.org> thirdpartymirrors:
+  Add http option to postgresql mirrors
+
+  20 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask app-emacs/http-emacs for removal.
+
+  20 Feb 2014; Luca Barbato <lu_zero@gentoo.org> package.mask:
+  New libav10 beta
+
+  19 Feb 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Fixed a small typo that I noticed while looking this up during the QA meeting.
+
+  19 Feb 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Mask old revision of jikes.
+
+  18 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Unmask eselect-enabled versions of app-editors/xemacs and app-emacs/gnuserv.
+
+  18 Feb 2014; Ulrich Müller <ulm@gentoo.org> license_groups:
+  Add Sendmail-Open-Source license to MISC-FREE group.
+
+  18 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask app-emacs/view-process for removal.
+
+  18 Feb 2014; Patrick Lauer <patrick@gentoo.org> package.mask:
+  Append mail-filter/dovecot_deleted_to_trash to dovecot mask
+
+  17 Feb 2014; Jeroen Roovers <jer@gentoo.org> package.mask:
+  Typo.
+
+  17 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask new revisions of app-editors/xemacs, app-emacs/gnuserv and
+  app-admin/eselect-emacs for testing.
+
+  17 Feb 2014; Mike Gilbert <floppym@gentoo.org>
+  desc/python_single_target.desc:
+  Add python3_4.
+
+  17 Feb 2014; Mike Gilbert <floppym@gentoo.org> package.mask:
+  Mask dev-lang/python:3.4.
+
+  17 Feb 2014; Eray Aslan <eras@gentoo.org> package.mask:
+  Security mask - bug #492494 net-mail/dovecot-2.{0,1}
+
+  17 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Temporarily mask app-emacs/gnuserv-3.12.8-r1.
+
+  16 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask app-emacs/eperiodic for removal.
+
+  16 Feb 2014; Jeroen Roovers <jer@gentoo.org> package.mask:
+  Mask net-analyzer/ethstatus (bug #501432).
+
+  15 Feb 2014; Ulrich Müller <ulm@gentoo.org> license_groups:
+  Delete spurious newline in MISC-FREE license group.
+
+  15 Feb 2014; Mikle Kolyada <zlogene@gentoo.org> license_groups:
+  Add Crypt-IDEA license to MISC-FREE group.
+
+  15 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask app-emacs/{alt-font-menu,cperl-mode,mell,u-vm-color} for removal.
+
+  15 Feb 2014; Jeroen Roovers <jer@gentoo.org> desc/uwsgi_plugins.desc:
+  Fix encoding (bug #501348 by Harry STARR).
+
+  15 Feb 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Unmask systemd-sysv-utils now that are tools are moved to util-linux-ng, bug
+  #430912.
+
+  15 Feb 2014; Pacho Ramos <pacho@gentoo.org> +arch/alpha/package.use,
+  +arch/ia64/package.use, +arch/sparc/package.use:
+  libev isn't supported on some arches, use another default value for them
+  (#499498)
+
+  14 Feb 2014; Joerg Bornkessel <hd_brummy@gentoo.org> package.mask:
+  removed pmask,
+  media-plugins/{vdr-xxvautotimer,vdr-skinclassic,vdr-sky,vdr-skinreel},
+  packages removed from tree
+
+  14 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask app-emacs/erc for removal.
+
+  14 Feb 2014; Manuel Rüger <mrueg@gentoo.org> package.mask:
+  Mask further ruby18-only packages.
+
+  13 Feb 2014; Manuel Rüger <mrueg@gentoo.org> package.mask:
+  Mask further ruby18-only packages.
+
+  13 Feb 2014; Matti Bickel <mabi@gentoo.org> package.mask:
+  Remove masks for removed packages.
+
+  13 Feb 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask app-emacs/nxml-mode for removal.
+
+  13 Feb 2014; Bernard Cafarelli <voyageur@gentoo.org> package.mask:
+  Last rites for gnustep-libs/cddb, bug #501160
+
+  12 Feb 2014; Dion Moult <moult@gentoo.org> package.mask:
+  Mask x11-plugins/desklet-sudoku. Unclear license, desklets dead. (bug
+  #446776)
+
+  11 Feb 2014; Dion Moult <moult@gentoo.org> package.mask:
+  Masked www-client/htmlview as deprecated due to xdg-open and co (bug #480522)
+
+  11 Feb 2014; Paul Varner <fuzzyray@gentoo.org> desc/uwsgi_plugins.desc:
+  Remove Unicode character from uwsgi_plugins.desc to work around bug 498748
+  for equery.
+
+  10 Feb 2014; Pacho Ramos <pacho@gentoo.org> arch/ia64/package.use.mask,
+  arch/powerpc/package.use.mask, arch/sparc/package.use.mask:
+  Fix broken deps, bug #499722
+
+  10 Feb 2014; Pacho Ramos <pacho@gentoo.org> arch/ia64/package.use.mask,
+  arch/powerpc/package.use.mask, arch/sparc/package.use.mask:
+  Mask USE flag due missing keywords, bug #495254
+
+  10 Feb 2014; Dion Moult <moult@gentoo.org> package.mask:
+  Add rox-extra/comicthumb to package.mask for removal in 30 days (bug #471548)
 
   08 Feb 2014; Joerg Bornkessel <hd_brummy@gentoo.org> package.mask:
   media-plugins/vdr-amarok pmask removal 08/Mar/2015, wrt bug 424255
@@ -34,6 +299,10 @@
 
   04 Feb 2014; Tim Harder <radhermit@gentoo.org> package.mask:
   Mask =media-sound/lilypond-2.19* for testing.
+
+  03 Feb 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  sys-kernel/module-rebuild removal (pending 1st February 2014), see bug 
+  #410739 for reference.
 
   03 Feb 2014; Mike Gilbert <floppym@gentoo.org> package.mask:
   Mask the other dev-python/moz* packages.

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-php/phpDocumentor/phpDocumentor-2.2.0.ebuild,v 1.1 2014/01/08 15:42:38 mabi Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-php/phpDocumentor/phpDocumentor-2.2.0.ebuild,v 1.2 2014/02/17 21:59:30 mabi Exp $
 
 EAPI=5
 
@@ -17,8 +17,9 @@ KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
 IUSE="doc"
 
 # block old version that provides the same binary
-DEPEND="media-gfx/graphviz
-	!dev-php/PEAR-PhpDocumentor"
+DEPEND="!dev-php/PEAR-PhpDocumentor"
+RDEPEND="media-gfx/graphviz
+	dev-lang/php[iconv,intl,xslt]"
 
 src_install() {
 	php-pear-r1_src_install

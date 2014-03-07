@@ -1,6 +1,39 @@
 # ChangeLog for app-emulation/xen
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/xen/ChangeLog,v 1.147 2014/02/07 10:19:00 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/xen/ChangeLog,v 1.155 2014/02/21 04:53:41 idella4 Exp $
+
+  21 Feb 2014; Ian Delaney <idella4@gentoo.org> xen-4.2.3.ebuild,
+  xen-4.2.4.ebuild, xen-4.3.2.ebuild:
+  correct typos, tidy
+
+  20 Feb 2014; Yixun Lan <dlan@gentoo.org> -xen-4.2.2-r1.ebuild,
+  -xen-4.2.2-r4.ebuild, -xen-4.3.1-r1.ebuild, -xen-4.3.1-r4.ebuild:
+  clean old versions
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> xen-4.2.3.ebuild:
+  Stable for x86, wrt bug #500528
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> xen-4.2.3.ebuild:
+  Stable for amd64, wrt bug #500528
+
+*xen-4.3.2 (19 Feb 2014)
+*xen-4.2.4 (19 Feb 2014)
+
+  19 Feb 2014; Yixun Lan <dlan@gentoo.org> +xen-4.2.4.ebuild,
+  +xen-4.3.2.ebuild, metadata.xml:
+  revision bump 4.2.4, 4.3.2
+
+  16 Feb 2014; Agostino Sarubbo <ago@gentoo.org> xen-4.3.1-r5.ebuild:
+  Stable for amd64, wrt bug #500528
+
+*xen-4.2.3 (14 Feb 2014)
+
+  14 Feb 2014; Yixun Lan <dlan@gentoo.org> +xen-4.2.3.ebuild:
+  bumped, fix security bugs, see #500530 for details
+
+  12 Feb 2014; Tobias Heinlein <keytoaster@gentoo.org>
+  +files/xen-4.2-XSA-84.patch, +files/xen-4.2-XSA-85.patch, xen-4.2.2-r4.ebuild:
+  Commit missing patches for Xen 4.2.
 
 *xen-4.3.1-r4 (07 Feb 2014)
 

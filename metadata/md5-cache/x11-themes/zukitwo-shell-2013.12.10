@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RDEPEND=>=gnome-base/gnome-shell-3.4 media-fonts/ubuntu-font-family !<=x11-themes/zukitwo-2011.12.29
 SLOT=0
 SRC_URI=http://dev.gentoo.org/~jlec/distfiles/zukitwo-2013.12.10.tar.xz
-_md5_=4b6ac2a8359877b0907ba6ba552f64aa
+_md5_=fdde41656893eef07ff3449122553c14

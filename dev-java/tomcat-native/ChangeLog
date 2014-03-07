@@ -1,6 +1,13 @@
 # ChangeLog for dev-java/tomcat-native
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/tomcat-native/ChangeLog,v 1.44 2013/10/15 14:31:45 fordfrog Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-java/tomcat-native/ChangeLog,v 1.46 2014/03/03 23:41:37 pacho Exp $
+
+  03 Mar 2014; Pacho Ramos <pacho@gentoo.org> tomcat-native-1.1.29.ebuild:
+  amd64 stable, bug #495398
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  tomcat-native-1.1.29.ebuild:
+  x86 stable wrt bug #495398
 
 *tomcat-native-1.1.29 (15 Oct 2013)
 

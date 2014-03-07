@@ -1,6 +1,15 @@
 # ChangeLog for dev-python/httpretty
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/httpretty/ChangeLog,v 1.3 2014/01/06 11:50:34 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/httpretty/ChangeLog,v 1.5 2014/02/25 12:22:02 scarabeus Exp $
+
+  25 Feb 2014; Tomáš Chvátal <scarabeus@gentoo.org> httpretty-0.8.0.ebuild:
+  Works with py3.3 so enable it.
+
+*httpretty-0.8.0 (17 Feb 2014)
+
+  17 Feb 2014; Matthew Thode <prometheanfire@gentoo.org>
+  +httpretty-0.8.0.ebuild:
+  updating for a dep of a dep of a dep for a cve...
 
 *httpretty-0.7.1 (06 Jan 2014)
 

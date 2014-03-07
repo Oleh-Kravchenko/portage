@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-haskell/binary/binary-0.7.1.0.ebuild,v 1.1 2013/08/25 05:02:39 qnikst Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/binary/binary-0.7.1.0.ebuild,v 1.3 2014/02/24 02:29:46 phajdan.jr Exp $
 
 EAPI=5
 
@@ -15,7 +15,7 @@ SRC_URI="mirror://hackage/packages/archive/${PN}/${PV}/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-KEYWORDS="~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x86-solaris"
+KEYWORDS="~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x86-solaris"
 IUSE=""
 
 RDEPEND=">=dev-lang/ghc-6.10.4:="
@@ -27,6 +27,8 @@ DEPEND="${RDEPEND}
 			dev-haskell/test-framework
 			>=dev-haskell/test-framework-quickcheck2-0.3
 		)"
+
+CABAL_CORE_LIB_GHC_PV="7.7.2013* 7.8.20140130"
 
 src_prepare() {
 	if has_version ">=dev-lang/ghc-7.7"; then

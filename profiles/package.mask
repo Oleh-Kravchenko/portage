@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15386 2014/02/08 18:42:54 hd_brummy Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15452 2014/03/06 16:17:16 mrueg Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,14 +30,281 @@
 
 #--- END OF EXAMPLES ---
 
+# Manuel Rüger <mrueg@gentoo.org> (06 Mar 2014)
+# Mask further ruby18-only packages
+# Removal in 30 days
+net-proxy/swiftiply
+www-servers/mongrel
+
+# Michał Górny <mgorny@gentoo.org> (06 Mar 2014)
+# Compatibility packages masked for removal in 30 days.
+<dev-lang/python-exec-0.3.1-r1:0
+<dev-lang/python-exec-2.0.1-r1:2
+dev-python/python-exec
+
+# Manuel Rüger <mrueg@gentoo.org> (05 Mar 2014)
+# Mask further ruby18-only packages
+# Removal in 30 days
+dev-ruby/locale_rails
+dev-ruby/parsetree
+dev-ruby/pry:0
+dev-ruby/rack:0
+dev-ruby/rspec-rails:0
+dev-ruby/ruby2ruby:0
+dev-ruby/rubymail
+
+# Michał Górny <mgorny@gentoo.org> (05 Mar 2014)
+# Seems to cause more trouble than it fixes. Bugs #503470, #503472.
+=sys-apps/systemd-208.277
+
+# Mike Gilbert <floppym@gentoo.org> (04 Mar 2014)
+# Dev channel releases are only for people who are developers or want more
+# experimental features and accept a more unstable release.
+www-plugins/chrome-binary-plugins:unstable
+
+# Samuli Suominen <ssuominen@gentoo.org> (03 Mar 2014)
+# gnome-extra/polkit-gnome is the "GTK+ polkit agent" and has no extra
+# dependencies that installing lxde-base/lxpolkit would solve, thus
+# the only motivation for creation of lxpolkit was to drop the word
+# 'gnome' from the package's name. The packages are near identical
+# by the outlook, determined by the used GTK+ theme.
+#
+# Raise yourself above the word 'gnome' and install the de facto GTK+ agent:
+# emerge -C lxpolkit
+# emerge -1 polkit-gnome
+#
+# Removal will happen at later date, but since there is no hurry, give it
+# until rest of the year.
+lxde-base/lxpolkit
+
+# Ulrich Müller <ulm@gentoo.org> (1 Mar 2014)
+# Version 0.3 does not work with Emacs 24; git master
+# also fails, because of changed Delicious API.
+# According to upstream, a new release is "unlikely".
+# Masked for removal in 60 days, bug 502168.
+app-emacs/delicious
+
+# Michał Górny <mgorny@gentoo.org> (28 Feb 2014)
+# New multilib conversions for testing, grouped with corresponding
+# emul-linux bumps. Please unmask in order, after getting ACK from
+# package maintainer.
+#
+# Note: yngwin explicitly requested 30 days + 1 version bump for cairo.
+>=dev-libs/libgcrypt-1.6.1-r1
+dev-libs/libgcrypt:11
+>=dev-libs/lzo-2.06-r1
+>=app-emulation/emul-linux-x86-baselibs-20131008-r20
+>=dev-libs/libxslt-1.1.28-r2
+>=app-emulation/emul-linux-x86-baselibs-20131008-r21
+>=x11-libs/cairo-1.12.16-r1
+>=app-emulation/emul-linux-x86-gtklibs-20131008-r2
+>=x11-libs/gdk-pixbuf-2.30.6-r1
+>=app-emulation/emul-linux-x86-gtklibs-20131008-r3
+>=media-gfx/graphite2-1.2.4-r1
+>=media-libs/harfbuzz-0.9.26-r1
+>=x11-libs/pango-1.36.2-r1
+>=x11-libs/pangox-compat-0.0.2-r1
+>=app-emulation/emul-linux-x86-gtklibs-20131008-r4
+
+# Pawel Hajdan jr <phajdan.jr@gentoo.org> (27 Feb 2014)
+# Dev channel releases are only for people who are developers or want more
+# experimental features and accept a more unstable release.
+>=www-client/chromium-35
+
+# Michael Palimaka <kensington@gentoo.org> (26 Feb 2014)
+# Doesn't build with recent graphviz. Dead upstream.
+# Masked for removal in 30 days. Bug #491760.
+media-gfx/kgraphviewer
+
+# Michał Górny <mgorny@gentoo.org> (25 Feb 2014)
+# Mask for testing.
+~sys-apps/systemd-210
+
+# Ulrich Müller <ulm@gentoo.org> (24 Feb 2014)
+# Does not work any more, AOL has shut off
+# the TOC2 protocol for the AIM service.
+# Masked for removal in 30 days, bug 502322.
+app-emacs/tnt
+
+# Tom Wijsman <TomWij@gentoo.org> (21 Feb 2014)
+# MATE Desktop Environment 1.6 introduction mask:
+#
+# MATE is in the progress of being brought to the Portage tree; if you see this 
+# mask message when you install it from the Portage tree, we suggest you to 
+# wait a few days until MATE has been fully brought to the Portage tree.
+#
+# New ebuild request bug:
+#
+#     https://bugs.gentoo.org/show_bug.cgi?id=387487
+#
+# MATE overlay users that see this message can use the following package.unmask:
+#
+#     https://gist.github.com/TomWij/cf9cdd0fe90ac08b8ded
+#
+# If you use another overlay, replace the ::mate-overlay suffix by that overlay.
+app-text/mate-doc-utils
+dev-libs/libmateweather
+mate-base/libmatekbd
+mate-base/mate-common
+mate-base/mate-desktop
+mate-base/mate-menus
+mate-base/mate-panel
+mate-base/mate-session-manager
+mate-base/mate-settings-daemon
+mate-extra/mate-dialogs
+mate-extra/mate-polkit
+net-wireless/mate-bluetooth
+x11-libs/libmatewnck
+x11-themes/mate-icon-theme
+x11-wm/mate-window-manager
+
+# Tom Wijsman <TomWij@gentoo.org> (21 Feb 2014)
+# MATE Desktop Environment >=1.7 introduction mask:
+#
+# Given that MATE Desktop Environment 1.8 will release soon, this mask is 
+# placed in advance to allow to bump to it as soon as it hits.
+>=app-text/mate-doc-utils-1.7
+>=dev-libs/libmateweather-1.7
+>=mate-base/libmatekbd-1.7
+>=mate-base/mate-common-1.7
+>=mate-base/mate-desktop-1.7
+>=mate-base/mate-menus-1.7
+>=mate-base/mate-panel-1.7
+>=mate-base/mate-session-manager-1.7
+>=mate-base/mate-settings-daemon-1.7
+>=mate-extra/mate-dialogs-1.7
+>=mate-extra/mate-polkit-1.7
+>=net-wireless/mate-bluetooth-1.7
+>=x11-libs/libmatewnck-1.7
+>=x11-themes/mate-icon-theme-1.7
+>=x11-wm/mate-window-manager-1.7
+
+# Ulrich Müller <ulm@gentoo.org> (21 Feb 2014)
+# Included with Emacs since version 23.
+# Last stand-alone release in 2008.
+# Masked for removal in 30 days, bug 501964.
+app-emacs/mairix
+
+# Ulrich Müller <ulm@gentoo.org> (20 Feb 2014)
+# Abandoned by upstream: Last release in 2003, last visible
+# upstream activity in 2004. Does not work with Emacs 24.
+# File a bug for moving app-emacs/oddmuse (currently in emacs
+# overlay) to the main tree if you need a replacement.
+# Masked for removal in 30 days, bug 501926.
+app-emacs/http-emacs
+
+# Luca Barbato <lu_zero@gentoo.org> (20 Feb 2014)
+# Beta ebuild, unmask to test the tree.
+~media-video/libav-10_beta1
+
+# Tom Wijsman <TomWij@gentoo.org> (19 Feb 2014)
+# Masked for removal in 30 days, as this is an old revision that stuck behind;
+# however we are not sure if it is kept for a reason, if it is then please let
+# me know such that we can continue to keep it around. Guess nobody even still
+# uses this package either, but that's for another day...
+=dev-java/jikes-1.22-r1
+
+# Ulrich Müller <ulm@gentoo.org> (18 Feb 2014)
+# Last upstream release in 1996.
+# Doesn't appear to work with Emacs 23 and 24.
+# Masked for removal in 30 days, bug 501660.
+app-emacs/view-process
+
+# Mike Gilbert <floppym@gentoo.org> (17 Feb 2014)
+# Masked for testing.
+dev-lang/python:3.4
+
+# Eray Aslan <eras@gentoo.org> (17 Feb 2014)
+# Security mask - bug #492494 until
+# mail-filter/dovecot-antispam and
+# mail-filter/dovecot_deleted_to_trash are punted/fixed
+=net-mail/dovecot-2.0*
+=net-mail/dovecot-2.1*
+<mail-filter/dovecot_deleted_to_trash-0.5-r1
+
+# Ulrich Müller <ulm@gentoo.org> (16 Feb 2014)
+# Last upstream release in 2005.
+# Does not work with Emacs 24.
+# Masked for removal in 30 days, bug 501502.
+app-emacs/eperiodic
+
+# Jeroen Roovers <jer@gentoo.org> (16 Feb 2014)
+# Unmaintained, has several problems on modern systems,
+# superseded by net-analyzer/ifstatus (bug #501432)
+net-analyzer/ethstatus
+
+# Ulrich Müller <ulm@gentoo.org> (15 Feb 2014)
+# Support library for app-emacs/prime-el, which is masked
+# for removal itself. No other reverse dependencies.
+# Masked for removal in 30 days, bug 501426.
+app-emacs/mell
+
+# Ulrich Müller <ulm@gentoo.org> (15 Feb 2014)
+# Doesn't appear to work with Emacs 24.
+# Last upstream release in 2002.
+# Masked for removal in 30 days, bug 501412.
+app-emacs/alt-font-menu
+
+# Ulrich Müller <ulm@gentoo.org> (15 Feb 2014)
+# Included with Emacs since version 23.
+# cperl-mode-6.2 does not work with Emacs 24.
+# Masked for removal in 30 days, bug 501410.
+app-emacs/cperl-mode
+
+# Ulrich Müller <ulm@gentoo.org> (15 Feb 2014)
+# Now included with app-emacs/vm.
+# Masked for removal in 30 days, bug 501414.
+app-emacs/u-vm-color
+
+# Ulrich Müller <ulm@gentoo.org> (14 Feb 2014)
+# Included with Emacs since version 22.3.
+# Last stand-alone release in 2008, last commit to repo in 2009.
+# Masked for removal in 30 days, bug 501274.
+app-emacs/erc
+
+# Manuel Rüger <mrueg@gentoo.org> (14 Feb 2014)
+# Mask further ruby18-only packages
+# Removal in 30 days
+www-servers/mongrel_cluster
+
+# Manuel Rüger <mrueg@gentoo.org> (13 Feb 2014)
+# Mask further ruby18-only packages
+# Acked by a3li.
+# Removal in 30 days
+dev-ruby/ruby-bdb
+=net-irc/rbot-0.9.15
+
+# Ulrich Müller <ulm@gentoo.org> (13 Feb 2014)
+# Included with Emacs since version 23.
+# Last stand-alone release in 2004.
+# Masked for removal in 30 days, bug 501234.
+app-emacs/nxml-mode
+
+# Bernard Cafarelli <voyageur@gentoo.org> (13 Feb 2014)
+# Dead original upstream (last release in 2003)
+# Now its only consumer gnustep-apps/cdplayer bundles it directly
+# Removal in 30 days (bug #501160)
+gnustep-libs/cddb
+
+# Dion Moult <moult@gentoo.org> (13 Feb 2014)
+# Masked for removal in 30 days. Unclear license, desklets dead. (bug #446776)
+x11-plugins/desklet-sudoku
+
+# Dion Moult <moult@gentoo.org> (12 Feb 2014)
+# Masked for removal in 30 days. Removed as this was a compatibility hack
+# package, with equivalent functionality already implemented elsewhere (xdg-open
+# and co). (bug #480522)
+www-client/htmlview
+
+# Dion Moult <moult@gentoo.org> (10 Feb 2014)
+# Masked for removal in 30 days. Upstream dead for ages, no package maintainer.
+# (bug #471548)
+rox-extra/comicthumb
+
 # Joerg Bornkessel <hd_brummy@gentoo.org> (08 Feb 2014)
 # removal ~08/Mar/2014 , depend on i18n issues
 # wrt bug #424255
 media-plugins/vdr-amarok
-
-# Patrick Lauer <patrick@gentoo.org> (07 Feb 2014)
-# Reliably makes cryptsetup segfault, breaking boot is not acceptable
-=dev-libs/libgcrypt-1.6.1
 
 # Tim Harder <radhermit@gentoo.org> (04 Feb 2014)
 # Masked for testing
@@ -122,11 +389,6 @@ www-client/google-chrome:unstable
 # Rev. deps fail to build
 >=media-libs/aubio-0.4
 
-# Pawel Hajdan jr <phajdan.jr@gentoo.org> (18 Jan 2014)
-# Dev channel releases are only for people who are developers or want more
-# experimental features and accept a more unstable release.
->=www-client/chromium-34
-
 # Michael Sterrett <mr_bones_@gentoo.org> (16 Jan 2014)
 # testing mask for 3.5.x releases
 >=app-admin/syslog-ng-3.5
@@ -138,40 +400,11 @@ www-client/google-chrome:unstable
 # https://bugs.gentoo.org/show_bug.cgi?id=474654#c5
 =media-gfx/exiv2-0.23-r2
 
-# Joerg Bornkessel <hd_brummy@gentoo.org (14 Jan 2014)
-# plugin fails on compile >=vdr-1.7.27
-# dead on upstream, dead on src-uri, wrt bug 414181
-# removal ~ 14/02/2014
-media-plugins/vdr-xxvautotimer
-
-# Joerg Bornkessel <hd_brummy@gentoo.org> (14 Jan 2014)
-# plugin fails on compile >=vdr-1.7.27
-# dead on upstream, wrt bug 414887
-# removal ~ 14/02/2014
-media-plugins/vdr-skinclassic
-
-# Joerg Bornkessel <hd_brummy@gentoo.org> (14 Jan 2014)
-# plugin fails on compile
-# dead on upstream, wrt bug 420869
-# removal ~ 14/02/2014
-media-plugins/vdr-sky
-
-# Joerg Bornkessel <hd_brummy@gentoo.org> (14 Jan 2014)
-# vdr-skinreel fails on compile >=vdr-1.7.27
-# see wrt bug 420873
-# removal ~ 14/02/2014
-media-plugins/vdr-skinreel
-
 # Tony Vroon <chainsaw@gentoo.org> (13 Jan 2014)
-# Asterisk 12 is a short term "standard" release 
+# Asterisk 12 is a short term "standard" release
 # containing significant architectural changes.
 # This is not for your production kit quite yet.
 =net-misc/asterisk-12*
-
-# Markus Meier <maekke@gentoo.org> (12 Jan 2014)
-# masked for testing
->=media-libs/libpano13-2.9.19_beta1
->=media-gfx/hugin-2014.0.0_beta1
 
 # Magnus Granberg <zorry@gentoo.org>
 # Gcc 4.8.2-r1 has default ssp and need testing,
@@ -182,46 +415,6 @@ media-plugins/vdr-skinreel
 # Monolithic dev-dotnet/{gnome,gtk}-sharp introduction mask, see bug #382491.
 >=dev-dotnet/gnome-sharp-2.24.2-r1
 >=dev-dotnet/gtk-sharp-2.12.21
-
-# Andreas Schuerch <nativemad@gentoo.org> (09 Jan 2014)
-# masked for removal in 30 days as of bug 497262
-net-libs/libguac
-net-libs/libguac-client-rdp
-net-libs/libguac-client-vnc
-net-misc/guacd
-<www-apps/guacamole-0.8.3
-
-# Matti Bickel <mabi@gentoo.org> (08 Jan 2014)
-# masked for removal 08/Feb/2014, bundled with dev-php/phpunit
-dev-php/PHPUnit_MockObject
-
-# Matti Bickel <mabi@gentoo.org> (08 Jan 2014)
-# masked for removal 08/Feb/2014, bundled with dev-php/phpunit
-dev-php/PHPUnit_Selenium
-
-# Matti Bickel <mabi@gentoo.org> (08 Jan 2014)
-# masked for removal 08/Feb/2014, outdated, not maintained
-dev-php/PEAR-Tree
-
-# Matti Bickel <mabi@gentoo.org> (08 Jan 2014)
-# masked for removal 08/Feb/2014, outdated, not maintained
-dev-php/PEAR-Structures_DataGrid
-
-# Matti Bickel <mabi@gentoo.org> (08 Jan 2014)
-# masked for removal 08/Feb/2014, outdated, not maintained
-dev-php/PEAR-HTTP_WebDAV_Server
-
-# Matti Bickel <mabi@gentoo.org> (08 Jan 2014)
-# masked for removal 08/Feb/2014, outdated, not maintained
-dev-php/PEAR-HTTP_Upload
-
-# Matti Bickel <mabi@gentoo.org> (08 Jan 2014)
-# masked for removal 08/Feb/2014, outdated, not maintained
-dev-php/PEAR-HTML_QuickForm_ElementGrid
-
-# Matti Bickel <mabi@gentoo.org> (08 Jan 2014)
-# masked for removal 08/Feb/2014, outdated, not maintained
-dev-php/PEAR-HTML_BBcodeParser
 
 # Pacho Ramos <pacho@gentoo.org> (02 Jan 2014)
 # Breaks reverse dependencies and upstream don't want us
@@ -280,11 +473,6 @@ games-emulation/m64py
 # Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org> (10 Nov 2013)
 # Causes build failures, bug #492800
 =media-libs/mesa-10.0*
-
-# Sergey Popov <pinkbyte@gentoo.org> (14 Nov 2013)
-# Masked for testing
-~dev-util/boost-build-1.55.0
-~dev-libs/boost-1.55.0
 
 # Ben de Groot <yngwin@gentoo.org> (11 Nov 2013)
 # Mask older roboto versions to give users a regular upgrade path
@@ -350,7 +538,7 @@ www-apache/mod_spdy
 # Mikle Kolyada <zlogene@gentoo.org> (08 Sep 2013)
 # Untested / unconfirmed major bump of perl #479064
 # Needs proper testing before being unleashed
-=dev-lang/perl-5.18.1
+=dev-lang/perl-5.18*
 =virtual/perl-Attribute-Handlers-0.940.0
 =virtual/perl-CPAN-2.0.0
 =virtual/perl-Devel-PPPort-3.200.0-r2
@@ -383,11 +571,6 @@ virtual/perl-B-Debug
 # Mask 5.1 series because the backport of the CVE-2012-5627
 # has not be done. bug #446240 comment 2
 =dev-db/mariadb-5.1.67
-
-# Sergey Popov <pinkbyte@gentoo.org> (27 Aug 2013)
-# Masked for testing
-~dev-util/boost-build-1.54.0
-~dev-libs/boost-1.54.0
 
 # Patrick Lauer <patrick@gentoo.org> (19 Aug 2013)
 # Masking live ebuilds
@@ -446,7 +629,7 @@ net-irc/xchat-otr
 # updates; masking to make users aware of this, users that still need this
 # package and have no alternative can unmask at their own risk. See bug #473830.
 #
-# This is continued by Oracle Corproation, which has acquired Sun Microsystems
+# This is continued by Oracle Corporation, which has acquired Sun Microsystems
 # in early 2010; as per http://en.wikipedia.org/wiki/Sun_acquisition_by_Oracle
 #
 # Users are suggested to upgrade to one of the newer Oracle packages like
@@ -459,10 +642,6 @@ net-irc/xchat-otr
 dev-java/sun-jdk
 dev-java/sun-jre-bin
 dev-java/sun-jce-bin
-
-# Joerg Bornkessel <hd_brummy@gentoo.org> (30 Jun 2013)
-# temp masked for testing, wrt bug 474888
-=media-plugins/vdr-music-0.9.9
 
 # Alexis Ballier <aballier@gentoo.org> (26 Jun 2013)
 # New major release. Rev. deps need to be checked first.
@@ -691,11 +870,6 @@ kde-misc/kgtk
 # Masked for testing since this is known to break nearly
 # every reverse dependency wrt bug 407091
 >=dev-lang/lua-5.2.0
-
-# Michał Górny <mgorny@gentoo.org> (21 Jan 2012)
-# Blocks sysvinit yet doesn't provide all tools provided by it.
-# Masking until we get the necessary tools out of sysvinit.
-sys-apps/systemd-sysv-utils
 
 # Jeroen Roovers <jer@gentoo.org> (27 Mar 2012)
 # Opera Next and Opera snapshots are unsupported and eternally unstable.

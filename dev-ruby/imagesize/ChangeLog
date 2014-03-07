@@ -1,6 +1,16 @@
 # ChangeLog for dev-ruby/imagesize
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/imagesize/ChangeLog,v 1.9 2013/11/17 09:49:57 graaff Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/imagesize/ChangeLog,v 1.12 2014/03/04 10:16:43 mrueg Exp $
+
+  04 Mar 2014; Manuel Rüger <mrueg@gentoo.org> -imagesize-0.1.1-r1.ebuild:
+  Cleanup old.
+
+  03 Mar 2014; Pacho Ramos <pacho@gentoo.org> imagesize-0.1.1_p20100902.ebuild:
+  amd64 stable, bug #499106
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  imagesize-0.1.1_p20100902.ebuild:
+  x86 stable wrt bug #499106
 
   17 Nov 2013; Hans de Graaff <graaff@gentoo.org>
   imagesize-0.1.1_p20100902.ebuild:
