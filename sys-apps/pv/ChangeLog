@@ -1,6 +1,15 @@
 # ChangeLog for sys-apps/pv
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/pv/ChangeLog,v 1.79 2014/02/13 16:21:48 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/pv/ChangeLog,v 1.82 2014/03/29 18:21:39 nimiux Exp $
+
+  29 Mar 2014; Chema Alonso <nimiux@gentoo.org> pv-1.5.2.ebuild:
+  Stable for amd64 wrt bug #504508
+
+  26 Mar 2014; Markus Meier <maekke@gentoo.org> pv-1.5.2.ebuild:
+  arm stable, bug #504508
+
+  16 Mar 2014; Jeroen Roovers <jer@gentoo.org> pv-1.5.2.ebuild:
+  Stable for HPPA (bug #504508).
 
 *pv-1.5.2 (13 Feb 2014)
 

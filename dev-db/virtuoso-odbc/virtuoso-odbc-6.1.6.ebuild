@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-db/virtuoso-odbc/virtuoso-odbc-6.1.6.ebuild,v 1.5 2013/04/26 00:48:51 creffett Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-db/virtuoso-odbc/virtuoso-odbc-6.1.6.ebuild,v 1.6 2014/03/07 03:28:28 creffett Exp $
 
 EAPI=4
 
@@ -36,7 +36,7 @@ src_configure() {
 }
 
 src_install() {
-	virtuoso_src_install
+	default_src_install
 
 	# Remove libtool files
 	find "${ED}" -name '*.la' -delete

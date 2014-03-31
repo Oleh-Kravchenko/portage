@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/libreoffice/libreoffice-9999-r2.ebuild,v 1.210 2014/02/25 21:03:29 scarabeus Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/libreoffice/libreoffice-9999-r2.ebuild,v 1.215 2014/03/27 09:50:59 scarabeus Exp $
 
 EAPI=5
 
@@ -117,7 +117,7 @@ COMMON_DEPEND="
 	>=dev-libs/hyphen-2.7.1
 	>=dev-libs/icu-4.8.1.1:=
 	>=dev-libs/libatomic_ops-7.2d
-	>=dev-libs/liborcus-0.5.1:=
+	>=dev-libs/liborcus-0.7.0:=
 	>=dev-libs/nspr-4.8.8
 	>=dev-libs/nss-3.12.9
 	>=dev-lang/perl-5.0
@@ -126,6 +126,7 @@ COMMON_DEPEND="
 	media-gfx/graphite2
 	>=media-libs/fontconfig-2.8.0
 	media-libs/freetype:2
+	>=media-libs/glew-1.10
 	>=media-libs/harfbuzz-0.9.18:=[icu(+)]
 	media-libs/lcms:2
 	>=media-libs/libpng-1.4
@@ -210,7 +211,7 @@ DEPEND="${COMMON_DEPEND}
 	>=dev-util/gperf-3
 	dev-util/intltool
 	>=dev-util/mdds-0.10.2:=
-	virtual/pkgconfig
+	media-libs/glm
 	net-misc/npapi-sdk
 	>=sys-apps/findutils-4.4.2
 	sys-devel/bison
@@ -220,6 +221,7 @@ DEPEND="${COMMON_DEPEND}
 	>=sys-devel/make-3.82
 	sys-devel/ucpp
 	sys-libs/zlib
+	virtual/pkgconfig
 	x11-libs/libXt
 	x11-libs/libXtst
 	x11-proto/randrproto
@@ -401,7 +403,7 @@ src_configure() {
 			--without-system-hsqldb
 			--with-ant-home="${ANT_HOME}"
 			--with-jdk-home=$(java-config --jdk-home 2>/dev/null)
-			--with-jvm-path="${EPREFIX}/usr/$(get_libdir)/"
+			--with-jvm-path="${EPREFIX}/usr/lib/"
 		"
 
 		use libreoffice_extensions_scripting-beanshell && \
@@ -433,7 +435,7 @@ src_configure() {
 	# --disable-systray: quickstarter does not actually work at all so do not
 	#   promote it
 	# --enable-extension-integration: enable any extension integration support
-	# --without-{afms,fonts,myspell-dicts,ppsd}: prevent install of sys pkgs
+	# --without-{fonts,myspell-dicts,ppsd}: prevent install of sys pkgs
 	# --disable-report-builder: too much java packages pulled in without pkgs
 	econf \
 		--docdir="${EPREFIX}/usr/share/doc/${PF}/" \
@@ -474,7 +476,6 @@ src_configure() {
 		--with-system-ucpp \
 		--with-vendor="Gentoo Foundation" \
 		--with-x \
-		--without-afms \
 		--without-fonts \
 		--without-myspell-dicts \
 		--without-help \

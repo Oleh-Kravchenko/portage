@@ -1,6 +1,33 @@
 # ChangeLog for Gentoo eapi-5-files profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/eapi-5-files/ChangeLog,v 1.35 2014/01/30 17:24:38 chithanh Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/eapi-5-files/ChangeLog,v 1.42 2014/03/27 21:20:12 dilfridge Exp $
+
+  27 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  package.use.stable.mask:
+  Migrate several entries to base after review
+
+  22 Mar 2014; Mike Gilbert <floppym@gentoo.org> package.use.stable.mask:
+  Transfer sys-boot/grub[libzfs] stable mask to base.
+
+  18 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  package.use.stable.mask:
+  Migrate net-libs/libkolab entry to base
+
+  17 Mar 2014; Alexandre Rostovtsev <tetromino@gentoo.org>
+  package.use.stable.mask:
+  Punt obsolete zukitwo entry.
+
+  16 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  package.use.stable.mask:
+  Add deprecation comment
+
+  16 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  package.use.stable.mask:
+  Migrate kde-base/kalzium entry to base
+
+  16 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  -package.use.stable.force, -use.stable.force, -use.stable.mask:
+  Empty mask/force files have been moved to base profile directory
 
   30 Jan 2014; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
   use.stable.mask:

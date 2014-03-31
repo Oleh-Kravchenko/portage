@@ -1,6 +1,40 @@
 # ChangeLog for sys-libs/glibc
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-libs/glibc/ChangeLog,v 1.982 2014/03/05 19:25:54 zorry Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-libs/glibc/ChangeLog,v 1.991 2014/03/29 17:02:13 vapier Exp $
+
+  29 Mar 2014; Mike Frysinger <vapier@gentoo.org> glibc-2.19.ebuild:
+  Move into unstable.
+
+  29 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  files/eblits/src_compile.eblit, files/eblits/src_unpack.eblit,
+  glibc-2.17.ebuild, glibc-2.18-r1.ebuild, glibc-2.19.ebuild, glibc-9999.ebuild:
+  Add support for in-place bootstrapping between ABIs (on x86 for now).
+
+  25 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  files/eblits/src_install.eblit:
+  Update nscd tmpfiles install #505518 by dwfreed.
+
+  20 Mar 2014; Agostino Sarubbo <ago@gentoo.org> glibc-2.17.ebuild:
+  Stable for sparc, wrt bug #496752
+
+  14 Mar 2014; Mike Frysinger <vapier@gentoo.org> glibc-2.10.1-r1.ebuild,
+  glibc-2.11.3.ebuild, glibc-2.12.1-r3.ebuild, glibc-2.12.2.ebuild,
+  glibc-2.13-r2.ebuild, glibc-2.13-r4.ebuild, glibc-2.14.1-r2.ebuild,
+  glibc-2.14.1-r3.ebuild, glibc-2.14.ebuild, glibc-2.15-r1.ebuild,
+  glibc-2.15-r2.ebuild, glibc-2.15-r3.ebuild, glibc-2.16.0.ebuild,
+  glibc-2.17.ebuild, glibc-2.18-r1.ebuild, glibc-2.19.ebuild,
+  glibc-2.9_p20081201-r3.ebuild, glibc-9999.ebuild:
+  Inherit systemd & unpacker eclasses as newer eblits want.
+
+  12 Mar 2014; Mike Frysinger <vapier@gentoo.org> glibc-9999.ebuild:
+  Sync with glibc-2.19 ebuild.
+
+  12 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  files/eblits/src_install.eblit:
+  Install the systemd files from upstream with glibc-2.19+.
+
+  12 Mar 2014; Mike Frysinger <vapier@gentoo.org> glibc-2.19.ebuild:
+  Drop unused mips patch filtering since it isn't in the patchset anymore.
 
   05 Mar 2014; Magnus Granberg <zorry@gentoo.org> glibc-2.19.ebuild,
   +files/2.19/glibc-2.19-hardened-configure-picdefault.patch:

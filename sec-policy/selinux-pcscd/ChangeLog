@@ -1,6 +1,15 @@
 # ChangeLog for sec-policy/selinux-pcscd
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sec-policy/selinux-pcscd/ChangeLog,v 1.2 2014/02/17 21:05:16 swift Exp $
+# $Header: /var/cvsroot/gentoo-x86/sec-policy/selinux-pcscd/ChangeLog,v 1.4 2014/03/21 19:13:35 swift Exp $
+
+*selinux-pcscd-2.20140311-r1 (21 Mar 2014)
+
+  21 Mar 2014; Sven Vermeulen <swift@gentoo.org>
+  +selinux-pcscd-2.20140311-r1.ebuild:
+  New upstream refpolicy release
+
+  07 Mar 2014; Sven Vermeulen <swift@gentoo.org> selinux-pcscd-9999.ebuild:
+  Typo causes wrong module to be (attempted) to be loaded.
 
   17 Feb 2014; Sven Vermeulen <swift@gentoo.org>
   selinux-pcscd-2.20130424-r4.ebuild:
@@ -8,4 +17,3 @@
 
   17 Feb 2014; Sven Vermeulen <swift@gentoo.org> +metadata.xml:
   Initial pcscd policy package, see bug #500772
-

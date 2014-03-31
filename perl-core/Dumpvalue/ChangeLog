@@ -1,0 +1,21 @@
+# ChangeLog for perl-core/Dumpvalue
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/perl-core/Dumpvalue/ChangeLog,v 1.4 2014/03/20 15:12:05 jer Exp $
+
+  20 Mar 2014; Jeroen Roovers <jer@gentoo.org> Dumpvalue-1.170.0.ebuild:
+  Marked ~hppa (bug #505156).
+
+*Dumpvalue-1.170.0 (12 Mar 2014)
+
+  12 Mar 2014; Mikle Kolyada <zlogene@gentoo.org> +Dumpvalue-1.170.0.ebuild,
+  -Dumpvalue-0.170.0.ebuild:
+  Fix version scheme
+
+  12 Mar 2014; Mikle Kolyada <zlogene@gentoo.org> Dumpvalue-0.170.0.ebuild:
+  Whitespace
+
+*Dumpvalue-0.170.0 (12 Mar 2014)
+
+  12 Mar 2014; Mikle Kolyada <zlogene@gentoo.org> +Dumpvalue-0.170.0.ebuild,
+  +metadata.xml:
+  Initial commit for perl-5.18

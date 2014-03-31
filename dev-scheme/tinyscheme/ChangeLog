@@ -1,6 +1,15 @@
 # ChangeLog for dev-scheme/tinyscheme
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-scheme/tinyscheme/ChangeLog,v 1.14 2013/12/11 13:27:11 pchrist Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-scheme/tinyscheme/ChangeLog,v 1.17 2014/03/24 15:02:25 ago Exp $
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org> tinyscheme-1.41.ebuild:
+  Stable for ppc, wrt bug #323263
+
+  17 Mar 2014; Chema Alonso <nimiux@gentoo.org> tinyscheme-1.41.ebuild:
+  Stable for amd64 wrt bug #323263
+
+  09 Mar 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> tinyscheme-1.41.ebuild:
+  x86 stable wrt bug #323263
 
 *tinyscheme-1.41 (11 Dec 2013)
 

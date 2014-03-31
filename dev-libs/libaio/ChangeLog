@@ -1,6 +1,22 @@
 # ChangeLog for dev-libs/libaio
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/libaio/ChangeLog,v 1.84 2013/03/20 19:49:25 jer Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libaio/ChangeLog,v 1.87 2014/03/27 03:13:46 vapier Exp $
+
+*libaio-0.3.110 (27 Mar 2014)
+
+  27 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/libaio-0.3.110-cppflags.patch,
+  +files/libaio-0.3.110-optional-werror.patch, +libaio-0.3.110.ebuild:
+  Version bump.
+
+*libaio-0.3.109-r5 (27 Mar 2014)
+
+  27 Mar 2014; Mike Frysinger <vapier@gentoo.org> +libaio-0.3.109-r5.ebuild:
+  Convert from USE=multilib to multilib-minimal eclass #435094 by Matt Turner.
+
+  16 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  files/libaio-0.3.106-build.patch:
+  Drop soname hunk that does not seem to be needed.
 
   20 Mar 2013; Jeroen Roovers <jer@gentoo.org> metadata.xml:
   Remove useless <description>.

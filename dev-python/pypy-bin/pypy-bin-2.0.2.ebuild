@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy-bin/pypy-bin-2.0.2.ebuild,v 1.7 2014/02/21 21:25:51 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy-bin/pypy-bin-2.0.2.ebuild,v 1.8 2014/03/30 20:57:45 mgorny Exp $
 
 EAPI=5
 
@@ -55,22 +55,19 @@ IUSE="doc +jit shadowstack sqlite sse2 test"
 RDEPEND="
 	~app-arch/bzip2-1.0.6
 	~dev-libs/expat-2.1.0
-	|| ( ~dev-libs/libffi-3.0.13
-		~dev-libs/libffi-3.0.12
-		~dev-libs/libffi-3.0.11 )
-	|| ( ~dev-libs/openssl-1.0.1f
-		~dev-libs/openssl-1.0.1e
-		~dev-libs/openssl-1.0.1d
-		~dev-libs/openssl-1.0.1c )
-	|| ( ~sys-libs/glibc-2.17
-		~sys-libs/glibc-2.16.0
-		~sys-libs/glibc-2.15 )
+	( <dev-libs/libffi-3.0.14
+		>=dev-libs/libffi-3.0.11 )
+	( <dev-libs/openssl-1.0.1g
+		>=dev-libs/openssl-1.0.1c )
+	( <sys-libs/glibc-2.20
+		>=sys-libs/glibc-2.15 )
 	~sys-libs/ncurses-5.9
-	|| ( ~sys-libs/zlib-1.2.8
-		~sys-libs/zlib-1.2.7 )
+	( <sys-libs/zlib-1.2.9
+		>=sys-libs/zlib-1.2.7 )
 	sqlite? ( dev-db/sqlite:3 )
 	!dev-python/pypy:${SLOT}"
-DEPEND="doc? ( dev-python/sphinx )
+DEPEND="app-arch/xz-utils
+	doc? ( dev-python/sphinx )
 	test? ( ${RDEPEND} )"
 PDEPEND="app-admin/python-updater"
 

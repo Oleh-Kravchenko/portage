@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-power/iasl/iasl-20121018.ebuild,v 1.1 2013/01/31 09:37:07 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-power/iasl/iasl-20121018.ebuild,v 1.3 2014/03/26 14:16:40 polynomial-c Exp $
 
 EAPI=4
 
@@ -10,9 +10,9 @@ MY_PN=acpica-unix
 MY_P=${MY_PN}-${PV}
 MY_TESTS_P=${MY_PN/ca/tests}-${PV}
 DESCRIPTION="Intel ACPI Source Language (ASL) compiler"
-HOMEPAGE="https://www.acpica.org/downloads/index.php"
-SRC_URI="http://www.acpica.org/download/${MY_P}.tar.gz
-	test? ( http://www.acpica.org/download/${MY_TESTS_P}.tar.gz )"
+HOMEPAGE="https://www.acpica.org/downloads/"
+SRC_URI="http://www.acpica.org/sites/acpica/files/${MY_P}.tar.gz
+	test? ( http://www.acpica.org/sites/acpica/files/${MY_TESTS_P}.tar.gz )"
 
 LICENSE="iASL"
 SLOT="0"

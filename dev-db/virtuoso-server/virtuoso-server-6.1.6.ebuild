@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-db/virtuoso-server/virtuoso-server-6.1.6.ebuild,v 1.6 2013/04/26 00:43:55 creffett Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-db/virtuoso-server/virtuoso-server-6.1.6.ebuild,v 1.7 2014/03/07 03:28:22 creffett Exp $
 
 EAPI=4
 
@@ -80,7 +80,7 @@ src_configure() {
 }
 
 src_install() {
-	virtuoso_src_install
+	default_src_install
 
 	keepdir /var/lib/virtuoso/db
 }

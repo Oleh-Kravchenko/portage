@@ -1,6 +1,9 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/base/use.mask,v 1.189 2014/03/03 18:36:18 aballier Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/base/use.mask,v 1.193 2014/03/30 14:22:46 floppym Exp $
+
+# on the way out
+ruby_targets_ruby18
 
 # masking here and unmasking in default/linux/
 kmod
@@ -322,6 +325,8 @@ orc
 # please switch to one of the testing 13.0 profiles to get it.
 python_targets_pypy2_0
 python_single_target_pypy2_0
+python_targets_pypy
+python_single_target_pypy
 
 # Michał Górny <mgorny@gentoo.org> (26 Jan 2013)
 # Mask the multilib flags globally. Unmasked in specific arches.
@@ -332,11 +337,8 @@ abi_x86_x32
 abi_mips_o32
 abi_mips_n32
 abi_mips_n64
-
-# Zac Medico <zmedico@gentoo.org> (21 Mar 2013)
-# Python 3.4 pre-releases not available in main tree yet.
-python_targets_python3_4
-python_single_target_python3_4
+abi_ppc_32
+abi_ppc_64
 
 # Andrey Grozin <grozin@gentoo.org> (1 May 2013)
 # gcl is masked, cmucl only available on x86, clozurecl on x86 and amd64

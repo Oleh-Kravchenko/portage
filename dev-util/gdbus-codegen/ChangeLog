@@ -1,6 +1,22 @@
 # ChangeLog for dev-util/gdbus-codegen
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/gdbus-codegen/ChangeLog,v 1.73 2014/02/22 21:26:17 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-util/gdbus-codegen/ChangeLog,v 1.78 2014/03/28 02:11:20 jer Exp $
+
+  28 Mar 2014; Jeroen Roovers <jer@gentoo.org> gdbus-codegen-2.38.2.ebuild:
+  Stable for HPPA (bug #499954).
+
+  26 Mar 2014; Mike Frysinger <vapier@gentoo.org> gdbus-codegen-2.38.2.ebuild:
+  Mark arm64/m68k/s390/sh stable.
+
+  13 Mar 2014; Christoph Junghans <ottxor@gentoo.org>
+  gdbus-codegen-2.38.2.ebuild:
+  added ~x64-macos (tested by me)
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> gdbus-codegen-2.38.2.ebuild:
+  x86 stable, bug 499954
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> gdbus-codegen-2.38.2.ebuild:
+  amd64 stable, bug 499954
 
   22 Feb 2014; Pacho Ramos <pacho@gentoo.org> gdbus-codegen-2.38.2.ebuild:
   Fix wrong commit, bug 502160

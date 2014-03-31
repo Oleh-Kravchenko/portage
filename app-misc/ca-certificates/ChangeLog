@@ -1,6 +1,59 @@
 # ChangeLog for app-misc/ca-certificates
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-misc/ca-certificates/ChangeLog,v 1.94 2014/03/06 10:28:47 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-misc/ca-certificates/ChangeLog,v 1.103 2014/03/27 00:49:50 zerochaos Exp $
+
+*ca-certificates-20130906-r1 (27 Mar 2014)
+*ca-certificates-20140223.3.16-r1 (27 Mar 2014)
+*ca-certificates-20140223.3.15.5-r1 (27 Mar 2014)
+*ca-certificates-20140223-r1 (27 Mar 2014)
+
+  27 Mar 2014; Rick Farina <zerochaos@gentoo.org>
+  +ca-certificates-20130906-r1.ebuild, +ca-certificates-20140223-r1.ebuild,
+  +ca-certificates-20140223.3.15.5-r1.ebuild,
+  +ca-certificates-20140223.3.16-r1.ebuild, -ca-certificates-20130906.ebuild,
+  -ca-certificates-20140223.3.15.5.ebuild,
+  -ca-certificates-20140223.3.16.ebuild, -ca-certificates-20140223.ebuild:
+  fix for bug #475352, remove broken symlinks
+
+*ca-certificates-20140223.3.16 (22 Mar 2014)
+
+  22 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +ca-certificates-20140223.3.16.ebuild:
+  Version bump.
+
+  21 Mar 2014; Christoph Junghans <ottxor@gentoo.org>
+  ca-certificates-20140223.3.15.5.ebuild, ca-certificates-20140223.ebuild:
+  fix prefix build
+
+  20 Mar 2014; Mike Gilbert <floppym@gentoo.org>
+  ca-certificates-20140223.3.15.5.ebuild:
+  We only need python if we are not using the precompiled certs.
+
+  20 Mar 2014; Mike Gilbert <floppym@gentoo.org>
+  ca-certificates-20140223.3.15.5.ebuild:
+  Force usage of python 2.x during build.
+
+*ca-certificates-20140223.3.15.5 (19 Mar 2014)
+
+  19 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +ca-certificates-20140223.3.15.5.ebuild, ca-certificates-20140223.ebuild,
+  metadata.xml:
+  Support pulling the cert database out of a nss release #504670 by Helmut
+  Jarausch.
+
+  19 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  ca-certificates-20130906.ebuild:
+  Mark alpha/arm64/m68k/s390/sh stable #498518.
+
+*ca-certificates-20140223 (13 Mar 2014)
+
+  13 Mar 2014; Tim Harder <radhermit@gentoo.org>
+  +ca-certificates-20140223.ebuild:
+  Version bump.
+
+  12 Mar 2014; Agostino Sarubbo <ago@gentoo.org>
+  ca-certificates-20130906.ebuild:
+  Stable for sparc, wrt bug #498518
 
   06 Mar 2014; Agostino Sarubbo <ago@gentoo.org>
   ca-certificates-20130906.ebuild:

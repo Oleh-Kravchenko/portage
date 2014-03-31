@@ -1,6 +1,21 @@
 # ChangeLog for dev-perl/JSON
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-perl/JSON/ChangeLog,v 1.55 2014/02/24 02:04:14 phajdan.jr Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-perl/JSON/ChangeLog,v 1.60 2014/03/24 15:04:02 ago Exp $
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org> JSON-2.590.0.ebuild:
+  Stable for ppc, wrt bug #492180
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> JSON-2.590.0.ebuild:
+  Stable for alpha, wrt bug #492180
+
+  14 Mar 2014; Agostino Sarubbo <ago@gentoo.org> JSON-2.590.0.ebuild:
+  Stable for ppc64, wrt bug #492180
+
+  12 Mar 2014; Agostino Sarubbo <ago@gentoo.org> JSON-2.590.0.ebuild:
+  Stable for sparc, wrt bug #492180
+
+  07 Mar 2014; Pacho Ramos <pacho@gentoo.org> JSON-2.590.0.ebuild:
+  amd64 stable, bug #492180
 
   24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> JSON-2.590.0.ebuild:
   x86 stable wrt bug #492180

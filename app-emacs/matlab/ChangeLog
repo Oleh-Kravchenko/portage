@@ -1,6 +1,23 @@
 # ChangeLog for app-emacs/matlab
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emacs/matlab/ChangeLog,v 1.23 2014/02/21 23:53:41 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emacs/matlab/ChangeLog,v 1.27 2014/03/24 18:56:28 ulm Exp $
+
+  24 Mar 2014; Ulrich Müller <ulm@gentoo.org>
+  -matlab-3.1.0_pre20070306.ebuild, -files/51matlab-gentoo.el:
+  Remove old.
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org>
+  matlab-3.3.2_pre20130829.ebuild:
+  Stable for x86, wrt bug #505458
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org>
+  matlab-3.3.2_pre20130829.ebuild:
+  Stable for amd64, wrt bug #505458
+
+  17 Mar 2014; Ulrich Müller <ulm@gentoo.org>
+  -matlab-3.3.1_pre20100121.ebuild, matlab-3.3.2_pre20130829.ebuild:
+  Drop dependency on virtual/emacs-cedet, as CEDET is included with Emacs 23.2
+  and later. Remove old.
 
 *matlab-3.3.2_pre20130829 (21 Feb 2014)
 

@@ -1,6 +1,44 @@
 # ChangeLog for sys-power/upower
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-power/upower/ChangeLog,v 1.137 2014/03/05 16:13:30 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-power/upower/ChangeLog,v 1.145 2014/03/28 21:23:58 zerochaos Exp $
+
+  28 Mar 2014; Rick Farina <zerochaos@gentoo.org> upower-0.9.23-r2.ebuild,
+  upower-0.99.0.ebuild:
+  reverting deps on lib[g]udev due to bug #506114
+
+  28 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> upower-0.9.23-r2.ebuild,
+  upower-0.99.0.ebuild:
+  Pull in both, virtual/libgudev (for build and runtime) and virtual/udev (for
+  udev.pc and runtime) wrt #506034
+
+  26 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> -upower-0.9.21.ebuild,
+  -upower-0.9.22.ebuild, -upower-0.9.23-r1.ebuild:
+  old
+
+*upower-0.9.23-r2 (26 Mar 2014)
+
+  26 Mar 2014; Samuli Suominen <ssuominen@gentoo.org>
+  +files/upower-0.9.23-clamp_percentage_for_overfull_batt.patch,
+  +upower-0.9.23-r2.ebuild:
+  Apply upstream patch for clamping percentage for overfull batteries wrt
+  #504574 by Krzysztof Nowicki and Till Schäfer
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> upower-0.9.23.ebuild:
+  Stable for alpha, wrt bug #496532
+
+*upower-0.9.23-r1 (14 Mar 2014)
+
+  14 Mar 2014; Samuli Suominen <ssuominen@gentoo.org>
+  +files/upower-0.9.23-create-dir-runtime.patch,
+  +files/upower-0.9.23-fix-segfault.patch, +upower-0.9.23-r1.ebuild:
+  Create the history directory in /var at runtime. Fix segmentation fault. Since
+  it might take a while 0.99.0 can be keyworded.
+
+  14 Mar 2014; Agostino Sarubbo <ago@gentoo.org> upower-0.9.23.ebuild:
+  Stable for ppc64, wrt bug #496532
+
+  12 Mar 2014; Agostino Sarubbo <ago@gentoo.org> upower-0.9.23.ebuild:
+  Stable for sparc, wrt bug #496532
 
   05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> upower-0.9.23.ebuild:
   Stable for ppc, wrt bug #496532

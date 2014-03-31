@@ -1,6 +1,84 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1166 2014/03/05 02:12:51 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1189 2014/03/30 09:14:56 swift Exp $
+
+  30 Mar 2014; Sven Vermeulen <swift@gentoo.org> selinux-policy-2.eclass:
+  Add support for USE triggered policy decisions
+
+  30 Mar 2014; Johannes Huber <johu@gentoo.org> kde4-base.eclass:
+  Sync with kde overlay. Raise QT_MINIMAL to latest stable and simplify Qt deps
+  by Michael Palimaka <kensington@gentoo.org>. Add kde-workspace 4.11.8
+  SRC_URI.
+
+  30 Mar 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Support rewriting symlinks in MULTILIB_CHOST_TOOLS, bug #506062.
+
+  29 Mar 2014; Ulrich Müller <ulm@gentoo.org> check-reqs.eclass:
+  Move test for MERGE_TYPE from check-reqs_pkg_setup() to check-reqs_run().
+
+  28 Mar 2014; Ulrich Müller <ulm@gentoo.org> check-reqs.eclass:
+  Output binary prefixes for units according to IEC 80000-13, as calculations
+  are 1024 based. Fix documentation of check-reqs_get_unit function, and other
+  minor fixes.
+
+  26 Mar 2014; Michael Palimaka <kensington@gentoo.org> cmake-utils.eclass:
+  Fix typo in prefix block by Christoph Junghans <ottxor@gentoo.org>.
+
+  24 Mar 2014; Michał Górny <mgorny@gentoo.org> git-r3.eclass:
+  Add a single+tags mode to handle Google Code more efficiently, bug #503708.
+
+  21 Mar 2014; Robin H. Johnson <robbat2@gentoo.org> linux-info.eclass:
+  linux-info: Bug #504346: Change one message from error to warning, kernel
+  sources are optional for most uses (checking configs), and knowledge if the
+  lack of kernel sources being missing is fatal should be left to the ebuild.
+
+  19 Mar 2014; Julian Ospald <hasufell@gentoo.org> mysql-cmake.eclass:
+  respect CFLAGS wrt #497532
+
+  18 Mar 2014; Christoph Junghans <ottxor@gentoo.org> texlive-common.eclass:
+  added prefix support (bug #485608)
+
+  18 Mar 2014; Michał Górny <mgorny@gentoo.org> boost-utils.eclass:
+  Mark @DEAD.
+
+  17 Mar 2014; Justin Lecher <jlec@gentoo.org> python-utils-r1.eclass,
+  readme.gentoo.eclass:
+  Some Gentoo PREFIX love
+
+  16 Mar 2014; Ryan Hill <rhill@gentoo.org> toolchain.eclass:
+  Update my src_uri.
+
+  13 Mar 2014; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass:
+  Add python_doexe() and python_newexe() to handle implementation-specific
+  executables without shebangs.
+
+  12 Mar 2014; Julian Ospald <hasufell@gentoo.org> games.eclass:
+  fix games.eclass to use games-misc/games-envd
+
+  12 Mar 2014; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass:
+  Use subslot operator deps on non-slotted PyPy.
+
+  12 Mar 2014; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass,
+  tests/python-utils-r1.sh:
+  Add non-slotted pypy to the eclass.
+
+  12 Mar 2014; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass:
+  Revert ignorant pypy2_2 commit.
+
+  12 Mar 2014; Patrick Lauer <patrick@gentoo.org> python-utils-r1.eclass:
+  Modify python-utils-r1 for pypy2.2
+
+  11 Mar 2014; Mike Gilbert <floppym@gentoo.org> autotools-utils.eclass:
+  Indicate that AUTOTOOLS_AUTORECONF should be set before calling inherit.
+
+  09 Mar 2014; Ulrich Müller <ulm@gentoo.org> texlive-module.eclass:
+  Do not inherit base.eclass, bug 497054.
+
+  09 Mar 2014; Michael Palimaka <kensington@gentoo.org> cmake-utils.eclass:
+  Remove stray character thanks to mimi_vx.
+
+  09 Mar 2014; Michael Palimaka <kensington@gentoo.org> cmake-utils.eclass:
+  Add missing quotes wrt bug #503336.
 
   05 Mar 2014; Patrick Lauer <patrick@gentoo.org> kde4-base.eclass:
   Fix KDE 4.11.7 SRC_URI

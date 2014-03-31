@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/webkit-gtk/webkit-gtk-2.2.5-r200.ebuild,v 1.5 2014/03/04 19:41:49 vincent Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/webkit-gtk/webkit-gtk-2.2.5-r200.ebuild,v 1.10 2014/03/09 12:03:40 pacho Exp $
 
 EAPI="5"
 
@@ -15,7 +15,7 @@ SRC_URI="http://www.webkitgtk.org/releases/${MY_P}.tar.xz"
 
 LICENSE="LGPL-2+ BSD"
 SLOT="2"
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~x86-freebsd ~amd64-linux ~ia64-linux ~x86-linux ~x86-macos"
+KEYWORDS="~alpha amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sparc x86 ~amd64-fbsd ~x86-fbsd ~x86-freebsd ~amd64-linux ~ia64-linux ~x86-linux ~x86-macos"
 IUSE="aqua coverage debug +egl +geoloc gles2 +gstreamer +introspection +jit libsecret +opengl spell +webgl"
 # bugs 372493, 416331
 REQUIRED_USE="
@@ -93,7 +93,7 @@ S="${WORKDIR}/${MY_P}"
 CHECKREQS_DISK_BUILD="18G" # and even this might not be enough, bug #417307
 
 pkg_pretend() {
-	nvidia_check || die #463960
+#	nvidia_check || die #463960
 
 	if [[ ${MERGE_TYPE} != "binary" ]] && is-flagq "-g*" && ! is-flagq "-g*0" ; then
 		einfo "Checking for sufficient disk space to build ${PN} with debugging CFLAGS"
@@ -106,7 +106,7 @@ pkg_pretend() {
 }
 
 pkg_setup() {
-	nvidia_check || die #463960
+#	nvidia_check || die #463960
 
 	# Check whether any of the debugging flags is enabled
 	if [[ ${MERGE_TYPE} != "binary" ]] && is-flagq "-g*" && ! is-flagq "-g*0" ; then
@@ -172,17 +172,30 @@ src_prepare() {
 	# Do not build unittests unless requested, upstream bug #128163
 	epatch "${FILESDIR}"/${PN}-2.2.4-unittests-build.patch
 
+	# Deadlock causing infinite compilations with nvidia-drivers: 
+	# https://bugs.gentoo.org/show_bug.cgi?id=463960
+	# http://osdyson.org/issues/161
+	# https://bugs.webkit.org/show_bug.cgi?id=125651
+	epatch "${FILESDIR}"/${PN}-2.2.5-gir-nvidia-hangs.patch
+
 	# Debian patches to fix support for some arches
 	# https://bugs.webkit.org/show_bug.cgi?id=129540
 	epatch "${FILESDIR}"/${PN}-2.2.5-{hppa,ia64}-platform.patch
 	# https://bugs.webkit.org/show_bug.cgi?id=129542
 	epatch "${FILESDIR}"/${PN}-2.2.5-ia64-malloc.patch
 
+	# OpenBSD patches to fix support for some arches
+	# https://bugs.webkit.org/show_bug.cgi?id=86835
+	epatch "${FILESDIR}"/${PN}-2.2.5-sparc64-build.patch
+
 	# Prevent maintainer mode from being triggered during make
 	AT_M4DIR=Source/autotools eautoreconf
 }
 
 src_configure() {
+	# Arches without JIT support also need this to really disable it in all places
+	use jit || append-cppflags -DENABLE_JIT=0 -DENABLE_YARR_JIT=0 -DENABLE_ASSEMBLER=0
+
 	# It doesn't compile on alpha without this in LDFLAGS, bug #???
 	use alpha && append-ldflags "-Wl,--no-relax"
 
@@ -271,19 +284,19 @@ src_install() {
 	rm -rf "${ED}usr/share/gtk-doc" || die
 }
 
-nvidia_check() {
-	if [[ ${MERGE_TYPE} != "binary" ]] &&
-	   use introspection &&
-	   has_version '=x11-drivers/nvidia-drivers-325*' &&
-	   [[ $(eselect opengl show 2> /dev/null) = "nvidia" ]]
-	then
-		eerror "${PN} freezes while compiling if x11-drivers/nvidia-drivers-325.* is"
-		eerror "used as the system OpenGL library."
-		eerror "You can either update to >=nvidia-drivers-331.13, or temporarily select"
-		eerror "Mesa as the system OpenGL library:"
-		eerror " # eselect opengl set xorg-x11"
-		eerror "See https://bugs.gentoo.org/463960 for more details."
-		eerror
-		return 1
-	fi
-}
+#nvidia_check() {
+#	if [[ ${MERGE_TYPE} != "binary" ]] &&
+#	   use introspection &&
+#	   has_version '=x11-drivers/nvidia-drivers-325*' &&
+#	   [[ $(eselect opengl show 2> /dev/null) = "nvidia" ]]
+#	then
+#		eerror "${PN} freezes while compiling if x11-drivers/nvidia-drivers-325.* is"
+#		eerror "used as the system OpenGL library."
+#		eerror "You can either update to >=nvidia-drivers-331.13, or temporarily select"
+#		eerror "Mesa as the system OpenGL library:"
+#		eerror " # eselect opengl set xorg-x11"
+#		eerror "See https://bugs.gentoo.org/463960 for more details."
+#		eerror
+#		return 1
+#	fi
+#}

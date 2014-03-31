@@ -1,6 +1,25 @@
 # ChangeLog for sci-chemistry/ball
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sci-chemistry/ball/ChangeLog,v 1.12 2013/09/05 19:03:42 mgorny Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-chemistry/ball/ChangeLog,v 1.14 2014/03/26 13:27:44 jlec Exp $
+
+  26 Mar 2014; Justin Lecher <jlec@gentoo.org> -ball-1.4.1-r1.ebuild,
+  -files/ball-1.4.1-Added-MAX_PENALTY-option-to-bond-order-assignment.patch,
+  -files/ball-1.4.1-Fix-compilation-of-FTPBondOrderStrategy-Fixes-451.patch,
+  -files/ball-1.4.1-Fix-compilation-of-Python-bindings-with-new-sip-vers.patch,
+  -files/ball-1.4.1-Fixed-a-bug-in-the-AssignBondOrderProcessor.patch,
+  -files/ball-1.4.1-Fixed-the-FPT-version-of-bond-order-assignment-2.patch,
+  -files/ball-1.4.1-gcc-4.7.patch, -files/ball-1.4.1-libsvm.patch,
+  -files/ball-1.4.1-pthread.patch, -files/ball-1.4.1-python.patch:
+  Drop old, fixes #485830, #505856
+
+*ball-1.4.2 (26 Mar 2014)
+
+  26 Mar 2014; Justin Lecher <jlec@gentoo.org> ball-1.4.1-r1.ebuild,
+  +ball-1.4.2.ebuild,
+  +files/ball-1.4.2-Fix-compilation-of-sipModularWidget.patch,
+  +files/ball-1.4.2-PDBFile-Fix-compilation-with-gcc-4.8.patch,
+  +files/ball-1.4.2-QT4_EXTRACT_OPTIONS-CMake-macro-changed-in-CMake-2.8.patch:
+  Version BUmp
 
   05 Sep 2013; Michał Górny <mgorny@gentoo.org> ball-1.4.1-r1.ebuild:
   Clean up PYTHON_COMPAT from old implementations.

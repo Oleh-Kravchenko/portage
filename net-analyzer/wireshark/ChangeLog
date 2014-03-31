@@ -1,6 +1,64 @@
 # ChangeLog for net-analyzer/wireshark
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/wireshark/ChangeLog,v 1.589 2014/03/01 22:26:46 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/wireshark/ChangeLog,v 1.601 2014/03/29 16:26:36 jer Exp $
+
+*wireshark-1.11.3_pre2150 (29 Mar 2014)
+
+  29 Mar 2014; Jeroen Roovers <jer@gentoo.org>
+  -wireshark-1.11.3_pre1889.ebuild, +wireshark-1.11.3_pre2150.ebuild:
+  Version bump.
+
+  24 Mar 2014; Jeroen Roovers <jer@gentoo.org> -wireshark-1.8.12.ebuild,
+  -wireshark-1.10.5.ebuild,
+  -files/wireshark-1.10.4-gtk-deprecated-warnings.patch:
+  Old.
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.6.ebuild,
+  wireshark-1.8.13.ebuild:
+  Stable for ppc64, wrt bug #503792
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.6.ebuild,
+  wireshark-1.8.13.ebuild:
+  Stable for alpha, wrt bug #503792
+
+  18 Mar 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.6.ebuild,
+  wireshark-1.8.13.ebuild:
+  Stable for ia64, wrt bug #503792
+
+  16 Mar 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.6.ebuild,
+  wireshark-1.8.13.ebuild:
+  Stable for ppc, wrt bug #503792
+
+  12 Mar 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.6.ebuild,
+  wireshark-1.8.13.ebuild:
+  Stable for sparc, wrt bug #503792
+
+  09 Mar 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.6.ebuild,
+  wireshark-1.8.13.ebuild:
+  Stable for x86, wrt bug #503792
+
+  09 Mar 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.6.ebuild,
+  wireshark-1.8.13.ebuild:
+  Stable for amd64, wrt bug #503792
+
+*wireshark-1.11.3_pre1889 (08 Mar 2014)
+
+  08 Mar 2014; Jeroen Roovers <jer@gentoo.org> -wireshark-1.11.2-r1.ebuild,
+  -wireshark-1.11.3_pre1650.ebuild, +wireshark-1.11.3_pre1889.ebuild,
+  -files/wireshark-1.11.2-gtk-deprecated-warnings.patch:
+  Version bump.
+
+  08 Mar 2014; Jeroen Roovers <jer@gentoo.org> wireshark-1.8.13.ebuild,
+  wireshark-1.10.6.ebuild:
+  Stable for HPPA (bug #503792).
+
+*wireshark-1.10.6 (08 Mar 2014)
+*wireshark-1.8.13 (08 Mar 2014)
+
+  08 Mar 2014; Jeroen Roovers <jer@gentoo.org> +wireshark-1.8.13.ebuild,
+  +wireshark-1.10.6.ebuild,
+  +files/wireshark-1.10.6-gtk-deprecated-warnings.patch:
+  Version bump (bug #503792).
 
   01 Mar 2014; Michał Górny <mgorny@gentoo.org> wireshark-1.10.5.ebuild,
   wireshark-1.8.12.ebuild:

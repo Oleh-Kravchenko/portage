@@ -1,6 +1,18 @@
 # ChangeLog for dev-ruby/timecop
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/timecop/ChangeLog,v 1.10 2013/12/15 17:10:05 zerochaos Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/timecop/ChangeLog,v 1.14 2014/03/27 12:11:55 mrueg Exp $
+
+  27 Mar 2014; Manuel Rüger <mrueg@gentoo.org> -timecop-0.5.9.2.ebuild:
+  Cleanup old.
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org> timecop-0.6.0.ebuild:
+  Stable for ppc, wrt bug #503684
+
+  10 Mar 2014; Jeroen Roovers <jer@gentoo.org> timecop-0.6.0.ebuild:
+  Stable for HPPA (bug #503684).
+
+  08 Mar 2014; Pacho Ramos <pacho@gentoo.org> timecop-0.6.0.ebuild:
+  amd64 stable, bug 503684
 
   15 Dec 2013; Rick Farina <zerochaos@gentoo.org> timecop-0.6.0.ebuild:
   adding ~arm

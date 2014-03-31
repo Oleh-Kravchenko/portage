@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-perl/Lab-Measurement/Lab-Measurement-9999.ebuild,v 1.10 2013/10/07 14:44:48 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-perl/Lab-Measurement/Lab-Measurement-9999.ebuild,v 1.12 2014/03/12 14:03:08 dilfridge Exp $
 
 EAPI=5
 
@@ -10,7 +10,7 @@ if [[ "${PV}" != "9999" ]]; then
 	KEYWORDS="~amd64 ~x86"
 	inherit perl-module
 else
-	EGIT_REPO_URI="git://gitorious.org/lab-measurement/lab.git"
+	EGIT_REPO_URI="https://github.com/lab-measurement/lab-measurement.git"
 	EGIT_BRANCH="master"
 	EGIT_SOURCEDIR=${S}
 	KEYWORDS=""
@@ -31,12 +31,14 @@ RDEPEND="
 	dev-perl/Clone
 	dev-perl/Exception-Class
 	dev-perl/Hook-LexWrap
+	dev-perl/List-MoreUtils
 	dev-perl/TermReadKey
 	dev-perl/TeX-Encode
 	dev-perl/XML-Generator
 	dev-perl/XML-DOM
 	dev-perl/XML-Twig
 	dev-perl/encoding-warnings
+	dev-perl/yaml
 	sci-visualization/gnuplot
 	virtual/perl-Class-ISA
 	virtual/perl-Data-Dumper

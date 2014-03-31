@@ -1,6 +1,33 @@
 # ChangeLog for app-shells/bash
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-shells/bash/ChangeLog,v 1.353 2014/02/28 22:45:30 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-shells/bash/ChangeLog,v 1.358 2014/03/28 02:10:54 vapier Exp $
+
+*bash-4.3-r3 (28 Mar 2014)
+
+  28 Mar 2014; Mike Frysinger <vapier@gentoo.org> +bash-4.3-r3.ebuild,
+  +files/bash-4.3-input-line-realloc.patch, -bash-4.3-r2.ebuild:
+  Fix from upstream for crash when exiting the shell.
+
+*bash-4.3-r2 (20 Mar 2014)
+
+  20 Mar 2014; Mike Frysinger <vapier@gentoo.org> +bash-4.3-r2.ebuild,
+  +files/bash-4.3-compound-array-empty-value.patch,
+  +files/bash-4.3-extglob-skipname.patch, -bash-4.3-r1.ebuild:
+  Add more fixes from upstream.
+
+  19 Mar 2014; Mike Frysinger <vapier@gentoo.org> bash-4.3-r1.ebuild:
+  Drop job/readline patches as they appear to be fixed in this release already.
+
+  19 Mar 2014; Mike Frysinger <vapier@gentoo.org> bash-4.3-r1.ebuild:
+  Move the readline version to a global var so it stays in sync.
+
+*bash-4.3-r1 (10 Mar 2014)
+
+  10 Mar 2014; Mike Frysinger <vapier@gentoo.org> +bash-4.3-r1.ebuild,
+  +files/bash-4.3-debug-trap.patch, +files/bash-4.3-jobs-exit.patch,
+  +files/bash-4.3-parse-ansi-expand.patch,
+  +files/bash-4.3-pcomplete-dequote.patch, -bash-4.3.ebuild:
+  Add misc fixes from upstream.
 
   28 Feb 2014; Mike Frysinger <vapier@gentoo.org> -bash-4.3_rc2.ebuild,
   bash-4.3.ebuild:

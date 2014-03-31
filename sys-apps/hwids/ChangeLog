@@ -1,6 +1,17 @@
 # ChangeLog for sys-apps/hwids
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/hwids/ChangeLog,v 1.136 2014/03/04 20:01:34 flameeyes Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/hwids/ChangeLog,v 1.139 2014/03/28 04:33:56 ssuominen Exp $
+
+  28 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> hwids-20140317.ebuild:
+  amd64/arm/x86 stable wrt #506026
+
+  28 Mar 2014; Jeroen Roovers <jer@gentoo.org> hwids-20140317.ebuild:
+  Stable for HPPA (bug #506026).
+
+*hwids-20140317 (17 Mar 2014)
+
+  17 Mar 2014; Diego E. Pettenò <flameeyes@gentoo.org> +hwids-20140317.ebuild:
+  Version bump.
 
 *hwids-20140304 (04 Mar 2014)
 

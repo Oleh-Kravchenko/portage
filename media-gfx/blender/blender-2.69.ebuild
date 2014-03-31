@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-gfx/blender/blender-2.69.ebuild,v 1.2 2014/01/22 01:11:12 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-gfx/blender/blender-2.69.ebuild,v 1.3 2014/03/20 16:56:34 hasufell Exp $
 
 # TODO:
 #   bundled-deps: bullet is modified
@@ -32,7 +32,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="+boost +bullet collada colorio cycles +dds debug doc +elbeem ffmpeg fftw +game-engine jack jpeg2k ndof nls openal openmp +openexr player redcode sdl sndfile sse sse2 tiff"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}
 	player? ( game-engine )
-	redcode? ( jpeg2k )
+	redcode? ( jpeg2k ffmpeg )
 	cycles? ( boost openexr tiff )
 	nls? ( boost )
 	game-engine? ( boost )"
@@ -69,6 +69,7 @@ RDEPEND="
 	)
 	fftw? ( sci-libs/fftw:3.0 )
 	jack? ( media-sound/jack-audio-connection-kit )
+	jpeg2k? ( media-libs/openjpeg:0 )
 	ndof? (
 		app-misc/spacenavd
 		dev-libs/libspnav

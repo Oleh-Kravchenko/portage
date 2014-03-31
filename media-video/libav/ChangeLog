@@ -1,6 +1,37 @@
 # ChangeLog for media-video/libav
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/libav/ChangeLog,v 1.178 2014/02/20 08:57:24 lu_zero Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/libav/ChangeLog,v 1.183 2014/03/30 19:00:19 lu_zero Exp $
+
+*libav-10.9999 (30 Mar 2014)
+*libav-10 (30 Mar 2014)
+
+  30 Mar 2014; Luca Barbato <lu_zero@gentoo.org> -libav-10_alpha1-r1.ebuild,
+  -libav-10_beta1.ebuild, +libav-10.ebuild, +libav-10.9999.ebuild:
+  New release version and live ebuild tracking the current release
+  branch.
+
+  28 Mar 2014; Jeroen Roovers <jer@gentoo.org> libav-0.8.11.ebuild:
+  Stable for HPPA (bug #504584).
+
+  26 Mar 2014; Markus Meier <maekke@gentoo.org> libav-0.8.11.ebuild:
+  arm stable, bug #504584
+
+  18 Mar 2014; Steve Dibb <beandog@gentoo.org> libav-0.8.7.ebuild,
+  libav-0.8.9-r1.ebuild, libav-0.8.11.ebuild, libav-0.8.9999.ebuild,
+  libav-9.10-r1.ebuild, libav-9.12.ebuild, libav-9.9999.ebuild,
+  libav-10_alpha1-r1.ebuild, libav-10_beta1.ebuild, libav-9999.ebuild:
+  Enable network use flag by default, bug 488762
+
+*libav-9.12 (14 Mar 2014)
+*libav-0.8.11 (14 Mar 2014)
+
+  14 Mar 2014; Tomáš Chvátal <scarabeus@gentoo.org> +libav-0.8.11.ebuild,
+  +libav-9.12.ebuild, -libav-0.8.10.ebuild, -libav-0.8.8.ebuild,
+  -libav-0.8.9.ebuild, -libav-10_alpha1.ebuild, -libav-9.10.ebuild,
+  -libav-9.11.ebuild, libav-10_alpha1-r1.ebuild, libav-10_beta1.ebuild,
+  libav-9999.ebuild:
+  Version bump to bugfix releases 0.8.11 and 9.12. Drop some overshadowed
+  versions. Update slot on 10 series.
 
 *libav-10_beta1 (20 Feb 2014)
 

@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-irc/quassel/quassel-0.9.2.ebuild,v 1.5 2013/12/22 18:12:26 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-irc/quassel/quassel-0.9.2.ebuild,v 1.6 2014/03/27 00:44:32 mrueg Exp $
 
 EAPI=4
 
@@ -60,7 +60,8 @@ RDEPEND="
 		X? ( ${GUI_RDEPEND} )
 	)
 	"
-DEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}
+	kde? ( dev-util/automoc )"
 
 DOCS="AUTHORS ChangeLog README"
 

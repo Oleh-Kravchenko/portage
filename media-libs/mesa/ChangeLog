@@ -1,6 +1,40 @@
 # ChangeLog for media-libs/mesa
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/mesa/ChangeLog,v 1.539 2014/02/24 19:42:05 chithanh Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/mesa/ChangeLog,v 1.547 2014/03/28 01:43:51 jer Exp $
+
+  28 Mar 2014; Jeroen Roovers <jer@gentoo.org> mesa-10.0.4.ebuild:
+  Stable for HPPA (bug #500368).
+
+  27 Mar 2014; Agostino Sarubbo <ago@gentoo.org> mesa-10.0.4.ebuild:
+  Stable for amd64, wrt bug #500368
+
+*mesa-10.0.4 (19 Mar 2014)
+
+  19 Mar 2014; Matt Turner <mattst88@gentoo.org> +mesa-10.0.4.ebuild,
+  -mesa-10.0.3.ebuild:
+  Version bump to 10.0.4, bug #504668.
+
+  13 Mar 2014; Matt Turner <mattst88@gentoo.org> mesa-10.1.0.ebuild,
+  metadata.xml:
+  Add dri3 USE flag, and add udev as a dependency, bug #504356.
+
+  09 Mar 2014; Matt Turner <mattst88@gentoo.org> mesa-10.1.0.ebuild:
+  Update libxshmfence dependency to 1.1, bug #503932.
+
+  08 Mar 2014; Matt Turner <mattst88@gentoo.org> mesa-10.1.0.ebuild,
+  metadata.xml:
+  Remove non-existant openmax (available in next Mesa release) and correct llvm-
+  shared-libs flag, bug #503888.
+
+  08 Mar 2014; Matt Turner <mattst88@gentoo.org> -mesa-9.2.5.ebuild,
+  -mesa-10.0.2-r1.ebuild, -files/mesa-10.0.2-update-glxext.h.patch:
+  Drop old.
+
+*mesa-10.1.0 (08 Mar 2014)
+
+  08 Mar 2014; Matt Turner <mattst88@gentoo.org> +mesa-10.1.0.ebuild,
+  metadata.xml:
+  Version bump to mesa-10.1.0.
 
 *mesa-9.2.5-r1 (24 Feb 2014)
 

@@ -1,14 +1,14 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-libs/glibc/glibc-9999.ebuild,v 1.21 2013/04/10 16:40:27 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-libs/glibc/glibc-9999.ebuild,v 1.23 2014/03/29 06:11:19 vapier Exp $
 
-inherit eutils versionator toolchain-funcs flag-o-matic gnuconfig multilib unpacker multiprocessing
+inherit eutils versionator toolchain-funcs flag-o-matic gnuconfig multilib systemd unpacker multiprocessing
 
 DESCRIPTION="GNU libc6 (also called glibc2) C library"
 HOMEPAGE="http://www.gnu.org/software/libc/libc.html"
 
 LICENSE="LGPL-2.1+ BSD HPND ISC inner-net rc PCRE"
-#KEYWORDS="~alpha ~amd64 ~arm -hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
+#KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
 RESTRICT="strip" # strip ourself #46186
 EMULTILIB_PKG="true"
 
@@ -24,6 +24,7 @@ case ${PV} in
 	RELEASE_VER=${PV}
 	;;
 esac
+GCC_BOOTSTRAP_VER="4.7.3"
 PATCH_VER=""                                   # Gentoo patchset
 NPTL_KERN_VER=${NPTL_KERN_VER:-"2.6.16"}       # min kernel version nptl requires
 
@@ -88,19 +89,19 @@ else
 		!vanilla? ( sys-libs/timezone-data )"
 fi
 
+upstream_uris() {
+	echo mirror://gnu/glibc/$1 ftp://sourceware.org/pub/glibc/{releases,snapshots}/$1 mirror://gentoo/$1
+}
+gentoo_uris() {
+	local devspace="HTTP~vapier/dist/URI HTTP~azarah/glibc/URI"
+	devspace=${devspace//HTTP/http://dev.gentoo.org/}
+	echo mirror://gentoo/$1 ${devspace//URI/$1}
+}
 SRC_URI=$(
-	upstream_uris() {
-		echo mirror://gnu/glibc/$1 ftp://sourceware.org/pub/glibc/{releases,snapshots}/$1 mirror://gentoo/$1
-	}
-	gentoo_uris() {
-		local devspace="HTTP~vapier/dist/URI HTTP~azarah/glibc/URI"
-		devspace=${devspace//HTTP/http://dev.gentoo.org/}
-		echo mirror://gentoo/$1 ${devspace//URI/$1}
-	}
-
 	[[ -z ${EGIT_REPO_URIS} ]] && upstream_uris ${P}.tar.xz
 	[[ -n ${PATCH_VER}      ]] && gentoo_uris ${P}-patches-${PATCH_VER}.tar.bz2
 )
+SRC_URI+=" ${GCC_BOOTSTRAP_VER:+multilib? ( $(gentoo_uris gcc-${GCC_BOOTSTRAP_VER}-multilib-bootstrap.tar.bz2) )}"
 
 # eblit-include [--skip] <function> [version]
 eblit-include() {
@@ -151,18 +152,22 @@ for x in setup {pre,post}inst ; do
 	fi
 done
 
+eblit-src_unpack-pre() {
+	[[ -n ${GCC_BOOTSTRAP_VER} ]] && use multilib && unpack gcc-4.7.3-multilib-bootstrap.tar.bz2
+}
+
 eblit-src_unpack-post() {
 	if use hardened ; then
 		cd "${S}"
 		einfo "Patching to get working PIE binaries on PIE (hardened) platforms"
-		gcc-specs-pie && epatch "${FILESDIR}"/2.16/glibc-2.16-hardened-pie.patch
-		epatch "${FILESDIR}"/2.10/glibc-2.10-hardened-configure-picdefault.patch
-		epatch "${FILESDIR}"/2.10/glibc-2.10-hardened-inittls-nosysenter.patch
+		gcc-specs-pie && epatch "${FILESDIR}"/2.17/glibc-2.17-hardened-pie.patch
+		epatch "${FILESDIR}"/2.19/glibc-2.19-hardened-configure-picdefault.patch
+		epatch "${FILESDIR}"/2.18/glibc-2.18-hardened-inittls-nosysenter.patch
 
 		einfo "Installing Hardened Gentoo SSP and FORTIFY_SOURCE handler"
-		cp -f "${FILESDIR}"/2.6/glibc-2.6-gentoo-stack_chk_fail.c \
+		cp -f "${FILESDIR}"/2.18/glibc-2.18-gentoo-stack_chk_fail.c \
 			debug/stack_chk_fail.c || die
-		cp -f "${FILESDIR}"/2.10/glibc-2.10-gentoo-chk_fail.c \
+		cp -f "${FILESDIR}"/2.18/glibc-2.18-gentoo-chk_fail.c \
 			debug/chk_fail.c || die
 
 		if use debug ; then

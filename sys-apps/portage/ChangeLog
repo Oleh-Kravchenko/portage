@@ -1,6 +1,51 @@
 # ChangeLog for sys-apps/portage
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/portage/ChangeLog,v 1.1385 2014/03/05 21:27:19 maekke Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/portage/ChangeLog,v 1.1395 2014/03/26 02:27:41 dolsen Exp $
+
+*portage-2.2.10 (26 Mar 2014)
+
+  26 Mar 2014; Brian Dolbec <dolsen@gentoo.org> -portage-2.1.11.62.ebuild,
+  -portage-2.2.6.ebuild, -portage-2.2.8.ebuild, -portage-2.2.9-r1.ebuild,
+  +portage-2.2.10.ebuild:
+  Version bump, cleanup old. Fixes bug 505422 and a couple other small
+  regressions in 2.2.9.
+
+  25 Mar 2014; Mike Frysinger <vapier@gentoo.org> portage-2.1.11.62.ebuild,
+  portage-2.1.12.2.ebuild, portage-2.1.6.7_p1.ebuild, portage-2.2.1.ebuild,
+  portage-2.2.6.ebuild, portage-2.2.7.ebuild, portage-2.2.8-r1.ebuild,
+  portage-2.2.8.ebuild, portage-2.2.9-r1.ebuild:
+  Mark arm64/m68k/s390/sh stable.
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org> portage-2.2.8-r1.ebuild:
+  Stable for ppc, wrt bug #502282
+
+*portage-2.2.9-r1 (23 Mar 2014)
+
+  23 Mar 2014; Brian Dolbec <dolsen@gentoo.org> -portage-2.2.9.ebuild,
+  +portage-2.2.9-r1.ebuild:
+  Fix the version setting sed, also tarball has the incorrect version. This
+  fixes it.
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> portage-2.2.8-r1.ebuild:
+  Stable for sparc, wrt bug #502282
+
+*portage-2.2.9 (23 Mar 2014)
+
+  23 Mar 2014; Brian Dolbec <dolsen@gentoo.org> +portage-2.2.9.ebuild:
+  Version bump. Fixes bugs 450372, 497238, 498498, 378869, 500030, 481584,
+  501360, 501352, 501296, 502288, 472104, 504532.
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> portage-2.2.8-r1.ebuild:
+  Stable for alpha, wrt bug #502282
+
+  14 Mar 2014; Agostino Sarubbo <ago@gentoo.org> portage-2.2.8-r1.ebuild:
+  Stable for ppc64, wrt bug #502282
+
+  09 Mar 2014; Mikle Kolyada <zlogene@gentoo.org> portage-2.2.8-r1.ebuild:
+  x86 stable wrt bug #502282
+
+  08 Mar 2014; Mikle Kolyada <zlogene@gentoo.org> portage-2.2.8-r1.ebuild:
+  amd64 stable wrt bug #502282
 
   05 Mar 2014; Markus Meier <maekke@gentoo.org> portage-2.2.8-r1.ebuild:
   arm stable, bug #502282

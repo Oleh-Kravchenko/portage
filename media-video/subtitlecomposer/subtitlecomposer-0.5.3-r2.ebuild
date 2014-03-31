@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/subtitlecomposer/subtitlecomposer-0.5.3-r2.ebuild,v 1.4 2014/02/06 18:34:48 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/subtitlecomposer/subtitlecomposer-0.5.3-r2.ebuild,v 1.5 2014/03/16 12:22:38 johu Exp $
 
 EAPI=5
 
@@ -8,7 +8,7 @@ KDE_LINGUAS="bg cs de el es fr pl pt_BR sr"
 inherit kde4-base
 
 DESCRIPTION="Text-based subtitles editor"
-HOMEPAGE="http://www.sourceforge.net/projects/subcomposer/"
+HOMEPAGE="https://github.com/maxrd2/subtitlecomposer"
 SRC_URI="mirror://sourceforge/subcomposer/${P}.tar.bz2"
 
 LICENSE="GPL-2"

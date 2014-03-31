@@ -1,6 +1,43 @@
 # ChangeLog for mail-client/mutt
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/mail-client/mutt/ChangeLog,v 1.252 2014/03/04 20:30:07 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/mail-client/mutt/ChangeLog,v 1.262 2014/03/24 14:30:34 ago Exp $
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org> mutt-1.5.22-r3.ebuild:
+  Stable for ppc64, wrt bug #504462
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> mutt-1.5.22-r3.ebuild:
+  Stable for alpha, wrt bug #504462
+
+  18 Mar 2014; Agostino Sarubbo <ago@gentoo.org> mutt-1.5.22-r3.ebuild:
+  Stable for ia64, wrt bug #504462
+
+  16 Mar 2014; Agostino Sarubbo <ago@gentoo.org> mutt-1.5.22-r3.ebuild:
+  Stable for ppc, wrt bug #504462
+
+  15 Mar 2014; Agostino Sarubbo <ago@gentoo.org> mutt-1.5.22-r3.ebuild:
+  Stable for x86, wrt bug #504462
+
+  15 Mar 2014; Agostino Sarubbo <ago@gentoo.org> mutt-1.5.22-r3.ebuild:
+  Stable for amd64, wrt bug #504462
+
+  14 Mar 2014; Jeroen Roovers <jer@gentoo.org> mutt-1.5.22-r3.ebuild:
+  Stable for HPPA (bug #504462).
+
+  14 Mar 2014; Alexander Vershilov <qnikst@gentoo.org> mutt-1.5.22-r3.ebuild:
+  fix incorrect patchrev, #504554
+
+*mutt-1.5.22-r3 (13 Mar 2014)
+
+  13 Mar 2014; Alexander Vershilov <qnikst@gentoo.org>
+  +files/mutt-1.5.22-cve-2014-0567.patch, +mutt-1.5.22-r3.ebuild,
+  -mutt-1.5.22-r2.ebuild:
+  fix buffer overflow issue (CVE-2014-0567), bug #504462
+
+*mutt-1.5.22-r2 (09 Mar 2014)
+
+  09 Mar 2014; Fabian Groffen <grobian@gentoo.org> +mutt-1.5.22-r2.ebuild,
+  -mutt-1.5.22-r1.ebuild:
+  Bump revision for slight improvement in sidebar patch
 
   04 Mar 2014; Fabian Groffen <grobian@gentoo.org> mutt-1.5.22-r1.ebuild:
   Bump patchset for bug #459260 (ncurses[tinfo] support)

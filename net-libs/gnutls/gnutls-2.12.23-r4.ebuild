@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/gnutls/gnutls-2.12.23-r4.ebuild,v 1.3 2014/03/05 17:58:56 rich0 Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/gnutls/gnutls-2.12.23-r4.ebuild,v 1.11 2014/03/24 14:29:11 ago Exp $
 
 EAPI=5
 
@@ -13,7 +13,7 @@ SRC_URI="ftp://ftp.gnutls.org/gcrypt/gnutls/v$(get_version_component_range 1-2)/
 # LGPL-2.1 for libgnutls library and GPL-3 for libgnutls-extra library.
 LICENSE="GPL-3 LGPL-2.1"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x86-solaris"
+KEYWORDS="alpha amd64 arm hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x86-solaris"
 IUSE="bindist +cxx doc examples guile lzo +nettle nls pkcs11 static-libs test zlib"
 
 RDEPEND=">=dev-libs/libtasn1-0.3.4
@@ -59,6 +59,7 @@ src_prepare() {
 	epatch "${FILESDIR}"/${PN}-2.12.23-hppa.patch
 	epatch "${FILESDIR}"/${PN}-2.12.23-CVE-2014-0092.patch
 	epatch "${FILESDIR}"/${PN}-2.12.23-CVE-2014-1959.patch
+	epatch "${FILESDIR}"/${P}-gl-tests-getaddrinfo-skip-if-no-network.patch
 
 	# support user patches
 	epatch_user

@@ -1,6 +1,39 @@
 # ChangeLog for net-misc/cgminer
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/cgminer/ChangeLog,v 1.63 2014/02/28 13:41:15 blueness Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/cgminer/ChangeLog,v 1.69 2014/03/29 16:17:55 blueness Exp $
+
+*cgminer-3.7.2 (29 Mar 2014)
+
+  29 Mar 2014; Anthony G. Basile <blueness@gentoo.org> +cgminer-3.7.2.ebuild,
+  metadata.xml:
+  Restore 3.7.2 for litecoin, requested by Александр
+
+*cgminer-4.2.2 (29 Mar 2014)
+
+  29 Mar 2014; Anthony G. Basile <blueness@gentoo.org> +cgminer-4.2.2.ebuild,
+  cgminer-4.2.1.ebuild:
+  Version bump
+
+  26 Mar 2014; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag descriptions from metadata.xml
+
+  24 Mar 2014; Anthony G. Basile <blueness@gentoo.org> -cgminer-3.11.0.ebuild,
+  -cgminer-3.12.0.ebuild, -cgminer-3.12.1.ebuild, -cgminer-3.4.3.ebuild,
+  -cgminer-3.5.0.ebuild, -cgminer-3.6.6.ebuild, -cgminer-3.7.2.ebuild,
+  -cgminer-3.8.5.ebuild, -cgminer-3.9.0.1.ebuild, -cgminer-3.9.0.ebuild:
+  Remove older unstable verions
+
+*cgminer-4.2.1 (24 Mar 2014)
+
+  24 Mar 2014; Anthony G. Basile <blueness@gentoo.org> +cgminer-4.2.1.ebuild,
+  cgminer-4.1.0.ebuild:
+  Version bump
+
+*cgminer-4.1.0 (10 Mar 2014)
+
+  10 Mar 2014; Anthony G. Basile <blueness@gentoo.org> +cgminer-4.1.0.ebuild,
+  cgminer-4.0.1.ebuild, metadata.xml:
+  Version bump
 
 *cgminer-4.0.1 (28 Feb 2014)
 

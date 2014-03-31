@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/glance/glance-2013.2.9999.ebuild,v 1.6 2014/01/08 06:44:09 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/glance/glance-2013.2.9999.ebuild,v 1.7 2014/03/16 19:27:13 prometheanfire Exp $
 
 EAPI=5
 PYTHON_COMPAT=( python2_7 )
@@ -106,21 +106,20 @@ python_test() {
 
 python_install() {
 	distutils-r1_python_install
-	newconfd "${FILESDIR}/glance.confd" glance
-	newinitd "${FILESDIR}/glance.initd" glance
 
-	for function in api registry scrubber; do
-		dosym /etc/init.d/glance /etc/init.d/glance-${function}
+	for svc in api registry scrubber; do
+		newinitd "${FILESDIR}/glance.initd" glance-${svc}
 	done
 
-	diropts -m 0750
-	dodir /var/run/glance /var/log/glance /var/lib/glance/images /var/lib/glance/scrubber
+	diropts -m 0750 -o glance -g glance
+	dodir /var/log/glance /var/lib/glance/images /var/lib/glance/scrubber
 	keepdir /etc/glance
 	keepdir /var/log/glance
 	keepdir /var/lib/glance/images
 	keepdir /var/lib/glance/scrubber
-	insinto /etc/glance
 
+	insinto /etc/glance
+	insopts -m 0640 -o glance -g glance
 	doins "etc/glance-api-paste.ini"
 	doins "etc/glance-api.conf"
 	doins "etc/glance-cache.conf"
@@ -130,8 +129,6 @@ python_install() {
 	doins "etc/logging.cnf.sample"
 	doins "etc/policy.json"
 	doins "etc/schema-image.json"
-
-	fowners glance:glance /var/run/glance /var/log/glance /var/lib/glance/images /var/lib/glance/scrubber /etc/glance
 }
 
 python_install_all() {

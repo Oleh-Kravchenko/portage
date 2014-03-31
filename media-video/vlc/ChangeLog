@@ -1,6 +1,48 @@
 # ChangeLog for media-video/vlc
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/ChangeLog,v 1.892 2014/03/01 22:23:36 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/ChangeLog,v 1.900 2014/03/26 18:38:20 tomwij Exp $
+
+  26 Mar 2014; Tom Wijsman <TomWij@gentoo.org> vlc-2.0.8.ebuild,
+  vlc-2.1.4.ebuild, vlc-2.1.9999.ebuild, vlc-9999.ebuild:
+  Remove temporary -fPIC per ssuominen's comments in bug #502394.
+
+  26 Mar 2014; Tom Wijsman <TomWij@gentoo.org> vlc-2.0.8.ebuild,
+  vlc-2.1.4.ebuild, vlc-2.1.9999.ebuild, vlc-9999.ebuild:
+  Append -fPIC temporarily for bug #502394, reported by Marcin Mirosław.
+
+  26 Mar 2014; Tom Wijsman <TomWij@gentoo.org> vlc-2.0.5.ebuild,
+  vlc-2.0.7.ebuild, vlc-2.0.8.ebuild, vlc-2.0.8a.ebuild, vlc-2.0.9.ebuild,
+  vlc-2.0.9999.ebuild, vlc-2.1.0.ebuild:
+  Restrict freetype version on older versions of vlc; fixes bug #505266,
+  reported by Phil Stracchino (alaric).
+
+  26 Mar 2014; Tom Wijsman <TomWij@gentoo.org>
+  +files/vlc-9999-libva-1.2.1-compat.patch, vlc-9999.ebuild:
+  Update libva 1.2.1 compatibility patch for live version; fixes bug #505586,
+  reported by jospezial.
+
+  19 Mar 2014; Tom Wijsman <TomWij@gentoo.org> vlc-9999.ebuild:
+  Temporarly block non-live FFMPEG versions in live VLC with USE flag vdpau;
+  fixes bug #503168, reported by jospezial.
+
+  19 Mar 2014; Tom Wijsman <TomWij@gentoo.org> vlc-2.0.9.ebuild:
+  Adjust upper bound of dvbpsi dependency on vlc 2.0.9; fixes bug #504738,
+  reported by Maciej Piechotka. Users that need a higher version of libdvbpsi
+  are suggested to use a different vlc version.
+
+  12 Mar 2014; Tom Wijsman <TomWij@gentoo.org> vlc-2.0.5.ebuild,
+  vlc-2.0.7.ebuild, vlc-2.0.8.ebuild, vlc-2.0.8a.ebuild, vlc-2.0.9.ebuild,
+  vlc-2.0.9999.ebuild, vlc-2.1.0.ebuild, vlc-2.1.1.ebuild, vlc-2.1.2.ebuild,
+  vlc-2.1.4.ebuild, vlc-2.1.9999.ebuild, vlc-9999.ebuild:
+  Removed newer rdp patch from 9999 as it has been patched upstream. Fixes bug
+  #503464, reported by David Heidelberger (okias). Updated SLOT dependencies per
+  consensus with ssuominen.
+
+  10 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> vlc-2.0.5.ebuild,
+  vlc-2.0.7.ebuild, vlc-2.0.8.ebuild, vlc-2.0.8a.ebuild, vlc-2.0.9.ebuild,
+  vlc-2.0.9999.ebuild, vlc-2.1.0.ebuild, vlc-2.1.1.ebuild, vlc-2.1.2.ebuild,
+  vlc-2.1.4.ebuild, vlc-2.1.9999.ebuild, vlc-9999.ebuild:
+  Remove bogus SLOT dependencies from gettext, pkg-config and yasm.
 
   01 Mar 2014; Michał Górny <mgorny@gentoo.org> vlc-2.0.5.ebuild,
   vlc-2.0.7.ebuild:

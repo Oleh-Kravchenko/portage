@@ -1,11 +1,11 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/GeoRuby/GeoRuby-2.2.1-r1.ebuild,v 1.1 2014/03/02 23:17:42 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/GeoRuby/GeoRuby-2.2.1-r1.ebuild,v 1.4 2014/03/10 19:58:10 johu Exp $
 
 EAPI=5
 
 # uses ruby19 hash syntax
-USE_RUBY="ruby19 ruby20"
+USE_RUBY="ruby19"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
@@ -22,7 +22,7 @@ HOMEPAGE="http://github.com/nofxx/georuby"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 ruby_add_rdepend "dev-ruby/dbf

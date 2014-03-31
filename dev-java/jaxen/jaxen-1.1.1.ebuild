@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/jaxen/jaxen-1.1.1.ebuild,v 1.11 2013/02/05 07:29:09 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-java/jaxen/jaxen-1.1.1.ebuild,v 1.13 2014/03/09 01:33:38 tomwij Exp $
 
 JAVA_PKG_IUSE="doc examples source test"
 

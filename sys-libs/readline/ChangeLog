@@ -1,6 +1,34 @@
 # ChangeLog for sys-libs/readline
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-libs/readline/ChangeLog,v 1.194 2014/02/28 22:29:45 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-libs/readline/ChangeLog,v 1.198 2014/03/28 19:04:47 vapier Exp $
+
+*readline-6.3-r4 (28 Mar 2014)
+
+  28 Mar 2014; Mike Frysinger <vapier@gentoo.org> +readline-6.3-r4.ebuild,
+  -readline-6.3-r3.ebuild, files/readline-6.3-dispatch-multikey.patch:
+  Update multikey patch from upstream #504440#8 by Martin von Gagern.
+
+*readline-6.3-r3 (28 Mar 2014)
+
+  28 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/readline-6.3-readline-sigint-cleanup.patch, +readline-6.3-r3.ebuild,
+  -readline-6.3-r2.ebuild:
+  Add fix from upstream for CTRL+C display.
+
+*readline-6.3-r2 (13 Mar 2014)
+
+  13 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/readline-6.3-dispatch-multikey.patch, +readline-6.3-r2.ebuild,
+  -readline-6.3-r1.ebuild:
+  Add fix from upstream for some crashes #504440 by Seemant Kulleen.
+
+*readline-6.3-r1 (10 Mar 2014)
+
+  10 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/readline-6.3-vi-last.patch, +readline-6.3-r1.ebuild,
+  -readline-6.3.ebuild:
+  Force some cross-compile tests to the right answer #503312 by Hristo Venev.
+  Add fix from upstream for vi mode.
 
   28 Feb 2014; Mike Frysinger <vapier@gentoo.org> readline-6.3.ebuild:
   Unmask for all.

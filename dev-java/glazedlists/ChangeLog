@@ -1,6 +1,18 @@
 # ChangeLog for dev-java/glazedlists
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/glazedlists/ChangeLog,v 1.21 2010/05/22 12:46:59 caster Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-java/glazedlists/ChangeLog,v 1.24 2014/03/21 14:21:25 nicolasbock Exp $
+
+  21 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> glazedlists-1.8.0.ebuild:
+  dev-java/glazedlists-1.8.0: Adding ~x86 keyword.
+
+  20 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> glazedlists-1.8.0.ebuild:
+  dev-java/glazedlists-1.8.0: Updated home page.
+
+*glazedlists-1.8.0 (18 Mar 2014)
+
+  18 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org>
+  +files/glazedlists-1.8.0-build.xml.patch, +glazedlists-1.8.0.ebuild:
+  dev-java/glazedlists-1.8.0: Version bump.
 
   22 May 2010; Vlastimil Babka <caster@gentoo.org>
   -glazedlists-1.5.0.ebuild, -files/glazedlists-1.5.0-build.xml.patch,
@@ -90,4 +102,3 @@
   20 Apr 2005; Chris Aniszczyk <zx@gentoo.org> +glazedlists-0.9.6.ebuild:
   Initial Import. Closes #70136
   Thanks to Eddy Mulyono <eddymulyono@mail.com> for initial ebuild.
-

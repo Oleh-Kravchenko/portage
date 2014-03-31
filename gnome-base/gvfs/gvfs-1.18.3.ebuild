@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-base/gvfs/gvfs-1.18.3.ebuild,v 1.3 2014/03/01 22:33:49 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-base/gvfs/gvfs-1.18.3.ebuild,v 1.6 2014/03/29 22:32:41 tetromino Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
@@ -20,7 +20,7 @@ REQUIRED_USE="
 	udisks? ( udev )
 	systemd? ( udisks )
 "
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~sparc-solaris ~x86-solaris"
+KEYWORDS="~alpha amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sh ~sparc x86 ~amd64-fbsd ~x86-fbsd ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~sparc-solaris ~x86-solaris"
 
 # Can use libgphoto-2.5.0 as well. Automagic detection.
 RDEPEND="
@@ -52,7 +52,7 @@ RDEPEND="
 	libsecret? ( app-crypt/libsecret )
 	mtp? ( >=media-libs/libmtp-1.1.6 )
 	samba? ( || ( >=net-fs/samba-3.4.6[smbclient] >=net-fs/samba-4[client] ) )
-	systemd? ( sys-apps/systemd )
+	systemd? ( sys-apps/systemd:0= )
 	udev? (
 		cdda? ( || ( dev-libs/libcdio-paranoia <dev-libs/libcdio-0.90[-minimal] ) )
 		virtual/udev[gudev] )

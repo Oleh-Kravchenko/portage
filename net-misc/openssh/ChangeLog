@@ -1,6 +1,88 @@
 # ChangeLog for net-misc/openssh
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/openssh/ChangeLog,v 1.500 2014/02/14 15:49:29 hattya Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/openssh/ChangeLog,v 1.519 2014/03/23 09:55:55 ago Exp $
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> -openssh-5.9_p1-r4.ebuild,
+  -openssh-6.0_p1-r1.ebuild, -openssh-6.1_p1-r1.ebuild,
+  -openssh-6.2_p2-r5.ebuild, -openssh-6.3_p1-r1.ebuild,
+  -openssh-6.4_p1-r1.ebuild:
+  Remove old
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> openssh-6.6_p1-r1.ebuild:
+  Stable for alpha, wrt bug #505066
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> openssh-6.6_p1-r1.ebuild:
+  Stable for sparc, wrt bug #505066
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> openssh-6.6_p1-r1.ebuild:
+  Stable for ppc64, wrt bug #505066
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> openssh-6.6_p1-r1.ebuild:
+  Stable for ppc, wrt bug #505066
+
+  22 Mar 2014; Markus Meier <maekke@gentoo.org> openssh-6.6_p1-r1.ebuild:
+  arm stable, bug #505066
+
+  22 Mar 2014; Jeroen Roovers <jer@gentoo.org> openssh-6.6_p1-r1.ebuild:
+  Stable for HPPA (bug #505066).
+
+  21 Mar 2014; Mike Frysinger <vapier@gentoo.org> openssh-6.6_p1-r1.ebuild:
+  Also disable -ftrapv flag in configure.ac #505182 by Jeroen Roovers.
+
+  21 Mar 2014; Mike Frysinger <vapier@gentoo.org> openssh-6.6_p1-r1.ebuild:
+  Disable -ftrapv flag on hppa until gcc ICEs get sorted out #505182 by Jeroen
+  Roovers.
+
+  20 Mar 2014; Mike Frysinger <vapier@gentoo.org> openssh-6.6_p1-r1.ebuild:
+  Mark arm64/ia64/m68k/s390/sh stable #505066.
+
+*openssh-6.6_p1-r1 (20 Mar 2014)
+
+  20 Mar 2014; Lars Wendler <polynomial-c@gentoo.org> -openssh-6.6_p1.ebuild,
+  +openssh-6.6_p1-r1.ebuild:
+  Fixed hpn patch to not add a false patch level to ssh's version string
+  (6.6p2). Committed straight to stable where -r0 was stable.
+
+  20 Mar 2014; Agostino Sarubbo <ago@gentoo.org> openssh-6.6_p1.ebuild:
+  Stable for x86, wrt bug #505066
+
+  20 Mar 2014; Agostino Sarubbo <ago@gentoo.org> openssh-6.6_p1.ebuild:
+  Stable for amd64, wrt bug #505066
+
+  20 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  files/openssh-6.6_p1-openssl-ignore-status.patch:
+  link in upstream bug url
+
+  20 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/openssh-6.6_p1-openssl-ignore-status.patch, openssh-6.6_p1.ebuild:
+  Fix openssl version check to accept dev/beta/release versions.
+
+*openssh-6.6_p1 (19 Mar 2014)
+
+  19 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/openssh-6.6_p1-x509-glue.patch,
+  +files/openssh-6.6_p1-x509-hpn14v4-glue-p2.patch, +openssh-6.6_p1.ebuild,
+  -files/openssh-6.5_p1-x509-glue.patch,
+  -files/openssh-6.5_p1-x509-hpn14v4-glue-p2.patch, -openssh-6.5_p1-r1.ebuild:
+  Version bump.
+
+  14 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  files/openssh-6.5_p1-hpn-cipher-align.patch:
+  Fix build on 32bit systems #504616 by Toralf Förster.
+
+*openssh-6.5_p1-r1 (14 Mar 2014)
+
+  14 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/openssh-6.5_p1-hpn-cipher-align.patch, +openssh-6.5_p1-r1.ebuild,
+  -openssh-6.5_p1.ebuild:
+  Avoid unaligned loads/stores in USE=hpn cipher code #498632 by Bruno.
+
+*openssh-6.5_p1 (14 Mar 2014)
+
+  14 Mar 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/openssh-6.5_p1-x509-glue.patch,
+  +files/openssh-6.5_p1-x509-hpn14v4-glue-p2.patch, +openssh-6.5_p1.ebuild:
+  Version bump #499962 by Lars Wendler.
 
   14 Feb 2014; Akinori Hattori <hattya@gentoo.org> openssh-6.4_p1-r1.ebuild:
   ia64 stable wrt bug #477894

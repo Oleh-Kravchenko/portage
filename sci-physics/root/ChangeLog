@@ -1,6 +1,27 @@
 # ChangeLog for sci-physics/root
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sci-physics/root/ChangeLog,v 1.127 2014/02/24 00:06:23 bicatali Exp $
+# $Header: /var/cvsroot/gentoo-x86/sci-physics/root/ChangeLog,v 1.131 2014/03/27 18:51:54 bicatali Exp $
+
+  27 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org> root-5.34.18-r1.ebuild:
+  Uncomment inadvertently commented out user and group creation
+
+  27 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org> root-5.34.18-r1.ebuild:
+  Finer sub-slotting necessary, bug #505358
+
+*root-5.34.18-r1 (26 Mar 2014)
+
+  26 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org> +root-5.34.18-r1.ebuild,
+  -root-5.32.04.ebuild, -root-5.34.09.ebuild, -root-5.34.10-r2.ebuild,
+  -root-5.34.13-r1.ebuild, -root-5.34.13.ebuild, -root-5.34.15.ebuild,
+  metadata.xml:
+  Sub-slotting (bug #505358), and fixed genreflex path (bug #497280). Split all
+  docs into app-doc/root-docs. Cleaning up ebuild for readibility and easier
+  maintainship.
+
+*root-5.34.18 (18 Mar 2014)
+
+  18 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org> +root-5.34.18.ebuild:
+  Version bump
 
 *root-5.34.15 (24 Feb 2014)
 

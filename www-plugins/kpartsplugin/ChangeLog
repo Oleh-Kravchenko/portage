@@ -1,6 +1,15 @@
 # ChangeLog for www-plugins/kpartsplugin
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-plugins/kpartsplugin/ChangeLog,v 1.16 2012/11/14 20:42:28 johu Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/www-plugins/kpartsplugin/ChangeLog,v 1.18 2014/03/22 10:57:09 johu Exp $
+
+  22 Mar 2014; Johannes Huber <johu@gentoo.org> kpartsplugin-20120723-r1.ebuild:
+  Bump to EAPI 5, realy.
+
+*kpartsplugin-20120723-r1 (21 Mar 2014)
+
+  21 Mar 2014; Johannes Huber <johu@gentoo.org>
+  +kpartsplugin-20120723-r1.ebuild:
+  Revision bump to EAPI 5.
 
   14 Nov 2012; Johannes Huber <johu@gentoo.org>
   -files/kpartsplugin-20110823-xpi.patch, -kpartsplugin-20110823.ebuild:

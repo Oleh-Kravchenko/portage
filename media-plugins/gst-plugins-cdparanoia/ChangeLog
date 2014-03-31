@@ -1,6 +1,18 @@
 # ChangeLog for media-plugins/gst-plugins-cdparanoia
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-plugins/gst-plugins-cdparanoia/ChangeLog,v 1.223 2014/02/16 04:31:59 leio Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-plugins/gst-plugins-cdparanoia/ChangeLog,v 1.226 2014/03/28 02:44:41 jer Exp $
+
+  28 Mar 2014; Jeroen Roovers <jer@gentoo.org>
+  gst-plugins-cdparanoia-1.2.3.ebuild:
+  Stable for HPPA (bug #499954).
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org>
+  gst-plugins-cdparanoia-1.2.3.ebuild:
+  x86 stable, bug 499954
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org>
+  gst-plugins-cdparanoia-1.2.3.ebuild:
+  amd64 stable, bug 499954
 
 *gst-plugins-cdparanoia-1.2.3 (16 Feb 2014)
 

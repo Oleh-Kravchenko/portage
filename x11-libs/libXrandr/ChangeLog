@@ -1,6 +1,13 @@
 # ChangeLog for x11-libs/libXrandr
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/libXrandr/ChangeLog,v 1.112 2013/10/08 05:08:20 ago Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/libXrandr/ChangeLog,v 1.114 2014/03/26 12:56:47 chithanh Exp $
+
+  26 Mar 2014; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  -libXrandr-1.4.0-r1.ebuild, -libXrandr-1.4.0.ebuild, -libXrandr-1.4.1.ebuild:
+  Remove old/vulnerable versions, bug #471098.
+
+  13 Mar 2014; Christoph Junghans <ottxor@gentoo.org> libXrandr-1.4.2.ebuild:
+  added ~x64-macos (tested by me)
 
   08 Oct 2013; Agostino Sarubbo <ago@gentoo.org> libXrandr-1.4.2.ebuild:
   Stable for x86, wrt bug #475480

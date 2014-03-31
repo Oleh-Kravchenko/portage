@@ -1,6 +1,33 @@
 # ChangeLog for app-emacs/ebuild-mode
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emacs/ebuild-mode/ChangeLog,v 1.43 2014/02/02 11:57:49 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emacs/ebuild-mode/ChangeLog,v 1.52 2014/03/23 17:53:35 ago Exp $
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> ebuild-mode-1.26.ebuild:
+  Stable for ppc, wrt bug #503386
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> ebuild-mode-1.26.ebuild:
+  Stable for sparc, wrt bug #503386
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> ebuild-mode-1.26.ebuild:
+  Stable for alpha, wrt bug #503386
+
+  18 Mar 2014; Agostino Sarubbo <ago@gentoo.org> ebuild-mode-1.26.ebuild:
+  Stable for ia64, wrt bug #503386
+
+  14 Mar 2014; Agostino Sarubbo <ago@gentoo.org> ebuild-mode-1.26.ebuild:
+  Stable for ppc64, wrt bug #503386
+
+  13 Mar 2014; Chema Alonso <nimiux@gentoo.org> ebuild-mode-1.26.ebuild:
+  Stable for amd64 wrt bug #503386
+
+  09 Mar 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> ebuild-mode-1.26.ebuild:
+  x86 stable wrt bug #503386
+
+  09 Mar 2014; Markus Meier <maekke@gentoo.org> ebuild-mode-1.26.ebuild:
+  arm stable, bug #503386
+
+  07 Mar 2014; Jeroen Roovers <jer@gentoo.org> ebuild-mode-1.26.ebuild:
+  Stable for HPPA (bug #503386).
 
 *ebuild-mode-1.26 (02 Feb 2014)
 

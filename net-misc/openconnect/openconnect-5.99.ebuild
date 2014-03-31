@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/openconnect/openconnect-5.99.ebuild,v 1.2 2014/03/06 00:23:40 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/openconnect/openconnect-5.99.ebuild,v 1.3 2014/03/17 17:05:14 hasufell Exp $
 
 EAPI="5"
 
@@ -38,11 +38,7 @@ DEPEND="dev-libs/libxml2
 		)
 	)
 	gnutls? (
-		|| (
-			( >=net-libs/gnutls-3[static-libs?] dev-libs/nettle )
-			( =net-libs/gnutls-2.12*[nettle,static-libs?] dev-libs/nettle )
-			( =net-libs/gnutls-2.12*[-nettle,static-libs?] dev-libs/libgcrypt:0[static-libs?] )
-		)
+		>=net-libs/gnutls-3[static-libs?] dev-libs/nettle
 		app-misc/ca-certificates
 	)
 	libproxy? ( net-libs/libproxy )

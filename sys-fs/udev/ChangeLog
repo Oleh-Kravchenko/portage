@@ -1,6 +1,79 @@
 # ChangeLog for sys-fs/udev
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/ChangeLog,v 1.1006 2014/03/05 17:44:35 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/ChangeLog,v 1.1021 2014/03/29 06:22:00 ssuominen Exp $
+
+  29 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> -udev-212.ebuild:
+  old
+
+  29 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> udev-212-r1.ebuild:
+  Pull in more recent linux-headers wrt #506110 by Piotr Szymaniak.
+  Do this only for 212 purposely, because git has been reworked.
+
+  28 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> udev-212-r1.ebuild:
+  Fix building with uClibc and missing (or incompatible) locale_t, thanks to
+  Mike Frysinger for helping with the patch.
+
+  28 Mar 2014; Michał Górny <mgorny@gentoo.org> udev-208.ebuild,
+  udev-212-r1.ebuild, udev-212.ebuild, udev-9999.ebuild:
+  Remove needless PDEPEND on virtual/udev and friends, and therefore the
+  resulting dependency cycle.
+
+  28 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> udev-212-r1.ebuild,
+  udev-9999.ebuild:
+  Pull in virtual/libudev and virtual/libgudev like we do for virtual/udev in
+  PDEPEND.
+
+*udev-212-r1 (28 Mar 2014)
+
+  28 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> +udev-212-r1.ebuild,
+  udev-9999.ebuild:
+  Support building libgudev-1.0.so with ABI_X86 for the new virtual/libgudev.
+
+  26 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> -udev-211.ebuild:
+  old
+
+*udev-212 (26 Mar 2014)
+
+  26 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> +udev-212.ebuild,
+  udev-9999.ebuild:
+  Version bump. Don't force -Wl,-fuse-ld=bfd for ia64 anymore as upstream split
+  the -lresolv requiring library to it's own wrt #504700. Start passing systemd
+  specific --disable-gnutls to avoid libgnutls dependency for minimal build and
+  stop passing removed --disable-tcpwrap.
+
+  19 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> udev-211.ebuild,
+  udev-9999.ebuild:
+  Temporarily use ld.bfd for ia64 wrt #504700; note: waiting for upstream to
+  merge a patch.
+
+  12 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> -udev-210.ebuild:
+  old
+
+*udev-211 (12 Mar 2014)
+
+  12 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> +udev-211.ebuild,
+  udev-9999.ebuild:
+  Version bump.
+
+  12 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> udev-9999.ebuild:
+  Stop overwriting libudev.so, since git is working again after http://cgit.free
+  desktop.org/systemd/systemd/commit/?id=0ce91e4e3ba60d5c87307c1be4a3f6095790c4c
+  2
+
+  07 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> udev-210.ebuild,
+  udev-9999.ebuild:
+  Update sys-apps/hwids dependency to 20140304 for 20-net-ifname.hwdb
+
+  07 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> udev-9999.ebuild:
+  Overwrite libudev.so symlink (for now) because upstream commit http://cgit.fre
+  edesktop.org/systemd/systemd/commit/Makefile.am?id=e2438b7a321de8050f5db679359
+  9a1668c91ccf5 broke it by introducing use of --relative for ln. The bug is
+  only visible when setting eg. --with-rootlibdir=/lib away from /usr to
+  alternative location together with the use of $(DESTDIR) with multiple
+  directory levels.
+
+  07 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> udev-9999.ebuild:
+  Punt kdbus documentation which are irrelevant to sys-fs/udev.
 
   05 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> udev-208.ebuild,
   udev-210.ebuild, udev-9999.ebuild:

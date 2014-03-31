@@ -1,6 +1,15 @@
 # ChangeLog for media-sound/gnome-music
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/gnome-music/ChangeLog,v 1.6 2014/03/04 22:37:06 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/gnome-music/ChangeLog,v 1.9 2014/03/09 12:06:10 pacho Exp $
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> gnome-music-3.10.3.ebuild:
+  x86 stable, bug 499954
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> gnome-music-3.10.3.ebuild:
+  amd64 stable, bug 499954
+
+  08 Mar 2014; Pacho Ramos <pacho@gentoo.org> gnome-music-3.10.3.ebuild:
+  Keyword on x86
 
   04 Mar 2014; Pacho Ramos <pacho@gentoo.org> -gnome-music-3.10.1.ebuild,
   gnome-music-3.10.3.ebuild:

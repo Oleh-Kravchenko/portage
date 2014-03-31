@@ -1,6 +1,20 @@
 # ChangeLog for sys-devel/flex
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-devel/flex/ChangeLog,v 1.113 2014/02/13 08:19:23 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/flex/ChangeLog,v 1.116 2014/03/29 02:44:21 radhermit Exp $
+
+*flex-2.5.39 (29 Mar 2014)
+
+  29 Mar 2014; Tim Harder <radhermit@gentoo.org> +flex-2.5.39.ebuild:
+  Version bump.
+
+  28 Mar 2014; Christoph Junghans <ottxor@gentoo.org> flex-2.5.38-r1.ebuild:
+  added prefix keywords
+
+*flex-2.5.38-r1 (16 Mar 2014)
+
+  16 Mar 2014; Mike Frysinger <vapier@gentoo.org> +flex-2.5.38-r1.ebuild,
+  -flex-2.5.38.ebuild:
+  Drop shared lib since it makes no sense #503522 by Andrés Becerra Sandoval.
 
 *flex-2.5.38 (13 Feb 2014)
 

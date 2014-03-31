@@ -1,6 +1,22 @@
 # ChangeLog for dev-python/python-keystoneclient
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/python-keystoneclient/ChangeLog,v 1.26 2014/02/17 17:44:54 prometheanfire Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/python-keystoneclient/ChangeLog,v 1.29 2014/03/27 22:03:22 prometheanfire Exp $
+
+  27 Mar 2014; Matthew Thode <prometheanfire@gentoo.org>
+  -python-keystoneclient-0.3.1.ebuild, -python-keystoneclient-0.3.2.ebuild,
+  -python-keystoneclient-0.4.1.ebuild, -python-keystoneclient-0.6.0.ebuild,
+  python-keystoneclient-0.2.5.ebuild:
+  partial fix for bug 505976
+
+*python-keystoneclient-0.7.1 (27 Mar 2014)
+
+  27 Mar 2014; Matthew Thode <prometheanfire@gentoo.org>
+  +python-keystoneclient-0.7.1.ebuild:
+  initial fix for CVE-2014-0105 bug 505976 (still need to remove old versions)
+
+  19 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org>
+  python-keystoneclient-0.6.0.ebuild:
+  Keyword ~amd64-linux ~x86-linux
 
 *python-keystoneclient-0.6.0 (17 Feb 2014)
 

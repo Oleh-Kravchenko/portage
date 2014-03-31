@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-editors/vim-core/vim-core-9999.ebuild,v 1.7 2014/02/06 07:00:46 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-editors/vim-core/vim-core-9999.ebuild,v 1.8 2014/03/10 19:08:30 radhermit Exp $
 
 EAPI=5
 VIM_VERSION="7.4"
@@ -100,6 +100,8 @@ src_prepare() {
 		sed -i "s:\\\$(PERLLIB)/ExtUtils/xsubpp:${EPREFIX}/usr/bin/xsubpp:"	\
 			"${S}"/src/Makefile || die 'sed for ExtUtils-ParseXS failed'
 	fi
+
+	epatch_user
 }
 
 src_configure() {

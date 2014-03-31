@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pygobject/pygobject-3.10.2.ebuild,v 1.2 2014/02/22 21:22:15 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pygobject/pygobject-3.10.2.ebuild,v 1.7 2014/03/28 21:01:31 jer Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
@@ -14,7 +14,7 @@ HOMEPAGE="http://www.pygtk.org/"
 
 LICENSE="LGPL-2.1+"
 SLOT="3"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86 ~amd64-fbsd ~x86-fbsd ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris"
 IUSE="+cairo examples test +threads"
 
 REQUIRED_USE="
@@ -26,17 +26,20 @@ COMMON_DEPEND="
 	>=dev-libs/glib-2.35.9:2
 	>=dev-libs/gobject-introspection-1.35.9
 	virtual/libffi:=
-	cairo? ( >=dev-python/pycairo-1.10.0[${PYTHON_USEDEP}] )
+	cairo? (
+		>=dev-python/pycairo-1.10.0[${PYTHON_USEDEP}]
+		x11-libs/cairo )
 	${PYTHON_DEPS}
 "
 DEPEND="${COMMON_DEPEND}
-	x11-libs/cairo[glib]
 	virtual/pkgconfig
+	cairo? ( x11-libs/cairo[glib] )
 	test? (
 		dev-libs/atk[introspection]
 		media-fonts/font-cursor-misc
 		media-fonts/font-misc-misc
 		virtual/python-unittest2[${PYTHON_USEDEP}]
+		x11-libs/cairo[glib]
 		x11-libs/gdk-pixbuf:2[introspection]
 		x11-libs/gtk+:3[introspection]
 		x11-libs/pango[introspection] )

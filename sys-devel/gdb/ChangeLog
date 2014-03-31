@@ -1,6 +1,38 @@
 # ChangeLog for sys-devel/gdb
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-devel/gdb/ChangeLog,v 1.259 2014/03/05 15:53:52 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/gdb/ChangeLog,v 1.266 2014/03/18 01:04:59 vapier Exp $
+
+  18 Mar 2014; Mike Frysinger <vapier@gentoo.org> gdb-7.7-r1.ebuild,
+  gdb-9999.ebuild:
+  Fix by Jonathan Callen for USE=-python handling #504830.
+
+*gdb-7.7-r1 (14 Mar 2014)
+
+  14 Mar 2014; Mike Frysinger <vapier@gentoo.org> +gdb-7.7-r1.ebuild,
+  -gdb-7.7.ebuild:
+  Add fix from upstream for handling of autoloading python printers #502108 by
+  Dennis Schridde.
+
+  14 Mar 2014; Mike Frysinger <vapier@gentoo.org> gdb-7.7.ebuild,
+  gdb-9999.ebuild:
+  Add epatch_user support.
+
+  14 Mar 2014; Mike Frysinger <vapier@gentoo.org> gdb-7.6.2.ebuild:
+  Mark alpha/ia64/m68k/ppc64/s390 stable #501528.
+
+  09 Mar 2014; Mike Frysinger <vapier@gentoo.org> gdb-7.7.ebuild,
+  gdb-9999.ebuild:
+  Convert python support to use python-single-r1 and allow python 2.7 and 3.3
+  versions #503852 by Nikoli.
+
+  08 Mar 2014; Mike Frysinger <vapier@gentoo.org> gdb-7.6.1.ebuild,
+  gdb-7.6.2.ebuild, gdb-7.6.ebuild, gdb-7.7.ebuild, gdb-9999.ebuild:
+  Clean up sysroot handling a bit -- no real functional changes.
+
+  08 Mar 2014; Mike Frysinger <vapier@gentoo.org> gdb-7.6.1.ebuild,
+  gdb-7.6.2.ebuild, gdb-7.6.ebuild, gdb-7.7.ebuild, gdb-9999.ebuild,
+  metadata.xml:
+  Add USE=lzma to control lzma linkage support #503850 by Nikoli.
 
   05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> gdb-7.6.2.ebuild:
   Stable for ppc, wrt bug #501528

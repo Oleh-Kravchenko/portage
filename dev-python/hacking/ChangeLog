@@ -1,6 +1,21 @@
 # ChangeLog for dev-python/hacking
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/hacking/ChangeLog,v 1.5 2014/01/02 15:06:38 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/hacking/ChangeLog,v 1.9 2014/03/30 12:45:45 mgorny Exp $
+
+*hacking-0.5.6 (30 Mar 2014)
+
+  30 Mar 2014; Michał Górny <mgorny@gentoo.org> +hacking-0.5.6.ebuild:
+  Restore old (without py2.6 though) since it is required by OpenStack packages.
+
+  30 Mar 2014; Michał Górny <mgorny@gentoo.org> -hacking-0.5.6.ebuild:
+  Drop old since it requires dev-python/pbr w/ py2.6 support that was removed.
+
+  19 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org> hacking-0.7.2-r1.ebuild,
+  hacking-0.8.0-r1.ebuild:
+  Keyword ~amd64-linux ~x86-linux
+
+  19 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org> hacking-0.8.0-r1.ebuild:
+  Keyword amd64-linux and x86-linux
 
 *hacking-0.7.2-r1 (02 Jan 2014)
 *hacking-0.8.0-r1 (02 Jan 2014)

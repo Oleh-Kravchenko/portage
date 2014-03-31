@@ -1,6 +1,68 @@
 # ChangeLog for net-misc/youtube-dl
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/youtube-dl/ChangeLog,v 1.312 2014/03/05 16:11:35 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/youtube-dl/ChangeLog,v 1.324 2014/03/29 15:57:51 jer Exp $
+
+*youtube-dl-2014.03.29 (29 Mar 2014)
+
+  29 Mar 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.03.29.ebuild:
+  Version bump.
+
+*youtube-dl-2014.03.27.1 (28 Mar 2014)
+
+  28 Mar 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.03.27.1.ebuild:
+  Version bump.
+
+*youtube-dl-2014.03.25.1 (25 Mar 2014)
+
+  25 Mar 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.03.25.1.ebuild:
+  Version bump.
+
+*youtube-dl-2014.03.24.1 (24 Mar 2014)
+
+  24 Mar 2014; Jeroen Roovers <jer@gentoo.org> -youtube-dl-2014.03.10.ebuild,
+  -youtube-dl-2014.03.12.ebuild, -youtube-dl-2014.03.17.ebuild,
+  +youtube-dl-2014.03.24.1.ebuild:
+  Version bump.
+
+*youtube-dl-2014.03.21.5 (21 Mar 2014)
+
+  21 Mar 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.03.21.5.ebuild:
+  Version bump.
+
+*youtube-dl-2014.03.17 (17 Mar 2014)
+
+  17 Mar 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.03.17.ebuild:
+  Version bump.
+
+  15 Mar 2014; Jeroen Roovers <jer@gentoo.org> -youtube-dl-2013.12.20.ebuild:
+  Old.
+
+  14 Mar 2014; Agostino Sarubbo <ago@gentoo.org> youtube-dl-2014.02.10.ebuild:
+  Stable for ppc64, wrt bug #501090
+
+  13 Mar 2014; Jeroen Roovers <jer@gentoo.org> youtube-dl-2013.12.20.ebuild,
+  youtube-dl-2014.02.10.ebuild, -youtube-dl-2014.02.13.ebuild,
+  -youtube-dl-2014.02.17.ebuild, -youtube-dl-2014.02.21.ebuild,
+  -youtube-dl-2014.02.22.ebuild, -youtube-dl-2014.02.24.ebuild,
+  -youtube-dl-2014.02.26.ebuild, -youtube-dl-2014.02.28.ebuild,
+  -youtube-dl-2014.03.03.ebuild, -youtube-dl-2014.03.07.1.ebuild,
+  youtube-dl-2014.03.10.ebuild, youtube-dl-2014.03.12.ebuild:
+  Add a suffix to the internal package version when USE=-offensive.
+
+*youtube-dl-2014.03.12 (13 Mar 2014)
+
+  13 Mar 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.03.12.ebuild:
+  Version bump.
+
+*youtube-dl-2014.03.10 (10 Mar 2014)
+
+  10 Mar 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.03.10.ebuild:
+  Version bump.
+
+*youtube-dl-2014.03.07.1 (07 Mar 2014)
+
+  07 Mar 2014; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2014.03.07.1.ebuild:
+  Version bump.
 
   05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> youtube-dl-2014.02.10.ebuild:
   Stable for ppc, wrt bug #501090

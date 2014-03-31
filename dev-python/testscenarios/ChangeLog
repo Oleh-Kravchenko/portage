@@ -1,6 +1,26 @@
 # ChangeLog for dev-python/testscenarios
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/testscenarios/ChangeLog,v 1.4 2014/02/18 02:56:44 prometheanfire Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/testscenarios/ChangeLog,v 1.8 2014/03/19 23:14:23 bicatali Exp $
+
+  19 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org>
+  testscenarios-0.4-r4.ebuild:
+  Keyword ~amd64-linux ~x86-linux
+
+  17 Mar 2014; Matthew Thode <prometheanfire@gentoo.org>
+  testscenarios-0.4-r4.ebuild:
+  removing unused iuse
+
+*testscenarios-0.4-r4 (17 Mar 2014)
+
+  17 Mar 2014; Matthew Thode <prometheanfire@gentoo.org>
+  +testscenarios-0.4-r4.ebuild, -testscenarios-0.4-r3.ebuild:
+  fixing deps again
+
+*testscenarios-0.4-r3 (16 Mar 2014)
+
+  16 Mar 2014; Matthew Thode <prometheanfire@gentoo.org>
+  +testscenarios-0.4-r3.ebuild:
+  removing unneeded deps
 
 *testscenarios-0.4-r2 (18 Feb 2014)
 

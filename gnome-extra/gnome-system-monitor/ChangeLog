@@ -1,6 +1,18 @@
 # ChangeLog for gnome-extra/gnome-system-monitor
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-extra/gnome-system-monitor/ChangeLog,v 1.242 2014/02/22 21:58:15 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-extra/gnome-system-monitor/ChangeLog,v 1.245 2014/03/29 22:05:41 tetromino Exp $
+
+  29 Mar 2014; Alexandre Rostovtsev <tetromino@gentoo.org>
+  gnome-system-monitor-3.8.2.1-r1.ebuild, gnome-system-monitor-3.10.2.ebuild:
+  systemd now has subslots
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org>
+  gnome-system-monitor-3.10.2.ebuild:
+  x86 stable, bug 499954
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org>
+  gnome-system-monitor-3.10.2.ebuild:
+  amd64 stable, bug 499954
 
   22 Feb 2014; Pacho Ramos <pacho@gentoo.org>
   gnome-system-monitor-3.10.2.ebuild:

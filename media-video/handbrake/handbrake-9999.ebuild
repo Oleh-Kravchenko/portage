@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/handbrake/handbrake-9999.ebuild,v 1.15 2014/02/06 21:35:41 thev00d00 Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/handbrake/handbrake-9999.ebuild,v 1.17 2014/03/26 15:39:56 tomwij Exp $
 
 EAPI="5"
 
@@ -54,6 +54,12 @@ RDEPEND="
 	gstreamer? (
 		media-libs/gstreamer:1.0
 		media-libs/gst-plugins-base:1.0
+		media-libs/gst-plugins-good:1.0
+		media-libs/gst-plugins-bad:1.0
+		media-libs/gst-plugins-ugly:1.0
+		media-plugins/gst-plugins-a52dec:1.0
+		media-plugins/gst-plugins-libav:1.0
+		media-plugins/gst-plugins-x264:1.0
 		!ffmpeg? ( media-plugins/gst-plugins-mpeg2dec:1.0 )
 	)
 	gtk? (
@@ -98,16 +104,11 @@ src_prepare() {
 	# It may work this way; if not, we should try to mimic the duplication.
 	epatch "${FILESDIR}"/${PN}-9999-remove-dvdnav-dup.patch
 
-	# Remove faac dependency until its compilation errors can be resolved.
-	# TODO: If --disable-faac works then this patch can be removed;
-	#       we also need to figure out if this is still needed, maybe things are patched.
+	# Remove faac dependency; TODO: figure out if we need to do this at all.
 	epatch "${FILESDIR}"/${PN}-9999-remove-faac-dependency.patch
 
 	# Make use of an older version of libmkv.
 	epatch "${FILESDIR}"/${PN}-9999-use-older-libmkv.patch
-
-	# Make use of an unpatched version of a52 that does not make a private field public.
-	epatch "${FILESDIR}"/${PN}-9999-use-unpatched-a52.patch
 
 	# Fixup configure.ac with newer automake.
 	# TODO: Would like to see this shorten towards the future;
@@ -137,7 +138,6 @@ src_configure() {
 		--force \
 		--prefix="${EPREFIX}/usr" \
 		--disable-gtk-update-checks \
-		--disable-faac \
 		--enable-avformat \
 		--disable-libav-aac \
 		--enable-libmkv \

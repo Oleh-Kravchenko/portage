@@ -1,10 +1,10 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/dwb/dwb-9999.ebuild,v 1.8 2013/05/10 04:32:58 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/dwb/dwb-9999.ebuild,v 1.9 2014/03/17 03:44:45 radhermit Exp $
 
 EAPI=5
 
-inherit git-2 toolchain-funcs
+inherit git-r3 toolchain-funcs
 
 EGIT_REPO_URI="https://bitbucket.org/portix/dwb.git"
 

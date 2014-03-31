@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/bokeh/bokeh-0.4.1.ebuild,v 1.1 2014/02/22 23:50:45 bicatali Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/bokeh/bokeh-0.4.1.ebuild,v 1.2 2014/03/12 19:16:25 bicatali Exp $
 
 EAPI=5
 
@@ -10,7 +10,7 @@ inherit distutils-r1
 
 DESCRIPTION="Statistical and interactive HTML plots for Python"
 HOMEPAGE="http://bokeh.pydata.org/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://github.com/ContinuumIO/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 SLOT="0"
 LICENSE="BSD"

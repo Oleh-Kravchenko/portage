@@ -1,6 +1,82 @@
 # ChangeLog for Gentoo base-profile
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/base/ChangeLog,v 1.643 2014/02/28 05:50:07 phajdan.jr Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/base/ChangeLog,v 1.666 2014/03/30 14:22:46 floppym Exp $
+
+  30 Mar 2014; Mike Gilbert <floppym@gentoo.org> use.mask, use.stable.mask:
+  Convert python_targets_python3_4 into a stable mask.
+
+  29 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> package.use.mask:
+  Unmask USE="webkit2" for www-client/midori wrt #489936 by "A. Person"
+
+  29 Mar 2014; Mike Frysinger <vapier@gentoo.org> make.defaults, use.mask:
+  Add ABI_PPC defines.
+
+  27 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  package.use.stable.mask:
+  Migrate several entries from eapi-5-files after review
+
+  27 Mar 2014; Mike Gilbert <floppym@gentoo.org> package.use.mask:
+  Mask sys-apps/systemd[seccomp].
+
+  22 Mar 2014; Mike Gilbert <floppym@gentoo.org> package.use.stable.mask:
+  Move sys-boot/grub[libzfs] mask to arch/amd64.
+
+  22 Mar 2014; Mike Gilbert <floppym@gentoo.org> package.use.stable.mask:
+  Transfer sys-boot/grub[libzfs] stable mask.
+
+  22 Mar 2014; Mike Gilbert <floppym@gentoo.org> package.use.stable.mask:
+  Reorder the file correctly.
+
+  20 Mar 2014; Manuel Rüger <mrueg@gentoo.org> package.use.mask:
+  Mask server useflag for rubygems-1.8.x due to ruby1.8 deprecation
+
+  19 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> package.use.stable.mask:
+  Mask USE="opencl" for stable users of media-gfx/imagemagick wrt #472766
+
+  19 Mar 2014; Andrey Grozin <grozinge@gentoo.org>
+  use.stable.mask:
+  Mask gcl
+
+  18 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  package.use.stable.mask:
+  Migrate net-libs/libkolab entry from eapi-5-files
+
+  16 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  -package.use.mask.example:
+  We have enough examples in the real file now.
+
+  16 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  package.use.stable.mask:
+  Migrate kde-base/kalzium entry from eapi-5-files
+
+  16 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  +package.use.stable.mask:
+  Add empty file for migrating entries
+
+  16 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org> +eapi,
+  +package.use.stable.force, +use.stable.force, +use.stable.mask:
+  Increase EAPI to 5 and move empty stable mask/force files here
+
+  16 Mar 2014; Michał Górny <mgorny@gentoo.org> use.mask:
+  Mask new PyPy flags.
+
+  16 Mar 2014; Patrick Lauer <patrick@gentoo.org> use.mask:
+  Mask ruby_targets_ruby18 so that it's properly gone
+
+  16 Mar 2014; Manuel Rüger <mrueg@gentoo.org> make.defaults:
+  Remove ruby18, add ruby20 to default RUBY_TARGETS
+
+  14 Mar 2014; Manuel Rüger <mrueg@gentoo.org> package.use.mask:
+  Update ruby1.8-only mask.
+
+  13 Mar 2014; Mike Gilbert <floppym@gentoo.org> package.use.force:
+  Force python_targets_pypy rather than pypy on python-exec.
+
+  12 Mar 2014; Michał Górny <mgorny@gentoo.org> package.use.force:
+  Force pypy on python-exec.
+
+  07 Mar 2014; Manuel Rüger <mrueg@gentoo.org> package.use.mask:
+  Mask ruby18-only compatible flags
 
   27 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> package.use.mask:
   Unmask aura for chromium-34 (build works now).

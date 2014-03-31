@@ -1,6 +1,15 @@
 # ChangeLog for dev-util/gtk-doc-am
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/gtk-doc-am/ChangeLog,v 1.96 2014/02/22 21:29:39 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-util/gtk-doc-am/ChangeLog,v 1.99 2014/03/28 02:22:44 jer Exp $
+
+  28 Mar 2014; Jeroen Roovers <jer@gentoo.org> gtk-doc-am-1.20.ebuild:
+  Stable for HPPA (bug #499954).
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> gtk-doc-am-1.20.ebuild:
+  x86 stable, bug 499954
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> gtk-doc-am-1.20.ebuild:
+  amd64 stable, bug 499954
 
   22 Feb 2014; Pacho Ramos <pacho@gentoo.org> gtk-doc-am-1.20.ebuild:
   Fix wrong commit, bug 502160

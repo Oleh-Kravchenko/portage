@@ -1,10 +1,10 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/R/R-3.0.1-r1.ebuild,v 1.2 2013/11/03 20:38:33 mattst88 Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/R/R-3.0.1-r1.ebuild,v 1.3 2014/03/19 16:38:16 bicatali Exp $
 
 EAPI=5
 
-inherit bash-completion-r1 autotools eutils flag-o-matic fortran-2 multilib versionator toolchain-funcs
+inherit bash-completion-r1 autotools eutils flag-o-matic fortran-2 multilib versionator toolchain-funcs java-pkg-opt-2
 
 BCP=${PN}-20130129.bash_completion
 DESCRIPTION="Language and environment for statistical computing and graphics"
@@ -39,12 +39,13 @@ DEPEND="${CDEPEND}
 	doc? (
 			virtual/latex-base
 			dev-texlive/texlive-fontsrecommended
-		 )"
+		 )
+	java? ( >=virtual/jdk-1.5 )"
 
 RDEPEND="${CDEPEND}
 	( || ( <sys-libs/zlib-1.2.5.1-r1 >=sys-libs/zlib-1.2.5.1-r2[minizip] ) )
 	app-arch/xz-utils
-	java? ( >=virtual/jre-1.5 )"
+	java? ( >=virtual/jdk-1.5 )"
 
 RESTRICT="minimal? ( test )"
 
@@ -56,6 +57,12 @@ pkg_setup() {
 		tc-has-openmp || die "Please enable openmp support in your compiler"
 	fi
 	fortran-2_pkg_setup
+
+	# Selects the build VM according to DEPEND and user preferences.
+	# Also sets VM specific addpredict and environment variables.
+	# Does nothing if java is disabled.
+	java-pkg-opt-2_pkg_setup
+
 	filter-ldflags -Wl,-Bdirect -Bdirect
 	# avoid using existing R installation
 	unset R_HOME
@@ -106,6 +113,8 @@ src_prepare() {
 	use perl && \
 		export PERL5LIB="${S}/share/perl:${PERL5LIB:+:}${PERL5LIB}"
 
+	java-pkg-opt-2_src_prepare
+
 	# don't search /usr/local
 	sed -i -e '/FLAGS=.*\/local\//c\: # removed by ebuild' configure.ac || die
 	# Fix for Darwin (OS X)
@@ -130,6 +139,11 @@ src_prepare() {
 }
 
 src_configure() {
+	# configure shouldn't run checks for java if disabled.
+	# Requires properly setup JVM or a addpredict hack for
+	# /proc/self/coredump_filter and possibly others.
+	# $(use_enable java)
+
 	econf \
 		--enable-byte-compiled-packages \
 		--enable-R-shlib \

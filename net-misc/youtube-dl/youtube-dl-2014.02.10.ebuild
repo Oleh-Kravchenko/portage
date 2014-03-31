@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/youtube-dl/youtube-dl-2014.02.10.ebuild,v 1.5 2014/03/05 16:11:35 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/youtube-dl/youtube-dl-2014.02.10.ebuild,v 1.7 2014/03/14 10:05:45 ago Exp $
 
 EAPI=5
 
@@ -14,7 +14,7 @@ SRC_URI="http://youtube-dl.org/downloads/${PV}/${P}.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="amd64 ~arm hppa ppc ~ppc64 x86 ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x86-solaris"
+KEYWORDS="amd64 ~arm hppa ppc ppc64 x86 ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x86-solaris"
 IUSE="offensive test"
 
 DEPEND="
@@ -26,6 +26,8 @@ S="${WORKDIR}/${PN}"
 
 src_prepare() {
 	if ! use offensive; then
+		sed -i -e "/__version__/s|'$|-gentoo_no_offensive_sites'|g" \
+			youtube_dl/version.py || die
 		local xxx=(
 			extremetube mofosex pornhd pornhub pornotube redtube spankwire
 			thisav tube8 xhamster xnxx xtube xvideos youjizz youporn

@@ -1,6 +1,31 @@
 # ChangeLog for net-wireless/bluez
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-wireless/bluez/ChangeLog,v 1.190 2014/02/27 20:48:29 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-wireless/bluez/ChangeLog,v 1.196 2014/03/30 08:21:22 pacho Exp $
+
+  30 Mar 2014; Pacho Ramos <pacho@gentoo.org> +files/rfcomm-init.d-r1:
+  Fix rfcomm init.d script (#505786 by Christophe PEREZ and Bombino)
+
+*bluez-5.17 (30 Mar 2014)
+
+  30 Mar 2014; Pacho Ramos <pacho@gentoo.org> +bluez-5.17.ebuild:
+  Version bump
+
+  28 Mar 2014; Jeroen Roovers <jer@gentoo.org> bluez-5.15.ebuild:
+  Stable for HPPA (bug #499954).
+
+*bluez-5.16 (12 Mar 2014)
+
+  12 Mar 2014; Pacho Ramos <pacho@gentoo.org> +bluez-5.16.ebuild,
+  -bluez-5.14-r1.ebuild:
+  Version bump, readline is needed when client is built (#504038 by Richard Li),
+  make udev optional (#504324 by Alexandre Rostovtsev and Joshua Kinard), drop
+  old.
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> bluez-5.15.ebuild:
+  x86 stable, bug 499954
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> bluez-5.15.ebuild:
+  amd64 stable, bug 499954
 
 *bluez-5.15 (27 Feb 2014)
 

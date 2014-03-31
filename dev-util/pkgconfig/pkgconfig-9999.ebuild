@@ -1,10 +1,10 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/pkgconfig/pkgconfig-9999.ebuild,v 1.10 2014/02/01 16:18:05 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-util/pkgconfig/pkgconfig-9999.ebuild,v 1.11 2014/03/27 06:57:57 ssuominen Exp $
 
 EAPI=5
 
-inherit flag-o-matic libtool multilib
+inherit flag-o-matic libtool multilib multilib-minimal
 
 MY_P=pkg-config-${PV}
 
@@ -23,7 +23,7 @@ LICENSE="GPL-2"
 SLOT="0"
 IUSE="elibc_FreeBSD elibc_glibc hardened internal-glib"
 
-RDEPEND="!internal-glib? ( >=dev-libs/glib-2.30 )
+RDEPEND="!internal-glib? ( >=dev-libs/glib-2.30[${MULTILIB_USEDEP}] )
 	!dev-util/pkgconf[pkg-config]
 	!dev-util/pkg-config-lite
 	!dev-util/pkgconfig-openbsd[pkg-config]"
@@ -43,7 +43,7 @@ src_prepare() {
 	fi
 }
 
-src_configure() {
+multilib_src_configure() {
 	local myconf
 
 	if use internal-glib; then
@@ -72,6 +72,7 @@ src_configure() {
 
 	[[ ${PV} == *9999* ]] && myconf+=' --enable-maintainer-mode'
 
+	ECONF_SOURCE=${S} \
 	econf \
 		--docdir="${EPREFIX}"/usr/share/doc/${PF}/html \
 		--with-system-include-path="${EPREFIX}"/usr/include \
@@ -79,8 +80,8 @@ src_configure() {
 		${myconf}
 }
 
-src_install() {
-	default
+multilib_src_install() {
+	emake DESTDIR="${D}" install
 
 	if use prefix; then
 		# Add an explicit reference to $EPREFIX to PKG_CONFIG_PATH to

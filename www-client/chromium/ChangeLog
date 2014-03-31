@@ -1,6 +1,65 @@
 # ChangeLog for www-client/chromium
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/chromium/ChangeLog,v 1.1038 2014/03/05 04:37:08 phajdan.jr Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/chromium/ChangeLog,v 1.1049 2014/03/30 15:00:39 floppym Exp $
+
+*chromium-34.0.1847.92 (30 Mar 2014)
+
+  30 Mar 2014; Mike Gilbert <floppym@gentoo.org> +chromium-34.0.1847.92.ebuild,
+  -chromium-34.0.1847.60.ebuild:
+  Beta channel bump.
+
+*chromium-35.0.1912.2 (30 Mar 2014)
+
+  30 Mar 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  +chromium-35.0.1912.2.ebuild, -chromium-35.0.1870.2.ebuild:
+  Dev channel bump - aura is no longer optional. Remove old.
+
+*chromium-34.0.1847.76 (21 Mar 2014)
+
+  21 Mar 2014; Mike Gilbert <floppym@gentoo.org> +chromium-34.0.1847.76.ebuild,
+  -chromium-34.0.1847.14-r1.ebuild:
+  Beta channel bump.
+
+*chromium-35.0.1897.2 (18 Mar 2014)
+
+  18 Mar 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  -chromium-35.0.1862.2.ebuild, +chromium-35.0.1897.2.ebuild,
+  +files/chromium-system-zlib-r0.patch:
+  Dev channel bump. Use bundled opus, jinja2, markupsafe, ply. Remove old.
+
+  18 Mar 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  chromium-34.0.1847.60.ebuild, chromium-35.0.1870.2.ebuild,
+  +files/chromium-arm-r0.patch:
+  Fix build on arm, bug #504002 by maekke.
+
+  18 Mar 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  -chromium-33.0.1750.146.ebuild, -chromium-33.0.1750.149.ebuild,
+  chromium-33.0.1750.152.ebuild:
+  x86 stable wrt security bug #504890 . Remove old.
+
+  18 Mar 2014; Richard Freeman <rich0@gentoo.org>
+  chromium-33.0.1750.152.ebuild:
+  amd64 stable - 504890
+
+*chromium-33.0.1750.152 (17 Mar 2014)
+
+  17 Mar 2014; Mike Gilbert <floppym@gentoo.org> +chromium-33.0.1750.152.ebuild:
+  Stable channel bump.
+
+*chromium-34.0.1847.60 (14 Mar 2014)
+
+  14 Mar 2014; Mike Gilbert <floppym@gentoo.org> +chromium-34.0.1847.60.ebuild,
+  -chromium-34.0.1847.3.ebuild:
+  Beta channel bump.
+
+  12 Mar 2014; Richard Freeman <rich0@gentoo.org>
+  chromium-33.0.1750.149.ebuild:
+  amd64 stable - 504328
+
+*chromium-33.0.1750.149 (12 Mar 2014)
+
+  12 Mar 2014; Mike Gilbert <floppym@gentoo.org> +chromium-33.0.1750.149.ebuild:
+  Stable channel bump.
 
 *chromium-35.0.1870.2 (05 Mar 2014)
 

@@ -1,6 +1,24 @@
 # ChangeLog for x11-drivers/xf86-video-vmware
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/x11-drivers/xf86-video-vmware/ChangeLog,v 1.76 2013/12/04 01:17:59 chithanh Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-drivers/xf86-video-vmware/ChangeLog,v 1.79 2014/03/27 18:19:01 chithanh Exp $
+
+*xf86-video-vmware-13.0.2 (27 Mar 2014)
+
+  27 Mar 2014; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +xf86-video-vmware-13.0.2.ebuild:
+  Version bump.
+
+  27 Mar 2014; Agostino Sarubbo <ago@gentoo.org>
+  xf86-video-vmware-13.0.1-r1.ebuild:
+  Stable for amd64, wrt bug #500368
+
+*xf86-video-vmware-13.0.1-r1 (25 Mar 2014)
+
+  25 Mar 2014; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +files/xf86-video-vmware-13.0.1-xa-compat-2.patch,
+  +files/xf86-video-vmware-13.0.1-xatracker-2.patch,
+  +xf86-video-vmware-13.0.1-r1.ebuild:
+  Fix building against newer mesa, bug #504252.
 
   04 Dec 2013; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
   +files/xf86-video-vmware-13.0.1-damageunregister.patch,

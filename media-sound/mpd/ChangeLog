@@ -1,6 +1,21 @@
 # ChangeLog for media-sound/mpd
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/mpd/ChangeLog,v 1.337 2014/02/07 03:32:58 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/mpd/ChangeLog,v 1.340 2014/03/30 07:45:26 angelos Exp $
+
+  30 Mar 2014; Christoph Mende <angelos@gentoo.org> files/mpd.init:
+  Add --wait to init script to catch errors on startup
+
+  22 Mar 2014; Christoph Mende <angelos@gentoo.org>
+  -files/mpd-0.17.4-mikmod-crash.patch, -mpd-0.17.4-r2.ebuild,
+  -mpd-0.18.4.ebuild, -mpd-0.18.5.ebuild, -mpd-0.18.7.ebuild,
+  files/mpd.logrotate:
+  Remove old, fix init script when running mpd under a different user (bug
+  #497854)
+
+*mpd-0.18.9 (09 Mar 2014)
+
+  09 Mar 2014; Tim Harder <radhermit@gentoo.org> +mpd-0.18.9.ebuild:
+  Version bump.
 
 *mpd-0.18.8 (07 Feb 2014)
 

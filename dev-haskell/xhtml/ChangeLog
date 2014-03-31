@@ -1,6 +1,22 @@
 # ChangeLog for dev-haskell/xhtml
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-haskell/xhtml/ChangeLog,v 1.36 2013/12/11 06:52:45 gienah Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/xhtml/ChangeLog,v 1.41 2014/03/24 15:09:16 ago Exp $
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org> xhtml-3000.2.1-r1.ebuild:
+  Stable for ppc, wrt bug #502704
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> xhtml-3000.2.1-r1.ebuild:
+  Stable for ia64, wrt bug #502704
+
+  12 Mar 2014; Agostino Sarubbo <ago@gentoo.org> xhtml-3000.2.1-r1.ebuild:
+  Stable for sparc, wrt bug #502704
+
+  09 Mar 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  xhtml-3000.2.1-r1.ebuild:
+  x86 stable wrt bug #502704
+
+  07 Mar 2014; Pacho Ramos <pacho@gentoo.org> xhtml-3000.2.1-r1.ebuild:
+  amd64 stable, bug #502704
 
 *xhtml-3000.2.1-r1 (11 Dec 2013)
 

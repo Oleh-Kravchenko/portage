@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-9999.ebuild,v 1.280 2014/03/05 17:44:35 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-9999.ebuild,v 1.292 2014/03/28 18:32:16 mgorny Exp $
 
 EAPI=5
 
@@ -31,7 +31,7 @@ RESTRICT="test"
 
 COMMON_DEPEND=">=sys-apps/util-linux-2.20
 	acl? ( sys-apps/acl )
-	gudev? ( >=dev-libs/glib-2.22 )
+	gudev? ( >=dev-libs/glib-2.22[${MULTILIB_USEDEP}] )
 	introspection? ( >=dev-libs/gobject-introspection-1.31.1 )
 	kmod? ( >=sys-apps/kmod-16 )
 	selinux? ( >=sys-libs/libselinux-2.1.9 )
@@ -62,8 +62,7 @@ fi
 RDEPEND="${COMMON_DEPEND}
 	!<sys-fs/lvm2-2.02.103
 	!<sec-policy/selinux-base-2.20120725-r10"
-PDEPEND=">=virtual/udev-208
-	>=sys-apps/hwids-20140101[udev]
+PDEPEND=">=sys-apps/hwids-20140304[udev]
 	openrc? ( >=sys-fs/udev-init-scripts-26 )"
 
 S=${WORKDIR}/systemd-${PV}
@@ -76,7 +75,7 @@ multilib_check_headers() { :; }
 check_default_rules() {
 	# Make sure there are no sudden changes to upstream rules file
 	# (more for my own needs than anything else ...)
-	local udev_rules_md5=dcbc152236a7d009e6ce6f2369c509ea
+	local udev_rules_md5=6bd3d421b9b6acd0e2d87ad720d6a389
 	MD5=$(md5sum < "${S}"/rules/50-udev-default.rules)
 	MD5=${MD5/  -/}
 	if [[ ${MD5} != ${udev_rules_md5} ]]; then
@@ -136,15 +135,15 @@ src_prepare() {
 		eval export {MSG{FMT,MERGE},XGETTEXT}=/bin/true
 	fi
 
-	# apply user patches
-	epatch_user
-
 	# compile with older versions of gcc #451110
 	version_is_at_least 4.6 $(gcc-version) || \
 		sed -i 's:static_assert:alsdjflkasjdfa:' src/shared/macro.h
 
 	# change rules back to group uucp instead of dialout for now wrt #454556
 	sed -i -e 's/GROUP="dialout"/GROUP="uucp"/' rules/*.rules || die
+
+	# apply user patches
+	epatch_user
 
 	if [[ ! -e configure ]]; then
 		if use doc; then
@@ -185,7 +184,6 @@ multilib_src_configure() {
 		--disable-dbus
 		--disable-seccomp
 		--disable-xz
-		--disable-tcpwrap
 		--disable-pam
 		--disable-xattr
 		--disable-gcrypt
@@ -193,11 +191,13 @@ multilib_src_configure() {
 		--disable-libcryptsetup
 		--disable-qrencode
 		--disable-microhttpd
+		--disable-gnutls
 		--disable-readahead
 		--disable-quotacheck
 		--disable-logind
 		--disable-polkit
 		--disable-myhostname
+		$(use_enable gudev)
 		--enable-split-usr
 		--with-html-dir=/usr/share/doc/${PF}/html
 		--without-python
@@ -218,7 +218,6 @@ multilib_src_configure() {
 			$(use_enable acl)
 			$(use_enable kmod)
 			$(use_enable selinux)
-			$(use_enable gudev)
 			--with-rootlibdir=/$(get_libdir)
 		)
 	else
@@ -229,7 +228,6 @@ multilib_src_configure() {
 			--disable-acl
 			--disable-kmod
 			--disable-selinux
-			--disable-gudev
 			--disable-manpages
 			--with-rootlibdir=/usr/$(get_libdir)
 		)
@@ -285,6 +283,7 @@ multilib_src_compile() {
 		fi
 	else
 		local lib_targets=( libudev.la )
+		use gudev && lib_targets+=( libgudev-1.0.la )
 		emake "${lib_targets[@]}"
 	fi
 }
@@ -354,6 +353,11 @@ multilib_src_install() {
 			install-pkgconfiglibDATA
 		)
 
+		if use gudev; then
+			lib_LTLIBRARIES+=" libgudev-1.0.la"
+			pkgconfiglib_DATA+=" src/gudev/gudev-1.0.pc"
+		fi
+
 		targets+=(
 			lib_LTLIBRARIES="${lib_LTLIBRARIES}"
 			pkgconfiglib_DATA="${pkgconfiglib_DATA}"
@@ -369,7 +373,7 @@ multilib_src_install_all() {
 	prune_libtool_files --all
 	rm -f \
 		"${D}"/lib/udev/rules.d/99-systemd.rules \
-		"${D}"/usr/share/doc/${PF}/{LICENSE.*,sd-shutdown.h}
+		"${D}"/usr/share/doc/${PF}/{LICENSE.*,GVARIANT-SERIALIZATION,DIFFERENCES,PORTING-DBUS1,sd-shutdown.h}
 
 	# see src_prepare() for content of 40-gentoo.rules
 	insinto /lib/udev/rules.d

@@ -1,6 +1,42 @@
 # ChangeLog for x11-drivers/nvidia-drivers
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/ChangeLog,v 1.534 2014/03/03 21:52:09 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/ChangeLog,v 1.541 2014/03/29 16:49:49 jer Exp $
+
+*nvidia-drivers-334.21-r2 (29 Mar 2014)
+*nvidia-drivers-331.49-r2 (29 Mar 2014)
+
+  29 Mar 2014; Jeroen Roovers <jer@gentoo.org>
+  -nvidia-drivers-331.49-r1.ebuild, +nvidia-drivers-331.49-r2.ebuild,
+  -nvidia-drivers-334.21-r1.ebuild, +nvidia-drivers-334.21-r2.ebuild,
+  +files/nvidia-uvm.conf:
+  Add a modprobe.d script for the UVM driver by Alexander Monakov (bug
+  #506168).
+
+  20 Mar 2014; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-304.119.ebuild,
+  nvidia-drivers-304.121.ebuild:
+  Stable for AMD64 x86 too.
+
+*nvidia-drivers-334.21-r1 (20 Mar 2014)
+*nvidia-drivers-331.49-r1 (20 Mar 2014)
+
+  20 Mar 2014; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-331.49-r1.ebuild, +nvidia-drivers-334.21-r1.ebuild:
+  Install nvidia-modprobe setuid and symlink in /usr/bin (bug #505092 by
+  weihan3).
+
+  17 Mar 2014; Kacper Kowalik <xarthisius@gentoo.org> metadata.xml:
+  Remove myself from metadata.xml
+
+  14 Mar 2014; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-331.38.ebuild:
+  Old.
+
+  14 Mar 2014; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-334.21.ebuild:
+  Stable for AMD64 x86 too.
+
+*nvidia-drivers-304.121 (11 Mar 2014)
+
+  11 Mar 2014; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-304.121.ebuild:
+  Version bump.
 
   03 Mar 2014; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-331.49.ebuild,
   -nvidia-drivers-334.16-r7.ebuild:

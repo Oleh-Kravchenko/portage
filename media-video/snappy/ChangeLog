@@ -1,6 +1,14 @@
 # ChangeLog for media-video/snappy
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/snappy/ChangeLog,v 1.5 2011/11/07 07:43:30 nirbheek Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-video/snappy/ChangeLog,v 1.7 2014/03/29 21:14:11 pacho Exp $
+
+*snappy-1.0 (29 Mar 2014)
+
+  29 Mar 2014; Pacho Ramos <pacho@gentoo.org> +snappy-1.0.ebuild:
+  Version bump
+
+  11 Mar 2014; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup due #239126
 
   07 Nov 2011; Nirbheek Chauhan <nirbheek@gentoo.org> snappy-0.2.ebuild,
   snappy-9999.ebuild:
@@ -24,4 +32,3 @@
   14 Jun 2011; Nirbheek Chauhan <nirbheek@gentoo.org> +snappy-9999.ebuild,
   +metadata.xml:
   Add the media player snappy because leio wants it in the tree
-

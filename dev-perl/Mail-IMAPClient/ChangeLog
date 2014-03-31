@@ -1,6 +1,35 @@
 # ChangeLog for dev-perl/Mail-IMAPClient
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-perl/Mail-IMAPClient/ChangeLog,v 1.94 2014/02/23 18:28:32 zlogene Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-perl/Mail-IMAPClient/ChangeLog,v 1.102 2014/03/19 20:53:06 zlogene Exp $
+
+  19 Mar 2014; Mikle Kolyada <zlogene@gentoo.org>
+  -Mail-IMAPClient-3.330.0.ebuild, Mail-IMAPClient-3.350.0.ebuild:
+  sparc stable wrt bug #502742; Drop old.
+
+  19 Mar 2014; Mikle Kolyada <zlogene@gentoo.org>
+  Mail-IMAPClient-3.350.0.ebuild:
+  ppc stable wrt bug #502742
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> Mail-IMAPClient-3.350.0.ebuild:
+  Stable for alpha, wrt bug #502742
+
+  18 Mar 2014; Mikle Kolyada <zlogene@gentoo.org>
+  Mail-IMAPClient-3.350.0.ebuild:
+  x86 stable wrt bug #502742
+
+  18 Mar 2014; Agostino Sarubbo <ago@gentoo.org> Mail-IMAPClient-3.350.0.ebuild:
+  Stable for ia64, wrt bug #502742
+
+  18 Mar 2014; Mikle Kolyada <zlogene@gentoo.org>
+  Mail-IMAPClient-3.350.0.ebuild:
+  amd64 stable wrt bug #502742
+
+  12 Mar 2014; Markus Meier <maekke@gentoo.org> Mail-IMAPClient-3.350.0.ebuild:
+  arm stable, bug #502742
+
+  09 Mar 2014; Mikle Kolyada <zlogene@gentoo.org>
+  Mail-IMAPClient-3.350.0.ebuild:
+  Bump to EAPI=5
 
   23 Feb 2014; Mikle Kolyada <zlogene@gentoo.org>
   -Mail-IMAPClient-3.320.0.ebuild, Mail-IMAPClient-3.330.0.ebuild:

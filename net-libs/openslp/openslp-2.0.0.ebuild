@@ -1,10 +1,10 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/openslp/openslp-2.0.0.ebuild,v 1.2 2013/08/15 02:47:15 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/openslp/openslp-2.0.0.ebuild,v 1.3 2014/03/30 10:18:52 pacho Exp $
 
 EAPI=5
 
-inherit eutils autotools
+inherit eutils autotools systemd
 
 DESCRIPTION="An open-source implementation of Service Location Protocol"
 HOMEPAGE="http://www.openslp.org/"
@@ -30,4 +30,5 @@ src_install() {
 	rm -rfv "${D}"/usr/doc
 	dohtml -r .
 	newinitd "${FILESDIR}"/slpd-init slpd
+	systemd_dounit "${FILESDIR}"/slpd.service
 }

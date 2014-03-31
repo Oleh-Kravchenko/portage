@@ -1,6 +1,17 @@
 # ChangeLog for media-libs/libsdl2
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libsdl2/ChangeLog,v 1.8 2014/01/04 22:36:20 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libsdl2/ChangeLog,v 1.10 2014/03/22 22:43:35 hasufell Exp $
+
+  22 Mar 2014; Julian Ospald <hasufell@gentoo.org> libsdl2-2.0.1-r1.ebuild,
+  libsdl2-2.0.2.ebuild:
+  fix dev-libs/DirectFB dependency string wrt #501892
+
+*libsdl2-2.0.2 (10 Mar 2014)
+
+  10 Mar 2014; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/libsdl2-2.0.2-static-libs.patch, +libsdl2-2.0.2.ebuild,
+  files/libsdl2-2.0.1-static-libs.patch:
+  version bump (bug #504000)
 
   04 Jan 2014; Julian Ospald <hasufell@gentoo.org> libsdl2-2.0.1-r1.ebuild:
   fix fusionsound requirements

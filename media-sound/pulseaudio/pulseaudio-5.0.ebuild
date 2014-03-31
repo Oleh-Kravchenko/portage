@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/pulseaudio/pulseaudio-5.0.ebuild,v 1.1 2014/03/06 19:57:53 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/pulseaudio/pulseaudio-5.0.ebuild,v 1.5 2014/03/29 18:56:13 mgorny Exp $
 
 EAPI="5"
 inherit autotools eutils flag-o-matic linux-info readme.gentoo systemd user versionator udev multilib-minimal
@@ -16,7 +16,7 @@ SRC_URI="http://freedesktop.org/software/pulseaudio/releases/${P}.tar.xz"
 LICENSE="!gdbm? ( LGPL-2.1 ) gdbm? ( GPL-2 )"
 
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~ppc ~ppc64 ~sh ~sparc x86 ~amd64-linux ~x86-linux"
 
 IUSE="+alsa +asyncns avahi bluetooth +caps dbus doc equalizer +gdbm +glib gnome
 gtk ipv6 jack libsamplerate lirc neon +orc oss qt4 realtime ssl systemd
@@ -66,7 +66,7 @@ RDEPEND="
 	gdbm? ( sys-libs/gdbm )
 	webrtc-aec? ( media-libs/webrtc-audio-processing )
 	xen? ( app-emulation/xen-tools )
-	systemd? ( >=sys-apps/systemd-39 )
+	systemd? ( sys-apps/systemd[${MULTILIB_USEDEP}] )
 	dev-libs/json-c[${MULTILIB_USEDEP}]
 	abi_x86_32? ( !<=app-emulation/emul-linux-x86-soundlibs-20131008-r1
 		!app-emulation/emul-linux-x86-soundlibs[-abi_x86_32(-)] )

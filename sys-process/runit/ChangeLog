@@ -1,6 +1,25 @@
 # ChangeLog for sys-process/runit
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-process/runit/ChangeLog,v 1.40 2014/03/05 15:55:42 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-process/runit/ChangeLog,v 1.46 2014/03/19 14:56:24 williamh Exp $
+
+  19 Mar 2014; William Hubbs <williamh@gentoo.org> -runit-2.0.0.ebuild,
+  -runit-2.1.1.ebuild:
+  remove unstable versions
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> runit-2.1.1-r1.ebuild:
+  Stable for alpha, wrt bug #407329
+
+  18 Mar 2014; Jeroen Roovers <jer@gentoo.org> runit-2.1.1-r1.ebuild:
+  Stable for HPPA (bug #407329).
+
+  18 Mar 2014; Agostino Sarubbo <ago@gentoo.org> runit-2.1.1-r1.ebuild:
+  Stable for ia64, wrt bug #407329
+
+  14 Mar 2014; Agostino Sarubbo <ago@gentoo.org> runit-2.1.1-r1.ebuild:
+  Stable for ppc64, wrt bug #407329
+
+  12 Mar 2014; Agostino Sarubbo <ago@gentoo.org> runit-2.1.1-r1.ebuild:
+  Stable for sparc, wrt bug #407329
 
   05 Mar 2014; Agostino Sarubbo <ago@gentoo.org> runit-2.1.1-r1.ebuild:
   Stable for ppc, wrt bug #407329

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emacs/gnuserv/gnuserv-3.12.8-r2.ebuild,v 1.4 2014/02/18 00:33:10 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emacs/gnuserv/gnuserv-3.12.8-r2.ebuild,v 1.7 2014/03/23 13:02:48 ulm Exp $
 
 EAPI=5
 
@@ -12,7 +12,7 @@ SRC_URI="http://meltin.net/hacks/emacs/src/${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~x86-linux ~ppc-macos"
+KEYWORDS="amd64 ~ppc x86 ~x86-linux ~ppc-macos"
 IUSE="X"
 
 DEPEND=">=app-admin/eselect-emacs-1.15
@@ -24,7 +24,7 @@ RDEPEND="${DEPEND}
 	!!~app-editors/xemacs-21.5.31 !!~app-editors/xemacs-21.5.33
 	!!=app-editors/xemacs-21.5.34 !!=app-editors/xemacs-21.5.34-r1"
 
-SITEFILE="50${PN}-gentoo-${PVR}.el"
+SITEFILE="50${PN}-gentoo.el"
 
 src_prepare() {
 	sed -i -e 's/exec gnuclient/&-emacs/' gnudoit || die

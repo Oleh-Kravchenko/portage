@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/gnome-disk-utility/gnome-disk-utility-3.10.0.ebuild,v 1.2 2014/01/18 12:04:29 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/gnome-disk-utility/gnome-disk-utility-3.10.0.ebuild,v 1.5 2014/03/29 21:53:43 tetromino Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
@@ -14,7 +14,7 @@ HOMEPAGE="http://git.gnome.org/browse/gnome-disk-utility"
 LICENSE="GPL-2+"
 SLOT="0"
 IUSE="fat +gnome systemd"
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86"
+KEYWORDS="~alpha amd64 ~arm ~ia64 ~ppc ~ppc64 ~sh ~sparc x86"
 
 COMMON_DEPEND="
 	>=dev-libs/glib-2.31:2
@@ -23,7 +23,7 @@ COMMON_DEPEND="
 	>=app-arch/xz-utils-5.0.5
 	>=app-crypt/libsecret-0.7
 	dev-libs/libpwquality
-	systemd? ( >=sys-apps/systemd-44 )
+	systemd? ( >=sys-apps/systemd-44:0= )
 "
 RDEPEND="${COMMON_DEPEND}
 	>=media-libs/libdvdread-4.2.0

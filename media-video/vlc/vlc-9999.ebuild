@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/vlc-9999.ebuild,v 1.212 2014/02/23 08:44:23 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/vlc-9999.ebuild,v 1.218 2014/03/26 18:38:20 tomwij Exp $
 
 EAPI="5"
 
@@ -142,8 +142,12 @@ RDEPEND="
 		upnp? ( net-libs/libupnp:0 )
 		v4l? ( media-libs/libv4l:0 )
 		vaapi? ( x11-libs/libva:0 virtual/ffmpeg[vaapi] )
-		vcdx? ( >=dev-libs/libcdio-0.78.2:0 >=media-video/vcdimager-0.7.22:0 )
-		vdpau? ( >=x11-libs/libvdpau-0.6:0 !<media-video/libav-10_beta1 )
+		vcdx? ( >=dev-libs/libcdio-0.78.2:0 >=media-video/vcdimager-0.7.22:0 )"
+
+# Temporarily block non-live FFMPEG versions as they break vdpau, 9999 works;
+# thus we'll have to wait for a new release there.
+RDEPEND="${RDEPEND}
+		vdpau? ( >=x11-libs/libvdpau-0.6:0 !<media-video/libav-10_beta1 !<media-video/ffmpeg-9999 )
 		vnc? ( >=net-libs/libvncserver-0.9.9:0 )
 		vorbis? ( media-libs/libvorbis:0 )
 		vpx? ( media-libs/libvpx:0 )
@@ -158,9 +162,9 @@ DEPEND="${RDEPEND}
 	kde? ( >=kde-base/kdelibs-4:4 )
 	xcb? ( x11-proto/xproto:0 )
 	app-arch/xz-utils:0
-	dev-lang/yasm:0
-	>=sys-devel/gettext-0.18.3:0
-	virtual/pkgconfig:0
+	dev-lang/yasm:*
+	>=sys-devel/gettext-0.18.3:*
+	virtual/pkgconfig:*
 "
 
 REQUIRED_USE="
@@ -240,8 +244,7 @@ src_prepare() {
 	epatch "${FILESDIR}"/${PN}-2.1.0-fix-libtremor-libs.patch
 
 	# Patch up incompatibilities and reconfigure autotools.
-	epatch "${FILESDIR}"/${PN}-2.1.0-newer-rdp.patch
-	epatch "${FILESDIR}"/${PN}-2.1.0-libva-1.2.1-compat.patch
+	epatch "${FILESDIR}"/${P}-libva-1.2.1-compat.patch
 
 	# Fix up broken audio when skipping using a fixed reversed bisected commit.
 	epatch "${FILESDIR}"/${PN}-2.1.0-TomWij-bisected-PA-broken-underflow.patch

@@ -1,6 +1,15 @@
 # ChangeLog for net-misc/gnome-online-miners
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/gnome-online-miners/ChangeLog,v 1.6 2014/02/22 22:31:03 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/gnome-online-miners/ChangeLog,v 1.9 2014/03/30 10:30:28 pacho Exp $
+
+  30 Mar 2014; Pacho Ramos <pacho@gentoo.org> gnome-online-miners-3.10.3.ebuild:
+  Fix RDEPEND on newer goa (#505888 by renato gallo)
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> gnome-online-miners-3.10.3.ebuild:
+  x86 stable, bug 499954
+
+  09 Mar 2014; Pacho Ramos <pacho@gentoo.org> gnome-online-miners-3.10.3.ebuild:
+  amd64 stable, bug 499954
 
   22 Feb 2014; Pacho Ramos <pacho@gentoo.org> gnome-online-miners-3.10.3.ebuild:
   Fix wrong commit, bug 502160

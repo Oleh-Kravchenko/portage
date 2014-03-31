@@ -1,6 +1,15 @@
 # ChangeLog for app-emacs/apel
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emacs/apel/ChangeLog,v 1.51 2014/02/18 16:07:45 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emacs/apel/ChangeLog,v 1.54 2014/03/23 10:14:24 ago Exp $
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> apel-10.8-r1.ebuild:
+  Stable for sparc, wrt bug #501480
+
+  12 Mar 2014; Chema Alonso <nimiux@gentoo.org> apel-10.8-r1.ebuild:
+  Stable for amd64 wrt bug #501480
+
+  09 Mar 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> apel-10.8-r1.ebuild:
+  x86 stable wrt bug #501480
 
   18 Feb 2014; Jeroen Roovers <jer@gentoo.org> apel-10.8-r1.ebuild:
   Stable for HPPA (bug #501480).

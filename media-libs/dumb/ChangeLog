@@ -1,6 +1,32 @@
 # ChangeLog for media-libs/dumb
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/dumb/ChangeLog,v 1.45 2014/03/06 10:45:04 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/dumb/ChangeLog,v 1.53 2014/03/30 10:36:11 nimiux Exp $
+
+  30 Mar 2014; Chema Alonso <nimiux@gentoo.org> dumb-0.9.3-r3.ebuild:
+  Stable for amd64 wrt bug #495710
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org> dumb-0.9.3-r3.ebuild:
+  Stable for ppc, wrt bug #495710
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> dumb-0.9.3-r3.ebuild:
+  Stable for x86, wrt bug #495710
+
+  19 Mar 2014; Agostino Sarubbo <ago@gentoo.org> dumb-0.9.3-r3.ebuild:
+  Stable for alpha, wrt bug #495710
+
+  18 Mar 2014; Agostino Sarubbo <ago@gentoo.org> dumb-0.9.3-r3.ebuild:
+  Stable for ia64, wrt bug #495710
+
+  14 Mar 2014; Agostino Sarubbo <ago@gentoo.org> dumb-0.9.3-r3.ebuild:
+  Stable for ppc64, wrt bug #495710
+
+  12 Mar 2014; Agostino Sarubbo <ago@gentoo.org> dumb-0.9.3-r3.ebuild:
+  Stable for sparc, wrt bug #495710
+
+*dumb-0.9.3-r3 (11 Mar 2014)
+
+  11 Mar 2014; Julian Ospald <hasufell@gentoo.org> +dumb-0.9.3-r3.ebuild:
+  don't install 64bit libs into /usr/lib32
 
   06 Mar 2014; Agostino Sarubbo <ago@gentoo.org> dumb-0.9.3-r2.ebuild:
   Stable for ppc64, wrt bug #495710

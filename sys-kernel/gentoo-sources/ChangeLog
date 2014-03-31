@@ -1,6 +1,51 @@
 # ChangeLog for sys-kernel/gentoo-sources
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/gentoo-sources/ChangeLog,v 1.1276 2014/03/06 15:05:54 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/gentoo-sources/ChangeLog,v 1.1285 2014/03/26 23:53:41 tomwij Exp $
+
+*gentoo-sources-3.12.15 (26 Mar 2014)
+
+  26 Mar 2014; Tom Wijsman <TomWij@gentoo.org> +gentoo-sources-3.12.15.ebuild:
+  Version bump to 3.12.15.
+
+  26 Mar 2014; Mikle Kolyada <zlogene@gentoo.org> gentoo-sources-3.12.13.ebuild:
+  x86 stable wrt bug #503310
+
+  26 Mar 2014; Raúl Porcel <armin76@gentoo.org> gentoo-sources-3.10.32.ebuild,
+  gentoo-sources-3.12.13.ebuild:
+  arm/ia64/sparc stable wrt #503310, #503402
+
+*gentoo-sources-3.10.34 (24 Mar 2014)
+*gentoo-sources-3.4.84 (24 Mar 2014)
+*gentoo-sources-3.13.7 (24 Mar 2014)
+
+  24 Mar 2014; Tom Wijsman <TomWij@gentoo.org> +gentoo-sources-3.10.34.ebuild,
+  +gentoo-sources-3.13.7.ebuild, +gentoo-sources-3.4.84.ebuild:
+  Linux patches 3.4.84, 3.10.34 and 3.13.7.
+
+*gentoo-sources-3.4.83 (12 Mar 2014)
+
+  12 Mar 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.4.83.ebuild:
+  Linux patch 3.4.83
+
+*gentoo-sources-3.12.14 (10 Mar 2014)
+
+  10 Mar 2014; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-3.12.14.ebuild:
+  Linux patch 3.12.14
+
+  07 Mar 2014; Pacho Ramos <pacho@gentoo.org> gentoo-sources-3.12.13.ebuild:
+  amd64 stable, bug #503310
+
+*gentoo-sources-3.10.33 (07 Mar 2014)
+
+  07 Mar 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.33.ebuild:
+  Linux patch 3.10.33. Patch to enable gcc optimizations for additional CPUs.
+
+*gentoo-sources-3.13.6 (07 Mar 2014)
+
+  07 Mar 2014; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-3.13.6.ebuild:
+  Linux patch 3.13.6
 
   06 Mar 2014; Jeroen Roovers <jer@gentoo.org> gentoo-sources-3.10.32.ebuild:
   Stable for HPPA (bug #503402).

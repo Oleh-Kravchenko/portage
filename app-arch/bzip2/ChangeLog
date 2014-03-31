@@ -1,6 +1,38 @@
 # ChangeLog for app-arch/bzip2
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-arch/bzip2/ChangeLog,v 1.112 2014/01/18 01:43:22 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-arch/bzip2/ChangeLog,v 1.122 2014/03/26 21:45:39 maekke Exp $
+
+  26 Mar 2014; Markus Meier <maekke@gentoo.org> bzip2-1.0.6-r6.ebuild:
+  arm stable, bug #504004
+
+  24 Mar 2014; Agostino Sarubbo <ago@gentoo.org> bzip2-1.0.6-r6.ebuild:
+  Stable for ppc, wrt bug #504004
+
+  23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> bzip2-1.0.6-r6.ebuild:
+  Stable for sparc, wrt bug #504004
+
+  20 Mar 2014; Mike Frysinger <vapier@gentoo.org> bzip2-1.0.6-r6.ebuild:
+  Mark arm64/m68k/s390/sh stable.
+
+  18 Mar 2014; Agostino Sarubbo <ago@gentoo.org> bzip2-1.0.6-r6.ebuild:
+  Stable for ia64, wrt bug #504004
+
+*bzip2-1.0.6-r7 (18 Mar 2014)
+
+  18 Mar 2014; Mike Frysinger <vapier@gentoo.org> +bzip2-1.0.6-r7.ebuild:
+  Link bzip2 against the shared lib #504648 by Nikoli.
+
+  14 Mar 2014; Johannes Huber <johu@gentoo.org> bzip2-1.0.6-r6.ebuild:
+  x86 stable, bug #504004
+
+  14 Mar 2014; Matt Turner <mattst88@gentoo.org> bzip2-1.0.6-r6.ebuild:
+  alpha stable, bug 504004.
+
+  14 Mar 2014; Chema Alonso <nimiux@gentoo.org> bzip2-1.0.6-r6.ebuild:
+  Stable for amd64 wrt bug #504004
+
+  10 Mar 2014; Jeroen Roovers <jer@gentoo.org> bzip2-1.0.6-r6.ebuild:
+  Stable for HPPA (bug #504004).
 
   18 Jan 2014; Mike Frysinger <vapier@gentoo.org> bzip2-1.0.6-r3.ebuild,
   bzip2-1.0.6-r4.ebuild, bzip2-1.0.6-r6.ebuild:

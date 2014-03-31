@@ -1,6 +1,21 @@
 # ChangeLog for dev-ruby/GeoRuby
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/GeoRuby/ChangeLog,v 1.6 2014/03/02 23:17:42 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/GeoRuby/ChangeLog,v 1.10 2014/03/10 20:54:35 mrueg Exp $
+
+  10 Mar 2014; Manuel Rüger <mrueg@gentoo.org> -GeoRuby-1.3.4.ebuild:
+  Cleanup old ruby18-only.
+
+  10 Mar 2014; Johannes Huber <johu@gentoo.org> GeoRuby-2.2.1-r1.ebuild:
+  x86 stable, bug #499132
+
+  08 Mar 2014; Pacho Ramos <pacho@gentoo.org> GeoRuby-2.2.1-r1.ebuild:
+  amd64 stable, bug 499132
+
+*GeoRuby-2.2.1-r2 (07 Mar 2014)
+
+  07 Mar 2014; Manuel Rüger <mrueg@gentoo.org> +GeoRuby-2.2.1-r2.ebuild,
+  GeoRuby-2.2.1-r1.ebuild:
+  Move ruby20 to new revision.
 
 *GeoRuby-2.2.1-r1 (02 Mar 2014)
 

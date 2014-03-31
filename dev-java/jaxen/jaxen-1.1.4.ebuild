@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/jaxen/jaxen-1.1.4.ebuild,v 1.4 2013/07/28 09:40:22 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-java/jaxen/jaxen-1.1.4.ebuild,v 1.6 2014/03/09 01:33:38 tomwij Exp $
 
 EAPI=5
 

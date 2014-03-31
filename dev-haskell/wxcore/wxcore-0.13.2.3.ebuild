@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-haskell/wxcore/wxcore-0.13.2.3.ebuild,v 1.1 2013/01/13 11:57:38 gienah Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/wxcore/wxcore-0.13.2.3.ebuild,v 1.2 2014/03/23 15:03:49 gienah Exp $
 
 EAPI=5
 
@@ -34,6 +34,8 @@ src_prepare() {
 	sed -e "s@wxdirect@wxdirect-${WX_GTK_VER}@g" \
 		-i "${S}/Setup.hs" \
 		|| die "Could not change Setup.hs for wxdirect slot ${WX_GTK_VER}"
+	cabal_chdeps \
+		'array >= 0.2 && < 0.5' 'array >= 0.2'
 }
 
 src_configure() {

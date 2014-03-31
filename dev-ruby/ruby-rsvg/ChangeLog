@@ -1,6 +1,15 @@
 # ChangeLog for dev-ruby/ruby-rsvg
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/ruby-rsvg/ChangeLog,v 1.51 2014/01/16 07:54:06 naota Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/ruby-rsvg/ChangeLog,v 1.53 2014/03/17 23:04:02 naota Exp $
+
+*ruby-rsvg-2.2.0 (17 Mar 2014)
+
+  17 Mar 2014; Naohiro Aota <naota@gentoo.org> +ruby-rsvg-2.2.0.ebuild:
+  version bump
+
+  10 Mar 2014; Manuel Rüger <mrueg@gentoo.org> -ruby-rsvg-1.1.3.ebuild,
+  ruby-rsvg-1.1.8.ebuild, ruby-rsvg-1.2.6.ebuild:
+  Cleanup old. Remove ree18.
 
 *ruby-rsvg-2.1.0 (16 Jan 2014)
 

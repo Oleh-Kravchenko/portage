@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-power/upower/upower-0.99.0.ebuild,v 1.1 2014/02/27 11:26:29 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-power/upower/upower-0.99.0.ebuild,v 1.3 2014/03/28 21:23:58 zerochaos Exp $
 
 EAPI=5
 inherit eutils systemd
@@ -18,7 +18,7 @@ IUSE="doc +introspection ios kernel_FreeBSD kernel_linux systemd"
 
 COMMON_DEPEND=">=dev-libs/dbus-glib-0.100
 	>=dev-libs/glib-2.30
-	sys-apps/dbus
+	sys-apps/dbus:=
 	>=sys-auth/polkit-0.110
 	introspection? ( dev-libs/gobject-introspection )
 	kernel_linux? (
