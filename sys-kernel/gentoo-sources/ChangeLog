@@ -1,6 +1,85 @@
 # ChangeLog for sys-kernel/gentoo-sources
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/gentoo-sources/ChangeLog,v 1.1285 2014/03/26 23:53:41 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/gentoo-sources/ChangeLog,v 1.1298 2014/04/06 14:47:41 vapier Exp $
+
+  06 Apr 2014; Mike Frysinger <vapier@gentoo.org> gentoo-sources-3.13.9.ebuild,
+  gentoo-sources-3.14.0.ebuild:
+  Add arm64 love.
+
+*gentoo-sources-3.12.16 (04 Apr 2014)
+
+  04 Apr 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.12.16.ebuild:
+  Update for systemd default config option to select CONFIG_NET_NS. bug
+  #506396. Linux patch 3.12.16
+
+*gentoo-sources-3.10.36 (04 Apr 2014)
+
+  04 Apr 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.36.ebuild:
+  Update for systemd default config option to select CONFIG_NET_NS. bug
+  #506396. Linux patch 3.10.36
+
+*gentoo-sources-3.4.86 (03 Apr 2014)
+
+  03 Apr 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.4.86.ebuild:
+  Linux patch 3.4.86. Update for systemd default config option to select
+  CONFIG_NET_NS. bug #506396
+
+*gentoo-sources-3.13.9 (04 Apr 2014)
+
+  04 Apr 2014; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-3.13.9.ebuild:
+  Linux patch 3.13.9. Update for systemd default config option to select
+  CONFIG_NET_NS. bug #506396.
+
+  02 Apr 2014; Tom Wijsman <TomWij@gentoo.org> -gentoo-sources-3.10.17.ebuild,
+  -gentoo-sources-3.10.31.ebuild, -gentoo-sources-3.10.7-r1.ebuild,
+  -gentoo-sources-3.12.12.ebuild, -gentoo-sources-3.13.4.ebuild,
+  -gentoo-sources-3.4.81-r1.ebuild:
+  Removed versions older than a stable version in the same branch, oldest stable
+  kernels (newer versions were stabilized for all arches), as well as versions
+  older than a month.
+
+  02 Apr 2014; Jeroen Roovers <jer@gentoo.org> gentoo-sources-3.12.13.ebuild:
+  Stable for HPPA (bug #503310).
+
+  01 Apr 2014; Mike Pagano <mpagano@gentoo.org> gentoo-sources-3.14.0.ebuild:
+  Fix for BFQ patchset PATCH_DEPTH
+
+  01 Apr 2014; Mike Pagano <mpagano@gentoo.org> gentoo-sources-3.14.0.ebuild:
+  BFQ patchset v7r2 for 3.14. Kernel patch for gcc optimizations for additional
+  CPUs.
+
+*gentoo-sources-3.4.85 (31 Mar 2014)
+
+  31 Mar 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.4.85.ebuild:
+  Linux patch 3.4.85
+
+*gentoo-sources-3.10.35 (31 Mar 2014)
+
+  31 Mar 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.35.ebuild:
+  Linux version bump
+
+*gentoo-sources-3.13.8 (31 Mar 2014)
+
+  31 Mar 2014; Michael Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.13.8.ebuild:
+  Linux patch 3.13.8
+
+*gentoo-sources-3.14.0 (31 Mar 2014)
+
+  31 Mar 2014; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-3.14.0.ebuild:
+  Support for namespace user.pax.* on tmpfs. Enable mic mute led in thinkpads.
+  Zero copy for infiniband psm userspace driver. Disable Windows 8
+  compatibility for some Lenovo ThinkPads. Ensure that /dev/root doesn't appear
+  in /proc/mounts when bootint without an initramfs. Do not lock when UMH is
+  waiting on current thread spawned by linuxrc. Bootsplash successor by Michal
+  Januszewski ported by Jeremy. Support for Pogoplug e02 (bug #460350),
+  adjusted to be opt-in by TomWij. Add Gentoo Linux support config settings and
+  defaults.
 
 *gentoo-sources-3.12.15 (26 Mar 2014)
 

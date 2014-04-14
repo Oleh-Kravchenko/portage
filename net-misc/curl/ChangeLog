@@ -1,6 +1,40 @@
 # ChangeLog for net-misc/curl
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/curl/ChangeLog,v 1.342 2014/03/27 12:52:16 blueness Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/curl/ChangeLog,v 1.352 2014/04/13 11:06:06 ago Exp $
+
+  13 Apr 2014; Agostino Sarubbo <ago@gentoo.org> curl-7.36.0.ebuild:
+  Stable for ppc, wrt bug #505864
+
+  13 Apr 2014; Naohiro Aota <naota@gentoo.org>
+  +files/curl-7.36.0-hostcheck.patch, curl-7.36.0.ebuild:
+  Add a upstream patch to build on FreeBSD. #507494
+
+  12 Apr 2014; Agostino Sarubbo <ago@gentoo.org> curl-7.36.0.ebuild:
+  Stable for x86, wrt bug #505864
+
+  07 Apr 2014; Mike Frysinger <vapier@gentoo.org> curl-7.36.0.ebuild:
+  Mark arm64/m68k/s390/sh stable #505864.
+
+  07 Apr 2014; Sergey Popov <pinkbyte@gentoo.org> curl-7.36.0.ebuild:
+  Stable on arm, wrt bug #505864
+
+  05 Apr 2014; Agostino Sarubbo <ago@gentoo.org> curl-7.36.0.ebuild:
+  Stable for amd64, wrt bug #505864
+
+  03 Apr 2014; Jeroen Roovers <jer@gentoo.org> curl-7.36.0.ebuild:
+  Stable for HPPA (bug #505864).
+
+  02 Apr 2014; Anthony G. Basile <blueness@gentoo.org> curl-7.36.0.ebuild:
+  Disable tests again on 7.36.0
+
+*curl-7.35.0-r1 (02 Apr 2014)
+
+  02 Apr 2014; Anthony G. Basile <blueness@gentoo.org> +curl-7.35.0-r1.ebuild,
+  +files/curl-7.35.0-tests.patch:
+  Fix polarssl bug #503558, re-introduce tests bug #285669
+
+  31 Mar 2014; Anthony G. Basile <blueness@gentoo.org> curl-7.36.0.ebuild:
+  Enable tests, bug #285669
 
 *curl-7.36.0 (27 Mar 2014)
 

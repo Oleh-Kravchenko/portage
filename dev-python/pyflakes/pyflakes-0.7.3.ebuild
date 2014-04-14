@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pyflakes/pyflakes-0.7.3.ebuild,v 1.6 2013/11/24 13:48:26 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pyflakes/pyflakes-0.7.3.ebuild,v 1.7 2014/04/12 12:49:30 idella4 Exp $
 
 EAPI=5
-PYTHON_COMPAT=(python{2_6,2_7,3_{2,3}} )
+PYTHON_COMPAT=(python{2_6,2_7,3_{2,3}} )  # not 3.4 yet
 
 inherit distutils-r1
 

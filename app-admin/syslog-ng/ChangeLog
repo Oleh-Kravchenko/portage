@@ -1,6 +1,19 @@
 # ChangeLog for app-admin/syslog-ng
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/syslog-ng/ChangeLog,v 1.378 2014/03/28 02:00:44 mr_bones_ Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/syslog-ng/ChangeLog,v 1.382 2014/04/13 16:23:45 ago Exp $
+
+  13 Apr 2014; Agostino Sarubbo <ago@gentoo.org> syslog-ng-3.4.7.ebuild:
+  Stable for ppc, wrt bug #504348
+
+  05 Apr 2014; Agostino Sarubbo <ago@gentoo.org> syslog-ng-3.4.7.ebuild:
+  Stable for x86, wrt bug #504348
+
+  03 Apr 2014; Michael Sterrett <mr_bones_@gentoo.org> metadata.xml,
+  syslog-ng-3.5.4.1.ebuild:
+  make the AMQP support optional for bug #506618
+
+  02 Apr 2014; Chema Alonso <nimiux@gentoo.org> syslog-ng-3.4.7.ebuild:
+  Stable for amd64 wrt bug #504348
 
   28 Mar 2014; Michael Sterrett <mr_bones_@gentoo.org>
   +files/3.5/syslog-ng-3.5.4.1-memleak.patch, syslog-ng-3.5.4.1.ebuild:

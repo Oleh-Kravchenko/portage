@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15524 2014/03/30 18:53:10 lu_zero Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15564 2014/04/13 17:55:05 sping Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,10 +30,206 @@
 
 #--- END OF EXAMPLES ---
 
+# Samuli Suominen <ssuominen@gentoo.org> (12 Apr 2014)
+# Dead upstream, unused in gentoo-x86.
+# Removal in 30 days wrt bug #380193
+dev-cpp/libsexymm
+
+# Ulrich Müller <ulm@gentoo.org> (12 Apr 2014)
+# No license, SRC_URI dead, unresponsive upstream.
+# Last release in 2002. No reverse dependencies.
+# Masked for removal in 30 days, bug 446162.
+dev-java/randomguid
+
+# Michał Górny <mgorny@gentoo.org> (10 Apr 2014)
+# The new version with refurbished install phase. Fixes multilib-
+# -portage compatibility (bug #506398) and /tmp ownership issue
+# (bug #506472). Masked for testing.
+=sys-devel/llvm-3.4-r2
+
+# Johannes Huber <johu@gentoo.org> (10 Apr 2014)
+# Masked for removal in 30 days. Doesn't build since KDE 4.9,
+# bumping to "newest" release from 2011 same result. Dead upstream.
+# bug #429604
+games-puzzle/krosswordpuzzle
+
+# Patrick Lauer <patrick@gentoo.org> (09 Apr 2014)
+# Dead upstream, has known dataloss bugs. 
+# Please use something more sane: rsnapshot, backuppc, obnam, ...
+app-backup/rdiff-backup
+app-backup/pybackpack
+sys-fs/rdiff-backup-fs
+
+# Markos Chandras <hwoarang@gentoo.org> (08 Apr 2014)
+# Masked for futher testing with various pam setups
+=x11-misc/lightdm-1.10*
+
+# Michał Górny <mgorny@gentoo.org> (08 Apr 2014)
+# Mask slotted versions of PyPy for removal. Since almost every release
+# of PyPy had its own slot, the slotting caused major maintenance issues
+# for Python package developers and unfriendly upgrade routine for
+# users. It also resulted in PyPy interpreter names incompatible with
+# other distributions (e.g. 'pypy-c2.0').
+#
+# Please switch to non-slotted dev-python/pypy:0 or /pypy-bin:0 instead,
+# and the corresponding PYTHON_TARGETS=pypy flag. You may also want to
+# consider unmasking >=dev-python/pypy-2.2 first (no binary package
+# yet).
+#
+# The ebuilds will be removed in 30 days. In case of any questions
+# or issues, please do not hesitate to write on bug #507090.
+dev-python/pypy:2.0
+dev-python/pypy-bin:2.0
+virtual/pypy:2.0
+
+# Sergey Popov <pinkbyte@gentoo.org> (08 Apr 2014)
+# Security mask of vulnerable versions, wrt bug #505278
+<dev-libs/openssl-1.0.0l:0
+
+# Markos Chandras <hwoarang@gentoo.org> (07 Apr 2014)
+# Mark -rc releases for testing
+=dev-embedded/openocd-0.8.0_rc*
+
+# Gilles Dartiguelongue <eva@gentoo.org> (06 Apr 2014)
+# Old release, never stable, not working anymore
+# See bug #327837, #382667, #492474
+<media-video/pitivi-0.90
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# They work ok when used without native multilib, still
+# need to be tested on setups using that.
+>=app-emulation/emul-linux-x86-baselibs-20140406
+>=app-emulation/emul-linux-x86-compat-20140406
+>=app-emulation/emul-linux-x86-cpplibs-20140406
+>=app-emulation/emul-linux-x86-db-20140406
+>=app-emulation/emul-linux-x86-gstplugins-20140406
+>=app-emulation/emul-linux-x86-gtklibs-20140406
+>=app-emulation/emul-linux-x86-gtkmmlibs-20140406
+>=app-emulation/emul-linux-x86-jna-20140406
+>=app-emulation/emul-linux-x86-opengl-20140406
+>=app-emulation/emul-linux-x86-medialibs-20140406
+>=app-emulation/emul-linux-x86-motif-20140406
+>=app-emulation/emul-linux-x86-qtlibs-20140406
+>=app-emulation/emul-linux-x86-sdl-20140406
+>=app-emulation/emul-linux-x86-soundlibs-20140406
+>=app-emulation/emul-linux-x86-xlibs-20140406
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Masked since:
+# Paul Varner <fuzzyray@gentoo.org> (06 Apr 2009)
+# Dead upstream and has issues with newer portages.
+# Still nobody stepped to maintain it and it's now
+# completely broken (bug #172611). Removal in a month.
+app-portage/udept
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Upstream dead since 2004, nothing needs it (#284421)
+# Removal in a month.
+media-libs/libj2k
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# No upstream for a long time, better alternatives would
+# be gbdfed or vim (#286314). Removal in a month.
+media-gfx/cfe
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Masked since:
+# Julian Ospald <hasufell@gentoo.org> (10 Mar 2013)
+# Unsupported and full of bundled libs. Only left
+# for people who don't have python-3.3 yet.
+# Will be removed once python-3.3 and >=blender-2.66 enter ~arch.
+#
+# As it's the case now, will be removed in a month (#286758)
+=media-gfx/blender-2.64a
+media-gfx/yablex
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Bundles internal copy of berkdb, upstream dead for ages
+# (#319683). Removal in a month.
+app-admin/osiris
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Multiple issues and dead for ages (#327735).
+# You can use cpupower (from sys-power/cpupower or
+# sys-apps/linux-misc-apps). Removal in a month.
+sys-power/cpufreqd
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Not compatible with gnutls-3 (#421405), multiple issues
+# and dead since 2008. Removal in a month.
+net-irc/ctrlproxy
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Crashes at start, no fix (#394063). Removal in a month.
+x11-misc/pogo
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Cannot be compiled for a long time (#405649).
+# Removal in a month.
+sci-geosciences/openstreetmap-icons
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Runtime failures (#305019), cannot be recompiled
+# (#352003, #369539, #425484), nobody is taking care of it.
+# Removal in a month.
+media-gfx/k3d
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# No longer supported by upstream and nothing needs it
+# (#489628). Removal in a month.
+dev-python/telepathy-python
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# No longer works and upstream killed it (#493188).
+# Removal in a month.
+media-tv/huludesktop
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# Dead since 2008 and doesn't work with current kernels
+# (#504168). Removal in a month.
+app-admin/lcap
+
+# Pacho Ramos <pacho@gentoo.org> (06 Apr 2014)
+# No needed as its functionality was included to apache
+# (#504596). Removal in a month.
+www-apache/mod_chroot
+
+# Julian Ospald <hasufell@gentoo.org> (05 Apr 2014)
+# not compilable without workarounds, see bug #499740
+# and #497124
+# hopefully 1.8 will improve the situation
+>=dev-libs/DirectFB-1.7.1
+
+# Samuli Suominen <ssuominen@gentoo.org> (05 Apr 2014)
+# natpmp.h has #include "declspec.h", but the ebuild never installs
+# the required header
+# breaks compilation of reverse dependencies, like transmission
+# bug 506832
+=net-libs/libnatpmp-20140401
+
+# Julian Ospald <hasufell@gentoo.org> (03 Apr 2014)
+# Mask to ensure users with mixed arches also get
+# the update. Remove later.
+=sys-devel/llvm-3.4
+
+# Alexander Vershilov <qnikst@gentoo.org> (02 Apr 2014)
+# Multiple vulnerabilities, see #504724, #505860
+<sys-kernel/openvz-sources-2.6.32.85.17
+
+# Patrick Lauer <patrick@gentoo.org> (02 Apr 2014)
+# Broken release, see #506452
+=dev-python/sip-4.15.5
+
+# Tom Wijsman <TomWij@gentoo.org> (31 Mar 2014)
+# Prevent users from switching JDK / JRE implementation.
+#
+# Unmask this if you want to upgrade or switch to Oracle JDK / JRE 1.8.
+>=virtual/jdk-1.8
+>=virtual/jre-1.8
+
 # Luca Barbato <lu_zero@gentoo.org> (30 Mar 2014)
 # Current stable for upstream, pending a tinderbox run.
 ~media-video/libav-10
-
 
 # Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org> (26 Mar 2014)
 # Affected by multiple vulnerabilities, #445916, #471098 and #472280
@@ -57,7 +253,7 @@ media-plugins/vdr-ac3mode
 # not converted to xgettext handling, dead on upstream since ~2008
 media-plugins/vdr-bitstreamout
 
-# Rick Farina <zerochaos@gentoo.org> (22 Mar 2014)
+# Rick Farina <zerochaos@gentoo.org> (11 Apr 2014)
 # Upstream has replaced dev-util/dissy with dev-util/emilpro
 # Please switch to emilpro or report issues in bug #505380
 # removal in 30 days.
@@ -131,19 +327,14 @@ net-ftp/pftpfxp
 kde-misc/youtube-servicemenu
 
 # Ulrich Müller <ulm@gentoo.org> (13 Mar 2014)
-# No license, therefore not redistributable. SRC_URI dead.
-# Gentoo live media don't use gdm any more.
-# Masked for removal in 30 days, bug 446794.
-x11-themes/gdm-themes-livecd
-
-# Ulrich Müller <ulm@gentoo.org> (13 Mar 2014)
 # No reverse dependencies. Use dev-libs/libbsd instead.
 # Masked for removal in 60 days, bug 504456.
 dev-libs/clens
 
 # Michał Górny <mgorny@gentoo.org> (12 Mar 2014)
-# Masked for testing, and binary package build.
+# Masked for testing.
 >=dev-python/pypy-2.2
+>=dev-python/pypy-bin-2.2
 >=virtual/pypy-2.2
 
 # Samuli Suominen <ssuominen@gentoo.org> (11 Mar 2014)
@@ -162,28 +353,12 @@ dev-libs/clens
 =xfce-extra/xfce4-xkb-plugin-0.7*
 =xfce-extra/xfce4-indicator-plugin-2*
 =media-sound/pragha-1.3*
-
-# Manuel Rüger <mrueg@gentoo.org> (06 Mar 2014)
-# Mask further ruby18-only packages
-# Removal in 30 days
-net-proxy/swiftiply
-www-servers/mongrel
+=xfce-extra/xfce4-mixer-4.11*
 
 # Michał Górny <mgorny@gentoo.org> (06 Mar 2014)
 # Compatibility packages masked for removal in 30 days.
 <dev-lang/python-exec-0.3.1-r1:0
 <dev-lang/python-exec-2.0.1-r1:2
-
-# Manuel Rüger <mrueg@gentoo.org> (05 Mar 2014)
-# Mask further ruby18-only packages
-# Removal in 30 days
-dev-ruby/locale_rails
-dev-ruby/parsetree
-dev-ruby/pry:0
-dev-ruby/rack:0
-dev-ruby/rspec-rails:0
-dev-ruby/ruby2ruby:0
-dev-ruby/rubymail
 
 # Michał Górny <mgorny@gentoo.org> (05 Mar 2014)
 # Seems to cause more trouble than it fixes. Bugs #503470, #503472.
@@ -216,12 +391,6 @@ lxde-base/lxpolkit
 # Masked for removal in 60 days, bug 502168.
 app-emacs/delicious
 
-# Ulrich Müller <ulm@gentoo.org> (15 Feb 2014)
-# Support library for app-emacs/prime-el, which is masked
-# for removal itself. No other reverse dependencies.
-# Masked for removal in 30 days, bug 501426.
-app-emacs/mell
-
 # Michał Górny <mgorny@gentoo.org> (28 Feb 2014)
 # New multilib conversions for testing, grouped with corresponding
 # emul-linux bumps. Please unmask in order, after getting ACK from
@@ -235,6 +404,10 @@ app-emacs/mell
 # (mark the packages as {{Yes|DONE}})
 >=dev-libs/libgcrypt-1.6.1-r1
 dev-libs/libgcrypt:11
+# libaacs needs multilib libgcrypt, good to go asap (aballier@g.o)
+>=media-libs/libaacs-0.7.0-r1
+# libbluray needs multilib libaacs, good to go asap (aballier@g.o)
+>=media-libs/libbluray-0.5.0-r1
 >=dev-libs/lzo-2.06-r1
 >=app-emulation/emul-linux-x86-baselibs-20131008-r20
 >=dev-libs/libxslt-1.1.28-r2
@@ -257,11 +430,6 @@ dev-libs/libgcrypt:11
 # experimental features and accept a more unstable release.
 >=www-client/chromium-35
 
-# Michael Palimaka <kensington@gentoo.org> (26 Feb 2014)
-# Doesn't build with recent graphviz. Dead upstream.
-# Masked for removal in 30 days. Bug #491760.
-media-gfx/kgraphviewer
-
 # Tom Wijsman <TomWij@gentoo.org> (21 Feb 2014)
 # MATE Desktop Environment >=1.7 introduction mask:
 #
@@ -274,6 +442,7 @@ media-gfx/kgraphviewer
 >=app-text/mate-document-viewer-1.7
 >=dev-libs/libmateweather-1.7
 >=dev-python/python-caja-1.7
+>=mate-base/caja-1.7
 >=mate-base/libmatekbd-1.7
 >=mate-base/libmatekeyring-1.7
 >=mate-base/mate-1.7
@@ -281,7 +450,6 @@ media-gfx/kgraphviewer
 >=mate-base/mate-common-1.7
 >=mate-base/mate-control-center-1.7
 >=mate-base/mate-desktop-1.7
->=mate-base/mate-file-manager-1.7
 >=mate-base/mate-keyring-1.7
 >=mate-base/mate-menus-1.7
 >=mate-base/mate-panel-1.7
@@ -352,14 +520,6 @@ dev-python/mozinfo
 dev-python/mozprofile
 dev-python/mozprocess
 dev-python/mozfile
-
-# Naohiro Aota <naota@gentoo.org> (29 Jan 2014)
-# Mask for removal in 30 days. No ruby19 support. #464286
-app-i18n/prime
-app-emacs/prime-el
-app-i18n/gtkimprime
-app-i18n/scim-prime
-dev-libs/suikyo
 
 # Ole Markus With <olemarkus@gentoo.org> (28 Jan 2014)
 # PHP 5.6 still in early development
@@ -515,10 +675,6 @@ games-emulation/m64py
 # See #471512 for more details.
 www-apache/mod_spdy
 
-# Markos Chandras <hwoarang@gentoo.org> (10 Oct 2013)
-# Masked for futher testing with various pam setups
-=x11-misc/lightdm-1.9*
-
 # Agostino Sarubbo <ago@gentoo.org> (23 Sep 2013)
 # Masked because of vulnerable versions
 # DO NOT REMOVE OLDER VERSIONS
@@ -625,11 +781,6 @@ dev-java/sun-jce-bin
 # Mask new ptlib/opal for breakage, tracked in bug #474742
 =net-libs/ptlib-2.12.4
 =net-libs/opal-3.12.4
-
-# Sebastien Fabbro <bicatali@gentoo.org> (18 Jun 2013)
-# Masked for some API incompatibility with previous versions
-# until depedencies are fixed.
->=sci-mathematics/glpk-4.49
 
 # Pacho Ramos <pacho@gentoo.org> (15 Jun 2013)
 # Upstream stalled, improper rendering (#470818),
@@ -763,11 +914,6 @@ dev-ml/ocamlduce
 =sys-libs/db-5.2*
 =sys-libs/db-5.1*
 =sys-libs/db-5.0*
-
-# Richard Yao <ryao@gentoo.org> (06 Oct 2012)
-# sys-apps/grep-2.13 falsely reports some files as binary, causing build
-# failures. Bug #425668
-=sys-apps/grep-2.13
 
 # Ralph Sennhauser <sera@gentoo.org> (18 Jul 2012)
 # Unmaintained, multiple vulnarabilities. #351626
@@ -916,7 +1062,6 @@ app-pda/osynctool
 # Ryan Hill <dirtyepic@gentoo.org> (30 Mar 2011)
 # Work in progress
 # http://bugs.gentoo.org/show_bug.cgi?id=354423
-app-pda/libopensync-plugin-evolution2
 app-pda/libopensync-plugin-gnokii
 app-pda/libopensync-plugin-gpe
 app-pda/multisync-gui
@@ -1031,12 +1176,6 @@ sys-kernel/zen-sources
 # Tiziano Müller <dev-zero@gentoo.org> (08 Apr 2009)
 # pre-releases
 >=app-editors/gobby-0.4.91
-
-# Paul Varner <fuzzyray@gentoo.org> (06 Apr 2009)
-# Dead upstream and has issues with newer portages.
-# Due to popular demand and no suitable replacement, it will stay in the tree
-# in a masked status until it completely breaks or is replaced.
-app-portage/udept
 
 # Diego E. Pettenò <flameeyes@gentoo.org> (03 Jan 2009)
 # These packages are not supposed to be merged directly, instead

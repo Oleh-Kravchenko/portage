@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/jsonschema/jsonschema-0.8.0.ebuild,v 1.2 2013/01/17 17:24:02 prometheanfire Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/jsonschema/jsonschema-0.8.0.ebuild,v 1.4 2014/04/03 03:25:56 prometheanfire Exp $
 
 EAPI="5"
 

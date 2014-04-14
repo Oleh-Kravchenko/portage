@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-news/quiterss/quiterss-9999.ebuild,v 1.15 2014/02/14 12:34:54 maksbotan Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-news/quiterss/quiterss-9999.ebuild,v 1.16 2014/04/05 19:21:18 tomwij Exp $
 
 EAPI=5
 
@@ -17,7 +17,6 @@ KEYWORDS=""
 IUSE="debug phonon"
 
 RDEPEND="
-	dev-db/sqlite:3
 	dev-qt/qtcore:4
 	dev-qt/qtgui:4
 	dev-qt/qtsingleapplication

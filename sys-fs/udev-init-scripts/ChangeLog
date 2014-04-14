@@ -1,6 +1,35 @@
 # ChangeLog for sys-fs/udev-init-scripts
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev-init-scripts/ChangeLog,v 1.89 2014/03/28 18:57:01 axs Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev-init-scripts/ChangeLog,v 1.94 2014/04/10 16:18:09 jer Exp $
+
+  10 Apr 2014; Jeroen Roovers <jer@gentoo.org> udev-init-scripts-26-r2.ebuild:
+  Stable for HPPA (bug #507070).
+
+  05 Apr 2014; Samuli Suominen <ssuominen@gentoo.org>
+  udev-init-scripts-26-r2.ebuild, udev-init-scripts-9999.ebuild:
+  Use ${ROOT%/} instead of ${ROOT}, synchronize coding style of 'then',
+  and remove useless quoting inside of [[ to match sys-fs/udev
+
+*udev-init-scripts-26-r2 (03 Apr 2014)
+
+  03 Apr 2014; Samuli Suominen <ssuominen@gentoo.org>
+  +udev-init-scripts-26-r2.ebuild, udev-init-scripts-9999.ebuild:
+  If /etc/runlevels/sysinit is missing when we are installing for the first
+  time, create the directory. This way we don't have to pull in sys-apps/openrc
+  as a dependency, and sys-apps/systemd can continue to depend on this package
+  unconditionally wrt #487080
+
+  03 Apr 2014; Samuli Suominen <ssuominen@gentoo.org>
+  udev-init-scripts-26-r1.ebuild, udev-init-scripts-26.ebuild,
+  udev-init-scripts-9999.ebuild:
+  Continue with bug 503174 and make sys-apps/openrc a dependency too.
+
+  02 Apr 2014; Samuli Suominen <ssuominen@gentoo.org>
+  udev-init-scripts-26-r1.ebuild, udev-init-scripts-26.ebuild,
+  udev-init-scripts-9999.ebuild:
+  Make virtual/udev also a DEPEND to fix race with emerge order wrt #503174 by
+  Jack Suter. Thanks to Jorge Manuel B. S. Vicetto and Magnus Granberg for
+  tracking this down.
 
   28 Mar 2014; Ian Stakenvicius (_AxS_) <axs@gentoo.org>
   udev-init-scripts-26-r1.ebuild, udev-init-scripts-26.ebuild,

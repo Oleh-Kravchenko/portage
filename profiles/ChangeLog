@@ -1,10 +1,204 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.8762 2014/03/30 23:04:13 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.8817 2014/04/13 17:55:05 sping Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  13 Apr 2014; Sebastian Pipping <sping@gentoo.org> package.mask:
+  Unmask redshift 1.9-r*
+
+  13 Apr 2014; Sebastian Pipping <sping@gentoo.org> package.mask:
+  Mask upcoming ~x11-misc/redshift-1.9
+
+  13 Apr 2014; Pacho Ramos <pacho@gentoo.org> +arch/alpha/use.stable.mask,
+  +arch/arm/use.stable.mask, +arch/ia64/use.stable.mask,
+  +arch/powerpc/use.stable.mask, +arch/sparc/use.stable.mask:
+  use.stable.mask because it won't be stabilized in that arches
+
+  12 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> package.mask:
+  Lastrite dev-cpp/libsexymm as part of the effort in bug #380193
+
+  12 Apr 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask dev-java/randomguid for removal.
+
+  12 Apr 2014; Pacho Ramos <pacho@gentoo.org> arch/alpha/package.use.mask,
+  arch/ia64/package.use.mask, arch/powerpc/package.use.mask,
+  arch/sparc/package.use.mask:
+  Mask mbim USE due missing keywords on some arches
+
+  12 Apr 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Drop x11-themes/gdm-themes-livecd mask, package removed.
+
+  11 Apr 2014; Rick Farina <zerochaos@gentoo.org> package.mask:
+  adjust date on dev-util/dissy removal due to late announement
+
+  11 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> desc/xfce_plugins.desc:
+  Describe multiload-nandhp for XFCE_PLUGINS=""
+
+  11 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> package.mask:
+  Mask new xfce4-mixer in the Xfce 4.12 mask.
+
+  11 Apr 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Limit the llvm mask to the single version.
+
+  11 Apr 2014; Ian Delaney <idella4@gentoo.org> package.mask:
+  unmask django-celery-3.1.9, celery-3.1.10
+
+  11 Apr 2014; Alexis Ballier <aballier@gentoo.org> package.mask:
+  mask multilib libbluray
+
+  11 Apr 2014; Alexis Ballier <aballier@gentoo.org> package.mask:
+  mask multilib libaacs
+
+  10 Apr 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask new sys-devel/llvm ebuild.
+
+  10 Apr 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Adjust mate-base/mate-file-manager mask to be mate-base/caja due to upstream
+  name change.
+
+  10 Apr 2014; Johannes Huber <johu@gentoo.org> package.mask:
+  Mask games-puzzle/krosswordpuzzle for removal.
+
+  10 Apr 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask pypy-bin for testing as well.
+
+  09 Apr 2014; Ian Delaney <idella4@gentoo.org> package.mask:
+  Add django-celery-3.1.9 which deps on celery-3.1.10
+
+  09 Apr 2014; Ian Delaney <idella4@gentoo.org> package.mask:
+  Add celery-3.1.10 until further testing
+
+  09 Apr 2014; Patrick Lauer <patrick@gentoo.org> package.mask:
+  Add app-backup/pybackpack to rdiff-backup mask
+
+  09 Apr 2014; Patrick Lauer <patrick@gentoo.org> package.mask:
+  Add rdiff-backup-fs to rdiff-backup mask
+
+  09 Apr 2014; Patrick Lauer <patrick@gentoo.org> package.mask:
+  Mask rdiff-backup: Dead upstream, has known dataloss bugs.
+
+  08 Apr 2014; Markos Chandras <hwoarang@gentoo.org> package.mask:
+  Mask new lightdm-1.10
+
+  08 Apr 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask virtual/pypy:2.0 and the corresponding packages.
+
+  08 Apr 2014; Sergey Popov <pinkbyte@gentoo.org> package.mask:
+  Security mask of vulnerable OpenSSL versions, bug #505278
+
+  08 Apr 2014; Alexey Shvetsov <alexxy@gentoo.org> arch/amd64/use.mask,
+  arch/x86/use.mask, base/ChangeLog, base/use.mask,
+  desc/openmpi_ofed_features.desc:
+  Add udcm desk
+
+  08 Apr 2014; Alexey Shvetsov <alexxy@gentoo.org> arch/amd64/use.mask,
+  arch/x86/use.mask, base/ChangeLog, base/use.mask:
+  CUDA only available on x86 and amd64 so mask it globaly and unmask only on
+  target arches
+
+  06 Apr 2014; Markos Chandras <hwoarang@gentoo.org> package.mask:
+  Mask openocd-0.8.0_rc* releases for testing
+
+  06 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org> package.mask:
+  Add mask for old and broken pitivi releases.
+
+  06 Apr 2014; Julian Ospald <hasufell@gentoo.org> base/package.use.mask:
+  mask <net-misc/openvpn-9999[polarssl] wrt #501582
+
+  06 Apr 2014; Pacho Ramos <pacho@gentoo.org> package.mask:
+  Mask new emul set until their ebuilds are tested/updated for native multilib
+  setups
+
+  06 Apr 2014; Pacho Ramos <pacho@gentoo.org> ChangeLog:
+  Mask some packages for removal
+
+  06 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> package.mask:
+  Remove now unrequired mask for libopensync-plugin-evolution2 wrt #352506
+
+  05 Apr 2014; Sébastien Fabbro <bicatali@gentoo.org> package.mask:
+  Removing glpk mask
+
+  05 Apr 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  -eapi-5-files/ChangeLog, -eapi-5-files/eapi,
+  -eapi-5-files/package.use.stable.mask:
+  Remove obsolete directory
+
+  05 Apr 2014; Andreas K. Huettel <dilfridge@gentoo.org> releases/13.0/parent:
+  Remove empty directory eapi-5-files from parents
+
+  05 Apr 2014; Julian Ospald <hasufell@gentoo.org> package.mask:
+  mask >=dev-libs/DirectFB-1.7.1 wrt #499740 and #497124
+
+  05 Apr 2014; Manuel Rüger <mrueg@gentoo.org> package.mask:
+  Cleanup package.mask.
+
+  05 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> package.mask:
+  Mask broken libnatpmp release for transmission wrt #506832 by Hans Nieser
+
+  05 Apr 2014; Pacho Ramos <pacho@gentoo.org>
+  eapi-5-files/package.use.stable.mask, base/package.use.stable.mask:
+  Migrate and drop obsolete use.stable.mask entries
+
+  02 Apr 2014; Julian Ospald <hasufell@gentoo.org> package.mask:
+  mask =sys-devel/llvm-3.4 to prevent breakage
+
+  02 Apr 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Drop app-emacs/mell mask, package removed.
+
+  02 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> thirdpartymirrors:
+  Update mirrors from upstream ImageMagick site, but drop two unworking ones
+  from it, wrt #494846 by Ben Kohler
+
+  02 Apr 2014; Naohiro Aota <naota@gentoo.org> package.mask:
+  Drop prime masking
+
+  02 Apr 2014; Mikle Kolyada <zlogene@gentoo.org>
+  features/selinux/package.mask:
+  Remove obsolete grub mask
+
+  02 Apr 2014; Patrick Lauer <patrick@gentoo.org> package.mask,
+  thirdpartymirrors:
+  Mask broken sip release #506452
+
+  01 Apr 2014; Tom Wijsman <TomWij@gentoo.org>
+  arch/amd64/package.use.stable.mask:
+  [QA] Remove obsolete abi_x86_32 libusbx mask from amd64 p.u.s.m. as libusbx
+  was pkgmoved to libusb.
+
+  01 Apr 2014; Tom Wijsman <TomWij@gentoo.org>
+  features/64bit-native/package.mask:
+  [QA] Remove obsolete googleearth mask from 64bit-native feature.
+
+  01 Apr 2014; Tom Wijsman <TomWij@gentoo.org>
+  arch/amd64/no-multilib/package.mask:
+  [QA] Remove obsolete googleearth mask from amd64 no-multilib.
+
+  01 Apr 2014; Tom Wijsman <TomWij@gentoo.org>
+  hardened/linux/amd64/no-multilib/package.mask:
+  [QA] Remove obsolete googleearth mask from hardened amd64 no-multilib.
+
+  01 Apr 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  [QA] Remove obsolete grep-2.13 mask.
+
+  01 Apr 2014; Michael Palimaka <kensington@gentoo.org> package.mask:
+  Unmask media-gfx/kgraphviewer wrt bug #491760.
+
+  31 Mar 2014; Tom Wijsman <TomWij@gentoo.org> hardened/linux/package.mask:
+  [QA] Remove obsolete hardened gcc-4.4.2 mask.
+
+  31 Mar 2014; Tom Wijsman <TomWij@gentoo.org>
+  -targets/desktop/kde/package.mask:
+  [QA] Remove obsolete KDE broken NVIDIA drivers sigprocmask mask.
+
+  31 Mar 2014; Tom Wijsman <TomWij@gentoo.org> uclibc/ppc/package.use.mask:
+  [QA] Cleaned up uclibc/ppc/package.use.mask and removed obsolete
+  ibm-jdk-bin-1.5 mask.
+
+  31 Mar 2014; Tom Wijsman <TomWij@gentoo.org> package.mask:
+  Prevent users from switching JDK / JRE implementation.
 
   30 Mar 2014; Tom Wijsman <TomWij@gentoo.org>
   arch/amd64/package.use.stable.mask, arch/x86/package.use.stable.mask,

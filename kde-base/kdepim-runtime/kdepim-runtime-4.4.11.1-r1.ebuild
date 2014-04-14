@@ -1,8 +1,8 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/kde-base/kdepim-runtime/kdepim-runtime-4.4.11.1-r1.ebuild,v 1.14 2013/12/15 14:04:09 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-base/kdepim-runtime/kdepim-runtime-4.4.11.1-r1.ebuild,v 1.16 2014/04/05 18:22:12 dilfridge Exp $
 
-EAPI=4
+EAPI=5
 
 if [[ ${PV} = *9999* ]]; then
 	KMNAME="kdepim"
@@ -35,7 +35,5 @@ DEPEND="${COMMON_DEPEND}
 RDEPEND="${COMMON_DEPEND}
 	$(add_kdebase_dep kdepim-icons)
 "
-
-add_blocker akonadi '<4.3.90'
 
 PATCHES=( "${FILESDIR}/4.4/"000[1-2]-*.patch )

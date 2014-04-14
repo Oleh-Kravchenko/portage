@@ -1,6 +1,18 @@
 # ChangeLog for net-libs/libnids
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/libnids/ChangeLog,v 1.63 2014/03/19 15:47:03 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/libnids/ChangeLog,v 1.65 2014/04/08 18:37:48 jer Exp $
+
+  08 Apr 2014; Jeroen Roovers <jer@gentoo.org> -libnids-1.18-r2.ebuild,
+  -libnids-1.18-r3.ebuild, -libnids-1.18-r4.ebuild,
+  -files/libnids-1.18-chksum.c-ebx.patch, -files/libnids-1.18-elif.patch:
+  Remove 1.1 SLOT now that nothing depends on it.
+
+*libnids-1.24-r5 (08 Apr 2014)
+*libnids-1.18-r4 (08 Apr 2014)
+
+  08 Apr 2014; Jeroen Roovers <jer@gentoo.org> +libnids-1.18-r4.ebuild,
+  +libnids-1.24-r5.ebuild:
+  Set -fno-strict-aliasing (bug #505026 by David).
 
 *libnids-1.18-r3 (19 Mar 2014)
 

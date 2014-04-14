@@ -1,6 +1,26 @@
 # ChangeLog for sys-fs/zfs
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/zfs/ChangeLog,v 1.77 2013/11/21 16:21:23 ryao Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/zfs/ChangeLog,v 1.80 2014/04/11 04:44:53 ryao Exp $
+
+  11 Apr 2014; Richard Yao <ryao@gentoo.org> zfs-0.6.2-r5.ebuild:
+  The patchset used in sys-fs/zfs-0.6.2-r4 was an early version that was not
+  meant to go out to mirrors. It is being replaced with sys-fs/zfs-0.6.2-r5,
+  which is what -r4 should have been. No regressions occurred as a result of
+  this mistake.
+
+*zfs-0.6.2-r5 (11 Apr 2014)
+
+  11 Apr 2014; Richard Yao <ryao@gentoo.org> +zfs-0.6.2-r5.ebuild:
+  The patchset used in sys-fs/zfs-0.6.2-r4 was an early version that was not
+  meant to go out to mirrors. It is being replaced with sys-fs/zfs-0.6.2-r5,
+  which is what -r4 should have been. No regressions occurred as a result of
+  this mistake.
+
+*zfs-0.6.2-r4 (10 Apr 2014)
+
+  10 Apr 2014; Richard Yao <ryao@gentoo.org> +zfs-0.6.2-r4.ebuild,
+  zfs-0.6.2-r3.ebuild, zfs-9999.ebuild:
+  Add USE=debug and sync with sys-fs/zfs-kmod to get backports of userland fixes
 
 *zfs-0.6.2-r3 (21 Nov 2013)
 

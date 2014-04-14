@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-embedded/openocd/openocd-9999.ebuild,v 1.31 2013/06/11 20:24:50 hwoarang Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-embedded/openocd/openocd-9999.ebuild,v 1.32 2014/04/06 16:02:36 hwoarang Exp $
 
 EAPI="5"
 
@@ -12,8 +12,11 @@ if [[ ${PV} == "9999" ]] ; then
 	KEYWORDS=""
 	EGIT_REPO_URI="git://git.code.sf.net/p/${PN}/code"
 else
+	MY_PV="${PV/_/-}"
+	MY_P="${PN}-${MY_PV}"
+	S="${WORKDIR}"/${MY_P}
 	KEYWORDS="~amd64 ~x86"
-	SRC_URI="mirror://sourceforge/project/${PN}/${PN}/${PV}/${P}.tar.bz2"
+	SRC_URI="mirror://sourceforge/project/${PN}/${PN}/${MY_PV}/${MY_P}.tar.gz"
 fi
 
 DESCRIPTION="OpenOCD - Open On-Chip Debugger"
@@ -21,18 +24,22 @@ HOMEPAGE="http://openocd.sourceforge.net"
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="blaster dummy ftd2xx ftdi minidriver parport presto segger stlink usb versaloon verbose-io"
+IUSE="blaster dummy ftdi minidriver parport presto segger +usb versaloon verbose-io"
 RESTRICT="strip" # includes non-native binaries
 
-# libftd2xx is the default because it is reported to work better.
+# versaloon needs libusb:0 but the rest of the devices need libusb:1
+# Therefore, treat versaloon as a special case and always pull libusb:1
+# so most of the devices are supported by default.
 DEPEND=">=dev-lang/jimtcl-0.73
-	usb? ( virtual/libusb:0 )
-	presto? ( dev-embedded/libftd2xx )
-	ftd2xx? ( dev-embedded/libftd2xx )
+	usb? (
+		versaloon? ( virtual/libusb:0 )
+		virtual/libusb:1
+	)
 	ftdi? ( dev-embedded/libftdi )"
+
 RDEPEND="${DEPEND}"
 
-REQUIRED_USE="blaster? ( || ( ftdi ftd2xx ) ) ftdi? ( !ftd2xx )"
+REQUIRED_USE="blaster? ( ftdi ) presto? ( ftdi ) versaloon? ( usb )"
 
 src_prepare() {
 	epatch_user
@@ -70,44 +77,58 @@ src_configure() {
 		--enable-at91rm9200
 		--enable-gw16012
 		--enable-oocd_trace
-		--enable-ulink
 		--enable-arm-jtag-ew
-		--enable-ti-icdi
-		--enable-osbdm
-		--enable-opendous
 	)
 
+	# Adapters requiring usb/libusb-1.X support
 	if use usb; then
 		myconf+=(
+			--enable-aice
+			--enable-ti-icdi
+			--enable-ulink
+			--enable-osbdm
+			--enable-opendous
 			--enable-usbprog
 			--enable-jlink
 			--enable-rlink
+			--enable-stlink
 			--enable-vsllink
 			--enable-arm-jtag-ew
 			$(use_enable verbose-io verbose-usb-io)
 			$(use_enable verbose-io verbose_usb_comms)
 		)
+	else
+		myconf+=(
+			--disable-aice
+			--disable-stlink
+			--disable-ti-icdi
+			--disable-ulink
+			--disable-osbdm
+			--disable-opendous
+		)
 	fi
-
-	# add explicitely the path to libftd2xx
-	use ftd2xx && append-ldflags -L/opt/$(get_libdir)
 
 	if use blaster; then
-		use ftdi && myconf+=( --enable-usb_blaster_libftdi )
-		use ftd2xx && myconf+=( --enable-usb_blaster_ftd2xx )
+		myconf+=(
+			--enable-usb_blaster_libftdi
+			--enable-usb-blaster-2
+		)
+	else
+		myconf+=(
+			--disable-usb_blaster_libftdi
+			--disable-usb-blaster-2
+		)
 	fi
+
 	econf \
 		$(use_enable dummy) \
-		$(use_enable ftdi ft2232_libftdi) \
 		$(use_enable ftdi) \
-		$(use_enable ftd2xx ft2232_ftd2xx) \
 		$(use_enable minidriver minidriver-dummy) \
 		$(use_enable parport) \
 		$(use_enable parport parport_ppdev) \
 		$(use_enable parport parport_giveio) \
-		$(use_enable presto presto_ftd2xx) \
+		$(use_enable presto presto_libftdi) \
 		$(use_enable segger jlink) \
-		$(use_enable stlink) \
 		$(use_enable versaloon vsllink) \
 		$(use_enable verbose-io verbose-jtag-io) \
 		"${myconf[@]}"

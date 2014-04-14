@@ -1,8 +1,7 @@
 Remove suitesparse (camd,colamd) and zlib bundles
 
-diff -Nur glpk-4.53.orig/configure.ac glpk-4.53/configure.ac
---- glpk-4.53.orig/configure.ac	2014-03-24 10:40:24.406906149 -0700
-+++ glpk-4.53/configure.ac	2014-03-24 10:41:15.637207696 -0700
+--- configure.ac.orig	2014-03-24 10:40:24.406906149 -0700
++++ configure.ac	2014-03-24 10:41:15.637207696 -0700
 @@ -140,6 +140,13 @@
     AC_MSG_RESULT([no])
  fi
@@ -17,9 +16,8 @@ diff -Nur glpk-4.53.orig/configure.ac glpk-4.53/configure.ac
  AC_CONFIG_FILES(
     [src/Makefile examples/Makefile Makefile])
  AC_OUTPUT
-diff -Nur glpk-4.53.orig/src/Makefile.am glpk-4.53/src/Makefile.am
---- glpk-4.53.orig/src/Makefile.am	2014-03-24 10:40:24.413906191 -0700
-+++ glpk-4.53/src/Makefile.am	2014-03-24 10:41:15.636207690 -0700
+--- src/Makefile.am.orig	2014-03-24 10:40:24.413906191 -0700
++++ src/Makefile.am	2014-03-24 10:41:15.636207690 -0700
 @@ -6,15 +6,12 @@
  
  libglpk_la_CPPFLAGS = \

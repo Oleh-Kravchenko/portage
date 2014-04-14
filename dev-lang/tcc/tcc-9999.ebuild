@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/tcc/tcc-9999.ebuild,v 1.5 2013/10/13 06:56:00 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/tcc/tcc-9999.ebuild,v 1.6 2014/04/02 23:46:23 ottxor Exp $
 
 EAPI="5"
 
@@ -40,12 +40,9 @@ src_configure() {
 					# better fixes welcome, it feels wrong to hack the env like this
 	# not autotools, so call configure directly
 	./configure --cc="$(tc-getCC)" \
-                --bindir=/usr/bin \
-                --libdir=/usr/$(get_libdir) \
-                --tccdir=tcc \
-                --includedir=/usr/include \
-                --docdir=/usr/share/doc/${PF} \
-                --mandir=/usr/share/man
+		--prefix="${EPREFIX}/usr" \
+		--libdir="${EPREFIX}/usr/$(get_libdir)" \
+		--docdir="${EPREFIX}/usr/share/doc/${PF}"
 }
 
 src_compile() {

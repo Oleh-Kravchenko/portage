@@ -1,10 +1,10 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy-bin/pypy-bin-2.0.2-r1.ebuild,v 1.1 2014/03/30 20:57:45 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy-bin/pypy-bin-2.0.2-r1.ebuild,v 1.4 2014/04/11 08:19:10 mgorny Exp $
 
 EAPI=5
 
-PYTHON_COMPAT=( python2_7 pypy2_0 )
+PYTHON_COMPAT=( python2_7 pypy pypy2_0 )
 inherit eutils multilib pax-utils python-any-r1 versionator
 
 BINHOST="http://dev.gentoo.org/~mgorny/dist/${PN}"
@@ -53,19 +53,19 @@ IUSE="doc +jit shadowstack sqlite sse2 test"
 
 # yep, world would be easier if people started filling subslots...
 RDEPEND="
-	~app-arch/bzip2-1.0.6
-	~dev-libs/expat-2.1.0
-	( <dev-libs/libffi-3.0.14
-		>=dev-libs/libffi-3.0.11 )
-	( <dev-libs/openssl-1.0.1g
-		>=dev-libs/openssl-1.0.1c )
-	( <sys-libs/glibc-2.20
-		>=sys-libs/glibc-2.15 )
-	~sys-libs/ncurses-5.9
-	( <sys-libs/zlib-1.2.9
-		>=sys-libs/zlib-1.2.7 )
+	~app-arch/bzip2-1.0.6:0
+	~dev-libs/expat-2.1.0:0
+	( <dev-libs/libffi-3.0.14:0
+		>=dev-libs/libffi-3.0.11:0 )
+	( <dev-libs/openssl-1.0.1h:0
+		>=dev-libs/openssl-1.0.1c:0 )
+	( <sys-libs/glibc-2.20:2.2
+		>=sys-libs/glibc-2.15:2.2 )
+	~sys-libs/ncurses-5.9:5
+	( <sys-libs/zlib-1.2.9:0
+		>=sys-libs/zlib-1.2.7:0 )
 	sqlite? ( dev-db/sqlite:3 )
-	!dev-python/pypy:${SLOT}"
+	!dev-python/pypy:0"
 DEPEND="app-arch/xz-utils
 	doc? ( dev-python/sphinx )
 	test? ( ${RDEPEND} )"

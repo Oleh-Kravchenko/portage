@@ -1,21 +1,21 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/portage/portage-9999.ebuild,v 1.93 2014/02/13 11:37:51 vikraman Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/portage/portage-9999.ebuild,v 1.95 2014/04/06 17:00:03 mgorny Exp $
 
 EAPI=3
 PYTHON_COMPAT=(
-	pypy2_0
+	pypy pypy2_0
 	python3_2 python3_3 python3_4
 	python2_6 python2_7
 )
-inherit git-2 eutils multilib
+inherit git-r3 eutils multilib
 
 DESCRIPTION="Portage is the package management and distribution system for Gentoo"
 HOMEPAGE="http://www.gentoo.org/proj/en/portage/index.xml"
 LICENSE="GPL-2"
 KEYWORDS=""
 SLOT="0"
-IUSE="build doc epydoc +ipc linguas_ru pypy2_0 python2 python3 selinux xattr"
+IUSE="build doc epydoc +ipc linguas_ru pypy python2 python3 selinux xattr"
 
 for _pyimpl in ${PYTHON_COMPAT[@]} ; do
 	IUSE+=" python_targets_${_pyimpl}"
@@ -25,16 +25,17 @@ unset _pyimpl
 # Import of the io module in python-2.6 raises ImportError for the
 # thread module if threading is disabled.
 python_dep_ssl="python3? ( =dev-lang/python-3*[ssl] )
-	!pypy2_0? ( !python2? ( !python3? (
+	!pypy? ( !python2? ( !python3? (
 		|| ( >=dev-lang/python-2.7[ssl] dev-lang/python:2.6[threads,ssl] )
 	) ) )
-	pypy2_0? ( !python2? ( !python3? ( virtual/pypy:2.0[bzip2] ) ) )
+	pypy? ( !python2? ( !python3? ( virtual/pypy:0[bzip2] ) ) )
 	python2? ( !python3? ( || ( dev-lang/python:2.7[ssl] dev-lang/python:2.6[ssl,threads] ) ) )"
 python_dep="${python_dep_ssl//\[ssl\]}"
 python_dep="${python_dep//,ssl}"
 python_dep="${python_dep//ssl,}"
 
 python_dep="${python_dep}
+	python_targets_pypy? ( virtual/pypy:0 )
 	python_targets_pypy2_0? ( virtual/pypy:2.0 )
 	python_targets_python2_6? ( dev-lang/python:2.6 )
 	python_targets_python2_7? ( dev-lang/python:2.7 )
@@ -68,7 +69,7 @@ RDEPEND="${python_dep}
 	>=app-misc/pax-utils-0.1.17
 	selinux? ( || ( >=sys-libs/libselinux-2.0.94[python] <sys-libs/libselinux-2.0.94 ) )
 	xattr? ( kernel_linux? (
-		$(for python_impl in python{2_6,2_7,3_2} pypy2_0; do
+		$(for python_impl in python{2_6,2_7,3_2} pypy pypy2_0; do
 			echo "python_targets_${python_impl}? ( dev-python/pyxattr[python_targets_${python_impl}] )"
 		done) ) )
 	!<app-shells/bash-3.2_p17
@@ -81,7 +82,7 @@ PDEPEND="
 # coreutils-6.4 rdep is for date format in emerge-webrsync #164532
 # NOTE: FEATURES=installsources requires debugedit and rsync
 
-SRC_ARCHIVES="http://dev.gentoo.org/~zmedico/portage/archives"
+SRC_ARCHIVES="http://dev.gentoo.org/~dolsen/releases/portage"
 
 prefix_src_archives() {
 	local x y
@@ -94,7 +95,7 @@ prefix_src_archives() {
 
 EGIT_REPO_URI="git://git.overlays.gentoo.org/proj/portage.git
 	https://github.com/gentoo/portage.git"
-S="${WORKDIR}"/${PN}
+EGIT_MIN_CLONE_TYPE=single
 
 compatible_python_is_selected() {
 	[[ $("${EPREFIX}/usr/bin/python" -c 'import sys ; sys.stdout.write(sys.hexversion >= 0x2060000 and "good" or "bad")') = good ]]
@@ -118,6 +119,9 @@ get_python_interpreter() {
 	case "${impl}" in
 		python*)
 			python=${impl/_/.}
+			;;
+		pypy)
+			python=${impl}
 			;;
 		pypy*)
 			python=${impl/_/.}
@@ -163,15 +167,15 @@ pkg_setup() {
 		ewarn "Both python2 and python3 USE flags are enabled, but only one"
 		ewarn "can be in the shebangs. Using python3."
 	fi
-	if use pypy2_0 && use python3 ; then
-		ewarn "Both pypy2_0 and python3 USE flags are enabled, but only one"
+	if use pypy && use python3 ; then
+		ewarn "Both pypy and python3 USE flags are enabled, but only one"
 		ewarn "can be in the shebangs. Using python3."
 	fi
-	if use pypy2_0 && use python2 ; then
-		ewarn "Both pypy2_0 and python2 USE flags are enabled, but only one"
+	if use pypy && use python2 ; then
+		ewarn "Both pypy and python2 USE flags are enabled, but only one"
 		ewarn "can be in the shebangs. Using python2"
 	fi
-	if ! use pypy2_0 && ! use python2 && ! use python3 && \
+	if ! use pypy && ! use python2 && ! use python3 && \
 		! compatible_python_is_selected ; then
 		ewarn "Attempting to select a compatible default python interpreter"
 		local x success=0
@@ -200,8 +204,8 @@ pkg_setup() {
 		EPYTHON=python3
 	elif use python2; then
 		EPYTHON=python2
-	elif use pypy2_0; then
-		EPYTHON=pypy-c2.0
+	elif use pypy; then
+		EPYTHON=pypy
 	fi
 }
 
@@ -209,12 +213,10 @@ src_prepare() {
 	epatch_user
 
 	einfo "Producing ChangeLog from Git history..."
-	pushd "${S}/.git" >/dev/null || die
 	git log ebcf8975b37a8aae9735eb491a9b4cb63549bd5d^.. \
 		> "${S}"/ChangeLog || die
-	popd >/dev/null || die
 
-	local _version=$(cd "${S}/.git" && git describe --tags | sed -e 's|-\([0-9]\+\)-.\+$|_p\1|')
+	local _version=$(git describe --tags | sed -e 's|-\([0-9]\+\)-.\+$|_p\1|')
 	_version=${_version:1}
 	einfo "Setting portage.VERSION to ${_version} ..."
 	sed -e "s/^VERSION =.*/VERSION = '${_version}'/" -i pym/portage/__init__.py || \
@@ -242,8 +244,8 @@ src_prepare() {
 		set_shebang=python3
 	elif use python2; then
 		set_shebang=python2
-	elif use pypy2_0; then
-		set_shebang=pypy-c2.0
+	elif use pypy; then
+		set_shebang=pypy
 	fi
 	if [[ -n ${set_shebang} ]] ; then
 		einfo "Converting shebangs for ${set_shebang}..."

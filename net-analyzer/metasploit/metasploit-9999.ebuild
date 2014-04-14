@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/metasploit/metasploit-9999.ebuild,v 1.14 2014/03/24 22:05:46 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/metasploit/metasploit-9999.ebuild,v 1.18 2014/04/13 04:23:44 zerochaos Exp $
 
 EAPI="5"
 
@@ -16,7 +16,6 @@ else
 	S="${WORKDIR}"/msf3
 fi
 
-#ruby18 is well beyond EoL
 #ruby20 doesn't have wide enough support in gentoo yet (but is semi-supported upstream)
 USE_RUBY="ruby19"
 inherit eutils ruby-ng
@@ -32,6 +31,8 @@ IUSE="development +java lorcon oracle +pcap test"
 RESTRICT="test"
 
 RUBY_COMMON_DEPEND="virtual/ruby-ssl
+	=dev-ruby/rkelly-remix-0.0.6
+	dev-ruby/bcrypt-ruby
 	dev-ruby/activesupport:3.2
 	dev-ruby/activerecord:3.2
 	dev-ruby/json

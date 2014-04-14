@@ -1,6 +1,19 @@
 # ChangeLog for sys-kernel/spl
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/spl/ChangeLog,v 1.67 2014/01/27 04:48:35 ryao Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/spl/ChangeLog,v 1.69 2014/04/11 04:42:22 ryao Exp $
+
+*spl-0.6.2-r5 (11 Apr 2014)
+
+  11 Apr 2014; Richard Yao <ryao@gentoo.org> +spl-0.6.2-r5.ebuild:
+  The patchset used in sys-kernel/spl-0.6.2-r4 was an early version that was not
+  meant to go out to mirrors. It is being replaced with sys-kernel/spl-0.6.2-r5,
+  which is what -r4 should have been. No regressions occurred as a result of
+  this mistake.
+
+*spl-0.6.2-r4 (10 Apr 2014)
+
+  10 Apr 2014; Richard Yao <ryao@gentoo.org> +spl-0.6.2-r4.ebuild:
+  Module versioning support and Linux 3.14 support bump
 
 *spl-0.6.2-r3 (27 Jan 2014)
 

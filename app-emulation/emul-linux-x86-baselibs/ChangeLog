@@ -1,6 +1,29 @@
 # ChangeLog for app-emulation/emul-linux-x86-baselibs
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-baselibs/ChangeLog,v 1.189 2014/03/27 14:45:24 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-baselibs/ChangeLog,v 1.194 2014/04/12 11:57:27 pacho Exp $
+
+  12 Apr 2014; Pacho Ramos <pacho@gentoo.org> +files/remove-native-20140406-r1:
+  Update remove-native file (#506900#c5 by nE0sIghT)
+
+  12 Apr 2014; Pacho Ramos <pacho@gentoo.org> files/remove-native-20140406:
+  Updated remove-native file (#507292 by eroen)
+
+  12 Apr 2014; Pacho Ramos <pacho@gentoo.org>
+  emul-linux-x86-baselibs-20140406-r1.ebuild:
+  libjpeg.8 hacks shouldn't be needed anymore
+
+*emul-linux-x86-baselibs-20140406-r1 (12 Apr 2014)
+
+  12 Apr 2014; Pacho Ramos <pacho@gentoo.org>
+  +emul-linux-x86-baselibs-20140406-r1.ebuild, +files/remove-native-20140406:
+  Update to newer openssl due security bug
+
+*emul-linux-x86-baselibs-20140406 (06 Apr 2014)
+
+  06 Apr 2014; Pacho Ramos <pacho@gentoo.org>
+  +emul-linux-x86-baselibs-20140406.ebuild,
+  -emul-linux-x86-baselibs-20130224.ebuild:
+  Version bump, drop old
 
 *emul-linux-x86-baselibs-20131008-r22 (27 Mar 2014)
 

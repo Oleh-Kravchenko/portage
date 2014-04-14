@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-9999.ebuild,v 1.292 2014/03/28 18:32:16 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-9999.ebuild,v 1.294 2014/04/08 21:01:41 ssuominen Exp $
 
 EAPI=5
 
@@ -25,7 +25,7 @@ HOMEPAGE="http://www.freedesktop.org/wiki/Software/systemd"
 
 LICENSE="LGPL-2.1 MIT GPL-2"
 SLOT="0"
-IUSE="acl doc +firmware-loader gudev introspection +kmod +openrc selinux static-libs"
+IUSE="acl doc +firmware-loader gudev introspection +kmod selinux static-libs"
 
 RESTRICT="test"
 
@@ -63,7 +63,7 @@ RDEPEND="${COMMON_DEPEND}
 	!<sys-fs/lvm2-2.02.103
 	!<sec-policy/selinux-base-2.20120725-r10"
 PDEPEND=">=sys-apps/hwids-20140304[udev]
-	openrc? ( >=sys-fs/udev-init-scripts-26 )"
+	>=sys-fs/udev-init-scripts-26"
 
 S=${WORKDIR}/systemd-${PV}
 
@@ -481,9 +481,7 @@ pkg_postinst() {
 	local net_rules_path="${ROOT%/}"/etc/udev/rules.d
 	local net_name_slot="${net_rules_path}"/80-net-name-slot.rules
 	local net_setup_link="${net_rules_path}"/80-net-setup-link.rules
-	if [[ -e ${net_setup_link} ]]; then
-		net_move=no
-	else
+	if [[ ! -e ${net_setup_link} ]]; then
 		[[ -f ${net_name_slot} && $(sed -e "/^#/d" -e "/^\W*$/d" ${net_name_slot} | wc -l) == 0 ]] && net_move=yes
 		if [[ -L ${net_name_slot} && $(readlink ${net_name_slot}) == /dev/null ]]; then
 			net_move=yes

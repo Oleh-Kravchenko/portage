@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-cdr/cdrtools/cdrtools-3.01_alpha23.ebuild,v 1.1 2014/03/07 15:13:46 billie Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-cdr/cdrtools/cdrtools-3.01_alpha23.ebuild,v 1.3 2014/04/13 00:37:26 naota Exp $
 
 EAPI=5
 
@@ -78,6 +78,10 @@ src_prepare() {
 	sed -i -e "s|^#\(CONFFLAGS +=\).*|\1\t-cc=${tcCC}|" \
 		rules.cnf || die "sed rules.cnf"
 
+	# Add support for arm64
+	ln -sf i586-linux-cc.rul aarch64-linux-cc.rul
+	ln -sf i586-linux-gcc.rul aarch64-linux-gcc.rul
+
 	# Schily make setup.
 	cd "${S}"/DEFAULTS
 	local os=$(cdrtools_os)
@@ -89,7 +93,7 @@ src_prepare() {
 		-e "s|^\(RUNPATH=\).*|\1|" \
 		-e "s|^\(INS_BASE=\).*|\1\t${ED}/usr|" \
 		-e "s|^\(INS_RBASE=\).*|\1\t${ED}|" \
-		-e "s|^\(DEFINSGRP=\).*|\1\troot|" \
+		-e "s|^\(DEFINSGRP=\).*|\1\t0|" \
 		Defaults.${os} || die "sed Schily make setup"
 }
 

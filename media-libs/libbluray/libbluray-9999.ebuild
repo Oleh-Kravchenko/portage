@@ -1,11 +1,10 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libbluray/libbluray-9999.ebuild,v 1.14 2013/12/22 11:03:46 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libbluray/libbluray-9999.ebuild,v 1.15 2014/04/11 05:37:20 aballier Exp $
 
 EAPI=5
 
-inherit autotools java-pkg-opt-2 git-r3 flag-o-matic eutils
-
+inherit autotools java-pkg-opt-2 git-r3 flag-o-matic eutils multilib-minimal
 EGIT_REPO_URI="git://git.videolan.org/libbluray.git"
 
 DESCRIPTION="Blu-ray playback libraries"
@@ -17,20 +16,17 @@ KEYWORDS=""
 IUSE="aacs java static-libs +truetype utils +xml"
 
 COMMON_DEPEND="
-	xml? ( dev-libs/libxml2 )
+	xml? ( dev-libs/libxml2[${MULTILIB_USEDEP}] )
+	truetype? ( media-libs/freetype:2[${MULTILIB_USEDEP}] )
 "
 RDEPEND="
 	${COMMON_DEPEND}
-	aacs? ( media-libs/libaacs )
-	java? (
-		truetype? ( media-libs/freetype:2 )
-		>=virtual/jre-1.6
-	)
+	aacs? ( media-libs/libaacs[${MULTILIB_USEDEP}] )
+	java? ( >=virtual/jre-1.6 )
 "
 DEPEND="
 	${COMMON_DEPEND}
 	java? (
-		truetype? ( media-libs/freetype:2 )
 		>=virtual/jdk-1.6
 		dev-java/ant-core
 	)
@@ -51,27 +47,29 @@ src_prepare() {
 	eautoreconf
 }
 
-src_configure() {
+multilib_src_configure() {
 	local myconf
-	if use java; then
+	if multilib_is_native_abi && use java; then
 		export JAVACFLAGS="$(java-pkg_javac-args)"
 		append-cflags "$(java-pkg_get-jni-cflags)"
-		myconf="$(use_with truetype freetype)"
+		myconf="--enable-bdjava"
+	else
+		myconf="--disable-bdjava"
 	fi
 
-	econf \
+	ECONF_SOURCE="${S}" econf \
 		--disable-optimizations \
-		$(use_enable utils examples) \
-		$(use_enable java bdjava) \
+		$(multilib_build_binaries && use_enable utils examples || echo "--disable-examples") \
+		$(use_with truetype freetype) \
 		$(use_enable static-libs static) \
 		$(use_with xml libxml2) \
 		${myconf}
 }
 
-src_install() {
-	default
+multilib_src_install() {
+	emake DESTDIR="${D}" install
 
-	if use utils; then
+	if multilib_build_binaries && use utils; then
 		cd src
 		dobin index_dump mobj_dump mpls_dump
 		cd .libs/
@@ -81,10 +79,13 @@ src_install() {
 		fi
 	fi
 
-	if use java; then
-		java-pkg_dojar "${S}"/src/.libs/${PN}.jar
+	if multilib_is_native_abi && use java; then
+		java-pkg_dojar "${BUILD_DIR}"/src/.libs/${PN}.jar
 		doenvd "${FILESDIR}"/90${PN}
 	fi
+}
 
+multilib_src_install_all() {
+	einstalldocs
 	prune_libtool_files
 }

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-editors/emacs-vcs/emacs-vcs-24.4.9999.ebuild,v 1.1 2014/03/21 14:22:30 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-editors/emacs-vcs/emacs-vcs-24.4.9999.ebuild,v 1.4 2014/04/12 07:18:41 ulm Exp $
 
 EAPI=5
 
@@ -92,7 +92,10 @@ DEPEND="${RDEPEND}
 	libxml2? ( virtual/pkgconfig )
 	X? ( virtual/pkgconfig )
 	gzip-el? ( app-arch/gzip )
-	pax_kernel? ( sys-apps/paxctl )"
+	pax_kernel? (
+		sys-apps/attr
+		sys-apps/paxctl
+	)"
 
 if [[ ${PV##*.} = 9999 ]]; then
 	DEPEND="${DEPEND}
@@ -104,7 +107,7 @@ SITEFILE="20${PN}-${SLOT}-gentoo.el"
 
 src_prepare() {
 	if [[ ${PV##*.} = 9999 ]]; then
-		FULL_VERSION=$(sed -n 's/^AC_INIT(emacs,[ \t]*\([^ \t,)]*\).*/\1/p' \
+		FULL_VERSION=$(sed -n 's/^AC_INIT([^,]*,[ \t]*\([^ \t,)]*\).*/\1/p' \
 			configure.ac)
 		[[ ${FULL_VERSION} ]] || die "Cannot determine current Emacs version"
 		einfo "Emacs branch: ${EBZR_BRANCH}"
@@ -309,7 +312,7 @@ src_install () {
 	use X && DOC_CONTENTS+="\\n\\nYou need to install some fonts for Emacs.
 		Installing media-fonts/font-adobe-{75,100}dpi on the X server's
 		machine would satisfy basic Emacs requirements under X11.
-		See also https://wiki.gentoo.org/wiki/Project:Emacs/Xft_support
+		See also https://wiki.gentoo.org/wiki/Xft_support_for_GNU_Emacs
 		for how to enable anti-aliased fonts."
 	use aqua && DOC_CONTENTS+="\\n\\nEmacs${EMACS_SUFFIX#emacs}.app is in
 		\"${EPREFIX}/Applications/Gentoo\". You may want to copy or symlink

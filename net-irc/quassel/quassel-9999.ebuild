@@ -1,19 +1,15 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-irc/quassel/quassel-9999.ebuild,v 1.69 2014/03/27 00:44:32 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-irc/quassel/quassel-9999.ebuild,v 1.70 2014/04/01 23:08:36 johu Exp $
 
 EAPI=5
 
 inherit cmake-utils eutils pax-utils user versionator
 
-EGIT_REPO_URI="git://git.quassel-irc.org/quassel.git"
-EGIT_BRANCH="master"
-[[ "${PV}" == "9999" ]] && inherit git-2
+EGIT_REPO_URI="git://git.quassel-irc.org/quassel"
+[[ "${PV}" == "9999" ]] && inherit git-r3
 
-QT_MINIMAL="4.6.0"
-KDE_MINIMAL="4.4"
-
-DESCRIPTION="Qt4/KDE4 IRC client supporting a remote daemon for 24/7 connectivity."
+DESCRIPTION="Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity"
 HOMEPAGE="http://quassel-irc.org/"
 [[ "${PV}" == "9999" ]] || SRC_URI="http://quassel-irc.org/pub/${P/_/-}.tar.bz2"
 
@@ -23,34 +19,34 @@ SLOT="0"
 IUSE="ayatana crypt dbus debug kde monolithic phonon postgres +server +ssl syslog webkit X"
 
 SERVER_RDEPEND="
-	>=dev-qt/qtscript-${QT_MINIMAL}:4
+	dev-qt/qtscript:4
 	crypt? (
 		app-crypt/qca:2
 		app-crypt/qca-ossl
 	)
-	!postgres? ( >=dev-qt/qtsql-${QT_MINIMAL}:4[sqlite] dev-db/sqlite:3[threadsafe(+),-secure-delete] )
-	postgres? ( >=dev-qt/qtsql-${QT_MINIMAL}:4[postgres] )
+	!postgres? ( dev-qt/qtsql:4[sqlite] dev-db/sqlite:3[threadsafe(+),-secure-delete] )
+	postgres? ( dev-qt/qtsql:4[postgres] )
 	syslog? ( virtual/logger )
 "
 
 GUI_RDEPEND="
-	>=dev-qt/qtgui-${QT_MINIMAL}:4
+	dev-qt/qtgui:4
 	ayatana? ( dev-libs/libindicate-qt )
 	dbus? (
-		>=dev-qt/qtdbus-${QT_MINIMAL}:4
+		dev-qt/qtdbus:4
 		dev-libs/libdbusmenu-qt
 	)
 	kde? (
-		>=kde-base/kdelibs-${KDE_MINIMAL}
-		>=kde-base/oxygen-icons-${KDE_MINIMAL}
+		kde-base/kdelibs:4
+		kde-base/oxygen-icons:4
 		ayatana? ( kde-misc/plasma-widget-message-indicator )
 	)
-	phonon? ( || ( media-libs/phonon >=dev-qt/qtphonon-${QT_MINIMAL}:4 ) )
-	webkit? ( >=dev-qt/qtwebkit-${QT_MINIMAL}:4 )
+	phonon? ( || ( media-libs/phonon dev-qt/qtphonon:4 ) )
+	webkit? ( dev-qt/qtwebkit:4 )
 "
 
 RDEPEND="
-	>=dev-qt/qtcore-${QT_MINIMAL}:4[ssl?]
+	dev-qt/qtcore:4[ssl?]
 	monolithic? (
 		${SERVER_RDEPEND}
 		${GUI_RDEPEND}

@@ -1,6 +1,14 @@
 # ChangeLog for www-client/seamonkey
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/seamonkey/ChangeLog,v 1.484 2014/03/22 20:17:31 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/seamonkey/ChangeLog,v 1.486 2014/04/11 06:44:03 polynomial-c Exp $
+
+  11 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -seamonkey-2.24.ebuild,
+  seamonkey-2.25.ebuild:
+  Use official firefox patchset from Anarchy. Removed old.
+
+  02 Apr 2014; Ian Stakenvicius (_AxS_) <axs@gentoo.org> seamonkey-2.24.ebuild,
+  seamonkey-2.25.ebuild:
+  disable the forcing of ld.gold in the mozilla build system, bug 494364
 
   22 Mar 2014; Agostino Sarubbo <ago@gentoo.org> seamonkey-2.25.ebuild:
   Stable for x86, wrt bug #505072

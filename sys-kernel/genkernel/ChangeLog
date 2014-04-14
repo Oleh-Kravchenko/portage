@@ -1,6 +1,19 @@
 # ChangeLog for sys-kernel/genkernel
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/genkernel/ChangeLog,v 1.375 2014/03/17 16:33:56 ryao Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/genkernel/ChangeLog,v 1.379 2014/04/11 16:37:23 jer Exp $
+
+  11 Apr 2014; Jeroen Roovers <jer@gentoo.org> genkernel-3.4.49.ebuild:
+  Stable for HPPA (bug #506404).
+
+  09 Apr 2014; Richard Yao <ryao@gentoo.org> genkernel-3.4.45.1.ebuild,
+  genkernel-3.4.48.ebuild, genkernel-3.4.49.ebuild, genkernel-9999.ebuild:
+  sys-boot/genkernel does not support sys-boot/grub:2[-multislot] at this time.
+
+  07 Apr 2014; Markus Meier <maekke@gentoo.org> genkernel-3.4.49.ebuild:
+  arm stable, bug #506404
+
+  01 Apr 2014; Richard Yao <ryao@gentoo.org> genkernel-3.4.49.ebuild:
+  Stable for amd64, wrt bug #506404
 
 *genkernel-3.4.49 (17 Mar 2014)
 

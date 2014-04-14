@@ -1,6 +1,18 @@
 # ChangeLog for sys-fs/udev
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/ChangeLog,v 1.1021 2014/03/29 06:22:00 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/ChangeLog,v 1.1024 2014/04/08 21:01:41 ssuominen Exp $
+
+  08 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> udev-9999.ebuild:
+  Finetune the 80-net-name-slot.rules migration code a bit and remove
+  unnecessary "then" since net_move=no is already declared above.
+
+  05 Apr 2014; Jeroen Roovers <jer@gentoo.org> udev-212-r1.ebuild:
+  Stable for HPPA (bug #505962).
+
+  03 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> udev-212-r1.ebuild,
+  udev-9999.ebuild:
+  Punt USE="openrc" and always pull in sys-fs/udev-init-scripts to match
+  behavior of sys-apps/systemd's ebuild.
 
   29 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> -udev-212.ebuild:
   old

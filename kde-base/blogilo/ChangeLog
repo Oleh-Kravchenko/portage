@@ -1,6 +1,15 @@
 # ChangeLog for kde-base/blogilo
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/kde-base/blogilo/ChangeLog,v 1.161 2014/03/11 13:07:08 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-base/blogilo/ChangeLog,v 1.163 2014/04/05 18:14:15 dilfridge Exp $
+
+  05 Apr 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  blogilo-4.4.11.1.ebuild:
+  EAPI bump
+
+*blogilo-4.12.4 (01 Apr 2014)
+
+  01 Apr 2014; Johannes Huber <johu@gentoo.org> +blogilo-4.12.4.ebuild:
+  Version bump KDE SC 4.12.4
 
   11 Mar 2014; Johannes Huber <johu@gentoo.org> -blogilo-4.12.2.ebuild:
   Remove KDE SC 4.12.2

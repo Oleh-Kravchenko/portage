@@ -1,6 +1,61 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1189 2014/03/30 09:14:56 swift Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1204 2014/04/11 08:30:44 mgorny Exp $
+
+  11 Apr 2014; Michał Górny <mgorny@gentoo.org> multibuild.eclass:
+  Enable reflinking in multibuild_copy_sources.
+
+  10 Apr 2014; Michał Górny <mgorny@gentoo.org> multibuild.eclass:
+  Use a more portable and clobbering "cp" call for multibuild_merge_root().
+
+  09 Apr 2014; Tim Harder <radhermit@gentoo.org> java-utils-2.eclass:
+  Only refer to DESTTREE within the src_install phase.
+
+  09 Apr 2014; Michał Górny <mgorny@gentoo.org> python-r1.eclass:
+  Re-enable the python_gen_usedep empty argument check.
+
+  09 Apr 2014; Michał Górny <mgorny@gentoo.org> python-r1.eclass:
+  Comment out the python_gen_usedep empty argument check until all
+  python_gen_cond_dep uses are fixed.
+
+  09 Apr 2014; Michał Górny <mgorny@gentoo.org> python-r1.eclass:
+  Throw explicit error if python_gen_usedep does not match any implementation
+  rather than outputting an empty (invalid) USE-dep.
+
+  08 Apr 2014; Michał Górny <mgorny@gentoo.org> python-any-r1.eclass,
+  python-r1.eclass, python-utils-r1.eclass, tests/python-utils-r1.sh:
+  Disable pypy2_0 and clean up after it.
+
+  05 Apr 2014; Michał Górny <mgorny@gentoo.org> python-r1.eclass:
+  Fix improper suggestions to put unsupported implmentations in USE_PYTHON, bug
+  #506814.
+
+  05 Apr 2014; Alexandre Rostovtsev <tetromino@gentoo.org>
+  gst-plugins10.eclass:
+  Use LC_ALL=C for tr call; fixes invalid configure options when using Turkish
+  locale (bug #490894, thanks to Emre Eryilmaz and Samuli Suominen).
+
+  03 Apr 2014; Michał Górny <mgorny@gentoo.org> autotools-multilib.eclass,
+  cmake-multilib.eclass, multilib-build.eclass:
+  Make multilib@g.o the maintainer of multilib eclasses.
+
+  03 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Add a note not to add new ABIs without contacting multilib.
+
+  03 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Revert incomplete and broken s390 support. Please finally contact multilib
+  before playing with this.
+
+  01 Apr 2014; Michał Górny <mgorny@gentoo.org> tests/python-utils-r1.sh:
+  Add slot op to expected PyPy dependency string.
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> java-ant-2.eclass:
+  Ban the java-ant_remove-taskdefs() function and remove Python dependency, bug
+  #479838.
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Revert the introduction of ABI_PPC due to a lot of breakage, bug #506298 to
+  track it.
 
   30 Mar 2014; Sven Vermeulen <swift@gentoo.org> selinux-policy-2.eclass:
   Add support for USE triggered policy decisions

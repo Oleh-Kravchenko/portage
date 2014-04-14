@@ -1,12 +1,12 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/mpv/mpv-9999.ebuild,v 1.40 2014/03/10 19:32:43 maksbotan Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/mpv/mpv-9999.ebuild,v 1.44 2014/04/11 17:07:41 swift Exp $
 
 EAPI=5
 
 EGIT_REPO_URI="https://github.com/mpv-player/mpv.git"
 
-inherit base waf-utils pax-utils
+inherit eutils waf-utils pax-utils fdo-mime gnome2-utils
 [[ ${PV} == *9999* ]] && inherit git-r3
 
 WAF_V="1.7.15"
@@ -23,7 +23,7 @@ SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux"
 IUSE="+alsa bluray bs2b +cdio -doc-pdf dvb +dvd dvdnav +enca encode +iconv jack -joystick
 jpeg ladspa lcms +libass libcaca libguess lirc lua luajit +mpg123 -openal +opengl
-oss portaudio +postproc pulseaudio pvr +quvi -radio samba +shm v4l vaapi vcd vdpau
+oss portaudio +postproc pulseaudio pvr +quvi -radio samba selinux +shm v4l vaapi vcd vdpau
 vf-dlopen wayland +X xinerama +xscreensaver +xv"
 
 REQUIRED_USE="
@@ -51,6 +51,7 @@ RDEPEND+="
 	sys-libs/ncurses
 	sys-libs/zlib
 	X? (
+		x11-libs/libX11
 		x11-libs/libXext
 		x11-libs/libXxf86vm
 		opengl? ( virtual/opengl )
@@ -65,10 +66,8 @@ RDEPEND+="
 	bluray? ( >=media-libs/libbluray-0.2.1 )
 	bs2b? ( media-libs/libbs2b )
 	cdio? (
-		|| (
-			dev-libs/libcdio-paranoia
-			<dev-libs/libcdio-0.90[-minimal]
-		)
+		dev-libs/libcdio
+		dev-libs/libcdio-paranoia
 	)
 	dvb? ( virtual/linuxtv-dvb-headers )
 	dvd? (
@@ -78,7 +77,7 @@ RDEPEND+="
 	enca? ( app-i18n/enca )
 	iconv? ( virtual/libiconv )
 	jack? ( media-sound/jack-audio-connection-kit )
-	jpeg? ( virtual/jpeg )
+	jpeg? ( virtual/jpeg:0 )
 	ladspa? ( media-libs/ladspa-sdk )
 	libass? (
 		>=media-libs/libass-0.9.10:=[enca?,fontconfig]
@@ -109,6 +108,7 @@ RDEPEND+="
 		)
 	)
 	samba? ( net-fs/samba )
+	selinux? ( sec-policy/selinux-mplayer )
 	v4l? ( media-libs/libv4l )
 	wayland? (
 		>=dev-libs/wayland-1.3.0
@@ -157,7 +157,7 @@ src_unpack() {
 }
 
 src_prepare() {
-	base_src_prepare
+	epatch_user
 }
 
 src_configure() {
@@ -230,4 +230,18 @@ src_install() {
 	if use luajit; then
 		pax-mark -m "${ED}"usr/bin/mpv
 	fi
+}
+
+pkg_preinst() {
+	gnome2_icon_savelist
+}
+
+pkg_postinst() {
+	fdo-mime_desktop_database_update
+	gnome2_icon_cache_update
+}
+
+pkg_postrm() {
+	fdo-mime_desktop_database_update
+	gnome2_icon_cache_update
 }

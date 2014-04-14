@@ -1,6 +1,32 @@
 # ChangeLog for media-video/mpv
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/mpv/ChangeLog,v 1.61 2014/03/12 02:37:56 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/mpv/ChangeLog,v 1.67 2014/04/11 17:07:41 swift Exp $
+
+  11 Apr 2014; Sven Vermeulen <swift@gentoo.org> mpv-0.3.5.ebuild,
+  mpv-0.3.6.ebuild, mpv-0.3.7.ebuild, mpv-9999.ebuild:
+  Add dependency to selinux-mplayer if USE=selinux is set, see bug #498578
+
+  07 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> mpv-0.3.7.ebuild,
+  mpv-9999.ebuild:
+  Depend on both, libcdio and libcdio-paranoia wrt #506942 by Julian Ospald.
+  Force SLOT="0" of virtual/jpeg for headers.
+
+  06 Apr 2014; Tom Wijsman <TomWij@gentoo.org> mpv-0.3.7.ebuild,
+  mpv-9999.ebuild:
+  Replace base inherit by eutils inherit. Update FDO MIME desktop database and
+  GNOME 2 icon list cache. Fixes bug #506940 and bug #506948, proxied commit for
+  Nikoli.
+
+  06 Apr 2014; Tom Wijsman <TomWij@gentoo.org> mpv-0.3.7.ebuild,
+  mpv-9999.ebuild:
+  Added missing x11-libs/libX11 dependency; fixes bug #506942, proxied commit
+  for Nikoli.
+
+*mpv-0.3.7 (02 Apr 2014)
+
+  02 Apr 2014; Tom Wijsman <TomWij@gentoo.org> +mpv-0.3.7.ebuild, metadata.xml:
+  Version bump to 0.3.7. Corrected USE flag description of dvdnav. Proxied
+  commit for Nikoli.
 
   12 Mar 2014; Patrick Lauer <patrick@gentoo.org> metadata.xml:
   Remove unneeded useflag description from metadata.xml

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/kde-misc/plasma-nm/plasma-nm-0.9.3.3.ebuild,v 1.3 2014/03/14 13:46:50 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-misc/plasma-nm/plasma-nm-0.9.3.3.ebuild,v 1.7 2014/04/13 08:36:33 ago Exp $
 
 EAPI=5
 
@@ -11,7 +11,7 @@ DECLARATIVE_REQUIRED="always"
 inherit kde4-base
 
 if [[ ${KDE_BUILD_TYPE} != live ]]; then
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="amd64 x86"
 	SRC_URI="mirror://kde/unstable/${PN}/${P}.tar.xz"
 else
 	KEYWORDS=""
@@ -26,9 +26,13 @@ IUSE="debug modemmanager openconnect"
 
 DEPEND="
 	>=net-libs/libnm-qt-0.9.8.1[modemmanager?]
+	net-misc/mobile-broadband-provider-info
 	>=net-misc/networkmanager-0.9.8.0
 	modemmanager? ( >=net-libs/libmm-qt-1.0.0 )
-	openconnect? ( net-misc/openconnect )
+	openconnect? (
+		net-misc/networkmanager-openconnect
+		net-misc/openconnect
+	)
 "
 RDEPEND="${DEPEND}
 	!kde-misc/networkmanagement

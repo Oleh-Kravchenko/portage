@@ -1,6 +1,15 @@
 # ChangeLog for app-emacs/haskell-mode
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emacs/haskell-mode/ChangeLog,v 1.50 2014/03/15 19:27:10 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emacs/haskell-mode/ChangeLog,v 1.53 2014/04/13 16:25:34 ago Exp $
+
+  13 Apr 2014; Agostino Sarubbo <ago@gentoo.org> haskell-mode-13.07.ebuild:
+  Stable for ppc, wrt bug #504840
+
+  05 Apr 2014; Agostino Sarubbo <ago@gentoo.org> haskell-mode-13.07.ebuild:
+  Stable for x86, wrt bug #504840
+
+  31 Mar 2014; Chema Alonso <nimiux@gentoo.org> haskell-mode-13.07.ebuild:
+  Stable for amd64 wrt bug #504840
 
   15 Mar 2014; Ulrich Müller <ulm@gentoo.org> haskell-mode-13.07.ebuild:
   Perform tests in a separate directory because "make check" removes the

@@ -1,12 +1,12 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-misc/metromap/metromap-0.1.4-r1.ebuild,v 1.2 2013/05/31 15:06:33 maksbotan Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-misc/metromap/metromap-0.1.4-r1.ebuild,v 1.4 2014/04/08 18:57:59 maksbotan Exp $
 
 EAPI="5"
 
 PYTHON_COMPAT=( python{2_6,2_7} )
 
-inherit python-single-r1
+inherit python-single-r1 gnome2-utils
 
 DESCRIPTION="Metromap is simple pygtk+2 programm for finding paths in metro(subway) maps."
 HOMEPAGE="http://metromap.antex.ru/"
@@ -20,6 +20,7 @@ IUSE=""
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
+	dev-python/pygobject:2[${PYTHON_USEDEP}]
 	>=dev-python/pygtk-2.8:2[${PYTHON_USEDEP}]
 "
 DEPEND="${RDEPEND}"
@@ -34,4 +35,16 @@ src_compile() { :; }
 src_install() {
 	emake DESTDIR="${ED}"/usr install
 	python_optimize "${ED}"/usr/share/metromap/modules/
+}
+
+pkg_preinst() {
+	gnome2_icon_savelist
+}
+
+pkg_postinst() {
+	gnome2_icon_cache_update
+}
+
+pkg_postrm() {
+	gnome2_icon_cache_update
 }

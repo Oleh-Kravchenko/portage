@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/apr/apr-1.5.0-r2.ebuild,v 1.5 2014/03/30 19:56:20 nimiux Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/apr/apr-1.5.0-r2.ebuild,v 1.8 2014/04/13 16:23:12 ago Exp $
 
 EAPI="4"
 
@@ -12,12 +12,13 @@ SRC_URI="mirror://apache/apr/${P}.tar.bz2"
 
 LICENSE="Apache-2.0"
 SLOT="1"
-KEYWORDS="~alpha amd64 arm ~arm64 hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~ppc-aix ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="~alpha amd64 arm ~arm64 hppa ~ia64 ~mips ppc ~ppc64 ~s390 ~sh ~sparc x86 ~ppc-aix ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 IUSE="doc elibc_FreeBSD older-kernels-compatibility static-libs +urandom"
 
 RDEPEND="elibc_glibc? ( >=sys-apps/util-linux-2.16 )
 	elibc_mintlib? ( >=sys-apps/util-linux-2.18 )"
 DEPEND="${RDEPEND}
+	>=sys-devel/libtool-2.4.2
 	doc? ( app-doc/doxygen )"
 
 DOCS=(CHANGES NOTICE README)
