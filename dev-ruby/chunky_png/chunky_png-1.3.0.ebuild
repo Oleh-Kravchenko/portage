@@ -1,10 +1,10 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/chunky_png/chunky_png-1.3.0.ebuild,v 1.1 2014/02/11 13:05:54 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/chunky_png/chunky_png-1.3.0.ebuild,v 1.3 2014/05/11 22:16:10 vikraman Exp $
 
 EAPI=5
 
-USE_RUBY="ruby18 ruby19 ruby20 jruby"
+USE_RUBY="ruby19 ruby20 jruby"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
@@ -22,7 +22,7 @@ HOMEPAGE="http://wiki.github.com/wvanbergen/chunky_png"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 all_ruby_prepare() {

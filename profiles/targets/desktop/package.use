@@ -1,6 +1,22 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/targets/desktop/package.use,v 1.32 2014/03/27 22:18:16 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/targets/desktop/package.use,v 1.36 2014/05/08 12:54:49 chithanh Exp $
+
+# Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org> (08 May 2014)
+# Enable x11-libs/libxcb[xkb] as it is needed by x11-libs/libxkbcommon[X]
+# and the X flag is enabled by default in the desktop profile
+x11-libs/libxcb xkb
+
+# Alexandre Rostovtsev <tetromino@gentoo.org> (04 May 2014)
+# Enable cairo LTO by default only for desktop profiles, where cairo's
+# performance really matters, bug #509552
+x11-libs/cairo lto
+
+# Julian Ospald <hasufell@gentoo.org> (19 Apr 2014)
+# Overwrite default +sdl from desktop profile, since
+# this codepath is untested and should not be exposed
+# to regular desktop users wrt #506982
+media-video/mpv -sdl
 
 # Samuli Suominen <ssuominen@gentoo.org> (15 May 2012)
 # Replaced by USE="udisks" in make.defaults for -r1 and higher

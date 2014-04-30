@@ -1,6 +1,36 @@
 # ChangeLog for www-plugins/adobe-flash
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-plugins/adobe-flash/ChangeLog,v 1.245 2014/04/10 13:34:54 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-plugins/adobe-flash/ChangeLog,v 1.251 2014/05/14 15:20:41 jer Exp $
+
+  14 May 2014; Jeroen Roovers <jer@gentoo.org>
+  -adobe-flash-11.2.202.356.ebuild:
+  Old.
+
+  14 May 2014; Mikle Kolyada <zlogene@gentoo.org>
+  adobe-flash-11.2.202.359.ebuild:
+  amd64/x86 stable wrt bug #510278
+
+*adobe-flash-11.2.202.359 (14 May 2014)
+
+  14 May 2014; Jeroen Roovers <jer@gentoo.org>
+  +adobe-flash-11.2.202.359.ebuild:
+  Version bump (bug #510278).
+
+  30 Apr 2014; Jeroen Roovers <jer@gentoo.org>
+  -adobe-flash-11.2.202.350.ebuild, adobe-flash-11.2.202.356.ebuild:
+  Stable for AMD64 x86 (bug #508986).
+
+  28 Apr 2014; Michał Górny <mgorny@gentoo.org> adobe-flash-11.2.202.350.ebuild,
+  adobe-flash-11.2.202.356.ebuild:
+  Replace multilib_build_binaries with multilib_is_native_abi, in order to put
+  an end to the confusion introduced by having two functions, the proper one
+  suggesting it is just for binaries.
+
+*adobe-flash-11.2.202.356 (28 Apr 2014)
+
+  28 Apr 2014; Jeroen Roovers <jer@gentoo.org>
+  +adobe-flash-11.2.202.356.ebuild:
+  Version bump.
 
   10 Apr 2014; Jeroen Roovers <jer@gentoo.org>
   -adobe-flash-11.2.202.346.ebuild, adobe-flash-11.2.202.350.ebuild:

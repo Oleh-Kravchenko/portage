@@ -1,6 +1,26 @@
 # ChangeLog for dev-ruby/hoe
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/hoe/ChangeLog,v 1.152 2014/04/05 23:32:10 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/hoe/ChangeLog,v 1.156 2014/05/15 00:34:17 mrueg Exp $
+
+  15 May 2014; Manuel Rüger <mrueg@gentoo.org> -hoe-3.9.0-r1.ebuild:
+  Cleanup old.
+
+*hoe-3.12.0 (25 Apr 2014)
+
+  25 Apr 2014; Manuel Rüger <mrueg@gentoo.org> +hoe-3.12.0.ebuild,
+  -hoe-3.9.0.ebuild:
+  Version bump.
+
+*hoe-3.11.0 (21 Apr 2014)
+
+  21 Apr 2014; Hans de Graaff <graaff@gentoo.org> +hoe-3.11.0.ebuild:
+  Version bump. Remove Gem.bin_wrapper use that is broken on Gentoo.
+
+*hoe-3.9.0-r1 (18 Apr 2014)
+
+  18 Apr 2014; Manuel Rüger <mrueg@gentoo.org> +hoe-3.9.0-r1.ebuild,
+  hoe-3.9.0.ebuild:
+  Move ruby21 target to -r1. Add missing die statement.
 
   05 Apr 2014; Manuel Rüger <mrueg@gentoo.org> hoe-2.12.5.ebuild,
   hoe-2.13.0-r1.ebuild, hoe-3.9.0.ebuild:

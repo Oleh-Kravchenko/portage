@@ -20,7 +20,7 @@
    always a description without a lang attribute. Also there are no overlapping
    descriptions allowed (multiple description tags with the same language)
 
-   $Header: /var/cvsroot/gentoo/xml/htdocs/proj/en/metastructure/herds/herds.xml,v 1.1092 2014/04/09 07:22:37 tomwij Exp $
+   $Header: /var/cvsroot/gentoo/xml/htdocs/proj/en/metastructure/herds/herds.xml,v 1.1099 2014/05/18 21:28:06 jauhien Exp $
 
 -->
 <herds>
@@ -94,6 +94,10 @@
   <maintainer>
       <email>yngwin@gentoo.org</email>
       <name>Ben de Groot</name>
+  </maintainer>
+  <maintainer>
+      <email>dlan@gentoo.org</email>
+      <name>Yixun Lan</name>
   </maintainer>
 </herd>
 <herd>
@@ -724,6 +728,10 @@
     <email>ryao@gentoo.org</email>
     <name>Richard Yao</name>
   </maintainer>
+  <maintainer>
+    <email>jauhien@gentoo.org</email>
+    <name>Jauhien Piatlicki</name>
+  </maintainer>
 </herd>
 <herd>
   <name>sci-astronomy</name>
@@ -819,6 +827,10 @@
     <email>gienah@gentoo.org</email>
     <name>Mark Wright</name>
   </maintainer>
+  <maintainer>
+    <email>jauhien@gentoo.org</email>
+    <name>Jauhien Piatlicki</name>
+  </maintainer>
 </herd>
 <herd>
   <name>sci-physics</name>
@@ -831,6 +843,10 @@
   <maintainer>
     <email>heroxbd@gentoo.org</email>
     <name>Benda Xu</name>
+  </maintainer>
+  <maintainer>
+    <email>jauhien@gentoo.org</email>
+    <name>Jauhien Piatlicki</name>
   </maintainer>
 </herd>
 <herd>
@@ -921,6 +937,10 @@
     <email>gienah@gentoo.org</email>
     <name>Mark Wright</name>
   </maintainer>
+  <maintainer>
+    <email>jauhien@gentoo.org</email>
+    <name>Jauhien Piatlicki</name>
+  </maintainer>
 </herd>
 <herd>
   <name>mozilla</name>
@@ -1000,6 +1020,10 @@
   <maintainer>
     <email>mrueg@gentoo.org</email>
     <name>Manuel Rüger</name>
+  </maintainer>
+  <maintainer>
+    <email>p8952@gentoo.org</email>
+    <name>Peter Wilmott</name>
   </maintainer>
 </herd>
 <herd>
@@ -1310,10 +1334,6 @@
     <name>Robin H. Johnson</name>
     <role>pam_ldap, nss_ldap, nss-db.</role>
   </maintainer>
-  <maintainer>
-    <email>constanze@gentoo.org</email>
-    <name>Constanze Hausner</name>
-  </maintainer>
 </herd>
 <herd>
   <name>kernel</name>
@@ -1591,6 +1611,14 @@
     <email>pinkbyte@gentoo.org</email>
     <name>Sergey Popov</name>
   </maintainer>
+  <maintainer>
+    <email>dlan@gentoo.org</email>
+    <name>Yixun Lan</name>
+  </maintainer>
+  <maintainer>
+    <email>mrueg@gentoo.org</email>
+    <name>Manuel Rüger</name>
+  </maintainer>
 </herd>
 <herd>
   <name>desktop-dock</name>
@@ -1714,10 +1742,6 @@
   <maintainer>
     <email>jer@gentoo.org</email>
     <name>Jeroen Roovers</name>
-  </maintainer>
-  <maintainer>
-    <email>constanze@gentoo.org</email>
-    <name>Constanze Hausner</name>
   </maintainer>
   <maintainer>
     <email>radhermit@gentoo.org</email>
@@ -2021,6 +2045,10 @@
     <email>jmbsvicetto@gentoo.org</email>
     <name>Jorge Manuel B. S. Vicetto</name>
   </maintainer>
+  <maintainer>
+    <email>grknight@gentoo.org</email>
+    <name>Brian Evans</name>
+  </maintainer>
 </herd>
 <herd>
   <name>net-ftp</name>
@@ -2050,6 +2078,10 @@
     <maintainer>
       <email>pinkbyte@gentoo.org</email>
       <name>Sergey Popov</name>
+    </maintainer>
+    <maintainer>
+      <email>jauhien@gentoo.org</email>
+      <name>Jauhien Piatlicki</name>
     </maintainer>
 </herd>
 <herd>
@@ -2203,6 +2235,10 @@
     <maintainer>
       <email>xmw@gentoo.org</email>
       <name>Michael Weber</name>
+    </maintainer>
+    <maintainer>
+      <email>zx2c4@gentoo.org</email>
+      <name>Jason A. Donenfeld</name>
     </maintainer>
 </herd>
 <herd>

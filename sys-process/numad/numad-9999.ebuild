@@ -1,15 +1,14 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-process/numad/numad-9999.ebuild,v 1.3 2014/01/20 07:50:15 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-process/numad/numad-9999.ebuild,v 1.4 2014/04/23 19:49:02 vapier Exp $
 
 EAPI=5
 
-inherit git-r3 linux-info toolchain-funcs
+inherit linux-info toolchain-funcs eutils
 
-if [[ ${PV} = "9999" ]]; then
-	inherit git-2
+if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="git://git.fedorahosted.org/numad.git"
-	KEYWORDS=""
+	inherit git-2
 else
 	SRC_URI=""
 	KEYWORDS="~amd64 ~x86 -arm -s390"
@@ -25,9 +24,7 @@ IUSE=""
 CONFIG_CHECK="~NUMA ~CPUSETS"
 
 src_prepare() {
-	EPATCH_FORCE=yes EPATCH_SUFFIX="patch" EPATCH_SOURCE="${FILESDIR}" \
-		epatch
-
+	epatch "${FILESDIR}"/0001-Fix-man-page-directory-creation.patch
 	tc-export CC
 }
 

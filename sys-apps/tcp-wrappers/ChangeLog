@@ -1,6 +1,26 @@
 # ChangeLog for sys-apps/tcp-wrappers
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/tcp-wrappers/ChangeLog,v 1.57 2014/04/13 16:21:40 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/tcp-wrappers/ChangeLog,v 1.63 2014/05/17 14:05:32 ago Exp $
+
+  17 May 2014; Agostino Sarubbo <ago@gentoo.org> tcp-wrappers-7.6.22-r1.ebuild:
+  Stable for alpha, wrt bug #502920
+
+  14 May 2014; Agostino Sarubbo <ago@gentoo.org> tcp-wrappers-7.6.22-r1.ebuild:
+  Stable for sparc, wrt bug #502920
+
+  13 May 2014; Agostino Sarubbo <ago@gentoo.org> tcp-wrappers-7.6.22-r1.ebuild:
+  Stable for ia64, wrt bug #502920
+
+  28 Apr 2014; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  Fix typo in USE=netgroups description #508928 by 8573dd.
+
+  28 Apr 2014; Michał Górny <mgorny@gentoo.org> tcp-wrappers-7.6.22-r1.ebuild:
+  Replace multilib_build_binaries with multilib_is_native_abi, in order to put
+  an end to the confusion introduced by having two functions, the proper one
+  suggesting it is just for binaries.
+
+  20 Apr 2014; Agostino Sarubbo <ago@gentoo.org> tcp-wrappers-7.6.22-r1.ebuild:
+  Stable for ppc64, wrt bug #502920
 
   13 Apr 2014; Agostino Sarubbo <ago@gentoo.org> tcp-wrappers-7.6.22-r1.ebuild:
   Stable for ppc, wrt bug #502920

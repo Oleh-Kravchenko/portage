@@ -1,6 +1,33 @@
 # ChangeLog for sys-apps/gentoo-functions
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/gentoo-functions/ChangeLog,v 1.7 2014/04/06 12:14:02 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/gentoo-functions/ChangeLog,v 1.13 2014/05/10 17:20:59 jlec Exp $
+
+  10 May 2014; Justin Lecher <jlec@gentoo.org> gentoo-functions-0.4.ebuild,
+  gentoo-functions-0.5.ebuild, gentoo-functions-9999.ebuild, metadata.xml:
+  Respect CC
+
+  09 May 2014; William Hubbs <williamh@gentoo.org> gentoo-functions-9999.ebuild:
+  sync live ebuild
+
+*gentoo-functions-0.5 (09 May 2014)
+
+  09 May 2014; William Hubbs <williamh@gentoo.org> +gentoo-functions-0.5.ebuild:
+  version bump
+
+*gentoo-functions-0.4 (08 May 2014)
+
+  08 May 2014; William Hubbs <williamh@gentoo.org> +gentoo-functions-0.4.ebuild:
+  version bump, adds consoletype for bug #509284
+
+*gentoo-functions-9999 (07 May 2014)
+
+  07 May 2014; William Hubbs <williamh@gentoo.org>
+  +gentoo-functions-9999.ebuild:
+  add live ebuild
+
+  02 May 2014; William Hubbs <williamh@gentoo.org>
+  -files/gentoo-functions-0.2.sh, -gentoo-functions-0.2.ebuild:
+  remove old version
 
   06 Apr 2014; Fabian Groffen <grobian@gentoo.org> gentoo-functions-0.3.ebuild:
   Added Prefix keywords, part of bug #504284

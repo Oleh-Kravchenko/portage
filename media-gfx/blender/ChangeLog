@@ -1,6 +1,49 @@
 # ChangeLog for media-gfx/blender
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-gfx/blender/ChangeLog,v 1.260 2014/03/20 16:56:34 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-gfx/blender/ChangeLog,v 1.268 2014/05/15 17:08:04 ulm Exp $
+
+  15 May 2014; Ulrich Müller <ulm@gentoo.org> blender-2.66-r1.ebuild,
+  blender-2.67b-r1.ebuild, blender-2.68.ebuild, blender-2.68a.ebuild,
+  blender-2.69.ebuild, blender-2.69-r1.ebuild, blender-2.70.ebuild,
+  blender-2.70-r1.ebuild, blender-2.70a-r3.ebuild:
+  Fix USE dependency on media-libs/libsdl, "audio" USE flag was renamed to
+  "sound", bug 357661.
+
+  11 May 2014; Pacho Ramos <pacho@gentoo.org> -blender-2.64a.ebuild,
+  metadata.xml:
+  Remove masked package (#286758)
+
+*blender-2.70a-r3 (09 May 2014)
+
+  09 May 2014; Julian Ospald <hasufell@gentoo.org> -blender-2.70a-r2.ebuild,
+  +blender-2.70a-r3.ebuild:
+  fix locale installation wrt #509156
+
+*blender-2.70a-r2 (24 Apr 2014)
+
+  24 Apr 2014; Julian Ospald <hasufell@gentoo.org> -blender-2.70a.ebuild,
+  -blender-2.70a-r1.ebuild, +blender-2.70a-r2.ebuild:
+  fix nls USE flag wrt #508550
+
+  18 Apr 2014; Julian Ospald <hasufell@gentoo.org> blender-2.70a-r1.ebuild,
+  +files/blender-2.70a-openmp.patch:
+  fix building with -openmp wrt #507738
+
+*blender-2.70a-r1 (16 Apr 2014)
+*blender-2.70-r1 (16 Apr 2014)
+*blender-2.69-r1 (16 Apr 2014)
+
+  16 Apr 2014; Julian Ospald <hasufell@gentoo.org> +blender-2.69-r1.ebuild,
+  +blender-2.70-r1.ebuild, +blender-2.70a-r1.ebuild:
+  reactivate binreloc wrt #507706
+
+  14 Apr 2014; Julian Ospald <hasufell@gentoo.org> blender-2.70a.ebuild:
+  add python3_4 support
+
+*blender-2.70a (14 Apr 2014)
+
+  14 Apr 2014; Julian Ospald <hasufell@gentoo.org> +blender-2.70a.ebuild:
+  version bump wrt #507618
 
 *blender-2.70 (20 Mar 2014)
 

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-212-r1.ebuild,v 1.7 2014/04/05 20:28:17 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-212-r1.ebuild,v 1.13 2014/05/14 18:25:40 ssuominen Exp $
 
 EAPI=5
 
@@ -9,6 +9,7 @@ inherit autotools bash-completion-r1 eutils linux-info multilib toolchain-funcs 
 if [[ ${PV} = 9999* ]]; then
 	EGIT_REPO_URI="git://anongit.freedesktop.org/systemd/systemd"
 	inherit git-2
+	patchset=
 else
 	patchset=1
 	SRC_URI="http://www.freedesktop.org/software/systemd/systemd-${PV}.tar.xz"
@@ -17,7 +18,7 @@ else
 					http://dev.gentoo.org/~ssuominen/${P}-patches-${patchset}.tar.xz
 					http://dev.gentoo.org/~williamh/dist/${P}-patches-${patchset}.tar.xz"
 			fi
-	KEYWORDS="~alpha ~amd64 ~arm ~arm64 hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
+	KEYWORDS="~alpha amd64 arm ~arm64 hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86"
 fi
 
 DESCRIPTION="Linux dynamic and persistent device naming support (aka userspace devfs)"
@@ -42,13 +43,14 @@ COMMON_DEPEND=">=sys-apps/util-linux-2.20
 		!<=app-emulation/emul-linux-x86-baselibs-20130224-r7
 		!app-emulation/emul-linux-x86-baselibs[-abi_x86_32(-)]
 	)"
+# Force new make >= -r4 to skip some parallel build issues
 DEPEND="${COMMON_DEPEND}
 	dev-util/gperf
 	sys-libs/libcap
 	virtual/os-headers
 	virtual/pkgconfig
-	!<sys-devel/make-3.82-r4
-	!<sys-kernel/linux-headers-3.7
+	>=sys-devel/make-3.82-r4
+	>=sys-kernel/linux-headers-3.9
 	doc? ( >=dev-util/gtk-doc-1.18 )"
 # Try with `emerge -C docbook-xml-dtd` to see the build failure without DTDs
 if [[ ${PV} = 9999* ]]; then
@@ -210,7 +212,7 @@ multilib_src_configure() {
 			--disable-manpages
 		)
 	fi
-	if multilib_build_binaries; then
+	if multilib_is_native_abi; then
 		econf_args+=(
 			$(use_enable static-libs static)
 			$(use_enable doc gtk-doc)
@@ -245,7 +247,7 @@ multilib_src_compile() {
 	# but not everything -- separate building of the binaries as a workaround,
 	# which will force internal libraries required for the helpers to be built
 	# early enough, like eg. libsystemd-shared.la
-	if multilib_build_binaries; then
+	if multilib_is_native_abi; then
 		local lib_targets=( libudev.la )
 		use gudev && lib_targets+=( libgudev-1.0.la )
 		emake "${lib_targets[@]}"
@@ -289,7 +291,7 @@ multilib_src_compile() {
 }
 
 multilib_src_install() {
-	if multilib_build_binaries; then
+	if multilib_is_native_abi; then
 		local lib_LTLIBRARIES="libudev.la" \
 			pkgconfiglib_DATA="src/libudev/libudev.pc"
 
@@ -481,9 +483,7 @@ pkg_postinst() {
 	local net_rules_path="${ROOT%/}"/etc/udev/rules.d
 	local net_name_slot="${net_rules_path}"/80-net-name-slot.rules
 	local net_setup_link="${net_rules_path}"/80-net-setup-link.rules
-	if [[ -e ${net_setup_link} ]]; then
-		net_move=no
-	else
+	if [[ ! -e ${net_setup_link} ]]; then
 		[[ -f ${net_name_slot} && $(sed -e "/^#/d" -e "/^\W*$/d" ${net_name_slot} | wc -l) == 0 ]] && net_move=yes
 		if [[ -L ${net_name_slot} && $(readlink ${net_name_slot}) == /dev/null ]]; then
 			net_move=yes

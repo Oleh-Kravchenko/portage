@@ -1,10 +1,57 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/base/package.use.mask,v 1.558 2014/04/12 17:29:59 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/base/package.use.mask,v 1.571 2014/05/19 20:04:37 aballier Exp $
 
 # This file requires >=portage-2.1.1
 # New entries go on top.
 #
+
+# Tom Wijsman <TomWij@gentoo.org> (14 May 2014)
+# Documentation generation needs APIviz which is not in the Portage tree yet.
+# Tracked in Gentoo bug #509602.
+dev-java/jboss-logging doc
+
+# Tom Wijsman <TomWij@gentoo.org> (02 May 2014)
+# Bluetooth support in MATE has incompatibilities with recent BlueZ versions.
+# If you want to try to get this working, unmask net-wireless/mate-bluetooth as 
+# well as the bluetooth USE flag on mate-extra/mate-user-share; I can't support 
+# this until the relevant upstreams have moved forward with their compatibility.
+#
+# https://bugs.gentoo.org/show_bug.cgi?id=508086
+# https://github.com/mate-desktop/mate-bluetooth/issues/22
+# http://mate-desktop.org/blog/2014-03-11-mate-desktop-singing-the-bluez
+mate-base/mate bluetooth
+mate-extra/mate-user-share bluetooth
+
+# Michał Górny <mgorny@gentoo.org> (26 Apr 2014)
+# (on behalf of Python team)
+# Keep 2.6 enabled to ease the migration.
+dev-lang/python-exec -python_targets_python2_6 -python_single_target_python2_6
+dev-python/python-exec -python_targets_python2_6 -python_single_target_python2_6
+
+# Tim Harder <radhermit@gentoo.org> (26 Apr 2014)
+# Masked until qt5 is in the tree
+>=media-video/mkvtoolnix-6.9.0 qt5
+
+# Pacho Ramos <pacho@gentoo.org> (26 Apr 2014)
+# Depends on long time obsolete goi, bug #508742
+=x11-misc/lightdm-1.4* introspection
+
+# Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org> (24 Apr 2014)
+# It's only supported on amd64
+dev-db/mariadb tokudb
+
+# Lars Wendler <polynomial-c@gentoo.org> (23 Apr 2014)
+# Not working on 64bit systems
+media-sound/lmms vst
+
+# Markos Chandras <hwoarang@gentoo.org> (20 Apr 2014)
+# Fails to build with recent polarssl (>=1.3). Bug #503604
+media-video/rtmpdump polarssl
+
+# Alexey Shvetsov <alexxy@gentoo.org> (16 Apr 2014)
+# libehca only works on ppc*
+sys-infiniband/ofed ofed_drivers_ehca
 
 # Andreas K. Huettel <dilfridge@gentoo.org> (12 Apr 2014)
 # Upstream regularly forgets to update the bindings after changes in API,
@@ -74,10 +121,6 @@ dev-libs/boost context
 # Since this is new and unused yet, keep it masked for now and check
 # with upstream if there is something that can be done to fix the issue.
 media-libs/cogl gstreamer
-
-# Rick Farina <zerochaos@gentoo.org> (20 Dec 2013)
-# masked pending rake 10 availability
-net-analyzer/metasploit development test
 
 # Johannes Huber <johu@gentoo.org> (18 Dec 2013)
 # net-libs/libotr-4.0.0 is masked. Please remove the use mask if package mask
@@ -150,7 +193,7 @@ app-editors/gvim luajit racket
 # Alexis Ballier <aballier@gentoo.org> (11 Aug 2013)
 # Multilib migrated version for binary compatibility.
 # Those useflags have deps that are not migrated yet.
-=media-video/ffmpeg-0.10* libass frei0r gnutls rtmp sdl openssl
+=media-video/ffmpeg-0.10* frei0r gnutls rtmp
 
 # Kacper Kowalik <xarthisius@gentoo.org> (09 Aug 2013)
 # Doesn't work on most profiles. Easier to mask here and

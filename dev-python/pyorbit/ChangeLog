@@ -1,6 +1,21 @@
 # ChangeLog for dev-python/pyorbit
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pyorbit/ChangeLog,v 1.81 2014/02/22 21:24:07 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pyorbit/ChangeLog,v 1.86 2014/05/17 15:31:13 ago Exp $
+
+  17 May 2014; Agostino Sarubbo <ago@gentoo.org> pyorbit-2.24.0-r1.ebuild:
+  Stable for alpha, wrt bug #508862
+
+  14 May 2014; Agostino Sarubbo <ago@gentoo.org> pyorbit-2.24.0-r1.ebuild:
+  Stable for sparc, wrt bug #508862
+
+  13 May 2014; Agostino Sarubbo <ago@gentoo.org> pyorbit-2.24.0-r1.ebuild:
+  Stable for ia64, wrt bug #508862
+
+  11 May 2014; Agostino Sarubbo <ago@gentoo.org> pyorbit-2.24.0-r1.ebuild:
+  Stable for ppc64, wrt bug #508862
+
+  10 May 2014; Agostino Sarubbo <ago@gentoo.org> pyorbit-2.24.0-r1.ebuild:
+  Stable for ppc, wrt bug #508862
 
   22 Feb 2014; Pacho Ramos <pacho@gentoo.org> pyorbit-2.24.0-r1.ebuild:
   Fix wrong commit, bug 502160

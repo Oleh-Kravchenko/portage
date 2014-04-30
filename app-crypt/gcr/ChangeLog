@@ -1,6 +1,34 @@
 # ChangeLog for app-crypt/gcr
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-crypt/gcr/ChangeLog,v 1.27 2014/03/09 11:53:16 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-crypt/gcr/ChangeLog,v 1.35 2014/04/27 15:25:24 eva Exp $
+
+*gcr-3.12.0 (27 Apr 2014)
+
+  27 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org> +gcr-3.12.0.ebuild:
+  Version bump for Gnome 3.12. Now requires python while building.
+
+  23 Apr 2014; Pacho Ramos <pacho@gentoo.org>
+  -files/gcr-3.4.1-invalid-whitespace.patch, -gcr-3.4.1-r2.ebuild,
+  -gcr-3.8.2.ebuild:
+  Drop old
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> gcr-3.10.1.ebuild:
+  Stable for arm, wrt bug #507568
+
+  19 Apr 2014; Agostino Sarubbo <ago@gentoo.org> gcr-3.10.1.ebuild:
+  Stable for sparc, wrt bug #507568
+
+  18 Apr 2014; Agostino Sarubbo <ago@gentoo.org> gcr-3.10.1.ebuild:
+  Stable for alpha, wrt bug #507568
+
+  17 Apr 2014; Agostino Sarubbo <ago@gentoo.org> gcr-3.10.1.ebuild:
+  Stable for ia64, wrt bug #507568
+
+  16 Apr 2014; Agostino Sarubbo <ago@gentoo.org> gcr-3.10.1.ebuild:
+  Stable for ppc64, wrt bug #507568
+
+  14 Apr 2014; Agostino Sarubbo <ago@gentoo.org> gcr-3.10.1.ebuild:
+  Stable for ppc, wrt bug #507568
 
   09 Mar 2014; Pacho Ramos <pacho@gentoo.org> gcr-3.10.1.ebuild:
   x86 stable, bug 499954

@@ -1,6 +1,32 @@
 # ChangeLog for dev-python/pypy
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy/ChangeLog,v 1.60 2014/04/11 08:20:55 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy/ChangeLog,v 1.66 2014/05/18 14:24:02 floppym Exp $
+
+  18 May 2014; Mike Gilbert <floppym@gentoo.org> pypy-2.3.ebuild:
+  Remove cffi temporary files during installation.
+
+  16 May 2014; Michał Górny <mgorny@gentoo.org> -pypy-2.0.2.ebuild:
+  Remove old (slotted) version.
+
+*pypy-2.3 (15 May 2014)
+
+  15 May 2014; Mike Gilbert <floppym@gentoo.org>
+  +files/2.3-21_all_distutils_c++.patch, +pypy-2.3.ebuild:
+  Version bump.
+
+  14 May 2014; Mike Gilbert <floppym@gentoo.org> files/1.9-distutils.unixccompil
+  er.UnixCCompiler.runtime_library_dir_option.patch,
+  files/1.9-scripts-location.patch,
+  files/2.0.2-distutils-fix_handling_of_executables_and_flags.patch,
+  files/2.1-distutils-fix_handling_of_executables_and_flags.patch:
+  Normalize paths.
+
+  10 May 2014; Mike Gilbert <floppym@gentoo.org> pypy-2.2.1.ebuild:
+  Add optional dependency on dev-tcltk/tix, bug 413393.
+
+  09 May 2014; Michał Górny <mgorny@gentoo.org> pypy-2.2.1.ebuild:
+  Add USE=tk for tkinter modules. Update the list of cffi-compiled modules. Bug
+  #509794.
 
   11 Apr 2014; Michał Górny <mgorny@gentoo.org> pypy-2.0.2-r1.ebuild,
   pypy-2.2.1.ebuild:

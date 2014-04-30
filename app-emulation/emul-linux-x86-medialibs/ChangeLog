@@ -1,6 +1,34 @@
 # ChangeLog for app-emulation/emul-linux-x86-medialibs
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-medialibs/ChangeLog,v 1.88 2014/04/06 09:09:17 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-medialibs/ChangeLog,v 1.94 2014/05/09 07:52:56 mgorny Exp $
+
+  09 May 2014; Michał Górny <mgorny@gentoo.org> +files/remove-native-20140508,
+  emul-linux-x86-medialibs-20140508.ebuild:
+  Update remove-native wrt library soname changes.
+
+*emul-linux-x86-medialibs-20140508 (08 May 2014)
+
+  08 May 2014; Pacho Ramos <pacho@gentoo.org>
+  +emul-linux-x86-medialibs-20140508.ebuild,
+  -emul-linux-x86-medialibs-20140506.ebuild:
+  Version bump, drop old
+
+*emul-linux-x86-medialibs-20140506 (06 May 2014)
+
+  06 May 2014; Pacho Ramos <pacho@gentoo.org>
+  +emul-linux-x86-medialibs-20140506.ebuild:
+  Version bump
+
+  04 May 2014; Pacho Ramos <pacho@gentoo.org>
+  emul-linux-x86-medialibs-20140406.ebuild:
+  amd64 stable, bug 508322
+
+  28 Apr 2014; Pacho Ramos <pacho@gentoo.org>
+  emul-linux-x86-medialibs-20140406.ebuild:
+  Update libcdio dep too (#508936 by Sven Eden)
+
+  24 Apr 2014; Pacho Ramos <pacho@gentoo.org> files/remove-native:
+  Update remove-native (#508378 by Sven and Paolo Pedroni)
 
 *emul-linux-x86-medialibs-20140406 (06 Apr 2014)
 

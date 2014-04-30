@@ -1,6 +1,28 @@
 # ChangeLog for gnome-base/gdm
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-base/gdm/ChangeLog,v 1.398 2014/03/29 21:09:09 tetromino Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-base/gdm/ChangeLog,v 1.404 2014/05/10 19:37:26 pacho Exp $
+
+  10 May 2014; Pacho Ramos <pacho@gentoo.org> -gdm-3.10.0.1.ebuild,
+  gdm-3.10.0.1-r1.ebuild:
+  Really fix the vt issue with plymouth (#453392#c10), drop old
+
+  04 May 2014; Pacho Ramos <pacho@gentoo.org> gdm-3.10.0.1-r1.ebuild:
+  x86 stable, bug 508862
+
+  04 May 2014; Pacho Ramos <pacho@gentoo.org> gdm-3.10.0.1-r1.ebuild:
+  amd64 stable, bug 508862
+
+*gdm-3.12.1 (27 Apr 2014)
+
+  27 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org> +gdm-3.12.1.ebuild:
+  Version bump for Gnome 3.12.
+
+  27 Apr 2014; Patrick Lauer <patrick@gentoo.org> gdm-3.10.0.1-r1.ebuild,
+  gdm-3.10.0.1.ebuild, metadata.xml:
+  Remove unneeded useflag descriptions from metadata.xml, fix quoting
+
+  26 Apr 2014; Pacho Ramos <pacho@gentoo.org> -gdm-3.8.4-r3.ebuild:
+  drop old
 
   29 Mar 2014; Alexandre Rostovtsev <tetromino@gentoo.org> gdm-3.8.4-r3.ebuild,
   gdm-3.10.0.1.ebuild, gdm-3.10.0.1-r1.ebuild:

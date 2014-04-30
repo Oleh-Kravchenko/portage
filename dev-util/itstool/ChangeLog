@@ -1,6 +1,30 @@
 # ChangeLog for dev-util/itstool
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/itstool/ChangeLog,v 1.39 2014/03/28 02:23:36 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-util/itstool/ChangeLog,v 1.46 2014/04/25 22:32:38 eva Exp $
+
+*itstool-2.0.2 (25 Apr 2014)
+
+  25 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org> -itstool-1.2.0.ebuild,
+  +itstool-2.0.2.ebuild:
+  Version bump. Clean up old revision.
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> itstool-1.2.0-r1.ebuild:
+  Stable for arm, wrt bug #507568
+
+  19 Apr 2014; Agostino Sarubbo <ago@gentoo.org> itstool-1.2.0-r1.ebuild:
+  Stable for sparc, wrt bug #507568
+
+  18 Apr 2014; Agostino Sarubbo <ago@gentoo.org> itstool-1.2.0-r1.ebuild:
+  Stable for alpha, wrt bug #507568
+
+  17 Apr 2014; Agostino Sarubbo <ago@gentoo.org> itstool-1.2.0-r1.ebuild:
+  Stable for ia64, wrt bug #507568
+
+  16 Apr 2014; Agostino Sarubbo <ago@gentoo.org> itstool-1.2.0-r1.ebuild:
+  Stable for ppc64, wrt bug #507568
+
+  14 Apr 2014; Agostino Sarubbo <ago@gentoo.org> itstool-1.2.0-r1.ebuild:
+  Stable for ppc, wrt bug #507568
 
   28 Mar 2014; Jeroen Roovers <jer@gentoo.org> itstool-1.2.0-r1.ebuild:
   Stable for HPPA (bug #499954).

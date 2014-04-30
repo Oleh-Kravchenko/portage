@@ -1,6 +1,193 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1204 2014/04/11 08:30:44 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1258 2014/05/20 07:39:28 rhill Exp $
+
+  20 May 2014; Ryan Hill <rhill@gentoo.org> toolchain.eclass:
+  Depend on virtual/libintl rather than sys-devel/gettext (bug #499774).
+
+  19 May 2014; Mike Gilbert <floppym@gentoo.org> distutils-r1.eclass:
+  Work around bash-4.3 bug by setting PYTHONDONTWRITEBYTECODE to an empty
+  string.
+
+  18 May 2014; Brian Evans <grknight@gentoo.org> mysql_fx.eclass:
+  Fix a bug that prevented emerge --config to notice a changed datadir.
+
+  16 May 2014; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass:
+  Accept files with already-rewritten shebangs in _python_rewrite_shebang.
+  Necessary for proper python_doscript().
+
+  15 May 2014; Ryan Hill <rhill@gentoo.org> toolchain.eclass:
+  Allow parallel profiledbootstrap in newer versions (bug #508878 by Eric F.
+  Garioud). Clean up a bit. 
+
+  14 May 2014; Brian Evans <grknight@gentoo.org>
+  mysql-cmake.eclass, mysql-v2.eclass:
+  Sync mysql-v2 and mysql-cmake eclasses from the mysql overlay.
+
+  12 May 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Do not install wrapper headers when no ABI provides a particular header.
+
+  12 May 2014; Michael Palimaka <kensington@gentoo.org> -boost-utils.eclass, -office-ext.eclass:
+  Remove last-rited eclasses.
+
+  11 May 2014; Michał Górny <mgorny@gentoo.org> distutils-r1.eclass:
+  Fail when package installs "share" subdirectory to PyPy prefix. This should
+  stop people from adding PyPy support to packages that do not work due to the
+  bug in PyPy.
+
+  10 May 2014; Michał Górny <mgorny@gentoo.org> multibuild.eclass:
+  Remove the coreutils dependency since the old copying code has been replaced
+  by a more portable function. Bug #509984.
+
+  09 May 2014; Michał Górny <mgorny@gentoo.org> cmake-multilib.eclass:
+  Use multilib-minimal for phase functions.
+
+  09 May 2014; Michał Górny <mgorny@gentoo.org> emul-linux-x86.eclass:
+  Remove i686-* renamed tools as well with USE=abi_x86_32.
+
+  09 May 2014; Michał Górny <mgorny@gentoo.org> emul-linux-x86.eclass:
+  Remove wrapped headers with USE=abi_x86_32.
+
+  08 May 2014; Pacho Ramos <pacho@gentoo.org> emul-linux-x86.eclass:
+  Previous approach was wrong
+
+  07 May 2014; Pacho Ramos <pacho@gentoo.org> emul-linux-x86.eclass:
+  Don't remove wrappers in that dir
+
+  07 May 2014; Manuel Rüger <mrueg@gentoo.org> gems.eclass, ruby.eclass:
+  ruby.eclass and gems.eclass have been deprecated by ruby-ng.eclass and
+  ruby-fakegem.eclass. Removal in 30 days. See bug #479812.
+
+  07 May 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Use amd64 headers for i686 when USE=-abi_x86_32 to maintain compatibility
+  with current state of emul-linux. Fixes bug #509556.
+
+  06 May 2014; Pacho Ramos <pacho@gentoo.org> emul-linux-x86.eclass:
+  Move headers to a separate directory, bug #509556
+
+  06 May 2014; Jeroen Roovers <jer@gentoo.org> cmake-utils.eclass:
+  optionaly => optionally
+
+  04 May 2014; Alexandre Rostovtsev <tetromino@gentoo.org> vala.eclass:
+  Update VALA_MAX_API_VERSION (bug #509222, thanks to Arfrever) and modernize
+  VALA_MIN_API_VERSION too.
+
+  03 May 2014; Sergey Popov <pinkbyte@gentoo.org> leechcraft.eclass:
+  Omit some obsolete version checks
+
+  02 May 2014; Michał Górny <mgorny@gentoo.org> autotools-multilib.eclass,
+  multilib-minimal.eclass:
+  Run multilib_src_configure() in parallel. Bug #485046.
+
+  01 May 2014; Christoph Junghans <ottxor@gentoo.org> unpacker.eclass:
+  add app-arch/plzip support (bug #509264)
+
+  01 May 2014; Justin Lecher <jlec@gentoo.org> python-utils-r1.eclass:
+  Add missing @DESCRIPTION
+
+  01 May 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Add MULTILIB_COMPAT to limit the supported ABIs for pre-built packages.
+
+  30 Apr 2014; Michał Górny <mgorny@gentoo.org> autotools-multilib.eclass:
+  Update the doc and make it simpler.
+
+  29 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Disable header wrapping on unsupported ABIs.
+
+  29 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Reorder the operations in multilib_prepare_wrappers for easier reading.
+
+  29 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Create ${CHOST}-prefixed tool symlinks for multilib portage, to gain better
+  compatibility with plain multilib.
+
+  29 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Disable wrappers for multilib portage only. Enable them in non-multilib
+  profiles for consistency.
+
+  29 Apr 2014; Michał Górny <mgorny@gentoo.org> cmake-multilib.eclass,
+  multilib-build.eclass, multilib-minimal.eclass:
+  Move conditionals for enabling wrappers into multilib_prepare_wrappers() and
+  multilib_install_wrappers().
+
+  28 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Deprecate multilib_build_binaries, and switch the code to use
+  multilib_is_native_abi.
+
+  26 Apr 2014; Joerg Bornkessel <hd_brummy@gentoo.org> -vdr-plugin.eclass:
+  vdr-plugin.eclass removed, see #497058, #489116
+
+  25 Apr 2014; Johannes Huber <johu@gentoo.org> kde4-base.eclass:
+  Sync with kde overlay. Remove custom branch calculation for kde workspace.
+  Add kde-workspace 4.11.9 SRC_URI.
+
+  23 Apr 2014; Mikle Kolyada <zlogene@gentoo.org> -qt5-build.eclass:
+  Drop qt5-build eclass
+
+  23 Apr 2014; Patrick Lauer <patrick@gentoo.org> +qt5-build.eclass:
+  Add qt5-build eclass from qt overlay
+
+  22 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Remove the QA warning from multilib_is_native_abi() till we decide which one
+  to keep actually.
+
+  22 Apr 2014; Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org>
+  mysql-cmake.eclass, mysql-v2.eclass:
+  Sync mysql-v2 and mysql-cmake eclasses from the mysql overlay.
+
+  21 Apr 2014; Christoph Junghans <ottxor@gentoo.org> wxwidgets.eclass:
+  added prefix support (bug #401661)
+
+  21 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Add a QA warning to multilib_is_native_abi.
+
+  21 Apr 2014; Hans de Graaff <graaff@gentoo.org> ruby-fakegem.eclass:
+  Read the YAML metadata with UTF-8 by default and make an exception for older
+  ruby targets, since all new targets will support (and need) the UTF-8 flag.
+  Fixes bug 504642.
+
+  21 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  ...and make multilib_build_binaries stand-alone.
+
+  21 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Make multilib_is_native_abi equivalent to multilib_build_binaries, until all
+  ebuilds are fixed.
+
+  21 Apr 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Introduce extra multilib_native_use* wrappers encapulsating
+  multilib_build_binaries & use* functions.
+
+  21 Apr 2014; Michael Pagano <mpagano@gentoo.org> kernel-2.eclass:
+  Update 3.15-rcX temporary fix. See bug #507656.
+
+  19 Apr 2014; Michał Górny <mgorny@gentoo.org> python-r1.eclass:
+  Support substituting ${PYTHON_USEDEP} in python_gen_cond_dep().
+
+  17 Apr 2014; Michał Górny <mgorny@gentoo.org> git-r3.eclass:
+  Automatically switch to EGIT_CLONE_TYPE=single+tags for Google Code.
+
+  17 Apr 2014; Michael Palimaka <kensington@gentoo.org> kde4-meta.eclass:
+  Sync with overlay. Remove unused inherit. Switch to git-r3 eclass. Fix file
+  collisions wrt bug #499032 and bug #507860. Add more dep reduction. Cosmetic
+  improvements.
+
+  16 Apr 2014; Julian Ospald <hasufell@gentoo.org> waf-utils.eclass:
+  respect CFLAGS in linking command wrt #506956
+
+  16 Apr 2014; Alexey Shvetsov <alexxy@gentoo.org> openib.eclass:
+  Update openib eclass
+
+  16 Apr 2014; Alexey Shvetsov <alexxy@gentoo.org> openib.eclass:
+  Update openib eclass
+
+  15 Apr 2014; Michał Górny <mgorny@gentoo.org> multibuild.eclass:
+  multibuild_merge_root: re-introduce userland_BSD tar fallback, bug #507626.
+
+  14 Apr 2014; Tom Wijsman <TomWij@gentoo.org> kernel-2.eclass:
+  Temporarily fix up >=sys-kernel/git-sources-3.15_rc1.ebuild, bug #507656.
+
+  14 Apr 2014; Maxim Koltsov <maksbotan@gentoo.org> leechcraft.eclass:
+  Require at least gcc-4.8 for new LeechCraft packages
 
   11 Apr 2014; Michał Górny <mgorny@gentoo.org> multibuild.eclass:
   Enable reflinking in multibuild_copy_sources.

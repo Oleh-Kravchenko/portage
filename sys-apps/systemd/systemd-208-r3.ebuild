@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-208-r3.ebuild,v 1.3 2014/03/01 22:37:05 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-208-r3.ebuild,v 1.6 2014/05/03 17:35:41 mgorny Exp $
 
 EAPI=5
 
@@ -17,7 +17,7 @@ SRC_URI="http://www.freedesktop.org/software/systemd/${P}.tar.xz -> ${P}-r1.tar.
 
 LICENSE="GPL-2 LGPL-2.1 MIT public-domain"
 SLOT="0/1"
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="alpha amd64 arm ia64 ppc ppc64 sparc x86"
 IUSE="acl audit cryptsetup doc +firmware-loader gcrypt gudev http introspection
 	+kmod lzma pam policykit python qrcode selinux tcpd test
 	vanilla xattr"
@@ -137,6 +137,15 @@ src_prepare() {
 	autotools-utils_src_prepare
 }
 
+src_configure() {
+	# Keep using the one where the rules were installed.
+	MY_UDEVDIR=$(get_udevdir)
+	# Fix systems broken by bug #509454.
+	[[ ${MY_UDEVDIR} ]] || MY_UDEVDIR=/lib/udev
+
+	multilib-minimal_src_configure
+}
+
 multilib_src_configure() {
 	local myeconfargs=(
 		--localstatedir=/var
@@ -179,9 +188,6 @@ multilib_src_configure() {
 		QUOTAON=/usr/sbin/quotaon
 		QUOTACHECK=/usr/sbin/quotacheck
 	)
-
-	# Keep using the one where the rules were installed.
-	MY_UDEVDIR=$(get_udevdir)
 
 	if use firmware-loader; then
 		myeconfargs+=(

@@ -1,6 +1,42 @@
 # ChangeLog for media-libs/mesa
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/mesa/ChangeLog,v 1.549 2014/04/08 20:03:06 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/mesa/ChangeLog,v 1.558 2014/05/15 07:39:40 chithanh Exp $
+
+  15 May 2014; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  mesa-10.1.3.ebuild:
+  Add forgotten pax-utils inherit, bug #506412.
+
+*mesa-10.1.3 (14 May 2014)
+
+  14 May 2014; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +mesa-10.1.3.ebuild:
+  Version bump, bug #510086. Add gettext dependency, bug #502418. Add pax
+  marking to llvmpipe tests, bug #506412.
+
+  01 May 2014; Michał Górny <mgorny@gentoo.org> mesa-10.1.1.ebuild:
+  Remove --enable-llvm-shared-libs since the switch is broken in this version
+  and causes shared linking to be disabled. In fact, the default is for shared
+  linking to be enabled, so removing the switch leaves it that way.
+
+  29 Apr 2014; Michał Górny <mgorny@gentoo.org> mesa-10.1.1.ebuild:
+  Restore libxml2 dep that was removed prematurely, bug #509066.
+
+*mesa-10.1.1 (28 Apr 2014)
+
+  28 Apr 2014; Matt Turner <mattst88@gentoo.org> +mesa-10.1.1.ebuild:
+  Version bump to 10.1.1, bug #508472.
+
+  19 Apr 2014; Agostino Sarubbo <ago@gentoo.org> mesa-10.0.4.ebuild:
+  Stable for sparc, wrt bug #500368
+
+  18 Apr 2014; Agostino Sarubbo <ago@gentoo.org> mesa-10.0.4.ebuild:
+  Stable for alpha, wrt bug #500368
+
+  17 Apr 2014; Agostino Sarubbo <ago@gentoo.org> mesa-10.0.4.ebuild:
+  Stable for ia64, wrt bug #500368
+
+  16 Apr 2014; Agostino Sarubbo <ago@gentoo.org> mesa-10.0.4.ebuild:
+  Stable for ppc64, wrt bug #500368
 
   08 Apr 2014; Agostino Sarubbo <ago@gentoo.org> mesa-10.0.4.ebuild:
   Stable for ppc, wrt bug #500368

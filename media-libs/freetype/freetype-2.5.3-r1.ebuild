@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/freetype/freetype-2.5.3-r1.ebuild,v 1.3 2014/03/28 03:19:02 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/freetype/freetype-2.5.3-r1.ebuild,v 1.5 2014/04/28 17:49:21 mgorny Exp $
 
 EAPI=5
 
@@ -24,12 +24,16 @@ DEPEND="sys-libs/zlib[${MULTILIB_USEDEP}]
 	bzip2? ( app-arch/bzip2[${MULTILIB_USEDEP}] )
 	harfbuzz? ( media-libs/harfbuzz[truetype,${MULTILIB_USEDEP}] )
 	png? ( media-libs/libpng[${MULTILIB_USEDEP}] )
-	X?	( x11-libs/libX11[${MULTILIB_USEDEP}]
-		  x11-libs/libXau[${MULTILIB_USEDEP}]
-		  x11-libs/libXdmcp[${MULTILIB_USEDEP}] )"
+	utils? (
+		X? (
+			x11-libs/libX11[${MULTILIB_USEDEP}]
+			x11-libs/libXau[${MULTILIB_USEDEP}]
+			x11-libs/libXdmcp[${MULTILIB_USEDEP}]
+		)
+	)"
 RDEPEND="${DEPEND}
 	infinality? ( media-libs/fontconfig-infinality )
-	abi_x86_32? ( !app-emulation/emul-linux-x86-xlibs[-abi_x86_32(-)] )"
+	abi_x86_32? ( utils? ( !app-emulation/emul-linux-x86-xlibs[-abi_x86_32(-)] ) )"
 
 src_prepare() {
 	enable_option() {
@@ -114,7 +118,7 @@ multilib_src_configure() {
 multilib_src_compile() {
 	default
 
-	if multilib_build_binaries && use utils; then
+	if multilib_is_native_abi && use utils; then
 		einfo "Building utils"
 		# fix for Prefix, bug #339334
 		emake \
@@ -126,7 +130,7 @@ multilib_src_compile() {
 multilib_src_install() {
 	default
 
-	if multilib_build_binaries && use utils; then
+	if multilib_is_native_abi && use utils; then
 		einfo "Installing utils"
 		rm "${WORKDIR}"/ft2demos-${PV}/bin/README || die
 		local ft2demo

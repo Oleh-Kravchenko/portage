@@ -1,6 +1,18 @@
 # ChangeLog for app-emulation/lxc
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/lxc/ChangeLog,v 1.46 2013/09/10 05:22:55 maekke Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/lxc/ChangeLog,v 1.48 2014/05/03 18:43:36 hwoarang Exp $
+
+*lxc-1.0.3 (03 May 2014)
+
+  03 May 2014; Markos Chandras <hwoarang@gentoo.org> +lxc-1.0.3.ebuild,
+  files/lxc_at.service, metadata.xml:
+  Version bump to 1.0.3
+
+*lxc-0.8.0-r2 (19 Apr 2014)
+
+  19 Apr 2014; Pacho Ramos <pacho@gentoo.org> +files/lxc_at.service,
+  +lxc-0.8.0-r2.ebuild:
+  Add unit file (#507750 by Joachim Herb)
 
   10 Sep 2013; Markus Meier <maekke@gentoo.org> lxc-0.8.0-r1.ebuild:
   add ~arm, bug #372693

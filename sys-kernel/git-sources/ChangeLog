@@ -1,6 +1,40 @@
 # ChangeLog for sys-kernel/git-sources
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/git-sources/ChangeLog,v 1.1379 2014/04/06 15:04:29 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/git-sources/ChangeLog,v 1.1385 2014/05/09 21:38:19 mpagano Exp $
+
+*git-sources-3.15_rc5 (09 May 2014)
+
+  09 May 2014; Mike Pagano <mpagano@gentoo.org> +git-sources-3.15_rc5.ebuild:
+  Version bump
+
+*git-sources-3.15_rc4 (05 May 2014)
+
+  05 May 2014; Mike Pagano <mpagano@gentoo.org> +git-sources-3.15_rc4.ebuild:
+  Version bump
+
+*git-sources-3.15_rc3 (28 Apr 2014)
+
+  28 Apr 2014; Tom Wijsman <TomWij@gentoo.org> +git-sources-3.15_rc3.ebuild:
+  Linux patch 3.15-rc3.
+
+  21 Apr 2014; Mike Pagano <mpagano@gentoo.org> git-sources-3.15_rc1.ebuild,
+  git-sources-3.15_rc2.ebuild:
+  Add patch DEPEND due to bug #507656
+
+*git-sources-3.15_rc2 (21 Apr 2014)
+
+  21 Apr 2014; Michael Pagano <mpagano@gentoo.org>
+  +git-sources-3.15_rc2.ebuild:
+  Version bump
+
+*git-sources-3.15_rc1 (14 Apr 2014)
+
+  14 Apr 2014; Mike Pagano <mpagano@gentoo.org> -git-sources-3.14_rc1.ebuild,
+  -git-sources-3.14_rc2.ebuild, -git-sources-3.14_rc3.ebuild,
+  -git-sources-3.14_rc4.ebuild, -git-sources-3.14_rc5.ebuild,
+  -git-sources-3.14_rc6.ebuild, -git-sources-3.14_rc7.ebuild,
+  -git-sources-3.14_rc8.ebuild, +git-sources-3.15_rc1.ebuild:
+  Version bump. Remove old
 
   06 Apr 2014; Mike Frysinger <vapier@gentoo.org> git-sources-3.14_rc8.ebuild:
   Add arm64/s390 love.

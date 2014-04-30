@@ -1,6 +1,35 @@
 # ChangeLog for media-libs/libsdl2
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libsdl2/ChangeLog,v 1.11 2014/04/05 15:59:09 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libsdl2/ChangeLog,v 1.18 2014/05/15 12:34:42 ulm Exp $
+
+  15 May 2014; Ulrich Müller <ulm@gentoo.org> libsdl2-2.0.1-r1.ebuild,
+  libsdl2-2.0.2.ebuild, libsdl2-2.0.2-r1.ebuild, libsdl2-2.0.3.ebuild:
+  QA: Rename "audio" USE flag to "sound", bug 357661.
+
+  13 May 2014; Julian Ospald <hasufell@gentoo.org> libsdl2-2.0.2-r1.ebuild,
+  libsdl2-2.0.3.ebuild, +files/libsdl2-2.0.2-gles-wayland.patch,
+  +files/libsdl2-2.0.3-gles-wayland.patch:
+  fix build with +wayland -gles wrt #510090
+
+*libsdl2-2.0.3 (12 May 2014)
+
+  12 May 2014; Julian Ospald <hasufell@gentoo.org> +libsdl2-2.0.3.ebuild,
+  +files/libsdl2-2.0.3-static-libs.patch:
+  version bump
+
+  10 May 2014; Julian Ospald <hasufell@gentoo.org> libsdl2-2.0.2-r1.ebuild:
+  add wayland support wrt #504136
+
+  21 Apr 2014; Michał Górny <mgorny@gentoo.org> libsdl2-2.0.2-r1.ebuild:
+  Use the new multilib_native_use* functions.
+
+  18 Apr 2014; Julian Ospald <hasufell@gentoo.org> libsdl2-2.0.2-r1.ebuild:
+  fix dbus dep string
+
+*libsdl2-2.0.2-r1 (18 Apr 2014)
+
+  18 Apr 2014; Julian Ospald <hasufell@gentoo.org> +libsdl2-2.0.2-r1.ebuild:
+  add multilib support wrt #484130
 
   05 Apr 2014; Julian Ospald <hasufell@gentoo.org> libsdl2-2.0.1-r1.ebuild,
   libsdl2-2.0.2.ebuild:

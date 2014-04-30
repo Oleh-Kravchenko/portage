@@ -1,6 +1,27 @@
 # ChangeLog for mail-filter/opendkim
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/mail-filter/opendkim/ChangeLog,v 1.74 2014/03/19 09:58:42 eras Exp $
+# $Header: /var/cvsroot/gentoo-x86/mail-filter/opendkim/ChangeLog,v 1.79 2014/05/04 16:11:57 maekke Exp $
+
+  04 May 2014; Markus Meier <maekke@gentoo.org> opendkim-2.9.2-r1.ebuild:
+  add ~arm, bug #509082
+
+*opendkim-2.9.2-r1 (02 May 2014)
+
+  02 May 2014; Pacho Ramos <pacho@gentoo.org> +files/opendkim.service,
+  +opendkim-2.9.2-r1.ebuild:
+  Add unit file (#502054 by Andrius Stikonas)
+
+*opendkim-2.9.2 (15 Apr 2014)
+
+  15 Apr 2014; Eray Aslan <eras@gentoo.org> +opendkim-2.9.2.ebuild:
+  Version bump
+
+  15 Apr 2014; Eray Aslan <eras@gentoo.org> opendkim-2.8.4.ebuild,
+  opendkim-2.9.0.ebuild, opendkim-2.9.1.ebuild:
+  Fix typo in config file - bug #505516
+
+  15 Apr 2014; Eray Aslan <eras@gentoo.org> -opendkim-2.8.3.ebuild:
+  Remove old
 
 *opendkim-2.9.1 (19 Mar 2014)
 

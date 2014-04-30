@@ -1,12 +1,12 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-medialibs/emul-linux-x86-medialibs-20140406.ebuild,v 1.1 2014/04/06 09:09:17 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-medialibs/emul-linux-x86-medialibs-20140406.ebuild,v 1.3 2014/05/04 12:23:03 pacho Exp $
 
 EAPI=5
 inherit emul-linux-x86
 
 LICENSE="APL-1.0 GPL-2 BSD BSD-2 public-domain LGPL-2 MPL-1.1 LGPL-2.1 !abi_x86_32? ( MPEG-4 )"
-KEYWORDS="-* ~amd64"
+KEYWORDS="-* amd64"
 IUSE="abi_x86_32"
 
 DEPEND=""
@@ -44,7 +44,7 @@ RDEPEND="~app-emulation/emul-linux-x86-baselibs-${PV}
 		>=dev-libs/liboil-0.3.17-r2[abi_x86_32(-)]
 		>=sys-libs/libieee1284-0.2.11-r3[abi_x86_32(-)]
 		>=dev-libs/fribidi-0.19.5-r2[abi_x86_32(-)]
-		>=dev-libs/libcdio-0.90-r1[abi_x86_32(-)]
+		>=dev-libs/libcdio-0.92[abi_x86_32(-)]
 		>=dev-libs/libcdio-paranoia-0.90_p1-r1[abi_x86_32(-)]
 		>=media-video/ffmpeg-0.10.8:0.10[abi_x86_32(-)]
 		>=media-libs/libdv-1.0.0-r3[abi_x86_32(-)]

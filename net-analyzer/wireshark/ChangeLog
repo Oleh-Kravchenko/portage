@@ -1,6 +1,58 @@
 # ChangeLog for net-analyzer/wireshark
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/wireshark/ChangeLog,v 1.601 2014/03/29 16:26:36 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/wireshark/ChangeLog,v 1.615 2014/05/17 15:23:53 jer Exp $
+
+  17 May 2014; Jeroen Roovers <jer@gentoo.org> -wireshark-1.10.6.ebuild:
+  Old.
+
+  17 May 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.7.ebuild:
+  Stable for alpha, wrt bug #508506
+
+  14 May 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.7.ebuild:
+  Stable for sparc, wrt bug #508506
+
+  13 May 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.7.ebuild:
+  Stable for ia64, wrt bug #508506
+
+  11 May 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.7.ebuild:
+  Stable for ppc64, wrt bug #508506
+
+  10 May 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.7.ebuild:
+  Stable for ppc, wrt bug #508506
+
+  29 Apr 2014; Mike Frysinger <vapier@gentoo.org> wireshark-1.8.14.ebuild:
+  Drop random perl deps in favor of blockers #455122.
+
+  27 Apr 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.7.ebuild:
+  Stable for x86, wrt bug #508506
+
+  26 Apr 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.7.ebuild:
+  Stable for amd64, wrt bug #508506
+
+  25 Apr 2014; Jeroen Roovers <jer@gentoo.org> wireshark-1.10.7.ebuild:
+  Switch to USE=gtk3 as default.
+
+  23 Apr 2014; Jeroen Roovers <jer@gentoo.org> wireshark-1.10.7.ebuild:
+  Stable for HPPA (bug #508506).
+
+*wireshark-1.10.7 (23 Apr 2014)
+*wireshark-1.8.14 (23 Apr 2014)
+
+  23 Apr 2014; Jeroen Roovers <jer@gentoo.org> +wireshark-1.8.14.ebuild,
+  +wireshark-1.10.7.ebuild:
+  Version bump (bug #508506).
+
+*wireshark-1.11.3 (16 Apr 2014)
+
+  16 Apr 2014; Jeroen Roovers <jer@gentoo.org>
+  -wireshark-1.11.3_pre2375.ebuild, +wireshark-1.11.3.ebuild:
+  Version bump.
+
+*wireshark-1.11.3_pre2375 (14 Apr 2014)
+
+  14 Apr 2014; Jeroen Roovers <jer@gentoo.org>
+  -wireshark-1.11.3_pre2150.ebuild, +wireshark-1.11.3_pre2375.ebuild:
+  Version bump.
 
 *wireshark-1.11.3_pre2150 (29 Mar 2014)
 

@@ -1,6 +1,28 @@
 # ChangeLog for dev-vcs/cvs
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-vcs/cvs/ChangeLog,v 1.15 2014/01/30 15:25:23 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-vcs/cvs/ChangeLog,v 1.20 2014/05/14 05:07:50 jer Exp $
+
+  14 May 2014; Jeroen Roovers <jer@gentoo.org> cvs-1.12.12-r10.ebuild:
+  Stable for HPPA (bug #506080).
+
+  14 May 2014; Robin H. Johnson <robbat2@gentoo.org> cvs-1.11.23.ebuild,
+  cvs-1.12.12-r10.ebuild, cvs-1.12.12-r6.ebuild, cvs-1.12.12-r7.ebuild,
+  cvs-1.12.12-r8.ebuild, cvs-1.12.12-r9.ebuild, cvs-1.12.13-r1.ebuild,
+  cvs-1.12.13-r2.ebuild, cvs-1.12.13.1-r1.ebuild, cvs-1.12.13.1-r2.ebuild,
+  cvs-1.12.13.1.ebuild:
+  Convert "has test $FEATURES" to "use test", and replace old src_test blocking
+  with RESTRICT=test.
+
+  13 May 2014; Mikle Kolyada <zlogene@gentoo.org> cvs-1.12.12-r10.ebuild:
+  x86 stable wrt byg #506080
+
+  13 May 2014; Mikle Kolyada <zlogene@gentoo.org> cvs-1.12.12-r10.ebuild:
+  amd64 stable wrt byg #506080
+
+  13 May 2014; Jeroen Roovers <jer@gentoo.org> cvs-1.11.23.ebuild,
+  cvs-1.12.12-r6.ebuild, cvs-1.12.12-r7.ebuild, cvs-1.12.12-r8.ebuild,
+  cvs-1.12.12-r9.ebuild, cvs-1.12.12-r10.ebuild:
+  There is no such thing as FEATURES=maketest.
 
   30 Jan 2014; Fabian Groffen <grobian@gentoo.org> cvs-1.11.23.ebuild,
   cvs-1.12.13.1-r2.ebuild:

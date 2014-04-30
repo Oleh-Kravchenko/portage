@@ -1,6 +1,18 @@
 # ChangeLog for x11-libs/glamor
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/glamor/ChangeLog,v 1.32 2014/04/08 20:03:40 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/glamor/ChangeLog,v 1.36 2014/04/19 17:47:34 ago Exp $
+
+  19 Apr 2014; Agostino Sarubbo <ago@gentoo.org> glamor-0.6.0.ebuild:
+  Stable for sparc, wrt bug #500368
+
+  18 Apr 2014; Agostino Sarubbo <ago@gentoo.org> glamor-0.6.0.ebuild:
+  Stable for alpha, wrt bug #500368
+
+  17 Apr 2014; Agostino Sarubbo <ago@gentoo.org> glamor-0.6.0.ebuild:
+  Stable for ia64, wrt bug #500368
+
+  16 Apr 2014; Agostino Sarubbo <ago@gentoo.org> glamor-0.6.0.ebuild:
+  Stable for ppc64, wrt bug #500368
 
   08 Apr 2014; Agostino Sarubbo <ago@gentoo.org> glamor-0.6.0.ebuild:
   Stable for ppc, wrt bug #500368

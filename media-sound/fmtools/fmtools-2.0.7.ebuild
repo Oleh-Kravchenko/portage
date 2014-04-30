@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/fmtools/fmtools-2.0.7.ebuild,v 1.1 2014/01/25 19:12:09 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/fmtools/fmtools-2.0.7.ebuild,v 1.3 2014/05/04 08:26:12 ago Exp $
 
 EAPI=5
 
@@ -10,4 +10,4 @@ SRC_URI="http://benpfaff.org/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~sparc ~x86"
+KEYWORDS="amd64 ~sparc x86"

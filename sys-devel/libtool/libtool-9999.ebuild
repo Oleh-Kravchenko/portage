@@ -1,12 +1,12 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-devel/libtool/libtool-9999.ebuild,v 1.15 2014/01/18 03:56:58 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/libtool/libtool-9999.ebuild,v 1.16 2014/05/02 10:30:31 mgorny Exp $
 
-EAPI="2" #356089
+EAPI="4"
 
 LIBTOOLIZE="true" #225559
 WANT_LIBTOOL="none"
-inherit eutils autotools multilib unpacker
+inherit eutils autotools multilib unpacker multilib-minimal
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI="git://git.savannah.gnu.org/${PN}.git
@@ -26,7 +26,11 @@ IUSE="static-libs test vanilla"
 
 RDEPEND="sys-devel/gnuconfig
 	>=sys-devel/autoconf-2.65
-	>=sys-devel/automake-1.11.1"
+	>=sys-devel/automake-1.11.1
+	abi_x86_32? (
+		!<=app-emulation/emul-linux-x86-baselibs-20140406-r2
+		!app-emulation/emul-linux-x86-baselibs[-abi_x86_32(-)]
+	)"
 DEPEND="${RDEPEND}
 	test? ( !<sys-devel/binutils-2.20 )
 	app-arch/xz-utils"
@@ -54,18 +58,17 @@ src_prepare() {
 	epunt_cxx
 }
 
-src_configure() {
+multilib_src_configure() {
 	# the libtool script uses bash code in it and at configure time, tries
 	# to find a bash shell.  if /bin/sh is bash, it uses that.  this can
 	# cause problems for people who switch /bin/sh on the fly to other
 	# shells, so just force libtool to use /bin/bash all the time.
 	export CONFIG_SHELL=/bin/bash
-
+	ECONF_SOURCE="${S}" \
 	econf $(use_enable static-libs static)
 }
 
-src_install() {
-	emake DESTDIR="${D}" install || die
+multilib_src_install_all() {
 	dodoc AUTHORS ChangeLog* NEWS README THANKS TODO doc/PLATFORMS
 
 	# While the libltdl.la file is not used directly, the m4 ltdl logic
@@ -75,7 +78,7 @@ src_install() {
 	# Building libtool with --disable-static will cause the installed
 	# helper to not build static objects by default.  This is undesirable
 	# for crappy packages that utilize the system libtool, so undo that.
-	dosed '1,/^build_old_libs=/{/^build_old_libs=/{s:=.*:=yes:}}' /usr/bin/libtool || die
+	sed -i -e '1,/^build_old_libs=/{/^build_old_libs=/{s:=.*:=yes:}}' "${D}"/usr/bin/libtool || die
 
 	local x
 	for x in $(find "${D}" -name config.guess -o -name config.sub) ; do

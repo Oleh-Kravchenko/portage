@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/diff-lcs/diff-lcs-1.2.5.ebuild,v 1.2 2014/04/05 23:00:13 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/diff-lcs/diff-lcs-1.2.5.ebuild,v 1.4 2014/04/27 12:58:10 jer Exp $
 
 EAPI=5
 USE_RUBY="ruby19 ruby20 jruby"

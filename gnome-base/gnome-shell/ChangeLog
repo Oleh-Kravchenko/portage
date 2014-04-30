@@ -1,6 +1,35 @@
 # ChangeLog for gnome-base/gnome-shell
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-shell/ChangeLog,v 1.72 2014/04/12 09:35:41 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-shell/ChangeLog,v 1.78 2014/05/08 01:11:26 tetromino Exp $
+
+  08 May 2014; Alexandre Rostovtsev <tetromino@gentoo.org>
+  gnome-shell-3.10.4-r1.ebuild, gnome-shell-3.10.4-r2.ebuild,
+  gnome-shell-3.12.1.ebuild:
+  Fix gdm ↔ gnome-shell circular dependency, pointed out by odium
+
+  04 May 2014; Pacho Ramos <pacho@gentoo.org> gnome-shell-3.10.4-r2.ebuild:
+  x86 stable, bug 508862
+
+  04 May 2014; Pacho Ramos <pacho@gentoo.org> gnome-shell-3.10.4-r2.ebuild:
+  amd64 stable, bug 508862
+
+  01 May 2014; Alexandre Rostovtsev <tetromino@gentoo.org>
+  gnome-shell-3.10.4-r1.ebuild, gnome-shell-3.10.4-r2.ebuild,
+  gnome-shell-3.12.1.ebuild:
+  Don't depend on libgnomekbd, it hasn't been needed since 3.6 (bug #509130,
+  thanks to Jura).
+
+*gnome-shell-3.12.1 (27 Apr 2014)
+
+  27 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-shell-3.12.1.ebuild, files/gnome-shell-3.10.4-bluetooth-gold.patch,
+  +files/gnome-shell-3.12-bluetooth-flag.patch,
+  files/gnome-shell-defaults.patch:
+  Version bump for Gnome 3.12.
+
+  26 Apr 2014; Pacho Ramos <pacho@gentoo.org> gnome-shell-3.10.4-r1.ebuild,
+  gnome-shell-3.10.4-r2.ebuild:
+  Adapt to latest pygobject don't providing python2.6 support
 
 *gnome-shell-3.10.4-r2 (12 Apr 2014)
 

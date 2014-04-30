@@ -1,6 +1,20 @@
 # ChangeLog for mail-filter/pypolicyd-spf
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/mail-filter/pypolicyd-spf/ChangeLog,v 1.31 2014/03/03 00:17:11 mjo Exp $
+# $Header: /var/cvsroot/gentoo-x86/mail-filter/pypolicyd-spf/ChangeLog,v 1.34 2014/05/11 02:11:13 mjo Exp $
+
+*pypolicyd-spf-1.3 (11 May 2014)
+
+  11 May 2014; Michael Orlitzky <mjo@gentoo.org> +pypolicyd-spf-1.3.ebuild:
+  Version bump.
+
+  11 May 2014; Michael Orlitzky <mjo@gentoo.org> pypolicyd-spf-1.2-r1.ebuild:
+  Fix misuse of distutils-r1.eclass (thanks to jlec).
+
+*pypolicyd-spf-1.2-r1 (10 May 2014)
+
+  10 May 2014; Michael Orlitzky <mjo@gentoo.org> +pypolicyd-spf-1.2-r1.ebuild,
+  -pypolicyd-spf-1.2.ebuild:
+  Revbump fixing bugs #503270 (python-3.x support) and #503124.
 
 *pypolicyd-spf-1.2 (03 Mar 2014)
 

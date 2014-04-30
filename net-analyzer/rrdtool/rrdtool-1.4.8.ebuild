@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/rrdtool/rrdtool-1.4.8.ebuild,v 1.10 2014/03/24 14:29:15 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/rrdtool/rrdtool-1.4.8.ebuild,v 1.13 2014/05/19 00:35:42 jer Exp $
 
 EAPI="5"
 
@@ -15,7 +15,7 @@ SRC_URI="http://oss.oetiker.ch/rrdtool/pub/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh ~sparc x86 ~x86-fbsd ~amd64-linux ~ia64-linux ~x86-linux ~x86-macos ~x86-solaris"
+KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~x86-fbsd ~amd64-linux ~ia64-linux ~x86-linux ~x86-macos ~x86-solaris"
 IUSE="dbi doc +graph lua perl python ruby rrdcgi static-libs tcl tcpd"
 
 RDEPEND="
@@ -35,7 +35,9 @@ RDEPEND="
 	tcpd? ( sys-apps/tcp-wrappers )
 "
 
-DEPEND="${RDEPEND}
+DEPEND="
+	${RDEPEND}
+	sys-apps/groff
 	virtual/pkgconfig
 	virtual/awk
 "
@@ -53,11 +55,9 @@ python_install() {
 src_prepare() {
 	epatch "${FILESDIR}"/${PN}-1.4.7-configure.ac.patch
 
-	# bug 281694
 	# bug 456810
 	# no time to sleep
 	sed -i \
-		-e '/PERLLD/s:same as PERLCC:same-as-PERLCC:' \
 		-e 's|$LUA_CFLAGS|IGNORE_THIS_BAD_TEST|g' \
 		-e 's|^sleep 1$||g' \
 		configure.ac || die

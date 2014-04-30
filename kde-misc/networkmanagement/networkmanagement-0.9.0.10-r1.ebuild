@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/kde-misc/networkmanagement/networkmanagement-0.9.0.10-r1.ebuild,v 1.1 2014/04/10 12:20:09 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-misc/networkmanagement/networkmanagement-0.9.0.10-r1.ebuild,v 1.2 2014/04/23 21:40:14 mrueg Exp $
 
 EAPI=5
 
@@ -25,7 +25,7 @@ DEPEND="
 	>=net-misc/networkmanager-0.9.6
 	openconnect? (
 		net-misc/networkmanager-openconnect
-		net-misc/openconnect
+		<net-misc/openconnect-5.9.9
 	)
 "
 RDEPEND="${DEPEND}

@@ -1,6 +1,41 @@
 # ChangeLog for dev-ruby/railties
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/railties/ChangeLog,v 1.70 2014/04/05 07:40:29 graaff Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/railties/ChangeLog,v 1.78 2014/05/12 19:01:35 graaff Exp $
+
+  12 May 2014; Hans de Graaff <graaff@gentoo.org> -railties-3.2.17.ebuild,
+  -railties-4.0.3.ebuild, -railties-4.0.4.ebuild, -railties-4.1.0.ebuild:
+  Cleanup.
+
+  06 May 2014; Manuel Rüger <mrueg@gentoo.org> railties-3.2.17.ebuild,
+  railties-3.2.18.ebuild:
+  Add ruby20 to slot 3.2
+
+*railties-4.1.1 (06 May 2014)
+
+  06 May 2014; Hans de Graaff <graaff@gentoo.org> +railties-4.1.1.ebuild:
+  Version bump for Rails 4.1.1, security bug 509706.
+
+*railties-4.0.5 (06 May 2014)
+
+  06 May 2014; Hans de Graaff <graaff@gentoo.org> +railties-4.0.5.ebuild:
+  Version bump for Rails 4.0.5, security bug 509706.
+
+*railties-3.2.18 (06 May 2014)
+
+  06 May 2014; Hans de Graaff <graaff@gentoo.org> +railties-3.2.18.ebuild:
+  Version bump for Rails 3.2.18, security bug 509706.
+
+*railties-4.1.0 (26 Apr 2014)
+
+  26 Apr 2014; Hans de Graaff <graaff@gentoo.org> +railties-4.1.0.ebuild:
+  Version bump for Rails 4.1. Drop x86, bug 508780.
+
+  21 Apr 2014; Hans de Graaff <graaff@gentoo.org> -railties-3.2.16.ebuild,
+  -railties-4.0.2.ebuild:
+  Remove vulnerable versions for bug 501750.
+
+  21 Apr 2014; Hans de Graaff <graaff@gentoo.org> railties-4.0.4.ebuild:
+  Add ruby20, ruby21.
 
 *railties-4.0.4 (05 Apr 2014)
 

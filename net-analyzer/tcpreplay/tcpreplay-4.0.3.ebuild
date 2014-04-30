@@ -1,15 +1,15 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/tcpreplay/tcpreplay-4.0.3.ebuild,v 1.1 2014/03/01 15:37:21 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/tcpreplay/tcpreplay-4.0.3.ebuild,v 1.2 2014/04/16 15:31:47 jer Exp $
 
 EAPI=5
 inherit autotools eutils flag-o-matic
 
-DESCRIPTION="replay saved tcpdump or snoop files at arbitrary speeds"
-HOMEPAGE="http://tcpreplay.synfin.net/ http://tcpreplay.appneta.com/"
+DESCRIPTION="a suite of utilities for editing and replaying previously captured network traffic"
+HOMEPAGE="http://tcpreplay.appneta.com/"
+LICENSE="BSD GPL-3"
 SRC_URI="mirror://sourceforge/project/${PN}/${PN}/${PV}/${P}.tar.gz"
 
-LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~sparc ~x86"
 IUSE="debug pcapnav +tcpdump"

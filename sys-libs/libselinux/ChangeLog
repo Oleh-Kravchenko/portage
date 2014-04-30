@@ -1,6 +1,42 @@
 # ChangeLog for sys-libs/libselinux
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-libs/libselinux/ChangeLog,v 1.115 2014/03/23 19:21:17 swift Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-libs/libselinux/ChangeLog,v 1.122 2014/05/10 13:59:49 swift Exp $
+
+  10 May 2014; Sven Vermeulen <swift@gentoo.org>
+  -files/libselinux-2.1.9-mountsys.patch,
+  -files/libselinux-2.1.9-support_ruby19.patch,
+  -files/libselinux-2.1.12-mountsys.patch:
+  Removing unused patches in files dir
+
+  10 May 2014; Sven Vermeulen <swift@gentoo.org> -libselinux-2.1.13-r1.ebuild,
+  -libselinux-2.1.13-r2.ebuild, -libselinux-2.1.13-r3.ebuild,
+  -libselinux-2.1.13-r4.ebuild, -libselinux-2.2-r1.ebuild,
+  -libselinux-2.2.1-r1.ebuild, -libselinux-2.2.2-r1.ebuild,
+  -libselinux-2.2.2-r2.ebuild:
+  Spring cleanup
+
+*libselinux-2.3 (09 May 2014)
+
+  09 May 2014; Sven Vermeulen <swift@gentoo.org> +libselinux-2.3.ebuild:
+  Bump to 2.3
+
+  30 Apr 2014; Sven Vermeulen <swift@gentoo.org> libselinux-2.2.2-r5.ebuild:
+  Fix bug #509004 by stabilizing r5 (enable ruby bindings)
+
+*libselinux-2.2.2-r5 (29 Apr 2014)
+*libselinux-2.3_rc1-r1 (29 Apr 2014)
+
+  29 Apr 2014; Sven Vermeulen <swift@gentoo.org> +libselinux-2.2.2-r5.ebuild,
+  +libselinux-2.3_rc1-r1.ebuild:
+  Add USE=ruby support, now without ruby-ng eclass calls, fixes bug #509004
+
+*libselinux-2.3_rc1 (28 Apr 2014)
+
+  28 Apr 2014; Sven Vermeulen <swift@gentoo.org> +libselinux-2.3_rc1.ebuild:
+  2.3-rc1 release
+
+  21 Apr 2014; Sven Vermeulen <swift@gentoo.org> libselinux-2.2.2-r4.ebuild:
+  Stabilize 2.2.2-r4
 
   23 Mar 2014; Sven Vermeulen <swift@gentoo.org> -libselinux-2.2.2-r3.ebuild,
   -files/libselinux-2.2.2-build.patch:

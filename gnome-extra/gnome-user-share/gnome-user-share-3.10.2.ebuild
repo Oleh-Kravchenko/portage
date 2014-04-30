@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-extra/gnome-user-share/gnome-user-share-3.10.2.ebuild,v 1.1 2014/03/29 17:57:11 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-extra/gnome-user-share/gnome-user-share-3.10.2.ebuild,v 1.4 2014/05/04 12:10:44 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
@@ -13,7 +13,7 @@ HOMEPAGE="https://git.gnome.org/browse/gnome-user-share"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="bluetooth"
 
 # FIXME: could libnotify be made optional ?
@@ -27,9 +27,8 @@ RDEPEND="
 	>=www-servers/apache-2.2[apache2_modules_dav,apache2_modules_dav_fs,apache2_modules_authn_file,apache2_modules_auth_digest,apache2_modules_authz_groupfile]
 	>=x11-libs/libnotify-0.7:=
 	bluetooth? (
-		>=app-mobilephone/obex-data-server-0.4
 		>=net-wireless/gnome-bluetooth-3.9.3:2
-		>=net-wireless/bluez-4.18 )
+		>=net-wireless/bluez-5 )
 "
 DEPEND="${RDEPEND}
 	!<gnome-base/gnome-control-center-3.9

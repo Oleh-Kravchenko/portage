@@ -1,6 +1,37 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/arch/arm/package.use.mask,v 1.199 2014/04/12 00:38:47 dlan Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/arch/arm/package.use.mask,v 1.205 2014/05/04 16:11:01 maekke Exp $
+
+# Markus Meier <maekke@gentoo.org> (04 May 2014)
+# Unkeyworded deps, bug #509082
+mail-filter/opendkim opendbx
+
+# Markus Meier <maekke@gentoo.org> (04 May 2014)
+# Unkeyworded deps, bug #507896
+dev-qt/qt-mobility messaging
+
+# Andreas K. Huettel <dilfridge@gentoo.org> (3 May 2014)
+# Missing keywords, should only be a transitionary problem
+kde-base/baloo alternatekcm
+
+# Julian Ospald <hasufell@gentoo.org> (20 Apr 2014)
+# Missing keywords, bug #508226
+media-video/mpv sdl
+
+# S. Suominen <ssuominen@g.o> (17 Apr 2014)
+# First GTK+-3.x version of EasyTAG!
+# Keyword as reqiuired, ~arch is enough for now:
+# media-libs/opusfile for USE opus
+# media-libs/opus for USE opus
+# app-text/apadata-tools for FEAATURES and USE test
+# Do it! No reason to ask permission before!
+>=media-sound/easytag-2.2.0 opus test
+
+# Johannes Huber <johu@gentoo.org> (16 Apr 2014)
+# unkeyworded deps
+kde-base/gwenview semantic-desktop
+kde-base/okular dpi
+kde-base/nepomuk-core migrator
 
 # Yixun Lan <dlan@gentoo.org> (12 Apr 2014)
 # app-emulation/qemu is not keyworded on arm arch.

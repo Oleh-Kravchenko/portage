@@ -1,6 +1,34 @@
 # ChangeLog for app-editors/emacs-vcs
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-editors/emacs-vcs/ChangeLog,v 1.155 2014/04/12 20:33:05 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-editors/emacs-vcs/ChangeLog,v 1.159 2014/05/16 20:10:42 ulm Exp $
+
+  16 May 2014; Ulrich Müller <ulm@gentoo.org> emacs-vcs-24.3.91.ebuild,
+  emacs-vcs-24.3.9999-r1.ebuild, emacs-vcs-24.4.50_pre20140512.ebuild,
+  emacs-vcs-24.4.9999.ebuild:
+  Upstream now always requires pkgconfig. For simplicity, have all versions
+  depend on it unconditionally.
+
+*emacs-vcs-24.4.50_pre20140512 (12 May 2014)
+*emacs-vcs-24.3.91 (12 May 2014)
+
+  12 May 2014; Ulrich Müller <ulm@gentoo.org> -emacs-vcs-24.3.90.ebuild,
+  +emacs-vcs-24.3.91.ebuild, -emacs-vcs-24.4.50_pre20140430.ebuild,
+  +emacs-vcs-24.4.50_pre20140512.ebuild:
+  New snapshot of trunk. New pretest from upstream. Remove previous versions
+  that are vulnerable to security bug 509830.
+
+  05 May 2014; Ulrich Müller <ulm@gentoo.org>
+  -emacs-vcs-24.3.50_pre20140331.ebuild, emacs-vcs-24.3.90.ebuild,
+  emacs-vcs-24.3.9999-r1.ebuild, emacs-vcs-24.4.50_pre20140430.ebuild,
+  emacs-vcs-24.4.9999.ebuild:
+  Access shared game score files in /var/games/emacs, compliant with the FHS.
+  Remove old snapshot.
+
+*emacs-vcs-24.4.50_pre20140430 (02 May 2014)
+
+  02 May 2014; Ulrich Müller <ulm@gentoo.org>
+  +emacs-vcs-24.4.50_pre20140430.ebuild:
+  Snapshot of trunk.
 
 *emacs-vcs-24.3.90 (12 Apr 2014)
 

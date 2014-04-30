@@ -1,6 +1,40 @@
 # ChangeLog for www-client/firefox-bin
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/firefox-bin/ChangeLog,v 1.184 2014/03/29 13:37:38 anarchy Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/firefox-bin/ChangeLog,v 1.192 2014/05/17 14:42:21 swift Exp $
+
+  17 May 2014; Sven Vermeulen <swift@gentoo.org> firefox-bin-17.0.10.ebuild,
+  firefox-bin-17.0.9.ebuild, firefox-bin-24.4.0.ebuild,
+  firefox-bin-24.5.0.ebuild, firefox-bin-29.0.1.ebuild:
+  Fix bug #509740 - Add USE=selinux dependency to sec-policy/selinux-mozilla
+
+*firefox-bin-29.0.1 (10 May 2014)
+
+  10 May 2014;  <anarchy@gentoo.org> +firefox-bin-29.0.1.ebuild,
+  -firefox-bin-29.0.ebuild:
+  Misc upstream fixes
+
+  08 May 2014; Agostino Sarubbo <ago@gentoo.org> firefox-bin-24.5.0.ebuild:
+  Stable for x86, wrt bug #509050
+
+  08 May 2014; Agostino Sarubbo <ago@gentoo.org> firefox-bin-24.5.0.ebuild:
+  Stable for amd64, wrt bug #509050
+
+  07 May 2014; Lars Wendler <polynomial-c@gentoo.org> firefox-bin-29.0.ebuild:
+  Revert firefox-29 back to unstable.
+
+  07 May 2014; Agostino Sarubbo <ago@gentoo.org> firefox-bin-29.0.ebuild:
+  Stable for x86, wrt bug #509050
+
+  07 May 2014; Agostino Sarubbo <ago@gentoo.org> firefox-bin-29.0.ebuild:
+  Stable for amd64, wrt bug #509050
+
+*firefox-bin-24.5.0 (30 Apr 2014)
+*firefox-bin-29.0 (30 Apr 2014)
+
+  30 Apr 2014; Ian Stakenvicius (_AxS_) <axs@gentoo.org>
+  +firefox-bin-24.5.0.ebuild, +firefox-bin-29.0.ebuild,
+  -firefox-bin-24.3.0.ebuild, -firefox-bin-28.0-r1.ebuild:
+  version bump, security bug 509050
 
   29 Mar 2014;  <anarchy@gentoo.org> files/all-gentoo-1.js:
   Fix typo in updated preference file, bug #506144

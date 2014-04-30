@@ -1,6 +1,14 @@
 # ChangeLog for net-misc/vino
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/vino/ChangeLog,v 1.208 2014/03/09 12:04:04 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/vino/ChangeLog,v 1.210 2014/04/27 18:02:39 eva Exp $
+
+*vino-3.12.0 (27 Apr 2014)
+
+  27 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org> +vino-3.12.0.ebuild:
+  Version bump for Gnome 3.12.
+
+  27 Apr 2014; Pacho Ramos <pacho@gentoo.org> -vino-3.8.1-r1.ebuild:
+  drop old
 
   09 Mar 2014; Pacho Ramos <pacho@gentoo.org> vino-3.10.1.ebuild:
   x86 stable, bug 499954

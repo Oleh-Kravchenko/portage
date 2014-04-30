@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-devel/bin86/bin86-0.16.20-r2.ebuild,v 1.1 2014/01/02 07:37:38 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/bin86/bin86-0.16.20-r2.ebuild,v 1.4 2014/05/18 17:26:17 vapier Exp $
 
 EAPI="5"
 
@@ -13,7 +13,7 @@ SRC_URI="http://v3.sk/~lkundrak/dev86/${P}.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-* ~amd64 ~x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="amd64 ~ppc ~ppc64 x86 ~amd64-fbsd ~x86-fbsd"
 IUSE=""
 
 src_prepare() {

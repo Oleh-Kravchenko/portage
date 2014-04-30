@@ -1,6 +1,44 @@
 # ChangeLog for net-libs/gnutls
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/gnutls/ChangeLog,v 1.484 2014/04/11 02:09:50 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/gnutls/ChangeLog,v 1.492 2014/05/17 14:16:42 mgorny Exp $
+
+  17 May 2014; Michał Górny <mgorny@gentoo.org> gnutls-3.3.2.ebuild:
+  Symlink remaining tools necessary for tests for non-native ABIs.
+
+*gnutls-3.3.2 (17 May 2014)
+*gnutls-3.2.14 (17 May 2014)
+
+  17 May 2014; Alon Bar-Lev <alonbl@gentoo.org>
+  +files/gnutls-3.3.2-build-out-of-tree.patch, +gnutls-3.2.14.ebuild,
+  +gnutls-3.3.2.ebuild:
+  Version bumps, fix bug#510282, fix build issues bug#510418 thanks to Michał
+  Górny
+
+  15 May 2014; Michał Górny <mgorny@gentoo.org> gnutls-3.3.1-r1.ebuild:
+  Symlink native certtool for reuse in tests, bug #510420.
+
+  15 May 2014; Alon Bar-Lev <alonbl@gentoo.org> -gnutls-2.12.23-r1.ebuild:
+  Remove old, bug#501282
+
+*gnutls-3.3.1-r1 (13 May 2014)
+
+  13 May 2014; Michał Górny <mgorny@gentoo.org> +gnutls-3.3.1-r1.ebuild:
+  Enable multilib support, bug #493166.
+
+  25 Apr 2014; Alon Bar-Lev <alonbl@gentoo.org> +files/gnutls-3.3.1-guile.patch,
+  gnutls-3.3.1.ebuild:
+  Fix guile build, bug#508454, thanks to  Ed Catmur
+
+*gnutls-3.3.1 (22 Apr 2014)
+
+  22 Apr 2014; Alon Bar-Lev <alonbl@gentoo.org> +gnutls-3.3.1.ebuild,
+  -gnutls-3.3.0.ebuild:
+  Version bump, bug#508360
+
+*gnutls-3.3.0 (18 Apr 2014)
+
+  18 Apr 2014; Alon Bar-Lev <alonbl@gentoo.org> +gnutls-3.3.0.ebuild:
+  Version bump, bug#508032
 
 *gnutls-3.2.13 (11 Apr 2014)
 

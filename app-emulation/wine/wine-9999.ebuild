@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-9999.ebuild,v 1.164 2014/03/04 06:10:59 tetromino Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-9999.ebuild,v 1.166 2014/05/17 15:31:17 tetromino Exp $
 
 EAPI="5"
 
@@ -25,6 +25,8 @@ fi
 GV="2.24"
 MV="4.5.2"
 PULSE_PATCHES="winepulse-patches-1.7.12"
+COMPHOLIOV="1.7.18-1"
+COMPHOLIO_PATCHES="wine-compholio-daily-${COMPHOLIOV}"
 WINE_GENTOO="wine-gentoo-2013.06.24"
 DESCRIPTION="Free implementation of Windows(tm) on Unix"
 HOMEPAGE="http://www.winehq.org/"
@@ -34,12 +36,13 @@ SRC_URI="${SRC_URI}
 		abi_x86_64? ( mirror://sourceforge/${PN}/Wine%20Gecko/${GV}/wine_gecko-${GV}-x86_64.msi )
 	)
 	mono? ( mirror://sourceforge/${PN}/Wine%20Mono/${MV}/wine-mono-${MV}.msi )
+	pipelight? ( https://github.com/compholio/wine-compholio-daily/archive/v${COMPHOLIOV}.tar.gz -> ${COMPHOLIO_PATCHES}.tar.gz )
 	pulseaudio? ( http://dev.gentoo.org/~tetromino/distfiles/${PN}/${PULSE_PATCHES}.tar.bz2 )
 	http://dev.gentoo.org/~tetromino/distfiles/${PN}/${WINE_GENTOO}.tar.bz2"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-IUSE="+abi_x86_32 +abi_x86_64 +alsa capi cups custom-cflags dos elibc_glibc +fontconfig +gecko gphoto2 gsm gstreamer +jpeg lcms ldap +mono mp3 ncurses netapi nls odbc openal opencl +opengl osmesa oss +perl +png +prelink pulseaudio +realtime +run-exes samba scanner selinux +ssl test +threads +truetype +udisks v4l +X xcomposite xinerama +xml"
+IUSE="+abi_x86_32 +abi_x86_64 +alsa capi cups custom-cflags dos elibc_glibc +fontconfig +gecko gphoto2 gsm gstreamer +jpeg lcms ldap +mono mp3 ncurses netapi nls odbc openal opencl +opengl osmesa oss +perl pipelight +png +prelink pulseaudio +realtime +run-exes samba scanner selinux +ssl test +threads +truetype +udisks v4l +X xcomposite xinerama +xml"
 REQUIRED_USE="|| ( abi_x86_32 abi_x86_64 )
 	test? ( abi_x86_32 )
 	elibc_glibc? ( threads )
@@ -83,6 +86,7 @@ NATIVE_DEPEND="
 	nls? ( sys-devel/gettext )
 	odbc? ( dev-db/unixODBC:= )
 	osmesa? ( media-libs/mesa[osmesa] )
+	pipelight? ( sys-apps/attr )
 	pulseaudio? ( media-sound/pulseaudio )
 	xml? ( dev-libs/libxml2 dev-libs/libxslt )
 	scanner? ( media-gfx/sane-backends:= )
@@ -176,6 +180,10 @@ COMMON_DEPEND="
 				>=app-emulation/emul-linux-x86-opengl-20121028[development]
 				media-libs/mesa[osmesa,abi_x86_32]
 			) )
+			pipelight? ( || (
+				app-emulation/emul-linux-x86-baselibs[development]
+				sys-apps/attr[abi_x86_32]
+			) )
 			pulseaudio? ( || (
 				app-emulation/emul-linux-x86-soundlibs[development]
 				>=media-sound/pulseaudio-4.0-r1[abi_x86_32]
@@ -266,6 +274,13 @@ src_unpack() {
 	fi
 
 	use pulseaudio && unpack "${PULSE_PATCHES}.tar.bz2"
+	if use pipelight; then
+		unpack "${COMPHOLIO_PATCHES}.tar.gz"
+		# we use a separate pulseaudio patchset
+		rm -r "${COMPHOLIO_PATCHES}/patches/06-winepulse" || die
+		# ... and need special tools for binary patches
+		mv "${COMPHOLIO_PATCHES}/patches/10-Missing_Fonts" "${T}" || die
+	fi
 	unpack "${WINE_GENTOO}.tar.bz2"
 
 	l10n_find_plocales_changes "${S}/po" "" ".po"
@@ -273,6 +288,7 @@ src_unpack() {
 
 src_prepare() {
 	local md5="$(md5sum server/protocol.def)"
+	local f
 	local PATCHES=(
 		"${FILESDIR}"/${PN}-1.5.26-winegcc.patch #260726
 		"${FILESDIR}"/${PN}-1.4_rc2-multilib-portage.patch #395615
@@ -282,7 +298,18 @@ src_prepare() {
 	use pulseaudio && PATCHES+=(
 		"../${PULSE_PATCHES}"/*.patch #421365
 	)
-
+	if use pipelight; then
+		PATCHES+=(
+			"../${COMPHOLIO_PATCHES}/patches"/*/*.patch #507950
+			"../${COMPHOLIO_PATCHES}/patches/patch-list.patch"
+		)
+		# epatch doesn't support binary patches
+		ebegin "Applying Compholio font patches"
+		for f in "${T}/10-Missing_Fonts"/*.patch; do
+			"../${COMPHOLIO_PATCHES}/debian/tools/gitapply.sh" < "${f}" || die "Failed to apply Compholio font patches"
+		done
+		eend
+	fi
 	autotools-utils_src_prepare
 
 	if [[ "$(md5sum server/protocol.def)" != "${md5}" ]]; then
@@ -364,6 +391,7 @@ src_configure() {
 	)
 
 	use pulseaudio && myeconfargs+=( --with-pulse )
+	use pipelight && myeconfargs+=( --with-xattr )
 
 	if use amd64 && use abi_x86_32; then
 		# Avoid crossdev's i686-pc-linux-gnu-pkg-config if building wine32 on amd64; #472038
@@ -395,6 +423,7 @@ src_test() {
 
 src_install() {
 	local DOCS=( ANNOUNCE AUTHORS README )
+	local l
 	add_locale_docs() {
 		local locale_doc="documentation/README.$1"
 		[[ ! -e ${locale_doc} ]] || DOCS=( "${DOCS[@]}" ${locale_doc} )
@@ -428,6 +457,7 @@ src_install() {
 	for l in de fr pl; do
 		use linguas_${l} || rm -r "${D}"usr/share/man/${l}*
 	done
+
 }
 
 pkg_preinst() {
@@ -437,6 +467,12 @@ pkg_preinst() {
 pkg_postinst() {
 	gnome2_icon_cache_update
 	fdo-mime_desktop_database_update
+
+	if use pipelight; then
+		ewarn "You installed Wine with the unofficial Compholio patchset for Pipelight"
+		ewarn "support, which is unsupported by Wine developers. Please don't report"
+		ewarn "bugs to Wine bugzilla unless you can reproduce them with USE=-pipelight"
+	fi
 }
 
 pkg_postrm() {

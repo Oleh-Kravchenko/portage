@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-text/mate-doc-utils/mate-doc-utils-1.6.2.ebuild,v 1.4 2014/03/10 23:00:16 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-text/mate-doc-utils/mate-doc-utils-1.6.2.ebuild,v 1.6 2014/05/04 14:53:07 ago Exp $
 
 EAPI="5"
 
@@ -17,7 +17,7 @@ HOMEPAGE="http://mate-desktop.org"
 
 LICENSE="GPL-2 LGPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 
 RDEPEND="${PYTHON_DEPS}
 	app-text/rarian:0
@@ -54,7 +54,7 @@ src_configure() {
 }
 
 src_compile() {
-	python_foreach_impl run_in_build_dir gnome2_src_compile
+	python_foreach_impl run_in_build_dir emake -j1
 }
 
 src_test() {

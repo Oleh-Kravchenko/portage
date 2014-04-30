@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/gtk+/gtk+-3.10.8.ebuild,v 1.2 2014/04/13 18:25:52 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/gtk+/gtk+-3.10.8.ebuild,v 1.13 2014/05/02 09:11:41 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
@@ -23,7 +23,7 @@ REQUIRED_USE="
 	|| ( aqua wayland X )
 	xinerama? ( X )"
 
-KEYWORDS="~alpha amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~x86-freebsd ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~x86-freebsd ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 
 # FIXME: introspection data is built against system installation of gtk+:3
 # NOTE: cairo[svg] dep is due to bug 291283 (not patched to avoid eautoreconf)
@@ -38,7 +38,7 @@ COMMON_DEPEND="
 	>=x11-libs/pango-1.32.4[introspection?]
 	x11-misc/shared-mime-info
 
-	colord? ( >=x11-misc/colord-0.1.9 )
+	colord? ( >=x11-misc/colord-0.1.9:0= )
 	cups? ( >=net-print/cups-1.2 )
 	introspection? ( >=dev-libs/gobject-introspection-1.32 )
 	wayland? (
@@ -65,7 +65,8 @@ DEPEND="${COMMON_DEPEND}
 	app-text/docbook-xml-dtd:4.1.2
 	dev-libs/libxslt
 	dev-util/gdbus-codegen
-	>=dev-util/gtk-doc-am-1.11
+	>=dev-util/gtk-doc-am-1.20
+	sys-devel/gettext
 	virtual/pkgconfig
 	X? (
 		x11-proto/xextproto

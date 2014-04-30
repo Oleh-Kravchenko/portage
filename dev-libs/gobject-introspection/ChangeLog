@@ -1,6 +1,43 @@
 # ChangeLog for dev-libs/gobject-introspection
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/gobject-introspection/ChangeLog,v 1.109 2014/03/30 10:43:14 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/gobject-introspection/ChangeLog,v 1.117 2014/04/27 16:20:12 eva Exp $
+
+*gobject-introspection-1.40.0 (27 Apr 2014)
+
+  27 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org>
+  +gobject-introspection-1.40.0.ebuild:
+  Version bump for Gnome 3.12.
+
+  25 Apr 2014; Pacho Ramos <pacho@gentoo.org>
+  -files/gobject-introspection-1.34.2-better-traceback.patch,
+  -files/gobject-introspection-1.36.0-detect-clang.patch,
+  -gobject-introspection-1.32.1.ebuild, -gobject-introspection-1.34.2-r1.ebuild,
+  -gobject-introspection-1.36.0-r1.ebuild:
+  drop old
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org>
+  gobject-introspection-1.38.0.ebuild:
+  Stable for arm, wrt bug #507568
+
+  19 Apr 2014; Agostino Sarubbo <ago@gentoo.org>
+  gobject-introspection-1.38.0.ebuild:
+  Stable for sparc, wrt bug #507568
+
+  18 Apr 2014; Agostino Sarubbo <ago@gentoo.org>
+  gobject-introspection-1.38.0.ebuild:
+  Stable for alpha, wrt bug #507568
+
+  17 Apr 2014; Agostino Sarubbo <ago@gentoo.org>
+  gobject-introspection-1.38.0.ebuild:
+  Stable for ia64, wrt bug #507568
+
+  16 Apr 2014; Agostino Sarubbo <ago@gentoo.org>
+  gobject-introspection-1.38.0.ebuild:
+  Stable for ppc64, wrt bug #507568
+
+  14 Apr 2014; Agostino Sarubbo <ago@gentoo.org>
+  gobject-introspection-1.38.0.ebuild:
+  Stable for ppc, wrt bug #507568
 
   30 Mar 2014; Pacho Ramos <pacho@gentoo.org>
   gobject-introspection-1.38.0.ebuild:

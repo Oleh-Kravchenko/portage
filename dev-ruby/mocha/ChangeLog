@@ -1,6 +1,33 @@
 # ChangeLog for dev-ruby/mocha
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/mocha/ChangeLog,v 1.99 2014/04/03 05:56:03 graaff Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/mocha/ChangeLog,v 1.105 2014/05/18 05:53:43 graaff Exp $
+
+*mocha-1.1.0 (18 May 2014)
+
+  18 May 2014; Hans de Graaff <graaff@gentoo.org> +mocha-1.1.0.ebuild:
+  Version bump.
+
+*mocha-0.11.4-r1 (04 May 2014)
+*mocha-0.10.5-r2 (04 May 2014)
+
+  04 May 2014; Manuel Rüger <mrueg@gentoo.org> +mocha-0.10.5-r2.ebuild,
+  +mocha-0.11.4-r1.ebuild, mocha-0.10.5-r1.ebuild:
+  Add ruby20 and ruby21 support.
+
+  26 Apr 2014; Hans de Graaff <graaff@gentoo.org> mocha-0.14.0.ebuild:
+  Add ruby21.
+
+  22 Apr 2014; Manuel Rüger <mrueg@gentoo.org> mocha-0.10.5-r1.ebuild,
+  mocha-0.10.5.ebuild, mocha-0.11.4.ebuild, mocha-0.12.10.ebuild,
+  mocha-0.12.7.ebuild, mocha-0.13.3-r1.ebuild, mocha-0.13.3.ebuild,
+  mocha-0.14.0.ebuild, mocha-1.0.0.ebuild:
+  Remove ruby18 target.
+
+  18 Apr 2014; Hans de Graaff <graaff@gentoo.org> mocha-0.13.3-r1.ebuild:
+  Add ruby21.
+
+  18 Apr 2014; Hans de Graaff <graaff@gentoo.org> mocha-0.12.10.ebuild:
+  Add ruby21.
 
 *mocha-1.0.0 (03 Apr 2014)
 

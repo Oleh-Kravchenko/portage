@@ -1,6 +1,56 @@
 # ChangeLog for www-servers/apache
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-servers/apache/ChangeLog,v 1.260 2014/03/18 18:50:08 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-servers/apache/ChangeLog,v 1.273 2014/05/17 13:50:49 ago Exp $
+
+  17 May 2014; Agostino Sarubbo <ago@gentoo.org> apache-2.2.27.ebuild:
+  Stable for alpha, wrt bug #507866
+
+  14 May 2014; Agostino Sarubbo <ago@gentoo.org> apache-2.2.27.ebuild:
+  Stable for sparc, wrt bug #507866
+
+  13 May 2014; Agostino Sarubbo <ago@gentoo.org> apache-2.2.27.ebuild:
+  Stable for ia64, wrt bug #507866
+
+  11 May 2014; Agostino Sarubbo <ago@gentoo.org> apache-2.2.27.ebuild:
+  Stable for ppc64, wrt bug #507866
+
+  10 May 2014; Agostino Sarubbo <ago@gentoo.org> apache-2.2.27.ebuild:
+  Stable for ppc, wrt bug #507866
+
+  24 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> metadata.xml:
+  Cleaned up maintainer list.
+
+  22 Apr 2014; Agostino Sarubbo <ago@gentoo.org> apache-2.2.27.ebuild:
+  Stable for arm, wrt bug #507866
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> apache-2.2.27.ebuild:
+  Stable for x86, wrt bug #507866
+
+  21 Apr 2014; Jeroen Roovers <jer@gentoo.org> apache-2.2.27.ebuild:
+  Stable for HPPA (bug #507866).
+
+*apache-2.4.9-r2 (21 Apr 2014)
+*apache-2.2.27-r2 (21 Apr 2014)
+
+  21 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -apache-2.2.27-r1.ebuild,
+  +apache-2.2.27-r2.ebuild, -apache-2.4.9-r1.ebuild, +apache-2.4.9-r2.ebuild:
+  Moved SSLCompression into the IfDefine.
+
+*apache-2.4.9-r1 (20 Apr 2014)
+*apache-2.2.27-r1 (20 Apr 2014)
+
+  20 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -apache-2.2.26.ebuild,
+  +apache-2.2.27-r1.ebuild, -apache-2.4.9.ebuild, +apache-2.4.9-r1.ebuild:
+  Revbump fixing bug #506924 and bug #507324. Removed old.
+
+  20 Apr 2014; Agostino Sarubbo <ago@gentoo.org> apache-2.2.27.ebuild:
+  Stable for amd64, wrt bug #507866
+
+*apache-2.2.27 (16 Apr 2014)
+
+  16 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> +apache-2.2.27.ebuild,
+  -apache-2.4.7.ebuild:
+  Version bump. Removed old.
 
 *apache-2.4.9 (18 Mar 2014)
 

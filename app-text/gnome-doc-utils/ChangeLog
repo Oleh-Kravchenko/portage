@@ -1,6 +1,33 @@
 # ChangeLog for app-text/gnome-doc-utils
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-text/gnome-doc-utils/ChangeLog,v 1.217 2014/02/22 21:04:52 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-text/gnome-doc-utils/ChangeLog,v 1.224 2014/05/17 15:30:59 ago Exp $
+
+  17 May 2014; Agostino Sarubbo <ago@gentoo.org>
+  gnome-doc-utils-0.20.10-r1.ebuild:
+  Stable for alpha, wrt bug #508862
+
+  14 May 2014; Agostino Sarubbo <ago@gentoo.org>
+  gnome-doc-utils-0.20.10-r1.ebuild:
+  Stable for sparc, wrt bug #508862
+
+  13 May 2014; Agostino Sarubbo <ago@gentoo.org>
+  gnome-doc-utils-0.20.10-r1.ebuild:
+  Stable for ia64, wrt bug #508862
+
+  11 May 2014; Agostino Sarubbo <ago@gentoo.org>
+  gnome-doc-utils-0.20.10-r1.ebuild:
+  Stable for ppc64, wrt bug #508862
+
+  10 May 2014; Agostino Sarubbo <ago@gentoo.org>
+  gnome-doc-utils-0.20.10-r1.ebuild:
+  Stable for ppc, wrt bug #508862
+
+  24 Apr 2014; Mart Raudsepp <leio@gentoo.org> +gnome-doc-utils-0.20.10.ebuild:
+  Restore 0.20.10; it was still the latest stable on all arches besides
+  amd64/hppa/x86.
+
+  23 Apr 2014; Pacho Ramos <pacho@gentoo.org> -gnome-doc-utils-0.20.10.ebuild:
+  Drop old
 
   22 Feb 2014; Pacho Ramos <pacho@gentoo.org> gnome-doc-utils-0.20.10-r1.ebuild:
   Fix wrong commit, bug 502160

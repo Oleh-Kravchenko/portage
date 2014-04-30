@@ -1,6 +1,15 @@
 # ChangeLog for app-crypt/mit-krb5
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-crypt/mit-krb5/ChangeLog,v 1.398 2014/03/26 10:35:09 eras Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-crypt/mit-krb5/ChangeLog,v 1.400 2014/05/17 14:37:08 swift Exp $
+
+  17 May 2014; Sven Vermeulen <swift@gentoo.org> mit-krb5-1.11.4.ebuild,
+  mit-krb5-1.12.1-r1.ebuild, mit-krb5-1.12.1.ebuild:
+  Fix bug #509740 - Add USE=selinux dependency to sec-policy/selinux-kerberos
+
+*mit-krb5-1.12.1-r1 (14 May 2014)
+
+  14 May 2014; Michał Górny <mgorny@gentoo.org> +mit-krb5-1.12.1-r1.ebuild:
+  Enable multilib support, bug #505004.
 
   26 Mar 2014; Eray Aslan <eras@gentoo.org>
   +files/mit-krb5-1.12_warn_cflags.patch, mit-krb5-1.12.1.ebuild:

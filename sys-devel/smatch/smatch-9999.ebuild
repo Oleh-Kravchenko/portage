@@ -1,29 +1,22 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-devel/smatch/smatch-9999.ebuild,v 1.3 2012/12/20 02:46:28 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/smatch/smatch-9999.ebuild,v 1.4 2014/05/03 16:30:04 vapier Exp $
 
 EAPI="4"
 
-inherit multilib toolchain-funcs
+inherit toolchain-funcs
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI="git://repo.or.cz/${PN}.git
 		http://repo.or.cz/r/${PN}.git"
 	inherit git-2
+else
+	SRC_URI="http://repo.or.cz/w/smatch.git/snapshot/${PV}.tar.gz -> ${P}.tar.gz
+		mirror://gentoo/${P}.tar.gz"
+	KEYWORDS="~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
 fi
 
 DESCRIPTION="static analysis tool for C"
 HOMEPAGE="http://smatch.sourceforge.net/"
-
-if [[ ${PV} == "9999" ]] ; then
-	SRC_URI=""
-	#KEYWORDS=""
-else
-	# The repo.or.cz site does not produce stable tarballs,
-	# so we have to cache our own copy of the snapshot.
-	#SRC_URI="http://repo.or.cz/w/smatch.git/snapshot/${PV}.tar.gz -> ${P}.tar.gz"
-	SRC_URI="mirror://gentoo/${P}.tar.gz"
-	KEYWORDS="~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
-fi
 
 LICENSE="OSL-1.1"
 SLOT="0"
@@ -36,13 +29,30 @@ S=${WORKDIR}/${PN}
 
 src_prepare() {
 	sed -i \
-		-e '/^PREFIX=/s:=.*:=/usr:' \
 		-e '/^CFLAGS =/{s:=:+=:;s:-O2 -finline-functions:${CPPFLAGS}:}' \
 		Makefile || die
 }
 
+_emake() {
+	# gtk/llvm/xml is used by sparse which we don't install
+	emake \
+		PREFIX="${EPREFIX}/usr" \
+		V=1 \
+		AR="$(tc-getAR)" \
+		CC="$(tc-getCC)" \
+		LD='$(CC)' \
+		HAVE_GTK2=no \
+		HAVE_LLVM=no \
+		HAVE_LIBXML=no \
+		"$@"
+}
+
 src_compile() {
-	emake PREFIX=/usr V=1 CC="$(tc-getCC)" smatch
+	_emake smatch
+}
+
+src_test() {
+	_emake check
 }
 
 src_install() {

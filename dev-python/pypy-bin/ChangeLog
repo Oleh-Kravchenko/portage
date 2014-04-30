@@ -1,6 +1,29 @@
 # ChangeLog for dev-python/pypy-bin
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy-bin/ChangeLog,v 1.13 2014/04/11 08:19:10 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy-bin/ChangeLog,v 1.19 2014/05/16 21:50:11 mgorny Exp $
+
+  16 May 2014; Michał Górny <mgorny@gentoo.org> -pypy-bin-2.0.2.ebuild:
+  Remove old (slotted) version.
+
+  12 May 2014; Michał Górny <mgorny@gentoo.org> pypy-bin-2.2.1-r1.ebuild:
+  Remove the versioned deps, they are too painful to maintain for a minor tool
+  like PyPy.
+
+  09 May 2014; Michał Górny <mgorny@gentoo.org> pypy-bin-2.2.1-r1.ebuild:
+  Add USE=tk for tkinter modules. Update the list of cffi-compiled modules. Bug
+  #509794.
+
+*pypy-bin-2.2.1-r1 (03 May 2014)
+
+  03 May 2014; Michał Górny <mgorny@gentoo.org> +pypy-bin-2.2.1-r1.ebuild,
+  -pypy-bin-2.2.1.ebuild:
+  Use new packages built against ncurses[-tinfo].
+
+  21 Apr 2014; Michał Górny <mgorny@gentoo.org> pypy-bin-2.2.1.ebuild:
+  Fix wrong BINHOST, reported by ulm.
+
+  16 Apr 2014; Michał Górny <mgorny@gentoo.org> pypy-bin-2.2.1.ebuild:
+  Dep on ncurses[tinfo] since pypy-bin was built this way.
 
   11 Apr 2014; Michał Górny <mgorny@gentoo.org> pypy-bin-2.0.2-r1.ebuild,
   pypy-bin-2.2.1.ebuild:

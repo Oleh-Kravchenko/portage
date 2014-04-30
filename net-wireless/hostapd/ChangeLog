@@ -1,6 +1,21 @@
 # ChangeLog for net-wireless/hostapd
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-wireless/hostapd/ChangeLog,v 1.145 2014/03/21 19:47:14 gurligebis Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-wireless/hostapd/ChangeLog,v 1.148 2014/05/01 01:22:44 vapier Exp $
+
+  01 May 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/hostapd-2.1-Fix-nt_password_hash-build.patch, hostapd-2.1-r1.ebuild:
+  Add fix from upstream for missing -lrt linkage.
+
+  01 May 2014; Mike Frysinger <vapier@gentoo.org> hostapd-2.0-r1.ebuild,
+  hostapd-2.1-r1.ebuild:
+  Drop hardcoded -L/usr/lib as no system needs it and it breaks
+  cross-compiling/multilib systems.
+
+*hostapd-2.1-r1 (16 Apr 2014)
+
+  16 Apr 2014; <gurligebis@gentoo.org> -hostapd-2.1.ebuild,
+  +hostapd-2.1-r1.ebuild:
+  Adding EAP-PWD support
 
   21 Mar 2014; <gurligebis@gentoo.org> files/hostapd-init.d:
   Improving init.d script and moved from /var/run to /run, fixing bug #505166

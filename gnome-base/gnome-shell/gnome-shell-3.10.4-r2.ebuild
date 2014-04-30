@@ -1,11 +1,11 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-shell/gnome-shell-3.10.4-r2.ebuild,v 1.1 2014/04/12 09:35:41 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-shell/gnome-shell-3.10.4-r2.ebuild,v 1.6 2014/05/08 01:11:26 tetromino Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
 GNOME2_LA_PUNT="yes"
-PYTHON_COMPAT=( python2_{6,7} )
+PYTHON_COMPAT=( python2_7 )
 
 inherit autotools eutils gnome2 multilib pax-utils python-r1 systemd
 
@@ -16,7 +16,7 @@ LICENSE="GPL-2+ LGPL-2+"
 SLOT="0"
 IUSE="+bluetooth +i18n +networkmanager -openrc-force"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc x86"
 
 # libXfixes-5.0 needed for pointer barriers
 # FIXME:
@@ -84,8 +84,6 @@ RDEPEND="${COMMON_DEPEND}
 	>=sys-auth/polkit-0.101[introspection]
 
 	>=app-accessibility/caribou-0.4.8
-	>=gnome-base/gdm-3.5[introspection]
-	>=gnome-base/libgnomekbd-2.91.4[introspection]
 	media-libs/cogl[introspection]
 	>=sys-apps/accountsservice-0.6.14[introspection]
 	sys-power/upower[introspection]
@@ -105,6 +103,9 @@ RDEPEND="${COMMON_DEPEND}
 	networkmanager? (
 		net-misc/mobile-broadband-provider-info
 		sys-libs/timezone-data )
+"
+# avoid circular dependency
+PDEPEND=">=gnome-base/gdm-3.5[introspection]
 "
 DEPEND="${COMMON_DEPEND}
 	dev-libs/libxslt

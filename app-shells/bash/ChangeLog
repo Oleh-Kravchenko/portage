@@ -1,6 +1,54 @@
 # ChangeLog for app-shells/bash
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-shells/bash/ChangeLog,v 1.363 2014/04/12 15:36:27 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-shells/bash/ChangeLog,v 1.371 2014/05/18 10:06:59 polynomial-c Exp $
+
+*bash-4.3_p18 (18 May 2014)
+
+  18 May 2014; Lars Wendler <polynomial-c@gentoo.org> -bash-4.3_p11-r4.ebuild,
+  -bash-4.3_p11-r5.ebuild, +bash-4.3_p18.ebuild:
+  Version bump. Removed old.
+
+  14 May 2014; Lars Wendler <polynomial-c@gentoo.org> bash-4.3_p11-r5.ebuild,
+  +files/bash-4.3-bind-compound-arry.patch,
+  -files/bash-4.3-bind-compund-arry.patch:
+  Fixed patchname.
+
+*bash-4.3_p11-r5 (13 May 2014)
+
+  13 May 2014; Lars Wendler <polynomial-c@gentoo.org> -bash-4.3_p11-r2.ebuild,
+  +bash-4.3_p11-r5.ebuild, +files/bash-4.3-bind-compund-arry.patch:
+  Added yet another upstream fix. Removed old.
+
+*bash-4.3_p11-r4 (07 May 2014)
+
+  07 May 2014; Lars Wendler <polynomial-c@gentoo.org> -bash-4.3_p11-r3.ebuild,
+  +bash-4.3_p11-r4.ebuild, +files/bash-4.3-localvar-invisible.patch:
+  Added another upstream fix. Removed old.
+
+*bash-4.3_p11-r3 (07 May 2014)
+
+  07 May 2014; Lars Wendler <polynomial-c@gentoo.org> -bash-4.3_p11-r1.ebuild,
+  +bash-4.3_p11-r3.ebuild, +files/bash-4.3-extglob-directory.patch:
+  Added another upstream fix. Removed old.
+
+*bash-4.3_p11-r2 (26 Apr 2014)
+
+  26 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -bash-4.3_p11.ebuild,
+  +bash-4.3_p11-r2.ebuild, +files/bash-4.3-complete-dequoting.patch:
+  Added another upstream fix. Removed old.
+
+*bash-4.3_p11-r1 (16 Apr 2014)
+
+  16 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -bash-4.2_p45-r1.ebuild,
+  -bash-4.2_p46-r1.ebuild, +bash-4.3_p11-r1.ebuild,
+  +files/bash-4.3-jobs-run-sigchld-trap.patch:
+  Added upstream fix. Removed old.
+
+*bash-4.2_p47 (14 Apr 2014)
+
+  14 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> +bash-4.2_p47.ebuild,
+  bash-4.3_p11.ebuild:
+  Version bump. Added prefix support to bash-4.3
 
 *bash-4.3_p11 (12 Apr 2014)
 

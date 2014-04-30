@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/projectx/projectx-0.91.0.08.ebuild,v 1.5 2013/04/14 16:18:29 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/projectx/projectx-0.91.0.08.ebuild,v 1.6 2014/04/17 06:31:30 billie Exp $
 
 EAPI=5
 

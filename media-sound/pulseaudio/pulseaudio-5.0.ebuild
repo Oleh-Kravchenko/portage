@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/pulseaudio/pulseaudio-5.0.ebuild,v 1.6 2014/04/06 15:23:16 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/pulseaudio/pulseaudio-5.0.ebuild,v 1.9 2014/04/28 17:55:49 mgorny Exp $
 
 EAPI="5"
 inherit autotools eutils flag-o-matic linux-info readme.gentoo systemd user versionator udev multilib-minimal
@@ -96,7 +96,6 @@ PDEPEND="alsa? ( >=media-plugins/alsa-plugins-1.0.27-r1[pulseaudio] )"
 # PyQt4 dep is for the qpaeq script
 RDEPEND="${RDEPEND}
 	equalizer? ( qt4? ( dev-python/PyQt4[dbus] ) )
-	X? ( gnome-extra/gnome-audio )
 	system-wide? (
 		alsa? ( media-sound/alsa-utils )
 		bluetooth? ( >=net-wireless/bluez-5 )
@@ -184,7 +183,7 @@ multilib_src_configure() {
 		--with-udev-rules-dir="${EPREFIX}/$(udev_get_udevdir)"/rules.d
 	)
 
-	if ! multilib_build_binaries; then
+	if ! multilib_is_native_abi; then
 		# disable all the modules and stuff
 		myconf+=(
 			--disable-oss-output
@@ -222,7 +221,7 @@ multilib_src_configure() {
 }
 
 multilib_src_compile() {
-	if multilib_build_binaries; then
+	if multilib_is_native_abi; then
 		emake
 	else
 		emake -C src libpulse{,-simple,-mainloop-glib}.la
@@ -243,13 +242,13 @@ multilib_src_test() {
 	# We avoid running the toplevel check target because that will run
 	# po/'s tests too, and they are broken. Officially, it should work
 	# with intltool 0.41, but that doesn't look like a stable release.
-	if multilib_build_binaries; then
+	if multilib_is_native_abi; then
 		emake -C src check
 	fi
 }
 
 multilib_src_install() {
-	if multilib_build_binaries; then
+	if multilib_is_native_abi; then
 		emake -j1 DESTDIR="${D}" install
 	else
 		emake DESTDIR="${D}" install-pkgconfigDATA
@@ -287,7 +286,7 @@ multilib_src_install_all() {
 
 	use avahi && sed -i -e '/module-zeroconf-publish/s:^#::' "${ED}/etc/pulse/default.pa"
 
-	dodoc README todo
+	dodoc NEWS README todo
 
 	if use doc; then
 		pushd doxygen/html

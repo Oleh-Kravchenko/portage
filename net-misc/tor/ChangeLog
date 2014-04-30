@@ -1,6 +1,27 @@
 # ChangeLog for net-misc/tor
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/tor/ChangeLog,v 1.408 2014/03/24 13:22:00 blueness Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/tor/ChangeLog,v 1.412 2014/05/17 14:06:42 blueness Exp $
+
+*tor-0.2.4.22 (17 May 2014)
+
+  17 May 2014; Anthony G. Basile <blueness@gentoo.org> +tor-0.2.4.22.ebuild:
+  Version bump
+
+  08 May 2014; Anthony G. Basile <blueness@gentoo.org> ChangeLog:
+  Fix gpg signing
+
+*tor-0.2.5.4_alpha-r1 (08 May 2014)
+
+  08 May 2014; Anthony G. Basile <blueness@gentoo.org> +files/tor.conf,
+  +tor-0.2.5.4_alpha-r1.ebuild, -tor-0.2.5.2_alpha.ebuild:
+  Add systemd tmpfile, bug #509500
+
+*tor-0.2.5.4_alpha (27 Apr 2014)
+
+  27 Apr 2014; Anthony G. Basile <blueness@gentoo.org>
+  +files/tor-0.2.5.4_alpha-fix-disable-buf-freelist.patch,
+  +tor-0.2.5.4_alpha.ebuild:
+  Version bump
 
   24 Mar 2014; Anthony G. Basile <blueness@gentoo.org>
   +files/tor-0.2.4.21-fix-unittest-disable-curve25519.patch,

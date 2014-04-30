@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/jbigkit/jbigkit-2.1.ebuild,v 1.6 2014/04/13 11:06:30 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/jbigkit/jbigkit-2.1.ebuild,v 1.12 2014/05/14 16:10:23 ago Exp $
 
 EAPI=5
 
@@ -12,7 +12,7 @@ SRC_URI="http://www.cl.cam.ac.uk/~mgk25/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0/2.1" # Since we install libjbig.so and libjbig85.so without version, use ${PV} like 2.1
-KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~m68k ~mips ppc ~ppc64 ~s390 ~sh ~sparc x86 ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="alpha amd64 arm hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris"
 IUSE="static-libs"
 
 DOCS="ANNOUNCE CHANGES TODO libjbig/*.txt pbmtools/*.txt"
@@ -26,7 +26,7 @@ multilib_src_compile() {
 	tc-export AR CC RANLIB
 	emake \
 		LIBDIR="${EPREFIX}/usr/$(get_libdir)" \
-		$(multilib_build_binaries || echo lib)
+		$(multilib_is_native_abi || echo lib)
 
 	if use static-libs; then
 		cd libjbig && emake static
@@ -38,7 +38,7 @@ multilib_src_test() {
 }
 
 multilib_src_install() {
-	if multilib_build_binaries; then
+	if multilib_is_native_abi; then
 		dobin pbmtools/jbgtopbm{,85} pbmtools/pbmtojbg{,85}
 		doman pbmtools/jbgtopbm.1 pbmtools/pbmtojbg.1
 	fi

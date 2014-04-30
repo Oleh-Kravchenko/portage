@@ -1,6 +1,40 @@
 # ChangeLog for dev-libs/atk
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/atk/ChangeLog,v 1.277 2014/03/28 02:06:21 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/atk/ChangeLog,v 1.286 2014/05/14 13:36:31 mgorny Exp $
+
+*atk-2.12.0-r1 (14 May 2014)
+*atk-2.10.0-r1 (14 May 2014)
+
+  14 May 2014; Michał Górny <mgorny@gentoo.org> +atk-2.10.0-r1.ebuild,
+  +atk-2.12.0-r1.ebuild:
+  Enable multilib support, bug #488608.
+
+*atk-2.12.0 (27 Apr 2014)
+
+  27 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org> +atk-2.12.0.ebuild:
+  Version bump for Gnome 3.12.
+
+  25 Apr 2014; Pacho Ramos <pacho@gentoo.org> -atk-2.6.0.ebuild,
+  -atk-2.8.0.ebuild:
+  Drop old
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> atk-2.10.0.ebuild:
+  Stable for arm, wrt bug #507568
+
+  19 Apr 2014; Agostino Sarubbo <ago@gentoo.org> atk-2.10.0.ebuild:
+  Stable for sparc, wrt bug #507568
+
+  18 Apr 2014; Agostino Sarubbo <ago@gentoo.org> atk-2.10.0.ebuild:
+  Stable for alpha, wrt bug #507568
+
+  17 Apr 2014; Agostino Sarubbo <ago@gentoo.org> atk-2.10.0.ebuild:
+  Stable for ia64, wrt bug #507568
+
+  16 Apr 2014; Agostino Sarubbo <ago@gentoo.org> atk-2.10.0.ebuild:
+  Stable for ppc64, wrt bug #507568
+
+  14 Apr 2014; Agostino Sarubbo <ago@gentoo.org> atk-2.10.0.ebuild:
+  Stable for ppc, wrt bug #507568
 
   28 Mar 2014; Jeroen Roovers <jer@gentoo.org> atk-2.10.0.ebuild:
   Stable for HPPA (bug #499954).

@@ -1,6 +1,30 @@
 # ChangeLog for dev-libs/json-glib
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/json-glib/ChangeLog,v 1.56 2014/02/22 21:15:11 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/json-glib/ChangeLog,v 1.63 2014/05/17 15:31:09 ago Exp $
+
+  17 May 2014; Agostino Sarubbo <ago@gentoo.org> json-glib-0.16.2.ebuild:
+  Stable for alpha, wrt bug #508862
+
+  14 May 2014; Agostino Sarubbo <ago@gentoo.org> json-glib-0.16.2.ebuild:
+  Stable for sparc, wrt bug #508862
+
+  13 May 2014; Agostino Sarubbo <ago@gentoo.org> json-glib-0.16.2.ebuild:
+  Stable for ia64, wrt bug #508862
+
+  11 May 2014; Agostino Sarubbo <ago@gentoo.org> json-glib-0.16.2.ebuild:
+  Stable for ppc64, wrt bug #508862
+
+  10 May 2014; Agostino Sarubbo <ago@gentoo.org> json-glib-0.16.2.ebuild:
+  Stable for ppc, wrt bug #508862
+
+*json-glib-1.0.0 (27 Apr 2014)
+
+  27 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org> +json-glib-1.0.0.ebuild:
+  Version bump for Gnome 3.12.
+
+  25 Apr 2014; Pacho Ramos <pacho@gentoo.org> -json-glib-0.14.2.ebuild,
+  -json-glib-0.16.0-r1.ebuild:
+  drop old
 
   22 Feb 2014; Pacho Ramos <pacho@gentoo.org> json-glib-0.16.2.ebuild:
   Fix wrong commit, bug 502160

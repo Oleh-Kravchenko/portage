@@ -1,6 +1,63 @@
 # ChangeLog for app-misc/screen
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-misc/screen/ChangeLog,v 1.186 2014/03/10 21:21:35 swegener Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-misc/screen/ChangeLog,v 1.196 2014/04/30 15:21:13 polynomial-c Exp $
+
+*screen-4.2.1-r2 (30 Apr 2014)
+
+  30 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -screen-4.2.1-r1.ebuild,
+  +screen-4.2.1-r2.ebuild:
+  Another revbump to move screen's rundir to /tmp as /var/run doesn't get wiped
+  on reboot.
+
+*screen-4.2.1-r1 (30 Apr 2014)
+
+  30 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -screen-4.2.1.ebuild,
+  +screen-4.2.1-r1.ebuild:
+  Move rundir back to /var/run as screen also works on non-linux systems where
+  /run doesn't exist. Create that directory immediately after the merge to
+  catch the gap between merge and reboot (bug #508634).
+
+  28 Apr 2014; Jeroen Roovers <jer@gentoo.org> screen-4.2.1.ebuild:
+  Use mirror://gnu.
+
+*screen-4.2.1 (28 Apr 2014)
+
+  28 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -screen-4.2.0-r1.ebuild,
+  +screen-4.2.1.ebuild, -files/screen-4.2.0-check_for_altscreen.patch,
+  -files/screen-4.2.0-incompatible-protocol.patch,
+  -files/screen-4.2.0-long_terminal_names.patch,
+  -files/screen-4.2.0-nonethack_segfault_fix.patch,
+  -files/screen-4.2.0-tgetent.patch:
+  Version bump. Removed old.
+
+  20 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -files/4.2.0-tinfo.patch:
+  Removed unused patch.
+
+*screen-4.2.0-r1 (20 Apr 2014)
+
+  20 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -screen-4.2.0.ebuild,
+  +screen-4.2.0-r1.ebuild, +files/screen-4.2.0-check_for_altscreen.patch,
+  +files/screen-4.2.0-incompatible-protocol.patch,
+  +files/screen-4.2.0-long_terminal_names.patch,
+  +files/screen-4.2.0-tgetent.patch:
+  Revbump adding latest upstream fixes. Removed old.
+
+  18 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> screen-4.2.0.ebuild,
+  +files/screen-4.2.0-nonethack_segfault_fix.patch:
+  Fix segfault when being built without nethack support (bug #507916).
+
+  17 Apr 2014; Jeroen Roovers <jer@gentoo.org> screen-4.2.0.ebuild,
+  -files/4.2.0-config.h.in:
+  Run eautoreconf.
+
+  17 Apr 2014; Jeroen Roovers <jer@gentoo.org> files/4.2.0-config.h.in:
+  Remove CVS header.
+
+*screen-4.2.0 (17 Apr 2014)
+
+  17 Apr 2014; Jeroen Roovers <jer@gentoo.org> +screen-4.2.0.ebuild,
+  +files/4.2.0-config.h.in, +files/4.2.0-tinfo.patch:
+  Version bump (bug #419483).
 
   10 Mar 2014; Sven Wegener <swegener@gentoo.org> screen-4.0.3-r6.ebuild,
   screen-4.0.3-r7.ebuild, screen-4.0.3-r8.ebuild, screen-9999.ebuild:

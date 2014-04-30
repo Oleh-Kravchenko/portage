@@ -1,6 +1,49 @@
 # ChangeLog for dev-ruby/activerecord
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/activerecord/ChangeLog,v 1.258 2014/04/05 07:40:18 graaff Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/activerecord/ChangeLog,v 1.268 2014/05/12 19:01:53 graaff Exp $
+
+  12 May 2014; Hans de Graaff <graaff@gentoo.org> -activerecord-3.2.17.ebuild,
+  -activerecord-4.0.3.ebuild, -activerecord-4.0.4.ebuild,
+  -activerecord-4.1.0.ebuild:
+  Cleanup.
+
+  07 May 2014; Manuel Rüger <mrueg@gentoo.org> activerecord-4.0.3.ebuild,
+  activerecord-4.0.4.ebuild, activerecord-4.0.5.ebuild,
+  activerecord-4.1.0.ebuild, activerecord-4.1.1.ebuild:
+  Remove rubyee18 case in test.
+
+*activerecord-4.1.1 (06 May 2014)
+
+  06 May 2014; Hans de Graaff <graaff@gentoo.org> +activerecord-4.1.1.ebuild:
+  Version bump for Rails 4.1.1, security bug 509706.
+
+*activerecord-4.0.5 (06 May 2014)
+
+  06 May 2014; Hans de Graaff <graaff@gentoo.org> +activerecord-4.0.5.ebuild:
+  Version bump for Rails 4.0.5, security bug 509706.
+
+*activerecord-3.2.18 (06 May 2014)
+
+  06 May 2014; Hans de Graaff <graaff@gentoo.org> +activerecord-3.2.18.ebuild:
+  Version bump for Rails 3.2.18, security bug 509706.
+
+  04 May 2014; Manuel Rüger <mrueg@gentoo.org> activerecord-3.2.17.ebuild:
+  Add ruby20 support.
+
+*activerecord-4.1.0 (26 Apr 2014)
+
+  26 Apr 2014; Hans de Graaff <graaff@gentoo.org> +activerecord-4.1.0.ebuild:
+  Version bump for Rails 4.1. Drop x86, bug 508780.
+
+  21 Apr 2014; Hans de Graaff <graaff@gentoo.org> -activerecord-3.2.16.ebuild,
+  -activerecord-4.0.2.ebuild:
+  Remove vulnerable versions for bug 501750.
+
+  21 Apr 2014; Hans de Graaff <graaff@gentoo.org> activerecord-3.2.17.ebuild:
+  Remove nokogiri from Gemfile as it is not needed for the tests.
+
+  21 Apr 2014; Hans de Graaff <graaff@gentoo.org> activerecord-4.0.4.ebuild:
+  Add ruby20, ruby21.
 
 *activerecord-4.0.4 (05 Apr 2014)
 

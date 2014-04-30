@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/miniupnpc/miniupnpc-1.8.ebuild,v 1.8 2014/01/07 13:45:50 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/miniupnpc/miniupnpc-1.8.ebuild,v 1.10 2014/05/02 12:53:17 jer Exp $
 
 EAPI=5
 
@@ -12,7 +12,7 @@ SRC_URI="http://miniupnp.free.fr/files/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 arm ~hppa ~mips ppc ppc64 sparc x86 ~x86-fbsd"
+KEYWORDS="amd64 arm hppa ~mips ppc ppc64 sparc x86 ~x86-fbsd"
 IUSE="kernel_linux static-libs"
 
 # Tests hang trying to kill server, bug #409349
@@ -36,7 +36,7 @@ src_prepare() {
 # so we'll just stay with the Makefile for now.
 
 src_compile() {
-	tc-export CC
+	tc-export CC AR
 	emake upnpc-shared $(use static-libs && echo upnpc-static)
 }
 

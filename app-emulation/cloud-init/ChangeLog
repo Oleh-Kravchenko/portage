@@ -1,6 +1,17 @@
 # ChangeLog for app-emulation/cloud-init
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/cloud-init/ChangeLog,v 1.4 2014/03/16 21:05:11 prometheanfire Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/cloud-init/ChangeLog,v 1.6 2014/05/02 01:57:02 idella4 Exp $
+
+  02 May 2014; Ian Delaney <idella4@gentoo.org> cloud-init-0.7.5.ebuild:
+  add missing test dep, update prettytable, exclude unbroken but rogue tests for
+  now
+
+*cloud-init-0.7.5 (01 May 2014)
+
+  01 May 2014; Ian Delaney <idella4@gentoo.org> +cloud-init-0.7.5.ebuild,
+  +files/cloud-init-0.7.5-tests-exclude.patch:
+  bump; patch to exclude tests effectively, upgrade deps, add IUSE test, test
+  phase
 
 *cloud-init-0.7.4-r1 (16 Mar 2014)
 

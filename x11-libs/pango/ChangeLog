@@ -1,6 +1,49 @@
 # ChangeLog for x11-libs/pango
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/pango/ChangeLog,v 1.393 2014/04/13 18:25:57 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/pango/ChangeLog,v 1.405 2014/04/28 18:01:04 mgorny Exp $
+
+  28 Apr 2014; Michał Górny <mgorny@gentoo.org> pango-1.36.3-r2.ebuild:
+  Use multilib_native_use*.
+
+*pango-1.30.1 (27 Apr 2014)
+
+  27 Apr 2014; Pacho Ramos <pacho@gentoo.org> +pango-1.30.1.ebuild:
+  Recover old version needed on arches without no stable pangox-compat still
+
+  27 Apr 2014; Pacho Ramos <pacho@gentoo.org> -pango-1.30.1.ebuild,
+  -pango-1.32.5.ebuild, -pango-1.36.2.ebuild:
+  drop old
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> pango-1.36.3.ebuild:
+  Stable for arm, wrt bug #507568
+
+*pango-1.36.3-r2 (20 Apr 2014)
+
+  20 Apr 2014; Alexandre Rostovtsev <tetromino@gentoo.org>
+  -pango-1.36.3-r1.ebuild, +pango-1.36.3-r2.ebuild:
+  Unbreak pango-querymodules postinst call for non-multilib case (bug #508278,
+  thanks to Robert Förster).
+
+  20 Apr 2014; Agostino Sarubbo <ago@gentoo.org> pango-1.36.3.ebuild:
+  Stable for x86, wrt bug #507568
+
+  19 Apr 2014; Agostino Sarubbo <ago@gentoo.org> pango-1.36.3.ebuild:
+  Stable for sparc, wrt bug #507568
+
+  18 Apr 2014; Agostino Sarubbo <ago@gentoo.org> pango-1.36.3.ebuild:
+  Stable for alpha, wrt bug #507568
+
+  17 Apr 2014; Jeroen Roovers <jer@gentoo.org> pango-1.36.3.ebuild:
+  Stable for HPPA (bug #507568).
+
+  17 Apr 2014; Agostino Sarubbo <ago@gentoo.org> pango-1.36.3.ebuild:
+  Stable for ia64, wrt bug #507568
+
+  16 Apr 2014; Agostino Sarubbo <ago@gentoo.org> pango-1.36.3.ebuild:
+  Stable for ppc64, wrt bug #507568
+
+  14 Apr 2014; Agostino Sarubbo <ago@gentoo.org> pango-1.36.3.ebuild:
+  Stable for ppc, wrt bug #507568
 
   13 Apr 2014; Agostino Sarubbo <ago@gentoo.org> pango-1.36.3.ebuild:
   Stable for amd64, wrt bug #507568

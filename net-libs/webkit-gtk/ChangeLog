@@ -1,6 +1,79 @@
 # ChangeLog for net-libs/webkit-gtk
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/webkit-gtk/ChangeLog,v 1.256 2014/04/13 18:25:43 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/webkit-gtk/ChangeLog,v 1.265 2014/04/27 18:26:53 eva Exp $
+
+*webkit-gtk-2.4.1-r200 (27 Apr 2014)
+*webkit-gtk-2.4.1 (27 Apr 2014)
+
+  27 Apr 2014; Gilles Dartiguelongue <eva@gentoo.org> +webkit-gtk-2.4.1.ebuild,
+  +webkit-gtk-2.4.1-r200.ebuild, +files/webkit-gtk-2.4.1-ia64-malloc.patch:
+  Version bump for Gnome 3.12. Move some things from src_prepare to a more
+  relevant phase. Upstream changed the way gdk-backends are enabled to match
+  gtk+ and clutter which allows us to support multiple backends at the same
+  time. Make sure we at least get one. Prevent alteration of user CFLAGS.
+
+  27 Apr 2014; Pacho Ramos <pacho@gentoo.org>
+  -files/webkit-gtk-1.10.1-disable-backtrace-uclibc.patch,
+  -files/webkit-gtk-1.10.2-gcc-4.8.patch, -files/webkit-gtk-1.10.2-librt.patch,
+  -files/webkit-gtk-1.10.2-wifexited.patch,
+  -files/webkit-gtk-1.11.1-libdl.patch,
+  -files/webkit-gtk-1.2.3-fix-pool-sparc.patch,
+  -files/webkit-gtk-1.2.5-darwin-quartz.patch,
+  -files/webkit-gtk-1.2.5-darwin8.patch,
+  -files/webkit-gtk-1.2.5-tests-build.patch,
+  -files/webkit-gtk-1.2.7-libpng15.patch,
+  -files/webkit-gtk-1.4.1-libpng15.patch,
+  -files/webkit-gtk-1.6.1-double-conversion.patch,
+  -files/webkit-gtk-1.6.1-pkgconfig-fix.patch,
+  -files/webkit-gtk-1.6.1-sparc-needs-alignment.patch,
+  -files/webkit-gtk-1.6.3-paxctl-introspection.patch,
+  -files/webkit-gtk-1.7.5-linguas.patch,
+  -files/webkit-gtk-1.7.90-parallel-make-hack.patch,
+  -files/webkit-gtk-1.7.90-test_garbage_collection.patch,
+  -files/webkit-gtk-1.8.0-typedef-WebKitWebView.patch,
+  -files/webkit-gtk-1.8.1-CodeGeneratorGObject-properties.patch,
+  -files/webkit-gtk-1.8.1-gst-required-version.patch,
+  -files/webkit-gtk-1.8.1-tests-xvfb.patch,
+  -files/webkit-gtk-1.8.2-bison-2.6.patch,
+  -files/webkit-gtk-1.8.3-bison-3.patch,
+  -files/webkit-gtk-1.8.3-disable-backtrace-uclibc.patch,
+  -files/webkit-gtk-1.8.3-libdl.patch,
+  -files/webkit-gtk-1.8.3-spellchecker.patch,
+  -files/webkit-gtk-1.9.91-libdl.patch,
+  -files/webkit-gtk-2.2.2-freetype-2.5.1.patch,
+  -files/webkit-gtk-2.2.2-unittests-build.patch, -webkit-gtk-1.10.2-r300.ebuild,
+  -webkit-gtk-1.8.3-r200.ebuild, -webkit-gtk-1.8.3-r201.ebuild,
+  -webkit-gtk-1.8.3-r300.ebuild, -webkit-gtk-2.2.5-r200.ebuild,
+  -webkit-gtk-2.2.5.ebuild, metadata.xml:
+  drop old
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> webkit-gtk-2.2.6-r200.ebuild,
+  webkit-gtk-2.2.6.ebuild:
+  Stable for arm, wrt bug #507568
+
+  20 Apr 2014; Agostino Sarubbo <ago@gentoo.org> webkit-gtk-2.2.6-r200.ebuild,
+  webkit-gtk-2.2.6.ebuild:
+  Stable for x86, wrt bug #507568
+
+  19 Apr 2014; Agostino Sarubbo <ago@gentoo.org> webkit-gtk-2.2.6-r200.ebuild,
+  webkit-gtk-2.2.6.ebuild:
+  Stable for sparc, wrt bug #507568
+
+  18 Apr 2014; Agostino Sarubbo <ago@gentoo.org> webkit-gtk-2.2.6-r200.ebuild,
+  webkit-gtk-2.2.6.ebuild:
+  Stable for alpha, wrt bug #507568
+
+  17 Apr 2014; Agostino Sarubbo <ago@gentoo.org> webkit-gtk-2.2.6-r200.ebuild,
+  webkit-gtk-2.2.6.ebuild:
+  Stable for ia64, wrt bug #507568
+
+  16 Apr 2014; Agostino Sarubbo <ago@gentoo.org> webkit-gtk-2.2.6-r200.ebuild,
+  webkit-gtk-2.2.6.ebuild:
+  Stable for ppc64, wrt bug #507568
+
+  14 Apr 2014; Agostino Sarubbo <ago@gentoo.org> webkit-gtk-2.2.6-r200.ebuild,
+  webkit-gtk-2.2.6.ebuild:
+  Stable for ppc, wrt bug #507568
 
   13 Apr 2014; Agostino Sarubbo <ago@gentoo.org> webkit-gtk-2.2.6-r200.ebuild,
   webkit-gtk-2.2.6.ebuild:

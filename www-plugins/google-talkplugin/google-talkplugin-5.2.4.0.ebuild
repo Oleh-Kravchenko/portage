@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-plugins/google-talkplugin/google-talkplugin-5.2.4.0.ebuild,v 1.2 2014/04/03 15:12:37 ottxor Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-plugins/google-talkplugin/google-talkplugin-5.2.4.0.ebuild,v 1.4 2014/05/16 18:58:12 swift Exp $
 
 EAPI=5
 
@@ -23,14 +23,14 @@ fi
 DESCRIPTION="Video chat browser plug-in for Google Talk"
 
 HOMEPAGE="http://www.google.com/chat/video"
-IUSE="libnotify"
+IUSE="libnotify selinux"
 SLOT="0"
 
 KEYWORDS="-* ~amd64 ~x86"
 #GoogleTalkPlugin binary contains openssl and celt
 LICENSE="Google-TOS openssl BSD"
 
-OBSOLETE="no"
+OBSOLETE="yes"
 [[ $OBSOLETE = yes ]] && RESTRICT="fetch strip" || RESTRICT="strip mirror"
 
 RDEPEND="|| ( media-sound/pulseaudio media-libs/alsa-lib )
@@ -46,9 +46,10 @@ RDEPEND="|| ( media-sound/pulseaudio media-libs/alsa-lib )
 	x11-libs/libXrender
 	x11-libs/pango
 	sys-apps/lsb-release
+	selinux? ( sec-policy/selinux-googletalk )
 	libnotify? ( x11-libs/libnotify )"
 
-DEPEND=""
+DEPEND="selinux? ( sec-policy/selinux-googletalk )"
 
 INSTALL_BASE="opt/google/talkplugin"
 

@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/spl/spl-9999.ebuild,v 1.37 2013/04/17 14:30:09 ryao Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/spl/spl-9999.ebuild,v 1.39 2014/05/14 17:38:06 ryao Exp $
 
 EAPI="4"
 AUTOTOOLS_AUTORECONF="1"
@@ -24,7 +24,7 @@ HOMEPAGE="http://zfsonlinux.org/"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE="custom-cflags debug debug-log"
-RESTRICT="test"
+RESTRICT="debug? ( strip ) test"
 
 COMMON_DEPEND="dev-lang/perl
 	virtual/awk"
@@ -48,6 +48,8 @@ pkg_setup() {
 		ZLIB_DEFLATE
 		ZLIB_INFLATE
 	"
+	use debug && CONFIG_CHECK="FRAME_POINTER
+	DEBUG_INFO"
 
 	kernel_is ge 2 6 26 || die "Linux 2.6.26 or newer required"
 

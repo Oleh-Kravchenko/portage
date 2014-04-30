@@ -1,6 +1,13 @@
 # ChangeLog for Gentoo/AMD64 profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/features/ChangeLog,v 1.78 2014/03/27 00:02:49 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/features/ChangeLog,v 1.80 2014/05/17 14:44:03 swift Exp $
+
+  17 May 2014; Sven Vermeulen <swift@gentoo.org> selinux/make.defaults:
+  Remove USE=-acl default setting for SELinux profile, we do not really care
+
+  03 May 2014; Sven Vermeulen <swift@gentoo.org> selinux/make.defaults:
+  Have unconfined as a default USE flag (needed because targeted is a default
+  policy store)
 
   27 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org> +32bit-native/eapi,
   +32bit-userland/eapi, +64bit-native/eapi, +eapi, +multilib/eapi,

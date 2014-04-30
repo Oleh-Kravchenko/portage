@@ -1,6 +1,20 @@
 # ChangeLog for sys-apps/checkpolicy
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/checkpolicy/ChangeLog,v 1.73 2014/01/20 20:07:04 swift Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/checkpolicy/ChangeLog,v 1.76 2014/05/10 13:56:18 swift Exp $
+
+  10 May 2014; Sven Vermeulen <swift@gentoo.org> -checkpolicy-2.1.11.ebuild,
+  -checkpolicy-2.1.12.ebuild, -checkpolicy-2.3_rc1.ebuild:
+  Spring cleanup
+
+*checkpolicy-2.3 (09 May 2014)
+
+  09 May 2014; Sven Vermeulen <swift@gentoo.org> +checkpolicy-2.3.ebuild:
+  Bump to 2.3
+
+*checkpolicy-2.3_rc1 (28 Apr 2014)
+
+  28 Apr 2014; Sven Vermeulen <swift@gentoo.org> +checkpolicy-2.3_rc1.ebuild:
+  2.3-rc1 release
 
   20 Jan 2014; Sven Vermeulen <swift@gentoo.org> checkpolicy-2.2.ebuild:
   Stabilize for amd64 and x86

@@ -1,12 +1,12 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-dialup/xc/xc-4.3.2-r3.ebuild,v 1.10 2013/03/08 05:44:23 pinkbyte Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-dialup/xc/xc-4.3.2-r3.ebuild,v 1.11 2014/04/19 01:43:09 kumba Exp $
 
 EAPI=5
 
 inherit eutils flag-o-matic multilib toolchain-funcs
 
-DESCRIPTION="unix dialout program"
+DESCRIPTION="Modem dialout & serial terminal program"
 HOMEPAGE="http://www.ibiblio.org/pub/Linux/apps/serialcomm/dialout/"
 SRC_URI="http://www.ibiblio.org/pub/Linux/apps/serialcomm/dialout/${P}.tar.gz"
 

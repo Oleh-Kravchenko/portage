@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-control-center/gnome-control-center-3.10.3.ebuild,v 1.3 2014/03/09 11:58:09 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-control-center/gnome-control-center-3.10.3.ebuild,v 1.5 2014/05/01 02:40:13 tetromino Exp $
 
 EAPI="5"
 GCONF_DEBUG="yes"
@@ -34,7 +34,6 @@ COMMON_DEPEND="
 	>=gnome-base/gsettings-desktop-schemas-3.9.91
 	>=gnome-base/gnome-desktop-3.9.90:3=
 	>=gnome-base/gnome-settings-daemon-3.8.3[colord?,policykit]
-	>=gnome-base/libgnomekbd-2.91.91
 
 	>=dev-libs/libpwquality-1.2.2
 	dev-libs/libxml2:2
@@ -61,7 +60,8 @@ COMMON_DEPEND="
 	bluetooth? ( >=net-wireless/gnome-bluetooth-3.9.3:= )
 	colord? (
 		net-libs/libsoup:2.4
-		>=x11-misc/colord-0.1.34 )
+		>=x11-misc/colord-0.1.34:0=
+		>=x11-libs/colord-gtk-0.1.24 )
 	cups? (
 		>=net-print/cups-1.4[dbus]
 		|| ( >=net-fs/samba-3.6.14-r1[smbclient] >=net-fs/samba-4.0.0[client] ) )
@@ -80,17 +80,16 @@ COMMON_DEPEND="
 		>=x11-libs/libXi-1.2 )
 "
 # <gnome-color-manager-3.1.2 has file collisions with g-c-c-3.1.x
+# libgnomekbd needed only for gkbd-keyboard-display tool
 RDEPEND="${COMMON_DEPEND}
 	|| ( ( app-admin/openrc-settingsd sys-auth/consolekit ) >=sys-apps/systemd-31 )
 	>=sys-apps/accountsservice-0.6.30
 	x11-themes/gnome-icon-theme-symbolic
-	colord? (
-		>=gnome-extra/gnome-color-manager-3
-		>=x11-misc/colord-0.1.34
-		>=x11-libs/colord-gtk-0.1.24 )
+	colord? ( >=gnome-extra/gnome-color-manager-3 )
 	cups? (
 		>=app-admin/system-config-printer-gnome-1.3.5
 		net-print/cups-pk-helper )
+	i18n? ( >=gnome-base/libgnomekbd-3 )
 	input_devices_wacom? ( gnome-base/gnome-settings-daemon[input_devices_wacom] )
 
 	!<gnome-base/gdm-2.91.94

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/mpv/mpv-9999.ebuild,v 1.44 2014/04/11 17:07:41 swift Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/mpv/mpv-9999.ebuild,v 1.49 2014/05/17 20:58:32 lu_zero Exp $
 
 EAPI=5
 
@@ -21,20 +21,20 @@ LICENSE="GPL-2"
 SLOT="0"
 [[ ${PV} == *9999* ]] || \
 KEYWORDS="~alpha ~amd64 ~arm ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux"
-IUSE="+alsa bluray bs2b +cdio -doc-pdf dvb +dvd dvdnav +enca encode +iconv jack -joystick
+IUSE="+alsa bluray bs2b +cdio -doc-pdf dvb +dvd dvdnav +enca encode examples +iconv jack -joystick
 jpeg ladspa lcms +libass libcaca libguess lirc lua luajit +mpg123 -openal +opengl
-oss portaudio +postproc pulseaudio pvr +quvi -radio samba selinux +shm v4l vaapi vcd vdpau
+oss portaudio postproc pulseaudio pvr +quvi samba sdl selinux +shm v4l vaapi vcd vdpau
 vf-dlopen wayland +X xinerama +xscreensaver +xv"
 
 REQUIRED_USE="
 	dvdnav? ( dvd )
 	enca? ( iconv )
+	examples? ( lua )
 	lcms? ( opengl )
 	libguess? ( iconv )
 	luajit? ( lua )
 	opengl? ( || ( wayland X ) )
 	pvr? ( v4l )
-	radio? ( v4l || ( alsa oss ) )
 	vaapi? ( X )
 	vdpau? ( X )
 	wayland? ( opengl )
@@ -45,8 +45,8 @@ REQUIRED_USE="
 
 RDEPEND+="
 	|| (
-		>=media-video/libav-9:=[encode?,threads,vaapi?,vdpau?]
-		>=media-video/ffmpeg-1.2:0=[encode?,threads,vaapi?,vdpau?]
+		>=media-video/libav-10:=[encode?,threads,vaapi?,vdpau?]
+		>=media-video/ffmpeg-2.1.4:0=[encode?,threads,vaapi?,vdpau?]
 	)
 	sys-libs/ncurses
 	sys-libs/zlib
@@ -63,7 +63,7 @@ RDEPEND+="
 		xv? ( x11-libs/libXv )
 	)
 	alsa? ( media-libs/alsa-lib )
-	bluray? ( >=media-libs/libbluray-0.2.1 )
+	bluray? ( >=media-libs/libbluray-0.3.0 )
 	bs2b? ( media-libs/libbs2b )
 	cdio? (
 		dev-libs/libcdio
@@ -95,19 +95,20 @@ RDEPEND+="
 	portaudio? ( >=media-libs/portaudio-19_pre20111121 )
 	postproc? (
 		|| (
-			media-libs/libpostproc
-			>=media-video/ffmpeg-1.2:0[encode?,threads,vaapi?,vdpau?]
+			>=media-libs/libpostproc-10.20140517
+			>=media-video/ffmpeg-2.1.4:0
 		)
 	)
 	pulseaudio? ( media-sound/pulseaudio )
 	quvi? (
 		>=media-libs/libquvi-0.4.1:=
 		|| (
-			>=media-video/libav-9[network]
-			>=media-video/ffmpeg-1.2:0[network]
+			>=media-video/libav-10[network]
+			>=media-video/ffmpeg-2.1.4:0[network]
 		)
 	)
 	samba? ( net-fs/samba )
+	sdl? ( media-libs/libsdl2[threads] )
 	selinux? ( sec-policy/selinux-mplayer )
 	v4l? ( media-libs/libv4l )
 	wayland? (
@@ -116,7 +117,6 @@ RDEPEND+="
 		>=x11-libs/libxkbcommon-0.3.0
 	)
 "
-ASM_DEP="dev-lang/yasm"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig
 	>=dev-lang/perl-5.8
@@ -128,9 +128,6 @@ DEPEND="${RDEPEND}
 		xinerama? ( x11-proto/xineramaproto )
 		xscreensaver? ( x11-proto/scrnsaverproto )
 	)
-	amd64? ( ${ASM_DEP} )
-	x86? ( ${ASM_DEP} )
-	x86-fbsd? ( ${ASM_DEP} )
 "
 DOCS=( Copyright README.md etc/example.conf etc/input.conf )
 
@@ -165,12 +162,16 @@ src_configure() {
 	# do not add -g to CFLAGS
 	# SDL output is fallback for platforms where nothing better is available
 	# media-sound/rsound is in pro-audio overlay only
+	# vapoursynth is not packaged
 	waf-utils_src_configure \
 		--disable-build-date \
 		--disable-debug-build \
 		--disable-sdl1 \
-		--disable-sdl2 \
+		$(use_enable sdl sdl2) \
 		--disable-rsound \
+		--disable-vapoursynth \
+		$(use_enable examples libmpv-shared) \
+		$(use_enable examples client-api-examples) \
 		$(use_enable encode encoding) \
 		$(use_enable joystick) \
 		$(use_enable bluray libbluray) \
@@ -194,9 +195,6 @@ src_configure() {
 		$(use_enable v4l libv4l2) \
 		$(use_enable v4l tv) \
 		$(use_enable v4l tv-v4l2) \
-		$(use_enable radio) \
-		$(use_enable radio radio-capture) \
-		$(use_enable radio radio-v4l2) \
 		$(use_enable mpg123) \
 		$(use_enable jpeg) \
 		$(use_enable libcaca caca) \

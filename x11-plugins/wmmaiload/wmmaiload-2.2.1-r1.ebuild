@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-plugins/wmmaiload/wmmaiload-2.2.1-r1.ebuild,v 1.10 2014/04/07 19:36:13 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-plugins/wmmaiload/wmmaiload-2.2.1-r1.ebuild,v 1.11 2014/04/24 21:25:24 voyageur Exp $
 
 EAPI=5
 inherit eutils toolchain-funcs
@@ -23,6 +23,7 @@ src_prepare() {
 	epatch \
 		"${FILESDIR}"/${P}-gtk.patch \
 		"${FILESDIR}"/${P}-checkthread.patch
+	sed -i -e "s/-lssl/\0 -lcrypto/" wmmaiload/Init.make || die "sed failed"
 }
 
 src_configure() {

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/toolchain.eclass,v 1.624 2014/03/16 18:38:37 rhill Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/toolchain.eclass,v 1.627 2014/05/20 07:39:28 rhill Exp $
 
 # Maintainer: Toolchain Ninjas <toolchain@gentoo.org>
 
@@ -148,7 +148,7 @@ fi
 #---->> DEPEND <<----
 
 RDEPEND="sys-libs/zlib
-	nls? ( sys-devel/gettext )"
+	nls? ( virtual/libintl )"
 
 tc_version_is_at_least 3 && RDEPEND+=" virtual/libiconv"
 
@@ -835,7 +835,6 @@ toolchain_src_configure() {
 		fi
 		is_objcxx && GCC_LANG+=",obj-c++"
 	fi
-	is_treelang && GCC_LANG+=",treelang"
 
 	# fortran support just got sillier! the lang value can be f77 for
 	# fortran77, f95 for fortran95, or just plain old fortran for the
@@ -1472,20 +1471,19 @@ toolchain_src_compile() {
 	[[ ! -x /usr/bin/perl ]] \
 		&& find "${WORKDIR}"/build -name '*.[17]' | xargs touch
 
-	einfo "Compiling ${PN} ..."
 	gcc_do_make ${GCC_MAKE_TARGET}
 }
 
 gcc_do_make() {
 	# This function accepts one optional argument, the make target to be used.
 	# If omitted, gcc_do_make will try to guess whether it should use all,
-	# profiledbootstrap, or bootstrap-lean depending on CTARGET and arch. An
-	# example of how to use this function:
+	# or bootstrap-lean depending on CTARGET and arch.
+	# An example of how to use this function:
 	#
 	#	gcc_do_make all-target-libstdc++-v3
-	#
-	# Set make target to $1 if passed
+
 	[[ -n ${1} ]] && GCC_MAKE_TARGET=${1}
+	
 	# default target
 	if is_crosscompile || tc-is-cross-compiler ; then
 		# 3 stage bootstrapping doesnt quite work when you cant run the
@@ -1495,13 +1493,11 @@ gcc_do_make() {
 		GCC_MAKE_TARGET=${GCC_MAKE_TARGET-bootstrap-lean}
 	fi
 
-	# the gcc docs state that parallel make isnt supported for the
-	# profiledbootstrap target, as collisions in profile collecting may occur.
+	# Older versions of GCC could not do profiledbootstrap in parallel due to
+	# collisions with profiling info.
 	# boundschecking also seems to introduce parallel build issues.
-	if [[ ${GCC_MAKE_TARGET} == "profiledbootstrap" ]] ||
-	   use_if_iuse boundschecking
-	then
-		export MAKEOPTS="${MAKEOPTS} -j1"
+	if [[ ${GCC_MAKE_TARGET} == "profiledbootstrap" ]] || use_if_iuse boundschecking ; then
+		! tc_version_is_at_least 4.6 && export MAKEOPTS="${MAKEOPTS} -j1"
 	fi
 
 	if [[ ${GCC_MAKE_TARGET} == "all" ]] ; then
@@ -1521,6 +1517,8 @@ gcc_do_make() {
 		# cross-compiler.
 		BOOT_CFLAGS=${BOOT_CFLAGS-"$(get_abi_CFLAGS ${TARGET_DEFAULT_ABI}) ${CFLAGS}"}
 	fi
+
+	einfo "Compiling ${PN} (${GCC_MAKE_TARGET})..."
 
 	pushd "${WORKDIR}"/build >/dev/null
 
@@ -2110,14 +2108,6 @@ is_objc() {
 is_objcxx() {
 	gcc-lang-supported 'obj-c++' || return 1
 	use cxx && use_if_iuse objc++
-}
-
-is_treelang() {
-	use_if_iuse boundschecking && return 1 #260532
-	is_crosscompile && return 1 #199924
-	gcc-lang-supported treelang || return 1
-	#use treelang
-	return 0
 }
 
 # Grab a variable from the build system (taken from linux-info.eclass)

@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-im/telepathy-mission-control/telepathy-mission-control-5.14.0-r1.ebuild,v 1.10 2013/09/05 18:59:51 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-im/telepathy-mission-control/telepathy-mission-control-5.14.0-r1.ebuild,v 1.13 2014/05/05 14:46:01 tetromino Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
@@ -13,7 +13,7 @@ DESCRIPTION="An account manager and channel dispatcher for the Telepathy framewo
 HOMEPAGE="http://telepathy.freedesktop.org/wiki/Mission%20Control"
 SRC_URI="http://telepathy.freedesktop.org/releases/${PN}/${P}.tar.gz"
 
-LICENSE="LGPL-2.1"
+LICENSE="LGPL-2.1+"
 SLOT="0"
 KEYWORDS="alpha amd64 ~arm ia64 ppc ~ppc64 sparc x86 ~amd64-linux ~arm-linux ~x86-linux"
 IUSE="connman debug gnome-keyring networkmanager +upower" # test
@@ -27,7 +27,9 @@ RDEPEND="
 	connman? ( net-misc/connman )
 	gnome-keyring? ( gnome-base/libgnome-keyring )
 	networkmanager? ( >=net-misc/networkmanager-0.7 )
-	upower? ( >=sys-power/upower-0.9.11 )
+	upower? (
+		>=sys-power/upower-0.9.11
+		<sys-power/upower-0.99 )
 "
 DEPEND="${RDEPEND}
 	dev-libs/libxslt

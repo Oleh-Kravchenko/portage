@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/genkernel/genkernel-3.4.49.ebuild,v 1.5 2014/04/11 16:37:23 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/genkernel/genkernel-3.4.49.ebuild,v 1.7 2014/04/18 16:07:46 floppym Exp $
 
 # genkernel-9999        -> latest Git branch "master"
 # genkernel-VERSION     -> normal genkernel release
@@ -38,7 +38,7 @@ then
 	inherit git-2 bash-completion-r1 eutils
 	S="${WORKDIR}/${PN}"
 	SRC_URI="${COMMON_URI}"
-	KEYWORDS="hppa"
+	KEYWORDS=""
 else
 	inherit bash-completion-r1 eutils
 	SRC_URI="mirror://gentoo/${P}.tar.bz2
@@ -60,8 +60,7 @@ RDEPEND="${DEPEND}
 		cryptsetup? ( sys-fs/cryptsetup )
 		app-arch/cpio
 		>=app-misc/pax-utils-0.2.1
-		!<sys-apps/openrc-0.9.9
-		!sys-boot/grub:2[-multislot]"
+		!<sys-apps/openrc-0.9.9"
 # pax-utils is used for lddtree
 
 if [[ ${PV} == 9999* ]]; then

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/calligra/calligra-9999.ebuild,v 1.44 2014/02/09 19:10:58 kensington Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/calligra/calligra-9999.ebuild,v 1.45 2014/05/13 18:46:53 johu Exp $
 
 # note: files that need to be checked for dependencies etc:
 # CMakeLists.txt, kexi/CMakeLists.txt kexi/migration/CMakeLists.txt
@@ -8,14 +8,12 @@
 
 EAPI=5
 
-KDE_MINIMAL=4.6.4
-QT_MINIMAL=4.8.1
 OPENGL_REQUIRED=optional
-
 KDE_HANDBOOK=optional
-
 KDE_LINGUAS_LIVE_OVERRIDE=true
-inherit kde4-base versionator
+CHECKREQS_DISK_BUILD="4G"
+KDE_MINIMAL="4.13.1"
+inherit check-reqs kde4-base versionator
 
 DESCRIPTION="KDE Office Suite"
 HOMEPAGE="http://www.calligra.org/"
@@ -40,12 +38,12 @@ SLOT="4"
 
 # Don't move KEYWORDS on the previous line or ekeyword won't work # 399061
 [[ ${PV} == *9999 ]] || \
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 
-IUSE="attica +crypt +eigen +exif fftw +fontconfig freetds +gif glew +glib +gsf
-gsl +jpeg jpeg2k +kdcraw kde kdepim +lcms marble mysql +okular opengtl openexr
-+pdf postgres semantic-desktop spacenav +ssl sybase test tiff +threads
-+truetype vc word-perfect xbase +xml +xslt"
+IUSE="attica +crypt +eigen +exif fftw +fontconfig freetds +gif +glew +glib +gsf
+gsl import-filter +jpeg jpeg2k +kdcraw kde kdepim +lcms marble mysql nepomuk
++okular opengtl openexr +pdf postgres spacenav +ssl sybase test tiff +threads
++truetype vc xbase +xml +xslt"
 
 # please do not sort here, order is same as in CMakeLists.txt
 CAL_FTS="author kexi words flow plan stage sheets krita karbon braindump"
@@ -58,10 +56,9 @@ REQUIRED_USE="
 	calligra_features_author? ( calligra_features_words )
 	calligra_features_kexi? ( calligra_features_sheets )
 	calligra_features_words? ( calligra_features_sheets )
-	calligra_features_krita? ( eigen exif lcms )
+	calligra_features_krita? ( eigen exif glew lcms )
 	calligra_features_plan? ( kdepim )
 	calligra_features_sheets? ( eigen )
-	kdepim? ( semantic-desktop )
 	vc? ( calligra_features_krita )
 	test? ( calligra_features_karbon )
 "
@@ -78,7 +75,7 @@ RDEPEND="
 	!app-office/krita
 	!app-office/kspread
 	!app-office/kword
-	$(add_kdebase_dep kdelibs 'semantic-desktop?')
+	$(add_kdebase_dep kdelibs 'nepomuk?')
 	dev-lang/perl
 	dev-libs/boost
 	dev-libs/libxml2
@@ -99,6 +96,14 @@ RDEPEND="
 	glib? ( dev-libs/glib:2 )
 	gsf? ( gnome-extra/libgsf )
 	gsl? ( sci-libs/gsl )
+	import-filter? (
+		app-text/libetonyek
+		app-text/libodfgen
+		app-text/libwpd
+		app-text/libwpg
+		app-text/libwps
+		media-libs/libvisio
+	)
 	jpeg? ( virtual/jpeg:0 )
 	jpeg2k? ( media-libs/openjpeg:0 )
 	kdcraw? ( $(add_kdebase_dep libkdcraw) )
@@ -107,6 +112,7 @@ RDEPEND="
 	lcms? ( media-libs/lcms:2 )
 	marble? ( $(add_kdebase_dep marble) )
 	mysql? ( virtual/mysql )
+	nepomuk? ( dev-libs/soprano )
 	okular? ( $(add_kdebase_dep okular) )
 	opengl? ( virtual/glu )
 	opengtl? ( >=media-libs/opengtl-0.9.15 )
@@ -119,20 +125,12 @@ RDEPEND="
 		dev-db/postgresql-base
 		dev-libs/libpqxx
 	)
-	semantic-desktop? (
-		dev-libs/soprano
-	)
 	spacenav? ( dev-libs/libspnav  )
 	ssl? ( dev-libs/openssl )
 	sybase? ( dev-db/freetds )
 	tiff? ( media-libs/tiff )
 	truetype? ( media-libs/freetype:2 )
 	vc? ( dev-libs/vc )
-	word-perfect? (
-		app-text/libwpd
-		app-text/libwps
-		app-text/libwpg
-	)
 	xbase? ( dev-db/xbase )
 	xslt? ( dev-libs/libxslt )
 	calligra_features_kexi? (
@@ -147,6 +145,15 @@ PDEPEND=">=app-office/calligra-l10n-${LANGVERSION}"
 
 RESTRICT=test
 # bug 394273
+
+pkg_pretend() {
+	check-reqs_pkg_pretend
+}
+
+pkg_setup() {
+	kde4-base_pkg_setup
+	check-reqs_pkg_setup
+}
 
 src_configure() {
 	local cal_ft
@@ -193,6 +200,12 @@ src_configure() {
 		$(cmake-utils_use_with glib GObject)
 		$(cmake-utils_use_with gsf LIBGSF)
 		$(cmake-utils_use_with gsl GSL)
+		$(cmake-utils_use_with import-filter LibEtonyek)
+		$(cmake-utils_use_with import-filter LibOdfGen)
+		$(cmake-utils_use_with import-filter LibVisio)
+		$(cmake-utils_use_with import-filter LibWpd)
+		$(cmake-utils_use_with import-filter LibWpg)
+		$(cmake-utils_use_with import-filter LibWps)
 		$(cmake-utils_use_with jpeg JPEG)
 		$(cmake-utils_use_with jpeg2k OpenJPEG)
 		$(cmake-utils_use_with kdcraw Kdcraw)
@@ -202,6 +215,7 @@ src_configure() {
 		$(cmake-utils_use_with marble Marble)
 		$(cmake-utils_use_with mysql MySQL)
 		$(cmake-utils_use_build mysql mySQL)
+		$(cmake-utils_use_with nepomuk Soprano)
 		$(cmake-utils_use_with okular Okular)
 		$(cmake-utils_use_with opengtl OpenCTL)
 		$(cmake-utils_use_with openexr OpenEXR)
@@ -210,8 +224,6 @@ src_configure() {
 		$(cmake-utils_use_with pdf Pstoedit)
 		$(cmake-utils_use_with postgres PostgreSQL)
 		$(cmake-utils_use_build postgres pqxx)
-		$(cmake-utils_use semantic-desktop NEPOMUK)
-		$(cmake-utils_use_with semantic-desktop Soprano)
 		$(cmake-utils_use_with spacenav Spnav)
 		$(cmake-utils_use_with ssl OpenSSL)
 		$(cmake-utils_use_with sybase FreeTDS)
@@ -220,8 +232,6 @@ src_configure() {
 		$(cmake-utils_use_with threads Threads)
 		$(cmake-utils_use_with truetype Freetype)
 		$(cmake-utils_use_with vc Vc)
-		$(cmake-utils_use_with word-perfect WPD)
-		$(cmake-utils_use_with word-perfect WPG)
 		$(cmake-utils_use_with xbase XBase)
 		$(cmake-utils_use_build xbase xbase)
 		$(cmake-utils_use_with xslt LibXslt)

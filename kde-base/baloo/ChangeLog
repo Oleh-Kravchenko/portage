@@ -1,0 +1,33 @@
+# ChangeLog for kde-base/baloo
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/kde-base/baloo/ChangeLog,v 1.8 2014/05/13 17:43:02 johu Exp $
+
+*baloo-4.13.1 (13 May 2014)
+
+  13 May 2014; Johannes Huber <johu@gentoo.org> +baloo-4.13.1.ebuild:
+  Version bump KDE SC 4.13.1
+
+  06 May 2014; Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org>
+  baloo-4.13.0.ebuild:
+  Make the dep on kde-misc/baloo-kcmadv a PDEPEND to break the circular dep.
+
+  04 May 2014; Andreas K. Huettel <dilfridge@gentoo.org> baloo-4.13.0.ebuild,
+  +files/baloo-4.13.0-nokcm.patch, metadata.xml:
+  Use alternate configuration module by default
+
+  03 May 2014; Markus Meier <maekke@gentoo.org> baloo-4.13.0.ebuild:
+  add ~arm, bug #507896
+
+  19 Apr 2014; Johannes Huber <johu@gentoo.org> baloo-4.13.0.ebuild:
+  Depend on dev-libs/xapian[chert] by Alec Blayne <ab@tevsa.net>, bug #507994.
+
+  17 Apr 2014; Johannes Huber <johu@gentoo.org> baloo-4.13.0.ebuild:
+  Pin dev-libs/xapian to stable releases, bug #507884.
+
+  16 Apr 2014; Johannes Huber <johu@gentoo.org> baloo-4.13.0.ebuild:
+  Restore KEYWORDS for KDE SC 4.13.0
+
+*baloo-4.13.0 (16 Apr 2014)
+
+  16 Apr 2014; Johannes Huber <johu@gentoo.org> +baloo-4.13.0.ebuild:
+  Version bump KDE SC 4.13.0

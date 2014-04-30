@@ -1,6 +1,18 @@
 # ChangeLog for virtual/opengl
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/virtual/opengl/ChangeLog,v 1.26 2014/04/08 20:03:11 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/virtual/opengl/ChangeLog,v 1.30 2014/04/19 17:47:09 ago Exp $
+
+  19 Apr 2014; Agostino Sarubbo <ago@gentoo.org> opengl-7.0-r1.ebuild:
+  Stable for sparc, wrt bug #500368
+
+  18 Apr 2014; Agostino Sarubbo <ago@gentoo.org> opengl-7.0-r1.ebuild:
+  Stable for alpha, wrt bug #500368
+
+  17 Apr 2014; Agostino Sarubbo <ago@gentoo.org> opengl-7.0-r1.ebuild:
+  Stable for ia64, wrt bug #500368
+
+  16 Apr 2014; Agostino Sarubbo <ago@gentoo.org> opengl-7.0-r1.ebuild:
+  Stable for ppc64, wrt bug #500368
 
   08 Apr 2014; Agostino Sarubbo <ago@gentoo.org> opengl-7.0-r1.ebuild:
   Stable for ppc, wrt bug #500368

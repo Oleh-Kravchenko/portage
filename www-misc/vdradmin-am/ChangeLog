@@ -1,6 +1,18 @@
 # ChangeLog for www-misc/vdradmin-am
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-misc/vdradmin-am/ChangeLog,v 1.31 2014/04/12 18:40:30 hd_brummy Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-misc/vdradmin-am/ChangeLog,v 1.33 2014/05/11 18:36:00 hd_brummy Exp $
+
+*vdradmin-am-3.6.9-r2 (11 May 2014)
+
+  11 May 2014; Joerg Bornkessel <hd_brummy@gentoo.org>
+  -vdradmin-am-3.6.9-r1.ebuild, +vdradmin-am-3.6.9-r2.ebuild:
+  better systemd support, if use-flag ssl, ipv6 are enabled
+
+*vdradmin-am-3.6.9-r1 (19 Apr 2014)
+
+  19 Apr 2014; Pacho Ramos <pacho@gentoo.org> +files/vdradmind.conf,
+  +files/vdradmind.service, +vdradmin-am-3.6.9-r1.ebuild:
+  Add unit file (#507736 by Joachim Herb)
 
   12 Apr 2014; Joerg Bornkessel <hd_brummy@gentoo.org>
   -vdradmin-am-3.6.8.ebuild:
@@ -319,4 +331,3 @@
   14 Jul 2006; Joerg Bornkessel <hd_brummy@gentoo.org> +files/vdradmin,
   +metadata.xml, +vdradmin-am-3.4.6.ebuild:
   initial import; find older versions on gentoo.de overlay
-

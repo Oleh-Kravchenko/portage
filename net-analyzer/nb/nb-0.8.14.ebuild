@@ -1,11 +1,11 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/nb/nb-0.8.14.ebuild,v 1.2 2013/03/09 18:23:17 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/nb/nb-0.8.14.ebuild,v 1.3 2014/05/03 21:30:16 jer Exp $
 
 EAPI=5
 inherit autotools eutils
 
-DESCRIPTION="Nodebrain is a tool to monitor and do event correlation."
+DESCRIPTION="Nodebrain is a tool to monitor and do event correlation"
 HOMEPAGE="http://nodebrain.sourceforge.net/"
 SRC_URI="mirror://sourceforge/nodebrain/nodebrain-${PV}.tar.gz"
 

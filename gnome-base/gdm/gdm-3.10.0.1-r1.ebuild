@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-base/gdm/gdm-3.10.0.1-r1.ebuild,v 1.3 2014/03/29 21:09:09 tetromino Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-base/gdm/gdm-3.10.0.1-r1.ebuild,v 1.7 2014/05/10 19:37:26 pacho Exp $
 
 EAPI="5"
 GNOME2_LA_PUNT="yes"
@@ -22,7 +22,7 @@ LICENSE="
 
 SLOT="0"
 IUSE="accessibility audit branding fprint +introspection ipv6 plymouth selinux smartcard +systemd tcpd test xinerama"
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86"
+KEYWORDS="~alpha amd64 ~arm ~ia64 ~ppc ~ppc64 ~sh ~sparc x86"
 
 # NOTE: x11-base/xorg-server dep is for X_SERVER_PATH etc, bug #295686
 # nspr used by smartcard extension
@@ -167,8 +167,7 @@ src_configure() {
 		--enable-authentication-scheme=pam \
 		--with-default-pam-config=exherbo \
 		--with-at-spi-registryd-directory="${EPREFIX}"/usr/libexec \
-		--with-consolekit-directory=${EPREFIX}/usr/lib/ConsoleKit \
-		--with-initial-vt=7 \
+		--with-consolekit-directory="${EPREFIX}"/usr/lib/ConsoleKit \
 		--without-xevie \
 		$(use_with audit libaudit) \
 		$(use_enable ipv6) \

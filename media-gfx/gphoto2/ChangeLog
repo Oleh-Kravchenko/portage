@@ -1,6 +1,18 @@
 # ChangeLog for media-gfx/gphoto2
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-gfx/gphoto2/ChangeLog,v 1.144 2014/03/28 02:27:52 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-gfx/gphoto2/ChangeLog,v 1.148 2014/05/17 15:31:35 ago Exp $
+
+  17 May 2014; Agostino Sarubbo <ago@gentoo.org> gphoto2-2.5.3.ebuild:
+  Stable for alpha, wrt bug #508862
+
+  14 May 2014; Agostino Sarubbo <ago@gentoo.org> gphoto2-2.5.3.ebuild:
+  Stable for sparc, wrt bug #508862
+
+  11 May 2014; Agostino Sarubbo <ago@gentoo.org> gphoto2-2.5.3.ebuild:
+  Stable for ppc64, wrt bug #508862
+
+  10 May 2014; Agostino Sarubbo <ago@gentoo.org> gphoto2-2.5.3.ebuild:
+  Stable for ppc, wrt bug #508862
 
   28 Mar 2014; Jeroen Roovers <jer@gentoo.org> gphoto2-2.5.3.ebuild:
   Stable for HPPA (bug #499954).

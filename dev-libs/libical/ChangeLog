@@ -1,6 +1,60 @@
 # ChangeLog for dev-libs/libical
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/libical/ChangeLog,v 1.71 2013/02/09 18:00:43 jer Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libical/ChangeLog,v 1.86 2014/05/19 12:55:58 johu Exp $
+
+  19 May 2014; Johannes Huber <johu@gentoo.org> -libical-0.48.ebuild:
+  Remove old.
+
+  17 May 2014; Agostino Sarubbo <ago@gentoo.org> libical-0.48-r2.ebuild:
+  Stable for alpha, wrt bug #509684
+
+  14 May 2014; Agostino Sarubbo <ago@gentoo.org> libical-0.48-r2.ebuild:
+  Stable for sparc, wrt bug #509684
+
+  13 May 2014; Agostino Sarubbo <ago@gentoo.org> libical-0.48-r2.ebuild:
+  Stable for ia64, wrt bug #509684
+
+  07 May 2014; Mikle Kolyada <zlogene@gentoo.org> libical-0.48-r2.ebuild:
+  arm stable wrt bug #509684
+
+  07 May 2014; Patrick Lauer <patrick@gentoo.org> libical-1.0-r2.ebuild:
+  Restrict makeopts as parallel src_compile reliably fails
+
+  06 May 2014; Mikle Kolyada <zlogene@gentoo.org> libical-0.48-r2.ebuild:
+  ppc64 stable wrt bug #509684
+
+  06 May 2014; Mikle Kolyada <zlogene@gentoo.org> libical-0.48-r2.ebuild:
+  ppc stable wrt bug #509684
+
+  06 May 2014; Mikle Kolyada <zlogene@gentoo.org> libical-0.48-r2.ebuild:
+  x86 stable wrt bug #509684
+
+  06 May 2014; Mikle Kolyada <zlogene@gentoo.org> libical-0.48-r2.ebuild:
+  amd64 stable wrt bug #509684
+
+  06 May 2014; Jeroen Roovers <jer@gentoo.org> libical-0.48-r2.ebuild:
+  Stable for HPPA (bug #509684).
+
+*libical-1.0-r2 (06 May 2014)
+
+  06 May 2014; Manuel Rüger <mrueg@gentoo.org> +libical-1.0-r2.ebuild,
+  -libical-1.0-r1.ebuild:
+  Remove static libraries when needed. Fixes bug #508726.
+
+*libical-1.0-r1 (14 Apr 2014)
+*libical-0.48-r2 (14 Apr 2014)
+
+  14 Apr 2014; Johannes Huber <johu@gentoo.org> +libical-0.48-r2.ebuild,
+  +libical-1.0-r1.ebuild, -libical-0.48-r1.ebuild, -libical-1.0.ebuild:
+  Revision bump introduces subslot.
+
+  14 Apr 2014; Patrick Lauer <patrick@gentoo.org> libical-1.0.ebuild:
+  Whitespace
+
+*libical-1.0 (14 Apr 2014)
+
+  14 Apr 2014; Manuel Rüger <mrueg@gentoo.org> +libical-1.0.ebuild:
+  Version bump.
 
 *libical-0.48-r1 (09 Feb 2013)
 

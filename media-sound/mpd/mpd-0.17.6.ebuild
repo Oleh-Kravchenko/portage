@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/mpd/mpd-0.17.6.ebuild,v 1.8 2013/12/25 09:38:06 maekke Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/mpd/mpd-0.17.6.ebuild,v 1.10 2014/05/17 14:47:02 swift Exp $
 
 EAPI=4
-inherit eutils flag-o-matic linux-info multilib readme.gentoo systemd user
+inherit autotools eutils flag-o-matic linux-info multilib readme.gentoo systemd user
 
 DESCRIPTION="The Music Player Daemon (mpd)"
 HOMEPAGE="http://www.musicpd.org"
@@ -15,7 +15,7 @@ KEYWORDS="amd64 arm hppa ppc ppc64 ~sh sparc x86 ~x86-fbsd ~x64-macos"
 IUSE="+alsa ao audiofile bzip2 cdio +curl debug faad +fifo +ffmpeg flac
 fluidsynth gme +id3tag inotify ipv6 jack lame lastfmradio mms libsamplerate +mad
 mikmod modplug mpg123 musepack +network ogg openal oss pipe pulseaudio recorder
-sid sndfile soundcloud soup sqlite systemd tcpd twolame unicode vorbis wavpack
+selinux sid sndfile soundcloud soup sqlite systemd tcpd twolame unicode vorbis wavpack
 wildmidi zeroconf zip"
 
 OUTPUT_PLUGINS="alsa ao fifo jack network openal oss pipe pulseaudio recorder"
@@ -58,6 +58,7 @@ RDEPEND="!<sys-cluster/mpich2-1.4_rc2
 	ogg? ( media-libs/libogg )
 	openal? ( media-libs/openal )
 	pulseaudio? ( media-sound/pulseaudio )
+	selinux? ( sec-policy/selinux-mpd )
 	sid? ( media-libs/libsidplay:2 )
 	sndfile? ( media-libs/libsndfile )
 	soundcloud? ( >=dev-libs/yajl-2 )
@@ -93,13 +94,16 @@ src_prepare() {
 
 	cp -f doc/mpdconf.example doc/mpdconf.dist || die "cp failed"
 	epatch "${FILESDIR}"/${PN}-0.16.conf.patch \
-		"${FILESDIR}"/${PN}-0.17.4-ffmpeg2.patch
+		"${FILESDIR}"/${PN}-0.17.4-ffmpeg2.patch \
+		"${FILESDIR}"/${PN}-0.17.6-opus-linking.patch
 
 	if has_version dev-libs/libcdio-paranoia; then
 		sed -i \
 			-e 's:cdio/paranoia.h:cdio/paranoia/paranoia.h:' \
 			src/input/cdio_paranoia_input_plugin.c || die
 	fi
+
+	eautoreconf
 }
 
 src_configure() {

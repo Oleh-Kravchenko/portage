@@ -1,6 +1,41 @@
 # ChangeLog for app-emulation/emul-linux-x86-sdl
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-sdl/ChangeLog,v 1.74 2014/04/06 09:12:12 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-sdl/ChangeLog,v 1.80 2014/05/09 19:08:55 ulm Exp $
+
+  09 May 2014; Ulrich Müller <ulm@gentoo.org>
+  emul-linux-x86-sdl-20140406-r2.ebuild, emul-linux-x86-sdl-20140508.ebuild:
+  Fix LICENSE, this is a metapackage with USE=abi_x86_32.
+
+*emul-linux-x86-sdl-20140508 (08 May 2014)
+
+  08 May 2014; Pacho Ramos <pacho@gentoo.org>
+  +emul-linux-x86-sdl-20140508.ebuild, +files/remove-native-20140508,
+  -emul-linux-x86-sdl-20140506.ebuild, -files/remove-native-20140506:
+  Version bump, drop old
+
+*emul-linux-x86-sdl-20140506 (06 May 2014)
+
+  06 May 2014; Pacho Ramos <pacho@gentoo.org>
+  +emul-linux-x86-sdl-20140506.ebuild, +files/remove-native-20140506,
+  -emul-linux-x86-sdl-20131008-r1.ebuild,
+  -emul-linux-x86-sdl-20140406-r1.ebuild:
+  Version bump, drop old
+
+  04 May 2014; Pacho Ramos <pacho@gentoo.org>
+  emul-linux-x86-sdl-20140406.ebuild:
+  amd64 stable, bug 508322
+
+*emul-linux-x86-sdl-20140406-r2 (03 May 2014)
+
+  03 May 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-sdl-20140406-r2.ebuild:
+  Update to cover all libraries that were converted.
+
+*emul-linux-x86-sdl-20140406-r1 (18 Apr 2014)
+
+  18 Apr 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-sdl-20140406-r1.ebuild, +files/remove-native-20140406-r1:
+  Add support for gx86-multilib SDL libraries (except for sdl-mixer).
 
 *emul-linux-x86-sdl-20140406 (06 Apr 2014)
 

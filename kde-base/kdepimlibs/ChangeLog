@@ -1,6 +1,64 @@
 # ChangeLog for kde-base/kdepimlibs
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/kde-base/kdepimlibs/ChangeLog,v 1.252 2014/04/01 18:24:16 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-base/kdepimlibs/ChangeLog,v 1.268 2014/05/13 17:43:17 johu Exp $
+
+*kdepimlibs-4.13.1 (13 May 2014)
+
+  13 May 2014; Johannes Huber <johu@gentoo.org> +kdepimlibs-4.13.1.ebuild:
+  Version bump KDE SC 4.13.1
+
+  08 May 2014; Johannes Huber <johu@gentoo.org>
+  -files/kdepimlibs-4.11.2-sentuuid.patch, -kdepimlibs-4.11.5.ebuild:
+  Remove old.
+
+  08 May 2014; Agostino Sarubbo <ago@gentoo.org> kdepimlibs-4.12.5.ebuild:
+  Stable for ppc64, wrt bug #504210
+
+  07 May 2014; Agostino Sarubbo <ago@gentoo.org> kdepimlibs-4.12.5.ebuild:
+  Stable for ppc, wrt bug #504210
+
+  07 May 2014; Johannes Huber <johu@gentoo.org> -kdepimlibs-4.12.3.ebuild:
+  Remove KDE SC 4.12.3
+
+  07 May 2014; Mikle Kolyada <zlogene@gentoo.org> kdepimlibs-4.12.5.ebuild:
+  x86 stable wrt bug #504210
+
+  06 May 2014; Mikle Kolyada <zlogene@gentoo.org> kdepimlibs-4.12.5.ebuild:
+  amd64 stable wrt bug #504210
+
+  30 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> Manifest:
+  Fixed manifest.
+
+  29 Apr 2014; Johannes Huber <johu@gentoo.org>
+  files/kdepimlibs-4.9.1-boostincludes.patch:
+  Remove KDE Workspace 4.11.8
+
+  29 Apr 2014; Johannes Huber <johu@gentoo.org> -kdepimlibs-4.12.4.ebuild:
+  Remove KDE SC 4.12.4
+
+  29 Apr 2014; Johannes Huber <johu@gentoo.org>
+  files/kdepimlibs-4.9.1-boostincludes.patch:
+  Version bump KDE Workspace 4.11.9
+
+*kdepimlibs-4.12.5 (29 Apr 2014)
+
+  29 Apr 2014; Johannes Huber <johu@gentoo.org> +kdepimlibs-4.12.5.ebuild:
+  Version bump KDE SC 4.12.5
+
+  22 Apr 2014; Johannes Huber <johu@gentoo.org> kdepimlibs-4.13.0.ebuild:
+  Drop app-office/akonadi-server[soprano(-)], bug #508356.
+
+  21 Apr 2014; Johannes Huber <johu@gentoo.org> kdepimlibs-4.11.5.ebuild,
+  kdepimlibs-4.12.3.ebuild, kdepimlibs-4.12.4.ebuild, kdepimlibs-4.13.0.ebuild:
+  Add use dep on app-office/akonadi-server[soprano].
+
+  16 Apr 2014; Johannes Huber <johu@gentoo.org> kdepimlibs-4.13.0.ebuild:
+  Restore KEYWORDS for KDE SC 4.13.0
+
+*kdepimlibs-4.13.0 (16 Apr 2014)
+
+  16 Apr 2014; Johannes Huber <johu@gentoo.org> +kdepimlibs-4.13.0.ebuild:
+  Version bump KDE SC 4.13.0
 
   01 Apr 2014; Johannes Huber <johu@gentoo.org>
   files/kdepimlibs-4.9.1-boostincludes.patch:

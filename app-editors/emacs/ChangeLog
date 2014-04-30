@@ -1,6 +1,63 @@
 # ChangeLog for app-editors/emacs
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-editors/emacs/ChangeLog,v 1.611 2014/04/06 22:08:14 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-editors/emacs/ChangeLog,v 1.623 2014/05/16 20:09:30 ulm Exp $
+
+  16 May 2014; Ulrich Müller <ulm@gentoo.org> emacs-24.3-r6.ebuild:
+  Do not depend on xz-utils, it is in the system set.
+
+  16 May 2014; Ulrich Müller <ulm@gentoo.org> -emacs-23.4-r8.ebuild,
+  -emacs-24.2-r1.ebuild, -emacs-24.3-r4.ebuild:
+  Remove old.
+
+  16 May 2014; Ulrich Müller <ulm@gentoo.org> -emacs-18.59-r9.ebuild,
+  emacs-18.59-r10.ebuild:
+  Allow emul-linux-* as alternative dependency, since this is still stage I of
+  the gx86-multilib roadmap. Stable on amd64 and x86, bug 510456. Remove old.
+
+  15 May 2014; Markus Meier <maekke@gentoo.org> emacs-24.3-r6.ebuild:
+  arm stable, bug #509830
+
+  15 May 2014; Markus Meier <maekke@gentoo.org> emacs-23.4-r10.ebuild:
+  arm stable, bug #509830
+
+*emacs-23.4-r11 (10 May 2014)
+
+  10 May 2014; Ulrich Müller <ulm@gentoo.org> +emacs-23.4-r11.ebuild:
+  Backport xz support to Emacs 23.4.
+
+  09 May 2014; Jeroen Roovers <jer@gentoo.org> emacs-23.4-r10.ebuild,
+  emacs-24.3-r6.ebuild:
+  Stable for HPPA (bug #509830).
+
+*emacs-24.3-r6 (09 May 2014)
+*emacs-23.4-r10 (09 May 2014)
+
+  09 May 2014; Ulrich Müller <ulm@gentoo.org> -emacs-23.4-r9.ebuild,
+  +emacs-23.4-r10.ebuild, -emacs-24.3-r5.ebuild, +emacs-24.3-r6.ebuild:
+  Use upstream patch for browse-url, CVE-2014-3423, bug 509830.
+
+*emacs-24.3-r5 (08 May 2014)
+*emacs-23.4-r9 (08 May 2014)
+
+  08 May 2014; Ulrich Müller <ulm@gentoo.org> +emacs-23.4-r9.ebuild,
+  +emacs-24.3-r5.ebuild:
+  Fix multiple issues with insecure use of temporary files, CVE-2014-3421,
+  CVE-2014-3422, CVE-2014-3423, CVE-2014-3424, bug 509830.
+
+*emacs-24.3-r4 (05 May 2014)
+*emacs-23.4-r8 (05 May 2014)
+*emacs-22.3-r12 (05 May 2014)
+
+  05 May 2014; Ulrich Müller <ulm@gentoo.org> -emacs-22.3-r11.ebuild,
+  +emacs-22.3-r12.ebuild, -emacs-23.4-r7.ebuild, +emacs-23.4-r8.ebuild,
+  -emacs-24.3-r3.ebuild, +emacs-24.3-r4.ebuild:
+  Access shared game score files in /var/games/emacs, compliant with the FHS.
+
+  23 Apr 2014; Ulrich Müller <ulm@gentoo.org> -emacs-18.59-r8.ebuild:
+  Remove old.
+
+  23 Apr 2014; Chema Alonso <nimiux@gentoo.org> emacs-18.59-r9.ebuild:
+  Stable for amd64 wrt bug #502262
 
   06 Apr 2014; Ulrich Müller <ulm@gentoo.org> emacs-23.4-r6.ebuild,
   emacs-23.4-r7.ebuild, emacs-24.3-r2.ebuild, emacs-24.3-r3.ebuild:

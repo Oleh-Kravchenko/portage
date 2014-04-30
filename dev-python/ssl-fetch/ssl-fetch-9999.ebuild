@@ -1,14 +1,14 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/ssl-fetch/ssl-fetch-9999.ebuild,v 1.1 2014/03/02 05:42:49 dolsen Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/ssl-fetch/ssl-fetch-9999.ebuild,v 1.4 2014/05/07 23:33:07 dolsen Exp $
 
 EAPI="5"
 
-PYTHON_COMPAT=(python{2_6,2_7,3_2,3_3})
+PYTHON_COMPAT=(python{2_7,3_3,3_4})
 
 EGIT_BRANCH="master"
 
-inherit distutils-r1 python-r1 git-2
+inherit distutils-r1 git-2
 
 EGIT_REPO_URI="git://github.com/dol-sen/ssl-fetch.git"
 
@@ -24,25 +24,14 @@ KEYWORDS=""
 
 DEPEND=""
 
-# requests dropped py-3.2 support in >=2.2.0
 RDEPEND="${DEPEND}
-	>=dev-python/requests-1.2.1
-	python_targets_python3_2? ( <=dev-python/requests-2.1.0 )
-	python_targets_python2_6? (
-		dev-python/ndg-httpsclient[python_targets_python2_6]
-		dev-python/pyasn1[python_targets_python2_6]
-		>=dev-python/pyopenssl-0.13[python_targets_python2_6]
-		)
+	>=dev-python/requests-1.2.1[${PYTHON_USEDEP}]
 	python_targets_python2_7? (
 		dev-python/ndg-httpsclient[python_targets_python2_7]
 		dev-python/pyasn1[python_targets_python2_7]
 		>=dev-python/pyopenssl-0.13[python_targets_python2_7]
 		)
 	"
-
-python_install_all() {
-	distutils-r1_python_install_all
-}
 
 pkg_postinst() {
 	einfo

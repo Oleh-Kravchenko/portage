@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-power/powertop/powertop-9999.ebuild,v 1.26 2013/10/03 19:51:51 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-power/powertop/powertop-9999.ebuild,v 1.27 2014/05/17 02:23:35 zerochaos Exp $
 
 EAPI="5"
 
@@ -10,7 +10,7 @@ if [[ ${PV} == "9999" ]] ; then
 	inherit git-2 autotools
 	SRC_URI=""
 else
-	SRC_URI="https://01.org/powertop/sites/default/files/downloads/${P}.tar.gz"
+	SRC_URI="https://01.org/sites/default/files/downloads/${PN}/${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux"
 fi
 
@@ -95,9 +95,4 @@ src_prepare() {
 src_configure() {
 	export ac_cv_search_delwin=$(usex unicode -lncursesw -lncurses)
 	default
-}
-
-src_install() {
-	default
-	keepdir /var/cache/powertop
 }

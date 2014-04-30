@@ -1,10 +1,10 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-embedded/openocd/openocd-9999.ebuild,v 1.32 2014/04/06 16:02:36 hwoarang Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-embedded/openocd/openocd-9999.ebuild,v 1.37 2014/05/17 09:07:40 hwoarang Exp $
 
 EAPI="5"
 
-inherit eutils multilib flag-o-matic toolchain-funcs
+inherit eutils multilib flag-o-matic toolchain-funcs udev
 
 # One ebuild to rule them all
 if [[ ${PV} == "9999" ]] ; then
@@ -22,46 +22,27 @@ fi
 DESCRIPTION="OpenOCD - Open On-Chip Debugger"
 HOMEPAGE="http://openocd.sourceforge.net"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
-IUSE="blaster dummy ftdi minidriver parport presto segger +usb versaloon verbose-io"
+IUSE="cmsis-dap dummy ftdi parport +usb verbose-io"
 RESTRICT="strip" # includes non-native binaries
 
-# versaloon needs libusb:0 but the rest of the devices need libusb:1
-# Therefore, treat versaloon as a special case and always pull libusb:1
-# so most of the devices are supported by default.
-DEPEND=">=dev-lang/jimtcl-0.73
+RDEPEND=">=dev-lang/jimtcl-0.75
+	cmsis-dap? ( dev-libs/hidapi )
 	usb? (
-		versaloon? ( virtual/libusb:0 )
+		virtual/libusb:0
 		virtual/libusb:1
 	)
 	ftdi? ( dev-embedded/libftdi )"
 
-RDEPEND="${DEPEND}"
-
-REQUIRED_USE="blaster? ( ftdi ) presto? ( ftdi ) versaloon? ( usb )"
+DEPEND="${RDEPEND}
+	virtual/pkgconfig"
 
 src_prepare() {
 	epatch_user
 
 	if [[ ${PV} == "9999" ]] ; then
-		sed -i -e "/@include version.texi/d" doc/${PN}.texi || die
 		AT_NO_RECURSIVE=yes eautoreconf
-	fi
-
-	# Disable craptastic build settings.
-	sed -i \
-		-e 's:if test "[$]OCDxprefix" != "[$]ac_default_prefix":if false:' \
-		configure || die
-
-	if use ftdi ; then
-		local pc="libftdi$(has_version '=dev-embedded/libftdi-1*' && echo 1)"
-		# Use libftdi-1 paths #460916
-		local libs=$($(tc-getPKG_CONFIG) --libs ${pc})
-		sed -i \
-			-e "s:-lftdi -lusb:${libs}:" \
-			configure src/Makefile.in || die
-		append-cppflags $($(tc-getPKG_CONFIG) --cflags ${pc})
 	fi
 }
 
@@ -69,7 +50,6 @@ src_configure() {
 	# Here are some defaults
 	local myconf=(
 		--enable-buspirate
-		--enable-ioutil
 		--disable-werror
 		--disable-internal-jimtcl
 		--enable-amtjtagaccel
@@ -78,12 +58,16 @@ src_configure() {
 		--enable-gw16012
 		--enable-oocd_trace
 		--enable-arm-jtag-ew
+		--enable-sysfsgpio
+		--enable-bcm2835gpio
 	)
 
 	# Adapters requiring usb/libusb-1.X support
 	if use usb; then
 		myconf+=(
 			--enable-aice
+			--enable-usb-blaster-2
+			--enable-ftdi
 			--enable-ti-icdi
 			--enable-ulink
 			--enable-osbdm
@@ -93,43 +77,47 @@ src_configure() {
 			--enable-rlink
 			--enable-stlink
 			--enable-vsllink
-			--enable-arm-jtag-ew
+			--enable-armjtagew
 			$(use_enable verbose-io verbose-usb-io)
 			$(use_enable verbose-io verbose_usb_comms)
 		)
 	else
 		myconf+=(
 			--disable-aice
-			--disable-stlink
+			--disable-usb-blaster-2
+			--disable-ftdi
 			--disable-ti-icdi
 			--disable-ulink
 			--disable-osbdm
 			--disable-opendous
+			--disable-usbprog
+			--disable-jlink
+			--disable-rlink
+			--disable-stlink
+			--disable-vsllink
+			--disable-armjtagew
 		)
 	fi
 
-	if use blaster; then
+	if use ftdi; then
 		myconf+=(
-			--enable-usb_blaster_libftdi
-			--enable-usb-blaster-2
+			--enable-usb_blaster_libftd
+			--enable-openjtag_ftdi
+			--enable-presto_libftdi
 		)
 	else
 		myconf+=(
+			--disable-openjtag_ftdi
+			--disable-presto_libftdi
 			--disable-usb_blaster_libftdi
-			--disable-usb-blaster-2
 		)
 	fi
 
 	econf \
 		$(use_enable dummy) \
-		$(use_enable ftdi) \
-		$(use_enable minidriver minidriver-dummy) \
+		$(use_enable cmsis-dap) \
 		$(use_enable parport) \
 		$(use_enable parport parport_ppdev) \
-		$(use_enable parport parport_giveio) \
-		$(use_enable presto presto_libftdi) \
-		$(use_enable segger jlink) \
-		$(use_enable versaloon vsllink) \
 		$(use_enable verbose-io verbose-jtag-io) \
 		"${myconf[@]}"
 }
@@ -137,4 +125,5 @@ src_configure() {
 src_install() {
 	default
 	env -uRESTRICT prepstrip "${ED}"/usr/bin "${ED}"/usr/$(get_libdir)
+	udev_dorules ${D}/usr/share/${PN}/contrib/*.rules
 }

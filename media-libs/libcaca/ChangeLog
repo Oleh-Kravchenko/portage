@@ -1,6 +1,24 @@
 # ChangeLog for media-libs/libcaca
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libcaca/ChangeLog,v 1.111 2013/08/14 18:51:15 aballier Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libcaca/ChangeLog,v 1.115 2014/04/28 17:43:33 mgorny Exp $
+
+  28 Apr 2014; Michał Górny <mgorny@gentoo.org> libcaca-0.99_beta18-r2.ebuild:
+  Replace multilib_build_binaries with multilib_is_native_abi, in order to put
+  an end to the confusion introduced by having two functions, the proper one
+  suggesting it is just for binaries.
+
+  24 Apr 2014; Julian Ospald <hasufell@gentoo.org>
+  libcaca-0.99_beta18-r2.ebuild:
+  convert to multilib-minimal instead and fix bug #508564
+
+  19 Apr 2014; Patrick Lauer <patrick@gentoo.org> libcaca-0.99_beta18-r2.ebuild:
+  Whitespace
+
+*libcaca-0.99_beta18-r2 (18 Apr 2014)
+
+  18 Apr 2014; Julian Ospald <hasufell@gentoo.org>
+  +libcaca-0.99_beta18-r2.ebuild, +files/libcaca-0.99_beta18-fix-tests.patch:
+  add multilib support wrt #497776, patches by Michael Mair-Keimberger
 
   14 Aug 2013; Alexis Ballier <aballier@gentoo.org>
   libcaca-0.99_beta18-r1.ebuild:
@@ -463,4 +481,3 @@
   14 Jan 2004; Martin Holzer <mholzer@gentoo.org> libcaca-0.2.ebuild:
   Initial Version submitted by Derk-Jan Hartman <thedj@users.sourceforge.net> 
   in 34965
-

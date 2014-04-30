@@ -1,6 +1,17 @@
 # ChangeLog for sys-kernel/genkernel
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/genkernel/ChangeLog,v 1.379 2014/04/11 16:37:23 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/genkernel/ChangeLog,v 1.381 2014/04/18 16:07:46 floppym Exp $
+
+  18 Apr 2014; Mike Gilbert <floppym@gentoo.org> genkernel-3.4.45.1.ebuild,
+  genkernel-3.4.48.ebuild, genkernel-3.4.49.1.ebuild, genkernel-3.4.49.ebuild,
+  genkernel-9999.ebuild:
+  Remove blocker on sys-boot/grub:2[-multislot] after discussion with ryao.
+
+*genkernel-3.4.49.1 (14 Apr 2014)
+
+  14 Apr 2014; Robin H. Johnson <robbat2@gentoo.org> +genkernel-3.4.49.1.ebuild,
+  genkernel-3.4.49.ebuild:
+  Bump for infra-kernel-source, fix hppa keyword.
 
   11 Apr 2014; Jeroen Roovers <jer@gentoo.org> genkernel-3.4.49.ebuild:
   Stable for HPPA (bug #506404).

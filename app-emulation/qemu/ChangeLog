@@ -1,6 +1,55 @@
 # ChangeLog for app-emulation/qemu
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/ChangeLog,v 1.248 2014/03/24 17:39:55 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/ChangeLog,v 1.259 2014/05/18 18:01:59 vapier Exp $
+
+  18 May 2014; Mike Frysinger <vapier@gentoo.org> qemu-2.0.0.ebuild:
+  Set --cxx unconditionally.
+
+  12 May 2014; Mike Frysinger <vapier@gentoo.org> qemu-9999.ebuild:
+  Drop patch now that it is merged upstream #510068 by Hristo Venev.
+
+  25 Apr 2014; Mike Frysinger <vapier@gentoo.org> qemu-2.0.0.ebuild,
+  qemu-9999.ebuild:
+  Fix static lib requirements for USE=static-user #487918 by jannis.
+
+  25 Apr 2014; Mike Frysinger <vapier@gentoo.org> qemu-2.0.0.ebuild,
+  qemu-9999.ebuild:
+  Simplify style for generating USE flags and configure options -- should be no
+  functional changes here.
+
+  22 Apr 2014; Mike Frysinger <vapier@gentoo.org> qemu-2.0.0.ebuild,
+  qemu-9999.ebuild:
+  Add aarch64 targets.
+
+  20 Apr 2014; Mike Frysinger <vapier@gentoo.org> qemu-1.7.0.ebuild,
+  qemu-1.7.1.ebuild, qemu-2.0.0.ebuild, qemu-9999.ebuild:
+  Drop USE=mixemu as the configure flag no longer exists #508194 by OGINO
+  Masanori.
+
+*qemu-2.0.0 (19 Apr 2014)
+
+  19 Apr 2014; Mike Frysinger <vapier@gentoo.org> +qemu-2.0.0.ebuild:
+  Version bump.
+
+  19 Apr 2014; Mike Frysinger <vapier@gentoo.org>
+  +files/qemu-9999-virtfs-proxy-helper-accept.patch, qemu-9999.ebuild:
+  Fix by Tim Comer for stack overflow in virtfs-proxy-helper #486714.
+
+  19 Apr 2014; Mike Frysinger <vapier@gentoo.org> qemu-1.4.2.ebuild,
+  qemu-1.5.3.ebuild, qemu-1.6.0-r1.ebuild, qemu-1.6.1.ebuild, qemu-1.6.2.ebuild,
+  qemu-1.7.0.ebuild, qemu-1.7.1.ebuild, qemu-9999.ebuild:
+  Export a sane default AR #484974 by Agostino Sarubbo.
+
+  19 Apr 2014; Mike Frysinger <vapier@gentoo.org> qemu-1.4.2.ebuild,
+  qemu-1.5.3.ebuild, qemu-1.6.0-r1.ebuild, qemu-1.6.1.ebuild, qemu-1.6.2.ebuild,
+  qemu-1.7.0.ebuild, qemu-1.7.1.ebuild, qemu-9999.ebuild:
+  Move python_export_best call to src_configure to avoid binpkg issues #496554
+  by Rafal Kupiec.
+
+*qemu-1.7.1 (19 Apr 2014)
+
+  19 Apr 2014; Mike Frysinger <vapier@gentoo.org> +qemu-1.7.1.ebuild:
+  Version bump.
 
   24 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> metadata.xml,
   qemu-1.4.2.ebuild, qemu-1.5.3.ebuild, qemu-1.6.0-r1.ebuild, qemu-1.6.1.ebuild,

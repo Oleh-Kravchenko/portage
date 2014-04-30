@@ -1,6 +1,44 @@
 # ChangeLog for app-emulation/libvirt
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/libvirt/ChangeLog,v 1.354 2014/03/01 22:08:30 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/libvirt/ChangeLog,v 1.363 2014/05/17 14:37:15 cardoe Exp $
+
+  17 May 2014; Doug Goldstein <cardoe@gentoo.org> -files/libvirtd.init-r12,
+  -libvirt-1.1.3.3.ebuild, -libvirt-1.2.1.ebuild:
+  Clean out older versions
+
+*libvirt-1.2.4 (15 May 2014)
+
+  15 May 2014; Doug Goldstein <cardoe@gentoo.org> +libvirt-1.2.4.ebuild:
+  Version bump
+
+  15 May 2014; Doug Goldstein <cardoe@gentoo.org> libvirt-1.2.3.ebuild:
+  Fix typo in option name
+
+  11 May 2014; Doug Goldstein <cardoe@gentoo.org> libvirt-1.2.3.ebuild:
+  Add checks for kernel support for the guest bandwidth limiting feature.
+  Research into this and the work done by Dan Moulding
+  <dan.moulding@rackwareinc.com>
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-1.1.3.4.ebuild,
+  libvirt-1.2.3.ebuild:
+  Stable for x86, wrt bug #502232
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-1.1.3.4.ebuild,
+  libvirt-1.2.3.ebuild:
+  Stable for amd64, wrt bug #502232
+
+  20 Apr 2014; Doug Goldstein <cardoe@gentoo.org> metadata.xml:
+  Fix up description of USE=qemu
+
+*libvirt-1.1.3.4 (20 Apr 2014)
+
+  20 Apr 2014; Doug Goldstein <cardoe@gentoo.org> +libvirt-1.1.3.4.ebuild:
+  Version bump stable series.
+
+*libvirt-1.2.3 (20 Apr 2014)
+
+  20 Apr 2014; Doug Goldstein <cardoe@gentoo.org> +libvirt-1.2.3.ebuild:
+  Version bump. bug #506560
 
   01 Mar 2014; Michał Górny <mgorny@gentoo.org> libvirt-1.1.3.3.ebuild,
   libvirt-1.2.1.ebuild, libvirt-9999.ebuild:

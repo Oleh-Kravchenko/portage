@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-misc/xsnap/xsnap-1.5.11.ebuild,v 1.1 2013/06/04 01:37:39 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-misc/xsnap/xsnap-1.5.11.ebuild,v 1.2 2014/05/12 17:21:09 jer Exp $
 
 EAPI=5
-inherit eutils toolchain-funcs
+inherit toolchain-funcs
 
 DESCRIPTION="Program to interactively take a 'snapshot' of a region of the screen"
 HOMEPAGE="ftp://ftp.ac-grenoble.fr/ge/Xutils/"
@@ -36,7 +36,6 @@ DEPEND="
 DOCS=( AUTHORS Changelog README )
 
 src_prepare() {
-#	epatch "${FILESDIR}"/${P}-prefix.patch
 	sed -i \
 		-e 's|/usr/share/locale|$(LOCALEDIR)|g' \
 		-e 's|/usr/share/man/man1|$(MANDIR)|g' \
@@ -61,9 +60,4 @@ src_prepare() {
 src_compile() {
 	tc-export CC
 	emake CCOPTIONS="${CFLAGS}" EXTRA_LDOPTIONS="${LDFLAGS}"
-}
-
-src_install() {
-#	dodir /usr/share/man/man1
-	default
 }

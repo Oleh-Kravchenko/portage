@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/kde-base/kdepim-runtime/kdepim-runtime-4.4.11.1-r2.ebuild,v 1.2 2014/04/05 18:22:12 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-base/kdepim-runtime/kdepim-runtime-4.4.11.1-r2.ebuild,v 1.6 2014/05/08 21:07:58 johu Exp $
 
 EAPI=5
 
@@ -13,7 +13,7 @@ else
 fi
 
 DESCRIPTION="KDE PIM runtime plugin collection"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 x86 ppc ~amd64-linux ~x86-linux"
 IUSE="debug"
 
 RESTRICT="test"
@@ -21,7 +21,7 @@ RESTRICT="test"
 
 COMMON_DEPEND="
 	app-misc/strigi
-	>=app-office/akonadi-server-1.3.1
+	>=app-office/akonadi-server-1.3.1[soprano(+)]
 	dev-libs/libxml2:2
 	dev-libs/libxslt
 	$(add_kdebase_dep kdelibs 'semantic-desktop' 4.12)

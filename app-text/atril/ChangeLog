@@ -1,0 +1,12 @@
+# ChangeLog for app-text/atril
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-text/atril/ChangeLog,v 1.2 2014/05/08 10:57:06 tomwij Exp $
+
+  08 May 2014; Tom Wijsman <TomWij@gentoo.org> atril-1.8.0.ebuild:
+  Added a missing || ( ... ); fixes bug #509778, filed by Philipp Psurek.
+
+*atril-1.8.0 (27 Apr 2014)
+
+  27 Apr 2014; Tom Wijsman <TomWij@gentoo.org> +atril-1.8.0.ebuild,
+  +metadata.xml:
+  Version bump to 1.8.0, continuation of app-text/mate-document-viewer.

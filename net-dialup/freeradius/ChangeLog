@@ -1,6 +1,48 @@
 # ChangeLog for net-dialup/freeradius
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-dialup/freeradius/ChangeLog,v 1.117 2014/01/03 12:06:30 naota Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-dialup/freeradius/ChangeLog,v 1.127 2014/05/19 15:59:36 jer Exp $
+
+  19 May 2014; Jeroen Roovers <jer@gentoo.org> files/radius.init-r3:
+  Fix /run subdir to match init.d script.
+
+  18 May 2014; Jeroen Roovers <jer@gentoo.org> -freeradius-2.2.0.ebuild:
+  Old.
+
+  18 May 2014; Agostino Sarubbo <ago@gentoo.org> freeradius-2.2.5.ebuild:
+  Stable for x86, wrt bug #501754
+
+  06 May 2014; Jeroen Roovers <jer@gentoo.org> freeradius-2.2.5.ebuild:
+  Force LIBTOOL=libtool so that make does not try to run it with /bin/sh (bug
+  #509472).
+
+  04 May 2014; Jeroen Roovers <jer@gentoo.org> freeradius-3.0.2-r1.ebuild:
+  Fix run_dir sed script.
+
+*freeradius-3.0.2-r1 (04 May 2014)
+
+  04 May 2014; Jeroen Roovers <jer@gentoo.org> +freeradius-3.0.2-r1.ebuild:
+  Do not build or install static libraries.
+
+  04 May 2014; Agostino Sarubbo <ago@gentoo.org> freeradius-2.2.5.ebuild:
+  Stable for amd64, wrt bug #501754
+
+  03 May 2014; Jeroen Roovers <jer@gentoo.org> freeradius-3.0.2.ebuild:
+  Do not generate and install certificates. Disable parallel make install (bug
+  #509498). Drop KEYWORDS for now.
+
+  03 May 2014; Jeroen Roovers <jer@gentoo.org> freeradius-2.2.5.ebuild,
+  freeradius-3.0.2.ebuild:
+  Remove configuration hints (bug #455690), move emerge --config suggestion to
+  preinst, ewarn to elog.
+
+*freeradius-3.0.2 (03 May 2014)
+*freeradius-2.2.5 (03 May 2014)
+
+  03 May 2014; Jeroen Roovers <jer@gentoo.org> +freeradius-2.2.5.ebuild,
+  +freeradius-3.0.2.ebuild, +files/freeradius-2.2.5-gentoo.patch,
+  files/radius.init-r3:
+  Version bump (bug #489958). Use /run not /var/run. Migrate away from
+  python.eclass.
 
   03 Jan 2014; Naohiro Aota <naota@gentoo.org> freeradius-2.2.0.ebuild:
   Add ~x86-fbsd. #354151

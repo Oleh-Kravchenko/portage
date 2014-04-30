@@ -1,6 +1,119 @@
 # ChangeLog for app-emulation/emul-linux-x86-baselibs
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-baselibs/ChangeLog,v 1.194 2014/04/12 11:57:27 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-baselibs/ChangeLog,v 1.211 2014/05/15 18:37:09 mgorny Exp $
+
+*emul-linux-x86-baselibs-20140508-r3 (15 May 2014)
+
+  15 May 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-baselibs-20140508-r3.ebuild, +files/remove-native-20140508-r3:
+  Add multilib sys-libs/db, and use virtual/krb5 to support both Kerberos
+  implementations.
+
+*emul-linux-x86-baselibs-20140508-r2 (15 May 2014)
+
+  15 May 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-baselibs-20140508-r2.ebuild, +files/remove-native-20140508-r2:
+  Include mit-krb5 and deps.
+
+*emul-linux-x86-baselibs-20140508-r1 (14 May 2014)
+
+  14 May 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-baselibs-20140508-r1.ebuild, +files/remove-native-20140508-r1:
+  Update for multilib gnutls & cups.
+
+  13 May 2014; Michał Górny <mgorny@gentoo.org>
+  emul-linux-x86-baselibs-20140406-r4.ebuild,
+  emul-linux-x86-baselibs-20140508.ebuild:
+  Add missing OpenSSL dep.
+
+*emul-linux-x86-baselibs-20140406-r4 (13 May 2014)
+
+  13 May 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-baselibs-20140406-r4.ebuild, +files/remove-native-20140406-r4,
+  -emul-linux-x86-baselibs-20140508-r1.ebuild, -files/remove-native-20140508-r1,
+  files/remove-native-20140508:
+  Backport OpenSSL to 20140406 since *0508 may be masked for a while. Move
+  20140508-r1 -> 20140508 since that version is hardmasked anyway.
+
+*emul-linux-x86-baselibs-20140508-r1 (12 May 2014)
+
+  12 May 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-baselibs-20140508-r1.ebuild, +files/remove-native-20140508-r1:
+  Add new version with openssl.
+
+  11 May 2014; Michał Górny <mgorny@gentoo.org> files/remove-native-20140508:
+  Update remove-native for gmp, bug #509990.
+
+  09 May 2014; Michał Górny <mgorny@gentoo.org> files/remove-native-20140508:
+  Update remove-native wrt libpng version change.
+
+*emul-linux-x86-baselibs-20140508 (08 May 2014)
+
+  08 May 2014; Pacho Ramos <pacho@gentoo.org>
+  +emul-linux-x86-baselibs-20140508.ebuild, +files/remove-native-20140508,
+  -emul-linux-x86-baselibs-20140506.ebuild, -files/remove-native-20140506:
+  Version bump
+
+*emul-linux-x86-baselibs-20140506 (06 May 2014)
+
+  06 May 2014; Pacho Ramos <pacho@gentoo.org>
+  +emul-linux-x86-baselibs-20140506.ebuild, +files/remove-native-20140506:
+  Version bump
+
+  04 May 2014; Pacho Ramos <pacho@gentoo.org>
+  emul-linux-x86-baselibs-20140406-r1.ebuild:
+  amd64 stable, bug 508322
+
+  03 May 2014; Pacho Ramos <pacho@gentoo.org>
+  emul-linux-x86-baselibs-20140406-r1.ebuild,
+  emul-linux-x86-baselibs-20140406-r3.ebuild:
+  We need newer glibc (#509434 by Mikael Magnusson)
+
+  03 May 2014; Pacho Ramos <pacho@gentoo.org>
+  -emul-linux-x86-baselibs-20131008-r11.ebuild,
+  -emul-linux-x86-baselibs-20131008-r12.ebuild,
+  -emul-linux-x86-baselibs-20131008-r13.ebuild,
+  -emul-linux-x86-baselibs-20131008-r14.ebuild,
+  -emul-linux-x86-baselibs-20131008-r15.ebuild,
+  -emul-linux-x86-baselibs-20131008-r16.ebuild,
+  -emul-linux-x86-baselibs-20131008-r17.ebuild,
+  -emul-linux-x86-baselibs-20131008-r18.ebuild,
+  -emul-linux-x86-baselibs-20131008-r19.ebuild,
+  -emul-linux-x86-baselibs-20131008-r20.ebuild,
+  -emul-linux-x86-baselibs-20131008-r21.ebuild,
+  -emul-linux-x86-baselibs-20131008-r22.ebuild,
+  -emul-linux-x86-baselibs-20140406-r2.ebuild,
+  -emul-linux-x86-baselibs-20140406.ebuild, -files/remove-native-20131008-r12,
+  -files/remove-native-20131008-r13, -files/remove-native-20131008-r14,
+  -files/remove-native-20131008-r15, -files/remove-native-20131008-r16,
+  -files/remove-native-20131008-r17, -files/remove-native-20131008-r18,
+  -files/remove-native-20131008-r19, -files/remove-native-20131008-r20,
+  -files/remove-native-20131008-r21, -files/remove-native-20131008-r22:
+  Drop old
+
+*emul-linux-x86-baselibs-20140406-r3 (02 May 2014)
+
+  02 May 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-baselibs-20140406-r3.ebuild, +files/remove-native-20140406-r3:
+  Update for new conversions.
+
+  20 Apr 2014; Michał Górny <mgorny@gentoo.org> files/remove-native-20140406,
+  files/remove-native-20140406-r1, files/remove-native-20140406-r2:
+  Restore libmng.so.1 as required by emul-linux-x86-qtlibs. Thanks to tetromino
+  for reporting.
+
+  20 Apr 2014; Michał Górny <mgorny@gentoo.org>
+  emul-linux-x86-baselibs-20140406-r1.ebuild,
+  emul-linux-x86-baselibs-20140406-r2.ebuild,
+  emul-linux-x86-baselibs-20140406.ebuild:
+  Add xz-utils to dependencies since this package has been added to the emul-
+  set.
+
+*emul-linux-x86-baselibs-20140406-r2 (18 Apr 2014)
+
+  18 Apr 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-baselibs-20140406-r2.ebuild, +files/remove-native-20140406-r2:
+  Add support for gx86-multilib sys-libs/slang and media-libs/giflib.
 
   12 Apr 2014; Pacho Ramos <pacho@gentoo.org> +files/remove-native-20140406-r1:
   Update remove-native file (#506900#c5 by nE0sIghT)

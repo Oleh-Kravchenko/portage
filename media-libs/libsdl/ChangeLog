@@ -1,6 +1,22 @@
 # ChangeLog for media-libs/libsdl
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libsdl/ChangeLog,v 1.212 2014/01/15 09:20:41 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libsdl/ChangeLog,v 1.216 2014/05/15 16:15:03 ulm Exp $
+
+  15 May 2014; Ulrich Müller <ulm@gentoo.org> libsdl-1.2.14-r6.ebuild,
+  libsdl-1.2.15-r2.ebuild, libsdl-1.2.15-r3.ebuild, libsdl-1.2.15-r4.ebuild,
+  libsdl-1.2.15-r5.ebuild, metadata.xml:
+  QA: Rename "audio" USE flag to "sound", bug 357661.
+
+  30 Apr 2014; Michał Górny <mgorny@gentoo.org> libsdl-1.2.15-r5.ebuild:
+  Fix typo in function name.
+
+  21 Apr 2014; Michał Górny <mgorny@gentoo.org> libsdl-1.2.15-r5.ebuild:
+  Use the new multilib_native_use* functions.
+
+*libsdl-1.2.15-r5 (18 Apr 2014)
+
+  18 Apr 2014; Julian Ospald <hasufell@gentoo.org> +libsdl-1.2.15-r5.ebuild:
+  add multilib support wrt #489122
 
   15 Jan 2014; Agostino Sarubbo <ago@gentoo.org> libsdl-1.2.15-r4.ebuild:
   Stable for ia64, wrt bug #485316

@@ -1,17 +1,17 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/gdk-pixbuf/gdk-pixbuf-2.30.7-r1.ebuild,v 1.1 2014/03/29 21:36:13 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/gdk-pixbuf/gdk-pixbuf-2.30.7-r1.ebuild,v 1.11 2014/05/17 15:31:54 ago Exp $
 
 EAPI="5"
 
-inherit eutils gnome.org gnome2-utils multilib libtool multilib-minimal
+inherit eutils flag-o-matic gnome.org gnome2-utils multilib libtool multilib-minimal
 
 DESCRIPTION="Image loading library for GTK+"
 HOMEPAGE="http://www.gtk.org/"
 
 LICENSE="LGPL-2+"
 SLOT="2"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~x86-freebsd ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="alpha amd64 ~arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~x86-freebsd ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 IUSE="+X debug +introspection jpeg jpeg2k tiff test"
 
 COMMON_DEPEND="
@@ -54,6 +54,7 @@ src_prepare() {
 	sed -e 's:l in libpng16:l in libpng libpng16:' -i configure || die
 	default
 	elibtoolize # for Darwin modules, bug #???
+	[[ ${CHOST} == *-solaris* ]] && append-libs intl
 }
 
 multilib_src_configure() {
@@ -64,9 +65,7 @@ multilib_src_configure() {
 		$(use_with jpeg libjpeg) \
 		$(use_with jpeg2k libjasper) \
 		$(use_with tiff libtiff) \
-		$(multilib_build_binaries \
-			&& use_enable introspection \
-			|| echo --disable-introspection) \
+		$(multilib_native_use_enable introspection) \
 		$(use_with X x11) \
 		--with-libpng
 }

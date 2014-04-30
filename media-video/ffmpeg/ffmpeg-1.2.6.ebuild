@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/ffmpeg/ffmpeg-1.2.6.ebuild,v 1.2 2014/04/10 18:12:55 aballier Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/ffmpeg/ffmpeg-1.2.6.ebuild,v 1.5 2014/05/15 17:11:09 ulm Exp $
 
 EAPI="4"
 
@@ -26,7 +26,7 @@ FFMPEG_REVISION="${PV#*_p}"
 LICENSE="GPL-2 amr? ( GPL-3 ) encode? ( aac? ( GPL-3 ) )"
 SLOT="0"
 if [ "${PV#9999}" = "${PV}" ] ; then
-	KEYWORDS="~amd64 ~arm ~hppa ~mips ~ppc ~ppc64 ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux"
+	KEYWORDS="~amd64 arm hppa ~mips ~ppc ~ppc64 ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux"
 fi
 IUSE="
 	aac aacplus alsa amr bindist bluray +bzip2 cdio celt
@@ -90,7 +90,7 @@ RDEPEND="
 	opus? ( media-libs/opus )
 	pulseaudio? ( media-sound/pulseaudio )
 	rtmp? ( >=media-video/rtmpdump-2.2f )
-	sdl? ( >=media-libs/libsdl-1.2.13-r1[audio,video] )
+	sdl? ( >=media-libs/libsdl-1.2.13-r1[sound,video] )
 	schroedinger? ( media-libs/schroedinger )
 	speex? ( >=media-libs/speex-1.2_beta3 )
 	truetype? ( media-libs/freetype:2 )

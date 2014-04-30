@@ -1,6 +1,26 @@
 # ChangeLog for dev-java/java-sdk-docs
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/java-sdk-docs/ChangeLog,v 1.97 2014/03/28 13:20:38 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-java/java-sdk-docs/ChangeLog,v 1.101 2014/05/05 18:29:18 tomwij Exp $
+
+*java-sdk-docs-1.7.0.25 (05 May 2014)
+
+  05 May 2014; Tom Wijsman <TomWij@gentoo.org> +java-sdk-docs-1.7.0.25.ebuild:
+  Restore java-sdk-docs:1.7 stable ebuild, fixes bug #509582.
+
+*java-sdk-docs-1.8.0.5 (04 May 2014)
+
+  04 May 2014; Tom Wijsman <TomWij@gentoo.org> +java-sdk-docs-1.8.0.5.ebuild,
+  -java-sdk-docs-1.4.2.ebuild, -java-sdk-docs-1.6.0.23.ebuild,
+  -java-sdk-docs-1.7.0.11.ebuild, -java-sdk-docs-1.7.0.17.ebuild,
+  -java-sdk-docs-1.7.0.21.ebuild, -java-sdk-docs-1.7.0.25.ebuild,
+  -java-sdk-docs-1.7.0.40-r1.ebuild, -java-sdk-docs-1.7.0.45.ebuild:
+  Remove old. Version bump to 1.8.0.5; for bug #67266, reported by Thomas Kear.
+
+*java-sdk-docs-1.7.0.55 (03 May 2014)
+
+  03 May 2014; Tom Wijsman <TomWij@gentoo.org> +java-sdk-docs-1.7.0.55.ebuild:
+  Version bump to 1.7.0.55; fixes bug #67266 again, reported by Asaf Gery and
+  wuos on this iteration.
 
 *java-sdk-docs-1.8.0.0 (28 Mar 2014)
 

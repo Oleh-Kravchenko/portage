@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/nvidia-drivers-331.67.ebuild,v 1.1 2014/04/11 14:16:21 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/nvidia-drivers-331.67.ebuild,v 1.3 2014/05/05 18:16:01 jer Exp $
 
 EAPI=5
 
@@ -24,7 +24,7 @@ SRC_URI="
 
 LICENSE="GPL-2 NVIDIA-r2"
 SLOT="0"
-KEYWORDS="-* ~amd64 ~x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="-* amd64 x86 ~amd64-fbsd ~x86-fbsd"
 IUSE="acpi multilib kernel_FreeBSD kernel_linux pax_kernel +tools +X uvm"
 RESTRICT="bindist mirror strip"
 EMULTILIB_PKG="true"
@@ -197,6 +197,7 @@ src_compile() {
 		MAKE="$(get_bmake)" CFLAGS="-Wno-sign-compare" emake CC="$(tc-getCC)" \
 			LD="$(tc-getLD)" LDFLAGS="$(raw-ldflags)" || die
 	elif use kernel_linux; then
+		use uvm && MAKEOPTS=-j1
 		linux-mod_src_compile
 	fi
 }

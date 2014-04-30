@@ -1,6 +1,18 @@
 # ChangeLog for profiles/prefix
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/prefix/ChangeLog,v 1.415 2014/03/27 19:59:36 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/prefix/ChangeLog,v 1.418 2014/05/07 21:29:15 redlizard Exp $
+
+  07 May 2014; redlizard <redlizard@gentoo.org> -bsd/freebsd/9.1/package.mask,
+  -bsd/freebsd/package.mask:
+  Removed obsolete freebsd toolchain masks.
+
+  30 Apr 2014; redlizard <redlizard@gentoo.org> +windows/cygwin/use.force,
+  windows/interix/use.force, windows/interix/use.mask, +windows/use.force,
+  +windows/use.mask, +windows/winnt/use.force, windows/winnt/use.mask:
+  Fixed windows kernel_ and elibc_ USE flags.
+
+  14 Apr 2014; Michael Haubenwallner <haubi@gentoo.org> aix/package.mask:
+  GNU make-4.0 on AIX endless loops with gcc-4.2.4, p.masked for now.
 
   27 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org> +aix/5.2.0.0/eapi,
   +aix/5.2.0.0/ppc/eapi, +aix/5.3.0.0/eapi, +aix/5.3.0.0/ppc/eapi,

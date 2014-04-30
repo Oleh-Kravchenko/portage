@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-1.7.0.ebuild,v 1.3 2014/03/24 17:39:55 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-1.7.0.ebuild,v 1.6 2014/04/20 02:04:18 vapier Exp $
 
 EAPI=5
 
@@ -32,7 +32,7 @@ LICENSE="GPL-2 LGPL-2 BSD-2"
 SLOT="0"
 IUSE="accessibility +aio alsa bluetooth +caps +curl debug +fdt glusterfs \
 gtk iscsi +jpeg \
-kernel_linux kernel_FreeBSD mixemu ncurses opengl +png pulseaudio python \
+kernel_linux kernel_FreeBSD ncurses opengl +png pulseaudio python \
 rbd sasl +seccomp sdl selinux smartcard spice ssh static static-softmmu \
 static-user systemtap tci test +threads tls usb usbredir +uuid vde +vhost-net \
 virtfs +vnc xattr xen xfs"
@@ -227,8 +227,6 @@ pkg_pretend() {
 
 pkg_setup() {
 	enewgroup kvm 78
-
-	python_export_best
 }
 
 src_prepare() {
@@ -243,7 +241,7 @@ src_prepare() {
 			epatch
 
 	# Fix ld and objcopy being called directly
-	tc-export LD OBJCOPY
+	tc-export AR LD OBJCOPY
 
 	# Verbose builds
 	MAKEOPTS+=" V=1"
@@ -338,7 +336,6 @@ qemu_src_configure() {
 		conf_opts+=" $(use_enable xen)"
 		conf_opts+=" $(use_enable xen xen-pci-passthrough)"
 		conf_opts+=" $(use_enable xfs xfsctl)"
-		use mixemu && conf_opts+=" --enable-mixemu"
 		conf_opts+=" --audio-drv-list=${audio_opts}"
 	fi
 
@@ -375,6 +372,8 @@ qemu_src_configure() {
 }
 
 src_configure() {
+	python_export_best
+
 	softmmu_targets=
 	user_targets=
 

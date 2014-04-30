@@ -1,6 +1,42 @@
 # ChangeLog for kde-base/kwalletmanager
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/kde-base/kwalletmanager/ChangeLog,v 1.98 2014/04/01 18:09:49 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-base/kwalletmanager/ChangeLog,v 1.108 2014/05/13 17:43:34 johu Exp $
+
+*kwalletmanager-4.13.1 (13 May 2014)
+
+  13 May 2014; Johannes Huber <johu@gentoo.org> +kwalletmanager-4.13.1.ebuild:
+  Version bump KDE SC 4.13.1
+
+  08 May 2014; Agostino Sarubbo <ago@gentoo.org> kwalletmanager-4.12.5.ebuild:
+  Stable for ppc64, wrt bug #504210
+
+  07 May 2014; Agostino Sarubbo <ago@gentoo.org> kwalletmanager-4.12.5.ebuild:
+  Stable for ppc, wrt bug #504210
+
+  07 May 2014; Johannes Huber <johu@gentoo.org> -kwalletmanager-4.12.3.ebuild:
+  Remove KDE SC 4.12.3
+
+  07 May 2014; Mikle Kolyada <zlogene@gentoo.org> kwalletmanager-4.12.5.ebuild:
+  x86 stable wrt bug #504210
+
+  06 May 2014; Mikle Kolyada <zlogene@gentoo.org> kwalletmanager-4.12.5.ebuild:
+  amd64 stable wrt bug #504210
+
+  29 Apr 2014; Johannes Huber <johu@gentoo.org> -kwalletmanager-4.12.4.ebuild:
+  Remove KDE SC 4.12.4
+
+*kwalletmanager-4.12.5 (29 Apr 2014)
+
+  29 Apr 2014; Johannes Huber <johu@gentoo.org> +kwalletmanager-4.12.5.ebuild:
+  Version bump KDE SC 4.12.5
+
+  16 Apr 2014; Johannes Huber <johu@gentoo.org> kwalletmanager-4.13.0.ebuild:
+  Restore KEYWORDS for KDE SC 4.13.0
+
+*kwalletmanager-4.13.0 (16 Apr 2014)
+
+  16 Apr 2014; Johannes Huber <johu@gentoo.org> +kwalletmanager-4.13.0.ebuild:
+  Version bump KDE SC 4.13.0
 
 *kwalletmanager-4.12.4 (01 Apr 2014)
 
@@ -11,4 +47,3 @@
 
   04 Mar 2014; Johannes Huber <johu@gentoo.org> +kwalletmanager-4.12.3.ebuild:
   Version bump KDE SC 4.12.3
-

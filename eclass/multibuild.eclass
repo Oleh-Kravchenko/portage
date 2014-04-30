@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/multibuild.eclass,v 1.16 2014/04/11 08:30:44 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/multibuild.eclass,v 1.18 2014/05/10 21:36:49 mgorny Exp $
 
 # @ECLASS: multibuild
 # @MAINTAINER:
@@ -27,8 +27,6 @@ esac
 if [[ ! ${_MULTIBUILD} ]]; then
 
 inherit multiprocessing
-
-DEPEND="userland_GNU? ( >=sys-apps/coreutils-8.5 )"
 
 # @ECLASS-VARIABLE: MULTIBUILD_VARIANTS
 # @DESCRIPTION:
@@ -272,21 +270,31 @@ multibuild_merge_root() {
 	done
 	rm "${lockfile_l}" || die
 
-	local cp_args=()
+	if use userland_BSD; then
+		# Most of BSD variants fail to copy broken symlinks, #447370
+		# also, they do not support --version
 
-	if cp -a --version &>/dev/null; then
-		cp_args+=( -a )
+		tar -C "${src}" -f - -c . \
+			| tar -x -f - -C "${dest}"
+		[[ ${PIPESTATUS[*]} == '0 0' ]]
+		ret=${?}
 	else
-		cp_args+=( -P -R -p )
-	fi
+		local cp_args=()
 
-	if cp --reflink=auto --version &>/dev/null; then
-		# enable reflinking if possible to make this faster
-		cp_args+=( --reflink=auto )
-	fi
+		if cp -a --version &>/dev/null; then
+			cp_args+=( -a )
+		else
+			cp_args+=( -P -R -p )
+		fi
 
-	cp "${cp_args[@]}" "${src}"/. "${dest}"/
-	ret=${?}
+		if cp --reflink=auto --version &>/dev/null; then
+			# enable reflinking if possible to make this faster
+			cp_args+=( --reflink=auto )
+		fi
+
+		cp "${cp_args[@]}" "${src}"/. "${dest}"/
+		ret=${?}
+	fi
 
 	# Remove the lock.
 	rm "${lockfile}" || die

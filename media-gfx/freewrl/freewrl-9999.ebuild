@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-gfx/freewrl/freewrl-9999.ebuild,v 1.5 2014/03/14 13:45:19 axs Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-gfx/freewrl/freewrl-9999.ebuild,v 1.6 2014/04/22 19:22:43 axs Exp $
 
 EAPI=5
 
@@ -13,7 +13,7 @@ if [[ ${PV} == "9999" ]]; then
 	SRC_URI=
 	KEYWORDS=
 else
-	SRC_URI="mirror://sourceforge/freewrl/${P}.1.tar.bz2"
+	SRC_URI="mirror://sourceforge/freewrl/${P}.tar.bz2"
 	KEYWORDS="~amd64 ~x86"
 fi
 
@@ -21,7 +21,7 @@ DESCRIPTION="VRML97 and X3D compliant browser, library, and web-browser plugin"
 HOMEPAGE="http://freewrl.sourceforge.net/"
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="curl debug +glew java libeai motif +nsplugin osc +sox static-libs"
+IUSE="curl debug java libeai motif +nsplugin opencl osc +sox static-libs"
 
 COMMONDEPEND="x11-libs/libXau
 	x11-libs/libXdmcp
@@ -30,7 +30,6 @@ COMMONDEPEND="x11-libs/libXau
 	motif? ( x11-libs/motif )
 	!motif? ( x11-libs/libXaw )
 	media-libs/mesa
-	glew? ( media-libs/glew )
 	virtual/opengl
 	media-libs/libpng
 	virtual/jpeg
@@ -39,6 +38,7 @@ COMMONDEPEND="x11-libs/libXau
 	media-libs/fontconfig
 	curl? ( net-misc/curl )
 	osc? ( media-libs/liblo )
+	opencl? ( virtual/opencl )
 	dev-lang/spidermonkey:0="
 DEPEND="${COMMONDEPEND}
 	virtual/pkgconfig
@@ -69,7 +69,6 @@ src_configure() {
 
 	local myconf="--enable-fontconfig
 		--without-expat
-		--without-glu
 		--with-x
 		--with-imageconvert=/usr/bin/convert
 		--with-unzip=/usr/bin/unzip
@@ -99,7 +98,7 @@ src_configure() {
 	fi
 	econf	${myconf} \
 		$(use_enable curl libcurl) \
-		$(use_with glew) \
+		$(use_with opencl OpenCL) \
 		$(use_enable debug) $(use_enable debug thread_colorized) \
 		$(use_enable libeai) \
 		$(use_enable java) \

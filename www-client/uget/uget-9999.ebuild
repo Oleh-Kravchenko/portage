@@ -1,22 +1,30 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/uget/uget-9999.ebuild,v 1.8 2012/12/02 17:09:06 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/uget/uget-9999.ebuild,v 1.9 2014/05/08 03:05:13 wired Exp $
 
-EAPI="4"
+EAPI="5"
 
-IUSE="aria2 +curl gstreamer hide-temp-files libnotify nls"
+inherit autotools eutils
+
+LANGUAGES="linguas_ar linguas_be linguas_bn_BD linguas_cs linguas_da linguas_de
+	linguas_es linguas_fr linguas_hu linguas_id linguas_it linguas_ka_GE linguas_pl
+	linguas_pt_BR linguas_ru linguas_tr linguas_uk linguas_vi linguas_zh_CN
+	linguas_zh_TW"
+
+IUSE="aria2 +curl gnutls gstreamer hide-temp-files libnotify nls ${LANGUAGES}"
+
 if [[ ${PV} == *9999* ]]; then
-	inherit autotools git-2
+	inherit git-2
 	KEYWORDS=""
 	SRC_URI=""
-	EGIT_REPO_URI="git://urlget.git.sourceforge.net/gitroot/urlget/uget"
+	EGIT_REPO_URI="git://git.code.sf.net/p/urlget/uget"
 else
-	KEYWORDS="~amd64 ~ppc ~x86"
+	KEYWORDS="~amd64 ~arm ~ppc ~x86"
 	SRC_URI="mirror://sourceforge/urlget/${P}.tar.gz"
 fi
 
 DESCRIPTION="Download manager using gtk+ and libcurl"
-HOMEPAGE="http://urlget.sourceforge.net/"
+HOMEPAGE="http://www.ugetdm.com"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
@@ -28,6 +36,7 @@ RDEPEND="
 	>=dev-libs/glib-2.32:2
 	>=x11-libs/gtk+-3.4:3
 	curl? ( >=net-misc/curl-7.10 )
+	gnutls? ( net-libs/gnutls dev-libs/libgcrypt )
 	gstreamer? ( media-libs/gstreamer:0.10 )
 	libnotify? ( x11-libs/libnotify )
 	"
@@ -38,16 +47,19 @@ DEPEND="${RDEPEND}
 
 src_prepare() {
 	if [[ ${PV} == *9999* ]]; then
-		eautoreconf
 		intltoolize || die "intltoolize failed"
 		eautoreconf
 	fi
+
+	# fix LINGUAS not getting applied
+	epatch "${FILESDIR}"/${PN}-1.10.4-linguas-fix.patch
 }
 
 src_configure() {
 	econf $(use_enable nls) \
 		  $(use_enable curl plugin-curl) \
 		  $(use_enable aria2 plugin-aria2) \
+		  $(use_with gnutls) \
 		  $(use_enable gstreamer) \
 		  $(use_enable hide-temp-files hidden) \
 		  $(use_enable libnotify notify)

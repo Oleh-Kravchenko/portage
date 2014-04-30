@@ -1,6 +1,29 @@
 # ChangeLog for sys-libs/readline
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-libs/readline/ChangeLog,v 1.199 2014/03/31 06:59:51 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-libs/readline/ChangeLog,v 1.203 2014/05/18 10:06:34 polynomial-c Exp $
+
+*readline-6.3_p6 (18 May 2014)
+
+  18 May 2014; Lars Wendler <polynomial-c@gentoo.org> -readline-6.3_p5.ebuild,
+  +readline-6.3_p6.ebuild:
+  Version bump. Removed old.
+
+  28 Apr 2014; Michał Górny <mgorny@gentoo.org> readline-6.2_p5-r1.ebuild,
+  readline-6.3_p5-r1.ebuild, readline-6.3_p5.ebuild:
+  Replace multilib_build_binaries with multilib_is_native_abi, in order to put
+  an end to the confusion introduced by having two functions, the proper one
+  suggesting it is just for binaries.
+
+*readline-6.3_p5-r1 (22 Apr 2014)
+
+  22 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> -readline-6.3_p3.ebuild,
+  +readline-6.3_p5-r1.ebuild, +files/readline-6.3-horizontal-redisplay.patch:
+  Added upstream fix. Removed old.
+
+*readline-6.3_p5 (16 Apr 2014)
+
+  16 Apr 2014; Lars Wendler <polynomial-c@gentoo.org> +readline-6.3_p5.ebuild:
+  Version bump.
 
 *readline-6.3_p3 (31 Mar 2014)
 

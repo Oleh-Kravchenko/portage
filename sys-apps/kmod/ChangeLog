@@ -1,6 +1,39 @@
 # ChangeLog for sys-apps/kmod
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/kmod/ChangeLog,v 1.145 2014/04/12 18:52:06 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/kmod/ChangeLog,v 1.154 2014/05/15 20:06:25 maekke Exp $
+
+  15 May 2014; Markus Meier <maekke@gentoo.org> kmod-17.ebuild:
+  arm stable, bug #509924
+
+  14 May 2014; Samuli Suominen <ssuominen@gentoo.org> kmod-16.ebuild,
+  kmod-17.ebuild, kmod-9999.ebuild, metadata.xml:
+  Punt USE openrc which was to allow USE="-openrc" install =sys-
+  apps/openrc-0.11* which finally removed from tree now.
+  Futher, installing init scripts always is preferred anyway as sys-apps/openrc
+  is the gentoo default. Futher, this is the exact same behavior in
+  pkg_postinst() as with sys-fs/udev-init-scripts. Both,
+  sys-fs/udev-init-scripts and sys-apps/kmod are pulled in by sys-apps/systemd,
+  and sys-fs/udev.
+
+  14 May 2014; Samuli Suominen <ssuominen@gentoo.org> kmod-17.ebuild:
+  amd64/x86 stable wrt #509924
+
+  10 May 2014; Jeroen Roovers <jer@gentoo.org> kmod-17.ebuild:
+  Stable for HPPA (bug #509924).
+
+  24 Apr 2014; Mike Gilbert <floppym@gentoo.org> kmod-17.ebuild,
+  kmod-9999.ebuild:
+  Remove .la files for python modules, reported by Arfrever.
+
+  24 Apr 2014; William Hubbs <williamh@gentoo.org> kmod-17.ebuild,
+  kmod-9999.ebuild:
+  Clean up python_compile function by switching to using here-string instead of
+  echo, thanks to arfrever
+
+  23 Apr 2014; William Hubbs <williamh@gentoo.org> kmod-17.ebuild,
+  kmod-9999.ebuild:
+  Allow python modules to be built for multiple versions of python, thanks to
+  Michal Gorny.
 
   12 Apr 2014; Samuli Suominen <ssuominen@gentoo.org> kmod-17.ebuild,
   kmod-9999.ebuild:

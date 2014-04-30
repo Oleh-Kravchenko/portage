@@ -1,10 +1,13 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-wireless/aircrack-ng/aircrack-ng-9999.ebuild,v 1.7 2014/03/30 21:36:10 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-wireless/aircrack-ng/aircrack-ng-9999.ebuild,v 1.9 2014/04/18 01:30:53 zerochaos Exp $
 
 EAPI="5"
 
-inherit toolchain-funcs versionator
+PYTHON_COMPAT=( python2_7 )
+DISTUTILS_OPTIONAL=1
+
+inherit toolchain-funcs versionator distutils-r1
 
 DESCRIPTION="WLAN tools for breaking 802.11 WEP/WPA keys"
 HOMEPAGE="http://www.aircrack-ng.org"
@@ -30,6 +33,8 @@ IUSE="+airdrop-ng +airgraph-ng kernel_linux kernel_FreeBSD +netlink +pcre +sqlit
 DEPEND="dev-libs/openssl
 	netlink? ( dev-libs/libnl:3 )
 	pcre? ( dev-libs/libpcre )
+	airdrop-ng? ( ${PYTHON_DEPS} )
+	airgraph-ng? ( ${PYTHON_DEPS} )
 	sqlite? ( >=dev-db/sqlite-3.4 )"
 RDEPEND="${DEPEND}
 	kernel_linux? (
@@ -39,9 +44,16 @@ RDEPEND="${DEPEND}
 		sys-apps/usbutils
 		sys-apps/pciutils )
 	sys-apps/hwids
-	airdrop-ng? ( net-wireless/lorcon[python] )"
+	airdrop-ng? ( net-wireless/lorcon[python,${PYTHON_USEDEP}] )"
+
+REQUIRED_USE="airdrop-ng? ( ${PYTHON_REQUIRED_USE} )
+		airgraph-ng? ( ${PYTHON_REQUIRED_USE} )"
 
 src_compile() {
+	if [[ ${PV} == "9999" ]] ; then
+		liveflags=REVFLAGS=-D_REVISION="${ESVN_WC_REVISION}"
+	fi
+
 	emake \
 	CC="$(tc-getCC)" \
 	AR="$(tc-getAR)" \
@@ -51,36 +63,54 @@ src_compile() {
 	pcre=$(usex pcre true false) \
 	sqlite=$(usex sqlite true false) \
 	unstable=$(usex unstable true false) \
-	REVFLAGS=-D_REVISION="${ESVN_WC_REVISION}"
+	${liveflags}
+
+	if use airgraph-ng; then
+		cd "${S}/scripts/airgraph-ng"
+		distutils-r1_src_compile
+	fi
+	if use airdrop-ng; then
+		cd "${S}/scripts/airdrop-ng"
+		distutils-r1_src_compile
+	fi
 }
 
 src_test() {
+	if [[ ${PV} == "9999" ]] ; then
+		liveflags=REVFLAGS=-D_REVISION="${ESVN_WC_REVISION}"
+	fi
+
 	emake check \
 		libnl=$(usex netlink true false) \
 		pcre=$(usex pcre true false) \
 		sqlite=$(usex sqlite true false) \
-		unstable=$(usex unstable true false)
+		unstable=$(usex unstable true false) \
+		${liveflags}
 }
 
 src_install() {
+	if [[ ${PV} == "9999" ]] ; then
+		liveflags=REVFLAGS=-D_REVISION="${ESVN_WC_REVISION}"
+	fi
+
 	emake \
 		prefix="${ED}/usr" \
 		libnl=$(usex netlink true false) \
 		pcre=$(usex pcre true false) \
 		sqlite=$(usex sqlite true false) \
 		unstable=$(usex unstable true false) \
-		REVFLAGS=-D_REVISION="${ESVN_WC_REVISION}" \
+		${liveflags} \
 		install
 
 	dodoc AUTHORS ChangeLog INSTALLING README
 
 	if use airgraph-ng; then
 		cd "${S}/scripts/airgraph-ng"
-		emake prefix="${ED}/usr" install
+		distutils-r1_src_install
 	fi
 	if use airdrop-ng; then
 		cd "${S}/scripts/airdrop-ng"
-		emake prefix="${ED}/usr" install
+		distutils-r1_src_install
 	fi
 
 	#we don't need aircrack-ng's oui updater, we have our own
