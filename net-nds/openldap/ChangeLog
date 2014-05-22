@@ -1,6 +1,15 @@
 # ChangeLog for net-nds/openldap
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-nds/openldap/ChangeLog,v 1.460 2014/03/04 21:43:43 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-nds/openldap/ChangeLog,v 1.462 2014/05/21 22:33:32 mgorny Exp $
+
+  21 May 2014; Michał Górny <mgorny@gentoo.org> openldap-2.4.38-r2.ebuild:
+  Restore CC & CXX exports as they are necessary for the native ABI, bug
+  #510980.
+
+*openldap-2.4.38-r2 (21 May 2014)
+
+  21 May 2014; Michał Górny <mgorny@gentoo.org> +openldap-2.4.38-r2.ebuild:
+  Introduce multilib support, bug #493174.
 
   04 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
   openldap-2.4.38-r1.ebuild:

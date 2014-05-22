@@ -279,6 +279,10 @@ app-backup/dar:gcrypt - Enables strong encryption support
 app-backup/deja-dup:nautilus - Build gnome-base/nautilus extension
 app-backup/duplicity:s3 - Support for backing up to the Amazon S3 system
 app-backup/rear:udev - Have ReaR start backup when attaching your USB drive.
+app-backup/snapper:btrfs - Include Btrfs support sys-fs/btrfs-progs
+app-backup/snapper:ext4 - Include Ext4 support sys-fs/e2fsprogs
+app-backup/snapper:lvm - Enable LVM thinprovisioned snapshots support sys-fs/lvm2
+app-backup/snapper:xattr - Add support for getting and setting POSIX extended attributes, through sys-apps/attr.
 app-backup/spideroak-bin:headless - Build without graphic frontend
 app-backup/tsm:hsm - Installs Tivoli Storage Manager for Space Management
 app-backup/tsm:tsm_cit - IBM Tivoli Common Inventory Technology
@@ -1813,6 +1817,7 @@ dev-libs/weston:launch - Install weston-launch utility
 dev-libs/weston:rdp - Enable Remote Desktop Protocol compositor support
 dev-libs/weston:resize-optimization - Increase performance, allocate more RAM. Recommended to disable on Raspberry Pi
 dev-libs/weston:rpi - Raspberry Pi GPU support
+dev-libs/weston:screen-sharing - Enable screen-sharing through RDP
 dev-libs/weston:simple-clients - Enable simple-clients
 dev-libs/weston:tablet - Enable interface for tablets
 dev-libs/weston:unwind - Enable libunwind usage for backtraces
@@ -2617,6 +2622,7 @@ games-simulation/openttd:openmedia - Enables the free open media sets: OpenGFX, 
 games-simulation/singularity:music - Install music files
 games-sports/speed-dreams:xrandr - Enable support for the X xrandr extension
 games-sports/xmoto:editor - Depend on inkscape, scripts to convert svg to level (svg2lvl)
+games-strategy/0ad:editor - Include Atlas scenario editor projects
 games-strategy/dark-oberon:fmod - Add sound support (fmod)
 games-strategy/defcon-demo:system-libs - Use system libraries instead of the ones included in the upstream distribution.
 games-strategy/freeciv:auth - Add authentication capability
@@ -3917,6 +3923,7 @@ media-sound/umurmur:polarssl - Use net-libs/polarssl instead of dev-libs/openssl
 media-sound/vimpc:boost - Use boost instead of C++11 libraries
 media-sound/vorbis-tools:kate - Adds support for Ogg Kate subtitles via libkate.
 media-sound/vorbis-tools:ogg123 - Build ogg123 player, needs libao and curl
+media-sound/wildmidi:player - Install the wildmidi player
 media-sound/xmms2:airplay - Support for airplay format
 media-sound/xmms2:asf - Support for Monkey's Audio (APE) format with help of bundled libasf
 media-sound/xmms2:gvfs - Transport for glibs virtual filesystem
@@ -6533,10 +6540,10 @@ sys-cluster/ceph:cryptopp - Use dev-libs/crypto++ for cryptography
 sys-cluster/ceph:fuse - Build fuse client
 sys-cluster/ceph:libaio - Use libaio as asynchronous input/output library
 sys-cluster/ceph:libatomic - Use libatomic instead of builtin atomic operations
-sys-cluster/ceph:libxfs - Add xfs support
-sys-cluster/ceph:libzfs - Add zfs support
 sys-cluster/ceph:nss - Use dev-libs/nss for cryptography
 sys-cluster/ceph:radosgw - Add radosgw support
+sys-cluster/ceph:xfs - Add xfs support
+sys-cluster/ceph:zfs - Add zfs support
 sys-cluster/charm:charmdebug - Enable the charm debugger
 sys-cluster/charm:charmproduction - Optimize performance of Charm++ runtime
 sys-cluster/charm:charmtracing - Enable tracing support in Charm++
