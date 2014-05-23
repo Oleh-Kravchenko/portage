@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/apache-tools/apache-tools-2.2.27.ebuild,v 1.10 2014/05/17 13:50:53 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/apache-tools/apache-tools-2.2.27.ebuild,v 1.11 2014/05/22 14:01:25 polynomial-c Exp $
 
 EAPI="4"
 inherit flag-o-matic eutils
@@ -76,7 +76,7 @@ src_install () {
 	for i in *; do
 		dosym /usr/sbin/${i} /usr/sbin/${i}2
 	done
-	popd "${D}"/usr/sbin/ >/dev/null
+	popd >/dev/null
 
 	# Provide a symlink for ab-ssl
 	if use ssl; then

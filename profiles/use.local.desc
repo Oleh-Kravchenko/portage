@@ -182,10 +182,27 @@ app-admin/puppet:augeas - Enable augeas support
 app-admin/puppet:diff - Enable diff support
 app-admin/puppet:rrdtool - Enable rrdtool support
 app-admin/puppet:shadow - Enable shadow support
+app-admin/rsyslog:dbi - Build the general database output module (requires dev-db/libdbi)
+app-admin/rsyslog:elasticsearch - Build the Elasticsearch output module (requires net-misc/curl)
 app-admin/rsyslog:extras - Add support for the UDP spoofing module (omudpspoof) using net-libs/libnet
-app-admin/rsyslog:mongodb - Add support for the MongoDB output template module using dev-libs/libmongo-client
-app-admin/rsyslog:relp - Add support for the Reliable Event Logging Protocol using dev-libs/librelp
-app-admin/rsyslog:zeromq - Add support for the ZeroMQ input and output plugins using net-libs/zeromq
+app-admin/rsyslog:gcrypt - Add support for encrypted log files using dev-libs/libgcrypt
+app-admin/rsyslog:kerberos - Build the GSSAPI input and output module (requires virtual/krb5)
+app-admin/rsyslog:mongodb - Build the MongoDB output module (requires dev-libs/libmongo-client)
+app-admin/rsyslog:mysql - Build the MySQL databse output module (requires virtual/mysql)
+app-admin/rsyslog:normalize - Build the normalize modify module (requires dev-libs/libee and dev-libs/liblognorm)
+app-admin/rsyslog:omudpspoof - Build the udpspoof output module (requires net-libs/libnet)
+app-admin/rsyslog:oracle - Build the Oracle database output module (requires dev-db/oracle-instantclient-basic)
+app-admin/rsyslog:postgres - Build the PostgreSQL database output module (requires dev-db/postgresql-base)
+app-admin/rsyslog:rabbitmq - Build the RabbitMQ output module (requires net-libs/rabbitmq-c)
+app-admin/rsyslog:redis - Build the Redis output module using (requires dev-libs/hiredis)
+app-admin/rsyslog:relp - Build the Reliable Event Logging Protocol (RELP) output module (requires dev-libs/librelp)
+app-admin/rsyslog:rfc3195 - Build the rfc3195 input module (requires dev-libs/liblogging)
+app-admin/rsyslog:rfc5424hmac - Build the rfc5424hmac modify module (requires dev-libs/openssl)
+app-admin/rsyslog:snmp - Build the snmp modify and output module (requires net-analyzer/net-snmp)
+app-admin/rsyslog:ssl - Add support for encrypted client/server communication (requires net-libs/gnutls)
+app-admin/rsyslog:systemd - Build the journal input and output module (requires sys-apps/systemd)
+app-admin/rsyslog:usertools - Installs the user tools (rsgtutil, rscryutil...) corresponding to the set USE flags
+app-admin/rsyslog:zeromq - Build the ZeroMQ input and output modules (requires net-libs/zeromq)
 app-admin/sagan:libdnet - Add support for dev-libs/libdnet
 app-admin/sagan:lognorm - Add support for log/rules normalizations via dev-libs/liblognorm
 app-admin/sagan:pcap - Add support for network packet capture via net-libs/libpcap
@@ -2500,6 +2517,7 @@ games-engines/odamex:portmidi - Enable portmidi support.
 games-engines/odamex:server - Build server target.
 games-engines/renpy:development - Install IDE for game developers and an empty game template
 games-engines/scummvm:fluidsynth - compile with support for fluidsynth
+games-engines/solarus:luajit - Use LuaJIT instead of default Lua
 games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
 games-fps/darkplaces:cdsound - Enables using CD audio in the engine
 games-fps/darkplaces:demo - Uses the demo data from quake1 (quake1-demodata)
@@ -2623,10 +2641,15 @@ games-simulation/singularity:music - Install music files
 games-sports/speed-dreams:xrandr - Enable support for the X xrandr extension
 games-sports/xmoto:editor - Depend on inkscape, scripts to convert svg to level (svg2lvl)
 games-strategy/0ad:editor - Include Atlas scenario editor projects
+games-strategy/0ad:lobby - Enable the use of net-libs/gloox and the multiplayer lobby
 games-strategy/dark-oberon:fmod - Add sound support (fmod)
 games-strategy/defcon-demo:system-libs - Use system libraries instead of the ones included in the upstream distribution.
-games-strategy/freeciv:auth - Add authentication capability
+games-strategy/freeciv:aimodules - Support for dynamically loadable AI modules (server-side)
+games-strategy/freeciv:auth - Add authentication capability via mysql, postgres or sqlite3
 games-strategy/freeciv:ggz - Add support for GGZ Gaming Zone
+games-strategy/freeciv:mapimg - Additional mag image toolkit via media-gfx/imagemagick
+games-strategy/freeciv:modpack - Build the freeciv-modpack-program to download/install mods
+games-strategy/freeciv:server - Enable server support. Disabling this will also make it impossible to start local games.
 games-strategy/freeciv:sound - Add support for sound provided by media-libs/sdl-mixer
 games-strategy/freeorion:cg - Add support for NVIDIA toolkit plugin
 games-strategy/freesynd:devtools - Build development tools
@@ -7127,12 +7150,14 @@ www-plugins/lightspark:rtmp - Enable Real Time Messaging Protocol using librtmp
 www-servers/apache:apache2_modules_access_compat - Group authorizations based on host (name or IP address). Available as a compatibility module with previous versions.
 www-servers/apache:apache2_modules_authn_core - Provides core authentication capabilities common to all authentication providers (functionality provided by authn_alias in previous versions).
 www-servers/apache:apache2_modules_authz_core - Provides core authorization capabilities to various authorization/authorization modules, such as authn_file and authz_user.
+www-servers/apache:apache2_modules_authz_dbd - Provides authorization capabilities via SQL database so that authenticated users can be allowed or denied access to portions of the web site by group membership.
 www-servers/apache:apache2_modules_cache_disk - Disk based storage module for the HTTP caching filter (similar to mem_cache in previous versions).
 www-servers/apache:apache2_modules_lbmethod_bybusyness - Pending request counting load balancer scheduler algorithm for proxy_balancer.
 www-servers/apache:apache2_modules_lbmethod_byrequests - Request counting load balancer scheduler algorithm for proxy_balancer.
 www-servers/apache:apache2_modules_lbmethod_bytraffic - Weighted traffic counting load balancer scheduler algorithm for proxy_balancer.
 www-servers/apache:apache2_modules_lbmethod_heartbeat - Heartbeat traffic counting load balancer scheduler algorithm for proxy_balancer.
 www-servers/apache:apache2_modules_proxy_fcgi - FCGI support module for mod_proxy.
+www-servers/apache:apache2_modules_proxy_wstunnel - Provides support for the tunnelling of web socket connections to a backend websockets server.
 www-servers/apache:apache2_modules_ratelimit - Ratelimit module for transfer rate management
 www-servers/apache:apache2_modules_remoteip - Remotip module for logging
 www-servers/apache:apache2_modules_slotmem_shm - Slot-based shared memory provider.
@@ -7145,6 +7170,12 @@ www-servers/cherokee:coverpage - Installs the default cherokee coverpage
 www-servers/cherokee:rrdtool - Enable rrdtool support
 www-servers/fnord:auth - Enable HTTP authentication support
 www-servers/gatling:diet - Compile against dev-libs/dietlibc
+www-servers/hiawatha:cache - Enable caching of content.
+www-servers/hiawatha:monitor - Pull in www-apps/hiawatha-monitor.
+www-servers/hiawatha:rewrite - Enable the rewrite toolkit.
+www-servers/hiawatha:rproxy - Allow Hiawatha to serve as a reverse proxy.
+www-servers/hiawatha:tomahawk - Enable Tomahawk control server.
+www-servers/hiawatha:xslt - Enable XSLT support. This is also needed for directory listings.
 www-servers/lighttpd:libev - Enable fdevent handler
 www-servers/lighttpd:memcache - Enable memcache support for mod_cml and mod_trigger_b4_dl
 www-servers/lighttpd:mmap - Use mmap with files owned by lighttpd. This is a dangerous option as it may allow local users to trigger SIGBUS crashes.
