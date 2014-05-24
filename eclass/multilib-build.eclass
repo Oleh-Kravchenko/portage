@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/multilib-build.eclass,v 1.48 2014/05/12 21:56:17 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/multilib-build.eclass,v 1.54 2014/05/23 17:11:10 mgorny Exp $
 
 # @ECLASS: multilib-build.eclass
 # @MAINTAINER:
@@ -74,6 +74,24 @@ _MULTILIB_FLAGS=(
 #	net-libs/libbar[ssl,${MULTILIB_USEDEP}]"
 # @CODE
 
+# @ECLASS-VARIABLE: MULTILIB_ABI_FLAG
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# The complete ABI name. Resembles the USE flag name.
+#
+# This is set within multilib_foreach_abi(),
+# multilib_parallel_foreach_abi() and multilib-minimal sub-phase
+# functions.
+#
+# It may be null (empty) when the build is done on ABI not controlled
+# by a USE flag (e.g. on non-multilib arch or when using multilib
+# portage). The build will always be done for a single ABI then.
+#
+# Example value:
+# @CODE
+# abi_x86_64
+# @CODE
+
 _multilib_build_set_globals() {
 	local flags=( "${_MULTILIB_FLAGS[@]%:*}" )
 
@@ -106,6 +124,21 @@ _multilib_build_set_globals
 multilib_get_enabled_abis() {
 	debug-print-function ${FUNCNAME} "${@}"
 
+	local pairs=( $(multilib_get_enabled_abi_pairs) )
+	echo "${pairs[@]#*:}"
+}
+
+# @FUNCTION: multilib_get_enabled_abi_pairs
+# @DESCRIPTION:
+# Return the ordered list of enabled <use-flag>.<ABI> pairs
+# if multilib builds are enabled. The best (most preferred)
+# ABI will come last.
+#
+# If multilib is disabled, the default ABI will be returned
+# along with empty <use-flag>.
+multilib_get_enabled_abi_pairs() {
+	debug-print-function ${FUNCNAME} "${@}"
+
 	local abis=( $(get_all_abis) )
 
 	local abi i found
@@ -119,7 +152,7 @@ multilib_get_enabled_abis() {
 			# for the split is more complex than cheating like this
 			for m_abi in ${m_abis//,/ }; do
 				if [[ ${m_abi} == ${abi} ]] && use "${m_flag}"; then
-					echo "${abi}"
+					echo "${m_flag}.${abi}"
 					found=1
 					break 2
 				fi
@@ -134,7 +167,7 @@ multilib_get_enabled_abis() {
 
 		debug-print "${FUNCNAME}: no ABIs enabled, fallback to ${abi}"
 		debug-print "${FUNCNAME}: ABI=${ABI}, DEFAULT_ABI=${DEFAULT_ABI}"
-		echo ${abi}
+		echo ".${abi}"
 	fi
 }
 
@@ -146,7 +179,9 @@ multilib_get_enabled_abis() {
 _multilib_multibuild_wrapper() {
 	debug-print-function ${FUNCNAME} "${@}"
 
-	local ABI=${MULTIBUILD_VARIANT}
+	local ABI=${MULTIBUILD_VARIANT#*.}
+	local MULTILIB_ABI_FLAG=${MULTIBUILD_VARIANT%.*}
+
 	multilib_toolchain_setup "${ABI}"
 	"${@}"
 }
@@ -163,7 +198,7 @@ _multilib_multibuild_wrapper() {
 multilib_foreach_abi() {
 	debug-print-function ${FUNCNAME} "${@}"
 
-	local MULTIBUILD_VARIANTS=( $(multilib_get_enabled_abis) )
+	local MULTIBUILD_VARIANTS=( $(multilib_get_enabled_abi_pairs) )
 	multibuild_foreach_variant _multilib_multibuild_wrapper "${@}"
 }
 
@@ -182,7 +217,7 @@ multilib_foreach_abi() {
 multilib_parallel_foreach_abi() {
 	debug-print-function ${FUNCNAME} "${@}"
 
-	local MULTIBUILD_VARIANTS=( $(multilib_get_enabled_abis) )
+	local MULTIBUILD_VARIANTS=( $(multilib_get_enabled_abi_pairs) )
 	multibuild_parallel_foreach_variant _multilib_multibuild_wrapper "${@}"
 }
 
@@ -193,7 +228,10 @@ multilib_parallel_foreach_abi() {
 multilib_for_best_abi() {
 	debug-print-function ${FUNCNAME} "${@}"
 
-	local MULTIBUILD_VARIANTS=( $(multilib_get_enabled_abis) )
+	eqawarn "QA warning: multilib_for_best_abi() function is deprecated and should"
+	eqawarn "not be used. The multilib_is_native_abi() check may be used instead."
+
+	local MULTIBUILD_VARIANTS=( $(multilib_get_enabled_abi_pairs) )
 
 	multibuild_for_best_variant _multilib_multibuild_wrapper "${@}"
 }
@@ -247,7 +285,7 @@ multilib_check_headers() {
 multilib_copy_sources() {
 	debug-print-function ${FUNCNAME} "${@}"
 
-	local MULTIBUILD_VARIANTS=( $(multilib_get_enabled_abis) )
+	local MULTIBUILD_VARIANTS=( $(multilib_get_enabled_abi_pairs) )
 	multibuild_copy_sources
 }
 
@@ -373,35 +411,12 @@ multilib_prepare_wrappers() {
 	done
 
 	if [[ ${MULTILIB_WRAPPED_HEADERS[@]} ]]; then
-		# XXX: get abi_* directly
-		local abi_flag
-		case "${ABI}" in
-			amd64|amd64_fbsd)
-				abi_flag=abi_x86_64;;
-			x86|x86_fbsd)
-				abi_flag=abi_x86_32;;
-			x32)
-				abi_flag=abi_x86_x32;;
-			n32)
-				abi_flag=abi_mips_n32;;
-			n64)
-				abi_flag=abi_mips_n64;;
-			o32)
-				abi_flag=abi_mips_o32;;
-		esac
+		# If abi_flag is unset, then header wrapping is unsupported on
+		# this ABI. This means the arch doesn't support multilib at all
+		# -- in this case, the headers are not wrapped and everything
+		# works as expected.
 
-		# If abi_flag is unset, then header wrapping is unsupported
-		# on this ABI. This could mean either that:
-		#
-		# 1) the arch doesn't support multilib at all -- in this case,
-		# the headers are not wrapped and everything works as expected,
-		#
-		# 2) someone added new ABI and forgot to update the function --
-		# in this case, the header consistency check will notice one of
-		# those ABIs has an extra header (compared to the header moved
-		# for wrapping) and will fail.
-
-		if [[ ${abi_flag} ]]; then
+		if [[ ${MULTILIB_ABI_FLAG} ]]; then
 			for f in "${MULTILIB_WRAPPED_HEADERS[@]}"; do
 				# drop leading slash if it's there
 				f=${f#/}
@@ -416,10 +431,12 @@ multilib_prepare_wrappers() {
 
 				# Some ABIs may have install less files than others.
 				if [[ -f ${root}/usr/include${f} ]]; then
+					local wrapper=${ED}/tmp/multilib-include${f}
+
 					if [[ ! -f ${ED}/tmp/multilib-include${f} ]]; then
 						dodir "/tmp/multilib-include${dir}"
 						# a generic template
-						cat > "${ED}/tmp/multilib-include${f}" <<_EOF_
+						cat > "${wrapper}" <<_EOF_
 /* This file is auto-generated by multilib-build.eclass
  * as a multilib-friendly wrapper. For the original content,
  * please see the files that are #included below.
@@ -441,10 +458,33 @@ multilib_prepare_wrappers() {
 #   elif(_MIPS_SIM == _ABIO32) /* o32 */
 #       error "abi_mips_o32 not supported by the package."
 #   endif
+#elif defined(__sparc__)
+#	if defined(__arch64__)
+#       error "abi_sparc_64 not supported by the package."
+#	else
+#       error "abi_sparc_32 not supported by the package."
+#	endif
+#elif defined(__s390__)
+#	if defined(__s390x__)
+#       error "abi_s390_64 not supported by the package."
+#	else
+#       error "abi_s390_32 not supported by the package."
+#	endif
+#elif defined(__powerpc__)
+#	if defined(__powerpc64__)
+#       error "abi_ppc_64 not supported by the package."
+#	else
+#       error "abi_ppc_32 not supported by the package."
+#	endif
 #else
 #	error "No ABI matched, please report a bug to bugs.gentoo.org"
 #endif
 _EOF_
+					fi
+
+					if ! grep -q "${MULTILIB_ABI_FLAG} " "${wrapper}"
+					then
+						die "Flag ${MULTILIB_ABI_FLAG} not listed in wrapper template. Please report a bug to https://bugs.gentoo.org."
 					fi
 
 					# $CHOST shall be set by multilib_toolchain_setup
@@ -452,15 +492,15 @@ _EOF_
 					mv "${root}/usr/include${f}" "${ED}/tmp/multilib-include/${CHOST}${dir}/" || die
 
 					# Note: match a space afterwards to avoid collision potential.
-					sed -e "/${abi_flag} /s&error.*&include <${CHOST}${f}>&" \
-						-i "${ED}/tmp/multilib-include${f}" || die
+					sed -e "/${MULTILIB_ABI_FLAG} /s&error.*&include <${CHOST}${f}>&" \
+						-i "${wrapper}" || die
 
 					# Hack for emul-linux-x86 compatibility.
 					# It assumes amd64 will come after x86, and will use amd64
 					# headers if no specific x86 headers were installed.
 					if [[ ${ABI} == amd64 ]]; then
 						sed -e "/abi_x86_32 /s&error.*&include <${CHOST}${f}>&" \
-							-i "${ED}/tmp/multilib-include${f}" || die
+							-i "${wrapper}" || die
 					fi
 				fi
 			done
