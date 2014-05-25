@@ -6899,8 +6899,6 @@ sys-libs/pam:audit - Enable support for sys-process/audit
 sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
 sys-libs/pam:cracklib - Build the pam_cracklib module, that allows to verify the chosen passwords' strength through the use of sys-libs/cracklib. Please note that simply enabling the USE flag on this package will not make use of pam_cracklib by default, you should also enable it in sys-auth/pambase as well as update your configuration files.
 sys-libs/talloc:compat - Enable extra compatibility stuff
-sys-libs/tdb:tdbtest - Install tdbtest app
-sys-libs/tdb:tools - Install extra tools
 sys-libs/uclibc:rpc - Enable sun nis/rpc support (you should use libtirpc though)
 sys-libs/uclibc:savedconfig - Adds support for user defined configs
 sys-libs/uclibc:ssp - Force the use of ssp to be built into a hardened uclibc setup
@@ -7049,7 +7047,6 @@ www-apps/viewvc:cvsgraph - Add dev-vcs/cvsgraph support to show graphical views 
 www-apps/viewvc:mod_wsgi - Add www-apache/mod_wsgi support
 www-apps/viewvc:pygments - Add dev-python/pygments support for syntax highlighting
 www-apps/webdavcgi:rcs - Adds support for a revision controlled backend with RCS (dev-vcs/rcs)
-www-client/chromium:aura - Enable Aura, new UI architecture that is GPU accelerated, see http://www.chromium.org/developers/design-documents/aura .
 www-client/chromium:bindist - Disable patent-encumbered HTML5 video codecs
 www-client/chromium:tcmalloc - Use bundled tcmalloc instead of system malloc.
 www-client/dwb:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
@@ -7338,6 +7335,7 @@ x11-misc/redshift:geoclue - Control dependency on app-misc/geoclue
 x11-misc/revelation:applet - Enable applet for gnome-base/gnome-panel
 x11-misc/rodent:experimental - Build experimental plugins (obexfs, curlftpfs, ecryptfs, cifs and samba)
 x11-misc/rss-glx:quesoglc - Enable support for OpenGL Character Renderer
+x11-misc/sddm:upower - Use sys-power/upower for power management
 x11-misc/shutter:drawing - Enables drawing tool
 x11-misc/shutter:webphoto - Enables screenshots of websites
 x11-misc/slim:consolekit - Enable native consolekit support
