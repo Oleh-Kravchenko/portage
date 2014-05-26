@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-zope/zc-buildout/zc-buildout-2.2.0.ebuild,v 1.1 2013/07/08 06:53:56 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-zope/zc-buildout/zc-buildout-2.2.0.ebuild,v 1.2 2014/05/25 11:27:34 idella4 Exp $
 
 EAPI="3"
 PYTHON_DEPEND="2"
@@ -26,7 +26,7 @@ DEPEND="${RDEPEND}"
 
 S="${WORKDIR}"/${MY_P}
 
-DOCS="CHANGES.rst todo.txt"
+DOCS=( README.rst doc/tutorial.txt )
 PYTHON_MODNAME="${PN/-//}"
 
 src_install() {
