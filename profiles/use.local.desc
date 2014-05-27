@@ -1590,6 +1590,7 @@ dev-lang/python:threads - Enable threading support. (DON'T DISABLE THIS UNLESS Y
 dev-lang/python:wide-unicode - Enable wide Unicode implementation which uses 4-byte Unicode characters. Switching of this USE flag changes ABI of Python and requires reinstallation of many Python modules. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
 dev-lang/python:wininst - Install Windows executables required to create an executable installer for MS Windows.
 dev-lang/qu-prolog:pedro - Pedro subscription/notification communications system
+dev-lang/rakudo:moar - Build the MoarVM backend (experimental)
 dev-lang/rakudo:parrot - Build the parrot backend (default)
 dev-lang/rubinius:llvm - Build with llvm. Currently the package only builds against old versions of llvm.
 dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
@@ -2997,6 +2998,25 @@ kde-misc/tellico:addressbook - Add support for kdepim addressbook (kabc)
 lxde-base/lxdm:consolekit - Enables support for authorization using consolekit
 lxde-base/lxdm:gtk3 - Use GTK+3 instead of 2
 lxde-base/lxsession:upower - Pull in sys-power/upower for hibernate/suspend support
+lxqt-base/lxqt-panel:clock - Build clock plugin
+lxqt-base/lxqt-panel:colorpicker - Build colorpicker plugin
+lxqt-base/lxqt-panel:cpuload - Build cpuload plugin
+lxqt-base/lxqt-panel:desktopswitch - Build desktopswitch plugin
+lxqt-base/lxqt-panel:dom - Build dom plugin
+lxqt-base/lxqt-panel:kbindicator - Build kbindicator plugin
+lxqt-base/lxqt-panel:mainmenu - Build mainmenu plugin
+lxqt-base/lxqt-panel:mount - Build mount plugin
+lxqt-base/lxqt-panel:networkmonitor - Build networkmonitor plugin
+lxqt-base/lxqt-panel:quicklaunch - Build quicklaunch plugin
+lxqt-base/lxqt-panel:screensaver - Build screensaver plugin
+lxqt-base/lxqt-panel:sensors - Build sensors plugin
+lxqt-base/lxqt-panel:showdesktop - Build showdesktop plugin
+lxqt-base/lxqt-panel:sysstat - Build sysstat plugin
+lxqt-base/lxqt-panel:taskbar - Build taskbar plugin
+lxqt-base/lxqt-panel:teatime - Build teatime plugin
+lxqt-base/lxqt-panel:tray - Build tray plugin
+lxqt-base/lxqt-panel:volume - Build volume plugin
+lxqt-base/lxqt-panel:worldclock - Build worldclock plugin
 mail-client/alot:doc - Install user manual and API documentation
 mail-client/alpine:chappa - enhance alpine by applying Eduardo Chappa's patches
 mail-client/alpine:onlyalpine - installs only the alpine binary, so it does not collied with app-editors/pico and/or mail-client/pine
