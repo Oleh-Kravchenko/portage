@@ -1808,7 +1808,6 @@ dev-libs/openssl:rfc3779 - Enable support for RFC 3779 (X.509 Extensions for IP 
 dev-libs/openssl:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
 dev-libs/pkcs11-helper:nss - Enable NSS crypto engine
 dev-libs/ppl:lpsol - Build the ppl_lpsol linear programming problem solver
-dev-libs/ppl:watchdog - Build the PPL Watchdog library - a C++ library for multiple, concurrent watchdog timers
 dev-libs/seed:profile - Build support for profiling dev-libs/seed for development purposes
 dev-libs/soprano:raptor - Enables support for media-libs/raptor RDF parser/serializer.
 dev-libs/soprano:redland - Enables support for the dev-libs/redland storage backend (really slow one).
@@ -2998,6 +2997,8 @@ kde-misc/tellico:addressbook - Add support for kdepim addressbook (kabc)
 lxde-base/lxdm:consolekit - Enables support for authorization using consolekit
 lxde-base/lxdm:gtk3 - Use GTK+3 instead of 2
 lxde-base/lxsession:upower - Pull in sys-power/upower for hibernate/suspend support
+lxqt-base/lxqt-meta:minimal - Do not install x11-wm/openbox window manager
+lxqt-base/lxqt-meta:powermanagement - Pull in lxqt-base/lxqt-powermanagement package
 lxqt-base/lxqt-panel:clock - Build clock plugin
 lxqt-base/lxqt-panel:colorpicker - Build colorpicker plugin
 lxqt-base/lxqt-panel:cpuload - Build cpuload plugin
@@ -3513,6 +3514,7 @@ media-libs/mesa:gles2 - Enable GLESv2 support.
 media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
 media-libs/mesa:llvm-shared-libs - Dynamically link Gallium3D drivers against LLVM.
 media-libs/mesa:opencl - Enable the Clover Gallium OpenCL state tracker.
+media-libs/mesa:openmax - Enable OpenMAX video decode/encode acceleration for Gallium3D.
 media-libs/mesa:openvg - Enable the OpenVG 2D acceleration API for Gallium3D.
 media-libs/mesa:osmesa - Build the Mesa library for off-screen rendering.
 media-libs/mesa:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
@@ -5384,12 +5386,15 @@ net-misc/bfgminer:adl - Enable support for controlling fans and overclocking on 
 net-misc/bfgminer:antminer - Enable support for mining with AntMiner U1 sticks
 net-misc/bfgminer:avalon - Enable support for mining with Avalon ASIC modules
 net-misc/bfgminer:bfsb - Enable support for mining on BFSB host Raspberry Pi
+net-misc/bfgminer:bfx - Enable support for mining with BFx2 USB sticks
 net-misc/bfgminer:bifury - Enable support for mining with Bi*fury USB sticks
 net-misc/bfgminer:bigpic - Enable support for mining with Big Picture Mining USB sticks (Red/BlueFury, BF1, etc)
 net-misc/bfgminer:bitforce - Enable support for mining with ButterFly Labs BitFORCE ASICs and/or FPGAs
 net-misc/bfgminer:bitfury - Enable support for mining with 55nm Bitfury-based devices
 net-misc/bfgminer:cpumining - Enable support for mining with CPUs
 net-misc/bfgminer:drillbit - Enable support for mining with Drillbit boards
+net-misc/bfgminer:dualminer - Enable support for mining with DualMiner USB sticks
+net-misc/bfgminer:gridseed - Enable support for mining with 5-chip GridSeed orbs
 net-misc/bfgminer:hashbuster - Enable support for mining with HashBuster nano boards
 net-misc/bfgminer:hashbuster2 - Enable support for mining with HashBuster micro boards
 net-misc/bfgminer:hashfast - Enable support for mining with HashFast devices
@@ -7355,6 +7360,7 @@ x11-misc/redshift:geoclue - Control dependency on app-misc/geoclue
 x11-misc/revelation:applet - Enable applet for gnome-base/gnome-panel
 x11-misc/rodent:experimental - Build experimental plugins (obexfs, curlftpfs, ecryptfs, cifs and samba)
 x11-misc/rss-glx:quesoglc - Enable support for OpenGL Character Renderer
+x11-misc/sddm:consolekit - Enable ConsoleKit support
 x11-misc/sddm:upower - Use sys-power/upower for power management
 x11-misc/shutter:drawing - Enables drawing tool
 x11-misc/shutter:webphoto - Enables screenshots of websites

@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15730 2014/05/26 18:11:33 hwoarang Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15735 2014/05/27 13:41:48 jauhien Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,10 +30,9 @@
 
 #--- END OF EXAMPLES ---
 
-# Jauhien Piatlicki <jauhien@gentoo.org> (26 May 2014)
-# Masked for testing as there are issues with powermanagement
-# (not working reboot/halt)
-lxqt-base/lxqt-panel
+# Vladimir Smirnov <civil@gentoo.org> (27 May 2014)
+# Masked for testing, will defenitely cause major breakage
+=dev-lang/perl-5.20*
 
 # Lars Wendler <polynomial-c@gentoo.org> (26 May 2014)
 # Masked until sys-auth/sssd got subslot support (bug #511528 and bug #511530).
@@ -45,6 +44,10 @@ lxqt-base/lxqt-panel
 # lazyness to update does not count ;)
 # removal ~ 15 Jun 2014
 =media-video/vdr-1.6*
+media-plugins/vdr-atscepg
+media-plugins/vdr-channelblocker
+=media-plugins/vdr-iptv-0.3.2
+media-plugins/vdr-noepgmenu
 
 # Pawel Hajdan jr <phajdan.jr@gentoo.org> (24 May 2014)
 # Dev channel releases are only for people who are developers or want more
@@ -77,17 +80,6 @@ dev-lisp/openmcl-build-tools
 # patching from upstream to be added to this version.
 # Masked until py3.4 support is added to media-gfx/cairosvg
 =dev-python/weasyprint-0.22
-
-# Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org> (21 May 2014)
-# Mask until the necessary keywording for Xwayland is done, bug #510940
-# fontsproto has new function prototypes that make it incompatible
-# with older libXfont. All these packages should probably be unmasked
-# together.
->=dev-libs/wayland-1.5.0
->=dev-libs/weston-1.5.0
->=x11-base/xorg-server-1.15.99
->=x11-proto/fontsproto-2.1.3
->=x11-libs/libXfont-1.4.8-r1
 
 # Alexandre Rostovtsev <tetromino@gentoo.org> (19 May 2014)
 # Masked until dev-libs/glib supports the new timezone format, bug #510422
@@ -358,7 +350,7 @@ net-mail/fetchyahoo
 # are not provided anymore. Python 2.7 is almost drop-in replacement.
 # The Python itself will be masked in 30 days, and all packages will be
 # removed in 60 days.
-#dev-lang/python:2.6
+dev-lang/python:2.6
 dev-python/argparse
 dev-python/ordereddict
 
