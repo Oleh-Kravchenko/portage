@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-9999.ebuild,v 1.296 2014/05/14 18:25:40 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-9999.ebuild,v 1.298 2014/05/28 12:22:27 ssuominen Exp $
 
 EAPI=5
 
@@ -187,7 +187,6 @@ multilib_src_configure() {
 		--disable-seccomp
 		--disable-xz
 		--disable-pam
-		--disable-xattr
 		--disable-gcrypt
 		--disable-audit
 		--disable-libcryptsetup
@@ -198,6 +197,7 @@ multilib_src_configure() {
 		--disable-quotacheck
 		--disable-logind
 		--disable-polkit
+		--disable-networkd
 		--disable-myhostname
 		$(use_enable gudev)
 		--enable-split-usr
