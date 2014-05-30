@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-apps/rt/rt-4.2.4.ebuild,v 1.1 2014/05/28 10:32:06 titanofold Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-apps/rt/rt-4.2.4.ebuild,v 1.3 2014/05/29 09:32:14 titanofold Exp $
 
 EAPI=5
 
