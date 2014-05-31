@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/mail-mta/exim/exim-4.83_rc1.ebuild,v 1.2 2014/05/29 17:30:00 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/mail-mta/exim/exim-4.83_rc1.ebuild,v 1.6 2014/05/30 16:11:08 grobian Exp $
 
 EAPI="5"
 
@@ -111,7 +111,6 @@ src_configure() {
 		-e "s:BIN_DIRECTORY=/usr/exim/bin:BIN_DIRECTORY=${EPREFIX}/usr/sbin:" \
 		-e "s:EXIM_USER=:EXIM_USER=${MAILUSER}:" \
 		-e "s:CONFIGURE_FILE=/usr/exim/configure:CONFIGURE_FILE=${EPREFIX}/etc/exim/exim.conf:" \
-		-e "s:EXIM_MONITOR=eximon.bin:# EXIM_MONITOR=eximon.bin:" \
 		-e "s:ZCAT_COMMAND=.*$:ZCAT_COMMAND=${EPREFIX}/bin/zcat:" \
 		-e "s:COMPRESS_COMMAND=.*$:COMPRESS_COMMAND=${EPREFIX}/bin/gzip:" \
 		src/EDITME > Local/Makefile
@@ -135,7 +134,7 @@ src_configure() {
 		EOC
 	fi
 
-
+	#
 	# mail storage formats
 
 	# mailstore is Exim's traditional storage format
@@ -157,7 +156,7 @@ src_configure() {
 		EOC
 	fi
 
-
+	#
 	# lookup methods
 
 	# use the "native" interface to the DBM library, support passwd
@@ -220,7 +219,7 @@ src_configure() {
 		EOC
 	fi
 
-
+	#
 	# Exim monitor, enabled by default, controlled via X USE-flag,
 	# disable if not requested, bug #46778
 	if use X; then
@@ -229,7 +228,7 @@ src_configure() {
 		sed -i -e '/^EXIM_MONITOR=/s/^/# /' Makefile
 	fi
 
-
+	#
 	# features
 
 	# content scanning support
@@ -309,7 +308,7 @@ src_configure() {
 		EOC
 	fi
 
-
+	#
 	# experimental features
 
 	# Distributed Checksum Clearinghouse
@@ -362,7 +361,7 @@ src_configure() {
 		EOC
 	fi
 
-	
+	#
 	# authentication (SMTP AUTH)
 
 	# standard bits
@@ -499,7 +498,12 @@ pkg_postinst() {
 	fi
 	use tpda && einfo "TPDA support is experimental"
 	use proxy && einfo "proxy support is experimental"
-	use dsn && einfo "DSN support is experimental"
+	if use dsn ; then
+		einfo "Starting from Exim 4.83, DSN support comes from upstream."
+		einfo "DSN support is an experimental feature.  If you used DSN"
+		einfo "support prior to 4.83, make sure to remove all dsn_process"
+		einfo "switches from your routers, see http://bugs.gentoo.org/511818"
+	fi
 	einfo "Exim maintains some db files under its spool directory that need"
 	einfo "cleaning from time to time.  (${EROOT}var/spool/exim/db)"
 	einfo "Please use the exim_tidydb tool as documented in the Exim manual:"

@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15738 2014/05/29 18:39:16 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15746 2014/05/30 19:45:47 mgorny Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,12 +30,33 @@
 
 #--- END OF EXAMPLES ---
 
+# Markos Chandras <hwoarang@gentoo.org> (30 May 2014)
+# Mask beta release
+=app-i18n/transifex-client-0.11_beta
+
+# Tom Wijsman <TomWij@gentoo.org> (30 May 2014)
+# CVE-2012-1721 - Remote Code Execution Vulnerability
+#
+# Vulnerable: IBM Java SE 5.0 SR12-FP5
+# URL:        http://www.securityfocus.com/bid/53959/
+dev-java/ibm-jdk-bin:1.5
+
 # Michał Górny <mgorny@gentoo.org> (29 May 2014)
 # New multilib conversions. Unmask along with corresponding
 # emul-linux-x86 packages, and make sure they're committed first :).
 >=media-libs/libart_lgpl-2.3.21-r2
 >=sys-libs/cracklib-2.9.1-r1
 >=app-emulation/emul-linux-x86-baselibs-20140508-r7
+>=sys-process/audit-2.2.2-r2
+>=net-libs/libtirpc-0.2.4-r2
+>=sys-devel/flex-2.5.39-r1
+>=sys-libs/pam-1.1.8-r2
+>=virtual/pam-0-r1
+>=sys-auth/nss-mdns-0.10-r2
+>=sys-auth/nss_ldap-265-r5
+>=sys-auth/pam_ldap-186-r1
+>=app-emulation/emul-linux-x86-baselibs-20140508-r8
+>=dev-libs/cyrus-sasl-2.1.26-r6
 
 # Vladimir Smirnov <civil@gentoo.org> (27 May 2014)
 # Masked for testing, will defenitely cause major breakage
@@ -46,9 +67,6 @@
 # lazyness to update does not count ;)
 # removal ~ 15 Jun 2014
 =media-video/vdr-1.6*
-media-plugins/vdr-atscepg
-media-plugins/vdr-channelblocker
-=media-plugins/vdr-iptv-0.3.2
 media-plugins/vdr-noepgmenu
 
 # Pawel Hajdan jr <phajdan.jr@gentoo.org> (24 May 2014)
@@ -412,7 +430,8 @@ sys-fs/rdiff-backup-fs
 
 # Patrick Lauer <patrick@gentoo.org> (02 Apr 2014)
 # Broken release, see #506452
-=dev-python/sip-4.15.5
+>=dev-python/sip-4.15.5
+>=dev-python/PyQt4-4.11
 
 # Tom Wijsman <TomWij@gentoo.org> (31 Mar 2014)
 # Prevent users from switching JDK / JRE implementation.
@@ -717,7 +736,7 @@ net-irc/xchat-otr
 # in early 2010; as per http://en.wikipedia.org/wiki/Sun_acquisition_by_Oracle
 #
 # Users are suggested to upgrade to one of the newer Oracle packages like
-# dev-java/oracle-jdk-bin or dev-java/oracle/jre-bin or choose another
+# dev-java/oracle-jdk-bin or dev-java/oracle-jre-bin or choose another
 # alternative we provide; eg. the IBM JDK/JRE or the open source IcedTea.
 #
 # Most of these packages provide a jce USE flag for those whom need the
