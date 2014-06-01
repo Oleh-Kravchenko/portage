@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/xfce-base/xfce4-session/xfce4-session-4.11.0.ebuild,v 1.3 2014/05/26 19:42:15 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/xfce-base/xfce4-session/xfce4-session-4.11.0.ebuild,v 1.4 2014/05/31 19:19:58 ssuominen Exp $
 
 EAPI=5
 inherit xfconf
@@ -27,7 +27,7 @@ COMMON_DEPEND=">=dev-libs/dbus-glib-0.100
 RDEPEND="${COMMON_DEPEND}
 	x11-apps/xrdb
 	nls? ( x11-misc/xdg-user-dirs )
-	udev? ( || ( >=sys-power/upower-0.9.20 sys-power/upower-pm-utils ) )
+	udev? ( || ( <sys-power/upower-0.99 sys-power/upower-pm-utils ) )
 	xscreensaver? ( || (
 		>=x11-misc/xscreensaver-5.26
 		gnome-extra/gnome-screensaver

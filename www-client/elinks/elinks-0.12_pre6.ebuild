@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/elinks/elinks-0.12_pre6.ebuild,v 1.10 2014/01/30 12:04:21 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/elinks/elinks-0.12_pre6.ebuild,v 1.11 2014/05/31 04:14:40 axs Exp $
 
 EAPI=4
 inherit eutils autotools flag-o-matic
@@ -51,7 +51,7 @@ src_prepare() {
 		epatch "${FILESDIR}"/${PN}-0.11.2-lua-5.1.patch
 	fi
 
-	epatch "${FILESDIR}"/${PN}-0.11.5-makefile.patch
+	epatch "${FILESDIR}"/${PN}-9999-parallel-make.patch
 	epatch "${FILESDIR}"/${PN}-0.12_pre5-compilation-fix.patch
 
 	if use javascript ; then
@@ -141,8 +141,12 @@ src_configure() {
 		${myconf}
 }
 
+src_compile() {
+	emake V=1
+}
+
 src_install() {
-	emake DESTDIR="${D}" install
+	emake V=1 DESTDIR="${D}" install
 
 	insopts -m 644 ; insinto /etc/elinks
 	doins "${WORKDIR}"/elinks.conf
