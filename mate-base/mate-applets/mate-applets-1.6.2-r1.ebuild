@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/mate-base/mate-applets/mate-applets-1.6.2-r1.ebuild,v 1.3 2014/05/31 20:35:08 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/mate-base/mate-applets/mate-applets-1.6.2-r1.ebuild,v 1.5 2014/06/01 09:49:13 tomwij Exp $
 
 EAPI="5"
 
