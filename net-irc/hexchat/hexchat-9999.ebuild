@@ -1,10 +1,10 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-irc/hexchat/hexchat-9999.ebuild,v 1.12 2014/02/03 02:25:40 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-irc/hexchat/hexchat-9999.ebuild,v 1.14 2014/06/02 18:09:33 hasufell Exp $
 
 EAPI=5
 
-PYTHON_COMPAT=( python2_7 python3_3 )
+PYTHON_COMPAT=( python2_7 python3_3 python3_4 )
 inherit autotools eutils fdo-mime gnome2-utils mono-env multilib python-single-r1 git-2
 
 DESCRIPTION="Graphical IRC client based on XChat"
@@ -12,15 +12,11 @@ HOMEPAGE="http://hexchat.github.io/"
 SRC_URI=""
 EGIT_REPO_URI="git://github.com/hexchat/hexchat.git"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2 plugin-fishlim? ( MIT )"
 SLOT="0"
 KEYWORDS=""
 IUSE="dbus +gtk ipv6 libcanberra libnotify libproxy nls ntlm perl +plugins plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo python spell ssl theme-manager"
-REQUIRED_USE="plugin-checksum? ( plugins )
-	plugin-doat? ( plugins )
-	plugin-fishlim? ( plugins )
-	plugin-sysinfo? ( plugins )
-	python? ( ${PYTHON_REQUIRED_USE} )"
+REQUIRED_USE="plugins? ( python? ( ${PYTHON_REQUIRED_USE} ) )"
 
 DEPEND="dev-libs/glib:2
 	dbus? ( >=dev-libs/dbus-glib-0.98 )
@@ -30,24 +26,45 @@ DEPEND="dev-libs/glib:2
 	libnotify? ( x11-libs/libnotify )
 	nls? ( virtual/libintl )
 	ntlm? ( net-libs/libntlm )
-	perl? ( >=dev-lang/perl-5.8.0 )
-	plugin-sysinfo? ( sys-apps/pciutils )
-	python? ( ${PYTHON_DEPS} )
+	plugins? (
+		perl? ( >=dev-lang/perl-5.8.0 )
+		plugin-sysinfo? ( sys-apps/pciutils )
+		python? ( ${PYTHON_DEPS} )
+	)
 	spell? ( app-text/iso-codes )
 	ssl? ( dev-libs/openssl:0 )
 	theme-manager? ( dev-lang/mono )"
 RDEPEND="${DEPEND}
 	spell? ( app-text/enchant )"
 DEPEND="${DEPEND}
+	app-arch/xz-utils
 	virtual/pkgconfig
 	nls? ( sys-devel/gettext )
 	theme-manager? ( dev-util/monodevelop )"
 
 pkg_setup() {
-	use python && python-single-r1_pkg_setup
+	use plugins && use python && python-single-r1_pkg_setup
 	if use theme-manager ; then
 		mono-env_pkg_setup
 		export XDG_CACHE_HOME="${T}/.cache"
+	fi
+
+	if use !plugins ; then
+		local myplugins
+
+		use perl && myplugins+="perl\n"
+		use python && myplugins+="python\n"
+		use plugin-checksum && myplugins+="plugin-checksum\n"
+		use plugin-doat && myplugins+="plugin-doat\n"
+		use plugin-fishlim && myplugins+="plugin-fishlim\n"
+		use plugin-sysinfo && myplugins+="plugin-sysinfo\n"
+
+		if [[ ${myplugins} ]] ; then
+			ewarn "The following plugins/interfaces have been disabled, because"
+			ewarn "\"plugins\" USE flag is disabled. Check metadata.xml"
+			ewarn "to get more information or run \"equery u hexchat\"."
+			ewarn "\n${myplugins}"
+		fi
 	fi
 }
 
@@ -75,17 +92,34 @@ src_configure() {
 		$(use_enable ssl openssl) \
 		$(use_enable gtk gtkfe) \
 		$(use_enable !gtk textfe) \
-		$(usex python "--enable-python=${EPYTHON}" "--disable-python") \
-		$(use_enable perl) \
+		$(usex plugins \
+			"$(usex python "--enable-python=${EPYTHON}" "--disable-python")" \
+			"--disable-python" \
+			) \
+		$(usex plugins \
+			"$(use_enable perl)" \
+			"--disable-perl" \
+			) \
 		$(use_enable plugins plugin) \
-		$(use_enable plugin-checksum checksum) \
-		$(use_enable plugin-doat doat) \
-		$(use_enable plugin-fishlim fishlim) \
-		$(use_enable plugin-sysinfo sysinfo) \
+		$(usex plugins \
+			"$(use_enable plugin-checksum checksum)" \
+			"--disable-checksum" \
+			) \
+		$(usex plugins \
+			"$(use_enable plugin-doat doat)" \
+			"--disable-doat" \
+			) \
+		$(usex plugins \
+			"$(use_enable plugin-fishlim fishlim)" \
+			"--disable-fishlim" \
+			) \
+		$(usex plugins \
+			"$(use_enable plugin-sysinfo sysinfo)" \
+			"--disable-sysinfo" \
+			) \
 		$(use_enable dbus) \
 		$(use_enable libnotify) \
 		$(use_enable libcanberra) \
-		${myspellconf} \
 		$(use_enable ntlm) \
 		$(use_enable libproxy) \
 		$(use_enable spell isocodes) \
@@ -128,15 +162,6 @@ pkg_postinst() {
 		elog
 	fi
 
-	elog "If you're upgrading from hexchat <=2.9.3 remember to rename"
-	elog "the xchat.conf file found in ~/.config/hexchat/ to hexchat.conf"
-	elog
-	elog "If you're upgrading from hexchat <=2.9.5 you will have to fix"
-	elog "your auto-join channel settings, see:"
-	elog "  https://bugs.gentoo.org/show_bug.cgi?id=473514#c1"
-	elog "Also, some internal hotkeys such as \"Ctrl+l\" (clear screen)"
-	elog "have been removed, but you can add them yourself via:"
-	elog "  Settings -> Keyboard Shortcuts"
 	einfo
 	elog "optional dependencies:"
 	elog "  media-sound/sox (sound playback if you don't have libcanberra"
