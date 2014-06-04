@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/aufs-sources/aufs-sources-3.14.4.ebuild,v 1.1 2014/05/14 13:39:15 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/aufs-sources/aufs-sources-3.14.4.ebuild,v 1.2 2014/06/03 07:14:58 jlec Exp $
 
 EAPI=5
 
@@ -65,7 +65,7 @@ pkg_postinst() {
 	kernel-2_pkg_postinst
 	einfo "For more info on this patchset, and how to report problems, see:"
 	einfo "${HOMEPAGE}"
-	has_version sys-fs/aufs-util && \
+	has_version sys-fs/aufs-util || \
 		einfo "In order to use aufs FS you need to install sys-fs/aufs-util"
 }
 

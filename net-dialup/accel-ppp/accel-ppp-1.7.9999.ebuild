@@ -1,12 +1,12 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-dialup/accel-ppp/accel-ppp-1.7.9999.ebuild,v 1.1 2013/01/18 07:07:41 pinkbyte Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-dialup/accel-ppp/accel-ppp-1.7.9999.ebuild,v 1.4 2014/06/03 08:08:37 pinkbyte Exp $
 
 EAPI=5
 
 EGIT_REPO_URI="git://accel-ppp.git.sourceforge.net/gitroot/accel-ppp/accel-ppp"
 EGIT_BRANCH="1.7"
-inherit cmake-utils git-2 linux-info
+inherit cmake-utils git-r3 linux-info
 
 DESCRIPTION="High performance PPTP, PPPoE and L2TP server"
 HOMEPAGE="http://accel-ppp.sourceforge.net/"
@@ -15,21 +15,25 @@ SRC_URI=""
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""
-IUSE="debug doc postgres radius shaper snmp"
+IUSE="debug doc postgres radius shaper snmp valgrind"
 
-DEPEND="postgres? ( dev-db/postgresql-base )
+RDEPEND="postgres? ( dev-db/postgresql-base )
 	snmp? ( net-analyzer/net-snmp )
 	dev-libs/libpcre
 	dev-libs/openssl:0"
-RDEPEND="${DEPEND}"
+DEPEND="${RDEPEND}
+	valgrind? ( dev-util/valgrind )"
 
 DOCS=( README )
-CONFIG_CHECK="~CONFIG_L2TP ~CONFIG_PPPOE ~CONFIG_PPTP"
+CONFIG_CHECK="~L2TP ~PPPOE ~PPTP"
 
 src_prepare() {
 	sed -i  -e "/mkdir/d" \
 		-e "/echo/d" \
 		-e "s: RENAME accel-ppp.conf.dist::" accel-pppd/CMakeLists.txt || die 'sed on accel-pppd/CMakeLists.txt failed'
+
+	sed -i -e '/IF (SHAPER)/s/SHAPER/SHAPER_TBF/' \
+		accel-pppd/extra/CMakeLists.txt || die 'sed on accel-pppd/extra/CMakeLists.txt failed'
 
 	epatch_user
 }
@@ -40,11 +44,11 @@ src_configure() {
 		-DBUILD_DRIVER=FALSE
 		-DCRYPTO=OPENSSL
 		$(cmake-utils_use debug MEMDEBUG)
-		$(cmake-utils_use debug VALGRIND)
 		$(cmake-utils_use postgres LOG_PGSQL)
 		$(cmake-utils_use radius RADIUS)
 		$(cmake-utils_use shaper SHAPER)
 		$(cmake-utils_use snmp NETSNMP)
+		$(cmake-utils_use valgrind VALGRIND)
 	)
 
 	cmake-utils_src_configure
