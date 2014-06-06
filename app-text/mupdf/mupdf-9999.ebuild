@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-text/mupdf/mupdf-9999.ebuild,v 1.44 2014/04/23 16:52:40 xmw Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-text/mupdf/mupdf-9999.ebuild,v 1.46 2014/06/05 11:04:14 xmw Exp $
 
 EAPI=5
 
@@ -39,16 +39,16 @@ src_prepare() {
 
 	epatch \
 		"${FILESDIR}"/${PN}-1.3-CFLAGS.patch \
+		"${FILESDIR}"/${PN}-1.4-old-debian-files.patch \
 		"${FILESDIR}"/${PN}-1.3-pkg-config.patch \
 		"${FILESDIR}"/${PN}-1.3-sys_curl.patch
 
 	sed -e "/^libdir=/s:/lib:/$(get_libdir):" \
-		-e "/^prefix=/s:=.*:=${EROOR}/usr:" \
+		-e "/^prefix=/s:=.*:=${EROOT}/usr:" \
 		-i platform/debian/${PN}.pc || die
 
 	use vanilla || epatch \
-		"${FILESDIR}"/${PN}-1.3-zoom-2.patch \
-		"${FILESDIR}"/${PN}-1.3-forward_back.patch
+		"${FILESDIR}"/${PN}-1.3-zoom-2.patch
 
 	#http://bugs.ghostscript.com/show_bug.cgi?id=693467
 	sed -e '/^\(Actions\|MimeType\)=/s:\(.*\):\1;:' \
@@ -101,7 +101,6 @@ src_install() {
 	if use X ; then
 		domenu platform/debian/${PN}.desktop
 		doicon platform/debian/${PN}.xpm
-		dobin platform/debian/${PN}-select-file
 	else
 		rm docs/man/${PN}.1
 	fi
