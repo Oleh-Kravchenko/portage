@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-power/apcupsd/apcupsd-3.14.8-r2.ebuild,v 1.4 2013/12/21 17:22:30 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-power/apcupsd/apcupsd-3.14.8-r2.ebuild,v 1.5 2014/06/06 01:34:13 mattm Exp $
 
 EAPI=3
 

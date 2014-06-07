@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-print/cups-filters/cups-filters-9999.ebuild,v 1.46 2014/05/11 19:12:35 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-print/cups-filters/cups-filters-9999.ebuild,v 1.48 2014/06/06 22:46:13 dilfridge Exp $
 
 EAPI=5
 
@@ -30,7 +30,7 @@ RDEPEND="
 	media-libs/fontconfig
 	media-libs/freetype:2
 	media-libs/lcms:2
-	>net-print/cups-1.5.9999
+	>=net-print/cups-1.7.3
 	!<=net-print/cups-1.5.9999
 	sys-devel/bc
 	sys-libs/zlib
@@ -43,10 +43,6 @@ RDEPEND="
 	zeroconf? ( net-dns/avahi[dbus] )
 "
 DEPEND="${RDEPEND}"
-
-PATCHES=(
-	"${FILESDIR}/${P}-uclibc.patch"
-)
 
 src_prepare() {
 	base_src_prepare
@@ -72,7 +68,7 @@ src_configure() {
 }
 
 src_compile() {
-	default
+	MAKEOPTS=-j1 default
 
 	if use perl; then
 		pushd "${S}/scripting/perl" > /dev/null
