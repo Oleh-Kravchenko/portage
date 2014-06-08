@@ -1,8 +1,8 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libpostproc/libpostproc-9999.ebuild,v 1.9 2014/05/12 17:03:20 lu_zero Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libpostproc/libpostproc-9999.ebuild,v 1.10 2014/06/07 21:31:50 mgorny Exp $
 
-EAPI="4"
+EAPI="5"
 
 SCM=""
 if [ "${PV#9999}" != "${PV}" ] ; then
@@ -10,7 +10,7 @@ if [ "${PV#9999}" != "${PV}" ] ; then
 	EGIT_REPO_URI="git://github.com/lu-zero/postproc.git"
 fi
 
-inherit eutils flag-o-matic multilib toolchain-funcs ${SCM}
+inherit eutils flag-o-matic multilib multilib-minimal toolchain-funcs ${SCM}
 
 DESCRIPTION="Video post processing library"
 HOMEPAGE="https://github.com/lu-zero/postproc"
@@ -36,45 +36,46 @@ for i in ${CPU_FEATURES}; do
 	IUSE="${IUSE} ${i%:*}"
 done
 
-DEPEND=">=virtual/ffmpeg-0.10.2-r2"
+DEPEND=">=virtual/ffmpeg-0.10.2-r2[${MULTILIB_USEDEP}]"
 RDEPEND="${DEPEND}
 	!<media-video/libav-0.8.2-r2
 	!media-video/ffmpeg:0
+	abi_x86_32? ( !<=app-emulation/emul-linux-x86-medialibs-20140508-r3
+		!app-emulation/emul-linux-x86-medialibs[-abi_x86_32(-)] )
 "
 
-src_configure() {
-	local myconf="${EXTRA_LIBPOSTPROC_CONF}"
+multilib_src_configure() {
+	local myconf=( ${EXTRA_LIBPOSTPROC_CONF} )
 	for i in $(get-flag march) $(get-flag mcpu) $(get-flag mtune) ; do
-		[ "${i}" = "native" ] && i="host" # bug #273421
-		myconf="${myconf} --cpu=${i}"
+		[[ "${i}" = "native" ]] && i="host" # bug #273421
+		myconf+=( --cpu=${i} )
 		break
 	done
 
 	if use pic ; then
-		myconf="${myconf} --enable-pic"
+		myconf+=( --enable-pic )
 		# disable asm code if PIC is required
 		# as the provided asm decidedly is not PIC for x86.
-		use x86 && myconf="${myconf} --disable-asm"
+		[[ ${ABI} == x86 ]] && myconf+=( --disable-asm )
 	fi
 
 	# cross compile support
 	if tc-is-cross-compiler ; then
-		myconf="${myconf} --enable-cross-compile --arch=$(tc-arch-kernel) --cross-prefix=${CHOST}-"
+		myconf+=( --enable-cross-compile --arch=$(tc-arch-kernel) --cross-prefix=${CHOST}- )
 		case ${CHOST} in
 			*freebsd*)
-				myconf="${myconf} --target-os=freebsd"
+				myconf+=( --target-os=freebsd )
 				;;
 			mingw32*)
-				myconf="${myconf} --target-os=mingw32"
+				myconf+=( --target-os=mingw32 )
 				;;
 			*linux*)
-				myconf="${myconf} --target-os=linux"
+				myconf+=( --target-os=linux )
 				;;
 		esac
 	fi
 
-	cd "${S}"
-	./configure \
+	"${S}"/configure \
 		--prefix="${EPREFIX}/usr" \
 		--libdir="${EPREFIX}/usr/$(get_libdir)" \
 		--shlibdir="${EPREFIX}/usr/$(get_libdir)" \
@@ -84,5 +85,5 @@ src_configure() {
 		--optflags="${CFLAGS}" \
 		--extra-cflags="${CFLAGS}" \
 		$(use_enable static-libs static) \
-		${myconf} || die
+		"${myconf[@]}" || die
 }

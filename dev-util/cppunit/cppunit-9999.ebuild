@@ -1,12 +1,12 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/cppunit/cppunit-9999.ebuild,v 1.6 2013/11/15 09:16:19 scarabeus Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-util/cppunit/cppunit-9999.ebuild,v 1.7 2014/06/07 11:53:44 mgorny Exp $
 
 EAPI=5
 
 EGIT_REPO_URI="git://anongit.freedesktop.org/libreoffice/cppunit"
-[[ ${PV} = 9999 ]] && inherit git-2 autotools
-inherit eutils flag-o-matic
+[[ ${PV} = 9999 ]] && inherit git-r3 autotools
+inherit eutils flag-o-matic multilib-minimal
 
 DESCRIPTION="C++ port of the famous JUnit framework for unit testing"
 HOMEPAGE="http://www.freedesktop.org/wiki/Software/cppunit"
@@ -29,6 +29,10 @@ DEPEND="${RDEPEND}
 DOCS=( AUTHORS BUGS NEWS README THANKS TODO doc/FAQ )
 [[ ${PV} = 9999 ]] || DOCS+=( ChangeLog )
 
+MULTILIB_CHOST_TOOLS=(
+	/usr/bin/cppunit-config
+)
+
 src_prepare() {
 	[[ ${PV} = 9999 ]] && eautoreconf
 }
@@ -37,18 +41,21 @@ src_configure() {
 	# Anything else than -O0 breaks on alpha
 	use alpha && replace-flags "-O?" -O0
 
+	multilib-minimal_src_configure
+}
+
+multilib_src_configure() {
+	ECONF_SOURCE=${S} \
 	econf \
 		$(use_enable static-libs static) \
-		$(use_enable doc doxygen) \
-		$(use_enable doc dot) \
+		$(multilib_native_use_enable doc doxygen) \
+		$(multilib_native_use_enable doc dot) \
 		--docdir="${EPREFIX}"/usr/share/doc/${PF} \
 		--htmldir="${EPREFIX}"/usr/share/doc/${PF}/html \
 		--disable-silent-rules
 }
 
-src_install() {
-	default
-
+multilib_src_install_all() {
 	prune_libtool_files --all
 
 	if use examples ; then
