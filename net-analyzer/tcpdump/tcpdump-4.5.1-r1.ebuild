@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/tcpdump/tcpdump-4.5.1-r1.ebuild,v 1.3 2014/05/29 12:34:00 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/tcpdump/tcpdump-4.5.1-r1.ebuild,v 1.5 2014/06/08 12:07:28 jer Exp $
 
 EAPI=5
 
@@ -14,7 +14,7 @@ SRC_URI="http://www.tcpdump.org/release/${P}.tar.gz
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~arm-linux ~x86-linux"
+KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~arm-linux ~x86-linux"
 IUSE="+drop-root smi ssl ipv6 -samba suid test"
 
 RDEPEND="
@@ -79,7 +79,7 @@ src_configure() {
 
 src_test() {
 	if [[ ${EUID} -ne 0 ]] || ! use drop-root; then
-		sed -i '/^\(espudp1\|eapon1\)/d;' -i tests/TESTLIST
+		sed -i -e '/^\(espudp1\|eapon1\)/d;' tests/TESTLIST || die
 		emake check
 	else
 		ewarn "If you want to run the test suite, make sure you either"
