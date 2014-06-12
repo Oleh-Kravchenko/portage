@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15778 2014/06/10 21:56:25 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15784 2014/06/11 21:24:55 mgorny Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -102,6 +102,7 @@ dev-java/ibm-jdk-bin:1.5
 >=media-libs/libofa-0.9.3-r1
 >=app-emulation/emul-linux-x86-medialibs-20140508-r3
 >=media-video/libav-9.13-r1
+>=media-video/ffmpeg-2.2.3-r1
 >=virtual/ffmpeg-9-r1
 >=media-libs/libpostproc-10.20140517-r1
 >=app-emulation/emul-linux-x86-medialibs-20140508-r4
@@ -246,6 +247,12 @@ dev-java/ibm-jdk-bin:1.5
 >=media-plugins/gst-plugins-xvid-0.10.23-r1:0.10
 >=media-plugins/gst-plugins-xvideo-0.10.36-r1:0.10
 >=app-emulation/emul-linux-x86-gstplugins-20140508-r1
+=net-fs/samba-3.6.23-r1
+>=gnome-base/gconf-3.2.6-r3
+>=gnome-base/gnome-vfs-2.24.4-r2
+>=media-plugins/gst-plugins-gconf-0.10.31-r1
+>=media-plugins/gst-plugins-gnomevfs-0.10.36-r1
+>=app-emulation/emul-linux-x86-gtklibs-20140508-r2
 
 # Vladimir Smirnov <civil@gentoo.org> (27 May 2014)
 # Masked for testing, will defenitely cause major breakage
