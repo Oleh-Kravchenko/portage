@@ -1,6 +1,29 @@
 # ChangeLog for www-client/chromium
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/chromium/ChangeLog,v 1.1089 2014/06/09 15:16:47 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/chromium/ChangeLog,v 1.1094 2014/06/12 14:14:56 floppym Exp $
+
+  12 Jun 2014; Mike Gilbert <floppym@gentoo.org>
+  -chromium-35.0.1916.114-r1.ebuild:
+  Remove old.
+
+  12 Jun 2014; Agostino Sarubbo <ago@gentoo.org> chromium-35.0.1916.153.ebuild:
+  Stable for x86, wrt bug #512944
+
+  12 Jun 2014; Agostino Sarubbo <ago@gentoo.org> chromium-35.0.1916.153.ebuild:
+  Stable for amd64, wrt bug #512944
+
+*chromium-37.0.2041.4 (12 Jun 2014)
+
+  12 Jun 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  +chromium-37.0.2041.4.ebuild, +files/chromium-ffmpeg-r1.patch,
+  -chromium-37.0.2017.2.ebuild, metadata.xml:
+  Dev channel bump. Add pic USE flag to build libffmpegsumo.so without text
+  relocations on x86 (bug #493670 by ago). Remove old.
+
+*chromium-35.0.1916.153 (12 Jun 2014)
+
+  12 Jun 2014; Mike Gilbert <floppym@gentoo.org> +chromium-35.0.1916.153.ebuild:
+  Stable channel bump.
 
   09 Jun 2014; Mike Gilbert <floppym@gentoo.org> -chromium-36.0.1985.18.ebuild:
   Remove old.
