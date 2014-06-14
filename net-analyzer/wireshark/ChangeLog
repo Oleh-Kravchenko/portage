@@ -1,6 +1,33 @@
 # ChangeLog for net-analyzer/wireshark
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/wireshark/ChangeLog,v 1.615 2014/05/17 15:23:53 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/wireshark/ChangeLog,v 1.622 2014/06/13 21:45:30 ago Exp $
+
+  13 Jun 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.8.ebuild,
+  wireshark-1.8.15.ebuild:
+  Stable for x86, wrt bug #513094
+
+  13 Jun 2014; Agostino Sarubbo <ago@gentoo.org> wireshark-1.10.8.ebuild,
+  wireshark-1.8.15.ebuild:
+  Stable for amd64, wrt bug #513094
+
+  13 Jun 2014; Jeroen Roovers <jer@gentoo.org> wireshark-1.8.15.ebuild:
+  Stable for HPPA (bug #513094).
+
+  13 Jun 2014; Jeroen Roovers <jer@gentoo.org> wireshark-1.10.8.ebuild:
+  Stable for HPPA (bug #513094).
+
+  13 Jun 2014; Jeroen Roovers <jer@gentoo.org> wireshark-1.8.15.ebuild:
+  Add mailing list announcement URL, too.
+
+  13 Jun 2014; Jeroen Roovers <jer@gentoo.org> wireshark-1.8.15.ebuild:
+  Add deprecation notice to the last 1.8 branch ebuild.
+
+*wireshark-1.10.8 (13 Jun 2014)
+*wireshark-1.8.15 (13 Jun 2014)
+
+  13 Jun 2014; Jeroen Roovers <jer@gentoo.org> -wireshark-1.8.14.ebuild,
+  +wireshark-1.8.15.ebuild, +wireshark-1.10.8.ebuild:
+  Version bump (bug #513094).
 
   17 May 2014; Jeroen Roovers <jer@gentoo.org> -wireshark-1.10.6.ebuild:
   Old.

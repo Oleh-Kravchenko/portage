@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15786 2014/06/12 21:47:11 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15794 2014/06/13 19:15:54 hanno Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,10 +30,22 @@
 
 #--- END OF EXAMPLES ---
 
+# Ian Stakenvicius <axs@gentoo.org> (13 Jun 2014)
+# New multilib conversions. Will unmask after some testing and appropriate
+# de-integration from emul-linux-x86 packages
+=dev-libs/nspr-4.10.6-r1
+
+# Mike Gilbert <floppym@gentoo.org> (13 Jun 2014)
+# Masked due to security bug 499870.
+# Please migrate to net-misc/libreswan.
+# If you are a Gentoo developer, feel free to pick up maintenence of openswan
+# and remove this mask after resolving the security issue.
+net-misc/openswan
+
 # Mike Gilbert <floppym@gentoo.org> (10 Jun 2014)
 # Masked due to pending dev-python/imaging removal, bug 471488.
 media-sound/decibel-audio-player
-net-im/pymsn-t
+=net-im/pymsn-t-0.11.3-r3
 sci-physics/camfr
 
 # Tom Wijsman <TomWij@gentoo.org> (8 Jun 2014)
@@ -97,24 +109,6 @@ dev-java/ibm-jdk-bin:1.5
 # Michał Górny <mgorny@gentoo.org> (29 May 2014)
 # New multilib conversions. Unmask along with corresponding
 # emul-linux-x86 packages, and make sure they're committed first :).
->=media-libs/taglib-1.9.1-r1
->=media-libs/libofa-0.9.3-r1
->=app-emulation/emul-linux-x86-medialibs-20140508-r3
->=media-video/libav-9.13-r1
->=media-video/ffmpeg-2.2.3-r1
->=virtual/ffmpeg-9-r1
->=media-libs/libpostproc-10.20140517-r1
->=app-emulation/emul-linux-x86-medialibs-20140508-r4
->=net-libs/libsoup-2.46.0-r1
->=net-libs/neon-0.30.0-r1
->=app-emulation/emul-linux-x86-baselibs-20140508-r9
->=net-libs/gssdp-0.14.8-r1
->=net-libs/gupnp-0.20.12-r1
->=net-libs/gupnp-igd-0.2.3-r1
->=net-libs/libnice-0.1.4-r1
->=media-libs/libquicktime-1.2.4-r1
->=media-video/mjpegtools-2.1.0-r2
->=app-emulation/emul-linux-x86-medialibs-20140508-r5
 >=media-libs/gstreamer-0.10.36-r1:0.10
 >=media-libs/gstreamer-1.2.4-r1:1.0
 >=media-libs/gst-plugins-base-0.10.36-r1:0.10
@@ -154,10 +148,12 @@ dev-java/ibm-jdk-bin:1.5
 >=media-plugins/gst-plugins-ffmpeg-0.10.13_p201211-r2:0.10
 >=media-plugins/gst-plugins-flac-0.10.31-r1:0.10
 >=media-plugins/gst-plugins-flac-1.2.4-r1:1.0
+>=media-plugins/gst-plugins-gconf-0.10.31-r1
 >=media-plugins/gst-plugins-gdkpixbuf-0.10.31-r1:0.10
 >=media-plugins/gst-plugins-gdkpixbuf-1.2.4-r1:1.0
 >=media-plugins/gst-plugins-gio-0.10.36-r1:0.10
 >=media-plugins/gst-plugins-gl-0.10.3-r1
+>=media-plugins/gst-plugins-gnomevfs-0.10.36-r1
 >=media-plugins/gst-plugins-gsm-0.10.23-r1:0.10
 >=media-plugins/gst-plugins-hls-1.2.4-r1:1.0
 >=media-plugins/gst-plugins-ivorbis-0.10.36-r1:0.10
@@ -246,12 +242,6 @@ dev-java/ibm-jdk-bin:1.5
 >=media-plugins/gst-plugins-xvid-0.10.23-r1:0.10
 >=media-plugins/gst-plugins-xvideo-0.10.36-r1:0.10
 >=app-emulation/emul-linux-x86-gstplugins-20140508-r1
-=net-fs/samba-3.6.23-r1
->=gnome-base/gconf-3.2.6-r3
->=gnome-base/gnome-vfs-2.24.4-r2
->=media-plugins/gst-plugins-gconf-0.10.31-r1
->=media-plugins/gst-plugins-gnomevfs-0.10.36-r1
->=app-emulation/emul-linux-x86-gtklibs-20140508-r2
 
 # Vladimir Smirnov <civil@gentoo.org> (27 May 2014)
 # Masked for testing, will defenitely cause major breakage
@@ -366,11 +356,6 @@ net-wireless/mate-bluetooth
 # Use app-emulation/qemu instead.  It has USE=static-user to support building
 # static user helpers.  See #508098 for more info. Removal in a month
 app-emulation/qemu-user
-
-# Eray Aslan <eras@gentoo.org> (26 Apr 2014)
-# Non-functional and no longer needed - bug #450116
-# Removal in 30 days
-net-mail/fetchyahoo
 
 # Michał Górny <mgorny@gentoo.org> (26 Apr 2014)
 # (on behalf of Python team)
@@ -504,12 +489,6 @@ lxde-base/lxpolkit
 # me know such that we can continue to keep it around. Guess nobody even still
 # uses this package either, but that's for another day...
 =dev-java/jikes-1.22-r1
-
-# Eray Aslan <eras@gentoo.org> (17 Feb 2014)
-# Security mask - bug #492494 until
-# mail-filter/dovecot-antispam is punted/fixed
-=net-mail/dovecot-2.0*
-=net-mail/dovecot-2.1*
 
 # Tim Harder <radhermit@gentoo.org> (04 Feb 2014)
 # Masked for testing

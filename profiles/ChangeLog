@@ -1,10 +1,34 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9073 2014/06/12 21:47:11 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9081 2014/06/13 19:15:54 hanno Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  13 Jun 2014; Hanno Boeck <hanno@gentoo.org> package.mask:
+  Restrict pymsn-t mask to old version without pillow fix.
+
+  13 Jun 2014; Ulrich Müller <ulm@gentoo.org> license_groups:
+  Add Transmission-OpenSSL-exception license exception to GPL-COMPATIBLE group.
+
+  13 Jun 2014; Ian Stakenvicius (_AxS_) <axs@gentoo.org> package.mask:
+  added multilib-converted nspr to package.mask for testing
+
+  13 Jun 2014; Eray Aslan <eras@gentoo.org> package.mask:
+  net-mail/fetchyahoo punted from the tree - bug #450116
+
+  13 Jun 2014; Eray Aslan <eras@gentoo.org> package.mask:
+  net-mail/dovecot-2.{0,1} no longer in the tree
+
+  13 Jun 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Restore mask on gst-plugins-{gconf,gnomevfs}.
+
+  13 Jun 2014; Mike Gilbert <floppym@gentoo.org> package.mask:
+  Mask net-misc/openswan.
+
+  13 Jun 2014; Michał Górny <mgorny@gentoo.org> package.mask:
+  Unmask non-gstreamer multilib packages.
 
   12 Jun 2014; Michał Górny <mgorny@gentoo.org> package.mask:
   Update slotted lua p.mask for multilib versions.
