@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/flag-o-matic.eclass,v 1.197 2014/02/02 22:26:13 tommy Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/flag-o-matic.eclass,v 1.199 2014/06/14 07:34:59 rhill Exp $
 
 # @ECLASS: flag-o-matic.eclass
 # @MAINTAINER:
@@ -24,17 +24,17 @@ all-flag-vars() {
 # Note: shell globs and character lists are allowed
 setup-allowed-flags() {
 	ALLOWED_FLAGS="-pipe"
-	ALLOWED_FLAGS+=" -O -O1 -O2 -Os -mcpu -march -mtune"
-	ALLOWED_FLAGS+=" -fstack-protector -fstack-protector-all"
+	ALLOWED_FLAGS+=" -O -O1 -O2 -Os -Og -mcpu -march -mtune"
+	ALLOWED_FLAGS+=" -fstack-protector*"
 	ALLOWED_FLAGS+=" -fbounds-checking -fno-strict-overflow"
 	ALLOWED_FLAGS+=" -fno-PIE -fno-pie -fno-unit-at-a-time"
-	ALLOWED_FLAGS+=" -g -g[0-9] -ggdb -ggdb[0-9] -gstabs -gstabs+"
+	ALLOWED_FLAGS+=" -g -g[0-9] -ggdb -ggdb[0-9] -gdwarf-* gstabs -gstabs+"
 	ALLOWED_FLAGS+=" -fno-ident -fpermissive -frecord-gcc-switches"
 	ALLOWED_FLAGS+=" -fdiagnostics*"
 	ALLOWED_FLAGS+=" -W* -w"
 
 	# allow a bunch of flags that negate features / control ABI
-	ALLOWED_FLAGS+=" -fno-stack-protector -fno-stack-protector-all \
+	ALLOWED_FLAGS+=" -fno-stack-protector* -fabi-version=* \
 		-fno-strict-aliasing -fno-bounds-checking -fstrict-overflow \
 		-fno-omit-frame-pointer -fno-builtin*"
 	ALLOWED_FLAGS+=" -mregparm -mno-app-regs -mapp-regs -mno-mmx -mno-sse \
@@ -611,6 +611,10 @@ append-libs() {
 	[[ $# -eq 0 ]] && return 0
 	local flag
 	for flag in "$@"; do
+		if [[ -z "${flag// }" ]]; then
+			eqawarn "Appending an empty argument to LIBS is invalid! Skipping."
+			continue
+		fi
 		case $flag in
 			-[lL]*) 
 				export LIBS="${LIBS} ${flag}"

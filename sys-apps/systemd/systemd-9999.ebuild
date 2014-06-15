@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-9999.ebuild,v 1.114 2014/06/11 15:13:06 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-9999.ebuild,v 1.115 2014/06/14 16:33:20 floppym Exp $
 
 EAPI=5
 
@@ -27,7 +27,7 @@ SLOT="0/2"
 KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86"
 IUSE="acl audit cryptsetup doc +firmware-loader gcrypt gudev http introspection
 	kdbus +kmod lzma pam policykit python qrcode +seccomp selinux ssl
-	test vanilla xattr"
+	test vanilla"
 
 MINKV="3.10"
 
@@ -50,7 +50,6 @@ COMMON_DEPEND=">=sys-apps/util-linux-2.20:0=
 	qrcode? ( media-gfx/qrencode:0= )
 	seccomp? ( sys-libs/libseccomp:0= )
 	selinux? ( sys-libs/libselinux:0= )
-	xattr? ( sys-apps/attr:0= )
 	abi_x86_32? ( !<=app-emulation/emul-linux-x86-baselibs-20130224-r9
 		!app-emulation/emul-linux-x86-baselibs[-abi_x86_32(-)] )"
 
@@ -117,12 +116,11 @@ src_prepare() {
 pkg_pretend() {
 	local CONFIG_CHECK="~AUTOFS4_FS ~BLK_DEV_BSG ~CGROUPS ~DEVTMPFS ~DMIID
 		~EPOLL ~FANOTIFY ~FHANDLE ~INOTIFY_USER ~IPV6 ~NET ~NET_NS ~PROC_FS
-		~SECCOMP ~SIGNALFD ~SYSFS ~TIMERFD
+		~SECCOMP ~SIGNALFD ~SYSFS ~TIMERFD ~TMPFS_XATTR
 		~!IDE ~!SYSFS_DEPRECATED ~!SYSFS_DEPRECATED_V2
 		~!GRKERNSEC_PROC"
 
 	use acl && CONFIG_CHECK+=" ~TMPFS_POSIX_ACL"
-	use xattr && CONFIG_CHECK+=" ~TMPFS_XATTR"
 	kernel_is -lt 3 7 && CONFIG_CHECK+=" ~HOTPLUG"
 	use firmware-loader || CONFIG_CHECK+=" ~!FW_LOADER_USER_HELPER"
 
@@ -212,7 +210,6 @@ multilib_src_configure() {
 		$(use_enable seccomp)
 		$(use_enable selinux)
 		$(use_enable test tests)
-		$(use_enable xattr)
 
 		# not supported (avoid automagic deps in the future)
 		--disable-chkconfig
@@ -268,7 +265,6 @@ multilib_src_configure() {
 			--disable-selinux
 			--disable-timesyncd
 			--disable-tests
-			--disable-xattr
 			--disable-xz
 			--disable-python-devel
 		)
@@ -432,15 +428,18 @@ migrate_net_name_slot() {
 }
 
 pkg_postinst() {
+	newusergroup() {
+		enewgroup "$1"
+		enewuser "$1" -1 -1 -1 "$1"
+	}
+
 	enewgroup systemd-journal
-	enewgroup systemd-network
-	enewuser systemd-network -1 -1 -1 systemd-network
-	enewgroup systemd-timesync
-	enewuser systemd-timesync -1 -1 -1 systemd-timesync
-	if use http; then
-		enewgroup systemd-journal-gateway
-		enewuser systemd-journal-gateway -1 -1 -1 systemd-journal-gateway
-	fi
+	newusergroup systemd-bus-proxy
+	newusergroup systemd-network
+	newusergroup systemd-resolve
+	newusergroup systemd-timesync
+	use http && newusergroup systemd-journal-gateway
+
 	systemd_update_catalog
 
 	# Keep this here in case the database format changes so it gets updated

@@ -1,6 +1,20 @@
 # ChangeLog for media-video/ffmpeg
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/ffmpeg/ChangeLog,v 1.748 2014/06/12 14:14:17 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/ffmpeg/ChangeLog,v 1.751 2014/06/14 09:49:09 aballier Exp $
+
+*ffmpeg-0.10.13 (14 Jun 2014)
+
+  14 Jun 2014; Alexis Ballier <aballier@gentoo.org> +ffmpeg-0.10.13.ebuild:
+  bump the 0.10 slot
+
+*ffmpeg-1.2.6-r1 (14 Jun 2014)
+
+  14 Jun 2014; Michał Górny <mgorny@gentoo.org> +ffmpeg-1.2.6-r1.ebuild:
+  Backport the multilib support to the version having wider keywords, pointed
+  out by Arfrever.
+
+  14 Jun 2014; Mike Gilbert <floppym@gentoo.org> ffmpeg-2.2.3-r1.ebuild:
+  Add ~x86 keyword, tested by Arfrever.
 
   12 Jun 2014; Michał Górny <mgorny@gentoo.org> ffmpeg-2.2.3-r1.ebuild,
   ffmpeg-9999.ebuild:

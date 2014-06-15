@@ -1,6 +1,12 @@
 # ChangeLog for net-analyzer/fping
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/fping/ChangeLog,v 1.59 2014/05/06 15:59:37 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/fping/ChangeLog,v 1.61 2014/06/14 10:51:54 armin76 Exp $
+
+  14 Jun 2014; Raúl Porcel <armin76@gentoo.org> fping-3.9.ebuild:
+  alpha/ia64/sparc stable wrt #507966
+
+  14 Jun 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> fping-3.9.ebuild:
+  x86 stable wrt bug #507966
 
   06 May 2014; Jeroen Roovers <jer@gentoo.org> fping-3.9.ebuild:
   Stable for HPPA (bug #507966).
