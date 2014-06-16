@@ -1,6 +1,11 @@
 # ChangeLog for kde-base/pykde4
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/kde-base/pykde4/ChangeLog,v 1.285 2014/05/13 17:43:05 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/kde-base/pykde4/ChangeLog,v 1.289 2014/06/15 18:04:55 kensington Exp $
+
+*pykde4-4.13.2 (15 Jun 2014)
+
+  15 Jun 2014; Michael Palimaka <kensington@gentoo.org> +pykde4-4.13.2.ebuild:
+  Version bump KDE SC 4.13.2
 
 *pykde4-4.13.1 (13 May 2014)
 

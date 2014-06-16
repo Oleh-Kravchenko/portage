@@ -1,6 +1,27 @@
 # ChangeLog for app-emulation/emul-linux-x86-baselibs
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-baselibs/ChangeLog,v 1.221 2014/06/14 08:49:48 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/emul-linux-x86-baselibs/ChangeLog,v 1.224 2014/06/15 18:48:06 mgorny Exp $
+
+  15 Jun 2014; Michał Górny <mgorny@gentoo.org>
+  emul-linux-x86-baselibs-20140508-r10.ebuild,
+  emul-linux-x86-baselibs-20140508-r11.ebuild,
+  emul-linux-x86-baselibs-20140508-r9.ebuild:
+  Enable all USE flags by default to avoid missing deps.
+
+*emul-linux-x86-baselibs-20140508-r11 (15 Jun 2014)
+
+  15 Jun 2014; Michał Górny <mgorny@gentoo.org>
+  +emul-linux-x86-baselibs-20140508-r11.ebuild,
+  +files/remove-native-20140508-r11:
+  Add multilib curl.
+
+  15 Jun 2014; Michał Górny <mgorny@gentoo.org>
+  -emul-linux-x86-baselibs-20140508-r6.ebuild,
+  -emul-linux-x86-baselibs-20140508-r7.ebuild,
+  -emul-linux-x86-baselibs-20140508-r8.ebuild,
+  emul-linux-x86-baselibs-20140508-r10.ebuild,
+  emul-linux-x86-baselibs-20140508-r9.ebuild:
+  Add USE=kerberos,ldap,pam wrt bug #513298. Drop old.
 
 *emul-linux-x86-baselibs-20140508-r10 (14 Jun 2014)
 
