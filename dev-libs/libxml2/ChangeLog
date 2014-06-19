@@ -1,6 +1,14 @@
 # ChangeLog for dev-libs/libxml2
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/libxml2/ChangeLog,v 1.423 2014/06/08 10:51:37 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libxml2/ChangeLog,v 1.425 2014/06/18 19:16:47 mgorny Exp $
+
+  18 Jun 2014; Michał Górny <mgorny@gentoo.org> libxml2-2.9.1-r4.ebuild:
+  Update dependencies to require guaranteed EAPI=5 or multilib ebuilds, bug
+  #513718.
+
+  18 Jun 2014; Alexandre Rostovtsev <tetromino@gentoo.org>
+  -libxml2-2.9.1-r1.ebuild, -libxml2-2.9.1-r2.ebuild, -libxml2-2.9.1-r3.ebuild:
+  Punt old and vulnerable versions.
 
   08 Jun 2014; Agostino Sarubbo <ago@gentoo.org> libxml2-2.9.1-r4.ebuild:
   Stable for sparc, wrt bug #509834
