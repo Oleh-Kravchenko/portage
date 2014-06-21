@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/eudev/eudev-9999.ebuild,v 1.53 2014/06/18 20:48:41 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/eudev/eudev-9999.ebuild,v 1.54 2014/06/20 00:21:06 blueness Exp $
 
 EAPI="5"
 
@@ -155,8 +155,16 @@ multilib_src_configure() {
 			$(use_enable selinux)
 			$(use_enable rule-generator)
 		)
-	else econf_args+=(
-		$(echo --disable-{gtk-doc,introspection,keymap,libkmod,modules,static,selinux,rule-generator})
+	else
+		econf_args+=(
+			--disable-static
+			--disable-gtk-doc
+			--disable-introspection
+			--disable-keymap
+			--disable-libkmod
+			--disable-modules
+			--disable-selinux
+			--disable-rule-generator
 		)
 	fi
 	ECONF_SOURCE="${S}" econf "${econf_args[@]}"
