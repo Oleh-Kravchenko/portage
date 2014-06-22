@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/phonon/phonon-9999.ebuild,v 1.22 2014/05/27 11:21:03 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/phonon/phonon-9999.ebuild,v 1.23 2014/06/21 15:36:48 kensington Exp $
 
 EAPI=5
 
@@ -22,7 +22,13 @@ LICENSE="LGPL-2.1"
 SLOT="0"
 IUSE="aqua debug designer +gstreamer pulseaudio +qt4 qt5 vlc zeitgeist"
 
-COMMON_DEPEND="
+REQUIRED_USE="
+	|| ( aqua gstreamer vlc )
+	|| ( qt4 qt5 )
+	zeitgeist? ( qt4 )
+"
+
+RDEPEND="
 	!!dev-qt/qtphonon:4
 	qt4? (
 		dev-qt/qtcore:4
@@ -33,9 +39,7 @@ COMMON_DEPEND="
 	qt5? (
 		dev-qt/qtcore:5
 		dev-qt/qtdbus:5
-		dev-qt/qtdeclarative:5
 		dev-qt/qtgui:5
-		dev-qt/qtopengl:5
 		dev-qt/qtwidgets:5
 		designer? ( dev-qt/designer:5 )
 	)
@@ -45,21 +49,14 @@ COMMON_DEPEND="
 	)
 	zeitgeist? ( dev-libs/libqzeitgeist )
 "
+DEPEND="${RDEPEND}
+	qt4? ( >=dev-util/automoc-0.9.87 )
+	virtual/pkgconfig
+"
 PDEPEND="
 	aqua? ( media-libs/phonon-qt7 )
 	gstreamer? ( >=media-libs/phonon-gstreamer-4.7.0[qt4?,qt5?] )
 	vlc? ( >=media-libs/phonon-vlc-0.7.0[qt4?,qt5?] )
-"
-RDEPEND="${COMMON_DEPEND}"
-DEPEND="${COMMON_DEPEND}
-	qt4? ( >=dev-util/automoc-0.9.87 )
-	virtual/pkgconfig
-"
-
-REQUIRED_USE="
-	|| ( aqua gstreamer vlc )
-	|| ( qt4 qt5 )
-	zeitgeist? ( qt4 )
 "
 
 PATCHES=( "${FILESDIR}/${PN}-4.7.0-plugin-install.patch" )
