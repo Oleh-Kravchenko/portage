@@ -1,6 +1,15 @@
 # ChangeLog for media-libs/oyranos
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/oyranos/ChangeLog,v 1.22 2014/06/18 19:52:22 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/oyranos/ChangeLog,v 1.24 2014/06/22 20:51:53 mgorny Exp $
+
+  22 Jun 2014; Michał Górny <mgorny@gentoo.org> oyranos-0.9.4-r2.ebuild:
+  Fix doc install.
+
+*oyranos-0.9.4-r2 (22 Jun 2014)
+
+  22 Jun 2014; Michał Górny <mgorny@gentoo.org> +oyranos-0.9.4-r2.ebuild,
+  oyranos-9999.ebuild:
+  Fix dependencies and the multilib support code.
 
   18 Jun 2014; Michał Górny <mgorny@gentoo.org> oyranos-0.9.4-r1.ebuild:
   Update dependencies to require guaranteed EAPI=5 or multilib ebuilds, bug
