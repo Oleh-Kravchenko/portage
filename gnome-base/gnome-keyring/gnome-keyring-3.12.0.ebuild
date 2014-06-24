@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-keyring/gnome-keyring-3.12.0.ebuild,v 1.1 2014/04/27 16:53:02 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-keyring/gnome-keyring-3.12.0.ebuild,v 1.2 2014/06/23 04:06:56 tetromino Exp $
 
 EAPI="5"
 GCONF_DEBUG="yes" # Not gnome macro but similar
@@ -34,7 +34,6 @@ DEPEND="${RDEPEND}
 	sys-devel/gettext
 	virtual/pkgconfig
 "
-PDEPEND=">=gnome-base/libgnome-keyring-3.1.92"
 
 pkg_setup() {
 	python-any-r1_pkg_setup

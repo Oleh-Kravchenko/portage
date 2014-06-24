@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/abi-compliance-checker/abi-compliance-checker-9999.ebuild,v 1.2 2013/10/14 21:05:29 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-util/abi-compliance-checker/abi-compliance-checker-9999.ebuild,v 1.3 2014/06/23 16:30:58 mgorny Exp $
 
 EAPI=5
 
@@ -13,7 +13,7 @@ inherit git-r3
 
 DESCRIPTION="A tool for checking backward compatibility of a C/C++ library"
 HOMEPAGE="http://ispras.linuxbase.org/index.php/ABI_compliance_checker"
-SRC_URI="mirror://github/lvc/${PN}/${P}.tar.gz"
+SRC_URI="https://github.com/lvc/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"

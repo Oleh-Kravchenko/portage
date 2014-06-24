@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/hgdistver/hgdistver-0.16-r1.ebuild,v 1.9 2014/06/08 11:08:24 hattya Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/hgdistver/hgdistver-0.16-r1.ebuild,v 1.10 2014/06/23 02:36:02 idella4 Exp $
 
 EAPI=5
 PYTHON_COMPAT=( python{2_6,2_7,3_2,3_3} pypy pypy2_0 )
@@ -22,5 +22,5 @@ RDEPEND=""
 
 python_test() {
 	# https://bitbucket.org/RonnyPfannschmidt/hgdistver/issue/9/test-failures; train wreck
-	nosetests || die "Tests failed under ${EPYTHON}"
+	py.test || die "Tests failed under ${EPYTHON}"
 }
