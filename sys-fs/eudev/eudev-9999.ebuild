@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/eudev/eudev-9999.ebuild,v 1.54 2014/06/20 00:21:06 blueness Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/eudev/eudev-9999.ebuild,v 1.56 2014/06/24 22:17:02 mgorny Exp $
 
 EAPI="5"
 
@@ -24,7 +24,7 @@ SLOT="0"
 IUSE="doc gudev +hwdb kmod introspection +keymap +modutils +openrc +rule-generator selinux static-libs test"
 
 COMMON_DEPEND=">=sys-apps/util-linux-2.20
-	gudev? ( >=dev-libs/glib-2.38.2-r1:2[${MULTILIB_USEDEP}] )
+	gudev? ( >=dev-libs/glib-2.34.3:2[${MULTILIB_USEDEP}] )
 	introspection? ( >=dev-libs/gobject-introspection-1.31.1 )
 	kmod? ( >=sys-apps/kmod-16 )
 	selinux? ( >=sys-libs/libselinux-2.1.9 )
@@ -133,6 +133,7 @@ multilib_src_configure() {
 		--with-rootprefix=
 		--docdir=/usr/share/doc/${PF}
 		--libdir=/usr/$(get_libdir)
+		--with-rootlibexecdir=/lib/udev
 		--with-firmware-path="${EPREFIX}usr/lib/firmware/updates:${EPREFIX}usr/lib/firmware:${EPREFIX}lib/firmware/updates:${EPREFIX}lib/firmware"
 		--with-html-dir="/usr/share/doc/${PF}/html"
 		--enable-split-usr

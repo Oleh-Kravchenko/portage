@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/mail-filter/amavisd-new/amavisd-new-2.8.1-r1.ebuild,v 1.3 2014/02/15 23:50:32 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/mail-filter/amavisd-new/amavisd-new-2.8.1-r1.ebuild,v 1.5 2014/06/24 02:08:52 jer Exp $
 
 EAPI=4
 inherit eutils systemd user
@@ -12,7 +12,7 @@ SRC_URI="http://www.ijs.si/software/amavisd/${MY_P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 hppa ~ppc ~ppc64 ~x86"
 IUSE="clamav courier dkim ldap mysql postgres qmail razor snmp spamassassin zmq"
 
 DEPEND=">=sys-apps/sed-4
@@ -117,7 +117,7 @@ src_install() {
 
 	systemd_dounit "${FILESDIR}/amavisd.service"
 	use clamav || sed -i -e '/Wants=clamd/d' "${ED}"/usr/lib/systemd/system/amavisd.service
-	use spamassasin || sed -i -e '/Wants=spamassasin/d' "${ED}"/usr/lib/systemd/system/amavisd.service
+	use spamassassin || sed -i -e '/Wants=spamassassin/d' "${ED}"/usr/lib/systemd/system/amavisd.service
 
 	keepdir "${AMAVIS_ROOT}"
 	keepdir "${AMAVIS_ROOT}/db"

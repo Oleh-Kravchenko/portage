@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/genkernel/genkernel-9999.ebuild,v 1.51 2014/06/21 15:32:58 ryao Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/genkernel/genkernel-9999.ebuild,v 1.52 2014/06/23 23:56:51 robbat2 Exp $
 
 # genkernel-9999        -> latest Git branch "master"
 # genkernel-VERSION     -> normal genkernel release
@@ -123,18 +123,17 @@ src_install() {
 		cp "${S}"/arch/ppc64/kernel-2.6.g5 "${S}"/arch/ppc64/kernel-2.6
 
 	# Copy files to /var/cache/genkernel/src
-	elog "Copying files to /var/cache/genkernel/src..."
-	mkdir -p "${D}"/var/cache/genkernel/src
-	cp -f \
-		"${DISTDIR}"/mdadm-${VERSION_MDADM}.tar.bz2 \
-		"${DISTDIR}"/dmraid-${VERSION_DMRAID}.tar.bz2 \
-		"${DISTDIR}"/LVM2.${VERSION_LVM}.tgz \
-		"${DISTDIR}"/busybox-${VERSION_BUSYBOX}.tar.bz2 \
-		"${DISTDIR}"/fuse-${VERSION_FUSE}.tar.gz \
-		"${DISTDIR}"/unionfs-fuse-${VERSION_UNIONFS_FUSE}.tar.bz2 \
-		"${DISTDIR}"/gnupg-${VERSION_GPG}.tar.bz2 \
-		"${DISTDIR}"/open-iscsi-${VERSION_ISCSI}.tar.gz \
-		"${D}"/var/cache/genkernel/src || die "Copying distfiles..."
+	GKDISTDIR=/usr/share/genkernel/distfiles/
+	elog "Copying files to ${GKDISTDIR}..."
+	insinto $GKDISTDIR
+	doins "${DISTDIR}"/mdadm-${VERSION_MDADM}.tar.bz2
+	doins "${DISTDIR}"/dmraid-${VERSION_DMRAID}.tar.bz2
+	doins "${DISTDIR}"/LVM2.${VERSION_LVM}.tgz
+	doins "${DISTDIR}"/busybox-${VERSION_BUSYBOX}.tar.bz2
+	doins "${DISTDIR}"/fuse-${VERSION_FUSE}.tar.gz
+	doins "${DISTDIR}"/unionfs-fuse-${VERSION_UNIONFS_FUSE}.tar.bz2
+	doins "${DISTDIR}"/gnupg-${VERSION_GPG}.tar.bz2
+	doins "${DISTDIR}"/open-iscsi-${VERSION_ISCSI}.tar.gz
 
 	newbashcomp "${FILESDIR}"/genkernel.bash "${PN}"
 	insinto /etc
