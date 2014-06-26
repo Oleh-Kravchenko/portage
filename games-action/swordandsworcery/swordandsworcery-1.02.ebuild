@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/games-action/swordandsworcery/swordandsworcery-1.02.ebuild,v 1.4 2014/05/15 16:25:05 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-action/swordandsworcery/swordandsworcery-1.02.ebuild,v 1.6 2014/06/25 13:46:19 mgorny Exp $
 
 # TODO: unbundle liblua-5.1 when available for multilib
 
@@ -26,11 +26,54 @@ QA_PREBUILT="${MYGAMEDIR#/}/bin/*
 RDEPEND="
 	virtual/opengl
 	amd64? (
-		app-emulation/emul-linux-x86-baselibs
-		app-emulation/emul-linux-x86-opengl
-		app-emulation/emul-linux-x86-sdl
-		app-emulation/emul-linux-x86-soundlibs[alsa]
-		app-emulation/emul-linux-x86-xlibs
+		|| (
+			app-emulation/emul-linux-x86-baselibs[-abi_x86_32(-)]
+			(
+				>=dev-libs/openssl-1.0.1h-r2[abi_x86_32(-)]
+				>=sys-libs/zlib-1.2.8-r1[abi_x86_32(-)]
+				!bundled-libs? (
+					>=net-misc/curl-7.36.0[abi_x86_32(-)]
+				)
+			)
+		)
+		|| (
+			app-emulation/emul-linux-x86-opengl[-abi_x86_32(-)]
+			(
+				>=virtual/glu-9.0-r1[abi_x86_32(-)]
+				>=virtual/opengl-7.0-r1[abi_x86_32(-)]
+			)
+		)
+		!bundled-libs? (
+			|| (
+				app-emulation/emul-linux-x86-sdl[-abi_x86_32(-)]
+				>=media-libs/libsdl-1.2.15-r4[X,sound,video,opengl,joystick,abi_x86_32(-)]
+			)
+		)
+		|| (
+			app-emulation/emul-linux-x86-soundlibs[alsa,-abi_x86_32(-)]
+			(
+				>=media-libs/alsa-lib-1.0.27.2[abi_x86_32(-)]
+				>=media-libs/flac-1.2.1-r5[abi_x86_32(-)]
+				>=media-libs/libogg-1.3.0[abi_x86_32(-)]
+				>=media-libs/libsndfile-1.0.25[abi_x86_32(-)]
+				>=media-libs/libvorbis-1.3.3-r1[abi_x86_32(-)]
+				>=media-sound/pulseaudio-2.1-r1[abi_x86_32(-)]
+			)
+		)
+		|| (
+			app-emulation/emul-linux-x86-xlibs[-abi_x86_32(-)]
+			(
+				>=x11-libs/libICE-1.0.8-r1[abi_x86_32(-)]
+				>=x11-libs/libSM-1.2.1-r1[abi_x86_32(-)]
+				>=x11-libs/libX11-1.6.2[abi_x86_32(-)]
+				>=x11-libs/libXau-1.0.7-r1[abi_x86_32(-)]
+				>=x11-libs/libxcb-1.9.1[abi_x86_32(-)]
+				>=x11-libs/libXdmcp-1.1.1-r1[abi_x86_32(-)]
+				>=x11-libs/libXext-1.3.2[abi_x86_32(-)]
+				>=x11-libs/libXi-1.7.2[abi_x86_32(-)]
+				>=x11-libs/libXtst-1.2.1-r1[abi_x86_32(-)]
+			)
+		)
 	)
 	x86? (
 		dev-libs/openssl

@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/games-action/awesomenauts/awesomenauts-2013.5.21.3.ebuild,v 1.1 2013/07/16 19:31:44 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-action/awesomenauts/awesomenauts-2013.5.21.3.ebuild,v 1.3 2014/06/25 13:46:17 mgorny Exp $
 
 EAPI=5
 
@@ -25,12 +25,39 @@ RDEPEND="
 	virtual/opengl
 	virtual/glu
 	amd64? (
-		app-emulation/emul-linux-x86-opengl
-		app-emulation/emul-linux-x86-xlibs
+		|| (
+			app-emulation/emul-linux-x86-opengl[-abi_x86_32(-)]
+			(
+				>=virtual/opengl-7.0-r1[abi_x86_32(-)]
+				>=virtual/glu-9.0-r1[abi_x86_32(-)]
+			)
+		)
+		|| (
+			app-emulation/emul-linux-x86-xlibs[-abi_x86_32(-)]
+			(
+				>=media-libs/freetype-2.5.0.1[abi_x86_32(-)]
+				>=x11-libs/libX11-1.6.2[abi_x86_32(-)]
+			)
+		)
 		!bundled-libs? (
-			app-emulation/emul-linux-x86-medialibs
-			app-emulation/emul-linux-x86-sdl
-			app-emulation/emul-linux-x86-soundlibs
+			|| (
+				app-emulation/emul-linux-x86-medialibs[-abi_x86_32(-)]
+				>=media-libs/libtheora-1.1.1[abi_x86_32(-)]
+			)
+			|| (
+				app-emulation/emul-linux-x86-sdl[-abi_x86_32(-)]
+				(
+					>=media-libs/libsdl-1.2.15-r4:0[X,opengl,video,abi_x86_32(-)]
+					>=media-libs/openal-1.15.1[abi_x86_32(-)]
+				)
+			)
+			|| (
+				app-emulation/emul-linux-x86-soundlibs[-abi_x86_32(-)]
+				(
+					>=media-libs/libogg-1.3.0[abi_x86_32(-)]
+					>=media-libs/libvorbis-1.3.3-r1[abi_x86_32(-)]
+				)
+			)
 			media-gfx/nvidia-cg-toolkit[multilib]
 		)
 	)

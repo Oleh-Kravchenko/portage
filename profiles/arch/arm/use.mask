@@ -65,7 +65,6 @@ dmi
 
 # Stuff we don't want
 chicken
-clisp
 fuse
 R
 octave
@@ -242,3 +241,5 @@ opencl
 # sys-devel/llvm is keyworded
 -llvm
 
+# Missing sys-process/numactl keywords.
+numa

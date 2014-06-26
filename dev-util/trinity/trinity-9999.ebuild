@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/trinity/trinity-9999.ebuild,v 1.4 2013/12/22 02:19:07 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-util/trinity/trinity-9999.ebuild,v 1.5 2014/06/25 04:57:32 radhermit Exp $
 
 EAPI=5
 
@@ -18,10 +18,9 @@ IUSE="examples"
 DEPEND="sys-kernel/linux-headers"
 
 src_prepare() {
-	sed -e 's/^CFLAGS := /CFLAGS +=/' \
-		-e 's/-g -O2//' \
+	sed -e 's/-g -O2//' \
 		-e 's/-D_FORTIFY_SOURCE=2//' \
-		-e '/-o trinity/s/$(CFLAGS)/\0 $(LDFLAGS)/' \
+		-e '/-o $@/s/$(LDFLAGS) //' \
 		-i Makefile || die
 
 	tc-export CC
