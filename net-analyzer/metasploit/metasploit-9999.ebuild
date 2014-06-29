@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/metasploit/metasploit-9999.ebuild,v 1.25 2014/05/30 14:18:39 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/metasploit/metasploit-9999.ebuild,v 1.29 2014/06/28 17:44:30 zerochaos Exp $
 
 EAPI="5"
 
@@ -98,6 +98,9 @@ QA_PREBUILT="
 	usr/$(get_libdir)/${PN}${SLOT}/data/meterpreter/ext_server_networkpug.lso
 	usr/$(get_libdir)/${PN}${SLOT}/data/meterpreter/ext_server_stdapi.lso
 	usr/$(get_libdir)/${PN}${SLOT}/data/exploits/CVE-2013-2171.bin
+	usr/$(get_libdir)/${PN}${SLOT}/data/android/libs/x86/libndkstager.so
+	usr/$(get_libdir)/${PN}${SLOT}/data/android/libs/mips/libndkstager.so
+	usr/$(get_libdir)/${PN}${SLOT}/data/android/libs/armeabi/libndkstager.so
 	"
 
 pkg_setup() {
@@ -177,7 +180,12 @@ all_ruby_prepare() {
 	echo "echo \"[*]\"" >> msfupdate
 	echo "echo \"\"" >> msfupdate
 	if [[ ${PV} == "9999" ]] ; then
+		echo "if [ -x /usr/bin/smart-live-rebuild ]; then" >> msfupdate
+		echo "	smart-live-rebuild -f net-analyzer/metasploit" >> msfupdate
+		echo "else" >> msfupdate
+		echo "	echo \"Please install app-portage/smart-live-rebuild for a better experience.\"" >> msfupdate
 		echo "emerge --oneshot \"=${CATEGORY}/${PF}\"" >> msfupdate
+		echo "fi" >> msfupdate
 	else
 		echo "echo \"Unable to update tagged version of metasploit.\"" >> msfupdate
 		echo "echo \"If you want the latest please install and eselect the live version (metasploit9999)\"" >> msfupdate
@@ -191,8 +199,8 @@ all_ruby_prepare() {
 }
 
 each_ruby_prepare() {
-	${RUBY} -S bundle install --local || die
-	${RUBY} -S bundle check || die
+	BUNDLE_GEMFILE=Gemfile ${RUBY} -S bundle install --local || die
+	BUNDLE_GEMFILE=Gemfile ${RUBY} -S bundle check || die
 
 	#force all metasploit executables to ruby19, ruby18 is not supported anymore and ruby20 is not supported yet
 	#https://dev.metasploit.com/redmine/issues/8357
@@ -212,10 +220,10 @@ each_ruby_test() {
 	rm spec/tools/virustotal_spec.rb || die
 
 	# https://dev.metasploit.com/redmine/issues/8425
-	${RUBY} -S bundle exec rake db:create || die
-	${RUBY} -S bundle exec rake db:migrate || die
+	BUNDLE_GEMFILE=Gemfile ${RUBY} -S bundle exec rake db:create || die
+	BUNDLE_GEMFILE=Gemfile ${RUBY} -S bundle exec rake db:migrate || die
 
-	MSF_DATABASE_CONFIG=config/database.yml ${RUBY} -S bundle exec rake  || die
+	MSF_DATABASE_CONFIG=config/database.yml BUNDLE_GEMFILE=Gemfile ${RUBY} -S bundle exec rake  || die
 	su postgres -c "dropuser msf_test_user" || die "failed to cleanup msf_test-user"
 }
 
@@ -248,6 +256,7 @@ all_ruby_install() {
 		#These dirs contain prebuilt binaries for running on the TARGET not the HOST
 		SEARCH_DIRS_MASK="/usr/lib*/${PN}${SLOT}/data/meterpreter"
 		SEARCH_DIRS_MASK="/usr/lib*/${PN}${SLOT}/data/exploits"
+		SEARCH_DIRS_MASK="/usr/lib*/${PN}${SLOT}/data/android/libs"
 	EOF
 }
 
