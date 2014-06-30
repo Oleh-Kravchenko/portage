@@ -1,6 +1,18 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1303 2014/06/28 09:56:25 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1306 2014/06/29 14:24:22 floppym Exp $
+
+  29 Jun 2014; Mike Gilbert <floppym@gentoo.org> distutils-r1.eclass,
+  python-utils-r1.eclass:
+  Attempt to use a UTF-8 locale if one is available to avoid errors when
+  setup.py calls open() with no encoding.
+
+  29 Jun 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Fix handling empty MULTILIB_COMPAT.
+
+  29 Jun 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
+  Check MULTILIB_COMPAT before querying USE flags. Bug #515642, thanks to Greg
+  Turner.
 
   28 Jun 2014; Michał Górny <mgorny@gentoo.org> multilib-build.eclass:
   Enable multilib flags for ppc. Since ppc profiles are not multilib at the
