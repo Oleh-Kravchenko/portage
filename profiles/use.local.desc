@@ -780,13 +780,16 @@ app-leechcraft/lc-monocle:spectre - Enable PostScript backend for Monocle using 
 app-leechcraft/lc-musiczombie:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
 app-leechcraft/lc-netstoremanager:googledrive - Support Google Drive storage backend
 app-leechcraft/lc-netstoremanager:yandexdisk - Support Yandex.Disk storage backend
+app-leechcraft/lc-poshuku:autosearch - Provide automatic search suggestions for Poshuku.
 app-leechcraft/lc-poshuku:cleanweb - Build CleanWeb for ad blocking compatible with Firefox's AdBlock+.
+app-leechcraft/lc-poshuku:dcac - Build color inverter module providing a night mode.
 app-leechcraft/lc-poshuku:fatape - Build FatApe, GreaseMonkey userscripts support layer.
 app-leechcraft/lc-poshuku:filescheme - Build FileScheme for accessing local URLs.
 app-leechcraft/lc-poshuku:fua - Build FUA for faking user agents for different hosts.
 app-leechcraft/lc-poshuku:keywords - Build Keywords for adjusting search shortcuts.
 app-leechcraft/lc-poshuku:onlinebookmarks - Build OnlineBookmarks for syncing bookmarks with social bookmarking services like Read It Later.
 app-leechcraft/lc-poshuku:pcre - Use dev-libs/libpcre for rules matching in CleanWeb instead of slower QRegExp.
+app-leechcraft/lc-poshuku:qrd - Build module for displaying the QR code of a web page.
 app-leechcraft/lc-poshuku:wyfv - Build WYFV for replacing Flash-based video players on some sites.
 app-leechcraft/lc-vrooby:udisks - Use sys-fs/udisks:0 for block device access (e.g., automounting)
 app-leechcraft/lc-vrooby:udisks2 - Use sys-fs/udisks:2 for block device access (e.g., automounting)
@@ -6019,13 +6022,19 @@ sci-chemistry/ghemical:openbabel - Use sci-chemistry/openbabel for file conversi
 sci-chemistry/ghemical:toolbar - Build the shortcuts toolbar
 sci-chemistry/gromacs:avx128fma - Enable 128bit avx with fma (e.g. AMD BullDozer)
 sci-chemistry/gromacs:avx256 - Enable 256bit avx (e.g. Intel Sandy Bridge)
+sci-chemistry/gromacs:avx2_256 - Enable 256bit avx2 (e.g. Intel Haswell)
+sci-chemistry/gromacs:avx_128_fma - Enable 128bit avx with fma (e.g. AMD BullDozer)
+sci-chemistry/gromacs:avx_256 - Enable 256bit avx (e.g. Intel Sandy Bridge)
+sci-chemistry/gromacs:boost - Enable external boost library
 sci-chemistry/gromacs:cuda - Enable cuda non-bonded kernels
 sci-chemistry/gromacs:double-precision - More precise calculations at the expense of speed
+sci-chemistry/gromacs:make-symlinks - Create symbolic links for pre-5.0 binary names
 sci-chemistry/gromacs:mkl - Use sci-libs/mkl for fft, blas, lapack routines
 sci-chemistry/gromacs:offensive - Enable gromacs partly offensive quotes
 sci-chemistry/gromacs:openmm - Add acceleration through sci-libs/openmm
 sci-chemistry/gromacs:single-precision - Single precision version of gromacs (default)
 sci-chemistry/gromacs:sse4_1 - Enable sse4.1 acceleration
+sci-chemistry/gromacs:tng - Enable new trajectory format - tng
 sci-chemistry/gsim:emf - Support for .emf export
 sci-chemistry/icm:32bit - Automatically generated description for 32bit
 sci-chemistry/icm:64bit - Automatically generated description for 64bit
@@ -6638,18 +6647,11 @@ sys-cluster/neutron:linuxbridge - Installs the initscripts for the neutron linux
 sys-cluster/neutron:metadata - Installs the initscripts for the neutron metadata agent service
 sys-cluster/neutron:openvswitch - Installs the initscripts for the neutron openvswitch agent service
 sys-cluster/neutron:server - Installs the initscripts for the neutron server service
-sys-cluster/nova:api - Installs the initscripts for the nova api service
-sys-cluster/nova:cert - Installs the initscripts for the nova scheduler service
 sys-cluster/nova:compute - Installs the initscripts for the nova volume service
-sys-cluster/nova:conductor - Installs the initscripts for the nova conductor service
-sys-cluster/nova:consoleauth - Installs the initscripts for the nova consoleauth service
 sys-cluster/nova:kvm - qemu-kvm hypervisor support
 sys-cluster/nova:network - Installs the initscripts for the nova network service
 sys-cluster/nova:novncproxy - Installs the initscripts for the nova novncproxy service
-sys-cluster/nova:scheduler - Installs the initscripts for the nova scheduler service
-sys-cluster/nova:spicehtml5proxy - Installs the initscripts for the nova spicehtml5proxy service
 sys-cluster/nova:xen - xen hypervisor support
-sys-cluster/nova:xvpvncproxy - Installs the initscripts for the nova xvpvncproxy service
 sys-cluster/ocfs:aio - Add aio support
 sys-cluster/openmpi:cma - Enable the CMA (Cross Memory Attach) MCA
 sys-cluster/openmpi:cuda - Add GPU direct support
