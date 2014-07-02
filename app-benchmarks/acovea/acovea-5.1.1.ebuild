@@ -1,8 +1,8 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-benchmarks/acovea/acovea-5.1.1.ebuild,v 1.10 2010/09/06 23:28:23 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-benchmarks/acovea/acovea-5.1.1.ebuild,v 1.11 2014/07/01 07:54:17 patrick Exp $
 
-EAPI=2
+EAPI=5
 WANT_AUTOMAKE=1.9
 inherit autotools eutils
 
