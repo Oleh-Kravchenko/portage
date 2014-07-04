@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/multilib-build.eclass,v 1.59 2014/06/29 08:32:46 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/multilib-build.eclass,v 1.62 2014/07/03 17:45:26 grobian Exp $
 
 # @ECLASS: multilib-build.eclass
 # @MAINTAINER:
@@ -38,14 +38,16 @@ inherit multibuild multilib
 # ensure that every *preliminary* work is done and the multilib can be
 # extended safely.
 _MULTILIB_FLAGS=(
-	abi_x86_32:x86,x86_fbsd
-	abi_x86_64:amd64,amd64_fbsd
+	abi_x86_32:x86,x86_fbsd,x86_freebsd,x86_linux,x86_macos,x86_solaris
+	abi_x86_64:amd64,amd64_fbsd,x64_freebsd,amd64_linux,x64_macos,x64_solaris
 	abi_x86_x32:x32
 	abi_mips_n32:n32
 	abi_mips_n64:n64
 	abi_mips_o32:o32
-	abi_ppc_32:ppc
+	abi_ppc_32:ppc,ppc_aix,ppc_macos
 	abi_ppc_64:ppc64
+	abi_s390_32:s390
+	abi_s390_64:s390x
 )
 
 # @ECLASS-VARIABLE: MULTILIB_COMPAT
@@ -56,8 +58,15 @@ _MULTILIB_FLAGS=(
 #
 # This variable is intended for use in prebuilt multilib packages that
 # can provide binaries only for a limited set of ABIs. If ABIs need to
-# be limited due to a bug in source code, package.use.mask is
-# recommended instead.
+# be limited due to a bug in source code, package.use.mask is to be used
+# instead. Along with MULTILIB_COMPAT, KEYWORDS should contain '-*'.
+#
+# Note that setting this variable effectively disables support for all
+# other ABIs, including other architectures. For example, specifying
+# abi_x86_{32,64} disables support for MIPS as well.
+#
+# The value of MULTILIB_COMPAT determines the value of IUSE. If set, it
+# also enables REQUIRED_USE constraints.
 #
 # Example use:
 # @CODE
@@ -112,6 +121,8 @@ _multilib_build_set_globals() {
 	local usedeps=${flags[@]/%/(-)?}
 
 	IUSE=${flags[*]}
+	REQUIRED_USE="|| ( ${flags[*]} )"
+
 	MULTILIB_USEDEP=${usedeps// /,}
 }
 _multilib_build_set_globals
