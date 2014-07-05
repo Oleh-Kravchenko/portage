@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/virtual/perl-B-Debug/perl-B-Debug-1.180.0.ebuild,v 1.2 2013/09/05 07:07:16 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/virtual/perl-B-Debug/perl-B-Debug-1.180.0.ebuild,v 1.3 2014/07/04 23:29:17 dilfridge Exp $
 
 DESCRIPTION="Virtual for B::Debug"
 HOMEPAGE=""
@@ -12,4 +12,4 @@ KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~spar
 IUSE=""
 
 DEPEND=""
-RDEPEND="|| ( >=dev-lang/perl-5.17.3 ~perl-core/B-Debug-${PV} )"
+RDEPEND="|| ( =dev-lang/perl-5.18* ~perl-core/B-Debug-${PV} )"

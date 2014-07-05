@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libmygpo-qt/libmygpo-qt-9999.ebuild,v 1.1 2013/10/26 11:33:20 yngwin Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libmygpo-qt/libmygpo-qt-9999.ebuild,v 1.2 2014/07/04 20:40:11 hasufell Exp $
 
 EAPI=5
 inherit cmake-utils
@@ -20,12 +20,27 @@ fi
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-IUSE=""
+IUSE="test"
 
 RDEPEND="dev-qt/qtcore:4
 	>=dev-libs/qjson-0.5"
 DEPEND="${RDEPEND}
 	dev-qt/qttest:4
-	virtual/pkgconfig"
+	virtual/pkgconfig
+	test? ( dev-qt/qttest:4 )"
 
 DOCS=( AUTHORS README )
+
+src_prepare() {
+	cmake-utils_src_prepare
+	if ! use test ; then
+		sed -i -e '/find_package/s/QtTest//' CMakeLists.txt || die
+	fi
+}
+
+src_configure() {
+	local mycmakeargs=(
+		$(cmake-utils_use test MYGPO_BUILD_TESTS)
+	)
+	cmake-utils_src_configure
+}
