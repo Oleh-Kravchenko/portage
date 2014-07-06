@@ -374,6 +374,7 @@ app-crypt/tc-play:openssl - Use openssl crypto backend.
 app-crypt/tpm-tools:pkcs11 - Build Token data management utilities based on OpenCryptoki's (dev-libs/opencryptoki) PKCS#11 implementation.
 app-crypt/truecrypt:asm - Enable assembly for optimization
 app-dicts/aspell-be:classic - Support classic spelling by default
+app-dicts/gwaei:hunspell - Enable app-text/hunspell spellchecking and morphological analysis
 app-dicts/gwaei:mecab - Enable app-text/mecab support
 app-dicts/gwaei:unique - Enable single instance support using dev-libs/libunique.
 app-dicts/myspell-pt:preao - Use the pre ortographic agreement version of the dictionary
@@ -776,6 +777,7 @@ app-leechcraft/lc-lmp:mp3tunes - Build plugin for supporting the mp3tunes.com mu
 app-leechcraft/lc-lmp:mpris - Enable MPRIS support
 app-leechcraft/lc-lmp:potorchu - Enable the projectM-based visualization effects module for LMP
 app-leechcraft/lc-monocle:fb2 - Enable support for FictionBook format
+app-leechcraft/lc-monocle:mobi - Enable support for MOBI format
 app-leechcraft/lc-monocle:spectre - Enable PostScript backend for Monocle using the app-text/libspectre
 app-leechcraft/lc-musiczombie:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
 app-leechcraft/lc-netstoremanager:googledrive - Support Google Drive storage backend
@@ -5160,7 +5162,6 @@ net-libs/ldns:dane - Enable DNS-based Authentication of Named Entities (DANE) su
 net-libs/ldns:ecdsa - Enable ECDSA support
 net-libs/ldns:gost - Enable GOST support
 net-libs/libbtbb:pcap - Add support for network packet capture via net-libs/libpcap
-net-libs/libbtbb:wireshark - Build the wireshark plugin for bluetooth baseband sniffing
 net-libs/libbtbb:wireshark-plugins - Build the wireshark plugins for bluetooth baseband sniffing
 net-libs/libcrafter:pcap - Use net-libs/libpcap for packet capturing
 net-libs/libeXosip:srv - enable support for SRV records DNS queries

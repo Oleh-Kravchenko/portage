@@ -1,10 +1,70 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9135 2014/07/04 23:28:09 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9155 2014/07/05 22:21:44 dilfridge Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of ExtUtils::CBuilder to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Exporter to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Encode to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Digest::SHA to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Devel::PPPort to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Data::Dumper to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of DB_File to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Compress::Raw::Zlib to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Compress::Raw::Bzip2 to perl-5.20 mask
+
+  05 Jul 2014; Alexis Ballier <aballier@gentoo.org> base/package.use.mask:
+  unmask gnutls & rtmp on ffmpeg:0.10
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Last-rite virtual/perl-Class-ISA
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> updates/2Q-2014:
+  Move Class-ISA from perl-core to dev-perl
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Carp to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of CPAN::Meta::YAML to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of CPAN::Meta to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of CPAN to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of CGI to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of AutoLoader to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Attribute::Handlers to perl-5.20 mask
+
+  05 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of perl-core/Archive-Tar to perl-5.20 mask
 
   04 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
   Add 5.20 version of perl-core/B-Debug to perl-5.20 mask

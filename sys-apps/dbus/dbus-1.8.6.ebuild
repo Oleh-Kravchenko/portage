@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/dbus/dbus-1.8.6.ebuild,v 1.2 2014/07/04 19:32:13 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/dbus/dbus-1.8.6.ebuild,v 1.11 2014/07/05 17:46:20 ssuominen Exp $
 
 EAPI=5
 PYTHON_COMPAT=( python2_7 )
@@ -12,7 +12,7 @@ SRC_URI="http://dbus.freedesktop.org/releases/dbus/${P}.tar.gz"
 
 LICENSE="|| ( AFL-2.1 GPL-2 )"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~arm-linux ~x86-linux"
+KEYWORDS="alpha amd64 arm ~arm64 hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~arm-linux ~x86-linux"
 IUSE="debug doc selinux static-libs systemd test X"
 
 RDEPEND=">=dev-libs/expat-2
@@ -211,9 +211,8 @@ pkg_postinst() {
 	elog
 
 	if [ "$(rc-status | grep dbus | grep started)" ] ; then
-		ewarn "You must restart D-Bus \`/etc/init.d/dbus restart\` to run"
-		ewarn "the new version of the daemon."
-		ewarn "Don't do this while X is running because it will restart your X as well."
+		elog "You can restart D-Bus \`/etc/init.d/dbus restart\` to run"
+		elog "the new version of the daemon."
 	fi
 
 	# Ensure unique id is generated and put it in /etc wrt #370451 but symlink
