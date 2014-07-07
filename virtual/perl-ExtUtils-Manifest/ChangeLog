@@ -1,6 +1,18 @@
 # ChangeLog for virtual/perl-ExtUtils-Manifest
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/virtual/perl-ExtUtils-Manifest/ChangeLog,v 1.38 2014/01/20 21:00:55 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/virtual/perl-ExtUtils-Manifest/ChangeLog,v 1.40 2014/07/06 11:31:38 zlogene Exp $
+
+*perl-ExtUtils-Manifest-1.630.0-r1 (06 Jul 2014)
+
+  06 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  +perl-ExtUtils-Manifest-1.630.0-r1.ebuild:
+  Add perl-5.18 and perl-5.20 as provider
+
+  06 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  -perl-ExtUtils-Manifest-1.580.0-r1.ebuild,
+  -perl-ExtUtils-Manifest-1.590.0.ebuild,
+  -perl-ExtUtils-Manifest-1.600.0.ebuild:
+  Drop old.
 
   20 Jan 2014; Mike Frysinger <vapier@gentoo.org>
   perl-ExtUtils-Manifest-1.590.0.ebuild, perl-ExtUtils-Manifest-1.600.0.ebuild:

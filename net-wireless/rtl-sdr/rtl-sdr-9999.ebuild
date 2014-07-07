@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-wireless/rtl-sdr/rtl-sdr-9999.ebuild,v 1.6 2013/06/28 22:13:36 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-wireless/rtl-sdr/rtl-sdr-9999.ebuild,v 1.7 2014/07/06 21:22:19 zerochaos Exp $
 
 EAPI=5
 
@@ -10,12 +10,12 @@ DESCRIPTION="turns your Realtek RTL2832 based DVB dongle into a SDR receiver"
 HOMEPAGE="http://sdr.osmocom.org/trac/wiki/rtl-sdr"
 
 if [[ ${PV} == 9999* ]]; then
-	inherit git-2
+	inherit git-r3
 	SRC_URI=""
 	EGIT_REPO_URI="git://git.osmocom.org/${PN}.git"
 	KEYWORDS=""
 else
-	SRC_URI="mirror://gentoo/${P}.tar.xz"
+	SRC_URI="https://dev.gentoo.org/~zerochaos/distfiles/${P}.tar.xz"
 	KEYWORDS="~amd64 ~arm ~x86"
 fi
 
@@ -30,10 +30,9 @@ DOCS=( ${PN}.rules )
 
 src_unpack() {
 	if [[ ${PV} == 9999* ]]; then
-		git-2_src_unpack
+		git-r3_src_unpack
 	else
 		default
-		mv ${PN} ${P} || die
 	fi
 }
 

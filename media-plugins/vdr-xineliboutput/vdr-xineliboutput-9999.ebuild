@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-plugins/vdr-xineliboutput/vdr-xineliboutput-9999.ebuild,v 1.15 2014/01/27 19:12:06 idl0r Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-plugins/vdr-xineliboutput/vdr-xineliboutput-9999.ebuild,v 1.17 2014/07/06 16:40:25 hd_brummy Exp $
 
 EAPI=5
 GENTOO_VDR_CONDITIONAL=yes
@@ -76,6 +76,9 @@ src_prepare() {
 	epatch_user
 
 	vdr-plugin-2_src_prepare
+
+	# UINT64_C is needed by ffmpeg headers
+	append-cxxflags -D__STDC_CONSTANT_MACROS
 }
 
 src_configure() {

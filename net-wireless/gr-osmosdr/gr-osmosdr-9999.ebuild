@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-wireless/gr-osmosdr/gr-osmosdr-9999.ebuild,v 1.13 2013/09/16 16:03:12 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-wireless/gr-osmosdr/gr-osmosdr-9999.ebuild,v 1.14 2014/07/06 21:25:41 zerochaos Exp $
 
 EAPI=5
 PYTHON_DEPEND="python? 2"
@@ -11,7 +11,7 @@ DESCRIPTION="GNU Radio source block for OsmoSDR and rtlsdr and hackrf"
 HOMEPAGE="http://sdr.osmocom.org/trac/wiki/GrOsmoSDR"
 
 if [[ ${PV} == 9999* ]]; then
-	inherit git-2
+	inherit git-r3
 	SRC_URI=""
 	EGIT_REPO_URI="git://git.osmocom.org/${PN}.git"
 	KEYWORDS=""
@@ -30,7 +30,7 @@ RDEPEND=">=net-wireless/gnuradio-3.7_rc:0=[fcd?]
 	hackrf? ( net-libs/libhackrf:= )
 	iqbalance? ( net-wireless/gr-iqbal:= )
 	mirisdr? ( net-libs/libmirisdr:= )
-	rtlsdr? ( net-wireless/rtl-sdr:= )
+	rtlsdr? ( >=net-wireless/rtl-sdr-0.5.3:= )
 	uhd? ( net-wireless/uhd:= )"
 DEPEND="${RDEPEND}
 	dev-python/cheetah"

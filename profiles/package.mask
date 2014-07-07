@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15849 2014/07/05 22:21:44 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15857 2014/07/06 18:21:12 mgorny Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,19 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Michał Górny <mgorny@gentoo.org> (6 Jul 2014)
+# (on behalf of python@gentoo.org)
+# The modules provided by those virtuals are built-in in all currently
+# supported Python implementations. If your ebuild depends on either
+# of them, please just remove the dependency. Removal in 30 days.
+virtual/python-argparse
+virtual/python-unittest2
+
+# Hans de Graaff <graaff@gentoo.org> (6 Jul 2014)
+# Mask old slot for removal in 30 days since there are no longer
+# dependencies on it.
+dev-ruby/builder:0
 
 # Andreas K. Huettel <dilfridge@gentoo.org> (05 Jul 2014)
 # Class::ISA is long gone from core Perl, thus the package
@@ -191,6 +204,11 @@ dev-java/ibm-jdk-bin:1.5
 =virtual/perl-Encode-2.600.0
 =virtual/perl-Exporter-5.700.0
 =virtual/perl-ExtUtils-CBuilder-0.280.216
+=virtual/perl-ExtUtils-Install-1.670.0
+=virtual/perl-ExtUtils-MakeMaker-6.980.0
+=virtual/perl-ExtUtils-Manifest-1.630.0-r1
+=virtual/perl-ExtUtils-ParseXS-3.240.0
+=virtual/perl-File-Spec-3.470.0
 =perl-core/B-Debug-1.190.0
 
 # Pawel Hajdan jr <phajdan.jr@gentoo.org> (24 May 2014)
@@ -264,16 +282,6 @@ net-wireless/mate-bluetooth
 # Use app-emulation/qemu instead.  It has USE=static-user to support building
 # static user helpers.  See #508098 for more info. Removal in a month
 app-emulation/qemu-user
-
-# Michał Górny <mgorny@gentoo.org> (26 Apr 2014)
-# (on behalf of Python team)
-# Python 2.6 is no longer supported upstream and security issue fixes
-# are not provided anymore. Python 2.7 is almost drop-in replacement.
-# The Python itself will be masked in 30 days, and all packages will be
-# removed in 60 days.
-dev-lang/python:2.6
-dev-python/argparse
-dev-python/ordereddict
 
 # Tim Harder <radhermit@gentoo.org> (25 Apr 2014)
 # Mask development releases
