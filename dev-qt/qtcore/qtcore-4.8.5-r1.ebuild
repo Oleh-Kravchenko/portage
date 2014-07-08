@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-qt/qtcore/qtcore-4.8.5-r1.ebuild,v 1.10 2014/01/26 11:55:45 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-qt/qtcore/qtcore-4.8.5-r1.ebuild,v 1.11 2014/07/07 20:03:53 pesa Exp $
 
 EAPI=5
 
@@ -28,7 +28,7 @@ PDEPEND="
 "
 
 PATCHES=(
-	"${FILESDIR}/moc-boost-lexical-cast.patch"
+	"${FILESDIR}/${PN}-4.8.5-moc-boost-lexical-cast.patch"
 	"${FILESDIR}/CVE-2013-4549-01-disallow-deep-or-widely-nested-entity-refs.patch"
 	"${FILESDIR}/CVE-2013-4549-02-fully-expand-entities.patch"
 )
