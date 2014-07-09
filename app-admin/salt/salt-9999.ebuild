@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/salt/salt-9999.ebuild,v 1.10 2014/06/13 01:23:37 chutzpah Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/salt/salt-9999.ebuild,v 1.11 2014/07/08 21:45:21 chutzpah Exp $
 
 EAPI=5
 
@@ -34,6 +34,7 @@ RDEPEND=">=dev-python/pyzmq-2.2.0[${PYTHON_USEDEP}]
 		dev-python/pycryptopp[${PYTHON_USEDEP}]
 		dev-python/jinja[${PYTHON_USEDEP}]
 		dev-python/setuptools[${PYTHON_USEDEP}]
+		dev-python/requests[${PYTHON_USEDEP}]
 		libcloud? ( >=dev-python/libcloud-0.14.0[${PYTHON_USEDEP}] )
 		sys-apps/pciutils
 		mako? ( dev-python/mako[${PYTHON_USEDEP}] )
@@ -51,6 +52,7 @@ RDEPEND=">=dev-python/pyzmq-2.2.0[${PYTHON_USEDEP}]
 DEPEND="test? (
 			dev-python/pip
 			dev-python/virtualenv
+			dev-python/timelib
 			>=dev-python/SaltTesting-2014.4.24
 			${RDEPEND}
 		)"
@@ -58,6 +60,9 @@ DOCS=(README.rst AUTHORS)
 
 python_prepare() {
 	sed -i '/install_requires=/ d' setup.py || die "sed failed"
+
+	# this test fails because it trys to "pip install distribute"
+	rm tests/unit/{modules,states}/zcbuildout_test.py
 }
 
 python_install_all() {
