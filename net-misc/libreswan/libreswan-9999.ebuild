@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/libreswan/libreswan-9999.ebuild,v 1.5 2014/01/17 03:42:05 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/libreswan/libreswan-9999.ebuild,v 1.6 2014/07/09 21:30:39 floppym Exp $
 
 EAPI=5
 
@@ -84,7 +84,7 @@ src_install() {
 
 	systemd_dounit "${FILESDIR}/ipsec.service"
 
-	dodoc BUGS CHANGES README
+	dodoc CHANGES README
 	dodoc -r docs
 
 	find "${D}" -type d -empty -delete || die
