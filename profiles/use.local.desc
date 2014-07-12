@@ -2402,6 +2402,7 @@ dev-vcs/bzr-gtk:gconf - Enable GConf support
 dev-vcs/bzr-gtk:gpg - Support signing with GnuPG.
 dev-vcs/bzr-gtk:nautilus - Integrate with Nautilus file manager
 dev-vcs/bzr-gtk:sourceview - Enable GtkSourceView support
+dev-vcs/cssc:valgrind - Enable usage of dev-util/valgrind in tests
 dev-vcs/cvs:server - Enable server support
 dev-vcs/cvs2svn:bazaar - Support for dev-vcs/bzr
 dev-vcs/fossil:json - Enable the JSON API of Fossil's wiki
@@ -6186,6 +6187,7 @@ sci-libs/gdal:geos - Add support for geometry engine (sci-libs/geos)
 sci-libs/gdal:gml - Enable support for dev-libs/xerces-c C++ API
 sci-libs/gdal:hdf5 - Add support for the Hierarchical Data Format v5 (sci-libs/hdf5)
 sci-libs/gdal:mdb - Enable support for Microsoft Access database
+sci-libs/gdal:ogdi - Enable support for the open geographic datastore interface (sci-libs/ogdi)
 sci-libs/gdal:opencl - Enable OpenCL support
 sci-libs/gdal:spatialite - Enable Spatial DBMS over sqlite dev-db/spatialite
 sci-libs/gdal:xls - Add the dev-libs/freexl library for xls import support

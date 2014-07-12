@@ -1,5 +1,5 @@
---- old/fping.c	2010-08-24 16:59:38.947000447 +0100
-+++ new/fping.c	2010-08-24 16:55:52.101000443 +0100
+--- a/fping.c
++++ b/fping.c
 @@ -25,6 +25,7 @@
   * Original author:  Roland Schemers  <schemers@stanford.edu>
   * IPv6 Support:     Jeroen Massar    <jeroen@unfix.org / jeroen@ipng.nl>
