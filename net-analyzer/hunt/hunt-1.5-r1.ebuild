@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/hunt/hunt-1.5-r1.ebuild,v 1.3 2012/01/15 15:37:03 phajdan.jr Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/hunt/hunt-1.5-r1.ebuild,v 1.4 2014/07/12 14:29:33 jer Exp $
 
-EAPI="2"
+EAPI=5
 
 inherit toolchain-funcs
 
@@ -13,20 +13,18 @@ SRC_URI="http://lin.fsid.cvut.cz/~kra/hunt/${P}.tgz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc x86"
-IUSE=""
 
 src_prepare() {
-cp -av Makefile{,.orig}
 	sed -i Makefile \
-		-e 's:^CFLAGS=:CFLAGS += -I.:g' \
+		-e 's:^CFLAGS=:CFLAGS += -I. :g' \
 		-e '/^LDFLAGS=/d' \
 		-e 's:${LDFLAGS}:$(LDFLAGS):g' \
 		-e 's:-O2 -g::' \
-		|| die "sed Makefile"
+		|| die
 }
 
 src_compile() {
-	emake CC=$(tc-getCC) || die "emake"
+	emake CC=$(tc-getCC)
 }
 
 src_install() {
