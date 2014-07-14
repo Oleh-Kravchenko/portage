@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/girara/girara-9999.ebuild,v 1.1 2014/05/07 15:05:54 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/girara/girara-9999.ebuild,v 1.2 2014/07/13 16:22:34 ssuominen Exp $
 
 EAPI=5
 
@@ -22,17 +22,19 @@ KEYWORDS="~amd64 ~arm ~x86 ~amd64-linux ~x86-linux"
 else
 KEYWORDS=""
 fi
-IUSE="static-libs"
+IUSE="libnotify static-libs"
 
 RDEPEND=">=dev-libs/glib-2.28
 	>=x11-libs/gtk+-3.2:3
-	!<${CATEGORY}/${PN}-0.1.6"
+	!<${CATEGORY}/${PN}-0.1.6
+	libnotify? ( >=x11-libs/libnotify-0.7 )"
 DEPEND="${RDEPEND}
 	sys-devel/gettext
 	virtual/pkgconfig"
 
 pkg_setup() {
 	mygiraraconf=(
+		WITH_LIBNOTIFY=$(usex libnotify 1 0)
 		PREFIX="${EPREFIX}"/usr
 		LIBDIR='${PREFIX}'/$(get_libdir)
 		CC="$(tc-getCC)"
