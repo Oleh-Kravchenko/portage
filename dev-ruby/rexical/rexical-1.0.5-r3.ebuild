@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/rexical/rexical-1.0.5-r3.ebuild,v 1.1 2014/03/21 12:50:09 graaff Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/rexical/rexical-1.0.5-r3.ebuild,v 1.3 2014/07/14 18:00:14 graaff Exp $
 
 EAPI=5
 
