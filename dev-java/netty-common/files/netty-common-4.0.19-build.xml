@@ -70,8 +70,7 @@
            target="1.6" 
            verbose="false" 
            fork="true" 
-           memoryMaximumSize="256m" 
-           memoryInitialSize="1024m" 
+           memoryInitialSize="1024m"
            source="1.6">
       <src>
         <pathelement location="${maven.build.srcDir.0}"/>
@@ -97,8 +96,7 @@
            target="1.6" 
            verbose="false" 
            fork="true" 
-           memoryMaximumSize="256m" 
-           memoryInitialSize="1024m" 
+           memoryInitialSize="1024m"
            source="1.6">
       <src>
         <pathelement location="${maven.build.testDir.0}"/>

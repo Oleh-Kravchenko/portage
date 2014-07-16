@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-215.ebuild,v 1.3 2014/07/14 19:25:18 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/udev/udev-215.ebuild,v 1.6 2014/07/15 15:52:06 ssuominen Exp $
 
 EAPI=5
 
@@ -11,14 +11,14 @@ if [[ ${PV} = 9999* ]]; then
 	inherit git-2
 	patchset=
 else
-	patchset=1
+	patchset=2
 	SRC_URI="http://www.freedesktop.org/software/systemd/systemd-${PV}.tar.xz"
 	if [[ -n "${patchset}" ]]; then
 				SRC_URI="${SRC_URI}
 					http://dev.gentoo.org/~ssuominen/${P}-patches-${patchset}.tar.xz
 					http://dev.gentoo.org/~williamh/dist/${P}-patches-${patchset}.tar.xz"
 			fi
-	KEYWORDS="~alpha amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86"
+	KEYWORDS="~alpha amd64 arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86"
 fi
 
 DESCRIPTION="Linux dynamic and persistent device naming support (aka userspace devfs)"
@@ -362,6 +362,12 @@ multilib_src_install_all() {
 	# maintainer note: by not letting the upstream build-sys create the .so
 	# link, you also avoid a parallel make problem
 	mv "${D}"/usr/share/man/man8/systemd-udevd{.service,}.8
+
+	insinto /usr/share/doc/${PF}/html/gudev
+	doins "${S}"/docs/gudev/html/*
+
+	insinto /usr/share/doc/${PF}/html/libudev
+	doins "${S}"/docs/libudev/html/*
 }
 
 pkg_preinst() {

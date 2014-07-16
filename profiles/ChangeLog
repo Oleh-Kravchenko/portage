@@ -1,10 +1,46 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9207 2014/07/14 19:56:48 maksbotan Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9217 2014/07/15 21:25:09 dilfridge Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  15 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Locale::Maketext to perl-5.20 mask
+
+  15 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of if to perl-5.20 mask
+
+  15 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of I18N::LangTags to perl-5.20 mask
+
+  15 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of autodie to perl-5.20 mask
+
+  15 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of XSLoader to perl-5.20 mask
+
+  15 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Time::Piece to perl-5.20 mask
+
+  15 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add 5.20 version of Thread::Queue to perl-5.20 mask
+
+  15 Jul 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Mask sys-libs/lib-compat and its reverse dependencies.
+
+  15 Jul 2014; Anthony G. Basile <blueness@gentoo.org> profiles.desc:
+  Add hardened/linux/uclibc/ppc to profiles.desc
+
+  15 Jul 2014; Anthony G. Basile <blueness@gentoo.org>
+  arch/amd64-fbsd/todo/package.use.mask, arch/amd64/package.use.mask,
+  arch/x86/package.use.mask, base/package.use.mask,
+  default/bsd/fbsd/amd64/9.1/clang/package.use.mask,
+  default/bsd/fbsd/amd64/9.2/clang/package.use.mask,
+  default/linux/alpha/13.0/use.mask, default/linux/ia64/13.0/use.mask,
+  default/linux/sparc/13.0/use.mask, desc/curl_ssl.desc, package.mask:
+  Remove cyassl package and use flag, bug #495848
 
   14 Jul 2014; Maxim Koltsov <maksbotan@gentoo.org> package.mask:
   Update mpv mask to 0.4.1
