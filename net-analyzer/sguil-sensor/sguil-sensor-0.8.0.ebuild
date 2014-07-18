@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/sguil-sensor/sguil-sensor-0.8.0.ebuild,v 1.3 2012/11/21 04:31:46 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/sguil-sensor/sguil-sensor-0.8.0.ebuild,v 1.5 2014/07/16 23:56:11 jer Exp $
 
-EAPI=4
+EAPI=5
 inherit user
 
 MY_PV="${PV/_p/p}"
@@ -13,7 +13,6 @@ SRC_URI="mirror://sourceforge/sguil/sguil-sensor-${MY_PV}.tar.gz"
 LICENSE="GPL-2 QPL"
 SLOT="0"
 KEYWORDS="~x86"
-IUSE=""
 
 RDEPEND="
 	>=dev-lang/tcl-8.3[-threads]
@@ -32,16 +31,15 @@ pkg_setup() {
 }
 
 src_prepare() {
-	sed -i sensor/sensor_agent.conf \
-		-e 's:192.168.8.1:127.0.0.1:' \
+	sed -i \
 		-e "s:gateway:${HOSTNAME}:" \
 		-e 's:/snort_data:/var/lib/sguil:' \
 		-e 's:DAEMON 0:DAEMON 1:' \
 		-e 's:DEBUG 1:DEBUG 0:g' \
-		|| die "sed failed"
-	sed -i sensor/sensor_agent.tcl \
-		-e 's:/var/run/sensor_agent.pid:/var/run/sguil/sensor.pid:' \
-		|| die "sed failed"
+		sensor/sensor_agent.conf || die
+	sed -i \
+		-e 's:/run/sensor_agent.pid:/run/sguil-sensor.pid:' \
+		sensor/sensor_agent.tcl || die
 }
 
 src_install() {
@@ -57,7 +55,7 @@ src_install() {
 
 	# Create the directory structure
 	diropts -g sguil -o sguil
-	keepdir /var/lib/sguil /var/run/sguil /var/lib/sguil/archive \
+	keepdir /var/lib/sguil /var/lib/sguil/archive \
 		"/var/lib/sguil/${HOSTNAME}" \
 		"/var/lib/sguil/${HOSTNAME}/portscans" \
 		"/var/lib/sguil/${HOSTNAME}/ssn_logs" \
