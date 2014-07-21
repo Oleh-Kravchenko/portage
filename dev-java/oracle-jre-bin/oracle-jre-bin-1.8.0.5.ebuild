@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/oracle-jre-bin/oracle-jre-bin-1.8.0.5.ebuild,v 1.1 2014/04/16 16:28:47 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-java/oracle-jre-bin/oracle-jre-bin-1.8.0.5.ebuild,v 1.2 2014/07/20 20:07:15 sera Exp $
 
 EAPI="5"
 
@@ -104,7 +104,9 @@ src_compile() {
 			;;
 		x86)
 			bin/java -client -Xshare:dump || die
-			bin/java -server -Xshare:dump || die
+			# limit heap size for large memory on x86 #467518
+			# this is a workaround and shouldn't be needed.
+			bin/java -server -Xms64m -Xmx64m -Xshare:dump || die
 			;;
 		*)
 			bin/java -server -Xshare:dump || die
@@ -137,7 +139,8 @@ src_install() {
 	fi
 
 	dodir "${dest}"
-	cp -pPR bin lib man "${ddest}" || die
+	cp -R --preserve=links,mode,ownership,timestamps,xattr \
+		bin lib man "${ddest}" || die
 
 	# Remove empty dirs we might have copied
 	find "${D}" -type d -empty -exec rmdir -v {} + || die

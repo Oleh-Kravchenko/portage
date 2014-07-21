@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/oracle-jdk-bin/oracle-jdk-bin-1.8.0.5.ebuild,v 1.2 2014/04/28 20:01:19 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-java/oracle-jdk-bin/oracle-jdk-bin-1.8.0.5.ebuild,v 1.3 2014/07/20 19:53:16 sera Exp $
 
 EAPI="5"
 
@@ -176,7 +176,9 @@ src_compile() {
 			;;
 		x86)
 			bin/java -client -Xshare:dump || die
-			bin/java -server -Xshare:dump || die
+			# limit heap size for large memory on x86 #467518
+			# this is a workaround and shouldn't be needed.
+			bin/java -server -Xms64m -Xmx64m -Xshare:dump || die
 			;;
 		*)
 			bin/java -server -Xshare:dump || die
@@ -213,14 +215,17 @@ src_install() {
 	dohtml README.html
 
 	dodir "${dest}"
-	cp -pPR bin include jre lib man "${ddest}" || die
+	cp -R --preserve=links,mode,ownership,timestamps,xattr \
+		bin include jre lib man "${ddest}" || die
 
 	if use derby ; then
-		cp -pPR db "${ddest}" || die
+		cp -R --preserve=links,mode,ownership,timestamps,xattr \
+			db "${ddest}" || die
 	fi
 
 	if use examples && has ${ARCH} "${DEMOS_AVAILABLE[@]}" ; then
-		cp -pPR demo sample "${ddest}" || die
+		cp -R --preserve=links,mode,ownership,timestamps,xattr \
+			demo sample "${ddest}" || die
 	fi
 
 	if use jce ; then
