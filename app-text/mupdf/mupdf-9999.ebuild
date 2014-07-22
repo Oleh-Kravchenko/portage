@@ -1,10 +1,10 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-text/mupdf/mupdf-9999.ebuild,v 1.46 2014/06/05 11:04:14 xmw Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-text/mupdf/mupdf-9999.ebuild,v 1.47 2014/07/21 22:00:02 xmw Exp $
 
 EAPI=5
 
-inherit eutils git-2 flag-o-matic multilib toolchain-funcs
+inherit eutils git-2 multilib toolchain-funcs
 
 DESCRIPTION="a lightweight PDF viewer and toolkit written in portable C"
 HOMEPAGE="http://mupdf.com/"
@@ -12,9 +12,9 @@ EGIT_REPO_URI="git://git.ghostscript.com/mupdf.git"
 #EGIT_HAS_SUBMODULES=1
 
 LICENSE="AGPL-3"
-SLOT="0/1.3"
+SLOT="0/1.5"
 KEYWORDS=""
-IUSE="X vanilla static static-libs"
+IUSE="X vanilla curl openssl static static-libs"
 
 LIB_DEPEND="dev-libs/openssl[static-libs?]
 	media-libs/freetype:2[static-libs?]
@@ -41,7 +41,7 @@ src_prepare() {
 		"${FILESDIR}"/${PN}-1.3-CFLAGS.patch \
 		"${FILESDIR}"/${PN}-1.4-old-debian-files.patch \
 		"${FILESDIR}"/${PN}-1.3-pkg-config.patch \
-		"${FILESDIR}"/${PN}-1.3-sys_curl.patch
+		"${FILESDIR}"/${PN}-1.5-Makerules-openssl-curl.patch
 
 	sed -e "/^libdir=/s:/lib:/$(get_libdir):" \
 		-e "/^prefix=/s:=.*:=${EROOT}/usr:" \
@@ -54,20 +54,18 @@ src_prepare() {
 	sed -e '/^\(Actions\|MimeType\)=/s:\(.*\):\1;:' \
 		-i platform/debian/${PN}.desktop || die
 
-	sed -e "\$aOS = Linux" \
-		-e "\$aCC = $(tc-getCC)" \
-		-e "\$aLD = $(tc-getCC)" \
-		-e "\$aAR = $(tc-getAR)" \
-		-e "\$averbose = true" \
-		-e "\$abuild = debug" \
-		-e "\$aprefix = ${ED}usr" \
-		-e "\$alibdir = ${ED}usr/$(get_libdir)" \
+	sed -e "1iOS = Linux" \
+		-e "1iCC = $(tc-getCC)" \
+		-e "1iLD = $(tc-getCC)" \
+		-e "1iAR = $(tc-getAR)" \
+		-e "1iverbose = yes" \
+		-e "1ibuild = debug" \
+		-e "1iprefix = ${ED}usr" \
+		-e "1ilibdir = ${ED}usr/$(get_libdir)" \
+	    -e "1iHAVE_X11 = $(usex X)" \
+		-e "1iWANT_OPENSSL = $(usex openssl)" \
+		-e "1iWANT_CURL = $(usex curl)" \
 		-i Makerules || die
-
-	if ! use X ; then
-		sed -e "\$aNOX11 = yes" \
-			-i Makerules || die
-	fi
 
 	if use static-libs || use static ; then
 		cp -a "${S}" "${S}"-static || die
@@ -78,8 +76,8 @@ src_prepare() {
 			-i "${S}"-static/Makerules || die
 	fi
 
-	my_soname=libmupdf.so.1.3
-	my_soname_js_none=libmupdf-js-none.so.1.3
+	my_soname=libmupdf.so.1.5
+	my_soname_js_none=libmupdf-js-none.so.1.5
 	sed -e "\$a\$(MUPDF_LIB): \$(MUPDF_JS_NONE_LIB)" \
 		-e "\$a\\\t\$(QUIET_LINK) \$(CC) \$(LDFLAGS) --shared -Wl,-soname -Wl,${my_soname} -Wl,--no-undefined -o \$@ \$^ \$(MUPDF_JS_NONE_LIB) \$(LIBS)" \
 		-e "/^MUPDF_LIB :=/s:=.*:= \$(OUT)/${my_soname}:" \

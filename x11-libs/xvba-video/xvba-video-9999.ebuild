@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/xvba-video/xvba-video-9999.ebuild,v 1.10 2014/06/18 21:16:07 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/xvba-video/xvba-video-9999.ebuild,v 1.11 2014/07/21 09:04:41 chithanh Exp $
 
 EAPI=5
 
@@ -33,6 +33,8 @@ DOCS=( NEWS README AUTHORS )
 PATCHES=(
 	"${FILESDIR}"/${PN}-fix-mesa-gl.h.patch
 	"${FILESDIR}"/${PN}-fix-out-of-source-builds.patch
+	"${FILESDIR}"/${P}-VAEncH264VUIBufferType.patch
+	"${FILESDIR}"/${P}-assert-hw_image_hooks_glx.patch
 )
 
 pkg_setup() {
