@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/h5py/h5py-2.3.1.ebuild,v 1.1 2014/07/22 13:24:07 xarthisius Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/h5py/h5py-2.3.1.ebuild,v 1.4 2014/07/23 16:04:49 xarthisius Exp $
 
 EAPI=5
 
@@ -18,7 +18,7 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test examples mpi"
 
 RDEPEND="
-	sci-libs/hdf5
+	sci-libs/hdf5:=[mpi=]
 	dev-python/numpy[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -26,8 +26,11 @@ DEPEND="${RDEPEND}
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
 DISTUTILS_NO_PARALLEL_BUILD=1
 
-# Testsuite is written for a non mpi build
-REQUIRED_USE="test? ( !mpi )"
+pkg_setup() {
+	if use mpi ; then
+		export CC=mpicc
+	fi
+}
 
 python_prepare_all() {
 	append-cflags -fno-strict-aliasing
@@ -35,15 +38,15 @@ python_prepare_all() {
 }
 
 python_compile() {
-	if use mpi;then
-		distutils-r1_python_compile --mpi=yes
-	else
-		distutils-r1_python_compile
-	fi
+	distutils-r1_python_compile --mpi=$(usex mpi yes no)
 }
 
 python_test() {
-	esetup.py test
+	esetup.py test --mpi=$(usex mpi yes no)
+}
+
+python_install() {
+	distutils-r1_python_install --mpi=$(usex mpi yes no)
 }
 
 python_install_all() {
