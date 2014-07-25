@@ -1,10 +1,29 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9248 2014/07/23 18:07:52 haubi Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9253 2014/07/24 20:18:52 ssuominen Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  24 Jul 2014; Samuli Suominen <ssuominen@gentoo.org>
+  targets/desktop/package.use:
+  Disable USE="bluetooth" for net-libs/libpcap by default because BlueZ 5.x
+  support is missing.
+
+  24 Jul 2014; Samuli Suominen <ssuominen@gentoo.org>
+  targets/desktop/package.use:
+  Don't enable USE="gudev introspection" for virtual/udev anymore since
+  everything has been ported to virtual/libgudev in gentoo-x86.
+
+  24 Jul 2014; Pacho Ramos <pacho@gentoo.org> package.mask:
+  Mask a development version that was included without notifying gnome team
+
+  24 Jul 2014; Samuli Suominen <ssuominen@gentoo.org> use.desc:
+  New global USE flags "udisks" and "upower" to separate them out of USE="udev"
+
+  24 Jul 2014; Patrick Lauer <patrick@gentoo.org> thirdpartymirrors:
+  Remove stupid apache mirror
 
   23 Jul 2014; Michael Haubenwallner <haubi@gentoo.org> thirdpartymirrors:
   remove apache.archive.org from apache mirrors, bug#516372

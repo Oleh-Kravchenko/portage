@@ -1,6 +1,44 @@
 # ChangeLog for dev-perl/extutils-depends
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-perl/extutils-depends/ChangeLog,v 1.78 2014/03/13 11:07:52 zlogene Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-perl/extutils-depends/ChangeLog,v 1.87 2014/07/24 23:05:56 zlogene Exp $
+
+  24 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  extutils-depends-0.306.0.ebuild:
+  sparc stable wrt bug #517898
+
+  24 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  extutils-depends-0.306.0.ebuild:
+  ppc stable wrt bug #517898
+
+  24 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  extutils-depends-0.306.0.ebuild:
+  ppc64 stable wrt bug #517898
+
+  24 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  extutils-depends-0.306.0.ebuild:
+  ia64 stable wrt bug #517898
+
+  24 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  extutils-depends-0.306.0.ebuild:
+  x86 stable wrt bug #517898
+
+  24 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  extutils-depends-0.306.0.ebuild:
+  arm stable wrt bug #517898
+
+  24 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  extutils-depends-0.306.0.ebuild:
+  amd64 stable wrt bug #517898
+
+*extutils-depends-0.308.0 (24 Jul 2014)
+
+  24 Jul 2014; Mikle Kolyada <zlogene@gentoo.org>
+  +extutils-depends-0.308.0.ebuild:
+  Version bump
+
+  24 Jul 2014; Tobias Klausmann <klausman@gentoo.org>
+  extutils-depends-0.306.0.ebuild:
+  Stable on alpha, bug #517898
 
 *extutils-depends-0.306.0 (13 Mar 2014)
 

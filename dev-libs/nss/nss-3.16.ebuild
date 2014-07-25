@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/nss/nss-3.16.ebuild,v 1.11 2014/07/05 12:57:51 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/nss/nss-3.16.ebuild,v 1.13 2014/07/24 10:58:18 polynomial-c Exp $
 
 EAPI=5
 inherit eutils flag-o-matic multilib toolchain-funcs
