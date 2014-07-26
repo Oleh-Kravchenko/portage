@@ -1,19 +1,27 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-voip/yate/yate-9999.ebuild,v 1.3 2014/04/28 02:40:27 zx2c4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-voip/yate/yate-9999.ebuild,v 1.4 2014/07/25 20:12:38 zerochaos Exp $
 
 EAPI=5
 
-inherit subversion autotools
+inherit autotools eutils
 
 DESCRIPTION="The Yate AV Suite"
 HOMEPAGE="http://yate.null.ro/"
-ESVN_REPO_URI="http://voip.null.ro/svn/yate/trunk"
+
+if [[ ${PV} == 9999 ]] ; then
+	ESVN_REPO_URI="http://voip.null.ro/svn/yate/trunk"
+	inherit subversion
+	KEYWORDS=""
+else
+	SRC_URI="http://voip.null.ro/tarballs/${PN}5/${P}-1.tar.gz"
+	KEYWORDS="~amd64 ~x86"
+	S="${WORKDIR}/${PN}"
+fi
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
-IUSE="sse2 sctp dahdi zaptel wpcard tdmcard wanpipe +ilbc +ilbc-webrtc +isac-float isac-fixed postgres mysql +gsm +speex h323 spandsp +ssl qt4 +zlib amrnb"
+IUSE="doc sse2 sctp dahdi zaptel wpcard tdmcard wanpipe +ilbc +ilbc-webrtc +isac-float isac-fixed postgres mysql +gsm +speex h323 spandsp +ssl qt4 +zlib amrnb"
 
 RDEPEND="
 	postgres? ( dev-db/postgresql-base )
@@ -28,9 +36,12 @@ RDEPEND="
 	spandsp? ( >=media-libs/spandsp-0.0.3 )
 	dahdi? ( net-misc/dahdi )
 "
-DEPEND="app-doc/doxygen virtual/pkgconfig ${RDEPEND}"
+DEPEND="doc? ( || ( app-doc/doxygen dev-util/kdoc ) )
+	virtual/pkgconfig
+	${RDEPEND}"
 
 src_prepare() {
+	epatch "${FILESDIR}"/dont-mess-with-cflags.patch
 	eautoreconf
 	./yate-config.sh || die
 }
@@ -69,4 +80,12 @@ src_configure() {
 
 src_compile() {
 	emake -j1
+}
+
+src_install() {
+	if use doc; then
+		emake DESTDIR="${ED}" install
+	else
+		emake DESTDIR="${ED}" install-noapi
+	fi
 }
