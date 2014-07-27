@@ -1226,9 +1226,7 @@ dev-db/pgbouncer:libevent - Use libevent 2.0+ and evdns as the DNS backend
 dev-db/pgbouncer:udns - Use udns as the DNS backend. Supports IPv4 only.
 dev-db/pgpool2:memcached - Use memcached for query caching.
 dev-db/phpmyadmin:setup - Installs the phpMyAdmin setup utility. Users who don't use the utility should disable this USE flag for security reasons as the setup tool was the target of various exploits in the past.
-dev-db/postgis:geos - Add the sci-libs/geos library for exact topological tests
 dev-db/postgis:gtk - Build shp2pgsql-gui a graphical interface to shp2pgsql
-dev-db/postgis:proj - Add the sci-libs/proj library for reprojection features
 dev-db/postgresql-base:pg_legacytimestamp - Use double precision floating-point numbers instead of 64-bit integers for timestamp storage.
 dev-db/postgresql-server:pg_legacytimestamp - Use double precision floating-point numbers instead of 64-bit integers for timestamp storage.
 dev-db/postgresql-server:uuid - Enable server side UUID generation (via dev-libs/ossp-uuid)
@@ -2308,6 +2306,8 @@ dev-tex/circuit_macros:script - Install cm2pdf to automatically create a correct
 dev-tex/dot2texi:pgf - Enable support for dev-tex/pgf (The TeX Portable Graphic Format)
 dev-tex/dot2texi:pstricks - Enable pstricks support
 dev-util/android-ndk:legacy-toolchains - Install legacy toolchains
+dev-util/android-ndk:target-32 - Support for 32-bit targets
+dev-util/android-ndk:target-64 - Support for 64-bit targets
 dev-util/anjuta:devhelp - Enable devhelp integration
 dev-util/anjuta:glade - Build glade plugin for anjuta
 dev-util/anjuta:packagekit - Use packagekit to search for missing tools
@@ -3026,6 +3026,7 @@ kde-misc/networkmanagement:openconnect - Build support for the OpenConnect VPN c
 kde-misc/plasma-nm:modemmanager - Enable support for mobile broadband devices
 kde-misc/plasma-nm:openconnect - Build support for the OpenConnect VPN client
 kde-misc/tellico:addressbook - Add support for kdepim addressbook (kabc)
+kde-misc/tellico:nepomuk - Enable Nepomuk based semantic desktop support (deprecated)
 lxde-base/lxdm:consolekit - Enables support for authorization using consolekit
 lxde-base/lxdm:gtk3 - Use GTK+3 instead of 2
 lxqt-base/lxqt-meta:icons - Install lxde-base/lxde-icon-theme icon theme
@@ -5530,6 +5531,7 @@ net-misc/ofono:provision - Enable GPRS provisioning support
 net-misc/ofono:qmimodem - Enable Qualcomm QMI modem support
 net-misc/ofono:tools - Enable testing tools
 net-misc/oidentd:masquerade - Enable support for masqueraded/NAT connections
+net-misc/openconnect:gssapi - Build GSSAPI support.
 net-misc/openconnect:java - Build JNI bindings using jni.h
 net-misc/openconnect:libproxy - Enable proxy support.
 net-misc/openssh:X509 - Adds support for X.509 certificate authentication
@@ -5888,6 +5890,7 @@ net-wireless/gnuradio:performance-counters - enable block performance counters
 net-wireless/gnuradio:uhd - install UHD source and sink blocks
 net-wireless/gnuradio:utils - install scripts to enable viewing and analysis of files produced by flow graphs
 net-wireless/gnuradio:wavelet - enable wavelet signal processing blocks
+net-wireless/gnuradio:zeromq - enable zeromq message passing blocks
 net-wireless/gr-osmosdr:bladerf - Build with Nuand BladeRF support
 net-wireless/gr-osmosdr:fcd - Build with Funcube Dongle support
 net-wireless/gr-osmosdr:hackrf - Build with Great Scott Gadgets HackRF support
