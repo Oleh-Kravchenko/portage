@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/ffmpeg/ffmpeg-9999.ebuild,v 1.160 2014/07/06 10:09:30 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/ffmpeg/ffmpeg-9999.ebuild,v 1.168 2014/07/27 13:10:10 ssuominen Exp $
 
 EAPI="5"
 
@@ -34,25 +34,25 @@ else # Release
 fi
 FFMPEG_REVISION="${PV#*_p}"
 
-LICENSE="GPL-2 amr? ( GPL-3 ) encode? ( aac? ( GPL-3 ) )"
+LICENSE="GPL-2 amr? ( GPL-3 ) encode? ( aac? ( GPL-3 ) ) samba? ( GPL-3 )"
 SLOT="0/${FFMPEG_SUBSLOT}"
 if [ "${PV#9999}" = "${PV}" ] ; then
 	KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux"
 fi
 IUSE="
-	aac aacplus alsa amr amrenc bindist bluray +bzip2 cdio celt
+	aac aacplus alsa amr amrenc bindist bluray bs2b +bzip2 cdio celt
 	cpudetection debug doc +encode examples faac fdk flite fontconfig frei0r
-	gme	gnutls gsm +hardcoded-tables +iconv iec61883 ieee1394 jack jpeg2k
-	ladspa libass libcaca libsoxr libv4l modplug mp3 +network openal opengl
-	openssl opus oss pic pulseaudio quvi rtmp schroedinger sdl speex ssh
-	static-libs test theora threads truetype twolame v4l vaapi vdpau vorbis vpx
-	wavpack webp X x264 x265 xvid +zlib zvbi
+	fribidi gme	gnutls gsm +hardcoded-tables +iconv iec61883 ieee1394 jack
+	jpeg2k ladspa libass libcaca libsoxr libv4l modplug mp3 +network openal
+	opengl openssl opus oss pic pulseaudio quvi rtmp samba schroedinger sdl
+	speex ssh static-libs test theora threads truetype twolame v4l vaapi vdpau
+	vorbis vpx wavpack webp X x264 x265 xvid +zlib zvbi
 	"
 
 ARM_CPU_FEATURES="armv5te armv6 armv6t2 neon armvfp:vfp"
 MIPS_CPU_FEATURES="mips32r2 mipsdspr1 mipsdspr2 mipsfpu"
 PPC_CPU_FEATURES="altivec"
-X86_CPU_FEATURES="3dnow:amd3dnow 3dnowext:amd3dnowext avx avx2 fma3 fma4 mmx mmxext sse sse2 sse3 ssse3 sse4 sse4_2:sse42"
+X86_CPU_FEATURES="3dnow:amd3dnow 3dnowext:amd3dnowext avx avx2 fma3 fma4 mmx mmxext sse sse2 sse3 ssse3 sse4 sse4_2:sse42 xop"
 
 # String for CPU features in the useflag[:configure_option] form
 # if :configure_option isn't set, it will use 'useflag' as configure option
@@ -77,6 +77,7 @@ RDEPEND="
 	alsa? ( >=media-libs/alsa-lib-1.0.27.2[${MULTILIB_USEDEP}] )
 	amr? ( >=media-libs/opencore-amr-0.1.3-r1[${MULTILIB_USEDEP}] )
 	bluray? ( >=media-libs/libbluray-0.3.0-r1[${MULTILIB_USEDEP}] )
+	bs2b? ( >=media-libs/libbs2b-3.1.0-r1[${MULTILIB_USEDEP}] )
 	bzip2? ( >=app-arch/bzip2-1.0.6-r4[${MULTILIB_USEDEP}] )
 	cdio? (
 		|| (
@@ -99,13 +100,14 @@ RDEPEND="
 		wavpack? ( >=media-sound/wavpack-4.60.1-r1[${MULTILIB_USEDEP}] )
 		webp? ( >=media-libs/libwebp-0.3.0[${MULTILIB_USEDEP}] )
 		x264? ( >=media-libs/x264-0.0.20130506:=[${MULTILIB_USEDEP}] )
-		x265? ( >=media-libs/x265-1.0:=[${MULTILIB_USEDEP}] )
+		x265? ( >=media-libs/x265-1.2:=[${MULTILIB_USEDEP}] )
 		xvid? ( >=media-libs/xvid-1.3.2-r1[${MULTILIB_USEDEP}] )
 	)
 	fdk? ( >=media-libs/fdk-aac-0.1.3[${MULTILIB_USEDEP}] )
 	flite? ( >=app-accessibility/flite-1.4-r4[${MULTILIB_USEDEP}] )
 	fontconfig? ( >=media-libs/fontconfig-2.10.92[${MULTILIB_USEDEP}] )
 	frei0r? ( media-plugins/frei0r-plugins )
+	fribidi? ( >=dev-libs/fribidi-0.19.6[${MULTILIB_USEDEP}] )
 	gme? ( >=media-libs/game-music-emu-0.6.0[${MULTILIB_USEDEP}] )
 	gnutls? ( >=net-libs/gnutls-2.12.23-r6[${MULTILIB_USEDEP}] )
 	gsm? ( >=media-sound/gsm-1.0.13-r1[${MULTILIB_USEDEP}] )
@@ -131,10 +133,11 @@ RDEPEND="
 	openssl? ( >=dev-libs/openssl-1.0.1h-r2[${MULTILIB_USEDEP}] )
 	opus? ( >=media-libs/opus-1.0.2-r2[${MULTILIB_USEDEP}] )
 	pulseaudio? ( >=media-sound/pulseaudio-2.1-r1[${MULTILIB_USEDEP}] )
-	quvi? ( media-libs/libquvi:0.4 )
+	quvi? ( media-libs/libquvi:0.4[${MULTILIB_USEDEP}] )
 	rtmp? ( >=media-video/rtmpdump-2.4_p20131018[${MULTILIB_USEDEP}] )
-	sdl? ( >=media-libs/libsdl-1.2.15-r4[sound,video,${MULTILIB_USEDEP}] )
+	samba? ( >=net-fs/samba-3.6.23-r1[${MULTILIB_USEDEP}] )
 	schroedinger? ( >=media-libs/schroedinger-1.0.11-r1[${MULTILIB_USEDEP}] )
+	sdl? ( >=media-libs/libsdl-1.2.15-r4[sound,video,${MULTILIB_USEDEP}] )
 	speex? ( >=media-libs/speex-1.2_rc1-r1[${MULTILIB_USEDEP}] )
 	ssh? ( >=net-libs/libssh-0.5.5[${MULTILIB_USEDEP}] )
 	truetype? ( >=media-libs/freetype-2.5.0.1:2[${MULTILIB_USEDEP}] )
@@ -203,10 +206,11 @@ multilib_src_configure() {
 	# or $(use_enable foo foo) if no :bar is set.
 	local ffuse=(
 		bzip2:bzlib cpudetection:runtime-cpudetect debug doc
-		gnutls hardcoded-tables iconv network openssl sdl:ffplay vaapi
-		vdpau X:xlib zlib
+		gnutls hardcoded-tables iconv network openssl samba:libsmbclient
+		sdl:ffplay vaapi vdpau X:xlib zlib
 	)
 	use openssl && myconf+=( --enable-nonfree )
+	use samba && myconf+=( --enable-version3 )
 
 	# Encoders
 	if use encode
@@ -243,7 +247,7 @@ multilib_src_configure() {
 	done
 
 	# libavfilter options
-	ffuse+=( flite:libflite frei0r fontconfig ladspa libass truetype:libfreetype )
+	ffuse+=( bs2b:libbs2b flite:libflite frei0r fribidi:libfribidi fontconfig ladspa libass truetype:libfreetype )
 
 	# libswresample options
 	ffuse+=( libsoxr )
@@ -265,7 +269,7 @@ multilib_src_configure() {
 
 	# (temporarily) disable non-multilib deps
 	if ! multilib_is_native_abi; then
-		for i in frei0r libquvi; do
+		for i in frei0r ; do
 			myconf+=( --disable-${i} )
 		done
 	fi
@@ -363,6 +367,7 @@ multilib_src_install() {
 
 multilib_src_install_all() {
 	dodoc Changelog README.md CREDITS doc/*.txt doc/APIchanges
+	[ -f "RELEASE_NOTES" ] && dodoc "RELEASE_NOTES"
 	use doc && dohtml -r doc/*
 	if use examples ; then
 		dodoc -r doc/examples
