@@ -453,6 +453,7 @@ app-editors/zile:valgrind - Enable usage of dev-util/valgrind in tests
 app-emacs/anything:extensions - Install optional extensions
 app-emacs/auctex:preview-latex - Use bundled preview-latex
 app-emacs/bbdb:tex - Install plain TeX support files
+app-emacs/bbdb:vm - Add support for app-emacs/vm
 app-emacs/calfw:howm - Add support for the app-emacs/howm note-taking tool
 app-emacs/company-mode:ropemacs - Install backend for dev-python/ropemacs
 app-emacs/emacs-common-gentoo:games - Support shared score files for games
@@ -770,6 +771,7 @@ app-leechcraft/lc-blogique:metida - Support for the LiveJournal blogging platfor
 app-leechcraft/lc-core:qwt - Support for QML plotting item through x11-libs/qwt
 app-leechcraft/lc-gmailnotifier:notify - Pull in a plugin to show notifications from GMail Notiifer
 app-leechcraft/lc-gmailnotifier:quark - Pull in a plugin to show GMail Notifier's quark
+app-leechcraft/lc-liznoo:systemd - Pull in correct UPower dependencies for systemd and non-systemd users.
 app-leechcraft/lc-lmp:fradj - Build FrAdj, the equalizer effect module
 app-leechcraft/lc-lmp:graffiti - Build media tags editor plugin
 app-leechcraft/lc-lmp:guess - Enable tags encoding guessing via the libguess library
@@ -4252,7 +4254,6 @@ media-video/mplayer:bs2b - Enable Bauer stereophonic-to-binaural headphone filte
 media-video/mplayer:cdio - Use libcdio for CD support (instead of cdparanoia)
 media-video/mplayer:cpudetection - Enables runtime CPU detection (useful for bindist, compatibility on other CPUs)
 media-video/mplayer:dvdnav - Use forked libdvdnav, navigate menus in GUIs
-media-video/mplayer:dxr3 - Enable DXR3/H+ video output
 media-video/mplayer:enca - Enables support for charset discovery and conversion
 media-video/mplayer:faac - Use external faac library for AAC encoding
 media-video/mplayer:faad - Use external faad library for AAC decoding
@@ -6391,6 +6392,7 @@ sys-apps/busybox:mdev - Create the appropriate symlink in /sbin and install mdev
 sys-apps/busybox:sep-usr - Support a separate /usr without needing an initramfs by booting with init=/ginit
 sys-apps/busybox:static - Make the system rescue shell (/bin/bb) static so you can recover even when glibc is broken
 sys-apps/busybox:systemd - Support systemd
+sys-apps/coreutils:multicall - Build all tools into a single `coreutils` program akin to busybox to save space
 sys-apps/dbus:systemd - Build with sys-apps/systemd at_console support
 sys-apps/dmtcp:fast - Enable experimental performance options such as mmap allocator.
 sys-apps/dmtcp:trace - Enable ptrace support (only valid with debug enabled).
@@ -6513,6 +6515,7 @@ sys-apps/systemd:gudev - enable libudev gobject interface
 sys-apps/systemd:http - Enable embedded HTTP server in journald
 sys-apps/systemd:kdbus - Connect to kernel dbus (KDBUS) instead of userspace dbus if available
 sys-apps/systemd:kmod - Enable kernel module loading via sys-apps/kmod
+sys-apps/systemd:lz4 - Enable lz4 compression for the journal
 sys-apps/systemd:qrcode - Enable qrcode output support in journal
 sys-apps/systemd:seccomp - Enable system call filtering via seccomp
 sys-apps/systemd:vanilla - Disable Gentoo-specific behavior and compatibility quirks
@@ -7259,6 +7262,7 @@ www-servers/uwsgi:zeromq - Enable logging and deployment via ZeroMQ.
 www-servers/varnish:jemalloc - Use dev-libs/jemalloc for allocations
 www-servers/varnish:tools - Build additional tools: varnishhist, varnishstat, varnishtop, varnishsizes
 x11-apps/ardesia:cwiid - cwiid support: collection of Linux tools written in C for interfacing to the Nintendo Wiimote.
+x11-apps/intel-gpu-tools:python - Install python based register dumper utilities
 x11-apps/mesa-progs:egl - Build EGL utilities
 x11-apps/mesa-progs:gles1 - Build OpenGL ES 1 utilities
 x11-apps/mesa-progs:gles2 - Build OpenGL ES 2 utilities
