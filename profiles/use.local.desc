@@ -1221,6 +1221,17 @@ dev-db/mysql:test - Install upstream testsuites for end use.
 dev-db/mysql:xtradb - Add experimental support for Percona's InnoDB replacement: XtraDB
 dev-db/mysql-connector-c++:gcov - Build coverage support
 dev-db/opendbx:bindist - Disable support for dev-db/firebird database which is not GPL compatible.
+dev-db/percona-server:cluster - Add support for NDB clustering (deprecated)
+dev-db/percona-server:community - Enables the community features from upstream.
+dev-db/percona-server:embedded - Build embedded server (libmysqld)
+dev-db/percona-server:extraengine - Add support for alternative storage engines (Archive, CSV, Blackhole, Federated(X), Partition)
+dev-db/percona-server:jemalloc - Use dev-libs/jemalloc for allocations.
+dev-db/percona-server:latin1 - Use LATIN1 encoding instead of UTF8
+dev-db/percona-server:max-idx-128 - Raise the max index per table limit from 64 to 128
+dev-db/percona-server:minimal - Install client programs only, no server
+dev-db/percona-server:profiling - Add support for statement profiling (requires USE=community).
+dev-db/percona-server:systemtap - Build support for profiling and tracing using dev-util/systemtap
+dev-db/percona-server:test - Install upstream testsuites for end use.
 dev-db/pgadmin3:databasedesigner - Enable the Database Designer component
 dev-db/pgbouncer:libevent - Use libevent 2.0+ and evdns as the DNS backend
 dev-db/pgbouncer:udns - Use udns as the DNS backend. Supports IPv4 only.
@@ -4131,7 +4142,6 @@ media-video/dvd-slideshow:themes - Install theme pack
 media-video/dvdauthor:graphicsmagick - Use media-gfx/graphicsmagick instead of media-gfx/imagemagick
 media-video/dvdrip:fping - Enables fping support for cluster rendering
 media-video/dvdrip:subtitles - Enables support for subtitle ripping
-media-video/dvdstyler:deprecated - Use the old libgnomeui-2 library
 media-video/ffdiaporama:openclipart - Support openslipart database
 media-video/ffdiaporama:texturemate - Install extra backgrounds
 media-video/ffmpeg:3dnowext - Enable manually-optimised routines using the AMD 3DNow!Ex SIMD instruction set, present in modern AMD CPUs. (Check for 3dnowext in /proc/cpuinfo to know whether your CPU supports it).
@@ -5720,6 +5730,8 @@ net-p2p/amule:stats - Enable statistic reporting
 net-p2p/bitcoin-qt:1stclassmsg - Enable first-class Bitcoin message tools
 net-p2p/bitcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
 net-p2p/bitcoind:logrotate - Use app-admin/logrotate for rotating logs
+net-p2p/bitcoind:upnp - Enable Universal Plug and Play
+net-p2p/bitcoind:wallet - Enable wallet support
 net-p2p/datacoin-hp:logrotate - Use app-admin/logrotate for rotating logs
 net-p2p/dbhub:switch_user - Enable support for switching user
 net-p2p/deluge:setproctitle - Install dependencies needed for beautifying the process name

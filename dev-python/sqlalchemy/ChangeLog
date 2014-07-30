@@ -1,6 +1,16 @@
 # ChangeLog for dev-python/sqlalchemy
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/sqlalchemy/ChangeLog,v 1.128 2014/07/18 15:08:41 klausman Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/sqlalchemy/ChangeLog,v 1.130 2014/07/29 10:38:17 jer Exp $
+
+  29 Jul 2014; Jeroen Roovers <jer@gentoo.org> sqlalchemy-0.7.9.ebuild:
+  Stable for HPPA (bug #518468).
+
+*sqlalchemy-0.9.7 (29 Jul 2014)
+
+  29 Jul 2014; Ian Delaney <idella4@gentoo.org> +sqlalchemy-0.9.7.ebuild,
+  -sqlalchemy-0.7.4.ebuild, -sqlalchemy-0.7.5.ebuild, -sqlalchemy-0.7.6.ebuild,
+  -sqlalchemy-0.7.7.ebuild, -sqlalchemy-0.7.8.ebuild:
+  bump; clean old python impls, rm some old
 
   18 Jul 2014; Tobias Klausmann <klausman@gentoo.org> sqlalchemy-0.9.2.ebuild:
   Stable on alpha, bug #505840

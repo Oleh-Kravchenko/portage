@@ -1,10 +1,10 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/pkgconfig/pkgconfig-9999.ebuild,v 1.13 2014/06/24 21:56:52 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-util/pkgconfig/pkgconfig-9999.ebuild,v 1.14 2014/07/29 07:58:43 ssuominen Exp $
 
 EAPI=5
 
-inherit flag-o-matic libtool multilib multilib-minimal
+inherit eutils flag-o-matic libtool multilib multilib-minimal
 
 MY_P=pkg-config-${PV}
 
@@ -35,6 +35,8 @@ DOCS=( AUTHORS NEWS README )
 
 src_prepare() {
 	sed -i -e "s|^prefix=/usr\$|prefix=${EPREFIX}/usr|" check/simple.pc || die #434320
+
+	epatch_user
 
 	if [[ ${PV} == *9999* ]]; then
 		eautoreconf

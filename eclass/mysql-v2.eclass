@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/mysql-v2.eclass,v 1.32 2014/07/19 10:18:41 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/mysql-v2.eclass,v 1.34 2014/07/29 20:24:00 robbat2 Exp $
 
 # @ECLASS: mysql-v2.eclass
 # @MAINTAINER:
@@ -45,7 +45,7 @@ MYSQL_EXTRAS=""
 # @DESCRIPTION:
 # The version of the MYSQL_EXTRAS repo to use to build mysql
 # Use "none" to disable it's use
-[[ ${MY_EXTRAS_VER} == "live" ]] && MYSQL_EXTRAS="git-2"
+[[ ${MY_EXTRAS_VER} == "live" ]] && MYSQL_EXTRAS="git-r3"
 
 inherit eutils flag-o-matic gnuconfig ${MYSQL_EXTRAS} ${BUILD_INHERIT} mysql_fx versionator toolchain-funcs user
 
@@ -70,9 +70,9 @@ S="${WORKDIR}/mysql"
 
 [[ ${MY_EXTRAS_VER} == "latest" ]] && MY_EXTRAS_VER="20090228-0714Z"
 if [[ ${MY_EXTRAS_VER} == "live" ]]; then
-	EGIT_PROJECT=mysql-extras
 	EGIT_REPO_URI="git://git.overlays.gentoo.org/proj/mysql-extras.git"
-	RESTRICT="userpriv"
+	EGIT_CHECKOUT_DIR=${WORKDIR}/mysql-extras
+	EGIT_CLONE_TYPE=shallow
 fi
 
 # @ECLASS-VARIABLE: MYSQL_PV_MAJOR
@@ -83,10 +83,18 @@ fi
 MYSQL_PV_MAJOR="$(get_version_component_range 1-2 ${PV})"
 
 # Cluster is a special case...
-if [[ "${PN}" == "mysql-cluster" ]]; then
-	case $PV in
+if [[ ${PN} == "mysql-cluster" ]]; then
+	case ${PV} in
 		6.1*|7.0*|7.1*) MYSQL_PV_MAJOR=5.1 ;;
-		7.2*|7.3*) MYSQL_PV_MAJOR=5.5 ;;
+		7.2*) MYSQL_PV_MAJOR=5.5 ;;
+		7.3*) MYSQL_PV_MAJOR=5.6 ;;
+	esac
+fi
+
+# MariaDB has left the numbering schema but keeping compatibility
+if [[ ${PN} == "mariadb" || ${PN} == "mariadb-galera" ]]; then
+	case ${PV} in
+		10.0*|10.1*) MYSQL_PV_MAJOR="5.6" ;;
 	esac
 fi
 
@@ -209,8 +217,15 @@ esac
 # Common IUSE
 IUSE="${IUSE} latin1 extraengine cluster max-idx-128 +community profiling"
 
+# This probably could be simplified, but the syntax would have to be just right
 if [[ ${PN} == "mariadb" || ${PN} == "mariadb-galera" ]] && \
-	mysql_version_is_at_least "5.5" || mysql_check_version_range "5.5.37 to 5.6.11.99" ; then
+	mysql_version_is_at_least "5.5" ; then
+	IUSE="bindist ${IUSE}"
+elif [[ ${PN} == "mysql" || ${PN} == "percona-server" ]] && \
+	mysql_check_version_range "5.5.37 to 5.6.11.99" ; then
+	IUSE="bindist ${IUSE}"
+elif [[ ${PN} == "mysql-cluster" ]] && \
+	mysql_check_version_range "7.2 to 7.2.99.99"  ; then
 	IUSE="bindist ${IUSE}"
 fi
 
@@ -260,7 +275,11 @@ DEPEND="
 #	!dev-db/mariadb-native-client[mysqlcompat]
 
 # dev-db/mysql-5.6.12+ only works with dev-libs/libedit
-if [[ ${PN} == "mysql" || ${PN} == "percona-server" ]] && mysql_version_is_at_least "5.6.12" ; then
+# This probably could be simplified
+if [[ ${PN} == "mysql" || ${PN} == "percona-server" ]] && \
+	mysql_version_is_at_least "5.6.12" ; then
+	DEPEND="${DEPEND} dev-libs/libedit"
+elif [[ ${PN} == "mysql-cluster" ]] && mysql_version_is_at_least "7.3"; then
 	DEPEND="${DEPEND} dev-libs/libedit"
 else
 	if mysql_version_is_at_least "5.5" ; then
@@ -506,7 +525,7 @@ mysql-v2_src_unpack() {
 
 	unpack ${A}
 	# Grab the patches
-	[[ "${MY_EXTRAS_VER}" == "live" ]] && S="${WORKDIR}/mysql-extras" git-2_src_unpack
+	[[ "${MY_EXTRAS_VER}" == "live" ]] && S="${WORKDIR}/mysql-extras" git-r3_src_unpack
 
 	mv -f "${WORKDIR}/${MY_SOURCEDIR}" "${S}"
 }
