@@ -1,6 +1,19 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1331 2014/07/29 17:59:21 robbat2 Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1333 2014/07/30 19:49:46 ssuominen Exp $
+
+  30 Jul 2014; Samuli Suominen <ssuominen@gentoo.org> udev.eclass:
+  Deprecate the longer udev_get_udevdir() function in favour of the shorter
+  get_udevdir(), notably gentoo-x86 has been fully converted
+
+  30 Jul 2014; Robin H. Johnson <robbat2@gentoo.org> apache-2.eclass:
+  Handle grsec TPE to ensure apache can compile. $T is group-writable, owned by
+  portage, and TPE blocks that.
+
+  29 Jul 2014; Robin H. Johnson <robbat2@gentoo.org> mysql.eclass,
+  mysql-multilib.eclass, mysql-v2.eclass:
+  Convert mysql eclasses to git-r3 eclass, so we can remove RESTRICT=userpriv
+  for live copies of the patches.
 
   29 Jul 2014; Robin H. Johnson <robbat2@gentoo.org> +mysql-multilib.eclass,
   mysql.eclass, mysql-autotools.eclass, mysql-cmake.eclass, mysql-v2.eclass,

@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-devel/gdb/gdb-9999.ebuild,v 1.27 2014/04/27 21:36:50 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/gdb/gdb-9999.ebuild,v 1.28 2014/07/30 12:42:27 vapier Exp $
 
 EAPI="4"
 PYTHON_COMPAT=( python{2_7,3_3,3_4} )
@@ -38,8 +38,8 @@ case ${PV} in
 	;;
 *)
 	# Normal upstream release
-	SRC_URI="mirror://gnu/gdb/${P}.tar.bz2
-		ftp://sourceware.org/pub/gdb/releases/${P}.tar.bz2"
+	SRC_URI="mirror://gnu/gdb/${P}.tar.xz
+		ftp://sourceware.org/pub/gdb/releases/${P}.tar.xz"
 	;;
 esac
 
