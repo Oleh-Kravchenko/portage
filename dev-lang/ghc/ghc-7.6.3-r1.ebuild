@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/ghc/ghc-7.6.3-r1.ebuild,v 1.12 2014/07/05 15:40:40 slyfox Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/ghc/ghc-7.6.3-r1.ebuild,v 1.14 2014/08/01 20:33:54 slyfox Exp $
 
 # Brief explanation of the bootstrap logic:
 #
@@ -443,6 +443,8 @@ src_prepare() {
 		epatch "${FILESDIR}"/${PN}-7.6.2-integer-simple-div-mod.patch
 		# ghc-7.8 changed linker code and likely fixed it
 		epatch "${FILESDIR}"/${PN}-7.6.3-trac-3333-weak-syms.patch
+		# bug 518734
+		epatch "${FILESDIR}"/${PN}-7.6.3-preserve-inplace-xattr.patch
 
 		if use prefix; then
 			# Make configure find docbook-xsl-stylesheets from Prefix
@@ -604,10 +606,10 @@ src_compile() {
 		#   but let users screw it by setting 'I_DEMAND_MY_CORES_LOADED'
 		# 4 parallel jobs usually does not break
 
-		# 1. build compiler binary(+wrapper) first
-		emake $(limit_jobs 4) inplace/bin/ghc-stage2 V=1
+		# 1. build compiler binary first
+		emake $(limit_jobs 4) ghc/stage2/build/tmp/ghc-stage2 V=1
 		# 2. pax-mark (bug #516430)
-		pax-mark -m inplace/lib/ghc-stage2
+		pax-mark -m ghc/stage2/build/tmp/ghc-stage2
 		# 3. and then all the rest
 		emake $(limit_jobs 4) all V=1
 
@@ -726,15 +728,10 @@ src_install() {
 			DESTDIR="${D}" \
 			|| die "make ${insttarget} failed"
 
-		# remove wrapper and linker
+		# remove wrapper and link
 		rm -f "${ED}"/usr/bin/haddock*
 
 		add-c_nonshared-to-ghci-libs
-
-		# ghci uses mmap with rwx protection at it implements dynamic
-		# linking on it's own (bug #299709)
-		# so mark resulting binary
-		pax-mark -m "${ED}/usr/$(get_libdir)/${P}/ghc"
 
 		if [[ ! -f "${S}/VERSION" ]]; then
 			echo "${GHC_PV}" > "${S}/VERSION" \
