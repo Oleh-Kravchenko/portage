@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15940 2014/08/03 22:07:23 robbat2 Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15949 2014/08/04 20:43:24 robbat2 Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,17 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Robin H. Johnson <robbat2@gentoo.org> (04 Aug 2014)
+# Masked for testing, presently fails upstream testsuite:
+# FAIL:07:02:35 (00:00:00) db_dump/db_load(./TESTDIR.3/recd001.db:child killed: kill signal): expected 0, got 1
+# FAIL:07:02:35 (00:00:00) Dump/load of ./TESTDIR.3/recd001.db failed.
+# FAIL:07:02:35 (00:00:00) db_verify_preop: expected 0, got 1
+=sys-libs/db-6.1*
+
+# Alexis Ballier <aballier@gentoo.org> (4 Aug 2014)
+# <vlc-2.2 will not work with this ffmpeg version; others to be investigated.
+>=media-video/ffmpeg-2.3
 
 # Mikle Kolyada <zlogene@gentoo.org>
 # Masked due to upstream QA issues.
@@ -602,10 +613,6 @@ games-emulation/m64py
 # Some features require Qt 5.2, which is not in tree yet.
 =dev-qt/qt-creator-3*
 
-# Stanislav Ochotnicky <sochotnicky@gentoo.org (14 Oct 2013)
-# Mask live ebuild of sys-fs/simple-mtpfs (#488038)
-=sys-fs/simple-mtpfs-9999
-
 # Justin Lecher <jlec@gentoo.org> (14 Oct 2013)
 # Seems to break all deps - API change?
 >=sci-libs/metis-5
@@ -779,16 +786,6 @@ app-text/cuneiform
 #net-wireless/madwifi-ng-tools
 net-wireless/madwifi-ng
 
-# Tim Harder <radhermit@gentoo.org> (27 Nov 2012)
-# Masked for testing, all revdeps currently in the tree
-# don't work with it.
-=media-libs/libsfml-2*
-
-# Robin H. Johnson <robbat2@gentoo.org> (18 Nov 2012)
-# Dead upstream, replaced by gitolite
-dev-vcs/gitosis
-dev-vcs/gitosis-gentoo
-
 # Markos Chandras <hwoarang@gentoo.org> (03 Nov 2012)
 # Masked for testing
 app-benchmarks/ltp
@@ -814,13 +811,6 @@ dev-ml/ocamlduce
 # Masked until each package can update its dependencies.
 >=net-libs/libotr-4.0.0
 >=x11-plugins/pidgin-otr-4.0.0
-
-# Robin H. Johnson <robbat2@gentoo.org> (08 Oct 2012)
-# Masked for testing
-# 2014/08/03: Cleanup in progress, as they pass testsuite, they are being unmasked
-=sys-libs/db-5.2*
-=sys-libs/db-5.1*
-=sys-libs/db-5.0*
 
 # Ralph Sennhauser <sera@gentoo.org> (18 Jul 2012)
 # Unmaintained, multiple vulnarabilities. #351626
@@ -973,11 +963,6 @@ net-misc/asterisk-spandsp_codec_g726
 # No actual Gentoo support yet. If you're interested, please see bug #295993
 net-misc/netcf
 
-# Robin H. Johnson <robbat2@gentoo.org> (09 Jun 2010)
-# Fails to self-verify/sign in FIPS mode, pending upstream response before
-# usage for GSoC project.
-app-crypt/hmaccalc
-
 # Patrick Lauer <patrick@gentoo.org> (07 Apr 2010)
 # Lars Wendler <polynomial-c@gentoo.org> (14 Oct 2013)
 # Keeping samba-4.0 masked until bug #447022 is fixed. 4.1 masked for testing.
@@ -1012,16 +997,11 @@ sys-auth/pam_keystore
 # live ebuilds, nor the availability of the server hosting them. As
 # per QA team policy, all these need to be kept masked by default, if
 # available in the tree.
-~app-doc/devmanual-9999
-=app-forensics/openscap-9999
 ~app-i18n/skk-jisyo-9999
-=app-misc/mc-9999
-~app-misc/screenfetch-9999
 =app-misc/sleepyhead-9999
 =app-pda/libsyncml-9999
 =app-pda/libopensync-9999
 =app-pda/osynctool-9999
-=app-pda/libopensync-plugin-evolution2-9999
 =app-pda/libopensync-plugin-file-9999
 =app-pda/libopensync-plugin-gnokii-9999
 =app-pda/libopensync-plugin-gpe-9999
@@ -1031,29 +1011,7 @@ sys-auth/pam_keystore
 =app-pda/libopensync-plugin-syncml-9999
 =app-pda/libopensync-plugin-vformat-9999
 app-portage/layman-dbtools
-=dev-embedded/openocd-9999
-~dev-lang/jimtcl-9999
-~dev-libs/libg15-9999
-=net-print/cups-9999
-~dev-util/buildbot-9999
-~dev-util/buildbot-slave-9999
-=net-im/kmess-9999
-net-misc/netcomics-cvs
-=media-plugins/vdr-xineliboutput-9999
-=media-plugins/vdr-xvdr-9999
-=sci-astronomy/casa-data-99999
-=sys-fs/redirfs-9999
-sys-kernel/zen-sources
 =www-plugins/google-talkplugin-9999
-~x11-wm/openbox-9999
-
-# Jeremy Olexa <darkside@gentoo.org> (28 Jul 2009)
-# On behalf of Robin H. Johnson <robbat2@gentoo.org>.
-# These versions are vulnerable to GLSA's and should not be used. They will stay
-# in the tree because they are useful to tracking down bugs. You have been
-# warned. bug 271686
-<dev-db/mysql-5.1.56
-<virtual/mysql-5.1
 
 # Tiziano Müller <dev-zero@gentoo.org> (08 Apr 2009)
 # pre-releases
