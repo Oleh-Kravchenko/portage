@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-2.1.0.ebuild,v 1.1 2014/08/04 06:45:21 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-2.1.0.ebuild,v 1.8 2014/08/05 09:29:12 vapier Exp $
 
 EAPI=5
 
@@ -30,9 +30,10 @@ HOMEPAGE="http://www.qemu.org http://www.linux-kvm.org"
 LICENSE="GPL-2 LGPL-2 BSD-2"
 SLOT="0"
 IUSE="accessibility +aio alsa bluetooth +caps +curl debug +fdt glusterfs \
-gtk iscsi +jpeg \
-kernel_linux kernel_FreeBSD ncurses nls opengl +png pulseaudio python \
-rbd sasl +seccomp sdl selinux smartcard spice ssh static static-softmmu \
+gtk infiniband iscsi +jpeg \
+kernel_linux kernel_FreeBSD lzo ncurses nfs nls numa opengl +pin-upstream-blobs
++png pulseaudio python \
+rbd sasl +seccomp sdl selinux smartcard snappy spice ssh static static-softmmu \
 static-user systemtap tci test +threads tls usb usbredir +uuid vde +vhost-net \
 virtfs +vnc xattr xen xfs"
 
@@ -70,13 +71,18 @@ SOFTMMU_LIB_DEPEND="${COMMON_LIB_DEPEND}
 	curl? ( >=net-misc/curl-7.15.4[static-libs(+)] )
 	fdt? ( >=sys-apps/dtc-1.4.0[static-libs(+)] )
 	glusterfs? ( >=sys-cluster/glusterfs-3.4.0[static-libs(+)] )
+	infiniband? ( sys-infiniband/librdmacm[static-libs(+)] )
 	jpeg? ( virtual/jpeg[static-libs(+)] )
+	lzo? ( dev-libs/lzo:2[static-libs(+)] )
 	ncurses? ( sys-libs/ncurses[static-libs(+)] )
+	nfs? ( net-fs/libnfs[static-libs(+)] )
+	numa? ( sys-process/numactl[static-libs(+)] )
 	png? ( media-libs/libpng[static-libs(+)] )
 	rbd? ( sys-cluster/ceph[static-libs(+)] )
 	sasl? ( dev-libs/cyrus-sasl[static-libs(+)] )
 	sdl? ( >=media-libs/libsdl-1.2.11[static-libs(+)] )
 	seccomp? ( >=sys-libs/libseccomp-2.1.0[static-libs(+)] )
+	snappy? ( app-arch/snappy[static-libs(+)] )
 	spice? ( >=app-emulation/spice-0.12.0[static-libs(+)] )
 	ssh? ( >=net-libs/libssh2-1.2.8[static-libs(+)] )
 	tls? ( net-libs/gnutls[static-libs(+)] )
@@ -86,20 +92,22 @@ SOFTMMU_LIB_DEPEND="${COMMON_LIB_DEPEND}
 	xattr? ( sys-apps/attr[static-libs(+)] )
 	xfs? ( sys-fs/xfsprogs[static-libs(+)] )"
 USER_LIB_DEPEND="${COMMON_LIB_DEPEND}"
+X86_FIRMWARE_DEPEND="
+	>=sys-firmware/ipxe-1.0.0_p20130624
+	pin-upstream-blobs? (
+		~sys-firmware/seabios-1.7.5
+		~sys-firmware/sgabios-0.1_pre8
+		~sys-firmware/vgabios-0.7a
+	)
+	!pin-upstream-blobs? (
+		sys-firmware/seabios
+		sys-firmware/sgabios
+		sys-firmware/vgabios
+	)"
 RDEPEND="!static-softmmu? ( ${SOFTMMU_LIB_DEPEND//\[static-libs(+)]} )
 	!static-user? ( ${USER_LIB_DEPEND//\[static-libs(+)]} )
-	qemu_softmmu_targets_i386? (
-		>=sys-firmware/ipxe-1.0.0_p20130624
-		~sys-firmware/seabios-1.7.5
-		~sys-firmware/sgabios-0.1_pre8
-		~sys-firmware/vgabios-0.7a
-	)
-	qemu_softmmu_targets_x86_64? (
-		>=sys-firmware/ipxe-1.0.0_p20130624
-		~sys-firmware/seabios-1.7.5
-		~sys-firmware/sgabios-0.1_pre8
-		~sys-firmware/vgabios-0.7a
-	)
+	qemu_softmmu_targets_i386? ( ${X86_FIRMWARE_DEPEND} )
+	qemu_softmmu_targets_x86_64? ( ${X86_FIRMWARE_DEPEND} )
 	accessibility? ( app-accessibility/brltty )
 	alsa? ( >=media-libs/alsa-lib-1.0.13 )
 	bluetooth? ( net-wireless/bluez )
@@ -290,6 +298,58 @@ qemu_src_configure() {
 		$(use_enable tci tcg-interpreter)
 	)
 
+	# Disable options not used by user targets as the default configure
+	# options will autoprobe and try to link in a bunch of unused junk.
+	conf_softmmu() {
+		if [[ ${buildtype} == "user" ]] ; then
+			echo "--disable-${2:-$1}"
+		else
+			use_enable "$@"
+		fi
+	}
+	conf_opts+=(
+		$(conf_softmmu accessibility brlapi)
+		$(conf_softmmu aio linux-aio)
+		$(conf_softmmu bluetooth bluez)
+		$(conf_softmmu caps cap-ng)
+		$(conf_softmmu curl)
+		$(conf_softmmu fdt)
+		$(conf_softmmu glusterfs)
+		$(conf_softmmu gtk)
+		$(conf_softmmu infiniband rdma)
+		$(conf_softmmu iscsi libiscsi)
+		$(conf_softmmu jpeg vnc-jpeg)
+		$(conf_softmmu kernel_linux kvm)
+		$(conf_softmmu lzo)
+		$(conf_softmmu ncurses curses)
+		$(conf_softmmu nfs libnfs)
+		$(conf_softmmu numa)
+		$(conf_softmmu opengl glx)
+		$(conf_softmmu png vnc-png)
+		$(conf_softmmu rbd)
+		$(conf_softmmu sasl vnc-sasl)
+		$(conf_softmmu sdl)
+		$(conf_softmmu seccomp)
+		$(conf_softmmu smartcard smartcard-nss)
+		$(conf_softmmu snappy)
+		$(conf_softmmu spice)
+		$(conf_softmmu ssh libssh2)
+		$(conf_softmmu tls quorum)
+		$(conf_softmmu tls vnc-tls)
+		$(conf_softmmu tls vnc-ws)
+		$(conf_softmmu usb libusb)
+		$(conf_softmmu usbredir usb-redir)
+		$(conf_softmmu uuid)
+		$(conf_softmmu vde)
+		$(conf_softmmu vhost-net)
+		$(conf_softmmu virtfs)
+		$(conf_softmmu vnc)
+		$(conf_softmmu xattr attr)
+		$(conf_softmmu xen)
+		$(conf_softmmu xen xen-pci-passthrough)
+		$(conf_softmmu xfs xfsctl)
+	)
+
 	case ${buildtype} in
 	user)
 		conf_opts+=(
@@ -297,60 +357,15 @@ qemu_src_configure() {
 			--disable-system
 			--target-list="${user_targets}"
 			--disable-blobs
-			--disable-bluez
-			--disable-curses
-			--disable-kvm
-			--disable-libiscsi
-			--disable-glusterfs
-			--disable-seccomp
-			--disable-sdl
-			--disable-smartcard-nss
 			--disable-tools
-			--disable-vde
-			--disable-libssh2
-			--disable-libusb
 		)
 		;;
 	softmmu)
 		conf_opts+=(
 			--disable-linux-user
 			--enable-system
-			--with-system-pixman
 			--target-list="${softmmu_targets}"
-			$(use_enable bluetooth bluez)
-			$(use_enable gtk)
-			$(use_enable sdl)
-			$(use_enable aio linux-aio)
-			$(use_enable accessibility brlapi)
-			$(use_enable caps cap-ng)
-			$(use_enable curl)
-			$(use_enable fdt)
-			$(use_enable glusterfs)
-			$(use_enable iscsi libiscsi)
-			$(use_enable jpeg vnc-jpeg)
-			$(use_enable kernel_linux kvm)
-			$(use_enable ncurses curses)
-			$(use_enable opengl glx)
-			$(use_enable png vnc-png)
-			$(use_enable rbd)
-			$(use_enable sasl vnc-sasl)
-			$(use_enable seccomp)
-			$(use_enable smartcard smartcard-nss)
-			$(use_enable spice)
-			$(use_enable ssh libssh2)
-			$(use_enable tls vnc-tls)
-			$(use_enable tls vnc-ws)
-			$(use_enable usb libusb)
-			$(use_enable usbredir usb-redir)
-			$(use_enable uuid)
-			$(use_enable vde)
-			$(use_enable vhost-net)
-			$(use_enable virtfs)
-			$(use_enable vnc)
-			$(use_enable xattr attr)
-			$(use_enable xen)
-			$(use_enable xen xen-pci-passthrough)
-			$(use_enable xfs xfsctl)
+			--with-system-pixman
 			--audio-drv-list="${audio_opts}"
 		)
 		use gtk && conf_opts+=( --with-gtkabi=3.0 )

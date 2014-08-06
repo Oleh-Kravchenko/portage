@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/e2fsprogs/e2fsprogs-1.42.10.ebuild,v 1.12 2014/08/01 11:31:23 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/e2fsprogs/e2fsprogs-1.42.10.ebuild,v 1.15 2014/08/05 09:32:43 vapier Exp $
 
 EAPI=4
 
@@ -30,32 +30,26 @@ DEPEND="${RDEPEND}
 
 S=${WORKDIR}/${P%_pre*}
 
-pkg_setup() {
-	if [[ ! -e ${EROOT}/etc/mtab ]] ; then
-		# add some crap to deal with missing /etc/mtab #217719
-		ewarn "No /etc/mtab file, creating one temporarily"
-		echo "${PN} crap for src_test" > "${EROOT}"/etc/mtab
-	fi
-}
-
 src_prepare() {
 	epatch "${FILESDIR}"/${PN}-1.41.8-makefile.patch
 	epatch "${FILESDIR}"/${PN}-1.40-fbsd.patch
 	epatch "${FILESDIR}"/${P}-e2fsck-fix-makefile-dependency.patch
 	epatch "${FILESDIR}"/${P}-fix-build-cflags.patch
+
 	# blargh ... trick e2fsprogs into using e2fsprogs-libs
 	rm -rf doc
 	sed -i -r \
 		-e 's:@LIBINTL@:@LTLIBINTL@:' \
-		-e '/^LIB(COM_ERR|SS)/s:[$][(]LIB[)]/lib([^@]*)@LIB_EXT@:-l\1:' \
-		-e '/^DEPLIB(COM_ERR|SS)/s:=.*:=:' \
+		-e '/^(STATIC_)?LIB(COM_ERR|SS)/s:[$][(]LIB[)]/lib([^@]*)@(STATIC_)?LIB_EXT@:-l\1:' \
+		-e '/^DEP(STATIC_)?LIB(COM_ERR|SS)/s:=.*:=:' \
 		MCONFIG.in || die "muck libs" #122368
 	sed -i -r \
 		-e '/^LIB_SUBDIRS/s:lib/(et|ss)::g' \
 		Makefile.in || die "remove subdirs"
+	ln -s $(which mk_cmds) lib/ss/ || die
 
 	# Avoid rebuild
-	touch lib/ss/ss_err.h
+	echo '#include_next <ss/ss_err.h>' > lib/ss/ss_err.h
 	eautoreconf
 }
 
