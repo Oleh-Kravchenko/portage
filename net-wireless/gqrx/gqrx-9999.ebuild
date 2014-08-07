@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-wireless/gqrx/gqrx-9999.ebuild,v 1.2 2014/07/07 13:06:58 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-wireless/gqrx/gqrx-9999.ebuild,v 1.3 2014/08/06 02:49:11 zerochaos Exp $
 
 EAPI=5
 
@@ -14,7 +14,7 @@ if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
 	KEYWORDS=""
 else
-	SRC_URI="https://dev.gentoo.org/~zerochaos/distfiles/${P}.tar.xz"
+	SRC_URI="https://github.com/csete/gqrx/archive/v${PV}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~x86"
 fi
 

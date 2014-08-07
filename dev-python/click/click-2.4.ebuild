@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/click/click-2.4.ebuild,v 1.1 2014/07/17 09:51:11 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/click/click-2.4.ebuild,v 1.2 2014/08/06 03:27:15 idella4 Exp $
 
 EAPI="5"
 PYTHON_COMPAT=( python{2_7,3_3,3_4} pypy )
@@ -20,6 +20,12 @@ IUSE="doc examples test"
 RDEPEND="dev-python/colorama[${PYTHON_USEDEP}]"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+
+python_prepare_all() {
+	# Prevent un-needed d'loading
+	sed -e "s/, 'sphinx.ext.intersphinx'//" -i docs/conf.py || die
+	distutils-r1_python_prepare_all
+}
 
 python_compile_all() {
 	use doc && emake -C docs html
