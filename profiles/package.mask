@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15961 2014/08/10 12:40:41 dev-zero Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15963 2014/08/11 21:40:57 mgorny Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -227,11 +227,6 @@ sys-block/afacli
 # Masked for removal in 30 days, bug #493114.
 app-emacs/sawfish
 
-# Sergei Trofimovich <slyfox@gentoo.org> (10 Jul 2014)
-# Masked as experimental major ghc release.
-=dev-lang/ghc-7.8.3*
-=dev-haskell/deepseq-1.3.0.2*
-
 # Michael Weber <xmw@gentoo.org> (10 Jul 2014)
 # Masked for removal in 30 days.
 # Upstream released bugfixes against buffer overflows
@@ -242,14 +237,6 @@ app-emacs/sawfish
 # Requires >=libav-10, which is masked, or >=ffmpeg-2.1.4
 # If you use ffmpeg instead of libav, sorry!
 =media-video/mpv-0.4*
-
-# Michał Górny <mgorny@gentoo.org> (6 Jul 2014)
-# (on behalf of python@gentoo.org)
-# The modules provided by those virtuals are built-in in all currently
-# supported Python implementations. If your ebuild depends on either
-# of them, please just remove the dependency. Removal in 30 days.
-virtual/python-argparse
-virtual/python-unittest2
 
 # Hans de Graaff <graaff@gentoo.org> (6 Jul 2014)
 # Mask old slot for removal in 30 days since there are no longer
