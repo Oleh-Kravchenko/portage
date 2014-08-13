@@ -1,6 +1,15 @@
 # ChangeLog for dev-php/PEAR-Crypt_GPG
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-php/PEAR-Crypt_GPG/ChangeLog,v 1.4 2012/01/18 18:22:08 mabi Exp $
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-php/PEAR-Crypt_GPG/ChangeLog,v 1.7 2014/08/12 15:25:19 ago Exp $
+
+  12 Aug 2014; Agostino Sarubbo <ago@gentoo.org> PEAR-Crypt_GPG-1.3.2.ebuild:
+  Stable for x86, wrt bug #507512
+
+  12 Aug 2014; Agostino Sarubbo <ago@gentoo.org> PEAR-Crypt_GPG-1.3.2.ebuild:
+  Stable for amd64, wrt bug #507512
+
+  12 Aug 2014; Jeroen Roovers <jer@gentoo.org> PEAR-Crypt_GPG-1.3.2.ebuild:
+  Marked ~hppa (bug #507512).
 
   18 Jan 2012; Matti Bickel <mabi@gentoo.org> -PEAR-Crypt_GPG-1.0.0.ebuild,
   -PEAR-Crypt_GPG-1.1.1.ebuild:
@@ -23,4 +32,3 @@
   05 Jan 2010; Steve Dibb <beandog@gentoo.org> +PEAR-Crypt_GPG-1.0.0.ebuild,
   +metadata.xml:
   Initial commit, bug 298362
-
