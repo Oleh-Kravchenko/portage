@@ -1,6 +1,6 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/libhid/libhid-0.2.16-r3.ebuild,v 1.4 2012/12/17 20:56:20 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libhid/libhid-0.2.16-r3.ebuild,v 1.6 2014/08/13 09:12:28 jer Exp $
 
 EAPI="2"
 
@@ -15,7 +15,7 @@ SRC_URI="http://beta.magicaltux.net/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
-IUSE="debug doc python"
+IUSE="doc python"
 
 RDEPEND="virtual/libusb:0"
 DEPEND="${RDEPEND}
@@ -31,15 +31,17 @@ src_prepare() {
 	export OS_LDFLAGS="${LDFLAGS}"
 	# Bug #260884
 	sed -i -e 's/-Werror//' m4/md_conf_compiler.m4 || die
+	# bug #519768
+	sed -i -e '/MD_CONF_DEBUGGING/d' configure.ac || die
 	eautoconf
 }
 
 src_configure() {
 	local myconf
 
-	myconf="${myconf} $(use_with doc doxygen)"
-	myconf="${myconf} $(use_enable debug)"
 	myconf="${myconf} $(use_enable python swig)"
+	myconf="${myconf} $(use_with doc doxygen)"
+	myconf="${myconf} --disable-debug"
 
 	if use python; then
 		# libhid includes its own python detection m4 from
