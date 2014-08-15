@@ -1,11 +1,11 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/scribus/scribus-9999.ebuild,v 1.9 2013/09/17 15:58:17 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/scribus/scribus-9999.ebuild,v 1.10 2014/08/14 07:15:15 jlec Exp $
 
 EAPI=5
 
-PYTHON_COMPAT=( python{2_6,2_7} )
-PYTHON_REQ_USE=tk
+PYTHON_COMPAT=( python2_7 )
+PYTHON_REQ_USE="tk?"
 
 inherit cmake-utils fdo-mime multilib python-single-r1 subversion
 
@@ -18,17 +18,18 @@ ESVN_PROJECT=Scribus-1.5
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""
-IUSE="cairo debug examples graphicsmagick hunspell +minimal osg +pdf templates"
+IUSE="cairo debug examples graphicsmagick hunspell +minimal osg +pdf poppler scripts templates tk"
 
 # a=$(ls resources/translations/po/scribus.*ts | sed -e 's:\.: :g' | awk '{print $2}'); echo ${a}
 IUSE_LINGUAS=" af ar bg br ca cs_CZ cy da_DK de de_1901 de_CH el en_AU en_GB en_US es_ES et eu fi fr gl hu id it ja ko lt_LT nb_NO nl pl_PL pt pt_BR ru sa sk_SK sl sq sr sv th_TH tr uk zh_CN zh_TW"
 IUSE+=" ${IUSE_LINGUAS// / linguas_}"
 
-REQUIRED_USE="${PYTHON_REQUIRED_USE}"
+REQUIRED_USE="
+	${PYTHON_REQUIRED_USE}
+	tk? ( scripts )"
 
 COMMON_DEPEND="
 	${PYTHON_DEPS}
-	virtual/python-imaging[tk,${PYTHON_USEDEP}]
 	dev-libs/boost
 	dev-libs/hyphen
 	dev-libs/libxml2
@@ -43,10 +44,15 @@ COMMON_DEPEND="
 	sys-libs/zlib[minizip]
 	virtual/jpeg
 	cairo? ( x11-libs/cairo[X,svg] )
+	!cairo? ( media-libs/libart_lgpl )
+	hunspell? ( app-text/hunspell )
 	graphicsmagick? ( media-gfx/graphicsmagick )
 	osg? ( dev-games/openscenegraph )
 	pdf? ( app-text/podofo )
-	hunspell? ( app-text/hunspell )"
+	poppler? ( app-text/poppler )
+	scripts? ( virtual/python-imaging[tk?,${PYTHON_USEDEP}] )
+	tk? ( virtual/python-imaging[tk?,${PYTHON_USEDEP}] )
+"
 RDEPEND="${COMMON_DEPEND}
 	app-text/ghostscript-gpl"
 DEPEND="${COMMON_DEPEND}
@@ -65,7 +71,6 @@ src_prepare() {
 	MARK_AS_ADVANCED( ZLIB_LIBRARY ZLIB_INCLUDE_DIR )
 	EOF
 
-	rm scribus/{ioapi,unzip}.[ch] || die
 	sed \
 		-e "/^\s*unzip\.[ch]/d" \
 		-e "/^\s*ioapi\.[ch]/d" \
@@ -91,8 +96,8 @@ src_configure() {
 
 	local mycmakeargs=(
 		-DHAVE_PYTHON=ON
-		-DPYTHON_INCLUDE_PATH=$(python_get_includedir)
-		-DPYTHON_LIBRARY="${EPREFIX}/usr/$(get_libdir)/lib${EPYTHON}.so"
+		-DPYTHON_INCLUDE_PATH="$(python_get_includedir)"
+		-DPYTHON_LIBRARY="$(python_get_library_path)"
 		-DWANT_NORPATH=ON
 		-DWANT_QTARTHUR=ON
 		-DWANT_QT3SUPPORT=OFF
@@ -105,9 +110,9 @@ src_configure() {
 		$(cmake-utils_use_want debug DEBUG)
 		$(cmake-utils_use_want minimal NOHEADERINSTALL)
 		$(cmake-utils_use_want hunspell HUNSPELL)
+		$(cmake-utils_use_want !examples NOEXAMPLES)
+		$(cmake-utils_use_want !templates NOTEMPLATES)
 		)
-	use examples || mycmakeargs+=( -DWANT_NOEXAMPLES=ON)
-	use templates || mycmakeargs+=( -DWANT_NOTEMPLATES=ON)
 	cmake-utils_src_configure
 }
 
@@ -121,6 +126,15 @@ src_install() {
 			rm "${file}" || die
 		fi
 	done
+
+	if ! use scripts; then
+		rm "${ED}"/usr/share/scribus/scripts/*.py || die
+	elif ! use tk; then
+		rm "${ED}"/usr/share/scribus/scripts/{FontSample,CalendarWizard}.py || die
+	fi
+
+	python_fix_shebang "${ED}"/usr/share/scribus/scripts
+	python_optimize "${ED}"/usr/share/scribus/scripts
 
 	mv "${ED}"/usr/share/doc/${PF}/{en,html} || die
 	ln -sf html "${ED}"/usr/share/doc/${PF}/en || die

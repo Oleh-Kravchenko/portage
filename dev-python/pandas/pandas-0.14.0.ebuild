@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pandas/pandas-0.14.0.ebuild,v 1.3 2014/06/25 11:27:26 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pandas/pandas-0.14.0.ebuild,v 1.4 2014/08/14 15:30:09 idella4 Exp $
 
 EAPI=5
 
@@ -33,6 +33,7 @@ DEPEND="${CDEPEND}
 		dev-python/lxml[${PYTHON_USEDEP}]
 		dev-python/matplotlib[${PYTHON_USEDEP}]
 		>=dev-python/openpyxl-1.6.1[${PYTHON_USEDEP}]
+		<dev-python/openpyxl-2.0[${PYTHON_USEDEP}]
 		dev-python/pytables[${PYTHON_USEDEP}]
 		dev-python/pytz[${PYTHON_USEDEP}]
 		dev-python/rpy[$(python_gen_usedep 'python2_7')]
