@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-gfx/freecad/freecad-9999.ebuild,v 1.1 2014/07/29 20:36:46 xmw Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-gfx/freecad/freecad-9999.ebuild,v 1.3 2014/08/15 22:02:26 xmw Exp $
 
 EAPI=5
 
@@ -24,6 +24,7 @@ COMMON_DEPEND="dev-cpp/eigen:3
 	dev-libs/libspnav[X]
 	dev-libs/xerces-c[icu]
 	dev-python/matplotlib
+	dev-python/pyside
 	dev-python/shiboken
 	dev-qt/designer:4
 	dev-qt/qtgui:4
@@ -42,7 +43,6 @@ RDEPEND="${COMMON_DEPEND}
 	dev-qt/assistant:4
 	dev-python/pycollada
 	dev-python/pivy
-	dev-python/PyQt4[svg]
 	dev-python/pyopencl
 	dev-python/numpy"
 DEPEND="${COMMON_DEPEND}
@@ -66,7 +66,9 @@ src_prepare() {
 	einfo remove bundled libs
 	rm -rf src/3rdParty/{boost,Pivy*}
 
-	#epatch "${FILESDIR}"/${PN}-0.14.3702-install-paths.patch
+	#bug 518996
+	sed -e "/LibDir = /s:'lib':'"$(get_libdir)"':g" \
+		-i src/App/FreeCADInit.py || die
 
 	einfo "Patching cMake/FindCoin3DDoc.cmake ..."
 	local my_coin_version=$(best_version media-libs/coin)
