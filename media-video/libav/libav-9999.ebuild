@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/libav/libav-9999.ebuild,v 1.71 2014/08/10 21:00:35 slyfox Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/libav/libav-9999.ebuild,v 1.72 2014/08/17 12:55:32 lu_zero Exp $
 
 EAPI=5
 
@@ -305,6 +305,7 @@ multilib_src_compile() {
 
 multilib_src_install() {
 	emake DESTDIR="${D}" install install-man
+	use doc && dodoc doc/*.html
 
 	if use tools; then
 		dobin ${TOOLS[@]/#/tools/}
@@ -313,8 +314,6 @@ multilib_src_install() {
 
 multilib_src_install_all() {
 	dodoc Changelog README INSTALL
-	dodoc doc/*.txt
-	use doc && dodoc doc/*.html
 }
 
 multilib_src_test() {
