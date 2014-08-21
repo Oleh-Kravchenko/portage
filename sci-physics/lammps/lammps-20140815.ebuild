@@ -1,10 +1,10 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-physics/lammps/lammps-20140815.ebuild,v 1.1 2014/08/17 23:52:33 nicolasbock Exp $
+# $Header: /var/cvsroot/gentoo-x86/sci-physics/lammps/lammps-20140815.ebuild,v 1.3 2014/08/20 23:11:11 ottxor Exp $
 
 EAPI=5
 
-inherit eutils fortran-2 multilib
+inherit eutils flag-o-matic fortran-2 multilib
 
 convert_month() {
 	case $1 in
@@ -49,7 +49,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc examples gzip lammps-memalign mpi static-libs"
 
 DEPEND="
-	mpi? ( virtual/mpi )
+	mpi? (
+		virtual/blas
+		virtual/lapack
+		virtual/mpi
+	)
 	sci-libs/voro++
 	"
 RDEPEND="${DEPEND}"
@@ -67,21 +71,19 @@ lmp_emake() {
 		CC=$(usex mpi "mpic++" "$(tc-getCXX)") \
 		F90=$(usex mpi "mpif90" "$(tc-getFC)") \
 		LINK=$(usex mpi "mpic++" "$(tc-getCXX)") \
-		CCFLAGS="${CXXFLAGS} -I../../src" \
+		CCFLAGS="${CXXFLAGS}" \
 		F90FLAGS="${FCFLAGS}" \
 		LINKFLAGS="${LDFLAGS}" \
 		LMP_INC="${LAMMPS_INCLUDEFLAGS}" \
 		MPI_INC=$(usex mpi '' "-I../STUBS") \
 		MPI_PATH=$(usex mpi '' '-L../STUBS') \
 		MPI_LIB=$(usex mpi '' '-lmpi_stubs') \
+		user-atc_SYSLIB="$(usex mpi "$($(tc-getPKG_CONFIG) --libs blas) $($(tc-getPKG_CONFIG) --libs lapack)" '')"\
 		"$@"
 }
 
 src_prepare() {
 	# Fix inconsistent use of SHFLAGS.
-	sed -i -e 's:$(CCFLAGS):$(CCFLAGS) -fPIC:' src/STUBS/Makefile || die
-	sed -i -e 's:$(F90FLAGS):$(F90FLAGS) -fPIC:' lib/meam/Makefile.gfortran || die
-	sed -i -e 's:$(F90FLAGS):$(F90FLAGS) -fPIC:' lib/reax/Makefile.gfortran || die
 	sed -i \
 		-e 's:voronoi_SYSINC\s\+=.*$:voronoi_SYSINC = -I/usr/include/voro++:' \
 		-e 's:voronoi_SYSPATH\s\+=.*$:voronoi_SYSPATH =:' \
@@ -101,6 +103,10 @@ src_prepare() {
 }
 
 src_compile() {
+	# Prepare compiler flags.
+	append-cxxflags -fPIC -I../../src
+	append-fflags -fPIC
+
 	# Compile stubs for serial version.
 	use mpi || lmp_emake -C src stubs
 
@@ -137,8 +143,11 @@ src_compile() {
 	emake -C src yes-srd
 	emake -C src yes-voronoi
 	emake -C src yes-xtc
-	emake -C src yes-user-atc
-	lmp_emake -C lib/atc -f Makefile.g++
+
+	if use mpi; then
+		emake -C src yes-user-atc
+		lmp_emake -C lib/atc -f Makefile.g++
+	fi
 
 	if use static-libs; then
 		# Build static library.
