@@ -1,13 +1,15 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-libs/glibc/files/eblits/common.eblit,v 1.36 2014/07/28 05:46:16 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-libs/glibc/files/eblits/common.eblit,v 1.39 2014/08/21 14:41:39 vapier Exp $
 
 alt_prefix() {
 	is_crosscompile && echo /usr/${CTARGET}
 }
 
-: ${ED:=${D}}
-: ${EROOT:=${ROOT}}
+if [[ ${EAPI:-0} == [012] ]] ; then
+	: ${ED:=${D}}
+	: ${EROOT:=${ROOT}}
+fi
 
 # We need to be able to set alternative headers for
 # compiling for non-native platform
@@ -36,6 +38,10 @@ alt_libdir() {
 }
 alt_usrlibdir() {
 	echo $(alt_prefix)/usr/$(get_libdir)
+}
+
+builddir() {
+	echo "${WORKDIR}/build-${ABI}-${CTARGET}-$1"
 }
 
 setup_target_flags() {
@@ -267,6 +273,7 @@ use_multiarch() {
 setup_env() {
 	# silly users
 	unset LD_RUN_PATH
+	unset LD_ASSUME_KERNEL
 
 	multilib_env ${CTARGET_OPT:-${CTARGET}}
 	if is_crosscompile || tc-is-cross-compiler ; then

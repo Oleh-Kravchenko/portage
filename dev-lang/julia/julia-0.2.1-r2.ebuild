@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/julia/julia-0.2.1-r2.ebuild,v 1.1 2014/07/04 03:22:41 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/julia/julia-0.2.1-r2.ebuild,v 1.2 2014/08/21 09:04:56 patrick Exp $
 
 EAPI=5
 
@@ -21,7 +21,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="emacs"
 
-RDEPEND="${CDEPEND}
+RDEPEND="
 	dev-lang/R:0=
 	dev-libs/double-conversion:0=
 	dev-libs/gmp:0=
