@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/patsy/patsy-0.2.0.ebuild,v 1.2 2013/09/14 07:44:16 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/patsy/patsy-0.2.0.ebuild,v 1.3 2014/08/22 07:13:42 jlec Exp $
 
 EAPI=5
 
@@ -32,7 +32,7 @@ python_compile_all() {
 }
 
 python_test() {
-	cd ${BUILD_DIR} || die
+	cd "${BUILD_DIR}" || die
 	nosetests -v || die "Testing failed with ${EPYTHON}"
 }
 

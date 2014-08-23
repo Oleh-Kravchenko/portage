@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/eudev/eudev-9999.ebuild,v 1.59 2014/07/15 12:53:53 blueness Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/eudev/eudev-9999.ebuild,v 1.60 2014/08/22 14:26:14 blueness Exp $
 
 EAPI="5"
 
@@ -25,7 +25,7 @@ IUSE="doc gudev +hwdb +kmod introspection +keymap +modutils +openrc +rule-genera
 
 COMMON_DEPEND=">=sys-apps/util-linux-2.20
 	gudev? ( >=dev-libs/glib-2.34.3:2[${MULTILIB_USEDEP}] )
-	introspection? ( >=dev-libs/gobject-introspection-1.31.1 )
+	introspection? ( >=dev-libs/gobject-introspection-1.38 )
 	kmod? ( >=sys-apps/kmod-16 )
 	selinux? ( >=sys-libs/libselinux-2.1.9 )
 	!<sys-libs/glibc-2.11
@@ -175,6 +175,7 @@ multilib_src_compile() {
 	if multilib_is_native_abi; then
 		emake
 	else
+		emake -C src/shared
 		emake -C src/libudev
 		use gudev && emake -C src/gudev
 	fi
