@@ -1,12 +1,12 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sec-policy/selinux-base-policy/selinux-base-policy-9999.ebuild,v 1.10 2014/08/09 19:34:19 swift Exp $
+# $Header: /var/cvsroot/gentoo-x86/sec-policy/selinux-base-policy/selinux-base-policy-9999.ebuild,v 1.12 2014/08/23 16:18:47 swift Exp $
 EAPI="5"
 
 inherit eutils
 
 if [[ ${PV} == 9999* ]]; then
-	EGIT_REPO_URI="${SELINUX_GIT_REPO:-git://git.overlays.gentoo.org/proj/hardened-refpolicy.git https://git.overlays.gentoo.org/gitroot/proj/hardened-refpolicy.git}"
+	EGIT_REPO_URI="${SELINUX_GIT_REPO:-https://github.com/sjvermeu/hardened-refpolicy.git git://git.overlays.gentoo.org/proj/hardened-refpolicy.git https://git.overlays.gentoo.org/gitroot/proj/hardened-refpolicy.git}"
 	EGIT_BRANCH="${SELINUX_GIT_BRANCH:-master}"
 	EGIT_SOURCEDIR="${WORKDIR}/refpolicy"
 
@@ -130,5 +130,17 @@ pkg_postinst() {
 		cd /usr/share/selinux/${i} || die "Could not enter /usr/share/selinux/${i}"
 
 		semodule -s ${i} -b base.pp ${COMMAND} || die "Failed to load in base and modules ${MODS} in the $i policy store"
+	done
+
+	# Relabel depending packages
+	PKGSET="";
+	if [ -x /usr/bin/qdepends ] ; then
+		PKGSET=$(/usr/bin/qdepends -Cq -Q ${CATEGORY}/${PN});
+	elif [ -x /usr/bin/equery ] ; then
+		PKGSET=$(/usr/bin/equery -Cq depends ${CATEGORY}/${PN});
+	fi
+	for PKG in ${PKGSET};
+	do
+		rlpkg ${PKG};
 	done
 }
