@@ -1,6 +1,25 @@
 # ChangeLog for media-libs/openjpeg
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/openjpeg/ChangeLog,v 1.95 2014/03/23 17:15:53 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/openjpeg/ChangeLog,v 1.98 2014/08/24 17:35:01 ssuominen Exp $
+
+  24 Aug 2014; Samuli Suominen <ssuominen@gentoo.org>
+  -files/openjpeg-1.4-cmake-stdbool.patch, -files/openjpeg-1.4-libpng15.patch,
+  -files/openjpeg-1.4-linking.patch, -files/openjpeg-1.4-pkgconfig.patch,
+  -files/openjpeg-1.5.0-build.patch, -files/openjpeg-9999-build.patch,
+  -files/openjpeg-9999-mupdf.patch, -openjpeg-1.4-r1.ebuild,
+  -openjpeg-1.5.0.ebuild, -openjpeg-1.5.1-r1.ebuild, -openjpeg-9999.ebuild:
+  old
+
+  24 Aug 2014; Samuli Suominen <ssuominen@gentoo.org> openjpeg-1.5.2.ebuild,
+  openjpeg-2.1.0.ebuild:
+  Use SONAME based SLOT (subslot) wrt #511052 by Julian Ospald
+
+*openjpeg-2.1.0 (24 Aug 2014)
+*openjpeg-1.5.2 (24 Aug 2014)
+
+  24 Aug 2014; Samuli Suominen <ssuominen@gentoo.org> +openjpeg-1.5.2.ebuild,
+  +openjpeg-2.1.0.ebuild:
+  Version bump wrt #518556
 
   23 Mar 2014; Agostino Sarubbo <ago@gentoo.org> openjpeg-2.0.0.ebuild:
   Stable for sparc, wrt bug #482788

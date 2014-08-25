@@ -1337,8 +1337,10 @@ dev-games/crystalspace:cg - NVIDIA toolkit plugin
 dev-games/crystalspace:ode - include support for Open Dynamics Engine
 dev-games/guichan:allegro - Build the Allegro frontend
 dev-games/mygui:linguas_ru - Install some additional russian docs if 'doc' useflag enabled
+dev-games/mygui:ogre - Use the ogre render subsystem. (cannot combine with opengl)
+dev-games/mygui:opengl - Use the opengl render subsystem. (cannot combine with ogre)
 dev-games/mygui:plugins - Build MyGUI plugins
-dev-games/mygui:samples - Install MyGUI demos
+dev-games/mygui:samples - Install MyGUI demos (needs ogre USE flag)
 dev-games/mygui:tools - Build the tools for development
 dev-games/ode:double-precision - more precise calculations at the expense of speed
 dev-games/ode:gyroscopic - enable gyroscopic term (may cause instability)
@@ -2603,7 +2605,8 @@ games-engines/odamex:server - Build server target.
 games-engines/renpy:development - Install IDE for game developers and an empty game template
 games-engines/scummvm:fluidsynth - compile with support for fluidsynth
 games-engines/scummvm:mpeg2 - enable mpeg2 codec for cutscenes
-games-engines/solarus:luajit - Use LuaJIT instead of default Lua
+games-engines/solarus:doc - Install doxygen developer documentation.
+games-engines/solarus:luajit - Use LuaJIT instead of default Lua.
 games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
 games-fps/darkplaces:cdsound - Enables using CD audio in the engine
 games-fps/darkplaces:demo - Uses the demo data from quake1 (quake1-demodata)
@@ -5180,7 +5183,6 @@ net-libs/libetpan:liblockfile - Enable support for liblockfile library
 net-libs/libgsasl:gcrypt - Use dev-libs/libgcrypt for low-level crypto
 net-libs/libgsasl:ntlm - Add support for Microsoft's NTLM mechanism using net-libs/libntlm
 net-libs/libinfinity:server - Build and install the server binary including init.d/conf.d-scripts. Needed if you want to host an infinote server for gobby.
-net-libs/libkgapi:oldpim - Allow the use of non-akonadi kdepim-4.4
 net-libs/libkolabxml:csharp - Enable C# language bindings
 net-libs/libmicrohttpd:epoll - use epoll() system call
 net-libs/libmicrohttpd:messages - enable error messages
@@ -5934,17 +5936,24 @@ net-wireless/bluez:obex - Enable OBEX transfer support.
 net-wireless/bluez:test-programs - Install tools for testing of various Bluetooth functions
 net-wireless/gnome-bluetooth:nautilus - Build the gnome-extra/nautilus-sendto plugin
 net-wireless/gnuradio:analog - enable analog signal processing blocks
+net-wireless/gnuradio:atsc - enable ATSC (HDTV) transmitter and receiver blocks
+net-wireless/gnuradio:audio - enable blocks to connect to audio sources (mic-in) and sinks (speaker-out) ports on a computer
 net-wireless/gnuradio:channels - enable channel mode blocks
 net-wireless/gnuradio:ctrlport - enable ControlPort rpc
 net-wireless/gnuradio:digital - enable digital signal processing blocks
+net-wireless/gnuradio:dtv - enable digital tv signal processing blocks
 net-wireless/gnuradio:fcd - enable Funcube Dongle source block
+net-wireless/gnuradio:fec - enable block for convolutional encoding using the CCSDS standard polynomial ("Voyager")
 net-wireless/gnuradio:filter - enable filter signal processing blocks
 net-wireless/gnuradio:grc - enable GNU Radio Companion graphical tool to design signal processing flow graphs
 net-wireless/gnuradio:log - enable logging to console and files
+net-wireless/gnuradio:noaa - enable NOAA POES HRPT receiver blocks
 net-wireless/gnuradio:pager - enable pager signal processing blocks
 net-wireless/gnuradio:performance-counters - enable block performance counters
+net-wireless/gnuradio:trellis - enable trellis blocks for FSM
 net-wireless/gnuradio:uhd - install UHD source and sink blocks
 net-wireless/gnuradio:utils - install scripts to enable viewing and analysis of files produced by flow graphs
+net-wireless/gnuradio:vocoder - enable blocks for audio voice encoders
 net-wireless/gnuradio:wavelet - enable wavelet signal processing blocks
 net-wireless/gnuradio:zeromq - enable zeromq message passing blocks
 net-wireless/gr-osmosdr:bladerf - Build with Nuand BladeRF support
