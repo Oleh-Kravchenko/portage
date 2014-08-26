@@ -1096,6 +1096,7 @@ app-text/lcdf-typetools:kpathsea - Enable integration with kpathsea search libra
 app-text/libgxps:introspection - Use dev-libs/gobject-introspection for introspection
 app-text/liblangtag:introspection - Use dev-libs/gobject-introspection for introspection
 app-text/libwpd:tools - Build miscellaneous tools
+app-text/llpp:egl - build with EGL support
 app-text/lodgeit:vim - Install a vim plugin allowing to paste and download from within vim
 app-text/mate-document-viewer:caja - Enable property page extension in mate-base/mate-file-manager
 app-text/mate-document-viewer:dvi - Enable build-in DVI viewer
@@ -3005,6 +3006,7 @@ kde-base/korundum:nepomuk - Compile bindings for Nepomuk
 kde-base/korundum:okular - Compile bindings for kde-base/okular
 kde-base/krdc:rdesktop - Enable runtime dependency for net-misc/rdesktop
 kde-base/krdc:telepathy - Enable desktop sharing through a telepathy client
+kde-base/krfb:ktp - Enable displaying of KDE Telepathy contacts
 kde-base/krfb:telepathy - Enable desktop sharing through a telepathy client
 kde-base/ksnapshot:kipi - Support for the KDE Image Plugin Interface.
 kde-base/kstars:fits - Enable support for the FITS image format through cfitsio
@@ -5988,7 +5990,6 @@ net-wireless/spectools:debug - Build the raw output client for spectools. (for d
 net-wireless/spectools:gtk - Build the gtk-2 based client for spectools
 net-wireless/spectools:ncurses - Build the ncurses based client for spectools
 net-wireless/ubertooth:bluez - use bluez to support clock following and scanning
-net-wireless/ubertooth:clock_debug - support for clock following an existing local bluetooth connection with bluez
 net-wireless/ubertooth:dfu - Install ubertooth-dfu (needed for read/write of firmware)
 net-wireless/ubertooth:pcap - Use libpcap for packet capture and read/write
 net-wireless/ubertooth:specan - Enable the ubertooth spectrum analyzer
@@ -7133,7 +7134,6 @@ www-apps/gallery:zip - Add app-arch/zip for the zip download module
 www-apps/gitit:plugins - enables optional plugin runtime loader
 www-apps/horde-passwd:clearpasswd - Enables cleartext password storage in the vpopmail files
 www-apps/ikiwiki:extras - Installs additional modules used by ikiwiki plugins
-www-apps/lxr:freetext - Adds support for freetext search using swish-e
 www-apps/nikola:assets - Support web asset management through dev-python/assets
 www-apps/nikola:charts - Support chart generation through dev-python/pygal
 www-apps/nikola:hyphenation - Add hyphenation support through dev-python/pyphen
