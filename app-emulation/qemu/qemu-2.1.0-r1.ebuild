@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-2.1.0-r1.ebuild,v 1.1 2014/08/27 13:16:45 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-2.1.0-r1.ebuild,v 1.3 2014/08/28 12:02:06 vapier Exp $
 
 EAPI=5
 
@@ -148,7 +148,9 @@ QA_PREBUILT="
 	usr/share/qemu/openbios-sparc64
 	usr/share/qemu/openbios-sparc32
 	usr/share/qemu/palcode-clipper
-	usr/share/qemu/s390-ccw.img"
+	usr/share/qemu/s390-ccw.img
+	usr/share/qemu/u-boot.e500
+"
 
 QA_WX_LOAD="usr/bin/qemu-i386
 	usr/bin/qemu-x86_64
@@ -249,7 +251,7 @@ src_prepare() {
 	use nls || rm -f po/*.po
 
 	epatch "${FILESDIR}"/qemu-1.7.0-cflags.patch
-	epatch "${FILESDIR}"/CVE-2014-5388.patch
+	epatch "${FILESDIR}"/${P}-CVE-2014-5388.patch #520688
 	[[ -n ${BACKPORTS} ]] && \
 		EPATCH_FORCE=yes EPATCH_SUFFIX="patch" EPATCH_SOURCE="${S}/patches" \
 			epatch
