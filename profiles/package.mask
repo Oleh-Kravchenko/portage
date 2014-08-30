@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15995 2014/08/28 16:29:19 ssuominen Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15997 2014/08/29 17:45:00 phajdan.jr Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,11 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Pawel Hajdan jr <phajdan.jr@gentoo.org> (29 Aug 2014)
+# Dev channel releases are only for people who are developers or want more
+# experimental features and accept a more unstable release.
+>=www-client/chromium-39
 
 # Sergey Popov <pinkbyte@gentoo.org> (28 Aug 2014)
 # Security mask, wrt bug #519650
@@ -225,11 +230,6 @@ x11-misc/uf-view
 # It's a development version that was included without
 # notifying gnome team.
 =dev-python/pygobject-3.13.3
-
-# Pawel Hajdan jr <phajdan.jr@gentoo.org> (19 Jul 2014)
-# Dev channel releases are only for people who are developers or want more
-# experimental features and accept a more unstable release.
->=www-client/chromium-38
 
 # Michael Weber <xmw@gentoo.org> (18 Jul 2014)
 # Masked for removal of affected versions in 30 days.
@@ -541,10 +541,6 @@ lxde-base/lxpolkit
 # Tim Harder <radhermit@gentoo.org> (04 Feb 2014)
 # Mask development releases
 =media-sound/lilypond-2.19*
-
-# Ole Markus With <olemarkus@gentoo.org> (28 Jan 2014)
-# PHP 5.6 still in early development
->=dev-lang/php-5.6
 
 # Christian Ruppert <idl0r@gentoo.org> (19 Jan 2014)
 # Experimental, for now
