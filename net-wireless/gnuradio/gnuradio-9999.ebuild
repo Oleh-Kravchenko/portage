@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-wireless/gnuradio/gnuradio-9999.ebuild,v 1.22 2014/08/25 15:47:57 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-wireless/gnuradio/gnuradio-9999.ebuild,v 1.23 2014/08/31 03:07:29 zerochaos Exp $
 
 EAPI=5
 PYTHON_COMPAT=( python2_7 )
@@ -14,8 +14,10 @@ LICENSE="GPL-3"
 SLOT="0/${PV}"
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI="http://gnuradio.org/git/gnuradio.git"
-	inherit git-2
+	#EGIT_REPO_URI="http://gnuradio.org/git/gnuradio.git"
+	EGIT_REPO_URI="git://anonscm.debian.org/users/bottoms/gnuradio.git"
+	EGIT_BRANCH="gr-vocoder-use-system-codecs"
+	inherit git-r3
 	KEYWORDS=""
 else
 	SRC_URI="http://gnuradio.org/releases/${PN}/${P}.tar.gz"
@@ -26,6 +28,10 @@ IUSE="+audio +alsa atsc +analog +digital channels +ctrlport doc dtv examples fcd
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}
 		audio? ( || ( alsa oss jack portaudio ) )
+		alsa? ( audio )
+		oss? ( audio )
+		jack ( audio )
+		portaudio? ( audio )
 		analog? ( filter )
 		digital? ( filter analog )
 		pager? ( filter analog )
@@ -72,6 +78,8 @@ RDEPEND="${PYTHON_DEPS}
 	)
 	sdl? ( >=media-libs/libsdl-1.2.0 )
 	uhd? ( >=net-wireless/uhd-3.4.3-r1:=[${PYTHON_USEDEP}] )
+	utils? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	vocoder? ( media-sound/gsm )
 	wavelet? (
 		>=sci-libs/gsl-1.10
 	)
@@ -82,7 +90,8 @@ RDEPEND="${PYTHON_DEPS}
 	)
 	zeromq? ( >=net-libs/zeromq-2.1.11
 		net-libs/cppzmq )
-"
+	"
+
 DEPEND="${RDEPEND}
 	dev-lang/swig
 	dev-python/cheetah[${PYTHON_USEDEP}]
@@ -153,6 +162,7 @@ src_configure() {
 		-DSYSCONFDIR="${EPREFIX}"/etc \
 		-DPYTHON_EXECUTABLE="${PYTHON}"
 	)
+	use vocoder && mycmakeargs+=( -DGR_USE_SYSTEM_LIBGSM=TRUE )
 	cmake-utils_src_configure
 }
 
