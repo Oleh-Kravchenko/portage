@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.15998 2014/09/01 14:27:56 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16005 2014/09/02 20:45:36 hwoarang Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,10 +30,45 @@
 
 #--- END OF EXAMPLES ---
 
+# Markos Chandras <hwoarang@gentoo.org> (02 Sep 2014)
+# MSN service terminated.
+# You can still use your MSN account in net-im/skype
+# or switch to an open protocol instead
+# Masked for removal in 30 days
+net-im/kmess
+net-im/amsn
+x11-themes/amsn-skins
+
+# Christian Faulhammer <fauli@gentoo.org> (02 Sep 2014)
+# website not working anymore and will stay like this,
+# tool is useless. See bug 504734
+app-admin/hwreport
+
+# Hans de Graaff <graaff@gentoo.org> (1 Sep 2014)
+# Mask jruby 1.6.x for removal in 30 days. This version is still based
+# on ruby 1.8.  Many packages are no longer compatible with its
+# syntax, and security support for ruby 1.8 has stopped. This
+# incompatibility now has reached central packages like rubygems so we
+# have decided to remove jruby 1.6 now.  jruby upstream has released
+# the 1.7.x series some time ago, but unfortunately we only have a
+# masked version that has too many issues to unmask. Please let us
+# know if you know java and ruby and want to help out here:
+# http://moving-innovations.com/blog/2014/04/23/the-precarious-state-of-jruby-in-gentoo
+=dev-java/jruby-1.6*
+virtual/rubygems:jruby
+virtual/ruby-rdoc:jruby
+virtual/ruby-ssl:jruby
+virtual/ruby-threads:jruby
+
 # Pawel Hajdan jr <phajdan.jr@gentoo.org> (29 Aug 2014)
 # Dev channel releases are only for people who are developers or want more
 # experimental features and accept a more unstable release.
 >=www-client/chromium-39
+
+# Brian Dolbec <dolsen@gentoo.org> (1 sept 2014)
+# Mask NON-MAINTAINER commit, due lack of testing portage team, releng
+# Mask for review
+=sys-apps/portage-2.2.12-r1
 
 # Sergey Popov <pinkbyte@gentoo.org> (28 Aug 2014)
 # Security mask, wrt bug #519650
@@ -191,7 +226,8 @@ sys-power/gtk-cpuspeedy
 
 # Pacho Ramos <pacho@gentoo.org> (27 Jul 2014)
 # Doesn't build on non-selinux setups (#498032)
-# Removal in a month.
+# Give some time before removal as looks some people
+# is willing to proxy-maintain it.
 dev-lang/gforth
 
 # Pacho Ramos <pacho@gentoo.org> (27 Jul 2014)
@@ -731,15 +767,6 @@ app-portage/g-ctan
 # This version does not work properly, see bug #464078
 =media-libs/ffmpegsource-2.17.4_pre753
 
-# Markos Chandras <hwoarang@gentoo.org> (23 Mar 2013)
-# MSN service terminated.
-# You can still use your MSN account in net-im/skype
-# or switch to an open protocol instead
-# These clients may work until Oct 2013 (or even longer in China)
-net-im/kmess
-net-im/amsn
-x11-themes/amsn-skins
-
 # Richard Freeman <rich0@gentoo.org> (24 Mar 2013)
 # Contains known buffer overflows.  Package generally works
 # but should not be fed untrusted input (eg from strangers).
@@ -767,7 +794,9 @@ app-text/cuneiform
 net-wireless/madwifi-ng
 
 # Markos Chandras <hwoarang@gentoo.org> (03 Nov 2012)
-# Masked for testing
+# Kernel module support is disabled due to sandbox violations.
+# As a result of which, the package is not fully working at the moment
+# but it can still be used to track userland regressions.
 app-benchmarks/ltp
 
 # Alexis Ballier <aballier@gentoo.org> (1 Nov 2012)
