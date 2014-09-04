@@ -1,10 +1,21 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9344 2014/09/02 20:45:35 hwoarang Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9347 2014/09/03 19:25:23 hwoarang Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  03 Sep 2014; Markos Chandras <hwoarang@gentoo.org> package.mask:
+  Mask only the latest LTP version
+
+  03 Sep 2014; Ian Stakenvicius (_AxS_) <axs@gentoo.org>
+  hardened/linux/make.defaults:
+  add a var to hardened profiles to help ebuilds tell end-users about things
+  that are bad to do on hardened, reviewed by Zero_Chaos and OKed by Zorry
+
+  03 Sep 2014; Hans de Graaff <graaff@gentoo.org> base/use.mask, package.mask:
+  Add jruby-only packages to the jruby 1.7 mask for now.
 
   02 Sep 2014; Markos Chandras <hwoarang@gentoo.org> package.mask:
   Update kmess, amsn removal message

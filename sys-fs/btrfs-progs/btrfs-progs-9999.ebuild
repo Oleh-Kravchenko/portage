@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/btrfs-progs/btrfs-progs-9999.ebuild,v 1.35 2014/08/22 09:36:50 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/btrfs-progs/btrfs-progs-9999.ebuild,v 1.36 2014/09/03 20:19:37 slyfox Exp $
 
 EAPI=5
 
@@ -25,6 +25,8 @@ HOMEPAGE="https://btrfs.wiki.kernel.org"
 LICENSE="GPL-2"
 SLOT="0/${libbtrfs_soname}"
 IUSE=""
+
+RESTRICT=test # tries to mount repared filesystems
 
 RDEPEND="
 	dev-libs/lzo:2=
