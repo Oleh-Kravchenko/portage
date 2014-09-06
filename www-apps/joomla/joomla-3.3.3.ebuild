@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-apps/joomla/joomla-3.3.3.ebuild,v 1.1 2014/09/04 09:12:46 dlan Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-apps/joomla/joomla-3.3.3.ebuild,v 1.3 2014/09/05 16:54:18 williamh Exp $
 
 EAPI=5
 
@@ -15,7 +15,7 @@ SRC_URI="http://joomlacode.org/gf/download/frsrelease/${MAGIC_1}/${MAGIC_2}/Joom
 
 LICENSE="GPL-2"
 KEYWORDS="~amd64 ~ppc ~sparc ~x86"
-IUSE="-mariadb"
+IUSE="mysql postgres"
 
 need_httpd_cgi
 need_php_httpd
@@ -24,9 +24,9 @@ S="${WORKDIR}"
 
 DEPEND="${DEPEND}
 	app-arch/unzip"
-RDEPEND=">=dev-lang/php-5.3.10[json,mysql,zlib,xml]
-	 !mariadb? ( >dev-db/mysql-5.1 )
-	 mariadb? ( >=dev-db/mariadb-5.2.14 )"
+RDEPEND=">=dev-lang/php-5.3.10[json,mysql?,postgres?,zlib,xml]"
+
+REQUIRED_USE="|| ( mysql postgres )"
 
 src_install () {
 	webapp_src_preinst
