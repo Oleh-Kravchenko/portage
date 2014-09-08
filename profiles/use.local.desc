@@ -835,12 +835,10 @@ app-misc/geoclue:plazes - Install plazes.com provider
 app-misc/geoclue:server - Install geoip server
 app-misc/geoclue:skyhook - Install skyhookwireless.com provider
 app-misc/geoclue:yahoo-geo - Install Yahoo geolocation provider
-app-misc/gourmet:gnome-print - <=app-misc/gourmet-0.15.9 Enable pretty Python printing with Gnome
 app-misc/gourmet:i18n - >app-misc/gourmet-0.16 Enable support for i18n through elib.intl
 app-misc/gourmet:ipython - >app-misc/gourmet-0.16 Enable support for the interactive Python console plugin
 app-misc/gourmet:pdf - Enable export to PDF
 app-misc/gourmet:print - >app-misc/gourmet-0.16 Enable pretty Python printing
-app-misc/gourmet:rtf - <=app-misc/gourmet-0.15.9 Enable export to RTF
 app-misc/gourmet:spell - >app-misc/gourmet-0.16 Enable support for the spell check plugin
 app-misc/gourmet:web - >app-misc/gourmet-0.16 Enable support for the web import plugin
 app-misc/gramps:reports - All external software that is needed for graphical reports will be installed
@@ -3879,8 +3877,6 @@ media-sound/csound:utils - Build stand-alone executables for utilities that can 
 media-sound/darkice:aacplus - AAC+ encoding via media-libs/libaacplus
 media-sound/darkice:opus - Enable Opus audio codec support
 media-sound/darkice:twolame - Build with twolame support
-media-sound/decibel-audio-player:gnome - Adds Gnome media keys support, so you can control Decibel using hotkeys.
-media-sound/decibel-audio-player:gnome-keyring - Adds support for storing your Last.fm password using gnome-keyring.
 media-sound/denemo:fluidsynth - Enable Fluidsynth MIDI software synthesis
 media-sound/denemo:portmidi - Enable support for the portmidi backend
 media-sound/dir2ogg:mac - Add support for decoding Monkey's Audio files
@@ -7479,10 +7475,13 @@ x11-terms/eterm:utempter - Include libutempter support
 x11-terms/gnome-terminal:gnome-shell - Integrate with gnome-base/gnome-shell search
 x11-terms/gnome-terminal:nautilus - Build gnome-base/nautilus extension
 x11-terms/hanterm:utempter - Records user logins. Useful on multi-user systems
+x11-terms/mlterm:fcitx - Enable app-i18n/fcitx support
 x11-terms/mlterm:ibus - Enable app-i18n/ibus support
 x11-terms/mlterm:libssh2 - Enable net-libs/libssh2 support
+x11-terms/mlterm:regis - Enable ReGIS support
 x11-terms/mlterm:scim - Enable app-i18n/scim support
 x11-terms/mlterm:uim - Enable app-i18n/uim support
+x11-terms/mlterm:utempter - Enable sys-libs/libutempter support
 x11-terms/mrxvt:menubar - Enable mrxvt menubar
 x11-terms/mrxvt:utempter - REcords user logins. Useful on multi-user systems
 x11-terms/rxvt:linuxkeys - Define LINUX_KEYS (changes Home/End key)
