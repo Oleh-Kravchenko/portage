@@ -1,6 +1,13 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1366 2014/09/04 14:52:58 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1368 2014/09/11 22:10:35 axs Exp $
+
+  11 Sep 2014; Ian Stakenvicius (_AxS_) <axs@gentoo.org>
+  +mozconfig-v4.31.eclass, -mozconfig-v4.eclass:
+  dropped unused mozconfig-v4 and added new mozconfig-v4.31 eclasses
+
+  11 Sep 2014; Davide Pesavento <pesa@gentoo.org> qt5-build.eclass:
+  Restrict tests on 5.3.x (except live).
 
   04 Sep 2014; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass,
   tests/python-utils-r1.sh:
