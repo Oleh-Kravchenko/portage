@@ -5264,6 +5264,7 @@ net-libs/opal:wav - Enable WAVFILE support
 net-libs/opal:x264-static - Install x264 plugin statically linked with x264
 net-libs/ortp:ntp-timestamp - Turn on NTP timestamping on received packet
 net-libs/ortp:srtp - Add support for Secure RTP
+net-libs/ortp:zrtp - Add support for ZRTP key negotiation
 net-libs/phodav:spice - Install the spice-webdavd guest agent
 net-libs/pjsip:cli - Installs pjsua, a simple command-line SIP client
 net-libs/pjsip:epoll - epoll system call support
@@ -5706,6 +5707,23 @@ net-misc/strongswan:farp - Enable faking of ARP responses for virtual IP address
 net-misc/strongswan:gcrypt - Enable dev-libs/libgcrypt plugin which provides 3DES, AES, Blowfish, Camellia, CAST, DES, Serpent and Twofish ciphers along with MD4, MD5 and SHA1/2 hash algorithms, RSA and DH groups 1,2,5,14-18 and 22-24(4.4+). Also includes a software random number generator.
 net-misc/strongswan:non-root - Force IKEv1/IKEv2 daemons to normal user privileges. This might impose some restrictions mainly to the IKEv1 daemon. Disable only if you really require superuser privileges.
 net-misc/strongswan:openssl - Enable dev-libs/openssl plugin which is required for Elliptic Curve Cryptography (DH groups 19-21,25,26) and ECDSA. Also provides 3DES, AES, Blowfish, Camellia, CAST, DES, IDEA and RC5 ciphers along with MD2, MD4, MD5 and SHA1/2 hash algorithms, RSA and DH groups 1,2,5,14-18 and 22-24(4.4+) dev-libs/openssl has to be compiled with USE="-bindist".
+net-misc/strongswan:pkcs11 - Enable pkcs11 support.
+net-misc/strongswan:strongswan_plugins_blowfish - Enable support for the blowfish plugin.
+net-misc/strongswan:strongswan_plugins_ccm - Enable support for the ccm plugin.
+net-misc/strongswan:strongswan_plugins_ctr - Enable support for the ctr plugin.
+net-misc/strongswan:strongswan_plugins_gcm - Enable support for the gcm plugin.
+net-misc/strongswan:strongswan_plugins_ha - Enable support for the ha plugin.
+net-misc/strongswan:strongswan_plugins_ipseckey - Enable support for the ipseckey plugin.
+net-misc/strongswan:strongswan_plugins_led - Enable support for the led plugin.
+net-misc/strongswan:strongswan_plugins_lookip - Enable support for the lookip plugin.
+net-misc/strongswan:strongswan_plugins_ntru - Enable support for the ntru plugin.
+net-misc/strongswan:strongswan_plugins_padlock - Enable support for the padlock plugin.
+net-misc/strongswan:strongswan_plugins_rdrand - Enable support for the rdrand plugin.
+net-misc/strongswan:strongswan_plugins_systime-fix - Enable support for the systime-fix plugin.
+net-misc/strongswan:strongswan_plugins_unbound - Enable support for the unbound plugin.
+net-misc/strongswan:strongswan_plugins_unity - Enable support for the unity plugin.
+net-misc/strongswan:strongswan_plugins_vici - Enable support for the vici plugin.
+net-misc/strongswan:strongswan_plugins_whitelist - Enable support for the whitelist plugin.
 net-misc/teamviewer:system-wine - Use app-emulation/wine instead of bundled one.
 net-misc/termpkg:uucp - Adds support for uucp style device locking
 net-misc/tigervnc:internal-fltk - Build+link internal and enhanced fltk library
@@ -5981,6 +5999,8 @@ net-wireless/gr-osmosdr:uhd - Build with Ettus Research USRP Hardware Driver sup
 net-wireless/hostapd:crda - Add CRDA support
 net-wireless/hostapd:logwatch - Install support files for sys-app/logwatch
 net-wireless/hostapd:madwifi - Add support for madwifi (Atheros chipset)
+net-wireless/hostapd:netlink - Adding support for using netlink to create VLANs
+net-wireless/hostapd:sqlite - Adding sqlite support
 net-wireless/hostapd:wps - Add support for Wi-Fi Protected Setup
 net-wireless/kismet:client - Build the ncurses-based user interface
 net-wireless/kismet:pcre - Build with pcre support
@@ -7426,6 +7446,7 @@ x11-libs/motif:motif22-compatibility - Compatibility with Open Motif 2.2
 x11-libs/mx:glade - Build the dev-util/glade catalog files
 x11-libs/mx:introspection - Use dev-libs/gobject-introspection for introspection
 x11-libs/pixman:loongson2f - Enable Loongson2f MMI optimizations.
+x11-libs/qscintilla:designer - Build plugin for Qt Designer
 x11-libs/qwt:mathml - Use the MathML renderer of the Qt solutions package.
 x11-libs/vte:glade - Provide integration with dev-util/glade.
 x11-libs/vte:introspection - Use dev-libs/gobject-introspection for introspection
