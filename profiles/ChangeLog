@@ -1,10 +1,22 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9370 2014/09/13 09:17:55 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9374 2014/09/14 23:27:24 moult Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  14 Sep 2014; Dion Moult <moult@gentoo.org> package.mask:
+  net-misc/netcomics-cvs added to package.mask
+
+  14 Sep 2014; Dion Moult <moult@gentoo.org> package.mask:
+  Add app-text/pastebin to package mask
+
+  14 Sep 2014; Maxim Koltsov <maksbotan@gentoo.org> package.mask:
+  Improve mpv mask message
+
+  14 Sep 2014; Pacho Ramos <pacho@gentoo.org> package.mask:
+  Mask dev-php/PEAR-MDB2_Driver_ibase (#522346)
 
   13 Sep 2014; Jeroen Roovers <jer@gentoo.org> package.mask:
   Add www-client/otter to dev-qt/*:5 mask.
