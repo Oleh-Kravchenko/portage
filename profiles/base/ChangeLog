@@ -1,6 +1,16 @@
 # ChangeLog for Gentoo base-profile
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/base/ChangeLog,v 1.723 2014/09/15 21:10:33 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/base/ChangeLog,v 1.726 2014/09/16 20:50:31 grknight Exp $
+
+  16 Sep 2014; Brian Evans <grknight@gentoo.org> package.use.mask:
+  Remove old mysql-5.1.5{1,2,3} entries that are long gone from the tree.
+
+  16 Sep 2014; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  package.use.mask:
+  Unmask xorg-server glamor flag
+
+  16 Sep 2014; Mike Gilbert <floppym@gentoo.org> package.use.mask, use.mask:
+  Move mgorny's last mask from use.mask to package.use.mask.
 
   15 Sep 2014; Michał Górny <mgorny@gentoo.org> use.mask:
   Mask USE=zrtp on net-libs/ortp since it is screwed up.

@@ -220,6 +220,7 @@ app-admin/salt:timelib - Use timelib to parse english textual date descriptions.
 app-admin/sshguard:ipfilter - Enable ipfilter firewall support (only for *bsd)
 app-admin/sudo:offensive - Let sudo print insults when the user types the wrong password.
 app-admin/sudo:sendmail - Allow sudo to send emails with sendmail.
+app-admin/supervisor:iterparse - Enable support for the specific element properties
 app-admin/sysklogd:logrotate - use app-admin/logrotate for rotating logs rather than custom cron scripts
 app-admin/syslog-ng:amqp - Enable support for AMQP destinations
 app-admin/syslog-ng:json - Enable support for JSON template formatting via dev-libs/json-glib
@@ -287,6 +288,7 @@ app-backup/bacula:bacula-nosd - Disable building of storage daemon
 app-backup/bacula:logwatch - Install support files for logwatch
 app-backup/bareos:clientonly - Only install file-daemon (client)
 app-backup/bareos:director - Install director
+app-backup/bareos:fastlz - Enable support vor lz4, lz4hc and lzfast using dev-libs/bareos-fastlzlib
 app-backup/bareos:logwatch - Install support files for logwatch
 app-backup/bareos:ndmp - Enable support for NDMP (Network Data Management Protocol)
 app-backup/bareos:scsi-crypto - Enable low level SCSI crypto support
@@ -970,6 +972,9 @@ app-office/gnumeric:python - Enable python plugin loader.
 app-office/imposter:iksemel - Enable external dev-libs/iksemel parsing support
 app-office/kmymoney:hbci - Enable HBCI support using net-libs/aqbanking
 app-office/kmymoney:quotes - Enable Online Stock Quote retrieval
+app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
+app-office/libreoffice:collada - Enable Collada for rendering 3D models stored in *.dae and *.kmz format
+app-office/libreoffice:gltf - Use media-libs/libgltf for inserting 3D models in the glTF format into presentations
 app-office/libreoffice:gtk3 - Enable highly experimental gtk3 frontend
 app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
 app-office/libreoffice:odk - Build the Office Development Kit
@@ -5435,6 +5440,7 @@ net-misc/bfgminer:bifury - Enable support for mining with Bi*fury USB sticks
 net-misc/bfgminer:bigpic - Enable support for mining with Big Picture Mining USB sticks (Red/BlueFury, BF1, etc)
 net-misc/bfgminer:bitforce - Enable support for mining with ButterFly Labs BitFORCE ASICs and/or FPGAs
 net-misc/bfgminer:bitfury - Enable support for mining with 55nm Bitfury-based devices
+net-misc/bfgminer:cointerra - Enable support for mining with CoinTerra TerraMiner.
 net-misc/bfgminer:cpumining - Enable support for mining with CPUs
 net-misc/bfgminer:drillbit - Enable support for mining with Drillbit boards
 net-misc/bfgminer:dualminer - Enable support for mining with DualMiner USB sticks
@@ -7245,6 +7251,7 @@ www-client/seamonkey:system-cairo - Use the system-wide x11-libs/cairo Use syste
 www-client/seamonkey:system-icu - Use the sytem-wide dev-libs/icu Use system icu indead of bundled.
 www-client/seamonkey:system-jpeg - Use the system-wide media-libs/libjpeg-turbo Use system jpeg instead of bundled.
 www-client/seamonkey:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
+www-client/surf:savedconfig - Without a saved config.h, this package depends on net-misc/curl and x11-terms/st for a default download mechanism
 www-client/uget:aria2 - Enable support for net-misc/aria2 through xmlrpc. You'll find the plugin in the app's settings.
 www-client/uget:gtk3 - Use x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 www-client/uget:hide-temp-files - Make temporary files that are used while downloading hidden.
@@ -7369,6 +7376,7 @@ x11-apps/xdm:consolekit - Enable native sys-auth/consolekit support
 x11-apps/xdm:xdm-auth - Enable XDM-AUTHENTICATION-1 support
 x11-apps/xdpyinfo:dmx - Builds support for Distributed Multiheaded X x11-base/xorg-server
 x11-apps/xinit:minimal - Control dependencies on legacy apps (xterm, twm, ...). Safe to enable if you use a modern desktop environment.
+x11-apps/xkbset:tk - Install the dev-perl/perl-tk based xkbset-gui utility
 x11-apps/xsm:rsh - This allows the use of rsh (remote shell) and rcp (remote copy).
 x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
 x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration
@@ -7687,7 +7695,6 @@ xfce-extra/xfce4-mpc-plugin:libmpd - Build using media-libs/libmpd backend, inst
 xfce-extra/xfce4-playercontrol-plugin:audacious - Enable Audacious support
 xfce-extra/xfce4-playercontrol-plugin:mpd - Enable Music Player Daemon support
 xfce-extra/xfce4-power-manager:lxpanel - Build the applet for lxde-base/lxpanel, you can set XFCE_PLUGINS="" if you don't want the Xfce dependencies.
-xfce-extra/xfce4-power-manager:udisks - Pull in sys-fs/udisks:0 for spindown support (DEPRECATED)
 xfce-extra/xfce4-soundmenu-plugin:glyr - Enable music metadata searchengine support using media-libs/glyr
 xfce-extra/xfce4-soundmenu-plugin:keybinder - Enable shortcut support using dev-libs/keybinder
 xfce-extra/xfce4-soundmenu-plugin:lastfm - Enable last.fm support using media-libs/libclastfm

@@ -1,10 +1,16 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/base/package.use.mask,v 1.599 2014/09/14 11:41:23 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/base/package.use.mask,v 1.603 2014/09/16 20:50:31 grknight Exp $
 
 # This file requires >=portage-2.1.1
 # New entries go on top.
 #
+
+# Michał Górny <mgorny@gentoo.org> (15 Sep 2014)
+# Unsuccessful version bump of net-libs/libzrtpcpp, seems to cause
+# undefined references few layers deeper. Need further investigation,
+# if anybody cares.
+net-libs/ortp zrtp
 
 # Johannes Huber <johu@gentoo.org> (14 Sep 2014)
 # Masked until dev-libs/extra-cmake-modules is in tree.
@@ -68,10 +74,6 @@ www-servers/mongoose lua
 # See bugs #507808, #507810 and #507814
 sys-devel/autoconf	multislot
 sys-devel/gcc		multislot
-
-# Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org> (05 Jun 2014)
-# Needs libepoxy keywording, bug #510940
-x11-base/xorg-server glamor
 
 # Manuel Rüger <mrueg@gentoo.org> (05 Jun 2014)
 # Fails to build with net-libs/libotr-4.0.0
@@ -610,12 +612,6 @@ net-dns/pdnsd isdn urandom
 # Raúl Porcel <armin76@gentoo.org> (13 Feb 2011)
 # Masked until devs know how to use repoman
 <media-video/mplayer-9999 bluray
-
-# Robin H. Johnson <robbat2@gentoo.org> (28 Nov 2010)
-# bug 344885: USE=debug causes compile to fail presently.
-=dev-db/mysql-5.1.51* debug
-=dev-db/mysql-5.1.52* debug
-=dev-db/mysql-5.1.53* debug
 
 # Justin Lecher <jlec@gentoo.org> (17 Nov 2010)
 # Upstream didn't release patches for aria yet
