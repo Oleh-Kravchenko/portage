@@ -1122,6 +1122,7 @@ app-text/pelican:markdown - Markdown support
 app-text/podofo:boost - Add support for boost
 app-text/poppler:introspection - Enable GObject introspection.
 app-text/poppler:utils - Install command-line PDF converters and various utilities.
+app-text/qpdfview:fitz - Use experimental fitz rendering instead of poppler
 app-text/qpdfview:synctex - Add support for searching TeX sources
 app-text/sgmltools-lite:jadetex - Add support for app-text/jadetex (for processing tex files produced by the TeX backend of Jade)
 app-text/stardict:espeak - Enable text to speech synthesizer using espeak engine
@@ -6335,6 +6336,7 @@ sci-libs/silo:silex - Build silex data browser
 sci-libs/spqr:metis - Use sci-libs/metis or sci-libs/parmetis for partitioning
 sci-libs/spqr:tbb - Enable multithreading with the Intel Threads Building Block dev-cpp/tbb
 sci-libs/spr:root - Add sci-physics/root graphics and i/o support
+sci-libs/ssm:ccp4 - Link superpose with libccp4
 sci-libs/suitesparse:cuda - Enable nvidia cuda toolkit for speeding up computations
 sci-libs/suitesparse:metis - Enable the Partition module to cholmod using sci-libs/metis
 sci-libs/suitesparse:tbb - Enable multithreading with the Intel Threads Building Block dev-cpp/tbb
@@ -7133,6 +7135,7 @@ sys-process/fcron:debug - Enable debug code and output. Since version 3.0.5 this
 sys-process/fcron:mta - Enable mta support for sending emails from fcron
 sys-process/fcron:pam - Enable PAM support for fcron. This means that fcron will pass through the "fcron" stack before executing the jobs, and fcrontab will use the "fcrontab" stack to authenticate the user before editing its crontab file.
 sys-process/fcron:system-crontab - Set up fcron to respect /etc/crontab and /etc/cron.d. If this flag is disabled, /etc/cron.d and /etc/crontab will be ignored, but /etc/cron.{hourly,daily,weekly,monthly} will still be respected.
+sys-process/glances:chart - Enables support of graph charts via matplotlib
 sys-process/glances:hddtemp - Enables hard drive temperature monitoring
 sys-process/glances:snmp - Enables SNMP support
 sys-process/glances:web - Enables the web server mode
@@ -7140,6 +7143,7 @@ sys-process/htop:oom - Add column to track the OOM-killer score of processes
 sys-process/htop:openvz - Enable openvz support
 sys-process/htop:vserver - Enable vserver support
 sys-process/lsof:rpc - support looking up RPC service info
+sys-process/procps:modern-top - Enables new startup defaults of top. Keeps old defaults if disabled
 sys-process/procps:ncurses - Build programs that use ncurses: top, slabtop, watch
 virtual/ffmpeg:opus - Use the external opus library for encoding and decoding.
 virtual/ffmpeg:vaapi - Enables VAAPI (Video Acceleration API) for hardware decoding
