@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16052 2014/09/25 19:08:51 dolsen Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16055 2014/09/26 20:42:58 hd_brummy Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -39,10 +39,6 @@
 # No updates since 2007 and games-board/scid is actively maintained.
 # masked for removal on 2014102
 games-board/chessdb
-
-# Joerg Bornkessel <hd_brummy@gentoo.org> (23 Sep 2014)
-# temp masked for testing, need also some fixing in media-vide/vdr
-=media-tv/gentoo-vdr-scripts-2.5_rc5
 
 # Michael Orlitzky <mjo@gentoo.org> (16 Sep 2014)
 # Superseded by app-text/dos2unix, use that instead.

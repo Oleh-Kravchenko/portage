@@ -1230,6 +1230,8 @@ dev-db/mariadb-galera:minimal - Install client programs only, no server
 dev-db/mariadb-galera:oqgraph - Add support for the Open Query GRAPH engine
 dev-db/mariadb-galera:profiling - Add support for statement profiling (requires USE=community).
 dev-db/mariadb-galera:sphinx - Add suport for the sphinx full-text search engine
+dev-db/mariadb-galera:sst-rsync - Add tools needed to support the rsync SST method
+dev-db/mariadb-galera:sst-xtrabackup - Add tools needed to support the xtrabackup and xtrabackup-v2 SST methods
 dev-db/mariadb-galera:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-db/mariadb-galera:test - Install upstream testsuites for end use.
 dev-db/mariadb-galera:tokudb - Add support for TokuDB storage engine
@@ -2814,7 +2816,6 @@ gnome-base/gnome-applets:cpufreq - Build cpu frequency scaling monitor applet
 gnome-base/gnome-control-center:colord - Support color management using x11-misc/colord
 gnome-base/gnome-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
 gnome-base/gnome-control-center:i18n - Enable support for enhanced input methods through app-i18n/ibus
-gnome-base/gnome-control-center:socialweb - Add support for desktop background images from Flickr using net-libs/libsocialweb
 gnome-base/gnome-desktop:license-docs - Install help files documenting GNOME's licenses
 gnome-base/gnome-extra-apps:games - Install Gnome Games
 gnome-base/gnome-extra-apps:shotwell - Install the media-gfx/shotwell photo manager
@@ -4446,6 +4447,7 @@ media-video/vdr:mainmenuhooks - Allows to replace main menu entries by some spec
 media-video/vdr:menuorg - Enables support for the menuorg-plugin
 media-video/vdr:naludump - Removes NALU fill data from h.264-Streams of TS files
 media-video/vdr:permashift - permanent timeshift by recording live TV on hard disk, need plugin vdr-permashift
+media-video/vdr:permashift_v1 - permanent timeshift by recording live TV on RAM, need plugin >=vdr-permashift-1
 media-video/vdr:pinplugin - Support for pin plugin
 media-video/vdr:rotor - Enable support for plugin vdr-rotor for dish-positioner.
 media-video/vdr:setup - Enable support for the plugin vdr-setup
