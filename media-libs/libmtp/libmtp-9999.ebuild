@@ -1,43 +1,54 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libmtp/libmtp-9999.ebuild,v 1.14 2014/09/10 22:17:02 zerochaos Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libmtp/libmtp-9999.ebuild,v 1.15 2014/09/27 21:50:58 ssuominen Exp $
 
 EAPI=5
 
-inherit autotools eutils udev user toolchain-funcs
-
-if [[ ${PV} == *9999* ]]; then
-	EGIT_REPO_URI="git://git.code.sf.net/p/libmtp/code"
-	EGIT_PROJECT="libmtp"
-	inherit git-2
+if [[ ${PV} == 9999* ]]; then
+	EGIT_REPO_URI="git://git.code.sf.net/p/${PN}/code"
+	inherit autotools git-r3
 else
-	KEYWORDS="~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~x86 ~amd64-fbsd"
 	SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+	KEYWORDS="~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~x86 ~amd64-fbsd ~x86-fbsd"
 fi
+
+inherit eutils udev user
 
 DESCRIPTION="An implementation of Microsoft's Media Transfer Protocol (MTP)"
 HOMEPAGE="http://libmtp.sourceforge.net/"
 
-LICENSE="LGPL-2.1"
-SLOT="0"
+LICENSE="LGPL-2.1" # LGPL-2+ and LGPL-2.1+ ?
+SLOT="0/9" # Based on SONAME of libmtp shared library
 IUSE="+crypt doc examples static-libs"
 
 RDEPEND="virtual/libusb:1
-	crypt? ( dev-libs/libgcrypt:0=
-		dev-libs/libgpg-error )"
+	crypt? ( >=dev-libs/libgcrypt-1.5.4:0= )"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig
 	doc? ( app-doc/doxygen )"
 
-DOCS="AUTHORS ChangeLog README TODO"
-
 pkg_setup() {
+	DOCS="AUTHORS README TODO"
 	enewgroup plugdev
 }
 
+src_unpack() {
+	[[ ${PV} == 9999* ]] && git-r3_src_unpack
+	default_src_unpack
+}
+
 src_prepare() {
-	if [[ ${PV} == *9999* ]]; then
-		touch config.rpath # This is from upstream autogen.sh
+	# ChangeLog says "RETIRING THIS FILE ..pause..  GIT" (Last entry from start of 2011)
+	rm -f ChangeLog
+
+	if [[ ${PV} == 9999* ]]; then
+		local crpthf=config.rpath
+		local crpthd=/usr/share/gettext/${crpthf}
+		if has_version '>sys-devel/gettext-0.18.3' && [[ -e ${crpthd} ]]; then
+			cp "${crpthd}" .
+		else
+			touch ${crpthf} # This is from upstream autogen.sh
+		fi
 		eautoreconf
 	fi
 }
@@ -54,12 +65,10 @@ src_configure() {
 
 src_install() {
 	default
-	prune_libtool_files
+	prune_libtool_files --all
 
 	if use examples; then
 		docinto examples
 		dodoc examples/*.{c,h,sh}
 	fi
-
-	sed -i -e '/^Unable to open/d' "${ED}/$(get_udevdir)"/rules.d/*-libmtp.rules || die #481666
 }

@@ -1485,6 +1485,7 @@ dev-haskell/texmath:cgi - Build texmath-cgi executable.
 dev-haskell/text:developer - operate in developer mode
 dev-haskell/tls:compat - Accept SSLv2 compatible handshake
 dev-haskell/transformers-base:orphaninstances - Build instances for orphan datatypes.
+dev-haskell/transformers-compat:three - Use transformers-0.3
 dev-haskell/unix-compat:old-time - build against old-time package
 dev-haskell/vector:boundschecks - Enable bounds checking
 dev-haskell/vector:internalchecks - Enable internal consistency checks at the cost of a significant performance penalty
@@ -2295,6 +2296,7 @@ dev-qt/qtquick1:xml - Build the XmlListModel import for QtQuick1 (requires QtXml
 dev-qt/qtquickcontrols:widgets - Enable QtWidgets support
 dev-qt/qtscript:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtscript:scripttools - Build the QtScriptTools module (requires QtWidgets)
+dev-qt/qtsensors:qml - Build QML bindings
 dev-qt/qtsql:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtsql:qt3support - Enable the Qt3Support libraries for Qt4
 dev-qt/qtsvg:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
@@ -4164,13 +4166,10 @@ media-tv/xbmc:vaapi - Enables VAAPI (Video Acceleration API) for hardware decodi
 media-tv/xbmc:webserver - Enable internal webserver
 media-tv/xbmc:xrandr - Support X randr extension
 media-tv/xmltv:ar - Argentina tv listing grabber
-media-tv/xmltv:be - Belgium and Luxemburg tv listing grabber
-media-tv/xmltv:brnet - Brazil cable tv listing grabber
 media-tv/xmltv:ch - Switzerland bluewin tv listing grabber
 media-tv/xmltv:dk - Denmark tv listing grabber
 media-tv/xmltv:dtvla - Latin America digital tv listing grabber
 media-tv/xmltv:ee - Estonia tv listing grabber
-media-tv/xmltv:es - Spain tv listing grabber
 media-tv/xmltv:es_laguiatv - Spain alternative grabber
 media-tv/xmltv:es_miguiatv - Spain alternative grabber
 media-tv/xmltv:eu_epg - EPG grabber for some European countries.
@@ -4182,14 +4181,10 @@ media-tv/xmltv:il - Israel tv listing grabber
 media-tv/xmltv:in - India tv listing grabber
 media-tv/xmltv:is - Iceland tv listing grabber
 media-tv/xmltv:it - Italy tv listing grabber
-media-tv/xmltv:jp - Japan tv listing grabber
 media-tv/xmltv:na_dd - North America tv listing grabber
 media-tv/xmltv:na_dtv - North America Direct TV grabber
 media-tv/xmltv:na_icons - option for na_dd to download icons
-media-tv/xmltv:nc - Caledonie Island tv listing grabber
 media-tv/xmltv:nl - Netherlands tv listing grabber
-media-tv/xmltv:nl_wolf - Netherlands alternative tv listing grabber
-media-tv/xmltv:no - Norway tv listing grabber
 media-tv/xmltv:no_gf - Norway Gfeed tv listing grabber
 media-tv/xmltv:pt - Portugal tv listing grabber
 media-tv/xmltv:re - Reunion Island (France) tv listing grabber
@@ -4698,7 +4693,6 @@ net-analyzer/tcpreplay:tcpdump - Use net-analyzer/tcpdump for packet decoding fe
 net-analyzer/wireshark:adns - Use the GNU net-dns/c-ares library to resolve DNS names
 net-analyzer/wireshark:crypt - Use dev-libs/libgcrypt to decrypt traffic
 net-analyzer/wireshark:doc-pdf - Build documentation in pdf format (US and a4 paper sizes)
-net-analyzer/wireshark:gtk2 - Build the wireshark executable with a GTK+ UI version 2.
 net-analyzer/wireshark:gtk3 - Build the wireshark executable with a GTK+ UI version 3.
 net-analyzer/wireshark:netlink - Use dev-libs/libnl
 net-analyzer/wireshark:pcap - Use net-libs/libpcap for network packet capturing (build dumpcap, rawshark)
@@ -7276,6 +7270,8 @@ www-client/vimb:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 www-client/w3m:lynxkeymap - If you prefer Lynx-like key binding
 www-client/weboob:fast-libs - Enable fast libs
 www-client/weboob:secure-updates - Enable secure updates
+www-misc/gurlchecker:json - Enable support for parsing Google Chrome and derivatives bookmarks.
+www-misc/gurlchecker:sqlite - Enable support for parsing Firefox and derivatives bookmarks.
 www-misc/litmus:libproxy - Support for automatic proxy configuratino management through net-libs/libproxy.
 www-misc/litmus:libxml2 - Use dev-libs/libxml2 to parse XML
 www-misc/litmus:pkcs11 - Support for PKCS #11 through PaKChoiS (dev-libs/pakchois).
