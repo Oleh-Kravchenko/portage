@@ -2219,7 +2219,6 @@ dev-qt/qt-creator:python - Enable Python source code editor
 dev-qt/qt-creator:qnx - Build plugin for QNX/Blackberry devices
 dev-qt/qt-creator:valgrind - Add support for memory debugging using dev-util/valgrind
 dev-qt/qt-meta:kde - Select media-libs/phonon as Phonon variant (needed for KDE)
-dev-qt/qt-meta:opengl - Enable the QtOpenGL module
 dev-qt/qt-meta:openvg - Enable the QtOpenVG module
 dev-qt/qt-meta:qt3support - Enable the Qt3Support library for Qt4
 dev-qt/qt-mobility:bearer - Build the QtBearer module
@@ -2290,6 +2289,8 @@ dev-qt/qtopenvg:exceptions - Build with support for exceptions
 dev-qt/qtopenvg:qt3support - Enable the Qt3Support libraries for Qt4
 dev-qt/qtphonon:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtphonon:qt3support - Enable the Qt3Support libraries for Qt4. Note that this does not mean you can compile pure Qt3 programs with Qt4.
+dev-qt/qtpositioning:geoclue - Use enhanced location information from app-misc/geoclue
+dev-qt/qtpositioning:qml - Build QML bindings
 dev-qt/qtquick1:designer - Build plugin for dev-qt/designer
 dev-qt/qtquick1:webkit - Build the WebView import for QtQuick1 (requires QtWebKit)
 dev-qt/qtquick1:xml - Build the XmlListModel import for QtQuick1 (requires QtXmlPatterns)
@@ -2303,6 +2304,7 @@ dev-qt/qtsvg:exceptions - Add support for exceptions - like catching them inside
 dev-qt/qttest:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtwebkit:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtwebkit:gstreamer - Enable HTML5 audio/video support via media-libs/gstreamer
+dev-qt/qtwebkit:gstreamer010 - Enable HTML5 audio/video support via media-libs/gstreamer:0.10 instead of :1.0
 dev-qt/qtwebkit:libxml2 - Use dev-libs/libxml2 for XML parsing
 dev-qt/qtwebkit:multimedia - Enable HTML5 audio/video support via dev-qt/qtmultimedia
 dev-qt/qtwebkit:printsupport - Enable printing via dev-qt/qtprintsupport
