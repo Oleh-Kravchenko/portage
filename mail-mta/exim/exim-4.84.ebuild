@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/mail-mta/exim/exim-4.84.ebuild,v 1.1 2014/08/13 06:14:55 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/mail-mta/exim/exim-4.84.ebuild,v 1.4 2014/09/30 22:17:11 jer Exp $
 
 EAPI="5"
 
@@ -19,8 +19,7 @@ HOMEPAGE="http://www.exim.org/"
 
 SLOT="0"
 LICENSE="GPL-2"
-#KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd ~x86-solaris"
-KEYWORDS="~amd64 ~hppa ~x86-fbsd ~x86-solaris"
+KEYWORDS="~alpha ~amd64 hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd ~x86-solaris"
 
 COMMON_DEPEND=">=sys-apps/sed-4.0.5
 	>=sys-libs/db-3.2
@@ -446,7 +445,7 @@ src_install () {
 
 	# conf files
 	insinto /etc/exim
-	newins "${S}"/src/configure.default.orig exim.conf.dist
+	newins "${S}"/src/configure.default exim.conf.dist
 	if use exiscan-acl; then
 		newins "${S}"/src/configure.default exim.conf.exiscan-acl
 	fi
