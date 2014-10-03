@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/foolscap/foolscap-0.6.5.ebuild,v 1.1 2014/08/19 12:09:00 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/foolscap/foolscap-0.6.5.ebuild,v 1.2 2014/10/02 00:47:37 idella4 Exp $
 
 EAPI=5
 
@@ -19,7 +19,7 @@ IUSE="doc ssl test"
 
 RDEPEND=">=dev-python/twisted-core-2.5.0[${PYTHON_USEDEP}]
 	>=dev-python/twisted-web-2.5.0[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]"
+	ssl? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( ${RDEPEND} )"
 
