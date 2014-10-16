@@ -672,7 +672,6 @@ app-emulation/xen-tools:qemu - Enable IOEMU support via the use of qemu-dm
 app-emulation/xen-tools:screen - Enable support for running domain U console in an app-misc/screen session
 app-emulation/xen-tools:system-qemu - Using app-emulation/qemu instead of the bundled one
 app-emulation/xen-tools:system-seabios - Using sys-firmware/seabios instead of the bundled one
-app-emulation/xen-tools:xend - Enable support the xend and xm to manage xen
 app-emulation/xtrs:ls-dos - Install LS-DOS disk images for Model 4P
 app-forensics/afflib:fuse - Enable extra fuse thingies
 app-forensics/afflib:qemu - Enable qemu stuff
@@ -3138,6 +3137,15 @@ kde-base/smokeqt:qwt - Compile bindings for x11-libs/qwt.
 kde-base/smokeqt:webkit - Compile bindings for dev-qt/qtwebkit.
 kde-base/step:qalculate - Enable the libqalculate library for unit conversion
 kde-base/systemsettings:nepomuk - Enable Nepomuk based semantic desktop support (deprecated)
+kde-frameworks/kdesignerplugin:designer - Build KF5 widgets plugin for QtDesigner
+kde-frameworks/kdesignerplugin:webkit - Build kdewebkit plugin for QtDesigner
+kde-frameworks/kimageformats:eps - Support the EPS graphics file format
+kde-frameworks/kinit:caps - Capabilities support for improved security and better OOM handling
+kde-frameworks/knotifyconfig:phonon - Add sound support via media-libs/phonon
+kde-frameworks/kxmlgui:attica - Enable support for kde-frameworks/attica
+kde-frameworks/plasma:egl - Enable EGL support
+kde-frameworks/sonnet:aspell - Enable the app-text/aspell spell-checking backend
+kde-frameworks/sonnet:hunspell - Enable the app-text/hunspell spell-checking backend
 kde-misc/kcm-grub2:hwinfo - Used to work out supported framebuffer resolutions
 kde-misc/kcm-grub2:imagemagick - Create splash images compatible with GRUB2
 kde-misc/kcm-grub2:packagekit - Add support for packagekit integration

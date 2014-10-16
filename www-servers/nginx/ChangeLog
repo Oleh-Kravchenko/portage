@@ -1,6 +1,24 @@
 # ChangeLog for www-servers/nginx
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-servers/nginx/ChangeLog,v 1.391 2014/08/10 13:21:49 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-servers/nginx/ChangeLog,v 1.395 2014/10/15 19:03:01 ago Exp $
+
+  15 Oct 2014; Agostino Sarubbo <ago@gentoo.org> nginx-1.7.6.ebuild:
+  Stable for x86, wrt bug #522994
+
+  15 Oct 2014; Agostino Sarubbo <ago@gentoo.org> nginx-1.7.6.ebuild:
+  Stable for amd64, wrt bug #522994
+
+  15 Oct 2014; Tiziano Müller <dev-zero@gentoo.org> nginx-1.7.6.ebuild:
+  Re-add keywords (accidentally dropped when merging from proxy-maintained
+  overlay).
+
+*nginx-1.7.6 (15 Oct 2014)
+
+  15 Oct 2014; Tiziano Müller <dev-zero@gentoo.org>
+  +files/lua-nginx-1.7.6.patch, +files/rtmp-nginx-1.7.6.patch,
+  +nginx-1.7.6.ebuild:
+  Version bump for security bug #522994, thanks to jbergstroem for the bump and
+  testing.
 
   10 Aug 2014; Agostino Sarubbo <ago@gentoo.org>
   -files/modsecurity-2.7.5-include-paths.patch, -files/nginx.logrotate,
