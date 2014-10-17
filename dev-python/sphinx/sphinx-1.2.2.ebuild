@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/sphinx/sphinx-1.2.2.ebuild,v 1.8 2014/10/09 08:17:10 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/sphinx/sphinx-1.2.2.ebuild,v 1.10 2014/10/16 18:28:50 maekke Exp $
 
 EAPI=5
 
@@ -18,14 +18,13 @@ SRC_URI="mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="~alpha amd64 arm hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
 IUSE="doc latex test"
 
 # Split the jinja dep to allow different slots to satisfy it
 RDEPEND="
 	>=dev-python/docutils-0.7[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.3[$(python_gen_usedep python3_2)]
-	>=dev-python/jinja-2.3[$(python_gen_usedep python{2_6,2_7,3_3,3_4} 'pypy*')]
+	>=dev-python/jinja-2.3[$(python_gen_usedep python{2_7,3_3,3_4} pypy)]
 	>=dev-python/pygments-1.2[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	latex? (
