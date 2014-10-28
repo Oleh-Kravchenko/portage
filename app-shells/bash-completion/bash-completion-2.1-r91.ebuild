@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-shells/bash-completion/bash-completion-2.1-r91.ebuild,v 1.1 2014/10/24 23:03:19 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-shells/bash-completion/bash-completion-2.1-r91.ebuild,v 1.3 2014/10/27 14:13:13 mgorny Exp $
 
 EAPI=5
 
@@ -40,6 +40,9 @@ src_prepare() {
 src_test() { :; } # Skip testsuite because of interactive shell wrt #477066
 
 src_install() {
+	# work-around race conditions, bug #526996
+	mkdir -p "${ED}"/usr/share/bash-completion/{completions,helpers} || die
+
 	default
 
 	# use the copies from >=sys-apps/util-linux-2.23 wrt #468544 -> hd and ncal
