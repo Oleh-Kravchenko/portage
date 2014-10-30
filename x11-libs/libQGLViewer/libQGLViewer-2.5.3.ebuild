@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/libQGLViewer/libQGLViewer-2.5.3.ebuild,v 1.1 2014/10/28 17:30:52 aballier Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/libQGLViewer/libQGLViewer-2.5.3.ebuild,v 1.3 2014/10/29 10:08:55 aballier Exp $
 
 EAPI="5"
 
@@ -12,10 +12,11 @@ SRC_URI="http://www.libqglviewer.com/src/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm"
 IUSE="designer examples"
 
 DEPEND="virtual/opengl
+	dev-qt/qtopengl:4
 	dev-qt/qtgui:4"
 RDEPEND="${DEPEND}
 	designer? ( dev-qt/designer:4 )"
