@@ -1563,11 +1563,14 @@ dev-java/icedtea:X - Make X buildtime-only depenency.
 dev-java/icedtea:alsa - Make alsa buildtime-only dependency.
 dev-java/icedtea:cacao - Build CACAO virtual machine on platforms supporting HotSpot. (experimental)
 dev-java/icedtea:cups - Make CUPS build-only dependency.
+dev-java/icedtea:infinality - Enable better font rendering using fontconfig.
 dev-java/icedtea:jamvm - Use the JamVM virtual machine rather than HotSpot.
 dev-java/icedtea:jbootstrap - If possible, recompile the final IcedTea executables with itself.
 dev-java/icedtea:nsplugin - Enable browser plugin (NPPlugin), requires also the webstart flag to be enabled.
 dev-java/icedtea:nss - Enable NSS security provider support.
 dev-java/icedtea:pax_kernel - For building when running a PaX enabled kernel.
+dev-java/icedtea:smartcard - Build the PCSC driver against pcsc-lite
+dev-java/icedtea:sunec - Build the SunEC provider against system NSS
 dev-java/icedtea:systemtap - Enable SystemTap probes in HotSpot.
 dev-java/icedtea:webstart - Enable Web Start support (via NetX).
 dev-java/icedtea:zero - Enable Zero assembler port (usually for non-HotSpot architectures)
@@ -1575,6 +1578,7 @@ dev-java/icedtea-bin:webstart - Provide javaws command through symlink to icedte
 dev-java/icedtea-web:icedtea7 - Build icedtea-7 support in addition to icedtea-6 support. Requires icedtea{-bin}-7
 dev-java/icedtea-web:javascript - Enable support for using proxy auto config (PAC) files.
 dev-java/icedtea-web:nsplugin - Enable the browser plugin (NPPlugin).
+dev-java/icedtea-web:tagsoup - Depend on dev-java/tagsoup which allows parsing malformed .jnlp files
 dev-java/itext:rtf - Build and provide libraries for rich text format
 dev-java/itext:rups - Build and provide GUI for Reading/Updating PDF Syntax
 dev-java/jcs:admin - Enable JCS Admin servlets
@@ -2040,13 +2044,6 @@ dev-php/ZendFramework:cli - Enables the CLI
 dev-php/ZendFramework:doc - Installs the documentation
 dev-php/ZendFramework:examples - Installs the examples
 dev-php/ZendFramework:minimal - Installs the minimal version without Dojo toolkit, tests and demos
-dev-php/eaccelerator:disassembler - Enable the eA disassembler
-dev-php/eaccelerator:doccommentinclusion - If you want eAccelerator to retain doc-comments in internal php structures.
-dev-php/eaccelerator:inode - Use inode-based caching
-dev-php/pecl-apc:lock_pthreadmutex - Enable pthread mutex locking
-dev-php/pecl-apc:lock_pthreadrw - Enable pthread read/write locking
-dev-php/pecl-apc:lock_semaphore - Enable semaphore locks instead of fcntl
-dev-php/pecl-apc:lock_spinlock - Enable spin locks (EXPERIMENTAL)
 dev-php/pecl-apcu:lock_pthreadmutex - Enable pthread mutex locking
 dev-php/pecl-apcu:lock_pthreadrw - Enable pthread read/write locking
 dev-php/pecl-apcu:lock_semaphore - Enable semaphore locks instead of fcntl
@@ -6573,9 +6570,7 @@ sec-policy/selinux-base:peer_perms - Enable the labeled networking peer permissi
 sec-policy/selinux-base:ubac - Enable User Based Access Control (UBAC) in the SELinux policy
 sec-policy/selinux-base:unconfined - Enable support for the unconfined SELinux module
 sec-policy/selinux-base-policy:unconfined - Enable support for the unconfined SELinux policy module
-sys-apps/accountsservice:introspection - Use dev-libs/gobject-introspection for introspection
 sys-apps/accountsservice:systemd - Use sys-apps/systemd instead of sys-auth/consolekit for session tracking
-sys-apps/accountsservice:vala - Enable bindings for dev-lang/vala
 sys-apps/acl:nfs - add support for NFS acls
 sys-apps/baselayout-prefix:prefix-chaining - install in a chained Prefix environment
 sys-apps/busybox:make-symlinks - Create all the appropriate symlinks in /bin and /sbin.
