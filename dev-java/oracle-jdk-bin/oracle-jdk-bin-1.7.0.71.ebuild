@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/oracle-jdk-bin/oracle-jdk-bin-1.7.0.71.ebuild,v 1.3 2014/11/01 17:00:38 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-java/oracle-jdk-bin/oracle-jdk-bin-1.7.0.71.ebuild,v 1.5 2014/11/02 09:20:51 ago Exp $
 
 EAPI="5"
 
@@ -60,14 +60,13 @@ SRC_URI+=" jce? ( ${JCE_FILE} )"
 
 LICENSE="Oracle-BCLA-JavaSE examples? ( BSD )"
 SLOT="1.7"
-KEYWORDS="amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 IUSE="+X alsa aqua derby doc examples +fontconfig jce nsplugin pax_kernel selinux source"
 
 RESTRICT="fetch strip"
 QA_PREBUILT="*"
 
-COMMON_DEP="
-	selinux? ( sec-policy/selinux-java )"
+COMMON_DEP=""
 RDEPEND="${COMMON_DEP}
 	X? ( !aqua? (
 		x11-libs/libX11
@@ -79,7 +78,8 @@ RDEPEND="${COMMON_DEP}
 	alsa? ( media-libs/alsa-lib )
 	doc? ( dev-java/java-sdk-docs:1.7 )
 	fontconfig? ( media-libs/fontconfig )
-	!prefix? ( sys-libs/glibc )"
+	!prefix? ( sys-libs/glibc )
+	selinux? ( sec-policy/selinux-java )"
 # scanelf won't create a PaX header, so depend on paxctl to avoid fallback
 # marking. #427642
 DEPEND="${COMMON_DEP}
