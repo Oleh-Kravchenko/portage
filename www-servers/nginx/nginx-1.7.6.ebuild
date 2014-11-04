@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-servers/nginx/nginx-1.7.6.ebuild,v 1.5 2014/11/02 12:45:15 swift Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-servers/nginx/nginx-1.7.6.ebuild,v 1.6 2014/11/03 09:10:15 maksbotan Exp $
 
 EAPI="5"
 
@@ -84,7 +84,7 @@ HTTP_NAXSI_MODULE_URI="https://github.com/nbs-system/naxsi/archive/${HTTP_NAXSI_
 HTTP_NAXSI_MODULE_WD="${WORKDIR}/naxsi-${HTTP_NAXSI_MODULE_PV}/naxsi_src"
 
 # nginx-rtmp-module (http://github.com/arut/nginx-rtmp-module, BSD license)
-RTMP_MODULE_PV="1.1.5"
+RTMP_MODULE_PV="1.1.6"
 RTMP_MODULE_P="ngx_rtmp-${RTMP_MODULE_PV}"
 RTMP_MODULE_URI="http://github.com/arut/nginx-rtmp-module/archive/v${RTMP_MODULE_PV}.tar.gz"
 RTMP_MODULE_WD="${WORKDIR}/nginx-rtmp-module-${RTMP_MODULE_PV}"
@@ -284,12 +284,6 @@ src_prepare() {
 		# fix for nginx 1.7.5
 		cd "${HTTP_LUA_MODULE_WD}"
 		epatch "${FILESDIR}/lua-${P}.patch"
-		cd "${S}"
-	fi
-
-	if use rtmp ; then
-		cd "${RTMP_MODULE_WD}"
-		epatch "${FILESDIR}/rtmp-${P}.patch"
 		cd "${S}"
 	fi
 
