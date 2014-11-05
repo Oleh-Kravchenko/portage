@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy-bin/pypy-bin-2.4.0.ebuild,v 1.1 2014/10/20 08:32:50 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pypy-bin/pypy-bin-2.4.0.ebuild,v 1.3 2014/11/04 22:22:27 mgorny Exp $
 
 EAPI=5
 
@@ -61,7 +61,7 @@ SLOT="0/$(get_version_component_range 1-2 ${PV})"
 #KEYWORDS="~amd64"
 # Needs some more sanity checks before it gets unleashed on users
 KEYWORDS=""
-IUSE="doc +jit shadowstack sqlite sse2 test tk"
+IUSE="doc gdbm +jit shadowstack sqlite sse2 test tk"
 
 # yep, world would be easier if people started filling subslots...
 RDEPEND="
@@ -72,10 +72,11 @@ RDEPEND="
 	sys-libs/glibc:2.2
 	sys-libs/ncurses:5
 	sys-libs/zlib:0
-	sqlite? ( dev-db/sqlite:3 )
+	gdbm? ( sys-libs/gdbm:0= )
+	sqlite? ( dev-db/sqlite:3= )
 	tk? (
-		dev-lang/tk:0
-		dev-tcltk/tix
+		dev-lang/tk:0=
+		dev-tcltk/tix:0=
 	)
 	!dev-python/pypy:0"
 DEPEND="app-arch/xz-utils
@@ -106,6 +107,7 @@ src_compile() {
 	mv "${WORKDIR}"/${P}*/{libpypy-c.so,pypy-c} . || die
 	mv "${WORKDIR}"/${P}*/include/*.h include/ || die
 	mv pypy/module/cpyext/include/*.h include/ || die
+	mv pypy/module/cpyext/include/numpy include/ || die
 
 	use doc && emake -C pypy/doc/ html
 	#needed even without jit :( also needed in both compile and install phases
@@ -130,6 +132,10 @@ src_install() {
 	dosym ../$(get_libdir)/pypy/libpypy-c.so /usr/$(get_libdir)/libpypy-c.so
 	dodoc README.rst
 
+	if ! use gdbm; then
+		rm -r "${ED%/}${INSDESTTREE}"/lib_pypy/gdbm.py \
+			"${ED%/}${INSDESTTREE}"/lib-python/*2.7/test/test_gdbm.py || die
+	fi
 	if ! use sqlite; then
 		rm -r "${ED%/}${INSDESTTREE}"/lib-python/*2.7/sqlite3 \
 			"${ED%/}${INSDESTTREE}"/lib_pypy/_sqlite3.py \
@@ -157,9 +163,16 @@ src_install() {
 	"${PYTHON}" -c "import lib2to3.pygram, lib2to3.patcomp; lib2to3.patcomp.PatternCompiler()" \
 		|| die "Generation of Grammar and PatternGrammar pickles failed"
 
+	# ctypes config cache
+	"${PYTHON}" -m ctypes_config_cache.rebuild || die "Failed to rebuild ctypes config cache"
+
 	# Generate cffi cache
+	# Please keep in sync with pypy/tool/release/package.py!
 	"${PYTHON}" -c "import _curses" || die "Failed to import _curses (cffi)"
 	"${PYTHON}" -c "import syslog" || die "Failed to import syslog (cffi)"
+	if use gdbm; then
+		"${PYTHON}" -c "import gdbm" || die "Failed to import gdbm (cffi)"
+	fi
 	if use sqlite; then
 		"${PYTHON}" -c "import _sqlite3" || die "Failed to import _sqlite3 (cffi)"
 	fi
