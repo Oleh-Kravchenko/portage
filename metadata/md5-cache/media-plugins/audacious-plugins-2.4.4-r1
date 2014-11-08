@@ -10,4 +10,4 @@ RDEPEND=app-arch/unzip >=dev-libs/dbus-glib-0.60 dev-libs/libxml2:2 ~media-sound
 SLOT=0
 SRC_URI=http://distfiles.atheme.org/audacious-plugins-2.4.4.tgz
 _eclasses_=eutils	c91a1ac3fefc6b077094fb2e82c65af4	flag-o-matic	eda1c0b5ba85b3eeb555a071d69eb819	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac
-_md5_=e1bdb4c0bf869ef0274f80b4764c7851
+_md5_=11b7b7bf913cb7332c3d9df7bf0f883f
