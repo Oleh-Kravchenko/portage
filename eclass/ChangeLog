@@ -1,6 +1,22 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1408 2014/11/07 18:18:33 axs Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1412 2014/11/09 22:27:58 mgorny Exp $
+
+  09 Nov 2014; Michał Górny <mgorny@gentoo.org> python-any-r1.eclass,
+  python-utils-r1.eclass:
+  Move the has_version checks on installed implementations to
+  python_is_installed() function. Accept PyPy when the implementation is
+  installed, even if the virtual is not.
+
+  09 Nov 2014; Andreas K. Huettel <dilfridge@gentoo.org> perl-module.eclass:
+  Add docs and deprecate perlinfo and fixlocalpod
+
+  09 Nov 2014; Andreas K. Huettel <dilfridge@gentoo.org> perl-module.eclass:
+  All in-tree ebuilds with EAPI=4 using perl-module.eclass are gone. Switch
+  deprecation message to super-annoying mode.
+
+  09 Nov 2014; Sebastian Pipping <sping@gentoo.org> python-r1.eclass:
+  Use python 3.4 rather than dead 3.2 in python-r1 examples
 
   07 Nov 2014; Ian Stakenvicius (_AxS_) <axs@gentoo.org>
   python-single-r1.eclass:
