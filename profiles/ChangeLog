@@ -1,10 +1,24 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9537 2014/11/12 23:59:51 hasufell Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9541 2014/11/13 13:15:01 pacho Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  13 Nov 2014; Pacho Ramos <pacho@gentoo.org> package.mask:
+  Gnome2 stuff was finally removed (#508854)
+
+  13 Nov 2014; Tomáš Chvátal <scarabeus@gentoo.org>
+  arch/amd64/no-multilib/package.use.mask,
+  features/64bit-native/package.use.mask:
+  Mask the apulse useflag on skype for no-multilib
+
+  13 Nov 2014; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Unmask app-editors/emacs-vcs live git ebuilds.
+
+  13 Nov 2014; Davide Pesavento <pesa@gentoo.org> package.mask:
+  Mask Qt 4.8.6 multilib ebuilds.
 
   12 Nov 2014; Julian Ospald <hasufell@gentoo.org> package.mask:
   rm testing mask on net-misc/teamviewer
