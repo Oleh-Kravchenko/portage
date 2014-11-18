@@ -4663,11 +4663,12 @@ net-analyzer/nfdump:nfprofile - Build nfprofile used by NfSen
 net-analyzer/nfdump:nftrack - Build nfprofile used by PortTracker
 net-analyzer/nfdump:readpcap - Build nfcapd collector to read from pcap file instead ofnetwork data
 net-analyzer/nfdump:sflow - Build sflow collector sfcpad
-net-analyzer/nmap:lua - Include support for the Nmap Scripting Engine (NSE) through dev-lang/lua
+net-analyzer/nmap:lua - Include support for the Nmap Scripting Engine (NSE)
 net-analyzer/nmap:ncat - Install the ncat utility
 net-analyzer/nmap:ndiff - Install the ndiff utility
 net-analyzer/nmap:nmap-update - Install nmap-update, which uses dev-vcs/subversion to update nmap scripts in your home directory
 net-analyzer/nmap:nping - Install the nping utility
+net-analyzer/nmap:system-lua - Use dev-lang/lua instead of the bundled liblua
 net-analyzer/nmap:zenmap - Install the GTK+ based zenmap utility
 net-analyzer/nrpe:command-args - Build support for specifying the command-line arguments from the Nagios/Icinga master. Make sure you understand the implications of this flag as it can be a security risk.
 net-analyzer/nrpe:minimal - Only build the check plugins for Nagios/Icinga, and not the daemon.
@@ -7552,6 +7553,7 @@ x11-misc/openbox-menu:icons - Enable support for icons in menus
 x11-misc/openbox-menu:svg - Support SVG icons
 x11-misc/rednotebook:libyaml - enable libyaml support
 x11-misc/rednotebook:spell - enable gtk-spell support
+x11-misc/redshift:appindicator - Enable usage of dev-libs/libappindicator to export menu options in to unity and KDE 5
 x11-misc/redshift:geoclue - Control dependency on app-misc/geoclue
 x11-misc/rodent:experimental - Build experimental plugins (obexfs, curlftpfs, ecryptfs, cifs and samba)
 x11-misc/rofi:i3 - Compile in support for the x11-wm/i3 window manager
