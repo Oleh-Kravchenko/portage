@@ -1,6 +1,14 @@
 # ChangeLog for sys-kernel/ck-sources
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/ck-sources/ChangeLog,v 1.236 2014/08/10 20:18:42 slyfox Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/ck-sources/ChangeLog,v 1.238 2014/11/19 09:39:02 dlan Exp $
+
+  19 Nov 2014; Yixun Lan <dlan@gentoo.org> metadata.xml:
+  add Harold Naparst as co-maintainer
+
+*ck-sources-3.17.3 (19 Nov 2014)
+
+  19 Nov 2014; Yixun Lan <dlan@gentoo.org> +ck-sources-3.17.3.ebuild:
+  version bump, bug 529692, thanks Harold Naparst for reporting
 
   10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org>
   ck-sources-3.5.7-r2.ebuild, ck-sources-3.6.11-r2.ebuild,
