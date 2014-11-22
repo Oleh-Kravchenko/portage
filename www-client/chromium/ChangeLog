@@ -1,6 +1,21 @@
 # ChangeLog for www-client/chromium
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/chromium/ChangeLog,v 1.1165 2014/11/20 20:47:14 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/chromium/ChangeLog,v 1.1169 2014/11/21 17:19:17 phajdan.jr Exp $
+
+*chromium-41.0.2224.3 (21 Nov 2014)
+
+  21 Nov 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  +chromium-41.0.2224.3.ebuild:
+  Dev channel bump.
+
+  21 Nov 2014; Agostino Sarubbo <ago@gentoo.org> -chromium-38.0.2125.101.ebuild:
+  Remove old
+
+  21 Nov 2014; Agostino Sarubbo <ago@gentoo.org> chromium-39.0.2171.65.ebuild:
+  Stable for amd64, wrt bug #529858
+
+  21 Nov 2014; Agostino Sarubbo <ago@gentoo.org> chromium-39.0.2171.65.ebuild:
+  Stable for x86, wrt bug #529858
 
 *chromium-39.0.2171.65 (20 Nov 2014)
 
