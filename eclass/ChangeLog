@@ -1,6 +1,22 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1439 2014/11/22 18:24:17 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1444 2014/11/23 21:46:29 mgorny Exp $
+
+  23 Nov 2014; Michał Górny <mgorny@gentoo.org> gnome2-utils.eclass:
+  Support multilib in gnome2_query_immodules_gtk2() as well.
+
+  23 Nov 2014; Pacho Ramos <pacho@gentoo.org> gnome2.eclass:
+  Deprecate eapis 0 and 1 for gnome2.eclass (#530046)
+
+  23 Nov 2014; Mike Gilbert <floppym@gentoo.org> python-utils-r1.eclass:
+  Adjust _python_impl_supported as well.
+
+  23 Nov 2014; Mike Gilbert <floppym@gentoo.org> python-utils-r1.eclass:
+  Remove python3_2.
+
+  23 Nov 2014; Michał Górny <mgorny@gentoo.org> gnome2-utils.eclass:
+  Support multilib for gnome2_query_immodules_gtk3(), needed by
+  x11-libs/gtk+:3.
 
   22 Nov 2014; Andreas K. Huettel <dilfridge@gentoo.org> perl-module.eclass:
   Make calling perl-module_pkg_prerm trigger a real warning
