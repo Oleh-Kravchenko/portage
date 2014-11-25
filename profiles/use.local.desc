@@ -1850,6 +1850,7 @@ dev-libs/libflatarray:cuda - Enables plugins for NVIDIA GPUs (e.g. CUDAAllocator
 dev-libs/libgdata:vala - Enable bindings for dev-lang/vala
 dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
+dev-libs/libgit2-glib:ssh - Enable SSH transport support
 dev-libs/libgpg-error:common-lisp - Install common-lisp files
 dev-libs/libgusb:vala - Enable bindings for dev-lang/vala
 dev-libs/libgweather:glade - Installs catalog files for dev-util/glade
@@ -7521,8 +7522,6 @@ x11-libs/libfm:udisks - Use libfm's udisks-based volume monitor implementation i
 x11-libs/libfm:vala - Support custom actions in menus
 x11-libs/libmatchbox:pango - Enable x11-libs/pango support
 x11-libs/libmatchbox:xsettings - Enable the use of xsettings for settings management
-x11-libs/libnotify:introspection - Use dev-libs/gobject-introspection for introspection
-x11-libs/libnotify:symlink - Create symlink from libnotify-notify-send to notify-send
 x11-libs/libqxt:berkdb - Build the QxtBerkeley module
 x11-libs/libqxt:sql - Build the QxtSql module
 x11-libs/libqxt:web - Build the QxtWeb module
