@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/mate-base/mate-settings-daemon/mate-settings-daemon-1.6.2.ebuild,v 1.4 2014/05/04 14:54:11 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/mate-base/mate-settings-daemon/mate-settings-daemon-1.6.2.ebuild,v 1.5 2014/12/09 01:07:11 tamiko Exp $
 
 EAPI="5"
 
@@ -77,12 +77,6 @@ src_configure() {
 		$(use_enable !pulseaudio gstreamer) \
 		$(use_enable smartcard smartcard-support) \
 		$(use_with X x)
-
-	if use pulseaudio; then
-		elog "Building volume media keys using Pulseaudio"
-	else
-		elog "Building volume media keys using GStreamer"
-	fi
 }
 
 DOCS="AUTHORS NEWS ChangeLog"
