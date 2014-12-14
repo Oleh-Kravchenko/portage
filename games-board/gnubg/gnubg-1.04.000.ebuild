@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/games-board/gnubg/gnubg-1.04.000.ebuild,v 1.1 2014/11/14 09:00:27 mr_bones_ Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-board/gnubg/gnubg-1.04.000.ebuild,v 1.3 2014/12/13 21:34:51 mr_bones_ Exp $
 
 EAPI=5
 PYTHON_COMPAT=( python2_6 python2_7 )
@@ -32,7 +32,7 @@ RDEPEND="dev-libs/glib:2
 	)
 	sys-libs/readline
 	python? ( ${PYTHON_DEPS} )
-	media-fonts/ttf-bitstream-vera
+	media-fonts/dejavu
 	virtual/libintl"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig
@@ -46,6 +46,7 @@ pkg_setup() {
 src_prepare() {
 	# use ${T} instead of /tmp for constructing credits (bug #298275)
 	sed -i -e 's:/tmp:${T}:' credits.sh || die
+	sed -i -e 's/fonts //' Makefile.in || die # handle font install ourself to fix bug #335774
 	sed -i \
 		-e '/^localedir / s#=.*$#= @localedir@#' \
 		-e '/^gnulocaledir / s#=.*$#= @localedir@#' \
@@ -82,8 +83,10 @@ src_install() {
 	default
 	insinto "${GAMES_DATADIR}/${PN}"
 	doins ${PN}.weights *bd
-	rm -rf "${D}${GAMES_DATADIR}/${PN}/fonts"
-	dosym /usr/share/fonts/ttf-bitstream-vera "${GAMES_DATADIR}"/${PN}/fonts
+	dodir "${GAMES_DATADIR}"/${PN}/fonts
+	dosym /usr/share/fonts/dejavu/DejaVuSans.ttf "${GAMES_DATADIR}"/${PN}/fonts/Vera.ttf
+	dosym /usr/share/fonts/dejavu/DejaVuSans-Bold.ttf "${GAMES_DATADIR}"/${PN}/fonts/VeraBd.ttf
+	dosym /usr/share/fonts/dejavu/DejaVuSerif-Bold.ttf "${GAMES_DATADIR}"/${PN}/fonts/VeraSeBd.ttf
 	make_desktop_entry "gnubg -w" "GNU Backgammon"
 	prepgamesdirs
 }

@@ -1143,6 +1143,10 @@ app-text/mathtex:png - Generate png images by default instead of gif
 app-text/mupdf:openssl - Use dev-libs/openssl crypto backend
 app-text/pandoc:embed_data_files - Embed data files in binary for relocatable executable.
 app-text/pandoc:http-conduit - Enable downloading of resources over https.
+app-text/pandoc:https - Enable support for downloading of resources over https.
+app-text/pandoc:make-pandoc-man-pages - Build program to regenerate pandoc man pages from README.
+app-text/pandoc:network-uri - Get Network.URI from the network-uri package.
+app-text/pandoc:trypandoc - Build trypandoc cgi executable.
 app-text/pastebinit:crypt - Install pbputs for gpg-encrypted pastes
 app-text/pdf2djvu:graphicsmagick - Enable media-gfx/graphicsmagick support
 app-text/pdfgrep:unac - Removing accents and ligatures before search
@@ -1403,6 +1407,7 @@ dev-haskell/aeson:developer - Operate in developer mode.'
 dev-haskell/aeson-pretty:lib-only - don't build 'aeson-pretty' executable.
 dev-haskell/ansi-terminal:example - Build the example application.
 dev-haskell/ansi-wl-pprint:example - Build the example application.
+dev-haskell/authenticate:network-uri - Get Network.URI from the network-uri package
 dev-haskell/cabal-install:noprefs - Ignore 'preferred-versions' file from hackage's tarball.
 dev-haskell/certificate:executable - Build the executable
 dev-haskell/cgi:extensible-exceptions-in-base - Required to be enabled for >=dev-lang/ghc-7.
@@ -1440,6 +1445,7 @@ dev-haskell/hashed-storage:hpc - Compile with the profiling ghc flag -fhpc.
 dev-haskell/hashtables:bounds-checking - if on, use bounds-checking array accesses
 dev-haskell/hashtables:portable - if on, use only pure Haskell code and no GHC extensions.
 dev-haskell/hashtables:sse4_1 - Enable optimization for SSE4_1 capable processors (Intel Core 2 Penryn and later chips)
+dev-haskell/hashtables:sse4_2 - Enables SSE4.2 optimizations: Nehalem-based Intel Core i7 or later.
 dev-haskell/hashtables:unsafe-tricks - turn on unsafe GHC tricks
 dev-haskell/haskeline:legacy-encoding - Use legacy iconv encoding for POSIX. This is only intended for testing.
 dev-haskell/haskeline:libiconv - Explicitly link against the libiconv library.
@@ -1447,10 +1453,16 @@ dev-haskell/haskeline:terminfo - Use the terminfo package for POSIX consoles.
 dev-haskell/highlighting-kate:executable - Build the Highlight executable.
 dev-haskell/highlighting-kate:pcre-light - Use the pcre-light library instead of regex-pcre-builtin.
 dev-haskell/hslogger:buildtests - Build the executable to run unit tests.
+dev-haskell/hslua:apicheck - Compile Lua with -DLUA_USE_APICHECK..
+dev-haskell/hslua:system-lua - Use the system-wide lua instead of the bundled copy.
 dev-haskell/hsopenssl:fast-bignum - Enable fast moving of bignums between OpenSSL and GMP (GHC Only)
 dev-haskell/hstringtemplate:quasi-quotation - Build module providing a quasi-quoter
 dev-haskell/hstringtemplate:syb-with-class - Generic instances for TOSElem
+dev-haskell/http-client:network-uri - Get Network.URI from the network-uri package.
 dev-haskell/httpd-shed:buildexamples - Build example executables.
+dev-haskell/httpd-shed:network-uri - Get Network.URI from the network-uri package.
+dev-haskell/hxt:network-uri - Get Network.URI from the network-uri package.
+dev-haskell/ieee754:big_endian - Build for a big endian machine. Beware that only little endian machines have been tested.
 dev-haskell/json:generic - Add support for generic encoder (dev-haskell/syb)
 dev-haskell/json:parsec - Add support for parsing with Parsec
 dev-haskell/json:pretty - Add support for using pretty printing combinators
@@ -2372,6 +2384,9 @@ dev-qt/qtsql:exceptions - Add support for exceptions - like catching them inside
 dev-qt/qtsql:qt3support - Enable the Qt3Support libraries for Qt4
 dev-qt/qtsvg:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qttest:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
+dev-qt/qtwayland:egl - Use EGL instead of GLX to manage OpenGL contexts
+dev-qt/qtwayland:qml - Build QML/QtQuick bindings
+dev-qt/qtwayland:wayland-compositor - Build Qt compositor for wayland
 dev-qt/qtwebkit:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtwebkit:gstreamer - Enable HTML5 audio/video support via media-libs/gstreamer:1.0
 dev-qt/qtwebkit:gstreamer010 - Enable HTML5 audio/video support via media-libs/gstreamer:0.10
@@ -2878,6 +2893,7 @@ games-strategy/warzone2100:qt4 - Use qt-gui/qt-opengl for backend rendering inst
 games-strategy/wesnoth:server - Enable compilation of server
 games-util/gslist:web - Enable the web interface
 games-util/pyfa:graph - Enable support for graphs
+games-util/wit:fuse - Enable image mount support via fuse
 gnome-base/gconf:ldap - Build backend which enables default mail accounts, addressbooks and calendars for Evolution to be configured using each user's LDAP entry."
 gnome-base/gdm:audit - Enable support for sys-process/audit
 gnome-base/gdm:fprint - Enables experimental fingerprint authentication using sys-auth/fprintd
