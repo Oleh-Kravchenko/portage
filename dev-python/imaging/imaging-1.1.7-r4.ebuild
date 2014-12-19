@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/imaging/imaging-1.1.7-r4.ebuild,v 1.4 2014/07/30 01:21:21 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/imaging/imaging-1.1.7-r4.ebuild,v 1.6 2014/12/18 20:30:01 monsieurp Exp $
 
 EAPI=5
 PYTHON_COMPAT=( python{2_6,2_7} )
