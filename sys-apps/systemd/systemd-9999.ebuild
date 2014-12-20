@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-9999.ebuild,v 1.149 2014/12/14 15:58:27 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-9999.ebuild,v 1.151 2014/12/19 17:36:41 pacho Exp $
 
 EAPI=5
 
@@ -27,7 +27,7 @@ SLOT="0/2"
 KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86"
 IUSE="acl apparmor audit cryptsetup curl doc elfutils gcrypt gudev http
 	idn introspection kdbus +kmod lz4 lzma pam policykit python qrcode +seccomp
-	selinux ssl terminal test vanilla xkb"
+	selinux ssl sysv-utils terminal test vanilla xkb"
 
 MINKV="3.8"
 
@@ -55,6 +55,9 @@ COMMON_DEPEND=">=sys-apps/util-linux-2.25:0=
 	qrcode? ( media-gfx/qrencode:0= )
 	seccomp? ( sys-libs/libseccomp:0= )
 	selinux? ( sys-libs/libselinux:0= )
+	sysv-utils? (
+		!sys-apps/systemd-sysv-utils
+		!sys-apps/sysvinit )
 	terminal? ( >=dev-libs/libevdev-1.2:0=
 		>=x11-libs/libxkbcommon-0.5:0=
 		>=x11-libs/libdrm-2.4:0= )
@@ -346,10 +349,16 @@ multilib_src_install_all() {
 	prune_libtool_files --modules
 	einstalldocs
 
-	# we just keep sysvinit tools, so no need for the mans
-	rm "${D}"/usr/share/man/man8/{halt,poweroff,reboot,runlevel,shutdown,telinit}.8 \
-		|| die
-	rm "${D}"/usr/share/man/man1/init.1 || die
+	if use sysv-utils; then
+		for app in halt poweroff reboot runlevel shutdown telinit; do
+			dosym "..${ROOTPREFIX}/bin/systemctl" /sbin/${app}
+		done
+	else
+		# we just keep sysvinit tools, so no need for the mans
+		rm "${D}"/usr/share/man/man8/{halt,poweroff,reboot,runlevel,shutdown,telinit}.8 \
+			|| die
+		rm "${D}"/usr/share/man/man1/init.1 || die
+	fi
 
 	# Disable storing coredumps in journald, bug #433457
 	mv "${D}"/usr/lib/sysctl.d/50-coredump.conf{,.disabled} || die
