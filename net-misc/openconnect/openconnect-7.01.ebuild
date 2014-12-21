@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/openconnect/openconnect-7.01.ebuild,v 1.1 2014/12/09 00:14:37 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/openconnect/openconnect-7.01.ebuild,v 1.2 2014/12/20 03:07:11 floppym Exp $
 
 EAPI="5"
 
@@ -16,7 +16,7 @@ SRC_URI="ftp://ftp.infradead.org/pub/${PN}/${P}.tar.gz
 	http://git.infradead.org/users/dwmw2/vpnc-scripts.git/blob_plain/${VPNC_REV}:/vpnc-script -> vpnc-script-${VPNC_REV}.sh"
 
 LICENSE="LGPL-2.1 GPL-2"
-SLOT="0"
+SLOT="0/5"
 KEYWORDS="~amd64 ~ppc64 ~x86"
 IUSE="doc +gnutls gssapi java libproxy nls static-libs"
 ILINGUAS="ar cs de el en_GB en_US es eu fi fr gl id lt nl pa pl pt pt_BR sk sl tg ug uk zh_CN zh_TW"
