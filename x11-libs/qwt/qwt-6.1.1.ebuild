@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/qwt/qwt-6.1.1.ebuild,v 1.4 2014/12/17 18:00:19 kensington Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/qwt/qwt-6.1.1.ebuild,v 1.5 2014/12/21 15:35:49 jlec Exp $
 
 EAPI=5
 
@@ -30,7 +30,10 @@ S="${WORKDIR}"/${MY_P}
 
 DOCS="README"
 
-PATCHES=( "${FILESDIR}"/${PN}-6.0.2-invalid-read.patch )
+PATCHES=(
+	"${FILESDIR}"/${PN}-6.0.2-invalid-read.patch
+	"${FILESDIR}"/${P}-pc-destdir.patch
+	)
 
 src_prepare() {
 	cat > qwtconfig.pri <<-EOF
