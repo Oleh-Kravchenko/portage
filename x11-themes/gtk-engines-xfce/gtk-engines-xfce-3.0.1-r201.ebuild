@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-themes/gtk-engines-xfce/gtk-engines-xfce-3.0.1-r201.ebuild,v 1.3 2014/06/24 22:19:41 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-themes/gtk-engines-xfce/gtk-engines-xfce-3.0.1-r201.ebuild,v 1.4 2014/12/23 16:14:41 mgorny Exp $
 
 EAPI=5
 MY_PN=gtk-xfce-engine
@@ -22,7 +22,7 @@ RDEPEND=">=dev-libs/glib-2.34.3[${MULTILIB_USEDEP}]
 		!app-emulation/emul-linux-x86-gtklibs[-abi_x86_32(-)]
 	)"
 DEPEND="${RDEPEND}
-	virtual/pkgconfig"
+	virtual/pkgconfig[${MULTILIB_USEDEP}]"
 
 S=${WORKDIR}/${MY_PN}-${PV}
 
