@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16238 2014/12/24 00:25:57 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16242 2014/12/24 13:07:23 mjo Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,25 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Michael Orlitzky <mjo@gentoo.org> (24 Dec 2014)
+# Masked for removal in 30 days (bug #531954). All current versions of
+# nagios block it, and it has unresolved LICENSE issues (bug #320241).
+net-analyzer/nagios-imagepack
+
+# Sergey Popov <pinkbyte@gentoo.org> (24 Dec 2014)
+# Mask new version of Boost - it's known to cause breakages
+~dev-util/boost-build-1.57.0
+~dev-libs/boost-1.57.0
+
+# Ian Delaney <idella4@gentoo.org> (24 Dec 2014)
+# Have little evidence of usage and have no upstream development / support
+# for years. They do not support python 3. testoob is a testing framework
+# which are more than adequately stocked under dev-python. orm was broken
+# prior to conversion and was not highlighted as a qa violation by repoman.
+# For removal in 30 days.
+dev-python/testoob
+dev-python/orm
 
 # Markos Chandras <hwoarang@gentoo.org> (23 Dec 2014)
 # Homepage returns 404 which probably suggests upstream has vanished.
@@ -733,12 +752,6 @@ app-admin/hwreport
 >=media-libs/ilmbase-2.2.0
 >=media-libs/openexr-2.2.0
 >=media-gfx/openexr_viewers-2.2.0
-
-# Sergey Popov <pinkbyte@gentoo.org> (14 Aug 2014)
-# Mask new version of Boost - it's known to cause breakages,
-# according to it's ChangeLog
-~dev-util/boost-build-1.56.0
-~dev-libs/boost-1.56.0
 
 # Sergey Popov <pinkbyte@gentoo.org> (05 Aug 2014)
 # Lacks patch in FILESDIR => fails to build

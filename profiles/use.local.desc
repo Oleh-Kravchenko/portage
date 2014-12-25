@@ -400,7 +400,9 @@ app-dicts/gwaei:mecab - Enable app-text/mecab support
 app-dicts/gwaei:unique - Enable single instance support using dev-libs/libunique.
 app-dicts/myspell-pt:preao - Use the pre ortographic agreement version of the dictionary
 app-doc/csound-manual:html - Install HTML documentation
+app-doc/doxygen:clang - support for sys-devel/clang assisted parsing
 app-doc/doxygen:dot - allow to create dot graphs using media-gfx/graphviz
+app-doc/doxygen:doxysearch - build doxyindexer and doxysearch.cgi
 app-doc/doxygen:nodot - removes graphviz dependency, along with dot graphs
 app-doc/linuxfromscratch:htmlsingle - Install all-on-one-page HTML version.
 app-doc/pms:binary - Download pre-built files instead of building from sources
@@ -7559,7 +7561,6 @@ x11-libs/cairo:gallium - Use Mesa's Gallium backend for acceleration
 x11-libs/cairo:gles2 - Use OpenGL ES 2 backend for acceleration.
 x11-libs/cairo:glib - Compile with GLib Object System support
 x11-libs/cairo:legacy-drivers - Include the buggy gradients patch (for legacy drivers, such as nvidia-drivers older than 304.30)
-x11-libs/cairo:lto - Try to build with Link-Time Optimization if supported by the compiler. This is recommended by upstream, but can cause build failure in some environments and on machines with little memory.
 x11-libs/cairo:opengl - Use Mesa backend for acceleration
 x11-libs/cairo:openvg - Use OpenVG for backend acceleration
 x11-libs/cairo:valgrind - Built-in support to mark memory regions
