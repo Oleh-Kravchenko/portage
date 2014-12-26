@@ -1,6 +1,14 @@
 # ChangeLog for app-doc/doxygen
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-doc/doxygen/ChangeLog,v 1.275 2014/12/24 18:06:29 tamiko Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-doc/doxygen/ChangeLog,v 1.277 2014/12/25 13:21:04 patrick Exp $
+
+  25 Dec 2014; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag from metadata.xml
+
+  25 Dec 2014; Matthias Maier <tamiko@gentoo.org> -doxygen-1.5.8-r1.ebuild,
+  doxygen-1.8.8.ebuild:
+  drop over 4 year old version that cannot be compiled any more; remove elibc_*
+  and userland_* use flags from IUSE
 
   24 Dec 2014; Matthias Maier <tamiko@gentoo.org> doxygen-1.8.8.ebuild:
   put ~amd64-fbsd back in place, bug #533458
