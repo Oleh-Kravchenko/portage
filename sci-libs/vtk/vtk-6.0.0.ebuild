@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-libs/vtk/vtk-6.0.0.ebuild,v 1.8 2014/11/03 13:58:24 titanofold Exp $
+# $Header: /var/cvsroot/gentoo-x86/sci-libs/vtk/vtk-6.0.0.ebuild,v 1.9 2014/12/26 12:19:44 jlec Exp $
 
 EAPI=5
 
@@ -43,7 +43,7 @@ RDEPEND="
 	media-libs/libtheora
 	media-libs/tiff
 	sci-libs/exodusii
-	sci-libs/hdf5
+	sci-libs/hdf5:=
 	sci-libs/netcdf-cxx:3
 	sys-libs/zlib
 	virtual/jpeg
