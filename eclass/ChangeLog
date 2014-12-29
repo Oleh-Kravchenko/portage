@@ -1,6 +1,36 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1481 2014/12/27 23:52:24 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1489 2014/12/28 22:55:58 eva Exp $
+
+  28 Dec 2014; Gilles Dartiguelongue <eva@gentoo.org> gstreamer.eclass:
+  Add workaround for new orc break gstreamer ebuilds, bug #533664.
+
+  28 Dec 2014; Michał Górny <mgorny@gentoo.org> python-single-r1.eclass:
+  Add python_gen_usedep, python_gen_useflags and python_gen_cond_dep to
+  python-single-r1.
+
+  28 Dec 2014; Michał Górny <mgorny@gentoo.org> python-r1.eclass:
+  Spelling, pointed out by floppym.
+
+  28 Dec 2014; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass:
+  Make the invalid function/variable checks non-fatal for now.
+
+  28 Dec 2014; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass:
+  Do not check for PYTHON_TEST_VERBOSITY, it is intended for make.conf.
+
+  28 Dec 2014; Michał Górny <mgorny@gentoo.org> distutils-r1.eclass,
+  python-r1.eclass:
+  Verbosely deprecate python_parallel_foreach_impl and
+  DISTUTILS_NO_PARALLEL_BUILD.
+
+  28 Dec 2014; Hans de Graaff <graaff@gentoo.org> ruby-fakegem.eclass:
+  Add test recipe for rspec:3 slot.
+
+  28 Dec 2014; Hans de Graaff <graaff@gentoo.org> ruby-fakegem.eclass,
+  ruby-ng.eclass:
+  Use rspec-2 wrapper for the rspec recipe. This enables us to add rspec 3.x to
+  the tree while still being able to run rspec 2 specs. The changes have been
+  made in a way that is backwards compatible with the current situation.
 
   27 Dec 2014; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass:
   Update banned var docs.

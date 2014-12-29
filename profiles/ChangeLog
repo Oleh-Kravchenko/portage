@@ -1,10 +1,21 @@
 # ChangeLog for profile directory
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9646 2014/12/27 19:40:19 graaff Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9649 2014/12/28 21:00:04 titanofold Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  28 Dec 2014; Aaron W. Swenson <titanofold@gentoo.org> package.mask:
+  Mask unmaintained dev-db/postgresql-{docs,base,server} packages for a while.
+
+  28 Dec 2014; Ulrich Müller <ulm@gentoo.org> updates/4Q-2014:
+  [QA] Revert package move for postgresql, moving several packages onto one
+  target is not possible.
+
+  28 Dec 2014; Aaron W. Swenson <titanofold@gentoo.org> updates/4Q-2014:
+  Package move dev-db/postgresql-{docs,base,server} and virtual/postgresql to
+  dev-db/postgresql.
 
   27 Dec 2014; Hans de Graaff <graaff@gentoo.org> desc/ruby_targets.desc:
   Document ruby22 RUBY_TARGET.

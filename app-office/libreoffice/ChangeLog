@@ -1,6 +1,42 @@
 # ChangeLog for app-office/libreoffice
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/libreoffice/ChangeLog,v 1.595 2014/12/26 22:59:02 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/libreoffice/ChangeLog,v 1.601 2014/12/28 21:25:33 dilfridge Exp $
+
+  28 Dec 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  libreoffice-4.2.6.3.ebuild:
+  Remove the lower bound on Boost so we dont pull in two Boost versions
+  simultaneously
+
+*libreoffice-4.2.8.2 (28 Dec 2014)
+
+  28 Dec 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  +libreoffice-4.2.8.2.ebuild, libreoffice-4.2.9999.ebuild,
+  +files/libreoffice-4.2.8.2-boost-1.56.0.patch:
+  Version bump
+
+  28 Dec 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  libreoffice-4.2.6.3.ebuild:
+  Clarify that this does not work with Boost 1.56
+
+  28 Dec 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  libreoffice-9999-r2.ebuild:
+  Simplify MAKEOPTS handling, bug 530030
+
+*libreoffice-4.3.5.2 (28 Dec 2014)
+
+  28 Dec 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  +libreoffice-4.3.5.2.ebuild, libreoffice-4.3.9999.ebuild,
+  libreoffice-9999-r2.ebuild,
+  +files/libreoffice-4.3.5.2-detect-KDE5-fallback-to-KDE4UI.patch,
+  +files/libreoffice-4.3.5.2-return-IsUserDefined-w-o-negation.patch,
+  +files/libreoffice-4.3.5.2-system-opencollada.patch:
+  Version bump by Andreas Sturmlechner, bug 533160
+
+  28 Dec 2014; Aaron W. Swenson <titanofold@gentoo.org>
+  libreoffice-4.2.6.3.ebuild, libreoffice-4.2.9999.ebuild,
+  libreoffice-4.3.4.1.ebuild, libreoffice-4.3.9999.ebuild,
+  libreoffice-9999-r2.ebuild:
+  Rename virtual/postgresql to dev-db/postgresql
 
   26 Dec 2014; Andreas K. Huettel <dilfridge@gentoo.org>
   libreoffice-4.3.4.1.ebuild, libreoffice-4.3.9999.ebuild,
