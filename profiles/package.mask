@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16255 2014/12/30 23:06:26 robbat2 Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16258 2014/12/31 14:45:05 titanofold Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -36,6 +36,7 @@
 www-client/netsurf
 media-gfx/photoprint
 media-gfx/rawstudio
+sci-libs/libecwj2
 
 # Andreas K. Huettel <dilfridge@gentoo.org> (30 Dec 2014)
 # Upstream dead since 2005, does not build, bug 515780
@@ -156,15 +157,6 @@ net-zope/zope-fixers
 # Various bugs (466506, 490798, 493532, 498928, 498936), no maintainer,
 # hasn't built in a year. Removal in a month.
 sys-apps/kmscon
-
-# Michał Górny <mgorny@gentoo.org> (08 Dec 2014)
-# Complete redesign, masked for testing.
->=app-admin/eselect-opengl-1.3.0
-=media-libs/mesa-10.3.4-r1
->=media-libs/mesa-10.3.5-r1
-=x11-base/xorg-server-1.16.2-r1
->=x11-base/xorg-server-1.16.2.901-r1
->=x11-proto/glproto-1.4.17-r1
 
 # Ian Stakenvicius <axs@gentoo.org> (03 Dec 2014)
 # masked for testing
@@ -310,12 +302,6 @@ app-admin/rudy
 # Masked until mscms.dll.so that links to media-libs/lcms:2 is backported from
 # a newer wine, bug #526806.
 <app-emulation/crossover-bin-12.5.0
-
-# Aaron W. Swenson <titanofold@gentoo.org> (26 Nov 2014)
-# Masked for removal in 30 days. dev-perl/pgperl hasn't been updated
-# in 10 years. Use dev-perl/DBD-Pg or any modern module based on
-# DBD::Pg.
-dev-perl/pgperl
 
 # Patrick Lauer <patrick@gentoo.org> (24 Nov 2014)
 # Missing deps, uninstallable
