@@ -1,6 +1,6 @@
-# Copyright 2014-2014 Gentoo Foundation
+# Copyright 2014-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-crypt/gkeys/gkeys-9999.ebuild,v 1.2 2014/12/25 20:58:50 dolsen Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-crypt/gkeys/gkeys-9999.ebuild,v 1.4 2015/01/01 22:15:34 dolsen Exp $
 
 EAPI="5"
 
@@ -13,7 +13,7 @@ inherit distutils-r1 git-r3
 
 EGIT_REPO_URI="git://git.overlays.gentoo.org/proj/gentoo-keys.git"
 
-DESCRIPTION="A Openpgp/gpg key management program and python libs"
+DESCRIPTION="An OpenPGP/GPG key management tool and python libs"
 HOMEPAGE="https://wiki.gentoo.org/wiki/Project:Gentoo-keys"
 SRC_URI=""
 
@@ -39,6 +39,16 @@ python_prepare_all() {
 	# copy these 2 into our subdir from the master level
 	cp ../LICENSE ./ || die "cp LICENSE failed"
 	cp ../README.md ./ || die "cp README.me failed"
+}
+
+python_install_all() {
+	distutils-r1_python_install_all
+	keepdir /var/log/gkeys
+	fperms g+w /var/log/gkeys
+}
+
+pkg_preinst() {
+	chgrp users "${D}"/var/log/gkeys
 }
 
 pkg_postinst() {

@@ -1,6 +1,15 @@
 # ChangeLog for net-misc/tor
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/tor/ChangeLog,v 1.455 2014/12/31 16:26:21 ago Exp $
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-misc/tor/ChangeLog,v 1.457 2015/01/01 12:04:30 blueness Exp $
+
+*tor-0.2.6.2_alpha (01 Jan 2015)
+
+  01 Jan 2015; Anthony G. Basile <blueness@gentoo.org>
+  +tor-0.2.6.2_alpha.ebuild, -tor-0.2.6.1_alpha-r3.ebuild:
+  Version bump alpha, remove older
+
+  01 Jan 2015; Agostino Sarubbo <ago@gentoo.org> tor-0.2.5.10-r3.ebuild:
+  Stable for ppc64, wrt bug #533564
 
   31 Dec 2014; Agostino Sarubbo <ago@gentoo.org> tor-0.2.5.10-r3.ebuild:
   Stable for ppc, wrt bug #533564

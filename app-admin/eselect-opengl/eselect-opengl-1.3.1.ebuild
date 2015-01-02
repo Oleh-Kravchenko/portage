@@ -1,8 +1,10 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/eselect-opengl/eselect-opengl-1.3.1.ebuild,v 1.2 2014/12/17 19:09:41 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/eselect-opengl/eselect-opengl-1.3.1.ebuild,v 1.5 2015/01/01 18:33:07 mgorny Exp $
 
 EAPI=5
+
+inherit multilib
 
 DESCRIPTION="Utility to change the OpenGL interface being used"
 HOMEPAGE="http://www.gentoo.org/"
@@ -27,9 +29,22 @@ RDEPEND=">=app-admin/eselect-1.2.4
 		 !<media-libs/mesa-10.3.4-r1
 		 !=media-libs/mesa-10.3.5
 		 !<x11-proto/glproto-1.4.17-r1
-		 !<x11-base/xorg-server-1.16.2-r1"
+		 !<x11-base/xorg-server-1.16.2-r1
+		 !<x11-drivers/ati-drivers-14.9-r2
+		 !=x11-drivers/ati-drivers-14.12"
 
 S=${WORKDIR}
+
+pkg_pretend() {
+	if grep -q -s "ModulePath.*/usr/$(get_libdir)/xorg/modules" \
+		"${EROOT%/}"/etc/X11/xorg.conf
+	then
+		ewarn "Your /etc/X11/xorg.conf seems to set ModulePath to the standard Xorg"
+		ewarn "module directory. This is going to break eselect-opengl-1.3*. If you"
+		ewarn "need to add custom module paths, please move those definitions to"
+		ewarn "/etc/X11/xorg.conf.d/99local.conf or a similar file."
+	fi
+}
 
 pkg_preinst() {
 	# we may be moving the config file, so get it early

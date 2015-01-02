@@ -660,6 +660,7 @@ app-emulation/wine:mono - Add support for .NET using Wine's Mono add-on
 app-emulation/wine:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
 app-emulation/wine:opencl - Enable OpenCL support
 app-emulation/wine:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine:pcap - Support packet capture software (e.g. wireshark)
 app-emulation/wine:perl - Install helpers written in perl (winedump/winemaker)
 app-emulation/wine:pipelight - Apply unofficial Compholio patches for Pipelight/Silverlight support; use at your own peril
 app-emulation/wine:prelink - Run prelink on DLLs during build -- do not disable if you do not know what this means as it can break things at runtime
@@ -1430,6 +1431,7 @@ dev-haskell/comonad:distributive - You can disable the use of the `distributive`
 dev-haskell/comonad:test-doctests - Run the doctests test suite
 dev-haskell/conduit:nohandles - experimental code to use raw system calls in place of handles. Not recommended for general use
 dev-haskell/configfile:buildtests - Build the executable to run unit tests.
+dev-haskell/contravariant:tagged - You can disable the use of the `tagged` package on older versons of GHC using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/cpu:executable - build 'cpuid' tool
 dev-haskell/crypto-api:all_cpolys - Build all the CMAC polynomes up to 10000 bits instead of just the usual ones
 dev-haskell/crypto-conduit:conduit11 - Use conduit >= 1.1.
