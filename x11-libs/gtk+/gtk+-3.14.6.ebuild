@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/gtk+/gtk+-3.14.6.ebuild,v 1.3 2014/12/28 23:10:20 eva Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/gtk+/gtk+-3.14.6.ebuild,v 1.4 2015/01/02 11:53:03 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
@@ -69,7 +69,7 @@ DEPEND="${COMMON_DEPEND}
 	app-text/docbook-xml-dtd:4.1.2
 	dev-libs/libxslt
 	dev-libs/gobject-introspection-common
-	dev-util/gdbus-codegen
+	>=dev-util/gdbus-codegen-2.38.2
 	>=dev-util/gtk-doc-am-1.20
 	sys-devel/gettext
 	virtual/pkgconfig[${MULTILIB_USEDEP}]
@@ -190,6 +190,7 @@ multilib_src_test() {
 	"${EROOT}${GLIB_COMPILE_SCHEMAS}" --allow-any-name "${S}/gtk" || die
 
 	unset DBUS_SESSION_BUS_ADDRESS
+	unset DISPLAY #527682
 	GSETTINGS_SCHEMA_DIR="${S}/gtk" Xemake check
 }
 
