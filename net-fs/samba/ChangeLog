@@ -1,6 +1,22 @@
 # ChangeLog for net-fs/samba
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-fs/samba/ChangeLog,v 1.701 2014/12/26 09:18:35 ago Exp $
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-fs/samba/ChangeLog,v 1.705 2015/01/03 19:54:54 mgorny Exp $
+
+  03 Jan 2015; Michał Górny <mgorny@gentoo.org> samba-4.0.23.ebuild,
+  samba-4.1.14.ebuild:
+  Use python-single-r1. Add missing PYTHON_REQUIRED_USE and PYTHON_USEDEPs. Set
+  PYTHON_REQ_USE for waf.
+
+  03 Jan 2015; Michał Górny <mgorny@gentoo.org> -samba-4.0.22.ebuild,
+  -samba-4.1.13.ebuild:
+  Drop old 4.* versions.
+
+  03 Jan 2015; Michał Górny <mgorny@gentoo.org>
+  +files/samba-4.1.14-libsystemd.patch, samba-4.1.14.ebuild:
+  Support linking against libsystemd, bug #526362.
+
+  03 Jan 2015; Michał Górny <mgorny@gentoo.org> samba-4.1.14.ebuild:
+  Make systemd library support optional, bug #512510.
 
   26 Dec 2014; Agostino Sarubbo <ago@gentoo.org> samba-3.6.24.ebuild:
   Stable for sparc, wrt bug #514676
