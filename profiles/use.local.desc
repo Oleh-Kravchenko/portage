@@ -3388,6 +3388,7 @@ mail-mta/exim:redis - Adds support for querying dev-db/redis
 mail-mta/exim:spf - Adds support for Sender Policy Framework
 mail-mta/exim:srs - Adds support for Sender Rewriting Scheme
 mail-mta/exim:tpda - Adds support for Transport Post-Delivery Actions
+mail-mta/msmtp:libsecret - Enable libsecret support to store login credentials
 mail-mta/msmtp:mta - Enable this to install as system-wide MTA
 mail-mta/netqmail:authcram - Enable AUTHCRAM support
 mail-mta/netqmail:gencertdaily - Generate SSL certificates daily instead of hourly
@@ -5302,6 +5303,7 @@ net-irc/weechat:trigger - Enable trigger plugin.
 net-irc/weechat:xfer - Enable xfer plugin support.
 net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init script and creates a znc user:group.
 net-libs/aqbanking:chipcard - Enable support for DDV/RSA-chipcards
+net-libs/aqbanking:ebics - Enable support for Electronic Banking Internet Communication Standard (EBICS)
 net-libs/axtls:cgi-lua - Enables lua backed cgi for axhttpd server
 net-libs/axtls:cgi-php - Enables php backed cgi for axhttpd server
 net-libs/axtls:httpd - Enables axhttpd web server component
@@ -5487,6 +5489,7 @@ net-mail/mailutils:clients - Build client programs - frm maidag mail sieve messa
 net-mail/mailutils:servers - Build server programs - imap4d pop3d comsatd
 net-mail/mailutils:tokyocabinet - Enable Tokyo Cabinet database support
 net-mail/mairix:gnus - Add support for the marks propagation feature in app-emacs/gnus
+net-mail/mpop:libsecret - Enable libsecret support to store login credentials
 net-mail/mu:emacs - Install the mu4e mail client.
 net-mail/mu:gui - Build and install the experimental gui 'mug'.
 net-mail/notmuch:crypt - Support decryption and verification of PGP/MIME messages and in Emacs UI - encryption

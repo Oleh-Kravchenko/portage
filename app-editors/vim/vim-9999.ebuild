@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-editors/vim/vim-9999.ebuild,v 1.21 2014/12/23 17:20:55 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-editors/vim/vim-9999.ebuild,v 1.22 2015/01/04 05:46:13 radhermit Exp $
 
 EAPI=5
 VIM_VERSION="7.4"
@@ -13,10 +13,10 @@ if [[ ${PV} == 9999* ]] ; then
 	EHG_REPO_URI="https://vim.googlecode.com/hg/"
 	EHG_PROJECT="vim"
 else
-	VIM_ORG_PATCHES="vim-patches-${PV}.patch.bz2"
+	VIM_ORG_PATCH="vim-${PV}.patch.xz"
 	SRC_URI="ftp://ftp.vim.org/pub/vim/unix/vim-${VIM_VERSION}.tar.bz2
-		http://dev.gentoo.org/~radhermit/vim/${VIM_ORG_PATCHES}
-		http://dev.gentoo.org/~radhermit/vim/vim-${VIM_VERSION}-gentoo-patches.tar.bz2"
+		http://dev.gentoo.org/~radhermit/vim/${VIM_ORG_PATCH}
+		http://dev.gentoo.org/~radhermit/vim/vim-${PV}-gentoo-patches.tar.bz2"
 	KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~ppc-aix ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~x64-freebsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 fi
 
@@ -75,9 +75,9 @@ pkg_setup() {
 
 src_prepare() {
 	if [[ ${PV} != 9999* ]] ; then
-		if [[ -f "${WORKDIR}"/${VIM_ORG_PATCHES%.bz2} ]] ; then
+		if [[ -f "${WORKDIR}"/${VIM_ORG_PATCH%.xz} ]] ; then
 			# Apply any patches available from vim.org for this version
-			epatch "${WORKDIR}"/${VIM_ORG_PATCHES%.bz2}
+			epatch "${WORKDIR}"/${VIM_ORG_PATCH%.xz}
 		fi
 
 		if [[ -d "${WORKDIR}"/patches/ ]]; then
