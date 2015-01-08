@@ -1,6 +1,15 @@
 # ChangeLog for dev-libs/icu
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/icu/ChangeLog,v 1.288 2015/01/02 13:45:01 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/icu/ChangeLog,v 1.290 2015/01/07 22:59:22 remi Exp $
+
+  07 Jan 2015; Rémi Cardona <remi@gentoo.org> files/icu-remove-bashisms.patch:
+  Update patch (add wrongly removed spaces), see bug #528022.
+
+*icu-53.1-r1 (07 Jan 2015)
+
+  07 Jan 2015; Rémi Cardona <remi@gentoo.org> +icu-53.1-r1.ebuild,
+  +files/icu-remove-bashisms.patch:
+  Add patch to fix icu-config with non-bash /bin/sh, see bug #528022.
 
   02 Jan 2015; Agostino Sarubbo <ago@gentoo.org> icu-53.1.ebuild:
   Stable for x86, wrt bug #523164

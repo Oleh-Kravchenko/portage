@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16267 2015/01/05 11:27:54 chainsaw Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16274 2015/01/07 19:30:10 pacho Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,14 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Aaron W. Swenson <titanofold@gentoo.org) (7 Jan 2015)
+# pgtune is masked for removal 2015-03-08. It's dead upstream, has a
+# critical bug 530868, and doesn't use a real distribution
+# model. Adopt the package upstream to save it.
+# An online alternative lives at:
+#    http://pgtune.leopard.in.ua/
+dev-db/pgtune
 
 # Tony Vroon <chainsaw@gentoo.org> (5 Jan 2015)
 # Asterisk 13 is an LTS release but has not seen 
@@ -212,11 +220,6 @@ media-libs/openh264
 net-analyzer/openvas-administrator
 
 # Pacho Ramos <pacho@gentoo.org> (01 Dec 2014)
-# Doesn't work ok, upstream dead since 2007 (#321277).
-# Removal in a month.
-net-im/linpopup
-
-# Pacho Ramos <pacho@gentoo.org> (01 Dec 2014)
 # Multiple pending bugs, #380435, #460508, #481150,
 # #481310, #481312, #530856. Removal in a month (#380435)
 app-office/teapot
@@ -293,23 +296,9 @@ sys-firmware/iwl2000-ucode
 sys-firmware/iwl5150-ucode
 
 # Pacho Ramos <pacho@gentoo.org> (01 Dec 2014)
-# Unbuildable, dead since 2005 (#526184)
-media-gfx/truevision
-
-# Pacho Ramos <pacho@gentoo.org> (01 Dec 2014)
-# Dead for 4 years, relies on obsolete lcms, bundles
-# a lot of libs. Removal in a month (#526818)
-media-gfx/f-spot
-
-# Pacho Ramos <pacho@gentoo.org> (01 Dec 2014)
 # Relies on old gnome-bluetooth and upstream is not going
 # to fix it anytime soon (#528916). Removal in a month.
 net-wireless/cinnamon-bluetooth
-
-# Pacho Ramos <pacho@gentoo.org> (01 Dec 2014)
-# Tends to crash a lot, upstream dead (#530126).
-# Removal in a month.
-app-misc/cdcollect
 
 # Pacho Ramos <pacho@gentoo.org> (01 Dec 2014)
 # No updates since 2009, doesn't build (#531110).
@@ -586,13 +575,6 @@ media-gfx/phototonic
 >=media-sound/kmetronome-1.0.0
 x11-misc/kaqaz
 
-# Sergey Popov <pinkbyte@gentoo.org> (04 Sep 2014)
-# Security mask, wrt bugs #488212, #498164, #500260,
-# #507802 and #518718
-<virtual/mysql-5.5
-<dev-db/mysql-5.5.39
-<dev-db/mariadb-5.5.39
-
 # Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org> (03 Sep 2014)
 # Temporary mask until it is verified to work
 =media-libs/raspberrypi-userland-0_pre20140830
@@ -693,7 +675,6 @@ net-misc/openswan
 # Masked due to pending dev-python/imaging removal, bug 471488.
 media-sound/decibel-audio-player
 =net-im/pymsn-t-0.11.3-r3
-sci-physics/camfr
 
 # Tom Wijsman <TomWij@gentoo.org> (8 Jun 2014)
 # Mask VLC ebuilds that are affected with security bug CVE-2013-6934:
