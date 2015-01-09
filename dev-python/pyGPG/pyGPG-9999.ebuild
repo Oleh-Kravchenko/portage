@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/pyGPG/pyGPG-9999.ebuild,v 1.5 2014/12/22 23:34:50 dolsen Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pyGPG/pyGPG-9999.ebuild,v 1.6 2015/01/08 18:06:06 dolsen Exp $
 
 EAPI="5"
 
@@ -24,7 +24,7 @@ KEYWORDS=""
 
 DEPEND=""
 RDEPEND="${DEPEND}
-	>=app-crypt/gnupg-2.0.0
+	app-crypt/gnupg
 	"
 
 python_install_all() {
