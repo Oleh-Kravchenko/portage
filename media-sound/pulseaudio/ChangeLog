@@ -1,6 +1,13 @@
 # ChangeLog for media-sound/pulseaudio
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/pulseaudio/ChangeLog,v 1.366 2015/01/08 14:05:50 leio Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/pulseaudio/ChangeLog,v 1.368 2015/01/09 22:15:38 zerochaos Exp $
+
+*pulseaudio-5.99.2-r1 (09 Jan 2015)
+
+  09 Jan 2015; Rick Farina <zerochaos@gentoo.org> +pulseaudio-5.99.2-r1.ebuild,
+  -pulseaudio-5.99.2.ebuild, metadata.xml:
+  add optional native/ofono headset support and appropriate use flags and
+  postinst messages
 
 *pulseaudio-5.0-r7 (08 Jan 2015)
 
@@ -11,7 +18,7 @@
 
 *pulseaudio-5.99.2 (05 Jan 2015)
 
-  05 Jan 2015;  <zero@gentoo.org> +pulseaudio-5.99.2.ebuild:
+  05 Jan 2015; Rick Farina <zerochaos@gentoo.org> +pulseaudio-5.99.2.ebuild:
   adding 5.99.2 release with bluetooth headset support with permission of leio.
   tested without systemd, but should work either way.  Please add keywords
   when/if comfortable
