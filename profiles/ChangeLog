@@ -1,10 +1,29 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9673 2015/01/09 18:21:59 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9678 2015/01/10 21:32:26 pinkbyte Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  10 Jan 2015; Sergey Popov <pinkbyte@gentoo.org> package.mask:
+  Mask net-dialup/gtk-imonc for removal
+
+  10 Jan 2015; Pacho Ramos <pacho@gentoo.org> arch/alpha/package.use.mask,
+  arch/ia64/package.use.mask, arch/sparc/package.use.mask:
+  Update use.masks
+
+  10 Jan 2015; Pacho Ramos <pacho@gentoo.org>
+  arch/amd64/no-emul-linux-x86/package.use.stable.mask,
+  arch/amd64/package.use.stable.mask:
+  Update multilib masks
+
+  10 Jan 2015; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  package.mask:
+  Add mask for old and vulnerable xorg-server.
+
+  10 Jan 2015; Tim Harder <radhermit@gentoo.org> package.mask:
+  Mask dev-libs/protobuf-c-1.1.0 until protobuf-2.6.0 is unmasked.
 
   09 Jan 2015; Manuel Rüger <mrueg@gentoo.org> package.mask:
   Update kde-frameworks mask.
