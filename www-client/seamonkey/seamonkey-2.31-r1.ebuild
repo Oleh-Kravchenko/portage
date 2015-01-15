@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/seamonkey/seamonkey-2.31-r1.ebuild,v 1.3 2014/12/10 19:34:45 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/seamonkey/seamonkey-2.31-r1.ebuild,v 1.4 2015/01/14 09:01:55 polynomial-c Exp $
 
 EAPI=5
 WANT_AUTOCONF="2.1"
@@ -292,7 +292,7 @@ src_install() {
 
 	MOZ_MAKE_FLAGS="${MAKEOPTS}" \
 	emake DESTDIR="${D}" install
-	cp "${FILESDIR}"/icon/${PN}.desktop "${T}" || die
+	cp "${FILESDIR}"/${PN}.desktop "${T}" || die
 
 	if use crypt ; then
 		local em_dir="${WORKDIR}/enigmail/build"
