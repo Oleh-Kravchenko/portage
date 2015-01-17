@@ -1225,6 +1225,7 @@ dev-cpp/glog:unwind - Use sys-libs/libunwind for stack unwinding instead of glib
 dev-cpp/libcmis:man - Build and install man pages.
 dev-cpp/pficommon:fcgi - Build FCGI feature
 dev-cpp/pficommon:mprpc - Build MessagePack RPC feature
+dev-cpp/websocketpp:boost - Use dev-libs/boost instead of C++11
 dev-cpp/xsd:ace - Enable support for serializing to/from an ACE CDR stream
 dev-db/cppdb:mysql_internal - Don't build a separate mysql loadable module but rather build it into the cppdb library itself
 dev-db/cppdb:odbc_internal - Don't build a separate postgresql loadable module but rather build it into the cppdb library itself
@@ -1891,6 +1892,7 @@ dev-libs/libevent:debug - Support runtime debug mode and malloc hooks (for progr
 dev-libs/libffi:pax_kernel - Use PaX emulated trampolines, for we can't use PROT_EXEC
 dev-libs/libflatarray:cuda - Enables plugins for NVIDIA GPUs (e.g. CUDAAllocator)
 dev-libs/libgdata:vala - Enable bindings for dev-lang/vala
+dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
 dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
 dev-libs/libgit2-glib:ssh - Enable SSH transport support
@@ -4216,8 +4218,8 @@ media-sound/squeezeslave:tremor - Use a fixed-point version of the Ogg Vorbis de
 media-sound/squeezeslave:wma - Enable support for streaming Windows Media Audio
 media-sound/squeezeslave:zones - Pairs surround sound speakers into stereo zones (requires 5.1 setup or better)
 media-sound/teamspeak-server-bin:tsdns - Make use of TeamSpeak DNS.
+media-sound/tomahawk:hatchet - Enable support for the synchronisation through Hatchet
 media-sound/tomahawk:telepathy - Enable support for the real-time communication framework telepathy
-media-sound/tomahawk:twitter - Enable twitter support
 media-sound/traverso:lv2 - Add support for Ladspa V2
 media-sound/umurmur:polarssl - Use net-libs/polarssl instead of dev-libs/openssl
 media-sound/vimpc:boost - Use boost instead of C++11 libraries
