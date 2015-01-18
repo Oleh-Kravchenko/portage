@@ -1,6 +1,14 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/arch/arm/package.use.mask,v 1.235 2015/01/06 09:44:58 aballier Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/arch/arm/package.use.mask,v 1.237 2015/01/17 20:03:08 maekke Exp $
+
+# Markus Meier <maekke@gentoo.org> (17 Jan 2015)
+# Unkeyworded deps, bug #536226
+net-misc/strongswan strongswan_plugins_unbound
+
+# Markus Meier <maekke@gentoo.org> (17 Jan 2015)
+# Unkeyworded deps, bug #533404
+net-im/gajim jingle gnome kde
 
 # Alexis Ballier <aballier@gentoo.org> (06 Jan 2015)
 # sci-libs/xkaapi does not build here on armv7
