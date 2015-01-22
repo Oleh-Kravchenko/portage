@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/graph-tool/graph-tool-9999.ebuild,v 1.10 2015/01/17 14:03:07 radhermit Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/graph-tool/graph-tool-9999.ebuild,v 1.12 2015/01/21 16:37:51 radhermit Exp $
 
 EAPI=5
 PYTHON_COMPAT=( python{2_7,3_3,3_4} )
@@ -58,12 +58,18 @@ src_prepare() {
 }
 
 src_configure() {
-	python_foreach_impl run_in_build_dir \
+	local threads
+	has_version dev-libs/boost[threads] && threads="-mt"
+
+	configure() {
 		econf \
 			--disable-static \
 			--disable-optimization \
 			$(use_enable openmp) \
-			$(use_enable cairo)
+			$(use_enable cairo) \
+			--with-boost-python="${EPYTHON: -3}${threads}"
+	}
+	python_foreach_impl run_in_build_dir configure
 }
 
 src_compile() {
