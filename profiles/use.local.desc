@@ -423,7 +423,7 @@ app-editors/emacs:gzip-el - Compress bundled Emacs Lisp source
 app-editors/emacs:hesiod - Enable support for net-dns/hesiod
 app-editors/emacs:imagemagick - Use media-gfx/imagemagick for image processing
 app-editors/emacs:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal Lisp implementations
-app-editors/emacs:pax_kernel - Enable building under a PaX enabled kernel (sys-apps/paxctl)
+app-editors/emacs:pax_kernel - Enable building under a PaX enabled kernel
 app-editors/emacs:source - Install C source files and make them available for find-function
 app-editors/emacs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
 app-editors/emacs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
@@ -437,7 +437,7 @@ app-editors/emacs-vcs:gzip-el - Compress bundled Emacs Lisp source
 app-editors/emacs-vcs:hesiod - Enable support for net-dns/hesiod
 app-editors/emacs-vcs:imagemagick - Use media-gfx/imagemagick for image processing
 app-editors/emacs-vcs:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal Lisp implementations
-app-editors/emacs-vcs:pax_kernel - Enable building under a PaX enabled kernel (sys-apps/paxctl)
+app-editors/emacs-vcs:pax_kernel - Enable building under a PaX enabled kernel
 app-editors/emacs-vcs:source - Install C source files and make them available for find-function
 app-editors/emacs-vcs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
 app-editors/emacs-vcs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
@@ -3020,7 +3020,6 @@ gnome-extra/libgda:reports - Install tools for generating graphical reports
 gnome-extra/libgda:sourceview - Enable support for x11-libs/gtksourceview
 gnome-extra/libgsf:gtk - Enable use of gdk in thumbnailer
 gnome-extra/libgsf:introspection - Use dev-libs/gobject-introspection for introspection
-gnome-extra/nemo:introspection - Use dev-libs/gobject-introspection for introspection
 gnome-extra/nemo:l10n - Pull in gnome-extra/cinnamon-translations for localization support
 gnome-extra/nemo:packagekit - Use packagekit to search for programs to open unknown file types
 gnome-extra/nemo:tracker - Add support for app-misc/tracker search
@@ -7655,9 +7654,9 @@ x11-misc/bmpanel:libev - Use the libev event loop interface
 x11-misc/bmpanel:libevent - Use the libevent event loop interface
 x11-misc/bumblebee:bbswitch - Add dependency on sys-kernel/bbswitch for PM feature
 x11-misc/cdm:consolekit - Enable native consolekit support
+x11-misc/colord:argyllcms - Enable ArgyllCMS sensor
 x11-misc/colord:extra-print-profiles - Generate extra print profiles. Warning: significant build time and memory requirements.
 x11-misc/colord:gusb - Enable dev-libs/libgusb support, needed for colorimeter drivers
-x11-misc/colord:vala - Generate bindings for dev-lang/vala
 x11-misc/compton:drm - Enable VSync with DRM_IOCTL_WAIT_VBLANK
 x11-misc/compton:opengl - Enable VSync with SGI_swap_control OpenGL extension
 x11-misc/dmenu:xft - Enable unofficial x11-libs/libXft support

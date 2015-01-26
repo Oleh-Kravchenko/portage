@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/webkit-gtk/webkit-gtk-2.4.8.ebuild,v 1.2 2015/01/21 23:23:46 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/webkit-gtk/webkit-gtk-2.4.8.ebuild,v 1.5 2015/01/25 11:59:10 pacho Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
@@ -15,7 +15,7 @@ SRC_URI="http://www.webkitgtk.org/releases/${MY_P}.tar.xz"
 
 LICENSE="LGPL-2+ BSD"
 SLOT="3/25" # soname version of libwebkit2gtk-3.0
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~x86-freebsd ~amd64-linux ~ia64-linux ~x86-linux ~x86-macos"
+KEYWORDS="~alpha amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc x86 ~amd64-fbsd ~x86-fbsd ~x86-freebsd ~amd64-linux ~ia64-linux ~x86-linux ~x86-macos"
 
 IUSE="aqua coverage debug +egl +geoloc gles2 +gstreamer +introspection +jit libsecret +opengl spell wayland +webgl +X"
 # bugs 372493, 416331
@@ -170,7 +170,8 @@ src_prepare() {
 	# https://bugs.gentoo.org/show_bug.cgi?id=463960
 	# http://osdyson.org/issues/161
 	# https://bugs.webkit.org/show_bug.cgi?id=125651
-	epatch "${FILESDIR}"/${PN}-2.2.5-gir-nvidia-hangs.patch
+#	FIXME: it doesn't really work for us
+#	epatch "${FILESDIR}"/${PN}-2.2.5-gir-nvidia-hangs.patch
 
 	# Debian patches to fix support for some arches
 	# https://bugs.webkit.org/show_bug.cgi?id=129540
