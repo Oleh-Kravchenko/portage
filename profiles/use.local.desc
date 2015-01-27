@@ -1061,7 +1061,6 @@ app-pda/libsyncml:http - Enable http transports
 app-pda/libsyncml:obex - Enable obex transports
 app-pda/synce-sync-engine:opensync - Enable OpenSync (app-pda/libopensync) python plug-in
 app-portage/conf-update:colordiff - Use colors when displaying diffs (app-misc/colordiff)
-app-portage/eix:clang - Use sys-devel/clang for building
 app-portage/eix:debug - Build with upstream's CXXFLAGS/LDFLAGS for debugging support; not recommended for normal use.
 app-portage/eix:dep - Make DEP=true the default which enables support for {,R,P}DEPEND but requires roughly double disk and memory.
 app-portage/eix:doc - Create description of the eix cache file additionally in html format
@@ -2072,6 +2071,7 @@ dev-ml/ocamlnet:httpd - Enables net-httpd web server component
 dev-ml/ocamlnet:zip - Enables netzip support to read/write gzip data using object channels
 dev-ml/pgocaml:batteries - Enable Batteries support instead of extlib
 dev-ml/utop:camlp4 - Enables camlp4 support.
+dev-ml/uutf:utftrip - Builds and install the utftrip executable: Among other things, reads unicode on stdin and rewrites it on stdout.
 dev-perl/App-Nopaste:clipboard - copying of URLs with -x/--copy
 dev-perl/App-Nopaste:github - Github authentication
 dev-perl/App-Nopaste:pastebin - pastebin.com support
@@ -2174,7 +2174,6 @@ dev-python/amqplib:extras - Install extra tools to generate initial Python mod f
 dev-python/anyvc:bazaar - Add support for Bazaar
 dev-python/anyvc:mercurial - Add support for Mercurial
 dev-python/bokeh:chaco - Enable interface for implementing qplot and ggplot like functionality using chaco
-dev-python/bpython:urwid - Backend based on dev-python/urwid
 dev-python/celery:redis - Enables redis support
 dev-python/celery:sqs - Enables Amazon SQS transport module for celery
 dev-python/celery:yaml - Enable support of yaml as a configuration file format
@@ -2518,7 +2517,6 @@ dev-util/anjuta:devhelp - Enable devhelp integration
 dev-util/anjuta:glade - Build glade plugin for anjuta
 dev-util/anjuta:packagekit - Use packagekit to search for missing tools
 dev-util/anjuta:terminal - Enable terminal plugin based on x11-libs/vte
-dev-util/anjuta:vala - Enable support for the Vala programming language
 dev-util/apitrace:cli - Enable command line interface
 dev-util/apitrace:egl - Enable EGL support
 dev-util/buildbot:irc - Add support for status delivery through an ircbot.
@@ -5065,6 +5063,7 @@ net-im/centerim:gadu - Enable support for the Gadu-Gadu protocol
 net-im/centerim:irc - Enable support for the IRC protocol
 net-im/centerim:lj - Enable support for the LiveJournal weblog system
 net-im/centerim:otr - Enable encrypted conversations
+net-im/choqok:telepathy - Enable support for the real-time communication framework telepathy
 net-im/climm:otr - Enable encrypted conversations
 net-im/corebird:glade - Install glade catalogs for corebird
 net-im/ejabberd:captcha - Support for CAPTCHA Forms (XEP-158)
@@ -7603,7 +7602,6 @@ x11-libs/cairo:opengl - Use Mesa backend for acceleration
 x11-libs/cairo:openvg - Use OpenVG for backend acceleration
 x11-libs/cairo:valgrind - Built-in support to mark memory regions
 x11-libs/cairo:xlib-xcb - Use XCB renderer backend for acceleration over xlib
-x11-libs/colord-gtk:vala - Generate bindings for dev-lang/vala
 x11-libs/fltk:games - Builds and installs some extra games
 x11-libs/glamor:gles - Build glamor based on gles2
 x11-libs/gtk+:cloudprint - Enable printing via Google Cloud Print.

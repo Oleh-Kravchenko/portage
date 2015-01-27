@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-wm/fluxbox/fluxbox-1.3.6-r1.ebuild,v 1.1 2015/01/24 03:11:20 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-wm/fluxbox/fluxbox-1.3.6-r1.ebuild,v 1.3 2015/01/27 00:13:50 idella4 Exp $
 
 EAPI=5
 inherit eutils flag-o-matic toolchain-funcs prefix
@@ -70,6 +70,7 @@ src_configure() {
 		$(use_enable nls) \
 		$(use_enable slit ) \
 		$(use_enable toolbar ) \
+		$(use_enable toolbar systray ) \
 		$(use_enable truetype xft) \
 		$(use_enable xinerama) \
 		--sysconfdir="${EPREFIX}"/etc/X11/${PN} \
