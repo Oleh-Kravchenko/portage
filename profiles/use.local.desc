@@ -383,6 +383,15 @@ app-crypt/ophcrack-tables:xpfast - Installs the fast XP ophcrack tables
 app-crypt/ophcrack-tables:xpsmall - Installs the small free XP ophcrack tables
 app-crypt/p11-kit:asn1 - Enable ASN.1 certificate support
 app-crypt/p11-kit:trust - Build the trust policy module
+app-crypt/qca:botan - Enable botan plugin
+app-crypt/qca:gcrypt - Enable gcrypt plugin
+app-crypt/qca:gpg - Enable GnuPG plugin
+app-crypt/qca:logger - Enable logger plugin
+app-crypt/qca:nss - Enable NSS plugin
+app-crypt/qca:openssl - Enable OpenSSL plugin
+app-crypt/qca:pkcs11 - Enable PKCS#11 plugin
+app-crypt/qca:sasl - Enable SASL plugin
+app-crypt/qca:softstore - Enable softstore plugin
 app-crypt/seahorse:ldap - Enable seahorse to manipulate GPG keys on a LDAP server.
 app-crypt/shishi:3des - Enable 3DES encryption/checksum type.
 app-crypt/shishi:aes - Enable AES encryption/checksum types.
@@ -1263,7 +1272,6 @@ dev-db/mariadb-galera:embedded - Build embedded server (libmysqld)
 dev-db/mariadb-galera:extraengine - Add support for alternative storage engines (Archive, CSV, Blackhole, Federated(X), Partition)
 dev-db/mariadb-galera:jemalloc - Use dev-libs/jemalloc for allocations.
 dev-db/mariadb-galera:latin1 - Use LATIN1 encoding instead of UTF8
-dev-db/mariadb-galera:max-idx-128 - Raise the max index per table limit from 64 to 128
 dev-db/mariadb-galera:minimal - Install client programs only, no server
 dev-db/mariadb-galera:oqgraph - Add support for the Open Query GRAPH engine
 dev-db/mariadb-galera:profiling - Add support for statement profiling (requires USE=community).
@@ -1306,7 +1314,6 @@ dev-db/percona-server:embedded - Build embedded server (libmysqld)
 dev-db/percona-server:extraengine - Add support for alternative storage engines (Archive, CSV, Blackhole, Federated(X), Partition)
 dev-db/percona-server:jemalloc - Use dev-libs/jemalloc for allocations.
 dev-db/percona-server:latin1 - Use LATIN1 encoding instead of UTF8
-dev-db/percona-server:max-idx-128 - Raise the max index per table limit from 64 to 128
 dev-db/percona-server:minimal - Install client programs only, no server
 dev-db/percona-server:profiling - Add support for statement profiling (requires USE=community).
 dev-db/percona-server:systemtap - Build support for profiling and tracing using dev-util/systemtap
@@ -1413,7 +1420,6 @@ dev-haskell/certificate:executable - Build the executable
 dev-haskell/cgi:extensible-exceptions-in-base - Required to be enabled for >=dev-lang/ghc-7.
 dev-haskell/cgi:network-uri - Get Network.URI from the network-uri package.
 dev-haskell/chell:color-output - use colors in program output
-dev-haskell/cipher-aes:support_aesni - allow compilation with AESNI on system and architecture that supports it.
 dev-haskell/citeproc-hs:bibutils - use Chris Putnam's app-text/bibutils
 dev-haskell/citeproc-hs:embed_data_files - Embed locale files into the library (needed for windows packaging)
 dev-haskell/citeproc-hs:hexpat - use dev-haskell/hexpat instead of dev-haskell/xml for XML parsing
@@ -1451,8 +1457,6 @@ dev-haskell/hashed-storage:diff - Provide the Storage.Hashed.Diff module.
 dev-haskell/hashed-storage:hpc - Compile with the profiling ghc flag -fhpc.
 dev-haskell/hashtables:bounds-checking - if on, use bounds-checking array accesses
 dev-haskell/hashtables:portable - if on, use only pure Haskell code and no GHC extensions.
-dev-haskell/hashtables:sse4_1 - Enable optimization for SSE4_1 capable processors (Intel Core 2 Penryn and later chips)
-dev-haskell/hashtables:sse4_2 - Enables SSE4.2 optimizations: Nehalem-based Intel Core i7 or later.
 dev-haskell/hashtables:unsafe-tricks - turn on unsafe GHC tricks
 dev-haskell/haskeline:legacy-encoding - Use legacy iconv encoding for POSIX. This is only intended for testing.
 dev-haskell/haskeline:libiconv - Explicitly link against the libiconv library.
@@ -4822,7 +4826,6 @@ net-analyzer/wireshark:pcap - Use net-libs/libpcap for network packet capturing 
 net-analyzer/wireshark:qt4 - Build the wireshark executable with an experimental Qt UI instead of GTK+.
 net-analyzer/wireshark:sbc - Use media-libs/sbc for playing back SBC encoded packets
 net-analyzer/wireshark:smi - Use net-libs/libsmi to resolve numeric OIDs into human readable format
-net-analyzer/wireshark:sse4_2 - Support SSE4.2 (Streaming SIMD Extensions 4.2) instructions
 net-analyzer/zabbix:agent - Enable zabbix agent (for to-be-monitored machines)
 net-analyzer/zabbix:frontend - Enable zabbix web frontend
 net-analyzer/zabbix:ipv6 - Turn on support of IPv6
@@ -7096,7 +7099,6 @@ sys-fs/cryptsetup:nettle - Use dev-libs/nettle crypto backend
 sys-fs/cryptsetup:openssl - Use dev-libs/openssl crypto backend
 sys-fs/cryptsetup:reencrypt - Build cryptsetup-reencrypt
 sys-fs/cryptsetup:urandom - Use /dev/urandom instead of /dev/random
-sys-fs/dd-rescue:sse4_2 - Use the SSE4.2 instruction set
 sys-fs/dmraid:dietlibc - Compile against dev-libs/dietlibc
 sys-fs/dmraid:intel_led - Enable Intel LED support
 sys-fs/dmraid:klibc - Compile against dev-libs/klibc
@@ -7120,10 +7122,9 @@ sys-fs/fur:void-chmod - Enable fake hook for "chmod" that will only return 0
 sys-fs/lessfs:filelog - Enable the ability to log to a file instead of syslog
 sys-fs/lessfs:memtrace - Enable leefs to create a report regarding the memory allocation. This feature should be used for debugging purposes to avoid performance degradation
 sys-fs/lessfs:snappy - Enable snappy compression using the app-arch/snappy library
-sys-fs/loop-aes:aes-ni - Enable support for Intel's AES instruction set
+sys-fs/loop-aes:cpu_flags_x86_padlock - Use VIA padlock instructions, detected at run time, code still works on non-padlock processors
 sys-fs/loop-aes:extra-ciphers - Enable extra ciphers
 sys-fs/loop-aes:keyscrub - Protects the encryption key in memory but takes more cpu resources
-sys-fs/loop-aes:padlock - Use VIA padlock instructions, detected at run time, code still works on non-padlock processors
 sys-fs/lvm2:clvm - Allow users to build clustered lvm2
 sys-fs/lvm2:cman - Cman support for clustered lvm
 sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LVM2 (UNSUPPORTED)

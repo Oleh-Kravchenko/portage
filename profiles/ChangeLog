@@ -1,10 +1,28 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9707 2015/01/26 19:38:23 johu Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9713 2015/01/28 22:21:08 ulm Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  28 Jan 2015; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Remove mask for app-emacs/cedet, package removed from tree.
+
+  28 Jan 2015; Michał Górny <mgorny@gentoo.org> uclibc/x86/use.mask:
+  Unmask CPU_FLAGS_X86 in uclibc profiles.
+
+  28 Jan 2015; Johannes Huber <johu@gentoo.org> package.mask:
+  Remove mask on kde-misc/kio-ftps, bug #537746 fixed.
+
+  28 Jan 2015; Anthony G. Basile <blueness@gentoo.org> package.mask:
+  p.mask =net-misc/tor-0.2.6.2_alpha-r1, bug #536196.
+
+  28 Jan 2015; Michał Górny <mgorny@gentoo.org> desc/cpu_flags_x86.desc:
+  Remove the warning since the news item has been committed.
+
+  28 Jan 2015; Johannes Huber <johu@gentoo.org> package.mask:
+  Mask >=app-crypt/qca-2.1.
 
   26 Jan 2015; Johannes Huber <johu@gentoo.org> package.mask:
   Mask kde-misc/kio-ftps for removal.
