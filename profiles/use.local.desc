@@ -3729,9 +3729,6 @@ media-libs/libsdl2:sound - Control audio support (disable at your own risk)
 media-libs/libsdl2:tslib - Build with tslib support for touchscreen devices
 media-libs/libsdl2:video - Control video support (disable at your own risk)
 media-libs/libvpx:postproc - Enable additional post processing filters
-media-libs/libvpx:sse3 - Enable optimization for SSE3 capable chips
-media-libs/libvpx:sse4_1 - Enable optimization for SSE4_1 capable processors (Intel Core 2 Penryn and later chips)
-media-libs/libvpx:ssse3 - faster floating point optimization for SSSE3 capable chips (Intel Core 2 and later chips)
 media-libs/libwebp:experimental - Build with -DWEBP_EXPERIMENTAL_FEATURES
 media-libs/libwebp:swap-16bit-csp - Enable byte swapping for 16 bit colorspace
 media-libs/lilv:dyn-manifest - Add LV2 Dynamic Manifest support. See http://lv2plug.in/ns/ext/dynmanifest/
@@ -3828,7 +3825,6 @@ media-libs/sdl2-mixer:wav - support WAVE files
 media-libs/sge:image - enable sdl-image support
 media-libs/silgraphite:pango - Enables the pango-graphite pango module.
 media-libs/spandsp:fixed-point - Enable fixed point support
-media-libs/spandsp:sse4a - Enable AMD Barcelona (SSE4a) instruction set support
 media-libs/svgalib:kernel-helper - Build the helper kernel module
 media-libs/taglib:asf - Provide support for Microsoft's 'advanced systems format' media container.
 media-libs/tremor:low-accuracy - enable 32bit only multiply operations
@@ -6273,7 +6269,6 @@ sci-biology/hmmer:pvm - Add support for parallel virtual machine (sys-cluster/pv
 sci-biology/mcl:blast - add support for NCBI BLAST data
 sci-biology/plink:R - add support R language
 sci-biology/plink:webcheck - add support for online update checking every time the program starts
-sci-biology/raxml:sse3 - Enable optimization for SSE3 capable chips
 sci-biology/tophat:bam - Compile support for the BAM format
 sci-biology/ucsc-genome-browser:server - Install genome browser Web application. If this flag is off, only libraries and utilities from the suite are installed.
 sci-biology/yass:dmalloc - Enable debugging with the dmalloc library
@@ -6396,7 +6391,6 @@ sci-libs/acml:gfortran - Fetch and install acml compiled with GNU gfortran
 sci-libs/acml:ifc - Fetch and install acml compiled with Intel Fortran Compiler (dev-lang/ifc)
 sci-libs/acml:int64 - Install the 64 bits integer library
 sci-libs/adolc:sparse - Add support for sparse matrix algebra with sci-libs/colpack
-sci-libs/arprec:fma - Use the Fused Multiply Add instruction set
 sci-libs/arprec:qd - Use sci-libs/qd for quad-double datatype
 sci-libs/avogadrolibs:static-plugins - build all plugins statically into main plugin modules
 sci-libs/avogadrolibs:vtk - include vtk support
@@ -6419,9 +6413,7 @@ sci-libs/coinor-clp:sparse - Enable support for sparse matrix with sci-libs/chol
 sci-libs/coinor-osi:glpk - Enable GNU Linear Programming Kit sci-mathematics/glpk support
 sci-libs/coinor-symphony:glpk - Enable GNU Linear Programming Kit sci-mathematics/glpk support
 sci-libs/coinor-utils:glpk - Enable GNU Linear Programming Kit sci-mathematics/glpk support
-sci-libs/fftw:avx - Adds support for Advanced Vector Extensions
 sci-libs/fftw:float - Link default library to single precision instead of double (symlinks only and fftw-2.1)
-sci-libs/fftw:fma - Use the Fused Multiply Add instruction set (fma3/fma4 either one)
 sci-libs/fftw:quad - Build quadruple precision lib
 sci-libs/fftw:zbus - Adds support for ZBus cycle-counter of mips
 sci-libs/flann:cuda - Enable support for nVidia CUDA
