@@ -1,11 +1,11 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/iojs/iojs-1.0.4.ebuild,v 1.1 2015/01/27 03:01:33 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/iojs/iojs-1.0.4.ebuild,v 1.2 2015/01/30 03:46:29 patrick Exp $
 
 EAPI=5
 
 # Sigh, this can't work ... silly upstream
-RESTRICT="test"
+#RESTRICT="test"
 
 PYTHON_COMPAT=( python2_7 )
 

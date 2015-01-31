@@ -1452,7 +1452,6 @@ dev-haskell/gtk:gio - Depend on GIO package, thereby enabling certain features.
 dev-haskell/gtk2hs-buildtools:closuresignals - Use the the GClosure-based signals implementation.
 dev-haskell/happstack-server:network-uri - Get Network.URI from the network-uri package
 dev-haskell/happstack-server:template_haskell - Description: Template Haskell is available on this system
-dev-haskell/hashable:sse4_1 - Enable optimization for SSE4_1 capable processors (Intel Core 2 Penryn and later chips)
 dev-haskell/hashed-storage:diff - Provide the Storage.Hashed.Diff module.
 dev-haskell/hashed-storage:hpc - Compile with the profiling ghc flag -fhpc.
 dev-haskell/hashtables:bounds-checking - if on, use bounds-checking array accesses
@@ -3657,11 +3656,8 @@ media-libs/freetype:harfbuzz - Use media-libs/harfbuzz for auto-hinting OpenType
 media-libs/freetype:infinality - Enable infinality options for improved LCD filtering
 media-libs/freetype:utils - Install utilities and examples from ft2demos
 media-libs/freeverb3:audacious - Build Audacious plugin
-media-libs/freeverb3:avx - Adds support for Advanced Vector Extensions instructions
 media-libs/freeverb3:forcefpu - Disable assembly code
 media-libs/freeverb3:plugdouble - Build plugins in double precision mode (default is float)
-media-libs/freeverb3:sse3 - Enable SSE3 support
-media-libs/freeverb3:sse4 - Enable SSE4 support
 media-libs/gegl:introspection - Use dev-libs/gobject-introspection for introspection.
 media-libs/gegl:lensfun - Enable support for media-libs/lensfun.
 media-libs/gegl:umfpack - Enable sparse solving via sci-libs/umfpack.
@@ -4114,7 +4110,6 @@ media-sound/mpd:twolame - Support twolame MPEG-2 encoding
 media-sound/mpd:wildmidi - Enable MIDI support via wildmidi
 media-sound/mpd:zip - Support for ZIP files
 media-sound/mpfc:wav - Enable wav audio codec support
-media-sound/mpg123:3dnowext - Enable 3dnowext cpu instructions
 media-sound/mpg123:int-quality - Use rounding instead of fast truncation for integer output, where possible
 media-sound/mumble:g15 - Enable support for the Logitech G15 LCD (and compatible devices).
 media-sound/mumble:speech - Enable text-to-speech support in Mumble.
@@ -4409,10 +4404,8 @@ media-video/handbrake:libav-aac - Support for encoding AAC using media-libs/liba
 media-video/kdenlive:nepomuk - Enable Nepomuk based semantic desktop support (deprecated)
 media-video/kino:gpac - Enable GPAC support when exporting to 3GPP format
 media-video/kmplayer:npp - Compile the npp backend that plays xembed style browser plugins.
-media-video/libav:3dnowext - Enable manually-optimised routines using the AMD 3DNow!Ex SIMD instruction set, present in modern AMD CPUs. (Check for 3dnowext in /proc/cpuinfo to know whether your CPU supports it).
 media-video/libav:aac - Use external vo-aacenc library for AAC encoding
 media-video/libav:amr - Enable Adaptive Multi-Rate Audio support
-media-video/libav:avx - Adds support for Advanced Vector Extensions instructions (Intel Sandy Bridge, AMD Bulldozer and later chips)
 media-video/libav:bindist - Build binary redistributable version without including nonfree decoders and encoders.
 media-video/libav:cdio - Enable audio CD grabbing with dev-libs/libcdio.
 media-video/libav:cpudetection - Enables runtime CPU detection (useful for bindist, compatibility on other CPUs).
@@ -4421,7 +4414,6 @@ media-video/libav:fdk - Use external fdk-aac library for AAC encoding
 media-video/libav:frei0r - Enable frei0r wrapping in libavfilter
 media-video/libav:gpl - Build all GPL licensed code. Without this flag set the package is build under LGPL license.
 media-video/libav:hardcoded-tables - Use pre-calculated tables rather than calculating them on the fly.
-media-video/libav:mmxext - Enable mmx2 support.
 media-video/libav:network - Enable network streaming support.
 media-video/libav:openssl - Prefer dev-libs/openssl over net-libs/gnutls to provide SSL/TLS support (notice: the resulting binaries are unredistributable).
 media-video/libav:opus - Use the external opus library for encoding and decoding.
@@ -4430,7 +4422,6 @@ media-video/libav:pulseaudio - Enable pulseaudio input support.
 media-video/libav:rtmp - Enable Real Time Messaging Protocol using librtmp instead the native implementation.
 media-video/libav:schroedinger - Enable Dirac video support (an advanced royalty-free video compression format) via libschroedinger (high-speed implementation in C of the Dirac codec).
 media-video/libav:ssl - Enable SSL/TLS support using dev-libs/openssl or dev-libs/gnutls.
-media-video/libav:ssse3 - faster floating point optimization for SSSE3 capable chips (Intel Core 2 and later chips).
 media-video/libav:tools - Build and install small tools like aviocat, cws2fws, graph2dot, ismindex, qt-faststart.
 media-video/libav:vis - Adds support for SIMD optimizations for UltraSPARC processors.
 media-video/libav:vpx - Enable vp8 encoding support using libvpx.
@@ -4451,7 +4442,6 @@ media-video/mjpg-streamer:output_udp - Plugin receiving content over UDP and sto
 media-video/mjpg-streamer:v4l - Uses media-libs/libv4l function mapping for input_uvc plugin
 media-video/mjpg-streamer:www - Installs WWW content
 media-video/motiontrack:multiprocess - Enables multi-process support (SMP/cluster) for motiontrack programs
-media-video/mplayer:3dnowext - Enable 3dnowext cpu instructions
 media-video/mplayer:bindist - Enforces license compatibility constraints via REQUIRED_USE.
 media-video/mplayer:bl - Blinkenlights video output
 media-video/mplayer:bluray - Enable playback of Blu-ray filesystems
@@ -4465,7 +4455,6 @@ media-video/mplayer:faad - Use external faad library for AAC decoding
 media-video/mplayer:libmpeg2 - Build support for mpeg2 over media-libs/libmpeg2 rather than using ffmpeg.
 media-video/mplayer:live - Enables live.com streaming media support
 media-video/mplayer:md5sum - Enables md5sum video output
-media-video/mplayer:mmxext - Enables mmx2 support
 media-video/mplayer:mng - MNG input support
 media-video/mplayer:network - Enables network streaming support
 media-video/mplayer:nut - Enables support for the NUT container format
@@ -4477,7 +4466,6 @@ media-video/mplayer:rar - Enable Unique RAR File Library
 media-video/mplayer:rtc - Enables usage of the linux real time clock. The alternative is software emulation of rtc
 media-video/mplayer:rtmp - Enables RTMPDump Streaming Media support
 media-video/mplayer:shm - Enable support for shm
-media-video/mplayer:ssse3 - faster floating point optimization for SSSE3 capable chips (Intel Core 2 and later chips)
 media-video/mplayer:tga - Enables Targa video output
 media-video/mplayer:toolame - Enable toolame MPEG-2 encoding
 media-video/mplayer:tremor - Enable internal support for Vorbis
@@ -5658,6 +5646,7 @@ net-misc/dahdi:flash - Support (short) flash on FXS
 net-misc/dahdi-tools:ppp - Enables PPP/DAHDIRAS support
 net-misc/dhcp:client - Install the dhclient program
 net-misc/dhcp:server - Install the dhcpd and dhcrelay programs
+net-misc/dhcpcd:embedded - Embed the definitions of dhcp options in the dhcpcd executable
 net-misc/dhcpcd-ui:gtk3 - Add support for x11-libs/gtk+ (The GIMP Toolkit)
 net-misc/directvnc:dmalloc - Enable debugging with the dmalloc library
 net-misc/directvnc:mouse - Adds mouse support
@@ -6445,7 +6434,6 @@ sci-libs/libsigrok:serial - Enable drivers that are serial (RS232) based
 sci-libs/libsvm:tools - Install python based tool scripts
 sci-libs/linux-gpib:firmware - Install firmware
 sci-libs/linux-gpib:isa - Build ISA kernel modules; from 3.12 on the setting is ignored and the decision based on the kernel configuration
-sci-libs/lis:fma - Use the Fused Multiply Add instruction set (x86 arches)
 sci-libs/lis:quad - Enable quadruple precision operations
 sci-libs/lis:saamg - Build the Smoothed Aggregation Algebraic MultiGrid preconditioner
 sci-libs/magma:fermi - Compile for GPU NVIDIA Fermi family (2.x cards)
