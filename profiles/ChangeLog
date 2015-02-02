@@ -1,10 +1,71 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9730 2015/01/31 13:32:03 eras Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9746 2015/02/01 23:25:57 mgorny Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  01 Feb 2015; Michał Górny <mgorny@gentoo.org> base/package.use.mask:
+  Mask net-misc/mediatomb[libav] since it requires masked libav.
+
+  01 Feb 2015; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask >=media-video/handbrake-0.10 since it requires libav or ffmpeg versions
+  that are both masked.
+
+  01 Feb 2015; Michał Górny <mgorny@gentoo.org> base/package.use.mask:
+  Mask media-tv/xbmc[libav] since USE=vdpau requires masked libav. Sad we can't
+  mask the combination of the two...
+
+  01 Feb 2015; Michał Górny <mgorny@gentoo.org> base/package.use.mask,
+  package.mask:
+  Mask app-text/unpaper[libav] since it requires masked libav version.
+
+  01 Feb 2015; Tim Harder <radhermit@gentoo.org> package.mask:
+  Remove old inkscape pre-release mask.
+
+  01 Feb 2015; Michał Górny <mgorny@gentoo.org> use.desc:
+  Describe USE=libav.
+
+  01 Feb 2015; Michał Górny <mgorny@gentoo.org> use.desc:
+  Remove global flags for x86 CPU instruction sets since they are no longer
+  used in the repo.
+
+  01 Feb 2015; Michael Palimaka <kensington@gentoo.org>
+  +targets/desktop/plasma/eapi, +targets/desktop/plasma/make.defaults,
+  +targets/desktop/plasma/package.use, +targets/desktop/plasma/parent,
+  +targets/desktop/plasma/use.force:
+  Add initial profile for KDE Plasma 5.
+
+  01 Feb 2015; Ben de Groot <yngwin@gentoo.org> base/use.stable.mask:
+  Keep qt5 in use.stable.mask until Qt5 goes stable
+
+  01 Feb 2015; Ben de Groot <yngwin@gentoo.org> package.mask:
+  Unmask lxqt-0.8.0 now that Qt5 is unmasked
+
+  01 Feb 2015; Michael Palimaka <kensington@gentoo.org> package.mask:
+  Umask Qt 5 consumers now that Qt 5 is unmasked.
+
+  01 Feb 2015; Michael Palimaka <kensington@gentoo.org> package.mask:
+  Remove old mask for versions no longer in the tree.
+
+  01 Feb 2015; Ben de Groot <yngwin@gentoo.org> arch/alpha/ChangeLog,
+  arch/alpha/package.mask, arch/alpha/use.mask, arch/arm/ChangeLog,
+  arch/arm/package.mask, arch/arm/use.mask, arch/hppa/ChangeLog,
+  +arch/hppa/package.mask, arch/hppa/use.mask, arch/ia64/ChangeLog,
+  arch/ia64/package.mask, arch/ia64/use.mask, arch/mips/ChangeLog,
+  arch/mips/package.mask, arch/mips/use.mask, arch/powerpc/ChangeLog,
+  arch/powerpc/package.mask, arch/powerpc/use.mask:
+  Add Qt5 mask to relevant arches until keyworded
+
+  01 Feb 2015; Ben de Groot <yngwin@gentoo.org> base/package.use.mask:
+  Unmask qt5 useflag on mkvtoolnix
+
+  01 Feb 2015; Ben de Groot <yngwin@gentoo.org> package.mask:
+  Unmask qt5 version of sddm
+
+  01 Feb 2015; Ben de Groot <yngwin@gentoo.org> base/use.mask, package.mask:
+  Unmask Qt5
 
   31 Jan 2015; Eray Aslan <eras@gentoo.org> package.mask:
   Remove mask entry for mail-mta/postfix-2.12 - no longer in the tree
