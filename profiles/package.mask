@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16319 2015/02/01 23:14:40 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16323 2015/02/02 20:37:37 grknight Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,31 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Brian Evans <grknight@gentoo.org> (02 Feb 2015)
+# Last rites bug 538584
+# >=dev-lang/php-5.4 no longer includes the extension needed
+# In preparation of dev-lang/php:5.3 removal, Removal in 30 days
+dev-php/PEAR-MDB2_Driver_sqlite
+
+# Michał Górny <mgorny@gentoo.org> (02 Feb 2015)
+# Temporarily mask updated ffmpeg reverse deps to improve
+# the solution used.
+=app-text/unpaper-6.1-r1
+=media-gfx/blender-2.72b-r3
+=media-libs/xine-lib-1.2.6-r1
+=media-tv/xbmc-13.2-r1
+=media-video/ffmpeg2theora-0.29-r2
+=media-video/handbrake-0.10.0-r1
+=media-video/makemkv-1.8.13-r1
+=media-video/mplayer2-2.0_p20131009-r1
+=media-video/mpv-0.3.11-r1
+=media-video/mpv-0.7.2-r1
+=media-video/vlc-2.1.5-r1
+=net-misc/mediatomb-0.12.2_pre20150118-r1
+=virtual/ffmpeg-0.10.3-r1
+=virtual/ffmpeg-9-r2
+=x11-wm/xpra-0.14.12-r1
 
 # Eray Aslan <eras@gentoo.org> (31 Jan 2015)
 # Mask experimental software
@@ -219,7 +244,7 @@ games-mud/mcl
 # Andreas K. Huettel <dilfridge@gentoo.org> (30 Dec 2014)
 # media-libs/lcms:0 is unmaintained and has unspecified severe security
 # issues, bug 526642. Its reverse dependencies will be removed in 30days.
-www-client/netsurf
+<www-client/netsurf-3.2-r1
 media-gfx/photoprint
 media-gfx/rawstudio
 sci-libs/libecwj2
@@ -411,12 +436,6 @@ net-wireless/cinnamon-bluetooth
 # No updates since 2009, doesn't build (#531110).
 # Removal in a month.
 net-wireless/ussp-push
-
-# Alexis Ballier <aballier@gentoo.org> (01 Dec 2014)
-# Does not build with any recent ocaml compiler.
-# Unmaintained upstream.
-# Removal after 01 Jan 2015
-dev-ml/obrowser
 
 # Richard Yao <ryao@gentoo.org> (29 Nov 2014)
 # Depends on media-libs/lcms:0, which has unspecified security vulnerabilities.

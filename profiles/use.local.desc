@@ -2265,6 +2265,7 @@ dev-python/pyudev:pyqt4 - Install PyQt4 binding
 dev-python/pyudev:pyside - Install PySide binding
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
 dev-python/pyzmq:green - Enable gevent compatibility with zeromq
+dev-python/pyzor:gevent - Enable support for the gevent based handler
 dev-python/pyzor:mysql - Enables mysql support
 dev-python/pyzor:pyzord - enable support for pyzord
 dev-python/pyzor:redis - Enables redis support
@@ -5653,7 +5654,6 @@ net-misc/hylafaxplus:html - Convert faxes into html email
 net-misc/hylafaxplus:jbig - JBIG Fax Compression Support
 net-misc/hylafaxplus:mgetty - Receive faxes via serial port connections
 net-misc/hylafaxplus:pam - hfaxd authentication via PAM
-net-misc/i2pd:aesni - Enable support for the AES-NI instruction set
 net-misc/i2pd:i2p-hardening - Compile with hardening on vanilla compilers/linkers
 net-misc/i2pd:library - Build the libi2pd library
 net-misc/icecast:kate - Add karaoke and text encapsulation support for Ogg files
