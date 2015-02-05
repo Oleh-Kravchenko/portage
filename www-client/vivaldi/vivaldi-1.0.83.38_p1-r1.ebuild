@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/vivaldi/vivaldi-1.0.83.38_p1-r1.ebuild,v 1.1 2015/01/30 09:31:16 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/vivaldi/vivaldi-1.0.83.38_p1-r1.ebuild,v 1.2 2015/02/04 15:15:36 jer Exp $
 
 EAPI=5
 CHROMIUM_LANGS="
@@ -19,6 +19,8 @@ SRC_URI="
 LICENSE="Vivaldi"
 SLOT="0"
 KEYWORDS="~amd64"
+
+RESTRICT="bindist mirror"
 
 S=${WORKDIR}
 

@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-devel/binutils-apple/binutils-apple-4.2-r1.ebuild,v 1.1 2015/02/03 21:12:23 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/binutils-apple/binutils-apple-4.2-r1.ebuild,v 1.3 2015/02/04 17:39:58 grobian Exp $
 
 EAPI="3"
 
@@ -26,9 +26,9 @@ KEYWORDS="~ppc-macos ~x64-macos ~x86-macos"
 IUSE="lto test"
 
 RDEPEND="sys-devel/binutils-config
-	lto? ( sys-devel/llvm )
-	test? ( >=dev-lang/perl-5.8.8 )"
+	lto? ( sys-devel/llvm )"
 DEPEND="${RDEPEND}
+	test? ( >=dev-lang/perl-5.8.8 )
 	|| ( >=sys-devel/gcc-apple-4.2.1 sys-devel/llvm )"
 
 export CTARGET=${CTARGET:-${CHOST}}
@@ -93,7 +93,7 @@ src_prepare() {
 
 	# mimic OS X Leopard-style Availability.h macros for libunwind.h on
 	# older systems
-	[[ ${CHOST#*-darwin} -le 8 ]] && \
+	[[ ${CHOST} == *darwin* && ${CHOST#*-darwin} -le 8 ]] && \
 		echo "#define __OSX_AVAILABLE_STARTING(x,y)  " > include/Availability.h
 
 	local VER_STR="\"@(#)PROGRAM:ld  PROJECT:${LD64} (Gentoo ${PN}-${PVR})\\n\""
@@ -191,7 +191,7 @@ src_configure() {
 	append-cppflags -DNDEBUG
 
 	CCTOOLS_OFLAG=
-	if [ ${CHOST#*-darwin} -le 8 ] ; then
+	if [[ ${CHOST} == *darwin* && ${CHOST#*-darwin} -le 8 ]] ; then
 		# cctools expect to use UNIX03 struct member names.
 		# This is default on > 10.4. Activate it on <= 10.4 by defining
 		# __DARWIN_UNIX03 explicitly.

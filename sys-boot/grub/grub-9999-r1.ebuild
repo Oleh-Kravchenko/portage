@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-boot/grub/grub-9999-r1.ebuild,v 1.24 2015/01/04 03:16:03 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-boot/grub/grub-9999-r1.ebuild,v 1.27 2015/02/04 02:50:01 floppym Exp $
 
 EAPI=5
 
@@ -37,9 +37,9 @@ else
 fi
 
 DEJAVU=dejavu-sans-ttf-2.34
-UNIFONT=unifont-7.0.05
+UNIFONT=unifont-7.0.06
 SRC_URI+=" mirror://gnu/unifont/${UNIFONT}/${UNIFONT}.pcf.gz
-	truetype? ( mirror://sourceforge/dejavu/${DEJAVU}.zip )"
+	themes? ( mirror://sourceforge/dejavu/${DEJAVU}.zip )"
 
 DESCRIPTION="GNU GRUB boot loader"
 HOMEPAGE="http://www.gnu.org/software/grub/"
@@ -47,7 +47,7 @@ HOMEPAGE="http://www.gnu.org/software/grub/"
 # Includes licenses for dejavu and unifont
 LICENSE="GPL-3 truetype? ( BitstreamVera GPL-2-with-font-exception )"
 SLOT="2"
-IUSE="debug device-mapper doc efiemu mount +multislot nls static sdl test truetype libzfs"
+IUSE="debug device-mapper doc efiemu mount +multislot nls static sdl test +themes truetype libzfs"
 
 GRUB_ALL_PLATFORMS=(
 	# everywhere:
@@ -81,14 +81,11 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}
 	app-misc/pax-utils
+	media-libs/freetype:2
 	sys-devel/flex
 	sys-devel/bison
 	sys-apps/help2man
 	sys-apps/texinfo
-	grub_platforms_coreboot? ( media-libs/freetype:2 )
-	grub_platforms_qemu? ( media-libs/freetype:2 )
-	grub_platforms_ieee1275? ( media-libs/freetype:2 )
-	grub_platforms_loongson? ( media-libs/freetype:2 )
 	grub_platforms_xen? ( app-emulation/xen-tools )
 	static? (
 		app-arch/xz-utils[static-libs(+)]
@@ -216,6 +213,7 @@ grub_configure() {
 		$(use_enable device-mapper)
 		$(use_enable mount grub-mount)
 		$(use_enable nls)
+		$(use_enable themes grub-themes)
 		$(use_enable truetype grub-mkfont)
 		$(use_enable libzfs)
 		$(use sdl && use_enable debug grub-emu-sdl)
