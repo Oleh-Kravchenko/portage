@@ -1,6 +1,24 @@
 # ChangeLog for games-emulation/dolphin
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/games-emulation/dolphin/ChangeLog,v 1.27 2015/01/16 18:54:41 twitch153 Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-emulation/dolphin/ChangeLog,v 1.30 2015/02/09 00:00:07 twitch153 Exp $
+
+*dolphin-4.0.2-r4 (09 Feb 2015)
+
+  09 Feb 2015; Devan Franchini <twitch153@gentoo.org> +dolphin-4.0.2-r4.ebuild,
+  -dolphin-4.0.2-r3.ebuild, dolphin-9999.ebuild:
+  Modifies sed regexs to remove optional features, bug #539148
+
+*dolphin-4.0.2-r3 (08 Feb 2015)
+*dolphin-3.5-r1 (08 Feb 2015)
+*dolphin-4.0-r1 (08 Feb 2015)
+
+  08 Feb 2015; Devan Franchini <twitch153@gentoo.org> +dolphin-3.5-r1.ebuild,
+  +dolphin-4.0-r1.ebuild, +dolphin-4.0.2-r3.ebuild, -dolphin-3.5.ebuild,
+  -dolphin-4.0.2-r2.ebuild, -dolphin-4.0.ebuild, dolphin-9999.ebuild:
+  Adds subslotting to readline RDEPEND package
+
+  08 Feb 2015; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild:
+  Adds save for xxhash bundled binary
 
 *dolphin-4.0.2-r2 (16 Jan 2015)
 

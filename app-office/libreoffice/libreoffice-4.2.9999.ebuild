@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/libreoffice/libreoffice-4.2.9999.ebuild,v 1.32 2014/12/29 20:05:21 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/libreoffice/libreoffice-4.2.9999.ebuild,v 1.34 2015/02/08 22:42:18 dilfridge Exp $
 
 EAPI=5
 
@@ -26,7 +26,7 @@ ADDONS_URI="http://dev-www.libreoffice.org/src/"
 BRANDING="${PN}-branding-gentoo-0.8.tar.xz"
 # PATCHSET="${P}-patchset-01.tar.xz"
 
-[[ ${PV} == *9999* ]] && SCM_ECLASS="git-2"
+[[ ${PV} == *9999* ]] && SCM_ECLASS="git-r3"
 inherit base autotools bash-completion-r1 check-reqs eutils java-pkg-opt-2 kde4-base pax-utils python-single-r1 multilib toolchain-funcs flag-o-matic nsplugins ${SCM_ECLASS}
 unset SCM_ECLASS
 
@@ -110,7 +110,7 @@ COMMON_DEPEND="
 	=app-text/libwps-0.2*
 	>=app-text/poppler-0.16:=[xpdf-headers(+),cxx]
 	>=dev-cpp/clucene-2.3.3.4-r2
-	dev-cpp/libcmis:0.4
+	=dev-cpp/libcmis-0.4*
 	dev-db/unixODBC
 	>=dev-libs/boost-1.46:=
 	dev-libs/expat
@@ -313,12 +313,10 @@ src_unpack() {
 		for mod in ${MODULES}; do
 			mypv=${PV/.9999}
 			[[ ${mypv} != ${PV} ]] && EGIT_BRANCH="${PN}-${mypv/./-}"
-			EGIT_PROJECT="${PN}/${mod}"
-			EGIT_SOURCEDIR="${WORKDIR}/${P}"
-			[[ ${mod} != core ]] && EGIT_SOURCEDIR="${WORKDIR}/${PN}-${mod}-${PV}"
+			EGIT_CHECKOUT_DIR="${WORKDIR}/${P}"
+			[[ ${mod} != core ]] && EGIT_CHECKOUT_DIR="${WORKDIR}/${PN}-${mod}-${PV}"
 			EGIT_REPO_URI="git://anongit.freedesktop.org/${PN}/${mod}"
-			EGIT_NOUNPACK="true"
-			git-2_src_unpack
+			git-r3_src_unpack
 			if [[ ${mod} != core ]]; then
 				mod2=${mod}
 				# mapping does not match on help
@@ -328,7 +326,7 @@ src_unpack() {
 				rm -rf "${WORKDIR}/${PN}-${mod}-${PV}"
 			fi
 		done
-		unset EGIT_PROJECT EGIT_SOURCEDIR EGIT_REPO_URI EGIT_BRANCH
+		unset EGIT_CHECKOUT_DIR EGIT_REPO_URI EGIT_BRANCH
 	fi
 }
 
