@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16335 2015/02/08 16:10:43 kensington Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16339 2015/02/10 00:00:09 mrueg Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,6 +30,21 @@
 
 #--- END OF EXAMPLES ---
 
+# Manuel Rüger <mrueg@gentoo.org> (10 Feb 2015)
+# Breaks build for cups-filters-1.0.61
+# See bug #539492
+=app-text/poppler-0.31.0
+
+# Kristian Fiskerstrand <k_f@gentoo.org> (09 Feb 2015)
+# Dead upstream, will be removed in 30 days.
+# Qt support is provided by app-crypt/pinentry[qt4]
+app-crypt/pinentry-qt
+
+# Anthony G. Basile <blueness@gentoo.org> (09 Feb 2015)
+# Dead upstream, will be removed in 30 days.
+# https://lists.torproject.org/pipermail/tor-dev/2015-February/008244.html
+net-misc/vidalia
+
 # Hanno Boeck <hanno@gentoo.org> (08 Feb 2150)
 # Dead upstream, will be removed in 30 days if nobody
 # complains.
@@ -59,10 +74,6 @@ x11-plugins/wmauda
 # >=dev-lang/php-5.4 no longer includes the extension needed
 # In preparation of dev-lang/php:5.3 removal, Removal in 30 days
 dev-php/PEAR-MDB2_Driver_sqlite
-
-# Eray Aslan <eras@gentoo.org> (31 Jan 2015)
-# Mask experimental software
-=mail-mta/postfix-3.0*
 
 # Sergei Trofimovich <slyfox@gentoo.org> (29 Jan 2015)
 # Mask live ebuild

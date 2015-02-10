@@ -1979,7 +1979,6 @@ dev-libs/totem-pl-parser:introspection - Use dev-libs/gobject-introspection for 
 dev-libs/totem-pl-parser:quvi - Use media-libs/quvi for parsing video links
 dev-libs/ucommon:socks - Build with socks proxy support
 dev-libs/udis86:pic - Force shared libraries to be built as PIC
-dev-libs/weston:clients - Enable support for clients
 dev-libs/weston:colord - Allow setting color managment
 dev-libs/weston:drm - Enable drm compositor support
 dev-libs/weston:editor - Install wayland-editor example application
@@ -1992,12 +1991,10 @@ dev-libs/weston:rdp - Enable Remote Desktop Protocol compositor support
 dev-libs/weston:resize-optimization - Increase performance, allocate more RAM. Recommended to disable on Raspberry Pi
 dev-libs/weston:rpi - Raspberry Pi GPU support
 dev-libs/weston:screen-sharing - Enable screen-sharing through RDP
-dev-libs/weston:simple-clients - Enable simple-clients
 dev-libs/weston:tablet - Enable interface for tablets
 dev-libs/weston:unwind - Enable libunwind usage for backtraces
 dev-libs/weston:view - Install wayland-view example application
 dev-libs/weston:wayland-compositor - Enable Wayland compositor support
-dev-libs/weston:x11 - Enable X11 compositor support
 dev-libs/weston:xwayland - Enable ability support native X11 applications
 dev-libs/xapian:brass - Enabled brass backend db support
 dev-libs/xapian:chert - Enabled chert backend db support
@@ -2983,7 +2980,6 @@ gnome-extra/cinnamon-session:gconf - Support old autostart conditions which use 
 gnome-extra/cinnamon-settings-daemon:colord - Support color management using x11-misc/colord
 gnome-extra/evolution-data-server:api-doc-extras - Build documentation for private APIs
 gnome-extra/evolution-data-server:gnome-online-accounts - Enable using net-libs/gnome-online-accounts for authorization
-gnome-extra/evolution-data-server:vala - Build dev-lang/vala bindings
 gnome-extra/evolution-data-server:weather - Enable optional weather calendar support
 gnome-extra/gdesklets-core:dbus - Enable gDesklets Controls to use DBus
 gnome-extra/gnome-boxes:usbredir - Use sys-apps/usbredir to redirect USB devices to another machine over TCP
@@ -7313,7 +7309,7 @@ www-client/chromium:bindist - Disable patent-encumbered HTML5 video codecs
 www-client/chromium:hidpi - Enable support for high-resolution screens (high dots per inch)
 www-client/chromium:pic - Disable optimized assembly code that is not PIC friendly
 www-client/chromium:tcmalloc - Use bundled tcmalloc instead of system malloc
-www-client/chromium:widevine - Add support for the Widevine DRM module from www-plugins/chrome-binary-plugins
+www-client/chromium:widevine - Support the Widevine DRM module from www-plugins/chrome-binary-plugins
 www-client/dwb:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 www-client/dwb:libsecret - Enable libsecret support to store login credentials
 www-client/elinks:bittorrent - Enable support for the BitTorrent protocol
