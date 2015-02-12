@@ -1,10 +1,24 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9776 2015/02/10 17:15:32 yngwin Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9780 2015/02/11 13:48:35 aballier Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  11 Feb 2015; Alexis Ballier <aballier@gentoo.org> package.mask:
+  unmask latest ffmpeg
+
+  11 Feb 2015; Alexis Ballier <aballier@gentoo.org> package.mask:
+  unmask latest gst-libav
+
+  11 Feb 2015; Pacho Ramos <pacho@gentoo.org> arch/arm/package.use.mask,
+  arch/ia64/package.use.mask, arch/powerpc/package.use.mask,
+  arch/sparc/package.use.mask:
+  Mask gnome-base/gnome[extras] on arches with missing keywords (#537036)
+
+  11 Feb 2015; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask new portage versions because of bug #539746.
 
   10 Feb 2015; Ben de Groot <yngwin@gentoo.org> package.mask:
   remove temp lxqt mask

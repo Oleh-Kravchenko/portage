@@ -1,8 +1,8 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/games-puzzle/cutemaze/cutemaze-1.1.0.ebuild,v 1.4 2013/03/02 21:18:46 hwoarang Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-puzzle/cutemaze/cutemaze-1.1.0.ebuild,v 1.5 2015/02/11 20:56:06 mr_bones_ Exp $
 
-EAPI=2
+EAPI=5
 inherit eutils qt4-r2 games
 
 DESCRIPTION="A simple, top-down game in which mazes are randomly generated"
@@ -23,7 +23,7 @@ src_configure() {
 }
 
 src_install() {
-	dogamesbin ${PN} || die
+	dogamesbin
 	dodoc ChangeLog README
 	doicon icons/${PN}.png
 	domenu icons/${PN}.desktop

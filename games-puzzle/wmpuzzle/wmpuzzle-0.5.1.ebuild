@@ -1,12 +1,12 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/games-puzzle/wmpuzzle/wmpuzzle-0.5.1.ebuild,v 1.2 2013/02/21 02:59:37 mr_bones_ Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-puzzle/wmpuzzle/wmpuzzle-0.5.1.ebuild,v 1.3 2015/02/11 21:04:03 mr_bones_ Exp $
 
 EAPI=5
 inherit eutils gnome2-utils games
 
 DESCRIPTION="wmpuzzle provides a 4x4 puzzle on a 64x64 mini window"
-HOMEPAGE="http://freshmeat.net/projects/wmpuzzle"
+HOMEPAGE="http://freecode.com/projects/wmpuzzle"
 SRC_URI="http://people.debian.org/~godisch/wmpuzzle/${P}.tar.gz"
 
 LICENSE="GPL-2"
