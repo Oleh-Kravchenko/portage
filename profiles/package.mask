@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16348 2015/02/11 13:48:35 aballier Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16359 2015/02/13 10:08:12 mr_bones_ Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,14 +30,25 @@
 
 #--- END OF EXAMPLES ---
 
+# Matthew Thode <prometheanfire@gentoo.org> (12 Feb 2015)
+# Dead upstream and no deps
+dev-python/rax-backup-schedule-python-novaclient-ext
+
+# Joerg Bornkessel <hd_brummy@gentoo.org> (12 Feb 2015)
+# dead on upstream since years,
+# removal around 12 Mar 2015
+media-plugins/vdr-yaepg
+
+# Ian Delaney <idella4@gentoo.org> (12 Feb 2015)
+# upstream found to be dead, hash values now fail,
+# no longer has relevance, masked for removal in 30 days
+app-office/openerp-client
+app-office/openerp-server
+app-office/openerp-web
+
 # Michał Górny <mgorny@gentoo.org> (11 Feb 2015)
 # Potentially destructive to @world, bug #539746.
->=sys-apps/portage-2.2.16
-
-# Patrick Lauer <patrick@gentoo.org (10 Feb 2015)
-# Depends on versions of ffmpeg that are still missing keywords
-# (Original libav mask reasons are fixed)
-=media-video/handbrake-0.10.0-r1
+=sys-apps/portage-2.2.16
 
 # Manuel Rüger <mrueg@gentoo.org> (10 Feb 2015)
 # Breaks build for cups-filters-1.0.61
@@ -54,7 +65,7 @@ app-crypt/pinentry-qt
 # https://lists.torproject.org/pipermail/tor-dev/2015-February/008244.html
 net-misc/vidalia
 
-# Hanno Boeck <hanno@gentoo.org> (08 Feb 2150)
+# Hanno Boeck <hanno@gentoo.org> (08 Feb 2015)
 # Dead upstream, will be removed in 30 days if nobody
 # complains.
 app-portage/portage-mod_jabber
@@ -173,11 +184,6 @@ rox-extra/videothumbnail
 rox-extra/wallpaper
 rox-extra/weather
 
-# Michael Sterrett <mr_bones_@gentoo.org> (14 Jan 2015)
-# No upstream anymore, segfaults on amd64
-# masked for removal on 20150213
-games-action/cylindrix
-
 # Sergey Popov <pinkbyte@gentoo.org> (11 Jan 2015)
 # Upstream support is discontinued(last release in 2005)
 # Has some opened bugs - #369653, #448958
@@ -287,11 +293,6 @@ www-apps/trac-downloads
 # Reverse dependencies need to be tested and fixed, bug #521406.
 >=dev-libs/protobuf-2.6.0
 
-# Brian Dolbec <dolsen@gentoo.org> (25 Sep 2014)
-# Mask new setup.py based release due to regressions
-# A new fixed version is being released soon
-=sys-apps/portage-2.2.13
-
 # Michał Górny <mgorny@gentoo.org> (15 Sep 2014)
 # Causes undefined references few layers down (in mediastreamer),
 # someone needs to investigate.
@@ -307,17 +308,13 @@ www-apps/trac-downloads
 # or switch to an open protocol instead
 # Masked for removal in 30 days
 net-im/amsn
+net-im/emesene
 x11-themes/amsn-skins
 
 # Christian Faulhammer <fauli@gentoo.org> (02 Sep 2014)
 # website not working anymore and will stay like this,
 # tool is useless. See bug 504734
 app-admin/hwreport
-
-# Brian Dolbec <dolsen@gentoo.org> (1 sept 2014)
-# Mask NON-MAINTAINER commit, due lack of testing portage team, releng
-# Mask for review
-=sys-apps/portage-2.2.12-r1
 
 # Sergey Popov <pinkbyte@gentoo.org> (28 Aug 2014)
 # Security mask, wrt bug #519650
@@ -442,13 +439,6 @@ dev-java/ibm-jdk-bin:1.5
 # Ryan Hill <rhill@gentoo.org> (22 May 2014)
 # Big API break.  Masked until something needs it.
 >=dev-libs/isl-0.13
-
-# Ian Delaney <idella4@gentoo.org> (22 May 2014)
-# The bumped version has been given added py3.4 support.
-# Given testsuite failures, a period of masking allows for possible
-# patching from upstream to be added to this version.
-# Masked until py3.4 support is added to media-gfx/cairosvg
-=dev-python/weasyprint-0.22
 
 # Justin Lecher <jlec@gentoo.org> (07 May 2014)
 # Still doesn't work as expected

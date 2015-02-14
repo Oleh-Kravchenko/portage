@@ -1,6 +1,17 @@
 # ChangeLog for net-misc/tigervnc
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/tigervnc/ChangeLog,v 1.198 2015/02/10 10:37:07 chithanh Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/tigervnc/ChangeLog,v 1.200 2015/02/13 10:16:40 armin76 Exp $
+
+  13 Feb 2015; Raúl Porcel <armin76@gentoo.org> tigervnc-1.3.1-r2.ebuild,
+  tigervnc-1.3.1-r4.ebuild:
+  Remove --disable-config-dbus from configure, bug #525690
+
+*tigervnc-1.3.1-r4 (12 Feb 2015)
+*tigervnc-1.3.1-r3 (12 Feb 2015)
+
+  12 Feb 2015; Raúl Porcel <armin76@gentoo.org> +tigervnc-1.3.1-r3.ebuild,
+  +tigervnc-1.3.1-r4.ebuild, +files/1.3.1-CVE-2014-8240.patch:
+  Add revision bump with security patch for bug #534714
 
   10 Feb 2015; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
   -files/1.1.0-export_missing_symbol.patch, -files/1.1.0-gethomedir.patch,

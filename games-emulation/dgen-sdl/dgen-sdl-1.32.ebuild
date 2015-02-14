@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/games-emulation/dgen-sdl/dgen-sdl-1.32.ebuild,v 1.1 2013/06/24 17:13:55 mr_bones_ Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-emulation/dgen-sdl/dgen-sdl-1.32.ebuild,v 1.2 2015/02/13 06:24:43 mr_bones_ Exp $
 
 EAPI=5
 inherit games

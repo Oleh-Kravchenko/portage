@@ -5294,8 +5294,6 @@ net-libs/gnutls:dane - Build libgnutls-dane, implementing DNS-based Authenticati
 net-libs/gnutls:nettle - Use dev-libs/nettle as crypto backend
 net-libs/gnutls:pkcs11 - Add support for PKCS#11 through app-crypt/p11-kit
 net-libs/gtk-vnc:gtk3 - Build the gtk3 gtk-vnc library and other gtk3 assets
-net-libs/gtk-vnc:introspection - Use dev-libs/gobject-introspection for introspection
-net-libs/gtk-vnc:vala - Enable bindings for dev-lang/vala
 net-libs/h323plus:aec - Enable acoustic echo cancellation
 net-libs/h323plus:sound - Enable audio codecs
 net-libs/h323plus:video - Enable video codecs
@@ -7784,7 +7782,6 @@ x11-wm/matchbox-common:pda - Support for pda folders
 x11-wm/matchbox-desktop:dnotify - Use the linux kernel directory notification feature.
 x11-wm/matchbox-panel:dnotify - Use the linux kernel directory notification feature.
 x11-wm/matchbox-panel:lowres - Optimize for low resolution screens.
-x11-wm/muffin:introspection - Use dev-libs/gobject-introspection for introspection
 x11-wm/musca:apis - Optionally install the experimental `apis' window manager
 x11-wm/musca:xlisten - Optionally install the xlisten utility
 x11-wm/mutter:kms - Enable KMS support.

@@ -1,10 +1,37 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9780 2015/02/11 13:48:35 aballier Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9788 2015/02/13 16:31:56 ulm Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  13 Feb 2015; Ulrich Müller <ulm@gentoo.org> license_groups:
+  Remove unused licenses.
+
+  13 Feb 2015; Michał Górny <mgorny@gentoo.org> use.desc:
+  Remove unused flags: gtkhtml, old-linux, xsl.
+
+  12 Feb 2015; Markos Chandras <hwoarang@gentoo.org> package.mask:
+  Add net-im/emesene to the MSN clients that need to be removed. See #525100
+
+  12 Feb 2015; Joerg Bornkessel <hd_brummy@gentoo.org> package.mask:
+  media-plugins/vdr-yaepg masked for removal ~12/mar/2015, dead on upstream
+
+  12 Feb 2015; Pacho Ramos <pacho@gentoo.org>
+  arch/amd64/no-emul-linux-x86/package.use.stable.mask,
+  arch/amd64/package.use.stable.mask:
+  Update multilib masks
+
+  12 Feb 2015; Ian Delaney <idella4@gentoo.org> package.mask:
+  Mask app-office/{openerp-client,openerp-server,openerp-web}
+  for removal, remove mask of weasyprint-0.22
+
+  12 Feb 2015; Patrick Lauer <patrick@gentoo.org> package.mask:
+  Remove handbrake mask as ffmpeg is unmasked
+
+  12 Feb 2015; Patrick Lauer <patrick@gentoo.org> package.mask:
+  Add layman to portage mask
 
   11 Feb 2015; Alexis Ballier <aballier@gentoo.org> package.mask:
   unmask latest ffmpeg
