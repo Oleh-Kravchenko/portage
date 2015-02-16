@@ -997,12 +997,9 @@ app-office/calligra:kdepim - Enable support for KDEPIM resources integration
 app-office/calligra:marble - Enable displaying of maps using Marble
 app-office/calligra:nepomuk - Enable Nepomuk based semantic desktop support (deprecated)
 app-office/calligra:okular - Enable bindings for kde-base/okular
-app-office/calligra:opengtl - Enable support for transformation algorithms via media-libs/opengtl
 app-office/calligra:spacenav - Enable support for the 3Dconnexion spacenav input device via dev-libs/libspnav
 app-office/calligra:vc - Enable support for dev-libs/vc, could be a significant speed boost on krita
-app-office/calligra:word-perfect - Enable support for various WordPerfect file formats
 app-office/calligra:xbase - Enable support for xbase compatible database formats
-app-office/calligra:xslt - Enable xslt and exslt support format support
 app-office/glabels:barcode - Enable barcode support through external libraries.
 app-office/gnucash:chipcard - Enable support for chipcard reading and processing.
 app-office/gnucash:hbci - Enable HBCI support, for connecting to some internet banks
@@ -1019,9 +1016,7 @@ app-office/libreoffice:gtk3 - Enable highly experimental gtk3 frontend
 app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
 app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:telepathy - Enable document colaboration features using telepathy communication framework.
-app-office/libreoffice:vba - Enable support for VBA compatibility and ActiveX embedding
 app-office/libreoffice:vlc - Use media-video/vlc for video embedding
-app-office/libreoffice:webdav - Adds support for HTTP content adding via net-libs/neon
 app-office/libreoffice-l10n:linguas_ca_valencia - Catalan locale (Valencia)
 app-office/libreoffice-l10n:linguas_kmr_Latn - kmr_Latn localization
 app-office/libreoffice-l10n:linguas_sid - sid localization
@@ -1832,7 +1827,6 @@ dev-libs/efl:glib - Enable dev-libs/glib support.
 dev-libs/efl:harfbuzz - Enable complex text shaping and layout support.
 dev-libs/efl:ibus - Enable Intelligent Input Bus.
 dev-libs/efl:ico - Enable Ico image loader.
-dev-libs/efl:jp2k - Enable JPEG 2000 image loader.
 dev-libs/efl:oldlua - USE dev-lang/lua instead of dev-lang/luajit
 dev-libs/efl:physics - Enable Bullet physics effects and support.
 dev-libs/efl:pixman - Enable PixMan for software rendering.
@@ -6998,6 +6992,7 @@ sys-firmware/ipxe:undi - Build a Universal Network Device Interface driver chain
 sys-firmware/ipxe:usb - Build a bootable USB image for using PXE
 sys-firmware/ipxe:vmware - Build the PXE ROM images that VMWare uses
 sys-firmware/seabios:binary - Use official upstream pre-built binaries
+sys-firmware/seabios:seavgabios - Include SeaVGABIOS binaries (replacement for vgabios)
 sys-firmware/sigrok-firmware-fx2lafw:binary - Use official upstream pre-built binaries
 sys-firmware/vgabios:binary - Use official upstream pre-built binaries (only default and cirrus images)
 sys-freebsd/boot0:tftp - Enable PXE/TFTP boot support.

@@ -1,6 +1,21 @@
 # ChangeLog for media-tv/xbmc
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-tv/xbmc/ChangeLog,v 1.218 2015/02/01 22:59:56 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-tv/xbmc/ChangeLog,v 1.223 2015/02/15 19:30:30 vapier Exp $
+
+  15 Feb 2015; Mike Frysinger <vapier@gentoo.org> xbmc-9999.ebuild:
+  Switch to libsdl2 to match upstream #536602 by hal.
+
+  15 Feb 2015; Mike Frysinger <vapier@gentoo.org> xbmc-9999.ebuild:
+  Drop lsb-release dep as the code already handles /etc/os-release.
+
+  15 Feb 2015; Mike Frysinger <vapier@gentoo.org> xbmc-9999.ebuild:
+  Drop unused cpu flags now that squish is gone #536402#2 by hal.
+
+  15 Feb 2015; Mike Frysinger <vapier@gentoo.org> xbmc-9999.ebuild:
+  Drop configure flags upstream has deleted #533088 by hal.
+
+  15 Feb 2015; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  Add upstream details #533096 by Anthony Ryan.
 
 *xbmc-13.2-r1 (01 Feb 2015)
 
