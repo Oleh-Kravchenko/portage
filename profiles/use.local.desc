@@ -738,6 +738,8 @@ app-i18n/ibus:introspection - Use dev-libs/gobject-introspection for introspecti
 app-i18n/ibus:vala - Enable support for dev-lang/vala
 app-i18n/ibus-anthy:deprecated - Install deprecated pygtk2 library
 app-i18n/ibus-handwrite:zinnia - Build with app-i18n/zinnia engine.
+app-i18n/ibus-libpinyin:boost - Compile against dev-libs/boost libraries
+app-i18n/ibus-libpinyin:opencc - Enable support for app-i18n/opencc
 app-i18n/ibus-m17n:gtk - Build the preference interfaces, based on x11-libs/gtk+ (GTK+ 2).
 app-i18n/ibus-pinyin:boost - Compile against dev-libs/boost libraries
 app-i18n/ibus-pinyin:opencc - Enable support for app-i18n/opencc
@@ -2239,7 +2241,6 @@ dev-python/pyside:X - Build QtGui and QtTest modules
 dev-python/pyside:declarative - Build QtDeclarative module
 dev-python/pyside:designer - Build QtDesigner and QtUiTools modules
 dev-python/pyside:help - Build QtHelp module
-dev-python/pyside:kde - Select media-libs/phonon as Phonon variant (needed for KDE)
 dev-python/pyside:multimedia - Build QtMultimedia module
 dev-python/pyside:opengl - Build QtOpenGL module
 dev-python/pyside:phonon - Build phonon module
@@ -4230,6 +4231,21 @@ media-sound/yoshimi:lv2 - Add support for Ladspa V2
 media-tv/freevo:mixer - Enable support for adjusting volume via media-sound/aumix
 media-tv/freevo:tv - Enable support for the tv guide plugin
 media-tv/gentoo-vdr-scripts:nvram - Add support for using nvram-wakeup to set wakeup time in bios
+media-tv/kodi:airplay - enable AirPlay support
+media-tv/kodi:bluray - Enable playback of Blu-ray filesystems
+media-tv/kodi:cec - Enable support for HDMI-CEC devices via libcec
+media-tv/kodi:fishbmc - Enable fishBMC visualization plugin
+media-tv/kodi:gles - Enable support for GLES
+media-tv/kodi:goom - Enable GOOM visualization plugin
+media-tv/kodi:midi - Support MIDI files
+media-tv/kodi:nfs - Enable NFS client support
+media-tv/kodi:projectm - Enable projectM visualization plugin
+media-tv/kodi:pvr - Enable MythTV support
+media-tv/kodi:rsxs - Enable really slick X screensavers
+media-tv/kodi:rtmp - Enable Real Time Messaging Protocol using librtmp
+media-tv/kodi:sftp - Support browsing files over SFTP
+media-tv/kodi:webserver - Enable internal webserver
+media-tv/kodi:xrandr - Support X randr extension
 media-tv/linuxtv-dvb-apps:alevt - Build videotext decoder
 media-tv/me-tv:http - Installation of Web-frontend
 media-tv/mythtv:alsa - Allows MythTV to directly output sound to ALSA devices, this is needed if you are using ALSA dmix or SPDIF. Note, you will have to physically type your device into the MythTV configuration since it will only give you /dev/dsp devices in the drop down.
@@ -6172,7 +6188,7 @@ net-wireless/wireless-tools:multicall - Build the most commonly used tools as on
 net-wireless/wpa_supplicant:ap - Add support for access point mode
 net-wireless/wpa_supplicant:eap-sim - Add support for EAP-SIM authentication algorithm
 net-wireless/wpa_supplicant:fasteap - Add support for FAST-EAP authentication algorithm
-net-wireless/wpa_supplicant:hs2.0 - Add support for 802.11u and Passpoint for HotSpot 2.0
+net-wireless/wpa_supplicant:hs2-0 - Add support for 802.11u and Passpoint for HotSpot 2.0
 net-wireless/wpa_supplicant:p2p - Add support for Wi-Fi Direct mode
 net-wireless/wpa_supplicant:ps3 - Add support for ps3 hypervisor driven gelic wifi
 net-wireless/wpa_supplicant:smartcard - Add support for smartcards

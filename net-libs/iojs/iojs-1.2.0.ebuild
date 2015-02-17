@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-libs/iojs/iojs-1.2.0.ebuild,v 1.2 2015/02/15 03:05:57 patrick Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-libs/iojs/iojs-1.2.0.ebuild,v 1.5 2015/02/16 11:48:45 vapier Exp $
 
 EAPI=5
 
@@ -54,49 +54,48 @@ src_prepare() {
 	sed -i -e "s/'lib'/'${LIBDIR}'/" lib/module.js || die
 	sed -i -e "s|\"lib\"|\"${LIBDIR}\"|" deps/npm/lib/npm.js || die
 
+	epatch "${FILESDIR}"/${PN}-1.2.0-pkgconfig.patch
+
 	# Avoid a test that I've only been able to reproduce from emerge. It doesnt
 	# seem sandbox related either (invoking it from a sandbox works fine).
 	# The issue is that no stdin handle is openened when asked for one.
 	# It doesn't really belong upstream , so it'll just be removed until someone
 	# with more gentoo-knowledge than me (jbergstroem) figures it out.
 	rm test/parallel/test-stdout-close-unref.js
-
-	tc-export CC CXX
-	export V=1
 }
 
 src_configure() {
-	local myconf=""
-	local myarch=""
-	! use npm && myconf="--without-npm"
-	use icu && myconf+=" --with-intl=system-icu"
-	use snapshot && myconf+=" --with-snapshot"
+	tc-export CC CXX PKG_CONFIG
+	export V=1
 
-	case ${CHOST} in
-		i?86-*)
-			myarch="ia32"
-			myconf+=" -Dv8_target_arch=ia32" ;;
-		x86_64-*)
-			if [[ $ABI = x86 ]]; then
-				myarch="ia32"
-			elif [[ $ABI = x32 ]]; then
-				myarch="x32"
-			else
-				myarch="x64"
-			fi ;;
-		arm*-*)
-			myarch="arm"
-			;;
-		*) die "Unrecognized CHOST: ${CHOST}"
+	local myconf=()
+	local myarch=""
+	! use npm && myconf+=( --without-npm )
+	use icu && myconf+=( --with-intl=system-icu )
+	use snapshot && myconf+=( --with-snapshot )
+
+	case ${ARCH} in
+	x86) myarch="ia32";;
+	amd64)
+		case ${ABI} in
+		x86) myarch="ia32";;
+		x32) myarch="x32";;
+		*) myarch="x64";;
+		esac
+		;;
+	arm) myarch="arm";;
+	*) die "Unrecognized ARCH ${ARCH}";;
 	esac
 
-	"${PYTHON}" configure --prefix="${EPREFIX}"/usr \
+	"${PYTHON}" configure \
+		--prefix="${EPREFIX}"/usr \
 		--shared-openssl \
 		--shared-libuv \
 		--shared-http-parser \
 		--shared-zlib \
 		--dest-cpu=${myarch} \
-		--without-dtrace ${myconf} || die
+		--without-dtrace \
+		"${myconf[@]}" || die
 }
 
 src_install() {
