@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/c-blosc/c-blosc-1.3.2.ebuild,v 1.2 2014/02/10 19:56:15 bicatali Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/c-blosc/c-blosc-1.3.2.ebuild,v 1.4 2015/02/17 13:25:38 jlec Exp $
 
 EAPI=5
 
