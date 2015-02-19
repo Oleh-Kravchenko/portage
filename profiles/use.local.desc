@@ -1984,7 +1984,6 @@ dev-libs/starpu:opencl - Enable OpenCL support
 dev-libs/tinyxml:stl - Compile with TIXML_USE_STL support
 dev-libs/tntnet:server - Enable tntnet server daemon
 dev-libs/totem-pl-parser:archive - Enables support for accessing media files in archives transparently via app-arch/libarchive
-dev-libs/totem-pl-parser:introspection - Use dev-libs/gobject-introspection for introspection
 dev-libs/totem-pl-parser:quvi - Use media-libs/quvi for parsing video links
 dev-libs/ucommon:socks - Build with socks proxy support
 dev-libs/udis86:pic - Force shared libraries to be built as PIC
@@ -2384,8 +2383,8 @@ dev-qt/qthelp:exceptions - Add support for exceptions - like catching them insid
 dev-qt/qtmultimedia:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtmultimedia:qml - Build QML/QtQuick bindings and imports
 dev-qt/qtmultimedia:widgets - Build the QtMultimediaWidgets module
-dev-qt/qtnetwork:connman - Enable ConnMan-based bearer plugin
-dev-qt/qtnetwork:networkmanager - Enable NetworkManager-based bearer plugin
+dev-qt/qtnetwork:connman - Enable net-misc/connman-based bearer plugin
+dev-qt/qtnetwork:networkmanager - Enable net-misc/networkmanager-based bearer plugin
 dev-qt/qtopengl:egl - Use EGL instead of default GLX to manage OpenGL contexts on the desktop
 dev-qt/qtopengl:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtopengl:gles2 - Use OpenGL ES 2.0 instead of desktop OpenGL
@@ -2972,9 +2971,7 @@ gnome-base/libglade:tools - Install libglade-convert Python script.
 gnome-base/libgnome-keyring:vala - Enable bindings for dev-lang/vala
 gnome-base/libgnomecanvas:glade - Enable glade support
 gnome-base/libgtop:introspection - Use dev-libs/gobject-introspection for introspection
-gnome-base/librsvg:introspection - Use dev-libs/gobject-introspection for introspection
 gnome-base/librsvg:tools - Build svg viewer tool
-gnome-base/librsvg:vala - Enable bindings for dev-lang/vala
 gnome-base/nautilus:packagekit - Use packagekit to search for programs to open unknown file types
 gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the file mananger
 gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
@@ -3122,7 +3119,6 @@ kde-base/kopete:highlight - Allows you to specify highlights on specific events.
 kde-base/kopete:history - Enables saving chat history.
 kde-base/kopete:latex - Embed latex formatted text into messages.
 kde-base/kopete:meanwhile - Enable the Sametime protocol handler.
-kde-base/kopete:msn - Enable "Windows live messenger" protocol support.
 kde-base/kopete:nowlistening - Shows song you currently listen to in your status/etc. Bindings for many players.
 kde-base/kopete:otr - Allows crypting your chat (drugs and talking nonsense are considered as good alternatives ;]).
 kde-base/kopete:pipes - Send messages to external pipe.
@@ -3185,7 +3181,6 @@ kde-base/powerdevil:pm-utils - Adds support for suspend/resume the system throug
 kde-base/poxml:extras - Build po2xml and swappo tools
 kde-base/pykde4:akonadi - Compile bindings for Akonadi
 kde-base/pykde4:nepomuk - Compile bindings for Nepomuk
-kde-base/pykde4:semantic-desktop - Enables Nepomuk and Soprano python language bindings
 kde-base/qtruby:declarative - Compile bindings for dev-qt/qtdeclarative.
 kde-base/qtruby:phonon - Compile bindings for Phonon.
 kde-base/qtruby:qscintilla - Compile bindings for x11-libs/qscintilla.
@@ -4361,6 +4356,7 @@ media-video/ffmpeg:flite - Adds a text-to-speech filter based on app-accessibili
 media-video/ffmpeg:frei0r - Enable frei0r wrapping in libavfilter
 media-video/ffmpeg:fribidi - Enables fribidi support in the drawtext filter.
 media-video/ffmpeg:gme - Enables support for media-libs/game-music-emu for playing various video game music formats.
+media-video/ffmpeg:gpl - Build GPL code. Should be enabled unless you require LGPL binaries.
 media-video/ffmpeg:hardcoded-tables - Use pre-calculated tables rather than calculating them on the fly.
 media-video/ffmpeg:iec61883 - Support for FireWire DV/HDV input device using media-libs/libiec61883.
 media-video/ffmpeg:libsoxr - Enables audio resampling through media-libs/soxr.
@@ -4373,6 +4369,7 @@ media-video/ffmpeg:network - Enables network streaming support
 media-video/ffmpeg:openssl - Enables dev-libs/openssl support. Adds support for encrypted network protocols (TLS/HTTPS).
 media-video/ffmpeg:opus - Adds (decoding) support for the Opus codec via media-libs/opus.
 media-video/ffmpeg:pic - Force shared libraries to be built as PIC (this is slower)
+media-video/ffmpeg:postproc - Build and install libpostproc.
 media-video/ffmpeg:quvi - Adds support for playing media from Internet services using the quvi project.
 media-video/ffmpeg:rtmp - Enable Real Time Messaging Protocol using librtmp
 media-video/ffmpeg:schroedinger - Enable Dirac video support (an advanced royalty-free video compression format) via libschroedinger (high-speed implementation in C of the Dirac codec).
@@ -5715,7 +5712,6 @@ net-misc/networkmanager:nss - Use dev-libs/nss for cryptography
 net-misc/networkmanager:ppp - Enable support for mobile broadband and PPPoE connections using net-dialup/ppp
 net-misc/networkmanager:resolvconf - Use net-dns/openresolv for managing DNS information
 net-misc/networkmanager:teamd - Enable Teamd control support
-net-misc/networkmanager:vala - Enable bindings for dev-lang/vala
 net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
 net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security using net-wireless/wpa_supplicant
 net-misc/ntp:openntpd - Allow ntp to be installed alongside openntpd
@@ -5884,6 +5880,7 @@ net-misc/vinagre:rdp - Enable access to Windows RDP protocol using net-misc/rdes
 net-misc/vinagre:spice - Enable access to SPICE-enabled virtual machines
 net-misc/vinagre:ssh - Enable ssh plugin using x11-libs/vte
 net-misc/vinagre:telepathy - Enable access to remote desktop via a net-libs/telepathy-glib client
+net-misc/vino:libsecret - Enable app-crypt/libsecret support to store login credentials.
 net-misc/vino:telepathy - Enable desktop sharing through a telepathy client
 net-misc/vpnc:bindist - Using GnuTLS for SSL support as redistribution with OpenSSL as provider violates GPL
 net-misc/vpnc:resolvconf - Enable support for DNS managing framework net-dns/openresolv

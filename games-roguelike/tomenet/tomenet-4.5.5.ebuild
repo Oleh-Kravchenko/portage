@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/games-roguelike/tomenet/tomenet-4.5.5.ebuild,v 1.4 2014/10/27 16:19:22 mr_bones_ Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-roguelike/tomenet/tomenet-4.5.5.ebuild,v 1.5 2015/02/18 09:13:13 mr_bones_ Exp $
 
 EAPI=5
 inherit eutils gnome2-utils toolchain-funcs games
