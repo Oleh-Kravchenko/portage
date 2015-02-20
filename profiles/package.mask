@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16370 2015/02/18 13:15:09 voyageur Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16374 2015/02/19 18:27:36 mrueg Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,23 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Ian Delaney <idella4@gentoo.org> (19 Feb 2015)
+# Some no longer fetch and upstream dead. genetic was to be
+# used by sci-chemistry/pymss but this is absent from portage.
+# For g-pypi, maintainer has lost interest and abandonned the package.
+# Masked for removal in 30 days
+dev-python/cherryflow
+dev-python/colubrid
+dev-python/genetic
+dev-python/gnosis-utils
+dev-python/g-pypi
+dev-python/ldaptor
+
+# Michael Palimaka <kensington@gentoo.org> (19 Feb 2015)
+# Doesn't work with current version of ruby. Dead upstream.
+# Masked for removal in 30 days.
+games-board/kaya
 
 # Bernard Cafarelli <voyageur@gentoo.org> (18 Feb 2015)
 # Masked release candidates for testing
@@ -151,22 +168,6 @@ games-rpg/morrowind-data
 # No one uses it anymore. You can
 # use dev-perl/Geo-IP instead.
 dev-perl/IP-Country
-
-# Hans de Graaff <graaff@gentoo.org> (19 Jan 2015)
-# virtual/ruby-rdoc is a no-op in that it always pulls in
-# dev-ruby/rdoc, and nothing in the tree depends on it anymore. This
-# also fixes part of bug 421497.
-# Removal in 30 days.
-virtual/ruby-rdoc
-
-# Manuel Rüger <mrueg@gentoo.org> (18 Jan 2015)
-# Ruby 1.9 only packages, do not build with later rubies
-# Removal in 30 days.
-dev-ruby/flickr
-dev-ruby/gemcutter
-dev-ruby/ruby_parser:0
-dev-ruby/drydock
-dev-ruby/net-dns
 
 # Manuel Rüger <mrueg@gentoo.org> (17 Jan 2015)
 # Unmaintained. Old eclasses, EAPIs and various bugs.
