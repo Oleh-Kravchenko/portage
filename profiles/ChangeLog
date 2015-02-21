@@ -1,10 +1,27 @@
 .# ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9803 2015/02/19 18:27:35 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9808 2015/02/20 19:40:33 swift Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  20 Feb 2015; Sven Vermeulen <swift@gentoo.org> package.mask:
+  Removing nethack from p.mask, bug #125902 is resolved
+
+  20 Feb 2015; Joerg Bornkessel <hd_brummy@gentoo.org> package.mask:
+  media-plugins/vdr-setup masked for removal ~20/Mar/2015
+
+  20 Feb 2015; Pacho Ramos <pacho@gentoo.org> base/package.use.stable.mask:
+  use.stable.mask because dev-libs/libappindicator isn't going to be stabilized
+
+  20 Feb 2015; Ben de Groot <yngwin@gentoo.org> base/package.use.mask,
+  base/package.use.stable.mask:
+  Move qpdfview use mask to correct file
+
+  20 Feb 2015; Ben de Groot <yngwin@gentoo.org> base/package.use.mask:
+  Mask experimental app-text/qpdfview feature on stable. This also needs not
+  yet stable mupdf.
 
   19 Feb 2015; Manuel Rüger <mrueg@gentoo.org> package.mask:
   Cleanup old masks.
