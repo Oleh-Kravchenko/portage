@@ -1,6 +1,16 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1545 2015/02/20 17:57:22 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1548 2015/02/21 13:51:34 kensington Exp $
+
+  21 Feb 2015; Michael Palimaka <kensington@gentoo.org> kde4-base.eclass:
+  Add new and remove old SRC_URI. Update live ebuild branching.
+
+  21 Feb 2015; Michał Górny <mgorny@gentoo.org> python-utils-r1.eclass:
+  Remove duplicating "using" in EAPI=4 warning message. Spotted by Arfrever.
+
+  21 Feb 2015; Ben de Groot <yngwin@gentoo.org> font.eclass:
+  Apply patch from Ryan Hill to font.eclass to support multiple FONT_S
+  directories (bug #338634)
 
   20 Feb 2015; Michał Górny <mgorny@gentoo.org> distutils-r1.eclass,
   python-r1.eclass, python-single-r1.eclass, python-utils-r1.eclass:

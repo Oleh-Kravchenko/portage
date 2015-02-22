@@ -2431,6 +2431,7 @@ dev-ruby/facter:virt - Use app-emulation/virt-what for virtual machine detection
 dev-ruby/maruku:highlight - Enable source code highlighting via dev-ruby/syntax
 dev-ruby/rails:asset-pipeline - Also install the default components for the asset pipeline. These are not required but they are activated automatically in new Rails projects by default.
 dev-ruby/rrdtool-bindings:graph - Enable support for graphing functions
+dev-ruby/rspec-core:highlight - Enable source code highlighting via dev-ruby/coderay
 dev-ruby/ruby-sdl:image - Enable media-libs/sdl-image support
 dev-ruby/ruby-sdl:mixer - Enable media-libs/sdl-mixer support
 dev-ruby/ruby-sdl:sge - Enable sdl-sge support
@@ -3869,7 +3870,6 @@ media-plugins/kipi-plugins:linguas_mi - Maori translation
 media-plugins/kipi-plugins:linguas_tt - ?? translation
 media-plugins/kipi-plugins:linguas_ven - Venda translation
 media-plugins/kipi-plugins:mediawiki - Build the mediawiki export plugin
-media-plugins/kipi-plugins:mjpeg - Add mjpeg support
 media-plugins/kipi-plugins:panorama - Pull in dependencies needed by panorama plugin
 media-plugins/kipi-plugins:redeyes - Add redeyes removal support
 media-plugins/kipi-plugins:videoslideshow - Build videoslideshow plugin
@@ -3890,6 +3890,9 @@ media-plugins/mythplugins:mythweather - Adds weather information within MythTV
 media-plugins/mythplugins:mythzoneminder - Adds support for zoneminder (requires a server with the appropriate mythtv daemon somewhere on the network).
 media-plugins/mythplugins:raw - Allows MythGallery to view photos saved in RAW format
 media-plugins/vdr-burn:dvdarchive - DMH DVD - Archive
+media-plugins/vdr-epgsearch:conflictcheckonly - ToDo
+media-plugins/vdr-epgsearch:epgsearchonly - ToDo
+media-plugins/vdr-epgsearch:quicksearch - ToDo
 media-plugins/vdr-epgsearch:tre - Add support for unlimited fuzzy searching with help of dev-libs/tre library
 media-plugins/vdr-graphtft:graphtft-fe - Install external x11 remote frontend
 media-plugins/vdr-graphtft:theme_avp - graphTFT Alien vs. Predato theme
@@ -4678,6 +4681,11 @@ net-analyzer/metasploit:development - Install dependencies needed for metasploit
 net-analyzer/metasploit:lorcon - Enable lorcon for raw packet injection
 net-analyzer/metasploit:oracle - Enable restricted oracle modules which have additional deps
 net-analyzer/metasploit:pcap - Enable libpcap for packet sniffing
+net-analyzer/monitoring-plugins:dns - Install net-dns/bind-tools required for monitoring DNS servers. Disabling the flag does not remove any plugins.
+net-analyzer/monitoring-plugins:fping - Install net-analyzer/fping required for fancy ping monitoring. Disabling the flag does not remove any plugins.
+net-analyzer/monitoring-plugins:game - Install games-util/qstat required for monitoring FPS servers. Disabling the flag does not remove any plugins.
+net-analyzer/monitoring-plugins:snmp - Install dev-perl/Net-SNMP and net-analyzer/net-snmp required for monitoring SNMP values. Disabling the flag does not remove any plugins.
+net-analyzer/monitoring-plugins:ssh - Install net-misc/openssh required for monitoring SSH servers. Disabling the flag does not remove any plugins.
 net-analyzer/munin:apache - Set up the configuration of the CGI generation of HTML and graphs to work with Apache. This also install an include-able configuration file.
 net-analyzer/munin:asterisk - Install the packages required for monitoring Asterisk. Disabling the flag does not remove any plugin files.
 net-analyzer/munin:cgi - Install the CGI-compatible scripts for on-the-fly generation of web pages and graphs. This is only meaningful if the minimal USE flag is disabled.
@@ -6128,7 +6136,6 @@ net-wireless/gnuradio:analog - enable analog signal processing blocks
 net-wireless/gnuradio:atsc - enable ATSC (HDTV) transmitter and receiver blocks
 net-wireless/gnuradio:audio - enable blocks to connect to audio sources (mic-in) and sinks (speaker-out) ports on a computer
 net-wireless/gnuradio:channels - enable channel mode blocks
-net-wireless/gnuradio:ctrlport - enable ControlPort rpc
 net-wireless/gnuradio:digital - enable digital signal processing blocks
 net-wireless/gnuradio:dtv - enable digital tv signal processing blocks
 net-wireless/gnuradio:fcd - enable Funcube Dongle source block
@@ -6727,6 +6734,7 @@ sys-apps/qingy:consolekit - Enable native consolekit support
 sys-apps/qingy:opensslcrypt - Encrypt communications between qingy and its GUI using dev-libs/openssl
 sys-apps/razercfg:pm-utils - Installs the pm-utils hooks for suspend/resume and requires sys-power/pm-utils
 sys-apps/razercfg:qt4 - Installs a qt UI. Requires dev-python/pyside
+sys-apps/roccat-tools:lua - Build support for Lua scripting for RyosMKPro ripple effects
 sys-apps/rsbac-admin:rklogd - Enabled deprecated RSBAC kernel logger
 sys-apps/s390-tools:fuse - build cmsfs-fuse to read files stored on a z/VM CMS disk
 sys-apps/s390-tools:zfcpdump - build the kernel disk dumping utility
