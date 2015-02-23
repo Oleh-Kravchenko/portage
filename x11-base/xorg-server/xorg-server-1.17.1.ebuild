@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-base/xorg-server/xorg-server-1.17.1.ebuild,v 1.2 2015/02/21 19:53:01 mattst88 Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-base/xorg-server/xorg-server-1.17.1.ebuild,v 1.4 2015/02/22 03:17:15 mattst88 Exp $
 
 EAPI=5
 
@@ -22,7 +22,7 @@ CDEPEND=">=app-admin/eselect-opengl-1.3.0
 	>=x11-apps/rgb-1.0.3
 	>=x11-apps/xauth-1.0.3
 	x11-apps/xkbcomp
-	>=x11-libs/libdrm-2.4.20
+	>=x11-libs/libdrm-2.4.46
 	>=x11-libs/libpciaccess-0.12.901
 	>=x11-libs/libXau-1.0.4
 	>=x11-libs/libXdmcp-1.0.2
@@ -55,7 +55,14 @@ CDEPEND=">=app-admin/eselect-opengl-1.3.0
 		>=x11-libs/libXext-1.0.5
 		x11-libs/libXv
 	)
-	xephyr? ( x11-libs/libxcb )
+	xephyr? (
+		x11-libs/libxcb
+		x11-libs/xcb-util
+		x11-libs/xcb-util-image
+		x11-libs/xcb-util-keysyms
+		x11-libs/xcb-util-renderutil
+		x11-libs/xcb-util-wm
+	)
 	!minimal? (
 		>=x11-libs/libX11-1.1.5
 		>=x11-libs/libXext-1.0.5
