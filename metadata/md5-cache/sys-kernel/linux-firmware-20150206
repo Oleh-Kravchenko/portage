@@ -9,4 +9,4 @@ RDEPEND=!savedconfig? ( !sys-firmware/alsa-firmware[alsa_cards_ca0132] !sys-firm
 SLOT=0
 SRC_URI=mirror://gentoo/linux-firmware-20150206.tar.xz
 _eclasses_=portability	a45c088f246ef5091e029f6285d7ce42	savedconfig	5313100f525c41f6c72c6e04edeb4f65
-_md5_=d9f0cc6756b5a29cb202a2b27aa539f0
+_md5_=d02846c1ed7eae26359889fa63794ddb
