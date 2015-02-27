@@ -1935,6 +1935,7 @@ dev-libs/libsecp256k1:endomorphism - Enable endomorphism
 dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
 dev-libs/libsqlora8:orathreads - Use Oracle threads
+dev-libs/libtermkey:demos - Install demos, which pulls in dev-libs/glib
 dev-libs/libunique:introspection - Use dev-libs/gobject-introspection for introspection
 dev-libs/libverto:glib - Support event loops using dev-libs/glib
 dev-libs/libverto:libev - Support event loops using dev-libs/libev
@@ -2044,6 +2045,7 @@ dev-lua/luarocks:curl - Uses net-misc/curl for fetching lua packages instead of 
 dev-lua/luarocks:openssl - Uses dev-libs/openssl for verifying lua packages instead of md5sum.
 dev-lua/luvit:bundled-libs - Use bundled versions of some libraries.
 dev-lua/luvit:system-libs - Use system version of dev-libs/yajl.
+dev-lua/messagepack:luajit - Use the lua just-in-time compiler dev-lang/luajit instead of dev-lang/lua
 dev-ml/cairo-ocaml:pango - Enable support for x11-libs/pango
 dev-ml/deriving-ocsigen:type-conv - Enable type-conv for the syntax extention.
 dev-ml/dose3:parmap - Adds multi-core CPU support via dev-ml/parmap.
@@ -3305,8 +3307,6 @@ mail-client/sylpheed:oniguruma - Use dev-libs/oniguruma for regular expression
 mail-client/thunderbird:bindist - Disable official Thunderbird branding (icons, name) which are not binary-redistributable according to upstream.
 mail-client/thunderbird:crypt - Enable encryption support with enigmail
 mail-client/thunderbird:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
-mail-client/thunderbird:gconf - Enable gnome2 gconf support
-mail-client/thunderbird:ipc - Use inter-process communication between tabs and plugins. Allows for greater stability in case of plugin crashes
 mail-client/thunderbird:lightning - Enable calendar support
 mail-client/thunderbird:minimal - Remove the software development kit and headers
 mail-client/thunderbird:mozdom - Enable Mozilla's DOM inspector
@@ -7374,7 +7374,6 @@ www-client/epiphany:nss - Import passwords from older gecko based www-client/epi
 www-client/firefox:bindist - Disable official Firefox branding (icons, name) which are not binary-redistributable according to upstream.
 www-client/firefox:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
 www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
-www-client/firefox:ipc - Use inter-process communication between tabs and plugins. Allows for greater stability in case of plugin crashes
 www-client/firefox:minimal - Prevent sdk and headers from being installed
 www-client/firefox:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
 www-client/firefox:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
@@ -7382,7 +7381,6 @@ www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bund
 www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
 www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
-www-client/firefox:webm - Support HTML5 WebM with media-libs/libvpx on firefox-10.
 www-client/google-chrome:plugins - Add system plugins path to launcher
 www-client/google-chrome-beta:plugins - Add system plugins path to launcher
 www-client/google-chrome-unstable:plugins - Add system plugins path to launcher
@@ -7589,6 +7587,7 @@ x11-libs/cairo:valgrind - Built-in support to mark memory regions
 x11-libs/cairo:xlib-xcb - Use XCB renderer backend for acceleration over xlib
 x11-libs/fltk:games - Builds and installs some extra games
 x11-libs/glamor:gles - Build glamor based on gles2
+x11-libs/gtk+:broadway - Enable the GDK Broadway backend.
 x11-libs/gtk+:cloudprint - Enable printing via Google Cloud Print.
 x11-libs/gtk+:colord - Use x11-misc/colord for color management in printing
 x11-libs/gtk+extra:introspection - Use dev-libs/gobject-introspection for introspection
