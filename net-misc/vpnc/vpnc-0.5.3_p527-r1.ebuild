@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/vpnc/vpnc-0.5.3_p527-r1.ebuild,v 1.13 2015/01/05 12:55:51 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/vpnc/vpnc-0.5.3_p527-r1.ebuild,v 1.14 2015/02/27 08:05:58 jlec Exp $
 
 EAPI=5
 
@@ -27,6 +27,8 @@ RDEPEND="${DEPEND}
 	resolvconf? ( net-dns/openresolv )
 	selinux? ( sec-policy/selinux-vpn )
 "
+
+RESTRICT="!bindist? ( bindist )"
 
 CONFIG_CHECK="~TUN"
 

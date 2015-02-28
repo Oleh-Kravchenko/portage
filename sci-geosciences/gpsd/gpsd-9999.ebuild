@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-geosciences/gpsd/gpsd-9999.ebuild,v 1.19 2015/02/18 19:43:36 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/sci-geosciences/gpsd/gpsd-9999.ebuild,v 1.20 2015/02/27 18:11:55 vapier Exp $
 
 EAPI="5"
 
@@ -27,8 +27,8 @@ SLOT="0"
 GPSD_PROTOCOLS=(
 	aivdm ashtech earthmate evermore fury fv18 garmin garmintxt
 	geostar gpsclock itrax mtk3301 navcom nmea0183 nmea2000 ntrip
-	oceanserver oncore rtcm104v2 rtcm104v3 sirf superstar2 tnt
-	tripmate tsip ublox
+	oceanserver oncore passthrough rtcm104v2 rtcm104v3 sirf superstar2
+	tnt tripmate tsip ublox
 )
 IUSE_GPSD_PROTOCOLS=${GPSD_PROTOCOLS[@]/#/gpsd_protocols_}
 IUSE="${IUSE_GPSD_PROTOCOLS} bluetooth cxx debug dbus ipv6 latency_timing ncurses ntp python qt4 +shm +sockets static test udev usb X"
@@ -84,7 +84,7 @@ python_prepare_all() {
 	python_export_best
 	# Extract python info out of SConstruct so we can use saner distribute
 	pyvar() { sed -n "/^ *$1 *=/s:.*= *::p" SConstruct ; }
-	local pybins=$(pyvar python_progs)
+	local pybins=$(pyvar python_progs | tail -1)
 	local pysrcs=$(sed -n '/^ *python_extensions = {/,/}/{s:^ *::;s:os[.]sep:"/":g;p}' SConstruct)
 	local packet=$("${PYTHON}" -c "${pysrcs}; print(python_extensions['gps/packet'])")
 	local client=$("${PYTHON}" -c "${pysrcs}; print(python_extensions['gps/clienthelpers'])")
@@ -95,7 +95,7 @@ python_prepare_all() {
 		-e "s|@SCRIPTS@|${pybins}|" \
 		-e "s|@GPS_PACKET_SOURCES@|${packet}|" \
 		-e "s|@GPS_CLIENT_SOURCES@|${client}|" \
-		-e "s|@SCRIPTS@|$(pyvar python_progs)|" \
+		-e "s|@SCRIPTS@|${pybins}|" \
 		"${FILESDIR}"/${PN}-3.3-setup.py > setup.py || die
 	distutils-r1_python_prepare_all
 }

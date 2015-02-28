@@ -2603,7 +2603,6 @@ dev-vcs/cvs:server - Enable server support
 dev-vcs/cvs2svn:bazaar - Support for dev-vcs/bzr
 dev-vcs/darcs:color - Use ansi color escapes.
 dev-vcs/darcs:http - Use the pure Haskell HTTP package for HTTP support.
-dev-vcs/darcs:libiconv - Explicitly link against the libiconv library.
 dev-vcs/darcs:network-uri - Get Network.URI from the network-uri package.
 dev-vcs/darcs:optimize - Build with optimizations (-O2).
 dev-vcs/darcs:terminfo - Use the terminfo package for enhanced console support.
@@ -2652,6 +2651,7 @@ dev-vcs/mercurial:tk - Install dev-lang/tk for hgk script.
 dev-vcs/qct:bazaar - Support for dev-vcs/bzr
 dev-vcs/qct:mercurial - Support for dev-vcs/mercurial
 dev-vcs/qct:monotone - Support for dev-vcs/monotone
+dev-vcs/rabbitvcs:caja - Enable extension for mate-base/caja
 dev-vcs/rabbitvcs:cli - Eanble console based frontend
 dev-vcs/rabbitvcs:diff - Use for diff command dev-util/meld
 dev-vcs/rabbitvcs:gedit - Enable plugin for app-editors/gedit
@@ -3357,6 +3357,7 @@ mail-filter/opendkim:unbound - Use the unbound dnssec library to perform DKIM DN
 mail-filter/postfwd:tools - Install additional tools for testing postfwd
 mail-filter/postgrey:targrey - Enables the targrey patch
 mail-filter/qmail-scanner:spamassassin - Build faster mail-filter/spamassassin checks into qmail-scanner
+mail-filter/spamassassin:bayes - Require a database (MySQL, SQLite, Postgres, or BerkDB) backend to enable the Bayesian filtering database.
 mail-filter/spamassassin:qmail - Build qmail functionality and docs
 mail-filter/spamdyke:tls - Enables TLS protocol for spamdyke
 mail-filter/zdkimfilter:debug - Log process and signal information. Also leave the child process running for gdb examination.
@@ -3427,6 +3428,7 @@ media-fonts/culmus-ancient:fontforge - Use media-gfx/fontforge to build fonts fr
 media-fonts/dejavu:fontforge - Use media-gfx/fontforge to build fonts from source
 media-fonts/intlfonts:bdf - Installs BDF fonts in addition to PCF
 media-fonts/liberation-fonts:fontforge - Use media-gfx/fontforge to build fonts from source
+media-fonts/libertine:opentype - Prefer installing OpenType over TrueType fonts
 media-fonts/montecarlo:bdf - Install BDF fonts in addition to PCF
 media-fonts/mplus-outline-fonts:ipafont - Generates new fonts merged with media-fonts/ja-ipafonts
 media-fonts/sil-charis:compact - Use more compactly spaced font
@@ -6371,6 +6373,10 @@ sci-libs/acml:gfortran - Fetch and install acml compiled with GNU gfortran
 sci-libs/acml:ifc - Fetch and install acml compiled with Intel Fortran Compiler (dev-lang/ifc)
 sci-libs/acml:int64 - Install the 64 bits integer library
 sci-libs/adolc:sparse - Add support for sparse matrix algebra with sci-libs/colpack
+sci-libs/armadillo:arpack - Link with sci-libs/arpack libraries for eigen decomposition
+sci-libs/armadillo:atlas - Link with sci-libs/atlas libraries for cblas and clapack
+sci-libs/armadillo:mkl - Use matrix allocation from the Intel MKL sci-libs/mkl
+sci-libs/armadillo:tbb - Use matrix allocation from the Threads Building Blocks dev-cpp/tbb
 sci-libs/arprec:qd - Use sci-libs/qd for quad-double datatype
 sci-libs/avogadrolibs:static-plugins - build all plugins statically into main plugin modules
 sci-libs/avogadrolibs:vtk - include vtk support
@@ -7846,6 +7852,7 @@ x11-wm/windowmaker:vdesktop - Enable dynamic virtual desktop (conflicts with sof
 x11-wm/windowmaker:webp - Enables WebP image format support using media-libs/libwebp
 x11-wm/windowmaker:xrandr - Enable XRandR window extension support
 x11-wm/xmonad:default-term - Pull terminal specified in default xmonad config to be a bit less hostile by default.
+x11-wm/xmonad:no-autorepeat-keys - Allow ignoring of keyboard autorepeat.
 x11-wm/xpra:client - Build client-side code
 x11-wm/xpra:clipboard - Enable clipboard support
 x11-wm/xpra:csc - Enable csc softscaler support
