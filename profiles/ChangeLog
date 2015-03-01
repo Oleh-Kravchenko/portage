@@ -1,10 +1,30 @@
 .# ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9827 2015/02/27 21:52:29 voyageur Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9833 2015/02/28 21:33:20 bircoph Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  28 Feb 2015; Andrew Savchenko <bircoph@gentoo.org> use.desc:
+  Add "seccomp" global USE flag.
+  
+  28 Feb 2015; Tomáš Chvátal <scarabeus@gentoo.org> package.mask:
+  Add dev-libs/libzypp to zypper mask too.
+
+  28 Feb 2015; Manuel Rüger <mrueg@gentoo.org> package.mask:
+  Keep dev-ruby/mixlib-shellout in tree.
+
+  28 Feb 2015; Tomáš Chvátal <scarabeus@gentoo.org> package.mask:
+  Mask libsolv and zypper for removal as they are just experiment that didn't
+  go further.
+
+  28 Feb 2015; Manuel Rüger <mrueg@gentoo.org> package.mask:
+  Remove obsolete mask.
+
+  28 Feb 2015; Justin Lecher <jlec@gentoo.org> package.mask:
+  Mask dev-python/django-1.5* for unfixed security issues
+  (CVE-2015-{0219,0220,0221,0222}), #536586
 
   27 Feb 2015; Bernard Cafarelli <voyageur@gentoo.org> package.mask:
   Update llvm 3.6.0 mask for final release

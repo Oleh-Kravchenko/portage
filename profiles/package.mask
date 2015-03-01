@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16387 2015/02/27 21:52:29 voyageur Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16392 2015/02/28 17:17:24 scarabeus Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,6 +30,19 @@
 
 #--- END OF EXAMPLES ---
 
+# Tomas Chvatal <scarabeus@gentoo.org> (28 Feb 2015)
+# Experiment, didn't proceed further so it is useless
+# to keep here. Remove in 30 days.
+dev-libs/libsolv
+app-admin/zypper
+dev-libs/libzypp
+
+# Justin Lecher <jlec@gentoo.org> (28 Feb 2015)
+# Unfixed security problems
+# CVE-2015-{0219,0220,0221,0222}
+# #536586
+=dev-python/django-1.5*
+
 # Ulrich Müller <ulm@gentoo.org> (24 Feb 2015)
 # Does not work with Emacs 24 or later. Last visible upstream
 # activity in 2010. Use app-emacs/wgrep as replacement.
@@ -59,7 +72,6 @@ dev-ruby/mixlib-authentication
 dev-ruby/mixlib-cli
 dev-ruby/mixlib-config
 dev-ruby/mixlib-log
-dev-ruby/mixlib-shellout
 dev-ruby/ohai
 =dev-ruby/rest-client-1.6.7-r1
 
@@ -367,12 +379,6 @@ www-apps/trac-downloads
 =sys-kernel/vanilla-sources-3.17.0
 =sys-kernel/gentoo-sources-3.17.0
 =sys-kernel/aufs-sources-3.17.0
-
-# Jauhien Piatlicki <jauhien@gentoo.org> (5 Oct 2014)
-# Masked because of bug 524390: privilege escalation
-# until upstream fixes this security issue.
-# Use at your own risk
-<x11-misc/sddm-0.10.0
 
 # Pawel Hajdan jr <phajdan.jr@gentoo.org> (30 Sep 2014)
 # Reverse dependencies need to be tested and fixed, bug #521406.

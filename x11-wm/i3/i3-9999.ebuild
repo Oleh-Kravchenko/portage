@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-wm/i3/i3-9999.ebuild,v 1.6 2015/02/15 18:13:13 ultrabug Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-wm/i3/i3-9999.ebuild,v 1.7 2015/02/28 21:24:00 xarthisius Exp $
 
 EAPI=5
 
@@ -22,7 +22,6 @@ CDEPEND="dev-lang/perl
 	dev-libs/libpcre
 	>=dev-libs/yajl-2.0.3
 	x11-libs/libxcb
-	x11-libs/libX11
 	x11-libs/startup-notification
 	x11-libs/xcb-util
 	x11-libs/xcb-util-cursor
