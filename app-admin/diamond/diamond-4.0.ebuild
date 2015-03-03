@@ -1,15 +1,17 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/diamond/diamond-4.0.ebuild,v 1.1 2015/03/01 23:09:12 grobian Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/diamond/diamond-4.0.ebuild,v 1.4 2015/03/02 13:19:23 grobian Exp $
 
 EAPI=5
 
 if [[ ${PV} = 9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/python-diamond/Diamond.git"
+	S=${WORKDIR}/diamond-${PV}
 else
 	SRC_URI="https://github.com/python-diamond/Diamond/archive/v${PV}.tar.gz -> python-diamond-${PV}.tar.gz"
 	KEYWORDS="~x86 ~amd64"
+	S=${WORKDIR}/Diamond-${PV}
 fi
 
 PYTHON_COMPAT=( python{2_6,2_7} )
@@ -32,8 +34,6 @@ RDEPEND="dev-python/configobj
 DEPEND="${RDEPEND}
 	test? ( dev-python/mock )"
 
-S=${WORKDIR}/Diamond-${PV}
-
 src_prepare() {
 	# adjust for Prefix
 	sed -i \
@@ -52,10 +52,15 @@ python_install() {
 	export VIRTUAL_ENV=1
 	distutils-r1_python_install
 	mv "${ED}"/usr/etc "${ED}"/ || die
+	rm "${ED}"/etc/diamond/*.windows  # won't need these
+	sed -i \
+		-e '/pid_file =/s:/var/run:/run:' \
+		"${ED}"/etc/diamond/diamond.conf.example || die
 }
 
 src_install() {
 	distutils-r1_src_install
 	newinitd "${FILESDIR}"/${PN}.initd ${PN}
 	newconfd "${FILESDIR}"/${PN}.confd ${PN}
+	keepdir /var/log/diamond
 }
