@@ -1,12 +1,12 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-libs/scipy/scipy-0.15.0.ebuild,v 1.1 2015/02/19 08:25:29 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/sci-libs/scipy/scipy-0.15.0.ebuild,v 1.2 2015/03/03 15:18:59 jlec Exp $
 
 EAPI=5
 
 PYTHON_COMPAT=( python2_7 python3_{3,4} )
 
-DOC_PV=0.13.0
+DOC_PV=0.15.0
 
 inherit eutils fortran-2 distutils-r1 flag-o-matic multilib toolchain-funcs
 
@@ -15,8 +15,8 @@ HOMEPAGE="http://www.scipy.org/"
 SRC_URI="
 	mirror://sourceforge/${PN}/${P}.tar.gz
 	doc? (
-		http://docs.scipy.org/doc/${PN}-${DOC_PV}/${PN}-html.zip -> ${PN}-${DOC_PV}-html.zip
-		http://docs.scipy.org/doc/${PN}-${DOC_PV}/${PN}-ref.pdf -> ${PN}-${DOC_PV}-ref.pdf
+		http://docs.scipy.org/doc/${PN}-${DOC_PV}/${PN}-html-${PV}.zip -> ${PN}-${DOC_PV}-html.zip
+		http://docs.scipy.org/doc/${PN}-${DOC_PV}/${PN}-ref-${PV}.pdf -> ${PN}-${DOC_PV}-ref.pdf
 	)"
 
 LICENSE="BSD LGPL-2"
