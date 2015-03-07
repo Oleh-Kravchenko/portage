@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/greenbone-security-assistant/greenbone-security-assistant-6.0_beta6.ebuild,v 1.1 2015/02/14 18:33:30 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/greenbone-security-assistant/greenbone-security-assistant-6.0_beta6.ebuild,v 1.2 2015/03/06 10:17:47 jlec Exp $
 
 EAPI=5
 
@@ -20,7 +20,7 @@ KEYWORDS=""
 IUSE=""
 
 RDEPEND="
-	dev-libs/libgcrypt
+	dev-libs/libgcrypt:0
 	dev-libs/libxslt
 	>=net-analyzer/openvas-libraries-8.0_beta6
 	net-libs/libmicrohttpd[messages]"
