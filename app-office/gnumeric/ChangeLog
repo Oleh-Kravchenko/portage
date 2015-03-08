@@ -1,6 +1,15 @@
 # ChangeLog for app-office/gnumeric
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/gnumeric/ChangeLog,v 1.282 2015/02/06 12:47:08 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/gnumeric/ChangeLog,v 1.284 2015/03/07 14:54:04 pacho Exp $
+
+*gnumeric-1.12.21 (07 Mar 2015)
+
+  07 Mar 2015; Pacho Ramos <pacho@gentoo.org> +gnumeric-1.12.21.ebuild:
+  Version bump
+
+  07 Mar 2015; Pacho Ramos <pacho@gentoo.org> -gnumeric-1.12.19.ebuild,
+  gnumeric-1.12.20.ebuild:
+  A newer goffice is needed (#541144 by A. Person), drop old
 
 *gnumeric-1.12.20 (06 Feb 2015)
 

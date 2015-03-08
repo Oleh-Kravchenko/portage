@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-extra-apps/gnome-extra-apps-3.14.0-r1.ebuild,v 1.1 2015/02/11 10:01:46 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/gnome-base/gnome-extra-apps/gnome-extra-apps-3.14.0-r1.ebuild,v 1.3 2015/03/07 15:00:41 pacho Exp $
 
 EAPI="5"
 
@@ -36,7 +36,6 @@ RDEPEND="
 	>=gnome-extra/sushi-3.12.0
 	>=mail-client/evolution-3.12.9
 	>=media-gfx/gnome-font-viewer-${PV}
-	>=media-gfx/gnome-photos-${PV}
 	>=media-gfx/gnome-screenshot-${PV}
 	>=media-sound/sound-juicer-${PV}
 	>=media-video/cheese-${PV}
@@ -61,13 +60,16 @@ RDEPEND="
 		>=games-puzzle/gnome-klotski-${PV}
 		>=games-puzzle/gnome-sudoku-${PV}
 		>=games-puzzle/gnome-tetravex-${PV}
+		>=games-puzzle/hitori-${PV}
 		>=games-puzzle/lightsoff-${PV}
 		>=games-puzzle/quadrapassel-${PV}
 		>=games-puzzle/swell-foop-${PV} )
 	shotwell? ( >=media-gfx/shotwell-0.20 )
 	tracker? (
 		>=app-misc/tracker-1.2
-		>=gnome-extra/gnome-documents-${PV} )
+		>=gnome-extra/gnome-documents-${PV}
+		>=media-gfx/gnome-photos-${PV}
+		>=media-sound/gnome-music-${PV} )
 "
 DEPEND=""
 S=${WORKDIR}

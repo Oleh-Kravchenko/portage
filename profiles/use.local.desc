@@ -3007,7 +3007,6 @@ gnome-extra/gnome-dvb-daemon:totem - Build a plugin for media-video/totem
 gnome-extra/gnome-dvb-daemon:vala - Add support for dev-lang/vala
 gnome-extra/gnome-system-monitor:systemd - Display sys-apps/systemd metadata, e.g. unit names, for running processes
 gnome-extra/gucharmap:vala - Enable bindings for dev-lang/vala
-gnome-extra/libgda:bindist - Disable support for dev-db/firebird database which is not GPL compatible.
 gnome-extra/libgda:canvas - Enable support for x11-libs/goocanvas
 gnome-extra/libgda:http - Enable embedded net-libs/libsoup based server
 gnome-extra/libgda:json - Enable support for JSON format
@@ -3649,6 +3648,7 @@ media-libs/freetype:utils - Install utilities and examples from ft2demos
 media-libs/freeverb3:audacious - Build Audacious plugin
 media-libs/freeverb3:forcefpu - Disable assembly code
 media-libs/freeverb3:plugdouble - Build plugins in double precision mode (default is float)
+media-libs/gd:webp - Enable support for the webp format
 media-libs/gegl:introspection - Use dev-libs/gobject-introspection for introspection.
 media-libs/gegl:lensfun - Enable support for media-libs/lensfun.
 media-libs/gegl:umfpack - Enable sparse solving via sci-libs/umfpack.
@@ -5630,11 +5630,14 @@ net-misc/cgminer:modminer - Enable support for mining with ModMiner FPGAs
 net-misc/cgminer:spondoolies - Enable support for Spondoolies
 net-misc/chrony:rtc - Include support for the Linux Real Time Clock interface
 net-misc/connman:ethernet - Enable ethernet support.
+net-misc/connman:l2tp - Use net-dialup/xl2tpd for L2TP VPN support.
 net-misc/connman:ofono - Use net-misc/ofono for telephony support.
 net-misc/connman:openconnect - Use net-misc/openconnect for VPN support.
 net-misc/connman:openvpn - Use net-misc/openvpn for openvpn support.
+net-misc/connman:pptp - Use net-dialup/pptpclient for PPTP VPN support.
 net-misc/connman:tools - Enable testing tools.
 net-misc/connman:vpnc - Use net-misc/vpnc for cisco VPN support.
+net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/csync:sftp - Enable sftp transfer support via net-libs/libssh
 net-misc/curl:metalink - Enable metalink support
 net-misc/curl:rtmp - Enable RTMP Streaming Media support
@@ -6304,7 +6307,6 @@ sci-chemistry/gromacs:double-precision - More precise calculations at the expens
 sci-chemistry/gromacs:make-symlinks - Create symbolic links for pre-5.0 binary names
 sci-chemistry/gromacs:mkl - Use sci-libs/mkl for fft, blas, lapack routines
 sci-chemistry/gromacs:offensive - Enable gromacs partly offensive quotes
-sci-chemistry/gromacs:openmm - Add acceleration through sci-libs/openmm
 sci-chemistry/gromacs:single-precision - Single precision version of gromacs (default)
 sci-chemistry/gromacs:tng - Enable new trajectory format - tng
 sci-chemistry/gsim:emf - Support for .emf export
@@ -6902,6 +6904,7 @@ sys-cluster/ceph:nss - Use dev-libs/nss for cryptography
 sys-cluster/ceph:radosgw - Add radosgw support
 sys-cluster/ceph:xfs - Add xfs support
 sys-cluster/ceph:zfs - Add zfs support
+sys-cluster/charm:ampi - Build implementation of MPI on top of Charm++
 sys-cluster/charm:charmdebug - Enable the charm debugger
 sys-cluster/charm:charmproduction - Optimize performance of Charm++ runtime
 sys-cluster/charm:charmtracing - Enable tracing support in Charm++
