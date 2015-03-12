@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-9999.ebuild,v 1.92 2014/12/11 14:17:09 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-9999.ebuild,v 1.93 2015/03/11 18:46:46 vapier Exp $
 
 EAPI=5
 
@@ -245,6 +245,7 @@ pkg_pretend() {
 
 pkg_setup() {
 	enewgroup kvm 78
+	python_setup
 }
 
 src_prepare() {
