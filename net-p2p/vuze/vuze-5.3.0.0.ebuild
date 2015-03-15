@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-p2p/vuze/vuze-5.3.0.0.ebuild,v 1.1 2014/03/09 07:38:47 rhill Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-p2p/vuze/vuze-5.3.0.0.ebuild,v 1.2 2015/03/14 09:39:07 rhill Exp $
 
 EAPI="5"
 
@@ -28,12 +28,12 @@ RDEPEND="
 	dev-java/json-simple
 	dev-java/log4j
 	dev-java/swt:3.8[cairo]
-	>=virtual/jre-1.6"
+	>=virtual/jre-1.6:*"
 
 DEPEND="${RDEPEND}
 	app-arch/unzip
 	dev-util/desktop-file-utils
-	>=virtual/jdk-1.6"
+	>=virtual/jdk-1.6:*"
 
 PDEPEND="~net-p2p/vuze-coreplugins-${PV}"
 
@@ -55,7 +55,9 @@ src_unpack() {
 }
 
 java_prepare() {
-	epatch "${FILESDIR}"/${P}-cache-size.patch
+	# upstream likes randomly changing a subset of files to CRLF every release
+	edos2unix $(find "${S}" -type f -name "*.java")
+
 	epatch "${FILESDIR}"/${P}-java5.patch
 	epatch "${FILESDIR}"/${P}-remove-classpath.patch
 	epatch "${FILESDIR}"/${P}-disable-shared-plugins.patch
