@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16415 2015/03/14 20:54:55 voyageur Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16418 2015/03/15 17:32:09 tetromino Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,19 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Alexandre Rostovtsev <tetromino@gentoo.org> (15 Mar 2015)
+# Ancient wine ebuilds, don't work with new multilib (bug #543336).
+# Masked for removal in 30 days.
+<app-emulation/wine-1.6.2
+
+# Ben de Groot <yngwin@gentoo.org> (15 Mar 2015)
+# These projects have been abandoned upstream. Most mplayer2 devs have moved
+# on to media-video/mpv, and users are suggested to do the same. We have
+# media-video/baka-mplayer and media-video/smplayer available as Qt-based GUIs.
+# See bugs 452484, 485994, 512082, 519212. Removal in 30 days.
+media-video/mplayer2
+media-video/smplayer2
 
 # Michael Sterrett <mr_bones_@gentoo.org> (11 Mar 2015)
 # Doesn't build with modern gcc, randomly fails to build (bug #494170)
@@ -274,56 +287,6 @@ games-rpg/morrowind-data
 # No one uses it anymore. You can
 # use dev-perl/Geo-IP instead.
 dev-perl/IP-Country
-
-# Manuel Rüger <mrueg@gentoo.org> (17 Jan 2015)
-# Unmaintained. Old eclasses, EAPIs and various bugs.
-# See bug #533642
-# Removal in 30 days.
-rox-base/mime-editor
-rox-base/oroborox
-rox-base/pager
-rox-base/rox
-rox-base/rox-autostart
-rox-base/rox-clib
-rox-base/rox-launch
-rox-base/rox-lib
-rox-base/rox-session
-rox-base/systemtrayn
-rox-base/tasklist
-rox-base/tasktray
-rox-base/thumbs
-rox-base/traylib
-rox-base/volume
-rox-base/xdg-menu
-rox-base/zeroinstall-injector
-rox-extra/archive
-rox-extra/clock
-rox-extra/contacts
-rox-extra/diff
-rox-extra/edit
-rox-extra/fetch
-rox-extra/find
-rox-extra/gnome-thumbnailer
-rox-extra/lithium
-rox-extra/magickthumbnail
-rox-extra/memo
-rox-extra/mp3ogg2wav
-rox-extra/musicbox
-rox-extra/picky
-rox-extra/resolution
-rox-extra/reticker
-rox-extra/ripper
-rox-extra/rox-tail
-rox-extra/rox-wifi
-rox-extra/rox-xplanet
-rox-extra/roxcd
-rox-extra/roxdao
-rox-extra/roxget
-rox-extra/roxiso
-rox-extra/songer
-rox-extra/videothumbnail
-rox-extra/wallpaper
-rox-extra/weather
 
 # Anthony G. Basile <blueness@gentoo.org> (9 Jan 2015)
 # p.mask the -9999 version
