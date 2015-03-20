@@ -1,33 +1,36 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/mpv/mpv-9999.ebuild,v 1.66 2015/02/22 06:16:18 yngwin Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/mpv/mpv-9999.ebuild,v 1.68 2015/03/19 11:14:36 yngwin Exp $
 
 EAPI=5
-
-EGIT_REPO_URI="https://github.com/mpv-player/mpv.git"
-
 PYTHON_COMPAT=( python{2_7,3_3,3_4} )
 PYTHON_REQ_USE='threads(+)'
-
 inherit eutils python-any-r1 waf-utils pax-utils fdo-mime gnome2-utils
-[[ ${PV} == *9999* ]] && inherit git-r3
 
 WAF_V="1.8.4"
 
-DESCRIPTION="Video player based on MPlayer/mplayer2"
+DESCRIPTION="Media player based on MPlayer and mplayer2"
 HOMEPAGE="http://mpv.io/"
 SRC_URI="http://ftp.waf.io/pub/release/waf-${WAF_V}"
-[[ ${PV} == *9999* ]] || \
-SRC_URI+=" https://github.com/mpv-player/mpv/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+DOCS=( README.md etc/example.conf etc/input.conf )
 
-LICENSE="GPL-2"
+if [[ ${PV} == *9999* ]]; then
+	EGIT_REPO_URI="https://github.com/mpv-player/mpv.git"
+	inherit git-r3
+	KEYWORDS=""
+else
+	SRC_URI+=" https://github.com/mpv-player/mpv/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux"
+	DOCS+=( RELEASE_NOTES )
+fi
+
+# See Copyright in source tarball and bug #506946. Waf is BSD, libmpv is ISC.
+LICENSE="GPL-2+ BSD ISC"
 SLOT="0"
-[[ ${PV} == *9999* ]] || \
-KEYWORDS="~alpha ~amd64 ~arm ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux"
-IUSE="+alsa bluray bs2b cdio +cli -doc-pdf dvb +dvd dvdnav egl +enca encode
+IUSE="+alsa bluray bs2b cdio +cli doc-pdf dvb +dvd dvdnav egl +enca encode
 +iconv jack -joystick jpeg ladspa lcms +libass libav libcaca libguess libmpv
-lirc lua luajit +mpg123 -openal +opengl oss pulseaudio pvr samba -sdl selinux
-v4l vaapi vdpau vf-dlopen wayland +X xinerama +xscreensaver +xv"
+lirc lua luajit +mpg123 -openal +opengl oss pulseaudio pvr rubberband samba
+-sdl selinux v4l vaapi vdpau vf-dlopen wayland +X xinerama +xscreensaver xv"
 
 REQUIRED_USE="
 	|| ( cli libmpv )
@@ -48,8 +51,8 @@ REQUIRED_USE="
 "
 
 RDEPEND="
-	libav? ( >=media-video/libav-10:0=[encode?,threads,vaapi?,vdpau?] )
-	!libav? ( >=media-video/ffmpeg-2.1.4:0=[encode?,threads,vaapi?,vdpau?] )
+	libav? ( >=media-video/libav-11:0=[encode?,threads,vaapi?,vdpau?] )
+	!libav? ( >=media-video/ffmpeg-2.4.0:0=[encode?,threads,vaapi?,vdpau?] )
 	sys-libs/zlib
 	X? (
 		x11-libs/libX11
@@ -84,7 +87,7 @@ RDEPEND="
 	jpeg? ( virtual/jpeg:0 )
 	ladspa? ( media-libs/ladspa-sdk )
 	libass? (
-		>=media-libs/libass-0.9.10:=[enca?,fontconfig]
+		>=media-libs/libass-0.12.1:=[enca?,fontconfig]
 		virtual/ttf-fonts
 	)
 	libcaca? ( >=media-libs/libcaca-0.99_beta18 )
@@ -97,6 +100,7 @@ RDEPEND="
 	mpg123? ( >=media-sound/mpg123-1.14.0 )
 	openal? ( >=media-libs/openal-1.13 )
 	pulseaudio? ( media-sound/pulseaudio )
+	rubberband? ( >=media-libs/rubberband-1.8.0 )
 	samba? ( net-fs/samba )
 	sdl? ( media-libs/libsdl2[threads] )
 	v4l? ( media-libs/libv4l )
@@ -121,33 +125,29 @@ DEPEND="${RDEPEND}
 RDEPEND+="
 	selinux? ( sec-policy/selinux-mplayer )
 "
-DOCS=( Copyright README.md etc/example.conf etc/input.conf )
 
 pkg_setup() {
-	if use !libass; then
-		ewarn
+	if ! use libass; then
 		ewarn "You've disabled the libass flag. No OSD or subtitles will be displayed."
+	fi
+
+	if use libav; then
+		einfo "You have enabled media-video/libav instead of media-video/ffmpeg."
+		einfo "Upstream recommends media-video/ffmpeg, as some functionality is not"
+		einfo "provided by media-video/libav. For more information see:"
+		einfo "    https://github.com/mpv-player/mpv/wiki/FFmpeg-versus-Libav"
 	fi
 
 	einfo "For additional format support you need to enable the support on your"
 	einfo "libavcodec/libavformat provider:"
-	einfo "    media-video/libav or media-video/ffmpeg"
+	einfo "    media-video/ffmpeg or media-video/libav"
 
 	python-any-r1_pkg_setup
 }
 
-src_unpack() {
-	if [[ ${PV} == *9999* ]]; then
-		git-r3_src_unpack
-	else
-		default_src_unpack
-	fi
-
+src_prepare() {
 	cp "${DISTDIR}"/waf-${WAF_V} "${S}"/waf || die
 	chmod 0755 "${S}"/waf || die
-}
-
-src_prepare() {
 	epatch_user
 }
 
@@ -161,6 +161,7 @@ src_configure() {
 		--disable-build-date	# keep build reproducible
 		--disable-optimize	# do not add '-O2' to CFLAGS
 		--disable-debug-build	# do not add '-g' to CFLAGS
+		--disable-test		# avoid dev-util/cmocka automagic
 		$(use_enable doc-pdf pdf-build)
 		$(use_enable vf-dlopen vf-dlopen-filters)
 		$(use_enable cli zsh-comp)
@@ -182,6 +183,7 @@ src_configure() {
 		$(use_enable enca)
 		$(use_enable mpg123)
 		$(use_enable ladspa)
+		$(use_enable rubberband)
 		$(use_enable bs2b libbs2b)
 		$(use_enable lcms lcms2)
 		--disable-vapoursynth	# vapoursynth is not packaged

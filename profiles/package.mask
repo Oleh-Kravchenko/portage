@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16421 2015/03/17 20:18:18 hwoarang Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16426 2015/03/19 23:18:18 mrueg Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,102 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Pawel Hajdan, Jr. <phajdan.jr@gentoo.org> (19 Mar 2015)
+# Dev channel releases are only for people who are developers or want more
+# experimental features and accept a more unstable release.
+>=www-client/chromium-43
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Dead for years, unmaintained, doesn't respect CFLAGS,
+# bug 240842. Removal in a month.
+media-video/maven-prog
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Dead, doesn't build, doesn't respect CFLAGS (#240902).
+# Removal in a month.
+net-im/ntame
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Dead since 2007, broken buildsystem, bug #247777
+# Removal in a month.
+media-plugins/blop
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Unmaintained for ages, bug #315105. Removal in a month.
+net-im/imcom
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Dead since 2004, broken with newer python, bug #315823
+# Removal in a month.
+net-misc/geekcredit
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Removal in a month, bug #346791
+# Justin Lecher <jlec@gentoo.org> (27 Jun 2011)  
+# Only avalable version isn't in the tree.
+# Mask until it is bumped
+sci-chemistry/webmo
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Unmaintained for ages, has unresolved bugs,
+# bug #403513. Removal in a month.
+net-irc/tirc
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Hardmasked for ages and still impossible to unmask (#416683).
+# Removal in a month.
+# Alexandre Rostovtsev <tetromino@gentoo.org> (20 May 2012)
+# Requires dev-scheme/guile-2.0.5 which is in lisp overlay and masked;
+# bug #416683
+games-board/aisleriot
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Multiple pending bugs for a long time, unmaintained. Switch to
+# pike-overlay instead as it's better maintained there (#422483).
+# Removal in a month.
+dev-lang/pike
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Broken with tcl-8.6 (#452654). Removal in a month.
+media-tv/nxtvepg
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Security sensitive package with dead upstream and unmaintained
+# for ages (#476358). Removal in a month.
+www-apache/mod_suphp
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Removal in a month as this was ever fixed (#499870)
+# Mike Gilbert <floppym@gentoo.org> (13 Jun 2014)
+# Masked due to security bug 499870.
+# Please migrate to net-misc/libreswan.
+# If you are a Gentoo developer, feel free to pick up maintenence of openswan
+# and remove this mask after resolving the security issue.
+net-misc/openswan
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Doesn't with with ruby19, dead upstream (#509960).
+# Removal in a month.
+app-backup/pdumpfs
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Dead for ages and fails to build (#514648). Removal in a month.
+net-misc/zebedee
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Fails to build (#515308). Removal in a month.
+net-nntp/nget
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Last activity 2012, does not build, homepage dead (#515906).
+# Removal in a month.
+sci-misc/gcam
+
+# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
+# Dead and replaced in favor of media-gfx/yafaray (#515956).
+# Removal in a month.
+media-gfx/yafray
 
 # Alexandre Rostovtsev <tetromino@gentoo.org> (15 Mar 2015)
 # Ancient wine ebuilds, don't work with new multilib (bug #543336).
@@ -197,12 +293,6 @@ games-board/kaya
 # masked for removal on 20150320
 games-engines/freesci
 
-# Hans de Graaff <graaff@gentoo.org> (17 Feb 2015)
-# Mask virtual/ruby-threads for removal in 30 days, bug 537074. This
-# virtual is no longer used in the tree and serves no purpose since
-# the removal of ruby 1.8.
-virtual/ruby-threads
-
 # Michael Sterrett <mr_bones_@gentoo.org> (16 Feb 2015)
 # No upstream anymore; misc issues
 # masked for removal on 20150318
@@ -210,14 +300,6 @@ games-puzzle/candycrisis
 games-rpg/aklabeth
 games-sports/foosball
 games-strategy/dark-oberon
-
-# Hans de Graaff <graaff@gentoo.org> (15 Feb 2015)
-# Mask old virtuals based on the slot-per-version idea for removal,
-# bug 421497.
-<virtual/rubygems-9
-<virtual/ruby-ssl-6
-<virtual/ruby-threads-6
-
 
 # Hans de Graaff <graaff@gentoo.org> (15 Feb 2015)
 # Masked for removal due to licensing issues, bug 539778
@@ -235,13 +317,6 @@ dev-python/rax-backup-schedule-python-novaclient-ext
 # dead on upstream since years,
 # removal around 12 Mar 2015
 media-plugins/vdr-yaepg
-
-# Ian Delaney <idella4@gentoo.org> (12 Feb 2015)
-# upstream found to be dead, hash values now fail,
-# no longer has relevance, masked for removal in 30 days
-app-office/openerp-client
-app-office/openerp-server
-app-office/openerp-web
 
 # Michał Górny <mgorny@gentoo.org> (11 Feb 2015)
 # Potentially destructive to @world, bug #539746.
@@ -267,15 +342,6 @@ app-portage/portage-mod_jabber
 # Anthony G. Basile <blueness@gentoo.org> (28 Jan 2015)
 # Its broken and we're waiting for fixes from upstream, bug #536196
 =net-misc/tor-0.2.6.2_alpha-r1
-
-# Mike Gilbert <floppym@gentoo.org> (26 Jan 2015)
-# Dev channel releases are only for people who are developers or want more
-# experimental features and accept a more unstable release.
->=www-client/chromium-42
-
-# Julian Ospald <hasufell@gentoo.org> (22 Jan 2015)
-# Masked for removal in 30 days, wrt #537260.
-games-rpg/morrowind-data
 
 # Mikle Kolyada <zlogene@gentoo.org> (22 Jan 2015)
 # Unclear license (bug 253443).
@@ -439,13 +505,6 @@ sys-block/afacli
 # Needs work, but infra needs it for new VM boxes
 app-emulation/openstack-guest-agents-unix
 app-emulation/xe-guest-utilities
-
-# Mike Gilbert <floppym@gentoo.org> (13 Jun 2014)
-# Masked due to security bug 499870.
-# Please migrate to net-misc/libreswan.
-# If you are a Gentoo developer, feel free to pick up maintenence of openswan
-# and remove this mask after resolving the security issue.
-net-misc/openswan
 
 # Mike Gilbert <floppym@gentoo.org> (10 Jun 2014)
 # Masked due to pending dev-python/imaging removal, bug 471488.
@@ -793,16 +852,6 @@ net-wireless/madwifi-ng
 # Mask beta versions for testing
 >sci-electronics/magic-8
 
-# Alexandre Rostovtsev <tetromino@gentoo.org> (20 May 2012)
-# Requires dev-scheme/guile-2.0.5 which is in lisp overlay and masked;
-# bug #416683
->=games-board/aisleriot-3.3.1
-
-# Johannes Huber <johu@gentoo.org> (03 May 2012)
-# Unstable dev channel release. Fixes build with gcc47
-# (bug #413941).
->=media-sound/mp3diags-1.1
-
 # Robin H. Johnson <robbat2@gentoo.org> (09 Feb 2012)
 # Needs to be slotted better
 =dev-libs/yaz-4*
@@ -831,11 +880,6 @@ games-strategy/savage-bin
 =dev-libs/guiloader-2.99.0
 =dev-libs/guiloader-c++-2.99.0
 =dev-util/crow-designer-2.99.0
-
-# Justin Lecher <jlec@gentoo.org> (27 Jun 2011)
-# Only avalable version isn't in the tree.
-# Mask until it is bumped
-sci-chemistry/webmo
 
 # Marijn Schouten <hkBst@gentoo.org> (07 April 2011)
 # Masked for number of issues, but can be used to
