@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-tcltk/tclxml/tclxml-3.2-r1.ebuild,v 1.11 2014/08/10 21:26:19 slyfox Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-tcltk/tclxml/tclxml-3.2-r1.ebuild,v 1.12 2015/03/20 11:06:52 jlec Exp $
 
 EAPI="3"
 
@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="alpha amd64 ppc sparc x86"
 
 DEPEND="
-	>=dev-lang/tcl-8.2
+	>=dev-lang/tcl-8.2:0
 	dev-libs/libxslt
 	>=dev-tcltk/tcllib-1.2
 	>=dev-libs/libxml2-2.6.9

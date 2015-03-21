@@ -1,8 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/ical/ical-3.0-r1.ebuild,v 1.7 2013/03/30 15:08:04 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/ical/ical-3.0-r1.ebuild,v 1.8 2015/03/20 07:12:52 jlec Exp $
 
 EAPI=3
+
 inherit autotools eutils multilib virtualx
 
 DESCRIPTION="Tk-based Calendar program"
@@ -14,8 +15,10 @@ SLOT="0"
 KEYWORDS="amd64 ppc x86"
 IUSE=""
 
-RDEPEND="dev-lang/tcl
-	dev-lang/tk"
+RDEPEND="
+	dev-lang/tcl:0
+	dev-lang/tk:0
+	"
 DEPEND="${RDEPEND}"
 
 src_prepare() {
@@ -54,5 +57,5 @@ src_install() {
 	dodoc ANNOUNCE *README RWMJ-release-notes.txt TODO
 	dohtml {.,doc}/*.html
 
-	rm -f "${D}"/usr/$(get_libdir)/ical/v3.0/contrib/README
+	rm -f "${D}"/usr/$(get_libdir)/ical/v3.0/contrib/README || die
 }

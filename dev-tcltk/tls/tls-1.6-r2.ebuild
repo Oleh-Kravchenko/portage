@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-tcltk/tls/tls-1.6-r2.ebuild,v 1.9 2014/08/10 21:26:41 slyfox Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-tcltk/tls/tls-1.6-r2.ebuild,v 1.10 2015/03/20 12:12:41 jlec Exp $
 
 EAPI="3"
 
@@ -18,9 +18,9 @@ KEYWORDS="alpha amd64 hppa ppc ~ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-mac
 IUSE="tk"
 
 DEPEND="
-	dev-lang/tcl
-	dev-libs/openssl
-	tk? ( dev-lang/tk )"
+	dev-lang/tcl:0
+	dev-libs/openssl:0
+	tk? ( dev-lang/tk:0 )"
 RDEPEND="${DEPEND}"
 
 RESTRICT="test"
