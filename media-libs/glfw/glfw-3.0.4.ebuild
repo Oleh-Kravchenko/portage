@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/glfw/glfw-3.0.4.ebuild,v 1.1 2014/08/29 19:52:26 mr_bones_ Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/glfw/glfw-3.0.4.ebuild,v 1.2 2015/03/22 21:10:59 mr_bones_ Exp $
 
 EAPI=5
 inherit cmake-utils

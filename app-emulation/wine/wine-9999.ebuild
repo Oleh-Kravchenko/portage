@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-9999.ebuild,v 1.174 2015/03/08 07:00:24 tetromino Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-9999.ebuild,v 1.175 2015/03/22 19:58:44 tetromino Exp $
 
 EAPI="5"
 
@@ -337,14 +337,16 @@ src_prepare() {
 		ewarn "this patch has been reported to cause crashes in certain games."
 
 		# Wine-Staging 1.7.38 "ntdll: Fix race-condition when threads are killed
-		# during shutdown" patch prevents the gstreamer patch from applying cleanly.
+		# during shutdown" patch and "Added patch to implement shared memory
+		# wineserver communication for various user32 functions" prevents the
+		# gstreamer patch from applying cleanly.
 		# So undo the staging patch, apply gstreamer, then re-apply rebased staging
 		# patch on top.
 		if use staging; then
 			PATCHES+=(
-				"${FILESDIR}/${PN}-1.7.38-gstreamer-v5-staging-pre.patch"
+				"${FILESDIR}/${PN}-1.7.39-gstreamer-v5-staging-pre.patch"
 				"${WORKDIR}/${GST_P}.patch"
-				"${FILESDIR}/${PN}-1.7.38-gstreamer-v5-staging-post.patch" )
+				"${FILESDIR}/${PN}-1.7.39-gstreamer-v5-staging-post.patch" )
 		else
 			PATCHES+=( "${WORKDIR}/${GST_P}.patch" )
 		fi
