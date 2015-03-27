@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-mathematics/singular/singular-4.0.2.ebuild,v 1.2 2015/03/10 19:12:44 tomka Exp $
+# $Header: /var/cvsroot/gentoo-x86/sci-mathematics/singular/singular-4.0.2.ebuild,v 1.4 2015/03/26 12:44:41 tomka Exp $
 
 EAPI=5
 
@@ -57,6 +57,8 @@ src_prepare () {
 
 	# omalloc's old configure will fail if ar is not exactly 'ar'.
 	epatch "${FILESDIR}"/${PN}-4.0.0-fix-omalloc-ar-detection.patch
+
+	epatch "${FILESDIR}"/${PN}-4.0.2-ntl8-compat.patch
 
 	cd "${S}"/omalloc || die "failed to cd into omalloc directory"
 	eautoreconf

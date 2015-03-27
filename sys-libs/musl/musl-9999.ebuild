@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-libs/musl/musl-9999.ebuild,v 1.14 2015/03/07 21:08:24 blueness Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-libs/musl/musl-9999.ebuild,v 1.15 2015/03/26 13:42:41 blueness Exp $
 
 EAPI=5
 
@@ -57,9 +57,12 @@ src_configure() {
 	tc-getCC ${CTARGET}
 	just_headers && export CC=true
 
+	local sysroot
+	is_crosscompile && sysroot=/usr/${CTARGET}
 	./configure \
-		--target="${CTARGET}" \
-		--prefix="/usr" \
+		--target=${CTARGET} \
+		--prefix=${sysroot}/usr \
+		--syslibdir=${sysroot}/lib \
 		--disable-gcc-wrapper
 }
 
@@ -71,23 +74,16 @@ src_compile() {
 }
 
 src_install() {
-	local sysroot=${D}
-	is_crosscompile && sysroot+="/usr/${CTARGET}"
-
 	local target="install"
 	just_headers && target="install-headers"
-	emake DESTDIR="${sysroot}" ${target} || die
-
-	# Make sure we install the sys-include symlink so that when
-	# we build a 2nd stage cross-compiler, gcc finds the target
-	# system headers correctly.  See gcc/doc/gccinstall.info
-	if is_crosscompile ; then
-		dosym usr/include /usr/${CTARGET}/sys-include
-	fi
+	emake DESTDIR="${D}" ${target} || die
+	just_headers && return 0
 
 	# musl provides ldd via a sym link to its ld.so
-	local ldso=$(basename ${D}/lib/ld-musl-*)
-	dosym /lib/${ldso} /usr/bin/ldd
+	local ldso=$(basename "${D}"/lib/ld-musl-*)
+	local sysroot
+	is_crosscompile && sysroot=/usr/${CTARGET}
+	dosym /lib/${ldso} ${sysroot}/usr/bin/ldd
 }
 
 pkg_postinst() {
