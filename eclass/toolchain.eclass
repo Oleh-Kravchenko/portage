@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/toolchain.eclass,v 1.657 2015/03/17 06:34:54 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/toolchain.eclass,v 1.660 2015/03/29 19:17:05 vapier Exp $
 
 # Maintainer: Toolchain Ninjas <toolchain@gentoo.org>
 
@@ -151,13 +151,14 @@ if [[ ${PN} != "kgcc64" && ${PN} != gcc-* ]] ; then
 	# versions which we dropped.  Since graphite was also experimental in
 	# the older versions, we don't want to bother supporting it.  #448024
 	tc_version_is_at_least 4.8 && IUSE+=" graphite" IUSE_DEF+=( sanitize )
+	tc_version_is_at_least 4.9 && IUSE+=" cilk"
 fi
 
 [[ ${EAPI:-0} != 0 ]] && IUSE_DEF=( "${IUSE_DEF[@]/#/+}" )
 IUSE+=" ${IUSE_DEF[*]}"
 
 # Support upgrade paths here or people get pissed
-if ! tc_version_is_at_least 4.7 || is_crosscompile || use multislot ; then
+if ! tc_version_is_at_least 4.7 || is_crosscompile || use multislot || [[ ${GCC_PV} == *_alpha* ]] ; then
 	SLOT="${GCC_CONFIG_VER}"
 else
 	SLOT="${GCC_BRANCH_VER}"
@@ -181,14 +182,16 @@ fi
 
 tc_version_is_at_least 4.5 && RDEPEND+=" >=dev-libs/mpc-0.8.1"
 
-if tc_version_is_at_least 5.0 ; then
-	RDEPEND+=" graphite? ( >=dev-libs/isl-0.12 )"
-elif tc_version_is_at_least 4.8 ; then
-	RDEPEND+="
-		graphite? (
-			>=dev-libs/cloog-0.18.0
-			>=dev-libs/isl-0.11.1
-		)"
+if in_iuse graphite ; then
+	if tc_version_is_at_least 5.0 ; then
+		RDEPEND+=" graphite? ( >=dev-libs/isl-0.12 )"
+	elif tc_version_is_at_least 4.8 ; then
+		RDEPEND+="
+			graphite? (
+				>=dev-libs/cloog-0.18.0
+				>=dev-libs/isl-0.11.1
+			)"
+	fi
 fi
 
 DEPEND="${RDEPEND}
@@ -1163,7 +1166,10 @@ toolchain_src_configure() {
 			fi
 			confgcc+=( --disable-libssp )
 		fi
+	fi
 
+	if in_iuse cilk ; then
+		confgcc+=( $(use_enable cilk libcilkrts) )
 	fi
 
 	# newer gcc's come with libquadmath, but only fortran uses

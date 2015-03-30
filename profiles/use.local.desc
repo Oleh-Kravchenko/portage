@@ -267,7 +267,7 @@ app-admin/webapp-config:portage - Propagete python_targets dependencies to sys-a
 app-admin/yaala:storable - Support for persistence of Perl data structures.
 app-antivirus/clamav:clamdtop - A Top like tool which shows what clamd is currently scanning amongst other things
 app-antivirus/clamav:metadata-analysis-api - Enables collection of file property metadata using ClamAV API for analysis by ClamAV bytecode programs.
-app-arch/cabextract:extra-tools - Install experimental tools: wince_info and wince_rename for examining and processing Windows CE installation cabinet header files; cabinfo for examining the structure of a cab file.
+app-arch/cabextract:extras - Install experimental extra tools: wince_info and wince_rename for examining and processing Windows CE installation cabinet header files; cabinfo for examining the structure of a cab file.
 app-arch/cfv:bittorrent - Enable support for checking .torrent files
 app-arch/dpkg:update-alternatives - Install update-alternatives
 app-arch/dump:ermt - encrypted rmt support
@@ -3435,6 +3435,7 @@ mate-extra/mate-power-manager:man - Build power manager's man page.
 mate-extra/mate-power-manager:unique - Enable single instance support using dev-libs/libunique.
 mate-extra/mate-screensaver:consolekit - Enable support for sys-auth/consolkekit
 mate-extra/mate-utils:applet - Enable the mate dictionary applet
+media-fonts/corefonts:tahoma - Also install the Tahoma font. Due to the lack of a free bold variant, this may render badly. See bug 184790.
 media-fonts/culmus:ancient - Install ancient semitic scripts
 media-fonts/culmus:fancy - Install fancy fonts
 media-fonts/culmus:fontforge - Use media-gfx/fontforge to build fonts from source
@@ -4256,10 +4257,10 @@ media-tv/kodi:midi - Support MIDI files
 media-tv/kodi:nfs - Enable NFS client support
 media-tv/kodi:projectm - Enable projectM visualization plugin
 media-tv/kodi:pvr - Enable MythTV support
-media-tv/kodi:raspberry-pi - Enable support for the Raspberry Pi
 media-tv/kodi:rsxs - Enable really slick X screensavers
 media-tv/kodi:rtmp - Enable Real Time Messaging Protocol using librtmp
 media-tv/kodi:sftp - Support browsing files over SFTP
+media-tv/kodi:texturepacker - Support packing skin textures
 media-tv/kodi:webserver - Enable internal webserver
 media-tv/kodi:xrandr - Support X randr extension
 media-tv/linuxtv-dvb-apps:alevt - Build videotext decoder
@@ -6526,7 +6527,7 @@ sci-libs/ssm:ccp4 - Link superpose with libccp4
 sci-libs/suitesparse:cuda - Enable nvidia cuda toolkit for speeding up computations
 sci-libs/suitesparse:metis - Enable the Partition module to cholmod using sci-libs/metis
 sci-libs/suitesparse:tbb - Enable multithreading with the Intel Threads Building Block dev-cpp/tbb
-sci-libs/taucs:cilk - Enable multithreading using dev-lang/cilk)
+sci-libs/taucs:cilk - Enable multithreading using dev-lang/cilk
 sci-libs/umfpack:cholmod - Use sci-libs/cholmod for matrix ordering
 sci-libs/votca-tools:system-boost - Use system boost (dev-libs/boost) instead of bundled one
 sci-libs/vtk:R - Enable support for dev-lang/R
@@ -7037,17 +7038,14 @@ sys-devel/clang:system-cxx-headers - By default, clang++ searchs for C++ headers
 sys-devel/distcc:crossdev - Enable support for sys-devel/crossdev
 sys-devel/distcc:gssapi - Enable support for net-libs/libgssglue
 sys-devel/gcc:awt - Useful only when building GCJ, this enables Abstract Window Toolkit (AWT) peer support on top of GTK+
+sys-devel/gcc:cilk - Support the Cilk Plus language (C/C++ based languages for parallel programming)
 sys-devel/gcc:d - Enable support for the D programming language
 sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
 sys-devel/gcc:go - Build the GCC Go language frontend.
 sys-devel/gcc:graphite - Add support for the framework for loop optimizations based on a polyhedral intermediate representation
-sys-devel/gcc:ip28 - Enable building a compiler capable of building a kernel for SGI Indigo2 Impact R10000 (IP28)
-sys-devel/gcc:ip32r10k - Enable building a compiler capable of building an experimental kernel for SGI O2 w/ R1x000 CPUs (IP32)
 sys-devel/gcc:libssp - Build SSP support into a dedicated library rather than use the code in the C library (DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT IT DOES)
 sys-devel/gcc:mudflap - Add support for mudflap, a pointer use checking library
 sys-devel/gcc:multislot - Allow for SLOTs to include minor version (3.3.4 instead of just 3.3)
-sys-devel/gcc:n32 - Enable n32 ABI support on mips
-sys-devel/gcc:n64 - Enable n64 ABI support on mips
 sys-devel/gcc:nopie - Disable PIE support (NOT FOR GENERAL USE)
 sys-devel/gcc:nossp - Disable SSP support (NOT FOR GENERAL USE)
 sys-devel/gcc:objc - Build support for the Objective C code language

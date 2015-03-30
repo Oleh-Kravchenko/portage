@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-misc/colord/colord-1.2.9.ebuild,v 1.3 2015/03/15 13:34:17 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-misc/colord/colord-1.2.9.ebuild,v 1.5 2015/03/29 18:19:23 tetromino Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
@@ -16,7 +16,7 @@ SRC_URI="http://www.freedesktop.org/software/colord/releases/${P}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0/2" # subslot = libcolord soname version
-KEYWORDS="~alpha amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc x86 ~x86-fbsd"
+KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc x86 ~x86-fbsd"
 
 # We prefer policykit enabled by default, bug #448058
 IUSE="argyllcms examples extra-print-profiles +gusb +introspection +policykit scanner systemd +udev vala"
@@ -128,7 +128,7 @@ multilib_src_compile() {
 		gnome2_src_compile
 	else
 		emake -C lib/colord
-		emake -C lib/colorhug
+		use gusb && emake -C lib/colorhug
 		emake -C lib/compat
 	fi
 }
@@ -138,7 +138,7 @@ multilib_src_test() {
 		default
 	else
 		emake -C lib/colord check
-		emake -C lib/colorhug check
+		use gusb && emake -C lib/colorhug check
 		emake -C lib/compat check
 	fi
 }
@@ -148,7 +148,7 @@ multilib_src_install() {
 		gnome2_src_install
 	else
 		gnome2_src_install -C lib/colord
-		gnome2_src_install -C lib/colorhug
+		use gusb && gnome2_src_install -C lib/colorhug
 		gnome2_src_install -C lib/compat
 		gnome2_src_install -C contrib/session-helper install-libcolord_includeHEADERS
 	fi
