@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16447 2015/03/29 19:48:59 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16450 2015/03/30 22:38:49 mr_bones_ Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,47 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Michael Sterrett <mr_bones_@gentoo.org> (30 Mar 2015)
+# Not used by anything in the tree and no upstream anymore.
+# masked for removal on 20150429
+dev-games/libgrapple
+
+# Michael Sterrett <mr_bones_@gentoo.org> (30 Mar 2015)
+# Masked since 2011 because of fmod:0 dep.  Things haven't
+# improved so...
+# masked for removal on 20150429
+games-simulation/stoned-bin
+games-sports/racer-bin
+games-strategy/savage-bin
+
+# Michael Sterrett <mr_bones_@gentoo.org> (30 Mar 2015)
+# Last release in 2004; doesn't work with newer tcl
+# masked for removal on 20150429
+games-strategy/xconq
+
+# Michael Sterrett <mr_bones_@gentoo.org> (30 Mar 2015)
+# Last release in 2001; doesn't build on modern systems.
+# masked for removal on 20150429
+games-emulation/tuxnes
+
+# Michael Sterrett <mr_bones_@gentoo.org> (30 Mar 2015)
+# Unfetchable.
+# masked for removal on 20150429
+games-fps/enemy-territory-fortress
+games-fps/quake1-ctf
+games-fps/quake3-brainworks
+games-fps/ut2004-da2
+games-fps/ut2004-damnation
+games-rpg/rain-slick
+games-server/bf1942-desertcombat
+games-strategy/dominions2-demo
+games-fps/doom3-phantasm
+
+# Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org> (30 Mar 2015)
+# Does not build against glibc-2.20 or modern X servers, bug #544904.
+# Removal in 30 days.
+<x11-drivers/xf86-input-synaptics-1.7
 
 # Andreas K. Huettel <dilfridge@gentoo.org> (29 Mar 2015)
 # Mask Perl 5.18 for removal. Please upgrade to Perl 5.20
@@ -664,7 +705,7 @@ www-apps/trac-downloads
 
 # Markos Chandras <hwoarang@gentoo.org> (18 Nov 2014)
 # Mask latest development version for testing
-=x11-misc/lightdm-1.13*
+=x11-misc/lightdm-1.14*
 
 # Samuli Suominen <ssuominen@gentoo.org> (05 Nov 2014)
 # ConsoleKit2 from github by Eric Koegel, auth of xfce4-power-manager
