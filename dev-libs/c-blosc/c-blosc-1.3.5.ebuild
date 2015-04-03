@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/c-blosc/c-blosc-1.3.5.ebuild,v 1.3 2015/02/16 15:44:52 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/c-blosc/c-blosc-1.3.5.ebuild,v 1.4 2015/04/02 07:21:10 jlec Exp $
 
 EAPI=5
 
@@ -19,7 +19,7 @@ IUSE="hdf5 +lz4 +snappy static-libs test zlib"
 
 RDEPEND="
 	hdf5? ( sci-libs/hdf5:0= )
-	lz4? ( app-arch/lz4:0= )
+	lz4? ( >=app-arch/lz4-0_p120:0= )
 	snappy? ( app-arch/snappy:0= )
 	zlib? ( sys-libs/zlib:0= )"
 DEPEND="${RDEPEND}"

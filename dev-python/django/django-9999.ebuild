@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/django/django-9999.ebuild,v 1.24 2015/02/28 18:08:42 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/django/django-9999.ebuild,v 1.25 2015/04/02 06:59:07 jlec Exp $
 
 EAPI=5
 
@@ -14,7 +14,6 @@ DESCRIPTION="High-level Python web framework"
 HOMEPAGE="http://www.djangoproject.com/ http://pypi.python.org/pypi/Django"
 SRC_URI=""
 EGIT_REPO_URI="
-	git://github.com/django/django.git
 	https://github.com/django/django.git
 	"
 
@@ -29,16 +28,11 @@ DEPEND="${RDEPEND}
 	doc? ( >=dev-python/sphinx-1.0.7[${PYTHON_USEDEP}] )
 	test? (
 		${PYTHON_DEPS//sqlite?/sqlite}
-		dev-python/bcrypt[${PYTHON_USEDEP}]
 		dev-python/docutils[${PYTHON_USEDEP}]
-		dev-python/jinja[${PYTHON_USEDEP}]
 		dev-python/numpy[$(python_gen_usedep 'python*')]
 		dev-python/pillow[${PYTHON_USEDEP}]
-		dev-python/python-sqlparse[${PYTHON_USEDEP}]
 		dev-python/pytz[${PYTHON_USEDEP}]
 		dev-python/pyyaml[${PYTHON_USEDEP}]
-		dev-python/selenium[${PYTHON_USEDEP}]
-		sci-libs/gdal[geos,${PYTHON_USEDEP}]
 		)"
 
 S="${WORKDIR}/${MY_P}"
@@ -46,7 +40,7 @@ S="${WORKDIR}/${MY_P}"
 WEBAPP_MANUAL_SLOT="yes"
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-1.7.5-bashcomp.patch
+	"${FILESDIR}"/${PN}-1.7.6-bashcomp.patch
 )
 
 pkg_setup() {
@@ -79,9 +73,13 @@ src_install() {
 	optfeature "MySQL backend support in python 2.7 only" dev-python/mysql-python
 	optfeature "MySQL backend support in python 2.7 - 3.4" dev-python/mysqlcient
 	optfeature "PostgreSQL backend support" dev-python/psycopg:2
+	echo
+	elog "Other features can be enhanced by"
 	optfeature "GEO Django" sci-libs/gdal[geos]
 	optfeature "Memcached support" dev-python/python-memcached
 	optfeature "ImageField Support" virtual/python-imaging
+	optfeature "Password encryption" dev-python/bcrypt
+	optfeature "Extended templating support" dev-python/jinja
 	echo ""
 }
 
