@@ -3317,7 +3317,6 @@ mail-client/mutt:tokyocabinet - Enable tokyocabinet database backend for header 
 mail-client/nail:kerberos - If network is enabled, this adds support for GSSAPI login on IMAP through virtual/kerberos.
 mail-client/nail:net - Enable support for network protocols (POP, IMAP and SMTP). If you only need to send mail with the local Transport Agent, disabling this will get you support for only /usr/sbin/sendmail call.
 mail-client/nail:ssl - If network is enabled, this adds support for S/MIME and SSL/TLS-powered protocols through dev-libs/openssl.
-mail-client/novell-groupwise-client:novell-jre - Use the Java Runtime Environment provided by Novell
 mail-client/squirrelmail:filter - Enable mail-filter/amavisd-new filtering
 mail-client/sylpheed:oniguruma - Use dev-libs/oniguruma for regular expression
 mail-client/thunderbird:bindist - Disable official Thunderbird branding (icons, name) which are not binary-redistributable according to upstream.
@@ -3577,8 +3576,10 @@ media-gfx/jpeg2ps:metric - Default to A4 paper size
 media-gfx/k3d:3ds - Enable support for 3D Studio models
 media-gfx/k3d:cuda - Use nvidia cuda toolkit for speeding up computations
 media-gfx/k3d:gts - Add Support for the GNU Triangulated Surface Library sci-libs/gts
+media-gfx/kphotoalbum:face - Enable face detection and recognition using media-libs/libkface
 media-gfx/kphotoalbum:geolocation - Add support for kde-base/marble
 media-gfx/kphotoalbum:kipi - Support for the KDE Image Plugin Interface
+media-gfx/kphotoalbum:map - Enable map display support using media-libs/libkgeomap
 media-gfx/librecad:tools - Build additional tool programs
 media-gfx/nip2:goffice - use x11-libs/goffice to show plots
 media-gfx/nomacs:opencv - Build support for media-libs/opencv
@@ -6485,9 +6486,6 @@ sci-libs/opencascade:tbb - tEnable multithreading with the Intel Threads Buildin
 sci-libs/openfoam:opendx - Install opendx visualisation tool
 sci-libs/openfoam:paraview - Enable support for paraview library
 sci-libs/openfoam:src - Install source files
-sci-libs/openmm:cuda - enable cuda back-end
-sci-libs/openmm:opencl - enable opencl back-end
-sci-libs/openmm:wrappers - build wrappers for Python, C and Fortran
 sci-libs/orocos_kdl:models - Build models for some well known robots.
 sci-libs/pcl:cuda - Adds support for NVIDIA CUDA.
 sci-libs/pcl:openni - Adds support for Kinect-like 3D sensors devices with dev-libs/OpenNI.
@@ -7031,6 +7029,7 @@ sys-devel/binutils-apple:libcxx - Add support for libcxx
 sys-devel/binutils-apple:lto - Add support for Link-Time Optimization with LLVM
 sys-devel/binutils-hppa64:multislot - Allow for multiple versions of binutils to be emerged at once for same CTARGET
 sys-devel/binutils-hppa64:multitarget - Adds support to binutils for cross compiling (does not work with gas)
+sys-devel/byfl:dragonegg - Add support for non C languages through sys-devel/dragonegg
 sys-devel/clang:multitarget - Build all host targets (default: host only)
 sys-devel/clang:static-analyzer - Install the Clang static analyzer
 sys-devel/clang:system-cxx-headers - By default, clang++ searchs for C++ headers in a series of hardcoded paths. Enabling this flag will force it to use the active gcc profile ones

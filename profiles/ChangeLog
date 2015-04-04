@@ -1,10 +1,25 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9900 2015/04/02 21:47:11 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9905 2015/04/03 17:01:58 ottxor Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  03 Apr 2015; Christoph Junghans <ottxor@gentoo.org> package.mask:
+  >= dragonegg-3.6 fails to build (bug #543644)
+
+  03 Apr 2015; Christoph Junghans <ottxor@gentoo.org> package.mask:
+  sci-libs/openmm: removed (bug #536406)
+
+  03 Apr 2015; Mikle Kolyada <zlogene@gentoo.org> package.mask:
+  Mask dev-perl/Apache-AuthTicket for removal
+
+  03 Apr 2015; Yixun Lan <dlan@gentoo.org> arch/amd64/package.use.stable.mask:
+  stable mask USE=zfs on sys-cluster/ceph, for bug 544606
+
+  03 Apr 2015; Hans de Graaff <graaff@gentoo.org> package.mask:
+  Package dev-ruby/gemoji has been removed.
 
   02 Apr 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
   Mask dev-perl/Eidetic and app-admin/rackview for removal
