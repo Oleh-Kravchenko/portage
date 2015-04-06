@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/liborcus/liborcus-9999.ebuild,v 1.14 2015/04/04 23:25:25 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/liborcus/liborcus-9999.ebuild,v 1.15 2015/04/05 19:52:48 dilfridge Exp $
 
 EAPI=5
 
@@ -12,7 +12,7 @@ unset GITECLASS
 
 DESCRIPTION="Standalone file import filter library for spreadsheet documents"
 HOMEPAGE="https://gitlab.com/orcus/orcus/blob/master/README.md"
-[[ ${PV} == 9999 ]] || SRC_URI="http://kohei.us/files/orcus/src/${P}.tar.bz2"
+[[ ${PV} == 9999 ]] || SRC_URI="http://kohei.us/files/orcus/src/${P}.tar.xz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -22,13 +22,11 @@ IUSE="static-libs"
 
 RDEPEND="
 	>=dev-libs/boost-1.51.0:=
-	>=dev-libs/libixion-9999:=
+	>=dev-libs/libixion-0.9:=
 	sys-libs/zlib:=
 "
-# this will depend on libixion-0.9 at some point...
-
 DEPEND="${RDEPEND}
-	>=dev-util/mdds-0.7.1
+	>=dev-util/mdds-0.11
 "
 
 src_prepare() {

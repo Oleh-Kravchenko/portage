@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-eselect/eselect-maven/eselect-maven-0.2-r1.ebuild,v 1.1 2015/03/31 16:50:47 ulm Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-eselect/eselect-maven/eselect-maven-0.2-r1.ebuild,v 1.2 2015/04/05 20:46:14 monsieurp Exp $
 
 EAPI=3
 
@@ -20,7 +20,6 @@ PDEPEND="
 || (
 	dev-java/maven-bin:3.0
 	dev-java/maven-bin:2.2
-	dev-java/maven-bin:2.1
 	dev-java/maven-bin:2.0
 )"
 
