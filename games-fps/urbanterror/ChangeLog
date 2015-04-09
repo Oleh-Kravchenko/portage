@@ -1,6 +1,18 @@
 # ChangeLog for games-fps/urbanterror
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/games-fps/urbanterror/ChangeLog,v 1.54 2015/02/15 01:05:06 anarchy Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-fps/urbanterror/ChangeLog,v 1.57 2015/04/08 13:12:57 ago Exp $
+
+  08 Apr 2015; Agostino Sarubbo <ago@gentoo.org> urbanterror-4.2.023.ebuild:
+  Stable for amd64, wrt bug #545742
+
+  06 Apr 2015; Michael Sterrett <mr_bones_@gentoo.org> metadata.xml,
+  urbanterror-4.2.023.ebuild:
+  tidy metadata.xml
+
+  06 Apr 2015; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/urbanterror-4.2.023-build.patch, files/urbanterror-4.2.018-build.patch,
+  files/urbanterror-4.2.021-build.patch, urbanterror-4.2.023.ebuild:
+  tidy; detangle patch
 
   15 Feb 2015;  <anarchy@gentoo.org> urbanterror-4.2.023.ebuild:
   seed using 4.2.022, missed initial commit update

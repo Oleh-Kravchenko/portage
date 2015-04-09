@@ -1,10 +1,34 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9908 2015/04/05 16:12:24 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9916 2015/04/08 18:19:06 titanofold Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  08 Apr 2015; Aaron W. Swenson <titanofold@gentoo.org> package.mask:
+  pgtune removed from tree, removing mask
+
+  07 Apr 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Mask app-laptop/gkrellm-pmu for removal
+
+  07 Apr 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Mask app-laptop/gtkpbbuttons for removal
+
+  07 Apr 2015; Ulrich Müller <ulm@gentoo.org> package.mask:
+  Remove mask for app-emacs/grep-edit, package removed from tree.
+
+  07 Apr 2015; Pawel Hajdan jr <phajdan.jr@gentoo.org> package.mask:
+  Mask >=media-libs/libvpx-1.4.0 for testing.
+
+  06 Apr 2015; Andreas K. Huettel <dilfridge@gentoo.org> updates/2Q-2015:
+  Move dev-perl/log-dispatch to dev-perl/Log-Dispatch following upstream
+
+  06 Apr 2015; Aaron Bauman <bman@gentoo.org> package.mask:
+  Masked net-misc/gns3 for removal
+
+  06 Apr 2015; Maciej Mrozowski <reavertm@gentoo.org> package.mask:
+  Masked sys-fs/evms for removal
 
   05 Apr 2015; Michał Górny <mgorny@gentoo.org> updates/2Q-2015:
   Move libdbusmenu:3 to :0.

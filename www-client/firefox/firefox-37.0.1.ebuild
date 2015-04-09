@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/firefox/firefox-37.0.1.ebuild,v 1.1 2015/04/05 23:07:55 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/firefox/firefox-37.0.1.ebuild,v 1.6 2015/04/06 22:38:40 axs Exp $
 
 EAPI="5"
 VIRTUALX_REQUIRED="pgo"
@@ -34,7 +34,6 @@ MOZ_FTP_URI="ftp://ftp.mozilla.org/pub/${PN}/releases"
 MOZ_HTTP_URI="http://ftp.mozilla.org/pub/${PN}/releases"
 
 MOZCONFIG_OPTIONAL_WIFI=1
-MOZCONFIG_OPTIONAL_JIT="enabled"
 
 inherit check-reqs flag-o-matic toolchain-funcs eutils gnome2-utils mozconfig-v5.36 multilib pax-utils fdo-mime autotools virtualx mozlinguas
 
@@ -59,7 +58,7 @@ ASM_DEPEND=">=dev-lang/yasm-1.1"
 # Mesa 7.10 needed for WebGL + bugfixes
 RDEPEND="
 	>=dev-libs/nss-3.17.4
-	>=dev-libs/nspr-4.10.7
+	>=dev-libs/nspr-4.10.8
 	selinux? ( sec-policy/selinux-mozilla )"
 
 DEPEND="${RDEPEND}
@@ -148,8 +147,7 @@ src_prepare() {
 	epatch "${WORKDIR}/firefox"
 
 	epatch "${FILESDIR}"/${PN}-35.0-gmp-clearkey-sprintf.patch
-	#epatch "${FILESDIR}"/${PN}-36.0-disable-ion.patch
-	#epatch "${FILESDIR}"/${PN}-36.0-depollute-CONST-from-dtoa.patch
+	epatch "${FILESDIR}"/${PN}-37.0-jemalloc_configure_unbashify.patch
 
 	# Allow user to apply any additional patches without modifing ebuild
 	epatch_user
@@ -224,6 +222,9 @@ src_configure() {
 
 	# Other ff-specific settings
 	mozconfig_annotate '' --with-default-mozilla-five-home=${MOZILLA_FIVE_HOME}
+
+	# force jit
+	mozconfig_annotate '' --enable-ion
 
 	# Allow for a proper pgo build
 	if use pgo; then
@@ -351,11 +352,7 @@ src_install() {
 	fi
 
 	# Required in order to use plugins and even run firefox on hardened.
-	if use jit; then
-		pax-mark m "${ED}"${MOZILLA_FIVE_HOME}/{firefox,firefox-bin,plugin-container}
-	else
-		pax-mark m "${ED}"${MOZILLA_FIVE_HOME}/plugin-container
-	fi
+	pax-mark m "${ED}"${MOZILLA_FIVE_HOME}/{firefox,firefox-bin,plugin-container}
 
 	if use minimal; then
 		rm -r "${ED}"/usr/include "${ED}${MOZILLA_FIVE_HOME}"/{idl,include,lib,sdk} \

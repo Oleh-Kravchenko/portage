@@ -1,6 +1,17 @@
 # ChangeLog for app-misc/ca-certificates
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-misc/ca-certificates/ChangeLog,v 1.113 2015/04/01 08:23:09 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-misc/ca-certificates/ChangeLog,v 1.115 2015/04/08 07:30:31 mgorny Exp $
+
+  08 Apr 2015; Michał Górny <mgorny@gentoo.org>
+  ca-certificates-20140223.3.15.5-r1.ebuild,
+  ca-certificates-20140223.3.16-r1.ebuild,
+  ca-certificates-20140325.3.16.3.ebuild,
+  ca-certificates-20140927.3.17.2.ebuild:
+  Remove old Python implementations
+
+  08 Apr 2015; Mike Frysinger <vapier@gentoo.org>
+  ca-certificates-20140927.3.17.2.ebuild:
+  Mark alpha/arm/arm64/ia64/m68k/s390/sh stable #543976.
 
   01 Apr 2015; Agostino Sarubbo <ago@gentoo.org>
   ca-certificates-20140927.3.17.2.ebuild:

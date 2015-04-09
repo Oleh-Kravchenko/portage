@@ -1,10 +1,10 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/lyx/lyx-2.1.3.ebuild,v 1.2 2015/03/30 16:27:40 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/lyx/lyx-2.1.3.ebuild,v 1.4 2015/04/08 15:18:09 ago Exp $
 
 EAPI=5
 
-PYTHON_COMPAT=( python{2_6,2_7} )
+PYTHON_COMPAT=( python2_7 )
 inherit gnome2-utils eutils fdo-mime flag-o-matic font python-single-r1 toolchain-funcs
 
 MY_P="${P/_}"
@@ -19,7 +19,7 @@ SRC_URI="ftp://ftp.lyx.org/pub/lyx/stable/2.1.x/${MY_P}.tar.xz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x64-macos ~x86-macos"
+KEYWORDS="~alpha amd64 hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x64-macos ~x86-macos"
 IUSE="cups debug nls +latex monolithic-build html rtf dot docbook dia subversion rcs svg gnumeric +hunspell aspell enchant"
 
 LANGS="ar ca cs de da el en es eu fi fr gl he hu ia id it ja nb nn pl pt ro ru sk sr sv tr uk zh_CN zh_TW"
