@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/icecast/icecast-2.4.1.ebuild,v 1.5 2014/12/03 09:56:47 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/icecast/icecast-2.4.1.ebuild,v 1.6 2015/04/09 19:26:10 polynomial-c Exp $
 
 EAPI=5
 inherit eutils autotools systemd user
@@ -25,7 +25,7 @@ DEPEND="dev-libs/libxslt
 	speex? ( media-libs/speex )
 	theora? ( media-libs/libtheora )
 	yp? ( net-misc/curl )
-	ssl? ( dev-libs/openssl )"
+	ssl? ( dev-libs/openssl:0= )"
 RDEPEND="${DEPEND}"
 
 pkg_setup() {
