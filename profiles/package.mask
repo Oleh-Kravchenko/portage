@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16473 2015/04/10 22:26:02 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16478 2015/04/11 20:33:41 dilfridge Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -32,12 +32,13 @@
 
 # Andreas K. Huettel <dilfridge@gentoo.org> (11 Apr 2015)
 # media-libs/lcms:0 has serious security issues, is unmaintained
-# and will be removed in 30 days, see bug 526642
-# With it we remove its last reverse dependencies,
-# media-libs/sk1libs and media-gfx/univonvw, see bug 526838
-media-libs/lcms:0
+# and will be removed soon, see bug 526642
+# Here we remove its last unconditional/unported reverse dependencies,
+# media-libs/sk1libs media-gfx/uniconvw sci-libs/libecwj2
+# (removal in 30 days).
 media-gfx/uniconvw
 media-libs/sk1libs
+sci-libs/libecwj2
 
 # Patrick Lauer <patrick@gentoo.org> (10 Apr 2015)
 # Breaks pretty much all consumers, like samba
@@ -554,12 +555,6 @@ media-gfx/yafray
 media-video/mplayer2
 media-video/smplayer2
 
-# Michael Sterrett <mr_bones_@gentoo.org> (11 Mar 2015)
-# Doesn't build with modern gcc, randomly fails to build (bug #494170)
-# and no upstream updates for over 10 years.
-# masked for removal on 20150410
-games-roguelike/ivan
-
 # Alice Ferrazzi <alicef@gentoo.org> (10 Mar 2015)
 # Masked new version of pypy as experimental.
 # Not to unmask before -bin is ready.
@@ -575,24 +570,6 @@ games-roguelike/ivan
 # Lars Wendler <polynomial-c@gentoo.org> (8 Mar 2015)
 # Masked for testing
 >=net-fs/samba-4.2.0
-
-# Hans de Graaff <graaff@gentoo.org> (8 Mar 2015)
-# Mask various ruby19-only packages for removal.
-#
-# Failing tests with ruby20 due to encoding issues
-dev-ruby/compass:0
-# Old slots that are no longer in use
-dev-ruby/jquery-rails:0
-dev-ruby/simplecov:0
-dev-ruby/simplecov-html:0
-dev-ruby/sprockets:2.1
-# Upstream indicates that this is no longer maintained.
-dev-ruby/right_aws
-# test-spec does not work properly even with ruby19 and has been
-# discontinued upstream. amazon-ec2 depends on this and currently has
-# no maintainer.
-dev-ruby/amazon-ec2
-dev-ruby/test-spec
 
 # Manuel Rüger <mrueg@gentoo.org> (2 Mar 2015)
 # MSNp18 clients are not able to connect anymore
@@ -792,11 +769,6 @@ app-admin/hwreport
 >=media-libs/ilmbase-2.2.0
 >=media-libs/openexr-2.2.0
 >=media-gfx/openexr_viewers-2.2.0
-
-# Sergey Popov <pinkbyte@gentoo.org> (05 Aug 2014)
-# Lacks patch in FILESDIR => fails to build
-# Masked by QA until maintainer will sort things out
-=app-emulation/fuse-1.1.1
 
 # Robin H. Johnson <robbat2@gentoo.org> (04 Aug 2014)
 # Masked for testing, presently fails upstream testsuite:
