@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-visualization/fityk/fityk-1.2.1.ebuild,v 1.4 2015/04/08 18:23:57 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/sci-visualization/fityk/fityk-1.2.1.ebuild,v 1.5 2015/04/12 16:25:37 jlec Exp $
 
 EAPI=5
 
@@ -23,10 +23,10 @@ REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
 CDEPEND="
 	>=sci-libs/xylib-1
-	>=dev-lang/lua-5.1
+	>=dev-lang/lua-5.1:0
 	nlopt? ( sci-libs/nlopt )
 	python? ( ${PYTHON_DEPS} )
-	readline? ( sys-libs/readline )
+	readline? ( sys-libs/readline:0= )
 	wxwidgets? ( >=x11-libs/wxGTK-2.9.2:2.9 )"
 DEPEND="${CDEPEND}
 	dev-libs/boost

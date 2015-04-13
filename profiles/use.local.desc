@@ -4227,6 +4227,7 @@ media-sound/tomahawk:hatchet - Enable support for the synchronisation through Ha
 media-sound/tomahawk:telepathy - Enable support for the real-time communication framework telepathy
 media-sound/traverso:lv2 - Add support for Ladspa V2
 media-sound/umurmur:polarssl - Use net-libs/polarssl instead of dev-libs/openssl
+media-sound/umurmur:shm - Enable shared memory support
 media-sound/vimpc:boost - Use boost instead of C++11 libraries
 media-sound/vorbis-tools:kate - Adds support for Ogg Kate subtitles via libkate.
 media-sound/vorbis-tools:ogg123 - Build ogg123 player, needs libao and curl
@@ -5082,11 +5083,16 @@ net-im/choqok:telepathy - Enable support for the real-time communication framewo
 net-im/climm:otr - Enable encrypted conversations
 net-im/corebird:glade - Install glade catalogs for corebird
 net-im/ejabberd:captcha - Support for CAPTCHA Forms (XEP-158)
+net-im/ejabberd:elixir - Enable Elixir language support (http://elixir-lang.org/)
+net-im/ejabberd:mod_bosh - Enable support for XMPP over BOSH (XEP-0206)
 net-im/ejabberd:mod_irc - Build irc gateway
 net-im/ejabberd:mod_muc - Build Multi User Chat module
 net-im/ejabberd:mod_proxy65 - Support for SOCKS5 Bytestreams (XEP-0065)
 net-im/ejabberd:mod_pubsub - Build Pubsub module
 net-im/ejabberd:mod_statsdx - Measures several statistics, and provides a new section in ejabberd Web Admin to view them.
+net-im/ejabberd:redis - Enable Redis support
+net-im/ejabberd:riak - Enable Riak support
+net-im/ejabberd:tools - Build development tools
 net-im/ejabberd:web - Enable web admin interface
 net-im/ekg2:gadu - Enable Gadu-Gadu protocol support (requires net-libs/libgadu).
 net-im/ekg2:gif - GIF token support for Gadu-Gadu protocol.
@@ -6667,12 +6673,17 @@ sci-physics/root:c++11 - Build ROOT using the C++11 standard
 sci-physics/root:c++14 - Build ROOT using the C++14 standard
 sci-physics/root:clarens - Build the Clarens and PEAC plug-ins, to use in a GRID enabled analysis
 sci-physics/root:fits - Support for images and data from FITS files with sci-libs/cfitsio
+sci-physics/root:gdml - Enable GDML writer and reader
+sci-physics/root:geocad - Enable ROOT-CAD interface using sci-libs/opencascade
 sci-physics/root:htmldoc - Generate html documentation
 sci-physics/root:http - Enable http server support including but not limited to fastcgi support
 sci-physics/root:math - Build all math related libraries plugins, needs sci-libs/gsl
+sci-physics/root:memstat - Build memory statistics library, helps to detect memory leaks
 sci-physics/root:pythia6 - Build the interface for sci-physics/pythia version 6.x
 sci-physics/root:pythia8 - Build the interface for sci-physics/pythia version 8.x
 sci-physics/root:reflex - Build the reflection database for the C++ interpreter
+sci-physics/root:shadow - Enable shadow authentication in rootd and proofd
+sci-physics/root:table - Build libTable contrib library
 sci-physics/root:xrootd - Build the interface for net-libs/xrootd
 sci-visualization/fityk:nlopt - Enable optimization with sci-libs/nlopt
 sci-visualization/gnuplot:bitmap - Enable dot-matrix printers and pbm terminal
@@ -7136,6 +7147,7 @@ sys-fs/cryptsetup:gcrypt - Use dev-libs/libgcrypt crypto backend
 sys-fs/cryptsetup:kernel - Use kernel crypto backend (mainly for embedded systems)
 sys-fs/cryptsetup:nettle - Use dev-libs/nettle crypto backend
 sys-fs/cryptsetup:openssl - Use dev-libs/openssl crypto backend
+sys-fs/cryptsetup:pwquality - Use dev-libs/libpwquality for password quality checking
 sys-fs/cryptsetup:reencrypt - Build cryptsetup-reencrypt
 sys-fs/cryptsetup:urandom - Use /dev/urandom instead of /dev/random
 sys-fs/dmraid:dietlibc - Compile against dev-libs/dietlibc
