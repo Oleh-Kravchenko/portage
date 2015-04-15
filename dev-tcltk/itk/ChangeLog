@@ -1,6 +1,12 @@
 # ChangeLog for dev-tcltk/itk
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-tcltk/itk/ChangeLog,v 1.38 2015/04/07 14:21:42 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-tcltk/itk/ChangeLog,v 1.40 2015/04/14 10:56:29 ago Exp $
+
+  14 Apr 2015; Agostino Sarubbo <ago@gentoo.org> itk-3.4.1.ebuild:
+  Stable for ia64, wrt bug #546412
+
+  14 Apr 2015; Agostino Sarubbo <ago@gentoo.org> itk-3.4.1.ebuild:
+  Stable for amd64, wrt bug #546412
 
 *itk-3.4.1 (12 Mar 2015)
 *itk-4.0.1 (12 Mar 2015)

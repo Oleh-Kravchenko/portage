@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16478 2015/04/11 20:33:41 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16482 2015/04/14 21:55:35 chewi Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,19 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# James Le Cuirot <chewi@gentoo.org> (14 Apr 2015)
+# Not updated beyond Java 6, no longer supported upstream, full of
+# holes, and probably doesn't work. This is the last VM currently
+# available to FreeBSD until we try icedtea but BSD team are cool with
+# this. Removal in 30 days.
+dev-java/diablo-jdk
+dev-java/diablo-jre-bin
+
+# Patrice Clement <monsieurp@gentoo.org> (14 Apr 2014)
+# Upstream seems to be dead. No updates since 12 March 2007.
+# Masked for removal in 30 days. See bug 546506.
+dev-java/openjms
 
 # Andreas K. Huettel <dilfridge@gentoo.org> (11 Apr 2015)
 # media-libs/lcms:0 has serious security issues, is unmaintained
@@ -555,13 +568,6 @@ media-gfx/yafray
 media-video/mplayer2
 media-video/smplayer2
 
-# Alice Ferrazzi <alicef@gentoo.org> (10 Mar 2015)
-# Masked new version of pypy as experimental.
-# Not to unmask before -bin is ready.
-=virtual/pypy-2.5.0
-=dev-python/pypy-2.5.0
-=dev-python/pypy-bin-2.5.0
-
 # Ulrich Müller <ulm@gentoo.org> (9 Mar 2015)
 # Broken multilib dependencies causing blockers, bug 542728.
 # Masked by QA until maintainer will sort this out.
@@ -570,15 +576,6 @@ media-video/smplayer2
 # Lars Wendler <polynomial-c@gentoo.org> (8 Mar 2015)
 # Masked for testing
 >=net-fs/samba-4.2.0
-
-# Manuel Rüger <mrueg@gentoo.org> (2 Mar 2015)
-# MSNp18 clients are not able to connect anymore
-# See also: http://ismsndeadyet.com
-# Masked for removal in 30 days
-net-libs/libmsn
-net-im/pebrot
-net-im/msnlib
-net-im/pymsn-t
 
 # Joerg Bornkessel <hd_brummy@gentoo.org (1 Mar 2015)
 # masked for removal around 1 Apr 2015
