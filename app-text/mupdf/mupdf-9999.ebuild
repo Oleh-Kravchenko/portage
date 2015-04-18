@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-text/mupdf/mupdf-9999.ebuild,v 1.50 2015/02/26 13:53:42 xmw Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-text/mupdf/mupdf-9999.ebuild,v 1.51 2015/04/17 15:37:50 xmw Exp $
 
 EAPI=5
 
@@ -12,7 +12,7 @@ EGIT_REPO_URI="git://git.ghostscript.com/mupdf.git"
 #EGIT_HAS_SUBMODULES=1
 
 LICENSE="AGPL-3"
-MY_SOVER=1.6
+MY_SOVER=1.7
 SLOT="0/${MY_SOVER}"
 KEYWORDS=""
 IUSE="X vanilla curl openssl static static-libs"

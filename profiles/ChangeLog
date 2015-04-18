@@ -1,10 +1,19 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9933 2015/04/16 11:48:16 yngwin Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9936 2015/04/17 19:53:56 pacho Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  17 Apr 2015; Pacho Ramos <pacho@gentoo.org> package.mask:
+  rdiff-backup removal postponed
+
+  17 Apr 2015; Pawel Hajdan jr <phajdan.jr@gentoo.org> package.mask:
+  Roll dev channel mask for chromium-44.
+
+  17 Apr 2015; Pawel Hajdan jr <phajdan.jr@gentoo.org> package.mask:
+  Unmask libvpx-1.4.0.
 
   16 Apr 2015; Ben de Groot <yngwin@gentoo.org> base/make.defaults:
   Remove USE=libav default. See news item 2015-04-16 ffmpeg default.
