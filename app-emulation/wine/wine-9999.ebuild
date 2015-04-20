@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-9999.ebuild,v 1.175 2015/03/22 19:58:44 tetromino Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-9999.ebuild,v 1.176 2015/04/19 03:45:33 tetromino Exp $
 
 EAPI="5"
 
@@ -406,12 +406,14 @@ multilib_src_configure() {
 		$(use_with udisks dbus)
 		$(use_with fontconfig)
 		$(use_with ssl gnutls)
+		$(use_enable gecko mshtml)
 		$(use_with gphoto2 gphoto)
 		$(use_with gsm)
 		$(use_with gstreamer)
 		--without-hal
 		$(use_with jpeg)
 		$(use_with ldap)
+		$(use_enable mono mscoree)
 		$(use_with mp3 mpg123)
 		$(use_with netapi)
 		$(use_with nls gettext)
@@ -524,6 +526,19 @@ pkg_preinst() {
 pkg_postinst() {
 	gnome2_icon_cache_update
 	fdo-mime_desktop_database_update
+
+	if ! use gecko; then
+		ewarn "Without Wine Gecko, wine prefixes will not have a default"
+		ewarn "implementation of iexplore.  Many older windows applications"
+		ewarn "rely upon the existence of an iexplore implementation, so"
+		ewarn "you will likely need to install an external one, like via winetricks"
+	fi
+	if ! use mono; then
+		ewarn "Without Wine Mono, wine prefixes will not have a default"
+		ewarn "implementation of .NET.  Many windows applications rely upon"
+		ewarn "the existence of a .NET implementation, so you will likely need"
+		ewarn "to install an external one, like via winetricks"
+	fi
 }
 
 pkg_postrm() {

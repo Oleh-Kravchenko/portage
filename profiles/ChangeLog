@@ -1,10 +1,45 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9939 2015/04/18 21:08:56 chewi Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9948 2015/04/19 18:14:33 graaff Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  19 Apr 2015; Hans de Graaff <graaff@gentoo.org> package.mask:
+  Mask dev-ruby/json_pure for removal.
+
+  19 Apr 2015;; Ian Delaney <idella4@gentoo.org> package.mask:
+  unmask app-backup/pdumpfs now again in working order wrt bug #509960
+
+  19 Apr 2015; Markos Chandras <hwoarang@gentoo.org> package.mask:
+  Unleash rb_libtorrent-1.0.X to ~testing
+
+  19 Apr 2015; Markos Chandras <hwoarang@gentoo.org> package.mask:
+  Mask media-video/minitube since it's now broken. See #546866
+
+  19 Apr 2015; Ben de Groot <yngwin@gentoo.org>
+  arch/amd64/package.use.stable.mask, arch/x86/package.use.stable.mask,
+  default/linux/powerpc/ppc32/13.0/package.use.stable.mask:
+  Add precision and bug reference (bug #500868) to vlc[opus] stable mask
+
+  19 Apr 2015; Ben de Groot <yngwin@gentoo.org>
+  arch/amd64/package.use.stable.mask, arch/x86/package.use.stable.mask,
+  default/linux/powerpc/ppc32/13.0/package.use.stable.mask:
+  Re-apply stable use mask for opus on vlc (and also chromaprint for ppc32).
+  See bug #530254 and #504826.
+
+  19 Apr 2015; Ben de Groot <yngwin@gentoo.org>
+  arch/amd64/package.use.stable.mask, arch/arm/package.use.stable.mask,
+  arch/x86/package.use.stable.mask,
+  default/linux/powerpc/ppc32/13.0/package.use.stable.mask:
+  Drop stable vlc useflags mask (bug #530254), except slacking alpha
+
+  18 Apr 2015; Alexandre Rostovtsev <tetromino@gentoo.org> package.mask:
+  Old wine ebuilds gone from the tree, mask no longer needed (bug #543336).
+
+  18 Apr 2015; Mike Frysinger <vapier@gentoo.org> arch.list, profiles.desc:
+  Add Nios II (nios2) arch support.
 
   18 Apr 2015; James Le Cuirot <chewi@gentoo.org> package.mask:
   Mask dev-java/classworlds.
@@ -357,7 +392,7 @@
 
   28 Feb 2015; Andrew Savchenko <bircoph@gentoo.org> use.desc:
   Add "seccomp" global USE flag.
-  
+
   28 Feb 2015; Tomáš Chvátal <scarabeus@gentoo.org> package.mask:
   Add dev-libs/libzypp to zypper mask too.
 

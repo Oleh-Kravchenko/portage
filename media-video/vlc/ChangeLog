@@ -1,6 +1,17 @@
 # ChangeLog for media-video/vlc
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/ChangeLog,v 1.946 2015/04/18 07:05:35 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-video/vlc/ChangeLog,v 1.948 2015/04/19 06:30:22 yngwin Exp $
+
+*vlc-2.2.1 (19 Apr 2015)
+
+  19 Apr 2015; Ben de Groot <yngwin@gentoo.org>
+  +files/vlc-2.2.0-rdp-1.2.0.patch, +files/vlc-2.2.0-xcb_vdpau.patch,
+  +vlc-2.2.1.ebuild:
+  version bump (ebuild and patches provided by proxied maintainer in bug
+  #546880)
+
+  19 Apr 2015; Ben de Groot <yngwin@gentoo.org> vlc-2.1.2.ebuild:
+  Drop all keywords except alpha on 2.1.2 (bug #530254)
 
   18 Apr 2015; Ian Delaney <idella4@gentoo.org> +files/vlc-2.2.0-fix-xcb.patch,
   vlc-2.2.0.ebuild:

@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16488 2015/04/18 21:08:56 chewi Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16493 2015/04/19 18:14:33 graaff Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,20 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Hans de Graaff <graaff@gentoo.org> (19 Apr 2015)
+# Pure-ruby implementation of dev-ruby/json for uses where a compiled
+# version is not possible. This implementation is not needed on Gentoo
+# and slower than the compiled version, so all packages should depend
+# on dev-ruby/json instead. Nothing depends on this package.
+# Removal in 30 days.
+dev-ruby/json_pure
+
+# Markos Chandras <hwoarang@gentoo.org> (19 Apr 2015)
+# Old releases are broken due to Google API changes. 2.4
+# has some API support but it is not very user friendly.
+# Head over to #546866 for more information
+media-video/minitube
 
 # James Le Cuirot <chewi@gentoo.org> (18 Apr 2015)
 # Old, unmaintained, not used by anything, and superseded by
@@ -262,7 +276,6 @@ app-emulation/emul-linux-x86-sdl
 app-emulation/emul-linux-x86-soundlibs
 app-emulation/emul-linux-x86-xlibs
 app-emulation/emul-linux-x86-jna
-<app-emulation/wine-1.6.1
 <x11-drivers/ati-drivers-14
 
 # James Le Cuirot <chewi@gentoo.org> (28 Mar 2015)
@@ -531,11 +544,6 @@ www-apache/mod_suphp
 net-misc/openswan
 
 # Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
-# Doesn't with with ruby19, dead upstream (#509960).
-# Removal delayed waiting for proxy-maint.
-app-backup/pdumpfs
-
-# Pacho Ramos <pacho@gentoo.org> (19 Mar 2015)
 # Dead for ages and fails to build (#514648). Removal in a month.
 net-misc/zebedee
 
@@ -552,11 +560,6 @@ sci-misc/gcam
 # Dead and replaced in favor of media-gfx/yafaray (#515956).
 # Removal in a month.
 media-gfx/yafray
-
-# Alexandre Rostovtsev <tetromino@gentoo.org> (15 Mar 2015)
-# Ancient wine ebuilds, don't work with new multilib (bug #543336).
-# Masked for removal in 30 days.
-<app-emulation/wine-1.6.2
 
 # Ben de Groot <yngwin@gentoo.org> (15 Mar 2015)
 # These projects have been abandoned upstream. Most mplayer2 devs have moved
@@ -722,12 +725,6 @@ www-apps/trac-downloads
 # making this the new official release
 # Masked for testing
 >=sys-auth/consolekit-0.9.2
-
-# Markos Chandras <18 Oct 2014>
-# Not quite ready yet. Reverse deps seem to be broken
-# at the moment. Masked until most of them are fixed
-# upstream.
-=net-libs/rb_libtorrent-1*
 
 # Mike Pagano <mpagano@gentoo.org> (16 Oct 2014)
 # A regression in kernels 3.17.0 lead to file system corruption
