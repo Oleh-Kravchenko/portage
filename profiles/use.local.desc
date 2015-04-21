@@ -203,7 +203,6 @@ app-admin/rsyslog:mongodb - Build the MongoDB output module (requires dev-libs/l
 app-admin/rsyslog:mysql - Build the MySQL databse output module (requires virtual/mysql)
 app-admin/rsyslog:normalize - Build the normalize modify module (requires dev-libs/libee and dev-libs/liblognorm)
 app-admin/rsyslog:omudpspoof - Build the udpspoof output module (requires net-libs/libnet)
-app-admin/rsyslog:oracle - Build the Oracle database output module (requires dev-db/oracle-instantclient-basic)
 app-admin/rsyslog:postgres - Build the PostgreSQL database output module (requires dev-db/postgresql-base)
 app-admin/rsyslog:rabbitmq - Build the RabbitMQ output module (requires net-libs/rabbitmq-c)
 app-admin/rsyslog:redis - Build the Redis output module using (requires dev-libs/hiredis)
@@ -759,7 +758,6 @@ app-i18n/libtomoe-gtk:gucharmap - Enable gucharmap dictionary plugin
 app-i18n/mozc:fcitx - Enable support for app-i18n/fcitx
 app-i18n/mozc:ibus - Enable support for app-i18n/ibus
 app-i18n/mozc:renderer - Enable native candidate window.
-app-i18n/mozc:scim - Enable support for app-i18n/scim
 app-i18n/pyzy:boost - Enable support for dev-libs/boost
 app-i18n/pyzy:doc - Enable support for documents
 app-i18n/pyzy:opencc - Use app-i18n/opencc for input
@@ -2577,7 +2575,10 @@ dev-util/google-perftools:minimal - Only build the tcmalloc_minimal library, ign
 dev-util/gtk-doc:highlight - Enable source code highlighting
 dev-util/gtk-doc:vim - Enable source code highlighting through app-editors/vim
 dev-util/intel-ocl-sdk:android - Install android related files
-dev-util/intel-ocl-sdk:bundled_libs - Keep bundled-libs (not recommended)
+dev-util/intel-ocl-sdk:system-boost - Use system boost (dev-libs/boost) instead of bundled one
+dev-util/intel-ocl-sdk:system-clang - Use system clang (sys-devel/clang) instead of bundled one
+dev-util/intel-ocl-sdk:system-qt - Use system Qt (sys-devel-qtcore, sys-devel/qtgui) instead of bundled one
+dev-util/intel-ocl-sdk:system-tbb - Use sytem Thread Building Blocks (dev-cpp/tbb) instead of bundled one
 dev-util/intel-ocl-sdk:tools - Install Intel Offline Compiler
 dev-util/kdevelop:cmake - Enable support for CMake build system
 dev-util/kdevelop:gdbui - Enable GUI for attaching GDB to a running process
@@ -2697,11 +2698,8 @@ dev-vcs/subversion:webdav-serf - Enable WebDAV support using net-libs/serf
 games-action/awesomenauts:bundled-libs - Use the upstream provided bundled libraries.
 games-action/beathazardultra:bundled-libs - Use the upstream provided bundled libraries.
 games-action/chromium-bsu:mixer - Enables media-libs/sdl-mixer sound backend instead of media-libs/openal one.
-games-action/d1x-rebirth:awe32 - Enable AWE32 support
 games-action/d1x-rebirth:demo - Use the demo data instead of the full game
 games-action/d1x-rebirth:linguas_de - Provides German translations for the game's briefings, robot descriptions, and outro of the original campaign
-games-action/d1x-rebirth:mixer - Enable mixer support
-games-action/d1x-rebirth:mpu401 - Enable MPU401 music support
 games-action/d1x-rebirth:music - Support for ingame music
 games-action/d1x-rebirth:opl3-musicpack - Include alternate version of the game's music, recorded with the Yamaha YMF262 OPL3 soundchip
 games-action/d1x-rebirth:sc55-musicpack - Include alternate version of the game's music, recorded with the Roland Sound Canvas SC-55 MIDI module
@@ -4271,7 +4269,9 @@ media-tv/kodi:pvr - Enable MythTV support
 media-tv/kodi:rsxs - Enable really slick X screensavers
 media-tv/kodi:rtmp - Enable Real Time Messaging Protocol using librtmp
 media-tv/kodi:sftp - Support browsing files over SFTP
+media-tv/kodi:spectrum - Enable spectrum visualization plugin
 media-tv/kodi:texturepacker - Support packing skin textures
+media-tv/kodi:waveform - Enable waveform visualization plugin
 media-tv/kodi:webserver - Enable internal webserver
 media-tv/kodi:xrandr - Support X randr extension
 media-tv/linuxtv-dvb-apps:alevt - Build videotext decoder
@@ -4704,11 +4704,8 @@ net-analyzer/icinga-web:pnp - Enables pnp4nagios integration
 net-analyzer/icinga2:classicui - Adds support for the old interface
 net-analyzer/icinga2:nano-syntax - Adds support for syntax used in the nano editor
 net-analyzer/icinga2:plugins - Adds support for nagios plugins
-net-analyzer/linkchecker:bookmarks - Mozilla Bookmark parsing
 net-analyzer/linkchecker:login - login form submission
-net-analyzer/linkchecker:nagios - Install nagios cli plugin
 net-analyzer/linkchecker:sqlite - Mozilla Bookmark parsing
-net-analyzer/linkchecker:syntax-check - HTML/CSS syntax checks
 net-analyzer/metasploit:development - Install dependencies needed for metasploit and exploit development
 net-analyzer/metasploit:lorcon - Enable lorcon for raw packet injection
 net-analyzer/metasploit:oracle - Enable restricted oracle modules which have additional deps
@@ -7150,6 +7147,14 @@ sys-fs/aufs3:kernel-patch - Patch the current kernel for aufs3 support
 sys-fs/aufs3:nfs - Enable support for nfs export
 sys-fs/aufs3:pax_kernel - Apply patch needed for pax enabled kernels
 sys-fs/aufs3:ramfs - Enable initramfs/rootfs support
+sys-fs/aufs4:debug - Enable additional debugging support
+sys-fs/aufs4:fuse - Enable fuse support
+sys-fs/aufs4:hfs - Enable hfs support
+sys-fs/aufs4:inotify - Enable inotify support
+sys-fs/aufs4:kernel-patch - Patch the current kernel for aufs3 support
+sys-fs/aufs4:nfs - Enable support for nfs export
+sys-fs/aufs4:pax_kernel - Apply patch needed for pax enabled kernels
+sys-fs/aufs4:ramfs - Enable initramfs/rootfs support
 sys-fs/btrfs-progs:convert - Build ext2 conversion utility (btrfs-convert)
 sys-fs/btrfs-progs:debug-utils - Build additional utils for debugging
 sys-fs/cryptsetup:gcrypt - Use dev-libs/libgcrypt crypto backend
