@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-news/quiterss/quiterss-9999.ebuild,v 1.22 2015/03/31 19:13:24 maksbotan Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-news/quiterss/quiterss-9999.ebuild,v 1.23 2015/04/21 16:34:29 maksbotan Exp $
 
 EAPI=5
 
@@ -9,13 +9,10 @@ EGIT_REPO_URI="https://github.com/QuiteRSS/quiterss.git"
 inherit eutils l10n fdo-mime gnome2-utils qmake-utils
 [[ ${PV} == *9999* ]] && inherit git-r3
 
-[[ ${PV} == *9999* ]] || \
-MY_P="QuiteRSS-${PV}-src"
-
 DESCRIPTION="A Qt-based RSS/Atom feed reader"
 HOMEPAGE="https://quiterss.org"
 [[ ${PV} == *9999* ]] || \
-SRC_URI="https://quiterss.org/files/${PV}/${MY_P}.tar.bz2"
+SRC_URI="https://github.com/QuiteRSS/quiterss/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -49,9 +46,6 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	virtual/pkgconfig
 "
-
-[[ ${PV} == *9999* ]] || \
-S="${WORKDIR}/${MY_P}"
 
 DOCS=( AUTHORS HISTORY_EN HISTORY_RU README )
 

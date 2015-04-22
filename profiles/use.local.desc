@@ -173,6 +173,7 @@ app-admin/lastpass:firefox - Support for www-client/firefox
 app-admin/lastpass-cli:X - Use x11-misc/xclip or x11-misc/xsel to copy passwords to the clipboard.
 app-admin/lastpass-cli:pinentry - Use app-crypt/pinentry to prompt for passwords.
 app-admin/logrotate:acl - Installs acl support
+app-admin/logrotate:cron - Installs cron file
 app-admin/logrotate:selinux - Installs Security Enhanced Linux support
 app-admin/mate-system-tools:caja - Adds support for the Caja file manager
 app-admin/mate-system-tools:nfs - Adds support for NFS shares
@@ -246,8 +247,9 @@ app-admin/syslog-ng:smtp - Enable support for SMTP destinations
 app-admin/syslog-ng:spoof-source - Enable support for spoofed source addresses
 app-admin/sysstat:cron - Install /etc/cron.d script to periodically run sar
 app-admin/sysstat:isag - Install isag, the Interactive System Activity Graph tool
+app-admin/testdisk:ewf - Include ewf library
 app-admin/testdisk:ntfs - Include the ability to read NTFS filesystems
-app-admin/testdisk:reiserfs - include reiserfs reading ability
+app-admin/testdisk:reiserfs - Include reiserfs reading ability
 app-admin/tripwire:ssl - Adds support for Secure Socket Layer connections
 app-admin/tripwire:static - Builds the package statically
 app-admin/tripwire:tools - Installs app-admin/mktwpol, providing scripts for the installation/setup of tripwire, including generating the tripwire policy file and maintenance of the tripwire database
@@ -2852,7 +2854,6 @@ games-fps/unreal-tournament-goty:S3TC - Add the extra fancy textures to UT ... o
 games-fps/urbanterror:altgamma - Clearskies - X11-based gamma for Linux
 games-fps/urbanterror:pax_kernel - Triggers a paxmarking of the binary
 games-fps/urbanterror:server - Build server target
-games-fps/warsow:angelscript - Enable AngelScript support
 games-fps/warsow:irc - Enable IRC support
 games-fps/warsow:server - Build server binaries additionally
 games-fps/worldofpadman:maps - Install extra maps (PadPack)
@@ -7451,6 +7452,7 @@ www-apps/viewvc:cvsgraph - Add dev-vcs/cvsgraph support to show graphical views 
 www-apps/viewvc:mod_wsgi - Add www-apache/mod_wsgi support
 www-apps/viewvc:pygments - Add dev-python/pygments support for syntax highlighting
 www-apps/webdavcgi:rcs - Adds support for a revision controlled backend with RCS (dev-vcs/rcs)
+www-apps/wordpress:akismet - Installs Akismet comment spam plug-in
 www-client/chromium:bindist - Disable patent-encumbered HTML5 video codecs
 www-client/chromium:hidpi - Enable support for high-resolution screens (high dots per inch)
 www-client/chromium:pic - Disable optimized assembly code that is not PIC friendly
@@ -7483,7 +7485,6 @@ www-client/lynx:gnutls - Use gnutls library for HTTPS support (openssl is the de
 www-client/lynx:ssl - Enable HTTPS support.
 www-client/midori:deprecated - Enable GTK+-2 instead of GTK+-3 because of external plugins like adobe-flash
 www-client/midori:granite - Enable support for the elementary library dev-libs/granite
-www-client/midori:unique - Enable single instance support using dev-libs/libunique
 www-client/midori:webkit2 - Enable WebKit2 API that splits web content rendering and application UI into separate processes
 www-client/midori:zeitgeist - Add support for Zeitgeist event tracking system
 www-client/netsurf:bmp - BMP bitmap image support (media-libs/libnsbmp)
