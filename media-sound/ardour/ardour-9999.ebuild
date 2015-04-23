@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/ardour/ardour-9999.ebuild,v 1.14 2015/01/29 18:52:23 mgorny Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/ardour/ardour-9999.ebuild,v 1.15 2015/04/22 13:42:22 nativemad Exp $
 
 EAPI=5
 
@@ -22,8 +22,8 @@ else
 fi
 
 LICENSE="GPL-2"
-SLOT="3"
-IUSE="altivec debug doc nls lv2 cpu_flags_x86_sse"
+SLOT="4"
+IUSE="altivec doc jack nls lv2 cpu_flags_x86_sse"
 
 RDEPEND="media-libs/aubio
 	media-libs/liblo
@@ -40,7 +40,6 @@ RDEPEND="media-libs/aubio
 	media-libs/flac
 	media-libs/raptor:2
 	>=media-libs/liblrdf-0.4.0-r20
-	>=media-sound/jack-audio-connection-kit-0.120
 	>=gnome-base/libgnomecanvas-2
 	media-libs/vamp-plugin-sdk
 	dev-libs/libxslt
@@ -55,6 +54,7 @@ RDEPEND="media-libs/aubio
 	dev-libs/boost
 	>=media-libs/taglib-1.7
 	net-misc/curl
+	jack? ( >=media-sound/jack-audio-connection-kit-0.120 )
 	lv2? (
 		>=media-libs/slv2-0.6.1
 		media-libs/lilv
@@ -67,6 +67,7 @@ RDEPEND="media-libs/aubio
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}
 	virtual/pkgconfig
+	>=media-sound/jack-audio-connection-kit-0.120
 	nls? ( sys-devel/gettext )
 	doc? ( app-doc/doxygen[dot] )"
 	if ! [ ${PV} = 9999 ]; then
@@ -83,14 +84,11 @@ src_unpack() {
 
 src_prepare(){
 	if ! [ ${PV} = 9999 ]; then
-		PVTEMP=$(echo "${PV}" | sed "s/\./-/2")
-		sed -e '/cmd = "git describe HEAD/,/utf-8/{s:cmd = \"git describe HEAD\":rev = \"'${PVTEMP}-gentoo'\":p;d}' -i "${S}"/wscript
-		sed -e 's/'os.getcwd\(\),\ \'.git'/'os.getcwd\(\),\ \'libs/'' -i "${S}"/wscript
-		sed -e 's/'os.path.exists\(\'.git'/'os.path.exists\(\'wscript/'' -i "${S}"/wscript
+		epatch "${FILESDIR}"/${PN}-4.0-revision-naming.patch
+		touch "${S}/libs/ardour/revision.cc"
 	fi
-	epatch "${FILESDIR}"/${PN}-3.5.7-syslibs.patch
+	$(use lv2 || epatch "${FILESDIR}"/${PN}-4.0-lv2.patch)
 	epatch "${FILESDIR}"/${PN}-3.5.403-sse.patch
-	sed 's/'FLAGS\'\,\ compiler_flags'/'FLAGS\'\,\ \'\''/g' -i "${S}"/wscript
 	append-flags "-lboost_system"
 }
 
@@ -112,13 +110,23 @@ src_configure() {
 	fi
 	tc-export CC CXX
 	mkdir -p "${D}"
+	echo waf-utils_src_configure \
+		--destdir="${D}" \
+		--prefix=/usr \
+		--configdir=/etc \
+		--optimize \
+		$(use lv2 && echo "--lv2" || echo "--no-lv2") \
+		$(use nls && echo "--nls" || echo "--no-nls") \
+		$({ use altivec || use cpu_flags_x86_sse; } && echo "--fpu-optimization" || echo "--no-fpu-optimization") \
+		$(use doc && echo "--docs")
 	waf-utils_src_configure \
 		--destdir="${D}" \
 		--prefix=/usr \
 		--configdir=/etc \
+		--optimize \
+		$(use jack || echo "--no-jack --libjack=weak --no-jack-metadata") \
 		$(use lv2 && echo "--lv2" || echo "--no-lv2") \
 		$(use nls && echo "--nls" || echo "--no-nls") \
-		$(use debug && echo "--stl-debug" || echo "--optimize") \
 		$({ use altivec || use cpu_flags_x86_sse; } && echo "--fpu-optimization" || echo "--no-fpu-optimization") \
 		$(use doc && echo "--docs")
 }
