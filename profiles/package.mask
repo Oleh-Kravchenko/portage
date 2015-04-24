@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16496 2015/04/21 19:00:10 mr_bones_ Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16499 2015/04/23 22:45:10 mr_bones_ Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -48,12 +48,6 @@ games-strategy/freecnc
 # on dev-ruby/json instead. Nothing depends on this package.
 # Removal in 30 days.
 dev-ruby/json_pure
-
-# Markos Chandras <hwoarang@gentoo.org> (19 Apr 2015)
-# Old releases are broken due to Google API changes. 2.4
-# has some API support but it is not very user friendly.
-# Head over to #546866 for more information
-media-video/minitube
 
 # James Le Cuirot <chewi@gentoo.org> (18 Apr 2015)
 # Old, unmaintained, not used by anything, and superseded by
@@ -317,11 +311,6 @@ net-misc/nxsadmin
 net-misc/nxserver-freeedition
 net-misc/nxserver-freenx
 net-misc/qtnx
-
-# Michael Sterrett <mr_bones_@gentoo.org> (24 Mar 2015)
-# no need for the -bin version when we have a source build
-# masked for removal on 20150423
-games-kids/memonix-bin
 
 # Ian Delaney <idella4@gentoo.org> (24 Mar 2015)
 # These packages now superceded by the fork limnoria
@@ -649,10 +638,6 @@ media-plugins/vdr-yaepg
 # complains.
 app-portage/portage-mod_jabber
 
-# Anthony G. Basile <blueness@gentoo.org> (05 Feb 2015)
-# Depends on >=dev-libs/isl-0.14:0/14 currently masked.
->=dev-libs/cloog-0.18.3
-
 # Eray Aslan <eras@gentoo.org> (03 Feb 2015)
 # Mask experimental software
 =mail-mta/postfix-3.1*
@@ -862,10 +847,6 @@ media-sound/decibel-audio-player
 # Vulnerable: IBM Java SE 5.0 SR12-FP5
 # URL:        http://www.securityfocus.com/bid/53959/
 dev-java/ibm-jdk-bin:1.5
-
-# Ryan Hill <rhill@gentoo.org> (22 May 2014)
-# Big API break.  Masked until something needs it.
->=dev-libs/isl-0.13
 
 # Tom Wijsman <TomWij@gentoo.org> (03 May 2014)
 # Needs to be further tested and revised by both Java and Ruby herds.

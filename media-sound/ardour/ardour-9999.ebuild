@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/ardour/ardour-9999.ebuild,v 1.15 2015/04/22 13:42:22 nativemad Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/ardour/ardour-9999.ebuild,v 1.16 2015/04/23 07:15:26 nativemad Exp $
 
 EAPI=5
 
@@ -110,21 +110,13 @@ src_configure() {
 	fi
 	tc-export CC CXX
 	mkdir -p "${D}"
-	echo waf-utils_src_configure \
-		--destdir="${D}" \
-		--prefix=/usr \
-		--configdir=/etc \
-		--optimize \
-		$(use lv2 && echo "--lv2" || echo "--no-lv2") \
-		$(use nls && echo "--nls" || echo "--no-nls") \
-		$({ use altivec || use cpu_flags_x86_sse; } && echo "--fpu-optimization" || echo "--no-fpu-optimization") \
-		$(use doc && echo "--docs")
 	waf-utils_src_configure \
 		--destdir="${D}" \
 		--prefix=/usr \
 		--configdir=/etc \
 		--optimize \
-		$(use jack || echo "--no-jack --libjack=weak --no-jack-metadata") \
+		--no-jack-metadata \
+		$(use jack && echo "--with-backends=alsa,jack" || echo "--with-backends=alsa --no-jack --libjack=weak") \
 		$(use lv2 && echo "--lv2" || echo "--no-lv2") \
 		$(use nls && echo "--nls" || echo "--no-nls") \
 		$({ use altivec || use cpu_flags_x86_sse; } && echo "--fpu-optimization" || echo "--no-fpu-optimization") \
