@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/testdisk/testdisk-7.0-r2.ebuild,v 1.2 2015/04/21 16:27:26 nicolasbock Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/testdisk/testdisk-7.0-r2.ebuild,v 1.3 2015/04/24 15:24:10 nicolasbock Exp $
 
 EAPI=5
 
@@ -43,7 +43,6 @@ DEPEND="
 			)"
 RDEPEND="!static? ( ${DEPEND} )"
 
-PATCHES=( "${FILESDIR}/install-gentoo.patch" )
 DOCS=( )
 AUTOTOOLS_AUTORECONF=1
 BUILD_DIR="${S}"
@@ -61,8 +60,8 @@ src_configure() {
 	use reiserfs || myconf+=" --without-reiserfs"
 	use ntfs || myconf+=" --without-ntfs --without-ntfs3g"
 	use jpeg || myconf+=" --without-jpeg"
-	use qt4 || myconf+=" --disable-qt"
 	use ewf || myconf+=" --without-ewf"
+	myconf+=$(usex qt4 " --enable-qt" " --disable-qt")
 
 	econf \
 		--docdir "${ROOT}/usr/share/doc/${P}" \

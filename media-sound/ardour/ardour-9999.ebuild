@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/ardour/ardour-9999.ebuild,v 1.16 2015/04/23 07:15:26 nativemad Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-sound/ardour/ardour-9999.ebuild,v 1.17 2015/04/24 07:16:52 nativemad Exp $
 
 EAPI=5
 
@@ -89,6 +89,9 @@ src_prepare(){
 	fi
 	$(use lv2 || epatch "${FILESDIR}"/${PN}-4.0-lv2.patch)
 	epatch "${FILESDIR}"/${PN}-3.5.403-sse.patch
+	sed -e 's/'FLAGS\'\,\ compiler_flags'/'FLAGS\'\,\ program_flags'/g' -i "${S}"/wscript
+	sed -e 's/'compiler_flags.append\ \(\'-DPROGRAM_'/'program_flags.append\ \(\'-DPROGRAM_'/g' -i "${S}"/wscript
+	sed -e '/compiler_flags\ \=\ \[\]/a \ \ \ \ program_flags\ \=\ \[\]' -i "${S}"/wscript
 	append-flags "-lboost_system"
 }
 
@@ -128,7 +131,7 @@ src_install() {
 	mv ${PN}.1 ${PN}${SLOT}.1
 	doman ${PN}${SLOT}.1
 	newicon icons/icon/ardour_icon_mac.png ${PN}${SLOT}.png
-	make_desktop_entry ardour3 ardour3 ardour3 AudioVideo
+	make_desktop_entry ardour4 ardour4 ardour4 AudioVideo
 }
 
 pkg_postinst() {
