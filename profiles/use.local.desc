@@ -2417,6 +2417,7 @@ dev-qt/qthelp:exceptions - Add support for exceptions - like catching them insid
 dev-qt/qtmultimedia:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtmultimedia:qml - Build QML/QtQuick bindings and imports
 dev-qt/qtmultimedia:widgets - Build the QtMultimediaWidgets module
+dev-qt/qtnetwork:bindist - Enable EC support via dev-libs/openssl
 dev-qt/qtnetwork:connman - Enable net-misc/connman-based bearer plugin
 dev-qt/qtnetwork:networkmanager - Enable net-misc/networkmanager-based bearer plugin
 dev-qt/qtopengl:egl - Use EGL instead of default GLX to manage OpenGL contexts on the desktop
@@ -5725,6 +5726,13 @@ net-misc/icecast:kate - Add karaoke and text encapsulation support for Ogg files
 net-misc/icecast:logrotate - Install support files for app-admin/logrotate?
 net-misc/icecast:yp - Build support for yp public directory listings
 net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This is generally a very bad idea.
+net-misc/iputils:arping - Build and install arping -- tool for sending ARP requests to peers (see also net-analyzer/arping)
+net-misc/iputils:clockdiff - Build and install clockdiff -- tool for comparing clocks via ICMP packets
+net-misc/iputils:rarpd - Build and install rarpd -- server for handling RARP (reverse ARP) requests; generally only used by old systems
+net-misc/iputils:rdisc - Build and install rdisc -- server for the client side of the ICMP router discover protocol
+net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
+net-misc/iputils:tracepath - Build and install tracepath -- tool for tracing network paths for discovering MTU values
+net-misc/iputils:traceroute - Build and install traceroute -- tool for tracing network paths (see also net-analyzer/traceroute)
 net-misc/knock:server - Installs the knockd server daemon.
 net-misc/lcr:asterisk - net-misc/asterisk channel driver
 net-misc/lcr:gsm-bs - net-wireless/openbsc driver
@@ -7455,6 +7463,7 @@ www-apps/viewvc:mod_wsgi - Add www-apache/mod_wsgi support
 www-apps/viewvc:pygments - Add dev-python/pygments support for syntax highlighting
 www-apps/webdavcgi:rcs - Adds support for a revision controlled backend with RCS (dev-vcs/rcs)
 www-apps/wordpress:akismet - Installs Akismet comment spam plug-in
+www-apps/wordpress:themes - Installs themes (including default theme)
 www-client/chromium:bindist - Disable patent-encumbered HTML5 video codecs
 www-client/chromium:hidpi - Enable support for high-resolution screens (high dots per inch)
 www-client/chromium:pic - Disable optimized assembly code that is not PIC friendly

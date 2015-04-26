@@ -1,9 +1,9 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/simple-rss/simple-rss-1.3.1.ebuild,v 1.6 2015/03/25 20:32:51 graaff Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/simple-rss/simple-rss-1.3.1.ebuild,v 1.7 2015/04/25 09:33:44 graaff Exp $
 
 EAPI=5
-USE_RUBY="ruby19 ruby20 ruby21 ruby22"
+USE_RUBY="ruby19 ruby20"
 
 RUBY_FAKEGEM_TASK_DOC="doc"
 RUBY_FAKEGEM_EXTRADOC="README.markdown"
