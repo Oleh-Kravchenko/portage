@@ -1,8 +1,10 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/testdisk/testdisk-7.0.ebuild,v 1.4 2015/04/20 19:59:01 nicolasbock Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/testdisk/testdisk-7.0.ebuild,v 1.6 2015/04/26 16:47:21 pacho Exp $
 
 EAPI=5
+
+AUTOTOOLS_AUTORECONF=1
 
 inherit autotools-utils eutils flag-o-matic
 
@@ -12,7 +14,7 @@ SRC_URI="http://www.cgsecurity.org/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~ppc x86"
 IUSE="jpeg ntfs reiserfs static"
 
 # WARNING: reiserfs support does NOT work with reiserfsprogs
@@ -38,10 +40,9 @@ DEPEND="
 			)"
 RDEPEND="!static? ( ${DEPEND} )"
 
-PATCHES=( "${FILESDIR}/install-gentoo.patch" )
+AUTOTOOLS_IN_SOURCE_BUILD=1
 DOCS=( )
-AUTOTOOLS_AUTORECONF=1
-BUILD_DIR="${S}"
+PATCHES=( "${FILESDIR}/install-gentoo.patch" )
 
 src_configure() {
 	local myconf
