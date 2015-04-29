@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-9999.ebuild,v 1.96 2015/04/04 19:59:28 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/qemu/qemu-9999.ebuild,v 1.97 2015/04/28 09:20:05 vapier Exp $
 
 EAPI=5
 
@@ -16,7 +16,6 @@ if [[ ${PV} = *9999* ]]; then
 	EGIT_REPO_URI="git://git.qemu.org/qemu.git"
 	inherit git-2
 	SRC_URI=""
-	KEYWORDS=""
 else
 	SRC_URI="http://wiki.qemu-project.org/download/${P}.tar.bz2
 	${BACKPORTS:+
@@ -246,7 +245,6 @@ pkg_pretend() {
 
 pkg_setup() {
 	enewgroup kvm 78
-	python_setup
 }
 
 src_prepare() {
@@ -407,7 +405,7 @@ qemu_src_configure() {
 src_configure() {
 	local target
 
-	python_export_best
+	python_setup
 
 	softmmu_targets= softmmu_bins=()
 	user_targets= user_bins=()
