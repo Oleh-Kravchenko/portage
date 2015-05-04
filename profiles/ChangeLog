@@ -1,10 +1,31 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9970 2015/05/02 16:04:30 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.9976 2015/05/03 23:22:10 zlogene Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  03 May 2015; Mikle Kolyada <zlogene@gentoo.org> package.mask:
+  Drop obsolete perl masks
+
+  03 May 2015; Jauhien Piatlicki <jauhien@gentoo.org> base/package.use.mask:
+  unmask system-llvm USE for dev-lang/rust, bug #546704
+
+  03 May 2015; Andreas K. Huettel <dilfridge@gentoo.org> updates/2Q-2015:
+  Fix capitalization of dev-perl/Class-ReturnValue
+
+  03 May 2015; Hans de Graaff <graaff@gentoo.org> package.mask:
+  Mask dev-ruby/fssm for removal.
+
+  03 May 2015; Ben de Groot <yngwin@gentoo.org> arch/amd64/package.use,
+  +arch/arm/package.use, +arch/powerpc/ppc32/package.use, arch/x86/package.use:
+  Enable luajit on media-video/mpv for OSC by default
+
+  03 May 2015; Ben de Groot <yngwin@gentoo.org> arch/alpha/package.use.mask,
+  arch/arm/package.use.mask, arch/powerpc/ppc64/package.use.mask,
+  arch/sparc/package.use.mask:
+  Mask mpv[rubberband], bug #548446
 
   02 May 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
   Remove obsolete mask of app-laptop/gtkpbbuttons and app-laptop/gkrellm-pmu
