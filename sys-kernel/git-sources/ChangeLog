@@ -1,6 +1,14 @@
 # ChangeLog for sys-kernel/git-sources
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/git-sources/ChangeLog,v 1.1429 2015/04/29 00:09:46 mpagano Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/git-sources/ChangeLog,v 1.1431 2015/05/04 09:44:54 mpagano Exp $
+
+  04 May 2015; Mike Pagano <mpagano@gentoo.org> git-sources-4.1_rc2.ebuild:
+  Remove misleading DEBLOB support variable.
+
+*git-sources-4.1_rc2 (04 May 2015)
+
+  04 May 2015; Agostino Sarubbo <ago@gentoo.org> +git-sources-4.1_rc2.ebuild:
+  Automated version bump to 4.1_rc2
 
   29 Apr 2015; Mike Pagano <mpagano@gentoo.org> git-sources-4.1_rc1.ebuild:
   Add kernel environment variable K_BASE_VER.
