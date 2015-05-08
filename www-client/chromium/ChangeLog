@@ -1,6 +1,19 @@
 # ChangeLog for www-client/chromium
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/chromium/ChangeLog,v 1.1234 2015/05/06 20:01:22 phajdan.jr Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/chromium/ChangeLog,v 1.1238 2015/05/07 22:28:23 floppym Exp $
+
+  07 May 2015; Mike Gilbert <floppym@gentoo.org> chromium-44.0.2391.0.ebuild:
+  Use bundled libsecret headers to avoid buildtime dependency on libsecret. The
+  library is optionally dlopen-ed at runtime. Bug 538224.
+
+  07 May 2015; Agostino Sarubbo <ago@gentoo.org> -chromium-42.0.2311.90.ebuild:
+  Remove old
+
+  07 May 2015; Agostino Sarubbo <ago@gentoo.org> chromium-42.0.2311.135.ebuild:
+  Stable for x86, wrt bug #548108
+
+  07 May 2015; Agostino Sarubbo <ago@gentoo.org> chromium-42.0.2311.135.ebuild:
+  Stable for amd64, wrt bug #548108
 
   06 May 2015; Pawel Hajdan jr <phajdan.jr@gentoo.org>
   chromium-42.0.2311.135.ebuild, chromium-43.0.2357.45.ebuild,
