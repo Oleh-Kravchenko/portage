@@ -1356,7 +1356,8 @@ dev-db/soci:empty - Build the sample backend called Empty
 dev-db/spatialite:geos - Add the sci-libs/geos library for exact topological tests
 dev-db/spatialite:proj - Add the sci-libs/proj library for reprojection features
 dev-db/spatialite:xls - Add the dev-libs/freexl library for xls import support
-dev-db/sqlite:secure-delete - Overwrite deleted information with zeros in addition to marking the space as available for reuse. This causes a performance penalty.
+dev-db/sqlite:secure-delete - Enable overwriting of deleted content with zeros by default (http://sqlite.org/pragma.html#pragma_secure_delete), causing some performance penalty
+dev-db/sqlite:tools - Install additional tools
 dev-db/tokumx:pax_kernel - Apply patch needed for hardened kernels
 dev-db/unixODBC:minimal - Disable bundled drivers and extra libraries (most users don't need these)
 dev-db/unixODBC:odbcmanual - Administrator, Internal Structure, Programmer and User documentation
@@ -2892,7 +2893,6 @@ games-rpg/arx-libertatis:debug - Enable asserts and debug logging.
 games-rpg/arx-libertatis:static - Link libraries statically, currently only media-libs/glew
 games-rpg/arx-libertatis:tools - Build tools that can extract the game's data and save files.
 games-rpg/arx-libertatis:unity-build - Build everything in one big source file, allowing for faster build times and better optimizations at the cost of higher memory usage.
-games-rpg/bastion:bundled-libs - Use the upstream provided bundled libraries.
 games-rpg/daimonin-client:music - Install extra music
 games-rpg/drascula:sound - Install optional audio files
 games-rpg/dreamweb:doc - High-resolution scans of the written material in the original UK game box
@@ -4755,6 +4755,7 @@ net-analyzer/nmap:ncat - Install the ncat utility
 net-analyzer/nmap:ndiff - Install the ndiff utility
 net-analyzer/nmap:nmap-update - Install nmap-update, which uses dev-vcs/subversion to update nmap scripts in your home directory
 net-analyzer/nmap:nping - Install the nping utility
+net-analyzer/nmap:nse - Include support for the Nmap Scripting Engine (NSE)
 net-analyzer/nmap:system-lua - Use dev-lang/lua instead of the bundled liblua
 net-analyzer/nmap:zenmap - Install the GTK+ based nmap GUI, zenmap
 net-analyzer/nrpe:command-args - Build support for specifying the command-line arguments from the Nagios/Icinga master. Make sure you understand the implications of this flag as it can be a security risk.
@@ -7002,10 +7003,12 @@ sys-cluster/neutron:metadata - Installs the initscripts for the neutron metadata
 sys-cluster/neutron:openvswitch - Installs the initscripts for the neutron openvswitch agent service
 sys-cluster/neutron:server - Installs the initscripts for the neutron server service
 sys-cluster/nova:compute - Installs the initscripts for the nova volume service
+sys-cluster/nova:compute-only - only install stuff needed for a compute host
 sys-cluster/nova:kvm - qemu-kvm hypervisor support
 sys-cluster/nova:network - Installs the initscripts for the nova network service
 sys-cluster/nova:novncproxy - Installs the initscripts for the nova novncproxy service
 sys-cluster/nova:openvswitch - Installs openvswitch for the neutron openvswitch support
+sys-cluster/nova:rabbitmq - Installs the rabbitmq server
 sys-cluster/nova:xen - xen hypervisor support
 sys-cluster/ocfs:aio - Add aio support
 sys-cluster/openmpi:cma - Enable the CMA (Cross Memory Attach) MCA
@@ -7751,6 +7754,8 @@ x11-misc/sddm:consolekit - Use ck-launch-session from sys-auth/consolekit by def
 x11-misc/shutter:drawing - Enables drawing tool
 x11-misc/shutter:webphoto - Enables screenshots of websites
 x11-misc/slim:consolekit - Enable native consolekit support
+x11-misc/spacefm:gtk2 - Support GTK+ 2.x instead of GTK+ 3.x
+x11-misc/spacefm:gtk3 - Support GTK+ 3.x instead of GTK+ 2.x
 x11-misc/spacefm:video-thumbnails - Support video thumbnails with ffmpegthumbnailer
 x11-misc/stalonetray:graceful-exit - use non-portable hack to exit gracefuly on signal
 x11-misc/tint2:battery - Enable battery status plugin
