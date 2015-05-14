@@ -1,6 +1,20 @@
 # ChangeLog for games-util/nml
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/games-util/nml/ChangeLog,v 1.30 2015/05/12 07:56:11 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/games-util/nml/ChangeLog,v 1.34 2015/05/13 16:49:32 mr_bones_ Exp $
+
+*nml-0.4.1 (13 May 2015)
+
+  13 May 2015; Michael Sterrett <mr_bones_@gentoo.org> +nml-0.4.1.ebuild:
+  version bump
+
+  13 May 2015; Michael Sterrett <mr_bones_@gentoo.org> nml-0.4.0.ebuild:
+  remove unused mercurial eclass
+
+  13 May 2015; Michael Sterrett <mr_bones_@gentoo.org> -nml-0.3.1.ebuild:
+  old
+
+  13 May 2015; Agostino Sarubbo <ago@gentoo.org> nml-0.4.0.ebuild:
+  Stable for x86, wrt bug #548952
 
   12 May 2015; Agostino Sarubbo <ago@gentoo.org> nml-0.4.0.ebuild:
   Stable for amd64, wrt bug #548952
