@@ -4773,6 +4773,7 @@ net-analyzer/pmacct:ulog - Enable ULOG support
 net-analyzer/rrdcollect:exec - Enable exec:/// support
 net-analyzer/rrdcollect:librrd - Use the librrd library from net-analyzer/rrdtool
 net-analyzer/rrdtool:graph - Enable support for graphing functions
+net-analyzer/rrdtool:rados - Enable support for librados from sys-cluster/ceph
 net-analyzer/rrdtool:rrdcgi - Build rrdcgi support
 net-analyzer/sancp:sguil - Enable sguil (The Analyst Console for Network Security Monitoring) support
 net-analyzer/sarg:gd - Enable support for graphs in reports through media-libs/gd
@@ -4897,7 +4898,9 @@ net-dns/dnsmasq:tftp - Enables built in TFTP server for netbooting.
 net-dns/hash-slinger:ipsec - Enable support for IPSECKEY records (ipseckey)
 net-dns/hash-slinger:openpgp - Enable support for OPENPGPKEY records (openpgpkey)
 net-dns/hash-slinger:ssh - Enable support for SSHFP records (sshfp)
-net-dns/knot:fastparser - Enables fast DNS zone parser.
+net-dns/knot:dnstap - Include support for the dnstap binary log format (http://dnstap.info/).
+net-dns/knot:fastparser - Use a zone file parser that is faster, but requires more memory and CPU time to compile.
+net-dns/knot:lmdb - Use the LMDB database to store timers for slave zones on disk, making the timers persist across server restarts.
 net-dns/ldns-utils:dane - Enable DNS-based Authentication of Named Entities (DANE) support
 net-dns/ldns-utils:ecdsa - Enable ECDSA support
 net-dns/ldns-utils:gost - Enable GOST support
@@ -6997,6 +7000,7 @@ sys-cluster/mpich2:romio - Enable romio, a high-performance portable MPI-IO impl
 sys-cluster/mvapich2:large-cluster - Automatically generated description for large-cluster
 sys-cluster/mvapich2:medium-cluster - Automatically generated description for medium-cluster
 sys-cluster/mvapich2:romio - Automatically generated description for romio
+sys-cluster/neutron:compute-only - Only install things needed on compute hosts
 sys-cluster/neutron:dhcp - Installs the initscripts for the neutron dhcp service
 sys-cluster/neutron:l3 - Installs the initscripts for the neutron l3 agent service
 sys-cluster/neutron:linuxbridge - Installs the initscripts for the neutron linuxbridge agent service
@@ -7005,6 +7009,7 @@ sys-cluster/neutron:openvswitch - Installs the initscripts for the neutron openv
 sys-cluster/neutron:server - Installs the initscripts for the neutron server service
 sys-cluster/nova:compute - Installs the initscripts for the nova volume service
 sys-cluster/nova:compute-only - only install stuff needed for a compute host
+sys-cluster/nova:iscsi - Installs iscsi helper udev scripts
 sys-cluster/nova:kvm - qemu-kvm hypervisor support
 sys-cluster/nova:network - Installs the initscripts for the nova network service
 sys-cluster/nova:novncproxy - Installs the initscripts for the nova novncproxy service

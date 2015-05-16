@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/rrdtool/rrdtool-1.5.3.ebuild,v 1.1 2015/05/09 07:33:26 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/rrdtool/rrdtool-1.5.3.ebuild,v 1.2 2015/05/15 05:47:35 jer Exp $
 
 EAPI="5"
 
@@ -117,6 +117,7 @@ src_configure() {
 		$(use_enable tcl) \
 		$(use_with tcl tcllib "${EPREFIX}"/usr/$(get_libdir)) \
 		--with-perl-options=INSTALLDIRS=vendor \
+		--disable-librados \
 		--disable-ruby-site-install \
 		--disable-ruby \
 		${myconf[@]}

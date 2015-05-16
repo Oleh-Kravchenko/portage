@@ -1,10 +1,10 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-db/sqlite/sqlite-3.8.10.1.ebuild,v 1.3 2015/05/13 07:55:34 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-db/sqlite/sqlite-3.8.10.1.ebuild,v 1.7 2015/05/15 12:11:12 idella4 Exp $
 
 EAPI="5"
 
-inherit autotools eutils flag-o-matic multilib multilib-minimal versionator
+inherit autotools eutils flag-o-matic multilib multilib-minimal toolchain-funcs versionator
 
 SRC_PV="$(printf "%u%02u%02u%02u" $(get_version_components))"
 DOC_PV="${SRC_PV}"
@@ -20,7 +20,7 @@ SRC_URI="doc? ( http://sqlite.org/2015/${PN}-doc-${DOC_PV}.zip )
 
 LICENSE="public-domain"
 SLOT="3"
-KEYWORDS="~alpha amd64 ~arm ~arm64 hppa ~ia64 ~m68k ~mips ~ppc ppc64 ~s390 ~sh ~sparc ~x86 ~ppc-aix ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="~alpha amd64 ~arm ~arm64 hppa ~ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh ~sparc ~x86 ~ppc-aix ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 IUSE="debug doc icu +readline secure-delete static-libs tcl test tools"
 
 RDEPEND="icu? ( dev-libs/icu:0=[${MULTILIB_USEDEP}] )
@@ -36,7 +36,8 @@ DEPEND="${RDEPEND}
 	test? (
 		app-arch/unzip
 		dev-lang/tcl:0[${MULTILIB_USEDEP}]
-	)"
+	)
+	tools? ( dev-lang/tcl:0 )"
 
 amalgamation() {
 	! use tcl && ! use test && ! use tools
@@ -53,6 +54,12 @@ pkg_setup() {
 src_prepare() {
 	if amalgamation; then
 		epatch "${FILESDIR}/${PN}-3.8.1-autoconf-dlopen_check.patch"
+
+		# http://www.sqlite.org/cgi/src/info/85bfa9a67f997084
+		sed \
+			-e "s/^sqlite3_SOURCES = shell.c sqlite3.h$/sqlite3_SOURCES = shell.c sqlite3.c sqlite3.h/" \
+			-e "s/^sqlite3_LDADD = sqlite3.\$(OBJEXT) @READLINE_LIBS@$/sqlite3_LDADD = @READLINE_LIBS@\nsqlite3_CFLAGS = \$(AM_CFLAGS)/" \
+			-i Makefile.am
 	else
 		epatch "${FILESDIR}/${PN}-3.8.1-src-dlopen_check.patch"
 		epatch "${FILESDIR}/${PN}-3.8.1-tests-icu-52.patch"
@@ -67,10 +74,18 @@ src_prepare() {
 	# At least ppc-aix, x86-interix and *-solaris need newer libtool.
 	# use prefix && eautoreconf
 
+	if use icu; then
+		if amalgamation; then
+			sed -e "s/LIBS = @LIBS@/& -licui18n -licuuc/" -i Makefile.in || die "sed failed"
+		else
+			sed -e "s/TLIBS = @LIBS@/& -licui18n -licuuc/" -i Makefile.in || die "sed failed"
+		fi
+	fi
+
 	multilib_copy_sources
 }
 
-multilib_src_configure() {
+src_configure() {
 	# `configure` from amalgamation tarball does not add -DSQLITE_DEBUG or -DNDEBUG flag.
 	if amalgamation; then
 		if use debug; then
@@ -114,34 +129,35 @@ multilib_src_configure() {
 	append-cppflags -DSQLITE_SOUNDEX
 
 	if use icu; then
+		# Support ICU extension.
+		# http://sqlite.org/compile.html#enable_icu
 		append-cppflags -DSQLITE_ENABLE_ICU
-		if amalgamation; then
-			sed -e "s/LIBS = @LIBS@/& -licui18n -licuuc/" -i Makefile.in || die "sed failed"
-		else
-			sed -e "s/TLIBS = @LIBS@/& -licui18n -licuuc/" -i Makefile.in || die "sed failed"
-		fi
 	fi
 
-	# Enable secure_delete pragma.
-	# http://sqlite.org/pragma.html#pragma_secure_delete
 	if use secure-delete; then
+		# Enable secure_delete pragma by default.
+		# http://sqlite.org/pragma.html#pragma_secure_delete
 		append-cppflags -DSQLITE_SECURE_DELETE
-	fi
-
-	# Starting from 3.6.23, SQLite has locking strategies that are specific to
-	# OSX. By default they are enabled, and use semantics that only make sense
-	# on OSX. However, they require gethostuuid() function for that, which is
-	# only available on OSX starting from 10.6 (Snow Leopard). For earlier
-	# versions of OSX we have to disable all this nifty locking options, as
-	# suggested by upstream.
-	if [[ "${CHOST}" == *-darwin[56789] ]]; then
-		append-cppflags -DSQLITE_ENABLE_LOCKING_STYLE="0"
 	fi
 
 	if [[ "${CHOST}" == *-mint* ]]; then
 		append-cppflags -DSQLITE_OMIT_WAL
 	fi
 
+	# Use pread(), pread64(), pwrite(), pwrite64() functions for better performance if they are available.
+	if $(tc-getCC) ${CPPFLAGS} ${CFLAGS} ${LDFLAGS} -Werror=implicit-function-declaration -x c - -o "${T}/pread_pwrite_test" <<< $'#include <unistd.h>\nint main()\n{\n  pread(0, NULL, 0, 0);\n  pwrite(0, NULL, 0, 0);\n  return 0;\n}' &> /dev/null; then
+		append-cppflags -DUSE_PREAD
+	fi
+	if $(tc-getCC) ${CPPFLAGS} ${CFLAGS} ${LDFLAGS} -Werror=implicit-function-declaration -x c - -o "${T}/pread64_pwrite64_test" <<< $'#include <unistd.h>\nint main()\n{\n  pread64(0, NULL, 0, 0);\n  pwrite64(0, NULL, 0, 0);\n  return 0;\n}' &> /dev/null; then
+		append-cppflags -DUSE_PREAD64
+	elif $(tc-getCC) ${CPPFLAGS} ${CFLAGS} ${LDFLAGS} -D_LARGEFILE64_SOURCE -Werror=implicit-function-declaration -x c - -o "${T}/pread64_pwrite64_test" <<< $'#include <unistd.h>\nint main()\n{\n  pread64(0, NULL, 0, 0);\n  pwrite64(0, NULL, 0, 0);\n  return 0;\n}' &> /dev/null; then
+		append-cppflags -DUSE_PREAD64 -D_LARGEFILE64_SOURCE
+	fi
+
+	multilib-minimal_src_configure
+}
+
+multilib_src_configure() {
 	# `configure` from amalgamation tarball does not support
 	# --with-readline-inc and --(enable|disable)-tcl options.
 	econf \
@@ -151,7 +167,7 @@ multilib_src_configure() {
 		$(use_enable static-libs static) \
 		$(amalgamation || echo --with-readline-inc="-I${EPREFIX}/usr/include/readline") \
 		$(amalgamation || use_enable debug) \
-		$(amalgamation || echo --enable-tcl)
+		$(amalgamation || if use tcl || use test; then echo --enable-tcl; else echo --disable-tcl; fi)
 }
 
 multilib_src_compile() {
