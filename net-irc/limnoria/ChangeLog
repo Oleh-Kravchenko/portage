@@ -1,6 +1,14 @@
 # ChangeLog for net-irc/limnoria
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/net-irc/limnoria/ChangeLog,v 1.2 2015/03/30 06:45:21 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-irc/limnoria/ChangeLog,v 1.4 2015/05/18 09:54:46 patrick Exp $
+
+  18 May 2015; Patrick Lauer <patrick@gentoo.org> limnoria-20150429.ebuild:
+  Whitespace
+
+*limnoria-20150429 (18 May 2015)
+
+  18 May 2015; Ian Delaney <idella4@gentoo.org> +limnoria-20150429.ebuild:
+  bump
 
 *limnoria-20150318 (30 Mar 2015)
 
