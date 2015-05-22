@@ -1046,11 +1046,11 @@ app-office/lyx:hunspell - Add support for spellchecking based on hunspell and re
 app-office/lyx:monolithic-build - This should speed up compilation significantly when you have enough RAM (> 600 MB)
 app-office/lyx:rcs - Add support for revision control via dev-vcs/rcs
 app-office/lyx:rtf - Add support for RTF import/export packages
+app-office/scribus:boost - Enable support for Boost based enhancement
 app-office/scribus:graphicsmagick - Add support for media-gfx/graphicsmagick
 app-office/scribus:hunspell - Enable support for spell checking with app-text/hunspell
 app-office/scribus:minimal - Don't install headers (only required for e.g. plug-in developers)
 app-office/scribus:osg - 3D redering via dev-games/openscenegraph
-app-office/scribus:poppler - Native pdf import
 app-office/scribus:scripts - Install the scripts
 app-office/scribus:templates - Document tamplates
 app-office/scribus:tk - Install tk based scripts e.g. FontSample.py
@@ -5081,9 +5081,7 @@ net-im/ekg2:jpeg - JPEG token support for Gadu-Gadu protocol.
 net-im/ekg2:minimal - Disable building extra plugins with no additional deps.
 net-im/ekg2:openssl - Support encryption in sim plugin, using OpenSSL.
 net-im/ekg2:oracle - Support logging messages into Oracle database.
-net-im/ekg2:sqlite - Support logging messages into SQLite2 database. If 'sqlite3' is set too, it will be used instead.
-net-im/ekg2:sqlite2 - Prefer SQLite2 over SQLite3 (if USE=sqlite is set).
-net-im/ekg2:sqlite3 - Support logging messages into SQLite3 database. If 'sqlite' is set too, SQLite3 will be used.
+net-im/ekg2:sqlite - Support logging messages into SQLite3 database.
 net-im/ekg2:ssl - Enable the complete SSL/TLS support through OpenSSL. This also enables the 'sim' plugin which relies on OpenSSL.
 net-im/empathy:geoloc - Enable geolocation support through app-misc/geoclue
 net-im/empathy:gnome-online-accounts - Enable using net-libs/gnome-online-accounts for authorization (e.g. for Google Talk)
@@ -6408,6 +6406,7 @@ sci-libs/acml:int64 - Install the 64 bits integer library
 sci-libs/adolc:sparse - Add support for sparse matrix algebra with sci-libs/colpack
 sci-libs/armadillo:arpack - Link with sci-libs/arpack libraries for eigen decomposition
 sci-libs/armadillo:mkl - Use matrix allocation from the Intel MKL sci-libs/mkl
+sci-libs/armadillo:superlu - Use SuperLU for sparse linear equation solving sci-libs/superlu
 sci-libs/armadillo:tbb - Use matrix allocation from the Threads Building Blocks dev-cpp/tbb
 sci-libs/arprec:qd - Use sci-libs/qd for quad-double datatype
 sci-libs/avogadrolibs:static-plugins - build all plugins statically into main plugin modules
