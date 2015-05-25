@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/libvirt/libvirt-9999.ebuild,v 1.75 2015/05/05 19:03:58 tamiko Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/libvirt/libvirt-9999.ebuild,v 1.77 2015/05/24 21:05:42 tamiko Exp $
 
 EAPI=5
 
@@ -103,7 +103,7 @@ RDEPEND="sys-libs/readline:=
 	xen? ( app-emulation/xen-tools app-emulation/xen )
 	udev? ( virtual/udev >=x11-libs/libpciaccess-0.10.9 )
 	virt-network? ( net-dns/dnsmasq[script]
-		>=net-firewall/iptables-1.4.10
+		>=net-firewall/iptables-1.4.10[ipv6]
 		net-misc/radvd
 		net-firewall/ebtables
 		sys-apps/iproute2[-minimal]
@@ -407,7 +407,7 @@ src_install() {
 
 	newinitd "${S}/libvirtd.init" libvirtd || die
 	newconfd "${FILESDIR}/libvirtd.confd-r4" libvirtd || die
-	newinitd "${FILESDIR}/virtlockd.init" virtlockd || die
+	newinitd "${FILESDIR}/virtlockd.init-r1" virtlockd || die
 
 	readme.gentoo_create_doc
 }

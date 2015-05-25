@@ -150,6 +150,7 @@ app-admin/conky:thinkpad - enable support for IBM/Lenovo notebooks
 app-admin/conky:weather-metar - enable support for metar weather service
 app-admin/conky:weather-xoap - enable support for metar and xoap weather service
 app-admin/conky:xmms2 - enable monitoring of music played by media-sound/xmms2
+app-admin/consul:web - Build the web UI.
 app-admin/diamond:mongo - Enable MongoDB support
 app-admin/diamond:redis - Enable Redis support
 app-admin/diradm:automount - Support for automount data in LDAP
@@ -2457,6 +2458,10 @@ dev-ruby/barby:rmagick - Add support for writing images (among others PNG, GIF a
 dev-ruby/facter:dmi - Use sys-apps/dmidecode to determine hardware system properties
 dev-ruby/facter:pciutils - Use sys-apps/pciutils to determine hardware system properties
 dev-ruby/facter:virt - Use app-emulation/virt-what for virtual machine detection
+dev-ruby/faraday_middleware:mashify - Include FaradayMiddleware::Mashify
+dev-ruby/faraday_middleware:oauth - Include FaradayMiddleware::OAuth
+dev-ruby/faraday_middleware:parsexml - Include FaradayMiddleware::ParseXml
+dev-ruby/faraday_middleware:rashify - Include FaradayMiddleware::Rashify
 dev-ruby/maruku:highlight - Enable source code highlighting via dev-ruby/syntax
 dev-ruby/rails:asset-pipeline - Also install the default components for the asset pipeline. These are not required but they are activated automatically in new Rails projects by default.
 dev-ruby/rrdtool-bindings:graph - Enable support for graphing functions
@@ -3774,7 +3779,6 @@ media-libs/mesa:openvg - Enable the OpenVG 2D acceleration API for Gallium3D.
 media-libs/mesa:osmesa - Build the Mesa library for off-screen rendering.
 media-libs/mesa:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 media-libs/mesa:pic - disable optimized assembly code that is not PIC friendly
-media-libs/mesa:r600-llvm-compiler - Build the LLVM based r600 shader compiler.
 media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3D Video Layer.
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
@@ -5383,6 +5387,9 @@ net-libs/loudmouth:asyncns - Use libasyncns for asynchronous name resolution.
 net-libs/neon:libproxy - Add support for net-libs/libproxy
 net-libs/neon:pkcs11 - Add support for PKCS#11 using dev-libs/pakchois
 net-libs/netembryo:sctp - Support for Stream Control Transmission Protocol
+net-libs/nghttp2:hpack-tools - Install HPACK (header compression) helper tools
+net-libs/nghttp2:jemalloc - Use dev-libs/jemalloc for memory allocation
+net-libs/nghttp2:utils - Install nghttp, nghttpd and nghttpx
 net-libs/nodejs:npm - Enable NPM package manager
 net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
 net-libs/opal:capi - Enable CAPI support
@@ -5649,6 +5656,7 @@ net-misc/connman:tools - Enable testing tools.
 net-misc/connman:vpnc - Use net-misc/vpnc for cisco VPN support.
 net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/csync:sftp - Enable sftp transfer support via net-libs/libssh
+net-misc/curl:http2 - Enabled HTTP/2.0 support
 net-misc/curl:metalink - Enable metalink support
 net-misc/curl:rtmp - Enable RTMP Streaming Media support
 net-misc/curl:ssh - Enabled SSH urls in curl using libssh2
@@ -6762,6 +6770,7 @@ sys-apps/iotools:make-symlinks - Generate sub-command symlinks to iotools -- not
 sys-apps/ipmitool:openipmi - Use the system OpenIPMI implementation.
 sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
 sys-apps/iproute2:iptables - include support for iptables filtering
+sys-apps/iproute2:minimal - only install ip and tc programs
 sys-apps/irqbalance:numa - Support balancing IRQs across NUMA nodes
 sys-apps/kexec-tools:booke - Include support for Book-E memory management
 sys-apps/kexec-tools:lzma - Enables support for LZMA compressed kernel images
@@ -7120,7 +7129,6 @@ sys-freebsd/freebsd-sbin:netware - Build libraries and tools to work with NetWar
 sys-freebsd/freebsd-sbin:pf - Build tools to administer the PF firewall.
 sys-freebsd/freebsd-share:isdn - Enable ISDN support
 sys-freebsd/freebsd-share:zfs - Enable ZFS support.
-sys-freebsd/freebsd-sources:build-generic - Build and install a generic kernel (recommended).
 sys-freebsd/freebsd-sources:build-kernel - Build and install a kernel (recommended).
 sys-freebsd/freebsd-sources:dtrace - Enable DTrace support.
 sys-freebsd/freebsd-sources:zfs - Enable ZFS support.

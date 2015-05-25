@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-text/poppler/poppler-9999.ebuild,v 1.6 2015/05/18 11:31:55 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-text/poppler/poppler-9999.ebuild,v 1.7 2015/05/24 18:45:23 dilfridge Exp $
 
 EAPI=5
 
@@ -36,7 +36,7 @@ COMMON_DEPEND="
 	)
 	curl? ( net-misc/curl )
 	jpeg? ( virtual/jpeg:0 )
-	jpeg2k? ( media-libs/openjpeg:0 )
+	jpeg2k? ( media-libs/openjpeg:2 )
 	lcms? ( media-libs/lcms:2 )
 	png? ( media-libs/libpng:0= )
 	qt4? (
@@ -63,6 +63,7 @@ PATCHES=(
 	"${FILESDIR}/${PN}-0.26.0-qt5-dependencies.patch"
 	"${FILESDIR}/${PN}-0.28.1-fix-multilib-configuration.patch"
 	"${FILESDIR}/${PN}-0.28.1-respect-cflags.patch"
+	"${FILESDIR}/${PN}-0.33.0-openjpeg2.patch"
 )
 
 src_configure() {
@@ -86,7 +87,7 @@ src_configure() {
 		$(cmake-utils_use_with tiff)
 	)
 	if use jpeg2k; then
-		mycmakeargs+=(-DENABLE_LIBOPENJPEG=openjpeg1)
+		mycmakeargs+=(-DENABLE_LIBOPENJPEG=openjpeg2)
 	else
 		mycmakeargs+=(-DENABLE_LIBOPENJPEG=)
 	fi

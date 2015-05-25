@@ -1,6 +1,20 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1618 2015/05/21 01:37:25 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1621 2015/05/24 22:44:37 chewi Exp $
+
+  24 May 2015; James Le Cuirot <chewi@gentoo.org> java-utils-2.eclass:
+  The depend-java-query wrapper is raising readonly variable warnings for USE
+  in Portage 2.2.20. As best I can tell, this wrapper just isn't needed any
+  more because USE is already exported. I guess it wasn't back in 2006?
+
+  24 May 2015; James Le Cuirot <chewi@gentoo.org> java-pkg-simple.eclass:
+  Remove annoying java-pkg-simple build script check. Most people only use
+  java-pkg-simple as a last resort and a usable Maven eclass is still some way
+  off.
+
+  24 May 2015; Michał Górny <mgorny@gentoo.org> freebsd.eclass:
+  Support fetching upstream patches,
+  https://github.com/gentoo/gentoo-portage-rsync-mirror/pull/121 by nigoro.
 
   21 May 2015; Mike Gilbert <floppym@gentoo.org> chromium.eclass:
   Add kernel Check for USER_NS, bug 545078.
