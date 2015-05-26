@@ -1,9 +1,9 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/ruby-sdl/ruby-sdl-2.1.2-r1.ebuild,v 1.1 2014/06/04 05:19:42 graaff Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/ruby-sdl/ruby-sdl-2.1.2-r1.ebuild,v 1.2 2015/05/25 05:41:33 graaff Exp $
 
 EAPI=5
-USE_RUBY="ruby19 ruby20 ruby21"
+USE_RUBY="ruby19 ruby20"
 
 inherit eutils ruby-ng
 
