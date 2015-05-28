@@ -1,6 +1,13 @@
 # ChangeLog for dev-libs/libxml2
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/libxml2/ChangeLog,v 1.453 2015/05/15 09:57:11 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libxml2/ChangeLog,v 1.455 2015/05/27 13:39:25 tetromino Exp $
+
+  27 May 2015; Alexandre Rostovtsev <tetromino@gentoo.org>
+  -libxml2-2.9.2.ebuild:
+  Clean up vulnerable versions.
+
+  27 May 2015; Mikle Kolyada <zlogene@gentoo.org> libxml2-2.9.2-r1.ebuild:
+  arm stable wrt bug #546720
 
   15 May 2015; Mike Frysinger <vapier@gentoo.org>
   +files/libxml2-2.9.2-cross-compile.patch, libxml2-2.9.2-r1.ebuild:

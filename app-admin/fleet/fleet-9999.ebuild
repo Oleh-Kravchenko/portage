@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/fleet/fleet-9999.ebuild,v 1.6 2015/05/02 15:56:46 alunduil Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/fleet/fleet-9999.ebuild,v 1.7 2015/05/27 05:19:21 zmedico Exp $
 
 EAPI=5
 
@@ -15,16 +15,16 @@ SRC_URI=""
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS=""
-IUSE="doc examples"
+IUSE="doc examples test"
 
-DEPEND=">=dev-lang/go-1.3"
+DEPEND=">=dev-lang/go-1.3
+	test? ( dev-go/go-tools )"
 RDEPEND=""
 
 src_compile() {
 	./build || die 'Build failed'
 }
 
-RESTRICT="test"  # Tests fail due to Gentoo bug #500452
 src_test() {
 	./test || die 'Tests failed'
 }

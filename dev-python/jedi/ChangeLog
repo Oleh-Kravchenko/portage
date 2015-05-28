@@ -1,6 +1,15 @@
 # ChangeLog for dev-python/jedi
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/jedi/ChangeLog,v 1.19 2015/05/21 13:27:58 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/jedi/ChangeLog,v 1.22 2015/05/27 17:31:09 jlec Exp $
+
+  27 May 2015; Justin Lecher <jlec@gentoo.org> -jedi-0.8.1-r2.ebuild:
+  Drop old
+
+  27 May 2015; Manuel Rüger <mrueg@gentoo.org> -jedi-0.8.1.ebuild:
+  Remove old.
+
+  27 May 2015; Agostino Sarubbo <ago@gentoo.org> jedi-0.8.1-r2.ebuild:
+  Stable for x86, wrt bug #541614
 
   21 May 2015; Agostino Sarubbo <ago@gentoo.org> jedi-0.8.1-r2.ebuild:
   Stable for amd64, wrt bug #541614
