@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/scribus/scribus-9999.ebuild,v 1.15 2015/05/21 12:12:02 jlec Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/scribus/scribus-9999.ebuild,v 1.16 2015/05/29 09:37:12 jlec Exp $
 
 EAPI=5
 
@@ -130,7 +130,7 @@ src_configure() {
 		$(cmake-utils_use_with pdf PODOFO)
 		$(cmake-utils_use_with boost)
 		$(cmake-utils_use_want graphicsmagick)
-		$(cmake-utils_use_want osg)
+		$(cmake-utils_use !osg WANT_NOOSG)
 		$(cmake-utils_use_want debug DEBUG)
 		$(cmake-utils_use_want minimal NOHEADERINSTALL)
 		$(cmake-utils_use_want hunspell HUNSPELL)
