@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/eudev/eudev-9999.ebuild,v 1.67 2015/05/20 16:47:04 blueness Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-fs/eudev/eudev-9999.ebuild,v 1.68 2015/05/30 13:53:27 blueness Exp $
 
 EAPI="5"
 
@@ -127,6 +127,8 @@ multilib_src_configure() {
 		--with-rootlibexecdir=/lib/udev
 		--with-html-dir="/usr/share/doc/${PF}/html"
 		--enable-split-usr
+		--enable-manpages
+		--disable-hwdb
 		--exec-prefix=/
 
 		$(use_enable gudev)
@@ -191,9 +193,6 @@ multilib_src_test() {
 multilib_src_install_all() {
 	prune_libtool_files --all
 	rm -rf "${ED}"/usr/share/doc/${PF}/LICENSE.*
-
-	# drop distributed hwdb files, they override sys-apps/hwids
-	rm -f "${ED}"/etc/udev/hwdb.d/*.hwdb
 
 	insinto /lib/udev/rules.d
 	doins "${FILESDIR}"/40-gentoo.rules
