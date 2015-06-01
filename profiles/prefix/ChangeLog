@@ -1,6 +1,18 @@
 # ChangeLog for profiles/prefix
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/prefix/ChangeLog,v 1.455 2015/05/29 09:14:35 haubi Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/prefix/ChangeLog,v 1.458 2015/05/31 10:36:10 grobian Exp $
+
+  31 May 2015; Fabian Groffen <grobian@gentoo.org> package.mask:
+  Mask pkgconfig-0.28-r3 since it depends on automake, which causes a dep-cycle
+  during bootstrap, bug #550856
+
+  31 May 2015; Fabian Groffen <grobian@gentoo.org>
+  darwin/macos/10.10/profile.bashrc, darwin/macos/package.use.force,
+  darwin/macos/packages:
+  From now on, Mac OS X/Darwin is built with Clang
+
+  31 May 2015; Fabian Groffen <grobian@gentoo.org> darwin/package.mask:
+  Mask llvm/clang >=3.6 on Darwin due to compile issues
 
   29 May 2015; Michael Haubenwallner <haubi@gentoo.org>
   windows/cygwin/make.defaults, windows/interix/make.defaults,
