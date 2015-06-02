@@ -529,25 +529,6 @@ app-emulation/docker:overlay - Enables dependencies for the "overlay" graph driv
 app-emulation/dosemu:fluidsynth - use media-sound/fluidsynth for MIDI emulation
 app-emulation/e-uae:capslib - Add CAPS library support
 app-emulation/e-uae:sdl-sound - Use media-libs/sdl-sound for audio output
-app-emulation/emul-linux-x86-baselibs:development - Install pkgconfig files
-app-emulation/emul-linux-x86-baselibs:kerberos - Pull in virtual/krb5 if using USE=abi_x86_32. Disabling it is unsupported, use on your own responsibility. Irrelevant when using USE=-abi_x86_32.
-app-emulation/emul-linux-x86-baselibs:ldap - Pull in net-nds/openldap if using USE=abi_x86_32. Disabling it is unsupported, use on your own responsibility. Irrelevant when using USE=-abi_x86_32.
-app-emulation/emul-linux-x86-baselibs:pam - Pull in virtual/pam if using USE=abi_x86_32. Disabling it is unsupported, use on your own responsibility. Irrelevant when using USE=-abi_x86_32.
-app-emulation/emul-linux-x86-cpplibs:development - Install pkgconfig files
-app-emulation/emul-linux-x86-db:development - Install pkgconfig files
-app-emulation/emul-linux-x86-gstplugins:development - Install pkgconfig files
-app-emulation/emul-linux-x86-gtklibs:development - Install pkgconfig files
-app-emulation/emul-linux-x86-gtkmmlibs:development - Install pkgconfig files
-app-emulation/emul-linux-x86-jna:development - Install pkgconfig files
-app-emulation/emul-linux-x86-medialibs:development - Install pkgconfig files
-app-emulation/emul-linux-x86-motif:development - Install pkgconfig files
-app-emulation/emul-linux-x86-opengl:development - Install pkgconfig files
-app-emulation/emul-linux-x86-qtlibs:development - Install pkgconfig files
-app-emulation/emul-linux-x86-qtlibs:gtkstyle - Build a Qt style called GTK+ that mimics the active GTK+ theme
-app-emulation/emul-linux-x86-sdl:development - Install pkgconfig files
-app-emulation/emul-linux-x86-soundlibs:development - Install pkgconfig files
-app-emulation/emul-linux-x86-soundlibs:pulseaudio - Pull in media-sound/pulseaudio if using USE=abi_x86_32. Disabling it is unsupported, use on your own responsibility. Irrelevant when using USE=-abi_x86_32.
-app-emulation/emul-linux-x86-xlibs:development - Install pkgconfig files
 app-emulation/free42:alsa - Adds support for Advanced Linux Sound Architecture
 app-emulation/fuse-utils:gcrypt - Use dev-libs/libgcrypt for low-level crypto of some features, including logfiles.
 app-emulation/ganeti:drbd - Enable DRBD support
@@ -1534,6 +1515,8 @@ dev-haskell/persistent-sqlite:systemlib - Use the system-wide sqlite library.
 dev-haskell/quickcheck:template_haskell - Enable additional test modules requiring Template Haskell support.
 dev-haskell/recaptcha:network-uri - Get Network.URI from the network-uri package.
 dev-haskell/reflection:th - Enable template haskell.
+dev-haskell/regex-compat-tdfa:newbase - Use base-4.0 or newer.
+dev-haskell/regex-compat-tdfa:splitbase - Use the new smaller, split-up base package.
 dev-haskell/rfc5051:mkunicodedata - build codes generator itself
 dev-haskell/scientific:bytestring-builder - Provide the Data.ByteString.Builder.Scientific module (requires bytestring >= 0.10).
 dev-haskell/semigroupoids:comonad - You can disable the use of the `comonad` package using `-f-comonad`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users. If disabled we will not supply instances of `Comonad`
@@ -7613,6 +7596,7 @@ www-plugins/gnash:ssh - Enable using SSH for network authentication in libnet
 www-plugins/gnash:ssl - Enable directly using OpenSSL in libnet (not needed for nsplugin ssl support)
 www-plugins/lightspark:gles - Replace default OpenGL renderer with GLESv2
 www-plugins/lightspark:rtmp - Enable Real Time Messaging Protocol using librtmp
+www-servers/apache:alpn - Enable support for Application-Layer Protocol Negotiation (ALPN) in TLS. Needed by HTTP/2.0.
 www-servers/apache:apache2_modules_access_compat - Group authorizations based on host (name or IP address). Available as a compatibility module with previous versions.
 www-servers/apache:apache2_modules_authn_core - Provides core authentication capabilities common to all authentication providers (functionality provided by authn_alias in previous versions).
 www-servers/apache:apache2_modules_authz_core - Provides core authorization capabilities to various authorization/authorization modules, such as authn_file and authz_user.
@@ -7696,7 +7680,6 @@ x11-base/xorg-server:xephyr - Build the Xephyr server
 x11-base/xorg-server:xnest - Build the Xnest server
 x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
 x11-base/xorg-server:xvfb - Build the Xvfb server
-x11-drivers/ati-drivers:disable-watermark - Do a potentially dangerous binary search and replace to disable watermark
 x11-drivers/ati-drivers:gdm-hack - Do a potentially dangerous binary search and replace to fix gdm compatibility
 x11-drivers/ati-drivers:modules - Build the kernel modules
 x11-drivers/ati-drivers:pax_kernel - Enable pax kernel specific patches

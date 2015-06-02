@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-apache/mod_h2/mod_h2-9999.ebuild,v 1.1 2015/05/24 13:55:51 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-apache/mod_h2/mod_h2-9999.ebuild,v 1.2 2015/06/01 06:08:55 vapier Exp $
 
 EAPI="5"
 
@@ -21,7 +21,8 @@ LICENSE="Apache-2.0"
 SLOT="0"
 IUSE="ssl"
 
-RDEPEND="=net-libs/nghttp2-0.7*"
+RDEPEND="=net-libs/nghttp2-0.7*
+	ssl? ( www-servers/apache[alpn] )"
 DEPEND="${RDEPEND}"
 
 need_apache2_4
