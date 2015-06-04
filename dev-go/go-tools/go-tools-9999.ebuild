@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-go/go-tools/go-tools-9999.ebuild,v 1.5 2015/05/28 07:11:30 zmedico Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-go/go-tools/go-tools-9999.ebuild,v 1.6 2015/06/03 07:05:58 zmedico Exp $
 
 EAPI=5
 inherit git-r3
@@ -11,6 +11,7 @@ MY_PN=${PN##*-}
 GO_PN=golang.org/x/${MY_PN}
 HOMEPAGE="https://godoc.org/${GO_PN}"
 EGIT_REPO_URI="https://go.googlesource.com/${MY_PN}"
+SRC_URI="http://golang.org/favicon.ico -> go-favicon.ico"
 LICENSE="BSD"
 SLOT="0"
 IUSE=""
@@ -20,6 +21,11 @@ RDEPEND=""
 S="${WORKDIR}/src/${GO_PN}"
 EGIT_CHECKOUT_DIR="${S}"
 STRIP_MASK="*.a"
+
+src_unpack() {
+	git-r3_src_unpack
+	cp "${DISTDIR}"/go-favicon.ico "${S}"/godoc/static/favicon.ico || die
+}
 
 src_prepare() {
 	# disable broken tests
@@ -41,6 +47,11 @@ src_prepare() {
 		-e 's:TestStdKen(:_\0:' -i go/types/stdlib_test.go || die
 	sed -e 's:TestRepoRootForImportPath(:_\0:' -i go/vcs/vcs_test.go || die
 	sed -e 's:TestStdlib(:_\0:' -i refactor/lexical/lexical_test.go || die
+
+	# Add favicon to the godoc web interface (bug 551030)
+	sed -e 's:"example.html",:\0\n\t"favicon.ico",:' -i godoc/static/makestatic.go || die
+	sed -e 's:<link type="text/css":<link rel="icon" type="image/png" href="/lib/godoc/favicon.ico">\n\0:' -i \
+		godoc/static/godoc.html || die
 }
 
 src_compile() {
@@ -49,6 +60,12 @@ src_compile() {
 	cp -sR "${EPREFIX}"/usr/lib/go "${GOROOT}" || die
 	rm -rf "${GOROOT}/src/${GO_PN}" \
 		"${GOROOT}/pkg/linux_${ARCH}/${GO_PN}" || die
+
+	# Generate static.go with favicon included
+	pushd godoc/static >/dev/null
+	GOROOT="${GOROOT}" GOPATH=${WORKDIR} go run makestatic.go || die
+	popd >/dev/null
+
 	GOROOT="${GOROOT}" GOPATH=${WORKDIR} go install -v -x -work ${GO_PN}/... || die
 }
 
