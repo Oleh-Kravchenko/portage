@@ -1,10 +1,96 @@
 # ChangeLog for profile directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.10032 2015/06/02 18:30:37 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/ChangeLog,v 1.10060 2015/06/04 22:17:18 dilfridge Exp $
 #
 # This ChangeLog should include records for all changes in profiles directory.
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add ExtUtils::Install to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add ExtUtils::Command to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add ExtUtils::CBuilder to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add Exporter to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add Digest::SHA to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add Digest::MD5 to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add Devel::PPPort to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add Data::Dumper to Perl 5.22 mask
+
+  04 Jun 2015; Michał Górny <mgorny@gentoo.org> package.mask:
+  Extend the PyPy 2.6.0 mask to the binary package and virtual.
+
+  04 Jun 2015; Michael Palimaka <kensington@gentoo.org> updates/2Q-2015:
+  Remove package included by accident.
+
+  04 Jun 2015; Michael Palimaka <kensington@gentoo.org>
+  arch/nios2/package.use.mask, targets/desktop/kde/package.use,
+  targets/desktop/plasma/package.use:
+  Move various kde-base packages to kde-apps.
+
+  04 Jun 2015; Michael Palimaka <kensington@gentoo.org> updates/2Q-2015:
+  Move various kde-base packages to kde-apps.
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add DB_File to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add Compress::Raw::Zlib to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add Compress::Raw::Bzip2 to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add Carp to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add CPAN::Meta::Requirements to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add CPAN::Meta to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add CPAN to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add B::Debug to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Add Attribute::Handlers to Perl 5.22 mask
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Start with Perl version bump, mask work in progress
+
+  04 Jun 2015; Michał Górny <mgorny@gentoo.org> package.mask:
+  Mask new PyPy for testing & binpkg build.
+
+  04 Jun 2015; Andreas K. Huettel <dilfridge@gentoo.org> package.mask:
+  Mask Perl 5.20.1 for removal.
+
+  04 Jun 2015; Michael Palimaka <kensington@gentoo.org> categories:
+  Introduce new kde-apps category.
+
+  04 Jun 2015; Hans de Graaff <graaff@gentoo.org> package.mask:
+  Remove masked for removed ruby packages.
+
+  04 Jun 2015; Jeroen Roovers <jer@gentoo.org> thirdpartymirrors:
+  Remove two more sourceforge.net mirrors.
+
+  04 Jun 2015; Jeroen Roovers <jer@gentoo.org> thirdpartymirrors:
+  Remove ignum.dl.sourceforge.net.
 
   02 Jun 2015; Pacho Ramos <pacho@gentoo.org> arch/arm/package.use.stable.mask,
   arch/powerpc/package.use.stable.mask:

@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/allegro/allegro-5.0.8-r1.ebuild,v 1.9 2015/06/01 22:40:31 mr_bones_ Exp $
+# $Header: /var/cvsroot/gentoo-x86/media-libs/allegro/allegro-5.0.8-r1.ebuild,v 1.10 2015/06/04 17:49:34 mr_bones_ Exp $
 
 EAPI=5
 inherit cmake-multilib
@@ -70,7 +70,7 @@ src_configure() {
 src_install() {
 	cmake-multilib_src_install
 
-	nonfatal dodoc CHANGES-5.0.txt
-	nonfatal dohtml -r docs/html/refman/*
-	nonfatal doman docs/man/*.3
+	dodoc CHANGES-5.0.txt
+	dohtml -r docs/html/refman/*
+	doman docs/man/*.3
 }
