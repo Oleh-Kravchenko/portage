@@ -1,6 +1,26 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1644 2015/06/08 12:27:32 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1650 2015/06/09 22:00:44 xmw Exp $
+
+  09 Jun 2015; Michael Weber <xmw@gentoo.org> netsurf.eclass:
+  Update for buildsystem-1.3
+
+  09 Jun 2015; Davide Pesavento <pesa@gentoo.org> qt4-build-multilib.eclass:
+  Rename some internal functions for consistency.
+
+  09 Jun 2015; Davide Pesavento <pesa@gentoo.org> qt4-build-multilib.eclass,
+  qt5-build.eclass:
+  More accurate LICENSE.
+
+  09 Jun 2015; Davide Pesavento <pesa@gentoo.org> qt5-build.eclass:
+  Delete redundant echo.
+
+  09 Jun 2015; Davide Pesavento <pesa@gentoo.org> qt4-build-multilib.eclass:
+  Remove two seds that are no longer needed on current Qt versions.
+
+  09 Jun 2015; Gilles Dartiguelongue <eva@gentoo.org> gnome2.eclass,
+  vala.eclass:
+  Add support for newer vala slot.
 
   08 Jun 2015; Manuel Rüger <mrueg@gentoo.org> kde5-functions.eclass:
   Sync with kde overlay. Raise minimal Plasma version and minimal KDE

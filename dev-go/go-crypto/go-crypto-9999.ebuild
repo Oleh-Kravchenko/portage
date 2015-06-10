@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-go/go-crypto/go-crypto-9999.ebuild,v 1.4 2015/05/24 08:37:29 zmedico Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-go/go-crypto/go-crypto-9999.ebuild,v 1.5 2015/06/09 03:22:30 zmedico Exp $
 
 EAPI=5
 inherit git-r3
@@ -49,5 +49,6 @@ src_test() {
 src_install() {
 	insinto /usr/lib/go
 	find "${WORKDIR}"/{pkg,src} -name '.git*' -exec rm -rf {} \; 2>/dev/null
+	insopts -m0644 -p # preserve timestamps for bug 551486
 	doins -r "${WORKDIR}"/{pkg,src}
 }
