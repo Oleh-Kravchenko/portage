@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-apache/mod_h2/mod_h2-9999.ebuild,v 1.2 2015/06/01 06:08:55 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-apache/mod_h2/mod_h2-9999.ebuild,v 1.3 2015/06/10 11:30:27 vapier Exp $
 
 EAPI="5"
 
@@ -24,6 +24,16 @@ IUSE="ssl"
 RDEPEND="=net-libs/nghttp2-0.7*
 	ssl? ( www-servers/apache[alpn] )"
 DEPEND="${RDEPEND}"
+
+# The mpm_prefork module doesn't work right.  See upstream docs.
+# The threads logic is to handle the default eclass behavior which selects a
+# default mpm via the USE=threads flag.
+RDEPEND+="
+	|| (
+		www-servers/apache[apache2_mpms_worker]
+		www-servers/apache[apache2_mpms_event]
+		www-servers/apache[threads,-apache2_mpms_prefork,-apache2_mpms_peruser]
+	)"
 
 need_apache2_4
 
