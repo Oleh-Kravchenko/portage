@@ -1,6 +1,5 @@
-diff -ur cacti-spine-0.8.8b-orig/configure.ac cacti-spine-0.8.8b/configure.ac
---- cacti-spine-0.8.8b-orig/configure.ac	2013-08-27 01:45:32.400120526 +0000
-+++ cacti-spine-0.8.8b/configure.ac	2013-08-27 01:45:42.350084943 +0000
+--- a/configure.ac
++++ b/configure.ac
 @@ -10,7 +10,7 @@
  AC_LANG(C)
  
