@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-devel/llvm/llvm-9999.ebuild,v 1.113 2015/06/11 17:05:20 voyageur Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/llvm/llvm-9999.ebuild,v 1.116 2015/06/13 20:51:45 mgorny Exp $
 
 EAPI=5
 
@@ -193,7 +193,7 @@ multilib_src_configure() {
 		targets=all
 	else
 		targets='host;CppBackend'
-		use video_cards_radeon && targets+=';R600'
+		use video_cards_radeon && targets+=';AMDGPU'
 	fi
 
 	local ffi_cflags ffi_ldflags
@@ -243,9 +243,8 @@ multilib_src_configure() {
 
 	if multilib_is_native_abi; then
 		mycmakeargs+=(
-			$(cmake-utils_use doc LLVM_BUILD_DOCS)
-			$(cmake-utils_use doc LLVM_ENABLE_SPHINX)
-			$(cmake-utils_use doc SPHINX_OUTPUT_HTML)
+			-DLLVM_BUILD_DOCS=$(usex doc)
+			-DLLVM_ENABLE_SPHINX=$(usex doc)
 			-DLLVM_ENABLE_DOXYGEN=OFF
 			-DLLVM_INSTALL_HTML="${EPREFIX}/usr/share/doc/${PF}/html"
 		)
@@ -398,24 +397,25 @@ multilib_src_install() {
 }
 
 multilib_src_install_all() {
-	pushd utils/vim >/dev/null || die
-	for dir in */; do
-		insinto /usr/share/vim/vimfiles/${dir}
-		doins ${dir}/*.vim
-	done
-	popd >/dev/null || die
+	insinto /usr/share/vim/vimfiles
+	doins -r utils/vim/*/
+	# some users may find it useful
+	dodoc utils/vim/vimrc
 
 	if use clang; then
 		pushd tools/clang >/dev/null || die
 
 		if use static-analyzer ; then
-			dobin tools/scan-build/ccc-analyzer
-			dosym ccc-analyzer /usr/bin/c++-analyzer
-			dobin tools/scan-build/scan-build
+			pushd tools/scan-build >/dev/null || die
 
-			insinto /usr/share/${PN}
-			doins tools/scan-build/scanview.css
-			doins tools/scan-build/sorttable.js
+			dobin ccc-analyzer scan-build
+			dosym ccc-analyzer /usr/bin/c++-analyzer
+			doman scan-build.1
+
+			insinto /usr/share/llvm
+			doins scanview.css sorttable.js
+
+			popd >/dev/null || die
 		fi
 
 		python_inst() {
@@ -426,7 +426,7 @@ multilib_src_install_all() {
 
 				touch __init__.py || die
 				python_moduleinto clang
-				python_domodule __init__.py Reporter.py Resources ScanView.py startfile.py
+				python_domodule *.py Resources
 
 				popd >/dev/null || die
 			fi
@@ -435,7 +435,7 @@ multilib_src_install_all() {
 				pushd bindings/python/clang >/dev/null || die
 
 				python_moduleinto clang
-				python_domodule __init__.py cindex.py enumerations.py
+				python_domodule *.py
 
 				popd >/dev/null || die
 			fi
