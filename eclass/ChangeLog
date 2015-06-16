@@ -1,6 +1,15 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1662 2015/06/13 22:57:59 pesa Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1665 2015/06/15 21:09:06 chewi Exp $
+
+  15 Jun 2015; James Le Cuirot <chewi@gentoo.org> java-utils-2.eclass:
+  Add java-pkg_addres function for adding resource files to an existing jar.
+
+  15 Jun 2015; Justin Lecher <jlec@gentoo.org> intel-sdp.eclass:
+  Don't install uninstall informations, bug 551638; make use of path_exists()
+
+  15 Jun 2015; Michael Palimaka <kensington@gentoo.org> kde4-base.eclass:
+  Fix SRC_URI for 4.14.3
 
   13 Jun 2015; Davide Pesavento <pesa@gentoo.org> qt4-build-multilib.eclass:
   Export MAKEFLAGS and OBJDUMP.

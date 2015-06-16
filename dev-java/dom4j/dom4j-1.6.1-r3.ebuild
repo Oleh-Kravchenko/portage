@@ -1,8 +1,8 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/dom4j/dom4j-1.6.1-r3.ebuild,v 1.15 2014/03/09 01:31:15 tomwij Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-java/dom4j/dom4j-1.6.1-r3.ebuild,v 1.17 2015/06/15 16:53:53 monsieurp Exp $
 
-EAPI=1
+EAPI=5
 JAVA_PKG_IUSE="doc source test"
 
 inherit java-pkg-2 java-ant-2
