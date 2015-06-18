@@ -1,6 +1,25 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1669 2015/06/16 21:40:51 williamh Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1673 2015/06/17 20:11:28 grknight Exp $
+
+  17 Jun 2015; <grknight@gentoo.org> depend.php.eclass:
+  Add require_php_cli to the list of deprecated functions to be removed
+
+  17 Jun 2015; <grknight@gentoo.org> php-common-r1.eclass,
+  php-ext-base-r1.eclass, php-ezc.eclass:
+  Mark 3 eclasses as deprecated for removal on 2015-07-17 wrt bug 551910
+
+  17 Jun 2015; <grknight@gentoo.org> depend.php.eclass
+  Deprecate unused functions in depend.php.eclass
+
+  17 Jun 2015; Davide Pesavento <pesa@gentoo.org> qt5-build.eclass:
+  Update from qt overlay: allow configuring debug/release on a per-package
+  basis; add instruction set support (similarly to qt4-build-multilib); use
+  usex().
+
+  17 Jun 2015; James Le Cuirot <chewi@gentoo.org> java-pkg-2.eclass:
+  Remove eclass dependency on python[xml] and replace with some ugly grep that
+  should suffice. Closes #552332.
 
   16 Jun 2015; William Hubbs <williamh@gentoo.org> +golang-vcs.eclass:
   Add golang-vcs.eclass to retrieve go packages from vcs repositories
