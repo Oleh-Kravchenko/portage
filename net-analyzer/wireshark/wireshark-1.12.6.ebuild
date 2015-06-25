@@ -1,9 +1,9 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-analyzer/wireshark/wireshark-1.12.6.ebuild,v 1.5 2015/06/21 06:16:25 zlogene Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/wireshark/wireshark-1.12.6.ebuild,v 1.7 2015/06/24 08:02:54 ago Exp $
 
 EAPI=5
-inherit autotools eutils fcaps multilib qmake-utils qt4-r2 user
+inherit autotools eutils fcaps flag-o-matic multilib qmake-utils qt4-r2 user
 
 DESCRIPTION="A network protocol analyzer formerly known as ethereal"
 HOMEPAGE="http://www.wireshark.org/"
@@ -11,7 +11,7 @@ SRC_URI="${HOMEPAGE}download/src/all-versions/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0/${PV}"
-KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~ppc ppc64 ~sparc x86 ~x86-fbsd"
+KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ppc ppc64 ~sparc x86 ~x86-fbsd"
 IUSE="
 	adns +caps crypt doc doc-pdf geoip +gtk3 ipv6 kerberos lua +netlink +pcap
 	portaudio +qt4 qt5 sbc selinux smi ssl zlib
@@ -127,7 +127,11 @@ src_configure() {
 	fi
 
 	use qt4 && export QT_MIN_VERSION=4.6.0
-	use qt5 && export QT_MIN_VERSION=5.3.0
+
+	if use qt5; then
+		export QT_MIN_VERSION=5.3.0
+		append-cxxflags -fPIC -DPIC
+	fi
 
 	# Hack around inability to disable doxygen/fop doc generation
 	use doc || export ac_cv_prog_HAVE_DOXYGEN=false
