@@ -1,6 +1,37 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1686 2015/06/26 22:32:49 mpagano Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1693 2015/06/28 13:33:48 chewi Exp $
+
+  28 Jun 2015; James Le Cuirot <chewi@gentoo.org> java-utils-2.eclass:
+  The -source flag was added in 1.3 or 1.4 (not sure) and we have special code
+  to handle this but no one in their right mind would build with 1.2 or 1.3
+  now. Removing this code allows the ecj-gcj ebuild to call java-pkg_javac-args
+  without a proper VM present.
+
+  28 Jun 2015; Johannes Huber <johu@gentoo.org> kde5.eclass:
+  Loop optimization as suggested by Michal Górny <mgorny@gentoo.org> on -dev
+  ml.
+
+  27 Jun 2015; Johannes Huber <johu@gentoo.org> kde5-functions.eclass,
+  kde5.eclass:
+  Sync kde5*eclass with kde overlay. Handle more whitespace variations by
+  Michael Palimaka <kensington@gentoo.org>. Fixes translation handling by
+  Michael Palimaka <kensington@gentoo.org> and Andreas Sturmlechner
+  <andreas.sturmlechner@gmail.com>, bug #552664. Raises deps on KDE Frameworks
+  and KDE Plasma Manuel Rüger <mrueg@gentoo.org>.
+
+  27 Jun 2015; Mike Pagano <mpagano@gentoo.org> kernel-2.eclass:
+  Fix conditional bug for UNIPATCH_DROP
+
+  27 Jun 2015; Mike Pagano <mpagano@gentoo.org> kernel-2.eclass:
+  Fix for kdbus. Thanks to Arfrever.
+
+  27 Jun 2015; Mike Pagano <mpagano@gentoo.org> kernel-2.eclass:
+  Add the kdbus use flag and eclass variable to the kernel-2.eclass for
+  optional kdbus inclusion.
+
+  27 Jun 2015; Mike Pagano <mpagano@gentoo.org> kernel-2.eclass:
+  Reverting kdbus changes in eclass. Caused invalid iuse for other ebuilds.
 
   26 Jun 2015; Mike Pagano <mpagano@gentoo.org> kernel-2.eclass:
   Add the option to include the kdbus patchset into gentoo-sources. Default is
