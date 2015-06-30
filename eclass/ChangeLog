@@ -1,6 +1,12 @@
 # ChangeLog for eclass directory
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1693 2015/06/28 13:33:48 chewi Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/ChangeLog,v 1.1695 2015/06/29 11:01:31 mrueg Exp $
+
+  29 Jun 2015; Manuel Rüger <mrueg@gentoo.org> ruby-ng.eclass:
+  Quote RUBY_S and sub_S as the directory could contain spaces.
+
+  29 Jun 2015; Davide Pesavento <pesa@gentoo.org> qmake-utils.eclass:
+  Introduce qt{4,5}_get_plugindir(). Rephrase some eclass doc.
 
   28 Jun 2015; James Le Cuirot <chewi@gentoo.org> java-utils-2.eclass:
   The -source flag was added in 1.3 or 1.4 (not sure) and we have special code
