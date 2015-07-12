@@ -1,6 +1,32 @@
 # ChangeLog for dev-libs/openssl
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/openssl/ChangeLog,v 1.672 2015/07/09 18:12:37 zlogene Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/openssl/ChangeLog,v 1.680 2015/07/10 12:55:35 ago Exp $
+
+  10 Jul 2015; Agostino Sarubbo <ago@gentoo.org> openssl-1.0.1p.ebuild:
+  Stable for sparc, wrt bug #554172
+
+  10 Jul 2015; Agostino Sarubbo <ago@gentoo.org> openssl-1.0.1p.ebuild:
+  Stable for ppc, wrt bug #554172
+
+  10 Jul 2015; Agostino Sarubbo <ago@gentoo.org> openssl-1.0.1p.ebuild:
+  Stable for ia64, wrt bug #554172
+
+  10 Jul 2015; Tobias Klausmann <klausman@gentoo.org> openssl-1.0.1p.ebuild:
+  Stable on alpha, bug 554172
+
+  10 Jul 2015; Mike Frysinger <vapier@gentoo.org> openssl-1.0.1p.ebuild:
+  Mark arm64/m68k/s390/sh stable #554172.
+
+  10 Jul 2015; Jeroen Roovers <jer@gentoo.org> openssl-1.0.1p.ebuild:
+  Stable for HPPA (bug #554172).
+
+  10 Jul 2015; Jeroen Roovers <jer@gentoo.org> openssl-1.0.1p.ebuild:
+  Stable for PPC64 (bug #554172).
+
+  10 Jul 2015; Mike Frysinger <vapier@gentoo.org>
+  +files/openssl-1.0.1p-default-source.patch, openssl-1.0.1p.ebuild,
+  openssl-1.0.2d.ebuild:
+  Use _DEFAULT_SOURCE with newer glibc versions #554338 by Agostino Sarubbo.
 
   09 Jul 2015; Mikle Kolyada <zlogene@gentoo.org> openssl-1.0.1p.ebuild:
   arm stable wrt bug #554172

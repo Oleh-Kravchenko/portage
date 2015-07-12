@@ -1,6 +1,21 @@
 # ChangeLog for sys-apps/systemd
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/ChangeLog,v 1.382 2015/07/09 02:19:52 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/ChangeLog,v 1.386 2015/07/11 16:39:36 floppym Exp $
+
+  11 Jul 2015; Mike Gilbert <floppym@gentoo.org> systemd-9999.ebuild:
+  Call default src_unpack function in the live ebuild.
+
+  10 Jul 2015; Mike Gilbert <floppym@gentoo.org> systemd-222.ebuild,
+  systemd-9999.ebuild:
+  Add workaround for build failure with gcc-4.7, bug 554454 by Alexander Tsoy.
+
+  10 Jul 2015; Mike Gilbert <floppym@gentoo.org> systemd-222.ebuild,
+  systemd-9999.ebuild:
+  Always pass --without-python to configure, bug 554448.
+
+  10 Jul 2015; Mike Gilbert <floppym@gentoo.org> systemd-222.ebuild,
+  systemd-9999.ebuild:
+  Eliminate unifont dependency by fetching a copy in SRC_URI.
 
 *systemd-222 (09 Jul 2015)
 
