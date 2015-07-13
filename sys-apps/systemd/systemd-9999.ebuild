@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-9999.ebuild,v 1.179 2015/07/11 16:39:36 floppym Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd/systemd-9999.ebuild,v 1.180 2015/07/12 20:14:20 floppym Exp $
 
 EAPI=5
 
@@ -35,8 +35,8 @@ REQUIRED_USE="importd? ( curl gcrypt lzma )"
 
 MINKV="3.8"
 
-COMMON_DEPEND=">=sys-apps/util-linux-2.26:0=
-	sys-libs/libcap:0=
+COMMON_DEPEND=">=sys-apps/util-linux-2.26:0=[${MULTILIB_USEDEP}]
+	sys-libs/libcap:0=[${MULTILIB_USEDEP}]
 	!<sys-libs/glibc-2.16
 	acl? ( sys-apps/acl:0= )
 	apparmor? ( sys-libs/libapparmor:0= )
@@ -254,15 +254,6 @@ multilib_src_configure() {
 
 		--with-ntp-servers="0.gentoo.pool.ntp.org 1.gentoo.pool.ntp.org 2.gentoo.pool.ntp.org 3.gentoo.pool.ntp.org"
 	)
-
-	if ! multilib_is_native_abi; then
-		myeconfargs+=(
-			MOUNT_{CFLAGS,LIBS}=' '
-
-			ac_cv_search_cap_init=
-			ac_cv_header_sys_capability_h=yes
-		)
-	fi
 
 	# Work around bug 463846.
 	tc-export CC
