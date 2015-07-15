@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/libva-intel-driver/libva-intel-driver-1.6.0.ebuild,v 1.1 2015/07/06 14:39:19 aballier Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/libva-intel-driver/libva-intel-driver-1.6.0.ebuild,v 1.3 2015/07/14 09:21:17 aballier Exp $
 
 EAPI=5
 
@@ -32,7 +32,7 @@ else
 fi
 IUSE="+drm wayland X"
 
-RDEPEND=">=x11-libs/libva-1.4[X?,wayland?,drm?,${MULTILIB_USEDEP}]
+RDEPEND=">=x11-libs/libva-1.6[X?,wayland?,drm?,${MULTILIB_USEDEP}]
 	!<x11-libs/libva-1.0.15[video_cards_intel]
 	>=x11-libs/libdrm-2.4.46[video_cards_intel,${MULTILIB_USEDEP}]
 	wayland? ( >=media-libs/mesa-9.1.6[egl,${MULTILIB_USEDEP}] >=dev-libs/wayland-1.0.6[${MULTILIB_USEDEP}] )"
@@ -43,7 +43,7 @@ DEPEND="${RDEPEND}
 PATCHES=(
 	# Fix automagic depend, bug #529388
 	# https://bugs.freedesktop.org/show_bug.cgi?id=79478
-	"${FILESDIR}"/${PN}-1.5.1-wayland-automagic.patch
+	"${FILESDIR}"/${PN}-1.6.0-wayland-automagic.patch
 )
 
 DOCS=( AUTHORS NEWS README )
