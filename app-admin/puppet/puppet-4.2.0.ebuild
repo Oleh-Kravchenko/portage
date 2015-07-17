@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-admin/puppet/puppet-4.2.0.ebuild,v 1.1 2015/07/11 19:00:03 prometheanfire Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-admin/puppet/puppet-4.2.0.ebuild,v 1.3 2015/07/16 05:47:32 prometheanfire Exp $
 
 EAPI="5"
 
@@ -17,7 +17,7 @@ SRC_URI="http://downloads.puppetlabs.com/puppet/${P}.tar.gz"
 LICENSE="Apache-2.0 GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc ~x86"
-IUSE="augeas diff doc emacs ldap rrdtool selinux shadow sqlite vim-syntax xemacs"
+IUSE="augeas diff doc emacs ldap puppetdb rrdtool selinux shadow sqlite vim-syntax xemacs"
 
 ruby_add_rdepend "
 	dev-ruby/hiera
@@ -27,6 +27,7 @@ ruby_add_rdepend "
 	diff? ( dev-ruby/diff-lcs )
 	doc? ( dev-ruby/rdoc )
 	ldap? ( dev-ruby/ruby-ldap )
+	puppetdb? ( dev-ruby/puppetdb-termini )
 	shadow? ( dev-ruby/ruby-shadow )
 	sqlite? ( dev-ruby/sqlite3 )
 	virtual/ruby-ssl"
@@ -80,6 +81,7 @@ all_ruby_compile() {
 
 each_ruby_install() {
 	each_fakegem_install
+	dosym "/usr/$(get_libdir)/ruby/gems/$(ruby_get_version)/gems/${P}" "/usr/$(get_libdir)/ruby/gems/$(ruby_get_version)/gems/${PN}"
 }
 
 all_ruby_install() {
@@ -88,7 +90,6 @@ all_ruby_install() {
 	# systemd stuffs
 	insinto /usr/lib/systemd/system
 	doins "${WORKDIR}/all/${P}/ext/systemd/puppet.service"
-	doins "${WORKDIR}/all/${P}/ext/systemd/puppetmaster.service"
 
 	# tmpfiles stuff
 	insinto /usr/lib/tmpfiles.d

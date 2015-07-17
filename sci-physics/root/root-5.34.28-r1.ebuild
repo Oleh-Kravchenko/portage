@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-physics/root/root-5.34.28-r1.ebuild,v 1.1 2015/04/12 22:24:42 bircoph Exp $
+# $Header: /var/cvsroot/gentoo-x86/sci-physics/root/root-5.34.28-r1.ebuild,v 1.3 2015/07/16 22:16:37 bircoph Exp $
 
 EAPI=5
 
@@ -86,7 +86,7 @@ CDEPEND="
 	oracle? ( dev-db/oracle-instantclient-basic:0= )
 	postgres? ( dev-db/postgresql:= )
 	pythia6? ( sci-physics/pythia:6= )
-	pythia8? ( >=sci-physics/pythia-8.1.80:8= )
+	pythia8? ( >=sci-physics/pythia-8.1.80:8= <sci-physics/pythia-8.2.0:8= )
 	python? ( ${PYTHON_DEPS} )
 	ruby? (
 		dev-lang/ruby:=
@@ -114,7 +114,7 @@ S="${WORKDIR}/${PN}"
 DOC_DIR="/usr/share/doc/${P}"
 
 die_compiler() {
-	eerror "You are using a $(tc-getCXX) without C++$1 capabilities"
+	eerror "You are using a $(tc-getCXX)-$5 without C++$1 capabilities"
 	die "Need one of the following C++$1 capable compilers:\n"\
 		"    >=sys-devel/gcc[cxx]-$2\n"\
 		"    >=sys-devel/clang-$3\n"\
@@ -127,21 +127,24 @@ die_compiler() {
 # $3 - clang++
 # $4 - icc/icpc
 check_compiler() {
+	local ver
 	case "$(tc-getCXX)" in
 		*clang++*)
-			version_is_at_least "$3" "$(has_version sys-devel/clang)" || die_compiler "$1" "$2" "$3" "$4"
+			ver="$(best_version sys-devel/clang | sed 's:sys-devel/clang-::')"
 		;;
 		*g++*)
-			version_is_at_least "$2" "$(gcc-version)" || die_compiler "$1" "$2" "$3" "$4"
+			ver="$(gcc-version)"
 		;;
 		*icc*|*icpc*)
-			version_is_at_least "$4" "$(has_version dev-lang/icc)" || die_compiler "$1" "$2" "$3" "$4"
+			ver="$(best_version dev-lang/icc | sed 's:dev-lang/icc-::')"
 		;;
 		*)
 			ewarn "You are using an unsupported compiler."
 			ewarn "Please report any issues upstream."
+			return 0
 		;;
 	esac
+	version_is_at_least "$3" "${ver}" || die_compiler "$1" "$2" "$3" "$4" "${ver}"
 }
 
 pkg_setup() {
