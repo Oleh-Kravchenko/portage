@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-python/testtools/testtools-1.8.0.ebuild,v 1.2 2015/07/24 07:29:00 idella4 Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-python/testtools/testtools-1.8.0.ebuild,v 1.4 2015/07/26 21:14:35 mgorny Exp $
 
 EAPI=5
 
@@ -19,7 +19,6 @@ IUSE="doc test"
 
 CDEPEND="
 	dev-python/extras[${PYTHON_USEDEP}]
-	dev-python/linecache2[${PYTHON_USEDEP}]
 	dev-python/mimeparse[${PYTHON_USEDEP}]
 	>=dev-python/pbr-0.11[${PYTHON_USEDEP}]
 	>=dev-python/unittest2-1.0.0[${PYTHON_USEDEP}]
