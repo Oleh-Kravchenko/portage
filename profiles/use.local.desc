@@ -1256,6 +1256,7 @@ dev-db/firebird:xinetd - Install ClassicServer
 dev-db/haildb:debug - Enable extra debug codepaths and assertions. If disabled, both the debug code and assertions are removed from the resulting binaries. Optimisations are untouched.
 dev-db/haildb:zlib - Add support for compressed tables through sys-libs/zlib.
 dev-db/maatkit:udf - Build the MySQL UDFs shipped with maatkit, requires non-minimal MySQL
+dev-db/mariadb:client-libs - Build the libmysqlclient libraries
 dev-db/mariadb:cluster - Add support for NDB clustering (deprecated)
 dev-db/mariadb:community - Enables the community features from upstream.
 dev-db/mariadb:embedded - Build embedded server (libmysqld)
@@ -1265,11 +1266,15 @@ dev-db/mariadb:latin1 - Use LATIN1 encoding instead of UTF8
 dev-db/mariadb:max-idx-128 - Raise the max index per table limit from 64 to 128
 dev-db/mariadb:minimal - Install client programs only, no server
 dev-db/mariadb:oqgraph - Add support for the Open Query GRAPH engine
+dev-db/mariadb:pam - Enable the optional PAM authentication plugin for the server
 dev-db/mariadb:profiling - Add support for statement profiling (requires USE=community).
+dev-db/mariadb:server - Build the server program
 dev-db/mariadb:sphinx - Add suport for the sphinx full-text search engine
 dev-db/mariadb:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-db/mariadb:test - Install upstream testsuites for end use.
 dev-db/mariadb:tokudb - Add support for TokuDB storage engine
+dev-db/mariadb:tools - Build the command line tools (mysql, mysqldump, mysqladmin, etc)
+dev-db/mariadb-galera:client-libs - Build the libmysqlclient libraries
 dev-db/mariadb-galera:cluster - Add support for NDB clustering (deprecated)
 dev-db/mariadb-galera:community - Enables the community features from upstream.
 dev-db/mariadb-galera:embedded - Build embedded server (libmysqld)
@@ -1279,16 +1284,19 @@ dev-db/mariadb-galera:latin1 - Use LATIN1 encoding instead of UTF8
 dev-db/mariadb-galera:minimal - Install client programs only, no server
 dev-db/mariadb-galera:oqgraph - Add support for the Open Query GRAPH engine
 dev-db/mariadb-galera:profiling - Add support for statement profiling (requires USE=community).
+dev-db/mariadb-galera:server - Build the server program
 dev-db/mariadb-galera:sphinx - Add suport for the sphinx full-text search engine
 dev-db/mariadb-galera:sst-rsync - Add tools needed to support the rsync SST method
 dev-db/mariadb-galera:sst-xtrabackup - Add tools needed to support the xtrabackup and xtrabackup-v2 SST methods
 dev-db/mariadb-galera:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-db/mariadb-galera:test - Install upstream testsuites for end use.
 dev-db/mariadb-galera:tokudb - Add support for TokuDB storage engine
+dev-db/mariadb-galera:tools - Build the command line tools (mysql, mysqldump, mysqladmin, etc)
 dev-db/mongodb:mms-agent - Install the MongoDB Monitoring Service agent
 dev-db/mongodb:sharedclient - build client shared library libmongoclient.so
 dev-db/mongodb:spidermonkey - Use embedded SpiderMonkey engine (dev-lang/spidermonkey) instead of v8
 dev-db/mongodb:tools - Install the MongoDB tools (mongoimport, mongodump...) from app-admin/mongo-tools
+dev-db/mysql:client-libs - Build the libmysqlclient libraries
 dev-db/mysql:cluster - Add support for NDB clustering (deprecated)
 dev-db/mysql:community - Enables the community features from upstream.
 dev-db/mysql:embedded - Build embedded server (libmysqld)
@@ -1298,8 +1306,10 @@ dev-db/mysql:latin1 - Use LATIN1 encoding instead of UTF8
 dev-db/mysql:max-idx-128 - Raise the max index per table limit from 64 to 128
 dev-db/mysql:minimal - Install client programs only, no server
 dev-db/mysql:profiling - Add support for statement profiling (requires USE=community).
+dev-db/mysql:server - Build the server program
 dev-db/mysql:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-db/mysql:test - Install upstream testsuites for end use.
+dev-db/mysql:tools - Build the command line tools (mysql, mysqldump, mysqladmin, etc)
 dev-db/mysql-cluster:cluster - Add support for NDB clustering
 dev-db/mysql-cluster:community - Enables the community features from upstream.
 dev-db/mysql-cluster:embedded - Build embedded server (libmysqld)
@@ -1312,6 +1322,7 @@ dev-db/mysql-cluster:profiling - Add support for statement profiling (requires U
 dev-db/mysql-cluster:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-db/mysql-cluster:test - Install upstream testsuites for end use.
 dev-db/mysql-connector-c++:gcov - Build coverage support
+dev-db/percona-server:client-libs - Build the libmysqlclient libraries
 dev-db/percona-server:cluster - Add support for NDB clustering (deprecated)
 dev-db/percona-server:community - Enables the community features from upstream.
 dev-db/percona-server:embedded - Build embedded server (libmysqld)
@@ -1320,8 +1331,10 @@ dev-db/percona-server:jemalloc - Use dev-libs/jemalloc for allocations.
 dev-db/percona-server:latin1 - Use LATIN1 encoding instead of UTF8
 dev-db/percona-server:minimal - Install client programs only, no server
 dev-db/percona-server:profiling - Add support for statement profiling (requires USE=community).
+dev-db/percona-server:server - Build the server program
 dev-db/percona-server:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-db/percona-server:test - Install upstream testsuites for end use.
+dev-db/percona-server:tools - Build the command line tools (mysql, mysqldump, mysqladmin, etc)
 dev-db/pgadmin3:databasedesigner - Enable the Database Designer component
 dev-db/pgbouncer:libevent - Use libevent 2.0+ and evdns as the DNS backend
 dev-db/pgbouncer:udns - Use udns as the DNS backend. Supports IPv4 only.
@@ -2219,7 +2232,6 @@ dev-python/django-extensions:vcard - Export your users email addresses to the vc
 dev-python/django-tastypie:bip - An optional serialiser dev-python/biplist
 dev-python/django-tastypie:digest - Library to aid in implementing HTTP Digest Authentication
 dev-python/django-tastypie:lxml - An optional serialiser dev-python/lxml
-dev-python/django-tastypie:oauth - Adds OAuth authentication support
 dev-python/django-tastypie:yaml - An optional serialiser dev-python/yaml
 dev-python/django-two-factor-auth:yubikey - Adds support for Yubikeys via django-otp-yubikey
 dev-python/docutils:glep - Install support for GLEPs
@@ -3757,6 +3769,7 @@ media-libs/freetype:utils - Install utilities and examples from ft2demos
 media-libs/freeverb3:audacious - Build Audacious plugin
 media-libs/freeverb3:forcefpu - Disable assembly code
 media-libs/freeverb3:plugdouble - Build plugins in double precision mode (default is float)
+media-libs/ganv:fdgl - Use experimental force-directed graph layout
 media-libs/gd:webp - Enable support for the webp format
 media-libs/gegl:introspection - Use dev-libs/gobject-introspection for introspection.
 media-libs/gegl:lensfun - Enable support for media-libs/lensfun.
@@ -4147,6 +4160,9 @@ media-sound/fapg:xspf - Enable support for saving XSPF playlists.
 media-sound/flacon:mac - Add support for Monkey's Audio files
 media-sound/flacon:replaygain - Support for Replay Gain metadata, for relative volume adjustment
 media-sound/flacon:tta - Add support for True Audio encoding
+media-sound/forked-daapd:itunes - Enable support for iTunes library XML
+media-sound/forked-daapd:lastfm - Enable LastFM scrobbling support
+media-sound/forked-daapd:mpd - Enable streaming to mpd
 media-sound/freewheeling:fluidsynth - compile with support for fluidsynth
 media-sound/frescobaldi:portmidi - Enable media-libs/portmidi support
 media-sound/gejengel:audioscrobbler - Enable track submission on last.fm
@@ -4230,6 +4246,8 @@ media-sound/ncmpc:song-screen - Enable song viewer screen
 media-sound/ncmpcpp:clock - Enable clock screen
 media-sound/ncmpcpp:outputs - Enable outputs screen
 media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/frequency spectrum modes
+media-sound/patchage:jack-dbus - Use Jack via D-Bus instead of libjack
+media-sound/patchage:session - Include experimental Jack session management (save/restore) support
 media-sound/pianobooster:fluidsynth - Enable Fluidsynth MIDI software synthesis
 media-sound/picard:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
 media-sound/pithos:appindicator - Enable usage of appindicator to export menu options in to unity
@@ -8044,6 +8062,7 @@ x11-wm/windowmaker:modelock - Enable XKB language status lock support. README sa
 x11-wm/windowmaker:vdesktop - Enable dynamic virtual desktop (conflicts with software that works on the edges of the screen)
 x11-wm/windowmaker:webp - Enables WebP image format support using media-libs/libwebp
 x11-wm/windowmaker:xrandr - Enable XRandR window extension support
+x11-wm/wmfs:imlib2 - Enable image support through media-libs/imlib2
 x11-wm/xmonad:default-term - Pull terminal specified in default xmonad config to be a bit less hostile by default.
 x11-wm/xmonad:no-autorepeat-keys - Allow ignoring of keyboard autorepeat.
 x11-wm/xpra:client - Build client-side code
