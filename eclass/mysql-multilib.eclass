@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/mysql-multilib.eclass,v 1.24 2015/07/29 15:01:43 grknight Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/mysql-multilib.eclass,v 1.27 2015/07/30 20:34:57 grknight Exp $
 
 # @ECLASS: mysql-multilib.eclass
 # @MAINTAINER:
@@ -44,6 +44,18 @@ EXPORT_FUNCTIONS pkg_pretend pkg_setup src_unpack src_prepare src_configure src_
 #
 # VARIABLES:
 #
+
+# @ECLASS-VARIABLE: MYSQL_CMAKE_NATIVE_DEFINES
+# @DESCRIPTION:
+# Add extra CMake arguments for native multilib builds
+
+# @ECLASS-VARIABLE: MYSQL_CMAKE_NONNATIVE_DEFINES
+# @DESCRIPTION:
+# Add extra CMake arguments for non-native multilib builds
+
+# @ECLASS-VARIABLE: MYSQL_CMAKE_EXTRA_DEFINES
+# @DESCRIPTION:
+# Add extra CMake arguments
 
 # Shorten the path because the socket path length must be shorter than 107 chars
 # and we will run a mysql server during test phase
@@ -385,7 +397,8 @@ RDEPEND="${DEPEND}
 if [[ ${HAS_TOOLS_PATCH} ]] ; then
 	RDEPEND="${RDEPEND}
 		server? ( !prefix? ( dev-db/mysql-init-scripts ) )
-		!client-libs? ( virtual/libmysqlclient )"
+		!client-libs? ( virtual/libmysqlclient )
+		!<virtual/mysql-5.6-r4"
 else
 	RDEPEND="${RDEPEND} !minimal? ( !prefix? ( dev-db/mysql-init-scripts ) )"
 fi
@@ -623,13 +636,6 @@ multilib_src_configure() {
 		-DWITH_DEFAULT_FEATURE_SET=0
 	)
 
-	# systemtap only works on native ABI  bug 530132
-	if multilib_is_native_abi; then
-		mycmakeargs+=( $(cmake-utils_use_enable systemtap DTRACE) )
-	else
-		mycmakeargs+=( -DENABLE_DTRACE=0 )
-	fi
-
 	if in_iuse client-libs ; then
 		mycmakeargs+=( -DWITHOUT_CLIENTLIBS=$(usex client-libs 0 1) )
 	fi
@@ -685,6 +691,17 @@ multilib_src_configure() {
 			configure_cmake_minimal
 		fi
 	fi
+
+	# systemtap only works on native ABI  bug 530132
+	if multilib_is_native_abi; then
+		mycmakeargs+=( $(cmake-utils_use_enable systemtap DTRACE) )
+		[[ ${MYSQL_CMAKE_NATIVE_DEFINES} ]] && mycmakeargs+=( ${MYSQL_CMAKE_NATIVE_DEFINES} )
+	else
+		mycmakeargs+=( -DENABLE_DTRACE=0 )
+		[[ ${MYSQL_CMAKE_NONNATIVE_DEFINES} ]] && mycmakeargs+=( ${MYSQL_CMAKE_NONNATIVE_DEFINES} )
+	fi
+
+	[[ ${MYSQL_CMAKE_EXTRA_DEFINES} ]] && mycmakeargs+=( ${MYSQL_CMAKE_EXTRA_DEFINES} )
 
 	# Always build NDB with mysql-cluster for libndbclient
 	[[ ${PN} == "mysql-cluster" ]] && mycmakeargs+=(
