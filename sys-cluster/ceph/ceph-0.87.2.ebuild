@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-cluster/ceph/ceph-0.87.2.ebuild,v 1.1 2015/07/15 08:57:51 dlan Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-cluster/ceph/ceph-0.87.2.ebuild,v 1.2 2015/08/04 15:47:03 dlan Exp $
 
 EAPI=5
 PYTHON_COMPAT=( python2_7 )
@@ -74,7 +74,6 @@ REQUIRED_USE="
 STRIP_MASK="/usr/lib*/rados-classes/*"
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-0.87.1-glibc-2.20.patch
 	"${FILESDIR}"/${PN}-0.79-libzfs.patch
 )
 

@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16698 2015/08/03 22:53:01 mrueg Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16701 2015/08/04 21:06:57 johu Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -29,6 +29,12 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Mikle Kolyada <zlogene@hemtoo.org> (04 Aug 2015)
+# Unmaintained since 2010. No longer available
+# on CPAN and nothing in the tree depends on it.
+# See bug #556640 for more info. Removal in 30 days.
+dev-perl/gtk2-fu
 
 # Mike Gilbert <floppym@gentoo.org> (03 Aug 2015)
 # Unmaintained upstream. Fails to build. Removal in 30 days.
@@ -153,15 +159,6 @@ sci-biology/flower
 # Wrong version #553670
 =sys-kernel/gentoo-sources-4.1.1
 
-# Pacho Ramos <pacho@gentoo.org> (24 Jun 2015)
-# Replaced by app-admin/system-config-printer, to migrate
-# simply run:
-# emerge -C system-config-printer-common system-config-printer-gnome
-# emerge -1 system-config-printer
-# Removal in a month (#553128).
-app-admin/system-config-printer-common
-app-admin/system-config-printer-gnome
-
 # Patrice Clement <monsieurp@gentoo.org> (22 Jun 2015)
 # No update from upstream since 2002. This package might cause problems with
 # new JDKs. Removal in 30 days.
@@ -254,8 +251,6 @@ virtual/httpd-php:5.3
 # #554864
 =dev-python/django-1.5*
 =dev-python/django-1.6*
-dev-python/south
-dev-python/django-oauth-plus
 
 # Michał Górny <mgorny@gentoo.org> (11 Feb 2015)
 # Potentially destructive to @world, bug #539746.
