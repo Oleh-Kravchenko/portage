@@ -1,10 +1,10 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-wm/notion/notion-9999.ebuild,v 1.9 2015/08/05 10:09:07 xmw Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-wm/notion/notion-9999.ebuild,v 1.11 2015/08/06 17:49:47 xmw Exp $
 
 EAPI=5
 
-inherit eutils git-r3 multilib toolchain-funcs flag-o-matic
+inherit eutils git-r3 multilib toolchain-funcs readme.gentoo
 
 DESCRIPTION="Notion is a tiling, tabbed window manager for the X window system"
 HOMEPAGE="http://notion.sourceforge.net"
@@ -22,37 +22,43 @@ RDEPEND=">=dev-lang/lua-5.1:0=
 	nls? ( sys-devel/gettext )
 	xinerama? ( x11-libs/libXinerama )
 	xrandr? ( x11-libs/libXrandr )"
-
 DEPEND="${RDEPEND}
 		virtual/pkgconfig"
+
+# mod_xrandr references mod_xinerama
+REQUIRED_USE="xrandr? ( xinerama )"
 
 # needs luaposix,slingshot,... not in tree
 RESTRICT=test
 
 src_prepare() {
-	append-cflags -D_DEFAULT_SOURCE
+	epatch "${FILESDIR}/${PN}-3_p2015061300-pkg-config.patch"
 
-	sed -e "/^CFLAGS=/s:=:+=:" \
-		-e "/^CFLAGS/{s:-Os:: ; s:-g::}" \
-		-e "/^LDFLAGS=/{s:=:+=: ; s:-Wl,--as-needed::}" \
-		-e "/^CC=/s:=:?=:" \
-		-e "s:^\(PREFIX=\).*$:\1${ROOT}usr:" \
-		-e "s:^\(ETCDIR=\).*$:\1${ROOT}etc/notion:" \
-		-e "s:^\(LIBDIR=\).*:\1\$(PREFIX)/$(get_libdir):" \
-		-e "s:^\(DOCDIR=\).*:\1\$(PREFIX)/share/doc/${PF}:" \
-		-e "s:^\(LUA_DIR=\).*$:\1\$(PREFIX)/usr:" \
-		-e "s:^\(VARDIR=\).*$:\1${ROOT}var/cache/${PN}:" \
-		-e "s:^\(X11_PREFIX=\).*:\1\$(PREFIX)/usr:" \
+	sed -e "/^CFLAGS/{s: =: +=: ; s:-Os:: ; s:-g::}" \
+		-e "/^LDFLAGS/{s: =: +=: ; s:-Wl,--as-needed::}" \
 		-i system-autodetect.mk || die
-	sed -e 's/gcc/$(CC)/g' \
-		-i ioncore/Makefile || die
-	export STRIPPROG=true
-
-	tc-export CC
+	echo > build/lua-detect.mk
 }
 
 src_configure() {
-	use nls || export DEFINES=" -DCF_NO_LOCALE -DCF_NO_GETTEXT"
+	{	echo "CFLAGS += -D_DEFAULT_SOURCE"
+		echo "PREFIX=${ROOT}usr"
+		echo "DOCDIR=\$(PREFIX)/share/doc/${PF}"
+		echo "ETCDIR=${ROOT}etc/${PN}"
+		echo "LIBDIR=\$(PREFIX)/$(get_libdir)"
+		echo "VARDIR=${ROOT}var/cache/${PN}"
+		echo "X11_PREFIX=${ROOT}usr"
+		echo "STRIPPROG=true"
+		echo "CC=$(tc-getCC)"
+		echo "AR=$(tc-getAR)"
+		echo "RANLIB=$(tc-getRANLIB)"
+		echo "LUA_MANUAL=1"
+		echo "LUA=\$(BINDIR)/lua"
+		echo "LUAC=\$(BINDIR)/luac"
+		echo "LUA_LIBS=\$(shell pkg-config --libs lua)"
+		echo "LUA_INCLUDES=\$(shell pkg-config --cflags)"
+		use nls || echo "DEFINES+=-DCF_NO_LOCALE -DCF_NO_GETTEXT"
+	} > system-local.mk
 
 	if ! use xinerama ; then
 		sed -e 's/mod_xinerama//g' -i modulelist.mk || die
@@ -60,12 +66,9 @@ src_configure() {
 
 	if ! use xrandr ; then
 		sed -e 's/mod_xrandr//g' -i modulelist.mk || die
+		sed -e '/mod_xrandr/d' \
+			-i etc/cfg_defaults.lua || die
 	fi
-}
-
-src_compile() {
-	emake CC="$(tc-getCC)" AR="$(tc-getAR)" \
-		RANLIB="$(tc-getRANLIB)"
 }
 
 src_install() {
@@ -76,9 +79,9 @@ src_install() {
 
 	insinto /usr/share/xsessions
 	doins "${FILESDIR}"/notion.desktop
+
+	readme.gentoo_src_install
 }
 
-pkg_postinst() {
-	elog "If you want notion to have an ability to view a file based on its"
-	elog "guessed MIME type you should emerge app-misc/run-mailcap."
-}
+DOC_CONTENTS="If you want notion to have an ability to view a file based on its
+guessed MIME type you should emerge app-misc/run-mailcap."
