@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16704 2015/08/07 14:20:05 polynomial-c Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.16707 2015/08/08 17:58:28 sping Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,11 +30,9 @@
 
 #--- END OF EXAMPLES ---
 
-# Lars Wendler <polynomial-c@gentoo.org> (07 Aug 2015)
-# Masked due to build system problems (bug #556920)
-=sys-libs/tdb-1.3.7
-#depends on >=sys-libs/tdb-1.3.7
-=sys-libs/ldb-1.1.21
+# Sebastioan Pipping <sping@gentoo.org> (8 Aug 2015)
+# Upcoming, too young to go into testing unmasked
+dev-libs/iniparser:4
 
 # Matthew Thode <prometheanfire@gentoo.org> (04 Aug 2015)
 # removing old and never working horizon Bug #556710
@@ -665,10 +663,6 @@ app-text/cuneiform
 # 2.5.* has known security and other issues due to an affected
 # bundled ffmpeg, see bugs #446468 and #444262.
 <media-video/avidemux-2.6.2
-
-# Doug Goldstein <cardoe@gentoo.org> (22 Jan 2013)
-# Masked for development
-=sys-block/open-iscsi-2.0.873
 
 # Sven Wegener <swegener@gentoo.org> (21 Dec 2012)
 # temporary mask for socket location change
