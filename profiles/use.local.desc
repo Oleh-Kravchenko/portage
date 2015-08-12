@@ -415,6 +415,10 @@ app-crypt/shishi:null - Enable dummy NULL encryption/checksum type.
 app-crypt/tc-play:openssl - Use openssl crypto backend.
 app-crypt/tpm-tools:pkcs11 - Build Token data management utilities based on OpenCryptoki's (dev-libs/opencryptoki) PKCS#11 implementation.
 app-crypt/truecrypt:asm - Enable assembly for optimization
+app-crypt/zuluCrypt:gnome - Enable support for the freedesktop.org Secret Service API via app-crypt/libsecret. This does not control the gui!
+app-crypt/zuluCrypt:gui - Whether to build the QT gui. Highly recommended.
+app-crypt/zuluCrypt:kde - Enable support for KDE, e.g. via kde-base/kwalletd. This does not control the gui, but NEEDS GUI ENABLED!
+app-crypt/zuluCrypt:udev - Whether udev will be consulted when deciding if a volume is system or not.
 app-dicts/aspell-be:classic - Support classic spelling by default
 app-dicts/gwaei:hunspell - Enable app-text/hunspell spellchecking and morphological analysis
 app-dicts/gwaei:mecab - Enable app-text/mecab support
@@ -2567,6 +2571,7 @@ dev-scheme/scm:engineering-notation - Floats to display in engineering notation 
 dev-scheme/scm:gsubr - generalized c arguments: for arbitrary (more then 11) arguments to C functions.
 dev-scheme/scm:inexact - Support for floating point numbers.
 dev-scheme/scm:ioext - Commonly available I/O extensions: line I/O, file positioning, file delete and rename, and directory functions.
+dev-scheme/scm:libscm - Build and install libscm.a and related headers
 dev-scheme/scm:macro - C level support for hygienic and referentially transparent macros (syntax-rules macros).
 dev-scheme/scm:regex - String regular expression matching.
 dev-scheme/scm:unix - Support for: nice, acct, lstat, readlink, symlink, mknod and sync.
@@ -2705,6 +2710,7 @@ dev-vcs/git:highlight - GitWeb support for app-text/highlight
 dev-vcs/git:mediawiki - Support pulling and pushing from MediaWiki
 dev-vcs/git:ppcsha1 - Make use of a bundled routine that is optimized for the PPC arch
 dev-vcs/git:subversion - Include git-svn for dev-vcs/subversion support
+dev-vcs/git:tk - Include the 'gitk' and 'git gui' tools
 dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DAV
 dev-vcs/git-annex:android - Building for Android
 dev-vcs/git-annex:androidsplice - Get TH splices for Android.
@@ -6924,6 +6930,9 @@ sys-apps/lm_sensors:sensord - Enable sensord - a daemon that can be used to peri
 sys-apps/memtest86:serial - Compile with serial console support
 sys-apps/memtest86+:floppy - Install a script to create floppy disks containing memtest86+ binaries.
 sys-apps/memtest86+:serial - Compile with serial console support
+sys-apps/microcode-data:initramfs - install a small initramfs for use with CONFIG_MICROCODE_EARLY
+sys-apps/microcode-data:monolithic - install the large text microcode.dat (used by older kernels via microcode_ctl)
+sys-apps/microcode-data:split-ucode - install the split binary ucode files (used by the kernel directly)
 sys-apps/moreutils:perl - Install scripts written in Perl
 sys-apps/net-tools:old-output - use old ifconfig output style (useful for when new output breaks scripts)
 sys-apps/openrc:audit - enable support for Linux audit subsystem

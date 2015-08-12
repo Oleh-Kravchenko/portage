@@ -15,8 +15,7 @@ SLOT="0"
 KEYWORDS="amd64 arm hppa ppc sparc x86"
 IUSE="systemd"
 
-RDEPEND="
-	net-libs/gnutls
+RDEPEND="<net-libs/gnutls-3.4
 	sys-apps/iproute2
 	systemd? ( sys-apps/systemd )
 "
