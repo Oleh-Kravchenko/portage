@@ -14,9 +14,8 @@ SLOT="0"
 KEYWORDS="alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd"
 IUSE="nls readline"
 
-RDEPEND="
-	sys-libs/ncurses
-	sys-libs/readline
+RDEPEND="sys-libs/ncurses:=
+	sys-libs/readline:0=
 	nls? ( virtual/libintl )
 "
 
@@ -36,11 +35,13 @@ src_prepare() {
 		"${FILESDIR}"/${PN}-0.6.10-info-suffix.patch \
 		"${FILESDIR}"/${PN}-0.6.10-dir-file.patch \
 		"${FILESDIR}"/${PN}-0.6.10-tinfo.patch \
-		"${FILESDIR}"/${PN}-0.6.10-gettext-0.19.patch
+		"${FILESDIR}"/${PN}-0.6.10-gettext-0.19.patch \
+		"${FILESDIR}"/${PN}-0.6.10-ncurses-check.patch \
+		"${FILESDIR}"/${PN}-0.6.10-libc-basename.patch
 
 	eautoreconf
 
-	append-cflags -D_BSD_SOURCE # sbrk()
+	append-cflags -D_BSD_SOURCE -D_DEFAULT_SOURCE # sbrk()
 }
 
 src_configure() {

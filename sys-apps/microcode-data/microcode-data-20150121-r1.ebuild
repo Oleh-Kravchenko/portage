@@ -20,6 +20,7 @@ KEYWORDS="-* ~amd64 ~x86"
 IUSE="initramfs monolithic +split-ucode"
 REQUIRED_USE="|| ( initramfs monolithic split-ucode )"
 
+DEPEND="initramfs? ( sys-apps/iucode_tool )"
 RDEPEND="!<sys-apps/microcode-ctl-1.17-r2" #268586
 
 S=${WORKDIR}
@@ -45,10 +46,4 @@ src_install() {
 	use initramfs && doins microcode.cpio
 	use monolithic && doins microcode.dat
 	use split-ucode && doins -r intel-ucode
-}
-
-pkg_postinst() {
-	elog "The microcode available for Intel CPUs has been updated.  You'll need"
-	elog "to reload the code into your processor.  If you're using the init.d:"
-	elog "/etc/init.d/microcode_ctl restart"
 }
