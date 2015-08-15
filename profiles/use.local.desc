@@ -488,6 +488,7 @@ app-editors/nano:justify - Enable justify/unjustify functions for text formattin
 app-editors/nano:magic - Add magic file support (sys-apps/file) to automatically detect appropriate syntax highlighting
 app-editors/nano:minimal - Disable all fancy features, including ones that otherwise have a dedicated USE flag (such as spelling).
 app-editors/ne:tinfo - Link against libtinfo from sys-libs/ncurses
+app-editors/neovim:nvimpager - Install nvimpager symlink to less.sh macro
 app-editors/tea:aspell - Enable spellchecking using app-text/aspell
 app-editors/tea:hunspell - Enable spellchecking using app-text/hunspell
 app-editors/vim:X - Link console vim against X11 libraries to enable title and clipboard features in xterm
@@ -2118,7 +2119,6 @@ dev-lisp/sbcl:pax_kernel - Enable if the user plans to run the package under a p
 dev-lua/luarocks:curl - Uses net-misc/curl for fetching lua packages instead of net-misc/wget.
 dev-lua/luarocks:openssl - Uses dev-libs/openssl for verifying lua packages instead of md5sum.
 dev-lua/luvit:bundled-libs - Use bundled versions of some libraries.
-dev-lua/luvit:system-libs - Use system version of dev-libs/yajl.
 dev-lua/messagepack:luajit - Use the lua just-in-time compiler dev-lang/luajit instead of dev-lang/lua
 dev-ml/cairo-ocaml:pango - Enable support for x11-libs/pango
 dev-ml/deriving-ocsigen:type-conv - Enable type-conv for the syntax extention.
@@ -2669,6 +2669,7 @@ dev-util/nvidia-cuda-toolkit:profiler - Installs the NVIDIA CUDA visual profiler
 dev-util/perf:audit - Enable support for sys-process/audit.
 dev-util/perf:demangle - Enable C++ symbol name demangling, using libbfd from sys-devel/binutils. When this flag is enabled, the package will have to be rebuilt after every version bump of binutils.
 dev-util/perf:doc - Build documentation and man pages. With this USE flag disabled, the --help parameter for perf and its sub-tools will not be available. This is optional because it depends on a few documentation handling tools that are not always welcome on user systems.
+dev-util/perf:numa - Enable NUMA support
 dev-util/perf:perl - Add support for Perl as a scripting language for perf tools.
 dev-util/perf:unwind - Use sys-libs/libunwind for frame unwinding support.
 dev-util/pkgconf:pkg-config - Install as a replacement for dev-util/pkgconfig
@@ -5059,7 +5060,9 @@ net-firewall/ipsec-tools:idea - Enable support for the IDEA algorithm
 net-firewall/ipsec-tools:nat - Enable NAT-Traversal
 net-firewall/ipsec-tools:rc5 - Enable support for the patented RC5 algorithm
 net-firewall/ipsec-tools:stats - Enable statistics reporting
+net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
 net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
+net-firewall/iptables:pcap - Build against net-libs/libpcap which enables the nfbpf_compile util
 net-firewall/nufw:nfconntrack - Use netfilter_conntrack
 net-firewall/nufw:nfqueue - Use NFQUEUE instead of QUEUE
 net-firewall/nufw:pam_nuauth - Add support for pam nufw from PAM
@@ -5501,6 +5504,8 @@ net-libs/libssh2:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl
 net-libs/libvncserver:24bpp - enable 24bpp support
 net-libs/libvncserver:gcrypt - enable support for gcrypt
 net-libs/loudmouth:asyncns - Use libasyncns for asynchronous name resolution.
+net-libs/mbedtls:havege - Enable the HAVEGE random generator. Warning: the HAVEGE random generator is not suitable for virtualized environments
+net-libs/mbedtls:programs - Build PolarSSL programs
 net-libs/neon:libproxy - Add support for net-libs/libproxy
 net-libs/neon:pkcs11 - Add support for PKCS#11 using dev-libs/pakchois
 net-libs/netembryo:sctp - Support for Stream Control Transmission Protocol
@@ -6999,6 +7004,7 @@ sys-apps/v86d:x86emu - Use x86emu for Video BIOS calls
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
 sys-apps/xinetd:rpc - support RPC services
 sys-auth/consolekit:cgroups - Use the kernel to track processes instead of the session cookie.
+sys-auth/consolekit:pm-utils - Adds support for suspend/resume using sys-power/pm-utils
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
 sys-auth/consolekit:systemd-units - Install systemd unit files to replace the modern functionality of logind in sys-apps/systemd. Not recommended.
 sys-auth/fingerprint-gui:upekbsapi - Add UPEK BSAPI drivers for identify functions on some readers
@@ -7769,6 +7775,7 @@ www-servers/uwsgi:yaml - Support yaml as a configuration file format.
 www-servers/uwsgi:zeromq - Enable logging and deployment via ZeroMQ.
 www-servers/varnish:jemalloc - Use dev-libs/jemalloc for allocations
 www-servers/varnish:tools - Build additional tools: varnishhist, varnishstat, varnishtop, varnishsizes
+www-servers/xsp:developer - creates .mdb files for either Release and Debug
 x11-apps/ardesia:cwiid - cwiid support: collection of Linux tools written in C for interfacing to the Nintendo Wiimote.
 x11-apps/intel-gpu-tools:python - Install python based register dumper utilities
 x11-apps/intel-gpu-tools:test-programs - Install test programs for DRM driver development
