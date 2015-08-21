@@ -3836,6 +3836,9 @@ media-libs/libextractor:midi - Enable MIDI support through media-libs/libsmf
 media-libs/libggi:vis - Enables sparc vis support for libggi
 media-libs/libgphoto2:serial - Enable serial port support
 media-libs/libgpod:gtk - Enable ArtworkDB support
+media-libs/libgroove:chromaprint - Enable audio fingerprinting using media-libs/chromaprint.
+media-libs/libgroove:loudness - Enable loudness detection according to the EBU R128 standard using media-libs/libebur128.
+media-libs/libgroove:sound - Enable audio playing.
 media-libs/liblastfm:fingerprint - Build the lastfm-fingerprint library
 media-libs/libmp4v2:utils - Install command-line utilities
 media-libs/libomxil-bellagio:audioeffects - enable audio volume/mixer effects components
@@ -5840,6 +5843,9 @@ net-misc/icecast:yp - Build support for yp public directory listings
 net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This is generally a very bad idea.
 net-misc/iputils:arping - Build and install arping -- tool for sending ARP requests to peers (see also net-analyzer/arping)
 net-misc/iputils:clockdiff - Build and install clockdiff -- tool for comparing clocks via ICMP packets
+net-misc/iputils:gcrypt - Use dev-libs/libgcrypt for md5 support
+net-misc/iputils:nettle - Use dev-libs/nettle for md5 support
+net-misc/iputils:openssl - Use dev-libs/openssl for md5 support
 net-misc/iputils:rarpd - Build and install rarpd -- server for handling RARP (reverse ARP) requests; generally only used by old systems
 net-misc/iputils:rdisc - Build and install rdisc -- server for the client side of the ICMP router discover protocol
 net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
@@ -6818,6 +6824,8 @@ sci-physics/root:reflex - Build the reflection database for the C++ interpreter
 sci-physics/root:shadow - Enable shadow authentication in rootd and proofd
 sci-physics/root:table - Build libTable contrib library
 sci-physics/root:xrootd - Build the interface for net-libs/xrootd
+sci-physics/yoda:c++11 - Build using the C++11 standard
+sci-physics/yoda:root - Adds support for sci-physics/root
 sci-visualization/fityk:nlopt - Enable optimization with sci-libs/nlopt
 sci-visualization/gnuplot:bitmap - Enable dot-matrix printers and pbm terminal
 sci-visualization/gnuplot:compat - Enable backwards compatibility with version 4 syntax
