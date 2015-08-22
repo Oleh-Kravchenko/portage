@@ -57,10 +57,10 @@ X_RDEPS="
 # Rar: althrought -gpl version is nice, it cant do most functions normal rars can
 #	nemesi? ( net-libs/libnemesi )
 RDEPEND+="
-	sys-libs/ncurses
+	sys-libs/ncurses:5=
 	app-arch/bzip2
 	sys-libs/zlib
-	>=media-video/ffmpeg-2.0:0=
+	>=media-video/ffmpeg-2.0:0=[vdpau?]
 	a52? ( media-libs/a52dec )
 	aalib? ( media-libs/aalib )
 	alsa? ( media-libs/alsa-lib )
