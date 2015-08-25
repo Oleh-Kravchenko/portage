@@ -5,9 +5,9 @@
 EAPI=4
 
 DESCRIPTION="LightDM GTK+ Greeter"
-HOMEPAGE="http://launchpad.net/lightdm-gtk-greeter"
-SRC_URI="http://launchpad.net/lightdm-gtk-greeter/1.4/${PV}/+download/${P}.tar.gz branding? (
-http://dev.gentoo.org/~hwoarang/distfiles/lightdm-gentoo-patch-2.tar.gz )"
+HOMEPAGE="https://launchpad.net/lightdm-gtk-greeter"
+SRC_URI="https://launchpad.net/lightdm-gtk-greeter/1.4/${PV}/+download/${P}.tar.gz branding? (
+https://dev.gentoo.org/~hwoarang/distfiles/lightdm-gentoo-patch-2.tar.gz )"
 
 LICENSE="GPL-3 LGPL-3
 	branding? ( CC-BY-3.0 )"
