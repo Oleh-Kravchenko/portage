@@ -1679,21 +1679,21 @@ dev-java/gnu-classpath:gtk - Build with Gtk+ AWT peers
 dev-java/gnu-classpath:qt4 - Build with Qt4 AWT peers
 dev-java/gnu-classpath:xml - Build with native XML backend
 dev-java/ibm-jdk-bin:javacomm - Enable Java Communications API support
-dev-java/icedtea:X - Make X buildtime-only depenency.
-dev-java/icedtea:alsa - Make alsa buildtime-only dependency.
-dev-java/icedtea:cacao - Build CACAO virtual machine on platforms supporting HotSpot. (experimental)
-dev-java/icedtea:cups - Make CUPS build-only dependency.
+dev-java/icedtea:awt - Install non-headless AWT libraries, needed by some GUIs (used to be X flag)
+dev-java/icedtea:cacao - Use the CACAO virtual machine rather than HotSpot.
 dev-java/icedtea:infinality - Enable better font rendering using fontconfig.
 dev-java/icedtea:jamvm - Use the JamVM virtual machine rather than HotSpot.
 dev-java/icedtea:jbootstrap - If possible, recompile the final IcedTea executables with itself.
 dev-java/icedtea:nsplugin - Enable browser plugin (NPPlugin), requires also the webstart flag to be enabled.
 dev-java/icedtea:nss - Enable NSS security provider support.
-dev-java/icedtea:pax_kernel - For building when running a PaX enabled kernel.
+dev-java/icedtea:pax_kernel - Apply patch needed for pax enabled kernels.
+dev-java/icedtea:sctp - Build the SCTP NIO channel implementation against lksctp
 dev-java/icedtea:smartcard - Build the PCSC driver against pcsc-lite
 dev-java/icedtea:sunec - Build the SunEC provider against system NSS
 dev-java/icedtea:systemtap - Enable SystemTap probes in HotSpot.
 dev-java/icedtea:webstart - Enable Web Start support (via NetX).
 dev-java/icedtea:zero - Enable Zero assembler port (usually for non-HotSpot architectures)
+dev-java/icedtea-bin:awt - Install non-headless AWT libraries, needed by some GUIs (used to be X flag)
 dev-java/icedtea-bin:webstart - Provide javaws command through symlink to icedtea-web
 dev-java/icedtea-web:icedtea7 - Build icedtea-7 support in addition to icedtea-6 support. Requires icedtea{-bin}-7
 dev-java/icedtea-web:javascript - Enable support for using proxy auto config (PAC) files.
@@ -7114,6 +7114,7 @@ sys-boot/refind:reiserfs - Builds the EFI binary reiserfs filesystem driver
 sys-cluster/ceph:babeltrace - Add support for LTTng babeltrace
 sys-cluster/ceph:cryptopp - Use dev-libs/crypto++ for cryptography
 sys-cluster/ceph:fuse - Build fuse client
+sys-cluster/ceph:jemalloc - Use dev-libs/jemalloc for allocations
 sys-cluster/ceph:libaio - Use libaio as asynchronous input/output library
 sys-cluster/ceph:libatomic - Use libatomic instead of builtin atomic operations
 sys-cluster/ceph:lttng - Add support for LTTng
@@ -7281,6 +7282,7 @@ sys-devel/llvm:udis86 - Enable support for dev-libs/udis86 disassembler library
 sys-devel/sparse:gtk - Build the test-inspect utility (requires x11-libs/gtk+ version 2)
 sys-devel/sparse:llvm - Build the sparse-llvm utility
 sys-devel/sparse:xml - Build the c2xml utility (requires dev-libs/libxml2).
+sys-firmware/amdgpu-ucode:legacy - Install firmware for older chipsets which are optionally supported by AMDGPU
 sys-firmware/ipxe:iso - Build a bootable ISO for using PXE
 sys-firmware/ipxe:lkrn - Build a linux kernel bootable file for using with grub/etc...
 sys-firmware/ipxe:qemu - Build the required PXE ROM images for app-emulation/qemu and app-emulation/qemu-kvm
@@ -7834,6 +7836,7 @@ x11-drivers/nvidia-drivers:gtk3 - Install nvidia-settings with support for GTK+ 
 x11-drivers/nvidia-drivers:pax_kernel - PaX patches from the PaX project
 x11-drivers/nvidia-drivers:tools - Install additional tools such as nvidia-settings
 x11-drivers/nvidia-drivers:uvm - Install the Unified Memory kernel module (nvidia-uvm) for sharing memory between CPU and GPU in CUDA programs
+x11-drivers/xf86-video-amdgpu:glamor - Enable Glamor OpenGL 2D acceleration
 x11-drivers/xf86-video-ati:glamor - Enable Glamor OpenGL 2D acceleration
 x11-drivers/xf86-video-geode:ztv - Enable building the V4L2 ZTV driver
 x11-drivers/xf86-video-intel:glamor - Enable Glamor OpenGL 2D acceleration
