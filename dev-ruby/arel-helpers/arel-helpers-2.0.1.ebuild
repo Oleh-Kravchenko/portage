@@ -11,9 +11,9 @@ DESCRIPTION="Tools to help construct database queries"
 HOMEPAGE="https://github.com/camertron/arel-helpers"
 SRC_URI="mirror://rubygems/${P}.gem"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
 
 ruby_add_rdepend "|| ( dev-ruby/activerecord:3.2
