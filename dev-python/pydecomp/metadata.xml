@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>releng</herd>
+	<herd>tools-portage</herd>
 	<maintainer>
 		<email>dolsen@gentoo.org</email>
 		<name>Brian Dolbec</name>
@@ -12,6 +12,7 @@
 		routines.  It can easily be extended with with custom compression,
 		decompression, and contents definitions.
 	</longdescription>
+	<natural-name>pyDeComp</natural-name>
 	<upstream>
 		<remote-id type="github">dol-sen/pyDeComp</remote-id>
 	</upstream>
