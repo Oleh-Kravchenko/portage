@@ -10,12 +10,12 @@ HOMEPAGE="https://github.com/mono/dbus-sharp"
 SRC_URI="https://github.com/mono/${PN}/releases/download/v${PV%.*}/${P}.tar.gz"
 
 LICENSE="MIT"
-SLOT="0"
+SLOT="2.0"
 KEYWORDS="~amd64 ~ppc ~x86"
 IUSE=""
 
 RDEPEND="dev-lang/mono
-	>=dev-dotnet/dbus-sharp-0.8"
+	>=dev-dotnet/dbus-sharp-0.8:2.0"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig"
 
