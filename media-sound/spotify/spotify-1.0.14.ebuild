@@ -25,9 +25,10 @@ RDEPEND="
 	dev-libs/nss
 	gnome-base/gconf
 	media-libs/alsa-lib
-	media-libs/harfbuzz[fontconfig]
+	media-libs/harfbuzz
+	media-libs/fontconfig
 	media-libs/mesa
-	net-misc/curl[rtmp]
+	net-misc/curl
 	net-print/cups[ssl]
 	sys-libs/glibc
 	x11-libs/gtk+:2
@@ -79,6 +80,17 @@ src_install() {
 			"spotify-client.png"
 	done
 	domenu "${S}${SPOTIFY_PKG_HOME}/spotify.desktop"
+	if use pax_kernel; then
+		#create the headers, reset them to default, then paxmark -m them
+		pax-mark C "${ED}${SPOTIFY_HOME}/${PN}" || die
+		pax-mark z "${ED}${SPOTIFY_HOME}/${PN}" || die
+		pax-mark m "${ED}${SPOTIFY_HOME}/${PN}" || die
+		eqawarn "You have set USE=pax_kernel meaning that you intend to run"
+		eqawarn "${PN} under a PaX enabled kernel.  To do so, we must modify"
+		eqawarn "the ${PN} binary itself and this *may* lead to breakage!  If"
+		eqawarn "you suspect that ${PN} is being broken by this modification,"
+		eqawarn "please open a bug."
+	fi
 }
 
 pkg_preinst() {
