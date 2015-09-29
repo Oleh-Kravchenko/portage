@@ -16,7 +16,7 @@ SRC_URI="http://brick.kernel.dk/snaps/${MY_P}.tar.bz2"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ia64 ~ppc ~ppc64 ~x86"
-IUSE="aio glusterfs gnuplot gtk numa rbd rdma zlib"
+IUSE="aio glusterfs gnuplot gtk numa rbd rdma static zlib"
 
 DEPEND="aio? ( dev-libs/libaio )
 	glusterfs? ( !arm? ( sys-cluster/glusterfs ) )
@@ -51,6 +51,7 @@ src_prepare() {
 src_configure() {
 	chmod g-w "${T}"
 	# not a real configure script
+	set -- \
 	./configure \
 		--extra-cflags="${CFLAGS} ${CPPFLAGS}" \
 		--cc="$(tc-getCC)" \
@@ -58,7 +59,9 @@ src_configure() {
 		$(usex gtk '--enable-gfio' '') \
 		$(usex numa '' '--disable-numa') \
 		$(usex rbd '' '--disable-rbd') \
-		|| die 'configure failed'
+		$(usex static '--build-static' '')
+	echo "$@"
+	"$@" || die 'configure failed'
 }
 
 src_compile() {
