@@ -2289,6 +2289,8 @@ dev-python/falcon:cython - Build cython-based python modules
 dev-python/flask-restful:paging - Enable resource paging support
 dev-python/geopy:timezone - Enables localized date support
 dev-python/geopy:yahoo - Enables use of YahooPlaceFinder
+dev-python/glance_store:cinder - adds cinder backend support
+dev-python/glance_store:swift - adds swift backend support
 dev-python/gmpy:mpir - Use sci-libs/mpir as gmp implementation
 dev-python/icalendar:doc - Generate examples and other extra documentation
 dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
@@ -3906,6 +3908,13 @@ media-libs/libvisio:tools - Build conversion tools
 media-libs/libvpx:postproc - Enable additional post processing filters
 media-libs/libwebp:experimental - Build with -DWEBP_EXPERIMENTAL_FEATURES
 media-libs/libwebp:swap-16bit-csp - Enable byte swapping for 16 bit colorspace
+media-libs/libyami:capi - Add a C API interface, in addition to the C++.
+media-libs/libyami:dmabuf - Enable dma_buf buffer sharing.
+media-libs/libyami:gles - Add suppport for GLES.
+media-libs/libyami:glx - Add support for OpenGL/GLX instead of EGL.
+media-libs/libyami:md5 - Add support for generating md5 sums for each frame.
+media-libs/libyami:tools - Build and install command line tools. Useful for testing.
+media-libs/libyami:v4l - Add support for V4L2 hardware codecs.
 media-libs/lilv:dyn-manifest - Add LV2 Dynamic Manifest support. See http://lv2plug.in/ns/ext/dynmanifest/
 media-libs/lv2:plugins - Enables examples plugins.
 media-libs/lvtk:gtk2 - Enable x11-libs/gtk+:2 based GUI support
@@ -4010,7 +4019,10 @@ media-libs/x264:10bit - Set output bit depth to 10, this may not be compatible w
 media-libs/x264:interlaced - enable interlaced encoding support, this can decrease encoding speed by up to 2%
 media-libs/x264:opencl - Add support for OpenCL.
 media-libs/x264:pic - disable optimized assembly code that is not PIC friendly
-media-libs/x265:10bit - Set output bit depth to 10
+media-libs/x265:10bit - Add support for producing 10bits HEVC.
+media-libs/x265:12bit - Add support for producing 12bits HEVC.
+media-libs/x265:numa - Build with support for NUMA nodes.
+media-libs/x265:pic - Disable optimized assembly code that is not PIC friendly
 media-libs/xine-lib:bluray - Enable playback of Blu-ray filesystems using media-libs/libbluray
 media-libs/xine-lib:dxr3 - Enable support for DXR3 mpeg acceleration cards.
 media-libs/xine-lib:flac - Build the media-libs/flac based FLAC demuxer and decoder. This flag is not needed for playing FLAC content, neither standalone nor in Ogg container (OggFLAC), but might have better support for exotic features like 24-bit samples or 96kHz sample rates.
@@ -5576,6 +5588,9 @@ net-libs/nghttp2:jemalloc - Use dev-libs/jemalloc for memory allocation
 net-libs/nghttp2:utils - Install nghttp, nghttpd and nghttpx
 net-libs/nodejs:npm - Enable NPM package manager
 net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
+net-libs/onion:boehm-gc - Add dev-libs/boehm-gc support for memory allocations.
+net-libs/onion:libev - Use dev-libs/libev as thread poller instead of Linux's epoll.
+net-libs/onion:libevent - Use dev-libs/libevent as thread poller instead of libev or Linux's epoll.
 net-libs/opal:capi - Enable CAPI support
 net-libs/opal:celt - Enable CELT ultra-low delay audio codec
 net-libs/opal:dtmf - Enable DTMF encoding/decoding support
@@ -7845,6 +7860,7 @@ www-servers/monkeyd:static-plugins - Build statically linked plugins
 www-servers/nginx:aio - Enables file AIO support
 www-servers/nginx:http - Enable HTTP core support
 www-servers/nginx:http-cache - Enable HTTP cache support
+www-servers/nginx:http2 - Enable HTTP2 module support
 www-servers/nginx:libatomic - Use libatomic instead of builtin atomic operations
 www-servers/nginx:luajit - Use dev-lang/luajit instead of dev-lang/lua for lua support when building the lua http module.
 www-servers/nginx:pcre-jit - Enable JIT for pcre
