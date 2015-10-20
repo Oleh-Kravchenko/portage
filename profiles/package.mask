@@ -30,6 +30,15 @@
 
 #--- END OF EXAMPLES ---
 
+# James Le Cuirot <chewi@gentoo.org> (19 Oct 2015)
+# Dead projects with no revdeps. Removal in 30 days.
+dev-java/commons-attributes
+dev-java/xjavadoc
+
+# Mike Frysinger <vapier@gentoo.org> (18 Oct 2015)
+# apache-2.4.17 includes support for http2 now.
+www-apache/mod_h2
+
 # Ian Delaney <idella4@gwntoo.org (18 Oct 2015)
 # Amy Winston <amynka@gentoo.org> (18 Oct 2015)
 # Fails to build for ages. Lot of bugs repaired
