@@ -30,6 +30,16 @@
 
 #--- END OF EXAMPLES ---
 
+# Matt Turner <mattst88@gentoo.org> (Oct 27 2015)
+# xproto-7.0.28 breaks xorg-server
+>=x11-proto/xproto-7.0.28
+
+# Ian Delaney <idella4@gentoo.org> (27 Oct 2015)
+# fails to build dev-lisp/sbcl-1.2.16 #563812
+# mgorny: dev-lisp/uiop as version-bound revdep
+=dev-lisp/asdf-3.1.6
+=dev-lisp/uiop-3.1.6
+
 # Justin Lecher <jlec@gentoo.org> (23 Oct 2015)
 # Breaking changes #563540
 =app-text/ghostscript-gpl-9.18
@@ -203,17 +213,6 @@ dev-util/bunny
 # Michael Orlitzky <mjo@gentoo.org> (21 Sep 2015)
 # Mask for removal in 30 days. Obsolete. Bug #561040.
 dev-php/smarty-docs
-
-# Ian Delaney <idella4@gentoo.org> (21 Jul 2015)
-# Packages deprecated in favour of new form of
-# net-firewall/shorewall
-# Bug #560392
-net-firewall/shorewall-core
-net-firewall/shorewall-init
-net-firewall/shorewall-lite
-net-firewall/shorewall6
-net-firewall/shorewall6-lite
-<net-firewall/shorewall-4.6.10.1
 
 # Andreas K. Huettel <dilfridge@gentoo.org> (19 Sep 2015)
 # Masked for security reasons, bugs 516044, 552644
