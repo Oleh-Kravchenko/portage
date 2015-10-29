@@ -4883,10 +4883,7 @@ media-video/x264-encoder:avs - enable AvxSynth support in the AviSynth input mod
 media-video/x264-encoder:ffmpegsource - Enable ffmpegsource aka ffms support, disables lavf
 media-video/x264-encoder:interlaced - Enable interlaced encoding support, this can decrease encoding speed by up to 2%
 media-video/xine-ui:vdr - Enables Video Disk Recorder support
-net-analyzer/2ping:crc - Enable crc check.
-net-analyzer/2ping:md5 - Enable md5 hash check.
 net-analyzer/2ping:server - Install the server init scripts.
-net-analyzer/2ping:sha - Enable sha1 or sha256 check.
 net-analyzer/aimsniff:http - Install the WAS (Web AIM Sniff) frontend
 net-analyzer/argus-clients:ft - Enable support for flow packets through net-analyzer/flow-tools
 net-analyzer/barnyard:sguil - Enable sguil (The Analyst Console for Network Security Monitoring) support
@@ -7901,11 +7898,13 @@ www-servers/cherokee:admin - Install web based cherokee conf tool
 www-servers/cherokee:rrdtool - Enable rrdtool support
 www-servers/fnord:auth - Enable HTTP authentication support
 www-servers/gatling:diet - Compile against dev-libs/dietlibc
-www-servers/hiawatha:cache - Enable caching of content.
-www-servers/hiawatha:monitor - Pull in www-apps/hiawatha-monitor.
-www-servers/hiawatha:rewrite - Enable the rewrite toolkit.
-www-servers/hiawatha:tomahawk - Enable Tomahawk control server.
-www-servers/hiawatha:xslt - Enable XSLT support. This is also needed for directory listings.
+www-servers/hiawatha:cache - Enable caching of content
+www-servers/hiawatha:monitor - Pull in www-apps/hiawatha-monitor
+www-servers/hiawatha:rewrite - Enable the rewrite toolkit
+www-servers/hiawatha:rproxy - Enable reverse proxy support
+www-servers/hiawatha:ssl - Enable TLS support via net-libs/mbedtls
+www-servers/hiawatha:tomahawk - Enable Tomahawk control server
+www-servers/hiawatha:xslt - Enable XSLT support. This is also needed for directory listings
 www-servers/lighttpd:libev - Enable fdevent handler
 www-servers/lighttpd:memcache - Enable memcache support for mod_cml and mod_trigger_b4_dl
 www-servers/lighttpd:mmap - Use mmap with files owned by lighttpd. This is a dangerous option as it may allow local users to trigger SIGBUS crashes.
@@ -8079,6 +8078,7 @@ x11-misc/redshift:appindicator - Enable usage of dev-libs/libappindicator to exp
 x11-misc/redshift:geoclue - Control dependency on app-misc/geoclue
 x11-misc/rodent:experimental - Build experimental plugins (obexfs, curlftpfs, ecryptfs, cifs and samba)
 x11-misc/rofi:i3 - Compile in support for the x11-wm/i3 window manager
+x11-misc/rofi:windowmode - Enable normal window mode
 x11-misc/rss-glx:quesoglc - Enable support for OpenGL Character Renderer
 x11-misc/sddm:consolekit - Use ck-launch-session from sys-auth/consolekit by default in Xsession (no native support)
 x11-misc/shutter:drawing - Enables drawing tool
