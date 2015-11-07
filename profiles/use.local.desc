@@ -598,7 +598,6 @@ app-emulation/lxc:cgmanager - Enable support for cgroup management using app-adm
 app-emulation/lxd:btrfs - Add support for managing instance/snapshot disk using btrfs subvolumes
 app-emulation/lxd:criu - Add support for live-migrateable containers
 app-emulation/lxd:daemon - Build the system daemon, not just the client tool
-app-emulation/lxd:image - Installs the lxd-images image-fetching script
 app-emulation/lxd:lvm - Allow using the Logical Volume Manager as pool for disk image storage
 app-emulation/open-vm-tools:doc - Generate API documentation
 app-emulation/open-vm-tools:fuse - Build vmblock-fuse in favor of FUSE based blocking mechanism for DnD
