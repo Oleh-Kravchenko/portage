@@ -596,10 +596,7 @@ app-emulation/libvirt:virtualbox - Support management of VirtualBox virtualisati
 app-emulation/libvirt:wireshark-plugins - Build the net-analyzer/wireshark plugin for the Libvirt RPC protocol
 app-emulation/libvirt:xen - Support management of Xen virtualisation (app-emulation/xen)
 app-emulation/lxc:cgmanager - Enable support for cgroup management using app-admin/cgmanager
-app-emulation/lxd:btrfs - Add support for managing instance/snapshot disk using btrfs subvolumes
-app-emulation/lxd:criu - Add support for live-migrateable containers
 app-emulation/lxd:daemon - Build the system daemon, not just the client tool
-app-emulation/lxd:lvm - Allow using the Logical Volume Manager as pool for disk image storage
 app-emulation/open-vm-tools:doc - Generate API documentation
 app-emulation/open-vm-tools:fuse - Build vmblock-fuse in favor of FUSE based blocking mechanism for DnD
 app-emulation/open-vm-tools:grabbitmqproxy - Enable grabbitmqproxy
@@ -659,6 +656,7 @@ app-emulation/spice-vdagent:consolekit - Use sys-auth/consolekit to determine th
 app-emulation/uae:scsi - Enable the uaescsi.device
 app-emulation/vice:ethernet - Enable ethernet emulation
 app-emulation/vice:fullscreen - Enable the ability to run fullscreen
+app-emulation/vice:gtk2 - Use GTK+2 for GUI instead of GTK+3
 app-emulation/vice:memmap - Enable extra monitor features
 app-emulation/vice:sdlsound - Use media-libs/libsdl for sound support
 app-emulation/vice:vte - Enable support for x11-libs/vte in the GTK+ interface
@@ -2943,6 +2941,7 @@ games-engines/scummvm:mpeg2 - enable mpeg2 codec for cutscenes
 games-engines/scummvm:unsupported - enable unsupported and/or broken game engines (you're on your own)
 games-engines/solarus:doc - Install doxygen developer documentation.
 games-engines/solarus:luajit - Use LuaJIT instead of default Lua.
+games-engines/stratagus:fluidsynth - compile with support for fluidsynth
 games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
 games-fps/darkplaces:cdsound - Enables using CD audio in the engine
 games-fps/darkplaces:demo - Uses the demo data from quake1 (quake1-demodata)
@@ -3398,6 +3397,7 @@ kde-plasma/kinfocenter:pci - Show advanced PCI information
 kde-plasma/kinfocenter:samba - Show information about Samba mounts, shares and log entries
 kde-plasma/kmenuedit:hotkeys - Enable support for hotkey editing
 kde-plasma/kwin:gles2 - Use OpenGL ES 2 instead of full GL
+kde-plasma/kwin:multimedia - Enable effect video button in desktop effects KCM
 kde-plasma/libksysguard:processui - Enables the Interface to view process libs.
 kde-plasma/plasma-desktop:evdev - Enable configuration module for desktop input devices.
 kde-plasma/plasma-desktop:gtk2 - Add support for gtk+2-based applications using legacy xembed systray icons via libappindicator.
@@ -6607,7 +6607,6 @@ sci-chemistry/molequeue:zeromq - Build with net-libs/zeromq support
 sci-chemistry/mopac7:gmxmopac7 - Add support library for gromacs
 sci-chemistry/pdb2pqr:opal - Add web interface via opal
 sci-chemistry/pdb2pqr:pdb2pka - Install experimental pdb2pka interface
-sci-chemistry/pymol:apbs - Install the apbs plugin
 sci-chemistry/pymol:web - Install Pymodule needed for web app support
 sci-chemistry/raster3d:gd - libgd support for PNG and JPEG output
 sci-chemistry/vmd:cuda - Use nvidia cuda toolkit for speeding up computations

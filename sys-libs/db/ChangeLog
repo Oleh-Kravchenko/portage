@@ -1,0 +1,101 @@
+# ChangeLog for sys-libs/db
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*db-6.1.26 (09 Aug 2015)
+*db-6.0.35 (09 Aug 2015)
+*db-6.0.30-r1 (09 Aug 2015)
+*db-5.3.28-r2 (09 Aug 2015)
+*db-5.1.29-r1 (09 Aug 2015)
+*db-4.8.30-r2 (09 Aug 2015)
+*db-4.8.30-r1 (09 Aug 2015)
+*db-4.7.25_p4 (09 Aug 2015)
+*db-4.6.21_p4 (09 Aug 2015)
+*db-4.5.20_p2-r1 (09 Aug 2015)
+*db-4.4.20_p4-r1 (09 Aug 2015)
+*db-4.3.29_p1-r1 (09 Aug 2015)
+*db-4.2.52_p5-r1 (09 Aug 2015)
+*db-3.2.9_p2 (09 Aug 2015)
+*db-1.85-r3 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +db-1.85-r3.ebuild,
+  +db-3.2.9_p2.ebuild, +db-4.2.52_p5-r1.ebuild, +db-4.3.29_p1-r1.ebuild,
+  +db-4.4.20_p4-r1.ebuild, +db-4.5.20_p2-r1.ebuild, +db-4.6.21_p4.ebuild,
+  +db-4.7.25_p4.ebuild, +db-4.8.30-r1.ebuild, +db-4.8.30-r2.ebuild,
+  +db-5.1.29-r1.ebuild, +db-5.3.28-r2.ebuild, +db-6.0.30-r1.ebuild,
+  +db-6.0.35.ebuild, +db-6.1.26.ebuild, +files/db-1.85-gentoo-paths.patch,
+  +files/db-3.2.9-fix-dep-link.patch, +files/db-3.2.9-gcc43.patch,
+  +files/db-3.2.9-jarlocation.patch, +files/db-3.2.9-java15.patch,
+  +files/db-4.0.14-fix-dep-link.patch, +files/db-4.0.14-jarlocation.patch,
+  +files/db-4.2-jarlocation.patch, +files/db-4.2-jni-check-prefix-first.patch,
+  +files/db-4.2-libtool.patch, +files/db-4.2-listen-to-java-options.patch,
+  +files/db-4.2.52_p2-TXN.patch, +files/db-4.3-jarlocation.patch,
+  +files/db-4.3-jni-check-prefix-first.patch, +files/db-4.3-libtool.patch,
+  +files/db-4.3-listen-to-java-options.patch,
+  +files/db-4.3.27-fix-dep-link.patch, +files/db-4.4-jarlocation.patch,
+  +files/db-4.4-libtool.patch, +files/db-4.5-jarlocation.patch,
+  +files/db-4.5-libtool.patch, +files/db-4.6-jarlocation.patch,
+  +files/db-4.6-jni-check-prefix-first.patch, +files/db-4.6-libtool.patch,
+  +files/db-4.8-libtool.patch, +files/db-4.8.24-java-manifest-location.patch,
+  +files/db-4.8.30-rename-atomic-compare-exchange.patch,
+  +files/db-5.0.21-enable-dbm-autoconf.patch,
+  +files/db-5.2.28-sqlite-configure-path.patch,
+  +files/db-6.0.19-sqlite-configure-path.patch,
+  +files/db-6.0.20-test-link.patch,
+  +files/db-6.0.35-sqlite-configure-path.patch,
+  +files/db-6.1.19-sqlite-configure-path.patch, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  02 Sep 2015; Justin Lecher <jlec@gentoo.org> db-3.2.9_p2.ebuild,
+  metadata.xml:
+  Move CXXFLAGS alteration to local scope
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

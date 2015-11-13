@@ -1,0 +1,114 @@
+# ChangeLog for sys-apps/policycoreutils
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*policycoreutils-9999 (09 Aug 2015)
+*policycoreutils-2.4-r1 (09 Aug 2015)
+*policycoreutils-2.4 (09 Aug 2015)
+*policycoreutils-2.3-r3 (09 Aug 2015)
+*policycoreutils-2.2.5-r4 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/0001-policycoreutils-pp-add-roletype-statements-for-both-.patch,
+  +files/0010-remove-sesandbox-support.patch,
+  +files/0020-disable-autodetection-of-pam-and-audit.patch,
+  +files/0030-make-inotify-check-use-flag-triggered.patch,
+  +files/0040-reverse-access-check-in-run_init.patch,
+  +files/0070-remove-symlink-attempt-fails-with-gentoo-sandbox-approach.patch,
+  +files/0110-build-mcstrans-bug-472912.patch,
+  +files/0120-build-failure-for-mcscolor-for-CONTEXT__CONTAINS.patch,
+  +metadata.xml, +policycoreutils-2.2.5-r4.ebuild,
+  +policycoreutils-2.3-r3.ebuild, +policycoreutils-2.4.ebuild,
+  +policycoreutils-2.4-r1.ebuild, +policycoreutils-9999.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  policycoreutils-2.2.5-r4.ebuild, policycoreutils-2.3-r3.ebuild,
+  policycoreutils-2.4-r1.ebuild, policycoreutils-9999.ebuild:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  25 Aug 2015; Sven Vermeulen <swift@gentoo.org> +files/0130-Only-invoke-RPM-o
+  n-RPM-enabled-Linux-distributions-bug-534682.patch, +files/0140-Set-self.sen
+  ame-to-sename-after-calling-semanage-bug-557370.patch,
+  policycoreutils-9999.ebuild:
+  Support policy generation and don't fail on user modification
+
+  Two bugs have been reported where (1.) generating policies using
+  "sepolgen generate" failed and (2.) changing user definitions failed. Both
+  have been fixed upstream, and are now taken part of our patchset.
+
+  Gentoo-Bug: 557370
+  Gentoo-Bug: 534682
+
+  Package-Manager: portage-2.2.20.1
+
+*policycoreutils-2.4-r2 (25 Aug 2015)
+
+  25 Aug 2015; Sven Vermeulen <swift@gentoo.org>
+  +policycoreutils-2.4-r2.ebuild:
+  Release 2.4-r2 with fixes for bugs 557370 and 534682
+
+  This releases policycoreutils-2.4-r2 with fixes for
+  - modifying user definitions (bug 557370)
+  - building policies using sepolgen generate (bug 534682)
+
+  Gentoo-Bug: 557370
+  Gentoo-Bug: 534682
+
+  Package-Manager: portage-2.2.20.1
+
+  26 Aug 2015; Jason Zaman <perfinion@gentoo.org>
+  policycoreutils-2.4-r2.ebuild:
+  2.4-r2 does not have python3 support yet
+
+  Package-Manager: portage-2.2.20.1
+
+  10 Oct 2015; Jason Zaman <perfinion@gentoo.org>
+  policycoreutils-2.4-r1.ebuild, policycoreutils-2.4-r2.ebuild:
+  Stabilize for amd64 and x86
+
+  Package-Manager: portage-2.2.20.1
+

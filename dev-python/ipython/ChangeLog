@@ -1,0 +1,183 @@
+# ChangeLog for dev-python/ipython
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*ipython-3.2.1 (09 Aug 2015)
+*ipython-3.2.0 (09 Aug 2015)
+*ipython-2.2.0-r1 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/2.1.0-disable-tests.patch, +files/2.1.0-substitute-files.patch,
+  +files/ipython-2.2.0-login-backport.patch, +ipython-2.2.0-r1.ebuild,
+  +ipython-3.2.0.ebuild, +ipython-3.2.1.ebuild, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  15 Aug 2015; Jeroen Roovers <jer@gentoo.org> ipython-3.2.1.ebuild:
+  Stable for PPC64 (bug #554868).
+
+  Package-Manager: portage-2.2.20.1
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  25 Aug 2015; Agostino Sarubbo <ago@gentoo.org> ipython-3.2.1.ebuild:
+  amd64 stable wrt bug #554868
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  25 Aug 2015; Agostino Sarubbo <ago@gentoo.org> ipython-3.2.1.ebuild:
+  x86 stable wrt bug #554868
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+  26 Aug 2015; Agostino Sarubbo <ago@gentoo.org> ipython-3.2.1.ebuild:
+  ppc stable wrt bug #554868
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  02 Sep 2015; Justin Lecher <jlec@gentoo.org> ipython-2.2.0-r1.ebuild,
+  ipython-3.2.0.ebuild, ipython-3.2.1.ebuild:
+  Move setuptools from CDEPEND to DEPEND
+
+  Closes gentoo/gentoo#62
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  11 Sep 2015; Mike Frysinger <vapier@gentoo.org> ipython-3.2.1.ebuild:
+  add mips love
+
+*ipython-3.2.1-r1 (17 Sep 2015)
+
+  17 Sep 2015; Marius Brehler <marbre@linux.sungazer.de>
+  +files/ipython-3.2.1-Don-t-redirect-from-edit-to-files.patch,
+  +files/ipython-3.2.1-only-redirect-to-editor-for-text-documents.patch,
+  +files/ipython-3.2.1-set-mime-type-on-files.patch,
+  +files/ipython-3.2.1-set-model-mimetype-even-when-content-False.patch,
+  +ipython-3.2.1-r1.ebuild:
+  Fix security issue
+
+  "Maliciously crafted text files in IPython/Jupyter editor"
+  http://seclists.org/oss-sec/2015/q3/558
+  https://bugs.gentoo.org/show_bug.cgi?id=560708
+
+  Package-Manager: portage-2.2.20.1
+
+  18 Sep 2015; Agostino Sarubbo <ago@gentoo.org> ipython-3.2.1-r1.ebuild:
+  amd64 stable wrt bug #560708
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  18 Sep 2015; Agostino Sarubbo <ago@gentoo.org> ipython-3.2.1-r1.ebuild:
+  x86 stable wrt bug #560708
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+  20 Sep 2015; Jeroen Roovers <jer@gentoo.org> ipython-3.2.1-r1.ebuild:
+  Stable for PPC64 (bug #560708).
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --ignore-arches
+
+  22 Sep 2015; Agostino Sarubbo <ago@gentoo.org> ipython-3.2.1-r1.ebuild:
+  ppc stable wrt bug #560708
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  22 Sep 2015; Justin Lecher <jlec@gentoo.org>
+  -files/ipython-2.2.0-login-backport.patch, -ipython-3.2.0.ebuild,
+  -ipython-3.2.1.ebuild:
+  Drop vulnerable version
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=560708
+
+  Package-Manager: portage-2.2.21
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  10 Oct 2015; Markus Meier <maekke@gentoo.org> ipython-3.2.1-r1.ebuild:
+  arm stable, bug #554868
+
+  Package-Manager: portage-2.2.22
+  RepoMan-Options: --include-arches="arm"
+
+  10 Oct 2015; Justin Lecher <jlec@gentoo.org>
+  -files/2.1.0-disable-tests.patch, -ipython-2.2.0-r1.ebuild:
+  Drop vulnerable version (CVE-2015-5607, CVE-2015-7337)
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=554868
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=560708
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  21 Oct 2015; Justin Lecher <jlec@gentoo.org> ipython-3.2.1-r1.ebuild:
+  Add python3.5 support
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  03 Nov 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  metadata.xml: Correct broken text in ja longdescriptions
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  03 Nov 2015; Guilherme Amadio <amadio@gentoo.org> metadata.xml:
+  metadata.xml: Correct text in ja longdescriptions
+
+  Signed-off-by: Guilherme Amadio <amadio@gentoo.org>
+
+  11 Nov 2015; Justin Lecher <jlec@gentoo.org> ipython-3.2.1-r1.ebuild:
+  Depend on threading support in python
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

@@ -1,0 +1,89 @@
+# ChangeLog for app-portage/eclass-manpages
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*eclass-manpages-20150113 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +eclass-manpages-20150113.ebuild, +files/eclass-to-manpage.awk,
+  +files/eclass-to-manpage.sh, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  09 Aug 2015; Ulrich Müller <ulm@gentoo.org> files/eclass-to-manpage.sh:
+  [QA] Remove executable bit from files, bug 550434.
+
+*eclass-manpages-20150814 (14 Aug 2015)
+
+  14 Aug 2015; Mike Frysinger <vapier@gentoo.org>
+  -eclass-manpages-20150113.ebuild, +eclass-manpages-20150814.ebuild,
+  files/eclass-to-manpage.awk, files/eclass-to-manpage.sh:
+  update URL after git migration
+
+  14 Aug 2015; Mike Frysinger <vapier@gentoo.org> files/eclass-to-manpage.awk:
+  add a check for the @ECLASS name #537392
+
+  14 Aug 2015; Mike Frysinger <vapier@gentoo.org> files/eclass-to-manpage.awk:
+  fix gensub warnings
+
+  Newer gawk warns when you use an empty string with the 3rd arg to gensub
+  since that only accepts "g", "G", or a number.
+
+  14 Aug 2015; Mike Frysinger <vapier@gentoo.org> files/eclass-to-manpage.awk,
+  files/eclass-to-manpage.sh:
+  pass up exit codes to the caller
+
+  This will let us make errors in the docs fatal in the ebuild if we want.
+
+  14 Aug 2015; Mike Frysinger <vapier@gentoo.org>
+  eclass-manpages-20150814.ebuild:
+  fail when there are errors in eclass docs
+
+  This will get people to file bugs when developers break the documentation.
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org>
+  eclass-manpages-20150814.ebuild, metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+

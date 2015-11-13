@@ -1,0 +1,132 @@
+# ChangeLog for dev-java/icedtea-bin
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*icedtea-bin-7.2.5.5-r1 (09 Aug 2015)
+*icedtea-bin-7.2.5.5 (09 Aug 2015)
+*icedtea-bin-6.1.13.7-r1 (09 Aug 2015)
+*icedtea-bin-6.1.13.7 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +files/icedtea-bin-6.env,
+  +files/icedtea-bin-7.env, +icedtea-bin-6.1.13.7.ebuild,
+  +icedtea-bin-6.1.13.7-r1.ebuild, +icedtea-bin-7.2.5.5.ebuild,
+  +icedtea-bin-7.2.5.5-r1.ebuild, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> icedtea-bin-6.1.13.7.ebuild,
+  icedtea-bin-6.1.13.7-r1.ebuild, icedtea-bin-7.2.5.5.ebuild,
+  icedtea-bin-7.2.5.5-r1.ebuild, metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+*icedtea-bin-7.2.6.1 (02 Sep 2015)
+*icedtea-bin-7.2.5.6 (02 Sep 2015)
+*icedtea-bin-6.1.13.8 (02 Sep 2015)
+
+  02 Sep 2015; James Le Cuirot <chewi@gentoo.org>
+  -icedtea-bin-6.1.13.7-r1.ebuild, +icedtea-bin-6.1.13.8.ebuild,
+  -icedtea-bin-7.2.5.5-r1.ebuild, +icedtea-bin-7.2.5.6.ebuild,
+  +icedtea-bin-7.2.6.1.ebuild, metadata.xml:
+  Version bumps to address security vulnerabilities
+
+  6.1.13.8 to replace vulnerable 6.1.13.7, plus 7.2.5.6 and 7.2.6.1 to
+  replace vulnerable 7.2.5.5. 7.2.5.6 is needed for ppc because
+  non-HotSpot builds are broken under 7.2.6.1. See IcedTea #2058 [1].
+
+  Also fixes:
+
+   * Removal of binaries depending on X (#441618)
+   * Removal of hard dependency on CUPS (#486042)
+   * Addition of missing FreeType dependency (#510566)
+
+  [1] http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=2058
+
+  Package-Manager: portage-2.2.20.1
+
+  06 Sep 2015; Agostino Sarubbo <ago@gentoo.org> icedtea-bin-6.1.13.8.ebuild,
+  icedtea-bin-7.2.6.1.ebuild:
+  amd64 stable wrt bug #559532
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  06 Sep 2015; Agostino Sarubbo <ago@gentoo.org> icedtea-bin-6.1.13.8.ebuild,
+  icedtea-bin-7.2.6.1.ebuild:
+  x86 stable wrt bug #559532
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+*icedtea-bin-7.2.5.6-r1 (07 Sep 2015)
+*icedtea-bin-6.1.13.8-r1 (07 Sep 2015)
+
+  07 Sep 2015; James Le Cuirot <chewi@gentoo.org>
+  -icedtea-bin-6.1.13.8.ebuild, +icedtea-bin-6.1.13.8-r1.ebuild,
+  -icedtea-bin-7.2.5.6.ebuild, +icedtea-bin-7.2.5.6-r1.ebuild:
+  6 and 7 rebuilt for ppc with dynamic heap fix
+
+  It has been discovered that CACAO has been giving us memory problems
+  because it had a fixed default heap size of only 128MB, whereas
+  HotSpot uses a quarter of the physical RAM. I have patched CACAO to do
+  the same. See IcedTea bugs #2611 and #2612.
+
+  6.1.13.8-r1 goes straight to stable for amd64 and x86 because only the
+  core ppc tarball has changed.
+
+  Package-Manager: portage-2.2.20.1
+
+  08 Sep 2015; Agostino Sarubbo <ago@gentoo.org>
+  icedtea-bin-6.1.13.8-r1.ebuild, icedtea-bin-7.2.5.6-r1.ebuild:
+  ppc stable wrt bug #559532
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  08 Sep 2015; James Le Cuirot <chewi@gentoo.org>
+  -icedtea-bin-6.1.13.7.ebuild, -icedtea-bin-7.2.5.5.ebuild:
+  Remove vulnerable versions wrt bug #559532
+
+  Package-Manager: portage-2.2.20.1
+

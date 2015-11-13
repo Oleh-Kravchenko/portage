@@ -1,0 +1,151 @@
+# ChangeLog for dev-lisp/sbcl
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*sbcl-1.2.13 (09 Aug 2015)
+*sbcl-1.2.11 (09 Aug 2015)
+*sbcl-1.2.10 (09 Aug 2015)
+*sbcl-1.2.9 (09 Aug 2015)
+*sbcl-1.2.7 (09 Aug 2015)
+*sbcl-1.2.6 (09 Aug 2015)
+*sbcl-1.2.4 (09 Aug 2015)
+*sbcl-1.2.2 (09 Aug 2015)
+*sbcl-1.1.18 (09 Aug 2015)
+*sbcl-1.0.55-r1 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/bsd-sockets-test-1.2.11.patch, +files/bsd-sockets-test-1.2.6.patch,
+  +files/bsd-sockets-test-1.2.7.patch, +files/bsd-sockets-test-1.2.9.patch,
+  +files/bsd-sockets-test-1.2.patch, +files/bsd-sockets-test.patch,
+  +files/concurrency-test-1.2.6.patch, +files/concurrency-test.patch,
+  +files/gentoo-fix_install_man.patch, +files/gentoo-fix_linux-os-c.patch,
+  +files/gentoo-fix_nopie_for_hardened_toolchain.patch,
+  +files/gentoo_fix_waitpid_c.patch, +files/sbcl-1.0.55-newglibc.patch,
+  +files/sbcl-1.0.55_no_doc_install.patch, +files/sbcl-1.0.6-solaris.patch,
+  +files/sbcl-1.1.17-gentoo-fix_nopie_for_hardened_toolchain.patch,
+  +files/sbcl-1.2.11-solaris.patch, +files/sbcl-1.2.13-verbose-build.patch,
+  +files/sbcl-1.2.7-verbose-build.patch, +metadata.xml,
+  +sbcl-1.0.55-r1.ebuild, +sbcl-1.1.18.ebuild, +sbcl-1.2.2.ebuild,
+  +sbcl-1.2.4.ebuild, +sbcl-1.2.6.ebuild, +sbcl-1.2.7.ebuild,
+  +sbcl-1.2.9.ebuild, +sbcl-1.2.10.ebuild, +sbcl-1.2.11.ebuild,
+  +sbcl-1.2.13.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+*sbcl-1.2.14 (27 Aug 2015)
+
+  27 Aug 2015; Chema Alonso Josa <nimiux@gentoo.org> +sbcl-1.2.14.ebuild:
+  bump to version 1.2.14
+
+  Package-Manager: portage-2.2.20.1
+
+  29 Aug 2015; Andrey Grozin <grozin@gentoo.org>
+  -files/bsd-sockets-test-1.2.6.patch, -files/bsd-sockets-test-1.2.7.patch,
+  -files/bsd-sockets-test-1.2.9.patch,
+  -files/gentoo-fix_nopie_for_hardened_toolchain.patch,
+  -files/gentoo_fix_waitpid_c.patch, -files/sbcl-1.0.55-newglibc.patch,
+  -files/sbcl-1.0.55_no_doc_install.patch, -files/sbcl-1.0.6-solaris.patch,
+  -files/sbcl-1.2.7-verbose-build.patch, -sbcl-1.0.55-r1.ebuild,
+  -sbcl-1.2.2.ebuild, -sbcl-1.2.4.ebuild, -sbcl-1.2.6.ebuild,
+  -sbcl-1.2.7.ebuild, -sbcl-1.2.9.ebuild, -sbcl-1.2.10.ebuild,
+  -sbcl-1.2.11.ebuild:
+  cleaning old versions
+
+  Package-Manager: portage-2.2.20.1
+
+  29 Aug 2015; Andrey Grozin <grozin@gentoo.org> sbcl-1.2.14.ebuild:
+  update BV_AMD64 in sbcl-1.2.14
+
+  Package-Manager: portage-2.2.20.1
+
+*sbcl-1.2.15 (07 Sep 2015)
+
+  07 Sep 2015; Andrey Grozin <grozin@gentoo.org> +sbcl-1.2.15.ebuild:
+  version bump
+
+  Bug: 559700
+
+  Package-Manager: portage-2.2.20.1
+
+  22 Sep 2015; Andrey Grozin <grozin@gentoo.org>
+  +files/sb-posix-test-1.2.15.patch, metadata.xml, sbcl-1.2.15.ebuild:
+  comment out a test in posix-tests.lisp
+
+  Bugs: 560276, 561018
+
+  Package-Manager: portage-2.2.20.1
+
+*sbcl-1.2.16 (08 Oct 2015)
+
+  08 Oct 2015; José María Alonso Josa <nimiux@gentoo.org> +sbcl-1.2.16.ebuild:
+  Bump to version 1.2.16
+
+  Package-Manager: portage-2.2.20.1
+
+  10 Oct 2015; Andrey Grozin <grozin@gentoo.org> sbcl-1.2.16.ebuild:
+  bump to 1.2.16
+
+  Package-Manager: portage-2.2.22
+
+  12 Oct 2015; Andrey Grozin <grozin@gentoo.org> sbcl-1.2.16.ebuild:
+  fix BV_X64_MACOS
+
+  Package-Manager: portage-2.2.22
+
+  27 Oct 2015; Magnus Granberg <zorry@gentoo.org> sbcl-1.2.16.ebuild:
+  dev-lips/sbcl: fix broken pax_kernel deps #557212
+
+  Package-Manager: portage-2.2.23
+
+*sbcl-1.3.0 (04 Nov 2015)
+
+  04 Nov 2015; Andrey Grozin <grozin@gentoo.org> +sbcl-1.3.0.ebuild:
+  bump to 1.3.0
+
+  Package-Manager: portage-2.2.23
+

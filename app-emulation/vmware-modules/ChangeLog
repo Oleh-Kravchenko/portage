@@ -1,0 +1,132 @@
+# ChangeLog for app-emulation/vmware-modules
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*vmware-modules-279.3 (09 Aug 2015)
+*vmware-modules-279.2 (09 Aug 2015)
+*vmware-modules-279.1-r1 (09 Aug 2015)
+*vmware-modules-271.3 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +files/271-3.10.0.patch,
+  +files/271-apic.patch, +files/271-filldir.patch,
+  +files/271-makefile-include.patch, +files/271-makefile-kernel-dir.patch,
+  +files/271-netdevice.patch, +files/271-putname.patch,
+  +files/271-vfsfollowlink.patch, +files/271-vmmon.patch,
+  +files/279-apic.patch, +files/279-filldir.patch, +files/279-hardened.patch,
+  +files/279-makefile-include.patch, +files/279-makefile-kernel-dir.patch,
+  +files/279-netdevice.patch, +files/279-putname.patch,
+  +files/279-vfsfollowlink.patch, +files/279-vmblock.patch,
+  +files/hardened.patch, +metadata.xml, +vmware-modules-271.3.ebuild,
+  +vmware-modules-279.1-r1.ebuild, +vmware-modules-279.2.ebuild,
+  +vmware-modules-279.3.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+*vmware-modules-304.2 (04 Sep 2015)
+*vmware-modules-304.0 (04 Sep 2015)
+*vmware-modules-279.6 (04 Sep 2015)
+*vmware-modules-271.3-r1 (04 Sep 2015)
+
+  04 Sep 2015; Andreas K. Huettel (dilfridge) <dilfridge@gentoo.org>
+  +files/271-3.10-00-userns.patch, +files/271-3.10-01-create_proc_entry.patch,
+  +files/271-3.10-02-getname.patch, +files/271-3.10-03-deprecated.patch,
+  +files/271-3.10-04-unused-typedef.patch, +files/271-3.10-05-dentry.patch,
+  +files/271-3.10-06-inode.patch, +files/271-3.10-07-hub.patch,
+  +files/271-3.11-00-readdir.patch, +files/271-3.11-01-filldir.patch,
+  +files/271-3.13-00-vmnet.patch, +files/271-3.15-00-readlink.patch,
+  +files/271-3.15-01-vsock.patch, +files/271-3.17-00-netdev.patch,
+  +files/271-3.19-00-vmnet-warning.patch,
+  +files/271-3.19-01-vmblock-path.patch, +files/271-3.19-02-vmci.patch,
+  +files/271-3.19-03-vmnet.patch, +files/271-3.19-04-vsock.patch,
+  +files/271-3.19-05-vsock.patch, +files/271-3.19-06-vmci_qpair.patch,
+  +files/271-hardened.patch, +files/279-3.10-00-userns.patch,
+  +files/279-3.10-01-getname.patch, +files/279-3.10-03-deprecated.patch,
+  +files/279-3.10-04-dentry.patch, +files/279-3.10-05-inode.patch,
+  +files/279-3.15-00-readlink.patch, +files/279-3.15-01-vsock.patch,
+  +files/279-3.17-00-netdev.patch, +files/279-3.18-00-version-redefined.patch,
+  +files/279-3.19-00-compat-namei.patch, +files/279-3.19-01-dentry.patch,
+  +files/279-3.19-02-vmblock-path.patch, +files/279-3.19-03-iovec.patch,
+  +files/279-3.19-04-iovec.patch, +files/279-3.19-05-vmci_qpair.patch,
+  +files/279-3.19-06-vsock.patch, +files/279-3.19-07-vsock.patch,
+  +files/279-5.10-00-userns.patch, +files/304-3.10-00-dentry.patch,
+  +files/304-3.10-01-inode.patch, +files/304-3.10-02-control.patch,
+  +files/304-3.10-03-inline.patch, +files/304-3.11-00-readdir.patch,
+  +files/304-3.11-01-filldir.patch, +files/304-3.15-00-vsock.patch,
+  +files/304-3.18-00-version-redefined.patch,
+  +files/304-3.19-00-compat-namei.patch, +files/304-3.19-01-dentry.patch,
+  +files/304-3.19-02-vmblock-path.patch, +files/304-3.19-03-iovec.patch,
+  +files/304-3.19-04-iovec.patch, +files/304-3.19-05-vmci_qpair.patch,
+  +files/304-3.19-06-vsock.patch, +files/304-3.19-07-vsock.patch,
+  +files/304-apic.patch, +files/304-hardened.patch,
+  +files/304-makefile-include.patch, +files/304-makefile-kernel-dir.patch,
+  +files/304-netdevice.patch, metadata.xml, +vmware-modules-271.3-r1.ebuild,
+  +vmware-modules-279.6.ebuild, +vmware-modules-304.0.ebuild,
+  +vmware-modules-304.2.ebuild:
+  Updates, adding versions for VMware Workstation 10 and 11
+
+  08 Sep 2015; Andreas K. Huettel (dilfridge) <dilfridge@gentoo.org>
+  -vmware-modules-271.3.ebuild, -vmware-modules-279.1-r1.ebuild,
+  -vmware-modules-279.2.ebuild, -vmware-modules-279.3.ebuild,
+  -vmware-modules-304.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.20.1
+
+  19 Sep 2015; Andreas K. Huettel (dilfridge) <dilfridge@gentoo.org>
+  vmware-modules-271.3-r1.ebuild, vmware-modules-279.6.ebuild,
+  vmware-modules-304.2.ebuild:
+  Filter some ricer CFLAGS, bug 477270
+
+  Package-Manager: portage-2.2.20.1
+
+  19 Sep 2015; Andreas K. Huettel (dilfridge) <dilfridge@gentoo.org>
+  +files/279-4.2-00-cookie.patch, vmware-modules-279.6.ebuild:
+  Add patch for Kernel 4.2, bug 559602
+
+  Package-Manager: portage-2.2.20.1
+

@@ -1,0 +1,114 @@
+# ChangeLog for dev-util/catalyst
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*catalyst-9999 (09 Aug 2015)
+*catalyst-2.9999 (09 Aug 2015)
+*catalyst-2.0.9999 (09 Aug 2015)
+*catalyst-2.0.18-r1 (09 Aug 2015)
+*catalyst-2.0.18 (09 Aug 2015)
+*catalyst-2.0.17 (09 Aug 2015)
+*catalyst-2.0.16 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +catalyst-2.0.16.ebuild,
+  +catalyst-2.0.17.ebuild, +catalyst-2.0.18.ebuild,
+  +catalyst-2.0.18-r1.ebuild, +catalyst-2.0.9999.ebuild,
+  +catalyst-2.9999.ebuild, +catalyst-9999.ebuild,
+  +files/catalyst-2.0.18-Do-notuntarwith--acls.patch, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> catalyst-2.0.16.ebuild,
+  catalyst-2.0.17.ebuild, catalyst-2.0.18.ebuild, catalyst-2.0.18-r1.ebuild,
+  catalyst-2.0.9999.ebuild, catalyst-2.9999.ebuild, catalyst-9999.ebuild,
+  metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  28 Aug 2015; Zero_Chaos <zerochaos@gentoo.org> catalyst-2.9999.ebuild,
+  catalyst-9999.ebuild:
+  fix snakeoil dep to reflect broken snakeoil versions
+
+  Package-Manager: portage-2.2.20.1
+
+  29 Aug 2015; Brian Dolbec <dolsen@gentoo.org> catalyst-9999.ebuild:
+  Reset the dep on snakeoil as the code in the master branch has been fixed
+
+  04 Sep 2015; Brian Dolbec <dolsen@gentoo.org> catalyst-2.9999.ebuild:
+  Update 2.9999 to the pending branch, add pyDeComp dep
+
+  Package-Manager: portage-2.2.20
+
+  06 Sep 2015; Brian Dolbec <dolsen@gentoo.org> catalyst-2.9999.ebuild:
+  dev-python/pyDeComp rename to dev-python/pydecomp
+
+  Rename the pkg and ebuild.
+  Update the dep in catalyst-2.9999.
+  Add a pkg move entry.
+
+  06 Sep 2015; Brian Dolbec <dolsen@gentoo.org> catalyst-9999.ebuild:
+  9999: Add the new pydecomp dependency
+
+  11 Oct 2015; Mike Frysinger <vapier@gentoo.org> -catalyst-2.0.16.ebuild,
+  -catalyst-2.0.17.ebuild, -catalyst-2.0.18.ebuild:
+  drop old versions
+
+  11 Oct 2015; Mike Frysinger <vapier@gentoo.org> catalyst-2.0.18-r1.ebuild,
+  catalyst-2.0.9999.ebuild, catalyst-2.9999.ebuild, catalyst-9999.ebuild:
+  drop redundant SRC_URI/KEYWORDS setup
+
+  This makes it easier to use `ekeywords`.
+
+  11 Oct 2015; Mike Frysinger <vapier@gentoo.org> catalyst-2.0.18-r1.ebuild,
+  catalyst-2.0.9999.ebuild, catalyst-2.9999.ebuild, catalyst-9999.ebuild:
+  require tar[xattr] #552888
+
+  Since the build hardcodes xattr related tar flags, make sure the system
+  tar was built with them enabled.
+
+  20 Oct 2015; Zero_Chaos <zerochaos@gentoo.org> catalyst-9999.ebuild:
+  recent commits require newer snakeoil
+
+  Package-Manager: portage-2.2.23
+

@@ -1,0 +1,184 @@
+# ChangeLog for sys-fs/zfs-kmod
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*zfs-kmod-9999 (09 Aug 2015)
+*zfs-kmod-0.6.4.2 (09 Aug 2015)
+*zfs-kmod-0.6.4 (09 Aug 2015)
+*zfs-kmod-0.6.3-r1 (09 Aug 2015)
+*zfs-kmod-0.6.3 (09 Aug 2015)
+*zfs-kmod-0.6.2-r5 (09 Aug 2015)
+*zfs-kmod-0.6.2-r4 (09 Aug 2015)
+*zfs-kmod-0.6.2-r3 (09 Aug 2015)
+*zfs-kmod-0.6.1-r2 (09 Aug 2015)
+*zfs-kmod-0.6.0_rc14-r5 (09 Aug 2015)
+*zfs-kmod-0.6.0_rc13-r4 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/zfs-kmod-0.6.0_rc13-fix-invisible-snapshots.patch,
+  +files/zfs-kmod-0.6.0_rc13-fix-recursive-reader.patch,
+  +files/zfs-kmod-0.6.0_rc13-gcc-4.7-compat.patch,
+  +files/zfs-kmod-0.6.0_rc14-cast-const-for-32bit-compatibility.patch,
+  +files/zfs-kmod-0.6.0_rc14-flush-properly.patch,
+  +files/zfs-kmod-0.6.0_rc14-improved-autotools-checks.patch,
+  +files/zfs-kmod-0.6.0_rc14-improved-hardened-support.patch,
+  +files/zfs-kmod-0.6.0_rc14-linux-3.9-compat.patch,
+  +files/zfs-kmod-0.6.0_rc14-vfs-name-length-compatibility.patch,
+  +files/zfs-kmod-0.6.0_rc14-zfs_arc_memory_throttle_disable.patch,
+  +files/zfs-kmod-0.6.0_rc9-remove-pfmalloc-1-of-3.patch,
+  +files/zfs-kmod-0.6.0_rc9-remove-pfmalloc-2-of-3.patch,
+  +files/zfs-kmod-0.6.0_rc9-remove-pfmalloc-3-of-3.patch,
+  +files/zfs-kmod-0.6.1-fix-arc-read-panic.patch,
+  +files/zfs-kmod-0.6.1-fix-getdents.patch,
+  +files/zfs-kmod-0.6.1-fix-txg_quiesce-deadlock.patch,
+  +files/zfs-kmod-0.6.1-fix-xattr-behavior-1.patch,
+  +files/zfs-kmod-0.6.1-fix-xattr-behavior-2.patch,
+  +files/zfs-kmod-0.6.1-fix-zfs_sb_teardown-NULL-pointer-deref.patch,
+  +files/zfs-kmod-0.6.1-fix-zfsctl_expire_snapshot-deadlock.patch,
+  +files/zfs-kmod-0.6.1-fix-zvol-initialization-r1.patch,
+  +files/zfs-kmod-0.6.1-linux-3.10-compat.patch, +metadata.xml,
+  +zfs-kmod-0.6.0_rc13-r4.ebuild, +zfs-kmod-0.6.0_rc14-r5.ebuild,
+  +zfs-kmod-0.6.1-r2.ebuild, +zfs-kmod-0.6.2-r3.ebuild,
+  +zfs-kmod-0.6.2-r4.ebuild, +zfs-kmod-0.6.2-r5.ebuild,
+  +zfs-kmod-0.6.3.ebuild, +zfs-kmod-0.6.3-r1.ebuild, +zfs-kmod-0.6.4.ebuild,
+  +zfs-kmod-0.6.4.2.ebuild, +zfs-kmod-9999.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  zfs-kmod-0.6.2-r3.ebuild, zfs-kmod-0.6.2-r4.ebuild,
+  zfs-kmod-0.6.2-r5.ebuild, zfs-kmod-0.6.3-r1.ebuild:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+*zfs-kmod-0.6.5 (11 Sep 2015)
+
+  11 Sep 2015; Richard Yao <ryao@gentoo.org> +zfs-kmod-0.6.5.ebuild:
+  sys-fs/zfs and friends: bump to 0.6.5
+
+  Upstream release notes:
+
+  https://github.com/zfsonlinux/zfs/releases/tag/zfs-0.6.5
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Richard Yao <ryao@gentoo.org>
+
+*zfs-kmod-0.6.5-r1 (18 Sep 2015)
+
+  18 Sep 2015; Richard Yao <ryao@gentoo.org>
+  +files/zfs-kmod-0.6.5-discard-on-zvol-fix.patch, +zfs-kmod-0.6.5-r1.ebuild:
+  0.6.5-r1: Fix discard corruption regression
+
+  This is the first data corruption bug in the history of the ZoL project
+  and I regret to say that it is my fault. I wrote the patch that caused
+  it and it went into HEAD after passing upstream review. It affects Linux
+  2.6.36 and later.
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Richard Yao <ryao@gentoo.org>
+
+*zfs-kmod-0.6.5.2 (01 Oct 2015)
+
+  01 Oct 2015; Richard Yao <ryao@gentoo.org> -zfs-kmod-0.6.5.ebuild,
+  +zfs-kmod-0.6.5.2.ebuild, zfs-kmod-9999.ebuild:
+  sys-fs/zfs and friends: bump to 0.6.5.2
+
+  Upstream release notes:
+
+  https://github.com/zfsonlinux/zfs/releases/tag/zfs-0.6.5.2
+
+  Some additional improvements were made to the ebuilds in this bump.
+
+  1. The incorrect requirement on BLK_DEV_LOOP was removed from sys-fs/zfs-
+  kmod
+  in favor of a cups ebuild style warning in sys-fs/zfs when BLK_DEV_LOOP is
+  not
+  avaliable and the test suite has been installed.
+
+  2. The regression where we remove the dracut module has been fixed.
+
+  3. The failure to migrate users to the zfs-zed script from the zed script
+  has
+  been fixed.
+
+  4. The 9999 ebuilds have been synchronized with the 0.6.5.2 ebuilds.
+
+  5. The sys-fs/zfs-kmod-0.6.5 has been removed due to the regression that
+  prompted sys-fs/zfs-kmod-0.6.5-r1.
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Richard Yao <ryao@gentoo.org>
+
+  09 Oct 2015; Richard Yao <ryao@gentoo.org> -zfs-kmod-0.6.2-r4.ebuild,
+  -zfs-kmod-0.6.2-r5.ebuild, -zfs-kmod-0.6.3.ebuild, -zfs-kmod-0.6.4.ebuild,
+  -zfs-kmod-0.6.5.2.ebuild:
+  Remove outdated ebuilds
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Richard Yao <ryao@gentoo.org>
+
+*zfs-kmod-0.6.5.2 (09 Oct 2015)
+
+  09 Oct 2015; Jason Zaman <perfinion@gentoo.org> +zfs-kmod-0.6.5.2.ebuild:
+  Re-add zfs-0.6.5.2.ebuild
+
+  Was accidentally removed in 050bf38afc93a98c5176c95b3c4ffc01212bf46b
+  Also regenerate Manifest since some distfiles are no longer used
+
+  Package-Manager: portage-2.2.20.1
+
+  23 Oct 2015; Jason Zaman <perfinion@gentoo.org> zfs-kmod-9999.ebuild:
+  update live ebuild
+
+  - update to EAPI 5
+  - update to git-r3 eclass
+  - change src_uri to release tarballs
+
+*zfs-kmod-0.6.5.3 (23 Oct 2015)
+
+  23 Oct 2015; Jason Zaman <perfinion@gentoo.org> +zfs-kmod-0.6.5.3.ebuild:
+  bump to 0.6.5.3
+
+  Package-Manager: portage-2.2.20.1
+

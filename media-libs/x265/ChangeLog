@@ -1,0 +1,168 @@
+# ChangeLog for media-libs/x265
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*x265-9999 (09 Aug 2015)
+*x265-1.7 (09 Aug 2015)
+*x265-1.5 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +metadata.xml,
+  +x265-1.5.ebuild, +x265-1.7.ebuild, +x265-9999.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> x265-1.5.ebuild,
+  x265-1.7.ebuild, x265-9999.ebuild:
+  Use https by default
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+*x265-1.8 (11 Oct 2015)
+
+  11 Oct 2015; Alexis Ballier <aballier@gentoo.org> +x265-1.8.ebuild,
+  x265-9999.ebuild:
+  Version bump to 1.8
+
+  Package-Manager: portage-2.2.23
+
+  11 Oct 2015; Alexis Ballier <aballier@gentoo.org> x265-9999.ebuild:
+  Match subslot to actual soname on live ebuild.
+
+  Package-Manager: portage-2.2.23
+
+  13 Oct 2015; Bertrand Jacquin <bertrand@jacquin.bzh>
+  +files/1.8-build-Disable-march-selection-from-CMakeLists.txt.patch,
+  x265-1.8.ebuild, x265-9999.ebuild:
+  Fix x32 build, bug #510890
+
+  x32 arch as defined on https://sites.google.com/site/x32abi is neither
+  X86 nor X64, then forcing -march=i686 leads to build failure as wrong
+  -march is used.
+
+  Forcing -march, -mfloat-abi and -mfpu for ARM is also wrong
+  As a global sanity sake, disable all forced -march in CMakeLists
+
+  Upstream report: https://bitbucket.org/multicoreware/x265/pull-requests/21
+  /build-disable-march-selection-from/diff
+
+  Package-Manager: portage-2.2.20.1
+
+  15 Oct 2015; Alexis Ballier <aballier@gentoo.org> metadata.xml,
+  x265-1.8.ebuild, x265-9999.ebuild:
+  Add pic useflag to disable asm on x86.
+
+  It is the best we can do unless upstream writes PIC safe x86 asm.
+  https://bugs.gentoo.org/show_bug.cgi?id=528202
+
+  Package-Manager: portage-2.2.23
+
+  15 Oct 2015; Alexis Ballier <aballier@gentoo.org> x265-1.8.ebuild,
+  x265-9999.ebuild:
+  Make src_test more robust.
+
+  Build system builds "tests" only when asm optimizations are enabled, which
+  may be disabled by other means (x32 or pic). Run tests only when it decided
+  to build them.
+
+  Package-Manager: portage-2.2.23
+
+*x265-1.8-r1 (15 Oct 2015)
+
+  15 Oct 2015; Alexis Ballier <aballier@gentoo.org> metadata.xml,
+  +x265-1.8-r1.ebuild, x265-9999.ebuild:
+  Fix automagic on numactl. Bug #555012.
+
+  Package-Manager: portage-2.2.23
+
+*x265-1.8-r2 (15 Oct 2015)
+
+  15 Oct 2015; Alexis Ballier <aballier@gentoo.org> metadata.xml,
+  -x265-1.8-r1.ebuild, +x265-1.8-r2.ebuild, x265-9999.ebuild:
+  Add support for 8, 10 & 12bit simultaneous support.
+
+  Rework the ebuild on top of multilib-minimal, use multibuild to build the 8,
+  10 & 12 bit variant, and use upstream documented way to build a library
+  capable of producing 8 (default), 10 or 12 bits HEVC files.
+
+  Package-Manager: portage-2.2.23
+
+  16 Oct 2015; Jeroen Roovers <jer@gentoo.org> x265-1.8-r2.ebuild:
+  Mark ~hppa (bug #555012).
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --ignore-arches
+
+*x265-1.8-r3 (16 Oct 2015)
+
+  16 Oct 2015; Alexis Ballier <aballier@gentoo.org>
+  +files/1.8-extralibs_order.patch, -x265-1.8-r2.ebuild, +x265-1.8-r3.ebuild:
+  Add patch to fix link order when doing multi-variant build.
+
+  as-needed might drop important libraries (dl here), causing the library to
+  be underlinked.
+
+  Package-Manager: portage-2.2.23
+
+  16 Oct 2015; Alexis Ballier <aballier@gentoo.org>
+  files/1.8-build-Disable-march-selection-from-CMakeLists.txt.patch,
+  files/1.8-extralibs_order.patch:
+  Add links to upstream pull requests in patches.
+
+  Package-Manager: portage-2.2.23
+
+  16 Oct 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Update remote-ids
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  08 Nov 2015; Jeroen Roovers <jer@gentoo.org> x265-1.5.ebuild:
+  Stable for PPC64 (bug #548964).
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --ignore-arches
+

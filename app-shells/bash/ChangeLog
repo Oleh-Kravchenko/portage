@@ -1,0 +1,197 @@
+# ChangeLog for app-shells/bash
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*bash-4.4_alpha-r1 (09 Aug 2015)
+*bash-4.3_p39 (09 Aug 2015)
+*bash-4.3_p33-r2 (09 Aug 2015)
+*bash-4.3_p33-r1 (09 Aug 2015)
+*bash-4.3_p33 (09 Aug 2015)
+*bash-4.2_p53 (09 Aug 2015)
+*bash-4.1_p17 (09 Aug 2015)
+*bash-4.0_p44 (09 Aug 2015)
+*bash-3.2_p57 (09 Aug 2015)
+*bash-3.1_p23 (09 Aug 2015)
+*bash-3.0_p22 (09 Aug 2015)
+*bash-2.05b_p13 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +bash-2.05b_p13.ebuild,
+  +bash-3.0_p22.ebuild, +bash-3.1_p23.ebuild, +bash-3.2_p57.ebuild,
+  +bash-4.0_p44.ebuild, +bash-4.1_p17.ebuild, +bash-4.2_p53.ebuild,
+  +bash-4.3_p33.ebuild, +bash-4.3_p33-r1.ebuild, +bash-4.3_p33-r2.ebuild,
+  +bash-4.3_p39.ebuild, +bash-4.4_alpha-r1.ebuild,
+  +files/autoconf-mktime-2.53.patch, +files/autoconf-mktime-2.59.patch,
+  +files/bash-2.05b-destdir.patch, +files/bash-2.05b-empty-herestring.patch,
+  +files/bash-2.05b-fix-job-warning.patch, +files/bash-2.05b-jobs.patch,
+  +files/bash-2.05b-parallel-build.patch, +files/bash-2.05b-protos.patch,
+  +files/bash-2.05b-rbash.patch, +files/bash-3.0-afs.patch,
+  +files/bash-3.0-crash.patch, +files/bash-3.0-darwin-conn.patch,
+  +files/bash-3.0-histtimeformat.patch, +files/bash-3.0-jobs.patch,
+  +files/bash-3.0-locale.patch, +files/bash-3.0-manpage.patch,
+  +files/bash-3.0-multibyteifs.patch, +files/bash-3.0-pgrp-pipe-fix.patch,
+  +files/bash-3.0-protos.patch, +files/bash-3.0-pwd.patch,
+  +files/bash-3.0-rbash.patch, +files/bash-3.0-read-builtin-pipe.patch,
+  +files/bash-3.0-read-e-segfault.patch, +files/bash-3.0-read-memleak.patch,
+  +files/bash-3.0-strnlen.patch, +files/bash-3.0-subshell.patch,
+  +files/bash-3.0-trap-fg-signals.patch, +files/bash-3.0-ulimit.patch,
+  +files/bash-3.0-volatile-command.patch,
+  +files/bash-3.1-dev-fd-test-as-user.patch,
+  +files/bash-3.1-fix-dash-login-shell.patch, +files/bash-3.1-protos.patch,
+  +files/bash-3.1-ulimit.patch, +files/bash-3.2-dev-fd-test-as-user.patch,
+  +files/bash-3.2-ldflags-for-build.patch, +files/bash-3.2-loadables.patch,
+  +files/bash-3.2-process-subst.patch, +files/bash-3.2-protos.patch,
+  +files/bash-3.2-session-leader.patch, +files/bash-3.2-ulimit.patch,
+  +files/bash-4.0-configure.patch, +files/bash-4.0-ldflags-for-build.patch,
+  +files/bash-4.0-negative-return.patch, +files/bash-4.0-parallel-build.patch,
+  +files/bash-4.1-fbsd-eaccess.patch, +files/bash-4.1-parallel-build.patch,
+  +files/bash-4.2-execute-job-control.patch,
+  +files/bash-4.2-no-readline.patch, +files/bash-4.2-parallel-build.patch,
+  +files/bash-4.2-read-retry.patch, +files/bash-4.2-speed-up-read-N.patch,
+  +files/bash-4.3-append-process-segfault.patch,
+  +files/bash-4.3-arrayfunc.patch, +files/bash-4.3-compat-lvl.patch,
+  +files/bash-4.3-declare-visibility.patch,
+  +files/bash-4.3-mapfile-improper-array-name-validation.patch,
+  +files/bash-4.3-parse-time-keyword.patch,
+  +files/bash-4.4-optimize-fork.patch,
+  +files/bash-4.x-deferred-heredocs.patch, +files/bash_logout, +files/bashrc,
+  +files/bashrc-r1, +files/bashrc-r2, +files/dot-bash_logout,
+  +files/dot-bash_profile, +files/dot-bashrc, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+*bash-4.3_p39_pre0 (13 Aug 2015)
+
+  13 Aug 2015; Mike Frysinger <vapier@gentoo.org> +bash-4.3_p39_pre0.ebuild:
+  add EAPI=2 version to smooth upgrades
+
+  14 Aug 2015; Mike Frysinger <vapier@gentoo.org> bash-4.3_p39_pre0.ebuild:
+  mask pre0 until newer version goes stable
+
+  14 Aug 2015; Mikle Kolyada <zlogene@gentoo.org> bash-4.3_p39.ebuild:
+  amd64 stable wrt bug #557510
+
+  Package-Manager: portage-2.2.20.1
+
+  16 Aug 2015; Justin Lecher <jlec@gentoo.org> bash-4.4_alpha-r1.ebuild:
+  Use slot operators for ncurses
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  16 Aug 2015; Mikle Kolyada <zlogene@gentoo.org> bash-4.3_p39.ebuild:
+  ia64 stable wrt bug #557510
+
+  Package-Manager: portage-2.2.20.1
+
+  18 Aug 2015; Jeroen Roovers <jer@gentoo.org> bash-4.3_p39.ebuild:
+  Stable for HPPA (bug #557510).
+
+  Package-Manager: portage-2.2.20.1
+
+*bash-4.3_p42 (18 Aug 2015)
+
+  18 Aug 2015; Mike Frysinger <vapier@gentoo.org> +bash-4.3_p42.ebuild:
+  version bump to 4.3_p42
+
+  24 Aug 2015; Jeroen Roovers <jer@gentoo.org> bash-4.3_p39.ebuild:
+  Stable for PPC64 (bug #557510).
+
+  Package-Manager: portage-2.2.20.1
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mikle Kolyada <zlogene@gentoo.org> bash-4.3_p39.ebuild:
+  x86 stable wrt bug #557510
+
+  Package-Manager: portage-2.2.20.1
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  26 Aug 2015; Mike Frysinger <vapier@gentoo.org> bash-4.4_alpha-r1.ebuild:
+  sys-libs/ncurses: move to SLOT=0 #557472
+
+  Use SLOT=0 for installing of main development files like other packages
+  so we can use other SLOTs for installing SONAME libs for binary packages.
+
+  27 Aug 2015; Mike Frysinger <vapier@gentoo.org> bash-4.3_p39.ebuild:
+  mark 4.3_p39 arm64/m68k/s390/sh stable
+
+  30 Aug 2015; Tobias Klausmann <klausman@gentoo.org> bash-4.3_p39.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 557510
+
+  Package-Manager: portage-2.2.20.1
+
+  01 Sep 2015; Markus Meier <maekke@gentoo.org> bash-4.3_p39.ebuild:
+  arm stable, bug #557510
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="arm"
+
+  06 Sep 2015; Agostino Sarubbo <ago@gentoo.org> bash-4.3_p39.ebuild:
+  ppc stable wrt bug #557510
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  21 Sep 2015; Agostino Sarubbo <ago@gentoo.org> bash-4.3_p39.ebuild:
+  sparc stable wrt bug #557510
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+
+*bash-4.4_beta (15 Oct 2015)
+
+  15 Oct 2015; Mike Frysinger <vapier@gentoo.org> -bash-4.4_alpha-r1.ebuild,
+  +bash-4.4_beta.ebuild, -files/bash-4.4-optimize-fork.patch:
+  version bump to 4.4_beta
+
+  20 Oct 2015; Mike Frysinger <vapier@gentoo.org> bash-2.05b_p13.ebuild,
+  bash-3.0_p22.ebuild, bash-3.1_p23.ebuild, bash-3.2_p57.ebuild,
+  bash-4.0_p44.ebuild, bash-4.1_p17.ebuild,
+  +files/bash-3.1-dev-fd-buffer-overflow.patch,
+  +files/bash-4.2-dev-fd-buffer-overflow.patch:
+  backport /dev/fd fix to older versions #431850
+

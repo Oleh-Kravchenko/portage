@@ -1,0 +1,112 @@
+# ChangeLog for dev-lang/scala
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*scala-2.11.7 (09 Aug 2015)
+*scala-2.11.6 (09 Aug 2015)
+*scala-2.11.4-r1 (09 Aug 2015)
+*scala-2.11.2-r1 (09 Aug 2015)
+*scala-2.11.1-r1 (09 Aug 2015)
+*scala-2.10.4-r1 (09 Aug 2015)
+*scala-2.10.3-r1 (09 Aug 2015)
+*scala-2.10.2-r2 (09 Aug 2015)
+*scala-2.9.2-r1 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/scala-2.10.2-jdk-1.7-swing-SI-7455.patch,
+  +files/scala-2.10.2-jdk-1.7-swing.patch,
+  +files/scala-2.10.2-maven-deps.patch, +files/scala-2.10.2-no-git.patch,
+  +files/scala-2.10.3-no-git.patch, +files/scala-2.10.4-no-git.patch,
+  +files/scala-2.11.1-no-git.patch, +files/scala-2.11.2-no-git.patch,
+  +files/scala-2.11.4-no-git.patch, +files/scala-2.11.6-no-git.patch,
+  +files/scala-2.11.7-no-git.patch, +files/scala-2.7.3-build.xml.patch,
+  +metadata.xml, +scala-2.9.2-r1.ebuild, +scala-2.10.2-r2.ebuild,
+  +scala-2.10.3-r1.ebuild, +scala-2.10.4-r1.ebuild, +scala-2.11.1-r1.ebuild,
+  +scala-2.11.2-r1.ebuild, +scala-2.11.4-r1.ebuild, +scala-2.11.6.ebuild,
+  +scala-2.11.7.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  scala-2.9.2-r1.ebuild, scala-2.10.2-r2.ebuild, scala-2.10.3-r1.ebuild,
+  scala-2.10.4-r1.ebuild, scala-2.11.1-r1.ebuild, scala-2.11.2-r1.ebuild,
+  scala-2.11.4-r1.ebuild, scala-2.11.6.ebuild, scala-2.11.7.ebuild:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mark Wright <gienah@gentoo.org> metadata.xml,
+  scala-2.10.2-r2.ebuild, scala-2.10.3-r1.ebuild, scala-2.10.4-r1.ebuild,
+  scala-2.11.1-r1.ebuild, scala-2.11.2-r1.ebuild, scala-2.11.4-r1.ebuild,
+  scala-2.11.6.ebuild, scala-2.11.7.ebuild:
+  Fix Bug 554842 - dev-lang/scala-2.10.4-r1 fails to emerge: JDK 1.8 is not
+  supported by this build! Thanks to Florian Schmaus for reporting, genstorm
+  and Chewi for helping with the fix.
+
+  Package-Manager: portage-2.2.20.1
+
+*scala-2.11.7-r1 (24 Aug 2015)
+*scala-2.11.6-r1 (24 Aug 2015)
+*scala-2.11.4-r2 (24 Aug 2015)
+*scala-2.11.2-r2 (24 Aug 2015)
+*scala-2.11.1-r2 (24 Aug 2015)
+*scala-2.10.4-r2 (24 Aug 2015)
+*scala-2.10.3-r2 (24 Aug 2015)
+*scala-2.10.2-r3 (24 Aug 2015)
+
+  24 Aug 2015; Mark Wright <gienah@gentoo.org> -scala-2.10.2-r2.ebuild,
+  +scala-2.10.2-r3.ebuild, -scala-2.10.3-r1.ebuild, +scala-2.10.3-r2.ebuild,
+  -scala-2.10.4-r1.ebuild, +scala-2.10.4-r2.ebuild, -scala-2.11.1-r1.ebuild,
+  +scala-2.11.1-r2.ebuild, -scala-2.11.2-r1.ebuild, +scala-2.11.2-r2.ebuild,
+  +scala-2.11.4-r2.ebuild, -scala-2.11.6.ebuild, +scala-2.11.6-r1.ebuild,
+  -scala-2.11.7.ebuild, +scala-2.11.7-r1.ebuild:
+  Drop support for jdk 1.6 for unstable scala 2.10 and 2.11 versions. scala
+  2.9.2 requires jdk 1.6 to build.
+
+  Package-Manager: portage-2.2.20.1
+
+*scala-2.9.3 (25 Aug 2015)
+
+  25 Aug 2015; Mark Wright <gienah@gentoo.org> +files/scala-2.9.2-java7.patch,
+  +scala-2.9.3.ebuild:
+  bump 2.9 slot to 2.9.3
+
+  Package-Manager: portage-2.2.20.1
+
+  28 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Add missing remote-id entries in metadata.xml
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

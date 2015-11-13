@@ -1,0 +1,115 @@
+# ChangeLog for dev-db/redis
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*redis-3.0.2-r1 (09 Aug 2015)
+*redis-2.8.19-r1 (09 Aug 2015)
+*redis-2.8.17-r1 (09 Aug 2015)
+*redis-2.8.13 (09 Aug 2015)
+*redis-2.8.11 (09 Aug 2015)
+*redis-2.8.9 (09 Aug 2015)
+*redis-2.8.8 (09 Aug 2015)
+*redis-2.6.16 (09 Aug 2015)
+*redis-2.6.15-r1 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +files/configure.ac-2.2,
+  +files/redis-2.4.17-shared.patch, +files/redis-2.4.3-shared.patch,
+  +files/redis-2.4.4-tcmalloc.patch, +files/redis-2.6.7-config.patch,
+  +files/redis-2.6.7-shared.patch, +files/redis-2.6.9-tclsh86.patch,
+  +files/redis-2.8.13-sharedlua.patch, +files/redis-2.8.17-config.patch,
+  +files/redis-2.8.19-sharedlua.patch, +files/redis-2.8.3-config.patch,
+  +files/redis-2.8.3-shared.patch, +files/redis-3.0.0-sharedlua.patch,
+  +files/redis.confd, +files/redis.initd, +files/redis.initd-2,
+  +files/redis.initd-3, +files/redis.initd-4, +files/redis.service,
+  +files/redis.service-2, +files/redis.tmpfiles, +metadata.xml,
+  +redis-2.6.15-r1.ebuild, +redis-2.6.16.ebuild, +redis-2.8.8.ebuild,
+  +redis-2.8.9.ebuild, +redis-2.8.11.ebuild, +redis-2.8.13.ebuild,
+  +redis-2.8.17-r1.ebuild, +redis-2.8.19-r1.ebuild, +redis-3.0.2-r1.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+*redis-3.0.3 (28 Aug 2015)
+
+  28 Aug 2015; Ultrabug <ultrabug@gentoo.org> -redis-2.8.8.ebuild,
+  -redis-2.8.9.ebuild, -redis-2.8.11.ebuild, -redis-2.8.13.ebuild,
+  -redis-3.0.2-r1.ebuild, +redis-3.0.3.ebuild:
+  old ebuilds clean up, version bump fix #557218
+
+  Package-Manager: portage-2.2.20.1
+
+  28 Aug 2015; Ultrabug <ultrabug@gentoo.org> redis-2.6.15-r1.ebuild,
+  redis-2.6.16.ebuild, redis-2.8.17-r1.ebuild, redis-2.8.19-r1.ebuild:
+  remove abusive use of nonfatal fix #551160
+
+  Package-Manager: portage-2.2.20.1
+
+*redis-2.8.21 (28 Aug 2015)
+
+  28 Aug 2015; Ultrabug <ultrabug@gentoo.org> +redis-2.8.21.ebuild:
+  2.8 version bump
+
+  Package-Manager: portage-2.2.20.1
+
+  28 Aug 2015; Ultrabug <ultrabug@gentoo.org> metadata.xml:
+  add myself as first maintainer in list for bug assignment
+
+  Package-Manager: portage-2.2.20.1
+
+  01 Oct 2015; Markus Meier <maekke@gentoo.org> redis-3.0.3.ebuild:
+  add ~arm, bug #558546
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="arm"
+
+*redis-3.0.4 (06 Oct 2015)
+
+  06 Oct 2015; Ultrabug <ultrabug@gentoo.org> +redis-3.0.4.ebuild:
+  version bump fix #562316 thx to erikjwaxx
+
+  Package-Manager: portage-2.2.22
+

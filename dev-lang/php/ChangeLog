@@ -1,0 +1,624 @@
+# ChangeLog for dev-lang/php
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*php-7.0.0_beta1 (09 Aug 2015)
+*php-5.6.12 (09 Aug 2015)
+*php-5.6.11 (09 Aug 2015)
+*php-5.6.10 (09 Aug 2015)
+*php-5.6.9 (09 Aug 2015)
+*php-5.5.28 (09 Aug 2015)
+*php-5.5.27 (09 Aug 2015)
+*php-5.5.26 (09 Aug 2015)
+*php-5.5.25-r1 (09 Aug 2015)
+*php-5.4.44 (09 Aug 2015)
+*php-5.4.43 (09 Aug 2015)
+*php-5.4.42 (09 Aug 2015)
+*php-5.4.41 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +files/20php5-envd,
+  +files/all_mysql_socket_location-gentoo.patch,
+  +files/all_strict_aliasing.patch, +files/bison_any_version.patch,
+  +files/bison_build_2.patch, +files/bison_build_2a.patch,
+  +files/fix-libstdc++-underlinking.patch,
+  +files/freetype-2.5.1-linking-fix.patch, +files/iodbc-pkgconfig-r1.patch,
+  +files/iodbc-pkgconfig.patch, +files/missing-openssl-include.patch,
+  +files/php-fpm-r1.conf, +files/php-fpm-r4.init,
+  +files/php-fpm_at-simple.service, +files/php-fpm_at.service,
+  +files/php-libvpx.patch, +files/php5-ldvs,
+  +files/stricter-libc-client-symlink-check.patch, +metadata.xml,
+  +php-5.4.41.ebuild, +php-5.4.42.ebuild, +php-5.4.43.ebuild,
+  +php-5.4.44.ebuild, +php-5.5.25-r1.ebuild, +php-5.5.26.ebuild,
+  +php-5.5.27.ebuild, +php-5.5.28.ebuild, +php-5.6.9.ebuild,
+  +php-5.6.10.ebuild, +php-5.6.11.ebuild, +php-5.6.12.ebuild,
+  +php-7.0.0_beta1.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  09 Aug 2015; Ulrich Müller <ulm@gentoo.org> files/php-fpm-r4.init:
+  [QA] Remove executable bit from files, bug 550434.
+
+  09 Aug 2015; Mikle Kolyada <zlogene@gentoo.org> php-5.4.44.ebuild,
+  php-5.5.28.ebuild, php-5.6.12.ebuild:
+  amd64 stable wrt bug 556952
+
+  Package-Manager: portage-2.2.20
+
+  10 Aug 2015; Tobias Klausmann <klausman@gentoo.org> php-5.4.44.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 556952
+
+  Package-Manager: portage-2.2.20
+
+  10 Aug 2015; Tobias Klausmann <klausman@gentoo.org> php-5.5.28.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 556952
+
+  Package-Manager: portage-2.2.20
+
+  10 Aug 2015; Tobias Klausmann <klausman@gentoo.org> php-5.6.12.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 556952
+
+  Package-Manager: portage-2.2.20
+
+  10 Aug 2015; Mikle Kolyada <zlogene@gentoo.org> php-5.4.44.ebuild,
+  php-5.5.28.ebuild, php-5.6.12.ebuild:
+  x86 stable wrt bug #556952
+
+  Package-Manager: portage-2.2.20
+
+  15 Aug 2015; Jeroen Roovers <jer@gentoo.org> php-5.4.44.ebuild,
+  php-5.5.28.ebuild, php-5.6.12.ebuild:
+  Stable for PPC64 (bug #556952).
+
+  Package-Manager: portage-2.2.20.1
+
+  16 Aug 2015; Jeroen Roovers <jer@gentoo.org> php-5.4.44.ebuild,
+  php-5.6.12.ebuild:
+  Stable for HPPA (bug #556952).
+
+  Package-Manager: portage-2.2.20.1
+
+  16 Aug 2015; Jeroen Roovers <jer@gentoo.org> php-5.5.28.ebuild:
+  Stable for HPPA (bug #556952).
+
+  Package-Manager: portage-2.2.20.1
+
+  16 Aug 2015; Mikle Kolyada <zlogene@gentoo.org> php-5.4.44.ebuild,
+  php-5.5.28.ebuild, php-5.6.12.ebuild:
+  ia64 stable wrt bug #543834
+
+  Package-Manager: portage-2.2.20.1
+
+  19 Aug 2015; Markus Meier <maekke@gentoo.org> php-5.4.44.ebuild,
+  php-5.5.28.ebuild, php-5.6.12.ebuild:
+  arm stable, bug #556952
+
+  Package-Manager: portage-2.2.20.1
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  php-5.4.41.ebuild, php-5.4.42.ebuild, php-5.4.43.ebuild, php-5.4.44.ebuild,
+  php-5.5.25-r1.ebuild, php-5.5.26.ebuild, php-5.5.27.ebuild,
+  php-5.5.28.ebuild, php-5.6.9.ebuild, php-5.6.10.ebuild, php-5.6.11.ebuild,
+  php-5.6.12.ebuild, php-7.0.0_beta1.ebuild:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*php-7.0.0_rc1 (24 Aug 2015)
+
+  24 Aug 2015; Ole Markus With <olemarkus@gentoo.org> +php-7.0.0_rc1.ebuild:
+  Added first PHP 7.0.0 RC
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> php-7.0.0_rc1.ebuild:
+  Enable https for all google URIs
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  26 Aug 2015; Agostino Sarubbo <ago@gentoo.org> php-5.4.44.ebuild,
+  php-5.5.28.ebuild, php-5.6.12.ebuild:
+  ppc stable wrt bug #556952
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+*php-7.0.0_rc2 (05 Sep 2015)
+*php-5.6.13 (05 Sep 2015)
+*php-5.5.29 (05 Sep 2015)
+*php-5.4.45 (05 Sep 2015)
+
+  05 Sep 2015; Ole Markus With <olemarkus@gentoo.org> +php-5.4.45.ebuild,
+  +php-5.5.29.ebuild, +php-5.6.13.ebuild, +php-7.0.0_rc2.ebuild:
+  Version bumps
+
+  Package-Manager: portage-2.2.18
+
+  06 Sep 2015; Agostino Sarubbo <ago@gentoo.org> php-5.4.44.ebuild,
+  php-5.5.28.ebuild, php-5.6.12.ebuild:
+  sparc stable wrt bug #556952
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+
+  07 Sep 2015; Ole Markus With <olemarkus@gentoo.org> -php-5.4.41.ebuild,
+  -php-5.4.42.ebuild, -php-5.4.43.ebuild, -php-5.5.25-r1.ebuild,
+  -php-5.5.26.ebuild, -php-5.5.27.ebuild, -php-5.6.9.ebuild,
+  -php-5.6.10.ebuild, -php-5.6.11.ebuild:
+  Cleanup of old ebuilds
+
+  Package-Manager: portage-2.2.18
+
+  07 Sep 2015; Agostino Sarubbo <ago@gentoo.org> php-5.4.45.ebuild,
+  php-5.5.29.ebuild, php-5.6.13.ebuild:
+  amd64 stable wrt bug #559612
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  07 Sep 2015; Agostino Sarubbo <ago@gentoo.org> php-5.4.45.ebuild,
+  php-5.5.29.ebuild, php-5.6.13.ebuild:
+  x86 stable wrt bug #559612
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+  08 Sep 2015; Agostino Sarubbo <ago@gentoo.org> php-5.4.45.ebuild,
+  php-5.5.29.ebuild, php-5.6.13.ebuild:
+  ppc stable wrt bug #559612
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  08 Sep 2015; Agostino Sarubbo <ago@gentoo.org> php-5.4.45.ebuild,
+  php-5.5.29.ebuild, php-5.6.13.ebuild:
+  ppc64 stable wrt bug #559612
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc64"
+
+  09 Sep 2015; Agostino Sarubbo <ago@gentoo.org> php-5.4.45.ebuild,
+  php-5.5.29.ebuild, php-5.6.13.ebuild:
+  ia64 stable wrt bug #559612
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ia64"
+
+  09 Sep 2015; Agostino Sarubbo <ago@gentoo.org> php-5.4.45.ebuild,
+  php-5.5.29.ebuild, php-5.6.13.ebuild:
+  sparc stable wrt bug #559612
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+
+  11 Sep 2015; Jeroen Roovers <jer@gentoo.org> php-5.4.45.ebuild,
+  php-5.5.29.ebuild, php-5.6.13.ebuild:
+  Stable for HPPA (bug #559612).
+
+  Package-Manager: portage-2.2.20.1
+
+  11 Sep 2015; Tobias Klausmann <klausman@gentoo.org> php-5.4.45.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 559612
+
+  Package-Manager: portage-2.2.20.1
+
+  11 Sep 2015; Tobias Klausmann <klausman@gentoo.org> php-5.5.29.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 559612
+
+  Package-Manager: portage-2.2.20.1
+
+  11 Sep 2015; Tobias Klausmann <klausman@gentoo.org> php-5.6.13.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 559612
+
+  Package-Manager: portage-2.2.20.1
+
+*php-7.0.0_rc3 (18 Sep 2015)
+
+  18 Sep 2015; Ole Markus With <olemarkus@gentoo.org> +php-7.0.0_rc3.ebuild:
+  bump PHP 7 RC
+
+  Package-Manager: portage-2.2.18
+
+  27 Sep 2015; Markus Meier <maekke@gentoo.org> php-5.4.45.ebuild,
+  php-5.5.29.ebuild, php-5.6.13.ebuild:
+  arm stable, bug #559612
+
+  Package-Manager: portage-2.2.20.1
+
+*php-7.0.0_rc4 (02 Oct 2015)
+*php-5.6.14 (02 Oct 2015)
+*php-5.5.30 (02 Oct 2015)
+
+  02 Oct 2015; Ole Markus With <olemarkus@gentoo.org> +php-5.5.30.ebuild,
+  +php-5.6.14.ebuild, +php-7.0.0_rc4.ebuild:
+  Version bumps
+
+  Package-Manager: portage-2.2.18
+
+  02 Oct 2015; Ole Markus With <olemarkus@gentoo.org> -php-5.4.44.ebuild,
+  -php-5.5.28.ebuild, -php-5.6.12.ebuild, -php-7.0.0_beta1.ebuild,
+  -php-7.0.0_rc1.ebuild, -php-7.0.0_rc2.ebuild, -php-7.0.0_rc3.ebuild:
+  Cleanup of old ebuilds
+
+  Package-Manager: portage-2.2.18
+
+*php-7.0.0_rc5 (15 Oct 2015)
+
+  15 Oct 2015; Ole Markus With <olemarkus@gentoo.org> +php-7.0.0_rc5.ebuild:
+  Bump php RC
+
+  Package-Manager: portage-2.2.18
+
+  28 Oct 2015; Agostino Sarubbo <ago@gentoo.org> php-5.5.30.ebuild,
+  php-5.6.14.ebuild:
+  amd64 stable wrt bug #562882
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  28 Oct 2015; Agostino Sarubbo <ago@gentoo.org> php-5.5.30.ebuild,
+  php-5.6.14.ebuild:
+  x86 stable wrt bug #562882
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+  29 Oct 2015; Jeroen Roovers <jer@gentoo.org> php-5.5.30.ebuild,
+  php-5.6.14.ebuild:
+  Stable for PPC64 (bug #562882).
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --ignore-arches
+
+  29 Oct 2015; Jeroen Roovers <jer@gentoo.org> php-5.6.14.ebuild:
+  Stable for HPPA (bug #562882).
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --ignore-arches
+
+  29 Oct 2015; Jeroen Roovers <jer@gentoo.org> php-5.5.30.ebuild:
+  Stable for HPPA (bug #562882).
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --ignore-arches
+
+*php-5.6.15 (31 Oct 2015)
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> +php-5.6.15.ebuild:
+  version bump adding php-5.6.15.ebuild.
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  fix typo "chose" -> "choose", bug #537904 by David Flogeras.
+
+  Gentoo-Bug: 537904
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  replace dead URL in postinst, bug #564432 by Ortwin Glueck.
+
+  The postinst message was pointing people to
+
+    https://www.gentoo.org/proj/en/php/php-upgrading.xml
+
+  which now simply 404s. Its spiritual successor is on the wiki, so the
+  postinst message has been updated to send people there.
+
+  Gentoo-Bug: 564432
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  slot openssl dependency.
+
+  The dev-libs/openssl package now has two slots. The SLOT=0.9.8 is for
+  binary compatibility, and SLOT=0 is what most packages should depend
+  on. Adding ":0" to our openssl dependency ensures that we get the
+  correct slot, and silences a repoman warning.
+
+  The lower bound on openssl was also removed since all versions in the
+  tree satisfied it.
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  remove redundant "if use firebird" check.
+
+  The use_with function doesn't do anything if its USE flag is disabled,
+  so there's no reason to wrap use_with in "if use...".
+
+  Gentoo-Bug: 551526
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  remove redundant "if use odbc" check.
+
+  The use_with function doesn't do anything if its USE flag is disabled,
+  so there's no reason to wrap use_with in "if use...".
+
+  Gentoo-Bug: 551526
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  remove redundant "if use iodbc" check.
+
+  The use_with function doesn't do anything if its USE flag is disabled,
+  so there's no reason to wrap use_with in "if use...". This use_with
+  block was also merged with the one for USE=odbc.
+
+  Gentoo-Bug: 551526
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  remove redundant "if use oci8-instant-client" check.
+
+  The use_with function doesn't do anything if its USE flag is disabled,
+  so there's no reason to wrap use_with in "if use...".
+
+  Gentoo-Bug: 551526
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  remove second redundant "if use oci8-instant-client" check.
+
+  This fixes the same issue as 7c05e6f, but in another spot in the ebuild.
+
+  Gentoo-Bug: 551526
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  use "+=" consistently for appending to $my_conf.
+
+  There were a few places still using my_conf="${my_conf} ..." to append
+  to the my_conf variable. Update them all to use the "append" operator.
+
+  Gentoo-Bug: 551526
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  add "any slot" operator to our dev-db/postgresql dependency.
+
+  This does not change the current behavior, and silences a repoman
+  warning. I also believe it is correct: dev-db/postgresql is slotted
+  along major (e.g. 9.3, 9.4) version lines. The libpq interface doesn't
+  seem to break between those versions, and mailing list discussions by
+  the Postgres devs indicate that they'd prefer to avoid that kind of
+  breakage.
+
+  Gentoo-Bug: 551526
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  depend on SLOT=0 of dev-libs/gmp.
+
+  The dev-libs/gmp package has two slots, one of which is only kept
+  around for the libgmp.so.3 ABI SONAME. We want to build against
+  SLOT=0, so depend on that.
+
+  Package-Manager: portage-2.2.20.1
+
+  31 Oct 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15.ebuild,
+  php-7.0.0_rc5.ebuild:
+  depend on SLOT=0 of sys-libs/readline.
+
+  The sys-libs/readline package has three slots, two of which are kept
+  around for ABI compatibility. Packages generally build against SLOT=0,
+  and that's the one we want, so this adds the slot operator to the
+  dependency.
+
+  Package-Manager: portage-2.2.20.1
+
+  01 Nov 2015; Tobias Klausmann <klausman@gentoo.org> php-5.5.30.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 562882
+
+  Package-Manager: portage-2.2.23
+
+  01 Nov 2015; Tobias Klausmann <klausman@gentoo.org> php-5.6.14.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 562882
+
+  Package-Manager: portage-2.2.23
+
+*php-5.6.15-r1 (02 Nov 2015)
+
+  02 Nov 2015; Michael Orlitzky <mjo@gentoo.org>
+  +files/fix-5.6.15-fpm-const-crash.patch, -php-5.6.15.ebuild,
+  +php-5.6.15-r1.ebuild:
+  revbump php-5.6.15 to fix a segfault.
+
+  The segfault issue was reported in bug #564690 by Zoltán
+  Halassy. There is an upstream fix that we've added as a patch. The
+  problem/fix have both been confirmed.
+
+  Since this requires a revbump, the sys-libs/db dependency has been
+  fixed along with it according to bug #521222. It still remains to
+  address that issue for the php-7.x series.
+
+  Gentoo-Bug: 521222
+  Gentoo-Bug: 564690
+
+  Package-Manager: portage-2.2.20.1
+
+*php-7.0.0_rc6 (03 Nov 2015)
+
+  03 Nov 2015; Michael Orlitzky <mjo@gentoo.org> +php-7.0.0_rc6.ebuild:
+  version bump the 7.x series and fix bug #521222.
+
+  This adds the sixth release candidate of php-7.0.0, leaving rc4 and
+  rc5 behind. No changes were needed to the ebuild, but to avoid a later
+  revbump, the sys-libs/db dependency was updated according to bug
+  is gone.
+
+  Gentoo-Bug: 521222
+
+  Package-Manager: portage-2.2.20.1
+
+  03 Nov 2015; Michael Orlitzky <mjo@gentoo.org> php-5.6.15-r1.ebuild,
+  php-7.0.0_rc6.ebuild:
+  remove two obsolete addpredict() calls.
+
+  We had two calls to addpredict() at the top of src_prepare().
+  Supposedly they were needed with USE="session sharedmem"; however,
+  testing shows that they are no longer necessary. The build succeeds
+  fine without the addpredict() calls, so we remove them.
+
+  Package-Manager: portage-2.2.20.1
+
+  04 Nov 2015; Agostino Sarubbo <ago@gentoo.org> php-5.5.30.ebuild,
+  php-5.6.14.ebuild:
+  ppc stable wrt bug #562882
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  05 Nov 2015; Agostino Sarubbo <ago@gentoo.org> php-5.5.30.ebuild,
+  php-5.6.14.ebuild:
+  sparc stable wrt bug #562882
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+
+*php-7.0.0_rc6-r1 (05 Nov 2015)
+*php-5.6.15-r2 (05 Nov 2015)
+
+  05 Nov 2015; Michael Orlitzky <mjo@gentoo.org> -php-5.6.15-r1.ebuild,
+  +php-5.6.15-r2.ebuild, -php-7.0.0_rc6.ebuild, +php-7.0.0_rc6-r1.ebuild:
+  don't depend on versions of sys-libs/db that won't be detected.
+
+  In bug #564824, Robert Förster noticed that there's an issue building
+  PHP with both sys-libs/db-5.3 and sys-libs/db-6.0 installed. The root
+  cause of the failure is that PHP attempts to autodetect sys-libs/db,
+  but doesn't specifically look for db-5.3. When db-5.3 is not found,
+  it falls back to /usr/include/db.h from version 6.0 and that version
+  is incompatible.
+
+  A similar issue exists with older 4.x versions, but not with db-4.5
+  through db-5.1. A fix has been sent upstream for db-5.3. In the
+  meantime, we remove that and the older 4.x versions from $DEPEND.
+
+  Gentoo-Bug: 564824
+
+  Package-Manager: portage-2.2.20.1
+
+  05 Nov 2015; Markus Meier <maekke@gentoo.org> php-5.5.30.ebuild:
+  arm stable, bug #562882
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --include-arches="arm"
+
+  05 Nov 2015; Markus Meier <maekke@gentoo.org> php-5.6.14.ebuild:
+  arm stable, bug #562882
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --include-arches="arm"
+
+*php-5.6.15-r3 (06 Nov 2015)
+
+  06 Nov 2015; Michael Orlitzky <mjo@gentoo.org> +php-5.6.15-r3.ebuild:
+  revbump dev-lang/php-5.6.15 to fix QA issues.
+
+  This commit fixes a number of issues in the php-5.6.15-r2 ebuild:
+
+    * The ./configure handling is rewritten to use autotools-utils.
+      This is the most invasive (and dangerous) change, but fixes
+      all of the unquoted $EPREFIX appearing throughout src_configure.
+
+    * Add die() statements to sed, cp, cd, etc. commands.
+
+    * Remove die() statements on helper functions (we're using EAPI 5).
+
+    * Line-wrap some long lines.
+
+  Ideally this should behave the same as -r2, but since the change is so
+  invasive, -r3 is being added masked.
+
+  Package-Manager: portage-2.2.20.1
+
+*php-7.0.0_rc6-r2 (06 Nov 2015)
+
+  06 Nov 2015; Michael Orlitzky <mjo@gentoo.org> +php-7.0.0_rc6-r2.ebuild:
+  revbump dev-lang/php-7.0.0_rc6 to fix QA issues.
+
+  This commit makes the same changes as ec5104f, only for the latest 7.x
+  series ebuild. The 7.x series is already package.masked.
+
+  Package-Manager: portage-2.2.20.1
+
+  07 Nov 2015; Mikle Kolyada <zlogene@gentoo.org> php-5.5.30.ebuild,
+  php-5.6.14.ebuild:
+  ia64 stable wrt bug #562882
+
+  Package-Manager: portage-2.2.20.1
+

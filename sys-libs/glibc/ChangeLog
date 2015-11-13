@@ -1,0 +1,220 @@
+# ChangeLog for sys-libs/glibc
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*glibc-9999 (09 Aug 2015)
+*glibc-2.22 (09 Aug 2015)
+*glibc-2.21-r1 (09 Aug 2015)
+*glibc-2.20-r2 (09 Aug 2015)
+*glibc-2.20-r1 (09 Aug 2015)
+*glibc-2.20 (09 Aug 2015)
+*glibc-2.19-r1 (09 Aug 2015)
+*glibc-2.19 (09 Aug 2015)
+*glibc-2.18-r1 (09 Aug 2015)
+*glibc-2.17 (09 Aug 2015)
+*glibc-2.16.0 (09 Aug 2015)
+*glibc-2.15-r3 (09 Aug 2015)
+*glibc-2.14.1-r3 (09 Aug 2015)
+*glibc-2.13-r4 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/2.10/glibc-2.10-gentoo-chk_fail.c,
+  +files/2.10/glibc-2.10-hardened-configure-picdefault.patch,
+  +files/2.10/glibc-2.10-hardened-inittls-nosysenter.patch,
+  +files/2.12/glibc-2.12-hardened-pie.patch,
+  +files/2.16/glibc-2.16-hardened-pie.patch,
+  +files/2.17/glibc-2.17-hardened-pie.patch,
+  +files/2.18/glibc-2.18-gentoo-chk_fail.c,
+  +files/2.18/glibc-2.18-gentoo-stack_chk_fail.c,
+  +files/2.18/glibc-2.18-hardened-inittls-nosysenter.patch,
+  +files/2.19/glibc-2.19-hardened-configure-picdefault.patch,
+  +files/2.20/glibc-2.20-gentoo-chk_fail.c,
+  +files/2.20/glibc-2.20-gentoo-stack_chk_fail.c,
+  +files/2.20/glibc-2.20-hardened-inittls-nosysenter.patch,
+  +files/2.6/glibc-2.6-gentoo-stack_chk_fail.c, +files/eblits/common.eblit,
+  +files/eblits/pkg_postinst.eblit, +files/eblits/pkg_preinst.eblit,
+  +files/eblits/pkg_pretend.eblit, +files/eblits/pkg_setup.eblit,
+  +files/eblits/src_compile.eblit, +files/eblits/src_configure.eblit,
+  +files/eblits/src_install.eblit, +files/eblits/src_prepare.eblit,
+  +files/eblits/src_test.eblit, +files/eblits/src_unpack.eblit, +files/nscd,
+  +files/nscd.service, +files/nscd.tmpfilesd, +files/nsswitch.conf,
+  +glibc-2.13-r4.ebuild, +glibc-2.14.1-r3.ebuild, +glibc-2.15-r3.ebuild,
+  +glibc-2.16.0.ebuild, +glibc-2.17.ebuild, +glibc-2.18-r1.ebuild,
+  +glibc-2.19.ebuild, +glibc-2.19-r1.ebuild, +glibc-2.20.ebuild,
+  +glibc-2.20-r1.ebuild, +glibc-2.20-r2.ebuild, +glibc-2.21-r1.ebuild,
+  +glibc-2.22.ebuild, +glibc-9999.ebuild, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  09 Aug 2015; Mike Frysinger <vapier@gentoo.org> glibc-2.22.ebuild:
+  glibc: fix from upstream for hppa miscompilation w/syscalls
+
+  Package-Manager: portage-2.2.20
+
+  09 Aug 2015; Ulrich Müller <ulm@gentoo.org> files/nscd:
+  [QA] Remove executable bit from files, bug 550434.
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org> glibc-2.22.ebuild:
+  add more upstream fixes
+
+  18 Aug 2015; Mike Frysinger <vapier@gentoo.org> glibc-2.22.ebuild:
+  fix from upstrea for hppa/pie #505312
+
+  21 Aug 2015; Mike Frysinger <vapier@gentoo.org> glibc-2.22.ebuild:
+  fix building w/out perl #552020
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> glibc-2.13-r4.ebuild,
+  glibc-2.14.1-r3.ebuild, glibc-2.15-r3.ebuild, glibc-2.16.0.ebuild,
+  glibc-2.17.ebuild, glibc-2.18-r1.ebuild, glibc-2.19.ebuild,
+  glibc-2.19-r1.ebuild, glibc-2.20.ebuild, glibc-2.20-r1.ebuild,
+  glibc-2.20-r2.ebuild, glibc-2.21-r1.ebuild, glibc-2.22.ebuild,
+  glibc-9999.ebuild, metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> glibc-2.13-r4.ebuild,
+  glibc-2.14.1-r3.ebuild, glibc-2.15-r3.ebuild, glibc-2.16.0.ebuild,
+  glibc-2.17.ebuild, glibc-2.18-r1.ebuild, glibc-2.19.ebuild,
+  glibc-2.19-r1.ebuild, glibc-2.20.ebuild, glibc-2.20-r1.ebuild,
+  glibc-2.20-r2.ebuild, glibc-2.21-r1.ebuild, glibc-2.22.ebuild,
+  glibc-9999.ebuild:
+  Use https for most gnu.org URLs
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  29 Aug 2015; Mike Frysinger <vapier@gentoo.org> glibc-2.21-r1.ebuild,
+  glibc-2.22.ebuild:
+  upstream fix for getmntent corruption #558946
+
+  26 Sep 2015; Mike Frysinger <vapier@gentoo.org> glibc-2.22.ebuild:
+  upstream fix for static linking #509748
+
+  11 Oct 2015; Mike Frysinger <vapier@gentoo.org> glibc-2.20-r2.ebuild:
+  mark 2.20-r2 sparc stable #544034
+
+  12 Oct 2015; Magnus Granberg <zorry@gentoo.org> glibc-2.22.ebuild:
+  Use built-in pie support on 2.22 #558636
+
+  Package-Manager: portage-2.2.22
+
+  13 Oct 2015; Magnus Granberg <zorry@gentoo.org> glibc-2.22.ebuild:
+  readd arm patch for 2.22
+
+  Package-Manager: portage-2.2.22
+
+  16 Oct 2015; Mike Frysinger <vapier@gentoo.org>
+  files/eblits/pkg_preinst.eblit:
+  ignore locale settings in preinst test
+
+  When upgrading to a new version, the localedata format might have
+  changed, which means the test programs may crash inside of glibc
+  when trying to parse it.  Since this test is not for verifying
+  localedata (which we'll be rebuilding anyways), clear the active
+  locale settings.
+
+  17 Oct 2015; Mike Frysinger <vapier@gentoo.org> glibc-2.22.ebuild:
+  more upstream fixes
+
+*glibc-2.22-r1 (19 Oct 2015)
+
+  19 Oct 2015; Mike Frysinger <vapier@gentoo.org> -glibc-2.22.ebuild,
+  +glibc-2.22-r1.ebuild:
+  move 2.22 into ~arch
+
+  19 Oct 2015; Mike Frysinger <vapier@gentoo.org> -glibc-2.19.ebuild,
+  -glibc-2.20.ebuild, -glibc-2.20-r1.ebuild:
+  drop old r# versions
+
+  19 Oct 2015; Mike Frysinger <vapier@gentoo.org>
+  -files/2.12/glibc-2.12-hardened-pie.patch,
+  -files/2.16/glibc-2.16-hardened-pie.patch, -glibc-2.13-r4.ebuild,
+  -glibc-2.14.1-r3.ebuild, -glibc-2.15-r3.ebuild, -glibc-2.16.0.ebuild:
+  move versions older than 2.17 to overlay
+
+  19 Oct 2015; Mike Frysinger <vapier@gentoo.org> glibc-9999.ebuild:
+  drop obsolete hardened work from git ebuild too #558636
+
+  19 Oct 2015; Mikle Kolyada <zlogene@gentoo.org> glibc-2.21-r1.ebuild:
+  amd64 stable wrt bug #563524
+
+  Package-Manager: portage-2.2.20.1
+
+  24 Oct 2015; Jeroen Roovers <jer@gentoo.org> glibc-2.21-r1.ebuild:
+  Stable for PPC64 (bug #563524).
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --ignore-arches
+
+  24 Oct 2015; Mikle Kolyada <zlogene@gentoo.org> glibc-2.22-r1.ebuild:
+  x86 stable wrt bug #563524
+
+  Package-Manager: portage-2.2.20.1
+
+  24 Oct 2015; Mikle Kolyada <zlogene@gentoo.org> glibc-2.21-r1.ebuild,
+  glibc-2.22-r1.ebuild:
+  Mark proper version stable for x86
+
+  Package-Manager: portage-2.2.20.1
+
+  30 Oct 2015; Agostino Sarubbo <ago@gentoo.org> glibc-2.21-r1.ebuild:
+  ppc stable wrt bug #563524
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  31 Oct 2015; Mike Frysinger <vapier@gentoo.org> glibc-2.21-r1.ebuild:
+  mark arm64/ia64/m68k/s390/sh stable #563524
+
+  31 Oct 2015; Jeroen Roovers <jer@gentoo.org> glibc-2.21-r1.ebuild:
+  Stable for HPPA (bug #563524).
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --ignore-arches
+
+  05 Nov 2015; Agostino Sarubbo <ago@gentoo.org> glibc-2.21-r1.ebuild:
+  sparc stable wrt bug #563524
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+

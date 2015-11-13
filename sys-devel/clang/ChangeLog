@@ -1,0 +1,125 @@
+# ChangeLog for sys-devel/clang
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*clang-9999-r100 (09 Aug 2015)
+*clang-9999 (09 Aug 2015)
+*clang-3.6.2-r100 (09 Aug 2015)
+*clang-3.6.1-r100 (09 Aug 2015)
+*clang-3.6.0-r100 (09 Aug 2015)
+*clang-3.5.2-r100 (09 Aug 2015)
+*clang-3.5.1-r100 (09 Aug 2015)
+*clang-3.5.0-r100 (09 Aug 2015)
+*clang-3.4.2-r100 (09 Aug 2015)
+*clang-3.3-r100 (09 Aug 2015)
+*clang-3.2 (09 Aug 2015)
+*clang-3.1-r5 (09 Aug 2015)
+*clang-3.0-r4 (09 Aug 2015)
+*clang-2.9-r1 (09 Aug 2015)
+*clang-2.8-r3 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +clang-2.8-r3.ebuild,
+  +clang-2.9-r1.ebuild, +clang-3.0-r4.ebuild, +clang-3.1-r5.ebuild,
+  +clang-3.2.ebuild, +clang-3.3-r100.ebuild, +clang-3.4.2-r100.ebuild,
+  +clang-3.5.0-r100.ebuild, +clang-3.5.1-r100.ebuild,
+  +clang-3.5.2-r100.ebuild, +clang-3.6.0-r100.ebuild,
+  +clang-3.6.1-r100.ebuild, +clang-3.6.2-r100.ebuild, +clang-9999.ebuild,
+  +clang-9999-r100.ebuild,
+  +files/cl-patches/clang-0001-Add-r600-TargetInfo.patch,
+  +files/cl-patches/clang-0002-r600-Add-some-target-builtins.patch, +files/cl-
+  patches/clang-0003-r600-Add-read_global_size-and-read_local_size-builti.patc
+  h, +files/cl-patches/llvm-0001-r600-Add-some-intrinsic-definitions.patch, +f
+  iles/cl-patches/llvm-0002-r600-Add-get_global_size-and-get_local_size-intrin
+  si.patch, +files/clang-2.7-fixdoc.patch, +files/clang-2.8-alignof.patch,
+  +files/clang-2.8-darwin-prefix.patch, +files/clang-2.8-gcc-4.4.4.patch,
+  +files/clang-2.9-darwin-prefix.patch, +files/clang-2.9-gccversions.patch,
+  +files/clang-3.0-fix_cxx_include_root.patch,
+  +files/clang-3.0-freebsd-runtime-gcc-detection.patch,
+  +files/clang-3.0-gentoo-binutils-apple.patch,
+  +files/clang-3.0-linux-runtime-gcc-detection.patch,
+  +files/clang-3.0-recognize-amd-k10-enable-sse4a.patch,
+  +files/clang-3.1-gentoo-freebsd-fix-cxx-paths-v2.patch,
+  +files/clang-3.1-gentoo-freebsd-fix-lib-path.patch,
+  +files/clang-3.1-gentoo-runtime-gcc-detection-v3.patch,
+  +files/clang-3.1-increase-parser-recursion-limit.patch, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*clang-3.7.0_rc2-r100 (24 Aug 2015)
+
+  24 Aug 2015; Bernard Cafarelli <voyageur@gentoo.org>
+  +clang-3.7.0_rc2-r100.ebuild, metadata.xml:
+  add rc version for testing
+
+  Package-Manager: portage-2.2.20.1
+
+*clang-3.7.0_rc3-r100 (25 Aug 2015)
+
+  25 Aug 2015; Bernard Cafarelli <voyageur@gentoo.org>
+  -clang-3.7.0_rc2-r100.ebuild, +clang-3.7.0_rc3-r100.ebuild:
+  release candidate bump
+
+  Package-Manager: portage-2.2.20.1
+
+*clang-3.7.0-r100 (02 Sep 2015)
+
+  02 Sep 2015; Bernard Cafarelli <voyageur@gentoo.org>
+  -clang-3.7.0_rc3-r100.ebuild, +clang-3.7.0-r100.ebuild:
+  bump to final release
+
+  Package-Manager: portage-2.2.20.1
+
+  28 Sep 2015; Bernard Cafarelli <voyageur@gentoo.org>
+  clang-3.7.0-r100.ebuild:
+  fix slot on 3.7.0, thanks klnikita on IRC
+
+  Package-Manager: portage-2.2.22
+
+  28 Oct 2015; Justin Lecher <jlec@gentoo.org> clang-2.8-r3.ebuild,
+  clang-2.9-r1.ebuild, clang-3.0-r4.ebuild, clang-3.1-r5.ebuild, metadata.xml:
+  Prefix love
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  04 Nov 2015; Michał Górny <mgorny@gentoo.org> -clang-3.5.1-r100.ebuild,
+  -clang-3.6.0-r100.ebuild, -clang-3.6.1-r100.ebuild:
+  Remove versions requiring removed llvm versions
+

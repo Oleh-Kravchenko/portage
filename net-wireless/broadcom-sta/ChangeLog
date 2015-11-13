@@ -1,0 +1,130 @@
+# ChangeLog for net-wireless/broadcom-sta
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*broadcom-sta-6.30.223.248-r3 (09 Aug 2015)
+*broadcom-sta-6.30.223.248-r2 (09 Aug 2015)
+*broadcom-sta-6.30.223.248-r1 (09 Aug 2015)
+*broadcom-sta-6.30.223.141-r2 (09 Aug 2015)
+*broadcom-sta-6.30.223.141-r1 (09 Aug 2015)
+*broadcom-sta-6.30.223.141 (09 Aug 2015)
+*broadcom-sta-6.30.223.30-r2 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +broadcom-sta-6.30.223.30-r2.ebuild, +broadcom-sta-6.30.223.141.ebuild,
+  +broadcom-sta-6.30.223.141-r1.ebuild, +broadcom-sta-6.30.223.141-r2.ebuild,
+  +broadcom-sta-6.30.223.248-r1.ebuild, +broadcom-sta-6.30.223.248-r2.ebuild,
+  +broadcom-sta-6.30.223.248-r3.ebuild,
+  +files/broadcom-sta-5.10.91.9-license.patch,
+  +files/broadcom-sta-5.100.82.111-linux-3.0.patch,
+  +files/broadcom-sta-5.100.82.112-linux-2.6.39.patch,
+  +files/broadcom-sta-5.100.82.112-linux-3.2-with-multicast.patch,
+  +files/broadcom-sta-5.100.82.112-linux-3.4.patch,
+  +files/broadcom-sta-5.100.82.112-linux-3.6.patch,
+  +files/broadcom-sta-5.100.82.112-linux-3.8.patch,
+  +files/broadcom-sta-5.100.82.112-linux-3.9.patch,
+  +files/broadcom-sta-5.100.82.112-remove-rssi-errors.patch,
+  +files/broadcom-sta-5.100.82.38-gcc.patch,
+  +files/broadcom-sta-6.30.223.141-eth-to-wlan.patch,
+  +files/broadcom-sta-6.30.223.141-gcc.patch,
+  +files/broadcom-sta-6.30.223.141-license.patch,
+  +files/broadcom-sta-6.30.223.141-linux-3.10.0.patch,
+  +files/broadcom-sta-6.30.223.141-linux-3.15.patch,
+  +files/broadcom-sta-6.30.223.141-linux-recent.patch,
+  +files/broadcom-sta-6.30.223.141-makefile.patch,
+  +files/broadcom-sta-6.30.223.248-linux-3.17.patch,
+  +files/broadcom-sta-6.30.223.248-linux-3.18.patch,
+  +files/broadcom-sta-6.30.223.248-r3-Wno-date-time.patch,
+  +files/broadcom-sta-6.30.223.248-r3-linux-3.15-3.18.patch,
+  +files/broadcom-sta-6.30.223.248-r3-linux-4.0.patch,
+  +files/broadcom-sta-6.30.223.30-linux-3.10.0.patch,
+  +files/broadcom-sta-6.30.223.30-linux-3.9.0.patch,
+  +files/broadcom-sta-6.30.223.30-makefile.patch, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+*broadcom-sta-6.30.223.248-r4 (22 Aug 2015)
+
+  22 Aug 2015; Matt Turner <mattst88@gentoo.org>
+  +broadcom-sta-6.30.223.248-r4.ebuild,
+  +files/broadcom-sta-6.30.223.248-r4-linux-4.2.patch:
+  Add patch for Linux 4.2.
+
+  Package-Manager: portage-2.2.20.1
+  Bug: https://bugs.gentoo.org/557338
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  01 Sep 2015; Matt Turner <mattst88@gentoo.org>
+  broadcom-sta-6.30.223.248-r4.ebuild:
+  Add missing \-escape
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=559234
+
+*broadcom-sta-6.30.223.271 (19 Oct 2015)
+
+  19 Oct 2015; Matthew Brewer <tomboy64@sina.cn>
+  +broadcom-sta-6.30.223.271.ebuild:
+  version bump
+
+  19 Oct 2015; Matthew Brewer <tomboy64@sina.cn> metadata.xml:
+  re-added tomboy64@sina.cn as maintainer
+
+*broadcom-sta-6.30.223.271-r1 (02 Nov 2015)
+
+  02 Nov 2015; Matt Turner <mattst88@gentoo.org>
+  -broadcom-sta-6.30.223.271.ebuild, +broadcom-sta-6.30.223.271-r1.ebuild,
+  +files/broadcom-sta-6.30.223.271-r1-linux-3.18.patch:
+  Readd necessary patch hunk.
+
+  Necessary to prevent a hang.
+
+  Bug: https://bugs.gentoo.org/562620
+
+  02 Nov 2015; Matt Turner <mattst88@gentoo.org>
+  broadcom-sta-6.30.223.271-r1.ebuild:
+  Drop unneeded patch.
+

@@ -1,0 +1,202 @@
+# ChangeLog for media-tv/mythtv
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*mythtv-0.27.5_p20150627 (09 Aug 2015)
+*mythtv-0.27.4_p20150124 (09 Aug 2015)
+*mythtv-0.27.4_p20141018 (09 Aug 2015)
+*mythtv-0.27.3_p20141009 (09 Aug 2015)
+*mythtv-0.27.3_p20140907 (09 Aug 2015)
+*mythtv-0.27.1_p20140817 (09 Aug 2015)
+*mythtv-0.27.1_p20140713 (09 Aug 2015)
+*mythtv-0.27_p20140321 (09 Aug 2015)
+*mythtv-0.26.0_p20130922 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +files/bash_profile,
+  +files/libdir-27.patch, +files/libdir.patch, +files/mythbackend.conf,
+  +files/mythbackend.init, +files/mythbackend.service,
+  +files/mythfrontend.conf, +files/mythfrontend.wrapper,
+  +files/mythtv.logrotate.d-r3, +files/mythtv.logrotate.d-r4,
+  +files/xinitrc-r1, +metadata.xml, +mythtv-0.26.0_p20130922.ebuild,
+  +mythtv-0.27_p20140321.ebuild, +mythtv-0.27.1_p20140713.ebuild,
+  +mythtv-0.27.1_p20140817.ebuild, +mythtv-0.27.3_p20140907.ebuild,
+  +mythtv-0.27.3_p20141009.ebuild, +mythtv-0.27.4_p20141018.ebuild,
+  +mythtv-0.27.4_p20150124.ebuild, +mythtv-0.27.5_p20150627.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  10 Aug 2015; Doug Goldstein <cardoe@gentoo.org>
+  -mythtv-0.27.1_p20140713.ebuild, -mythtv-0.27.3_p20140907.ebuild,
+  -mythtv-0.27.4_p20141018.ebuild:
+  remove older versions
+
+  Package-Manager: portage-2.2.20
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  mythtv-0.26.0_p20130922.ebuild, mythtv-0.27_p20140321.ebuild,
+  mythtv-0.27.1_p20140817.ebuild, mythtv-0.27.3_p20141009.ebuild,
+  mythtv-0.27.4_p20150124.ebuild, mythtv-0.27.5_p20150627.ebuild:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  06 Sep 2015; Doug Goldstein <cardoe@gentoo.org>
+  -files/mythtv.logrotate.d-r3, -mythtv-0.27.1_p20140817.ebuild,
+  -mythtv-0.27.3_p20141009.ebuild, -mythtv-0.27.4_p20150124.ebuild:
+  Retire a slew of old ebuilds
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+*mythtv-0.27.5_p20150904 (08 Sep 2015)
+
+  08 Sep 2015; Doug Goldstein <cardoe@gentoo.org> +files/mythbackend.conf-r1,
+  +files/mythbackend.init-r1, +mythtv-0.27.5_p20150904.ebuild:
+  upstream bump and bug fixes
+
+  Bump to latest upstream 0.27-fixes branch. Add a MYTHBACKEND_LOGGING option
+  to allow users to specify custom logging options instead of always having
+  /var/log/mythtv hardcoded on them. (bug #493396 & bug #442996). Prevent
+  installing scripts that need the Perl bindings when USE=-perl is set.
+  Similiarly prevent Python script installation when USE=-python is set.
+  (bug #516968). Add missing dependency on udisks:0 when USE=dvd or
+  USE=bluray is set. (bug #456898 & bug #503806). Drop 'need net' in the
+  init script in favor of 'use net.lo'. (bug #439656). Add lame as a
+  dependency always, reported and fixed by Olav Sandstå
+  <olav@sandstaa.net>). (bug #440006).
+
+  Gentoo-Bug: 493396
+  Gentoo-Bug: 442996
+  Gentoo-Bug: 516968
+  Gentoo-Bug: 456898
+  Gentoo-Bug: 503806
+  Gentoo-Bug: 439656
+  Gentoo-Bug: 440006
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  09 Sep 2015; Doug Goldstein <cardoe@gentoo.org>
+  mythtv-0.27.5_p20150904.ebuild:
+  additional bug fixes
+
+  Fix the usage of $EPYTHON. Added call to --disable-vdpau and
+  --disable-crystalhd when their respective USE flags are disabled. Finish
+  conversion to python-single-r1.
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  13 Sep 2015; Doug Goldstein <cardoe@gentoo.org>
+  mythtv-0.27.5_p20150904.ebuild:
+  fix python-single-r1 initialization
+
+  Don't conditionally call python-single-r1_pkg_setup as pointed out by
+  Anders Hellgren <kallamej@gentoo.org>.
+
+  Gentoo-Bug: 560136
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+*mythtv-0.27.5_p20150904-r1 (14 Sep 2015)
+
+  14 Sep 2015; Doug Goldstein <cardoe@gentoo.org> -files/mythbackend.init-r1,
+  +files/mythbackend.init-r2, -mythtv-0.27.5_p20150904.ebuild,
+  +mythtv-0.27.5_p20150904-r1.ebuild:
+  multiple init script fixes
+
+  The new init scripts had a few bugs related to permissions and command line
+  switches.
+
+  Gentoo-Bug: 560142
+  Gentoo-Bug: 560144
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  16 Sep 2015; Doug Goldstein <cardoe@gentoo.org> files/mythbackend.init-r2:
+  fix typo in user name
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  16 Sep 2015; Doug Goldstein <cardoe@gentoo.org> files/mythbackend.init-r2:
+  more refactors of the init script
+
+  Gentoo-Bug: 560142
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+*mythtv-0.27.5_p20150904-r2 (17 Sep 2015)
+
+  17 Sep 2015; Doug Goldstein <cardoe@gentoo.org>
+  +mythtv-0.27.5_p20150904-r2.ebuild:
+  bump for using sub-slots
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  09 Oct 2015; Doug Goldstein <cardoe@gentoo.org> files/mythbackend.init-r2:
+  drop group write on log directory
+
+  Drop the group write bit on the /var/log/mythtv directory in the
+  mythbackend initscript.
+
+*mythtv-0.27.5_p20151025 (27 Oct 2015)
+
+  27 Oct 2015; Doug Goldstein <cardoe@gentoo.org>
+  +mythtv-0.27.5_p20151025.ebuild:
+  fix C++ visibility with gcc 4.9+
+
+  Fix build issues surrounding devirualization and visibility with gcc
+  4.9+. Fix OpenSSL slot dependency. Change USE=raop to USE=avahi for
+  AirPlay, AirTunes, and Bonjour support since a number of third-party
+  docs mention the inconsistency in USE flag naming.
+
+  Gentoo-Bug: 516692
+  Gentoo-Bug: 562084
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

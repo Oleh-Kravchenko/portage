@@ -1,0 +1,149 @@
+# ChangeLog for app-doc/doxygen
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*doxygen-9999 (09 Aug 2015)
+*doxygen-1.8.10-r1 (09 Aug 2015)
+*doxygen-1.8.10 (09 Aug 2015)
+*doxygen-1.8.9.1 (09 Aug 2015)
+*doxygen-1.8.8 (09 Aug 2015)
+*doxygen-1.8.5 (09 Aug 2015)
+*doxygen-1.8.4-r2 (09 Aug 2015)
+*doxygen-1.8.3.1 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +doxygen-1.8.3.1.ebuild,
+  +doxygen-1.8.4-r2.ebuild, +doxygen-1.8.5.ebuild, +doxygen-1.8.8.ebuild,
+  +doxygen-1.8.9.1.ebuild, +doxygen-1.8.10.ebuild, +doxygen-1.8.10-r1.ebuild,
+  +doxygen-9999.ebuild, +files/1.4.7/01_all_cp1251.patch,
+  +files/1.4.7/05_all_system-libpng.patch, +files/1.4.7/06_all_qtools.patch,
+  +files/doxygen-1.5-legacy-patches.diff, +files/doxygen-1.5-qtlibdir.patch,
+  +files/doxygen-1.5-system-libpng.patch,
+  +files/doxygen-1.5.6-prefix-misc-alt.patch,
+  +files/doxygen-1.5.8-kdedocs.patch,
+  +files/doxygen-1.8.1-prefix-misc-alt.patch,
+  +files/doxygen-1.8.10-link_with_pthread.patch,
+  +files/doxygen-1.8.3.1-empty-line-sigsegv.patch,
+  +files/doxygen-1.8.4-infinite_loop.patch,
+  +files/doxygen-1.8.4-libreoffice.patch,
+  +files/doxygen-1.8.9.1-empty-line-sigsegv.patch, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  09 Aug 2015; Matthias Maier <tamiko@43-1.org> doxygen-1.8.10.ebuild,
+  doxygen-1.8.10-r1.ebuild, doxygen-9999.ebuild:
+  ebuild maintenance and rekeyword 1.8.10-r1
+
+  Package-Manager: portage-2.2.20
+
+  09 Aug 2015; Matthias Maier <tamiko@43-1.org> -doxygen-1.8.3.1.ebuild,
+  -doxygen-1.8.4-r2.ebuild, -doxygen-1.8.8.ebuild, -doxygen-1.8.10.ebuild,
+  -files/1.4.7/01_all_cp1251.patch, -files/1.4.7/05_all_system-libpng.patch,
+  -files/1.4.7/06_all_qtools.patch, -files/doxygen-1.5-legacy-patches.diff,
+  -files/doxygen-1.5-qtlibdir.patch, -files/doxygen-1.5-system-libpng.patch,
+  -files/doxygen-1.5.6-prefix-misc-alt.patch,
+  -files/doxygen-1.5.8-kdedocs.patch,
+  -files/doxygen-1.8.4-infinite_loop.patch,
+  -files/doxygen-1.8.4-libreoffice.patch:
+  remove old; remove unused patches
+
+  Package-Manager: portage-2.2.20
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> doxygen-1.8.5.ebuild,
+  doxygen-1.8.9.1.ebuild, doxygen-1.8.10-r1.ebuild, doxygen-9999.ebuild,
+  metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  09 Oct 2015; Jeroen Roovers <jer@gentoo.org> doxygen-1.8.9.1.ebuild:
+  Stable for HPPA (bug #550348).
+
+  Package-Manager: portage-2.2.22
+  RepoMan-Options: --ignore-arches
+
+  09 Oct 2015; Jeroen Roovers <jer@gentoo.org> doxygen-1.8.9.1.ebuild:
+  Stable for PPC64 (bug #550348).
+
+  Package-Manager: portage-2.2.22
+  RepoMan-Options: --ignore-arches
+
+  26 Oct 2015; Jeroen Roovers <jer@gentoo.org> doxygen-1.8.10-r1.ebuild:
+  Stable for HPPA PPC64 (bug #563856).
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --ignore-arches
+
+  27 Oct 2015; Agostino Sarubbo <ago@gentoo.org> doxygen-1.8.10-r1.ebuild:
+  amd64 stable wrt bug #563856
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  30 Oct 2015; Agostino Sarubbo <ago@gentoo.org> doxygen-1.8.10-r1.ebuild:
+  ppc stable wrt bug #563856
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  01 Nov 2015; Mikle Kolyada <zlogene@gentoo.org> doxygen-1.8.10-r1.ebuild:
+  x86 stable wrt bug #563856
+
+  Package-Manager: portage-2.2.20.1
+
+  05 Nov 2015; Agostino Sarubbo <ago@gentoo.org> doxygen-1.8.10-r1.ebuild:
+  sparc stable wrt bug #563856
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+
+  08 Nov 2015; Mikle Kolyada <zlogene@gentoo.org> doxygen-1.8.10-r1.ebuild:
+  ia64 stable wrt bug #563856
+
+  Package-Manager: portage-2.2.20.1
+
+  10 Nov 2015; Markus Meier <maekke@gentoo.org> doxygen-1.8.10-r1.ebuild:
+  arm stable, bug #563856
+
+  Package-Manager: portage-2.2.23
+  RepoMan-Options: --include-arches="arm"
+

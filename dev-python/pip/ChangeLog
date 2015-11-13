@@ -1,0 +1,209 @@
+# ChangeLog for dev-python/pip
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pip-7.1.0 (09 Aug 2015)
+*pip-7.0.3 (09 Aug 2015)
+*pip-7.0.1 (09 Aug 2015)
+*pip-7.0.0 (09 Aug 2015)
+*pip-6.1.1 (09 Aug 2015)
+*pip-6.0.8 (09 Aug 2015)
+*pip-1.5.6 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/pip-6.0.2-disable-version-check.patch, +metadata.xml,
+  +pip-1.5.6.ebuild, +pip-6.0.8.ebuild, +pip-6.1.1.ebuild, +pip-7.0.0.ebuild,
+  +pip-7.0.1.ebuild, +pip-7.0.3.ebuild, +pip-7.1.0.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+*pip-7.1.2 (24 Aug 2015)
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org>
+  +files/pip-7.1.2-unbundle.patch, +pip-7.1.2.ebuild:
+  Version Bump
+
+  unbundle all vendored libs
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Add missing remote-id
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> pip-1.5.6.ebuild,
+  pip-6.0.8.ebuild, pip-6.1.1.ebuild, pip-7.0.0.ebuild, pip-7.0.1.ebuild,
+  pip-7.0.3.ebuild, pip-7.1.0.ebuild:
+  Use https by default
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  25 Aug 2015; Tim Harder <radhermit@gentoo.org> -pip-6.0.8.ebuild,
+  -pip-6.1.1.ebuild, -pip-7.0.0.ebuild, -pip-7.0.1.ebuild, -pip-7.0.3.ebuild:
+  remove old
+
+  25 Aug 2015; Mike Gilbert <floppym@gentoo.org> pip-7.1.2.ebuild:
+  Add PYTHON_USEDEP to all dependencies
+
+  Bug: https://bugs.gentoo.org/558670
+
+  Package-Manager: portage-2.2.20_p40
+
+  27 Aug 2015; Justin Lecher <jlec@gentoo.org> pip-7.1.2.ebuild:
+  Resolve circular deps,
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=558808
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  27 Aug 2015; Justin Lecher <jlec@gentoo.org> pip-7.1.2.ebuild:
+  Revert "dev-python/pip: Resolve circular deps,"
+
+  This reverts commit bf410198759837aed7fa5099e64d63a89dc71dec.
+
+  06 Sep 2015; Jeroen Roovers <jer@gentoo.org> pip-7.1.2.ebuild:
+  Mark ~hppa ~ppc64 (bug #558546).
+
+  Package-Manager: portage-2.2.20.1
+
+  08 Sep 2015; Joshua Kinard <kumba@gentoo.org> pip-7.1.2.ebuild:
+  Added ~mips to KEYWORDS, per #558546.
+
+  Package-Manager: portage-2.2.20.1
+
+  22 Sep 2015; Tobias Klausmann <klausman@gentoo.org> pip-7.1.2.ebuild:
+  add ~alpha keyword
+
+  Gentoo-Bug: 558546
+
+  Package-Manager: portage-2.2.21
+
+  01 Oct 2015; Markus Meier <maekke@gentoo.org> pip-7.1.2.ebuild:
+  add ~arm, bug #558546
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="arm"
+
+  10 Oct 2015; Mikle Kolyada <zlogene@gentoo.org> pip-7.1.2.ebuild:
+  Add ~sparc keywords wrt bug #558546
+
+  Package-Manager: portage-2.2.20.1
+
+*pip-7.1.2-r1 (11 Oct 2015)
+
+  11 Oct 2015; Justin Lecher <jlec@gentoo.org> +pip-7.1.2-r1.ebuild:
+  Add python3.5 support
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  14 Oct 2015; Michał Górny <mgorny@gentoo.org> pip-7.1.2.ebuild,
+  -pip-7.1.2-r1.ebuild:
+  dev-python/*: Restore keywords and un-revbump for py3.5
+
+  Restore keywords that were removed unnecessarily, and collapse
+  unnecessary revbumps on packages with added python3.5 support.
+
+  14 Oct 2015; Justin Lecher <jlec@gentoo.org> pip-7.1.0.ebuild,
+  pip-7.1.2.ebuild:
+  Keyword under ALLARCHES policy
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  02 Nov 2015; Agostino Sarubbo <ago@gentoo.org> pip-7.1.2.ebuild:
+  amd64 stable wrt bug #564588
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  02 Nov 2015; Agostino Sarubbo <ago@gentoo.org> pip-7.1.2.ebuild:
+  x86 stable wrt bug #564588
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+  04 Nov 2015; Agostino Sarubbo <ago@gentoo.org> pip-7.1.2.ebuild:
+  ppc stable wrt bug #564588
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  04 Nov 2015; Agostino Sarubbo <ago@gentoo.org> pip-7.1.2.ebuild:
+  ppc64 stable wrt bug #564588
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc64"
+
+  05 Nov 2015; Agostino Sarubbo <ago@gentoo.org> pip-7.1.2.ebuild:
+  sparc stable wrt bug #564588
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+
+  08 Nov 2015; Mike Gilbert <floppym@gentoo.org> pip-7.1.2.ebuild:
+  Call PYTHON instead of EPYTHON in src_install
+
+  Package-Manager: portage-2.2.23_p26
+
+  11 Nov 2015; Justin Lecher <jlec@gentoo.org> pip-1.5.6.ebuild,
+  pip-7.1.0.ebuild, pip-7.1.2.ebuild:
+  Depend on threading support in python
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  12 Nov 2015; Justin Lecher <jlec@gentoo.org> pip-7.1.2.ebuild:
+  Move to virtual for modules with mixed support
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

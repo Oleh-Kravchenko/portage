@@ -1,0 +1,191 @@
+# ChangeLog for dev-db/phpmyadmin
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*phpmyadmin-4.4.12 (09 Aug 2015)
+*phpmyadmin-4.4.6.1 (09 Aug 2015)
+*phpmyadmin-4.3.13.1 (09 Aug 2015)
+*phpmyadmin-4.2.13.3 (09 Aug 2015)
+*phpmyadmin-4.0.10.10 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/postinstall-en-3.1.txt, +metadata.xml, +phpmyadmin-4.0.10.10.ebuild,
+  +phpmyadmin-4.2.13.3.ebuild, +phpmyadmin-4.3.13.1.ebuild,
+  +phpmyadmin-4.4.6.1.ebuild, +phpmyadmin-4.4.12.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+*phpmyadmin-4.4.13.1 (09 Aug 2015)
+
+  09 Aug 2015; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> +phpmyadmin-4.4.13.1.ebuild:
+  Bump to the 4.4.13.1 release.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+  10 Aug 2015; Julian Ospald <hasufell@gentoo.org> phpmyadmin-4.4.13.1.ebuild:
+  Convert CVS style headers back to git style headers
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+*phpmyadmin-4.5.0_beta1 (01 Sep 2015)
+*phpmyadmin-4.4.14 (01 Sep 2015)
+*phpmyadmin-4.3.13.1-r1 (01 Sep 2015)
+*phpmyadmin-4.2.13.3-r1 (01 Sep 2015)
+*phpmyadmin-4.0.10.10-r1 (01 Sep 2015)
+
+  01 Sep 2015; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> metadata.xml, -phpmyadmin-4.0.10.10.ebuild,
+  +phpmyadmin-4.0.10.10-r1.ebuild, -phpmyadmin-4.2.13.3.ebuild,
+  +phpmyadmin-4.2.13.3-r1.ebuild, +phpmyadmin-4.3.13.1-r1.ebuild,
+  -phpmyadmin-4.4.12.ebuild, -phpmyadmin-4.4.13.1.ebuild,
+  +phpmyadmin-4.4.14.ebuild, +phpmyadmin-4.5.0_beta1.ebuild:
+  Drop old versions, add new 4.4.14 release and first 4.5 beta.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+*phpmyadmin-4.5.0_rc1 (18 Sep 2015)
+*phpmyadmin-4.4.14.1 (18 Sep 2015)
+*phpmyadmin-4.3.13.3 (18 Sep 2015)
+
+  18 Sep 2015; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> -phpmyadmin-4.3.13.1-r1.ebuild,
+  +phpmyadmin-4.3.13.3.ebuild, -phpmyadmin-4.4.14.ebuild,
+  +phpmyadmin-4.4.14.1.ebuild, -phpmyadmin-4.5.0_beta1.ebuild,
+  +phpmyadmin-4.5.0_rc1.ebuild:
+  Bump phpmyadmin to releases 4.4.13.3, 4.4.14.1 and 4.5.0_rc1 - fixes bug
+  560408 (CVE-2015-6830).
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+  19 Sep 2015; Jeroen Roovers <jer@gentoo.org> phpmyadmin-4.3.13.3.ebuild,
+  phpmyadmin-4.4.14.1.ebuild:
+  Stable for HPPA PPC64 (bug #560408).
+
+  Package-Manager: portage-2.2.20.1
+
+  19 Sep 2015; Tobias Klausmann <klausman@gentoo.org>
+  phpmyadmin-4.3.13.3.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 560408
+
+  Package-Manager: portage-2.2.20.1
+
+  19 Sep 2015; Tobias Klausmann <klausman@gentoo.org>
+  phpmyadmin-4.4.14.1.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 560408
+
+  Package-Manager: portage-2.2.20.1
+
+  23 Sep 2015; Agostino Sarubbo <ago@gentoo.org> phpmyadmin-4.3.13.3.ebuild,
+  phpmyadmin-4.4.14.1.ebuild:
+  amd64 stable wrt bug #560408
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  23 Sep 2015; Agostino Sarubbo <ago@gentoo.org> phpmyadmin-4.3.13.3.ebuild,
+  phpmyadmin-4.4.14.1.ebuild:
+  x86 stable wrt bug #560408
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+*phpmyadmin-4.5.0.2 (25 Sep 2015)
+
+  25 Sep 2015; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> -phpmyadmin-4.5.0_rc1.ebuild,
+  +phpmyadmin-4.5.0.2.ebuild:
+  Add 4.5.0.2 release - second regression fix release for the 4.5 series.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+  01 Oct 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Add missing remote-id type=sourceforge
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  10 Oct 2015; Mikle Kolyada <zlogene@gentoo.org> phpmyadmin-4.3.13.3.ebuild,
+  phpmyadmin-4.4.14.1.ebuild:
+  sparc stable wrt bug #560408
+
+  Package-Manager: portage-2.2.20.1
+
+  04 Nov 2015; Agostino Sarubbo <ago@gentoo.org> phpmyadmin-4.3.13.3.ebuild,
+  phpmyadmin-4.4.14.1.ebuild:
+  ppc stable wrt bug #560408
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  04 Nov 2015; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> -phpmyadmin-4.0.10.10-r1.ebuild,
+  -phpmyadmin-4.2.13.3-r1.ebuild, -phpmyadmin-4.3.13.1.ebuild,
+  -phpmyadmin-4.3.13.3.ebuild, -phpmyadmin-4.4.6.1.ebuild:
+  Drop old and vulnerable versions.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+*phpmyadmin-4.5.1 (04 Nov 2015)
+*phpmyadmin-4.4.15.1 (04 Nov 2015)
+
+  04 Nov 2015; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> +phpmyadmin-4.4.15.1.ebuild,
+  -phpmyadmin-4.5.0.2.ebuild, +phpmyadmin-4.5.1.ebuild:
+  Version bump to address PMASA-2015-5 - fixes bug 564238. Drop vulnerable
+  version.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+

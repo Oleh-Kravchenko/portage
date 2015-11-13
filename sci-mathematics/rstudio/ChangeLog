@@ -1,0 +1,157 @@
+# ChangeLog for sci-mathematics/rstudio
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*rstudio-0.98.1091 (09 Aug 2015)
+*rstudio-0.98.1028 (09 Aug 2015)
+*rstudio-0.98.953 (09 Aug 2015)
+*rstudio-0.98.932 (09 Aug 2015)
+*rstudio-0.98.490-r1 (09 Aug 2015)
+*rstudio-0.98.490 (09 Aug 2015)
+*rstudio-0.97.551 (09 Aug 2015)
+*rstudio-0.97.336 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org> +files/rsession.conf,
+  +files/rstudio-0.97.318-linker_flags.patch,
+  +files/rstudio-0.97.318-paths.patch, +files/rstudio-0.97.318-prefs.patch,
+  +files/rstudio-0.97.336-boost-1.53.patch,
+  +files/rstudio-0.97.336-linker_flags.patch,
+  +files/rstudio-0.97.336-paths.patch, +files/rstudio-0.97.336-prefs.patch,
+  +files/rstudio-0.97.551-boost-1.53.patch,
+  +files/rstudio-0.97.551-linker_flags.patch,
+  +files/rstudio-0.97.551-paths.patch, +files/rstudio-0.97.551-prefs.patch,
+  +files/rstudio-0.98.1091-boost-1.57.patch,
+  +files/rstudio-0.98.1091-pandoc.patch,
+  +files/rstudio-0.98.490-linker_flags.patch,
+  +files/rstudio-0.98.490-paths.patch, +files/rstudio-0.98.490-prefs.patch,
+  +files/rstudio-0.98.932-pandoc.patch, +files/rstudio-0.98.932-paths.patch,
+  +files/rstudio-server.conf, +files/rstudio-server.initd, +metadata.xml,
+  +rstudio-0.97.336.ebuild, +rstudio-0.97.551.ebuild,
+  +rstudio-0.98.490.ebuild, +rstudio-0.98.490-r1.ebuild,
+  +rstudio-0.98.932.ebuild, +rstudio-0.98.953.ebuild,
+  +rstudio-0.98.1028.ebuild, +rstudio-0.98.1091.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  rstudio-0.98.932.ebuild, rstudio-0.98.953.ebuild, rstudio-0.98.1028.ebuild,
+  rstudio-0.98.1091.ebuild:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+*rstudio-0.99.473 (27 Aug 2015)
+
+  27 Aug 2015; Mark Wright <gienah@gentoo.org>
+  +files/rstudio-0.99.473-clang-pandoc.patch,
+  +files/rstudio-0.99.473-paths.patch, +rstudio-0.99.473.ebuild:
+  Bump to rstudio-0.99.473
+
+  Fixes Bug 550724 - sci-mathematics/rstudio: version bump to 0.99.473, thanks
+  to
+  Anthony Staines and Pavel Kozlov for reporting.
+
+  Package-Manager: portage-2.2.20.1
+
+  27 Aug 2015; Mark Wright <gienah@gentoo.org> rstudio-0.99.473.ebuild:
+  Fix typo in rstudio-0.99.473 s/cmake/qmake/
+
+  Package-Manager: portage-2.2.20.1
+
+*rstudio-0.99.473-r1 (30 Aug 2015)
+
+  30 Aug 2015; Mark Wright <gienah@gentoo.org>
+  +files/rstudio-0.99.473-qtsingleapplication.patch,
+  +rstudio-0.99.473-r1.ebuild:
+  Fix bug 558900, unbundle qtsingleapplication
+
+  Thanks to Helmut Jarausch for reporting, Franz Fellner for suggesting
+  patching
+  rstudio to use dev-qt/qtsingleapplication[qt5] rather than the bundled
+  version.
+  Remove sys-devel/clang upper bound, thanks to Helmut Jarausch for reporting
+  and
+  testing with clang-3.6.2-r100. I tested it builds with clang-3.7.0_rc3.
+  Fix bug 558988 sci-mathematics/rstudio-0.99.473 missing qt dependencies,
+  thanks to Oleg and Anthony Staines for reporting and testing.
+
+  Package-Manager: portage-2.2.20.1
+
+  04 Sep 2015; Mark Wright <gienah@gentoo.org> -rstudio-0.99.473.ebuild:
+  Drop rstudio-0.99.473, replaced by rstudio-0.99.473-r1.
+
+  Package-Manager: portage-2.2.20.1
+
+*rstudio-0.99.482 (04 Sep 2015)
+
+  04 Sep 2015; Mark Wright <gienah@gentoo.org> rstudio-0.99.473-r1.ebuild,
+  +rstudio-0.99.482.ebuild:
+  Bump to rstudio-0.99.482.
+
+  Avoid the rest of the oracle-jdk-bin-1.8.0.60 sandbox violations F: mkdir S:
+  deny
+  P: /root/.oracle_jre_usage. in rstudio-0.99.473-r1 and rstudio-0.99.482.
+
+  Package-Manager: portage-2.2.20.1
+
+*rstudio-0.99.483 (05 Sep 2015)
+
+  05 Sep 2015; Mark Wright <gienah@gentoo.org> +rstudio-0.99.483.ebuild:
+  Bump to 0.99.483
+
+  Package-Manager: portage-2.2.20.1
+
+*rstudio-0.99.484 (09 Sep 2015)
+
+  09 Sep 2015; Mark Wright <gienah@gentoo.org> +rstudio-0.99.484.ebuild:
+  Bump to 0.99.484
+
+  Package-Manager: portage-2.2.20.1
+
+*rstudio-0.99.486 (14 Oct 2015)
+
+  14 Oct 2015; Mark Wright <gienah@gentoo.org> +rstudio-0.99.486.ebuild:
+  Bump to 0.99.486
+
+  Package-Manager: portage-2.2.23
+

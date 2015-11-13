@@ -1,0 +1,116 @@
+# ChangeLog for net-misc/wicd
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*wicd-1.7.3-r1 (09 Aug 2015)
+*wicd-1.7.3 (09 Aug 2015)
+*wicd-1.7.2.4-r3 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/add-wpa-psk-hex-template.patch, +files/wicd-1.7.1-provide-net.patch,
+  +files/wicd-1.7.1_beta2-init.patch,
+  +files/wicd-1.7.1_pre20111210-wpa-psk-hex-template.patch,
+  +files/wicd-1.7.2.4-fix-dbus-error.patch,
+  +files/wicd-1.7.2.4-fix-desktop-categories.patch,
+  +files/wicd-1.7.2.4-second-urwid.patch, +files/wicd-1.7.2.4-urwid.patch,
+  +files/wicd-1.7.3-add-missing-gnome-shell-extension.patch,
+  +files/wicd-1.7.3-undefined-LANG.patch, +files/wicd-1.7.3-urwid-1.3.0.patch,
+  +files/wicd-init-sve-start.patch, +files/wicd-init.d, +metadata.xml,
+  +wicd-1.7.2.4-r3.ebuild, +wicd-1.7.3.ebuild, +wicd-1.7.3-r1.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  wicd-1.7.2.4-r3.ebuild, wicd-1.7.3.ebuild, wicd-1.7.3-r1.ebuild:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> wicd-1.7.2.4-r3.ebuild,
+  wicd-1.7.3.ebuild, wicd-1.7.3-r1.ebuild:
+  Convert all URIs for launchpad.net from http to https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+*wicd-1.7.3-r2 (03 Sep 2015)
+
+  03 Sep 2015; Thomas Kahle <tomka@gentoo.org>
+  +files/wicd-1.7.3-bitrate-property.patch, +wicd-1.7.3-r2.ebuild:
+  one more urwid compat patch from launchpad
+
+  Package-Manager: portage-2.2.20.1
+
+  06 Sep 2015; Thomas Kahle <tomka@gentoo.org>
+  -files/wicd-1.7.1-provide-net.patch, -files/wicd-1.7.1_beta2-init.patch,
+  -files/wicd-1.7.1_pre20111210-wpa-psk-hex-template.patch,
+  -files/wicd-1.7.2.4-fix-dbus-error.patch,
+  -files/wicd-1.7.2.4-second-urwid.patch, -files/wicd-1.7.2.4-urwid.patch,
+  -wicd-1.7.2.4-r3.ebuild, -wicd-1.7.3-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.20.1
+
+  19 Sep 2015; Agostino Sarubbo <ago@gentoo.org> wicd-1.7.3-r2.ebuild:
+  amd64 stable wrt bug #559768
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  20 Sep 2015; Agostino Sarubbo <ago@gentoo.org> wicd-1.7.3-r2.ebuild:
+  x86 stable wrt bug #559768
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+  22 Sep 2015; Agostino Sarubbo <ago@gentoo.org> wicd-1.7.3-r2.ebuild:
+  ppc stable wrt bug #559768
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  23 Sep 2015; Agostino Sarubbo <ago@gentoo.org> wicd-1.7.3-r2.ebuild:
+  ppc64 stable wrt bug #559768
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc64"
+

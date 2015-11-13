@@ -1,0 +1,125 @@
+# ChangeLog for sys-devel/binutils-apple
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*binutils-apple-6.1 (09 Aug 2015)
+*binutils-apple-5.1 (09 Aug 2015)
+*binutils-apple-4.3-r1 (09 Aug 2015)
+*binutils-apple-4.3 (09 Aug 2015)
+*binutils-apple-4.2-r1 (09 Aug 2015)
+*binutils-apple-4.2 (09 Aug 2015)
+*binutils-apple-3.2.6 (09 Aug 2015)
+*binutils-apple-3.2 (09 Aug 2015)
+*binutils-apple-3.1.2 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +binutils-apple-3.1.2.ebuild, +binutils-apple-3.2.ebuild,
+  +binutils-apple-3.2.6.ebuild, +binutils-apple-4.2.ebuild,
+  +binutils-apple-4.2-r1.ebuild, +binutils-apple-4.3.ebuild,
+  +binutils-apple-4.3-r1.ebuild, +binutils-apple-5.1.ebuild,
+  +binutils-apple-6.1.ebuild, +files/Makefile,
+  +files/binutils-apple-3.1.1-as-dir.patch,
+  +files/binutils-apple-3.1.1-as.patch,
+  +files/binutils-apple-3.1.1-libtool-ranlib.patch,
+  +files/binutils-apple-3.1.1-nmedit.patch,
+  +files/binutils-apple-3.1.1-no-efi-man.patch,
+  +files/binutils-apple-3.1.1-no-headers.patch,
+  +files/binutils-apple-3.1.1-no-oss-dir.patch,
+  +files/binutils-apple-3.1.1-ranlib.patch,
+  +files/binutils-apple-3.1.1-testsuite.patch,
+  +files/binutils-apple-3.1.2-as-Makefile.patch,
+  +files/binutils-apple-3.2-armv7-defines.patch,
+  +files/binutils-apple-3.2.2-as.patch,
+  +files/binutils-apple-3.2.3-ranlib.patch,
+  +files/binutils-apple-4.0-as-dir.patch, +files/binutils-apple-4.0-as.patch,
+  +files/binutils-apple-4.0-no-oss-dir.patch,
+  +files/binutils-apple-4.2-as-dir.patch,
+  +files/binutils-apple-4.2-globals-extern.patch,
+  +files/binutils-apple-4.2-lto.patch, +files/binutils-apple-4.5-as.patch,
+  +files/binutils-apple-5.1-as-dir.patch,
+  +files/binutils-apple-5.1-constant-types.patch,
+  +files/binutils-apple-5.1-extraneous-includes.patch,
+  +files/binutils-apple-5.1-nolto.patch,
+  +files/binutils-apple-5.1-otool-stdc.patch,
+  +files/binutils-apple-5.1-ranlib.patch,
+  +files/binutils-apple-5.1-strnlen.patch,
+  +files/cctools-839-intel-retf.patch, +files/ld64-123.2-Makefile,
+  +files/ld64-123.2-darwin8-no-mlong-branch-warning.patch,
+  +files/ld64-123.2-debug-backtrace.patch, +files/ld64-123.2.1-lto.patch,
+  +files/ld64-127.2-Makefile, +files/ld64-127.2-extraneous-headers.patch,
+  +files/ld64-127.2-lto.patch, +files/ld64-127.2-ppc-range-warning.patch,
+  +files/ld64-127.2-thread_state.patch, +files/ld64-128.2-1010.patch,
+  +files/ld64-128.2-Makefile, +files/ld64-128.2-Makefile-2,
+  +files/ld64-128.2-stdlib.patch, +files/ld64-136-Makefile,
+  +files/ld64-136-compile_stubs.h, +files/ld64-236.3-Makefile,
+  +files/ld64-236.3-arm64-fixup.patch, +files/ld64-236.3-constant-types.patch,
+  +files/ld64-236.3-crashreporter.patch, +files/ld64-236.3-gcc.patch,
+  +files/ld64-236.3-missing-cputypes.patch, +files/ld64-236.3-noarm.patch,
+  +files/ld64-236.3-nolto.patch, +files/ld64-236.3-noppc.patch,
+  +files/ld64-236.3-nosnapshots.patch, +files/ld64-241.9-arm64-cputype.patch,
+  +files/ld64-241.9-atomic-volatile.patch, +files/ld64-241.9-cc_md5.patch,
+  +files/ld64-241.9-extraneous-includes.patch, +files/ld64-241.9-gcc.patch,
+  +files/ld64-241.9-get-comm-align.patch,
+  +files/ld64-241.9-lto-noremarks.patch, +files/ld64-241.9-noarm.patch,
+  +files/ld64-241.9-nosnapshots.patch, +files/ld64-241.9-register-names.patch,
+  +files/ld64-95.2.12-Makefile,
+  +files/ld64-95.2.12-darwin8-no-mlong-branch-warning.patch,
+  +files/libunwind-30-Makefile, +metadata.xml:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+*binutils-apple-6.3 (10 Aug 2015)
+
+  10 Aug 2015; Fabian Groffen <grobian@gentoo.org> +binutils-apple-6.3.ebuild,
+  +files/ld64-242-gcc.patch, +files/ld64-242-noarm.patch:
+  version bump to Xcode 6.3 by Michael Weiser, bug #556814
+
+  Package-Manager: portage-2.2.20-prefix
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> binutils-apple-3.1.2.ebuild,
+  binutils-apple-3.2.ebuild, binutils-apple-3.2.6.ebuild,
+  binutils-apple-4.2.ebuild, binutils-apple-4.3.ebuild, metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+

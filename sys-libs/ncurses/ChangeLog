@@ -1,0 +1,265 @@
+# ChangeLog for sys-libs/ncurses
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*ncurses-5.9-r4 (09 Aug 2015)
+*ncurses-5.9-r3 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/ncurses-5.7-nongnu.patch, +files/ncurses-5.8-gfbsd.patch,
+  +files/ncurses-5.9-fix-clang-build.patch, +files/ncurses-5.9-gcc-5.patch,
+  +files/ncurses-5.9-no-I-usr-include.patch,
+  +files/ncurses-5.9-pkg-config.patch,
+  +files/ncurses-5.9-rxvt-unicode-9.15.patch, +metadata.xml,
+  +ncurses-5.9-r3.ebuild, +ncurses-5.9-r4.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-5.9-r3.ebuild,
+  ncurses-5.9-r4.ebuild:
+  use libgpm.so.1 all the time #544828
+
+  Since the gpm code relies on running ldd on the linked file in order to
+  calculate the SONAME, and we're passing this in as a configure flag some
+  of the time, just change the code to always pass it in.  This stabilizes
+  behavior across cross-compiling/multilib/ldd output/etc...  Relying on
+  ldd output in general is bad juju.
+
+*ncurses-6.0 (12 Aug 2015)
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org>
+  +files/ncurses-6.0-gfbsd.patch, +files/ncurses-6.0-pkg-config.patch,
+  +files/ncurses-6.0-rxvt-unicode-9.15.patch, +ncurses-6.0.ebuild:
+  version bump to 6.0
+
+  The bare min changes are here to get it working as more updates will
+  follow.  Focus is on making the base ABI match upstream defaults for
+  this release -- namely that we update to ABI 6 which includes colors
+  and other new extended features. #373767
+
+  Based on work by Lars Wendler.
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-6.0.ebuild:
+  simplify the multilib dep logic
+
+  Block the emul package all the time now that it's no longer in the tree.
+
+  Unify the gpm deps since there's already a circular dep here and the
+  multilib code makes no real difference in that respect.
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-6.0.ebuild:
+  build the C++ libs as shared
+
+  Since upstream has a configure flag for this now, we should be able to
+  build+install the C++ layers as shared libs instead of only making the
+  static libs available.
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-6.0.ebuild:
+  avoid building tests when unused
+
+  If the user isn't going to run the testsuite, there's no point in building
+  all the test binaries, so put that logic behind the standard USE=test.
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-6.0.ebuild:
+  rework disabling of progs
+
+  Since the configure script has an option to disable progs, leverage that
+  instead of whiting out a random make variable.  It's the same result, but
+  feels cleaner and requires less code.
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-6.0.ebuild:
+  run configure steps in parallel
+
+  This gives us a nice speed boost as the configure script is quite large.
+  Follow up changes will make this more apparent (when we run configure up
+  to 4 times instead of just 2).
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-6.0.ebuild:
+  rework use of BUILD_DIR
+
+  Rather than maintain parallel dirs, create subdirs of the main BUILD_DIR.
+  This makes the overall flow a bit simpler as we can also stick the cross
+  logic in there too.
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-6.0.ebuild:
+  add USE=threads support #510440
+
+  Now that we support the new ABI 6, we can support installing the threaded
+  versions of ncurses alongside the non-threaded.
+
+  12 Aug 2015; Mike Frysinger <vapier@gentoo.org>
+  +files/ncurses-6.0-ticlib.patch, ncurses-6.0.ebuild:
+  fix header mismatch with multilib installs #557360
+
+  The progs change had a subtle effect that broke multilib builds.
+  A few ticlib headers aren't installed when progs are disabled.
+  Add a patch to always install them regardless of the progs state.
+
+  17 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-6.0.ebuild:
+  block older x11-terms/st #557454
+
+  17 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-6.0.ebuild:
+  rework handling of build-time tic #557834
+
+  There are more cases where a version of tic is needed that matches the
+  current version of source beyond cross-compiling.  New installs, multilib,
+  and upgrades also run into this case.  Drop the cross-compile test and run
+  the code whenever the host version isn't in sync.
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> ncurses-5.9-r3.ebuild,
+  ncurses-5.9-r4.ebuild, ncurses-6.0.ebuild:
+  Use https for most gnu.org URLs
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  26 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-5.9-r3.ebuild,
+  ncurses-5.9-r4.ebuild, ncurses-6.0.ebuild:
+  move to SLOT=0 #557472
+
+  Use SLOT=0 for installing of main development files like other packages
+  so we can use other SLOTs for installing SONAME libs for binary packages.
+
+*ncurses-5.9-r100 (26 Aug 2015)
+
+  26 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  +ncurses-5.9-r100.ebuild:
+  Add compatibility package for binary packages
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=557472
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  26 Aug 2015; Justin Lecher <jlec@gentoo.org> ncurses-5.9-r100.ebuild:
+  Fix blocker
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*ncurses-5.9-r101 (26 Aug 2015)
+
+  26 Aug 2015; Mike Frysinger <vapier@gentoo.org> -ncurses-5.9-r100.ebuild,
+  +ncurses-5.9-r101.ebuild:
+  rewrite SLOT=5 ebuild #557472
+
+  Delete code that doesn't make sense in an ABI-only ebuild,
+  and backport changes from the ncurses-6 ebuild.
+
+*ncurses-5.9-r99 (27 Aug 2015)
+*ncurses-5.9-r5 (27 Aug 2015)
+
+  27 Aug 2015; Mike Frysinger <vapier@gentoo.org> +ncurses-5.9-r5.ebuild,
+  +ncurses-5.9-r99.ebuild, ncurses-6.0.ebuild:
+  add dummy package to bridge SLOT move #558856
+
+  Since the slotmove operator does not properly update implicit subslots
+  in generated dependencies in the vdb, add a dummy ebuild to bridge the
+  old SLOT=5[/5] and the new SLOT=0/5.
+
+  27 Aug 2015; Jason Zaman <perfinion@gentoo.org> ncurses-5.9-r5.ebuild,
+  ncurses-5.9-r99.ebuild:
+  Stabilize the bridging packages for the failed slotmove on all arches
+
+  Gentoo-bug: https://bugs.gentoo.org/558856
+
+  Package-Manager: portage-2.2.20.1
+
+  27 Aug 2015; Jason Zaman <perfinion@gentoo.org> ncurses-5.9-r99.ebuild:
+  add multilib useflags to the bridge 5.9 ebuild
+
+  Package-Manager: portage-2.2.20.1
+
+*ncurses-6.0-r1 (27 Aug 2015)
+
+  27 Aug 2015; Jason Zaman <perfinion@gentoo.org> ncurses-6.0.ebuild,
+  +ncurses-6.0-r1.ebuild:
+  Add bridging ebuild to fix slot move for 5/6 -> 0/6
+
+  Gentoo-Bug: https://bugs.gentoo.org/558856
+
+  Package-Manager: portage-2.2.20.1
+
+  28 Aug 2015; Jason Zaman <perfinion@gentoo.org> ncurses-5.9-r99.ebuild,
+  ncurses-6.0.ebuild:
+  add DEPEND to bridge ebuilds as well as RDEP
+
+  Package-Manager: portage-2.2.20.1
+
+  28 Aug 2015; Mike Frysinger <vapier@gentoo.org> ncurses-5.9-r101.ebuild,
+  ncurses-6.0-r1.ebuild:
+  fix cross tic path test #558622
+
+  30 Aug 2015; Mike Gilbert <floppym@gentoo.org> ncurses-6.0-r1.ebuild:
+  Restrict has_version check to slot 0
+
+  Otherwise, we match against sys-libs/ncurses-6.0:5/6, which does not
+  include the tic command.
+
+  Package-Manager: portage-2.2.20
+
+  31 Aug 2015; Fabian Groffen <grobian@gentoo.org> ncurses-6.0-r1.ebuild:
+  fix build on platforms that don't support static linking
+
+  Package-Manager: portage-2.2.20-prefix
+
+  02 Oct 2015; Michał Górny <mgorny@gentoo.org> ncurses-6.0-r1.ebuild:
+  fix critical tinfow typo in install command
+
+  Add missing continuation mark to complete gen_usr_ldscript command chain
+  for tinfo and unicode use flags.  Otherwise things can get ugly and very
+  broken...
+
+  Package-Manager: portage-2.2.22
+
+  14 Oct 2015; Benda Xu <heroxbd@gentoo.org> ncurses-6.0-r1.ebuild:
+  put headers into ${EPREFIX}/usr/include on Prefix
+
+  Bug: 562786
+
+  Package-Manager: portage-2.2.22
+

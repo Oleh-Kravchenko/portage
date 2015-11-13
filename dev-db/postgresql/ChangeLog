@@ -1,0 +1,313 @@
+# ChangeLog for dev-db/postgresql
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*postgresql-9999 (09 Aug 2015)
+*postgresql-9.5_alpha1 (09 Aug 2015)
+*postgresql-9.4.4 (09 Aug 2015)
+*postgresql-9.4.3 (09 Aug 2015)
+*postgresql-9.3.9 (09 Aug 2015)
+*postgresql-9.3.8 (09 Aug 2015)
+*postgresql-9.2.13 (09 Aug 2015)
+*postgresql-9.2.12 (09 Aug 2015)
+*postgresql-9.1.18 (09 Aug 2015)
+*postgresql-9.1.17 (09 Aug 2015)
+*postgresql-9.0.22 (09 Aug 2015)
+*postgresql-9.0.21 (09 Aug 2015)
+
+  09 Aug 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +files/pg_ctl-exit-status.patch, +files/postgresql-9.0-no-server.patch,
+  +files/postgresql-9.1-no-server.patch,
+  +files/postgresql-9.1-tz-dir-overflow.patch,
+  +files/postgresql-9.2-9.4-tz-dir-overflow.patch,
+  +files/postgresql-9.2-no-server.patch,
+  +files/postgresql-9.3-no-server.patch,
+  +files/postgresql-9.4-no-server.patch,
+  +files/postgresql-9.5-no-server.patch, +files/postgresql-check-db-dir,
+  +files/postgresql.confd, +files/postgresql.init, +files/postgresql.init-9.3,
+  +files/postgresql.init-pre_9.2, +files/postgresql.service,
+  +files/postgresql.tmpfilesd, +metadata.xml, +postgresql-9.0.21.ebuild,
+  +postgresql-9.0.22.ebuild, +postgresql-9.1.17.ebuild,
+  +postgresql-9.1.18.ebuild, +postgresql-9.2.12.ebuild,
+  +postgresql-9.2.13.ebuild, +postgresql-9.3.8.ebuild,
+  +postgresql-9.3.9.ebuild, +postgresql-9.4.3.ebuild,
+  +postgresql-9.4.4.ebuild, +postgresql-9.5_alpha1.ebuild,
+  +postgresql-9999.ebuild:
+  proj/gentoo: Initial commit
+
+  This commit represents a new era for Gentoo:
+  Storing the gentoo-x86 tree in Git, as converted from CVS.
+
+  This commit is the start of the NEW history.
+  Any historical data is intended to be grafted onto this point.
+
+  Creation process:
+  1. Take final CVS checkout snapshot
+  2. Remove ALL ChangeLog* files
+  3. Transform all Manifests to thin
+  4. Remove empty Manifests
+  5. Convert all stale $Header$/$Id$ CVS keywords to non-expanded Git $Id$
+  5.1. Do not touch files with -kb/-ko keyword flags.
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+  X-Thanks: Alec Warner <antarus@gentoo.org> - did the GSoC 2006 migration
+  tests
+  X-Thanks: Robin H. Johnson <robbat2@gentoo.org> - infra guy, herding this
+  project
+  X-Thanks: Nguyen Thai Ngoc Duy <pclouds@gentoo.org> - Former Gentoo
+  developer, wrote Git features for the migration
+  X-Thanks: Brian Harring <ferringb@gentoo.org> - wrote much python to improve
+  cvs2svn
+  X-Thanks: Rich Freeman <rich0@gentoo.org> - validation scripts
+  X-Thanks: Patrick Lauer <patrick@gentoo.org> - Gentoo dev, running new 2014
+  work in migration
+  X-Thanks: Michał Górny <mgorny@gentoo.org> - scripts, QA, nagging
+  X-Thanks: All of other Gentoo developers - many ideas and lots of paint on
+  the bikeshed
+
+  24 Aug 2015; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Use https by default
+
+  Convert all URLs for sites supporting encrypted connections from http to
+  https
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Aug 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Revert DOCTYPE SYSTEM https changes in metadata.xml
+
+  repoman does not yet accept the https version.
+  This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
+
+  Bug: https://bugs.gentoo.org/552720
+
+  06 Sep 2015; Aaron W. Swenson <titanofold@gentoo.org>
+  files/postgresql-9.5-no-server.patch:
+  Fix No Server Patch
+
+  Makefiles were changed slightly for 9.5. Patch updated so that it can
+  be applied.
+
+*postgresql-9.4.4-r1 (06 Sep 2015)
+
+  06 Sep 2015; Aaron W. Swenson <titanofold@gentoo.org>
+  +files/postgresql-9.4-alpha-fix-read-memory-barrier.patch,
+  +postgresql-9.4.4-r1.ebuild:
+  Fix Bug 555198
+
+  Add patch to correct typo in Alpha architecture specific assembly code.
+
+  Package-Manager: portage-2.2.20.1
+
+  07 Sep 2015; Jakub Jirutka <jakub@jirutka.cz> postgresql-9.0.21.ebuild,
+  postgresql-9.0.22.ebuild, postgresql-9.1.17.ebuild,
+  postgresql-9.1.18.ebuild, postgresql-9.2.12.ebuild,
+  postgresql-9.2.13.ebuild, postgresql-9.3.8.ebuild, postgresql-9.3.9.ebuild,
+  postgresql-9.4.3.ebuild, postgresql-9.4.4.ebuild,
+  postgresql-9.4.4-r1.ebuild, postgresql-9.5_alpha1.ebuild,
+  postgresql-9999.ebuild:
+  use /bin/sh instead of /bin/bash for postgres user
+
+  See https://bugs.gentoo.org/show_bug.cgi?id=559884
+
+  07 Sep 2015; Tobias Klausmann <klausman@gentoo.org>
+  postgresql-9.4.4-r1.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 555198
+
+  Package-Manager: portage-2.2.20.1
+
+*postgresql-9.5_alpha1-r1 (04 Oct 2015)
+*postgresql-9.4.4-r2 (04 Oct 2015)
+*postgresql-9.3.9-r1 (04 Oct 2015)
+*postgresql-9.2.13-r1 (04 Oct 2015)
+*postgresql-9.1.18-r1 (04 Oct 2015)
+*postgresql-9.0.22-r1 (04 Oct 2015)
+
+  04 Oct 2015; Julian Ospald <hasufell@gentoo.org>
+  +postgresql-9.0.22-r1.ebuild, +postgresql-9.1.18-r1.ebuild,
+  +postgresql-9.2.13-r1.ebuild, +postgresql-9.3.9-r1.ebuild,
+  +postgresql-9.4.4-r2.ebuild, +postgresql-9.5_alpha1-r1.ebuild,
+  postgresql-9999.ebuild:
+  add libressl support
+
+  08 Oct 2015; Aaron W. Swenson <titanofold@gentoo.org>
+  -postgresql-9.0.21.ebuild, -postgresql-9.1.17.ebuild,
+  -postgresql-9.2.12.ebuild, -postgresql-9.3.8.ebuild,
+  -postgresql-9.4.3.ebuild, -postgresql-9.5_alpha1.ebuild,
+  -postgresql-9.5_alpha1-r1.ebuild:
+  Remove Old/Insecure
+
+  Remove old and now insecure versions
+
+  Package-Manager: portage-2.2.20.1
+
+*postgresql-9.5_beta1 (08 Oct 2015)
+*postgresql-9.5_alpha1-r1 (08 Oct 2015)
+*postgresql-9.4.5 (08 Oct 2015)
+*postgresql-9.3.10 (08 Oct 2015)
+*postgresql-9.2.14 (08 Oct 2015)
+*postgresql-9.1.19 (08 Oct 2015)
+*postgresql-9.0.23 (08 Oct 2015)
+
+  08 Oct 2015; Aaron W. Swenson <titanofold@gentoo.org>
+  +postgresql-9.0.23.ebuild, +postgresql-9.1.19.ebuild,
+  +postgresql-9.2.14.ebuild, +postgresql-9.3.10.ebuild,
+  +postgresql-9.4.5.ebuild, +postgresql-9.5_alpha1-r1.ebuild,
+  +postgresql-9.5_beta1.ebuild, postgresql-9999.ebuild:
+  Security Bump
+
+  Security update fixes issues:
+
+  1. CVE-2015-5288: The crypt() function included with the optional
+  pgCrypto extension could be exploited to read a few additional bytes
+  of memory. No working exploit for this issue has been developed.
+
+  2. CVE-2015-5289: json or jsonb input values constructed from
+  arbitrary user input can crash the PostgreSQL server and cause a
+  denial of service.
+
+  Also added note for new installations that re-sourcing /etc/profile is
+  reuiqred to pick up environment changes, like MANPATH so man can find
+  pages installed in non-standard locations.
+
+  Package-Manager: portage-2.2.20.1
+
+  08 Oct 2015; Aaron W. Swenson <titanofold@gentoo.org>
+  -postgresql-9.5_alpha1-r1.ebuild:
+  Remove Outdated Prerelease
+
+  Remove outdated prerelease.
+
+  Package-Manager: portage-2.2.20.1
+
+  09 Oct 2015; Jeroen Roovers <jer@gentoo.org> postgresql-9.0.23.ebuild,
+  postgresql-9.1.19.ebuild, postgresql-9.2.14.ebuild,
+  postgresql-9.3.10.ebuild, postgresql-9.4.5.ebuild:
+  Stable for PPC64 (bug #562586).
+
+  Package-Manager: portage-2.2.22
+  RepoMan-Options: --ignore-arches
+
+  09 Oct 2015; Agostino Sarubbo <ago@gentoo.org> postgresql-9.0.23.ebuild,
+  postgresql-9.1.19.ebuild, postgresql-9.2.14.ebuild,
+  postgresql-9.3.10.ebuild, postgresql-9.4.5.ebuild:
+  amd64 stable wrt bug #562586
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  09 Oct 2015; Agostino Sarubbo <ago@gentoo.org> postgresql-9.0.23.ebuild,
+  postgresql-9.1.19.ebuild, postgresql-9.2.14.ebuild,
+  postgresql-9.3.10.ebuild, postgresql-9.4.5.ebuild:
+  x86 stable wrt bug #562586
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+  10 Oct 2015; Jeroen Roovers <jer@gentoo.org> postgresql-9.0.23.ebuild,
+  postgresql-9.1.19.ebuild, postgresql-9.2.14.ebuild,
+  postgresql-9.3.10.ebuild, postgresql-9.4.5.ebuild:
+  Stable for HPPA (bug #562586).
+
+  Package-Manager: portage-2.2.22
+  RepoMan-Options: --ignore-arches
+
+  10 Oct 2015; Agostino Sarubbo <ago@gentoo.org> postgresql-9.0.23.ebuild,
+  postgresql-9.1.19.ebuild, postgresql-9.2.14.ebuild,
+  postgresql-9.3.10.ebuild, postgresql-9.4.5.ebuild:
+  ppc stable wrt bug #562586
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+
+  11 Oct 2015; Agostino Sarubbo <ago@gentoo.org> postgresql-9.0.23.ebuild,
+  postgresql-9.1.19.ebuild, postgresql-9.2.14.ebuild,
+  postgresql-9.3.10.ebuild, postgresql-9.4.5.ebuild:
+  ia64 stable wrt bug #562586
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ia64"
+
+  11 Oct 2015; Mikle Kolyada <zlogene@gentoo.org> postgresql-9.0.23.ebuild,
+  postgresql-9.1.19.ebuild, postgresql-9.2.14.ebuild,
+  postgresql-9.3.10.ebuild, postgresql-9.4.5.ebuild:
+  sparc stable wrt bug #562586
+
+  Package-Manager: portage-2.2.20.1
+
+  12 Oct 2015; Agostino Sarubbo <ago@gentoo.org> postgresql-9.0.23.ebuild,
+  postgresql-9.1.19.ebuild, postgresql-9.2.14.ebuild,
+  postgresql-9.3.10.ebuild, postgresql-9.4.5.ebuild:
+  arm stable wrt bug #562586
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="arm"
+
+  12 Oct 2015; Agostino Sarubbo <ago@gentoo.org> postgresql-9.0.23.ebuild,
+  postgresql-9.1.19.ebuild, postgresql-9.2.14.ebuild,
+  postgresql-9.3.10.ebuild, postgresql-9.4.5.ebuild:
+  alpha stable wrt bug #562586
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="alpha"
+
+  13 Oct 2015; Aaron W. Swenson <titanofold@gentoo.org>
+  -postgresql-9.0.22.ebuild, -postgresql-9.0.22-r1.ebuild,
+  -postgresql-9.1.18.ebuild, -postgresql-9.1.18-r1.ebuild,
+  -postgresql-9.2.13.ebuild, -postgresql-9.2.13-r1.ebuild,
+  -postgresql-9.3.9.ebuild, -postgresql-9.3.9-r1.ebuild,
+  -postgresql-9.4.4.ebuild, -postgresql-9.4.4-r1.ebuild,
+  -postgresql-9.4.4-r2.ebuild:
+  Remove Insecure Versions
+
+  Remove insecure versions.
+
+  Package-Manager: portage-2.2.20.1
+
+*postgresql-9.5_beta1-r1 (25 Oct 2015)
+*postgresql-9.4.5-r1 (25 Oct 2015)
+*postgresql-9.3.10-r1 (25 Oct 2015)
+*postgresql-9.2.14-r1 (25 Oct 2015)
+*postgresql-9.1.19-r1 (25 Oct 2015)
+*postgresql-9.0.23-r1 (25 Oct 2015)
+
+  25 Oct 2015; Elias Probst <mail@eliasprobst.eu> files/postgresql.service,
+  -files/postgresql.tmpfilesd, -postgresql-9.0.23.ebuild,
+  +postgresql-9.0.23-r1.ebuild, -postgresql-9.1.19.ebuild,
+  +postgresql-9.1.19-r1.ebuild, -postgresql-9.2.14.ebuild,
+  +postgresql-9.2.14-r1.ebuild, -postgresql-9.3.10.ebuild,
+  +postgresql-9.3.10-r1.ebuild, -postgresql-9.4.5.ebuild,
+  +postgresql-9.4.5-r1.ebuild, -postgresql-9.5_beta1.ebuild,
+  +postgresql-9.5_beta1-r1.ebuild, postgresql-9999.ebuild:
+  Handle RuntimeDirectory in systemd unit
+
+  Instead of using a separate `tmpfiles.d` definition to create
+  `/run/postgresql`, let the service unit take care of it on its
+  own. This prevents situations where the postgresql service can't
+  start because `systemd-tmpfiles` wasn't run yet.
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=563122
+
+  Package-Manager: portage-2.2.23
+
+*postgresql-9.5_beta2 (12 Nov 2015)
+
+  12 Nov 2015; Aaron W. Swenson <titanofold@gentoo.org>
+  +postgresql-9.5_beta2.ebuild:
+  Add 9.5 Beta 2
+
+  Many bugs and issues reported by our users and contributors have been
+  fixed since the release of Beta1. These include:
+
+  * Many documentation fixes and improvements
+  * Rename PQsslAttributes() to PQsslAttributeNames()
+  * Pass extra data to pgworkers for context
+  * Fix other issues with parallel workers
+  * Fix multiple issues with BRIN indexes
+  * Fix problems with commit timestamps and replication
+  * Put back ssl_renegotiation_limit, set to 0
+
+  Package-Manager: portage-2.2.20.1
+
