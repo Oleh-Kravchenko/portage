@@ -65,3 +65,14 @@
 
   Signed-off-by: Ioan-Adrian Ratiu <adi@adirat.com>
 
+  12 Nov 2015; Ioan-Adrian Ratiu <adi@adirat.com>
+  +files/i8kutils-1.42-Makefile.patch, +files/i8kutils-gcc5.patch,
+  i8kutils-1.42.ebuild:
+  fix gcc5 build for v1.42
+
+  Recipe enhancements requested in the bug are also included
+
+  Gentoo bug: #565466
+
+  Signed-off-by: Ioan-Adrian Ratiu <adi@adirat.com>
+

@@ -61,3 +61,11 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*highlight-3.24 (13 Nov 2015)
+
+  13 Nov 2015; Alexis Ballier <aballier@gentoo.org> +highlight-3.24.ebuild:
+  bump to 3.24
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

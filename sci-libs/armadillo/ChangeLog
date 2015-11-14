@@ -109,3 +109,11 @@
   Package-Manager: portage-2.2.23
   RepoMan-Options: --include-arches="arm"
 
+*armadillo-6.200.3 (12 Nov 2015)
+
+  12 Nov 2015; Andreas K. Huettel (dilfridge) <dilfridge@gentoo.org>
+  -armadillo-5.500.2.ebuild, +armadillo-6.200.3.ebuild:
+  Version bump; remove old
+
+  Package-Manager: portage-2.2.23
+

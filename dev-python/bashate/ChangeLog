@@ -54,3 +54,8 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+  13 Nov 2015; Matthew Thode <prometheanfire@gentoo.org> bashate-0.3.1.ebuild:
+  bashate can use pbr up to 2.0
+
+  Package-Manager: portage-2.2.20.1
+

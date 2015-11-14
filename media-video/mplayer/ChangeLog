@@ -143,3 +143,27 @@
 
   Package-Manager: portage-2.2.22
 
+*mplayer-1.2-r2 (13 Nov 2015)
+
+  13 Nov 2015; Alexis Ballier <aballier@gentoo.org> -mplayer-1.2-r1.ebuild,
+  +mplayer-1.2-r2.ebuild, mplayer-9999.ebuild:
+  add missing cdio-paranoia dep. Bug #565492.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  13 Nov 2015; Alexis Ballier <aballier@gentoo.org>
+  -files/mplayer-1.2_pre20130729-compat.patch,
+  -files/mplayer-1.2_pre20150730-alloc.patch,
+  -files/mplayer-1.2_pre20150730-av_fmt.patch,
+  -files/mplayer-1.2_pre20150730-frame.patch,
+  -files/mplayer-1.2_pre20150730-get_buffer.patch,
+  -files/mplayer-1.2_pre20150730-pkt_destruct.patch,
+  -files/mplayer-1.2_pre20150730-rev.patch, -mplayer-1.2_pre20130729.ebuild,
+  -mplayer-1.2_pre20141011.ebuild, -mplayer-1.2_pre20150214.ebuild,
+  -mplayer-1.2_pre20150730.ebuild, -mplayer-1.2.ebuild:
+  remove old.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

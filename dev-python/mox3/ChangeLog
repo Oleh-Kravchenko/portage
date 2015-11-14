@@ -79,3 +79,10 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*mox3-0.10.0 (13 Nov 2015)
+
+  13 Nov 2015; Matthew Thode <prometheanfire@gentoo.org> +mox3-0.10.0.ebuild:
+  needed for specific openstack deps
+
+  Package-Manager: portage-2.2.20.1
+

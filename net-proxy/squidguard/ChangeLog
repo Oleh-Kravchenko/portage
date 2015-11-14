@@ -112,3 +112,10 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="sparc"
 
+  13 Nov 2015; Agostino Sarubbo <ago@gentoo.org>
+  squidguard-1.5_beta-r1.ebuild:
+  ppc64 stable wrt bug #542472
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc64"
+

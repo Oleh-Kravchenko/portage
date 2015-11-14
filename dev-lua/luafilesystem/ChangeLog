@@ -64,3 +64,12 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+  12 Nov 2015; Zac Medico <zmedico@gentoo.org> luafilesystem-1.5.0.ebuild,
+  luafilesystem-1.6.2.ebuild:
+  tweak gcc sed expression to avoid CFLAGS match
+
+  This will prevent -frecord-gcc-switches in CFLAGS from being matched
+  by the "s|gcc|$(tc-getCC)|" sed expression.
+
+  Package-Manager: portage-2.2.24
+

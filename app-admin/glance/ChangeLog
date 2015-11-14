@@ -260,3 +260,9 @@
   Package-Manager: portage-2.2.23
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  13 Nov 2015; Matthew Thode <prometheanfire@gentoo.org> glance-11.0.0.ebuild,
+  glance-2015.2.9999.ebuild:
+  simplifying some >= <= deps to ~
+
+  Package-Manager: portage-2.2.20.1
+

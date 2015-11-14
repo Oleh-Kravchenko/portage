@@ -359,3 +359,17 @@
   12 Nov 2015; Michał Górny <mgorny@gentoo.org> python-2.7.10-r3.ebuild:
   Fix py version ref for python_export in 2.7
 
+  12 Nov 2015; Michał Górny <mgorny@gentoo.org> python-2.7.9-r1.ebuild,
+  python-2.7.10.ebuild, python-2.7.10-r2.ebuild:
+  Copy the 2.7 EPYTHON fix to older versions
+
+  13 Nov 2015; Agostino Sarubbo <ago@gentoo.org> python-2.7.10.ebuild:
+  alpha stable wrt bug #561524
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="alpha"
+
+  13 Nov 2015; Michał Górny <mgorny@gentoo.org> -python-2.7.9-r1.ebuild,
+  -python-3.4.1.ebuild:
+  Remove more old versions
+

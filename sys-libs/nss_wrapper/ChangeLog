@@ -68,3 +68,9 @@
   Package-Manager: portage-2.2.20.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  13 Nov 2015; Jeroen Roovers <jer@gentoo.org> nss_wrapper-1.0.3.ebuild:
+  Mark ~hppa too.
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --ignore-arches
+

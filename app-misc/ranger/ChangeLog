@@ -56,3 +56,9 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*ranger-1.7.2 (13 Nov 2015)
+
+  13 Nov 2015; Tim Harder <radhermit@gentoo.org> +ranger-1.7.2.ebuild,
+  ranger-9999.ebuild:
+  version bump to 1.7.2
+

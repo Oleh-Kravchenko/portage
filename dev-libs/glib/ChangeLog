@@ -145,3 +145,9 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+  13 Nov 2015; Agostino Sarubbo <ago@gentoo.org> glib-2.44.1-r1.ebuild:
+  ppc64 stable wrt bug #565086
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc64"
+

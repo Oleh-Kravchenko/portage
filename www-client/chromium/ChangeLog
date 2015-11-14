@@ -402,3 +402,30 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+  12 Nov 2015; Agostino Sarubbo <ago@gentoo.org>
+  -chromium-46.0.2490.71.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.20.1
+
+*chromium-47.0.2526.58 (13 Nov 2015)
+
+  13 Nov 2015; Mike Gilbert <floppym@gentoo.org>
+  -chromium-47.0.2526.16.ebuild, +chromium-47.0.2526.58.ebuild:
+  Beta channel bump (47.0.2526.58)
+
+  Package-Manager: portage-2.2.24_p19
+
+  13 Nov 2015; Michael Palimaka <kensington@gentoo.org>
+  chromium-46.0.2490.86.ebuild, chromium-47.0.2526.49.ebuild,
+  chromium-47.0.2526.58.ebuild, chromium-48.0.2547.0.ebuild,
+  chromium-48.0.2552.0.ebuild:
+  kde-apps/oxygen-icons: pkgmove to kde-frameworks/oxygen-icons
+
+  kde4-base.eclass: Recognize KDEBASE in kde-frameworks
+  kde4-functions.eclass: Change RDEPEND
+  chromium.eclass: Minor change
+  Various ebuilds: kde-apps/oxygen-icons -> kde-frameworks/oxygen-icons
+
+  Package-Manager: portage-2.2.23
+

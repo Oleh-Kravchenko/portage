@@ -127,3 +127,11 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*menhir-20151112 (13 Nov 2015)
+
+  13 Nov 2015; Alexis Ballier <aballier@gentoo.org> +menhir-20151112.ebuild:
+  bump to 20151112.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

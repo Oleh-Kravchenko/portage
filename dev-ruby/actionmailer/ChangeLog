@@ -80,3 +80,24 @@
 
   Package-Manager: portage-2.2.20.1
 
+  13 Nov 2015; Hans de Graaff <graaff@gentoo.org> -actionmailer-4.1.11.ebuild,
+  -actionmailer-4.1.12.ebuild, -actionmailer-4.2.2.ebuild,
+  -actionmailer-4.2.3.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.20.1
+
+*actionmailer-4.1.14 (13 Nov 2015)
+
+  13 Nov 2015; Hans de Graaff <graaff@gentoo.org> +actionmailer-4.1.14.ebuild:
+  add rails 4.1.14
+
+  Package-Manager: portage-2.2.20.1
+
+*actionmailer-4.2.5 (13 Nov 2015)
+
+  13 Nov 2015; Hans de Graaff <graaff@gentoo.org> +actionmailer-4.2.5.ebuild:
+  add rails 4.2.5
+
+  Package-Manager: portage-2.2.20.1
+

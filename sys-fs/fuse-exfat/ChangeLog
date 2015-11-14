@@ -98,3 +98,8 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  13 Nov 2015; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Add myself as a maintainer
+
+  Package-Manager: portage-2.2.23_p26
+

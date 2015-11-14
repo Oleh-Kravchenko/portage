@@ -86,3 +86,9 @@
   Package-Manager: portage-2.2.23
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  13 Nov 2015; Jeroen Roovers <jer@gentoo.org> uid_wrapper-1.2.0.ebuild:
+  Mark ~hppa too.
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --ignore-arches
+

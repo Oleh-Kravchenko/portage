@@ -74,3 +74,23 @@
 
   Package-Manager: portage-2.2.20.1
 
+  13 Nov 2015; Hans de Graaff <graaff@gentoo.org> -rails-4.1.11.ebuild,
+  -rails-4.1.12.ebuild, -rails-4.2.2.ebuild, -rails-4.2.3.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.20.1
+
+*rails-4.1.14 (13 Nov 2015)
+
+  13 Nov 2015; Hans de Graaff <graaff@gentoo.org> +rails-4.1.14.ebuild:
+  add rails 4.1.14
+
+  Package-Manager: portage-2.2.20.1
+
+*rails-4.2.5 (13 Nov 2015)
+
+  13 Nov 2015; Hans de Graaff <graaff@gentoo.org> +rails-4.2.5.ebuild:
+  add rails 4.2.5
+
+  Package-Manager: portage-2.2.20.1
+

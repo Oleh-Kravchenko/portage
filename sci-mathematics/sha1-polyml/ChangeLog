@@ -60,3 +60,12 @@
   Once these upgrade to EAPI=6, they can use these case modification
   features, so leave a reminder note in there.
 
+  13 Nov 2015; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  sha1-polyml-5.5.0.ebuild:
+  Make var declaration globally
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=565650
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

@@ -55,3 +55,8 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+  13 Nov 2015; Tim Harder <radhermit@gentoo.org> pianobar-9999.ebuild:
+  fix install for live ebuild
+
+  The README file was renamed to README.md (bug #565058).
+

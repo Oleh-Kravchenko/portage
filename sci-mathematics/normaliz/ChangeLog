@@ -63,3 +63,11 @@
 
   Package-Manager: portage-2.2.20.1
 
+  13 Nov 2015; Thomas Kahle <tomka@gentoo.org>
+  +files/normaliz-3.0.0-gmp61-compat.patch, normaliz-3.0.0.ebuild:
+  add gmp-6.1 compatibility
+
+  Fixes bug 565366.
+
+  Package-Manager: portage-2.2.20.1
+

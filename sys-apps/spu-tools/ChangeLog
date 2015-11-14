@@ -81,3 +81,15 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+  13 Nov 2015; Agostino Sarubbo <ago@gentoo.org> spu-tools-2.3.0.136.ebuild:
+  ppc64 stable wrt bug #561536
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc64"
+
+  13 Nov 2015; Justin Lecher <jlec@gentoo.org> -spu-tools-2.2.80_p95.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

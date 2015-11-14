@@ -83,3 +83,11 @@
 
   Package-Manager: portage-2.2.24
 
+*pms-6_p20151113 (13 Nov 2015)
+
+  13 Nov 2015; Ulrich Müller <ulm@gentoo.org> -pms-6.ebuild,
+  +pms-6_p20151113.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.24
+

@@ -90,3 +90,8 @@
 
   Package-Manager: portage-2.2.22_p7
 
+*python-docs-2.7.10 (13 Nov 2015)
+
+  13 Nov 2015; Michał Górny <mgorny@gentoo.org> +python-docs-2.7.10.ebuild:
+  Bump to 2.7.10
+

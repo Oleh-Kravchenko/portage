@@ -177,3 +177,12 @@
 
   Package-Manager: portage-2.2.23_p18
 
+*google-chrome-beta-47.0.2526.58_p1 (13 Nov 2015)
+
+  13 Nov 2015; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-beta-47.0.2526.49_p1.ebuild,
+  +google-chrome-beta-47.0.2526.58_p1.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.23_p26
+

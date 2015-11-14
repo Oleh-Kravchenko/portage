@@ -74,3 +74,10 @@
   28 Aug 2015; Tim Harder <radhermit@gentoo.org> +pycountry-1.14.ebuild:
   version bump
 
+*pycountry-1.18 (12 Nov 2015)
+
+  12 Nov 2015; Manuel Rüger <mrueg@gentoo.org> +pycountry-1.18.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

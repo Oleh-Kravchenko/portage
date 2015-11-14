@@ -141,3 +141,12 @@
   Package-Manager: portage-2.2.23
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*lxml-3.5.0 (13 Nov 2015)
+
+  13 Nov 2015; Justin Lecher <jlec@gentoo.org>
+  +files/lxml-3.5.0-cross-compile.patch, +lxml-3.5.0.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.23
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

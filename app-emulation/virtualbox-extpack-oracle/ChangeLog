@@ -154,3 +154,19 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*virtualbox-extpack-oracle-4.3.34.104062 (13 Nov 2015)
+
+  13 Nov 2015; Lars Wendler <polynomial-c@gentoo.org>
+  +virtualbox-extpack-oracle-4.3.34.104062.ebuild:
+  virtualbox packages: Bump to version 4.3.34
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  13 Nov 2015; Lars Wendler <polynomial-c@gentoo.org>
+  -virtualbox-extpack-oracle-4.3.30.101610.ebuild:
+  virtualbox packages: Removed old.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -11,3 +11,12 @@
 
   Package-Manager: portage-2.2.23
 
+*kvazaar-0.7.2 (13 Nov 2015)
+
+  13 Nov 2015; Alexis Ballier <aballier@gentoo.org> +kvazaar-0.7.2.ebuild,
+  kvazaar-9999.ebuild:
+  bump to 0.7.2 and export CC
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

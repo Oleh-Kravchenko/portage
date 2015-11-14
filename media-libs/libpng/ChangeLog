@@ -132,3 +132,17 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  13 Nov 2015; Agostino Sarubbo <ago@gentoo.org> libpng-1.2.54.ebuild,
+  libpng-1.5.24.ebuild, libpng-1.6.19.ebuild:
+  amd64 stable wrt bug #565678
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  13 Nov 2015; Agostino Sarubbo <ago@gentoo.org> libpng-1.2.54.ebuild,
+  libpng-1.5.24.ebuild, libpng-1.6.19.ebuild:
+  x86 stable wrt bug #565678
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+

@@ -235,3 +235,12 @@
 
   Package-Manager: portage-2.2.20.1
 
+*cmake-3.4.0 (13 Nov 2015)
+
+  13 Nov 2015; Lars Wendler <polynomial-c@gentoo.org> +cmake-3.4.0.ebuild,
+  +files/cmake-3.4.0_rc1-darwin-bundle.patch:
+  Bump to version 3.4.0
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -55,3 +55,16 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*python-musicbrainz-ngs-0.5 (13 Nov 2015)
+
+  13 Nov 2015; Ian Delaney <idella4@gentoo.org> metadata.xml,
+  +python-musicbrainz-ngs-0.5.ebuild:
+  bump to vn. 0.5
+
+  add new proxy maintainer or metadata, submitted via, and closes,
+  the gentoo bug, comes with a doc build and IUSE examples
+
+  Gentoo bug: #550092
+
+  Package-Manager: portage-2.2.24
+

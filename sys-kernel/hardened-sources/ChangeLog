@@ -453,3 +453,20 @@
 
   Package-Manager: portage-2.2.20.1
 
+*hardened-sources-4.2.6-r1 (13 Nov 2015)
+
+  13 Nov 2015; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-4.2.6-r1.ebuild:
+  version bump to 4.2.6-r1
+
+  vanilla-4.2.6 + genpatches-4.2-8 + grsecurity-3.1-4.2.6-201511122040
+
+  Package-Manager: portage-2.2.20.1
+
+  13 Nov 2015; Anthony G. Basile <blueness@gentoo.org>
+  -hardened-sources-4.2.5-r1.ebuild, -hardened-sources-4.2.5-r2.ebuild,
+  -hardened-sources-4.2.6.ebuild:
+  remove older unstable versions.
+
+  Package-Manager: portage-2.2.20.1
+
