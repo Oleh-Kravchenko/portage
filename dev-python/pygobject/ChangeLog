@@ -124,3 +124,16 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+*pygobject-3.18.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +pygobject-3.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -pygobject-3.12.2.ebuild,
+  -pygobject-3.16.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

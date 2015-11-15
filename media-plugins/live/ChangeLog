@@ -80,3 +80,11 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*live-2015.11.09 (14 Nov 2015)
+
+  14 Nov 2015; Alexis Ballier <aballier@gentoo.org> +live-2015.11.09.ebuild:
+  bump to 2015.11.09
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

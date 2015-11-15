@@ -61,3 +61,9 @@
 
   Package-Manager: portage-2.2.20.1
 
+  14 Nov 2015; Michael Sterrett <mr_bones_@gentoo.org>
+  libsdl2-2.0.3-r200.ebuild:
+  use configure.ac (bug #563430)
+
+  Package-Manager: portage-2.2.20.1
+

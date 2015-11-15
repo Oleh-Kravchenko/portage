@@ -97,3 +97,10 @@
 
   Package-Manager: portage-2.2.20.1
 
+*dconf-editor-3.18.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +dconf-editor-3.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

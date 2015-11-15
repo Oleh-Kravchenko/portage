@@ -57,3 +57,12 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*scorched3d-44-r1 (14 Nov 2015)
+
+  14 Nov 2015; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/scorched3d-44-wxgtk.patch, +scorched3d-44-r1.ebuild:
+  patch to work with wxGTK:3.0
+  (bug #563964)
+
+  Package-Manager: portage-2.2.20.1
+

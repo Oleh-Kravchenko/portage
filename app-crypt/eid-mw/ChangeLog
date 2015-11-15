@@ -110,3 +110,15 @@
 
   Package-Manager: portage-2.2.24
 
+  14 Nov 2015; Ian Delaney <idella4@gentoo.org> eid-mw-4.1.4.ebuild,
+  eid-mw-4.1.9.ebuild, eid-mw-9999.ebuild, files/gtk_not_required_4.1.4.patch,
+  files/gtk_not_required_9999.patch:
+  revise and correct patches
+
+  Patches apply to versions 4.1.4, 4.1.9 and the live ebuild,
+  supplied by proxy maintainer sourced from the gentoo bug
+
+  Gentoo bug: #564582
+
+  Package-Manager: portage-2.2.24
+

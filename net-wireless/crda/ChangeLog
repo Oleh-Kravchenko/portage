@@ -68,3 +68,18 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+  14 Nov 2015; Bjarke Istrup Pedersen <gurligebis@gentoo.org>
+  -crda-1.1.2-r3.ebuild, -crda-1.1.2-r4.ebuild, -crda-1.1.3.ebuild,
+  -files/libnl31-support.diff:
+  Removing old versions
+
+  Package-Manager: portage-2.2.24
+
+*crda-3.18-r1 (14 Nov 2015)
+
+  14 Nov 2015; Bjarke Istrup Pedersen <gurligebis@gentoo.org>
+  -crda-3.18.ebuild, +crda-3.18-r1.ebuild:
+  Bumping to 3.18-r1, adding support for LibreSSL.
+
+  Package-Manager: portage-2.2.24
+

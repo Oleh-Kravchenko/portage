@@ -62,3 +62,9 @@
   Package-Manager: portage-2.2.23
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  14 Nov 2015; Markus Meier <maekke@gentoo.org> nosexcover-1.0.10.ebuild:
+  add ~arm, bug #563198
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="arm"
+

@@ -124,3 +124,20 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*gnome-control-center-3.18.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  +files/gnome-control-center-3.18.0-keep-panels-optional.patch,
+  +files/gnome-control-center-3.18.0-optional.patch,
+  +gnome-control-center-3.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -gnome-control-center-3.14.5.ebuild, -gnome-control-center-3.14.5-r1.ebuild,
+  -gnome-control-center-3.16.2.ebuild, -gnome-control-center-3.16.2-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

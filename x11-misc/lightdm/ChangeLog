@@ -145,3 +145,13 @@
 
   Package-Manager: portage-2.2.24
 
+*lightdm-1.17.1 (14 Nov 2015)
+*lightdm-1.14.3 (14 Nov 2015)
+
+  14 Nov 2015; Markos Chandras <hwoarang@gentoo.org> -lightdm-1.10.3.ebuild,
+  -lightdm-1.14.2.ebuild, +lightdm-1.14.3.ebuild, -lightdm-1.16.3.ebuild,
+  -lightdm-1.16.4.ebuild, +lightdm-1.17.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

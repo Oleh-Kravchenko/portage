@@ -107,3 +107,9 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+  14 Nov 2015; Markus Meier <maekke@gentoo.org> nss-3.20.1.ebuild:
+  arm stable, bug #564834
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="arm"
+

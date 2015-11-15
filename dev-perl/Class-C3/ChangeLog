@@ -60,3 +60,11 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*Class-C3-0.300.0 (14 Nov 2015)
+
+  14 Nov 2015; Andreas K. Huettel (dilfridge) <dilfridge@gentoo.org>
+  +Class-C3-0.300.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.23
+

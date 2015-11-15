@@ -113,3 +113,24 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+*at-spi2-core-2.18.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +at-spi2-core-2.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -at-spi2-core-2.12.0.ebuild,
+  -at-spi2-core-2.12.0-r1.ebuild, metadata.xml:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+
+*at-spi2-core-2.18.3 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -at-spi2-core-2.18.2.ebuild,
+  +at-spi2-core-2.18.3.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

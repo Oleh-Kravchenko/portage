@@ -81,3 +81,22 @@
 
   Package-Manager: portage-2.2.20.1
 
+*kcheckpass-4.11.22-r1 (14 Nov 2015)
+
+  14 Nov 2015; Michael Palimaka <kensington@gentoo.org>
+  +kcheckpass-4.11.22-r1.ebuild:
+  Add alternative deps on pam providers, fix DEPEND
+
+  kde-plasma/plasma-workspace and kde-plasma/kscreenlocker will start to
+  block kde-base/kdebase-pam due to colliding files in /etc/pam.d/
+  In order to avoid another full block, let kcheckpass be satisfied by these
+  packages as well.
+
+  Package-Manager: portage-2.2.20.1
+
+  14 Nov 2015; Michael Palimaka <kensington@gentoo.org>
+  -kcheckpass-4.11.22.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.20.1
+

@@ -175,3 +175,16 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc64"
 
+  14 Nov 2015; Agostino Sarubbo <ago@gentoo.org> gtk+-3.16.7.ebuild:
+  sparc stable wrt bug #565086
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+
+*gtk+-3.18.4 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +gtk+-3.18.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

@@ -135,3 +135,16 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc64"
 
+  14 Nov 2015; Agostino Sarubbo <ago@gentoo.org> gvfs-1.24.2-r1.ebuild:
+  sparc stable wrt bug #565086
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+
+*gvfs-1.26.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +gvfs-1.26.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

@@ -109,3 +109,12 @@
   Package-Manager: portage-2.2.23
   RepoMan-Options: --include-arches="arm"
 
+*rspec-core-3.4.0 (14 Nov 2015)
+
+  14 Nov 2015; Hans de Graaff <graaff@gentoo.org> +rspec-core-3.4.0.ebuild:
+  add rspec 3.4.0
+
+  Drop arches for unkeyworded rspec-core version, bug 562452
+
+  Package-Manager: portage-2.2.20.1
+

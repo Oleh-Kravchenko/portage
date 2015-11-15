@@ -85,3 +85,17 @@
   tracker-1.4.0.ebuild, tracker-1.4.1.ebuild:
   DEPEND on gdbus-codegen
 
+*tracker-1.6.0 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +tracker-1.6.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --force
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -tracker-1.2.6.ebuild,
+  -tracker-1.4.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

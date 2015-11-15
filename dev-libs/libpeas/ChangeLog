@@ -83,3 +83,21 @@
   python-config executable. This forward-fixes compatibility with
   ABIFLAGS-enabled Python 3.* versions, and improves readability.
 
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> libpeas-1.14.0-r1.ebuild:
+  Support python-3.5
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -libpeas-1.12.1-r1.ebuild,
+  -libpeas-1.14.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+
+*libpeas-1.16.0 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +libpeas-1.16.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

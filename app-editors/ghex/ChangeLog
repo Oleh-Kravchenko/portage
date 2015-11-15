@@ -60,3 +60,10 @@
 
   Package-Manager: portage-2.2.23
 
+*ghex-3.18.0 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +ghex-3.18.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

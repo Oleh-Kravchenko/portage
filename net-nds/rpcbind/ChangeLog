@@ -113,3 +113,9 @@
   Package-Manager: portage-2.2.24
   RepoMan-Options: --ignore-arches
 
+  14 Nov 2015; Markus Meier <maekke@gentoo.org> rpcbind-0.2.3-r1.ebuild:
+  arm stable, bug #560990
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="arm"
+

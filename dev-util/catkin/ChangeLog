@@ -24,3 +24,11 @@
 
   Package-Manager: portage-2.2.21
 
+*catkin-0.6.16 (14 Nov 2015)
+
+  14 Nov 2015; Alexis Ballier <aballier@gentoo.org> +catkin-0.6.16.ebuild:
+  bump to 0.6.16
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -63,3 +63,16 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*libxmlpp-2.40.1 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +libxmlpp-2.40.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -libxmlpp-2.36.0.ebuild,
+  -libxmlpp-2.36.0-r1.ebuild, -libxmlpp-2.38.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

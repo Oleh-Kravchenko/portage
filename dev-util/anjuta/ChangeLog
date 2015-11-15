@@ -74,3 +74,15 @@
   Package-Manager: portage-2.2.23
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*anjuta-3.18.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +anjuta-3.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -anjuta-3.14.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

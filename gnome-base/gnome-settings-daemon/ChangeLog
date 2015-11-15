@@ -105,3 +105,26 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*gnome-settings-daemon-3.18.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  +gnome-settings-daemon-3.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -files/gnome-settings-daemon-3.14.0-optional.patch,
+  -files/gnome-settings-daemon-3.16.2-settings_set_display.patch,
+  -gnome-settings-daemon-3.14.4.ebuild,
+  -gnome-settings-daemon-3.16.2-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  gnome-settings-daemon-3.18.2.ebuild:
+  Support python 3.5
+
+  Package-Manager: portage-2.2.24
+

@@ -110,3 +110,25 @@
 
   Package-Manager: portage-2.2.20.1
 
+*icedtea-7.2.6.2-r1 (14 Nov 2015)
+
+  14 Nov 2015; James Le Cuirot <chewi@gentoo.org>
+  files/7-cacao-dynmaxheap.patch, +icedtea-7.2.6.2-r1.ebuild, metadata.xml:
+  Version bump to 7.2.6.2
+
+  This version works with CACAO so the ~ppc keyword is restored. There
+  are still problems with ~ppc64. :(
+
+  Sorry for changing the X/awt flag again but upstream preferred the
+  term headless, which is technically more accurate than awt, so I
+  compromised and went with headless-awt.
+
+  Package-Manager: portage-2.2.20.1
+
+  14 Nov 2015; James Le Cuirot <chewi@gentoo.org>
+  -files/7-cacao-dynmaxheap-Makefile.patch, -files/TryXShmAttach.patch,
+  -icedtea-7.2.5.6-r1.ebuild, -icedtea-7.2.6.1-r1.ebuild:
+  Remove vulnerable versions of 7
+
+  Package-Manager: portage-2.2.20.1
+

@@ -110,3 +110,16 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+*gtksourceview-3.18.1 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +gtksourceview-3.18.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -gtksourceview-2.10.5-r2.ebuild,
+  -gtksourceview-3.12.3.ebuild, -gtksourceview-3.14.3.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

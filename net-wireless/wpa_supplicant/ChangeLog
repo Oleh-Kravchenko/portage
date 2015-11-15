@@ -93,3 +93,13 @@
 
   Package-Manager: portage-2.2.23
 
+*wpa_supplicant-2.5-r1 (14 Nov 2015)
+
+  14 Nov 2015; Bjarke Istrup Pedersen <gurligebis@gentoo.org>
+  -wpa_supplicant-2.5.ebuild, +wpa_supplicant-2.5-r1.ebuild:
+  Bumping to 2.5-r1
+
+  This fixes the following bugs: #506886, #565270, #565450
+
+  Package-Manager: portage-2.2.24
+

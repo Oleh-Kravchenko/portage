@@ -117,3 +117,19 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+*gsettings-desktop-schemas-3.18.1 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  +gsettings-desktop-schemas-3.18.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -gsettings-desktop-schemas-3.6.1.ebuild,
+  -gsettings-desktop-schemas-3.12.2.ebuild,
+  -gsettings-desktop-schemas-3.14.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

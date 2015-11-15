@@ -162,3 +162,21 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc64"
 
+  14 Nov 2015; Agostino Sarubbo <ago@gentoo.org> vte-0.36.5.ebuild:
+  sparc stable wrt bug #565086
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+
+*vte-0.42.1 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +vte-0.42.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> vte-0.42.1.ebuild:
+  Stop using obsolete configure option
+
+  Package-Manager: portage-2.2.24
+

@@ -63,3 +63,14 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*sympy-0.7.6.1 (14 Nov 2015)
+
+  14 Nov 2015; Andrey Grozin <grozin@gentoo.org>
+  +files/sympy-0.7.6.1-sphinx-1.3.1.patch, +sympy-0.7.6.1.ebuild:
+  bump to 0.7.6.1
+
+  A patch fixing docs building with sphinx-1.3.1
+  Thanks to Petr Cerny <p.c@black-net.org>
+
+  Package-Manager: portage-2.2.24
+

@@ -57,3 +57,11 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*CGI-4.220.0 (14 Nov 2015)
+
+  14 Nov 2015; Andreas K. Huettel (dilfridge) <dilfridge@gentoo.org>
+  -CGI-4.200.0.ebuild, +CGI-4.220.0.ebuild:
+  Version bump; remove old
+
+  Package-Manager: portage-2.2.23
+

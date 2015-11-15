@@ -134,3 +134,9 @@
 
   Package-Manager: portage-2.2.24
 
+  14 Nov 2015; Markus Meier <maekke@gentoo.org> elasticsearch-py-1.9.0.ebuild:
+  add ~arm, bug #563498
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="arm"
+

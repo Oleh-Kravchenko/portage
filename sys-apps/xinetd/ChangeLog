@@ -96,3 +96,9 @@
   Package-Manager: portage-2.2.24
   RepoMan-Options: --ignore-arches
 
+  14 Nov 2015; Markus Meier <maekke@gentoo.org> xinetd-2.3.15-r2.ebuild:
+  arm stable, bug #488158
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="arm"
+

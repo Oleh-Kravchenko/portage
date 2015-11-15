@@ -91,3 +91,11 @@
 
   Package-Manager: portage-2.2.20.1
 
+*rrdtool-1.5.5 (14 Nov 2015)
+
+  14 Nov 2015; Jeroen Roovers <jer@gentoo.org>
+  +files/rrdtool-1.5.5-rrdrados.pod, +rrdtool-1.5.5.ebuild:
+  dev-ruby/rrdtool-bindings: Version bump.
+
+  Package-Manager: portage-2.2.24
+

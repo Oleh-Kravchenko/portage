@@ -208,3 +208,12 @@
   Gentoo-Bug: 549768
   Package-Manager: portage-2.2.22
 
+*wine-1.7.53 (14 Nov 2015)
+*wine-1.7.52 (14 Nov 2015)
+
+  14 Nov 2015; NP-Hardass <NP-Hardass@gentoo.org> +wine-1.7.52.ebuild,
+  +wine-1.7.53.ebuild:
+  Version bumps to 1.7.52 and 1.7.53
+
+  Package-Manager: portage-2.2.23
+

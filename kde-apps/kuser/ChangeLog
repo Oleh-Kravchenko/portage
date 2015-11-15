@@ -76,3 +76,15 @@
 
   Package-Manager: portage-2.2.23
 
+*kuser-15.08.3 (14 Nov 2015)
+
+  14 Nov 2015; Michael Palimaka <kensington@gentoo.org>
+  +files/kuser-15.08.3-cmake34.patch, +kuser-15.08.3.ebuild:
+  version bump
+
+  Includes patch to fix build with >=dev-util/cmake-3.4.0
+
+  Gentoo-bug: 565770
+
+  Package-Manager: portage-2.2.24
+

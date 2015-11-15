@@ -61,3 +61,16 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*geoclue-2.4.0 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +geoclue-2.4.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -geoclue-2.1.9.ebuild,
+  -geoclue-2.1.10.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

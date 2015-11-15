@@ -186,3 +186,10 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  14 Nov 2015; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild,
+  metadata.xml:
+  Add mmal useflag. Bug #565298.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

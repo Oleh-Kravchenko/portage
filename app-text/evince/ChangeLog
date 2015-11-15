@@ -80,3 +80,20 @@
 
   Package-Manager: portage-2.2.23
 
+*evince-3.18.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +evince-3.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -evince-3.14.2-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> evince-3.18.2.ebuild:
+  Needs to be rebuilt with gnome-desktop subslot bumps
+
+  Package-Manager: portage-2.2.24
+

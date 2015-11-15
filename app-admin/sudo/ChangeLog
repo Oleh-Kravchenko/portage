@@ -149,3 +149,9 @@
 
   Package-Manager: portage-2.2.20.1
 
+  14 Nov 2015; Markus Meier <maekke@gentoo.org> sudo-1.8.15-r1.ebuild:
+  arm stable, bug #564774
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="arm"
+

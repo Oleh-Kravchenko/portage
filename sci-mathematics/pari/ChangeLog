@@ -72,3 +72,11 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+  14 Nov 2015; Andrey Grozin <grozin@gentoo.org>
+  +files/pari-2.7.1-perl-5.22-doc.patch, pari-2.7.1.ebuild:
+  fix building docs with perl-5.22
+
+  Thanks to  Andreas Proteus <proteuss@sdf.lonestar.org>
+
+  Package-Manager: portage-2.2.24
+

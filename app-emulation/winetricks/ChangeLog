@@ -64,3 +64,15 @@
 
   Package-Manager: portage-2.2.20.1
 
+*winetricks-20151110 (14 Nov 2015)
+
+  14 Nov 2015; NP-Hardass <NP-Hardass@gentoo.org> +winetricks-20151110.ebuild:
+  app-mulation/winetricks: Version bump to 20151110
+
+  Package-Manager: portage-2.2.23
+
+  14 Nov 2015; NP-Hardass <NP-Hardass@gentoo.org> -winetricks-20150826.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.23
+

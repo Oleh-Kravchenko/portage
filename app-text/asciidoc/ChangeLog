@@ -59,3 +59,60 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*asciidoc-8.6.9-r2 (13 Nov 2015)
+
+  13 Nov 2015; Marc Joliet <marcec@gmx.de> +asciidoc-8.6.9-r2.ebuild:
+  revbump to 8.6.9-r2 to add deps
+
+  Also, drop keywords to match app-text/dblatex.
+
+  Gentoo-bug: 366763
+  Signed-off-by: Marc Joliet <marcec@gmx.de>
+
+  13 Nov 2015; Marc Joliet <marcec@gmx.de> asciidoc-9999.ebuild:
+  apply dep fixes to -9999
+
+  Gentoo-bug: 366763
+  Signed-off-by: Marc Joliet <marcec@gmx.de>
+
+  13 Nov 2015; Marc Joliet <marcec@gmx.de> metadata.xml:
+  add myself as proxy-maintainer
+
+  Add myself as proxy-maintainer, replacing the previous maintainer at his
+  suggestion.
+
+  Signed-off-by: Marc Joliet <marcec@gmx.de>
+
+  13 Nov 2015; Marc Joliet <marcec@gmx.de> asciidoc-8.6.9-r2.ebuild,
+  asciidoc-9999.ebuild:
+  add a dep on app-text/highlight
+
+  It is another provider for the "highlight" USE flag.
+
+  Signed-off-by: Marc Joliet <marcec@gmx.de>
+
+  13 Nov 2015; Marc Joliet <marcec@gmx.de> asciidoc-8.6.9-r2.ebuild,
+  asciidoc-9999.ebuild:
+  change order of highlight deps
+
+  Change the order of the highlight USE flag deps so that
+  dev-util/source-highlight becomes the default in order to match upstream.
+
+  Gentoo-bug: 552148
+  Signed-off-by: Marc Joliet <marcec@gmx.de>
+
+  13 Nov 2015; Marc Joliet <marcec@gmx.de> asciidoc-8.6.9-r2.ebuild,
+  asciidoc-9999.ebuild:
+  split highlight deps by newline
+
+  Signed-off-by: Marc Joliet <marcec@gmx.de>
+
+  14 Nov 2015; Marc Joliet <marcec@gmx.de> asciidoc-8.6.9-r1.ebuild,
+  asciidoc-8.6.9-r2.ebuild, asciidoc-9999.ebuild:
+  trim description to <80 chars
+
+  The new description is taken verbatim from the first sentence at
+  http://asciidoc.org/userguide.html#_introduction.
+
+  Signed-off-by: Marc Joliet <marcec@gmx.de>
+

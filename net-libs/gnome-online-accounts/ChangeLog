@@ -97,3 +97,24 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*gnome-online-accounts-3.18.2.1 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  +gnome-online-accounts-3.18.2.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  gnome-online-accounts-3.18.2.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -gnome-online-accounts-3.14.4.ebuild,
+  -gnome-online-accounts-3.16.3-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

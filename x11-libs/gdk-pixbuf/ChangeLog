@@ -232,3 +232,30 @@
 
   Package-Manager: portage-2.2.20.1
 
+*gdk-pixbuf-2.32.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +gdk-pixbuf-2.32.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -gdk-pixbuf-2.30.8-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -files/gdk-pixbuf-2.30.8-divide-by-zero.patch,
+  -files/gdk-pixbuf-2.30.8-pixops-overflow.patch,
+  -files/gdk-pixbuf-2.31.5-pixops-overflow.patch,
+  -files/gdk-pixbuf-2.31.6-alpha-overflow-rebased.patch,
+  -files/gdk-pixbuf-2.31.6-jpeg-overflow.patch,
+  -files/gdk-pixbuf-2.31.6-pixops-gcc-optimizer.patch,
+  -files/gdk-pixbuf-2.31.6-pixops-overflow-rebased.patch,
+  -files/gdk-pixbuf-2.31.6-pixops-variable-type.patch,
+  -files/gdk-pixbuf-2.31.6-png-overflow.patch,
+  -files/gdk-pixbuf-2.31.6-rotate-overflow.patch, metadata.xml:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

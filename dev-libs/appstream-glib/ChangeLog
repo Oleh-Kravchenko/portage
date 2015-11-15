@@ -137,3 +137,16 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> appstream-glib-0.4.0.ebuild,
+  appstream-glib-0.5.0.ebuild:
+  ia64 keyword, bug #553926 by Émeric Maschino
+
+  Package-Manager: portage-2.2.24
+
+*appstream-glib-0.5.3 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +appstream-glib-0.5.3.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

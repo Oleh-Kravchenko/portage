@@ -59,3 +59,11 @@
 
   Package-Manager: portage-2.2.23
 
+*dwm-6.1 (14 Nov 2015)
+
+  14 Nov 2015; Patrice Clement <monsieurp@gentoo.org> +dwm-6.1.ebuild:
+  Version bump courtesy of Sergey Shiryaev <sergey@shiryaev.pro>.
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

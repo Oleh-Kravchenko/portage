@@ -130,3 +130,22 @@
 
   Package-Manager: portage-2.2.20.1
 
+*icedtea-bin-7.2.6.2 (14 Nov 2015)
+
+  14 Nov 2015; James Le Cuirot <chewi@gentoo.org> +icedtea-bin-7.2.6.2.ebuild,
+  metadata.xml:
+  Version bump to 7.2.6.2
+
+  This version works with CACAO so the ~ppc keyword is restored. There
+  are still problems with ~ppc64. :(
+
+  Sorry for changing the X/awt flag again but upstream preferred the
+  term headless, which is technically more accurate than awt, so I
+  compromised and went with headless-awt.
+
+  The nss flag has been added. This comments or uncomments the same line
+  that the icedtea package does via this flag. This more or less fixes
+  bug #528338 but manual intervention may still be required for I2P.
+
+  Package-Manager: portage-2.2.20.1
+

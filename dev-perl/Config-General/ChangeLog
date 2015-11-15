@@ -57,3 +57,11 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*Config-General-2.600.0 (14 Nov 2015)
+
+  14 Nov 2015; Andreas K. Huettel (dilfridge) <dilfridge@gentoo.org>
+  -Config-General-2.560.0.ebuild, +Config-General-2.600.0.ebuild:
+  Version bump; remove old
+
+  Package-Manager: portage-2.2.23
+

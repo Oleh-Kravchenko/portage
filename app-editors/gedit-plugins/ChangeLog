@@ -66,3 +66,15 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*gedit-plugins-3.18.0 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> +gedit-plugins-3.18.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org> -gedit-plugins-3.14.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

@@ -81,3 +81,10 @@
 
   Package-Manager: portage-2.2.23
 
+  14 Nov 2015; Jeroen Roovers <jer@gentoo.org> sssd-1.9.6-r3.ebuild,
+  sssd-1.9.7.ebuild, sssd-1.12.1.ebuild, sssd-1.12.4.ebuild,
+  sssd-1.12.5.ebuild, sssd-1.13.0.ebuild, sssd-1.13.1.ebuild:
+  Verbose build.
+
+  Package-Manager: portage-2.2.24
+

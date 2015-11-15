@@ -74,3 +74,22 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*gnome-terminal-3.18.2 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  +files/gnome-terminal-3.18.2-dark-theme.patch,
+  +files/gnome-terminal-3.18.2-transparency-fix-for-broken-themes.patch,
+  +files/gnome-terminal-3.18.2-transparency.patch,
+  +gnome-terminal-3.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -files/gnome-terminal-3.14.2-fix-crash.patch,
+  -files/gnome-terminal-3.14.2-title-option.patch,
+  -gnome-terminal-3.14.2-r2.ebuild, -gnome-terminal-3.14.3.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

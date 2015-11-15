@@ -64,3 +64,10 @@
 
   Package-Manager: portage-2.2.20.1
 
+*childprocess-0.5.8 (14 Nov 2015)
+
+  14 Nov 2015; Hans de Graaff <graaff@gentoo.org> +childprocess-0.5.8.ebuild:
+  add 0.5.8
+
+  Package-Manager: portage-2.2.20.1
+

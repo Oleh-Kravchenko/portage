@@ -116,3 +116,19 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+*gobject-introspection-1.46.0 (14 Nov 2015)
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  +gobject-introspection-1.46.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --force
+
+  14 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -files/gobject-introspection-1.40.0-gjs-crash.patch,
+  -gobject-introspection-1.40.0-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

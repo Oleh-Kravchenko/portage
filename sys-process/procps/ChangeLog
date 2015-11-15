@@ -158,3 +158,9 @@
   10 Nov 2015; William Hubbs <williamh@gentoo.org> procps-3.3.11-r2.ebuild:
   fix eprefix quoting
 
+  14 Nov 2015; Markus Meier <maekke@gentoo.org> procps-3.3.10-r1.ebuild:
+  arm stable, bug #564430
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="arm"
+
