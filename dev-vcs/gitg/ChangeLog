@@ -99,3 +99,12 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -files/gitg-0.1.2-fix-disable-debug.patch,
+  -files/gitg-0.2.6-fix-libreoffice.patch,
+  -files/gitg-3.14.1-libgit2-glib-0.22.0.patch, -gitg-0.2.7.ebuild,
+  -gitg-0.3.2.ebuild, -gitg-3.14.0.ebuild, -gitg-3.14.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

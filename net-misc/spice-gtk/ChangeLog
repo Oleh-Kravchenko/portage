@@ -114,3 +114,10 @@
 
   Package-Manager: portage-2.2.20.1
 
+*spice-gtk-0.30 (15 Nov 2015)
+
+  15 Nov 2015; Matthias Maier <tamiko@gentoo.org> +spice-gtk-0.30.ebuild:
+  version bump to 0.30
+
+  Package-Manager: portage-2.2.23
+

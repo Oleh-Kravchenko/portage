@@ -123,3 +123,10 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc64"
 
+  15 Nov 2015; Ian Delaney <idella4@gentoo.org> -chicken-4.8.0.3-r1.ebuild:
+  cleanup; rm vn. 4.10.0-r1 wrt the gentoo bug
+
+  Gentoo bug: #467966
+
+  Package-Manager: portage-2.2.24
+

@@ -54,3 +54,17 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*crystalspace-2.0-r1 (15 Nov 2015)
+
+  15 Nov 2015; Michael Sterrett <mr_bones_@gentoo.org>
+  +crystalspace-2.0-r1.ebuild, +files/crystalspace-2.0-wxgtk.patch:
+  rev bump to use wxGTK:3.0 (bug #563968)
+
+  Package-Manager: portage-2.2.20.1
+
+  15 Nov 2015; Michael Sterrett <mr_bones_@gentoo.org>
+  crystalspace-2.0-r1.ebuild:
+  add slot to virtual/jpeg dep
+
+  Package-Manager: portage-2.2.20.1
+

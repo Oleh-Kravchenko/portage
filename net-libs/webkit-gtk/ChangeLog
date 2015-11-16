@@ -169,3 +169,19 @@
 
   Package-Manager: portage-2.2.23
 
+*webkit-gtk-2.10.4 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +webkit-gtk-2.10.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -files/webkit-gtk-2.6.0-hppa-platform.patch,
+  -files/webkit-gtk-2.6.0-ia64-malloc.patch,
+  -files/webkit-gtk-2.6.0-ia64-platform.patch,
+  -files/webkit-gtk-2.8.1-ia64-malloc.patch, -webkit-gtk-2.6.6.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

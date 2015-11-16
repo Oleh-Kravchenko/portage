@@ -89,3 +89,23 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*oslo-serialization-1.11.0 (15 Nov 2015)
+
+  15 Nov 2015; Alex Brandt <alunduil@gentoo.org>
+  +oslo-serialization-1.11.0.ebuild:
+  add version 1.11.0
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Alex Brandt <alunduil@gentoo.org>
+  -oslo-serialization-1.0.0.ebuild:
+  remove version 1.0.0
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Alex Brandt <alunduil@gentoo.org>
+  -oslo-serialization-1.0.0-r1.ebuild:
+  remove version 1.0.0-r1
+
+  Package-Manager: portage-2.2.24
+

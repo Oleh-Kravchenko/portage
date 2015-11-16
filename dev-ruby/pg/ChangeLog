@@ -88,3 +88,10 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --ignore-arches
 
+*pg-0.18.4 (15 Nov 2015)
+
+  15 Nov 2015; Manuel Rüger <manuel@rueg.eu> +pg-0.18.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

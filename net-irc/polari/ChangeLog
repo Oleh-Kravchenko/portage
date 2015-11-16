@@ -76,3 +76,10 @@
 
   Package-Manager: portage-2.2.23
 
+*polari-3.18.1 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +polari-3.18.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

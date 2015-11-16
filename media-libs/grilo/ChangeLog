@@ -68,3 +68,20 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*grilo-0.2.14 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +grilo-0.2.14.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> -grilo-0.2.11.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Fix metadata
+
+  Package-Manager: portage-2.2.24
+

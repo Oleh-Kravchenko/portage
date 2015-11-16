@@ -89,3 +89,11 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*spice-protocol-0.12.10 (15 Nov 2015)
+
+  15 Nov 2015; Matthias Maier <tamiko@gentoo.org>
+  +spice-protocol-0.12.10.ebuild:
+  version bump to 0.12.10
+
+  Package-Manager: portage-2.2.23
+

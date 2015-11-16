@@ -83,3 +83,10 @@
   python-config rather than hardcoding it as ${PYTHON}-config. This
   forward-fixes compatibility with ABIFLAGS-enabled Python 3.*.
 
+*gnome-builder-3.18.1 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +gnome-builder-3.18.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+

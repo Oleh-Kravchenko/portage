@@ -73,3 +73,19 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*libgit2-glib-0.23.6 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +libgit2-glib-0.23.6.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -files/libgit2-glib-0.0.24-automagic-ssh.patch,
+  -files/libgit2-glib-0.22.0-automagic-ssh.patch, -libgit2-glib-0.0.12.ebuild,
+  -libgit2-glib-0.0.16.ebuild, -libgit2-glib-0.0.24.ebuild,
+  -libgit2-glib-0.22.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

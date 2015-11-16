@@ -146,3 +146,15 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+  15 Nov 2015; Jeroen Roovers <jer@gentoo.org> libpng-1.6.19.ebuild:
+  Stable for PPC64 (bug #565678).
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --ignore-arches
+
+  15 Nov 2015; Jeroen Roovers <jer@gentoo.org> libpng-1.6.19.ebuild:
+  Stable for HPPA (bug #565678).
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --ignore-arches
+

@@ -16,3 +16,10 @@
 
   Package-Manager: portage-2.2.20.1
 
+  15 Nov 2015; Alexis Ballier <aballier@gentoo.org> dblatex-0.3.7.ebuild:
+  do not depend on dev-texlive/texlive-htmlxml which is not available since
+  texlive 2013 and provides nothing.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

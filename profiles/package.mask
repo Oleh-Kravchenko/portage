@@ -183,6 +183,54 @@ virtual/python-imaging
 >=gnome-base/gsettings-desktop-schemas-3.18.1
 >=gnome-base/libgtop-2.32.0
 >=gnome-extra/gnome-boxes-3.18.1
+>=dev-libs/libgit2-glib-0.23.6
+>=gnome-extra/gnome-builder-3.18.1
+>=gnome-extra/gnome-calendar-3.18.1
+>=gnome-extra/gnome-characters-3.18.1
+>=gnome-extra/gnome-clocks-3.18.0
+>=gnome-extra/gnome-color-manager-3.18.0
+>=gnome-extra/gnome-logs-3.18.1
+>=gnome-extra/gnome-power-manager-3.18.0
+>=gnome-extra/gnome-user-docs-3.18.1
+>=gnome-extra/gnome-user-share-3.18.0
+>=gnome-extra/gnome-weather-3.18.1
+>=gnome-extra/gtkhtml-4.10.0
+>=gnome-extra/sushi-3.18.0
+>=gnome-extra/yelp-3.18.1
+>=gnome-extra/zenity-3.18.1.1
+>=media-gfx/gnome-screenshot-3.18.0
+>=media-libs/cogl-1.22.0
+>=media-libs/clutter-1.24.2
+>=media-libs/clutter-gtk-1.6.6
+>=media-libs/grilo-0.2.14
+>=media-plugins/grilo-plugins-0.2.16
+>=media-sound/gnome-music-3.18.0
+>=media-sound/sound-juicer-3.18.0
+>=net-irc/polari-3.18.1
+>=net-libs/glib-networking-2.46.1
+>=net-misc/rygel-0.28.1
+>=sci-geosciences/geocode-glib-3.18.0
+>=sys-apps/baobab-3.18.1
+>=x11-themes/adwaita-icon-theme-3.18.0
+>=x11-themes/gnome-backgrounds-3.18.0
+>=x11-themes/gnome-themes-standard-3.18.0
+>=net-libs/webkit-gtk-2.10.4
+>=www-client/epiphany-3.18.0
+>=x11-wm/muffin-2.8.0
+>=gnome-extra/cinnamon-2.8.3
+>=gnome-extra/cinnamon-control-center-2.8.0
+>=gnome-extra/cinnamon-desktop-2.8.0
+>=gnome-extra/cinnamon-menus-2.8.0
+>=gnome-extra/cinnamon-screensaver-2.8.0
+>=gnome-extra/cinnamon-session-2.8.2
+>=gnome-extra/cinnamon-settings-daemon-2.8.1
+>=gnome-extra/cinnamon-translations-2.8.1
+>=gnome-extra/cjs-2.8.0
+>=x11-wm/mutter-3.18.2
+>=gnome-base/gnome-shell-3.18
+>=gnome-extra/gnome-shell-extensions-3.18.2
+>=gnome-extra/gnome-shell-frippery-3.18.1
+>=gnome-base/gdm-3.18.0
 
 # Pacho Ramos <pacho@gentoo.org> (09 Nov 2015)
 # Not properly installed, dead for ages, upstream
@@ -297,16 +345,6 @@ dev-java/jakarta-jstl
 # 2015, bug 536852.
 # Masked for removal in 30 days.
 =dev-lang/ruby-1.9*
-
-# Patrice Clement <monsieurp@gentoo.org> (6 Oct 2015)
-# No update since 2008. Masked for removal in 30 days.
-# See bug #562370.
-dev-java/cos
-
-# Patrice Clement <monsieurp@gentoo.org> (6 Oct 2015)
-# Dead upstream. Masked for removal in 30 days.
-# See bug #562370.
-dev-java/commons-grant
 
 # Mike Pagano <mpagano@gentoo.org> (2 Oct 2015)
 # A regression in kernel 4.1.9 could lead to a system

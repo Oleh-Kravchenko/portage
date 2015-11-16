@@ -118,3 +118,16 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+*glib-networking-2.46.1 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +glib-networking-2.46.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -glib-networking-2.40.1-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

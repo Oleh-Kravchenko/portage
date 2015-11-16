@@ -55,3 +55,28 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*lha-114i-r8 (14 Nov 2015)
+
+  14 Nov 2015; Patrice Clement <monsieurp@gentoo.org> +lha-114i-r8.ebuild:
+  create lha-114i-r8.ebuild
+
+  Fix bug #467544
+
+  14 Nov 2015; Patrice Clement <monsieurp@gentoo.org>
+  +files/lha-114i-fix-getopt_long-declaration.patch:
+  create lha-114i-fix-getopt_long-declaration.patch
+
+  Fixes bug #467544
+
+  14 Nov 2015; Patrice Clement <monsieurp@gentoo.org> lha-114i-r8.ebuild:
+  Mend header. Stick patch in PATCHES array. Mask KEYWORDS.
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  14 Nov 2015; Patrice Clement <monsieurp@gentoo.org> lha-114i-r8.ebuild:
+  QA warnings are now gone for good.
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

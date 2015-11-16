@@ -70,3 +70,23 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*gnome-power-manager-3.18.0 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  +gnome-power-manager-3.18.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  gnome-power-manager-3.16.1.ebuild, gnome-power-manager-3.18.0.ebuild:
+  alpha rekeyword as looks like deps are now ok
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -gnome-power-manager-3.14.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

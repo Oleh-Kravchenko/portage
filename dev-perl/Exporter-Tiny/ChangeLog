@@ -67,3 +67,6 @@
   23 Oct 2015; Yuta Satoh <nigoro@gentoo.gr.jp> Exporter-Tiny-0.42.0.ebuild:
   add ~amd64-fbsd, ~x86-fbsd keyword, bug 543632
 
+  15 Nov 2015; Matt Turner <mattst88@gentoo.org> Exporter-Tiny-0.42.0.ebuild:
+  alpha stable, bug 565794.
+

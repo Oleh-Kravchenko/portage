@@ -273,3 +273,17 @@
 
   Package-Manager: portage-2.2.22
 
+*libvirt-1.2.21 (15 Nov 2015)
+*libvirt-1.2.20-r1 (15 Nov 2015)
+
+  15 Nov 2015; Matthias Maier <tamiko@gentoo.org> -libvirt-1.2.20.ebuild,
+  +libvirt-1.2.20-r1.ebuild, +libvirt-1.2.21.ebuild, libvirt-9999.ebuild:
+  version bump to 1.2.21 (bug #564992), maintenance
+
+   - version bump to 1.2.21
+   - remove obsolete dependency on support library for <sys-libs/glibc-1.14
+
+  Gentoo-Bug: 564992
+
+  Package-Manager: portage-2.2.23
+

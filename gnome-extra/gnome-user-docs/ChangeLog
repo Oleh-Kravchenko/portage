@@ -69,3 +69,16 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*gnome-user-docs-3.18.1 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +gnome-user-docs-3.18.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> -gnome-user-docs-3.14.2.ebuild,
+  metadata.xml:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

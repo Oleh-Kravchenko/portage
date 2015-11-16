@@ -94,3 +94,9 @@
 
   Package-Manager: portage-2.2.20.1
 
+  15 Nov 2015; Mikle Kolyada <zlogene@gentoo.org>
+  Convert-UUlib-1.500.0.ebuild:
+  add ~ia64 keyword
+
+  Package-Manager: portage-2.2.20.1
+

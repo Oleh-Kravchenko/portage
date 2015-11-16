@@ -72,3 +72,20 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*clutter-1.24.2 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +clutter-1.24.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> -clutter-1.20.2.ebuild,
+  -clutter-1.22.2-r1.ebuild,
+  -files/clutter-1.22.2-clutter_gdk_get_visual-2.patch,
+  -files/clutter-1.22.2-clutter_gdk_get_visual.patch,
+  -files/clutter-1.22.2-cogl-visual-xlib.patch,
+  -files/clutter-1.22.2-touchpad-detection.patch:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

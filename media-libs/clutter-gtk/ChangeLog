@@ -70,3 +70,17 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*clutter-gtk-1.6.6 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +clutter-gtk-1.6.6.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> -clutter-gtk-1.6.0.ebuild,
+  -clutter-gtk-1.6.0-r1.ebuild,
+  -files/clutter-gtk-1.6.0-clutter_gdk_get_visual.patch:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

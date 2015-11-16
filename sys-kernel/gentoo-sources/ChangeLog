@@ -582,3 +582,9 @@
 
   Package-Manager: portage-2.2.20.1
 
+  15 Nov 2015; Jeroen Roovers <jer@gentoo.org> gentoo-sources-4.1.12.ebuild:
+  Stable for PPC64 (bug #564702).
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --ignore-arches
+

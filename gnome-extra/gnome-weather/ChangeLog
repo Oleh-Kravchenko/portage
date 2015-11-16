@@ -75,3 +75,16 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*gnome-weather-3.18.1 (15 Nov 2015)
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org> +gnome-weather-3.18.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  15 Nov 2015; Pacho Ramos <pacho@gentoo.org>
+  -files/gnome-weather-3.8.2-temp-unit.patch, -gnome-weather-3.14.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

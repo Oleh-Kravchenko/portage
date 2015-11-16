@@ -16,3 +16,10 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*mycli-1.5.2 (15 Nov 2015)
+
+  15 Nov 2015; Johann Schmitz <ercpe@gentoo.org> +mycli-1.5.2.ebuild:
+  Version bump to 1.5.2
+
+  Package-Manager: portage-2.2.20.1
+

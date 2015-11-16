@@ -200,3 +200,16 @@
 
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+  15 Nov 2015; Doug Goldstein <cardoe@gentoo.org>
+  mythtv-0.26.0_p20130922.ebuild, mythtv-0.27_p20140321.ebuild,
+  mythtv-0.27.5_p20150627.ebuild, mythtv-0.27.5_p20150904-r1.ebuild,
+  mythtv-0.27.5_p20150904-r2.ebuild, mythtv-0.27.5_p20151025.ebuild:
+  fix build issue with media-libs/libvpx-1.5.0
+
+  libvpx-1.5.0 dropped some defines from their headers that MythTV needed
+  to compile. To quickly avoid such issues for users, set the DEPEND to be
+  on for all versions less than 1.5.0. fixes #565628
+
+  Gentoo-Bug: 565628
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
