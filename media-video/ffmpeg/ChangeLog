@@ -193,3 +193,10 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  16 Nov 2015; Alexis Ballier <aballier@gentoo.org> ffmpeg-2.8.2.ebuild,
+  ffmpeg-9999.ebuild:
+  properly disable sdl when not wanted; bug #565852
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

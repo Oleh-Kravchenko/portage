@@ -135,3 +135,16 @@
 
   Package-Manager: portage-2.2.20.1
 
+  16 Nov 2015; Mikle Kolyada <zlogene@gentoo.org> icinga2-2.3.11.ebuild:
+  amd64 stable wrt bug #565892
+
+  Package-Manager: portage-2.2.20.1
+
+*icinga2-2.4.0 (16 Nov 2015)
+
+  16 Nov 2015; Matthew Thode <prometheanfire@gentoo.org>
+  +icinga2-2.4.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.20.1
+

@@ -240,3 +240,15 @@
 
   Package-Manager: portage-2.2.23
 
+*wine-1.7.55 (16 Nov 2015)
+
+  16 Nov 2015; NP-Hardass <NP-Hardass@gentoo.org> +wine-1.7.55.ebuild,
+  wine-9999.ebuild:
+  Version bump to 1.7.55.  Pulseaudio now mainstream.
+
+  Pulseaudio support has been merged upstream.  While this means that
+  patches from Wine Staging are no longer necessary, some users may still
+  want to keep the staging flag enabled for additional patches for pulseaudio.
+
+  Package-Manager: portage-2.2.23
+
