@@ -78,3 +78,38 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="amd64"
 
+  16 Nov 2015; Christian Affolter <christian.affolter@stepping-stone.ch>
+  spice-0.12.6.ebuild:
+  Added dev-python/six build dependency
+
+  Spice requires Six, the Python 2 and 3 compatibility library, otherwise
+  the build will fail with the following error:
+
+  [...]
+  make[4]: Entering directory '/var/tmp/portage/app-
+  emulation/spice-0.12.6/work/spice-0.12.6/spice-common/common'
+  /usr/bin/python2.7 /usr/lib64/spice-protocol/spice_codegen.py --generate-
+  demarshallers --client --include common/messages.h /usr/lib64/spice-
+  protocol/spice.proto generated_client_demarshallers.c >/dev/null
+  Traceback (most recent call last):
+    File "/usr/lib64/spice-protocol/spice_codegen.py", line 7, in <module>
+      from python_modules import spice_parser
+    File "/usr/lib64/spice-protocol/python_modules/spice_parser.py", line 1,
+  in <module>
+      import six
+  ImportError: No module named six
+  Makefile:794: recipe for target 'generated_client_demarshallers.c' failed
+  make[4]: *** [generated_client_demarshallers.c] Error 1
+  make[4]: Leaving directory '/var/tmp/portage/app-
+  emulation/spice-0.12.6/work/spice-0.12.6/spice-common/common'
+  Makefile:445: recipe for target 'all-recursive' failed
+  make[3]: *** [all-recursive] Error 1
+
+*spice-0.12.6-r1 (17 Nov 2015)
+
+  17 Nov 2015; Christian Affolter <christian.affolter@stepping-stone.ch>
+  -spice-0.12.6.ebuild, +spice-0.12.6-r1.ebuild:
+  Revbump to app-emulation/spice-0.12.6-r1
+
+  As requested by @monsieurp
+

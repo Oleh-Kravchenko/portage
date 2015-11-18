@@ -252,3 +252,9 @@
 
   Package-Manager: portage-2.2.23
 
+  17 Nov 2015; NP-Hardass <NP-Hardass@gentoo.org> wine-1.7.55.ebuild,
+  wine-9999.ebuild:
+  Resolve bug #566036
+
+  Package-Manager: portage-2.2.23
+
