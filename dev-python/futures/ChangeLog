@@ -98,3 +98,11 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+  18 Nov 2015; Justin Lecher <jlec@gentoo.org> futures-3.0.3.ebuild:
+  Keyword under ALLARCHES policy
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=543802
+
+  Package-Manager: portage-2.2.25
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

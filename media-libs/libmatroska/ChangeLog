@@ -112,3 +112,9 @@
   Package-Manager: portage-2.2.24
   RepoMan-Options: --include-arches="arm"
 
+  18 Nov 2015; Agostino Sarubbo <ago@gentoo.org> libmatroska-1.4.4.ebuild:
+  ia64 stable wrt bug #564426
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ia64"
+

@@ -61,3 +61,12 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  18 Nov 2015; Justin Lecher <jlec@gentoo.org> backports-abc-0.4.ebuild,
+  metadata.xml:
+  Keyword under ALLARCHES policy
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=543802
+
+  Package-Manager: portage-2.2.25
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

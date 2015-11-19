@@ -206,3 +206,15 @@
 
   Package-Manager: portage-2.2.24
 
+  18 Nov 2015; Jeroen Roovers <jer@gentoo.org> gtk+-3.16.7.ebuild:
+  Stable for HPPA (bug #565086).
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --ignore-arches
+
+  18 Nov 2015; Agostino Sarubbo <ago@gentoo.org> gtk+-3.16.7.ebuild:
+  alpha stable wrt bug #565086
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="alpha"
+

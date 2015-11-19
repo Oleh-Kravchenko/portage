@@ -169,3 +169,23 @@
 
   Package-Manager: portage-2.2.20.1
 
+*procps-3.3.11-r3 (18 Nov 2015)
+
+  18 Nov 2015; Ulrich Müller <ulm@gentoo.org> -procps-3.3.11-r2.ebuild,
+  +procps-3.3.11-r3.ebuild:
+  Move non-essential binaries back to /usr/bin
+
+  Per the base-system lead, this is where they belong.
+
+  Bug: https://bugs.gentoo.org/565304
+
+  Package-Manager: portage-2.2.23_p26
+
+  18 Nov 2015; Ulrich Müller <ulm@gentoo.org>
+  +files/procps-3.3.11-sysctl-manpage.patch, procps-3.3.11-r3.ebuild:
+  QA] Fix path in sysctl.8 man page.
+
+  Bug: 565304
+
+  Package-Manager: portage-2.2.24
+

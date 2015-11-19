@@ -106,3 +106,15 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+  18 Nov 2015; Agostino Sarubbo <ago@gentoo.org> sqlalchemy-0.7.10.ebuild:
+  ia64 stable wrt bug #530600
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ia64"
+
+  18 Nov 2015; Agostino Sarubbo <ago@gentoo.org> sqlalchemy-0.7.10.ebuild:
+  sparc stable wrt bug #530600
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="sparc"
+

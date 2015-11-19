@@ -54,3 +54,10 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*coffee-script-1.10.0 (18 Nov 2015)
+
+  18 Nov 2015; Michael Orlitzky <mjo@gentoo.org> +coffee-script-1.10.0.ebuild:
+  add version 1.10.0.
+
+  Package-Manager: portage-2.2.20.1
+

@@ -183,3 +183,10 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ia64"
 
+  18 Nov 2015; Sergey Popov <pinkbyte@gentoo.org> distcc-3.2_rc1-r4.ebuild:
+  s390 stable
+
+  Gentoo-Bug: 421481
+
+  Package-Manager: portage-2.2.23
+
