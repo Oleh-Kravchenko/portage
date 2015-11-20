@@ -120,3 +120,11 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*puppet-agent-1.3.0 (19 Nov 2015)
+
+  19 Nov 2015; Matthew Thode <prometheanfire@gentoo.org>
+  +puppet-agent-1.3.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.20.1
+

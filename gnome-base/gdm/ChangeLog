@@ -110,3 +110,15 @@
 
   Package-Manager: portage-2.2.24
 
+*gdm-3.18.2 (19 Nov 2015)
+
+  19 Nov 2015; Pacho Ramos <pacho@gentoo.org> +gdm-3.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+  19 Nov 2015; Pacho Ramos <pacho@gentoo.org> -gdm-3.18.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.24
+

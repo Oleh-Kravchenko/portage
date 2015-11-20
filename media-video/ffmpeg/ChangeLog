@@ -200,3 +200,10 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  19 Nov 2015; Alexis Ballier <aballier@gentoo.org> -ffmpeg-2.7.2.ebuild,
+  -ffmpeg-2.8.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.25
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

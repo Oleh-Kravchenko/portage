@@ -181,3 +181,9 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="alpha"
 
+  19 Nov 2015; Agostino Sarubbo <ago@gentoo.org> librsvg-2.40.11.ebuild:
+  arm stable wrt bug #565086
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="arm"
+

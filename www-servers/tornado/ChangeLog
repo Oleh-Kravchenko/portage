@@ -162,3 +162,9 @@
   Package-Manager: portage-2.2.25
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  19 Nov 2015; Agostino Sarubbo <ago@gentoo.org> tornado-4.2.1.ebuild:
+  amd64 stable wrt bug #549898
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+

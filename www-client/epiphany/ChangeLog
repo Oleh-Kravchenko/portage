@@ -104,3 +104,8 @@
 
   Package-Manager: portage-2.2.24
 
+  19 Nov 2015; Pacho Ramos <pacho@gentoo.org> epiphany-3.18.0.ebuild:
+  missing keywords for webkit-gtk on ia64 and alpha
+
+  Package-Manager: portage-2.2.24
+

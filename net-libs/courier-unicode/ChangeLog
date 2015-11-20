@@ -72,3 +72,11 @@
 
   Package-Manager: portage-2.2.25
 
+*courier-unicode-1.1 (19 Nov 2015)
+
+  19 Nov 2015; Eray Aslan <eras@gentoo.org> +courier-unicode-1.1.ebuild:
+  Revert "net-libs/courier-unicode: remove old"
+
+  Apparently, courier-imap-4.16.0 needs courier-unicode-1.1.
+  This reverts commit e9620a23f862f69352b0ca31de2f5e4ed642cc69.
+

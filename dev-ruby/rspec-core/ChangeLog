@@ -135,3 +135,10 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*rspec-core-3.4.1 (19 Nov 2015)
+
+  19 Nov 2015; Hans de Graaff <graaff@gentoo.org> +rspec-core-3.4.1.ebuild:
+  add 3.4.1
+
+  Package-Manager: portage-2.2.20.1
+

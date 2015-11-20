@@ -134,3 +134,16 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="sparc"
 
+  19 Nov 2015; Agostino Sarubbo <ago@gentoo.org> testscenarios-0.5.0.ebuild:
+  alpha stable wrt bug #564588
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="alpha"
+
+  19 Nov 2015; Justin Lecher <jlec@gentoo.org> -testscenarios-0.4.ebuild,
+  -testscenarios-0.4-r2.ebuild, -testscenarios-0.4-r4.ebuild:
+  Clean old
+
+  Package-Manager: portage-2.2.25
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

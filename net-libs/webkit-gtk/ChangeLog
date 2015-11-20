@@ -190,3 +190,8 @@
 
   Package-Manager: portage-2.2.24
 
+  19 Nov 2015; Pacho Ramos <pacho@gentoo.org> webkit-gtk-2.10.4.ebuild:
+  hyphen is not keyworded on ia64 and alpha
+
+  Package-Manager: portage-2.2.24
+
