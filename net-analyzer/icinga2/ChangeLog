@@ -154,3 +154,11 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+*icinga2-2.4.0-r1 (20 Nov 2015)
+
+  20 Nov 2015; Matthew Thode <prometheanfire@gentoo.org>
+  +icinga2-2.4.0-r1.ebuild, metadata.xml:
+  add support for lto and icinga studio
+
+  Package-Manager: portage-2.2.20.1
+

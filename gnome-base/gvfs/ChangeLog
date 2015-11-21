@@ -171,3 +171,11 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="arm"
 
+  20 Nov 2015; Patrick McLean <chutzpah@gentoo.org> gvfs-1.26.2.ebuild,
+  metadata.xml:
+  add "google" USE flag that makes the libgdata dep optional
+
+  This fixes bug 566294
+
+  Package-Manager: portage-2.2.24
+
