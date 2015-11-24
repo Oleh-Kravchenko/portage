@@ -30,6 +30,23 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas K. Huettel <dilfridge@gentoo.org> (22 Nov 2015)
+# txt2html got accidentally packaged twice, as TextToHTML
+# and as txt2html. Masking the version with nonstandard PN
+# for removal in 30 days.
+dev-perl/TextToHTML
+
+# Michael Sterrett <mr_bones_@gentoo.org> (22 Nov 2015)
+# Upstream is gone and doesn't build on modern systems.
+# Masked for removal on 20151222
+games-fps/imaze
+
+# Patrice Clement <monsieurp@gentoo.org> (21 Nov 2015)
+# Upstream dead + superseded by app-text/tidy-html5.
+# Masked for removal in 30 days. See bug #564884.
+# Not yet.
+# app-text/htmltidy
+
 # Michael Palimaka <kensington@gentoo.org> (18 Nov 2015)
 # Ebuilds unfinished work-in-progress. Dead upstream.
 # Masked for removal in 30 days. Bug #550234.
@@ -49,15 +66,6 @@ app-pda/libsyncml
 app-pda/msynctool
 app-pda/multisync-gui
 app-pda/osynctool
-
-# Andreas K. Hüttel <dilfridge@gentoo.org> (13 Nov 2015)
-# dev-perl/Coro is incompatible with Perl 5.22 and there is no fix
-# in sight. Masking it and its reverse dependencies for removal in
-# 30 days.
-dev-perl/Coro
-dev-perl/Net-Server-Coro
-dev-perl/Net-IMAP-Simple
-dev-perl/Net-IMAP-Simple-SSL
 
 # Patrice Clement <monsieurp@gentoo.org> (12 Nov 2015)
 # Upstream dead + ebuild was never stabilised.
@@ -204,11 +212,6 @@ www-apache/mod_h2
 # in new version. Masked for removal in 30 days.
 =sci-geosciences/grass-6.4.2
 =sci-geosciences/gdal-grass-1.4.3-r1
-
-# Patrice Clement <monsieurp@gentoo.org> (18 Oct 2015)
-# Project discontinued by the ASF and now superseded by dev-java/tomcat-jstl-*
-# ebuilds. Masked for removal in 30 days. See bug #551032.
-dev-java/jakarta-jstl
 
 # Pawel Hajdan, Jr. <phajdan.jr@gentoo.org> (16 Oct 2015)
 # Dev channel releases are only for people who are developers or want more
