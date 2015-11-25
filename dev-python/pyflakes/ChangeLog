@@ -90,3 +90,6 @@
   23 Nov 2015; Sean Vig <sean.v.775@gmail.com> pyflakes-1.0.0.ebuild:
   Fix location of patch
 
+  24 Nov 2015; Justin Lecher <jlec@gentoo.org> pyflakes-1.0.0.ebuild:
+  Add python3_3 target to version 1.0.0
+

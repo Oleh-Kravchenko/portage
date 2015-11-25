@@ -86,3 +86,9 @@
   Package-Manager: portage-2.2.25
   RepoMan-Options: --ignore-arches
 
+  24 Nov 2015; Jeroen Roovers <jer@gentoo.org> singledispatch-3.4.0.3.ebuild:
+  Stable for PPC64 (bug #549898).
+
+  Package-Manager: portage-2.2.25
+  RepoMan-Options: --ignore-arches
+

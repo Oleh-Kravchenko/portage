@@ -161,3 +161,10 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="alpha"
 
+  24 Nov 2015; Hans de Graaff <graaff@gentoo.org> -rack-1.4.6.ebuild,
+  -rack-1.4.6-r1.ebuild, -rack-1.5.4.ebuild, -rack-1.5.4-r1.ebuild,
+  -rack-1.6.2.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.20.1
+

@@ -106,3 +106,9 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="alpha"
 
+  24 Nov 2015; Markus Meier <maekke@gentoo.org> unidecode-0.04.18.ebuild:
+  arm stable, bug #565208
+
+  Package-Manager: portage-2.2.25
+  RepoMan-Options: --include-arches="arm"
+
