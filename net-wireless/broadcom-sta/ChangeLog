@@ -128,3 +128,10 @@
   broadcom-sta-6.30.223.271-r1.ebuild:
   Drop unneeded patch.
 
+*broadcom-sta-6.30.223.271-r2 (17 Nov 2015)
+
+  17 Nov 2015; Matthew Brewer <tomboy64@sina.cn>
+  +broadcom-sta-6.30.223.271-r2.ebuild,
+  +files/broadcom-sta-6.30.223.271-linux-4.3.patch:
+  patch for compatibility with kernel-4.3
+
