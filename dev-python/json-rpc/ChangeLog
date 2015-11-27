@@ -83,3 +83,9 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="amd64"
 
+  26 Nov 2015; Justin Lecher <jlec@gentoo.org> -json-rpc-1.7.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.25
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

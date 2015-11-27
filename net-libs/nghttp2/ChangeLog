@@ -123,3 +123,8 @@
 
   Package-Manager: portage-2.2.20.1
 
+*nghttp2-1.4.0 (26 Nov 2015)
+
+  26 Nov 2015; Mike Frysinger <vapier@gentoo.org> +nghttp2-1.4.0.ebuild:
+  version bump to 1.4.0 #566804
+
