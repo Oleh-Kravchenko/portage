@@ -11,3 +11,9 @@
 
   Package-Manager: portage-2.2.20.1
 
+  28 Nov 2015; Michael Sterrett <mr_bones_@gentoo.org>
+  files/numptyphysics-9999-gentoo.patch:
+  update patch to mesh with upstream
+
+  Package-Manager: portage-2.2.20.1
+
