@@ -62,3 +62,10 @@
 
   Package-Manager: portage-2.2.25
 
+  27 Nov 2015; Patrice Clement <monsieurp@gentoo.org>
+  Mail-IMAPClient-3.370.0.ebuild:
+  Mend header.
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

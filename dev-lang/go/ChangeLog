@@ -152,3 +152,7 @@
   25 Nov 2015; William Hubbs <williamh@gentoo.org> go-9999.ebuild:
   sync live ebuild
 
+  27 Nov 2015; William Hubbs <williamh@gentoo.org>
+  -files/go-1.5.1-darwin-sysctl.patch, go-1.5.1.ebuild, go-1.5.1-r1.ebuild:
+  remove incorrect patch for #558368
+

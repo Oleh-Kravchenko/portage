@@ -128,3 +128,8 @@
   26 Nov 2015; Mike Frysinger <vapier@gentoo.org> +nghttp2-1.4.0.ebuild:
   version bump to 1.4.0 #566804
 
+*nghttp2-1.5.0 (27 Nov 2015)
+
+  27 Nov 2015; Mike Frysinger <vapier@gentoo.org> +nghttp2-1.5.0.ebuild:
+  version bump to 1.5.0 #566936
+
