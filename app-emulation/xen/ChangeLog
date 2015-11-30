@@ -116,3 +116,9 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="amd64"
 
+  29 Nov 2015; Ian Delaney <idella4@gentoo.org> -xen-4.5.1.ebuild,
+  -xen-4.5.2.ebuild, -xen-4.6.0-r1.ebuild:
+  clean old vns.: 4.5.x, 4.6.0-r1
+
+  Package-Manager: portage-2.2.24
+
