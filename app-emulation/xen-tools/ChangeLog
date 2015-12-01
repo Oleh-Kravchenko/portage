@@ -116,3 +116,17 @@
 
   Package-Manager: portage-2.2.24
 
+*xen-tools-4.6.0-r3 (30 Nov 2015)
+*xen-tools-4.5.2-r1 (30 Nov 2015)
+
+  30 Nov 2015; Ian Delaney <idella4@gentoo.org> +xen-tools-4.5.2-r1.ebuild,
+  +xen-tools-4.6.0-r3.ebuild:
+  revbumps vns. 4.5.2-r1, 4.6.0-r3
+
+  security patches (2) added from XSA-162, initally set as embargoed
+  security patches, publicly released today wrt the gentoo bug
+
+  Gentoo bug: #566838
+
+  Package-Manager: portage-2.2.24
+

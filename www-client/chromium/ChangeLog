@@ -439,3 +439,13 @@
 
   Package-Manager: portage-2.2.20.1
 
+*chromium-48.0.2564.10 (29 Nov 2015)
+
+  29 Nov 2015; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-48.0.2547.0.ebuild, -chromium-48.0.2552.0.ebuild,
+  +chromium-48.0.2564.10.ebuild, +files/chromium-rpath-r0.patch,
+  +files/chromium-system-ffmpeg-r1.patch:
+  dev channel bump (48.0.2564.10)
+
+  Package-Manager: portage-2.2.20.1
+

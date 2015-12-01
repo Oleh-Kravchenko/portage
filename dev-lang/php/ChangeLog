@@ -702,3 +702,15 @@
 
   Package-Manager: portage-2.2.20.1
 
+*php-5.6.16 (29 Nov 2015)
+
+  29 Nov 2015; Michael Orlitzky <mjo@gentoo.org>
+  -files/fix-5.6.15-fpm-const-crash.patch, -php-5.6.15-r4.ebuild,
+  +php-5.6.16.ebuild:
+  version bump the 5.6.x series.
+
+  This is a straightforward version bump, and also removes a patch
+  against 5.6.15 that was fixed in 5.6.16.
+
+  Package-Manager: portage-2.2.20.1
+

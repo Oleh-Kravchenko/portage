@@ -16,3 +16,9 @@
 
   Package-Manager: portage-2.2.20.1
 
+  30 Nov 2015; Marius Brehler <marbre@linux.sungazer.de>
+  +files/nbconvert-4.1.0-docs-Makefile.patch, nbconvert-4.1.0.ebuild:
+  Add missing patch
+
+  Package-Manager: portage-2.2.20.1
+
