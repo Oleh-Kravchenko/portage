@@ -130,3 +130,9 @@
 
   Package-Manager: portage-2.2.24
 
+  01 Dec 2015; Agostino Sarubbo <ago@gentoo.org> xen-tools-4.5.2-r1.ebuild:
+  amd64 stable wrt bug #566838
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+

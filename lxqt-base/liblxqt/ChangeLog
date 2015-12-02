@@ -87,3 +87,12 @@
   kde-frameworks/solid and kde-plasma/libkscreen are not keyworded for arm
   and arm64
 
+  01 Dec 2015; Maxim Koltsov <maksbotan@gentoo.org> liblxqt-0.10.0.ebuild:
+  raise version in libqtxdg dependency
+
+  liblxqt does not compile with older libqtxdg versions.
+
+  Gentoo-Bug: 567136
+
+  Package-Manager: portage-2.2.23
+

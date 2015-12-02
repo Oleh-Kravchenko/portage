@@ -133,3 +133,8 @@
   14 Oct 2015; William Hubbs <williamh@gentoo.org> openrc-9999.ebuild:
   sync live ebuild
 
+*openrc-0.18.4 (01 Dec 2015)
+
+  01 Dec 2015; William Hubbs <williamh@gentoo.org> +openrc-0.18.4.ebuild:
+  version bump
+
