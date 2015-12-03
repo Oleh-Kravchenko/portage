@@ -222,3 +222,12 @@
   Package-Manager: portage-2.2.25
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*django-1.9 (02 Dec 2015)
+
+  02 Dec 2015; Justin Lecher <jlec@gentoo.org> +django-1.9.ebuild,
+  +files/django-1.9-bashcomp.patch:
+  Version Bump
+
+  Package-Manager: portage-2.2.25
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

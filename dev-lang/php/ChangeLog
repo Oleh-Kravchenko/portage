@@ -714,3 +714,16 @@
 
   Package-Manager: portage-2.2.20.1
 
+*php-7.0.0 (02 Dec 2015)
+
+  02 Dec 2015; Ole Markus With <olemarkus@gentoo.org> +php-7.0.0.ebuild:
+  Version bump: php 7.0.0
+
+  Package-Manager: portage-2.2.20.1
+
+  02 Dec 2015; Ole Markus With <olemarkus@gentoo.org>
+  -php-7.0.0_rc7-r1.ebuild, -php-7.0.0_rc8.ebuild:
+  Remove php 7.0 rcs
+
+  Package-Manager: portage-2.2.20.1
+

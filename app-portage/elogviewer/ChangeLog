@@ -96,3 +96,14 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
 
+*elogviewer-2.6-r1 (02 Dec 2015)
+
+  02 Dec 2015; Paul Varner <fuzzyray@gentoo.org> +elogviewer-2.6-r1.ebuild:
+  Revision bump to fix dependencies for bug 567110
+
+  Since the elogviewer code will try to use PyQt5, if it is installed, we need
+  to enforce that it is installed with the correct use flags.  The only way to
+  do this and keep the any of many dependency is with blockers.
+
+  Package-Manager: portage-2.2.25
+

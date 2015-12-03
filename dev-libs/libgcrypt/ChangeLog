@@ -193,3 +193,10 @@
 
   Package-Manager: portage-2.2.20.1
 
+*libgcrypt-1.5.4-r1 (02 Dec 2015)
+
+  02 Dec 2015; Alon Bar-Lev <alonbl@gentoo.org> +libgcrypt-1.5.4-r1.ebuild:
+  Revert "dev-libs/libgcrypt: cleanup"
+
+  This reverts commit f48968fb36cdd0c12591f7d66c4973e5c3c9e3b3.
+

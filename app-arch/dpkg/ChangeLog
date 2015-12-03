@@ -71,3 +71,10 @@
 
   Package-Manager: portage-2.2.20.1
 
+*dpkg-1.17.26 (02 Dec 2015)
+
+  02 Dec 2015; Jeroen Roovers <jer@gentoo.org> +dpkg-1.17.26.ebuild:
+  Version bump (bug #567258).
+
+  Package-Manager: portage-2.2.26
+
