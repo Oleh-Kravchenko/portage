@@ -122,3 +122,8 @@
 
   Package-Manager: portage-2.2.24
 
+  03 Dec 2015; Ian Delaney <idella4@gentoo.org> xen-4.6.0-r2.ebuild:
+  remove stray entry re sec. patches from vn.4.6.0-r2
+
+  Package-Manager: portage-2.2.24
+

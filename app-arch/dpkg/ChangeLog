@@ -78,3 +78,9 @@
 
   Package-Manager: portage-2.2.26
 
+  03 Dec 2015; Agostino Sarubbo <ago@gentoo.org> dpkg-1.17.26.ebuild:
+  amd64 stable wrt bug #567258
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+

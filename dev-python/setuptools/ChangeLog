@@ -297,3 +297,11 @@
   Package-Manager: portage-2.2.25
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*setuptools-18.7.1 (03 Dec 2015)
+
+  03 Dec 2015; Justin Lecher <jlec@gentoo.org> +setuptools-18.7.1.ebuild:
+  Add missing digest
+
+  Package-Manager: portage-2.2.25
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

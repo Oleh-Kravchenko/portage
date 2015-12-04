@@ -457,3 +457,21 @@
 
   Package-Manager: portage-2.2.26_p3
 
+  03 Dec 2015; Agostino Sarubbo <ago@gentoo.org> chromium-47.0.2526.73.ebuild:
+  amd64 stable wrt bug #567308
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="amd64"
+
+  03 Dec 2015; Agostino Sarubbo <ago@gentoo.org> chromium-47.0.2526.73.ebuild:
+  x86 stable wrt bug #567308
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="x86"
+
+  03 Dec 2015; Mike Gilbert <floppym@gentoo.org>
+  -chromium-46.0.2490.86.ebuild, -chromium-47.0.2526.58.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26_p10
+

@@ -25,3 +25,13 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*vision_opencv-1.11.9-r1 (03 Dec 2015)
+
+  03 Dec 2015; Alexis Ballier <aballier@gentoo.org>
+  -vision_opencv-1.11.9.ebuild, +vision_opencv-1.11.9-r1.ebuild,
+  vision_opencv-9999.ebuild:
+  add missing dep on opencv_apps
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

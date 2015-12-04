@@ -159,3 +159,8 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
 
+  03 Dec 2015; Zero_Chaos <zerochaos@gentoo.org> ati-drivers-15.9-r1.ebuild:
+  remove fetch retriction on 15.9-r1 as file is now fetchable
+
+  Package-Manager: portage-2.2.26
+
