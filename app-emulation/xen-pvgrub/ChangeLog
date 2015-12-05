@@ -91,3 +91,9 @@
 
   Package-Manager: portage-2.2.24
 
+  04 Dec 2015; Ian Delaney <idella4@gentoo.org> -xen-pvgrub-4.2.5.ebuild,
+  -xen-pvgrub-4.5.1.ebuild:
+  rm old vn. 4.2.5, 4.5.1
+
+  Package-Manager: portage-2.2.24
+

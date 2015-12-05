@@ -117,3 +117,9 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Dec 2015; Joshua Kinard <kumba@gentoo.org> mips-sources-4.2.6.ebuild:
+  Fix the GITDATE variable in the 4.2.6 ebuild to pull the correct files off
+  of the mirrors.
+
+  Package-Manager: portage-2.2.26
+

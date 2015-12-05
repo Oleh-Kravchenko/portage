@@ -127,3 +127,10 @@
 
   Package-Manager: portage-2.2.24
 
+  04 Dec 2015; Doug Goldstein <cardoe@gentoo.org> xen-4.6.0-r2.ebuild:
+  fix compilation failures
+
+  A patch referenced in src_prepare() was missing so the package could not
+  build. LDFLAGS were being passed in which caused build failures with
+  USE=-custom-cflags. Dependency on binutils was incorrect.
+

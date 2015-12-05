@@ -125,3 +125,9 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Dec 2015; Jeroen Roovers <jer@gentoo.org> unidecode-0.04.18.ebuild:
+  Stable for PPC64 too.
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

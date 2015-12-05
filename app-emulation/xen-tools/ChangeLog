@@ -154,3 +154,17 @@
 
   Package-Manager: portage-2.2.24
 
+  04 Dec 2015; Doug Goldstein <cardoe@gentoo.org> xen-tools-4.5.2-r1.ebuild,
+  xen-tools-4.6.0-r3.ebuild:
+  fix up bad dependency
+
+  markdown is only used when building the docs. I've confirmed this by
+  checking the makefiles.
+
+  04 Dec 2015; Doug Goldstein <cardoe@gentoo.org> xen-tools-4.6.0-r3.ebuild:
+  drop udev usage
+
+  Xen 4.6.0 and newer no longer use or ship udev rules. The functionality
+  is implemented by running 'xl devd', which I'll add a script for on the
+  next bump.
+

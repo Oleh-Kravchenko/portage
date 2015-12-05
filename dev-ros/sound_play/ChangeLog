@@ -31,3 +31,10 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  04 Dec 2015; Alexis Ballier <aballier@gentoo.org> +files/test.patch,
+  sound_play-0.2.9.ebuild:
+  fix build without FEATURES=test, bug #567466
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
