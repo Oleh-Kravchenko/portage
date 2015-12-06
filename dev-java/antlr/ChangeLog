@@ -80,3 +80,19 @@
 
   Package-Manager: portage-2.2.20.1
 
+*antlr-3.2 (05 Dec 2015)
+
+  05 Dec 2015; James Le Cuirot <chewi@gentoo.org> +antlr-3.2.ebuild,
+  +files/3.2-java-8.patch, +files/3.2-test-fixes.patch:
+  Version bump for SLOT 3, should fix #567560
+
+  I initially wanted to add 3.3 but despite it being less disruptive
+  than 3.4, I found compatibility issues with the revdeps. We will
+  hopefully never need 3.3.
+
+  This is a total rewrite from the previous version, which uses the new
+  simplified antlr-2 ebuild and adds a very large test suite that is
+  passing with a little patching.
+
+  Package-Manager: portage-2.2.26
+

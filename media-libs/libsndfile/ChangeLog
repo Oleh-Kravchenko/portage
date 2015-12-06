@@ -84,3 +84,9 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  05 Dec 2015; Markus Meier <maekke@gentoo.org> libsndfile-1.0.26.ebuild:
+  arm stable, bug #566682
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+

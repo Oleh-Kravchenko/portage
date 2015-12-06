@@ -151,3 +151,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*openrc-0.19 (04 Dec 2015)
+
+  04 Dec 2015; William Hubbs <williamh@gentoo.org> +openrc-0.19.ebuild:
+  version bump
+

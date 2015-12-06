@@ -160,3 +160,9 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  05 Dec 2015; Markus Meier <maekke@gentoo.org> busybox-1.24.1.ebuild:
+  arm stable, bug #564246
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+

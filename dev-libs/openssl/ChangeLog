@@ -223,3 +223,9 @@
   -files/openssl-1.0.2e-pod2man.patch, openssl-1.0.2e.ebuild:
   update manifest after upstream rebuilt releases #567476
 
+  05 Dec 2015; Jeroen Roovers <jer@gentoo.org> openssl-1.0.2e.ebuild:
+  Stable for HPPA PPC64 (bug #567476).
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

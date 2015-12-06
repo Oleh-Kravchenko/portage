@@ -99,3 +99,9 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  05 Dec 2015; Markus Meier <maekke@gentoo.org> libpcre-8.38.ebuild:
+  arm stable, bug #553300
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+
