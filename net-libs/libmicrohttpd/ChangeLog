@@ -120,3 +120,9 @@
 
   Package-Manager: portage-2.2.20.1
 
+  06 Dec 2015; Anthony G. Basile <blueness@gentoo.org>
+  libmicrohttpd-0.9.47.ebuild:
+  remove --disable-spdy, bug #567620.
+
+  Package-Manager: portage-2.2.20.1
+

@@ -70,3 +70,13 @@
 
   Package-Manager: portage-2.2.26
 
+*stringtemplate-4.0.8 (05 Dec 2015)
+
+  05 Dec 2015; James Le Cuirot <chewi@gentoo.org>
+  +files/4.0.8-test-fixes.patch, +stringtemplate-4.0.8.ebuild:
+  Version bump into new SLOT 4 (fixes #417895)
+
+  This is needed by newer versions of ANTLR.
+
+  Package-Manager: portage-2.2.26
+

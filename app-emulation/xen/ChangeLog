@@ -134,3 +134,45 @@
   build. LDFLAGS were being passed in which caused build failures with
   USE=-custom-cflags. Dependency on binutils was incorrect.
 
+  06 Dec 2015; Doug Goldstein <cardoe@gentoo.org> xen-4.6.0-r2.ebuild:
+  update inherit lines and use git-r3
+
+  Move the inherit lines back up near the top and switch to using git-r3
+  for the live version.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  06 Dec 2015; Doug Goldstein <cardoe@gentoo.org> xen-4.6.0-r2.ebuild:
+  delete x86 bits
+
+  x86 is not supported by this version of Xen and won't be supported going
+  forward so drop the x86 code.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  06 Dec 2015; Doug Goldstein <cardoe@gentoo.org> xen-4.6.0-r2.ebuild:
+  provide a sub-slot
+
+  Technically when switching between minor versions (e.g. 4.5 -> 4.6) you
+  need to rebuild anything that has linked against the Xen libraries due
+  to no promise of ABI stability between those versions. So expose a
+  sub-slot so packages can be rebuilt appropriately.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  06 Dec 2015; Doug Goldstein <cardoe@gentoo.org> xen-4.6.0-r2.ebuild:
+  don't install EFI bits with USE=-efi
+
+  Don't install the EFI bits if the user didn't want them.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  06 Dec 2015; Doug Goldstein <cardoe@gentoo.org> xen-4.6.0-r2.ebuild:
+  drop USE=xsm
+
+  USE=xsm does not make sense for us to package up. If the user wants XSM,
+  they'll always want Flask. If they're developing their own XSM module
+  they will not be using our packages for that.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

@@ -164,3 +164,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Dec 2015; Markus Meier <maekke@gentoo.org> genkernel-3.4.52.2.ebuild:
+  arm stable, bug #556398
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+

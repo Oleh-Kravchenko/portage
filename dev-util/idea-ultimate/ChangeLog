@@ -116,3 +116,8 @@
   +idea-ultimate-15.0.2.143.1183.10_pre.ebuild:
   version bump EAP version to 143.1183.10
 
+  06 Dec 2015; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  add proxy co-maintainer tomboy-64 to metadata.xml
+
+  Package-Manager: portage-2.2.24
+

@@ -408,3 +408,10 @@
   python-3.4.3.ebuild:
   mark 3.4.3/2.7.10r1 arm64/m68k/s390/sh stable
 
+*python-2.7.11 (06 Dec 2015)
+
+  06 Dec 2015; Dirkjan Ochtman <djc@gentoo.org> +python-2.7.11.ebuild:
+  version bump to 2.7.11
+
+  Package-Manager: portage-2.2.20.1
+
