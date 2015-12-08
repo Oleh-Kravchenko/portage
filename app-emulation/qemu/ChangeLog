@@ -243,3 +243,14 @@
   +files/qemu-2.5.0-cflags.patch, qemu-9999.ebuild:
   update cflags patch #565866
 
+  07 Dec 2015; Doug Goldstein <cardoe@gentoo.org> qemu-2.3.0-r5.ebuild,
+  qemu-2.3.0-r6.ebuild, qemu-2.3.1.ebuild, qemu-2.4.0-r1.ebuild,
+  qemu-2.4.0.1.ebuild, qemu-2.4.0.1-r1.ebuild, qemu-2.4.1.ebuild,
+  qemu-9999.ebuild:
+  utilize xen-tools sub-slot
+
+  app-emulation/xen-tools now exposes a sub-slot to help dependencies
+  rebuild when necessary.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

@@ -594,3 +594,10 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ia64"
 
+  07 Dec 2015; Agostino Sarubbo <ago@gentoo.org> gentoo-sources-4.1.12.ebuild:
+  ppc stable wrt bug #564702
+
+  Package-Manager: portage-2.2.20.1
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

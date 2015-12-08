@@ -30,6 +30,19 @@
 
 #--- END OF EXAMPLES ---
 
+# James Le Cuirot <chewi@gentoo.org> (07 Dec 2015)
+# Dead project with no revdeps. Removal in 30 days.
+dev-java/jscience
+
+# Pawel Hajdan, Jr. <phajdan.jr@gentoo.org> (07 Dec 2015)
+# Dev channel releases are only for people who are developers or want more
+# experimental features and accept a more unstable release.
+>=www-client/chromium-49
+
+# Michael Orlitzky <mjo@gentoo.org> (06 Dec 2015)
+# Masked for testing of the new apache2/php7 support.
+>=app-eselect/eselect-php-0.8.0
+
 # Mike Gilbert <floppym@gentoo.org> (06 Dec 2015)
 # Masked for testing.
 =sys-apps/dbus-1.10*
@@ -247,11 +260,6 @@ sys-fs/bedup
 # apache-2.4.17 includes support for http2 now.
 www-apache/mod_h2
 
-# Pawel Hajdan, Jr. <phajdan.jr@gentoo.org> (16 Oct 2015)
-# Dev channel releases are only for people who are developers or want more
-# experimental features and accept a more unstable release.
->=www-client/chromium-48
-
 # Hans de Graaff <graaff@gentoo.org> (11 Oct 2015)
 # Ruby 1.9 is no longer maintained upstream since January
 # 2015, bug 536852.
@@ -281,12 +289,6 @@ www-apache/mod_h2
 # Masked for testing
 =net-misc/iputils-20150815
 =net-misc/iputils-20150815-r1
-
-# Brian Evans <grknight@gentoo.org> (16 Aug 2015)
-# Mask new PEAR installer as it is likely to break
-# many old scripts
->=dev-php/pear-1.10.0_alpha1
->=dev-php/PEAR-PEAR-1.10.0_alpha1
 
 # Sebastian Pipping <sping@gentoo.org> (8 Aug 2015)
 # Upcoming, too young to go into testing unmasked

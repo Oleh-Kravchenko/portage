@@ -176,3 +176,9 @@
 
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+  06 Dec 2015; Doug Goldstein <cardoe@gentoo.org> xen-4.6.0-r2.ebuild:
+  Revert "app-emulation/xen: provide a sub-slot"
+
+  This reverts commit 8a11081f495114c5ddfb54a8cef9285d6d7aa878. The
+  sub-slot needs to only be on app-emulation/xen-tools.
+
