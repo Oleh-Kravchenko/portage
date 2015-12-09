@@ -80,3 +80,18 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*keepassx-2.0 (08 Dec 2015)
+
+  08 Dec 2015; Lars Wendler <polynomial-c@gentoo.org> +keepassx-2.0.ebuild:
+  Bump to version 2.0
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  08 Dec 2015; Lars Wendler <polynomial-c@gentoo.org>
+  -keepassx-2.0_alpha6.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

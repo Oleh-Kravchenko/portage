@@ -254,3 +254,18 @@
 
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+*qemu-2.4.1-r1 (08 Dec 2015)
+
+  08 Dec 2015; Mike Frysinger <vapier@gentoo.org>
+  +files/qemu-2.4.1-CVE-2015-7504.patch,
+  +files/qemu-2.4.1-CVE-2015-7512.patch,
+  +files/qemu-2.4.1-CVE-2015-8345.patch, +qemu-2.4.1-r1.ebuild:
+  add upstream security fixes #566792 #567144
+
+  08 Dec 2015; Mike Frysinger <vapier@gentoo.org> metadata.xml,
+  qemu-9999.ebuild:
+  add USE=virgl for Virgil 3d GPU #566994
+
+  08 Dec 2015; Mike Frysinger <vapier@gentoo.org> qemu-9999.ebuild:
+  switch to new libcacard release #561814
+

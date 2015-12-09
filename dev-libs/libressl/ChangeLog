@@ -63,3 +63,10 @@
 
   Package-Manager: portage-2.2.20.1
 
+*libressl-2.2.5 (08 Dec 2015)
+
+  08 Dec 2015; Anthony G. Basile <blueness@gentoo.org> +libressl-2.2.5.ebuild:
+  version bump to 2.2.5
+
+  Package-Manager: portage-2.2.20.1
+

@@ -197,3 +197,12 @@
 
   Package-Manager: portage-2.2.26_p10
 
+  08 Dec 2015; Mike Gilbert <floppym@gentoo.org> six-1.10.0.ebuild:
+  Drop pkg_pretend check for six directory
+
+  Calling python_foreach_impl from pkg_pretend currently fails if the relevent
+  versions of dev-lang/python are not installed. pkg_pretend runs before
+  dependencies are installed, so we can't rely on them.
+
+  Package-Manager: portage-2.2.26_p10
+

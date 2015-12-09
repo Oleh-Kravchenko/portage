@@ -100,3 +100,8 @@
   +kicad-4.0.0_rc2.ebuild:
   Bump to version 4.0.0-RC2
 
+*kicad-4.0.0 (08 Dec 2015)
+
+  08 Dec 2015; Zoltan Puskas <zoltan@sinustrom.info> +kicad-4.0.0.ebuild:
+  Bump to stable 4.0.0 release
+

@@ -475,3 +475,12 @@
 
   Package-Manager: portage-2.2.26_p10
 
+*chromium-48.0.2564.23 (07 Dec 2015)
+
+  07 Dec 2015; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-48.0.2560.0.ebuild, +chromium-48.0.2564.23.ebuild,
+  +files/chromium-system-icu-r0.patch:
+  beta channel bump (48.0.2564.23)
+
+  Package-Manager: portage-2.2.20.1
+

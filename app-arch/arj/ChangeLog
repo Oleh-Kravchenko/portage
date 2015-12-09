@@ -63,3 +63,14 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*arj-3.10.22-r5 (08 Dec 2015)
+
+  08 Dec 2015; Michael Palimaka <kensington@gentoo.org>
+  +arj-3.10.22-r5.ebuild:
+  revision bump to solve CVE-2015-0556, CVE-2015-0557, and CVE-2015-2782
+
+  Gentoo-bug: 535708
+  Gentoo-bug: 541500
+
+  Package-Manager: portage-2.2.26
+
