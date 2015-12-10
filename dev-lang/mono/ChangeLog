@@ -128,3 +128,11 @@
 
   Package-Manager: portage-2.2.26
 
+*mono-4.2.1.102 (09 Dec 2015)
+
+  09 Dec 2015; Heather Cynede <cynede@gentoo.org>
+  +files/fix-for-GitExtensions-issue-2710.patch, +mono-4.2.1.102.ebuild:
+  bump to 4.2.1.102, fix GitExtensions issue
+
+  Package-Manager: portage-2.2.26
+

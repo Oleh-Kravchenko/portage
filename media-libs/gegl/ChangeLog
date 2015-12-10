@@ -106,3 +106,14 @@
   Package-Manager: portage-2.2.25
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  08 Dec 2015; Sebastian Pipping <sping@gentoo.org> gegl-0.3.4.ebuild:
+  Fix ffmpeg/libav dependency (bug #567638)
+
+  Package-Manager: portage-2.2.26
+
+  09 Dec 2015; Sebastian Pipping <sping@gentoo.org>
+  +files/gegl-0.3.4-without-jpeg-png.patch, gegl-0.3.4.ebuild:
+  Fix USE="-jpeg -png" (bug #567582)
+
+  Package-Manager: portage-2.2.26
+

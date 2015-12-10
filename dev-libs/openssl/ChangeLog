@@ -240,3 +240,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  09 Dec 2015; Markus Meier <maekke@gentoo.org> openssl-1.0.2e.ebuild:
+  arm stable, bug #567476
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+

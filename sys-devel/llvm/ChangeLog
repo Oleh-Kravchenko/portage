@@ -308,3 +308,6 @@
 
   Bug: https://bugs.gentoo.org/show_bug.cgi?id=562990
 
+  09 Dec 2015; Michał Górny <mgorny@gentoo.org> llvm-3.7.0-r3.ebuild:
+  Force python* for USE=test build
+

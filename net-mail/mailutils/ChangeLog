@@ -82,3 +82,8 @@
 
   Package-Manager: portage-2.2.20.1
 
+*mailutils-2.99.98-r1 (09 Dec 2015)
+
+  09 Dec 2015; Michał Górny <mgorny@gentoo.org> +mailutils-2.99.98-r1.ebuild:
+  Convert to python-single-r1
+

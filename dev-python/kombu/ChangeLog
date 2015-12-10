@@ -89,3 +89,6 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  09 Dec 2015; Michał Górny <mgorny@gentoo.org> kombu-3.0.30.ebuild:
+  Restrict *_all() phases to py2
+

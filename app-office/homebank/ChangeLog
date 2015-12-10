@@ -64,3 +64,8 @@
   14 Oct 2015; Denis Dupeyron <calchan@gentoo.org> -homebank-5.0.0.ebuild:
   remove 5.0.0
 
+  09 Dec 2015; Denis Dupeyron <calchan@gentoo.org> -homebank-5.0.3.ebuild:
+  remove unneeded 5.0.3
+
+  Package-Manager: portage-2.2.26
+
