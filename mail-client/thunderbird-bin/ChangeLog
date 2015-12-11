@@ -114,3 +114,11 @@
 
   Package-Manager: portage-2.2.20.1
 
+*thunderbird-bin-38.4.0 (10 Dec 2015)
+
+  10 Dec 2015; Ian Stakenvicius <axs@gentoo.org>
+  +thunderbird-bin-38.4.0.ebuild:
+  version bump, security bug 567298
+
+  Package-Manager: portage-2.2.24
+

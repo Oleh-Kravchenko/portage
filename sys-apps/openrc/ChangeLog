@@ -178,3 +178,8 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --include-arches="arm"
 
+*openrc-0.19.1 (09 Dec 2015)
+
+  09 Dec 2015; William Hubbs <williamh@gentoo.org> +openrc-0.19.1.ebuild:
+  version bump
+
