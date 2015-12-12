@@ -183,3 +183,8 @@
   09 Dec 2015; William Hubbs <williamh@gentoo.org> +openrc-0.19.1.ebuild:
   version bump
 
+  11 Dec 2015; Mikle Kolyada <zlogene@gentoo.org> openrc-0.18.4.ebuild:
+  ia64 stable wrt bug #567356
+
+  Package-Manager: portage-2.2.20.1
+

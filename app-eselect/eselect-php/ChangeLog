@@ -157,3 +157,18 @@
 
   Package-Manager: portage-2.2.20.1
 
+*eselect-php-0.8.1 (11 Dec 2015)
+
+  11 Dec 2015; Michael Orlitzky <mjo@gentoo.org> +eselect-php-0.8.1.ebuild,
+  +files/70_mod_php.conf:
+  version bump adding v0.8.1.
+
+  This is another attempt at php-7.x support in apache2. This new
+  version is already masked for testing, which is good because it
+  requires some configuration changes to apache. Upgraders should
+  read the elogs.
+
+  Gentoo-Bug: 552156
+
+  Package-Manager: portage-2.2.20.1
+

@@ -30,6 +30,15 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas K. Huettel <dilfridge@gentoo.org> (11 Dec 2015)
+# Ancient, smells funny, disowned by upstream, needs syck
+# Masked for removal in 30 days, bug 565012
+dev-perl/YAML-Parser-Syck
+
+# Fabian Groffen <grobian@gentoo.org> (11 Dec 2015)
+# Release candidates for Exim 4.87
+=mail-mta/exim-4.87_rc1
+
 # Michael Palimaka <kensington@gentoo.org> (10 Dec 2015)
 # Relies on dead ISP API. Dead upstream. Masked for removal in 30 days.
 # Bug 567532
