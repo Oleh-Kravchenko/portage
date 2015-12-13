@@ -70,3 +70,12 @@
   24 Nov 2015; Mike Frysinger <vapier@gentoo.org> metadata.xml:
   standardize various metadata.xml style
 
+*libhugetlbfs-2.19-r1 (12 Dec 2015)
+
+  12 Dec 2015; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +libhugetlbfs-2.19-r1.ebuild:
+  Fix perl module installation paths and perl dependency, see bug 554688
+  comment 7. Needs EAPI=5 bump.
+
+  Package-Manager: portage-2.2.26
+

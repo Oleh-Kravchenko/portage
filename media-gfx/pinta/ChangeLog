@@ -56,3 +56,23 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*pinta-1.6 (12 Dec 2015)
+
+  12 Dec 2015; Ian Delaney <idella4@gentoo.org> metadata.xml,
+  +pinta-1.6.ebuild:
+  add proxy maintainer (axelgenus), bump to 1.6
+
+  Substitute herd with proxy-maintainers project, ebuild by new maintainer
+  submitted via the gentoo bug and prepared with support via irc.
+  Ebuild sets dep upon <mono-4 (further preparation required for mono-4)
+  in a revbump
+
+  Gentoo bug: #559162
+
+  Package-Manager: portage-2.2.24
+
+  12 Dec 2015; Ian Delaney <idella4@gentoo.org> -pinta-1.5_pre20121118.ebuild:
+  rm vn. 1.5_pre20121118
+
+  Package-Manager: portage-2.2.24
+

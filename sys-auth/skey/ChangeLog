@@ -109,3 +109,21 @@
 
   Package-Manager: portage-2.2.20.1
 
+*skey-1.1.5-r10 (12 Dec 2015)
+
+  12 Dec 2015; Ulrich Müller <ulm@gentoo.org> +skey-1.1.5-r10.ebuild:
+  Avoid out of bounds stack read.
+
+  Fix the extract() function not to access unnecessary array elements;
+  this avoids an out-of-bounds read when called from btoe() or etob().
+  Change the insert() function to use similar logic as extract().
+
+  Bug: 567608
+
+  Package-Manager: portage-2.2.26
+
+  12 Dec 2015; Ulrich Müller <ulm@gentoo.org> skey-1.1.5-r10.ebuild:
+  Unpack patches in WORKDIR instead of S.
+
+  Package-Manager: portage-2.2.26
+

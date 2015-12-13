@@ -62,3 +62,9 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+  12 Dec 2015; Hans de Graaff <graaff@gentoo.org> -omniauth-1.2.1.ebuild,
+  -omniauth-1.2.2.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.24
+
