@@ -76,3 +76,12 @@
 
   Package-Manager: portage-2.2.24
 
+  12 Dec 2015; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild,
+  metadata.xml:
+  Adds updates to 9999 ebuild, bug #561914
+
+  Removes a lot of outdated dependencies and adds a few newer ones.
+  Also adds various new USE flags.
+
+  Package-Manager: portage-2.2.24
+

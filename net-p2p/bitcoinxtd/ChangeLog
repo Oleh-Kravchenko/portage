@@ -32,3 +32,15 @@
 
   Package-Manager: portage-2.2.24
 
+  13 Dec 2015; Anthony G. Basile <blueness@gentoo.org>
+  bitcoinxtd-0.11.0d.ebuild:
+  minor code cleanup
+
+  Package-Manager: portage-2.2.24
+
+  13 Dec 2015; Anthony G. Basile <blueness@gentoo.org>
+  -bitcoinxtd-0.11.0.ebuild, bitcoinxtd-0.11.0d.ebuild, -files/bitcoinxt.conf:
+  add libressl support
+
+  Package-Manager: portage-2.2.24
+

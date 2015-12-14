@@ -8,3 +8,6 @@
   +metadata.xml:
   Initial commit, new dependency of dev-util/sysdig
 
+  12 Dec 2015; Michał Górny <mgorny@gentoo.org> libb64-1.2.ebuild:
+  Use a more appropriate CC-PD license
+

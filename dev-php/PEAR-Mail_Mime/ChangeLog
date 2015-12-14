@@ -63,3 +63,19 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+  13 Dec 2015; Michael Orlitzky <mjo@gentoo.org>
+  -files/1.5.2-php-pass-by-reference-fix.patch,
+  -files/1.8.3-php-pass-by-reference-fix.patch,
+  -files/php-pass-by-reference-fix.patch:
+  remove unused patch files.
+
+  Package-Manager: portage-2.2.24
+
+*PEAR-Mail_Mime-1.10.0 (13 Dec 2015)
+
+  13 Dec 2015; Michael Orlitzky <mjo@gentoo.org>
+  +PEAR-Mail_Mime-1.10.0.ebuild:
+  version bump to enable the test suite.
+
+  Package-Manager: portage-2.2.24
+

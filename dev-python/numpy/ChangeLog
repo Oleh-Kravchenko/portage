@@ -199,3 +199,11 @@
   Package-Manager: portage-2.2.23
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  13 Dec 2015; Justin Lecher <jlec@gentoo.org> numpy-1.10.1-r1.ebuild:
+  Drop obsolete dotblas handling
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=567938
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

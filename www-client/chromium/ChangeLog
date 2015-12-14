@@ -513,3 +513,11 @@
   Package-Manager: portage-2.2.20.1
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*chromium-48.0.2564.41 (13 Dec 2015)
+
+  13 Dec 2015; Mike Gilbert <floppym@gentoo.org>
+  +chromium-48.0.2564.41.ebuild:
+  Beta channel bump (48.0.2564.41)
+
+  Package-Manager: portage-2.2.26_p27
+

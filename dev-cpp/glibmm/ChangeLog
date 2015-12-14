@@ -132,3 +132,10 @@
 
   Package-Manager: portage-2.2.24
 
+*glibmm-2.46.3 (13 Dec 2015)
+
+  13 Dec 2015; Gilles Dartiguelongue <eva@gentoo.org> +glibmm-2.46.3.ebuild:
+  version bump to 2.46.3
+
+  Package-Manager: portage-2.2.26
+

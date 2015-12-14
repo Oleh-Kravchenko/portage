@@ -225,3 +225,17 @@
 
   Package-Manager: portage-2.2.26_p25
 
+  13 Dec 2015; Mike Gilbert <floppym@gentoo.org> systemd-9999.ebuild:
+  Fix install when resolved is disabled
+
+  Bug: https://bugs.gentoo.org/568170
+
+  Package-Manager: portage-2.2.26_p27
+
+  13 Dec 2015; Mike Gilbert <floppym@gentoo.org> systemd-9999.ebuild:
+  Enable gcrypt by default
+
+  As of 2b442ac8, resolved requires libgcrypt.
+
+  Package-Manager: portage-2.2.26_p27
+

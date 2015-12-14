@@ -57,3 +57,9 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+  13 Dec 2015; Justin Lecher <jlec@gentoo.org> pysvn-1.7.10.ebuild:
+  Add missing die
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
