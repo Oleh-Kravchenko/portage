@@ -90,3 +90,13 @@
 
   Package-Manager: portage-2.2.24
 
+*pinta-1.6-r2 (14 Dec 2015)
+
+  14 Dec 2015; Ian Delaney <idella4@gentoo.org> +pinta-1.6-r2.ebuild:
+  revbump to 1.6-r2, removed redundant dependencies
+
+  mono-addins with "gtk" USE flag is enough to pull in every Mono
+  library needed by Pinta
+
+  Package-Manager: portage-2.2.24
+

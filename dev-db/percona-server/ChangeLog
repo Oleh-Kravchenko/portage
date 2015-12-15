@@ -110,3 +110,17 @@
 
   Package-Manager: portage-2.2.23
 
+*percona-server-5.6.27.75.0-r1 (13 Dec 2015)
+
+  13 Dec 2015; Brian Evans <grknight@gentoo.org>
+  +percona-server-5.6.27.75.0-r1.ebuild:
+  Revision bump for new eclasses and python tests
+
+  Package-Manager: portage-2.2.26
+
+  14 Dec 2015; Brian Evans <grknight@gentoo.org>
+  percona-server-5.6.27.75.0-r1.ebuild:
+  Fix tests due to removed USE flag
+
+  Package-Manager: portage-2.2.26
+

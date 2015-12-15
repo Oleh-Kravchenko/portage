@@ -127,3 +127,8 @@
 
   Package-Manager: portage-2.2.26
 
+  13 Dec 2015; Pacho Ramos <pacho@gentoo.org> skey-1.1.5-r10.ebuild:
+  Use readme.gentoo-r1 instead for eapi6 support (#520094#c6)
+
+  Package-Manager: portage-2.2.26
+

@@ -79,3 +79,17 @@
 
   Package-Manager: portage-2.2.24
 
+  14 Dec 2015; Agostino Sarubbo <ago@gentoo.org> PEAR-Mail_Mime-1.9.0.ebuild:
+  amd64 stable wrt bug #567994
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  14 Dec 2015; Agostino Sarubbo <ago@gentoo.org> PEAR-Mail_Mime-1.9.0.ebuild:
+  alpha/arm/hppa/ia64/ppc64/ppc/sparc/x86 stable, (ALLARCHES policy) wrt bug
+  #567994
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

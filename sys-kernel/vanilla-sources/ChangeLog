@@ -377,3 +377,12 @@
   Package-Manager: portage-2.2.20.1
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*vanilla-sources-4.3.2 (14 Dec 2015)
+
+  14 Dec 2015; Agostino Sarubbo <ago@gentoo.org>
+  -vanilla-sources-4.3.1.ebuild, +vanilla-sources-4.3.2.ebuild:
+  Automated version bump to 4.3.2 - remove old.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

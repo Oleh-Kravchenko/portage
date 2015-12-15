@@ -85,3 +85,10 @@
 
   Package-Manager: portage-2.2.24
 
+  13 Dec 2015; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild:
+  Removes unneeded dependencies
+
+  Also adds lzo and libpng as explicit deps
+
+  Package-Manager: portage-2.2.24
+
