@@ -124,3 +124,9 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Dec 2015; Brian Evans <grknight@gentoo.org>
+  percona-server-5.6.27.75.0-r1.ebuild:
+  Fix ebuild tests wrt bug 568328
+
+  Package-Manager: portage-2.2.26
+

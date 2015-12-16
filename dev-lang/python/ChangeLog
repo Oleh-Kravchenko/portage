@@ -440,3 +440,9 @@
 
   Package-Manager: portage-2.2.26_p27
 
+  15 Dec 2015; Mike Gilbert <floppym@gentoo.org> python-2.7.10-r1.ebuild,
+  python-3.3.5-r1.ebuild, python-3.4.3.ebuild:
+  Depend on ncurses slot 0 in stable ebuilds
+
+  Package-Manager: portage-2.2.26_p32
+

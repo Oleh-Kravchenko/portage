@@ -207,3 +207,17 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*numpy-9999 (15 Dec 2015)
+*numpy-1.10.2 (15 Dec 2015)
+
+  15 Dec 2015; Justin Lecher <jlec@gentoo.org> +numpy-1.10.2.ebuild,
+  +numpy-9999.ebuild:
+  Version Bump
+
+  fixes performance regressions
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=567938
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

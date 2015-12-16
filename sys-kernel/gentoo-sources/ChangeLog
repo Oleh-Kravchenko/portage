@@ -638,3 +638,24 @@
 
   Package-Manager: portage-2.2.24
 
+*gentoo-sources-4.1.15 (15 Dec 2015)
+
+  15 Dec 2015; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.1.15.ebuild:
+  Linux patch 4.1.15
+
+  Package-Manager: portage-2.2.24
+
+*gentoo-sources-4.2.8 (15 Dec 2015)
+
+  15 Dec 2015; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.2.8.ebuild:
+  Linux patch 4.2.8
+
+  Package-Manager: portage-2.2.24
+
+*gentoo-sources-4.3.3 (15 Dec 2015)
+
+  15 Dec 2015; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.3.3.ebuild:
+  Linux patch 4.3.3
+
+  Package-Manager: portage-2.2.24
+
