@@ -133,3 +133,6 @@
   27 Nov 2015; Mike Frysinger <vapier@gentoo.org> +nghttp2-1.5.0.ebuild:
   version bump to 1.5.0 #566936
 
+  16 Dec 2015; Mike Frysinger <vapier@gentoo.org> nghttp2-1.0.5.ebuild:
+  mark 1.0.5 sparc stable #558734
+

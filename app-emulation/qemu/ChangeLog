@@ -391,3 +391,17 @@
   +files/qemu-2.4.1-CVE-2015-8504.patch, +qemu-2.4.1-r2.ebuild:
   add upstream fixes for #567828 #568214
 
+  16 Dec 2015; Agostino Sarubbo <ago@gentoo.org> qemu-2.4.1-r2.ebuild:
+  amd64 stable wrt bug #567828
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Dec 2015; Agostino Sarubbo <ago@gentoo.org> qemu-2.4.1-r2.ebuild:
+  x86 stable wrt bug #567828
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

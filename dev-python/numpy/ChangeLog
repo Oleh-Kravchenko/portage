@@ -221,3 +221,16 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*numpy-1.10.2-r1 (16 Dec 2015)
+
+  16 Dec 2015; Justin Lecher <jlec@gentoo.org>
+  +files/numpy-1.10.2-no-hardcode-blas.patch,
+  files/numpy-1.9.2-no-hardcode-blas.patch, -numpy-1.10.2.ebuild,
+  +numpy-1.10.2-r1.ebuild:
+  Fix linking to cblas and update docs
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=567938
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

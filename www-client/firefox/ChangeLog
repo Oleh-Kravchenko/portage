@@ -339,3 +339,15 @@
   +firefox-42.0-r2.ebuild:
   Fix misc crash issues via cairo, add musl support
 
+*firefox-43.0 (16 Dec 2015)
+*firefox-38.5.0 (16 Dec 2015)
+
+  16 Dec 2015; Ian Stakenvicius <axs@gentoo.org>
+  -files/firefox-38-dont-hardcode-libc-soname.patch,
+  -files/gentoo-default-prefs.js-2, +files/gentoo-hwaccel-prefs.js-1,
+  -firefox-38.2.0.ebuild, -firefox-38.3.0.ebuild, +firefox-38.5.0.ebuild,
+  -firefox-42.0-r2.ebuild, +firefox-43.0.ebuild, metadata.xml:
+  version bumps for security bug 568376, cleanup old
+
+  Package-Manager: portage-2.2.24
+

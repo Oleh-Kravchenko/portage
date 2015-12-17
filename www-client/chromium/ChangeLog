@@ -521,3 +521,18 @@
 
   Package-Manager: portage-2.2.26_p27
 
+  13 Dec 2015; Mike Gilbert <floppym@gentoo.org> chromium-48.0.2564.41.ebuild:
+  Increase disk requirements
+
+  Bug: https://bugs.gentoo.org/567978
+
+  Package-Manager: portage-2.2.26_p32
+
+*chromium-49.0.2587.3 (16 Dec 2015)
+
+  16 Dec 2015; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  +chromium-49.0.2587.3.ebuild:
+  dev channel bump (49.0.2587.3)
+
+  Package-Manager: portage-2.2.20.1
+

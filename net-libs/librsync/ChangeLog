@@ -57,3 +57,8 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*librsync-2.0.0 (16 Dec 2015)
+
+  16 Dec 2015; Alessandro Calorì <axelgenus@gmail.com> +librsync-2.0.0.ebuild:
+  version bump to 2.0.0, fix #525396
+

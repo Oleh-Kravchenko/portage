@@ -185,3 +185,9 @@
 
   Package-Manager: portage-2.2.20.1
 
+  15 Dec 2015; Matthew Thode <prometheanfire@gentoo.org>
+  cinder-2015.2.9999.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.24
+
