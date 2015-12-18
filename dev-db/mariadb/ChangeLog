@@ -248,3 +248,8 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Dec 2015; Brian Evans <grknight@gentoo.org> -mariadb-10.1.8.ebuild:
+  Drop old version with data issues wrt bug 568506
+
+  Package-Manager: portage-2.2.26
+

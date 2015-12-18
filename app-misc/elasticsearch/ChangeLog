@@ -100,3 +100,13 @@
 
   Package-Manager: portage-2.2.24
 
+  17 Dec 2015; Ian Delaney <idella4@gentoo.org> files/elasticsearch.init4,
+  files/elasticsearch.init5:
+  switch to correct file elasticsearch.init5
+
+  file mistakenly mixed with ".service5", now obsoleted in the gentoo bug
+
+  Gentoo bug: 564604
+
+  Package-Manager: portage-2.2.24
+

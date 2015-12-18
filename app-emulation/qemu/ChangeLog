@@ -405,3 +405,40 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*qemu-2.5.0 (17 Dec 2015)
+
+  17 Dec 2015; Mike Frysinger <vapier@gentoo.org> +qemu-2.5.0.ebuild:
+  version bump to 2.5.0
+
+  17 Dec 2015; Mike Frysinger <vapier@gentoo.org>
+  -files/qemu-2.2.1-CVE-2015-1779-1.patch,
+  -files/qemu-2.2.1-CVE-2015-1779-2.patch,
+  -files/qemu-2.3.0-CVE-2015-3209.patch,
+  -files/qemu-2.3.0-CVE-2015-3214.patch,
+  -files/qemu-2.3.0-CVE-2015-3456.patch,
+  -files/qemu-2.3.0-CVE-2015-5154-1.patch,
+  -files/qemu-2.3.0-CVE-2015-5154-2.patch,
+  -files/qemu-2.3.0-CVE-2015-5154-3.patch,
+  -files/qemu-2.3.0-CVE-2015-5158.patch,
+  -files/qemu-2.3.0-CVE-2015-5165-1.patch,
+  -files/qemu-2.3.0-CVE-2015-5165-2.patch,
+  -files/qemu-2.3.0-CVE-2015-5165-3.patch,
+  -files/qemu-2.3.0-CVE-2015-5165-4.patch,
+  -files/qemu-2.3.0-CVE-2015-5165-5.patch,
+  -files/qemu-2.3.0-CVE-2015-5165-6.patch,
+  -files/qemu-2.3.0-CVE-2015-5165-7.patch,
+  -files/qemu-2.3.0-CVE-2015-5166.patch,
+  -files/qemu-2.3.0-virtio-serial.patch,
+  -files/qemu-2.4.0-CVE-2015-5225.patch,
+  -files/qemu-2.4.0-CVE-2015-6855.patch,
+  -files/qemu-2.4.0-CVE-2015-7295-1.patch,
+  -files/qemu-2.4.0-CVE-2015-7295-2.patch,
+  -files/qemu-2.4.0-CVE-2015-7295-3.patch,
+  -files/qemu-2.4.0-block-mirror-crash.patch,
+  -files/qemu-2.4.0-e1000-loop.patch, -qemu-2.3.0-r5.ebuild,
+  -qemu-2.3.0-r6.ebuild, -qemu-2.3.0-r7.ebuild, -qemu-2.3.1.ebuild,
+  -qemu-2.3.1-r1.ebuild, -qemu-2.4.0-r1.ebuild, -qemu-2.4.0-r2.ebuild,
+  -qemu-2.4.0.1.ebuild, -qemu-2.4.0.1-r1.ebuild, -qemu-2.4.0.1-r2.ebuild,
+  -qemu-2.4.1.ebuild, -qemu-2.4.1-r1.ebuild:
+  drop versions <2.4.1-r2
+

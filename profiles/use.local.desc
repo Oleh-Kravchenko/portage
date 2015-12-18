@@ -7866,7 +7866,9 @@ www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo in
 www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
 www-client/google-chrome:plugins - Add system plugins path to launcher
+www-client/google-chrome-beta:linguas_fake_bidi - Install fake-bidi translation
 www-client/google-chrome-beta:plugins - Add system plugins path to launcher
+www-client/google-chrome-unstable:linguas_fake_bidi - Install fake-bidi translation
 www-client/google-chrome-unstable:plugins - Add system plugins path to launcher
 www-client/luakit:luajit - Use the lua just-in-time compiler dev-lang/luajit instead of dev-lang/lua, which should make luakit faster.
 www-client/luakit:pax_kernel - Use paxctl to mark the luakit binary.
@@ -8157,6 +8159,7 @@ x11-misc/rofi:i3 - Compile in support for the x11-wm/i3 window manager
 x11-misc/rofi:windowmode - Enable normal window mode
 x11-misc/rss-glx:quesoglc - Enable support for OpenGL Character Renderer
 x11-misc/sddm:consolekit - Use ck-launch-session from sys-auth/consolekit by default in Xsession (no native support)
+x11-misc/sent:savedconfig - Without a saved config.h, this package depends on media-gfx/farbfeld for image conversions
 x11-misc/shutter:drawing - Enables drawing tool
 x11-misc/shutter:webphoto - Enables screenshots of websites
 x11-misc/slim:consolekit - Enable native consolekit support
