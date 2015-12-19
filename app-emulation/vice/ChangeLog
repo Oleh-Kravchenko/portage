@@ -113,3 +113,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Dec 2015; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/vice-2.4-arm.patch, -files/vice-2.4-autotools.patch,
+  -files/vice-2.4-buffer.patch, -files/vice-2.4-ffmpeg-1.patch,
+  -vice-2.4.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.24
+
+  18 Dec 2015; Michael Sterrett <mr_bones_@gentoo.org> metadata.xml:
+  clean out unused use flags
+
+  Package-Manager: portage-2.2.24
+

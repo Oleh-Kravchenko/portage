@@ -275,3 +275,9 @@
 
   Package-Manager: portage-2.2.26_p32
 
+  17 Dec 2015; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-unstable-49.0.2593.0_p1.ebuild, metadata.xml:
+  Add fake-bidi to CHROMIUM_LINGUAS
+
+  Package-Manager: portage-2.2.26_p32
+

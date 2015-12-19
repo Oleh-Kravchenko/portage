@@ -92,3 +92,8 @@
 
   Package-Manager: portage-2.2.24
 
+  18 Dec 2015; Michael Sterrett <mr_bones_@gentoo.org> -sdlmame-0.167.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.24
+

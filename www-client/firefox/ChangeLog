@@ -351,3 +351,8 @@
 
   Package-Manager: portage-2.2.24
 
+  18 Dec 2015; Ian Stakenvicius <axs@gentoo.org> firefox-43.0.ebuild:
+  43.0: fix logic error in src_install causing death when USE=-hwaccel
+
+  Package-Manager: portage-2.2.24
+

@@ -179,3 +179,32 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Dec 2015; Mike Gilbert <floppym@gentoo.org> -grub-2.02_beta2-r7.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26_p32
+
+  18 Dec 2015; Mike Gilbert <floppym@gentoo.org> grub-2.02_beta2-r8.ebuild:
+  Add postinst warning about security bug
+
+  Package-Manager: portage-2.2.26_p32
+
+  18 Dec 2015; Mike Gilbert <floppym@gentoo.org> files/CVE-2015-8370.patch:
+  Replace patch for CVE-2015-8370
+
+  Use what actually got accepted upstream.
+
+  Package-Manager: portage-2.2.26_p32
+
+  18 Dec 2015; Ian Stakenvicius <axs@gentoo.org>
+  +files/grub-0.97-ncurses-pkgconfig.patch, grub-0.97-r17.ebuild:
+  0 - use pkg-config to determine ncurses libs, bug 550132
+
+  When ncurses is built with USE=tinfo, additional libs are needed due to
+  --as-needed
+  linking that are not included in the current AC_CHECK_LIB based config, nor
+  would
+  be easily detectable without pkg-config.
+
+  Package-Manager: portage-2.2.24
+

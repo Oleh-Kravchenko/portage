@@ -328,3 +328,18 @@
 
   Package-Manager: portage-2.2.20.1
 
+*postgresql-9.5_rc1 (18 Dec 2015)
+
+  18 Dec 2015; Aaron W. Swenson <titanofold@gentoo.org>
+  +postgresql-9.5_rc1.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.20.1
+
+  18 Dec 2015; Aaron W. Swenson <titanofold@gentoo.org>
+  -postgresql-9.5_beta1-r1.ebuild, -postgresql-9.5_beta2.ebuild,
+  -postgresql-9.5_beta2-r1.ebuild:
+  Remove Outdated
+
+  Package-Manager: portage-2.2.20.1
+

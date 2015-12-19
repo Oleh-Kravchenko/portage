@@ -237,3 +237,9 @@
 
   Package-Manager: portage-2.2.26_p32
 
+  17 Dec 2015; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-beta-48.0.2564.48_p1.ebuild, metadata.xml:
+  Add fake-bidi to CHROMIUM_LINGUAS
+
+  Package-Manager: portage-2.2.26_p32
+
