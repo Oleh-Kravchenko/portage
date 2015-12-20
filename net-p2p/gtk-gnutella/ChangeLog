@@ -134,3 +134,13 @@
 
   Package-Manager: portage-2.2.24
 
+*gtk-gnutella-1.1.8 (19 Dec 2015)
+
+  19 Dec 2015; Hans de Graaff <graaff@gentoo.org> -gtk-gnutella-1.1.7.ebuild,
+  +gtk-gnutella-1.1.8.ebuild:
+  add 1.1.8
+
+  Also remove 1.1.7 because 1.1.8 fixes crash bugs in that version.
+
+  Package-Manager: portage-2.2.24
+

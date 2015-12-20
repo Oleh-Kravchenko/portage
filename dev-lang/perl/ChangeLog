@@ -87,3 +87,10 @@
 
   Package-Manager: portage-2.2.26
 
+*perl-5.22.1 (19 Dec 2015)
+
+  19 Dec 2015; Andreas K. Hüttel <dilfridge@gentoo.org> +perl-5.22.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+

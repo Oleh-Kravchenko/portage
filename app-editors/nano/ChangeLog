@@ -130,3 +130,8 @@
   07 Dec 2015; Mike Frysinger <vapier@gentoo.org> +nano-2.5.0.ebuild:
   version bump to 2.5.0
 
+  19 Dec 2015; Mike Frysinger <vapier@gentoo.org> nano-2.3.6.ebuild,
+  nano-2.4.0.ebuild, nano-2.4.1.ebuild, nano-2.4.2.ebuild, nano-2.4.3.ebuild,
+  nano-2.5.0.ebuild, nano-9999.ebuild:
+  update HOMEPAGE #534462
+
