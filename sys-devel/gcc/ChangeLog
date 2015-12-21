@@ -221,3 +221,6 @@
   14 Dec 2015; Mike Frysinger <vapier@gentoo.org> gcc-5.3.0.ebuild:
   move 5.3.0 into ~arch
 
+  19 Dec 2015; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  add support for USE=jit #568834
+

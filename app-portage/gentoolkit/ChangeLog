@@ -93,3 +93,12 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Dec 2015; Mike Gilbert <floppym@gentoo.org>
+  +files/0.3.1-setup.py-print.patch, gentoolkit-0.3.0.9-r2.ebuild,
+  gentoolkit-0.3.1.ebuild:
+  Fix TypeError in setup.py with python3
+
+  Bug: https://bugs.gentoo.org/568906
+
+  Package-Manager: portage-2.2.26_p32
+

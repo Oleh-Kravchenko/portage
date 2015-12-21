@@ -109,3 +109,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  19 Dec 2015; Markus Meier <maekke@gentoo.org> rdoc-4.2.0.ebuild:
+  arm stable, bug #568044
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+

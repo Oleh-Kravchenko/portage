@@ -135,3 +135,8 @@
   nano-2.5.0.ebuild, nano-9999.ebuild:
   update HOMEPAGE #534462
 
+  20 Dec 2015; Mikle Kolyada <zlogene@gentoo.org> nano-2.4.3.ebuild:
+  amd54 stable wrt bug #568816
+
+  Package-Manager: portage-2.2.24
+

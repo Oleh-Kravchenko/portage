@@ -110,3 +110,13 @@
 
   Package-Manager: portage-2.2.24
 
+  20 Dec 2015; Ian Delaney <idella4@gentoo.org> -elasticsearch-1.6.2.ebuild,
+  -elasticsearch-1.7.1.ebuild:
+  remove old vns. 1.6.2, 1.7.1
+
+  request by newly set proxy maintainer requested via the gentoo bug
+
+  Gentoo bug: #568418
+
+  Package-Manager: portage-2.2.24
+

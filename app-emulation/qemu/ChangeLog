@@ -442,3 +442,7 @@
   -qemu-2.4.1.ebuild, -qemu-2.4.1-r1.ebuild:
   drop versions <2.4.1-r2
 
+  20 Dec 2015; Mike Frysinger <vapier@gentoo.org> qemu-2.5.0.ebuild,
+  qemu-9999.ebuild:
+  disable libgcrypt usage #568856
+
