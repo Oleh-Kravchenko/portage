@@ -224,3 +224,8 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  21 Dec 2015; Ian Stakenvicius <axs@gentoo.org> thunderbird-38.4.0.ebuild:
+  increase minver on nspr dep to fix bug 568910
+
+  Package-Manager: portage-2.2.24
+

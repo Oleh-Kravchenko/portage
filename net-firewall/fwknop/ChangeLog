@@ -107,3 +107,14 @@
 
   As cipherdyne.org tends to be down sometimes.
 
+  21 Dec 2015; Ilya Tumaykin <itumaykin@gmail.com> -fwknop-2.6.7-r1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.24
+
+  21 Dec 2015; Ilya Tumaykin <itumaykin@gmail.com> +files/fwknopd.init,
+  -files/fwknopd.init-r1, fwknop-2.6.7-r2.ebuild:
+  drop obsolete initscript revision suffix
+
+  Package-Manager: portage-2.2.24
+

@@ -5,6 +5,7 @@
 EAPI=5
 
 AUTOTOOLS_AUTORECONF=1
+AUTOTOOLS_IN_SOURCE_BUILD=1
 DISABLE_AUTOFORMATTING=1
 
 DISTUTILS_OPTIONAL=1
@@ -76,11 +77,6 @@ src_prepare() {
 	fi
 
 	autotools-utils_src_prepare
-
-	if use python; then
-		cd "${S}"/python || die
-		distutils-r1_src_prepare
-	fi
 }
 
 src_configure() {
@@ -113,7 +109,7 @@ src_install() {
 	prune_libtool_files --modules
 
 	if use server; then
-		newinitd "${FILESDIR}/fwknopd.init-r1" fwknopd
+		newinitd "${FILESDIR}/fwknopd.init" fwknopd
 		newconfd "${FILESDIR}/fwknopd.confd" fwknopd
 		systemd_dounit extras/systemd/fwknopd.service
 		systemd_newtmpfilesd extras/systemd/fwknopd.tmpfiles.conf fwknopd.conf

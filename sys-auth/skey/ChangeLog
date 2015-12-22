@@ -132,3 +132,13 @@
 
   Package-Manager: portage-2.2.26
 
+  21 Dec 2015; Patrick Lauer <patrick@gentoo.org> skey-1.1.5-r10.ebuild:
+  Turn PATCHES into bash array
+
+  21 Dec 2015; Ulrich Müller <ulm@gentoo.org> skey-1.1.5-r10.ebuild:
+  Revert "sys-auth/skey: Turn PATCHES into bash array"
+
+  This reverts commit 9c8c3a9e1b6a3d246c492f49393ea11f8a093f15.
+  Revert purely stylistic change. Non-array PATCHES is explicitly
+  allowed in EAPI default_src_prepare().
+

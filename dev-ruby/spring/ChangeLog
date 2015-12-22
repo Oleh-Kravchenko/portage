@@ -116,3 +116,10 @@
 
   Package-Manager: portage-2.2.20.1
 
+*spring-1.6.0 (21 Dec 2015)
+
+  21 Dec 2015; Hans de Graaff <graaff@gentoo.org> +spring-1.6.0.ebuild:
+  add 1.6.0
+
+  Package-Manager: portage-2.2.24
+
