@@ -141,3 +141,11 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*pbzip2-1.1.13 (22 Dec 2015)
+
+  22 Dec 2015; Lars Wendler <polynomial-c@gentoo.org> +pbzip2-1.1.13.ebuild:
+  Bump to version 1.1.13
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

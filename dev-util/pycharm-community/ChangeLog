@@ -73,3 +73,13 @@
   +pycharm-community-5.0.1.ebuild:
   version bump to 5.0.1
 
+*pycharm-community-5.0.2 (22 Dec 2015)
+
+  22 Dec 2015; Manuel Rüger <mrueg@gentoo.org>
+  +pycharm-community-5.0.2.ebuild:
+  Version bump
+
+  Gentoo-Bug: 564766
+
+  Package-Manager: portage-2.2.26
+

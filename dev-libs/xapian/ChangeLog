@@ -94,3 +94,40 @@
 
   Package-Manager: portage-2.2.24
 
+  22 Dec 2015; Anthony G. Basile <blueness@gentoo.org> xapian-1.3.3-r1.ebuild:
+  USE=inmemory requires chert
+
+  Package-Manager: portage-2.2.24
+
+  22 Dec 2015; Anthony G. Basile <blueness@gentoo.org> xapian-1.3.3-r1.ebuild:
+  add `|| die` when renaming the doc dir
+
+  Package-Manager: portage-2.2.24
+
+*xapian-1.3.3-r2 (22 Dec 2015)
+
+  22 Dec 2015; Anthony G. Basile <blueness@gentoo.org>
+  -xapian-1.3.3-r1.ebuild, +xapian-1.3.3-r2.ebuild:
+  prune .la files
+
+  Package-Manager: portage-2.2.24
+
+  22 Dec 2015; Anthony G. Basile <blueness@gentoo.org>
+  xapian-1.2.21-r1.ebuild:
+  add `|| die` to 1.2.21-r1 version
+
+  Package-Manager: portage-2.2.24
+
+  22 Dec 2015; Anthony G. Basile <blueness@gentoo.org> xapian-1.3.3-r2.ebuild:
+  prune_libtool_files requires --all
+
+  Package-Manager: portage-2.2.24
+
+*xapian-1.2.21-r2 (22 Dec 2015)
+
+  22 Dec 2015; Anthony G. Basile <blueness@gentoo.org>
+  -xapian-1.2.21-r1.ebuild, +xapian-1.2.21-r2.ebuild:
+  add prune_libtool_files to 1.2.21-r2
+
+  Package-Manager: portage-2.2.24
+

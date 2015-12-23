@@ -166,3 +166,10 @@
 
   Package-Manager: portage-2.2.26
 
+*cups-filters-1.5.0 (22 Dec 2015)
+
+  22 Dec 2015; Manuel Rüger <mrueg@gentoo.org> +cups-filters-1.5.0.ebuild:
+  Version bumpy
+
+  Package-Manager: portage-2.2.26
+

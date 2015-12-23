@@ -130,3 +130,11 @@
 
   Package-Manager: portage-2.2.26
 
+*percona-server-5.6.27.76.0 (22 Dec 2015)
+
+  22 Dec 2015; Brian Evans <grknight@gentoo.org>
+  +percona-server-5.6.27.76.0.ebuild:
+  Version bump wrt bug 569008
+
+  Package-Manager: portage-2.2.26
+

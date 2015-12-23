@@ -30,6 +30,16 @@
 
 #--- END OF EXAMPLES ---
 
+# Michael Palimaka <kensington@gentoo.org> (22 Dec 2015)
+# Fails to build. Dead upstream. Masked for removal in 30 days.
+# Bug 566446
+media-video/vmaid
+
+# Michael Palimaka <kensington@gentoo.org> (22 Dec 2015)
+# No longer works. Dead upstream. Masked for removal in 30 days.
+# Bug 507914
+app-doc/ebookmerge
+
 # Michael Sterrett <mr_bones_@gentoo.org> (21 Dec 2015)
 # Vanished from the internet. (bug #561148)
 # Masked for removal on 20160120
@@ -50,11 +60,6 @@ games-fps/ut2004-ultraduel
 # Patrick Lauer <patrick@gentoo.org> (20 Dec 2015)
 # Ebuild uninstallable #557090
 =app-crypt/gkeys-0.1-r1
-
-# Michał Górny <mgorny@gentoo.org> (18 Dec 2015)
-# Contains privilege escalation vulnerability that could be used to
-# execute random Python code passed via D-Bus as root. Bug #568644.
-<net-wireless/blueman-2.0.3
 
 # Michael Sterrett <mr_bones_@gentoo.org> (18 Dec 2015)
 # Unmaintained and no reason to use it or keep it around

@@ -53,3 +53,9 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  22 Dec 2015; Patrice Clement <monsieurp@gentoo.org> shellinabox-2.19.ebuild:
+  Stable for ppc. Fixes security bug 567316.
+
+  Package-Manager: portage-2.2.20.1
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

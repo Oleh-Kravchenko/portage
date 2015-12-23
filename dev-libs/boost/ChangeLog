@@ -107,3 +107,8 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  22 Dec 2015; Ian Delaney <idella4@gentoo.org> boost-1.57.0.ebuild:
+  add py3.5 support to vn. 1.57.0
+
+  Package-Manager: portage-2.2.24
+

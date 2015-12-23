@@ -154,3 +154,25 @@
 
   Package-Manager: portage-2.2.25
 
+*maxima-5.37.3-r2 (21 Dec 2015)
+
+  21 Dec 2015; Ulrich Müller <ulm@gentoo.org> +files/50maxima-gentoo-1.el,
+  +maxima-5.37.3-r2.ebuild:
+  Install imaxima.
+
+  With USE=emacs, install imaxima and byte-compile the elisp files.
+  This obsoletes app-emacs/imaxima, so block against it.
+  With USE=-emacs, remove any emacs files installed by the build system.
+
+  Bug: 448242
+
+  Package-Manager: portage-2.2.26
+
+  21 Dec 2015; Ulrich Müller <ulm@gentoo.org> +files/50maxima-gentoo-0.el,
+  -files/50maxima-gentoo.el, maxima-5.34.1.ebuild, maxima-5.37.3-r1.ebuild:
+  Rename emacs site-init file.
+
+  Use similar naming scheme as for the patch files.
+
+  Package-Manager: portage-2.2.26
+
