@@ -115,3 +115,16 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --include-arches="arm"
 
+  23 Dec 2015; Hans de Graaff <graaff@gentoo.org> -rdoc-4.1.2.ebuild,
+  -rdoc-4.1.2-r1.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.24
+
+*rdoc-4.2.1 (23 Dec 2015)
+
+  23 Dec 2015; Hans de Graaff <graaff@gentoo.org> +rdoc-4.2.1.ebuild:
+  add 4.2.1
+
+  Package-Manager: portage-2.2.24
+

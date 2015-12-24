@@ -122,3 +122,8 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  22 Dec 2015; Mike Gilbert <floppym@gentoo.org> fuse-exfat-1.2.3.ebuild:
+  Install manpage symlink for mount.exfat
+
+  Package-Manager: portage-2.2.26_p32
+

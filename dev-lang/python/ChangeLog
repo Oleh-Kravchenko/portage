@@ -468,3 +468,12 @@
   Install python-exec wrapping symlink for the idle executable when USE=tk
   is enabled.
 
+*python-3.5.1-r2 (23 Dec 2015)
+*python-3.4.3-r7 (23 Dec 2015)
+*python-3.3.5-r7 (23 Dec 2015)
+
+  23 Dec 2015; Michał Górny <mgorny@gentoo.org> -python-3.3.5-r6.ebuild,
+  +python-3.3.5-r7.ebuild, -python-3.4.3-r6.ebuild, +python-3.4.3-r7.ebuild,
+  -python-3.5.1-r1.ebuild, +python-3.5.1-r2.ebuild:
+  Install a wrapper to fix python-config paths, #569506
+

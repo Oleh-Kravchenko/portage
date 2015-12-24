@@ -241,3 +241,8 @@
 
   Package-Manager: portage-2.2.24
 
+  23 Dec 2015; Ian Delaney <idella4@gentoo.org> -xen-4.5.2-r1.ebuild:
+  clean vn. 4.5.2-r1 re sec bug #566842
+
+  Package-Manager: portage-2.2.24
+

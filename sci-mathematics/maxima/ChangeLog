@@ -176,3 +176,29 @@
 
   Package-Manager: portage-2.2.26
 
+*maxima-5.37.3-r3 (23 Dec 2015)
+
+  23 Dec 2015; Ulrich Müller <ulm@gentoo.org> +files/emacs-0.patch,
+  +files/wish-2.patch, -maxima-5.37.3-r2.ebuild, +maxima-5.37.3-r3.ebuild:
+  Update Emacs support.
+
+  Consolidate "emacs" and "latex" USE flags. Remove the non-functional
+  "xemacs" flag. Add a configure option to disable Emacs support in the
+  upstream build system.
+
+  Bug: 448242
+
+  Package-Manager: portage-2.2.26
+
+  23 Dec 2015; Ulrich Müller <ulm@gentoo.org> maxima-5.37.3-r3.ebuild:
+  Fix ewarn on arm.
+
+  https://bugs.gentoo.org/show_bug.cgi?id=448242#c18
+
+  Package-Manager: portage-2.2.26
+
+  23 Dec 2015; Ulrich Müller <ulm@gentoo.org> maxima-5.37.3-r3.ebuild:
+  Fix typo in pkg_postrm.
+
+  Package-Manager: portage-2.2.26
+

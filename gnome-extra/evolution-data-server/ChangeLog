@@ -115,3 +115,10 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Dec 2015; Justin Lecher <jlec@gentoo.org>
+  evolution-data-server-3.16.5.ebuild, evolution-data-server-3.18.2.ebuild,
+  evolution-data-server-3.18.3.ebuild:
+  Drop unsupported python implementations
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

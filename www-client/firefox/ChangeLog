@@ -356,3 +356,13 @@
 
   Package-Manager: portage-2.2.24
 
+  23 Dec 2015; Ian Stakenvicius <axs@gentoo.org> firefox-38.4.0.ebuild,
+  firefox-38.5.0.ebuild, firefox-43.0.ebuild:
+  mozilla packages: migrate arm neon/softfp/hardfp config fixes to the eclass
+
+  The firefox ebuild received fixes for various arm configurations (neon,
+  hardfp/softfp)
+  but these fixes should also be applied to the other mozilla packages.  This
+  commit
+  removes them from firefox and adds them to mozconfig.
+

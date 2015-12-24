@@ -253,3 +253,22 @@
 
   Package-Manager: portage-2.2.26
 
+*mariadb-10.0.23 (23 Dec 2015)
+
+  23 Dec 2015; Brian Evans <grknight@gentoo.org> +mariadb-10.0.23.ebuild:
+  Version bump to 10.0.23
+
+  Package-Manager: portage-2.2.26
+
+  23 Dec 2015; Brian Evans <grknight@gentoo.org> -mariadb-10.0.21-r1.ebuild:
+  Drop old revision
+
+  Package-Manager: portage-2.2.26
+
+*mariadb-5.5.47 (23 Dec 2015)
+
+  23 Dec 2015; Brian Evans <grknight@gentoo.org> +mariadb-5.5.47.ebuild:
+  Version bump for 5.5.47
+
+  Package-Manager: portage-2.2.26
+

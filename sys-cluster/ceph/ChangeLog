@@ -150,3 +150,9 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Dec 2015; Yixun Lan <dlan@gentoo.org> +files/ceph-mds_at.service,
+  +files/ceph-mon_at.service, +files/ceph-osd_at.service:
+  restore systemd unit files for 0.94.5
+
+  Package-Manager: portage-2.2.26
+
