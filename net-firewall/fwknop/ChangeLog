@@ -150,3 +150,10 @@
 
   Package-Manager: portage-2.2.24
 
+*fwknop-2.6.8 (24 Dec 2015)
+
+  24 Dec 2015; Ian Delaney <idella4@gentoo.org> +fwknop-2.6.8.ebuild:
+  version bump to 2.6.8
+
+  Package-Manager: portage-2.2.24
+

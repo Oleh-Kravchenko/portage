@@ -158,3 +158,8 @@
 
   Package-Manager: portage-2.2.24
 
+  24 Dec 2015; Mike Frysinger <vapier@gentoo.org> vlc-2.1.5-r1.ebuild,
+  vlc-2.1.9999.ebuild, vlc-2.2.1-r1.ebuild, vlc-2.2.9999.ebuild,
+  vlc-9999.ebuild:
+  clean up keywords across versions
+

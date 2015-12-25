@@ -124,3 +124,17 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --include-arches="arm"
 
+*xf86-input-libinput-0.16.0 (24 Dec 2015)
+
+  24 Dec 2015; Manuel Rüger <mrueg@gentoo.org>
+  +xf86-input-libinput-0.16.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+
+  24 Dec 2015; Manuel Rüger <mrueg@gentoo.org>
+  -xf86-input-libinput-0.13.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+

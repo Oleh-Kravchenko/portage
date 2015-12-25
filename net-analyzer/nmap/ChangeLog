@@ -135,3 +135,8 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Dec 2015; Jeroen Roovers <jer@gentoo.org> nmap-7.01.ebuild:
+  Make makefile.dep. Do not remove targets.
+
+  Package-Manager: portage-2.2.26
+

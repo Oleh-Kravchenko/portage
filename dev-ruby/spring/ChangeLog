@@ -123,3 +123,10 @@
 
   Package-Manager: portage-2.2.24
 
+*spring-1.6.1 (23 Dec 2015)
+
+  23 Dec 2015; Manuel Rüger <mrueg@gentoo.org> +spring-1.6.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+

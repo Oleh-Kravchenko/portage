@@ -189,3 +189,19 @@
 
   Package-Manager: portage-2.2.26
 
+*libinput-1.1.4 (24 Dec 2015)
+
+  24 Dec 2015; Manuel Rüger <mrueg@gentoo.org> +libinput-1.1.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+
+  24 Dec 2015; Manuel Rüger <mrueg@gentoo.org> -libinput-1.1.1.ebuild,
+  -libinput-1.1.2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+
+  24 Dec 2015; Mike Frysinger <vapier@gentoo.org> libinput-1.1.0.ebuild:
+  mark 1.1.0 alpha/hppa/ia64 stable
+

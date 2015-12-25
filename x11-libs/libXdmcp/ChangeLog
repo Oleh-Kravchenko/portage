@@ -79,3 +79,14 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --include-arches="arm"
 
+*libXdmcp-1.1.2-r1 (24 Dec 2015)
+
+  24 Dec 2015; Manuel Rüger <mrueg@gentoo.org> +libXdmcp-1.1.2-r1.ebuild:
+  Add missing dependency on dev-libs/libbsd
+
+  Thanks to Anthony Basile
+
+  Gentoo-Bug: #552780
+
+  Package-Manager: portage-2.2.26
+
