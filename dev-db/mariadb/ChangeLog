@@ -272,3 +272,8 @@
 
   Package-Manager: portage-2.2.26
 
+  25 Dec 2015; Mikle Kolyada <zlogene@gentoo.org> mariadb-10.0.22.ebuild:
+  sparc stable wrt bug #564442
+
+  Package-Manager: portage-2.2.24
+

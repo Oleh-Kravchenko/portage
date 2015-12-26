@@ -71,3 +71,11 @@
 
   Package-Manager: portage-2.2.20.1
 
+*makemkv-1.9.8 (25 Dec 2015)
+
+  25 Dec 2015; James Le Cuirot <chewi@gentoo.org> -makemkv-1.9.7.ebuild,
+  +makemkv-1.9.8.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+
