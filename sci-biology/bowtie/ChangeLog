@@ -138,3 +138,19 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Dec 2015; Justin Lecher <jlec@gentoo.org> -bowtie-0.12.8.ebuild,
+  -files/bowtie-0.12.8-gcc-47.patch:
+  Drop old
+
+  obsoletes:
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=564320
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  26 Dec 2015; Justin Lecher <jlec@gentoo.org> bowtie-2.2.6.ebuild:
+  Chop DESCRIPTION to 80 chars
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
