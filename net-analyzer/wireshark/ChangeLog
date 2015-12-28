@@ -314,3 +314,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Dec 2015; Jeroen Roovers <jer@gentoo.org> wireshark-2.0.0.ebuild,
+  wireshark-2.0.0-r1.ebuild, wireshark-99999999.ebuild:
+  With USE=qt5, depend on dev-qt/qtmultimedia:5 (bug #569838 by Alex Xu
+  (Hello71)).
+
+  Package-Manager: portage-2.2.26
+

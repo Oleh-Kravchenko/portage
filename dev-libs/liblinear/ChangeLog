@@ -99,3 +99,10 @@
   21 Dec 2015; Patrick Lauer <patrick@gentoo.org> liblinear-210-r1.ebuild:
   Whitespace
 
+  26 Dec 2015; Agostino Sarubbo <ago@gentoo.org> liblinear-210-r1.ebuild:
+  amd64 stable wrt bug #569730
+
+  Package-Manager: portage-2.2.24
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

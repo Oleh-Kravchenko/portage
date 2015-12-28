@@ -54,3 +54,10 @@
 
   Bug: https://bugs.gentoo.org/552720
 
+*cwdaemon-0.10.2 (27 Dec 2015)
+
+  27 Dec 2015; Thomas Beierlein <tomjbe@gentoo.org> +cwdaemon-0.10.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+

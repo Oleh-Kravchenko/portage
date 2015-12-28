@@ -97,3 +97,10 @@
 
   Package-Manager: portage-2.2.20.1
 
+*jabref-bin-3.1 (27 Dec 2015)
+
+  27 Dec 2015; Nicolas Bock <nicolasbock@gentoo.org> +jabref-bin-3.1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.24
+

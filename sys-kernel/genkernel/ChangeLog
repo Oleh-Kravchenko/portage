@@ -182,3 +182,8 @@
 
   Package-Manager: portage-2.2.26
 
+  27 Dec 2015; Mikle Kolyada <zlogene@gentoo.org> genkernel-3.4.52.2.ebuild:
+  sparc stable wrt bug #556398
+
+  Package-Manager: portage-2.2.24
+

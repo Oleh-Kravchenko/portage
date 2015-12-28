@@ -163,3 +163,8 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  27 Dec 2015; Mikle Kolyada <zlogene@gentoo.org> nmap-7.01.ebuild:
+  sparc stable wrt bug #569660
+
+  Package-Manager: portage-2.2.24
+
