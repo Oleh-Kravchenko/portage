@@ -208,3 +208,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  28 Dec 2015; Jeroen Roovers <jer@gentoo.org> bash-4.3_p42.ebuild:
+  Stable for HPPA PPC64 (bug #569874).
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

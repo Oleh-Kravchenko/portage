@@ -224,3 +224,7 @@
   19 Dec 2015; Mike Frysinger <vapier@gentoo.org> metadata.xml:
   add support for USE=jit #568834
 
+  28 Dec 2015; Mike Frysinger <vapier@gentoo.org> gcc-4.8.3.ebuild,
+  gcc-4.8.4.ebuild, gcc-4.8.5.ebuild, gcc-4.9.3.ebuild:
+  mark 4.8.[345] & 4.9.3 ia64 stable #545124
+

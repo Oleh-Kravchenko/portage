@@ -65,3 +65,11 @@
   21 Dec 2015; Patrick Lauer <patrick@gentoo.org> metadata.xml:
   Remove unneeded useflag descriptions from metadata.xml
 
+*qgis-2.12.1 (28 Dec 2015)
+
+  28 Dec 2015; Amy Winston <amynka@gentoo.org> metadata.xml,
+  +qgis-2.12.1.ebuild:
+  2.12.1 version bump bug #485868.
+
+  Package-Manager: portage-2.2.24
+

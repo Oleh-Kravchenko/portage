@@ -143,3 +143,16 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  28 Dec 2015; Alexis Ballier <aballier@gentoo.org>
+  -files/mkvtoolnix-5.8.0-boost-configure.patch,
+  -files/mkvtoolnix-5.8.0-system-pugixml.patch,
+  -files/mkvtoolnix-6.6.0-boost-1.56.patch,
+  -files/mkvtoolnix-8.2.0-fix-curl-support.patch, -mkvtoolnix-6.6.0.ebuild,
+  -mkvtoolnix-8.2.0-r1.ebuild, -mkvtoolnix-8.3.0.ebuild,
+  -mkvtoolnix-8.4.0.ebuild, -mkvtoolnix-8.5.0.ebuild,
+  -mkvtoolnix-8.5.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

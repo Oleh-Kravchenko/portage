@@ -178,3 +178,51 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Dec 2015; Ilya Tumaykin <itumaykin@gmail.com>
+  files/aegisub-3.2.2-add-missing-pthread-flags.patch,
+  files/aegisub-9999-add-missing-pthread-flags.patch:
+  adjust pthread patch wrt bug 568878
+
+  - Always append '-lpthread' to LIBS_PTHREAD since build system fails to
+    do so when needed.
+  - Add CFLAGS_PTHREAD to libaegisub build since it uses pthreads.
+  - Remove CFLAGS_PTHREAD from tools build since it does not use pthreads,
+    but only links with archive that includes pthread symbols.
+
+  Gentoo-Bug: 568878
+
+  Package-Manager: portage-2.2.24
+
+  27 Dec 2015; Ilya Tumaykin <itumaykin@gmail.com>
+  files/aegisub-3.2.2-unbundle-luajit.patch,
+  files/aegisub-9999-unbundle-luajit.patch:
+  adjust LIBS_LUA placement in luajit unbundle patch
+
+  LIBS_LUA (aka '-lluajit-5.x') is included in OBJ list in automation
+  build. This is why linking to luajit works properly.
+
+  However, the expected behaviour is to include LIBS_LUA in LIBS list.
+
+  Package-Manager: portage-2.2.24
+
+  27 Dec 2015; Ilya Tumaykin <itumaykin@gmail.com>
+  files/aegisub-3.2.2-respect-user-compiler-flags.patch:
+  remove clang-only options to avoid warnings on gcc
+
+  These options only suppress compilation warnings and do not alter
+  compilation itself, so it is safe to remove them.
+
+  Package-Manager: portage-2.2.24
+
+  27 Dec 2015; Ilya Tumaykin <itumaykin@gmail.com> aegisub-9999.ebuild,
+  -files/aegisub-9999-respect-user-compiler-flags.patch:
+  reuse patch for 3.2.2 in live ebuild
+
+  Package-Manager: portage-2.2.24
+
+  27 Dec 2015; Ilya Tumaykin <itumaykin@gmail.com> -aegisub-2.1.9.ebuild,
+  -aegisub-3.1.2.ebuild, -aegisub-3.1.3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.24
+

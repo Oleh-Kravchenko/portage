@@ -187,3 +187,11 @@
 
   Package-Manager: portage-2.2.24
 
+*genkernel-3.4.52.3 (28 Dec 2015)
+
+  28 Dec 2015; Robin H. Johnson <robbat2@gentoo.org>
+  +genkernel-3.4.52.3.ebuild:
+  new release.
+
+  Package-Manager: portage-2.2.24
+
