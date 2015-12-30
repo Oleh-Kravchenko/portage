@@ -93,3 +93,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Dec 2015; Michael Sterrett <mr_bones_@gentoo.org> -wesnoth-1.12.4.ebuild:
+  old
+
+  Package-Manager: portage-2.2.24
+

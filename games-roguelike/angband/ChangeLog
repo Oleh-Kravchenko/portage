@@ -93,3 +93,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Dec 2015; Michael Sterrett <mr_bones_@gentoo.org> -angband-3.4.1.ebuild,
+  -angband-3.5.1.ebuild:
+  old
+
+  Package-Manager: portage-2.2.24
+

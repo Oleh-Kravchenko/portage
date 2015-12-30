@@ -66,3 +66,11 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  29 Dec 2015; Agostino Sarubbo <ago@gentoo.org>
+  cblas-reference-20030223-r6.ebuild:
+  amd64 stable wrt bug #570056
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

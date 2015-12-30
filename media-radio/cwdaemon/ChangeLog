@@ -61,3 +61,10 @@
 
   Package-Manager: portage-2.2.26
 
+  29 Dec 2015; Thomas Beierlein <tomjbe@gentoo.org> cwdaemon-0.10.2.ebuild:
+  Fix missing headers for gcc>=5 (bug #569970)
+
+  Thanks for reporting Toralf.
+
+  Package-Manager: portage-2.2.26
+

@@ -167,3 +167,13 @@
 
   Package-Manager: portage-2.2.26
 
+*gst-plugins-libav-1.6.2-r1 (29 Dec 2015)
+
+  29 Dec 2015; Pacho Ramos <pacho@gentoo.org>
+  +gst-plugins-libav-1.6.2-r1.ebuild:
+  We need to rely on internal ffmpeg copy for letting libav users to use the
+  plugin as upstream has decided to stop trying to make this compatible with
+  libav lib
+
+  Package-Manager: portage-2.2.26
+

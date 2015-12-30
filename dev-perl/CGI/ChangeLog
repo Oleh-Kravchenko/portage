@@ -73,3 +73,21 @@
 
   Package-Manager: portage-2.2.26
 
+  29 Dec 2015; Andreas K. Hüttel <dilfridge@gentoo.org> CGI-4.220.0.ebuild,
+  CGI-4.220.0-r1.ebuild:
+  Add missing test dependency
+
+  Package-Manager: portage-2.2.26
+
+  29 Dec 2015; Andreas K. Hüttel <dilfridge@gentoo.org> -CGI-4.210.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+
+*CGI-4.250.0 (29 Dec 2015)
+
+  29 Dec 2015; Andreas K. Hüttel <dilfridge@gentoo.org> +CGI-4.250.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+

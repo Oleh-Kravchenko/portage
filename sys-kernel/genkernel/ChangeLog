@@ -195,3 +195,8 @@
 
   Package-Manager: portage-2.2.24
 
+  29 Dec 2015; Zero_Chaos <zerochaos@gentoo.org> genkernel-3.4.52.3.ebuild:
+  bumping to stable to solve releng and user issues, no regressions
+
+  Package-Manager: portage-2.2.26
+

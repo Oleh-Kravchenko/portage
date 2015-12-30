@@ -88,3 +88,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Dec 2015; Michael Sterrett <mr_bones_@gentoo.org>
+  -crossfire-client-1.70.0.ebuild, -crossfire-client-1.71.0.ebuild,
+  -files/crossfire-client-1.70.0-gold.patch:
+  old
+
+  Package-Manager: portage-2.2.24
+

@@ -71,3 +71,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Dec 2015; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/1.0-custom-datapath.patch, -files/rott-1.0-full-version.patch,
+  -files/rott-1.0-gcc41.patch, -rott-1.0.ebuild:
+  old
+
+  Package-Manager: portage-2.2.24
+
