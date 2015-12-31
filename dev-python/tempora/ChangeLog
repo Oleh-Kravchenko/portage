@@ -10,3 +10,8 @@
 
   Package-Manager: portage-2.2.26
 
+  30 Dec 2015; Ian Delaney <idella4@gentoo.org> tempora-1.4.ebuild:
+  use a hardblocker against dev-python/jaraco-utils
+
+  Package-Manager: portage-2.2.26
+

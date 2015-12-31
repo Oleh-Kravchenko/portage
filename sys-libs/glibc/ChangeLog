@@ -232,3 +232,7 @@
   glibc-2.20-r2.ebuild, glibc-2.21-r1.ebuild, glibc-2.22-r1.ebuild:
   workaround ia64 early ldso crashes #503838
 
+  30 Dec 2015; Mike Frysinger <vapier@gentoo.org>
+  files/eblits/src_configure.eblit:
+  use new timezone-tools configure flag
+

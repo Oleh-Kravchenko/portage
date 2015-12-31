@@ -276,3 +276,11 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Dec 2015; Jory A. Pratt <anarchy@gentoo.org> thunderbird-38.5.0.ebuild:
+  Fix the paxmarking of the xpcshell binary as it is no longer in the mozilla
+  directory.
+
+  This makes the install phase work again on hardened systems.
+
+  Signed-off-by: Jory A. Pratt <anarchy@gentoo.org>
+
