@@ -302,3 +302,15 @@
 
   Package-Manager: portage-2.2.26
 
+*youtube-dl-2015.12.29 (31 Dec 2015)
+
+  31 Dec 2015; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2015.12.29.ebuild:
+  Version bump (bug #570384).
+
+  Package-Manager: portage-2.2.26
+
+  31 Dec 2015; Jeroen Roovers <jer@gentoo.org> -youtube-dl-2015.12.21.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.26
+
