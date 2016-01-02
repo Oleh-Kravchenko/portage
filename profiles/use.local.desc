@@ -1123,7 +1123,6 @@ app-text/apvlv:html - Build binary with html format support
 app-text/asciidoc:highlight - Enable source code highlighting
 app-text/atril:caja - Enable property page extension in mate-base/mate-file-manager
 app-text/atril:dvi - Enable build-in DVI viewer
-app-text/atril:ps - Enable build-in postscript viewer
 app-text/atril:t1lib - Enable the Type-1 fonts for the build-in DVI viewer (media-libs/t1lib)
 app-text/atril:xps - Enable XPS viewer using app-text/libxps
 app-text/crm114:mew - Add support for using the mewdecode mime decoder (app-emacs/mew)
@@ -1328,6 +1327,8 @@ dev-db/mariadb-galera:yassl - Enable SSL connections and crypto functions using 
 dev-db/maxscale:jemalloc - Use dev-libs/jemalloc for allocations
 dev-db/maxscale:rabbitmq - Add support for RabbitMQ message queue
 dev-db/mongodb:mms-agent - Install the MongoDB Monitoring Service agent
+dev-db/mongodb:sharedclient - build client shared library libmongoclient.so
+dev-db/mongodb:spidermonkey - Use embedded SpiderMonkey engine (dev-lang/spidermonkey) instead of v8
 dev-db/mongodb:tools - Install the MongoDB tools (mongoimport, mongodump...) from app-admin/mongo-tools
 dev-db/mysql:client-libs - Build the libmysqlclient libraries
 dev-db/mysql:cluster - Add support for NDB clustering (deprecated)
@@ -1754,11 +1755,13 @@ dev-java/miglayout:swt - Add support for the SWT toolkit.
 dev-java/netbeans-nb:keychain - Automatically starts keychain on netbeans start and loads specified keys so Netbeans can use them.
 dev-java/oracle-jdk-bin:awt - Install non-headless AWT libraries, needed by some GUIs (used to be X flag)
 dev-java/oracle-jdk-bin:derby - Install bundled Derby (Java database)
+dev-java/oracle-jdk-bin:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
 dev-java/oracle-jdk-bin:javafx - Install JavaFX libraries
 dev-java/oracle-jdk-bin:jce - Install Java Cryptographic Extension Unlimited Strength Jurisdiction Policy Files
 dev-java/oracle-jdk-bin:pax_kernel - Use paxctl to mark the JVM binaries
 dev-java/oracle-jdk-bin:source - Install JVM (and optionally JavaFX) sources
 dev-java/oracle-jre-bin:awt - Install non-headless AWT libraries, needed by some GUIs (used to be X flag)
+dev-java/oracle-jre-bin:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
 dev-java/oracle-jre-bin:javafx - Install JavaFX libraries
 dev-java/oracle-jre-bin:jce - Install Java Cryptographic Extension Unlimited Strength Jurisdiction Policy Files
 dev-java/oracle-jre-bin:pax_kernel - Use paxctl to mark the JVM binaries

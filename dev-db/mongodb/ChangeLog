@@ -1,5 +1,5 @@
 # ChangeLog for dev-db/mongodb
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *mongodb-3.0.5 (09 Aug 2015)
@@ -130,4 +130,27 @@
   drop 2.4 series
 
   Package-Manager: portage-2.2.25
+
+  01 Jan 2016; Michał Górny <mgorny@gentoo.org> mongodb-3.2.0.ebuild:
+  Convert scons_opts into an array, to preserve whitespace
+
+  01 Jan 2016; Michał Górny <mgorny@gentoo.org> mongodb-3.2.0.ebuild:
+  QA] Respect CC & CXX
+
+  01 Jan 2016; Michał Górny <mgorny@gentoo.org>
+  files/mongodb-3.2.0-fix-scons.patch:
+  QA] Make SCons respect PATH, #570436
+
+*mongodb-2.4.14 (01 Jan 2016)
+*mongodb-2.4.13 (01 Jan 2016)
+
+  01 Jan 2016; Michał Górny <mgorny@gentoo.org>
+  +files/mongodb-2.2-r1-fix-boost.patch, +files/mongodb-2.4-fix-sasl.patch,
+  +files/mongodb-2.4.11-fix-scons.patch, +files/mongodb.confd,
+  +files/mongodb.initd-r1, metadata.xml, +mongodb-2.4.13.ebuild,
+  +mongodb-2.4.14.ebuild:
+  QA] Revert "drop 2.4 series"
+
+  Revert the removal of last ebuilds satisfying
+  dev-db/mongodb[sharedclient] as required by sci-chemistry/mongochem.
 

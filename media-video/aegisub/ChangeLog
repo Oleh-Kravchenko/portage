@@ -1,5 +1,5 @@
 # ChangeLog for media-video/aegisub
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *aegisub-9999 (09 Aug 2015)
@@ -223,6 +223,14 @@
   27 Dec 2015; Ilya Tumaykin <itumaykin@gmail.com> -aegisub-2.1.9.ebuild,
   -aegisub-3.1.2.ebuild, -aegisub-3.1.3.ebuild:
   remove old
+
+  Package-Manager: portage-2.2.24
+
+  01 Jan 2016; Ian Delaney <idella4@gentoo.org> aegisub-3.0.4.ebuild,
+  +files/aegisub-3.0.4-fix-install-with-empty-LINGUAS.patch:
+  fix installation of 3.0.4 with empty LINGUAS
+
+  3.2.2 and live are not affected.
 
   Package-Manager: portage-2.2.24
 
