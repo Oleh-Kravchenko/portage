@@ -92,3 +92,18 @@
 
   Package-Manager: portage-2.2.24
 
+*nsscache-0.30 (02 Jan 2016)
+
+  02 Jan 2016; Robin H. Johnson <robbat2@gentoo.org> +nsscache-0.30.ebuild:
+  bump.
+
+  Package-Manager: portage-2.2.24
+
+*nsscache-0.23-r2 (02 Jan 2016)
+
+  02 Jan 2016; Robin H. Johnson <robbat2@gentoo.org> +nsscache-0.23-r2.ebuild:
+  upstream codebase is dumb and unconditionally needs bsddb even when nssdb is
+  not used.
+
+  Package-Manager: portage-2.2.24
+

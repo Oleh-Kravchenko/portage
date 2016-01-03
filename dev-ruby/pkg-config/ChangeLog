@@ -1,5 +1,5 @@
 # ChangeLog for dev-ruby/pkg-config
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *pkg-config-1.1.6 (09 Aug 2015)
@@ -77,4 +77,10 @@
   Package-Manager: portage-2.2.24
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  02 Jan 2016; Jeroen Roovers <jer@gentoo.org> pkg-config-1.1.6.ebuild:
+  Stable for PPC64 (bug #568042).
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
 

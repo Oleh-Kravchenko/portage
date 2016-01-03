@@ -103,3 +103,9 @@
 
   Package-Manager: portage-2.2.24
 
+  02 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  kdenlive-15.12.0-r1.ebuild:
+  Fix src_prepare with USE=!handbook, bug 570538
+
+  Package-Manager: portage-2.2.24
+
