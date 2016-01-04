@@ -73,3 +73,10 @@
 
   Package-Manager: portage-2.2.26
 
+  03 Jan 2016; Agostino Sarubbo <ago@gentoo.org> DBD-SQLite-1.480.0.ebuild:
+  amd64 stable wrt bug #570646
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

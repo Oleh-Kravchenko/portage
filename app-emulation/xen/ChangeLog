@@ -1,5 +1,5 @@
 # ChangeLog for app-emulation/xen
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *xen-4.5.1 (09 Aug 2015)
@@ -256,4 +256,15 @@
   Gentoo bug: #552424
 
   Package-Manager: portage-2.2.24
+
+*xen-4.6.0-r5 (03 Jan 2016)
+
+  03 Jan 2016; Ian Delaney <idella4@gentoo.org> +xen-4.6.0-r5.ebuild:
+  revbump to vn. 4.6.0-r5
+
+  wrt security patch in the gentoo bug
+
+  Gentoo bug: #569554
+
+  Package-Manager: portage-2.2.26
 
