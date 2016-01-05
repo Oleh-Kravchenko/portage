@@ -220,3 +220,10 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Jan 2016; Gilles Dartiguelongue <eva@gentoo.org> glib-2.46.2-r1.ebuild:
+  add missing creation of gio modules dir, bug #570752
+
+  Thanks to Bertrand Jacquin for reporting.
+
+  Package-Manager: portage-2.2.26
+

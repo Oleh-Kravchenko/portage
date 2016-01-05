@@ -75,3 +75,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  04 Jan 2016; Jeroen Roovers <jer@gentoo.org> pyxattr-0.5.5.ebuild:
+  Stable for HPPA (bug #570338).
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

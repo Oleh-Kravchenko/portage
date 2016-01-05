@@ -85,3 +85,15 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  03 Jan 2016; Lars Wendler <polynomial-c@gentoo.org> pidgin-2.10.12.ebuild:
+  Fixed dependency on gstreamer to use 1.0 slot (bug #570776).
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  04 Jan 2016; Lars Wendler <polynomial-c@gentoo.org> pidgin-2.10.12.ebuild:
+  Fixed gstreamer support for real this time (bug #570776).
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
