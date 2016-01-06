@@ -3,7 +3,7 @@
 # $Id$
 
 EAPI=5
-inherit eutils multilib-minimal
+inherit autotools eutils multilib-minimal
 
 MY_P=SDL2_mixer-${PV}
 DESCRIPTION="Simple Direct Media Layer Mixer Library"
@@ -50,6 +50,12 @@ RDEPEND=">=media-libs/libsdl2-2.0.1-r1[${MULTILIB_USEDEP}]
 DEPEND=${RDEPEND}
 
 S=${WORKDIR}/${MY_P}
+
+src_prepare() {
+	# upstream patch to fix building with both smpeg and mad mp3 support (bug #570804)
+	epatch "${FILESDIR}"/${P}-mp3.patch
+	eautoreconf
+}
 
 multilib_src_configure() {
 	ECONF_SOURCE=${S} \
