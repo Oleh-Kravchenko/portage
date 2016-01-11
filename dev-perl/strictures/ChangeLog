@@ -77,3 +77,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  04 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -strictures-1.4.4-r1.ebuild, -strictures-2.0.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+

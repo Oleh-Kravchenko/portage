@@ -122,3 +122,11 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  10 Jan 2016; Hans de Graaff <graaff@gentoo.org> nokogiri-1.6.7.1.ebuild:
+  add ruby23
+
+  Run tests directly so the dependency on dev-ruby/rake-compiler
+  can be avoided. This was leading to circular test dependencies.
+
+  Package-Manager: portage-2.2.26
+

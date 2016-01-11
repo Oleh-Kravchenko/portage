@@ -77,3 +77,8 @@
 
   Package-Manager: portage-2.2.26
 
+  09 Jan 2016; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Drop myself as maintainer
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

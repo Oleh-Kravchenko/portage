@@ -105,3 +105,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  05 Jan 2016; Ian Delaney <idella4@gentoo.org> -bugzilla-4.2.11.ebuild,
+  -bugzilla-4.4.6.ebuild:
+  clean old vulnerable versions wrt #537448
+
+  Package-Manager: portage-2.2.26
+

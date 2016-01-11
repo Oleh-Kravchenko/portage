@@ -99,3 +99,10 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Jan 2016; Agostino Sarubbo <ago@gentoo.org> vde-2.3.2-r2.ebuild:
+  x86 stable wrt bug #552926
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

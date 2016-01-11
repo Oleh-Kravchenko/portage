@@ -87,3 +87,8 @@
   kvirc-4.4_pre20151218202654.ebuild, kvirc-9999.ebuild:
   Rename slot.
 
+  07 Jan 2016; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Update remote-ids in metadata.xml
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

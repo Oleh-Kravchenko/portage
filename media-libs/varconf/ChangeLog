@@ -69,3 +69,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Jan 2016; Agostino Sarubbo <ago@gentoo.org> varconf-0.6.7-r1.ebuild:
+  x86 stable wrt bug #568352
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

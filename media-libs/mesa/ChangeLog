@@ -337,3 +337,9 @@
 
   Package-Manager: portage-2.2.26
 
+  09 Jan 2016; Jeroen Roovers <jer@gentoo.org> mesa-11.0.6.ebuild:
+  Stable for HPPA PPC64 (bug #559062).
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

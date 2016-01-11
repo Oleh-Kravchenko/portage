@@ -155,3 +155,18 @@
 
   Package-Manager: portage-2.2.26
 
+*gst-plugins-bad-0.10.23-r3 (09 Jan 2016)
+
+  09 Jan 2016; Pacho Ramos <pacho@gentoo.org>
+  +files/gst-plugins-bad-0.10.23-CVE-2015-0797.patch,
+  +gst-plugins-bad-0.10.23-r3.ebuild:
+  Fix CVE-2015-0797, bug #553742
+
+  Package-Manager: portage-2.2.26
+
+  09 Jan 2016; Pacho Ramos <pacho@gentoo.org>
+  -gst-plugins-bad-1.6.1-r1.ebuild, -gst-plugins-bad-1.6.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.26
+

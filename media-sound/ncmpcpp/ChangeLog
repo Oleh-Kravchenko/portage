@@ -206,3 +206,24 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*ncmpcpp-0.7.1 (06 Jan 2016)
+
+  06 Jan 2016; Jeroen Roovers <jer@gentoo.org> +ncmpcpp-0.7.1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.26
+
+  06 Jan 2016; Agostino Sarubbo <ago@gentoo.org> ncmpcpp-0.7.ebuild:
+  x86 stable wrt bug #570562
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  09 Jan 2016; Agostino Sarubbo <ago@gentoo.org> ncmpcpp-0.7.ebuild:
+  sparc stable wrt bug #570562
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

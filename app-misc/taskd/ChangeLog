@@ -18,3 +18,13 @@
 
   Package-Manager: portage-2.2.26
 
+  05 Jan 2016; Marc Schiffbauer <mschiff@gentoo.org> taskd-1.1.0-r1.ebuild:
+  create user in pkg_setup insteak pgk_preinst
+
+  Package-Manager: portage-2.2.26
+
+  07 Jan 2016; Marc Schiffbauer <mschiff@gentoo.org> taskd-1.1.0-r1.ebuild:
+  add shell of taskd user to simplify admin tasks
+
+  Package-Manager: portage-2.2.26
+

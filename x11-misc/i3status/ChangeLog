@@ -68,3 +68,20 @@
 
   Package-Manager: portage-2.2.20
 
+*i3status-2.10-r1 (06 Jan 2016)
+
+  06 Jan 2016; Kacper Kowalik <xarthisius@gentoo.org>
+  +files/i3status-2.10-pulseaudio.patch, -i3status-2.10.ebuild,
+  +i3status-2.10-r1.ebuild:
+  make dependency on pulseaudio optional
+
+  Fixes bug #570786 and introduces the new USE flag
+  'pulseaudio'.
+
+  Reported-by: Michele Alzetta <michele@alzetta.org>
+
+  06 Jan 2016; Kacper Kowalik <xarthisius@gentoo.org> i3status-2.10-r1.ebuild:
+  syntax sugar
+
+  Package-Manager: portage-2.2.20
+

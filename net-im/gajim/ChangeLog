@@ -133,3 +133,14 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  07 Jan 2016; Markus Meier <maekke@gentoo.org> gajim-0.16.5.ebuild:
+  arm stable, bug #569936
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+
+  08 Jan 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> metadata.xml:
+  Take it
+
+  Package-Manager: portage-2.2.26
+

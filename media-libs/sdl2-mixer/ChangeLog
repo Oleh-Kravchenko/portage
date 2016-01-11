@@ -63,3 +63,21 @@
 
   Package-Manager: portage-2.2.24
 
+  05 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  sdl2-mixer-2.0.1.ebuild:
+  add workaround to bad SOURCES building code (bug #570804)
+
+  Package-Manager: portage-2.2.26
+
+  05 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/sdl2-mixer-2.0.1-mp3.patch, sdl2-mixer-2.0.1.ebuild:
+  use upstream patch instead of sed hack to fix mp3 configure code
+
+  Package-Manager: portage-2.2.26
+
+  06 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  sdl2-mixer-2.0.1.ebuild:
+  fix building with newer autotools (bug #571064)
+
+  Package-Manager: portage-2.2.26
+

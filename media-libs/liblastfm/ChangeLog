@@ -62,3 +62,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Jan 2016; Agostino Sarubbo <ago@gentoo.org> liblastfm-1.0.9.ebuild:
+  x86 stable wrt bug #570348
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

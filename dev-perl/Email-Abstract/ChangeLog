@@ -70,3 +70,15 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  05 Jan 2016; Agostino Sarubbo <ago@gentoo.org> Email-Abstract-3.7.0.ebuild:
+  ppc/ppc64 stable, (ALLARCHES policy) wrt bug #570868
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  05 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Email-Abstract-3.3.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+

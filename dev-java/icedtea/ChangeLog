@@ -180,3 +180,33 @@
 
   Package-Manager: portage-2.2.26
 
+  05 Jan 2016; James Le Cuirot <chewi@gentoo.org> icedtea-6.1.13.9-r2.ebuild,
+  icedtea-7.2.6.3-r3.ebuild:
+  Disable nsplugin by default to avoid conflicts
+
+  It's a dying technology that most people avoid for fear of security
+  vulnerabilities anyway.
+
+  Package-Manager: portage-2.2.26
+
+  07 Jan 2016; James Le Cuirot <chewi@gentoo.org> icedtea-6.1.13.9-r2.ebuild,
+  icedtea-7.2.6.3-r3.ebuild:
+  Disable webstart by default as well
+
+  It's not as dead as nsplugin but I imagine most people would rather
+  avoid the extra dependency on icedtea-web.
+
+  Package-Manager: portage-2.2.26
+
+*icedtea-7.2.6.3-r4 (07 Jan 2016)
+
+  07 Jan 2016; James Le Cuirot <chewi@gentoo.org>
+  +files/icedtea-bug-2781.patch, -icedtea-7.2.6.3-r3.ebuild,
+  +icedtea-7.2.6.3-r4.ebuild:
+  Patch against icedtea bug #2781
+
+  CACAO have now fixed this upstream and it will hopefully make it into
+  the next icedtea release.
+
+  Package-Manager: portage-2.2.26
+

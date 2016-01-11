@@ -67,3 +67,17 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Jan 2016; Agostino Sarubbo <ago@gentoo.org> hamlib-3.0.ebuild:
+  x86 stable wrt bug #570362
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+*hamlib-3.0.1 (07 Jan 2016)
+
+  07 Jan 2016; Thomas Beierlein <tomjbe@gentoo.org> +hamlib-3.0.1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.26
+

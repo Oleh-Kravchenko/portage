@@ -68,3 +68,9 @@
 
   Package-Manager: portage-2.2.24
 
+  05 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -quake3-excessiveplus-2.2b.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

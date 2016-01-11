@@ -71,3 +71,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Jan 2016; Agostino Sarubbo <ago@gentoo.org> freedoko-0.7.13-r1.ebuild:
+  x86 stable wrt bug #570378
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  06 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -freedoko-0.7.13.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

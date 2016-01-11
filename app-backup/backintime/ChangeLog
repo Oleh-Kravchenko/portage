@@ -124,3 +124,22 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Jan 2016; Agostino Sarubbo <ago@gentoo.org> backintime-1.1.8-r1.ebuild:
+  x86 stable wrt bug #568742
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jan 2016; Michael Weber <xmw@gentoo.org> -backintime-1.1.4.ebuild,
+  -backintime-1.1.8.ebuild,
+  -files/backintime-1.0.24-dont-install-license.patch,
+  -files/backintime-1.0.24-wrapper.patch,
+  -files/backintime-1.0.36-wrapper.patch,
+  -files/backintime-1.0.4-fix-configure-warning.diff,
+  -files/backintime-1.0.4-kde4-root.desktop,
+  -files/backintime-1.1.4-python-version-stderr.patch:
+  Drop old.
+
+  Package-Manager: portage-2.2.26
+

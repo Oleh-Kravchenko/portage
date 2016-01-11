@@ -1,5 +1,5 @@
 # ChangeLog for net-analyzer/linkchecker
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *linkchecker-9999 (09 Aug 2015)
@@ -89,4 +89,9 @@
   Rename virtual/MODULE to virtual/python-MODULE
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  10 Jan 2016; Manuel Rüger <mrueg@gentoo.org> metadata.xml:
+  Add myself as a maintainer
+
+  Package-Manager: portage-2.2.26
 

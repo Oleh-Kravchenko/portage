@@ -62,3 +62,30 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Jan 2016; Agostino Sarubbo <ago@gentoo.org> Clone-0.380.0.ebuild:
+  x86 stable wrt bug #570198
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  09 Jan 2016; Agostino Sarubbo <ago@gentoo.org> Clone-0.380.0.ebuild:
+  sparc stable wrt bug #570198
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  09 Jan 2016; Markus Meier <maekke@gentoo.org> Clone-0.380.0.ebuild:
+  arm stable, bug #570198
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+
+  10 Jan 2016; Agostino Sarubbo <ago@gentoo.org> Clone-0.380.0.ebuild:
+  alpha stable wrt bug #570198
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="alpha"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
