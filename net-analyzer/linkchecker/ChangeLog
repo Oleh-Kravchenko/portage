@@ -95,3 +95,9 @@
 
   Package-Manager: portage-2.2.26
 
+  11 Jan 2016; Justin Lecher <jlec@gentoo.org> linkchecker-9.3-r1.ebuild:
+  Drop direct dependency on dnspython
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

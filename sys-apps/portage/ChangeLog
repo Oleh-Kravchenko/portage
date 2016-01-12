@@ -240,3 +240,17 @@
   RepoMan-Options: --include-arches="alpha"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  11 Jan 2016; Agostino Sarubbo <ago@gentoo.org> portage-2.2.26.ebuild:
+  ia64 stable wrt bug #569920
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  11 Jan 2016; Agostino Sarubbo <ago@gentoo.org> portage-2.2.24.ebuild:
+  ia64 stable wrt bug #567540
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

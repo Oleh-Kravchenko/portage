@@ -688,3 +688,16 @@
   RepoMan-Options: --include-arches="alpha"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*gentoo-sources-4.4.0 (11 Jan 2016)
+
+  11 Jan 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.0.ebuild:
+  Linux patch 4.4.0. Support for namespace user.pax.* on tmpfs. Enable link
+  security restrictions by default. ACPI: Disable Windows 8 compatibility for
+  some Lenovo ThinkPads.Ensure that /dev/root doesn't appear in /proc/mounts
+  when bootint without an initramfs. Bootsplash ported by Marco. (Bug
+  #539616). Add Gentoo Linux support config settings and defaults.Kernel patch
+  enables gcc < v4.9 optimizations for additional CPUs. Kernel patch enables
+  gcc >= v4.9 optimizations for additional CPUs.
+
+  Package-Manager: portage-2.2.26
+

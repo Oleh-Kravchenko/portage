@@ -126,3 +126,8 @@
   -files/elfutils-0.161-libelf-dir-traversal.patch:
   drop <0.163 versions
 
+*elfutils-0.165 (11 Jan 2016)
+
+  11 Jan 2016; Mike Frysinger <vapier@gentoo.org> +elfutils-0.165.ebuild:
+  version bump to 0.165
+

@@ -85,3 +85,11 @@
 
   Package-Manager: portage-2.2.26
 
+  11 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  backports-ssl-match-hostname-3.4.0.2.ebuild:
+  ia64 stable wrt bug #549898
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

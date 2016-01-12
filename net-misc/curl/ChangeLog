@@ -160,3 +160,10 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  11 Jan 2016; Agostino Sarubbo <ago@gentoo.org> curl-7.45.0.ebuild:
+  ia64 stable wrt bug #566864
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

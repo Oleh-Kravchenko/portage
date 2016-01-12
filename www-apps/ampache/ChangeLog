@@ -67,3 +67,10 @@
 
   Package-Manager: portage-2.2.26
 
+  11 Jan 2016; Agostino Sarubbo <ago@gentoo.org> ampache-3.8.1.ebuild:
+  amd64 stable wrt bug #297709
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -81,3 +81,15 @@
 
   Package-Manager: portage-2.2.26
 
+  10 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  sdl2-mixer-2.0.1.ebuild:
+  fix prepare when smpeg2 is not installed
+
+  Package-Manager: portage-2.2.26
+
+  11 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  sdl2-mixer-2.0.1.ebuild:
+  more autotools build fixing
+
+  Package-Manager: portage-2.2.26
+

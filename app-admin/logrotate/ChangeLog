@@ -166,3 +166,10 @@
   RepoMan-Options: --include-arches="alpha"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  11 Jan 2016; Agostino Sarubbo <ago@gentoo.org> logrotate-3.9.1-r1.ebuild:
+  ia64 stable wrt bug #566902
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

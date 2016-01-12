@@ -64,3 +64,9 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  11 Jan 2016; Justin Lecher <jlec@gentoo.org> pyshark-0.3.6.ebuild:
+  Drop python3.5 support due to incompatible deps
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

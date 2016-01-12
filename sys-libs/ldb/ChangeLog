@@ -153,3 +153,20 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*ldb-1.1.24-r1 (11 Jan 2016)
+
+  11 Jan 2016; Ian Stakenvicius <axs@gentoo.org>
+  +files/ldb-1.1.24-optional-python.patch, +ldb-1.1.24-r1.ebuild:
+  convert to multilib
+
+  multilib is needed to support samba-4
+
+  Package-Manager: portage-2.2.26
+
+  11 Jan 2016; Ian Stakenvicius <axs@gentoo.org> ldb-1.1.24-r1.ebuild:
+  remove --blddir configure option as it causes builds to break
+
+  Thanks to iamben for catching this.
+
+  Package-Manager: portage-2.2.26
+

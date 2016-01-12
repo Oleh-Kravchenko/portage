@@ -10,3 +10,8 @@
 
   Signed-off-by: Sven Wegener <swegener@gentoo.org>
 
+  10 Jan 2016; Sven Wegener <swegener@gentoo.org> libjaylink-9999.ebuild:
+  Support static-libs
+
+  Signed-off-by: Sven Wegener <swegener@gentoo.org>
+

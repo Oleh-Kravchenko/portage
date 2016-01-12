@@ -93,3 +93,10 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  11 Jan 2016; Agostino Sarubbo <ago@gentoo.org> freewnn-1.1.1_alpha22.ebuild:
+  ia64 stable wrt bug #566386
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

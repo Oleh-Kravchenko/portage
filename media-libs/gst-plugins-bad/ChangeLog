@@ -170,3 +170,11 @@
 
   Package-Manager: portage-2.2.26
 
+  11 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-bad-0.10.23-r3.ebuild:
+  amd64 stable wrt bug #553742
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

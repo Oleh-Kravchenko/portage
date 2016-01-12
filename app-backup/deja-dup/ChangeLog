@@ -80,3 +80,15 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*deja-dup-34.1 (11 Jan 2016)
+
+  11 Jan 2016; Pacho Ramos <pacho@gentoo.org> +deja-dup-34.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+
+  11 Jan 2016; Pacho Ramos <pacho@gentoo.org> -deja-dup-32.0-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.26
+
