@@ -64,3 +64,9 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Jan 2016; David Seifert <soap@gentoo.org>
+  files/tagtool-0.12.3-underlinking.patch, tagtool-0.12.3-r1.ebuild:
+  Fixed AC_ARG_ENABLE in configure.ac for use_enable
+
+  Package-Manager: portage-2.2.26
+

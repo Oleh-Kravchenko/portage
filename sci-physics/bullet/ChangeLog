@@ -89,3 +89,10 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Jan 2016; Guilherme Amadio <amadio@gentoo.org> -bullet-2.81.ebuild,
+  -bullet-2.82.ebuild, -files/bullet-2.77-gcc46.patch,
+  -files/bullet-2.77-libdir.patch, -files/bullet-2.77-soversion.patch:
+  drop old versions and patches
+
+  Package-Manager: portage-2.2.26
+

@@ -306,3 +306,39 @@
 
   Package-Manager: portage-2.2.26
 
+*samba-4.3.3-r1 (11 Jan 2016)
+
+  11 Jan 2016; Ian Stakenvicius <axs@gentoo.org>
+  +files/samba-4.3.3-disable-python-for-altabi.patch, +samba-4.3.3-r1.ebuild:
+  4.3.3: convert to multilib
+
+  Same huge patch with a few necessary modifications.
+
+  Package-Manager: portage-2.2.26
+
+  12 Jan 2016; Victor Ostorga <vostorga@gentoo.org> -samba-4.1.22.ebuild:
+  Deleting 4.1 series, as right now focus is in >=4.2
+
+  Package-Manager: portage-2.2.24
+
+  12 Jan 2016; Victor Ostorga <vostorga@gentoo.org> -files/4.1/com_err.patch,
+  -files/4.1/samba4.confd, -files/4.1/samba4.initd-r1:
+  Cleaning up 4.1 files
+
+  Package-Manager: portage-2.2.24
+
+  12 Jan 2016; Lars Wendler <polynomial-c@gentoo.org> samba-4.2.7-r1.ebuild,
+  samba-4.3.3-r1.ebuild:
+  Minor formatting fixes.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+*samba-4.3.4 (12 Jan 2016)
+
+  12 Jan 2016; Lars Wendler <polynomial-c@gentoo.org> +samba-4.3.4.ebuild:
+  Bump to version 4.3.4
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

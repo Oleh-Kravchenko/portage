@@ -125,3 +125,11 @@
 
   Signed-off-by: Matthew Thode <prometheanfire@gentoo.org>
 
+*ansible-2.0.0 (12 Jan 2016)
+
+  12 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +ansible-2.0.0.ebuild, ansible-9999.ebuild, metadata.xml:
+  bup and upadte 9999
+
+  Package-Manager: portage-2.2.26
+
