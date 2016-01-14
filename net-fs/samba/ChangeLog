@@ -342,3 +342,15 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  13 Jan 2016; Victor Ostorga <vostorga@gentoo.org> samba-4.2.7-r1.ebuild,
+  samba-4.3.4.ebuild:
+  Modifying subunit dep as multilib dependency
+
+  Package-Manager: portage-2.2.24
+
+  13 Jan 2016; Lars Wendler <polynomial-c@gentoo.org> files/samba.conf:
+  Added /var/lock/samba to tmpfiles.d file (bug #571464).
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

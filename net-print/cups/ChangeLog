@@ -132,3 +132,17 @@
 
   Signed-off-by: Sven Wegener <swegener@gentoo.org>
 
+*cups-2.1.2-r2 (12 Jan 2016)
+
+  12 Jan 2016; Lars Wendler <polynomial-c@gentoo.org> -cups-2.1.2-r1.ebuild,
+  +cups-2.1.2-r2.ebuild:
+  Added epatch command so patches get applied.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  12 Jan 2016; Matthias Maier <tamiko@gentoo.org> cups-9999.ebuild:
+  also fix live-ebuild
+
+  Package-Manager: portage-2.2.26
+

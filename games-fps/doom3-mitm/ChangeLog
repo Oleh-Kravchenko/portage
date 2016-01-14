@@ -60,3 +60,9 @@
 
   Package-Manager: portage-2.2.26
 
+  13 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  doom3-mitm-20070129.ebuild:
+  EAPI=5; attempt at fixing bug #383321
+
+  Package-Manager: portage-2.2.26
+
