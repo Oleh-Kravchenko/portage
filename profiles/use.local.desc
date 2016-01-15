@@ -317,6 +317,7 @@ app-arch/libzpaq:jit - Enable just-in-time compilation for faster compression (r
 app-arch/lz4:valgrind - Enable usage of dev-util/valgrind in tests
 app-arch/p7zip:rar - Enable support for non-free rar decoder
 app-arch/pbzip2:symlink - Install symlinks which override app-arch/bzip2 implementation
+app-arch/pigz:symlink - Install symlinks which override app-arch/gzip implementation
 app-arch/rar:all_sfx - Install all SFX (Self-Extracting) files rather than just the native format (allows creation of Windows EXEs on Linux ELF systems)
 app-arch/tar:minimal - just install `tar`
 app-arch/unzip:natspec - Use dev-libs/libnatspec to correctly decode non-ascii file names archived in Windows.
@@ -1706,7 +1707,6 @@ dev-java/ant:regexp - Enable Apache Regexp Ant tasks
 dev-java/ant:resolver - Enable Apache Resolver Ant tasks
 dev-java/ant:testutil - Enable optional test util classes
 dev-java/antlr:gunit - gUnit is a "Unit Test" framework for ANTLR grammars
-dev-java/antlr:script - Install a script to run antlr
 dev-java/bcel:findbugs - Include performance patch for findbugs package.
 dev-java/commons-collections:test-framework - Install the test framework
 dev-java/commons-logging:avalon-framework - Add optional support for avalon-framework
@@ -2530,6 +2530,7 @@ dev-qt/qthelp:compat - Build the extra compatibility layer required by a few pac
 dev-qt/qthelp:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtmultimedia:egl - Enable EGL integration
 dev-qt/qtmultimedia:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
+dev-qt/qtmultimedia:gles2 - Enable EGL/GLES2 integration
 dev-qt/qtmultimedia:gstreamer - Enable audio support via media-libs/gstreamer:1.0
 dev-qt/qtmultimedia:gstreamer010 - Enable audio support via media-libs/gstreamer:0.10
 dev-qt/qtmultimedia:qml - Build QML/QtQuick bindings and imports
@@ -7549,6 +7550,7 @@ sys-fs/aufs4:nfs - Enable support for nfs export
 sys-fs/aufs4:pax_kernel - Apply patch needed for pax enabled kernels
 sys-fs/aufs4:ramfs - Enable initramfs/rootfs support
 sys-fs/btrfs-progs:convert - Build ext2 conversion utility (btrfs-convert)
+sys-fs/btrfs-progs:static - Build static binaries in addition to the dynamic ones
 sys-fs/cryptsetup:gcrypt - Use dev-libs/libgcrypt crypto backend
 sys-fs/cryptsetup:kernel - Use kernel crypto backend (mainly for embedded systems)
 sys-fs/cryptsetup:nettle - Use dev-libs/nettle crypto backend

@@ -209,3 +209,15 @@
   13 Jan 2016; William Hubbs <williamh@gentoo.org> openrc-9999.ebuild:
   sync live ebuild
 
+*openrc-0.20.1 (14 Jan 2016)
+
+  14 Jan 2016; William Hubbs <williamh@gentoo.org> -openrc-0.20.ebuild,
+  +openrc-0.20.1.ebuild:
+  version bump
+
+*openrc-0.20.2 (14 Jan 2016)
+
+  14 Jan 2016; William Hubbs <williamh@gentoo.org> -openrc-0.20.1.ebuild,
+  +openrc-0.20.2.ebuild:
+  version bump
+

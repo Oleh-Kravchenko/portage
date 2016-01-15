@@ -23,3 +23,8 @@
   rspamd-1.0.11.ebuild:
   create /var/run at run time
 
+  13 Jan 2016; Manuel Rüger <mrueg@gentoo.org> rspamd-1.0.11.ebuild:
+  Fix whitespace, copyright
+
+  Package-Manager: portage-2.2.26
+

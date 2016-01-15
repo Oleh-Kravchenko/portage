@@ -143,3 +143,9 @@
 
   Package-Manager: portage-2.2.24
 
+  14 Jan 2016; Andreas Schuerch <nativemad@gentoo.org> ardour-4.6.ebuild,
+  ardour-9999.ebuild:
+  fixed various little things. See bug 571734
+
+  Package-Manager: portage-2.2.26
+

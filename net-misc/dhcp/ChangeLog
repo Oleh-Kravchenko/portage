@@ -122,3 +122,10 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  14 Jan 2016; Agostino Sarubbo <ago@gentoo.org> dhcp-4.3.3_p1.ebuild:
+  amd64 stable wrt bug #571832
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -118,3 +118,12 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*scribus-1.4.6 (14 Jan 2016)
+
+  14 Jan 2016; Justin Lecher <jlec@gentoo.org> scribus-1.4.5.ebuild,
+  +scribus-1.4.6.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
