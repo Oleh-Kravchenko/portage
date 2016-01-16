@@ -173,3 +173,11 @@
 
   Package-Manager: portage-2.2.26
 
+*ansible-2.0.0.2 (14 Jan 2016)
+
+  14 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +ansible-2.0.0.2.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

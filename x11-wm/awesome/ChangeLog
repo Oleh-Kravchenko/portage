@@ -110,3 +110,12 @@
 
   Package-Manager: portage-2.2.26
 
+*awesome-3.5.7 (15 Jan 2016)
+
+  15 Jan 2016; Robin H. Johnson <robbat2@gentoo.org> +awesome-3.5.7.ebuild:
+  bump.
+
+  Package-Manager: portage-2.2.24
+  Acked-by: Alex Alexander <wired@gentoo.org>
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+

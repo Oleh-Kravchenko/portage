@@ -348,3 +348,10 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+*youtube-dl-2016.01.14 (15 Jan 2016)
+
+  15 Jan 2016; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2016.01.14.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.26
+

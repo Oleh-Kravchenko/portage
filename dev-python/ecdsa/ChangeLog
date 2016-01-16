@@ -77,3 +77,9 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Jan 2016; Justin Lecher <jlec@gentoo.org> -ecdsa-0.11-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

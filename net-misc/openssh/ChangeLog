@@ -265,3 +265,13 @@
   +files/openssh-7.1_p2-x509-hpn14v10-glue.patch, +openssh-7.1_p2.ebuild:
   version bump to 7.1_p2 #571892
 
+  15 Jan 2016; Agostino Sarubbo <ago@gentoo.org> openssh-7.1_p2.ebuild:
+  7.1_p2: stable for alpha/amd64/arm/ia64/ppc/ppc64/s390/sh/sparc/x86 wrt bug
+  #571892
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Jan 2016; Mike Frysinger <vapier@gentoo.org> openssh-7.1_p2.ebuild:
+  mark 7.1_p2 arm64/hppa/m68k stable #571892
+
