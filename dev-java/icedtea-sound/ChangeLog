@@ -1,5 +1,5 @@
 # ChangeLog for dev-java/icedtea-sound
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *icedtea-sound-1.0.1 (09 Aug 2015)
@@ -61,4 +61,9 @@
   kinda hard.
 
   Package-Manager: portage-2.2.25
+
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> icedtea-sound-1.0.1.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
 

@@ -64,3 +64,13 @@
 
   Package-Manager: portage-2.2.24
 
+*sauerbraten-2013.02.03 (16 Jan 2016)
+
+  16 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/sauerbraten-2013.02.03-QA.patch,
+  +files/sauerbraten-2013.02.03-system-enet.patch,
+  +sauerbraten-2013.02.03.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

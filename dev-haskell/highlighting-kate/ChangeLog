@@ -1,5 +1,5 @@
 # ChangeLog for dev-haskell/highlighting-kate
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *highlighting-kate-0.6 (09 Aug 2015)
@@ -80,4 +80,12 @@
   amd64, x86 stable, bug #559988
 
   Package-Manager: portage-2.2.20
+
+*highlighting-kate-0.6.1 (16 Jan 2016)
+
+  16 Jan 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +highlighting-kate-0.6.1.ebuild:
+  bump up to 0.6.1
+
+  Package-Manager: portage-2.2.26
 

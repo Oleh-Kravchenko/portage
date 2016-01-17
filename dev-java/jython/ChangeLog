@@ -1,5 +1,5 @@
 # ChangeLog for dev-java/jython
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *jython-2.7.0 (09 Aug 2015)
@@ -91,4 +91,23 @@
   12 Nov 2015; Michał Górny <mgorny@gentoo.org> jython-2.5.3-r3.ebuild,
   jython-2.7.0.ebuild:
   Fix epython.py module first install
+
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> jython-2.1-r11.ebuild,
+  jython-2.2.1-r1.ebuild, jython-2.2.1-r2.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
+
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> -jython-2.1-r11.ebuild,
+  -jython-2.2.1-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> jython-2.2.1-r2.ebuild:
+  Stable on ppc64 in accordance with ALLARCHES policy
+
+  Sorry for breaking the tree!
+
+  Package-Manager: portage-2.2.26
 

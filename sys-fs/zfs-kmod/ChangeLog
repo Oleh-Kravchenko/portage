@@ -230,3 +230,18 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Richard Yao <ryao@gentoo.org>
 
+*zfs-kmod-0.6.5.3-r3 (16 Jan 2016)
+
+  16 Jan 2016; Richard Yao <ryao@gentoo.org> -zfs-kmod-0.6.5.3-r2.ebuild,
+  +zfs-kmod-0.6.5.3-r3.ebuild:
+  0.6.5.3-r3: Many fixes
+
+  Fixes regressions in the code from the proposed stable API branch and an old
+  regression that caused `zpool create -m none -t ...` to fail to set the
+  mountpoint and certain other properties. That only occurred when the
+  ZFSOnLinux
+  specific -t argument is set.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Richard Yao <ryao@gentoo.org>
+

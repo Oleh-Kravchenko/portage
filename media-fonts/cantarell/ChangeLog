@@ -182,3 +182,16 @@
 
   Package-Manager: portage-2.2.26
 
+*cantarell-0.0.21 (16 Jan 2016)
+
+  16 Jan 2016; Pacho Ramos <pacho@gentoo.org> +cantarell-0.0.21.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+
+  16 Jan 2016; Pacho Ramos <pacho@gentoo.org> -cantarell-0.0.19.ebuild,
+  -cantarell-0.0.20.ebuild, -cantarell-0.0.20.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.26
+

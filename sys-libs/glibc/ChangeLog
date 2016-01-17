@@ -1,5 +1,5 @@
 # ChangeLog for sys-libs/glibc
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *glibc-9999 (09 Aug 2015)
@@ -235,4 +235,22 @@
   30 Dec 2015; Mike Frysinger <vapier@gentoo.org>
   files/eblits/src_configure.eblit:
   use new timezone-tools configure flag
+
+  16 Jan 2016; Mike Frysinger <vapier@gentoo.org> files/eblits/common.eblit:
+  rework sparc target selection #323445 #361779
+
+  The current code assumes all targets are at least sparc v9.  This breaks
+  people trying to build for older/embedded targets like sparc v8.  Only use
+  specific targets when the user has set -mcpu.  This does mean we will be
+  using a lower target for some users (who don't have -mcpu set), but that's
+  more in line with what we want.  Similarly, do not assume that because we
+  are using a 64-bit kernel we always want a 64-bit userland or newer cpu.
+
+  We also drop filtering of -mvis flags (we haven't been filtering the newer
+  options like -mvis2 or -mvis3) as it doesn't seem to be an issue.
+
+  We also drop the filtering of -Wa,-xarch and -Wa,-A flags.  We want to let
+  the user select their own, or just rely on the -mcpu setting.  This might
+  mean for some users they get slightly slower builds if they haven't set an
+  explicit -mcpu flag, but that's also what we want.
 

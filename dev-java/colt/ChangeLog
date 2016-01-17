@@ -102,3 +102,8 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> colt-1.2.0-r2.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
+

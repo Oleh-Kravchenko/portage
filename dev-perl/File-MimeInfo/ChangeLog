@@ -70,3 +70,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Jan 2016; Mikle Kolyada <zlogene@gentoo.org>
+  File-MimeInfo-0.270.0.ebuild:
+  stable for all
+
+  Package-Manager: portage-2.2.26
+

@@ -1,5 +1,5 @@
 # ChangeLog for dev-java/gjdoc
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *gjdoc-0.7.9-r2 (09 Aug 2015)
@@ -71,4 +71,9 @@
   anyway.
 
   Package-Manager: portage-2.2.20.1
+
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> gjdoc-0.7.9-r3.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
 

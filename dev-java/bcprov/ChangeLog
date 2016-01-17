@@ -1,5 +1,5 @@
 # ChangeLog for dev-java/bcprov
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *bcprov-1.52 (09 Aug 2015)
@@ -203,4 +203,13 @@
 
   Package-Manager: portage-2.2.20.1
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> bcprov-1.38-r4.ebuild,
+  bcprov-1.40-r2.ebuild, bcprov-1.45-r2.ebuild, bcprov-1.48-r2.ebuild,
+  bcprov-1.49-r4.ebuild, bcprov-1.50-r2.ebuild, bcprov-1.50-r3.ebuild,
+  bcprov-1.50-r4.ebuild, bcprov-1.52-r1.ebuild, bcprov-1.52-r2.ebuild,
+  bcprov-1.52-r3.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
 

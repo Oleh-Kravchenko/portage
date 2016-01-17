@@ -96,3 +96,8 @@
 
   Package-Manager: portage-2.2.26
 
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> checkstyle-5.5-r1.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
+

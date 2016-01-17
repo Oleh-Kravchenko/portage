@@ -1,5 +1,5 @@
 # ChangeLog for sys-kernel/spl
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *spl-9999 (09 Aug 2015)
@@ -209,4 +209,20 @@
   Fails to compile when GRKERNSEC_RANDSTRUCT is enabled.
 
   Package-Manager: portage-2.2.20.1
+
+  16 Jan 2016; Richard Yao <ryao@gentoo.org> spl-0.6.3-r1.ebuild:
+  0.6.3-r1: Drop !PAX_RANDKSTACK (bug #532992)
+
+  This was erroneously enabled following miscommunication with the
+  hardened team. It was removed from all other ebuilds except
+  sys-kernel/spl-0.6.3-r1.
+
+  8573dd@gmail.com filed #532992 on it, which is now being resolved as
+  part of a sweep of old bugs that were previously neglected due to a mix
+  of a lack of time to do a final check and the belief that they had been
+  resolved.
+
+  Package-Manager: portage-2.2.24
+
+  Signed-off-by: Richard Yao <ryao@gentoo.org>
 

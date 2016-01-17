@@ -243,3 +243,16 @@
 
   Package-Manager: portage-2.2.26
 
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org>
+  icedtea-bin-6.1.13.8-r1.ebuild, icedtea-bin-6.1.13.9.ebuild,
+  icedtea-bin-7.2.6.3.ebuild, icedtea-bin-7.2.6.3-r1.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
+
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org>
+  -icedtea-bin-6.1.13.8-r1.ebuild:
+  Remove vulnerable 6.1.13.8 now ppc is dropped
+
+  Package-Manager: portage-2.2.26
+

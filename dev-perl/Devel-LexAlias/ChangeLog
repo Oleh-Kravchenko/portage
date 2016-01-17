@@ -66,3 +66,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Jan 2016; Mikle Kolyada <zlogene@gentoo.org>
+  Devel-LexAlias-0.50.0.ebuild:
+  x86 stable wrt bug #570916
+
+  Package-Manager: portage-2.2.26
+

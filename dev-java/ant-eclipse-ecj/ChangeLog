@@ -1,5 +1,5 @@
 # ChangeLog for dev-java/ant-eclipse-ecj
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *ant-eclipse-ecj-4.4.2 (09 Aug 2015)
@@ -78,4 +78,11 @@
   version bump - new slot 4.5
 
   Package-Manager: portage-2.2.26
+
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org>
+  ant-eclipse-ecj-3.7.2.ebuild, ant-eclipse-ecj-4.2.1.ebuild,
+  ant-eclipse-ecj-4.4.2.ebuild, ant-eclipse-ecj-4.5.1.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
 

@@ -1,5 +1,5 @@
 # ChangeLog for sys-fs/sshfs-fuse
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *sshfs-fuse-2.5 (09 Aug 2015)
@@ -54,4 +54,13 @@
   This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
 
   Bug: https://bugs.gentoo.org/552720
+
+  16 Jan 2016; Tim Harder <radhermit@gentoo.org> metadata.xml,
+  sshfs-fuse-2.5.ebuild:
+  metadata updates for move to github
+
+  Also add myself as a maintainer.
+
+  16 Jan 2016; Tim Harder <radhermit@gentoo.org> -sshfs-fuse-2.4.ebuild:
+  remove old
 

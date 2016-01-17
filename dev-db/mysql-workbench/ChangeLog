@@ -130,3 +130,10 @@
 
   Package-Manager: portage-2.2.26
 
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org>
+  mysql-workbench-6.3.3.ebuild, mysql-workbench-6.3.4.ebuild,
+  mysql-workbench-6.3.4-r1.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
+

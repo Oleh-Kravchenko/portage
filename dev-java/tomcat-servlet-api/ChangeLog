@@ -1,5 +1,5 @@
 # ChangeLog for dev-java/tomcat-servlet-api
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *tomcat-servlet-api-8.0.23 (09 Aug 2015)
@@ -213,4 +213,14 @@
   Package-Manager: portage-2.2.24
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> tomcat-servlet-api-3.ebuild,
+  tomcat-servlet-api-4.1.36.ebuild, tomcat-servlet-api-5.5.27-r1.ebuild,
+  tomcat-servlet-api-5.5.34.ebuild, tomcat-servlet-api-6.0.44.ebuild,
+  tomcat-servlet-api-6.0.44-r1.ebuild, tomcat-servlet-api-7.0.59.ebuild,
+  tomcat-servlet-api-7.0.63.ebuild, tomcat-servlet-api-7.0.64.ebuild,
+  tomcat-servlet-api-7.0.65.ebuild, tomcat-servlet-api-7.0.67.ebuild:
+  Drop support for Java on ppc across the tree
+
+  Sorry! *sniff*
 
