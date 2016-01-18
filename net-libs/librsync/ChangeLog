@@ -115,3 +115,10 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Jan 2016; Agostino Sarubbo <ago@gentoo.org> librsync-2.0.0.ebuild:
+  ppc stable wrt bug #525396
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

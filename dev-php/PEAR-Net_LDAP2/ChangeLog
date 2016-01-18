@@ -67,3 +67,9 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --include-arches="arm"
 
+  17 Jan 2016; Markus Meier <maekke@gentoo.org> PEAR-Net_LDAP2-2.1.0.ebuild:
+  arm stable, bug #571920
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+

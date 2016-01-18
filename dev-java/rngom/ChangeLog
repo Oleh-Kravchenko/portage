@@ -68,3 +68,12 @@
 
   Sorry! *sniff*
 
+*rngom-20100718-r1 (16 Jan 2016)
+
+  16 Jan 2016; Patrice Clement <monsieurp@gentoo.org> -rngom-20100718.ebuild,
+  +rngom-20100718-r1.ebuild:
+  Add missing ressources to jar file. Fixes bug 254404.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

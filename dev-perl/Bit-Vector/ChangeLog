@@ -104,3 +104,13 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Jan 2016; Mikle Kolyada <zlogene@gentoo.org> Bit-Vector-7.400.0.ebuild:
+  ppc stable wrt bug #570022
+
+  Package-Manager: portage-2.2.26
+
+  17 Jan 2016; Mikle Kolyada <zlogene@gentoo.org> Bit-Vector-7.400.0.ebuild:
+  ppc64 stable wrt bug #570022
+
+  Package-Manager: portage-2.2.26
+

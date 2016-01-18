@@ -67,3 +67,8 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Jan 2016; Mikle Kolyada <zlogene@gentoo.org> FCGI-0.770.0.ebuild:
+  ppc stable wrt bug #571418
+
+  Package-Manager: portage-2.2.26
+

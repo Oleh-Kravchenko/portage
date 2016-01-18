@@ -115,3 +115,8 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --include-arches="arm"
 
+  17 Jan 2016; Mikle Kolyada <zlogene@gentoo.org> DBD-Pg-3.4.2.ebuild:
+  ppc stable wrt bug #570644
+
+  Package-Manager: portage-2.2.26
+

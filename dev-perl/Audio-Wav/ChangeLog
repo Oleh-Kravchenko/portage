@@ -69,3 +69,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Jan 2016; Mikle Kolyada <zlogene@gentoo.org> Audio-Wav-0.140.0.ebuild:
+  ppc stable wrt bug #569870
+
+  Package-Manager: portage-2.2.26
+

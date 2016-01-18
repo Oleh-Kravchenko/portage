@@ -68,3 +68,15 @@
 
   Package-Manager: portage-2.2.26
 
+*qcodeedit-2.2.3-r2 (17 Jan 2016)
+
+  17 Jan 2016; David Seifert <soap@gentoo.org>
+  +files/qcodeedit-2.2.3-fix-parallel-build.patch, -qcodeedit-2.2.3-r1.ebuild,
+  +qcodeedit-2.2.3-r2.ebuild:
+  Port from qt4-r2.eclass to qmake-utils.eclass
+
+  * EAPI=6
+  * Fix parallel building caused by incomplete dependencies
+
+  Package-Manager: portage-2.2.26
+

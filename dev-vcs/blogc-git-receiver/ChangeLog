@@ -1,5 +1,5 @@
 # ChangeLog for dev-vcs/blogc-git-receiver
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *blogc-git-receiver-9999 (23 Aug 2015)
@@ -73,6 +73,14 @@
 
   11 Nov 2015; Rafael G. Martins <rafaelmartins@gentoo.org>
   -blogc-git-receiver-0.1.ebuild, +blogc-git-receiver-0.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.20.1
+
+*blogc-git-receiver-0.3 (17 Jan 2016)
+
+  17 Jan 2016; Rafael G. Martins <rafaelmartins@gentoo.org>
+  -blogc-git-receiver-0.2.ebuild, +blogc-git-receiver-0.3.ebuild:
   version bump
 
   Package-Manager: portage-2.2.20.1

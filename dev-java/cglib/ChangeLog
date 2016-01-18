@@ -70,3 +70,8 @@
 
   Sorry! *sniff*
 
+  16 Jan 2016; James Le Cuirot <chewi@gentoo.org> -cglib-3.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+

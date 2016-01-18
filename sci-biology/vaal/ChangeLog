@@ -1,5 +1,5 @@
 # ChangeLog for sci-biology/vaal
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *vaal-46233 (09 Aug 2015)
@@ -69,6 +69,16 @@
   -files/vaal-1.2-respect-flags.patch, -files/vaal-1.6-gcc47.patch,
   -files/vaal-1.6-respect-flags.patch:
   Remove old patches
+
+  Package-Manager: portage-2.2.26
+
+*vaal-46233-r2 (17 Jan 2016)
+
+  17 Jan 2016; David Seifert <soap@gentoo.org> -vaal-46233-r1.ebuild,
+  +vaal-46233-r2.ebuild:
+  Place blockers on sci-biology/allpaths{,lg}
+
+  Gentoo-Bug: 572128
 
   Package-Manager: portage-2.2.26
 

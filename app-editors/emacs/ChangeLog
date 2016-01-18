@@ -1,5 +1,5 @@
 # ChangeLog for app-editors/emacs
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *emacs-24.5 (09 Aug 2015)
@@ -135,4 +135,13 @@
   This reverts commit 5b0d3bb4ec734650d84a7c56372e4fb12edc7d96.
   Revert purely stylistic change. Non-array PATCHES is explicitly
   allowed in EAPI default_src_prepare().
+
+  17 Jan 2016; Ulrich Müller <ulm@gentoo.org> emacs-23.4-r14.ebuild,
+  emacs-24.4-r4.ebuild, emacs-24.5.ebuild, emacs-24.5-r1.ebuild:
+  Fixes for giflib-5.
+
+  Add slot operator to media-libs/giflib dependency throughout.
+  Updated patchset for emacs-23.4, fixes compilation with giflib-5.
+
+  Package-Manager: portage-2.2.26
 

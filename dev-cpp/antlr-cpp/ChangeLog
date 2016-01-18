@@ -30,3 +30,10 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Jan 2016; Agostino Sarubbo <ago@gentoo.org> antlr-cpp-2.7.7.ebuild:
+  ppc stable wrt bug #571954
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

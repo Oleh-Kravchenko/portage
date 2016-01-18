@@ -1,5 +1,5 @@
 # ChangeLog for dev-haskell/wxhaskell
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *wxhaskell-0.90.1.0 (09 Aug 2015)
@@ -59,4 +59,11 @@
   This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
 
   Bug: https://bugs.gentoo.org/552720
+
+  16 Jan 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +files/wxhaskell-0.13.2.3-ghc-7.10.patch, wxhaskell-0.13.2.3.ebuild,
+  wxhaskell-0.90.1.0.ebuild:
+  tweak for ghc-7.10, bug #561254
+
+  Package-Manager: portage-2.2.26
 

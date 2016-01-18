@@ -1,5 +1,5 @@
 # ChangeLog for sys-freebsd/freebsd-lib
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *freebsd-lib-10.1-r1 (09 Aug 2015)
@@ -101,4 +101,10 @@
   sys-freebsd: Move use call from global scope to pkg_setup.
 
   Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=566522
+
+*freebsd-lib-10.2-r2 (16 Jan 2016)
+
+  16 Jan 2016; Yuta Satoh <nigoro.dev@gmail.com> -freebsd-lib-10.2-r1.ebuild,
+  +freebsd-lib-10.2-r2.ebuild:
+  Fix eratta, FreeBSD-EN-16:03.ypclnt
 

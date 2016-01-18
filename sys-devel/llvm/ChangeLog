@@ -386,3 +386,9 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+  17 Jan 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Remove C++11 checks in -9999
+
+  Remove C++11 checks since the relevant gcc versions are stable for long
+  enough already.
+

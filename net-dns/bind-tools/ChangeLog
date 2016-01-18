@@ -175,3 +175,10 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Jan 2016; Agostino Sarubbo <ago@gentoo.org> bind-tools-9.10.3_p2.ebuild:
+  ppc stable wrt bug #568982
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

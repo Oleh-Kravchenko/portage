@@ -1,5 +1,5 @@
 # ChangeLog for dev-ruby/sprockets
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *sprockets-3.2.0 (09 Aug 2015)
@@ -103,4 +103,9 @@
   add 3.4.1
 
   Package-Manager: portage-2.2.20.1
+
+  17 Jan 2016; Hans de Graaff <graaff@gentoo.org> sprockets-3.4.1.ebuild:
+  add ruby22
+
+  Package-Manager: portage-2.2.26
 

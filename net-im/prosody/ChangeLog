@@ -78,3 +78,9 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Jan 2016; Markus Meier <maekke@gentoo.org> prosody-0.9.9.ebuild:
+  arm stable, bug #571312
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="arm"
+

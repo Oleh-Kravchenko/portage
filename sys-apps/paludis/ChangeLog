@@ -91,3 +91,12 @@
   Enable XML support by default, to provide support for metadata.xml
   and other XML files used in Gentoo repositories.
 
+  17 Jan 2016; Michał Górny <mgorny@gentoo.org> paludis-9999.ebuild:
+  Remove really old gcc checks in -9999
+
+*paludis-2.4.0_p20160112 (17 Jan 2016)
+
+  17 Jan 2016; Michał Górny <mgorny@gentoo.org>
+  +paludis-2.4.0_p20160112.ebuild:
+  Add a safe snapshot
+

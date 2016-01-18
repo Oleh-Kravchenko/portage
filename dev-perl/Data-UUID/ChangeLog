@@ -91,3 +91,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Jan 2016; Mikle Kolyada <zlogene@gentoo.org> Data-UUID-1.221.0.ebuild:
+  ppc stable wrt bug #570444
+
+  Package-Manager: portage-2.2.26
+

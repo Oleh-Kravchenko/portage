@@ -85,3 +85,7 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Jan 2016; tharvik <tharvik@users.noreply.github.com>
+  +files/zathura-9999-synctex.patch:
+  add synctex patch for 9999
+

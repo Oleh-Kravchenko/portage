@@ -110,3 +110,17 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Jan 2016; Tobias Klausmann <klausman@gentoo.org> dhcpcd-6.10.0.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 571152
+
+  Package-Manager: portage-2.2.26
+
+  17 Jan 2016; Agostino Sarubbo <ago@gentoo.org> dhcpcd-6.10.0.ebuild:
+  ppc stable wrt bug #571152
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
