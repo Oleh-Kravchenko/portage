@@ -81,3 +81,13 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Jan 2016; Kristian Fiskerstrand <k_f@gentoo.org> -ampache-3.4.3.ebuild,
+  -ampache-3.5.3-r1.ebuild, -ampache-3.5.4.ebuild:
+  Clean up old versions
+
+  Clean up vulnerable versions for security bugs:
+  Bug: 297709
+  Bug: 366689
+
+  Package-Manager: portage-2.2.26
+

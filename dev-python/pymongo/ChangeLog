@@ -1,5 +1,5 @@
 # ChangeLog for dev-python/pymongo
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *pymongo-3.0.3 (09 Aug 2015)
@@ -108,4 +108,11 @@
 
   Package-Manager: portage-2.2.23
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*pymongo-3.2 (18 Jan 2016)
+
+  18 Jan 2016; Jauhien Piatlicki <jauhien@gentoo.org> +pymongo-3.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
 

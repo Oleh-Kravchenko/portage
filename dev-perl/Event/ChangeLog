@@ -106,3 +106,8 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org> -Event-1.210.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+

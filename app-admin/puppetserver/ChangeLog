@@ -116,3 +116,11 @@
 
   Package-Manager: portage-2.2.26
 
+*puppetserver-2.2.1-r1 (18 Jan 2016)
+
+  18 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +puppetserver-2.2.1-r1.ebuild:
+  fixing systemd env file location
+
+  Package-Manager: portage-2.2.26
+

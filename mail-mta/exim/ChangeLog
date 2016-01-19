@@ -1,5 +1,5 @@
 # ChangeLog for mail-mta/exim
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *exim-4.86 (09 Aug 2015)
@@ -128,4 +128,12 @@
   bump to Exim 4.87 RC2
 
   Package-Manager: portage-2.2.20.1
+
+*exim-4.87_rc3 (18 Jan 2016)
+
+  18 Jan 2016; Fabian Groffen <grobian@gentoo.org> -exim-4.87_rc1.ebuild,
+  +exim-4.87_rc3.ebuild:
+  bump to Exim 4.87 RC3
+
+  Package-Manager: portage-2.2.26
 

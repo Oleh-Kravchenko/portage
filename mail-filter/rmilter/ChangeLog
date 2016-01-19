@@ -13,3 +13,8 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*rmilter-1.7.0 (18 Jan 2016)
+
+  18 Jan 2016; Dirkjan Ochtman <djc@gentoo.org> +rmilter-1.7.0.ebuild:
+  version bump to 1.7.0
+

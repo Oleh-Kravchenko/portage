@@ -96,3 +96,9 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Data-UUID-1.217.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+

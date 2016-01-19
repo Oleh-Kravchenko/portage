@@ -1,5 +1,5 @@
 # ChangeLog for sys-kernel/aufs-sources
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *aufs-sources-4.1.4 (09 Aug 2015)
@@ -213,6 +213,15 @@
   17 Dec 2015; Justin Lecher <jlec@gentoo.org> +aufs-sources-4.1.15.ebuild,
   +aufs-sources-4.2.8.ebuild, +aufs-sources-4.3.3.ebuild:
   Bump to latest genpatches and linux release
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*aufs-sources-4.4.0 (18 Jan 2016)
+
+  18 Jan 2016; Justin Lecher <jlec@gentoo.org> +aufs-sources-4.4.0.ebuild,
+  metadata.xml:
+  Bump to latest aufs, genpatches and linux release
 
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>

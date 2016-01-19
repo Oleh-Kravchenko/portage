@@ -374,3 +374,9 @@
 
   Package-Manager: portage-2.2.24
 
+  18 Jan 2016; Victor Ostorga <vostorga@gentoo.org> samba-4.2.7-r1.ebuild,
+  samba-4.3.4.ebuild:
+  Skipping dcerpc_server.h in alternative abi
+
+  Package-Manager: portage-2.2.24
+

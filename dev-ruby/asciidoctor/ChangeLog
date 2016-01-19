@@ -1,5 +1,5 @@
 # ChangeLog for dev-ruby/asciidoctor
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *asciidoctor-1.5.2 (09 Aug 2015)
@@ -61,4 +61,11 @@
   add 1.5.3
 
   Package-Manager: portage-2.2.24
+
+*asciidoctor-1.5.4 (17 Jan 2016)
+
+  17 Jan 2016; Manuel Rüger <mrueg@gentoo.org> +asciidoctor-1.5.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
 

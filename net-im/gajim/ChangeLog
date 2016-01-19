@@ -151,3 +151,8 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Jan 2016; Andreas Schuerch <nativemad@gentoo.org> gajim-0.16.5.ebuild:
+  0.16.5 stable on x86 as per bug 569936
+
+  Package-Manager: portage-2.2.26
+

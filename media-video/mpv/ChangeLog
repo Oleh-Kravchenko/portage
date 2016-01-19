@@ -644,3 +644,29 @@
 
   Package-Manager: portage-2.2.26
 
+  18 Jan 2016; Ian Delaney <idella4@gentoo.org> mpv-9999.ebuild:
+  omit obsolete etc/* entries from DOCS array in 9999
+
+  Build system is mature enough to install files under etc/* from sources
+  into docdir automatically.
+
+  Package-Manager: portage-2.2.26
+
+*mpv-0.15.0 (18 Jan 2016)
+
+  18 Jan 2016; Ian Delaney <idella4@gentoo.org> +mpv-0.15.0.ebuild:
+  version bump to 0.15.0
+
+  Package-Manager: portage-2.2.26
+
+*mpv-0.15.0-r1 (18 Jan 2016)
+
+  18 Jan 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/mpv-0.15.0-fix-null-pointer-dereference.patch, -mpv-0.15.0.ebuild,
+  +mpv-0.15.0-r1.ebuild:
+  revbump to 0.15.0-r1 to fix null pointer dereference
+
+  Upstream issue: https://github.com/mpv-player/mpv/issues/2729
+
+  Package-Manager: portage-2.2.26
+

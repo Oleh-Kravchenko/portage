@@ -193,3 +193,18 @@
 
   Package-Manager: portage-2.2.26
 
+*icinga2-2.4.1-r3 (18 Jan 2016)
+
+  18 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +icinga2-2.4.1-r3.ebuild, metadata.xml:
+  add support for console line-editing
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Matthew Thode <prometheanfire@gentoo.org>
+
+  18 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  icinga2-2.4.1-r3.ebuild:
+  moving flex/bison to depend only
+
+  Package-Manager: portage-2.2.26
+

@@ -224,3 +224,60 @@
 
   Sorry! *sniff*
 
+  18 Jan 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  -tomcat-servlet-api-7.0.63.ebuild, -tomcat-servlet-api-7.0.64.ebuild,
+  -tomcat-servlet-api-8.0.23.ebuild, -tomcat-servlet-api-8.0.24.ebuild,
+  -tomcat-servlet-api-8.0.26.ebuild, -tomcat-servlet-api-8.0.27.ebuild,
+  -tomcat-servlet-api-8.0.29.ebuild:
+  removed obsolete ebuilds
+
+  Package-Manager: portage-2.2.26
+
+  18 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  tomcat-servlet-api-8.0.30.ebuild:
+  amd64 stable wrt bug #572280
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  18 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  tomcat-servlet-api-7.0.67.ebuild:
+  amd64 stable wrt bug #572282
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  18 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  tomcat-servlet-api-6.0.44-r1.ebuild:
+  amd64 stable wrt bug #572286
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  18 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  tomcat-servlet-api-8.0.30.ebuild:
+  x86 stable wrt bug #572280
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  18 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  tomcat-servlet-api-7.0.67.ebuild:
+  x86 stable wrt bug #572282
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  18 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  tomcat-servlet-api-6.0.44-r1.ebuild:
+  x86 stable wrt bug #572286
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

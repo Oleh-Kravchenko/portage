@@ -201,3 +201,15 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Jan 2016; Jeroen Roovers <jer@gentoo.org> cups-filters-1.5.0.ebuild:
+  Stable for HPPA PPC64 (bug #567286).
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+
+  18 Jan 2016; Andreas Schuerch <nativemad@gentoo.org>
+  cups-filters-1.5.0.ebuild:
+  1.5.0 stable on x86, see bug 567286
+
+  Package-Manager: portage-2.2.26
+

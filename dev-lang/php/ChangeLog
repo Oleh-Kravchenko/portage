@@ -826,3 +826,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Jan 2016; Jeroen Roovers <jer@gentoo.org> php-5.5.31.ebuild,
+  php-5.6.17.ebuild:
+  Stable for HPPA PPC64 (bug #571254).
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

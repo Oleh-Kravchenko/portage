@@ -1,5 +1,5 @@
 # ChangeLog for sys-fs/xfsdump
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *xfsdump-3.1.4 (09 Aug 2015)
@@ -88,4 +88,10 @@
 
   24 Nov 2015; Mike Frysinger <vapier@gentoo.org> metadata.xml:
   standardize various metadata.xml style
+
+  18 Jan 2016; Joshua Kinard <kumba@gentoo.org> xfsdump-3.1.6.ebuild:
+  Make sys-devel/gettext optional via the 'nls' USE flag, primarily so it can
+  be masked for xfsdump on uClibc.  Fixes #570548.
+
+  Package-Manager: portage-2.2.26
 

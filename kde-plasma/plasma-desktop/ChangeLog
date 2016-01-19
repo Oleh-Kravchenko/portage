@@ -185,3 +185,21 @@
 
   Package-Manager: portage-2.2.26
 
+  18 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  -plasma-desktop-5.5.0-r1.ebuild:
+  kde-plasma: remove 5.5.0
+
+  Package-Manager: portage-2.2.26
+
+  18 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  -plasma-desktop-5.5.1.ebuild:
+  kde-plasma: remove 5.5.1
+
+  Package-Manager: portage-2.2.26
+
+  18 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  -files/plasma-desktop-5.5.0-favourites-migration.patch:
+  remove unused patch
+
+  Package-Manager: portage-2.2.26
+

@@ -105,3 +105,14 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/0.5.5-ipv6.patch, -files/quakeforge-0.5.5-amd64.patch,
+  -files/quakeforge-0.5.5-gcc41.patch, -files/quakeforge-0.5.5-gcc46.patch,
+  -files/quakeforge-0.5.5-keys.patch, -files/quakeforge-0.5.5-libc.patch,
+  -files/quakeforge-0.5.5-no-page-size.patch,
+  -files/quakeforge-0.5.5-noWerror.patch,
+  -files/quakeforge-0.5.5-zlib-1.2.6.patch, -quakeforge-0.5.5-r2.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

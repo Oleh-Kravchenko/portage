@@ -235,3 +235,14 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Jan 2016; Mike Frysinger <vapier@gentoo.org> openrc-0.13.11.ebuild,
+  openrc-0.14.ebuild, openrc-0.15.ebuild, openrc-0.15.1.ebuild,
+  openrc-0.16.ebuild, openrc-0.16.1.ebuild, openrc-0.16.2.ebuild,
+  openrc-0.16.3.ebuild, openrc-0.16.4.ebuild, openrc-0.17.ebuild,
+  openrc-0.18.3.ebuild, openrc-0.18.4.ebuild, openrc-0.19.1.ebuild,
+  openrc-0.20.2.ebuild, openrc-9999.ebuild:
+  drop old glibc dep
+
+  We don't support glibc-2.3 anymore, so we don't really need to force
+  installing of glibc-2.5+.  Drop the dep to simplify.
+

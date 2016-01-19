@@ -72,3 +72,8 @@
   +newlib-2.3.0.20160104.ebuild:
   version bump to 2.3.0.20160104
 
+  18 Jan 2016; Mike Frysinger <vapier@gentoo.org> newlib-2.2.0.ebuild,
+  newlib-2.2.0.20150423.ebuild, newlib-2.3.0.20160104.ebuild,
+  newlib-9999.ebuild:
+  update git repo location #572250
+

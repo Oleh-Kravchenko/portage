@@ -127,3 +127,6 @@
   -sandbox-2.3-r1.ebuild, -sandbox-2.4.ebuild, -sandbox-2.5.ebuild:
   drop versions <2.6
 
+  18 Jan 2016; Mike Frysinger <vapier@gentoo.org> sandbox-2.10-r1.ebuild:
+  disable pch on PaX kernels #572092
+

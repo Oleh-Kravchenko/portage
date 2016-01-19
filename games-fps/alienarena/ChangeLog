@@ -84,3 +84,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Jan 2016; Tupone Alfredo <tupone@gentoo.org> alienarena-20130827.ebuild,
+  +files/alienarena-20130827-format.patch:
+  Fix format-security. Bug #571894
+
+  Package-Manager: portage-2.2.26
+

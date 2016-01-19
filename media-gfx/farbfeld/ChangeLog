@@ -33,3 +33,8 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Jan 2016; Jeroen Roovers <jer@gentoo.org> farbfeld-9999.ebuild:
+  Add media-libs/lcms:2 dependency.
+
+  Package-Manager: portage-2.2.26
+

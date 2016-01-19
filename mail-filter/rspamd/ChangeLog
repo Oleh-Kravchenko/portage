@@ -28,3 +28,12 @@
 
   Package-Manager: portage-2.2.26
 
+*rspamd-1.1.0 (18 Jan 2016)
+
+  18 Jan 2016; Dirkjan Ochtman <djc@gentoo.org> +rspamd-1.1.0.ebuild:
+  version bump to 1.1.0
+
+  18 Jan 2016; Dirkjan Ochtman <djc@gentoo.org> rspamd-1.0.11.ebuild,
+  rspamd-1.1.0.ebuild:
+  specify slot on openssl dependency
+
