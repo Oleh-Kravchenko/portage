@@ -1,5 +1,5 @@
 # ChangeLog for sys-block/ms-sys
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *ms-sys-2.5.0 (09 Aug 2015)
@@ -62,4 +62,11 @@
 
   Package-Manager: portage-2.2.22
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+*ms-sys-2.5.2 (19 Jan 2016)
+
+  19 Jan 2016; Manuel Rüger <mrueg@gentoo.org> +ms-sys-2.5.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
 

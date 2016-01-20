@@ -74,3 +74,8 @@
   +go-bootstrap-1.4.3.ebuild:
   dev-go/go-bootstrap: version bump
 
+  19 Jan 2016; Fabian Groffen <grobian@gentoo.org> go-bootstrap-1.4.3.ebuild:
+  marked ~x64-solaris
+
+  Package-Manager: portage-2.2.20-prefix
+

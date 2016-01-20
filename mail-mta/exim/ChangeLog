@@ -137,3 +137,9 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Jan 2016; Fabian Groffen <grobian@gentoo.org> exim-4.86-r2.ebuild,
+  exim-4.87_rc3.ebuild, metadata.xml:
+  add support for DANE by Michael Scholl, bug #572298
+
+  Package-Manager: portage-2.2.26
+

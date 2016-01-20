@@ -246,3 +246,9 @@
   We don't support glibc-2.3 anymore, so we don't really need to force
   installing of glibc-2.5+.  Drop the dep to simplify.
 
+*openrc-0.20.3 (19 Jan 2016)
+
+  19 Jan 2016; William Hubbs <williamh@gentoo.org> -openrc-0.20.2.ebuild,
+  +openrc-0.20.3.ebuild:
+  version bump
+

@@ -1,5 +1,5 @@
 # ChangeLog for sci-physics/lammps
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *lammps-20150724 (09 Aug 2015)
@@ -244,4 +244,18 @@
   Version bump
 
   Package-Manager: portage-2.2.24
+
+*lammps-20151211 (17 Dec 2015)
+
+  17 Dec 2015; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20151211.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.24
+
+*lammps-20160115 (19 Jan 2016)
+
+  19 Jan 2016; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20160115.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
 

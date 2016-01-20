@@ -130,3 +130,7 @@
   18 Jan 2016; Mike Frysinger <vapier@gentoo.org> sandbox-2.10-r1.ebuild:
   disable pch on PaX kernels #572092
 
+  19 Jan 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/sandbox-2.10-disable-same.patch, sandbox-2.10-r1.ebuild:
+  fix building w/out gc-sections
+

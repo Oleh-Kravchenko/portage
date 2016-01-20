@@ -1,5 +1,5 @@
 # ChangeLog for app-backup/backuppc
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *backuppc-3.3.0-r1 (09 Aug 2015)
@@ -67,4 +67,25 @@
 
   Package-Manager: portage-2.2.25
   RepoMan-Options: --include-arches="arm"
+
+*backuppc-3.3.1 (19 Jan 2016)
+
+  19 Jan 2016; Michael Orlitzky <mjo@gentoo.org> +backuppc-3.3.1.ebuild,
+  +files/99_backuppc.conf:
+  add version 3.3.1 (masked) with apache-2.4 support.
+
+  This new version adds apache-2.4 support to backuppc, but at the cost
+  of requiring www-apache/mpm_itk and a new mod_perl supporting
+  apache-2.4. The former is available and less onerous than the current
+  requirement of a separate web server. However, the only mod_perl
+  supporting apache-2.4 at the moment is masked, so the new version of
+  backuppc is masked as well.
+
+  The configuration for the new version should be more familiar to
+  users: it is enabled by passing -D BACKUPPC to apache2.
+
+  Gentoo-Bug: 532718
+  Gentoo-Bug: 541312
+
+  Package-Manager: portage-2.2.26
 

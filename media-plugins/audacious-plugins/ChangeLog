@@ -1,5 +1,5 @@
 # ChangeLog for media-plugins/audacious-plugins
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *audacious-plugins-3.6.2 (09 Aug 2015)
@@ -133,4 +133,10 @@
   Remove old
 
   Package-Manager: portage-2.2.26
+
+*audacious-plugins-3.7.1 (13 Jan 2016)
+
+  13 Jan 2016; RobinDX <robin9800xt@gmail.com>
+  +audacious-plugins-3.7.1.ebuild:
+  media-sound/audacious&&media-plugins/audacious-plugins:Version bump to 3.7.1
 

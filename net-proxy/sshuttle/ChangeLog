@@ -74,3 +74,11 @@
 
   0.74 had a broken entry point.
 
+*sshuttle-0.76 (19 Jan 2016)
+
+  19 Jan 2016; Tim Harder <radhermit@gentoo.org> +sshuttle-0.76.ebuild:
+  version bump to 0.76
+
+  19 Jan 2016; Tim Harder <radhermit@gentoo.org> metadata.xml:
+  add pypi to metadata
+

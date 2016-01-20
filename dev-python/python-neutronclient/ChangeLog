@@ -1,5 +1,5 @@
 # ChangeLog for dev-python/python-neutronclient
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *python-neutronclient-2.6.0 (09 Aug 2015)
@@ -78,4 +78,12 @@
 
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="x86"
+
+*python-neutronclient-3.1.1 (19 Jan 2016)
+
+  19 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +python-neutronclient-3.1.1.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
 

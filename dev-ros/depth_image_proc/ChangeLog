@@ -1,5 +1,5 @@
 # ChangeLog for dev-ros/depth_image_proc
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *depth_image_proc-9999 (23 Sep 2015)
@@ -16,4 +16,13 @@
   Update remote-ids
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*depth_image_proc-1.12.15 (19 Jan 2016)
+
+  19 Jan 2016; Alexis Ballier <aballier@gentoo.org>
+  +depth_image_proc-1.12.15.ebuild:
+  Bump to 1.12.15.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 

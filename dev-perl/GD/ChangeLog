@@ -1,5 +1,5 @@
 # ChangeLog for dev-perl/GD
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *GD-2.500.0-r1 (09 Aug 2015)
@@ -65,6 +65,19 @@
 
   19 Dec 2015; Andreas K. Hüttel <dilfridge@gentoo.org> +GD-2.560.0.ebuild:
   Version bump
+
+  Package-Manager: portage-2.2.26
+
+*GD-2.560.0-r1 (18 Jan 2016)
+
+  18 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +GD-2.560.0-r1.ebuild:
+  Add a workaround for bug 572000; should build correctly now
+
+  Package-Manager: portage-2.2.26
+
+  18 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org> -GD-2.500.0-r1.ebuild,
+  -GD-2.560.0.ebuild:
+  Remove old
 
   Package-Manager: portage-2.2.26
 

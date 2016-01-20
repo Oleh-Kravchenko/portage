@@ -105,3 +105,19 @@
 
   Package-Manager: portage-2.2.26
 
+*kdebase-meta-15.08.3-r2 (19 Jan 2016)
+
+  19 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  +kdebase-meta-15.08.3-r2.ebuild:
+  RDEPEND on kdecore-meta, drop USE=display-manager
+
+  The same use flag is already part of plasma-meta, remove redundancy.
+
+  Package-Manager: portage-2.2.26
+
+  19 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  -kdebase-meta-15.08.3-r1.ebuild:
+  kde-apps/*meta: Drop old
+
+  Package-Manager: portage-2.2.26
+
