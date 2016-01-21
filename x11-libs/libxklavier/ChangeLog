@@ -72,3 +72,9 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Jan 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  libxklavier-5.3-r1.ebuild:
+  use xdg-utils eclass to cleanup XDG_* env variables, bug #572256
+
+  Package-Manager: portage-2.2.26
+

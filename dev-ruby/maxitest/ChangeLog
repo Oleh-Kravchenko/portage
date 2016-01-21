@@ -31,3 +31,8 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Jan 2016; Fabian Groffen <grobian@gentoo.org> maxitest-1.5.5.ebuild:
+  added Prefix keywords, bug #565818
+
+  Package-Manager: portage-2.2.20-prefix
+

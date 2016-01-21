@@ -196,3 +196,9 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Jan 2016; Anthony G. Basile <blueness@gentoo.org>
+  monkeyd-1.5.6-r1.ebuild:
+  inherit eutils, fixes bug #572374
+
+  Package-Manager: portage-2.2.26
+

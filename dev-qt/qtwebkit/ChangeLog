@@ -110,3 +110,13 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/qtwebkit-4.10.4-fix-gcc-5.patch, qtwebkit-4.10.4.ebuild:
+  Fix build with GCC-5, bug 570042
+
+  Patch taken from upstream, see also:
+  https://bugreports.qt.io/browse/QTBUG-44829
+  https://codereview.qt-project.org/#/c/107921/
+
+  Package-Manager: portage-2.2.27
+

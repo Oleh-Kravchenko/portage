@@ -182,3 +182,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Jan 2016; Christian Ruppert <idl0r@gentoo.org>
+  -bind-tools-9.10.2_p2.ebuild, -bind-tools-9.10.2_p4.ebuild,
+  -bind-tools-9.10.2_p4-r1.ebuild:
+  Remove old versions
+
+  Package-Manager: portage-2.2.26
+

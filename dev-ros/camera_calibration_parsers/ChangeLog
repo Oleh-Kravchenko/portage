@@ -35,3 +35,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  20 Jan 2016; Alexis Ballier <aballier@gentoo.org>
+  camera_calibration_parsers-1.11.9.ebuild,
+  camera_calibration_parsers-9999.ebuild:
+  add missing [python] usedep on boost, bug #572378
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

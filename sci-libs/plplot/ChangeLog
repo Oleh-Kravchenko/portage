@@ -89,3 +89,15 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Jan 2016; Justin Lecher <jlec@gentoo.org> plplot-5.11.1-r1.ebuild:
+  Drop deprecated use of virtualx.eclass
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  20 Jan 2016; Justin Lecher <jlec@gentoo.org> plplot-5.11.1-r1.ebuild:
+  Amend test phase again
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

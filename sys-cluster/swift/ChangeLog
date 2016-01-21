@@ -147,3 +147,12 @@
 
   Signed-off-by: Matthew Thode <prometheanfire@gentoo.org>
 
+*swift-2.5.0-r2 (20 Jan 2016)
+
+  20 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -files/cve-2015-5223-stable-kilo.patch,
+  +files/cve-2016-0738-stable-liberty.patch, +swift-2.5.0-r2.ebuild:
+  fixing CVE-2016-0737, CVE-2016-0738
+
+  Package-Manager: portage-2.2.26
+

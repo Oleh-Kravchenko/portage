@@ -80,3 +80,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Jan 2016; Andreas Schuerch <nativemad@gentoo.org>
+  oauth2client-1.5.2.ebuild:
+  1.5.2 stable on x86, see bug 570990
+
+  Package-Manager: portage-2.2.26
+

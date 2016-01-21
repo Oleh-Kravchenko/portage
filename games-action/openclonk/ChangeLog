@@ -1,5 +1,5 @@
 # ChangeLog for games-action/openclonk
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *openclonk-5.5.1 (09 Aug 2015)
@@ -95,4 +95,13 @@
   clean old
 
   Package-Manager: portage-2.2.24
+
+*openclonk-7.0 (19 Jan 2016)
+
+  19 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/openclonk-7.0-paths.patch, +files/openclonk-7.0-postinst.patch,
+  +openclonk-7.0.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
 

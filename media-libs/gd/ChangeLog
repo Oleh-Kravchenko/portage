@@ -139,3 +139,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Jan 2016; Mike Frysinger <vapier@gentoo.org> gd-2.1.1-r1.ebuild:
+  add USE=tiff support #572450
+
+  20 Jan 2016; Mike Frysinger <vapier@gentoo.org> gd-2.1.1-r1.ebuild:
+  amark arm64/ia64/m68k/s390/sh stable #571690
+

@@ -385,3 +385,16 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  -files/wireshark-1.12.5-cross-compile.patch,
+  -files/wireshark-1.12.6-rcc.patch,
+  -files/wireshark-1.12.8-gtk-deprecated-warnings.patch,
+  -files/wireshark-1.99.0-qt5.patch,
+  -files/wireshark-1.99.0.1975-sse4_2.patch,
+  -files/wireshark-1.99.1-sbc.patch, -files/wireshark-1.99.7-qt-pie.patch,
+  -wireshark-1.12.8.ebuild, -wireshark-1.12.8-r1.ebuild,
+  -wireshark-2.0.0.ebuild, -wireshark-2.0.0-r1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+

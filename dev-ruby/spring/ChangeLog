@@ -141,3 +141,16 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+  20 Jan 2016; Hans de Graaff <graaff@gentoo.org> -spring-1.4.0.ebuild,
+  -spring-1.4.4.ebuild, -spring-1.5.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+*spring-1.6.2 (20 Jan 2016)
+
+  20 Jan 2016; Hans de Graaff <graaff@gentoo.org> +spring-1.6.2.ebuild:
+  add 1.6.2 with ruby22
+
+  Package-Manager: portage-2.2.26
+

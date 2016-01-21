@@ -74,3 +74,10 @@
 
   Package-Manager: portage-2.2.26
 
+*free-4.12.4 (19 Jan 2016)
+
+  19 Jan 2016; Sergei Trofimovich <slyfox@gentoo.org> +free-4.12.4.ebuild:
+  bump up to 4.12.4
+
+  Package-Manager: portage-2.2.27
+

@@ -156,3 +156,12 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Jan 2016; Justin Lecher <jlec@gentoo.org>
+  -files/gajim-0.16-desktop.patch, -gajim-0.16.4.ebuild:
+  Drop version vulnerable to CVE-2015-8688
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=569936
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

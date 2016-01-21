@@ -109,3 +109,8 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  20 Jan 2016; Andreas Schuerch <nativemad@gentoo.org> rsa-3.2.3-r1.ebuild:
+  3.2.3-r1 stable on x86, see bug 570990
+
+  Package-Manager: portage-2.2.26
+

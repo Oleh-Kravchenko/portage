@@ -1,5 +1,5 @@
 # ChangeLog for kde-base/pykde4
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *pykde4-4.14.3 (09 Aug 2015)
@@ -76,4 +76,15 @@
 
   29 Dec 2015; Michael Palimaka <kensington@gentoo.org> pykde4-4.14.3.ebuild:
   kde-base: pkgmove KDE PIM to kde-apps/
+
+  20 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/pykde4-4.14.3-gcc-5.patch, pykde4-4.14.3.ebuild:
+  Fix build with GCC-5, bug 567022
+
+  Built fine with GCC 5.3, no reason to believe it will break anything.
+
+  Thx to Erik Zeek for the patch.
+  Tested by: Me and a lot of other people
+
+  Package-Manager: portage-2.2.27
 

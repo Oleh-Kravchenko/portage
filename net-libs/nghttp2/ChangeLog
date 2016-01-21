@@ -198,3 +198,10 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Jan 2016; Justin Lecher <jlec@gentoo.org> nghttp2-1.0.5.ebuild,
+  nghttp2-1.5.0.ebuild, nghttp2-1.6.0.ebuild, nghttp2-9999.ebuild:
+  Set SLOT operators
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

@@ -701,3 +701,50 @@
 
   Package-Manager: portage-2.2.26
 
+*gentoo-sources-4.4.0-r1 (20 Jan 2016)
+*gentoo-sources-4.3.3-r1 (20 Jan 2016)
+
+  20 Jan 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-4.3.3-r1.ebuild, +gentoo-sources-4.4.0-r1.ebuild:
+  Patch for 4.4.0 and 4.3.3 to ensure that thread joining a session keyring
+  does not leak the keyring reference. CVE-2016-0728.
+
+  Package-Manager: portage-2.2.26
+
+*gentoo-sources-4.1.15-r1 (20 Jan 2016)
+
+  20 Jan 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-4.1.15-r1.ebuild:
+  Patch for 4.1.15 to ensure that thread joining a session keyring does not
+  leak the keyring reference. CVE-2016-0728.
+
+  Package-Manager: portage-2.2.26
+
+*gentoo-sources-3.18.25-r1 (20 Jan 2016)
+
+  20 Jan 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.18.25-r1.ebuild:
+  Patch for 3.18.25 to ensure that thread joining a session keyring does not
+  leak the keyring reference. CVE-2016-0728.
+
+  Package-Manager: portage-2.2.26
+
+*gentoo-sources-3.14.58-r1 (20 Jan 2016)
+
+  20 Jan 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.58-r1.ebuild:
+  Patch for >3.14.58 to ensure that thread joining a session keyring does not
+  leak the keyring reference. CVE-2016-0728.
+
+  Package-Manager: portage-2.2.26
+
+*gentoo-sources-3.12.52-r1 (20 Jan 2016)
+
+  20 Jan 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.12.52-r1.ebuild:
+  Patch for >3.12.52 to ensure that thread joining a session keyring does not
+  leak the
+  keyring reference. CVE-2016-0728.
+
+  Package-Manager: portage-2.2.26
+

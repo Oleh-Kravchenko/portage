@@ -86,3 +86,11 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*urlwatch-2.0-r1 (20 Jan 2016)
+
+  20 Jan 2016; Louis Sautier <sautier.louis@gmail.com> -urlwatch-2.0.ebuild,
+  +urlwatch-2.0-r1.ebuild:
+  add missing deps, drop python 2
+
+  Package-Manager: portage-2.2.27
+

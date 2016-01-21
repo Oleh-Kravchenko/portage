@@ -165,3 +165,8 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Jan 2016; Andreas Schuerch <nativemad@gentoo.org> roundcube-1.1.4.ebuild:
+  1.1.4 stable on x86, see bug 570336
+
+  Package-Manager: portage-2.2.26
+

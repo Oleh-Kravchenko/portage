@@ -326,3 +326,17 @@
 
   Package-Manager: portage-2.2.26
 
+*vivaldi-1.0.375.3_p1 (19 Jan 2016)
+
+  19 Jan 2016; Jeroen Roovers <jer@gentoo.org> +vivaldi-1.0.375.3_p1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+
+  19 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  -files/vivaldi-1.0.275.3_p1-flash.patch,
+  -files/vivaldi-1.0.344.37_p1-flash.patch, -vivaldi-1.0.357.5_p1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+

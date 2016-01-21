@@ -65,3 +65,10 @@
 
   Package-Manager: portage-2.2.26
 
+*foldl-1.1.3 (19 Jan 2016)
+
+  19 Jan 2016; Sergei Trofimovich <slyfox@gentoo.org> +foldl-1.1.3.ebuild:
+  bump up to 1.1.3
+
+  Package-Manager: portage-2.2.27
+

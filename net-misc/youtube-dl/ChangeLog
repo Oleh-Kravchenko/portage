@@ -362,3 +362,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*youtube-dl-2016.01.15 (20 Jan 2016)
+
+  20 Jan 2016; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2016.01.15.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+

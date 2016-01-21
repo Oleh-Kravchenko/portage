@@ -62,3 +62,9 @@
 
   Package-Manager: portage-2.2.27
 
+  19 Jan 2016; Jeroen Roovers <jer@gentoo.org> libowfat-0.30.ebuild:
+  Mark ~hppa too.
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

@@ -66,3 +66,11 @@
 
   Package-Manager: portage-2.2.26
 
+*monadrandom-0.4.2.1 (19 Jan 2016)
+
+  19 Jan 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +monadrandom-0.4.2.1.ebuild:
+  bump up to 0.4.2.1
+
+  Package-Manager: portage-2.2.27
+

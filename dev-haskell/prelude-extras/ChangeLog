@@ -67,3 +67,11 @@
 
   Package-Manager: portage-2.2.26
 
+*prelude-extras-0.4.0.3 (19 Jan 2016)
+
+  19 Jan 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +prelude-extras-0.4.0.3.ebuild:
+  bump up to 0.4.0.3
+
+  Package-Manager: portage-2.2.27
+

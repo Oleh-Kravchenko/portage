@@ -227,3 +227,18 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Jan 2016; Christian Ruppert <idl0r@gentoo.org> -bind-9.10.2_p4.ebuild,
+  -bind-9.10.2_p4-r1.ebuild, -files/bind-9.7.3-odbc-dlz-detect.patch,
+  -files/bind-dlzmysql5-reconnect.patch, -files/named.cache,
+  -files/named.cache-r1:
+  Remove old versions. Cleanup
+
+  Package-Manager: portage-2.2.26
+
+*bind-9.10.3_p3 (20 Jan 2016)
+
+  20 Jan 2016; Christian Ruppert <idl0r@gentoo.org> +bind-9.10.3_p3.ebuild:
+  Version bump, fixes bug 572414 - CVE-2015-8704
+
+  Package-Manager: portage-2.2.26
+

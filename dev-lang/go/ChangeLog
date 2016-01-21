@@ -176,3 +176,6 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+  19 Jan 2016; William Hubbs <williamh@gentoo.org> -go-1.5.1-r1.ebuild:
+  remove old unstable version
+
