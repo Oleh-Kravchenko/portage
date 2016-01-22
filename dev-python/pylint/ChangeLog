@@ -136,3 +136,11 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*pylint-1.5.4 (21 Jan 2016)
+
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org> +pylint-1.5.4.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

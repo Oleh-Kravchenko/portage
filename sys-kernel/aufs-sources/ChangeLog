@@ -226,3 +226,16 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*aufs-sources-4.4.0-r1 (21 Jan 2016)
+*aufs-sources-4.3.3-r1 (21 Jan 2016)
+*aufs-sources-4.1.15-r1 (21 Jan 2016)
+*aufs-sources-3.18.25-r1 (21 Jan 2016)
+
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org>
+  +aufs-sources-3.18.25-r1.ebuild, +aufs-sources-4.1.15-r1.ebuild,
+  +aufs-sources-4.3.3-r1.ebuild, +aufs-sources-4.4.0-r1.ebuild:
+  Bump to latest genpatches release - CVE-2016-0728
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

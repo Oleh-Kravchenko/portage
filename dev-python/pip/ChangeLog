@@ -255,3 +255,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*pip-8.0.0-r1 (21 Jan 2016)
+
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org>
+  +files/pip-8.0.0-unbundle.patch, -pip-8.0.0.ebuild, +pip-8.0.0-r1.ebuild:
+  Update unbundle patch
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

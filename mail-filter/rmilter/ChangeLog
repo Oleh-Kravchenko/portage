@@ -18,3 +18,12 @@
   18 Jan 2016; Dirkjan Ochtman <djc@gentoo.org> +rmilter-1.7.0.ebuild:
   version bump to 1.7.0
 
+*rmilter-1.7.1 (21 Jan 2016)
+
+  21 Jan 2016; Dirkjan Ochtman <djc@gentoo.org> +rmilter-1.7.1.ebuild:
+  version bump to 1.7.1
+
+  Remove flex/bison dependencies, as they're in the @system set.
+
+  Package-Manager: portage-2.2.26
+

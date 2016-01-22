@@ -307,3 +307,17 @@
 
   Package-Manager: portage-2.2.26
 
+*xen-4.6.0-r8 (21 Jan 2016)
+*xen-4.5.2-r4 (21 Jan 2016)
+
+  21 Jan 2016; Ian Delaney <idella4@gentoo.org> +xen-4.5.2-r4.ebuild,
+  +xen-4.6.0-r8.ebuild:
+  revbumps to vns. 4.5.2-r4 4.6.0-r8
+
+  wrt gentoo security bug. patches added; xsa 167-4.6, xsa168
+  Purging of led version to await stabilsation of revbumped vns.
+
+  Gentoo bug: #571556, #571552
+
+  Package-Manager: portage-2.2.26
+

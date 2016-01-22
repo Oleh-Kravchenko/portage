@@ -348,3 +348,16 @@
 
   Package-Manager: portage-2.2.26
 
+*nvidia-drivers-361.18-r1 (21 Jan 2016)
+
+  21 Jan 2016; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-361.18.ebuild,
+  +nvidia-drivers-361.18-r1.ebuild:
+  Install libGLESv1_CM_nvidia.so by Javier Villavicencio (bug #572354).
+
+  Package-Manager: portage-2.2.27
+
+  21 Jan 2016; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-361.16.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+

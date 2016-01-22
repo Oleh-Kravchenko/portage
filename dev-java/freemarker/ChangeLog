@@ -66,3 +66,18 @@
 
   Sorry! *sniff*
 
+  20 Jan 2016; Patrice Clement <monsieurp@gentoo.org>
+  freemarker-2.3.13-r2.ebuild:
+  Fix DESCRIPTION length + minor housekeeping.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  20 Jan 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/freemarker-2.3.10-gentoo.patch, -files/freemarker-jython-2.2.patch,
+  -freemarker-2.3.13.ebuild, -freemarker-2.3.13-r1.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

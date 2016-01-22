@@ -141,3 +141,10 @@
 
   Package-Manager: portage-2.2.26_p103
 
+  21 Jan 2016; Mike Gilbert <floppym@gentoo.org> btrfs-progs-4.3.1.ebuild:
+  Work around racy Makefile
+
+  Bug: https://bugs.gentoo.org/572512
+
+  Package-Manager: portage-2.2.26_p103
+

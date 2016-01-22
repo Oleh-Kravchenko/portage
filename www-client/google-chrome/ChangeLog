@@ -188,3 +188,12 @@
 
   Package-Manager: portage-2.2.26_p103
 
+*google-chrome-48.0.2564.82_p1 (21 Jan 2016)
+
+  21 Jan 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-47.0.2526.111_p1.ebuild,
+  +google-chrome-48.0.2564.82_p1.ebuild, metadata.xml:
+  Bump
+
+  Package-Manager: portage-2.2.27_p46_p1154
+

@@ -11,3 +11,8 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org> flexx-0.2.ebuild:
+  Fix typo repo wide
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

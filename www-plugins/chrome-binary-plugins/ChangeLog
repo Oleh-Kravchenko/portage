@@ -504,3 +504,18 @@
 
   Package-Manager: portage-2.2.26_p103
 
+*chrome-binary-plugins-49.0.2623.13_alpha1 (21 Jan 2016)
+*chrome-binary-plugins-48.0.2564.82_p1 (21 Jan 2016)
+*chrome-binary-plugins-48.0.2564.82_beta1 (21 Jan 2016)
+
+  21 Jan 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-47.0.2526.111_p1.ebuild,
+  -chrome-binary-plugins-48.0.2564.79_beta1.ebuild,
+  +chrome-binary-plugins-48.0.2564.82_beta1.ebuild,
+  +chrome-binary-plugins-48.0.2564.82_p1.ebuild,
+  -chrome-binary-plugins-49.0.2618.8_alpha1.ebuild,
+  +chrome-binary-plugins-49.0.2623.13_alpha1.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.27_p46_p1242
+

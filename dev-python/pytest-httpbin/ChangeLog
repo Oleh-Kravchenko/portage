@@ -16,3 +16,8 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org> pytest-httpbin-0.2.0.ebuild:
+  Fix typo repo wide
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

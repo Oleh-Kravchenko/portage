@@ -69,3 +69,16 @@
 
   Package-Manager: portage-2.2.26
 
+  21 Jan 2016; Wolfram Schlich <wschlich@gentoo.org> metadata.xml:
+  added myself to metadata.xml as a maintainer
+
+  Package-Manager: portage-2.2.26
+
+*teamviewer-11.0.53191-r1 (21 Jan 2016)
+
+  21 Jan 2016; Wolfram Schlich <wschlich@gentoo.org>
+  +teamviewer-11.0.53191-r1.ebuild:
+  added dependency on sys-apps/dbus with abi_x86_32 wrt bug #572468
+
+  Package-Manager: portage-2.2.26
+

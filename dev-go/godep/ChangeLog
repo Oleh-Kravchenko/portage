@@ -84,3 +84,8 @@
   14 Jan 2016; William Hubbs <williamh@gentoo.org> +godep-49.ebuild:
   version bump
 
+*godep-50 (21 Jan 2016)
+
+  21 Jan 2016; William Hubbs <williamh@gentoo.org> +godep-50.ebuild:
+  version bump
+

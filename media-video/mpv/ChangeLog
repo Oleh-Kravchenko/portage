@@ -670,3 +670,14 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Jan 2016; Ilya Tumaykin <itumaykin@gmail.com>
+  +files/mpv-0.15.0-fix-vaapi-build-on-older-ffmpeg.patch,
+  mpv-0.15.0-r1.ebuild:
+  fix 0.15.0 build with vaapi USE wrt bug 572386
+
+  Upstream issue: https://github.com/mpv-player/mpv/issues/2737
+
+  Gentoo-Bug: 572386
+
+  Package-Manager: portage-2.2.26
+

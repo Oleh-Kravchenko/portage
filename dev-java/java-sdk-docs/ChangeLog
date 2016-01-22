@@ -105,3 +105,13 @@
 
   Sorry! *sniff*
 
+*java-sdk-docs-1.8.0.72 (21 Jan 2016)
+
+  21 Jan 2016; James Le Cuirot <chewi@gentoo.org>
+  -java-sdk-docs-1.8.0.66.ebuild, +java-sdk-docs-1.8.0.72.ebuild:
+  Version bump
+
+  Straight to stable as the old version has gone.
+
+  Package-Manager: portage-2.2.26
+

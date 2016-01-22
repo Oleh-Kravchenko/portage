@@ -69,3 +69,8 @@
   16 Jan 2016; Tim Harder <radhermit@gentoo.org> pkgcore-9999.ebuild:
   update zsh completion file location
 
+  21 Jan 2016; Tim Harder <radhermit@gentoo.org> pkgcore-9999.ebuild:
+  drop zsh completion install
+
+  Handled internally via the python install process now.
+

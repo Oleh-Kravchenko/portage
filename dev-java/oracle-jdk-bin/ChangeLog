@@ -169,3 +169,35 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+*oracle-jdk-bin-1.8.0.72 (21 Jan 2016)
+*oracle-jdk-bin-1.8.0.71 (21 Jan 2016)
+
+  21 Jan 2016; James Le Cuirot <chewi@gentoo.org>
+  -oracle-jdk-bin-1.8.0.65-r1.ebuild, -oracle-jdk-bin-1.8.0.66-r1.ebuild,
+  +oracle-jdk-bin-1.8.0.71.ebuild, +oracle-jdk-bin-1.8.0.72.ebuild:
+  Version bumps wrt security bug #572432
+
+  Package-Manager: portage-2.2.26
+
+  21 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  oracle-jdk-bin-1.8.0.72.ebuild:
+  amd64 stable wrt bug #572432
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  21 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  oracle-jdk-bin-1.8.0.72.ebuild:
+  x86 stable wrt bug #572432
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  21 Jan 2016; James Le Cuirot <chewi@gentoo.org> metadata.xml,
+  -oracle-jdk-bin-1.8.0.66.ebuild:
+  Remove vulnerable version wrt bug #572432
+
+  Package-Manager: portage-2.2.27
+

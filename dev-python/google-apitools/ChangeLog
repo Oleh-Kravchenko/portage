@@ -78,3 +78,9 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*google-apitools-0.4.15 (21 Jan 2016)
+
+  21 Jan 2016; Mike Frysinger <vapier@gentoo.org>
+  +google-apitools-0.4.15.ebuild:
+  version bump to 0.4.15
+

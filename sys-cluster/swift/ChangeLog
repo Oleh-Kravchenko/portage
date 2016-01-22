@@ -156,3 +156,10 @@
 
   Package-Manager: portage-2.2.26
 
+  21 Jan 2016; Agostino Sarubbo <ago@gentoo.org> swift-2.5.0-r2.ebuild:
+  amd64 stable wrt bug #572460
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

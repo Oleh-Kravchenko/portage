@@ -208,3 +208,14 @@
 
   Package-Manager: portage-2.2.26
 
+*icinga2-2.4.1-r4 (21 Jan 2016)
+
+  21 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -icinga2-2.3.10-r1.ebuild, -icinga2-2.4.0.ebuild, -icinga2-2.4.1.ebuild,
+  -icinga2-2.4.1-r1.ebuild, -icinga2-2.4.1-r2.ebuild,
+  -icinga2-2.4.1-r3.ebuild, +icinga2-2.4.1-r4.ebuild, icinga2-9999.ebuild,
+  metadata.xml:
+  adding missing dep and cleanup
+
+  Package-Manager: portage-2.2.26
+

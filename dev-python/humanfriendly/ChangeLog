@@ -113,3 +113,11 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*humanfriendly-1.43.1 (21 Jan 2016)
+
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org> +humanfriendly-1.43.1.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

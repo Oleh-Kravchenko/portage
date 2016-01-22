@@ -96,3 +96,16 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*assimp-3.2-r2 (21 Jan 2016)
+
+  21 Jan 2016; Slawomir Lis <slis@gentoo.org> -assimp-3.2-r1.ebuild,
+  +assimp-3.2-r2.ebuild:
+  Fixed tests (#571896)
+
+  Package-Manager: portage-2.2.26
+
+  21 Jan 2016; Slawomir Lis <slis@gentoo.org> +files/test-cmakelists.patch:
+  added assimp test patch
+
+  Package-Manager: portage-2.2.26
+

@@ -205,3 +205,33 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*urllib3-1.13.1-r1 (21 Jan 2016)
+
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org>
+  +files/urllib3-1.13.1-unbundle.patch, -urllib3-1.13.1.ebuild,
+  +urllib3-1.13.1-r1.ebuild:
+  Unbundle system libs
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org> urllib3-1.13.1-r1.ebuild:
+  KEYWORD under all arches policy
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org> urllib3-1.13.1-r1.ebuild:
+  Fix to progressive unbundling
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*urllib3-1.14 (21 Jan 2016)
+
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org> +urllib3-1.14.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

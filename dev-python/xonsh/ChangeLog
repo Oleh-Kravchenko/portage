@@ -26,3 +26,9 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  21 Jan 2016; Justin Lecher <jlec@gentoo.org> xonsh-0.2.3.ebuild,
+  xonsh-0.2.4.ebuild:
+  Fix typo repo wide
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
