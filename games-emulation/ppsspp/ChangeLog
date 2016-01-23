@@ -31,3 +31,9 @@
   ppsspp-1.1.0.ebuild, ppsspp-1.1.1.ebuild, ppsspp-9999.ebuild:
   add qt5 support
 
+  22 Jan 2016; Michael Palimaka <kensington@gentoo.org> ppsspp-1.1.0.ebuild,
+  ppsspp-1.1.1.ebuild, ppsspp-9999.ebuild:
+  add missing slot dep
+
+  Package-Manager: portage-2.2.27
+

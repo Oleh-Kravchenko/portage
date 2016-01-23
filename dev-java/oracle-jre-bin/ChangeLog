@@ -176,3 +176,14 @@
 
   Package-Manager: portage-2.2.27
 
+*oracle-jre-bin-1.8.0.72-r1 (22 Jan 2016)
+
+  22 Jan 2016; James Le Cuirot <chewi@gentoo.org>
+  -oracle-jre-bin-1.8.0.72.ebuild, +oracle-jre-bin-1.8.0.72-r1.ebuild:
+  Add missing libXtst dependency, bug #572594
+
+  Straight to stable because adding an RDEPEND to a binary package
+  doesn't hurt.
+
+  Package-Manager: portage-2.2.27
+

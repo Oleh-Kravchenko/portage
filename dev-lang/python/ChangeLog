@@ -498,3 +498,10 @@
   +python-3.5.0-r2.ebuild:
   Revbump to propagate PYVER fixes
 
+  22 Jan 2016; Mike Gilbert <floppym@gentoo.org> python-3.5.1-r2.ebuild:
+  pax-mark the python binary in src_install
+
+  Bug: https://bugs.gentoo.org/569908
+
+  Package-Manager: portage-2.2.27_p47
+

@@ -1,5 +1,5 @@
 # ChangeLog for net-proxy/privoxy
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *privoxy-3.0.23 (09 Aug 2015)
@@ -55,4 +55,24 @@
   This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
 
   Bug: https://bugs.gentoo.org/552720
+
+*privoxy-3.0.24 (22 Jan 2016)
+
+  22 Jan 2016; Andrew Savchenko <bircoph@gentoo.org> +privoxy-3.0.24.ebuild:
+  version bump
+
+  See security bug 572584.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+
+  22 Jan 2016; Andrew Savchenko <bircoph@gentoo.org> metadata.xml,
+  privoxy-3.0.23.ebuild, privoxy-3.0.24.ebuild:
+  update description
+
+  1. Shorten DESCRIPTION to make repoman happy.
+  2. Add longdescription to metadata.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 

@@ -134,3 +134,9 @@
   +files/sandbox-2.10-disable-same.patch, sandbox-2.10-r1.ebuild:
   fix building w/out gc-sections
 
+  22 Jan 2016; Jeroen Roovers <jer@gentoo.org> sandbox-2.10-r1.ebuild:
+  Stable for HPPA PPC64 (bug #571308).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

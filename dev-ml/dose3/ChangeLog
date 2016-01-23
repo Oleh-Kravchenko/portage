@@ -79,3 +79,6 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  21 Jan 2016; Matthew Brewer <tomboy64@sina.cn> dose3-4.2.ebuild:
+  adjust extlib-dependency for dose-4.2
+

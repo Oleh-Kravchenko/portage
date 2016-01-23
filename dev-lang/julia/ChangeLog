@@ -86,3 +86,8 @@
 
   Package-Manager: portage-2.2.26
 
+  22 Jan 2016; Matthias Maier <tamiko@gentoo.org> julia-0.4.3.ebuild:
+  Set up blas/lapack dependencies correctly, bug 572546
+
+  Package-Manager: portage-2.2.26
+

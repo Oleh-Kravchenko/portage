@@ -591,3 +591,41 @@
 
   Package-Manager: portage-2.2.20.1
 
+  22 Jan 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  chromium-48.0.2564.41.ebuild, chromium-49.0.2618.8.ebuild:
+  remove unnecessary USE flag deps on ffmpeg (bug #570010 by xpue)
+
+  Package-Manager: portage-2.2.20.1
+
+*chromium-49.0.2623.0 (22 Jan 2016)
+
+  22 Jan 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-49.0.2612.0.ebuild, +chromium-49.0.2623.0.ebuild:
+  dev channel bump (49.0.2623.0)
+
+  Package-Manager: portage-2.2.20.1
+
+*chromium-48.0.2564.82 (22 Jan 2016)
+
+  22 Jan 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-48.0.2564.82.ebuild:
+  Stable channel bump (48.0.2564.82)
+
+  Package-Manager: portage-2.2.27_p47
+
+  22 Jan 2016; Mike Gilbert <floppym@gentoo.org> chromium-48.0.2564.82.ebuild,
+  chromium-49.0.2623.0.ebuild:
+  Reduce disk requirements
+
+  The tarball size has fixed in recent releases.
+
+  Package-Manager: portage-2.2.27_p47
+
+  22 Jan 2016; Richard Freeman <rich0@gentoo.org>
+  chromium-48.0.2564.82.ebuild:
+  amd64 stable
+
+  Bug: 572542
+
+  Package-Manager: portage-2.2.26
+

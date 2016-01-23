@@ -94,3 +94,11 @@
 
   Package-Manager: portage-2.2.27
 
+  22 Jan 2016; Davide Pesavento <pesa@gentoo.org> qupzilla-1.8.9.ebuild:
+  stable on arm
+
+  Gentoo-Bug: 569926
+  Tested-by: David Flogeras <dflogeras2@gmail.com>
+
+  Package-Manager: portage-2.2.27
+

@@ -80,3 +80,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  22 Jan 2016; Justin Lecher <jlec@gentoo.org> boto-2.39.0.ebuild:
+  Build docs using python2.7
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=572540
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

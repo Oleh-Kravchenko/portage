@@ -308,3 +308,9 @@
 
   Package-Manager: portage-2.2.27_p46_p1251
 
+  22 Jan 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-unstable-49.0.2623.13_p1.ebuild:
+  Remove RPATH workaround
+
+  Package-Manager: portage-2.2.27_p47
+

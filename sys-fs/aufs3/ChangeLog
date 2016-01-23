@@ -1,5 +1,5 @@
 # ChangeLog for sys-fs/aufs3
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *aufs3-3_p20150622 (09 Aug 2015)
@@ -125,5 +125,13 @@
   Bump to latest aufs release
 
   Package-Manager: portage-2.2.26
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*aufs3-3_p20160118 (22 Jan 2016)
+
+  22 Jan 2016; Justin Lecher <jlec@gentoo.org> +aufs3-3_p20160118.ebuild:
+  Bump to latest aufs release
+
+  Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 

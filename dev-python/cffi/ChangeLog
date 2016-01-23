@@ -301,3 +301,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  22 Jan 2016; Justin Lecher <jlec@gentoo.org> cffi-1.5.0.ebuild:
+  Add missing build time dep for docs
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=572406
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

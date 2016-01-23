@@ -94,3 +94,11 @@
 
   Package-Manager: portage-2.2.27
 
+*urlwatch-2.0-r2 (22 Jan 2016)
+
+  22 Jan 2016; Ian Delaney <idella4@gentoo.org> -urlwatch-2.0-r1.ebuild,
+  +urlwatch-2.0-r2.ebuild:
+  add missing dep, drop py2 backport dep
+
+  Package-Manager: portage-2.2.27
+

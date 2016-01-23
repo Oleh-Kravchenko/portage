@@ -197,3 +197,9 @@
 
   Package-Manager: portage-2.2.27_p46_p1154
 
+  22 Jan 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-48.0.2564.82_p1.ebuild:
+  Remote RPATH workaround
+
+  Package-Manager: portage-2.2.27_p47
+

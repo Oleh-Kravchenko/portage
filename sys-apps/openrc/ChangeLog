@@ -252,3 +252,9 @@
   +openrc-0.20.3.ebuild:
   version bump
 
+*openrc-0.20.4 (22 Jan 2016)
+
+  22 Jan 2016; William Hubbs <williamh@gentoo.org> -openrc-0.20.3.ebuild,
+  +openrc-0.20.4.ebuild:
+  version bump
+

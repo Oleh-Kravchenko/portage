@@ -97,3 +97,10 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*re2c-0.16 (21 Jan 2016)
+
+  21 Jan 2016; Sergei Trofimovich <slyfox@gentoo.org> +re2c-0.16.ebuild:
+  bump up to 0.16
+
+  Package-Manager: portage-2.2.27
+

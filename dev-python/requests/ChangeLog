@@ -220,3 +220,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*requests-2.9.1-r2 (22 Jan 2016)
+
+  22 Jan 2016; Justin Lecher <jlec@gentoo.org> -requests-2.9.1-r1.ebuild,
+  +requests-2.9.1-r2.ebuild:
+  Fix version of urllib3 in deps
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

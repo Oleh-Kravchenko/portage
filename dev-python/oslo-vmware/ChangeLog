@@ -107,3 +107,11 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*oslo-vmware-0.11.2 (21 Jan 2016)
+
+  21 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-vmware-0.11.2.ebuild:
+  Revert "dev-python/oslo-vmware: Drop old"
+
+  This reverts commit c362cc01553c7f6f196c580e81044462a405be7e.
+

@@ -1,5 +1,5 @@
 # ChangeLog for net-p2p/amule
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *amule-2.3.1 (09 Aug 2015)
@@ -55,6 +55,31 @@
   This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
 
   Bug: https://bugs.gentoo.org/552720
+
+*amule-2.3.1-r1 (27 Oct 2015)
+
+  27 Oct 2015; Alexander Tsoy <alexander@tsoy.me> +amule-2.3.1-r1.ebuild:
+  EAPI 5 bump
+
+  27 Oct 2015; Alexander Tsoy <alexander@tsoy.me> amule-2.3.1-r1.ebuild:
+  depend on sys-libs/binutils-libs
+
+  Gentoo-Bug: 563976
+
+  27 Oct 2015; Alexander Tsoy <alexander@tsoy.me> amule-2.3.1-r1.ebuild:
+  enable verbose build log
+
+  Gentoo-Bug: 453356
+
+  27 Oct 2015; Alexander Tsoy <alexander@tsoy.me> files/amuled.initd,
+  files/amuleweb.initd:
+  update init script
+
+  - properly pass env variable to the daemon
+  - replace/remove deprecated start-stop-daemon options
+  - use portable shell
+
+  Gentoo-Bug: 420157
 
 *amule-2.3.1-r1 (07 Nov 2015)
 
