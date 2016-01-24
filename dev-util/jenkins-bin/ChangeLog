@@ -265,3 +265,15 @@
 
   Package-Manager: portage-2.2.26
 
+*jenkins-bin-1.645 (23 Jan 2016)
+
+  23 Jan 2016; Manuel Rüger <mrueg@gentoo.org> +jenkins-bin-1.645.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  23 Jan 2016; Manuel Rüger <mrueg@gentoo.org> -jenkins-bin-1.643.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

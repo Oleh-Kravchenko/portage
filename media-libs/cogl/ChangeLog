@@ -1,5 +1,5 @@
 # ChangeLog for media-libs/cogl
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *cogl-1.20.0 (09 Aug 2015)
@@ -78,4 +78,16 @@
   Drop old
 
   Package-Manager: portage-2.2.24
+
+*cogl-1.22.0-r1 (23 Jan 2016)
+
+  23 Jan 2016; Pacho Ramos <pacho@gentoo.org> +cogl-1.22.0-r1.ebuild,
+  +files/cogl-1.22.0-fglrx.patch, +files/cogl-1.22.0-initial-output.patch,
+  +files/cogl-1.22.0-wait-flip.patch:
+  Apply upstream fixes, also fix cogl not working at all with fglrx drivers,
+  we need to apply the fix conditionally until someone figures out how to
+  properly check for fglrx presence for the patch (#567168, upstream bug
+  #756306, thanks to Olcay for reporting and testing this).
+
+  Package-Manager: portage-2.2.26
 

@@ -74,3 +74,6 @@
 
   Handled internally via the python install process now.
 
+  23 Jan 2016; Tim Harder <radhermit@gentoo.org> pkgcore-9999.ebuild:
+  simplify docs build/install
+

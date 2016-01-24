@@ -67,3 +67,9 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Jan 2016; Jeroen Roovers <jer@gentoo.org> librevenge-0.0.2.ebuild:
+  Stable for HPPA PPC64 (bug #568412).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

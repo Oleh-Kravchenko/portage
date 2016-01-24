@@ -59,3 +59,13 @@
   19 Jan 2016; Reinis Danne <rei4dan@gmail.com> +netcdf-fortran-4.4.2.ebuild:
   Version bump to 4.4.2
 
+*netcdf-fortran-4.4.3 (23 Jan 2016)
+
+  23 Jan 2016; David Seifert <soap@gentoo.org> +netcdf-fortran-4.4.3.ebuild:
+  Version bump to 4.4.3
+
+  * EAPI=6
+  * Remove usage of 'autotools-utils'
+
+  Package-Manager: portage-2.2.27
+

@@ -1,5 +1,5 @@
 # ChangeLog for sci-libs/netcdf-cxx
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *netcdf-cxx-4.2.1 (09 Aug 2015)
@@ -60,4 +60,16 @@
   Update remote-ids
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*netcdf-cxx-4.2.1-r1 (23 Jan 2016)
+
+  23 Jan 2016; David Seifert <soap@gentoo.org>
+  files/netcdf-cxx-4.2-config.patch, +netcdf-cxx-4.2.1-r1.ebuild:
+  Add USE=hdf5 dependency on sci-libs/netcdf
+
+  Gentoo-Bug: 566622
+  * EAPI=6
+  * Remove usage of 'autotools-utils'
+
+  Package-Manager: portage-2.2.27
 

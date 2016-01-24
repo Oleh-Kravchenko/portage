@@ -130,3 +130,6 @@
   vim-9999.ebuild:
   version bump to 7.4.1089
 
+  23 Jan 2016; Tim Harder <radhermit@gentoo.org> vim-7.4.769.ebuild:
+  fix SRC_URI for 7.4.769
+

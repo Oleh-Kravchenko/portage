@@ -258,3 +258,9 @@
   +openrc-0.20.4.ebuild:
   version bump
 
+  23 Jan 2016; Markus Meier <maekke@gentoo.org> openrc-0.19.1.ebuild:
+  arm stable, bug #571696
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

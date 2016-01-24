@@ -90,3 +90,8 @@
   11 Jan 2016; Tim Harder <radhermit@gentoo.org> +exiftool-10.09.ebuild:
   version bump to 10.09
 
+*exiftool-10.10 (23 Jan 2016)
+
+  23 Jan 2016; Tim Harder <radhermit@gentoo.org> +exiftool-10.10.ebuild:
+  version bump to 10.10
+

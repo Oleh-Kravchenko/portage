@@ -77,3 +77,9 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Jan 2016; Fabian Groffen <grobian@gentoo.org> glpk-4.54.ebuild,
+  glpk-4.55.ebuild, glpk-4.57.ebuild:
+  drop prefix keywords which don't have the new deps, bug #511446
+
+  Package-Manager: portage-2.2.26
+

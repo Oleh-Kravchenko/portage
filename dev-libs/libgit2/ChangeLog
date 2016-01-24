@@ -171,3 +171,11 @@
 
   Package-Manager: portage-2.2.26
 
+  22 Jan 2016; Justin Lecher <jlec@gentoo.org> libgit2-0.20.0-r1.ebuild,
+  libgit2-0.21.5.ebuild, libgit2-0.22.3.ebuild, libgit2-0.23.2-r1.ebuild,
+  libgit2-0.23.3.ebuild, libgit2-0.23.4.ebuild, libgit2-9999.ebuild:
+  Use egit_clean to clean workdir
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

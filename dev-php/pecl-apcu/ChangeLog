@@ -94,3 +94,10 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Jan 2016; Michael Orlitzky <mjo@gentoo.org> -pecl-apcu-4.0.7.ebuild:
+  remove old revision with incorrect DOCS.
+
+  Gentoo-Bug: 512184
+
+  Package-Manager: portage-2.2.26
+

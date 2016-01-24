@@ -171,3 +171,9 @@
   -man-db-2.6.7.1.ebuild:
   drop old <2.7.2 versions
 
+  23 Jan 2016; Markus Meier <maekke@gentoo.org> man-db-2.7.5.ebuild:
+  arm stable, bug #572214
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

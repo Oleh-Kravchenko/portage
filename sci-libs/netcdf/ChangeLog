@@ -62,3 +62,10 @@
   19 Jan 2016; Reinis Danne <rei4dan@gmail.com> +netcdf-4.4.0.ebuild:
   Version bump to 4.4.0
 
+*netcdf-4.4.0-r1 (23 Jan 2016)
+
+  23 Jan 2016; David Seifert <soap@gentoo.org> +netcdf-4.4.0-r1.ebuild:
+  port to EAPI=6, remove 'autotools-utils' usage
+
+  Package-Manager: portage-2.2.27
+

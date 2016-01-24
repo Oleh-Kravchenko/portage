@@ -213,3 +213,19 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+*xorg-server-1.18.0 (23 Jan 2016)
+
+  23 Jan 2016; Manuel Rüger <mrueg@gentoo.org>
+  +files/xorg-server-1.18-support-multiple-Files-sections.patch,
+  +xorg-server-1.18.0.ebuild:
+  Version bump. Thanks to Coacher
+
+  Changes compared to 1.17.4 ebuild:
+  - drop nptl USE as glx-tls configure option was dropped upstream
+  - drop install-libxf86config configure option as was done upstream
+  - update dep versions according to configure.ac
+  - drop ia64-fix_inx_outx patch as upstream macro now handles ia64
+  - update support-multiple-Files-sections patch to apply cleanly
+
+  Package-Manager: portage-2.2.27
+

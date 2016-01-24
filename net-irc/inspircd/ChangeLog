@@ -104,3 +104,8 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Jan 2016; Michael Palimaka <kensington@gentoo.org> metadata.xml:
+  typo
+
+  Package-Manager: portage-2.2.27
+

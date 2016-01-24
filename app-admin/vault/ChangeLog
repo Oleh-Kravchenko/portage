@@ -1,5 +1,5 @@
 # ChangeLog for app-admin/vault
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *vault-9999 (09 Aug 2015)
@@ -73,4 +73,25 @@
   fix openrc init script to refer to /usr/bin/vault (bug 564290)
 
   Package-Manager: portage-2.2.23
+
+  22 Jan 2016; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  vault-0.1.2.ebuild, vault-0.1.2-r1.ebuild, vault-9999.ebuild:
+  Use egit_clean to clean workdir
+
+  * Sort global scope according to skel.ebuild
+  * Add missing die
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  23 Jan 2016; Zac Medico <zmedico@gentoo.org> -vault-0.1.2.ebuild:
+  remove old version
+
+  Package-Manager: portage-2.2.27
+
+  23 Jan 2016; Zac Medico <zmedico@gentoo.org> vault-0.1.2-r1.ebuild,
+  vault-9999.ebuild:
+  use go env GOOS and GOARCH
+
+  Package-Manager: portage-2.2.27
 

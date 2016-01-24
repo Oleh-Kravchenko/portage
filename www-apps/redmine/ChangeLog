@@ -64,3 +64,13 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Jan 2016; Manuel Rüger <mrueg@gentoo.org> -redmine-2.4.6.ebuild:
+  Remove vulnerable
+
+  Package-Manager: portage-2.2.27
+
+  23 Jan 2016; Manuel Rüger <mrueg@gentoo.org> redmine-2.6.9.ebuild:
+  Fix DESC
+
+  Package-Manager: portage-2.2.27
+

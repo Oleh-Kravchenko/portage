@@ -122,3 +122,8 @@
 
   Package-Manager: portage-2.2.27
 
+  22 Jan 2016; Zac Medico <zmedico@gentoo.org> go-tools-0_pre20160121.ebuild:
+  fix "tipgodoc does not exist" error (bug 572650)
+
+  Package-Manager: portage-2.2.26
+

@@ -220,3 +220,10 @@
 
   Package-Manager: portage-2.2.27
 
+*cups-filters-1.8.1 (23 Jan 2016)
+
+  23 Jan 2016; Manuel Rüger <mrueg@gentoo.org> +cups-filters-1.8.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

@@ -78,3 +78,12 @@
 
   Package-Manager: portage-2.2.26
 
+*rust-bin-1.6.0 (22 Jan 2016)
+
+  22 Jan 2016; Jauhien Piatlicki <jauhien@gentoo.org> +rust-bin-1.6.0.ebuild:
+  version bump
+
+  Thanks to Heather
+
+  Package-Manager: portage-2.2.26
+

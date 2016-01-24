@@ -84,3 +84,15 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+*xf86-video-r128-6.10.1 (23 Jan 2016)
+
+  23 Jan 2016; Manuel Rüger <mrueg@gentoo.org> +xf86-video-r128-6.10.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  23 Jan 2016; Manuel Rüger <mrueg@gentoo.org> -xf86-video-r128-6.9.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

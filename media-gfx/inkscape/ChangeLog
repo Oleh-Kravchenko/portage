@@ -90,3 +90,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  23 Jan 2016; Jeroen Roovers <jer@gentoo.org> inkscape-0.91-r1.ebuild:
+  Stable for HPPA PPC64 (bug #568412).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

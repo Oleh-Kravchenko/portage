@@ -133,3 +133,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  23 Jan 2016; Jeroen Roovers <jer@gentoo.org> debootstrap-1.0.75.ebuild:
+  Stable for HPPA (bug #570806).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

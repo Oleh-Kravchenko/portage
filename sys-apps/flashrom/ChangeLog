@@ -64,3 +64,9 @@
 
   Signed-off-by: Sven Wegener <swegener@gentoo.org>
 
+  22 Jan 2016; Sven Wegener <swegener@gentoo.org> flashrom-9999.ebuild,
+  metadata.xml:
+  Add atapromise programmer USE flag
+
+  Signed-off-by: Sven Wegener <swegener@gentoo.org>
+

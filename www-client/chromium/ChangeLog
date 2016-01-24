@@ -629,3 +629,18 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Jan 2016; Agostino Sarubbo <ago@gentoo.org> chromium-48.0.2564.82.ebuild:
+  x86 stable wrt bug #572542
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  23 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  -chromium-47.0.2526.106.ebuild, -chromium-48.0.2564.10.ebuild,
+  -chromium-48.0.2564.23.ebuild, -chromium-48.0.2564.41.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

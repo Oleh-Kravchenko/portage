@@ -1,5 +1,5 @@
 # ChangeLog for sys-fs/f2fs-tools
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *f2fs-tools-1.4.1 (09 Aug 2015)
@@ -121,4 +121,12 @@
   remove older versions.
 
   Package-Manager: portage-2.2.20.1
+
+*f2fs-tools-1.6.0 (23 Jan 2016)
+
+  23 Jan 2016; Anthony G. Basile <blueness@gentoo.org>
+  +f2fs-tools-1.6.0.ebuild:
+  version bump to 1.6.0, bug #572674
+
+  Package-Manager: portage-2.2.26
 

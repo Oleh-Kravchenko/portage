@@ -1,5 +1,5 @@
 # ChangeLog for media-libs/plib
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *plib-1.8.5 (09 Aug 2015)
@@ -58,4 +58,14 @@
   Add missing remote-id type=sourceforge
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*plib-1.8.5-r1 (23 Jan 2016)
+
+  23 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/plib-1.8.5-CVE-2011-4552.patch,
+  +files/plib-1.8.5-CVE-2011-4620.patch, files/plib-1.8.5-X11.patch,
+  +plib-1.8.5-r1.ebuild:
+  add patches from Debian (bug #395553 and bug #440762)
+
+  Package-Manager: portage-2.2.26
 

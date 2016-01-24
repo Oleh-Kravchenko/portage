@@ -1,5 +1,5 @@
 # ChangeLog for media-sound/splay
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *splay-0.9.5.2 (09 Aug 2015)
@@ -60,4 +60,15 @@
   Add missing remote-id type=sourceforge
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*splay-0.9.5.2-r1 (23 Jan 2016)
+
+  23 Jan 2016; David Seifert <soap@gentoo.org>
+  files/splay-0.9.5.2-external-id3lib.diff,
+  +files/splay-0.9.5.2-modernize-cpp.patch, +splay-0.9.5.2-r1.ebuild:
+  Remove use of 'einstall', EAPI=6
+
+  Gentoo-Bug: 521566
+
+  Package-Manager: portage-2.2.27
 

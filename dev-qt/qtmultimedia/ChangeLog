@@ -124,3 +124,12 @@
 
   Package-Manager: portage-2.2.27
 
+  22 Jan 2016; Davide Pesavento <pesa@gentoo.org>
+  +files/qtmultimedia-4.8.6-Relax-ALSA-version-checks-for-1.1.x.patch,
+  qtmultimedia-4.8.6-r1.ebuild, qtmultimedia-4.8.7.ebuild:
+  backport alsa detection patch to Qt4
+
+  Gentoo-Bug: 572426
+
+  Package-Manager: portage-2.2.27
+

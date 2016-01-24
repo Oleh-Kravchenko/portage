@@ -833,3 +833,20 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+*php-7.0.2-r1 (23 Jan 2016)
+*php-5.6.17-r1 (23 Jan 2016)
+
+  23 Jan 2016; Michael Orlitzky <mjo@gentoo.org> +php-5.6.17-r1.ebuild,
+  -php-7.0.2.ebuild, +php-7.0.2-r1.ebuild:
+  revision the 5.6 and 7.0 series to set --localstatedir.
+
+  The php-fpm.conf file uses the @localstatedir@ passed to ./configure
+  as its default prefix for some settings. The econf default for
+  localstatedir is ${EPREFIX}/var/lib, but php-fpm.conf is expecting
+  ${EPREFIX}/var, so we pass that instead. This ensures that the default
+  log location (e.g. /var/log) actually exists.
+
+  Gentoo-Bug: 572002
+
+  Package-Manager: portage-2.2.26
+

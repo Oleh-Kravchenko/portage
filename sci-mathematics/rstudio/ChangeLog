@@ -1,5 +1,5 @@
 # ChangeLog for sci-mathematics/rstudio
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *rstudio-0.98.1091 (09 Aug 2015)
@@ -154,4 +154,15 @@
   Bump to 0.99.486
 
   Package-Manager: portage-2.2.23
+
+  22 Jan 2016; Justin Lecher <jlec@gentoo.org> rstudio-0.97.336.ebuild,
+  rstudio-0.97.551.ebuild, rstudio-0.98.490.ebuild,
+  rstudio-0.98.490-r1.ebuild, rstudio-0.98.932.ebuild,
+  rstudio-0.98.953.ebuild, rstudio-0.98.1028.ebuild, rstudio-0.98.1091.ebuild,
+  rstudio-0.99.473-r1.ebuild, rstudio-0.99.482.ebuild,
+  rstudio-0.99.483.ebuild, rstudio-0.99.484.ebuild, rstudio-0.99.486.ebuild:
+  Use egit_clean to clean workdir
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
 

@@ -78,3 +78,10 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  23 Jan 2016; Agostino Sarubbo <ago@gentoo.org> supertux-0.4.0.ebuild:
+  amd64 stable wrt bug #572622
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
