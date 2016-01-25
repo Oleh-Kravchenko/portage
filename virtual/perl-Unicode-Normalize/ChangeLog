@@ -1,0 +1,16 @@
+# ChangeLog for virtual/perl-Unicode-Normalize
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*perl-Unicode-Normalize-1.250.0 (24 Jan 2016)
+*perl-Unicode-Normalize-1.180.0 (24 Jan 2016)
+*perl-Unicode-Normalize-1.170.0 (24 Jan 2016)
+
+  24 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +metadata.xml,
+  +perl-Unicode-Normalize-1.170.0.ebuild,
+  +perl-Unicode-Normalize-1.180.0.ebuild,
+  +perl-Unicode-Normalize-1.250.0.ebuild:
+  Add virtual
+
+  Package-Manager: portage-2.2.27
+

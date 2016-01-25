@@ -108,3 +108,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  24 Jan 2016; Jeroen Roovers <jer@gentoo.org> zsh-5.2.ebuild:
+  Stable for HPPA (bug #563320).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

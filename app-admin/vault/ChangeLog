@@ -95,3 +95,15 @@
 
   Package-Manager: portage-2.2.27
 
+*vault-0.4.1 (23 Jan 2016)
+
+  23 Jan 2016; Zac Medico <zmedico@gentoo.org> +vault-0.4.1.ebuild:
+  version bump to 0.4.1
+
+  Package-Manager: portage-2.2.27
+
+  24 Jan 2016; Zac Medico <zmedico@gentoo.org> vault-0.4.1.ebuild:
+  fix paths of installed libs for version 0.4.1
+
+  Package-Manager: portage-2.2.27
+

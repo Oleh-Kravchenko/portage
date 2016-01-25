@@ -119,3 +119,10 @@
   Acked-by: Alex Alexander <wired@gentoo.org>
   Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
 
+  24 Jan 2016; Agostino Sarubbo <ago@gentoo.org> awesome-3.5.6-r2.ebuild:
+  amd64 stable wrt bug #545526
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

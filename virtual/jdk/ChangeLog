@@ -79,3 +79,19 @@
 
   Sorry! *sniff*
 
+*jdk-1.8.0-r1 (24 Jan 2016)
+*jdk-1.7.0-r1 (24 Jan 2016)
+
+  24 Jan 2016; James Le Cuirot <chewi@gentoo.org> +jdk-1.7.0-r1.ebuild,
+  -jdk-1.8.0.ebuild, +jdk-1.8.0-r1.ebuild:
+  It's 2016, let's use EAPI 6 and SLOT dependencies
+
+  Ignoring 1.6 because it's about to die.
+
+  Package-Manager: portage-2.2.27
+
+  24 Jan 2016; James Le Cuirot <chewi@gentoo.org> jdk-1.8.0-r1.ebuild:
+  Add the upcoming icedtea(-bin):8 to 1.8
+
+  Package-Manager: portage-2.2.27
+

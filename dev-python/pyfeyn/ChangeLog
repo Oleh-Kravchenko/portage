@@ -1,5 +1,5 @@
 # ChangeLog for dev-python/pyfeyn
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *pyfeyn-0.3.4-r1 (09 Aug 2015)
@@ -53,4 +53,12 @@
   This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
 
   Bug: https://bugs.gentoo.org/552720
+
+*pyfeyn-0.3.5 (24 Jan 2016)
+
+  24 Jan 2016; Andrey Grozin <grozin@gentoo.org> +files/pyfeyn-0.3.5.patch,
+  +pyfeyn-0.3.5.ebuild:
+  bump to 0.3.5
+
+  Package-Manager: portage-2.2.27
 

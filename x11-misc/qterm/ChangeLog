@@ -78,3 +78,10 @@
 
   Package-Manager: portage-2.2.27
 
+  24 Jan 2016; Agostino Sarubbo <ago@gentoo.org> qterm-0.5.12-r1.ebuild:
+  amd64 stable wrt bug #566218
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

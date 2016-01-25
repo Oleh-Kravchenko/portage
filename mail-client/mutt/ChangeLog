@@ -133,3 +133,9 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  24 Jan 2016; Jeroen Roovers <jer@gentoo.org> mutt-1.5.24-r2.ebuild:
+  Stable for HPPA (bug #572342).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

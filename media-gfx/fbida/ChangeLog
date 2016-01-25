@@ -71,3 +71,17 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  24 Jan 2016; Jeroen Roovers <jer@gentoo.org> fbida-2.10.ebuild:
+  Stable for HPPA PPC64 (bug #572086).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+*fbida-2.10-r1 (24 Jan 2016)
+
+  24 Jan 2016; Jeroen Roovers <jer@gentoo.org> +fbida-2.10-r1.ebuild,
+  +files/fbida-2.10-fprintf-format.patch:
+  Fix internally stored version.
+
+  Package-Manager: portage-2.2.27
+

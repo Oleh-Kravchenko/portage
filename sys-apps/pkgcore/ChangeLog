@@ -77,3 +77,6 @@
   23 Jan 2016; Tim Harder <radhermit@gentoo.org> pkgcore-9999.ebuild:
   simplify docs build/install
 
+  24 Jan 2016; Tim Harder <radhermit@gentoo.org> pkgcore-9999.ebuild:
+  simplify man/docs build conditionals
+

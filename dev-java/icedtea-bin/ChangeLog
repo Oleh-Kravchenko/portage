@@ -256,3 +256,43 @@
 
   Package-Manager: portage-2.2.26
 
+*icedtea-bin-7.2.6.4 (23 Jan 2016)
+
+  23 Jan 2016; James Le Cuirot <chewi@gentoo.org>
+  -icedtea-bin-7.2.6.3-r1.ebuild, +icedtea-bin-7.2.6.4.ebuild:
+  Version bump to 7.2.6.4
+
+  This addresses vulnerabilities being handled in bug #572716.
+
+  Note that this version was built with --disable-system-gif to dlopen
+  libgif because I didn't want to pin unstable users back to v4.
+
+  Package-Manager: portage-2.2.27
+
+  23 Jan 2016; James Le Cuirot <chewi@gentoo.org> icedtea-bin-6.1.13.9.ebuild:
+  Enable webstart by default (again)
+
+  Upstream has asked us to because Oracle always includes it.
+
+  Package-Manager: portage-2.2.27
+
+  24 Jan 2016; Agostino Sarubbo <ago@gentoo.org> icedtea-bin-7.2.6.4.ebuild:
+  amd64 stable wrt bug #572716
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  24 Jan 2016; Agostino Sarubbo <ago@gentoo.org> icedtea-bin-7.2.6.4.ebuild:
+  x86 stable wrt bug #572716
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  24 Jan 2016; James Le Cuirot <chewi@gentoo.org> -icedtea-bin-7.2.6.3.ebuild,
+  metadata.xml:
+  Remove vulnerable version wrt bug #572716
+
+  Package-Manager: portage-2.2.27
+

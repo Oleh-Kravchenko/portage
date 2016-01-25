@@ -71,3 +71,10 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Jan 2016; Agostino Sarubbo <ago@gentoo.org> Finance-Quote-1.370.0.ebuild:
+  amd64 stable wrt bug #572140
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

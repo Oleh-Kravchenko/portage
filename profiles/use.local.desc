@@ -711,6 +711,7 @@ app-emulation/wine:capi - Enable ISDN support via CAPI
 app-emulation/wine:custom-cflags - Bypass strip-flags; use at your own peril
 app-emulation/wine:dos - Pull in games-emulation/dosbox to run DOS applications
 app-emulation/wine:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality; For versions less than wine-1.9.2, uses experimental patch which may break some apps
 app-emulation/wine:mono - Add support for .NET using Wine's Mono add-on
 app-emulation/wine:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
 app-emulation/wine:opencl - Enable OpenCL support
@@ -1750,7 +1751,6 @@ dev-java/icedtea:sunec - Build the SunEC provider against system NSS
 dev-java/icedtea:systemtap - Enable SystemTap probes in HotSpot.
 dev-java/icedtea:webstart - Enable Web Start support (via NetX).
 dev-java/icedtea:zero - Enable Zero assembler port (usually for non-HotSpot architectures)
-dev-java/icedtea-bin:awt - Install non-headless AWT libraries, needed by some GUIs (used to be X flag)
 dev-java/icedtea-bin:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
 dev-java/icedtea-bin:nss - Enable NSS security provider support
 dev-java/icedtea-bin:webstart - Provide javaws command through symlink to icedtea-web
@@ -4840,9 +4840,8 @@ media-video/mpv:sdl - Enable media-libs/libsdl2 based video and audio outputs
 media-video/mpv:uchardet - Enable subtitles charset discovery via dev-libs/uchardet
 media-video/mpv:vf-dlopen - Install additional video filters to be used with -vf dlopen
 media-video/noad:libmpeg2 - Support for libmpeg2 library
-media-video/nvenc:samples - Install video samples to use with the tools.
-media-video/nvenc:tools - Build and install example tools.
 media-video/nvidia-settings:gtk3 - Additionally build the GTK 3 library
+media-video/nvidia_video_sdk:tools - Build and install example tools.
 media-video/ogmrip:ogm - Support for OGM container format
 media-video/ogmrip:srt - Support for SRT subtitle format
 media-video/parole:clutter - Compile in Clutter GTK+ support
@@ -4894,6 +4893,7 @@ media-video/vlc:avcodec - Enables libavcodec support for video/audio encoding/de
 media-video/vlc:avformat - Enables libformat support for reading and writing various media containers. libavformat is part of FFmpeg.
 media-video/vlc:bluray - Enables libbluray for Blu-ray disc support.
 media-video/vlc:chromaprint - Enables libchromaprint for Chromaprint based audio fingerprinter support.
+media-video/vlc:chromecast - Enable experimental support for Google Chromecast.
 media-video/vlc:dc1394 - Enables IIDC cameras support.
 media-video/vlc:dirac - Enable Dirac video support (an advanced royalty-free video compression format) via the reference library: dirac.
 media-video/vlc:directx - Enable Win32 DirectX support.
@@ -4919,6 +4919,7 @@ media-video/vlc:macosx - Enables Mac OS X gui support.
 media-video/vlc:macosx-audio - Enables Mac OS X audio module.
 media-video/vlc:macosx-dialog-provider - Enables Mac OS X dialog module.
 media-video/vlc:macosx-eyetv - Enables Mac OS X EyeTV (TNT Tuner) module.
+media-video/vlc:macosx-notifications - Enables Mac OS X notifications module (formerly growl).
 media-video/vlc:macosx-qtkit - Enables Mac OS X qtkit module: qtcapture (video) and qtsound (audio) module.
 media-video/vlc:macosx-quartztext - Enables Mac OS X quartz text module.
 media-video/vlc:macosx-vout - Enables Mac OS X video output module.

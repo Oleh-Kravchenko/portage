@@ -1,5 +1,5 @@
 # ChangeLog for app-emacs/mmm-mode
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *mmm-mode-0.5.1 (09 Aug 2015)
@@ -75,4 +75,7 @@
   Update remote-ids
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  24 Jan 2016; Ulrich Müller <ulm@gentoo.org> metadata.xml:
+  Split emacs herd and assign its packages to Emacs and GNU Emacs projects.
 

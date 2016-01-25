@@ -177,3 +177,14 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  23 Jan 2016; Mikle Kolyada <zlogene@gentoo.org> man-db-2.7.5.ebuild:
+  amd64 stable wrt bug #572214
+
+  Package-Manager: portage-2.2.26
+
+  24 Jan 2016; Jeroen Roovers <jer@gentoo.org> man-db-2.7.5.ebuild:
+  Stable for HPPA (bug #572214).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

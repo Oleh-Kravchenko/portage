@@ -681,3 +681,8 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Jan 2016; Ilya Tumaykin <itumaykin@gmail.com> mpv-9999.ebuild:
+  add support for vaapi-drm configure option to 9999
+
+  Package-Manager: portage-2.2.27
+

@@ -1,5 +1,5 @@
 # ChangeLog for dev-libs/librep
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *librep-0.92.3 (09 Aug 2015)
@@ -60,4 +60,16 @@
   Add missing remote-id type=sourceforge
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*librep-0.92.5 (24 Jan 2016)
+
+  24 Jan 2016; David Seifert <soap@gentoo.org>
+  files/librep-0.92.0-disable-elisp.patch, +librep-0.92.5.ebuild:
+  Version bump to 0.92.5
+
+  Gentoo-Bug: 570072
+  * Add '-std=gnu89' to CFLAGS to restore pre-GCC5 inline semantics
+  * EAPI=6
+
+  Package-Manager: portage-2.2.27
 

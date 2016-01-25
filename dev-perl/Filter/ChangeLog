@@ -70,3 +70,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  24 Jan 2016; Jeroen Roovers <jer@gentoo.org> Filter-1.540.0.ebuild:
+  Stable for HPPA (bug #572136).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

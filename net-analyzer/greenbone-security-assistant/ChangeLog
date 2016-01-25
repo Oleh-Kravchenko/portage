@@ -110,3 +110,9 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Jan 2016; Hanno <hanno@gentoo.org>
+  -greenbone-security-assistant-6.0.6-r1.ebuild:
+  Remove vulnerable old version (#571726)
+
+  Package-Manager: portage-2.2.27
+

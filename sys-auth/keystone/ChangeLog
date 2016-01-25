@@ -209,3 +209,9 @@
 
   Signed-off-by: Matthew Thode <prometheanfire@gentoo.org>
 
+  24 Jan 2016; Agostino Sarubbo <ago@gentoo.org> keystone-8.0.1.ebuild:
+  amd64/x86 stable, (ALLARCHES policy) wrt bug #572642
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

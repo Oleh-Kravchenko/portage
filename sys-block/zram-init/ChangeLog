@@ -69,3 +69,12 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Jan 2016; Jauhien Piatlicki <jauhien@gentoo.org> zram-init-3.6.ebuild:
+  remove RESTRICT=mirror
+
+  Gentoo-Bug: 572740
+
+  Thanks to Jeroen Roovers
+
+  Package-Manager: portage-2.2.26
+

@@ -81,3 +81,18 @@
 
   Package-Manager: portage-2.2.27
 
+  24 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org> biber-2.2.ebuild,
+  biber-2.3.ebuild:
+  Unicode::Normalize is in perl-core
+
+  Package-Manager: portage-2.2.27
+
+*biber-2.3-r1 (24 Jan 2016)
+*biber-2.2-r1 (24 Jan 2016)
+
+  24 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org> -biber-2.2.ebuild,
+  +biber-2.2-r1.ebuild, -biber-2.3.ebuild, +biber-2.3-r1.ebuild:
+  Empty revbump in memoriam dynamic deps
+
+  Package-Manager: portage-2.2.27
+

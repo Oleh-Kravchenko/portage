@@ -70,3 +70,15 @@
 
   Package-Manager: portage-2.2.27
 
+*consul-template-0.12.2 (24 Jan 2016)
+
+  24 Jan 2016; Zac Medico <zmedico@gentoo.org> +consul-template-0.12.2.ebuild:
+  version bump to 0.12.2
+
+  Package-Manager: portage-2.2.27
+
+  24 Jan 2016; Zac Medico <zmedico@gentoo.org> consul-template-0.12.2.ebuild:
+  add consul to SRC_URI for version 0.12.2 (bug 572784)
+
+  Package-Manager: portage-2.2.27
+

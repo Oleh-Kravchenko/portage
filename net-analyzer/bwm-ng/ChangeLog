@@ -1,5 +1,5 @@
 # ChangeLog for net-analyzer/bwm-ng
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *bwm-ng-0.6-r1 (09 Aug 2015)
@@ -53,4 +53,16 @@
   This partially reverts eaaface92ee81f30a6ac66fe7acbcc42c00dc450.
 
   Bug: https://bugs.gentoo.org/552720
+
+*bwm-ng-0.6.1 (24 Jan 2016)
+
+  24 Jan 2016; David Seifert <soap@gentoo.org> +bwm-ng-0.6.1.ebuild,
+  +files/bwm-ng-0.6.1-fix-buildsystem.patch:
+  Version bump to 0.6.1
+
+  Gentoo-Bug: 561718
+  * EAPI=6
+  * Fix ncurses underlinking issue
+
+  Package-Manager: portage-2.2.27
 

@@ -68,3 +68,10 @@
   pychroot-9999.ebuild:
   version bump to 0.9.13
 
+  23 Jan 2016; Tim Harder <radhermit@gentoo.org> pychroot-9999.ebuild:
+  simplify man pages build/install
+
+  23 Jan 2016; Tim Harder <radhermit@gentoo.org> -pychroot-0.9.9.ebuild,
+  -pychroot-0.9.11.ebuild, -pychroot-0.9.12.ebuild:
+  remove old
+

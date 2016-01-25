@@ -174,3 +174,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  24 Jan 2016; Agostino Sarubbo <ago@gentoo.org> chrony-2.2.1.ebuild:
+  amd64 stable wrt bug #572566
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

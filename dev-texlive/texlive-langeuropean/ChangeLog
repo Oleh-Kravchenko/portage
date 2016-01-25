@@ -1,5 +1,5 @@
 # ChangeLog for dev-texlive/texlive-langeuropean
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *texlive-langeuropean-2015 (09 Aug 2015)
@@ -63,4 +63,11 @@
 
   Package-Manager: portage-2.2.26
   RepoMan-Options: --include-arches="arm"
+
+  24 Jan 2016; Alexis Ballier <aballier@gentoo.org>
+  texlive-langeuropean-2015.ebuild:
+  add blocker on dev-texlive/texlive-langlatvian, bug #572764
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 

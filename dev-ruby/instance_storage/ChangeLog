@@ -1,0 +1,12 @@
+# ChangeLog for dev-ruby/instance_storage
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*instance_storage-1.0.0 (24 Jan 2016)
+
+  24 Jan 2016; Naohiro Aota <naota@gentoo.org> +instance_storage-1.0.0.ebuild,
+  +metadata.xml:
+  add new package
+
+  Package-Manager: portage-2.2.27
+

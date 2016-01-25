@@ -1,5 +1,5 @@
 # ChangeLog for app-emacs/magit
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *magit-1.2.2 (09 Aug 2015)
@@ -121,4 +121,7 @@
   Re-add ~x86 keyword.
 
   Package-Manager: portage-2.2.26
+
+  24 Jan 2016; Ulrich Müller <ulm@gentoo.org> metadata.xml:
+  Split emacs herd and assign its packages to Emacs and GNU Emacs projects.
 

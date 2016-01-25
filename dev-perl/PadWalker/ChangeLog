@@ -1,5 +1,5 @@
 # ChangeLog for dev-perl/PadWalker
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *PadWalker-2.100.0 (09 Aug 2015)
@@ -74,4 +74,10 @@
   Package-Manager: portage-2.2.20.1
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  24 Jan 2016; Jeroen Roovers <jer@gentoo.org> PadWalker-2.100.0.ebuild:
+  Stable for HPPA (bug #569840).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
 

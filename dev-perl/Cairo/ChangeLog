@@ -113,3 +113,14 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Jan 2016; Jeroen Roovers <jer@gentoo.org> Cairo-1.106.0.ebuild:
+  Stable for HPPA (bug #570086).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  24 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org> -Cairo-1.103.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

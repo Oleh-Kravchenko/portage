@@ -113,3 +113,8 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  24 Jan 2016; Ulrich Müller <ulm@gentoo.org> metadata.xml:
+  Whitespace.
+
+  Package-Manager: portage-2.2.26
+
