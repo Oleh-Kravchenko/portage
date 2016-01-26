@@ -150,3 +150,18 @@
   -ekopath-6.0.600_p20151125.ebuild, -ekopath-6.0.617_p20151211.ebuild:
   Drop old
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Replace all herds with appropriate projects (GLEP 67)
+
+  Replace all uses of herd with appropriate project maintainers, or no
+  maintainers in case of herds requested to be disbanded.
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+
+*ekopath-6.0.661_p20160124 (25 Jan 2016)
+
+  25 Jan 2016; Michał Górny <mgorny@gentoo.org>
+  +ekopath-6.0.661_p20160124.ebuild:
+  Snapshot bump
+

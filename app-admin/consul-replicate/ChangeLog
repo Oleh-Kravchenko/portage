@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.2.27
 
+  24 Jan 2016; Zac Medico <zmedico@gentoo.org> consul-replicate-0.2.0.ebuild:
+  add consul to SRC_URI
+
+  Package-Manager: portage-2.2.27
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

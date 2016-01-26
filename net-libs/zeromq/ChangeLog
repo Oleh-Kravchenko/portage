@@ -1,5 +1,5 @@
 # ChangeLog for net-libs/zeromq
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *zeromq-4.1.2 (09 Aug 2015)
@@ -83,4 +83,7 @@
   Gentoo-Bug: https://bugs.gentoo.org/554608
 
   Package-Manager: portage-2.2.24
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
 

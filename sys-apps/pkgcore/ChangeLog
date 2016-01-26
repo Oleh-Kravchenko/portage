@@ -80,3 +80,6 @@
   24 Jan 2016; Tim Harder <radhermit@gentoo.org> pkgcore-9999.ebuild:
   simplify man/docs build conditionals
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

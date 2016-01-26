@@ -91,3 +91,6 @@
   22 Jan 2016; Thomas Beierlein <tomjbe@gentoo.org> +tlf-1.2.3.ebuild:
   Version bump
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

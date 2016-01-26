@@ -82,3 +82,21 @@
 
   Package-Manager: portage-2.2.27
 
+  24 Jan 2016; Zac Medico <zmedico@gentoo.org> consul-template-0.12.2.ebuild:
+  add sys and vault to SRC_URI for version 0.12.2 (bug 572784)
+
+  Package-Manager: portage-2.2.27
+
+  24 Jan 2016; Zac Medico <zmedico@gentoo.org> consul-template-0.12.2.ebuild:
+  add gopkg.in/yaml.v2 mapping to get_archive_go_package
+
+  Package-Manager: portage-2.2.27
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+
+  24 Jan 2016; Zac Medico <zmedico@gentoo.org> consul-template-0.12.2.ebuild:
+  add crypto and net to SRC_URI for version 0.12.2 (bug 572784)
+
+  Package-Manager: portage-2.2.27
+

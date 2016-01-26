@@ -113,3 +113,6 @@
   -chrome-remote-desktop-45.0.2454.17-r2.ebuild:
   drop old versions that no longer work
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

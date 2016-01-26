@@ -89,3 +89,24 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Replace all herds with appropriate projects (GLEP 67)
+
+  Replace all uses of herd with appropriate project maintainers, or no
+  maintainers in case of herds requested to be disbanded.
+
+*backuppc-3.3.1-r1 (25 Jan 2016)
+
+  25 Jan 2016; Michael Orlitzky <mjo@gentoo.org> -backuppc-3.3.1.ebuild,
+  +backuppc-3.3.1-r1.ebuild:
+  un-remove systemd service file in v3.3.1.
+
+  For some reason lost to time, I omitted the installation of the
+  systemd service file from backuppc-3.3.1.ebuild. Erik Zeek reported
+  the omission and provided a fix in bug 572818.
+
+  Gentoo-Bug: 572818
+  Reported-by: Erik Zeek
+
+  Package-Manager: portage-2.2.26
+

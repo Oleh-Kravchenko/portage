@@ -96,3 +96,6 @@
   17 Jan 2016; Dongxu Li <dongxuli2011@gmail.com> librecad-2.0.9.ebuild:
   depends slots
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

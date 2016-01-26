@@ -123,3 +123,24 @@
 
   Package-Manager: portage-2.2.26
 
+*qbittorrent-3.3.3 (23 Jan 2016)
+
+  23 Jan 2016; RobinDX <robin9800xt@gmail.com> +qbittorrent-3.3.3.ebuild,
+  qbittorrent-9999.ebuild:
+  version bump & new 9999 ebuild
+
+  24 Jan 2016; Jauhien Piatlicki <jauhien@gentoo.org>
+  qbittorrent-3.3.3.ebuild, qbittorrent-9999.ebuild:
+  apply changes from 3.3.2 to recent versions
+
+  Package-Manager: portage-2.2.26
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Replace all herds with appropriate projects (GLEP 67)
+
+  Replace all uses of herd with appropriate project maintainers, or no
+  maintainers in case of herds requested to be disbanded.
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

@@ -850,3 +850,43 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Unify quoting in metadata.xml files for machine processing
+
+  Force unified quoting in all metadata.xml files since lxml does not
+  preserve original use of single and double quotes. Ensuring unified
+  quoting before the process allows distinguishing the GLEP 67-related
+  metadata.xml changes from unrelated quoting changes.
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Replace all herds with appropriate projects (GLEP 67)
+
+  Replace all uses of herd with appropriate project maintainers, or no
+  maintainers in case of herds requested to be disbanded.
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+
+*php-7.0.2-r2 (25 Jan 2016)
+*php-5.6.17-r2 (25 Jan 2016)
+
+  25 Jan 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.6.17-r1.ebuild,
+  +php-5.6.17-r2.ebuild, -php-7.0.2-r1.ebuild, +php-7.0.2-r2.ebuild:
+  revision the 5.6 and 7.0 series to add pdo-firebird support.
+
+  PHP has two Firebird drivers -- the legacy "interbase" driver and the
+  new pdo-firebird driver. We have always supported the legacy driver
+  with USE=firebird, but were missing the pdo-firebird configure flag
+  when USE="pdo firebird" was set. Similar tricks were in place for
+  e.g. sqlite and oci8, but Firebird was forgotten.
+
+  Dmitry A. Bakshaev was nice enough to point this out in bug 538226,
+  and even supplied a patch. Testing shows that both drivers work in
+  php:5.6, but that only the PDO driver works in php:7.0. That's not
+  a regression; this commit adds the only driver that works in php:7.0.
+
+  Gentoo-Bug: 538226
+  Suggested-By: Dmitry A. Bakshaev
+
+  Package-Manager: portage-2.2.26
+

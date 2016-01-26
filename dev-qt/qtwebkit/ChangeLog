@@ -120,3 +120,30 @@
 
   Package-Manager: portage-2.2.27
 
+  20 Jan 2016; Davide Pesavento <pesa@gentoo.org> +files/4.10.4-gcc5.patch,
+  -files/qtwebkit-4.10.4-fix-gcc-5.patch, qtwebkit-4.10.4.ebuild:
+  use consistent patch names
+
+  Package-Manager: portage-2.2.27
+
+  20 Jan 2016; Davide Pesavento <pesa@gentoo.org> -qtwebkit-5.5.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+
+  20 Jan 2016; Davide Pesavento <pesa@gentoo.org> qtwebkit-5.5.1-r1.ebuild:
+  fix build with USE=-webchannel
+
+  Gentoo-Bug: 572442
+
+  Package-Manager: portage-2.2.27
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Replace all herds with appropriate projects (GLEP 67)
+
+  Replace all uses of herd with appropriate project maintainers, or no
+  maintainers in case of herds requested to be disbanded.
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

@@ -173,3 +173,19 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+
+*logrotate-3.9.2 (25 Jan 2016)
+
+  25 Jan 2016; José María Alonso Josa <nimiux@gentoo.org>
+  +files/logrotate-3.9.2-Werror.patch,
+  +files/logrotate-3.9.2-atomic-create.patch,
+  +files/logrotate-3.9.2-fbsd.patch,
+  +files/logrotate-3.9.2-ignore-hidden.patch,
+  +files/logrotate-3.9.2-lfs.patch, +files/logrotate-3.9.2-noasprintf.patch,
+  +logrotate-3.9.2.ebuild:
+  bump to version 3.9.2
+
+  Package-Manager: portage-2.2.26
+

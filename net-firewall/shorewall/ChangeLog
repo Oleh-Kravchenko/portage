@@ -1,5 +1,5 @@
 # ChangeLog for net-firewall/shorewall
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *shorewall-4.6.11 (09 Aug 2015)
@@ -164,4 +164,13 @@
   files and macros I won't stabilize v5.0.1.1 so people going from v4.x to
   v5.x only
   have to update headers once.
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Replace all herds with appropriate projects (GLEP 67)
+
+  Replace all uses of herd with appropriate project maintainers, or no
+  maintainers in case of herds requested to be disbanded.
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
 

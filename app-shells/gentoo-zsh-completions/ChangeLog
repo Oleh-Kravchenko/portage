@@ -64,3 +64,6 @@
   gentoo-zsh-completions-99999999.ebuild:
   repo moved to the gentoo org
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

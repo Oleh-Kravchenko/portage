@@ -220,3 +220,22 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+
+*lxd-0.27 (25 Jan 2016)
+
+  25 Jan 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxd-0.27-dont-go-get.patch, +files/lxd-0.27-nc-binary-name.patch,
+  +files/lxd-0.27.confd, +files/lxd-0.27.initd, +lxd-0.27.ebuild:
+  bump to 0.27
+
+  Package-Manager: portage-2.2.26
+
+  25 Jan 2016; Erik Mackdanz <stasibear@gentoo.org>
+  -files/lxd-0.24-dont-go-get.patch, -files/lxd-0.24-nc-binary-name.patch,
+  -files/lxd-0.24.confd, -files/lxd-0.24.initd, -lxd-0.24.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.26
+

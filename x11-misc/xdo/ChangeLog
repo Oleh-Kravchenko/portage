@@ -60,3 +60,6 @@
   16 Jan 2016; Tim Harder <radhermit@gentoo.org> +xdo-0.5.ebuild:
   version bump to 0.5
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

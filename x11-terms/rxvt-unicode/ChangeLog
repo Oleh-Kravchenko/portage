@@ -76,3 +76,13 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+
+*rxvt-unicode-9.22 (25 Jan 2016)
+
+  25 Jan 2016; Jeroen Roovers <jer@gentoo.org> +rxvt-unicode-9.22.ebuild:
+  Version bump (bug #563414 by Bohdan Trach and Ben Kohler).
+
+  Package-Manager: portage-2.2.27
+

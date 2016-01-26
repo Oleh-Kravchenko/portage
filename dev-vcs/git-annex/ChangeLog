@@ -81,3 +81,34 @@
 
   Package-Manager: portage-2.2.27
 
+  22 Jan 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +files/git-annex-6.20160114-QC-2.8.2.patch, git-annex-5.20151218.ebuild:
+  fix against QC-2.8.2, bug #572504
+
+  QuickCheck-2.8.2 introduced default instances for
+  Data.Map and Data.Set. git-annex happened to provide
+  those as well.
+
+  Reported-by: bugtrack@web.de
+  Reported-by:  Matthias Maier
+  Bug: https://bugs.gentoo.org/572504
+
+  Package-Manager: portage-2.2.27
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Unify quoting in metadata.xml files for machine processing
+
+  Force unified quoting in all metadata.xml files since lxml does not
+  preserve original use of single and double quotes. Ensuring unified
+  quoting before the process allows distinguishing the GLEP 67-related
+  metadata.xml changes from unrelated quoting changes.
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Replace all herds with appropriate projects (GLEP 67)
+
+  Replace all uses of herd with appropriate project maintainers, or no
+  maintainers in case of herds requested to be disbanded.
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
+

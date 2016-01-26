@@ -1,5 +1,5 @@
 # ChangeLog for net-wireless/broadcom-sta
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
 *broadcom-sta-6.30.223.248-r3 (09 Aug 2015)
@@ -141,4 +141,7 @@
   Fix patch.
 
   Bug: https://bugs.gentoo.org/show_bug.cgi?id=566882
+
+  24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Set appropriate maintainer types in metadata.xml (GLEP 67)
 
