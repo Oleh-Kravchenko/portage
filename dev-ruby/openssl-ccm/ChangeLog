@@ -1,0 +1,12 @@
+# ChangeLog for dev-ruby/openssl-ccm
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*openssl-ccm-1.2.1 (26 Jan 2016)
+
+  26 Jan 2016; Zero_Chaos <zerochaos@gentoo.org> +metadata.xml,
+  +openssl-ccm-1.2.1.ebuild:
+  initial commit
+
+  Package-Manager: portage-2.2.27
+

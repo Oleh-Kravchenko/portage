@@ -30,9 +30,13 @@
 
 #--- END OF EXAMPLES ---
 
-# Michael Orlitzky <mjo@gentoo.org> (22 Jan 2016)
-# Masked for testing of new build system.
->=app-eselect/eselect-php-0.9.0
+# James Le Cuirot <chewi@gentoo.org> (26 Jan 2016)
+# No new release since 2008. Removal in 30 days.
+app-cdr/webcdwriter
+
+# James Le Cuirot <chewi@gentoo.org> (26 Jan 2016)
+# Now part of eselect-java. Removal in 30 days.
+app-eselect/eselect-maven
 
 # Alexis Ballier <aballier@gentoo.org> (22 Jan 2016)
 # Breaks some of its revdeps
@@ -81,12 +85,6 @@ media-libs/evas
 # that can't be transparently used in ghc-7.8 and
 # ghc-7.10, bug #561122
 dev-haskell/extra:0
-
-# Pacho Ramos <pacho@gentoo.org> (16 Jan 2016)
-# Dead for years, not compatible with latest libsigc++ (#569514), it
-# requires either a lot of patching or move to a forked project that tries
-# to continue it. Removal in a month.
-media-sound/seq24
 
 # James Le Cuirot <chewi@gentoo.org> (14 Jan 2016)
 # Superseded by gnu-classpath. Removal in 30 days.

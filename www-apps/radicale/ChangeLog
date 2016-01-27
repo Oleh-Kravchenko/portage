@@ -1,0 +1,18 @@
+# ChangeLog for www-apps/radicale
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*radicale-1.1.1 (26 Jan 2016)
+
+  26 Jan 2016; Maxim Koltsov <maksbotan@gentoo.org>
+  +files/radicale-1.1.1-config.patch, +files/radicale.init.d, +metadata.xml,
+  +radicale-1.1.1.ebuild:
+  add to tree, reworking Sunrise ebuild
+
+  Package-Manager: portage-2.2.27
+
+  26 Jan 2016; Manuel Rüger <mrueg@gentoo.org> metadata.xml:
+  Add myself as maintainer
+
+  Package-Manager: portage-2.2.27
+

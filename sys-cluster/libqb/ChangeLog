@@ -68,3 +68,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libqb-0.17.2 (26 Jan 2016)
+
+  26 Jan 2016; Ultrabug <ultrabug@gentoo.org> +libqb-0.17.2.ebuild:
+  version bump fix #572066
+
+  Package-Manager: portage-2.2.27
+

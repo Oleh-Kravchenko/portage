@@ -116,3 +116,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*facter-3.1.4 (25 Jan 2016)
+*facter-2.4.5 (25 Jan 2016)
+
+  25 Jan 2016; Matthew Thode <prometheanfire@gentoo.org> +facter-2.4.5.ebuild,
+  +facter-3.1.4.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+
+*facter-3.1.4-r1 (26 Jan 2016)
+
+  26 Jan 2016; Matthew Thode <prometheanfire@gentoo.org> -facter-3.1.4.ebuild,
+  +facter-3.1.4-r1.ebuild:
+  fixing bug 573008 and bug 570304
+
+  Package-Manager: portage-2.2.26
+

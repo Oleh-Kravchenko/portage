@@ -216,3 +216,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mysql-5.5.47 (26 Jan 2016)
+
+  26 Jan 2016; Brian Evans <grknight@gentoo.org> +mysql-5.5.47.ebuild:
+  Version bump for 5.5 series
+
+  Package-Manager: portage-2.2.27
+

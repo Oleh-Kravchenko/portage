@@ -87,3 +87,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*activeresource-3.2.22.1 (26 Jan 2016)
+
+  26 Jan 2016; Hans de Graaff <graaff@gentoo.org>
+  +activeresource-3.2.22.1.ebuild:
+  add rails 3.2.22.1
+
+  Package-Manager: portage-2.2.26
+

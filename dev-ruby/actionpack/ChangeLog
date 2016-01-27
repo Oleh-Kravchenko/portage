@@ -134,3 +134,24 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*actionpack-4.2.5.1 (26 Jan 2016)
+
+  26 Jan 2016; Hans de Graaff <graaff@gentoo.org> +actionpack-4.2.5.1.ebuild:
+  add rails 4.2.5.1
+
+  Package-Manager: portage-2.2.26
+
+*actionpack-4.1.14.1 (26 Jan 2016)
+
+  26 Jan 2016; Hans de Graaff <graaff@gentoo.org> +actionpack-4.1.14.1.ebuild:
+  add rails 4.1.14.1
+
+  Package-Manager: portage-2.2.26
+
+*actionpack-3.2.22.1 (26 Jan 2016)
+
+  26 Jan 2016; Hans de Graaff <graaff@gentoo.org> +actionpack-3.2.22.1.ebuild:
+  add rails 3.2.22.1
+
+  Package-Manager: portage-2.2.26
+

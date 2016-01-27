@@ -92,3 +92,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*godep-51 (25 Jan 2016)
+
+  25 Jan 2016; William Hubbs <williamh@gentoo.org> +godep-51.ebuild:
+  version bump
+

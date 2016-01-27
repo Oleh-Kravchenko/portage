@@ -68,3 +68,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*seq24-0.9.3 (26 Jan 2016)
+
+  26 Jan 2016; Alexis Ballier <aballier@gentoo.org> +seq24-0.9.3.ebuild:
+  bump to 0.9.3
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  26 Jan 2016; Agostino Sarubbo <ago@gentoo.org> seq24-0.9.3.ebuild:
+  amd64 stable wrt bug #572964
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

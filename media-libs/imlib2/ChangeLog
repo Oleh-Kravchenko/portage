@@ -109,3 +109,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Jan 2016; Mike Frysinger <vapier@gentoo.org> imlib2-1.4.7.ebuild:
+  set KEYWORDS in ebuild for stabilization #572884
+
+  26 Jan 2016; Agostino Sarubbo <ago@gentoo.org> imlib2-1.4.7.ebuild:
+  amd64 stable wrt bug #572884
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

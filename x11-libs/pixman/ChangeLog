@@ -156,3 +156,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Jan 2016; Matt Turner <mattst88@gentoo.org> -pixman-0.33.2.ebuild:
+  Remove vulnerable version 0.33.2.
+
+  Bug: https://bugs.gentoo.org/561526
+

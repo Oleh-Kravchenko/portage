@@ -112,3 +112,41 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*maven-bin-3.3.9 (26 Jan 2016)
+
+  26 Jan 2016; Miroslav Šulc <fordfrog@gentoo.org> +maven-bin-3.3.9.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+
+  26 Jan 2016; Miroslav Šulc <fordfrog@gentoo.org> -maven-bin-1.1-r1.ebuild,
+  -maven-bin-2.0.11.ebuild, -maven-bin-2.2.1.ebuild, -maven-bin-3.1.0.ebuild,
+  -maven-bin-3.1.0-r1.ebuild, -maven-bin-3.2.3.ebuild,
+  -maven-bin-3.3.3.ebuild:
+  removed obsolete ebuilds
+
+  Package-Manager: portage-2.2.27
+
+  26 Jan 2016; Agostino Sarubbo <ago@gentoo.org> maven-bin-3.1.1.ebuild:
+  amd64 stable wrt bug #572970
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  26 Jan 2016; Agostino Sarubbo <ago@gentoo.org> maven-bin-3.3.3-r1.ebuild:
+  amd64 stable wrt bug #572966
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  26 Jan 2016; Miroslav Šulc <fordfrog@gentoo.org> maven-bin-1.1-r3.ebuild,
+  maven-bin-2.0.11-r2.ebuild, maven-bin-2.2.1-r2.ebuild,
+  maven-bin-3.0.4-r1.ebuild, maven-bin-3.1.1.ebuild, maven-bin-3.2.5.ebuild,
+  maven-bin-3.3.3-r1.ebuild, maven-bin-3.3.9.ebuild:
+  removed dependency on app-eselect/eselect-maven as it will be removed from
+  the tree
+
+  Package-Manager: portage-2.2.27
+

@@ -63,3 +63,10 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  25 Jan 2016; Daniel Campbell <zlg@gentoo.org> metadata.xml:
+  Take ownership of package
+
+  Updated metadata.xml to GLEP 67 standard.
+
+  Package-Manager: portage-2.2.26
+
