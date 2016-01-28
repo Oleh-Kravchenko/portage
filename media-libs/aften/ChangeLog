@@ -64,3 +64,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*aften-0.0.8-r1 (27 Jan 2016)
+
+  27 Jan 2016; David Seifert <soap@gentoo.org> +aften-0.0.8-r1.ebuild,
+  files/aften-0.0.8-ppc.patch:
+  Declare mycmakeargs to be an array
+
+  Gentoo-Bug: 573152
+  * EAPI=6
+  * Amend patch to be -p1 compliant
+
+  Package-Manager: portage-2.2.27
+

@@ -82,3 +82,15 @@
 
   Package-Manager: portage-2.2.27
 
+*loudmouth-1.5.2 (27 Jan 2016)
+
+  27 Jan 2016; Wolfram Schlich <wschlich@gentoo.org> +loudmouth-1.5.2.ebuild:
+  version bump (with temporarily different SRC_URI)
+
+  Package-Manager: portage-2.2.27
+
+  27 Jan 2016; Wolfram Schlich <wschlich@gentoo.org> loudmouth-1.5.2.ebuild:
+  switched back SRC_URI to github now that the release tag is in place
+
+  Package-Manager: portage-2.2.27
+

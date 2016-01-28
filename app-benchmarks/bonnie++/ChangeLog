@@ -73,3 +73,19 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+  27 Jan 2016; Andrew Savchenko <bircoph@gentoo.org> -bonnie++-1.96-r1.ebuild:
+  drop old version
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+
+  27 Jan 2016; Andrew Savchenko <bircoph@gentoo.org>
+  -files/bonnie++-1.93c-64bit.patch,
+  -files/bonnie++-1.93c-missing_include.patch,
+  -files/bonnie++-1.94-missing_include.patch,
+  -files/bonnie++-1.95-homepage.patch:
+  drop unused patches
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+

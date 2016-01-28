@@ -141,3 +141,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*bandit-0.17.2 (27 Jan 2016)
+
+  27 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +bandit-0.17.2.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

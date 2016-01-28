@@ -71,3 +71,11 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+*icon-9.5.0-r1 (27 Jan 2016)
+
+  27 Jan 2016; Patrice Clement <monsieurp@gentoo.org> +icon-9.5.0-r1.ebuild:
+  EAPI 5 bump.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

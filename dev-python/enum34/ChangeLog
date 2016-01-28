@@ -82,3 +82,24 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Jan 2016; Justin Lecher <jlec@gentoo.org> enum34-1.0.4.ebuild:
+  Stable under ALLARCHES policy
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  27 Jan 2016; Justin Lecher <jlec@gentoo.org> -enum34-1.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*enum34-1.1.2 (27 Jan 2016)
+
+  27 Jan 2016; Justin Lecher <jlec@gentoo.org> enum34-1.0.4.ebuild,
+  +enum34-1.1.2.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

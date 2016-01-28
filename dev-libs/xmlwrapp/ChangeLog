@@ -82,3 +82,24 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Jan 2016; Sergey Popov <pinkbyte@gentoo.org>
+  -files/xmlwrapp-0.5.0-fbsd.patch, -files/xmlwrapp-0.5.0-gcc-4.3.patch,
+  -files/xmlwrapp-0.5.0-gcc42_namespace.patch,
+  -files/xmlwrapp-0.5.0-tests.patch, -files/xmlwrapp-gentoo.diff,
+  -xmlwrapp-0.5.0-r1.ebuild, -xmlwrapp-0.6.3.ebuild:
+  drop old versions
+
+  Package-Manager: portage-2.2.26
+
+*xmlwrapp-0.7.1-r1 (27 Jan 2016)
+
+  27 Jan 2016; Sergey Popov <pinkbyte@gentoo.org> +xmlwrapp-0.7.1-r1.ebuild:
+  revision bump
+
+  Bump EAPI to 6, add multilib support. Unbundle boost-m4,
+  which effectively fix building with GCC 5
+
+  Gentoo-Bug: 571502
+
+  Package-Manager: portage-2.2.26
+

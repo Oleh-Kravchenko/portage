@@ -131,3 +131,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*spacefm-1.0.5 (27 Jan 2016)
+
+  27 Jan 2016; Daniel Campbell <zlg@gentoo.org> metadata.xml,
+  +spacefm-1.0.5.ebuild:
+  Version bump
+
+  Also updated metadata.xml to comply better with GLEP 67
+
+  Package-Manager: portage-2.2.26
+

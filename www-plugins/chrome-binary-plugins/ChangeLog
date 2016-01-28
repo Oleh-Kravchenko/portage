@@ -528,3 +528,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*chrome-binary-plugins-49.0.2623.23_alpha1 (27 Jan 2016)
+
+  27 Jan 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-49.0.2623.13_alpha1.ebuild,
+  +chrome-binary-plugins-49.0.2623.23_alpha1.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.27_p49
+

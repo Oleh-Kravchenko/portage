@@ -83,3 +83,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Jan 2016; Ulrich Müller <ulm@gentoo.org>
+  -uemacs-pk-4.0.15_p20130222.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.2.27
+
+  26 Jan 2016; Ulrich Müller <ulm@gentoo.org>
+  uemacs-pk-4.0.15_p20141208.ebuild:
+  Depend on sys-libs/ncurses:0.
+
+  Package-Manager: portage-2.2.27
+

@@ -223,3 +223,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Jan 2016; Fabian Groffen <grobian@gentoo.org>
+  oracle-jdk-bin-1.7.0.80.ebuild:
+  update installation fixes for Darwin
+
+  Package-Manager: portage-2.2.20-prefix
+

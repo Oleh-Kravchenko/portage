@@ -119,3 +119,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jan 2016; Jeroen Roovers <jer@gentoo.org> imlib2-1.4.7.ebuild:
+  Stable for HPPA PPC64 (bug #572884).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

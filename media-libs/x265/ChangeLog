@@ -197,3 +197,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jan 2016; Jeroen Roovers <jer@gentoo.org> x265-1.8-r3.ebuild:
+  Stable for HPPA PPC64 (bug #571868).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

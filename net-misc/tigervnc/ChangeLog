@@ -94,3 +94,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Add myself as co-maintainer
+
+*tigervnc-1.6.0 (27 Jan 2016)
+
+  27 Jan 2016; Michał Górny <mgorny@gentoo.org> +tigervnc-1.6.0.ebuild:
+  Bump to 1.6.0
+
+  Update TigerVNC to 1.6.0. Clean up the ebuild. Bump xserver to 1.17.4.
+

@@ -133,3 +133,11 @@
 
   Package-Manager: portage-2.2.26
 
+*facter-2.4.6 (27 Jan 2016)
+
+  27 Jan 2016; Matthew Thode <prometheanfire@gentoo.org> -facter-2.4.5.ebuild,
+  +facter-2.4.6.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

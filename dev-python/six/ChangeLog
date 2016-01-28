@@ -225,26 +225,26 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
-  26 Jan 2016; Justin Lecher <jlec@gentoo.org> six-1.9.0-r1.ebuild,
-  six-1.10.0.ebuild, six-9999.ebuild:
-  Drop forced dependency on setuptools
+  27 Jan 2016; Mike Gilbert <floppym@gentoo.org>
+  +files/1.10.0-no-setuptools.patch, six-1.9.0-r1.ebuild, six-1.10.0.ebuild:
+  Force usage of distutils over setuptools
 
-  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=572792
-
-  Package-Manager: portage-2.2.27
-  Signed-off-by: Justin Lecher <jlec@gentoo.org>
-
-  26 Jan 2016; Mike Gilbert <floppym@gentoo.org> six-1.9.0-r1.ebuild,
-  six-1.10.0.ebuild, six-9999.ebuild:
-  Revert "dev-python/six: Drop forced dependency on setuptools"
-
-  This reverts commit a15786aa5f40452b1270fa04d4ffdbc8e034b29c.
-
-  This change is bound to cause egg-info file/directory conflicts.
-
-  Also, upstream requires setuptools unconditionally as of 2016-01-20.
-
-  https://bitbucket.org/gutworth/six/commits/1c793cff
+  Avoids circular dependency.
 
   Bug: https://bugs.gentoo.org/572792
+
+  Package-Manager: portage-2.2.27_p49
+
+  27 Jan 2016; Mike Gilbert <floppym@gentoo.org> -six-9999.ebuild:
+  Drop the live ebuild
+
+  Package-Manager: portage-2.2.27_p49
+
+  27 Jan 2016; Mike Gilbert <floppym@gentoo.org> six-1.9.0-r1.ebuild,
+  six-1.10.0.ebuild:
+  Remove any existing egg-info directory
+
+  Bug: https://bugs.gentoo.org/573114
+
+  Package-Manager: portage-2.2.27_p49
 

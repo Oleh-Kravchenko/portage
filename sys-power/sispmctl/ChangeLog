@@ -58,3 +58,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Jan 2016; Wolfram Schlich <wschlich@gentoo.org> -sispmctl-2.7.ebuild:
+  removed old (vulnerable) version (bug #327459)
+
+  Package-Manager: portage-2.2.27
+

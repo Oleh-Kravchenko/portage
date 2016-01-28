@@ -59,3 +59,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*lziprecover-1.18_pre3 (27 Jan 2016)
+
+  27 Jan 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -lziprecover-1.18_pre1.ebuild, +lziprecover-1.18_pre3.ebuild:
+  Bump to version 1.18_pre3. Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

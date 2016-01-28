@@ -123,3 +123,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jan 2016; Jeroen Roovers <jer@gentoo.org> numactl-2.0.11.ebuild:
+  Stable for PPC64 (bug #572786).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

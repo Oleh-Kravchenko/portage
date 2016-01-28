@@ -116,3 +116,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Jan 2016; Gokturk Yuksek <gokturk@binghamton.edu> metadata.xml:
+  add the missing indentation introduced by the glep67 conversion
+
+  The GLEP 67 conversion forgot to indent the maintainer tag when it converted
+  the herd proxy-maint to a project.
+
+  Package-Manager: portage-2.2.26
+

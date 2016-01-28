@@ -372,3 +372,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*youtube-dl-2016.01.23 (27 Jan 2016)
+
+  27 Jan 2016; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2016.01.23.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+
+  27 Jan 2016; Jeroen Roovers <jer@gentoo.org> -youtube-dl-2015.04.03.ebuild,
+  -youtube-dl-2015.12.23.ebuild, -youtube-dl-2015.12.29.ebuild,
+  -youtube-dl-2016.01.09.ebuild, -youtube-dl-2016.01.14.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+

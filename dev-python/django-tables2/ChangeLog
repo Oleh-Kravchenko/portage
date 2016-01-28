@@ -104,3 +104,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Jan 2016; Justin Lecher <jlec@gentoo.org> -django-tables2-0.16.0.ebuild,
+  -django-tables2-0.16.0-r1.ebuild, -django-tables2-1.0.4.ebuild,
+  -django-tables2-1.0.5.ebuild, -django-tables2-1.0.6.ebuild,
+  -django-tables2-1.0.7.ebuild,
+  -files/django-tables2-0.16.0-django-1.9-deprecation.patch:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*django-tables2-1.1.1 (27 Jan 2016)
+
+  27 Jan 2016; Justin Lecher <jlec@gentoo.org> +django-tables2-1.1.1.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

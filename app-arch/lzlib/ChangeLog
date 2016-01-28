@@ -58,3 +58,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Jan 2016; Michał Górny <mgorny@gentoo.org> lzlib-1.6.ebuild,
+  lzlib-1.7.ebuild:
+  Use correct license
+

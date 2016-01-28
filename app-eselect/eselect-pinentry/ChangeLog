@@ -115,3 +115,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*eselect-pinentry-0.7 (26 Jan 2016)
+
+  26 Jan 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  +eselect-pinentry-0.7.ebuild, +files/pinentry.eselect-0.7:
+  Add pinentry-tty as an option
+
+  Bug: 572750
+
+  Package-Manager: portage-2.2.27
+

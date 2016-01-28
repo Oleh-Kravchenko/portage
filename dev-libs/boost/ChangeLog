@@ -135,3 +135,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Jan 2016; Sergey Popov <pinkbyte@gentoo.org> -boost-1.52.0-r7.ebuild,
+  -boost-1.53.0-r1.ebuild, -boost-1.54.0-r1.ebuild,
+  -files/boost-1.48.0-mpi_python3.patch, -files/boost-1.52.0-locale-utf.patch,
+  -files/boost-1.52.0-tuple.patch,
+  -files/boost-1.53.0-glibc-2.18-compat.patch,
+  -files/boost-1.53.0-library_status.patch,
+  -files/remove-toolset-1.48.0.patch:
+  drop old masked versions
+
+  Package-Manager: portage-2.2.26
+

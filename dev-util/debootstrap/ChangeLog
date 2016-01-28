@@ -148,3 +148,26 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*debootstrap-1.0.76 (27 Jan 2016)
+
+  27 Jan 2016; Jeroen Roovers <jer@gentoo.org> +debootstrap-1.0.76.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+
+  27 Jan 2016; Jeroen Roovers <jer@gentoo.org> -debootstrap-1.0.74.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+
+  27 Jan 2016; Jeroen Roovers <jer@gentoo.org> debootstrap-1.0.75.ebuild:
+  Stable for PPC64 (bug #570806).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  27 Jan 2016; Jeroen Roovers <jer@gentoo.org> -debootstrap-1.0.67.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+
