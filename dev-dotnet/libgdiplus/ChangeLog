@@ -100,3 +100,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libgdiplus-4.2-r1 (27 Jan 2016)
+
+  27 Jan 2016; Louis Sautier <sautier.louis@gmail.com> -libgdiplus-4.2.ebuild,
+  +libgdiplus-4.2-r1.ebuild:
+  fix incorrect logic with USE=cairo
+
+  as mentioned here: https://bugs.gentoo.org/show_bug.cgi?id=432224#c20
+
+  Package-Manager: portage-2.2.27
+

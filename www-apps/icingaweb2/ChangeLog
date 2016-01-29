@@ -62,3 +62,11 @@
 
   Package-Manager: portage-2.2.26
 
+*icingaweb2-9999 (28 Jan 2016)
+
+  28 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +icingaweb2-9999.ebuild:
+  adding 9999 version
+
+  Package-Manager: portage-2.2.26
+

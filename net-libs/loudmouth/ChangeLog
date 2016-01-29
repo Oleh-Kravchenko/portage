@@ -94,3 +94,12 @@
 
   Package-Manager: portage-2.2.27
 
+*loudmouth-1.5.2-r1 (28 Jan 2016)
+
+  28 Jan 2016; Wolfram Schlich <wschlich@gentoo.org> -loudmouth-1.5.1.ebuild,
+  -loudmouth-1.5.2.ebuild, +loudmouth-1.5.2-r1.ebuild:
+  added dependency on dev-util/gtk-doc (fixes bug #572990); removed short-
+  lived version 1.5.1.
+
+  Package-Manager: portage-2.2.27
+

@@ -85,3 +85,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*bash-completion-2.1_p20141224-r1 (28 Jan 2016)
+
+  28 Jan 2016; Louis Sautier <sautier.louis@gmail.com>
+  -bash-completion-2.1_p20141224.ebuild,
+  +bash-completion-2.1_p20141224-r1.ebuild:
+  add patch to fix bug 543100
+
+  The patch was added for 2.1-r94 in fab2a7c5536a218bd909b2c7265e9c69296316dc
+  but not for the most recent version
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --force
+
+  28 Jan 2016; Louis Sautier <sautier.louis@gmail.com>
+  bash-completion-2.1-r94.ebuild:
+  make use of epatch more consistent
+
+  Package-Manager: portage-2.2.27
+

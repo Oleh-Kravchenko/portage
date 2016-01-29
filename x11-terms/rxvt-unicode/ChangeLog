@@ -86,3 +86,8 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Jan 2016; Jeroen Roovers <jer@gentoo.org> rxvt-unicode-9.22.ebuild:
+  Fix SLOT dep.
+
+  Package-Manager: portage-2.2.27
+

@@ -94,3 +94,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mdadm-3.4 (28 Jan 2016)
+
+  28 Jan 2016; Lars Wendler <polynomial-c@gentoo.org> files/etc-default-mdadm,
+  +mdadm-3.4.ebuild:
+  Bump to version 3.4
+
+  Marked cronjob as executable (bug #561564) and commented the AUTOCHECK
+  variable
+  so people still have to opt in for the autocheck to run.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  28 Jan 2016; Lars Wendler <polynomial-c@gentoo.org> -mdadm-3.3.2-r1.ebuild,
+  -mdadm-3.3.3.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

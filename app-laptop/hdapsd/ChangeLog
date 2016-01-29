@@ -73,3 +73,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Jan 2016; Michael Orlitzky <mjo@gentoo.org> -files/hdapsd.conf.3,
+  -files/hdapsd.init.3, -hdapsd-20090401-r2.ebuild:
+  remove old 20090401 version and its files.
+
+  Package-Manager: portage-2.2.26
+

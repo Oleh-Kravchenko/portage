@@ -138,3 +138,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Jan 2016; Mike Frysinger <vapier@gentoo.org> dhcpcd-6.10.0.ebuild:
+  mark 6.10.0 arm64/ia64/s390/sh/sparc stable #571152
+

@@ -29,3 +29,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*lxcfs-0.17 (28 Jan 2016)
+
+  28 Jan 2016; Erik Mackdanz <stasibear@gentoo.org> +files/lxcfs-0.17.initd,
+  +files/lxcfs-0.17.service, +lxcfs-0.17.ebuild:
+  bump to 0.17
+
+  Adds a PAM module
+
+  Package-Manager: portage-2.2.27
+
+  28 Jan 2016; Erik Mackdanz <stasibear@gentoo.org> -files/lxcfs-0.12.initd,
+  -files/lxcfs-0.12.service, -lxcfs-0.12.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

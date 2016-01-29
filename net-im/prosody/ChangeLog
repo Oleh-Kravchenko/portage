@@ -87,3 +87,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*prosody-0.9.10 (28 Jan 2016)
+
+  28 Jan 2016; Tobias Klausmann <klausman@gentoo.org> -prosody-0.9.7.ebuild,
+  +prosody-0.9.10.ebuild:
+  Add v0.9.10 for sec bug 573158
+
+  Also remove one old version.
+
+  Package-Manager: portage-2.2.27
+

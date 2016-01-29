@@ -248,3 +248,31 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*zfs-kmod-0.6.5.3-r4 (27 Jan 2016)
+
+  27 Jan 2016; Richard Yao <ryao@gentoo.org> -zfs-kmod-0.6.5.3-r3.ebuild,
+  +zfs-kmod-0.6.5.3-r4.ebuild:
+  0.6.5.3-r4: Regression fixes
+
+  Fixes additional regressions in the code from the proposed stable API
+  branch.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Richard Yao <ryao@gentoo.org>
+
+*zfs-kmod-0.6.5.4-r1 (27 Jan 2016)
+*zfs-kmod-0.6.5.4 (27 Jan 2016)
+
+  27 Jan 2016; Richard Yao <ryao@gentoo.org> +zfs-kmod-0.6.5.4.ebuild,
+  +zfs-kmod-0.6.5.4-r1.ebuild:
+  0.6.5.4{,-r1}: Version Bump
+
+  The stable API patches from the 0.6.5.3-r4 ebuild and fix for the
+  temporary pool names have been carried forward in 0.6.5.4-r1. 0.6.5.4
+  has been commited without any patches as an aid to users who do not want
+  patches. However, it is left unkeyworded to ensure the upgrade path is
+  smooth.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Richard Yao <ryao@gentoo.org>
+

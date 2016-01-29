@@ -470,3 +470,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*vanilla-sources-3.18.26 (28 Jan 2016)
+*vanilla-sources-3.12.53 (28 Jan 2016)
+
+  28 Jan 2016; Agostino Sarubbo <ago@gentoo.org>
+  -vanilla-sources-3.12.52.ebuild, +vanilla-sources-3.12.53.ebuild,
+  -vanilla-sources-3.18.25.ebuild, +vanilla-sources-3.18.26.ebuild:
+  Automated version bump to {3.12.53,3.18.26} - remove old.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

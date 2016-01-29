@@ -890,3 +890,72 @@
 
   Package-Manager: portage-2.2.26
 
+*php-7.0.2-r3 (28 Jan 2016)
+*php-5.6.17-r3 (28 Jan 2016)
+
+  28 Jan 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.6.17-r2.ebuild,
+  +php-5.6.17-r3.ebuild, -php-7.0.2-r2.ebuild, +php-7.0.2-r3.ebuild:
+  revision the 5.6 and 7.0 series to add sys-libs/db:5.3 support.
+
+  We had to leave db:5.3 out of our dependency string until now because
+  the upstream build system couldn't detect it. The latest v5.6.17 and
+  v7.0.2 will find it, though, so we add it as an option.
+
+  Gentoo-Bug: 564824
+
+  Package-Manager: portage-2.2.26
+
+*php-7.0.2-r4 (28 Jan 2016)
+*php-5.6.17-r4 (28 Jan 2016)
+
+  28 Jan 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.6.17-r3.ebuild,
+  +php-5.6.17-r4.ebuild, -php-7.0.2-r3.ebuild, +php-7.0.2-r4.ebuild:
+  call `eselect php cleanup` in pkg_postinst and pkg_postrm.
+
+  We have two bugs (432962 and 572436) regarding stale eselect symlinks.
+
+  The first issue is that removal of an old slot does not update the
+  eselect-php symlinks to point to a newer slot. Thus, if a user
+  upgrades slots and depcleans the old one, his symlinks (and thus PHP)
+  are left broken until eselect-php is run manually. This is fixed by
+  running `eselect php cleanup` in pkg_postrm, since removal of the
+  old slot will trigger a cleanup (which updates the symlink).
+
+  The second issue is that disabling a SAPI would leave behind a broken
+  symlink. For example, if the "cgi" SAPI was once used but the user has
+  reinstalled PHP with USE="-cgi", then the old eselect-php symlink for
+  php-cgi would be left behind. This is fixed by running `eselect php
+  cleanup` in pkg_postinst, since that will be triggered after the
+  reinstall finishes, at which point the php-cgi symlink will be dead
+  and thus get removed.
+
+  Gentoo-Bug: 432962
+  Gentoo-Bug: 572436
+
+  Package-Manager: portage-2.2.26
+
+  28 Jan 2016; Michael Orlitzky <mjo@gentoo.org> php-5.6.17-r4.ebuild,
+  php-7.0.2-r4.ebuild:
+  remove "minor" from "minor version slotting" in elogs.
+
+  Now that PHP upstream is playing fast and loose with their versioning,
+  our slotting applies to major versions as well as minor ones. Remove
+  the word "minor" since it's no longer correct.
+
+  Package-Manager: portage-2.2.26
+
+*php-7.0.2-r5 (28 Jan 2016)
+*php-5.6.17-r5 (28 Jan 2016)
+
+  28 Jan 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.6.17-r4.ebuild,
+  +php-5.6.17-r5.ebuild, -php-7.0.2-r4.ebuild, +php-7.0.2-r5.ebuild:
+  enforce what was an elog warning with REQUIRED_USE.
+
+  The interactive "php -a" command-line interface will hang unless PHP
+  is built with USE=readline. This used to be an elog warning, but was
+  rather easy to overlook and mysterious to those who hit the bug. We
+  already have REQUIRED_USE for our other flags, so it makes sense to
+  enforce the cli dependency on readline there.
+
+  Package-Manager: portage-2.2.26
+

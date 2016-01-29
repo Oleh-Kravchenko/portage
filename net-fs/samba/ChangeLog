@@ -395,3 +395,28 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*samba-4.3.4-r1 (27 Jan 2016)
+*samba-4.2.7-r2 (27 Jan 2016)
+
+  27 Jan 2016; Ian Stakenvicius <axs@gentoo.org> -samba-4.2.7-r1.ebuild,
+  +samba-4.2.7-r2.ebuild, samba-4.3.3-r1.ebuild, -samba-4.3.4.ebuild,
+  +samba-4.3.4-r1.ebuild:
+  bundle ctdb
+
+  Samba is the only consumer of dev-db/ctdb, and samba-4.2 and above has
+  dropped support
+  for building against an external ctdb.  This commit builds and installs ctdb
+  bundled
+  within samba instead, and soft-blocks the external package to avoid
+  collisions.
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=561402
+
+  Package-Manager: portage-2.2.26
+
+  27 Jan 2016; Ian Stakenvicius <axs@gentoo.org> -samba-4.3.3.ebuild,
+  -samba-4.3.3-r1.ebuild:
+  remove 4.3.3 in favour of keeping 4.3.4
+
+  Package-Manager: portage-2.2.26
+

@@ -229,3 +229,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*spl-0.6.5.4-r1 (27 Jan 2016)
+*spl-0.6.5.4 (27 Jan 2016)
+
+  27 Jan 2016; Richard Yao <ryao@gentoo.org> +spl-0.6.5.4.ebuild,
+  +spl-0.6.5.4-r1.ebuild:
+  sys-fs/spl-0.6.5.4{,-r1}: Version Bump
+
+  The patches from the 0.6.5.3-r1 ebuild that were not backported
+  upstream have been carried forward in 0.6.5.4-r1. 0.6.5.4 has been
+  commited without any patches as an aid to users who do not want
+  patches. However, it is left unkeyworded to be consistent with the
+  sys-fs/zfs-kmod ebuild.
+
+  Package-Manager: portage-2.2.24
+  Signed-off-by: Richard Yao <ryao@gentoo.org>
+

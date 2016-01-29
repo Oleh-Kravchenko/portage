@@ -63,3 +63,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Jan 2016; Sergey Popov <pinkbyte@gentoo.org> compiz-fusion-0.8.8.ebuild:
+  change category for x11-apps/ccsm dependency
+
+  Gentoo-Bug: 571838
+
+  Package-Manager: portage-2.2.26
+

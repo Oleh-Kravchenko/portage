@@ -70,3 +70,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*moc-2.6_alpha1-r1 (27 Jan 2016)
+
+  27 Jan 2016; David Seifert <soap@gentoo.org>
+  +files/moc-2.6_alpha1-fix-ncurses-underlinking.patch,
+  +moc-2.6_alpha1-r1.ebuild:
+  Use pkgconfig to detect sys-libs/ncurses flags
+
+  Gentoo-Bug: 521860
+  * EAPI=6
+  * Remove .la files unconditionally
+
+  Package-Manager: portage-2.2.27
+

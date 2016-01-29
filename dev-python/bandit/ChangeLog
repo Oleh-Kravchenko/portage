@@ -149,3 +149,11 @@
 
   Package-Manager: portage-2.2.26
 
+*bandit-0.17.3 (28 Jan 2016)
+
+  28 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -bandit-0.17.2.ebuild, +bandit-0.17.3.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

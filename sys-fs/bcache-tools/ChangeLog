@@ -88,3 +88,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*bcache-tools-1.0.8_p20140220 (28 Jan 2016)
+
+  28 Jan 2016; Justin Lecher <jlec@gentoo.org>
+  +bcache-tools-1.0.8_p20140220.ebuild,
+  +files/1.0.8_p20140220/bcache-status-python3.patch,
+  +files/1.0.8_p20140220/bcache-tools-1.0.8-crc64.patch,
+  +files/1.0.8_p20140220/bcache-tools-1.0.8-noprobe.patch,
+  +files/1.0.8_p20140220/bcache-tools-20131018-fedconf.patch,
+  +files/1.0.8_p20140220/bcache-tools-status-20130826-man.patch:
+  Import all fedora patches
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

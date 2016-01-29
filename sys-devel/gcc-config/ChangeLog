@@ -98,3 +98,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Jan 2016; Michał Górny <mgorny@gentoo.org> gcc-config-1.8-r1.ebuild:
+  Add appropriate gentoo-functions dep
+

@@ -65,3 +65,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ipt_netflow-2.1_p20160119 (28 Jan 2016)
+
+  28 Jan 2016; Sergey Popov <pinkbyte@gentoo.org>
+  +ipt_netflow-2.1_p20160119.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

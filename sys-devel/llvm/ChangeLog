@@ -417,3 +417,21 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+*llvm-3.8.0_rc1 (27 Jan 2016)
+
+  27 Jan 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +files/cmake/llvm-3.8.0-compiler_rt_arm_march_flags.patch,
+  +llvm-3.8.0_rc1.ebuild, llvm-9999.ebuild:
+  add (masked) 3.8 release candidate for testing
+
+  Package-Manager: portage-2.2.27
+
+  28 Jan 2016; Bernard Cafarelli <voyageur@gentoo.org> llvm-3.8.0_rc1.ebuild:
+  work on 3.8.0_rc1 install, bug #573202
+
+  Also add man-pages tarball
+
+  clang tests still fail
+
+  Package-Manager: portage-2.2.27
+

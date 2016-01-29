@@ -33,3 +33,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Jan 2016; Alexis Ballier <aballier@gentoo.org> +files/gazebo6.patch,
+  +files/gazebo7-2.patch, +files/gazebo7-3.patch, +files/gazebo7-4.patch,
+  +files/gazebo7-5.patch, +files/gazebo7.patch, gazebo_plugins-2.5.1.ebuild,
+  gazebo_plugins-9999.ebuild:
+  backport upstream fixes to build with gazebo7
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

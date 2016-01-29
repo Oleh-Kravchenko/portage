@@ -62,3 +62,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cropgui-9999 (28 Jan 2016)
+*cropgui-0.2 (28 Jan 2016)
+
+  28 Jan 2016; Sergey Popov <pinkbyte@gentoo.org> +cropgui-0.2.ebuild,
+  +cropgui-9999.ebuild, +files/cropgui-0.2-PIL.patch:
+  version bump
+
+  Gentoo-Bug: 569654
+
+  Package-Manager: portage-2.2.26
+

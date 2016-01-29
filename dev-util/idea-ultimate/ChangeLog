@@ -153,3 +153,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*idea-ultimate-16.0.0.144.3143.6_pre (27 Jan 2016)
+*idea-ultimate-15.0.3.143.1821.5 (27 Jan 2016)
+
+  27 Jan 2016; Matthew Brewer <tomboy64@sina.cn>
+  -idea-ultimate-15.0.1.143.382.35-r1.ebuild,
+  -idea-ultimate-15.0.2.143.1184.17.ebuild,
+  +idea-ultimate-15.0.3.143.1821.5.ebuild,
+  -idea-ultimate-16.0.0.144.2608.2_pre.ebuild,
+  +idea-ultimate-16.0.0.144.3143.6_pre.ebuild:
+  version bump to 15.0.3 (stable) and new EAP v16
+

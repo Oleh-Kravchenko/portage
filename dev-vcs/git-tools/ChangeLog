@@ -10,3 +10,32 @@
 
   Package-Manager: portage-2.2.24
 
+*git-tools-2015_p20151225-r1 (27 Jan 2016)
+
+  27 Jan 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +git-tools-2015_p20151225-r1.ebuild:
+  add useful symlinks.
+
+  Package-Manager: portage-2.2.24
+
+*git-tools-2015_p20151225-r2 (28 Jan 2016)
+
+  28 Jan 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +files/git-tools-2015_p20151225-py3.patch,
+  +git-tools-2015_p20151225-r2.ebuild:
+  py3 fixup and make repoman happy.
+
+  Package-Manager: portage-2.2.27
+
+  28 Jan 2016; Robin H. Johnson <robbat2@gentoo.org>
+  -git-tools-2015_p20151225.ebuild, -git-tools-2015_p20151225-r1.ebuild:
+  clean old ebuilds.
+
+  Package-Manager: portage-2.2.27
+
+  28 Jan 2016; Robin H. Johnson <robbat2@gentoo.org>
+  git-tools-2015_p20151225-r2.ebuild:
+  all the keywords (infra portage checksum test).
+
+  Package-Manager: portage-2.2.27
+
