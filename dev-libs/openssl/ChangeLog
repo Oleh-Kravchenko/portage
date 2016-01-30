@@ -288,3 +288,34 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*openssl-1.0.2f (29 Jan 2016)
+*openssl-1.0.1r (29 Jan 2016)
+
+  29 Jan 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/openssl-1.0.1r-x32.patch, +openssl-1.0.1r.ebuild,
+  +openssl-1.0.2f.ebuild:
+  Security bump to versions 1.0.1r and 1.0.2f (bug #572854).
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  29 Jan 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/openssl-1.0.2-s_client-verify.patch,
+  -files/openssl-1.0.2a-malloc-typo.patch,
+  -files/openssl-1.0.2a-parallel-build.patch,
+  -files/openssl-1.0.2d-parallel-build.patch, -openssl-1.0.2a.ebuild,
+  -openssl-1.0.2b.ebuild, -openssl-1.0.2c.ebuild, -openssl-1.0.2d.ebuild,
+  -openssl-1.0.2d-r2.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  29 Jan 2016; Agostino Sarubbo <ago@gentoo.org> openssl-1.0.1r.ebuild,
+  openssl-1.0.2f.ebuild:
+  stable for alpha/amd64/arm/ia64/ppc/ppc64/s390/sh/sparc/x86 wrt security bug
+  #572854
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

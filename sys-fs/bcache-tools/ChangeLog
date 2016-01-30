@@ -102,3 +102,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  29 Jan 2016; David Seifert <soap@gentoo.org>
+  bcache-tools-1.0.8_p20140220.ebuild,
+  +files/1.0.8_p20140220/bcache-tools-1.0.8-probe-bcache-underlinking.patch:
+  Add underlinking patch for GCC 4.9 and below
+
+  Package-Manager: portage-2.2.27
+

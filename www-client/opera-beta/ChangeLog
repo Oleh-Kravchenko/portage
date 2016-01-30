@@ -169,3 +169,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*opera-beta-35.0.2066.35 (29 Jan 2016)
+
+  29 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +opera-beta-35.0.2066.35.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+

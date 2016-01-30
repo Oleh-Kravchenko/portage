@@ -70,3 +70,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Jan 2016; Justin Lecher <jlec@gentoo.org>
+  gcs-oauth2-boto-plugin-1.7.ebuild, gcs-oauth2-boto-plugin-1.8.ebuild,
+  gcs-oauth2-boto-plugin-1.8-r1.ebuild, gcs-oauth2-boto-plugin-1.9.ebuild:
+  Change deps to new fork of dev-python/socksipy
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

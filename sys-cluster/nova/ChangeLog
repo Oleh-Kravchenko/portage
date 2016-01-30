@@ -339,3 +339,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*nova-12.0.1-r1 (29 Jan 2016)
+
+  29 Jan 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +nova-12.0.1-r1.ebuild, nova-2015.1.9999.ebuild, nova-2015.2.9999.ebuild:
+  removing xen
+
+  Package-Manager: portage-2.2.26
+

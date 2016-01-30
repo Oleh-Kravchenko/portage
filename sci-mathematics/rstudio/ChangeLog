@@ -169,3 +169,33 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*rstudio-0.99.486-r1 (29 Jan 2016)
+
+  29 Jan 2016; Matthew Brewer <tomboy64@sina.cn>
+  +files/rstudio-0.99.486-systemd.patch, +files/rstudio-server.service.in,
+  -rstudio-0.99.486.ebuild, +rstudio-0.99.486-r1.ebuild:
+  install systemd service unit for rstudio-server into proper directory (bug
+  #534152)
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+
+  29 Jan 2016; Matthew Brewer <tomboy64@sina.cn> files/rstudio-server.conf:
+  use the same group in rstudio-server.conf as in the .ebuild
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+
+  29 Jan 2016; Matthew Brewer <tomboy64@sina.cn> rstudio-0.99.486-r1.ebuild:
+  cosmetic changes to PATCHES array in 0.99.486-r1
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+
+*rstudio-0.99.491 (29 Jan 2016)
+
+  29 Jan 2016; Mark Wright <gienah@gentoo.org> +rstudio-0.99.491.ebuild:
+  Bump to 0.99.491
+
+  Package-Manager: portage-2.2.27
+

@@ -408,3 +408,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*firefox-44.0 (29 Jan 2016)
+*firefox-38.6.0 (29 Jan 2016)
+
+  29 Jan 2016; Ian Stakenvicius <axs@gentoo.org> +firefox-38.6.0.ebuild,
+  +firefox-44.0.ebuild, metadata.xml:
+  version bumps, 38.6 and 44.0
+
+  Package-Manager: portage-2.2.26
+
+  29 Jan 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-38.4.0.ebuild:
+  remove old and vulnerable 38.4
+
+  Package-Manager: portage-2.2.26
+

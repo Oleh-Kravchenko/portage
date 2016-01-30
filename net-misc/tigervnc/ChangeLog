@@ -104,3 +104,18 @@
 
   Update TigerVNC to 1.6.0. Clean up the ebuild. Bump xserver to 1.17.4.
 
+  29 Jan 2016; Michał Górny <mgorny@gentoo.org> tigervnc-1.6.0.ebuild:
+  Remove accidental stable keywords on 1.6.0
+
+  29 Jan 2016; Michał Górny <mgorny@gentoo.org> tigervnc-1.6.0.ebuild:
+  Avoid building unnecessary parts of xorg-server
+
+*tigervnc-1.6.0-r1 (29 Jan 2016)
+
+  29 Jan 2016; Michał Górny <mgorny@gentoo.org>
+  +files/tigervnc-1.6.0-xorg118-1.patch, -tigervnc-1.6.0.ebuild,
+  +tigervnc-1.6.0-r1.ebuild:
+  Support xorg-server-1.18.0
+
+  Support xorg-1.18.0 thanks to LFS patch. Found by Jan Psota.
+

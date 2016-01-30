@@ -77,3 +77,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Jan 2016; Justin Lecher <jlec@gentoo.org> polly-0.93.11.ebuild,
+  polly-0.93.12.ebuild:
+  Change deps to new fork of dev-python/socksipy
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

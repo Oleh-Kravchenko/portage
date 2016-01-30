@@ -117,3 +117,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*carbon-c-relay-1.7 (29 Jan 2016)
+
+  29 Jan 2016; Fabian Groffen <grobian@gentoo.org>
+  -carbon-c-relay-0.45.ebuild, +carbon-c-relay-1.7.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

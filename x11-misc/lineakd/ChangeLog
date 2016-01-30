@@ -69,3 +69,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  lineakd-0.9.0-r1.ebuild:
+  direct users to the correct package for evtest (bug #484008)
+
+  Package-Manager: portage-2.2.26
+

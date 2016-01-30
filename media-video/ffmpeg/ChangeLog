@@ -321,3 +321,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  29 Jan 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  zvbi doesnt require gpl anymore in git master, reflect that to ebuild
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

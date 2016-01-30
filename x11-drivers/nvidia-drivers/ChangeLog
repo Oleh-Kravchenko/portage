@@ -372,3 +372,65 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*nvidia-drivers-352.79 (29 Jan 2016)
+
+  29 Jan 2016; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-352.79.ebuild:
+  Version bump (bug #573224 by cfrye).
+
+  Package-Manager: portage-2.2.27
+
+*nvidia-drivers-355.11-r3 (29 Jan 2016)
+*nvidia-drivers-340.96-r1 (29 Jan 2016)
+
+  29 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-340.96-r1.ebuild, +nvidia-drivers-355.11-r3.ebuild,
+  nvidia-drivers-361.18-r1.ebuild:
+  Raise x11-base/xorg-server compatibility (bug #572730 by Martijn Schmidt).
+
+  Package-Manager: portage-2.2.27
+
+  29 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  -nvidia-drivers-340.93-r1.ebuild, -nvidia-drivers-358.16-r1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+
+  29 Jan 2016; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-352.68.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+
+*nvidia-drivers-346.96-r2 (29 Jan 2016)
+
+  29 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-346.96-r2.ebuild:
+  Raise x11-base/xorg-server compatibility (bug #572730 by Martijn Schmidt).
+
+  Package-Manager: portage-2.2.27
+
+*nvidia-drivers-304.131-r1 (29 Jan 2016)
+
+  29 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-304.131-r1.ebuild:
+  Raise x11-base/xorg-server compatibility (bug #572730 by Martijn Schmidt).
+
+  Package-Manager: portage-2.2.27
+
+*nvidia-drivers-361.18-r2 (29 Jan 2016)
+
+  29 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-361.18-r2.ebuild:
+  Build tools from source (bug #562910 by Christian Strahl).
+
+  Package-Manager: portage-2.2.27
+
+*nvidia-drivers-358.16-r1 (29 Jan 2016)
+*nvidia-drivers-340.93-r1 (29 Jan 2016)
+
+  29 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-340.93-r1.ebuild, +nvidia-drivers-358.16-r1.ebuild:
+  Put back the old stable for now
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --force
+

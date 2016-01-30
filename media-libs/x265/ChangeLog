@@ -203,3 +203,14 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+*x265-1.9 (29 Jan 2016)
+
+  29 Jan 2016; Alexis Ballier <aballier@gentoo.org> +x265-1.9.ebuild,
+  x265-9999.ebuild:
+  bump to 1.9.
+
+  Enable 12bit by default since it is no more experimental.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

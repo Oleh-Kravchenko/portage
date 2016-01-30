@@ -141,3 +141,8 @@
   28 Jan 2016; Mike Frysinger <vapier@gentoo.org> dhcpcd-6.10.0.ebuild:
   mark 6.10.0 arm64/ia64/s390/sh/sparc stable #571152
 
+  29 Jan 2016; William Hubbs <williamh@gentoo.org> -dhcpcd-6.9.0.ebuild:
+  remove old versions
+
+  https://bugs.gentoo.org/show_bug.cgi?id=571152
+

@@ -20,3 +20,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Jan 2016; Justin Lecher <jlec@gentoo.org> PySocks-1.5.6.ebuild:
+  Stable for amd64, x86 and arm
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

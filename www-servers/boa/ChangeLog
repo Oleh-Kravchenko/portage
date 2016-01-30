@@ -59,3 +59,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*boa-0.94.14_rc21-r2 (29 Jan 2016)
+
+  29 Jan 2016; William Hubbs <williamh@gentoo.org>
+  +boa-0.94.14_rc21-r2.ebuild, files/boa.conf, +files/boa.initd:
+  revision bump to fix OpenRC script
+
+  https://bugs.gentoo.org/show_bug.cgi?id=571448
+

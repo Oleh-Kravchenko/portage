@@ -92,3 +92,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*dropbox-3.12.6 (29 Jan 2016)
+
+  29 Jan 2016; Jason Zaman <perfinion@gentoo.org> +dropbox-3.12.6.ebuild:
+  version bump to 3.12.6
+
+  Package-Manager: portage-2.2.26
+

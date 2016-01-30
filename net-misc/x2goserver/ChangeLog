@@ -97,3 +97,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Jan 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  x2goserver-4.0.1.19.ebuild:
+  x86 missing stable keyword from #546624
+
+  Package-Manager: portage-2.2.27
+

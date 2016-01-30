@@ -79,3 +79,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*console_bridge-0.3.1 (29 Jan 2016)
+
+  29 Jan 2016; Alexis Ballier <aballier@gentoo.org>
+  +console_bridge-0.3.1.ebuild:
+  bump to 0.3.1
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  29 Jan 2016; Alexis Ballier <aballier@gentoo.org>
+  -console_bridge-0.3.0.ebuild:
+  remove broken 0.3.0
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

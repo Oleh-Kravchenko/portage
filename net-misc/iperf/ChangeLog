@@ -84,3 +84,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Jan 2016; Jason A. Donenfeld <zx2c4@gentoo.org> iperf-3.1_beta3.ebuild,
+  metadata.xml:
+  add sctp support
+
+  Package-Manager: portage-2.2.26
+
