@@ -161,3 +161,32 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  -files/sddm-0.10.0-upower.patch, -files/sddm-0.11.0-CVE-2015-0856.patch,
+  -files/sddm-0.11.0-dbus-config.patch, -sddm-0.11.0-r4.ebuild:
+  remove old
+
+  It was interfering with consolekit.
+
+  Gentoo-bug: 571974
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; Michael Palimaka <kensington@gentoo.org> sddm-0.12.0-r1.ebuild,
+  sddm-0.13.0-r1.ebuild:
+  restore ~arm
+
+  It was dropped in 0.12.0 due to unkeyworded dependencies, but that has since
+  been resolved.
+
+  Gentoo-bug: 563308
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; Michael Palimaka <kensington@gentoo.org> sddm-0.12.0-r1.ebuild,
+  sddm-0.13.0-r1.ebuild:
+  Add ewarn for erroneous existing pambase config
+
+  Previous recommendation for sddm without real consolekit support breaks
+  modern sddm with consolekit2 support.
+

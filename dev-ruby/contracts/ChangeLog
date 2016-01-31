@@ -96,3 +96,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Hans de Graaff <graaff@gentoo.org> -contracts-0.10.1.ebuild,
+  -contracts-0.11.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+*contracts-0.13.0 (30 Jan 2016)
+
+  30 Jan 2016; Hans de Graaff <graaff@gentoo.org> +contracts-0.13.0.ebuild:
+  add 0.13.0
+
+  Package-Manager: portage-2.2.26
+

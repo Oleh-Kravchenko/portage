@@ -116,3 +116,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Jan 2016; Mike Frysinger <vapier@gentoo.org> gnuplot-4.6.5.ebuild,
+  gnuplot-5.0.1-r1.ebuild:
+  fix cross-compile builds
+
+  The upstream build tries to set up CC_FOR_BUILD for building helper tools,
+  but still mixes target compiler flags in which easily leads to failure.
+

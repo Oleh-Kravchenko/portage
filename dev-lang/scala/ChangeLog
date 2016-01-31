@@ -119,3 +119,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*scala-2.10.6 (30 Jan 2016)
+
+  30 Jan 2016; Mark Wright <gienah@gentoo.org>
+  +files/scala-2.10.6-no-git.patch, +scala-2.10.6.ebuild:
+  Bump 2.10 slot to 2.10.6.
+
+  Gentoo-Bug: 559924
+
+  Package-Manager: portage-2.2.27
+

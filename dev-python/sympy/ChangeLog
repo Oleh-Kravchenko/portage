@@ -102,3 +102,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Andrey Grozin <grozin@gentoo.org> sympy-0.7.6.1-r1.ebuild:
+  docs are now built by python-2.7
+
+  Bug: 573282
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; Justin Lecher <jlec@gentoo.org> sympy-0.7.6.1.ebuild,
+  sympy-0.7.6.1-r1.ebuild:
+  Better doc building and update virtualx.eclas usage
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

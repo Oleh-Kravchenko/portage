@@ -434,3 +434,63 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --force
 
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  nvidia-drivers-304.131-r1.ebuild, nvidia-drivers-361.18-r2.ebuild:
+  Build tools from source (bug #562910 by Christian Strahl).
+
+  Package-Manager: portage-2.2.27
+
+*nvidia-drivers-340.96-r2 (30 Jan 2016)
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-340.96-r2.ebuild:
+  Build tools from source (bug #562910 by Christian Strahl).
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  nvidia-drivers-340.96-r2.ebuild:
+  Block media-video/nvidia-settings.
+
+  Package-Manager: portage-2.2.27
+
+*nvidia-drivers-352.79-r1 (30 Jan 2016)
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  nvidia-drivers-304.131-r1.ebuild, +nvidia-drivers-352.79-r1.ebuild,
+  nvidia-drivers-361.18-r2.ebuild:
+  USE=static-libs requires USE=tools. Update 352 branch for bug #562910.
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  nvidia-drivers-358.16-r1.ebuild:
+  Stable for AMD64 x86 too.
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+*nvidia-drivers-358.16-r2 (30 Jan 2016)
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-358.16-r2.ebuild, nvidia-drivers-361.18-r2.ebuild:
+  Update 358 branch for bug #562910. Clean up 361 branch ebuild.
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  nvidia-drivers-304.131-r1.ebuild, nvidia-drivers-340.96-r2.ebuild,
+  nvidia-drivers-352.79-r1.ebuild, nvidia-drivers-358.16-r2.ebuild,
+  nvidia-drivers-361.18-r2.ebuild:
+  Install libXNVCtrl header only when USE=static-libs.
+
+  Package-Manager: portage-2.2.27
+
+*nvidia-drivers-346.96-r3 (30 Jan 2016)
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-346.96-r3.ebuild:
+  Update 346 branch for bug #562910.
+
+  Package-Manager: portage-2.2.27
+

@@ -319,3 +319,15 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org> openssl-1.0.2f.ebuild:
+  Stable for HPPA (bug #572854).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org> openssl-1.0.1r.ebuild:
+  Stable for HPPA (bug #572854).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

@@ -116,3 +116,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gparted-0.25.0 (30 Jan 2016)
+
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> +gparted-0.25.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> -gparted-0.23.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+

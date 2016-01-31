@@ -164,3 +164,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*manaplus-1.6.1.16 (30 Jan 2016)
+
+  30 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +manaplus-1.6.1.16.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

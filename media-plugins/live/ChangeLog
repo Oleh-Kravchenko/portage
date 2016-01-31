@@ -129,3 +129,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*live-2016.01.29 (30 Jan 2016)
+
+  30 Jan 2016; Alexis Ballier <aballier@gentoo.org> +live-2016.01.29.ebuild:
+  bump to 2016.01.29
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

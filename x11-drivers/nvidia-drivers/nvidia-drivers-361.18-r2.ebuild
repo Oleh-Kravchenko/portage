@@ -29,25 +29,20 @@ KEYWORDS="-* ~amd64 ~x86 ~amd64-fbsd ~x86-fbsd"
 RESTRICT="bindist mirror strip"
 EMULTILIB_PKG="true"
 
-IUSE="acpi +driver gtk2 gtk3 kernel_FreeBSD kernel_linux +kms multilib pax_kernel static-libs +tools uvm +X"
+IUSE="acpi +driver gtk3 kernel_FreeBSD kernel_linux +kms multilib pax_kernel static-libs +tools uvm +X"
 REQUIRED_USE="
-	tools? ( X || ( gtk2 gtk3 ) )
+	tools? ( X )
+	static-libs? ( tools )
 "
 
 COMMON="
 	app-eselect/eselect-opencl
 	kernel_linux? ( >=sys-libs/glibc-2.6.1 )
 	tools? (
-		>=x11-libs/libvdpau-1.0
 		dev-libs/atk
 		dev-libs/glib:2
 		dev-libs/jansson
-		gtk2? ( >=x11-libs/gtk+-2.4:2 )
-		gtk3? (
-			x11-libs/cairo
-			x11-libs/gtk+:3
-		)
-		media-libs/mesa
+		gtk3? ( x11-libs/gtk+:3 )
 		x11-libs/cairo
 		x11-libs/gdk-pixbuf[X]
 		x11-libs/gtk+:2
@@ -65,7 +60,6 @@ COMMON="
 "
 DEPEND="
 	${COMMON}
-	app-arch/xz-utils
 	kernel_linux? ( virtual/linux-sources )
 "
 RDEPEND="
@@ -369,30 +363,31 @@ src_install() {
 			NV_USE_BUNDLED_LIBJANSSON=0 \
 			install
 
+		if use static-libs; then
+			dolib.a "${S}"/nvidia-settings-${PV}/src/libXNVCtrl/libXNVCtrl.a
+
+			insinto /usr/include/NVCtrl
+			doins "${S}"/nvidia-settings-${PV}/src/libXNVCtrl/*.h
+		fi
+
 		insinto /usr/share/nvidia/
 		doins nvidia-application-profiles-${PV}-key-documentation
 
 		insinto /etc/nvidia
-		newins nvidia-application-profiles-${PV}-rc nvidia-application-profiles-rc
+		newins \
+			nvidia-application-profiles-${PV}-rc nvidia-application-profiles-rc
 
-		use static-libs && dolib "${S}"/nvidia-settings-${PV}/src/libXNVCtrl/libXNVCtrl.a
-
-		insinto /usr/include/NVCtrl
-		doins "${S}"/nvidia-settings-${PV}/src/libXNVCtrl/*.h
-	fi
-
-	dobin ${NV_OBJ}/nvidia-bug-report.sh
-
-	# Desktop entries for nvidia-settings
-	if use tools; then
 		# There is no icon in the FreeBSD tarball.
-		use kernel_FreeBSD || newicon ${NV_OBJ}/nvidia-settings.png ${PN}-settings.png
+		use kernel_FreeBSD || \
+			newicon ${NV_OBJ}/nvidia-settings.png ${PN}-settings.png
+
 		domenu "${FILESDIR}"/${PN}-settings.desktop
+
 		exeinto /etc/X11/xinit/xinitrc.d
 		doexe "${FILESDIR}"/95-nvidia-settings
 	fi
 
-	#doenvd "${FILESDIR}"/50nvidia-prelink-blacklist
+	dobin ${NV_OBJ}/nvidia-bug-report.sh
 
 	if has_multilib_profile && use multilib; then
 		local OABI=${ABI}

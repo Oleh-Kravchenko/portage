@@ -321,3 +321,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Richard Freeman <rich0@gentoo.org> mariadb-10.0.23.ebuild:
+  amd64 stable
+
+  Bug: 572872
+
+  Package-Manager: portage-2.2.26
+

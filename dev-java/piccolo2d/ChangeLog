@@ -89,3 +89,30 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Jan 2016; James Le Cuirot <chewi@gentoo.org> -piccolo2d-1.2.1-r2.ebuild:
+  Remove old
+
+  This drops the only stable version but it doesn't build at all now
+  (was sun.dc part of the JDK before?) and it currently has no revdeps.
+
+  The new version should probably have been put in a different SLOT but
+  that doesn't matter now that the old version is going.
+
+  Package-Manager: portage-2.2.27
+
+*piccolo2d-3.0-r1 (30 Jan 2016)
+
+  30 Jan 2016; James Le Cuirot <chewi@gentoo.org> -piccolo2d-3.0.ebuild,
+  +piccolo2d-3.0-r1.ebuild:
+  Use SWT 3.8 instead of 3.7
+
+  Might as well use the newer version since it seems to work. I tried
+  the SWT examples.
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; James Le Cuirot <chewi@gentoo.org> piccolo2d-3.0-r1.ebuild:
+  Add ~ppc64 keyword
+
+  Package-Manager: portage-2.2.27
+

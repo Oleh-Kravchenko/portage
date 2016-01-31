@@ -87,3 +87,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> amsynth-1.5.1.ebuild:
+  x86 stable, bug #569534
+
+  Package-Manager: portage-2.2.26
+

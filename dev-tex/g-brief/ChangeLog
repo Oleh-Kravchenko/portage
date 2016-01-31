@@ -63,3 +63,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Alexis Ballier <aballier@gentoo.org> g-brief-4.0.2.ebuild:
+  Fix build. Bug #573374.
+
+  Remove files that are going to be re-generated. Remove .dtx files after
+  generating output so that it is not re-processing at src_install which would
+  fail.
+  Add missing dep. Remove outdated tetex blocker.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  30 Jan 2016; Alexis Ballier <aballier@gentoo.org> g-brief-4.0.2.ebuild:
+  fix trailing whitespace.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

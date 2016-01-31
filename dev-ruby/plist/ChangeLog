@@ -81,3 +81,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*plist-3.2.0 (30 Jan 2016)
+
+  30 Jan 2016; Hans de Graaff <graaff@gentoo.org> +plist-3.2.0.ebuild:
+  add 3.2.0
+
+  Package-Manager: portage-2.2.26
+

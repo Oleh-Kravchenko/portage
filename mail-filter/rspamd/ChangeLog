@@ -66,3 +66,16 @@
 
   Package-Manager: portage-2.2.26
 
+*rspamd-1.1.2 (30 Jan 2016)
+
+  30 Jan 2016; Dirkjan Ochtman <djc@gentoo.org> +rspamd-1.1.2.ebuild:
+  version bump to 1.1.2
+
+  Package-Manager: portage-2.2.26
+
+  30 Jan 2016; Dirkjan Ochtman <djc@gentoo.org> +files/rspamd.init-r1,
+  rspamd-1.1.2.ebuild:
+  remove reload from init script for 1.1.2
+
+  Package-Manager: portage-2.2.26
+

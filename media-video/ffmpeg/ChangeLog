@@ -327,3 +327,19 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  30 Jan 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  Drop aacplus & vo-aacenc in live ebuild.
+
+  Those have been dropped upstream. Internal encoder should be superior to vo-
+  aacenc and fdk-aac should be superior to aacplus for AAC-HE
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  30 Jan 2016; Tobias Klausmann <klausman@gentoo.org> ffmpeg-2.8.5.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 571868
+
+  Package-Manager: portage-2.2.27
+

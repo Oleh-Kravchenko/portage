@@ -109,3 +109,15 @@
 
   Package-Manager: portage-2.2.27
 
+*bcache-tools-1.0.8_p20140220-r1 (30 Jan 2016)
+
+  30 Jan 2016; Justin Lecher <jlec@gentoo.org>
+  -bcache-tools-1.0.8_p20140220.ebuild,
+  +bcache-tools-1.0.8_p20140220-r1.ebuild:
+  Fix build problems
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=573372
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

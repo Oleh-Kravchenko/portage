@@ -107,3 +107,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*easytag-2.4.1 (30 Jan 2016)
+
+  30 Jan 2016; Lars Wendler <polynomial-c@gentoo.org> +easytag-2.4.1.ebuild:
+  Bump to version 2.4.1 (bug #573376).
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> easytag-2.4.1.ebuild:
+  Stop demanding the dead dev-util/appdata-tools metapackage
+
+  Package-Manager: portage-2.2.27
+

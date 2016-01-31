@@ -83,3 +83,8 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> seq24-0.9.3.ebuild:
+  x86 stable, bug #572964
+
+  Package-Manager: portage-2.2.26
+

@@ -162,3 +162,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Tobias Klausmann <klausman@gentoo.org> ntp-4.2.8_p6.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 572452
+
+  Package-Manager: portage-2.2.27
+

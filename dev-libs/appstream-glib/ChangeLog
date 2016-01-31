@@ -167,3 +167,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> -appstream-glib-0.3.4.ebuild,
+  -appstream-glib-0.4.0.ebuild, -appstream-glib-0.5.3.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+*appstream-glib-0.5.7 (30 Jan 2016)
+
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> +appstream-glib-0.5.7.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> appstream-glib-0.5.7.ebuild:
+  Stop demanding the dead dev-util/appdata-tools metapackage
+
+  Package-Manager: portage-2.2.27
+

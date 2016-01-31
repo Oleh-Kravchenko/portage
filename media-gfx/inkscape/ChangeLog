@@ -113,3 +113,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> inkscape-0.91-r1.ebuild:
+  x86 stable, bug #568412
+
+  Package-Manager: portage-2.2.26
+

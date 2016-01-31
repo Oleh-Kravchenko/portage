@@ -68,3 +68,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mysql-init-scripts-2.1_rc1 (30 Jan 2016)
+
+  30 Jan 2016; Brian Evans <grknight@gentoo.org> +files/mysqld-v2.service,
+  +files/mysqld_at-v2.service, +mysql-init-scripts-2.1_rc1.ebuild:
+  Version bump to update systemd units wrt bug 572788
+
+  dev-db/mariadb has started shipping it's own Notify based units starting
+  with 10.1.8
+  Set the conflict in mysqld.service to compensate
+  Also, set the binary to be /usr/sbin/mysqld so we are not monitoring a
+  monitor
+
+  Package-Manager: portage-2.2.27
+
+  30 Jan 2016; Brian Evans <grknight@gentoo.org>
+  mysql-init-scripts-2.1_rc1.ebuild:
+  Touch up the postinst messages
+
+  Package-Manager: portage-2.2.27
+

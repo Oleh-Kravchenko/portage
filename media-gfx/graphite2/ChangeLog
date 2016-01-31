@@ -73,3 +73,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  graphite2-1.2.1.ebuild, graphite2-1.2.4.ebuild, graphite2-1.2.4-r1.ebuild:
+  fix function call
+
+  The function was renamed in e4b034ec87ff80561b18d52ee07df66b04a50cab but
+  usage
+  was never checked for because it is supposed to be a private function.
+
+  Gentoo-bug: 573362
+
+  Package-Manager: portage-2.2.27
+

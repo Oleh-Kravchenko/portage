@@ -99,3 +99,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*apsw-3.9.2_p1-r1 (30 Jan 2016)
+
+  30 Jan 2016; Ian Delaney <idella4@gentoo.org> -apsw-3.9.2_p1.ebuild,
+  +apsw-3.9.2_p1-r1.ebuild, files/apsw-3.6.20.1-fix_tests.patch:
+  revbump to vn. -3.9.2_p1-r1
+
+  revbump uses new SRC_URI fetching an adjusted tarball with a pre-built
+  set of docs; add IUSE doc and doc install in the usual form
+  Also bump to EAPI 6, patch submitted by E. Myers via the gentoo bug
+
+  Gentoo bug: #573316
+
+  Package-Manager: portage-2.2.26
+

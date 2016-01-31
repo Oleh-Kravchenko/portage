@@ -111,3 +111,8 @@
 
   Package-Manager: portage-2.2.26
 
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> rtorrent-0.9.6.ebuild:
+  x86 stable, bug #522706
+
+  Package-Manager: portage-2.2.26
+

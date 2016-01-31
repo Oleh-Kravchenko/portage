@@ -82,3 +82,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jan 2016; Yuta Satoh <nigoro.dev@gmail.com> freebsd-libexec-10.2.ebuild:
+  Add a workaround for gcc-5.0 or later.
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=573358
+

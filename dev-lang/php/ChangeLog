@@ -959,3 +959,8 @@
 
   Package-Manager: portage-2.2.26
 
+  30 Jan 2016; Brian Evans <grknight@gentoo.org> php-7.0.2-r5.ebuild:
+  Adjust the REQUIRED_USE to be readline or libedit for cli
+
+  Package-Manager: portage-2.2.27
+

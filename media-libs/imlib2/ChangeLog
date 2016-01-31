@@ -125,3 +125,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  30 Jan 2016; Tobias Klausmann <klausman@gentoo.org> imlib2-1.4.7.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 572884
+
+  Package-Manager: portage-2.2.27
+

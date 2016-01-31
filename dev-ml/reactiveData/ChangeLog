@@ -63,3 +63,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*reactiveData-0.2 (30 Jan 2016)
+
+  30 Jan 2016; Alexis Ballier <aballier@gentoo.org> +reactiveData-0.2.ebuild:
+  bump to 0.2 and update homepage / src_uri
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

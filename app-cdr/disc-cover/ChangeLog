@@ -68,3 +68,10 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+*disc-cover-1.5.6-r1 (30 Jan 2016)
+
+  30 Jan 2016; Pacho Ramos <pacho@gentoo.org> +disc-cover-1.5.6-r1.ebuild:
+  Fix dependencies (#308851 by fabian)
+
+  Package-Manager: portage-2.2.27
+

@@ -422,3 +422,24 @@
 
   Package-Manager: portage-2.2.26
 
+  30 Jan 2016; Ian Stakenvicius <axs@gentoo.org> firefox-44.0.ebuild:
+  44.0: drop EGL use flag
+
+  EGL support in firefox-44 is non-optional, but it is also not the default GL
+  provider; this
+  flag could set EGL to be the default GL provider instead of GLX, but there
+  are both compile time
+  and link time issues with attempting to do this.  Removing the flag until
+  the build-time situation
+  has improved.
+
+  Bug: https://bugs.gentoo.org/571180
+
+  Package-Manager: portage-2.2.26
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org> firefox-38.6.0.ebuild:
+  Stable for HPPA (bug #573074).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

@@ -140,3 +140,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*rrdtool-1.5.5-r1 (30 Jan 2016)
+
+  30 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/rrdtool-1.5.5-rpn1.output, +rrdtool-1.5.5-r1.ebuild:
+  Fix test failures (bug #573210 by Paolo Pedroni).
+
+  Package-Manager: portage-2.2.27
+
