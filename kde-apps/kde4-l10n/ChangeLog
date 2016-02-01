@@ -158,3 +158,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*kde4-l10n-15.08.3-r2 (31 Jan 2016)
+
+  31 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/kde4-l10n-15.08.3-r1-remove-messages, +kde4-l10n-15.08.3-r2.ebuild:
+  Fix kde-l10n file collision, bug 572850
+
+  31 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  -files/kde4-l10n-15.08.3-remove-messages, -kde4-l10n-15.08.3-r1.ebuild:
+  Drop old
+
+*kde4-l10n-15.12.1-r1 (31 Jan 2016)
+
+  31 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/kde4-l10n-15.11.90-remove-dirs, +kde4-l10n-15.12.1-r1.ebuild:
+  kde-apps: Add {kde,kde4,kdepim,ktp}-l10n-15.12.1 from kde overlay
+

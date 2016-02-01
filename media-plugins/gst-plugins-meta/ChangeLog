@@ -102,3 +102,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gst-plugins-meta-1.6.3 (31 Jan 2016)
+
+  31 Jan 2016; Gilles Dartiguelongue <g.dartiguelongue@lexfo.fr>
+  +gst-plugins-meta-1.6.3.ebuild:
+  version bump to 1.6.3
+
+  Leave 1.6.2 for libav for ia64 and sparc architecture.
+
+  Package-Manager: portage-2.2.27
+

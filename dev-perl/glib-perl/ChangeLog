@@ -81,3 +81,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*glib-perl-1.320.0 (31 Jan 2016)
+
+  31 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +glib-perl-1.320.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  31 Jan 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -glib-perl-1.305.0.ebuild, -glib-perl-1.313.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

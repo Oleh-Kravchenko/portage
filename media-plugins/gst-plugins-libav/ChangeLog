@@ -186,3 +186,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gst-plugins-libav-1.6.3 (31 Jan 2016)
+
+  31 Jan 2016; Gilles Dartiguelongue <g.dartiguelongue@lexfo.fr>
+  +gst-plugins-libav-1.6.3.ebuild:
+  version bump to 1.6.3
+
+  Drop ia64 and sparc keyword due to ffmpeg requirement.
+
+  Package-Manager: portage-2.2.27
+
+  31 Jan 2016; Pacho Ramos <pacho@gentoo.org> gst-plugins-libav-1.6.3.ebuild:
+  ia64/sparc rekeyword (#560382)
+
+  Package-Manager: portage-2.2.27
+

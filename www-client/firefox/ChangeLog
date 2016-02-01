@@ -443,3 +443,23 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  31 Jan 2016; Jeroen Roovers <jer@gentoo.org> firefox-38.6.0.ebuild:
+  Stable for PPC64 (bug #573074).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  31 Jan 2016; Agostino Sarubbo <ago@gentoo.org> firefox-38.6.0.ebuild:
+  amd64 stable wrt bug #573074
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  31 Jan 2016; Agostino Sarubbo <ago@gentoo.org> firefox-38.6.0.ebuild:
+  x86 stable wrt bug #573074
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

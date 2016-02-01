@@ -59,3 +59,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*graphite-web-0.9.13-r2 (31 Jan 2016)
+
+  31 Jan 2016; Fabian Groffen <grobian@gentoo.org>
+  +graphite-web-0.9.13-r2.ebuild:
+  revbump for changed examples installation, bug #556852
+
+  Package-Manager: portage-2.2.26
+

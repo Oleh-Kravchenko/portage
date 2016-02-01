@@ -494,3 +494,46 @@
 
   Package-Manager: portage-2.2.27
 
+*nvidia-drivers-361.18-r3 (31 Jan 2016)
+*nvidia-drivers-358.16-r3 (31 Jan 2016)
+*nvidia-drivers-352.79-r2 (31 Jan 2016)
+*nvidia-drivers-346.96-r4 (31 Jan 2016)
+*nvidia-drivers-340.96-r3 (31 Jan 2016)
+*nvidia-drivers-304.131-r2 (31 Jan 2016)
+
+  31 Jan 2016; Jeroen Roovers <jer@gentoo.org> +files/nvidia-settings.desktop,
+  +nvidia-drivers-304.131-r2.ebuild, +nvidia-drivers-340.96-r3.ebuild,
+  +nvidia-drivers-346.96-r4.ebuild, +nvidia-drivers-352.79-r2.ebuild,
+  +nvidia-drivers-358.16-r3.ebuild, +nvidia-drivers-361.18-r3.ebuild:
+  Fix desktop file (bug #562910)
+
+  Package-Manager: portage-2.2.27
+
+*nvidia-drivers-361.18-r4 (31 Jan 2016)
+*nvidia-drivers-358.16-r4 (31 Jan 2016)
+*nvidia-drivers-352.79-r3 (31 Jan 2016)
+*nvidia-drivers-346.96-r5 (31 Jan 2016)
+*nvidia-drivers-340.96-r4 (31 Jan 2016)
+*nvidia-drivers-304.131-r3 (31 Jan 2016)
+
+  31 Jan 2016; Jeroen Roovers <jer@gentoo.org> +files/95-nvidia-settings-r1,
+  -nvidia-drivers-304.131-r2.ebuild, +nvidia-drivers-304.131-r3.ebuild,
+  -nvidia-drivers-340.96-r3.ebuild, +nvidia-drivers-340.96-r4.ebuild,
+  -nvidia-drivers-346.96-r4.ebuild, +nvidia-drivers-346.96-r5.ebuild,
+  -nvidia-drivers-352.79-r2.ebuild, +nvidia-drivers-352.79-r3.ebuild,
+  -nvidia-drivers-358.16-r3.ebuild, +nvidia-drivers-358.16-r4.ebuild,
+  -nvidia-drivers-361.18-r3.ebuild, +nvidia-drivers-361.18-r4.ebuild:
+  Fix nvidia-settings location in /etc/X11/xinit/xinitrc.d/95-nvidia-settings
+  (bug #573452 by Constantin Baranov).
+
+  Package-Manager: portage-2.2.27
+
+  31 Jan 2016; Jeroen Roovers <jer@gentoo.org>
+  -nvidia-drivers-340.96-r1.ebuild, -nvidia-drivers-340.96-r2.ebuild,
+  -nvidia-drivers-346.96-r2.ebuild, -nvidia-drivers-346.96-r3.ebuild,
+  -nvidia-drivers-352.79-r1.ebuild, -nvidia-drivers-358.16-r2.ebuild,
+  -nvidia-drivers-361.18-r2.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+

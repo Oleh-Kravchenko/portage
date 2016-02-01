@@ -173,3 +173,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*opencv-3.1.0-r1 (30 Jan 2016)
+
+  30 Jan 2016; Andreas Sturmlechner <andreas.sturmlechner@gmail.com>
+  +opencv-3.1.0-r1.ebuild:
+  Bump subslot to 3.1, builds with python-3.5
+
+  30 Jan 2016; Andreas Sturmlechner <andreas.sturmlechner@gmail.com>
+  -opencv-3.1.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+

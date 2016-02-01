@@ -325,3 +325,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  31 Jan 2016; Matthew Thode <prometheanfire@gentoo.org> glance-11.0.1.ebuild,
+  glance-2015.2.9999.ebuild:
+  fixing pyopenssl upper constraint to allow r9999 and below
+
+  Package-Manager: portage-2.2.26
+

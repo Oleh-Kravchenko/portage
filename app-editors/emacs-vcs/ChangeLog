@@ -161,3 +161,44 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*emacs-vcs-25.0.90 (31 Jan 2016)
+
+  31 Jan 2016; Ulrich Müller <ulm@gentoo.org> +emacs-vcs-25.0.90.ebuild,
+  emacs-vcs-25.0.9999-r2.ebuild, metadata.xml:
+  First pretest for Emacs 25.1.
+
+  Add new "xwidgets" USE flag. Drop hppa keyword because of the conditional
+  dependency on net-libs/webkit-gtk. Update description of the "gtk3" flag.
+
+  Package-Manager: portage-2.2.27
+
+  31 Jan 2016; Jeroen Roovers <jer@gentoo.org> emacs-vcs-25.0.90.ebuild:
+  Mark ~hppa (bug #573432).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  31 Jan 2016; Jeroen Roovers <jer@gentoo.org> emacs-vcs-25.0.9999-r2.ebuild:
+  Mark ~hppa (bug #573432).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+*emacs-vcs-25.1.50_pre20160130 (31 Jan 2016)
+
+  31 Jan 2016; Ulrich Müller <ulm@gentoo.org>
+  +emacs-vcs-25.1.50_pre20160130.ebuild:
+  New snapshot of master.
+
+  Last revision before merging of xwidget branch to master (via emacs-25).
+
+  Package-Manager: portage-2.2.27
+
+*emacs-vcs-25.1.9999-r1 (31 Jan 2016)
+
+  31 Jan 2016; Ulrich Müller <ulm@gentoo.org> -emacs-vcs-25.1.9999.ebuild,
+  +emacs-vcs-25.1.9999-r1.ebuild:
+  Support xwidgets flag.
+
+  Package-Manager: portage-2.2.27
+

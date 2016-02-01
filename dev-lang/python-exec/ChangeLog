@@ -93,3 +93,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*python-exec-2.2.1 (31 Jan 2016)
+
+  31 Jan 2016; Michał Górny <mgorny@gentoo.org> +python-exec-2.2.1.ebuild:
+  Minor version bump
+

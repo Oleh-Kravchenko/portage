@@ -92,3 +92,13 @@
 
   Package-Manager: portage-2.2.26
 
+*amsynth-1.6.4 (31 Jan 2016)
+
+  31 Jan 2016; David Seifert <soap@gentoo.org> +amsynth-1.6.4.ebuild:
+  Version bump to 1.6.4
+
+  Gentoo-Bug: 572572
+  * EAPI=6
+
+  Package-Manager: portage-2.2.27
+

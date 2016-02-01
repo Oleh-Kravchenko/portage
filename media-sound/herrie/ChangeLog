@@ -64,3 +64,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*herrie-2.2-r1 (31 Jan 2016)
+
+  31 Jan 2016; David Seifert <soap@gentoo.org>
+  +files/herrie-2.2-fix-buildsystem.patch, files/herrie-2.2-libxspf.patch,
+  +herrie-2.2-r1.ebuild:
+  Add patch for libmodplug/modplug.h include
+
+  Gentoo-Bug: 573522
+  * EAPI=6
+  * Fix errors caused by -Werror=format-security
+  * Fix underlinking issues with sys-libs/ncurses
+  * Amended all patches to be compatible with -p1
+
+  Package-Manager: portage-2.2.27
+

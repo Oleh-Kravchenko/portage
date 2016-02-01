@@ -71,3 +71,13 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  31 Jan 2016; Pacho Ramos <pacho@gentoo.org> falcon-0.9.6.8.ebuild:
+  Fix missing dep on gtk2 (#573478 by Toralf Förster)
+
+  Package-Manager: portage-2.2.27
+
+  31 Jan 2016; Pacho Ramos <pacho@gentoo.org> -falcon-0.9.6.4.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+

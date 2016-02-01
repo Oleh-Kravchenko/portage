@@ -54,3 +54,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ppsspp-9999-r1 (31 Jan 2016)
+*ppsspp-1.1.1-r1 (31 Jan 2016)
+*ppsspp-1.1.0-r1 (31 Jan 2016)
+
+  31 Jan 2016; Patrice Clement <monsieurp@gentoo.org> -ppsspp-1.1.0.ebuild,
+  +ppsspp-1.1.0-r1.ebuild, -ppsspp-1.1.1.ebuild, +ppsspp-1.1.1-r1.ebuild,
+  -ppsspp-9999.ebuild, +ppsspp-9999-r1.ebuild:
+  bug fix #572606
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

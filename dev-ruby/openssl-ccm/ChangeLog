@@ -15,3 +15,13 @@
 
   Package-Manager: portage-2.2.27
 
+  31 Jan 2016; Hans de Graaff <graaff@gentoo.org> openssl-ccm-1.2.1.ebuild:
+  Fix USE=doc and enable tests
+
+  Package-Manager: portage-2.2.26
+
+  31 Jan 2016; Hans de Graaff <graaff@gentoo.org> openssl-ccm-1.2.1.ebuild:
+  add ruby22, ruby23
+
+  Package-Manager: portage-2.2.26
+

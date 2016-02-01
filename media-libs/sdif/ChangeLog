@@ -63,3 +63,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sdif-3.11.4 (31 Jan 2016)
+
+  31 Jan 2016; David Seifert <soap@gentoo.org>
+  +files/sdif-3.11.4-fix-buildsystem.patch, +sdif-3.11.4.ebuild:
+  Version bump to 3.11.4
+
+  Gentoo-Bug: 572686
+  * EAPI=6
+  * Remove USE="doc"
+
+  Package-Manager: portage-2.2.27
+

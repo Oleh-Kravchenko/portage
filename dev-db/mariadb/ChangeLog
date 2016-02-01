@@ -328,3 +328,23 @@
 
   Package-Manager: portage-2.2.26
 
+*mariadb-10.1.11 (31 Jan 2016)
+
+  31 Jan 2016; Brian Evans <grknight@gentoo.org> +mariadb-10.1.11.ebuild:
+  Version bump to 10.1.11
+
+  Package-Manager: portage-2.2.27
+
+  31 Jan 2016; Tobias Klausmann <klausman@gentoo.org> mariadb-10.0.23.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 572872
+
+  Package-Manager: portage-2.2.27
+
+  31 Jan 2016; Jeroen Roovers <jer@gentoo.org> mariadb-10.0.23.ebuild:
+  Stable for HPPA PPC64 (bug #572872).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

@@ -93,3 +93,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  31 Jan 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/nomacs-3.0.0-opencv3.patch, nomacs-2.4.2.ebuild, nomacs-2.4.4.ebuild,
+  nomacs-2.4.6.ebuild, nomacs-3.0.0.ebuild:
+  Fix configure with >=opencv-3
+
+  Package-Manager: portage-2.2.27
+

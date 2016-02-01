@@ -267,3 +267,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  31 Jan 2016; Yuta Satoh <nigoro.dev@gmail.com> gcc-5.3.0.ebuild:
+  Added ~amd64-fbsd ~x86-fbsd keyword.
+
