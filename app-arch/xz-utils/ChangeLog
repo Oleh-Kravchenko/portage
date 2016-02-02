@@ -83,3 +83,9 @@
 
   Package-Manager: portage-2.2.27
 
+  01 Feb 2016; Jeroen Roovers <jer@gentoo.org> xz-utils-5.2.2.ebuild:
+  Stable for HPPA PPC64 (bug #573232).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

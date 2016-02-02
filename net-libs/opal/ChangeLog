@@ -71,3 +71,10 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+  01 Feb 2016; Tobias Klausmann <klausman@gentoo.org> opal-3.10.11.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 565020
+
+  Package-Manager: portage-2.2.27
+

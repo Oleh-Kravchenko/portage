@@ -57,3 +57,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Feb 2016; Doug Goldstein <cardoe@gentoo.org>
+  x11-ssh-askpass-1.2.4.1-r1.ebuild:
+  improve build DEPEND
+
+  John David <ebo@swcp.com> identified an issue when building with
+  x11-misc/imake-1.0.6 so set the DEPEND to 1.0.7 and newer, which John
+  reports fixes the issue.
+
+  Gentoo-Bug: 522418
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

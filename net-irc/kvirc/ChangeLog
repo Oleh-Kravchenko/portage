@@ -109,3 +109,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Feb 2016; Mike Gilbert <floppym@gentoo.org> kvirc-9999.ebuild:
+  Improve dependency on dev-lang/perl.
+

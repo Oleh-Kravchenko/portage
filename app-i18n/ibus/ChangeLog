@@ -140,3 +140,26 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ibus-1.5.12 (01 Feb 2016)
+
+  01 Feb 2016; Yixun Lan <dlan@gentoo.org> +ibus-1.5.12.ebuild:
+  version bump 1.5.12
+
+  Package-Manager: portage-2.2.26
+
+  01 Feb 2016; Yixun Lan <dlan@gentoo.org> -ibus-1.5.5.ebuild,
+  -ibus-1.5.8-r1.ebuild, -ibus-1.5.9-r1.ebuild:
+  cleanup old versions
+
+  Package-Manager: portage-2.2.26
+
+*ibus-1.5.9-r1 (01 Feb 2016)
+*ibus-1.5.8-r1 (01 Feb 2016)
+*ibus-1.5.5 (01 Feb 2016)
+
+  01 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +ibus-1.5.5.ebuild,
+  +ibus-1.5.8-r1.ebuild, +ibus-1.5.9-r1.ebuild:
+  Revert "app-i18n/ibus: cleanup old versions"; this broke the deptree
+
+  This reverts commit 97a6aec8268998c24e7485281fd4ddf59c7d4da3.
+

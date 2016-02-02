@@ -73,3 +73,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  texlive-pstricks-2014.ebuild, texlive-pstricks-2015.ebuild:
+  add rdep on pgf, bug #573530
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

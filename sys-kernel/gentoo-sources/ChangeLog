@@ -881,3 +881,18 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*gentoo-sources-4.4.1 (01 Feb 2016)
+*gentoo-sources-4.3.5 (01 Feb 2016)
+*gentoo-sources-4.1.17 (01 Feb 2016)
+*gentoo-sources-3.12.53 (01 Feb 2016)
+*gentoo-sources-3.10.96 (01 Feb 2016)
+
+  01 Feb 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.96.ebuild, +gentoo-sources-3.12.53.ebuild,
+  +gentoo-sources-4.1.17.ebuild, +gentoo-sources-4.3.5.ebuild,
+  +gentoo-sources-4.4.1.ebuild:
+  Linux patch 3.10.96. Linux patch 3.12.53. Linux patch 4.1.17. Linux patch
+  4.3.5. Linux patch 4.4.1
+
+  Package-Manager: portage-2.2.26
+

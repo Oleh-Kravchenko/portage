@@ -234,3 +234,17 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*virtualenv-14.0.5 (01 Feb 2016)
+
+  01 Feb 2016; Justin Lecher <jlec@gentoo.org> +virtualenv-14.0.5.ebuild:
+  dev-python/mimeparse: Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  01 Feb 2016; Justin Lecher <jlec@gentoo.org> virtualenv-14.0.5.ebuild:
+  Fix typo in deps
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

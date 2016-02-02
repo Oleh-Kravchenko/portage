@@ -62,3 +62,8 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+  01 Feb 2016; Hanno <hanno@gentoo.org> spim-8.0-r1.ebuild:
+  Disable test (hangs forever) and avoid invalid desktop file
+
+  Package-Manager: portage-2.2.27
+

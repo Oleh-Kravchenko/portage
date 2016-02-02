@@ -27,3 +27,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Feb 2016; Hans de Graaff <graaff@gentoo.org>
+  instance_storage-1.0.0.ebuild:
+  fix USE=doc, add ruby23
+
+  Also avoid a dependency on bundler.
+
+  Package-Manager: portage-2.2.26
+

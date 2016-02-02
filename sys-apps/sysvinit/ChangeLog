@@ -86,3 +86,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sysvinit-2.88-r8 (01 Feb 2016)
+
+  01 Feb 2016; William Hubbs <williamh@gentoo.org> +files/inittab-2.88,
+  +sysvinit-2.88-r8.ebuild:
+  revision bump to 2.88-r8 for several bug fixes:
+
+  https://bugs.gentoo.org/show_bug.cgi?id=487384
+  https://bugs.gentoo.org/show_bug.cgi?id=506030
+  https://bugs.gentoo.org/show_bug.cgi?id=548826
+  https://bugs.gentoo.org/show_bug.cgi?id=573348
+

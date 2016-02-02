@@ -87,3 +87,28 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*socat-2.0.0_beta9 (01 Feb 2016)
+*socat-1.7.3.1 (01 Feb 2016)
+
+  01 Feb 2016; Jeroen Roovers <jer@gentoo.org> +socat-1.7.3.1.ebuild,
+  +socat-2.0.0_beta9.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+
+  01 Feb 2016; Jeroen Roovers <jer@gentoo.org> -socat-2.0.0_beta8.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+
+  01 Feb 2016; Jeroen Roovers <jer@gentoo.org> socat-1.7.3.1.ebuild:
+  Reinstate patch.
+
+  Package-Manager: portage-2.2.27
+
+  01 Feb 2016; Jeroen Roovers <jer@gentoo.org> socat-1.7.3.1.ebuild,
+  socat-2.0.0_beta9.ebuild, socat-9999.ebuild:
+  Set SLOT deps.
+
+  Package-Manager: portage-2.2.27
+

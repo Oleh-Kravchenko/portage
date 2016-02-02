@@ -549,3 +549,18 @@
 
   Package-Manager: portage-2.2.27_p49
 
+*chrome-binary-plugins-50.0.2633.3_alpha1 (01 Feb 2016)
+
+  01 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-49.0.2623.23_alpha1.ebuild,
+  +chrome-binary-plugins-50.0.2633.3_alpha1.ebuild:
+  Bump, drops x86 support
+
+  Package-Manager: portage-2.2.27_p57
+
+  01 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-9999.ebuild:
+  Drop the live ebuild
+
+  Package-Manager: portage-2.2.27_p57
+

@@ -64,3 +64,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xbomb-2.2b (31 Jan 2016)
+
+  31 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/xbomb-2.2b-DESTDIR.patch, +files/xbomb-2.2b-ldflags.patch,
+  +xbomb-2.2b.ebuild:
+  version bump (bug #573412)
+
+  Package-Manager: portage-2.2.26
+
+  31 Jan 2016; Michael Sterrett <mr_bones_@gentoo.org> xbomb-2.2b.ebuild:
+  whitespace cleanup
+
+  Package-Manager: portage-2.2.26
+

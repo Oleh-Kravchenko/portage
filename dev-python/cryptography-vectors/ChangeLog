@@ -253,3 +253,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cryptography-vectors-1.2.2 (01 Feb 2016)
+
+  01 Feb 2016; Justin Lecher <jlec@gentoo.org>
+  +cryptography-vectors-1.2.2.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

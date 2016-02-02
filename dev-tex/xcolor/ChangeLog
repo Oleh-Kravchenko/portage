@@ -69,3 +69,16 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  01 Feb 2016; Alexis Ballier <aballier@gentoo.org> xcolor-2.11.ebuild:
+  depend on tl-latexextra; bug #573530 by Denis Dupeyron.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Feb 2016; Alexis Ballier <aballier@gentoo.org> xcolor-2.11.ebuild:
+  build doc conditionnally to avoid cycles in the dependency chain. Bug
+  #573530
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

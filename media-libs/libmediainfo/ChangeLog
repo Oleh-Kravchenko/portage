@@ -92,3 +92,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libmediainfo-0.7.82 (01 Feb 2016)
+
+  01 Feb 2016; Tim Harder <radhermit@gentoo.org> +libmediainfo-0.7.82.ebuild:
+  version bump to 0.7.82
+

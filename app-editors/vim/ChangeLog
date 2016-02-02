@@ -142,3 +142,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*vim-7.4.1229 (01 Feb 2016)
+
+  01 Feb 2016; Tim Harder <radhermit@gentoo.org> +vim-7.4.1229.ebuild,
+  vim-9999.ebuild:
+  version bump to 7.4.1229
+
+  01 Feb 2016; Tim Harder <radhermit@gentoo.org> -vim-7.4.273.ebuild,
+  -vim-7.4.827.ebuild:
+  remove old
+

@@ -95,3 +95,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Feb 2016; Pacho Ramos <pacho@gentoo.org> anjuta-3.18.2.ebuild:
+  Support vala-0.30
+
+  Package-Manager: portage-2.2.27
+
+  01 Feb 2016; Pacho Ramos <pacho@gentoo.org> anjuta-3.18.2.ebuild:
+  Revert "dev-util/anjuta: Support vala-0.30"
+
+  This reverts commit f75e018ed1c14ba56ed461d19012d82a55b431f7.
+

@@ -89,3 +89,10 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  01 Feb 2016; Justin Lecher <jlec@gentoo.org> rapidsvn-0.12.1-r1.ebuild,
+  rapidsvn-0.12.1-r2.ebuild:
+  Inherit multilib.eclass where necessary
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

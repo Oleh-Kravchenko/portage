@@ -150,3 +150,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sqlite-3.10.2 (01 Feb 2016)
+
+  01 Feb 2016; Mike Gilbert <floppym@gentoo.org> +sqlite-3.10.2.ebuild:
+  Version bump.
+

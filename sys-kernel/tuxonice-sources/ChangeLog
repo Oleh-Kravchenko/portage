@@ -203,3 +203,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*tuxonice-sources-4.4.0-r1 (01 Feb 2016)
+*tuxonice-sources-4.3.4 (01 Feb 2016)
+*tuxonice-sources-4.1.16 (01 Feb 2016)
+*tuxonice-sources-3.18.25-r1 (01 Feb 2016)
+*tuxonice-sources-3.14.59 (01 Feb 2016)
+*tuxonice-sources-3.12.52-r1 (01 Feb 2016)
+*tuxonice-sources-3.10.95 (01 Feb 2016)
+
+  01 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  +tuxonice-sources-3.10.95.ebuild, +tuxonice-sources-3.12.52-r1.ebuild,
+  +tuxonice-sources-3.14.59.ebuild, +tuxonice-sources-3.18.25-r1.ebuild,
+  +tuxonice-sources-4.1.16.ebuild, +tuxonice-sources-4.3.4.ebuild,
+  +tuxonice-sources-4.4.0-r1.ebuild:
+  Version bumps.
+

@@ -72,3 +72,11 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  01 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  capi4k-utils-20050718-r6.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 565020
+
+  Package-Manager: portage-2.2.27
+

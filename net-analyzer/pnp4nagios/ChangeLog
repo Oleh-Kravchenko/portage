@@ -74,3 +74,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pnp4nagios-0.6.25-r2 (01 Feb 2016)
+
+  01 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +pnp4nagios-0.6.25-r2.ebuild:
+  fixing bug 543120, add icinga2 specifics
+
+  Package-Manager: portage-2.2.26
+

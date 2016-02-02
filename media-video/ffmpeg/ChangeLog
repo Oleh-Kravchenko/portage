@@ -348,3 +348,19 @@
 
   Package-Manager: portage-2.2.27
 
+*ffmpeg-2.8.6 (01 Feb 2016)
+
+  01 Feb 2016; Alexis Ballier <aballier@gentoo.org> +ffmpeg-2.8.6.ebuild:
+  bump to 2.8.6
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Feb 2016; Alexis Ballier <aballier@gentoo.org> -ffmpeg-2.7.2.ebuild,
+  -ffmpeg-2.8.1.ebuild, -ffmpeg-2.8.2.ebuild, -ffmpeg-2.8.3.ebuild,
+  -ffmpeg-2.8.4.ebuild, -files/libvpx15.patch:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

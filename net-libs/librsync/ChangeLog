@@ -139,3 +139,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  31 Jan 2016; Alessandro Calorì <axelgenus@gmail.com>
+  librsync-0.9.7-r3.ebuild, librsync-2.0.0.ebuild:
+  add subslots
+
+*librsync-2.0.0-r1 (31 Jan 2016)
+
+  31 Jan 2016; Alessandro Calorì <axelgenus@gmail.com>
+  +files/librsync-2.0.0-search.patch, +librsync-2.0.0-r1.ebuild:
+  fix bug #573144
+

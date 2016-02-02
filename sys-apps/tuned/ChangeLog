@@ -60,3 +60,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*tuned-2.6.0 (01 Feb 2016)
+
+  01 Feb 2016; Yixun Lan <dlan@gentoo.org> +tuned-2.6.0.ebuild:
+  version bump 2.6.0
+
+  Package-Manager: portage-2.2.26
+
+  01 Feb 2016; Yixun Lan <dlan@gentoo.org> -tuned-2.4.1.ebuild,
+  -tuned-2.5.0.ebuild:
+  cleanup old versions
+
+  Package-Manager: portage-2.2.26
+

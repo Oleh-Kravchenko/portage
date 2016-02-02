@@ -129,3 +129,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  01 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  python-sqlparse-0.1.13.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 530586
+
+  Package-Manager: portage-2.2.27
+

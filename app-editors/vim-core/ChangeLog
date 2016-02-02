@@ -142,3 +142,13 @@
   25 Jan 2016; Tim Harder <radhermit@gentoo.org> vim-core-7.4.769.ebuild:
   fix tarball manifest for 7.4.769
 
+*vim-core-7.4.1229 (01 Feb 2016)
+
+  01 Feb 2016; Tim Harder <radhermit@gentoo.org> +vim-core-7.4.1229.ebuild,
+  vim-core-9999.ebuild:
+  version bump to 7.4.1229
+
+  01 Feb 2016; Tim Harder <radhermit@gentoo.org> -vim-core-7.4.273.ebuild,
+  -vim-core-7.4.827.ebuild:
+  remove old
+

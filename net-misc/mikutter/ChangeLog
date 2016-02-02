@@ -72,3 +72,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mikutter-3.3.5 (01 Feb 2016)
+
+  01 Feb 2016; Naohiro Aota <naota@gentoo.org> +mikutter-3.3.5.ebuild,
+  mikutter-9999.ebuild:
+  version bump; update dependency
+

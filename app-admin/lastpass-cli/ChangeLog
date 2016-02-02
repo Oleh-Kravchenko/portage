@@ -138,3 +138,37 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*lastpass-cli-0.6.1 (28 Jan 2016)
+
+  28 Jan 2016; Gokturk Yuksek <gokturk@binghamton.edu>
+  +lastpass-cli-0.6.1.ebuild:
+  bump 0.6.0 to 0.6.1 for the upcoming cert change
+
+  Also, respect CC using toolchain-funcs.
+
+  X-Upstream-Issue-URL: https://github.com/lastpass/lastpass-cli/issues/88
+
+  Package-Manager: portage-2.2.24
+
+*lastpass-cli-0.7.2 (28 Jan 2016)
+
+  28 Jan 2016; Gokturk Yuksek <gokturk@binghamton.edu>
+  +lastpass-cli-0.7.2.ebuild:
+  bump 0.7.1 to 0.7.2 for the upcoming cert change
+
+  Also, respect CC using toolchain-funcs.
+
+  X-Upstream-Issue-URL: https://github.com/lastpass/lastpass-cli/issues/88
+
+  Package-Manager: portage-2.2.24
+
+*lastpass-cli-0.8.1 (28 Jan 2016)
+
+  28 Jan 2016; Gokturk Yuksek <gokturk@binghamton.edu>
+  +lastpass-cli-0.8.1.ebuild:
+  bump 0.8.0 to 0.8.1 for the upcoming cert change
+
+  X-Upstream-Issue-URL: https://github.com/lastpass/lastpass-cli/issues/88
+
+  Package-Manager: portage-2.2.24
+

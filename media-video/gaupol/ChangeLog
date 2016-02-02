@@ -64,3 +64,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gaupol-0.28.2-r1 (01 Feb 2016)
+
+  01 Feb 2016; Ian Delaney <idella4@gentoo.org> -gaupol-0.28.2.ebuild,
+  +gaupol-0.28.2-r1.ebuild, metadata.xml:
+  add Python 3.5 support, tests, postrm
+
+  Minor fixes to metadata, add upstream
+
+  Package-Manager: portage-2.2.27
+
