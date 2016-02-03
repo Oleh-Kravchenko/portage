@@ -189,3 +189,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  02 Feb 2016; Patrice Clement <monsieurp@gentoo.org> distlib-0.2.2.ebuild,
+  +files/distlib-0.2.2-unbundle.patch:
+  Add patches for distlib-0.2.2.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -32,3 +32,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*django-classy-tags-0.7.1 (02 Feb 2016)
+
+  02 Feb 2016; Slawomir Lis <slis@gentoo.org>
+  +django-classy-tags-0.7.1.ebuild:
+  django-classy-tags version bump
+
+  Package-Manager: portage-2.2.26
+

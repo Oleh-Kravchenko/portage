@@ -896,3 +896,12 @@
 
   Package-Manager: portage-2.2.26
 
+*gentoo-sources-3.18.26 (01 Feb 2016)
+*gentoo-sources-3.14.60 (01 Feb 2016)
+
+  01 Feb 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.60.ebuild, +gentoo-sources-3.18.26.ebuild:
+  This time really add 3.14.60 and 3.18.26
+
+  Package-Manager: portage-2.2.26
+

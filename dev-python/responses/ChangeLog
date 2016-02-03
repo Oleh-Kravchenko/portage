@@ -31,3 +31,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*responses-0.5.1 (02 Feb 2016)
+
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +responses-0.5.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -responses-0.4.0.ebuild,
+  -responses-0.5.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

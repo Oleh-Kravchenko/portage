@@ -63,3 +63,9 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  02 Feb 2016; Alexis Ballier <aballier@gentoo.org> mldonkey-3.1.5.ebuild:
+  add missing dep on camlp4, bug #452408
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

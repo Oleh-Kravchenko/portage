@@ -71,3 +71,13 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+*gammu-1.36.8 (02 Feb 2016)
+
+  02 Feb 2016; Louis Sautier <sautier.louis@gmail.com>
+  +files/gammu-1.36.8-bashcompdir.patch, +gammu-1.36.8.ebuild, metadata.xml:
+  bump to 1.36.8, fix #536722
+
+  Python support is now handled by dev-python/python-gammu
+
+  Package-Manager: portage-2.2.27
+

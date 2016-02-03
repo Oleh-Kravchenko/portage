@@ -89,3 +89,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*musescore-2.0.2-r1 (01 Feb 2016)
+
+  01 Feb 2016; David Seifert <soap@gentoo.org>
+  +files/musescore-2.0.2-fix-buildsystem.patch, +musescore-2.0.2-r1.ebuild:
+  Add dev-qt/qtprintsupport dependency
+
+  Gentoo-Bug: 569046
+  * EAPI=6
+  * Add USE="mp3" and USE="jack" flags and make them optional
+  * Fixed QA warnings due to incorrect .desktop file
+  * Removed hard-coded CXXFLAGS
+  * Removed setting RELEASE/DEBUG build, use Gentoo build type
+
+  Package-Manager: portage-2.2.27
+

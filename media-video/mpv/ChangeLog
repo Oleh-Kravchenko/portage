@@ -695,3 +695,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> mpv-0.14.0-r1.ebuild:
+  omit unneeded etc/* entries from DOCS array in 0.14.0-r1
+
+  This is the backport of 8d842d6 to 0.14.0-r1 ebuild.
+  The resulting installed image isn't changed, thus no revbump.
+
+  Package-Manager: portage-2.2.27
+
+  02 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> metadata.xml:
+  drop inactive proxy maintainer
+
+  After many pings there's no reply from him. See 8549f2c for reference.
+
+  Package-Manager: portage-2.2.27
+

@@ -74,3 +74,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Feb 2016; Louis Sautier <sautier.louis@gmail.com> metadata.xml,
+  pysrt-1.0.1.ebuild, pysrt-9999.ebuild:
+  support Python 3.5, fix tests, take package
+
+  Pull releases from github instead of pypi
+
+  Package-Manager: portage-2.2.27
+

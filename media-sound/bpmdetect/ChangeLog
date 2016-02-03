@@ -78,3 +78,8 @@
 
   Package-Manager: portage-2.2.27
 
+  01 Feb 2016; David Seifert <soap@gentoo.org> bpmdetect-0.6.1-r1.ebuild:
+  Port to scons-utils.eclass
+
+  Package-Manager: portage-2.2.27
+

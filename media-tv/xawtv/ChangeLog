@@ -69,3 +69,13 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -xawtv-3.95-r2.ebuild:
+  Remove old and drop to unstable
+
+  As the package is masked, this allows us to drop it easily to unstable by
+  removing the stable version. If a future maintainer has fixed the
+  outstanding
+  bugs, this package can transit again to the stabilization workflow.
+
+  Package-Manager: portage-2.2.27
+

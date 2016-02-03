@@ -305,3 +305,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*icedtea-bin-3.0.0_pre08 (01 Feb 2016)
+
+  01 Feb 2016; James Le Cuirot <chewi@gentoo.org> +files/icedtea-bin-8.env,
+  +icedtea-bin-3.0.0_pre08.ebuild:
+  Prerelease of v3 for Java 8
+
+  Currently for ppc64 only, partially for initial testing on a
+  lesser-used platform and partially because Java 7 on ppc64 has given
+  us problems; we need a stable replacement for 6 ASAP.
+
+  Package-Manager: portage-2.2.27
+

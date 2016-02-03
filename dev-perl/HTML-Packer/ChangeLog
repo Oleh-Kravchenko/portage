@@ -64,3 +64,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*HTML-Packer-2.20.0 (01 Feb 2016)
+
+  01 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +HTML-Packer-2.20.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  01 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -HTML-Packer-1.4.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

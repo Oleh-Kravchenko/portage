@@ -104,3 +104,17 @@
 
   Package-Manager: portage-2.2.27
 
+*uchardet-0.0.5-r1 (02 Feb 2016)
+
+  02 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com>
+  +files/uchardet-0.0.5-fix-return-code-on-error.patch,
+  -uchardet-0.0.5.ebuild, +uchardet-0.0.5-r1.ebuild:
+  revbump to 0.0.5-r1 to fix return code on error
+
+  Package-Manager: portage-2.2.27
+
+  02 Feb 2016; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  drop maintainer Rion from metadata
+
+  Package-Manager: portage-2.2.26
+

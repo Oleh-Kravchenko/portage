@@ -331,3 +331,6 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  02 Feb 2016; Mike Frysinger <vapier@gentoo.org> openssl-1.0.2f.ebuild:
+  mark 1.0.2f arm64/m68k stable
+

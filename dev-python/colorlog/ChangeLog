@@ -83,3 +83,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  01 Feb 2016; Justin Lecher <jlec@gentoo.org> colorlog-2.6.1.ebuild:
+  Docs changed name
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=573622
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

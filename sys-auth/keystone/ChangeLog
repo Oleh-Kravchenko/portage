@@ -228,3 +228,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*keystone-8.0.1-r1 (02 Feb 2016)
+
+  02 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +files/CVE-2015-7546_8.0.1.patch, +keystone-8.0.1-r1.ebuild:
+  fixing bug 573658 CVE-2015-7546
+
+  Package-Manager: portage-2.2.26
+

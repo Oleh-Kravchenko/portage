@@ -104,3 +104,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Feb 2016; James Le Cuirot <chewi@gentoo.org> jdk-1.8.0-r1.ebuild:
+  Remove icedtea, limit icedtea-bin to ~ppc64, bug #573042
+
+  Portage was complaining about the missing ebuilds instead of
+  suggesting a license change, which is bug #327177. Even after adding
+  the ebuilds, Portage suggested a keyword change in some cases, which
+  is bug #573500.
+
+  I don't really want to add icedtea:8 to the tree just yet so let's
+  remove this and limit icedtea-bin:8 to ~ppc64 to deal with the
+  remaining issue.
+
+  Package-Manager: portage-2.2.27
+

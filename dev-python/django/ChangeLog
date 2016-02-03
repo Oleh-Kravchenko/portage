@@ -255,3 +255,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*django-1.8.9 (02 Feb 2016)
+
+  02 Feb 2016; Justin Lecher <jlec@gentoo.org> +django-1.8.9.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*django-1.9.2 (02 Feb 2016)
+
+  02 Feb 2016; Justin Lecher <jlec@gentoo.org> -django-1.9.ebuild,
+  -django-1.9.1.ebuild, +django-1.9.2.ebuild:
+  Version Bump & clean versions vulnerable for CVE-2016-2048
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

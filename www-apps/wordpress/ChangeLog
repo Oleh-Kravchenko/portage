@@ -94,3 +94,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*wordpress-4.4.2 (02 Feb 2016)
+
+  02 Feb 2016; Sebastian Pipping <sping@gentoo.org> -wordpress-4.4.1.ebuild,
+  +wordpress-4.4.2.ebuild:
+  4.4.2
+

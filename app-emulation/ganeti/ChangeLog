@@ -134,3 +134,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ganeti-2.15.2 (02 Feb 2016)
+
+  02 Feb 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/ganeti-2.15.2-remove-sandbox-failing-tests.patch,
+  +ganeti-2.15.2.ebuild:
+  Version bump to 2.15.2
+
+  Package-Manager: portage-2.2.27
+

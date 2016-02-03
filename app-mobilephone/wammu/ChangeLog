@@ -62,3 +62,21 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+*wammu-0.35-r1 (02 Feb 2016)
+
+  02 Feb 2016; Sebastian Pipping <sping@gentoo.org> +wammu-0.35-r1.ebuild,
+  wammu-0.36-r1.ebuild:
+  Adjust gammu dependency (#775)
+
+  Changelog of gammu 1.34.0 says:
+  "Removed deprecated Python modules gammu.Data and gammu.Worker".
+
+  Package-Manager: portage-2.2.27
+
+*wammu-0.40 (02 Feb 2016)
+
+  02 Feb 2016; Sebastian Pipping <sping@gentoo.org> +wammu-0.40.ebuild:
+  0.40
+
+  Package-Manager: portage-2.2.27
+

@@ -39,3 +39,11 @@
 
   Package-Manager: portage-2.2.27
 
+*git-tools-2015_p20160201 (01 Feb 2016)
+
+  01 Feb 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +git-tools-2015_p20160201.ebuild:
+  upstream bump, now with commit-time functionality.
+
+  Package-Manager: portage-2.2.27
+

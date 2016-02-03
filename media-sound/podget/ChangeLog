@@ -65,3 +65,29 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> metadata.xml:
+  add myself as a proxy-maintainer
+
+  As agreed upon with Ian Delaney (idella4).
+
+  Package-Manager: portage-2.2.27
+
+*podget-0.7.9 (02 Feb 2016)
+
+  02 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> +podget-0.7.9.ebuild:
+  verbump to 0.7.9
+
+  List of changes:
+  - fix dependencies
+  - don't install scripts that only work with 0.6.x
+  - sync DESCRIPTION with upstream
+  - bump EAPI to 6
+
+  Package-Manager: portage-2.2.27
+
+  02 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> -podget-0.6.ebuild,
+  -podget-0.6.9.ebuild, -podget-0.6.15.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+

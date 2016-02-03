@@ -66,3 +66,8 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+  02 Feb 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Fix metadata.xml
+
+  Package-Manager: portage-2.2.27
+

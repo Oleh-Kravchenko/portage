@@ -112,3 +112,9 @@
   01 Feb 2016; Mike Gilbert <floppym@gentoo.org> kvirc-9999.ebuild:
   Improve dependency on dev-lang/perl.
 
+*kvirc-5.0_pre20160201053254 (01 Feb 2016)
+
+  01 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  +kvirc-5.0_pre20160201053254.ebuild:
+  Version bump.
+

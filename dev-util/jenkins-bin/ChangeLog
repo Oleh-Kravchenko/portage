@@ -280,3 +280,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jenkins-bin-1.646 (02 Feb 2016)
+
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +jenkins-bin-1.646.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+*jenkins-bin-1.642.1 (02 Feb 2016)
+
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +jenkins-bin-1.642.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -jenkins-bin-1.644.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

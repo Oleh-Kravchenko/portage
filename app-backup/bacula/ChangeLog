@@ -100,3 +100,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Feb 2016; Thomas Beierlein <tomjbe@gentoo.org> -bacula-5.0.3-r4.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+  02 Feb 2016; Thomas Beierlein <tomjbe@gentoo.org> bacula-5.2.13-r3.ebuild,
+  bacula-7.0.5-r1.ebuild, bacula-7.2.0.ebuild:
+  Add slot dependencies
+
+  Package-Manager: portage-2.2.27
+
+*bacula-7.4.0 (02 Feb 2016)
+
+  02 Feb 2016; Thomas Beierlein <tomjbe@gentoo.org> +bacula-7.4.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

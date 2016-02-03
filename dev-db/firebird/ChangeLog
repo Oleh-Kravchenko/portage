@@ -92,3 +92,15 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  02 Feb 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Fix metadata.xml
+
+  Package-Manager: portage-2.2.27
+
+  02 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> metadata.xml:
+  Add name and description to metadata.xml
+
+  Bug: 573684
+
+  Package-Manager: portage-2.2.27
+

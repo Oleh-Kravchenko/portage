@@ -44,3 +44,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*qtpass-1.1.0 (02 Feb 2016)
+
+  02 Feb 2016; Ian Delaney <idella4@gentoo.org> +qtpass-1.1.0.ebuild:
+  bump to vn. 1.1.0
+
+  ebuild by maintainer sourced from the gentoo bug
+
+  Gentoo bug: #572986
+
+  Package-Manager: portage-2.2.26
+

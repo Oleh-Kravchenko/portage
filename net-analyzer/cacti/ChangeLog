@@ -80,3 +80,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cacti-0.8.8f-r1 (02 Feb 2016)
+
+  02 Feb 2016; Jeroen Roovers <jer@gentoo.org> +cacti-0.8.8f-r1.ebuild,
+  +files/cacti-0.8.8f-CVE-2015-8369.patch:
+  Add upstream patch for CVE-2015-8369 (bug #568400).
+
+  Package-Manager: portage-2.2.27
+
+  02 Feb 2016; Tobias Klausmann <klausman@gentoo.org> cacti-0.8.8f-r1.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 568400
+
+  Package-Manager: portage-2.2.27
+

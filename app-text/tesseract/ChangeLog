@@ -194,3 +194,12 @@
 
   Package-Manager: portage-2.2.27
 
+  02 Feb 2016; Thomas Kahle <tomka@gentoo.org>
+  +files/tesseract-3.04.00-leptonica-1.73-compat.patch,
+  tesseract-3.04.00-r4.ebuild:
+  leptonica-1.73 compatibility
+
+  Fixes bug 573382.  Thanks Dennis Schridde.
+
+  Package-Manager: portage-2.2.26
+

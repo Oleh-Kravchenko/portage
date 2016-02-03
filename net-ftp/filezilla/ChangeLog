@@ -187,3 +187,11 @@
 
   Package-Manager: portage-2.2.27
 
+*filezilla-3.15.0.1 (02 Feb 2016)
+
+  02 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +filezilla-3.15.0.1.ebuild:
+  bugfix version bump
+
+  Package-Manager: portage-2.2.27
+
