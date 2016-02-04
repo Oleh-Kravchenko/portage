@@ -58,3 +58,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Feb 2016; Tim Harder <radhermit@gentoo.org>
+  dovecot-antispam-2.0_pre20130429.ebuild:
+  use system txt2man
+
+  Fixes bug #565946.
+

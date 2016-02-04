@@ -95,3 +95,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*rakudo-2016.01 (03 Feb 2016)
+
+  03 Feb 2016; Patrick Lauer <patrick@gentoo.org> +rakudo-2016.01.ebuild:
+  Bump, java bits not working, moarvm bits still have path issues
+
+  Package-Manager: portage-2.2.27
+

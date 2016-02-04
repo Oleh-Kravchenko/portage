@@ -141,3 +141,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*fio-2.6 (03 Feb 2016)
+
+  03 Feb 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +files/fio-2.2.10-libmtd.patch, +files/fio-2.2.13-libmtd.patch,
+  fio-2.2.10.ebuild, fio-2.2.13.ebuild, fio-2.5.ebuild, +fio-2.6.ebuild:
+  fix bug 572446 caused by newer kernel headers, also version bump.
+
+  Package-Manager: portage-2.2.27
+

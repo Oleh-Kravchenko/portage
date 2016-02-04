@@ -92,3 +92,9 @@
 
   Package-Manager: portage-2.2.27
 
+  03 Feb 2016; Markus Meier <maekke@gentoo.org> Filter-1.540.0.ebuild:
+  arm stable, bug #572136
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

@@ -27,3 +27,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 Feb 2016; Hans de Graaff <graaff@gentoo.org> metadata.xml,
+  totoridipjp-0.1.0.ebuild:
+  many fixes
+
+  Fix USE=doc and FEATURES=test cases.
+  Use eclass mechanism for not installing binaries.
+  Fix metadata to point to correct package.
+
+  Package-Manager: portage-2.2.26
+

@@ -85,3 +85,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*moarvm-2016.01 (03 Feb 2016)
+
+  03 Feb 2016; Patrick Lauer <patrick@gentoo.org> +moarvm-2016.01.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

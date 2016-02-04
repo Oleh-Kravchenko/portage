@@ -309,3 +309,60 @@
   bash-4.0_p44.ebuild, bash-4.1_p17.ebuild, bash-4.2_p53.ebuild:
   enable USE=static support in SLOT-ed ebuilds
 
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org> files/bashrc:
+  bashrc: simplify/unify TERM checking slightly
+
+  We've got two cases that check TERM with many common entries,
+  so make the leading parts look the same.
+
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org> files/bashrc:
+  bashrc: enable fallback TERM color checking for everyone
+
+  We provide rudimentary TERM checking for BSD which doesn't have dircolors,
+  but this logic works just as well for all systems such as embedded.  Make
+  this code run whenever dircolors does not exist.
+
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org> files/bashrc:
+  bashrc: enable colors for all TERMS that end in "color"
+
+  A bunch of terms end in values like "-256color" and "-color" to indicate
+  the variant that supports color.  Match all of those in the fallback case.
+
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org> files/bashrc:
+  bashrc: quote the output of dircolors #572582#8
+
+  The output of dircolors generally shouldn't be problematic even when it's
+  unquoted (as it tends to be a long dense string w/out whitespace), but add
+  quotes anyways just to be safe.
+
+  Reported-by: konsolebox@gmail.com
+
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org> files/bashrc:
+  bashrc: drop custom parsing of dircolors databases #572582
+
+  Starting with coreutils-8.24, the dircolors TERM entries are run through
+  fnmatch rather than being a plain text string.  This means our parsing
+  logic no longer works because we assumed fixed strings.  It isn't easy to
+  process a list of path globs in bash, so rework the code to always run
+  the dircolors tool.  We were doing this anyways in the majority of cases,
+  so it's not like we're adding that much overhead.  The only people who
+  are negatively impacted are interactive colorless terminals.
+
+  Reported-by: Bernd Feige <Bernd.Feige@gmx.net>
+
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org> files/bashrc:
+  bashrc: avoid always exporting default LS_COLORS
+
+  We've long been exporting the LS_COLORS variable to the default env,
+  but in practice, there's no reason to be doing this in the majority
+  of cases.  The value we most often load is equivalent to the default
+  which means we're polluting the env and adding overhead for no gain.
+  Add a little more code (and one extra `dircolors` exec unfortunately)
+  to check to see if the LS_COLORS value we found is the default.  If
+  so, don't bother exporting it anymore.
+
+*bash-4.3_p42-r2 (03 Feb 2016)
+
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org> +bash-4.3_p42-r2.ebuild:
+  rev bump to push out bashrc updates
+

@@ -103,3 +103,16 @@
 
   Package-Manager: portage-2.2.27
 
+*x2goserver-4.0.1.19-r1 (03 Feb 2016)
+
+  03 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org> files/x2goserver.init,
+  +x2goserver-4.0.1.19-r1.ebuild:
+  stricter dependency on sys-apps/iproute2
+
+  This fixes local desktop sharing,
+  thanks Uwe Sauter <uwe@sauter-gechingen.de> in bug #572318
+  Bump EAPI
+  Fix pid file path in init script
+
+  Package-Manager: portage-2.2.27
+

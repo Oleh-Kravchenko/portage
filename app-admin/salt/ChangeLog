@@ -227,3 +227,15 @@
 
   Package-Manager: portage-2.2.27
 
+*salt-2015.8.5 (03 Feb 2016)
+
+  03 Feb 2016; Patrick McLean <chutzpah@gentoo.org> +salt-2015.8.5.ebuild:
+  Version bump to 2015.8.5
+
+  Package-Manager: portage-2.2.27
+
+  03 Feb 2016; Patrick McLean <chutzpah@gentoo.org> -salt-2015.8.4.ebuild:
+  Drop 2015.8.4 since it has a major state regression
+
+  Package-Manager: portage-2.2.27
+

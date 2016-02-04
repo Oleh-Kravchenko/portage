@@ -14,3 +14,16 @@
 
   Package-Manager: portage-2.2.26
 
+*with-editor-2.5.0-r1 (03 Feb 2016)
+
+  03 Feb 2016; Hans de Graaff <graaff@gentoo.org> -with-editor-2.5.0.ebuild,
+  +with-editor-2.5.0-r1.ebuild:
+  fix bug 573666
+
+  Block on older versions of app-emacs/magit since they bundle
+  the same code and this leads to file collisions, bug 573666.
+
+  Use a sane filename for the downloaded archive.
+
+  Package-Manager: portage-2.2.26
+

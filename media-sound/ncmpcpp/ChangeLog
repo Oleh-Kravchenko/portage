@@ -265,3 +265,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 Feb 2016; Markus Meier <maekke@gentoo.org> ncmpcpp-0.7.ebuild:
+  arm stable, bug #570562
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+
+  03 Feb 2016; Jeroen Roovers <jer@gentoo.org> -ncmpcpp-0.6.7.ebuild,
+  -ncmpcpp-0.6.8.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+

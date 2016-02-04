@@ -408,3 +408,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libvirt-1.3.1 (03 Feb 2016)
+
+  03 Feb 2016; Matthias Maier <tamiko@gentoo.org>
+  files/libvirt-1.2.17-fix_paths_for_apparmor.patch,
+  +files/libvirt-1.3.1-fix_paths_for_apparmor.patch, +libvirt-1.3.1.ebuild:
+  Version bump to 1.3.1, bug 573000
+
+  Package-Manager: portage-2.2.26
+
+  03 Feb 2016; Matthias Maier <tamiko@gentoo.org> -libvirt-1.3.0.ebuild:
+  Drop obsolete 1.3.0
+
+  Package-Manager: portage-2.2.26
+
+  03 Feb 2016; Matthias Maier <tamiko@gentoo.org> libvirt-9999.ebuild:
+  Update live build to latest changes
+
+  Package-Manager: portage-2.2.26
+

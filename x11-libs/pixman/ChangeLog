@@ -161,3 +161,10 @@
 
   Bug: https://bugs.gentoo.org/561526
 
+*pixman-0.34.0 (02 Feb 2016)
+
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +pixman-0.34.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

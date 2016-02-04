@@ -169,3 +169,9 @@
 
   Package-Manager: portage-2.2.27
 
+  03 Feb 2016; Markus Meier <maekke@gentoo.org> ntp-4.2.8_p6.ebuild:
+  arm stable, bug #572452
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

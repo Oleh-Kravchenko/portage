@@ -125,3 +125,17 @@
 
   Package-Manager: portage-2.2.27
 
+  03 Feb 2016; Agostino Sarubbo <ago@gentoo.org> socat-1.7.3.1.ebuild:
+  amd64 stable wrt bug #573602
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  03 Feb 2016; Agostino Sarubbo <ago@gentoo.org> socat-1.7.3.1.ebuild:
+  x86 stable wrt bug #573602
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

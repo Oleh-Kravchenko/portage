@@ -72,3 +72,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Feb 2016; Holger Hoffstätte <holger.hoffstaette@googlemail.com>
+  compton-0.1_beta2.ebuild, compton-9999.ebuild:
+  add support for python 3.5
+

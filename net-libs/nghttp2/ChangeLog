@@ -208,3 +208,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org> nghttp2-1.6.0.ebuild:
+  mark 1.6.0 arm/arm64/m68k/s390/sh stable #569518
+
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  -files/nghttp2-1.0.2-third-party.patch, -nghttp2-1.0.5.ebuild,
+  -nghttp2-1.5.0.ebuild:
+  drop old <1.6.0 versions
+
+*nghttp2-1.7.0 (03 Feb 2016)
+
+  03 Feb 2016; Mike Frysinger <vapier@gentoo.org> +nghttp2-1.7.0.ebuild:
+  version bump to 1.7.0 #573748
+

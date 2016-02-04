@@ -97,3 +97,22 @@
   https://bugs.gentoo.org/show_bug.cgi?id=548826
   https://bugs.gentoo.org/show_bug.cgi?id=573348
 
+*sysvinit-2.88-r9 (03 Feb 2016)
+
+  03 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> files/inittab-2.88,
+  -sysvinit-2.88-r8.ebuild, +sysvinit-2.88-r9.ebuild:
+  Revbump to fix bug #573668
+
+  Bumped to EAPI-5. Minor ebuild improvements.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  03 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -sysvinit-2.88-r4.ebuild, -sysvinit-2.88-r5.ebuild,
+  -sysvinit-2.88-r6.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

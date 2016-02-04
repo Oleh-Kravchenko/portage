@@ -78,3 +78,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 Feb 2016; Tobias Klausmann <klausman@gentoo.org> cwdaemon-0.10.2.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 572692
+
+  Package-Manager: portage-2.2.27
+

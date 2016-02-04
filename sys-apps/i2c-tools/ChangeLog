@@ -66,3 +66,12 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+  02 Feb 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  change maintainer to myself
+
+  03 Feb 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  Fix metadata.xml.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

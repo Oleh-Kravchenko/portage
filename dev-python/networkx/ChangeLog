@@ -115,3 +115,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  03 Feb 2016; Justin Lecher <jlec@gentoo.org> networkx-1.10.ebuild,
+  networkx-1.10-r1.ebuild, networkx-1.11.ebuild:
+  Use python2.7 for doc building
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=571044
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

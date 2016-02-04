@@ -302,3 +302,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  03 Feb 2016; Justin Lecher <jlec@gentoo.org> pip-8.0.2-r1.ebuild:
+  Add reference to GH bug for setuptools blocker
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

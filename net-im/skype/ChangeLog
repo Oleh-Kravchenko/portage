@@ -84,3 +84,10 @@
 
   Package-Manager: portage-2.2.24
 
+*skype-4.3.0.37-r5 (02 Feb 2016)
+
+  02 Feb 2016; Amy Winston <amynka@gentoo.org> +skype-4.3.0.37-r5.ebuild:
+  Add old revision bug #546746.
+
+  Package-Manager: portage-2.2.26
+

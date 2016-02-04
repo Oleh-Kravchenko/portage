@@ -67,3 +67,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -easy-rsa-2.2.0-r1.ebuild,
+  -files/easy-rsa-2.0.0-pkcs11.patch, -files/no-licenses.patch:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+
+*easy-rsa-3.0.1 (02 Feb 2016)
+
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +easy-rsa-3.0.1.ebuild:
+  Version bump
+
+  Gentoo-Bug: 515634
+
+  Package-Manager: portage-2.2.27
+
+  02 Feb 2016; Manuel Rüger <mrueg@gentoo.org> metadata.xml:
+  Add myself as maintainer
+
+  Package-Manager: portage-2.2.27
+

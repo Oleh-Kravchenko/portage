@@ -65,3 +65,19 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*ppsspp-9999 (02 Feb 2016)
+
+  02 Feb 2016; Patrice Clement <monsieurp@gentoo.org> +ppsspp-9999.ebuild,
+  -ppsspp-9999-r1.ebuild:
+  9999 ebuilds shouldn't be revbumped.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  02 Feb 2016; Patrice Clement <monsieurp@gentoo.org> ppsspp-1.1.0-r1.ebuild,
+  ppsspp-1.1.1-r1.ebuild, ppsspp-9999.ebuild:
+  Remove useless blank lines and QA warnings whilst at it.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

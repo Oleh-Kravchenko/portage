@@ -250,3 +250,9 @@
 
   Package-Manager: portage-2.2.27
 
+  03 Feb 2016; Markus Meier <maekke@gentoo.org> mysql-5.6.28.ebuild:
+  arm stable, bug #572870
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

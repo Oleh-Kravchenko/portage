@@ -218,3 +218,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Jan 2016; Atom Symbol (Jan Ziak) <0xe2.0x9a.0x9b@gmail.com>
+  virtualbox-bin-4.3.32.103443.ebuild:
+  Rdepend on sys-fs/lvm2 because of /opt/VirtualBox/VBoxVolInfo
+

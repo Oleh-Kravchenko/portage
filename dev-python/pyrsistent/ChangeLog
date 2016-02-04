@@ -25,3 +25,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  03 Feb 2016; Justin Lecher <jlec@gentoo.org> pyrsistent-0.11.11.ebuild:
+  Clean whitespaces
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

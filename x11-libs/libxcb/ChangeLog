@@ -115,3 +115,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Feb 2016; Holger Hoffstätte <holger.hoffstaette@googlemail.com>
+  libxcb-1.11-r1.ebuild:
+  add support for python 3.5
+

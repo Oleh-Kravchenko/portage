@@ -181,3 +181,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*shorewall-5.0.4 (03 Feb 2016)
+
+  03 Feb 2016; Amy Winston <amynka@gentoo.org> +shorewall-5.0.4.ebuild:
+  5.0.4 version bump bug #573214. Whissi
+
+  Package-Manager: portage-2.2.26
+
+  03 Feb 2016; Amy Winston <amynka@gentoo.org> shorewall-4.6.10.1.ebuild,
+  shorewall-4.6.13.ebuild, shorewall-4.6.13.1.ebuild:
+  fix the description lenght
+
+  Package-Manager: portage-2.2.26
+

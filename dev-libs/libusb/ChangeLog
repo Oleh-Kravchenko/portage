@@ -65,3 +65,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libusb-1.0.20 (03 Feb 2016)
+
+  03 Feb 2016; Zero_Chaos <zerochaos@gentoo.org> +libusb-1.0.20.ebuild:
+  bump for new rev and fix static-libs support bug #515204
+
+  Package-Manager: portage-2.2.27
+
+*libusb-1.0.19-r1 (03 Feb 2016)
+
+  03 Feb 2016; Zero_Chaos <zerochaos@gentoo.org> -libusb-1.0.19.ebuild,
+  +libusb-1.0.19-r1.ebuild:
+  revbump to fix static-libs bug #515204 for stable users
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --force
+

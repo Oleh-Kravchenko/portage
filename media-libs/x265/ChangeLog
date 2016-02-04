@@ -214,3 +214,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  03 Feb 2016; Markus Meier <maekke@gentoo.org> x265-1.8-r3.ebuild:
+  arm stable, bug #570878
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+
