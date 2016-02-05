@@ -99,3 +99,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  04 Feb 2016; Tobias Klausmann <klausman@gentoo.org> labltk-8.06.0.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 463018
+
+  Package-Manager: portage-2.2.27
+

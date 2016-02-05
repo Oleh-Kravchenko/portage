@@ -331,3 +331,14 @@
 
   Package-Manager: portage-2.2.26
 
+*glance-11.0.1-r1 (04 Feb 2016)
+
+  04 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -files/CVE-2015-5286_2015.1.1.patch, -files/cve-2015-5163-stable-kilo.patch,
+  -files/cve-2015-5251-stable-kilo.patch,
+  +files/cve-2016-0757-stable-liberty.patch,
+  -files/glance-2013.2-sphinx_mapping.patch, +glance-11.0.1-r1.ebuild:
+  fix bug 573844 CVE-2016-0757
+
+  Package-Manager: portage-2.2.26
+

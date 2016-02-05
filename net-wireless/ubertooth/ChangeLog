@@ -97,3 +97,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 Feb 2016; Zero_Chaos <zerochaos@gentoo.org> -ubertooth-2015.09.2.ebuild,
+  ubertooth-2015.10.1.ebuild, ubertooth-9999.ebuild:
+  drop old version, fix description length
+
+  Package-Manager: portage-2.2.27
+
+  03 Feb 2016; Zero_Chaos <zerochaos@gentoo.org> ubertooth-9999.ebuild:
+  fixup live ebuild and static-libs
+
+  Package-Manager: portage-2.2.27
+

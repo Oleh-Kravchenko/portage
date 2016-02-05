@@ -89,3 +89,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  04 Feb 2016; Tobias Klausmann <klausman@gentoo.org> xz-utils-5.2.2.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 573232
+
+  Package-Manager: portage-2.2.27
+

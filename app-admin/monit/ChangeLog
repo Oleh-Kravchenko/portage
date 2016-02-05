@@ -107,3 +107,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*monit-5.16 (04 Feb 2016)
+
+  04 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  files/monit.initd-5.0-r1, +monit-5.16.ebuild:
+  Bump to version 5.16
+
+  Cosmetic changes to the init script.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  04 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> -files/monit.initd-5.0,
+  -monit-5.8.ebuild, -monit-5.12.2.ebuild, -monit-5.14.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -573,3 +573,12 @@
 
   Package-Manager: portage-2.2.27_p14
 
+*chrome-binary-plugins-48.0.2564.103_p1 (04 Feb 2016)
+
+  04 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-48.0.2564.97_p1.ebuild,
+  +chrome-binary-plugins-48.0.2564.103_p1.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.27_p57
+

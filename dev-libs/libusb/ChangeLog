@@ -81,3 +81,19 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --force
 
+  04 Feb 2016; Mike Gilbert <floppym@gentoo.org> libusb-1.0.20.ebuild:
+  Work around racy Makefile
+
+  Bug: https://bugs.gentoo.org/573802
+
+  Package-Manager: portage-2.2.27_p57
+
+  04 Feb 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Re-order maintainers
+
+  Peter has expressed publicly that he does not endorse the fork of libusb
+  we are packaging, so it makes little sense for him to be the primary
+  maintiner.
+
+  Package-Manager: portage-2.2.27_p57
+

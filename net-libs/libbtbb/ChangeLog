@@ -126,3 +126,8 @@
 
   Package-Manager: portage-2.2.27
 
+  03 Feb 2016; Zero_Chaos <zerochaos@gentoo.org> libbtbb-9999.ebuild:
+  live updates, fix static-libs deps
+
+  Package-Manager: portage-2.2.27
+

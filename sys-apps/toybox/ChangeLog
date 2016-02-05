@@ -72,3 +72,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*toybox-0.7.0 (04 Feb 2016)
+
+  04 Feb 2016; Patrick Lauer <patrick@gentoo.org> +toybox-0.7.0.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+
+  04 Feb 2016; Patrick Lauer <patrick@gentoo.org> -toybox-0.4.7.ebuild,
+  -toybox-0.4.8.ebuild, -toybox-0.4.9.ebuild, -toybox-0.4.9-r1.ebuild,
+  -toybox-0.5.0.ebuild, -toybox-0.5.1.ebuild, -toybox-0.5.2.ebuild:
+  Old
+
+  Package-Manager: portage-2.2.27
+

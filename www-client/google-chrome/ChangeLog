@@ -221,3 +221,12 @@
 
   Package-Manager: portage-2.2.27_p49
 
+*google-chrome-48.0.2564.103_p1 (04 Feb 2016)
+
+  04 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-48.0.2564.97_p1.ebuild,
+  +google-chrome-48.0.2564.103_p1.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.27_p57
+

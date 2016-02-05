@@ -70,3 +70,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  04 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  android-tools-5.1.1_p13.ebuild:
+  depend on libpcre
+
+  The fastboot code uses pcre, so make sure we pull it in.
+
+  URL: http://crbug.com/583612
+

@@ -91,3 +91,43 @@
 
   Package-Manager: portage-2.2.27
 
+  04 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> metadata.xml:
+  update remote-id in metadata
+
+  Quote from the project page on Sourceforge ([0]):
+
+  As of Nov 9, 2015 the CVS hosted by Sourceforge will no longer be
+  updated. The last version to be uploaded into the CVS was version 0.7.9.
+  I've moved the development files to Git and they are accessible at:
+  https://github.com/dvehrs/podget
+
+  End quote.
+
+  [0]: http://sourceforge.net/projects/podget/
+
+  Package-Manager: portage-2.2.27
+
+  04 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> podget-0.7.9.ebuild:
+  fetch tarballs from Github
+
+  Upstream has moved development to Github, but claims to continue release
+  tarballs at Sourceforge as well.
+
+  Fetch tarballs from Github to avoid any potential delays/problems.
+
+  Package-Manager: portage-2.2.27
+
+  04 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> podget-0.7.9.ebuild:
+  append Github project page to HOMEPAGE
+
+  Original homepage hasn't been updated in a while and
+  there is no link to Github project page from there,
+  only to Sourceforge one.
+
+  Package-Manager: portage-2.2.27
+
+  04 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> podget-0.7.9.ebuild:
+  minor style adjustment
+
+  Package-Manager: portage-2.2.27
+

@@ -243,3 +243,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*ipython-4.1.1 (04 Feb 2016)
+
+  04 Feb 2016; Justin Lecher <jlec@gentoo.org> -ipython-4.1.0.ebuild,
+  +ipython-4.1.1.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

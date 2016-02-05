@@ -194,3 +194,11 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  shorewall-5.0.2.1.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 573216
+
+  Package-Manager: portage-2.2.27
+

@@ -189,3 +189,6 @@
 
   Package-Manager: portage-2.2.27
 
+  04 Feb 2016; William Hubbs <williamh@gentoo.org> go-1.5.3.ebuild:
+  1.5.3: stable on amd64 wrt #573856
+

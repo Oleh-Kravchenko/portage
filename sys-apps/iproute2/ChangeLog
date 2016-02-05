@@ -135,3 +135,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  04 Feb 2016; Tobias Klausmann <klausman@gentoo.org> iproute2-4.3.0.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 573334
+
+  Package-Manager: portage-2.2.27
+

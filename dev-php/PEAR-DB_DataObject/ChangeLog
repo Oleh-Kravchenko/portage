@@ -95,3 +95,19 @@
 
   Package-Manager: portage-2.2.26
 
+*PEAR-DB_DataObject-1.11.5 (03 Feb 2016)
+
+  03 Feb 2016; Michael Orlitzky <mjo@gentoo.org>
+  +PEAR-DB_DataObject-1.11.5.ebuild:
+  add version 1.11.5.
+
+  This version bump was mostly straightforward, but the ebuild was
+  ported to EAPI=6 and its dependencies were cleaned up as well. A
+  simpler pattern was used to replace the existing "sed" invocation.
+  The LICENSE was also updated per the homepage.
+
+  Gentoo-Bug: 573242
+  Reported-By: Hanno Böck
+
+  Package-Manager: portage-2.2.26
+

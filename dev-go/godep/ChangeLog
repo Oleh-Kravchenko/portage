@@ -101,3 +101,8 @@
   -godep-49.ebuild:
   remove old versions
 
+*godep-52 (04 Feb 2016)
+
+  04 Feb 2016; William Hubbs <williamh@gentoo.org> +godep-52.ebuild:
+  version bump
+

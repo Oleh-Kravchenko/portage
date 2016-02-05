@@ -119,3 +119,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  04 Feb 2016; Tobias Klausmann <klausman@gentoo.org> squid-3.5.12.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 573076
+
+  Package-Manager: portage-2.2.27
+

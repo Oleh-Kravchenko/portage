@@ -171,3 +171,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  04 Feb 2016; Tobias Klausmann <klausman@gentoo.org> emacs-23.4-r14.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 573490
+
+  Package-Manager: portage-2.2.27
+

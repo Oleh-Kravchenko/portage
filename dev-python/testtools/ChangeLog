@@ -263,3 +263,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*testtools-2.0.0 (04 Feb 2016)
+
+  04 Feb 2016; Justin Lecher <jlec@gentoo.org> +testtools-2.0.0.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

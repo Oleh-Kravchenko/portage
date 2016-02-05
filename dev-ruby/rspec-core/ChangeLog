@@ -191,3 +191,11 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  rspec-core-2.14.8-r4.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 565114
+
+  Package-Manager: portage-2.2.27
+

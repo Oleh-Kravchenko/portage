@@ -162,3 +162,19 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*tortoisehg-3.7.1 (04 Feb 2016)
+
+  04 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +tortoisehg-3.7.1.ebuild:
+  Bump to version 3.7.1
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  04 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -tortoisehg-3.6.2.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

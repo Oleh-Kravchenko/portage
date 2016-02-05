@@ -65,3 +65,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*specimen-0.5.2_rc3-r2 (04 Feb 2016)
+
+  04 Feb 2016; David Seifert <soap@gentoo.org>
+  files/specimen-0.5.2_rc3-underlinking.patch, +specimen-0.5.2_rc3-r2.ebuild:
+  Add $PTHREAD_CFLAGS to $LIBS to prevent underlinking
+
+  Gentoo-Bug: 561562
+  * EAPI=6
+
+  Package-Manager: portage-2.2.27
+

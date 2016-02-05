@@ -107,3 +107,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  04 Feb 2016; Tobias Klausmann <klausman@gentoo.org> pgf-3.0.1.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 522588
+
+  Package-Manager: portage-2.2.27
+

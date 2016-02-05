@@ -292,3 +292,18 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  04 Feb 2016; Tobias Klausmann <klausman@gentoo.org> numpy-1.10.4.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 572858
+
+  Package-Manager: portage-2.2.27
+
+  04 Feb 2016; Justin Lecher <jlec@gentoo.org> numpy-1.10.4.ebuild:
+  Add epatch_user() call
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=573824
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

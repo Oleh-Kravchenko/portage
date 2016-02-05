@@ -86,3 +86,6 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+  04 Feb 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  set myself as maintainer
+
