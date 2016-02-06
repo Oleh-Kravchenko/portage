@@ -100,3 +100,8 @@
 
   Package-Manager: portage-2.2.26
 
+  05 Feb 2016; Tiziano Müller <dev-zero@gentoo.org> webob-1.6.0_alpha0.ebuild:
+  re-add python-3.3 USE flag
+
+  Package-Manager: portage-2.2.26
+

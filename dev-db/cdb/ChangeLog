@@ -84,3 +84,9 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Feb 2016; Markus Meier <maekke@gentoo.org> cdb-0.75-r4.ebuild:
+  arm stable, bug #573078
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

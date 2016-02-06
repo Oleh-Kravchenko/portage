@@ -118,3 +118,14 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> uchardet-0.0.5-r1.ebuild:
+  avoid using EAPI-6-deprecated function in src_prepare
+
+  cmake_comment_add_subdirectory is EAPI-6-compatible,
+  while comment_add_subdirectory is not.
+
+  Currently both these functions do the same and
+  this is a ditto change, thus no revbump.
+
+  Package-Manager: portage-2.2.27
+

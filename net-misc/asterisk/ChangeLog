@@ -120,3 +120,33 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*asterisk-13.7.1 (05 Feb 2016)
+*asterisk-11.21.1 (05 Feb 2016)
+
+  05 Feb 2016; Tony Vroon <chainsaw@gentoo.org> -asterisk-11.19.0-r2.ebuild,
+  -asterisk-11.20.0.ebuild, -asterisk-11.21.0.ebuild,
+  +asterisk-11.21.1.ebuild, -asterisk-13.6.0.ebuild, -asterisk-13.7.0.ebuild,
+  +asterisk-13.7.1.ebuild:
+  AST-2016-001 BEAST vulnerability in built-in HTTP server, updates on 11 & 13
+  branches. Removing all vulnerable non-stable ebuilds.
+
+  Package-Manager: portage-2.2.27
+
+  05 Feb 2016; Agostino Sarubbo <ago@gentoo.org> asterisk-11.21.1.ebuild:
+  amd64 stable wrt bug #573924
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  05 Feb 2016; Agostino Sarubbo <ago@gentoo.org> asterisk-11.21.1.ebuild:
+  x86 stable wrt bug #573924
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  05 Feb 2016; Tony Vroon <chainsaw@gentoo.org> -asterisk-11.17.1.ebuild:
+  Remove vulnerable ebuild now that stabilisation is complete for security bug
+  #573924.
+

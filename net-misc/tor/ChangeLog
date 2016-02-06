@@ -166,3 +166,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*tor-0.2.8.1_alpha (05 Feb 2016)
+
+  05 Feb 2016; Anthony G. Basile <blueness@gentoo.org>
+  +tor-0.2.8.1_alpha.ebuild:
+  version bump to 0.2.8.1, new alpha branch
+
+  Package-Manager: portage-2.2.26
+

@@ -133,3 +133,27 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*rsyslog-8.16.0 (05 Feb 2016)
+
+  05 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/8-stable/50-rsyslog-8.15.0-imfile-readmode2-vg-test-workaround.patch,
+  +files/8-stable/50-rsyslog-8.15.0-imtcp-tls-basic-vg-test-workaround.patch,
+  +files/8-stable/50-rsyslog-8.16.0-fix-queue-engine-issue-262.patch,
+  +rsyslog-8.16.0.ebuild:
+  Bump to version 8.16.0
+
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  05 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/8-stable/10-respect_CFLAGS-r1.patch,
+  -files/8-stable/40-rsyslog-fix-parallel-build-issue-479.patch, -files/8-stab
+  le/50-rsyslog-add-option-to-disable-valgrind-usage-in-testbench.patch,
+  -files/8-stable/50-rsyslog-fix-size-based-legacy-config-statements.patch,
+  -files/8-stable/50-rsyslog-run-queue-persist-test-only-once.patch,
+  -files/8-stable/rsyslog.confd, -files/8-stable/rsyslog.initd,
+  -rsyslog-8.7.0-r2.ebuild, -rsyslog-8.12.0-r1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

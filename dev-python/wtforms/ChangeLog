@@ -80,3 +80,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*wtforms-2.1 (05 Feb 2016)
+
+  05 Feb 2016; Tiziano Müller <dev-zero@gentoo.org> +wtforms-2.1.ebuild:
+  version bump to 2.1
+
+  Fix dependencies for tests and disable broken test (bug #527174). Use
+  EAPI-6.
+
+  Package-Manager: portage-2.2.26
+

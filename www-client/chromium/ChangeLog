@@ -653,3 +653,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*chromium-49.0.2623.28 (05 Feb 2016)
+
+  05 Feb 2016; Mike Gilbert <floppym@gentoo.org> -chromium-49.0.2618.8.ebuild,
+  +chromium-49.0.2623.28.ebuild:
+  Beta channel bump (49.0.2623.28)
+
+  Package-Manager: portage-2.2.27_p57
+

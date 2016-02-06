@@ -111,3 +111,11 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  libindicate-12.10.1-r2.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 569830
+
+  Package-Manager: portage-2.2.27
+

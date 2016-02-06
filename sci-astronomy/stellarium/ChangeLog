@@ -107,3 +107,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  stellarium-0.14.2.ebuild:
+  drop unneeded dev-qt/qtquick1 dep (bug #573790)
+
+  Package-Manager: portage-2.2.26
+

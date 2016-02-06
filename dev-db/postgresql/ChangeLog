@@ -399,3 +399,15 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Feb 2016; Markus Meier <maekke@gentoo.org> postgresql-9.3.10-r2.ebuild:
+  arm stable, bug #572656
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+
+  05 Feb 2016; Markus Meier <maekke@gentoo.org> postgresql-9.4.5-r2.ebuild:
+  arm stable, bug #572656
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

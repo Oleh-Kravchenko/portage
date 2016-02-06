@@ -64,3 +64,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Feb 2016; Alexis Ballier <aballier@gentoo.org> ocaml-ipaddr-2.6.1.ebuild:
+  restrict sexplib dep, based on opam dep
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  05 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  -ocaml-ipaddr-2.5.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

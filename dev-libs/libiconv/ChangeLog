@@ -91,3 +91,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  04 Feb 2016; Mike Frysinger <vapier@gentoo.org> libiconv-1.14-r2.ebuild:
+  add alpha/arm64/hppa/ia64/m68k/ppc/ppc64/s390/sh/sparc love to 1.14-r2
+

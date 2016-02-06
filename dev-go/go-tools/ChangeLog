@@ -135,3 +135,14 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Feb 2016; Zac Medico <zmedico@gentoo.org> -go-tools-0_pre20150805.ebuild:
+  remove old version
+
+  Package-Manager: portage-2.2.27
+
+  05 Feb 2016; Zac Medico <zmedico@gentoo.org> go-tools-0_pre20150902.ebuild,
+  go-tools-0_pre20160121.ebuild:
+  add positive deps for go-1.5
+
+  Package-Manager: portage-2.2.27
+

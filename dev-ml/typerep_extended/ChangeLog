@@ -71,3 +71,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*typerep_extended-113.24.00 (05 Feb 2016)
+
+  05 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  +typerep_extended-113.24.00.ebuild:
+  bump to 113.24.00
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

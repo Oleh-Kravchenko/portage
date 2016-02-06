@@ -149,3 +149,11 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  rspec-expectations-3.4.0.ebuild:
+  add ~alpha keyword
+
+  Gentoo-Bug: 562452
+
+  Package-Manager: portage-2.2.27
+

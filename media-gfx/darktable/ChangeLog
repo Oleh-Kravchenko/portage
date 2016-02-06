@@ -154,3 +154,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*darktable-2.0.1 (05 Feb 2016)
+
+  05 Feb 2016; Markus Meier <maekke@gentoo.org> +darktable-2.0.1.ebuild:
+  version bump, bug #573826
+
+  Package-Manager: portage-2.2.27
+

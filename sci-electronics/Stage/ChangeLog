@@ -58,3 +58,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Feb 2016; Alexis Ballier <aballier@gentoo.org> Stage-4.1.1.ebuild,
+  Stage-9999.ebuild:
+  Add missing [opengl] usedep on fltk. Bug #573588.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

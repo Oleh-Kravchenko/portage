@@ -342,3 +342,23 @@
 
   Package-Manager: portage-2.2.26
 
+  05 Feb 2016; Agostino Sarubbo <ago@gentoo.org> glance-11.0.1-r1.ebuild:
+  amd64 stable wrt bug #573844
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  05 Feb 2016; Agostino Sarubbo <ago@gentoo.org> glance-11.0.1-r1.ebuild:
+  x86 stable wrt bug #573844
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  05 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -glance-11.0.1.ebuild:
+  cleanup for bug 573844
+
+  Package-Manager: portage-2.2.26
+
