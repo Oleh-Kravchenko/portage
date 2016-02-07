@@ -87,3 +87,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  06 Feb 2016; Jeroen Roovers <jer@gentoo.org>
+  namespace-autoclean-0.280.0.ebuild:
+  Stable for HPPA (bug #569840).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

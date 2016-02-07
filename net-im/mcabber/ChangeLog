@@ -76,3 +76,16 @@
 
   Package-Manager: portage-2.2.27
 
+*mcabber-9999 (06 Feb 2016)
+
+  06 Feb 2016; Wolfram Schlich <wschlich@gentoo.org> +mcabber-9999.ebuild:
+  add live ebuild wrt https://github.com/gentoo/gentoo/pull/361
+
+  Package-Manager: portage-2.2.27
+
+  06 Feb 2016; Wolfram Schlich <wschlich@gentoo.org> mcabber-9999.ebuild:
+  remove unnecessary comment lines, fix KEYWORDS. mcabber-9999.ebuild was
+  based upon the pull-request from Andrey Utkin :)
+
+  Package-Manager: portage-2.2.27
+

@@ -66,3 +66,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*zsh-completions-0.14.0 (06 Feb 2016)
+
+  06 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +zsh-completions-0.14.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

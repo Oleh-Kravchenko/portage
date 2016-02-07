@@ -129,3 +129,9 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Feb 2016; Jeroen Roovers <jer@gentoo.org> uchardet-0.0.5-r1.ebuild:
+  Mark ~hppa ~ppc64 (bug #569114).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

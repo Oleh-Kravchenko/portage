@@ -17,3 +17,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libkpgp-4.4.2016.01 (06 Feb 2016)
+
+  06 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +libkpgp-4.4.2016.01.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  06 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libkpgp-4.4.2016.01.ebuild:
+  kde-apps: Add HOMEPAGE setting to kdepim 4.4 noakonadi branch
+

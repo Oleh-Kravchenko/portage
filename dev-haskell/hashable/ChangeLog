@@ -83,3 +83,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  -hashable-1.2.3.1.ebuild, -hashable-1.2.3.2.ebuild,
+  -hashable-1.2.3.3.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.27
+
+  06 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  -hashable-1.1.2.5.ebuild:
+  drop old, bug #572666
+
+  Reported-by: Toralf Förster
+  Bug: https://bugs.gentoo.org/572666
+
+  Package-Manager: portage-2.2.27
+

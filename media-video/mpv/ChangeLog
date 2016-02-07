@@ -714,3 +714,14 @@
   mpv-0.15.0-r1.ebuild, mpv-9999.ebuild:
   add support for python 3.5
 
+  03 Feb 2016; Holger Hoffstätte <holger.hoffstaette@googlemail.com>
+  mpv-0.14.0-r1.ebuild:
+  add support for python 3.5 to 0.14 series
+
+  06 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> mpv-9999.ebuild:
+  fix live build
+
+  libavfilter was made mandatory upstream. We've always enabled it anyway.
+
+  Package-Manager: portage-2.2.27
+

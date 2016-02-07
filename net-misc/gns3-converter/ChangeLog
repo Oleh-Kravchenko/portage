@@ -57,3 +57,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gns3-converter-1.2.4 (06 Feb 2016)
+
+  06 Feb 2016; Aaron Bauman <bman@gentoo.org> +gns3-converter-1.2.4.ebuild:
+  bump to 1.2.4 and drop x86 keyword to due conflict with dev-python/docker-py
+  dependency
+
+  Package-Manager: portage-2.2.26
+
+  06 Feb 2016; Aaron Bauman <bman@gentoo.org> -gns3-converter-1.2.3.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.26
+

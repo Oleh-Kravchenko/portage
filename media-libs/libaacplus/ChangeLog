@@ -64,3 +64,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libaacplus-2.0.2-r3 (05 Feb 2016)
+
+  05 Feb 2016; David Seifert <soap@gentoo.org>
+  +files/libaacplus-2.0.2-clang-inline-redefinition.patch,
+  +libaacplus-2.0.2-r3.ebuild:
+  Include patch for building with clang
+
+  Gentoo-Bug: 458932
+  * EAPI=6
+  * Thanks Fabio Scaccabarozzi for the patch
+
+  Package-Manager: portage-2.2.27
+

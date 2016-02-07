@@ -84,3 +84,11 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Feb 2016; Hans de Graaff <graaff@gentoo.org>
+  -rails-html-sanitizer-1.0.2.ebuild:
+  remove vulnerable version
+
+  Security bug 572924
+
+  Package-Manager: portage-2.2.26
+

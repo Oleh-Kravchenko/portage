@@ -164,3 +164,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Feb 2016; Manuel Rüger <mrueg@gentoo.org> metadata.xml:
+  Add myself as a maintainer, remove djc
+
+  Package-Manager: portage-2.2.27
+
+*openvpn-2.3.10 (06 Feb 2016)
+
+  06 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +openvpn-2.3.10.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

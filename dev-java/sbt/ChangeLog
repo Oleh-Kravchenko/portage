@@ -79,3 +79,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sbt-0.13.10_rc2 (06 Feb 2016)
+
+  06 Feb 2016; Mark Wright <gienah@gentoo.org> +sbt-0.13.10_rc2.ebuild:
+  Bump to 0.13.10_rc2
+
+  Package-Manager: portage-2.2.27
+
+  06 Feb 2016; Mark Wright <gienah@gentoo.org> -sbt-0.13.8.ebuild:
+  Remove sbt-0.13.8
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=558142
+
+  Package-Manager: portage-2.2.27
+

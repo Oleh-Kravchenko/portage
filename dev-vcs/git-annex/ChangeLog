@@ -112,3 +112,26 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*git-annex-6.20160126 (06 Feb 2016)
+
+  06 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +git-annex-6.20160126.ebuild, metadata.xml:
+  bump up to 6.20160126, bug #572996
+
+  While at it restored dependencies on non-haskell packages:
+      git, ikiwiki, perl, rsync
+
+  Reported-by: Toralf Förster
+  Bug: https://bugs.gentoo.org/572996
+
+  Package-Manager: portage-2.2.27
+
+  06 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  -git-annex-5.20140927.ebuild, -git-annex-5.20141125.ebuild,
+  -git-annex-5.20141203.ebuild, -git-annex-5.20141231.ebuild,
+  -git-annex-5.20150219.ebuild, -git-annex-5.20150327.ebuild,
+  -git-annex-5.20150617.ebuild, -git-annex-5.20150710.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.27
+

@@ -189,3 +189,25 @@
 
   Package-Manager: portage-2.2.27
 
+*nginx-1.9.10-r1 (06 Feb 2016)
+
+  06 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +files/nginx.conf-r2,
+  +nginx-1.9.10-r1.ebuild:
+  Add auth_ldap, stream, slice modules
+
+  This commit adds http_slice, stream, auth_ldap modules and support for
+  libressl. It also updates 3rd party modules, enables http2 by default
+  and disables gzip by default.
+
+*nginx-1.9.10-r2 (06 Feb 2016)
+
+  06 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +nginx-1.9.10-r2.ebuild:
+  Fix typo in configure option
+
+  Package-Manager: portage-2.2.27
+
+  06 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -nginx-1.9.10-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

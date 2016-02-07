@@ -66,3 +66,31 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*i2pd-2.4.0 (04 Feb 2016)
+
+  04 Feb 2016; Matthew Brewer <tomboy64@sina.cn>
+  +files/i2pd-2.4.0-fix_installed_components.patch, files/i2pd.confd,
+  files/i2pd.initd, files/i2pd.service, +files/tunnels.cfg,
+  +i2pd-2.4.0.ebuild:
+  version bump 2.4.0
+
+  - rewrote configuration to use ECDSA-P256 for signed messages
+  - default config now includes irc pre-setup (irc.postman.i2p)
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+
+  04 Feb 2016; Matthew Brewer <tomboy64@sina.cn> -i2pd-9999.ebuild,
+  metadata.xml:
+  remove live version
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+
+  04 Feb 2016; Matthew Brewer <tomboy64@sina.cn> -i2pd-0.5.0.ebuild,
+  -i2pd-0.6.0.ebuild:
+  remove old versions 0.5 and 0.6
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

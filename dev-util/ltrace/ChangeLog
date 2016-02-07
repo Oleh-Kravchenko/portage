@@ -66,3 +66,8 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  06 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  added myself to maintainers
+
+  Package-Manager: portage-2.2.27
+

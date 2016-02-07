@@ -290,3 +290,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> systemd-228-r1.ebuild,
+  systemd-9999.ebuild:
+  Do not force ld.gold by default, #539998
+

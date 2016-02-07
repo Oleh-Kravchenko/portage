@@ -142,3 +142,9 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Feb 2016; Jeroen Roovers <jer@gentoo.org> iproute2-4.3.0.ebuild:
+  Stable for HPPA PPC64 (bug #573334).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

@@ -109,3 +109,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libbsd-0.8.2 (06 Feb 2016)
+
+  06 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +libbsd-0.8.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  06 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -libbsd-0.8.0.ebuild,
+  -libbsd-0.8.1.ebuild, -libbsd-0.8.1-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

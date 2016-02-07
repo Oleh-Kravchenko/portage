@@ -63,3 +63,17 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+*kannel-sqlbox-1.5.0 (06 Feb 2016)
+
+  06 Feb 2016; Ian Delaney <idella4@gentoo.org> +kannel-sqlbox-1.5.0.ebuild,
+  metadata.xml:
+  bump to vn. 1.5.0
+
+  package pmasked for a while by pacho, then offer by user Travis Hansen
+  to proxy maintian the package. Bup to vn. 1.5.0 source from ebuild by him,
+  added to metadata.xml accordingly, closes the gentoo bug
+
+  Gentoo bug: 493712
+
+  Package-Manager: portage-2.2.26
+

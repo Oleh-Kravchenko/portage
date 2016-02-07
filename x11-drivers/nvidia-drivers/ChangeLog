@@ -537,3 +537,22 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Feb 2016; Jeroen Roovers <jer@gentoo.org>
+  nvidia-drivers-96.43.23-r1.ebuild, nvidia-drivers-173.14.39-r1.ebuild,
+  nvidia-drivers-304.131.ebuild, nvidia-drivers-304.131-r1.ebuild,
+  nvidia-drivers-304.131-r3.ebuild, nvidia-drivers-340.93-r1.ebuild,
+  nvidia-drivers-340.96.ebuild, nvidia-drivers-340.96-r4.ebuild,
+  nvidia-drivers-346.96-r1.ebuild, nvidia-drivers-346.96-r5.ebuild,
+  nvidia-drivers-352.63.ebuild, nvidia-drivers-352.79.ebuild,
+  nvidia-drivers-352.79-r3.ebuild, nvidia-drivers-355.11-r2.ebuild,
+  nvidia-drivers-355.11-r3.ebuild, nvidia-drivers-358.16-r1.ebuild,
+  nvidia-drivers-358.16-r4.ebuild, nvidia-drivers-361.18-r1.ebuild,
+  nvidia-drivers-361.18-r4.ebuild:
+  Add the driver download URL for easier branch selection
+
+          This would arguably help people find out which branch to pick for
+  their
+          hardware, yet it wasn't documented properly anywhere.
+
+  Package-Manager: portage-2.2.27
+

@@ -169,3 +169,9 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Feb 2016; Jeroen Roovers <jer@gentoo.org> gd-2.1.1-r1.ebuild:
+  Stable for HPPA PPC64 (bug #571690).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

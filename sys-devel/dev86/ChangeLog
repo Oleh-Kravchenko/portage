@@ -64,3 +64,16 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+*dev86-0.16.21-r1 (06 Feb 2016)
+
+  06 Feb 2016; David Seifert <soap@gentoo.org> +dev86-0.16.21-r1.ebuild,
+  +files/dev86-0.16.21-non-void-return-clang.patch, files/dev86-pic.patch:
+  Include patch for building with clang
+
+  Gentoo-Bug: 523096
+  * EAPI=6
+  * Amend patches for -p1
+  * Thanks Fabio Scaccabarozzi for the patch
+
+  Package-Manager: portage-2.2.27
+

@@ -91,3 +91,36 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  06 Feb 2016; Alexis Ballier <aballier@gentoo.org> js_of_ocaml-2.7.ebuild:
+  Add X useflag
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  06 Feb 2016; Alexis Ballier <aballier@gentoo.org> js_of_ocaml-2.7.ebuild,
+  metadata.xml:
+  add react useflag
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  06 Feb 2016; Alexis Ballier <aballier@gentoo.org> js_of_ocaml-2.7.ebuild:
+  add xml useflag
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  06 Feb 2016; Alexis Ballier <aballier@gentoo.org> js_of_ocaml-2.7.ebuild,
+  metadata.xml:
+  add ppx useflag
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  06 Feb 2016; Alexis Ballier <aballier@gentoo.org> js_of_ocaml-2.7.ebuild,
+  metadata.xml:
+  add ppx-deriving useflag
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

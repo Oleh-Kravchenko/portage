@@ -514,3 +514,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> python-2.7.11-r2.ebuild:
+  2.7: Do not update meaningless Python 2 preference
+
+  Python 2 preference is meaningless since we only support one version
+  of Python 2, and it causes Python 2 to be preferred over non-selected
+  versions of Python 3.
+

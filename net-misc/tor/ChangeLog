@@ -174,3 +174,8 @@
 
   Package-Manager: portage-2.2.26
 
+  05 Feb 2016; Anthony G. Basile <blueness@gentoo.org> tor-0.2.7.6.ebuild:
+  ppc64 stable, bug #571706
+
+  Package-Manager: portage-2.2.26
+

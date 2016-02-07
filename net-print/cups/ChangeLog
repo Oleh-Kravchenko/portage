@@ -163,3 +163,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Feb 2016; Mike Frysinger <vapier@gentoo.org> cups-2.0.3.ebuild,
+  cups-2.0.4.ebuild, cups-2.1.2-r2.ebuild, cups-9999.ebuild,
+  +files/cups-2.0.3-cross-compile.patch:
+  disable unused host tools for cross-compiling
+
+  06 Feb 2016; Mike Frysinger <vapier@gentoo.org> cups-2.0.3.ebuild,
+  cups-2.0.4.ebuild, cups-2.1.2-r2.ebuild, cups-9999.ebuild:
+  drop pt_BR locale
+
+  The source no longer supports this translation.
+

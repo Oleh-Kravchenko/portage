@@ -60,3 +60,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*radare2-0.10.0 (06 Feb 2016)
+
+  06 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org> +radare2-0.10.0.ebuild,
+  radare2-9999.ebuild:
+  bump up to 0.10.0, bug #572710
+
+  Reported-by: Alessandro Molari
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=572710
+
+  Package-Manager: portage-2.2.27
+

@@ -79,3 +79,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*lshw-02.17b-r2 (06 Feb 2016)
+
+  06 Feb 2016; Anthony G. Basile <blueness@gentoo.org>
+  +files/lshw-02.17b-musl.patch, +lshw-02.17b-r2.ebuild:
+  version bump to 02.17b-r2 with upstreamed musl patch
+
+  See: https://github.com/gentoo/gentoo/pull/800
+

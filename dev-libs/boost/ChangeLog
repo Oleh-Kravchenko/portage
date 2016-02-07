@@ -146,3 +146,8 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Feb 2016; Davide Pesavento <pesa@gentoo.org> metadata.xml:
+  fix two typos in metadata.xml
+
+  Package-Manager: portage-2.2.27
+

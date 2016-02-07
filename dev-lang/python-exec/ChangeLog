@@ -98,3 +98,20 @@
   31 Jan 2016; Michał Górny <mgorny@gentoo.org> +python-exec-2.2.1.ebuild:
   Minor version bump
 
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> python-exec-2.9999.ebuild:
+  Reclaim /usr/bin/py* wrappers, #573254
+
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> python-exec-2.9999.ebuild:
+  Install and migrate configuration file
+
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> python-exec-2.9999.ebuild:
+  Silence the migration output for initial install
+
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> python-exec-2.9999.ebuild:
+  Do not copy meaningless Python 2 selection
+
+  Do not copy Python 2 version preference if Python 3 is the main
+  interpreter. It is not meaningful since we no longer support more than
+  one Python 2 version, and it will cause Python 2 to be preferred over
+  non-preferred versions of Python 3.
+
