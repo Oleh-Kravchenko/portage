@@ -31,3 +31,18 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*pyrsistent-0.11.12 (07 Feb 2016)
+
+  07 Feb 2016; Justin Lecher <jlec@gentoo.org> +pyrsistent-0.11.12.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  07 Feb 2016; Justin Lecher <jlec@gentoo.org> -pyrsistent-0.11.10.ebuild,
+  -pyrsistent-0.11.11.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

@@ -81,3 +81,26 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*ppsspp-1.1.1-r2 (07 Feb 2016)
+*ppsspp-1.1.0-r2 (07 Feb 2016)
+
+  07 Feb 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/ppsspp-cmake.patch, -ppsspp-1.1.0-r1.ebuild, +ppsspp-1.1.0-r2.ebuild,
+  -ppsspp-1.1.1-r1.ebuild, +ppsspp-1.1.1-r2.ebuild, ppsspp-9999.ebuild:
+  Remove bogus patch. Fix install directory (typo).
+
+  Also taken into consideration in this commit is the sed command pruning all
+  -O2
+  flags in favour of -O3, courtesy of Michał Ziąbkowski <mziab@o2.pl>.
+
+  Gentoo-Bug: 574000
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  07 Feb 2016; Patrice Clement <monsieurp@gentoo.org> ppsspp-1.1.1-r2.ebuild:
+  Fix typo: exeinto instead of into.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

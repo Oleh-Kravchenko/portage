@@ -158,3 +158,10 @@
 
   Package-Manager: portage-2.2.26
 
+  07 Feb 2016; Hans de Graaff <graaff@gentoo.org> -activerecord-3.2.22.ebuild,
+  -activerecord-4.1.13.ebuild, -activerecord-4.1.14.ebuild,
+  -activerecord-4.2.4.ebuild, -activerecord-4.2.5.ebuild:
+  cleanup for security bug 572946
+
+  Package-Manager: portage-2.2.26
+

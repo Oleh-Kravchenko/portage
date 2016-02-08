@@ -188,3 +188,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mono-4.2.2.30 (06 Feb 2016)
+
+  06 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +mono-4.2.2.30.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

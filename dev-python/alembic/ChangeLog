@@ -94,3 +94,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Feb 2016; Wes Cilldhaire <wes@sol1.com.au> -alembic-0.6.7.ebuild,
+  -alembic-0.7.4.ebuild, -alembic-0.7.6.ebuild:
+  rm old
+
+  Package-Manager: portage-2.2.27
+
+*alembic-0.7.4 (07 Feb 2016)
+
+  07 Feb 2016; Ian Delaney <idella4@gentoo.org> +alembic-0.7.4.ebuild:
+  return of vn -0.7.4 to fix breakage
+
+  sourced from taskflow-0.7.1 requiring a stabled verison of alembic
+  that supports python3.3
+
+  Pull request: https://github.com/gentoo/gentoo/pull/809
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --force
+

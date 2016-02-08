@@ -218,3 +218,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*genkernel-3.5.0.0 (06 Feb 2016)
+
+  06 Feb 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +genkernel-3.5.0.0.ebuild, genkernel-9999.ebuild:
+  early testing, 3.5.0.0 represents major kernel config changes vs the prior
+  release, further early 3.5.x releases will land major updates; 3.5.0.0
+  should NOT be a stable candidate.
+
+  Package-Manager: portage-2.2.27
+
+  06 Feb 2016; Robin H. Johnson <robbat2@gentoo.org> genkernel-9999.ebuild:
+  be clearer with genkernel git versions.
+
+  Package-Manager: portage-2.2.27
+

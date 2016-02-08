@@ -108,3 +108,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> -files/2.3.1-shared-lib.patch:
+  Remove unused patch
+
+*pypy3-bin-2.4.0-r2 (06 Feb 2016)
+
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> +files/2.4.0-ncurses6.patch,
+  +pypy3-bin-2.4.0-r2.ebuild:
+  Fix ncurses-6 compat, #564454
+
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org>
+  +files/4.0.0-gentoo-path.patch, pypy3-bin-2.4.0-r2.ebuild:
+  Copy Gentoo path fixes from dev-python/pypy
+

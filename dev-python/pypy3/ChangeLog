@@ -149,3 +149,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> files/4.0.0-gentoo-path.patch:
+  Fix Gentoo path fix to check for correct PyPy3 dir
+
+*pypy3-2.4.0-r1 (06 Feb 2016)
+
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> +files/2.4.0-ncurses6.patch,
+  +pypy3-2.4.0-r1.ebuild:
+  Apply fix for ncurses-6, #564454
+
+  06 Feb 2016; Michał Górny <mgorny@gentoo.org> pypy3-2.4.0-r1.ebuild:
+  Use the new Gentoo path patch on 2.4.0-r1
+

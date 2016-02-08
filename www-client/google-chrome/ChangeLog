@@ -230,3 +230,9 @@
 
   Package-Manager: portage-2.2.27_p57
 
+  07 Feb 2016; Pacho Ramos <pacho@gentoo.org>
+  google-chrome-48.0.2564.103_p1.ebuild:
+  Use readme.gentoo-r1.eclass
+
+  Package-Manager: portage-2.2.27
+

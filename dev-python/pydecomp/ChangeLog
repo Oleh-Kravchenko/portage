@@ -34,3 +34,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pydecomp-0.1 (07 Feb 2016)
+
+  07 Feb 2016; Brian Dolbec <dolsen@gentoo.org> metadata.xml,
+  +pydecomp-0.1.ebuild, pydecomp-9999.ebuild:
+  First release
+
+  Update ebuilds SRC_URI, DECSRIPTION.
+  Fix typo in metadata.xml.
+  This is a new catalyst developed pkg & dep, adding all catalyst keywords as
+  ~arch.
+
+  Package-Manager: portage-2.2.27
+

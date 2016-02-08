@@ -163,3 +163,8 @@
 
   This reverts commit 97a6aec8268998c24e7485281fd4ddf59c7d4da3.
 
+  07 Feb 2016; Pacho Ramos <pacho@gentoo.org> ibus-1.5.12.ebuild:
+  Use readme.gentoo-r1.eclass
+
+  Package-Manager: portage-2.2.27
+

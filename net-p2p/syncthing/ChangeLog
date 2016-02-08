@@ -1,0 +1,12 @@
+# ChangeLog for net-p2p/syncthing
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*syncthing-0.12.17 (07 Feb 2016)
+
+  07 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> +metadata.xml,
+  +syncthing-0.12.17.ebuild:
+  initial version in the portage tree
+
+  Package-Manager: portage-2.2.26
+

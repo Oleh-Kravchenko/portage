@@ -65,3 +65,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gspeakers-0.11-r2 (07 Feb 2016)
+
+  07 Feb 2016; Pacho Ramos <pacho@gentoo.org> +gspeakers-0.11-r2.ebuild:
+  Fixes for compatibility with libsigc++-2.6 and cxx11 (#569540 by Andrew
+  Wilcox (awilfox))
+
+  Package-Manager: portage-2.2.27
+
+  07 Feb 2016; Pacho Ramos <pacho@gentoo.org> -gspeakers-0.11-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+

@@ -151,3 +151,38 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Feb 2016; Patrice Clement <monsieurp@gentoo.org> asm-2.0-r2.ebuild:
+  Stable for amd64. Retroactively mark stable for the remaining arches using
+  the ALLARCHES policy (ppc64+x86) as per asm-2.0-r1 KEYWORDS.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  07 Feb 2016; Patrice Clement <monsieurp@gentoo.org> asm-2.2.3-r2.ebuild:
+  Stable for amd64. Retroactively mark stable for the remaining arches using
+  the ALLARCHES policy (ppc64+x86) as per asm-2.2.3-r2 KEYWORDS.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  07 Feb 2016; Patrice Clement <monsieurp@gentoo.org> asm-3.3.1-r1.ebuild:
+  Stable for amd64. Retroactively mark stable for the remaining arches using
+  the ALLARCHES policy.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  07 Feb 2016; Patrice Clement <monsieurp@gentoo.org> asm-4.0-r1.ebuild:
+  Stable for amd64. Retroactively mark stable for the remaining arches using
+  the ALLARCHES policy (ppc64+x86) as per asm-4.0 KEYWORDS.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  07 Feb 2016; Patrice Clement <monsieurp@gentoo.org> -asm-2.0-r1.ebuild,
+  -asm-2.2.3-r1.ebuild, -asm-3.3.1.ebuild, -asm-4.0.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

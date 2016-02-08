@@ -72,3 +72,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Feb 2016; Wes Cilldhaire <wes@sol1.com.au>
+  -bedup-0.9.0_p20140413-r1.ebuild:
+  rm old
+
+  Acked-By: mgorny@gentoo.org
+
+  Package-Manager: portage-2.2.27
+

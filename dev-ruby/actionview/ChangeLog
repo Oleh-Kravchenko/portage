@@ -149,3 +149,11 @@
 
   Package-Manager: portage-2.2.26
 
+  07 Feb 2016; Hans de Graaff <graaff@gentoo.org> -actionview-4.1.13.ebuild,
+  -actionview-4.1.13-r1.ebuild, -actionview-4.1.14.ebuild,
+  -actionview-4.2.4.ebuild, -actionview-4.2.4-r1.ebuild,
+  -actionview-4.2.5.ebuild:
+  cleanup for security bug 572946
+
+  Package-Manager: portage-2.2.26
+

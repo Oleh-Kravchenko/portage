@@ -104,3 +104,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*wheel-0.29.0 (07 Feb 2016)
+
+  07 Feb 2016; Justin Lecher <jlec@gentoo.org> +wheel-0.29.0.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

@@ -96,3 +96,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  07 Feb 2016; Justin Lecher <jlec@gentoo.org> -pyscard-1.6.16.ebuild,
+  -pyscard-1.7.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

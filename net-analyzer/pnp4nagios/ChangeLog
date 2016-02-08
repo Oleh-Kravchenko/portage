@@ -82,3 +82,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  pnp4nagios-0.6.25-r2.ebuild:
+  fixing typo
+
+  Package-Manager: portage-2.2.26
+

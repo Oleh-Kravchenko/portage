@@ -126,3 +126,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*catalyst-3.0_rc1 (07 Feb 2016)
+
+  07 Feb 2016; Brian Dolbec <dolsen@gentoo.org> +catalyst-3.0_rc1.ebuild,
+  catalyst-9999.ebuild:
+  First release of the 3.0 codebase
+
+  Update the 9999 ebuild.
+
+  Package-Manager: portage-2.2.27_p58_p97174
+

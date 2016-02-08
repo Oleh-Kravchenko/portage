@@ -134,3 +134,10 @@
 
   Package-Manager: portage-2.2.26
 
+  07 Feb 2016; Hans de Graaff <graaff@gentoo.org> -railties-3.2.22.ebuild,
+  -railties-4.1.13.ebuild, -railties-4.1.14.ebuild, -railties-4.2.4.ebuild,
+  -railties-4.2.5.ebuild:
+  cleanup for security bug 572946
+
+  Package-Manager: portage-2.2.26
+

@@ -94,3 +94,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  07 Feb 2016; Alexis Ballier <aballier@gentoo.org> -typerep-112.35.00.ebuild,
+  -typerep-113.00.00.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
