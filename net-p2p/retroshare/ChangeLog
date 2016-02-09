@@ -99,3 +99,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Feb 2016; Sergey Popov <pinkbyte@gentoo.org> retroshare-0.6.9999.ebuild:
+  add support for building with Qt4
+
+  Reported-by: Stanislav Nikitin <pztrn@pztrn.name>
+  Gentoo-Bug: 568176
+
+  Package-Manager: portage-2.2.27
+
+*retroshare-0.6.0 (08 Feb 2016)
+
+  08 Feb 2016; Sergey Popov <pinkbyte@gentoo.org> +retroshare-0.6.0.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

@@ -440,3 +440,11 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+*llvm-3.7.1-r1 (08 Feb 2016)
+
+  08 Feb 2016; Yuta Satoh <nigoro.dev@gmail.com> +llvm-3.7.1-r1.ebuild,
+  llvm-3.8.0_rc1.ebuild, llvm-9999.ebuild:
+  Re add the code for Gentoo/FreeBSD.
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=417171
+

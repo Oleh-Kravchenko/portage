@@ -104,3 +104,8 @@
 
   Package-Manager: portage-2.2.27
 
+*acme-0.1.0 (08 Feb 2016)
+
+  08 Feb 2016; Jason A. Donenfeld <zx2c4@gentoo.org> +acme-0.1.0.ebuild:
+  bring back old acme for simp_le
+

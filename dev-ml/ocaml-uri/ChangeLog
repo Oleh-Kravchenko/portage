@@ -47,3 +47,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  08 Feb 2016; Alexis Ballier <aballier@gentoo.org> +files/sexpl.patch,
+  ocaml-uri-1.9.1-r1.ebuild:
+  port to pa_sexp_conv and avoid requiring old sexplib
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

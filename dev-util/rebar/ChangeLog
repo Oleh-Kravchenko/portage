@@ -83,3 +83,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> -rebar-2.3.1.ebuild,
+  -rebar-2.4.0.ebuild, -rebar-2.5.0.ebuild:
+  remove old versions
+
+*rebar-2.6.1 (08 Feb 2016)
+
+  08 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> +rebar-2.6.1.ebuild:
+  version bump to 2.6.1
+
+  Package-Manager: portage-2.2.26
+

@@ -135,3 +135,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Feb 2016; Justin Lecher <jlec@gentoo.org> udunits-2.2.20.ebuild:
+  Update license
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

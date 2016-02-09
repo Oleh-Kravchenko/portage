@@ -33,3 +33,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*whatportis-0.5 (08 Feb 2016)
+
+  08 Feb 2016; Justin Lecher <jlec@gentoo.org> +whatportis-0.5.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

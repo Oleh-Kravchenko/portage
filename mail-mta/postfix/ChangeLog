@@ -257,3 +257,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+*postfix-3.1_pre20160207 (08 Feb 2016)
+
+  08 Feb 2016; Eray Aslan <eras@gentoo.org> -postfix-3.1_pre20160117.ebuild,
+  +postfix-3.1_pre20160207.ebuild:
+  version bump to 3.1_pre20160207
+
+  Package-Manager: portage-2.2.27
+

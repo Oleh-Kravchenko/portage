@@ -66,3 +66,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*orpheus-1.6-r3 (08 Feb 2016)
+
+  08 Feb 2016; David Seifert <soap@gentoo.org>
+  +files/orpheus-1.6-fix-buildsystem.patch, +orpheus-1.6-r3.ebuild:
+  Fix broken buildsystem
+
+  Gentoo-Bug: 533192
+  * EAPI=6
+
+  Package-Manager: portage-2.2.27
+

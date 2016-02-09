@@ -150,3 +150,12 @@
   Remove vulnerable ebuild now that stabilisation is complete for security bug
   #573924.
 
+*asterisk-13.7.2 (08 Feb 2016)
+
+  08 Feb 2016; Tony Vroon <chainsaw@gentoo.org> -asterisk-13.7.1.ebuild,
+  +asterisk-13.7.2.ebuild:
+  Release 13.7.2 addresses a regression for realtime PJSIP users in security
+  release 13.7.1
+
+  Package-Manager: portage-2.2.27
+

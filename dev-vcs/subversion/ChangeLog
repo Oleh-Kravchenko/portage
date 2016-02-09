@@ -189,3 +189,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Feb 2016; Fabian Groffen <grobian@gentoo.org> subversion-1.9.3.ebuild:
+  bump serf requirement as per configure
+
+  Package-Manager: portage-2.2.20-prefix
+

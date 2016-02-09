@@ -136,3 +136,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*docker-1.10.0 (08 Feb 2016)
+
+  08 Feb 2016; Kacper Kowalik <xarthisius@gentoo.org> +docker-1.10.0.ebuild:
+  version bump to 1.10.0
+
+  Fixes bug 574086 reported by RAPHEAD <raphead@gmx.net>
+  Ported from Tianon's overlay with following modifications:
+
+   * dropped ~arm ~x86 keywords
+   * simplified gcc-specs-pie sed invocation
+   * moved libseccomp to CDEPEND (*.h required for build)
+
+  Package-Manager: portage-2.2.27
+

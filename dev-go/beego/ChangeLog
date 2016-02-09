@@ -10,3 +10,8 @@
 
   Package-Manager: portage-2.2.27
 
+  08 Feb 2016; Manuel Rüger <mrueg@gentoo.org> beego-1.6.0_p20160126.ebuild:
+  Replace leading spaces with tabs
+
+  Package-Manager: portage-2.2.27
+

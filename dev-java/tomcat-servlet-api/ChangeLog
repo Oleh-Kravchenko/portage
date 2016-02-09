@@ -290,3 +290,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*tomcat-servlet-api-9.0.0_alpha3 (08 Feb 2016)
+
+  08 Feb 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  -tomcat-servlet-api-9.0.0_alpha1.ebuild,
+  +tomcat-servlet-api-9.0.0_alpha3.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

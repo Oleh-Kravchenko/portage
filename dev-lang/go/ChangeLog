@@ -192,3 +192,17 @@
   04 Feb 2016; William Hubbs <williamh@gentoo.org> go-1.5.3.ebuild:
   1.5.3: stable on amd64 wrt #573856
 
+*go-1.6_rc2 (07 Feb 2016)
+
+  07 Feb 2016; William Hubbs <williamh@gentoo.org> +go-1.6_rc2.ebuild:
+  1.6_rc2 version bump
+
+  07 Feb 2016; William Hubbs <williamh@gentoo.org> go-9999.ebuild:
+  sync live ebuild
+
+  08 Feb 2016; Patrick Lauer <patrick@gentoo.org> go-1.6_rc2.ebuild,
+  go-9999.ebuild:
+  Whitespace
+
+  Package-Manager: portage-2.2.27
+

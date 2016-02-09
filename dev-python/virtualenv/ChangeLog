@@ -248,3 +248,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*virtualenv-14.0.6 (08 Feb 2016)
+
+  08 Feb 2016; Justin Lecher <jlec@gentoo.org> +virtualenv-14.0.6.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

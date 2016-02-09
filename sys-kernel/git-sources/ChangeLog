@@ -238,3 +238,11 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*git-sources-4.5_rc3 (08 Feb 2016)
+
+  08 Feb 2016; Agostino Sarubbo <ago@gentoo.org> +git-sources-4.5_rc3.ebuild:
+  Automated version bump to 4.5_rc3
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

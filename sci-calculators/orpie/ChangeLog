@@ -66,3 +66,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*orpie-1.5.2 (07 Feb 2016)
+
+  07 Feb 2016; David Seifert <soap@gentoo.org> files/orpie-1.5.1-nogsl.patch,
+  +files/orpie-1.5.2-nogsl.patch, +orpie-1.5.2.ebuild:
+  Version bump to 1.5.2
+
+  Gentoo-Bug: 532776
+  * EAPI=6
+  * Add missing dependency on dev-ml/camlp4 (thanks Quentin Minster)
+  * Amend patches for -p1
+
+  Package-Manager: portage-2.2.27
+

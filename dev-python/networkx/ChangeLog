@@ -124,3 +124,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  08 Feb 2016; Justin Lecher <jlec@gentoo.org> networkx-1.11.ebuild:
+  Don't use banned EXAMPLES
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=573768
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

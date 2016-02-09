@@ -72,3 +72,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Feb 2016; Amy Winston <amynka@gentoo.org> codecrypt-1.4.1.ebuild,
+  codecrypt-1.6.ebuild:
+  slots gmp:= repaired
+
+  Package-Manager: portage-2.2.26
+
+*codecrypt-1.7.2 (08 Feb 2016)
+
+  08 Feb 2016; Amy Winston <amynka@gentoo.org> +codecrypt-1.7.2.ebuild:
+  version bump 1.7.2 bug #574126. By exa
+
+  Package-Manager: portage-2.2.26
+

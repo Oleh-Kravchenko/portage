@@ -128,3 +128,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*freeverb3-3.1.2_pre20151102-r1 (08 Feb 2016)
+
+  08 Feb 2016; Sebastian Pipping <sping@gentoo.org>
+  +freeverb3-3.1.2_pre20151102-r1.ebuild:
+  Handle Audacious >=2.7
+
+  Package-Manager: portage-2.2.27
+

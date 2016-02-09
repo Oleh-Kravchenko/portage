@@ -582,3 +582,12 @@
 
   Package-Manager: portage-2.2.27_p57
 
+*chrome-binary-plugins-49.0.2623.39_beta1 (08 Feb 2016)
+
+  08 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-49.0.2623.28_beta1.ebuild,
+  +chrome-binary-plugins-49.0.2623.39_beta1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27_p57
+

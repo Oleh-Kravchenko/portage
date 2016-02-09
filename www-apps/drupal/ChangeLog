@@ -156,3 +156,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*drupal-8.0.3 (08 Feb 2016)
+*drupal-7.42 (08 Feb 2016)
+
+  08 Feb 2016; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> -drupal-7.41.ebuild, +drupal-7.42.ebuild,
+  -drupal-8.0.2.ebuild, +drupal-8.0.3.ebuild:
+  Version bump (7.42 / 8.0.3).
+

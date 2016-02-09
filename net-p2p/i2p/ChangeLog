@@ -142,3 +142,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*i2p-0.9.24 (07 Feb 2016)
+
+  07 Feb 2016; tharvik <tharvik@users.noreply.github.com>
+  +files/i2p-0.9.24_add-libs.patch, +files/i2p-0.9.24_initd,
+  +i2p-0.9.24.ebuild:
+  version bump
+
+  07 Feb 2016; tharvik <tharvik@users.noreply.github.com>
+  -files/i2p-0.9.18_fix-paths.patch, -i2p-0.9.18.ebuild:
+  removal of 0.9.18
+
+  08 Feb 2016; tharvik <tharvik@users.noreply.github.com>
+  files/i2p-0.9.24_initd, i2p-0.9.24.ebuild:
+  QA: update copyrights
+

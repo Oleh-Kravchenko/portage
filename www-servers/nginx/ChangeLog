@@ -211,3 +211,19 @@
 
   Package-Manager: portage-2.2.27
 
+*nginx-1.9.10-r3 (07 Feb 2016)
+
+  07 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +nginx-1.9.10-r3.ebuild:
+  Fix build without slice module
+
+  Gentoo-Bug: 574020
+
+  Thanks to: Thomas D. <whissi@whissi.de>
+
+  Package-Manager: portage-2.2.27
+
+  07 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -nginx-1.9.10-r2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

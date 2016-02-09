@@ -294,3 +294,9 @@
 
   Package-Manager: portage-2.2.27_p49
 
+  08 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-beta-49.0.2623.28_p1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27_p57
+

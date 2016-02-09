@@ -158,3 +158,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Feb 2016; Pacho Ramos <pacho@gentoo.org> apache-2.4.18.ebuild,
+  metadata.xml:
+  Support mod_proxy_html (#572434 by Thomas Beutin)
+
+  Package-Manager: portage-2.2.27
+

@@ -121,3 +121,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Feb 2016; Fabian Groffen <grobian@gentoo.org> scons-2.4.1.ebuild:
+  marked ~x64-solaris
+
+  Package-Manager: portage-2.2.20-prefix
+

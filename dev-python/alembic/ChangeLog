@@ -113,3 +113,8 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --force
 
+  08 Feb 2016; Ian Delaney <idella4@gentoo.org> -alembic-0.7.4.ebuild:
+  rm old vn. wrt P/R #809
+
+  Package-Manager: portage-2.2.26
+
