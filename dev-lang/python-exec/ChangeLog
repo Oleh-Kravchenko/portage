@@ -140,3 +140,6 @@
   symlink them in place of /usr/bin/python{,2,3}. Compatibility symlinks
   are now installed in place of old locations.
 
+  09 Feb 2016; Michał Górny <mgorny@gentoo.org> python-exec-9999.ebuild:
+  Update install layout in -9999
+

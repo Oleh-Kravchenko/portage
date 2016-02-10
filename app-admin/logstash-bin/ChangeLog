@@ -122,3 +122,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Tomas Mozes <hydrapolic@gmail.com> -logstash-bin-1.5.6.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.27
+
+*logstash-bin-2.2.0 (09 Feb 2016)
+*logstash-bin-2.1.2 (09 Feb 2016)
+
+  09 Feb 2016; Tomas Mozes <hydrapolic@gmail.com> files/agent.conf.sample,
+  -files/agent.conf.sample-r2, +files/logstash.confd,
+  -files/logstash.confd-r1, -files/logstash.confd-r2, +files/logstash.initd,
+  -files/logstash.initd-r1, -files/logstash.initd-r2,
+  -logstash-bin-2.1.0.ebuild, -logstash-bin-2.1.1.ebuild,
+  +logstash-bin-2.1.2.ebuild, +logstash-bin-2.2.0.ebuild:
+  version bump to 2.1.2/2.2.0
+
+  Package-Manager: portage-2.2.27
+

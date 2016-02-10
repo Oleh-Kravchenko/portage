@@ -177,3 +177,11 @@
 
   Package-Manager: portage-2.2.26
 
+*curl-7.47.1 (09 Feb 2016)
+
+  09 Feb 2016; Anthony G. Basile <blueness@gentoo.org> -curl-7.47.0.ebuild,
+  +curl-7.47.1.ebuild:
+  version bump to 7.47.1.  remove 7.47.0
+
+  Package-Manager: portage-2.2.26
+

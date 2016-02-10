@@ -278,3 +278,36 @@
   Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
   <jmbsvicetto@gentoo.org>
 
+*phpmyadmin-4.5.3.1 (08 Feb 2016)
+
+  08 Feb 2016; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> +phpmyadmin-4.5.3.1.ebuild:
+  Restore last stable version - dropped it by mistake.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+  09 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  phpmyadmin-4.0.10.14.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 573286
+
+  Package-Manager: portage-2.2.27
+
+  09 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  phpmyadmin-4.4.15.4.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 573286
+
+  Package-Manager: portage-2.2.27
+
+  09 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  phpmyadmin-4.5.4.1.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 573286
+
+  Package-Manager: portage-2.2.27
+

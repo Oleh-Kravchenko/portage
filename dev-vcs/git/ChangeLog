@@ -527,3 +527,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  09 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> git-2.7.1.ebuild:
+  Move patches into PATCHES array and get rid of epatch command.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -269,3 +269,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*adobe-flash-11.2.202.569 (09 Feb 2016)
+
+  09 Feb 2016; Jeroen Roovers <jer@gentoo.org>
+  +adobe-flash-11.2.202.569.ebuild:
+  Version bump (bug #574284).
+
+  Package-Manager: portage-2.2.27
+

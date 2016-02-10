@@ -134,3 +134,28 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Feb 2016; Luis Ressel <aranea@aixah.de> -files/3.4.3-X-support.patch,
+  -files/3.4.3-bison.patch, -files/3.4.3-default-options.patch,
+  -files/3.4.3-gentoo-paths.patch, -files/3.4.3-macos.patch,
+  -files/nethack-3.4.3-gibc210.patch, -files/nethack-3.4.3-nethackrc,
+  -files/nethack-3.4.3-recover.patch, -nethack-3.4.3-r5.ebuild,
+  -nethack-3.6.0.ebuild:
+  Remove old versions
+
+*nethack-3.6.0-r2 (07 Feb 2016)
+
+  07 Feb 2016; Luis Ressel <aranea@aixah.de> +nethack-3.6.0-r2.ebuild:
+  Bump to EAPI 6
+
+  07 Feb 2016; Luis Ressel <aranea@aixah.de> nethack-3.6.0-r2.ebuild:
+  Remove migration code
+
+  Remove the migration logic handling updates from <3.4.3-r3. It's been in
+  place for over six months, that should be enough.
+
+  07 Feb 2016; Luis Ressel <aranea@aixah.de> metadata.xml:
+  Update metadata.xml
+
+  Use a more verbose maintainer <description>, as preferred by the
+  proxy-maint project.
+

@@ -367,3 +367,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Matt Turner <mattst88@gentoo.org> mesa-9999.ebuild:
+  Build gallium-osmesa when USE="gallium osmesa"
+
+  With only USE=osmesa, build the classic OSMesa.
+
+  Bug: https://bugs.gentoo.org/574070
+

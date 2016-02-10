@@ -102,3 +102,19 @@
 
   Package-Manager: portage-2.2.27
 
+*rakudo-2016.01.1 (09 Feb 2016)
+
+  09 Feb 2016; Patrick Lauer <patrick@gentoo.org> -rakudo-2016.01.ebuild,
+  +rakudo-2016.01.1.ebuild:
+  Bump. Java and parrot backends are dysfunctional, moarvm has path breakage.
+
+  Package-Manager: portage-2.2.27
+
+  09 Feb 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml,
+  -rakudo-2015.01.1.ebuild, -rakudo-2015.02.ebuild, -rakudo-2015.03.ebuild,
+  -rakudo-2015.04.ebuild, -rakudo-2015.05-r1.ebuild, -rakudo-2015.06.ebuild,
+  -rakudo-2015.07.2.ebuild, -rakudo-2015.11.ebuild, -rakudo-2015.12.ebuild:
+  Old
+
+  Package-Manager: portage-2.2.27
+

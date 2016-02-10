@@ -72,3 +72,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*opusfile-0.7 (09 Feb 2016)
+
+  09 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> +opusfile-0.7.ebuild:
+  Bump to version 0.7
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  09 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> -opusfile-0.4.ebuild,
+  -opusfile-0.5.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -209,3 +209,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libgcrypt-1.6.5 (09 Feb 2016)
+
+  09 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> +libgcrypt-1.6.5.ebuild:
+  Security version bump to 1.6.5
+
+  Bug: 574268
+
+  Package-Manager: portage-2.2.27
+

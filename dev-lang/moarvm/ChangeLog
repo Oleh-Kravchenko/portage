@@ -92,3 +92,19 @@
 
   Package-Manager: portage-2.2.27
 
+*moarvm-2016.01-r1 (09 Feb 2016)
+
+  09 Feb 2016; Patrick Lauer <patrick@gentoo.org> -moarvm-2016.01.ebuild,
+  +moarvm-2016.01-r1.ebuild:
+  Fix path leakage #510706
+
+  Package-Manager: portage-2.2.27
+
+  09 Feb 2016; Patrick Lauer <patrick@gentoo.org> -moarvm-2015.01.ebuild,
+  -moarvm-2015.02.ebuild, -moarvm-2015.03.ebuild, -moarvm-2015.04.ebuild,
+  -moarvm-2015.05.ebuild, -moarvm-2015.06.ebuild, -moarvm-2015.07.ebuild,
+  -moarvm-2015.11.ebuild, -moarvm-2015.12.ebuild, moarvm-2016.01-r1.ebuild:
+  Old
+
+  Package-Manager: portage-2.2.27
+

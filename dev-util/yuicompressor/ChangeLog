@@ -33,3 +33,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*yuicompressor-2.4.8-r1 (09 Feb 2016)
+
+  09 Feb 2016; Patrice Clement <monsieurp@gentoo.org>
+  +yuicompressor-2.4.8-r1.ebuild:
+  Unbundle jargs and rhino. Fixes bug 571812.
+
+  Thanks Tomáš Mózes <hydrapolic@gmail.com> for helping.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

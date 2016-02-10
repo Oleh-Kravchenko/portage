@@ -73,3 +73,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Patrick Lauer <patrick@gentoo.org> -parrot-7.0.2.ebuild,
+  -parrot-7.2.0.ebuild, -parrot-7.3.0.ebuild:
+  Old
+
+  Package-Manager: portage-2.2.27
+

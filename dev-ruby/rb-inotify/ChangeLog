@@ -71,3 +71,10 @@
 
   Package-Manager: portage-2.2.26
 
+*rb-inotify-0.9.7 (09 Feb 2016)
+
+  09 Feb 2016; Hans de Graaff <graaff@gentoo.org> +rb-inotify-0.9.7.ebuild:
+  add 0.9.7
+
+  Package-Manager: portage-2.2.26
+

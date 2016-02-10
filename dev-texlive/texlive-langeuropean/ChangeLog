@@ -87,3 +87,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  09 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  texlive-langeuropean-2015.ebuild:
+  block dev-texlive/texlive-langnorwegian since this replaces it, bug #574178
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

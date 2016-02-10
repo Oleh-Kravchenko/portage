@@ -142,3 +142,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Feb 2016; Sven Wegener <swegener@gentoo.org> files/lxc.initd.3:
+  Use rm -f
+
+  Signed-off-by: Sven Wegener <swegener@gentoo.org>
+

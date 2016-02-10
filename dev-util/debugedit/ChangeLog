@@ -71,3 +71,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Mike Frysinger <vapier@gentoo.org> debugedit-5.3.5-r1.ebuild:
+  update to EAPI=5
+
+  09 Feb 2016; Mike Frysinger <vapier@gentoo.org> -debugedit-4.4.6-r1.ebuild,
+  -debugedit-4.4.6-r2.ebuild,
+  -files/debugedit-4.4.6-busted-paths-with-O0.patch,
+  -files/debugedit-4.4.6-update.patch, -files/debugedit-5.1.9-DWARF-3.patch,
+  -files/debugedit-5.1.9-cleanup.patch:
+  drop old <5.3 versions
+
+  09 Feb 2016; Mike Frysinger <vapier@gentoo.org> debugedit-5.3.5-r1.ebuild:
+  update SRC_URI for my devspace #574192
+

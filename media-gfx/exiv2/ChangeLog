@@ -111,3 +111,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Tobias Klausmann <klausman@gentoo.org> exiv2-0.25-r2.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 565826
+
+  Package-Manager: portage-2.2.27
+

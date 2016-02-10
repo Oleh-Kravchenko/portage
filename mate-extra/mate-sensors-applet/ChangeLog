@@ -63,3 +63,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mate-sensors-applet-1.8.0-r1 (09 Feb 2016)
+
+  09 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +mate-sensors-applet-1.8.0-r1.ebuild:
+  Adjust nvidia-driver dep per #562910
+
+  Now that NVCtrl can be built from source in the nvidia-driver package,
+  nvidia-settings can be deprecated in the near future.  This update
+  makes the package ready for that transition.
+
+  Package-Manager: portage-2.2.26
+
+*mate-sensors-applet-1.10.4-r1 (09 Feb 2016)
+
+  09 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +mate-sensors-applet-1.10.4-r1.ebuild:
+  Import 1.10.x from Project:MATE repo
+
+  Package-Manager: portage-2.2.26
+

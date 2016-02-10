@@ -324,3 +324,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  09 Feb 2016; Tobias Klausmann <klausman@gentoo.org>
+  cryptography-1.1.2.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 574150
+
+  Package-Manager: portage-2.2.27
+

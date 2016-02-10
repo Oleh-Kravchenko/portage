@@ -29,3 +29,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Justin Lecher <jlec@gentoo.org> files/sogod.initd:
+  Convert $Header to $Id
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

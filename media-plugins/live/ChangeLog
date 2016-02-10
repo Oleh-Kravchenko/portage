@@ -137,3 +137,33 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  09 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  -files/live-recursive.patch, -live-2012.01.07.ebuild,
+  -live-2012.09.13.ebuild, -live-2015.08.07.ebuild, -live-2015.10.12.ebuild,
+  -live-2015.10.29.ebuild, -live-2015.12.22.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+*live-2016.02.09 (09 Feb 2016)
+
+  09 Feb 2016; Alexis Ballier <aballier@gentoo.org> +live-2016.02.09.ebuild:
+  bump to 2016.02.09
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  09 Feb 2016; Alexis Ballier <aballier@gentoo.org> -live-2016.01.16.ebuild,
+  -live-2016.01.20.ebuild, -live-2016.01.24.ebuild, -live-2016.01.29.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  09 Feb 2016; Alexis Ballier <aballier@gentoo.org> -live-2015.11.09.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

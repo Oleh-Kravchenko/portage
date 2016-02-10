@@ -81,3 +81,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*batik-1.8-r3 (08 Feb 2016)
+
+  08 Feb 2016; Patrice Clement <monsieurp@gentoo.org> -batik-1.8-r2.ebuild,
+  +batik-1.8-r3.ebuild:
+  jython SLOT bump wrt bug 552452.
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --force
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -59,3 +59,25 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*hwinfo-21.23 (09 Feb 2016)
+
+  09 Feb 2016; Justin Lecher <jlec@gentoo.org> +hwinfo-21.23.ebuild:
+  Version Bump
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=565300
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  09 Feb 2016; Justin Lecher <jlec@gentoo.org> hwinfo-21.23.ebuild:
+  Call default_src_prepare()
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  09 Feb 2016; Justin Lecher <jlec@gentoo.org> hwinfo-21.23.ebuild:
+  READMEs are renamed
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

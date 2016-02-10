@@ -66,3 +66,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*urdfdom-0.4.1 (09 Feb 2016)
+
+  09 Feb 2016; Alexis Ballier <aballier@gentoo.org> +urdfdom-0.4.1.ebuild:
+  bump to 0.4.1
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

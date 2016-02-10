@@ -139,3 +139,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/304-4.2-01-inode.patch, +files/304-4.2-02-vmnetInt.patch,
+  +files/304-4.2-03-af_vsock.patch, +files/304-4.2-04-driver.patch,
+  vmware-modules-304.2.ebuild:
+  Add patches for compilation with Kernel 4.2, bug 561252
+
+  Patches prepared by Ognian Tenchev, original source
+  https://communities.vmware.com/thread/517279
+
+  Package-Manager: portage-2.2.27
+

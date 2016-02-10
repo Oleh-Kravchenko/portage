@@ -74,3 +74,11 @@
 
   Package-Manager: portage-2.2.26
 
+*mate-settings-daemon-1.10.3 (09 Feb 2016)
+
+  09 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +mate-settings-daemon-1.10.3.ebuild:
+  Import 1.10.x from Project:MATE repo
+
+  Package-Manager: portage-2.2.26
+

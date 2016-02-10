@@ -57,3 +57,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*megarc-1.11-r2 (09 Feb 2016)
+
+  09 Feb 2016; Robin H. Johnson <robbat2@gentoo.org> -megarc-1.11-r1.ebuild,
+  +megarc-1.11-r2.ebuild, metadata.xml:
+  fixup for LSI->Avagotech company change.
+
+  Fixes bug #439116, #400927,# 561200.
+  Avagotech now includes download pages that do not require a
+  click-through EULA; revbump as the zipfile has changed from upstream.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+

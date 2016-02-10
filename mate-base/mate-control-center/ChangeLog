@@ -66,3 +66,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mate-control-center-1.10.2 (09 Feb 2016)
+
+  09 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +mate-control-center-1.10.2.ebuild:
+  Import 1.10.x from Project:MATE repo
+
+  Package-Manager: portage-2.2.26
+

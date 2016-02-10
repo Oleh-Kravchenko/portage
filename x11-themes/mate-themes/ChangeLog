@@ -71,3 +71,28 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mate-themes-1.8.1 (09 Feb 2016)
+
+  09 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org> +mate-themes-1.8.1.ebuild:
+  version bump to 1.8.1
+
+  Package-Manager: portage-2.2.26
+
+  09 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -mate-themes-1.8.0-r1.ebuild:
+  rm old
+
+  Package-Manager: portage-2.2.26
+
+*mate-themes-1.10.5-r180 (09 Feb 2016)
+*mate-themes-1.10.5-r160 (09 Feb 2016)
+
+  09 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +mate-themes-1.10.5-r160.ebuild, +mate-themes-1.10.5-r180.ebuild:
+  Import 1.10.x from Project:MATE repo
+
+  Please note, due to upstream changes, there is now an
+  ebuild per branch of GTK+3 as indicated by the revision number
+
+  Package-Manager: portage-2.2.26
+

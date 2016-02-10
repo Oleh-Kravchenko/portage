@@ -69,3 +69,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mate-system-monitor-1.10.1 (09 Feb 2016)
+
+  09 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +files/mate-system-monitor-1.10.1-cxxflags-cpp11.patch,
+  +mate-system-monitor-1.10.1.ebuild:
+  Import 1.10.x from Project:MATE repo
+
+  Package-Manager: portage-2.2.26
+

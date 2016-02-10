@@ -22,3 +22,9 @@
 
   Package-Manager: portage-2.2.27
 
+  09 Feb 2016; Justin Lecher <jlec@gentoo.org> files/skyldav.confd,
+  files/skyldav.initd:
+  Convert $Header to $Id
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

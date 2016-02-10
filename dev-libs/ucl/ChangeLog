@@ -62,3 +62,12 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+  08 Feb 2016; Johan Bergström <bugs@bergstroem.nu> ucl-1.03-r1.ebuild:
+  dev-libs/{lib,}ucl: Avoid simultaneous installation
+
+  Both libraries opts to use /usr/{include,lib}/libucl* which
+  leads to a conflict. There unfortunately doesn't seem to be
+  a resolution upstream; dev-libs/ucl is 12 years old and
+  dev-libs/libucl has stated that no changes related to this
+  will occur.
+

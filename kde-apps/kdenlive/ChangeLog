@@ -126,3 +126,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Michael Palimaka <kensington@gentoo.org>
+  -kdenlive-15.12.0-r1.ebuild:
+  kde-apps: Drop old
+

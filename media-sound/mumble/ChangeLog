@@ -117,3 +117,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mumble-1.2.13 (09 Feb 2016)
+
+  09 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> +mumble-1.2.13.ebuild:
+  Bump to version 1.2.13
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  09 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/mumble-1.2.8-gcc49.patch, -mumble-1.2.10-r1.ebuild,
+  -mumble-1.2.11.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

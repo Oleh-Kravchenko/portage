@@ -78,3 +78,30 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Michał Górny <mgorny@gentoo.org> -files/pe-format.conf,
+  -files/pe-format.init-1:
+  Remove obsolete files used by the old ebuild
+
+  09 Feb 2016; Michał Górny <mgorny@gentoo.org> pe-format-2.9999.ebuild:
+  Stop using autotools-utils (in live)
+
+  09 Feb 2016; Michał Górny <mgorny@gentoo.org> pe-format-2.9999.ebuild:
+  Update systemd.eclass API (in live)
+
+  09 Feb 2016; Michał Górny <mgorny@gentoo.org> pe-format-2.9999.ebuild:
+  Use xdg-utils, add missing desktop-file-utils dep
+
+  09 Feb 2016; Michał Górny <mgorny@gentoo.org> pe-format-2.9999.ebuild:
+  Use EAPI=6 in the live ebuild
+
+*pe-format-2.1.2-r1 (09 Feb 2016)
+
+  09 Feb 2016; Michał Górny <mgorny@gentoo.org> +pe-format-2.1.2-r1.ebuild:
+  Revbump to backport fixes and EAPI=6 updates
+
+*pe-format-9999 (09 Feb 2016)
+
+  09 Feb 2016; Michał Górny <mgorny@gentoo.org> -pe-format-2.9999.ebuild,
+  +pe-format-9999.ebuild:
+  Rename live to -9999 for consistency
+

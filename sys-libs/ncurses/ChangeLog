@@ -297,3 +297,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Fabian Groffen <grobian@gentoo.org> ncurses-6.0-r1.ebuild:
+  sync Prefix fixes
+
+  Package-Manager: portage-2.2.26
+

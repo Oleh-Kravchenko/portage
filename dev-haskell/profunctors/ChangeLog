@@ -86,3 +86,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  profunctors-4.0.1.ebuild, profunctors-4.0.4.ebuild,
+  profunctors-4.3.2.ebuild, profunctors-4.4.1.ebuild,
+  profunctors-5.1.1.ebuild, profunctors-5.1.2.ebuild:
+  slightly expand on package description
+
+  Found by the following check:
+      https://qa-reports.gentoo.org/output/gentoo-ci/output.html#dev-
+  haskell/profunctors
+
+  "description needs improvement: using the pkg name as the
+  description isn't very helpful"
+
+  Package-Manager: portage-2.2.27
+

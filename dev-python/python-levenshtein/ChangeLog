@@ -75,3 +75,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Justin Lecher <jlec@gentoo.org>
+  python-levenshtein-0.11.2.ebuild, python-levenshtein-0.12.0.ebuild:
+  properly build docs
+
+  Chop DESCRIPTION to 80 chars
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=574230
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  09 Feb 2016; Justin Lecher <jlec@gentoo.org>
+  -python-levenshtein-0.10.2-r1.ebuild, -python-levenshtein-0.11.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

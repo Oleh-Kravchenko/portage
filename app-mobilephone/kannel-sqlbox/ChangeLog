@@ -77,3 +77,23 @@
 
   Package-Manager: portage-2.2.26
 
+*kannel-sqlbox-1.5.0-r1 (09 Feb 2016)
+
+  09 Feb 2016; Ian Delaney <idella4@gentoo.org> -kannel-sqlbox-1.5.0.ebuild,
+  +kannel-sqlbox-1.5.0-r1.ebuild:
+  revbump to 1.5.0-r1 fixing issues from bump
+
+  update EPI, drop unused autotools eclass and inherit readme.gentoo-r1,
+  set slot operator to openssl, fixes the gentoo bug, remove defunct 1.5.0
+
+  Gentoo bug: #493712
+
+  Package-Manager: portage-2.2.26
+
+  09 Feb 2016; Ulrich Müller <ulm@gentoo.org> kannel-sqlbox-1.5.0-r1.ebuild:
+  QA] Don't install license file.
+
+  Bug: 493712
+
+  Package-Manager: portage-2.2.27
+

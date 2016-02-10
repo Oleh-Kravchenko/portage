@@ -114,3 +114,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*dd-rescue-1.99-r1 (09 Feb 2016)
+
+  09 Feb 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +dd-rescue-1.99-r1.ebuild, +files/dd_rescue-1.99-musl.patch:
+  musl) loff_t and __WORDSIZE includes
+
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+

@@ -276,3 +276,14 @@
   Package-Manager: portage-2.2.24
   Signed-off-by: Richard Yao <ryao@gentoo.org>
 
+  09 Feb 2016; Jason Zaman <perfinion@gentoo.org> zfs-kmod-9999.ebuild:
+  9999: update kernel config reqs for grsec
+
+  The requirement that PAX_USERCOPY_SLABS be disabled has been fixed in master
+  for many releases now.
+
+  They are correct in the latest release ebuild but the live ebuild was
+  out of sync.
+
+  Package-Manager: portage-2.2.26
+

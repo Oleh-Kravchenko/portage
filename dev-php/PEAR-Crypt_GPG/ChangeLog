@@ -63,3 +63,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*PEAR-Crypt_GPG-1.4.0 (09 Feb 2016)
+
+  09 Feb 2016; Brian Evans <grknight@gentoo.org> +PEAR-Crypt_GPG-1.4.0.ebuild:
+  Version bump; drop keywords due to new dependency
+
+  Package-Manager: portage-2.2.27
+

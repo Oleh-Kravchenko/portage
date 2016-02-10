@@ -63,3 +63,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Alexis Ballier <aballier@gentoo.org> oesch-20080712.ebuild:
+  add missing build dep on tl langgerman, bug #574166
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -114,3 +114,6 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  08 Feb 2016; Mike Frysinger <vapier@gentoo.org> mdadm-3.4.ebuild:
+  disable corosync & libdlm autodetection #573782
+

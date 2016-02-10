@@ -194,3 +194,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  09 Feb 2016; Tobias Klausmann <klausman@gentoo.org> pillow-3.1.1.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 573958
+
+  Package-Manager: portage-2.2.27
+

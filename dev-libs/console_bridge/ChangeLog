@@ -95,3 +95,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*console_bridge-0.3.2 (09 Feb 2016)
+
+  09 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  +console_bridge-0.3.2.ebuild:
+  bump to 0.3.2
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

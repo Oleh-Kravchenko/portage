@@ -67,3 +67,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Justin Lecher <jlec@gentoo.org>
+  +files/psi-3.4.0-format-security.patch, psi-3.4.0-r2.ebuild:
+  Fix multiple build failures
+
+  * Use byacc instead of bison
+  * Depend on correct SLOT of libint
+  * Fix format-security problems
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=430588
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=574068
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  09 Feb 2016; Justin Lecher <jlec@gentoo.org> psi-3.4.0-r2.ebuild:
+  Chop DESCRIPTION to 80 chars
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
