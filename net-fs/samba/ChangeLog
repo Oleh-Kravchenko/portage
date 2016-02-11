@@ -434,3 +434,34 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*samba-4.4.0_rc2 (09 Feb 2016)
+
+  09 Feb 2016; Ian Stakenvicius <axs@gentoo.org> +files/4.4/samba4.confd,
+  +files/4.4/samba4.initd-r1, +files/samba-4.4.0-pam.patch,
+  +samba-4.4.0_rc2.ebuild:
+  add ebuild for 4.4.0rc2
+
+  Package-Manager: portage-2.2.26
+
+  10 Feb 2016; Robin H. Johnson <robbat2@gentoo.org> -files/4.4/samba4.confd,
+  -files/4.4/samba4.initd-r1, -files/samba-4.4.0-pam.patch,
+  -samba-4.4.0_rc2.ebuild:
+  Revert "net-fs/samba: add ebuild for 4.4.0rc2"
+
+  This commit is missing the DIST entry for
+  samba-disable-python-patches-4.4.0.tar.xz, and the distfile is not
+  available.
+
+  This reverts commit bedb32a1fbb6675c639446b39d25d4f13e2d4b67.
+
+*samba-4.4.0_rc2 (10 Feb 2016)
+
+  10 Feb 2016; Ian Stakenvicius <axs@gentoo.org> +files/4.4/samba4.confd,
+  +files/4.4/samba4.initd-r1, +files/samba-4.4.0-pam.patch,
+  +samba-4.4.0_rc2.ebuild:
+  commit samba-4.4rc2 with proper Manifest
+
+  Recommit bedb32a1fbb6675 but with proper Manifest
+
+  Package-Manager: portage-2.2.26
+

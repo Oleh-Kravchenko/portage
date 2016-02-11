@@ -63,3 +63,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Feb 2016; Justin Lecher <jlec@gentoo.org> pyqwt-5.2.0-r1.ebuild:
+  Fix dev-python/PyQt4 dep version to 4.11.1
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=536948
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

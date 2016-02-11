@@ -189,3 +189,9 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  10 Feb 2016; Matthew Brewer <tomboy64@sina.cn> metadata.xml:
+  update metadata.xml to contain a name-tag for tomboy64@sina.cn
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

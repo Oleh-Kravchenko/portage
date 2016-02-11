@@ -448,3 +448,14 @@
 
   Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=417171
 
+  10 Feb 2016; Michał Górny <mgorny@gentoo.org> llvm-3.7.1.ebuild,
+  -llvm-3.7.1-r1.ebuild:
+  Remove unnecessary revbump due to FreeBSD-related change
+
+  The FreeBSD header change does not justify forcing rebuild of such
+  a huge package as LLVM on Linux. Furthermore, the new code relies on
+  a new USE flag, so FreeBSD users will get it via --changed-use.
+
+  10 Feb 2016; Michał Górny <mgorny@gentoo.org> llvm-3.7.1.ebuild:
+  Fix missing ||die on FreeBSD-added code
+

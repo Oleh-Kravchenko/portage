@@ -172,3 +172,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -swift-2.5.0-r1.ebuild, swift-2.5.0-r2.ebuild:
+  cleanup and allarches stable of x86 for bug #572460
+
+  Package-Manager: portage-2.2.26
+

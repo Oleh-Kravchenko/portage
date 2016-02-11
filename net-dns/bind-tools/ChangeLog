@@ -192,3 +192,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Feb 2016; Patrick McLean <chutzpah@gentoo.org>
+  bind-tools-9.10.3_p2.ebuild:
+  Add DEPEND on virtual/pkgconfig to 9.10.3_p2
+
+  Build fails when pkgconfig is not installed on the system, so this is
+  needed.
+
+  Package-Manager: portage-2.2.27
+

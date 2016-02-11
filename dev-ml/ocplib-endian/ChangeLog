@@ -41,3 +41,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Feb 2016; Matthew Brewer <tomboy64@sina.cn> metadata.xml:
+  update metadata.xml to contain a name-tag for tomboy64@sina.cn
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

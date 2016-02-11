@@ -123,3 +123,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  javacup-0.11a_beta20060608.ebuild:
+  drop findutils dep #214664
+
+  The forced upgrade has been moved to @system now.
+

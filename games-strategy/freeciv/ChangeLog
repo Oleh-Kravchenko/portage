@@ -99,3 +99,10 @@
 
   Package-Manager: portage-2.2.26
 
+*freeciv-2.5.3 (10 Feb 2016)
+
+  10 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org> +freeciv-2.5.3.ebuild:
+  version bump (bug #574226)
+
+  Package-Manager: portage-2.2.26
+

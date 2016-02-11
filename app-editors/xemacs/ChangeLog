@@ -113,3 +113,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Ulrich Müller <ulm@gentoo.org> xemacs-21.4.22-r4.ebuild,
+  xemacs-21.4.24.ebuild:
+  Whitespace.
+
+  Package-Manager: portage-2.2.27
+

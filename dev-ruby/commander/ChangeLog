@@ -93,3 +93,15 @@
 
   Package-Manager: portage-2.2.26
 
+*commander-4.3.8 (10 Feb 2016)
+
+  10 Feb 2016; Hans de Graaff <graaff@gentoo.org> +commander-4.3.8.ebuild:
+  add 4.3.8
+
+  Package-Manager: portage-2.2.26
+
+  10 Feb 2016; Hans de Graaff <graaff@gentoo.org> -commander-4.3.5.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+

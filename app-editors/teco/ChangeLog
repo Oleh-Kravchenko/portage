@@ -58,3 +58,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Feb 2016; Ulrich Müller <ulm@gentoo.org> teco-1.00-r4.ebuild:
+  Add proper slot dependency on ncurses.
+
+  Package-Manager: portage-2.2.27
+

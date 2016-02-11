@@ -20,3 +20,29 @@
 
   Package-Manager: portage-2.2.26
 
+  10 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> metadata.xml:
+  add Jonathan Vasquez as a maintainer
+
+  Package-Manager: portage-2.2.26
+
+*syncthing-0.12.18 (10 Feb 2016)
+
+  10 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> -syncthing-0.12.17-r1.ebuild,
+  +syncthing-0.12.18.ebuild:
+  Version bump
+
+  -version was specified with an incorrect format that
+  prevented syncthing from launching.
+
+  Also add -no-upgrade telling it that we'll manage
+  updates with an external package manager.
+
+  Removed the old ebuild because it was broken anyway.
+
+  Package-Manager: portage-2.2.26
+
+  10 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> syncthing-0.12.18.ebuild:
+  add systemd unit files (fixes bug 574186)
+
+  Package-Manager: portage-2.2.26
+

@@ -90,3 +90,18 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  10 Feb 2016; Matthew Brewer <tomboy64@sina.cn> metadata.xml:
+  update metadata.xml to contain a name-tag for tomboy64@sina.cn
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+
+*ocaml-cstruct-1.8.0 (10 Feb 2016)
+
+  10 Feb 2016; Alexis Ballier <aballier@gentoo.org> metadata.xml,
+  +ocaml-cstruct-1.8.0.ebuild:
+  bump to 1.8.0
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

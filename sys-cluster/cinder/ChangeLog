@@ -216,3 +216,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -cinder-2015.1.9999.ebuild, -files/CVE-2015-1851_2014.2.3.patch,
+  -files/CVE-2015-1851_2015.1.0.patch:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+

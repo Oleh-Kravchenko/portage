@@ -87,3 +87,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Feb 2016; Mike Frysinger <vapier@gentoo.org> backup-manager-0.7.5.ebuild,
+  backup-manager-0.7.10.1-r2.ebuild:
+  drop findutils dep
+
+  The forced upgrade has been moved to @system now.
+

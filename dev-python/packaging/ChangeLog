@@ -218,3 +218,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*packaging-16.2 (10 Feb 2016)
+
+  10 Feb 2016; Justin Lecher <jlec@gentoo.org> +packaging-16.2.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

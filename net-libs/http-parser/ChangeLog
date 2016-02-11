@@ -92,3 +92,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*http-parser-2.6.1 (10 Feb 2016)
+
+  10 Feb 2016; Johan Bergström <bugs@bergstroem.nu> -http-parser-2.6.0.ebuild,
+  +http-parser-2.6.1.ebuild, metadata.xml:
+  version bump to 2.6.1
+
+  this is considered a security bump, so drop old.
+

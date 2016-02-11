@@ -213,3 +213,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  10 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> vlc-2.2.2.ebuild:
+  Fixed dependency on qtwidgets:5
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -146,3 +146,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Feb 2016; Mike Frysinger <vapier@gentoo.org> libpcre-7.9-r1.ebuild,
+  libpcre-8.35.ebuild, libpcre-8.36.ebuild, libpcre-8.37-r2.ebuild,
+  libpcre-8.38.ebuild:
+  drop findutils dep #278370
+
+  The forced upgrade has been moved to @system now.
+

@@ -185,3 +185,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*rdoc-4.2.2 (10 Feb 2016)
+
+  10 Feb 2016; Hans de Graaff <graaff@gentoo.org> +rdoc-4.2.2.ebuild:
+  add 4.2.2, fix bug 572548
+
+  The list of ruby implementations was not updated to include the ruby 2.3
+  versions, and thus the rdoc stubs for 2.3 were not created.
+
+  Package-Manager: portage-2.2.26
+

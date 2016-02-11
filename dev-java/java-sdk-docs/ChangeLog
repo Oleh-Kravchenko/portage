@@ -124,3 +124,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*java-sdk-docs-1.8.0.74 (09 Feb 2016)
+
+  09 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  -java-sdk-docs-1.8.0.72.ebuild, +java-sdk-docs-1.8.0.74.ebuild:
+  Version bump
+
+  Straight to stable as the old version has gone.
+
+  Package-Manager: portage-2.2.27
+

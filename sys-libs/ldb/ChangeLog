@@ -204,3 +204,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ldb-1.1.25 (09 Feb 2016)
+
+  09 Feb 2016; Ian Stakenvicius <axs@gentoo.org> +ldb-1.1.25.ebuild:
+  add v1.1.25 to suport samba-4.4
+
+  Package-Manager: portage-2.2.26
+

@@ -73,3 +73,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  10 Feb 2016; Markus Meier <maekke@gentoo.org>
+  Getopt-Long-Descriptive-0.97.0.ebuild:
+  arm stable, bug #573482
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

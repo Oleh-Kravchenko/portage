@@ -279,3 +279,14 @@
 
   Package-Manager: portage-2.2.27
 
+*aegisub-3.0.4-r1 (10 Feb 2016)
+
+  10 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> -aegisub-3.0.4.ebuild,
+  +aegisub-3.0.4-r1.ebuild,
+  files/aegisub-3.0.4-fix-install-with-empty-LINGUAS.patch,
+  files/aegisub-3.0.4-fix-lua-macro.patch,
+  files/aegisub-3.0.4-respect-user-compiler-flags.patch:
+  revbump to 3.0.4-r1 to restore -fno-strict-aliasing
+
+  Package-Manager: portage-2.2.27
+

@@ -240,3 +240,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  10 Feb 2016; Markus Meier <maekke@gentoo.org> bluez-5.37.ebuild:
+  arm stable, bug #573370
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+
