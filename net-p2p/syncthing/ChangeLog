@@ -46,3 +46,6 @@
 
   Package-Manager: portage-2.2.26
 
+  10 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> syncthing-0.12.18.ebuild:
+  fix path to systemd unit files
+

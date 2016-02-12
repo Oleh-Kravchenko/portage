@@ -10,3 +10,9 @@
 
   Package-Manager: portage-2.2.27
 
+  11 Feb 2016; Zac Medico <zmedico@gentoo.org>
+  go-sqlite3-1.1.0_p20160131.ebuild:
+  dev-go/go-sqlite: add ${PVR} subslot, for tracking static links
+
+  Package-Manager: portage-2.2.27
+

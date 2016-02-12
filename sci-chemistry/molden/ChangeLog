@@ -67,3 +67,31 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  11 Feb 2016; Justin Lecher <jlec@gentoo.org> molden-4.8-r2.ebuild,
+  molden-5.0.ebuild:
+  Fix HOMEPAGE to new location
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=509854
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  11 Feb 2016; Justin Lecher <jlec@gentoo.org> molden-4.8-r2.ebuild,
+  molden-5.0.ebuild:
+  Fix SRC_URI to new location
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=509854
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*molden-5.5 (11 Feb 2016)
+
+  11 Feb 2016; Justin Lecher <jlec@gentoo.org> +molden-5.5.ebuild:
+  Version Bump
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=509854
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

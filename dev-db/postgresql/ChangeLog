@@ -411,3 +411,33 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+*postgresql-9.5.1 (11 Feb 2016)
+*postgresql-9.4.6 (11 Feb 2016)
+*postgresql-9.3.11 (11 Feb 2016)
+*postgresql-9.2.15 (11 Feb 2016)
+*postgresql-9.1.20 (11 Feb 2016)
+
+  11 Feb 2016; Aaron W. Swenson <titanofold@gentoo.org>
+  +postgresql-9.1.20.ebuild, +postgresql-9.2.15.ebuild,
+  +postgresql-9.3.11.ebuild, +postgresql-9.4.6.ebuild,
+  +postgresql-9.5.1.ebuild:
+  Security Bump
+
+  Security bump resolves a vulnerability that can be exploited for
+  denial-of-service without requiring a prior login, and a vulnerability
+  that can be exploited for privelege escalation but requires a prior
+  login.
+
+  CVS: 2016-0766,2016-0773
+  Bug: 574456
+
+  Package-Manager: portage-2.2.26
+
+  11 Feb 2016; Aaron W. Swenson <titanofold@gentoo.org>
+  -postgresql-9.5.0.ebuild:
+  Remove insecure
+
+  Remove insecure and never-stabled version.
+
+  Package-Manager: portage-2.2.26
+

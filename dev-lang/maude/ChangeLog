@@ -65,3 +65,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*maude-2.7 (11 Feb 2016)
+
+  11 Feb 2016; David Seifert <soap@gentoo.org>
+  +files/maude-2.7-bison-parse-param.patch, +maude-2.7.ebuild:
+  Version bump to 2.7
+
+  Gentoo-Bug: 540210
+  * EAPI=6
+  * Remove 'autotools-utils.eclass'
+  * Add patch from Debian to fix Bison bug
+
+  Package-Manager: portage-2.2.27
+

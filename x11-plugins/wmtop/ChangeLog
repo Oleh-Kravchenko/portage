@@ -87,3 +87,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*wmtop-0.85 (11 Feb 2016)
+
+  11 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org> +wmtop-0.85.ebuild:
+  version bump
+
+  Updated ebuild (EAPI6, upstream has autoconf now, ...)
+
+  Package-Manager: portage-2.2.27
+

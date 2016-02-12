@@ -71,3 +71,10 @@
 
   Package-Manager: portage-2.2.27
 
+*libzip-1.1.1 (10 Feb 2016)
+
+  10 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +libzip-1.1.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

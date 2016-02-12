@@ -80,3 +80,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*yt-3.2.3 (11 Feb 2016)
+
+  11 Feb 2016; Kacper Kowalik <xarthisius@gentoo.org>
+  -files/yt-3.0-missing_package.patch, -yt-3.2.ebuild, -yt-3.2.1.ebuild,
+  +yt-3.2.3.ebuild:
+  version bump, drop old
+
+  Package-Manager: portage-2.2.27
+

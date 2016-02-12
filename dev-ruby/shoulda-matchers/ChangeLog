@@ -88,3 +88,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*shoulda-matchers-3.1.1 (11 Feb 2016)
+
+  11 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +shoulda-matchers-3.1.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  11 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -shoulda-matchers-3.0.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

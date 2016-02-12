@@ -10,3 +10,10 @@
 
   Package-Manager: portage-2.2.26
 
+*backports-3.6.8 (11 Feb 2016)
+
+  11 Feb 2016; Hans de Graaff <graaff@gentoo.org> +backports-3.6.8.ebuild:
+  add 3.6.8
+
+  Package-Manager: portage-2.2.26
+

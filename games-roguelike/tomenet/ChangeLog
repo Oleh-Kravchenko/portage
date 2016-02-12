@@ -100,3 +100,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*tomenet-4.6.1a (11 Feb 2016)
+
+  11 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/tomenet-4.6.1a-makefile.patch, +tomenet-4.6.1a.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

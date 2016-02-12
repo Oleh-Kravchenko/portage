@@ -77,3 +77,10 @@
 
   Package-Manager: portage-2.2.26
 
+  10 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org> caja-dropbox-1.10.1.ebuild,
+  -files/caja-dropbox-0.7.0-system-rst2man.patch,
+  -files/caja-dropbox-1.10.0-system-rst2man.patch:
+  Fix epatch call. Thanks to joost_op.
+
+  Package-Manager: portage-2.2.26
+

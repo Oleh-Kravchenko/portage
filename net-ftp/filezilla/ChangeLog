@@ -195,3 +195,22 @@
 
   Package-Manager: portage-2.2.27
 
+*filezilla-3.15.0.2 (11 Feb 2016)
+
+  11 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +filezilla-3.15.0.2.ebuild, metadata.xml:
+  Bump to version 3.15.0.2
+
+  Added myself as maintainer.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  11 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/filezilla-3.3.5.1-debug.patch, -filezilla-3.14.0.ebuild,
+  -filezilla-3.15.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

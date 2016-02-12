@@ -157,3 +157,20 @@
 
   Package-Manager: portage-2.2.27
 
+*nodejs-5.6.0 (11 Feb 2016)
+
+  11 Feb 2016; Patrick Lauer <patrick@gentoo.org>
+  +files/gentoo-global-npm-config.patch, -nodejs-5.5.0.ebuild,
+  +nodejs-5.6.0.ebuild:
+  Bump #574418, thanks to jbergstroem
+
+  Package-Manager: portage-2.2.27
+
+*nodejs-5.6.0-r1 (11 Feb 2016)
+
+  11 Feb 2016; Patrick Lauer <patrick@gentoo.org> -nodejs-5.6.0.ebuild,
+  +nodejs-5.6.0-r1.ebuild:
+  Unhardcode path #574460
+
+  Package-Manager: portage-2.2.27
+

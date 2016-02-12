@@ -202,3 +202,14 @@
 
   Package-Manager: portage-2.2.27
 
+  11 Feb 2016; Ulrich Müller <ulm@gentoo.org>
+  emacs-vcs-25.0.50_pre20151113.ebuild, emacs-vcs-25.0.90.ebuild,
+  emacs-vcs-25.0.9999-r2.ebuild, emacs-vcs-25.1.50_pre20160130.ebuild,
+  emacs-vcs-25.1.9999-r1.ebuild:
+  Don't store revision in system-configuration-options.
+
+  The git revision is stored by upstream in emacs-repository-version,
+  therefore this local hack is no longer needed.
+
+  Package-Manager: portage-2.2.27
+

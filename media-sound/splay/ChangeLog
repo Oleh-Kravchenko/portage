@@ -89,3 +89,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*splay-0.9.5.2-r2 (10 Feb 2016)
+
+  10 Feb 2016; David Seifert <soap@gentoo.org>
+  +files/splay-0.9.5.2-fix-buildsystem.patch,
+  -files/splay-0.9.5.2-modernize-cpp.patch, -splay-0.9.5.2-r1.ebuild,
+  +splay-0.9.5.2-r2.ebuild:
+  Patch out completely broken Qt3 handling
+
+  Gentoo-Bug: 574202
+  * Add missing media-libs/id3lib dependency
+  * Remove xsplay.1 man page
+
+  Package-Manager: portage-2.2.27
+

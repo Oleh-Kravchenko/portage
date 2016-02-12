@@ -65,3 +65,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  11 Feb 2016; Jeroen Roovers <jer@gentoo.org> airtraf-1.1-r3.ebuild,
+  +files/airtraf-1.1-sniffd.patch, -files/airtraf-1.1.patch:
+  Fix linker failure (bug #574434 by Toralf Förster).
+
+          Also, rename patch
+
+  Package-Manager: portage-2.2.27
+
+  11 Feb 2016; Jeroen Roovers <jer@gentoo.org> airtraf-1.1-r3.ebuild:
+  Fix sys-libs/ncurses dependency
+
+  Package-Manager: portage-2.2.27
+

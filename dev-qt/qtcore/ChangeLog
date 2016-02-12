@@ -137,3 +137,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*qtcore-5.5.1-r1 (11 Feb 2016)
+
+  11 Feb 2016; Davide Pesavento <pesa@gentoo.org> -qtcore-5.5.1.ebuild,
+  +qtcore-5.5.1-r1.ebuild:
+  revbump to ensure users get the fix for bug 552942
+
+  Package-Manager: portage-2.2.27
+

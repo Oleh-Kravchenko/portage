@@ -101,3 +101,10 @@
 
   Package-Manager: portage-2.2.26
 
+  11 Feb 2016; Agostino Sarubbo <ago@gentoo.org> botan-1.10.12.ebuild:
+  amd64 stable wrt bug #574034
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

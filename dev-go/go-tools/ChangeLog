@@ -146,3 +146,10 @@
 
   Package-Manager: portage-2.2.27
 
+  11 Feb 2016; Zac Medico <zmedico@gentoo.org>
+  go-tools-0_pre20150823-r1.ebuild, go-tools-0_pre20150902.ebuild,
+  go-tools-0_pre20160121.ebuild, go-tools-9999.ebuild:
+  add ${PVR} subslot, for tracking static links
+
+  Package-Manager: portage-2.2.27
+

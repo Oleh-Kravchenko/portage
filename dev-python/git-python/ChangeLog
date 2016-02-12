@@ -89,3 +89,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*git-python-1.0.2 (11 Feb 2016)
+
+  11 Feb 2016; Justin Lecher <jlec@gentoo.org> +git-python-1.0.2.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

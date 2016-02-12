@@ -184,3 +184,16 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*cups-2.1.3-r1 (11 Feb 2016)
+
+  11 Feb 2016; Mike Frysinger <vapier@gentoo.org> +cups-2.1.3-r1.ebuild,
+  cups-9999.ebuild:
+  filters}: consolidate dependencies into cups-filters #573970
+
+  Currently, the CUPS ebuild is specifying the required USE flags and
+  dependencies for ghostscript and poppler. However, these utilities are
+  only required by the cups-filters ebuild, not CUPS proper.
+
+  Let's move the dependencies to cups-filters and phase out those
+  dependencies in the CUPS ebuild.
+

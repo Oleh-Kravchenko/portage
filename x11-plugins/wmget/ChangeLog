@@ -81,3 +81,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*wmget-0.6.1 (11 Feb 2016)
+
+  11 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org> +wmget-0.6.1.ebuild:
+  version bump with new homepage, ebuild cleanup
+
+  Package-Manager: portage-2.2.27
+

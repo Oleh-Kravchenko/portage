@@ -68,3 +68,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jazzy-0.5.2-r1 (11 Feb 2016)
+
+  11 Feb 2016; Patrice Clement <monsieurp@gentoo.org> -jazzy-0.5.2.ebuild,
+  +jazzy-0.5.2-r1.ebuild:
+  Bump to EAPI 5 and switch to java-pkg-simple whilst at it.
+
+  Forcing because EAPI 0 ebuilds really HAVE TO go.
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --force
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

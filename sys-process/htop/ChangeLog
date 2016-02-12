@@ -82,3 +82,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*htop-2.0.0 (11 Feb 2016)
+
+  11 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/htop-2.0.0-tinfo.patch, +htop-2.0.0.ebuild:
+  Bump to version 2.0.0 (bug #574424).
+
+  With kind permission from idl0r.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
