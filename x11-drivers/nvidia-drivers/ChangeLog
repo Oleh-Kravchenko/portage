@@ -569,3 +569,13 @@
 
   Package-Manager: portage-2.2.27
 
+*nvidia-drivers-361.28-r1 (12 Feb 2016)
+
+  12 Feb 2016; Jeroen Roovers <jer@gentoo.org> metadata.xml,
+  +nvidia-drivers-361.28-r1.ebuild:
+  Add USE=compat (bug #571526)
+
+          Also, have the tools build without restricting MAKEOPTS
+
+  Package-Manager: portage-2.2.27
+

@@ -207,3 +207,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  12 Feb 2016; Jeroen Roovers <jer@gentoo.org>
+  ca-certificates-20151214.3.21.ebuild:
+  Stable for HPPA (bug #561962).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

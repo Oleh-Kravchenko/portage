@@ -246,3 +246,21 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  12 Feb 2016; Jeroen Roovers <jer@gentoo.org> bluez-5.37.ebuild,
+  +files/bluez-5.37-endian.patch:
+  Fix endian compile error (bug #574092).
+
+  Package-Manager: portage-2.2.27
+
+  12 Feb 2016; Jeroen Roovers <jer@gentoo.org> bluez-5.37.ebuild:
+  Stable for PPC64 (bug #573370).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  12 Feb 2016; Jeroen Roovers <jer@gentoo.org> bluez-5.37.ebuild:
+  Stable for HPPA (bug #573370).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

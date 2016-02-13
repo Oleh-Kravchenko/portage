@@ -185,3 +185,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*nano-2.5.2 (12 Feb 2016)
+
+  12 Feb 2016; Mike Frysinger <vapier@gentoo.org> +nano-2.5.2.ebuild:
+  app-editor/nano: version bump to 2.5.2
+
+  12 Feb 2016; Mike Frysinger <vapier@gentoo.org> -files/awk.nanorc,
+  -files/css.nanorc, -files/gentoo.nanorc, -files/nano-2.4.0-no-speller.patch,
+  -files/xml.nanorc, -nano-2.3.6.ebuild, -nano-2.4.0.ebuild,
+  -nano-2.4.1.ebuild, -nano-2.4.2.ebuild:
+  app-editor/nano: drop old <2.4.3 versions
+

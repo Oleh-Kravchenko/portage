@@ -77,3 +77,13 @@
 
   Package-Manager: portage-2.2.27
 
+*dev86-0.16.21-r2 (12 Feb 2016)
+
+  12 Feb 2016; David Seifert <soap@gentoo.org> -dev86-0.16.21-r1.ebuild,
+  +dev86-0.16.21-r2.ebuild:
+  Revbump to fix broken symlink
+
+  Gentoo-Bug: 574014
+
+  Package-Manager: portage-2.2.27
+

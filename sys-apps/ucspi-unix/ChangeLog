@@ -80,3 +80,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  12 Feb 2016; Mike Frysinger <vapier@gentoo.org> ucspi-unix-0.36-r4.ebuild:
+  respect user CPPFLAGS settings
+
+  Also pass CFLAGS during link to simplify people's usage.
+
+  12 Feb 2016; Mike Frysinger <vapier@gentoo.org> ucspi-unix-0.36-r4.ebuild:
+  leverage SYSROOT for cross-compiling
+
+  12 Feb 2016; Mike Frysinger <vapier@gentoo.org> ucspi-unix-0.36-r4.ebuild:
+  update to EAPI=5
+
+  12 Feb 2016; Mike Frysinger <vapier@gentoo.org> ucspi-unix-0.36-r4.ebuild:
+  block mk-livestatus over unixcat collision #480546
+

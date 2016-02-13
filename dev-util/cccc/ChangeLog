@@ -74,3 +74,14 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+*cccc-3.1.5 (12 Feb 2016)
+
+  12 Feb 2016; Stephen L Arnold <nerdboy@gentoo.org> -cccc-3.1.4-r1.ebuild,
+  +cccc-3.1.5.ebuild, metadata.xml:
+  update to latest release (3.1.5)
+
+  This version also adds a simple test, and adds use flags for detailed
+  software docs and metrics, plus a lovely (optional) MFC patch.
+
+  Package-Manager: portage-2.2.26
+

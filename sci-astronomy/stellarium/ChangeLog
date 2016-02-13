@@ -113,3 +113,9 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  stellarium-0.14.2.ebuild:
+  add more deps (bug #574498)
+
+  Package-Manager: portage-2.2.26
+

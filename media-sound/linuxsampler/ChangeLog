@@ -74,3 +74,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*linuxsampler-2.0.0-r1 (12 Feb 2016)
+
+  12 Feb 2016; David Seifert <soap@gentoo.org>
+  +files/linuxsampler-2.0.0-nptl-hardened.patch,
+  +linuxsampler-2.0.0-r1.ebuild:
+  Fix undefined behaviour in NPTL test
+
+  Gentoo-Bug: 537516
+  * EAPI=6
+  * Replace PTHREAD_CANCEL_ASYNCHRONOUS, which is undefined behaviour
+    when used for a non-pure function
+
+  Package-Manager: portage-2.2.27
+

@@ -64,3 +64,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  12 Feb 2016; David Seifert <soap@gentoo.org> gnac-0.2.4.1.ebuild:
+  add -std=gnu89 to CFLAGS to restore pre-GCC5 semantics
+
+  Gentoo-Bug: 574568
+  * Added PATCHES array, such that switching to EAPI=6
+    is facilitated once gnome2.eclass is ready
+
+  Package-Manager: portage-2.2.27
+

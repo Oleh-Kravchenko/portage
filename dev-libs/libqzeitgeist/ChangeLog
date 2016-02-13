@@ -63,3 +63,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  12 Feb 2016; Michael Palimaka <kensington@gentoo.org>
+  libqzeitgeist-0.8.0.ebuild:
+  add missing dependency
+
+  Gentoo-bug: 574348
+
+  Package-Manager: portage-2.2.27
+
+  12 Feb 2016; Michael Palimaka <kensington@gentoo.org>
+  libqzeitgeist-0.8.0.ebuild:
+  remove duplicated dependency
+
+  Package-Manager: portage-2.2.27
+

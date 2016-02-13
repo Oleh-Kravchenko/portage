@@ -318,3 +318,10 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Feb 2016; Jeroen Roovers <jer@gentoo.org> phpmyadmin-4.0.10.14.ebuild,
+  phpmyadmin-4.4.15.4.ebuild, phpmyadmin-4.5.4.1.ebuild:
+  Stable for HPPA PPC64 (bug #573286).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

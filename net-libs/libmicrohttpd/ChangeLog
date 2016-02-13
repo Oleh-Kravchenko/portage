@@ -201,3 +201,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  12 Feb 2016; Anthony G. Basile <blueness@gentoo.org>
+  libmicrohttpd-0.9.47.ebuild:
+  net-libs/libmicrohttpd: stable on ppc64, bug #568708
+
+  Package-Manager: portage-2.2.26
+
+  12 Feb 2016; Anthony G. Basile <blueness@gentoo.org>
+  -libmicrohttpd-0.9.42.ebuild, -libmicrohttpd-0.9.45-r1.ebuild,
+  -libmicrohttpd-0.9.46.ebuild:
+  remove older version
+
+  Package-Manager: portage-2.2.26
+

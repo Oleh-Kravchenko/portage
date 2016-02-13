@@ -11,3 +11,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*ppx_jane-113.24.01 (12 Feb 2016)
+
+  12 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  +ppx_jane-113.24.01.ebuild:
+  bump to 113.24.01
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

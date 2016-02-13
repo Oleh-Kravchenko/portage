@@ -294,3 +294,8 @@
   systemd-9999.ebuild:
   Do not force ld.gold by default, #539998
 
+  11 Feb 2016; Elias Probst <mail@eliasprobst.eu> systemd-9999.ebuild:
+  Create "systemd-coredump" user/group
+
+  Package-Manager: portage-2.2.27
+

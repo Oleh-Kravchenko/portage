@@ -132,3 +132,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*calligra-2.9.11 (12 Feb 2016)
+
+  12 Feb 2016; Michael Palimaka <kensington@gentoo.org>
+  +calligra-2.9.11.ebuild:
+  version bump
+
+  Gentoo-bug: 573830
+
+  Package-Manager: portage-2.2.27
+

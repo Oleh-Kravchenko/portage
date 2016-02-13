@@ -138,3 +138,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*aufs3-3_p20160215 (12 Feb 2016)
+
+  12 Feb 2016; Justin Lecher <jlec@gentoo.org> +aufs3-3_p20160215.ebuild:
+  Bump to latest aufs release
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

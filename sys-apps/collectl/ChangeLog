@@ -81,3 +81,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*collectl-4.0.4 (12 Feb 2016)
+
+  12 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> +collectl-4.0.4.ebuild:
+  Bump to version 4.0.4
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  12 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> -collectl-4.0.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

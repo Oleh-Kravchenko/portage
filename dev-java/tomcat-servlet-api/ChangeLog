@@ -313,3 +313,11 @@
 
   Package-Manager: portage-2.2.27
 
+*tomcat-servlet-api-6.0.45 (12 Feb 2016)
+
+  12 Feb 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +tomcat-servlet-api-6.0.45.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

@@ -118,3 +118,10 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Feb 2016; Justin Lecher <jlec@gentoo.org> inkscape-0.48.5-r1.ebuild,
+  inkscape-0.91.ebuild, inkscape-0.91-r1.ebuild:
+  Add SLOT operator for gsl
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

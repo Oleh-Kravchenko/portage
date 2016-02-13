@@ -73,3 +73,26 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  12 Feb 2016; Justin Lecher <jlec@gentoo.org>
+  -files/gsl-1.13-cblas-vars.patch, -files/gsl-1.13-cblas.patch,
+  -files/gsl-1.15-cblas.patch, gsl-1.16.ebuild:
+  QA & cleanup
+
+  * add missing die
+  * drop additional die
+  * drop old patches
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*gsl-2.1 (12 Feb 2016)
+
+  12 Feb 2016; Justin Lecher <jlec@gentoo.org> +files/gsl-2.1-cblas.patch,
+  +gsl-2.1.ebuild:
+  Version Bump
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=574402
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

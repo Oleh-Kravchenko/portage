@@ -1321,17 +1321,6 @@
     </member>
   </project>
   <project>
-    <email>gmn@gentoo.org</email>
-    <name>Gentoo Monthly Newsletter</name>
-    <url>https://wiki.gentoo.org/wiki/Project:GMN</url>
-    <description>The Gentoo Monthly Newsletter (GMN) was intended to give anyone interested in Gentoo a single source of information about the latest happenings in the Gentoo world.</description>
-    <member is-lead="1">
-      <email>maffblaster@gentoo.org</email>
-      <name>Matthew Marchese</name>
-      <role>Host</role>
-    </member>
-  </project>
-  <project>
     <email>gnome@gentoo.org</email>
     <name>Gentoo GNOME Desktop</name>
     <url>https://wiki.gentoo.org/wiki/Project:GNOME</url>
@@ -1803,11 +1792,6 @@
       <email>maffblaster@gentoo.org</email>
       <name>Matthew Marchese</name>
       <role>Documentation Liaison</role>
-    </member>
-    <member>
-      <email>monsieurp@gentoo.org</email>
-      <name>Patrice Clement</name>
-      <role>Developer</role>
     </member>
   </project>
   <project>
@@ -2369,6 +2353,17 @@
     </member>
   </project>
   <project>
+    <email>gmn@gentoo.org</email>
+    <name>Gentoo News</name>
+    <url>https://wiki.gentoo.org/wiki/Project:News</url>
+    <description>Presenting news as it develops, the Gentoo News (GN) project is intended to give anyone interested in Gentoo a single-location for information on changes in the Gentoo universe.</description>
+    <member is-lead="1">
+      <email>maffblaster@gentoo.org</email>
+      <name>Matthew Marchese</name>
+      <role>Host</role>
+    </member>
+  </project>
+  <project>
     <email>office@gentoo.org</email>
     <name>Gentoo Office project</name>
     <url>https://wiki.gentoo.org/wiki/Project:Office</url>
@@ -2576,11 +2571,6 @@
     <member>
       <email>dilfridge@gentoo.org</email>
       <name>Andreas K. Hüttel</name>
-      <role>Developer</role>
-    </member>
-    <member>
-      <email>monsieurp@gentoo.org</email>
-      <name>Patrice Clement</name>
       <role>Developer</role>
     </member>
     <member>
@@ -2936,11 +2926,6 @@
       <role>Member</role>
     </member>
     <member>
-      <email>monsieurp@gentoo.org</email>
-      <name>Patrice Clement</name>
-      <role>Member</role>
-    </member>
-    <member>
       <email>mrueg@gentoo.org</email>
       <name>Manuel Rüger</name>
       <role>Member</role>
@@ -3101,11 +3086,6 @@
     <member>
       <email>mgorny@gentoo.org</email>
       <name>Michał Górny</name>
-      <role>Member</role>
-    </member>
-    <member>
-      <email>monsieurp@gentoo.org</email>
-      <name>Patrice Clement</name>
       <role>Member</role>
     </member>
     <member>
@@ -3460,11 +3440,6 @@
       <name>Michał Górny</name>
       <role>Author &amp; maintainer</role>
     </member>
-    <member>
-      <email>monsieurp@gentoo.org</email>
-      <name>Patrice Clement</name>
-      <role>Developer</role>
-    </member>
   </project>
   <project>
     <email>reviewers@gentoo.org</email>
@@ -3480,11 +3455,6 @@
       <email>mgorny@gentoo.org</email>
       <name>Michał Górny</name>
       <role>Lead</role>
-    </member>
-    <member>
-      <email>monsieurp@gentoo.org</email>
-      <name>Patrice Clement</name>
-      <role>Member</role>
     </member>
   </project>
   <project>
@@ -3822,10 +3792,6 @@
     <member>
       <email>jlec@gentoo.org</email>
       <name>Justin Lecher</name>
-    </member>
-    <member>
-      <email>monsieurp@gentoo.org</email>
-      <name>Patrice Clement</name>
     </member>
     <member>
       <email>zlg@gentoo.org</email>

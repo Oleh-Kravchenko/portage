@@ -78,3 +78,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*afflib-3.7.7 (12 Feb 2016)
+
+  12 Feb 2016; Patrick Lauer <patrick@gentoo.org> +afflib-3.7.7.ebuild:
+  Bump #573586
+
+  Package-Manager: portage-2.2.27
+
