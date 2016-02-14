@@ -139,3 +139,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  13 Feb 2016; Daniel Pielmeier <billie@gentoo.org> -conky-1.10.0.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.2.26
+
+  13 Feb 2016; Daniel Pielmeier <billie@gentoo.org> conky-1.9.0-r3.ebuild,
+  conky-1.10.1.ebuild:
+  Depend on nvidia-drivers[tools,static-libs].
+
+  This fixes bug #563718. Thanks to Stefan Talpalaru for the report.
+
+  Package-Manager: portage-2.2.26
+

@@ -139,3 +139,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  13 Feb 2016; Agostino Sarubbo <ago@gentoo.org> rebase-1601.ebuild:
+  amd64/ppc/x86 stable, (ALLARCHES policy) wrt bug #573576
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

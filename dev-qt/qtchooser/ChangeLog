@@ -122,3 +122,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  13 Feb 2016; Jeroen Roovers <jer@gentoo.org> qtchooser-0_p20151008.ebuild:
+  Stable for HPPA PPC64 (bug #572814).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

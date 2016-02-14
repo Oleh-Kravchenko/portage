@@ -78,3 +78,9 @@
 
   Package-Manager: portage-2.2.27
 
+  13 Feb 2016; Agostino Sarubbo <ago@gentoo.org> Graph-0.970.400.ebuild:
+  amd64/ia64/ppc/sparc/x86 stable, (ALLARCHES policy) wrt bug #573540
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

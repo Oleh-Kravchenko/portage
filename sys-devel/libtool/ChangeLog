@@ -103,3 +103,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libtool-2.4.6-r2 (13 Feb 2016)
+
+  13 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/libtool-2.4.6-libtoolize-delay-help.patch,
+  +files/libtool-2.4.6-libtoolize-slow.patch,
+  +files/libtool-2.4.6-link-fsanitize.patch,
+  +files/libtool-2.4.6-link-fuse-ld.patch,
+  +files/libtool-2.4.6-link-specs.patch,
+  +files/libtool-2.4.6-sed-quote-speedup.patch, +libtool-2.4.6-r2.ebuild:
+  add various upstream patches #542252 #573744 #574550
+
+  Three sets of fixes here, mostly from upstream:
+   - speed up libtool/libtoolize #542252
+   - update some set of flags accepted at link time #573744
+   - make $SED look up use $PATH at runtime #574550
+

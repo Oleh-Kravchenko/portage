@@ -93,3 +93,11 @@
 
   Package-Manager: portage-2.2.27
 
+  13 Feb 2016; Mark Wright <gienah@gentoo.org> sbt-0.13.10_rc2.ebuild:
+  Thanks to angry_vincent for reporting, Chewi for fix: RDEPEND
+  >=virtual/jre-1.7
+
+  As the eclass does not like RDEPEND="|| ( virtual/jre:1.7 virtual/jre:1.8 )"
+
+  Package-Manager: portage-2.2.27
+

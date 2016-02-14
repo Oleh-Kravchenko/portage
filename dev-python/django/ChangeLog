@@ -272,3 +272,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  13 Feb 2016; Agostino Sarubbo <ago@gentoo.org> django-1.8.9.ebuild:
+  amd64/x86 stable, (ALLARCHES policy) wrt bug #573688
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

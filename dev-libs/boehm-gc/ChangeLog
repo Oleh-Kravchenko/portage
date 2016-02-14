@@ -68,3 +68,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  13 Feb 2016; Mike Frysinger <vapier@gentoo.org> boehm-gc-7.4.0.ebuild,
+  boehm-gc-7.4.2.ebuild:
+  workaround ia64 build failure #574566
+

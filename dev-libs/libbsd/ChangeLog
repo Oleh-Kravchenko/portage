@@ -142,3 +142,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  13 Feb 2016; Jeroen Roovers <jer@gentoo.org> libbsd-0.8.2.ebuild:
+  Stable for PPC64 (bug #573160).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

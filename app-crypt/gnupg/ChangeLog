@@ -256,3 +256,13 @@
 
   Package-Manager: portage-2.2.27
 
+*gnupg-2.1.11-r1 (12 Feb 2016)
+
+  12 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  +files/gnupg-2.1.11-tests.patch, +gnupg-2.1.11-r1.ebuild:
+  Fix test failure in 2.1.11
+
+  Bug: 573398
+
+  Package-Manager: portage-2.2.27
+

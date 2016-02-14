@@ -105,3 +105,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*keyring-8.4 (12 Feb 2016)
+
+  12 Feb 2016; Matthew Thode <prometheanfire@gentoo.org> +keyring-8.4.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

@@ -159,3 +159,16 @@
   Use a more verbose maintainer <description>, as preferred by the
   proxy-maint project.
 
+*nethack-3.6.0-r3 (12 Feb 2016)
+
+  12 Feb 2016; Luis Ressel <aranea@aixah.de>
+  +files/nethack-3.6.0-x11-color.patch, +nethack-3.6.0-r3.ebuild:
+  Fix map colors in x11 interface
+
+  Gentoo-Bug: 573598
+  X-Upstream-Commit: a41382d
+
+  12 Feb 2016; Luis Ressel <aranea@aixah.de> -nethack-3.6.0-r1.ebuild,
+  -nethack-3.6.0-r2.ebuild:
+  Remove old ebuilds
+

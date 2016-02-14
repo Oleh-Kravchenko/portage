@@ -131,3 +131,9 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  13 Feb 2016; Matthew Brewer <tomboy64@sina.cn> metadata.xml:
+  update remote-id in metadata.xml
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

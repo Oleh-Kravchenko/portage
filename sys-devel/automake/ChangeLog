@@ -154,3 +154,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*automake-1.15-r2 (13 Feb 2016)
+
+  13 Feb 2016; Mike Frysinger <vapier@gentoo.org> +automake-1.15-r2.ebuild,
+  +files/automake-1.15-mdate-tz.patch:
+  make mdate output stable #520818 #574492
+

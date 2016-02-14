@@ -99,3 +99,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  13 Feb 2016; Jeroen Roovers <jer@gentoo.org> privoxy-3.0.24.ebuild:
+  Stable for PPC64 (bug #572584).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

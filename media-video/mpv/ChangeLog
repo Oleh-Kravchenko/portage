@@ -725,3 +725,25 @@
 
   Package-Manager: portage-2.2.27
 
+  12 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> mpv-0.14.0-r1.ebuild,
+  mpv-0.15.0-r1.ebuild, mpv-9999.ebuild:
+  add useful comment
+
+  Package-Manager: portage-2.2.27
+
+  12 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> mpv-9999.ebuild:
+  enable xv USE by default in 9999
+
+  Enable xv USE by default, since we enable X USE by default.
+  xv output is much better than x11 one.
+
+  Package-Manager: portage-2.2.27
+
+  12 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> mpv-9999.ebuild:
+  untie opengl USE from X USE in 9999
+
+  opengl USE can now do something else, but enabling GLX.
+  opengl USE now also controls OpenGL support in libmpv.
+
+  Package-Manager: portage-2.2.27
+

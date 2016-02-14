@@ -184,3 +184,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  13 Feb 2016; Jeroen Roovers <jer@gentoo.org> emacs-23.4-r14.ebuild:
+  Stable for HPPA (bug #573490).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

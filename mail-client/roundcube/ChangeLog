@@ -196,3 +196,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*roundcube-1.2_beta (13 Feb 2016)
+
+  13 Feb 2016; Aaron W. Swenson <titanofold@gentoo.org>
+  files/POST-UPGRADE.txt, +roundcube-1.2_beta.ebuild:
+  Version Bump
+
+  First version that can run under PHP7.
+
+  Revised POST-UPGRADE text to include a couple additional steps that
+  may be necessary.
+
+  Bug: 574136
+
+  Package-Manager: portage-2.2.26
+

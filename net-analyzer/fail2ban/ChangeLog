@@ -89,3 +89,22 @@
 
   Package-Manager: portage-2.2.27
 
+  13 Feb 2016; Jeroen Roovers <jer@gentoo.org> fail2ban-0.9.3-r1.ebuild:
+  Stable for HPPA (bug #573558).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  13 Feb 2016; Jeroen Roovers <jer@gentoo.org> fail2ban-0.9.3-r1.ebuild:
+  Stable for PPC64 (bug #573558).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  13 Feb 2016; Agostino Sarubbo <ago@gentoo.org> fail2ban-0.9.3-r1.ebuild:
+  amd64 stable wrt bug #573558
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -80,3 +80,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  13 Feb 2016; Anthony G. Basile <blueness@gentoo.org>
+  Search-Xapian-1.2.22.0.ebuild:
+  switch to subslot dependency
+
+  Package-Manager: portage-2.2.26
+
+  13 Feb 2016; Anthony G. Basile <blueness@gentoo.org>
+  -Search-Xapian-1.2.21.0.ebuild:
+  remove older unstable
+
+  Package-Manager: portage-2.2.26
+

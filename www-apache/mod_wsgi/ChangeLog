@@ -106,3 +106,10 @@
 
   Package-Manager: portage-2.2.26
 
+  13 Feb 2016; Agostino Sarubbo <ago@gentoo.org> mod_wsgi-4.4.21.ebuild:
+  amd64 stable wrt bug #574152
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

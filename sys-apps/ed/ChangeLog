@@ -85,3 +85,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ed-1.13 (13 Feb 2016)
+
+  13 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> +ed-1.13.ebuild:
+  Bump to version 1.13
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  13 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> -ed-1.11.ebuild,
+  -files/ed-1.5-build.patch:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

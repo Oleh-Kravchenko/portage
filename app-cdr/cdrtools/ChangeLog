@@ -104,3 +104,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cdrtools-3.02_alpha06 (13 Feb 2016)
+
+  13 Feb 2016; Daniel Pielmeier <billie@gentoo.org>
+  +cdrtools-3.02_alpha06.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.26
+
+  13 Feb 2016; Daniel Pielmeier <billie@gentoo.org>
+  -cdrtools-3.02_alpha02.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.2.26
+

@@ -185,3 +185,25 @@
 
   Package-Manager: portage-2.2.27
 
+  13 Feb 2016; Ulrich Müller <ulm@gentoo.org> -sbcl-1.1.18-r1.ebuild:
+  [QA] Revert "dev-lisp/sbcl: Fix for bug #572478"
+
+  PMS does not define PORTAGE_BUILDDIR, therefore this variable must not
+  be used in ebuilds.
+
+  This reverts commit 944c46edbf96fffc7d9151853ba361589d6a13d0.
+
+  13 Feb 2016; Ulrich Müller <ulm@gentoo.org> sbcl-1.1.18.ebuild:
+  Fix sandbox violation.
+
+  Thanks to Nicholas Vinson <nvinson234@gmail.com> for the original patch.
+
+  Bug: 572478
+
+  Package-Manager: portage-2.2.27
+
+  13 Feb 2016; Ulrich Müller <ulm@gentoo.org> sbcl-1.1.18.ebuild:
+  Remove dependency on <glibc-2.6 to make repoman happy.
+
+  Package-Manager: portage-2.2.27
+

@@ -256,3 +256,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  13 Feb 2016; Mike Frysinger <vapier@gentoo.org> gdb-7.10-r1.ebuild,
+  gdb-7.10.1.ebuild, gdb-9999.ebuild:
+  force zlib w/newer versions
+
+  Upstream has moved to using zlib all the time, so update the deps and
+  configure flags to match.  Otherwise we'd end up using the local zlib.
+
