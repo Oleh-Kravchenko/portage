@@ -153,3 +153,15 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Feb 2016; Jeroen Roovers <jer@gentoo.org> bison-3.0.4-r1.ebuild:
+  Stable for PPC64 (bug #574600).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  14 Feb 2016; Jeroen Roovers <jer@gentoo.org> bison-3.0.4-r1.ebuild:
+  Stable for HPPA (bug #574600).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

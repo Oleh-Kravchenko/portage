@@ -264,3 +264,9 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Feb 2016; Fabian Groffen <grobian@gentoo.org>
+  oracle-jdk-bin-1.8.0.74.ebuild:
+  fix unpack on OSX, thanks *, bug #574668
+
+  Package-Manager: portage-2.2.20-prefix
+

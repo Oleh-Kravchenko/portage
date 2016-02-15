@@ -16,3 +16,9 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  swingx-ws-1.0_p20110515.ebuild:
+  Fix incorrect SRC_URI, closes bug #574684
+
+  Package-Manager: portage-2.2.27
+

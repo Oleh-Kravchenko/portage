@@ -157,3 +157,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  14 Feb 2016; Patrick Lauer <patrick@gentoo.org>
+  audacious-plugins-3.7.1.ebuild:
+  Whitespace
+
+  Package-Manager: portage-2.2.27
+

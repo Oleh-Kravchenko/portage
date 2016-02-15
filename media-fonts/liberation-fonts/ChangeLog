@@ -75,3 +75,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*liberation-fonts-2.00.1-r2 (13 Feb 2016)
+
+  13 Feb 2016; Patrice Clement <monsieurp@gentoo.org>
+  +liberation-fonts-2.00.1-r2.ebuild:
+  EAPI 5 bump.
+
+  Package-Manager: portage-2.2.26
+

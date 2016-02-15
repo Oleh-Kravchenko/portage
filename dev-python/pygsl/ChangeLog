@@ -64,3 +64,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  14 Feb 2016; Justin Lecher <jlec@gentoo.org> pygsl-0.9.5-r1.ebuild:
+  Set max supported gsl version
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=574704
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*pygsl-2.1.1 (14 Feb 2016)
+
+  14 Feb 2016; Justin Lecher <jlec@gentoo.org> +pygsl-2.1.1.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

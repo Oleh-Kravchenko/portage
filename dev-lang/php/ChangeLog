@@ -1006,3 +1006,8 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  14 Feb 2016; Brian Evans <grknight@gentoo.org> php-5.6.18.ebuild:
+  Update cli REQUIRED_USE to be exactly-one-of readline or libedit
+
+  Package-Manager: portage-2.2.27
+

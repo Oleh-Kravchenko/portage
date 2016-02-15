@@ -154,3 +154,15 @@
 
   Package-Manager: portage-2.2.27
 
+*xv-3.10a-r19 (14 Feb 2016)
+
+  14 Feb 2016; Ulrich Müller <ulm@gentoo.org> -xv-3.10a-r18.ebuild,
+  +xv-3.10a-r19.ebuild:
+  Fix passing of preprocessor flags.
+
+  Thanks to Andrew Church for the fix.
+
+  Bug: 574398
+
+  Package-Manager: portage-2.2.27
+

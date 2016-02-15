@@ -73,3 +73,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*posh-0.12.5 (14 Feb 2016)
+
+  14 Feb 2016; Michał Górny <mgorny@gentoo.org> +posh-0.12.5.ebuild:
+  Version bump to 0.12.5
+
+  Bump to 0.12.5 that has a few bugfixes, gcc5 build fix most notably
+  (#546642).
+
+  14 Feb 2016; Michał Górny <mgorny@gentoo.org>
+  +files/posh-0.12.5-test-perl-fix.patch, posh-0.12.5.ebuild:
+  Fix tests to work with perl-5.15+
+

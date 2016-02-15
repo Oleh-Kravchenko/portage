@@ -147,3 +147,9 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Feb 2016; Markus Meier <maekke@gentoo.org> awesome-3.5.6-r2.ebuild:
+  arm stable, bug #545526
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

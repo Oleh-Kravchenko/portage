@@ -103,3 +103,13 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Feb 2016; David Seifert <soap@gentoo.org>
+  files/cdrdao-1.2.3-ax_pthread.patch:
+  Add AM_GCONF_SOURCE_2 macro to patch
+
+  Gentoo-Bug: 574660
+  * AM_GCONF_SOURCE_2 is normally defined in gnome-base/gconf,
+    which we do not watch to DEPEND on.
+
+  Package-Manager: portage-2.2.27
+

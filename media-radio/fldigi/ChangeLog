@@ -155,3 +155,10 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Feb 2016; Agostino Sarubbo <ago@gentoo.org> fldigi-3.23.06.ebuild:
+  x86 stable wrt bug #572688
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

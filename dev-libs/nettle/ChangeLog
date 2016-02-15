@@ -166,3 +166,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  14 Feb 2016; Markus Meier <maekke@gentoo.org> nettle-3.2.ebuild:
+  arm stable, bug #573646
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

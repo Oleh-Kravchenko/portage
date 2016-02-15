@@ -71,3 +71,12 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +files/ltrace-0.7.3-test-protos.patch, ltrace-0.7.3_p4.ebuild:
+  fix tests, bug #421649
+
+  Reported by: Diego Elio Pettenò
+  Bug: https://bugs.gentoo.org/421649
+
+  Package-Manager: portage-2.2.27
+

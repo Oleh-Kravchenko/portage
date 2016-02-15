@@ -85,3 +85,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  14 Feb 2016; Agostino Sarubbo <ago@gentoo.org> latexdiff-1.1.0.ebuild:
+  x86 stable wrt bug #572632
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

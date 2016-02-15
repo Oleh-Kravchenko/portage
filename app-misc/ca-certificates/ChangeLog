@@ -222,3 +222,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Feb 2016; Agostino Sarubbo <ago@gentoo.org>
+  ca-certificates-20151214.3.21.ebuild:
+  x86 stable wrt bug #561962
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

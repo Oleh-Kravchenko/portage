@@ -71,3 +71,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*trang-20151127 (14 Feb 2016)
+
+  14 Feb 2016; James Le Cuirot <chewi@gentoo.org> metadata.xml,
+  -trang-20091111-r1.ebuild, +trang-20151127.ebuild:
+  Version bump to latest git, fixes bug #556324
+
+  Upstream is still somewhat alive on GitHub. There has been one release
+  since 20091111 though the fix for building with Java 8 is only in git
+  master.
+
+  The tarball from GitHub is very different to the zip we used
+  previously so the build process has changed considerably, hence the
+  new dependencies. Using XSLT to generate a build.xml file is one of
+  the wackiest things I've ever seen.
+
+  The tarball also includes the jing and dtdinst tools but these require
+  additional dependencies and should be packaged separately.
+
+  Package-Manager: portage-2.2.27
+

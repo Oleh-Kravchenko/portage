@@ -463,3 +463,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*firefox-44.0.2 (14 Feb 2016)
+*firefox-38.6.1 (14 Feb 2016)
+
+  14 Feb 2016; Jory A. Pratt <anarchy@gentoo.org> +firefox-38.6.1.ebuild,
+  -firefox-43.0.ebuild, -firefox-44.0.ebuild, +firefox-44.0.2.ebuild:
+  bump esr and latest testing for security bug
+

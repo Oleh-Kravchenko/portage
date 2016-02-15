@@ -166,3 +166,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*dos2unix-7.3.3 (14 Feb 2016)
+
+  14 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> +dos2unix-7.3.3.ebuild:
+  Bump to version 7.3.3
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  14 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> -dos2unix-7.3.1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
