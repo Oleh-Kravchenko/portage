@@ -63,3 +63,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*link-grammar-5.3.3 (14 Feb 2016)
+
+  14 Feb 2016; Dennis Lamm <expeditioneer@gentoo.org>
+  +link-grammar-5.3.3.ebuild, metadata.xml:
+  dev-libs/link grammar: added new ebuild for 5.3.3
+
+  Package-Manager: portage-2.2.26
+

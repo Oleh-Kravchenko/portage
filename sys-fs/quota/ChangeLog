@@ -85,3 +85,27 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*quota-4.03 (15 Feb 2016)
+
+  15 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/quota-4.03-default_fpic_fpie.patch,
+  +files/quota-4.03-distribute_ldap-scripts.patch,
+  +files/quota-4.03-dont_override_cflags.patch,
+  +files/quota-4.03-explicitely_print_disabled_options.patch,
+  +files/quota-4.03-fix_build_without_ldap.patch,
+  +files/quota-4.03-no_rpc.patch, +files/quota-4.03-noldap_linking.patch,
+  +files/quota-4.03-repqouta_F_option_arg.patch,
+  +files/quota-4.03-respect_docdir.patch, +quota-4.03.ebuild:
+  Bump to version 4.03
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  15 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/quota-4.01-cflags.patch, -files/quota-4.01-mnt.patch,
+  -quota-4.01.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

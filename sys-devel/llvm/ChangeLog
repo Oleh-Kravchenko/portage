@@ -476,3 +476,11 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+*llvm-3.8.0_rc2 (15 Feb 2016)
+
+  15 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org> -llvm-3.8.0_rc1.ebuild,
+  +llvm-3.8.0_rc2.ebuild:
+  release candidate bump
+
+  Package-Manager: portage-2.2.27
+

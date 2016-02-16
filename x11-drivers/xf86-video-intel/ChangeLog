@@ -148,3 +148,19 @@
 
   Package-Manager: portage-2.2.27
 
+*xf86-video-intel-2.99.917_p20160213 (14 Feb 2016)
+
+  14 Feb 2016; Manuel Rüger <mrueg@gentoo.org> metadata.xml,
+  +xf86-video-intel-2.99.917_p20160213.ebuild:
+  Update snapshot. Add dri3 support. Fix deps.
+
+  Gentoo-Bugs: 574732 572880 565506
+
+  Package-Manager: portage-2.2.27
+
+  15 Feb 2016; Patrick Lauer <patrick@gentoo.org>
+  xf86-video-intel-2.99.917_p20160213.ebuild:
+  Whitespace
+
+  Package-Manager: portage-2.2.27
+

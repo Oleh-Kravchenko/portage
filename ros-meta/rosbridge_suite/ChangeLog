@@ -33,3 +33,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*rosbridge_suite-0.7.14 (15 Feb 2016)
+
+  15 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  +rosbridge_suite-0.7.14.ebuild:
+  Bump to 0.7.14.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

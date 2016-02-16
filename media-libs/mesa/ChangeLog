@@ -374,3 +374,23 @@
 
   Bug: https://bugs.gentoo.org/574070
 
+*mesa-11.1.2 (14 Feb 2016)
+
+  14 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +mesa-11.1.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+*mesa-11.0.9 (14 Feb 2016)
+
+  14 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +mesa-11.0.9.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  14 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -mesa-11.0.7.ebuild,
+  -mesa-11.1.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

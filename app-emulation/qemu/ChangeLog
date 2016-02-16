@@ -479,3 +479,24 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Feb 2016; Doug Goldstein <cardoe@gentoo.org>
+  -files/qemu-1.7.0-cflags.patch, -files/qemu-2.4-mips-fix-mtc0.patch,
+  -files/qemu-2.4-mips-fix-rdhwr.patch,
+  -files/qemu-2.4-mips-move-interrupts-new-func.patch,
+  -files/qemu-2.4-mips-wake-up-on-irq.patch,
+  -files/qemu-2.4.1-CVE-2015-7504.patch,
+  -files/qemu-2.4.1-CVE-2015-7512.patch,
+  -files/qemu-2.4.1-CVE-2015-7549.patch,
+  -files/qemu-2.4.1-CVE-2015-8345.patch,
+  -files/qemu-2.4.1-CVE-2015-8504.patch, -qemu-2.4.1-r2.ebuild,
+  -qemu-2.5.0.ebuild:
+  remove vulnerable versions
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  15 Feb 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag description from metadata.xml
+
+  Package-Manager: portage-2.2.27
+

@@ -76,3 +76,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  14 Feb 2016; James Le Cuirot <chewi@gentoo.org> cacao-0.99.4.ebuild:
+  Drop ~ppc64 keyword as it no longer builds
+
+  This version is ancient but amd64 still seems okay.
+
+  Package-Manager: portage-2.2.27
+

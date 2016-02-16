@@ -255,3 +255,12 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Feb 2016; James Le Cuirot <chewi@gentoo.org> webkit-gtk-2.4.9.ebuild,
+  webkit-gtk-2.4.9-r200.ebuild:
+  Allow Ruby 2.3 when building 2.4.9 wrt #573714
+
+  No revbump because it's a build time only change and Ruby 2.3 isn't
+  stable anyway.
+
+  Package-Manager: portage-2.2.27
+

@@ -149,3 +149,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -puppetdb-3.2.2.ebuild:
+  removing old
+
+  Package-Manager: portage-2.2.26
+

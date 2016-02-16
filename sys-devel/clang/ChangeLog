@@ -188,3 +188,11 @@
 
   Package-Manager: portage-2.2.27
 
+*clang-3.8.0_rc2-r100 (15 Feb 2016)
+
+  15 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  -clang-3.8.0_rc1-r100.ebuild, +clang-3.8.0_rc2-r100.ebuild:
+  sys-devel/llvm: release candidate bump
+
+  Package-Manager: portage-2.2.27
+

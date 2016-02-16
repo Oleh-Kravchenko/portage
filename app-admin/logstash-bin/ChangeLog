@@ -140,3 +140,10 @@
 
   Package-Manager: portage-2.2.27
 
+*logstash-bin-2.2.1 (15 Feb 2016)
+
+  15 Feb 2016; Tomas Mozes <hydrapolic@gmail.com> +logstash-bin-2.2.1.ebuild:
+  version bump to 2.2.1
+
+  Package-Manager: portage-2.2.27
+

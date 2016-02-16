@@ -73,3 +73,10 @@
 
   Package-Manager: portage-2.2.26
 
+*megatools-1.9.97 (15 Feb 2016)
+
+  15 Feb 2016; Yixun Lan <dlan@gentoo.org> +megatools-1.9.97.ebuild:
+  version bump 1.9.97
+
+  Package-Manager: portage-2.2.27
+

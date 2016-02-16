@@ -82,3 +82,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*hwloc-1.11.2 (15 Feb 2016)
+
+  15 Feb 2016; Justin Bronder <jsbronder@gentoo.org> +hwloc-1.11.2.ebuild:
+  bump 1.11.2 (#561224)
+
+  Package-Manager: portage-2.2.26
+

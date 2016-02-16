@@ -57,3 +57,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*vmtouch-1.0.2 (15 Feb 2016)
+
+  15 Feb 2016; Yixun Lan <dlan@gentoo.org> +vmtouch-1.0.2.ebuild:
+  version bump 1.0.2
+
+  Package-Manager: portage-2.2.27
+
+  15 Feb 2016; Yixun Lan <dlan@gentoo.org> -vmtouch-0.8.0.ebuild:
+  drop old 0.8.0
+
+  Package-Manager: portage-2.2.27
+

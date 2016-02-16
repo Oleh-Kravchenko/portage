@@ -76,3 +76,10 @@
 
   Package-Manager: portage-2.2.26
 
+*qu-prolog-9.7 (15 Feb 2016)
+
+  15 Feb 2016; Keri Harris <keri@gentoo.org> +qu-prolog-9.7.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

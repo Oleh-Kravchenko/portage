@@ -90,3 +90,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*ocaml-ipaddr-2.7.0 (15 Feb 2016)
+
+  15 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  +ocaml-ipaddr-2.7.0.ebuild:
+  bump to 2.7.0
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

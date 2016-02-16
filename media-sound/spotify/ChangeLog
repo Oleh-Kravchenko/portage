@@ -174,3 +174,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -spotify-0.9.17.1-r1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.26
+

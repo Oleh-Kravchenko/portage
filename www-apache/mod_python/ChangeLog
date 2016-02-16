@@ -66,3 +66,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mod_python-3.5.0-r1 (15 Feb 2016)
+
+  15 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/mod_python-3.5.0-version.patch, +mod_python-3.5.0-r1.ebuild:
+  fix version generation #531154
+

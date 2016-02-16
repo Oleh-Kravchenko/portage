@@ -905,3 +905,11 @@
 
   Package-Manager: portage-2.2.26
 
+*gentoo-sources-3.12.54 (15 Feb 2016)
+
+  15 Feb 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.12.54.ebuild:
+  Linux patch 3.12.54
+
+  Package-Manager: portage-2.2.26
+

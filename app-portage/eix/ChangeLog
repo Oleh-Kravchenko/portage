@@ -201,3 +201,13 @@
 
   Package-Manager: portage-2.2.27
 
+*eix-0.31.7-r1 (14 Feb 2016)
+
+  14 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +eix-0.31.7-r1.ebuild,
+  metadata.xml:
+  Add support for required-use
+
+  Thanks to Martin Väth
+
+  Package-Manager: portage-2.2.27
+

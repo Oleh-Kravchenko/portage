@@ -246,3 +246,15 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*git-sources-4.5_rc4 (15 Feb 2016)
+
+  15 Feb 2016; Mike Pagano <mpagano@gentoo.org> +git-sources-4.5_rc4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+
+  15 Feb 2016; Mike Pagano <mpagano@gentoo.org> git-sources-4.5_rc4.ebuild:
+  Fix header
+
+  Package-Manager: portage-2.2.26
+

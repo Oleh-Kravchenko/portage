@@ -143,3 +143,16 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Feb 2016; Sergey Popov <pinkbyte@gentoo.org> ganeti-2.10.5-r4.ebuild,
+  ganeti-2.11.6-r2.ebuild:
+  old versions does not build with GHC 7.8 and above
+
+  Package-Manager: portage-2.2.26
+
+  15 Feb 2016; Sergey Popov <pinkbyte@gentoo.org> ganeti-2.11.6-r2.ebuild:
+  amd64/x86 stable
+
+  Gentoo-Bug: 519730
+
+  Package-Manager: portage-2.2.27
+

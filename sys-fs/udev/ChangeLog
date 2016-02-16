@@ -194,3 +194,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*udev-229 (15 Feb 2016)
+
+  15 Feb 2016; William Hubbs <williamh@gentoo.org> +udev-229.ebuild:
+  version bump to 229
+
+  15 Feb 2016; William Hubbs <williamh@gentoo.org> udev-229.ebuild:
+  do not use gold linker
+
+  https://bugs.gentoo.org/show_bug.cgi?id=573874
+
+  15 Feb 2016; William Hubbs <williamh@gentoo.org> udev-9999.ebuild:
+  sync live ebuild
+

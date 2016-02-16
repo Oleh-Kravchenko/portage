@@ -36,3 +36,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*filebeat-bin-1.1.1 (15 Feb 2016)
+
+  15 Feb 2016; Tomas Mozes <hydrapolic@gmail.com> filebeat-bin-1.0.1.ebuild,
+  +filebeat-bin-1.1.1.ebuild:
+  bump to version 1.1.1
+
+  Package-Manager: portage-2.2.27
+

@@ -301,3 +301,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*openrc-0.20.5 (15 Feb 2016)
+
+  15 Feb 2016; William Hubbs <williamh@gentoo.org> +openrc-0.20.5.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

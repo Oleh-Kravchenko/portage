@@ -478,3 +478,11 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Feb 2016; Jeroen Roovers <jer@gentoo.org> postgresql-9.1.20.ebuild,
+  postgresql-9.2.15.ebuild, postgresql-9.3.11.ebuild, postgresql-9.4.6.ebuild,
+  postgresql-9.5.1.ebuild:
+  Stable for HPPA (bug #574456).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

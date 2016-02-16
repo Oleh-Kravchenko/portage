@@ -370,3 +370,64 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  15 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> ffmpeg-9999.ebuild:
+  Converted live ebuild to EAPI-6.
+
+  That also requires to use git-r3.eclass from now on.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  15 Feb 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  do not build doc for non-native abis; they are overwritten when installed
+  anyway.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  15 Feb 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  let the build system install and decide whether to install docs.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  15 Feb 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  docs are built with texinfo html support these days, texi2html is
+  deprecated.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  15 Feb 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  drop examples useflag; they are installed in /usr/share/ffmpeg/examples by
+  the build system and there is no way to disable it.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  15 Feb 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  revert libressl changes in live ebuild.
+
+  Those do not work properly, bug #569818 and there is no activity on said
+  bug.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  15 Feb 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  depend unconditionally on pkgconfig.
+
+  Some deps were missing their pkgconfig dep, and it is not worth maintaining
+  it for something that is installed in almost every system.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+*ffmpeg-3.0 (15 Feb 2016)
+
+  15 Feb 2016; Alexis Ballier <aballier@gentoo.org> +ffmpeg-3.0.ebuild:
+  bump to 3.0
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

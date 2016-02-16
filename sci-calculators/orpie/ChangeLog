@@ -79,3 +79,18 @@
 
   Package-Manager: portage-2.2.27
 
+*orpie-1.5.2-r1 (14 Feb 2016)
+
+  14 Feb 2016; David Seifert <soap@gentoo.org> +orpie-1.5.2-r1.ebuild:
+  Change dep from dev-ml/ocamlgsl to dev-ml/gsl-ocaml
+
+  Gentoo-Bug: 574564
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --force
+
+  14 Feb 2016; David Seifert <soap@gentoo.org> orpie-1.5.2-r1.ebuild:
+  Drop KEYWORDS until dev-ml/gsl-ocaml is keyworded
+
+  Package-Manager: portage-2.2.27
+
