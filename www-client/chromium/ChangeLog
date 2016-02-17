@@ -661,3 +661,11 @@
 
   Package-Manager: portage-2.2.27_p57
 
+*chromium-48.0.2564.109 (16 Feb 2016)
+
+  16 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-48.0.2564.109.ebuild:
+  Stable channel bump (48.0.2564.109)
+
+  Package-Manager: portage-2.2.27_p15
+

@@ -90,3 +90,18 @@
 
   Package-Manager: portage-2.2.26
 
+*iperf-3.1.2 (16 Feb 2016)
+
+  16 Feb 2016; Jeroen Roovers <jer@gentoo.org> +files/iperf3.initd,
+  -iperf-3.1_beta3.ebuild, +iperf-3.1.2.ebuild:
+  Version bump.
+
+   Add init.d/conf.d scripts for iamben
+
+  Package-Manager: portage-2.2.27
+
+  16 Feb 2016; Jeroen Roovers <jer@gentoo.org> iperf-2.0.5-r2.ebuild:
+  Drop unused base.eclass
+
+  Package-Manager: portage-2.2.27
+

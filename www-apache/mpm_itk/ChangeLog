@@ -74,3 +74,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mpm_itk-2.4.7_p4 (16 Feb 2016)
+
+  16 Feb 2016; Michael Orlitzky <mjo@gentoo.org> -mpm_itk-2.4.7_p3.ebuild,
+  +mpm_itk-2.4.7_p4.ebuild:
+  version bump 2.4.7_p3 -> 2.4.7_p4 and EAPI bump 5 -> 6.
+
+  Package-Manager: portage-2.2.26
+

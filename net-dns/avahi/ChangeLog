@@ -158,3 +158,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*avahi-0.6.32 (16 Feb 2016)
+
+  16 Feb 2016; Anthony G. Basile <blueness@gentoo.org>
+  -avahi-0.6.32_rc.ebuild, +avahi-0.6.32.ebuild:
+  version bump 0.6.32, drop rc.
+
+  Package-Manager: portage-2.2.26
+

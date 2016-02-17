@@ -271,3 +271,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*glibc-2.21-r2 (16 Feb 2016)
+
+  16 Feb 2016; Mike Frysinger <vapier@gentoo.org> +glibc-2.21-r2.ebuild:
+  misc upstream fixes
+
+*glibc-2.22-r2 (16 Feb 2016)
+
+  16 Feb 2016; Mike Frysinger <vapier@gentoo.org> +glibc-2.22-r2.ebuild:
+  misc upstream fixes
+

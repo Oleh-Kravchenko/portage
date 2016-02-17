@@ -67,3 +67,30 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  16 Feb 2016; Hans de Graaff <graaff@gentoo.org> -rb-gsl-1.16.0.3.ebuild,
+  -rb-gsl-1.16.0.4.ebuild, -rb-gsl-1.16.0.5.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+  16 Feb 2016; Hans de Graaff <graaff@gentoo.org> rb-gsl-1.16.0.6.ebuild:
+  fix broken narray patch
+
+  Rework narray sed script to work with the current version of
+  the extconf.rb script.
+
+  Package-Manager: portage-2.2.26
+
+  16 Feb 2016; Hans de Graaff <graaff@gentoo.org> metadata.xml:
+  update upstream remote-id
+
+  Package-Manager: portage-2.2.26
+
+  16 Feb 2016; Hans de Graaff <graaff@gentoo.org> rb-gsl-1.16.0.6.ebuild:
+  update gsl dependency, bug 574742
+
+  Update dependency on sci-libs/gsl to only include versions
+  that work. Currently gsl-2.1 is no longer compatible.
+
+  Package-Manager: portage-2.2.26
+

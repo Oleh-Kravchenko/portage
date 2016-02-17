@@ -72,3 +72,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  16 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  lxdream-0.9.1-r2.ebuild:
+  EAPI=5; fix underlinking (bug #369323)
+
+  Package-Manager: portage-2.2.26
+
+  16 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  lxdream-0.9.1-r2.ebuild:
+  add slot dep for media-libs/libpng
+
+  Package-Manager: portage-2.2.26
+

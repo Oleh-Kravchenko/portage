@@ -352,3 +352,12 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+  16 Feb 2016; Doug Goldstein <cardoe@gentoo.org> xen-tools-4.6.0-r8.ebuild:
+  enable USE=qemu-traditional by default
+
+  To avoid breaking people, enable USE=qemu-traditional by default so that
+  xen-tools behaves like it has in the past.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

@@ -67,3 +67,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  16 Feb 2016; Jason A. Donenfeld <zx2c4@gentoo.org> metadata.xml,
+  speedtest-cli-0.3.4.ebuild:
+  Support Python 3.5, cosmetic fixes
+
+  Package-Manager: portage-2.2.27
+

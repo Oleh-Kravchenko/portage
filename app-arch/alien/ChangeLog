@@ -67,3 +67,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*alien-8.95 (16 Feb 2016)
+
+  16 Feb 2016; Patrice Clement <monsieurp@gentoo.org> +alien-8.95.ebuild,
+  metadata.xml:
+  Version bump.
+
+  Package-Manager: portage-2.2.26
+
+  16 Feb 2016; Patrice Clement <monsieurp@gentoo.org> alien-8.95.ebuild:
+  Stable for amd64. Fixes bug 574876.
+
+  Package-Manager: portage-2.2.26
+

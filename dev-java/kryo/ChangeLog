@@ -76,3 +76,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*kryo-2.24.0 (16 Feb 2016)
+
+  16 Feb 2016; Patrice Clement <monsieurp@gentoo.org> +kryo-2.24.0.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.26
+
+  16 Feb 2016; Patrice Clement <monsieurp@gentoo.org> -kryo-1.05.ebuild,
+  -kryo-2.21.ebuild, -kryo-2.22.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+

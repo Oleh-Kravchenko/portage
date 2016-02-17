@@ -106,3 +106,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -alienarena-20120629.ebuild, -files/alienarena-20120629-nodocs.patch:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

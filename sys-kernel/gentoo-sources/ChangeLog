@@ -913,3 +913,23 @@
 
   Package-Manager: portage-2.2.26
 
+*gentoo-sources-4.1.18 (16 Feb 2016)
+
+  16 Feb 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.1.18.ebuild:
+  Linux patch 4.1.18
+
+  Package-Manager: portage-2.2.26
+
+*gentoo-sources-3.18.27 (16 Feb 2016)
+
+  16 Feb 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.18.27.ebuild:
+  Linux patch 3.18.27
+
+  Package-Manager: portage-2.2.26
+
+  16 Feb 2016; Mike Pagano <mpagano@gentoo.org> gentoo-sources-3.18.27.ebuild:
+  Fix header
+
+  Package-Manager: portage-2.2.26
+

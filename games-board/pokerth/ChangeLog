@@ -72,3 +72,9 @@
 
   Package-Manager: portage-2.2.26
 
+  16 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  pokerth-1.1.1-r1.ebuild:
+  dev-qt/qtnetwork is always needed
+
+  Package-Manager: portage-2.2.26
+

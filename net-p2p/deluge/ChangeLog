@@ -106,3 +106,33 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> -deluge-1.3.6.ebuild:
+  remove old
+
+  16 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> files/deluged.conf,
+  files/deluged.init:
+  add umask values to openrc script (Fixes bug #566862)
+
+  Thanks to Scott Jones <morbidsvt@gmail.com>
+
+  16 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> files/deluged.init:
+  unquote ${DELUGED_OPTS} in openrc init file
+
+  Fixes bug #437350. Thanks to Alex Belykh <albel727@ngs.ru>
+
+  16 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> files/deluged.init:
+  Use "/run" instead of "/var/run" for pidfiles
+
+  Fixes bug #468340
+
+  16 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> files/deluged.init:
+  fix bug #468340 for real, this time
+
+*deluge-1.3.12-r1 (16 Feb 2016)
+
+  16 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  +deluge-1.3.12-r1.ebuild:
+  New revision
+
+  Package-Manager: portage-2.2.27
+

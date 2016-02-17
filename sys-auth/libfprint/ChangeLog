@@ -101,3 +101,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libfprint-0.6.0-r2 (16 Feb 2016)
+
+  16 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/libfprint-0.6.0-fix-udev-rules.patch, +libfprint-0.6.0-r2.ebuild:
+  Security revbump fixing broken udev rule (bug #562218).
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  16 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -libfprint-0.6.0-r1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

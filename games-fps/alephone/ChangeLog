@@ -103,3 +103,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -alephone-20100424.ebuild, -files/alephone-20100424-boost_145.patch,
+  -files/alephone-20100424-gcc47.patch, -files/alephone-20100424-png15.patch:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

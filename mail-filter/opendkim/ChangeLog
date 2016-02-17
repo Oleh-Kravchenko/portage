@@ -83,3 +83,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Feb 2016; Eray Aslan <eras@gentoo.org> -opendkim-2.9.2-r1.ebuild,
+  -opendkim-2.9.3.ebuild, -opendkim-2.10.0.ebuild, -opendkim-2.10.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+

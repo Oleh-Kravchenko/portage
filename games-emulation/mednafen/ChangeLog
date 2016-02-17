@@ -89,3 +89,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/mednafen-0.9.38.4-automake-1.13.patch,
+  -files/mednafen-0.9.38.4-cflags.patch, -files/mednafen-0.9.38.4-zlib.patch,
+  -mednafen-0.9.38.4.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

@@ -27,3 +27,14 @@
 
   Package-Manager: portage-2.2.26
 
+*with-editor-2.5.0-r2 (16 Feb 2016)
+
+  16 Feb 2016; Hans de Graaff <graaff@gentoo.org>
+  +with-editor-2.5.0-r2.ebuild:
+  fix bug 574784
+
+  Add missing dependency on app-emacs/dash. Thanks to
+  Thoralf Förster for reporting.
+
+  Package-Manager: portage-2.2.26
+

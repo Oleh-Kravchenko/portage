@@ -101,3 +101,14 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org> -s25rttr-0.8.1.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+
+  16 Feb 2016; Tupone Alfredo <tupone@gentoo.org>
+  +files/s25rttr-0.8.1-format.patch, s25rttr-0.8.1-r1.ebuild:
+  compile with format-security. Bug #540636
+
+  Package-Manager: portage-2.2.26
+

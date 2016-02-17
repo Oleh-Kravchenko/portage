@@ -275,3 +275,15 @@
   cups-filters-1.8.1-r1.ebuild:
   update one more ghostscript->postscript usage
 
+*cups-filters-1.8.2 (15 Feb 2016)
+
+  15 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +cups-filters-1.8.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  15 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -cups-filters-1.4.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

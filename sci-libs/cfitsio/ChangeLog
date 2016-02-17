@@ -64,3 +64,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cfitsio-3.38 (15 Feb 2016)
+
+  15 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> +cfitsio-3.38.ebuild:
+  version bump (reversioned to match upstream)
+
+  Package-Manager: portage-2.2.27
+

@@ -18,3 +18,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  16 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  ppx_assert-113.24.00.ebuild:
+  fix description
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

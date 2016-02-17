@@ -60,3 +60,23 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+*torrentzip-0.2-r9 (14 Feb 2016)
+
+  14 Feb 2016; Malcolm Lashley <mlashley@gmail.com>
+  +files/fix-function-declarations.patch, +torrentzip-0.2-r9.ebuild:
+  Updated to pull upstream snapshot, fix #514634
+
+  15 Feb 2016; Malcolm Lashley <mlashley@gmail.com> torrentzip-0.2-r9.ebuild:
+  Updated to pull upstream snapshot, fix #514634, EAPI5 bump
+
+*torrentzip-0.2-r2 (16 Feb 2016)
+
+  16 Feb 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/fix-function-declarations.patch, -files/fix-perms.patch,
+  +files/torrentzip-0.2-fix-function-declarations.patch,
+  -torrentzip-0.2-r1.ebuild, +torrentzip-0.2-r2.ebuild,
+  -torrentzip-0.2-r9.ebuild:
+  Get EAPI 5 bump right. Remove useless patch. Fix QA warnings.
+
+  Package-Manager: portage-2.2.26
+

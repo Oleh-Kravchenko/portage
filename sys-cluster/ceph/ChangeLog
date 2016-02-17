@@ -165,3 +165,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  16 Feb 2016; Yixun Lan <dlan@gentoo.org> ceph-9.2.0.ebuild,
+  ceph-10.0.0.ebuild, files/README.gentoo:
+  warn user about permission changes
+
+  Gentoo-bug: 574792
+
+  Package-Manager: portage-2.2.27
+

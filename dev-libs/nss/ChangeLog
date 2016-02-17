@@ -216,3 +216,27 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+*nss-3.22 (15 Feb 2016)
+
+  15 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> +nss-3.22.ebuild:
+  Bump to version 3.22
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  15 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> -nss-3.19.2.ebuild,
+  -nss-3.21.ebuild, -nss-3.21-r1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  16 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> nss-3.22.ebuild:
+  checkcert has been removed in 3.22 (bug #574848).
+
+  Thanks to Alexander Y. Fomichev for providing the background information
+  and a fix via email.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

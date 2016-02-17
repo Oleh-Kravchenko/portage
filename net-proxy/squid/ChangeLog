@@ -139,3 +139,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*squid-3.5.14 (16 Feb 2016)
+
+  16 Feb 2016; Eray Aslan <eras@gentoo.org> +squid-3.5.14.ebuild:
+  security bump - bug 574868
+
+  Package-Manager: portage-2.2.27
+

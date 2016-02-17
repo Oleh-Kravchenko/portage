@@ -48,3 +48,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Feb 2016; Nick Sarnie <commendsarnex@gmail.com>
+  virglrenderer-9999.ebuild:
+  Update git repository for 9999
+
+  Signed-off-by: Nick Sarnie <commendsarnex@gmail.com>
+

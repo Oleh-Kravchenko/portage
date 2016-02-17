@@ -73,3 +73,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ejabberd-16.01 (15 Feb 2016)
+
+  15 Feb 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +ejabberd-16.01.ebuild,
+  +files/ejabberd-16.01-ejabberdctl.patch, metadata.xml:
+  Bump version
+
+  Commit on behalf of Vadim Efimov <evadim@evadim.ru>.  Clean up a bit the
+  ebuild attached to the bug report. Rebase ejabberdctl patch from
+  previous version over the new version.
+
+  Gentoo-Bug: 549724
+
+  Package-Manager: portage-2.2.27
+

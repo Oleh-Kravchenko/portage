@@ -93,3 +93,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  16 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  -xml-xmlbeans-1.0.4_pre20041217.ebuild:
+  Remove old
+
+  This is the only stable version but SLOT 1, or perhaps even the whole
+  package, is about to go away. The only revdeps are older versions of
+  isabelle, which has never been stable.
+
+  Package-Manager: portage-2.2.27
+
+  16 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  xml-xmlbeans-1.0.4_pre20041217-r1.ebuild:
+  Drop ~arm and ~ppc64 keywords on SLOT 1
+
+  This SLOT will go away soon but dropping these keywords early allows
+  us to stabilise Java 8 on these architectures.
+
+  Package-Manager: portage-2.2.27
+
