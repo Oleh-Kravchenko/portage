@@ -57,3 +57,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*openvpn-blacklist-0.5 (17 Feb 2016)
+
+  17 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +openvpn-blacklist-0.5.ebuild:
+  Version bump
+
+  Gentoo-Bug: 451314
+
+  Package-Manager: portage-2.2.27
+

@@ -58,3 +58,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ocl-icd-2.2.8 (18 Feb 2016)
+
+  18 Feb 2016; Patrick Lauer <patrick@gentoo.org> +ocl-icd-2.2.8.ebuild:
+  Bump #575020
+
+  Package-Manager: portage-2.2.27
+

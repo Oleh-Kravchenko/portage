@@ -76,3 +76,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*demjson-2.2.4 (18 Feb 2016)
+
+  18 Feb 2016; Patrick Lauer <patrick@gentoo.org> +demjson-2.2.4.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

@@ -73,3 +73,7 @@
   +files/setools-3.3.8-policy-max.patch, setools-3.3.8-r7.ebuild:
   fix cross-compiling
 
+  18 Feb 2016; Mike Frysinger <vapier@gentoo.org> setools-3.3.8-r7.ebuild,
+  setools-9999.ebuild:
+  selinux: initial arm/arm64/mips support
+

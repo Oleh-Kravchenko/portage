@@ -84,3 +84,10 @@
 
   Package-Manager: portage-2.2.26
 
+*rack-attack-4.4.1 (18 Feb 2016)
+
+  18 Feb 2016; Hans de Graaff <graaff@gentoo.org> +rack-attack-4.4.1.ebuild:
+  add 4.4.1
+
+  Package-Manager: portage-2.2.26
+

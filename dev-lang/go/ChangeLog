@@ -206,3 +206,20 @@
 
   Package-Manager: portage-2.2.27
 
+*go-1.6 (18 Feb 2016)
+
+  18 Feb 2016; Patrick Lauer <patrick@gentoo.org> -go-1.6_rc1.ebuild,
+  -go-1.6_rc2.ebuild, +go-1.6.ebuild:
+  Bump to 1.6
+
+  Package-Manager: portage-2.2.27
+
+*go-1.6-r1 (18 Feb 2016)
+
+  18 Feb 2016; William Hubbs <williamh@gentoo.org> +go-1.6-r1.ebuild:
+  1.6-r1 bump for eapi 6 and misc directory
+
+  These changes were in the live ebuild and planned for go-1.6.
+  This revision cleans up the installation of /usr/lib/go/misc and
+  migrates to eapi 6.
+

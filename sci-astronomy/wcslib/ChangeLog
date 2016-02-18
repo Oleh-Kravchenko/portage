@@ -74,3 +74,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -wcslib-4.21.ebuild,
+  -wcslib-4.22.ebuild, -wcslib-4.23.ebuild:
+  removed old
+
+  Package-Manager: portage-2.2.27
+
+*wcslib-5.14 (18 Feb 2016)
+
+  18 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> metadata.xml,
+  +wcslib-5.14.ebuild:
+  sci-astronly/wcslib: version bump
+
+  Package-Manager: portage-2.2.27
+

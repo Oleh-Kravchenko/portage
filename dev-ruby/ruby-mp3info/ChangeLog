@@ -89,3 +89,16 @@
 
   Package-Manager: portage-2.2.26
 
+*ruby-mp3info-0.8.9 (17 Feb 2016)
+
+  17 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +ruby-mp3info-0.8.9.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -ruby-mp3info-0.8.6.ebuild,
+  -ruby-mp3info-0.8.7.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

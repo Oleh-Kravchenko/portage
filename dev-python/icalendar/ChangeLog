@@ -77,3 +77,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*icalendar-3.9.2 (18 Feb 2016)
+
+  18 Feb 2016; Patrick Lauer <patrick@gentoo.org> +icalendar-3.9.2.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

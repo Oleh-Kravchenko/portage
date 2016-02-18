@@ -173,3 +173,9 @@
 
   Package-Manager: portage-2.2.27
 
+  18 Feb 2016; Yixun Lan <dlan@gentoo.org> ceph-9.2.0.ebuild,
+  ceph-10.0.0.ebuild:
+  fix missing inherit versionator eclass
+
+  Package-Manager: portage-2.2.27
+

@@ -88,3 +88,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  18 Feb 2016; Alexis Ballier <aballier@gentoo.org> ocaml-re-1.5.0.ebuild:
+  disable doc building as it does not build. Bug #574572.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

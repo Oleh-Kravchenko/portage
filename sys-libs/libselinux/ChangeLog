@@ -85,3 +85,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 Feb 2016; Mike Frysinger <vapier@gentoo.org> libselinux-2.4.ebuild,
+  libselinux-9999.ebuild:
+  selinux: initial arm/arm64/mips support
+

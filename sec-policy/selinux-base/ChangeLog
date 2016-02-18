@@ -178,3 +178,8 @@
 
   This makes `ekeyword` much easier.
 
+  18 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  selinux-base-2.20151208-r1.ebuild, selinux-base-2.20151208-r2.ebuild,
+  selinux-base-9999.ebuild:
+  add arm/arm64/mips love
+

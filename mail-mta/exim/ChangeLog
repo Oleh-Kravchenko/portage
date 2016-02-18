@@ -166,3 +166,9 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+  18 Feb 2016; Fabian Groffen <grobian@gentoo.org> exim-4.86-r2.ebuild,
+  exim-4.87_rc3.ebuild:
+  require openssl[-bindist], bug #556654
+
+  Package-Manager: portage-2.2.20-prefix
+

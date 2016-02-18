@@ -151,3 +151,16 @@
 
   Package-Manager: portage-2.2.27
 
+*poppler-0.41.0 (18 Feb 2016)
+
+  18 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +poppler-0.41.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  18 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -poppler-0.39.0.ebuild,
+  -poppler-0.40.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

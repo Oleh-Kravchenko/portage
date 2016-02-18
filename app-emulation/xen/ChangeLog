@@ -346,3 +346,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xen-4.6.1 (18 Feb 2016)
+
+  18 Feb 2016; Yixun Lan <dlan@gentoo.org> +xen-4.6.1.ebuild:
+  bump to 4.6.1
+
+  Package-Manager: portage-2.2.27
+
+  18 Feb 2016; Yixun Lan <dlan@gentoo.org> -xen-4.5.2-r2.ebuild,
+  -xen-4.5.2-r3.ebuild, -xen-4.6.0-r5.ebuild, -xen-4.6.0-r6.ebuild,
+  -xen-4.6.0-r7.ebuild:
+  drop old versions
+
+  Package-Manager: portage-2.2.27
+

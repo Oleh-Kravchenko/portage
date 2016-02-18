@@ -321,3 +321,23 @@
 
   Package-Manager: portage-2.2.27
 
+  17 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  tomcat-servlet-api-6.0.44-r1.ebuild:
+  Stable on ppc64 using ALLARCHES policy
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  -tomcat-servlet-api-6.0.44.ebuild:
+  Remove old, closes bug #558728
+
+  Package-Manager: portage-2.2.27
+
+*tomcat-servlet-api-7.0.68 (18 Feb 2016)
+
+  18 Feb 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +tomcat-servlet-api-7.0.68.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

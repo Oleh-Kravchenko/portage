@@ -72,3 +72,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 Feb 2016; Patrice Clement <monsieurp@gentoo.org> jcommander-1.48.ebuild:
+  Stable for amd64+x86. Switch to java-pkg-simple.
+
+  Package-Manager: portage-2.2.26
+
+  18 Feb 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/jcommander-1.32-build.xml, -files/jcommander-1.48-build.xml,
+  -jcommander-1.32.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+

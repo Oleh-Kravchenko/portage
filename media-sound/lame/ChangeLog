@@ -94,3 +94,10 @@
 
   Package-Manager: portage-2.2.27
 
+  17 Feb 2016; Alexis Ballier <aballier@gentoo.org> lame-3.99.5-r1.ebuild,
+  metadata.xml:
+  add frontend useflag to allow lib only build.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

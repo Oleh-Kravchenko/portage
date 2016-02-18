@@ -72,3 +72,7 @@
   boehm-gc-7.4.2.ebuild:
   workaround ia64 build failure #574566
 
+  18 Feb 2016; Mike Frysinger <vapier@gentoo.org> boehm-gc-7.4.0.ebuild,
+  boehm-gc-7.4.2.ebuild:
+  workaround sparc build failure #574566
+

@@ -67,3 +67,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*datashape-0.4.7 (18 Feb 2016)
+
+  18 Feb 2016; Patrick Lauer <patrick@gentoo.org> +datashape-0.4.7.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

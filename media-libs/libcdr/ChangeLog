@@ -85,3 +85,10 @@
 
   Package-Manager: portage-2.2.27
 
+  18 Feb 2016; Michał Górny <mgorny@gentoo.org> libcdr-9999.ebuild:
+  Sync KEYWORDS in the live ebuild
+
+  18 Feb 2016; Michał Górny <mgorny@gentoo.org> libcdr-0.1.2.ebuild,
+  libcdr-9999.ebuild:
+  Make test build optional, add dep on cppunit, #574932
+

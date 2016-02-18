@@ -71,3 +71,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -ast-2.0.0.ebuild,
+  -ast-2.1.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

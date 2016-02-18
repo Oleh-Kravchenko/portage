@@ -484,3 +484,22 @@
 
   Package-Manager: portage-2.2.27
 
+  17 Feb 2016; Michał Górny <mgorny@gentoo.org>
+  files/llvm-3.9-llvm-config.patch:
+  Update the llvm-config for the live version, #574918
+
+  17 Feb 2016; Michał Górny <mgorny@gentoo.org> llvm-3.7.1.ebuild,
+  llvm-3.8.0_rc2.ebuild, llvm-9999.ebuild:
+  Clean up stale ref to outer mycmakeargs
+
+  Clean up the stale and confusing reference to outer mycmakeargs that
+  used to be declared in src_configure() and passed down to
+  multilib_src_configure(). This is no longer the case.
+
+  17 Feb 2016; Michał Górny <mgorny@gentoo.org> llvm-3.8.0_rc2.ebuild,
+  llvm-9999.ebuild:
+  Extend the FreeBSD fix fix to remaining ebuilds
+
+  17 Feb 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Bump the live ebuild to EAPI 6
+

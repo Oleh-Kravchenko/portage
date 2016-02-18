@@ -8,3 +8,9 @@
   +metadata.xml:
   new JACK2 ebuild
 
+  18 Feb 2016; Alexis Ballier <aballier@gentoo.org> metadata.xml:
+  fix typo in use description (thx leio)
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

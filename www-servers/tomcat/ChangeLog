@@ -401,3 +401,11 @@
 
   Package-Manager: portage-2.2.27
 
+*tomcat-7.0.68 (18 Feb 2016)
+
+  18 Feb 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +files/tomcat-7.0.68-build.xml.patch, +tomcat-7.0.68.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

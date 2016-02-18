@@ -37,3 +37,12 @@
 
   Package-Manager: portage-2.2.27
 
+  18 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +files/sope-2.3.2-mysql-preamble.patch, sope-2.3.2.ebuild,
+  sope-3.0.1.ebuild:
+  fix mysql compilation, bug #566138
+
+  Bug report and patch by Russell Knighton <russell@annunaki2k2.co.uk>
+
+  Package-Manager: portage-2.2.27
+

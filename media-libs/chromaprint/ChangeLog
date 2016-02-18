@@ -112,3 +112,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*chromaprint-1.3.1 (18 Feb 2016)
+
+  18 Feb 2016; Alexis Ballier <aballier@gentoo.org> +chromaprint-1.3.1.ebuild:
+  bump to 1.3.1
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

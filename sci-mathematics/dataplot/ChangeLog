@@ -73,3 +73,13 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*dataplot-20131220 (18 Feb 2016)
+
+  18 Feb 2016; Justin Lecher <jlec@gentoo.org> +dataplot-20131220.ebuild,
+  +files/Makefile.am.20131220, files/configure.ac.20090821,
+  +files/configure.ac.20131220, files/dataplot-20090821-opengl.patch:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

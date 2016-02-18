@@ -63,3 +63,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 Feb 2016; Pacho Ramos <pacho@gentoo.org>
+  +files/gromit-20041213-build.patch, gromit-20041213-r1.ebuild:
+  Fix build issues (#369453 by kensington, #552574)
+
+  Package-Manager: portage-2.2.27
+
+  18 Feb 2016; Pacho Ramos <pacho@gentoo.org> gromit-20041213-r1.ebuild:
+  Make repoman happier
+
+  Package-Manager: portage-2.2.27
+

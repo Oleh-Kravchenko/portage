@@ -933,3 +933,18 @@
 
   Package-Manager: portage-2.2.26
 
+*gentoo-sources-3.14.61 (18 Feb 2016)
+
+  18 Feb 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.61.ebuild:
+  Linux patch 3.14.61
+
+  Package-Manager: portage-2.2.26
+
+*gentoo-sources-4.4.2 (18 Feb 2016)
+
+  18 Feb 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.2.ebuild:
+  Linux patch 4.4.2
+
+  Package-Manager: portage-2.2.26
+

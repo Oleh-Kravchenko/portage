@@ -60,3 +60,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*lttng-modules-2.7.1 (18 Feb 2016)
+*lttng-modules-2.6.4 (18 Feb 2016)
+
+  18 Feb 2016; Yixun Lan <dlan@gentoo.org> +lttng-modules-2.6.4.ebuild,
+  +lttng-modules-2.7.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+
+  18 Feb 2016; Yixun Lan <dlan@gentoo.org> -lttng-modules-2.5.0.ebuild,
+  -lttng-modules-2.5.1.ebuild, -lttng-modules-2.6.0_rc1.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.27
+

@@ -1,0 +1,13 @@
+# ChangeLog for media-gfx/valentina
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*valentina-9999 (18 Feb 2016)
+*valentina-0.4.2 (18 Feb 2016)
+
+  18 Feb 2016; Miroslav Šulc <fordfrog@gentoo.org> +files/locales.patch,
+  +metadata.xml, +valentina-0.4.2.ebuild, +valentina-9999.ebuild:
+  new package
+
+  Package-Manager: portage-2.2.27
+

@@ -105,3 +105,16 @@
 
   Package-Manager: portage-2.2.27
 
+*parser-2.3.0.6 (17 Feb 2016)
+
+  17 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +parser-2.3.0.6.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -parser-2.2.3.0.ebuild,
+  -parser-2.3.0.2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

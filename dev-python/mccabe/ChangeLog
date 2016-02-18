@@ -80,3 +80,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*mccabe-0.4.0 (18 Feb 2016)
+
+  18 Feb 2016; Patrick Lauer <patrick@gentoo.org> +mccabe-0.4.0.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

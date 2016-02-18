@@ -154,3 +154,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -astropy-1.0.4.ebuild,
+  -files/astropy-9999-system-pytest.patch:
+  removed old
+
+*astropy-1.1.1 (18 Feb 2016)
+
+  18 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> +astropy-1.1.1.ebuild,
+  +files/astropy-1.1.1-fix-wcs.patch,
+  +files/astropy-1.1.1-mark-kown-failures.patch:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

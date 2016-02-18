@@ -117,3 +117,21 @@
 
   Package-Manager: portage-2.2.27
 
+*icedtea-web-1.6.1-r1 (18 Feb 2016)
+
+  18 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  files/icedtea-web-1.6-respect-ldflags.patch,
+  +files/icedtea-web-1.6-unused-libs.patch, -icedtea-web-1.6.1.ebuild,
+  +icedtea-web-1.6.1-r1.ebuild:
+  Remove unnecessary lib checks, closes #574286
+
+  Also tighten the glib dependency.
+
+  Package-Manager: portage-2.2.27
+
+  18 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  files/icedtea-web-1.6-respect-ldflags.patch:
+  Oops, forgot that ldflags patch was for 1.7
+
+  Package-Manager: portage-2.2.27
+
