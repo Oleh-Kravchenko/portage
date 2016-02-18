@@ -307,3 +307,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  17 Feb 2016; Jeroen Roovers <jer@gentoo.org> numpy-1.10.4.ebuild:
+  Stable for HPPA (bug #572858).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

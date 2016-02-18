@@ -23,7 +23,7 @@ HOMEPAGE="http://www.musl-libc.org/"
 if [[ ${PV} != "9999" ]] ; then
 	PATCH_VER=""
 	SRC_URI="http://www.musl-libc.org/releases/${P}.tar.gz"
-	KEYWORDS="-* ~amd64 ~arm ~mips ~ppc ~x86"
+	KEYWORDS="-* amd64 arm ~mips ~ppc x86"
 fi
 
 LICENSE="MIT LGPL-2 GPL-2"
@@ -31,6 +31,9 @@ SLOT="0"
 IUSE="crosscompile_opts_headers-only"
 
 RDEPEND="!sys-apps/getent"
+
+QA_SONAME="/usr/lib/libc.so"
+QA_DT_NEEDED="/usr/lib/libc.so"
 
 is_crosscompile() {
 	[[ ${CHOST} != ${CTARGET} ]]
@@ -78,7 +81,7 @@ src_configure() {
 }
 
 src_compile() {
-	emake include/bits/alltypes.h
+	emake obj/include/bits/alltypes.h
 	just_headers && return 0
 
 	emake

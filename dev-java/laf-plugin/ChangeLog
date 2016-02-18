@@ -63,3 +63,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*laf-plugin-0.2-r1 (17 Feb 2016)
+
+  17 Feb 2016; Patrice Clement <monsieurp@gentoo.org>
+  +laf-plugin-0.2-r1.ebuild:
+  EAPI 5 bump.
+
+  Force because EAPI 0 ebuilds really need to go.
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --force
+
+  17 Feb 2016; Patrice Clement <monsieurp@gentoo.org> -laf-plugin-0.2.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+

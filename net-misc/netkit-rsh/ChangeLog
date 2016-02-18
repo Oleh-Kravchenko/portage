@@ -66,3 +66,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org> netkit-rsh-0.17-r10.ebuild:
+  fix inverted USE=pam logic #574850
+
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org> netkit-rsh-0.17-r10.ebuild:
+  mark 0.17-r10 m68k stable
+
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org> -netkit-rsh-0.17-r9.ebuild:
+  drop old <0.17-r10 versions
+
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org> netkit-rsh-0.17-r10.ebuild:
+  drop old lzma-utils reference
+

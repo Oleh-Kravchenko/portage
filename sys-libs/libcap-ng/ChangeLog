@@ -142,3 +142,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org> libcap-ng-0.7.7.ebuild:
+  mark 0.7.7 arm64/s390/sh stable
+
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  -files/libcap-ng-0.7.5-add-unistd_h.patch, -libcap-ng-0.6.6.ebuild,
+  -libcap-ng-0.7.3.ebuild, -libcap-ng-0.7.4.ebuild, -libcap-ng-0.7.5.ebuild,
+  -libcap-ng-0.7.6.ebuild:
+  drop old <0.7.7 versions
+

@@ -78,3 +78,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  16 Feb 2016; Ryan Hill <rhill@gentoo.org> creduce-2.4.0.ebuild:
+  Relax llvm SLOT a bit (bug #571188).
+
+  Package-Manager: portage-2.2.27
+

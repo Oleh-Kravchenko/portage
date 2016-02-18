@@ -308,3 +308,8 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Feb 2016; Ian Stakenvicius <axs@gentoo.org> -thunderbird-38.4.0.ebuild:
+  bin}: remove old/vulnerable 38.4.0
+
+  Package-Manager: portage-2.2.26
+

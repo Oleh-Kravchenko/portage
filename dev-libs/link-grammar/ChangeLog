@@ -71,3 +71,9 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Feb 2016; Dennis Lamm <expeditioneer@gentoo.org>
+  link-grammar-5.3.3.ebuild:
+  5.3.3: fixed bug #574872
+
+  Package-Manager: portage-2.2.26
+

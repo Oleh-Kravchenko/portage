@@ -29,3 +29,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sope-3.0.1 (17 Feb 2016)
+
+  17 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org> sope-2.3.2.ebuild,
+  +sope-3.0.1.ebuild:
+  version bump, trim description
+
+  Package-Manager: portage-2.2.27
+

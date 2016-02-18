@@ -153,3 +153,11 @@
   -gvim-7.4.827.ebuild:
   remove old
 
+*gvim-7.4.1342 (17 Feb 2016)
+
+  17 Feb 2016; Ole Reifschneider <tranquility@gentoo.org>
+  +gvim-7.4.1342.ebuild:
+  Bump version to 7.4.1342
+
+  Package-Manager: portage-2.2.27
+

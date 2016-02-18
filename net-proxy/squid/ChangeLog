@@ -146,3 +146,8 @@
 
   Package-Manager: portage-2.2.27
 
+  17 Feb 2016; Eray Aslan <eras@gentoo.org> -squid-3.5.13.ebuild:
+  remove vulnerable version
+
+  Package-Manager: portage-2.2.27
+

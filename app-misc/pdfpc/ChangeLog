@@ -90,3 +90,8 @@
 
   Package-Manager: portage-2.2.27
 
+  16 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -pdfpc-4.0.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

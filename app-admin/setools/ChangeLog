@@ -68,3 +68,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/setools-3.3.8-no-check-file.patch,
+  +files/setools-3.3.8-policy-max.patch, setools-3.3.8-r7.ebuild:
+  fix cross-compiling
+

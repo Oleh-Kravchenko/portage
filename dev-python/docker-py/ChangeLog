@@ -93,3 +93,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*docker-py-1.7.0 (17 Feb 2016)
+
+  17 Feb 2016; Justin Lecher <jlec@gentoo.org> +docker-py-1.7.0.ebuild,
+  metadata.xml:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

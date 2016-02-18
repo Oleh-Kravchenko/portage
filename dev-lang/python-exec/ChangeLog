@@ -143,3 +143,22 @@
   09 Feb 2016; Michał Górny <mgorny@gentoo.org> python-exec-9999.ebuild:
   Update install layout in -9999
 
+  16 Feb 2016; Michał Górny <mgorny@gentoo.org> python-exec-9999.ebuild:
+  9999: Update for another wrapper rename
+
+  16 Feb 2016; Michał Górny <mgorny@gentoo.org> python-exec-9999.ebuild:
+  9999: Use Python wrapper for Python scripts
+
+*python-exec-2.3.1 (16 Feb 2016)
+
+  16 Feb 2016; Michał Górny <mgorny@gentoo.org> -python-exec-2.3.ebuild,
+  +python-exec-2.3.1.ebuild:
+  Update the testing version to 2.3.1
+
+*python-exec-2.3 (17 Feb 2016)
+
+  17 Feb 2016; Fabian Groffen <grobian@gentoo.org> +python-exec-2.3.ebuild:
+  put back 2.3, as 2.3.1 seems to break systems completely
+
+  Package-Manager: portage-2.2.20-prefix
+

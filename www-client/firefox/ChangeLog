@@ -484,3 +484,22 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Feb 2016; Jeroen Roovers <jer@gentoo.org> firefox-38.6.1.ebuild:
+  Stable for HPPA (bug #574596).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  17 Feb 2016; Jeroen Roovers <jer@gentoo.org> firefox-38.6.1.ebuild:
+  Stable for PPC64 (bug #574596).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+
+  17 Feb 2016; Ian Stakenvicius <axs@gentoo.org> firefox-44.0.2.ebuild:
+  44.0.2: bump nss dependency to >=3.21
+
+  Thanks to vthriller on github (sorry i botched the PR)
+
+  Package-Manager: portage-2.2.26
+

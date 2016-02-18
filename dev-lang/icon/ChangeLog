@@ -79,3 +79,19 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*icon-9.5.1 (17 Feb 2016)
+
+  17 Feb 2016; Ian Delaney <idella4@gentoo.org> +files/icon-9.5.1-flags.patch,
+  +icon-9.5.1.ebuild, metadata.xml:
+  bump to vn. 9.5.1
+
+  - updated patch added to match bumped version
+  - patches and unified diffs supplied by Cheyenne Wills,
+  set im metadata as new proxy maintainer under the proxy-maintainers project,
+  cross tested and reviewed within irc channel of the project,
+  fixes the gentoo bug
+
+  Gentoo bug: #500698
+
+  Package-Manager: portage-2.2.26
+

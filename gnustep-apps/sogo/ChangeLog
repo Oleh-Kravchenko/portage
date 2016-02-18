@@ -34,3 +34,10 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*sogo-3.0.1 (17 Feb 2016)
+
+  17 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org> +sogo-3.0.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

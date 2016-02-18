@@ -521,3 +521,13 @@
   of Python 2, and it causes Python 2 to be preferred over non-selected
   versions of Python 3.
 
+  17 Feb 2016; Alexis Ballier <aballier@gentoo.org> python-2.7.11-r2.ebuild,
+  python-3.4.3-r7.ebuild, python-3.5.1-r2.ebuild:
+  2.7,3.4,3.5}: Move epatch_user call before sedding libdir. Bug #574962.
+
+  This allows sharing patches between different architectures where libdir
+  differ.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

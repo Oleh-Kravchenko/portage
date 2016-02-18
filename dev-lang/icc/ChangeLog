@@ -79,3 +79,28 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*icc-15.0.6.233 (17 Feb 2016)
+
+  17 Feb 2016; David Seifert <soap@gentoo.org> +icc-15.0.6.233.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; David Seifert <soap@gentoo.org> -icc-13.0.0.079.ebuild,
+  -icc-13.0.1.117.ebuild, -icc-13.1.2.146.ebuild, -icc-13.1.3.163.ebuild:
+  remove old 2013 ebuilds
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; David Seifert <soap@gentoo.org> -icc-14.0.0.080.ebuild,
+  -icc-14.0.1.106.ebuild, -icc-14.0.2.144.ebuild:
+  remove old 2013 SP1 ebuilds
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; David Seifert <soap@gentoo.org> -icc-15.0.0.090.ebuild,
+  -icc-15.0.1.133.ebuild, -icc-15.0.2.164.ebuild, -icc-15.0.3.187.ebuild:
+  remove old 2015 ebuilds
+
+  Package-Manager: portage-2.2.27
+

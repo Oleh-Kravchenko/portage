@@ -141,3 +141,20 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  selinux-dmidecode-2.20141203-r1.ebuild,
+  selinux-dmidecode-2.20141203-r2.ebuild,
+  selinux-dmidecode-2.20141203-r3.ebuild,
+  selinux-dmidecode-2.20141203-r4.ebuild,
+  selinux-dmidecode-2.20141203-r5.ebuild,
+  selinux-dmidecode-2.20141203-r6.ebuild,
+  selinux-dmidecode-2.20141203-r7.ebuild,
+  selinux-dmidecode-2.20141203-r8.ebuild,
+  selinux-dmidecode-2.20141203-r9.ebuild,
+  selinux-dmidecode-2.20141203-r10.ebuild,
+  selinux-dmidecode-2.20151208-r1.ebuild,
+  selinux-dmidecode-2.20151208-r2.ebuild, selinux-dmidecode-9999.ebuild:
+  sec-policy/*: drop redundant empty KEYWORDS
+
+  This makes `ekeyword` much easier.
+

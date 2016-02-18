@@ -88,3 +88,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/libsemanage-2.4-build-paths.patch, libsemanage-2.4-r2.ebuild,
+  libsemanage-9999.ebuild:
+  fix bad -I/-L flag usage
+
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org> libsemanage-2.4-r2.ebuild,
+  libsemanage-9999.ebuild:
+  improve ROOT handling in pkg_postinst
+
+  Also ignore errors when /etc/selinux/config doesn't exist.
+

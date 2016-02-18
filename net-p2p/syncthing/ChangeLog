@@ -54,3 +54,28 @@
 
   Package-Manager: portage-2.2.26
 
+*syncthing-0.12.19 (17 Feb 2016)
+
+  17 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> +syncthing-0.12.19.ebuild:
+  bump to 0.12.19, add ~x86, re-enable tests
+
+  Tests should no longer fail on x86 since
+  https://github.com/syncthing/syncthing/issues/2765
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> metadata.xml:
+  add myself as maintainer
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> +files/syncthing.confd,
+  +files/syncthing.initd, +files/syncthing.logrotate,
+  syncthing-0.12.19.ebuild:
+  add init script, man, logrotate
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> syncthing-0.12.19.ebuild:
+  disable tests again in 0.12.19, fix hasn't landed yet
+

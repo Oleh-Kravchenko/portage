@@ -38,3 +38,8 @@
   28 Jan 2016; loong0 <longlene@gmail.com> +crystal-0.11.1.ebuild:
   version bump to 0.11.1
 
+*crystal-0.12.0 (17 Feb 2016)
+
+  17 Feb 2016; loong0 <longlene@gmail.com> +crystal-0.12.0.ebuild:
+  version bump to 0.12.0
+

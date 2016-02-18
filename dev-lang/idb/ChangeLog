@@ -74,3 +74,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Feb 2016; David Seifert <soap@gentoo.org> -idb-13.0.0.079.ebuild,
+  -idb-13.0.1.117-r1.ebuild, -idb-13.0.2.146.ebuild, -idb-13.0.3.163.ebuild:
+  remove old 2013 ebuilds
+
+  Package-Manager: portage-2.2.27
+
+  17 Feb 2016; David Seifert <soap@gentoo.org> -idb-14.0.0.080.ebuild,
+  -idb-14.0.1.106.ebuild, -idb-14.0.2.144.ebuild:
+  remove old 2013 SP1 ebuilds
+
+  Package-Manager: portage-2.2.27
+

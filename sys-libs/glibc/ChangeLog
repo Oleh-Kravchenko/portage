@@ -281,3 +281,30 @@
   16 Feb 2016; Mike Frysinger <vapier@gentoo.org> +glibc-2.22-r2.ebuild:
   misc upstream fixes
 
+  17 Feb 2016; Richard Freeman <rich0@gentoo.org> glibc-2.21-r2.ebuild:
+  amd64 stable
+
+  Bug: 574880
+
+  Package-Manager: portage-2.2.26
+
+  17 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> glibc-2.21-r2.ebuild:
+  x86 stable
+
+  Bug: 574880
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  17 Feb 2016; Agostino Sarubbo <ago@gentoo.org> glibc-2.21-r2.ebuild:
+  Stable for alpha/arm/ia64/ppc/ppc64/sparc wrt security bug #574880
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org> glibc-2.21-r2.ebuild:
+  add upstream parallel build fix #574948
+
+  17 Feb 2016; Mike Frysinger <vapier@gentoo.org> glibc-2.21-r2.ebuild:
+  mark arm64/hppa/s390/sh stable #574880
+

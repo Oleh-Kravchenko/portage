@@ -42,6 +42,7 @@
 # Breaks some of its reverse dependencies.
 # Bug 574788
 >=media-video/ffmpeg-3.0
+>=media-video/mplayer-1.3.0
 
 # Michael Palimaka <kensington@gentoo.org> (12 Feb 2016)
 # Fails to build. No revdeps. Masked for removal in 30 days.
@@ -1276,12 +1277,6 @@ net-wireless/madwifi-ng
 # 0.46 until https://bugzilla.gnome.org/682106 is fixed to prevent
 # bluetooth-sendto breakage.
 >=app-mobilephone/obexd-0.47
-
-# Ralph Sennhauser <sera@gentoo.org> (18 Jul 2012)
-# Unmaintained, multiple vulnarabilities. #351626
-# A more recent source build maintained by the community is available in the
-# seden overlay. A more recent binary is available in the java-overlay.
-<=dev-util/eclipse-sdk-3.5.1-r1
 
 # Robin H. Johnson <robbat2@gentoo.org> (09 Feb 2012)
 # Needs to be slotted better

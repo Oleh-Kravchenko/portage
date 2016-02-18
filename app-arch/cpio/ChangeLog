@@ -104,3 +104,9 @@
   +files/cpio-2.12-name-overflow.patch:
   fix small buffer overflow #572428
 
+  17 Feb 2016; Jeroen Roovers <jer@gentoo.org> cpio-2.12-r1.ebuild:
+  Stable for HPPA PPC64 (bug #572428).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

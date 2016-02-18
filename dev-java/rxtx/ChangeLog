@@ -67,3 +67,28 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  -files/rxtx-2.1-7r2-add-ttyACM.diff,
+  -files/rxtx-2.1-7r2-lfd-include-limits.diff, -rxtx-2.1.7.2-r3.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+
+*rxtx-2.2_pre2-r1 (17 Feb 2016)
+
+  17 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  +files/rxtx-2.2_pre2-limits.patch, +rxtx-2.2_pre2-r1.ebuild:
+  Fix USE=lfd issue (#550908), EAPI bump, cleanups
+
+   * lockdaemon.c should include limits.h
+   * app-arch/zip can be implied using JAVA_PKG_IUSE
+   * dev-java/ant-core isn't actually needed
+   * sys-apps/xinetd is an RDEPEND, not DEPEND
+   * Use the correct -source and -target flags
+   * Remove useless elibtoolize
+   * Remove useless sed
+   * Add missing dies
+   * dohtml is bad
+
+  Package-Manager: portage-2.2.27
+

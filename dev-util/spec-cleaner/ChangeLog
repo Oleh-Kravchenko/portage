@@ -72,3 +72,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*spec-cleaner-0.7.8 (17 Feb 2016)
+
+  17 Feb 2016; Tomáš Chvátal <scarabeus@gentoo.org>
+  -spec-cleaner-0.7.2.ebuild, +spec-cleaner-0.7.8.ebuild:
+  Update to 0.7.8 and remove older
+
+  Signed-off-by: Tomáš Chvátal <scarabeus@gentoo.org>
+

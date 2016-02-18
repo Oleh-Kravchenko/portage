@@ -107,3 +107,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  16 Feb 2016; James Le Cuirot <chewi@gentoo.org> -files/icu4j-3.8.1-manifest,
+  -files/icu4j-52.1-fix-test-DataDrivenFormat-ConsistentPivot-1.patch,
+  -files/icu4j-52.1-fix-test-DataDrivenFormat-ConsistentPivot-2.patch,
+  -icu4j-3.8.1-r1.ebuild, -icu4j-4.2.1.1.ebuild, -icu4j-49.1.ebuild,
+  -icu4j-52.1.ebuild, -icu4j-53.1.ebuild:
+  Remove old
+
+  The remaining versions are still used.
+
+  Package-Manager: portage-2.2.27
+

@@ -747,3 +747,22 @@
 
   Package-Manager: portage-2.2.27
 
+  16 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> mpv-9999.ebuild:
+  depend on virtual/jack in 9999 when jack USE is enabled
+
+  Instead of forcing Jack1 in the form of media-sound/jack-audio-connection-
+  kit.
+  Quote from the upstream wiki [0]:
+
+  Jack 1 and Jack 2 are equivalent implementations of the same protocol.
+  ...
+  Programs compiled against Jack 1 will work with Jack 2 without recompile
+  (and vice versa).
+
+  End quote.
+
+  [0]: https://github.com/jackaudio/jackaudio.github.com/wiki/Q_difference_jac
+  k1_jack2
+
+  Package-Manager: portage-2.2.27
+
