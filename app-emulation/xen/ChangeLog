@@ -360,3 +360,16 @@
 
   Package-Manager: portage-2.2.27
 
+*xen-4.6.0-r9 (19 Feb 2016)
+*xen-4.5.2-r5 (19 Feb 2016)
+
+  19 Feb 2016; Ian Delaney <idella4@gentoo.org> +xen-4.5.2-r5.ebuild,
+  +xen-4.6.0-r9.ebuild:
+  revbumps; 4.5.2-r5, 4.6.0-r9
+
+  add sec patches xsa170 wrt the security bug
+
+  Gentoo bug: #574012
+
+  Package-Manager: portage-2.2.26
+

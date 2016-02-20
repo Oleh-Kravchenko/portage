@@ -146,3 +146,33 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  19 Feb 2016; Justin Lecher <jlec@gentoo.org> -aufs3-3_p20150406.ebuild,
+  -aufs3-3_p20150420.ebuild, -aufs3-3_p20150504.ebuild,
+  -aufs3-3_p20150511.ebuild, -aufs3-3_p20150518.ebuild,
+  -aufs3-3_p20150525.ebuild, -aufs3-3_p20150608.ebuild,
+  -aufs3-3_p20151012.ebuild, -aufs3-3_p20151102.ebuild,
+  -aufs3-3_p20151109.ebuild, -aufs3-3_p20151116.ebuild,
+  -aufs3-3_p20151221.ebuild, -aufs3-3_p20160118.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*aufs3-3_p20160219 (19 Feb 2016)
+
+  19 Feb 2016; Justin Lecher <jlec@gentoo.org> -aufs3-3_p20160215.ebuild,
+  +aufs3-3_p20160219.ebuild:
+  Bump to latest aufs release
+
+  * Bump to EAPI=6
+  * Try to wrap lines at 80 chars
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  19 Feb 2016; Justin Lecher <jlec@gentoo.org> aufs3-3_p20160219.ebuild:
+  Fix branch usage for kernel patch level
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

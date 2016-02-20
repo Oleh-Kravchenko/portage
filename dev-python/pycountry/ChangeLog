@@ -104,3 +104,10 @@
 
   Package-Manager: portage-2.2.27
 
+*pycountry-1.20 (19 Feb 2016)
+
+  19 Feb 2016; Patrick Lauer <patrick@gentoo.org> +pycountry-1.20.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

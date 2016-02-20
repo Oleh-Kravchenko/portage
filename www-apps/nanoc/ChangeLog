@@ -85,3 +85,15 @@
 
   Package-Manager: portage-2.2.26
 
+*nanoc-4.1.4-r1 (19 Feb 2016)
+
+  19 Feb 2016; Hans de Graaff <graaff@gentoo.org> +nanoc-4.1.4-r1.ebuild:
+  add adsf dependency
+
+  Add a dependency on www-servers/adsf to allow the
+  "nanoc view" command to work as intended.
+
+  Thanks for Nick Bowler in bug 572938 for the suggestion.
+
+  Package-Manager: portage-2.2.26
+

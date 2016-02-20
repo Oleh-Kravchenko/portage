@@ -64,3 +64,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*source-han-sans-1.001-r1 (19 Feb 2016)
+
+  19 Feb 2016; bobbertson <qewbert@gmail.com>
+  +source-han-sans-1.001-r1.ebuild:
+  Adding use cjk to be consistent with rdep.
+
+  Package-Manager: portage-2.2.26
+

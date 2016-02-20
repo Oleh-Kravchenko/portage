@@ -71,3 +71,10 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Feb 2016; Daniel Pielmeier <billie@gentoo.org> puddletag-1.1.1.ebuild:
+  Remove patch.
+
+  This fixes bug #574648. Thanks to Martin Unzner for the report.
+
+  Package-Manager: portage-2.2.26
+

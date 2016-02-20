@@ -78,3 +78,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xsb-3.6.0 (19 Feb 2016)
+
+  19 Feb 2016; Keri Harris <keri@gentoo.org> +xsb-3.6.0.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+
+  19 Feb 2016; Keri Harris <keri@gentoo.org> xsb-3.6.0.ebuild:
+  respect host config in toplevel xsb-script
+
+  Package-Manager: portage-2.2.26
+
+  19 Feb 2016; Keri Harris <keri@gentoo.org> xsb-3.6.0.ebuild:
+  gcc-5 fixes
+
+  Package-Manager: portage-2.2.26
+

@@ -71,3 +71,11 @@
 
   Package-Manager: portage-2.2.27
 
+  18 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org> radare2-0.10.0.ebuild:
+  don't try to install doc/ subdirs, bug #574866
+
+  Reported-by: Andrey Golovizin
+  Bug: https://bugs.gentoo.org/574866
+
+  Package-Manager: portage-2.2.27
+

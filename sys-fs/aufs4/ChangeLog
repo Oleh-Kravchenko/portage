@@ -150,3 +150,36 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  19 Feb 2016; Justin Lecher <jlec@gentoo.org> -aufs4-0_pre20150420.ebuild,
+  -aufs4-0_pre20150504.ebuild, -aufs4-0_pre20150511.ebuild,
+  -aufs4-0_pre20150518.ebuild, -aufs4-0_pre20150525.ebuild,
+  -aufs4-0_pre20150608.ebuild, -aufs4-0_pre20150622.ebuild,
+  -aufs4-0_pre20150629.ebuild, -aufs4-0_pre20150928.ebuild,
+  -aufs4-0_pre20151012.ebuild, -aufs4-0_pre20151102.ebuild,
+  -aufs4-0_pre20151109.ebuild, -aufs4-0_pre20151116.ebuild,
+  -aufs4-0_pre20151221.ebuild, -aufs4-0_pre20160111.ebuild,
+  -aufs4-0_pre20160118.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*aufs4-0_pre20160219 (19 Feb 2016)
+
+  19 Feb 2016; Justin Lecher <jlec@gentoo.org> -aufs4-0_pre20160215.ebuild,
+  +aufs4-0_pre20160219.ebuild:
+  Bump to latest aufs release
+
+  * Bump to EAPI=6
+  * Bump to nextgen readme.gentoo eclass
+  * Try to break lines at 80 chars
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+  19 Feb 2016; Justin Lecher <jlec@gentoo.org> aufs4-0_pre20160219.ebuild:
+  Fix branch usage for kernel patch level
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

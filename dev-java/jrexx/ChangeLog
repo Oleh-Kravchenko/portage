@@ -68,3 +68,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jrexx-1.1.1-r2 (19 Feb 2016)
+
+  19 Feb 2016; Patrice Clement <monsieurp@gentoo.org> +jrexx-1.1.1-r2.ebuild:
+  EAPI 5 bump.
+
+  Package-Manager: portage-2.2.26
+
+  19 Feb 2016; Patrice Clement <monsieurp@gentoo.org> jrexx-1.1.1-r2.ebuild:
+  Fix DESCRIPTION length.
+
+  Package-Manager: portage-2.2.26
+

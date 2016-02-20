@@ -313,3 +313,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  19 Feb 2016; Justin Lecher <jlec@gentoo.org> numpy-1.10.4.ebuild:
+  Skip f2py test
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=575118
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

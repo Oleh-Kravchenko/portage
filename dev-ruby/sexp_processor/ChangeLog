@@ -96,3 +96,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sexp_processor-4.7.0 (19 Feb 2016)
+
+  19 Feb 2016; Hans de Graaff <graaff@gentoo.org>
+  +sexp_processor-4.7.0.ebuild:
+  add 4.7.0
+
+  Package-Manager: portage-2.2.26
+

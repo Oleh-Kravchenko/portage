@@ -88,3 +88,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libu2f-host-1.1.0 (18 Feb 2016)
+
+  18 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +libu2f-host-1.1.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  18 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -libu2f-host-0.0.2.ebuild,
+  -libu2f-host-0.0.4.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

@@ -308,3 +308,9 @@
   17 Feb 2016; Mike Frysinger <vapier@gentoo.org> glibc-2.21-r2.ebuild:
   mark arm64/hppa/s390/sh stable #574880
 
+*glibc-2.23 (19 Feb 2016)
+
+  19 Feb 2016; Mike Frysinger <vapier@gentoo.org> +glibc-2.23.ebuild,
+  glibc-9999.ebuild:
+  version bump to 2.23
+

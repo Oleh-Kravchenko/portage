@@ -69,3 +69,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xp-0.5-r3 (19 Feb 2016)
+
+  19 Feb 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/xp-0.5-fix-jdk-1.7-enum.patch, +xp-0.5-r3.ebuild:
+  Switch to java-pkg-simple.
+
+  Package-Manager: portage-2.2.26
+

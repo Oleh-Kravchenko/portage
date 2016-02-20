@@ -86,3 +86,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*wcd-5.3.2 (19 Feb 2016)
+
+  19 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> +wcd-5.3.2.ebuild:
+  Bump to version 5.3.2
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  19 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> -wcd-5.3.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -26,3 +26,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  19 Feb 2016; Slawomir Lis <slis@gentoo.org> metadata.xml,
+  -suricata-2.0.10.ebuild, suricata-2.0.11.ebuild:
+  Added detection USE flag, drop old
+
+  Package-Manager: portage-2.2.27
+
+  19 Feb 2016; Slawomir Lis <slis@gentoo.org> metadata.xml:
+  fixing broken metadata.xml, sorry
+
+  Package-Manager: portage-2.2.27
+
+  19 Feb 2016; Slawomir Lis <slis@gentoo.org> metadata.xml,
+  suricata-2.0.11.ebuild:
+  useflag to use libhtp instead of bundled one (#575144)
+
+  Package-Manager: portage-2.2.27
+

@@ -91,3 +91,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  19 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  -eclipse-ecj-3.7.2-r1.ebuild:
+  Remove 3.7
+
+  It doesn't build with Java 8 and we're last-riting its revdep,
+  tomcat-6. Should tomcat-6 return, it can point to a later
+  version. Upstream uses 4.3.
+
+  Package-Manager: portage-2.2.27
+

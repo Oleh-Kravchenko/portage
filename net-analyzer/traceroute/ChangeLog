@@ -69,3 +69,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  19 Feb 2016; Mike Frysinger <vapier@gentoo.org> traceroute-2.0.20.ebuild:
+  mark 2.0.20 arm64/m68k/s390/sh stable
+
+  19 Feb 2016; Mike Frysinger <vapier@gentoo.org> -traceroute-2.0.18.ebuild,
+  -traceroute-2.0.19.ebuild, -traceroute-2.0.19-r1.ebuild:
+  drop old <2.0.20 versions
+
+  19 Feb 2016; Mike Frysinger <vapier@gentoo.org> traceroute-2.0.20.ebuild,
+  traceroute-2.0.21.ebuild:
+  fix cross-compiling #432116
+
+*traceroute-2.0.22 (19 Feb 2016)
+
+  19 Feb 2016; Mike Frysinger <vapier@gentoo.org> +traceroute-2.0.22.ebuild:
+  version bump to 2.0.22
+

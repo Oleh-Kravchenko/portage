@@ -74,3 +74,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  19 Feb 2016; Michał Górny <mgorny@gentoo.org> -libxfcegui4-4.10.0.ebuild:
+  Remove old
+
+  19 Feb 2016; Michał Górny <mgorny@gentoo.org> libxfcegui4-4.10.0-r1.ebuild:
+  Remove support for obsolete glade:3, #575166
+

@@ -63,3 +63,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pyavm-0.9.2 (18 Feb 2016)
+
+  18 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  +files/pyavm-0.9.2-deprecated-fromstring.patch, +pyavm-0.9.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

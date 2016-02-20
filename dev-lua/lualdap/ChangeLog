@@ -65,3 +65,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 Feb 2016; Jason A. Donenfeld <zx2c4@gentoo.org> lualdap-1.2.0.ebuild:
+  requires openldap at runtime
+

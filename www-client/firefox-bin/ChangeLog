@@ -250,3 +250,26 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*firefox-bin-44.0.2 (19 Feb 2016)
+*firefox-bin-38.6.1 (19 Feb 2016)
+
+  19 Feb 2016; Ian Stakenvicius <axs@gentoo.org> +firefox-bin-38.6.1.ebuild,
+  -firefox-bin-44.0.ebuild, +firefox-bin-44.0.2.ebuild:
+  version bumps, security bug 574596
+
+  Package-Manager: portage-2.2.26
+
+  19 Feb 2016; Ian Stakenvicius <axs@gentoo.org> firefox-bin-38.6.1.ebuild:
+  stabilize 38.6.1 per security bug 574596
+
+  Per discussion with ago some time ago, and local testing having passed,
+  I am stabilizing this binary package directly myself to save some time.
+
+  Package-Manager: portage-2.2.26
+
+  19 Feb 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-bin-38.5.0.ebuild,
+  -firefox-bin-38.6.0.ebuild:
+  drop old/vulnerable packages < 38.6.1
+
+  Package-Manager: portage-2.2.26
+

@@ -503,3 +503,8 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Feb 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-38.6.0.ebuild:
+  drop old and vulnerable
+
+  Package-Manager: portage-2.2.26
+

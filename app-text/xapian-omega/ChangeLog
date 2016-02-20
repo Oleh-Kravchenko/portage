@@ -135,3 +135,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  19 Feb 2016; Anthony G. Basile <blueness@gentoo.org>
+  +files/xapian-omega-1.3.4-fix-lz.patch, xapian-omega-1.3.4.ebuild:
+  fix build system, bug #574666
+
+  Package-Manager: portage-2.2.26
+

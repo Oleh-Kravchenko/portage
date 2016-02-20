@@ -64,3 +64,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  19 Feb 2016; Michael Palimaka <kensington@gentoo.org> agrep-2.04-r1.ebuild:
+  add ~arm keyword
+
+  Tested on Raspberry Pi 2.
+
+  Gentoo-bug: 573876
+
+  Package-Manager: portage-2.2.27
+

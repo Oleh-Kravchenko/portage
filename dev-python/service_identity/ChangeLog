@@ -77,3 +77,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*service_identity-16.0.0 (19 Feb 2016)
+
+  19 Feb 2016; Justin Lecher <jlec@gentoo.org>
+  +service_identity-16.0.0.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

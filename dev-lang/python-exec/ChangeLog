@@ -162,3 +162,15 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+*python-exec-2.3.2 (18 Feb 2016)
+
+  18 Feb 2016; Michał Górny <mgorny@gentoo.org> -python-exec-2.3.1.ebuild,
+  +python-exec-2.3.2.ebuild:
+  Bugfix bump to 2.3.2, #574970
+
+  Bump to bugfix 2.3.2 release with improved error handling, proper
+  argv[0] value for Python interpreter wrapping and a README with recovery
+  instructions.
+
+  Bug: https://bugs.gentoo.org/574970
+

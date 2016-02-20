@@ -100,3 +100,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  19 Feb 2016; Markus Meier <maekke@gentoo.org> geeqie-1.2-r1.ebuild,
+  geeqie-1.2.1.ebuild, geeqie-1.2.2.ebuild, geeqie-1.2.2-r1.ebuild,
+  geeqie-1.2.2-r2.ebuild:
+  add subslot operator for all media-gfx/exiv2 atoms
+
+  Package-Manager: portage-2.2.27
+

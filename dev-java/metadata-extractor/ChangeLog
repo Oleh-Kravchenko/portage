@@ -72,3 +72,26 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*metadata-extractor-2.8.1 (18 Feb 2016)
+
+  18 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  -files/metadata-extractor-2.2.2-buildfix.patch,
+  -metadata-extractor-2.2.2-r4.ebuild, +metadata-extractor-2.8.1.ebuild,
+  metadata.xml:
+  Version bump and java-pkg-simple rewrite
+
+  Patching build.xml was annoying. This version isn't limited to Java
+  6. Nothing currently requires it but it's well-maintained and looks
+  useful.
+
+  Package-Manager: portage-2.2.27
+
+  18 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  -metadata-extractor-2.2.2-r2.ebuild:
+  Remove old
+
+  This drops the only stable version but nothing requires it and it's
+  blocking the removal of Java 6.
+
+  Package-Manager: portage-2.2.27
+

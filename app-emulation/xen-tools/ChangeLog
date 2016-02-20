@@ -381,3 +381,35 @@
 
   Package-Manager: portage-2.2.27
 
+  19 Feb 2016; Yixun Lan <dlan@gentoo.org> xen-tools-4.5.2-r4.ebuild,
+  xen-tools-4.6.1.ebuild:
+  correct patching ovmf logic
+
+  while bumping ovmf, I found current logic not
+  handling USE=ovmf enabled && ${OVMF_VER} is unset case
+
+  Package-Manager: portage-2.2.27
+
+  19 Feb 2016; Yixun Lan <dlan@gentoo.org> files/gentoo-patches.conf,
+  xen-tools-4.6.1.ebuild:
+  disable stackcheck in seabios
+
+  problem was seen in hardened system && using USE="-system-seabios"
+
+  Gentoo-bug: 569810
+
+  Package-Manager: portage-2.2.27
+
+*xen-tools-4.6.0-r9 (19 Feb 2016)
+*xen-tools-4.5.2-r5 (19 Feb 2016)
+
+  19 Feb 2016; Ian Delaney <idella4@gentoo.org> +xen-tools-4.5.2-r5.ebuild,
+  +xen-tools-4.6.0-r9.ebuild:
+  revbumps; 4.5.2-r5, 4.6.0-r9
+
+  add sec patches xsa170 wrt the security bug
+
+  Gentoo bug: #574012
+
+  Package-Manager: portage-2.2.26
+

@@ -72,3 +72,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ruby-prof-0.15.9 (18 Feb 2016)
+
+  18 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +ruby-prof-0.15.9.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

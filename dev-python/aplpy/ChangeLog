@@ -76,3 +76,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*aplpy-1.0 (18 Feb 2016)
+
+  18 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> +aplpy-1.0.ebuild,
+  +files/aplpy-1.0-fix-dependencies.patch,
+  +files/aplpy-1.0-mark-known-failures.patch:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

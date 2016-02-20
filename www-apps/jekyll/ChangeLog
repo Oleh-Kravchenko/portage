@@ -67,3 +67,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jekyll-3.1.1 (18 Feb 2016)
+
+  18 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +jekyll-3.1.1.ebuild:
+  Version bumpy
+
+  Package-Manager: portage-2.2.27
+
+*jekyll-3.1.1-r1 (18 Feb 2016)
+
+  18 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +jekyll-3.1.1-r1.ebuild:
+  Move to old slot
+
+  Package-Manager: portage-2.2.27
+
+  18 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -jekyll-3.1.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

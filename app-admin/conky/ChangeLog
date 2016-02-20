@@ -152,3 +152,12 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Feb 2016; Daniel Pielmeier <billie@gentoo.org> conky-1.10.1.ebuild,
+  +files/conky-1.10.1-includewlan.patch:
+  Add patch to build with wifi support.
+
+  This fixes bug #573502. Thanks to Stanislav Nikitin for the report
+  and Till Schäfer for testing the patch.
+
+  Package-Manager: portage-2.2.26
+
