@@ -74,3 +74,11 @@
 
   Package-Manager: portage-2.2.27
 
+*go-crypto-0_pre20160126 (20 Feb 2016)
+
+  20 Feb 2016; Zac Medico <zmedico@gentoo.org>
+  +go-crypto-0_pre20160126.ebuild:
+  version bump to 0_pre20160126
+
+  Package-Manager: portage-2.2.27
+

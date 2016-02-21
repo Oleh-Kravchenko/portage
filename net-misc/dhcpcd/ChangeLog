@@ -146,3 +146,6 @@
 
   https://bugs.gentoo.org/show_bug.cgi?id=571152
 
+  20 Feb 2016; William Hubbs <williamh@gentoo.org> dhcpcd-6.10.1.ebuild:
+  mark 6.10.1 amd64 stable for bug #575240
+

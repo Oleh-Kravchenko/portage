@@ -101,3 +101,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*dnscrypt-proxy-1.6.1 (20 Feb 2016)
+
+  20 Feb 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +dnscrypt-proxy-1.6.1.ebuild, +files/dnscrypt-proxy.initd-1.6.1:
+  bump, security vuln in OpenDNS plugins; use syslog by default for logging
+
+  Package-Manager: portage-2.2.27
+

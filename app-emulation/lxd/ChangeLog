@@ -267,3 +267,10 @@
 
   Package-Manager: portage-2.2.27
 
+  20 Feb 2016; Erik Mackdanz <stasibear@gentoo.org>
+  -files/lxd-0.26-dont-go-get.patch, -files/lxd-0.26-nc-binary-name.patch,
+  -files/lxd-0.26.confd, -files/lxd-0.26.initd, -lxd-0.26.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+

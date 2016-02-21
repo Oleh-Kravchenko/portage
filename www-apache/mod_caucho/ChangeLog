@@ -71,3 +71,26 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mod_caucho-4.0.47 (20 Feb 2016)
+
+  20 Feb 2016; James Le Cuirot <chewi@gentoo.org> +mod_caucho-4.0.47.ebuild:
+  Version bump to 4.0.47
+
+  This ebuild is a rewrite that builds with apxs manually as that is
+  easier. See the ebuild for details but the short version is that Java
+  isn't really needed.
+
+  Package-Manager: portage-2.2.27
+
+  20 Feb 2016; James Le Cuirot <chewi@gentoo.org> -mod_caucho-4.0.26.ebuild,
+  -mod_caucho-4.0.26-r1.ebuild:
+  Remove old
+
+  This drops the only stable version but there are no revdeps and we
+  need to clear this for the removal of Java 6. I recommend not marking
+  it stable again until someone has done more than just build it. I
+  don't use Resin or Apache and I'm not entirely confident that it would
+  work.
+
+  Package-Manager: portage-2.2.27
+

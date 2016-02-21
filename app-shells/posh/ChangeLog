@@ -85,3 +85,13 @@
   +files/posh-0.12.5-test-perl-fix.patch, posh-0.12.5.ebuild:
   Fix tests to work with perl-5.15+
 
+*posh-0.12.6 (19 Feb 2016)
+
+  19 Feb 2016; Michał Górny <mgorny@gentoo.org>
+  -files/posh-0.12.5-test-perl-fix.patch, -posh-0.12.5.ebuild,
+  +posh-0.12.6.ebuild:
+  Bugfix bump to 0.12.6
+
+  Update to 0.12.6 where upstream included our test patch and regenerated
+  autotools files.
+

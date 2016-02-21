@@ -94,3 +94,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  19 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  -files/2.1.6-remove-unused-ant-import.patch, -files/archive-xml-2.1.0.patch,
+  -files/compile_xml-2.1.2.patch, -jdbc-jaybird-2.1.5-r1.ebuild:
+  Remove old version that requires Java 6
+
+  This drops the only stable version but there are no revdeps and the
+  only likely user of this (wltjr) says he doesn't mind.
+
+  Package-Manager: portage-2.2.27
+

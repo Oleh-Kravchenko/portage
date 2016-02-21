@@ -154,3 +154,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*harfbuzz-1.2.0 (19 Feb 2016)
+
+  19 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> +harfbuzz-1.2.0.ebuild,
+  harfbuzz-9999.ebuild:
+  Bump to version 1.2.0
+
+  Bumped live ebuild to EAPI-6.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  19 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> -harfbuzz-1.1.2.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

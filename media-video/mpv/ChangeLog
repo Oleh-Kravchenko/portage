@@ -766,3 +766,10 @@
 
   Package-Manager: portage-2.2.27
 
+  19 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> mpv-0.9.2-r1.ebuild:
+  restrict 0.9.2-r1 to ffmpeg < 3.0 wrt bug 575146
+
+  Gentoo-Bugs: 575146
+
+  Package-Manager: portage-2.2.27
+

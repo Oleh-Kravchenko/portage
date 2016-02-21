@@ -74,3 +74,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*logtalk-3.03.0 (20 Feb 2016)
+
+  20 Feb 2016; Keri Harris <keri@gentoo.org>
+  +files/logtalk-3.03.0-no-user-docs.patch, +logtalk-3.03.0.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

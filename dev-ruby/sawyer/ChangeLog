@@ -10,3 +10,19 @@
 
   Package-Manager: portage-2.2.27
 
+  20 Feb 2016; Hans de Graaff <graaff@gentoo.org> sawyer-0.7.0.ebuild:
+  update dependencies to match gemspec
+
+  Add the version guards that are expressed in the gemspec
+  since the gem won't be loaded without these specific versions
+  present, and it's better to break things consistently.
+
+  Package-Manager: portage-2.2.26
+
+  20 Feb 2016; Hans de Graaff <graaff@gentoo.org> sawyer-0.7.0.ebuild:
+  fix bug 575202
+
+  Remove reference to non-existing file to avoid error on installation.
+
+  Package-Manager: portage-2.2.26
+

@@ -155,3 +155,10 @@
   01 Feb 2016; Mike Gilbert <floppym@gentoo.org> +sqlite-3.10.2.ebuild:
   Version bump.
 
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org>
+  -files/sqlite-2.8.15-alignement-fix.patch, -files/sqlite-2.8.16-exit.patch,
+  -files/sqlite-2.8.16-multilib.patch, -sqlite-2.8.16-r5.ebuild:
+  Drop masked for removal version (#249418)
+
+  Package-Manager: portage-2.2.27
+

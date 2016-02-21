@@ -174,3 +174,14 @@
 
   Bug: https://bugs.gentoo.org/574970
 
+*python-exec-2.4 (20 Feb 2016)
+
+  20 Feb 2016; Michał Górny <mgorny@gentoo.org> +python-exec-2.4.ebuild:
+  Bump to the most awesome so far 2.4 release
+
+  Version bump to 2.4. The new version improves symlink handling to fix
+  problems when basename of custom symlinks collide with another system
+  executable name (previously, this resulted in the wrong script being
+  used), and adds support for per-script implementation preference
+  overrides.
+

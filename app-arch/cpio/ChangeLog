@@ -110,3 +110,16 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  20 Feb 2016; Richard Freeman <rich0@gentoo.org> cpio-2.12-r1.ebuild:
+  amd64 stable
+
+  Bug: 572428
+
+  Package-Manager: portage-2.2.26
+
+  20 Feb 2016; Markus Meier <maekke@gentoo.org> cpio-2.12-r1.ebuild:
+  arm stable, bug #572428
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

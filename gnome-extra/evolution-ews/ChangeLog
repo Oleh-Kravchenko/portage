@@ -120,3 +120,15 @@
 
   Package-Manager: portage-2.2.27
 
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> -evolution-ews-3.18.3.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+*evolution-ews-3.18.5 (20 Feb 2016)
+
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> +evolution-ews-3.18.5.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

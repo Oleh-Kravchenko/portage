@@ -148,3 +148,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> -epiphany-3.18.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+*epiphany-3.18.4 (20 Feb 2016)
+
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> +epiphany-3.18.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

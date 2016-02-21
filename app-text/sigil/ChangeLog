@@ -137,3 +137,9 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  19 Feb 2016; Matthew Brewer <tomboy64@sina.cn> sigil-0.9.3.ebuild:
+  enable 0.9.3 to support Python 3.5
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

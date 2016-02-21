@@ -45,3 +45,16 @@
 
   Package-Manager: portage-2.2.26
 
+*rmilter-1.7.3 (20 Feb 2016)
+
+  20 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> +rmilter-1.7.3.ebuild:
+  mail-filter/rspamd: version bump to 1.7.3
+
+  Package-Manager: portage-2.2.26
+
+  20 Feb 2016; Dirkjan Ochtman <djc@gentoo.org> -rmilter-1.6.7.ebuild,
+  -rmilter-1.7.0.ebuild, -rmilter-1.7.1.ebuild:
+  remove old versions
+
+  Package-Manager: portage-2.2.26
+

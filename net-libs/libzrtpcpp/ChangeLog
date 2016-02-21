@@ -63,3 +63,8 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+  20 Feb 2016; Patrick Lauer <patrick@gentoo.org> libzrtpcpp-2.3.4.ebuild:
+  Drop stable ppc keywords
+
+  Package-Manager: portage-2.2.27
+

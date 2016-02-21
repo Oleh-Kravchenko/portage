@@ -72,3 +72,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  20 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  classy-prelude-0.12.0.ebuild, +files/classy-prelude-0.12.0-mt-0.9.3.patch:
+  fix build failure, bug #575244
+
+  mono-traversable-0.9.3 introduces it's own intercalate.
+
+  Reported-by: Toralf Förster
+  Bug: https://bugs.gentoo.org/575244
+
+  Package-Manager: portage-2.2.27
+

@@ -70,3 +70,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> -libwnck-3.4.9.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+*libwnck-3.14.1 (20 Feb 2016)
+
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> +libwnck-3.14.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

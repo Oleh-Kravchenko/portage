@@ -83,3 +83,36 @@
 
   Package-Manager: portage-2.2.27
 
+  19 Feb 2016; Michael Weber <xmw@gentoo.org>
+  -raspberrypi-image-3.10.24_pre-r20131212.ebuild,
+  -raspberrypi-image-3.10.38_pre-r20140427.ebuild,
+  -raspberrypi-image-3.10.9999.ebuild,
+  -raspberrypi-image-3.12.36_pre-r20150206.ebuild,
+  -raspberrypi-image-3.18.10_pre-r20150330.ebuild,
+  -raspberrypi-image-3.18.14_pre-r20150520.ebuild,
+  -raspberrypi-image-3.19.3_pre-r20150327.ebuild,
+  -raspberrypi-image-3.19.3_pre-r20150413.ebuild:
+  remove old versions.
+
+  Package-Manager: portage-2.2.27
+
+*raspberrypi-image-4.1.17_p20160209 (19 Feb 2016)
+
+  19 Feb 2016; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-4.1.17_p20160209.ebuild:
+  Version bump (bug 521920).
+
+  Package-Manager: portage-2.2.27
+
+  20 Feb 2016; Patrick Lauer <patrick@gentoo.org>
+  raspberrypi-image-4.1.17_p20160209.ebuild:
+  Fix Whitespace and Header
+
+  Package-Manager: portage-2.2.27
+
+  20 Feb 2016; Michael Weber <xmw@gentoo.org>
+  raspberrypi-image-4.1.17_p20160209.ebuild:
+  Fix SLOT.
+
+  Package-Manager: portage-2.2.27
+

@@ -1,0 +1,18 @@
+# ChangeLog for media-libs/raspberrypi-userland-bin
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*raspberrypi-userland-bin-1.20160209 (19 Feb 2016)
+
+  19 Feb 2016; Michael Weber <xmw@gentoo.org>
+  +files/04raspberrypi-userland-bin, +metadata.xml,
+  +raspberrypi-userland-bin-1.20160209.ebuild:
+  Initial import for bug 521920.
+
+  Package-Manager: portage-2.2.27
+
+  19 Feb 2016; Michael Weber <xmw@gentoo.org> metadata.xml:
+  add maintainer type in metadata.xml
+
+  Package-Manager: portage-2.2.27
+

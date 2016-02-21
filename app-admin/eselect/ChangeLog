@@ -82,3 +82,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  20 Feb 2016; Markus Meier <maekke@gentoo.org> eselect-1.4.5.ebuild:
+  arm stable, bug #574974
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

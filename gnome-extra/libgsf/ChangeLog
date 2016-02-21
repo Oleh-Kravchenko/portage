@@ -132,3 +132,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> -libgsf-1.14.33.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+*libgsf-1.14.36 (20 Feb 2016)
+
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> +libgsf-1.14.36.ebuild:
+  Version bump, fix gdk pixbuf dependencies (#570854 by Marinus Schraal)
+
+  Package-Manager: portage-2.2.27
+

@@ -61,3 +61,9 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+  20 Feb 2016; Jeroen Roovers <jer@gentoo.org> xmltoman-0.4.ebuild:
+  Mark ~hppa ~ppc64 (bug #574870).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

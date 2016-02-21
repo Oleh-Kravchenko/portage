@@ -97,3 +97,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  19 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +files/text-1.2.2.0-integer-simple.patch, text-1.2.2.0.ebuild:
+  restore dev-lang/ghc[-gmp] support, bug #575120
+
+  Reported-by: Alexander E. Sergeev
+  Bug: https://bugs.gentoo.org/575120
+  Bug: https://github.com/bos/text/issues/138
+
+  Package-Manager: portage-2.2.27
+

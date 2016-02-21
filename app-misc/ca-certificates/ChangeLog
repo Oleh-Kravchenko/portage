@@ -230,3 +230,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Feb 2016; Jeroen Roovers <jer@gentoo.org>
+  ca-certificates-20151214.3.21.ebuild:
+  Stable for PPC64 (bug #561962).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

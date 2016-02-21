@@ -166,3 +166,9 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Feb 2016; Jeroen Roovers <jer@gentoo.org> avahi-0.6.32.ebuild:
+  Mark ~hppa ~ppc64 (bug #574870).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

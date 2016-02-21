@@ -62,3 +62,16 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+*gkrelltop-2.2.13-r1 (20 Feb 2016)
+
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> +gkrelltop-2.2.13-r1.ebuild:
+  Fix RDEPEND (#528852)
+
+  Package-Manager: portage-2.2.27
+
+  20 Feb 2016; Pacho Ramos <pacho@gentoo.org> -gkrelltop-2.2.11.ebuild,
+  -gkrelltop-2.2.13.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
