@@ -89,3 +89,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*dom4j-1.6.1-r6 (21 Feb 2016)
+
+  21 Feb 2016; James Le Cuirot <chewi@gentoo.org> +dom4j-1.6.1-r6.ebuild:
+  Remove jaxme (R)DEPEND, add jaxen PDEPEND
+
+  jaxme has been effectively included in Java since 6 and should go.
+
+  dom4j has a cyclic dependency of jaxen so we already use the bundled
+  version to build against but a PDEPEND was never added, which leaves
+  it broken. Closes bug #212993.
+
+  Package-Manager: portage-2.2.27
+

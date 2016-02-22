@@ -64,3 +64,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Image-Scale-0.110.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Image-Scale-0.110.0.ebuild:
+  Bump to version 0.110.0
+
+  - use EAPI6
+  - disable tests due to rt#112217 with random race-condition failures.
+
+  Package-Manager: portage-2.2.27
+

@@ -98,3 +98,11 @@
 
   Package-Manager: portage-2.2.27
 
+*java-config-2.2.0-r3 (21 Feb 2016)
+
+  21 Feb 2016; James Le Cuirot <chewi@gentoo.org>
+  -java-config-2.2.0-r2.ebuild, +java-config-2.2.0-r3.ebuild:
+  Add Python 3.5, fix Python deps wrt bug #539802
+
+  Package-Manager: portage-2.2.27
+

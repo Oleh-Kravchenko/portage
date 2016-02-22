@@ -19,3 +19,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*HTTP-Headers-Fast-0.200.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +HTTP-Headers-Fast-0.200.0.ebuild:
+  Bump to version 0.200.0
+
+  - use EAPI6
+
+  Package-Manager: portage-2.2.27
+

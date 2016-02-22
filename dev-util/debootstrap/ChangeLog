@@ -196,3 +196,16 @@
 
   Package-Manager: portage-2.2.27
 
+*debootstrap-1.0.78-r1 (21 Feb 2016)
+
+  21 Feb 2016; Sebastian Pipping <sping@gentoo.org>
+  +debootstrap-1.0.78-r1.ebuild:
+  Depend on keyrings (bug #387565)
+
+  Package-Manager: portage-2.2.27
+
+  21 Feb 2016; Jeroen Roovers <jer@gentoo.org> -debootstrap-1.0.78-r1.ebuild:
+  Drop hard dependencies (bug #387565)
+
+  Package-Manager: portage-2.2.27
+

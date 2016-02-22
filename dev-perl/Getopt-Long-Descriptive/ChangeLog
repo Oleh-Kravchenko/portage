@@ -88,3 +88,16 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*Getopt-Long-Descriptive-0.99.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Getopt-Long-Descriptive-0.99.0.ebuild:
+  Bump to version 0.99.0
+
+  - Version Bumped.
+  - Updated to EAPI6.
+  - Removed dependencies no longer declared upstream
+  - Add missing dependencies
+
+  Package-Manager: portage-2.2.27
+

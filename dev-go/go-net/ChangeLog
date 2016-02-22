@@ -75,3 +75,10 @@
 
   Package-Manager: portage-2.2.27
 
+*go-net-0_pre20160216 (20 Feb 2016)
+
+  20 Feb 2016; Zac Medico <zmedico@gentoo.org> +go-net-0_pre20160216.ebuild:
+  version bump to 0_pre20160216
+
+  Package-Manager: portage-2.2.27
+

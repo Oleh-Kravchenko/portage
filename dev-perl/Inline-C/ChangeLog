@@ -63,3 +63,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Inline-C-0.760.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com> +Inline-C-0.760.0.ebuild:
+  Bump to version 0.760.0
+
+  - use EAPI6
+  - Inhibit test parallelism because there are race conditions
+
+  Package-Manager: portage-2.2.27
+

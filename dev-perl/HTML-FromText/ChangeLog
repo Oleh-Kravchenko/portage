@@ -63,3 +63,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*HTML-FromText-2.70.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FromText-2.70.0.ebuild:
+  Bump to version 2.70.0
+
+  - use EAPI6
+  - Fix missing and surplus dependencies
+  - Tests pass
+
+  Package-Manager: portage-2.2.27
+

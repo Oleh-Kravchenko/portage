@@ -83,3 +83,12 @@
 
   Package-Manager: portage-2.2.26
 
+*link-grammar-5.3.3-r1 (21 Feb 2016)
+
+  21 Feb 2016; Pacho Ramos <pacho@gentoo.org> -link-grammar-5.3.3.ebuild,
+  +link-grammar-5.3.3-r1.ebuild:
+  Fix java dependency and ensure all phases from eclasses are really executed
+  (#574872), it needs swig (#574888), and a few more fixes and cosmetic things
+
+  Package-Manager: portage-2.2.27
+

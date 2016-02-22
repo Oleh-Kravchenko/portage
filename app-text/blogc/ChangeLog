@@ -148,3 +148,33 @@
 
   Package-Manager: portage-2.2.26
 
+*blogc-0.7.3 (21 Feb 2016)
+
+  21 Feb 2016; Rafael Martins <rafaelmartins@gentoo.org> -blogc-0.7.2.ebuild,
+  +blogc-0.7.3.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+
+*blogc-0.7.4 (21 Feb 2016)
+
+  21 Feb 2016; Rafael Martins <rafaelmartins@gentoo.org> -blogc-0.7.3.ebuild,
+  +blogc-0.7.4.ebuild, blogc-9999.ebuild:
+  version bump and minor ebuild fixes
+
+  Package-Manager: portage-2.2.26
+
+  21 Feb 2016; Rafael Martins <rafaelmartins@gentoo.org> blogc-0.7.4.ebuild,
+  blogc-9999.ebuild:
+  fixed dependency
+
+  Package-Manager: portage-2.2.26
+
+*blogc-0.7.5 (21 Feb 2016)
+
+  21 Feb 2016; Rafael Martins <rafaelmartins@gentoo.org> -blogc-0.7.4.ebuild,
+  +blogc-0.7.5.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

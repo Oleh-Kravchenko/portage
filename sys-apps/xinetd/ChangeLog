@@ -149,3 +149,24 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Feb 2016; Doug Goldstein <cardoe@gentoo.org> -xinetd-2.3.15-r1.ebuild:
+  remove old version
+
+  Removed an old version vulnerable to CVE-2013-4342.
+
+  Gentoo-Bug: 488158
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  21 Feb 2016; Doug Goldstein <cardoe@gentoo.org> files/xinetd.rc6:
+  adjust init script license
+
+  Per bug 426154 a Gentoo created file had an incorrect license and this
+  adjusts it to BSD.
+
+  Gentoo-Bug: 426154
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

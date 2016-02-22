@@ -93,3 +93,9 @@
   04 Feb 2016; William Hubbs <williamh@gentoo.org> go-bootstrap-1.4.3.ebuild:
   1.4.3: stable on amd64 wrt #573856
 
+  21 Feb 2016; Markus Meier <maekke@gentoo.org> go-bootstrap-1.4.3.ebuild:
+  arm stable, bug #573856
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

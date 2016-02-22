@@ -63,3 +63,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*IO-Interface-1.90.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +IO-Interface-1.90.0.ebuild:
+  Bump to version 1.90.0
+
+  - use EAPI6
+  - Declare some dependencies.
+
+  Package-Manager: portage-2.2.27
+

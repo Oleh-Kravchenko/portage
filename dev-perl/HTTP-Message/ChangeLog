@@ -66,3 +66,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*HTTP-Message-6.110.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +HTTP-Message-6.110.0.ebuild:
+  Bump to version 6.110.0
+
+  - use EAPI6
+  - network-like tests not arbitrarily suppressed as they pass
+    under network-sandbox, and analysis doesn't indicate any network
+    activity is required.
+
+  Package-Manager: portage-2.2.27
+

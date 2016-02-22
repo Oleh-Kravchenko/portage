@@ -185,3 +185,18 @@
   used), and adds support for per-script implementation preference
   overrides.
 
+  20 Feb 2016; Michał Górny <mgorny@gentoo.org> -python-exec-2.4.ebuild:
+  Remove 2.4 due to issues with python wrapping
+
+  Remove 2.4 as it fails at symlink resolution when argv[0] contains
+  only basename (and requires PATH lookup), which breaks executables
+  linked directly to python-exec2c such as python wrappers.
+
+*python-exec-2.4.1 (21 Feb 2016)
+
+  21 Feb 2016; Michał Górny <mgorny@gentoo.org> +python-exec-2.4.1.ebuild:
+  Bump to 2.4.1 with symlink resolution fix
+
+  Add a new 2.4.1 version that does symlink resolution correctly when
+  starting python-exec2c links via PATH, e.g. when wrapping Python itself.
+

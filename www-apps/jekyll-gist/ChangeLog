@@ -89,3 +89,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jekyll-gist-1.4.0 (21 Feb 2016)
+
+  21 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +jekyll-gist-1.4.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  21 Feb 2016; Manuel Rüger <mrueg@gentoo.org> jekyll-gist-1.4.0.ebuild:
+  Fix jekyll dependency
+
+  Package-Manager: portage-2.2.27
+

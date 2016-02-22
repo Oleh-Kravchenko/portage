@@ -27,3 +27,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*python-efl-1.17.0 (21 Feb 2016)
+
+  21 Feb 2016; Mike Frysinger <vapier@gentoo.org> +python-efl-1.17.0.ebuild:
+  version bump to 1.17.0
+

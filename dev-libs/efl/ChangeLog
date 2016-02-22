@@ -165,3 +165,8 @@
   RepoMan-Options: --force
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*efl-1.17.0 (21 Feb 2016)
+
+  21 Feb 2016; Mike Frysinger <vapier@gentoo.org> +efl-1.17.0.ebuild:
+  version bump to 1.17.0 #573784
+

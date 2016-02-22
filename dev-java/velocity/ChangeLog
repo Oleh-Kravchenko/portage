@@ -75,3 +75,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*velocity-1.7-r2 (21 Feb 2016)
+
+  21 Feb 2016; Patrice Clement <monsieurp@gentoo.org> +velocity-1.7-r2.ebuild:
+  Remove the cruft and convert to java-pkg-simple.
+
+  Package-Manager: portage-2.2.26
+

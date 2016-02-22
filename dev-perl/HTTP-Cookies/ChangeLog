@@ -63,3 +63,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*HTTP-Cookies-6.10.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +HTTP-Cookies-6.10.0.ebuild:
+  Rename 6.0.1 to 6.10.0
+
+  This brings HTTP-Cookies in line with Gentoo's Perl Normalisation Scheme
+
+  Package-Manager: portage-2.2.27
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  -HTTP-Cookies-6.0.1-r1.ebuild:
+  Remove old version
+
+  Package-Manager: portage-2.2.27
+

@@ -70,3 +70,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*IO-AIO-4.330.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com> +IO-AIO-4.330.0.ebuild:
+  Bump to 4.330.0
+
+  - use EAPI6
+  - Fixup deps
+  - use RESTRICT to prevent broken tests instead of SRC_TEST=
+
+  Package-Manager: portage-2.2.27
+

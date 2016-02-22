@@ -20,3 +20,8 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Feb 2016; Zac Medico <zmedico@gentoo.org> beego-1.6.0_p20160126.ebuild:
+  install beego.a
+
+  Package-Manager: portage-2.2.27
+

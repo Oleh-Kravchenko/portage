@@ -104,3 +104,14 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*ppsspp-1.2.1 (21 Feb 2016)
+
+  21 Feb 2016; RobinDX <robin9800xt@gmail.com> +ppsspp-1.2.1.ebuild,
+  ppsspp-9999.ebuild:
+  version bump
+
+  21 Feb 2016; RobinDX <robin9800xt@gmail.com> -files/ppsspp-ffmpeg-x86.patch,
+  -files/ppsspp-ffmpeg-x86_64.patch, -files/ppsspp-qt.patch,
+  -ppsspp-1.1.0-r2.ebuild, -ppsspp-1.1.1-r2.ebuild:
+  remove old
+

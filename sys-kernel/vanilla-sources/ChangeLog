@@ -527,3 +527,17 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*vanilla-sources-4.4.2 (21 Feb 2016)
+*vanilla-sources-4.3.6 (21 Feb 2016)
+*vanilla-sources-3.14.61 (21 Feb 2016)
+*vanilla-sources-3.10.97 (21 Feb 2016)
+
+  21 Feb 2016; Mike Pagano <mpagano@gentoo.org>
+  -vanilla-sources-3.10.96.ebuild, +vanilla-sources-3.10.97.ebuild,
+  -vanilla-sources-3.14.60.ebuild, +vanilla-sources-3.14.61.ebuild,
+  -vanilla-sources-4.3.5.ebuild, +vanilla-sources-4.3.6.ebuild,
+  -vanilla-sources-4.4.1.ebuild, +vanilla-sources-4.4.2.ebuild:
+  Linux patch bumps. Remove old.
+
+  Package-Manager: portage-2.2.26
+

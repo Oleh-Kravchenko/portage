@@ -132,3 +132,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Feb 2016; Jeroen Roovers <jer@gentoo.org> ebuild-mode-1.29.ebuild:
+  Stable for HPPA PPC64 (bug #573494).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

@@ -64,3 +64,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*IO-Pager-0.350.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com> +IO-Pager-0.350.0.ebuild:
+  Bump to version 0.350.0
+
+  - use EAPI6
+  - Expand dependencies slightly
+  - use PERL_RM_FILES instead of src_prepare hack and explain why its there
+
+  Package-Manager: portage-2.2.27
+

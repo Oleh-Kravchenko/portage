@@ -116,3 +116,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  chrome-remote-desktop-47.0.2526.18.ebuild:
+  mark 47.0.2526.18 stable
+
+*chrome-remote-desktop-49.0.2623.40 (21 Feb 2016)
+
+  21 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  +chrome-remote-desktop-49.0.2623.40.ebuild:
+  version bump to 49.0.2623.40
+

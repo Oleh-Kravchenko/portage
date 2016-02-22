@@ -185,3 +185,15 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Feb 2016; Pacho Ramos <pacho@gentoo.org> -appstream-glib-0.5.5.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+*appstream-glib-0.5.9 (21 Feb 2016)
+
+  21 Feb 2016; Pacho Ramos <pacho@gentoo.org> +appstream-glib-0.5.9.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

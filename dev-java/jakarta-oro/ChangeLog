@@ -68,3 +68,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jakarta-oro-2.0.8-r4 (21 Feb 2016)
+
+  21 Feb 2016; Patrice Clement <monsieurp@gentoo.org>
+  +jakarta-oro-2.0.8-r4.ebuild:
+  Switch to java-pkg-simple.
+
+  Package-Manager: portage-2.2.26
+

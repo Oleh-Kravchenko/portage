@@ -63,3 +63,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*JavaScript-Minifier-1.140.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +JavaScript-Minifier-1.140.0.ebuild:
+  Bump to version 1.140.0
+
+  - use EAPI6
+  - add missing deps
+
+  Package-Manager: portage-2.2.27
+

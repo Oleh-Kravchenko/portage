@@ -157,3 +157,6 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Feb 2016; Mike Frysinger <vapier@gentoo.org> sandbox-2.10-r1.ebuild:
+  mark 2.10-r1 sparc stable #571308
+

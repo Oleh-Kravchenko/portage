@@ -62,3 +62,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*go-snappy-0_pre20160213 (21 Feb 2016)
+
+  21 Feb 2016; Zac Medico <zmedico@gentoo.org>
+  +go-snappy-0_pre20160213.ebuild:
+  version bump to 0_pre20160213
+
+  Package-Manager: portage-2.2.27
+

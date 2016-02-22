@@ -26,3 +26,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Feb 2016; Alex Brandt <alunduil@gentoo.org> metadata.xml:
+  removing maintainers
+
+  Stefan and I no longer maintain this package.  After two weeks of allowing
+  anyone to grab it I'm removing us from the maintainer list.
+
+  Package-Manager: portage-2.2.27
+

@@ -127,3 +127,8 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Feb 2016; Sebastian Pipping <sping@gentoo.org> gimp-9999.ebuild:
+  Address sandbox issue (bug #574038)
+
+  Package-Manager: portage-2.2.27
+

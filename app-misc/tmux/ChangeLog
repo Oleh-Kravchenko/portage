@@ -213,3 +213,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Feb 2016; Jason A. Donenfeld <zx2c4@gentoo.org> tmux-2.1.ebuild,
+  tmux-9999.ebuild:
+  rely on libutempter
+
+  If utempter.h is installed, tmux unconditionally links against
+  libutempter, and there isn't a configure switch to disable it. As such,
+  systems that already had installed libutempter (for use with, say, mosh)
+  found that there would be issues when libutempter was removed, since it
+  wasn't an explicit dependency of this package. Meanwhile, there were
+  issues with the other utempter (non-lib prefix), causing that to be a
+  blocker. So, the fix for both of these at once is to replace the blocker
+  against utempter with a dependency on libutempter, because libutempter
+  already blocks utempter. This simplifes things greatly.
+
+  Fixes: 566990
+  Fixes: 560652
+  Signed-off-by: Jason A. Donenfeld <zx2c4@gentoo.org>
+

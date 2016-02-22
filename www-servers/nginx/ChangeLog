@@ -227,3 +227,6 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Feb 2016; Jason A. Donenfeld <zx2c4@gentoo.org> files/nginx.logrotate-r1:
+  use the nginx utility command for log reopening
+

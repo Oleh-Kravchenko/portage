@@ -87,3 +87,20 @@
 
   Package-Manager: portage-2.2.27
 
+*ejabberd-16.01-r1 (21 Feb 2016)
+*ejabberd-2.1.13-r2 (21 Feb 2016)
+
+  21 Feb 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  -ejabberd-2.1.13-r1.ebuild, +ejabberd-2.1.13-r2.ebuild,
+  -ejabberd-16.01.ebuild, +ejabberd-16.01-r1.ebuild, files/ejabberd-3.initd:
+  Make ejabberd init script depend on epmd
+
+  ejabberd starts epmd if it's not already running, but it's not reflected
+  in epmd init script state. Make ejabberd init script depend on epmd
+  explicitly.
+
+  Gentoo-Bug: 566824
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --force
+

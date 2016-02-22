@@ -63,3 +63,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*PerlIO-via-Timeout-0.320.0 (20 Feb 2016)
+
+  20 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +PerlIO-via-Timeout-0.320.0.ebuild:
+  Bump to version 0.320.0
+
+  - use EAPI6
+  - Fixup deps
+
+  Package-Manager: portage-2.2.27
+
