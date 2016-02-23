@@ -83,3 +83,11 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Feb 2016; David Seifert <soap@gentoo.org>
+  +files/moc-2.6_alpha1-audioconvert.h.patch, moc-2.6_alpha1-r1.ebuild:
+  Patch for converting 'audioconvert.h' to 'channel_layout.h'
+
+  Gentoo-Bug: 575328
+
+  Package-Manager: portage-2.2.27
+

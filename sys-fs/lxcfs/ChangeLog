@@ -45,3 +45,18 @@
 
   Package-Manager: portage-2.2.27
 
+*lxcfs-2.0.0_beta2 (22 Feb 2016)
+
+  22 Feb 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxcfs-2.0.0_beta2.initd, +files/lxcfs-2.0.0_beta2.service,
+  +lxcfs-2.0.0_beta2.ebuild:
+  bump to 2.0.0_beta2
+
+  Package-Manager: portage-2.2.27
+
+  22 Feb 2016; Erik Mackdanz <stasibear@gentoo.org> -files/lxcfs-0.13.initd,
+  -files/lxcfs-0.13.service, -lxcfs-0.13.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+

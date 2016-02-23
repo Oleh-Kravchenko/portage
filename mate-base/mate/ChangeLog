@@ -78,3 +78,11 @@
 
   Package-Manager: portage-2.2.26
 
+*mate-1.10.0-r2 (22 Feb 2016)
+
+  22 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org> -mate-1.10.0-r1.ebuild,
+  +mate-1.10.0-r2.ebuild:
+  Update to use new mate-themes-meta
+
+  Package-Manager: portage-2.2.26
+

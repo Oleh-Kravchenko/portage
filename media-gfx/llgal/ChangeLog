@@ -63,3 +63,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Feb 2016; Kent Fredric <kentfredric@gmail.com> llgal-0.13.17-r1.ebuild:
+  fix dep on dev-perl/Image-Size
+
+  Package-Manager: portage-2.2.27
+
+*llgal-0.13.17-r2 (21 Feb 2016)
+
+  21 Feb 2016; Kent Fredric <kentfredric@gmail.com> -llgal-0.13.17-r1.ebuild,
+  +llgal-0.13.17-r2.ebuild:
+  empty -r1 bump for no-dyndeps
+
+  Package-Manager: portage-2.2.27
+

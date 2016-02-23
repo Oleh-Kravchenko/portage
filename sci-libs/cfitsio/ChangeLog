@@ -71,3 +71,11 @@
 
   Package-Manager: portage-2.2.27
 
+*cfitsio-3.38-r1 (22 Feb 2016)
+
+  22 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -cfitsio-3.38.ebuild,
+  +cfitsio-3.38-r1.ebuild:
+  upstream fix (repackaging) add missing macros
+
+  Package-Manager: portage-2.2.27
+

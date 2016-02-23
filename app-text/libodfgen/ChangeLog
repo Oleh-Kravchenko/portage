@@ -71,3 +71,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libodfgen-0.1.6 (22 Feb 2016)
+
+  22 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +libodfgen-0.1.6.ebuild, libodfgen-9999.ebuild:
+  0.1.6 version bump
+
+  Package-Manager: portage-2.2.27
+

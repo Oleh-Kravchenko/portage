@@ -123,3 +123,25 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*eigen-3.2.8-r1 (22 Feb 2016)
+
+  22 Feb 2016; Patrick Lauer <patrick@gentoo.org> -eigen-3.2.8.ebuild,
+  +eigen-3.2.8-r1.ebuild:
+  Fix pkgconfig file #575298
+
+  Package-Manager: portage-2.2.27
+
+  22 Feb 2016; Justin Lecher <jlec@gentoo.org> eigen-3.2.7.ebuild,
+  +files/eigen-3.2.8-adaolc-backport.patch,
+  +files/eigen-3.2.8-pastix-5.2-backport.patch:
+  Drop -g2 from build flags
+
+  * Bump to EAPI=6
+  * Add missing test deps
+  * Add missing USE
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=575354
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

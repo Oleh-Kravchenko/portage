@@ -67,3 +67,10 @@
   25 Jan 2016; Ulrich Müller <ulm@gentoo.org> metadata.xml:
   Reassign some packages from Emacs project to GNU Emacs project.
 
+  22 Feb 2016; Steev Klimaszewski <steev@gentoo.org> cscope-15.8a.ebuild:
+  add ~arm64 keyword
+
+  Tested on Cortex A53
+
+  Package-Manager: portage-2.2.27
+

@@ -34,3 +34,11 @@
 
   Package-Manager: portage-2.2.27
 
+*rkt-1.0.0 (22 Feb 2016)
+
+  22 Feb 2016; Zac Medico <zmedico@gentoo.org> metadata.xml,
+  +rkt-1.0.0.ebuild:
+  version bump to 1.0.0
+
+  Package-Manager: portage-2.2.27
+

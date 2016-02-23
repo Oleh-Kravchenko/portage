@@ -178,3 +178,13 @@
 
   Package-Manager: portage-2.2.26
 
+*manaplus-9999 (22 Feb 2016)
+
+  22 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org> +manaplus-9999.ebuild:
+
+
+  22 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org> metadata.xml:
+  add live ebuild from polynomial-c for testing purposes
+
+  Package-Manager: portage-2.2.26
+

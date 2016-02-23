@@ -107,3 +107,9 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Feb 2016; Pacho Ramos <pacho@gentoo.org> geocode-glib-3.18.1.ebuild:
+  amd64 stable, bug 566378
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="amd64"
+

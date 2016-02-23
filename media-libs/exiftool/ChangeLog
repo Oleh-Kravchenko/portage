@@ -104,3 +104,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*exiftool-10.11 (22 Feb 2016)
+
+  22 Feb 2016; Tim Harder <radhermit@gentoo.org> +exiftool-10.11.ebuild:
+  version bump to 10.11
+

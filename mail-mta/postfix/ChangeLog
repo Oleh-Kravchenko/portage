@@ -281,3 +281,22 @@
 
   Package-Manager: portage-2.2.27
 
+*postfix-3.0.4 (22 Feb 2016)
+
+  22 Feb 2016; Eray Aslan <eras@gentoo.org> +postfix-3.0.4.ebuild:
+  version bump to 3.0.4
+
+  Package-Manager: portage-2.2.27
+
+  22 Feb 2016; Eray Aslan <eras@gentoo.org> postfix-3.0.4.ebuild:
+  QA: copyright line
+
+  Package-Manager: portage-2.2.27
+
+*postfix-3.2_pre20160221 (22 Feb 2016)
+
+  22 Feb 2016; Eray Aslan <eras@gentoo.org> +postfix-3.2_pre20160221.ebuild:
+  version bump to postfix-3.2_pre20160221
+
+  Package-Manager: portage-2.2.27
+

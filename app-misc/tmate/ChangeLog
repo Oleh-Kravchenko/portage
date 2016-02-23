@@ -1,0 +1,16 @@
+# ChangeLog for app-misc/tmate
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*tmate-2.2.0 (22 Feb 2016)
+
+  22 Feb 2016; Yixun Lan <dlan@gentoo.org> +metadata.xml, +tmate-2.2.0.ebuild:
+  new 2.2.0 added
+
+  Gentoo-bug: 498692
+
+  initial version contributed by Jayson Reis (jaysonsantos)
+  at sunrise overlay, and slightly improved by me
+
+  Package-Manager: portage-2.2.27
+

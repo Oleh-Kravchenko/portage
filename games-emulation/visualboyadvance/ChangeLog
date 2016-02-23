@@ -87,3 +87,10 @@
 
   Package-Manager: portage-2.2.26
 
+  21 Feb 2016; Pacho Ramos <pacho@gentoo.org>
+  visualboyadvance-1.7.2-r4.ebuild:
+  amd64 stable, bug 566378
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="amd64"
+

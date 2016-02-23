@@ -63,3 +63,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*LWPx-ParanoidAgent-1.100.0 (22 Feb 2016)
+
+  22 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +LWPx-ParanoidAgent-1.100.0.ebuild:
+  Bump to version 1.100.0
+
+  - use EAPI6
+  - map perl-module.eclass feature DIST_TEST_OVERRIDE+="network"
+    to enable ONLINE_TESTS.
+  - Base tests enabled as they don't need networking by default
+
+  Package-Manager: portage-2.2.27
+

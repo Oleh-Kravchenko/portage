@@ -118,3 +118,24 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Feb 2016; Zac Medico <zmedico@gentoo.org> consul-0.5.2-r1.ebuild,
+  consul-0.6.3.ebuild, consul-9999.ebuild:
+  use get_golibdir for library installation
+
+  Package-Manager: portage-2.2.27
+
+  21 Feb 2016; Zac Medico <zmedico@gentoo.org> consul-0.5.2-r1.ebuild,
+  consul-0.6.3.ebuild:
+  remove broken egit_clean calls
+
+  Package-Manager: portage-2.2.27
+
+*consul-0.6.3-r1 (21 Feb 2016)
+*consul-0.5.2-r2 (21 Feb 2016)
+
+  21 Feb 2016; Zac Medico <zmedico@gentoo.org> -consul-0.5.2-r1.ebuild,
+  +consul-0.5.2-r2.ebuild, -consul-0.6.3.ebuild, +consul-0.6.3-r1.ebuild:
+  revison bump ebuilds for bug #575272
+
+  Package-Manager: portage-2.2.27
+

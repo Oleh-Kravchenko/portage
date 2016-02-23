@@ -148,3 +148,11 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  22 Feb 2016; Bertrand Jacquin <bertrand@jacquin.bzh>
+  freeradius-client-1.1.7.ebuild:
+  Add ~arm keyword
+
+  Tested on Scaleway C1
+
+  Package-Manager: portage-2.2.26
+

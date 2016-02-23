@@ -148,3 +148,28 @@
 
   Package-Manager: portage-2.2.26
 
+  21 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  mythplugins-0.26.0_p20130922.ebuild, mythplugins-0.27_p20140321.ebuild,
+  mythplugins-0.27.5_p20150627-r1.ebuild,
+  mythplugins-0.27.5_p20150627-r2.ebuild:
+  Fix dep on dev-perl/Image-Size
+
+  Package-Manager: portage-2.2.27
+
+*mythplugins-0.27.5_p20150627-r4 (21 Feb 2016)
+*mythplugins-0.27.5_p20150627-r3 (21 Feb 2016)
+*mythplugins-0.27_p20140321-r1 (21 Feb 2016)
+*mythplugins-0.26.0_p20130922-r1 (21 Feb 2016)
+
+  21 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  -mythplugins-0.26.0_p20130922.ebuild,
+  +mythplugins-0.26.0_p20130922-r1.ebuild, -mythplugins-0.27_p20140321.ebuild,
+  +mythplugins-0.27_p20140321-r1.ebuild,
+  -mythplugins-0.27.5_p20150627-r1.ebuild,
+  -mythplugins-0.27.5_p20150627-r2.ebuild,
+  +mythplugins-0.27.5_p20150627-r3.ebuild,
+  +mythplugins-0.27.5_p20150627-r4.ebuild:
+  empty -r1 bumps for no-dyndeps
+
+  Package-Manager: portage-2.2.27
+

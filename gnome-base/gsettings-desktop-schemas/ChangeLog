@@ -162,3 +162,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  22 Feb 2016; Pacho Ramos <pacho@gentoo.org>
+  gsettings-desktop-schemas-3.18.1.ebuild:
+  amd64 stable, bug #566378
+
+  Package-Manager: portage-2.2.27
+

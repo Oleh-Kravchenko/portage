@@ -118,3 +118,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*oauth2client-2.0.0_p1 (22 Feb 2016)
+
+  22 Feb 2016; Justin Lecher <jlec@gentoo.org> -oauth2client-2.0.0.ebuild,
+  +oauth2client-2.0.0_p1.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

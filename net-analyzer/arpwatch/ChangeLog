@@ -77,3 +77,9 @@
 
   Package-Manager: portage-2.2.27
 
+  22 Feb 2016; Jeroen Roovers <jer@gentoo.org> arpwatch-2.1.15-r8.ebuild:
+  Stable for HPPA (bug #419375).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

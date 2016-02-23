@@ -88,3 +88,9 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Feb 2016; Pacho Ramos <pacho@gentoo.org> gupnp-dlna-0.10.4.ebuild:
+  amd64 stable, bug 566378
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="amd64"
+

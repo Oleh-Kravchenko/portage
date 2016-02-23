@@ -314,3 +314,10 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Feb 2016; Pacho Ramos <pacho@gentoo.org> gtk+-2.24.29.ebuild,
+  gtk+-3.18.7.ebuild:
+  amd64 stable, bug 566378
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="amd64"
+

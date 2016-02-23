@@ -105,3 +105,9 @@
 
   This reverts commit f75e018ed1c14ba56ed461d19012d82a55b431f7.
 
+  21 Feb 2016; Pacho Ramos <pacho@gentoo.org> anjuta-3.18.2.ebuild:
+  amd64 stable, bug 566378
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="amd64"
+

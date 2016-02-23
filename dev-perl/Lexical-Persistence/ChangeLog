@@ -63,3 +63,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Lexical-Persistence-1.23.0 (22 Feb 2016)
+
+  22 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Lexical-Persistence-1.23.0.ebuild:
+  Bump to version 1.23.0
+
+  - use EAPI6
+  - cleanup deps
+  - Nuke stupid POD tests
+
+  Package-Manager: portage-2.2.27
+

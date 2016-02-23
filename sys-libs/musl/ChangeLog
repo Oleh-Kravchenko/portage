@@ -199,3 +199,15 @@
 
   Package-Manager: portage-2.2.26
 
+*musl-1.1.14 (22 Feb 2016)
+
+  22 Feb 2016; Anthony G. Basile <blueness@gentoo.org> +musl-1.1.14.ebuild:
+  version bump to 1.1.14
+
+  Package-Manager: portage-2.2.26
+
+  22 Feb 2016; Anthony G. Basile <blueness@gentoo.org> musl-1.1.14.ebuild:
+  stable on amd64, arm, ppc and x86
+
+  Package-Manager: portage-2.2.26
+

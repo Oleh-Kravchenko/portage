@@ -63,3 +63,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*macaque-0.7.4 (22 Feb 2016)
+
+  22 Feb 2016; Alexis Ballier <aballier@gentoo.org> +macaque-0.7.4.ebuild:
+  bump to 0.7.4
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

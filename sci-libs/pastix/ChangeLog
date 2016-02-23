@@ -1,0 +1,13 @@
+# ChangeLog for sci-libs/pastix
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pastix-5.2.2_p9 (22 Feb 2016)
+
+  22 Feb 2016; Justin Lecher <jlec@gentoo.org> +metadata.xml,
+  +pastix-5.2.2_p9.ebuild:
+  Import from science overlay
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

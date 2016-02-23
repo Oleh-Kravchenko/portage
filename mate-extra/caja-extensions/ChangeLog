@@ -72,3 +72,8 @@
 
   Package-Manager: portage-2.2.26
 
+  22 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org> metadata.xml:
+  Add local USE desc for cdr
+
+  Package-Manager: portage-2.2.26
+

@@ -285,3 +285,30 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*libreoffice-5.1.9999 (22 Feb 2016)
+
+  22 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/libreoffice-5.2-system-pyuno.patch, libreoffice-4.4.6.3.ebuild,
+  libreoffice-4.4.9999.ebuild, libreoffice-5.0.3.2.ebuild,
+  libreoffice-5.0.4.2.ebuild, libreoffice-5.0.5.2.ebuild,
+  libreoffice-5.0.9999.ebuild, +libreoffice-5.1.9999.ebuild,
+  libreoffice-9999.ebuild:
+  Update DEPENDs, pyuno patch, add 5.1 stable branch
+
+  - Pin mdds DEPEND to slot 0
+  - Relax library dependencies, see commit
+  517e2522adcd7d091009bfd9e9f9704374ec02a7 and following
+  - Upstream dropped gconf integration, see commit
+  3cf557c12d27f1b2250e69a543136da098112d80
+  - pyuno patch: Only a small change in desktop/scripts/soffice.sh context
+
+  Package-Manager: portage-2.2.27
+
+*libreoffice-5.1.0.3 (22 Feb 2016)
+
+  22 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +libreoffice-5.1.0.3.ebuild:
+  Add 5.1.0.3 release
+
+  Package-Manager: portage-2.2.27
+

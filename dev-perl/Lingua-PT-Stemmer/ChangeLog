@@ -63,3 +63,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Lingua-PT-Stemmer-0.20.0 (22 Feb 2016)
+
+  22 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Lingua-PT-Stemmer-0.20.0.ebuild:
+  Bump to version 0.20.0
+
+  - EAPI6
+  - Add deps
+
+  Package-Manager: portage-2.2.27
+

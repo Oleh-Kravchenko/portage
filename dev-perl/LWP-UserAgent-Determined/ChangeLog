@@ -63,3 +63,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*LWP-UserAgent-Determined-1.70.0 (22 Feb 2016)
+
+  22 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +LWP-UserAgent-Determined-1.70.0.ebuild:
+  Bump to version 1.70.0
+
+  - use EAPI6
+  - Enable tests as the tests that *looked* like network tests turned out to
+  be mocked
+
+  Package-Manager: portage-2.2.27
+

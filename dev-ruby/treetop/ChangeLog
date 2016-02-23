@@ -83,3 +83,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  22 Feb 2016; Hans de Graaff <graaff@gentoo.org> -treetop-1.4.15-r1.ebuild,
+  -treetop-1.5.3.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+*treetop-1.6.4 (22 Feb 2016)
+
+  22 Feb 2016; Hans de Graaff <graaff@gentoo.org> +treetop-1.6.4.ebuild:
+  add 1.6.4
+
+  Package-Manager: portage-2.2.26
+

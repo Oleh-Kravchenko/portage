@@ -91,3 +91,8 @@
 
   Package-Manager: portage-2.2.27
 
+  22 Feb 2016; Jason A. Donenfeld <zx2c4@gentoo.org> cgit-9999.ebuild:
+  upstream cloning uses https now
+
+  Package-Manager: portage-2.2.27
+

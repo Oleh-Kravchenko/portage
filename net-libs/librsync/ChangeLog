@@ -149,3 +149,9 @@
   +files/librsync-2.0.0-search.patch, +librsync-2.0.0-r1.ebuild:
   fix bug #573144
 
+  22 Feb 2016; Jeroen Roovers <jer@gentoo.org> librsync-2.0.0.ebuild:
+  Stable for PPC64 (bug #525396).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

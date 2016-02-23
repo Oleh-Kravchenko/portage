@@ -105,3 +105,8 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+*portage-utils-0.62 (22 Feb 2016)
+
+  22 Feb 2016; Mike Frysinger <vapier@gentoo.org> +portage-utils-0.62.ebuild:
+  version bump to 0.62
+

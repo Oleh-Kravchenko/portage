@@ -172,3 +172,10 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+  22 Feb 2016; Bertrand Jacquin <bertrand@jacquin.bzh> exim-4.86-r2.ebuild:
+  Add ~arm keyword
+
+  Tested on Scaleway C1
+
+  Package-Manager: portage-2.2.26
+

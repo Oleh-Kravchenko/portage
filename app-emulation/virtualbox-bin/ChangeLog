@@ -222,3 +222,8 @@
   virtualbox-bin-4.3.32.103443.ebuild:
   Rdepend on sys-fs/lvm2 because of /opt/VirtualBox/VBoxVolInfo
 
+  22 Feb 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove myself from metadata
+
+  Package-Manager: portage-2.2.27
+

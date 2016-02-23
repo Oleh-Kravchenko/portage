@@ -92,3 +92,16 @@
   libcdr-9999.ebuild:
   Make test build optional, add dep on cppunit, #574932
 
+*libcdr-0.1.2-r1 (22 Feb 2016)
+
+  22 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/libcdr-0.1.1-boost-1.59.patch, libcdr-0.1.0.ebuild,
+  libcdr-0.1.1.ebuild, -libcdr-0.1.2.ebuild, +libcdr-0.1.2-r1.ebuild,
+  libcdr-9999.ebuild:
+  Fix build with boost-1.59 (bug 574120)
+
+  KEYWORDS: Dropped ppc (missing in librevenge)
+  Also drop base.eclass
+
+  Package-Manager: portage-2.2.27
+

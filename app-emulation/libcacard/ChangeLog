@@ -82,3 +82,14 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Feb 2016; David Seifert <soap@gentoo.org>
+  +files/libcacard-0.1.2-underlinking.patch, libcacard-0.1.2.ebuild:
+  Detect libpthread flags properly
+
+  Gentoo-Bug: 494450
+  * EAPI=6
+  * Unconditionally delete .la files, due to provided
+    pkg-config file
+
+  Package-Manager: portage-2.2.27
+

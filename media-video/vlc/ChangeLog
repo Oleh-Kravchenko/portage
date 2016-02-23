@@ -219,3 +219,8 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  22 Feb 2016; Amy Winston <amynka@gentoo.org> vlc-2.2.1-r1.ebuild:
+  ffmpeg-3 blocked bug #575072
+
+  Package-Manager: portage-2.2.26
+

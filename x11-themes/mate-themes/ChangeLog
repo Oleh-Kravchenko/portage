@@ -96,3 +96,13 @@
 
   Package-Manager: portage-2.2.26
 
+*mate-themes-1.10.5-r181 (22 Feb 2016)
+*mate-themes-1.10.5-r161 (22 Feb 2016)
+
+  22 Feb 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -mate-themes-1.10.5-r160.ebuild, +mate-themes-1.10.5-r161.ebuild,
+  -mate-themes-1.10.5-r180.ebuild, +mate-themes-1.10.5-r181.ebuild:
+  Add subslots for GTK+:3 support
+
+  Package-Manager: portage-2.2.26
+

@@ -89,3 +89,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ocaml-ctypes-0.4.2 (22 Feb 2016)
+
+  22 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  +ocaml-ctypes-0.4.2.ebuild:
+  bump to 0.4.2
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

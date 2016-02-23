@@ -176,3 +176,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*libreoffice-l10n-5.1.0.3 (22 Feb 2016)
+
+  22 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +libreoffice-l10n-5.1.0.3.ebuild:
+  app-office/libreoffice: Add 5.1.0.3 release
+
+  Package-Manager: portage-2.2.27
+
