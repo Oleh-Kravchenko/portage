@@ -69,3 +69,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*netbeans-ide-8.1-r1 (23 Feb 2016)
+*netbeans-ide-8.0.2-r1 (23 Feb 2016)
+
+  23 Feb 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-ide-8.0.2-r1.ebuild, +netbeans-ide-8.1-r1.ebuild:
+  switched to icu4j:55
+
+  Package-Manager: portage-2.2.27
+

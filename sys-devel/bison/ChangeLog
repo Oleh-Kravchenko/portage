@@ -171,3 +171,6 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  23 Feb 2016; Mike Frysinger <vapier@gentoo.org> bison-3.0.4-r1.ebuild:
+  rework info page regen #574492
+

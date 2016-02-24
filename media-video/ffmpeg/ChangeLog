@@ -431,3 +431,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-2.6.3.ebuild,
+  ffmpeg-2.6.4.ebuild, ffmpeg-2.8.5.ebuild, ffmpeg-2.8.6.ebuild,
+  ffmpeg-3.0.ebuild, ffmpeg-9999.ebuild:
+  convert to virtual/jack
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

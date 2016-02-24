@@ -66,3 +66,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*wcstools-3.9.2 (22 Feb 2016)
+
+  22 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> +files/Makefile.am,
+  +files/Makefile.libwcs.am, +files/configure.ac,
+  +files/wcstools-3.9.2-RASortStars.patch,
+  +files/wcstools-3.9.2-compiler_warnings.patch,
+  +files/wcstools-3.9.2-mayhem.patch, +files/wcstools-3.9.2-spelling.patch,
+  +files/wcstools-3.9.2-sprintf.patch, +files/wcstools-3.9.2-use_abort.patch,
+  +files/wcstools-3.9.2-wcsinit_crash.patch, +files/wcstools.pc.in,
+  +wcstools-3.9.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

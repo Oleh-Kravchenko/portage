@@ -101,3 +101,16 @@
 
   Package-Manager: portage-2.2.27
 
+*sbt-0.13.11 (23 Feb 2016)
+
+  23 Feb 2016; Mark Wright <gienah@gentoo.org> +sbt-0.13.11.ebuild:
+  Bump to 0.13.11, allow building with jdk 1.8.
+
+  Thanks to Christian Strahl for the bump request 562904 and Pavel Kozlov for
+  reporting 560810 requesting allowing building with jdk 1.8.
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=562904
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=560810
+
+  Package-Manager: portage-2.2.27
+

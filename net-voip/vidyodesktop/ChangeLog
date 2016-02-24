@@ -66,3 +66,14 @@
 
   Package-Manager: portage-2.2.27
 
+  23 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  vidyodesktop-3.5.4.010.ebuild:
+  fix missing deps
+
+  here's a diff of ldd between the two
+
+  +libanl.so.1 => /lib64/libanl.so.1 (glibc)
+  +libQtWebKit.so.4 => not found (dev-qt/qtwebkit:4)
+
+  Package-Manager: portage-2.2.26
+

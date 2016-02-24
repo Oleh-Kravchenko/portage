@@ -93,3 +93,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*tgt-1.0.63 (23 Feb 2016)
+
+  23 Feb 2016; Matthew Thode <prometheanfire@gentoo.org> -tgt-1.0.19.ebuild,
+  -tgt-1.0.22.ebuild, -tgt-1.0.24-r1.ebuild, +tgt-1.0.63.ebuild:
+  bup and cleanup
+
+  Package-Manager: portage-2.2.26
+

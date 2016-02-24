@@ -103,3 +103,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*highlight-3.28 (23 Feb 2016)
+
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org> +highlight-3.28.ebuild:
+  bump to 3.28
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

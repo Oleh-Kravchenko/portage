@@ -81,3 +81,11 @@
 
   Package-Manager: portage-2.2.27
 
+*rex-1.4.0_rc3 (23 Feb 2016)
+
+  23 Feb 2016; Patrick Lauer <patrick@gentoo.org> -rex-1.4.0_rc2.ebuild,
+  +rex-1.4.0_rc3.ebuild:
+  Bump rc
+
+  Package-Manager: portage-2.2.27
+

@@ -75,3 +75,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pyds9-1.8.1 (23 Feb 2016)
+
+  23 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  +files/pyds9-1.8.1-use-system-xpa.patch, +pyds9-1.8.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

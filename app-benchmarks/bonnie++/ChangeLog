@@ -94,3 +94,29 @@
 
   Package-Manager: portage-2.2.27
 
+*bonnie++-1.97-r1 (16 Feb 2016)
+
+  16 Feb 2016; Göktürk Yüksek <gokturk@binghamton.edu>
+  +bonnie++-1.97-r1.ebuild,
+  +files/bonnie++-1.97-zcav-array-indexing-fix.patch:
+  eapi bump, fix #309319, #431684, #515334
+
+  Also get rid if unnecessary DEPEND and RDEPEND since this package
+  has no external dependencies.
+
+  Remove src_compile phase that was added per #9073 14 years ago.
+  It's not reproducible anymore.
+
+  The 'changelog.txt' file is a symlink to 'debian/changelog'. Install
+  the actual changelog instead of the symlink.
+
+  Install everything under bin/ as opposed to sbin/ since this is
+  not a system application.
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=9073
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=309319
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=431684
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=515334
+
+  Package-Manager: portage-2.2.26
+

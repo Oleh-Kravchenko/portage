@@ -114,3 +114,18 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*di-4.42 (22 Feb 2016)
+
+  22 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> +di-4.42.ebuild:
+  Bump to version 4.42
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  22 Feb 2016; Lars Wendler <polynomial-c@gentoo.org> -di-4.38.ebuild,
+  -di-4.40.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

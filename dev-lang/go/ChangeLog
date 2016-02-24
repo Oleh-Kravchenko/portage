@@ -229,3 +229,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  23 Feb 2016; William Hubbs <williamh@gentoo.org> go-9999.ebuild:
+  make live ebuild use our provided bootstrap tarballs
+
+*go-1.6-r2 (23 Feb 2016)
+
+  23 Feb 2016; William Hubbs <williamh@gentoo.org> +go-1.6-r2.ebuild:
+  revbump to 1.6-r2 to use our provided bootstrap tarballs
+

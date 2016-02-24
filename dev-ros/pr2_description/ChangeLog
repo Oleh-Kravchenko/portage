@@ -68,3 +68,28 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*pr2_description-1.11.14 (23 Feb 2016)
+
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  +pr2_description-1.11.14.ebuild:
+  Bump to 1.11.14.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  pr2_description-1.11.14.ebuild, pr2_description-9999.ebuild:
+  set proper PYTHON_COMPAT
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  -files/pr2_description.patch, -pr2_description-1.11.9.ebuild,
+  -pr2_description-1.11.10.ebuild, -pr2_description-1.11.11.ebuild,
+  -pr2_description-1.11.13.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

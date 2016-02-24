@@ -183,3 +183,9 @@
 
   Package-Manager: portage-2.2.27
 
+  23 Feb 2016; Michael Weber <xmw@gentoo.org> xpra-0.14.34.ebuild,
+  xpra-0.15.10-r1.ebuild, xpra-0.16.2.ebuild:
+  fix dev-python/lz4 dependency.
+
+  Package-Manager: portage-2.2.27
+

@@ -65,3 +65,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  23 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -HTML-TokeParser-Simple-3.150.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+
+  23 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  HTML-TokeParser-Simple-3.160.0-r1.ebuild:
+  Shorten DESCRIPTION
+
+  Package-Manager: portage-2.2.27
+

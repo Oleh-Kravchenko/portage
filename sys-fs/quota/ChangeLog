@@ -109,3 +109,13 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  23 Feb 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/ldap-scripts/applySystemQuotas.pl,
+  +files/ldap-scripts/edquota_editor, +files/ldap-scripts/quota.schema,
+  +files/ldap-scripts/setSystemQuotas.pl,
+  +files/ldap-scripts/setquota-ldap.pl, quota-4.03.ebuild:
+  Install ldap-scripts with USE=ldap (bug #575424).
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -244,3 +244,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*icinga2-2.4.2 (23 Feb 2016)
+
+  23 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +icinga2-2.4.2.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

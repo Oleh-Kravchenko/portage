@@ -95,3 +95,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*vifm-0.8.1a (22 Feb 2016)
+
+  22 Feb 2016; José María Alonso Josa <nimiux@gentoo.org> +vifm-0.8.1a.ebuild:
+  Bump to version 0.8.1a
+
+  23 Feb 2016; José María Alonso Josa <nimiux@gentoo.org>
+  -vifm-0.8.1_beta.ebuild:
+  Drop old
+

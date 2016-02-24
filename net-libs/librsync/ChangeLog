@@ -155,3 +155,17 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  23 Feb 2016; Alessandro Calorì <axelgenus@gmail.com>
+  +files/librsync-0.9.7-fix-testsuite.patch, librsync-0.9.7-r3.ebuild:
+  fix testsuite for v0.9.7, fix bug #511954
+  Added "librsync-0.9.7-fix-testsuite.patch" to fix compilation of librsync
+  0.9.7
+  when "test" feature is enabled in Portage. The patch has been sourced from
+  the
+  Debian package librsync1-0.9.7-10 and has been provided by Andrey
+  Rahmatullin.
+
+  Gentoo-bug: #511954
+
+  Package-Manager: portage-2.2.26
+

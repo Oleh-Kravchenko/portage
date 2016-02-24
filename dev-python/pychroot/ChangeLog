@@ -81,3 +81,9 @@
   24 Jan 2016; Tim Harder <radhermit@gentoo.org> pychroot-9999.ebuild:
   remove unnecessary man page conditional
 
+  22 Feb 2016; Tim Harder <radhermit@gentoo.org> pychroot-9999.ebuild:
+  drop unused 3to2 dep
+
+  22 Feb 2016; Tim Harder <radhermit@gentoo.org> pychroot-9999.ebuild:
+  setuptools is no longer an rdep
+

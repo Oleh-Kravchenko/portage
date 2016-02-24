@@ -47,3 +47,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org> -files/py3.patch,
+  -rospkg-1.0.35.ebuild, -rospkg-1.0.37-r1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org> rospkg-1.0.38.ebuild,
+  rospkg-9999.ebuild:
+  add python3.5 support
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

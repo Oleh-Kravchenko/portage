@@ -33,3 +33,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*urdf-1.11.9 (23 Feb 2016)
+
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org> +urdf-1.11.9.ebuild:
+  Bump to 1.11.9.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org> urdf-1.11.9.ebuild,
+  urdf-9999.ebuild:
+  set proper PYTHON_COMPAT
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

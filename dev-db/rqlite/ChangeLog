@@ -10,3 +10,8 @@
 
   Package-Manager: portage-2.2.27
 
+  23 Feb 2016; Zac Medico <zmedico@gentoo.org> rqlite-1.0.ebuild:
+  avoid interference from installed rqlite
+
+  Package-Manager: portage-2.2.27
+

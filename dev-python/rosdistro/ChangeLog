@@ -33,3 +33,16 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org> -rosdistro-0.4.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  23 Feb 2016; Alexis Ballier <aballier@gentoo.org> rosdistro-0.4.4.ebuild,
+  rosdistro-9999.ebuild:
+  add python3.5 support
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

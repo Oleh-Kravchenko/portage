@@ -63,3 +63,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*c-ares-1.11.0 (23 Feb 2016)
+
+  23 Feb 2016; Anthony G. Basile <blueness@gentoo.org> +c-ares-1.11.0.ebuild:
+  version bump to 1.11.0, add subslot
+
+  Package-Manager: portage-2.2.26
+
+  23 Feb 2016; Anthony G. Basile <blueness@gentoo.org> -c-ares-1.7.4.ebuild,
+  -c-ares-1.7.5.ebuild, -c-ares-1.8.0.ebuild, -c-ares-1.9.1.ebuild,
+  -c-ares-1.10.0.ebuild:
+  remove older versions
+
+  Package-Manager: portage-2.2.26
+
