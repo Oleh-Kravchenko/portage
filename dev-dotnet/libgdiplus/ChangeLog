@@ -110,3 +110,10 @@
 
   Package-Manager: portage-2.2.27
 
+*libgdiplus-4.2-r2 (24 Feb 2016)
+
+  24 Feb 2016; Heather Cynede <cynede@gentoo.org> +libgdiplus-4.2-r2.ebuild:
+  correct giflib dep
+
+  Package-Manager: portage-2.2.27
+

@@ -71,3 +71,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*esorex-3.12 (24 Feb 2016)
+
+  24 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -esorex-3.10-r2.ebuild,
+  +esorex-3.12.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

@@ -120,3 +120,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*readline-7.0_rc1 (24 Feb 2016)
+
+  24 Feb 2016; Mike Frysinger <vapier@gentoo.org> -readline-7.0_beta.ebuild,
+  +readline-7.0_rc1.ebuild:
+  version bump to 7.0_rc1
+

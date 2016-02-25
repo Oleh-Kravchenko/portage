@@ -157,3 +157,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+*squid-3.5.15 (24 Feb 2016)
+
+  24 Feb 2016; Eray Aslan <eras@gentoo.org> +squid-3.5.15.ebuild:
+  security bump to 3.5.15 - bug 575542
+
+  Package-Manager: portage-2.2.27
+

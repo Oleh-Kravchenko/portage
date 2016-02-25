@@ -8,3 +8,9 @@
   +metadata.xml:
   new package #559348
 
+  24 Feb 2016; Alexis Ballier <aballier@gentoo.org> dcadec-0.2.0.ebuild:
+  convert to multilib and build shared libs.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

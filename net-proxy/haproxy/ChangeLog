@@ -110,3 +110,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 Feb 2016; Patrice Clement <monsieurp@gentoo.org> haproxy-1.5.15.ebuild,
+  haproxy-1.6.3.ebuild:
+  Add ~arm keyword
+
+  Tested on Scaleway C1
+
+  Package-Manager: portage-2.2.26
+

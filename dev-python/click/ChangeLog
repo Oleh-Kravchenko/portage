@@ -206,3 +206,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  24 Feb 2016; Justin Lecher <jlec@gentoo.org> click-5.1.ebuild:
+  Build docs using python2
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=572660
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

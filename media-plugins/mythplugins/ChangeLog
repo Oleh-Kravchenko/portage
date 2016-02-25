@@ -173,3 +173,13 @@
 
   Package-Manager: portage-2.2.27
 
+  24 Feb 2016; Doug Goldstein <cardoe@gentoo.org>
+  -mythplugins-0.26.0_p20130922-r1.ebuild,
+  -mythplugins-0.27.5_p20150627-r3.ebuild:
+  mythtv: remove older versions
+
+  Since the versions are all interdependent its easier to do in one big
+  tree commit.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

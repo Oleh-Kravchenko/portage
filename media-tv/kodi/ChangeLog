@@ -169,3 +169,18 @@
   23 Feb 2016; Mike Frysinger <vapier@gentoo.org> -kodi-15.1.ebuild:
   drop old 15.1 ebuild
 
+  24 Feb 2016; Mike Frysinger <vapier@gentoo.org> kodi-14.1.ebuild,
+  kodi-15.2.ebuild, kodi-16.0.ebuild, kodi-9999.ebuild:
+  disallow gles/vaapi together #464306
+
+  24 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  +files/kodi-16-ffmpeg3.patch, kodi-16.0.ebuild:
+  backport upstream fix to build with ffmpeg-3. Bug #574998
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  24 Feb 2016; Mike Frysinger <vapier@gentoo.org> kodi-14.1.ebuild,
+  kodi-15.2.ebuild, kodi-16.0.ebuild, kodi-9999.ebuild:
+  fix logic error in vaapi/gles check #464306#14
+

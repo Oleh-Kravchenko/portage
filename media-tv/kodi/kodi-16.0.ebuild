@@ -34,7 +34,10 @@ HOMEPAGE="http://kodi.tv/ http://kodi.wiki/"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE="airplay alsa avahi bluetooth bluray caps cec css dbus debug gles java joystick midi mysql nfs +opengl profile pulseaudio rtmp +samba sftp test +texturepacker udisks upnp upower +usb vaapi vdpau webserver +X"
+# gles/vaapi: http://trac.kodi.tv/ticket/10552 #464306
 REQUIRED_USE="
+	gles? ( !vaapi )
+	vaapi? ( !gles )
 	udisks? ( dbus )
 	upower? ( dbus )
 "
@@ -154,6 +157,7 @@ src_unpack() {
 src_prepare() {
 	epatch "${FILESDIR}"/${PN}-9999-no-arm-flags.patch #400617
 	epatch "${FILESDIR}"/${PN}-9999-texturepacker.patch
+	epatch "${FILESDIR}"/${PN}-16-ffmpeg3.patch
 	epatch_user #293109
 
 	# some dirs ship generated autotools, some dont

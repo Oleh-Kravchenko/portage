@@ -439,3 +439,17 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  24 Feb 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-3.0.ebuild,
+  ffmpeg-9999.ebuild, metadata.xml:
+  add dcadec useflag
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  24 Feb 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-3.0.ebuild,
+  ffmpeg-9999.ebuild, metadata.xml:
+  add libilbc useflag
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -65,3 +65,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*flightgear-9999 (24 Feb 2016)
+
+  24 Feb 2016; Maciej Mrozowski <reavertm@gentoo.org> +flightgear-9999.ebuild:
+  Add live ebuilds
+
+*flightgear-2016.1.1 (24 Feb 2016)
+
+  24 Feb 2016; Maciej Mrozowski <reavertm@gentoo.org>
+  +flightgear-2016.1.1.ebuild:
+  Version bump 2016.1.1
+

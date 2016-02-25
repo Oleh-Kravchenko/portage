@@ -90,3 +90,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*fricas-1.2.7-r2 (24 Feb 2016)
+
+  24 Feb 2016; Andrey Grozin <grozin@gentoo.org> +fricas-1.2.7-r2.ebuild:
+  no longer need to restrict sbcl version
+
+  Package-Manager: portage-2.2.27
+
+  24 Feb 2016; Andrey Grozin <grozin@gentoo.org> fricas-1.2.7-r2.ebuild:
+  no longer need to restrict sbcl version
+
+  Package-Manager: portage-2.2.27
+
+  24 Feb 2016; Andrey Grozin <grozin@gentoo.org> -fricas-1.2.7-r1.ebuild:
+  cleaning 1.2.7-r1
+
+  Package-Manager: portage-2.2.27
+

@@ -88,3 +88,10 @@
   long description (taken from official site),
   also bugs-to link was added
 
+  24 Feb 2016; Anthony Ryan <anthonyryan1@gmail.com> syncthing-0.12.19.ebuild:
+  Add ~arm keyword
+
+  Gentoo-Bug: 574428
+
+  Package-Manager: portage-2.2.26
+

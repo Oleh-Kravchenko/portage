@@ -200,3 +200,13 @@
   Add a new 2.4.1 version that does symlink resolution correctly when
   starting python-exec2c links via PATH, e.g. when wrapping Python itself.
 
+*python-exec-2.4.2 (23 Feb 2016)
+
+  23 Feb 2016; Michał Górny <mgorny@gentoo.org> -python-exec-2.4.1.ebuild,
+  +python-exec-2.4.2.ebuild:
+  Bugfix bump to 2.4.2
+
+  Bump to 2.4.2 that fixes informational command output (-h, -l, -V) to go
+  to stdout rather than stderr. This is required for new eselect-python
+  versions.
+

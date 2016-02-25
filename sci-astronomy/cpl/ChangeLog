@@ -76,3 +76,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cpl-6.6.1 (24 Feb 2016)
+
+  24 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -cpl-6.3.1.ebuild,
+  -cpl-6.4.ebuild, -cpl-6.4.1.ebuild, +cpl-6.6.1.ebuild,
+  +files/cpl-6.6.1-use-system-ltdl.patch:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

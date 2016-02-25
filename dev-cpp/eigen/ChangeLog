@@ -145,3 +145,15 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  24 Feb 2016; Justin Lecher <jlec@gentoo.org> eigen-3.2.8-r1.ebuild,
+  +files/eigen-3.2.7-adaolc-backport.patch,
+  +files/eigen-3.2.7-pastix-5.2-backport.patch,
+  -files/eigen-3.2.8-adaolc-backport.patch,
+  -files/eigen-3.2.8-pastix-5.2-backport.patch:
+  Forward porting ebuild changes, Backwards the patches
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=575512
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

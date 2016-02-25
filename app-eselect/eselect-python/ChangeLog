@@ -146,3 +146,11 @@
   The new version supports >=dev-lang/python-exec-2.3 and the new
   python-exec.conf configuration format.
 
+  23 Feb 2016; Michał Górny <mgorny@gentoo.org>
+  eselect-python-99999999.ebuild:
+  Raise python-exec dep to 2.4.2 in live
+
+  Raise python-exec dependency in the live version to require at least
+  2.4.2 since the current live code requires working 'python-exec2c -l' to
+  obtain supported implementation list.
+

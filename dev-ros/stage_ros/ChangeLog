@@ -34,3 +34,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 Feb 2016; Alexis Ballier <aballier@gentoo.org> stage_ros-1.7.5.ebuild,
+  stage_ros-9999.ebuild:
+  add missing dep on std_srvs, bug #575514
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

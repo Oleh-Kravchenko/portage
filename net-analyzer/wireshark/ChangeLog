@@ -415,3 +415,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 Feb 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/wireshark-99999999-androiddump.patch,
+  +files/wireshark-99999999-sse4_2.patch, wireshark-99999999.ebuild:
+  Update live ebuild patches (bug #575090 by Garri).
+
+  Package-Manager: portage-2.2.27
+
+  24 Feb 2016; Jeroen Roovers <jer@gentoo.org> wireshark-99999999.ebuild:
+  Drop obsolete patch (bug #575090 by Garri).
+
+  Package-Manager: portage-2.2.27
+

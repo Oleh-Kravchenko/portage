@@ -79,3 +79,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 Feb 2016; Doug Goldstein <cardoe@gentoo.org> -mythweb-0.26.0.ebuild,
+  -mythweb-0.27.ebuild:
+  mythtv: remove older versions
+
+  Since the versions are all interdependent its easier to do in one big
+  tree commit.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

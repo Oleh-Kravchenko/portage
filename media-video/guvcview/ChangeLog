@@ -68,3 +68,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*guvcview-2.0.3 (24 Feb 2016)
+
+  24 Feb 2016; Alexis Ballier <aballier@gentoo.org> +files/ffmpeg3.patch,
+  +guvcview-2.0.3.ebuild:
+  bump to 2.0.3, add qt5 useflag and fix build with ffmpeg3.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

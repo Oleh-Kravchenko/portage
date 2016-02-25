@@ -64,3 +64,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gasgano-2.4.8 (24 Feb 2016)
+
+  24 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  -gasgano-2.4.3-r2.ebuild, +gasgano-2.4.8.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

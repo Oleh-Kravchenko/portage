@@ -65,3 +65,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ds9-bin-7.4 (24 Feb 2016)
+
+  24 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -ds9-bin-7.1.ebuild,
+  +ds9-bin-7.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

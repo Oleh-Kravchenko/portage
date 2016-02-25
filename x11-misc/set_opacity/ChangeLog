@@ -71,3 +71,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 Feb 2016; Sergey Popov <pinkbyte@gentoo.org> metadata.xml,
+  set_opacity-1.0.ebuild, set_opacity-9999.ebuild:
+  adjust HOMEPAGE and live ebuild repo path, add upstream maintainer
+  information
+
+  Gentoo-Bug: 544870
+
+  Package-Manager: portage-2.2.26
+

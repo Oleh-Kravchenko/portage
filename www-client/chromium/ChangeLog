@@ -685,3 +685,19 @@
 
   Package-Manager: portage-2.2.27_p64
 
+  24 Feb 2016; Agostino Sarubbo <ago@gentoo.org>
+  chromium-48.0.2564.116.ebuild:
+  amd64 stable wrt bug #575434
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  24 Feb 2016; Agostino Sarubbo <ago@gentoo.org>
+  chromium-48.0.2564.116.ebuild:
+  x86 stable wrt bug #575434
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

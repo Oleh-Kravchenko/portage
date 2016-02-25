@@ -263,3 +263,28 @@
   Upstream has moved to using zlib all the time, so update the deps and
   configure flags to match.  Otherwise we'd end up using the local zlib.
 
+  24 Feb 2016; Mike Frysinger <vapier@gentoo.org> gdb-7.10.1.ebuild,
+  gdb-9999.ebuild:
+  add python-3.5 #572464
+
+  24 Feb 2016; Mike Frysinger <vapier@gentoo.org> gdb-7.10.1.ebuild:
+  mark 7.10.1 arm64/m68k/s390 stable
+
+  24 Feb 2016; Mike Frysinger <vapier@gentoo.org> -gdb-7.8.2.ebuild,
+  -gdb-7.9.1.ebuild, -gdb-7.10-r1.ebuild:
+  move <7.10.1 versions to toolchain overlay
+
+*gdb-7.11 (24 Feb 2016)
+
+  24 Feb 2016; Mike Frysinger <vapier@gentoo.org> +gdb-7.11.ebuild:
+  version bump to 7.11
+
+*gdb-7.9.1 (24 Feb 2016)
+
+  24 Feb 2016; Mike Frysinger <vapier@gentoo.org> +gdb-7.9.1.ebuild,
+  gdb-7.10.1.ebuild, gdb-7.11.ebuild:
+  restore 7.9.1 for alpha, and move masking to the ebuild
+
+  We have per-ebuild KEYWORDS to track arch issues, so move it out of the
+  arch mask to keep things clear.
+

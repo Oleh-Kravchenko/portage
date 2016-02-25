@@ -230,3 +230,19 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Feb 2016; Doug Goldstein <cardoe@gentoo.org>
+  -mythtv-0.26.0_p20130922.ebuild, -mythtv-0.27.5_p20150627.ebuild,
+  -mythtv-0.27.5_p20150904-r1.ebuild, -mythtv-0.27.5_p20150904-r2.ebuild:
+  mythtv: remove older versions
+
+  Since the versions are all interdependent its easier to do in one big
+  tree commit.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  24 Feb 2016; Doug Goldstein <cardoe@gentoo.org> -files/libdir.patch:
+  remove unused file
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

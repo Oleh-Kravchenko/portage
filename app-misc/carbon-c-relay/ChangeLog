@@ -125,3 +125,11 @@
 
   Package-Manager: portage-2.2.26
 
+*carbon-c-relay-1.8 (24 Feb 2016)
+
+  24 Feb 2016; Fabian Groffen <grobian@gentoo.org> -carbon-c-relay-1.4.ebuild,
+  +carbon-c-relay-1.8.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

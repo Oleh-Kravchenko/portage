@@ -90,3 +90,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*abcde-2.7.1 (24 Feb 2016)
+
+  24 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +abcde-2.7.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  24 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -abcde-2.6.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+
