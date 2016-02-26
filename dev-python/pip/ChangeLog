@@ -308,3 +308,19 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*pip-8.0.2-r2 (25 Feb 2016)
+
+  25 Feb 2016; Justin Lecher <jlec@gentoo.org> +pip-8.0.2-r2.ebuild:
+  Stop unbundling due to continuos problems coming up
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+
+*pip-8.0.3 (25 Feb 2016)
+
+  25 Feb 2016; Justin Lecher <jlec@gentoo.org> +pip-8.0.3.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

@@ -164,3 +164,17 @@
   -drupal-8.0.2.ebuild, +drupal-8.0.3.ebuild:
   Version bump (7.42 / 8.0.3).
 
+*drupal-8.0.4 (25 Feb 2016)
+*drupal-7.43 (25 Feb 2016)
+*drupal-6.38 (25 Feb 2016)
+
+  25 Feb 2016; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> -drupal-6.37.ebuild, +drupal-6.38.ebuild,
+  -drupal-7.42.ebuild, +drupal-7.43.ebuild, -drupal-8.0.3.ebuild,
+  +drupal-8.0.4.ebuild:
+  Security bump for releases 6.38, 7.43 and 8.0.4 - SA-CORE-2016-001.
+  Drop drupal-6 keywords as it has finally reached EoL.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+

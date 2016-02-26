@@ -86,3 +86,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  25 Feb 2016; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  remove leftover entry of proxy-maintainers in metadata.xml
+
+  Package-Manager: portage-2.2.26
+

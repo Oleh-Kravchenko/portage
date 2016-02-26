@@ -157,3 +157,22 @@
   files/i2p-0.9.24_initd, i2p-0.9.24.ebuild:
   QA: update copyrights
 
+*i2p-0.9.24-r1 (14 Feb 2016)
+
+  14 Feb 2016; Matthew Brewer <tomboy64@sina.cn> +i2p-0.9.24-r1.ebuild:
+  rebump to 0.9.24-r1
+
+  adjust requirements for JVM regarding ECDSA
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+
+  14 Feb 2016; Matthew Brewer <tomboy64@sina.cn> metadata.xml:
+  adjust metadata.xml for i2p
+
+  - add tomboy64@sina.cn as additional proxy-maintainer
+  - add name-tag for tharvik
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --ignore-arches
+

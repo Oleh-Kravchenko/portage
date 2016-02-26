@@ -62,3 +62,9 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  25 Feb 2016; Justin Lecher <jlec@gentoo.org> -fpc-2.6.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

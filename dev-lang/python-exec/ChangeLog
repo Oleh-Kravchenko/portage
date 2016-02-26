@@ -210,3 +210,12 @@
   to stdout rather than stderr. This is required for new eselect-python
   versions.
 
+  25 Feb 2016; Michał Górny <mgorny@gentoo.org> python-exec-2.4.2.ebuild,
+  python-exec-9999.ebuild:
+  Explain configuration upgrade in postinst
+
+  25 Feb 2016; Michał Górny <mgorny@gentoo.org> -python-exec-2.2.ebuild,
+  -python-exec-2.2.1.ebuild, -python-exec-2.3.ebuild,
+  -python-exec-2.3.2.ebuild:
+  Drop intermediate masked versions
+

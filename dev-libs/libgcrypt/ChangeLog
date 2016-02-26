@@ -249,3 +249,22 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+*libgcrypt-1.5.5 (25 Feb 2016)
+
+  25 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> +libgcrypt-1.5.5.ebuild:
+  Version bump of 0/11 to 1.5.5
+
+  This is a security fix release for
+    * Mitigate chosen cipher text attacks on ECDH with
+      Weierstrass curves.  [CVE-2015-7511] (already backported
+      to 1.5.4-r2)
+
+    * Use ciphertext blinding for Elgamal decryption.
+      [CVE-2014-3591]
+
+  the libgcrypt 1.5 branch is EOL for security fixes YE2016
+
+  Gentoo-Bug: 541564
+
+  Package-Manager: portage-2.2.27
+

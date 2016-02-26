@@ -101,3 +101,9 @@
 
   Package-Manager: portage-2.2.27
 
+  25 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  liborcus-0.9.2-r1.ebuild:
+  Restore keywords
+
+  Package-Manager: portage-2.2.27
+

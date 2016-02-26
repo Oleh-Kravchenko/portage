@@ -101,3 +101,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*p7zip-15.09-r1 (25 Feb 2016)
+
+  25 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +p7zip-15.09-r1.ebuild:
+  fixing bug 575622
+
+  Package-Manager: portage-2.2.26
+

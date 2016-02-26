@@ -189,3 +189,12 @@
 
   Package-Manager: portage-2.2.27
 
+*xpra-0.16.2-r1 (25 Feb 2016)
+
+  25 Feb 2016; Michael Weber <xmw@gentoo.org> -xpra-0.16.2.ebuild,
+  +xpra-0.16.2-r1.ebuild:
+  Revbump to add xpra system group (bug 572270, thanks Fabian Henze and
+  Florian Schmaus).
+
+  Package-Manager: portage-2.2.27
+

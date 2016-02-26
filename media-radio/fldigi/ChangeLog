@@ -162,3 +162,16 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  25 Feb 2016; Thomas Beierlein <tomjbe@gentoo.org> -fldigi-3.22.13.ebuild,
+  -fldigi-3.23.04.ebuild, -fldigi-3.23.05.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+*fldigi-3.23.08 (25 Feb 2016)
+
+  25 Feb 2016; Thomas Beierlein <tomjbe@gentoo.org> +fldigi-3.23.08.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

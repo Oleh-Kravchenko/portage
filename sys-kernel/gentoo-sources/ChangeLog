@@ -963,3 +963,11 @@
 
   Package-Manager: portage-2.2.26
 
+*gentoo-sources-3.10.98 (25 Feb 2016)
+
+  25 Feb 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.98.ebuild:
+  Linux patch 3.10.98
+
+  Package-Manager: portage-2.2.26
+

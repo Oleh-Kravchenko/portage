@@ -15,3 +15,10 @@
 
   Package-Manager: portage-2.2.27
 
+*rqlite-9999 (25 Feb 2016)
+
+  25 Feb 2016; Zac Medico <zmedico@gentoo.org> +rqlite-9999.ebuild:
+  add 9999 ebuild
+
+  Package-Manager: portage-2.2.27
+

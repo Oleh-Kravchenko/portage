@@ -78,3 +78,8 @@
   mikutter-9999.ebuild:
   version bump; update dependency
 
+  24 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -mikutter-3.1.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

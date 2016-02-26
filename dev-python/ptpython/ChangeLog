@@ -124,3 +124,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ptpython-0.29 (25 Feb 2016)
+
+  25 Feb 2016; Justin Lecher <jlec@gentoo.org> +ptpython-0.29.ebuild:
+  Version Bump
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

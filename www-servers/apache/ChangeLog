@@ -171,3 +171,9 @@
 
   Package-Manager: portage-2.2.27
 
+  25 Feb 2016; Markus Meier <maekke@gentoo.org> apache-2.4.18.ebuild:
+  arm stable, bug #468302
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

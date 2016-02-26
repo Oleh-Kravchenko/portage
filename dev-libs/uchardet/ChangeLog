@@ -135,3 +135,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  25 Feb 2016; Markus Meier <maekke@gentoo.org> uchardet-0.0.5-r1.ebuild:
+  add ~arm, bug #569114
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

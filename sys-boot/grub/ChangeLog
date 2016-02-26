@@ -237,3 +237,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  25 Feb 2016; Mike Gilbert <floppym@gentoo.org> grub-2.02_beta2-r8.ebuild,
+  grub-2.02_beta2-r9.ebuild:
+  Set subslot to PVR
+
+  This change allows packages to rebuild themselves whenever grub is upgraded.
+
+  Bug: https://bugs.gentoo.org/575334
+
+  Package-Manager: portage-2.2.27_p64
+

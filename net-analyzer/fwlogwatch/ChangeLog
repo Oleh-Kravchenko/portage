@@ -70,3 +70,8 @@
 
   Package-Manager: portage-2.2.27
 
+  25 Feb 2016; Jeroen Roovers <jer@gentoo.org> fwlogwatch-1.5.ebuild:
+  Add USE=geoip.
+
+  Package-Manager: portage-2.2.27
+

@@ -327,3 +327,12 @@
 
   Package-Manager: portage-2.2.27_p64
 
+*google-chrome-beta-49.0.2623.63_p1 (25 Feb 2016)
+
+  25 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-beta-49.0.2623.56_p1.ebuild,
+  +google-chrome-beta-49.0.2623.63_p1.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.27_p64
+

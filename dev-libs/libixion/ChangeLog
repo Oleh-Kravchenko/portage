@@ -92,3 +92,17 @@
 
   Package-Manager: portage-2.2.27
 
+*libixion-0.9.1-r1 (24 Feb 2016)
+
+  24 Feb 2016; Andreas Sturmlechner <andreas.sturmlechner@gmail.com>
+  files/libixion-0.9.1-python-optional.patch,
+  -files/libixion-0.9.1-python-symbol.patch, -libixion-0.9.1.ebuild,
+  +libixion-0.9.1-r1.ebuild:
+  Fix build, EAPI=6
+
+  - ${P}-python-optional.patch was removing -DMDDS_HASH_CONTAINER_BOOST,
+    fixed and removed any python-unrelated parts from the patch
+  - Removed unnecessary ${P}-python-symbol.patch
+
+  Package-Manager: portage-2.2.27
+

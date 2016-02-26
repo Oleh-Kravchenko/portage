@@ -276,3 +276,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 Feb 2016; Steev Klimaszewski <steev@gentoo.org> portage-2.2.26.ebuild:
+  stable 2.2.26 for arm64
+
+  also fix the copyright year
+
+  Package-Manager: portage-2.2.27
+

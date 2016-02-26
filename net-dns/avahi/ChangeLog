@@ -172,3 +172,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  25 Feb 2016; Markus Meier <maekke@gentoo.org> avahi-0.6.32.ebuild:
+  add ~arm, bug #574870
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

@@ -194,3 +194,11 @@
 
   Package-Manager: portage-2.2.27
 
+  25 Feb 2016; Amy Winston <amynka@gentoo.org>
+  -files/opencv-3.1.0-fix-hal-headers.patch,
+  -files/opencv-3.1.0-fix-ocl-declaration.patch,
+  -files/opencv-3.1.0-invalid-string-usage.patch, -opencv-3.1.0-r1.ebuild:
+  drop old 3.1.0-r1 and patches
+
+  Package-Manager: portage-2.2.26
+

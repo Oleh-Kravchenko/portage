@@ -65,3 +65,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pyephem-3.7.6.0 (24 Feb 2016)
+
+  24 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -pyephem-3.7.5.1.ebuild,
+  -pyephem-3.7.5.2.ebuild, +pyephem-3.7.6.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

@@ -189,3 +189,15 @@
 
   Package-Manager: portage-2.2.26
 
+  25 Feb 2016; José María Alonso Josa <nimiux@gentoo.org>
+  -logrotate-3.8.9.ebuild, -logrotate-3.8.9-r1.ebuild:
+  Drop old
+
+  25 Feb 2016; José María Alonso Josa <nimiux@gentoo.org>
+  -files/logrotate-3.8.9-Werror.patch,
+  -files/logrotate-3.8.9-atomic-create.patch,
+  -files/logrotate-3.8.9-fbsd.patch,
+  -files/logrotate-3.8.9-ignore-hidden.patch,
+  -files/logrotate-3.8.9-noasprintf.patch:
+  Drop old patches
+
