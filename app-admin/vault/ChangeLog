@@ -121,3 +121,9 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Feb 2016; Zac Medico <zmedico@gentoo.org> vault-0.4.1.ebuild,
+  vault-9999.ebuild:
+  remove go-oauth2 dep (it's bundled in Godeps)
+
+  Package-Manager: portage-2.2.27
+

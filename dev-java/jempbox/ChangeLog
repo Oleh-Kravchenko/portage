@@ -89,3 +89,11 @@
 
   Package-Manager: portage-2.2.26
 
+*jempbox-1.8.11 (25 Feb 2016)
+
+  25 Feb 2016; James Le Cuirot <chewi@gentoo.org> +jempbox-1.8.11.ebuild,
+  metadata.xml:
+  Version bump, EAPI bump, java-pkg-simple rewrite
+
+  Package-Manager: portage-2.2.27
+

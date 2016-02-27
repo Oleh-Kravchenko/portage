@@ -63,3 +63,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  25 Feb 2016; David Seifert <soap@gentoo.org> files/snd-12.6-as-needed.patch:
+  Update patch for -ldl underlinking
+
+  Gentoo-Bug: 510434, 540594
+
+  Package-Manager: portage-2.2.27
+
+*snd-16.3 (25 Feb 2016)
+
+  25 Feb 2016; David Seifert <soap@gentoo.org>
+  +files/snd-16.3-portaudio.patch, +snd-16.3.ebuild:
+  version bump to 16.3
+
+  Gentoo-Bug: 404201, 475150
+  * EAPI=6
+
+  Package-Manager: portage-2.2.27
+

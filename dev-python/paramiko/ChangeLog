@@ -131,3 +131,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*paramiko-9999 (26 Feb 2016)
+
+  26 Feb 2016; Justin Lecher <jlec@gentoo.org>
+  +files/paramiko-1.16.0-install_requires.patch, paramiko-1.16.0.ebuild,
+  +paramiko-9999.ebuild:
+  Fix broken whitespacing in version declaration of deps
+
+  * Add live version
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=575664
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

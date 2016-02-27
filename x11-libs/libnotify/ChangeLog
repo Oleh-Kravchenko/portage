@@ -68,3 +68,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libnotify-0.7.6-r2 (25 Feb 2016)
+
+  25 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +libnotify-0.7.6-r2.ebuild:
+  Clean up XDG environment, bug 567192
+
+  Package-Manager: portage-2.2.27
+

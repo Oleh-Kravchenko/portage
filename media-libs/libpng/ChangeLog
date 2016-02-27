@@ -249,3 +249,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Feb 2016; Doug Goldstein <cardoe@gentoo.org> -libpng-1.6.18.ebuild:
+  remove vulnerable version
+
+  Remove version 1.6.18 which is vulnerable to CVE-2015-8126.
+
+  Gentoo-Bug: 565678
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

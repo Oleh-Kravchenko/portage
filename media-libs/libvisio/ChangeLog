@@ -106,3 +106,9 @@
 
   Package-Manager: portage-2.2.27
 
+  25 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -libvisio-0.1.3-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

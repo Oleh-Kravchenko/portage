@@ -82,3 +82,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+*libosinfo-0.3.0-r1 (25 Feb 2016)
+
+  25 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +libosinfo-0.3.0-r1.ebuild:
+  Clean up XDG environment, bug 567192
+
+  Package-Manager: portage-2.2.27
+

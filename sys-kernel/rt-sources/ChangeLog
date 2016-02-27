@@ -89,3 +89,48 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*rt-sources-4.1.15_p17 (20 Feb 2016)
+
+  20 Feb 2016; Karl Linden <karl.j.linden@gmail.com>
+  -rt-sources-4.1.5_p5.ebuild, +rt-sources-4.1.15_p17.ebuild:
+  version bump 4.1.5_p5 -> 4.1.15_p17
+
+  Package-Manager: portage-2.2.27
+
+  20 Feb 2016; Karl Linden <karl.j.linden@gmail.com>
+  -rt-sources-4.0.5_p4.ebuild:
+  drop version 4.0.5_p4
+
+  Package-Manager: portage-2.2.27
+
+*rt-sources-3.14.58_p59 (21 Feb 2016)
+
+  21 Feb 2016; Karl Linden <karl.j.linden@gmail.com>
+  -rt-sources-3.14.46_p46.ebuild, +rt-sources-3.14.58_p59.ebuild:
+  version bump 3.14.46_p46 -> 3.14.58_p59
+
+  Package-Manager: portage-2.2.27
+
+*rt-sources-3.18.25_p23 (21 Feb 2016)
+
+  21 Feb 2016; Karl Linden <karl.j.linden@gmail.com>
+  -rt-sources-3.18.17_p14.ebuild, +rt-sources-3.18.25_p23.ebuild:
+  version bump 3.18.17_p14 -> 3.18.25_p23
+
+  Package-Manager: portage-2.2.27
+
+*rt-sources-4.4.1_p6 (21 Feb 2016)
+
+  21 Feb 2016; Karl Linden <karl.j.linden@gmail.com>
+  +rt-sources-4.4.1_p6.ebuild:
+  version bump to 4.4.1_p6
+
+  Package-Manager: portage-2.2.27
+
+  26 Feb 2016; Jason Zaman <perfinion@gentoo.org> metadata.xml:
+  Add Karl Linden as Proxy Maintainer
+
+  And move psomas down since he's been on devaway for a few years
+
+  Package-Manager: portage-2.2.26
+

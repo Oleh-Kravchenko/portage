@@ -67,3 +67,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Feb 2016; Sergey Popov <pinkbyte@gentoo.org> -cx_Freeze-4.3.1-r2.ebuild,
+  -cx_Freeze-4.3.2.ebuild:
+  drop old versions
+
+  Package-Manager: portage-2.2.27
+
+*cx_Freeze-4.3.4 (26 Feb 2016)
+
+  26 Feb 2016; Sergey Popov <pinkbyte@gentoo.org> +cx_Freeze-4.3.4.ebuild,
+  +files/cx_Freeze-4.3.4-buildsystem.patch:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

@@ -100,3 +100,17 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Feb 2016; Zac Medico <zmedico@gentoo.org> go-oauth2-0_pre20150701.ebuild,
+  go-oauth2-0_pre20160220.ebuild:
+  src_install: use get_golibdir
+
+  Package-Manager: portage-2.2.27
+
+*go-oauth2-0_pre20160222 (26 Feb 2016)
+
+  26 Feb 2016; Zac Medico <zmedico@gentoo.org>
+  -go-oauth2-0_pre20160220.ebuild, +go-oauth2-0_pre20160222.ebuild:
+  version bump to 0_pre20160222, fix bug 575722
+
+  Package-Manager: portage-2.2.27
+

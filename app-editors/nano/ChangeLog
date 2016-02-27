@@ -196,3 +196,8 @@
   -nano-2.4.1.ebuild, -nano-2.4.2.ebuild:
   app-editor/nano: drop old <2.4.3 versions
 
+*nano-2.5.3 (25 Feb 2016)
+
+  25 Feb 2016; Mike Frysinger <vapier@gentoo.org> +nano-2.5.3.ebuild:
+  version bump to 2.5.3
+

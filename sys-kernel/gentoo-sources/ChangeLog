@@ -971,3 +971,26 @@
 
   Package-Manager: portage-2.2.26
 
+*gentoo-sources-3.14.62 (25 Feb 2016)
+
+  25 Feb 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.62.ebuild:
+  Linux patch 3.14.62
+
+  Package-Manager: portage-2.2.26
+
+*gentoo-sources-4.4.3 (26 Feb 2016)
+
+  26 Feb 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.3.ebuild:
+  Linux patch 4.4.3. BFQ Patchset v7r11 for 4.4.3
+
+  Package-Manager: portage-2.2.26
+
+*gentoo-sources-3.12.55 (26 Feb 2016)
+
+  26 Feb 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.12.55.ebuild:
+  Linux patch 3.12.55
+
+  Package-Manager: portage-2.2.26
+

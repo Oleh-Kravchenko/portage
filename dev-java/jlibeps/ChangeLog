@@ -68,3 +68,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jlibeps-0.1-r1 (26 Feb 2016)
+
+  26 Feb 2016; Patrice Clement <monsieurp@gentoo.org> +jlibeps-0.1-r1.ebuild:
+  Housekeeping. Fix DESCRIPTION length.
+
+  Switch to java-pkg-simple whilst at it.
+
+  Package-Manager: portage-2.2.26
+
+  26 Feb 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/jlibeps-build.xml.patch, -jlibeps-0.1.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+

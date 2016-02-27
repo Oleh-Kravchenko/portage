@@ -91,3 +91,9 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Feb 2016; Markus Meier <maekke@gentoo.org> moc-2.6_alpha1-r1.ebuild:
+  add ~arm, bug #572210
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

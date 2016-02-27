@@ -64,3 +64,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*casa-data-10763 (26 Feb 2016)
+
+  26 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> +casa-data-10763.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+*casa-data-20160222 (26 Feb 2016)
+
+  26 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -casa-data-10013.ebuild,
+  -casa-data-10763.ebuild, +casa-data-20160222.ebuild:
+  take smaller data package instead of subversion based one
+
+  Package-Manager: portage-2.2.27
+

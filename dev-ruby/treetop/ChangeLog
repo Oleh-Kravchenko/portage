@@ -96,3 +96,10 @@
 
   Package-Manager: portage-2.2.26
 
+*treetop-1.6.5 (26 Feb 2016)
+
+  26 Feb 2016; Hans de Graaff <graaff@gentoo.org> +treetop-1.6.5.ebuild:
+  add 1.6.5
+
+  Package-Manager: portage-2.2.26
+

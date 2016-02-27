@@ -73,3 +73,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*django-recaptcha-1.0.5 (26 Feb 2016)
+
+  26 Feb 2016; Patrick Lauer <patrick@gentoo.org>
+  +django-recaptcha-1.0.5.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

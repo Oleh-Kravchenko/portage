@@ -84,3 +84,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*PEAR-Archive_Tar-1.4.2 (26 Feb 2016)
+
+  26 Feb 2016; Brian Evans <grknight@gentoo.org>
+  +PEAR-Archive_Tar-1.4.2.ebuild:
+  Version bump to 1.4.2 and EAPI6
+
+  Package-Manager: portage-2.2.27
+

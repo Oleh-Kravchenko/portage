@@ -231,3 +231,9 @@
   Fixes: 560652
   Signed-off-by: Jason A. Donenfeld <zx2c4@gentoo.org>
 
+  26 Feb 2016; Fabian Groffen <grobian@gentoo.org> tmux-2.1.ebuild,
+  tmux-9999.ebuild:
+  restrict utempter dependency by Yuta SATOH, bug #575712
+
+  Package-Manager: portage-2.2.27-prefix
+

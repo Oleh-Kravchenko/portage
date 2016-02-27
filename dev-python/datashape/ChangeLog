@@ -74,3 +74,10 @@
 
   Package-Manager: portage-2.2.27
 
+*datashape-0.5.0 (26 Feb 2016)
+
+  26 Feb 2016; Patrick Lauer <patrick@gentoo.org> +datashape-0.5.0.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

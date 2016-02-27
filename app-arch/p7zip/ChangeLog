@@ -109,3 +109,11 @@
 
   Package-Manager: portage-2.2.26
 
+*p7zip-15.09-r2 (26 Feb 2016)
+
+  26 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -p7zip-15.09-r1.ebuild, +p7zip-15.09-r2.ebuild:
+  finishing up bug 575622
+
+  Package-Manager: portage-2.2.26
+

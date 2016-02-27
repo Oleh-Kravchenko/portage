@@ -308,3 +308,11 @@
 
   Package-Manager: portage-2.2.27
 
+*postfix-3.1.0 (26 Feb 2016)
+
+  26 Feb 2016; Eray Aslan <eras@gentoo.org> -postfix-3.1.0_rc1.ebuild,
+  +postfix-3.1.0.ebuild:
+  version bump to 3.1.0
+
+  Package-Manager: portage-2.2.27
+

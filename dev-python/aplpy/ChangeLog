@@ -85,3 +85,9 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Feb 2016; Justin Lecher <jlec@gentoo.org> aplpy-1.0.ebuild, metadata.xml:
+  Drop unneeded die
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

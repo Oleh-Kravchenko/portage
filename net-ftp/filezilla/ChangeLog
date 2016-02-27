@@ -214,3 +214,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  26 Feb 2016; Markus Meier <maekke@gentoo.org> filezilla-3.15.0.2.ebuild:
+  add ~arm, bug #571888
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

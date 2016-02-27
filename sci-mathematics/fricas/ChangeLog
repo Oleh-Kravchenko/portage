@@ -107,3 +107,17 @@
 
   Package-Manager: portage-2.2.27
 
+*fricas-1.2.7-r3 (26 Feb 2016)
+
+  26 Feb 2016; Andrey Grozin <grozin@gentoo.org> +fricas-1.2.7-r3.ebuild:
+  sbcl version must be <=1.3.0
+
+  Bug: 575648
+
+  Package-Manager: portage-2.2.27
+
+  26 Feb 2016; Andrey Grozin <grozin@gentoo.org> -fricas-1.2.7-r2.ebuild:
+  cleaning 1.2.7-r2
+
+  Package-Manager: portage-2.2.27
+

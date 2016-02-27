@@ -157,3 +157,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*eigen-3.2.8-r2 (26 Feb 2016)
+
+  26 Feb 2016; Patrick Lauer <patrick@gentoo.org> -eigen-3.2.8-r1.ebuild,
+  +eigen-3.2.8-r2.ebuild:
+  Re-fix pkgconfig file
+
+  Package-Manager: portage-2.2.27
+

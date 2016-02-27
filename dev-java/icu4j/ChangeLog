@@ -118,3 +118,8 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Feb 2016; James Le Cuirot <chewi@gentoo.org> icu4j-55.1.ebuild:
+  Stable on amd64, ppc64, x86 using ALLARCHES policy
+
+  Package-Manager: portage-2.2.27
+

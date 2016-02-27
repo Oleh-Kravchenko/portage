@@ -101,3 +101,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pdfbox-1.8.11 (25 Feb 2016)
+
+  25 Feb 2016; James Le Cuirot <chewi@gentoo.org> metadata.xml,
+  +pdfbox-1.8.11.ebuild:
+  Version bump, unbundling, java-pkg-simple rewrite
+
+  fontbox and jempbox are now unbundled. They were previously built from
+  the same tarball but not installed, leaving pdfbox in a broken state.
+
+  Package-Manager: portage-2.2.27
+

@@ -78,3 +78,10 @@
 
   Package-Manager: portage-2.2.27
 
+*argcomplete-1.1.0 (26 Feb 2016)
+
+  26 Feb 2016; Patrick Lauer <patrick@gentoo.org> +argcomplete-1.1.0.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

@@ -46,3 +46,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  jerasure-2.0.0.ebuild:
+  adding arm64 keyword to C based openstack packages
+
