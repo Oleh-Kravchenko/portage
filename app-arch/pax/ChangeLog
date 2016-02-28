@@ -63,3 +63,12 @@
   for packages lacking maintainers, in favor of assuming maintainer-needed
   whenever the package has no maintainers.
 
+  27 Feb 2016; Mike Frysinger <vapier@gentoo.org> pax-3.4.12.16.ebuild,
+  pax-3.4.12.16-r1.ebuild:
+  update HOMEPAGE #547618
+
+  27 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/pax-3.4-sysmacros.patch, pax-3.4.12.16.ebuild,
+  pax-3.4.12.16-r1.ebuild:
+  fix building w/newer glibc
+

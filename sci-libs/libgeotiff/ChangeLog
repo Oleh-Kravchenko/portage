@@ -64,3 +64,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libgeotiff-1.4.1 (27 Feb 2016)
+
+  27 Feb 2016; Amy Winston <amynka@gentoo.org> +libgeotiff-1.4.1.ebuild:
+  version bump 1.4.1 bug #555498
+
+  Package-Manager: portage-2.2.26
+
+  27 Feb 2016; Amy Winston <amynka@gentoo.org> libgeotiff-1.4.0.ebuild:
+  description change
+
+  Package-Manager: portage-2.2.26
+
+  27 Feb 2016; Amy Winston <amynka@gentoo.org> libgeotiff-1.4.0.ebuild:
+  copyright updated
+
+  Package-Manager: portage-2.2.26
+

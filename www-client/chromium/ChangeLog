@@ -701,3 +701,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Feb 2016; Mike Gilbert <floppym@gentoo.org>
+  -chromium-48.0.2564.82.ebuild, -chromium-48.0.2564.109.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27_p64
+

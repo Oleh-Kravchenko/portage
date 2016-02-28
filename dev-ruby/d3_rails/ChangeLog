@@ -88,3 +88,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*d3_rails-3.5.16 (27 Feb 2016)
+
+  27 Feb 2016; Hans de Graaff <graaff@gentoo.org> +d3_rails-3.5.16.ebuild:
+  add 3.5.16
+
+  Package-Manager: portage-2.2.26
+

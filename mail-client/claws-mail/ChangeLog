@@ -181,3 +181,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Feb 2016; Jeroen Roovers <jer@gentoo.org> claws-mail-3.13.2.ebuild:
+  Stable for HPPA (bug #570692).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

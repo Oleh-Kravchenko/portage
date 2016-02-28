@@ -149,3 +149,9 @@
   20 Feb 2016; William Hubbs <williamh@gentoo.org> dhcpcd-6.10.1.ebuild:
   mark 6.10.1 amd64 stable for bug #575240
 
+  27 Feb 2016; Jeroen Roovers <jer@gentoo.org> dhcpcd-6.10.1.ebuild:
+  Stable for HPPA PPC64 (bug #575240).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

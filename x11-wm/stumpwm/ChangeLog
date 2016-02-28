@@ -77,3 +77,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Feb 2016; José María Alonso Josa <nimiux@gentoo.org> metadata.xml,
+  stumpwm-0.9.9.ebuild, stumpwm-9999.ebuild:
+  Add contrib modules
+
+  27 Feb 2016; José María Alonso Josa <nimiux@gentoo.org>
+  stumpwm-0.9.9.ebuild, stumpwm-9999.ebuild:
+  Fix ASDF directory
+
+  27 Feb 2016; José María Alonso Josa <nimiux@gentoo.org>
+  stumpwm-0.9.9.ebuild:
+  Fix config for contrib use flag
+

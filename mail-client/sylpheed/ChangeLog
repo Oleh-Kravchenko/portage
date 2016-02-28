@@ -81,3 +81,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Feb 2016; Akinori Hattori <hattya@gentoo.org> sylpheed-3.4.2.ebuild,
+  sylpheed-3.4.3.ebuild, sylpheed-3.4.3-r1.ebuild:
+  fix multilib-strict
+
+  Gentoo-Bug: 554874
+
+  Package-Manager: portage-2.2.26
+
+*sylpheed-3.5.0 (27 Feb 2016)
+
+  27 Feb 2016; Akinori Hattori <hattya@gentoo.org> +sylpheed-3.5.0.ebuild:
+  new upstream release
+
+  Package-Manager: portage-2.2.26
+

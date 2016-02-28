@@ -244,3 +244,11 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Feb 2016; Yuta Satoh <nigoro.dev@gmail.com> go-1.6-r2.ebuild:
+  add ~amd64-fbsd, ~x86-fbsd keyword, bug #575510
+
+  27 Feb 2016; Fabian Groffen <grobian@gentoo.org> go-1.6-r2.ebuild:
+  keyworded 1.6-r2 for x64-macos, bug #575510
+
+  Package-Manager: portage-2.2.27-prefix
+

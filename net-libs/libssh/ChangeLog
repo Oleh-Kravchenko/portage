@@ -106,3 +106,21 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  27 Feb 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/libssh-0.6.5-compilefix.patch, libssh-0.6.5.ebuild:
+  Store patch locally instead of hot-linking.
+
+  Package-Manager: portage-2.2.27
+
+  27 Feb 2016; Jeroen Roovers <jer@gentoo.org> libssh-0.7.2.ebuild,
+  libssh-0.7.3.ebuild:
+  Restore inexplicably dropped IA64 keywording.
+
+  Package-Manager: portage-2.2.27
+
+  27 Feb 2016; Jeroen Roovers <jer@gentoo.org> libssh-0.7.3.ebuild:
+  Stable for HPPA PPC64 (bug #575484).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

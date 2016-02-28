@@ -86,3 +86,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Feb 2016; Ryan Hill <rhill@gentoo.org> -codeblocks-13.12-r1.ebuild,
+  codeblocks-9999.ebuild:
+  Revert "Support wxGTK:3.0" (Bug #575716)
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Ryan Hill <rhill@gentoo.org>
+

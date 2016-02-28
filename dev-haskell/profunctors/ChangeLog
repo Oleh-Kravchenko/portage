@@ -101,3 +101,9 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  profunctors-4.4.1.ebuild:
+  stable for x86, amd64
+
+  Package-Manager: portage-2.2.27
+

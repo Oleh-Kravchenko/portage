@@ -233,3 +233,9 @@
 
   Package-Manager: portage-2.2.27
 
+  27 Feb 2016; Jeroen Roovers <jer@gentoo.org> genkernel-3.4.52.2.ebuild:
+  Stable for HPPA PPC64 (bug #556398).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

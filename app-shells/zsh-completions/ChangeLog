@@ -86,3 +86,15 @@
 
   Package-Manager: portage-2.2.27
 
+*zsh-completions-0.16.0 (27 Feb 2016)
+
+  27 Feb 2016; Manuel Rüger <mrueg@gentoo.org> +zsh-completions-0.16.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  27 Feb 2016; Manuel Rüger <mrueg@gentoo.org> -zsh-completions-0.14.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

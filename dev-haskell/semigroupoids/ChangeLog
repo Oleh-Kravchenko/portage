@@ -86,3 +86,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Feb 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  semigroupoids-4.3.ebuild:
+  stable for x86, amd64
+
+  Package-Manager: portage-2.2.27
+

@@ -353,3 +353,34 @@
   -openssl-1.0.2e-r1.ebuild, -openssl-1.0.2f-r1.ebuild:
   the team didn't like my chacha patch
 
+  26 Feb 2016; Doug Goldstein <cardoe@gentoo.org>
+  -files/openssl-1.0.0h-pkg-config.patch,
+  -files/openssl-1.0.1f-revert-alpha-perl-generation.patch,
+  -files/openssl-1.0.1m-ipv6.patch, -files/openssl-1.0.1m-x32.patch,
+  -files/openssl-1.0.1p-parallel-build.patch, -files/openssl-1.0.1r-x32.patch,
+  -openssl-1.0.1p.ebuild, -openssl-1.0.1r.ebuild, -openssl-1.0.2e.ebuild:
+  remove vulnerable versions
+
+  Due to multiple vulnerabilities remove outdated versions of OpenSSL.
+
+  Gentoo-Bug: 567476
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  26 Feb 2016; Doug Goldstein <cardoe@gentoo.org> -openssl-0.9.8z_p7.ebuild:
+  remove vulnerable version
+
+  Due to multiple vulnerabilities remove outdated version of OpenSSL.
+
+  Gentoo-Bug: 567476
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  26 Feb 2016; Doug Goldstein <cardoe@gentoo.org> -files/gentoo.config-1.0.1:
+  remove no longer necessary file
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

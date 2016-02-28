@@ -69,3 +69,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*funtools-1.4.6 (27 Feb 2016)
+
+  27 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  -files/funtools-1.4.4-ds9-fixes.patch,
+  -files/funtools-1.4.4-fix-autoheader.patch,
+  -files/funtools-1.4.4-fix-crashes.patch,
+  -files/funtools-1.4.4-fix-hardening.patch,
+  -files/funtools-1.4.4-fix-includes.patch,
+  -files/funtools-1.4.4-makefiles.patch, -funtools-1.4.4-r4.ebuild,
+  +funtools-1.4.6.ebuild:
+  Version bum
+
+  Some cleanup of really unused version.
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=536630
+
+  Package-Manager: portage-2.2.27
+

@@ -165,3 +165,9 @@
 
   Package-Manager: portage-2.2.27
 
+  27 Feb 2016; Jeroen Roovers <jer@gentoo.org> eigen-3.2.7.ebuild,
+  eigen-3.2.8-r2.ebuild:
+  Drop HPPA keywording.
+
+  Package-Manager: portage-2.2.27
+

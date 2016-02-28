@@ -164,3 +164,9 @@
 
   Package-Manager: portage-2.2.27
 
+  27 Feb 2016; Jeroen Roovers <jer@gentoo.org> squid-3.5.15.ebuild:
+  Stable for HPPA PPC64 (bug #575542).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

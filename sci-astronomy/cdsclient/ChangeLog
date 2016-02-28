@@ -63,3 +63,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cdsclient-3.8.1 (27 Feb 2016)
+
+  27 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -cdsclient-3.7.2.ebuild,
+  +cdsclient-3.8.1.ebuild, files/cdsclient-makefile.patch:
+  Version bump and cleanup
+
+  Package-Manager: portage-2.2.27
+

@@ -68,3 +68,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Feb 2016; Steev Klimaszewski <steev@gentoo.org>
+  u-boot-tools-2015.04.ebuild:
+  add ~arm64 to 2015.04
+
+  Tested on X-C1
+
+  Package-Manager: portage-2.2.27
+

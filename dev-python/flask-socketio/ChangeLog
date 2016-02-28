@@ -89,3 +89,9 @@
 
   Package-Manager: portage-2.2.27
 
+  27 Feb 2016; Zac Medico <zmedico@gentoo.org> -flask-socketio-0.6.0.ebuild,
+  -flask-socketio-1.1.ebuild:
+  remove old versions
+
+  Package-Manager: portage-2.2.27
+
