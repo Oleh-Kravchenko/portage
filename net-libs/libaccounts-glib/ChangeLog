@@ -81,3 +81,17 @@
 
   Package-Manager: portage-2.2.27
 
+*libaccounts-glib-1.21-r2 (28 Feb 2016)
+
+  28 Feb 2016; Manuel Rüger <mrueg@gentoo.org>
+  +libaccounts-glib-1.21-r2.ebuild:
+  Revbump to use correct tarball
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Manuel Rüger <mrueg@gentoo.org>
+  -libaccounts-glib-1.21-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

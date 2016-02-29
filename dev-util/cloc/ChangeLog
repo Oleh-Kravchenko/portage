@@ -68,3 +68,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cloc-1.66 (28 Feb 2016)
+
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> +cloc-1.66.ebuild,
+  metadata.xml:
+  version bump to 1.66
+
+  Package-Manager: portage-2.2.26
+
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> cloc-1.64.ebuild:
+  Stable on amd64, ppc, ppc64, x86 using ALLARCHES policy
+
+  Package-Manager: portage-2.2.26
+
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> -cloc-1.60.ebuild,
+  -cloc-1.62.ebuild:
+  drop old versions 1.60, 1.62
+
+  Package-Manager: portage-2.2.26
+

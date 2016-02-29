@@ -100,3 +100,8 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> gnome-characters-3.18.1.ebuild:
+  Ensure all prepare phases are run
+
+  Package-Manager: portage-2.2.27
+

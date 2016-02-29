@@ -63,3 +63,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  DateTime-Tiny-1.40.0.ebuild, +files/1.04-locale-c.patch:
+  Fix test bug w/ new DateTime::Locale
+
+  See https://rt.cpan.org/Public/Bug/Display.html?id=108636
+
+  Only affects tests.
+
+  Package-Manager: portage-2.2.27
+

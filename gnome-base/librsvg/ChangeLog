@@ -224,3 +224,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+*librsvg-2.40.13-r1 (28 Feb 2016)
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org>
+  +files/librsvg-2.40.13-filters-crash.patch, +librsvg-2.40.13-r1.ebuild:
+  Fix crashes when filters don't exist (#575496 by Andreas Grois)
+
+  Package-Manager: portage-2.2.27
+

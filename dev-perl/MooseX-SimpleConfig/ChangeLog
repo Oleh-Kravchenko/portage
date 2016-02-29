@@ -63,3 +63,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*MooseX-SimpleConfig-0.110.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-SimpleConfig-0.110.0.ebuild:
+  Bump to version 0.110.0
+
+  - EAPI6
+  - Update dependencies
+
+  Upstream:
+  - Tests no longer subject to race condition failures
+  - Tests no longer fail due to missing deps
+
+  Package-Manager: portage-2.2.27
+

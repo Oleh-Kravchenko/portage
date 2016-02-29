@@ -164,3 +164,11 @@
 
   Package-Manager: portage-2.2.26
 
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  python-keystoneclient-1.7.3.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+

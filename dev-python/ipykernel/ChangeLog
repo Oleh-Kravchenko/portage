@@ -43,3 +43,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  ipykernel-4.3.0.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+

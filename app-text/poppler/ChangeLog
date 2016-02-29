@@ -170,3 +170,21 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> poppler-0.41.0.ebuild,
+  poppler-9999.ebuild:
+  Add subslot for goi
+  https://wiki.gentoo.org/wiki/Project:GNOME/Gnome_Team_Ebuild_Policies#dev-
+  libs.2Fgobject-introspection:.3D_dependency
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> poppler-0.32.0.ebuild:
+  Fix build issues with XDG vars also in stable
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Drop obsolete metadata use description
+
+  Package-Manager: portage-2.2.27
+

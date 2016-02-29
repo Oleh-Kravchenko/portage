@@ -71,3 +71,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Feb 2016; Maxim Koltsov <maksbotan@gentoo.org> tagpy-2013.1.ebuild:
+  add PYTHON_USEDEP to dev-libs/boost dependency
+
+  Package-Manager: portage-2.2.27
+

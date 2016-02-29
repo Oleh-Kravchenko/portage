@@ -76,3 +76,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pgpool2-3.3.8 (28 Feb 2016)
+
+  28 Feb 2016; Patrick Lauer <patrick@gentoo.org> +pgpool2-3.3.8.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

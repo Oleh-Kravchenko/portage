@@ -86,3 +86,22 @@
 
   Package-Manager: portage-2.2.27
 
+*Mozilla-CA-20160104 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Mozilla-CA-20160104.ebuild:
+  Bump to version 20160104
+
+  Upstream:
+  - Removed Certs:
+   * TURKTRUST Certificate Services Provider Root 1
+   * TC TrustCenter Universal CA I
+   * ComSign Secured CA
+   * Buypass Class 3 CA 1
+  - Added Certs:
+   * TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı H5
+   * TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı H6
+   * Certinomis - Root CA
+
+  Package-Manager: portage-2.2.27
+

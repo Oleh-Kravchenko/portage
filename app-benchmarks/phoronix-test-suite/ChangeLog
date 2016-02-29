@@ -61,3 +61,14 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+*phoronix-test-suite-6.2.1 (26 Feb 2016)
+
+  26 Feb 2016; Jan Ziak (⚛) <0xe2.0x9a.0x9b@gmail.com>
+  +phoronix-test-suite-6.2.1.ebuild:
+  Add app-benchmarks/phoronix-test-suite 6.2.1
+
+  28 Feb 2016; Ulrich Müller <ulm@gentoo.org> metadata.xml:
+  metadata.xml: Add maintainer-needed comment to packages without maintainer.
+
+  Bug: 575810
+

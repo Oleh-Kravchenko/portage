@@ -63,3 +63,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*MooseX-Types-DateTime-0.130.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Types-DateTime-0.130.0.ebuild:
+  Bump to version 0.130.0
+
+  - EAPI6
+  - Cleanup deps
+  - Fix broken conditional that pulled Test-use-ok even when Test-More
+  satisfies it
+
+  Upstream:
+  - Tests fixed for future DateTime::Locale changes
+
+  Package-Manager: portage-2.2.27
+

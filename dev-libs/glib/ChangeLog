@@ -242,3 +242,22 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+*glib-2.46.2-r2 (28 Feb 2016)
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org>
+  +files/glib-2.46.2-memleak.patch, +glib-2.46.2-r2.ebuild:
+  Fix memory leak (#575018 by Rick Harris), skip more broken tests
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> glib-2.46.2-r2.ebuild:
+  amd64 stable
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> -glib-2.42.2.ebuild,
+  -glib-2.44.1.ebuild, -glib-2.46.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+

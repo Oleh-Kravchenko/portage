@@ -252,3 +252,16 @@
 
   Package-Manager: portage-2.2.27-prefix
 
+  28 Feb 2016; William Hubbs <williamh@gentoo.org> go-1.6-r2.ebuild:
+  Add bootstrap tarball for Solaris for #575510
+
+  28 Feb 2016; Fabian Groffen <grobian@gentoo.org> go-1.6-r2.ebuild:
+  fix kernel_SunOS name (lowercase kernel)
+
+  Package-Manager: portage-2.2.27-prefix
+
+  28 Feb 2016; Fabian Groffen <grobian@gentoo.org> go-1.6-r2.ebuild:
+  fix for and keyworded ~x64-solaris, bug #575510
+
+  Package-Manager: portage-2.2.27-prefix
+

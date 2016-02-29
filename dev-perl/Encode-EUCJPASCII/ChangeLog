@@ -63,3 +63,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Encode-EUCJPASCII-0.30.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Encode-EUCJPASCII-0.30.0.ebuild:
+  Normalise Version + EAPI6ify
+
+  - Normalise version to be in line with
+    Gentoo Perl Normalisation Scheme
+
+  - use EAPI6
+  - Nuke bad pod tests
+
+  Package-Manager: portage-2.2.27
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  -Encode-EUCJPASCII-0.03.ebuild:
+  Remove old version
+
+  Package-Manager: portage-2.2.27
+

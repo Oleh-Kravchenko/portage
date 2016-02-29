@@ -76,3 +76,20 @@
 
   Package-Manager: portage-2.2.27
 
+*libnotify-0.7.6-r3 (28 Feb 2016)
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> +libnotify-0.7.6-r3.ebuild:
+  Take advantage of previous bump to also clean up dependencies
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> -libnotify-0.7.6-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> libnotify-0.7.6-r3.ebuild:
+  Stabilize
+
+  Package-Manager: portage-2.2.27
+

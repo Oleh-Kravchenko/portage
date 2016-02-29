@@ -63,3 +63,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*MediaWiki-API-0.410.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +MediaWiki-API-0.410.0.ebuild:
+  Bump to version 0.410.0
+
+  - use EAPI6
+  - Fix wrong LICENSE
+  - Clean up deps
+  - Add network-test handling for people who set override="network"
+  - Nuke spurious tests that can't help real problems
+
+  Package-Manager: portage-2.2.27
+

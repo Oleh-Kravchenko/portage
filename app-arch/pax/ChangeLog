@@ -72,3 +72,8 @@
   pax-3.4.12.16-r1.ebuild:
   fix building w/newer glibc
 
+  28 Feb 2016; Ulrich Müller <ulm@gentoo.org> metadata.xml:
+  metadata.xml: Add maintainer-needed comment to packages without maintainer.
+
+  Bug: 575810
+

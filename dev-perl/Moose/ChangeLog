@@ -107,3 +107,13 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+*Moose-2.160.500 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com> +Moose-2.160.500.ebuild:
+  Bump to version 2.160.500
+
+  Upstream:
+  - All documentation fixes.
+
+  Package-Manager: portage-2.2.27
+

@@ -531,3 +531,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  28 Feb 2016; Michał Górny <mgorny@gentoo.org> python-2.7.11-r2.ebuild,
+  python-3.3.5-r7.ebuild, python-3.4.3-r7.ebuild, python-3.5.1-r2.ebuild:
+  Lower eselect-python deps due to pythonX.Y-config fix
+
+  Lower the dependency on app-eselect/eselect-python to 20140125-r1 since
+  that version got a fix to support pythonX.Y-config. This should make
+  a good stable candidate and starting point for migration to newer
+  python-exec versions.
+

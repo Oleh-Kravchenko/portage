@@ -79,3 +79,16 @@
   Replace all uses of herd with appropriate project maintainers, or no
   maintainers in case of herds requested to be disbanded.
 
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  cdrkit-1.1.11-r2.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+
+  28 Feb 2016; Ulrich Müller <ulm@gentoo.org> metadata.xml:
+  metadata.xml: Add maintainer-needed comment to packages without maintainer.
+
+  Bug: 575810
+

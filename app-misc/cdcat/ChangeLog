@@ -64,3 +64,8 @@
   10 Feb 2016; Mike Frysinger <vapier@gentoo.org> cdcat-0.3.ebuild:
   dev-misc/cdcat: drop redundant @system deps
 
+  28 Feb 2016; Ulrich Müller <ulm@gentoo.org> metadata.xml:
+  metadata.xml: Add maintainer-needed comment to packages without maintainer.
+
+  Bug: 575810
+

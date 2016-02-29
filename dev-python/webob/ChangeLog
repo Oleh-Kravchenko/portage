@@ -105,3 +105,10 @@
 
   Package-Manager: portage-2.2.26
 
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org> webob-1.5.1.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+

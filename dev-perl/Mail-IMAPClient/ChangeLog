@@ -78,3 +78,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Mail-IMAPClient-3.380.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Mail-IMAPClient-3.380.0.ebuild, +files/3.38-makefilepl.patch, metadata.xml:
+  Bump to version 3.380.0
+
+  - Use EAPI6
+  - Patched to prune garbage checks and waits in Makefile.PL
+  - Nuked tests that require an IMAP server manually configured by way of
+  test.txt in root
+  - Dropped a few keywords:
+    - ~arm, ~ia64, ~ppc64, ~sparc is missing in Authen-NTLM
+
+  Package-Manager: portage-2.2.27
+

@@ -63,3 +63,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*MooX-HandlesVia-0.1.8 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +MooX-HandlesVia-0.1.8.ebuild:
+  Bump to version 0.1.8
+
+  - use EAPI6
+
+  Upstream:
+  - removed hidden dependency on strictures
+  - avoids bug in inheriting from Non-Moo based classes
+
+  Package-Manager: portage-2.2.27
+

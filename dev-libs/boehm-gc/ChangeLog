@@ -76,3 +76,11 @@
   boehm-gc-7.4.2.ebuild:
   workaround sparc build failure #574566
 
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  boehm-gc-7.4.2.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+

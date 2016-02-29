@@ -136,3 +136,34 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> +files/deluge-web.conf,
+  +files/deluge-web.init, +files/deluged.conf-2, +files/deluged.init-2:
+  unbundle startup scripts for deluge-web
+
+  Different startup scripts for daemon and web server. This fixes
+  bug #350213 (thanks to Cameron Tacklind <cameron@tacklind.com> for
+  inspiration, even though implemented slightly differently)
+
+  28 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> deluge-1.3.12-r1.ebuild:
+  unbundle startup scripts for daemon and web interface
+
+  Fixes bug #350213 (thanks to Cameron Tacklind <cameron@tacklind.com>)
+
+  28 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> files/deluge-web.conf,
+  files/deluged.conf-2:
+  Small fixes to configuration files
+
+*deluge-1.3.12-r2 (28 Feb 2016)
+
+  28 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  -deluge-1.3.12-r1.ebuild, +deluge-1.3.12-r2.ebuild:
+  split startup script for daemon and web insterface
+
+  Rename ebuild to force upgrade for ~arch users. Fixes bug #350213.
+  Thanks to Cameron Tacklind <cameron@tacklind.com> for bug report
+  and inspiration.
+
+  28 Feb 2016; Kristian Fiskerstrand <k_f@gentoo.org> files/deluge-web.init,
+  files/deluged.init-2:
+  change shebang to #!/sbin/openrc-run
+

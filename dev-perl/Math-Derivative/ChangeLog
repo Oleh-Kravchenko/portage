@@ -63,3 +63,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Math-Derivative-0.40.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Math-Derivative-0.40.0.ebuild:
+  Bump to version 0.40.0
+
+  Package-Manager: portage-2.2.27
+

@@ -71,3 +71,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Module-Build-XSUtil-0.160.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Module-Build-XSUtil-0.160.0.ebuild:
+  Bump to version 0.160.0
+
+  - use EAPI6
+  - Install examples with `USE=examples`
+
+  Package-Manager: portage-2.2.27
+

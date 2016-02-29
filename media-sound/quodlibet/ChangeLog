@@ -135,3 +135,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*quodlibet-3.5.3 (28 Feb 2016)
+
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> +quodlibet-3.5.3.ebuild:
+  version bump to 3.5.3
+
+  Package-Manager: portage-2.2.26
+

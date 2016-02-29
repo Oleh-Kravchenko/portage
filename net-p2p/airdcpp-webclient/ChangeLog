@@ -1,0 +1,13 @@
+# ChangeLog for net-p2p/airdcpp-webclient
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*airdcpp-webclient-0.16.5 (28 Feb 2016)
+
+  28 Feb 2016; Ian Delaney <idella4@gentoo.org>
+  +airdcpp-webclient-0.16.5.ebuild, +metadata.xml:
+  new package, DC++ client, vn. 0.16.5
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --force
+

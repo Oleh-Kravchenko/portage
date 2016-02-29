@@ -66,3 +66,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*MongoDB-1.2.2 (28 Feb 2016)
+
+  28 Feb 2016; Kent Fredric <kentfredric@gmail.com> +MongoDB-1.2.2.ebuild:
+  MAJOR Bump to v1.2.2
+
+  This is a significant upstream bump, so be cautious.
+
+  Upgrade Notes:
+  https://metacpan.org/pod/distribution/MongoDB/lib/MongoDB/Upgrading.pod
+
+  - use EAPI6
+  - Lots of dependency changes
+
+  Package-Manager: portage-2.2.27
+

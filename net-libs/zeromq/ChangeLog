@@ -94,3 +94,10 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org> zeromq-4.1.4.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+

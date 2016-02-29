@@ -99,3 +99,11 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  eventlet-0.17.4.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+

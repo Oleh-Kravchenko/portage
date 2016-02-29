@@ -41,3 +41,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*robot_state_publisher-1.12.1 (28 Feb 2016)
+
+  28 Feb 2016; Alexis Ballier <aballier@gentoo.org>
+  +robot_state_publisher-1.12.1.ebuild, robot_state_publisher-9999.ebuild:
+  bump to 1.12.1
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

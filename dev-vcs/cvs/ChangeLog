@@ -91,3 +91,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Feb 2016; Mike Frysinger <vapier@gentoo.org> cvs-1.12.12-r6.ebuild,
+  cvs-1.12.12-r7.ebuild, cvs-1.12.12-r8.ebuild, cvs-1.12.12-r9.ebuild,
+  cvs-1.12.12-r10.ebuild, +files/cvs-1.12.12-mktime-configure.patch:
+  fix buggy mktime tests #570208
+

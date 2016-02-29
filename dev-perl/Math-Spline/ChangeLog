@@ -63,3 +63,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Math-Spline-0.20.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Math-Spline-0.20.0.ebuild:
+  Bump to version 0.20.0
+
+  - use EAPI6
+
+  Package-Manager: portage-2.2.27
+

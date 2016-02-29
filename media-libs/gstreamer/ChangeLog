@@ -131,3 +131,14 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> -gstreamer-1.6.1.ebuild,
+  -gstreamer-1.6.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> -gstreamer-1.6.3-r1.ebuild:
+  Revert previous bump as this package was not affected by that bug
+
+  Package-Manager: portage-2.2.27
+

@@ -67,3 +67,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> mr-1.20150503.ebuild:
+  stable on amd64, x86
+
+  Package-Manager: portage-2.2.26
+
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> -mr-1.20140831.1.ebuild,
+  -mr-1.20141024.ebuild:
+  drop old versions 1.20140831.1, 1.20141024
+
+  Package-Manager: portage-2.2.26
+
+*mr-1.20160123 (28 Feb 2016)
+
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> +mr-1.20160123.ebuild:
+  version bump to 1.20160123
+
+  Package-Manager: portage-2.2.26
+

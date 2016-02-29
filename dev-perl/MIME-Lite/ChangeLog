@@ -63,3 +63,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*MIME-Lite-3.30.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com> +MIME-Lite-3.30.0.ebuild,
+  +files/3.030-makefilepl.patch:
+  Bump to version 3.30.0
+
+  - use EAPI6
+  - Patch out mess in Makefile.PL
+  - Patch out bad tests
+
+  Package-Manager: portage-2.2.27
+

@@ -63,3 +63,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*MooseX-Types-Stringlike-0.3.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Types-Stringlike-0.3.0.ebuild:
+  Bump to version 0.3.0
+
+  - use EAPI6
+  - fixup deps
+
+  Upstream:
+  - adds ArrayRefOfStringlike and ArrayRefOfStringable types
+
+  Package-Manager: portage-2.2.27
+

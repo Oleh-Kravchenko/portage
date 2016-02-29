@@ -118,3 +118,11 @@
   16 Feb 2016; Mike Frysinger <vapier@gentoo.org> httplib2-0.9.1.ebuild:
   mark 0.9.1 alpha/arm/ia64/ppc/ppc64/sparc stable #570990
 
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  httplib2-0.9.1.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+

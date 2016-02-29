@@ -164,3 +164,15 @@
   -eselect-python-20151117-r3.ebuild, -eselect-python-20160207.ebuild:
   Remove intermediate masked versions
 
+*eselect-python-20140125-r1 (28 Feb 2016)
+
+  28 Feb 2016; Michał Górny <mgorny@gentoo.org>
+  +eselect-python-20140125-r1.ebuild,
+  +files/eselect-python-20140125-pythonX.Y-config.patch:
+  Support pythonX.Y-config in the old version
+
+  28 Feb 2016; Michał Górny <mgorny@gentoo.org>
+  -eselect-python-20131210.ebuild, -eselect-python-20140115.ebuild,
+  -eselect-python-20140125.ebuild:
+  Remove old ~arch versions
+

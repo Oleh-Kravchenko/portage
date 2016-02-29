@@ -63,3 +63,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*MIME-EncWords-1.14.3 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +MIME-EncWords-1.14.3.ebuild:
+  Bump to version 1.14.3
+
+  - use EAPI6
+  - Have to drop ~x86 and ~ppc due to MIME-Charset-1.10.1
+  - Nuked fragile/useless tests
+
+  Package-Manager: portage-2.2.27
+

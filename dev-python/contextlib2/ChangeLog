@@ -70,3 +70,11 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org>
+  contextlib2-0.5.1.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+

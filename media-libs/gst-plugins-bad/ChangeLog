@@ -244,3 +244,14 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> gst-plugins-bad-1.6.3.ebuild:
+  gles2 <-> egl blocker wasn't really needed (#525936#c20)
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org>
+  -gst-plugins-bad-1.6.2-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+

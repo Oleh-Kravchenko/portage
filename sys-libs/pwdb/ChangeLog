@@ -83,3 +83,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  files/pwdb-0.62-selinux.patch:
+  update selinux patch #575882
+

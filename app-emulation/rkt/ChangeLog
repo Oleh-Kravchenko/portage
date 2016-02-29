@@ -42,3 +42,9 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Zac Medico <zmedico@gentoo.org> rkt-1.0.0.ebuild,
+  rkt-9999.ebuild:
+  add app-crypt/trousers dependency for bug 575472
+
+  Package-Manager: portage-2.2.27
+

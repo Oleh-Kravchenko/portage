@@ -63,3 +63,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*MIME-Charset-1.12.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +MIME-Charset-1.12.0.ebuild, +files/1.012-makefilepl.patch:
+  Bump to 1.12.0
+
+  - use EAPI6
+  - Add LINGUAS="ja zh" as these are features exported by Makefile.PL
+    by default, and can be tripped into if people use a corresponding
+    encoding entry in https://metacpan.org/source/NEZUMI/MIME-
+  Charset-1.012/lib/MIME/Charset.pm#L223
+
+  - Drop x86 and ppc due to dev-perl/Encode-{EUCJPASCII,HanExtra}
+  - Potential explosions with CPAN + Module::AutoInstall nuked with
+  Makefile.PL patch
+
+  Package-Manager: portage-2.2.27
+

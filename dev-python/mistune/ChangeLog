@@ -117,3 +117,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  28 Feb 2016; Justin Lecher <jlec@gentoo.org> mistune-0.5.1.ebuild,
+  mistune-0.6-r1.ebuild, mistune-0.7.ebuild, mistune-0.7.1.ebuild,
+  mistune-0.7.2.ebuild:
+  add missing build dep
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=571478
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

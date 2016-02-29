@@ -509,3 +509,20 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Doug Goldstein <cardoe@gentoo.org> qemu-2.5.0-r1.ebuild:
+  fix arm64 dependencies
+
+  arm/arm64 have some dependencies which are higher than other platforms.
+  Unfortunately the dependencies are not stable on arm but this package is
+  so arm updates will come later.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  28 Feb 2016; Matthew Thode <prometheanfire@gentoo.org> qemu-2.5.0-r1.ebuild:
+  keywording arm64
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+

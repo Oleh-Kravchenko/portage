@@ -197,3 +197,51 @@
 
   Package-Manager: portage-2.2.26
 
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> doxygen-1.8.10-r1.ebuild,
+  doxygen-9999.ebuild:
+  remove unnecessary RESTRICT="mirror", bug #564712
+
+  All components of the tarball can be freely distributed subject to the
+  GPL-2.
+
+  Gentoo-Bug: 564712
+
+  Package-Manager: portage-2.2.26
+
+*doxygen-1.8.11 (28 Feb 2016)
+
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> +doxygen-1.8.11.ebuild,
+  doxygen-9999.ebuild, +files/doxygen-1.8.11-link_with_pthread.patch:
+  bump to 1.8.11, fix lingua support (bug #566510), EAPI 5, qt5
+
+   - Version bump to newly released 1.8.11.
+
+   - Change EAPI to 5.
+
+   - Switch Qt support (for doxywizard) to Qt5.
+
+   - Fix LINGUAS support
+
+   - Update live ebuild
+
+  Gentoo-Bugs: 566510
+
+  Package-Manager: portage-2.2.26
+
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> doxygen-1.8.10-r1.ebuild,
+  doxygen-1.8.11.ebuild, doxygen-9999.ebuild:
+  Avoid a sandbox violation with (bug #564944)
+
+  Export VARTEXFONTS="${T}/fonts" such that kpathsea does not try to write to
+  /var/cache/fonts/pk/... during doc generation.
+
+  Package-Manager: portage-2.2.26
+
+*doxygen-1.8.11-r1 (28 Feb 2016)
+
+  28 Feb 2016; Matthias Maier <tamiko@gentoo.org> -doxygen-1.8.11.ebuild,
+  +doxygen-1.8.11-r1.ebuild, doxygen-9999.ebuild:
+  introduce slot-dependency on media-libs/libpng:0=
+
+  Package-Manager: portage-2.2.26
+

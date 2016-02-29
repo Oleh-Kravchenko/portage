@@ -63,3 +63,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Math-GMP-2.110.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com> +Math-GMP-2.110.0.ebuild:
+  Bump to version 2.110.0
+
+  - use EAPI6
+  - Had to drop keywords on alpha, hppa, mips and ppc due to dev-perl/Devel-
+  CheckLib
+
+  Package-Manager: portage-2.2.27
+

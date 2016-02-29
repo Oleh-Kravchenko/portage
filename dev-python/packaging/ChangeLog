@@ -243,3 +243,19 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*packaging-16.5 (28 Feb 2016)
+
+  28 Feb 2016; David Seifert <soap@gentoo.org> +packaging-16.5.ebuild:
+  Version bump
+
+  Gentoo-Bug: 575894
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; David Seifert <soap@gentoo.org> -packaging-16.4.ebuild:
+  Remove broken
+
+  Gentoo-Bug: 575894
+
+  Package-Manager: portage-2.2.27
+

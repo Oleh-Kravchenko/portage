@@ -65,3 +65,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Test-Number-Delta-1.60.0 (28 Feb 2016)
+
+  28 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Test-Number-Delta-1.60.0.ebuild:
+  Bump to version 1.60.0
+
+  - EAPI6
+  - Dep fixups
+  - Required for latest dev-perl/MonogDB
+
+  Upstream:
+  - 0 and 0 compare with epsilon
+
+  Package-Manager: portage-2.2.27
+

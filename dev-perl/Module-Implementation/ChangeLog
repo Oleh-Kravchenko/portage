@@ -63,3 +63,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Module-Implementation-0.90.0 (27 Feb 2016)
+
+  27 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Module-Implementation-0.90.0.ebuild:
+  Bump to version 0.90.0
+
+  - use EAPI6
+  - cleanup deps and tests
+
+  Package-Manager: portage-2.2.27
+

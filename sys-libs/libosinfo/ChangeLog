@@ -90,3 +90,14 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> -libosinfo-0.3.0-r1.ebuild:
+  Revert previous bump as this was broken due to not exporting src_prepare
+  phases properly
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Pacho Ramos <pacho@gentoo.org> libosinfo-0.3.0.ebuild:
+  Fix src_prepare phase
+
+  Package-Manager: portage-2.2.27
+
