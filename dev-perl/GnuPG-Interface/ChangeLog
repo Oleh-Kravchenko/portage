@@ -80,3 +80,9 @@
 
   Package-Manager: portage-2.2.27
 
+  29 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  GnuPG-Interface-0.520.0-r1.ebuild:
+  Remove bogus dependency on Any-Moose
+
+  Package-Manager: portage-2.2.27
+

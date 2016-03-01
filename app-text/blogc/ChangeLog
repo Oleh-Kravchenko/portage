@@ -178,3 +178,16 @@
 
   Package-Manager: portage-2.2.26
 
+  29 Feb 2016; Rafael Martins <rafaelmartins@gentoo.org> blogc-9999.ebuild:
+  updated live ebuild
+
+  Package-Manager: portage-2.2.26
+
+*blogc-0.7.6 (29 Feb 2016)
+
+  29 Feb 2016; Rafael Martins <rafaelmartins@gentoo.org> -blogc-0.7.5.ebuild,
+  +blogc-0.7.6.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

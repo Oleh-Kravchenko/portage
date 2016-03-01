@@ -168,3 +168,10 @@
 
   Package-Manager: portage-2.2.26
 
+  29 Feb 2016; Daniel Pielmeier <billie@gentoo.org> conky-1.10.1.ebuild:
+  Fix doc installation.
+
+  This fixes bug #575416. Thanks to David Brooke for the report.
+
+  Package-Manager: portage-2.2.26
+

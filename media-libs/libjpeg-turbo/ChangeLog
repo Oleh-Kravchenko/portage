@@ -150,3 +150,9 @@
 
   Package-Manager: portage-2.2.27
 
+  29 Feb 2016; Steev Klimaszewski <steev@gentoo.org>
+  libjpeg-turbo-1.4.2.ebuild:
+  stable 1.4.2 for arm64
+
+  Package-Manager: portage-2.2.27
+

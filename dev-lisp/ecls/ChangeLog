@@ -99,3 +99,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ecls-16.1.2 (29 Feb 2016)
+
+  29 Feb 2016; Andrey Grozin <grozin@gentoo.org> +ecls-16.1.2.ebuild,
+  +files/16.1.2-headers-gentoo.patch:
+  bump to 16.1.2
+
+  Package-Manager: portage-2.2.27
+

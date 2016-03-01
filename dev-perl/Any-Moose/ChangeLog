@@ -77,3 +77,41 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+*Any-Moose-0.260.0-r1 (29 Feb 2016)
+
+  29 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Any-Moose-0.260.0-r1.ebuild, +files/nomouse.patch:
+  Eliminate dependencies on Mouse
+
+  This is preparation work for eventual removal of Any-Moose from tree,
+  as it is declared "Deprecated" by upstream, and people who want a
+  "Be fast by default but still work with Moose" solution are being encouraged
+  to use Moo instead.
+
+  Any-Moose will continue to auto-switch between Moose and Mouse
+  if Mouse is installed, but will not add any dependencies on Mouse
+  and will no longer test Mouse based tests, with the idea being to
+  just force the Moose path by default.
+
+  This is effectively what already happened for anyone who installed Moose
+  first,
+  which is highly likely, because *nothing* in tree other than Any-Moose and
+  its children presently depend on Mouse.
+
+  However, we can't remove Any-Moose yet, because some packages still depend
+  on it,
+  so this patch is intended to mitigate the damage of still pulling Mouse and
+  MouseX::Types
+  into tree.
+
+  This also avoids a circular dependency mess under FEATURES="test"
+
+  But anyone who wants the runtime benefits of Any-Moose that *may* appear
+  if they're not using any Moose code, they can still get that benefit by
+  installing
+  Mouse manually.
+
+  But otherwise, depending on Any-Moose should imply a dependecy on Moose
+
+  Package-Manager: portage-2.2.27
+

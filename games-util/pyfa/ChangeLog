@@ -83,3 +83,26 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Feb 2016; Alexandre Rostovtsev <tetromino@gentoo.org> metadata.xml,
+  pyfa-1.15.0.ebuild, pyfa-9999.ebuild:
+  new upstream homepage/url
+
+  Package-Manager: portage-2.2.27
+
+*pyfa-1.19.1 (29 Feb 2016)
+
+  29 Feb 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  -files/configforced.py, -files/pyfa-1.1.11-import-pyfa.patch,
+  -files/pyfa-1.1.20-staticPath.patch, -pyfa-1.15.0.ebuild,
+  +pyfa-1.19.1.ebuild:
+  bump to 1.19.1 for bug #569944
+
+  Thanks to Stefan Reimer & Captain Crutches in bug #569944
+  Package-Manager: portage-2.2.27
+
+  29 Feb 2016; Alexandre Rostovtsev <tetromino@gentoo.org> pyfa-1.19.1.ebuild,
+  pyfa-9999.ebuild:
+  eapi6-ify
+
+  Package-Manager: portage-2.2.27
+

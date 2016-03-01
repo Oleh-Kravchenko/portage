@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.2.26
 
+*squareball-0.1 (29 Feb 2016)
+
+  29 Feb 2016; Rafael Martins <rafaelmartins@gentoo.org>
+  +squareball-0.1.ebuild, squareball-9999.ebuild:
+  first release. updated live ebuild
+
+  Package-Manager: portage-2.2.26
+

@@ -69,3 +69,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Feb 2016; Steev Klimaszewski <steev@gentoo.org>
+  eselect-ctags-1.18.ebuild:
+  stable 1.18 for arm64
+
+  Package-Manager: portage-2.2.27
+

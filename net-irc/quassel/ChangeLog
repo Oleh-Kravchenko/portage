@@ -134,3 +134,18 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Feb 2016; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  remove proxy maintainer and g-p-m from metadata.xml
+
+  Package-Manager: portage-2.2.26
+
+  29 Feb 2016; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  remove proxy maintainer and g-p-m from metadata.xml
+
+  maintainer provided consent to withdraw prox maintainer status via email:
+  From: Manuel Nickschas <sputnick@quassel-irc.org>
+  Subject: Re: quassel
+  Date: Sat, 27 Feb 2016 15:08:46 +0100
+
+  Package-Manager: portage-2.2.26
+

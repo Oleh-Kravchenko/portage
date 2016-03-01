@@ -65,3 +65,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  Net-Domain-TLD-1.690.0-r1.ebuild, Net-Domain-TLD-1.730.0.ebuild:
+  Shorten DESCRIPTION
+
+  Package-Manager: portage-2.2.27
+
+*Net-Domain-TLD-1.740.0 (29 Feb 2016)
+
+  29 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Net-Domain-TLD-1.740.0.ebuild:
+  Bump to version 1.740.0
+
+  - use EAPI6
+  - remove unused deps
+
+  Upstream:
+  - Add lots more gTLDs
+
+  Package-Manager: portage-2.2.27
+

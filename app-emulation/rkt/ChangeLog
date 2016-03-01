@@ -48,3 +48,30 @@
 
   Package-Manager: portage-2.2.27
 
+*rkt-1.1.0 (29 Feb 2016)
+
+  29 Feb 2016; Zac Medico <zmedico@gentoo.org> +rkt-1.1.0.ebuild:
+  version bump to 1.1.0
+
+  Package-Manager: portage-2.2.27
+
+  29 Feb 2016; Zac Medico <zmedico@gentoo.org> rkt-1.1.0.ebuild:
+  use ${PXE_SYSTEMD_VERSION} more
+
+  Package-Manager: portage-2.2.27
+
+  29 Feb 2016; Zac Medico <zmedico@gentoo.org> metadata.xml, rkt-1.1.0.ebuild:
+  add rkt_stage1_kvm support
+
+  Package-Manager: portage-2.2.27
+
+  29 Feb 2016; Patrick Lauer <patrick@gentoo.org> rkt-1.1.0.ebuild:
+  Whitespace
+
+  Package-Manager: portage-2.2.27
+
+  29 Feb 2016; Zac Medico <zmedico@gentoo.org> rkt-1.1.0.ebuild:
+  support rkt_stage1_host
+
+  Package-Manager: portage-2.2.27
+

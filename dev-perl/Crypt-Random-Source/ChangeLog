@@ -63,3 +63,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Crypt-Random-Source-0.110.0 (29 Feb 2016)
+
+  29 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Crypt-Random-Source-0.110.0.ebuild:
+  Bump to version 0.110.0
+
+  This is mostly motivated by the elimination of Any-Moose.
+
+  - EAPI6
+  - Deps fixup.
+
+  Upstream:
+  - use Moo instead of Any-Moose
+  - use Module::Runtime instead of deprecated Any::Moose::load_class
+
+  Package-Manager: portage-2.2.27
+

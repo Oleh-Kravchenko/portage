@@ -325,3 +325,24 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -libreoffice-4.4.6.3.ebuild, -libreoffice-4.4.9999.ebuild,
+  -libreoffice-5.0.4.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+  28 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.0.9999.ebuild, libreoffice-5.1.0.3.ebuild,
+  libreoffice-5.1.9999.ebuild, libreoffice-9999.ebuild:
+  Require cairo with xlib acceleration because of bug 490056
+
+  Package-Manager: portage-2.2.27
+
+  29 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.0.9999.ebuild, libreoffice-5.1.9999.ebuild,
+  libreoffice-9999.ebuild:
+  Drop redundant @system deps, bug 574368
+
+  Package-Manager: portage-2.2.27
+

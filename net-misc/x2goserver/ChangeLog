@@ -116,3 +116,14 @@
 
   Package-Manager: portage-2.2.27
 
+*x2goserver-4.0.1.19-r2 (29 Feb 2016)
+
+  29 Feb 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +files/x2goserver-4.0.1.19-use_bash_in_Xsession.patch,
+  +x2goserver-4.0.1.19-r2.ebuild:
+  use explicitly bash in Xsession, bug #575022
+
+  Upstream backport after report by polynomial-c
+
+  Package-Manager: portage-2.2.27
+

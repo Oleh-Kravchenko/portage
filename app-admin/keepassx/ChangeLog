@@ -140,3 +140,8 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  24 Feb 2016; Anthony Ryan <anthonyryan1@gmail.com> keepassx-2.0.2.ebuild:
+  Add ~arm keyword
+
+  Package-Manager: portage-2.2.26
+

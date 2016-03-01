@@ -108,3 +108,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Feb 2016; Amy Winston <amynka@gentoo.org> -gpsd-2.95-r1.ebuild,
+  -gpsd-2.96-r1.ebuild, -gpsd-3.6.ebuild, -gpsd-3.7.ebuild, -gpsd-3.8.ebuild,
+  -gpsd-3.9.ebuild, -gpsd-3.13.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.26
+
+  29 Feb 2016; Amy Winston <amynka@gentoo.org> gpsd-3.9-r1.ebuild,
+  gpsd-3.10.ebuild, gpsd-3.11.ebuild, gpsd-3.15.ebuild, gpsd-9999.ebuild:
+  Description and copyright changed
+
+  Package-Manager: portage-2.2.26
+
+  29 Feb 2016; Amy Winston <amynka@gentoo.org> gpsd-3.10.ebuild,
+  gpsd-3.11.ebuild, gpsd-3.15.ebuild, gpsd-9999.ebuild:
+  Slot specified
+
+  Package-Manager: portage-2.2.26
+

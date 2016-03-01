@@ -86,3 +86,9 @@
 
   Package-Manager: portage-2.2.27
 
+  29 Feb 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/toybox-0.7.0-includes.patch,
+  +files/toybox-0.7.0-parallel-build.patch,
+  +files/toybox-0.7.0-sysmacros.patch, toybox-0.7.0.ebuild:
+  misc build fixes from upstream
+

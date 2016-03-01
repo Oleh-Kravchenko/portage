@@ -68,3 +68,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*fr0st-1.4-r2 (29 Feb 2016)
+
+  29 Feb 2016; Pacho Ramos <pacho@gentoo.org> +files/fr0st-1.4-colour.patch,
+  +fr0st-1.4-r2.ebuild:
+  Fix problems at runtime (#564106, thanks a lot to Malcolm Lashley for
+  finding the fix), port to new python eclasses, use wxGTK3.
+
+  Package-Manager: portage-2.2.27
+
+  29 Feb 2016; Pacho Ramos <pacho@gentoo.org> -fr0st-1.4-r1.ebuild,
+  fr0st-1.4-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+

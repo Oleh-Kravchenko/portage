@@ -63,3 +63,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-FreeDB-0.100.0 (29 Feb 2016)
+
+  29 Feb 2016; Kent Fredric <kentfredric@gmail.com>
+  +Net-FreeDB-0.100.0.ebuild:
+  Bump to version 0.100.0
+
+  - EAPI6
+  - Fixup deps
+  - Scrub test phase as per DIST_TEST w/ network enabled.
+
+  Upstream:
+  - Significant API change
+  - CDDB6 Compliance
+
+  Package-Manager: portage-2.2.27
+

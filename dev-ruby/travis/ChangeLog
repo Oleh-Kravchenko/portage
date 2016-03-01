@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.2.26
 
+*travis-1.8.2-r1 (29 Feb 2016)
+
+  29 Feb 2016; Christoph Junghans <ottxor@gentoo.org> -travis-1.8.2.ebuild,
+  +travis-1.8.2-r1.ebuild:
+  install bash-comp as well
+
+  Package-Manager: portage-2.2.26
+

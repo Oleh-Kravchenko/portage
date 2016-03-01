@@ -58,3 +58,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gcdemu-3.0.1 (29 Feb 2016)
+
+  29 Feb 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  +gcdemu-3.0.1.ebuild:
+  bump to 3.0.1 for bug #571034
+
+  Thanks to Rafał Mużyło.
+
+  Package-Manager: portage-2.2.27
+
+  29 Feb 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  -gcdemu-2.1.1.ebuild:
+  clean up old
+
+  Package-Manager: portage-2.2.27
+

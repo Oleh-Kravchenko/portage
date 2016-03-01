@@ -89,3 +89,9 @@
   stumpwm-0.9.9.ebuild:
   Fix config for contrib use flag
 
+  28 Feb 2016; José María Alonso Josa <nimiux@gentoo.org>
+  stumpwm-0.9.9.ebuild:
+  Fix ASDF dir
+
+  Fixes bug #575874
+

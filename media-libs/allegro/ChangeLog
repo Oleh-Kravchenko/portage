@@ -80,3 +80,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  29 Feb 2016; Michael Sterrett <mr_bones_@gentoo.org> allegro-5.0.11.ebuild,
+  +files/allegro-5.0.11-multilib.patch, +files/allegro-5.0.11-underlink.patch,
+  -files/allegro-5.0.4-underlink.patch:
+  fix building with multilib with patch from Azamat H. Hackimov (bug #563152)
+
+  Package-Manager: portage-2.2.26
+

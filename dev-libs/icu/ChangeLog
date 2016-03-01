@@ -92,3 +92,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*icu-56.1-r1 (29 Feb 2016)
+
+  29 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +icu-56.1-r1.ebuild:
+  Add experimental, untested revbump using C++11. No keywords. Bug 575198
+
+  Package-Manager: portage-2.2.27
+
