@@ -71,3 +71,15 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> -reactiveData-0.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> reactiveData-0.2.ebuild:
+  add ocamlbuild dep
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

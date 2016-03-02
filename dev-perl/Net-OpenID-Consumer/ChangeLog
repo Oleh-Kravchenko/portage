@@ -63,3 +63,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-OpenID-Consumer-1.180.0 (01 Mar 2016)
+
+  01 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  +Net-OpenID-Consumer-1.180.0.ebuild:
+  Bumped to version 1.180.0
+
+  - EAPI6
+  - Lots of dependency changes.
+
+  Upstream:
+  - Like, a huge amount of changes, API compatibility changes, spanning 8
+  years.
+  - Was last updated in Gentoo back in 2008 ...
+
+  Package-Manager: portage-2.2.27
+

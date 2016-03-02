@@ -18,3 +18,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*ppx_driver-113.24.00-r1 (01 Mar 2016)
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  -ppx_driver-113.24.00.ebuild, +ppx_driver-113.24.00-r1.ebuild:
+  add ocamlbuild rdep
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

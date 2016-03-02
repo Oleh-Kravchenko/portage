@@ -92,3 +92,9 @@
   +circuit_macros-8.3.1.ebuild:
   bump to 8.3.1
 
+*circuit_macros-8.3.2 (01 Mar 2016)
+
+  01 Mar 2016; Denis Dupeyron <calchan@gentoo.org>
+  +circuit_macros-8.3.2.ebuild:
+  bump to 8.3.2
+

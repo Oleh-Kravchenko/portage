@@ -188,3 +188,11 @@
 
   Package-Manager: portage-2.2.26
 
+*manaplus-1.6.2.27 (01 Mar 2016)
+
+  01 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +manaplus-1.6.2.27.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

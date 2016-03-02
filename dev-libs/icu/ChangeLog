@@ -99,3 +99,8 @@
 
   Package-Manager: portage-2.2.27
 
+  29 Feb 2016; Andreas K. Hüttel <dilfridge@gentoo.org> icu-56.1-r1.ebuild:
+  Restore keywords after build testing
+
+  Package-Manager: portage-2.2.27
+

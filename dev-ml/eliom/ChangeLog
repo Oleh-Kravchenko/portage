@@ -108,3 +108,16 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> -eliom-4.2.ebuild,
+  -files/tyxml36.patch:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> eliom-5.0.0.ebuild:
+  add ocamlbuild dep
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

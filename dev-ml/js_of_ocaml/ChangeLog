@@ -124,3 +124,16 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> -files/tyxml36-2.patch,
+  -files/tyxml36.patch, -js_of_ocaml-2.6.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> js_of_ocaml-2.7.ebuild:
+  add ocamlbuild dep
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

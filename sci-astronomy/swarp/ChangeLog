@@ -63,3 +63,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*swarp-2.38.0 (29 Feb 2016)
+
+  29 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  -files/swarp-nodoc.patch, -swarp-2.19.1.ebuild, +swarp-2.38.0.ebuild:
+  Version bump and cleanup
+
+  Package-Manager: portage-2.2.27
+

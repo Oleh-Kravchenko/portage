@@ -75,3 +75,9 @@
 
   Package-Manager: portage-2.2.27
 
+  01 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -IO-Pager-0.340.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

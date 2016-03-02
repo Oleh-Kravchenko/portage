@@ -134,3 +134,27 @@
 
   Package-Manager: portage-2.2.26
 
+*rt-sources-4.4.2_p7 (27 Feb 2016)
+
+  27 Feb 2016; Karl Linden <karl.j.linden@gmail.com>
+  +rt-sources-4.4.2_p7.ebuild:
+  version bump to 4.4.2_p7
+
+  Package-Manager: portage-2.2.27
+
+*rt-sources-3.18.27_p25 (27 Feb 2016)
+
+  27 Feb 2016; Karl Linden <karl.j.linden@gmail.com>
+  +rt-sources-3.18.27_p25.ebuild:
+  version bump to 3.18.27_p25
+
+  Package-Manager: portage-2.2.27
+
+*rt-sources-3.14.61_p62 (27 Feb 2016)
+
+  27 Feb 2016; Karl Linden <karl.j.linden@gmail.com>
+  +rt-sources-3.14.61_p62.ebuild:
+  version bump to 3.14.61_p62
+
+  Package-Manager: portage-2.2.27
+

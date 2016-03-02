@@ -220,3 +220,19 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+*filezilla-3.16.0 (01 Mar 2016)
+
+  01 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +filezilla-3.16.0.ebuild:
+  Bump to version 3.16.0
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  01 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -filezilla-3.15.0.1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

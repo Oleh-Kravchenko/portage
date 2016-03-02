@@ -215,3 +215,11 @@
 
   Package-Manager: portage-2.2.27
 
+*powerdevil-5.5.5 (01 Mar 2016)
+
+  01 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  +powerdevil-5.5.5.ebuild:
+  kde-plasma: version bump 5.5.5
+
+  Package-Manager: portage-2.2.27
+

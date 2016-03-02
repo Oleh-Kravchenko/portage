@@ -773,3 +773,25 @@
 
   Package-Manager: portage-2.2.27
 
+  29 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> mpv-9999.ebuild:
+  explicitly disable opensles in 9999
+
+  Package-Manager: portage-2.2.27
+
+*mpv-0.16.0 (29 Feb 2016)
+
+  29 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com>
+  +files/mpv-0.16.0-fix-srt-subtitles-on-libav.patch, +mpv-0.16.0.ebuild:
+  verbump to 0.16.0
+
+  Gentoo-Bug: 575976
+
+  Package-Manager: portage-2.2.27
+
+  29 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com>
+  -files/mpv-0.14.0-support-GNU-__thread.patch,
+  -files/mpv-fix-include-in-tests.patch, -mpv-0.14.0-r1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+

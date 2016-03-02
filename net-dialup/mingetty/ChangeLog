@@ -75,3 +75,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mingetty-1.08-r1 (01 Mar 2016)
+
+  01 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/mingetty-1.08-check_chroot_chdir_nice.patch,
+  +mingetty-1.08-r1.ebuild:
+  Fixed usage of unsafe chroot call (bug #339338).
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

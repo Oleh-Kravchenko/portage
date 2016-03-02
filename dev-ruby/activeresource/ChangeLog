@@ -101,3 +101,11 @@
 
   Package-Manager: portage-2.2.26
 
+*activeresource-3.2.22.2 (01 Mar 2016)
+
+  01 Mar 2016; Hans de Graaff <graaff@gentoo.org>
+  +activeresource-3.2.22.2.ebuild:
+  add rails 3.2.22.2, bug 576068
+
+  Package-Manager: portage-2.2.26
+

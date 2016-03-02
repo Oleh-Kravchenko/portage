@@ -63,3 +63,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sofa_c-20150209a (29 Feb 2016)
+
+  29 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  files/sofa_c-makefile.patch, -sofa_c-20120301a.ebuild,
+  +sofa_c-20150209a.ebuild:
+  Version bump and cleanup
+
+  Package-Manager: portage-2.2.27
+

@@ -101,3 +101,14 @@
 
   Package-Manager: portage-2.2.27
 
+*Test-Differences-0.640.0 (01 Mar 2016)
+
+  01 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  +Test-Differences-0.640.0.ebuild:
+  Bump to version 0.640.0
+
+  - EAPI6
+  - Clean up useless tests and dependencies
+
+  Package-Manager: portage-2.2.27
+

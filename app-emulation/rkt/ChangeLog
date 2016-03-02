@@ -75,3 +75,8 @@
 
   Package-Manager: portage-2.2.27
 
+  01 Mar 2016; Zac Medico <zmedico@gentoo.org> rkt-1.1.0.ebuild:
+  fix rkt_stage1_host RDEPEND conditional
+
+  Package-Manager: portage-2.2.27
+

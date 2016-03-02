@@ -257,3 +257,14 @@
   This reverts commit 8dacf4232b798af79879ca0f8e13a45d13479d0f, since
   nspr-4.12 doesn't compile
 
+*nss-3.22.2 (29 Feb 2016)
+
+  29 Feb 2016; Ian Stakenvicius <axs@gentoo.org> +nss-3.22.2.ebuild:
+  recommit version bump to 3.22.2
+
+  This version uses the new PR_GetEnvSecure function in nspr-4.12, and
+  contains
+  root CA updates
+
+  Package-Manager: portage-2.2.26
+

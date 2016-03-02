@@ -152,3 +152,16 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> menhir-20151112.ebuild:
+  add ocamlbuild dep
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> +files/ocamlbuild.patch,
+  menhir-20151112.ebuild:
+  fix build with ocamlbuild 0.9.1
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

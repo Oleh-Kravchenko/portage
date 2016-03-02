@@ -122,3 +122,17 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*murmur-1.2.14 (01 Mar 2016)
+
+  01 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> +murmur-1.2.14.ebuild:
+  Bump to version 1.2.14
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  01 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -murmur-1.2.12.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

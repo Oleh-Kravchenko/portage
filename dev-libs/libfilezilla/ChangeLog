@@ -48,3 +48,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  01 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  libfilezilla-0.4.0.1.ebuild:
+  Sync KEYWORDS.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -63,3 +63,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-HTTP-6.90.0 (01 Mar 2016)
+
+  01 Mar 2016; Kent Fredric <kentfredric@gmail.com> +Net-HTTP-6.90.0.ebuild,
+  +files/networktest.patch:
+  Bump to version 6.90.0
+
+  - EAPI6
+  - Test cleanup esp Network special casing.
+
+  Upstream:
+  - Better support for IPv6 and SSL
+
+  Package-Manager: portage-2.2.27
+

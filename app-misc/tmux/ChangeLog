@@ -237,3 +237,8 @@
 
   Package-Manager: portage-2.2.27-prefix
 
+  01 Mar 2016; Zac Medico <zmedico@gentoo.org> tmux-9999.ebuild:
+  fix 9999 ebuild breakage for bug 574592
+
+  Package-Manager: portage-2.2.27
+

@@ -140,3 +140,40 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  freebsd-lib-10.2-r2.ebuild:
+  discriminate GNU userland based on CBUILD:-CHOST which helps when cross-
+  compiling.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  freebsd-lib-10.2-r2.ebuild:
+  make sys symlink SYSROOT relative
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  freebsd-lib-10.2-r2.ebuild:
+  add :0= dep on openssl
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  freebsd-lib-10.2-r2.ebuild:
+  move GNU install/sed fixes before USE=build check so that they are applied
+  also with USE=build.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  freebsd-lib-10.2-r2.ebuild:
+  set RPCDIR to include_proper when pre-installing headers
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

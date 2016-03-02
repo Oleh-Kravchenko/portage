@@ -84,3 +84,27 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*elektra-0.8.15 (01 Mar 2016)
+
+  01 Mar 2016; Michael Weber <xmw@gentoo.org> +elektra-0.8.15.ebuild,
+  +files/elektra-0.8.15-conditional-glob-tests.patch:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+
+  01 Mar 2016; Michael Weber <xmw@gentoo.org> -elektra-0.8.3-r3.ebuild,
+  -elektra-0.8.6.ebuild, -elektra-0.8.7.ebuild,
+  -files/elektra-0.8.3-fix-yajl-if-user-config.patch,
+  -files/elektra-0.8.3-introduce-attributes.patch,
+  -files/elektra-0.8.7-conditional-glob-tests.patch:
+  Drop old.
+
+  Package-Manager: portage-2.2.27
+
+  01 Mar 2016; Michael Weber <xmw@gentoo.org> elektra-0.7.1-r5.ebuild,
+  elektra-0.8.12.ebuild, elektra-0.8.15.ebuild, elektra-9999.ebuild,
+  metadata.xml:
+  fix DESCRIPTION, live ebuild, metadata.xml
+
+  Package-Manager: portage-2.2.27
+

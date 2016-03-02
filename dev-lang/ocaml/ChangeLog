@@ -122,3 +122,27 @@
 
   Package-Manager: portage-2.2.27
 
+*ocaml-4.03.0_beta1 (01 Mar 2016)
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  +ocaml-4.03.0_beta1.ebuild:
+  add 4.03 beta1 without keywords
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+*ocaml-4.02.3-r1 (01 Mar 2016)
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> +ocaml-4.02.3-r1.ebuild:
+  Add a 4.02.3 version without ocamlbuild to prepare for the dev-ml/ocamlbuild
+  transition needed for ocaml 4.03
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> ocaml-4.03.0_beta1.ebuild:
+  restore keywords, it is masked in package.mask
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

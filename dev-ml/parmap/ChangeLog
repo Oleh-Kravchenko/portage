@@ -71,3 +71,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  -files/parmap-1.0_rc6-fix-bashisms.patch, -parmap-1.0_rc6.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> parmap-1.0_rc7.ebuild:
+  add ocamlbuild dep
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -217,3 +217,20 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+*cantarell-0.0.24 (01 Mar 2016)
+
+  01 Mar 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  +cantarell-0.0.24.ebuild:
+  bump to 0.0.24 for bug #575398
+
+  Fixes rendering problems with harfbuzz-1.2, thanks to Michael Brakemeier
+  for reporting.
+
+  Package-Manager: portage-2.2.27
+
+  01 Mar 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  -cantarell-0.0.21.ebuild:
+  clean up old
+
+  Package-Manager: portage-2.2.27
+

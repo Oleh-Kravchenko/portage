@@ -358,3 +358,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  01 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  cryptography-1.2.2.ebuild,
+  +files/cryptography-1.2.2-openssl-1.0.2g-mem_buf.patch:
+  work with openssl 1.0.2g
+
+  Signed-off-by: Jason A. Donenfeld <zx2c4@gentoo.org>
+

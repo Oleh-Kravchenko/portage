@@ -83,3 +83,7 @@
   +gummi-0.6.6.ebuild, metadata.xml:
   bump to 0.6.6
 
+  01 Mar 2016; Christian Tietz <christian.tietz@mailbox.org>
+  gummi-0.6.6.ebuild:
+  drop base.eclass and fix whitespace
+

@@ -64,3 +64,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-LDAPapi-3.0.4 (01 Mar 2016)
+
+  01 Mar 2016; Kent Fredric <kentfredric@gmail.com> +Net-LDAPapi-3.0.4.ebuild,
+  +files/3.0.4-ldap_result-no_error.patch:
+  Bump to version 3.0.4
+
+  - EAPI6
+
+  Package-Manager: portage-2.2.27
+

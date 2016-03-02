@@ -87,3 +87,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*tlslite-0.4.9 (01 Mar 2016)
+
+  01 Mar 2016; Patrick Lauer <patrick@gentoo.org> +tlslite-0.4.9.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

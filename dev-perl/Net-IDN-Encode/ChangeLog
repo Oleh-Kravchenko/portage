@@ -71,3 +71,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-IDN-Encode-2.300.0 (01 Mar 2016)
+
+  01 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  +Net-IDN-Encode-2.300.0.ebuild:
+  Bump to version 2.300.0
+
+  - EAPI6
+  - Test Cleanup
+
+  Upstream:
+  - Unicode 7.0 and 8.0 updates.
+
+  Package-Manager: portage-2.2.27
+

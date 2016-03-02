@@ -128,3 +128,19 @@
 
   Package-Manager: portage-2.2.27
 
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org> -findlib-1.5.5.ebuild,
+  -findlib-1.5.5-r1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+*findlib-1.6.1-r1 (01 Mar 2016)
+
+  01 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  +files/externalmeta2.patch, +findlib-1.6.1-r1.ebuild:
+  revbump to avoid installing ocamlbuild META file
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

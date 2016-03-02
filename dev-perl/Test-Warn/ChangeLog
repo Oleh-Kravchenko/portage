@@ -64,3 +64,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Mar 2016; Kent Fredric <kentfredric@gmail.com> Test-Warn-0.300.0.ebuild:
+  Remove excess dependencies
+
+  - Tree-DAG_Node usage was already ceased upstream
+  - Same or Test-Pod
+  - File::Spec is only used in tests
+
+  Package-Manager: portage-2.2.27
+
+*Test-Warn-0.300.0-r1 (01 Mar 2016)
+
+  01 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Test-Warn-0.300.0.ebuild, +Test-Warn-0.300.0-r1.ebuild:
+  Empty revbump for the dynamic dep adversaries
+
+  Package-Manager: portage-2.2.27
+

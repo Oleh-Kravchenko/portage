@@ -57,3 +57,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*lfe-0.10.1 (01 Mar 2016)
+
+  01 Mar 2016; Patrick Lauer <patrick@gentoo.org> +lfe-0.10.1.ebuild:
+  Bump, thanks to Michael Kuijn
+
+  Package-Manager: portage-2.2.27
+

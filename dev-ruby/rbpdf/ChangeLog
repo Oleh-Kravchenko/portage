@@ -82,3 +82,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 Mar 2016; Hans de Graaff <graaff@gentoo.org> -rbpdf-1.18.6-r1.ebuild,
+  -rbpdf-1.18.7.ebuild:
+  cleanup
+
+  Remove versions depending on vulnerable rails version 4.0.x
+  Related to bug 576068
+
+  Package-Manager: portage-2.2.26
+

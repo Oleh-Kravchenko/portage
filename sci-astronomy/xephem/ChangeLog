@@ -68,3 +68,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xephem-3.7.7 (29 Feb 2016)
+
+  29 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  +files/xephem-3.7.7-implicits.patch,
+  +files/xephem-3.7.7-respect_env_vars.patch, +xephem-3.7.7.ebuild:
+  Version bump
+
+  Thanks Ooblick for his work.
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=572748
+
+  Package-Manager: portage-2.2.27
+

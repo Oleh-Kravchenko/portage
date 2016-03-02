@@ -76,3 +76,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*watchdog-5.15 (01 Mar 2016)
+
+  01 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/watchdog-init.d-r1, +watchdog-5.15.ebuild:
+  Bump to version 5.15
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  01 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -watchdog-5.13-r1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
