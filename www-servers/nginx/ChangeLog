@@ -230,3 +230,6 @@
   21 Feb 2016; Jason A. Donenfeld <zx2c4@gentoo.org> files/nginx.logrotate-r1:
   use the nginx utility command for log reopening
 
+  02 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> nginx-1.9.10-r3.ebuild:
+  work with libressl
+

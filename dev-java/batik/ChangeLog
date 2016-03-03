@@ -91,3 +91,13 @@
   RepoMan-Options: --force
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  02 Mar 2016; Patrice Clement <monsieurp@gentoo.org> batik-1.8-r3.ebuild:
+  Fix typo.
+
+  java-pkg_jar-from points to "jython" whilst it should be "jython-2.7".
+
+  Gentoo-Bug: https://bugs.gentoo.org/576180
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -11,3 +11,6 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  02 Mar 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Remove weird maintainer
+

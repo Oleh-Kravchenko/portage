@@ -138,3 +138,11 @@
   18 Feb 2016; Mike Frysinger <vapier@gentoo.org> +gsutil-4.17.ebuild:
   version bump to 4.17
 
+  02 Mar 2016; Justin Lecher <jlec@gentoo.org> gsutil-3.42.ebuild,
+  gsutil-4.15.ebuild, gsutil-4.16.ebuild, gsutil-4.17.ebuild:
+  Drop residual SocksiPy-branch reference
+
+  Gentoo-Bugs: https://bugs.gentoo.org/show_bug.cgi?id=575720
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

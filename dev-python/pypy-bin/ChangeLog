@@ -165,3 +165,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pypy-bin-4.0.1-r1 (02 Mar 2016)
+
+  02 Mar 2016; Michał Górny <mgorny@gentoo.org> +pypy-bin-4.0.1-r1.ebuild:
+  Add nossl2 compatible with openssl-1.0.2g
+
+  Add a variant rebuilt using openssl-1.0.2g, that is without SSLv2
+  routines. This variant can be used both with new and old versions of
+  OpenSSL.
+
+  02 Mar 2016; Michał Górny <mgorny@gentoo.org> pypy-bin-4.0.1-r1.ebuild:
+  Add missing QA_PREBUILT
+

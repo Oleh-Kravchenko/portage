@@ -85,3 +85,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jags-4.2.0 (02 Mar 2016)
+
+  02 Mar 2016; David Seifert <soap@gentoo.org> +jags-4.2.0.ebuild:
+  version bump to 4.2.0
+

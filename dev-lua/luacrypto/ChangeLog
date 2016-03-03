@@ -67,3 +67,10 @@
 
   Bug: 575810
 
+  02 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  luacrypto-0.3.2-r1.ebuild:
+  Add libressl support to many packages
+
+  Package maintainers will likely want to cleanup various things for this
+  experimental USE flag.
+

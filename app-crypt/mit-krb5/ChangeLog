@@ -176,3 +176,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mit-krb5-1.14.1 (02 Mar 2016)
+
+  02 Mar 2016; Eray Aslan <eras@gentoo.org> +mit-krb5-1.14.1.ebuild:
+  version bump to 1.14.1
+
+  Package-Manager: portage-2.2.27
+
+  02 Mar 2016; Agostino Sarubbo <ago@gentoo.org> mit-krb5-1.14.1.ebuild:
+  amd64 stable wrt bug #574604
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

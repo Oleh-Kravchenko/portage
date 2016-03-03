@@ -86,3 +86,15 @@
 
   Package-Manager: portage-2.2.27
 
+  02 Mar 2016; Davide Pesavento <pesa@gentoo.org>
+  -smplayer-themes-14.12.0.ebuild, -smplayer-themes-15.6.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+
+  02 Mar 2016; Davide Pesavento <pesa@gentoo.org>
+  smplayer-themes-14.9.0.ebuild, smplayer-themes-15.12.0.ebuild:
+  update HOMEPAGE
+
+  Package-Manager: portage-2.2.27
+

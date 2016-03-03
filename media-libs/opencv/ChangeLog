@@ -202,3 +202,13 @@
 
   Package-Manager: portage-2.2.26
 
+*opencv-3.1.0-r1 (02 Mar 2016)
+
+  02 Mar 2016; Amy Winston <amynka@gentoo.org>
+  +files/opencv-3.1.0-fix-hal-headers.patch,
+  +files/opencv-3.1.0-fix-ocl-declaration.patch,
+  +files/opencv-3.1.0-invalid-string-usage.patch, +opencv-3.1.0-r1.ebuild:
+  revert drop old 3.1.0-r1 and patches
+
+  This reverts commit 48656e3b700cf6d771db428bc6dde322753839d3.
+

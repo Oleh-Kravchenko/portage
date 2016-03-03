@@ -78,3 +78,14 @@
 
   Package-Manager: portage-2.2.27
 
+*netbeans-ide-8.1-r2 (02 Mar 2016)
+*netbeans-ide-8.0.2-r2 (02 Mar 2016)
+
+  02 Mar 2016; Miroslav Šulc <fordfrog@gentoo.org> netbeans-ide-8.0.2.ebuild,
+  -netbeans-ide-8.0.2-r1.ebuild, +netbeans-ide-8.0.2-r2.ebuild,
+  -netbeans-ide-8.1.ebuild, -netbeans-ide-8.1-r1.ebuild,
+  +netbeans-ide-8.1-r2.ebuild:
+  fixed problem with renamed iso-relax jar
+
+  Package-Manager: portage-2.2.27
+

@@ -79,3 +79,15 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  02 Mar 2016; Agostino Sarubbo <ago@gentoo.org> bsh-2.0_beta6.ebuild:
+  amd64 stable wrt bug #575482
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  02 Mar 2016; Patrice Clement <monsieurp@gentoo.org> bsh-2.0_beta6.ebuild:
+  Swap java-pkg_dohtml for java-pkg_dojavadoc to install documentation.
+
+  Package-Manager: portage-2.2.26
+

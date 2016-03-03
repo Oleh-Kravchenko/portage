@@ -265,3 +265,8 @@
 
   Package-Manager: portage-2.2.27-prefix
 
+  02 Mar 2016; James Le Cuirot <chewi@gentoo.org> go-1.6-r2.ebuild:
+  Keyword 1.6-r2 for ~ppc64
+
+  Package-Manager: portage-2.2.27
+

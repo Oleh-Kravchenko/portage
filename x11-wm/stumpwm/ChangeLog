@@ -99,3 +99,7 @@
   stumpwm-0.9.9.ebuild:
   Fix generation of pdf document
 
+  02 Mar 2016; José María Alonso Josa <nimiux@gentoo.org>
+  stumpwm-0.9.9.ebuild:
+  Remove debug message
+

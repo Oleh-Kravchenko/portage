@@ -259,3 +259,10 @@
 
   Package-Manager: portage-2.2.26
 
+  02 Mar 2016; Justin Lecher <jlec@gentoo.org> ipython-4.1.1.ebuild:
+  Break circular dependency with dev-python/qtconsole
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=576088
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

@@ -97,3 +97,11 @@
 
   Package-Manager: portage-2.2.27
 
+  02 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> casacore-2.0.3.ebuild:
+  renamed showtable exec to showcasatable
+
+  Solves conflict with dev-perl/Data-ShowTable
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=575726
+
+  Package-Manager: portage-2.2.27
+

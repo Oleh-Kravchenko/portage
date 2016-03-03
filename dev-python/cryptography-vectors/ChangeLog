@@ -300,3 +300,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+*cryptography-vectors-1.2.3 (02 Mar 2016)
+
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  +cryptography-vectors-1.2.3.ebuild:
+  verison bump to 1.2.3
+

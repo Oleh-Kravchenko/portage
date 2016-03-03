@@ -21,3 +21,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*ppx_tools-0.99.3_p20160217 (02 Mar 2016)
+
+  02 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  +ppx_tools-0.99.3_p20160217.ebuild:
+  bump a snapshot that works with ocaml 4.03
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

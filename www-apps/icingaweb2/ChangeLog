@@ -78,3 +78,9 @@
 
   Package-Manager: portage-2.2.26
 
+  02 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  icingaweb2-2.2.0.ebuild, icingaweb2-9999.ebuild:
+  switching to portage functions
+
+  Package-Manager: portage-2.2.26
+

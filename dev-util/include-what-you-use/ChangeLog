@@ -85,3 +85,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*include-what-you-use-3.7 (02 Mar 2016)
+
+  02 Mar 2016; David Seifert <soap@gentoo.org>
+  +include-what-you-use-3.7.ebuild:
+  version bump to match sys-devel/clang-3.7
+
+  * EAPI=6
+  * Fix typo in WEIRD_UPSTREAM_VERSION
+
+  Package-Manager: portage-2.2.27
+

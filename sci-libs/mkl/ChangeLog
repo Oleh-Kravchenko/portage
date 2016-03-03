@@ -71,3 +71,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Mar 2016; Justin Lecher <jlec@gentoo.org> mkl-10.0.5.025.ebuild:
+  Properly check for free disk space
+
+  Gentoo-Bugs: https://bugs.gentoo.org/show_bug.cgi?id=576044
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

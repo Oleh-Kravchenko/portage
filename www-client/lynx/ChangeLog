@@ -82,3 +82,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> lynx-2.8.9_pre6.ebuild:
+  Add libressl support to many packages
+
+  Package maintainers will likely want to cleanup various things for this
+  experimental USE flag.
+

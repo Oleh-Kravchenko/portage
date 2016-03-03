@@ -83,3 +83,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  02 Mar 2016; Agostino Sarubbo <ago@gentoo.org> arpwatch-2.1.15-r8.ebuild:
+  amd64 stable wrt bug #419375
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

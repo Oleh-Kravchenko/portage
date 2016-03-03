@@ -118,3 +118,11 @@
 
   Package-Manager: portage-2.2.27
 
+*jdk-1.8.0-r2 (01 Mar 2016)
+
+  01 Mar 2016; James Le Cuirot <chewi@gentoo.org> -jdk-1.8.0-r1.ebuild,
+  +jdk-1.8.0-r2.ebuild:
+  icedtea-bin:8 now available for amd64, arm, x86
+
+  Package-Manager: portage-2.2.27
+

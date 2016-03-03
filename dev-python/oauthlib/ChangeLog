@@ -84,3 +84,10 @@
 
   Package-Manager: portage-2.2.26
 
+*oauthlib-1.0.3 (02 Mar 2016)
+
+  02 Mar 2016; Patrick Lauer <patrick@gentoo.org> +oauthlib-1.0.3.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

@@ -184,3 +184,21 @@
   kodi-15.2.ebuild, kodi-16.0.ebuild, kodi-9999.ebuild:
   fix logic error in vaapi/gles check #464306#14
 
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org> kodi-14.1.ebuild,
+  kodi-15.2.ebuild, kodi-16.0.ebuild, kodi-9999.ebuild:
+  require at least gles or opengl to be enabled #575626
+
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org> kodi-14.1.ebuild,
+  kodi-15.2.ebuild, kodi-16.0.ebuild, kodi-9999.ebuild:
+  switch HOMEPAGE to https #576244
+
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org> kodi-15.2.ebuild,
+  kodi-16.0.ebuild, kodi-9999.ebuild:
+  require >=yajl-2 in newer versions #576246
+
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org> kodi-9999.ebuild:
+  drop libdvdcss requirement to match upstream
+
+  See upstream:
+  https://github.com/xbmc/xbmc/commit/5138926fd8009f27613f2b08a8f0423be4a7779f
+

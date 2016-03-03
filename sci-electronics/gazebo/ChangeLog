@@ -96,3 +96,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  02 Mar 2016; Alexis Ballier <aballier@gentoo.org> gazebo-7.0.0.ebuild:
+  add build dep on mesa-progs for glxinfo.
+
+  this avoids the fallback on opening an opengl display causing bug #576102
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

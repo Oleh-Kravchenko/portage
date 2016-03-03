@@ -213,3 +213,10 @@
 
   Package-Manager: portage-2.2.27
 
+*emacs-vcs-25.0.92 (02 Mar 2016)
+
+  02 Mar 2016; Ulrich Müller <ulm@gentoo.org> +emacs-vcs-25.0.92.ebuild:
+  New pretest version.
+
+  Package-Manager: portage-2.2.27
+

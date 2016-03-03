@@ -97,3 +97,9 @@
 
   Package-Manager: portage-2.2.27
 
+  02 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> prosody-0.9.10.ebuild:
+  Add libressl support to many packages
+
+  Package maintainers will likely want to cleanup various things for this
+  experimental USE flag.
+

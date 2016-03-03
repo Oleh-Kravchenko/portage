@@ -85,3 +85,8 @@
 
   Package-Manager: portage-2.2.26
 
+  01 Mar 2016; Peter Foley <pefoley2@pefoley.com> metadata.xml:
+  remove deprecated herd from metadata.xml
+
+  Package-Manager: portage-2.2.27
+

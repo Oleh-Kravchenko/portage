@@ -196,3 +196,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*wget-1.17.1-r1 (02 Mar 2016)
+
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/wget-1.17.1-progress-bar-segv.patch, +wget-1.17.1-r1.ebuild:
+  add upstream fix for progress bar #410529 and use subslots w/openssl #576128
+  and w/gnutls #573936
+

@@ -192,3 +192,11 @@
 
   Package-Manager: portage-2.2.26
 
+  02 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  thunderbird-bin-38.6.0.ebuild:
+  amd64 stable wrt bug #573074
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

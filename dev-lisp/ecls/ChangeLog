@@ -107,3 +107,14 @@
 
   Package-Manager: portage-2.2.27
 
+*ecls-16.1.2-r1 (02 Mar 2016)
+*ecls-16.0.0-r1 (02 Mar 2016)
+
+  02 Mar 2016; Andrey Grozin <grozin@gentoo.org> +ecls-16.0.0-r1.ebuild,
+  +ecls-16.1.2-r1.ebuild:
+  add C++ support to 16.0.0 and 16.1.2
+
+  Bug: 576048
+
+  Package-Manager: portage-2.2.27
+

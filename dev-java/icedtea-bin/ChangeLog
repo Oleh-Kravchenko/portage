@@ -327,3 +327,20 @@
 
   Package-Manager: portage-2.2.27
 
+  01 Mar 2016; James Le Cuirot <chewi@gentoo.org>
+  icedtea-bin-3.0.0_pre09.ebuild:
+  Keyword for ~amd64, ~arm, and ~x86
+
+  Package-Manager: portage-2.2.27
+
+*icedtea-bin-3.0.0_pre09-r1 (02 Mar 2016)
+
+  02 Mar 2016; James Le Cuirot <chewi@gentoo.org>
+  -icedtea-bin-3.0.0_pre09.ebuild, +icedtea-bin-3.0.0_pre09-r1.ebuild:
+  Remove libsplashscreen.so dep on libgif.so.4
+
+  I forgot to set --disable-system-gif like I did with 7. giflib-5 still
+  isn't stable yet.
+
+  Package-Manager: portage-2.2.27
+

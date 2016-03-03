@@ -158,3 +158,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*spice-protocol-9999 (02 Mar 2016)
+
+  02 Mar 2016; Doug Goldstein <cardoe@gentoo.org> +spice-protocol-9999.ebuild:
+  live ebuilds
+
+  Based on the work of Michal Privoznik <miso.privoznik@gmail.com> to provide
+  live ebuilds.
+
+  Gentoo-Bug: 575652
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

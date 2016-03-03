@@ -231,3 +231,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  02 Mar 2016; Andrey Grozin <grozin@gentoo.org> colorama-0.3.6-r1.ebuild:
+  fix install with USE=examples
+
+  Bug: 575896
+
+  Package-Manager: portage-2.2.27
+

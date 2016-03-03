@@ -85,3 +85,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Mar 2016; Fabian Groffen <grobian@gentoo.org>
+  gcc-apple-4.2.1_p5666-r2.ebuild:
+  ensure building succeeds with more modern compilers, bug #574736
+
+  Package-Manager: portage-2.2.27-prefix
+

@@ -58,3 +58,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cucumber-rails-1.4.3 (02 Mar 2016)
+
+  02 Mar 2016; Hans de Graaff <graaff@gentoo.org>
+  +cucumber-rails-1.4.3.ebuild:
+  add 1.4.3
+
+  Package-Manager: portage-2.2.26
+

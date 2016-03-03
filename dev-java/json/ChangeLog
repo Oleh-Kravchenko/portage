@@ -31,3 +31,8 @@
 
   Package-Manager: portage-2.2.27
 
+  01 Mar 2016; Peter Foley <pefoley2@pefoley.com> metadata.xml:
+  fix SYSTEM url in metadata.xml
+
+  Package-Manager: portage-2.2.27
+

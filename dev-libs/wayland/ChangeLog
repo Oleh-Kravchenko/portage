@@ -216,3 +216,18 @@
 
   Gentoo-bug: 575212
 
+  02 Mar 2016; Mart Raudsepp <leio@gentoo.org>
+  files/1.10.0-build-fix-configure-disable-dtd-validation.patch:
+  Try to avoid maintenance mode autotools regen
+
+  while still trying to avoid full eautoreconf call and autotools build deps
+
+  Gentoo-bug: 576198
+
+*wayland-1.10.0-r1 (02 Mar 2016)
+
+  02 Mar 2016; Mart Raudsepp <leio@gentoo.org>
+  +files/1.10.0-scanner-avoid-executable-stack.patch, -wayland-1.10.0.ebuild,
+  +wayland-1.10.0-r1.ebuild:
+  Fix wayland-scanner executable stack in v1.10.0
+

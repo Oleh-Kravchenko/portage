@@ -73,3 +73,16 @@
 
   Package-Manager: portage-2.2.27
 
+  02 Mar 2016; Sergey Popov <pinkbyte@gentoo.org>
+  ipt_netflow-2.1_p20160119.ebuild:
+  2.1_p20160119: stable on amd64 and x86
+
+  Package-Manager: portage-2.2.26
+
+*ipt_netflow-2.2 (02 Mar 2016)
+
+  02 Mar 2016; Sergey Popov <pinkbyte@gentoo.org> +ipt_netflow-2.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

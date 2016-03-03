@@ -110,3 +110,9 @@
 
   Package-Manager: portage-2.2.27
 
+  02 Mar 2016; Markus Meier <maekke@gentoo.org> pyscard-1.9.1.ebuild:
+  add ~arm, bug #573944
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

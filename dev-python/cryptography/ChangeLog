@@ -365,3 +365,18 @@
 
   Signed-off-by: Jason A. Donenfeld <zx2c4@gentoo.org>
 
+  02 Mar 2016; Mike Gilbert <floppym@gentoo.org> cryptography-1.1.2.ebuild,
+  files/cryptography-1.2.2-openssl-1.0.2g-mem_buf.patch:
+  Backport openssl 1.0.2g fix to stable ebuild
+
+  The replaces the patch by zx2c4 with a more flexible patch
+  from upstream. This ensures that the package can build against any
+  version of openssl in the tree.
+
+  Package-Manager: portage-2.2.27_p64
+
+*cryptography-1.2.3 (02 Mar 2016)
+
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org> +cryptography-1.2.3.ebuild:
+  verison bump to 1.2.3 and add openssl subslot #576128
+

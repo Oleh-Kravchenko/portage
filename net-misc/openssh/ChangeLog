@@ -289,3 +289,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*openssh-7.2_p1 (02 Mar 2016)
+
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/openssh-7.2_p1-GSSAPI-dns.patch,
+  +files/openssh-7.2_p1-sctp-x509-glue.patch, +openssh-7.2_p1.ebuild:
+  version bump to 7.2_p1
+

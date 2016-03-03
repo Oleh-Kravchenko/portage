@@ -180,3 +180,11 @@
 
   Package-Manager: portage-2.2.27
 
+  01 Mar 2016; Thomas D <whissi@whissi.de> collectd-5.4.1-r2.ebuild,
+  collectd-5.5.0.ebuild, collectd-5.5.1.ebuild:
+  Adjust dependency on sys-power/nut (#540750)
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=540750
+
+  Package-Manager: portage-2.2.27
+

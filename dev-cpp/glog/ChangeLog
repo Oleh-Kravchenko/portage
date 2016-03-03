@@ -91,3 +91,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*glog-0.3.4 (02 Mar 2016)
+
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org> +glog-0.3.4.ebuild:
+  version bump to 0.3.4
+
+  02 Mar 2016; Mike Frysinger <vapier@gentoo.org> -glog-0.3.1.ebuild,
+  -glog-0.3.2.ebuild, -glog-0.3.3.ebuild:
+  drop old <0.3.3-r1 versions
+

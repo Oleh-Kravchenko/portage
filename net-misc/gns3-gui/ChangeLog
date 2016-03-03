@@ -83,3 +83,11 @@
 
   Package-Manager: portage-2.2.26
 
+*gns3-gui-1.4.4 (02 Mar 2016)
+
+  02 Mar 2016; Aaron Bauman <bman@gentoo.org> -gns3-gui-1.4.1.ebuild,
+  +gns3-gui-1.4.4.ebuild:
+  bump to 1.4.4 and remove old
+
+  Package-Manager: portage-2.2.26
+

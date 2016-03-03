@@ -127,3 +127,14 @@
 
   Package-Manager: portage-2.2.27
 
+  02 Mar 2016; Davide Pesavento <pesa@gentoo.org> -smplayer-15.9.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+
+  02 Mar 2016; Davide Pesavento <pesa@gentoo.org> smplayer-14.9.0-r1.ebuild,
+  smplayer-15.11.0.ebuild, smplayer-16.1.0.ebuild:
+  update HOMEPAGE
+
+  Package-Manager: portage-2.2.27
+

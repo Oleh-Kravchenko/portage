@@ -393,3 +393,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*openssl-1.0.2g-r1 (01 Mar 2016)
+
+  01 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -openssl-1.0.2g.ebuild,
+  +openssl-1.0.2g-r1.ebuild:
+  Revbump to add subslot that reflects lack of SSLv2 (#575548).
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

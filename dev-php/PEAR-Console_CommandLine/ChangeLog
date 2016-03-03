@@ -79,3 +79,10 @@
 
   Package-Manager: portage-2.2.27
 
+  02 Mar 2016; Markus Meier <maekke@gentoo.org>
+  PEAR-Console_CommandLine-1.2.1.ebuild:
+  add ~arm, bug #574264
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

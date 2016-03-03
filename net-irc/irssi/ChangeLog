@@ -83,3 +83,10 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  02 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> irssi-0.8.17.ebuild,
+  irssi-9999.ebuild:
+  Add libressl support to many packages
+
+  Package maintainers will likely want to cleanup various things for this
+  experimental USE flag.
+
