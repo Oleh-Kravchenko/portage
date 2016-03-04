@@ -77,3 +77,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*page-1.9.6-r5 (03 Mar 2016)
+
+  03 Mar 2016; Daniel Campbell <zlg@gentoo.org> +page-1.9.6-r5.ebuild:
+  Revbump, fix file collision
+
+  Gentoo-Bug: 574074
+  Gentoo-Bug-URL: https://bugs.gentoo.org/574074
+
+  Package-Manager: portage-2.2.27
+

@@ -177,3 +177,13 @@
   02 Mar 2016; Michał Górny <mgorny@gentoo.org> pypy-bin-4.0.1-r1.ebuild:
   Add missing QA_PREBUILT
 
+  03 Mar 2016; Michał Górny <mgorny@gentoo.org> pypy-bin-4.0.1-r1.ebuild:
+  Add RDEPs to DEPEND, and subslots everywhere
+
+  Add RDEPENDs to DEPEND since we run the built PyPy in order to generate
+  CFFI caches and byte-compile modules.
+
+  03 Mar 2016; Michał Górny <mgorny@gentoo.org> -pypy-bin-2.6.0-r2.ebuild,
+  -pypy-bin-4.0.0-r1.ebuild, -pypy-bin-4.0.1.ebuild:
+  Drop old
+

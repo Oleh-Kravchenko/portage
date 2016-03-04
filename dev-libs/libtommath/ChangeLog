@@ -67,3 +67,15 @@
 
   Bug: 575810
 
+*libtommath-1.0 (28 Feb 2016)
+
+  28 Feb 2016; Patrick Lauer <patrick@gentoo.org> +libtommath-1.0.ebuild:
+  Bump #575848
+
+  Package-Manager: portage-2.2.27
+
+  03 Mar 2016; Patrick Lauer <patrick@gentoo.org> libtommath-1.0.ebuild:
+  Use better tarball #575968
+
+  Package-Manager: portage-2.2.27
+

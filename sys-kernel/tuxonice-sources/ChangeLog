@@ -233,3 +233,17 @@
   +tuxonice-sources-4.4.3.ebuild:
   Version bumps.
 
+  03 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  -tuxonice-sources-3.10.93.ebuild, -tuxonice-sources-3.10.94.ebuild,
+  -tuxonice-sources-3.10.95.ebuild, -tuxonice-sources-3.12.50.ebuild,
+  -tuxonice-sources-3.12.52.ebuild, -tuxonice-sources-3.12.52-r1.ebuild,
+  -tuxonice-sources-3.14.57.ebuild, -tuxonice-sources-3.14.58.ebuild,
+  -tuxonice-sources-3.14.59.ebuild, -tuxonice-sources-3.18.24.ebuild,
+  -tuxonice-sources-3.18.25.ebuild, -tuxonice-sources-3.18.25-r1.ebuild,
+  -tuxonice-sources-4.1.13.ebuild, -tuxonice-sources-4.1.15.ebuild,
+  -tuxonice-sources-4.1.16.ebuild, -tuxonice-sources-4.2.6.ebuild,
+  -tuxonice-sources-4.3.0.ebuild, -tuxonice-sources-4.3.3.ebuild,
+  -tuxonice-sources-4.3.4.ebuild, -tuxonice-sources-4.4.0.ebuild,
+  -tuxonice-sources-4.4.0-r1.ebuild:
+  Delete old versions.
+

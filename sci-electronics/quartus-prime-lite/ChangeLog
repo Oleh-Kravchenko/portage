@@ -44,3 +44,19 @@
 
   Package-Manager: portage-2.2.27
 
+*quartus-prime-lite-15.1.0.185-r1 (03 Mar 2016)
+
+  03 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  +files/quartus-prime-lite-15.1.0.185-qenv-lib32.patch,
+  +files/quartus-prime-lite-15.1.0.185-vso-launcher.patch, metadata.xml,
+  +quartus-prime-lite-15.1.0.185-r1.ebuild:
+  revbump to 15.1.0.185-r1
+
+  This fixes the issues with launching vsim
+  Masked via no keywords as we bundle insecure old versions of lib freetype,
+  new entry in SRC_URI to acquire lib file libfreetype.so.6
+
+  Gentoo bug: #575684
+
+  Package-Manager: portage-2.2.26
+

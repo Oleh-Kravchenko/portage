@@ -651,3 +651,21 @@
 
   Package-Manager: portage-2.2.27_p64
 
+*chrome-binary-plugins-49.0.2623.75_p1 (03 Mar 2016)
+*chrome-binary-plugins-49.0.2623.75_beta1 (03 Mar 2016)
+
+  03 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-48.0.2564.116_p1.ebuild,
+  -chrome-binary-plugins-49.0.2623.63_beta1.ebuild,
+  +chrome-binary-plugins-49.0.2623.75_beta1.ebuild,
+  +chrome-binary-plugins-49.0.2623.75_p1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27_p64
+
+  03 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  chrome-binary-plugins-49.0.2623.75_p1.ebuild:
+  Stabilize M49 for amd64
+
+  Package-Manager: portage-2.2.27_p64
+

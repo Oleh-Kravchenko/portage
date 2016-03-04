@@ -68,3 +68,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libwapcaplet-0.3.0 (02 Mar 2016)
+
+  02 Mar 2016; Michael Weber <xmw@gentoo.org> +libwapcaplet-0.3.0.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+
+  02 Mar 2016; Michael Weber <xmw@gentoo.org>
+  -files/libwapcaplet-0.2.1-glibc20.patch, -libwapcaplet-0.2.1-r1.ebuild:
+  Drop old.
+
+  Package-Manager: portage-2.2.27
+

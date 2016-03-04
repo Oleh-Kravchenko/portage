@@ -146,3 +146,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  03 Mar 2016; Alexis Ballier <aballier@gentoo.org> ocaml-4.03.0_beta1.ebuild:
+  add tests support
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

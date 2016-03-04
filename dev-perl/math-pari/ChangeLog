@@ -64,3 +64,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Mar 2016; Kent Fredric <kentfredric@gmail.com> math-pari-2.10.808.ebuild:
+  Add missing DEPEND on app-arch/unzip
+
+  Package-Manager: portage-2.2.27
+

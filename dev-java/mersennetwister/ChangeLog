@@ -71,3 +71,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mersennetwister-0_pre23765-r1 (03 Mar 2016)
+
+  03 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +mersennetwister-0_pre23765-r1.ebuild:
+  EAPI 5 bump. Switch to java-pkg-simple.
+
+  Package-Manager: portage-2.2.26
+

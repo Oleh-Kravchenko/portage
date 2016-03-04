@@ -230,6 +230,30 @@
   21 Feb 2016; Jason A. Donenfeld <zx2c4@gentoo.org> files/nginx.logrotate-r1:
   use the nginx utility command for log reopening
 
+*nginx-1.9.12 (02 Mar 2016)
+
+  02 Mar 2016; Thomas D <whissi@whissi.de> +nginx-1.9.12.ebuild:
+  Bump to v1.9.12 (#574342)
+
+  Changes:
+    - Bumped to EAPI=6
+
+    - nginx_modules_http_fancyindex bumped to v0.3.6
+
+    - nginx_modules_http_lua bumped to v0.10.1rc1
+
+    - nginx_modules_http_auth_ldap bumped to
+  8517bb05ecc896b54429ca5e95137b0a386bd41a
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=574342
+
+  Package-Manager: portage-2.2.27
+
   02 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> nginx-1.9.10-r3.ebuild:
   work with libressl
+
+  03 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> nginx-1.9.12.ebuild:
+  Support libressl
+
+  Package-Manager: portage-2.2.27
 

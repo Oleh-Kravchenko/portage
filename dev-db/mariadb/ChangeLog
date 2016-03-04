@@ -381,3 +381,10 @@
 
   Package-Manager: portage-2.2.27
 
+  03 Mar 2016; Brian Evans <grknight@gentoo.org> mariadb-10.1.12.ebuild:
+  Fix multilib build failure wrt bug 576338
+
+  Missing ${MULTILIB_USEDEP} on virtual/krb5
+
+  Package-Manager: portage-2.2.27
+

@@ -707,3 +707,19 @@
 
   Package-Manager: portage-2.2.27_p64
 
+*chromium-49.0.2623.75 (03 Mar 2016)
+
+  03 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-49.0.2623.75.ebuild:
+  Stable channel bump (49.0.2623.75)
+
+  Package-Manager: portage-2.2.27_p64
+
+  03 Mar 2016; Richard Freeman <rich0@gentoo.org>
+  chromium-49.0.2623.75.ebuild:
+  amd64 stable
+
+  Bug: 576354
+
+  Package-Manager: portage-2.2.26
+

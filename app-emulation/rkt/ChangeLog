@@ -80,3 +80,13 @@
 
   Package-Manager: portage-2.2.27
 
+  03 Mar 2016; Zac Medico <zmedico@gentoo.org> rkt-1.1.0.ebuild:
+  fix kvm when coreos stage1 is disabled, + makefile tweaks
+
+  Package-Manager: portage-2.2.27
+
+  03 Mar 2016; Zac Medico <zmedico@gentoo.org> rkt-1.1.0.ebuild:
+  use forward-vars for get_lkvm_sources makefile target
+
+  Package-Manager: portage-2.2.27
+

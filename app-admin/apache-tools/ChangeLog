@@ -160,3 +160,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  03 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -apache-tools-2.4.16.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -402,3 +402,18 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*openssl-1.0.2g-r2 (03 Mar 2016)
+
+  03 Mar 2016; Doug Goldstein <cardoe@gentoo.org> -openssl-1.0.2g-r1.ebuild,
+  +openssl-1.0.2g-r2.ebuild:
+  re-enable SSLv2
+
+  Re-enable SSLv2 since disabling it changes the ABI without a SONAME change
+  causing a lot of breakage.
+
+  Gentoo-Bug: 576128
+  Gentoo-Bug: 575548
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

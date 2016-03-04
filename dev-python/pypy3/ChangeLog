@@ -161,3 +161,18 @@
   06 Feb 2016; Michał Górny <mgorny@gentoo.org> pypy3-2.4.0-r1.ebuild:
   Use the new Gentoo path patch on 2.4.0-r1
 
+*pypy3-2.4.0-r2 (03 Mar 2016)
+
+  03 Mar 2016; Michał Górny <mgorny@gentoo.org> -pypy3-2.4.0-r1.ebuild,
+  +pypy3-2.4.0-r2.ebuild:
+  Fix path subst in Gentoo paths
+
+  03 Mar 2016; Michał Górny <mgorny@gentoo.org>
+  +files/2.4.0-21_all_distutils_c++.patch, pypy3-2.4.0-r2.ebuild,
+  pypy3-9999.ebuild:
+  Sync between release and live ebuild
+
+  03 Mar 2016; Michał Górny <mgorny@gentoo.org>
+  -files/1.9-scripts-location.patch, -pypy3-2.4.0.ebuild:
+  Drop old
+

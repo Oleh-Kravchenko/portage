@@ -377,3 +377,9 @@
 
   Package-Manager: portage-2.2.27_p64
 
+  03 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-unstable-50.0.2657.0_p1.ebuild:
+  Use gentoo.readme-r1
+
+  Package-Manager: portage-2.2.27_p64
+

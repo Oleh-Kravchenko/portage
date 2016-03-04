@@ -41,3 +41,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  crossguid-0_pre20150817.ebuild:
+  disable testing #575544
+
+  This package lacks a proper build system, and the default `make test`
+  ends up autodetecting the wrong thing.  Disable it until upstream can
+  do something sane for us.
+

@@ -270,3 +270,8 @@
 
   Package-Manager: portage-2.2.27
 
+  03 Mar 2016; William Hubbs <williamh@gentoo.org> go-9999.ebuild:
+  sync live ebuild
+
+  Package-Manager: portage-2.2.26
+

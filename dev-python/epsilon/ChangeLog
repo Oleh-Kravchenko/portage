@@ -78,3 +78,14 @@
 
   Package-Manager: portage-2.2.27
 
+  02 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -epsilon-0.6.0-r2.ebuild:
+  Clean up old.
+
+  Tests pass fine now with recent versions.
+
+  Gentoo-Bug: https://bugs.gentoo.org/295068
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

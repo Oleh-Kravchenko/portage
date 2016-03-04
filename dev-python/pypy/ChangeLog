@@ -189,3 +189,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 Mar 2016; Michał Górny <mgorny@gentoo.org> -pypy-2.6.0-r1.ebuild,
+  -pypy-4.0.0-r1.ebuild:
+  Drop old
+

@@ -138,3 +138,15 @@
 
   Package-Manager: portage-2.2.27
 
+*letsencrypt-0.4.1 (02 Mar 2016)
+
+  02 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +letsencrypt-0.4.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  02 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -letsencrypt-0.4.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

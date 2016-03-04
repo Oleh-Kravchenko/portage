@@ -81,3 +81,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  02 Mar 2016; James Le Cuirot <chewi@gentoo.org> relaxngcc-1.12-r3.ebuild:
+  RDEPEND entries should also be in DEPEND
+
+  Package-Manager: portage-2.2.27
+
+  02 Mar 2016; James Le Cuirot <chewi@gentoo.org> relaxngcc-1.12-r3.ebuild:
+  1.12-r3 stable on amd64 and x86 using ALLARCHES
+
+  Package-Manager: portage-2.2.27
+
+  02 Mar 2016; James Le Cuirot <chewi@gentoo.org> -files/MANIFEST.MF-1.12,
+  -files/build.xml-1.12, -relaxngcc-1.12-r2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

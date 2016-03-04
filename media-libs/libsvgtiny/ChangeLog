@@ -69,3 +69,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libsvgtiny-0.1.4 (02 Mar 2016)
+
+  02 Mar 2016; Michael Weber <xmw@gentoo.org> +libsvgtiny-0.1.4.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+
+  02 Mar 2016; Michael Weber <xmw@gentoo.org>
+  -files/libsvgtiny-0.1.2-glibc2.20.patch, -libsvgtiny-0.1.2.ebuild:
+  Drop old.
+
+  Package-Manager: portage-2.2.27
+

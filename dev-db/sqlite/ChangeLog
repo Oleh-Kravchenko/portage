@@ -162,3 +162,16 @@
 
   Package-Manager: portage-2.2.27
 
+*sqlite-3.11.0 (03 Mar 2016)
+
+  03 Mar 2016; Mike Gilbert <floppym@gentoo.org> +files/sqlite-3.11.0-full_tar
+  ball-SQLITE_DBCONFIG_ENABLE_FTS3_TOKENIZER.patch,
+  +files/sqlite-3.11.0-full_tarball-build.patch, +files/sqlite-3.11.0-nonfull_
+  tarball-SQLITE_DBCONFIG_ENABLE_FTS3_TOKENIZER.patch,
+  +files/sqlite-3.11.0-nonfull_tarball-build.patch, +sqlite-3.11.0.ebuild:
+  Version bump (3.11.0).
+
+  Link executables against libsqlite3.so instead of statically including code
+  from sqlite3.c.
+  Backport SQLITE_DBCONFIG_ENABLE_FTS3_TOKENIZER from 3.12.0.
+
