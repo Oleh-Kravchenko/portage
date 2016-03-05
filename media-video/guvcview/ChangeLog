@@ -77,3 +77,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  04 Mar 2016; Alexis Ballier <aballier@gentoo.org> guvcview-2.0.3.ebuild:
+  add dep on autoconf-archive, bug #575692
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -167,3 +167,14 @@
   files/deluged.init-2:
   change shebang to #!/sbin/openrc-run
 
+  29 Feb 2016; Paolo Pedroni <paolo.pedroni@iol.it> deluge-9999.ebuild:
+  sync live ebuild with latest changes
+
+  Fixes bug #476382, #293513 and #518354
+
+  29 Feb 2016; Paolo Pedroni <paolo.pedroni@iol.it>
+  -files/deluge-1.3.5-rb_libtorrent-disable-python-bindings:
+  remove unused patch
+
+  This file is no longer needed
+

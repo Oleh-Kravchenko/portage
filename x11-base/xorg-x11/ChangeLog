@@ -64,3 +64,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  04 Mar 2016; Steev Klimaszewski <steev@gentoo.org> xorg-x11-7.4-r2.ebuild:
+  Keyword 7.4-r2 for ~arm64
+
+  Package-Manager: portage-2.2.27
+

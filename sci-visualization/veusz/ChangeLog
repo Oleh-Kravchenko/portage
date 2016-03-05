@@ -115,3 +115,12 @@
 
   Package-Manager: portage-2.2.27
 
+*veusz-1.23.2-r1 (04 Mar 2016)
+
+  04 Mar 2016; Andrey Grozin <grozin@gentoo.org> +veusz-1.23.2-r1.ebuild:
+  added python3_5, dropped python3_3
+
+  Because dev-python/astropy-1.1.1 dropped python3_3
+
+  Package-Manager: portage-2.2.27
+

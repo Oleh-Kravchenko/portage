@@ -321,3 +321,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+  04 Mar 2016; Steev Klimaszewski <steev@gentoo.org> gtk+-3.18.7.ebuild:
+  Keyword 3.18.7 for ~arm64
+
+  Tested on Cortex-A53
+
+  Package-Manager: portage-2.2.27
+

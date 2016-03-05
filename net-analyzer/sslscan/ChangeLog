@@ -70,3 +70,15 @@
 
   Package-Manager: portage-2.2.27
 
+*sslscan-1.11.3-r1 (04 Mar 2016)
+
+  04 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> sslscan-1.11.3.ebuild,
+  +sslscan-1.11.3-r1.ebuild:
+  stable version
+
+  04 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> sslscan-1.11.3.ebuild,
+  -sslscan-1.11.3-r1.ebuild:
+  libressl is masked, so no need for two ebuilds
+
+  Package-Manager: portage-2.2.27
+

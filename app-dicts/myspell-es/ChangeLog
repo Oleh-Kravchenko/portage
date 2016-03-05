@@ -66,3 +66,9 @@
 
   Bug: 575810
 
+*myspell-es-0.7 (04 Mar 2016)
+
+  04 Mar 2016; Elizabeth Myers <elizabeth@interlinked.me>
+  +myspell-es-0.7.ebuild:
+  update to 0.7
+

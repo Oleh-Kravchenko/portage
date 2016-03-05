@@ -100,3 +100,10 @@
 
   this is considered a security bump, so drop old.
 
+  04 Mar 2016; Steev Klimaszewski <steev@gentoo.org> http-parser-2.6.1.ebuild:
+  Keyword 2.6.1 for ~arm64
+
+  Tested on Cortex-A53
+
+  Package-Manager: portage-2.2.27
+

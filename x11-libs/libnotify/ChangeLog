@@ -93,3 +93,9 @@
 
   Package-Manager: portage-2.2.27
 
+  04 Mar 2016; Steev Klimaszewski <steev@gentoo.org>
+  libnotify-0.7.6-r3.ebuild:
+  Keyword 0.7.6-r3 for ~arm64
+
+  Package-Manager: portage-2.2.27
+

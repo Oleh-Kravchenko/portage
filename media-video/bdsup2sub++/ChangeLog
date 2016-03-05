@@ -10,3 +10,12 @@
 
   Package-Manager: portage-2.2.27
 
+  04 Mar 2016; Louis Sautier <sautier.louis@gmail.com>
+  bdsup2sub++-1.0.2.ebuild, +files/bdsup2sub++-1.0.2-hidden-config.patch:
+  store settings in a hidden directory
+
+  Patch taken from https://github.com/amichaelt/BDSup2SubPlusPlus/pull/36
+  Settings will go to ~/.config/bdsup2sub++ instead of ~/bdsup2sub++
+
+  Package-Manager: portage-2.2.27
+

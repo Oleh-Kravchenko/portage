@@ -80,3 +80,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*teamspeak-server-bin-3.0.12.2 (04 Mar 2016)
+
+  04 Mar 2016; Amy Winston <amynka@gentoo.org>
+  +teamspeak-server-bin-3.0.12.2.ebuild:
+  version bump 3.0.12.2 bug #576022
+
+  Package-Manager: portage-2.2.26
+

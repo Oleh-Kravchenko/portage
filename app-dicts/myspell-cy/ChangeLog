@@ -66,3 +66,9 @@
 
   Bug: 575810
 
+*myspell-cy-2013.07.08 (04 Mar 2016)
+
+  04 Mar 2016; Elizabeth Myers <elizabeth@interlinked.me>
+  +myspell-cy-2013.07.08.ebuild:
+  update to 2013.07.08
+

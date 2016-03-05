@@ -128,3 +128,16 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Mar 2016; Hans de Graaff <graaff@gentoo.org> -webmock-1.22.1.ebuild,
+  -webmock-1.22.3.ebuild, -webmock-1.22.5.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+*webmock-1.24.2 (04 Mar 2016)
+
+  04 Mar 2016; Hans de Graaff <graaff@gentoo.org> +webmock-1.24.2.ebuild:
+  add 1.24.2
+
+  Package-Manager: portage-2.2.26
+

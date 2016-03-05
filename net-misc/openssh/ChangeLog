@@ -296,3 +296,6 @@
   +files/openssh-7.2_p1-sctp-x509-glue.patch, +openssh-7.2_p1.ebuild:
   version bump to 7.2_p1
 
+  04 Mar 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  Re-order maintainers
+

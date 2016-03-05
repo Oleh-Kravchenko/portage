@@ -138,3 +138,8 @@
   24 Feb 2016; Mike Frysinger <vapier@gentoo.org> pax-utils-1.1.5.ebuild:
   drop accidental debug code
 
+*pax-utils-1.1.6 (04 Mar 2016)
+
+  04 Mar 2016; Mike Frysinger <vapier@gentoo.org> +pax-utils-1.1.6.ebuild:
+  version bump
+

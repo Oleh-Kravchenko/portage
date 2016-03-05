@@ -165,3 +165,9 @@
   +ekopath-6.0.661_p20160124.ebuild:
   Snapshot bump
 
+*ekopath-6.0.705_p20160303 (04 Mar 2016)
+
+  04 Mar 2016; Michał Górny <mgorny@gentoo.org>
+  +ekopath-6.0.705_p20160303.ebuild:
+  Snapshot bump
+

@@ -82,3 +82,15 @@
 
   Package-Manager: portage-2.2.26
 
+*twitter-text-1.13.4 (03 Mar 2016)
+
+  03 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +twitter-text-1.13.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  03 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -twitter-text-1.13.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

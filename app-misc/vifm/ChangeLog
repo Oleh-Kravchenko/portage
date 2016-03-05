@@ -104,3 +104,9 @@
   -vifm-0.8.1_beta.ebuild:
   Drop old
 
+  04 Mar 2016; José María Alonso Josa <nimiux@gentoo.org> vifm-0.8.ebuild,
+  vifm-0.8.1a.ebuild:
+  Don't depend on ncurses:5
+
+  Fixes bug #576150
+

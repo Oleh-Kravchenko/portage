@@ -174,3 +174,10 @@
 
   Package-Manager: portage-2.2.27
 
+  04 Mar 2016; Steev Klimaszewski <steev@gentoo.org> nodejs-5.6.0-r1.ebuild:
+  Keyword 5.6.0-r1 for ~arm64
+
+  Tested on Cortex-A53
+
+  Package-Manager: portage-2.2.27
+

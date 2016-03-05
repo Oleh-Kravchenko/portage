@@ -172,3 +172,36 @@
 
   Package-Manager: portage-2.2.24
 
+  04 Mar 2016; Göktürk Yüksek <gokturk@binghamton.edu>
+  -lastpass-cli-0.6.0.ebuild, -lastpass-cli-0.7.1.ebuild,
+  -lastpass-cli-0.8.0-r1.ebuild:
+  drop old versions 0.6.0, 0.7.1, 0.8.0
+
+  Package-Manager: portage-2.2.26
+
+  04 Mar 2016; Göktürk Yüksek <gokturk@binghamton.edu>
+  lastpass-cli-0.6.1.ebuild, lastpass-cli-0.7.2.ebuild,
+  lastpass-cli-0.8.1.ebuild:
+  fix the license (GPL-2 -> GPL-2+)
+
+  The source files have the following clause:
+  "... either version 2 of the License, or (at your option) any later
+  version."
+
+  Package-Manager: portage-2.2.26
+
+  04 Mar 2016; Göktürk Yüksek <gokturk@binghamton.edu>
+  lastpass-cli-0.6.1.ebuild, lastpass-cli-0.7.2.ebuild,
+  lastpass-cli-0.8.1.ebuild:
+  add missing DEPEND on virtual/pkgconfig
+
+  Package-Manager: portage-2.2.26
+
+*lastpass-cli-0.9.0 (04 Mar 2016)
+
+  04 Mar 2016; Göktürk Yüksek <gokturk@binghamton.edu>
+  +lastpass-cli-0.9.0.ebuild:
+  bump to 0.9.0
+
+  Package-Manager: portage-2.2.26
+

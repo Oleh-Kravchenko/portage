@@ -66,3 +66,30 @@
 
   Bug: 575810
 
+  04 Mar 2016; Amy Winston <amynka@gentoo.org> eggdrop-1.6.21-r1.ebuild,
+  +files/eggdrop-1.6.21-fix-gcc5-remove-inline.patch:
+  fix compilation with gcc-5 #571004
+
+  Backport patch from https://github.com/eggheads/eggdrop/issues/123
+
+  Package-Manager: portage-2.2.27
+
+  04 Mar 2016; Amy Winston <amynka@gentoo.org> eggdrop-1.6.21-r1.ebuild,
+  +files/eggdrop-1.6.21-fix-memset.patch:
+  bump to EAPI=6, fix a QA warning
+
+  Add a patch to fix a compilation warning.
+  Taken from eggheads/eggdrop@7570148085cd33f12ba30897e27e6064c202f12b
+
+  Package-Manager: portage-2.2.27
+
+  04 Mar 2016; Amy Winston <amynka@gentoo.org> eggdrop-1.6.21-r1.ebuild:
+  fix a race condition in make, fixes #533490
+
+  Package-Manager: portage-2.2.27
+
+  04 Mar 2016; Amy Winston <amynka@gentoo.org> metadata.xml:
+  add myself as proxied maintainer
+
+  Package-Manager: portage-2.2.27
+

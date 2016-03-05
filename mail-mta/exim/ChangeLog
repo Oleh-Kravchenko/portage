@@ -192,3 +192,14 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Mar 2016; Fabian Groffen <grobian@gentoo.org> exim-4.86.2.ebuild,
+  exim-4.87_rc5.ebuild, +files/exim-4.86.2-TMPDIR.patch:
+  fix TMPDIR patch for 4.86.2, drop for 4.87_rc5 as it's upstream, bug #576332
+
+  Package-Manager: portage-2.2.26
+
+  04 Mar 2016; Fabian Groffen <grobian@gentoo.org> exim-4.86.2.ebuild:
+  add notice about new options for CVE-2016-1531
+
+  Package-Manager: portage-2.2.26
+

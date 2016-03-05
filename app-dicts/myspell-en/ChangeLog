@@ -85,3 +85,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*myspell-en-2016.02.01 (04 Mar 2016)
+
+  04 Mar 2016; Elizabeth Myers <elizabeth@interlinked.me>
+  +myspell-en-2016.02.01.ebuild:
+  upgrade to 2016.02.01
+
+  04 Mar 2016; Elizabeth Myers <elizabeth@interlinked.me>
+  myspell-en-2016.02.01.ebuild:
+  minor rename to the saved file for 2016.02.01
+

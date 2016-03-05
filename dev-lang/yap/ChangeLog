@@ -88,3 +88,8 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Mar 2016; Keri Harris <keri@gentoo.org> yap-6.3.3.ebuild:
+  avoid missing SWI-YAP interface definitions with USE=-readline
+
+  Package-Manager: portage-2.2.26
+

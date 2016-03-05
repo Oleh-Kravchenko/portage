@@ -136,3 +136,17 @@
 
   Package-Manager: portage-2.2.27_p58_p97174
 
+*catalyst-2.0.18-r2 (04 Mar 2016)
+
+  04 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  +catalyst-2.0.18-r2.ebuild, +files/catalyst-2.0.18-fix-quotes.patch:
+  version bump to 2.0.18-r2
+
+  Package-Manager: portage-2.2.26
+
+  04 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  catalyst-2.0.18-r2.ebuild:
+  2.0.18-r2 stable on amd64
+
+  Package-Manager: portage-2.2.26
+
