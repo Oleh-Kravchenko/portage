@@ -135,3 +135,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> DBD-Pg-3.4.2.ebuild:
+  ppc64 stable wrt bug #570644
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -DBD-Pg-2.19.3-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

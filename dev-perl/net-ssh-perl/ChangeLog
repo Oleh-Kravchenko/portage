@@ -63,3 +63,27 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  net-ssh-perl-1.360.0-r1.ebuild:
+  Fix dep on Crypt-DH
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  net-ssh-perl-1.360.0-r1.ebuild:
+  Fix dep on Crypt-DSA
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  net-ssh-perl-1.360.0-r1.ebuild:
+  Fix dep on Crypt-IDEA
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  net-ssh-perl-1.360.0-r1.ebuild:
+  Fix dep on Crypt-RSA
+
+  Package-Manager: portage-2.2.27
+

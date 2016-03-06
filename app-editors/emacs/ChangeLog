@@ -197,3 +197,13 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> emacs-18.59-r11.ebuild:
+  amd64 stable wrt bug #573488
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Ulrich Müller <ulm@gentoo.org> emacs-24.5-r1.ebuild:
+  Enable SSL/TLS support with ssl instead of gnutls flag.
+
+  Package-Manager: portage-2.2.27
+

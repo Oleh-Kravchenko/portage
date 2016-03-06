@@ -65,3 +65,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  HTML-TableExtract-2.130.0.ebuild:
+  stable for all wrt bug #575454
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -HTML-TableExtract-2.110.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

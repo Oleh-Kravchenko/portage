@@ -79,3 +79,15 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  HTTP-Server-Simple-0.510.0.ebuild:
+  amd64/ppc/x86 stable wrt bug #576054
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -HTTP-Server-Simple-0.440.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

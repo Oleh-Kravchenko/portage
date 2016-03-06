@@ -63,3 +63,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  convert-pem-0.80.0-r1.ebuild:
+  Fix dependency on Crypt-DES_EDE3
+
+  Package-Manager: portage-2.2.27
+

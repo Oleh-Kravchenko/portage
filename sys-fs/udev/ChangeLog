@@ -207,3 +207,17 @@
   15 Feb 2016; William Hubbs <williamh@gentoo.org> udev-9999.ebuild:
   sync live ebuild
 
+*udev-229-r1 (05 Mar 2016)
+
+  05 Mar 2016; William Hubbs <williamh@gentoo.org> +udev-229-r1.ebuild:
+  revision bump for bug #571986
+
+  Package-Manager: portage-2.2.26
+
+*udev-229-r2 (05 Mar 2016)
+
+  05 Mar 2016; William Hubbs <williamh@gentoo.org> +udev-229-r2.ebuild:
+  rev bump to fix a segmentation fault
+
+  Package-Manager: portage-2.2.26
+

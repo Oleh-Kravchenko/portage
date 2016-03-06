@@ -79,3 +79,9 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Net-OpenID-Consumer-1.30.0-r1.ebuild:
+  Fix dependency on Crypt-DH
+
+  Package-Manager: portage-2.2.27
+

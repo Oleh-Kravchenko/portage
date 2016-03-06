@@ -174,3 +174,8 @@
   +files/kde4-l10n-15.11.90-remove-dirs, +kde4-l10n-15.12.1-r1.ebuild:
   kde-apps: Add {kde,kde4,kdepim,ktp}-l10n-15.12.1 from kde overlay
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> kde4-l10n-15.08.3-r2.ebuild:
+  amd64 stable wrt bug #569742
+
+  Package-Manager: portage-2.2.26
+

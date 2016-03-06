@@ -87,3 +87,8 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> IO-AIO-4.330.0.ebuild:
+  amd64 stable wrt bug #576110
+
+  Package-Manager: portage-2.2.26
+

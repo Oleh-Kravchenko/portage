@@ -313,3 +313,8 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> openrc-0.19.1.ebuild:
+  ia64/sparc stable wrt bug #571696
+
+  Package-Manager: portage-2.2.26
+

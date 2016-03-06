@@ -32,3 +32,8 @@
   kontact-4.4.2016.01.ebuild:
   kde-apps: Add HOMEPAGE setting to kdepim 4.4 noakonadi branch
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> kontact-4.14.10.ebuild:
+  amd64 stable wrt bug #569742
+
+  Package-Manager: portage-2.2.26
+

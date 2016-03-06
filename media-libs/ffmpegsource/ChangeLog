@@ -149,3 +149,13 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Feb 2016; Ilya Tumaykin <itumaykin@gmail.com> -ffmpegsource-2.20.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+
+  04 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> metadata.xml:
+  add subslot description to metadata.xml
+
+  Package-Manager: portage-2.2.27
+

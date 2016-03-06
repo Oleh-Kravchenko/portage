@@ -64,3 +64,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> HTTP-DAV-0.480.0.ebuild:
+  amd64/x86 stable wrt bug #576002
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -HTTP-DAV-0.470.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

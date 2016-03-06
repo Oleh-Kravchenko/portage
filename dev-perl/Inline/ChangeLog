@@ -66,3 +66,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> Inline-0.800.0.ebuild:
+  stable for all wrt bug #576056
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Inline-0.790.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

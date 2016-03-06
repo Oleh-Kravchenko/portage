@@ -63,3 +63,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-UPnP-1.4.3 (05 Mar 2016)
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Net-UPnP-1.4.3.ebuild:
+  Bump to version 1.4.3
+
+  - EAPI6
+  - Use for examples and test deps
+
+  Upstream:
+  - Support for some non-standard UPnP/AV media servers
+  - Support for chunked transfer-encoding
+
+  Package-Manager: portage-2.2.27
+

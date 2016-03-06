@@ -132,3 +132,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 Mar 2016; Markus Rathgeb <maggu2810@gmail.com>
+  strongswan-5.3.4-r1.ebuild:
+  plugin unbound needs net-libs/ldns
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=529910
+  Signed-off-by: Markus Rathgeb <maggu2810@gmail.com>
+

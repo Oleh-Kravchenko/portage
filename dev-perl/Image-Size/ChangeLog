@@ -11,3 +11,14 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> Image-Size-3.300.0.ebuild:
+  stable for all wrt bug #576050
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Image-Size-3.232.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

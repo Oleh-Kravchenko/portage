@@ -92,3 +92,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-SSH2-0.580.0 (05 Mar 2016)
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Net-SSH2-0.580.0.ebuild:
+  Bump to version 0.580.0
+
+  - EAPI6
+  - Better DESCRIPTION
+  - Add examples
+
+  Upstream:
+  - support auth_publickey_frommemory method
+  - better scp_put and scp_get methods
+  - workaround for bug in libssh2_agent_disconnect
+
+  Package-Manager: portage-2.2.27
+

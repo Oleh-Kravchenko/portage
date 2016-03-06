@@ -101,3 +101,8 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> eselect-1.4.5.ebuild:
+  amd64 stable wrt bug #574974
+
+  Package-Manager: portage-2.2.26
+

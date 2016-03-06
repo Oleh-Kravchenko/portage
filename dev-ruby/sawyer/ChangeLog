@@ -26,3 +26,10 @@
 
   Package-Manager: portage-2.2.26
 
+  05 Mar 2016; Hans de Graaff <graaff@gentoo.org> sawyer-0.7.0.ebuild:
+  fix tests
+
+  Avoid running tests that require network access.
+
+  Package-Manager: portage-2.2.26
+

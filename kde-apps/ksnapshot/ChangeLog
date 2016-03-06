@@ -96,3 +96,8 @@
   -ksnapshot-15.08.3.ebuild:
   kde-apps: Drop old
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> ksnapshot-15.08.3-r1.ebuild:
+  amd64 stable wrt bug #569742
+
+  Package-Manager: portage-2.2.26
+

@@ -79,3 +79,14 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> Import-Into-1.2.5.ebuild:
+  amd64/x86 stable wrt bug #576054
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Import-Into-1.2.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

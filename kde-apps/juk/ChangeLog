@@ -133,3 +133,8 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> juk-15.08.3.ebuild:
+  amd64 stable wrt bug #569742
+
+  Package-Manager: portage-2.2.26
+

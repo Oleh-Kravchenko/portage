@@ -795,3 +795,8 @@
 
   Package-Manager: portage-2.2.27
 
+  04 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> metadata.xml:
+  minor style fix
+
+  Package-Manager: portage-2.2.27
+

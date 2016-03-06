@@ -66,3 +66,13 @@
 
   Bug: 575810
 
+  05 Mar 2016; Patrick Lauer <patrick@gentoo.org> libtompoly-0.04.ebuild:
+  Update HOMEPAGE and SRC_URI
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Add maintainer
+
+  Package-Manager: portage-2.2.27
+

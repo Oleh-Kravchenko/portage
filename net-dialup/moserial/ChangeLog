@@ -82,3 +82,18 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+  05 Mar 2016; Pacho Ramos <pacho@gentoo.org> -moserial-3.0.9.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Pacho Ramos <pacho@gentoo.org> moserial-3.0.10.ebuild:
+  itstool needed as DEPEND (#575766 by Maciej Szmigiero)
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Pacho Ramos <pacho@gentoo.org> moserial-3.0.10.ebuild:
+  Fix header
+
+  Package-Manager: portage-2.2.27
+

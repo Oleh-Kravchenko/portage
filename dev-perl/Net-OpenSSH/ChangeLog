@@ -64,3 +64,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-OpenSSH-0.700.0 (05 Mar 2016)
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Net-OpenSSH-0.700.0.ebuild:
+  Bump to version 0.700.0
+
+  Keywords dropped on hppa and sparc due to Net-SSH-Any
+
+  Net::SSH::Any and Net::SFTP::Foreign added in RDEPEND without
+  USE="minimal" as these functions will still be there, just potentially
+  broken.
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Net-OpenSSH-0.590.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

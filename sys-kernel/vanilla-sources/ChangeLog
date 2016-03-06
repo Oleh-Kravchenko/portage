@@ -578,3 +578,14 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*vanilla-sources-4.1.19 (05 Mar 2016)
+*vanilla-sources-3.18.28 (05 Mar 2016)
+
+  05 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  -vanilla-sources-3.18.27.ebuild, +vanilla-sources-3.18.28.ebuild,
+  -vanilla-sources-4.1.18.ebuild, +vanilla-sources-4.1.19.ebuild:
+  Automated version bump to {3.18.28,4.1.19} - remove old.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

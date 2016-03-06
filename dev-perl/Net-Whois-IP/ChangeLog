@@ -71,3 +71,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-Whois-IP-1.190.0 (05 Mar 2016)
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Net-Whois-IP-1.190.0.ebuild:
+  Bump to version 1.190.0
+
+  - EAPI6
+  - Tests vetted slightly, but need more upstream love before they can be
+  unRESTRICTed
+
+  Upstream:
+  - IPv6 Support Enhancements
+
+  Package-Manager: portage-2.2.27
+

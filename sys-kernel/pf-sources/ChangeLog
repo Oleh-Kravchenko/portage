@@ -121,3 +121,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pf-sources-4.4_p5 (05 Mar 2016)
+
+  05 Mar 2016; Markos Chandras <hwoarang@gentoo.org>
+  +pf-sources-4.4_p5.ebuild:
+  Version bump. Bug #567936
+
+  Package-Manager: portage-2.2.26
+

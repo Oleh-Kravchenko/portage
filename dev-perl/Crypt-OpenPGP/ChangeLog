@@ -77,3 +77,27 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Crypt-OpenPGP-1.70.0.ebuild:
+  Fix dependency on Crypt-DSA
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Crypt-OpenPGP-1.70.0.ebuild:
+  Fix dependency on Crypt-RSA
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Crypt-OpenPGP-1.70.0.ebuild:
+  Fix dep on Crypt-IDEA
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Crypt-OpenPGP-1.70.0.ebuild:
+  Fix dep on Crypt-DES_EDE3
+
+  Package-Manager: portage-2.2.27
+

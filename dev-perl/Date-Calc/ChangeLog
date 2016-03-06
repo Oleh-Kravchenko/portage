@@ -118,3 +118,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> Date-Calc-6.400.0.ebuild:
+  ppc64 stable wrt bug #570468
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Date-Calc-6.300.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

@@ -125,3 +125,15 @@
 
   Package-Manager: portage-2.2.27
 
+*rake-compiler-0.9.6 (05 Mar 2016)
+
+  05 Mar 2016; Hans de Graaff <graaff@gentoo.org> +rake-compiler-0.9.6.ebuild:
+  add 0.9.6
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Hans de Graaff <graaff@gentoo.org> rake-compiler-0.9.5.ebuild:
+  depend on correct rspec slot
+
+  Package-Manager: portage-2.2.26
+

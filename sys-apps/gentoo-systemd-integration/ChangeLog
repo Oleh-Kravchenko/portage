@@ -66,3 +66,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  gentoo-systemd-integration-9999.ebuild:
+  Revamp the live ebuild
+
+  Move to EAPI 6.
+
+  Package-Manager: portage-2.2.27_p64
+
+*gentoo-systemd-integration-5 (05 Mar 2016)
+
+  05 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  +gentoo-systemd-integration-5.ebuild:
+  Bump to version 5
+
+  Package-Manager: portage-2.2.27_p64
+

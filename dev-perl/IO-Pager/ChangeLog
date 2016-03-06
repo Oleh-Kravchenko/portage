@@ -81,3 +81,14 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> IO-Pager-0.350.0.ebuild:
+  stable for all wrt bug #576116
+
+  Package-Manager: portage-2.2.26
+
+  05 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -IO-Pager-0.310.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

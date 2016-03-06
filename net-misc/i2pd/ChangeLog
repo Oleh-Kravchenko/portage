@@ -115,3 +115,10 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+*i2pd-2.5.0 (05 Mar 2016)
+
+  05 Mar 2016; Anthony G. Basile <blueness@gentoo.org> +i2pd-2.5.0.ebuild:
+  version bump to 2.5.0, bug #576520
+
+  Package-Manager: portage-2.2.26
+

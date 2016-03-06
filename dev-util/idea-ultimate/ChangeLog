@@ -173,3 +173,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+*idea-ultimate-16.0.0.145.184.1_pre (05 Mar 2016)
+*idea-ultimate-14.1.5.141.3056.5 (05 Mar 2016)
+
+  05 Mar 2016; Gert <pellingert@gmail.com>
+  +idea-ultimate-14.1.5.141.3056.5.ebuild,
+  +idea-ultimate-16.0.0.145.184.1_pre.ebuild:
+  Version bump
+

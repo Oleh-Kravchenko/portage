@@ -79,3 +79,13 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Patrick Lauer <patrick@gentoo.org> libtommath-1.0.ebuild:
+  Update HOMEPAGE
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Add maintainer
+
+  Package-Manager: portage-2.2.27
+

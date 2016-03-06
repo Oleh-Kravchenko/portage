@@ -334,3 +334,13 @@
 
   Package-Manager: portage-2.2.27
 
+  04 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> metadata.xml:
+  add bugs-to link to metadata
+
+  Package-Manager: portage-2.2.27
+
+  04 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> metadata.xml:
+  add maintainer description to metadata
+
+  Package-Manager: portage-2.2.27
+

@@ -108,3 +108,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*cppo-1.3.1-r1 (05 Mar 2016)
+
+  05 Mar 2016; Alexis Ballier <aballier@gentoo.org> -cppo-1.3.1.ebuild,
+  +cppo-1.3.1-r1.ebuild:
+  ocamlbuild is a rdep too, bug #576454
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -101,3 +101,8 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> autogen-5.18.4.ebuild:
+  amd64 stable wrt bug #570746
+
+  Package-Manager: portage-2.2.26
+

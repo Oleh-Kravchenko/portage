@@ -65,3 +65,39 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Module-Signature-0.770.0.ebuild, Module-Signature-0.790.0.ebuild:
+  Fix dep on Crypt-CBC
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Module-Signature-0.770.0.ebuild, Module-Signature-0.790.0.ebuild:
+  Fix dep on Crypt-Random
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Module-Signature-0.770.0.ebuild, Module-Signature-0.790.0.ebuild:
+  fix dep on Crypt-Primes
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Module-Signature-0.770.0.ebuild, Module-Signature-0.790.0.ebuild:
+  Fix dep on Crypt-DES_EDE3
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Module-Signature-0.770.0.ebuild, Module-Signature-0.790.0.ebuild:
+  Fix dep on Crypt-DSA
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Kent Fredric <kentfredric@gmail.com>
+  Module-Signature-0.770.0.ebuild, Module-Signature-0.790.0.ebuild:
+  Fix dep on Crypt-RSA
+
+  Package-Manager: portage-2.2.27
+

@@ -138,3 +138,15 @@
 
   Package-Manager: portage-2.2.27
 
+*acme-0.4.2 (05 Mar 2016)
+
+  05 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +acme-0.4.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  05 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -acme-0.4.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

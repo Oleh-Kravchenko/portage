@@ -79,3 +79,8 @@
 
   Package-Manager: portage-2.2.26
 
+  05 Mar 2016; Patrice Clement <monsieurp@gentoo.org> jzlib-1.0.7-r2.ebuild:
+  Set up source USE flag.
+
+  Package-Manager: portage-2.2.26
+

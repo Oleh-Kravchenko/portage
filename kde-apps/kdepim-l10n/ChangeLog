@@ -79,3 +79,9 @@
   +kdepim-l10n-15.12.1.ebuild:
   kde-apps: Add {kde,kde4,kdepim,ktp}-l10n-15.12.1 from kde overlay
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  kdepim-l10n-4.4.11.1-r2.ebuild, kdepim-l10n-4.14.3-r1.ebuild:
+  amd64 stable wrt bug #569742
+
+  Package-Manager: portage-2.2.26
+

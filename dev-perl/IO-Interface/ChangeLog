@@ -74,3 +74,8 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> IO-Interface-1.90.0.ebuild:
+  amd64 stable wrt bug #576112
+
+  Package-Manager: portage-2.2.26
+

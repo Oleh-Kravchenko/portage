@@ -125,3 +125,10 @@
 
   Package-Manager: portage-2.2.27
 
+*rubygems-2.6.1 (05 Mar 2016)
+
+  05 Mar 2016; Hans de Graaff <graaff@gentoo.org> +rubygems-2.6.1.ebuild:
+  add 2.6.1
+
+  Package-Manager: portage-2.2.26
+
