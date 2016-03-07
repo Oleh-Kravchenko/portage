@@ -123,3 +123,25 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+*libgit2-glib-0.23.10-r1 (06 Mar 2016)
+
+  06 Mar 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  -libgit2-glib-0.23.10.ebuild, +libgit2-glib-0.23.10-r1.ebuild:
+  incompatible with libgit2-0.24 API (bug #576550)
+
+  Rename-revbump to propagate static dep.
+
+  Package-Manager: portage-2.2.27
+
+  06 Mar 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  -libgit2-glib-0.23.8.ebuild:
+  clean up old
+
+  Package-Manager: portage-2.2.27
+
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  libgit2-glib-0.23.10-r1.ebuild:
+  x86 stable wrt bug #427546
+
+  Package-Manager: portage-2.2.26
+

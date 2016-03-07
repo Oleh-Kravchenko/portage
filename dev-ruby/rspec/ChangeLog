@@ -149,3 +149,8 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Hans de Graaff <graaff@gentoo.org> -rspec-3.2.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+

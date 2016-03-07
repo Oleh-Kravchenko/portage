@@ -101,3 +101,9 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  Getopt-Long-Descriptive-0.97.0.ebuild:
+  ppc stable wrt bug #573482
+
+  Package-Manager: portage-2.2.26
+

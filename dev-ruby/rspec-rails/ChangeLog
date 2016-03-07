@@ -85,3 +85,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Hans de Graaff <graaff@gentoo.org> -rspec-rails-3.2.3.ebuild,
+  -rspec-rails-3.3.2.ebuild, -rspec-rails-3.4.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+

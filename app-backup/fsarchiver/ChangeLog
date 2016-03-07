@@ -57,3 +57,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*fsarchiver-0.6.21 (06 Mar 2016)
+
+  06 Mar 2016; Markos Chandras <hwoarang@gentoo.org>
+  +fsarchiver-0.6.21.ebuild:
+  Version bump: Bug #571200
+
+  Package-Manager: portage-2.2.27
+

@@ -109,3 +109,8 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> gnome-builder-3.18.1.ebuild:
+  x86 stable wrt bug #566378
+
+  Package-Manager: portage-2.2.26
+

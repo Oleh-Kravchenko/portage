@@ -77,3 +77,13 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -sinatra-1.4.6-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> sinatra-1.4.6.ebuild:
+  Fix desc, remove ruby19
+
+  Package-Manager: portage-2.2.27
+

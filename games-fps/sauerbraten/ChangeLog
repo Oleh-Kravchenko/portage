@@ -83,3 +83,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  sauerbraten-2013.02.03.ebuild:
+  amd64 stable wrt bug #574834
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

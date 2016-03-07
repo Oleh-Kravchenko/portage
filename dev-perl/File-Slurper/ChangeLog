@@ -34,3 +34,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> File-Slurper-0.0.800.ebuild:
+  ppc stable wrt bug #573554
+
+  Package-Manager: portage-2.2.26
+

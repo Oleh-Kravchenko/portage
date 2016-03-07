@@ -102,3 +102,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  libplasmaclock-4.11.22.ebuild:
+  x86 stable wrt bug #569742
+
+  Package-Manager: portage-2.2.26
+

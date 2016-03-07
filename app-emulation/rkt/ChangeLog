@@ -90,3 +90,13 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Zac Medico <zmedico@gentoo.org> rkt-1.1.0.ebuild:
+  fix makefile dependencies to work in src_test
+
+  Package-Manager: portage-2.2.27
+
+  06 Mar 2016; Zac Medico <zmedico@gentoo.org> rkt-9999.ebuild:
+  update 9999 ebuild
+
+  Package-Manager: portage-2.2.27
+

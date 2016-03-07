@@ -82,3 +82,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  kimagemapeditor-15.08.3.ebuild:
+  x86 stable wrt bug #569742
+
+  Package-Manager: portage-2.2.26
+

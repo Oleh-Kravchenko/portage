@@ -219,3 +219,10 @@
   -python-exec-2.3.2.ebuild:
   Drop intermediate masked versions
 
+  06 Mar 2016; Agostino Sarubbo <ago@gentoo.org> python-exec-2.0.2.ebuild:
+  amd64 stable wrt bug #557104
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

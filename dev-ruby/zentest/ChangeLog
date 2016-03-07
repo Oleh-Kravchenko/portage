@@ -108,3 +108,9 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> zentest-4.9.5.ebuild,
+  zentest-4.11.0.ebuild:
+  Remove ruby19, fix desc
+
+  Package-Manager: portage-2.2.27
+

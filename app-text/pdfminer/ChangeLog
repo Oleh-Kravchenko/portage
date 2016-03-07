@@ -70,3 +70,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pdfminer-20140328-r1 (05 Mar 2016)
+
+  05 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +pdfminer-20140328-r1.ebuild:
+  Renable tests.
+
+  Tests do not fail anymore so renable them and fix a bug whilst at it.
+
+  Gentoo-Bug: https://bugs.gentoo.org/439788
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

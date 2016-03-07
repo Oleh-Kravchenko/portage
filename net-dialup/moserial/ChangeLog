@@ -97,3 +97,8 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> moserial-3.0.10.ebuild:
+  x86 stable wrt bug #566378
+
+  Package-Manager: portage-2.2.26
+

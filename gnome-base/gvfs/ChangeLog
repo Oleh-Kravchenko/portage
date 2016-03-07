@@ -258,3 +258,8 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> gvfs-1.26.3.ebuild:
+  x86 stable wrt bug #427546
+
+  Package-Manager: portage-2.2.26
+

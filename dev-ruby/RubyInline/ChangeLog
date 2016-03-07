@@ -93,3 +93,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -RubyInline-3.12.3-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> RubyInline-3.12.3.ebuild,
+  RubyInline-3.12.4.ebuild:
+  Remove ruby19
+
+  Package-Manager: portage-2.2.27
+

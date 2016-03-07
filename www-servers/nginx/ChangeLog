@@ -257,3 +257,9 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -nginx-1.9.10.ebuild,
+  -nginx-1.9.10-r3.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

@@ -74,3 +74,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ushare-1.1a-r7 (06 Mar 2016)
+
+  06 Mar 2016; Markos Chandras <hwoarang@gentoo.org> +ushare-1.1a-r7.ebuild:
+  Drop libdlna support. Bug #571078
+
+  Package-Manager: portage-2.2.27
+
+*ushare-1.1a-r8 (06 Mar 2016)
+
+  06 Mar 2016; Markos Chandras <hwoarang@gentoo.org> -ushare-1.1a-r7.ebuild,
+  +ushare-1.1a-r8.ebuild:
+  Really disable libdlna
+
+  Package-Manager: portage-2.2.27
+
+  06 Mar 2016; Markos Chandras <hwoarang@gentoo.org> +files/08_all_gcc5.patch:
+  Fix building with gcc-5. Bug #569968
+
+  Package-Manager: portage-2.2.27
+

@@ -78,3 +78,8 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> simplecov-html-0.10.0.ebuild:
+  Fix desc
+
+  Package-Manager: portage-2.2.27
+

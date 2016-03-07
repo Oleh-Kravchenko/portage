@@ -82,3 +82,8 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> pairs-15.04.3.ebuild:
+  x86 stable wrt bug #569742
+
+  Package-Manager: portage-2.2.26
+

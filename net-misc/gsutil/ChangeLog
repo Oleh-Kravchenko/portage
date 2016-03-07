@@ -146,3 +146,11 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  06 Mar 2016; Justin Lecher <jlec@gentoo.org> gsutil-3.42.ebuild,
+  gsutil-4.15.ebuild, gsutil-4.16.ebuild, gsutil-4.17.ebuild:
+  Patch before sed in sources
+
+  Gentoo-Bugs: https://bugs.gentoo.org/show_bug.cgi?id=576434
+
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

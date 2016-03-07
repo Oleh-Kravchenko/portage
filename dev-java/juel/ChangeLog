@@ -79,3 +79,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*juel-2.1.0-r2 (06 Mar 2016)
+
+  06 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +juel-2.1.0-r2.ebuild:
+  Switch to java-pkg-simple. Fix DESCRIPTION length.
+
+  Package-Manager: portage-2.2.26
+

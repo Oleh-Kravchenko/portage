@@ -76,3 +76,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libzen-0.4.33 (06 Mar 2016)
+
+  06 Mar 2016; Tim Harder <radhermit@gentoo.org> +libzen-0.4.33.ebuild:
+  version bump to 0.4.33
+

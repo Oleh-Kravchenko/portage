@@ -75,3 +75,8 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -oauth2-1.0.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

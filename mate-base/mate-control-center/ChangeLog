@@ -74,3 +74,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  mate-control-center-1.8.3.ebuild:
+  amd64 stable wrt bug #573048
+
+  Package-Manager: portage-2.2.26
+

@@ -322,3 +322,16 @@
 
   Package-Manager: portage-2.2.27_p64
 
+  06 Mar 2016; Mike Gilbert <floppym@gentoo.org> systemd-229.ebuild,
+  systemd-9999.ebuild:
+  Block app-laptop/laptop-mode-tools
+
+  The included udev rules cause an overload of start requests, which can
+  cause issues when booting.
+
+  We can drop this blocker if/when this bahvior changes.
+
+  Bug: https://github.com/systemd/systemd/issues/2684
+
+  Package-Manager: portage-2.2.27_p64
+

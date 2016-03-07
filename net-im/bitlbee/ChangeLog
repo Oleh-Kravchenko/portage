@@ -84,3 +84,10 @@
   Package maintainers will likely want to cleanup various things for this
   experimental USE flag.
 
+  06 Mar 2016; Agostino Sarubbo <ago@gentoo.org> bitlbee-3.4.1.ebuild:
+  amd64 stable wrt bug #574942
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

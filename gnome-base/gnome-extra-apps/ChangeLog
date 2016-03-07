@@ -113,3 +113,22 @@
 
   Package-Manager: portage-2.2.27
 
+*gnome-extra-apps-3.18.0-r2 (06 Mar 2016)
+
+  06 Mar 2016; Pacho Ramos <pacho@gentoo.org>
+  +gnome-extra-apps-3.18.0-r2.ebuild:
+  Cantarell upstream is relying in extra fonts
+  (https://bugzilla.gnome.org/show_bug.cgi?id=762890). Pull them from here to
+  let people willing to have missing fonts to avoid them simply using gnome-
+  base/gnome[-extras] but include them for the others as, currently, people
+  will simply see missing characters and no information about how to solve
+  that.
+
+  Package-Manager: portage-2.2.27
+
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  gnome-extra-apps-3.18.0.ebuild:
+  x86 stable wrt bug #566378
+
+  Package-Manager: portage-2.2.26
+

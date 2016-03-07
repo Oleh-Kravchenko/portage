@@ -112,3 +112,9 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; James Le Cuirot <chewi@gentoo.org>
+  -files/xml-xmlbeans-gentoo.patch, -xml-xmlbeans-1.0.4_pre20041217-r1.ebuild:
+  Remove old, closes bug #542064
+
+  Package-Manager: portage-2.2.27
+

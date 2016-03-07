@@ -308,3 +308,21 @@
 
   Package-Manager: portage-2.2.26
 
+*wine-1.9.4 (06 Mar 2016)
+
+  06 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> +wine-1.9.4.ebuild:
+  Version bump to 1.9.4, now uses gstreamer 1.0
+
+  Package-Manager: portage-2.2.26
+
+  06 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +files/wine-1.9.5-multilib-portage.patch, wine-9999.ebuild:
+  Update 9999, bump mono, fix bug #576360
+
+  Package-Manager: portage-2.2.26
+
+  06 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> metadata.xml:
+  Change wording in metadata.xml
+
+  Package-Manager: portage-2.2.26
+

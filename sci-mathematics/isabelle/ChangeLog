@@ -110,3 +110,21 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; James Le Cuirot <chewi@gentoo.org>
+  -files/isabelle-2011.1-gentoo-settings.patch,
+  -files/isabelle-2011.1-graphbrowser.patch,
+  -files/isabelle-2011.1-libsha1.patch,
+  -files/isabelle-2011.1-proofgeneral-gentoo-path.patch,
+  -files/isabelle-2011.1-reverse-line-editor-order.patch,
+  -files/isabelle-2012-gentoo-settings.patch, -files/isabelle-2012-redundant-e
+  quations-in-function-definitions-error.patch,
+  -files/isabelle-2012-signal-handling.patch,
+  -files/isabelle-2013-HOL-Predicate_Compile_Examples.patch,
+  -files/isabelle-2013-classpath.patch,
+  -files/isabelle-2013.2-classpath.patch, -isabelle-2011.1.ebuild,
+  -isabelle-2011.1-r2.ebuild, -isabelle-2012-r1.ebuild,
+  -isabelle-2013-r2.ebuild, -isabelle-2013.2-r1.ebuild, metadata.xml:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

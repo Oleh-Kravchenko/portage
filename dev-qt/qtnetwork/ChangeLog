@@ -92,3 +92,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> qtnetwork-5.5.1.ebuild:
+  amd64 stable wrt bug #569924
+
+  Package-Manager: portage-2.2.26
+

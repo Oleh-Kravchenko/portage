@@ -225,3 +225,24 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Hans de Graaff <graaff@gentoo.org> -rspec-core-3.2.3-r1.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+  06 Mar 2016; Hans de Graaff <graaff@gentoo.org> rspec-core-3.3.2-r1.ebuild:
+  backport ~alpha keyword
+
+  Package-Manager: portage-2.2.26
+
+  06 Mar 2016; Hans de Graaff <graaff@gentoo.org> -rspec-core-3.4.2.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+  06 Mar 2016; Hans de Graaff <graaff@gentoo.org> rspec-core-3.3.2-r1.ebuild,
+  rspec-core-3.4.3.ebuild:
+  drop unused zentest dependency
+
+  Package-Manager: portage-2.2.26
+

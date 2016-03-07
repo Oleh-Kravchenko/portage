@@ -87,3 +87,9 @@
 
   Bug: 575810
 
+*trinity-1.6 (06 Mar 2016)
+
+  06 Mar 2016; Tim Harder <radhermit@gentoo.org>
+  +files/trinity-1.6-cflags.patch, +trinity-1.6.ebuild:
+  version bump to 1.6
+

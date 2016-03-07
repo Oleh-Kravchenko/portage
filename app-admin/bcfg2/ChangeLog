@@ -71,3 +71,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Mar 2016; Fabian Groffen <grobian@gentoo.org> bcfg2-1.2.4-r1.ebuild:
+  make virtual/fam a dep for non-linux only, bug #559498
+
+  Package-Manager: portage-2.2.27-prefix
+
+  06 Mar 2016; Fabian Groffen <grobian@gentoo.org> bcfg2-1.2.4-r1.ebuild:
+  update copyright (repoman doesn't do this anymore?)
+
+  Package-Manager: portage-2.2.27-prefix
+

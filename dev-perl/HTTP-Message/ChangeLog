@@ -85,3 +85,10 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Agostino Sarubbo <ago@gentoo.org> HTTP-Message-6.110.0.ebuild:
+  amd64 stable wrt bug #576024
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

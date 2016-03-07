@@ -129,3 +129,11 @@
 
   Package-Manager: portage-2.2.26
 
+*pf-sources-4.3_p4 (06 Mar 2016)
+
+  06 Mar 2016; Markos Chandras <hwoarang@gentoo.org>
+  +pf-sources-4.3_p4.ebuild:
+  Add ebuild for the 4.3 release
+
+  Package-Manager: portage-2.2.26
+

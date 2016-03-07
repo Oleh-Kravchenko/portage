@@ -105,3 +105,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -celluloid-0.16.0.ebuild,
+  -celluloid-0.17.2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

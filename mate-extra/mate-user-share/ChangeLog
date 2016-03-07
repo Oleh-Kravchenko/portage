@@ -83,3 +83,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org>
+  mate-user-share-1.8.0-r1.ebuild:
+  amd64 stable wrt bug #575262
+
+  Package-Manager: portage-2.2.26
+
