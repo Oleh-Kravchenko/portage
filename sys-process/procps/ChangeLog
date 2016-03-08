@@ -216,3 +216,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org> procps-3.3.11-r3.ebuild:
+  enable LFS support #471102
+

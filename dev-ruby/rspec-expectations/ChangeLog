@@ -169,3 +169,9 @@
 
   Package-Manager: portage-2.2.26
 
+  07 Mar 2016; Hans de Graaff <graaff@gentoo.org>
+  rspec-expectations-2.99.2.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.2.26
+

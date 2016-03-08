@@ -98,8 +98,24 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="amd64"
 
+*polari-3.18.1-r1 (06 Mar 2016)
+
+  06 Mar 2016; Anthony Ryan <anthonyryan1@gmail.com> +polari-3.18.1-r1.ebuild:
+  Add missing RDEPEND on net-im/telepathy-logger
+
+  Also added ~arm keyword as a result of personal testing on a RK3288
+  (armv7a) device.
+
+  Package-Manager: portage-2.2.26
+
   06 Mar 2016; Mikle Kolyada <zlogene@gentoo.org> polari-3.18.1.ebuild:
   x86 stable wrt bug #566378
 
   Package-Manager: portage-2.2.26
+
+  06 Mar 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  polari-3.18.1-r1.ebuild:
+  sort keywords
+
+  Package-Manager: portage-2.2.27
 

@@ -118,3 +118,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Mar 2016; Hans de Graaff <graaff@gentoo.org> -sprockets-3.3.5.ebuild,
+  -sprockets-3.4.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+*sprockets-3.5.2 (07 Mar 2016)
+
+  07 Mar 2016; Hans de Graaff <graaff@gentoo.org> +sprockets-3.5.2.ebuild:
+  add 3.5.2
+
+  Drop arm, ppc, ppc64, x86, prefix keywords due to new
+  dependency on dev-ruby/concurrent-ruby, bug 576666
+
+  Package-Manager: portage-2.2.26
+

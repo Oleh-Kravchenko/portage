@@ -258,3 +258,6 @@
 
   Package-Manager: portage-2.2.26
 
+  07 Mar 2016; Сухарик <suhr@i2pmail.org> pulseaudio-8.0.ebuild:
+  use virtual/jack
+

@@ -388,3 +388,10 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Brian Evans <grknight@gentoo.org> mariadb-10.1.12.ebuild:
+  Fix multilib build failure wrt bug 576338
+
+  Part 2, always configure the kerberos client plugin on native and non-native
+
+  Package-Manager: portage-2.2.27
+

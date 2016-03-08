@@ -96,3 +96,24 @@
 
   Package-Manager: portage-2.2.26
 
+*josm-9900 (07 Mar 2016)
+
+  07 Mar 2016; Joe Sapp <nixphoeni@gentoo.org> +josm-9900.ebuild:
+  Version bump to 9900
+
+  Package-Manager: portage-2.2.27
+
+*josm-99999 (07 Mar 2016)
+
+  07 Mar 2016; Joe Sapp <nixphoeni@gentoo.org> josm-8800.ebuild,
+  josm-9060.ebuild, josm-9900.ebuild, -josm-9999.ebuild, +josm-99999.ebuild:
+  Move live ebuild to a larger version to avoid conflicts with anticipated
+  upcoming real versions
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Joe Sapp <nixphoeni@gentoo.org> josm-99999.ebuild:
+  Remove redundant S= line from live ebuild
+
+  Package-Manager: portage-2.2.27
+

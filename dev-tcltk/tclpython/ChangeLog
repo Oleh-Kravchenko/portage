@@ -64,3 +64,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*tclpython-4.1-r5 (07 Mar 2016)
+
+  07 Mar 2016; Daniel Campbell <zlg@gentoo.org> +tclpython-4.1-r5.ebuild:
+  Revbump, correcting DEPEND
+
+  Gentoo-Bug: 575518
+  Gentoo-Bug-URL: https://bugs.gentoo.org/575518
+
+  Package-Manager: portage-2.2.27
+

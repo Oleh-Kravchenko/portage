@@ -221,3 +221,14 @@
 
   Package-Manager: portage-2.2.26
 
+  07 Mar 2016; Mike Gilbert <floppym@gentoo.org> udev-222.ebuild,
+  udev-224.ebuild, udev-224-r1.ebuild, udev-224-r2.ebuild, udev-225.ebuild,
+  udev-228.ebuild, udev-229.ebuild, udev-229-r1.ebuild, udev-229-r2.ebuild,
+  udev-9999.ebuild:
+  Rename udev.tar.gz to systemd.tar.gz
+
+  This conserves some space on distfile mirrors since we share the
+  distfiles with sys-apps/systemd.
+
+  Package-Manager: portage-2.2.27_p64
+

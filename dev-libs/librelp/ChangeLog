@@ -58,3 +58,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*librelp-1.2.9 (07 Mar 2016)
+
+  07 Mar 2016; Thomas D <whissi@whissi.de> +librelp-1.2.9.ebuild:
+  Bump to v1.2.9 (Fixes #562138, wrt bug #576708)
+
+  - librelp no longer require GNUtls
+  - Bumped to EAPI=6
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=576708
+
+  Package-Manager: portage-2.2.27
+

@@ -82,3 +82,19 @@
 
   Package-Manager: portage-2.2.27
 
+*pysrt-1.1.0 (07 Mar 2016)
+
+  07 Mar 2016; Louis Sautier <sautier.louis@gmail.com> +pysrt-1.1.0.ebuild:
+  bump to 1.1.0
+
+  The pypi tarball now contains tests so we no longer need
+  to get the source from github.
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Louis Sautier <sautier.louis@gmail.com> -pysrt-0.5.1.ebuild,
+  -pysrt-1.0.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+

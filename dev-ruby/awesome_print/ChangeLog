@@ -69,3 +69,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -awesome_print-1.2.0-r2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Manuel Rüger <mrueg@gentoo.org> awesome_print-1.6.1.ebuild:
+  Remove ruby19, fix desc
+
+  Package-Manager: portage-2.2.27
+

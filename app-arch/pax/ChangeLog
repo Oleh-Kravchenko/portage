@@ -77,3 +77,8 @@
 
   Bug: 575810
 
+*pax-20160306 (07 Mar 2016)
+
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org> +pax-20160306.ebuild:
+  switch to MirOS version #537522
+

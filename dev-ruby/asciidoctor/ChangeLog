@@ -78,3 +78,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -asciidoctor-1.5.2.ebuild,
+  -asciidoctor-1.5.3.ebuild, -files/asciidoctor-1.5.3-slim-options.patch:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

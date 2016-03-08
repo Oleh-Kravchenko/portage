@@ -149,3 +149,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mpfr-3.1.4 (07 Mar 2016)
+
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org> +mpfr-3.1.4.ebuild:
+  version bump to 3.1.4
+
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org> -files/3.1.2/patch01,
+  -files/3.1.2/patch02, -files/3.1.2/patch03, -files/3.1.2/patch04,
+  -files/3.1.2/patch05, -files/3.1.2/patch06, -files/3.1.2/patch07,
+  -files/3.1.2/patch08, -files/3.1.2/patch09, -files/3.1.2/patch10,
+  -mpfr-3.1.2_p10.ebuild:
+  drop old 3.1.2 version
+

@@ -93,3 +93,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  07 Mar 2016; Alexis Ballier <aballier@gentoo.org> async-113.24.00.ebuild:
+  add missing dep on async_extra
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

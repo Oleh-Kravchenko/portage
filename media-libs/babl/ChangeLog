@@ -92,3 +92,7 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Sebastian Pipping <sping@gentoo.org> babl-0.1.16.ebuild,
+  metadata.xml:
+  Add use flag for CPU feature f16c (bug #576388)
+

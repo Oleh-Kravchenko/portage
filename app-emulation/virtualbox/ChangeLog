@@ -300,3 +300,18 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  07 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  virtualbox-5.0.16.ebuild:
+  Bumped ebuild to EAPI-6.
+
+  Did some ebuild overhaul.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  07 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  virtualbox-5.0.16.ebuild:
+  force usage of ld.bfd for virtualbox-5
+
+  See Gentoo bug #488176
+

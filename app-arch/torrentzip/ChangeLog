@@ -85,3 +85,15 @@
 
   Bug: 575810
 
+*torrentzip-0.2-r3 (07 Mar 2016)
+
+  07 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +torrentzip-0.2-r3.ebuild:
+  Fix invalid SRC_URI.
+
+  Gentoo-Bug: https://bugs.gentoo.org/575338
+  Reporter: Alexander Miller <alex.miller@gmx.de>
+  Acked-by: Patrice Clement <monsieurp@gentoo.org>
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+  Package-Manager: portage-2.2.26
+

@@ -85,3 +85,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  files/iniparser-3.0-autotools.patch, iniparser-4.0.ebuild:
+  fix LFS handling #471102
+
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org> iniparser-4.0.ebuild:
+  respect AR settings
+
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org> iniparser-4.0.ebuild:
+  fix USE=static-libs handling
+

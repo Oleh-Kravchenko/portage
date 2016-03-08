@@ -173,3 +173,9 @@
 
   Package-Manager: portage-2.2.27
 
+  31 Jan 2016; Lukáš Hrázký <lukkash@email.cz> mpd-0.19.12.ebuild:
+  fix the systemd user service
+
+  Under the user instance of systemd multi-user.target does not exist.
+  Replace it with default.target.
+

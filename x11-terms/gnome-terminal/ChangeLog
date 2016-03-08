@@ -126,3 +126,10 @@
 
   Package-Manager: portage-2.2.26
 
+*gnome-terminal-3.18.3 (07 Mar 2016)
+
+  07 Mar 2016; Rémi Cardona <remi@gentoo.org> +gnome-terminal-3.18.3.ebuild:
+  bump to 3.18.3
+
+  Package-Manager: portage-2.2.27
+

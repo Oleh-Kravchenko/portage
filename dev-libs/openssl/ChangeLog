@@ -417,3 +417,10 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+  07 Mar 2016; Agostino Sarubbo <ago@gentoo.org> openssl-1.0.2g-r2.ebuild:
+  amd64 stable wrt bug #575548
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

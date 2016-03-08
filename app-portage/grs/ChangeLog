@@ -137,3 +137,15 @@
 
   Package-Manager: portage-2.2.26
 
+  07 Mar 2016; Anthony G. Basile <blueness@gentoo.org> grs-0.5.ebuild:
+  version 0.5 stable for amd64
+
+  This is a minor fix over version 0.4
+
+  Package-Manager: portage-2.2.26
+
+  07 Mar 2016; Anthony G. Basile <blueness@gentoo.org> -grs-0.3.ebuild:
+  remove older version
+
+  Package-Manager: portage-2.2.26
+

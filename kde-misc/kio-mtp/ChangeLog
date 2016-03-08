@@ -71,3 +71,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*kio-mtp-0.75_p20150403 (07 Mar 2016)
+
+  07 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +kio-mtp-0.75_p20150403.ebuild:
+  Bump to latest available git commit.
+
+  Permission kindly granted by kensington.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  07 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -kio-mtp-0.75_p20131020.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

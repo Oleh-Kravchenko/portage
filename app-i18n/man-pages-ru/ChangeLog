@@ -61,3 +61,24 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Mar 2016; Sergey Popov <pinkbyte@gentoo.org>
+  man-pages-ru-3.71.2209.1992.20140911.ebuild:
+  3.71.2209.1992.20140911: stabilizing
+
+  Package-Manager: portage-2.2.26
+
+  07 Mar 2016; Sergey Popov <pinkbyte@gentoo.org>
+  -man-pages-ru-3.54.2171.1790.20131020.ebuild,
+  -man-pages-ru-3.56.2172.1866.20140202.ebuild:
+  drop old versions
+
+  Package-Manager: portage-2.2.26
+
+*man-pages-ru-3.81.2230.2080.20160117 (07 Mar 2016)
+
+  07 Mar 2016; Sergey Popov <pinkbyte@gentoo.org>
+  +man-pages-ru-3.81.2230.2080.20160117.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+

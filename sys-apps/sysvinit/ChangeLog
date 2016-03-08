@@ -116,3 +116,7 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/sysvinit-2.88-sysmacros.patch, sysvinit-2.88-r9.ebuild:
+  fix building w/newer glibc
+

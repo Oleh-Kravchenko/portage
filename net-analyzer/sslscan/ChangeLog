@@ -82,3 +82,10 @@
 
   Package-Manager: portage-2.2.27
 
+*sslscan-1.11.4 (07 Mar 2016)
+
+  07 Mar 2016; Hans de Graaff <graaff@gentoo.org> +sslscan-1.11.4.ebuild:
+  add 1.11.4
+
+  Package-Manager: portage-2.2.26
+

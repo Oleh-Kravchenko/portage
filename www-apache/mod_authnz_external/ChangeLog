@@ -91,3 +91,11 @@
 
   Bug: 575810
 
+  07 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  mod_authnz_external-3.3.2.ebuild:
+  amd64 stable wrt bug #532806
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

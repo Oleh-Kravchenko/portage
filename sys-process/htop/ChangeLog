@@ -107,3 +107,12 @@
   Certain htoprc files trigger a crash at startup. Upstream's instruction
   is to include this commit until a new version is released.
 
+  07 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> htop-2.0.0-r1.ebuild:
+  from version 2 onwards, FreeBSD is supported natively
+
+  07 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -htop-2.0.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -182,3 +182,14 @@
 
   Package-Manager: portage-2.2.27_p64
 
+*transmission-2.90-r1 (06 Mar 2016)
+
+  06 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  files/transmission-daemon.initd.10, -transmission-2.90.ebuild,
+  +transmission-2.90-r1.ebuild:
+  Don't clobber download directory setting
+
+  Bug: https://bugs.gentoo.org/576640
+
+  Package-Manager: portage-2.2.27_p64
+

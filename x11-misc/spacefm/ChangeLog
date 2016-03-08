@@ -141,3 +141,10 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Daniel Campbell <zlg@gentoo.org> -spacefm-0.9.3.ebuild,
+  -spacefm-0.9.4.ebuild, -spacefm-1.0.0.ebuild, -spacefm-1.0.2.ebuild,
+  -spacefm-1.0.3.ebuild:
+  Old version cleanup
+
+  Package-Manager: portage-2.2.27
+

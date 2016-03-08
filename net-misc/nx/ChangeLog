@@ -72,3 +72,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  -files/1.5.0/nx-x11-1.5.0-tmp-exec.patch, -files/nx-3.3.0-cflags.patch,
+  -nx-3.5.0.20.ebuild, -nx-3.5.0.28.ebuild:
+  drop some old versions
+
+  Package-Manager: portage-2.2.27
+

@@ -272,3 +272,11 @@
 
   Package-Manager: portage-2.2.26
 
+*git-sources-4.5_rc7 (07 Mar 2016)
+
+  07 Mar 2016; Agostino Sarubbo <ago@gentoo.org> +git-sources-4.5_rc7.ebuild:
+  Automated version bump to 4.5_rc7
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

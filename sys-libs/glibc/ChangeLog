@@ -314,3 +314,7 @@
   glibc-9999.ebuild:
   version bump to 2.23
 
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org> glibc-2.22-r2.ebuild,
+  glibc-2.23.ebuild:
+  pull a few upstream fixes (mostly compile-time)
+

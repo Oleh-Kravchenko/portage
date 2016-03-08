@@ -127,3 +127,23 @@
 
   Package-Manager: portage-2.2.27
 
+*x2goserver-4.0.1.19-r3 (07 Mar 2016)
+
+  07 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +files/x2goserver-4.0.1.19-remove_sshfs_cipher.patch,
+  +x2goserver-4.0.1.19-r3.ebuild:
+  remove hardcoded blowfish Cipher spec
+
+  Gentoo-Bug: 576356
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  -files/x2goserver-4.0.1.18-fix_local_desktop_sharing.patch,
+  -files/x2goserver-4.0.1.18-prevent_bash_failures_xsession.patch,
+  -files/x2goserver-4.0.1.18-use_printf.patch, -x2goserver-4.0.1.12.ebuild,
+  -x2goserver-4.0.1.18-r2.ebuild, -x2goserver-4.0.1.19-r1.ebuild:
+  clean some versions
+
+  Package-Manager: portage-2.2.27
+

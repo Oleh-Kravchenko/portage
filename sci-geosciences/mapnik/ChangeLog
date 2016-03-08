@@ -96,3 +96,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Mar 2016; David Seifert <soap@gentoo.org> mapnik-2.0.1.ebuild,
+  mapnik-2.0.2.ebuild, mapnik-2.1.0.ebuild, mapnik-2.2.0.ebuild:
+  Add missing subslot dependencies
+
+  Package-Manager: portage-2.2.27
+

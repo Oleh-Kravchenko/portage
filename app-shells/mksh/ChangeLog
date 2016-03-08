@@ -105,3 +105,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mksh-52c (06 Mar 2016)
+
+  06 Mar 2016; Patrick Lauer <patrick@gentoo.org> +mksh-52c.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.27
+

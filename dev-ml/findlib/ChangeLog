@@ -144,3 +144,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*findlib-1.6.2 (07 Mar 2016)
+
+  07 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  +files/externalmeta3.patch, +findlib-1.6.2.ebuild:
+  bump to 1.6.2
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

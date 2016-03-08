@@ -126,3 +126,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  07 Mar 2016; Zoltan Puskas <zoltan@sinustrom.info>
+  -youtube-viewer-3.1.1.ebuild:
+  Remove version 3.1.1, breaks tree
+
+  Package-Manager: portage-2.2.27
+

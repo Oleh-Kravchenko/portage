@@ -157,3 +157,6 @@
   +files/timezone-data-2016a-makefile.patch, +timezone-data-2016a.ebuild:
   sys-libs/timezone: version bump to 2016a
 
+  07 Mar 2016; Mike Frysinger <vapier@gentoo.org> timezone-data-2016a.ebuild:
+  build w/LFS settings #471102
+

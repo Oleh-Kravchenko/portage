@@ -111,3 +111,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Mar 2016; Daniel Campbell <zlg@gentoo.org> -apulse-0.1.4.ebuild,
+  -apulse-0.1.6.ebuild:
+  Cleanup old versions
+
+  Package-Manager: portage-2.2.27
+

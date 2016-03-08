@@ -160,3 +160,14 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*less-483 (07 Mar 2016)
+
+  07 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -less-482.ebuild,
+  +less-483.ebuild:
+  Bump to version 483
+
+  Removed broken 482 version.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

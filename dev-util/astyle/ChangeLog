@@ -103,3 +103,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Mar 2016; Daniel Campbell <zlg@gentoo.org> -astyle-2.02.1.ebuild,
+  -astyle-2.03.ebuild:
+  Cleanup old versions
+
+  Package-Manager: portage-2.2.27
+

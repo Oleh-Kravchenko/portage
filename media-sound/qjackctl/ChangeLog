@@ -96,3 +96,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*qjackctl-0.4.1-r2 (07 Mar 2016)
+
+  07 Mar 2016; Сухарик <suhr@i2pmail.org> -qjackctl-0.4.1-r1.ebuild,
+  +qjackctl-0.4.1-r2.ebuild:
+  use virtual/jack
+

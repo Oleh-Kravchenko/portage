@@ -120,3 +120,25 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  07 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  iputils-20121221-r2.ebuild:
+  add libressl support to version 20121221-r2
+
+  Package-Manager: portage-2.2.26
+
+  07 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  -iputils-20150815.ebuild:
+  remove 20150815 without libressl support
+
+  Package-Manager: portage-2.2.26
+
+  07 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/iputils-20150815-defines_and_libs.patch,
+  +files/iputils-20150815-handle_single_protocol_system.patch,
+  -files/iputils-20150815-ping6_crypto.patch,
+  -files/iputils-20150815-ping_default_ipv4.patch, iputils-20150815-r1.ebuild:
+  Replaced two patches with upstream equivalents.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
