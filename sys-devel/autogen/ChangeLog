@@ -106,3 +106,9 @@
 
   Package-Manager: portage-2.2.26
 
+  08 Mar 2016; Anthony G. Basile <blueness@gentoo.org> autogen-5.18.4.ebuild,
+  +files/autogen-5.18.4_fix_format.test_for_dash.patch:
+  fix tests with dash, bug #576674
+
+  Package-Manager: portage-2.2.26
+

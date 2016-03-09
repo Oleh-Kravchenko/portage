@@ -167,3 +167,17 @@
 
   Package-Manager: portage-2.2.26
 
+*railties-4.2.6 (08 Mar 2016)
+
+  08 Mar 2016; Hans de Graaff <graaff@gentoo.org> +railties-4.2.6.ebuild:
+  add rails 4.2.6
+
+  Package-Manager: portage-2.2.26
+
+*railties-4.1.15 (08 Mar 2016)
+
+  08 Mar 2016; Hans de Graaff <graaff@gentoo.org> +railties-4.1.15.ebuild:
+  add rails 4.1.15
+
+  Package-Manager: portage-2.2.26
+

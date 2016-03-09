@@ -180,3 +180,18 @@
 
   Package-Manager: portage-2.2.27
 
+*talloc-2.1.6 (08 Mar 2016)
+
+  08 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> +talloc-2.1.6.ebuild:
+  Bump to version 2.1.6
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  08 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -talloc-2.1.0-r1.ebuild,
+  -talloc-2.1.4.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

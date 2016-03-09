@@ -106,3 +106,18 @@
 
   Package-Manager: portage-2.2.26
 
+*dbus-1.10.8 (08 Mar 2016)
+
+  08 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> +dbus-1.10.8.ebuild,
+  files/dbus.initd-r1:
+  Bump to version 1.10.8
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  08 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -dbus-1.8.18.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

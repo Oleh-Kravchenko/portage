@@ -81,3 +81,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*openfoam-2.4.0-r1 (08 Mar 2016)
+*openfoam-2.3.1-r1 (08 Mar 2016)
+*openfoam-2.3.0-r1 (08 Mar 2016)
+
+  08 Mar 2016; Patrick Lauer <patrick@gentoo.org> -openfoam-2.3.0.ebuild,
+  +openfoam-2.3.0-r1.ebuild, -openfoam-2.3.1.ebuild,
+  +openfoam-2.3.1-r1.ebuild, -openfoam-2.4.0.ebuild,
+  +openfoam-2.4.0-r1.ebuild:
+  Fix slotting #575238
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --force
+

@@ -23,3 +23,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> ctmg-1.1.ebuild:
+  stable
+
+  Package-Manager: portage-2.2.27
+
+*ctmg-1.2 (08 Mar 2016)
+
+  08 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> +ctmg-1.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

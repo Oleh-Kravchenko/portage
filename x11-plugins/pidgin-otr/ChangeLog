@@ -77,3 +77,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pidgin-otr-4.0.2 (08 Mar 2016)
+
+  08 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +pidgin-otr-4.0.2.ebuild:
+  Bump to version 4.0.2
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

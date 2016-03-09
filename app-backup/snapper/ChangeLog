@@ -89,3 +89,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  08 Mar 2016; Stefan Langenmaier <stefan.langenmaier@gmail.com>
+  snapper-9999.ebuild:
+  update to reflect renamed README.md
+
+  In the associated git repo the README was renamed to README.md
+  This fixes the build.
+
+  Gentoo-Bug: https://bugs.gentoo.org/576556
+
+  Signed-off-by: Stefan Langenmaier <stefan.langenmaier@gmail.com>
+

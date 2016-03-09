@@ -79,3 +79,11 @@
 
   Package-Manager: portage-2.2.27
 
+*waitress-0.8.10-r1 (08 Mar 2016)
+
+  08 Mar 2016; Patrick Lauer <patrick@gentoo.org> -waitress-0.8.10.ebuild,
+  +waitress-0.8.10-r1.ebuild:
+  Fix docs generation #576660
+
+  Package-Manager: portage-2.2.27
+

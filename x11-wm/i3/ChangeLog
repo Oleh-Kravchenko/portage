@@ -101,3 +101,13 @@
 
   Package-Manager: portage-2.2.27
 
+  08 Mar 2016; Kacper Kowalik <xarthisius@gentoo.org>
+  +files/i3-4.12-pango.patch, i3-4.12.ebuild:
+  fix build without cairo/pango, correct dep on cairo version
+
+  Fixes bug #576664
+
+  Reported-by: Coacher <itumaykin+gentoo@gmail.com>
+
+  Package-Manager: portage-2.2.27
+

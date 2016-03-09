@@ -203,3 +203,17 @@
 
   Package-Manager: portage-2.2.26
 
+  08 Mar 2016; Fabian Groffen <grobian@gentoo.org> exim-4.86.2.ebuild,
+  exim-4.87_rc5.ebuild:
+  always give environment because it is non-conditional
+
+  Package-Manager: portage-2.2.26
+
+*exim-4.87_rc6 (08 Mar 2016)
+
+  08 Mar 2016; Fabian Groffen <grobian@gentoo.org> -exim-4.87_rc5.ebuild,
+  +exim-4.87_rc6.ebuild:
+  version bump to 4.87 RC6
+
+  Package-Manager: portage-2.2.26
+

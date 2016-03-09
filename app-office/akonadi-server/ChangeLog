@@ -153,3 +153,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*akonadi-server-1.13.1_pre20160203-r1 (08 Mar 2016)
+
+  08 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  +akonadi-server-1.13.1_pre20160203-r1.ebuild,
+  +files/akonadi-server-1.13.1-mysql.conf.patch:
+  Add 1.13.1 snapshot
+

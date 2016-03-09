@@ -196,3 +196,9 @@
 
   Package-Manager: portage-2.2.26
 
+  08 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -manaplus-1.6.1.16.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

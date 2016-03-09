@@ -151,3 +151,6 @@
 
   Package-Manager: portage-2.2.26
 
+  08 Mar 2016; Mike Frysinger <vapier@gentoo.org> findutils-4.6.0.ebuild:
+  fix building w/newer glibc
+

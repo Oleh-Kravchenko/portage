@@ -235,3 +235,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  08 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  virtualbox-extpack-oracle-5.0.16.105871.ebuild:
+  No get_libdir in global scope.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

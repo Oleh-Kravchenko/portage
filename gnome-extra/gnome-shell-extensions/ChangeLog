@@ -155,3 +155,11 @@
 
   Package-Manager: portage-2.2.26
 
+*gnome-shell-extensions-3.18.4 (07 Mar 2016)
+
+  07 Mar 2016; Rémi Cardona <remi@gentoo.org>
+  +gnome-shell-extensions-3.18.4.ebuild:
+  bump to 3.18.4
+
+  Package-Manager: portage-2.2.27
+

@@ -334,3 +334,10 @@
 
   Package-Manager: portage-2.2.26
 
+*gtk+-3.18.8 (08 Mar 2016)
+
+  08 Mar 2016; Rémi Cardona <remi@gentoo.org> +gtk+-3.18.8.ebuild:
+  bump to 3.18.8
+
+  Package-Manager: portage-2.2.27
+

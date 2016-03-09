@@ -344,3 +344,83 @@
 
   Package-Manager: portage-2.2.27
 
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> aegisub-9999.ebuild:
+  remove obsolete RDEPEND version numbers from 9999
+
+  These versions were removed from tree in 2012.
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> aegisub-9999.ebuild:
+  remove unneeded wxGTK dep version number from 9999
+
+  wxGTK has SLOT=3.0 only in >=3.0.0 versions.
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> aegisub-9999.ebuild:
+  add missing libass subslot operator to 9999
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> aegisub-9999.ebuild,
+  -files/aegisub-9999-add-missing-pthread-flags.patch:
+  remove unneeded pthread-flags patch from 9999
+
+  Merged upstream.
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> aegisub-9999.ebuild,
+  -files/aegisub-9999-unbundle-luajit.patch:
+  remove unneeded unbundle-luajit patch from 9999
+
+  Mostly merged upstream. Upstream now supports building with system
+  luajit. There are still some problems left, see [1]. But it's already
+  a major improvement.
+
+  [1]: http://devel.aegisub.org/ticket/1904#comment:10
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> aegisub-9999.ebuild:
+  adjust luajit dep to SLOT=2, i.e. >=2.0.0, in 9999
+
+  Upstream allows system luajit to be >=2.0.0.
+
+  Package-Manager: portage-2.2.27
+
+*aegisub-3.2.2_p20160306 (07 Mar 2016)
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com>
+  +aegisub-3.2.2_p20160306.ebuild, aegisub-9999.ebuild,
+  +files/aegisub-3.2.2_p20160306-fix-luajit-unbundling.patch,
+  +files/aegisub-3.2.2_p20160306-respect-user-compiler-flags.patch:
+  verbump to 3.2.2_p20160306
+
+  New snapshot release with most of our Gentoo patches merged upstream.
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> -aegisub-3.2.2-r1.ebuild,
+  -files/aegisub-3.2.2-r1-respect-user-compiler-flags.patch:
+  remove old
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com>
+  files/aegisub-3.0.4-fix-install-with-empty-LINGUAS.patch:
+  better wording in patch comment for 3.0.4
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> aegisub-3.0.4-r1.ebuild:
+  remove obsolete RDEPEND version numbers from 3.0.4
+
+  Package-Manager: portage-2.2.27
+
+  07 Mar 2016; Ilya Tumaykin <itumaykin@gmail.com> aegisub-3.0.4-r1.ebuild:
+  add missing libass subslot operator to 3.0.4
+
+  Package-Manager: portage-2.2.27
+

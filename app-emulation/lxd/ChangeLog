@@ -293,3 +293,22 @@
 
   Package-Manager: portage-2.2.27
 
+*lxd-2.0.0_rc2 (08 Mar 2016)
+
+  08 Mar 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxd-2.0.0_rc2-dont-go-get.patch,
+  +files/lxd-2.0.0_rc2-nc-binary-name.patch, +files/lxd-2.0.0_rc2.confd,
+  +files/lxd-2.0.0_rc2.initd, +lxd-2.0.0_rc2.ebuild:
+  bump to 2.0.0_rc2
+
+  Package-Manager: portage-2.2.27
+
+  08 Mar 2016; Erik Mackdanz <stasibear@gentoo.org>
+  -files/lxd-2.0.0_beta1-disregard-dev-subdirs.patch,
+  -files/lxd-2.0.0_beta1-dont-go-get.patch,
+  -files/lxd-2.0.0_beta1-nc-binary-name.patch, -files/lxd-2.0.0_beta1.confd,
+  -files/lxd-2.0.0_beta1.initd, -lxd-2.0.0_beta1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.27
+

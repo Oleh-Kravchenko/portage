@@ -65,3 +65,10 @@
 
   Package-Manager: portage-2.2.26
 
+*rmilter-1.7.5 (08 Mar 2016)
+
+  08 Mar 2016; Dirkjan Ochtman <djc@gentoo.org> +rmilter-1.7.5.ebuild:
+  version bump to 1.7.5
+
+  Package-Manager: portage-2.2.26
+

@@ -193,3 +193,10 @@
 
   Package-Manager: portage-2.2.27_p64
 
+*transmission-2.92 (08 Mar 2016)
+
+  08 Mar 2016; Mike Gilbert <floppym@gentoo.org> +transmission-2.92.ebuild:
+  Bump to 2.92
+
+  Package-Manager: portage-2.2.27_p81
+
