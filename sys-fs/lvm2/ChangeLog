@@ -263,3 +263,13 @@
 
   Package-Manager: portage-2.2.26
 
+*lvm2-2.02.145 (09 Mar 2016)
+*lvm2-2.02.139 (09 Mar 2016)
+
+  09 Mar 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +files/lvm2-2.02.139-dynamic-static-ldflags.patch, +lvm2-2.02.139.ebuild,
+  +lvm2-2.02.145.ebuild:
+  bump per bug #572352.
+
+  Package-Manager: portage-2.2.27
+

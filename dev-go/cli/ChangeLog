@@ -10,3 +10,15 @@
 
   Package-Manager: portage-2.2.27
 
+*cli-0_pre20160306 (08 Mar 2016)
+
+  08 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +cli-0_pre20160306.ebuild:
+  Bump snapshot
+
+  Package-Manager: portage-2.2.27
+
+  08 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -cli-20160227.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

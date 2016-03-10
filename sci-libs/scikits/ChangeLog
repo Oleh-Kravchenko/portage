@@ -63,3 +63,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> scikits-0.1-r1.ebuild:
+  added python 3.5 compat
+
+  Package-Manager: portage-2.2.27
+

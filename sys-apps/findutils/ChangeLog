@@ -154,3 +154,7 @@
   08 Mar 2016; Mike Frysinger <vapier@gentoo.org> findutils-4.6.0.ebuild:
   fix building w/newer glibc
 
+  09 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/findutils-4.6.0-gnulib-mb.patch, findutils-4.6.0.ebuild:
+  add upstream gnulib fix #576818
+

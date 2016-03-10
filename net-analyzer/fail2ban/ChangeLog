@@ -121,3 +121,44 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+*fail2ban-0.9.4 (09 Mar 2016)
+
+  09 Mar 2016; Jeroen Roovers <jer@gentoo.org> +fail2ban-0.9.4.ebuild:
+  Version bump (bug #576812).
+
+  Package-Manager: portage-2.2.27
+
+  09 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  fail2ban-0.9.3-r1.ebuild:
+  add missing die, rewrite find/sed
+
+  Package-Manager: portage-2.2.27
+
+  09 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  fail2ban-0.9.3-r1.ebuild:
+  use distutils-r1 functions
+
+  Package-Manager: portage-2.2.27
+
+  09 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  fail2ban-0.9.3-r1.ebuild:
+  support freebsd-pf
+
+  Package-Manager: portage-2.2.27
+
+  09 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  fail2ban-99999999.ebuild:
+  update live ebuild, drop useless patches
+
+  Apply changes from the stable ebuild and drop the two patches
+  since they are not needed any more, as per:
+  https://github.com/fail2ban/fail2ban/commit/294a7790a9a32f98448e1e2a2d7a5cfd
+  f741c35f
+  https://github.com/fail2ban/fail2ban/commit/869d99dd377ff45efa5796bb3be2500e
+  41f32dc3
+
+  Pull-Request: https://github.com/gentoo/gentoo/pull/832
+  Acked-by: Mike Frysinger <vapier@gentoo.org>
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+  Package-Manager: portage-2.2.27
+

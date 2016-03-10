@@ -159,3 +159,11 @@
 
   Package-Manager: portage-2.2.27
 
+*asterisk-11.21.2 (09 Mar 2016)
+
+  09 Mar 2016; Tony Vroon <chainsaw@gentoo.org> +asterisk-11.21.2.ebuild:
+  11.21.2 fixes an OpenSSL include issue that could prevent 11.21.1 from
+  building on some systems.
+
+  Package-Manager: portage-2.2.27
+

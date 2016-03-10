@@ -32,3 +32,17 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+*endless-sky-0.8.11-r1 (08 Mar 2016)
+
+  08 Mar 2016; Matthew Brewer <tomboy64@sina.cn>
+  +endless-sky-0.8.11-r1.ebuild:
+  revbump to 0.8.11-r1
+
+  - fix install path (so icon gets found by desktop menus)
+  - rephrase summary
+  - convert EAPI 5->6
+  - added ~x86
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

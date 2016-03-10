@@ -113,3 +113,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  amavisd-new-2.7.2.ebuild, amavisd-new-2.8.1-r1.ebuild,
+  amavisd-new-2.9.1-r1.ebuild, amavisd-new-2.10.1.ebuild,
+  amavisd-new-2.10.1-r3.ebuild:
+  Fix dependency on dev-perl/Net-Server
+
+  Package-Manager: portage-2.2.27
+

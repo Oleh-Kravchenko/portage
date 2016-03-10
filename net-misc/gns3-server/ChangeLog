@@ -96,3 +96,21 @@
 
   Package-Manager: portage-2.2.26
 
+*gns3-server-1.4.4-r1 (09 Mar 2016)
+
+  09 Mar 2016; Aaron Bauman <bman@gentoo.org> +gns3-server-1.4.4-r1.ebuild:
+  revision bump along with gns3-gui as package versions must agree.
+
+  09 Mar 2016; Aaron Bauman <bman@gentoo.org> +gns3-server-1.4.4-r2:
+  bump to r2 in order to match gns3-gui
+
+  09 Mar 2016; Aaron Bauman <bman@gentoo.org> -gns3-server-1.4.4.ebuild,
+  -gns3-server-1.4.4-r1.ebuild:
+  purge old
+
+*gns3-server-1.4.4-r2 (09 Mar 2016)
+
+  09 Mar 2016; Aaron Bauman <bman@gentoo.org> -gns3-server-1.4.4-r2,
+  +gns3-server-1.4.4-r2.ebuild:
+  add .ebuild file extension
+

@@ -142,3 +142,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*iputils-20160308 (09 Mar 2016)
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  iputils-20150815-r1.ebuild, +iputils-20160308.ebuild:
+  Bump to version 20160308
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

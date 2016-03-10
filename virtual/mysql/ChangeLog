@@ -99,3 +99,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mysql-5.6-r8 (09 Mar 2016)
+
+  09 Mar 2016; Brian Evans <grknight@gentoo.org> +mysql-5.6-r8.ebuild:
+  Revbump to fix dependencies
+
+  Move virtual/libmysqlclient PDEPEND to the providers
+  Remove the failed client-libs USE dependency
+  Add server USE as a requirement
+
+  Package-Manager: portage-2.2.27
+

@@ -79,3 +79,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*raspberrypi-userland-0_pre20160305 (08 Mar 2016)
+
+  08 Mar 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +files/92-local-vchiq-permissions.rules,
+  +raspberrypi-userland-0_pre20160305.ebuild:
+  version bump and fixed regular user access rights to vchiq when using udev
+
+  Package-Manager: portage-2.2.27
+

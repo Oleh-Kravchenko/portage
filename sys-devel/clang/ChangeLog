@@ -203,3 +203,16 @@
 
   Package-Manager: portage-2.2.27
 
+*clang-3.8.0-r100 (09 Mar 2016)
+
+  09 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  -clang-3.8.0_rc2-r100.ebuild, +clang-3.8.0-r100.ebuild:
+  sys-devel/{clang,llvm}: Bump to final 3.8.0
+
+  To do before unmask:
+  * some clang tests still fail (cannot find standard headers)
+  * lldb wants to install six.py
+  * test reverse dependencies
+
+  Package-Manager: portage-2.2.27
+

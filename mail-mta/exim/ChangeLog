@@ -217,3 +217,11 @@
 
   Package-Manager: portage-2.2.26
 
+  09 Mar 2016; Sergey Popov <pinkbyte@gentoo.org> exim-4.86.2.ebuild,
+  exim-4.87_rc6.ebuild:
+  add ~ppc keyword back
+
+  Gentoo-Bug: 563478
+
+  Package-Manager: portage-2.2.26
+

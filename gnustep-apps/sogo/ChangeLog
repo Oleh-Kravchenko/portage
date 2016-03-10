@@ -41,3 +41,10 @@
 
   Package-Manager: portage-2.2.27
 
+*sogo-3.0.2 (09 Mar 2016)
+
+  09 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org> +sogo-3.0.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

@@ -59,3 +59,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Mar 2016; Mike Frysinger <vapier@gentoo.org> libx86-1.1-r3.ebuild:
+  build w/-fno-delete-null-pointer-checks #523276
+

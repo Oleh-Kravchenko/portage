@@ -273,3 +273,13 @@
 
   Package-Manager: portage-2.2.26
 
+*firefox-bin-45.0 (09 Mar 2016)
+*firefox-bin-38.7.0 (09 Mar 2016)
+
+  09 Mar 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-bin-38.6.1.ebuild,
+  +firefox-bin-38.7.0.ebuild, -firefox-bin-44.0.2.ebuild,
+  +firefox-bin-45.0.ebuild:
+  version bumps 38.7.0 and 45.0 for security bug 576862
+
+  Package-Manager: portage-2.2.26
+

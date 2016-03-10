@@ -148,3 +148,31 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*owncloud-9.0.0 (09 Mar 2016)
+
+  09 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org> +owncloud-9.0.0.ebuild:
+  version bump, new major version
+
+  Add missing USE=xmlreader dependency on dev-lang/php
+  Update ebuild to EAPI 6
+
+  Package-Manager: portage-2.2.27
+
+  09 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  -owncloud-5.0.19.ebuild, -owncloud-6.0.9.ebuild:
+  drop unmaintained 5.x and 6.x versions
+
+  Package-Manager: portage-2.2.27
+
+*owncloud-8.2.3 (09 Mar 2016)
+*owncloud-8.1.6 (09 Mar 2016)
+*owncloud-8.0.11 (09 Mar 2016)
+*owncloud-7.0.13 (09 Mar 2016)
+
+  09 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +owncloud-7.0.13.ebuild, +owncloud-8.0.11.ebuild, +owncloud-8.1.6.ebuild,
+  +owncloud-8.2.3.ebuild:
+  version bumps for supported versions
+
+  Package-Manager: portage-2.2.27
+

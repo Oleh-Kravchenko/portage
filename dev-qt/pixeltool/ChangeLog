@@ -125,3 +125,9 @@
 
   Package-Manager: portage-2.2.26
 
+  09 Mar 2016; Jeroen Roovers <jer@gentoo.org> pixeltool-5.5.1-r1.ebuild:
+  Stable for HPPA PPC64 (bug #569924).
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --ignore-arches
+

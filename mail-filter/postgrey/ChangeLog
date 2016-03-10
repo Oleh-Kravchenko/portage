@@ -114,3 +114,9 @@
 
   Package-Manager: portage-2.2.27
 
+  09 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  postgrey-1.34-r3.ebuild, postgrey-1.35-r2.ebuild, postgrey-1.36-r1.ebuild:
+  Fix dependency on dev-perl/Net-Server
+
+  Package-Manager: portage-2.2.27
+

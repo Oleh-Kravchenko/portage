@@ -150,6 +150,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  04 Feb 2016; Johan Bergström <bugs@bergstroem.nu> nodejs-0.12.6.ebuild,
+  nodejs-0.12.7.ebuild, nodejs-4.1.1.ebuild, nodejs-4.2.2.ebuild,
+  nodejs-5.0.0.ebuild, nodejs-5.3.0.ebuild, nodejs-5.4.1.ebuild:
+  remove iojs references
+
 *nodejs-5.5.0 (09 Feb 2016)
 
   09 Feb 2016; Patrick Lauer <patrick@gentoo.org> +nodejs-5.5.0.ebuild:
@@ -178,6 +183,13 @@
   Keyword 5.6.0-r1 for ~arm64
 
   Tested on Cortex-A53
+
+  Package-Manager: portage-2.2.27
+
+*nodejs-5.7.1 (09 Mar 2016)
+
+  09 Mar 2016; Patrick Lauer <patrick@gentoo.org> +nodejs-5.7.1.ebuild:
+  Bump
 
   Package-Manager: portage-2.2.27
 

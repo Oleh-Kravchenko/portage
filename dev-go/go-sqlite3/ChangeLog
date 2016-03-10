@@ -16,3 +16,11 @@
 
   Package-Manager: portage-2.2.27
 
+*go-sqlite3-1.1.0_p20160307 (09 Mar 2016)
+
+  09 Mar 2016; Zac Medico <zmedico@gentoo.org>
+  +go-sqlite3-1.1.0_p20160307.ebuild:
+  version bump to 1.1.0_p20160307
+
+  Package-Manager: portage-2.2.27
+

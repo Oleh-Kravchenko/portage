@@ -105,3 +105,8 @@
 
   Package-Manager: portage-2.2.27
 
+  09 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> rt-4.2.12-r1.ebuild:
+  Fix dependency on dev-perl/Net-Server
+
+  Package-Manager: portage-2.2.27
+

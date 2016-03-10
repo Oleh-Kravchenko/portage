@@ -91,3 +91,18 @@
 
   Package-Manager: portage-2.2.26
 
+*gns3-gui-1.4.4-r1 (09 Mar 2016)
+
+  09 Mar 2016; Aaron Bauman <bman@gentoo.org> +gns3-gui-1.4.4-r1.ebuild:
+  revision to drop PyQt4 support and add additional PyQt5 USE.  Thanks to
+  Sebastian on bug 576798.
+
+*gns3-gui-1.4.4-r2 (09 Mar 2016)
+
+  09 Mar 2016; Aaron Bauman <bman@gentoo.org> +gns3-gui-1.4.4-r2.ebuild:
+  change PV to PVR as we have reivsions now.
+
+  09 Mar 2016; Aaron Bauman <bman@gentoo.org> -gns3-gui-1.4.4.ebuild,
+  -gns3-gui-1.4.4-r1.ebuild:
+  purge old
+

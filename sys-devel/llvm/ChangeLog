@@ -503,3 +503,22 @@
   17 Feb 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
   Bump the live ebuild to EAPI 6
 
+*llvm-3.8.0 (09 Mar 2016)
+
+  09 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org> -llvm-3.8.0_rc2.ebuild,
+  +llvm-3.8.0.ebuild:
+  sys-devel/{clang,llvm}: Bump to final 3.8.0
+
+  To do before unmask:
+  * some clang tests still fail (cannot find standard headers)
+  * lldb wants to install six.py
+  * test reverse dependencies
+
+  Package-Manager: portage-2.2.27
+
+  09 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +files/llvm-3.8-lldb_six.patch, llvm-3.8.0.ebuild:
+  use system six for lldb
+
+  Package-Manager: portage-2.2.27
+

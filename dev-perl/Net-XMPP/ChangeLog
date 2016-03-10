@@ -63,3 +63,24 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-XMPP-1.50.0 (09 Mar 2016)
+
+  09 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Net-XMPP-1.50.0.ebuild, +files/1.05-no-network-tests.patch:
+  Bump to version 1.50.0
+
+  - EAPI6
+  - Fix wrong LICENSE
+  - Drop ~keywords except ~amd64 and ~x86 due to new dep LWP-Online
+  - Add USE="examples" option
+  - Network tests patched/excluded better.
+
+  Upstream:
+  - Some Memory leaks fixed
+  - Google Talk connection crash fixed.
+  - Support for virtual domains
+  - SSL Verification fixes
+  - Better null/undef ssl param handling
+
+  Package-Manager: portage-2.2.27
+

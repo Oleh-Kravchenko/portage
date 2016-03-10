@@ -126,3 +126,27 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Mar 2016; Patrick Lauer <patrick@gentoo.org> rb_libtorrent-1.0.8.ebuild:
+  Drop py3.3 as boost dropped it
+
+  Package-Manager: portage-2.2.27
+
+*rb_libtorrent-1.0.9 (09 Mar 2016)
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +rb_libtorrent-1.0.9.ebuild:
+  Bump to version 1.0.9 (bug #576794).
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/rb_libtorrent-1.0.6-fix-debug-build.patch,
+  -files/rb_libtorrent-1.0.6-remove-parse-hash-fails.patch,
+  -rb_libtorrent-1.0.4.ebuild, -rb_libtorrent-1.0.5.ebuild,
+  -rb_libtorrent-1.0.6.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

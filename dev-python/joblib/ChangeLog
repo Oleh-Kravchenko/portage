@@ -103,3 +103,8 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  09 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> joblib-0.9.4.ebuild:
+  added python 3.5 compat
+
+  Package-Manager: portage-2.2.27
+

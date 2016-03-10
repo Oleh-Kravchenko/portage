@@ -453,3 +453,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*wireshark-2.0.2-r1 (09 Mar 2016)
+
+  09 Mar 2016; Jeroen Roovers <jer@gentoo.org> +wireshark-2.0.2-r1.ebuild,
+  wireshark-99999999.ebuild:
+  Use upstream .desktop files (bug #576442 by Jan Chren (rindeal)).
+
+  Package-Manager: portage-2.2.27
+

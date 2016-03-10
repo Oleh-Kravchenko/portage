@@ -309,3 +309,21 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*cmake-3.5.0 (09 Mar 2016)
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> +cmake-3.5.0.ebuild,
+  files/cmake-2.8.12.1-FindImageMagick.patch,
+  files/cmake-3.0.0-FindBLAS.patch, files/cmake-3.0.2-FindLAPACK.patch,
+  files/cmake-3.1.0-FindPythonInterp.patch,
+  files/cmake-3.1.0-darwin-isysroot.patch, files/cmake-3.3.2-FindQt4.patch:
+  Bump to version 3.5.0
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -cmake-3.4.2.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

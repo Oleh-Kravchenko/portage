@@ -508,3 +508,23 @@
 
   Package-Manager: portage-2.2.26
 
+*firefox-38.7.0 (09 Mar 2016)
+
+  09 Mar 2016; Ian Stakenvicius <axs@gentoo.org> +firefox-38.7.0.ebuild:
+  bump to 38.7.0 for security bug 576862
+
+  Package-Manager: portage-2.2.26
+
+*firefox-45.0 (09 Mar 2016)
+
+  09 Mar 2016; Ian Stakenvicius <axs@gentoo.org> +firefox-45.0.ebuild:
+  bump to 45.0 for security, make ebuild and eclasses EAPI6
+
+  This is an initial pass of EAPI6 migration, the eclasses and ebuilds may be
+  ported further
+  in the future to take advantage of any missing EAPI6 functionality.
+
+  Bug: https://bugs.gentoo.org/576862
+
+  Package-Manager: portage-2.2.26
+

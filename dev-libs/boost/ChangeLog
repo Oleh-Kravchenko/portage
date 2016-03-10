@@ -151,3 +151,33 @@
 
   Package-Manager: portage-2.2.27
 
+*boost-1.60.0 (09 Mar 2016)
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> +boost-1.60.0.ebuild:
+  Bump to version 1.60.0
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -boost-1.55.0-r2.ebuild,
+  -boost-1.57.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+*boost-1.57.0 (09 Mar 2016)
+*boost-1.55.0-r2 (09 Mar 2016)
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> +boost-1.55.0-r2.ebuild,
+  +boost-1.57.0.ebuild:
+  Revert "dev-libs/boost: Removed old."
+
+  This reverts commit 78d14f01c6bca78383c7ec3847ec34a89121fd17.
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -boost-1.57.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

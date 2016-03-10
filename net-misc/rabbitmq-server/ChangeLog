@@ -104,3 +104,10 @@
 
   Package-Manager: portage-2.2.26
 
+*rabbitmq-server-3.6.1 (09 Mar 2016)
+
+  09 Mar 2016; Ultrabug <ultrabug@gentoo.org> +rabbitmq-server-3.6.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

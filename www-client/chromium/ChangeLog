@@ -746,3 +746,15 @@
 
   Package-Manager: portage-2.2.27
 
+*chromium-49.0.2623.75-r1 (09 Mar 2016)
+
+  09 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-49.0.2623.75-r1.ebuild,
+  +files/chromium-arm64-align-stack-16-bytes.patch,
+  +files/chromium-whitelist-arm64-syscalls.patch:
+  Fix sandbox on arm64
+
+  https://bugs.gentoo.org/576672
+
+  Package-Manager: portage-2.2.27_p81
+

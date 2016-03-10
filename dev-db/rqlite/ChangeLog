@@ -22,3 +22,16 @@
 
   Package-Manager: portage-2.2.27
 
+  09 Mar 2016; Zac Medico <zmedico@gentoo.org> rqlite-9999.ebuild:
+  update go-sqlite3 snapshot
+
+  Package-Manager: portage-2.2.27
+
+*rqlite-2.0_pre20160308 (09 Mar 2016)
+
+  09 Mar 2016; Zac Medico <zmedico@gentoo.org> +rqlite-2.0_pre20160308.ebuild,
+  rqlite-9999.ebuild:
+  add 2.0_pre20160308 snapshot
+
+  Package-Manager: portage-2.2.27
+

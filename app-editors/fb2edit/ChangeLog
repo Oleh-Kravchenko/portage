@@ -59,3 +59,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  09 Mar 2016; Sergey Popov <pinkbyte@gentoo.org> fb2edit-0.0.9.ebuild:
+  0.0.9: stable on amd64 and x86
+
+  Gentoo-Bug: 499570
+
+  Package-Manager: portage-2.2.26
+
+  09 Mar 2016; Sergey Popov <pinkbyte@gentoo.org> -fb2edit-0.0.8.ebuild:
+  drop old version
+
+  Package-Manager: portage-2.2.26
+

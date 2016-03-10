@@ -112,3 +112,10 @@
 
   Package-Manager: portage-2.2.26
 
+*keyring-8.4.1 (09 Mar 2016)
+
+  09 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> +keyring-8.4.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

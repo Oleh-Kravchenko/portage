@@ -21,3 +21,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Module-Info-0.370.0-r1 (09 Mar 2016)
+
+  09 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Module-Info-0.370.0-r1.ebuild:
+  EAPI6ify + Remove unneeded test deps
+
+  - Use EAPI6
+  - Remove legacy assignment to MY_PN
+  - Eliminate POD Tests ( Can only cause suffering at best )
+  - Remove POD Test deps
+
+  Package-Manager: portage-2.2.27
+

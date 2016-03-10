@@ -232,3 +232,12 @@
 
   Package-Manager: portage-2.2.27_p64
 
+  09 Mar 2016; William Hubbs <williamh@gentoo.org>
+  -files/224-0002-Use-getxpid-syscall-on-alpha-for-raw_getpid.patch,
+  -udev-217.ebuild, -udev-218.ebuild, -udev-219.ebuild, -udev-220-r3.ebuild,
+  -udev-222.ebuild, -udev-224.ebuild, -udev-224-r1.ebuild,
+  -udev-224-r2.ebuild, -udev-229.ebuild, -udev-229-r1.ebuild:
+  remove unstable versions
+
+  Package-Manager: portage-2.2.26
+

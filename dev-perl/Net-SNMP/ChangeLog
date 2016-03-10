@@ -63,3 +63,28 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Net-SNMP-6.0.1-r2 (09 Mar 2016)
+
+  09 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Net-SNMP-6.0.1-r2.ebuild:
+  Fix packaging and incorrect dependencies
+
+  - EAPI6 instead of EAPI5
+  - No MY_P=/S= sillyness
+  - Dependencies that support certain paths that expert
+    usage could avoid ( ie: non-encrypted SNMP ) migrated to
+    USE=minimal
+  - Test dependency added
+  - Missing Crypt-Rijndael and Socket6 dependencies
+    added to support features that could require them.
+  - Examples now regulated by USE=examples
+  - Dropped keywords for alpha, arm, ppc, ppc64 due to new dep Crypt-Rijndael
+
+  Package-Manager: portage-2.2.27
+
+  09 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Net-SNMP-6.0.1-r2.ebuild:
+  drop stable keywords
+
+  Package-Manager: portage-2.2.27
+

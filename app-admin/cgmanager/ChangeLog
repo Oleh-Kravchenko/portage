@@ -110,3 +110,21 @@
 
   Package-Manager: portage-2.2.27
 
+*cgmanager-0.41 (09 Mar 2016)
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> +cgmanager-0.41.ebuild:
+  Bump to version 0.41
+
+  Permission kindly granted by perfinion.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  09 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -cgmanager-0.36-r1.ebuild, -cgmanager-0.37.ebuild, -files/cgmanager.initd,
+  -files/cgproxy.initd:
+  Removed old.
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
