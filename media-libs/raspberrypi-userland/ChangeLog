@@ -88,3 +88,20 @@
 
   Package-Manager: portage-2.2.27
 
+*raspberrypi-userland-0_pre20160305-r1 (10 Mar 2016)
+
+  10 Mar 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  files/04raspberrypi-userland, +files/bcm_host.pc, +files/egl.pc,
+  +files/glesv2.pc, +files/next-resource-handle.patch,
+  +files/wayland-wsys.patch, -raspberrypi-userland-0_pre20160305.ebuild,
+  +raspberrypi-userland-0_pre20160305-r1.ebuild:
+  bug fixes and improvements
+
+  fixed bug #539504: support for GLESv1
+  fixed bugs #499768 and #529424: added pkgconfig files and set environment
+  path to these files
+  fixed location of udev rules file
+  fixed bug #499768: added support for wayland from leio.git overlay
+
+  Package-Manager: portage-2.2.27
+

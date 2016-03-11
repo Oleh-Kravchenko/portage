@@ -77,3 +77,31 @@
 
   Package-Manager: portage-2.2.26
 
+*caja-extensions-1.10.1-r1 (09 Mar 2016)
+
+  09 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +caja-extensions-1.10.1-r1.ebuild, metadata.xml:
+  Re-enable support for gksu.
+
+  I'm not entirely sure why it was disabled to begin with, and I
+  found no evidence as to why.  Keeping -r0 until this has been tested
+  thoroughly.
+
+  Package-Manager: portage-2.2.26
+
+*caja-extensions-1.10.1-r2 (09 Mar 2016)
+
+  09 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -caja-extensions-1.10.1-r1.ebuild, +caja-extensions-1.10.1-r2.ebuild:
+  Fix missing dep, image-converter
+
+  Thanks to kajzer for spotting and diagnosing
+
+  Package-Manager: portage-2.2.26
+
+  09 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -caja-extensions-1.10.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.26
+

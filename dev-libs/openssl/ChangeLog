@@ -430,3 +430,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  10 Mar 2016; Markus Meier <maekke@gentoo.org> openssl-1.0.2g-r2.ebuild:
+  arm/x86 stable, bug #575548
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm x86"
+

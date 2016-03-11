@@ -528,3 +528,25 @@
 
   Package-Manager: portage-2.2.26
 
+  10 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> firefox-45.0.ebuild:
+  Fixed dependency on dev-libs/nspr (bug #576936).
+
+  Package-Manager: portage-2.2.27
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  10 Mar 2016; Ian Stakenvicius <axs@gentoo.org> firefox-45.0.ebuild:
+  drop erroneously reintroduced egl USE flag.
+
+  This flag was reintroduced accidentally when migrating firefox-45.0 from
+  mozilla-overlay,
+  as it still fails at build time, this patch drops the flag again.
+
+  Bug: https://bugs.gentoo.org/571180
+
+  Package-Manager: portage-2.2.26
+
+  10 Mar 2016; Ian Stakenvicius <axs@gentoo.org> firefox-45.0.ebuild:
+  45: switch 'xemake' to 'virtx emake' for PGO builds, per EAPI6
+
+  Package-Manager: portage-2.2.26
+

@@ -1040,3 +1040,11 @@
 
   Package-Manager: portage-2.2.26
 
+*gentoo-sources-3.10.100 (10 Mar 2016)
+
+  10 Mar 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.10.100.ebuild:
+  Linux patch 3.10.100
+
+  Package-Manager: portage-2.2.26
+

@@ -71,3 +71,8 @@
 
   Package-Manager: portage-2.2.26
 
+  09 Mar 2016; Manuel Rüger <mrueg@gentoo.org> ffaker-2.1.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

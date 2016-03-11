@@ -331,3 +331,9 @@
 
   Package-Manager: portage-2.2.26
 
+  10 Mar 2016; Mike Gilbert <floppym@gentoo.org> pip-8.0.2-r2.ebuild,
+  pip-8.0.3.ebuild:
+  Restore dependency on dev-python/setuptools
+
+  Package-Manager: portage-2.2.27_p81
+

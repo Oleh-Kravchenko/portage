@@ -72,3 +72,17 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  10 Mar 2016; Agostino Sarubbo <ago@gentoo.org> libotr-4.1.1.ebuild:
+  amd64 stable wrt bug #576914
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  10 Mar 2016; Agostino Sarubbo <ago@gentoo.org> libotr-4.1.1.ebuild:
+  x86 stable wrt bug #576914
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

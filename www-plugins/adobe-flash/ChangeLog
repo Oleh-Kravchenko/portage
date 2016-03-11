@@ -299,3 +299,11 @@
 
   Package-Manager: portage-2.2.27
 
+*adobe-flash-11.2.202.577 (10 Mar 2016)
+
+  10 Mar 2016; Jeroen Roovers <jer@gentoo.org>
+  +adobe-flash-11.2.202.577.ebuild:
+  Version bump (bug #576980).
+
+  Package-Manager: portage-2.2.27
+

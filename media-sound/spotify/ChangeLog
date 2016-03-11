@@ -188,3 +188,11 @@
 
   Package-Manager: portage-2.2.26
 
+*spotify-1.0.24.104 (10 Mar 2016)
+
+  10 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -spotify-1.0.23.93.ebuild, +spotify-1.0.24.104.ebuild:
+  they bumped it again
+
+  Package-Manager: portage-2.2.26
+

@@ -74,3 +74,9 @@
 
   Package-Manager: portage-2.2.26
 
+  10 Mar 2016; Markus Meier <maekke@gentoo.org> Macaulay2-1.8.2.1.ebuild:
+  add ~arm, bug #573944
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

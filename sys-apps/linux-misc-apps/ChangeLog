@@ -71,3 +71,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Mar 2016; Robin H. Johnson <robbat2@gentoo.org>
+  linux-misc-apps-3.18.ebuild:
+  add ewarn for hpfall->freefall upstream change per bug #566916.
+
+  Package-Manager: portage-2.2.27
+

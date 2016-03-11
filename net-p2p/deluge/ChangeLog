@@ -178,3 +178,52 @@
 
   This file is no longer needed
 
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org> files/deluge-web.conf,
+  files/deluged.conf-2:
+  improve configuration defaults
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/deluge-web.service.conf, +files/deluged.service.conf:
+  Add systemd drop-ins
+
+  These files allow configuration of systemd units
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/deluge-web.service-2, +files/deluged.service-2:
+  Improved systemd units
+
+  No more sourcing of /etc/conf.d/deluge* (QA violation). Systemd
+  units are now configured in drop-in files.
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*deluge-1.3.12-r3 (10 Mar 2016)
+
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +deluge-1.3.12-r3.ebuild:
+  improved systemd support
+
+  The ebuild now creates deluge user and group (fix Gentoo bug #566806)
+  Give notice to systemd users of change in configuration files.
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -deluge-1.3.12-r2.ebuild:
+  remove old
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org> deluge-9999.ebuild:
+  sync live ebuild
+
+  This series of commits closes #1010.
+
+  Pull-Request: https://github.com/gentoo/gentoo/pull/1010
+  Gentoo-Bug: https://bugs.gentoo.org/566806
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

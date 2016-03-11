@@ -245,3 +245,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*bind-9.10.3_p4 (10 Mar 2016)
+
+  10 Mar 2016; Christian Ruppert <idl0r@gentoo.org> -bind-9.10.3_p3.ebuild,
+  +bind-9.10.3_p4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

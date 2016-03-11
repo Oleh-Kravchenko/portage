@@ -406,3 +406,12 @@
   -mesa-11.1.2.ebuild:
   Drop old 11.1 ebuilds.
 
+  10 Mar 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  mesa-11.0.6.ebuild, mesa-11.0.8.ebuild, mesa-11.0.9.ebuild,
+  mesa-11.1.2-r1.ebuild:
+  depend on <sys-devel/llvm-3.8
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=576972
+
+  Package-Manager: portage-2.2.26
+

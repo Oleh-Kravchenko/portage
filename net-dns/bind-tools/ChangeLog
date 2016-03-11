@@ -201,3 +201,11 @@
 
   Package-Manager: portage-2.2.27
 
+*bind-tools-9.10.3_p4 (10 Mar 2016)
+
+  10 Mar 2016; Christian Ruppert <idl0r@gentoo.org>
+  +bind-tools-9.10.3_p4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

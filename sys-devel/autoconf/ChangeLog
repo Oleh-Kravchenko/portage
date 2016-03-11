@@ -119,3 +119,8 @@
 
   Adjust the SLOT blockers to match the value that was actually used.
 
+  10 Mar 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag description from metadata.xml
+
+  Package-Manager: portage-2.2.27
+

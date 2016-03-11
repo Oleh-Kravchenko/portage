@@ -273,3 +273,12 @@
 
   Package-Manager: portage-2.2.27
 
+*lvm2-2.02.145-r1 (10 Mar 2016)
+
+  10 Mar 2016; Robin H. Johnson <robbat2@gentoo.org>
+  files/lvm2-2.02.70-asneeded.patch, files/lvm2-2.02.99-locale-muck.patch,
+  +lvm2-2.02.145-r1.ebuild:
+  EAPI6 conversion from Lars Wendler (polynomial-c).
+
+  Package-Manager: portage-2.2.27
+

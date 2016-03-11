@@ -253,3 +253,17 @@
 
   Package-Manager: portage-2.2.27
 
+*opera-developer-37.0.2163.0 (10 Mar 2016)
+
+  10 Mar 2016; Jeroen Roovers <jer@gentoo.org>
+  +opera-developer-37.0.2163.0.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+
+  10 Mar 2016; Jeroen Roovers <jer@gentoo.org>
+  -opera-developer-37.0.2142.0.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.27
+

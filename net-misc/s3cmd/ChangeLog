@@ -83,3 +83,13 @@
 
   Package-Manager: portage-2.2.26
 
+  10 Mar 2016; Ian Delaney <idella4@gentoo.org> s3cmd-1.6.1.ebuild:
+  prepare for stabilisation of vn. 1.6.1
+
+  Upgrade EAPI to 6, remove un-needed install phase
+  updated ebuild supplied via attachment in gentoo bug
+
+  Gentoo bug: #576828
+
+  Package-Manager: portage-2.2.26
+

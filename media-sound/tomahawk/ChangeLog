@@ -82,3 +82,17 @@
 
   Package-Manager: portage-2.2.27
 
+*tomahawk-0.8.4-r2 (10 Mar 2016)
+
+  10 Mar 2016; Johannes Huber <johu@gentoo.org>
+  +files/tomahawk-0.8.4-qca-qt5-linking.patch, -tomahawk-0.8.4-r1.ebuild,
+  +tomahawk-0.8.4-r2.ebuild:
+  Fix segfault on startup with Qt5
+
+  Revision bump adds upstream patch to link correctly against qca with Qt5.
+  Thanks to Jan Kundrát <jkt@gentoo.org> for spotting.
+
+  Gentoo-bug: 567354
+
+  Package-Manager: portage-2.2.27
+

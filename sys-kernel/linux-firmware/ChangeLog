@@ -203,3 +203,13 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*linux-firmware-20160223 (10 Mar 2016)
+
+  10 Mar 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +linux-firmware-20160223.ebuild, linux-firmware-99999999.ebuild:
+  new snapshot, re-save config file conditionally
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=546690
+
+  Package-Manager: portage-2.2.26
+

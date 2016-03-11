@@ -424,3 +424,27 @@
 
   Package-Manager: portage-2.2.27
 
+  10 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  aegisub-3.2.2_p20160306.ebuild, aegisub-9999.ebuild:
+  update comment re luabins
+
+  Package-Manager: portage-2.2.27
+
+  10 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  aegisub-3.2.2_p20160306.ebuild:
+  manually add git_version.h to 3.2.2_p20160306 wrt bug 576918
+
+  Gentoo-Bug: 576918
+  Closes: https://github.com/gentoo/gentoo/pull/1018
+
+  Package-Manager: portage-2.2.27
+
+  10 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  aegisub-3.2.2_p20160306.ebuild, aegisub-9999.ebuild:
+  copy config.rpath via autotools eclass in 3.2.2_p20160306, 9999
+
+  Replace a custom config.rpath hack with the legalized one from autotools
+  eclass. See also http://devel.aegisub.org/ticket/1914
+
+  Package-Manager: portage-2.2.27
+

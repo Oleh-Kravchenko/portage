@@ -106,3 +106,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org> strace-4.9.ebuild:
+  dev-utils/strace: skip flaky -k test #545812 in stable
+
+  Already fixed in 4.10. Apply same fix to current stable.
+
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org> strace-4.9.ebuild:
+  dev-utils/strace: fix whitespace
+
+  This series of commits closes #1011.
+
+  Pull-Request: https://github.com/gentoo/gentoo/pull/1011
+  Acked-by: Mike Frysinger <vapier@gentoo.org>
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  10 Mar 2016; Patrick Lauer <patrick@gentoo.org> strace-4.9.ebuild:
+  Whitespace
+
+  Package-Manager: portage-2.2.27
+
