@@ -422,3 +422,9 @@
 
   Package-Manager: portage-2.2.27
 
+  11 Mar 2016; Jeroen Roovers <jer@gentoo.org> vivaldi-1.0.403.24_p1.ebuild,
+  vivaldi-1.0.418.3_p1.ebuild:
+  Set KEYWORDS+=-* (by steev).
+
+  Package-Manager: portage-2.2.27
+

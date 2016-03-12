@@ -183,3 +183,10 @@
 
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+  10 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  mythplugins-0.27_p20140321-r1.ebuild,
+  mythplugins-0.27.5_p20150627-r4.ebuild:
+  Fix dependency on dev-perl/Date-Manip
+
+  Package-Manager: portage-2.2.27
+

@@ -148,3 +148,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*proftpd-1.3.5b (11 Mar 2016)
+
+  11 Mar 2016; Sergei Trofimovich <slyfox@gentoo.org> +proftpd-1.3.5b.ebuild:
+  bump up to 1.3.5b, bug #577046 (CVE-2016-3125)
+
+  proftpd Ignored configured Diffie Hellman parameters and uses risky 1024
+  bit.
+
+  Reported-by: Hanno Boeck
+  Bug: http://bugs.proftpd.org/show_bug.cgi?id=4230
+  Bug: https://bugs.gentoo.org/577046
+
+  Package-Manager: portage-2.2.28
+

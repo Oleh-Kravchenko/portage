@@ -74,3 +74,15 @@
 
   Package-Manager: portage-2.2.27
 
+*tclpython-4.1-r6 (11 Mar 2016)
+
+  11 Mar 2016; Daniel Campbell <zlg@gentoo.org> +tclpython-4.1-r6.ebuild:
+  Correct DEPEND to binutils-libs
+
+  See comment 6 in the bug.
+
+  Gentoo-Bug: 575518
+  Gentoo-Bug-URL: https://bugs.gentoo.org/575518
+
+  Package-Manager: portage-2.2.27
+

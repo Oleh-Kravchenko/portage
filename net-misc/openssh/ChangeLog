@@ -299,3 +299,15 @@
   04 Mar 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
   Re-order maintainers
 
+*openssh-7.2_p2 (11 Mar 2016)
+
+  11 Mar 2016; Mike Frysinger <vapier@gentoo.org> +openssh-7.2_p2.ebuild:
+  version bump to 7.2_p2 #576954
+
+  11 Mar 2016; Richard Freeman <rich0@gentoo.org> openssh-7.2_p2.ebuild:
+  amd64 stable
+
+  Bug: 576954
+
+  Package-Manager: portage-2.2.26
+

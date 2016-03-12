@@ -98,3 +98,8 @@
 
   Package-Manager: portage-2.2.26
 
+  11 Mar 2016; Keri Harris <keri@gentoo.org> yap-6.3.3.ebuild:
+  differentiate between mysql & odbc during MYDDAS config checks
+
+  Package-Manager: portage-2.2.26
+

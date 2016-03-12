@@ -99,3 +99,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  10 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  logwatch-7.4.0_p170-r1.ebuild, logwatch-7.4.1.ebuild, logwatch-7.4.2.ebuild:
+  Fix dependency on dev-perl/Date-Manip
+
+  Package-Manager: portage-2.2.27
+

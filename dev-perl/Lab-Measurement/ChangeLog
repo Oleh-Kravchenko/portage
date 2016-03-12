@@ -66,3 +66,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Lab-Measurement-3.320.0.ebuild, Lab-Measurement-3.410.0.ebuild,
+  Lab-Measurement-9999.ebuild:
+  Fix dependency on dev-perl/Wx
+
+  Package-Manager: portage-2.2.27
+

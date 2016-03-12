@@ -95,3 +95,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*qutebrowser-0.5.1 (11 Mar 2016)
+
+  11 Mar 2016; Tim Harder <radhermit@gentoo.org> +qutebrowser-0.5.1.ebuild,
+  qutebrowser-9999.ebuild:
+  version bump to 0.5.1
+
+  Also, add py35 support and sync live ebuild.
+
+  11 Mar 2016; Tim Harder <radhermit@gentoo.org>
+  -files/qutebrowser-0.2.1-exclude-scripts.patch, -qutebrowser-0.2.1.ebuild,
+  -qutebrowser-0.3.0.ebuild, -qutebrowser-0.4.1.ebuild:
+  remove old
+

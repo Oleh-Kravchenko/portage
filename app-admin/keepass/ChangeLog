@@ -130,3 +130,10 @@
 
   Package-Manager: portage-2.2.27
 
+*keepass-2.32 (10 Mar 2016)
+
+  10 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +keepass-2.32.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+

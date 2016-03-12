@@ -283,3 +283,13 @@
 
   Package-Manager: portage-2.2.27
 
+*portage-2.2.28 (10 Mar 2016)
+
+  10 Mar 2016; Brian Dolbec <dolsen@gentoo.org> +portage-2.2.28.ebuild:
+  Version bump
+
+  Fixes bugs 572494, 572476, 572826, 540882, 573070, 573056, 573386,
+  543706, 527004, 574082, 576488, 573920, 576958.
+
+  Package-Manager: portage-2.2.28
+

@@ -77,3 +77,19 @@
 
   Package-Manager: portage-2.2.27
 
+*linux-misc-apps-4.4 (11 Mar 2016)
+
+  11 Mar 2016; Robin H. Johnson <robbat2@gentoo.org>
+  linux-misc-apps-3.18.ebuild, +linux-misc-apps-4.4.ebuild:
+  bump.
+
+  Package-Manager: portage-2.2.27
+
+*linux-misc-apps-4.4-r1 (11 Mar 2016)
+
+  11 Mar 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +linux-misc-apps-4.4-r1.ebuild, metadata.xml:
+  re-add usbip per bug #395871.
+
+  Package-Manager: portage-2.2.27
+

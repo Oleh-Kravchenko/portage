@@ -19,3 +19,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jaraco-functools-1.8.2 (11 Mar 2016)
+
+  11 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +jaraco-functools-1.8.2.ebuild, metadata.xml:
+  bump to 1.8.2, EAPI=6
+
+  Package-Manager: portage-2.2.27
+  Closes: https://github.com/gentoo/gentoo/pull/1030
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

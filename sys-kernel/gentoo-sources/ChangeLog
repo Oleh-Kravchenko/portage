@@ -1048,3 +1048,10 @@
 
   Package-Manager: portage-2.2.26
 
+*gentoo-sources-4.4.5 (11 Mar 2016)
+
+  11 Mar 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.5.ebuild:
+  Linux patch 4.4.5
+
+  Package-Manager: portage-2.2.26
+

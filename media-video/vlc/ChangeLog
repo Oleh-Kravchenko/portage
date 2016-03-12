@@ -224,3 +224,35 @@
 
   Package-Manager: portage-2.2.26
 
+  11 Mar 2016; Ian Delaney <idella4@gentoo.org> vlc-9999.ebuild:
+  update the live ebuild
+
+  Add IUSE gstreamer, rm IUSE macosx-dialog-provider,
+  add dep media-libs/gst-plugins-base set behind IUSE gstreamer,
+  take out call to epatch_user,
+  patch to live ebuild submitted by attachment in the gentoo bug
+
+  Gentoo bug: #Bug 571568
+
+  Package-Manager: portage-2.2.26
+
+  11 Mar 2016; Ian Delaney <idella4@gentoo.org> vlc-2.2.9999.ebuild:
+  update vlc-2.2.9999 ebuild
+
+  Add IUSE gstreamer, add dep media-libs/gst-plugins-base
+  set behind IUSE gstreamer, allow QT5.5,
+  patch to live ebuild submitted by attachment in the gentoo bug
+
+  Gentoo bug: #Bug 571568
+
+  Package-Manager: portage-2.2.26
+
+  11 Mar 2016; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  Add IUSE gstreamer, zeroconf to metadata.xml
+
+  patch to live ebuild submitted by attachment in the gentoo bug
+
+  Gentoo bug: #Bug 571568
+
+  Package-Manager: portage-2.2.26
+

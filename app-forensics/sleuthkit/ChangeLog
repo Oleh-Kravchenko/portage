@@ -77,3 +77,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  sleuthkit-4.0.2.ebuild, sleuthkit-4.1.0.ebuild, sleuthkit-4.1.2.ebuild,
+  sleuthkit-4.1.3.ebuild:
+  Fix dependency on dev-perl/Date-Manip
+
+  Package-Manager: portage-2.2.27
+

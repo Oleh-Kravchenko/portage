@@ -315,3 +315,20 @@
 
   See Gentoo bug #488176
 
+  11 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/virtualbox-5.0.4-x86_buildfix_1.patch,
+  -files/virtualbox-5.0.4-x86_buildfix_2.patch:
+  Removed unused patches.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+*virtualbox-5.0.16-r1 (11 Mar 2016)
+
+  11 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/virtualbox-ose-5-wrapper, metadata.xml, +virtualbox-5.0.16-r1.ebuild:
+  Revbump to install VBoxVolInfo (via USE="lvm")
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -137,3 +137,11 @@
 
   Package-Manager: portage-2.2.26
 
+*pf-sources-4.4_p6 (11 Mar 2016)
+
+  11 Mar 2016; Markos Chandras <hwoarang@gentoo.org>
+  -pf-sources-4.4_p5.ebuild, +pf-sources-4.4_p6.ebuild:
+  Version bump. Bug #576998
+
+  Package-Manager: portage-2.2.27
+

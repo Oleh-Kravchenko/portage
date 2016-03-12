@@ -110,3 +110,8 @@
 
   Package-Manager: portage-2.2.27
 
+  10 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> rt-4.2.12-r1.ebuild:
+  Fix dependency on dev-perl/Date-Manip
+
+  Package-Manager: portage-2.2.27
+

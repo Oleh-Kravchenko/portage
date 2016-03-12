@@ -68,3 +68,9 @@
 
   Package-Manager: portage-2.2.26
 
+  10 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> xmltv-0.5.57.ebuild,
+  xmltv-0.5.67.ebuild:
+  Fix dependency on dev-perl/Date-Manip
+
+  Package-Manager: portage-2.2.27
+

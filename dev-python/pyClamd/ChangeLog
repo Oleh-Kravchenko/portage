@@ -57,3 +57,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pyClamd-0.3.17 (11 Mar 2016)
+
+  11 Mar 2016; Michael Weber <xmw@gentoo.org> pyClamd-0.3.10.ebuild,
+  +pyClamd-0.3.17.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.27
+

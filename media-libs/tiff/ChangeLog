@@ -113,3 +113,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  11 Mar 2016; Markus Meier <maekke@gentoo.org> tiff-4.0.6.ebuild:
+  arm stable, bug #484542
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

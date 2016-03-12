@@ -453,3 +453,15 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  11 Mar 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-2.6.3.ebuild,
+  ffmpeg-2.6.4.ebuild, ffmpeg-2.8.5.ebuild, ffmpeg-2.8.6.ebuild,
+  ffmpeg-3.0.ebuild, ffmpeg-9999.ebuild:
+  Do not infer --cpu option from mtune CFLAG.
+
+  mtune is meant for optimizing code but not generating specific instructions.
+  ffmpeg --cpu option is for generating specific instuctions.
+  Bug #577078 by gentoobugs@mysteryvortex.com.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

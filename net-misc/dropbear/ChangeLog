@@ -105,3 +105,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*dropbear-2016.72 (10 Mar 2016)
+
+  10 Mar 2016; Mike Frysinger <vapier@gentoo.org> +dropbear-2016.72.ebuild:
+  version bump to 2016.72
+

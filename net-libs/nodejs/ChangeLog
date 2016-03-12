@@ -193,3 +193,33 @@
 
   Package-Manager: portage-2.2.27
 
+*nodejs-5.8.0 (10 Mar 2016)
+
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +nodejs-5.8.0.ebuild:
+  version bump to 5.8.0
+
+  Closes: https://github.com/gentoo/gentoo/pull/1021
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*nodejs-4.4.0 (10 Mar 2016)
+
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +nodejs-4.4.0.ebuild:
+  version bump to 4.4.0
+
+  Backports a few build-related fixes from 5.8.0:
+   - Require python built with threads (multiprocessing)
+   - Update dependencies
+   - cpu flag checks pre building
+   - remove the test removal. file failed tests upstream please!
+
+  Closes: https://github.com/gentoo/gentoo/pull/1021
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*nodejs-0.12.10 (10 Mar 2016)
+
+  10 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +nodejs-0.12.10.ebuild:
+  version bump to 0.12.10
+
+  Closes: https://github.com/gentoo/gentoo/pull/1021
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

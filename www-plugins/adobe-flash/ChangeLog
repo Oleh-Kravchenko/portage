@@ -307,3 +307,19 @@
 
   Package-Manager: portage-2.2.27
 
+  11 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  adobe-flash-11.2.202.577.ebuild:
+  amd64 stable wrt bug #576980
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  11 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  adobe-flash-11.2.202.577.ebuild:
+  x86 stable wrt bug #576980
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -66,3 +66,8 @@
 
   Bug: 575810
 
+  10 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> smtm-1.6.10-r1.ebuild:
+  Fix dependency on dev-perl/Date-Manip
+
+  Package-Manager: portage-2.2.27
+
