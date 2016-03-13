@@ -80,3 +80,8 @@
 
   Bug: 575810
 
+*lpeg-1.0.0 (12 Mar 2016)
+
+  12 Mar 2016; Tim Harder <radhermit@gentoo.org> +lpeg-1.0.0.ebuild:
+  version bump to 1.0.0
+

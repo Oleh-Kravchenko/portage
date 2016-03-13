@@ -32,3 +32,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*python-ly-0.9.3 (12 Mar 2016)
+
+  12 Mar 2016; Tim Harder <radhermit@gentoo.org> +python-ly-0.9.3.ebuild:
+  version bump to 0.9.3
+

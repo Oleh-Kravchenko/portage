@@ -199,3 +199,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  12 Mar 2016; Markus Meier <maekke@gentoo.org> sqlite-3.11.1.ebuild:
+  arm stable, bug #574420
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

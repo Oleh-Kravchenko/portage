@@ -72,3 +72,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  12 Mar 2016; Patrick Lauer <patrick@gentoo.org>
+  multipledispatch-0.4.8.ebuild:
+  Add py35
+
+  Package-Manager: portage-2.2.28
+

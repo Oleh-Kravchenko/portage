@@ -79,3 +79,12 @@
 
   Package-Manager: portage-2.2.27
 
+*radare2-0.10.1 (12 Mar 2016)
+
+  12 Mar 2016; Sergei Trofimovich <slyfox@gentoo.org> +radare2-0.10.1.ebuild:
+  bump up to 0.10.1
+
+  Reported-by: Antranig Vartanian
+
+  Package-Manager: portage-2.2.28
+

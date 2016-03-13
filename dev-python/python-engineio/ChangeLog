@@ -42,3 +42,9 @@
 
   Package-Manager: portage-2.2.27
 
+  12 Mar 2016; Patrick Lauer <patrick@gentoo.org>
+  python-engineio-0.8.8.ebuild:
+  Add py35
+
+  Package-Manager: portage-2.2.28
+

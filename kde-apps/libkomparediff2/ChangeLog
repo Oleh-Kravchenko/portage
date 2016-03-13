@@ -77,3 +77,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libkomparediff2-15.12.2 (12 Mar 2016)
+
+  12 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  +libkomparediff2-15.12.2.ebuild:
+  kde-apps: Move kdesdk-meta-15.12.2 and deps from kde overlay
+
+  Package-Manager: portage-2.2.27
+

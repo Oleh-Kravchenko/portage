@@ -88,3 +88,10 @@
 
   Package-Manager: portage-2.2.26
 
+*poxml-15.12.2 (12 Mar 2016)
+
+  12 Mar 2016; Michael Palimaka <kensington@gentoo.org> +poxml-15.12.2.ebuild:
+  kde-apps: Move kdesdk-meta-15.12.2 and deps from kde overlay
+
+  Package-Manager: portage-2.2.27
+

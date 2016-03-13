@@ -78,3 +78,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*moreutils-0.58 (12 Mar 2016)
+
+  12 Mar 2016; Tim Harder <radhermit@gentoo.org> +moreutils-0.58.ebuild:
+  version bump to 0.58
+

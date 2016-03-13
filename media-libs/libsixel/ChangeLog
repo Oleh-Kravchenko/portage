@@ -79,3 +79,10 @@
 
   Package-Manager: portage-2.2.26
 
+*libsixel-1.6.0 (12 Mar 2016)
+
+  12 Mar 2016; Akinori Hattori <hattya@gentoo.org> +libsixel-1.6.0.ebuild:
+  new upstream release
+
+  Package-Manager: portage-2.2.26
+

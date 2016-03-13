@@ -1055,3 +1055,11 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Mar 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-4.3.3-r1.ebuild, -gentoo-sources-4.3.4.ebuild,
+  -gentoo-sources-4.3.5.ebuild, -gentoo-sources-4.3.6.ebuild,
+  -gentoo-sources-4.4.3.ebuild:
+  Removal of EOL kernel version 4.3.*
+
+  Package-Manager: portage-2.2.26
+

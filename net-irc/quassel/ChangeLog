@@ -149,3 +149,15 @@
 
   Package-Manager: portage-2.2.26
 
+*quassel-0.12.3-r1 (12 Mar 2016)
+
+  12 Mar 2016; Johannes Huber <johu@gentoo.org> metadata.xml,
+  quassel-0.12.2-r3.ebuild, quassel-0.12.3.ebuild, +quassel-0.12.3-r1.ebuild,
+  quassel-9999.ebuild:
+  Add use flag snorenotify
+
+  Gentoo-bug: 574496
+  Reported-by: Michael Palimaka <kensington@gentoo.org>
+
+  Package-Manager: portage-2.2.28
+

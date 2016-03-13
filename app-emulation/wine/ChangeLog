@@ -333,3 +333,9 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> +files/pr69140.c,
+  wine-1.9.4.ebuild, wine-1.9.5.ebuild, wine-9999.ebuild:
+  Check and warn about GCC-5.3 compile bug.  #574044
+
+  Package-Manager: portage-2.2.26
+

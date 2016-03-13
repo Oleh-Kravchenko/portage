@@ -253,3 +253,10 @@
 
   Package-Manager: portage-2.2.27
 
+*xorg-server-1.18.2 (12 Mar 2016)
+
+  12 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +xorg-server-1.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

@@ -76,3 +76,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*okteta-15.12.2-r1 (12 Mar 2016)
+
+  12 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  +okteta-15.12.2-r1.ebuild:
+  kde-apps: Move kdesdk-meta-15.12.2 and deps from kde overlay
+
+  Package-Manager: portage-2.2.27
+
+  12 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  okteta-15.12.2-r1.ebuild:
+  fix configure
+
+  Gentoo-bug: 577190
+
+  Package-Manager: portage-2.2.28
+

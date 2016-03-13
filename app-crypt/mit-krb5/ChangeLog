@@ -202,3 +202,9 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  12 Mar 2016; Markus Meier <maekke@gentoo.org> mit-krb5-1.14.1.ebuild:
+  arm stable, bug #574604
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

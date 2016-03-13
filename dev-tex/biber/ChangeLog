@@ -99,3 +99,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*biber-2.4 (12 Mar 2016)
+
+  12 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> +biber-2.4.ebuild,
+  +files/biber-2.4-drop-mozilla-ca.patch:
+  version bump
+
+  Package-Manager: portage-2.2.27
+
+  12 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org> biber-2.4.ebuild:
+  missing dep
+
+  Package-Manager: portage-2.2.27
+

@@ -74,3 +74,24 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*mersenne-random-pure64-0.2.0.5 (12 Mar 2016)
+
+  12 Mar 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +mersenne-random-pure64-0.2.0.5.ebuild:
+  bump up to 0.2.0.3, bug #577146
+
+  While at it fixes dependency on old-time.
+
+  Reported-by: Toralf Förster
+  Bug: https://bugs.gentoo.org/577146
+
+  Package-Manager: portage-2.2.28
+
+  12 Mar 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  -files/mersenne-random-pure64-0.2.0.3-double-for-32bits.patch,
+  -mersenne-random-pure64-0.2.0.3.ebuild,
+  -mersenne-random-pure64-0.2.0.4.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.28
+

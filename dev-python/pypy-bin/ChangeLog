@@ -187,3 +187,8 @@
   -pypy-bin-4.0.0-r1.ebuild, -pypy-bin-4.0.1.ebuild:
   Drop old
 
+*pypy-bin-5.0.0 (12 Mar 2016)
+
+  12 Mar 2016; Michał Górny <mgorny@gentoo.org> +pypy-bin-5.0.0.ebuild:
+  Bump to 5.0.0, #577132
+

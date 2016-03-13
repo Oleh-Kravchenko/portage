@@ -611,3 +611,8 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  12 Mar 2016; Mike Pagano <mpagano@gentoo.org> -vanilla-sources-4.3.6.ebuild:
+  Remove of EOL kernel patch version 4.3.6
+
+  Package-Manager: portage-2.2.26
+

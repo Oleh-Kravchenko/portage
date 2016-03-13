@@ -90,3 +90,8 @@
   -pypy-4.0.0.ebuild:
   Drop old
 
+*pypy-5.0.0 (12 Mar 2016)
+
+  12 Mar 2016; Michał Górny <mgorny@gentoo.org> +pypy-5.0.0.ebuild:
+  Bump to 5.0.0, #577132
+

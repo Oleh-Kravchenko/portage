@@ -95,3 +95,10 @@
 
   Package-Manager: portage-2.2.27
 
+*flask-socketio-2.2 (12 Mar 2016)
+
+  12 Mar 2016; Patrick Lauer <patrick@gentoo.org> +flask-socketio-2.2.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.28
+

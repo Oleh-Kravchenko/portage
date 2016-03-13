@@ -157,3 +157,21 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*rsyslog-8.16.0-r1 (12 Mar 2016)
+
+  12 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  +files/8-stable/50-rsyslog-8.16.0-fix-leap-year-handling.patch,
+  +rsyslog-8.16.0-r1.ebuild:
+  Rev bump to fix a leap year issue
+
+  Bug: https://github.com/rsyslog/rsyslog/issues/830
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1034
+
+  12 Mar 2016; Ian Delaney <idella4@gentoo.org> -rsyslog-8.16.0.ebuild:
+  Remove old version affected by leap year issue
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1034
+

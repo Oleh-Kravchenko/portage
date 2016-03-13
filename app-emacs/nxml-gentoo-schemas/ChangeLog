@@ -74,3 +74,17 @@
 
   Package-Manager: portage-2.2.27
 
+*nxml-gentoo-schemas-20160312 (12 Mar 2016)
+
+  12 Mar 2016; Ulrich Müller <ulm@gentoo.org>
+  +nxml-gentoo-schemas-20160312.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+
+  12 Mar 2016; Ulrich Müller <ulm@gentoo.org>
+  -nxml-gentoo-schemas-20111129.ebuild, -nxml-gentoo-schemas-20150428.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.2.28
+

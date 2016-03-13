@@ -85,3 +85,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sshuttle-0.77.2 (12 Mar 2016)
+
+  12 Mar 2016; Tim Harder <radhermit@gentoo.org> +sshuttle-0.77.2.ebuild:
+  version bump to 0.77.2
+
+  12 Mar 2016; Tim Harder <radhermit@gentoo.org> sshuttle-0.77.2.ebuild:
+  add bdep on setuptools
+

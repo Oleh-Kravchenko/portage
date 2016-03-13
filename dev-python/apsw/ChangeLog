@@ -113,3 +113,9 @@
 
   Package-Manager: portage-2.2.26
 
+*apsw-3.11.1_p1 (12 Mar 2016)
+
+  12 Mar 2016; Tim Harder <radhermit@gentoo.org> +apsw-3.11.1_p1.ebuild,
+  metadata.xml:
+  version bump to 3.11.1_p1
+

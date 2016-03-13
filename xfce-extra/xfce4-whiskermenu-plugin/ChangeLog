@@ -80,3 +80,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xfce4-whiskermenu-plugin-1.5.2 (12 Mar 2016)
+
+  12 Mar 2016; Jason Zaman <perfinion@gentoo.org>
+  +xfce4-whiskermenu-plugin-1.5.2.ebuild:
+  version bump
+
