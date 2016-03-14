@@ -65,3 +65,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*scrot-0.8_p13-r1 (13 Mar 2016)
+
+  13 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +scrot-0.8_p13-r1.ebuild:
+  revbump scrot-0.8_p13 scrot-0.8_p13-r1
+
+  Make scrot useful with imlib2 useflag
+
+  Acked-by: Markus Meier <maekke@gentoo.org>
+  Closes: https://github.com/gentoo/gentoo/pull/892
+
+  13 Mar 2016; Patrice Clement <monsieurp@gentoo.org> scrot-0.8_p13-r1.ebuild:
+  Add missing die.
+
+  Package-Manager: portage-2.2.26
+

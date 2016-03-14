@@ -168,3 +168,15 @@
 
   Package-Manager: portage-2.2.27
 
+*xterm-324 (12 Mar 2016)
+
+  12 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +xterm-324.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+
+  12 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -xterm-322.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

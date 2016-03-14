@@ -17,3 +17,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*keyrings_alt-1.1.1 (13 Mar 2016)
+
+  13 Mar 2016; Patrick Lauer <patrick@gentoo.org> +keyrings_alt-1.1.1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.28
+

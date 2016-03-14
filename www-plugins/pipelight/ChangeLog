@@ -72,3 +72,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pipelight-0.2.8.2 (13 Mar 2016)
+
+  13 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> +pipelight-0.2.8.2.ebuild,
+  pipelight-9999.ebuild:
+  Add 0.2.8.2; Add 64 bit support per #528404
+
+  Package-Manager: portage-2.2.26
+
+  13 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> -pipelight-0.2.7.3.ebuild,
+  -pipelight-0.2.8.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.26
+

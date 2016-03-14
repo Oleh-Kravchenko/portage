@@ -76,3 +76,9 @@
 
   Package-Manager: portage-2.2.26
 
+  13 Mar 2016; Markus Meier <maekke@gentoo.org> coderay-1.1.0-r2.ebuild:
+  arm stable, bug #576630
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

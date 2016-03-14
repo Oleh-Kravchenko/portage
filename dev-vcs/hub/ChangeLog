@@ -74,3 +74,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*hub-2.2.3-r1 (13 Mar 2016)
+
+  13 Mar 2016; Christoph Junghans <ottxor@gentoo.org>
+  +files/hub-2.2.3-bashcomp.patch, +hub-2.2.3-r1.ebuild:
+  fixed bashcomp
+
+  Package-Manager: portage-2.2.26
+
+  13 Mar 2016; Christoph Junghans <ottxor@gentoo.org> -hub-1.12.4.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.26
+

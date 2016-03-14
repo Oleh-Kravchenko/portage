@@ -34,3 +34,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*nagiosplugin-1.2.4 (12 Mar 2016)
+
+  12 Mar 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml,
+  +nagiosplugin-1.2.4.ebuild:
+  bump to 1.2.4, EAPI=6
+
+  Package-Manager: portage-2.2.27
+  Closes: https://github.com/gentoo/gentoo/pull/1036
+

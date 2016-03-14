@@ -119,3 +119,10 @@
 
   Package-Manager: portage-2.2.27
 
+*keyring-8.5 (12 Mar 2016)
+
+  12 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> +keyring-8.5.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

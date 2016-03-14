@@ -117,3 +117,11 @@
 
   Package-Manager: portage-2.2.27
 
+*hugin-2016.0.0_rc2 (13 Mar 2016)
+
+  13 Mar 2016; Markus Meier <maekke@gentoo.org> -hugin-2016.0.0_rc1.ebuild,
+  +hugin-2016.0.0_rc2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

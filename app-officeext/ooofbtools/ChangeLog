@@ -135,3 +135,9 @@
 
   Package-Manager: portage-2.2.26
 
+  13 Mar 2016; Amy Winston <amynka@gentoo.org> ooofbtools-2.38.ebuild,
+  ooofbtools-2.39.ebuild, ooofbtools-2.42.ebuild:
+  shorter description
+
+  Package-Manager: portage-2.2.26
+

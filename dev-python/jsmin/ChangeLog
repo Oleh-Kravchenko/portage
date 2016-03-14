@@ -92,3 +92,10 @@
 
   Package-Manager: portage-2.2.27
 
+*jsmin-2.2.1 (13 Mar 2016)
+
+  13 Mar 2016; Patrick Lauer <patrick@gentoo.org> +jsmin-2.2.1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.28
+

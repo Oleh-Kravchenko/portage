@@ -83,3 +83,8 @@
 
   Package-Manager: portage-2.2.27
 
+  13 Mar 2016; Patrick Lauer <patrick@gentoo.org> demjson-2.2.4.ebuild:
+  Add py35
+
+  Package-Manager: portage-2.2.28
+

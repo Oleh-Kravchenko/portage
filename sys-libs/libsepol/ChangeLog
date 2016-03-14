@@ -71,3 +71,10 @@
   libsepol-9999.ebuild:
   selinux: initial arm/arm64/mips support
 
+*libsepol-2.5 (13 Mar 2016)
+
+  13 Mar 2016; Sven Vermeulen <swift@gentoo.org> +libsepol-2.5.ebuild:
+  Bump to 2.5 release
+
+  Package-Manager: portage-2.2.26
+

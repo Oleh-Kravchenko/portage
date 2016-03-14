@@ -70,3 +70,9 @@
 
   Package-Manager: portage-2.2.27
 
+  13 Mar 2016; Markus Meier <maekke@gentoo.org> sqlgrey-1.7.6-r1.ebuild:
+  add ~arm, bug #575950
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

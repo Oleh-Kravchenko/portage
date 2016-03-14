@@ -63,3 +63,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  13 Mar 2016; Manuel Rüger <mrueg@gentoo.org>
+  activerecord-deprecated_finders-1.0.4.ebuild:
+  Remove ruby19, fix desc
+
+  Package-Manager: portage-2.2.28
+

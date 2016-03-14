@@ -212,3 +212,15 @@
 
   This reverts commit 48656e3b700cf6d771db428bc6dde322753839d3.
 
+*opencv-2.4.12 (13 Mar 2016)
+
+  13 Mar 2016; Amy Winston <amynka@gentoo.org> +opencv-2.4.12.ebuild:
+  version bump 2.4.12 bug #576588
+
+  Package-Manager: portage-2.2.26
+
+  13 Mar 2016; Amy Winston <amynka@gentoo.org> metadata.xml:
+  metadata reorder
+
+  Package-Manager: portage-2.2.26
+

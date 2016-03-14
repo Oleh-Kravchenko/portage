@@ -112,3 +112,8 @@
 
   Package-Manager: portage-2.2.27
 
+  13 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -biber-2.2-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

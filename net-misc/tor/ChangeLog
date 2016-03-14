@@ -186,3 +186,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  13 Mar 2016; Anthony G. Basile <blueness@gentoo.org> tor-0.2.6.10.ebuild,
+  tor-0.2.7.6.ebuild, tor-0.2.8.1_alpha.ebuild:
+  add app-text/asciidoc as a DEPEND
+
+  Thanks toralf
+
+  Package-Manager: portage-2.2.26
+

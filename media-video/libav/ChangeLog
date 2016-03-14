@@ -110,3 +110,12 @@
 
   Package-Manager: portage-2.2.26
 
+*libav-11.6 (13 Mar 2016)
+
+  13 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +libav-11.6.ebuild:
+  version bump to 11.6
+
+  Package-Manager: portage-2.2.25
+  Acked-by: Luca Barbato <lu_zero@gentoo.org>
+  Closes: https://github.com/gentoo/gentoo/pull/1029
+
