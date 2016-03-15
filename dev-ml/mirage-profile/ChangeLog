@@ -54,3 +54,12 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+*mirage-profile-0.7.0 (14 Mar 2016)
+
+  14 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  +mirage-profile-0.7.0.ebuild:
+  bump to 0.7.0
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -200,3 +200,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*thunderbird-bin-38.7.0 (14 Mar 2016)
+
+  14 Mar 2016; Ian Stakenvicius <axs@gentoo.org>
+  -thunderbird-bin-38.5.0.ebuild, -thunderbird-bin-38.6.0.ebuild,
+  +thunderbird-bin-38.7.0.ebuild:
+  bump to 38.7 for security, drop old
+
+  Bumped direct to stable for both amd64 and x86.
+
+  Bug: https://bugs.gentoo.org/576862
+
+  Package-Manager: portage-2.2.26
+

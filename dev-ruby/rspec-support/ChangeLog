@@ -98,3 +98,8 @@
 
   Package-Manager: portage-2.2.26
 
+  14 Mar 2016; Hans de Graaff <graaff@gentoo.org> rspec-support-3.4.1.ebuild:
+  add ruby23
+
+  Package-Manager: portage-2.2.26
+

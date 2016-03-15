@@ -99,3 +99,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  14 Mar 2016; Tobias Klausmann <klausman@gentoo.org> plib-1.8.5-r1.ebuild:
+  add alpha keyword
+
+  Gentoo-Bug: 395553
+
+  Package-Manager: portage-2.2.28
+

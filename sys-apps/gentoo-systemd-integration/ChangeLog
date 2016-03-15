@@ -82,3 +82,9 @@
 
   Package-Manager: portage-2.2.27_p64
 
+  14 Mar 2016; Steev Klimaszewski <steev@gentoo.org>
+  gentoo-systemd-integration-5.ebuild, gentoo-systemd-integration-9999.ebuild:
+  Add ~arm64 keyword
+
+  Package-Manager: portage-2.2.28
+

@@ -49,3 +49,9 @@
   ends up autodetecting the wrong thing.  Disable it until upstream can
   do something sane for us.
 
+  14 Mar 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  crossguid-0_pre20150817.ebuild:
+  added ~arm (tested on RPi 2)
+
+  Package-Manager: portage-2.2.28
+

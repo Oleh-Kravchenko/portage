@@ -121,3 +121,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  14 Mar 2016; Fabian Groffen <grobian@gentoo.org>
+  Exporter-Tiny-0.42.0.ebuild:
+  added Prefix keywords, bug #543632
+
+  Package-Manager: portage-2.2.27-prefix
+

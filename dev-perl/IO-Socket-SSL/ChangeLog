@@ -136,3 +136,10 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> IO-Socket-SSL-2.24.0.ebuild:
+  alpha/arm/hppa/ia64/ppc64/ppc/sparc/x86 stable, (ALLARCHES policy) wrt bug
+  #576386
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

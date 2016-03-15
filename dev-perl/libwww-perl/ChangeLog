@@ -72,3 +72,10 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> libwww-perl-6.150.0.ebuild:
+  alpha/amd64/arm/hppa/ia64/ppc64/ppc/sparc/x86 stable, (ALLARCHES policy) wrt
+  bug #577108
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

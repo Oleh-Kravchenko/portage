@@ -887,3 +887,30 @@
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Ian Delaney <idella4@gentoo.org> mpv-9999.ebuild:
+  initial Mac OS X support in 9999 wrt bug 577332
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=577332
+  Closes: https://github.com/gentoo/gentoo/pull/1043
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1043
+
+*mpv-0.16.0-r2 (14 Mar 2016)
+
+  14 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  +files/mpv-0.16.0-add-missing-audio-reconfig-events.patch,
+  -mpv-0.16.0-r1.ebuild, +mpv-0.16.0-r2.ebuild:
+  revbump to 0.16.0-r2 to backport another regression fix
+
+  Backport one more fix [1] for two regressions reported upstream [2,3].
+  Hopefully it's the final revbump unless something critical pops up.
+
+  [1]: https://github.com/mpv-player/mpv/commit/c13c9945
+  [2]: https://github.com/mpv-player/mpv/issues/2920
+  [3]: https://github.com/mpv-player/mpv/issues/2929
+
+  Closes: https://github.com/gentoo/gentoo/pull/1046
+
+  Package-Manager: portage-2.2.28
+

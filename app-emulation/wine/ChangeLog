@@ -350,3 +350,9 @@
 
   Package-Manager: portage-2.2.26
 
+  14 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> files/pr69140.c,
+  wine-1.9.5.ebuild, wine-9999.ebuild:
+  Update gcc 5.3 test case. #577306. Thanks to Bob Wya
+
+  Package-Manager: portage-2.2.26
+

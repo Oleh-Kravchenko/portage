@@ -342,3 +342,12 @@
 
   Package-Manager: portage-2.2.28_p57
 
+  14 Mar 2016; Steev Klimaszewski <steev@gentoo.org> systemd-229.ebuild,
+  systemd-229-r100.ebuild, systemd-9999.ebuild:
+  Add ~arm64 keyword
+
+  The systemd useflag is still masked in the profile, so for now you need to
+  unmask it manually.
+
+  Package-Manager: portage-2.2.28
+

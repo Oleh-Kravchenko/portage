@@ -96,3 +96,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> auctex-11.89.ebuild:
+  arm/ppc/ppc64/x86 stable, (ALLARCHES policy) wrt bug #576508
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

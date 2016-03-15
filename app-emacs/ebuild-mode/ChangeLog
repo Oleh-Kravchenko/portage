@@ -138,3 +138,14 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> ebuild-mode-1.29.ebuild:
+  ia64/ppc/sparc stable, (ALLARCHES policy) wrt bug #573494
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  14 Mar 2016; Ulrich Müller <ulm@gentoo.org> -ebuild-mode-1.28.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.2.28
+

@@ -94,3 +94,13 @@
 
   Package-Manager: portage-2.2.20-prefix
 
+  14 Mar 2016; Hans de Graaff <graaff@gentoo.org> thread_order-1.1.0.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.2.26
+
+  14 Mar 2016; Hans de Graaff <graaff@gentoo.org> thread_order-1.1.0.ebuild:
+  add ruby23
+
+  Package-Manager: portage-2.2.26
+

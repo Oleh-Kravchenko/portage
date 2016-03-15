@@ -91,3 +91,14 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; James Le Cuirot <chewi@gentoo.org> trang-20151127.ebuild:
+  20151127 stable on amd64 and x86 using ALLARCHES
+
+  Package-Manager: portage-2.2.28
+
+  14 Mar 2016; James Le Cuirot <chewi@gentoo.org> -files/build.xml,
+  -trang-20091111.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

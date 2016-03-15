@@ -62,3 +62,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*genpy-0.5.8 (14 Mar 2016)
+
+  14 Mar 2016; Alexis Ballier <aballier@gentoo.org> +genpy-0.5.8.ebuild:
+  bump to 0.5.8
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

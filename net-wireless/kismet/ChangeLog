@@ -65,3 +65,39 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*kismet-2016.01.1 (14 Mar 2016)
+
+  14 Mar 2016; Zero_Chaos <zerochaos@gentoo.org> +kismet-2016.01.1.ebuild,
+  kismet-9999.ebuild:
+  bump version to latest
+
+  Package-Manager: portage-2.2.27
+
+  14 Mar 2016; Zero_Chaos <zerochaos@gentoo.org> kismet-2016.01.1.ebuild,
+  kismet-9999.ebuild:
+  fix repoman warnings
+
+  Package-Manager: portage-2.2.27
+
+  14 Mar 2016; Zero_Chaos <zerochaos@gentoo.org>
+  +files/kismet-2016.01.1-tinfo.patch, kismet-2016.01.1.ebuild:
+  add tinfo patch to 2016.01.1
+
+  Package-Manager: portage-2.2.27
+
+  14 Mar 2016; Zero_Chaos <zerochaos@gentoo.org> kismet-2016.01.1.ebuild:
+  ugh, fix tinfo right
+
+  Package-Manager: portage-2.2.27
+
+  14 Mar 2016; Zero_Chaos <zerochaos@gentoo.org> kismet-2016.01.1.ebuild:
+  but seriously, fix tinfo
+
+  Package-Manager: portage-2.2.27
+
+  14 Mar 2016; Zero_Chaos <zerochaos@gentoo.org> kismet-2016.01.1.ebuild:
+  aclocal doesn't work in this release which breaks the tinfo fix :-( working
+  on it
+
+  Package-Manager: portage-2.2.27
+

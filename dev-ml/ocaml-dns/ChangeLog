@@ -44,3 +44,11 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+*ocaml-dns-0.18.0 (14 Mar 2016)
+
+  14 Mar 2016; Alexis Ballier <aballier@gentoo.org> +ocaml-dns-0.18.0.ebuild:
+  bump to 1.18.0
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

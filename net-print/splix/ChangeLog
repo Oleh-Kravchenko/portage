@@ -78,3 +78,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  14 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  splix-2.0.0_p20130826.ebuild:
+  fix URL for fetching, bug #577082
+
+  Package-Manager: portage-2.2.28
+

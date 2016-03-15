@@ -90,3 +90,22 @@
   Package maintainers will likely want to cleanup various things for this
   experimental USE flag.
 
+*irssi-0.8.18 (13 Mar 2016)
+
+  13 Mar 2016; Sven Wegener <swegener@gentoo.org> +irssi-0.8.18.ebuild:
+  Version bump, bug #577336
+
+  This also enables true color support for bug #552510.
+
+  Package-Manager: portage-2.2.26
+
+  13 Mar 2016; Sven Wegener <swegener@gentoo.org> irssi-9999.ebuild:
+  Update live ebuild
+
+  Package-Manager: portage-2.2.26
+
+  13 Mar 2016; Sven Wegener <swegener@gentoo.org> irssi-9999.ebuild:
+  Remove ipv6 USE flag from live ebuild
+
+  Package-Manager: portage-2.2.26
+

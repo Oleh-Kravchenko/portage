@@ -82,3 +82,24 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  14 Mar 2016; Nicholas Vinson <nvinson234@gmail.com> metadata.xml:
+  Updating metadata
+
+  Updating metatdata to remove Sławomir Nizio as the maintainer and to add
+  myself as the proxy maintainer.
+
+  Package-Manager: portage-2.2.28
+
+*ufw-0.35 (14 Mar 2016)
+
+  14 Mar 2016; Nicholas Vinson <nvinson234@gmail.com>
+  +files/ufw-0.35-bash-completion.patch, +files/ufw-0.35-move-path.patch,
+  +ufw-0.35.ebuild:
+  version bump to 0.35
+
+  Updates ufw to version 0.35.  The ebuild has also been updated to use EAPI
+  6.  Patches were updated to address EAPI and upstream code changes.
+
+  Gentoo-Bug: 563168
+  Package-Manager: portage-2.2.28
+

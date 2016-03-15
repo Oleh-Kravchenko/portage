@@ -79,3 +79,18 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Hans de Graaff <graaff@gentoo.org> allison-2.0.3-r3.ebuild:
+  add ruby23
+
+  Package-Manager: portage-2.2.26
+
+  14 Mar 2016; Hans de Graaff <graaff@gentoo.org> allison-2.0.3-r3.ebuild:
+  mark ruby21 revision stable
+
+  Package-Manager: portage-2.2.26
+
+  14 Mar 2016; Hans de Graaff <graaff@gentoo.org> -allison-2.0.3-r2.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+

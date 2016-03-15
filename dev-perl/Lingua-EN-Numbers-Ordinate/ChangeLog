@@ -75,3 +75,10 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  Lingua-EN-Numbers-Ordinate-1.40.0.ebuild:
+  alpha/amd64/ia64/ppc/sparc/x86 stable, (ALLARCHES policy) wrt bug #577166
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

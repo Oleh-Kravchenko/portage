@@ -74,3 +74,10 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  Lingua-PT-Stemmer-0.20.0.ebuild:
+  amd64/ia64/sparc/x86 stable, (ALLARCHES policy) wrt bug #577168
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

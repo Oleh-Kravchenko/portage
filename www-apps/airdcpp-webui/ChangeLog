@@ -10,3 +10,17 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Ian Delaney <idella4@gentoo.org> airdcpp-webui-0.16.2.ebuild:
+  DEPEND on compatible versions of airdcpp-webclient
+
+  Package-Manager: portage-2.2.27
+  Closes: https://github.com/gentoo/gentoo/pull/1047
+
+*airdcpp-webui-1.0.0 (14 Mar 2016)
+
+  14 Mar 2016; Ian Delaney <idella4@gentoo.org> +airdcpp-webui-1.0.0.ebuild:
+  bump to 1.0.0
+
+  Package-Manager: portage-2.2.27
+  Closes: https://github.com/gentoo/gentoo/pull/1047
+

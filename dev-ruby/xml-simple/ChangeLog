@@ -77,3 +77,8 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Hans de Graaff <graaff@gentoo.org> xml-simple-1.1.5.ebuild:
+  add ruby23
+
+  Package-Manager: portage-2.2.26
+

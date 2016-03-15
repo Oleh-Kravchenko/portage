@@ -112,3 +112,16 @@
 
   Package-Manager: portage-2.2.27_p64
 
+  14 Mar 2016; Ian Stakenvicius <axs@gentoo.org> libvpx-1.5.0.ebuild,
+  metadata.xml:
+  added USE=svc to 1.5.0 to expose experimental spatial-svc support
+
+  Spatial-svc support is needed to allow chromium-49 and firefox-46 and above
+  to use system libvpx.
+  Note that libvpx-1.3.0 seems to already expose this, however libvpx-1.4.0
+  fails to build.
+
+  Committed with a nod from floppym
+
+  Package-Manager: portage-2.2.26
+

@@ -85,3 +85,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*spectools-2016.01.1 (14 Mar 2016)
+
+  14 Mar 2016; Zero_Chaos <zerochaos@gentoo.org> +spectools-2016.01.1.ebuild,
+  spectools-9999.ebuild:
+  bump to 2016.01.1
+
+  Package-Manager: portage-2.2.27
+

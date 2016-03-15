@@ -550,3 +550,29 @@
 
   Package-Manager: portage-2.2.26
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> firefox-38.7.0.ebuild:
+  amd64 stable wrt bug #576862
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> firefox-38.7.0.ebuild:
+  x86 stable wrt bug #576862
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  14 Mar 2016; Ian Stakenvicius <axs@gentoo.org> firefox-45.0.ebuild:
+  45.0: fix runtime crashes when built with USE=-jit
+
+  Addressed the issue by adding ppc{,64} and x86{,_64} specific platform
+  header
+  definitions to nonejit instead of using the MOZ_CRASH-enforcing stub.
+
+  Upstream bug: https://bugzilla.mozilla.org/1253216
+  Bug: http://bugs.gentoo.org/576922
+
+  Package-Manager: portage-2.2.26
+

@@ -137,3 +137,8 @@
 
   Package-Manager: portage-2.2.26
 
+  14 Mar 2016; Zero_Chaos <zerochaos@gentoo.org> rake-compiler-0.9.6.ebuild:
+  adding tested ruby23 support
+
+  Package-Manager: portage-2.2.27
+

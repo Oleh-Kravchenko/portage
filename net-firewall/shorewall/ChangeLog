@@ -241,3 +241,9 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> shorewall-5.0.2.1.ebuild:
+  ppc/ppc64/sparc stable, (ALLARCHES policy) wrt bug #573216
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

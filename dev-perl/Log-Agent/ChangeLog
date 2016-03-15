@@ -78,3 +78,10 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> Log-Agent-1.1.0.ebuild:
+  alpha/amd64/arm/hppa/ia64/ppc64/ppc/sparc/x86 stable, (ALLARCHES policy) wrt
+  bug #577230
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

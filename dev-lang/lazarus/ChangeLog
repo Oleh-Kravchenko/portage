@@ -90,3 +90,11 @@
 
   Package-Manager: portage-2.2.26
 
+*lazarus-1.6.0-r1 (14 Mar 2016)
+
+  14 Mar 2016; Amy Winston <amynka@gentoo.org> -lazarus-1.6.0.ebuild,
+  +lazarus-1.6.0-r1.ebuild:
+  dep for fpc changed bug #575636 and ppc dropped
+
+  Package-Manager: portage-2.2.26
+

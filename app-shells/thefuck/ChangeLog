@@ -29,3 +29,15 @@
 
   Package-Manager: portage-2.2.28
 
+*thefuck-3.6 (14 Mar 2016)
+
+  14 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +thefuck-3.6.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+
+  14 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -thefuck-3.5.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

@@ -121,3 +121,8 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  14 Mar 2016; Pacho Ramos <pacho@gentoo.org> dbus-1.10.6.ebuild:
+  Revert stabilization as this adds multiple regressions (#576028)
+
+  Package-Manager: portage-2.2.28
+

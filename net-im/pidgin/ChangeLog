@@ -113,3 +113,18 @@
 
   Package-Manager: portage-2.2.27
 
+*pidgin-2.10.12-r2 (14 Mar 2016)
+
+  14 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +pidgin-2.10.12-r2.ebuild:
+  Revbump to add irc join delay patch (bug #577286).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  14 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -pidgin-2.10.12.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

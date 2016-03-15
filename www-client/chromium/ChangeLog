@@ -795,3 +795,11 @@
 
   Package-Manager: portage-2.2.27_p81
 
+  13 Mar 2016; Mike Gilbert <floppym@gentoo.org> chromium-49.0.2623.87.ebuild,
+  chromium-49.0.2623.87-r1.ebuild:
+  Check for python deps in host root
+
+  Bug: https://bugs.gentoo.org/577340
+
+  Package-Manager: portage-2.2.28_p57
+
