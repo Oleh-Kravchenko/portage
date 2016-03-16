@@ -105,3 +105,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*criu-2.0 (15 Mar 2016)
+
+  15 Mar 2016; Yixun Lan <dlan@gentoo.org> +criu-2.0.ebuild,
+  +files/2.0/criu-2.0-automagic-libbsd.patch, +files/2.0/criu-2.0-flags.patch,
+  +files/2.0/criu-2.0-makefile.patch:
+  version bump 2.0
+
+  Package-Manager: portage-2.2.27
+

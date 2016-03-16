@@ -69,3 +69,9 @@
 
   Bug: 575810
 
+  15 Mar 2016; Markus Meier <maekke@gentoo.org> libfaketime-0.9.6-r1.ebuild:
+  add ~arm, bug #577008
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

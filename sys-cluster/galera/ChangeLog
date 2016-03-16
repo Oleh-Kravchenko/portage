@@ -134,3 +134,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*galera-25.3.14 (15 Mar 2016)
+
+  15 Mar 2016; Brian Evans <grknight@gentoo.org> +galera-25.3.14.ebuild:
+  Version bump to 25.3.14
+
+  Bump to EAPI 6
+  Force SSL as the build is broken without it
+
+  Package-Manager: portage-2.2.28
+

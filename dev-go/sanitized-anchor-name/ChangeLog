@@ -29,3 +29,17 @@
 
   Package-Manager: portage-2.2.27
 
+*sanitized-anchor-name-0_pre20151027 (14 Mar 2016)
+
+  14 Mar 2016; William Hubbs <williamh@gentoo.org>
+  +sanitized-anchor-name-0_pre20151027.ebuild:
+  new snapshot
+
+  Package-Manager: portage-2.2.26
+
+  14 Mar 2016; William Hubbs <williamh@gentoo.org>
+  sanitized-anchor-name-9999.ebuild:
+  sync live ebuild
+
+  Package-Manager: portage-2.2.26
+

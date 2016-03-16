@@ -134,3 +134,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*man-pages-4.05 (15 Mar 2016)
+
+  15 Mar 2016; Anthony G. Basile <blueness@gentoo.org> +man-pages-4.05.ebuild:
+  version bump to 4.05
+
+  Package-Manager: portage-2.2.26
+
+  15 Mar 2016; Anthony G. Basile <blueness@gentoo.org> man-pages-4.04.ebuild:
+  stabilize 4.04
+
+  Package-Manager: portage-2.2.26
+

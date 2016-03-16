@@ -116,3 +116,19 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Mar 2016; Michael Weber <xmw@gentoo.org>
+  -raspberrypi-image-4.0.4_pre-r20150523.ebuild,
+  -raspberrypi-image-4.1.17_pre-r20160209.ebuild,
+  -raspberrypi-image-4.4.1_pre-r20160209.ebuild:
+  Drop old.
+
+  Package-Manager: portage-2.2.28
+
+*raspberrypi-image-4.1.19_p20160309 (15 Mar 2016)
+
+  15 Mar 2016; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-4.1.19_p20160309.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+

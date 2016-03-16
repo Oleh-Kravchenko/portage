@@ -91,3 +91,17 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Patrice Clement <monsieurp@gentoo.org> bsh-2.0_beta6.ebuild:
+  Stable for ppc64+x86. Fixes security bug 575482.
+
+  As per IRC discussion with Agostino.
+
+  Package-Manager: portage-2.2.26
+
+  15 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -bsh-2.0_beta4-r4.ebuild, -files/bsh2-readline.patch,
+  -files/bsh2.0b4-build.patch:
+  Clean up vulnerable version. Fixes security bug 575482.
+
+  Package-Manager: portage-2.2.26
+

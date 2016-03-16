@@ -277,3 +277,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> eselect-php-0.9.1.ebuild:
+  x86 stable wrt bug #577376
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -331,3 +331,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> phpmyadmin-4.0.10.14.ebuild,
+  phpmyadmin-4.4.15.4.ebuild, phpmyadmin-4.5.4.1.ebuild:
+  x86 stable wrt bug #573286
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

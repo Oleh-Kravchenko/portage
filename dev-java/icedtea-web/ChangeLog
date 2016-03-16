@@ -135,3 +135,8 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org> icedtea-web-1.6.1-r1.ebuild:
+  1.6.1-r1 stable on ppc64 (tested by ago)
+
+  Package-Manager: portage-2.2.28
+

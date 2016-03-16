@@ -66,3 +66,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  xfce4-radio-plugin-0.5.1-r1.ebuild:
+  x86 stable wrt bug #524898
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

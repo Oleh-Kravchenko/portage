@@ -87,3 +87,11 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org> -bt747-2.0.3.ebuild:
+  Remove old
+
+  This drops the only stable version but we have to in order to kill off
+  Java 6. The new version should get stabilised soon.
+
+  Package-Manager: portage-2.2.27
+

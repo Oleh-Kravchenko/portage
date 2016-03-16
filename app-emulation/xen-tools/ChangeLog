@@ -413,3 +413,29 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> xen-tools-4.5.2-r5.ebuild,
+  xen-tools-4.6.0-r9.ebuild:
+  amd64 stable wrt bug #574012
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> xen-tools-4.5.2-r5.ebuild,
+  xen-tools-4.6.0-r9.ebuild:
+  x86 stable wrt bug #574012
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Ian Delaney <idella4@gentoo.org> -xen-tools-4.5.2-r4.ebuild,
+  -xen-tools-4.6.0-r7.ebuild, -xen-tools-4.6.0-r8.ebuild:
+  clean old vulnerable vns.
+
+  wrt the gentoo security bug
+
+  Gentoo bug: #574012
+
+  Package-Manager: portage-2.2.26
+

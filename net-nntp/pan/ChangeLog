@@ -92,3 +92,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pan-0.139-r2 (11 Mar 2016)
+
+  11 Mar 2016; PPed72 <paolo.pedroni@iol.it>
+  +files/pan-0.139-r2-fix_crash_at_startup.patch, +pan-0.139-r2.ebuild:
+  fix crash at startup
+
+  Gentoo bug #570108
+

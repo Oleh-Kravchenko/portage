@@ -128,3 +128,17 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Mar 2016; Patrice Clement <monsieurp@gentoo.org> groovy-2.4.5.ebuild:
+  Stable for ppc64+x86. Fixes security bug 555470.
+
+  As per IRC discussion with Agostino.
+
+  Package-Manager: portage-2.2.26
+
+  15 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/groovy-1.8-build-pref-locking-fix.patch, -groovy-1.7.5.ebuild,
+  -groovy-1.8.5-r1.ebuild:
+  Clean up vulnerable versions. Fixes security bug 555470.
+
+  Package-Manager: portage-2.2.26
+

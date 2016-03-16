@@ -131,3 +131,12 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Mar 2016; Mike Frysinger <vapier@gentoo.org> cronbase-0.3.7-r1.ebuild:
+  mark arm64/ia64/m68k/s390/sh/sparc stable #571134
+
+  15 Mar 2016; Mike Frysinger <vapier@gentoo.org> -cronbase-0.3.3.ebuild,
+  -cronbase-0.3.4.ebuild, -cronbase-0.3.5-r1.ebuild, -cronbase-0.3.6.ebuild,
+  -files/run-crons-0.3.3, -files/run-crons-0.3.4, -files/run-crons-0.3.5,
+  -files/run-crons-0.3.6:
+  drop old <0.3.7 versions
+

@@ -88,3 +88,8 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  fix typo in metadata.xml
+
+  Package-Manager: portage-2.2.26
+

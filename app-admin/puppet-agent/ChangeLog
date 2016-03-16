@@ -191,3 +191,32 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*puppet-agent-1.3.6 (15 Mar 2016)
+
+  15 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +puppet-agent-1.3.6.ebuild:
+  bump for bundled ossl
+
+  Package-Manager: portage-2.2.26
+
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> puppet-agent-1.3.6.ebuild:
+  amd64 stable wrt bug #577450
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> puppet-agent-1.3.6.ebuild:
+  x86 stable wrt bug #577450
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> puppet-agent-1.3.4.ebuild:
+  x86 stable wrt bug #575604
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

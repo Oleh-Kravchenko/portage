@@ -70,3 +70,9 @@
 
   Package-Manager: portage-2.2.28
 
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> metadata.xml,
+  xkbset-0.5-r1.ebuild:
+  Fix dependency on dev-perl/Tk
+
+  Package-Manager: portage-2.2.27
+

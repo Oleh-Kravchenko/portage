@@ -175,3 +175,12 @@
   Package-Manager: portage-2.2.28
   Closes: https://github.com/gentoo/gentoo/pull/1034
 
+  14 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  rsyslog-8.16.0-r1.ebuild:
+  Remove elibtoolize call.
+
+  No need to manually call elibtoolize, eautoreconf already does it.
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1048
+

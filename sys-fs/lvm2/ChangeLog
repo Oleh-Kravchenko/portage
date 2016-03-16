@@ -282,3 +282,37 @@
 
   Package-Manager: portage-2.2.27
 
+*lvm2-2.02.145-r2 (15 Mar 2016)
+*lvm2-2.02.139-r1 (15 Mar 2016)
+*lvm2-2.02.136-r2 (15 Mar 2016)
+*lvm2-2.02.116-r6 (15 Mar 2016)
+
+  15 Mar 2016; Doug Goldstein <cardoe@gentoo.org> +files/lvm.rc-2.02.116-r6,
+  +lvm2-2.02.116-r6.ebuild, +lvm2-2.02.136-r2.ebuild,
+  +lvm2-2.02.139-r1.ebuild, +lvm2-2.02.145-r2.ebuild:
+  make depend() in lvm init script quiet
+
+  The depend() function makes a call to lvm which can produce output on
+  stderr which might seem concerning to some but is really just harmless.
+  We are checking to see if we need lvmetad to be able to start up properly.
+  At the same time make sure all possible versions receive updated init
+  scripts.
+
+  Gentoo-Bug: 577308
+  Gentoo-Bug: 573384
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  15 Mar 2016; Doug Goldstein <cardoe@gentoo.org> lvm2-2.02.136-r2.ebuild,
+  lvm2-2.02.139-r1.ebuild, lvm2-2.02.145-r2.ebuild:
+  fix issue building with USE=systemd
+
+  When building with USE=systemd, we need to pull it in since it is built
+  against.
+
+  Gentoo-Bug: 570788
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

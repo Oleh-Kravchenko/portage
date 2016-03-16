@@ -93,3 +93,7 @@
   -gpm-1.20.6-r1.ebuild, -gpm-1.20.7.ebuild, -gpm-1.20.7-r1.ebuild:
   delete old <1.20.7-r2 versions
 
+  15 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/gpm-1.20.7-sysmacros.patch, gpm-1.20.7-r2.ebuild:
+  fix build w/newer glibc
+

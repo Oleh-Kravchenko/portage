@@ -82,3 +82,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*kwave-0.9.1-r1 (15 Mar 2016)
+
+  15 Mar 2016; Johannes Huber <johu@gentoo.org> +files/kwave-0.9.1-deps.patch,
+  +files/kwave-0.9.1-qtmedia.patch, +kwave-0.9.1-r1.ebuild, metadata.xml:
+  Version bump 0.9.1
+
+  Import from kde overlay. Thanks to Andreas Sturmlechner
+  <andreas.sturmlechner@gmail.com>.
+
+  Gentoo-bug: 575808
+  Reported-by: Thomas <Thomas.Eschenbacher@gmx.de>
+
+  Package-Manager: portage-2.2.28
+

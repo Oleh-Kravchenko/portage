@@ -209,3 +209,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*seamonkey-2.40 (15 Mar 2016)
+
+  15 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -seamonkey-2.40_pre4.ebuild, +seamonkey-2.40.ebuild:
+  Bump to version 2.40
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

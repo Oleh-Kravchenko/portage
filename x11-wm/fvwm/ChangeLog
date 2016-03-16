@@ -73,3 +73,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> fvwm-2.6.5-r1.ebuild:
+  Fix dependency on dev-perl/Tk
+
+  Package-Manager: portage-2.2.27
+

@@ -16,3 +16,12 @@
 
   Package-Manager: portage-2.2.27
 
+*raspberrypi-userland-bin-1.20160309 (15 Mar 2016)
+
+  15 Mar 2016; Michael Weber <xmw@gentoo.org>
+  raspberrypi-userland-bin-1.20160209.ebuild,
+  +raspberrypi-userland-bin-1.20160309.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+

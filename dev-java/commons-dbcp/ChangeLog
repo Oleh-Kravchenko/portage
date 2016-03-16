@@ -69,3 +69,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org> -commons-dbcp-1.4-r2.ebuild:
+  Remove old
+
+  This allows us to kill off Java 6.
+
+  Package-Manager: portage-2.2.27
+

@@ -63,3 +63,11 @@
 
   Package-Manager: portage-2.2.27
 
+*sispmctl-4.0 (15 Mar 2016)
+
+  15 Mar 2016; Wolfram Schlich <wschlich@gentoo.org> +sispmctl-4.0.ebuild:
+  version bump. add sispmctl group and udev rules for user device write
+  access.
+
+  Package-Manager: portage-2.2.28
+

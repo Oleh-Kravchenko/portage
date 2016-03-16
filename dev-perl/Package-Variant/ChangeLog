@@ -63,3 +63,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Package-Variant-1.3.2 (14 Mar 2016)
+
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Package-Variant-1.3.2.ebuild:
+  Bump to version 1.3.2
+
+  - EAPI6
+
+  Upstream:
+  - build_variant method added to packages
+  - Fix scope leaks
+  - strictures 2.0 usage.
+  - make_variant_package_name now optional
+
+  Package-Manager: portage-2.2.27
+

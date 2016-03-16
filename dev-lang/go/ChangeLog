@@ -292,3 +292,18 @@
 
   Package-Manager: portage-2.2.26
 
+  14 Mar 2016; William Hubbs <williamh@gentoo.org> go-1.6-r2.ebuild:
+  add ~x86 keyword to 1.6-r2 for #575510
+
+  Package-Manager: portage-2.2.26
+
+  14 Mar 2016; William Hubbs <williamh@gentoo.org> go-1.6-r2.ebuild:
+  move 1.6-r2 to amd64 stable for #577434
+
+  Package-Manager: portage-2.2.26
+
+  14 Mar 2016; William Hubbs <williamh@gentoo.org> go-1.6-r2.ebuild:
+  move 1.6-r2 to x86 for #577434
+
+  Package-Manager: portage-2.2.26
+

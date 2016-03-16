@@ -186,3 +186,17 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> putty-0.67.ebuild:
+  x86 stable wrt bug #576524
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Tobias Klausmann <klausman@gentoo.org> putty-0.67.ebuild:
+  0.67-r0: add alpha keyword
+
+  Gentoo-Bug: 576524
+
+  Package-Manager: portage-2.2.28
+

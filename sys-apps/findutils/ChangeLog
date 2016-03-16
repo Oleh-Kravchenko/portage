@@ -158,3 +158,10 @@
   +files/findutils-4.6.0-gnulib-mb.patch, findutils-4.6.0.ebuild:
   add upstream gnulib fix #576818
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> findutils-4.6.0.ebuild:
+  x86 stable wrt bug #576010
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

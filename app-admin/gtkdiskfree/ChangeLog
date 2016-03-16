@@ -82,3 +82,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gtkdiskfree-2.0.2 (15 Mar 2016)
+
+  15 Mar 2016; Michael Weber <xmw@gentoo.org> +gtkdiskfree-2.0.2.ebuild,
+  metadata.xml:
+  Version bump (thanks Samuel BAUER, bug 575962)
+
+  Package-Manager: portage-2.2.27
+

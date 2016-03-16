@@ -126,3 +126,10 @@
 
   Package-Manager: portage-2.2.28
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> dbus-1.10.6.ebuild:
+  amd64 stable wrt bug #576028
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -134,3 +134,9 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Markus Meier <maekke@gentoo.org> sprockets-3.5.2.ebuild:
+  add ~arm, bug #576666
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

@@ -344,3 +344,9 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org>
+  icedtea-bin-3.0.0_pre09-r1.ebuild:
+  3.0.0_pre09-r1 stable on ppc64 (tested by ago)
+
+  Package-Manager: portage-2.2.28
+

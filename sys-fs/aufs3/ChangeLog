@@ -191,3 +191,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> aufs3-3_p20160219.ebuild:
+  x86 stable wrt bug #575122
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

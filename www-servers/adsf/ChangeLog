@@ -17,3 +17,12 @@
 
   Package-Manager: portage-2.2.27
 
+*adsf-1.2.1 (15 Mar 2016)
+
+  15 Mar 2016; Hans de Graaff <graaff@gentoo.org> +adsf-1.2.1.ebuild:
+  add 1.2.1
+
+  Add missing test dependency on dev-ruby/rack-test.
+
+  Package-Manager: portage-2.2.26
+

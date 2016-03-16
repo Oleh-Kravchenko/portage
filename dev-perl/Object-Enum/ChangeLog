@@ -63,3 +63,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Object-Enum-0.75.0 (14 Mar 2016)
+
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Object-Enum-0.75.0.ebuild:
+  Bump to version 0.75.0
+
+  - EAPI6
+  - File + Test Cleanup
+  - Fix inverted dependencies
+
+  Upstream:
+  - Adds "readonly" and "clone" support.
+
+  Package-Manager: portage-2.2.27
+
+  dev-perl/Object-Enum: Fixup
+
+  Package-Manager: portage-2.2.27
+

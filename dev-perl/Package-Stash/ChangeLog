@@ -74,3 +74,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Package-Stash-0.370.0 (14 Mar 2016)
+
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Package-Stash-0.370.0.ebuild:
+  Bump to version 0.370.0
+
+  - EAPI6
+  - Make XS Optional
+
+  Upstream:
+  - Removed spurious warning under taint
+
+  Package-Manager: portage-2.2.27
+

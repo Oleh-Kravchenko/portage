@@ -155,3 +155,14 @@
 
   Package-Manager: portage-2.2.27
 
+*gnome-shell-3.18.4-r1 (14 Mar 2016)
+
+  14 Mar 2016; Ole Reifschneider <tranquility@gentoo.org>
+  +files/gnome-shell-3.18-fix-crash.patch, +gnome-shell-3.18.4-r1.ebuild:
+  Fix crash after enabling vpn
+
+  Upstream fixed it in 3.19.x but did did not push the
+  fix to the stable branch so we need to patch it ourselves.
+
+  Package-Manager: portage-2.2.27
+

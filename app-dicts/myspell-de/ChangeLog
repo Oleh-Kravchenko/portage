@@ -82,3 +82,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> myspell-de-2015.12.28.ebuild:
+  x86 stable wrt bug #575008
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Markus Meier <maekke@gentoo.org> myspell-de-2015.12.28.ebuild:
+  arm stable, bug #575008
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

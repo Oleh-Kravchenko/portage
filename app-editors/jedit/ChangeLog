@@ -77,3 +77,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*jedit-5.2.0-r1 (15 Mar 2016)
+
+  15 Mar 2016; Patrice Clement <monsieurp@gentoo.org> -jedit-5.0.0.ebuild,
+  -jedit-5.2.0.ebuild, +jedit-5.2.0-r1.ebuild:
+  Remove bsf USE flag.
+
+  Package-Manager: portage-2.2.26
+
+  15 Mar 2016; Patrice Clement <monsieurp@gentoo.org> jedit-5.2.0-r1.ebuild:
+  Stable for amd64. Retroactively mark stable for the remaining arches using
+  the ALLARCHES policy.
+
+  Package-Manager: portage-2.2.26
+

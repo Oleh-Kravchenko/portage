@@ -79,3 +79,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  15 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  ut2004-hamsterbash-1.ebuild:
+  stable for amd64 and x86
+
+  Package-Manager: portage-2.2.26
+

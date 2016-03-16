@@ -83,3 +83,11 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org>
+  -files/jtds-1.2.5-build.xml.patch, -jtds-1.2.5-r1.ebuild:
+  Remove old
+
+  This allows us to kill off Java 6.
+
+  Package-Manager: portage-2.2.27
+

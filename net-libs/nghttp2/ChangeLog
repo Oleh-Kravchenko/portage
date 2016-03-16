@@ -244,3 +244,17 @@
   07 Mar 2016; Mike Frysinger <vapier@gentoo.org> +nghttp2-1.8.0.ebuild:
   version bump to 1.8.0 #576562
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> nghttp2-1.7.1.ebuild:
+  x86 stable wrt bug #574780
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Tobias Klausmann <klausman@gentoo.org> nghttp2-1.7.1.ebuild:
+  1.7.1-r0: add alpha keyword
+
+  Gentoo-Bug: 574780
+
+  Package-Manager: portage-2.2.28
+

@@ -80,3 +80,12 @@
 
   Package-Manager: portage-2.2.28
 
+*tex4ht-20090611_p1038-r4 (15 Mar 2016)
+
+  15 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  +tex4ht-20090611_p1038-r4.ebuild:
+  Grab texmf updates from texlive. Fixes bug #577436.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

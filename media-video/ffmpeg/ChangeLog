@@ -465,3 +465,17 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> ffmpeg-2.8.6.ebuild:
+  amd64 stable wrt bug #577458
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> ffmpeg-2.8.6.ebuild:
+  x86 stable wrt bug #577458
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

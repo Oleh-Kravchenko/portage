@@ -74,3 +74,9 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> xmltv-0.5.57.ebuild,
+  xmltv-0.5.67.ebuild:
+  Fix dependency on dev-perl/Tk
+
+  Package-Manager: portage-2.2.27
+

@@ -114,3 +114,17 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org>
+  iso-relax-20050331-r4.ebuild:
+  Stable on amd64, ppc64, x86 using ALLARCHES
+
+  A little early because of the push to remove Java 6.
+
+  Package-Manager: portage-2.2.28
+
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org> -files/build.xml,
+  -iso-relax-20050331-r3.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

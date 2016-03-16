@@ -205,3 +205,26 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> lastpass-cli-0.8.1.ebuild:
+  amd64 stable wrt bug #576426
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> lastpass-cli-0.8.1.ebuild:
+  x86 stable wrt bug #576426
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -lastpass-cli-0.6.1.ebuild, -lastpass-cli-0.7.2.ebuild:
+  drop old version 0.6.1 and 0.7.2
+
+  Version 0.8.1 is stable per #576426
+
+  Package-Manager: portage-2.2.26
+  Closes: https://github.com/gentoo/gentoo/pull/1058
+

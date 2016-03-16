@@ -23,3 +23,9 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Markus Meier <maekke@gentoo.org> concurrent-ruby-1.0.1.ebuild:
+  add ~arm, bug #576666
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

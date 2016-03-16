@@ -108,3 +108,10 @@
 
   Package-Manager: portage-2.2.26
 
+  14 Mar 2016; Agostino Sarubbo <ago@gentoo.org> tomenet-4.6.1a.ebuild:
+  amd64 stable wrt bug #577208
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

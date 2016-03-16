@@ -273,3 +273,7 @@
   12 Mar 2016; Mike Frysinger <vapier@gentoo.org> gcc-4.9.3.ebuild:
   mark 4.9.3 sparc stable #561844
 
+  15 Mar 2016; Mike Frysinger <vapier@gentoo.org> gcc-4.9.3.ebuild,
+  gcc-5.3.0.ebuild:
+  toolchain.eclass: use versioned SLOT all the time
+

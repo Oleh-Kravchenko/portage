@@ -88,3 +88,10 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> pnp4nagios-0.6.25-r2.ebuild:
+  amd64 stable wrt bug #548968
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

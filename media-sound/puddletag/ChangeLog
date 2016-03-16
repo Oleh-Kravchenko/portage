@@ -85,3 +85,11 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Daniel Pielmeier <billie@gentoo.org> puddletag-1.0.5.ebuild,
+  puddletag-1.1.1.ebuild:
+  Fix homepage.
+
+  This fixes bug #576740. Thanks to Jan Chren (rindeal) for the report.
+
+  Package-Manager: portage-2.2.26
+

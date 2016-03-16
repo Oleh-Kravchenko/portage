@@ -133,3 +133,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*R-3.2.4 (15 Mar 2016)
+
+  15 Mar 2016; Denis Dupeyron <calchan@gentoo.org> +R-3.2.4.ebuild:
+  bump to 3.2.4
+

@@ -65,3 +65,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  python-xlib-0.15_rc1-r2.ebuild:
+  amd64 stable wrt bug #574628
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  python-xlib-0.15_rc1-r2.ebuild:
+  x86 stable wrt bug #574628
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

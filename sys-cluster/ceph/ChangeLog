@@ -179,3 +179,16 @@
 
   Package-Manager: portage-2.2.27
 
+*ceph-10.0.2 (15 Mar 2016)
+*ceph-9.2.1 (15 Mar 2016)
+*ceph-0.94.6 (15 Mar 2016)
+
+  15 Mar 2016; Yixun Lan <dlan@gentoo.org> +ceph-0.94.6.ebuild,
+  +ceph-9.2.1.ebuild, +ceph-10.0.2.ebuild:
+  version bump
+
+  0.94.6, 9.2.1 nothing new
+  10.0.2 add cython dependency, explicitly enable eventfd
+
+  Package-Manager: portage-2.2.27
+

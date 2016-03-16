@@ -78,3 +78,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*merkaartor-0.18.2 (14 Mar 2016)
+
+  14 Mar 2016; Sam Jorna <wraeth@wraeth.id.au>
+  +files/merkaartor-0.18.2-fix-qtgui-include.patch,
+  +files/merkaartor-0.18.2-geoimagedock.patch,
+  +files/merkaartor-0.18.2-gpsdata-handling-gpsd-3.12.patch,
+  +merkaartor-0.18.2.ebuild:
+  bump to 0.18.2
+
+  Bump to version 0.18.2, add conditional support for qt5, add
+  REQUIRED_USE, fix build system expecting to build from git, fix
+  installation paths, fix broken includes. Original ebuild based on
+  0.18.1-r1 by Malte E. per bug.
+
+  Gentoo-bug: 555362
+  Package-Manager: portage-2.2.28
+

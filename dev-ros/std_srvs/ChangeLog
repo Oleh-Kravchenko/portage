@@ -47,3 +47,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*std_srvs-1.11.2 (15 Mar 2016)
+
+  15 Mar 2016; Alexis Ballier <aballier@gentoo.org> +std_srvs-1.11.2.ebuild:
+  bump to 1.11.2
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

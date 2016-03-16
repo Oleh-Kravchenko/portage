@@ -92,3 +92,10 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> IO-AIO-4.330.0.ebuild:
+  x86 stable wrt bug #576110
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

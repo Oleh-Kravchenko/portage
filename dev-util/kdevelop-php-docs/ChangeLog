@@ -105,3 +105,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*kdevelop-php-docs-1.7.3 (15 Mar 2016)
+
+  15 Mar 2016; Johannes Huber <johu@gentoo.org>
+  +kdevelop-php-docs-1.7.3.ebuild:
+  dev-util: Version bump KDevelop 4.7.3
+
+  Gentoo-bug: 573652
+  Reported-by: Frank Krömmelbein <kroemmelbein@gmx.de>
+

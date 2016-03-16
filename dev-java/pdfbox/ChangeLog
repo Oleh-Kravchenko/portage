@@ -112,3 +112,17 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org> pdfbox-1.8.11.ebuild:
+  Stable on amd64, ppc64, x86 using ALLARCHES
+
+  A little early because of the push to remove Java 6. The old version
+  was quite broken anyway.
+
+  Package-Manager: portage-2.2.27
+
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org>
+  -files/pdfbox-1.8.8-build.xml.patch, -pdfbox-1.8.8.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

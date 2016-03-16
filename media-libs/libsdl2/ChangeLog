@@ -107,3 +107,19 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  15 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org> libsdl2-2.0.4.ebuild:
+  wayland requires gles (bug #576546)
+
+  Package-Manager: portage-2.2.26
+
+  15 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org> libsdl2-2.0.4.ebuild:
+  correct wayland REQUIRED_USE syntax
+
+  Package-Manager: portage-2.2.26
+
+  15 Mar 2016; Markus Meier <maekke@gentoo.org> libsdl2-2.0.4.ebuild:
+  arm stable, bug #573740
+
+  Package-Manager: portage-2.2.27
+  RepoMan-Options: --include-arches="arm"
+

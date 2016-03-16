@@ -218,3 +218,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Mar 2016; Tobias Klausmann <klausman@gentoo.org> nspr-4.12.ebuild:
+  4.12-r0: add alpha keyword
+
+  Gentoo-Bug: 576862
+
+  Package-Manager: portage-2.2.28
+

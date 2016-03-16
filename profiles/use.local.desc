@@ -200,6 +200,7 @@ app-admin/gkrellm:lm_sensors - Enable monitoring sensors via sys-apps/lm_sensors
 app-admin/gkrellm:ntlm - Enable NTLM authentication for mail checking with net-libs/libntlm
 app-admin/gkrellm:ssl - Enable SSL support for mail checking with dev-libs/openssl
 app-admin/glance:swift - Adds swift storage support
+app-admin/gtkdiskfree:gtk2 - Support GTK+ 2.x instead of GTK+ 3.x
 app-admin/hddtemp:network-cron - Monthly cronjob to update hddtemp.db.
 app-admin/keepass:aot - Generate native code at build time, rather than runtime.
 app-admin/lastpass:chrome - Support for www-client/chrome
@@ -371,7 +372,6 @@ app-backup/snapper:btrfs - Include Btrfs support sys-fs/btrfs-progs
 app-backup/snapper:ext4 - Include Ext4 support sys-fs/e2fsprogs
 app-backup/snapper:lvm - Enable LVM thinprovisioned snapshots support sys-fs/lvm2
 app-backup/snapper:xattr - Add support for getting and setting POSIX extended attributes, through sys-apps/attr.
-app-backup/tsm:hsm - Installs Tivoli Storage Manager for Space Management
 app-backup/tsm:tsm_cit - IBM Tivoli Common Inventory Technology
 app-backup/tsm:tsm_hw - Difference snapshot support for NetApp and N-Series file servers
 app-benchmarks/jmeter:beanshell - Enable BeanShell scripting support
@@ -4363,6 +4363,7 @@ media-sound/kid3:acoustid - Enable support for acoustic fingerprinting plugin us
 media-sound/kid3:phonon - Enable sound support via media-libs/phonon or dev-qt/qtphonon
 media-sound/kwave:opus - Enable Opus audio codec support
 media-sound/kwave:phonon - Enable playback via Phonon
+media-sound/kwave:qtmedia - Enable playback via Qt5Multimedia
 media-sound/lame:frontend - Build and install the 'lame' executable frontend to lame libraries.
 media-sound/lame:mp3rtp - Build the mp3-to-RTP streaming utility. **UNSUPPORTED**
 media-sound/linuxsampler:lv2 - Add support for Ladspa V2
@@ -5465,6 +5466,8 @@ net-im/psi:xscreensaver - Use X screensaver protocol extension to monitor idle/a
 net-im/psimedia:demo - build simple test application for the PsiMedia system
 net-im/pyaim-t:webinterface - Install dependencies needed for the web interface
 net-im/pyicq-t:webinterface - Install dependencies needed for the web interface
+net-im/qtox:X - Adds support for X11
+net-im/qtox:gtk - Adds support for GTK and Status Notifier tray backends
 net-im/qutim:antiboss - Enable support for the antiboss plugin
 net-im/qutim:aspell - Enable spellchecking using app-text/aspell
 net-im/qutim:awn - Enable integration with gnome-extra/avant-window-navigator
@@ -7112,6 +7115,7 @@ sys-apps/flashrom:atapromise - Support for Promise PDC2026x (FastTrak/Ultra)
 sys-apps/flashrom:atavia - Support for VIA VT6421A SATA controllers
 sys-apps/flashrom:bitbang_spi - Bitbanging SPI infrastructure
 sys-apps/flashrom:buspirate_spi - Enable Bus Pirate SPI programmer
+sys-apps/flashrom:ch341a_spi - Enable WCH CH341A SPI programmer
 sys-apps/flashrom:dediprog - Dediprog SF100 support
 sys-apps/flashrom:drkaiser - Enable Dr. Kaiser programmer
 sys-apps/flashrom:dummy - Enable dummy tracing

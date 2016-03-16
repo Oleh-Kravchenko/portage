@@ -66,3 +66,9 @@
 
   Bug: 575810
 
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  perlbox-voice-0.09-r2.ebuild:
+  Fix dependency on dev-perl/Tk
+
+  Package-Manager: portage-2.2.27
+

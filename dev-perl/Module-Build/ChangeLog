@@ -75,3 +75,19 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  Module-Build-0.421.400.ebuild:
+  amd64 stable wrt bug #573546
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  Module-Build-0.421.400.ebuild:
+  x86 stable wrt bug #573546
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

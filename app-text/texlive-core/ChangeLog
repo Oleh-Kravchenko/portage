@@ -103,3 +103,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  texlive-core-2012.ebuild, texlive-core-2012-r1.ebuild,
+  texlive-core-2012-r3.ebuild, texlive-core-2013-r1.ebuild,
+  texlive-core-2013-r3.ebuild, texlive-core-2014.ebuild,
+  texlive-core-2014-r1.ebuild, texlive-core-2014-r3.ebuild,
+  texlive-core-2014-r4.ebuild, texlive-core-2015.ebuild:
+  Fix dependency on dev-perl/Tk
+
+  Package-Manager: portage-2.2.27
+

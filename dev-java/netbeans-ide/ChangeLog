@@ -89,3 +89,16 @@
 
   Package-Manager: portage-2.2.27
 
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org>
+  netbeans-ide-8.0.2-r2.ebuild:
+  Stable 8.0.2-r2 using ALLARCHES
+
+  A little early because of the push to remove Java 6.
+
+  Package-Manager: portage-2.2.27
+
+  15 Mar 2016; James Le Cuirot <chewi@gentoo.org> -netbeans-ide-8.0.2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

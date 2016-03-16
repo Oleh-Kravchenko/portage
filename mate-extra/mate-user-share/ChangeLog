@@ -89,3 +89,17 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  mate-user-share-1.8.0-r1.ebuild:
+  x86 stable wrt bug #575262
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -mate-user-share-1.8.0.ebuild:
+  Drop old, per bug #564262
+
+  Package-Manager: portage-2.2.26
+

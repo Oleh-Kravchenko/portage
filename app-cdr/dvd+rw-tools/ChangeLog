@@ -68,3 +68,7 @@
 
   Bug: 575810
 
+  15 Mar 2016; Mike Frysinger <vapier@gentoo.org> dvd+rw-tools-7.1-r1.ebuild,
+  +files/dvd+rw-tools-7.0-sysmacros.patch:
+  fix build w/newer glibc
+

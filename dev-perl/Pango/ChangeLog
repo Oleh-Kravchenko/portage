@@ -77,3 +77,25 @@
 
   Package-Manager: portage-2.2.26
 
+*Pango-1.227.0 (14 Mar 2016)
+
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +Pango-1.227.0.ebuild:
+  Bump to version 1.227.0
+
+  - EAPI6
+  - Add support for testing under virtual-X11
+  - Add USE="examples"
+
+  NB: and gtk-perl X11 Test dependencies only pulled when both USE="test
+  -minimal" are set,
+  because "test" being set doesn't necessarily mean you want to pay the price
+  for the
+  heavy, optional extra stuff. ( And gtk-perl is a bit slow to install )
+
+  This way, you can continue using FEATURES="test", but you can save yourself
+  some effort
+  and still get good test coverage if you have USE="minimal" in your
+  environment
+
+  Package-Manager: portage-2.2.27
+

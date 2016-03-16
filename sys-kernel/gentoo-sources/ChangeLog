@@ -1075,3 +1075,11 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-3.14.64 (14 Mar 2016)
+
+  14 Mar 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.64.ebuild:
+  Linux patch 3.14.64
+
+  Package-Manager: portage-2.2.28
+

@@ -180,3 +180,13 @@
   29 Feb 2016; Mike Frysinger <vapier@gentoo.org> linux-headers-4.3.ebuild:
   mark 4.4 ia64/m68k/s390/sh/sparc stable #571528
 
+*linux-headers-4.5 (15 Mar 2016)
+
+  15 Mar 2016; Mike Frysinger <vapier@gentoo.org> +linux-headers-4.5.ebuild:
+  version bump to 4.5
+
+  15 Mar 2016; Mike Frysinger <vapier@gentoo.org> -linux-headers-3.19.ebuild,
+  -linux-headers-4.0.ebuild, -linux-headers-4.1.ebuild,
+  -linux-headers-4.2.ebuild:
+  drop old non-LTS versions
+

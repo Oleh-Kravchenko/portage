@@ -81,3 +81,9 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Lingua-PT-Stemmer-0.10.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+

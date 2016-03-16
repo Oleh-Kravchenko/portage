@@ -85,3 +85,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  15 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  libsmbios-2.3.0-r1.ebuild:
+  Fixed installation with USE="-python" (bug #577474).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
