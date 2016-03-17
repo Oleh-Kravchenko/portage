@@ -80,3 +80,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*quagga-1.0.20160315 (16 Mar 2016)
+
+  16 Mar 2016; Sergey Popov <pinkbyte@gentoo.org> +quagga-1.0.20160315.ebuild:
+  version bump
+
+  Gentoo-Bug: 577156
+
+  Package-Manager: portage-2.2.27
+

@@ -71,3 +71,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*qoauth-2.0.1_pre20160315 (15 Mar 2016)
+
+  15 Mar 2016; Johannes Huber <johu@gentoo.org>
+  +qoauth-2.0.1_pre20160315.ebuild:
+  Add Qt5 compat snapshot
+
+  Gentoo-bug: 556180
+  Acked-by: Michael Palimaka <kensington@gentoo.org>
+
+  Package-Manager: portage-2.2.28
+

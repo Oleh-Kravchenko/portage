@@ -109,3 +109,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -shorturl-1.0.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

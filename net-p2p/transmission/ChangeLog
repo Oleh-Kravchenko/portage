@@ -200,3 +200,9 @@
 
   Package-Manager: portage-2.2.27_p81
 
+  16 Mar 2016; Mike Gilbert <floppym@gentoo.org> +files/libsystemd.patch,
+  transmission-2.92.ebuild:
+  Fix building against recent libsystemd
+
+  Package-Manager: portage-2.2.28_p60
+

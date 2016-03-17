@@ -112,3 +112,16 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> Mozilla-CA-20150826.ebuild:
+  ppc stable wrt bug #572140
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Mozilla-CA-20130114.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

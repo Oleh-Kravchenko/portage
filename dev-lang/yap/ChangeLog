@@ -103,3 +103,13 @@
 
   Package-Manager: portage-2.2.26
 
+  16 Mar 2016; Keri Harris <keri@gentoo.org> yap-6.3.2.ebuild:
+  always inline cp-float-unaligned instructions. Closes #577106
+
+  Package-Manager: portage-2.2.26
+
+  16 Mar 2016; Keri Harris <keri@gentoo.org> yap-6.3.2.ebuild:
+  fix gcc-5 compilation of swi-minisat
+
+  Package-Manager: portage-2.2.26
+

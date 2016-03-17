@@ -68,3 +68,9 @@
   13 Mar 2016; Tim Harder <radhermit@gentoo.org> +snipmate-0.87.ebuild:
   version bump to 0.87 (bug #538490)
 
+*snipmate-0.87-r1 (16 Mar 2016)
+
+  16 Mar 2016; Tim Harder <radhermit@gentoo.org> -snipmate-0.87.ebuild,
+  +snipmate-0.87-r1.ebuild:
+  add missing rdeps on tlib and mw-utils
+

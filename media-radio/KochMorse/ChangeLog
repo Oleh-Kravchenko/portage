@@ -78,3 +78,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -KochMorse-0.99.6.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

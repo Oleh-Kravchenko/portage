@@ -79,3 +79,6 @@
 
   Package-Manager: portage-2.2.27
 
+  16 Mar 2016; Tim Harder <radhermit@gentoo.org> ijson-2.3.ebuild:
+  add py35 support
+

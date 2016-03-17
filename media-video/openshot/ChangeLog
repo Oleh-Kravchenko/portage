@@ -76,3 +76,26 @@
 
   Bug: 575810
 
+*openshot-2.0.6 (16 Mar 2016)
+
+  16 Mar 2016; Ian Delaney <idella4@gentoo.org> metadata.xml,
+  +openshot-2.0.6.ebuild:
+  bump to 2.0.6, add myself as proxied maintainer
+
+  Use a new slot as this version is completely different from the old 1.4
+  releases and both may be installed at the same time.
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=575344
+
+  Package-Manager: portage-2.2.27
+  Closes: https://github.com/gentoo/gentoo/pull/1057
+
+*openshot-1.4.3-r1 (16 Mar 2016)
+
+  16 Mar 2016; Patrice Clement <monsieurp@gentoo.org> -openshot-1.4.3.ebuild,
+  +openshot-1.4.3-r1.ebuild:
+  require ffmpeg/libav to be compiled with USE=vpx
+
+  Gentoo-Bug: https://bugs.gentoo.org/563026
+  Package-Manager: portage-2.2.27
+  Closes: https://github.com/gentoo/gentoo/pull/1068
+

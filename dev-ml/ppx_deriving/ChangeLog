@@ -36,3 +36,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*ppx_deriving-3.3 (16 Mar 2016)
+
+  16 Mar 2016; Alexis Ballier <aballier@gentoo.org> +ppx_deriving-3.3.ebuild:
+  bump to 3.3
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

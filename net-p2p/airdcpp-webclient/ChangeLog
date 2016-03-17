@@ -27,3 +27,12 @@
   Package-Manager: portage-2.2.27
   Closes: https://github.com/gentoo/gentoo/pull/1047
 
+*airdcpp-webclient-1.0.1 (16 Mar 2016)
+
+  16 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  +airdcpp-webclient-1.0.1.ebuild:
+  bump to 1.0.1
+
+  Package-Manager: portage-2.2.27
+  Closes: https://github.com/gentoo/gentoo/pull/1063
+

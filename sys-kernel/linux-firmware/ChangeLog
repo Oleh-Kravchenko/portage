@@ -213,3 +213,11 @@
 
   Package-Manager: portage-2.2.26
 
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  linux-firmware-20151207.ebuild:
+  ppc stable wrt bug #573130
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

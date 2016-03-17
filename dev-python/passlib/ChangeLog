@@ -95,3 +95,10 @@
 
   Package-Manager: portage-2.2.26
 
+*passlib-1.6.5-r1 (16 Mar 2016)
+
+  16 Mar 2016; Tiziano Müller <dev-zero@gentoo.org> +passlib-1.6.5-r1.ebuild:
+  rev-bump for py-3.5 compat and EAPI-6
+
+  Package-Manager: portage-2.2.28
+

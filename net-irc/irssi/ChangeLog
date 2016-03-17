@@ -109,3 +109,8 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Mar 2016; Sven Wegener <swegener@gentoo.org> irssi-0.8.18.ebuild:
+  Add test restriction, bug #577404
+
+  Package-Manager: portage-2.2.26
+

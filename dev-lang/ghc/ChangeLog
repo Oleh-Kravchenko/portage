@@ -152,3 +152,12 @@
 
   Package-Manager: portage-2.2.27
 
+*ghc-7.10.3 (15 Mar 2016)
+
+  15 Mar 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +files/ghc-7.10.3-hardfloat.patch, +files/ghc-7.10.3-relnotes.patch,
+  +ghc-7.10.3.ebuild:
+  bump up to 7.10.3, added binaries for x86, amd64
+
+  Package-Manager: portage-2.2.28
+

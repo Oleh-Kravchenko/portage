@@ -30,3 +30,14 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*ppx_tools-4.03.0 (16 Mar 2016)
+*ppx_tools-4.02.3 (16 Mar 2016)
+
+  16 Mar 2016; Alexis Ballier <aballier@gentoo.org> -ppx_tools-0.99.2.ebuild,
+  -ppx_tools-0.99.3.ebuild, -ppx_tools-0.99.3_p20160217.ebuild,
+  +ppx_tools-4.02.3.ebuild, +ppx_tools-4.03.0.ebuild:
+  bump to new upstream releases, changing versionning scheme to match ocaml
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

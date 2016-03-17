@@ -95,3 +95,32 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*openvswitch-2.5.0 (16 Mar 2016)
+
+  16 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +openvswitch-2.5.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> openvswitch-2.5.0.ebuild:
+  amd64 stable wrt bug #577568
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> openvswitch-2.5.0.ebuild:
+  x86 stable wrt bug #577568
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -openvswitch-2.3.0.ebuild, -openvswitch-2.3.1.ebuild,
+  -openvswitch-2.3.2.ebuild, -openvswitch-2.4.0.ebuild:
+  remove old badness bug 577568
+
+  Package-Manager: portage-2.2.26
+

@@ -43,3 +43,12 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*dynamic_reconfigure-1.5.42 (16 Mar 2016)
+
+  16 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  +dynamic_reconfigure-1.5.42.ebuild:
+  bump to 1.5.42
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

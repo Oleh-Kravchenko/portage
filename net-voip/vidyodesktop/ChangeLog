@@ -77,3 +77,11 @@
 
   Package-Manager: portage-2.2.26
 
+*vidyodesktop-3.6.3.017 (16 Mar 2016)
+
+  16 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +vidyodesktop-3.6.3.017.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

@@ -111,3 +111,9 @@
 
   Package-Manager: portage-2.2.27
 
+  16 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -PadWalker-1.960.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

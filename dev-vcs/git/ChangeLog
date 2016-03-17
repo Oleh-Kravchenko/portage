@@ -572,3 +572,32 @@
 
   Package-Manager: portage-2.2.28
 
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> git-2.7.3.ebuild:
+  amd64 stable wrt bug #577482
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> git-2.7.3.ebuild:
+  x86 stable wrt bug #577482
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> git-2.7.3.ebuild:
+  ppc stable wrt bug #577482
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+*git-2.7.3-r1 (16 Mar 2016)
+
+  16 Mar 2016; Robin H. Johnson <robbat2@gentoo.org> +git-2.7.3-r1.ebuild:
+  2.7.3 upstream did not actually contain the fix for CVE-2016-2315; backport
+  fix from master instead, see bug #577482 comment 7/8/9
+
+  Package-Manager: portage-2.2.27
+

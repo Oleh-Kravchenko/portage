@@ -70,3 +70,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  16 Mar 2016; Alexis Ballier <aballier@gentoo.org> image_view-9999.ebuild:
+  drop patch from 9999 that has been merged upstream
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

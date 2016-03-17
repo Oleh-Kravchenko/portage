@@ -147,3 +147,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> xapian-omega-1.2.22.ebuild:
+  ppc stable wrt bug #574638
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

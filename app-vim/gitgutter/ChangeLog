@@ -71,3 +71,9 @@
 
   Package-Manager: portage-2.2.28
 
+*gitgutter-20160316 (16 Mar 2016)
+
+  16 Mar 2016; Tim Harder <radhermit@gentoo.org> +gitgutter-20160316.ebuild,
+  gitgutter-99999999.ebuild:
+  version bump to new snapshot
+

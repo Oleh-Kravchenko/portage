@@ -168,3 +168,24 @@
 
   Package-Manager: portage-2.2.27
 
+*ibus-1.5.13 (16 Mar 2016)
+
+  16 Mar 2016; Yixun Lan <dlan@gentoo.org> +ibus-1.5.13.ebuild:
+  version bump 1.5.13
+
+  Package-Manager: portage-2.2.27
+
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> ibus-1.5.12.ebuild:
+  amd64 stable wrt bug #565190
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> ibus-1.5.12.ebuild:
+  x86 stable wrt bug #565190
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

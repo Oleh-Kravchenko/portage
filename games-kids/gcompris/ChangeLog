@@ -87,3 +87,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/gcompris-15.02-build.patch, -gcompris-15.02.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

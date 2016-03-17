@@ -136,3 +136,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org> openclonk-7.0.ebuild:
+  make sure the active compiler can deal with the fancy c++ code (bug #572554)
+
+  Package-Manager: portage-2.2.26
+

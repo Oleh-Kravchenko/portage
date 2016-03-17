@@ -193,3 +193,22 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  15 Mar 2016; Agostino Sarubbo <ago@gentoo.org> gtk-gnutella-1.1.8.ebuild:
+  x86 stable wrt bug #576604
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> gtk-gnutella-1.1.8.ebuild:
+  ppc stable wrt bug #576604
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Mar 2016; Hans de Graaff <graaff@gentoo.org> -gtk-gnutella-1.1.6.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+

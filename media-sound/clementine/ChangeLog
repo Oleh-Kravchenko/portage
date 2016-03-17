@@ -116,3 +116,12 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*clementine-1.3_rc1-r1 (16 Mar 2016)
+
+  16 Mar 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  +clementine-1.3_rc1-r1.ebuild,
+  +files/clementine-1.3_rc1-fix-tokenizer.patch:
+  fix tokenizer segfault
+
+  Package-Manager: portage-2.2.28
+

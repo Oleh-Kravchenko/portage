@@ -126,3 +126,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Mar 2016; Ian Delaney <idella4@gentoo.org> kvirc-9999.ebuild:
+  Stop using deprecated functions from cmake-utils.eclass.
+
+  16 Mar 2016; Ian Delaney <idella4@gentoo.org> kvirc-9999.ebuild:
+  Call cmake-utils_src_prepare().
+
+  It will result in call to epatch_user().
+

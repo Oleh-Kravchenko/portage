@@ -182,3 +182,12 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/flacon-1.2.0-fix-corrupt-file-crash.patch,
+  -files/flacon-1.2.0-fix-disks-or-tracks-number-change-crash.patch,
+  -files/flacon-1.2.0-fix-qpainter-error.patch, -flacon-1.2.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1070
+

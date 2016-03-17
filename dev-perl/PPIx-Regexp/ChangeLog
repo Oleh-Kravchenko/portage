@@ -72,3 +72,10 @@
 
   Package-Manager: portage-2.2.27
 
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> PPIx-Regexp-0.33.0.ebuild:
+  ppc stable wrt bug #572140
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

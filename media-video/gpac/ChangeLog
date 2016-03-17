@@ -129,3 +129,20 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> gpac-0.5.1_pre5456.ebuild,
+  gpac-0.5.2.ebuild:
+  ppc stable wrt bug #575308
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+*gpac-0.6.1 (16 Mar 2016)
+
+  16 Mar 2016; Alexis Ballier <aballier@gentoo.org> +gpac-0.6.1.ebuild,
+  gpac-9999.ebuild:
+  bump to 0.6.1 and add X useflag
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

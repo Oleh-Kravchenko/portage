@@ -92,3 +92,15 @@
 
   Bug: 575810
 
+  16 Mar 2016; Agostino Sarubbo <ago@gentoo.org> leafnode-1.11.10.ebuild:
+  ppc stable wrt bug #572822
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  16 Mar 2016; Hans de Graaff <graaff@gentoo.org> -leafnode-1.11.8.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
