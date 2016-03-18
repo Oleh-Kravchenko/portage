@@ -133,3 +133,11 @@
 
   Package-Manager: portage-2.2.26
 
+*elasticsearch-curator-3.5.0 (17 Mar 2016)
+
+  17 Mar 2016; Patrick Lauer <patrick@gentoo.org>
+  +elasticsearch-curator-3.5.0.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.28
+

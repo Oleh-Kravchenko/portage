@@ -60,3 +60,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sxhkd-0.5.6 (17 Mar 2016)
+
+  17 Mar 2016; Tim Harder <radhermit@gentoo.org> +sxhkd-0.5.6.ebuild:
+  version bump to 0.5.6
+

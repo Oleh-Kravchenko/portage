@@ -101,3 +101,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  -mldonkey-3.1.3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+

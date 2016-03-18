@@ -616,3 +616,18 @@
 
   Package-Manager: portage-2.2.26
 
+*vanilla-sources-4.5.0 (17 Mar 2016)
+*vanilla-sources-4.4.6 (17 Mar 2016)
+*vanilla-sources-3.14.65 (17 Mar 2016)
+*vanilla-sources-3.10.101 (17 Mar 2016)
+
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  -vanilla-sources-3.10.100.ebuild, +vanilla-sources-3.10.101.ebuild,
+  -vanilla-sources-3.14.64.ebuild, +vanilla-sources-3.14.65.ebuild,
+  -vanilla-sources-4.4.5.ebuild, +vanilla-sources-4.4.6.ebuild,
+  +vanilla-sources-4.5.0.ebuild:
+  Automated version bump to {3.10.101,3.14.65,4.4.6,4.5.0} - remove old.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

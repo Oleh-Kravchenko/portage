@@ -122,3 +122,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Path-Class-0.360.0 (16 Mar 2016)
+
+  16 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Path-Class-0.360.0.ebuild:
+  Bump to version 0.360.0
+
+  - EAPI6
+  - Test & Dep cleanup
+
+  Upstream:
+  - Better error handling/checking
+  - Lazier loading some dendencies
+  - Fix weird "operation eq not found" bug
+  - contains() fixes
+
+  Package-Manager: portage-2.2.28
+

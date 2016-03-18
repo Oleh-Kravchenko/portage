@@ -75,3 +75,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Mar 2016; Manuel Rüger <mrueg@gentoo.org>
+  -split2flac-0.1_pre20111110-r2.ebuild, -split2flac-113_p20131017.ebuild,
+  -split2flac-114.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+
+  17 Mar 2016; Manuel Rüger <mrueg@gentoo.org> split2flac-115.ebuild,
+  split2flac-9999.ebuild:
+  Fix description
+
+  Package-Manager: portage-2.2.28
+

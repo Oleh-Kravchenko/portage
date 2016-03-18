@@ -708,3 +708,12 @@
 
   Package-Manager: portage-2.2.28_p60
 
+*chrome-binary-plugins-50.0.2661.37_beta1 (16 Mar 2016)
+
+  16 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-50.0.2661.26_beta1.ebuild,
+  +chrome-binary-plugins-50.0.2661.37_beta1.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.28_p60
+

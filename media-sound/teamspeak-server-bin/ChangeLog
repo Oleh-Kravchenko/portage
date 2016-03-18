@@ -93,3 +93,15 @@
 
   Package-Manager: portage-2.2.26
 
+*teamspeak-server-bin-3.0.12.3 (16 Mar 2016)
+
+  16 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  +teamspeak-server-bin-3.0.12.3.ebuild:
+  bump to vn. 3.0.12.3
+
+  ebuild submitted by proxy maintainer via the gentoo bug
+
+  Gentoo bug: #576784
+
+  Package-Manager: portage-2.2.26
+

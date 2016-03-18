@@ -85,3 +85,23 @@
 
   Bug: 575810
 
+  17 Mar 2016; Patrice Clement <monsieurp@gentoo.org> gitstats-9999.ebuild:
+  fix the live ebuild's repo URI, license, dependencies, docs
+
+  The following changes have been made:
+  - eapi bump to EAPI 6
+  - inherit git-r3 instead of the obsolete git-2
+  - fix EGIT_REPO_URI
+  - fix LICENSE
+    - the homepage has the following:
+      "Both the code and the web site are licensed under GPLv2/GPLv3."
+      So, use '|| ( GPL-2 GPL-3 )'
+    - there's a bunled javascript file 'sortable.js' which is licensed under
+  MIT
+  - add the missing build time dependency on perl
+  - install docs and manpage
+
+  Package-Manager: portage-2.2.26
+  Acked-by: Guilherme Amadio <amadio@gentoo.org>
+  Closes: https://github.com/gentoo/gentoo/pull/972
+

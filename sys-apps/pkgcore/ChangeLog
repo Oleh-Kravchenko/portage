@@ -83,3 +83,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Mar 2016; Tim Harder <radhermit@gentoo.org> pkgcore-0.9.2.ebuild,
+  pkgcore-9999.ebuild:
+  sync description with github
+

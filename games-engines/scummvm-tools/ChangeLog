@@ -109,3 +109,11 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  scummvm-tools-1.7.0-r1.ebuild:
+  ppc64 stable wrt bug #568820
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

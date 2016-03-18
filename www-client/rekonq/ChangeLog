@@ -74,3 +74,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Mar 2016; Johannes Huber <johu@gentoo.org> rekonq-2.4.2-r1.ebuild:
+  Pin slot on dev-libs/qoauth
+
+  Package-Manager: portage-2.2.28
+

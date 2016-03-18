@@ -223,3 +223,10 @@
   Closes: https://github.com/gentoo/gentoo/pull/1021
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*nodejs-5.9.0 (17 Mar 2016)
+
+  17 Mar 2016; Patrick Lauer <patrick@gentoo.org> +nodejs-5.9.0.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.28
+

@@ -95,3 +95,11 @@
   myspell-en-2016.02.01.ebuild:
   minor rename to the saved file for 2016.02.01
 
+*myspell-en-20160201 (17 Mar 2016)
+
+  17 Mar 2016; Ian Delaney <idella4@gentoo.org> -myspell-en-2016.02.01.ebuild,
+  +myspell-en-20160201.ebuild:
+  fix versioning
+
+  Closes: https://github.com/gentoo/gentoo/pull/1071
+

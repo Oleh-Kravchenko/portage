@@ -121,3 +121,12 @@
 
   Package-Manager: portage-2.2.26
 
+*varnish-4.1.2 (17 Mar 2016)
+
+  17 Mar 2016; Christian Ruppert <idl0r@gentoo.org> -varnish-4.1.1.ebuild,
+  +varnish-4.1.2.ebuild:
+  Version bump. Also fixes hardcoded group id issues, bug 537472. Revert the
+  workaround of bug 524284 since varnishncsa itself will take care of it
+
+  Package-Manager: portage-2.2.28
+

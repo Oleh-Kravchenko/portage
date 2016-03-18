@@ -85,3 +85,30 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*Path-Tiny-0.84.0 (16 Mar 2016)
+
+  16 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Path-Tiny-0.84.0.ebuild:
+  Bump to version 0.84.0
+
+  - EAPI6
+  - Cleanup deps.
+  - Make recommended deps optional
+
+  Upstream:
+  - New methods: assert, visit, edit{,_raw,_utf8}, edit_lines{,_raw,_utf8},
+  - lines() accepts negative count to fetch last lines
+  - Exclusive locking options added to filehandle opens
+  - copy() now returns a path() for the copied file
+  - Spaces in tilde expansion no longer broken
+  - realpath() no longer fatalizes if path_part[-1] is all that is missing
+  - values returned to visit() only dereferenced if scalar refs.
+  - Bug fixes in arg handling with File::Path
+  - Fixed spewing to symlink that crosses fs boundary
+  - relative() no longer implemented using File::Spec rel2abs
+
+  Needs rekeywording for: ~arm ~hppa ~ppc
+  Including: dev-perl/Test-MockRandom-1.10.0
+
+  Package-Manager: portage-2.2.28
+

@@ -64,3 +64,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*PAR-1.10.0 (16 Mar 2016)
+
+  16 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +PAR-1.10.0.ebuild:
+  Bump to version 1.10.0
+
+  - EAPI6
+  - Recommended Deps + USE="minimal"
+  - POD Tests killed
+
+  Upstream:
+  - Fix bugs with inc/ handling
+  - Fix bugs in dll extraction
+
+  Package-Manager: portage-2.2.28
+

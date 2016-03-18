@@ -99,3 +99,8 @@
 
   Package-Manager: portage-2.2.27
 
+  17 Mar 2016; Manuel Rüger <mrueg@gentoo.org> httparty-0.13.7.ebuild:
+  Remove ruby19
+
+  Package-Manager: portage-2.2.28
+

@@ -85,3 +85,20 @@
 
   Bug: 575810
 
+*nmon-16d (17 Mar 2016)
+
+  17 Mar 2016; Amy Winston <amynka@gentoo.org> +nmon-16d.ebuild:
+  version bump 16d bug #577056
+
+  Package-Manager: portage-2.2.26
+
+  17 Mar 2016; Amy Winston <amynka@gentoo.org> metadata.xml:
+  add proxy-maintainer
+
+  Package-Manager: portage-2.2.26
+
+  17 Mar 2016; Amy Winston <amynka@gentoo.org> nmon-15g.ebuild:
+  add missing slot
+
+  Package-Manager: portage-2.2.26
+

@@ -136,3 +136,10 @@
 
   Package-Manager: portage-2.2.27
 
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org> pyxattr-0.5.5.ebuild:
+  ppc64 stable wrt bug #570338
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

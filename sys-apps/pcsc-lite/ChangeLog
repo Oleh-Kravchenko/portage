@@ -98,3 +98,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pcsc-lite-1.8.15 (17 Mar 2016)
+
+  17 Mar 2016; Wolfram Schlich <wschlich@gentoo.org> +pcsc-lite-1.8.15.ebuild:
+  version bump.
+
+  Package-Manager: portage-2.2.28
+

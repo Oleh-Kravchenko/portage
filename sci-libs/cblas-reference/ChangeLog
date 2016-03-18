@@ -122,3 +122,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  cblas-reference-20030223-r6.ebuild:
+  ppc64 stable wrt bug #570056
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -89,3 +89,18 @@
 
   Package-Manager: portage-2.2.27
 
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org> quagga-1.0.20160315.ebuild:
+  amd64 stable wrt bug #577156
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  17 Mar 2016; Tobias Klausmann <klausman@gentoo.org>
+  quagga-1.0.20160315.ebuild:
+  1.0.20160315-r0: add alpha keyword
+
+  Gentoo-Bug: 577156
+
+  Package-Manager: portage-2.2.28
+

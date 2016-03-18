@@ -206,3 +206,10 @@
 
   Package-Manager: portage-2.2.28_p60
 
+  16 Mar 2016; Mike Gilbert <floppym@gentoo.org> transmission-2.92.ebuild:
+  Fix build with xfsprogs-4.5.0
+
+  Bug: https://bugs.gentoo.org/577528
+
+  Package-Manager: portage-2.2.28_p60
+

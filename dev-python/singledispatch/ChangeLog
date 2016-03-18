@@ -141,3 +141,22 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Mar 2016; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  edit metadata.xml file to up date maintainership
+
+  Remove user Nikos Chantziaras by his request via email;
+  From: Nikos Chantziaras <nikos.chantziaras@gmail.com>
+  To: proxy-maint@gentoo.org
+  Subject: virtual/python-singledispatch and dev-python/singledispatch
+  proxy-maint removal
+  Date: Thu, 17 Mar 2016 13:15:21 +0200
+  Remove myself as primary maintainer
+  Add the proxy-maintainers project as a supervising body
+
+  Package-Manager: portage-2.2.26
+
+  17 Mar 2016; Matthias Maier <tamiko@gentoo.org> metadata.xml:
+  fix whitespace in metadata.xml
+
+  Package-Manager: portage-2.2.26
+

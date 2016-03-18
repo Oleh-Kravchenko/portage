@@ -63,3 +63,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Parallel-Prefork-0.180.0 (16 Mar 2016)
+
+  16 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Parallel-Prefork-0.180.0.ebuild:
+  Bumped to version 0.180.0
+
+  - EAPI6
+  - New deps
+
+  Upstream:
+  - wait_all_children now supports timeouts
+  - fix ::SpareWorkers not spawning maxworkers
+  - fix ::SpareWorkers crashing on signal + statusIO
+
+  Package-Manager: portage-2.2.28
+

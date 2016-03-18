@@ -93,3 +93,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org> libintl-perl-1.240.0.ebuild:
+  ppc64 stable wrt bug #577104
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -117,3 +117,8 @@
 
   Bug: 575810
 
+  17 Mar 2016; Johannes Huber <johu@gentoo.org> dianara-1.3.1-r1.ebuild:
+  Pin slot on dev-libs/qoauth
+
+  Package-Manager: portage-2.2.28
+

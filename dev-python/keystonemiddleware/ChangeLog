@@ -189,3 +189,9 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  keystonemiddleware-2.3.3.ebuild:
+  remove unneeded patch
+
+  Package-Manager: portage-2.2.26
+

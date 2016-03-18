@@ -103,3 +103,9 @@
   stumpwm-0.9.9.ebuild:
   Remove debug message
 
+  17 Mar 2016; José María Alonso Josa <nimiux@gentoo.org>
+  stumpwm-0.9.9.ebuild, stumpwm-9999.ebuild:
+  Update homepage
+
+  Package-Manager: portage-2.2.26
+

@@ -63,3 +63,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*PBS-Client-0.110.0 (16 Mar 2016)
+
+  16 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +PBS-Client-0.110.0.ebuild:
+  Bump to version 0.110.0
+
+  - EAPI6
+  - Fixup deps
+
+  Upstream:
+  - Fix error using IPC::Open3
+
+  Package-Manager: portage-2.2.28
+

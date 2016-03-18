@@ -82,3 +82,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Mar 2016; Tobias Klausmann <klausman@gentoo.org> uhttpmock-0.5.0.ebuild:
+  0.5.0-r0: add alpha keyword
+
+  Gentoo-Bug: 570692
+
+  Package-Manager: portage-2.2.28
+

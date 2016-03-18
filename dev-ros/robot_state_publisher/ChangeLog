@@ -50,3 +50,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  17 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  robot_state_publisher-1.12.1.ebuild, robot_state_publisher-9999.ebuild:
+  add missing dep on dev-ros/tf, bug #577622
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

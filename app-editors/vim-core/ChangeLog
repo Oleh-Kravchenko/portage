@@ -165,3 +165,8 @@
 
   Package-Manager: portage-2.2.27
 
+*vim-core-7.4.1583 (17 Mar 2016)
+
+  17 Mar 2016; Tim Harder <radhermit@gentoo.org> +vim-core-7.4.1583.ebuild:
+  version bump to 7.4.1583
+

@@ -177,3 +177,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Mar 2016; Dirkjan Ochtman <djc@gentoo.org>
+  files/lxml-3.4.4-cross-compile.patch, files/lxml-3.5.0-cross-compile.patch:
+  fix bug in cross-compilation patch(es)
+

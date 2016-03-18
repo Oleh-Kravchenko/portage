@@ -428,3 +428,59 @@
 
   Package-Manager: portage-2.2.27
 
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org> tomcat-7.0.67.ebuild:
+  ppc64 stable wrt bug #572282
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+*tomcat-9.0.0_alpha4 (17 Mar 2016)
+
+  17 Mar 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  -files/tomcat-9.0.0_alpha3-build.xml.patch,
+  +files/tomcat-9.0.0_alpha4-build.xml.patch, -tomcat-9.0.0_alpha3-r1.ebuild,
+  +tomcat-9.0.0_alpha4.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.28
+
+  17 Mar 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  -files/tomcat-7.0.59-build.xml.patch, -tomcat-7.0.59-r2.ebuild:
+  removed obsolete ebuild
+
+  Package-Manager: portage-2.2.28
+
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org> tomcat-7.0.68-r1.ebuild:
+  amd64 stable wrt bug #577626
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org> tomcat-8.0.32-r1.ebuild:
+  amd64 stable wrt bug #577628
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org> tomcat-7.0.68-r1.ebuild:
+  x86 stable wrt bug #577626
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  17 Mar 2016; Agostino Sarubbo <ago@gentoo.org> tomcat-8.0.32-r1.ebuild:
+  x86 stable wrt bug #577628
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  17 Mar 2016; Miroslav Šulc <fordfrog@gentoo.org> -tomcat-8.0.30.ebuild:
+  removes unsecure tomcat version
+
+  Package-Manager: portage-2.2.28
+

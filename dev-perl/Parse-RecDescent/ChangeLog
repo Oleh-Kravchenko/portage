@@ -63,3 +63,25 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Parse-RecDescent-1.967.13 (16 Mar 2016)
+
+  16 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Parse-RecDescent-1.967.13.ebuild:
+  Bump to version 1.967.13
+
+  - EAPI6
+  - Fixup DESCRIPTION
+  - Fixup deps
+  - Fixup Tests
+  - add USE="examples"
+
+  Upstream:
+  - Avoid bug with "already defined" in precompiled parsers.
+  - Precompiled parser runtime sharing support.
+  - Global skip: now more like other skip: directives
+  - Sort hash key structures emitted for consistency
+  - Precompiled parsers track parent compiler.
+  - Localise Data::Dumper args to avoid certain bugs
+
+  Package-Manager: portage-2.2.28
+

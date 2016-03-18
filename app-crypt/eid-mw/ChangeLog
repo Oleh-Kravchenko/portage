@@ -131,3 +131,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  files/gtk_not_required_9999.patch:
+  update to gtk_not_required_9999.patch in live ebuild
+
+  patch supplied by maintainer via email
+
+  Package-Manager: portage-2.2.26
+

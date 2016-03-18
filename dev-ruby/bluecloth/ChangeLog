@@ -85,3 +85,13 @@
 
   Package-Manager: portage-2.2.26
 
+  17 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -bluecloth-2.2.0-r2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+
+  17 Mar 2016; Manuel Rüger <mrueg@gentoo.org> bluecloth-2.2.0-r1.ebuild:
+  Remove ruby19
+
+  Package-Manager: portage-2.2.28
+

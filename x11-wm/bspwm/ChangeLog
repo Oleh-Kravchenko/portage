@@ -65,3 +65,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*bspwm-0.9.1 (17 Mar 2016)
+
+  17 Mar 2016; Tim Harder <radhermit@gentoo.org> +bspwm-0.9.1.ebuild:
+  version bump to 0.9.1
+
