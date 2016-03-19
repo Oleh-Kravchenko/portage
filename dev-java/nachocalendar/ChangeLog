@@ -63,3 +63,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*nachocalendar-0.23-r1 (18 Mar 2016)
+
+  18 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +nachocalendar-0.23-r1.ebuild:
+  EAPI 5 bump.
+
+  Package-Manager: portage-2.2.26
+
+  18 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -nachocalendar-0.23.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+

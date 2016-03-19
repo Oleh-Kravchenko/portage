@@ -10,3 +10,10 @@
 
   Package-Manager: portage-2.2.26
 
+*puma-3.1.1 (18 Mar 2016)
+
+  18 Mar 2016; Hans de Graaff <graaff@gentoo.org> +puma-3.1.1.ebuild:
+  add 3.1.1
+
+  Package-Manager: portage-2.2.26
+

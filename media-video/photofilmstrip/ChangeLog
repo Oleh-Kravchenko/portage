@@ -70,3 +70,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*photofilmstrip-2.1.0 (18 Mar 2016)
+
+  18 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  +files/photofilmstrip-2.1.0-PIL_modules_imports_fix.patch,
+  +photofilmstrip-2.1.0.ebuild:
+  bump to vn. 2.1.0
+
+  PIL_modules_imports_fix.patch updated to new verion,
+  patch and diff for ebuild supplied by proxy maintainer via
+
+  Gentoo bug: #563166
+
+  Package-Manager: portage-2.2.26
+

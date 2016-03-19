@@ -77,3 +77,14 @@
 
   Bug: 575810
 
+  18 Mar 2016; Aaron Bauman <bman@gentoo.org> metadata.xml:
+  update metadata.xml
+
+*fwbuilder-5.3.6 (18 Mar 2016)
+
+  18 Mar 2016; Aaron Bauman <bman@gentoo.org> +fwbuilder-5.3.6.ebuild:
+  version bump; add Qt5 support; drop unneeded eclass support and patches
+
+  18 Mar 2016; Aaron Bauman <bman@gentoo.org> -fwbuilder-5.1.0.3599.ebuild:
+  drop old unstable package
+

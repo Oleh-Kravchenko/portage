@@ -151,3 +151,18 @@
   -freebsd-sources-10.2-r2.ebuild, +freebsd-sources-10.2-r3.ebuild:
   Fix FreeBSD-SA-16:10.linux
 
+*freebsd-sources-10.2-r4 (18 Mar 2016)
+
+  18 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -freebsd-sources-10.2-r3.ebuild, +freebsd-sources-10.2-r4.ebuild:
+  Fix multiple Security Advisory and Errata.
+
+  Security Advisory
+  * FreeBSD-SA-16:15.sysarch
+
+  Eratta
+  * FreeBSD-EN-16:04.hyperv
+  * FreeBSD-EN-16:05.hv_netvsc
+
+  Closes: https://github.com/gentoo/gentoo/pull/1080
+

@@ -74,3 +74,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 Mar 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Remove empty <email/> from upstream maintainer
+
+  Remove the empty <email/> from upstream maintainer entry. The <email/>
+  element is optional per GLEP 46. However, providing an empty value is
+  incorrect.
+

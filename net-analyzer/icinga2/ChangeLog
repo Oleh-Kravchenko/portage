@@ -276,3 +276,9 @@
 
   Package-Manager: portage-2.2.26
 
+  18 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  icinga2-2.4.4-r1.ebuild:
+  add arm keyword
+
+  Package-Manager: portage-2.2.26
+

@@ -64,3 +64,6 @@
 
   Package-Manager: portage-2.2.27
 
+  18 Mar 2016; Denis Dupeyron <calchan@gentoo.org> -light-locker-1.6.0.ebuild:
+  remove 1.6.0
+

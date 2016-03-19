@@ -91,3 +91,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*vmware-tools-9.9.4.3206955 (18 Mar 2016)
+
+  18 Mar 2016; Andreas K. Huettel <dilfridge@gentoo.org>
+  +vmware-tools-9.9.4.3206955.ebuild:
+  Version bump
+
+  Imported from vmware overlay
+
+  18 Mar 2016; Andreas K. Huettel <dilfridge@gentoo.org>
+  -vmware-tools-9.6.1.1379776.ebuild, -vmware-tools-9.6.2.1744117.ebuild,
+  -vmware-tools-9.9.2.2496824.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

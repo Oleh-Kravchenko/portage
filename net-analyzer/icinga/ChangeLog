@@ -140,3 +140,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  icinga-1.13.3-r1.ebuild:
+  adding arm keyword
+
+  Package-Manager: portage-2.2.26
+

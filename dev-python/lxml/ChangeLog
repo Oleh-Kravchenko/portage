@@ -181,3 +181,10 @@
   files/lxml-3.4.4-cross-compile.patch, files/lxml-3.5.0-cross-compile.patch:
   fix bug in cross-compilation patch(es)
 
+*lxml-3.6.0 (17 Mar 2016)
+
+  17 Mar 2016; Dirkjan Ochtman <djc@gentoo.org> +lxml-3.6.0.ebuild:
+  forgot to add ebuild for version bump
+
+  Package-Manager: portage-2.2.26
+

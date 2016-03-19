@@ -66,3 +66,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*grib_api-1.14.5 (18 Mar 2016)
+
+  18 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  +files/grib_api-1.14.5-add-missing-destdir.patch,
+  +files/grib_api-1.14.5-disable-failing-test.patch, +grib_api-1.14.5.ebuild,
+  metadata.xml:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  18 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  -files/grib_api-1.9.16-autotools.patch, -files/grib_api-1.9.16-jpeg2k.patch,
+  -files/grib_api-1.9.9-ieeefloat.patch, -grib_api-1.9.16.ebuild:
+  removed old
+
+  Package-Manager: portage-2.2.27
+

@@ -83,3 +83,9 @@
 
   Package-Manager: portage-2.2.26
 
+  18 Mar 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Remove type="" from upstream maintainer
+
+  Remove the type="" attribute from upstream maintainer record as it
+  violates GLEP 46 (and is out of scope for GLEP 67).
+

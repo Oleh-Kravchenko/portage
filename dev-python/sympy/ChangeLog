@@ -116,3 +116,13 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*sympy-1.0 (18 Mar 2016)
+
+  18 Mar 2016; Andrey Grozin <grozin@gentoo.org>
+  +files/sympy-1.0-doc-makefile.patch, +sympy-1.0.ebuild:
+  bump to 1.0
+
+  Bug: 577668
+
+  Package-Manager: portage-2.2.28
+

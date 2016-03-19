@@ -363,3 +363,12 @@
 
   Package-Manager: portage-2.2.28_p60
 
+  18 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-beta-50.0.2661.37_p1.ebuild:
+  www-client/google-chrome: Add REQUIRED_USE="abi_x86_64"
+
+  This should prevent people from accidentatlly trying to install this
+  package on x86 due to portage's autounmask feature.
+
+  Bug: https://bugs.gentoo.org/577678
+

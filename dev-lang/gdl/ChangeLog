@@ -105,3 +105,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gdl-0.9.6 (18 Mar 2016)
+
+  18 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  +files/0.9.6-disable-tests-hanging-under-xvfb-run.patch,
+  +files/0.9.6-fix-file-move.patch,
+  +files/0.9.6-fix-python-function-call.patch, +files/0.9.6-formats.patch,
+  +files/0.9.6-fun-fix.patch, +files/0.9.6-gcc6.patch,
+  +files/0.9.6-python-use-path-and-startup.patch, +gdl-0.9.6.ebuild:
+  Version bump with various patches from Fedora and Debian
+
+  Package-Manager: portage-2.2.27
+

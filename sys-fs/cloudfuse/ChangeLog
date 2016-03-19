@@ -62,3 +62,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 Mar 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Remove status="" from downstream maintainer entry
+
+  Remove the status="" attribute from downstream maintainer entry as it is
+  only allowed on upstream maintainers (per GLEP 46).
+

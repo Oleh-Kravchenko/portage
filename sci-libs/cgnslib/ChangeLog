@@ -63,3 +63,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*cgnslib-3.3.0 (18 Mar 2016)
+
+  18 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> +cgnslib-3.3.0.ebuild,
+  metadata.xml:
+  Version bump
+
+  Package-Manager: portage-2.2.27
+
+  18 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> cgnslib-3.2.1.ebuild:
+  switch to virtual/szip
+
+  Package-Manager: portage-2.2.27
+

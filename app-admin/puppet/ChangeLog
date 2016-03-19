@@ -137,3 +137,10 @@
 
   Package-Manager: portage-2.2.26
 
+*puppet-4.4.0 (18 Mar 2016)
+
+  18 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> +puppet-4.4.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

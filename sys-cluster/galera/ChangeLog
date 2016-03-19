@@ -144,3 +144,22 @@
 
   Package-Manager: portage-2.2.28
 
+*galera-25.3.15 (18 Mar 2016)
+
+  18 Mar 2016; Brian Evans <grknight@gentoo.org>
+  +files/galera-3.15-strip-extra-cflags.patch, +galera-25.3.15.ebuild:
+  Version bump to 25.3.15
+
+  Package-Manager: portage-2.2.28
+
+  18 Mar 2016; Brian Evans <grknight@gentoo.org> -files/disable-tests.patch,
+  -files/galera-3.12-strip-extra-buildconfig.patch,
+  -files/galera-3.12-strip-machine-cflags.patch,
+  -files/galera-3.13-strip-extra-cflags.patch,
+  -files/galera-strip-machine-cflags.patch, -files/respect-flags.patch,
+  -galera-25.3.10.ebuild, -galera-25.3.12.ebuild, -galera-25.3.13.ebuild,
+  -galera-25.3.14.ebuild:
+  Drop old versions
+
+  Package-Manager: portage-2.2.28
+

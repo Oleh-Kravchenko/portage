@@ -131,3 +131,12 @@
 
   Package-Manager: portage-2.2.27
 
+*podget-0.7.10 (18 Mar 2016)
+
+  18 Mar 2016; Ian Delaney <idella4@gentoo.org> +podget-0.7.10.ebuild:
+  verbump to 0.7.10
+
+  Closes: https://github.com/gentoo/gentoo/pull/1079
+
+  Package-Manager: portage-2.2.28
+

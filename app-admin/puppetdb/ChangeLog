@@ -163,3 +163,16 @@
 
   Package-Manager: portage-2.2.26
 
+*puppetdb-4.0.0 (18 Mar 2016)
+
+  18 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +puppetdb-4.0.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+
+  18 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> files/puppetdb.initd:
+  fix -a in init script
+
+  Package-Manager: portage-2.2.26
+

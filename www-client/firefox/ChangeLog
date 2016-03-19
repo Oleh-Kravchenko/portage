@@ -609,3 +609,21 @@
   RepoMan-Options: --include-arches="ppc64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*firefox-45.0.1 (18 Mar 2016)
+*firefox-38.7.1 (18 Mar 2016)
+
+  18 Mar 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-38.5.0.ebuild,
+  -firefox-38.6.1.ebuild, +firefox-38.7.1.ebuild, -firefox-44.0.2.ebuild,
+  -firefox-45.0.ebuild, +firefox-45.0.1.ebuild:
+  version bumps for security bug 576864, remove old
+
+  Version bumps firefox-38.7.1 and firefox-45.0.1 address the graphite2
+  vulnerabilities
+  by disabling the bundled graphite2 library.
+
+  Also addressed in firefox-45.0.1 is bug 577298.
+
+  Old/vulnerable versions 38.5, 38.6.1 and 44.0.2 have been dropped.
+
+  Package-Manager: portage-2.2.26
+

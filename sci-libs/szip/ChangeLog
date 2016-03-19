@@ -64,3 +64,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*szip-2.1-r2 (18 Mar 2016)
+
+  18 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> -szip-2.1-r1.ebuild,
+  +szip-2.1-r2.ebuild:
+  switch to EAPI=6 and blocks libaec
+
+  Package-Manager: portage-2.2.27
+
+  18 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> szip-2.1.ebuild:
+  conflicts with libaec
+
+  Package-Manager: portage-2.2.27
+

@@ -247,3 +247,10 @@
 
   Package-Manager: portage-2.2.27
 
+*dovecot-2.2.22 (18 Mar 2016)
+
+  18 Mar 2016; Eray Aslan <eras@gentoo.org> +dovecot-2.2.22.ebuild:
+  version bump to 2.2.22
+
+  Package-Manager: portage-2.2.28
+

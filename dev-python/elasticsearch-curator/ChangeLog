@@ -141,3 +141,19 @@
 
   Package-Manager: portage-2.2.28
 
+  18 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  elasticsearch-curator-3.5.0.ebuild:
+  remove RESTRICT on tests
+
+  bump to EAPI=6 for vm. 3.5.0
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1077
+
+  18 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  elasticsearch-curator-3.4.0.ebuild, elasticsearch-curator-3.4.1.ebuild,
+  elasticsearch-curator-3.5.0.ebuild:
+  esetup.py dies on its own.
+
+  Package-Manager: portage-2.2.26
+

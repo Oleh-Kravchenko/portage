@@ -139,3 +139,8 @@
 
   Package-Manager: portage-2.2.26
 
+  18 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> networkx-1.11.ebuild:
+  added python 3.5 compat
+
+  Package-Manager: portage-2.2.28
+

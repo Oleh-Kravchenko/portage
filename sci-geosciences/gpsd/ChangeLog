@@ -127,3 +127,8 @@
 
   Package-Manager: portage-2.2.26
 
+  18 Mar 2016; Sam Jorna <wraeth@gentoo.org> gpsd-3.15.ebuild:
+  fix broken include
+
+  Package-Manager: portage-2.2.28
+

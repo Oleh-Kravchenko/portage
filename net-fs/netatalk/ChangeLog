@@ -95,3 +95,6 @@
 
   Bug: 575810
 
+  18 Mar 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Remove duplicate USE=pgp description
+

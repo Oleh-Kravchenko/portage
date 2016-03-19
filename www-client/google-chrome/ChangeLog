@@ -272,3 +272,12 @@
 
   Package-Manager: portage-2.2.27_p81
 
+  18 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-49.0.2623.87_p1.ebuild:
+  Add REQUIRED_USE="abi_x86_64"
+
+  This should prevent people from accidentatlly trying to install this
+  package on x86 due to portage's autounmask feature.
+
+  Bug: https://bugs.gentoo.org/577678
+

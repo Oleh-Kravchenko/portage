@@ -233,3 +233,10 @@
 
   Package-Manager: portage-2.2.26
 
+  18 Mar 2016; Andrey Grozin <grozin@gentoo.org> maxima-5.37.3-r4.ebuild:
+  fix elisp files compilation
+
+  Bug: 576652
+
+  Package-Manager: portage-2.2.28
+

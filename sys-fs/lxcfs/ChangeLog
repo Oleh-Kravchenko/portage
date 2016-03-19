@@ -60,3 +60,9 @@
 
   Package-Manager: portage-2.2.27
 
+  18 Mar 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Remove status="" from downstream maintainer entry
+
+  Remove the status="" attribute from downstream maintainer as it is
+  allowed on upstream maintainers only (GLEP 46).
+

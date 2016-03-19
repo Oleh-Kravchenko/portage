@@ -75,3 +75,10 @@
 
   Package-Manager: portage-2.2.28
 
+*patchelf-0.9 (17 Mar 2016)
+
+  17 Mar 2016; James Le Cuirot <chewi@gentoo.org> +patchelf-0.9.ebuild:
+  Version bump to 0.9 wrt #577632, EAPI bump
+
+  Package-Manager: portage-2.2.28
+

@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.2.28
 
+*mathmod-4.1-r1 (18 Mar 2016)
+
+  18 Mar 2016; Andrey Grozin <grozin@gentoo.org> -mathmod-4.1.ebuild,
+  +mathmod-4.1-r1.ebuild:
+  install some useful files
+
+  Package-Manager: portage-2.2.28
+

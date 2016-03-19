@@ -114,3 +114,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*elementary-xfce-icon-theme-0.7_p20160314 (18 Mar 2016)
+
+  18 Mar 2016; Denis Dupeyron <calchan@gentoo.org>
+  -elementary-xfce-icon-theme-0.7_p20151030.ebuild,
+  +elementary-xfce-icon-theme-0.7_p20160314.ebuild:
+  bump to 0.7_p20160314, migrate to EAPI 6
+
+  18 Mar 2016; Denis Dupeyron <calchan@gentoo.org>
+  elementary-xfce-icon-theme-0.7_p20160314.ebuild:
+  fix header
+

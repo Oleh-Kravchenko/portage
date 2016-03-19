@@ -145,3 +145,13 @@
 
   Package-Manager: portage-2.2.26
 
+*kmix-15.12.3 (18 Mar 2016)
+
+  18 Mar 2016; Michael Palimaka <kensington@gentoo.org> +kmix-15.12.3.ebuild:
+  kde-apps: Add 15.12.3 from kde overlay
+
+  Package-Manager: portage-2.2.27
+
+  18 Mar 2016; Michael Palimaka <kensington@gentoo.org> -kmix-15.12.1.ebuild:
+  kde-apps: Drop 15.12.1
+

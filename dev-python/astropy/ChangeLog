@@ -182,3 +182,12 @@
 
   Package-Manager: portage-2.2.27
 
+*astropy-1.1.2 (18 Mar 2016)
+
+  18 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> +astropy-1.1.2.ebuild,
+  +files/astropy-1.1.2-cfitsio-338.patch,
+  +files/astropy-1.1.2-fix-for-pytest-28.patch:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

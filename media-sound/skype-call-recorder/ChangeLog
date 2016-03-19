@@ -58,3 +58,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*skype-call-recorder-0.11 (17 Mar 2016)
+
+  17 Mar 2016; Maciej Mrozowski <reavertm@gentoo.org>
+  +skype-call-recorder-0.11.ebuild:
+  Version bump 0.11, bug #577532
+
+  Package-Manager: portage-2.2.28
+

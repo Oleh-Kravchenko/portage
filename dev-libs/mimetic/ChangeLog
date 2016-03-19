@@ -12,3 +12,8 @@
 
   Package-Manager: portage-2.2.28
 
+  18 Mar 2016; Patrick Lauer <patrick@gentoo.org> mimetic-0.9.8.ebuild:
+  Add ~x86 #577644
+
+  Package-Manager: portage-2.2.28
+

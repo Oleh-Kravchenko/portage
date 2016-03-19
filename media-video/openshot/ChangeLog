@@ -99,3 +99,11 @@
   Package-Manager: portage-2.2.27
   Closes: https://github.com/gentoo/gentoo/pull/1068
 
+  18 Mar 2016; Ian Delaney <idella4@gentoo.org> openshot-2.0.6.ebuild:
+  add missing dep on dev-python/httplib2
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=577558
+
+  Package-Manager: portage-2.2.27
+  Closes: https://github.com/gentoo/gentoo/pull/1072
+

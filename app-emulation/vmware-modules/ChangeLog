@@ -150,3 +150,14 @@
 
   Package-Manager: portage-2.2.27
 
+*vmware-modules-304.3-r1 (18 Mar 2016)
+
+  18 Mar 2016; Andreas K. Huettel <dilfridge@gentoo.org>
+  +files/304-4.2-00-inode_op.patch, +files/304-4.2-01-vmci_vmalloc.patch,
+  +files/304-4.2-02-vsock.patch, +files/304-4.2-03-vsock.patch,
+  +files/304-4.3-00-misc_deregister.patch, +files/304-4.5-00-get_link.patch,
+  +vmware-modules-304.3-r1.ebuild:
+  Version bump, add patches up to Kernel 4.5
+
+  Imported from vmware overlay
+

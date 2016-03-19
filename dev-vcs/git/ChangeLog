@@ -612,3 +612,15 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*git-2.7.4 (17 Mar 2016)
+*git-2.6.6 (17 Mar 2016)
+*git-2.5.5 (17 Mar 2016)
+*git-2.4.11 (17 Mar 2016)
+
+  17 Mar 2016; Robin H. Johnson <robbat2@gentoo.org> +git-2.4.11.ebuild,
+  +git-2.5.5.ebuild, +git-2.6.6.ebuild, +git-2.7.4.ebuild:
+  releases w/ official CVE-2016-2315 fix; 2.7.4 functionally identical to
+  2.7.3-r1.
+
+  Package-Manager: portage-2.2.27
+
