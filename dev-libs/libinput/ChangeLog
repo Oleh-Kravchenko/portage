@@ -258,3 +258,10 @@
 
   Package-Manager: portage-2.2.26
 
+*libinput-1.2.2 (19 Mar 2016)
+
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +libinput-1.2.2.ebuild:
+  Version bump to 1.2.2
+
+  Package-Manager: portage-2.2.28
+

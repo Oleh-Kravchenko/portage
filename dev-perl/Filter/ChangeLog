@@ -112,3 +112,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  19 Mar 2016; Agostino Sarubbo <ago@gentoo.org> Filter-1.540.0.ebuild:
+  sparc stable wrt bug #572136
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

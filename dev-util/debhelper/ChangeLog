@@ -143,3 +143,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*debhelper-9.20160313 (19 Mar 2016)
+
+  19 Mar 2016; Jeroen Roovers <jer@gentoo.org> +debhelper-9.20160313.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+

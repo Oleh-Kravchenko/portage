@@ -254,3 +254,22 @@
   RepoMan-Options: --include-arches="ppc64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  19 Mar 2016; Agostino Sarubbo <ago@gentoo.org> emacs-24.5-r1.ebuild:
+  sparc stable wrt bug #576532
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  19 Mar 2016; Agostino Sarubbo <ago@gentoo.org> emacs-23.4-r14.ebuild:
+  sparc stable wrt bug #573490
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  19 Mar 2016; Ulrich Müller <ulm@gentoo.org> -emacs-18.59-r10.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.2.28
+

@@ -347,3 +347,56 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  19 Mar 2016; Agostino Sarubbo <ago@gentoo.org> phpmyadmin-4.0.10.14.ebuild,
+  phpmyadmin-4.4.15.4.ebuild, phpmyadmin-4.5.4.1.ebuild:
+  sparc stable wrt bug #573286
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  19 Mar 2016; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> -phpmyadmin-4.5.3.1.ebuild:
+  Drop vulnerable version - fixes bug 573286.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+*phpmyadmin-4.5.5.1 (19 Mar 2016)
+*phpmyadmin-4.4.15.5 (19 Mar 2016)
+*phpmyadmin-4.0.10.15 (19 Mar 2016)
+
+  19 Mar 2016; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> +phpmyadmin-4.0.10.15.ebuild,
+  +phpmyadmin-4.4.15.5.ebuild, +phpmyadmin-4.5.5.1.ebuild:
+  Security bmp to versions 4.0.10.15, 4.4.15.5 and 4.5.5.1 (PMASA-2016-10,
+  PMASA-2016-11, PMASA-2016-12 and PMASA-2016-13) - bug 576136.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+*phpmyadmin-4.6.0_rc1 (19 Mar 2016)
+
+  19 Mar 2016; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> +phpmyadmin-4.6.0_rc1.ebuild:
+  Add new 4.6.0_rc1 release.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+  19 Mar 2016; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> phpmyadmin-4.5.5.1.ebuild,
+  phpmyadmin-4.6.0_rc1.ebuild:
+  Add dropped ~arm keyword to the 4.5 branch and keep it in the 4.6 branch.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+  19 Mar 2016; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> -phpmyadmin-4.0.10.14.ebuild,
+  -phpmyadmin-4.4.15.4.ebuild:
+  Drop vulnerable versions - bug 576136.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+

@@ -110,3 +110,8 @@
   10 Mar 2016; Mike Frysinger <vapier@gentoo.org> +dropbear-2016.72.ebuild:
   version bump to 2016.72
 
+*dropbear-2016.73 (19 Mar 2016)
+
+  19 Mar 2016; Mike Frysinger <vapier@gentoo.org> +dropbear-2016.73.ebuild:
+  version bump to 2016.73
+

@@ -101,3 +101,10 @@
 
   Package-Manager: portage-2.2.27
 
+*libu2f-host-1.1.1 (19 Mar 2016)
+
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +libu2f-host-1.1.1.ebuild:
+  Version bump to 1.1.1
+
+  Package-Manager: portage-2.2.28
+

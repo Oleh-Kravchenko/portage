@@ -126,3 +126,11 @@
   RepoMan-Options: --include-arches="ppc64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  19 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  courier-authlib-0.66.4.ebuild:
+  sparc stable wrt bug #572744
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

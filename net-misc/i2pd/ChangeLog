@@ -157,3 +157,10 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Mar 2016; Anthony G. Basile <blueness@gentoo.org> -files/i2pd.confd,
+  -files/i2pd.initd, -files/i2pd.logrotate, -files/i2pd.service,
+  -i2pd-0.10.0.ebuild, -i2pd-2.4.0-r1.ebuild, -i2pd-2.5.0.ebuild:
+  remove older version
+
+  Package-Manager: portage-2.2.26
+

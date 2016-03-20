@@ -251,3 +251,11 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  19 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  ca-certificates-20151214.3.21.ebuild:
+  sparc stable wrt bug #561962
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

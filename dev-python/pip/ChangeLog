@@ -337,3 +337,10 @@
 
   Package-Manager: portage-2.2.27_p81
 
+*pip-8.1.1 (19 Mar 2016)
+
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +pip-8.1.1.ebuild:
+  Version bump to 8.1.1
+
+  Package-Manager: portage-2.2.28
+

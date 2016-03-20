@@ -256,3 +256,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*virtualenv-15.0.1 (19 Mar 2016)
+
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +virtualenv-15.0.1.ebuild:
+  Version bump to 15.0.1
+
+  Package-Manager: portage-2.2.28
+

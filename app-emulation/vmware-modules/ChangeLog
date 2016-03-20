@@ -161,3 +161,33 @@
 
   Imported from vmware overlay
 
+*vmware-modules-308.1.0 (19 Mar 2016)
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/308-3.10-00-dentry.patch, +files/308-3.10-01-inode.patch,
+  +files/308-3.10-02-control.patch, +files/308-3.10-03-inline.patch,
+  +files/308-3.11-00-readdir.patch, +files/308-3.11-01-filldir.patch,
+  +files/308-3.15-00-vsock.patch, +files/308-3.18-00-version-redefined.patch,
+  +files/308-3.19-00-compat-namei.patch,
+  +files/308-3.19-02-vmblock-path.patch, +files/308-3.19-04-iovec.patch,
+  +files/308-3.19-05-vmci_qpair.patch, +files/308-3.19-06-vsock.patch,
+  +files/308-3.19-07-vsock.patch, +files/308-4.01-00-vsock.patch,
+  +files/308-4.02-00-nd_set_link.patch, +files/308-4.02-01-sk_alloc.patch,
+  +files/308-4.03-00-vmci-misc_deregister.patch,
+  +files/308-4.03-00-vmmon-misc_deregister.patch,
+  +files/308-4.05-00-vmblock-follow_link.patch, +files/308-apic.patch,
+  +files/308-hardened.patch, +files/308-makefile-include.patch,
+  +files/308-makefile-kernel-dir.patch, +files/308-netdevice.patch,
+  +vmware-modules-308.1.0.ebuild:
+  Major version bump. Imported from the vmware overlay.
+
+  Many thanks to
+  * Alex Xu <alex_y_xu@yahoo.ca>
+  * Billy DeVincentis <billydv1@verizon.net>
+  * Fabio Rossi <rossi.f@inwind.it>
+  * Evan Teran <evan.teran@gmail.com>
+  * Harris Landgarten <harrisl@lhjonline.com>
+  and to everyone else who helped on bug 559798.
+
+  Package-Manager: portage-2.2.27
+

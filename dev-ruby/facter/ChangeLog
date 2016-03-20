@@ -169,3 +169,8 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> facter-3.1.5.ebuild:
+  fixing the separation of the leatherman dep
+
+  Package-Manager: portage-2.2.26
+

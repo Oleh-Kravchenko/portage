@@ -30,6 +30,27 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas K. Huettel <dilfridge@gentoo.org> (19 Mar 2016)
+# Dead upstream since 2010, new VMware uses new incompatible
+# proprietary libview. No other consumers. Removal in 30 days.
+# Bug 569930
+x11-libs/libview
+
+# Aaron Bauman <bman@gentoo.org> (19 Mar 2016)
+# Unpatched security vulnerability per bug #512356.
+# Masked for removal in 30 days.
+app-forensics/chkrootkit
+
+# Aaron Bauman <bman@gentoo.org> (19 Mar 2016)
+# Unpatched security vulnerability per bug #529712.
+# Masked for removal in 30 days.
+www-apps/coppermine
+
+# Aaron Bauman <bman@gentoo.org> (19 Mar 2016)
+# Multiple unpatched security vulnerabilities
+# per bug #523040. Masked for removal in 30 days.
+dev-libs/matrixssl
+
 # Michael Palimaka <kensington@gentoo.org> (17 Mar 2016)
 # Dead upstream. Doesn't work with new Twitter API.
 # Masked for removal in 30 days.
@@ -211,12 +232,6 @@ net-p2p/gift-gnutella
 net-p2p/gift-openft
 net-p2p/giftcurs
 sec-policy/selinux-gift
-
-# Michael Sterrett <mr_bones_@gentoo.org> (18 Feb 2016)
-# Now part of games-emulation/sdlmame
-# Masked for removal on 20160319
-games-emulation/sdlmess
-games-emulation/sdlmametools
 
 # Michael Palimaka <kensington@gentoo.org> (18 Feb 2016)
 # Fails to build. Dead upstream.

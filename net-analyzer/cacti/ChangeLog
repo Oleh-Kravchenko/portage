@@ -122,3 +122,10 @@
 
   Package-Manager: portage-2.2.27
 
+  19 Mar 2016; Agostino Sarubbo <ago@gentoo.org> cacti-0.8.8f-r1.ebuild:
+  sparc stable wrt bug #568400
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

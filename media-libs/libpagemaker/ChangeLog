@@ -69,3 +69,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libpagemaker-0.0.3 (19 Mar 2016)
+
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +libpagemaker-0.0.3.ebuild:
+  Version bump to 0.0.3
+
+  Package-Manager: portage-2.2.28
+

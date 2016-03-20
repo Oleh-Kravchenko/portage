@@ -707,6 +707,7 @@ app-emulation/virtualbox-modules:pax_kernel - Apply patch needed for pax enabled
 app-emulation/vmware-modules:pax_kernel - Apply patch needed for pax enabled kernels
 app-emulation/vmware-modules:vmci - Build the Virtual Machine Communication Interface module; disable this if you want to use the module from the mainline kernel
 app-emulation/vmware-modules:vsock - Build the VMware VMCI transport for Virtual Sockets; disable this if you want to use the module from the mainline kernel
+app-emulation/vmware-player:bundled-libs - Use precompiled bundled libraries instead of the system installation
 app-emulation/vmware-player:ovftool - Install OVF tool for importing and exporting appliance files
 app-emulation/vmware-player:vmware-tools - Install VMware Tools images
 app-emulation/vmware-workstation:bundled-libs - Use precompiled bundled libraries instead of the system installation
@@ -1414,6 +1415,7 @@ dev-db/spatialite:proj - Add the sci-libs/proj library for reprojection features
 dev-db/spatialite:xls - Add the dev-libs/freexl library for xls import support
 dev-db/sqlite:secure-delete - Enable overwriting of deleted content with zeros by default (http://sqlite.org/pragma.html#pragma_secure_delete), causing some performance penalty
 dev-db/sqlite:tools - Install additional tools
+dev-db/sqlitestudio:cli - Build CLI interface
 dev-db/tokumx:pax_kernel - Apply patch needed for hardened kernels
 dev-db/unixODBC:minimal - Disable bundled drivers and extra libraries (most users don't need these)
 dev-db/unixODBC:odbcmanual - Administrator, Internal Structure, Programmer and User documentation
@@ -1907,6 +1909,18 @@ dev-libs/DirectFB:webp - build WebP image provider
 dev-libs/STLport:boost - Enable the usage of dev-libs/boost
 dev-libs/ace:ciao - Include Component Intergraced Ace ORB into the build of ace
 dev-libs/ace:tao - Include the ACE ORB (CORBA stuff) (called tao) into the build of ace
+dev-libs/actor-framework:benchmarks - Due to the number of out-of-tree deps, these only get installed as docs
+dev-libs/actor-framework:boost - Make use of Boost's ASIO functionality
+dev-libs/actor-framework:cash - Build the C Actor Shell for introspection and debugging
+dev-libs/actor-framework:debug - Raises log-level to DEBUG, enables runtime checks and address sanitizer
+dev-libs/actor-framework:doc - Compiles and installs the documentation as PDF and HTML
+dev-libs/actor-framework:examples - Installs the provided example source files
+dev-libs/actor-framework:mem_management - Enables built-in memory management
+dev-libs/actor-framework:nexus - Nexus is the central component for CAF's runtime inspection
+dev-libs/actor-framework:opencl - Compiles against the provided opencl implementation
+dev-libs/actor-framework:riac - Runtime inspection and configuration
+dev-libs/actor-framework:static - Provides a static build
+dev-libs/actor-framework:test - Builds the provided unit tests
 dev-libs/antlr-c:debugger - Compiles debug info into the library
 dev-libs/apr:older-kernels-compatibility - Enable binary compatibility with older kernels
 dev-libs/apr:urandom - Use /dev/urandom instead of /dev/random
@@ -4948,6 +4962,17 @@ net-analyzer/argus-clients:ft - Enable support for flow packets through net-anal
 net-analyzer/barnyard:sguil - Enable sguil (The Analyst Console for Network Security Monitoring) support
 net-analyzer/barnyard2:gre - Enable GRE support
 net-analyzer/barnyard2:mpls - Enable support for mpls networks
+net-analyzer/bro:broccoli - Enable the Bro Client Communication Library
+net-analyzer/bro:broctl - An interactive shell for managing Bro installations
+net-analyzer/bro:broker - Bro's (new) Messaging Library
+net-analyzer/bro:geoip - Enable support for Maxmind's GeoIP library
+net-analyzer/bro:ipv6 - Support for mobile IPv6
+net-analyzer/bro:jemalloc - Support for the Jemalloc allocator
+net-analyzer/bro:mta - Enable Bro to send e-mails
+net-analyzer/bro:python - Enable Python bindings
+net-analyzer/bro:ruby - Enable Ruby bindings (deprecated)
+net-analyzer/bro:tcmalloc - Enable Google's Performance Analysis Tools
+net-analyzer/bro:tools - Small auxiliary tools for Bro
 net-analyzer/bwm-ng:csv - Enable csv output
 net-analyzer/bwm-ng:html - Enable html output
 net-analyzer/cacti:doc - install html documentation
@@ -4991,6 +5016,7 @@ net-analyzer/icinga2:mail - Allows for mailing of alerts
 net-analyzer/icinga2:nano-syntax - Adds support for syntax used in the nano editor
 net-analyzer/icinga2:plugins - Adds support for nagios plugins
 net-analyzer/icinga2:studio - Adds support for Icinga-studio
+net-analyzer/ipsumdump:nanotimestamp - Enable timestamps with nano-second resolution
 net-analyzer/linkchecker:sqlite - Mozilla Bookmark parsing
 net-analyzer/metasploit:development - Install dependencies needed for metasploit and exploit development
 net-analyzer/metasploit:oracle - Enable restricted oracle modules which have additional deps
@@ -7107,6 +7133,13 @@ sys-apps/dbus:systemd - Build with sys-apps/systemd at_console support
 sys-apps/dmtcp:fast - Enable experimental performance options such as mmap allocator.
 sys-apps/dmtcp:trace - Enable ptrace support (only valid with debug enabled).
 sys-apps/dstat:wifi - Enable wireless network functions
+sys-apps/duc:X - Use X11 for the GUI instead of OpenGL. This is the recommended option
+sys-apps/duc:cairo - Build support for exporting to PNG and PDF with x11-libs/cairo
+sys-apps/duc:gui - Build support for a graphical client
+sys-apps/duc:leveldb - Use dev-libs/leveldb as the backend
+sys-apps/duc:ncurses - Build support for the ncurses client
+sys-apps/duc:sqlite - Use dev-db/sqlite:3 as the backend
+sys-apps/duc:tokyocabinet - Use dev-db/tokyocabinet as the backend
 sys-apps/elfix:ptpax - Enable PT_PAX_FLAGS support.
 sys-apps/elfix:xtpax - Enable XATTR_PAX_FLAGS support.
 sys-apps/entropy-server:matter - Pull in app-admin/matter

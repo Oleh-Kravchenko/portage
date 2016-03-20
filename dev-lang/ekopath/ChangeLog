@@ -229,3 +229,11 @@
   +ekopath-6.0.713_p20160311-r1.ebuild, ekopath-6.0.713_p20160311-r100.ebuild:
   Add slotted variants of the old versions
 
+*ekopath-6.0.720_p20160316-r100 (19 Mar 2016)
+*ekopath-6.0.720_p20160316-r1 (19 Mar 2016)
+
+  19 Mar 2016; Michał Górny <mgorny@gentoo.org>
+  +ekopath-6.0.720_p20160316-r1.ebuild,
+  +ekopath-6.0.720_p20160316-r100.ebuild:
+  Snapshot bump
+

@@ -453,3 +453,16 @@
 
   Package-Manager: portage-2.2.27
 
+*setuptools-20.3.1 (19 Mar 2016)
+
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +setuptools-20.3.1.ebuild:
+  Version bump to 20.3.1
+
+  Package-Manager: portage-2.2.28
+
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -setuptools-18.7.ebuild,
+  -setuptools-18.8.ebuild, -setuptools-19.6.ebuild, -setuptools-19.6.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

@@ -1135,3 +1135,10 @@
 
   Package-Manager: portage-2.2.28
 
+  19 Mar 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-3.12.53.ebuild, -gentoo-sources-3.12.54.ebuild,
+  -gentoo-sources-3.12.55.ebuild, -gentoo-sources-3.12.56.ebuild:
+  Clean up 3.12.X series
+
+  Package-Manager: portage-2.2.26
+

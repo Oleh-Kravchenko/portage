@@ -196,3 +196,13 @@
 
   Package-Manager: portage-2.2.28
 
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -poppler-0.40.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> poppler-9999.ebuild:
+  Update live ebuild from 0.42.0
+
+  Package-Manager: portage-2.2.28
+

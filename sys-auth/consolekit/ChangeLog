@@ -225,3 +225,17 @@
 
   Package-Manager: portage-2.2.26
 
+*consolekit-1.1.0 (19 Mar 2016)
+
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +consolekit-1.1.0.ebuild:
+  Version bump to 1.1.0
+
+  Package-Manager: portage-2.2.28
+
+  19 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> consolekit-1.1.0.ebuild,
+  consolekit-9999.ebuild:
+  Bump to EAPI-6
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -238,3 +238,10 @@
 
   Package-Manager: portage-2.2.27
 
+*colorama-0.3.7 (19 Mar 2016)
+
+  19 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +colorama-0.3.7.ebuild:
+  Version bump to 0.3.7
+
+  Package-Manager: portage-2.2.28
+

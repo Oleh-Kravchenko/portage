@@ -209,3 +209,10 @@
 
   Package-Manager: portage-2.2.28
 
+  19 Mar 2016; Agostino Sarubbo <ago@gentoo.org> claws-mail-3.13.2.ebuild:
+  sparc stable wrt bug #570692
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
