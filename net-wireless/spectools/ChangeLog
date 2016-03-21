@@ -93,3 +93,10 @@
 
   Package-Manager: portage-2.2.27
 
+  20 Mar 2016; David Seifert <soap@gentoo.org> spectools-2016.01.1.ebuild:
+  add -std=gnu89 to CFLAGS to restore pre-GCC5 semantics
+
+  Gentoo-Bug: 577466
+
+  Package-Manager: portage-2.2.28
+

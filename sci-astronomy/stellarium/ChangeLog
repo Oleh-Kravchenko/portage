@@ -139,3 +139,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/stellarium-0.13.3-qt55.patch, -stellarium-0.13.3.ebuild,
+  -stellarium-0.14.0.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

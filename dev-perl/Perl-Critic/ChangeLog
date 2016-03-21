@@ -80,3 +80,31 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*Perl-Critic-1.126.0 (19 Mar 2016)
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Perl-Critic-1.126.0.ebuild, +files/50Perl-Critic-gentoo.el, metadata.xml:
+  Bump to version 1.126.0
+
+  - EAPI6
+  - expose examples properly through USE="examples"
+  - install emacs script (currently broken) properly via USE="emacs"
+  - optional-but-useful test deps exposed through USE="minimal test"
+  - Excess deps pruned.
+
+  Upstream:
+  - No longer confused by version numbers in autodie pragmas
+  - High use modules like "Moose" now satisfy "strict+warnings" requirements
+  - New "ControlStructures::ProhibitYadaOperator" policy
+
+  Keywords: Needs re-keywording for ~alpha due to Task-Weaken
+
+  Package-Manager: portage-2.2.28
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Perl-Critic-1.118.0-r1.ebuild, Perl-Critic-1.123.ebuild,
+  Perl-Critic-1.126.0.ebuild:
+  Fix dependency on dev-perl/Perl-Tidy
+
+  Package-Manager: portage-2.2.28
+

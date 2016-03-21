@@ -98,3 +98,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -freedroidrpg-0.15.1.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

@@ -164,3 +164,18 @@
 
   Package-Manager: portage-2.2.28
 
+*vmware-player-12.1.0.3272444-r2 (19 Mar 2016)
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -vmware-player-12.1.0.3272444-r1.ebuild,
+  +vmware-player-12.1.0.3272444-r2.ebuild:
+  Update systemd unit files
+
+  Package-Manager: portage-2.2.28
+
+  20 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  vmware-player-12.1.0.3272444-r2.ebuild:
+  Drop pulseaudio requirement after reports on bug 559798
+
+  Package-Manager: portage-2.2.27
+

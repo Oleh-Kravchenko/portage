@@ -1142,3 +1142,27 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Mar 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-3.14.59.ebuild, -gentoo-sources-3.14.60.ebuild,
+  -gentoo-sources-3.14.61.ebuild, -gentoo-sources-3.14.62.ebuild,
+  -gentoo-sources-3.14.63.ebuild, -gentoo-sources-3.14.64.ebuild:
+  Clean anup of 3.14.X
+
+  Package-Manager: portage-2.2.26
+
+  19 Mar 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-4.4.0-r1.ebuild, -gentoo-sources-4.4.1.ebuild,
+  -gentoo-sources-4.4.2.ebuild, -gentoo-sources-4.4.4.ebuild,
+  -gentoo-sources-4.4.5.ebuild:
+  Cl Cleanup Linux patch version 4.4.X
+
+  Package-Manager: portage-2.2.26
+
+  19 Mar 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-4.1.15-r1.ebuild, -gentoo-sources-4.1.16.ebuild,
+  -gentoo-sources-4.1.17.ebuild, -gentoo-sources-4.1.18.ebuild,
+  -gentoo-sources-4.1.19.ebuild:
+  Cleanup linux version 4.1.X
+
+  Package-Manager: portage-2.2.26
+

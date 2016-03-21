@@ -165,3 +165,18 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Mar 2016; Agostino Sarubbo <ago@gentoo.org> libssh-0.7.3.ebuild:
+  ia64 stable wrt bug #575484
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  20 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/libssh-0.6.5-compilefix.patch, -libssh-0.6.5.ebuild,
+  -libssh-0.7.2.ebuild:
+  Security cleanup (bug #575484).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

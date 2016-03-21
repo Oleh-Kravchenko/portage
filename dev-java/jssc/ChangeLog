@@ -44,3 +44,13 @@
 
   Package-Manager: portage-2.2.26
 
+*jssc-2.8.0-r1 (19 Mar 2016)
+
+  19 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/jssc-2.8.0-library-load.patch, +jssc-2.8.0-r1.ebuild:
+  Rewrite ebuild to properly compile missing .so.
+
+  Gentoo-Bug: https://bugs.gentoo.org/577756
+
+  Package-Manager: portage-2.2.26
+

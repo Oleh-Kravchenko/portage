@@ -78,3 +78,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*vips-7.26.7-r1 (20 Mar 2016)
+
+  20 Mar 2016; Fabian Groffen <grobian@gentoo.org> +vips-7.26.7-r1.ebuild:
+  update dependencies as per changelog, bug #416815
+
+  Package-Manager: portage-2.2.27-prefix
+

@@ -216,3 +216,10 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -claws-mail-3.9.0.ebuild, -claws-mail-3.13.1.ebuild, metadata.xml:
+  Security cleanup (bug #570692).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

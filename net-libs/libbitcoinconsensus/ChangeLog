@@ -117,3 +117,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libbitcoinconsensus-0.12.0 (20 Mar 2016)
+
+  20 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  files/9999-syslibs.patch, +files/bugfix_bench_checks.patch,
+  +libbitcoinconsensus-0.12.0.ebuild, libbitcoinconsensus-9999.ebuild,
+  metadata.xml:
+  net-p2p/bitcoin*: bump all pkgs to 0.12.0 and update 9999
+

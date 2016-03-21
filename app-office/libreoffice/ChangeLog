@@ -377,3 +377,31 @@
 
   Package-Manager: portage-2.2.27
 
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/libreoffice-5.1.1.3-gtk3.patch, libreoffice-5.1.1.3.ebuild:
+  Fix USE="gtk3 -gtk", restore keywords
+
+  Package-Manager: portage-2.2.27
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-9999.ebuild:
+  Fix liborcus DEPEND, bashcomp, xmlsec tarball
+
+  - >=dev-libs/liborcus-0.11.1
+  - bashcomp: bug 575974
+  - xmlsec-1.2.16.tar.gz: bug 577278
+
+  Package-Manager: portage-2.2.27
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -files/libreoffice-4.3.5.2-remove-bashisms.patch,
+  -files/libreoffice-4.4.0.3-telepathy-build-fix.patch,
+  -files/libreoffice-4.4.1.2-add-kde4-open-url-script.patch,
+  -files/libreoffice-4.4.4.3-cleanup-IsNativeControlSupported.patch,
+  -files/libreoffice-4.4.4.3-fix-KDE4-FileDialog.patch,
+  -files/libreoffice-4.4.4.3-improve-KDE4FilePicker.patch,
+  -files/libreoffice-4.4.5.2-fix-KDE4-listbox-regression.patch:
+  Drop obsolete 4.4 patches
+
+  Package-Manager: portage-2.2.27
+

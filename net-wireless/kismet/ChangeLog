@@ -101,3 +101,11 @@
 
   Package-Manager: portage-2.2.27
 
+  20 Mar 2016; David Seifert <soap@gentoo.org>
+  files/kismet-2016.01.1-tinfo.patch, kismet-2016.01.1.ebuild:
+  Fix ncurses linking by using PKG_CHECK_MODULES
+
+  * Also fix missing 'm4/ax_pthread.m4' by including in patch
+
+  Package-Manager: portage-2.2.28
+

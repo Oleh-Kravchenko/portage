@@ -105,3 +105,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  20 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/stratagus-2.2.7-debug.patch, -files/stratagus-2.2.7-doc.patch,
+  -stratagus-2.2.7.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

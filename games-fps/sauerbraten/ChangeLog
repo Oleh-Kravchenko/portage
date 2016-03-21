@@ -99,3 +99,12 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/sauerbraten-2013.01.04-QA.patch,
+  -files/sauerbraten-2013.01.04-master.patch,
+  -files/sauerbraten-2013.01.04-system-enet.patch,
+  -files/sauerbraten_unix.patch, -sauerbraten-2013.01.04.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

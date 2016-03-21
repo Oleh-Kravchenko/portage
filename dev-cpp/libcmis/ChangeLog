@@ -81,3 +81,17 @@
 
   Package-Manager: portage-2.2.27
 
+*libcmis-0.5.1 (19 Mar 2016)
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +libcmis-0.5.1.ebuild,
+  libcmis-9999.ebuild, metadata.xml:
+  0.5.1 version bump
+
+  Package-Manager: portage-2.2.27
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -files/libcmis-0.2.3-do-not-override-phases.patch, -libcmis-0.5.0.ebuild:
+  Drop old ebuild and unused patch
+
+  Package-Manager: portage-2.2.27
+

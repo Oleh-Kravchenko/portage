@@ -139,3 +139,14 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Mar 2016; Ian Delaney <idella4@gentoo.org> -eid-mw-4.0.6_p1480.ebuild,
+  -eid-mw-4.0.6_p1620.ebuild, -files/eid-mw-4.0.2_p1188+gcc-4.7.patch,
+  -files/fix-nodialog-bug.patch:
+  rm old and related patches
+
+  Removed files requested byt the proxy maintianer via the
+
+  Gentoo-bug: #577642
+
+  Package-Manager: portage-2.2.28
+

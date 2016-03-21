@@ -10,3 +10,13 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Mar 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  Fix metadata.xml file.
+
+  Package-Manager: portage-2.2.26
+
+  19 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> metadata.xml:
+  add remote-id
+
+  Package-Manager: portage-2.2.26
+

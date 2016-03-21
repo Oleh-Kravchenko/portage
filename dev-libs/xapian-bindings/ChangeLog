@@ -195,3 +195,11 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  xapian-bindings-1.2.22.ebuild:
+  ia64 stable wrt bug #574638
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

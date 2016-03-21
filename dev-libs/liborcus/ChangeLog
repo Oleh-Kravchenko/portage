@@ -107,3 +107,19 @@
 
   Package-Manager: portage-2.2.27
 
+*liborcus-0.11.1 (19 Mar 2016)
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +liborcus-0.11.1.ebuild, liborcus-9999.ebuild:
+  0.11.1 version bump
+
+  Package-Manager: portage-2.2.27
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -files/liborcus-0.5.1-linking.patch, -files/liborcus-0.5.1-mdds.patch,
+  -files/liborcus-0.5.1-oldnamespace.patch,
+  -files/liborcus-0.7.0-boost-1.56.patch, -liborcus-0.7.0.ebuild:
+  Drop 0.7.0 and obsolete patches
+
+  Package-Manager: portage-2.2.27
+

@@ -86,3 +86,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  20 Mar 2016; Mike Gilbert <floppym@gentoo.org> gentoopm-9999.ebuild:
+  Remove invalid git urls
+
+  Package-Manager: portage-2.2.28_p64
+

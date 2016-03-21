@@ -26,7 +26,7 @@ LICENSE="vmware GPL-2 GPL-3"
 SLOT="0"
 KEYWORDS="-* ~amd64"
 IUSE="bundled-libs cups doc ovftool server vix +vmware-tools"
-RESTRICT="mirror strip preserve-libs"
+RESTRICT="mirror strip"
 
 BUNDLED_LIBS_DIR=/opt/vmware/lib/vmware/lib
 
@@ -152,7 +152,6 @@ RDEPEND="
 	media-libs/libpng:0
 	media-libs/libvorbis
 	media-libs/mesa
-	media-sound/pulseaudio
 	net-dns/libidn
 	net-libs/gnutls
 	net-print/cups

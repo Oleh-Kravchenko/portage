@@ -106,3 +106,10 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> -libotr-3.2.1.ebuild,
+  -libotr-4.1.0.ebuild:
+  Security cleanup (bug #576914).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -63,3 +63,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Perl-Critic-Deprecated-1.119.0 (19 Mar 2016)
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Perl-Critic-Deprecated-1.119.0.ebuild, metadata.xml:
+  Bump to version 1.119.0
+
+  - EAPI6
+
+  Upstream:
+  - Migrates Perl::Critic::Policy::Miscellanea::RequireRcsKeywords
+
+  Package-Manager: portage-2.2.28
+

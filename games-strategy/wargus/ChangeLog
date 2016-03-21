@@ -102,3 +102,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org> -wargus-2.2.7.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

@@ -70,3 +70,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  20 Mar 2016; Fabian Groffen <grobian@gentoo.org> liboil-0.3.17-r2.ebuild:
+  fix compilation with Clang on Darwin, bug #576646
+
+  Package-Manager: portage-2.2.27
+

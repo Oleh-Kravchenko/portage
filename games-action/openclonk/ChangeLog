@@ -141,3 +141,11 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/openclonk-6.1-dedicated.patch, -files/openclonk-6.1-jpeg9.patch,
+  -files/openclonk-6.1-paths.patch, -files/openclonk-6.1-postinst.patch,
+  -openclonk-6.1.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

@@ -133,3 +133,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*bitcoind-0.12.0 (20 Mar 2016)
+
+  20 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  +bitcoind-0.12.0.ebuild, bitcoind-9999.ebuild, files/9999-syslibs.patch,
+  metadata.xml:
+  net-p2p/bitcoin*: bump all pkgs to 0.12.0 and update 9999
+

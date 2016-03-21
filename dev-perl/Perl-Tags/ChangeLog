@@ -71,3 +71,29 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Perl-Tags-0.320.0 (19 Mar 2016)
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Perl-Tags-0.320.0.ebuild, +files/vim_noplugin.patch:
+  Bumped to version 0.320.0
+
+  - EAPI6
+  - Fix vim failure test https://rt.cpan.org/Ticket/Display.html?id=105899
+  - Fix installation of README.pod
+  https://rt.cpan.org/Ticket/Display.html?id=113166
+  - Make more dependencies optional
+
+  Upstream:
+  - Added fatpacked script
+  - Improved defaults
+  - Add Moose scraping tagger
+  - Add PPI + Native hybrid tagger
+  - Added -files option
+  - Option -no-vars fixed
+  - Tests use $^X instead of `perl`
+
+  Keywords:
+   Dropped: amd64-linux ppc-macos sparc-solaris x86-linux x86-macos
+
+  Package-Manager: portage-2.2.28
+

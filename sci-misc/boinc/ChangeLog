@@ -76,3 +76,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*boinc-7.6.31 (20 Mar 2016)
+
+  20 Mar 2016; David Seifert <soap@gentoo.org> +boinc-7.6.31.ebuild,
+  metadata.xml:
+  New ebuild boinc-7.6.31.ebuild
+
+  Gentoo-Bug: 577490
+
+  Package-Manager: portage-2.2.28
+

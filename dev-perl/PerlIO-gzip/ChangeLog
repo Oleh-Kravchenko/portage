@@ -63,3 +63,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*PerlIO-gzip-0.190.0 (19 Mar 2016)
+
+  19 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +PerlIO-gzip-0.190.0.ebuild:
+  Bump to version 0.190.0
+
+  - EAPI6
+  - Simplify DESCRIPTION
+
+  Upstream:
+  - Fix bug with sfio removal https://rt.cpan.org/Ticket/Display.html?id=92412
+  - Fix gcc warning https://rt.cpan.org/Ticket/Display.html?id=92031
+
+  Package-Manager: portage-2.2.28
+

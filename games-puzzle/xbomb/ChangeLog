@@ -106,3 +106,10 @@
   RepoMan-Options: --include-arches="ppc64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Mar 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/xbomb-2.2a-DESTDIR.patch, -files/xbomb-2.2a-ldflags.patch,
+  -xbomb-2.2a.ebuild:
+  clean old
+
+  Package-Manager: portage-2.2.26
+

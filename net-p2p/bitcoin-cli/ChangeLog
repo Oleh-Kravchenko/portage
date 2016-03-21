@@ -133,3 +133,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*bitcoin-cli-0.12.0 (20 Mar 2016)
+
+  20 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  +bitcoin-cli-0.12.0.ebuild, metadata.xml:
+  net-p2p/bitcoin*: bump all pkgs to 0.12.0 and update 9999
+
+  20 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  bitcoin-cli-0.10.2.ebuild, bitcoin-cli-0.11.0.ebuild,
+  bitcoin-cli-0.11.1.ebuild, bitcoin-cli-0.11.2.ebuild,
+  bitcoin-cli-0.12.0.ebuild, bitcoin-cli-9999.ebuild:
+  shorten the description
+
+  Package-Manager: portage-2.2.26
+

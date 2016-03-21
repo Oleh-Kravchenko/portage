@@ -176,3 +176,9 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  19 Mar 2016; Patrice Clement <monsieurp@gentoo.org> fail2ban-0.9.4.ebuild:
+  apply changes from the 0.9.3 ebuild to 0.9.4
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1078
+

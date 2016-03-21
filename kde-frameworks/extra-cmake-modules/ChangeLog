@@ -170,3 +170,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --force
 
+*extra-cmake-modules-5.20.0 (20 Mar 2016)
+
+  20 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  +extra-cmake-modules-5.20.0.ebuild:
+  kde-frameworks: version bump 5.20
+
+  Package-Manager: portage-2.2.28
+
