@@ -91,3 +91,6 @@
 
   Package-Manager: portage-2.2.27-prefix
 
+  21 Mar 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  sys-devel/{gcc,gcc-apple,kgcc64}: update USE=multislot description
+

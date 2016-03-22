@@ -292,3 +292,8 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Mar 2016; Brian Evans <grknight@gentoo.org> -mysql-5.6.27.ebuild:
+  Drop security vulnerable version
+
+  Package-Manager: portage-2.2.28
+

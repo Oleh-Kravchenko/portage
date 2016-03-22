@@ -267,3 +267,32 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  ca-certificates-20151214.3.21.ebuild:
+  mark 20151214.3.21 m68k/s390/sh stable
+
+  21 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  -ca-certificates-20140927.3.17.2.ebuild,
+  -ca-certificates-20141019.3.17.4.ebuild,
+  -ca-certificates-20141019.3.19.ebuild,
+  -ca-certificates-20141019.3.19-r1.ebuild,
+  -ca-certificates-20150426.3.20.ebuild,
+  -ca-certificates-20150426.3.20-r1.ebuild,
+  -files/ca-certificates-20110502-root.patch,
+  -files/ca-certificates-20141019-root.patch,
+  -files/ca-certificates-20150426-nss-certdata2pem-py3.patch:
+  drop old <20151214.3.21 versions
+
+  21 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  ca-certificates-20151214.3.21.ebuild, ca-certificates-20160104.3.21.ebuild:
+  unpacker.eclass: move deb2targz dep out of ca-certificates
+
+*ca-certificates-20160104.3.23 (21 Mar 2016)
+
+  21 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  +ca-certificates-20160104.3.23.ebuild:
+  version bump #573786
+
+  Also simplify the c_rehash dep since we don't care about the specific
+  version we use.
+

@@ -281,3 +281,12 @@
 
   Bug: https://bugs.gentoo.org/577678
 
+  21 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-49.0.2623.87_p1.ebuild:
+  Revert "www-client/google-chrome: Add REQUIRED_USE="abi_x86_64""
+
+  This reverts commit 8e336a3b9265100c300094900f4601296e317333.
+
+  Adding this REQUIRED_USE constraint is pretty hacky and users will
+  quickly figure out that the ebuild doesn't work anyway.
+

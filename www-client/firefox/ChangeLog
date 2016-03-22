@@ -627,3 +627,12 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Mar 2016; Steev Klimaszewski <steev@gentoo.org> firefox-38.7.1.ebuild:
+  Add ~arm64 keyword
+
+  Currently, 45.x doesn't build on arm64, but 38 does, so we keyword it and
+  ignore
+  repoman's complaint that keywords are dropped.
+
+  Package-Manager: portage-2.2.28
+

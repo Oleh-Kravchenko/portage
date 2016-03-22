@@ -547,3 +547,10 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Mar 2016; Alexis Ballier <aballier@gentoo.org> -ffmpeg-2.6.3.ebuild,
+  -ffmpeg-2.6.4.ebuild, -ffmpeg-2.8.5.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -66,3 +66,9 @@
 
   Bug: 575810
 
+  20 Mar 2016; Steev Klimaszewski <steev@gentoo.org>
+  xcursor-neutral-1.20.ebuild:
+  Add ~arm64 keyword
+
+  Package-Manager: portage-2.2.28
+

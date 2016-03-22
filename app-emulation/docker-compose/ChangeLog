@@ -106,3 +106,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*docker-compose-1.6.2 (20 Mar 2016)
+
+  20 Mar 2016; Alex Brandt <alunduil@gentoo.org> +docker-compose-1.6.2.ebuild:
+  add version 1.6.2
+
+  Package-Manager: portage-2.2.28
+
+  20 Mar 2016; Alex Brandt <alunduil@gentoo.org> -docker-compose-1.4.0.ebuild:
+  remove version 1.4.0
+
+  Package-Manager: portage-2.2.28
+

@@ -93,3 +93,13 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --include-arches="arm"
 
+  21 Mar 2016; Thomas Kahle <tomka@gentoo.org> normaliz-3.1.0.ebuild:
+  arm added to latest version.
+
+  Package-Manager: portage-2.2.26
+
+  21 Mar 2016; Thomas Kahle <tomka@gentoo.org> -normaliz-3.0.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.26
+

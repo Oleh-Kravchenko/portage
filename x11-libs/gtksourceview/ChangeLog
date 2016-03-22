@@ -162,3 +162,9 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Mar 2016; Steev Klimaszewski <steev@gentoo.org>
+  gtksourceview-2.10.5-r3.ebuild:
+  Add ~arm64 keyword to 2.10.5-r3
+
+  Package-Manager: portage-2.2.28
+

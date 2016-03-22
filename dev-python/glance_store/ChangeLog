@@ -102,3 +102,11 @@
 
   Package-Manager: portage-2.2.26
 
+*glance_store-0.9.2 (21 Mar 2016)
+
+  21 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +glance_store-0.9.2.ebuild:
+  bup liberty
+
+  Package-Manager: portage-2.2.26
+

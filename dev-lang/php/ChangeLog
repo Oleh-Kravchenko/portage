@@ -1150,3 +1150,25 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*php-7.0.4-r1 (21 Mar 2016)
+
+  21 Mar 2016; Michael Orlitzky <mjo@gentoo.org> -php-7.0.4.ebuild,
+  +php-7.0.4-r1.ebuild:
+  revision the 7.0 series to add pdo-dblib support.
+
+  The PDO "dblib" driver was somehow lost during the transition from
+  php:5.6 to php:7.0. I've added it back, and tested that it works with
+  a simple query against a Microsoft SQL Server 2005 database.
+
+  Gentoo-Bug: 576782
+
+  Package-Manager: portage-2.2.26
+
+  21 Mar 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.5.30.ebuild,
+  -php-5.6.14.ebuild:
+  remove vulnerable php-5.5.30 and php-5.6.14.
+
+  Gentoo-Bug: 571254
+
+  Package-Manager: portage-2.2.26
+

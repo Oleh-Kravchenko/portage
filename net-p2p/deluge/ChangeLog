@@ -227,3 +227,11 @@
   Gentoo-Bug: https://bugs.gentoo.org/566806
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  21 Mar 2016; Patrice Clement <monsieurp@gentoo.org> deluge-1.3.12-r3.ebuild,
+  +files/deluge-1.3.12-fix_scheduler_plugin.patch:
+  fix scheduler plugin
+
+  Reporter: Giacomo Tazzari <giacomo.tazzari@gmail.com>
+  Gentoo-Bug: https://bugs.gentoo.org/577848
+  Closes: https://github.com/gentoo/gentoo/pull/1103
+

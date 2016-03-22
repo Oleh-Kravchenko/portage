@@ -15,3 +15,10 @@
 
   Package-Manager: portage-2.2.26
 
+*shards-0.6.2 (20 Mar 2016)
+
+  20 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +shards-0.6.2.ebuild:
+  version bump to 0.6.2
+
+  Closes: https://github.com/gentoo/gentoo/pull/1095
+

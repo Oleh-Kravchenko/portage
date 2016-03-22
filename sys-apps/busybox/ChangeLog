@@ -192,3 +192,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*busybox-1.24.2 (21 Mar 2016)
+
+  21 Mar 2016; Mike Frysinger <vapier@gentoo.org> +busybox-1.24.2.ebuild,
+  +files/busybox-1.24.2-CVE-2016-2147.patch,
+  +files/busybox-1.24.2-CVE-2016-2148.patch,
+  +files/busybox-1.24.2-ash-recursive-heredocs.patch:
+  version bump to 1.24.2 #577610
+

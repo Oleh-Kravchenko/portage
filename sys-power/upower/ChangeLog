@@ -79,3 +79,8 @@
 
   Package-Manager: portage-2.2.27
 
+  20 Mar 2016; Steev Klimaszewski <steev@gentoo.org> upower-0.99.4.ebuild:
+  Add ~arm64 keyword to 0.99.4
+
+  Package-Manager: portage-2.2.28
+

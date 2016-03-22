@@ -1160,6 +1160,7 @@ app-text/docbook-sgml-utils:jadetex - Add support for app-text/jadetex (for proc
 app-text/docbook-xsl-ns-stylesheets:ruby - Install the Ruby-based dbtoepub script; requires an interpreter compatible with app-eselect/eselect-ruby.
 app-text/docbook-xsl-stylesheets:ruby - Install the Ruby-based dbtoepub script; requires an interpreter compatible with app-eselect/eselect-ruby.
 app-text/dvipng:t1lib - Enable support for T1lib font rendering (media-libs/t1lib)
+app-text/ebook-tools:lit2epub - Install lit2epub script
 app-text/enchant:aspell - Adds support for app-text/aspell spell checker
 app-text/enchant:hunspell - Adds support for app-text/hunspell spell checker
 app-text/enchant:zemberek - Adds support for app-text/zemberek-server spell checker server
@@ -1294,7 +1295,6 @@ dev-db/firebird:xinetd - Install ClassicServer
 dev-db/haildb:debug - Enable extra debug codepaths and assertions. If disabled, both the debug code and assertions are removed from the resulting binaries. Optimisations are untouched.
 dev-db/haildb:zlib - Add support for compressed tables through sys-libs/zlib.
 dev-db/maatkit:udf - Build the MySQL UDFs shipped with maatkit, requires non-minimal MySQL
-dev-db/mariadb:client-libs - Build the libmysqlclient libraries
 dev-db/mariadb:cluster - Add support for NDB clustering (deprecated)
 dev-db/mariadb:community - Enables the community features from upstream.
 dev-db/mariadb:embedded - Build embedded server (libmysqld)
@@ -1320,7 +1320,6 @@ dev-db/mariadb:sst-xtrabackup - Add tools needed to support the xtrabackup and x
 dev-db/mariadb:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-db/mariadb:test - Install upstream testsuites for end use.
 dev-db/mariadb:tokudb - Add support for TokuDB storage engine
-dev-db/mariadb:tools - Build the command line tools (mysql, mysqldump, mysqladmin, etc)
 dev-db/mariadb:yassl - Enable SSL connections and crypto functions using the bundled yaSSL
 dev-db/mariadb-galera:client-libs - Build the libmysqlclient libraries
 dev-db/mariadb-galera:embedded - Build embedded server (libmysqld)
@@ -7522,7 +7521,7 @@ sys-devel/gcc:graphite - Add support for the framework for loop optimizations ba
 sys-devel/gcc:jit - Enable libgccjit so other applications can embed gcc for Just-In-Time compilation. This will slow down the compiler a bit as it forces all of the toolchain to be shared libs.
 sys-devel/gcc:libssp - Build SSP support into a dedicated library rather than use the code in the C library (DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT IT DOES)
 sys-devel/gcc:mudflap - Add support for mudflap, a pointer use checking library
-sys-devel/gcc:multislot - Allow for SLOTs to include minor version (3.3.4 instead of just 3.3)
+sys-devel/gcc:multislot - Allow for multiple versions to be emerged at once for same CTARGET
 sys-devel/gcc:nopie - Disable PIE support (NOT FOR GENERAL USE)
 sys-devel/gcc:nossp - Disable SSP support (NOT FOR GENERAL USE)
 sys-devel/gcc:objc - Build support for the Objective C code language
@@ -7530,7 +7529,7 @@ sys-devel/gcc:objc++ - Build support for the Objective C++ language
 sys-devel/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
 sys-devel/gcc:regression-test - Run the testsuite and install the results (requires FEATURES=test)
 sys-devel/gcc:sanitize - Build support various sanitizer functions (ASAN/TSAN/etc...)
-sys-devel/gcc-apple:multislot - Allow for SLOTs to include minor version (3.3.4 instead of just 3.3)
+sys-devel/gcc-apple:multislot - Allow for multiple versions to be emerged at once for same CTARGET
 sys-devel/gcc-apple:objc - Build support for the Objective C code language
 sys-devel/gcc-apple:objc++ - Build support for the Objective C++ language
 sys-devel/gcc-apple:regression-test - Run the testsuite and install the results (requires FEATURES=test)
@@ -7541,7 +7540,7 @@ sys-devel/gdb:python - Enable support for the new internal scripting language, a
 sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
 sys-devel/gettext:cvs - When running `autopoint`, use cvs to store the internal development files; this requires cvs at runtime, but will be faster/smaller than raw archives
 sys-devel/gettext:git - When running `autopoint`, use git to store the internal development files; this requires git at runtime, but will be faster/smaller than raw archives
-sys-devel/kgcc64:multislot - Allow for SLOTs to include minor version (eg. 3.3.4 instead of just 3.3)
+sys-devel/kgcc64:multislot - Allow for multiple versions to be emerged at once for same CTARGET
 sys-devel/kgcc64:regression-test - Run the testsuite and install the results (requires FEATURES=test)
 sys-devel/llvm:clang - Build the clang C/C++ compiler
 sys-devel/llvm:cmake - Enable cmake support (experimental)

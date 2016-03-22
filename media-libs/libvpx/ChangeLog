@@ -125,3 +125,8 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Mar 2016; Steev Klimaszewski <steev@gentoo.org> libvpx-1.5.0.ebuild:
+  Add ~arm64 to 1.5.0
+
+  Package-Manager: portage-2.2.28
+

@@ -76,3 +76,8 @@
   +xdotool-3.20150503.1.ebuild:
   bump
 
+  20 Mar 2016; Michael Weber <xmw@gentoo.org> xdotool-3.20150503.1.ebuild:
+  add RDEPEND=x11-libs/libxkbcommon (bug 574252, thanks Toralf Förster).
+
+  Package-Manager: portage-2.2.28
+

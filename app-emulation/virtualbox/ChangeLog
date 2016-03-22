@@ -339,3 +339,11 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  21 Mar 2016; Patrick Lauer <patrick@gentoo.org> virtualbox-4.3.32.ebuild,
+  virtualbox-4.3.34.ebuild, virtualbox-4.3.36.ebuild,
+  virtualbox-5.0.14.ebuild, virtualbox-5.0.16.ebuild,
+  virtualbox-5.0.16-r1.ebuild:
+  Whitespace, fix description
+
+  Package-Manager: portage-2.2.28
+

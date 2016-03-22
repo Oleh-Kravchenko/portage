@@ -98,3 +98,8 @@
 
   Package-Manager: portage-2.2.27
 
+  20 Mar 2016; Steev Klimaszewski <steev@gentoo.org> udisks-2.1.7.ebuild:
+  Add ~arm64 keyword to 2.1.7
+
+  Package-Manager: portage-2.2.28
+

@@ -90,3 +90,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Mar 2016; Amy Winston <amynka@gentoo.org> -racket-5.1.2.ebuild,
+  -racket-5.2.1.ebuild, -racket-5.3.1.ebuild, -racket-5.3.2.ebuild,
+  -racket-5.3.3.ebuild, -racket-5.3.4.ebuild:
+  old versions removed
+
+  Package-Manager: portage-2.2.26
+
+  21 Mar 2016; Amy Winston <amynka@gentoo.org> racket-5.3.6.ebuild,
+  racket-6.0.1.ebuild, racket-6.2.1.ebuild:
+  description changed
+
+  Package-Manager: portage-2.2.26
+
+*racket-6.4 (21 Mar 2016)
+
+  21 Mar 2016; Amy Winston <amynka@gentoo.org> +racket-6.4.ebuild:
+  version bump 6.4 bug #567358
+
+  Package-Manager: portage-2.2.26
+

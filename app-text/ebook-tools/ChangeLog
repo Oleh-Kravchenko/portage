@@ -63,3 +63,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ebook-tools-0.2.2-r1 (21 Mar 2016)
+
+  21 Mar 2016; Johannes Huber <johu@gentoo.org> +ebook-tools-0.2.2-r1.ebuild,
+  metadata.xml:
+  Add lit2epub USE flag
+
+  Gentoo-bug: 530430
+

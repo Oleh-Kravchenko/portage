@@ -74,3 +74,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*chkrootkit-0.50 (21 Mar 2016)
+
+  21 Mar 2016; Michael Weber <xmw@gentoo.org> +chkrootkit-0.50.ebuild:
+  Version bump (bug 529308, thanks Paolo Pedroni).
+
+  Package-Manager: portage-2.2.28
+

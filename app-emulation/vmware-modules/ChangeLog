@@ -191,3 +191,9 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  vmware-modules-308.1.0.ebuild:
+  enabling a patch that makes 308.x build on 4.5 kernels :-)
+
+  Package-Manager: portage-2.2.26
+

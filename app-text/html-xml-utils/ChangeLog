@@ -83,3 +83,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*html-xml-utils-6.9-r1 (21 Mar 2016)
+
+  21 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +html-xml-utils-6.9-r1.ebuild:
+  EAPI 6.
+
+  Package-Manager: portage-2.2.26
+

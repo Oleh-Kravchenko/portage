@@ -239,3 +239,6 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  21 Mar 2016; Mike Frysinger <vapier@gentoo.org> genkernel-3.4.52.3.ebuild:
+  mark 3.4.52.3 stable for all
+
