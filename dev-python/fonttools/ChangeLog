@@ -77,3 +77,10 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --ignore-arches
 
+  22 Mar 2016; Agostino Sarubbo <ago@gentoo.org> fonttools-3.0.ebuild:
+  amd64 stable wrt bug #576864
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

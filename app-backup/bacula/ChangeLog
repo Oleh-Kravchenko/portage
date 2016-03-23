@@ -118,3 +118,9 @@
 
   Package-Manager: portage-2.2.27
 
+  22 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  bacula-5.2.13-r3.ebuild, bacula-7.2.0.ebuild, bacula-7.4.0.ebuild:
+  add libressl support
+
+  Package-Manager: portage-2.2.26
+

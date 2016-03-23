@@ -158,3 +158,39 @@
 
   Package-Manager: portage-2.2.27
 
+*rt-sources-3.14.64_p67 (22 Mar 2016)
+
+  22 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +rt-sources-3.14.64_p67.ebuild:
+  version bump to 3.14.64_p67
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1105
+
+*rt-sources-3.18.28_p28 (22 Mar 2016)
+
+  22 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +rt-sources-3.18.28_p28.ebuild:
+  version bump to 3.18.28_p28
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1105
+
+*rt-sources-4.1.19_p22 (22 Mar 2016)
+
+  22 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +rt-sources-4.1.19_p22.ebuild:
+  version bump to 4.1.19_p22
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1105
+
+*rt-sources-4.4.4_p11 (22 Mar 2016)
+
+  22 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +rt-sources-4.4.4_p11.ebuild:
+  version bump to 4.4.4_p11
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1105
+

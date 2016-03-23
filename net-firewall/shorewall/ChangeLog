@@ -283,3 +283,19 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -shorewall-5.0.2.1.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1108
+
+*shorewall-5.0.6.2 (21 Mar 2016)
+
+  21 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -shorewall-5.0.6.1.ebuild, +shorewall-5.0.6.2.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1108
+

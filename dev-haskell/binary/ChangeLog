@@ -77,3 +77,8 @@
 
   Package-Manager: portage-2.2.28
 
+  22 Mar 2016; Sergei Trofimovich <slyfox@gentoo.org> binary-0.7.6.1.ebuild:
+  dev-lang/ghc: built 7.10.3 binaries for alpha, ppc, ppc64, sparc
+
+  Signed-off-by: Sergei Trofimovich <slyfox@gentoo.org>
+

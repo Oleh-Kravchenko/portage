@@ -90,3 +90,10 @@
 
   Package-Manager: portage-2.2.26
 
+  22 Mar 2016; Agostino Sarubbo <ago@gentoo.org> icingaweb2-2.2.0.ebuild:
+  amd64 stable wrt bug #565898
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

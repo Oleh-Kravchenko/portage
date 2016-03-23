@@ -97,3 +97,18 @@
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
   Package-Manager: portage-2.2.26
 
+*torrentzip-0.9 (22 Mar 2016)
+*torrentzip-0.2-r4 (22 Mar 2016)
+
+  22 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/torrentzip-0.2-fix-perms.patch, metadata.xml,
+  -torrentzip-0.2-r2.ebuild, -torrentzip-0.2-r3.ebuild,
+  +torrentzip-0.2-r4.ebuild, +torrentzip-0.9.ebuild:
+  Fix SRC_URI. Bump to EAPI 6. Bump to version 0.9
+
+  Also assign package to Alexander Miller <alex.miller@gmx.de>.
+
+  Gentoo-Bug: https://bugs.gentoo.org/575338
+
+  Package-Manager: portage-2.2.26
+

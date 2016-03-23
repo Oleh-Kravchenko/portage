@@ -98,3 +98,10 @@
 
   Package-Manager: portage-2.2.27
 
+*openfire-4.0.2 (22 Mar 2016)
+
+  22 Mar 2016; Sergei Trofimovich <slyfox@gentoo.org> +openfire-4.0.2.ebuild:
+  bump up to 4.0.2
+
+  Package-Manager: portage-2.2.28
+

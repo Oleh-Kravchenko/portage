@@ -193,3 +193,10 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Mar 2016; Mike Frysinger <vapier@gentoo.org> findutils-4.6.0.ebuild:
+  make sys/sysmacros.h include more portable #577714
+
+  21 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  files/findutils-4.6.0-gnulib-mb.patch:
+  fix gnulib patch backport #576818
+

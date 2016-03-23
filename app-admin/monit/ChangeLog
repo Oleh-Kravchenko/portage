@@ -156,3 +156,9 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  21 Mar 2016; Anthony G. Basile <blueness@gentoo.org> monit-5.16.1.ebuild,
+  monit-5.17.ebuild, monit-5.17.1.ebuild:
+  fix libressl slot
+
+  Package-Manager: portage-2.2.26
+

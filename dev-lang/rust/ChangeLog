@@ -86,3 +86,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  22 Mar 2016; Doug Goldstein <cardoe@gentoo.org> metadata.xml:
+  change to Rust project
+

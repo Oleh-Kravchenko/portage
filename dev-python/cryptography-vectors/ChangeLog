@@ -337,3 +337,11 @@
 
   Package-Manager: portage-2.2.26
 
+  22 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  cryptography-vectors-1.1.2.ebuild:
+  ia64 stable wrt bug #574150
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

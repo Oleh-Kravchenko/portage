@@ -115,3 +115,11 @@
   -ppsspp-1.1.0-r2.ebuild, -ppsspp-1.1.1-r2.ebuild:
   remove old
 
+*ppsspp-1.2.2 (22 Mar 2016)
+
+  22 Mar 2016; Patrice Clement <monsieurp@gentoo.org> -ppsspp-1.2.1.ebuild,
+  +ppsspp-1.2.2.ebuild:
+  version bump
+
+  Closes: https://github.com/gentoo/gentoo/pull/1113
+

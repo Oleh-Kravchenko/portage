@@ -179,3 +179,10 @@
   Under the user instance of systemd multi-user.target does not exist.
   Replace it with default.target.
 
+*mpd-0.19.14 (22 Mar 2016)
+
+  22 Mar 2016; Christoph Mende <angelos@gentoo.org> +mpd-0.19.14.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.28
+

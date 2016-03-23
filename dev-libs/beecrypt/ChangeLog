@@ -68,3 +68,10 @@
 
   Bug: 575810
 
+  22 Mar 2016; Agostino Sarubbo <ago@gentoo.org> beecrypt-4.2.1-r3.ebuild:
+  amd64 stable wrt bug #577864
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

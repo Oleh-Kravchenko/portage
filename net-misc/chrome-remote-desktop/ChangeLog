@@ -126,3 +126,7 @@
   +chrome-remote-desktop-49.0.2623.40.ebuild:
   version bump to 49.0.2623.40
 
+  22 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  chrome-remote-desktop-49.0.2623.40.ebuild:
+  mark 49.0.2623.40 stable for all
+

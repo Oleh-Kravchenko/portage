@@ -117,3 +117,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+  22 Mar 2016; Agostino Sarubbo <ago@gentoo.org> oprofile-0.9.9-r2.ebuild:
+  amd64 stable wrt bug #577750
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

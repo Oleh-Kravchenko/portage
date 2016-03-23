@@ -111,3 +111,8 @@
 
   Package-Manager: portage-2.2.27
 
+  21 Mar 2016; Manuel Rüger <mrueg@gentoo.org> celluloid-0.16.0-r1.ebuild:
+  Fix desc
+
+  Package-Manager: portage-2.2.28
+

@@ -200,3 +200,10 @@
   +files/busybox-1.24.2-ash-recursive-heredocs.patch:
   version bump to 1.24.2 #577610
 
+  22 Mar 2016; Agostino Sarubbo <ago@gentoo.org> busybox-1.24.2.ebuild:
+  amd64 stable wrt bug #577610
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

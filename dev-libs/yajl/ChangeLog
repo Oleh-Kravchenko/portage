@@ -89,3 +89,42 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*yajl-1.0.12 (21 Mar 2016)
+
+  21 Mar 2016; Doug Goldstein <cardoe@gentoo.org> +yajl-1.0.12.ebuild:
+  bump latest legacy yajl
+
+  The 1.x series is considered legacy but we should at least have it since
+  some utilities still use/need the 1.x series. Set the sub-SLOT to 1 to
+  help with package dependency rebuilds.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+*yajl-2.1.0 (21 Mar 2016)
+
+  21 Mar 2016; Doug Goldstein <cardoe@gentoo.org> +yajl-2.1.0.ebuild:
+  version bump
+
+  Bump to the latest 2.x stable version. Set sub-SLOT to 2 to help with
+  dependencies that need to be rebuilt. Update license to ISC, which is
+  what upstream has used since 2.0.0.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  21 Mar 2016; Doug Goldstein <cardoe@gentoo.org> -yajl-2.0.3.ebuild,
+  -yajl-2.0.4-r1.ebuild, -yajl-2.0.4-r2.ebuild:
+  remove outdated versions
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
+  21 Mar 2016; Doug Goldstein <cardoe@gentoo.org> yajl-2.0.4-r3.ebuild:
+  fix license
+
+  Upstream has used ISC since version 2.0.0.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

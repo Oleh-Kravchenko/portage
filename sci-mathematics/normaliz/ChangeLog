@@ -103,3 +103,10 @@
 
   Package-Manager: portage-2.2.26
 
+  22 Mar 2016; Agostino Sarubbo <ago@gentoo.org> normaliz-3.1.0.ebuild:
+  amd64 stable wrt bug #577914
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
