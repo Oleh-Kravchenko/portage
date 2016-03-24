@@ -117,3 +117,8 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Mar 2016; Hans de Graaff <graaff@gentoo.org> -dalli-2.7.5.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+

@@ -242,3 +242,6 @@
 
   Package-Manager: portage-2.2.27
 
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> tmux-2.1.ebuild:
+  mark 2.1 arm64/s390/sh/sparc stable
+

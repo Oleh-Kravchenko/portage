@@ -183,3 +183,11 @@
   selinux-base-9999.ebuild:
   add arm/arm64/mips love
 
+*selinux-base-2.20151208-r3 (23 Mar 2016)
+
+  23 Mar 2016; Jason Zaman <perfinion@gentoo.org>
+  +selinux-base-2.20151208-r3.ebuild:
+  sec-policy: Stabilize selinux policy 2.20151208-r3
+
+  Package-Manager: portage-2.2.26
+

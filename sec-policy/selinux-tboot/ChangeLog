@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.2.26
 
+*selinux-tboot-2.20151208-r3 (23 Mar 2016)
+
+  23 Mar 2016; Jason Zaman <perfinion@gentoo.org>
+  +selinux-tboot-2.20151208-r3.ebuild:
+  sec-policy: Stabilize selinux policy 2.20151208-r3
+
+  Package-Manager: portage-2.2.26
+

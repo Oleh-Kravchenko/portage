@@ -110,3 +110,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> libseccomp-2.2.3.ebuild:
+  mark 2.2.3 arm/arm64 stable #576382
+
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> -libseccomp-2.1.1.ebuild,
+  -libseccomp-2.2.0.ebuild:
+  drop old <2.2.3 versions
+

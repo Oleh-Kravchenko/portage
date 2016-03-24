@@ -60,3 +60,14 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Mar 2016; Hans de Graaff <graaff@gentoo.org> -maxitest-1.5.4.ebuild,
+  -maxitest-1.5.5.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+  23 Mar 2016; Hans de Graaff <graaff@gentoo.org> maxitest-1.5.6.ebuild:
+  add ruby23
+
+  Package-Manager: portage-2.2.26
+

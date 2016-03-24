@@ -11,3 +11,13 @@
 
   Package-Manager: portage-2.2.27
 
+*astrometry-0.67-r1 (22 Mar 2016)
+
+  22 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> -astrometry-0.67.ebuild,
+  +astrometry-0.67-r1.ebuild:
+  fix utilities relative linking
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=577786
+
+  Package-Manager: portage-2.2.28
+

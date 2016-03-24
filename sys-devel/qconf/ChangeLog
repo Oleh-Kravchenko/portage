@@ -57,3 +57,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*qconf-2.0 (23 Mar 2016)
+
+  23 Mar 2016; Sergey Popov <pinkbyte@gentoo.org> +qconf-2.0.ebuild:
+  version bump to 2.0
+
+  Package-Manager: portage-2.2.28
+

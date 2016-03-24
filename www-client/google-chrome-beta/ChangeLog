@@ -381,3 +381,11 @@
   Adding this REQUIRED_USE constraint is pretty hacky and users will
   quickly figure out that the ebuild doesn't work anyway.
 
+  23 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-beta-50.0.2661.37_p1.ebuild:
+  www-client/google-chrome: Misc cleanup
+
+  EAPI=6
+  Remove stale code that is no longer useful with x86 gone.
+  Die in pkg_pretend if not on amd64.
+

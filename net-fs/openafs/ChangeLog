@@ -188,3 +188,19 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+*openafs-1.6.17 (22 Mar 2016)
+
+  22 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> +openafs-1.6.17.ebuild:
+  Version bump to 1.6.17. Security bugs and systemd bugs
+
+  Security Release 1.6.17.
+  Also fixes systemd units to make cache dir and sets env variables in
+  /etc/systemd/service.d/openafs-{client,server}.service.d/00gentoo.conf
+  to allow specifying daemon runtime args.  Additionally, new pkg_config
+  phase exists to enable systemd users to set cache args for client daemon
+  because QA policies disencourage having the unit set the args dynamically.
+
+  Gentoo-Bug: 570410,544168,570540,564388
+
+  Package-Manager: portage-2.2.26
+

@@ -206,3 +206,13 @@
 
   Package-Manager: portage-2.2.28
 
+  22 Mar 2016; Maciej Mrozowski <reavertm@gentoo.org>
+  +files/cairo-qt-experimental/0001-Cairo-backend-added-to-Qt4-wrapper.patch, 
+  +files/cairo-qt-experimental/0002-Setting-default-Qt4-backend-to-Cairo.patch
+  , +files/cairo-qt-experimental/0003-Forcing-subpixel-rendering-in-Cairo-back
+  end.patch, +files/cairo-qt-experimental/0004-Enabling-slight-hinting-in-Cair
+  o-Backend.patch, metadata.xml, poppler-0.42.0.ebuild, poppler-9999.ebuild:
+  Add experimental cairo-qt backend (USE-masked), bug #568000.
+
+  Package-Manager: portage-2.2.28
+

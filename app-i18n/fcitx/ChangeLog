@@ -101,3 +101,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  23 Mar 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  app-i18n/*fcitx*: Use tabs in metadata.xml.
+
+  23 Mar 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  app-i18n/*fcitx*: Add Arfrever as maintainer.
+

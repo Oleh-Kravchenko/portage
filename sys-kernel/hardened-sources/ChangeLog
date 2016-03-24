@@ -869,3 +869,13 @@
 
   Package-Manager: portage-2.2.26
 
+*hardened-sources-4.4.6 (23 Mar 2016)
+
+  23 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-4.4.6.ebuild:
+  version bump to 4.4.6
+
+  vanilla-4.4.6 + genpatches-4.4-8 + grsecurity-3.1-4.4.6-201603221748
+
+  Package-Manager: portage-2.2.26
+

@@ -80,3 +80,6 @@
 
   Package-Manager: portage-2.2.27
 
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> ltrace-0.5.3.1.ebuild:
+  mark 0.5.3.1 alpha stable
+

@@ -46,3 +46,11 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+*stringext-1.4.1 (23 Mar 2016)
+
+  23 Mar 2016; Alexis Ballier <aballier@gentoo.org> +stringext-1.4.1.ebuild:
+  bump to 1.4.1
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

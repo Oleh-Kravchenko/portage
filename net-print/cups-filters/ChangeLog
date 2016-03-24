@@ -301,3 +301,65 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> cups-filters-1.5.0.ebuild,
+  cups-filters-1.6.0.ebuild, cups-filters-1.8.1.ebuild,
+  cups-filters-1.8.1-r1.ebuild, cups-filters-1.8.2.ebuild,
+  cups-filters-9999.ebuild:
+  add USE=ldap to control openldap usage #574042
+
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> cups-filters-1.0.71.ebuild,
+  cups-filters-1.5.0.ebuild, cups-filters-1.6.0.ebuild,
+  cups-filters-1.8.1.ebuild, cups-filters-1.8.1-r1.ebuild,
+  cups-filters-1.8.2.ebuild, cups-filters-9999.ebuild:
+  add missing glib dependency #543152
+
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> cups-filters-1.5.0.ebuild,
+  cups-filters-1.6.0.ebuild, cups-filters-1.8.1.ebuild,
+  cups-filters-1.8.1-r1.ebuild, cups-filters-1.8.2.ebuild,
+  cups-filters-9999.ebuild:
+  force newer poppler #546220
+
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> cups-filters-1.0.71.ebuild,
+  cups-filters-1.5.0.ebuild, cups-filters-1.6.0.ebuild,
+  cups-filters-1.8.1.ebuild, cups-filters-1.8.1-r1.ebuild,
+  cups-filters-1.8.2.ebuild, cups-filters-9999.ebuild:
+  drop pointless copy of KEYWORDS which confuses ekeyword
+
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> cups-filters-1.5.0.ebuild,
+  cups-filters-1.6.0.ebuild, cups-filters-1.8.1.ebuild,
+  cups-filters-1.8.1-r1.ebuild, cups-filters-1.8.2.ebuild,
+  cups-filters-9999.ebuild:
+  drop unused base eclass
+
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> cups-filters-1.5.0.ebuild,
+  cups-filters-1.6.0.ebuild, cups-filters-1.8.1.ebuild,
+  cups-filters-1.8.1-r1.ebuild, cups-filters-1.8.2.ebuild,
+  cups-filters-9999.ebuild:
+  drop old configure munging
+
+  The configure script was updated long ago, so drop the manual sed.
+  In many cases, this also means we can drop the autotool regeneration.
+
+*cups-filters-1.8.2-r1 (23 Mar 2016)
+
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  +cups-filters-1.8.2-r1.ebuild, cups-filters-9999.ebuild:
+  fix paths to cups runtime state
+
+  This allows the cups browser to locate the cups server state and matches
+  the flags used in the cups ebuild.
+
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  cups-filters-1.8.2-r1.ebuild, +files/cups-filters-1.8.2-disable-ijs.patch,
+  +files/cups-filters-1.8.2-gstoraster.patch:
+  add upstream fixes for USE=-postscript
+
+  When ghostscript is disabled, make sure we still don't require features
+  from it at configure & runtime.
+
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> -cups-filters-1.0.71.ebuild,
+  -files/cups-filters-1.0.53-uclibc.patch,
+  -files/cups-filters-1.0.65-poppler0310.patch,
+  -files/cups-filters-1.0.71-poppler0340.patch:
+  drop old <1.5.0 versions
+

@@ -114,3 +114,12 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*core_kernel-113.33.01 (23 Mar 2016)
+
+  23 Mar 2016; Alexis Ballier <aballier@gentoo.org>
+  +core_kernel-113.33.01.ebuild:
+  bump to 113.33.01
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -68,3 +68,42 @@
 
   Bug: 575810
 
+*3proxy-0.7.1.2 (23 Mar 2016)
+
+  23 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +3proxy-0.7.1.2.ebuild,
+  +files/3proxy-0.7.1.2-gentoo.patch:
+  Version bump to 0.7.1.2
+
+  Closes: https://github.com/gentoo/gentoo/pull/1118
+
+*3proxy-0.7.1.4 (23 Mar 2016)
+
+  23 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +3proxy-0.7.1.4.ebuild:
+  Version bump to 0.7.1.4
+
+  Closes: https://github.com/gentoo/gentoo/pull/1118
+
+*3proxy-0.8.6 (23 Mar 2016)
+
+  23 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +3proxy-0.8.6.ebuild,
+  +files/3proxy-0.8.6-gentoo.patch:
+  Version bump to 0.8.6
+
+  Closes: https://github.com/gentoo/gentoo/pull/1118
+
+  23 Mar 2016; Patrice Clement <monsieurp@gentoo.org> 3proxy-0.7.1.2.ebuild,
+  3proxy-0.7.1.4.ebuild:
+  EAPI 6 cleanup
+
+  Closes: https://github.com/gentoo/gentoo/pull/1118
+
+  23 Mar 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  Grant maintainership to Alex Efros <powerman@powerman.name>.
+
+  This commit merges a string of commits pulled from
+  gentoo/gentoo#1118 and closes bug 547234.
+
+  Gentoo-Bug: https://bugs.gentoo.org/547234
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

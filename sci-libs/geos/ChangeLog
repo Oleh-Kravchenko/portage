@@ -123,3 +123,23 @@
 
   Package-Manager: portage-2.2.26
 
+*geos-3.5.0-r1 (23 Mar 2016)
+
+  23 Mar 2016; Sam Jorna <wraeth@gentoo.org>
+  +files/geos-3.5.0-phpconfig-path.patch, +geos-3.5.0-r1.ebuild:
+  add python setup, fix php support
+
+  This adds python package setup per request, also fixes PHP support
+  and restricts building against php-7 while unsupported.
+
+  Gentoo-bug: 576436
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Sam Jorna <wraeth@gentoo.org>
+
+  23 Mar 2016; Sam Jorna <wraeth@gentoo.org> -files/3.2.0-darwin.patch,
+  -files/3.2.0-python.patch, -files/3.3.2-solaris-isnan.patch,
+  -files/3.4.1-solaris-isnan.patch, -files/3.4.2-ruby_so_name.patch:
+  remove unneeded patches
+
+  Package-Manager: portage-2.2.28
+

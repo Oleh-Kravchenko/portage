@@ -239,3 +239,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  23 Mar 2016; Jason Zaman <perfinion@gentoo.org> consolekit-0.4.6.ebuild,
+  consolekit-1.0.0-r1.ebuild, consolekit-1.0.1.ebuild,
+  consolekit-1.1.0.ebuild, consolekit-9999.ebuild:
+  Update SRC_URI for logrotate file thanks to Greg Trigg
+
+  Package-Manager: portage-2.2.26
+

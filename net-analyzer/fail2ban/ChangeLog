@@ -182,3 +182,7 @@
   Package-Manager: portage-2.2.28
   Closes: https://github.com/gentoo/gentoo/pull/1078
 
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org> fail2ban-0.9.2.ebuild,
+  fail2ban-0.9.2-r1.ebuild, fail2ban-0.9.3-r1.ebuild, fail2ban-0.9.4.ebuild:
+  add alpha love
+
