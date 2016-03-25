@@ -632,3 +632,23 @@
 
   Package-Manager: portage-2.2.28
 
+  24 Mar 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/nvidia-drivers-361.28-pax.patch, nvidia-drivers-361.28.ebuild,
+  nvidia-drivers-361.28-r2.ebuild, nvidia-drivers-364.12.ebuild:
+  Update PaX patch on behalf of the Hardened team (bug #571662).
+
+  Package-Manager: portage-2.2.28
+
+  24 Mar 2016; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-364.12.ebuild:
+  Install nvidia-drm.ko by Timo Rothenpieler (bug #578014).
+
+  Package-Manager: portage-2.2.28
+
+*nvidia-drivers-364.12-r1 (24 Mar 2016)
+
+  24 Mar 2016; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-364.12.ebuild,
+  +nvidia-drivers-364.12-r1.ebuild:
+  Install /etc/vulkan/icd.d/nvidia_icd.json by Jason Borden (bug #578040).
+
+  Package-Manager: portage-2.2.28
+

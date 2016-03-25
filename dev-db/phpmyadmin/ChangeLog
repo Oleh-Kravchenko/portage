@@ -400,3 +400,10 @@
   Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
   <jmbsvicetto@gentoo.org>
 
+  24 Mar 2016; Agostino Sarubbo <ago@gentoo.org> phpmyadmin-4.0.10.15.ebuild,
+  phpmyadmin-4.4.15.5.ebuild, phpmyadmin-4.5.5.1.ebuild:
+  Stable for amd64/ppc/ppc64/sparc/x86 wrt bug #576136
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

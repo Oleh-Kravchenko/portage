@@ -67,3 +67,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*io_lib-1.14.7 (24 Mar 2016)
+
+  24 Mar 2016; Sébastien Fabbro <bicatali@gentoo.org> +io_lib-1.14.7.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

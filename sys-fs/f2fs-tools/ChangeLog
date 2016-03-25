@@ -161,3 +161,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*f2fs-tools-1.6.1 (23 Mar 2016)
+
+  23 Mar 2016; Anthony G. Basile <blueness@gentoo.org>
+  +f2fs-tools-1.6.1.ebuild:
+  version bump to 1.6.1
+
+  Package-Manager: portage-2.2.26
+

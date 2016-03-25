@@ -205,3 +205,10 @@
 
   Package-Manager: portage-2.2.28
 
+*nmap-7.11 (24 Mar 2016)
+
+  24 Mar 2016; Jeroen Roovers <jer@gentoo.org> +nmap-7.11.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+

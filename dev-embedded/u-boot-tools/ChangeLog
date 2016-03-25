@@ -76,3 +76,8 @@
 
   Package-Manager: portage-2.2.27
 
+*u-boot-tools-2016.03 (24 Mar 2016)
+
+  24 Mar 2016; Tim Harder <radhermit@gentoo.org> +u-boot-tools-2016.03.ebuild:
+  version bump to 2016.03
+

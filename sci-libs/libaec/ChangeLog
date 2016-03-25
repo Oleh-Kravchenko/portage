@@ -10,3 +10,12 @@
 
   Package-Manager: portage-2.2.27
 
+  24 Mar 2016; Ulrich Müller <ulm@gentoo.org> libaec-0.3.2.ebuild:
+  Fix LICENSE.
+
+  LIBAEC is a duplicate of BSD-2.
+
+  Bug: 578174
+
+  Package-Manager: portage-2.2.28
+

@@ -89,3 +89,11 @@
   22 Mar 2016; Doug Goldstein <cardoe@gentoo.org> metadata.xml:
   change to Rust project
 
+  24 Mar 2016; Doug Goldstein <cardoe@gentoo.org> metadata.xml:
+  fix metadata
+
+  Rust is a project and not a person.
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

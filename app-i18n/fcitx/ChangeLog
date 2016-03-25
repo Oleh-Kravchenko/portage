@@ -107,3 +107,15 @@
   23 Mar 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
   app-i18n/*fcitx*: Add Arfrever as maintainer.
 
+*fcitx-4.2.9.1 (24 Mar 2016)
+
+  24 Mar 2016; Mike Gilbert <floppym@gentoo.org> +fcitx-4.2.9.1.ebuild,
+  +files/fcitx-4.2.9.1-qt-4_ucs4.patch, +files/fcitx-4.2.9.1-tray_icon.patch,
+  metadata.xml:
+  Version bump (4.2.9.1).
+
+*fcitx-9999 (24 Mar 2016)
+
+  24 Mar 2016; Mike Gilbert <floppym@gentoo.org> +fcitx-9999.ebuild:
+  Add live ebuild.
+

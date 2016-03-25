@@ -216,3 +216,9 @@
 
   Package-Manager: portage-2.2.28
 
+  24 Mar 2016; Anthony G. Basile <blueness@gentoo.org> curl-7.48.0.ebuild,
+  +files/curl-7.48.0-libressl.patch:
+  fix build for 7.48.0 for libressl, bug #578098
+
+  Package-Manager: portage-2.2.26
+

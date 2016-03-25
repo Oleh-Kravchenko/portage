@@ -307,3 +307,9 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Mar 2016; William Hubbs <williamh@gentoo.org> go-1.6-r2.ebuild,
+  go-9999.ebuild:
+  create new 386 bootstrap tarballs for #577674 and sync live
+
+  Package-Manager: portage-2.2.26
+

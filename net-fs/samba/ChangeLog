@@ -509,3 +509,9 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  24 Mar 2016; Lars Wendler <polynomial-c@gentoo.org> samba-4.4.0.ebuild:
+  Adjusted dependencies (bug #578192).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

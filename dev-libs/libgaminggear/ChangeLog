@@ -70,3 +70,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libgaminggear-0.11.2 (24 Mar 2016)
+
+  24 Mar 2016; Ian Delaney <idella4@gentoo.org> +libgaminggear-0.11.2.ebuild:
+  version bump to 0.11.2
+
+  Closes: https://github.com/gentoo/gentoo/pull/1116
+
+  24 Mar 2016; Ian Delaney <idella4@gentoo.org> -libgaminggear-0.10.1.ebuild:
+  retiring old version
+
+  Closes: https://github.com/gentoo/gentoo/pull/1116
+

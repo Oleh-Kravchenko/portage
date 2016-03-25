@@ -53,3 +53,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 Mar 2016; Alexis Ballier <aballier@gentoo.org> -files/libdir.patch,
+  -rviz-1.11.9.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
+*rviz-1.11.13 (24 Mar 2016)
+
+  24 Mar 2016; Alexis Ballier <aballier@gentoo.org> +rviz-1.11.13.ebuild,
+  rviz-9999.ebuild:
+  add qt5 useflag and bump to 1.11.13
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

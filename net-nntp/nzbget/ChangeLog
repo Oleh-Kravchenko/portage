@@ -129,3 +129,26 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Mar 2016; Louis Sautier <sautier.louis@gmail.com> metadata.xml:
+  add bugs-to to metadata
+
+  Package-Manager: portage-2.2.28
+
+*nzbget-17.0_pre1660 (24 Mar 2016)
+
+  24 Mar 2016; Louis Sautier <sautier.louis@gmail.com>
+  +files/nzbget-17.0_pre1660-add-missing-macro.patch,
+  +nzbget-17.0_pre1660.ebuild:
+  bump to 17.0_pre1660, EAPI=6
+
+  - add tests
+  - drop the dependency on libpar2 and libsigc++ as the package provides its
+    own modified libpar2 (see
+    https://github.com/nzbget/nzbget/commit/2e0ba0e3d10a63316670fad4dd1c052b75
+  83afe9)
+  - this versions requires a C++14-compatible compiler, add a pkg_pretend
+  check and a
+    missing macro
+
+  Package-Manager: portage-2.2.28
+

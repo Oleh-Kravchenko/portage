@@ -84,3 +84,29 @@
   23 Mar 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
   app-i18n/*fcitx*: Add Arfrever as maintainer.
 
+  24 Mar 2016; Mike Gilbert <floppym@gentoo.org> kcm-fcitx-0.4.2.ebuild,
+  kcm-fcitx-0.4.3.ebuild:
+  Change SLOT of KDE-4-related ebuilds from "0" to "4".
+
+  24 Mar 2016; Mike Gilbert <floppym@gentoo.org> kcm-fcitx-0.4.3.ebuild:
+  Minor fixes in 0.4.3.
+
+  Use cmake-utils.eclass and xdg.eclass instead of kde4-base.eclass.
+  Improve HOMEPAGE.
+  Fix LICENSE.
+  Add "minimal" USE flag to avoid collision of translations with app-i18n/kcm-
+  fcitx:5.
+  Fix dependencies.
+
+*kcm-fcitx-0.5.3 (24 Mar 2016)
+
+  24 Mar 2016; Mike Gilbert <floppym@gentoo.org> +kcm-fcitx-0.5.3.ebuild:
+  Version bump (0.5.3).
+
+*kcm-fcitx-9999 (24 Mar 2016)
+*kcm-fcitx-0.4.9999 (24 Mar 2016)
+
+  24 Mar 2016; Mike Gilbert <floppym@gentoo.org> +kcm-fcitx-0.4.9999.ebuild,
+  +kcm-fcitx-9999.ebuild:
+  Add live ebuilds.
+

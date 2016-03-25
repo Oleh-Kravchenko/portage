@@ -363,3 +363,11 @@
   -files/cups-filters-1.0.71-poppler0340.patch:
   drop old <1.5.0 versions
 
+  23 Mar 2016; Mike Frysinger <vapier@gentoo.org>
+  cups-filters-1.8.2-r1.ebuild, cups-filters-9999.ebuild:
+  add --enable-ijs control too
+
+  Was missed in previous commit here.
+
+  Also sync the live git version.
+

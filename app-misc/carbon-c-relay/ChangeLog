@@ -141,3 +141,11 @@
 
   Package-Manager: portage-2.2.27-prefix
 
+*carbon-c-relay-1.11 (24 Mar 2016)
+
+  24 Mar 2016; Fabian Groffen <grobian@gentoo.org> -carbon-c-relay-1.7.ebuild,
+  +carbon-c-relay-1.11.ebuild:
+  version bump to v1.11
+
+  Package-Manager: portage-2.2.27
+

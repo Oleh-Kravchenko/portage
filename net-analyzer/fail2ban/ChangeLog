@@ -186,3 +186,9 @@
   fail2ban-0.9.2-r1.ebuild, fail2ban-0.9.3-r1.ebuild, fail2ban-0.9.4.ebuild:
   add alpha love
 
+  23 Mar 2016; Patrick McLean <chutzpah@gentoo.org> fail2ban-0.9.3-r1.ebuild,
+  fail2ban-0.9.4.ebuild, fail2ban-99999999.ebuild:
+  Don't fail with USE=-systemd when attempting to remove /run from ${D}
+
+  Package-Manager: portage-2.2.28
+

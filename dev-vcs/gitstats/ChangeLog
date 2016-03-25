@@ -105,3 +105,26 @@
   Acked-by: Guilherme Amadio <amadio@gentoo.org>
   Closes: https://github.com/gentoo/gentoo/pull/972
 
+  24 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> metadata.xml:
+  Update maintainers to metadata.xml
+
+  Package-Manager: portage-2.2.26
+
+*gitstats-0_pre20151223 (24 Mar 2016)
+
+  24 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +gitstats-0_pre20151223.ebuild, gitstats-9999.ebuild:
+  bump to snapshot 2015-12-23
+
+  Package-Manager: portage-2.2.26
+
+  24 Mar 2016; Guilherme Amadio <amadio@gentoo.org>
+  +files/gitstats-0_pre131024-filter-invalid-unicode.patch,
+  gitstats-0_pre131024.ebuild:
+  0_pre131024: fix bug #575946
+
+  Gentoo-bug: 575946
+  Reported-by: Martin Mokrejš
+
+  Package-Manager: portage-2.2.28
+

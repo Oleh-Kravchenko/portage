@@ -67,3 +67,8 @@
 
   Bug: 575810
 
+  23 Mar 2016; Steev Klimaszewski <steev@gentoo.org> fbv-1.0b.ebuild:
+  Keyword for ~arm64
+
+  Package-Manager: portage-2.2.28
+

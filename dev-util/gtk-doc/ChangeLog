@@ -65,3 +65,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gtk-doc-1.25 (24 Mar 2016)
+
+  24 Mar 2016; Dennis Lamm <expeditioneer@gentoo.org> +gtk-doc-1.25.ebuild:
+  Version bump
+

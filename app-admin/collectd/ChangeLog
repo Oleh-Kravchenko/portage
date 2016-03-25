@@ -188,3 +188,30 @@
 
   Package-Manager: portage-2.2.27
 
+  23 Mar 2016; Ian Delaney <idella4@gentoo.org> -collectd-5.4.1-r2.ebuild,
+  -collectd-5.5.0.ebuild, collectd-5.5.1.ebuild,
+  -files/collectd-5.4.1-libocci.patch, -files/collectd-5.4.1-libperl.patch,
+  -files/collectd-5.4.1-lt.patch, -files/collectd-5.4.1-nohal.patch,
+  -files/collectd-5.5.0-lt.patch, -files/collectd.confd,
+  -files/collectd.initd, +files/collectd.logrotate, -files/logrotate,
+  metadata.xml:
+  Dropped old
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1101
+
+*collectd-5.5.1-r1 (23 Mar 2016)
+
+  23 Mar 2016; Ian Delaney <idella4@gentoo.org> -collectd-5.5.1.ebuild,
+  +collectd-5.5.1-r1.ebuild, metadata.xml:
+  Revbump to vn. 5.5.1-r1
+
+  add write_kafka plugin
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1101
+
+  24 Mar 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag description from metadata.xml
+
+  Package-Manager: portage-2.2.28
+

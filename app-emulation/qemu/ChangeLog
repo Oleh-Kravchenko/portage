@@ -553,3 +553,17 @@
   +files/qemu-2.5.0-usb-ndis-int-overflow.patch, +qemu-2.5.0-r2.ebuild:
   backport various upstream fixes
 
+  24 Mar 2016; Agostino Sarubbo <ago@gentoo.org> qemu-2.5.0-r2.ebuild:
+  amd64 stable wrt bug #578044
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  24 Mar 2016; Agostino Sarubbo <ago@gentoo.org> qemu-2.5.0-r2.ebuild:
+  x86 stable wrt bug #578044
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

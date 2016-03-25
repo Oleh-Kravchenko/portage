@@ -140,3 +140,9 @@
   metadata.xml:
   net-p2p/bitcoin*: bump all pkgs to 0.12.0 and update 9999
 
+  24 Mar 2016; Anthony G. Basile <blueness@gentoo.org> bitcoind-0.12.0.ebuild,
+  bitcoind-9999.ebuild:
+  0.12.0+ have removed bitrpc example
+
+  Signed-off-by: Anthony G. Basile <blueness@gentoo.org>
+

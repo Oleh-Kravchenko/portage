@@ -232,3 +232,8 @@
   chrony-2.2.1.ebuild, chrony-2.3.ebuild:
   add alpha love
 
+  24 Mar 2016; Jeroen Roovers <jer@gentoo.org> -chrony-2.2.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.28
+

@@ -68,9 +68,9 @@ src_install() {
 	fowners "${I2PD_USER}:${I2PD_GROUP}" "/etc/${PN}/${PN}.conf"
 	fperms 600 "/etc/${PN}/${PN}.conf"
 	dodir /usr/share/i2pd
-	newconfd "${FILESDIR}/${PN}-2.5.0.confd" "${PN}"
-	newinitd "${FILESDIR}/${PN}-2.5.0.initd" "${PN}"
-	systemd_newunit "${FILESDIR}/${PN}-2.5.0.service" "${PN}.service"
+	newconfd "${FILESDIR}/${PN}-2.5.1.confd" "${PN}"
+	newinitd "${FILESDIR}/${PN}-2.5.1.initd" "${PN}"
+	systemd_newunit "${FILESDIR}/${PN}-2.5.1.service" "${PN}.service"
 	doenvd "${FILESDIR}/99${PN}"
 	insinto /etc/logrotate.d
 	newins "${FILESDIR}/${PN}-2.5.0.logrotate" "${PN}"

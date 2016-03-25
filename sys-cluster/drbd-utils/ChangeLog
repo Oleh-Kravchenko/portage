@@ -33,3 +33,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*drbd-utils-8.9.6 (23 Mar 2016)
+
+  23 Mar 2016; Zac Medico <zmedico@gentoo.org> +drbd-utils-8.9.6.ebuild:
+  version bump to 8.9.6
+
+  Package-Manager: portage-2.2.28
+

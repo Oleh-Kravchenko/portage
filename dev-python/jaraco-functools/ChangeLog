@@ -29,3 +29,19 @@
   Closes: https://github.com/gentoo/gentoo/pull/1030
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*jaraco-functools-1.9 (23 Mar 2016)
+
+  23 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  +jaraco-functools-1.9.ebuild:
+  bump to 1.9
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1121
+
+  23 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -jaraco-functools-1.8.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1121
+

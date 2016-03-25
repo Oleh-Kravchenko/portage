@@ -65,3 +65,26 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 Mar 2016; Hans de Graaff <graaff@gentoo.org> -mail-2.6.2.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+
+*mail-2.6.4 (24 Mar 2016)
+
+  24 Mar 2016; Hans de Graaff <graaff@gentoo.org> +mail-2.6.4.ebuild:
+  add 2.6.4
+
+  Package-Manager: portage-2.2.26
+
+  24 Mar 2016; Hans de Graaff <graaff@gentoo.org> mail-2.5.4.ebuild,
+  mail-2.6.4.ebuild:
+  fix slot warnings
+
+  Package-Manager: portage-2.2.26
+
+  24 Mar 2016; Hans de Graaff <graaff@gentoo.org> mail-2.5.4.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.2.26
+

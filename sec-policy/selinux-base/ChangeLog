@@ -191,3 +191,9 @@
 
   Package-Manager: portage-2.2.26
 
+  23 Mar 2016; Jason Zaman <perfinion@gentoo.org>
+  selinux-base-2.20151208-r2.ebuild:
+  stabilize missed for -r2 policy
+
+  Package-Manager: portage-2.2.26
+

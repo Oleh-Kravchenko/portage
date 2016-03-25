@@ -65,3 +65,10 @@
 
   Package-Manager: portage-2.2.28
 
+  24 Mar 2016; Ulrich Müller <ulm@gentoo.org> motif-2.3.5.ebuild:
+  Fix build failure with USE=-xft.
+
+  Bug: 578168
+
+  Package-Manager: portage-2.2.28
+

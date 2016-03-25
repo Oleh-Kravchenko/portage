@@ -150,7 +150,6 @@ app-admin/collectd:collectd_plugins_write_graphite - Build the write_graphite ou
 app-admin/collectd:collectd_plugins_write_http - Build the write_http output plugin (sends metrics to a web-server using HTTP POST requests)
 app-admin/collectd:collectd_plugins_write_kafka - Build the Kafka output plugin (sends metrics to Apache Kafka)
 app-admin/collectd:collectd_plugins_write_log - Build the write_log output plugin (writes metrics to a file)
-app-admin/collectd:collectd_plugins_write_mongodb - Build the MongoDB output plugin (writes metrics to a MongoDB)
 app-admin/collectd:collectd_plugins_write_redis - Build the Redis output plugin (stores values in Redis)
 app-admin/collectd:collectd_plugins_write_riemann - Build the Riemann output plugin (stores values in Riemann, a stream processing and monitoring system)
 app-admin/collectd:collectd_plugins_write_sensu - Build the Sensu output plugin (sends metrics to Sensu Core, an open-source monitoring project)
@@ -774,16 +773,17 @@ app-forensics/ovaldi:rpm - Enable the RPM probes
 app-forensics/sleuthkit:aff - Enable extra aff formats
 app-forensics/sleuthkit:ewf - Enable libewf support
 app-i18n/anthy:canna-2ch - Enable support for app-dicts/canna-2ch
-app-i18n/fcitx:autostart - Enable xdg-compatible autostart of fcitx
-app-i18n/fcitx:enchant - Use app-text/enchant for text prediction
-app-i18n/fcitx:gtk - Install GTK2 IM module
-app-i18n/fcitx:gtk3 - Install GTK3 IM module
-app-i18n/fcitx:introspection - Enable GObject Introspection
-app-i18n/fcitx:opencc - Enable OpenCC for Chinese Transform
+app-i18n/fcitx:autostart - Enable XDG-compatible autostart of Fcitx
+app-i18n/fcitx:enchant - Enable Enchant backend (using app-text/enchant) for spelling hinting
+app-i18n/fcitx:gtk - Install input method module for GTK+ 2
+app-i18n/fcitx:gtk2 - Install input method module for GTK+ 2
+app-i18n/fcitx:gtk3 - Install input method module for GTK+ 3
+app-i18n/fcitx:introspection - Enable support for GObject Introspection
+app-i18n/fcitx:opencc - Enable OpenCC engine (using app-i18n/opencc) for converter between Simplified Chinese and Traditional Chinese
 app-i18n/fcitx:pango - Enable support for x11-libs/pango
-app-i18n/fcitx:qt4 - Install Qt4 IM module
-app-i18n/fcitx:snooper - Enable Key Snooper for GTK app
-app-i18n/fcitx:table - Enable Table IM
+app-i18n/fcitx:qt4 - Install input method module for Qt 4
+app-i18n/fcitx:snooper - Enable key snooper for GTK+ applications
+app-i18n/fcitx:table - Install table input methods for Simplified Chinese
 app-i18n/fcitx-configtool:gtk3 - Use GTK+3 instead of 2
 app-i18n/fcitx-libpinyin:dictmanager - Enable dictionary manager. Requires dev-qt/qtwebkit.
 app-i18n/ibus:deprecated - install the deprecated ibus python library
@@ -7255,8 +7255,6 @@ sys-apps/qingy:opensslcrypt - Encrypt communications between qingy and its GUI u
 sys-apps/razercfg:pm-utils - Installs the pm-utils hooks for suspend/resume and requires sys-power/pm-utils
 sys-apps/razercfg:qt4 - Installs a qt UI. Requires dev-python/pyside
 sys-apps/roccat-tools:lua - Build support for Lua scripting for RyosMKPro ripple effects
-sys-apps/roccat-tools:lua51 - Build support for Lua scripting for RyosMKPro ripple effects - support lua 5.1
-sys-apps/roccat-tools:lua52 - Build support for Lua scripting for RyosMKPro ripple effects - support lua 5.2
 sys-apps/rsbac-admin:rklogd - Enabled deprecated RSBAC kernel logger
 sys-apps/s390-tools:fuse - build cmsfs-fuse to read files stored on a z/VM CMS disk
 sys-apps/s390-tools:zfcpdump - build the kernel disk dumping utility

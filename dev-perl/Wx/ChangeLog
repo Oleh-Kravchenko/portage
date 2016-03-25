@@ -17,3 +17,10 @@
 
   Package-Manager: portage-2.2.27
 
+  24 Mar 2016; Andreas K. Huettel <dilfridge@gentoo.org>
+  Wx-0.992.700-r1.ebuild:
+  Maintainer stabilization. Current stable does not build with in-tree dev-
+  perl/Alien-wxWidgets.
+
+  Package-Manager: portage-2.2.28
+

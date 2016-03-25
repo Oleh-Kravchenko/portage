@@ -298,3 +298,12 @@
   Remove stale code that is no longer useful with x86 gone.
   Die in pkg_pretend if not on amd64.
 
+*google-chrome-49.0.2623.108_p1 (24 Mar 2016)
+
+  24 Mar 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-49.0.2623.87_p1.ebuild,
+  +google-chrome-49.0.2623.108_p1.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.28_p64
+

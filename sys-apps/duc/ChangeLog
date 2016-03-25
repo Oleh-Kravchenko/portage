@@ -11,3 +11,11 @@
 
   Package-Manager: portage-2.2.26
 
+*duc-1.4.1-r1 (24 Mar 2016)
+
+  24 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> -duc-1.4.1.ebuild,
+  +duc-1.4.1-r1.ebuild, duc-9999.ebuild:
+  Fix configure phase, #577860
+
+  Package-Manager: portage-2.2.26
+

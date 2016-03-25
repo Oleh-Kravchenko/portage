@@ -107,3 +107,25 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  23 Mar 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  Fix email address.
+
+  Package-Manager: portage-2.2.26
+
+  24 Mar 2016; Sam Jorna <wraeth@gentoo.org> files/3proxy-0.8.6-gentoo.patch:
+  add fixed patch, bug 547234
+
+  When originally added, line endings in patch somehow got modified.
+
+  Gentoo-bug: 547234
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Sam Jorna <wraeth@gentoo.org>
+
+  24 Mar 2016; Sam Jorna <wraeth@gentoo.org>
+  files/3proxy-0.7.1.2-gentoo.patch:
+  fix broken patch, #547234
+
+  Gentoo-bug: 547234
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Sam Jorna <wraeth@gentoo.org>
+

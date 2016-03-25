@@ -228,3 +228,9 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -puppet-agent-1.3.2.ebuild, -puppet-agent-1.3.4.ebuild:
+  remove old badness for bug 577450
+
+  Package-Manager: portage-2.2.26
+
