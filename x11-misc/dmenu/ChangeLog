@@ -125,3 +125,21 @@
   RepoMan-Options: --include-arches="ppc64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  25 Mar 2016; Jeroen Roovers <jer@gentoo.org> dmenu-4.6.ebuild:
+  Stable for HPPA (bug #576066).
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --ignore-arches
+
+  25 Mar 2016; Jeroen Roovers <jer@gentoo.org> -dmenu-4.5-r3.ebuild,
+  -dmenu-4.5-r4.ebuild, -files/dmenu-4.5-xft-2.patch,
+  -files/dmenu-4.5-xft-3.patch:
+  Old.
+
+  Package-Manager: portage-2.2.28
+
+  25 Mar 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag description from metadata.xml
+
+  Package-Manager: portage-2.2.28
+

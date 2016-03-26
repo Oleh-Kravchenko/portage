@@ -46,3 +46,9 @@
 
   Package-Manager: portage-2.2.26
 
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  fasteners-0.13.0.ebuild:
+  adding python35 support
+
+  Package-Manager: portage-2.2.26
+

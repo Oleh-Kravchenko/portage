@@ -200,3 +200,9 @@
   files/findutils-4.6.0-gnulib-mb.patch:
   fix gnulib patch backport #576818
 
+  25 Mar 2016; Markus Meier <maekke@gentoo.org> findutils-4.6.0.ebuild:
+  arm stable, bug #576010
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="arm"
+

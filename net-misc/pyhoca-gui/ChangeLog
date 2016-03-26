@@ -71,3 +71,11 @@
 
   Package-Manager: portage-2.2.27
 
+*pyhoca-gui-0.5.0.6 (25 Mar 2016)
+
+  25 Mar 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +pyhoca-gui-0.5.0.6.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.28
+

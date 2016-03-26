@@ -184,3 +184,10 @@
 
   Package-Manager: portage-2.2.26
 
+*swift-2.7.0 (25 Mar 2016)
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> +swift-2.7.0.ebuild:
+  MITAKA
+
+  Package-Manager: portage-2.2.26
+

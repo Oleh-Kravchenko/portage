@@ -181,3 +181,10 @@
 
   Package-Manager: portage-2.2.28
 
+*vala-0.32.0 (25 Mar 2016)
+
+  25 Mar 2016; Dennis Lamm <expeditioneer@gentoo.org> +vala-0.32.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+

@@ -114,3 +114,15 @@
 
   Package-Manager: portage-2.2.27
 
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  eventlet-0.18.4.ebuild:
+  adding py35 support
+
+  Package-Manager: portage-2.2.26
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  eventlet-0.18.4.ebuild:
+  readding arm64 support
+
+  Package-Manager: portage-2.2.26
+

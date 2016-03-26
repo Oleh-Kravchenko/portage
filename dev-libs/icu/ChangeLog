@@ -110,3 +110,12 @@
 
   Package-Manager: portage-2.2.27
 
+*icu-57.1 (25 Mar 2016)
+
+  25 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/icu-57.1-remove-bashisms.patch,
+  -files/icu-fix-tests-depending-on-date.patch, +icu-57.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

@@ -132,3 +132,8 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> alembic-0.8.5.ebuild:
+  adding arm64
+
+  Package-Manager: portage-2.2.26
+

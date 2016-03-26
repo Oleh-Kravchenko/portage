@@ -77,3 +77,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  amqplib-1.0.2-r1.ebuild:
+  adding py35
+
+  Package-Manager: portage-2.2.26
+

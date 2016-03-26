@@ -270,3 +270,50 @@
 
   Package-Manager: portage-2.2.26
 
+*keystone-2016.1.9999 (25 Mar 2016)
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +keystone-2016.1.9999.ebuild:
+  MITAKA
+
+  Package-Manager: portage-2.2.26
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  keystone-2016.1.9999.ebuild:
+  py35
+
+  Package-Manager: portage-2.2.26
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  keystone-2016.1.9999.ebuild:
+  still no py3 :(
+
+  https://wiki.openstack.org/wiki/Python3#Python_3_Status_of_OpenStack_project
+  s
+
+  Package-Manager: portage-2.2.26
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  keystone-2015.2.9999.ebuild, keystone-2016.1.9999.ebuild:
+  readding mongo/memcached/ldap support
+
+  Package-Manager: portage-2.2.26
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  keystone-2015.2.9999.ebuild, keystone-2016.1.9999.ebuild:
+  add uwsgi fun
+
+  Package-Manager: portage-2.2.26
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  keystone-2015.2.9999.ebuild, keystone-2016.1.9999.ebuild:
+  make sure uwsgi calls python
+
+  Package-Manager: portage-2.2.26
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  keystone-2016.1.9999.ebuild:
+  fixing uwsgi script
+
+  Package-Manager: portage-2.2.26
+

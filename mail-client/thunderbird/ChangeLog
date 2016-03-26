@@ -361,3 +361,17 @@
   RepoMan-Options: --include-arches="ppc64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*thunderbird-38.7.1 (25 Mar 2016)
+
+  25 Mar 2016; Ian Stakenvicius <axs@gentoo.org> +thunderbird-38.7.1.ebuild:
+  version bump for security bug 576864
+
+  thunderbird-38.7.1 addresses the graphite2 vulnerabilities
+  by disabling the bundled graphite2 library.  Functionality
+  will return in future versions, hopefully using the system copy
+  of grpahite2.
+
+  Bug: http://bugs.gentoo.org/576864
+
+  Package-Manager: portage-2.2.26
+

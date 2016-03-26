@@ -110,3 +110,11 @@
   PyECLib-1.0.7-r2.ebuild:
   adding arm64 keyword to C based openstack packages
 
+*PyECLib-1.2.0 (25 Mar 2016)
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +PyECLib-1.2.0.ebuild:
+  bup for mitaka
+
+  Package-Manager: portage-2.2.26
+

@@ -19,3 +19,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> reno-1.2.0.ebuild:
+  adding arm64 keyword
+
+  merged on X-C1
+
+  Package-Manager: portage-2.2.26
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> reno-1.2.0.ebuild:
+  adding py35 support
+
+  Package-Manager: portage-2.2.26
+

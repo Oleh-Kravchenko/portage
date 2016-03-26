@@ -123,3 +123,11 @@
 
   Package-Manager: portage-2.2.26
 
+*oslo-config-3.9.0 (25 Mar 2016)
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-config-3.9.0.ebuild:
+  bup for mitaka
+
+  Package-Manager: portage-2.2.26
+

@@ -132,3 +132,11 @@
 
   Package-Manager: portage-2.2.26
 
+*oslo-i18n-3.4.0 (25 Mar 2016)
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-i18n-3.4.0.ebuild:
+  bup for mitaka
+
+  Package-Manager: portage-2.2.26
+

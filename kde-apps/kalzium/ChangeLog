@@ -68,3 +68,25 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*kalzium-15.12.3-r1 (25 Mar 2016)
+
+  25 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  +kalzium-15.12.3-r1.ebuild:
+  kde-apps: Move kdeedu-meta 15.12.3 from kde overlay
+
+  Package-Manager: portage-2.2.27
+
+*kalzium-15.12.3-r2 (25 Mar 2016)
+
+  25 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/kalzium-15.12.3-plasmoids.patch, +kalzium-15.12.3-r2.ebuild:
+  Re-add USE=+plasma, fix DEPENDs
+
+  Package-Manager: portage-2.2.27
+
+  25 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  -kalzium-15.12.3-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.27
+

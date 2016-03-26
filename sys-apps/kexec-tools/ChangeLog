@@ -95,3 +95,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 Mar 2016; Mike Frysinger <vapier@gentoo.org> -files/kexec.conf-9999,
+  -files/kexec.init-9999, kexec-tools-9999.ebuild:
+  merge git & release versions
+
+  24 Mar 2016; Mike Frysinger <vapier@gentoo.org> -files/kexec.init-2.0.4,
+  -kexec-tools-2.0.8.ebuild, -kexec-tools-2.0.9.ebuild,
+  -kexec-tools-2.0.9-r1.ebuild:
+  drop some old versions
+
+*kexec-tools-2.0.12 (24 Mar 2016)
+
+  24 Mar 2016; Mike Frysinger <vapier@gentoo.org> +files/kexec.init-2.0.12,
+  +kexec-tools-2.0.12.ebuild, kexec-tools-9999.ebuild:
+  version bump to 2.0.12 #578164
+
+  Rework the init script heavily in the process to make it a bit less
+  "smart" and respect user settings. #577496
+

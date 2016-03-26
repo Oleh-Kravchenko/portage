@@ -143,3 +143,16 @@
 
   Package-Manager: portage-2.2.28
 
+*geos-3.5.0-r2 (25 Mar 2016)
+
+  25 Mar 2016; Sam Jorna <wraeth@gentoo.org> -geos-3.5.0-r1.ebuild,
+  +geos-3.5.0-r2.ebuild:
+  fix build ext for all php targets
+
+  Ensures the extention for all php targets is built. Ebuild from
+  grknight.
+
+  Gentoo-bug: 578188
+  Gentoo-bug: 578190
+  Package-Manager: portage-2.2.28
+

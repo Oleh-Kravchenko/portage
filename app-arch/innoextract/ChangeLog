@@ -125,3 +125,9 @@
   Closes: https://github.com/gentoo/gentoo/pull/1031
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*innoextract-1.6 (25 Mar 2016)
+
+  25 Mar 2016; Michael Palimaka <kensington@gentoo.org>
+  +innoextract-1.6.ebuild:
+  version bump (1.6)
+

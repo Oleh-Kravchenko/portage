@@ -86,3 +86,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xf86-video-ati-7.6.1_p20160324 (25 Mar 2016)
+
+  25 Mar 2016; Manuel Rüger <mrueg@gentoo.org>
+  +xf86-video-ati-7.6.1_p20160324.ebuild:
+  Add snapshot
+
+  Package-Manager: portage-2.2.28
+

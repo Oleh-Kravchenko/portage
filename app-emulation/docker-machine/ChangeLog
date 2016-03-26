@@ -48,3 +48,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*docker-machine-0.6.0 (25 Mar 2016)
+
+  25 Mar 2016; Zac Medico <zmedico@gentoo.org> +docker-machine-0.6.0.ebuild:
+  version bump to 0.6.0
+
+  Package-Manager: portage-2.2.28
+

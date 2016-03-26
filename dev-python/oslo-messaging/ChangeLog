@@ -103,3 +103,11 @@
 
   Package-Manager: portage-2.2.26
 
+*oslo-messaging-4.5.1 (25 Mar 2016)
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-messaging-4.5.1.ebuild:
+  bup for mitaka
+
+  Package-Manager: portage-2.2.26
+

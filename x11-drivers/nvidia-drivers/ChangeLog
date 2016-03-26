@@ -652,3 +652,14 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Mar 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/nvidia-drivers-364.12-pax.patch, nvidia-drivers-364.12-r1.ebuild:
+  Add 364 PaX patch.
+
+  Package-Manager: portage-2.2.28
+
+  25 Mar 2016; Jeroen Roovers <jer@gentoo.org> metadata.xml:
+  Add hardened team.
+
+  Package-Manager: portage-2.2.28
+

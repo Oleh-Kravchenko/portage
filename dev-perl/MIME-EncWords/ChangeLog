@@ -75,3 +75,9 @@
 
   Package-Manager: portage-2.2.27
 
+  25 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  MIME-EncWords-1.14.3.ebuild:
+  Keyword x86
+
+  Package-Manager: portage-2.2.28
+

@@ -217,3 +217,10 @@
 
   Package-Manager: portage-2.2.27
 
+*mongodb-2.6.12 (25 Mar 2016)
+
+  25 Mar 2016; Ultrabug <ultrabug@gentoo.org> +mongodb-2.6.12.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

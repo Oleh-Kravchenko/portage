@@ -106,3 +106,9 @@
 
   Package-Manager: portage-2.2.26
 
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  stevedore-1.12.0.ebuild:
+  adding arm64
+
+  Package-Manager: portage-2.2.26
+
