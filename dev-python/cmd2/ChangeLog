@@ -71,3 +71,8 @@
 
   Package-Manager: portage-2.2.26
 
+  26 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> cmd2-0.6.7.ebuild:
+  add py35 support
+
+  Package-Manager: portage-2.2.26
+

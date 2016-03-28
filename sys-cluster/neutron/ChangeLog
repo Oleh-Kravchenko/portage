@@ -287,3 +287,11 @@
 
   Package-Manager: portage-2.2.26
 
+*neutron-2016.1.9999 (26 Mar 2016)
+
+  26 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +neutron-2016.1.9999.ebuild:
+  MITAKA
+
+  Package-Manager: portage-2.2.26
+

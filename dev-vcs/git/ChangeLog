@@ -647,3 +647,10 @@
 
   Package-Manager: portage-2.2.28
 
+  26 Mar 2016; Robin H. Johnson <robbat2@gentoo.org> -git-2.4.10.ebuild,
+  -git-2.5.4.ebuild, -git-2.6.5.ebuild, -git-2.7.1.ebuild, -git-2.7.2.ebuild,
+  -git-2.7.3.ebuild:
+  cleanup vuln versions per bug #577482.
+
+  Package-Manager: portage-2.2.27
+

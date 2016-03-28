@@ -368,3 +368,11 @@
 
   Package-Manager: portage-2.2.26
 
+*glance-2016.1.9999 (25 Mar 2016)
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +glance-2016.1.9999.ebuild:
+  MITAKA
+
+  Package-Manager: portage-2.2.26
+

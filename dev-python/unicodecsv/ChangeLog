@@ -114,3 +114,9 @@
 
   Package-Manager: portage-2.2.26
 
+  26 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  unicodecsv-0.14.1.ebuild:
+  adding py33
+
+  Package-Manager: portage-2.2.26
+

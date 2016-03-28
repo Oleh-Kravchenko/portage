@@ -213,3 +213,8 @@
 
   Package-Manager: portage-2.2.28_p60
 
+  27 Mar 2016; Mike Gilbert <floppym@gentoo.org> transmission-2.92.ebuild:
+  Fix m4 error when running aclocal
+
+  Package-Manager: portage-2.2.28_p64
+

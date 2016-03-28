@@ -111,3 +111,9 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  pyquery-1.2.11.ebuild:
+  adding py35
+
+  Package-Manager: portage-2.2.26
+

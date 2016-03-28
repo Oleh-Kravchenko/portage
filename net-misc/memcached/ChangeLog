@@ -109,3 +109,10 @@
 
   Package-Manager: portage-2.2.26
 
+  26 Mar 2016; Agostino Sarubbo <ago@gentoo.org> memcached-1.4.25.ebuild:
+  amd64 stable wrt bug #578088
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

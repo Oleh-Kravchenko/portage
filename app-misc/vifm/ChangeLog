@@ -110,3 +110,10 @@
 
   Fixes bug #576150
 
+  26 Mar 2016; Agostino Sarubbo <ago@gentoo.org> vifm-0.8.1a.ebuild:
+  amd64 stable wrt bug #578030
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

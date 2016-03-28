@@ -63,3 +63,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*openofficeorg-thumbnail-1.0.0-r500 (26 Mar 2016)
+
+  26 Mar 2016; Johannes Huber <johu@gentoo.org>
+  +files/openofficeorg-thumbnail-1.0.0-kf5-support.patch,
+  +openofficeorg-thumbnail-1.0.0-r500.ebuild:
+  Revision bump
+
+  Adds support for KF5/Plasma5. Import from kde overlay.
+
+  Package-Manager: portage-2.2.28
+

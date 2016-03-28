@@ -77,3 +77,16 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Mar 2016; Agostino Sarubbo <ago@gentoo.org> MediaWiki-API-0.410.0.ebuild:
+  amd64 stable wrt bug #578258
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  26 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -MediaWiki-API-0.390.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

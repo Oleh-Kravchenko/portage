@@ -69,3 +69,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Mar 2016; Tim Harder <radhermit@gentoo.org>
+  vim-latex-1.8.23.20130116.ebuild, vim-latex-1.8.23.20141116.ebuild:
+  add blockers for app-vim/vimtex
+

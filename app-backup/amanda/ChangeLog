@@ -82,3 +82,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*amanda-3.3.9 (27 Mar 2016)
+
+  27 Mar 2016; Ian Delaney <idella4@gentoo.org> +amanda-3.3.9.ebuild,
+  +files/amanda-3.3.9-stuck.patch:
+  bump to vn. 3.3.9
+
+  patches supplied by proxy maintainer S. Weichinger via the
+  gentoo bug, ack to user Christopher Head for assistance in their preparation
+
+  Gentoo-bug: #575436
+
+  Package-Manager: portage-2.2.28
+

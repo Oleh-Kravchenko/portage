@@ -104,3 +104,16 @@
 
   Package-Manager: portage-2.2.26
 
+*2ping-3.2.1 (27 Mar 2016)
+
+  27 Mar 2016; Anthony G. Basile <blueness@gentoo.org> +2ping-3.2.1.ebuild:
+  version bump to 3.2.1
+
+  Package-Manager: portage-2.2.26
+
+  27 Mar 2016; Anthony G. Basile <blueness@gentoo.org> -2ping-3.0.1.ebuild,
+  -2ping-3.1.0.ebuild:
+  remove older versions
+
+  Package-Manager: portage-2.2.26
+

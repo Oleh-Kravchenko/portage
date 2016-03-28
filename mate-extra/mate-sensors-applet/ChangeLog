@@ -91,3 +91,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -mate-sensors-applet-1.8.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.26
+

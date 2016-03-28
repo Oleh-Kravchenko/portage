@@ -127,3 +127,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*inspircd-2.0.21 (26 Mar 2016)
+
+  26 Mar 2016; Ian Delaney <idella4@gentoo.org>
+  +files/inspircd-2.0.21-fix-path-builds.patch, +files/inspircd-2.0.21-init,
+  +inspircd-2.0.21.ebuild:
+  bump to vn. 2.0.21
+
+  patches to bump ebuild and fix build paths sunbmitted by
+  the proxy maintainer via the gentoo bug. Keyword arm
+  intially tested fine however requires keywording in
+  required dep, held back for later.
+
+  Gentoo bug: #575956
+
+  Package-Manager: portage-2.2.28
+

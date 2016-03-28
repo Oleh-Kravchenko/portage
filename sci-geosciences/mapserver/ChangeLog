@@ -101,3 +101,10 @@
 
   Package-Manager: portage-2.2.28
 
+*mapserver-7.0.1 (27 Mar 2016)
+
+  27 Mar 2016; Sam Jorna <wraeth@gentoo.org> +mapserver-7.0.1.ebuild:
+  bump to 7.0.1
+
+  Package-Manager: portage-2.2.28
+

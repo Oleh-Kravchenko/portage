@@ -77,3 +77,14 @@
 
   Package-Manager: portage-2.2.26
 
+  26 Mar 2016; Patrice Clement <monsieurp@gentoo.org> xp-0.5-r3.ebuild:
+  Stable for amd64+x86.
+
+  Package-Manager: portage-2.2.26
+
+  26 Mar 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/0.5-fix-jdk-1.7-enum.patch, -files/build.xml, -xp-0.5-r2.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+

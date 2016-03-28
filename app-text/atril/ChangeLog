@@ -105,3 +105,16 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*atril-1.10.3-r2 (26 Mar 2016)
+
+  26 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> -atril-1.10.3-r1.ebuild,
+  +atril-1.10.3-r2.ebuild:
+  Fix epub USE flag. #578220, Thanks to Klaus Kusche
+
+  Package-Manager: portage-2.2.26
+
+  26 Mar 2016; NP-Hardass <NP-Hardass@gentoo.org> -atril-1.8.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.26
+

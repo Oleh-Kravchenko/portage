@@ -64,3 +64,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Mar 2016; Agostino Sarubbo <ago@gentoo.org> MailTools-2.140.0.ebuild:
+  alpha/amd64/arm/hppa/ia64/ppc64/ppc/sparc/x86 stable, (ALLARCHES policy) wrt
+  bug #578250
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  26 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -MailTools-2.120.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

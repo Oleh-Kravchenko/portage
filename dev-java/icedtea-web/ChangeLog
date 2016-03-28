@@ -140,3 +140,8 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Mar 2016; James Le Cuirot <chewi@gentoo.org> icedtea-web-1.5.1-r1.ebuild:
+  Drop ppc64 on 1.5.1-r1 to fix the tree
+
+  Package-Manager: portage-2.2.28
+

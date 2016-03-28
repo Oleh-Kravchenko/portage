@@ -113,3 +113,9 @@
 
   Package-Manager: portage-2.2.26
 
+  26 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  webtest-2.0.18.ebuild:
+  adding py35
+
+  Package-Manager: portage-2.2.26
+

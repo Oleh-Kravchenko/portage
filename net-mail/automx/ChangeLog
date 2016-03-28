@@ -57,3 +57,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*automx-0.10.2-r2 (25 Mar 2016)
+
+  25 Mar 2016; Marc Schiffbauer <mschiff@gentoo.org> +automx-0.10.2-r2.ebuild:
+  revbump. Fixes #567274.
+
+  Thanks to Timo Rothenpieler
+
+  Package-Manager: portage-2.2.28
+  Manifest-Sign-Key: 0xCA3E7BF67F979BE5
+

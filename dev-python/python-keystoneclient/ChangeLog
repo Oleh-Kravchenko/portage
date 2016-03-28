@@ -180,3 +180,11 @@
 
   Package-Manager: portage-2.2.26
 
+*python-keystoneclient-2.3.1 (27 Mar 2016)
+
+  27 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +python-keystoneclient-2.3.1.ebuild:
+  bup for mitaka
+
+  Package-Manager: portage-2.2.26
+

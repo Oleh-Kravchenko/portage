@@ -207,3 +207,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Mar 2016; Jeroen Roovers <jer@gentoo.org> busybox-1.24.2.ebuild:
+  Stable for HPPA PPC64 (bug #577610).
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --ignore-arches
+
+  27 Mar 2016; Agostino Sarubbo <ago@gentoo.org> busybox-1.24.2.ebuild:
+  ppc stable wrt bug #577610
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

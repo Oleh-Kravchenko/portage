@@ -110,3 +110,13 @@
   +bash-completion-2.1_p20141224-r2.ebuild:
   Fix blacklist/whitelist matching, #574570
 
+*bash-completion-2.2 (26 Mar 2016)
+
+  26 Mar 2016; Michał Górny <mgorny@gentoo.org> +bash-completion-2.2.ebuild:
+  Bump to 2.2, #577836
+
+  26 Mar 2016; Michał Górny <mgorny@gentoo.org> -bash-completion-2.1.ebuild,
+  -bash-completion-2.1-r91.ebuild, -bash-completion-2.1-r92.ebuild,
+  -bash-completion-2.1-r93.ebuild, -bash-completion-2.1-r94.ebuild:
+  Drop interim old versions
+

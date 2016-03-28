@@ -102,3 +102,10 @@
 
   Package-Manager: portage-2.2.26
 
+*freexl-1.0.2 (27 Mar 2016)
+
+  27 Mar 2016; Sam Jorna <wraeth@gentoo.org> +freexl-1.0.2.ebuild:
+  bump to 1.0.2
+
+  Package-Manager: portage-2.2.28
+

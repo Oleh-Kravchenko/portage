@@ -76,3 +76,11 @@
 
   Package-Manager: portage-2.2.26
 
+*openstack-meta-2016.1.9999 (26 Mar 2016)
+
+  26 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +openstack-meta-2016.1.9999.ebuild:
+  MITAKA
+
+  Package-Manager: portage-2.2.26
+

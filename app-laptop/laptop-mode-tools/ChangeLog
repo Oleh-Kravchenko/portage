@@ -99,3 +99,19 @@
 
   Package-Manager: portage-2.2.26
 
+*laptop-mode-tools-1.69.2 (27 Mar 2016)
+
+  27 Mar 2016; Alon Bar-Lev <alonbl@gentoo.org>
+  +laptop-mode-tools-1.69.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.26
+
+  27 Mar 2016; Alon Bar-Lev <alonbl@gentoo.org>
+  -laptop-mode-tools-1.67.ebuild, -laptop-mode-tools-1.68.ebuild,
+  -laptop-mode-tools-1.68.1.ebuild, -laptop-mode-tools-1.69.ebuild,
+  -laptop-mode-tools-1.69.1.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+

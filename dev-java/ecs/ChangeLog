@@ -64,3 +64,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Mar 2016; Patrice Clement <monsieurp@gentoo.org> ecs-1.4.2-r2.ebuild:
+  Housekeeping.
+
+  Package-Manager: portage-2.2.26
+
+  26 Mar 2016; Patrice Clement <monsieurp@gentoo.org> -ecs-1.4.2-r1.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+
+  26 Mar 2016; Patrice Clement <monsieurp@gentoo.org> ecs-1.4.2-r2.ebuild,
+  -files/1.4.2-java7-enum.patch, +files/ecs-1.4.2-java7-enum.patch:
+  Rename patch.
+
+  Package-Manager: portage-2.2.26
+

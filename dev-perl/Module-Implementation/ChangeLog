@@ -74,3 +74,17 @@
 
   Package-Manager: portage-2.2.27
 
+  27 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  Module-Implementation-0.90.0.ebuild:
+  alpha/amd64/arm/hppa/ia64/ppc64/ppc/sparc/x86 stable, (ALLARCHES policy) wrt
+  bug #578378
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  27 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Module-Implementation-0.60.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

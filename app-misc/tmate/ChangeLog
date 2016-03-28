@@ -14,3 +14,13 @@
 
   Package-Manager: portage-2.2.27
 
+*tmate-2.2.0-r1 (26 Mar 2016)
+
+  26 Mar 2016; Yixun Lan <dlan@gentoo.org> -tmate-2.2.0.ebuild,
+  +tmate-2.2.0-r1.ebuild:
+  fix missing sys-libs/libutempter dep problem
+
+  Gentoo-bug: 578080
+
+  Package-Manager: portage-2.2.28
+

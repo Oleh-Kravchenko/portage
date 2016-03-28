@@ -110,3 +110,11 @@
 
   Package-Manager: portage-2.2.26
 
+*glance_store-0.13.0 (25 Mar 2016)
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +glance_store-0.13.0.ebuild, metadata.xml:
+  bup for mitaka
+
+  Package-Manager: portage-2.2.26
+

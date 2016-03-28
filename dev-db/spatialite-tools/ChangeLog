@@ -63,3 +63,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*spatialite-tools-4.3.0 (27 Mar 2016)
+
+  27 Mar 2016; Sam Jorna <wraeth@gentoo.org> +spatialite-tools-4.3.0.ebuild:
+  bump to 4.3.0
+
+  Package-Manager: portage-2.2.28
+

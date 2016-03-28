@@ -180,3 +180,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*libssh-0.7.3-r1 (26 Mar 2016)
+
+  26 Mar 2016; Jeroen Roovers <jer@gentoo.org> +libssh-0.7.3-r1.ebuild:
+  Fix broken configure defines (bug #576988 by Ben Kohler).
+
+  Package-Manager: portage-2.2.28
+

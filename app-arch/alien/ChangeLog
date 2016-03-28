@@ -80,3 +80,17 @@
 
   Package-Manager: portage-2.2.26
 
+  27 Mar 2016; Agostino Sarubbo <ago@gentoo.org> alien-8.95.ebuild:
+  ppc stable wrt bug #574876
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  27 Mar 2016; Agostino Sarubbo <ago@gentoo.org> alien-8.95.ebuild:
+  ppc64 stable wrt bug #574876
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="ppc64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

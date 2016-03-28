@@ -376,3 +376,21 @@
   +files/cups-filters-1.8.2-configure-PKG_CONFIG.patch:
   add upstream fixes for pkg-config handling
 
+*cups-filters-1.8.3 (27 Mar 2016)
+
+  27 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +cups-filters-1.8.3.ebuild, +files/cups-browsed.init.d-r1:
+  Bump to version 1.8.3
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  27 Mar 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -cups-filters-1.8.1.ebuild, -cups-filters-1.8.1-r1.ebuild,
+  -cups-filters-1.8.2.ebuild,
+  -files/cups-filters-1.8.1-allow-disable-ghostscript.patch:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -118,3 +118,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  26 Mar 2016; Agostino Sarubbo <ago@gentoo.org> mpg123-1.22.4.ebuild:
+  amd64 stable wrt bug #578056
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

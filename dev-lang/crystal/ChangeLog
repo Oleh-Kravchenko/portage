@@ -50,3 +50,20 @@
 
   Closes: https://github.com/gentoo/gentoo/pull/1095
 
+  26 Mar 2016; Patrice Clement <monsieurp@gentoo.org> -crystal-0.7.7.ebuild,
+  -crystal-0.8.0.ebuild:
+  remove old version
+
+  Closes: https://github.com/gentoo/gentoo/pull/1140
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*crystal-0.14.2 (26 Mar 2016)
+
+  26 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +crystal-0.14.2.ebuild:
+  version bump to 0.14.2
+
+  Closes: https://github.com/gentoo/gentoo/pull/1140
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

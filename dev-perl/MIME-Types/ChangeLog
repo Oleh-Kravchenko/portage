@@ -89,3 +89,16 @@
 
   Package-Manager: portage-2.2.28
 
+  26 Mar 2016; Agostino Sarubbo <ago@gentoo.org> MIME-Types-2.120.0.ebuild:
+  alpha/amd64/hppa/ia64/ppc64/ppc/sparc/x86 stable, (ALLARCHES policy) wrt bug
+  #578270
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  26 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -MIME-Types-2.040.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

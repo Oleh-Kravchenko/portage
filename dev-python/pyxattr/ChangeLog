@@ -143,3 +143,20 @@
   RepoMan-Options: --include-arches="ppc64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*pyxattr-0.5.5-r1 (27 Mar 2016)
+
+  27 Mar 2016; David Seifert <soap@gentoo.org> +pyxattr-0.5.5-r1.ebuild:
+  Add python3_5 support
+
+  Package-Manager: portage-2.2.28
+
+  27 Mar 2016; David Seifert <soap@gentoo.org> -pyxattr-0.5.5-r1.ebuild:
+  Revert "dev-python/pyxattr: Add python3_5 support"
+
+  This reverts commit cd3cb67c1a414f55c654393a5ae0124eb21001f8.
+
+  27 Mar 2016; David Seifert <soap@gentoo.org> pyxattr-0.5.5.ebuild:
+  Add python3_5 support
+
+  Package-Manager: portage-2.2.28
+

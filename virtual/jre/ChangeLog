@@ -109,3 +109,15 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Mar 2016; James Le Cuirot <chewi@gentoo.org> jre-1.7.0-r1.ebuild:
+  1.7.0-r1 stable on amd64, x86, drop ppc64
+
+  Java 7 on ppc64 never worked very well for us. We have Java 8 now.
+
+  Package-Manager: portage-2.2.28
+
+  27 Mar 2016; James Le Cuirot <chewi@gentoo.org> -jre-1.7.0.ebuild:
+  Remove old 1.7.0
+
+  Package-Manager: portage-2.2.28
+

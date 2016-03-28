@@ -101,3 +101,11 @@
 
   Package-Manager: portage-2.2.26
 
+*oslo-context-2.2.0 (25 Mar 2016)
+
+  25 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-context-2.2.0.ebuild:
+  bup for mitaka
+
+  Package-Manager: portage-2.2.26
+

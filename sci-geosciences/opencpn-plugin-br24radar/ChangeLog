@@ -71,3 +71,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Mar 2016; Marc Schiffbauer <mschiff@gentoo.org>
+  -opencpn-plugin-br24radar-1.1.ebuild,
+  opencpn-plugin-br24radar-1.1-r1.ebuild:
+  add additional opencpn dep
+
+  Package-Manager: portage-2.2.28
+

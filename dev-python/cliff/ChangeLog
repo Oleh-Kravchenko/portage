@@ -91,3 +91,10 @@
 
   Package-Manager: portage-2.2.26
 
+*cliff-2.0.0 (26 Mar 2016)
+
+  26 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> +cliff-2.0.0.ebuild:
+  bup for mitaka
+
+  Package-Manager: portage-2.2.26
+

@@ -69,3 +69,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*latex2html-2015 (26 Mar 2016)
+
+  26 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +latex2html-2015.ebuild:
+  Version bump, bug 566516
+
+  Package-Manager: portage-2.2.28
+

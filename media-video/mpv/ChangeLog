@@ -914,3 +914,14 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Mar 2016; Patrice Clement <monsieurp@gentoo.org> mpv-9999.ebuild:
+  add more Mac OS X fixes wrt bug 577332 to 9999
+
+  Plus some minor style fixes.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1145
+  Gentoo-Bug: https://bugs.gentoo.org/577332
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -146,3 +146,11 @@
 
   Package-Manager: portage-2.2.26
 
+*python-novaclient-3.3.0 (27 Mar 2016)
+
+  27 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +python-novaclient-3.3.0.ebuild:
+  bup for mitaka
+
+  Package-Manager: portage-2.2.26
+

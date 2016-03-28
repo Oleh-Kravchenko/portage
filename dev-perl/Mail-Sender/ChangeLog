@@ -64,3 +64,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Mar 2016; Agostino Sarubbo <ago@gentoo.org> Mail-Sender-0.8.23.ebuild:
+  amd64/x86 stable, (ALLARCHES policy) wrt bug #578244
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  26 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Mail-Sender-0.8.22-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

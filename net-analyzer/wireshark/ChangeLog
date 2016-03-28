@@ -496,3 +496,8 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Mar 2016; Jeroen Roovers <jer@gentoo.org> -wireshark-2.0.1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.28
+

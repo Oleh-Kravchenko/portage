@@ -128,3 +128,9 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+  27 Mar 2016; Doug Goldstein <cardoe@gentoo.org> yajl-2.1.0.ebuild:
+  fix tests
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+

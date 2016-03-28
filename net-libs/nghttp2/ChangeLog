@@ -279,3 +279,14 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*nghttp2-1.9.0 (26 Mar 2016)
+
+  26 Mar 2016; Mike Frysinger <vapier@gentoo.org> +nghttp2-1.9.0.ebuild:
+  version bump to 1.9.0
+
+*nghttp2-1.9.1 (27 Mar 2016)
+
+  27 Mar 2016; Mike Frysinger <vapier@gentoo.org> -nghttp2-1.9.0.ebuild,
+  +nghttp2-1.9.1.ebuild:
+  version bump to 1.9.1
+

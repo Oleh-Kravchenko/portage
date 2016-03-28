@@ -128,3 +128,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*audacious-3.7.1-r1 (27 Mar 2016)
+
+  27 Mar 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +audacious-3.7.1-r1.ebuild:
+  Non-GUI builds do not install the libaudgui library and header required by
+  some non-optional parts of plugins, so make a GUI USE flag  required
+
+  Package-Manager: portage-2.2.28
+

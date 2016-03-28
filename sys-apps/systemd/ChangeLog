@@ -359,3 +359,14 @@
 
   Package-Manager: portage-2.2.28_p64
 
+  27 Mar 2016; Jason Zaman <perfinion@gentoo.org> systemd-229.ebuild,
+  systemd-229-r100.ebuild, systemd-9999.ebuild:
+  Add selinux policy dep
+
+  Package-Manager: portage-2.2.26
+
+  27 Mar 2016; Mike Gilbert <floppym@gentoo.org> systemd-9999.ebuild:
+  Remove duplicate user addition
+
+  Package-Manager: portage-2.2.28_p64
+

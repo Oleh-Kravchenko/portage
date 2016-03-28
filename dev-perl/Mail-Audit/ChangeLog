@@ -72,3 +72,15 @@
 
   Package-Manager: portage-2.2.28
 
+  26 Mar 2016; Agostino Sarubbo <ago@gentoo.org> Mail-Audit-2.228.0-r1.ebuild:
+  amd64/ppc/x86 stable, (ALLARCHES policy) wrt bug #578032
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  26 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Mail-Audit-2.227.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

@@ -112,3 +112,21 @@
 
   Package-Manager: portage-2.2.27
 
+*postgis-2.2.2 (27 Mar 2016)
+
+  27 Mar 2016; Sam Jorna <wraeth@gentoo.org> +postgis-2.2.2.ebuild:
+  bump to 2.2.2
+
+  Package-Manager: portage-2.2.28
+
+  27 Mar 2016; Sam Jorna <wraeth@gentoo.org> postgis-9999.ebuild:
+  fix 9999 build
+
+  Package-Manager: portage-2.2.28
+
+  27 Mar 2016; Sam Jorna <wraeth@gentoo.org> -files/postgis-1.5-ldflags.patch,
+  -files/postgis_dbs-1.4:
+  remove unneeded patches
+
+  Package-Manager: portage-2.2.28
+

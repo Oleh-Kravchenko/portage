@@ -87,3 +87,9 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  waitress-0.8.10-r1.ebuild:
+  adding py35
+
+  Package-Manager: portage-2.2.26
+

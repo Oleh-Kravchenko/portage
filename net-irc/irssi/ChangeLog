@@ -114,3 +114,10 @@
 
   Package-Manager: portage-2.2.26
 
+*irssi-0.8.19 (26 Mar 2016)
+
+  26 Mar 2016; Patrice Clement <monsieurp@gentoo.org> +irssi-0.8.19.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.26
+

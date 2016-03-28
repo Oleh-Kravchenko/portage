@@ -105,3 +105,12 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*bitlbee-3.4.2 (27 Mar 2016)
+
+  27 Mar 2016; Tim Harder <radhermit@gentoo.org> +bitlbee-3.4.2.ebuild,
+  bitlbee-9999.ebuild:
+  version bump to 3.4.2
+
+  27 Mar 2016; Tim Harder <radhermit@gentoo.org> -bitlbee-3.2.2.ebuild:
+  remove old
+

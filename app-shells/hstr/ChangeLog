@@ -78,3 +78,10 @@
 
   Package-Manager: portage-2.2.26
 
+  27 Mar 2016; Agostino Sarubbo <ago@gentoo.org> hstr-1.19.ebuild:
+  amd64 stable wrt bug #577922
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
