@@ -74,3 +74,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  27 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Module-ScanDeps-1.190.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+
+  28 Mar 2016; Agostino Sarubbo <ago@gentoo.org>
+  Module-ScanDeps-1.200.0.ebuild:
+  amd64/ia64/sparc/x86 stable, (ALLARCHES policy) wrt bug #578416
+
+  Package-Manager: portage-2.2.26
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  28 Mar 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Module-ScanDeps-1.120.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

@@ -84,3 +84,9 @@
 
   Package-Manager: portage-2.2.26
 
+  27 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -warden-1.2.3.ebuild,
+  -warden-1.2.4.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

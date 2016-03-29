@@ -91,3 +91,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*octave-4.0.1 (27 Mar 2016)
+
+  27 Mar 2016; Manuel Rüger <mrueg@gentoo.org> +octave-4.0.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

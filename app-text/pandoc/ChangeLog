@@ -93,3 +93,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Mar 2016; Sergei Trofimovich <slyfox@gentoo.org> -pandoc-1.12.2.1.ebuild,
+  -pandoc-1.12.3.1.ebuild, -pandoc-1.12.3.3.ebuild, -pandoc-1.12.4.ebuild,
+  -pandoc-1.13.1-r3.ebuild, -pandoc-1.13.2.ebuild, -pandoc-1.13.2-r1.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.28
+

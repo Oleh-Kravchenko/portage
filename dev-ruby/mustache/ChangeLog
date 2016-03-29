@@ -121,3 +121,10 @@
   RepoMan-Options: --include-arches="ppc64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*mustache-1.0.3 (28 Mar 2016)
+
+  28 Mar 2016; Hans de Graaff <graaff@gentoo.org> +mustache-1.0.3.ebuild:
+  add 1.0.3
+
+  Package-Manager: portage-2.2.26
+

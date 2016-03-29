@@ -156,3 +156,14 @@
   Remove the status="" attribute from downstream maintainer as it is
   invalid. GLEP 46 permits status="" for upstream maintainers only.
 
+*docker-1.10.3 (28 Mar 2016)
+
+  28 Mar 2016; Kacper Kowalik <xarthisius@gentoo.org> +docker-1.10.3.ebuild:
+  version bump
+
+  Fixes #578330
+
+  Reported-by: Vasilis Lourdas <bugs@lourdas.eu>
+
+  Package-Manager: portage-2.2.27
+

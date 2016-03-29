@@ -287,3 +287,11 @@
 
   Package-Manager: portage-2.2.26
 
+  28 Mar 2016; Mike Pagano <mpagano@gentoo.org> -git-sources-4.5_rc1.ebuild,
+  -git-sources-4.5_rc2.ebuild, -git-sources-4.5_rc3.ebuild,
+  -git-sources-4.5_rc4.ebuild, -git-sources-4.5_rc5.ebuild,
+  -git-sources-4.5_rc6.ebuild, -git-sources-4.5_rc7.ebuild:
+  Remove 4.5_rcX
+
+  Package-Manager: portage-2.2.26
+

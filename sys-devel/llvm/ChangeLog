@@ -522,3 +522,22 @@
 
   Package-Manager: portage-2.2.27
 
+  28 Mar 2016; William Hubbs <williamh@gentoo.org> metadata.xml:
+  add myself as co-maintainer
+
+*llvm-3.7.1-r1 (28 Mar 2016)
+
+  28 Mar 2016; Michał Górny <mgorny@gentoo.org>
+  +files/llvm-3.7.1-llvm-config-0.patch,
+  +files/llvm-3.7.1-llvm-config-1.patch,
+  +files/llvm-3.7.1-llvm-config-2.patch,
+  +files/llvm-3.7.1-llvm-config-3.patch, +llvm-3.7.1-r1.ebuild:
+  Update llvm-config patches for improved compatibility
+
+  Backport upstream r252532 that improves llvm-config support for shared
+  libraries, adding --shared-mode option in particular, along with
+  --build-system option needed for it. Also fix --build-mode to report
+  "Release" rather than non-standard "Gentoo" type.
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=578304
+

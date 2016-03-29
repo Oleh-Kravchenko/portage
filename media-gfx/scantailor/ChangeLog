@@ -66,3 +66,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Mar 2016; David Seifert <soap@gentoo.org>
+  +files/scantailor-0.9.11.1-boost-lambda-namespace.patch,
+  scantailor-0.9.11.1.ebuild:
+  Fix BOOST_JOIN with >=dev-libs/boost-1.58.0
+
+  Gentoo-Bug: 574634
+  * Also fix namespace clashes between boost::lambda and
+    boost::placeholder.
+
+  Package-Manager: portage-2.2.28
+

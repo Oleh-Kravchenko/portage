@@ -121,3 +121,9 @@
 
   Package-Manager: portage-2.2.26
 
+  28 Mar 2016; Matthew Thode <prometheanfire@gentoo.org>
+  python-openstackclient-2.2.0.ebuild:
+  fixing sed typo
+
+  Package-Manager: portage-2.2.26
+

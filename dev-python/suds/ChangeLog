@@ -98,3 +98,8 @@
 
   Package-Manager: portage-2.2.26
 
+  28 Mar 2016; Matthew Thode <prometheanfire@gentoo.org> suds-0.6-r1.ebuild:
+  adding py35
+
+  Package-Manager: portage-2.2.26
+

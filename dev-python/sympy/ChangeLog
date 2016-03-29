@@ -126,3 +126,18 @@
 
   Package-Manager: portage-2.2.28
 
+*sympy-1.0-r1 (28 Mar 2016)
+
+  28 Mar 2016; Andrey Grozin <grozin@gentoo.org> +sympy-1.0-r1.ebuild:
+  with USE=doc now depends on app-text/docbook2X
+
+  Bug: 577966
+
+  Package-Manager: portage-2.2.28
+
+  28 Mar 2016; Andrey Grozin <grozin@gentoo.org> -sympy-0.7.6.1.ebuild,
+  -sympy-1.0.ebuild:
+  gentoo/dev-python/sympy: cleaning old
+
+  Package-Manager: portage-2.2.28
+

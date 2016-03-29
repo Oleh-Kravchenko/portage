@@ -65,3 +65,16 @@
 
   Bug: 575810
 
+*matchbox-keyboard-0.1-r1 (28 Mar 2016)
+
+  28 Mar 2016; Sam Jorna <wraeth@gentoo.org>
+  +files/matchbox-keyboard-0.1-r1-modernize_desktop.patch,
+  +matchbox-keyboard-0.1-r1.ebuild:
+  fix .desktop qa warn
+
+  Patches desktop file to resolve QA warning, bump to EAPI6. Ebuild and
+  patch from user popham to resolve bug.
+
+  Gentoo-bug: 434704
+  Package-Manager: portage-2.2.28
+

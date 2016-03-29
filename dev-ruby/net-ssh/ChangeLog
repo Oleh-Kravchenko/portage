@@ -120,3 +120,15 @@
 
   Package-Manager: portage-2.2.26
 
+*net-ssh-3.1.1 (28 Mar 2016)
+
+  28 Mar 2016; Hans de Graaff <graaff@gentoo.org> +net-ssh-3.1.1.ebuild:
+  add 3.1.1
+
+  Package-Manager: portage-2.2.26
+
+  28 Mar 2016; Hans de Graaff <graaff@gentoo.org> -net-ssh-3.1.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.26
+

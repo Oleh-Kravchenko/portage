@@ -64,3 +64,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 Mar 2016; David Seifert <soap@gentoo.org> aqsis-1.8.2.ebuild,
+  +files/aqsis-1.8.2-boost-join-moc.patch,
+  +files/aqsis-1.8.2-pfto-boost-1.59.patch:
+  Fix BOOST_JOIN with >=dev-libs/boost-1.58.0
+
+  Gentoo-Bug: 574560
+  * Also fix BOOST_MAKE_PFTO_WRAPPER macro that was removed
+
+  Package-Manager: portage-2.2.28
+

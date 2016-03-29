@@ -135,3 +135,9 @@
 
   Package-Manager: portage-2.2.28-prefix
 
+  28 Mar 2016; Fabian Groffen <grobian@gentoo.org>
+  files/p7zip-15.14-darwin.patch:
+  fix compilation on OSX El Capitan also, bug #577344
+
+  Package-Manager: portage-2.2.28-prefix
+
