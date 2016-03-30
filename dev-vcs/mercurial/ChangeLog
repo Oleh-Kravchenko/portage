@@ -179,3 +179,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*mercurial-3.7.3 (29 Mar 2016)
+
+  29 Mar 2016; Dirkjan Ochtman <djc@gentoo.org> +mercurial-3.7.3.ebuild:
+  version bump to 3.7.3
+
+  Package-Manager: portage-2.2.26
+

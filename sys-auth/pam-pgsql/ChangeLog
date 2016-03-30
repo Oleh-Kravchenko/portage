@@ -64,3 +64,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*pam-pgsql-0.7.3.2 (29 Mar 2016)
+
+  29 Mar 2016; Mike Frysinger <vapier@gentoo.org> +pam-pgsql-0.7.3.2.ebuild:
+  version bump to 0.7.3.2 #452652
+
