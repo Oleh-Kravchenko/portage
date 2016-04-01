@@ -242,3 +242,13 @@
 
   Package-Manager: portage-2.2.28
 
+  31 Mar 2016; Sam Jorna <wraeth@gentoo.org> collectd-5.5.1-r2.ebuild:
+  Fix REQUIRED_USE
+
+  REQUIRED_USE of "udev" is only required when smart plugin was selected by
+  the user (forgotten "?").
+
+  Closes: https://github.com/gentoo/gentoo/pull/1171
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Sam Jorna <wraeth@gentoo.org>
+
