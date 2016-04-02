@@ -11,3 +11,9 @@
 
   Package-Manager: portage-2.2.28
 
+  31 Mar 2016; Marc Schiffbauer <mschiff@gentoo.org>
+  opencpn-plugin-otcurrent-1.2.ebuild, opencpn-plugin-otcurrent-9999.ebuild:
+  fix description
+
+  Package-Manager: portage-2.2.28
+
