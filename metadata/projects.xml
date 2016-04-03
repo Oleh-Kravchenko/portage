@@ -420,6 +420,11 @@
       <email>NP-Hardass@gentoo.org</email>
       <name>NP-Hardass</name>
     </member>
+    <member>
+      <email>wraeth@gentoo.org</email>
+      <name>Sam Jorna</name>
+      <role>Member</role>
+    </member>
   </project>
   <project>
     <email>bug-wranglers@gentoo.org</email>
@@ -2673,6 +2678,11 @@
     <member>
       <email>blueknight@gentoo.org</email>
       <name>Yury German</name>
+      <role>Administrator</role>
+    </member>
+    <member>
+      <email>blueness@gentoo.org</email>
+      <name>Anthony G. Basile</name>
       <role>Administrator</role>
     </member>
     <member>

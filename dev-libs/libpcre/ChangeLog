@@ -168,3 +168,10 @@
   -libpcre-8.36.ebuild, -libpcre-8.37-r2.ebuild:
   drop old 8.3[567] versions
 
+*libpcre-8.38-r1 (02 Apr 2016)
+
+  02 Apr 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/libpcre-8.38-CVE-2016-1283.patch,
+  +files/libpcre-8.38-ZDI-CAN-3542.patch, +libpcre-8.38-r1.ebuild:
+  add upstream fixes #570694 #575546
+

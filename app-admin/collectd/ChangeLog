@@ -252,3 +252,9 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Sam Jorna <wraeth@gentoo.org>
 
+  02 Apr 2016; Alexis Ballier <aballier@gentoo.org> collectd-5.5.1-r2.ebuild:
+  do not RDEPEND on libtool but rather on libltdl.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+
