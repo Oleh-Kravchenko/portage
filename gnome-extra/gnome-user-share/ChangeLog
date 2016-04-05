@@ -105,3 +105,12 @@
 
   Package-Manager: portage-2.2.28
 
+*gnome-user-share-3.18.1-r1 (04 Apr 2016)
+
+  04 Apr 2016; Pacho Ramos <pacho@gentoo.org>
+  +files/gnome-user-share-3.18.1-no-prefork.patch,
+  +gnome-user-share-3.18.1-r1.ebuild:
+  Avoid apache prefork requirement (#551012)
+
+  Package-Manager: portage-2.2.28
+
