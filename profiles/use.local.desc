@@ -7558,6 +7558,7 @@ sys-freebsd/freebsd-ubin:zfs - Enable ZFS support (for fstat actually).
 sys-freebsd/freebsd-usbin:audit - Build auditing tools.
 sys-freebsd/freebsd-usbin:floppy - Enable floppy disk utilities (fdcontrol, fdformat, fdread, fdwrite).
 sys-freebsd/freebsd-usbin:netware - Build libraries and tools to work with NetWare protocols (IPX and NCP).
+sys-freebsd/freebsd-usbin:zfs - Enable ZFS support.
 sys-fs/aufs3:debug - Enable additional debugging support
 sys-fs/aufs3:fuse - Enable fuse support
 sys-fs/aufs3:hfs - Enable hfs support
@@ -7816,6 +7817,7 @@ virtual/linux-sources:firmware - Install linux kernel firmware
 virtual/mpi:romio - Enable romio, a high-performance portable MPI-IO
 virtual/mysql:embedded - Build embedded server (libmysqld)
 virtual/podofo-build:boost - Add support for boost
+virtual/ssh:minimal - Prefer net-misc/dropbear over net-misc/openssh
 www-apache/mod_backtrace:unwind - Use sys-libs/libunwind to provide better resolution of function names.
 www-apache/mod_extract_forwarded:mod_proxy - Enable support for Apache's internal proxy
 www-apache/mod_musicindex:archive - Add archive support
