@@ -30,6 +30,18 @@
 
 #--- END OF EXAMPLES ---
 
+# Michael Sterrett <mr_bones_@gentoo.org> (06 Apr 2016)
+# These pin an old crufty version of media-libs/libsfml
+# and aren't used by anything in the tree.
+# Masked for removal on 20160506
+media-libs/csfml
+dev-python/pysfml
+
+# Michael Palimaka <kensington@gentoo.org> (07 Apr 2016)
+# Obsolete. Merged into media-libs/libexif.
+# Masked for removal in 30 days.
+media-libs/libmnote
+
 # Michael Palimaka <kensington@gentoo.org> (06 Apr 2016)
 # Fails to build. Dead upstream. Bug #579020.
 # Masked for removal in 30 days.
@@ -379,10 +391,6 @@ www-apps/389-dsgw
 # Victor Ostorga <vostorga@gentoo.org> (30 Dec 2015)
 # Mask this liferea version because upstream released it broken
 =net-news/liferea-1.10.17
-
-# Fabian Groffen <grobian@gentoo.org> (11 Dec 2015)
-# Release candidates for Exim 4.87
-=mail-mta/exim-4.87_rc7
 
 # Anthony G. Basile <blueness@gentoo.org> (06 Dec 2015)
 # Masked until we deal with SSLv3, bug #567554
