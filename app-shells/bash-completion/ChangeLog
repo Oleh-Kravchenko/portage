@@ -120,3 +120,8 @@
   -bash-completion-2.1-r93.ebuild, -bash-completion-2.1-r94.ebuild:
   Drop interim old versions
 
+*bash-completion-2.3 (09 Apr 2016)
+
+  09 Apr 2016; Michał Górny <mgorny@gentoo.org> +bash-completion-2.3.ebuild:
+  Bump to 4.3, #579070
+
