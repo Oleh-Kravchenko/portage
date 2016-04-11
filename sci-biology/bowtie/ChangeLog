@@ -179,3 +179,12 @@
 
   Package-Manager: portage-2.2.28
 
+*bowtie-2.2.8 (10 Apr 2016)
+
+  10 Apr 2016; David Seifert <soap@gentoo.org> +bowtie-2.2.8.ebuild:
+  Version bump to 2.2.8
+
+  * EAPI=6
+
+  Package-Manager: portage-2.2.28
+
