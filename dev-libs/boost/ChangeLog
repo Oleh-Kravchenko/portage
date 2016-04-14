@@ -205,3 +205,11 @@
 
   Package-Manager: portage-2.2.28
 
+  13 Apr 2016; David Seifert <soap@gentoo.org> boost-1.60.0.ebuild,
+  +files/boost-1.60.0-auto-pointer-python.patch:
+  Add patch for ptr registration in libboost_python
+
+  Gentoo-Bug: 579616
+
+  Package-Manager: portage-2.2.28
+
