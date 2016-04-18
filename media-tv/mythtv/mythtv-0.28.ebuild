@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE_INPUT_DEVICES="input_devices_joystick"
 IUSE="alsa altivec avahi libass autostart bluray cec crystalhd debug dvb dvd \
-egl fftw +hls ieee1394 jack lcd lirc perl pulseaudio python systemd +theora \
+egl fftw +hls ieee1394 jack lcd lirc +mythlogserver perl pulseaudio python systemd +theora \
 vaapi vdpau +vorbis +wrapper +xml xmltv +xvid ${IUSE_INPUT_DEVICES}"
 
 REQUIRED_USE="
@@ -253,6 +253,7 @@ src_configure() {
 	has ccache ${FEATURES} || myconf="${myconf} --disable-ccache"
 
 	myconf="${myconf} $(use_enable systemd systemd_notify)"
+	use systemd || myconf="${myconf} $(use_enable mythlogserver)"
 
 	chmod +x ./external/FFmpeg/version.sh
 
