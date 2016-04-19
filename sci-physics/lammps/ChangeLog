@@ -326,3 +326,10 @@
 
   Package-Manager: portage-2.2.26
 
+*lammps-20160407 (18 Apr 2016)
+
+  18 Apr 2016; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20160407.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.26
+

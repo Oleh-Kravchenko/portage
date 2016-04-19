@@ -229,3 +229,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  18 Apr 2016; Ian Delaney <idella4@gentoo.org> nose-9999.ebuild:
+  Do not use banned EXAMPLES in EAPI 6
+
+  Package-Manager: portage-2.2.26
+  Closes: https://github.com/gentoo/gentoo/pull/1299
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

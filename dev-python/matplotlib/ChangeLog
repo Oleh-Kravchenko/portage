@@ -262,3 +262,8 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  18 Apr 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  Fix metadata.xml file.
+
+  Package-Manager: portage-2.2.26
+
