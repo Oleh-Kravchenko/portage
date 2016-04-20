@@ -140,3 +140,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  19 Apr 2016; Lars Wendler <polynomial-c@gentoo.org>
+  smartmontools-6.4-r1.ebuild:
+  Fixed installation with USE=minimal.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

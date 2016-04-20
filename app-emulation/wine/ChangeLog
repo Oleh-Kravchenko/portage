@@ -391,3 +391,31 @@
 
   Package-Manager: portage-2.2.26
 
+  19 Apr 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/wine-1.9.7-sysmacros.patch, wine-1.9.7.ebuild:
+  fix build w/newer glibc #580046
+
+  19 Apr 2016; NP-Hardass <NP-Hardass@gentoo.org> wine-9999.ebuild:
+  Bump mono version in 9999
+
+  Package-Manager: portage-2.2.26
+
+  19 Apr 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  files/wine-1.9.5-multilib-portage.patch:
+  Convert wine-1.9.5-multilib-portage.patch to -p1
+
+  Package-Manager: portage-2.2.26
+
+  19 Apr 2016; NP-Hardass <NP-Hardass@gentoo.org> wine-9999.ebuild:
+  Bump wine-9999 to EAPI 6
+
+  Package-Manager: portage-2.2.26
+
+  19 Apr 2016; NP-Hardass <NP-Hardass@gentoo.org> wine-1.9.7.ebuild:
+  Fix GCC-5.3 warning in 1.9.7
+
+  Accidentally missed updating 1.9.7 in
+  72f76cae15de74cb99a604303de297fb5412d68f
+
+  Package-Manager: portage-2.2.26
+

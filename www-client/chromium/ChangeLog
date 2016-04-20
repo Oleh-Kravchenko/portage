@@ -910,3 +910,11 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*chromium-51.0.2704.7 (19 Apr 2016)
+
+  19 Apr 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-51.0.2693.2.ebuild, +chromium-51.0.2704.7.ebuild:
+  dev channel bump (51.0.2704.7)
+
+  Package-Manager: portage-2.2.26
+

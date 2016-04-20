@@ -271,3 +271,16 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --ignore-arches
 
+*libinput-1.2.3 (19 Apr 2016)
+
+  19 Apr 2016; Manuel Rüger <mrueg@gentoo.org> +libinput-1.2.3.ebuild:
+  Version bump to 1.2.3
+
+  Package-Manager: portage-2.2.28
+
+  19 Apr 2016; Manuel Rüger <mrueg@gentoo.org> -libinput-1.0.1.ebuild,
+  -libinput-1.2.0.ebuild, -libinput-1.2.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

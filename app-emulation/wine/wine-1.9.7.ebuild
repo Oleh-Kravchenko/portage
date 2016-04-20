@@ -180,8 +180,8 @@ wine_build_environment_check() {
 		# Compile in subshell to prevent "Aborted" message
 		if ! ( $(tc-getCC) -O2 -mincoming-stack-boundary=3 "${FILESDIR}"/pr69140.c -o "${T}"/pr69140 || false ) >/dev/null 2>&1; then
 			eerror "Wine cannot be built with this version of gcc-5.3"
-			eerror "due to compiler bugs; please re-emerge the latest gcc-5.3.x ebuild,"
-			eerror "or use gcc-config to select a different compiler version."
+			eerror "due to compiler bugs; please use gcc-config to select a"
+			eerror "different compiler version."
 			eerror "See https://bugs.gentoo.org/574044"
 			eerror
 			return 1
@@ -247,6 +247,7 @@ src_prepare() {
 		"${FILESDIR}"/${PN}-1.9.5-multilib-portage.patch #395615
 		"${FILESDIR}"/${PN}-1.7.12-osmesa-check.patch #429386
 		"${FILESDIR}"/${PN}-1.6-memset-O3.patch #480508
+		"${FILESDIR}"/${P}-sysmacros.patch #580046
 	)
 	if use staging; then
 		ewarn "Applying the Wine-Staging patchset. Any bug reports to the"
