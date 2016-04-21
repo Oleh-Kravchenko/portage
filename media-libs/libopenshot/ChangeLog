@@ -19,3 +19,9 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Apr 2016; Kacper Kowalik <xarthisius@gentoo.org>
+  libopenshot-0.1.0.ebuild:
+  add missing use flag dependency (imagemagick[cxx])
+
+  Package-Manager: portage-2.2.27
+

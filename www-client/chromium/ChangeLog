@@ -918,3 +918,12 @@
 
   Package-Manager: portage-2.2.26
 
+*chromium-51.0.2704.19 (20 Apr 2016)
+
+  20 Apr 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-51.0.2700.0.ebuild, +chromium-51.0.2704.19.ebuild,
+  +files/chromium-system-ffmpeg-r3.patch:
+  dev channel bump (51.0.2704.19); fix build with system ffmpeg (bug #576372)
+
+  Package-Manager: portage-2.2.26
+

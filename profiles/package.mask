@@ -30,6 +30,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Michael Sterrett <mr_bones_@gentoo.org> (19 Apr 2016)
+# No release in 6 years and segfaults on modern systems. (bug #311809)
+# Masked for removal on 20160519
+games-sports/toycars
+
 # Sergey Popov <pinkbyte@gentoo.org> (19 Apr 2016)
 # Security mask, wrt bug #577156
 # Should be kept in tree for some time
@@ -242,11 +247,6 @@ www-apps/coppermine
 # Multiple unpatched security vulnerabilities
 # per bug #532040. Masked for removal in 30 days.
 dev-libs/matrixssl
-
-# Michael Palimaka <kensington@gentoo.org> (17 Mar 2016)
-# Dead upstream. Doesn't work with new Twitter API.
-# Masked for removal in 30 days.
-net-im/qtwitter
 
 # James Le Cuirot <chewi@gentoo.org> (14 Mar 2016)
 # Bye bye Java 6! If you really still need it then gnu_andrew will
