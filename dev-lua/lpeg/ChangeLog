@@ -85,3 +85,6 @@
   12 Mar 2016; Tim Harder <radhermit@gentoo.org> +lpeg-1.0.0.ebuild:
   version bump to 1.0.0
 
+  21 Apr 2016; Tim Harder <radhermit@gentoo.org> metadata.xml:
+  add vim as a maintainer
+

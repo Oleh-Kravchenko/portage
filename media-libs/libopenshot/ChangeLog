@@ -25,3 +25,17 @@
 
   Package-Manager: portage-2.2.27
 
+*libopenshot-0.1.1 (21 Apr 2016)
+
+  21 Apr 2016; Ian Delaney <idella4@gentoo.org> +libopenshot-0.1.1.ebuild,
+  metadata.xml:
+  bump to 0.1.1
+
+  - imagemagick is now optional
+  - python and ruby can be disabled using cmake options
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1271
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

@@ -251,3 +251,9 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Apr 2016; Matthew Thode <prometheanfire@gentoo.org>
+  cinder-2016.1.9999.ebuild, metadata.xml:
+  split out storage backends
+
+  Package-Manager: portage-2.2.26
+

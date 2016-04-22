@@ -305,3 +305,11 @@
 
   Package-Manager: portage-2.2.26
 
+*icinga2-2.4.7 (21 Apr 2016)
+
+  21 Apr 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -icinga2-2.4.6.ebuild, +icinga2-2.4.7.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.26
+

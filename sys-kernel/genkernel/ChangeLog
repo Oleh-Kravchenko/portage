@@ -277,3 +277,11 @@
   genkernel-3.5.0.1.ebuild, genkernel-9999.ebuild:
   move to https URLs
 
+  21 Apr 2016; Mike Frysinger <vapier@gentoo.org> genkernel-9999.ebuild:
+  clean up automatic git version
+
+  Drop the leading "v" to match the version style we use in releases.
+
+  Always add a "-git" suffix so we know it's the 9999 ebuild even if the
+  git repo happens to be the same as the latest release.
+

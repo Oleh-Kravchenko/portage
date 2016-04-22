@@ -82,3 +82,8 @@
 
   Package-Manager: portage-2.2.26
 
+  21 Apr 2016; Patrice Clement <monsieurp@gentoo.org> shtool-2.0.8-r1.ebuild:
+  Call emake instead of emake.
+
+  Package-Manager: portage-2.2.26
+

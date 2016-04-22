@@ -1459,6 +1459,7 @@ dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-games/aseprite:memleak - Enable memory-leaks detector (only for developers)
 dev-games/aseprite:static - Link against static version of C and C++ runtimes
+dev-games/aseprite:webp - Enable webp image format support
 dev-games/cegui:devil - Build the DevIL based ImageCodec module
 dev-games/cegui:freeimage - Build the FreeImage based ImageCodec module
 dev-games/cegui:irrlicht - Enable the Irrlicht renderer
@@ -1780,6 +1781,7 @@ dev-java/oracle-jre-bin:jce - Install Java Cryptographic Extension Unlimited Str
 dev-java/oracle-jre-bin:pax_kernel - Use paxctl to mark the JVM binaries
 dev-java/proguard:ant - Ant task for using ProGuard in build.xml scripts
 dev-java/proguard:j2me - Adds support for J2ME Wireless Toolkit
+dev-java/protobuf-java:nano - Enable code generator and runtime library designed specifically for resource-constrained systems, like Android
 dev-java/rxtx:lfd - Installs and uses LockFileServer daemon (lfd)
 dev-java/sbt:binary - Install from (Gentoo-compiled) binary instead of building from sources. Set this when you run out of memory during build.
 dev-java/swt:webkit - Embedded browser support via net-libs/webkit-gtk:2, replacing former xulrunner-based browser.
@@ -2097,6 +2099,8 @@ dev-libs/openssl:sctp - Support for Stream Control Transmission Protocol
 dev-libs/openssl:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
 dev-libs/pkcs11-helper:nss - Enable NSS crypto engine
 dev-libs/ppl:lpsol - Build the ppl_lpsol linear programming problem solver
+dev-libs/protobuf:java - Builds the Java implementation. This is not needed for Java support in protoc.
+dev-libs/protobuf:python - Builds the Python implementation. This is not needed for Python support in protoc.
 dev-libs/starpu:cuda - Enable NVIDIA CUDA toolkit support
 dev-libs/starpu:gcc-plugin - Enable GCC extension plugin (experimental)
 dev-libs/starpu:opencl - Enable OpenCL support
@@ -2156,12 +2160,14 @@ dev-lisp/ecls:precisegc - Use type information during garbage collection (experi
 dev-lisp/gcl:ansi - Build a GCL with ANSI support (else build a traditional CLtL1 image)
 dev-lisp/gcl:athena - Build xgcl - an interface to x11-libs/libXaw
 dev-lisp/sbcl:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
+dev-lua/lpeg:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/lua-openssl:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/luaossl:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/luarocks:curl - Uses net-misc/curl for fetching lua packages instead of net-misc/wget.
 dev-lua/luarocks:openssl - Uses dev-libs/openssl for verifying lua packages instead of md5sum.
 dev-lua/luvit:bundled-libs - Use bundled versions of some libraries.
 dev-lua/messagepack:luajit - Use the lua just-in-time compiler dev-lang/luajit instead of dev-lang/lua
+dev-lua/mpack:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-ml/cairo-ocaml:pango - Enable support for x11-libs/pango
 dev-ml/deriving-ocsigen:type-conv - Enable type-conv for the syntax extention.
 dev-ml/dose3:parmap - Adds multi-core CPU support via dev-ml/parmap.
@@ -2442,16 +2448,19 @@ dev-qt/qt-creator:autotools - Enable autotools project manager plugin
 dev-qt/qt-creator:baremetal - Build plugin for bare metal devices
 dev-qt/qt-creator:bazaar - Add support for dev-vcs/bzr version control system
 dev-qt/qt-creator:clang - Build clang-based code model plugin
+dev-qt/qt-creator:clangcodemodel - Build clang-based code model plugin
+dev-qt/qt-creator:clangstaticanalyzer - Build clang-based static analyzer plugin
 dev-qt/qt-creator:clearcase - Add support for IBM ClearCase version control system (requires manual installation of ClearCase client)
 dev-qt/qt-creator:cmake - Enable cmake project manager plugin
 dev-qt/qt-creator:fakevim - Enable support for vim-like key bindings
+dev-qt/qt-creator:glsl - Enable GLSL source code editor
 dev-qt/qt-creator:ios - Build plugin for Apple iOS devices
 dev-qt/qt-creator:madde - Enable integration with MADDE (Maemo Application Development and Debugging Environment)
 dev-qt/qt-creator:mercurial - Add support for dev-vcs/mercurial version control system
 dev-qt/qt-creator:perforce - Add support for Perforce version control system (requires manual installation of Perforce client)
 dev-qt/qt-creator:python - Enable Python source code editor
 dev-qt/qt-creator:qbs - Enable QBS project manager plugin
-dev-qt/qt-creator:qnx - Build plugin for QNX/Blackberry devices
+dev-qt/qt-creator:qnx - Build plugin for QNX devices
 dev-qt/qt-creator:systemd - Add support for retrieving application output from journald
 dev-qt/qt-creator:valgrind - Add support for memory debugging using dev-util/valgrind
 dev-qt/qt-creator:winrt - Build plugin for WinRT devices
@@ -3238,6 +3247,7 @@ kde-apps/kdebase-runtime-meta:oldwallet - Install kde-apps/kwalletd on a minimal
 kde-apps/kdecore-meta:minimal - Disable install of various KDE SC 4 based packages
 kde-apps/kdecore-meta:wallpapers - Install the KDE wallpapers
 kde-apps/kdenetwork-meta:ppp - Enable support for net-dialup/ppp.
+kde-apps/kdenetwork-meta:telepathy - Enable build of kde-apps/plasma-telepathy-meta, otherwise kde-apps/kopete.
 kde-apps/kdenlive:gles2 - Use GLES 2.0 or later instead of full OpenGL
 kde-apps/kdepim-common-libs:google - Google service integration via net-libs/libkgapi
 kde-apps/kdepim-runtime:facebook - Facebook service integration via net-libs/libkfbapi
@@ -3287,6 +3297,10 @@ kde-apps/kstars:fits - Enable support for the FITS image format through cfitsio
 kde-apps/kstars:indi - Enable support for Astronomical control library using libindi
 kde-apps/kstars:wcs - Enable support for World Coordinate System library using wcslib
 kde-apps/kstars:xplanet - Enable support for Xplanet
+kde-apps/ktp-accounts-kcm:experimental - Enables disabled telepathy services (currently only steam)
+kde-apps/ktp-common-internals:otr - Enable support for encrypted conversations using Off-The-Records messaging
+kde-apps/ktp-common-internals:sso - Enable support for Single sign-on through KAccounts
+kde-apps/ktp-text-ui:speech - Enable incoming messages to be read out using text-to-speech
 kde-apps/kwalletd:gpg - Support wallets with GnuPG encryption additionally to default blowfish-encrypted file
 kde-apps/marble:aprs - Enable support for APRS data sources
 kde-apps/marble:designer-plugin - Enable designer plugin
@@ -4016,6 +4030,7 @@ media-libs/mesa:openvg - Enable the OpenVG 2D acceleration API for Gallium3D.
 media-libs/mesa:osmesa - Build the Mesa library for off-screen rendering.
 media-libs/mesa:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 media-libs/mesa:pic - disable optimized assembly code that is not PIC friendly
+media-libs/mesa:valgrind - Compile in valgrind memory hints
 media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3D Video Layer.
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
@@ -5768,6 +5783,7 @@ net-libs/ptlib:wav - Enable WAVFILE support
 net-libs/qxmpp:opus - Enable Opus codec support via media-libs/opus
 net-libs/qxmpp:vpx - Enable VP8 codec support via media-libs/libvpx
 net-libs/rabbitmq-c:tools - Builds cli tools to interact with brokers
+net-libs/rb_libtorrent:dht - Enable DHT (distributed hash table) support for libtorrent
 net-libs/rest:gnome - Extract proxy information using net-libs/libsoup-gnome
 net-libs/telepathy-qt:farstream - Enable support for audio/video calls via farstream
 net-libs/tox:av - Adds support for audio and video.
