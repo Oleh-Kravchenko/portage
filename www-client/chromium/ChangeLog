@@ -927,3 +927,11 @@
 
   Package-Manager: portage-2.2.26
 
+*chromium-50.0.2661.86 (21 Apr 2016)
+
+  21 Apr 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-50.0.2661.86.ebuild:
+  stable channel bump (50.0.2661.86)
+
+  Package-Manager: portage-2.2.28_p3
+

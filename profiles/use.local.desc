@@ -722,6 +722,7 @@ app-emulation/vmware-workstation:vmware-tools - Install VMware Tools images
 app-emulation/vov:gprof - build with profiling support
 app-emulation/wine:capi - Enable ISDN support via CAPI
 app-emulation/wine:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine:d3d9 - Apply highly experimental patches for Gallium Nine support. This patch may break some applications.
 app-emulation/wine:dos - Pull in games-emulation/dosbox to run DOS applications
 app-emulation/wine:gecko - Add support for the Gecko engine when using iexplore
 app-emulation/wine:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality; For versions before wine-1.9.2, uses experimental patch which may break some apps
@@ -1806,9 +1807,7 @@ dev-lang/ghc:ghcmakebinary - Build with less runtime depends (bundle libffi for 
 dev-lang/ghc:llvm - Enable llvm code generator for ghc (-fllvm).
 dev-lang/gnat-gcc:lto - Add support for link-time optimizations (unsupported, use at your own risk).
 dev-lang/go:gccgo - Enable bootstrapping using gccgo
-dev-lang/icc:eclipse - Install the dev-util/eclipse-sdk plugins
 dev-lang/icon:iplsrc - install the icon programming library source
-dev-lang/idb:eclipse - Install the dev-util/eclipse-sdk plugins
 dev-lang/io:clutter - Build add-on for media-libs/clutter
 dev-lang/io:editline - Build add-on for dev-libs/libedit
 dev-lang/io:google - Build the google search add-on
@@ -2578,8 +2577,6 @@ dev-ros/rosbag:lz4 - Add support for lz4 compressed bags.
 dev-ros/rosconsole:glog - Use dev-cpp/glog as log backend.
 dev-ros/rosconsole:log4cxx - Use dev-libs/log4cxx as log backend.
 dev-ruby/barby:cairo - Add support for writing images (PNG, PS, EPS and, if supported, PDF and SVG) using dev-ruby/rcairo. Not available on JRuby.
-dev-ruby/barby:datamatrix - Add support for datamatrix using dev-ruby/semacode.
-dev-ruby/barby:pdf-writer - Add support for writing PDFs using dev-ruby/pdf-writer.
 dev-ruby/barby:png - Add support for writing PNG images using dev-ruby/chunky_png.
 dev-ruby/barby:prawn - Add support for writing PDF documents using dev-ruby/prawn.
 dev-ruby/barby:qrcode - Add support for QRCode 2D codes using dev-ruby/rqrcode.
@@ -3298,6 +3295,7 @@ kde-apps/kstars:indi - Enable support for Astronomical control library using lib
 kde-apps/kstars:wcs - Enable support for World Coordinate System library using wcslib
 kde-apps/kstars:xplanet - Enable support for Xplanet
 kde-apps/ktp-accounts-kcm:experimental - Enables disabled telepathy services (currently only steam)
+kde-apps/ktp-accounts-kcm:modemmanager - Enable support for mobile broadband devices
 kde-apps/ktp-common-internals:otr - Enable support for encrypted conversations using Off-The-Records messaging
 kde-apps/ktp-common-internals:sso - Enable support for Single sign-on through KAccounts
 kde-apps/ktp-text-ui:speech - Enable incoming messages to be read out using text-to-speech
@@ -5442,8 +5440,6 @@ net-im/kadu:otr - Enable char encryption via OTR library
 net-im/kadu:phonon - Enables phonon audio plugin
 net-im/kadu:sdk - Install Kadu SDK (cmake module, API headers)
 net-im/kadu:speech - Enables speech module
-net-im/ktp-accounts-kcm:modemmanager - Enable support for mobile broadband devices
-net-im/ktp-common-internals:otr - Enable support for encrypted conversations using Off-The-Records messaging
 net-im/licq:aosd - Build the advanced on screen display plugin.
 net-im/mcabber:aspell - Adds support for app-text/aspell spell checker.
 net-im/mcabber:otr - Enable encrypted conversations using Off-The-Records messaging
