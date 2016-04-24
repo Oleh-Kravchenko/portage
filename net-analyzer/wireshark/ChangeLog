@@ -507,3 +507,10 @@
 
   Package-Manager: portage-2.2.28
 
+*wireshark-2.0.3 (23 Apr 2016)
+
+  23 Apr 2016; Jeroen Roovers <jer@gentoo.org> +wireshark-2.0.3.ebuild:
+  Version bump (bug #580882 by Frank Krömmelbein).
+
+  Package-Manager: portage-2.2.28
+
