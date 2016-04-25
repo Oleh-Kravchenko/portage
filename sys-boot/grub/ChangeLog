@@ -288,3 +288,11 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Apr 2016; Mike Gilbert <floppym@gentoo.org>
+  +files/2.02_beta3-sysmacros.patch, grub-2.02_beta3-r1.ebuild:
+  backport sysmacros fix
+
+  Bug: https://bugs.gentoo.org/580172
+
+  Package-Manager: portage-2.2.28_p71
+

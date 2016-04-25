@@ -186,3 +186,10 @@
 
   Package-Manager: portage-2.2.28
 
+  23 Apr 2016; Davide Pesavento <pesa@gentoo.org>
+  files/qtwebkit-5.2.1-disable-gstreamer.patch,
+  files/qtwebkit-5.3.2-use-gstreamer010.patch:
+  edit gstreamer patches so that they work with eapply
+
+  Package-Manager: portage-2.2.28
+

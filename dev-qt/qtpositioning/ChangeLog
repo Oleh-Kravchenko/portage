@@ -115,3 +115,15 @@
 
   Package-Manager: portage-2.2.28
 
+*qtpositioning-5.6.0-r1 (24 Apr 2016)
+
+  24 Apr 2016; Davide Pesavento <pesa@gentoo.org> -qtpositioning-5.6.0.ebuild,
+  +qtpositioning-5.6.0-r1.ebuild:
+  update dependencies
+
+    * qtnetwork is not a direct dependency
+    * drop build-time dependency on geoclue and add qtdbus,
+      since the plugin now uses only the GeoClue DBus interface
+
+  Package-Manager: portage-2.2.28
+
