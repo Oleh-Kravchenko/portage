@@ -1292,3 +1292,9 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Apr 2016; Mike Pagano <mpagano@gentoo.org> -gentoo-sources-4.0.4.ebuild,
+  -gentoo-sources-4.0.9.ebuild:
+  Remove deprecated versions
+
+  Package-Manager: portage-2.2.28
+

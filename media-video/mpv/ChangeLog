@@ -975,3 +975,46 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Apr 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/mpv-0.17.0-add-missing-math-include.patch,
+  -files/mpv-0.17.0-glibc-2.23.patch, mpv-0.17.0.ebuild:
+  replace math.h patch with upstream equivalent in 0.17.0
+
+  It's the very same patch, but with an upstream commit reference.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1341
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  25 Apr 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/0.17.0/mpv-0.17.0-add-missing-math-include.patch,
+  +files/0.17.0/mpv-0.17.0-fix-seeking-without-first-index-entry.patch,
+  -files/mpv-0.17.0-add-missing-math-include.patch,
+  -files/mpv-0.17.0-fix-seeking-without-first-index-entry.patch,
+  mpv-0.17.0.ebuild:
+  move 0.17.0 patches under files/0.17.0/ directory
+
+  Closes: https://github.com/gentoo/gentoo/pull/1341
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*mpv-0.17.0-r1 (25 Apr 2016)
+
+  25 Apr 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/0.17.0/mpv-0.17.0-avoid-deprecated-API-usage.patch,
+  +files/0.17.0/mpv-0.17.0-fix-hwdec-fallback.patch,
+  +files/0.17.0/mpv-0.17.0-fix-parsing-multiple-input-command-prefixes.patch,
+  +files/0.17.0/mpv-0.17.0-fix-relative-seeking-with-coverart.patch,
+  +files/0.17.0/mpv-0.17.0-fix-use-after-free.patch,
+  +files/0.17.0/mpv-0.17.0-fix-video-frame-info-memleak.patch,
+  +files/0.17.0/mpv-0.17.0-remove-unneeded-X11-include.patch,
+  +mpv-0.17.0-r1.ebuild:
+  revbump to 0.17.0-r1 to backport some upstream fixes
+
+  Closes: https://github.com/gentoo/gentoo/pull/1341
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
