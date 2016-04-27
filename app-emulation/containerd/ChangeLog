@@ -16,3 +16,9 @@
 
   Package-Manager: portage-2.2.27
 
+  26 Apr 2016; Kacper Kowalik <xarthisius@gentoo.org> containerd-0.2.0.ebuild,
+  containerd-9999.ebuild:
+  fix malformed ebuild header
+
+  Package-Manager: portage-2.2.27
+

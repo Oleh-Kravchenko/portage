@@ -69,3 +69,19 @@
 
   Bug: 575810
 
+*mouseremote-0.90-r2 (26 Apr 2016)
+
+  26 Apr 2016; Austin English <wizardedit@gentoo.org> files/mouseremote.start,
+  +mouseremote-0.90-r2.ebuild:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=573846
+
+  Package-Manager: portage-2.2.26
+
+  26 Apr 2016; Austin English <wizardedit@gentoo.org>
+  -mouseremote-0.90-r1.ebuild:
+  remove mouseremote-0.90-r1
+
+  Package-Manager: portage-2.2.26
+
