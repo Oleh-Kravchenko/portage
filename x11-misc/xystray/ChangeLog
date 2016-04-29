@@ -22,3 +22,13 @@
 
   Package-Manager: portage-2.2.26
 
+  28 Apr 2016; Patrice Clement <monsieurp@gentoo.org>
+  files/xystray-1.0-ldflags.patch:
+  Fix the Makefile patch to support gcc-5
+
+  Package-Manager: portage-2.2.28
+  Gentoo-Bug: https://bugs.gentoo.org/581192
+  Closes: https://github.com/gentoo/gentoo/pull/1367
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

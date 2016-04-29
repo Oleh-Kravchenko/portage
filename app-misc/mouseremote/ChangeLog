@@ -85,3 +85,12 @@
 
   Package-Manager: portage-2.2.26
 
+  27 Apr 2016; Austin English <wizardedit@gentoo.org>
+  +files/mouseremote-0.90-fix-warnings.diff,
+  +files/mouseremote-0.90-gentoo.diff, files/mouseremote-0.90-makefile.diff,
+  -files/mouseremote-gentoo-0.90-r1.diff, -files/mouseremote-gentoo.diff,
+  mouseremote-0.90-r2.ebuild:
+  fix ebuild breakage, update to EAPI=6
+
+  Package-Manager: portage-2.2.26
+
