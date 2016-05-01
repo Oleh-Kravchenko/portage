@@ -74,3 +74,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*perl-Storable-2.530.100-r1 (30 Apr 2016)
+
+  30 Apr 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -perl-Storable-2.530.100.ebuild, +perl-Storable-2.530.100-r1.ebuild:
+  Also provided by 5.22.2
+
+  Package-Manager: portage-2.2.28
+

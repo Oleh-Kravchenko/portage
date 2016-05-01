@@ -76,3 +76,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*perl-Module-CoreList-5.201.604.290 (30 Apr 2016)
+
+  30 Apr 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +perl-Module-CoreList-5.201.604.290.ebuild:
+  Add Perl 5.22.2 version
+
+  Package-Manager: portage-2.2.28
+

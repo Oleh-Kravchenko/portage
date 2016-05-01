@@ -234,3 +234,29 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+  30 Apr 2016; Andrew Savchenko <bircoph@gentoo.org> openafs-1.6.17.ebuild:
+  http -> https
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+
+  30 Apr 2016; Andrew Savchenko <bircoph@gentoo.org> openafs-1.6.17.ebuild:
+  fix SRC_URI
+
+  Docs URI should also contain MY_PRE as suggested by NP-Hardass.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+
+*openafs-1.6.18 (30 Apr 2016)
+
+  30 Apr 2016; Andrew Savchenko <bircoph@gentoo.org> metadata.xml,
+  +openafs-1.6.18.ebuild:
+  version bump
+
+  - add missed deps
+  - new USE flags based on configure options previously ignored
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+
