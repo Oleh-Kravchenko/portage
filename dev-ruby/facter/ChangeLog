@@ -203,3 +203,11 @@
 
   Package-Manager: portage-2.2.26
 
+*facter-3.1.6-r2 (01 May 2016)
+
+  01 May 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -facter-3.1.6-r1.ebuild, +facter-3.1.6-r2.ebuild, +files/00facterdir:
+  fix puppet use of facter and facterdir
+
+  Package-Manager: portage-2.2.26
+

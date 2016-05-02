@@ -234,3 +234,30 @@
   19 Apr 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Fix gtk+ pkg ref
 
+  01 May 2016; Matthias Maier <tamiko@gentoo.org> spice-gtk-0.30-r1.ebuild:
+  fix dependency on app-emulation/spice-protocol, bug #567082
+
+  Package-Manager: portage-2.2.26
+
+  01 May 2016; Matthias Maier <tamiko@gentoo.org> spice-gtk-0.30-r1.ebuild:
+  use PYTHON_REQUIRED_USE unconditionally, bug #567082
+
+  Package-Manager: portage-2.2.26
+
+  01 May 2016; Matthias Maier <tamiko@gentoo.org> spice-gtk-0.30-r1.ebuild:
+  add missing dependency on media-libs/gst-plugins-good, bug #571372
+
+  Package-Manager: portage-2.2.26
+
+*spice-gtk-0.31 (01 May 2016)
+
+  01 May 2016; Matthias Maier <tamiko@gentoo.org> +spice-gtk-0.31.ebuild:
+  version bump to 0.31
+
+  Package-Manager: portage-2.2.26
+
+  01 May 2016; Matthias Maier <tamiko@gentoo.org> spice-gtk-0.31.ebuild:
+  add libressl support, bug #580670
+
+  Package-Manager: portage-2.2.26
+

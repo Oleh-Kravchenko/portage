@@ -79,3 +79,8 @@
 
   Package-Manager: portage-2.2.28
 
+  01 May 2016; Jason Zaman <perfinion@gentoo.org> xmltodict-0.10.1-r1.ebuild:
+  stable for all arches, bug 581694
+
+  Package-Manager: portage-2.2.26
+

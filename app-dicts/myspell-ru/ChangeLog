@@ -78,3 +78,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  01 May 2016; Ulrich Müller <ulm@gentoo.org> myspell-ru-20060316.ebuild:
+  Fix typo in license name.
+
+  Bug: 581748
+
+  Package-Manager: portage-2.2.28
+

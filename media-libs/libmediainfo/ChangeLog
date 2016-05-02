@@ -107,3 +107,8 @@
   11 Apr 2016; Tim Harder <radhermit@gentoo.org> +libmediainfo-0.7.84.ebuild:
   version bump to 0.7.84
 
+*libmediainfo-0.7.85 (01 May 2016)
+
+  01 May 2016; Tim Harder <radhermit@gentoo.org> +libmediainfo-0.7.85.ebuild:
+  version bump to 0.7.85
+

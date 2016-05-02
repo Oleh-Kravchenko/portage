@@ -86,3 +86,8 @@
 
   Package-Manager: portage-2.2.26
 
+  01 May 2016; Thomas Beierlein <tomjbe@gentoo.org> -svxlink-13.12.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.28
+

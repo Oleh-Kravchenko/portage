@@ -79,3 +79,8 @@
 
   Package-Manager: portage-2.2.27
 
+  01 May 2016; Jason Zaman <perfinion@gentoo.org> moto-0.4.22.ebuild:
+  stable for all arches, bug 581698
+
+  Package-Manager: portage-2.2.26
+

@@ -115,3 +115,9 @@
 
   Package-Manager: portage-2.2.28
 
+  30 Apr 2016; Devan Franchini <twitch153@gentoo.org>
+  +files/layman-2.3.0-dir_check.patch, layman-2.3.0-r1.ebuild:
+  Adds patch to check for the existence of repos.conf file, bug #574188
+
+  Package-Manager: portage-2.2.27
+

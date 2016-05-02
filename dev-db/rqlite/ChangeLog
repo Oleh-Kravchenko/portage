@@ -48,3 +48,9 @@
 
   Package-Manager: portage-2.2.28
 
+  01 May 2016; Zac Medico <zmedico@gentoo.org> rqlite-2.1.ebuild,
+  rqlite-9999.ebuild:
+  sync 9999, update homepage
+
+  Package-Manager: portage-2.2.28
+

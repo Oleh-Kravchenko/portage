@@ -180,3 +180,29 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+*spice-0.13.1 (01 May 2016)
+
+  01 May 2016; Matthias Maier <tamiko@gentoo.org> +spice-0.13.1.ebuild:
+  version bump to 0.13.1, bug #580570, bug #580084
+
+  This also fixes the compilation issue in 0.13.0 reported in bug #580084.
+
+  Package-Manager: portage-2.2.26
+
+  01 May 2016; Matthias Maier <tamiko@gentoo.org> -spice-0.13.0.ebuild:
+  Remove broken version 0.13.0, bug #580084
+
+  Package-Manager: portage-2.2.26
+
+*spice-0.12.7 (01 May 2016)
+
+  01 May 2016; Matthias Maier <tamiko@gentoo.org> +spice-0.12.7.ebuild:
+  add version 0.12.7
+
+  Package-Manager: portage-2.2.26
+
+  01 May 2016; Matthias Maier <tamiko@gentoo.org> spice-0.12.6-r2.ebuild:
+  update dependencies, bug #580084
+
+  Package-Manager: portage-2.2.26
+

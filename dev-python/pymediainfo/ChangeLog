@@ -55,3 +55,21 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*pymediainfo-2.1.2 (01 May 2016)
+
+  01 May 2016; Ian Delaney <idella4@gentoo.org> +pymediainfo-2.1.2.ebuild:
+  bump to 2.1.2
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1383
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+  01 May 2016; Ian Delaney <idella4@gentoo.org> -pymediainfo-2.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1383
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
