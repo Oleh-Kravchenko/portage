@@ -388,3 +388,8 @@
   16 Apr 2016; Mike Gilbert <floppym@gentoo.org> +glibc-2.23-r1.ebuild:
   restore 2.23-r1 with a mask
 
+  02 May 2016; Matt Turner <mattst88@gentoo.org> glibc-2.22-r4.ebuild:
+  alpha stable, bug 578602.
+
+  RepoMan-Options: --ignore-arches
+

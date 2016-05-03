@@ -110,3 +110,9 @@
   +files/file-5.26-stdin-test.patch, +files/file-5.26-tests-fatal.patch:
   add a bunch of upstream fixes
 
+  02 May 2016; Lars Wendler <polynomial-c@gentoo.org> file-5.26-r1.ebuild:
+  USE="python" requires dev-python/setuptools (bug #581610)
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

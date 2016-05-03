@@ -97,3 +97,13 @@
 
   Package-Manager: portage-2.2.28
 
+*qtwebsockets-5.6.0-r1 (02 May 2016)
+*qtwebsockets-5.5.1-r2 (02 May 2016)
+
+  02 May 2016; Davide Pesavento <pesa@gentoo.org>
+  -qtwebsockets-5.5.1-r1.ebuild, +qtwebsockets-5.5.1-r2.ebuild,
+  -qtwebsockets-5.6.0.ebuild, +qtwebsockets-5.6.0-r1.ebuild:
+  fix automagic dependency on qtnetwork[ssl]
+
+  Package-Manager: portage-2.2.28
+

@@ -146,3 +146,6 @@
 
   Package-Manager: portage-2.2.26
 
+  02 May 2016; Matt Turner <mattst88@gentoo.org> portage-utils-0.62.ebuild:
+  alpha stable, bug 573106.
+

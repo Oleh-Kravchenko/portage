@@ -210,3 +210,11 @@
 
   Package-Manager: portage-2.2.28_p64
 
+*btrfs-progs-4.5.2 (02 May 2016)
+
+  02 May 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +btrfs-progs-4.5.2.ebuild:
+  bump up to 4.5.2
+
+  Package-Manager: portage-2.2.28
+

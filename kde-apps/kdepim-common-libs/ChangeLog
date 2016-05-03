@@ -33,3 +33,17 @@
 
   Package-Manager: portage-2.2.26
 
+*kdepim-common-libs-4.14.11_pre20160211 (02 May 2016)
+
+  02 May 2016; Johannes Huber <johu@gentoo.org>
+  files/install-composereditorng.patch,
+  +kdepim-common-libs-4.14.11_pre20160211.ebuild:
+  kde-apps: Add KDE PIM 4 maintenance snapshot
+
+  Import from kde overlay. Some improvements compared to last official
+  release.
+
+  Gentoo-bug: 560376
+
+  Package-Manager: portage-2.2.28
+

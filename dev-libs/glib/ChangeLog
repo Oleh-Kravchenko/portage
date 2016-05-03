@@ -334,3 +334,17 @@
 
   Package-Manager: portage-2.2.28
 
+  02 May 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  -glib-2.46.2-r1.ebuild:
+  clean up old
+
+  Package-Manager: portage-2.2.28
+
+*glib-2.46.2-r3 (02 May 2016)
+
+  02 May 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  +glib-2.46.2-r3.ebuild:
+  also fix firefox crash in 2.46 (bug #577686)
+
+  Package-Manager: portage-2.2.28
+

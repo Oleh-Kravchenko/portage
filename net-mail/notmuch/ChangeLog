@@ -134,3 +134,12 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*notmuch-0.22 (01 May 2016)
+
+  01 May 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +notmuch-0.22.ebuild:
+  Bump version
+
+  Simplify deps. Use slots and subslots.
+
+  Package-Manager: portage-2.2.28
+

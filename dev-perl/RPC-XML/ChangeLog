@@ -78,3 +78,9 @@
 
   Package-Manager: portage-2.2.27
 
+  02 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -RPC-XML-0.780.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

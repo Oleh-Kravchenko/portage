@@ -128,3 +128,10 @@
 
   Package-Manager: portage-2.2.28
 
+*kramdown-1.11.1 (01 May 2016)
+
+  01 May 2016; Manuel Rüger <mrueg@gentoo.org> +kramdown-1.11.1.ebuild:
+  Version bump to 1.11.1
+
+  Package-Manager: portage-2.2.28
+

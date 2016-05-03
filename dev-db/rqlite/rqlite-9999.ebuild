@@ -10,15 +10,14 @@ fi
 inherit golang-build
 
 KEYWORDS=""
-DESCRIPTION="Replicated SQLite using the Raft consensus protocol "
+DESCRIPTION="Replicated SQLite using the Raft consensus protocol"
 EGO_PN="github.com/rqlite/rqlite/..."
 HOMEPAGE="https://${EGO_PN%/*} http://www.philipotoole.com/tag/rqlite/"
 LICENSE="MIT"
 SLOT="0/${PVR}"
 IUSE=""
-RESTRICT="test"
 EGIT_REPO_URI="https://github.com/rqlite/rqlite.git"
-#EGIT_COMMIT="32514f4744917937d8ac9a85f4ad7ee7adcfe3d7"
+#EGIT_COMMIT="e3c20964fbdda2e865a5af20667a74fc2c3b5582"
 SRC_URI="
 	https://github.com/armon/go-metrics/archive/345426c77237ece5dab0e1605c3e4b35c3f54757.tar.gz -> go-metrics-345426c77237ece5dab0e1605c3e4b35c3f54757.tar.gz
 	https://github.com/boltdb/bolt/archive/ee4a0888a9abe7eefe5a0992ca4cb06864839873.tar.gz -> bolt-ee4a0888a9abe7eefe5a0992ca4cb06864839873.tar.gz
@@ -91,5 +90,5 @@ golang_install_pkgs() {
 	doins -r "${S}"/src/${EGO_PN%/*}
 	insinto $(dirname "${EPREFIX}$(get_golibdir)/pkg/$(go env GOOS)_$(go env GOARCH)/${EGO_PN%/*}")
 	doins -r "${S}"/pkg/$(go env GOOS)_$(go env GOARCH)/${EGO_PN%/*}{,.a}
-	dodoc "${S}/src/${EGO_PN%/*}/"{CHANGELOG,README}.md
+	dodoc "${S}/src/${EGO_PN%/*}/"*.md
 }

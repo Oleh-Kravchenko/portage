@@ -166,3 +166,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  02 May 2016; Lars Wendler <polynomial-c@gentoo.org> -keepassx-0.4.3.ebuild,
+  -keepassx-2.0.ebuild, -keepassx-2.0.1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

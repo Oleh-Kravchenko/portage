@@ -74,3 +74,11 @@
   vboot-utils-42_p20150219.ebuild:
   fix build w/newer glibc #580554
 
+*vboot-utils-51_p20160427 (02 May 2016)
+
+  02 May 2016; Zac Medico <zmedico@gentoo.org>
+  +vboot-utils-51_p20160427.ebuild:
+  version bump to 51_p20160427 (fixes bug 581470)
+
+  Package-Manager: portage-2.2.28
+

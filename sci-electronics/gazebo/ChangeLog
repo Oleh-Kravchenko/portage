@@ -112,3 +112,14 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  02 May 2016; Alexis Ballier <aballier@gentoo.org> -files/ffmpeg29.patch,
+  -gazebo-6.1.0.ebuild, -gazebo-6.5.1.ebuild, -gazebo-7.0.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+
+  02 May 2016; Alexis Ballier <aballier@gentoo.org> gazebo-7.1.0.ebuild:
+  pin dep to protobuf2 as it does not build with protobuf 3
+
+  Package-Manager: portage-2.2.28
+

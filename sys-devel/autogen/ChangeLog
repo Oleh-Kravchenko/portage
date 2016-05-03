@@ -140,3 +140,6 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  02 May 2016; Matt Turner <mattst88@gentoo.org> autogen-5.18.4.ebuild:
+  alpha stable, bug 575068.
+

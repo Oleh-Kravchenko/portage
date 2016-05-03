@@ -255,3 +255,6 @@
   busybox-1.24.2.ebuild, busybox-9999.ebuild:
   move to https URLs
 
+  02 May 2016; Matt Turner <mattst88@gentoo.org> busybox-1.24.2.ebuild:
+  alpha stable, bug 577610.
+
