@@ -1,0 +1,19 @@
+# ChangeLog for games-arcade/savagewheels
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*savagewheels-1.6.0 (03 May 2016)
+
+  03 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/savagewheels-1.6.0-cmakelists.txt.patch,
+  +files/savagewheels-1.6.0-linux_dirs.patch, +files/savagewheels.in,
+  +metadata.xml, +savagewheels-1.6.0.ebuild:
+  New ebuild.
+
+  This will add savagewheels-1.6.0.
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1290
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

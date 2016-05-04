@@ -554,3 +554,13 @@
 
   Bug: https://bugs.gentoo.org/show_bug.cgi?id=580242
 
+  03 May 2016; Austin English <wizardedit@gentoo.org> files/pydoc.init:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+
+  Approved by Michał Górny <mgorny@gentoo.org>
+
+  Gentoo-Bug: https://bugs.gentoo.org/573846
+  Gentoo-Bug: https://bugs.gentoo.org/581940
+
+  Package-Manager: portage-2.2.26
+

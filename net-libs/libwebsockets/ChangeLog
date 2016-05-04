@@ -33,3 +33,14 @@
 
   Needed for media-sound/csound.
 
+*libwebsockets-1.7.6 (03 May 2016)
+
+  03 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  libwebsockets-1.4.ebuild, +libwebsockets-1.7.6.ebuild, metadata.xml:
+  bump to 1.7.6
+
+  Gentoo-Bug: https://bugs.gentoo.org/578820
+  Closes: https://github.com/gentoo/gentoo/pull/1138
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

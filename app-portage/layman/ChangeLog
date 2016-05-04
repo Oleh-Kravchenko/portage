@@ -135,3 +135,11 @@
 
   Package-Manager: portage-2.2.28_p104
 
+*layman-2.4.0-r1 (03 May 2016)
+
+  03 May 2016; Brian Dolbec <dolsen@gentoo.org> -layman-2.4.0.ebuild,
+  +layman-2.4.0-r1.ebuild:
+  Revision bump 2.4.0 after RDEPENDS update
+
+  Package-Manager: portage-2.2.28_p110_p1091
+

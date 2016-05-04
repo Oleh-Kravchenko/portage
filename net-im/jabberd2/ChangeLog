@@ -105,3 +105,26 @@
 
   Bug: 575810
 
+*jabberd2-2.3.4-r1 (02 May 2016)
+*jabberd2-2.3.3-r2 (02 May 2016)
+*jabberd2-2.3.2-r2 (02 May 2016)
+*jabberd2-2.3.1-r2 (02 May 2016)
+
+  02 May 2016; Austin English <wizardedit@gentoo.org>
+  files/jabberd2-2.3.1.init, files/jabberd2-2.3.2.init,
+  +jabberd2-2.3.1-r2.ebuild, +jabberd2-2.3.2-r2.ebuild,
+  +jabberd2-2.3.3-r2.ebuild, +jabberd2-2.3.4-r1.ebuild:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+
+  Gentoo-Bug: https://bugs.gentoo.org/573846
+
+  Package-Manager: portage-2.2.26
+
+  02 May 2016; Austin English <wizardedit@gentoo.org>
+  -jabberd2-2.3.1-r1.ebuild, -jabberd2-2.3.2.ebuild,
+  -jabberd2-2.3.2-r1.ebuild, -jabberd2-2.3.3-r1.ebuild,
+  -jabberd2-2.3.4.ebuild:
+  remove old versions
+
+  Package-Manager: portage-2.2.26
+

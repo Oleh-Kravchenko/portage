@@ -30,6 +30,10 @@
 
 #--- END OF EXAMPLES ---
 
+# Maciej Mrozowski <reavertm@gentoo.org> (3 May 2016)
+# Mask until >=net-libs/qxmpp-0.8.3 is provided with qt5 support.
+=net-im/kadu-3.0
+
 # Lars Wendler <polynomial-c@gentoo.org> (2 May 2016)
 # Broken reverse deps. At least one header file has been moved around.
 >=media-gfx/imagemagick-7.0.1.0
@@ -193,11 +197,6 @@ dev-java/spring-instrument
 # the proxied maintainer Matthew Brewer <tomboy64@sina.cn>
 # for questions.
 <=media-gfx/slic3r-1.1.9999
-
-# Michael Sterrett <mr_bones_@gentoo.org> (02 Apr 2016)
-# Doesn't work with latest dev-lang/ocaml; dead upstream
-# Masked for removal on 20160502
-games-simulation/planets
 
 # Patrick Lauer (30 Mar 2015)
 # Segfaults when creating directories #578582

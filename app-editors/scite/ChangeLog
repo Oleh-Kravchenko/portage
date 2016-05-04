@@ -119,3 +119,13 @@
 
   Package-Manager: portage-2.2.28
 
+*scite-3.6.5 (03 May 2016)
+
+  03 May 2016; Sam Jorna <wraeth@gentoo.org> +scite-3.6.5.ebuild:
+  bump to 3.6.5
+
+  Version bump to 3.6.5, bump to EAPI6, fixes build with ${CC}.
+
+  Gentoo-bug: 581220
+  Package-Manager: portage-2.2.28
+

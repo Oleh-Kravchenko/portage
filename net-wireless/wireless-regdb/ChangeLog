@@ -103,3 +103,11 @@
 
   Package-Manager: portage-2.2.27
 
+*wireless-regdb-20160502 (02 May 2016)
+
+  02 May 2016; Zero_Chaos <zerochaos@gentoo.org>
+  +wireless-regdb-20160502.ebuild:
+  bump
+
+  Package-Manager: portage-2.2.28
+

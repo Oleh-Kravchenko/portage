@@ -107,3 +107,16 @@
 
   Package-Manager: portage-2.2.28
 
+*qtwebsockets-5.6.0-r2 (03 May 2016)
+*qtwebsockets-5.5.1-r3 (03 May 2016)
+
+  03 May 2016; Davide Pesavento <pesa@gentoo.org>
+  -qtwebsockets-5.5.1-r2.ebuild, +qtwebsockets-5.5.1-r3.ebuild,
+  -qtwebsockets-5.6.0-r1.ebuild, +qtwebsockets-5.6.0-r2.ebuild:
+  USE=ssl must be in sync with the same flag in qtnetwork
+
+  Amends commit af3eca38517b6fce72eb01850b1791323f8a8e24.
+
+  Gentoo-Bug: 581964
+  Package-Manager: portage-2.2.28
+

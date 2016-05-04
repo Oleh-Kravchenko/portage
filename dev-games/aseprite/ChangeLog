@@ -135,3 +135,11 @@
 
   Package-Manager: portage-2.2.26
 
+  03 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  files/aseprite-1.1.4.1_underlinking.patch:
+  Mend patch format for the umpteenth time.
+
+  Geez!
+
+  Package-Manager: portage-2.2.26
+

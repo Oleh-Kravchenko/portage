@@ -323,3 +323,17 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  03 May 2016; Ian Stakenvicius <axs@gentoo.org>
+  +files/xf86-video-virtualbox-5.0.20-Makefile.module.kms.patch,
+  xf86-video-virtualbox-5.0.20.ebuild:
+  5.0.20: build kernel module with help of upstream Makefiles.
+
+  This commit builds on the prior work of Polynomial-C to compile vboxvideo.ko
+  using the upstream Makefile.module.kms.  A small patch is necessary to add a
+  missing
+  include path to the build, and the rest of the changes are the addition of
+  necessary
+  symlinks to allow the build to proceed.
+
+  Package-Manager: portage-2.2.26
+

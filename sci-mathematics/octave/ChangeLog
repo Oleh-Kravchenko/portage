@@ -115,3 +115,35 @@
 
   Package-Manager: portage-2.2.28
 
+*octave-4.0.1-r1 (02 May 2016)
+*octave-4.0.0-r1 (02 May 2016)
+
+  02 May 2016; Mark Wright <gienah@gentoo.org> +octave-4.0.0-r1.ebuild,
+  +octave-4.0.1-r1.ebuild, octave-4.0.2.ebuild:
+  Fix bug 566134, thanks to Francisco Vazquez for reporting.
+
+  Gentoo-bug: 566134
+
+  Package-Manager: portage-2.2.28
+
+*octave-4.0.2-r1 (02 May 2016)
+
+  02 May 2016; Mark Wright <gienah@gentoo.org> -octave-4.0.2.ebuild,
+  +octave-4.0.2-r1.ebuild:
+  revbump 4.0.2 for bug 566134 fix.
+
+  Gentoo-bug: 566134
+
+  Package-Manager: portage-2.2.28
+
+  02 May 2016; Mark Wright <gienah@gentoo.org>
+  +files/octave-4.0.0-texinfo.patch, octave-4.0.0-r1.ebuild:
+  Fix bug 554226, thanks to Helmut Jarausch for reporting.
+
+  Thanks to Patric Schmitz for helping. The patch from upstream is in versions
+  after 4.0.
+
+  Gentoo-bug: 554226
+
+  Package-Manager: portage-2.2.28
+

@@ -245,3 +245,10 @@
 
   Package-Manager: portage-2.2.28
 
+*gsoap-2.8.31 (03 May 2016)
+
+  03 May 2016; Patrick Lauer <patrick@gentoo.org> +gsoap-2.8.31.ebuild:
+  Bump
+
+  Package-Manager: portage-2.2.28
+

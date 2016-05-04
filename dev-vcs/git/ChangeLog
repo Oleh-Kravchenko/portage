@@ -697,3 +697,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  03 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  files/git-daemon-r1.initd:
+  Fixed openrc init script shebang.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

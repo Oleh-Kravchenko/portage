@@ -35,3 +35,11 @@
 
   Package-Manager: portage-2.2.28-prefix
 
+*concurrent-ruby-1.0.2 (03 May 2016)
+
+  03 May 2016; Hans de Graaff <graaff@gentoo.org>
+  +concurrent-ruby-1.0.2.ebuild:
+  add 1.0.2
+
+  Package-Manager: portage-2.2.26
+

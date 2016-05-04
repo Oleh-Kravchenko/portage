@@ -143,3 +143,8 @@
   04 Mar 2016; Mike Frysinger <vapier@gentoo.org> +pax-utils-1.1.6.ebuild:
   version bump
 
+  03 May 2016; Mike Frysinger <vapier@gentoo.org> pax-utils-1.1.ebuild,
+  pax-utils-1.1.1.ebuild, pax-utils-1.1.2.ebuild, pax-utils-1.1.3.ebuild,
+  pax-utils-1.1.4.ebuild, pax-utils-1.1.5.ebuild, pax-utils-1.1.6.ebuild:
+  set up PKG_CONFIG for cross-compiling #581774
+

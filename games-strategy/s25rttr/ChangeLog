@@ -118,3 +118,12 @@
 
   Package-Manager: portage-2.2.26
 
+*s25rttr-0.8.1-r2 (03 May 2016)
+
+  03 May 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +s25rttr-0.8.1-r2.ebuild:
+  rev bump to remove glfw support since this is the last customer in the tree
+  for glfw-2
+
+  Package-Manager: portage-2.2.26
+

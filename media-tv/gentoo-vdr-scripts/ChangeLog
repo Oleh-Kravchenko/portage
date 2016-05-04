@@ -72,3 +72,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gentoo-vdr-scripts-2.7.5 (03 May 2016)
+
+  03 May 2016; Joerg Bornkessel <hd_brummy@gentoo.org>
+  +gentoo-vdr-scripts-2.7.5.ebuild:
+  eapi6; add support ionice, suggested by T.Loescher
+
+  Package-Manager: portage-2.2.28
+

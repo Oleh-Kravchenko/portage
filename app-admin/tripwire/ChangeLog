@@ -97,3 +97,11 @@
 
   Package-Manager: portage-2.2.26
 
+*tripwire-2.4.3.1 (03 May 2016)
+
+  03 May 2016; José María Alonso Josa <nimiux@gentoo.org>
+  +tripwire-2.4.3.1.ebuild:
+  Bump to version 2.4.3.1.
+
+  Package-Manager: portage-2.2.26
+

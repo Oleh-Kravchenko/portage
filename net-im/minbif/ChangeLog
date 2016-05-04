@@ -76,3 +76,18 @@
 
   Bug: 575810
 
+*minbif-1.0.5-r2 (02 May 2016)
+
+  02 May 2016; Austin English <wizardedit@gentoo.org> files/minbif.initd,
+  minbif-1.0.5-r1.ebuild, +minbif-1.0.5-r2.ebuild:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+
+  Gentoo-Bug: https://bugs.gentoo.org/573846
+
+  Package-Manager: portage-2.2.26
+
+  02 May 2016; Austin English <wizardedit@gentoo.org> -minbif-1.0.5-r1.ebuild:
+  remove old version
+
+  Package-Manager: portage-2.2.26
+

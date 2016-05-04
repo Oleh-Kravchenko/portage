@@ -89,3 +89,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*lwt-2.5.2 (03 May 2016)
+
+  03 May 2016; Alexis Ballier <aballier@gentoo.org> +lwt-2.5.2.ebuild:
+  bump to 2.5.2
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Alexis Ballier <aballier@gentoo.org>
+

@@ -326,3 +326,10 @@
 
   Package-Manager: portage-2.2.28
 
+*git-sources-4.6_rc6 (02 May 2016)
+
+  02 May 2016; Mike Pagano <mpagano@gentoo.org> +git-sources-4.6_rc6.ebuild:
+  Linux patch 4.6_rc6
+
+  Package-Manager: portage-2.2.26
+

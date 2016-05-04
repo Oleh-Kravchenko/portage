@@ -79,3 +79,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 May 2016; Tim Harder <radhermit@gentoo.org> fuse-2.9.5.ebuild:
+  fix SRC_URI
+
+*fuse-2.9.6 (03 May 2016)
+
+  03 May 2016; Tim Harder <radhermit@gentoo.org> +fuse-2.9.6.ebuild:
+  version bump to 2.9.6
+
