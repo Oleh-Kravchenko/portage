@@ -77,3 +77,12 @@
   setools-9999.ebuild:
   selinux: initial arm/arm64/mips support
 
+*setools-4.0.0 (04 May 2016)
+
+  04 May 2016; Jason Zaman <perfinion@gentoo.org>
+  +files/setools-4.0.0-remove-gui.patch, +setools-4.0.0.ebuild,
+  setools-9999.ebuild:
+  bump to 4.0.0 and drop keywords for testing
+
+  Package-Manager: portage-2.2.26
+

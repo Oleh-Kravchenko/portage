@@ -126,3 +126,9 @@
 
   Package-Manager: portage-2.2.26
 
+  04 May 2016; Manuel Rüger <mrueg@gentoo.org> sass-3.2.19-r1.ebuild,
+  sass-3.2.19-r2.ebuild, sass-3.3.14-r1.ebuild, sass-3.4.15.ebuild:
+  Fix desc, drop ruby19
+
+  Package-Manager: portage-2.2.28
+

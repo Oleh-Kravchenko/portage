@@ -718,3 +718,12 @@
 
   Package-Manager: portage-2.2.26
 
+  04 May 2016; Patrice Clement <monsieurp@gentoo.org> firefox-46.0.ebuild:
+  specify SHELL on initial emake command in src_configure
+
+  Gentoo-Bug: https://bugs.gentoo.org/577776
+  Closes: https://github.com/gentoo/gentoo/pull/1380
+  Acked-by: Ian Stakenvicius <axs@gentoo.org>
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

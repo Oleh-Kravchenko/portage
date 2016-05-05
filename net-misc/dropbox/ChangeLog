@@ -138,3 +138,8 @@
 
   Package-Manager: portage-2.2.26
 
+  04 May 2016; Jason Zaman <perfinion@gentoo.org> files/dropbox.initd:
+  update openrc-run shebang
+
+  Package-Manager: portage-2.2.26
+

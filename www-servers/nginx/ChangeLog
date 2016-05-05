@@ -310,3 +310,24 @@
 
   Package-Manager: portage-2.2.28
 
+*nginx-1.10.0 (04 May 2016)
+
+  04 May 2016; Manuel Rüger <mrueg@gentoo.org> +files/nginx.initd-r3,
+  +nginx-1.10.0.ebuild:
+  Version bump to 1.10.0, use openrc-run
+
+  Gentoo-Bug: #581862
+  Gentoo-Bug: #581944
+
+  Package-Manager: portage-2.2.28
+
+  04 May 2016; Manuel Rüger <mrueg@gentoo.org> nginx-1.10.0.ebuild:
+  Fix blocker
+
+  Package-Manager: portage-2.2.28
+
+  04 May 2016; Manuel Rüger <mrueg@gentoo.org> -nginx-1.9.14.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

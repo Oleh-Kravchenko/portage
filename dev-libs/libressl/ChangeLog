@@ -126,3 +126,12 @@
   23 Apr 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Remove duplicate <bugs-to/> address
 
+*libressl-2.3.4 (04 May 2016)
+*libressl-2.2.7 (04 May 2016)
+
+  04 May 2016; Anthony G. Basile <blueness@gentoo.org> +libressl-2.2.7.ebuild,
+  +libressl-2.3.4.ebuild:
+  version bump to 2.2.7 and 2.3.4
+
+  Package-Manager: portage-2.2.26
+

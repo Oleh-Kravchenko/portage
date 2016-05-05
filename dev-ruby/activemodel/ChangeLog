@@ -182,3 +182,9 @@
 
   Package-Manager: portage-2.2.26
 
+  04 May 2016; Manuel Rüger <mrueg@gentoo.org> activemodel-3.2.22.1.ebuild,
+  activemodel-4.0.13.ebuild, activemodel-4.1.14.1.ebuild:
+  Fix description length, drop ruby19
+
+  Package-Manager: portage-2.2.28
+

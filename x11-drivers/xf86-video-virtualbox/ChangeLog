@@ -337,3 +337,10 @@
 
   Package-Manager: portage-2.2.26
 
+  04 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  xf86-video-virtualbox-5.0.20.ebuild:
+  Replaced "ln -sf" with "ln -s".
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

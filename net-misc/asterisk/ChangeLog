@@ -167,3 +167,13 @@
 
   Package-Manager: portage-2.2.27
 
+*asterisk-13.8.2 (04 May 2016)
+*asterisk-11.22.0 (04 May 2016)
+
+  04 May 2016; Tony Vroon <chainsaw@gentoo.org> +asterisk-11.22.0.ebuild,
+  +asterisk-13.8.2.ebuild:
+  Bugfix releases on both 11 & 13 branches. EAPI=6 bump with removal of
+  deprecated base eclass.
+
+  Package-Manager: portage-2.2.28
+

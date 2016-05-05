@@ -129,3 +129,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*qmmp-plugin-pack-1.0.3 (04 May 2016)
+*qmmp-plugin-pack-0.9.4 (04 May 2016)
+
+  04 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +qmmp-plugin-pack-0.9.4.ebuild, +qmmp-plugin-pack-1.0.3.ebuild:
+  Bumped to versions 0.9.4 and 1.0.3
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  04 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/qmmp-plugin-pack-1.0.1-fix-build.patch,
+  -qmmp-plugin-pack-0.8.3.ebuild, -qmmp-plugin-pack-0.8.6.ebuild,
+  -qmmp-plugin-pack-1.0.1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
