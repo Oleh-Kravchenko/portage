@@ -454,3 +454,10 @@
 
   Package-Manager: portage-2.2.27
 
+  04 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.0.9999.ebuild, libreoffice-5.1.9999.ebuild,
+  libreoffice-9999.ebuild:
+  Remove use-flag requirement on gdk-pixbuf, bug 582090
+
+  Package-Manager: portage-2.2.28
+

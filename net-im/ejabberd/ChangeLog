@@ -104,3 +104,11 @@
   Package-Manager: portage-2.2.27
   RepoMan-Options: --force
 
+  05 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  ejabberd-16.01-r1.ebuild:
+  16.01-r1: add libressl support
+
+  compile tested at one tinderbox image
+
+  Signed-off-by: Toralf Förster <toralf.foerster@gmx.de>
+

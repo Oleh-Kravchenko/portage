@@ -1258,3 +1258,13 @@
 
   Package-Manager: portage-2.2.26
 
+  05 May 2016; Brian Evans <grknight@gentoo.org> -php-5.4.45.ebuild:
+  Drop PHP 5.4 slot which has been EOL for 6 months
+
+  Package-Manager: portage-2.2.28
+
+  05 May 2016; Brian Evans <grknight@gentoo.org> metadata.xml:
+  Remove old metadata.xml description for mysqlnd
+
+  Package-Manager: portage-2.2.28
+

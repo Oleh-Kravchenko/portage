@@ -215,3 +215,12 @@
   02 Apr 2016; Mike Frysinger <vapier@gentoo.org> enlightenment-0.20.5.ebuild:
   mark 0.20.5 stable
 
+  05 May 2016; Mike Frysinger <vapier@gentoo.org> enlightenment-0.20.5.ebuild,
+  enlightenment-0.20.6.ebuild:
+  update wayland dep to reflect source #581744
+
+  05 May 2016; Mike Frysinger <vapier@gentoo.org>
+  -enlightenment-0.19.12.ebuild, -enlightenment-0.20.1.ebuild,
+  -enlightenment-0.20.2.ebuild:
+  drop old <0.20.5 versions
+

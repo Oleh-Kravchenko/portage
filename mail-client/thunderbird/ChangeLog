@@ -410,3 +410,11 @@
 
   Package-Manager: portage-2.2.26
 
+*thunderbird-38.8.0 (05 May 2016)
+
+  05 May 2016; Ian Stakenvicius <axs@gentoo.org> -thunderbird-38.7.1.ebuild,
+  +thunderbird-38.8.0.ebuild:
+  38.8.0: version bump for security bug 581326
+
+  Package-Manager: portage-2.2.26
+

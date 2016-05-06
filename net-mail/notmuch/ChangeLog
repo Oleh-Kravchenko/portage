@@ -143,3 +143,10 @@
 
   Package-Manager: portage-2.2.28
 
+  05 May 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> notmuch-0.22.ebuild:
+  Install notmuch-report instead of nmbug-status
+
+  nmbug-status has been renamed to notmuch-report.
+
+  Package-Manager: portage-2.2.28
+

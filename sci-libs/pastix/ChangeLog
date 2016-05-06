@@ -33,3 +33,13 @@
 
   Package-Manager: portage-2.2.27
 
+  05 May 2016; David Seifert <soap@gentoo.org>
+  +files/pastix-5.2.2.22-isnan-floating-point-cast.patch,
+  pastix-5.2.2.22-r1.ebuild:
+  Add cast to double for C99 isnan macro
+
+  Gentoo-Bug: 580422
+  * Move patches into PATCHES bash array
+
+  Package-Manager: portage-2.2.28
+

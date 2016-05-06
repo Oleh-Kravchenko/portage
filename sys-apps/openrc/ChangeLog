@@ -318,3 +318,8 @@
 
   Package-Manager: portage-2.2.26
 
+  05 May 2016; William Hubbs <williamh@gentoo.org> openrc-9999.ebuild:
+  move live ebuild to eapi 6
+
+  Package-Manager: portage-2.2.26
+

@@ -131,3 +131,11 @@
 
   Package-Manager: portage-2.2.28
 
+*cgal-4.8-r1 (05 May 2016)
+
+  05 May 2016; David Seifert <soap@gentoo.org> -cgal-4.8.ebuild,
+  +cgal-4.8-r1.ebuild:
+  Move cmake files back to /usr/libdir
+
+  Package-Manager: portage-2.2.28
+

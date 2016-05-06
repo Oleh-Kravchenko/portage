@@ -65,3 +65,15 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*pytest-xdist-1.14-r1 (05 May 2016)
+
+  05 May 2016; Ian Delaney <idella4@gentoo.org> +pytest-xdist-1.14-r1.ebuild:
+  revbump to vn. 1.14-r1
+
+  add missed dep setuptools_scm in DEPEND
+
+  Package-Manager: portage-2.2.26
+  Closes: https://github.com/gentoo/gentoo/pull/1398
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

@@ -83,3 +83,10 @@
 
   Package-Manager: portage-2.2.26
 
+  05 May 2016; Austin English <wizardedit@gentoo.org> midentd-2.3.1-r2.ebuild:
+  use -p0 when applying patch in src_prepare()
+
+  Gentoo-Bug: https://bugs.gentoo.org/582114
+
+  Package-Manager: portage-2.2.26
+

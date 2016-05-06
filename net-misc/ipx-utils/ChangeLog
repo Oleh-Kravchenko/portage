@@ -91,3 +91,19 @@
 
   Package-Manager: portage-2.2.26
 
+  04 May 2016; Austin English <wizardedit@gentoo.org>
+  +files/ipx-utils-1.1-gcc-warnings.patch, ipx-utils-1.1-r4.ebuild:
+  et-misc/ipx-utils: build fixes
+
+  * Install binaries into /sbin (Fixes #582036)
+  * Add a patch to fix some old gcc warnings
+
+  Package-Manager: portage-2.2.26
+
+  04 May 2016; Austin English <wizardedit@gentoo.org> ipx-utils-1.1-r4.ebuild:
+  hard-block when net-fs/ncpfs is installed
+
+  Gentoo-Bug: https://bugs.gentoo.org/420053
+
+  Package-Manager: portage-2.2.26
+

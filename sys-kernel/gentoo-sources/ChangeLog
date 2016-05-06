@@ -1321,3 +1321,25 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-3.14.68 (05 May 2016)
+
+  05 May 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.68.ebuild:
+  Linux patch 3.14.68
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-4.4.9 (05 May 2016)
+
+  05 May 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.9.ebuild:
+  Linux patch 4.4.9
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-4.5.3 (05 May 2016)
+
+  05 May 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.5.3.ebuild:
+  Linux patch 4.5.3
+
+  Package-Manager: portage-2.2.28
+

@@ -193,3 +193,11 @@
 
   Package-Manager: portage-2.2.28
 
+  05 May 2016; Davide Pesavento <pesa@gentoo.org>
+  +files/qtwebkit-5.6.0-pthread.patch, qtwebkit-5.6.0.ebuild:
+  fix linking against libpthread
+
+  Gentoo-Bug: 581282
+
+  Package-Manager: portage-2.2.28
+

@@ -104,3 +104,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 May 2016; David Seifert <soap@gentoo.org>
+  files/allpathslg-52488_remove-namespace-std.patch:
+  replace isnan macro with proper std::isnan function
+
+  Gentoo-Bug: 580086
+
+  Package-Manager: portage-2.2.28
+

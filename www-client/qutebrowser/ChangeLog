@@ -122,3 +122,8 @@
   12 Apr 2016; Tim Harder <radhermit@gentoo.org> +qutebrowser-0.6.1.ebuild:
   version bump to 0.6.1
 
+*qutebrowser-0.6.2 (05 May 2016)
+
+  05 May 2016; Tim Harder <radhermit@gentoo.org> +qutebrowser-0.6.2.ebuild:
+  version bump to 0.6.2
+

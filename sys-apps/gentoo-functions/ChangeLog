@@ -137,3 +137,7 @@
 
   Package-Manager: portage-2.2.26
 
+  04 May 2016; Mike Frysinger <vapier@gentoo.org>
+  gentoo-functions-0.10.ebuild:
+  mark 0.10 m68k/s390/sh stable
+
