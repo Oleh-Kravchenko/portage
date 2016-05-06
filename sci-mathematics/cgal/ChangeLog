@@ -121,3 +121,13 @@
 
   Package-Manager: portage-2.2.26
 
+*cgal-4.8 (03 May 2016)
+
+  03 May 2016; David Seifert <soap@gentoo.org> +cgal-4.8.ebuild:
+  Version bump to 4.8
+
+  * Install *.cmake files in /usr/share/cmake/Modules/
+  * Use C++11 threads instead of boost::thread
+
+  Package-Manager: portage-2.2.28
+
