@@ -953,6 +953,9 @@ app-misc/mc:mclib - Compile and install the libmc.so shared library
 app-misc/mc:sftp - Add support for sftp (uses net-libs/libssh2 for it).
 app-misc/mc:slang - Use sys-libs/slang instead of sys-libs/ncurses.
 app-misc/mc:xdg - Toggles mc's config dir location. Enable for $XDG_CONFIG_HOME/mc, disable for $HOME/.mc
+app-misc/mosquitto:bridge - Enable bridge support in the MQTT broker.
+app-misc/mosquitto:persistence - Store messages and subscriptions to a file.
+app-misc/mosquitto:srv - Include SRV lookup support.
 app-misc/muttprint:doc - Builds documentation
 app-misc/note:general - Add support for ascii flatfile backend
 app-misc/note:text - Add support for text backend
@@ -2203,6 +2206,7 @@ dev-ml/zarith:mpir - Use MPIR library instead of GMP.
 dev-perl/App-Nopaste:clipboard - copying of URLs with -x/--copy
 dev-perl/App-Nopaste:github - Github authentication
 dev-perl/App-Nopaste:pastebin - pastebin.com support
+dev-perl/DBD-SQLite:system-sqlite - Use the system-wide dev-db/sqlite installation
 dev-perl/DBD-mysql:embedded - Support embedded server (libmysqld)
 dev-perl/DBIx-Class:admin - Modules required for the DBIx::Class administrative library
 dev-perl/DBIx-Class:admin_script - Modules required for the CLI DBIx::Class interface dbicadmin
@@ -2654,6 +2658,7 @@ dev-util/anjuta:packagekit - Use packagekit to search for missing tools
 dev-util/anjuta:terminal - Enable terminal plugin based on x11-libs/vte
 dev-util/apitrace:cli - Enable command line interface
 dev-util/apitrace:egl - Enable EGL support
+dev-util/apitrace:system-snappy - Link dynamic against app-arch/snappy
 dev-util/bitcoin-tx:ljr - Enable Luke Dashjr's patches
 dev-util/buildbot:irc - Add support for status delivery through an ircbot.
 dev-util/buildbot:mail - Add support for watching a maildir for commits.
@@ -3892,13 +3897,9 @@ media-libs/assimp:boost - Build assimp with boost support
 media-libs/assimp:samples - Build viewer library
 media-libs/assimp:tools - Build assimp tool binary
 media-libs/aubio:double-precision - Compile in double precision mode.
-media-libs/avidemux-core:aften - Enable A/52 (AC-3) audio encoder support.
-media-libs/avidemux-core:amr - Enable Adaptive Multi-Rate format support via media-libs/opencore-amr.
 media-libs/avidemux-core:system-ffmpeg - Use the ffmpeg provided by the system.
 media-libs/avidemux-plugins:aften - Enable A/52 (AC-3) audio encoder support.
 media-libs/avidemux-plugins:amr - Enable Adaptive Multi-Rate format support via media-libs/opencore-amr.
-media-libs/avidemux-plugins:faac - Enable free MPEG-4 audio codecs support via media-libs/faac.
-media-libs/avidemux-plugins:faad - Enable AAC audio decoding library support via media-libs/faad2.
 media-libs/avidemux-plugins:fribidi - Enable unicode bidirectional algorithm support via dev-libs/fribidi.
 media-libs/avidemux-plugins:twolame - Enable TwoLAME support via media-sound/twolame, an optimised MPEG Audio Layer 2 (MP2) encoder.
 media-libs/avidemux-plugins:vpx - Enable WebM VP8 Codec SDK support via media-libs/libvpx.
@@ -6883,7 +6884,6 @@ sci-libs/ipopt:mumps - Enable sci-libs/mumps support
 sci-libs/lemon:coin - Enable the sci-libs/coinor-clp and sci-libs/coinor-cbc graph algorithms
 sci-libs/lemon:glpk - Enable GNU Linear Programming Kit sci-mathematics/glpk support
 sci-libs/lemon:tools - Build additional tools
-sci-libs/libbufr:lto - Use gold linker and -flto (requires existing env setup)
 sci-libs/libccd:double - Use double precision floats.
 sci-libs/libghemical:mopac7 - Use sci-chemistry/mopac7 for semi-empirical calculations
 sci-libs/libghemical:mpqc - Use sci-chemistry/mpqc for quantum-mechanical calculations
@@ -7355,7 +7355,6 @@ sys-block/gparted:ntfs - Include NTFS support (sys-fs/ntfs3g)
 sys-block/gparted:reiser4 - Include ReiserFS4 support (sys-fs/reiser4progs)
 sys-block/gparted:reiserfs - Include ReiserFS support (sys-fs/reiserfsprogs)
 sys-block/gparted:xfs - Include XFS support (sys-fs/xfsprogs, sys-fs/xfsdump)
-sys-block/open-iscsi:infiniban - Support iSCSI over Infiniband iSER
 sys-block/open-iscsi:rdma - Support iSCSI over RDMA
 sys-block/open-iscsi:tcp - Support iSCSI over TCP
 sys-block/parted:debug - Enable debugging as encouraged by upstream: [The default configuration] includes --enable-debug (by default), which contains many assertions. Obviously, these "waste" space, but in the past, they have caught potentially dangerous bugs before they would have done damage, so we think it's worth it. Also, it means we get more bug reports ;)
@@ -7625,6 +7624,7 @@ sys-fs/dmraid:intel_led - Enable Intel LED support
 sys-fs/dmraid:klibc - Compile against dev-libs/klibc
 sys-fs/dmraid:led - Enable LED support
 sys-fs/dmraid:mini - Create a minimal binary suitable for early boot environments
+sys-fs/dosfstools:compat - Install symlinks for legacy names of the tools
 sys-fs/ecryptfs-utils:gpg - Enable app-crypt/gnupg key module
 sys-fs/ecryptfs-utils:openssl - Enable dev-libs/openssl key module
 sys-fs/ecryptfs-utils:pkcs11 - Enable PKCS#11 (Smartcards) key module

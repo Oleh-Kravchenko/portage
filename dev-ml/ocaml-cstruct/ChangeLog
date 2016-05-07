@@ -123,3 +123,11 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*ocaml-cstruct-2.1.0 (06 May 2016)
+
+  06 May 2016; Alexis Ballier <aballier@gentoo.org>
+  +ocaml-cstruct-2.1.0.ebuild:
+  bump to 2.1.0
+
+  Package-Manager: portage-2.2.28
+

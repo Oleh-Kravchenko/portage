@@ -324,3 +324,6 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  06 May 2016; Mike Frysinger <vapier@gentoo.org> nghttp2-1.7.1.ebuild:
+  mark 1.7.1 arm/arm64/m68k/s390/sh stable
+

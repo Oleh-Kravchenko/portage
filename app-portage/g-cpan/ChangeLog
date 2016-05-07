@@ -98,3 +98,11 @@
   this is allow to use g-cpan users besides root more easely,
   just add users into portage group and do not fix permissions every install
 
+*g-cpan-0.16.7 (06 May 2016)
+
+  06 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +g-cpan-0.16.7.ebuild,
+  g-cpan-9999.ebuild:
+  Various updates to live ebuild and version bump
+
+  Package-Manager: portage-2.2.28
+

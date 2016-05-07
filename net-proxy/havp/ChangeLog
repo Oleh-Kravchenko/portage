@@ -91,3 +91,10 @@
 
   Package-Manager: portage-2.2.26
 
+  06 May 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/havp-0.92a-pkg-config-libclamav.patch,
+  -files/havp-0.92a-r1-pkg-config-libclamav.patch, havp-0.92a-r2.ebuild:
+  Fix patch and epatch call (bug #582044).
+
+  Package-Manager: portage-2.2.28
+

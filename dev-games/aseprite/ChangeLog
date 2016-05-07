@@ -143,3 +143,14 @@
 
   Package-Manager: portage-2.2.26
 
+*aseprite-1.1.5.1 (05 May 2016)
+
+  05 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  +aseprite-1.1.5.1.ebuild, metadata.xml:
+  bump to 1.1.5.1
+
+  Package-Manager: portage-2.2.26
+  Closes: https://github.com/gentoo/gentoo/pull/1415
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

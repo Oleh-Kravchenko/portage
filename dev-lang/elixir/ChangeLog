@@ -106,3 +106,10 @@
 
   Package-Manager: portage-2.2.27
 
+*elixir-1.2.5 (06 May 2016)
+
+  06 May 2016; Patrick Lauer <patrick@gentoo.org> +elixir-1.2.5.ebuild:
+  Bump #582092
+
+  Package-Manager: portage-2.2.28
+

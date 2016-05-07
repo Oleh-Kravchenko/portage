@@ -1,0 +1,17 @@
+# ChangeLog for app-editors/kakoune
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*kakoune-9999 (06 May 2016)
+*kakoune-2016.05.05 (06 May 2016)
+
+  06 May 2016; Ian Delaney <idella4@gentoo.org> +files/kakoune-makefile.patch,
+  +kakoune-2016.05.05.ebuild, +kakoune-9999.ebuild, +metadata.xml:
+  new ebuild
+
+  initial vns.; a snapshot 2016.05.05ebuild, and a live ebuild
+
+  Closes: https://github.com/gentoo/gentoo/pull/1414
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

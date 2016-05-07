@@ -78,3 +78,8 @@
   -avidemux-core-2.6.7.ebuild:
   media-video/avidemux, media-libs/avidemux*: remove old versions
 
+  06 May 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag descriptions from metadata.xml
+
+  Package-Manager: portage-2.2.28
+

@@ -885,3 +885,15 @@
 
   Package-Manager: portage-2.2.28_p97
 
+*chrome-binary-plugins-52.0.2723.2_alpha (06 May 2016)
+*chrome-binary-plugins-51.0.2704.36_beta (06 May 2016)
+
+  06 May 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-51.0.2704.29_beta.ebuild,
+  +chrome-binary-plugins-51.0.2704.36_beta.ebuild,
+  -chrome-binary-plugins-52.0.2716.0_alpha.ebuild,
+  +chrome-binary-plugins-52.0.2723.2_alpha.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.28_p97
+

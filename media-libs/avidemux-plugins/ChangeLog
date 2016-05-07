@@ -87,3 +87,8 @@
   avidemux-plugins-9999.ebuild:
   Fix global scope use calls, #566542
 
+  06 May 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag descriptions from metadata.xml
+
+  Package-Manager: portage-2.2.28
+

@@ -17,3 +17,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  06 May 2016; Sam Jorna <wraeth@gentoo.org>
+  files/savagewheels-1.6.0-linux_dirs.patch:
+  fix broken patch
+
+  Line endings in patch got mangled when originally added.
+
+  Gentoo-bug: 582268
+  Package-Manager: portage-2.2.28
+

@@ -65,3 +65,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*po4a-0.45-r3 (06 May 2016)
+
+  06 May 2016; Ian Delaney <idella4@gentoo.org> +po4a-0.45-r3.ebuild:
+  revbump to vn. 0.45-r3
+
+  Fix LINGUAS support, fix array "perl_rm_files" to take relative paths
+  remove translated man pages
+
+  Signed-off-by: Jan Vesely <jano.vesely@gmail.com>
+  Closes: https://github.com/gentoo/gentoo/pull/1408
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

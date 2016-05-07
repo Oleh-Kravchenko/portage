@@ -61,3 +61,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  06 May 2016; Michał Górny <mgorny@gentoo.org> pathfinder-1.6.36.ebuild:
+  Fix global scope use* calls, #582206
+
+  Copy the solution to global scope use* calls from newer ebuilds.
+
