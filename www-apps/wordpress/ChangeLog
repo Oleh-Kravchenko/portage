@@ -117,3 +117,11 @@
 
   Package-Manager: portage-2.2.26
 
+*wordpress-4.5.2 (06 May 2016)
+
+  06 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  +wordpress-4.5.2.ebuild:
+  bump to version 4.5.2
+
+  Package-Manager: portage-2.2.26
+

@@ -125,3 +125,8 @@
 
   Package-Manager: portage-2.2.28
 
+  07 May 2016; Pacho Ramos <pacho@gentoo.org> icu-57.1.ebuild:
+  amd64 stable, bug #580672
+
+  Package-Manager: portage-2.2.28
+

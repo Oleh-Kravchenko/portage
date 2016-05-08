@@ -117,3 +117,15 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*trac-1.0.11 (07 May 2016)
+
+  07 May 2016; Dirkjan Ochtman <djc@gentoo.org> +trac-1.0.11.ebuild:
+  version bump to 1.0.11
+
+  Package-Manager: portage-2.2.26
+
+  07 May 2016; Dirkjan Ochtman <djc@gentoo.org> -trac-1.0.4.ebuild:
+  remove old version
+
+  Package-Manager: portage-2.2.26
+

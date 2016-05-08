@@ -259,3 +259,14 @@
   Bug: https://tvheadend.org/issues/3597
   Package-Manager: portage-2.2.28
 
+*tvheadend-4.0.9 (07 May 2016)
+
+  07 May 2016; Sam Jorna <wraeth@gentoo.org>
+  +files/tvheadend-4.0.9-hdhomerun-include.patch, +tvheadend-4.0.9.ebuild:
+  bump to 4.0.9
+
+  Bumps to v4.0.9, additionally fixes build issue against hdhomerun.
+
+  Gentoo-bug: 578816
+  Package-Manager: portage-2.2.28
+

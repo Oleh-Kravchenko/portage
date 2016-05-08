@@ -116,3 +116,15 @@
 
   Package-Manager: portage-2.2.26
 
+*libappindicator-12.10.0-r301 (07 May 2016)
+*libappindicator-12.10.0-r201 (07 May 2016)
+
+  07 May 2016; Pacho Ramos <pacho@gentoo.org>
+  files/libappindicator-12.10.0-conditional-py-bindings.patch,
+  +files/libappindicator-12.10.0-vala-inherit.patch,
+  +libappindicator-12.10.0-r201.ebuild, +libappindicator-12.10.0-r301.ebuild:
+  Fix Vala classes not being able to inherit from Indicator and fix vapigen
+  detection (#580988 by jospezial)
+
+  Package-Manager: portage-2.2.28
+

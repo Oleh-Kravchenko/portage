@@ -327,3 +327,8 @@
 
   Signed-off-by: Richard Yao <ryao@gentoo.org>
 
+  07 May 2016; Matthew Thode <prometheanfire@gentoo.org> zfs-9999.ebuild:
+  fix systemd units for kernel-builtin
+
+  Package-Manager: portage-2.2.26
+

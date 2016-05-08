@@ -86,3 +86,8 @@
   avidemux-9999.ebuild:
   Fix global scope 'use' calls, #566542
 
+  07 May 2016; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  drop unused local IUSEs
+
+  Package-Manager: portage-2.2.28
+

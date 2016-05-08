@@ -123,3 +123,8 @@
 
   Package-Manager: portage-2.2.27
 
+  07 May 2016; Pacho Ramos <pacho@gentoo.org> liborcus-0.9.2-r1.ebuild:
+  amd64 stable, bug #580672
+
+  Package-Manager: portage-2.2.28
+

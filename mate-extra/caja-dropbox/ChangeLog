@@ -84,3 +84,8 @@
 
   Package-Manager: portage-2.2.26
 
+  07 May 2016; NP-Hardass <NP-Hardass@gentoo.org> caja-dropbox-1.10.1.ebuild:
+  Fix ebuild regression in 1.10, #566538
+
+  Package-Manager: portage-2.2.26
+

@@ -86,3 +86,9 @@
 
   Package-Manager: portage-2.2.28
 
+  07 May 2016; Joerg Bornkessel <hd_brummy@gentoo.org>
+  v4l-dvb-saa716x-0.0.1_p20141109-r2.ebuild:
+  fix eapi6 support
+
+  Package-Manager: portage-2.2.28
+

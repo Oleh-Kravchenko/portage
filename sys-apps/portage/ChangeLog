@@ -311,3 +311,8 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --ignore-arches
 
+  07 May 2016; Pacho Ramos <pacho@gentoo.org> portage-2.2.28.ebuild:
+  amd64 stable, bug #580738
+
+  Package-Manager: portage-2.2.28
+

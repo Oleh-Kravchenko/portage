@@ -173,3 +173,9 @@
 
   Package-Manager: portage-2.2.28_p64
 
+  07 May 2016; William Hubbs <williamh@gentoo.org> files/openconnect.init.in,
+  files/openconnect.init.in-r2, files/openconnect.init.in-r3:
+  Update service scripts to use /sbin/openrc-run
+
+  Package-Manager: portage-2.2.26
+

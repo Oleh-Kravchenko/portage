@@ -36,3 +36,9 @@
   +ripe-atlas-sagan-1.1.10.ebuild:
   Version bump to 1.1.10
 
+  07 May 2016; Ian Delaney <idella4@gentoo.org> ripe-atlas-sagan-1.1.8.ebuild,
+  ripe-atlas-sagan-1.1.10.ebuild:
+  bump all to EAPI6, add py3.5 support
+
+  Package-Manager: portage-2.2.28
+
