@@ -83,3 +83,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*qpdfview-0.4.16 (08 May 2016)
+
+  08 May 2016; Davide Pesavento <pesa@gentoo.org> +qpdfview-0.4.16.ebuild:
+  version bump; EAPI=6; drop USE=qt4 to respect Qt team policy
+
+  Gentoo-Bug: 565788
+
+  Package-Manager: portage-2.2.28
+

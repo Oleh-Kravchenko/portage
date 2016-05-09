@@ -224,3 +224,8 @@
   -enlightenment-0.20.2.ebuild:
   drop old <0.20.5 versions
 
+  08 May 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag descriptions from metadata.xml
+
+  Package-Manager: portage-2.2.28
+

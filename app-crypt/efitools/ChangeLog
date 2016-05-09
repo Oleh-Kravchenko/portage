@@ -63,3 +63,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*efitools-1.7.0 (08 May 2016)
+
+  08 May 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  +efitools-1.7.0.ebuild:
+  version bump (1.7.0) for bug #533572
+
+  Credits:
+    Ben Sagal - bug reporter
+    Gabriel Marcano - uploaded git-based ebuild
+
+  Package-Manager: portage-2.2.26
+

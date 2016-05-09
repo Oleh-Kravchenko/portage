@@ -83,3 +83,10 @@
 
   Package-Manager: portage-2.2.27
 
+*tea-41.1.1 (08 May 2016)
+
+  08 May 2016; Davide Pesavento <pesa@gentoo.org> +tea-41.1.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.28
+

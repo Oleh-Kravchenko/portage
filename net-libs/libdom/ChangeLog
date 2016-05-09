@@ -85,3 +85,9 @@
 
   Package-Manager: portage-2.2.27
 
+  07 May 2016; Michael Weber <xmw@gentoo.org>
+  -files/libdom-0.1.2-glibc2.20.patch, -libdom-0.1.2-r1.ebuild:
+  Drop old.
+
+  Package-Manager: portage-2.2.28
+

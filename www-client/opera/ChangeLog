@@ -228,3 +228,20 @@
 
   Package-Manager: portage-2.2.28
 
+*opera-37.0.2178.32 (08 May 2016)
+
+  08 May 2016; Jeroen Roovers <jer@gentoo.org> +opera-37.0.2178.32.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+
+  08 May 2016; Jeroen Roovers <jer@gentoo.org> -opera-36.0.2130.46.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.28
+
+  08 May 2016; Jeroen Roovers <jer@gentoo.org> opera-37.0.2178.32.ebuild:
+  Add x86.
+
+  Package-Manager: portage-2.2.28
+

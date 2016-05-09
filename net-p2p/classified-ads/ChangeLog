@@ -152,3 +152,6 @@
 
   This reverts commit 3ae2461de34ec9ec29c797260e54f8c6e11808a7.
 
+  07 May 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Add missing upstream maintainer's name
+

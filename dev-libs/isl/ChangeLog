@@ -146,3 +146,11 @@
 
   Package-Manager: portage-2.2.26
 
+*isl-0.17.1 (08 May 2016)
+
+  08 May 2016; Anthony G. Basile <blueness@gentoo.org> -isl-0.17.ebuild,
+  +isl-0.17.1.ebuild:
+  bump to 0.17.1 for upstream bug fix
+
+  Package-Manager: portage-2.2.26
+

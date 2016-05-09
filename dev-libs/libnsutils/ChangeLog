@@ -64,3 +64,8 @@
 
   Package-Manager: portage-2.2.27
 
+  07 May 2016; Michael Weber <xmw@gentoo.org> -libnsutils-0.0.1-r1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+

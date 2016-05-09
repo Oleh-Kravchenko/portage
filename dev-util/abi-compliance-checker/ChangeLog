@@ -130,3 +130,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*abi-compliance-checker-1.99.19 (08 May 2016)
+
+  08 May 2016; Mike Gilbert <floppym@gentoo.org>
+  +abi-compliance-checker-1.99.19.ebuild, abi-compliance-checker-9999.ebuild:
+  bump to 1.99.19
+
+  Package-Manager: portage-2.2.28_p97
+

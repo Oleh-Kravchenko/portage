@@ -127,3 +127,25 @@
 
   Package-Manager: portage-2.2.28
 
+*nqp-2016.04-r1 (08 May 2016)
+
+  08 May 2016; Amy Winston <amynka@gentoo.org>
+  +files/enable-external-jars.patch, metadata.xml, +nqp-2016.04-r1.ebuild:
+  revbump nqp-2016.04-r1
+
+  - update ebuild to reflect the build-system
+    - inherit java-pkg-2.eclass
+    - enable choice between gcc (default) and clang (use clang)
+    - make MoarVM default backend (use +moar java)
+    - enable optional use of system-provided jars (use +system-libs)
+    - enable testing (use test)
+  - update to EAPI6
+  - add tomboy64 as secondary maintainer
+
+  Package-Manager: portage-2.2.28
+
+*nqp-9999 (08 May 2016)
+
+  08 May 2016; Amy Winston <amynka@gentoo.org> +nqp-9999.ebuild:
+  re-add 9999, based on 2016.04-r1
+

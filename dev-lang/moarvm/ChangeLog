@@ -129,3 +129,26 @@
 
   Package-Manager: portage-2.2.28
 
+*moarvm-2016.04-r1 (08 May 2016)
+
+  08 May 2016; Amy Winston <amynka@gentoo.org> +files/Configure-2016.04.patch,
+  metadata.xml, +moarvm-2016.04-r1.ebuild:
+  revbump 2016.04-r1
+
+  - update ebuild to reflect the build-system
+    - enable choice between gcc (default) and clang (use clang)
+    - enable optional compilation against system-libs (use +system-libs)
+      (required patch submitted upstream)
+    - enable optional use of sanitizers (use asan ubsan)
+    - enable optional static build (use static-libs)
+    - make jit optional (was mandatory) (use +jit)
+    - make stronger optimization optional (was mandatory) (use optimize)
+    - disable testing (will be performed with nqp)
+  - update to EAPI6
+  - add tomboy64 as secondary maintainer
+
+  Package-Manager: portage-2.2.28
+
+  08 May 2016; Amy Winston <amynka@gentoo.org> moarvm-9999.ebuild:
+  re-add 9999, based on 2016.04-r1
+

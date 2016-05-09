@@ -337,3 +337,10 @@
 
   Package-Manager: portage-2.2.28
 
+  07 May 2016; Patrice Clement <monsieurp@gentoo.org> nginx-1.10.0.ebuild:
+  Fix typo for using stream upstream module
+
+  Closes: https://github.com/gentoo/gentoo/pull/1421
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

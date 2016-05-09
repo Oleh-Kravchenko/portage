@@ -984,3 +984,19 @@
 
   Package-Manager: portage-2.2.28_p97
 
+*chromium-52.0.2723.2 (08 May 2016)
+
+  08 May 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  +chromium-52.0.2723.2.ebuild, +files/chromium-gn-r1.patch:
+  dev channel bump (52.0.2723.2)
+
+  Package-Manager: portage-2.2.26
+
+*chromium-51.0.2704.36 (08 May 2016)
+
+  08 May 2016; Mike Gilbert <floppym@gentoo.org>
+  -chromium-51.0.2704.19.ebuild, +chromium-51.0.2704.36.ebuild:
+  beta channel bump (51.0.2704.36)
+
+  Package-Manager: portage-2.2.28_p97
+

@@ -66,3 +66,10 @@
 
   Copy the solution for global scope use* calls from newer ebuilds.
 
+  07 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  shutterbug-1.6.36.ebuild:
+  Revert "x11-misc/shutterbug: Fix global scope use* calls, #582206" - repoman
+  would have prevented more breakage
+
+  This reverts commit 5a3cc3108312a8982db95c0615361a4b1fe46884.
+

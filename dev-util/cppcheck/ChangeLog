@@ -109,3 +109,18 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  07 May 2016; Michael Weber <xmw@gentoo.org> -cppcheck-1.69-r1.ebuild,
+  -cppcheck-1.70.ebuild, -cppcheck-1.71.ebuild,
+  -files/cppcheck-1.69-c++0x.patch, -files/cppcheck-1.69-tinyxml2.patch,
+  -files/cppcheck-1.71-tinyxml2.patch:
+  Drop old.
+
+  Package-Manager: portage-2.2.28
+
+*cppcheck-1.73 (07 May 2016)
+
+  07 May 2016; Michael Weber <xmw@gentoo.org> +cppcheck-1.73.ebuild:
+  Version bump (thanks Christian Strahl for the hint, bug 579758).
+
+  Package-Manager: portage-2.2.28
+
