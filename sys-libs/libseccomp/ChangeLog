@@ -125,3 +125,8 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+  09 May 2016; Zero_Chaos <zerochaos@gentoo.org> libseccomp-2.3.0.ebuild:
+  stable arm for bug #581440
+
+  Package-Manager: portage-2.2.28
+

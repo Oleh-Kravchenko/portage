@@ -54,3 +54,22 @@
 
   Package-Manager: portage-2.2.28
 
+  10 May 2016; Patrice Clement <monsieurp@gentoo.org> atom-1.7.3.ebuild,
+  +files/atom-unbundle-electron.patch, +files/gyp-unbundle.py, metadata.xml:
+  Switch to using dev-util/electron, recompile binaries and unbundle
+  libraries.
+
+  Proper build of dev-util/electron is now in the tree (#579116),
+  which makes it possible to rebuild Atom properly, i.e. without
+  the use of precompiled blobs and with proper library unbundling.
+
+  The strategy used in this build is to take the upstream release
+  build and recompile the native module portions against the system
+  Electron and system libraries.
+
+  Gentoo-Bug: https://bugs.gentoo.org/582462
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1430
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

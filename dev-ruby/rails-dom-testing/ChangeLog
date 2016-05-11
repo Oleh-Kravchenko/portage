@@ -90,3 +90,11 @@
 
   Package-Manager: portage-2.2.26
 
+*rails-dom-testing-2.0.0 (09 May 2016)
+
+  09 May 2016; Hans de Graaff <graaff@gentoo.org>
+  +rails-dom-testing-2.0.0.ebuild:
+  add 2.0.0
+
+  Package-Manager: portage-2.2.26
+

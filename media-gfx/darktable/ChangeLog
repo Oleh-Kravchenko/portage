@@ -180,3 +180,16 @@
 
   Package-Manager: portage-2.2.28
 
+*darktable-2.0.4 (09 May 2016)
+
+  09 May 2016; Manuel Rüger <mrueg@gentoo.org> +darktable-2.0.4.ebuild:
+  Version bump to 2.0.4
+
+  Package-Manager: portage-2.2.28
+
+  09 May 2016; Manuel Rüger <mrueg@gentoo.org> -darktable-2.0.1.ebuild,
+  -darktable-2.0.2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

@@ -107,3 +107,17 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --ignore-arches
 
+  09 May 2016; Patrice Clement <monsieurp@gentoo.org> hdparm-9.48.ebuild:
+  Keyword for arm64.
+
+  Added ~arm64 keyword after testing on a Raspberry Pi3
+  in 64 bit mode. That's a Cortex-a53.
+  Nobody will ever make an arm64 with an IDE interface,
+  so its probably the most worthless keyword ever.
+  hdparm -tT works.
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1432
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

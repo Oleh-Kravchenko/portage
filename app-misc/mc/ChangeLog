@@ -268,3 +268,9 @@
   Signed-off-by: Yury V. Zaytsev <yury@shurup.com>
   Signed-off-by: Sergei Trofimovich <slyfox@gentoo.org>
 
+  09 May 2016; Sergei Trofimovich <slyfox@gentoo.org> mc-9999.ebuild:
+  fix git repository url in mc-9999.ebuild
+
+  Signed-off-by: Yury V. Zaytsev <yury.zaytsev@traveltainment.de>
+  Signed-off-by: Sergei Trofimovich <slyfox@gentoo.org>
+

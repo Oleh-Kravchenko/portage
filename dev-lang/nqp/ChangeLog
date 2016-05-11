@@ -149,3 +149,14 @@
   08 May 2016; Amy Winston <amynka@gentoo.org> +nqp-9999.ebuild:
   re-add 9999, based on 2016.04-r1
 
+*nqp-2016.04-r2 (09 May 2016)
+
+  09 May 2016; Amy Winston <amynka@gentoo.org> -nqp-2016.04-r1.ebuild,
+  +nqp-2016.04-r2.ebuild:
+  revbump 2016.04-r2 (fixes compile failure)
+
+  Logic error when determining options for Configure.pl.
+  Gentoo-Bug: 582520
+
+  Package-Manager: portage-2.2.28
+

@@ -81,3 +81,9 @@
 
   Package-Manager: portage-2.2.27-prefix
 
+  09 May 2016; Manuel Rüger <mrueg@gentoo.org> ruby-progressbar-1.4.2.ebuild,
+  ruby-progressbar-1.4.2-r1.ebuild:
+  Drop ruby19
+
+  Package-Manager: portage-2.2.28
+

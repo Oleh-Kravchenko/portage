@@ -166,3 +166,10 @@
 
   Package-Manager: portage-2.2.28
 
+  09 May 2016; Amy Winston <amynka@gentoo.org>
+  -files/2015.12/0001-Fix-make-install-when-nqp-is-distro-installed.patch,
+  -files/2015.12/0002-Add-RAKUDO_PRECOMP_PREFIX-env-var.patch,
+  -files/2015.12/0003-Rewrite-and-complete-the-manpage-s-env-var-list.patch,
+  -files/jakudo-fix-paths.patch:
+  remove unneeded patches
+

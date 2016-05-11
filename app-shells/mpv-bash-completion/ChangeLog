@@ -15,3 +15,20 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  09 May 2016; Ian Delaney <idella4@gentoo.org>
+  mpv-bash-completion-0.16.ebuild:
+  use einstalldocs in src_install in 0.16
+
+  mpv-bash-completion doesn't have any build system or Makefiles.
+  According to PMS, default in src_install phase is equivalent to
+  einstalldocs in this case [0].
+
+  Thus replace default with einstalldocs.
+
+  [0]: https://dev.gentoo.org/~ulm/pms/head/pms.html#x1-1040009.1.9
+
+  Closes: https://github.com/gentoo/gentoo/pull/1436
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

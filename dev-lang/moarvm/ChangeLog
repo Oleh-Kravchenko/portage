@@ -152,3 +152,7 @@
   08 May 2016; Amy Winston <amynka@gentoo.org> moarvm-9999.ebuild:
   re-add 9999, based on 2016.04-r1
 
+  09 May 2016; Amy Winston <amynka@gentoo.org> -files/Configure-9999.patch,
+  -files/Configure.patch:
+  remove unneeded patches
+

@@ -143,3 +143,10 @@
 
   Package-Manager: portage-2.2.28_p110_p1091
 
+*layman-2.4.1 (10 May 2016)
+
+  10 May 2016; Devan Franchini <twitch153@gentoo.org> +layman-2.4.1.ebuild:
+  Version bump to 2.4.1
+
+  Package-Manager: portage-2.2.27
+

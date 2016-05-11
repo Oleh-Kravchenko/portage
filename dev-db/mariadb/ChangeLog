@@ -471,3 +471,12 @@
 
   Package-Manager: portage-2.2.28
 
+*mariadb-10.1.14 (10 May 2016)
+
+  10 May 2016; Brian Evans <grknight@gentoo.org> +mariadb-10.1.14.ebuild:
+  Version bump to 10.1.14
+
+  Add dependency for binutils-libs when bindist is off wrt bug 582220
+
+  Package-Manager: portage-2.2.28
+

@@ -162,3 +162,22 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*uchardet-9999 (10 May 2016)
+
+  10 May 2016; Ian Delaney <idella4@gentoo.org> +uchardet-9999.ebuild:
+  add live ebuild
+
+  It has EAPI=6.
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+  10 May 2016; Ian Delaney <idella4@gentoo.org> -uchardet-0.0.1.ebuild:
+  remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/1438
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

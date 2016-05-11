@@ -33,3 +33,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*control_toolbox-1.14.0 (10 May 2016)
+
+  10 May 2016; Alexis Ballier <aballier@gentoo.org>
+  +control_toolbox-1.14.0.ebuild:
+  bump to 1.14.0
+

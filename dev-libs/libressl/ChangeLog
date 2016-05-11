@@ -135,3 +135,9 @@
 
   Package-Manager: portage-2.2.26
 
+  09 May 2016; Anthony G. Basile <blueness@gentoo.org> -libressl-2.2.6.ebuild,
+  -libressl-2.3.3.ebuild:
+  remove older versions
+
+  Package-Manager: portage-2.2.26
+

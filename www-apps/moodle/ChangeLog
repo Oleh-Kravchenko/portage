@@ -157,3 +157,16 @@
 
   Package-Manager: portage-2.2.26
 
+*moodle-3.0.4 (09 May 2016)
+*moodle-2.9.6 (09 May 2016)
+*moodle-2.8.12 (09 May 2016)
+*moodle-2.7.14 (09 May 2016)
+
+  09 May 2016; Anthony G. Basile <blueness@gentoo.org> -moodle-2.7.13.ebuild,
+  +moodle-2.7.14.ebuild, -moodle-2.8.11.ebuild, +moodle-2.8.12.ebuild,
+  -moodle-2.9.5.ebuild, +moodle-2.9.6.ebuild, -moodle-3.0.3.ebuild,
+  +moodle-3.0.4.ebuild:
+  version bumps
+
+  Package-Manager: portage-2.2.26
+

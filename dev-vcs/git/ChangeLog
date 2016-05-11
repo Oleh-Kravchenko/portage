@@ -709,3 +709,25 @@
 
   Package-Manager: portage-2.2.28_p97
 
+  08 May 2016; Mike Gilbert <floppym@gentoo.org> files/git-daemon_at.service:
+  Revert "dev-vcs/git: for systemd, don't source /etc/conf.d/git-daemon"
+
+  This reverts commit 843954e66426a8e87c42a2c3d3d99ca6fa7d4744.
+
+*git-2.8.2-r1 (08 May 2016)
+
+  08 May 2016; Mike Gilbert <floppym@gentoo.org>
+  +files/git-daemon_at-r1.service, +git-2.8.2-r1.ebuild, git-9999.ebuild,
+  git-9999-r1.ebuild, git-9999-r2.ebuild, git-9999-r3.ebuild:
+  reapply systemd unit changes in ~arch only
+
+  Package-Manager: portage-2.2.28_p97
+
+  08 May 2016; Mike Gilbert <floppym@gentoo.org> git-2.4.11.ebuild,
+  git-2.5.5.ebuild, git-2.6.6.ebuild, git-2.7.3-r1.ebuild, git-2.7.4.ebuild,
+  git-2.8.1.ebuild, git-2.8.2.ebuild, git-2.8.2-r1.ebuild, git-9999.ebuild,
+  git-9999-r1.ebuild, git-9999-r2.ebuild, git-9999-r3.ebuild:
+  shorten DESCRIPTION
+
+  Package-Manager: portage-2.2.28_p97
+

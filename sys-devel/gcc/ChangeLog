@@ -289,3 +289,6 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Ryan Hill <rhill@gentoo.org>
 
+  09 May 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  add USE=vtv support for vtable verification #547040
+

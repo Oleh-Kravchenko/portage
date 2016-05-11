@@ -94,3 +94,11 @@
 
   Package-Manager: portage-2.2.28
 
+*PyQt4-4.12_pre1605051544 (09 May 2016)
+
+  09 May 2016; Davide Pesavento <pesa@gentoo.org>
+  -PyQt4-4.12_pre1604171631.ebuild, +PyQt4-4.12_pre1605051544.ebuild:
+  new snapshot
+
+  Package-Manager: portage-2.2.28
+

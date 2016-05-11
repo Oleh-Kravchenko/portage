@@ -85,3 +85,16 @@
 
   Package-Manager: portage-2.2.28
 
+*myspell-ru-20150711-r1 (10 May 2016)
+
+  10 May 2016; Ian Delaney <idella4@gentoo.org>
+  +myspell-ru-20150711-r1.ebuild:
+  rebump -> myspell-ru-20150711-r1.ebuild
+
+  upgrade src_install, add symlinks to the dictionary files
+  patch supplied by proxied maintianer via the gentoo bug
+
+  Gentoo-bug: #579054
+
+  Package-Manager: portage-2.2.28
+

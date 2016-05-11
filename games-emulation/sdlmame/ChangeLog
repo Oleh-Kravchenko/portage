@@ -163,3 +163,14 @@
 
   Package-Manager: portage-2.2.26
 
+  10 May 2016; Michael Sterrett <mr_bones_@gentoo.org> sdlmame-0.173.ebuild:
+  testkeys was removed (bug #582578)
+
+  Package-Manager: portage-2.2.26
+
+  10 May 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +files/sdlmame-0.173-cxx14.patch, sdlmame-0.173.ebuild:
+  fix buildins with gcc-4.9.3 with patch from Alexander Miller (bug #582576)
+
+  Package-Manager: portage-2.2.26
+

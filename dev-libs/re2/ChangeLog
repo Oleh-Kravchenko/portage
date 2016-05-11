@@ -89,3 +89,6 @@
   Closes: https://github.com/gentoo/gentoo/pull/1213
   Package-Manager: portage-2.2.28_p97
 
+  09 May 2016; Mike Gilbert <floppym@gentoo.org> re2-0.2016.05.01.ebuild:
+  remove 'www' from github links
+

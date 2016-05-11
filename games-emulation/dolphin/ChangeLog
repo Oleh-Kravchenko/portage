@@ -148,3 +148,9 @@
 
   Package-Manager: portage-2.2.27
 
+  09 May 2016; Michael Sterrett <mr_bones_@gentoo.org> -dolphin-4.0-r2.ebuild,
+  -dolphin-4.0.2-r7.ebuild:
+  clean old (last user of libsfml-1)
+
+  Package-Manager: portage-2.2.26
+

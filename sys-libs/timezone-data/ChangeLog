@@ -182,3 +182,17 @@
 
   Package-Manager: portage-2.2.26
 
+  09 May 2016; Mike Frysinger <vapier@gentoo.org> timezone-data-2016c.ebuild:
+  mark 2016c stable for all
+
+  09 May 2016; Mike Frysinger <vapier@gentoo.org>
+  -files/timezone-data-2015c-makefile.patch, -timezone-data-2015g.ebuild:
+  drop old <2016a versions
+
+  09 May 2016; Mike Frysinger <vapier@gentoo.org> timezone-data-2016c.ebuild,
+  timezone-data-2016d.ebuild:
+  fix patch version used
+
+  09 May 2016; Mike Frysinger <vapier@gentoo.org> timezone-data-2016d.ebuild:
+  do not use EAPI=6 for core packages
+

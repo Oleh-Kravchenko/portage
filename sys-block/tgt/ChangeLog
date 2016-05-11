@@ -108,3 +108,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*tgt-1.0.64 (10 May 2016)
+
+  10 May 2016; Matthew Thode <prometheanfire@gentoo.org> +tgt-1.0.64.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+
