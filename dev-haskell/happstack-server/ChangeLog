@@ -94,3 +94,11 @@
 
   Package-Manager: portage-2.2.28
 
+*happstack-server-7.4.6.1 (11 May 2016)
+
+  11 May 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +happstack-server-7.4.6.1.ebuild:
+  bump up to 7.4.6.1
+
+  Package-Manager: portage-2.2.28
+

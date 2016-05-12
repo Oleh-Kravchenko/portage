@@ -89,3 +89,7 @@
   uclibc-0.9.33.9999.ebuild, uclibc-9999.ebuild:
   move to https:// URLs
 
+  11 May 2016; Mike Frysinger <vapier@gentoo.org> uclibc-0.9.33.2-r15.ebuild,
+  uclibc-0.9.33.9999.ebuild, uclibc-9999.ebuild:
+  enable GNU hash support by default #581686
+

@@ -183,3 +183,18 @@
 
   Package-Manager: portage-2.2.28
 
+*owncloud-9.0.2 (10 May 2016)
+*owncloud-8.2.4 (10 May 2016)
+*owncloud-8.1.7 (10 May 2016)
+*owncloud-8.0.12 (10 May 2016)
+*owncloud-7.0.14 (10 May 2016)
+
+  10 May 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +owncloud-7.0.14.ebuild, +owncloud-8.0.12.ebuild, +owncloud-8.1.7.ebuild,
+  +owncloud-8.2.4.ebuild, +owncloud-9.0.2.ebuild:
+  maintenance release bumps
+
+  Fixes bug #582252
+
+  Package-Manager: portage-2.2.28
+

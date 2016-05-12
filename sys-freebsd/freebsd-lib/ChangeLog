@@ -183,3 +183,9 @@
   +files/freebsd-lib-10.3-libusb.patch, +freebsd-lib-10.3.ebuild:
   sys-freebsd: Bump to 10.3.
 
+*freebsd-lib-10.3-r1 (10 May 2016)
+
+  10 May 2016; Yuta Satoh <nigoro.dev@gmail.com> -freebsd-lib-10.3.ebuild,
+  +freebsd-lib-10.3-r1.ebuild:
+  Fix errata, FreeBSD-EN-16:06.libc
+

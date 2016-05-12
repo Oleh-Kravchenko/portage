@@ -563,3 +563,10 @@
 
   Package-Manager: portage-2.2.28
 
+  07 May 2016; Nick Sarnie <commendsarnex@gmail.com> llvm-9999.ebuild:
+  remove CppBackend from 9999
+
+  Removed from LLVM SVN in r268631
+
+  Signed-off-by: Nick Sarnie <commendsarnex@gmail.com>
+

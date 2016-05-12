@@ -77,3 +77,10 @@
 
   Package-Manager: portage-2.2.26
 
+*w3m-0.5.3-r6 (11 May 2016)
+
+  11 May 2016; Anthony G. Basile <blueness@gentoo.org> +w3m-0.5.3-r6.ebuild:
+  add libressl support and clean up USE=migemo
+
+  Package-Manager: portage-2.2.26
+

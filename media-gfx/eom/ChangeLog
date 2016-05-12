@@ -89,3 +89,11 @@
 
   Package-Manager: portage-2.2.26
 
+*eom-1.10.5-r2 (10 May 2016)
+
+  10 May 2016; NP-Hardass <NP-Hardass@gentoo.org> -eom-1.10.5-r1.ebuild,
+  +eom-1.10.5-r2.ebuild, +files/eom-cve-2013-7447.patch:
+  Revbump to 1.10.5-r2, resolves #574376
+
+  Package-Manager: portage-2.2.26
+

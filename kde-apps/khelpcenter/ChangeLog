@@ -41,3 +41,21 @@
 
   Signed-off-by: Johannes Huber <johu@gentoo.org>
 
+*khelpcenter-5.6.4 (11 May 2016)
+
+  11 May 2016; Michael Palimaka <kensington@gentoo.org>
+  +khelpcenter-5.6.4.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.28
+
+  11 May 2016; Michael Palimaka <kensington@gentoo.org>
+  -khelpcenter-5.6.4.ebuild:
+  revert erroneous version bump
+
+  Upstream accidentally released 5.6.4 from the wrong branch. Since there are
+  no
+  changes since 5.6.1, later versions can be ignored entirely.
+
+  This reverts commit e6aa100b95031b66833beef4ef7d8085ec0389b3.
+

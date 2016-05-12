@@ -262,3 +262,10 @@
 
   Package-Manager: portage-2.2.26
 
+  11 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  +files/stunnel-compat-libressl.patch, stunnel-5.30.ebuild,
+  stunnel-5.31.ebuild, stunnel-5.32.ebuild:
+  add libressl compat patch, bug #582050
+
+  Package-Manager: portage-2.2.26
+

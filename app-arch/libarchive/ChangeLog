@@ -150,3 +150,26 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*libarchive-3.1.2-r5 (11 May 2016)
+
+  11 May 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +files/libarchive-3.1.2-CVE-2016-1541.patch, +libarchive-3.1.2-r5.ebuild:
+  Revbump to 3.1.2-r5, resolves #582526
+
+  Package-Manager: portage-2.2.26
+
+  11 May 2016; NP-Hardass <NP-Hardass@gentoo.org> -libarchive-3.1.2-r1.ebuild,
+  -libarchive-3.1.2-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.26
+
+*libarchive-3.1.2-r2 (11 May 2016)
+*libarchive-3.1.2-r1 (11 May 2016)
+
+  11 May 2016; NP-Hardass <NP-Hardass@gentoo.org> +libarchive-3.1.2-r1.ebuild,
+  +libarchive-3.1.2-r2.ebuild:
+  Revert "app-arch/libarchive: Drop old"
+
+  This reverts commit fc9dc7a13724115678d2df7acb93fc5ae30609b4.
+

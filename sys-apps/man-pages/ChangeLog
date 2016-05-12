@@ -166,3 +166,6 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  11 May 2016; Mike Frysinger <vapier@gentoo.org> man-pages-4.05.ebuild:
+  stabilize for arm64/m68k/s390/sh too
+

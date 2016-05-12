@@ -169,3 +169,23 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*podget-0.7.14 (11 May 2016)
+
+  11 May 2016; Patrice Clement <monsieurp@gentoo.org> +podget-0.7.14.ebuild:
+  verbump to 0.7.14
+
+  Also fix LICENSE and update DESCRIPTION.
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  11 May 2016; Patrice Clement <monsieurp@gentoo.org> -podget-0.7.9.ebuild,
+  -podget-0.7.13.ebuild:
+  remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/1449
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -995,3 +995,19 @@
 
   Package-Manager: portage-2.2.26
 
+*hardened-sources-4.5.3-r1 (11 May 2016)
+
+  11 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-4.5.3-r1.ebuild:
+  version bump to 4.5.3-r1
+
+  vanilla-4.5.3 + genpatches-4.5-5 + grsecurity-3.1-4.5.3-201605102138
+
+  Package-Manager: portage-2.2.26
+
+  11 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  -hardened-sources-4.5.3.ebuild:
+  remove older unstable
+
+  Package-Manager: portage-2.2.26
+

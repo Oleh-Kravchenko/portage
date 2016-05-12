@@ -187,3 +187,25 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --include-arches="arm"
 
+  10 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  +files/gstreamer-1.6.3-fix-strsignal.patch, gstreamer-1.6.3.ebuild:
+  fix bug #577312
+
+  Package-Manager: portage-2.2.26
+
+  10 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  -files/gstreamer-1.6.3-fix-strsignal.patch, gstreamer-1.6.3.ebuild:
+  Revert "media-libs/gstreamer: fix bug #577312"
+
+  This reverts commit f59f39fb234fe5ce1c2a4c1c63be575fa494302c.
+
+  The gstreamer folks made a mistake in backporting this form libcheck.
+
+  See https://bugzilla.gnome.org/show_bug.cgi?id=763567#c12
+
+  11 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  +files/gstreamer-1.6.3-fix-strsignal.patch, gstreamer-1.6.3.ebuild:
+  correctly fix bug #577312
+
+  Package-Manager: portage-2.2.26
+

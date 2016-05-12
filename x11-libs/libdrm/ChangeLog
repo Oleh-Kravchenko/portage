@@ -212,3 +212,9 @@
 
   Package-Manager: portage-2.2.26
 
+  11 May 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  libdrm-9999.ebuild:
+  add video_cards_vc4 flag to live ebuild
+
+  Package-Manager: portage-2.2.28
+

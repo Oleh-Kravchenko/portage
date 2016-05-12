@@ -112,3 +112,10 @@
 
   Package-Manager: portage-2.2.28
 
+*text-1.2.2.1 (11 May 2016)
+
+  11 May 2016; Sergei Trofimovich <slyfox@gentoo.org> +text-1.2.2.1.ebuild:
+  bump up to 1.2.2.1
+
+  Package-Manager: portage-2.2.28
+

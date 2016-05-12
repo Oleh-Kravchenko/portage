@@ -1697,6 +1697,7 @@ dev-haskell/warp:warp-debug - Add additional debuging information
 dev-haskell/x11:screensaver - whether to build XScreenSaver.
 dev-haskell/x509-store:executable - Build the executable
 dev-haskell/xss-sanitize:network-uri - Get Network.URI from the network-uri package.
+dev-haskell/yaml:no-examples - don't build the examples
 dev-haskell/yaml:no-exe - don't install the yaml2json executable
 dev-haskell/yaml:no-unicode - Don't enable unicode output. Instead, unicode characters will be escaped.
 dev-haskell/yaml:system-libyaml - Use system libyaml instead on generic one
@@ -7535,6 +7536,7 @@ sys-devel/gcc:go - Build the GCC Go language frontend.
 sys-devel/gcc:graphite - Add support for the framework for loop optimizations based on a polyhedral intermediate representation
 sys-devel/gcc:jit - Enable libgccjit so other applications can embed gcc for Just-In-Time compilation. This will slow down the compiler a bit as it forces all of the toolchain to be shared libs.
 sys-devel/gcc:libssp - Build SSP support into a dedicated library rather than use the code in the C library (DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT IT DOES)
+sys-devel/gcc:mpx - Enable support for Intel Memory Protection Extensions (MPX)
 sys-devel/gcc:mudflap - Add support for mudflap, a pointer use checking library
 sys-devel/gcc:multislot - Allow for multiple versions to be emerged at once for same CTARGET
 sys-devel/gcc:nopie - Disable PIE support (NOT FOR GENERAL USE)

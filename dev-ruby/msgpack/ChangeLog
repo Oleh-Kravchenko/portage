@@ -127,3 +127,10 @@
 
   Package-Manager: portage-2.2.26
 
+*msgpack-0.7.6 (11 May 2016)
+
+  11 May 2016; Hans de Graaff <graaff@gentoo.org> +msgpack-0.7.6.ebuild:
+  add 0.7.6
+
+  Package-Manager: portage-2.2.28
+

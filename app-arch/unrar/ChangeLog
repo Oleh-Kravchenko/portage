@@ -184,3 +184,17 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --include-arches="arm"
 
+*unrar-5.4.1 (10 May 2016)
+
+  10 May 2016; Lars Wendler <polynomial-c@gentoo.org> +unrar-5.4.1.ebuild:
+  Bump to version 5.4.1
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  10 May 2016; Lars Wendler <polynomial-c@gentoo.org> -unrar-5.3.9.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

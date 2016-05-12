@@ -70,3 +70,11 @@
 
   Bug: 575810
 
+  11 May 2016; Andrew Savchenko <bircoph@gentoo.org> metadata.xml:
+  take an orphaned package
+
+  Such wonderful tool should have a maintainer :)
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+

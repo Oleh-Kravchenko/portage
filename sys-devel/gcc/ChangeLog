@@ -292,3 +292,6 @@
   09 May 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml:
   add USE=vtv support for vtable verification #547040
 
+  11 May 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  add USE=mpx support for Intel MPX #578396
+

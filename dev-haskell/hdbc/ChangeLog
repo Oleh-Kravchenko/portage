@@ -72,3 +72,8 @@
 
   Package-Manager: portage-2.2.28
 
+  11 May 2016; Sergei Trofimovich <slyfox@gentoo.org> hdbc-2.4.0.1.ebuild:
+  allow ghc-8
+
+  Package-Manager: portage-2.2.28
+

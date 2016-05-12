@@ -115,3 +115,8 @@
 
   Package-Manager: portage-2.2.28
 
+  11 May 2016; Matthew Thode <prometheanfire@gentoo.org> tgt-1.0.64.ebuild:
+  fixing my_tree
+
+  Package-Manager: portage-2.2.28
+

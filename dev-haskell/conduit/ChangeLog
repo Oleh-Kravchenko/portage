@@ -106,3 +106,10 @@
 
   Package-Manager: portage-2.2.28
 
+*conduit-1.2.6.6 (11 May 2016)
+
+  11 May 2016; Sergei Trofimovich <slyfox@gentoo.org> +conduit-1.2.6.6.ebuild:
+  bump up to 1.2.6.6
+
+  Package-Manager: portage-2.2.28
+

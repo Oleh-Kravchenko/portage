@@ -601,3 +601,8 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  11 May 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  nvenc does not require nonfree binary anymore; required header is MIT.
+
+  Package-Manager: portage-2.2.28
+

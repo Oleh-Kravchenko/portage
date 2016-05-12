@@ -897,3 +897,20 @@
 
   Package-Manager: portage-2.2.28_p97
 
+  11 May 2016; Mike Gilbert <floppym@gentoo.org>
+  chrome-binary-plugins-50.0.2661.94.ebuild,
+  chrome-binary-plugins-51.0.2704.36_beta.ebuild,
+  chrome-binary-plugins-52.0.2723.2_alpha.ebuild:
+  eliminate ROOT in src_install
+
+  Package-Manager: portage-2.2.28_p105
+
+*chrome-binary-plugins-52.0.2729.3_alpha (11 May 2016)
+
+  11 May 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-52.0.2723.2_alpha.ebuild,
+  +chrome-binary-plugins-52.0.2729.3_alpha.ebuild:
+  automated update
+
+  Package-Manager: portage-2.2.28_p105
+

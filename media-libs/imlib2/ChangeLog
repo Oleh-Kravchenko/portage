@@ -192,3 +192,11 @@
   +imlib2-1.4.8-r1.ebuild:
   add upstream fix for gif oob reads #578810
 
+*imlib2-1.4.9 (11 May 2016)
+
+  11 May 2016; Lars Wendler <polynomial-c@gentoo.org> +imlib2-1.4.9.ebuild:
+  Bump to version 1.4.9
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

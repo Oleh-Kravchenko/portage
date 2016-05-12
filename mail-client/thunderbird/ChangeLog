@@ -418,3 +418,32 @@
 
   Package-Manager: portage-2.2.26
 
+  11 May 2016; Agostino Sarubbo <ago@gentoo.org> thunderbird-38.8.0.ebuild:
+  amd64 stable wrt bug #581326
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  11 May 2016; Agostino Sarubbo <ago@gentoo.org> thunderbird-38.8.0.ebuild:
+  x86 stable wrt bug #581326
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+*thunderbird-45.1.0 (11 May 2016)
+
+  11 May 2016; Ian Stakenvicius <axs@gentoo.org> -thunderbird-45.0.ebuild,
+  +thunderbird-45.1.0.ebuild:
+  45.1.0 version bump
+
+  Gloda ("Global search") cannot work properly with system-sqlite, due to
+  FTS3_TOKENIZER being
+  disabled.  Starting with 45.0, this causes havoc with context menus and lots
+  of other things.
+  Starting with 45.1, the global search indexer is disabled by default when
+  built with system-sqlite.
+
+  Package-Manager: portage-2.2.26
+

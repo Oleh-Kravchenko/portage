@@ -344,3 +344,21 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*xf86-video-virtualbox-5.0.20-r1 (10 May 2016)
+
+  10 May 2016; Ian Stakenvicius <axs@gentoo.org>
+  +xf86-video-virtualbox-5.0.20-r1.ebuild:
+  build vboxdrv.ko objects a little differently
+
+  This is an attempt at preventing bug 582078.  With DRM_TTM enabled in the
+  kernel
+  (choosing the DRM module for any of the other VMs will include it), and a
+  sufficient
+  vmalloc= specified to the kernel (at least 1.5x the amount of gpu memory
+  provided), the module
+  will load into the kernel.
+
+  Tests on an x86 vm and 4.1.23 kernel resulted in PANICs; YMMV.
+
+  Package-Manager: portage-2.2.26
+
