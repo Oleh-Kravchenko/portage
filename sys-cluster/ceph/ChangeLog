@@ -192,3 +192,35 @@
 
   Package-Manager: portage-2.2.27
 
+*ceph-10.2.0 (12 May 2016)
+
+  12 May 2016; Patrick McLean <chutzpah@gentoo.org> +ceph-10.2.0.ebuild,
+  +files/ceph-10.2.0-dont-use-virtualenvs.patch, +files/ceph.initd-r2,
+  metadata.xml:
+  Version bump to 10.2.0 (bug #580878)
+
+  This also adds a new init script that is written in POSIX shell (bug
+  #581358)
+
+  Gentoo-Bug: 580878
+
+  Package-Manager: portage-2.2.28
+
+  12 May 2016; Patrick McLean <chutzpah@gentoo.org> ceph-9999.ebuild:
+  Sync 9999 ebuild with 10.2.0 ebuild
+
+  Package-Manager: portage-2.2.28
+
+*ceph-9.2.1-r1 (12 May 2016)
+
+  12 May 2016; Patrick McLean <chutzpah@gentoo.org> +ceph-9.2.1-r1.ebuild:
+  Revision bump to 9.2.1-r1 to fix init script (bug #581358)
+
+  Package-Manager: portage-2.2.28
+
+  12 May 2016; Patrick McLean <chutzpah@gentoo.org> -ceph-9.2.0.ebuild,
+  -ceph-10.0.0.ebuild, -ceph-10.0.2.ebuild:
+  Clean out some old versions
+
+  Package-Manager: portage-2.2.28
+

@@ -236,3 +236,9 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --ignore-arches
 
+  12 May 2016; Markus Meier <maekke@gentoo.org> subversion-1.8.16.ebuild:
+  arm stable, bug #581448
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="arm"
+

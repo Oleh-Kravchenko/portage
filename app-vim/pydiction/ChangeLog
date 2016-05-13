@@ -1,0 +1,17 @@
+# ChangeLog for app-vim/pydiction
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pydiction-1.2.3 (12 May 2016)
+
+  12 May 2016; Patrice Clement <monsieurp@gentoo.org> +metadata.xml,
+  +pydiction-1.2.3.ebuild:
+  Add ebuild to the tree.
+
+  Package-Manager: portage-2.2.26
+
+  12 May 2016; Patrice Clement <monsieurp@gentoo.org> pydiction-1.2.3.ebuild:
+  Add python to DEPEND/RDEPEND.
+
+  Package-Manager: portage-2.2.26
+

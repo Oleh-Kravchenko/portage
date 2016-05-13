@@ -194,3 +194,11 @@
 
   Package-Manager: portage-2.2.28
 
+  12 May 2016; William Hubbs <williamh@gentoo.org> files/dhcpcd.service:
+  make dhcpcd.service block until a lease is obtained
+
+  This makes the systemd unit behave more like the init script, and should
+  resolve issues with NFS mounts.
+
+  Bug: https://bugs.gentoo.org/582484
+

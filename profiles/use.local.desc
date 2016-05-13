@@ -2142,6 +2142,8 @@ dev-libs/weston:screen-sharing - Enable screen-sharing through RDP
 dev-libs/weston:unwind - Enable libunwind usage for backtraces
 dev-libs/weston:wayland-compositor - Enable Wayland compositor support
 dev-libs/weston:xwayland - Enable ability support native X11 applications
+dev-libs/wlc:X - Enable X11 backend and XWayland support.
+dev-libs/wlc:systemd - Enable support for systemd-logind.
 dev-libs/xapian:brass - Enabled brass backend db support
 dev-libs/xapian:chert - Enabled chert backend db support
 dev-libs/xapian:inmemory - Enabled inmemory backend db support
@@ -7399,6 +7401,7 @@ sys-boot/refind:iso9660 - Construire le gestionnaire EFI pour le système de fic
 sys-boot/refind:ntfs - Construire le gestionnaire EFI pour le système de fichier ntfs
 sys-boot/refind:reiserfs - Construire le gestionnaire EFI pour le système de fichier reiserfs
 sys-cluster/ceph:babeltrace - Add support for LTTng babeltrace
+sys-cluster/ceph:cephfs - Build support for cephfs, a POSIX compatible filesystem built on top of ceph
 sys-cluster/ceph:cryptopp - Use dev-libs/crypto++ for cryptography
 sys-cluster/ceph:fuse - Build fuse client
 sys-cluster/ceph:jemalloc - Use dev-libs/jemalloc for allocations

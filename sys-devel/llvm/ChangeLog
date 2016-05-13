@@ -570,3 +570,20 @@
 
   Signed-off-by: Nick Sarnie <commendsarnex@gmail.com>
 
+  12 May 2016; Michał Górny <mgorny@gentoo.org> -llvm-3.7.0-r2.ebuild,
+  -llvm-3.7.0-r3.ebuild, -llvm-3.7.0-r4.ebuild, -llvm-3.7.0-r5.ebuild,
+  -llvm-3.7.1.ebuild:
+  Clean up old 3.7 versions
+
+*llvm-3.8.0-r2 (12 May 2016)
+*llvm-3.7.1-r2 (12 May 2016)
+
+  12 May 2016; Michał Górny <mgorny@gentoo.org>
+  +files/clang-3.8-gcc4.9-search-path.patch, -llvm-3.7.1-r1.ebuild,
+  +llvm-3.7.1-r2.ebuild, -llvm-3.8.0-r1.ebuild, +llvm-3.8.0-r2.ebuild:
+  Backport upstream patch for gcc4.9 Gentoo header paths
+
+  12 May 2016; Michał Górny <mgorny@gentoo.org> +files/cmake/compiler-rt-3.9-c
+  make-Install-compiler-rt-into-usr-lib-without-suffi.patch, llvm-9999.ebuild:
+  Update compiler-rt build patch for current git
+

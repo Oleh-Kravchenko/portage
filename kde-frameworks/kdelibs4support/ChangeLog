@@ -211,3 +211,16 @@
 
   Package-Manager: portage-2.2.28
 
+  11 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  kdelibs4support-5.21.0.ebuild:
+  add libressl useflag
+
+  12 May 2016; Michael Palimaka <kensington@gentoo.org>
+  kdelibs4support-5.21.0.ebuild:
+  Revert "kde-frameworks/kdelibs4support: add libressl useflag"
+
+  5.21.0 is about to be stabilised. LibreSSL support is already implemented in
+  the KDE overlay and will hit the main tree with 5.22.0.
+
+  This reverts commit 34e0e60163b55d6dcfdc265307f533acf2b73d46.
+

@@ -200,3 +200,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*mkvtoolnix-9.1.0 (12 May 2016)
+
+  12 May 2016; Alexis Ballier <aballier@gentoo.org> +mkvtoolnix-9.1.0.ebuild:
+  bump to 9.1.0
+
+  Package-Manager: portage-2.2.28
+

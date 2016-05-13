@@ -611,3 +611,7 @@
   +files/qemu-2.5.1-stellaris_enet-overflow.patch, +qemu-2.5.1.ebuild:
   app-misc/qemu: version bump & bug fixes #579614 #580040 #580426
 
+  12 May 2016; Mike Frysinger <vapier@gentoo.org> qemu-2.5.1.ebuild,
+  qemu-9999.ebuild:
+  use subslots w/nettle & gnutls #582836
+

@@ -87,3 +87,8 @@
 
   Package-Manager: portage-2.2.26
 
+  12 May 2016; Hans de Graaff <graaff@gentoo.org> timecop-0.7.1.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.2.28
+

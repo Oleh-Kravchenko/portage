@@ -73,3 +73,17 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*atom-1.7.3-r1 (12 May 2016)
+
+  12 May 2016; Patrice Clement <monsieurp@gentoo.org> -atom-1.7.3.ebuild,
+  +atom-1.7.3-r1.ebuild, files/gyp-unbundle.py:
+  Build fixes.
+
+  Fixed node-gyp invocation and added gnome-keyring dependency.
+
+  Gentoo-Bug: https://bugs.gentoo.org/582748
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1453
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

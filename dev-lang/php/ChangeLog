@@ -1268,3 +1268,19 @@
 
   Package-Manager: portage-2.2.28
 
+  12 May 2016; Agostino Sarubbo <ago@gentoo.org> php-5.5.35.ebuild,
+  php-5.6.21.ebuild:
+  amd64 stable wrt bug #581834
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  12 May 2016; Agostino Sarubbo <ago@gentoo.org> php-5.5.35.ebuild,
+  php-5.6.21.ebuild:
+  x86 stable wrt bug #581834
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

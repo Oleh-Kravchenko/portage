@@ -112,3 +112,15 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*likwid-4.0.1-r2 (12 May 2016)
+
+  12 May 2016; Sam Jorna <wraeth@gentoo.org> -likwid-4.0.1-r1.ebuild,
+  +likwid-4.0.1-r2.ebuild:
+  revbump, fix file perms
+
+  Fixes incorrect permissions on installed binaries. Patch by proxied
+  maintainer per bug.
+
+  Gentoo-bug: 582692
+  Package-Manager: portage-2.2.28
+

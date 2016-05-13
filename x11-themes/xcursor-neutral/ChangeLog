@@ -72,3 +72,10 @@
 
   Package-Manager: portage-2.2.28
 
+  12 May 2016; Sam Jorna <wraeth@gentoo.org> metadata.xml:
+  assign proxied maintainer
+
+  Proxied maintainer assigned per request. No bugs open.
+
+  Package-Manager: portage-2.2.28
+

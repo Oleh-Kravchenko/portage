@@ -75,3 +75,55 @@
   guessit-9999.ebuild:
   version bump to 1.0.3
 
+  12 May 2016; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  substitute AWOL maintainer
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+  12 May 2016; Ian Delaney <idella4@gentoo.org>
+  -files/guessit-0.5.4-python3.patch, -files/guessit-0.5.4-tests.patch,
+  -guessit-0.5.4.ebuild, -guessit-0.6.2.ebuild, -guessit-0.7.1.ebuild,
+  -guessit-0.9.3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+*guessit-1.0.3-r1 (12 May 2016)
+
+  12 May 2016; Ian Delaney <idella4@gentoo.org> +guessit-1.0.3-r1.ebuild:
+  revbump to 1.0.3-r1
+
+  Bump EAPI to 6, add missing deps, update HOMEPAGE,
+  fetch tarball from PyPI, make testsuite functional.
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+  12 May 2016; Ian Delaney <idella4@gentoo.org> -guessit-1.0.3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+*guessit-2.0.5 (12 May 2016)
+
+  12 May 2016; Ian Delaney <idella4@gentoo.org>
+  +files/guessit-2.0.5-support-noninteractive-shells.patch,
+  +guessit-2.0.5.ebuild, guessit-9999.ebuild:
+  verbump to 2.0.5
+
+  It's a complete rewrite since 1.x thus drop untested implementations
+  from PYTHON_COMPAT.
+
+  Sync 9999 ebuild with 2.0.5.
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

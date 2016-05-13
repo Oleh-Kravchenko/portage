@@ -148,3 +148,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*webapp-config-1.54-r2 (12 May 2016)
+
+  12 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  +files/webapp-config-1.54-fix-bashism.patch, +webapp-config-1.54-r2.ebuild:
+  fix bashism in tests, bug #561798
+

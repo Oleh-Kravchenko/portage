@@ -564,3 +564,11 @@
 
   Package-Manager: portage-2.2.26
 
+  12 May 2016; Mike Gilbert <floppym@gentoo.org>
+  +files/3.5.1-cross-compile.patch, python-3.5.1-r2.ebuild:
+  fix cross-compiles for 3.5.1
+
+  Bug: https://bugs.gentoo.org/581304
+
+  Package-Manager: portage-2.2.28_p106
+

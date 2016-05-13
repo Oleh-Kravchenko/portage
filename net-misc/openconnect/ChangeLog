@@ -179,3 +179,18 @@
 
   Package-Manager: portage-2.2.26
 
+*openconnect-7.06-r4 (12 May 2016)
+
+  12 May 2016; Mike Gilbert <floppym@gentoo.org> -openconnect-7.06-r3.ebuild,
+  +openconnect-7.06-r4.ebuild, openconnect-9999.ebuild:
+  add slot-operation to gnutls dep
+
+  Package-Manager: portage-2.2.28_p106
+
+  12 May 2016; Mike Gilbert <floppym@gentoo.org> -openconnect-4.08.ebuild,
+  -openconnect-6.00.ebuild, -openconnect-7.02.ebuild,
+  -openconnect-7.06.ebuild, -openconnect-7.06-r2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28_p106
+
