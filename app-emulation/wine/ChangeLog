@@ -467,3 +467,34 @@
 
   Package-Manager: portage-2.2.26
 
+  13 May 2016; NP-Hardass <NP-Hardass@gentoo.org> wine-1.8-r1.ebuild,
+  wine-1.8.1-r1.ebuild, wine-1.8.2.ebuild, wine-1.9.4-r1.ebuild,
+  wine-1.9.5-r1.ebuild, wine-1.9.6-r1.ebuild, wine-1.9.7-r1.ebuild,
+  wine-1.9.8.ebuild, wine-9999.ebuild:
+  Change GCC-5.3 warning.
+
+  Reverts the two following commits:
+
+  72f76cae15de74cb99a604303de297fb5412d68f
+  68bf4d988d71805013fbedf5b94aee090cb9cb43
+
+  Signed-off-by: NP-Hardass <NP-Hardass@gentoo.org>
+
+  Package-Manager: portage-2.2.28
+
+  13 May 2016; NP-Hardass <NP-Hardass@gentoo.org> wine-9999.ebuild:
+  Adjust d3d9-related URI and variables.
+
+  Signed-off-by: NP-Hardass <NP-Hardass@gentoo.org>
+
+  Package-Manager: portage-2.2.28
+
+*wine-1.9.9 (13 May 2016)
+
+  13 May 2016; NP-Hardass <NP-Hardass@gentoo.org> +wine-1.9.9.ebuild:
+  Version bump to 1.9.9.
+
+  Signed-off-by: NP-Hardass <NP-Hardass@gentoo.org>
+
+  Package-Manager: portage-2.2.28
+

@@ -199,3 +199,8 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  13 May 2016; Mike Frysinger <vapier@gentoo.org> pyopenssl-16.0.0.ebuild:
+  update min cryptography version
+
+  This matches the requirements in the setup.py source.
+

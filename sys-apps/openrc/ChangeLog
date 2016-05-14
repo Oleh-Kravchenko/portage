@@ -323,3 +323,8 @@
 
   Package-Manager: portage-2.2.26
 
+  12 May 2016; William Hubbs <williamh@gentoo.org> openrc-9999.ebuild:
+  install default "nonetwork" runlevel
+
+  Package-Manager: portage-2.2.28
+
