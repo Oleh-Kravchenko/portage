@@ -83,3 +83,10 @@
 
   Package-Manager: portage-2.2.27
 
+*tilt-2.0.3 (13 May 2016)
+
+  13 May 2016; Hans de Graaff <graaff@gentoo.org> +tilt-2.0.3.ebuild:
+  add 2.0.3
+
+  Package-Manager: portage-2.2.28
+

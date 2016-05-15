@@ -1,0 +1,20 @@
+# ChangeLog for dev-libs/sway
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*sway-9999 (13 May 2016)
+*sway-0.6 (13 May 2016)
+
+  13 May 2016; Ian Delaney <idella4@gentoo.org> +metadata.xml,
+  +sway-0.6.ebuild, +sway-9999.ebuild:
+  add version 0.6 and live ebuild.
+
+  Will be maintained by Jasen Borisov <tajjada@gmail.com>
+  as part of the Gentoo Proxy Maintainers program.
+  Extensively reviewed by many via both IRC & commmentary via the pull request
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1458
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

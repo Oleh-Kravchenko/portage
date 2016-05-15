@@ -20,3 +20,15 @@
 
   Package-Manager: portage-2.2.26
 
+  13 May 2016; Patrice Clement <monsieurp@gentoo.org> pydiction-1.2.3.ebuild:
+  Mend DEPEND/RDEPEND.
+
+  Package-Manager: portage-2.2.26
+
+  14 May 2016; Patrice Clement <monsieurp@gentoo.org> pydiction-1.2.3.ebuild:
+  Fix S variable.
+
+  Gentoo-Bug: https://bugs.gentoo.org/582994
+
+  Package-Manager: portage-2.2.26
+

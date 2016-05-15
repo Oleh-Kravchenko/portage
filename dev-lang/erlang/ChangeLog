@@ -127,3 +127,9 @@
 
   Package-Manager: portage-2.2.26
 
+  13 May 2016; Dirkjan Ochtman <dirkjan@ochtman.nl> erlang-18.0-r2.ebuild,
+  erlang-18.2.1.ebuild, erlang-18.3.ebuild:
+  update LICENSE to Apache-2.0 (fixes bug 582876)
+
+  Package-Manager: portage-2.2.28
+

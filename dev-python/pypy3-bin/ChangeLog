@@ -167,3 +167,15 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  05 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  pypy3-bin-2.4.0-r4.ebuild:
+  Remove trailing whitespace and clear QA warning.
+
+  Package-Manager: portage-2.2.26
+
+  14 May 2016; Michał Górny <mgorny@gentoo.org> pypy3-bin-2.4.0-r4.ebuild:
+  pax-mark libpypy-c.so as well
+
+  14 May 2016; Michał Górny <mgorny@gentoo.org> pypy3-bin-2.4.0-r4.ebuild:
+  INSDESTTREE -> custom var, #582982
+

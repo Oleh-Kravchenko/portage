@@ -198,3 +198,11 @@
   12 Mar 2016; Michał Górny <mgorny@gentoo.org> +pypy-5.0.0.ebuild:
   Bump to 5.0.0, #577132
 
+  14 May 2016; Michał Górny <mgorny@gentoo.org> pypy-4.0.1.ebuild,
+  pypy-5.0.0.ebuild, pypy-9999.ebuild:
+  Fix pax-marking in src_compile()
+
+  14 May 2016; Michał Górny <mgorny@gentoo.org> pypy-4.0.1.ebuild,
+  pypy-5.0.0.ebuild, pypy-9999.ebuild:
+  INSDESTTREE -> custom var, #582982
+

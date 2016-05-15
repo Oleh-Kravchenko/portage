@@ -154,3 +154,10 @@
 
   Package-Manager: portage-2.2.26
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> stellarium-0.14.3.ebuild:
+  amd64 stable wrt bug #582292
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

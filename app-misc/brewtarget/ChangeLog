@@ -69,3 +69,10 @@
 
   Package-Manager: portage-2.2.28
 
+*brewtarget-2.3.1 (13 May 2016)
+
+  13 May 2016; Davide Pesavento <pesa@gentoo.org> +brewtarget-2.3.1.ebuild:
+  version bump, now uses Qt5
+
+  Package-Manager: portage-2.2.28
+

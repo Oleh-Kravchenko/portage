@@ -77,3 +77,10 @@
 
   Package-Manager: portage-2.2.28
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> Scope-Guard-0.210.0.ebuild:
+  amd64 stable wrt bug #581852
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

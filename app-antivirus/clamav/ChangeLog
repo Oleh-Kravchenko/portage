@@ -133,3 +133,10 @@
 
   Package-Manager: portage-2.2.23
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> clamav-0.99.ebuild:
+  amd64 stable wrt bug #579574
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

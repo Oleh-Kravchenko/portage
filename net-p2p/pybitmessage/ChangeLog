@@ -87,3 +87,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  14 May 2016; Michał Górny <mgorny@gentoo.org> pybitmessage-0.4.2.ebuild,
+  pybitmessage-0.4.3.ebuild, pybitmessage-0.4.3-r1.ebuild,
+  pybitmessage-0.4.4.ebuild, pybitmessage-9999.ebuild:
+  python_moduleroot -> python_moduleinto
+

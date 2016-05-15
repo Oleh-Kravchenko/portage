@@ -92,3 +92,10 @@
 
   Package-Manager: portage-2.2.26
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> hg-git-0.8.5.ebuild:
+  amd64 stable wrt bug #579950
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

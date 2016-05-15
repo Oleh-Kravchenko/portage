@@ -634,3 +634,15 @@
 
   Package-Manager: portage-2.2.28
 
+*vivaldi-1.2.479.8_p1 (13 May 2016)
+
+  13 May 2016; Jeroen Roovers <jer@gentoo.org> +vivaldi-1.2.479.8_p1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+
+  13 May 2016; Jeroen Roovers <jer@gentoo.org> -vivaldi-1.1.453.47_p1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.2.28
+

@@ -74,3 +74,21 @@
   07 May 2016; Tim Harder <radhermit@gentoo.org> vimpython-1.13-r1.ebuild:
   drop unnecessary variables from revbump
 
+  13 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  vimpython-1.13-r1.ebuild:
+  Stable for amd64. Retroactively mark stable for the remaining arches using
+  the ALLARCHES policy.
+
+  Package-Manager: portage-2.2.26
+
+  13 May 2016; Patrice Clement <monsieurp@gentoo.org> -vimpython-1.13.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.26
+
+  13 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  vimpython-1.13-r1.ebuild:
+  Mend DEPEND/RDEPEND.
+
+  Package-Manager: portage-2.2.26
+

@@ -1284,3 +1284,17 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  13 May 2016; Jeroen Roovers <jer@gentoo.org> php-5.5.35.ebuild,
+  php-5.6.21.ebuild:
+  Stable for PPC64 (bug #581834).
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --ignore-arches
+
+  14 May 2016; Jeroen Roovers <jer@gentoo.org> php-5.5.35.ebuild,
+  php-5.6.21.ebuild:
+  Stable for HPPA (bug #581834).
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --ignore-arches
+

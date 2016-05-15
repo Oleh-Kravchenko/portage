@@ -138,3 +138,10 @@
   07 May 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Add missing upstream maintainer's name
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> cdrtools-3.02_alpha06.ebuild:
+  amd64 stable wrt bug #581286
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

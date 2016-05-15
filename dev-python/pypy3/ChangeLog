@@ -185,3 +185,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  14 May 2016; Michał Górny <mgorny@gentoo.org> pypy3-2.4.0-r2.ebuild,
+  pypy3-9999.ebuild:
+  Fix pax-marking in src_compile()
+
+  14 May 2016; Michał Górny <mgorny@gentoo.org> pypy3-2.4.0-r2.ebuild,
+  pypy3-9999.ebuild:
+  INSDESTTREE -> custom var, #582982
+

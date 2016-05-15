@@ -148,3 +148,8 @@
 
   Package-Manager: portage-2.2.26
 
+  13 May 2016; Dirkjan Ochtman <djc@gentoo.org> rspamd-1.2.6.ebuild:
+  depend on openssl[-bindist] (fixes bug 572664)
+
+  Package-Manager: portage-2.2.28
+

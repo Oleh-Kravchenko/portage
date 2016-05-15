@@ -269,3 +269,25 @@
 
   Package-Manager: portage-2.2.26
 
+  14 May 2016; Anthony G. Basile <blueness@gentoo.org> -stunnel-5.29.ebuild,
+  -stunnel-5.31.ebuild:
+  remove older unstable versions
+
+  Package-Manager: portage-2.2.26
+
+  14 May 2016; Anthony G. Basile <blueness@gentoo.org> stunnel-5.30.ebuild:
+  stable for bug #578938
+
+  Package-Manager: portage-2.2.26
+
+  14 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  files/stunnel-compat-libressl.patch:
+  fix libressl compat patch
+
+  Package-Manager: portage-2.2.26
+
+  14 May 2016; Anthony G. Basile <blueness@gentoo.org> stunnel-5.30.ebuild:
+  stable for ppc and ppc64, bug #578938
+
+  Package-Manager: portage-2.2.26
+

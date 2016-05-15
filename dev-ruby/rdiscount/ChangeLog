@@ -159,3 +159,9 @@
 
   Package-Manager: portage-2.2.28
 
+  14 May 2016; Fabian Groffen <grobian@gentoo.org> rdiscount-2.1.8.ebuild,
+  rdiscount-2.2.0.1.ebuild:
+  marked ~x64-macos
+
+  Package-Manager: portage-2.2.28
+

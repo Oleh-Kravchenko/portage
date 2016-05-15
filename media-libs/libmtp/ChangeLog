@@ -90,3 +90,10 @@
 
   Package-Manager: portage-2.2.27
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> libmtp-1.1.11.ebuild:
+  amd64 stable wrt bug #568266
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

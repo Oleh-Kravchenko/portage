@@ -148,3 +148,13 @@
 
   Package-Manager: portage-2.2.27
 
+*uwsgi-2.0.13.1 (13 May 2016)
+
+  13 May 2016; Ultrabug <ultrabug@gentoo.org> +files/uwsgi.confd-r4,
+  +files/uwsgi.initd-r7, metadata.xml, -uwsgi-2.0.13.ebuild,
+  +uwsgi-2.0.13.1.ebuild:
+  version bump, add go support, make pid path mode configurable, drop broken
+  release
+
+  Package-Manager: portage-2.2.27
+

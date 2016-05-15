@@ -116,3 +116,9 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*file-5.27 (13 May 2016)
+
+  13 May 2016; Mike Frysinger <vapier@gentoo.org> +file-5.27.ebuild,
+  file-9999.ebuild:
+  version bump to 5.27 (and man page move #426634)
+

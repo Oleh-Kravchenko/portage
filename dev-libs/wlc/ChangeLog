@@ -17,3 +17,12 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  13 May 2016; Ian Delaney <idella4@gentoo.org> wlc-0.0.2.ebuild,
+  wlc-9999.ebuild:
+  add postinst message about Xwayland.
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1459
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

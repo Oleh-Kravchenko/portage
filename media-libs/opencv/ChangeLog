@@ -237,3 +237,15 @@
 
   Package-Manager: portage-2.2.26
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> opencv-2.4.12.ebuild:
+  amd64 stable wrt bug #580128
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  14 May 2016; Amy Winston <amynka@gentoo.org> opencv-3.1.0-r1.ebuild:
+  correct contrib url
+
+  Package-Manager: portage-2.2.26
+

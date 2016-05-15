@@ -45,3 +45,16 @@
   Acked-by: Mike Gilbert <floppym@gentoo.org>
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  13 May 2016; Patrice Clement <monsieurp@gentoo.org> electron-0.36.12.ebuild,
+  metadata.xml:
+  Drop gtk3 USE flag (#582698)
+
+  Upstream does not support GTK3 yet (unlike Chromium), so drop the
+  USE flag.
+
+  Gentoo-Bug: https://bugs.gentoo.org/582698
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1454
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

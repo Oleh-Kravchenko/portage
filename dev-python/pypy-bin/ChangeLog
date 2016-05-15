@@ -192,3 +192,11 @@
   12 Mar 2016; Michał Górny <mgorny@gentoo.org> +pypy-bin-5.0.0.ebuild:
   Bump to 5.0.0, #577132
 
+  14 May 2016; Michał Górny <mgorny@gentoo.org> pypy-bin-4.0.1-r1.ebuild,
+  pypy-bin-5.0.0.ebuild:
+  pax-mark libpypy-c.so as well
+
+  14 May 2016; Michał Górny <mgorny@gentoo.org> pypy-bin-4.0.1-r1.ebuild,
+  pypy-bin-5.0.0.ebuild:
+  INSDESTTREE -> custom var, #582982
+

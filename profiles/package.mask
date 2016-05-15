@@ -30,6 +30,10 @@
 
 #--- END OF EXAMPLES ---
 
+# Sergei Trofimovich <slyfox@gentoo.org> (14 May 2016)
+# Masked for removal. Deprecated, use dev-haskell/tls instead.
+dev-haskell/tls-extra
+
 # Alon Bar-Lev <alonbl@gentoo.org) (13 May 2016)
 # Force gnutls-3.4 testing so we can stabilize it.
 >=net-libs/gnutls-3.5.0
@@ -313,12 +317,6 @@ media-libs/emotion
 media-libs/ethumb
 media-libs/evas
 x11-plugins/echievements
-
-# Sergei Trofimovich <slyfox@gentoo.org> (19 Jan 2016)
-# Mask broken package. Exposes badly designed API
-# that can't be transparently used in ghc-7.8 and
-# ghc-7.10, bug #561122
-dev-haskell/extra:0
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (9 Jan 2016)
 # Errorneously added. Is already in perl-core. Please uninstall.
@@ -755,7 +753,6 @@ sys-auth/pam_keystore
 # live ebuilds, nor the availability of the server hosting them. As
 # per QA team policy, all these need to be kept masked by default, if
 # available in the tree.
-~app-i18n/skk-jisyo-9999
 =app-misc/sleepyhead-9999
 app-portage/layman-dbtools
 =www-plugins/google-talkplugin-9999

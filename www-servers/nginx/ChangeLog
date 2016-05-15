@@ -344,3 +344,15 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  14 May 2016; Zac Medico <zmedico@gentoo.org>
+  -files/check-0.3.0-segfault-on-reload.patch, nginx-1.10.0.ebuild:
+  fix upstream check module segfault for bug 582992
+
+  * update module snapshot to fix upstream issue 49, a segfault which
+    occurs in the ngx_http_upstream_check_find_shm_peer function
+
+  * remove check-0.3.0-segfault-on-reload.patch which is included in
+    the new snapshot
+
+  Package-Manager: portage-2.2.28
+

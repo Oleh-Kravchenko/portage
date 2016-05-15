@@ -20,3 +20,8 @@
 
   Package-Manager: portage-2.2.26
 
+  13 May 2016; Patrice Clement <monsieurp@gentoo.org> ackvim-1.0.9.ebuild:
+  Mend DEPEND/RDEPEND.
+
+  Package-Manager: portage-2.2.26
+

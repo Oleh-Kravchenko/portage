@@ -263,3 +263,10 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> ulogd-2.0.5_p20160205.ebuild:
+  amd64 stable wrt bug #581258
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

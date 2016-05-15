@@ -122,3 +122,10 @@
 
   Package-Manager: portage-2.2.26
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> hplip-3.16.3.ebuild:
+  amd64 stable wrt bug #564176
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

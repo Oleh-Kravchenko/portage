@@ -318,3 +318,10 @@
 
   Package-Manager: portage-2.2.28
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> bluez-5.39.ebuild:
+  amd64 stable wrt bug #582260
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

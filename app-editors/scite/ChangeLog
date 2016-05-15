@@ -147,3 +147,12 @@
 
   Package-Manager: portage-2.2.28
 
+  13 May 2016; Ian Delaney <idella4@gentoo.org> scite-3.6.5.ebuild:
+  adding inherit of flag-o-matic eclass to vn. 3.6.5
+
+  on behalf of maintainer E. Peters. Fixes
+
+  Gentoo-bug: 582196
+
+  Package-Manager: portage-2.2.28
+

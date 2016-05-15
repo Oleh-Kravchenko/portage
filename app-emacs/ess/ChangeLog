@@ -94,3 +94,10 @@
 
   Package-Manager: portage-2.2.28
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> ess-15.09.2.ebuild:
+  amd64 stable wrt bug #582270
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

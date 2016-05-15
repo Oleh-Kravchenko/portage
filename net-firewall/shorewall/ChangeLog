@@ -356,3 +356,10 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  13 May 2016; Agostino Sarubbo <ago@gentoo.org> shorewall-5.0.7.2.ebuild:
+  amd64 stable wrt bug #579816
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

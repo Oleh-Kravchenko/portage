@@ -72,3 +72,11 @@
 
   Package-Manager: portage-2.2.26
 
+*rmilter-1.8.4 (14 May 2016)
+
+  14 May 2016; Dirkjan Ochtman <djc@gentoo.org>
+  +files/1.8.4-optional-memcached.patch, metadata.xml, +rmilter-1.8.4.ebuild:
+  version bump to 1.8.4, add memcached USE flag (fixes bug 581574)
+
+  Package-Manager: portage-2.2.28
+
