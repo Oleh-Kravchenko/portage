@@ -70,3 +70,11 @@
 
   Package-Manager: portage-2.2.28
 
+*SGMLSpm-1.1-r1 (15 May 2016)
+
+  15 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org> -SGMLSpm-1.1.ebuild,
+  +SGMLSpm-1.1-r1.ebuild:
+  Add compatibility symlink, bug 582094
+
+  Package-Manager: portage-2.2.28
+

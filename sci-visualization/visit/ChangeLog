@@ -85,3 +85,13 @@
 
   Package-Manager: portage-2.2.28
 
+  15 May 2016; Slawomir Lis <slis@gentoo.org>
+  +files/visit-2.9.2-cmakelist.patch,
+  +files/visit-2.9.2-dont_symlink_visit_dir.patch,
+  +files/visit-2.9.2-findpython.patch, +files/visit-2.9.2-findsilo.patch,
+  +files/visit-2.9.2-findvtk.patch, +files/visit-2.9.2-vtklibs.patch,
+  +files/visit-2.9.2-vtkmpi.patch:
+  updated visit patchset (#582598)
+
+  Package-Manager: portage-2.2.28
+

@@ -147,3 +147,18 @@
 
   Package-Manager: portage-2.2.28
 
+  14 May 2016; David Seifert <soap@gentoo.org> octave-3.6.4.ebuild:
+  Fix QA MissingSlotDep
+
+  Package-Manager: portage-2.2.28
+
+  14 May 2016; David Seifert <soap@gentoo.org> octave-3.6.4-r1.ebuild:
+  Fix QA MissingSlotDep
+
+  Package-Manager: portage-2.2.28
+
+  14 May 2016; David Seifert <soap@gentoo.org> octave-3.8.1.ebuild:
+  Fix QA MissingSlotDep
+
+  Package-Manager: portage-2.2.28
+

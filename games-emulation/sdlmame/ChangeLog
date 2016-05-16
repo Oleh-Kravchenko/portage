@@ -174,3 +174,8 @@
 
   Package-Manager: portage-2.2.26
 
+  15 May 2016; Michael Sterrett <mr_bones_@gentoo.org> sdlmame-0.173.ebuild:
+  improve makefile munging (bug #583044)
+
+  Package-Manager: portage-2.2.28
+

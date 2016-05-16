@@ -224,3 +224,11 @@
 
   This reverts commit 34e0e60163b55d6dcfdc265307f533acf2b73d46.
 
+*kdelibs4support-5.22.0 (15 May 2016)
+
+  15 May 2016; Johannes Huber <johu@gentoo.org>
+  +kdelibs4support-5.22.0.ebuild:
+  kde-frameworks: Version bump KDE Frameworks 5.22.0
+
+  Package-Manager: portage-2.2.28
+

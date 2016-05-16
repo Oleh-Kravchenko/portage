@@ -439,3 +439,9 @@
 
   Package-Manager: portage-2.2.28
 
+  15 May 2016; Ian Delaney <idella4@gentoo.org> -xen-4.5.2-r5.ebuild,
+  -xen-4.5.2-r6.ebuild:
+  rm old vns. 4.5.2
+
+  Package-Manager: portage-2.2.28
+

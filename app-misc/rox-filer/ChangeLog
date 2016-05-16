@@ -74,3 +74,8 @@
 
   Package-Manager: portage-2.2.26
 
+  15 May 2016; Jason Zaman <perfinion@gentoo.org> metadata.xml:
+  clean up metadata newline
+
+  Package-Manager: portage-2.2.28
+

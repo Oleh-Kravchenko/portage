@@ -220,3 +220,10 @@
   +rstudio-0.99.896.ebuild:
   Bump to 0.99.896
 
+*rstudio-0.99.902 (15 May 2016)
+
+  15 May 2016; Mark Wright <gienah@gentoo.org> +rstudio-0.99.902.ebuild:
+  Bump to 0.99.902
+
+  Package-Manager: portage-2.2.28
+

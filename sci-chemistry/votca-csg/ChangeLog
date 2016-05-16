@@ -110,3 +110,8 @@
 
   Package-Manager: portage-2.2.26
 
+  14 May 2016; David Seifert <soap@gentoo.org> votca-csg-1.2.4-r1.ebuild:
+  Fix QA MissingSlotDep
+
+  Package-Manager: portage-2.2.28
+

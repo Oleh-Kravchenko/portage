@@ -18,3 +18,18 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  15 May 2016; Ian Delaney <idella4@gentoo.org> sway-0.6.ebuild,
+  sway-9999.ebuild:
+  enable important USE flags by default.
+
+  According to upstream, these options are considered core
+  functionality, and are recommended to be enabled by default.
+
+  Disabling them results in a very minimal build; probably
+  not what most users would want, or expect.
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1467
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

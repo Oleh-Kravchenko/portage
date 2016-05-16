@@ -99,3 +99,8 @@
 
   Package-Manager: portage-2.2.27
 
+  15 May 2016; Sergei Trofimovich <slyfox@gentoo.org> hashable-1.2.4.0.ebuild:
+  amd64/x86 stable, bug #563090
+
+  Package-Manager: portage-2.2.28
+

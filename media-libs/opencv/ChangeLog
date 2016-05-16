@@ -249,3 +249,17 @@
 
   Package-Manager: portage-2.2.26
 
+  15 May 2016; Mikle Kolyada <zlogene@gentoo.org> opencv-2.4.12.ebuild:
+  : ppc/x86 stable wrt bug #580128
+
+  Package-Manager: portage-2.2.26
+
+  15 May 2016; Amy Winston <amynka@gentoo.org>
+  -files/opencv-2.4.10-git-autodetect.patch,
+  -files/opencv-2.4.10-pic-x86.patch, -files/opencv-2.4.9-cuda.patch,
+  -files/opencv-2.4.9-git-autodetect.patch, -files/opencv-2.4.9-libav10.patch,
+  -opencv-2.4.9.ebuild, -opencv-2.4.10.ebuild:
+  remove old 2.4.9 and 2.4.10
+
+  Package-Manager: portage-2.2.26
+

@@ -464,3 +464,22 @@
 
   Package-Manager: portage-2.2.28
 
+*xen-tools-4.6.1-r2 (15 May 2016)
+*xen-tools-4.6.0-r11 (15 May 2016)
+
+  15 May 2016; Ian Delaney <idella4@gentoo.org> +xen-tools-4.6.0-r11.ebuild,
+  +xen-tools-4.6.1-r2.ebuild:
+  rebumps: xen-tools-4.6.0-r11 xen-tools-4.6.0-r10
+
+  consequent to the security bug re patches of xsa-179 affecting qemuu
+
+  Gentoo-bug: #582574
+
+  Package-Manager: portage-2.2.28
+
+  15 May 2016; Ian Delaney <idella4@gentoo.org> -xen-tools-4.5.2-r5.ebuild,
+  -xen-tools-4.5.2-r6.ebuild:
+  rm old vns. 4.5.2
+
+  Package-Manager: portage-2.2.28
+

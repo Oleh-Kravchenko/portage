@@ -10,3 +10,9 @@
 
   Package-Manager: portage-2.2.28
 
+  15 May 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  fgl-arbitrary-0.2.0.1.ebuild:
+  amd64/x86 stable, bug #563090
+
+  Package-Manager: portage-2.2.28
+

@@ -1,0 +1,12 @@
+# ChangeLog for kde-frameworks/kwayland
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*kwayland-5.22.0 (15 May 2016)
+
+  15 May 2016; Johannes Huber <johu@gentoo.org> +kwayland-5.22.0.ebuild,
+  +metadata.xml:
+  kde-frameworks: Version bump KDE Frameworks 5.22.0
+
+  Package-Manager: portage-2.2.28
+

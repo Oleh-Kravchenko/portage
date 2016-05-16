@@ -160,3 +160,12 @@
 
   Package-Manager: portage-2.2.28
 
+  15 May 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  +files/tracker-1.6.2-sqlite-underlinking.patch, tracker-1.6.2.ebuild:
+  fix underlinking build failure (bug #581288)
+
+  Thanks to Maxim Sheviakov for reporting.
+  Upstream bug: https://bugzilla.gnome.org/show_bug.cgi?id=766487
+
+  Package-Manager: portage-2.2.28
+
