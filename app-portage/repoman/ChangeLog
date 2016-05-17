@@ -1,0 +1,20 @@
+# ChangeLog for app-portage/repoman
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*repoman-2.3.0_rc1 (16 May 2016)
+
+  16 May 2016; Brian Dolbec <dolsen@gentoo.org> +metadata.xml,
+  +repoman-2.3.0_rc1.ebuild:
+  Initial release of the split portage/repoman packages
+
+  Package-Manager: portage-2.3.0_rc1
+
+*repoman-2.3.0_rc1-r1 (16 May 2016)
+
+  16 May 2016; Brian Dolbec <dolsen@gentoo.org> -repoman-2.3.0_rc1.ebuild,
+  +repoman-2.3.0_rc1-r1.ebuild:
+  Bump, add missed lxml dep
+
+  Package-Manager: portage-2.3.0_rc1
+

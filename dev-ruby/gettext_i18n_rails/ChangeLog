@@ -135,3 +135,11 @@
 
   Package-Manager: portage-2.2.26
 
+*gettext_i18n_rails-1.7.0 (16 May 2016)
+
+  16 May 2016; Hans de Graaff <graaff@gentoo.org>
+  +gettext_i18n_rails-1.7.0.ebuild:
+  add 1.7.0
+
+  Package-Manager: portage-2.2.28
+

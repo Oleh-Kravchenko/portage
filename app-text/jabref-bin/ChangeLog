@@ -135,3 +135,13 @@
 
   Package-Manager: portage-2.2.26
 
+*jabref-bin-3.3 (16 May 2016)
+
+  16 May 2016; Nicolas Bock <nicolasbock@gentoo.org> +jabref-bin-3.3.ebuild:
+  Version bump
+
+  Still leaving this at EAPI 5. The next version bump will hopefully be EAPI
+  6.
+
+  Package-Manager: portage-2.2.28
+

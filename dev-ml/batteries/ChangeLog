@@ -109,3 +109,10 @@
 
   Package-Manager: portage-2.2.28
 
+*batteries-2.5.2 (16 May 2016)
+
+  16 May 2016; Alexis Ballier <aballier@gentoo.org> +batteries-2.5.2.ebuild:
+  bump to 2.5.2
+
+  Package-Manager: portage-2.2.28
+

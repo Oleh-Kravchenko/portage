@@ -80,3 +80,9 @@
 
   Package-Manager: portage-2.2.28
 
+  16 May 2016; Dirkjan Ochtman <djc@gentoo.org> -rmilter-1.7.2.ebuild,
+  -rmilter-1.7.3.ebuild, -rmilter-1.7.4.ebuild:
+  remove old versions
+
+  Package-Manager: portage-2.2.28
+

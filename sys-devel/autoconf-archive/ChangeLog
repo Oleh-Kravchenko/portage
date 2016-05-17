@@ -132,3 +132,11 @@
 
   Package-Manager: portage-2.2.28
 
+*autoconf-archive-2016.03.20-r1 (16 May 2016)
+
+  16 May 2016; Mike Frysinger <vapier@gentoo.org>
+  -autoconf-archive-2016.03.20.ebuild, +autoconf-archive-2016.03.20-r1.ebuild,
+  +files/autoconf-archive-2016.03.20-cxxcpp.patch,
+  +files/autoconf-archive-2016.03.20-include.patch:
+  fix include statements #581346
+

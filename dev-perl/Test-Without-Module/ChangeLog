@@ -71,3 +71,15 @@
 
   Package-Manager: portage-2.2.28
 
+  16 May 2016; Mikle Kolyada <zlogene@gentoo.org>
+  Test-Without-Module-0.180.0.ebuild:
+  Add ppc keyword
+
+  Package-Manager: portage-2.2.28
+
+  16 May 2016; Mikle Kolyada <zlogene@gentoo.org>
+  Test-Without-Module-0.180.0.ebuild:
+  back to unstable
+
+  Package-Manager: portage-2.2.28
+

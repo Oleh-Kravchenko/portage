@@ -285,3 +285,11 @@
   Always add a "-git" suffix so we know it's the 9999 ebuild even if the
   git repo happens to be the same as the latest release.
 
+*genkernel-3.5.0.2 (16 May 2016)
+
+  16 May 2016; Robin H. Johnson <robbat2@gentoo.org>
+  +genkernel-3.5.0.2.ebuild:
+  bump, lots of kconfig fixups.
+
+  Package-Manager: portage-2.2.28
+

@@ -207,3 +207,10 @@
 
   Interface scripts are no longer supported upstream for security reasons.
 
+  16 May 2016; Patrice Clement <monsieurp@gentoo.org> cups-9999.ebuild:
+  fix spelling error in -9999 ebuild
+
+  Signed-off-by: Brian Norris <computersforpeace@gmail.com>
+  Closes: https://github.com/gentoo/gentoo/pull/1466
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

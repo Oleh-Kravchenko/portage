@@ -372,3 +372,10 @@
   +bash-4.4_rc1.ebuild:
   version bump to 4.4_rc1
 
+  16 May 2016; Mike Frysinger <vapier@gentoo.org> bash-2.05b_p13.ebuild,
+  bash-3.0_p22.ebuild, bash-3.1_p23.ebuild, bash-3.2_p57.ebuild,
+  bash-4.0_p44.ebuild, bash-4.1_p17.ebuild, bash-4.2_p53.ebuild,
+  bash-4.3_p39_pre0.ebuild, bash-4.3_p42-r1.ebuild, bash-4.3_p42-r2.ebuild,
+  bash-4.4_rc1.ebuild:
+  use the system mktemp/mkstemp funcs #574426
+

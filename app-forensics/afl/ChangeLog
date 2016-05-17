@@ -77,3 +77,10 @@
 
   Package-Manager: portage-2.2.27
 
+*afl-2.12b (16 May 2016)
+
+  16 May 2016; Sebastian Pipping <sping@gentoo.org> +afl-2.12b.ebuild:
+  2.12b
+
+  Package-Manager: portage-2.2.28
+

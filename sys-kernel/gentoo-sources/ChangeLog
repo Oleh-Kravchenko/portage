@@ -1380,3 +1380,16 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-4.6.0 (16 May 2016)
+
+  16 May 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.6.0.ebuild:
+  Linux 4.6. Patch to enable link security restrictions by default. Patch to
+  disable Windows 8 compatibility for some Lenovo ThinkPads. Patch to ensure
+  that /dev/root doesn't appear in /proc/mounts when bootint without an
+  initramfs.  fbcondecor bootsplash patch. Add Gentoo Linux support config
+  settings and defaults. Kernel patch that enables gcc < v4.9 optimizations
+  for additional CPUs.  Kernel patch enables gcc >= v4.9 optimizations for
+  additional CPUs.
+
+  Package-Manager: portage-2.2.28
+

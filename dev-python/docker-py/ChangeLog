@@ -188,3 +188,11 @@
 
   Package-Manager: portage-2.2.28
 
+  15 May 2016; Alex Brandt <alunduil@gentoo.org> -docker-py-1.8.0_rc5.ebuild:
+  remove version 1.8.0_rc5
+
+  The removal of python2_7 in docker-py happened during this release, not the
+  proper release.  Removing this version fixes #582300.
+
+  Package-Manager: portage-2.2.28
+

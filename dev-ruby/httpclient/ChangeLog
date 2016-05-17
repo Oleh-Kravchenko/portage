@@ -136,3 +136,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*httpclient-2.8.0 (16 May 2016)
+
+  16 May 2016; Hans de Graaff <graaff@gentoo.org> +httpclient-2.8.0.ebuild:
+  add 2.8.0
+
+  Package-Manager: portage-2.2.28
+

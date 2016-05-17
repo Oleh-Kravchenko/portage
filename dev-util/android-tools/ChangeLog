@@ -87,3 +87,8 @@
   android-tools-5.1.1_p13.ebuild:
   fix building w/newer glibc #580058
 
+  16 May 2016; Zac Medico <zmedico@gentoo.org> android-tools-5.1.1_p13.ebuild:
+  fix cdefs.h usage for musl bug 580686
+
+  Package-Manager: portage-2.2.28
+

@@ -88,3 +88,9 @@
   scope since it happens in arbitrary directory which will not have
   README* files. Furthermore, it triggers verbose failure due to failglob.
 
+  15 May 2016; Joerg Bornkessel <hd_brummy@gentoo.org>
+  gentoo-vdr-scripts-2.7.5.ebuild:
+  removed useless inherit eutils for eapi=6; removed useless src_prepare part
+
+  Package-Manager: portage-2.2.28
+

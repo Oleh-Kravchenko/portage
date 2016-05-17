@@ -80,3 +80,10 @@
 
   Package-Manager: portage-2.2.26
 
+  16 May 2016; Michael Sterrett <mr_bones_@gentoo.org> performous-1.0.ebuild,
+  performous-1.1.ebuild:
+  fix building with USE=tools by further commiting to use the system-cmake-
+  find-zlib module
+
+  Package-Manager: portage-2.2.28
+

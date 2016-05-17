@@ -338,3 +338,14 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 May 2016; Matthew Thode <prometheanfire@gentoo.org> neutron-7.0.4.ebuild:
+  allarches stable
+
+  Package-Manager: portage-2.2.28
+
+  16 May 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -neutron-7.0.1.ebuild, -neutron-7.0.2.ebuild, -neutron-7.0.3.ebuild:
+  removing old
+
+  Package-Manager: portage-2.2.28
+

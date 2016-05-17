@@ -179,3 +179,11 @@
 
   Package-Manager: portage-2.2.28
 
+  16 May 2016; Ian Delaney <idella4@gentoo.org> classified-ads-0.10.ebuild:
+  add missed DEPEND on gettext for 0.10
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1473
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

@@ -151,3 +151,11 @@
 
   Package-Manager: portage-2.2.28
 
+  15 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/eblits/common-v50240001.eblit,
+  +files/eblits/src_configure-v50240001.eblit,
+  +files/eblits/src_install-v50240001.eblit, perl-5.24.0.ebuild:
+  Add some missing files to fix the eblit logic
+
+  Package-Manager: portage-2.2.28
+
