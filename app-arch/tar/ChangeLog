@@ -90,3 +90,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*tar-1.29 (16 May 2016)
+
+  16 May 2016; Lars Wendler <polynomial-c@gentoo.org> +tar-1.29.ebuild:
+  Bump to version 1.29
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  16 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/tar-1.26-no-gets.patch, -files/tar-1.26-xattr.patch, -files/tar.1,
+  -tar-1.26-r1.ebuild, -tar-1.28.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

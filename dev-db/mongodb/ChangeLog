@@ -246,3 +246,11 @@
   +mongodb-3.2.5.ebuild:
   version bump, drop old
 
+*mongodb-3.0.12 (17 May 2016)
+
+  17 May 2016; Ultrabug <ultrabug@gentoo.org> -mongodb-3.0.11.ebuild,
+  +mongodb-3.0.12.ebuild:
+  version bump fix #580796
+
+  Package-Manager: portage-2.2.27
+

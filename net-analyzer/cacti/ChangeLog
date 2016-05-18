@@ -150,3 +150,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 May 2016; Jeroen Roovers <jer@gentoo.org> cacti-0.8.8h.ebuild:
+  Stable for HPPA (bug #582996).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

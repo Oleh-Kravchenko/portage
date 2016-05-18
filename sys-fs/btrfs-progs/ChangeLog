@@ -233,3 +233,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 May 2016; Markus Meier <maekke@gentoo.org> btrfs-progs-4.4.1.ebuild:
+  arm stable, bug #581108
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="arm"
+

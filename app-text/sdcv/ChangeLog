@@ -85,3 +85,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*sdcv-0.5.0_beta2-r1 (17 May 2016)
+
+  17 May 2016; Andrew Savchenko <bircoph@gentoo.org> metadata.xml,
+  +sdcv-0.5.0_beta2-r1.ebuild:
+  improve ebuild
+
+  - improve readability on dark terminals;
+  - port to EAPI 6;
+  - respect LINGUAS (for gettext localisation and man pages).
+
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+

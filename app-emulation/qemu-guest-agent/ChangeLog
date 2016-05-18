@@ -133,3 +133,9 @@
   qemu-guest-agent-2.5.0.ebuild:
   fix build w/newer glibc #580924
 
+*qemu-guest-agent-2.6.0 (17 May 2016)
+
+  17 May 2016; Mike Frysinger <vapier@gentoo.org>
+  +qemu-guest-agent-2.6.0.ebuild:
+  version bump to 2.6.0 #583212
+

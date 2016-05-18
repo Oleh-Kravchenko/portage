@@ -181,3 +181,14 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  16 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/nzbget-14.0_pre1145-tinfo.patch:
+  re-add a missing patch for old versions
+
+  Gentoo-Bug: https://bugs.gentoo.org/581142
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1478
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

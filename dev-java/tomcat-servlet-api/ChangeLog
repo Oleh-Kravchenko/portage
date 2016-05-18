@@ -418,3 +418,12 @@
 
   Package-Manager: portage-2.2.28
 
+*tomcat-servlet-api-9.0.0_alpha6 (17 May 2016)
+
+  17 May 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  -tomcat-servlet-api-9.0.0_alpha4.ebuild,
+  +tomcat-servlet-api-9.0.0_alpha6.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -88,3 +88,9 @@
 
   Package-Manager: portage-2.2.26
 
+  17 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  gradm-3.1.201603152148.ebuild:
+  bump next stable candidate to EAPI=6
+
+  Package-Manager: portage-2.2.26
+
