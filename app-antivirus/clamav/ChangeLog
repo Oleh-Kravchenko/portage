@@ -140,3 +140,7 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/clamd.initd-r3,
+  files/clamd.initd-r5, files/clamd.initd-r6:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

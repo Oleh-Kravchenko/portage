@@ -126,3 +126,12 @@
   metadata.xml:
   Pkg move kde-plasma/kwayland -> kde-frameworks/kwayland
 
+  18 May 2016; Johannes Huber <johu@gentoo.org> kdeconnect-0.9g.ebuild:
+  Lower dependency on kde-frameworks/kwayland
+
+  Usefull for stable users with only accepting keywords on this package.
+
+  Gentoo-bug: 583378
+
+  Package-Manager: portage-2.2.28
+

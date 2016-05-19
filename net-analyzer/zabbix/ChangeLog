@@ -146,3 +146,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/2.2/init.d/zabbix-agentd, files/2.2/init.d/zabbix-proxy,
+  files/2.2/init.d/zabbix-server, files/2.4/init.d/zabbix-agentd,
+  files/2.4/init.d/zabbix-proxy, files/2.4/init.d/zabbix-server:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

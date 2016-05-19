@@ -184,3 +184,7 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/389-ds-snmp.initd,
+  files/389-ds.initd-r1:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

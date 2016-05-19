@@ -93,3 +93,7 @@
   07 Mar 2016; Mike Frysinger <vapier@gentoo.org> nullmailer-2.0.ebuild:
   enable LFS support #471102
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/init.d-nullmailer-r4, files/init.d-nullmailer-r5:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

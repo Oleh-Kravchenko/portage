@@ -98,3 +98,16 @@
   Package-Manager: portage-2.3.0_rc1
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+  18 May 2016; Andrew Savchenko <bircoph@gentoo.org>
+  sdcv-0.5.0_beta2-r1.ebuild:
+  fix bug 583386
+
+  1. When USE="nls", but intersection of LINGUAS with PLOCALES is
+  zero, $BUILD_DIR/locale is not created, thus cmake generated build
+  fails install phase. Fixed by always creating this directory.
+
+  2. Remove dodoc useless in EAPI=6: we have only default doc files.
+
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+

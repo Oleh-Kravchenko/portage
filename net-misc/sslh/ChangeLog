@@ -101,3 +101,6 @@
 
   This reverts commit ddd6ade52aae53d29552d00824572cde1dfa3533.
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/sslh.init.d-2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

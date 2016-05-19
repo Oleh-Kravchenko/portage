@@ -148,3 +148,7 @@
   +openntpd-5.9_p1.ebuild:
   Bump to 5.9_p1
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/openntpd.init.d-20080406-r6:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

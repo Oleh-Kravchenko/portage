@@ -282,3 +282,6 @@
   02 May 2016; Matt Turner <mattst88@gentoo.org> bind-9.10.3_p4.ebuild:
   alpha stable, bug 576902.
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/named.init-r13:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

@@ -325,3 +325,8 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/bluetooth-init.d-r2, files/bluetooth-init.d-r3, files/rfcomm-init.d,
+  files/rfcomm-init.d-r2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

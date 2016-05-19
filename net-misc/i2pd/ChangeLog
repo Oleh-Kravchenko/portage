@@ -279,3 +279,7 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/i2pd-2.5.0.initd,
+  files/i2pd-2.5.1.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

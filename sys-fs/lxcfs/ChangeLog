@@ -80,3 +80,7 @@
 
   Package-Manager: portage-2.2.28
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/lxcfs-0.17.initd,
+  files/lxcfs-2.0.0.initd, files/lxcfs-2.0.0_beta2.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

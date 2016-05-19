@@ -103,3 +103,6 @@
   Package maintainers will likely want to cleanup various things for this
   experimental USE flag.
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/prosody.initd-r2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

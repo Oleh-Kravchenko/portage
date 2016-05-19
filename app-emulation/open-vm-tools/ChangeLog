@@ -112,3 +112,7 @@
 
   Package-Manager: portage-2.2.27_p64
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/open-vm-tools.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

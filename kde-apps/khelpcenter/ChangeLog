@@ -59,3 +59,13 @@
 
   This reverts commit e6aa100b95031b66833beef4ef7d8085ec0389b3.
 
+*khelpcenter-16.04.1 (18 May 2016)
+
+  18 May 2016; Johannes Huber <johu@gentoo.org> +khelpcenter-16.04.1.ebuild:
+  kde-apps: Version bump KDE Applications 16.04.1
+
+  Except KDE PIM which is not ready for production yet, which is available
+  (masked) in kde overlay.
+
+  Package-Manager: portage-2.3.0_rc1
+

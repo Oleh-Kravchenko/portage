@@ -99,3 +99,6 @@
   (cherry picked from commit add2021a15b569224b4d50b1d072307d00de0eb9)
   Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/opendkim.init.r3:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

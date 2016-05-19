@@ -111,3 +111,10 @@
 
   Package-Manager: portage-2.2.26
 
+*redcloth-4.3.1 (18 May 2016)
+
+  18 May 2016; Hans de Graaff <graaff@gentoo.org> +redcloth-4.3.1.ebuild:
+  add 4.3.1
+
+  Package-Manager: portage-2.2.28
+

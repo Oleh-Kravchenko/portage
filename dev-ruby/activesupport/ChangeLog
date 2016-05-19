@@ -217,3 +217,9 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Fabian Groffen <grobian@gentoo.org>
+  activesupport-4.2.6-r1.ebuild:
+  marked ~amd64-linux
+
+  Package-Manager: portage-2.2.28
+

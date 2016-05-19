@@ -351,3 +351,15 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/keystone.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+
+*keystone-9.0.0-r1 (18 May 2016)
+
+  18 May 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +files/CVE-2016-4911_9.0.0.patch, -keystone-9.0.0.ebuild,
+  +keystone-9.0.0-r1.ebuild:
+  fix CVE-2016-4911 bug 583392
+
+  Package-Manager: portage-2.2.28
+

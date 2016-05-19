@@ -18,3 +18,14 @@
   +ktp-common-internals-0.9.0.ebuild, ktp-common-internals-15.12.3.ebuild:
   net-im/ktp-common-internals -> kde-apps/ktp-common-internals
 
+*ktp-common-internals-16.04.1 (18 May 2016)
+
+  18 May 2016; Johannes Huber <johu@gentoo.org>
+  +ktp-common-internals-16.04.1.ebuild:
+  kde-apps: Version bump KDE Applications 16.04.1
+
+  Except KDE PIM which is not ready for production yet, which is available
+  (masked) in kde overlay.
+
+  Package-Manager: portage-2.3.0_rc1
+

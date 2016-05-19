@@ -143,3 +143,7 @@
 
   Package-Manager: portage-2.2.28
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/inspircd-2.0.21-init, files/inspircd-init:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

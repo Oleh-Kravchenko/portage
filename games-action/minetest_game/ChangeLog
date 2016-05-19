@@ -74,3 +74,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*minetest_game-0.4.14 (18 May 2016)
+
+  18 May 2016; Ian Delaney <idella4@gentoo.org> +minetest_game-0.4.14.ebuild:
+  Bump to version 0.4.14
+
+  Closes: https://github.com/gentoo/gentoo/pull/1469
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+  18 May 2016; Ian Delaney <idella4@gentoo.org> -minetest_game-0.4.10.ebuild:
+  Removal of version 0.4.10
+
+  Closes: https://github.com/gentoo/gentoo/pull/1471
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

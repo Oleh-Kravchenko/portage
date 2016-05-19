@@ -197,3 +197,8 @@
   Gentoo-Bug: 579280
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/swift-account.initd, files/swift-container.initd,
+  files/swift-object.initd, files/swift-proxy.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

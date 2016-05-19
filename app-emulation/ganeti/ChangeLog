@@ -244,3 +244,7 @@
 
   Package-Manager: portage-2.2.28
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/ganeti-kvm-poweroff.initd, files/ganeti.initd-r3:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

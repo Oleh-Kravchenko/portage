@@ -16,3 +16,15 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*chrome-gnome-shell-6 (18 May 2016)
+
+  18 May 2016; Ian Delaney <idella4@gentoo.org>
+  -chrome-gnome-shell-5.2.ebuild, +chrome-gnome-shell-6.ebuild:
+  version bump -5.2, remove old
+
+  removed arm keyword (untested), tidy and improvements to bumped ebuild
+
+  Closes: https://github.com/gentoo/gentoo/pull/1463
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

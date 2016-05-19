@@ -14,3 +14,6 @@
   01 Feb 2016; Zetok Zalbavar <zetok@openmailbox.org> +tox-0_p20160201.ebuild:
   add snapshot version pinned to git commit
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

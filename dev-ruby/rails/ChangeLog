@@ -176,3 +176,8 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Fabian Groffen <grobian@gentoo.org> rails-4.2.6.ebuild:
+  marked ~amd64-linux
+
+  Package-Manager: portage-2.2.28
+

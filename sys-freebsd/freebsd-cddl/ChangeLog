@@ -99,3 +99,7 @@
   +files/freebsd-cddl-10.3-underlink.patch, +freebsd-cddl-10.3.ebuild:
   sys-freebsd: Bump to 10.3.
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/zfs.initd,
+  files/zvol.initd, files/zvol.initd-9.0:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

@@ -93,3 +93,7 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/cgconfig.initd,
+  files/cgconfig.initd-r1, files/cgred.initd, files/cgred.initd-r1:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

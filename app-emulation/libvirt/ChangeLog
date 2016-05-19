@@ -534,3 +534,9 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/libvirt-guests.init-r1, files/libvirt-guests.init-r2,
+  files/libvirtd.init-r15, files/libvirtd.init-r16, files/virtlockd.init-r1,
+  files/virtlogd.init-r1:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

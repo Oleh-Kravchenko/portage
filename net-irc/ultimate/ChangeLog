@@ -71,3 +71,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/ultimateircd.rc,
+  files/ultimateircd.rc-3.0.0, files/ultimateircd.rc.2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

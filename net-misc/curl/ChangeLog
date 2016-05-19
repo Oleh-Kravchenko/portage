@@ -234,3 +234,16 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --include-arches="arm"
 
+*curl-7.49.0 (18 May 2016)
+
+  18 May 2016; Anthony G. Basile <blueness@gentoo.org> +curl-7.49.0.ebuild:
+  bump for CVE-2016-3739, bug #583394
+
+  Package-Manager: portage-2.2.26
+
+  18 May 2016; Anthony G. Basile <blueness@gentoo.org> -curl-7.48.0.ebuild,
+  -files/curl-7.48.0-libressl.patch:
+  remove older unstable version for CVE-2016-3739
+
+  Package-Manager: portage-2.2.26
+

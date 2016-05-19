@@ -207,3 +207,7 @@
   23 Apr 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
   Fixes maintainer's name.
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/rngd-initd-4.1,
+  files/rngd-initd-r1-4.1:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

@@ -119,3 +119,6 @@
 
   Support xorg-1.18.0 thanks to LFS patch. Found by Jan Psota.
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/tigervnc.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

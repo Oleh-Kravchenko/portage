@@ -258,3 +258,7 @@
   02 May 2016; Matt Turner <mattst88@gentoo.org> busybox-1.24.2.ebuild:
   alpha stable, bug 577610.
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/klogd.initd,
+  files/ntpd.initd, files/syslogd.initd, files/watchdog.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

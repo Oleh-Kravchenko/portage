@@ -179,3 +179,14 @@
   -freebsd-sources-10.3.ebuild, +freebsd-sources-10.3-r1.ebuild:
   Fix errata, EN-16:07.ipi and EN-16:08.zfs
 
+*freebsd-sources-10.3-r2 (18 May 2016)
+*freebsd-sources-10.2-r6 (18 May 2016)
+
+  18 May 2016; Yuta Satoh <nigoro.dev@gmail.com>
+  -freebsd-sources-10.2-r5.ebuild, +freebsd-sources-10.2-r6.ebuild,
+  -freebsd-sources-10.3-r1.ebuild, +freebsd-sources-10.3-r2.ebuild:
+  Fix multiple Security Advisory.
+
+  * FreeBSD-SA-16:18.atkbd
+  * FreeBSD-SA-16:19.sendmsg
+

@@ -363,3 +363,8 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/shorewall-init.initd, files/shorewall-lite.initd,
+  files/shorewall.initd, files/shorewall6-lite.initd, files/shorewall6.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

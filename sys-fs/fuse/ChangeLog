@@ -87,3 +87,7 @@
   03 May 2016; Tim Harder <radhermit@gentoo.org> +fuse-2.9.6.ebuild:
   version bump to 2.9.6
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/fuse-fbsd.init,
+  files/fuse.init:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

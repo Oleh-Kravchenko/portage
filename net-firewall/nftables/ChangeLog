@@ -130,3 +130,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/nftables.init,
+  files/nftables.init-r1, files/nftables.init-r2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

@@ -149,3 +149,6 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/buildmaster.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

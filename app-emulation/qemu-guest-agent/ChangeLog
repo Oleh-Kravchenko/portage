@@ -139,3 +139,6 @@
   +qemu-guest-agent-2.6.0.ebuild:
   version bump to 2.6.0 #583212
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/qemu-ga.init-r1:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

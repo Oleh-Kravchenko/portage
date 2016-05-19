@@ -15,3 +15,6 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/amc.init:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

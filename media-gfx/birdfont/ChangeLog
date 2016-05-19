@@ -8,3 +8,9 @@
   +files/birdfont-2.5.1-verbose.patch, +metadata.xml:
   initial ebuild
 
+*birdfont-2.15.5 (17 May 2016)
+
+  17 May 2016; Mike Frysinger <vapier@gentoo.org> -birdfont-2.5.1.ebuild,
+  +birdfont-2.15.5.ebuild, +files/birdfont-2.15.5-configure-valac.patch:
+  version bump to 2.15.5
+

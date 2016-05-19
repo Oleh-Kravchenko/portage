@@ -186,3 +186,19 @@
 
   Package-Manager: portage-2.2.28
 
+*ki18n-5.22.1 (18 May 2016)
+
+  18 May 2016; Johannes Huber <johu@gentoo.org> +ki18n-5.22.1.ebuild:
+  Version bump 5.22.1
+
+  Fixes build with gcc-6.
+
+  Gentoo-bug: 583350
+
+  Package-Manager: portage-2.3.0_rc1
+
+  18 May 2016; Johannes Huber <johu@gentoo.org> -ki18n-5.22.0.ebuild:
+  Remove 5.22.0
+
+  Package-Manager: portage-2.3.0_rc1
+

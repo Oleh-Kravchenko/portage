@@ -98,3 +98,9 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Fabian Groffen <grobian@gentoo.org>
+  rails-dom-testing-1.0.7.ebuild, rails-dom-testing-2.0.0.ebuild:
+  marked ~amd64-linux
+
+  Package-Manager: portage-2.2.28
+

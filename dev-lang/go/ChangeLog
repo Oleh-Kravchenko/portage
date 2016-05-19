@@ -402,3 +402,13 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; William Hubbs <williamh@gentoo.org>
+  +files/go-1.6.1-gdb-no-shell.patch, +files/go-1.6.2-gdb-no-shell.patch,
+  go-1.6.1.ebuild, go-1.6.2.ebuild:
+  apply patch for #581072
+
+  Gdb was starting by spawning a shell and this was causing issues for the
+  tests.
+
+  Package-Manager: portage-2.2.28
+

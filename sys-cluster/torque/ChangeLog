@@ -76,3 +76,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/pbs_mom-init.d,
+  files/pbs_mom-init.d-munge, files/pbs_sched-init.d, files/pbs_server-init.d,
+  files/pbs_server-init.d-munge, files/trqauthd-init.d:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

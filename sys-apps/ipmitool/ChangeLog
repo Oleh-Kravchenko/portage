@@ -83,3 +83,7 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/ipmitool-1.8.9-ipmievd.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

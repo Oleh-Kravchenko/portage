@@ -181,3 +181,12 @@
   Remove <description/> from upstream maintainer as it is not allowed
   by GLEP 46.
 
+  18 May 2016; Daniel Pielmeier <billie@gentoo.org> conky-1.10.1.ebuild,
+  +files/conky-1.10.1-ncurses-tinfo.patch:
+  Fixes bug #562154. Fix building ncurses with USE=tinfo.
+
+  Thanks to Nicholas O'Connor for the report and Laurent Georget for the
+  patch.
+
+  Package-Manager: portage-2.2.28
+

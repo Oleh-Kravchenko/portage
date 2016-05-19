@@ -345,3 +345,13 @@
 
   Package-Manager: portage-2.2.28
 
+  17 May 2016; James Le Cuirot <chewi@gentoo.org>
+  -files/oracle-jdk-bin-1.7.env, -oracle-jdk-bin-1.7.0.80.ebuild:
+  Remove old and vulnerable 1.7.0.80
+
+  This should have gone ages ago but we couldn't remove it until
+  icedtea-bin:8 was stable, otherwise we'd have had a boatload of
+  complaints from icedtea users being forced onto Oracle.
+
+  Package-Manager: portage-2.3.0_rc1
+

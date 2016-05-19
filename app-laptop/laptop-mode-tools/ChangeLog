@@ -122,3 +122,7 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/laptop_mode.init-1.4:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

@@ -258,3 +258,9 @@
 
   Package-Manager: portage-2.2.28
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/api-initd-3,
+  files/api-initd-4, files/master-initd-3, files/master-initd-4,
+  files/minion-initd-3, files/minion-initd-4, files/syndic-initd-3,
+  files/syndic-initd-4:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

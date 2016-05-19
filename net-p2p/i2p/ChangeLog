@@ -215,3 +215,7 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/i2p-0.9.23_initd,
+  files/i2p-0.9.24_initd, files/i2p-0.9.25-initd, files/i2p.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

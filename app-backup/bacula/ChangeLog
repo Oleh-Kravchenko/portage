@@ -124,3 +124,7 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/bacula-dir.initd,
+  files/bacula-fd.initd, files/bacula-sd.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

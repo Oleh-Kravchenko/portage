@@ -174,3 +174,8 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/puppet.init,
+  files/puppet.init-4.x, files/puppet.init-r1, files/puppetmaster.init,
+  files/puppetmaster.init-4.x, files/puppetmaster.init-r1:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

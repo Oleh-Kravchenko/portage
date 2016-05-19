@@ -629,3 +629,7 @@
   headers so we don't have to worry about stable breakage anymore.  This
   fix is already in upstream & unstable versions.
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/qemu-binfmt.initd-r1:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

@@ -104,3 +104,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/irqbalance.init-0.55-r2, files/irqbalance.init.2,
+  files/irqbalance.init.3:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

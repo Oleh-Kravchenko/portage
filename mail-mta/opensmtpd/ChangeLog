@@ -130,3 +130,6 @@
   -opensmtpd-5.7.3_p2-r1.ebuild, +opensmtpd-5.7.3_p2-r2.ebuild:
   do not crash with libressl
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/smtpd.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

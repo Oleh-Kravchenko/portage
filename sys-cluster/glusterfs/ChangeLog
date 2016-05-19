@@ -129,3 +129,8 @@
 
   Package-Manager: portage-2.2.26
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/glusterd-r1.initd,
+  files/glusterd-r2.initd, files/glusterd.initd, files/glusterfs-r1.initd,
+  files/glusterfs.initd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

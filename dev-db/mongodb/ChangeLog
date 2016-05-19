@@ -254,3 +254,8 @@
 
   Package-Manager: portage-2.2.27
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/mms-agent.initd,
+  files/mms-agent.initd-r1, files/mms-agent.initd-r2, files/mongodb.initd-r2,
+  files/mongos.initd-r1, files/mongos.initd-r2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

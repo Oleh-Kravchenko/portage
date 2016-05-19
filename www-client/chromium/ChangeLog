@@ -1037,3 +1037,11 @@
 
   Package-Manager: portage-2.2.26
 
+*chromium-51.0.2704.47 (18 May 2016)
+
+  18 May 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-51.0.2704.47.ebuild:
+  beta channel bump (51.0.2704.47)
+
+  Package-Manager: portage-2.2.28_p107_p556624
+

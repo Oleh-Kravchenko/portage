@@ -79,3 +79,7 @@
 
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/freenet,
+  files/freenet.old:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

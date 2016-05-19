@@ -393,3 +393,6 @@
 
   RepoMan-Options: --ignore-arches
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/nscd:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

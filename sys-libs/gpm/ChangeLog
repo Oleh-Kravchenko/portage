@@ -105,3 +105,6 @@
   should call gen_usr_ldscript.  Since that logic always makes sense, add
   it directly to the gen_usr_ldscript function.
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/gpm.rc6-2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

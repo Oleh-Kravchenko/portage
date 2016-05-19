@@ -178,3 +178,6 @@
   07 Mar 2016; Mike Frysinger <vapier@gentoo.org> pciutils-3.4.1.ebuild:
   enable LFS support #471102
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/init.d-pciparm:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

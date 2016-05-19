@@ -106,3 +106,7 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/atd.confd,
+  files/atd.rc7:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

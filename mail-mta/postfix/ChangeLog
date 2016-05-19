@@ -373,3 +373,6 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/postfix.rc6.2.7:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

@@ -177,3 +177,13 @@
 
   Closes: https://github.com/gentoo/gentoo/pull/1373
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/connman.initd2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+
+  18 May 2016; Sam Jorna <wraeth@gentoo.org> files/connman-1.31-xtables.patch:
+  Update xtables patch for kernel versions >= 4.6.0
+
+  Gentoo-bug: 583402
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Sam Jorna <wraeth@gentoo.org>
+

@@ -84,3 +84,8 @@
 
   Package-Manager: portage-2.2.28
 
+  18 May 2016; Fabian Groffen <grobian@gentoo.org> rb-inotify-0.9.7.ebuild:
+  marked ~amd64-linux
+
+  Package-Manager: portage-2.2.28
+

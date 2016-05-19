@@ -115,3 +115,6 @@
   19 Mar 2016; Mike Frysinger <vapier@gentoo.org> +dropbear-2016.73.ebuild:
   version bump to 2016.73
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/dropbear.init.d:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

@@ -258,3 +258,13 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/openvpn-2.1.init,
+  files/openvpn.init:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+
+  18 May 2016; Jeroen Roovers <jer@gentoo.org> openvpn-2.3.11.ebuild:
+  Stable for HPPA (bug #582902).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

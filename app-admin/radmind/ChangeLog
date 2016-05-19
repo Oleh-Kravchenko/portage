@@ -87,3 +87,7 @@
   17 May 2016; Austin English <wizardedit@gentoo.org> metadata.xml:
   add missing maintainer-needed
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/radmind-1.7.0-gentoo.patch:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

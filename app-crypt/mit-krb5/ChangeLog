@@ -278,3 +278,8 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --include-arches="arm"
 
+  18 May 2016; Austin English <wizardedit@gentoo.org>
+  files/mit-krb5kadmind.initd-r2, files/mit-krb5kdc.initd-r2,
+  files/mit-krb5kpropd.initd-r2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

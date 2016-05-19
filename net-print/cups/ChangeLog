@@ -214,3 +214,6 @@
   Closes: https://github.com/gentoo/gentoo/pull/1466
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/cupsd.init.d-r1:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

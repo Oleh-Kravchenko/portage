@@ -177,3 +177,7 @@
   +files/cryptsetup-1.7.1-sysmacros.patch:
   fix build w/newer glibc #580228
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/1.5.1-dmcrypt.rc,
+  files/1.6.7-dmcrypt.rc:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+

@@ -148,3 +148,6 @@
   gpsd-3.15.ebuild, gpsd-3.16.ebuild:
   fix parallel build #577432
 
+  18 May 2016; Austin English <wizardedit@gentoo.org> files/gpsd.init-2:
+  use #!/sbin/openrc-run instead of #!/sbin/runscript
+
