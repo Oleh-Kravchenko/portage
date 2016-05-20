@@ -12,3 +12,9 @@
 
   Package-Manager: portage-2.2.28
 
+  19 May 2016; Mikle Kolyada <zlogene@gentoo.org>
+  kactivities-workspace-5.5.0.ebuild:
+  amd64 stable wrt bug #580248
+
+  Package-Manager: portage-2.2.28
+

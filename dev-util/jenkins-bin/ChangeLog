@@ -483,3 +483,9 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/jenkins-bin.init2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  19 May 2016; Fabian Groffen <grobian@gentoo.org> jenkins-bin-1.656.ebuild,
+  jenkins-bin-2.3.ebuild:
+  marked ~amd64-linux
+
+  Package-Manager: portage-2.2.28
+

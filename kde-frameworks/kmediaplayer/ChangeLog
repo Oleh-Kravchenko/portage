@@ -196,3 +196,13 @@
 
   Package-Manager: portage-2.2.28
 
+  19 May 2016; Mikle Kolyada <zlogene@gentoo.org> kmediaplayer-5.21.0.ebuild:
+  kde-frameworks: amd64 stable wrt bug #580248 (5.21 series)
+
+  Package-Manager: portage-2.2.28
+
+  19 May 2016; Johannes Huber <johu@gentoo.org> -kmediaplayer-5.18.0.ebuild:
+  kde-frameworks: Remove KDE Frameworks 5.18.0
+
+  Package-Manager: portage-2.3.0_rc1
+

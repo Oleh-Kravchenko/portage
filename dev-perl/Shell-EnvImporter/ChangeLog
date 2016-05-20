@@ -73,3 +73,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  19 May 2016; Markus Meier <maekke@gentoo.org>
+  Shell-EnvImporter-1.70.0-r2.ebuild:
+  arm stable, bug #581886
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

@@ -243,3 +243,12 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --include-arches="arm"
 
+*iproute2-4.6.0 (19 May 2016)
+
+  19 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/iproute2-4.5.0-no-iptables.patch, +iproute2-4.6.0.ebuild:
+  Bump to version 4.6.0
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

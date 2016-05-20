@@ -78,3 +78,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*strigi-0.7.8-r2 (19 May 2016)
+
+  19 May 2016; Johannes Huber <johu@gentoo.org>
+  files/strigi-0.7.8-gcc-4.8.patch, +files/strigi-0.7.8-gcc6.patch,
+  +strigi-0.7.8-r2.ebuild:
+  Fix build with gcc-6
+
+  Revision bump adds patch by Peter Levine <plevine457@gmail.com> to fix build
+  with gcc-6.
+
+  Gentoo-bug: 583030
+  Thanks-to: Peter Levine <plevine457@gmail.com>
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -326,3 +326,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  19 May 2016; Johannes Huber <johu@gentoo.org>
+  plasma-desktop-5.5.5-r1.ebuild:
+  5.5.5-r1 amd64 stable
+
+  Gentoo-bug: 580248
+
+  Package-Manager: portage-2.3.0_rc1
+
+  19 May 2016; Johannes Huber <johu@gentoo.org> -plasma-desktop-5.5.5.ebuild:
+  Remove 5.5.5
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -283,3 +283,8 @@
   files/i2pd-2.5.1.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*i2pd-2.7.0 (19 May 2016)
+
+  19 May 2016; Anthony G. Basile <blueness@gentoo.org> +i2pd-2.7.0.ebuild:
+  version bump 2.7.0
+

@@ -191,3 +191,16 @@
   automake-1.15-r2.ebuild, automake-9999.ebuild:
   rework --docdir flag for automatic prefix support #582734
 
+  19 May 2016; Benda Xu <heroxbd@gentoo.org> automake-1.11.6-r1.ebuild,
+  automake-1.11.6-r2.ebuild, automake-1.12.6.ebuild,
+  automake-1.12.6-r1.ebuild, automake-1.13.4.ebuild,
+  automake-1.13.4-r1.ebuild, automake-1.14.1.ebuild,
+  automake-1.14.1-r1.ebuild, automake-1.15.ebuild, automake-1.15-r1.ebuild,
+  automake-1.15-r2.ebuild:
+  bump to EAPI5. Rework APIVERSION and pkgvdatadir.
+    Patch configure to leverage defaults of src_compile and src_install.
+    pkgvdatadir now implicitly respects EPREFIX.
+  Bug: 582734
+
+  Package-Manager: portage-2.2.28
+

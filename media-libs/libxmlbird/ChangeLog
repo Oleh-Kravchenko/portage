@@ -10,3 +10,10 @@
   +libxmlbird-1.2.0.ebuild, +metadata.xml:
   new package
 
+  18 May 2016; Mike Frysinger <vapier@gentoo.org>
+  -files/libxmlbird-1.2.0-verbose.patch, libxmlbird-1.2.0.ebuild:
+  media-gfx/birdfont: switch to doit
+
+  Use the system version of doit so we can get parallel build support.
+  The tiny bundled wrapper can only build serially.
+

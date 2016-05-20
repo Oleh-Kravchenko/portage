@@ -105,3 +105,9 @@
 
   Package-Manager: portage-2.2.26
 
+  19 May 2016; José María Alonso Josa <nimiux@gentoo.org>
+  -tripwire-2.4.2.2-r3.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.28
+

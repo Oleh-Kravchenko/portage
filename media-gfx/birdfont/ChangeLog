@@ -14,3 +14,10 @@
   +birdfont-2.15.5.ebuild, +files/birdfont-2.15.5-configure-valac.patch:
   version bump to 2.15.5
 
+  18 May 2016; Mike Frysinger <vapier@gentoo.org> birdfont-2.15.5.ebuild,
+  -files/birdfont-2.5.1-verbose.patch:
+  media-libs/libxmlbird & media-gfx/birdfont: switch to doit
+
+  Use the system version of doit so we can get parallel build support.
+  The tiny bundled wrapper can only build serially.
+

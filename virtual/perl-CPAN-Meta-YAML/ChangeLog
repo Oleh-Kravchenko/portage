@@ -73,3 +73,9 @@
   RepoMan-Options: --include-arches="alpha amd64 amd64-fbsd arm arm64 hppa
   ia64 m68k mips nios2 ppc ppc64 riscv s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
+  19 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  perl-CPAN-Meta-YAML-0.18.0.ebuild:
+  remove accidentally added stable keywords
+
+  Package-Manager: portage-2.2.28
+

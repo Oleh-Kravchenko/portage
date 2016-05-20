@@ -150,3 +150,15 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/lxc.initd.3:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*lxc-2.0.1 (19 May 2016)
+
+  19 May 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxc-2.0.1-bash-completion.patch,
+  +files/lxc-2.0.1-omit-sysconfig.patch, +files/lxc.initd.4,
+  +files/lxc_at.service.3, +lxc-2.0.1.ebuild:
+  version bump to 2.0.1
+
+  Gentoo-bug: 558854, 575352, 580864, 582018
+
+  Package-Manager: portage-2.2.28
+

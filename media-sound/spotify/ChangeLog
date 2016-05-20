@@ -252,3 +252,9 @@
 
   Package-Manager: portage-2.2.26
 
+*spotify-1.0.29 (19 May 2016)
+
+  19 May 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -spotify-1.0.28.ebuild, +spotify-1.0.29.ebuild:
+  upadte for new release
+

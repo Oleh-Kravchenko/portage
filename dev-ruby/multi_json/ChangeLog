@@ -108,3 +108,10 @@
 
   Package-Manager: portage-2.2.26
 
+*multi_json-1.12.1 (19 May 2016)
+
+  19 May 2016; Hans de Graaff <graaff@gentoo.org> +multi_json-1.12.1.ebuild:
+  add 1.12.1
+
+  Package-Manager: portage-2.2.28
+

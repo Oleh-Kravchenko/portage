@@ -247,3 +247,15 @@
 
   Package-Manager: portage-2.2.26
 
+  19 May 2016; Jeroen Roovers <jer@gentoo.org> curl-7.49.0.ebuild:
+  Stable for PPC64 (bug #583394).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+  19 May 2016; Jeroen Roovers <jer@gentoo.org> curl-7.49.0.ebuild:
+  Stable for HPPA (bug #583394).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
