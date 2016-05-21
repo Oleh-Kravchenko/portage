@@ -163,3 +163,11 @@
   files/uwsgi.initd-r5, files/uwsgi.initd-r6, files/uwsgi.initd-r7:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*uwsgi-2.0.13.1-r1 (20 May 2016)
+
+  20 May 2016; Ultrabug <ultrabug@gentoo.org> files/uwsgi.initd-r7,
+  -uwsgi-2.0.13.1.ebuild, +uwsgi-2.0.13.1-r1.ebuild:
+  revbump, fix default values on init script
+
+  Package-Manager: portage-2.2.27
+

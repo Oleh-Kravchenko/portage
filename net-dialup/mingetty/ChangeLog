@@ -118,3 +118,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org> mingetty-1.08-r1.ebuild:
+  1.08-r1: add alpha keyword
+
+  Gentoo-Bug: 339338
+
+  Package-Manager: portage-2.3.0_rc1
+

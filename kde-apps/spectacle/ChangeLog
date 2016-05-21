@@ -44,3 +44,21 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*spectacle-16.04.1-r1 (20 May 2016)
+
+  20 May 2016; Johannes Huber <johu@gentoo.org>
+  +files/spectacle-16.04.1-hotkeys.patch, +spectacle-16.04.1-r1.ebuild:
+  Fix hotkeys
+
+  Revision bump adds upstream patch to fix hotkeys, caused by invalid hotkeys
+  version specification.
+
+  Gentoo-bug: 581292
+
+  Package-Manager: portage-2.3.0_rc1
+
+  20 May 2016; Johannes Huber <johu@gentoo.org> -spectacle-16.04.1.ebuild:
+  Remove 16.04.1 (r0)
+
+  Package-Manager: portage-2.3.0_rc1
+

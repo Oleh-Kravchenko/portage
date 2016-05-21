@@ -339,3 +339,12 @@
   files/lxd-2.0.0_beta4.initd, files/lxd-2.0.0_rc2.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*lxd-2.0.1 (20 May 2016)
+
+  20 May 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxd-2.0.1-dont-go-get.patch, +files/lxd-2.0.1.confd,
+  +files/lxd-2.0.1.initd, +lxd-2.0.1.ebuild:
+  Version bump to 2.0.1
+
+  Package-Manager: portage-2.2.28
+

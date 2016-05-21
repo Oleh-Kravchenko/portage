@@ -168,3 +168,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  20 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  rb_libtorrent-1.0.9-r1.ebuild:
+  fix miscellaneous issues
+
+  Gentoo-Bug: https://bugs.gentoo.org/581274
+  Closes: https://github.com/gentoo/gentoo/pull/1394
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

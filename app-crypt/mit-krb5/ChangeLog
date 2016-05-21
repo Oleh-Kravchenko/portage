@@ -283,3 +283,10 @@
   files/mit-krb5kpropd.initd-r2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org> mit-krb5-1.14.2.ebuild:
+  1.14.2-r0: add alpha keyword
+
+  Gentoo-Bug: 577930
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -78,3 +78,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*echoping-6.0.2_p434-r2 (20 May 2016)
+
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> +echoping-6.0.2_p434-r2.ebuild,
+  +files/echoping-6.0.2_p434-gnutls_certificate_type_set_priority.patch,
+  +files/echoping-6.0.2_p434-gnutls_session.patch:
+  Fix building with >net-libs/gnutls-3.3 (bug #546864).
+
+  Package-Manager: portage-2.3.0_rc1
+
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> -echoping-6.0.2_p434-r1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

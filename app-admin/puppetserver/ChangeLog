@@ -188,3 +188,11 @@
   files/puppetserver.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*puppetserver-2.4.0 (20 May 2016)
+
+  20 May 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +puppetserver-2.4.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

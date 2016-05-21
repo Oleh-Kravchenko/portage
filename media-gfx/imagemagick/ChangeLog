@@ -188,3 +188,17 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> imagemagick-6.9.4.1.ebuild:
+  Stable for HPPA PPC64 (bug #581990).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  imagemagick-6.9.4.1.ebuild:
+  6.9.4.1-r0: add alpha keyword
+
+  Gentoo-Bug: 581990
+
+  Package-Manager: portage-2.3.0_rc1
+

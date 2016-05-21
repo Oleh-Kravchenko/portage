@@ -144,3 +144,9 @@
 
   Package-Manager: portage-2.2.28
 
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> -fbida-2.10-r1.ebuild,
+  -fbida-2.11.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

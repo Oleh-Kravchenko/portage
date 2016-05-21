@@ -259,3 +259,25 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  20 May 2016; José María Alonso Josa <nimiux@gentoo.org> lftp-4.7.1.ebuild:
+  amd64 stable wrt bug #582980
+
+  Package-Manager: portage-2.2.28
+
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> files/lftp-4.7.0-gettext.patch:
+  Clean up patch.
+
+  Package-Manager: portage-2.3.0_rc1
+
+*lftp-4.7.2 (20 May 2016)
+
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> +lftp-4.7.2.ebuild:
+  Version bump by Lars Wendler (Polynomial-C) (bug #583562).
+
+  Package-Manager: portage-2.3.0_rc1
+
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> -lftp-4.7.0.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

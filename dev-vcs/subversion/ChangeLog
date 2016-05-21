@@ -246,3 +246,11 @@
   files/svnserve.initd3:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  subversion-1.8.16.ebuild:
+  1.8.16-r0: add alpha keyword
+
+  Gentoo-Bug: 581448
+
+  Package-Manager: portage-2.3.0_rc1
+

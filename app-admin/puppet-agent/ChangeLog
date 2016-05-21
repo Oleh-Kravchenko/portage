@@ -274,3 +274,11 @@
   files/puppet.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*puppet-agent-1.5.0 (20 May 2016)
+
+  20 May 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +puppet-agent-1.5.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

@@ -274,3 +274,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org> openvpn-2.3.11.ebuild:
+  2.3.11-r0: add alpha keyword
+
+  Gentoo-Bug: 582902
+
+  Package-Manager: portage-2.3.0_rc1
+

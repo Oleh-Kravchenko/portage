@@ -63,3 +63,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*endless-sky-0.9.0 (20 May 2016)
+
+  20 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  +endless-sky-0.9.0.ebuild:
+  version bump 0.9.0
+
+  no changes needed due to upstream; added gnome2 icon funcs
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1493
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

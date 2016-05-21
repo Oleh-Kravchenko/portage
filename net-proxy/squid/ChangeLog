@@ -271,3 +271,10 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/squid.initd-r4:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org> squid-3.5.17.ebuild:
+  3.5.17-r0: add alpha keyword
+
+  Gentoo-Bug: 580656
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -109,3 +109,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  20 May 2016; Johannes Huber <johu@gentoo.org>
+  kdegraphics-meta-15.08.3.ebuild:
+  kde-apps: Meta pkgs EAPI 6 bump
+
+  These are the last consumers of kde5*eclass.
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -115,3 +115,10 @@
   files/rabbitmq-server.init-r3:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*rabbitmq-server-3.6.2 (20 May 2016)
+
+  20 May 2016; Ultrabug <ultrabug@gentoo.org> +rabbitmq-server-3.6.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

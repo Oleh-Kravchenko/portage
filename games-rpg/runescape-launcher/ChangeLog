@@ -1,0 +1,18 @@
+# ChangeLog for games-rpg/runescape-launcher
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*runescape-launcher-2.2.2 (20 May 2016)
+
+  20 May 2016; Ian Delaney <idella4@gentoo.org> +metadata.xml,
+  +runescape-launcher-2.2.2.ebuild:
+  new ebuild, (binary) initial vn. 2.2.2
+
+  To be maintained by user Jack Coulter under the Proxy Maintainers Project
+  initial ebuild supplied as attachment via the gentoo bug.
+  This package required a new license, added under the group 'EULA'
+
+  Gnetoo-bug: #580486
+
+  Package-Manager: portage-2.3.0_rc1
+

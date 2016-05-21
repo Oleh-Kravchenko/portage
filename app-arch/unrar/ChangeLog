@@ -198,3 +198,9 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> unrar-5.3.11.ebuild:
+  Stable for HPPA (bug #576406).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

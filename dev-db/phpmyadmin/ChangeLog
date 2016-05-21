@@ -424,3 +424,27 @@
   Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
   <jmbsvicetto@gentoo.org>
 
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  phpmyadmin-4.0.10.15.ebuild:
+  4.0.10.15-r0: add alpha keyword
+
+  Gentoo-Bug: 576136
+
+  Package-Manager: portage-2.3.0_rc1
+
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  phpmyadmin-4.4.15.5.ebuild:
+  4.4.15.5-r0: add alpha keyword
+
+  Gentoo-Bug: 576136
+
+  Package-Manager: portage-2.3.0_rc1
+
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  phpmyadmin-4.5.5.1.ebuild:
+  4.5.5.1-r0: add alpha keyword
+
+  Gentoo-Bug: 576136
+
+  Package-Manager: portage-2.3.0_rc1
+

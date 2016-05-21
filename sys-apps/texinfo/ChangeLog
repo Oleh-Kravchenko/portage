@@ -136,3 +136,10 @@
 
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  20 May 2016; Lars Wendler <polynomial-c@gentoo.org> texinfo-6.0.ebuild,
+  texinfo-6.1.ebuild:
+  Added perl subslot dependency.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

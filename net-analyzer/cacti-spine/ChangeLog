@@ -115,3 +115,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> -cacti-spine-0.8.8f.ebuild,
+  -cacti-spine-0.8.8g.ebuild, -files/cacti-spine-0.8.8f-fix-ac-macro.patch,
+  -files/cacti-spine-0.8.8g-fix-ac-macro.patch,
+  -files/cacti-spine-0.8.8g-parallel-make.patch:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

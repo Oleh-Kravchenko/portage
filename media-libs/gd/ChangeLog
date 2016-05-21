@@ -195,3 +195,20 @@
 
   Package-Manager: portage-2.2.27
 
+*gd-2.2.0 (20 May 2016)
+
+  20 May 2016; Mike Frysinger <vapier@gentoo.org> +gd-2.2.0.ebuild:
+  version bump to 2.2.0
+
+  20 May 2016; Lars Wendler <polynomial-c@gentoo.org> gd-2.2.0.ebuild:
+  Fixed SRC_URI (bug #583548) and EAPI-6 bump.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+*gd-2.2.1 (20 May 2016)
+
+  20 May 2016; Mike Frysinger <vapier@gentoo.org> -gd-2.2.0.ebuild,
+  +gd-2.2.1.ebuild:
+  version bump to 2.2.1
+

@@ -16,3 +16,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*kdebindings-meta-4.14.3 (20 May 2016)
+
+  20 May 2016; Johannes Huber <johu@gentoo.org>
+  +kdebindings-meta-4.14.3.ebuild:
+  kde-base/kdebindings-meta -> kde-apps/kdebindings-meta
+
+  20 May 2016; Johannes Huber <johu@gentoo.org>
+  -kdebindings-meta-16.04.49.9999.ebuild, -kdebindings-meta-9999.ebuild:
+  Drop live
+
+  Was accidentally imported from kde overlay.
+
+  Package-Manager: portage-2.3.0_rc1
+

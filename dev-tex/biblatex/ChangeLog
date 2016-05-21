@@ -100,3 +100,10 @@
 
   Package-Manager: portage-2.2.28
 
+*biblatex-3.4 (20 May 2016)
+
+  20 May 2016; Manuel Rüger <mrueg@gentoo.org> +biblatex-3.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

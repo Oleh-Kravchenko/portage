@@ -156,3 +156,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> -cacti-0.8.8e.ebuild,
+  -cacti-0.8.8f.ebuild, -cacti-0.8.8g.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

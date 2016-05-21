@@ -1,0 +1,13 @@
+# ChangeLog for app-crypt/certbot
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*certbot-9999 (20 May 2016)
+*certbot-0.6.0 (20 May 2016)
+
+  20 May 2016; Manuel Rüger <mrueg@gentoo.org> +certbot-0.6.0.ebuild,
+  +certbot-9999.ebuild, +metadata.xml:
+  Move package from app-crypt/letsencrypt
+
+  Package-Manager: portage-2.2.28
+

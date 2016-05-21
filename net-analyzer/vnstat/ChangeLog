@@ -105,3 +105,9 @@
   files/vnstatd.initd-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  20 May 2016; Jeroen Roovers <jer@gentoo.org> vnstat-1.15.ebuild:
+  Stable for PPC64 (bug #579264).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

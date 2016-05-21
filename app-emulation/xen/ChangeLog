@@ -450,3 +450,15 @@
 
   Package-Manager: portage-2.2.28
 
+*xen-4.6.1-r2 (20 May 2016)
+
+  20 May 2016; Ian Delaney <idella4@gentoo.org> +xen-4.6.1-r2.ebuild:
+  revbump to 4.6.1-r2
+
+  Add sec patch xsa-176 patch, re security bug
+  Holding off revbump to 4.6.0, considering also purging
+
+  Gentoo-bug: #583462
+
+  Package-Manager: portage-2.2.28
+

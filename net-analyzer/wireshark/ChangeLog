@@ -533,3 +533,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org> wireshark-2.0.3.ebuild:
+  2.0.3-r0: add alpha keyword
+
+  Gentoo-Bug: 580882
+
+  Package-Manager: portage-2.3.0_rc1
+
