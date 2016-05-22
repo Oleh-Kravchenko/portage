@@ -182,3 +182,11 @@
   files/snmptrapd.init.2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*net-snmp-5.7.3-r5 (21 May 2016)
+
+  21 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +net-snmp-5.7.3-r5.ebuild:
+  Add revbump with fixes for Perl 5.24, bug 582368
+
+  Package-Manager: portage-2.3.0_rc1
+

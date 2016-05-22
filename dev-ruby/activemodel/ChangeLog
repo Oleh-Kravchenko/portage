@@ -193,3 +193,11 @@
 
   Package-Manager: portage-2.2.28
 
+  21 May 2016; Hans de Graaff <graaff@gentoo.org>
+  -activemodel-3.2.22.1.ebuild, -activemodel-4.1.14.1.ebuild,
+  -activemodel-4.1.14.2.ebuild, -activemodel-4.2.5.1.ebuild,
+  -activemodel-4.2.5.2.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

@@ -94,3 +94,9 @@
   arm arm64 hppa ia64 m68k mips nios2 ppc ppc64 riscv s390 sh sparc sparc-fbsd
   x86 x86-fbsd"
 
+  20 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Test-Deep-0.115.0-r1.ebuild, -Test-Deep-0.117.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+

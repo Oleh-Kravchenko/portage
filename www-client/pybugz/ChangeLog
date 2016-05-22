@@ -143,3 +143,8 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 May 2016; William Hubbs <williamh@gentoo.org> -pybugz-0.11.1.ebuild:
+  remove old version
+
+  Package-Manager: portage-2.2.28
+

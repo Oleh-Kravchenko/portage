@@ -23,3 +23,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 May 2016; Markus Meier <maekke@gentoo.org> String-CRC32-1.500.0.ebuild:
+  arm stable, bug #582122
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

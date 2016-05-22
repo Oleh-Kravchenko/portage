@@ -162,3 +162,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  21 May 2016; Tobias Klausmann <klausman@gentoo.org> cacti-0.8.8h.ebuild:
+  0.8.8h-r0: add alpha keyword
+
+  Gentoo-Bug: 582996
+
+  Package-Manager: portage-2.3.0_rc1
+

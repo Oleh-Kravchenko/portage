@@ -259,3 +259,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  21 May 2016; Tobias Klausmann <klausman@gentoo.org> curl-7.49.0.ebuild:
+  7.49.0-r0: add alpha keyword
+
+  Gentoo-Bug: 583394
+
+  Package-Manager: portage-2.3.0_rc1
+

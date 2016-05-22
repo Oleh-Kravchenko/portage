@@ -94,3 +94,9 @@
 
   Package-Manager: portage-2.2.26
 
+  21 May 2016; Markus Meier <maekke@gentoo.org> rebar-2.6.1.ebuild:
+  add ~arm, bug #583012
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

@@ -1310,3 +1310,17 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  21 May 2016; Tobias Klausmann <klausman@gentoo.org> php-5.5.35.ebuild:
+  5.5.35-r0: add alpha keyword
+
+  Gentoo-Bug: 581834
+
+  Package-Manager: portage-2.3.0_rc1
+
+  21 May 2016; Tobias Klausmann <klausman@gentoo.org> php-5.6.21.ebuild:
+  5.6.21-r0: add alpha keyword
+
+  Gentoo-Bug: 581834
+
+  Package-Manager: portage-2.3.0_rc1
+

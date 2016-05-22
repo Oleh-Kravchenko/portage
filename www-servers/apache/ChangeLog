@@ -238,3 +238,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  21 May 2016; Tobias Klausmann <klausman@gentoo.org> apache-2.4.20.ebuild:
+  2.4.20-r0: add alpha keyword
+
+  Gentoo-Bug: 583276
+
+  Package-Manager: portage-2.3.0_rc1
+

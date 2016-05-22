@@ -99,3 +99,16 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/cyrus.rc6:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*cyrus-imapd-2.5.8 (21 May 2016)
+
+  21 May 2016; Eray Aslan <eras@gentoo.org> +cyrus-imapd-2.5.8.ebuild:
+  version bump to cyrus-imapd-2.5.8
+
+  Package-Manager: portage-2.3.0_rc1
+
+  21 May 2016; Eray Aslan <eras@gentoo.org> -cyrus-imapd-2.5.4.ebuild,
+  -cyrus-imapd-2.5.5.ebuild, -cyrus-imapd-2.5.6.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

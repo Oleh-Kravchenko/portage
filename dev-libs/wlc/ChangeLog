@@ -26,3 +26,13 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  21 May 2016; Ian Delaney <idella4@gentoo.org> wlc-9999.ebuild:
+  use new X configure option in live ebuild
+
+  Upstream changed the way how to configure X11 support.
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1499
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

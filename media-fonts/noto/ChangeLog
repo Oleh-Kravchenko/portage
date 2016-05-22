@@ -90,3 +90,14 @@
 
   Package-Manager: portage-2.2.28
 
+  21 May 2016; Markus Meier <maekke@gentoo.org> noto-20160305-r1.ebuild:
+  arm stable, bug #582142
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+
+  21 May 2016; Pacho Ramos <pacho@gentoo.org> noto-20160305-r1.ebuild:
+  amd64/x86 stable, bug #582142
+
+  Package-Manager: portage-2.2.28
+

@@ -495,3 +495,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  21 May 2016; Tobias Klausmann <klausman@gentoo.org> mariadb-10.0.25.ebuild:
+  10.0.25-r0: add alpha keyword
+
+  Gentoo-Bug: 580834
+
+  Package-Manager: portage-2.3.0_rc1
+

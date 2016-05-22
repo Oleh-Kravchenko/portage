@@ -23,3 +23,11 @@
   Reported-by: Coacher <itumaykin+gentoo@gmail.com>
   Package-Manager: portage-2.3.0_rc1
 
+  21 May 2016; Sam Jorna <wraeth@gentoo.org> go-ipfs-bin-0.4.1.ebuild:
+  fix unconditional source download
+
+  amd64 source was being downloaded unconditionally, potentially causing
+  filename conflicts during unpack on x86.
+
+  Package-Manager: portage-2.3.0_rc1
+

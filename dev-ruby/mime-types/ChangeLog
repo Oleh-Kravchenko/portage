@@ -145,3 +145,8 @@
 
   Package-Manager: portage-2.2.28
 
+  21 May 2016; Fabian Groffen <grobian@gentoo.org> mime-types-3.0-r1.ebuild:
+  added Prefix keywords, bug #583470
+
+  Package-Manager: portage-2.2.28
+

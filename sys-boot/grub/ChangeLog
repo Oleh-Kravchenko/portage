@@ -307,3 +307,9 @@
 
   Package-Manager: portage-2.2.28_p79
 
+  21 May 2016; Magnus Granberg <zorry@gentoo.org>
+  +files/2.02_beta3-gcc6-ld-no-pie.patch, grub-2.02_beta3-r1.ebuild:
+  2.02_beta3 Add fix for gcc-6.1.0[pie] #583042
+
+  Package-Manager: portage-2.2.27
+
