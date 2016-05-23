@@ -207,3 +207,18 @@
 
   Package-Manager: portage-2.2.28
 
+*pciutils-3.5.1 (22 May 2016)
+
+  22 May 2016; Lars Wendler <polynomial-c@gentoo.org> +pciutils-3.5.1.ebuild:
+  Bump to version 3.5.1
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  22 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/pciutils-3.5.0-expose-pci_init_v30.patch, -pciutils-3.5.0-r1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

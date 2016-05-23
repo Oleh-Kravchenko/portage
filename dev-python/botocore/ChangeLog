@@ -289,3 +289,22 @@
 
   This reverts commit 8c1a0035e5ba6826698006ba4145e82fe1ca5782.
 
+*botocore-1.4.19 (22 May 2016)
+
+  22 May 2016; Alex Brandt <alunduil@gentoo.org> +botocore-1.4.19.ebuild:
+  add version 1.4.19
+
+  Package-Manager: portage-2.3.0_rc1
+
+  22 May 2016; Alex Brandt <alunduil@gentoo.org> -botocore-1.4.10.ebuild:
+  remove version 1.4.10
+
+  Package-Manager: portage-2.3.0_rc1
+
+*botocore-1.4.10 (22 May 2016)
+
+  22 May 2016; Alex Brandt <alunduil@gentoo.org> +botocore-1.4.10.ebuild:
+  Revert "dev-python/botocore: remove version 1.4.10"
+
+  This reverts commit 91949109817213688aa6a95375b9e574d783337d.
+

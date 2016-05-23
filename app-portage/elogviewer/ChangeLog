@@ -136,3 +136,24 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*elogviewer-2.6-r2 (22 May 2016)
+
+  22 May 2016; Ian Delaney <idella4@gentoo.org> +elogviewer-2.6-r2.ebuild:
+  revbump to vn. 2.6-r2
+
+  Closes: https://github.com/gentoo/gentoo/pull/1360
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+  22 May 2016; Ian Delaney <idella4@gentoo.org> elogviewer-2.6-r2.ebuild:
+  2.6: update
+
+  - EAPI6
+  - readme.gentoo -> readme.gentoo-r1
+  - distutils-r1 -> python-single-r1
+  - proper src_install()
+  - minor fixes
+  Closes: https://github.com/gentoo/gentoo/pull/1360
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

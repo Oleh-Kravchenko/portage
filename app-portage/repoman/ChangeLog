@@ -18,3 +18,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*repoman-9999 (22 May 2016)
+
+  22 May 2016; Brian Dolbec <dolsen@gentoo.org> +repoman-9999.ebuild:
+  Add 9999 live ebuild
+
+  Package-Manager: portage-2.3.0_rc1
+

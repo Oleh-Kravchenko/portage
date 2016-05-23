@@ -1045,3 +1045,11 @@
 
   Package-Manager: portage-2.2.28_p107_p556624
 
+  21 May 2016; Mike Gilbert <floppym@gentoo.org>
+  chromium-50.0.2661.102.ebuild, -chromium-51.0.2704.22.ebuild,
+  chromium-51.0.2704.36.ebuild, chromium-51.0.2704.47.ebuild,
+  chromium-52.0.2716.0.ebuild, chromium-52.0.2723.2.ebuild:
+  replace es_LA with es_419
+
+  Package-Manager: portage-2.2.28_p107_p879860
+

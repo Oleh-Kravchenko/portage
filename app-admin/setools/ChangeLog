@@ -86,3 +86,21 @@
 
   Package-Manager: portage-2.2.26
 
+*setools-4.0.1 (22 May 2016)
+
+  22 May 2016; Sven Vermeulen <swift@gentoo.org>
+  +files/setools-4.0.1-remove-gui.patch, +setools-4.0.1.ebuild:
+  version bump to 4.0.1, fix deps
+
+  This bumps SETools to version 4.0.1. The main change upstream is a
+  shift in the used icons due to a potential license incompatibility.
+
+  We also remove the dependency on qtchooser (see bug 583310) as this
+  is little more than a target manager (similar to eselect). The PyQt5
+  dependency handles the necessary dependencies already.
+
+  Finally, the libsepol dependency is also bumped as this tool requires
+  libsepol-2.5.
+
+  Package-Manager: portage-2.2.28
+

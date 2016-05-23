@@ -80,3 +80,9 @@
   kde-meta-4.14.3-r1.ebuild:
   kde-base/kdebindings-meta -> kde-apps/kdebindings-meta
 
+  22 May 2016; Johannes Huber <johu@gentoo.org> kde-meta-4.14.3.ebuild,
+  kde-meta-4.14.3-r1.ebuild:
+  Drop KDE Toys for removal
+
+  Package-Manager: portage-2.3.0_rc1
+

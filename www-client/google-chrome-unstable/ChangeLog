@@ -526,3 +526,7 @@
 
   Package-Manager: portage-2.2.28_p107_p545449
 
+  21 May 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-unstable-52.0.2739.0.ebuild:
+  www-client/google-chrome: replace es_LA with es_419
+

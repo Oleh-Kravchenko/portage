@@ -77,3 +77,18 @@
 
   Package-Manager: portage-2.2.27
 
+  21 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Inline-0.500.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*Inline-0.500.0-r1 (21 May 2016)
+
+  21 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +Inline-0.500.0-r1.ebuild:
+  Revert "dev-perl/Inline: Remove old" - we still need it because of bug
+  576058 :/
+
+  This reverts commit cc0a33fe59f263ea3e661c7ca33cded8fde5c164.
+

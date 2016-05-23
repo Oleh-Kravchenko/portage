@@ -134,3 +134,12 @@
 
   Package-Manager: portage-2.2.26
 
+*libav-12_pre20160522 (22 May 2016)
+
+  22 May 2016; Luca Barbato <lu_zero@gentoo.org> +libav-12_pre20160522.ebuild:
+  Add a Libav 12 Snapshot
+
+  It is needed by recent handbrake and vlc-3.
+
+  Package-Manager: portage-2.2.26
+

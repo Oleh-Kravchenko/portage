@@ -127,3 +127,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  22 May 2016; Zac Medico <zmedico@gentoo.org> -rkt-1.1.0.ebuild,
+  -rkt-1.3.0.ebuild:
+  remove old versions
+
+  Package-Manager: portage-2.3.0_rc1
+

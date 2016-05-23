@@ -149,3 +149,8 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  22 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org> bugzilla-5.0.3.ebuild:
+  Improve perl dependencies
+
+  Package-Manager: portage-2.3.0_rc1
+

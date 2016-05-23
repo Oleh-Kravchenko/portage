@@ -203,3 +203,12 @@
 
   Package-Manager: portage-2.2.26
 
+  22 May 2016; Thomas Kahle <tomka@gentoo.org> metadata.xml,
+  tesseract-3.03_rc1.ebuild, tesseract-3.04.00-r2.ebuild,
+  tesseract-3.04.00-r4.ebuild:
+  rename linguas_jp to linguas_ja
+
+  Fixes bug 583764.
+
+  Package-Manager: portage-2.3.0_rc1
+

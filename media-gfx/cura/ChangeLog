@@ -21,3 +21,11 @@
 
   Package-Manager: portage-2.2.28
 
+  22 May 2016; Göktürk Yüksek <gokturk@gentoo.org> cura-2.1.0_beta.ebuild:
+  fix license: s/AGPL-3/APGL-3+/
+
+  From cura/CuraApplication.py:
+  "Cura is released under the terms of the AGPLv3 or higher."
+
+  Package-Manager: portage-2.2.28
+

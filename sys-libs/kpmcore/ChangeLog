@@ -51,3 +51,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*kpmcore-2.1.0-r1 (22 May 2016)
+
+  22 May 2016; Johannes Huber <johu@gentoo.org> +kpmcore-2.1.0-r1.ebuild:
+  Introduce subslot
+
+  Package-Manager: portage-2.3.0_rc1
+

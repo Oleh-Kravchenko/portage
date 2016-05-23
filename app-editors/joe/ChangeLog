@@ -97,3 +97,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  22 May 2016; Ulrich Müller <ulm@gentoo.org> -files/joe-3.5-ftyperc.patch:
+  Remove stale patch file.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  22 May 2016; Ulrich Müller <ulm@gentoo.org> joe-3.7-r2.ebuild,
+  joe-4.1.ebuild, joe-4.2.ebuild:
+  Fix LICENSE.
+
+  License is GPL version 1 or later.
+  CC-BY-3.0 is for the go.jsf syntax file.
+
+  Package-Manager: portage-2.3.0_rc1
+

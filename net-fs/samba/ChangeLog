@@ -692,3 +692,11 @@
   files/3.6/samba.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  21 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org> samba-4.2.9.ebuild,
+  samba-4.2.11.ebuild, samba-4.2.12.ebuild, samba-4.3.9.ebuild,
+  samba-4.4.3.ebuild:
+  Block dev-perl/Parse-Yapp, bug 562918. Samba upstream should fix their
+  bundling fetish.
+
+  Package-Manager: portage-2.3.0_rc1
+

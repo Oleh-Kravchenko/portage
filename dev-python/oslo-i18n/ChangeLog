@@ -148,3 +148,11 @@
 
   Package-Manager: portage-2.2.26
 
+  21 May 2016; Anthony Ryan <anthonyryan1@gmail.com> oslo-i18n-2.7.0.ebuild,
+  oslo-i18n-3.5.0.ebuild:
+  HTTPS for launchpad.net
+
+  media-sound/aacplusenc was updated to use a new URL which
+  supports HTTPS on launchpad. Hashes were verified to ensure
+  they matched up correctly.
+

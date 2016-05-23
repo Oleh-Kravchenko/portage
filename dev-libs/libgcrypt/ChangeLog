@@ -381,3 +381,22 @@
 
   Package-Manager: portage-2.2.28
 
+  22 May 2016; Jeroen Roovers <jer@gentoo.org> libgcrypt-1.5.5.ebuild:
+  Stable for HPPA (bug #575672).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+  22 May 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  -libgcrypt-1.5.4-r1.ebuild, -libgcrypt-1.5.4-r2.ebuild:
+  Cleanup of vulnerable 1.5 versions
+
+  Gentoo-Bug: 541564
+
+  --
+  the libgcrypt 1.5 branch is EOL for security fixes YE2016, applications
+  should migrate to 1.6 API within this time. Removal of 1.5 branch is
+  tracked in bug 567382
+
+  Package-Manager: portage-2.3.0_rc1
+

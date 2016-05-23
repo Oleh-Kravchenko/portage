@@ -356,3 +356,7 @@
 
   Package-Manager: portage-2.2.28_p106
 
+  21 May 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-50.0.2661.102.ebuild:
+  replace es_LA with es_419
+

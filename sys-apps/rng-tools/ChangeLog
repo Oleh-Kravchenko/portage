@@ -211,3 +211,8 @@
   files/rngd-initd-r1-4.1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  22 May 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  update maintainer email and remove proxy-maint
+
+  Package-Manager: portage-2.2.28
+

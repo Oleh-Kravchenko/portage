@@ -100,3 +100,15 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Package-DeprecationManager-0.150.0.ebuild:
+  stable for alpha/hppa/ia64/ppc64/ppc/sparc/x86 (ALLARCHES), bug 579464
+
+  Package-Manager: portage-2.3.0_rc1
+
+  21 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Package-DeprecationManager-0.130.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

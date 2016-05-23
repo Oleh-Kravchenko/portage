@@ -131,3 +131,16 @@
 
   Package-Manager: portage-2.2.27
 
+*libgpg-error-1.22 (22 May 2016)
+
+  22 May 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  +libgpg-error-1.22.ebuild:
+  Version bump to 1.22
+
+  New upstream release. Threads is mandator, removed the use flag.
+
+  Fixes;
+  Gentoo-Bug: 576850
+
+  Package-Manager: portage-2.3.0_rc1
+

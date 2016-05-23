@@ -40,3 +40,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  22 May 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  uranium-2.1.0_beta-r2.ebuild:
+  fix license: s/AGPL-3/APGL-3+/
+
+  From UM/__init__.py:
+  "Uranium is released under the terms of the AGPLv3 or higher."
+
+  Package-Manager: portage-2.2.28
+
