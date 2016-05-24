@@ -243,3 +243,21 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  23 May 2016; Ian Delaney <idella4@gentoo.org> rsyslog-8.18.0.ebuild:
+  bash syntax tidy
+
+  replace POSIX '[' with the bash '[[' in 8.18.0
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1511
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+  23 May 2016; Ian Delaney <idella4@gentoo.org> rsyslog-8.18.0.ebuild:
+  use prune_libtool_files from eutils in 8.18.0
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1511
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

@@ -109,3 +109,15 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*make-4.2-r1 (23 May 2016)
+
+  23 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/make-4.1-fix_double_colon_rules_plus_parallel_builds.patch,
+  +make-4.2-r1.ebuild:
+  Revbump to revert upstream commit for bug #583812
+
+  until a real fix is available.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

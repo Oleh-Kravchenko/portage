@@ -154,3 +154,26 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  23 May 2016; Ian Delaney <idella4@gentoo.org> bugzilla-4.4.12.ebuild,
+  bugzilla-5.0.3.ebuild:
+  Ebuild Cleanup to vns. 4.4.12, 5.0.3
+
+  Perl Verisons standardised
+  chmod changed with fperm
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1516
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+  23 May 2016; Ian Delaney <idella4@gentoo.org> bugzilla-4.4.12.ebuild,
+  bugzilla-5.0.3.ebuild:
+  Ebuild Cleanup to vns. 4.4.12, 5.0.3
+
+  Fixed type, and directory reference (rm calls of "|| die") to fperms
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1516
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+

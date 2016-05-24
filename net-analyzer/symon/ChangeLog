@@ -78,3 +78,14 @@
   files/symux-init.d:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  23 May 2016; Jeroen Roovers <jer@gentoo.org> -symon-2.86-r1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  23 May 2016; Jeroen Roovers <jer@gentoo.org>
+  -files/symon-2.86-perl-5.18.patch:
+  Old patch.
+
+  Package-Manager: portage-2.3.0_rc1
+

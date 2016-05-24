@@ -25,3 +25,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  22 May 2016; Brian Dolbec <dolsen@gentoo.org> repoman-9999.ebuild:
+  Add missed lxml dep for the 9999 ebuild
+
+  Package-Manager: portage-2.3.0_rc1
+

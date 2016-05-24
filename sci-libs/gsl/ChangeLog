@@ -103,3 +103,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  23 May 2016; Tobias Klausmann <klausman@gentoo.org> gsl-1.16.ebuild:
+  1.16-r0: add alpha keyword
+
+  Gentoo-Bug: 438768
+
+  Package-Manager: portage-2.3.0_rc1
+

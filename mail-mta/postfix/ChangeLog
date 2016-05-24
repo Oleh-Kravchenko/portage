@@ -376,3 +376,11 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/postfix.rc6.2.7:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*postfix-3.2_pre20160522 (23 May 2016)
+
+  23 May 2016; Eray Aslan <eras@gentoo.org> -postfix-3.2_pre20160515.ebuild,
+  +postfix-3.2_pre20160522.ebuild:
+  version bump to postfix-3.2_pre20160522
+
+  Package-Manager: portage-2.3.0_rc1
+

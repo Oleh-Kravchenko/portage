@@ -31,3 +31,11 @@
 
   Package-Manager: portage-2.2.26
 
+*artifactory-bin-4.8.0 (23 May 2016)
+
+  23 May 2016; Austin English <wizardedit@gentoo.org>
+  +artifactory-bin-4.8.0.ebuild:
+  version bump to 4.8.0
+
+  Package-Manager: portage-2.2.26
+

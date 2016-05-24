@@ -222,3 +222,21 @@
   -findutils-4.5.16.ebuild, -findutils-4.5.17.ebuild:
   drop some old versions
 
+*findutils-4.6.0-r1 (23 May 2016)
+
+  23 May 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/findutils-4.6.0-gnulib-S_MAGIC_NFS.patch, +findutils-4.6.0-r1.ebuild:
+  Fix abort in searching NFS filesystems (bug #580032).
+
+  Package-Manager: portage-2.3.0_rc1
+
+  23 May 2016; Jeroen Roovers <jer@gentoo.org> findutils-4.6.0-r1.ebuild:
+  Stable for everyone (bug #580032).
+
+  Package-Manager: portage-2.3.0_rc1
+
+  23 May 2016; Jeroen Roovers <jer@gentoo.org> -findutils-4.6.0.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -99,3 +99,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  23 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  python-updater-0.14.ebuild:
+  0.14-r0: add alpha keyword
+
+  Gentoo-Bug: 547328
+
+  Package-Manager: portage-2.3.0_rc1
+

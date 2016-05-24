@@ -113,3 +113,13 @@
 
   Package-Manager: portage-2.2.28
 
+  23 May 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/ntfs3g-2016.2.22-sysmacros.patch, ntfs3g-2016.2.22.ebuild:
+  fix build w/newer glibc #580136
+
+*ntfs3g-2016.2.22-r1 (23 May 2016)
+
+  23 May 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml,
+  -ntfs3g-2016.2.22.ebuild, +ntfs3g-2016.2.22-r1.ebuild:
+  move symlinks back to /usr #578336
+

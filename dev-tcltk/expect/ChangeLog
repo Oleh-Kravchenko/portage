@@ -86,3 +86,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  23 May 2016; Tobias Klausmann <klausman@gentoo.org> expect-5.45.ebuild:
+  5.45-r0: add alpha keyword
+
+  Gentoo-Bug: 511622
+
+  Package-Manager: portage-2.3.0_rc1
+

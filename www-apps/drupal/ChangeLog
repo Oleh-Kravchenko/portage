@@ -190,3 +190,19 @@
   Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
   <jmbsvicetto@gentoo.org>
 
+*drupal-8.1.1 (22 May 2016)
+*drupal-8.1.0 (22 May 2016)
+
+  22 May 2016; Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org> +drupal-8.1.0.ebuild, +drupal-8.1.1.ebuild:
+  Add 8.1.0 and 8.1.1 releases.
+
+  Signed-off-by: Jorge Manuel B. S. Vicetto (jmbsvicetto)
+  <jmbsvicetto@gentoo.org>
+
+  23 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  -drupal-8.1.0_rc1.ebuild:
+  remove 8.1.0_rc1 from the tree
+
+  Package-Manager: portage-2.2.26
+

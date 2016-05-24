@@ -335,3 +335,11 @@
 
   Package-Manager: portage-2.2.28
 
+*icinga2-2.4.10-r1 (22 May 2016)
+
+  22 May 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +files/logrotate.patch, -icinga2-2.4.10.ebuild, +icinga2-2.4.10-r1.ebuild:
+  fix bug 583298 logrotate
+
+  Package-Manager: portage-2.2.28
+

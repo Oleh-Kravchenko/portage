@@ -130,3 +130,15 @@
   +files/xfsdump-3.1.6-linguas.patch, xfsdump-3.1.6.ebuild:
   respect user $LINGUAS #561664
 
+  23 May 2016; Jeroen Roovers <jer@gentoo.org> xfsdump-3.1.6.ebuild:
+  Stable for PPC64 (bug #577652).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+  23 May 2016; Jeroen Roovers <jer@gentoo.org> xfsdump-3.1.6.ebuild:
+  Stable for HPPA (bug #577652).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
