@@ -61,3 +61,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 May 2016; Michał Górny <mgorny@gentoo.org> -zpaq-6.41.ebuild,
+  -zpaq-6.49.ebuild:
+  Clean up old
+
+*zpaq-7.13 (24 May 2016)
+
+  24 May 2016; Michał Górny <mgorny@gentoo.org> +zpaq-7.13.ebuild:
+  Bump to 7.13
+

@@ -129,3 +129,19 @@
   files/blueman-2.0-set-codeset-for-gettext-to-UTF-8-always.patch:
   Fix typo in patch for 2.0.3, #575900
 
+  24 May 2016; Michał Górny <mgorny@gentoo.org> blueman-9999.ebuild:
+  Bump the live ebuild to EAPI 6
+
+*blueman-2.0.4 (24 May 2016)
+
+  24 May 2016; Michał Górny <mgorny@gentoo.org> +blueman-2.0.4.ebuild:
+  Bump to 2.0.4
+
+  24 May 2016; Michał Górny <mgorny@gentoo.org> blueman-2.0.4.ebuild,
+  blueman-9999.ebuild:
+  Enable python3.5
+
+  24 May 2016; Michał Górny <mgorny@gentoo.org> blueman-2.0.4.ebuild,
+  blueman-9999.ebuild:
+  Shorten the description
+

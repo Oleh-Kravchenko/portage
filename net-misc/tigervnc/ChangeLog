@@ -127,3 +127,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  24 May 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Remove myself from maintainers
+
+  24 May 2016; Markus Meier <maekke@gentoo.org> tigervnc-1.4.2-r2.ebuild:
+  arm stable, bug #567324
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

@@ -285,3 +285,11 @@
   02 May 2016; Matt Turner <mattst88@gentoo.org> poppler-0.42.0.ebuild:
   alpha stable, bug 579752.
 
+*poppler-0.44.0 (24 May 2016)
+
+  24 May 2016; Johannes Huber <johu@gentoo.org> +poppler-0.44.0.ebuild,
+  poppler-9999.ebuild:
+  Version bump 0.44.0
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -266,3 +266,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  24 May 2016; Markus Meier <maekke@gentoo.org> curl-7.49.0.ebuild:
+  arm stable, bug #583394
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

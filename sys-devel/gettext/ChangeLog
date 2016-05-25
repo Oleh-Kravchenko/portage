@@ -184,3 +184,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 May 2016; Jeroen Roovers <jer@gentoo.org> gettext-0.19.7.ebuild:
+  Stable for HPPA PPC64 (bug #583834).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

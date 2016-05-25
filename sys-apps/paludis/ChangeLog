@@ -117,3 +117,6 @@
   paludis-9999.ebuild:
   Bump to 2.6.0
 
+  24 May 2016; Michał Górny <mgorny@gentoo.org> paludis-9999.ebuild:
+  Switch live git to https, #583806
+

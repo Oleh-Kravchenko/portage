@@ -115,3 +115,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  24 May 2016; Jeroen Roovers <jer@gentoo.org> cairo-1.14.6.ebuild:
+  Stable for HPPA PPC64 (bug #582144).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

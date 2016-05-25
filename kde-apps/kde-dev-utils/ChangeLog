@@ -115,3 +115,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  24 May 2016; Mikle Kolyada <zlogene@gentoo.org>
+  kde-dev-utils-15.12.3.ebuild:
+  amd64 stable wrt bug #579992
+
+  Package-Manager: portage-2.2.28
+

@@ -77,3 +77,8 @@
   17 Feb 2016; Sébastien Fabbro <bicatali@gentoo.org> -starpu-1.1.4.ebuild:
   removed old
 
+  24 May 2016; Mikle Kolyada <zlogene@gentoo.org> starpu-1.1.5.ebuild:
+  amd64 stable wrt bug #579992
+
+  Package-Manager: portage-2.2.28
+

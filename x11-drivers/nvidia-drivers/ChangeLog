@@ -704,3 +704,15 @@
   files/nvidia-persistenced.init, files/nvidia-smi.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*nvidia-drivers-367.18 (24 May 2016)
+
+  24 May 2016; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-367.18.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  24 May 2016; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-367.18.ebuild:
+  Update compatible kernel version.
+
+  Package-Manager: portage-2.3.0_rc1
+

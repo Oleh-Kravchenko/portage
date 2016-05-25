@@ -144,3 +144,9 @@
   files/clamd.initd-r5, files/clamd.initd-r6:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  23 May 2016; Thomas Raschbacher <lordvan@gentoo.org> clamav-0.99.ebuild,
+  clamav-0.99.1.ebuild, clamav-0.99.2.ebuild:
+  added note about hardblock and pcre dep
+
+  Package-Manager: portage-2.2.23
+

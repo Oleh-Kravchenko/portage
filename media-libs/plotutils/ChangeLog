@@ -73,3 +73,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  24 May 2016; Tobias Klausmann <klausman@gentoo.org> plotutils-2.6-r1.ebuild:
+  2.6-r1: add alpha keyword
+
+  Gentoo-Bug: 563956
+
+  Package-Manager: portage-2.3.0_rc1
+

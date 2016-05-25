@@ -261,3 +261,10 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  24 May 2016; Ian Delaney <idella4@gentoo.org> rsyslog-8.18.0.ebuild:
+  Revert "app-admin/rsyslog: use prune_libtool_files from eutils in 8.18.0"
+
+  This reverts commit 663fd153682eb51e2a89e87b52d9a3f25f28f742.
+  Change to use of prune_libtool_files in src_install reverted from
+  advice form a qa team member
+

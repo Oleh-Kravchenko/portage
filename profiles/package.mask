@@ -30,6 +30,22 @@
 
 #--- END OF EXAMPLES ---
 
+# Alexis Ballier <aballier@gentoo.org> (24 May 2016)
+# API change, breaks e.g. js_of_ocaml
+>=dev-ml/tyxml-4
+
+# Michał Górny <mgorny@gentoo.org> (24 May 2016)
+# No longer maintained upstream, no longer works with libzpaq-7*.
+# Masked for removal in 30 days.
+app-arch/zpipe
+
+# Sam Jorna <wraeth@gentoo.org> (24 May 2016)
+# Deprecated in favour of sci-geosciences/qmapshack.
+# See bugs 561788 and 582262
+# Masked for removal in 30 days.
+sci-geosciences/qlandkartegt
+sci-geosciences/qlandkartegt-garmindev
+
 # Göktürk Yüksek <gokturk@gentoo.org> (23 May 2016)
 # Replaced by app-admin/lastpass-binary-component.
 # Masked for removal in 30 days.
@@ -151,11 +167,6 @@ dev-lang/dmd-bin
 dev-java/charva
 dev-java/jakarta-slide-webdavclient
 dev-java/xml-im-exporter
-
-# Alex Brandt <alunduil@gentoo.org> (23 Apr 2016)
-# Contains collisions with dev-python/ipaddress.  See #580388 for more details.
-# Masked for removal in 30 days.
-dev-python/py2-ipaddress
 
 # Michael Sterrett <mr_bones_@gentoo.org> (19 Apr 2016)
 # No release in 6 years and segfaults on modern systems. (bug #311809)
@@ -279,7 +290,7 @@ dev-vcs/statcvs
 # Breaks some of its rev deps, still in beta stage
 >=dev-lang/ocaml-4.03_beta
 >=dev-ml/camlp4-4.03
->=dev-ml/ppx_tools-4.03
+>=dev-ml/ppx_tools-5.0.4.03
 >=dev-ml/labltk-8.06.1
 >=dev-ml/parmap-1.0_rc7-r1
 

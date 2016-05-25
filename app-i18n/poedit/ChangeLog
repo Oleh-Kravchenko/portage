@@ -96,3 +96,8 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Ryan Hill <rhill@gentoo.org>
 
+  24 May 2016; Pacho Ramos <pacho@gentoo.org> -poedit-1.8.3.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+

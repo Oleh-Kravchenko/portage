@@ -261,3 +261,11 @@
 
   Package-Manager: portage-2.2.26
 
+*vlc-2.2.3 (24 May 2016)
+
+  24 May 2016; Lars Wendler <polynomial-c@gentoo.org> +vlc-2.2.3.ebuild:
+  Bump to version 2.2.3 (bug #582662).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

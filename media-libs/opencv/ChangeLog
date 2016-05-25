@@ -263,3 +263,13 @@
 
   Package-Manager: portage-2.2.26
 
+  24 May 2016; Amy Winston <amynka@gentoo.org> opencv-3.1.0-r1.ebuild:
+  drop 3_2 python
+
+  Package-Manager: portage-2.2.26
+
+  24 May 2016; Amy Winston <amynka@gentoo.org> -opencv-3.1.0-r2.ebuild:
+  remove new buggy contrib
+
+  Package-Manager: portage-2.2.26
+

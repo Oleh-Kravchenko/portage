@@ -113,3 +113,10 @@
 
   Package-Manager: portage-2.2.26
 
+*hiera-3.2.0 (24 May 2016)
+
+  24 May 2016; Hans de Graaff <graaff@gentoo.org> +hiera-3.2.0.ebuild:
+  add 3.2.0
+
+  Package-Manager: portage-2.2.28
+

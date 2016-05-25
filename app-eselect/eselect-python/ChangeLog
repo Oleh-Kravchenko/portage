@@ -176,3 +176,10 @@
   -eselect-python-20140125.ebuild:
   Remove old ~arch versions
 
+  24 May 2016; Markus Meier <maekke@gentoo.org>
+  eselect-python-20140125-r1.ebuild:
+  arm stable, bug #575948
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

@@ -1443,3 +1443,18 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+*gentoo-sources-3.12.60 (24 May 2016)
+
+  24 May 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.12.60.ebuild:
+  Linux patch 3.12.60
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-4.1.25 (24 May 2016)
+
+  24 May 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.1.25.ebuild:
+  Linux patch 4.1.25
+
+  Package-Manager: portage-2.2.28
+
