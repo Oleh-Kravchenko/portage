@@ -139,3 +139,7 @@
   Gentoo-bug: 573652
   Reported-by: Frank Krömmelbein <kroemmelbein@gmx.de>
 
+  25 May 2016; Michael Palimaka <kensington@gentoo.org>
+  kdevplatform-1.7.2-r1.ebuild:
+  Drop ppc and ppc64 to testing in KDE-related packages.
+

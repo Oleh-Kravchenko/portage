@@ -147,3 +147,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  25 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  Search-Xapian-1.2.22.0.ebuild:
+  1.2.22.0-r0: add alpha keyword
+
+  Gentoo-Bug: 574638
+
+  Package-Manager: portage-2.3.0_rc1
+

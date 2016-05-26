@@ -95,3 +95,6 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> cmocka-1.0.1.ebuild:
+  alpha stable, bug 579834.
+

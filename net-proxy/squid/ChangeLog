@@ -301,3 +301,23 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 May 2016; Jeroen Roovers <jer@gentoo.org> squid-3.5.19.ebuild:
+  Stable for HPPA PPC64 (bug #582814).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+  25 May 2016; Agostino Sarubbo <ago@gentoo.org> squid-3.5.19.ebuild:
+  amd64 stable wrt bug #582814
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  25 May 2016; Agostino Sarubbo <ago@gentoo.org> squid-3.5.19.ebuild:
+  x86 stable wrt bug #582814
+
+  Package-Manager: portage-2.2.26
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

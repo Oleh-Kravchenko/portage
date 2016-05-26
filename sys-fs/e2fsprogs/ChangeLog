@@ -122,3 +122,7 @@
   -files/e2fsprogs-1.41.5-makefile.patch:
   sys-libs/e2fsprogs-libs & sys-fs/e2fsprogs: drop old 1.41.7 version
 
+  25 May 2016; Mike Frysinger <vapier@gentoo.org> e2fsprogs-1.43.ebuild,
+  metadata.xml:
+  add USE=fuse to control fuse2fs
+

@@ -427,3 +427,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*tomcat-servlet-api-8.0.35 (25 May 2016)
+
+  25 May 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +tomcat-servlet-api-8.0.35.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -143,3 +143,13 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 May 2016; Mikle Kolyada <zlogene@gentoo.org>
+  kdebase-kioslaves-15.12.3.ebuild:
+  amd64 stable wrt bug #579992
+
+  Package-Manager: portage-2.2.28
+
+  25 May 2016; Michael Palimaka <kensington@gentoo.org>
+  kdebase-kioslaves-4.14.3.ebuild:
+  Drop ppc and ppc64 to testing in KDE-related packages.
+

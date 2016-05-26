@@ -129,3 +129,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  25 May 2016; Tobias Klausmann <klausman@gentoo.org> mutagen-1.31.ebuild:
+  1.31-r0: add alpha keyword
+
+  Gentoo-Bug: 572102
+
+  Package-Manager: portage-2.3.0_rc1
+

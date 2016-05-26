@@ -243,3 +243,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*ansible-2.1.0.0 (25 May 2016)
+
+  25 May 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +ansible-2.1.0.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

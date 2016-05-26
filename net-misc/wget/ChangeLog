@@ -203,3 +203,12 @@
   add upstream fix for progress bar #410529 and use subslots w/openssl #576128
   and w/gnutls #573936
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> wget-1.17.1-r1.ebuild:
+  alpha stable, bug 583972.
+
+  25 May 2016; Jeroen Roovers <jer@gentoo.org> wget-1.17.1-r1.ebuild:
+  Stable for HPPA PPC64 (bug #583972).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

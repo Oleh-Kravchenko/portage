@@ -221,3 +221,6 @@
   files/3.6/syslog-ng.rc6, files/3.7/syslog-ng.rc6:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> syslog-ng-3.7.3.ebuild:
+  alpha stable, bug 580894.
+

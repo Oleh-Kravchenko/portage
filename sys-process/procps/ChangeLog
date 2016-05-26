@@ -219,3 +219,18 @@
   07 Mar 2016; Mike Frysinger <vapier@gentoo.org> procps-3.3.11-r3.ebuild:
   enable LFS support #471102
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> procps-3.3.11-r3.ebuild:
+  alpha stable, bug 583978.
+
+  25 May 2016; Jeroen Roovers <jer@gentoo.org> procps-3.3.11-r3.ebuild:
+  Stable for HPPA (bug #583978).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+  25 May 2016; Jeroen Roovers <jer@gentoo.org> procps-3.3.11-r3.ebuild:
+  Stable for PPC64 (bug #583978).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

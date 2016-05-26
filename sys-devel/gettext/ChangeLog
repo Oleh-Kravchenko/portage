@@ -190,3 +190,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  25 May 2016; Benda Xu <heroxbd@gentoo.org> gettext-0.19.7.ebuild:
+  docdir flag for automatic prefix support.
+
+    cf. commit b9188242904 for sys-devel/automake
+
+  Package-Manager: portage-2.2.28
+

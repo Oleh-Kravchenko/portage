@@ -19,3 +19,16 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  25 May 2016; Patrice Clement <monsieurp@gentoo.org> serialtalk-1.2.ebuild,
+  serialtalk-9999.ebuild:
+  fix license: s/GPL-3/GPL-3+/
+
+  From src/serialtalk.cpp:
+  "[...] either version 3 of the License, or
+  (at your option) any later version."
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1508
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

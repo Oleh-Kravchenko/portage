@@ -258,3 +258,6 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> iproute2-4.4.0.ebuild:
+  alpha stable, bug 576618.
+

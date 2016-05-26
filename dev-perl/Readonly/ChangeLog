@@ -87,3 +87,6 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> Readonly-2.0.0.ebuild:
+  alpha stable, bug 581678.
+

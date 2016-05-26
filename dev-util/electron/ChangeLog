@@ -63,3 +63,17 @@
 
   Package-Manager: portage-2.2.28_p107_p880280
 
+*electron-0.36.12-r1 (25 May 2016)
+
+  25 May 2016; Patrice Clement <monsieurp@gentoo.org>
+  -electron-0.36.12.ebuild, +electron-0.36.12-r1.ebuild,
+  +files/brightray-gentoo-build-fixes-r1.patch,
+  -files/brightray-gentoo-build-fixes.patch:
+  Fix erroneous dependency on gconf with USE="-gnome"
+
+  Gentoo-Bug: https://bugs.gentoo.org/583130
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1530
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

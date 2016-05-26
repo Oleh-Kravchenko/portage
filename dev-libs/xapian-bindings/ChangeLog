@@ -258,3 +258,11 @@
 
   Package-Manager: portage-2.2.26
 
+  25 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  xapian-bindings-1.2.22.ebuild:
+  1.2.22-r0: add alpha keyword
+
+  Gentoo-Bug: 574638
+
+  Package-Manager: portage-2.3.0_rc1
+

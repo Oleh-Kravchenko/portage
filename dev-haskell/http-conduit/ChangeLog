@@ -92,3 +92,14 @@
 
   Package-Manager: portage-2.2.28
 
+*http-conduit-2.1.7.2 (25 May 2016)
+
+  25 May 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +http-conduit-2.1.7.2.ebuild:
+  restore ebuild with stable keywords
+
+  This reverts commit adccda875e7eee3d086550adfce016046ce6bed0.
+
+  Reported-by: Nick Bowler
+  Bug: https://bugs.gentoo.org/584018
+

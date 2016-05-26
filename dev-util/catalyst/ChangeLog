@@ -167,3 +167,14 @@
 
   Package-Manager: portage-2.2.26
 
+  25 May 2016; Mike Frysinger <vapier@gentoo.org> catalyst-2.0.9999.ebuild,
+  catalyst-2.9999.ebuild, catalyst-9999.ebuild:
+  fix up KEYWORDS in git ebuilds
+
+  25 May 2016; Mike Frysinger <vapier@gentoo.org> catalyst-9999.ebuild:
+  drop python-2 support in catalyst-3+
+
+  Since python-3 has been stable for years now, it shouldn't be a problem
+  to start requiring it in this utility.  Let's update the ebuild and see
+  if anyone complains.
+

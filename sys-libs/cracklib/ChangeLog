@@ -100,3 +100,12 @@
   should call gen_usr_ldscript.  Since that logic always makes sense, add
   it directly to the gen_usr_ldscript function.
 
+  25 May 2016; Jeroen Roovers <jer@gentoo.org> cracklib-2.9.6.ebuild:
+  Stable for HPPA PPC64 (bug #583954).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+  25 May 2016; Matt Turner <mattst88@gentoo.org> cracklib-2.9.1-r1.ebuild:
+  alpha stable, bug 583954.
+

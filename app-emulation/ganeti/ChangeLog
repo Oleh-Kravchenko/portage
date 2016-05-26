@@ -248,3 +248,12 @@
   files/ganeti-kvm-poweroff.initd, files/ganeti.initd-r3:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  25 May 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/ganeti-2.15-dont-invert-return-values-for-man-warnings.patch,
+  ganeti-2.15.2-r4.ebuild:
+  Add patch to not invert the check-man-warnings return code
+
+  Gentoo-Bug: 579550
+
+  Package-Manager: portage-2.3.0_rc1
+

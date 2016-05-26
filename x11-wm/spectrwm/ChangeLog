@@ -128,3 +128,10 @@
 
   Package-Manager: portage-2.2.28
 
+*spectrwm-3.0.2 (25 May 2016)
+
+  25 May 2016; Michael Weber <xmw@gentoo.org> +spectrwm-3.0.2.ebuild:
+  Version bump (thanks noptrix).
+
+  Package-Manager: portage-2.3.0_rc1
+

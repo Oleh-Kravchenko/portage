@@ -89,3 +89,10 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/rmilter.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*rmilter-1.8.5 (25 May 2016)
+
+  25 May 2016; Dirkjan Ochtman <djc@gentoo.org> +rmilter-1.8.5.ebuild:
+  version bump to 1.8.5
+
+  Package-Manager: portage-2.2.28
+

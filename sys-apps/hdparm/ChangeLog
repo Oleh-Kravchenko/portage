@@ -124,3 +124,6 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/hdparm-init-8:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> hdparm-9.48.ebuild:
+  alpha stable, bug 578456.
+

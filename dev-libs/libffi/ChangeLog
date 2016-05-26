@@ -102,3 +102,12 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> libffi-3.2.1.ebuild:
+  alpha stable, bug 580616.
+
+  25 May 2016; Jeroen Roovers <jer@gentoo.org> libffi-3.2.1.ebuild:
+  Stable for HPPA PPC64 (bug #580616).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

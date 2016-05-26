@@ -116,3 +116,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  24 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Perl-Tags-0.320.0.ebuild:
+  Retroactively stable for ppc/x86 (ALLARCHES), bug 580138
+
+  Package-Manager: portage-2.3.0_rc1
+

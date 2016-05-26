@@ -137,3 +137,6 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  25 May 2016; Mike Frysinger <vapier@gentoo.org> libseccomp-2.3.0.ebuild:
+  mark arm64/ppc/ppc64/s390/x86 stable #581440
+

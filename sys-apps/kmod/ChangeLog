@@ -170,3 +170,12 @@
   files/kmod-static-nodes-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> kmod-22.ebuild:
+  alpha stable, bug 581562.
+
+  25 May 2016; Jeroen Roovers <jer@gentoo.org> kmod-22.ebuild:
+  Stable for HPPA PPC64 (bug #581562).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

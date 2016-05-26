@@ -82,3 +82,12 @@
   -bzip2-1.0.6-r4.ebuild, -files/bzip2-1.0.2-progress.patch:
   drop old <1.0.6-r6 versions
 
+  25 May 2016; Jeroen Roovers <jer@gentoo.org> bzip2-1.0.6-r7.ebuild:
+  Stable for HPPA PPC64 (bug #583940).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+  25 May 2016; Matt Turner <mattst88@gentoo.org> bzip2-1.0.6-r7.ebuild:
+  alpha stable, bug 583940.
+

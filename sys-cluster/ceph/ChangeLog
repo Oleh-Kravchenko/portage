@@ -244,3 +244,18 @@
   files/rbdmap.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*ceph-10.2.1 (25 May 2016)
+
+  25 May 2016; Patrick McLean <chutzpah@gentoo.org> +ceph-10.2.1.ebuild,
+  +files/ceph-10.2.1-armv7l-doesnt-support-momit-leaf-frame-pointer.patch,
+  +files/ceph-10.2.1-unbundle-jerasure.patch:
+  Version bump to 10.2.1 (bug #583194)
+
+  This also adds some preliminary code for unbundling dev-libs/jerasure and
+  dev-libs/gf-complete (bug #463326), but it is commented out for the moment
+  pending bugs 584056 and 584058.
+
+  This also contains fixes for bugs 583550 and 582908.
+
+  Package-Manager: portage-2.3.0_rc1
+

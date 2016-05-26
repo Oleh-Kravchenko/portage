@@ -101,3 +101,10 @@
 
   Package-Manager: portage-2.2.28
 
+*radare2-0.10.3 (25 May 2016)
+
+  25 May 2016; Sergei Trofimovich <slyfox@gentoo.org> +radare2-0.10.3.ebuild:
+  bump up to 0.10.3
+
+  Package-Manager: portage-2.3.0_rc1
+
