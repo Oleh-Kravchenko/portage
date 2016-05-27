@@ -85,3 +85,6 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --include-arches="arm"
 
+  26 May 2016; Matt Turner <mattst88@gentoo.org> intltool-0.51.0-r1.ebuild:
+  alpha stable, bug 579236.
+

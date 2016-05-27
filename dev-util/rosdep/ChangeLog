@@ -44,3 +44,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*rosdep-0.11.5 (26 May 2016)
+
+  26 May 2016; Alexis Ballier <aballier@gentoo.org> +rosdep-0.11.5.ebuild:
+  bump to 0.11.5
+
+  Package-Manager: portage-2.3.0_rc1
+

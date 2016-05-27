@@ -319,3 +319,30 @@
   25 May 2016; Michael Palimaka <kensington@gentoo.org> kdelibs-4.14.8.ebuild:
   Drop ppc and ppc64 to testing in KDE-related packages.
 
+  25 May 2016; Johannes Huber <johu@gentoo.org> -kdelibs-4.14.8.ebuild:
+  Remove 4.14.8
+
+  Package-Manager: portage-2.3.0_rc1
+
+*kdelibs-4.14.20-r2 (26 May 2016)
+
+  26 May 2016; Johannes Huber <johu@gentoo.org>
+  +files/kdelibs-4.14.20-strigi-optional.patch, +kdelibs-4.14.20-r2.ebuild:
+  Remove DEPEND on app-misc/strigi
+
+  Revision bump from upstream which moves hard requirement on app-misc/strigi
+  to
+  optional.
+
+  https://git.reviewboard.kde.org/r/127823/
+
+  Gentoo-bug: 583716
+
+  Package-Manager: portage-2.3.0_rc1
+
+  26 May 2016; Johannes Huber <johu@gentoo.org> -kdelibs-4.14.20.ebuild,
+  -kdelibs-4.14.20-r1.ebuild:
+  Remove 4.14.20-{r0,r1}
+
+  Package-Manager: portage-2.3.0_rc1
+

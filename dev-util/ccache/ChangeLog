@@ -114,3 +114,6 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  26 May 2016; Matt Turner <mattst88@gentoo.org> ccache-3.2.4.ebuild:
+  alpha stable, bug 579242.
+

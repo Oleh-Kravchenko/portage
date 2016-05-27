@@ -90,3 +90,14 @@
   25 May 2016; Matt Turner <mattst88@gentoo.org> Readonly-2.0.0.ebuild:
   alpha stable, bug 581678.
 
+  25 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org> Readonly-2.0.0.ebuild:
+  Retroactively stable for hppa/ppc/sparc/x86 (ALLARCHES), bug 581678
+
+  Package-Manager: portage-2.3.0_rc1
+
+  25 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Readonly-1.30.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

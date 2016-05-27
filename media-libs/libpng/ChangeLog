@@ -259,3 +259,26 @@
   Package-Manager: portage-2.2.26
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+*libpng-1.6.22 (26 May 2016)
+*libpng-1.5.27 (26 May 2016)
+
+  26 May 2016; Lars Wendler <polynomial-c@gentoo.org> +libpng-1.5.27.ebuild,
+  +libpng-1.6.22.ebuild:
+  Bump to versions 1.5.27 and 1.6.22
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 May 2016; Lars Wendler <polynomial-c@gentoo.org> -libpng-1.6.20.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 May 2016; Lars Wendler <polynomial-c@gentoo.org> libpng-1.6.21.ebuild:
+  x86 stable (bug #583948).
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

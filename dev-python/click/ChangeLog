@@ -268,3 +268,10 @@
 
   Package-Manager: portage-2.2.28
 
+  26 May 2016; Tobias Klausmann <klausman@gentoo.org> click-6.3.ebuild:
+  6.3-r0: add alpha keyword
+
+  Gentoo-Bug: 575536
+
+  Package-Manager: portage-2.3.0_rc1
+

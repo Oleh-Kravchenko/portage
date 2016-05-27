@@ -120,3 +120,7 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  26 May 2016; Matt Turner <mattst88@gentoo.org>
+  Params-Validate-1.220.0.ebuild:
+  alpha stable, bug 579866.
+

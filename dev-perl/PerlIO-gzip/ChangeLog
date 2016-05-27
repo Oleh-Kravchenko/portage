@@ -91,3 +91,6 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 May 2016; Matt Turner <mattst88@gentoo.org> PerlIO-gzip-0.190.0.ebuild:
+  alpha stable, bug 580262.
+

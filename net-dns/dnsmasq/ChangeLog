@@ -137,3 +137,10 @@
   files/dnsmasq-init-dhcp-r1, files/dnsmasq-init-r2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  26 May 2016; Tobias Klausmann <klausman@gentoo.org> dnsmasq-2.75.ebuild:
+  2.75-r0: add alpha keyword
+
+  Gentoo-Bug: 575674
+
+  Package-Manager: portage-2.3.0_rc1
+

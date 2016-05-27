@@ -183,3 +183,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  26 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  eselect-python-20140125-r1.ebuild:
+  20140125-r1: add alpha keyword
+
+  Gentoo-Bug: 575948
+
+  Package-Manager: portage-2.3.0_rc1
+

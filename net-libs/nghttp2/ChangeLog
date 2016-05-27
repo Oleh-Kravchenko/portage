@@ -346,3 +346,18 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+*nghttp2-1.11.0 (26 May 2016)
+
+  26 May 2016; Lars Wendler <polynomial-c@gentoo.org> +nghttp2-1.11.0.ebuild:
+  Bump to version 1.11.0
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 May 2016; Lars Wendler <polynomial-c@gentoo.org> -nghttp2-1.6.0.ebuild,
+  -nghttp2-1.8.0.ebuild, -nghttp2-1.9.2.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

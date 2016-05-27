@@ -204,3 +204,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  26 May 2016; Tobias Klausmann <klausman@gentoo.org> unrar-5.3.11.ebuild:
+  5.3.11-r0: add alpha keyword
+
+  Gentoo-Bug: 576406
+
+  Package-Manager: portage-2.3.0_rc1
+

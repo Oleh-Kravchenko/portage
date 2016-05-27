@@ -101,3 +101,9 @@
 
   Package-Manager: portage-2.2.28
 
+  26 May 2016; Jeroen Roovers <jer@gentoo.org> noto-2015.04.ebuild,
+  noto-20160305.ebuild, noto-20160305-r1.ebuild:
+  Drop HPPA keywords (bug #582142).
+
+  Package-Manager: portage-2.3.0_rc1
+

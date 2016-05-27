@@ -135,3 +135,7 @@
   RepoMan-Options: --include-arches="alpha amd64 amd64-fbsd arm arm64 hppa
   ia64 m68k mips nios2 ppc ppc64 riscv s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> Archive-Zip-1.560.0.ebuild,
+  Archive-Zip-1.570.0.ebuild:
+  added ~alpha, bug 569868.
+

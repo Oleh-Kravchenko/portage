@@ -173,3 +173,18 @@
   files/monit.initd-5.0-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*monit-5.18 (26 May 2016)
+
+  26 May 2016; Lars Wendler <polynomial-c@gentoo.org> +monit-5.18.ebuild:
+  Bump to version 5.18
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 May 2016; Lars Wendler <polynomial-c@gentoo.org> -monit-5.16.1.ebuild,
+  -monit-5.17.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

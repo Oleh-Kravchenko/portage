@@ -54,3 +54,13 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/aerospike.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*aerospike-server-community-3.8.2.4 (26 May 2016)
+
+  26 May 2016; Patrick Lauer <patrick@gentoo.org>
+  -aerospike-server-community-3.7.5.ebuild,
+  -aerospike-server-community-3.7.5.1.ebuild,
+  +aerospike-server-community-3.8.2.4.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0_rc1
+

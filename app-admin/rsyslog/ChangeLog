@@ -268,3 +268,9 @@
   Change to use of prune_libtool_files in src_install reverted from
   advice form a qa team member
 
+  26 May 2016; Jeroen Roovers <jer@gentoo.org> rsyslog-8.16.0-r1.ebuild:
+  Stable for HPPA (bug #577494).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

@@ -128,3 +128,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*0ad-0.0.20_alpha (25 May 2016)
+
+  25 May 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  +0ad-0.0.20_alpha.ebuild, +files/0ad-0.0.20_alpha-gentoo.patch:
+  version bump (bug #567230)
+
+  Package-Manager: portage-2.2.28
+

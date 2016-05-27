@@ -82,3 +82,10 @@
 
   Package-Manager: portage-2.2.28
 
+*xiphos-4.0.4 (25 May 2016)
+
+  25 May 2016; Chris Reffett <creffett@gentoo.org> +xiphos-4.0.4.ebuild:
+  Restore 4.0.4 and mask 4.0.4-r1 due to text display breakage.
+
+  Package-Manager: portage-2.2.28
+

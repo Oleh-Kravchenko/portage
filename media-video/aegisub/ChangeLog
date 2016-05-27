@@ -448,3 +448,8 @@
 
   Package-Manager: portage-2.2.27
 
+  26 May 2016; Michał Górny <mgorny@gentoo.org> aegisub-9999.ebuild:
+  Switch to git-r3
+
+  Switch the live ebuild to git-r3, using the new EGIT_SUBMODULES API.
+

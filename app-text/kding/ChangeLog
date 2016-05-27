@@ -63,3 +63,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*kding-0.6-r3 (26 May 2016)
+
+  26 May 2016; Johannes Huber <johu@gentoo.org> +files/kding-0.6-cmake.patch,
+  files/kding-0.6-dtd.patch, +kding-0.6-r3.ebuild:
+  Fix broken png with libpng-1.6
+
+  Gentoo-bug: 510510
+
+  Package-Manager: portage-2.3.0_rc1
+

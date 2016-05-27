@@ -29,3 +29,6 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  26 May 2016; Matt Turner <mattst88@gentoo.org> String-CRC32-1.500.0.ebuild:
+  alpha stable, bug 582122.
+

@@ -155,3 +155,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org>
+  Search-Xapian-1.2.23.0.ebuild:
+  alpha stable, bug 581854.
+
+  25 May 2016; Matt Turner <mattst88@gentoo.org>
+  Search-Xapian-1.2.23.0-r1.ebuild:
+  added ~alpha, bug 581856.
+

@@ -224,3 +224,6 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --include-arches="arm"
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> eix-0.31.7-r1.ebuild:
+  alpha stable, bug 580178.
+

@@ -34,3 +34,6 @@
 
   Package-Manager: portage-2.2.27
 
+  25 May 2016; Matt Turner <mattst88@gentoo.org> Palm-1.12.0-r1.ebuild:
+  Dropped alpha keywords, bug 577446.
+
