@@ -202,3 +202,12 @@
 
   Package-Manager: portage-2.2.28
 
+  27 May 2016; Patrice Clement <monsieurp@gentoo.org> -kicad-4.0.0.ebuild,
+  -kicad-4.0.0-r1.ebuild, -kicad-4.0.1.ebuild, -kicad-4.0.2.ebuild:
+  Remove obsolete 4.0.0, 4.0.0-r1, 4.0.1, 4.0.2 ebuilds.
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1533
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

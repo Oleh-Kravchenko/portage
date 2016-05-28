@@ -530,3 +530,12 @@
   google-chrome-unstable-52.0.2739.0.ebuild:
   www-client/google-chrome: replace es_LA with es_419
 
+*google-chrome-unstable-52.0.2743.10 (27 May 2016)
+
+  27 May 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-unstable-52.0.2739.0.ebuild,
+  +google-chrome-unstable-52.0.2743.10.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_rc1_p12
+

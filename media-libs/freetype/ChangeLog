@@ -148,3 +148,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  27 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  freetype-2.6.3-r1.ebuild:
+  amd64 stable (bug #583980).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

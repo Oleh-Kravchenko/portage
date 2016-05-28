@@ -142,3 +142,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  27 May 2016; Tobias Klausmann <klausman@gentoo.org> xfsdump-3.1.6.ebuild:
+  3.1.6-r0: add alpha keyword
+
+  Gentoo-Bug: 577652
+
+  Package-Manager: portage-2.3.0_rc1
+

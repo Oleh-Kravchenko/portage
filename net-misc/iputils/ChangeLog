@@ -192,3 +192,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  27 May 2016; Lars Wendler <polynomial-c@gentoo.org> iputils-20151218.ebuild:
+  amd64 stable (bug #583960).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

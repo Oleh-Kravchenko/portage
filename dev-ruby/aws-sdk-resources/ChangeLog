@@ -29,3 +29,11 @@
 
   Package-Manager: portage-2.2.26
 
+*aws-sdk-resources-2.2.37 (27 May 2016)
+
+  27 May 2016; Hans de Graaff <graaff@gentoo.org>
+  +aws-sdk-resources-2.2.37.ebuild:
+  add 2.2.37
+
+  Package-Manager: portage-2.2.28
+

@@ -90,3 +90,15 @@
   files/ttrssd.initd-r2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*tt-rss-20160527 (27 May 2016)
+
+  27 May 2016; Thomas Kahle <tomka@gentoo.org> +tt-rss-20160527.ebuild:
+  bump
+
+  Package-Manager: portage-2.3.0_rc1
+
+  27 May 2016; Thomas Kahle <tomka@gentoo.org> -tt-rss-20150924.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

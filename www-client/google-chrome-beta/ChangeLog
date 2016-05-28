@@ -474,3 +474,12 @@
   google-chrome-beta-51.0.2704.54.ebuild:
   www-client/google-chrome: replace es_LA with es_419
 
+*google-chrome-beta-51.0.2704.63 (27 May 2016)
+
+  27 May 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-beta-51.0.2704.54.ebuild,
+  +google-chrome-beta-51.0.2704.63.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_rc1_p12
+

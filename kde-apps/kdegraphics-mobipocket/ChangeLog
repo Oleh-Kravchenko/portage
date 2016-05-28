@@ -126,3 +126,39 @@
   kdegraphics-mobipocket-4.14.3.ebuild:
   Drop ppc and ppc64 to testing in KDE-related packages.
 
+*kdegraphics-mobipocket-16.04.1-r1 (27 May 2016)
+*kdegraphics-mobipocket-15.12.3-r1 (27 May 2016)
+*kdegraphics-mobipocket-15.08.3-r1 (27 May 2016)
+*kdegraphics-mobipocket-4.14.3-r1 (27 May 2016)
+
+  27 May 2016; Johannes Huber <johu@gentoo.org>
+  +kdegraphics-mobipocket-4.14.3-r1.ebuild,
+  +kdegraphics-mobipocket-15.08.3-r1.ebuild,
+  +kdegraphics-mobipocket-15.12.3-r1.ebuild,
+  +kdegraphics-mobipocket-16.04.1-r1.ebuild:
+  Fix automagic dependency
+
+  By disabling find on deprecated app-misc/strigi.
+
+  Gentoo-bug: 584264
+  Gentoo-bug: 583716
+
+  Package-Manager: portage-2.3.0_rc1
+
+  27 May 2016; Johannes Huber <johu@gentoo.org>
+  kdegraphics-mobipocket-4.14.3-r1.ebuild,
+  kdegraphics-mobipocket-15.08.3-r1.ebuild,
+  kdegraphics-mobipocket-15.12.3-r1.ebuild:
+  Stable *-r1
+
+  Package-Manager: portage-2.3.0_rc1
+
+  27 May 2016; Johannes Huber <johu@gentoo.org>
+  -kdegraphics-mobipocket-4.14.3.ebuild,
+  -kdegraphics-mobipocket-15.08.3.ebuild,
+  -kdegraphics-mobipocket-15.12.3.ebuild,
+  -kdegraphics-mobipocket-16.04.1.ebuild:
+  Remove *-r0
+
+  Package-Manager: portage-2.3.0_rc1
+

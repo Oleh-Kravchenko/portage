@@ -67,3 +67,11 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  27 May 2016; Patrice Clement <monsieurp@gentoo.org> -kicad-doc-4.0.0.ebuild:
+  Remove obsolete 4.0.0 doc as related packaged is also removed.
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1534
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

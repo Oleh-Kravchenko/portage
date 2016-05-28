@@ -88,3 +88,9 @@
   26 May 2016; Matt Turner <mattst88@gentoo.org> intltool-0.51.0-r1.ebuild:
   alpha stable, bug 579236.
 
+  27 May 2016; Jeroen Roovers <jer@gentoo.org> intltool-0.51.0-r1.ebuild:
+  Stable for HPPA (bug #579236).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

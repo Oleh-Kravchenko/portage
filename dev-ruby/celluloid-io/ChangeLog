@@ -69,3 +69,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*celluloid-io-0.17.3 (27 May 2016)
+
+  27 May 2016; Hans de Graaff <graaff@gentoo.org> +celluloid-io-0.17.3.ebuild:
+  add 0.17.3
+
+  Package-Manager: portage-2.2.28
+

@@ -97,3 +97,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 May 2016; Jeroen Roovers <jer@gentoo.org> libmtp-1.1.11.ebuild:
+  Stable for PPC64 (bug #568266).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

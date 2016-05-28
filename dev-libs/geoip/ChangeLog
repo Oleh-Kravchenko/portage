@@ -196,3 +196,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  27 May 2016; Jeroen Roovers <jer@gentoo.org> -geoip-1.6.6.ebuild,
+  -geoip-1.6.7.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

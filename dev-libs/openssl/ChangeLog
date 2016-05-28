@@ -533,3 +533,10 @@
   +openssl-1.0.2h-r1.ebuild:
   add USE=sslv2 #576128 and USE=sslv3 #577504
 
+  27 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  openssl-1.0.2h-r1.ebuild:
+  Added missing $Id$ header line.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

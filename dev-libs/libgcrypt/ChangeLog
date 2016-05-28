@@ -400,3 +400,7 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  27 May 2016; Mike Frysinger <vapier@gentoo.org> libgcrypt-1.5.5.ebuild,
+  libgcrypt-1.6.3-r4.ebuild:
+  mark 1.5.5 & 1.6.3-r4 arm64/m68k/s390/sh stable
+

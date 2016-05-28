@@ -218,3 +218,11 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/tor.initd-r7:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*tor-0.2.8.3_alpha (27 May 2016)
+
+  27 May 2016; Anthony G. Basile <blueness@gentoo.org>
+  +tor-0.2.8.3_alpha.ebuild:
+  version bump alpha branch to 0.2.8.3
+
+  Package-Manager: portage-2.2.28
+

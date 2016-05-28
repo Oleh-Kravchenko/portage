@@ -189,3 +189,8 @@
 
   Package-Manager: portage-2.2.28
 
+  27 May 2016; Davide Pesavento <pesa@gentoo.org> -qbittorrent-3.3.4.ebuild:
+  drop -r0, not a stable candidate
+
+  Package-Manager: portage-2.3.0_rc1
+

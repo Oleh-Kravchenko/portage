@@ -117,3 +117,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  27 May 2016; Johannes Huber <johu@gentoo.org> kstars-15.12.3.ebuild,
+  kstars-16.04.1.ebuild:
+  DEPEND on dev-qt/qtsql
+
+  Gentoo-bug: 584338
+
+  Package-Manager: portage-2.3.0_rc1
+

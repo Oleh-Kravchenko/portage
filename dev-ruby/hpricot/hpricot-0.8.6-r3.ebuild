@@ -37,6 +37,9 @@ all_ruby_prepare() {
 
 	# Avoid unneeded dependency on git.
 	sed -i -e '/^REV/ s/.*/REV = "6"/' Rakefile || die
+
+	# Fix int size warning
+	sed -i -e 's/te - ts/(int)(te - ts)/' ext/hpricot_scan/hpricot_css.rl || die
 }
 
 each_ruby_prepare() {
@@ -52,6 +55,7 @@ each_ruby_configure() {
 each_ruby_compile() {
 	local modname=$(get_modname)
 
+	${RUBY} -S rake ragel || die
 	emake V=1 -Cext/hpricot_scan CFLAGS="${CFLAGS} -fPIC" archflag="${LDFLAGS}" || die "make hpricot_scan failed"
 	cp ext/hpricot_scan/hpricot_scan${modname} lib/ || die
 }

@@ -147,3 +147,8 @@
 
   Package-Manager: portage-2.2.28
 
+  27 May 2016; Jeroen Roovers <jer@gentoo.org> -rofi-1.0.0.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

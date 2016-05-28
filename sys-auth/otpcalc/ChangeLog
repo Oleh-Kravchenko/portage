@@ -116,3 +116,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  26 May 2016; Ulrich Müller <ulm@gentoo.org> -otpcalc-0.97-r6.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.3.0_rc1
+
