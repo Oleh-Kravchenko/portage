@@ -91,3 +91,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> -empathy-3.12.10.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*empathy-3.12.12 (28 May 2016)
+
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> +empathy-3.12.12.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

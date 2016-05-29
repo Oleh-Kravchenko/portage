@@ -111,3 +111,14 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  28 May 2016; Mikle Kolyada <zlogene@gentoo.org> joe-4.2.ebuild:
+  Stable for all wrt bug #583778
+
+  Package-Manager: portage-2.2.28
+
+  28 May 2016; Amy Winston <amynka@gentoo.org> -joe-3.7-r2.ebuild,
+  -joe-4.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.26
+

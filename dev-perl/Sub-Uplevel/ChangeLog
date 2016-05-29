@@ -77,3 +77,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  27 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Sub-Uplevel-0.250.0.ebuild:
+  Retroactively stable for remaining arches (ALLARCHES), bug 582172
+
+  Package-Manager: portage-2.3.0_rc1
+
+  27 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Sub-Uplevel-0.240.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

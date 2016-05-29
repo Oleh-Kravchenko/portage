@@ -94,3 +94,8 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> intltool-0.51.0-r1.ebuild:
+  x86 stable, bug #579236
+
+  Package-Manager: portage-2.3.0_rc1
+

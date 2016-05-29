@@ -85,3 +85,12 @@
 
   Package-Manager: portage-2.2.27
 
+*expat-2.1.1-r1 (28 May 2016)
+
+  28 May 2016; Sebastian Pipping <sping@gentoo.org> +expat-2.1.1-r1.ebuild,
+  +files/expat-2.1.1-CVE-2015-1283-refix.patch,
+  +files/expat-2.1.1-CVE-2016-0718-v2-2-1.patch:
+  2.1.1-r1 (bug #583268)
+
+  Package-Manager: portage-2.2.28
+

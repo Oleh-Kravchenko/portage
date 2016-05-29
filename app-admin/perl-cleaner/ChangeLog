@@ -107,3 +107,23 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  27 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  perl-cleaner-2.20.ebuild:
+  Retroactively stable for remaining arches (ALLARCHES), bug 583122
+
+  Package-Manager: portage-2.3.0_rc1
+
+  27 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -perl-cleaner-2.19.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*perl-cleaner-2.22 (28 May 2016)
+
+  28 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +perl-cleaner-2.22.ebuild, perl-cleaner-9999.ebuild:
+  Version bump, integrate prefix patch
+
+  Package-Manager: portage-2.3.0_rc1
+

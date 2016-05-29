@@ -87,3 +87,9 @@
   22 Feb 2016; Tim Harder <radhermit@gentoo.org> pychroot-9999.ebuild:
   setuptools is no longer an rdep
 
+*pychroot-0.9.14 (28 May 2016)
+
+  28 May 2016; Tim Harder <radhermit@gentoo.org> +pychroot-0.9.14.ebuild,
+  pychroot-9999.ebuild:
+  version bump to 0.9.14
+

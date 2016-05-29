@@ -347,3 +347,17 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  28 May 2016; Benda Xu <heroxbd@gentoo.org> portage-2.3.0_rc1-r1.ebuild:
+  use gentoo main tree on RAP.
+
+    prefix-rpath using prefix-portage is not affected.
+
+  Package-Manager: portage-2.2.28
+
+  28 May 2016; Fabian Groffen <grobian@gentoo.org> portage-2.2.8-r2.ebuild,
+  portage-2.2.20.1.ebuild, portage-2.2.24.ebuild, portage-2.2.26.ebuild,
+  portage-2.2.27.ebuild, portage-2.2.28.ebuild, portage-9999.ebuild:
+  use an existing host for Prefix rsync
+
+  Package-Manager: portage-2.2.28
+

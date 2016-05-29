@@ -31,3 +31,15 @@
   25 May 2016; Matt Turner <mattst88@gentoo.org> Set-Scalar-1.290.0.ebuild:
   alpha stable, bug 581882.
 
+  27 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Set-Scalar-1.290.0.ebuild:
+  Retroactively stable for hppa/ia64/ppc/sparc/x86 (ALLARCHES), bug 581882
+
+  Package-Manager: portage-2.3.0_rc1
+
+  27 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Set-Scalar-1.280.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

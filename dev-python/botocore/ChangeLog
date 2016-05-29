@@ -308,3 +308,20 @@
 
   This reverts commit 91949109817213688aa6a95375b9e574d783337d.
 
+*botocore-1.4.22 (28 May 2016)
+
+  28 May 2016; Alex Brandt <alunduil@gentoo.org> +botocore-1.4.22.ebuild:
+  add version 1.4.22
+
+  Package-Manager: portage-2.3.0_rc1
+
+  28 May 2016; Alex Brandt <alunduil@gentoo.org> -botocore-1.4.10.ebuild:
+  remove version 1.4.10
+
+  Package-Manager: portage-2.3.0_rc1
+
+  28 May 2016; Alex Brandt <alunduil@gentoo.org> -botocore-1.4.11.ebuild:
+  remove version 1.4.11
+
+  Package-Manager: portage-2.3.0_rc1
+

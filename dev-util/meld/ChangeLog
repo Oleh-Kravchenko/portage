@@ -128,3 +128,10 @@
 
   Package-Manager: portage-2.2.26
 
+*meld-3.16.0 (28 May 2016)
+
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> +meld-3.16.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -84,3 +84,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  27 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Sub-Install-0.928.0.ebuild:
+  Retroactively stable for remaining arches (ALLARCHES), bug 582126
+
+  Package-Manager: portage-2.3.0_rc1
+
+  27 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Sub-Install-0.926.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

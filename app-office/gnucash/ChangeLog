@@ -166,3 +166,21 @@
 
   Package-Manager: portage-2.2.27
 
+*gnucash-2.6.12 (28 May 2016)
+
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> +gnucash-2.6.12.ebuild:
+  Version bump, fix gnucash-make-guids (#576908 by Anton Lindström)
+
+  Package-Manager: portage-2.3.0_rc1
+
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> gnucash-2.6.12.ebuild:
+  Drop inherit for now unneeded eclasses
+
+  Package-Manager: portage-2.3.0_rc1
+
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> -gnucash-2.6.9.ebuild,
+  -gnucash-2.6.10.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+

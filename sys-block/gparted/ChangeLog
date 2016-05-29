@@ -144,3 +144,15 @@
 
   Package-Manager: portage-2.2.26
 
+*gparted-0.26.0 (28 May 2016)
+
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> +gparted-0.26.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> -gparted-0.24.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+

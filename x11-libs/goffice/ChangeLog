@@ -194,3 +194,15 @@
 
   Package-Manager: portage-2.2.28
 
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> -goffice-0.10.28.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*goffice-0.10.29 (28 May 2016)
+
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> +goffice-0.10.29.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

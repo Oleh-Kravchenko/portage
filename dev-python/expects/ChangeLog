@@ -142,3 +142,15 @@
 
   This reverts commit 4c96e40ca18119017c0fe5b30cd384e90e717dec.
 
+*expects-0.8.0 (28 May 2016)
+
+  28 May 2016; Alex Brandt <alunduil@gentoo.org> +expects-0.8.0.ebuild:
+  add version 0.8.0
+
+  Package-Manager: portage-2.3.0_rc1
+
+  28 May 2016; Alex Brandt <alunduil@gentoo.org> -expects-0.8.0_rc4.ebuild:
+  remove version 0.8.0_rc4
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -384,3 +384,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  28 May 2016; Markus Meier <maekke@gentoo.org> postfix-3.1.0.ebuild:
+  arm stable, bug #583154
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

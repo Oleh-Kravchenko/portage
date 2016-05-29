@@ -1053,3 +1053,20 @@
 
   Package-Manager: portage-2.2.28_p107_p879860
 
+*chromium-51.0.2704.63 (27 May 2016)
+
+  27 May 2016; Mike Gilbert <floppym@gentoo.org>
+  -chromium-51.0.2704.36.ebuild, -chromium-51.0.2704.47.ebuild,
+  +chromium-51.0.2704.63.ebuild:
+  stable channel bump (51.0.2704.63)
+
+  Package-Manager: portage-2.3.0_rc1_p12
+
+  28 May 2016; Richard Freeman <rich0@gentoo.org>
+  chromium-51.0.2704.63.ebuild:
+  amd64 stable
+
+  Bug: 584310
+
+  Package-Manager: portage-2.2.28
+

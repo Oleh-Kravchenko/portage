@@ -104,3 +104,15 @@
 
   Package-Manager: portage-2.2.27
 
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Add us as co-maintainers
+
+  Package-Manager: portage-2.3.0_rc1
+
+*shotwell-0.23.1 (28 May 2016)
+
+  28 May 2016; Pacho Ramos <pacho@gentoo.org> +shotwell-0.23.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

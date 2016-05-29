@@ -93,3 +93,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  28 May 2016; Markus Meier <maekke@gentoo.org> jinja-2.8.ebuild:
+  arm stable, bug #583264
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+
