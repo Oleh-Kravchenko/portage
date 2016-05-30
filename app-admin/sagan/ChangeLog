@@ -111,3 +111,8 @@
   files/sagan.init-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  29 May 2016; Alexander Vershilov <qnikst@gentoo.org> metadata.xml:
+  Drop qnikst@gentoo.org from maintainer list
+
+  Package-Manager: portage-2.2.28
+

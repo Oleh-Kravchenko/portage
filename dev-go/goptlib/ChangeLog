@@ -46,3 +46,10 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*goptlib-0.6 (29 May 2016)
+
+  29 May 2016; Anthony G. Basile <blueness@gentoo.org> +goptlib-0.6.ebuild:
+  bump to version 0.6
+
+  Package-Manager: portage-2.2.28
+

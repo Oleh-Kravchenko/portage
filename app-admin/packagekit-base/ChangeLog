@@ -120,3 +120,8 @@
   * x11-misc/driconf-0.9.1-r1
   * x11-misc/xdg-utils-1.1.0_rc2-r1
 
+  29 May 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Reassign due to bug #269417
+
+  Package-Manager: portage-2.3.0_rc1
+

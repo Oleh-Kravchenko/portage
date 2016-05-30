@@ -143,3 +143,13 @@
 
   Package-Manager: portage-2.2.26
 
+*libav-12_pre20160529 (29 May 2016)
+
+  29 May 2016; Luca Barbato <lu_zero@gentoo.org> -libav-12_pre20160522.ebuild,
+  +libav-12_pre20160529.ebuild:
+  bump snapshot version
+
+  And remove last second typos.
+
+  Package-Manager: portage-2.2.26
+

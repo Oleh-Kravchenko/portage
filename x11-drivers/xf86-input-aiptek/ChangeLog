@@ -63,3 +63,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xf86-input-aiptek-1.4.1-r1 (29 May 2016)
+
+  29 May 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +files/xf86-input-aiptek-1.4.1-xorg-server-1.18.patch,
+  +xf86-input-aiptek-1.4.1-r1.ebuild:
+  fix building against x11-base/xorg-server-1.18
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=572696
+
+  Package-Manager: portage-2.2.28
+

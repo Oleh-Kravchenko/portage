@@ -431,3 +431,14 @@
 
   Package-Manager: portage-2.3.0_rc1_p14
 
+*systemd-230-r1 (29 May 2016)
+
+  29 May 2016; Mike Gilbert <floppym@gentoo.org> -systemd-230.ebuild,
+  +systemd-230-r1.ebuild, systemd-9999.ebuild:
+  Disable KillUserProcesses by default
+
+  This should prevent an influx of complaints from tmux
+  and screen users.
+
+  Package-Manager: portage-2.3.0_rc1_p14
+

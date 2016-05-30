@@ -330,3 +330,27 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*webkit-gtk-2.4.11-r200 (29 May 2016)
+*webkit-gtk-2.4.11 (29 May 2016)
+
+  29 May 2016; Pacho Ramos <pacho@gentoo.org>
+  files/webkit-gtk-1.11.90-gtk-docize-fix.patch,
+  +files/webkit-gtk-2.4.11-video-web-audio.patch,
+  files/webkit-gtk-2.4.4-atomic-ppc.patch,
+  files/webkit-gtk-2.4.4-jpeg-9a.patch, +webkit-gtk-2.4.11.ebuild,
+  +webkit-gtk-2.4.11-r200.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+
+  29 May 2016; Pacho Ramos <pacho@gentoo.org> webkit-gtk-2.4.11-r200.ebuild:
+  Make repoman more happy
+
+  Package-Manager: portage-2.3.0_rc1
+
+  29 May 2016; Pacho Ramos <pacho@gentoo.org> -webkit-gtk-2.4.9.ebuild,
+  -webkit-gtk-2.4.9-r200.ebuild, -webkit-gtk-2.10.7.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+

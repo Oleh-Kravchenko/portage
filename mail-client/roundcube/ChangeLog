@@ -211,3 +211,25 @@
 
   Package-Manager: portage-2.2.26
 
+*roundcube-1.2.0 (29 May 2016)
+
+  29 May 2016; Aaron W. Swenson <titanofold@gentoo.org>
+  +roundcube-1.2.0.ebuild:
+  Fix Multiple Vulnerabilities
+
+  Many security issues/enhancements are resolved with this release. The
+  most significant being:
+
+  * Fix (again) security issue in DBMail driver of password plugin
+  (CVE-2015-2181)
+  * Fix path traversal vulnerability in setting a skin (CVE-2015-8770)
+  * Fix XSS issue in SVG images handling
+  * Fix XSS issue in href attribute on area tag
+
+  You can find the complete list of changes in the included CHANGELOG or at:
+  https://github.com/roundcube/roundcubemail/wiki/Changelog
+
+  Bug: 580746, 584200, 584098
+
+  Package-Manager: portage-2.2.26
+

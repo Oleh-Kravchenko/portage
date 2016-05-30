@@ -150,3 +150,6 @@
 
   Package-Manager: portage-2.2.23
 
+  29 May 2016; Thomas Raschbacher <lordvan@gentoo.org> metadata.xml:
+  changed order of projects so antivirus is above net-mail
+

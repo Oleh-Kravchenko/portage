@@ -143,3 +143,8 @@
 
   Package-Manager: portage-2.2.28
 
+  29 May 2016; Hans de Graaff <graaff@gentoo.org> httpclient-2.6.0.1.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.2.28
+

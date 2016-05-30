@@ -39,3 +39,10 @@
 
   Package-Manager: portage-2.2.28
 
+  29 May 2016; David Seifert <soap@gentoo.org> nbconvert-4.2.0.ebuild:
+  Add missing dependency
+
+  Gentoo-Bug: 583382
+
+  Package-Manager: portage-2.2.28
+

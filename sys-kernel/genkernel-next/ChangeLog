@@ -99,3 +99,19 @@
 
   Package-Manager: portage-2.2.28
 
+  29 May 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Reassign due to bug #269417
+
+  Package-Manager: portage-2.3.0_rc1
+
+  29 May 2016; Pacho Ramos <pacho@gentoo.org> -genkernel-next-35.ebuild,
+  -genkernel-next-55.ebuild, -genkernel-next-60.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+  29 May 2016; Pacho Ramos <pacho@gentoo.org> genkernel-next-64.ebuild:
+  Rekeyword as it seems they were dropped for no reason
+
+  Package-Manager: portage-2.3.0_rc1
+

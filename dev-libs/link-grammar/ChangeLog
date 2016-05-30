@@ -92,3 +92,10 @@
 
   Package-Manager: portage-2.2.27
 
+*link-grammar-5.3.7 (29 May 2016)
+
+  29 May 2016; Pacho Ramos <pacho@gentoo.org> +link-grammar-5.3.7.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

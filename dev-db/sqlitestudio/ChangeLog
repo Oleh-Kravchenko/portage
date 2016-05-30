@@ -19,3 +19,10 @@
 
   Closes: https://github.com/gentoo/gentoo/pull/1088
 
+  29 May 2016; Kristian Fiskerstrand <k_f@gentoo.org> metadata.xml:
+  Dropping to maintainer-needed
+
+  Gentoo-Bug: 584246
+
+  Package-Manager: portage-2.3.0_rc1
+

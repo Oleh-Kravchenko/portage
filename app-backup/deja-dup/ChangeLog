@@ -107,3 +107,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*deja-dup-34.2 (29 May 2016)
+
+  29 May 2016; Pacho Ramos <pacho@gentoo.org> +deja-dup-34.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

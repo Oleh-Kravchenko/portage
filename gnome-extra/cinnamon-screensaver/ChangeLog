@@ -116,3 +116,9 @@
 
   Package-Manager: portage-2.2.26
 
+  29 May 2016; Pacho Ramos <pacho@gentoo.org>
+  -cinnamon-screensaver-2.6.4.ebuild, -cinnamon-screensaver-2.8.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+

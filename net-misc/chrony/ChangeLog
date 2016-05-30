@@ -281,3 +281,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*chrony-2.4_pre1-r2 (29 May 2016)
+
+  29 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  -chrony-2.4_pre1-r1.ebuild, +chrony-2.4_pre1-r2.ebuild,
+  +files/chrony-2.4-r1.logrotate, -files/chrony-2.4.logrotate:
+  Fix logrotate script
+
+  Since grep -v may return a non-zero exit status even in the benign case, we
+  need to just return 0 manually. Actual errors will still be reported
+  normally
+  since any output will trigger mail sending.
+
+  Package-Manager: portage-2.3.0_rc1
+
