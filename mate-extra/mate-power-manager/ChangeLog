@@ -106,3 +106,9 @@
 
   Package-Manager: portage-2.2.26
 
+  30 May 2016; Mikle Kolyada <zlogene@gentoo.org>
+  mate-power-manager-1.10.2.ebuild:
+  Add ~arm keyword wrt bug #508072
+
+  Package-Manager: portage-2.2.28
+

@@ -167,3 +167,9 @@
 
   Package-Manager: portage-2.2.28
 
+  29 May 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +files/libxcb-1.12-fix-inconsistent-use-tabs-space.patch:
+  add patch file that was mistakenly not committed
+
+  Package-Manager: portage-2.2.28
+

@@ -106,3 +106,10 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/prosody.initd-r2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  30 May 2016; Tobias Klausmann <klausman@gentoo.org> prosody-0.9.10.ebuild:
+  0.9.10-r0: add amd64 keyword
+
+  Gentoo-Bug: 573158
+
+  Package-Manager: portage-2.3.0_rc1
+

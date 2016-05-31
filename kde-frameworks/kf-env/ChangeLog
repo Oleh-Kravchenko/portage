@@ -73,3 +73,14 @@
 
   Package-Manager: portage-2.2.26
 
+*kf-env-4 (30 May 2016)
+
+  30 May 2016; Johannes Huber <johu@gentoo.org> +kf-env-4.ebuild:
+  Version bump 4
+
+  EAPI 6. Increase required xdg-utils.
+
+  Gentoo-bug: 578848
+
+  Package-Manager: portage-2.3.0_rc1
+

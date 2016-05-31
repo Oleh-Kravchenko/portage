@@ -153,3 +153,11 @@
   files/carbon-c-relay.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*carbon-c-relay-2.0 (30 May 2016)
+
+  30 May 2016; Fabian Groffen <grobian@gentoo.org> -carbon-c-relay-1.8.ebuild,
+  +carbon-c-relay-2.0.ebuild:
+  version bump to 2.0
+
+  Package-Manager: portage-2.2.28
+

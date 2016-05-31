@@ -180,3 +180,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*menhir-20160526 (30 May 2016)
+
+  30 May 2016; Alexis Ballier <aballier@gentoo.org> +menhir-20160526.ebuild:
+  bump to 20160526
+
+  Package-Manager: portage-2.3.0_rc1
+

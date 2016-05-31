@@ -111,3 +111,8 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 May 2016; Davide Pesavento <pesa@gentoo.org> -qtcurve-1.8.18.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

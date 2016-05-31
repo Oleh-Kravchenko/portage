@@ -442,3 +442,23 @@
 
   Package-Manager: portage-2.3.0_rc1_p14
 
+  30 May 2016; Mike Gilbert <floppym@gentoo.org> systemd-230-r1.ebuild,
+  systemd-9999.ebuild:
+  unblock laptop-mode-tools
+
+  Bug: https://bugs.gentoo.org/584470
+
+  Package-Manager: portage-2.3.0_rc1_p14
+
+  30 May 2016; Mike Gilbert <floppym@gentoo.org> systemd-218-r5.ebuild,
+  systemd-226-r2.ebuild, systemd-228-r1.ebuild, systemd-229.ebuild,
+  systemd-230-r1.ebuild, systemd-9999.ebuild:
+  kernel check for CONFIG_UNIX
+
+  Bug: https://bugs.gentoo.org/538088
+
+  Package-Manager: portage-2.3.0_rc1_p14
+
+  30 May 2016; Mike Gilbert <floppym@gentoo.org> -systemd-229-r100.ebuild:
+  drop 229-r100
+

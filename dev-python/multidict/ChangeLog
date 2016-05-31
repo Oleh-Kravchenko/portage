@@ -10,3 +10,6 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 May 2016; Aaron Bauman <bman@gentoo.org> multidict-1.1.0_alpha6.ebuild:
+  add ~x86 keyword
+

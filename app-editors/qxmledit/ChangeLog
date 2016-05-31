@@ -105,3 +105,13 @@
 
   Package-Manager: portage-2.2.28
 
+  30 May 2016; Davide Pesavento <pesa@gentoo.org> -qxmledit-0.9.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+
+  30 May 2016; Davide Pesavento <pesa@gentoo.org> qxmledit-0.9.3.ebuild:
+  improve DESCRIPTION
+
+  Package-Manager: portage-2.3.0_rc1
+

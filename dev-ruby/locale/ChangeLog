@@ -77,3 +77,9 @@
 
   Package-Manager: portage-2.2.26
 
+  30 May 2016; Hans de Graaff <graaff@gentoo.org> locale-2.1.0-r1.ebuild,
+  locale-2.1.0-r2.ebuild, locale-2.1.1.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.2.28
+

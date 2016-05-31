@@ -70,3 +70,22 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/airdcppd.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*airdcpp-webclient-1.0.4 (30 May 2016)
+
+  30 May 2016; Amy Winston <amynka@gentoo.org>
+  +airdcpp-webclient-1.0.4.ebuild:
+  bump to 1.0.4
+
+  Package-Manager: portage-2.3.0_rc1
+
+  30 May 2016; Amy Winston <amynka@gentoo.org>
+  -airdcpp-webclient-1.0.1.ebuild, -airdcpp-webclient-1.0.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+
+  30 May 2016; Amy Winston <amynka@gentoo.org> airdcpp-webclient-1.0.3.ebuild:
+  update HOMEPAGE
+
+  Package-Manager: portage-2.3.0_rc1
+

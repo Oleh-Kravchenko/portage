@@ -119,3 +119,9 @@
 
   Package-Manager: portage-2.2.26
 
+  30 May 2016; Mikle Kolyada <zlogene@gentoo.org>
+  mate-applets-1.10.4-r1.ebuild:
+  Add ~arm keyword wrt bug #508072
+
+  Package-Manager: portage-2.2.28
+

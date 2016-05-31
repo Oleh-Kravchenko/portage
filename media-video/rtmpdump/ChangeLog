@@ -78,3 +78,10 @@
   rtmpdump-9999.ebuild:
   DESTTREE -> /usr, #582984
 
+  30 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  rtmpdump-2.4_p20131018.ebuild, rtmpdump-9999.ebuild:
+  Fixed broken sed command (bug #584498).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

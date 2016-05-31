@@ -127,3 +127,6 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  29 May 2016; Mike Frysinger <vapier@gentoo.org> perl-cleaner-2.20.ebuild:
+  mark 2.20 arm64/m68k/s390/sh stable
+

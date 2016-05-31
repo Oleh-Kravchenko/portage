@@ -286,3 +286,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*curl-7.49.1 (30 May 2016)
+
+  30 May 2016; Anthony G. Basile <blueness@gentoo.org> +curl-7.49.1.ebuild:
+  version bump to 7.49.1
+
+  Package-Manager: portage-2.2.28
+

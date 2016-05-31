@@ -155,3 +155,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  30 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  freetype-2.6.3-r1.ebuild:
+  Fixed header installation  for fontforge (#519934)
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

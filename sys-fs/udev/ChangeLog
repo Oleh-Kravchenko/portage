@@ -280,3 +280,12 @@
 
   Package-Manager: portage-2.2.28
 
+  30 May 2016; Mike Gilbert <floppym@gentoo.org> udev-216.ebuild,
+  udev-225.ebuild, udev-228.ebuild, udev-229-r2.ebuild, udev-230.ebuild,
+  udev-9999.ebuild:
+  kernel check for CONFIG_UNIX
+
+  Bug: https://bugs.gentoo.org/538088
+
+  Package-Manager: portage-2.3.0_rc1_p14
+

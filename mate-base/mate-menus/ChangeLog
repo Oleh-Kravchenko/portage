@@ -70,3 +70,8 @@
 
   Package-Manager: portage-2.2.26
 
+  30 May 2016; Mikle Kolyada <zlogene@gentoo.org> mate-menus-1.10.1.ebuild:
+  Add ~arm keyword wrt bug #508072
+
+  Package-Manager: portage-2.2.28
+

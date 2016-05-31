@@ -127,3 +127,10 @@
   files/memcached.init2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  30 May 2016; Tobias Klausmann <klausman@gentoo.org> memcached-1.4.25.ebuild:
+  1.4.25-r0: add alpha keyword
+
+  Gentoo-Bug: 578088
+
+  Package-Manager: portage-2.3.0_rc1
+

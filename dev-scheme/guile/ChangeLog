@@ -134,3 +134,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 May 2016; Tobias Klausmann <klausman@gentoo.org> guile-1.8.8-r2.ebuild:
+  1.8.8-r2: add alpha keyword
+
+  Gentoo-Bug: 578318
+
+  Package-Manager: portage-2.3.0_rc1
+

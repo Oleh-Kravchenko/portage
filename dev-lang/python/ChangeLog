@@ -572,3 +572,11 @@
 
   Package-Manager: portage-2.2.28_p106
 
+  30 May 2016; Matt Turner <mattst88@gentoo.org> python-2.7.11-r2.ebuild,
+  python-3.3.5-r8.ebuild, python-3.4.3-r7.ebuild, python-3.5.0-r2.ebuild,
+  python-3.5.1-r2.ebuild:
+  Drop append-flags -fPIC alpha workaround.
+
+  Unknown what it was working around. The same existed for amd64 and
+  hppa but both were removed more than ten years ago.
+

@@ -225,3 +225,9 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  30 May 2016; Michael Haubenwallner <haubi@gentoo.org>
+  +files/wget-1.17.1-gnulib-cygwin-sys_select.patch, wget-1.17.1-r1.ebuild:
+  add gnulib cygwin patch (#584312)
+
+  Package-Manager: portage-2.2.26
+
