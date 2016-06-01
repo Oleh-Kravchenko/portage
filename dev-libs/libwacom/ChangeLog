@@ -120,3 +120,10 @@
 
   Package-Manager: portage-2.2.28
 
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org> libwacom-0.18.ebuild:
+  0.18-r0: add alpha keyword
+
+  Gentoo-Bug: 579230
+
+  Package-Manager: portage-2.3.0_rc1
+

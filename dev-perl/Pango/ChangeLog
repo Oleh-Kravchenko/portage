@@ -111,3 +111,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org> Pango-1.227.0.ebuild:
+  1.227.0-r0: add alpha keyword
+
+  Gentoo-Bug: 579776
+
+  Package-Manager: portage-2.3.0_rc1
+

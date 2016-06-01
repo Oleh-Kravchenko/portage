@@ -157,3 +157,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 May 2016; Pacho Ramos <pacho@gentoo.org>
+  cinnamon-settings-daemon-2.8.4.ebuild:
+  Fix virtualx.eclass usage
+
+  Package-Manager: portage-2.3.0_rc1
+

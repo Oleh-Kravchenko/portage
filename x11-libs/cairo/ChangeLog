@@ -126,3 +126,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org> cairo-1.14.6.ebuild:
+  1.14.6-r0: add alpha keyword
+
+  Gentoo-Bug: 582144
+
+  Package-Manager: portage-2.3.0_rc1
+

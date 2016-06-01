@@ -80,3 +80,9 @@
 
   Package-Manager: portage-2.2.28
 
+  30 May 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  -yesod-persistent-1.2.3.ebuild, -yesod-persistent-1.4.0.3.ebuild:
+  drop old
+
+  Package-Manager: portage-2.3.0_rc1
+

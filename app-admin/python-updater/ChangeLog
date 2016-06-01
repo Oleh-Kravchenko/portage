@@ -107,3 +107,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  31 May 2016; Jeroen Roovers <jer@gentoo.org> python-updater-0.14.ebuild:
+  Stable for HPPA PPC64 (bug #547328).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

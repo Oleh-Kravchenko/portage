@@ -198,3 +198,6 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  31 May 2016; Mike Frysinger <vapier@gentoo.org> libxslt-1.1.28-r5.ebuild:
+  mark 1.1.28-r5 m68k/s390/sh stable
+

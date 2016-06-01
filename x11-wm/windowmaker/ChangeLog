@@ -123,3 +123,11 @@
 
   Package-Manager: portage-2.2.28
 
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  windowmaker-0.95.7.ebuild:
+  0.95.7-r0: add alpha keyword
+
+  Gentoo-Bug: 579234
+
+  Package-Manager: portage-2.3.0_rc1
+

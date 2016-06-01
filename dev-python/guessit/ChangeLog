@@ -127,3 +127,35 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  31 May 2016; Patrice Clement <monsieurp@gentoo.org> guessit-1.0.3-r1.ebuild:
+  fix LICENSE in 1.0.3-r1
+
+  guessit-1.0.3 is licensed under LGPL-3+. Later versions are LGPL-3 only.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*guessit-2.0.5-r1 (31 May 2016)
+
+  31 May 2016; Patrice Clement <monsieurp@gentoo.org> -guessit-2.0.5.ebuild,
+  +guessit-2.0.5-r1.ebuild:
+  revbump to 2.0.5-r1 to remove unneeded deps
+
+  stevedore is only needed for guessit-1.0.3.
+  It was accidentally copied to 2.0.5 ebuild.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  31 May 2016; Patrice Clement <monsieurp@gentoo.org> guessit-9999.ebuild:
+  remove unneeded deps in 9999
+
+  See the previous commit.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1563
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

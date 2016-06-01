@@ -16,3 +16,12 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  31 May 2016; Patrice Clement <monsieurp@gentoo.org> rebulk-0.7.2.ebuild,
+  rebulk-9999.ebuild:
+  sort deps
+
+  Closes: https://github.com/gentoo/gentoo/pull/1562
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

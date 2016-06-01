@@ -46,3 +46,14 @@
   28 Jan 2016; Mike Frysinger <vapier@gentoo.org> +libintl-0.19.7.ebuild:
   version bump to 0.19.7
 
+  31 May 2016; Anthony G. Basile <blueness@gentoo.org> libintl-0.19.7.ebuild:
+  stable on amd64, ppc, x86.  bug #584616
+
+  Package-Manager: portage-2.2.28
+
+  31 May 2016; Anthony G. Basile <blueness@gentoo.org> libintl-0.19.6.ebuild,
+  libintl-0.19.7.ebuild:
+  block against musl which provides its own libintl
+
+  Package-Manager: portage-2.2.28
+

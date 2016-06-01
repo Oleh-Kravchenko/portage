@@ -107,3 +107,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org> crda-3.18-r1.ebuild:
+  3.18-r1: add alpha keyword
+
+  Gentoo-Bug: 582076
+
+  Package-Manager: portage-2.3.0_rc1
+

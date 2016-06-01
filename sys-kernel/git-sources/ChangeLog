@@ -340,3 +340,23 @@
 
   Package-Manager: portage-2.2.28
 
+*git-sources-4.7_rc1 (30 May 2016)
+
+  30 May 2016; Mike Pagano <mpagano@gentoo.org> +git-sources-4.7_rc1.ebuild:
+  Linux patch 4.7_rc1
+
+  Package-Manager: portage-2.2.28
+
+  30 May 2016; Mike Pagano <mpagano@gentoo.org> -git-sources-4.6_rc1.ebuild,
+  -git-sources-4.6_rc2.ebuild, -git-sources-4.6_rc3.ebuild,
+  -git-sources-4.6_rc4.ebuild, -git-sources-4.6_rc5.ebuild,
+  -git-sources-4.6_rc6.ebuild, -git-sources-4.6_rc7.ebuild:
+  Removal of the 4.6 series
+
+  Package-Manager: portage-2.2.28
+
+  30 May 2016; Mike Pagano <mpagano@gentoo.org> git-sources-4.7_rc1.ebuild:
+  Fix K_BASE_VER
+
+  Package-Manager: portage-2.2.28
+

@@ -121,3 +121,21 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*make-4.2-r2 (31 May 2016)
+
+  31 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/make-4.2-double_colon_targets.patch,
+  +files/make-4.2-reset_stack_limit_for_re-exec.patch, +make-4.2-r2.ebuild:
+  Revbump to add upstream fix for bug #583812.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  31 May 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/make-4.1-fix_double_colon_rules_plus_parallel_builds.patch,
+  -make-4.2.ebuild, -make-4.2-r1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

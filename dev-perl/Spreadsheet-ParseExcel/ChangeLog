@@ -80,3 +80,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  Spreadsheet-ParseExcel-0.650.0.ebuild:
+  0.650.0-r0: add alpha keyword
+
+  Gentoo-Bug: 582010
+
+  Package-Manager: portage-2.3.0_rc1
+

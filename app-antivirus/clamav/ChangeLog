@@ -153,3 +153,10 @@
   29 May 2016; Thomas Raschbacher <lordvan@gentoo.org> metadata.xml:
   changed order of projects so antivirus is above net-mail
 
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org> clamav-0.99.ebuild:
+  0.99-r0: add alpha keyword
+
+  Gentoo-Bug: 579574
+
+  Package-Manager: portage-2.3.0_rc1
+

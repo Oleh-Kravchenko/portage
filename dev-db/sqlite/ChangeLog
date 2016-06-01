@@ -303,3 +303,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*sqlite-3.13.0 (30 May 2016)
+
+  30 May 2016; Mike Gilbert <floppym@gentoo.org>
+  +files/sqlite-3.13.0-full_tarball-build.patch, +sqlite-3.13.0.ebuild:
+  Version bump (3.13.0).
+

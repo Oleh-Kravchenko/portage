@@ -150,3 +150,12 @@
 
   Package-Manager: portage-2.2.27
 
+*layman-2.4.1-r1 (31 May 2016)
+
+  31 May 2016; Brian Dolbec <dolsen@gentoo.org>
+  +files/layman-2.4.1-sourcefileattributechanges.patch, -layman-2.4.1.ebuild,
+  +layman-2.4.1-r1.ebuild:
+  Bump with patch, fixes bug 582154
+
+  Package-Manager: portage-2.3.0_rc1
+

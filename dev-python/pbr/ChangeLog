@@ -392,3 +392,9 @@
 
   Package-Manager: portage-2.2.28
 
+  31 May 2016; Markus Meier <maekke@gentoo.org> pbr-1.9.1.ebuild:
+  arm stable, bug #582704
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

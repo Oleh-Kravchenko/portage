@@ -292,3 +292,33 @@
 
   Package-Manager: portage-2.2.28
 
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org> ruby-2.0.0_p648.ebuild:
+  2.0.0_p648-r0: add alpha keyword
+
+  Gentoo-Bug: 568502
+
+  Package-Manager: portage-2.3.0_rc1
+
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org> ruby-2.1.9.ebuild:
+  2.1.9-r0: add alpha keyword
+
+  Gentoo-Bug: 568502
+
+  Package-Manager: portage-2.3.0_rc1
+
+  31 May 2016; Agostino Sarubbo <ago@gentoo.org> ruby-2.0.0_p648.ebuild,
+  ruby-2.1.9.ebuild:
+  amd64 stable wrt bug #568502
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  31 May 2016; Agostino Sarubbo <ago@gentoo.org> ruby-2.0.0_p648.ebuild,
+  ruby-2.1.9.ebuild:
+  x86 stable wrt bug #568502
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

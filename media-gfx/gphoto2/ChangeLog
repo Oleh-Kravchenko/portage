@@ -160,3 +160,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 May 2016; Pacho Ramos <pacho@gentoo.org> gphoto2-2.5.10.ebuild:
+  Fix dependency on libgphoto (#584574 by Toralf Förster)
+
+  Package-Manager: portage-2.3.0_rc1
+

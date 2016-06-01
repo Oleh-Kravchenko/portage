@@ -273,3 +273,10 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/ulogd.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  31 May 2016; Patrice Clement <monsieurp@gentoo.org> files/ulogd.init:
+  bump initscript copyright years after shebang update
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

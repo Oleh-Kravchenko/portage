@@ -245,3 +245,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  31 May 2016; Jeroen Roovers <jer@gentoo.org>
+  extra-cmake-modules-5.22.0.ebuild:
+  Mark ~hppa (bug #568972).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

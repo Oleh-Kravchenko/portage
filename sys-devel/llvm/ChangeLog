@@ -587,3 +587,9 @@
   make-Install-compiler-rt-into-usr-lib-without-suffi.patch, llvm-9999.ebuild:
   Update compiler-rt build patch for current git
 
+  31 May 2016; Markus Meier <maekke@gentoo.org> llvm-3.7.1-r2.ebuild:
+  arm stable, bug #564402
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

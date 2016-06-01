@@ -88,3 +88,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 May 2016; Pacho Ramos <pacho@gentoo.org> rest-0.8.0.ebuild:
+  Fix virtualx.eclass usage
+
+  Package-Manager: portage-2.3.0_rc1
+

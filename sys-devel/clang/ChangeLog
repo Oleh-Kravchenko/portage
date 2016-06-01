@@ -224,3 +224,9 @@
   12 May 2016; Michał Górny <mgorny@gentoo.org> -clang-3.7.0-r100.ebuild:
   Clean up old 3.7.0 version
 
+  31 May 2016; Markus Meier <maekke@gentoo.org> clang-3.7.1-r100.ebuild:
+  arm stable, bug #564402
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

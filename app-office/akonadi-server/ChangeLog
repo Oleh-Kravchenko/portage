@@ -160,3 +160,12 @@
   +files/akonadi-server-1.13.1-mysql.conf.patch:
   Add 1.13.1 snapshot
 
+  31 May 2016; Johannes Huber <johu@gentoo.org>
+  akonadi-server-1.13.0-r2.ebuild:
+  Drop ppc/ppc64 to testing
+
+  No stable reverse dependencies left due to
+  bfa4140c1969992bb8d5b7e38565bb1a99003095
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -345,3 +345,11 @@
 
   Package-Manager: portage-2.2.28
 
+  31 May 2016; William Hubbs <williamh@gentoo.org> -openrc-0.13.11.ebuild,
+  -openrc-0.14.ebuild, -openrc-0.15.ebuild, -openrc-0.15.1.ebuild,
+  -openrc-0.16.ebuild, -openrc-0.16.1.ebuild, -openrc-0.16.2.ebuild,
+  -openrc-0.16.3.ebuild, -openrc-0.16.4.ebuild, -openrc-0.18.3.ebuild:
+  remove many old and unstable versions
+
+  Package-Manager: portage-2.2.28
+

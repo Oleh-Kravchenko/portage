@@ -84,3 +84,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  31 May 2016; Tobias Klausmann <klausman@gentoo.org> ksh-93.20140625.ebuild:
+  93.20140625-r0: add alpha keyword
+
+  Gentoo-Bug: 580346
+
+  Package-Manager: portage-2.3.0_rc1
+

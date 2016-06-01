@@ -262,3 +262,8 @@
   files/exim.rc9:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  31 May 2016; Fabian Groffen <grobian@gentoo.org> exim-4.87.ebuild:
+  fix redis support, thanks hizel in bug #584150
+
+  Package-Manager: portage-2.2.28
+

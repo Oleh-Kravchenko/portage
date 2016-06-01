@@ -154,3 +154,10 @@
 
   Package-Manager: portage-2.2.28
 
+  31 May 2016; Johannes Huber <johu@gentoo.org> phonon-gstreamer-4.9.0.ebuild:
+  Restore hppa
+
+  kde-frameworks/extra-cmake-modules is now keyworded.
+
+  Package-Manager: portage-2.3.0_rc1
+

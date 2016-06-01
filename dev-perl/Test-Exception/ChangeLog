@@ -94,3 +94,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  31 May 2016; Markus Meier <maekke@gentoo.org> Test-Exception-0.430.0.ebuild:
+  arm stable, bug #583708
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+
