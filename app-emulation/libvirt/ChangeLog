@@ -540,3 +540,9 @@
   files/virtlogd.init-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  31 May 2016; Matthias Maier <tamiko@gentoo.org> libvirt-1.2.21-r2.ebuild,
+  libvirt-1.3.1-r1.ebuild, libvirt-1.3.4.ebuild, libvirt-9999.ebuild:
+  Add slot operator on net-libs/gnutls, bug #582834
+
+  Package-Manager: portage-2.2.28
+

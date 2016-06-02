@@ -143,3 +143,10 @@
 
   Package-Manager: portage-2.2.26
 
+*dropbox-5.3.18 (01 Jun 2016)
+
+  01 Jun 2016; Jason Zaman <perfinion@gentoo.org> +dropbox-5.3.18.ebuild:
+  bump to 5.3.18, remove qt plugin #579542
+
+  Package-Manager: portage-2.2.28
+

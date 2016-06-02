@@ -252,3 +252,7 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  01 Jun 2016; Mike Frysinger <vapier@gentoo.org> apache-2.2.31.ebuild,
+  apache-2.4.18.ebuild, apache-2.4.18-r1.ebuild, apache-2.4.20.ebuild:
+  apache: switch to https:// URI
+

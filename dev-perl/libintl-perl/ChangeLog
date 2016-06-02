@@ -131,3 +131,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*libintl-perl-1.240.0-r2 (31 May 2016)
+
+  31 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/libintl-perl-1.240.0-sanity-2.patch, +libintl-perl-1.240.0-r2.ebuild:
+  More minimal patching, fixes bug 584636
+
+  Package-Manager: portage-2.3.0_rc1
+
+  31 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -files/libintl-perl-1.240.0-sanity.patch, -libintl-perl-1.240.0-r1.ebuild:
+  Remove broken version
+
+  Package-Manager: portage-2.3.0_rc1
+

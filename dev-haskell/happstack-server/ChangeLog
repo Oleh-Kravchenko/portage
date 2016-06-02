@@ -102,3 +102,7 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  files/happstack-server-7.4.2-time-1.5.patch:
+  apache: switch to https:// URI
+

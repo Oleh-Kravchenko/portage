@@ -177,3 +177,6 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  01 Jun 2016; Mike Frysinger <vapier@gentoo.org> files/postinstall-en.txt:
+  apache: switch to https:// URI
+

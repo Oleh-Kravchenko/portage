@@ -100,3 +100,11 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  Test-Deep-1.120.0.ebuild:
+  1.120.0-r0: add alpha keyword
+
+  Gentoo-Bug: 583618
+
+  Package-Manager: portage-2.3.0_rc1
+

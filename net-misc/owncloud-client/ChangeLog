@@ -130,3 +130,14 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*owncloud-client-2.2.0-r1 (01 Jun 2016)
+
+  01 Jun 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +owncloud-client-2.2.0-r1.ebuild:
+  fix dolphin plugin install, bug #580752
+
+  Thank Tobias Kaminsky <tobias@kaminsky.me> for bug reports and testing
+  and kde team for the help
+
+  Package-Manager: portage-2.3.0_rc1
+

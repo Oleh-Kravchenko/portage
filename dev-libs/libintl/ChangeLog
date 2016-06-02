@@ -57,3 +57,10 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Jun 2016; Tobias Klausmann <klausman@gentoo.org> libintl-0.19.7.ebuild:
+  0.19.7-r0: add alpha keyword
+
+  Gentoo-Bug: 584616
+
+  Package-Manager: portage-2.3.0_rc1
+

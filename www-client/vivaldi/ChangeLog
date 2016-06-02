@@ -682,3 +682,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*vivaldi-1.2.490.32_p1 (01 Jun 2016)
+
+  01 Jun 2016; Jeroen Roovers <jer@gentoo.org> +vivaldi-1.2.490.32_p1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  01 Jun 2016; Jeroen Roovers <jer@gentoo.org> -vivaldi-1.2.490.3_p1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

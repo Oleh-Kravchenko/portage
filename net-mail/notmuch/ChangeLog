@@ -150,3 +150,26 @@
 
   Package-Manager: portage-2.2.28
 
+  31 May 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> metadata.xml,
+  notmuch-0.22.ebuild:
+  Correct dependencies related to S/MIME support
+
+  gnupg must be installed only if crypt flag is enabled, because crypt
+  related tests are run when this gnupg commands can be found. The same
+  applies to smime flag of gmime which pulls gnupg.
+
+  Package-Manager: portage-2.3.0_rc1
+
+*notmuch-0.22-r1 (01 Jun 2016)
+
+  01 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> notmuch-0.22.ebuild,
+  +notmuch-0.22-r1.ebuild:
+  Apply changes in dependencies only in new rev
+
+  Revert changes in notmuch-0.22.ebuild in commit
+  9cdfbeb940dabdd1d2088752b761e12c605e6efa and reapply changes to
+  newly bumped notmuch-0.22-r1.ebuild only. Changes in dependencies are
+  not so trivial, so better have a backup option for users.
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -1077,3 +1077,13 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*chromium-52.0.2743.10 (01 Jun 2016)
+
+  01 Jun 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-52.0.2716.0.ebuild, +chromium-52.0.2743.10.ebuild,
+  +files/chromium-linker-warnings-r0.patch, +files/chromium-pdfium-r0.patch,
+  +files/chromium-system-zlib-r0.patch:
+  dev channel bump (52.0.2743.10)
+
+  Package-Manager: portage-2.2.26
+

@@ -104,3 +104,12 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  01 Jun 2016; Patrice Clement <monsieurp@gentoo.org> enzyme-0.4.1-r1.ebuild,
+  enzyme-9999.ebuild:
+  use mirror://sourceforge/ for sourceforge links
+
+  Closes: https://github.com/gentoo/gentoo/pull/1575
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

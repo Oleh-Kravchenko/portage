@@ -498,3 +498,21 @@
 
   Package-Manager: portage-2.2.28
 
+*wine-1.9.10 (01 Jun 2016)
+
+  01 Jun 2016; NP-Hardass <NP-Hardass@gentoo.org> +wine-1.9.10.ebuild:
+  Version bump to 1.9.10.
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: NP-Hardass <NP-Hardass@gentoo.org>
+
+*wine-1.9.11 (01 Jun 2016)
+
+  01 Jun 2016; NP-Hardass <NP-Hardass@gentoo.org> +wine-1.9.11.ebuild:
+  Version bump to 1.9.11.
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: NP-Hardass <NP-Hardass@gentoo.org>
+

@@ -144,3 +144,20 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*dnsmasq-2.76 (31 May 2016)
+
+  31 May 2016; Patrick McLean <chutzpah@gentoo.org> +dnsmasq-2.76.ebuild:
+  Version bump to 2.76, port to EAPI=6
+
+  Package-Manager: portage-2.3.0_rc1
+
+  31 May 2016; Patrick McLean <chutzpah@gentoo.org> -dnsmasq-2.66.ebuild,
+  -dnsmasq-2.72-r2.ebuild, -files/dnsmasq-2.47-fbsd-config.patch,
+  -files/dnsmasq-2.66-dhcp-option-zero.patch, -files/dnsmasq-2.72-Fix-crash-ca
+  used-by-looking-up-servers.bind-when-many-servers-defined.patch, -files/dnsm
+  asq-2.72-Fix-crash-on-receipt-of-certain-malformed-DNS-requests.patch,
+  -files/dnsmasq.service:
+  Clean out old versions
+
+  Package-Manager: portage-2.3.0_rc1
+

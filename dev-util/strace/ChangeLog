@@ -125,3 +125,9 @@
 
   Package-Manager: portage-2.2.27
 
+*strace-4.12 (01 Jun 2016)
+
+  01 Jun 2016; Mike Frysinger <vapier@gentoo.org> +strace-4.12.ebuild,
+  strace-9999.ebuild:
+  version bump to 4.12
+

@@ -89,3 +89,6 @@
 
   Package-Manager: portage-2.2.26
 
+  01 Jun 2016; Mike Frysinger <vapier@gentoo.org> files/389-admin.confd:
+  apache: switch to https:// URI
+

@@ -88,3 +88,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  31 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Shell-EnvImporter-1.70.0-r2.ebuild:
+  Stable for remaining arches (ALLARCHES), bug 581886
+
+  Package-Manager: portage-2.3.0_rc1
+
+  31 May 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Shell-EnvImporter-1.70.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

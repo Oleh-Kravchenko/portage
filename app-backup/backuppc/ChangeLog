@@ -131,3 +131,7 @@
 
   Package-Manager: portage-2.2.26
 
+  01 Jun 2016; Mike Frysinger <vapier@gentoo.org> files/apache2-backuppc.conf,
+  files/httpd.conf:
+  apache: switch to https:// URI
+

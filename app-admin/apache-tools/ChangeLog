@@ -221,3 +221,7 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  01 Jun 2016; Mike Frysinger <vapier@gentoo.org> apache-tools-2.2.31.ebuild,
+  apache-tools-2.4.18.ebuild, apache-tools-2.4.20.ebuild:
+  apache: switch to https:// URI
+

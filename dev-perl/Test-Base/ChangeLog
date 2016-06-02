@@ -70,3 +70,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  01 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  Test-Base-0.880.0.ebuild:
+  0.880.0-r0: add alpha keyword
+
+  Gentoo-Bug: 583520
+
+  Package-Manager: portage-2.3.0_rc1
+
