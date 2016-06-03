@@ -88,3 +88,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  01 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Spreadsheet-ParseExcel-0.650.0.ebuild:
+  Stable for remaining arches (ALLARCHES), bug 582010
+
+  Package-Manager: portage-2.3.0_rc1
+
+  01 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Spreadsheet-ParseExcel-0.590.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

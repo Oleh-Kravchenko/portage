@@ -184,3 +184,14 @@
   Package-Manager: portage-2.2.28
   RepoMan-Options: --include-arches="arm"
 
+*gst-plugins-good-0.10.31-r2 (02 Jun 2016)
+
+  02 Jun 2016; Austin English <wizardedit@gentoo.org>
+  +files/gst-plugins-good-0.10-clang.patch,
+  +gst-plugins-good-0.10.31-r2.ebuild:
+  fix building gst-plugins-good-0.10.31 with clang
+
+  Gentoo-Bug: https://bugs.gentoo.org/558080
+
+  Package-Manager: portage-2.2.26
+

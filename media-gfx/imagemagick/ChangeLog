@@ -248,3 +248,37 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*imagemagick-7.0.1.8 (02 Jun 2016)
+*imagemagick-6.9.4.6 (02 Jun 2016)
+
+  02 Jun 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +imagemagick-6.9.4.6.ebuild, -imagemagick-7.0.1.7.ebuild,
+  +imagemagick-7.0.1.8.ebuild:
+  Bump to versions 6.9.4.6 and 7.0.1.8
+
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  02 Jun 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -imagemagick-6.9.4.4.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  02 Jun 2016; Agostino Sarubbo <ago@gentoo.org> imagemagick-6.9.4.6.ebuild:
+  amd64 stable wrt bug #584512
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  02 Jun 2016; Agostino Sarubbo <ago@gentoo.org> imagemagick-6.9.4.6.ebuild:
+  x86 stable wrt bug #584512
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

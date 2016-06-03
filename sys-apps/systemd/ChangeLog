@@ -462,3 +462,11 @@
   30 May 2016; Mike Gilbert <floppym@gentoo.org> -systemd-229-r100.ebuild:
   drop 229-r100
 
+  02 Jun 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml,
+  systemd-230-r1.ebuild, systemd-9999.ebuild:
+  install manpage indexes
+
+  Bug: https://bugs.gentoo.org/584676
+
+  Package-Manager: portage-2.3.0_rc1_p14
+

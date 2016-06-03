@@ -135,3 +135,23 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+*hplip-3.16.5 (02 Jun 2016)
+
+  02 Jun 2016; Daniel Pielmeier <billie@gentoo.org> hplip-3.14.10.ebuild,
+  +hplip-3.16.5.ebuild, metadata.xml:
+  Version bump.
+
+  Fixes bump request bug #582146. Thanks to Lars Wendler for the report.
+  Add python 3 support. Fixes bug #554766. Thanks to Virgil Dupras for the
+  report.
+  Enable 'snmp' USE by default. Fixes bug #544636. Thanks to Pacho Ramos
+  for the report.
+  Drop ppc and ppc64 keywords due to dev-python/PyQt5.
+
+  Package-Manager: portage-2.2.28
+
+  02 Jun 2016; Daniel Pielmeier <billie@gentoo.org> hplip-3.16.5.ebuild:
+  Re-add ppc keyword only ppc64 needs to be dropped.
+
+  Package-Manager: portage-2.2.28
+

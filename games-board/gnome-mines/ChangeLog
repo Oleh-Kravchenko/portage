@@ -102,3 +102,13 @@
 
   Package-Manager: portage-2.2.26
 
+  02 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  gnome-mines-3.18.2.ebuild:
+  games-board/games-mines: keyword for ~arm64.
+
+  Tested on cortex-a53. Raspberry Pi in 64 bit mode.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1578
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

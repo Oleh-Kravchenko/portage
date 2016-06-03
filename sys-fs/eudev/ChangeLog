@@ -257,3 +257,10 @@
 
   Package-Manager: portage-2.3.0_rc1_p14
 
+*eudev-3.2 (01 Jun 2016)
+
+  01 Jun 2016; Anthony G. Basile <blueness@gentoo.org> +eudev-3.2.ebuild:
+  version bump to 3.2
+
+  Package-Manager: portage-2.2.28
+

@@ -108,3 +108,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  01 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Test-Exception-0.430.0.ebuild:
+  Stable for remaining arches (ALLARCHES), bug 583708
+
+  Package-Manager: portage-2.3.0_rc1
+
+  01 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Test-Exception-0.320.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

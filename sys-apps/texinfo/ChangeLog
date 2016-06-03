@@ -162,3 +162,16 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  02 Jun 2016; Markus Meier <maekke@gentoo.org> texinfo-6.1.ebuild:
+  arm stable, bug #583794
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+
+  02 Jun 2016; Tobias Klausmann <klausman@gentoo.org> texinfo-6.1.ebuild:
+  6.1-r0: add alpha keyword
+
+  Gentoo-Bug: 583794
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -262,3 +262,18 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*mercurial-3.8.3 (02 Jun 2016)
+
+  02 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> +mercurial-3.8.3.ebuild:
+  Bump to version 3.8.3
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  02 Jun 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -mercurial-3.8.1-r1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

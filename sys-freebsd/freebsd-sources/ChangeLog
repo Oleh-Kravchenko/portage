@@ -190,3 +190,17 @@
   * FreeBSD-SA-16:18.atkbd
   * FreeBSD-SA-16:19.sendmsg
 
+*freebsd-sources-10.3-r3 (02 Jun 2016)
+*freebsd-sources-10.2-r7 (02 Jun 2016)
+
+  02 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -freebsd-sources-10.2-r6.ebuild, +freebsd-sources-10.2-r7.ebuild,
+  -freebsd-sources-10.3-r2.ebuild, +freebsd-sources-10.3-r3.ebuild:
+  Fix multiple Security Advisory.
+
+  * FreeBSD-SA-16:20.linux
+  * FreeBSD-SA-16:21.43bsd
+  Closes: https://github.com/gentoo/gentoo/pull/1587
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -28,3 +28,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  02 Jun 2016; Miroslav Šulc <fordfrog@gentoo.org> -patch,
+  +files/Makefile-0_p20160528.patch, raspberrypi-omxplayer-0_p20160528.ebuild:
+  applied makefile fix from Ahmet Inan <xdsopl@googlemail.com> from bug
+  #421683 comment #44 and #45
+
+  Package-Manager: portage-2.3.0_rc1
+

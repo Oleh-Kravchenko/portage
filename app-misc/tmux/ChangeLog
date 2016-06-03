@@ -271,3 +271,27 @@
 
   Bug: https://bugs.gentoo.org/583428
 
+*tmux-2.2 (02 Jun 2016)
+
+  02 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> metadata.xml,
+  +tmux-2.2.ebuild:
+  Bump to version 2.2 (bug #579620).
+
+  Made utempter support optional (bug #584690).
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  02 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> tmux-9999.ebuild:
+  Bumped live ebuild to EAPI-6. Cleanup.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  02 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> tmux-2.2.ebuild,
+  tmux-9999.ebuild:
+  Install example config.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

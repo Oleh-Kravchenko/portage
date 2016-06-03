@@ -166,3 +166,19 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  02 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  oprofile-0.9.9-r2.ebuild:
+  0.9.9-r2: add alpha keyword
+
+  Gentoo-Bug: 577750
+
+  Package-Manager: portage-2.3.0_rc1
+
+  02 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  oprofile-1.1.0-r1.ebuild:
+  1.1.0-r1: add alpha keyword
+
+  Gentoo-Bug: 577752
+
+  Package-Manager: portage-2.3.0_rc1
+

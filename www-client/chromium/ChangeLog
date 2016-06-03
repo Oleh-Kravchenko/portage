@@ -1087,3 +1087,12 @@
 
   Package-Manager: portage-2.2.26
 
+*chromium-52.0.2743.19 (02 Jun 2016)
+
+  02 Jun 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-52.0.2723.2.ebuild, +chromium-52.0.2743.19.ebuild,
+  +files/chromium-system-jinja-r9.patch:
+  dev channel bump (52.0.2743.19)
+
+  Package-Manager: portage-2.2.26
+

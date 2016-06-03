@@ -136,3 +136,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  02 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  tigervnc-1.4.2-r2.ebuild:
+  1.4.2-r2: add alpha keyword
+
+  Gentoo-Bug: 567324
+
+  Package-Manager: portage-2.3.0_rc1
+

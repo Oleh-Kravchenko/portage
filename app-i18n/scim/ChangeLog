@@ -72,3 +72,12 @@
 
   Package-Manager: portage-2.2.28
 
+*scim-1.4.17 (02 Jun 2016)
+
+  02 Jun 2016; Benda Xu <heroxbd@gentoo.org> +scim-1.4.17.ebuild:
+  version bump.
+
+  Bug: 584494
+
+  Package-Manager: portage-2.2.28
+

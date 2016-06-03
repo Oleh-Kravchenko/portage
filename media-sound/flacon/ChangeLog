@@ -227,3 +227,44 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  02 Jun 2016; Patrice Clement <monsieurp@gentoo.org> flacon-9999.ebuild:
+  change qt USE flags in 9999 wrt Qt project policies
+
+  See https://wiki.gentoo.org/wiki/Project:Qt/Policies#Requires_one_of_two_Qt_
+  versions
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  02 Jun 2016; Patrice Clement <monsieurp@gentoo.org> flacon-9999.ebuild:
+  add missing test deps to 9999
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*flacon-2.0.1-r1 (02 Jun 2016)
+
+  02 Jun 2016; Patrice Clement <monsieurp@gentoo.org> +flacon-2.0.1-r1.ebuild:
+  revbump to 2.0.1-r1
+
+  Changes:
+  - EAPI=6;
+  - add missing test deps;
+  - update qt USE flags.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  02 Jun 2016; Patrice Clement <monsieurp@gentoo.org> -flacon-9999.ebuild:
+  remove 9999 ebuild
+
+  No reason to keep it. Can be restored later if needed.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1564
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

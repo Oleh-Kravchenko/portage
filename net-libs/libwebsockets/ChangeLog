@@ -71,3 +71,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  02 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -libwebsockets-1.4.ebuild, -libwebsockets-1.6.0.ebuild,
+  -libwebsockets-1.7.6.ebuild, metadata.xml:
+  drop 1.4, 1.6.0, 1.7.6
+
+  Closes: https://github.com/gentoo/gentoo/pull/1582
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

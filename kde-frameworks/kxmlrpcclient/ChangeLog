@@ -207,3 +207,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  01 Jun 2016; Michael Palimaka <kensington@gentoo.org>
+  kxmlrpcclient-5.21.0.ebuild:
+  kde-frameworks: stabilise 5.21.0 on x86
+
+  Package-Manager: portage-2.3.0_rc1
+

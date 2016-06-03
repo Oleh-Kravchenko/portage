@@ -396,3 +396,23 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/nscd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  02 Jun 2016; Benda Xu <heroxbd@gentoo.org> files/eblits/common.eblit,
+  files/eblits/pkg_postinst.eblit, files/eblits/pkg_preinst.eblit,
+  files/eblits/src_configure.eblit, files/eblits/src_install.eblit:
+  files/eblits: Prefix support.
+
+  Bug: 473728
+
+  Package-Manager: portage-2.2.28
+
+  02 Jun 2016; Benda Xu <heroxbd@gentoo.org> files/eblits/src_configure.eblit:
+  add sysconfdir and localstatedir.
+
+    In Prefix, ${prefix} != /usr, sysconfdir defaults
+    to ${prefix}/etc and localstatedir to ${prefix}/var.
+    which results in EPREFIX/usr/{etc,var}.
+
+    This commit avoids that.
+
+  Package-Manager: portage-2.2.28
+

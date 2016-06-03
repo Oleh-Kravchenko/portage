@@ -173,3 +173,31 @@
   -files/jakudo-fix-paths.patch:
   remove unneeded patches
 
+  02 Jun 2016; Amy Winston <amynka@gentoo.org> -rakudo-2016.01.1.ebuild,
+  -rakudo-2016.02.ebuild:
+  drop old (2016.01.1 & 2016.02)
+
+*rakudo-2016.04-r2 (02 Jun 2016)
+
+  02 Jun 2016; Amy Winston <amynka@gentoo.org>
+  +files/rakudo-2016.04-jna-lib.patch, -rakudo-2016.04-r1.ebuild,
+  +rakudo-2016.04-r2.ebuild:
+  revbump 2016.04-r2
+
+  - switched to java-pkg-opt-2
+  - removed unnecessary DESTDIR hack
+  - not requiring nqp to have USE=-java/-moar, if it's not set for
+    rakudo
+  - enable usage of nqp with system jna (patch and mechanics contributed
+    by Chewi)
+
+*rakudo-2016.05 (02 Jun 2016)
+
+  02 Jun 2016; Amy Winston <amynka@gentoo.org> +rakudo-2016.05.ebuild:
+  version bump 2016.05
+
+  removed patch (was included upstream)
+
+  02 Jun 2016; Amy Winston <amynka@gentoo.org> rakudo-9999.ebuild:
+  update 9999 to reflect 2016.05
+

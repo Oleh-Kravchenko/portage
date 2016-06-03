@@ -130,3 +130,11 @@
 
   Package-Manager: portage-2.2.28
 
+  02 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  xcb-util-cursor-0.1.2.ebuild:
+  0.1.2-r0: add alpha keyword
+
+  Gentoo-Bug: 559062
+
+  Package-Manager: portage-2.3.0_rc1
+

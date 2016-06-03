@@ -213,3 +213,9 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  02 Jun 2016; Markus Meier <maekke@gentoo.org> gettext-0.19.7.ebuild:
+  arm stable, bug #583834
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+
