@@ -115,3 +115,11 @@
 
   Package-Manager: portage-2.2.28
 
+*ocaml-ctypes-0.6.0 (03 Jun 2016)
+
+  03 Jun 2016; Alexis Ballier <aballier@gentoo.org>
+  +ocaml-ctypes-0.6.0.ebuild:
+  bump to 0.6.0
+
+  Package-Manager: portage-2.3.0_rc1
+

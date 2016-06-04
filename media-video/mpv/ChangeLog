@@ -1140,3 +1140,14 @@
   Closes: https://github.com/gentoo/gentoo/pull/1569
   Package-Manager: portage-2.3.0_rc1
 
+  03 Jun 2016; Patrice Clement <monsieurp@gentoo.org> mpv-0.17.0-r5.ebuild:
+  explicitly inherit required eutils eclass in 0.17.0-r5
+
+  We already inherit eutils implicitly via inherited gnome2-utils eclass.
+  Since the ebuild uses epatch, it's better to inherit eutils explicitly.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1596
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

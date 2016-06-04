@@ -124,3 +124,8 @@
 
   Package-Manager: portage-2.2.28
 
+  02 Jun 2016; Michael Sterrett <mr_bones_@gentoo.org> nml-0.4.4.ebuild:
+  remove python_3_5 for now until dev-python/ply has a python_3_5 version
+
+  Package-Manager: portage-2.2.28
+

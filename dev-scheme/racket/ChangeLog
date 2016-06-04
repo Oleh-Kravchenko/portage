@@ -117,3 +117,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*racket-6.5 (03 Jun 2016)
+
+  03 Jun 2016; Amy Winston <amynka@gentoo.org> +racket-6.5.ebuild:
+  version bump 6.5 bug #584752
+
+  Package-Manager: portage-2.2.28
+

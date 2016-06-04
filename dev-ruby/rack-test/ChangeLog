@@ -80,3 +80,8 @@
 
   Package-Manager: portage-2.2.26
 
+  02 Jun 2016; Zero_Chaos <zerochaos@gentoo.org> rack-test-0.6.3.ebuild:
+  adding ruby23
+
+  Package-Manager: portage-2.3.0_rc1
+

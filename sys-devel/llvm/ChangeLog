@@ -593,3 +593,6 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  03 Jun 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Bump cmake requirement for live to 3.4.3, #584914
+

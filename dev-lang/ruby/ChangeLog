@@ -322,3 +322,15 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  03 Jun 2016; Jeroen Roovers <jer@gentoo.org> ruby-2.0.0_p648.ebuild:
+  Stable for PPC64 (bug #568502).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+  03 Jun 2016; Jeroen Roovers <jer@gentoo.org> ruby-2.1.9.ebuild:
+  Stable for PPC64 (bug #568502).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

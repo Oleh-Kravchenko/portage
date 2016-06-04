@@ -1096,3 +1096,11 @@
 
   Package-Manager: portage-2.2.26
 
+*chromium-53.0.2756.0 (03 Jun 2016)
+
+  03 Jun 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  +chromium-53.0.2756.0.ebuild, +files/chromium-system-jinja-r10.patch:
+  dev channel bump (53.0.2756.0)
+
+  Package-Manager: portage-2.2.26
+

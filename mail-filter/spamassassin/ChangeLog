@@ -109,3 +109,34 @@
 
   Package-Manager: portage-2.2.26
 
+*spamassassin-3.4.1-r3 (03 Jun 2016)
+
+  03 Jun 2016; Michael Orlitzky <mjo@gentoo.org>
+  +files/spamassassin-3.4.1-bug_7223.patch,
+  +files/spamassassin-3.4.1-bug_7231.patch,
+  +files/spamassassin-3.4.1-bug_7265.patch, +spamassassin-3.4.1-r3.ebuild:
+  new revision to fix Net-DNS compatibility issues.
+
+  With the stabilization of =dev-perl/Net-DNS-1.40.0 (and the removal of
+  the older stable version), a number of problems were introduced in
+  SpamAssassin. There are three upstream bugs with patches against the
+  latest release, v3.4.1, which fix all sorts of DNS errors in blacklist
+  checks, DKIM, and SPF.
+
+  The major contribution of this new revision is to apply patches from
+  those upstream bugs fixing compatibility with =dev-perl/Net-DNS-1.40.0.
+
+  At the same time, bug 396307 has been fixed by creating the
+  sa-update-keys directory and assigning it the proper permissions.
+
+  Thanks are due to Olliver Schinagl, Philippe Chaintreuil, Marcin
+  Mirosław, and Atman Sense who reported and investigated these issues.
+
+  Gentoo-Bug: 396307
+  Gentoo-Bug: 579222
+  Upstream-Bug: 7223
+  Upstream-Bug: 7231
+  Upstream-Bug: 7265
+
+  Package-Manager: portage-2.2.28
+

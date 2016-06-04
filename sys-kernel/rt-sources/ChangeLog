@@ -298,3 +298,14 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*rt-sources-4.6.1_p3 (03 Jun 2016)
+
+  03 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -rt-sources-4.4.6_p14.ebuild, +rt-sources-4.6.1_p3.ebuild:
+  version bump to 4.6.1_p3 and remove old
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1594
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

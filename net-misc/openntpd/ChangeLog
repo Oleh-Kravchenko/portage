@@ -180,3 +180,16 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  01 Jun 2016; Tobias Klausmann <klausman@gentoo.org> openntpd-6.0_p1.ebuild:
+  6.0_p1-r0: add alpha keyword
+
+  Gentoo-Bug: 584508
+
+  Package-Manager: portage-2.3.0_rc1
+
+  03 Jun 2016; Jeroen Roovers <jer@gentoo.org> openntpd-6.0_p1.ebuild:
+  Stable for PPC64 (bug #584508).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

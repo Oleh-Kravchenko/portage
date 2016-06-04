@@ -1503,3 +1503,25 @@
 
   Package-Manager: portage-2.2.28
 
+  03 Jun 2016; Mike Pagano <mpagano@gentoo.org> -gentoo-sources-4.4.7.ebuild,
+  -gentoo-sources-4.4.8.ebuild, -gentoo-sources-4.4.9.ebuild,
+  -gentoo-sources-4.4.10.ebuild, -gentoo-sources-4.4.11.ebuild:
+  Clean up 4.4.X series
+
+  Package-Manager: portage-2.2.28
+
+  03 Jun 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-4.5.0-r1.ebuild, -gentoo-sources-4.5.1.ebuild,
+  -gentoo-sources-4.5.2.ebuild, -gentoo-sources-4.5.3.ebuild,
+  -gentoo-sources-4.5.4.ebuild, -gentoo-sources-4.5.5.ebuild:
+  Cleanup linux version 4.5.X
+
+  Package-Manager: portage-2.2.28
+
+  03 Jun 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-3.12.57.ebuild, -gentoo-sources-3.12.58.ebuild,
+  -gentoo-sources-3.12.59.ebuild:
+  Cleanup linux version 3.12.X
+
+  Package-Manager: portage-2.2.28
+

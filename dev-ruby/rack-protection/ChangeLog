@@ -76,3 +76,9 @@
 
   Package-Manager: portage-2.2.26
 
+  02 Jun 2016; Zero_Chaos <zerochaos@gentoo.org> rack-protection-1.5.3.ebuild,
+  rack-protection-1.5.3-r1.ebuild:
+  add ruby23, drop ruby19 to quiet repoman
+
+  Package-Manager: portage-2.3.0_rc1
+

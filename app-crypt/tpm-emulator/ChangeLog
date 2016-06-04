@@ -72,3 +72,9 @@
   files/tpm-emulator.initd, files/tpm-emulator.initd-0.7.4:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  03 Jun 2016; Anthony G. Basile <blueness@gentoo.org>
+  tpm-emulator-0.7.4-r1.ebuild:
+  add libressl support
+
+  Package-Manager: portage-2.2.28
+

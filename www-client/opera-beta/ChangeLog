@@ -317,3 +317,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*opera-beta-38.0.2220.25 (03 Jun 2016)
+
+  03 Jun 2016; Jeroen Roovers <jer@gentoo.org>
+  +opera-beta-38.0.2220.25.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  03 Jun 2016; Jeroen Roovers <jer@gentoo.org>
+  -opera-beta-37.0.2178.31.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

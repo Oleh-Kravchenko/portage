@@ -249,3 +249,11 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/ntp-client.rc:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*ntp-4.2.8_p8 (03 Jun 2016)
+
+  03 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> +ntp-4.2.8_p8.ebuild:
+  Bump to version 4.2.8_p8
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
