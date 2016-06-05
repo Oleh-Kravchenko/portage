@@ -74,3 +74,7 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/gnump3d.init.d:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org> gnump3d-3.0-r1.ebuild,
+  gnump3d-3.0-r2.ebuild:
+  savannah: switch to https URLs
+

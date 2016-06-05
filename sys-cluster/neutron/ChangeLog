@@ -352,3 +352,12 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/neutron.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*neutron-8.1.1 (03 Jun 2016)
+*neutron-7.1.0 (03 Jun 2016)
+
+  03 Jun 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +neutron-7.1.0.ebuild, -neutron-8.1.0.ebuild, +neutron-8.1.1.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

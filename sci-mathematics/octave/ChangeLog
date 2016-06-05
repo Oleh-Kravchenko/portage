@@ -162,3 +162,8 @@
 
   Package-Manager: portage-2.2.28
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org> octave-4.0.0.ebuild,
+  octave-4.0.0-r1.ebuild, octave-4.0.1.ebuild, octave-4.0.1-r1.ebuild,
+  octave-4.0.2-r1.ebuild:
+  savannah: switch to https URLs
+

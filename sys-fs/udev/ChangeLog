@@ -289,3 +289,35 @@
 
   Package-Manager: portage-2.3.0_rc1_p14
 
+*udev-230-r1 (04 Jun 2016)
+*udev-225-r1 (04 Jun 2016)
+
+  04 Jun 2016; Mike Gilbert <floppym@gentoo.org> -udev-225.ebuild,
+  +udev-225-r1.ebuild, -udev-230.ebuild, +udev-230-r1.ebuild,
+  udev-9999.ebuild:
+  eliminate pointless backslashes
+
+  Overuse of backslash escapes led to a weird directory named ' ' being
+  installed in the root directory.
+
+  Thanks to Coacher for spotting the weird directory.
+
+  Bug: https://bugs.gentoo.org/584256
+
+  Package-Manager: portage-2.3.0_rc1_p14
+
+  04 Jun 2016; William Hubbs <williamh@gentoo.org> udev-9999.ebuild:
+  sync live ebuild
+
+  Package-Manager: portage-2.2.28
+
+  04 Jun 2016; William Hubbs <williamh@gentoo.org> udev-230-r1.ebuild:
+  drop multilib from inherit in 230-r1
+
+  Package-Manager: portage-2.2.28
+
+  04 Jun 2016; William Hubbs <williamh@gentoo.org> udev-9999.ebuild:
+  sync live ebuild
+
+  Package-Manager: portage-2.2.28
+

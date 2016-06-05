@@ -68,3 +68,6 @@
   files/spamass-milter.rc4:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org> spamass-milter-0.3.2.ebuild:
+  savannah: switch to https URLs
+

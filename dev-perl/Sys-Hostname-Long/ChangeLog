@@ -81,3 +81,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Sys-Hostname-Long-1.500.0.ebuild:
+  Stable for remaining arches (ALLARCHES), bug 582178
+
+  Package-Manager: portage-2.3.0_rc1
+
+  04 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Sys-Hostname-Long-1.400.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

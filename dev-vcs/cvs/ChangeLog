@@ -96,3 +96,8 @@
   cvs-1.12.12-r10.ebuild, +files/cvs-1.12.12-mktime-configure.patch:
   fix buggy mktime tests #570208
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  files/cvs-1.12.12-getdelim.patch,
+  files/cvs-1.12.13.1-fix-gnulib-SEGV-vasnprintf.patch:
+  savannah: switch to https URLs
+

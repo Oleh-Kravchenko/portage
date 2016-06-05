@@ -88,3 +88,9 @@
 
   Package-Manager: portage-2.2.27
 
+  04 Jun 2016; Michael Weber <xmw@gentoo.org> zathura-pdf-mupdf-0.2.8.ebuild,
+  zathura-pdf-mupdf-0.3.0.ebuild:
+  incompatible with newest mupdf
+
+  Package-Manager: portage-2.3.0_rc1
+

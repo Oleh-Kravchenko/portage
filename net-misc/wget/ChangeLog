@@ -231,3 +231,9 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Jun 2016; Markus Meier <maekke@gentoo.org> wget-1.17.1-r1.ebuild:
+  arm stable, bug #583972
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

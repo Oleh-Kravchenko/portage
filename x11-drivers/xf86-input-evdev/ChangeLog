@@ -160,3 +160,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*xf86-input-evdev-2.10.3 (04 Jun 2016)
+
+  04 Jun 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +xf86-input-evdev-2.10.3.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

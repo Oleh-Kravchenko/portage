@@ -59,3 +59,28 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*firejail-0.9.40-r1 (04 Jun 2016)
+
+  04 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +firejail-0.9.40-r1.ebuild, metadata.xml:
+  Allow compile time configuration
+
+  Networking features and most Linux kernel security features require root
+  privileges during configuration. Firejail (as a SUID binary) opens the
+  access to these features therefore it may be desired to turn off some
+  of the features on compile time.
+
+  Bump EAPI to 6.  Depend on x11-wm/xpra for X11 sandboxing feature.
+
+  Package-Manager: portage-2.3.0_rc1
+
+*firejail-0.9.40-r2 (04 Jun 2016)
+
+  04 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  -firejail-0.9.40-r1.ebuild, +firejail-0.9.40-r2.ebuild:
+  Correct deps for X11
+
+  It requires xpra both server and client.
+
+  Package-Manager: portage-2.3.0_rc1
+

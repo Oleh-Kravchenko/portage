@@ -161,3 +161,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  03 Jun 2016; Patrick McLean <chutzpah@gentoo.org> dnsmasq-2.76.ebuild:
+  Fix for building with USE=dhcp-tools (bug #584700)
+
+  Package-Manager: portage-2.3.0_rc1
+

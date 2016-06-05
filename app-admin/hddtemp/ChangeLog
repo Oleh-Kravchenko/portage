@@ -93,3 +93,8 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/hddtemp-init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  hddtemp-0.3_beta15-r7.ebuild, hddtemp-0.3_beta15-r24.ebuild,
+  hddtemp-0.3_beta15-r25.ebuild:
+  savannah: switch to https URLs
+

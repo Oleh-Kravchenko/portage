@@ -145,3 +145,13 @@
   blueman-9999.ebuild:
   Shorten the description
 
+  04 Jun 2016; Michał Górny <mgorny@gentoo.org> blueman-9999.ebuild,
+  +files/01-org.blueman.rules:
+  include polkit rules for network setup, #584300
+
+  Add a set of polkit rules that allow active users belonging to
+  the plugdev group to perform network setup actions via blueman. This
+  resembles the rules used by NetworkManager.
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=584300
+

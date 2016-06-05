@@ -173,3 +173,24 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  03 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> notmuch-0.22-r1.ebuild:
+  Don't block app-crypt/gnupg and dev-libs/gmime[smime]
+
+  Test fails if GnuPG is installed and GMime is compiled without S/MIME.
+  This could occur when 'crypt' flag is disabled but GnuPG is installed
+  anyway. Although test requires 'crypt', therefore this doesn't occur and
+  blocking anything when particular feature is disabled is not needed.
+
+  Package-Manager: portage-2.3.0_rc1
+
+*notmuch-0.22-r2 (03 Jun 2016)
+
+  03 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  -notmuch-0.22-r1.ebuild, +notmuch-0.22-r2.ebuild:
+  Bump revision
+
+  Bump revision for commit "Don't block app-crypt/gnupg and
+  dev-libs/gmime[smime]".
+
+  Package-Manager: portage-2.3.0_rc1
+

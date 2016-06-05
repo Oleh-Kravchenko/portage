@@ -164,3 +164,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*mupdf-1.9a (04 Jun 2016)
+
+  04 Jun 2016; Michael Weber <xmw@gentoo.org> +files/mupdf-1.9a-CFLAGS.patch,
+  +files/mupdf-1.9a-debug-build.patch, +files/mupdf-1.9a-no-thirdlibs.patch,
+  +mupdf-1.9a.ebuild:
+  Version bump (thanks johncarmack@cock.li for the hint, bug 584266).
+
+  Package-Manager: portage-2.3.0_rc1
+

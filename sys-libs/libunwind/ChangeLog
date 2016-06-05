@@ -79,3 +79,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org> libunwind-0.99-r1.ebuild,
+  libunwind-1.0.1.ebuild, libunwind-1.0.1-r1.ebuild, libunwind-1.1.ebuild:
+  savannah: switch to https URLs
+

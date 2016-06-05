@@ -1324,3 +1324,29 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*php-7.0.7 (04 Jun 2016)
+*php-5.6.22 (04 Jun 2016)
+*php-5.5.36 (04 Jun 2016)
+
+  04 Jun 2016; Michael Orlitzky <mjo@gentoo.org> +php-5.5.36.ebuild,
+  +php-5.6.22.ebuild, -php-7.0.6.ebuild, +php-7.0.7.ebuild:
+  new security releases for all three supported series.
+
+  Gentoo-Bug: 584204
+
+  Package-Manager: portage-2.2.28
+
+*php-7.0.7-r1 (04 Jun 2016)
+
+  04 Jun 2016; Michael Orlitzky <mjo@gentoo.org> metadata.xml,
+  -php-7.0.7.ebuild, +php-7.0.7-r1.ebuild:
+  new revision of the 7.x series to fix our webp support.
+
+  In the 5.x series, libvpx was used to provide webp support to the gd
+  library. It was pulled in with USE=vpx. In php-7.x, however, libvpx
+  has been replaced with libwebp. The old USE=vpx flag no longer worked,
+  so it has been replaced with USE=webp and eveything updated to use
+  that for php-7.x.
+
+  Package-Manager: portage-2.2.28
+

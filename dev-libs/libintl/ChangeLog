@@ -64,3 +64,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Jun 2016; Anthony G. Basile <blueness@gentoo.org> libintl-0.19.7.ebuild:
+  stable on arm.  bug #584616
+
+  Package-Manager: portage-2.2.28
+

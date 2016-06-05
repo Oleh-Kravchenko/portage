@@ -172,3 +172,46 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*perl-5.24.0-r1 (03 Jun 2016)
+
+  03 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/eblits/common-v50240002.eblit,
+  +files/eblits/src_configure-v50240002.eblit, +perl-5.24.0-r1.ebuild:
+  Add revbump (unkeyworded, work in progress) for adding some patches. Add fix
+  for bug 584890 by Benda Xu.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  03 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/eblits/src_prepare-v50240002.eblit, perl-5.24.0-r1.ebuild:
+  Add patchlevel-gentoo to perl MANIFEST
+
+  To allow miniperl compilation, patchlevel-gentoo.h must be in the MANIFEST.
+  Configure uses this file to create the /host symlinks.
+
+  Signed-off-by: Gwendal Grignou <gwendal@chromium.org>
+
+  Comment from Gentoo perl team: Being nice here and adding this commit which
+  ended up without any further reasons or docs in our mailbox. I can't see how
+  it
+  could hurt. I can't really see any problem that it's supposed to fix
+  either. Hey chromium team, more words please next time!
+
+  04 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -files/eblits/common-v50240002.eblit,
+  -files/eblits/src_configure-v50240002.eblit,
+  -files/eblits/src_prepare-v50240002.eblit, perl-5.24.0-r1.ebuild:
+  Go back from eblits to a monolithic ebuild
+
+  Package-Manager: portage-2.3.0_rc1
+
+  04 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org> perl-5.24.0-r1.ebuild:
+  Disable ithreads warning, since this seems to be less serious now
+
+  Package-Manager: portage-2.3.0_rc1
+
+  04 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org> perl-5.24.0-r1.ebuild:
+  Install Perl's .packlist as well
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -301,3 +301,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Jun 2016; Markus Meier <maekke@gentoo.org> libpng-1.6.21.ebuild:
+  arm stable, bug #583948
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+
+  04 Jun 2016; Jeroen Roovers <jer@gentoo.org> libpng-1.6.21.ebuild:
+  Stable for HPPA (bug #583948).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

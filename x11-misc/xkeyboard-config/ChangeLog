@@ -158,3 +158,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*xkeyboard-config-2.18 (04 Jun 2016)
+
+  04 Jun 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +xkeyboard-config-2.18.ebuild:
+  Version bump
+
+  Also block incompatible libX11 and xkbcomp instead of depending on them.
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=583184
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=584958
+
+  Package-Manager: portage-2.2.28
+

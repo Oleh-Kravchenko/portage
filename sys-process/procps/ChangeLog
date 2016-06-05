@@ -253,3 +253,9 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  04 Jun 2016; Markus Meier <maekke@gentoo.org> procps-3.3.11-r3.ebuild:
+  arm stable, bug #583978
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

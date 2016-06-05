@@ -68,3 +68,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gnat-4.9 (04 Jun 2016)
+
+  04 Jun 2016; Stephen L Arnold <nerdboy@gentoo.org> +gnat-4.9.ebuild:
+  version bump to (slot) 4.9
+
+  Supports new gnat-gcc-4.9.3/gnatbuild-r1 and later, Ada 2012 std.
+
+  Package-Manager: portage-2.2.28
+

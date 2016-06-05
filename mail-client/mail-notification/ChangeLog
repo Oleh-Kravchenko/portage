@@ -78,3 +78,7 @@
 
   Bug: 575810
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  files/mail-notification-aarch64.patch:
+  savannah: switch to https URLs
+

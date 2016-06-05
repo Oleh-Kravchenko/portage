@@ -288,3 +288,16 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+*imagemagick-7.0.1.9 (04 Jun 2016)
+*imagemagick-6.9.4.7 (04 Jun 2016)
+
+  04 Jun 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +imagemagick-6.9.4.7.ebuild, -imagemagick-7.0.1.8.ebuild,
+  +imagemagick-7.0.1.9.ebuild:
+  Bump to versions 6.9.4.7 and 7.0.1.9
+
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

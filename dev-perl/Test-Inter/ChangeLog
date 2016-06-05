@@ -95,3 +95,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Test-Inter-1.60.0.ebuild:
+  Stable for remaining arches (ALLARCHES), bug 583712
+
+  Package-Manager: portage-2.3.0_rc1
+
+  04 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Test-Inter-1.30.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

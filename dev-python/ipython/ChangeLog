@@ -280,3 +280,21 @@
 
   Package-Manager: portage-2.2.28
 
+  04 Jun 2016; David Seifert <soap@gentoo.org> ipython-4.1.2.ebuild:
+  Call virtx instead of virtualmake
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1571
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+*ipython-4.2.0 (04 Jun 2016)
+
+  04 Jun 2016; David Seifert <soap@gentoo.org> +ipython-4.2.0.ebuild:
+  Version bump to 4.2.0
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1571
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

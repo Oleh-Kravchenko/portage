@@ -127,3 +127,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  04 Jun 2016; Markus Meier <maekke@gentoo.org> expat-2.1.1-r1.ebuild:
+  arm stable, bug #583268
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

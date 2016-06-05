@@ -77,3 +77,15 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*electron-0.36.12-r2 (04 Jun 2016)
+
+  04 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -electron-0.36.12-r1.ebuild, +electron-0.36.12-r2.ebuild:
+  Add missing dependency (x11-libs/libnotify).
+
+  Package-Manager: portage-2.2.28
+  Gentoo-Bug: https://bugs.gentoo.org/584106
+  Closes: https://github.com/gentoo/gentoo/pull/1598
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

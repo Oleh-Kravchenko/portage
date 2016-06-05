@@ -141,3 +141,8 @@
   25 May 2016; Matt Turner <mattst88@gentoo.org> sysvinit-2.88-r9.ebuild:
   alpha stable, bug 580958.
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  files/sysvinit-2.88-makefile.patch, sysvinit-2.88-r7.ebuild,
+  sysvinit-2.88-r9.ebuild:
+  savannah: switch to https URLs
+

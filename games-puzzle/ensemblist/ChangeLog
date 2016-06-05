@@ -70,3 +70,6 @@
 
   Package-Manager: portage-2.2.26
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org> ensemblist-040126.ebuild:
+  savannah: switch to https URLs
+

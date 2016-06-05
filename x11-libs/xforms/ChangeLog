@@ -66,3 +66,6 @@
 
   Bug: 575810
 
+  04 Jun 2016; Mike Frysinger <vapier@gentoo.org> xforms-1.0.93_p1-r1.ebuild:
+  savannah: switch to https URLs
+
