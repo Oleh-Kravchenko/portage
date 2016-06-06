@@ -83,3 +83,9 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Jun 2016; Ryan Hill <rhill@gentoo.org> -creduce-2.1.0.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Ryan Hill <rhill@gentoo.org>
+

@@ -73,3 +73,10 @@
 
   This reverts commit 5a3cc3108312a8982db95c0615361a4b1fe46884.
 
+  05 Jun 2016; Mike Gilbert <floppym@gentoo.org> shutterbug-1.6.36.ebuild:
+  move FOXCONF definition to src_compile
+
+  Bug: https://bugs.gentoo.org/582206
+
+  Package-Manager: portage-2.3.0_rc1_p14
+

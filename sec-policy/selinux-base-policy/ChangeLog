@@ -203,3 +203,22 @@
 
   Package-Manager: portage-2.2.28
 
+  05 Jun 2016; Sven Vermeulen <swift@gentoo.org>
+  selinux-base-policy-9999.ebuild:
+  Use DEPEND on selinux-base rather than RDEPEND
+
+  The sec-policy/selinux-base-policy package builds the base SELinux policy
+  modules for a system, and requires the interface files for it that are
+  provided by the sec-policy/selinux-base package. As such, we need a DEPEND
+  on this rather than an RDEPEND.
+
+  Package-Manager: portage-2.2.28
+
+*selinux-base-policy-2.20151208-r4 (05 Jun 2016)
+
+  05 Jun 2016; Sven Vermeulen <swift@gentoo.org>
+  +selinux-base-policy-2.20151208-r4.ebuild:
+  sec-policy: Release of SELinux policies 2.20151208-r4
+
+  Package-Manager: portage-2.2.28
+

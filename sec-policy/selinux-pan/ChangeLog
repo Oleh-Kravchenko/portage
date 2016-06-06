@@ -159,3 +159,11 @@
   selinux-pan-2.20151208-r2.ebuild:
   sec-policy: Stabilize selinux policy 2.20151208-r2
 
+*selinux-pan-2.20151208-r4 (05 Jun 2016)
+
+  05 Jun 2016; Sven Vermeulen <swift@gentoo.org>
+  +selinux-pan-2.20151208-r4.ebuild, selinux-pan-9999.ebuild:
+  sec-policy: Release of SELinux policies 2.20151208-r4
+
+  Package-Manager: portage-2.2.28
+

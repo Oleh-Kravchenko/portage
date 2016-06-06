@@ -596,3 +596,9 @@
   03 Jun 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
   Bump cmake requirement for live to 3.4.3, #584914
 
+  05 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  -files/clang-3.3-gcc-header-path.patch,
+  -files/clang-3.3-gentoo-install.patch, -files/llvm-3.3-R600_debug.patch,
+  -files/llvm-3.3-r2-gentoo-install.patch, -llvm-3.3-r3.ebuild:
+  Drop 3.3
+

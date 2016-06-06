@@ -91,3 +91,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  05 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Test-Pod-Coverage-1.100.0.ebuild:
+  Stable for remaining arches (ALLARCHES), bug 584228
+
+  Package-Manager: portage-2.3.0_rc1
+
+  05 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Test-Pod-Coverage-1.80.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

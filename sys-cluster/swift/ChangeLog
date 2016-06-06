@@ -202,3 +202,6 @@
   files/swift-object.initd, files/swift-proxy.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  05 Jun 2016; Matthew Thode <prometheanfire@gentoo.org> swift-2.7.0.ebuild:
+  openstack mass stable for mitaka, x86 and amd64 for bug 582170
+

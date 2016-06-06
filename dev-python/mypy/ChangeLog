@@ -65,3 +65,14 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  05 Jun 2016; Alex Brandt <alunduil@gentoo.org> mypy-0.4.1.ebuild:
+  fix #584556
+
+  Apparently, I misread the dependencees and added the dependence on typing
+  that
+  should have been a blocker.  This commit rectifies that situation.  I'm not
+  convinced other problems don't exist and we may see more bugs before this is
+  completely resolved.
+
+  Package-Manager: portage-2.3.0_rc1
+

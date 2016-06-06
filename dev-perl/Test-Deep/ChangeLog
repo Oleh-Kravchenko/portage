@@ -108,3 +108,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  05 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Test-Deep-1.120.0.ebuild:
+  Stable on remaining arches (ALLARCHES), bug 583618
+
+  Package-Manager: portage-2.3.0_rc1
+
+  05 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Test-Deep-0.110.0-r2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

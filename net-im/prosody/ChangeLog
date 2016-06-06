@@ -119,3 +119,12 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  05 Jun 2016; Patrice Clement <monsieurp@gentoo.org> files/prosody.service:
+  added the reload action to the systemd service
+
+  Package-Manager: portage-2.3.0_rc1
+  Acked-by: Michał Górny <mgorny@gentoo.org>
+  Closes: https://github.com/gentoo/gentoo/pull/1517
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -88,3 +88,11 @@
 
   Package-Manager: portage-2.2.28
 
+  05 Jun 2016; David Seifert <soap@gentoo.org>
+  +files/shogun-4.1.0-remove-C-linkage.patch, shogun-4.1.0.ebuild:
+  Remove extern "C", fix USE="doc" generation
+
+  Gentoo-Bug: 582464
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -173,3 +173,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  05 Jun 2016; Michael Weber <xmw@gentoo.org> mupdf-1.9a.ebuild:
+  drop USE=-javascript.
+
+  Package-Manager: portage-2.3.0_rc1
+

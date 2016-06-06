@@ -22,3 +22,11 @@
 
   Package-Manager: portage-2.2.26
 
+*phonenumbers-7.2.7 (05 Jun 2016)
+
+  05 Jun 2016; Johann Schmitz <ercpe@gentoo.org> -phonenumbers-7.2.6.ebuild,
+  +phonenumbers-7.2.7.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

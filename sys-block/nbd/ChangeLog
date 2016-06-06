@@ -128,3 +128,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  05 Jun 2016; Mike Frysinger <vapier@gentoo.org> nbd-3.11.ebuild,
+  nbd-3.12.1.ebuild, nbd-3.13.ebuild:
+  disable syslog when USE=debug #585086
+

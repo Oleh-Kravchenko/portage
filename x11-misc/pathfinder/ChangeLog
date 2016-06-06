@@ -73,3 +73,13 @@
 
   This reverts commit e4333453f946ddfd571daf06738e947bab21a53b.
 
+  05 Jun 2016; Mike Gilbert <floppym@gentoo.org> pathfinder-1.6.36.ebuild:
+  move FOXCONF definition to src_compile
+
+  mgorny had the right idea in e4333453, but EAPI 1 does not execute
+  src_configure.
+
+  Bug: https://bugs.gentoo.org/582206
+
+  Package-Manager: portage-2.3.0_rc1_p14
+

@@ -96,3 +96,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  05 Jun 2016; Mike Gilbert <floppym@gentoo.org>
+  -python-musicbrainz-ngs-0.4.ebuild, -python-musicbrainz-ngs-0.5.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1_p14
+

@@ -155,3 +155,7 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  05 Jun 2016; Matthew Thode <prometheanfire@gentoo.org>
+  python-glanceclient-2.0.0.ebuild:
+  openstack mass stable for mitaka, x86 and amd64 for bug 582170
+

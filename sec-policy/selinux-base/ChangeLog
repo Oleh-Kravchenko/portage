@@ -197,3 +197,28 @@
 
   Package-Manager: portage-2.2.26
 
+  05 Jun 2016; Sven Vermeulen <swift@gentoo.org> selinux-base-9999.ebuild:
+  Drop old blocker on selinux-base-policy
+
+  The purpose of selinux-base is to provide the interface files and base
+  module
+  (but does not necessarily require it to load). Historically, the package was
+  the full base policy, but since 2012 this was moved to the selinux-base-
+  policy
+  package.
+
+  A blocker was put in place to ensure proper transitioning.
+
+  As we no longer have these policies in our repository, remove this old
+  blocker.
+
+  Package-Manager: portage-2.2.28
+
+*selinux-base-2.20151208-r4 (05 Jun 2016)
+
+  05 Jun 2016; Sven Vermeulen <swift@gentoo.org>
+  +selinux-base-2.20151208-r4.ebuild:
+  sec-policy: Release of SELinux policies 2.20151208-r4
+
+  Package-Manager: portage-2.2.28
+

@@ -167,3 +167,12 @@
   octave-4.0.2-r1.ebuild:
   savannah: switch to https URLs
 
+  05 Jun 2016; Michał Górny <mgorny@gentoo.org> -octave-3.8.1.ebuild,
+  -octave-3.8.1-r1.ebuild:
+  Nuke 3.8.1
+
+  05 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  -files/octave-3.8.0-llvm-3.4.patch,
+  -files/octave-3.8.0-llvm-configure.patch, octave-3.8.2.ebuild:
+  Remove jit from 3* as it requires llvm < 3.5
+
