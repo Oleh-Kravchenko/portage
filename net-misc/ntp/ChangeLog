@@ -264,3 +264,10 @@
 
   Package-Manager: portage-2.2.28
 
+  06 Jun 2016; Tobias Klausmann <klausman@gentoo.org> ntp-4.2.8_p8.ebuild:
+  4.2.8_p8-r0: add alpha keyword
+
+  Gentoo-Bug: 584954
+
+  Package-Manager: portage-2.3.0_rc1
+

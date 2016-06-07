@@ -133,3 +133,10 @@
 
   Package-Manager: portage-2.2.28_p57
 
+*gentoolkit-0.3.1.1 (06 Jun 2016)
+
+  06 Jun 2016; Brian Dolbec <dolsen@gentoo.org> +gentoolkit-0.3.1.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1_p19
+

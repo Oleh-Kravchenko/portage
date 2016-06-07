@@ -106,3 +106,10 @@
   files/apcupsd.init.4, files/apcupsd.powerfail.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  06 Jun 2016; Agostino Sarubbo <ago@gentoo.org> apcupsd-3.14.13.ebuild:
+  amd64 stable wrt bug #565608
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -580,3 +580,9 @@
   Unknown what it was working around. The same existed for amd64 and
   hppa but both were removed more than ten years ago.
 
+*python-3.5.1-r3 (06 Jun 2016)
+
+  06 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  +files/python-3.5-distutils-OO-build.patch, +python-3.5.1-r3.ebuild:
+  Fix distutils to compile .opt-1 & .opt-2 in 3.5
+

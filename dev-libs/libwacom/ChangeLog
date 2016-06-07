@@ -127,3 +127,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  06 Jun 2016; Pacho Ramos <pacho@gentoo.org> libwacom-0.18.ebuild:
+  x86 stable, bug #579230
+
+  Package-Manager: portage-2.3.0_rc1
+

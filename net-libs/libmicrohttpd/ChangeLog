@@ -230,3 +230,11 @@
 
   Package-Manager: portage-2.2.28
 
+  06 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  libmicrohttpd-0.9.49.ebuild:
+  0.9.49-r0: add alpha keyword
+
+  Gentoo-Bug: 584884
+
+  Package-Manager: portage-2.3.0_rc1
+

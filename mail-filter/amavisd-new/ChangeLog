@@ -132,3 +132,16 @@
   files/amavisd.initd-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*amavisd-new-2.11.0-r1 (06 Jun 2016)
+*amavisd-new-2.10.1-r4 (06 Jun 2016)
+*amavisd-new-2.9.1-r2 (06 Jun 2016)
+
+  06 Jun 2016; Marc Schiffbauer <mschiff@gentoo.org>
+  -amavisd-new-2.9.1-r1.ebuild, +amavisd-new-2.9.1-r2.ebuild,
+  -amavisd-new-2.10.1-r3.ebuild, +amavisd-new-2.10.1-r4.ebuild,
+  -amavisd-new-2.11.0.ebuild, +amavisd-new-2.11.0-r1.ebuild,
+  files/amavisd-snmp.initd:
+  Fix depend and conf.d setting in amavisd-snmp
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -295,3 +295,14 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*chrony-2.4_pre1-r3 (06 Jun 2016)
+
+  06 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  -chrony-2.4_pre1-r2.ebuild, +chrony-2.4_pre1-r3.ebuild,
+  files/chrony-2.4-r1.logrotate:
+  Fix the logrotate script for good.
+
+  Also bump latest version so people get the new logrotate file.
+
+  Package-Manager: portage-2.3.0_rc1
+

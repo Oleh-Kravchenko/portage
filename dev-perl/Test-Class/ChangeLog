@@ -80,3 +80,10 @@
 
   Package-Manager: portage-2.2.28
 
+  06 Jun 2016; Agostino Sarubbo <ago@gentoo.org> Test-Class-0.500.0.ebuild:
+  amd64 stable wrt bug #583524
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

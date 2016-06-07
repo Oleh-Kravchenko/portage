@@ -747,3 +747,6 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Jun 2016; Jory A. Pratt <anarchy@gentoo.org> metadata.xml:
+  renmae force-gtk2 to gtk2 in metadata.xml for changes from bug #581662
+

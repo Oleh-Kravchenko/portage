@@ -159,3 +159,17 @@
   * dev-util/wstool-0.1.13 (upstream tarball changed)
   * dev-util/rosdep-0.11.5 (upstream tarball deleted)
 
+  06 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  jsonschema-2.5.1-r2.ebuild:
+  2.5.1-r2: add alpha keyword
+
+  Gentoo-Bug: 583704
+
+  Package-Manager: portage-2.3.0_rc1
+
+  06 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  jsonschema-2.5.1-r2.ebuild:
+  Add missing dep on d-py/mock for USE=test
+
+  Package-Manager: portage-2.3.0_rc1
+

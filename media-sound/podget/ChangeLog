@@ -189,3 +189,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*podget-0.8 (06 Jun 2016)
+
+  06 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> +podget-0.8.ebuild:
+  verbump to 0.8
+
+  Closes: https://github.com/gentoo/gentoo/pull/1617
+  Package-Manager: portage-2.3.0_rc1
+

@@ -95,3 +95,8 @@
   12 Mar 2016; Michał Górny <mgorny@gentoo.org> +pypy-5.0.0.ebuild:
   Bump to 5.0.0, #577132
 
+*pypy-5.1.1 (06 Jun 2016)
+
+  06 Jun 2016; Michał Górny <mgorny@gentoo.org> +pypy-5.1.1.ebuild:
+  Bump to 5.1.1
+

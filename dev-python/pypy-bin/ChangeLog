@@ -200,3 +200,8 @@
   pypy-bin-5.0.0.ebuild:
   INSDESTTREE -> custom var, #582982
 
+*pypy-bin-5.1.1 (06 Jun 2016)
+
+  06 Jun 2016; Michał Górny <mgorny@gentoo.org> +pypy-bin-5.1.1.ebuild:
+  Bump to 5.1.1
+

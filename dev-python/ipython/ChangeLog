@@ -298,3 +298,23 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*ipython-4.2.0-r1 (06 Jun 2016)
+
+  06 Jun 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/ipython-4.2.0-only-use-backports-shutil-on-python2.patch,
+  +ipython-4.2.0-r1.ebuild:
+  Add missing RDEPEND for python2, apply patch to not use on python3
+
+  Adds RDEPEND on dev-python/backports-shutil_get_terminal_size for python2,
+  add patch from
+  https://github.com/ipython/ipython/pull/9417 to not require on python3.
+
+  Gentoo-Bug: 585038
+
+  Package-Manager: portage-2.3.0_rc1
+
+  06 Jun 2016; Patrick McLean <chutzpah@gentoo.org> -ipython-4.2.0.ebuild:
+  Drop 4.2.0 ebuild since 4.2.0-r1 fixes issues
+
+  Package-Manager: portage-2.3.0_rc1
+

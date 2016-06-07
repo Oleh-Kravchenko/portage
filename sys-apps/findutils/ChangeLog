@@ -240,3 +240,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  05 Jun 2016; Mike Frysinger <vapier@gentoo.org> findutils-4.6.0-r1.ebuild:
+  drop USE=debug flag #584748
+
+  Upstream has dropped this configure option in favor of the -D runtime
+  flag (see upstream commit 9951518076582e4d490aca3fbdc9cb8c965fca38).
+  There's no need to keep it in the ebuild, and it causes build failures.
+

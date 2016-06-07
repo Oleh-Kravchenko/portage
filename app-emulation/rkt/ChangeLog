@@ -133,3 +133,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*rkt-1.7.0 (06 Jun 2016)
+
+  06 Jun 2016; Zac Medico <zmedico@gentoo.org> +rkt-1.7.0.ebuild:
+  version bump to 1.7.0
+
+  Package-Manager: portage-2.3.0_rc1
+
+  06 Jun 2016; Zac Medico <zmedico@gentoo.org> -rkt-1.4.0.ebuild:
+  remove old version 1.4.0
+
+  Package-Manager: portage-2.3.0_rc1
+

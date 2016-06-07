@@ -31,3 +31,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*go-ipfs-bin-0.4.2 (06 Jun 2016)
+
+  06 Jun 2016; Sam Jorna <wraeth@gentoo.org> +go-ipfs-bin-0.4.2.ebuild:
+  bump to 0.4.2
+
+  Bump package version to 0.4.2 per maintainer request.
+
+  Package-Manager: portage-2.3.0_rc1
+

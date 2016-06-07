@@ -84,3 +84,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  photofilmstrip-2.1.0.ebuild:
+  fix license, combine sed, add missing die
+
+  Package-Manager: portage-2.2.28
+

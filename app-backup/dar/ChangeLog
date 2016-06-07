@@ -119,3 +119,21 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*dar-2.5.5 (06 Jun 2016)
+*dar-2.4.22 (06 Jun 2016)
+
+  06 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> +dar-2.4.22.ebuild,
+  +dar-2.5.5.ebuild:
+  Bump to versions 2.4.22 and 2.5.5
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  06 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> -dar-2.5.3.ebuild,
+  -files/dar-2.5.3-asneeded.patch,
+  -files/dar-2.5.3-autoconf_missing_gpgme.patch:
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

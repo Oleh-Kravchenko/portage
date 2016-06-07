@@ -209,3 +209,47 @@
 
   Package-Manager: portage-2.2.28
 
+*spamassassin-3.4.1-r6 (05 Jun 2016)
+
+  05 Jun 2016; Michael Orlitzky <mjo@gentoo.org>
+  +files/update-spamassassin-rules.cron, metadata.xml,
+  +spamassassin-3.4.1-r6.ebuild:
+  new revision with an optional sa-update cron job.
+
+  To make life easier for our users, a cron job that runs sa-update
+  nightly has been provided. It is only installed with USE=cron, but an
+  elog will mention its existence when that USE flag is disabled. The
+  cron job will also attempt to restart or reload spamd/amavisd if the
+  signatures have been updated.
+
+  Alongside that new feature, some of the dependencies have been cleaned
+  up. Pointless version bounds were removed, and an obsolete perl module
+  or two was pruned. The libwww-perl dependency was replaced by
+  wget/curl.
+
+  Gentoo-Bug: 532094
+
+  Package-Manager: portage-2.2.28
+
+  05 Jun 2016; Michael Orlitzky <mjo@gentoo.org> -spamassassin-3.4.1.ebuild,
+  -spamassassin-3.4.1-r2.ebuild, -spamassassin-3.4.1-r3.ebuild,
+  -spamassassin-3.4.1-r4.ebuild, -spamassassin-3.4.1-r5.ebuild:
+  remove old unstable revisions.
+
+  Package-Manager: portage-2.2.28
+
+  05 Jun 2016; Michael Orlitzky <mjo@gentoo.org> metadata.xml:
+  update metadata.xml with new maintainers.
+
+  We had a few users request to proxy-maintain this package. Now that
+  its open bugs are fixed, this commit adds two of those users (Philippe
+  Chaintreuil and Marcin Mirosław) to metadata.xml. The Proxy
+  Maintainers project has been added to support them.
+
+  I've added myself, too, for now, so that I will be CCed on bugs
+  arising from my recent changes.
+
+  Gentoo-Bug: 583908
+
+  Package-Manager: portage-2.2.28
+

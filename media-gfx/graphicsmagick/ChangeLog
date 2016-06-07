@@ -119,3 +119,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  06 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  graphicsmagick-1.3.24.ebuild:
+  1.3.24-r0: add alpha keyword
+
+  Gentoo-Bug: 584512
+
+  Package-Manager: portage-2.3.0_rc1
+

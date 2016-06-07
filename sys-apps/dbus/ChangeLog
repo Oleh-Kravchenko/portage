@@ -203,3 +203,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  06 Jun 2016; Pacho Ramos <pacho@gentoo.org> dbus-1.10.8-r1.ebuild:
+  x86 stable, bug #578946
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -516,3 +516,15 @@
 
   Signed-off-by: NP-Hardass <NP-Hardass@gentoo.org>
 
+  06 Jun 2016; Austin English <wizardedit@gentoo.org>
+  +files/builtin_ms_va_list.c, wine-1.8-r1.ebuild, wine-1.8.1-r1.ebuild,
+  wine-1.8.2.ebuild, wine-1.9.4-r1.ebuild, wine-1.9.5-r1.ebuild,
+  wine-1.9.6-r1.ebuild, wine-1.9.7-r1.ebuild, wine-1.9.8.ebuild,
+  wine-1.9.9.ebuild, wine-1.9.10.ebuild, wine-1.9.11.ebuild, wine-9999.ebuild:
+  check if CC supports builtin_ms_va_list when attempting 64-bit support
+
+  06 Jun 2016; Pacho Ramos <pacho@gentoo.org> wine-1.8.2.ebuild:
+  amd64 stable, bug #583946
+
+  Package-Manager: portage-2.3.0_rc1
+

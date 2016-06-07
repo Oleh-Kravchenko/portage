@@ -416,3 +416,8 @@
 
   Package-Manager: portage-2.2.28
 
+  06 Jun 2016; Benda Xu <heroxbd@gentoo.org> files/eblits/src_install.eblit:
+  glibc_headers_install should use $(alt_prefix).
+
+    do not hardcode /usr/${CTARGET}.
+

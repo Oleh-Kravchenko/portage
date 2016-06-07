@@ -346,3 +346,20 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  06 Jun 2016; Hans de Graaff <graaff@gentoo.org> ruby-2.1.9.ebuild,
+  ruby-2.1.10.ebuild, ruby-2.2.5.ebuild, ruby-2.3.0.ebuild, ruby-2.3.1.ebuild:
+  fix bootstrap build on uclibc
+
+  With a blank LIBPATHENV the ruby build tools fall back to using LD_PRELOAD
+  to load libruby.so during the build process. With uclibc, preloading is
+  now optional and not enabled at least in the vanilla stage3 that we
+  produce. This causes the build to fail since there are no options left
+  to find libruby.so.
+
+  Fixed by adding ${S} to the temporary LD_LIBRARY_PATH during the install
+  phase. Thanks to blueness for the original patch.
+
+  Fixes bug 564272
+
+  Package-Manager: portage-2.2.28
+
