@@ -83,3 +83,11 @@
 
   Package-Manager: portage-2.2.28
 
+*wcsaxes-0.8 (06 Jun 2016)
+
+  06 Jun 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  +files/wcsaxes-0.8-disable_mpltest.patch, +wcsaxes-0.8.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

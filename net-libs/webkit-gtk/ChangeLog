@@ -360,3 +360,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  07 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  webkit-gtk-2.10.9.ebuild:
+  2.10.9-r0: add ~alpha keyword
+
+  Gentoo-Bug: 566270
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -271,3 +271,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  07 Jun 2016; Jeroen Roovers <jer@gentoo.org> ntp-4.2.8_p8.ebuild:
+  Stable for PPC64 (bug #584954).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

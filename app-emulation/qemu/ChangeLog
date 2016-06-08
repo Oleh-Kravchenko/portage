@@ -633,3 +633,8 @@
   files/qemu-binfmt.initd-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  06 Jun 2016; Mike Frysinger <vapier@gentoo.org> qemu-2.5.0-r2.ebuild,
+  qemu-2.5.0-r3.ebuild, qemu-2.5.1.ebuild, qemu-2.6.0.ebuild,
+  qemu-9999.ebuild:
+  depend on jpeg SLOT=0 for building
+

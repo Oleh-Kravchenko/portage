@@ -500,3 +500,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*xen-tools-4.6.1-r4 (07 Jun 2016)
+
+  07 Jun 2016; Yixun Lan <dlan@gentoo.org> +xen-tools-4.6.1-r4.ebuild:
+  fix XSA-175,178 bug
+
+  also include a few non-security upstream fixes
+
+  Gentoo-Bug: 583464, XSA-175
+  Gentoo-Bug: 583466, XSA-178
+
+  Package-Manager: portage-2.3.0_rc1
+

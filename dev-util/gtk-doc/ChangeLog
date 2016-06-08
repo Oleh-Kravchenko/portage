@@ -70,3 +70,10 @@
   24 Mar 2016; Dennis Lamm <expeditioneer@gentoo.org> +gtk-doc-1.25.ebuild:
   Version bump
 
+  07 Jun 2016; Tobias Klausmann <klausman@gentoo.org> gtk-doc-1.25.ebuild:
+  1.25-r0: add alpha keyword
+
+  Gentoo-Bug: 584468
+
+  Package-Manager: portage-2.3.0_rc1
+

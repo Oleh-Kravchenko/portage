@@ -259,3 +259,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  07 Jun 2016; Yixun Lan <dlan@gentoo.org> ceph-10.2.1.ebuild,
+  +files/ceph-10.2.1-libzfs.patch:
+  correct zfs PKG_CONFIG's variable
+
+  Gentoo-Bug: 585050
+
+  Package-Manager: portage-2.3.0_rc1
+

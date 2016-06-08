@@ -142,3 +142,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*libuv-1.9.1 (07 Jun 2016)
+
+  07 Jun 2016; Patrick Lauer <patrick@gentoo.org> +libuv-1.9.1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0_rc1
+
