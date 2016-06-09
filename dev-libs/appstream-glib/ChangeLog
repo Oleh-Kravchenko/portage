@@ -261,3 +261,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  08 Jun 2016; Markus Meier <maekke@gentoo.org> appstream-glib-0.5.15.ebuild:
+  arm stable, bug #584468
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

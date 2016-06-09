@@ -540,3 +540,22 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*wireshark-2.0.4 (08 Jun 2016)
+
+  08 Jun 2016; Jeroen Roovers <jer@gentoo.org> +wireshark-2.0.4.ebuild:
+  Version bump (bug #585348).
+
+  Package-Manager: portage-2.3.0_rc1
+
+  08 Jun 2016; Jeroen Roovers <jer@gentoo.org> -wireshark-2.0.2-r1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  08 Jun 2016; Tobias Klausmann <klausman@gentoo.org> wireshark-2.0.4.ebuild:
+  2.0.4-r0: add alpha keyword
+
+  Gentoo-Bug: 585348
+
+  Package-Manager: portage-2.3.0_rc1
+

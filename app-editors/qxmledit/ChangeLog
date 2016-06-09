@@ -122,3 +122,23 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  07 Jun 2016; Davide Pesavento <pesa@gentoo.org> qxmledit-0.9.3.ebuild:
+  add missing dep; use EPREFIX where appropriate
+
+  Gentoo-Bug: 585324
+
+  Package-Manager: portage-2.3.0_rc1
+
+  08 Jun 2016; Michael Palimaka <kensington@gentoo.org> qxmledit-0.9.3.ebuild:
+  x86 stable
+
+  Gentoo-bug: 584544
+
+  Package-Manager: portage-2.3.0_rc1
+
+  08 Jun 2016; Michael Palimaka <kensington@gentoo.org>
+  -qxmledit-0.8.8.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

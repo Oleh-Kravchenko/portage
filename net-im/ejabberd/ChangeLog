@@ -115,3 +115,42 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/ejabberd-3.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  07 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  ejabberd-2.1.13-r2.ebuild, ejabberd-15.03-r1.ebuild:
+  Fix repoman warning about missing slot operator
+
+  Add slot operator for dev-libs/openssl dependency.
+
+  Package-Manager: portage-2.3.0_rc1
+
+*ejabberd-16.04 (07 Jun 2016)
+
+  07 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +ejabberd-16.04.ebuild,
+  +files/ejabberd-16.04-ejabberdctl.patch, +files/epam-wrapper, metadata.xml:
+  Bump version
+
+  Remove obsolete flags. 'ssl' flag is removed because TLS support is not
+  optional. 'tools' flag is temporarily removed because of problematic
+  dependency. It may be restored in the future, although it just controls
+  whether development tools should be installed.
+
+  Debundle ejabberd dependencies. Use system rebar instead of bundled one.
+
+  Access epam binary via wrapper with ejabberd user ownership. Fix epam
+  binary localisation.
+
+  Correct path to captcha command.
+
+  Skip installing docs from Makefile, because this only install COPYING.
+
+  Restrict test because test suite doesn't work out of the box. It needs
+  database set up first.
+
+  Rebase ejabberctl patch.
+
+  Refactor ebuild and bump EAPI to 6.
+
+  Correct funny capitalization in description.
+
+  Package-Manager: portage-2.3.0_rc1
+

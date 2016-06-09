@@ -81,3 +81,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  08 Jun 2016; Michael Palimaka <kensington@gentoo.org> howdoi-1.1.9.ebuild:
+  amd64/x86 stable
+
+  Package-Manager: portage-2.3.0_rc1
+

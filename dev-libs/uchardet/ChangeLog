@@ -189,3 +189,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  08 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  uchardet-0.0.5-r1.ebuild, uchardet-9999.ebuild:
+  update LICENSE
+
+  Closes: https://github.com/gentoo/gentoo/pull/1627
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

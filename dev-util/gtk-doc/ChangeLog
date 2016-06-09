@@ -77,3 +77,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  08 Jun 2016; Markus Meier <maekke@gentoo.org> gtk-doc-1.25.ebuild:
+  arm stable, bug #584468
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

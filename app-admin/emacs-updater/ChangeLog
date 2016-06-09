@@ -83,3 +83,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  08 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  emacs-updater-1.15.ebuild:
+  1.15-r0: add alpha keyword
+
+  Gentoo-Bug: 585320
+
+  Package-Manager: portage-2.3.0_rc1
+

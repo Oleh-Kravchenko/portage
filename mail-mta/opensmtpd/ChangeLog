@@ -175,3 +175,19 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  07 Jun 2016; Jason A. Donenfeld <zx2c4@gentoo.org> files/smtpd.initd:
+  more robust openrc script
+
+*opensmtpd-5.9.2.201606071034_p1-r1 (08 Jun 2016)
+
+  08 Jun 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  +files/opensmtpd-5.9.2.201606071034_p1-ipv6-net-pton.patch,
+  +opensmtpd-5.9.2.201606071034_p1-r1.ebuild:
+  repair snapshot for v6
+
+  Package-Manager: portage-2.3.0_rc1
+
+  08 Jun 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  -files/opensmtpd-5.7.3p2-libressl-arc4random-circularity.patch:
+  remove old patches
+

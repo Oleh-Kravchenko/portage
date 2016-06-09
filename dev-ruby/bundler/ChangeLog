@@ -155,3 +155,10 @@
 
   This reverts commit ad56b077a16c8298f8e8fba62501d099eb5541f6.
 
+*bundler-1.12.5 (07 Jun 2016)
+
+  07 Jun 2016; Zero_Chaos <zerochaos@gentoo.org> +bundler-1.12.5.ebuild:
+  bump to 1.12.5
+
+  Package-Manager: portage-2.3.0_rc1
+

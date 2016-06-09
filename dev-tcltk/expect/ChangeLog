@@ -93,3 +93,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  08 Jun 2016; Markus Meier <maekke@gentoo.org> expect-5.45.ebuild:
+  arm stable, bug #511622
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

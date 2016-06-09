@@ -152,3 +152,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  08 Jun 2016; Michael Palimaka <kensington@gentoo.org> kid3-3.3.2-r1.ebuild:
+  x86 stable
+
+  Gentoo-bug: 581262
+
+  Package-Manager: portage-2.3.0_rc1
+
+  08 Jun 2016; Michael Palimaka <kensington@gentoo.org>
+  -files/kid3-3.2.1-libdir.patch, -kid3-3.3.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+
