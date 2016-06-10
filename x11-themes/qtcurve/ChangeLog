@@ -124,3 +124,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jun 2016; Jeroen Roovers <jer@gentoo.org> qtcurve-1.8.18-r1.ebuild:
+  Stable for HPPA (bug #572114).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

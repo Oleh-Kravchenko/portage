@@ -193,3 +193,13 @@
   pypy3-9999.ebuild:
   INSDESTTREE -> custom var, #582982
 
+  09 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  -files/21_all_distutils_c++.patch, +files/5.2.0-distutils-c++.patch,
+  pypy3-9999.ebuild:
+  Update the distutils C++ patch
+
+*pypy3-5.2.0_alpha1 (09 Jun 2016)
+
+  09 Jun 2016; Michał Górny <mgorny@gentoo.org> +pypy3-5.2.0_alpha1.ebuild:
+  Version bump to 5.2.0-alpha1
+

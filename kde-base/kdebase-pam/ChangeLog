@@ -92,3 +92,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jun 2016; Johannes Huber <johu@gentoo.org> -files/kde-np.pam-9,
+  -files/kde.pam-9, -kdebase-pam-9.ebuild:
+  Remove 9
+
+  Package-Manager: portage-2.3.0_rc1
+

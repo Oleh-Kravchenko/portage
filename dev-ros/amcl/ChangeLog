@@ -53,3 +53,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jun 2016; Alexis Ballier <aballier@gentoo.org> -amcl-1.13.0.ebuild,
+  -amcl-1.13.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+
+  09 Jun 2016; Alexis Ballier <aballier@gentoo.org> amcl-1.14.0.ebuild,
+  amcl-9999.ebuild:
+  add missing rosbag dep, bug #585478
+
+  Package-Manager: portage-2.3.0_rc1
+

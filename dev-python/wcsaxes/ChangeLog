@@ -91,3 +91,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jun 2016; Sébastien Fabbro <bicatali@gentoo.org> -wcsaxes-0.6.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

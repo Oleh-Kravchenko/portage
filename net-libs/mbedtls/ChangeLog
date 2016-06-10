@@ -144,3 +144,8 @@
   08 Jun 2016; Mike Frysinger <vapier@gentoo.org> mbedtls-2.2.1.ebuild:
   add arm64/ia64/m68k/sh love to 2.2.1 #583394
 
+  08 Jun 2016; Anthony G. Basile <blueness@gentoo.org> mbedtls-2.2.1.ebuild:
+  stable on arm/ppc/ppc64, bug #583394
+
+  Package-Manager: portage-2.2.28
+

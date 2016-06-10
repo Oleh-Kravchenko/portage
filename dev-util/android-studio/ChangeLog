@@ -217,3 +217,11 @@
 
   Package-Manager: portage-2.2.28
 
+*android-studio-2.1.2.0.143.2915827 (09 Jun 2016)
+
+  09 Jun 2016; Jason Zaman <perfinion@gentoo.org>
+  +android-studio-2.1.2.0.143.2915827.ebuild:
+  bump to 2.1.2 and eapi6
+
+  Package-Manager: portage-2.2.28
+

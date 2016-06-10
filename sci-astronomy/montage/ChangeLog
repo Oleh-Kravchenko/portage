@@ -14,3 +14,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jun 2016; Sébastien Fabbro <bicatali@gentoo.org> montage-4.1.ebuild:
+  workaround trailing spaces for some pkgconfig
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=585466
+
+  Package-Manager: portage-2.3.0_rc1
+

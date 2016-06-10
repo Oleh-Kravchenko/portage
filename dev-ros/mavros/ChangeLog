@@ -156,3 +156,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jun 2016; Alexis Ballier <aballier@gentoo.org> mavros-0.17.3.ebuild,
+  mavros-9999.ebuild:
+  add missing nav_msg dep, bug #585404
+
+  Package-Manager: portage-2.3.0_rc1
+

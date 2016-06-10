@@ -15,3 +15,11 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*rst-linker-1.7 (08 Jun 2016)
+
+  08 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> +rst-linker-1.7.ebuild:
+  bump to 1.7
+
+  Closes: https://github.com/gentoo/gentoo/pull/1622
+  Package-Manager: portage-2.3.0_rc1
+

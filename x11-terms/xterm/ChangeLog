@@ -187,3 +187,19 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*xterm-325 (09 Jun 2016)
+
+  09 Jun 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +xterm-325.ebuild:
+  Version bump to 325
+
+  Package-Manager: portage-2.2.28
+
+  09 Jun 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  xterm-325.ebuild:
+  make building xinerama support optional
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=580936
+
+  Package-Manager: portage-2.2.28
+

@@ -611,3 +611,9 @@
 
   Package-Manager: portage-2.2.28
 
+  09 Jun 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild,
+  metadata.xml:
+  add ebur128 useflag, bug #584816
+
+  Package-Manager: portage-2.3.0_rc1
+

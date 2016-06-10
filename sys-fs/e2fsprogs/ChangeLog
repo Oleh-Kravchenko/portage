@@ -126,3 +126,12 @@
   metadata.xml:
   add USE=fuse to control fuse2fs
 
+*e2fsprogs-1.43.1 (09 Jun 2016)
+
+  09 Jun 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +e2fsprogs-1.43.1.ebuild:
+  Bump to version 1.43.1
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

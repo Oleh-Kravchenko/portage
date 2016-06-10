@@ -107,3 +107,12 @@
   -e2fsprogs-libs-1.41.7.ebuild:
   sys-fs/e2fsprogs: drop old 1.41.7 version
 
+*e2fsprogs-libs-1.43.1 (09 Jun 2016)
+
+  09 Jun 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +e2fsprogs-libs-1.43.1.ebuild:
+  Bump to version 1.43.1
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

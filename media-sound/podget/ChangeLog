@@ -197,3 +197,20 @@
   Closes: https://github.com/gentoo/gentoo/pull/1617
   Package-Manager: portage-2.3.0_rc1
 
+*podget-0.8.1 (08 Jun 2016)
+
+  08 Jun 2016; Patrice Clement <monsieurp@gentoo.org> +podget-0.8.1.ebuild:
+  verbump to 0.8.1
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  08 Jun 2016; Patrice Clement <monsieurp@gentoo.org> -podget-0.8.ebuild:
+  remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/1631
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

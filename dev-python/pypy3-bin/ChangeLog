@@ -179,3 +179,12 @@
   14 May 2016; Michał Górny <mgorny@gentoo.org> pypy3-bin-2.4.0-r4.ebuild:
   INSDESTTREE -> custom var, #582982
 
+  09 Jun 2016; Michał Górny <mgorny@gentoo.org> pypy3-bin-2.4.0-r4.ebuild:
+  Update SRC_URI
+
+*pypy3-bin-5.2.0_alpha1 (09 Jun 2016)
+
+  09 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  +files/5.2.0-distutils-c++.patch, +pypy3-bin-5.2.0_alpha1.ebuild:
+  Add 5.2.0-alpha1
+

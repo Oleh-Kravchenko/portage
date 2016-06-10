@@ -280,3 +280,34 @@
 
   Package-Manager: portage-2.2.28
 
+*opencv-3.1.0-r4 (09 Jun 2016)
+
+  09 Jun 2016; Amy Winston <amynka@gentoo.org>
+  +files/opencv-3.1.0-gentooify-python.patch,
+  files/opencv-3.1.0-git-autodetect.patch,
+  +files/opencv-3.1.0-java-magic.patch, +opencv-3.1.0-r4.ebuild:
+  change to EAPI 6 and fix python installation
+
+  -Add patch to install the correct bindings based on single_python_target
+  -Fix Cuda in ebuild
+  -Remove unused CMake options
+  -Modified patch to be -p1 format
+  -Tiny fixes and rewrites for EAPI 6 specs
+
+  09 Jun 2016; Amy Winston <amynka@gentoo.org> opencv-3.1.0-r4.ebuild:
+  remove trailing spaces from patch
+
+  Package-Manager: portage-2.2.28
+
+*opencv-2.4.12-r1 (09 Jun 2016)
+
+  09 Jun 2016; Amy Winston <amynka@gentoo.org>
+  files/opencv-2.4.12-git-autodetect.patch, +opencv-2.4.12-r1.ebuild:
+  eapi=6 bump
+
+  - Fix cuda bug #577410
+  - Add qt5 support
+  - Remove doc useflag bug #556198
+
+  Package-Manager: portage-2.2.28
+

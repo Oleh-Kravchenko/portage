@@ -101,3 +101,12 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*ess-16.04 (09 Jun 2016)
+
+  09 Jun 2016; Ulrich Müller <ulm@gentoo.org> +ess-16.04.ebuild:
+  Version bump.
+
+  Bug: 585470
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -317,3 +317,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jun 2016; Benda Xu <heroxbd@gentoo.org> nodejs-6.2.1.ebuild:
+  fix for Prefix path.
+
+  Package-Manager: portage-2.2.28
+

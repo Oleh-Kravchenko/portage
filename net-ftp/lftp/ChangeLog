@@ -294,3 +294,13 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+*lftp-4.7.2-r1 (09 Jun 2016)
+
+  09 Jun 2016; Anthony G. Basile <blueness@gentoo.org> +lftp-4.7.2-r1.ebuild,
+  lftp-9999.ebuild:
+  add libressl support, bug #565388
+
+  See https://github.com/gentoo/gentoo/pull/1199
+
+  Package-Manager: portage-2.2.28
+
