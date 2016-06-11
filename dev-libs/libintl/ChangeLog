@@ -69,3 +69,11 @@
 
   Package-Manager: portage-2.2.28
 
+*libintl-0.19.8 (10 Jun 2016)
+
+  10 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> +libintl-0.19.8.ebuild:
+  Bump to version 0.19.8
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -205,3 +205,10 @@
   05 Jun 2016; Matthew Thode <prometheanfire@gentoo.org> swift-2.7.0.ebuild:
   openstack mass stable for mitaka, x86 and amd64 for bug 582170
 
+*swift-2.8.0 (10 Jun 2016)
+
+  10 Jun 2016; Matthew Thode <prometheanfire@gentoo.org> +swift-2.8.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

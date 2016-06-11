@@ -219,3 +219,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+*gettext-0.19.8 (10 Jun 2016)
+
+  10 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> +gettext-0.19.8.ebuild:
+  Bump to version 0.19.8
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

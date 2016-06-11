@@ -194,3 +194,14 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  10 Jun 2016; Davide Pesavento <pesa@gentoo.org> -qt-creator-4.0.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+
+  10 Jun 2016; Davide Pesavento <pesa@gentoo.org> qt-creator-4.0.1.ebuild,
+  qt-creator-9999.ebuild:
+  raise qbs dependency
+
+  Package-Manager: portage-2.3.0_rc1
+

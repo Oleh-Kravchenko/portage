@@ -123,3 +123,32 @@
 
   Package-Manager: portage-2.2.28
 
+  10 Jun 2016; Davide Pesavento <pesa@gentoo.org> qbs-1.4.5.ebuild,
+  qbs-1.5.0.ebuild:
+  make sure we skip all tests that have automagic deps
+
+  ...to avoid spurious failures.
+
+  Gentoo-Bug: 585398
+
+  Package-Manager: portage-2.3.0_rc1
+
+*qbs-1.5.1 (10 Jun 2016)
+
+  10 Jun 2016; Davide Pesavento <pesa@gentoo.org> -qbs-1.5.0.ebuild,
+  +qbs-1.5.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0_rc1
+
+  10 Jun 2016; Davide Pesavento <pesa@gentoo.org> qbs-1.4.5.ebuild,
+  qbs-1.5.1.ebuild:
+  update DESCRIPTION; use https in HOMEPAGE
+
+  Package-Manager: portage-2.3.0_rc1
+
+  10 Jun 2016; Davide Pesavento <pesa@gentoo.org> metadata.xml:
+  expand metadata
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -586,3 +586,8 @@
   +files/python-3.5-distutils-OO-build.patch, +python-3.5.1-r3.ebuild:
   Fix distutils to compile .opt-1 & .opt-2 in 3.5
 
+*python-3.4.4 (10 Jun 2016)
+
+  10 Jun 2016; Michał Górny <mgorny@gentoo.org> +python-3.4.4.ebuild:
+  Bump to 3.4.4
+

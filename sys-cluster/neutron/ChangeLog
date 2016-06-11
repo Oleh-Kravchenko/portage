@@ -364,3 +364,12 @@
   05 Jun 2016; Matthew Thode <prometheanfire@gentoo.org> neutron-8.0.0.ebuild:
   openstack mass stable for mitaka, x86 and amd64 for bug 582170
 
+*neutron-8.1.2 (10 Jun 2016)
+*neutron-7.1.1 (10 Jun 2016)
+
+  10 Jun 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +neutron-7.1.1.ebuild, +neutron-8.1.2.ebuild:
+  double bup
+
+  Package-Manager: portage-2.2.28
+

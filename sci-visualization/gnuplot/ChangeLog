@@ -137,3 +137,24 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*gnuplot-5.1.9999 (10 Jun 2016)
+*gnuplot-5.0.9999 (10 Jun 2016)
+
+  10 Jun 2016; Andreas K. Huettel <dilfridge@gentoo.org>
+  +gnuplot-5.0.9999.ebuild, +gnuplot-5.1.9999.ebuild:
+  Import live ebuilds from sci overlay
+
+  This makes tracking the history easier, since live and derived
+  release ebuilds live in the same repo now.
+
+  Exact copy, will compare and/or update it from release ebuilds
+  within the next days.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  10 Jun 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  gnuplot-5.0.9999.ebuild, gnuplot-5.1.9999.ebuild:
+  Forward-port fixes from releases and remove triplicate eautoreconf calls
+
+  Package-Manager: portage-2.3.0_rc1
+

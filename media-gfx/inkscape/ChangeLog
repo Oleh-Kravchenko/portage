@@ -125,3 +125,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*inkscape-0.91-r2 (10 Jun 2016)
+
+  10 Jun 2016; Andreas K. Huettel <dilfridge@gentoo.org>
+  +inkscape-0.91-r2.ebuild, metadata.xml:
+  Add latex useflag for formula editing
+
+  Package-Manager: portage-2.3.0_rc1
+

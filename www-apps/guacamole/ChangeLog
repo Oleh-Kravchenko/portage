@@ -78,3 +78,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Jun 2016; Andreas Schuerch <nativemad@gentoo.org> guacamole-0.9.9.ebuild:
+  respect jdbc-sql ebuilds and better elog. See Bug 577420
+
+  Package-Manager: portage-2.2.26
+

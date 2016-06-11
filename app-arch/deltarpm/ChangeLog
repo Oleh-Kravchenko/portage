@@ -80,3 +80,13 @@
 
   Bug: 575810
 
+*deltarpm-3.6_pre20110223-r2 (10 Jun 2016)
+
+  10 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  -deltarpm-3.6_pre20110223-r1.ebuild, +deltarpm-3.6_pre20110223-r2.ebuild:
+  Fix implicit python3 use, #568094
+
+  10 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  deltarpm-3.6_pre20110223-r2.ebuild:
+  Fix byte-compiling installed Python modules
+

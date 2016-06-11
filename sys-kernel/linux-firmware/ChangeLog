@@ -289,3 +289,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  10 Jun 2016; Agostino Sarubbo <ago@gentoo.org>
+  linux-firmware-20160331.ebuild:
+  amd64 stable wrt bug #584484
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

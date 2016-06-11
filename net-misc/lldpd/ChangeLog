@@ -98,3 +98,18 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*lldpd-0.9.3-r1 (10 Jun 2016)
+
+  10 Jun 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/lldpd-0.9-seccomp-missing-syscalls.patch, +lldpd-0.9.3-r1.ebuild:
+  Revision bump, update seccomp patch to add missing syscalls
+
+  Gentoo-bug: 564566
+
+  Package-Manager: portage-2.3.0_rc1
+
+  10 Jun 2016; Patrick McLean <chutzpah@gentoo.org> -lldpd-0.9.3.ebuild:
+  Clear out old ebuild for 0.9.3
+
+  Package-Manager: portage-2.3.0_rc1
+

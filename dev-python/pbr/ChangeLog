@@ -398,3 +398,8 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  10 Jun 2016; Patrick Lauer <patrick@gentoo.org> pbr-1.10.0.ebuild:
+  Add missing test dep
+
+  Package-Manager: portage-2.3.0_rc1
+
