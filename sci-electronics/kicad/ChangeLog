@@ -211,3 +211,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  11 Jun 2016; Michał Górny <mgorny@gentoo.org> kicad-4.0.1-r1.ebuild,
+  kicad-4.0.2-r1.ebuild:
+  Limit boost version to max 1.60, #583640
+
+  Bug: https://bugs.gentoo.org/583640
+  Pull-Request: https://github.com/gentoo/gentoo/pull/1645
+  Package-Manager: portage-2.3.0_rc1
+

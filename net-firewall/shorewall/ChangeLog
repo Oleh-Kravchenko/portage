@@ -406,3 +406,22 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*shorewall-5.0.9 (11 Jun 2016)
+
+  11 Jun 2016; Patrice Clement <monsieurp@gentoo.org> +shorewall-5.0.9.ebuild:
+  Bump to v5.0.9
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1649
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  11 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -shorewall-5.0.8.2.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1649
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

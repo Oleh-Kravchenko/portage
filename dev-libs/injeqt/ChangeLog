@@ -72,3 +72,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*injeqt-1.0.1 (11 Jun 2016)
+
+  11 Jun 2016; Maciej Mrozowski <reavertm@gentoo.org> +injeqt-1.0.1.ebuild:
+  Version bump 1.0.1
+

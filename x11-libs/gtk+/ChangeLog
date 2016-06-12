@@ -387,3 +387,24 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  11 Jun 2016; Pacho Ramos <pacho@gentoo.org> gtk+-2.24.30.ebuild,
+  gtk+-3.18.9.ebuild:
+  alpha stable, bug 584468
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="alpha"
+
+  11 Jun 2016; Pacho Ramos <pacho@gentoo.org> gtk+-2.24.30.ebuild,
+  gtk+-3.18.9.ebuild:
+  amd64 stable, bug 584468
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="amd64"
+
+  11 Jun 2016; Pacho Ramos <pacho@gentoo.org> gtk+-2.24.30.ebuild,
+  gtk+-3.18.9.ebuild:
+  x86 stable, bug 584468
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="x86"
+

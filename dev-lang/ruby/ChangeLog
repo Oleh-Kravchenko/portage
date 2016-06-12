@@ -363,3 +363,9 @@
 
   Package-Manager: portage-2.2.28
 
+  11 Jun 2016; Jeroen Roovers <jer@gentoo.org> ruby-2.0.0_p648.ebuild:
+  Stable for HPPA (bug #568502).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

@@ -69,3 +69,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*esdl-1.3.1 (11 Jun 2016)
+
+  11 Jun 2016; Jeroen Roovers <jer@gentoo.org> +esdl-1.3.1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  11 Jun 2016; Jeroen Roovers <jer@gentoo.org> esdl-1.3.1.ebuild:
+  Depend on dev-lang/erlang[wxwidgets].
+
+  Package-Manager: portage-2.3.0_rc1
+

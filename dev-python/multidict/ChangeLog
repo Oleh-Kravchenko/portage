@@ -13,3 +13,11 @@
   30 May 2016; Aaron Bauman <bman@gentoo.org> multidict-1.1.0_alpha6.ebuild:
   add ~x86 keyword
 
+*multidict-1.1.0_beta2 (11 Jun 2016)
+
+  11 Jun 2016; Alex Brandt <alunduil@gentoo.org>
+  +multidict-1.1.0_beta2.ebuild:
+  add version 1.1.0_beta2
+
+  Package-Manager: portage-2.3.0_rc1
+

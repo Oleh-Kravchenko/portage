@@ -359,3 +359,23 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/nginx.initd-r2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*nginx-1.11.1 (11 Jun 2016)
+*nginx-1.10.1 (11 Jun 2016)
+
+  11 Jun 2016; Kristian Fiskerstrand <k_f@gentoo.org> +nginx-1.10.1.ebuild,
+  +nginx-1.11.1.ebuild:
+  Version bump
+
+  Gentoo-Bug: 584212
+  Gentoo-Bug: 584744
+
+  Package-Manager: portage-2.3.0_rc1
+
+  11 Jun 2016; Kristian Fiskerstrand <k_f@gentoo.org> -nginx-1.9.15.ebuild,
+  -nginx-1.10.0.ebuild:
+  Security cleanup
+
+  Gentoo-Bug: 584744
+
+  Package-Manager: portage-2.3.0_rc1
+

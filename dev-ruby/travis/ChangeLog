@@ -18,3 +18,14 @@
 
   Package-Manager: portage-2.2.26
 
+*travis-1.8.2-r2 (11 Jun 2016)
+
+  11 Jun 2016; Christoph Junghans <ottxor@gentoo.org> -travis-1.8.2-r1.ebuild,
+  +travis-1.8.2-r2.ebuild:
+  fix deps
+
+  Fix #1648 gh
+  Gentoo-bug: 578458
+
+  Package-Manager: portage-2.2.28
+

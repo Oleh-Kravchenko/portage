@@ -63,3 +63,33 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*wings-1.5.4 (11 Jun 2016)
+
+  11 Jun 2016; Jeroen Roovers <jer@gentoo.org> +wings-1.5.4.ebuild:
+  Version bump (bug #383239 by Jacek Szafarkiewicz).
+
+  Package-Manager: portage-2.3.0_rc1
+
+  11 Jun 2016; Jeroen Roovers <jer@gentoo.org> metadata.xml:
+  Maintain.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  11 Jun 2016; Jeroen Roovers <jer@gentoo.org> wings-1.5.4.ebuild:
+  Maintain.
+
+  Package-Manager: portage-2.3.0_rc1
+
+*wings-2.0.4 (11 Jun 2016)
+
+  11 Jun 2016; Jeroen Roovers <jer@gentoo.org> wings-1.5.4.ebuild,
+  +wings-2.0.4.ebuild:
+  Version bump. Remove testing cruft.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  11 Jun 2016; Jeroen Roovers <jer@gentoo.org> wings-2.0.4.ebuild:
+  Version bump. Fix minimum dev-lang/erlang version for 2.0.4.
+
+  Package-Manager: portage-2.3.0_rc1
+

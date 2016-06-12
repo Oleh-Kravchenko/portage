@@ -76,3 +76,13 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*cryptlib-3.4.3 (11 Jun 2016)
+
+  11 Jun 2016; Alon Bar-Lev <alonbl@gentoo.org> +cryptlib-3.4.3.ebuild,
+  +files/cryptlib-3.4.3-build.patch, +files/cryptlib-3.4.3-zlib.patch:
+  version bump
+
+  Bug: 585008
+
+  Package-Manager: portage-2.2.28
+

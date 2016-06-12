@@ -304,3 +304,8 @@
 
   Package-Manager: portage-2.2.28
 
+  11 Jun 2016; Benda Xu <heroxbd@gentoo.org> lftp-4.7.2-r1.ebuild:
+  specify readline location to support Prefix.
+
+  Package-Manager: portage-2.2.28
+

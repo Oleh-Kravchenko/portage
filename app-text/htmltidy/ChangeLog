@@ -81,3 +81,11 @@
 
   Bug: 575810
 
+*htmltidy-20090325-r2 (11 Jun 2016)
+
+  11 Jun 2016; Hans de Graaff <graaff@gentoo.org>
+  +files/11CVE-2015-5522.patch, +htmltidy-20090325-r2.ebuild:
+  fix security bug 561452
+
+  Package-Manager: portage-2.2.28
+

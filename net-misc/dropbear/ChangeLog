@@ -132,3 +132,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  11 Jun 2016; Markus Meier <maekke@gentoo.org> dropbear-2016.73.ebuild:
+  arm stable, bug #577050
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

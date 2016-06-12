@@ -277,3 +277,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  11 Jun 2016; Markus Meier <maekke@gentoo.org> ntp-4.2.8_p8.ebuild:
+  arm stable, bug #584954
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

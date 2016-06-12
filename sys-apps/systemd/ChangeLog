@@ -474,3 +474,9 @@
   systemd-9999.ebuild:
   remove extra space
 
+  11 Jun 2016; Jason Zaman <perfinion@gentoo.org> systemd-229.ebuild,
+  systemd-230-r1.ebuild, systemd-9999.ebuild:
+  update deps on selinux policies
+
+  Package-Manager: portage-2.2.28
+
