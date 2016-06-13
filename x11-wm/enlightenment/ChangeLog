@@ -229,3 +229,9 @@
 
   Package-Manager: portage-2.2.28
 
+  12 Jun 2016; Patrick Lauer <patrick@gentoo.org> enlightenment-0.20.5.ebuild,
+  enlightenment-0.20.6.ebuild:
+  Fix keywording #342185
+
+  Package-Manager: portage-2.3.0_rc1
+

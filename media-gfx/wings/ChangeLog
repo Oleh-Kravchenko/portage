@@ -93,3 +93,22 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  12 Jun 2016; Jeroen Roovers <jer@gentoo.org> wings-2.0.4.ebuild:
+  Fix include_lib (bug #585654).
+
+  Package-Manager: portage-2.3.0_rc1
+
+  12 Jun 2016; Jeroen Roovers <jer@gentoo.org> +files/wings-2.0.4-wx.patch,
+  wings-2.0.4.ebuild:
+  Fix include_lib (wx) (bug #585654).
+
+  Package-Manager: portage-2.3.0_rc1
+
+*wings-2.0.4-r1 (12 Jun 2016)
+
+  12 Jun 2016; Jeroen Roovers <jer@gentoo.org> -files/wings-2.0.4-wx.patch,
+  +files/wings.sh-r1, -wings-2.0.4.ebuild, +wings-2.0.4-r1.ebuild:
+  Fix include_lib everywhere (bug #585654).
+
+  Package-Manager: portage-2.3.0_rc1
+

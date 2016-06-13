@@ -79,3 +79,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  12 Jun 2016; Amy Winston <amynka@gentoo.org> metadata.xml:
+  add new proxy-maintainers
+
+  Closes: #1662
+  Bug: 584490
+
+  Package-Manager: portage-2.3.0_rc1
+

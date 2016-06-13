@@ -110,3 +110,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  12 Jun 2016; Markus Meier <maekke@gentoo.org> gsl-1.16.ebuild:
+  arm stable, bug #438768
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

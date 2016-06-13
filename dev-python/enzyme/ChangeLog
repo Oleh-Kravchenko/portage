@@ -113,3 +113,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*enzyme-0.4.1-r2 (12 Jun 2016)
+
+  12 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> -enzyme-0.4.1-r1.ebuild,
+  +enzyme-0.4.1-r2.ebuild, enzyme-9999.ebuild:
+  add missing PYTHON_REQ_USE
+
+  Closes: https://github.com/gentoo/gentoo/pull/1630
+  Package-Manager: portage-2.3.0_rc1
+

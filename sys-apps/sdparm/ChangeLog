@@ -102,3 +102,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  12 Jun 2016; Markus Meier <maekke@gentoo.org> sdparm-1.10.ebuild:
+  arm stable, bug #585304
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

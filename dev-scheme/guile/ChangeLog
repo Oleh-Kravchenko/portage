@@ -141,3 +141,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  12 Jun 2016; Markus Meier <maekke@gentoo.org> guile-1.8.8-r2.ebuild:
+  arm stable, bug #578318
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

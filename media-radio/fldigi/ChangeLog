@@ -189,3 +189,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*fldigi-3.23.11 (12 Jun 2016)
+
+  12 Jun 2016; Thomas Beierlein <tomjbe@gentoo.org> +fldigi-3.23.11.ebuild:
+  Maintenance release
+
+  Package-Manager: portage-2.3.0_rc1
+

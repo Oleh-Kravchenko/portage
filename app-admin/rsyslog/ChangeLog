@@ -274,3 +274,38 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  12 Jun 2016; Patrice Clement <monsieurp@gentoo.org> rsyslog-8.18.0.ebuild:
+  Adjust sub-SLOT dependency
+
+  This commit also re-apply changes from the previous reverted
+  commit 663fd153682eb51e2a89e87b52d9a3f25f28f742:
+
+  The ebuild inherits linux-info eclass which already inherit
+  eutils eclass so we can use prune_libtool_files helper.
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1659
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*rsyslog-8.19.0 (12 Jun 2016)
+
+  12 Jun 2016; Patrice Clement <monsieurp@gentoo.org> +rsyslog-8.19.0.ebuild:
+  Version bump to v8.19.0
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1659
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  12 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/8-stable/50-rsyslog-8.12.0-fix-re_extract.patch,
+  -files/8-stable/50-rsyslog-8.13.0-lookup-table-reload-bugfix.patch,
+  -rsyslog-8.13.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1659
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

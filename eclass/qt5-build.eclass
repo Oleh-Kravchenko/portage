@@ -199,7 +199,7 @@ qt5-build_src_prepare() {
 
 		# Respect toolchain and flags in config.tests
 		find config.tests/unix -name '*.test' -type f -execdir \
-			sed -i -re '/(bin\/qmake|QMAKE")/ s/-nocache //' '{}' + || die
+			sed -i -e 's/-nocache //' '{}' + || die
 
 		# Don't inject -msse/-mavx/... into CXXFLAGS when detecting
 		# compiler support for extended instruction sets (bug 552942)
@@ -594,9 +594,6 @@ qt5_base_configure() {
 		# print verbose information about each configure test
 		-verbose
 
-		# obsolete flag, does nothing
-		#-nis
-
 		# always enable iconv support
 		-iconv
 
@@ -650,8 +647,9 @@ qt5_base_configure() {
 		# disable gstreamer by default, override in qtmultimedia
 		-no-gstreamer
 
-		# use upstream default
-		#-no-system-proxies
+		# respect system proxies by default: it's the most natural
+		# setting, and it'll become the new upstream default in 5.8
+		$([[ ${QT5_MINOR_VERSION} -ge 6 ]] && echo -system-proxies)
 
 		# do not build with -Werror
 		-no-warnings-are-errors

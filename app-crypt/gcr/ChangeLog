@@ -168,3 +168,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  12 Jun 2016; Pacho Ramos <pacho@gentoo.org> gcr-3.18.0.ebuild:
+  gnupg is not really needed by gcr, this also prevents a circular dep issue
+  (#570512)
+
+  Package-Manager: portage-2.3.0_rc1
+

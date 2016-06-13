@@ -41,3 +41,6 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  12 Jun 2016; Michał Górny <mgorny@gentoo.org> hunspell-kk-1.1.2.ebuild:
+  Remove unused eutils & git-r3 inherits
+

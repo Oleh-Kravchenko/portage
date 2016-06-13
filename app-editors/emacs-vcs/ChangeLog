@@ -247,3 +247,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  12 Jun 2016; Ulrich Müller <ulm@gentoo.org> -emacs-vcs-25.0.92.ebuild,
+  -emacs-vcs-25.1.50_pre20160130.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.3.0_rc1
+
+*emacs-vcs-25.0.95 (12 Jun 2016)
+
+  12 Jun 2016; Ulrich Müller <ulm@gentoo.org> +emacs-vcs-25.0.95.ebuild:
+  New pretest version.
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -162,3 +162,23 @@
 
   Package-Manager: portage-2.2.28
 
+  12 Jun 2016; Daniel Pielmeier <billie@gentoo.org> hplip-3.16.5.ebuild:
+  Require cups in any case.
+
+  This fixes bug #585686. Thanks to Toralf Förster for the report.
+
+  Package-Manager: portage-2.2.28
+
+  12 Jun 2016; Daniel Pielmeier <billie@gentoo.org> hplip-3.16.5.ebuild:
+  Tweak REQUIRED_USE.
+
+  Package-Manager: portage-2.2.28
+
+*hplip-3.16.5-r1 (12 Jun 2016)
+
+  12 Jun 2016; Daniel Pielmeier <billie@gentoo.org> -hplip-3.16.5.ebuild,
+  +hplip-3.16.5-r1.ebuild:
+  Revision bump.
+
+  Package-Manager: portage-2.2.28
+

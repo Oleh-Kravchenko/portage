@@ -123,3 +123,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*mimeparse-1.5.2 (12 Jun 2016)
+
+  12 Jun 2016; Patrick Lauer <patrick@gentoo.org> +mimeparse-1.5.2.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0_rc1
+

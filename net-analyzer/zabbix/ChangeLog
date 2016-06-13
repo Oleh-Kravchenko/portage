@@ -152,3 +152,28 @@
   files/2.4/init.d/zabbix-proxy, files/2.4/init.d/zabbix-server:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*zabbix-2.2.13 (12 Jun 2016)
+
+  12 Jun 2016; Patrick Lauer <patrick@gentoo.org> +zabbix-2.2.13.ebuild:
+  Bump to 2.2.13 for #574858
+
+  Package-Manager: portage-2.3.0_rc1
+
+*zabbix-2.4.8 (12 Jun 2016)
+
+  12 Jun 2016; Patrick Lauer <patrick@gentoo.org> +zabbix-2.4.8.ebuild:
+  Bump 2.4
+
+  Package-Manager: portage-2.3.0_rc1
+
+*zabbix-3.0.3 (12 Jun 2016)
+
+  12 Jun 2016; Patrick Lauer <patrick@gentoo.org>
+  +files/3.0/init.d/zabbix-agentd, +files/3.0/init.d/zabbix-proxy,
+  +files/3.0/init.d/zabbix-server, +files/3.0/zabbix_agent.conf,
+  +files/3.0/zabbix_agentd.conf, +files/3.0/zabbix_proxy.conf,
+  +files/3.0/zabbix_server.conf, +zabbix-3.0.3.ebuild:
+  Bump to 3.0.3 for #574858
+
+  Package-Manager: portage-2.3.0_rc1
+

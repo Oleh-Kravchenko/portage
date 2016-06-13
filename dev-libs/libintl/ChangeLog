@@ -89,3 +89,14 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+*libintl-0.19.8.1 (12 Jun 2016)
+
+  12 Jun 2016; Lars Wendler <polynomial-c@gentoo.org> -libintl-0.19.8.ebuild,
+  +libintl-0.19.8.1.ebuild:
+  Bump to version 0.19.8.1
+
+  Removed old.
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

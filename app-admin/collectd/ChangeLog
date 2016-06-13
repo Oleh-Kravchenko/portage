@@ -302,3 +302,8 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  11 Jun 2016; Mikle Kolyada <zlogene@gentoo.org> collectd-5.5.1-r4.ebuild:
+  Add ~arm keyword
+
+  Package-Manager: portage-2.2.28
+

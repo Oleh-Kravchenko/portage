@@ -217,3 +217,9 @@
 
   Package-Manager: portage-2.2.28
 
+  12 Jun 2016; Markus Meier <maekke@gentoo.org> monkeyd-1.6.8.ebuild:
+  arm stable, bug #585064
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

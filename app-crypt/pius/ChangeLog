@@ -98,3 +98,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  12 Jun 2016; Alon Bar-Lev <alonbl@gentoo.org> -pius-2.0.11.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

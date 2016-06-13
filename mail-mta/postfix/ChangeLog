@@ -423,3 +423,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*postfix-3.2_pre20160611 (12 Jun 2016)
+
+  12 Jun 2016; Eray Aslan <eras@gentoo.org> -postfix-3.2_pre20160604.ebuild,
+  +postfix-3.2_pre20160611.ebuild:
+  version bump to postfix-3.2_pre20160611
+
+  Package-Manager: portage-2.3.0_rc1
+

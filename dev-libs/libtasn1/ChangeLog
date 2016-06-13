@@ -105,3 +105,8 @@
   02 May 2016; Matt Turner <mattst88@gentoo.org> libtasn1-4.8.ebuild:
   alpha stable, bug 579748.
 
+  12 Jun 2016; Alon Bar-Lev <alonbl@gentoo.org> -libtasn1-4.7.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+
