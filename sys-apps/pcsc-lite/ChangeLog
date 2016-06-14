@@ -150,3 +150,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  13 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  pcsc-lite-1.8.16-r1.ebuild:
+  1.8.16-r1: add alpha keyword
+
+  Gentoo-Bug: 585302
+
+  Package-Manager: portage-2.3.0_rc1
+

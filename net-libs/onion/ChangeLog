@@ -35,3 +35,9 @@
 
   Package-Manager: portage-2.2.28
 
+  13 Jun 2016; Alexis Ballier <aballier@gentoo.org> -files/cflags.patch,
+  -onion-0.7.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

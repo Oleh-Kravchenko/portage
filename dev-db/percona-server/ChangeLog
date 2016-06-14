@@ -195,3 +195,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*percona-server-5.6.30.76.3 (13 Jun 2016)
+
+  13 Jun 2016; Brian Evans <grknight@gentoo.org>
+  +percona-server-5.6.30.76.3.ebuild:
+  Version bump to 5.6.30.76.3 wrt bug 584882
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -16,3 +16,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  13 Jun 2016; Jeroen Roovers <jer@gentoo.org> cl-1.2.1.ebuild,
+  cl-9999.ebuild:
+  Restore CL_DIR in 1.2.1 (bug #585600 by Oleg).
+
+  Package-Manager: portage-2.3.0_rc1
+
+*cl-1.2.1-r1 (13 Jun 2016)
+
+  13 Jun 2016; Jeroen Roovers <jer@gentoo.org> -cl-1.2.1.ebuild,
+  +cl-1.2.1-r1.ebuild:
+  Revision bump.
+
+  Package-Manager: portage-2.3.0_rc1
+

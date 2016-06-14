@@ -117,3 +117,25 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*lilypond-2.19.42 (12 Jun 2016)
+*lilypond-2.18.2-r2 (12 Jun 2016)
+
+  12 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  lilypond-2.18.2-r1.ebuild, +lilypond-2.18.2-r2.ebuild,
+  -lilypond-2.19.15.ebuild, +lilypond-2.19.42.ebuild, lilypond-9999.ebuild:
+  Various updates.
+
+  * Fix metapost deps in 2.18.2-r1, wrt bug 525712.
+  * Do not install HACKING in 2.18.2-r1 because it is irrelevant.
+  * EAPI 6 for version 2.18.2 and revbump to -r2.
+  * Sync live ebuild with version 2.18.2-r2.
+  * Make -9999 version a "conditional live ebuild".
+  * Version bump to 2.19.42.
+  * Drop 2.19.15.
+
+  Package-Manager: portage-2.3.0_rc1
+  Gentoo-Bug: https://bugs.gentoo.org/525712
+  Closes: https://github.com/gentoo/gentoo/pull/1552
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

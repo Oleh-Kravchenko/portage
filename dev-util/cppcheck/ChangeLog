@@ -124,3 +124,10 @@
 
   Package-Manager: portage-2.2.28
 
+*cppcheck-1.74 (13 Jun 2016)
+
+  13 Jun 2016; Michael Weber <xmw@gentoo.org> +cppcheck-1.74.ebuild:
+  Version bump, thanks Christian Strahl, bug 585444.
+
+  Package-Manager: portage-2.2.28
+

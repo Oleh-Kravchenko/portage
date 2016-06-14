@@ -93,3 +93,10 @@
   files/init.d-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*supervisor-3.3.0 (13 Jun 2016)
+
+  13 Jun 2016; Patrick Lauer <patrick@gentoo.org> +supervisor-3.3.0.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0_rc1
+

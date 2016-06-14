@@ -132,3 +132,24 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*atom-1.7.4-r3 (12 Jun 2016)
+
+  12 Jun 2016; Patrice Clement <monsieurp@gentoo.org> -atom-1.7.4-r2.ebuild,
+  +atom-1.7.4-r3.ebuild:
+  dev-util/electron: Build node executable, fix automagic cups dependency.
+
+  Electron and apps based on it cannot rely on system NodeJS
+  for compatibility reasons. Fix this by building and using
+  a nodejs executable based on bundled nodejs code.
+
+  Additionally, fix automagic dependency on libcups and remove dependency on
+  system nodejs
+
+  Gentoo-Bug: https://bugs.gentoo.org/585116
+  Gentoo-Bug: https://bugs.gentoo.org/585490
+  Gentoo-Bug: https://bugs.gentoo.org/585464
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1664
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -348,3 +348,14 @@
 
   Package-Manager: portage-2.2.28
 
+*lxd-2.0.2 (13 Jun 2016)
+
+  13 Jun 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxd-2.0.2-dont-go-get.patch, +files/lxd-2.0.2.confd,
+  +files/lxd-2.0.2.initd, +lxd-2.0.2.ebuild:
+  bump to 2.0.2
+
+  Address CVE-2016-1581 and CVE-2016-1582
+
+  Package-Manager: portage-2.3.0_rc1
+

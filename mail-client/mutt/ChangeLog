@@ -223,3 +223,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+*mutt-1.6.1-r2 (13 Jun 2016)
+
+  13 Jun 2016; Fabian Groffen <grobian@gentoo.org> +mutt-1.6.1-r2.ebuild:
+  add masked 1.6.1-r2 fully based on NeoMutt project patches
+
+  Package-Manager: portage-2.2.28
+
+  13 Jun 2016; Fabian Groffen <grobian@gentoo.org> mutt-1.6.1-r2.ebuild:
+  remove misaligning space from 1.6.1-r2 upgrade instructions
+
+  Package-Manager: portage-2.2.28
+

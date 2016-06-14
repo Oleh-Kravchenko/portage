@@ -171,3 +171,11 @@
 
   Package-Manager: portage-2.2.28
 
+*rake-11.2.2-r1 (13 Jun 2016)
+
+  13 Jun 2016; Hans de Graaff <graaff@gentoo.org> -rake-11.2.2.ebuild,
+  +rake-11.2.2-r1.ebuild:
+  account for changed bindir, fixing bug 585836
+
+  Package-Manager: portage-2.2.28
+

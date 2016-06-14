@@ -379,3 +379,30 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  13 Jun 2016; Agostino Sarubbo <ago@gentoo.org> nginx-1.10.1.ebuild:
+  amd64 stable wrt bug #584744
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  13 Jun 2016; Agostino Sarubbo <ago@gentoo.org> nginx-1.10.1.ebuild:
+  x86 stable wrt bug #584744
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  13 Jun 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  -files/AJP-nginx-1.7.9+.patch, -files/check-1.9.2.patch,
+  -files/lua-nginx-1.7.6.patch, -files/rtmp-nginx-1.7.6.patch,
+  -nginx-1.8.1.ebuild:
+  Security cleanup
+
+  Dropping nginx-1.8.1 which is vulnerable to CVE-2016-4450 and was replaced
+  by nginx-1.10.1 via commit 9d8b4adb72f5912b8c121bdda6ffee72e08926d7.
+
+  Gentoo-Bug: 584744
+
+  Package-Manager: portage-2.3.0_rc1
+

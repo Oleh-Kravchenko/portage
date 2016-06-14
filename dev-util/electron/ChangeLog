@@ -89,3 +89,27 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*electron-0.36.12-r3 (12 Jun 2016)
+
+  12 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -electron-0.36.12-r2.ebuild, +electron-0.36.12-r3.ebuild,
+  files/brightray-gentoo-build-fixes-r1.patch,
+  files/electron-gentoo-build-fixes.patch,
+  +files/node-external-snapshots.patch, files/node-gentoo-build-fixes.patch:
+  Build node executable, fix automagic cups dependency.
+
+  Electron and apps based on it cannot rely on system NodeJS
+  for compatibility reasons. Fix this by building and using
+  a nodejs executable based on bundled nodejs code.
+
+  Additionally, fix automagic dependency on libcups and remove dependency on
+  system nodejs
+
+  Gentoo-Bug: https://bugs.gentoo.org/585116
+  Gentoo-Bug: https://bugs.gentoo.org/585490
+  Gentoo-Bug: https://bugs.gentoo.org/585464
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1664
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

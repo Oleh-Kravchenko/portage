@@ -130,3 +130,10 @@
 
   Package-Manager: portage-2.2.26
 
+  13 Jun 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  remove invalid maintainer
+
+  This email address does not exist in bugzilla.
+
+  Package-Manager: portage-2.3.0_rc1_p20
+

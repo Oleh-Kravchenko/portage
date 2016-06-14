@@ -133,3 +133,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+*expat-2.1.1-r2 (13 Jun 2016)
+
+  13 Jun 2016; Sebastian Pipping <sping@gentoo.org> +expat-2.1.1-r2.ebuild,
+  +files/expat-2.1.1-CVE-2012-6702-plus-CVE-2016-5300-v1.patch:
+  CVE-2012-6702 + CVE-2016-5300 (bug #577928)
+
+  Package-Manager: portage-2.2.28
+

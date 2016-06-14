@@ -84,3 +84,11 @@
   files/lxcfs-2.0.0.initd, files/lxcfs-2.0.0_beta2.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*lxcfs-2.0.1 (13 Jun 2016)
+
+  13 Jun 2016; Erik Mackdanz <stasibear@gentoo.org> +files/lxcfs-2.0.1.initd,
+  +files/lxcfs-2.0.1.service, +lxcfs-2.0.1.ebuild:
+  bump to 2.0.1
+
+  Package-Manager: portage-2.3.0_rc1
+

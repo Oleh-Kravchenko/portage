@@ -77,3 +77,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  13 Jun 2016; Michael Weber <xmw@gentoo.org> mujs-0_p20150202.ebuild,
+  mujs-0_p20160504.ebuild:
+  fix Prefix support, thanks Benda Xu, bug 585426.
+
+  Package-Manager: portage-2.2.28
+

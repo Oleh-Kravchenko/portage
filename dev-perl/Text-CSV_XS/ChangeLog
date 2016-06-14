@@ -99,3 +99,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  13 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  Text-CSV_XS-1.230.0.ebuild:
+  1.230.0-r0: add alpha keyword
+
+  Gentoo-Bug: 585612
+
+  Package-Manager: portage-2.3.0_rc1
+

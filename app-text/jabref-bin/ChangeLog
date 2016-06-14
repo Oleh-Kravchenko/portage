@@ -152,3 +152,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*jabref-bin-3.4 (13 Jun 2016)
+
+  13 Jun 2016; Nicolas Bock <nicolasbock@gentoo.org> +jabref-bin-3.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

@@ -114,3 +114,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  13 Jun 2016; Zero_Chaos <zerochaos@gentoo.org> netrc-0.10.3.ebuild,
+  netrc-0.11.0.ebuild:
+  adding ~arm to 0.11.0, drop ruby19
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -295,3 +295,8 @@
   11 May 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml:
   add USE=mpx support for Intel MPX #578396
 
+*gcc-5.4.0 (13 Jun 2016)
+
+  13 Jun 2016; Mike Frysinger <vapier@gentoo.org> +gcc-5.4.0.ebuild:
+  version bump to 5.4.0 #585370
+
