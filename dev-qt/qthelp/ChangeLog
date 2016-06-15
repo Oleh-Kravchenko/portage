@@ -164,3 +164,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*qthelp-5.6.1 (14 Jun 2016)
+
+  14 Jun 2016; Davide Pesavento <pesa@gentoo.org> +qthelp-5.6.1.ebuild:
+  dev-qt: Qt 5.6.1 version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

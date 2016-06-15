@@ -187,3 +187,9 @@
 
   Package-Manager: portage-2.2.28
 
+  14 Jun 2016; Markus Meier <maekke@gentoo.org> nokogiri-1.6.8.ebuild:
+  add ~arm, bug #585240
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

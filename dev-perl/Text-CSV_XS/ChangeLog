@@ -107,3 +107,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  14 Jun 2016; Markus Meier <maekke@gentoo.org> Text-CSV_XS-1.230.0.ebuild:
+  arm stable, bug #585612
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

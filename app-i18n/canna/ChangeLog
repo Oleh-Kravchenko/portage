@@ -77,3 +77,12 @@
   files/canna-3.7_p3.initd, files/canna.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  14 Jun 2016; Yixun Lan <dlan@gentoo.org> canna-3.7_p3-r2.ebuild:
+  keyword ~arm
+
+  requested by app-i18n/uim
+
+  Gentoo-Bug: 585670
+
+  Package-Manager: portage-2.3.0_rc1
+

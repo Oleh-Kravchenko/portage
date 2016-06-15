@@ -139,3 +139,10 @@
   files/keepalived.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*keepalived-1.2.21 (14 Jun 2016)
+
+  14 Jun 2016; Ultrabug <ultrabug@gentoo.org> +keepalived-1.2.21.ebuild:
+  version bump fixes #580706
+
+  Package-Manager: portage-2.2.27
+

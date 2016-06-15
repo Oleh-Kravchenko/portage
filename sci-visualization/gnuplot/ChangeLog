@@ -164,3 +164,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  14 Jun 2016; Tobias Klausmann <klausman@gentoo.org> gnuplot-5.0.1-r1.ebuild:
+  5.0.1-r1: add alpha keyword
+
+  Gentoo-Bug: 574242
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -159,3 +159,8 @@
 
   Package-Manager: portage-2.2.28
 
+  14 Jun 2016; Nicolas Bock <nicolasbock@gentoo.org> jabref-bin-3.4.ebuild:
+  Drop dependency on virtual/jdk
+
+  Package-Manager: portage-2.2.28
+

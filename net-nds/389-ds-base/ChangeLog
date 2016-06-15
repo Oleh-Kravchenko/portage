@@ -215,3 +215,19 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  14 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  -389-ds-base-1.3.5.1.ebuild:
+  Prune old 1.3.5 point release
+
+  Acked-by: wibrown@redhat.com
+
+  Package-Manager: portage-2.3.0_rc1
+
+  14 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> 389-ds-base-1.3.4.8.ebuild,
+  389-ds-base-1.3.5.4.ebuild, 389-ds-base-9999.ebuild:
+  Fix LICENSE and cleanup redundant DEPENDs
+
+  Acked-by: wibrown@redhat.com
+  Closes: https://github.com/gentoo/gentoo/pull/1674
+  Package-Manager: portage-2.3.0_rc1
+

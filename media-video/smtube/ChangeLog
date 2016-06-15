@@ -70,3 +70,10 @@
 
   Package-Manager: portage-2.2.27
 
+*smtube-16.6.0 (14 Jun 2016)
+
+  14 Jun 2016; Daniel Campbell <zlg@gentoo.org> +smtube-16.6.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

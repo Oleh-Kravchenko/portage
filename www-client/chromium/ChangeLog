@@ -1121,3 +1121,8 @@
 
   Package-Manager: portage-2.2.28
 
+  14 Jun 2016; Mike Gilbert <floppym@gentoo.org> chromium-53.0.2763.0.ebuild:
+  remove pointless dollar sign
+
+  Package-Manager: portage-2.3.0_rc1_p20
+

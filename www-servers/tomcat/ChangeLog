@@ -548,3 +548,30 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*tomcat-9.0.0_alpha8 (14 Jun 2016)
+
+  14 Jun 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  -files/tomcat-9.0.0_alpha6-build.xml.patch,
+  -files/tomcat-9.0.0_alpha6-processmanifest.patch,
+  +files/tomcat-9.0.0_alpha8-build.xml.patch, -tomcat-9.0.0_alpha6-r1.ebuild,
+  +tomcat-9.0.0_alpha8.ebuild:
+  version bump in slot 9
+
+  Package-Manager: portage-2.3.0_rc1
+
+*tomcat-8.0.36 (14 Jun 2016)
+
+  14 Jun 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +files/tomcat-8.0.36-build.xml.patch, +tomcat-8.0.36.ebuild:
+  version bump in slot 8
+
+  Package-Manager: portage-2.3.0_rc1
+
+*tomcat-8.5.3 (14 Jun 2016)
+
+  14 Jun 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +files/tomcat-8.5.3-build.xml.patch, +tomcat-8.5.3.ebuild:
+  added new slot 8.5
+
+  Package-Manager: portage-2.3.0_rc1
+

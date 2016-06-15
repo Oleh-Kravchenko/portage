@@ -168,3 +168,10 @@
 
   Package-Manager: portage-2.2.26
 
+*keybase-1.0.16 (14 Jun 2016)
+
+  14 Jun 2016; Nicolas Bock <nicolasbock@gentoo.org> +keybase-1.0.16.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

@@ -431,3 +431,18 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*postfix-3.2_pre20160612 (14 Jun 2016)
+
+  14 Jun 2016; Eray Aslan <eras@gentoo.org> -postfix-3.2_pre20160611.ebuild,
+  +postfix-3.2_pre20160612.ebuild:
+  version bump to postfix-3.2_pre20160612
+
+  Package-Manager: portage-2.3.0_rc1
+
+*postfix-3.1.1-r1 (14 Jun 2016)
+
+  14 Jun 2016; Eray Aslan <eras@gentoo.org> +postfix-3.1.1-r1.ebuild:
+  fix libressl support - bug 576272
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -90,3 +90,12 @@
 
   Package-Manager: portage-2.2.28
 
+  14 Jun 2016; Yixun Lan <dlan@gentoo.org> skk-jisyo-201605.ebuild:
+  keyword ~arm
+
+  requested by app-i18n/uim
+
+  Gentoo-Bug: 585670
+
+  Package-Manager: portage-2.3.0_rc1
+

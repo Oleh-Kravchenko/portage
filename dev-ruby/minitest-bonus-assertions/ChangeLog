@@ -53,3 +53,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  14 Jun 2016; Markus Meier <maekke@gentoo.org>
+  minitest-bonus-assertions-2.0.ebuild:
+  add ~arm, bug #583470
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

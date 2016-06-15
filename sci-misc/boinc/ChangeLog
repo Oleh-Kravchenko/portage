@@ -301,3 +301,33 @@
 
   Package-Manager: portage-2.2.28
 
+*boinc-7.2.44 (14 Jun 2016)
+
+  14 Jun 2016; David Seifert <soap@gentoo.org> +boinc-7.2.44.ebuild:
+  New ebuild for boinc-7.2.44
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1629
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+*boinc-7.4.43 (14 Jun 2016)
+
+  14 Jun 2016; David Seifert <soap@gentoo.org> +boinc-7.4.43.ebuild:
+  New ebuild for boinc-7.4.43
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1629
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+*boinc-7.6.33 (14 Jun 2016)
+
+  14 Jun 2016; David Seifert <soap@gentoo.org> +boinc-7.6.33.ebuild:
+  New ebuild for boinc-7.6.33
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1629
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

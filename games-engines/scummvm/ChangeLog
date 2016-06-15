@@ -77,3 +77,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*scummvm-1.8.1 (14 Jun 2016)
+
+  14 Jun 2016; Michael Sterrett <mr_bones_@gentoo.org> +scummvm-1.8.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.28
+

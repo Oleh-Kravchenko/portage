@@ -116,3 +116,18 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*gtk-builder-convert-2.24.30 (14 Jun 2016)
+
+  14 Jun 2016; Pacho Ramos <pacho@gentoo.org>
+  +gtk-builder-convert-2.24.30.ebuild:
+  Version bump (#585892)
+
+  Package-Manager: portage-2.3.0_rc1
+
+  14 Jun 2016; Pacho Ramos <pacho@gentoo.org>
+  gtk-builder-convert-2.24.30.ebuild:
+  Stabilize in arches with newer gtk+:2, this is installing the same file as
+  2.24.29 anyway  (#585892)
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -154,3 +154,26 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  13 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> ejabberd-16.04.ebuild:
+  Don't try to generate cert if it is already set up
+
+  The ebuild used to always try to generate a certificate. ssl-cert eclass
+  function warns if certificate in a specified location already exists,
+  but that only clutters logs. When user has set different path to a
+  certificate, then eclass used to generate a self-signed cert which
+  wouldn't be used at all. Check if certificate set by user exists before
+  generating a new one.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  13 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  -ejabberd-15.03-r1.ebuild, -files/ejabberd-15.03-ejabberdctl.patch:
+  Remove the oldest testing version
+
+  Package-Manager: portage-2.3.0_rc1
+
+  14 Jun 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> ejabberd-16.04.ebuild:
+  Remove double leading slash
+
+  Package-Manager: portage-2.3.0_rc1
+

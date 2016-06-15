@@ -10,3 +10,9 @@
 
   Package-Manager: portage-2.2.28
 
+  14 Jun 2016; Markus Meier <maekke@gentoo.org> Carp-Always-0.130.0.ebuild:
+  add ~arm, bug #583444
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

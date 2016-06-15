@@ -146,3 +146,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  14 Jun 2016; Hans de Graaff <graaff@gentoo.org> mustache-0.99.5.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.2.28
+

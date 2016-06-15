@@ -158,3 +158,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  14 Jun 2016; Markus Meier <maekke@gentoo.org> mime-types-3.0-r1.ebuild:
+  add ~arm, bug #583470
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

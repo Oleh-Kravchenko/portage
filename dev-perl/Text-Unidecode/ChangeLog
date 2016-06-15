@@ -94,3 +94,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  14 Jun 2016; Markus Meier <maekke@gentoo.org> Text-Unidecode-1.270.0.ebuild:
+  arm stable, bug #585620
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

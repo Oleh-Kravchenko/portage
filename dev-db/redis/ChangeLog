@@ -172,3 +172,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*redis-3.2.0 (14 Jun 2016)
+
+  14 Jun 2016; Ultrabug <ultrabug@gentoo.org> +files/redis-3.2.0-config.patch,
+  +files/redis-3.2.0-sharedlua.patch, +redis-3.2.0.ebuild:
+  version bump fixes #583168
+
+  Package-Manager: portage-2.2.27
+

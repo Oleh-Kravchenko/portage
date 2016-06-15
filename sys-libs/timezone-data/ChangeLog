@@ -196,3 +196,15 @@
   09 May 2016; Mike Frysinger <vapier@gentoo.org> timezone-data-2016d.ebuild:
   do not use EAPI=6 for core packages
 
+*timezone-data-2016e (14 Jun 2016)
+
+  14 Jun 2016; Dirkjan Ochtman <djc@gentoo.org> +timezone-data-2016e.ebuild:
+  version bump to 2016e
+
+  Package-Manager: portage-2.2.28
+
+  14 Jun 2016; Dirkjan Ochtman <djc@gentoo.org> -timezone-data-2016a.ebuild:
+  remove old version
+
+  Package-Manager: portage-2.2.28
+
