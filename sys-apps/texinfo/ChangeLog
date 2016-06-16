@@ -175,3 +175,6 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  15 Jun 2016; Mike Frysinger <vapier@gentoo.org> texinfo-6.1.ebuild:
+  mark 6.1 arm64/ia64/m68k/ppc/s390/sh/sparc stable #583794
+

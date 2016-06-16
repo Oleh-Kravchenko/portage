@@ -185,3 +185,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  15 Jun 2016; Patrick Lauer <patrick@gentoo.org> zabbix-3.0.3-r1.ebuild:
+  Fix openssl #585848
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -131,3 +131,12 @@
 
   Package-Manager: portage-2.2.28
 
+*memwatch-0.3.1 (15 Jun 2016)
+
+  15 Jun 2016; Patrice Clement <monsieurp@gentoo.org> +memwatch-0.3.1.ebuild:
+  Version bump.
+
+  Gentoo-Bug: https://bugs.gentoo.org/585996
+
+  Package-Manager: portage-2.2.28
+

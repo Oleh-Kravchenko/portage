@@ -724,3 +724,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*nvidia-drivers-367.27 (15 Jun 2016)
+
+  15 Jun 2016; Jeroen Roovers <jer@gentoo.org> +nvidia-drivers-367.27.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -242,3 +242,11 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  15 Jun 2016; Mike Frysinger <vapier@gentoo.org> gettext-0.19.7.ebuild:
+  mark 0.19.7 arm64/ia64/m68k/ppc/s390/sh/sparc stable #583834
+
+  15 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/gettext-0.19.7-disable-libintl.patch, gettext-0.19.7.ebuild,
+  gettext-0.19.8.1.ebuild:
+  make sure libintl building is disabled #564168
+

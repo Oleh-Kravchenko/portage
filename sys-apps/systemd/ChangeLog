@@ -480,3 +480,16 @@
 
   Package-Manager: portage-2.2.28
 
+*systemd-230-r2 (15 Jun 2016)
+
+  15 Jun 2016; Mike Gilbert <floppym@gentoo.org> -systemd-230-r1.ebuild,
+  +systemd-230-r2.ebuild, systemd-9999.ebuild:
+  add blocker on <sys-kernel/dracut-044
+
+  Earlier versions of dracut do not include initrd-root-device.target in the
+  initramfs image.
+
+  Bug: https://bugs.gentoo.org/585980
+
+  Package-Manager: portage-2.3.0_rc1_p20
+

@@ -277,3 +277,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*opera-38.0.2220.31 (15 Jun 2016)
+
+  15 Jun 2016; Jeroen Roovers <jer@gentoo.org> +opera-38.0.2220.31.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  15 Jun 2016; Jeroen Roovers <jer@gentoo.org> -opera-37.0.2178.54.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0_rc1
+

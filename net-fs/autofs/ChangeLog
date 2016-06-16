@@ -108,3 +108,24 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/autofs5.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*autofs-5.1.2 (15 Jun 2016)
+
+  15 Jun 2016; Yixun Lan <dlan@gentoo.org> +autofs-5.1.2.ebuild:
+  version bump 5.1.2
+
+  Package-Manager: portage-2.3.0_rc1
+
+  15 Jun 2016; Yixun Lan <dlan@gentoo.org> -autofs-5.1.0-r1.ebuild,
+  -autofs-5.1.1.ebuild, -files/autofs-5.0.8-ldap-wo-sasl.patch,
+  -files/autofs-5.1.0-fix-missing-stdarg.patch:
+  drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+  15 Jun 2016; Tobias Klausmann <klausman@gentoo.org> autofs-5.1.1-r1.ebuild:
+  5.1.1-r1: add alpha keyword
+
+  Gentoo-Bug: 585992
+
+  Package-Manager: portage-2.3.0_rc1
+

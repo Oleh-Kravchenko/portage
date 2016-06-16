@@ -134,3 +134,37 @@
   files/nftables.init-r1, files/nftables.init-r2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*nftables-0.5-r3 (15 Jun 2016)
+
+  15 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> files/libexec/nftables.sh,
+  +files/nftables-0.5-pdf-doc.patch, -nftables-0.5-r2.ebuild,
+  +nftables-0.5-r3.ebuild:
+  Remove bashism from nftables.sh
+
+  Remove [[ ... ]] bashism from use_legacy() function.
+  Add missing dependencies and add doc use flag.
+  Mask doc USE flag on arm due to the unkeyworded dep.
+
+  Gentoo-bug: 585800
+  Closes: https://github.com/gentoo/gentoo/pull/1673
+  Package-Manager: portage-2.3.0_rc1
+
+*nftables-0.5-r4 (15 Jun 2016)
+
+  15 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> -nftables-0.5-r3.ebuild,
+  +nftables-0.5-r4.ebuild:
+  correct install utility function calls
+
+  Previous modification changed the cp command to:
+      instinto /usr/libexec/${PN}
+      doins "${FILESDIR}"/libexec/${PN}.sh
+
+  However, this change is incorrect as it strips the exec flag from ${PN}.sh.
+  This commit changes the insinto and doins to exeinto and doexe which fixes
+  the
+  problem.
+
+  Gentoo-bug: 586000
+
+  Package-Manager: portage-2.3.0_rc1
+

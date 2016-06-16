@@ -111,3 +111,9 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Jun 2016; Hans de Graaff <graaff@gentoo.org> -sshkit-1.8.1.ebuild,
+  -sshkit-1.9.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+
