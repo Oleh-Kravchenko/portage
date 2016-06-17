@@ -406,3 +406,18 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  16 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/rtmp-nginx-1.11.0.patch, nginx-1.10.1.ebuild, nginx-1.11.1.ebuild:
+  Patch for rtmp module. Fixes bug 585804.
+
+  Proposed patch for upstream bug 820 added to fix building of
+  nginx's 3rd party module "rtmp" against nginx-1.11.0+.
+
+  Bug: https://github.com/arut/nginx-rtmp-module/issues/820
+  Gentoo-Bug: https://bugs.gentoo.org/585804
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1669
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

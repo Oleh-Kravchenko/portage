@@ -128,3 +128,13 @@
   files/bacula-fd.initd, files/bacula-sd.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*bacula-5.2.13-r4 (16 Jun 2016)
+
+  16 Jun 2016; Thomas Beierlein <tomjbe@gentoo.org> +bacula-5.2.13-r4.ebuild:
+  Backport fix for systemd temfile for bacula-clientonly
+
+  Backport from bacula-7.0.5-r1.
+  Fixes Bug 577486. Thanks for reporting alunduil@gentoo.org.
+
+  Package-Manager: portage-2.3.0_rc1
+

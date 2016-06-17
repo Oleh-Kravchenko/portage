@@ -95,3 +95,8 @@
 
   Package-Manager: portage-2.2.28
 
+  16 Jun 2016; José María Alonso Josa <nimiux@gentoo.org> chessx-1.4.0.ebuild:
+  amd64 stable wrt bug #586060
+
+  Package-Manager: portage-2.2.28
+

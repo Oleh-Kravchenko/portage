@@ -204,3 +204,8 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  16 Jun 2016; Yuta Satoh <nigoro.dev@gmail.com>
+  +files/freebsd-ubin-10.3-bmake-workaround.patch,
+  freebsd-sources-10.3-r3.ebuild:
+  Fix the issue that can not build bmake.
+

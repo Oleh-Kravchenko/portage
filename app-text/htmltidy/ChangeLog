@@ -89,3 +89,11 @@
 
   Package-Manager: portage-2.2.28
 
+  16 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  htmltidy-20090325-r2.ebuild:
+  20090325-r2: add alpha keyword
+
+  Gentoo-Bug: 561452
+
+  Package-Manager: portage-2.3.0_rc1
+

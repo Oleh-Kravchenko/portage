@@ -69,3 +69,8 @@
 
   Package-Manager: portage-2.2.26
 
+  16 Jun 2016; Hans de Graaff <graaff@gentoo.org> multi_test-0.1.1.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.2.28
+

@@ -384,3 +384,11 @@
 
   Package-Manager: portage-2.3.0_rc1_p20
 
+*google-chrome-51.0.2704.103 (16 Jun 2016)
+
+  16 Jun 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-51.0.2704.84.ebuild, +google-chrome-51.0.2704.103.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_rc1_p20
+

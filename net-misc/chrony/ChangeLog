@@ -314,3 +314,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*chrony-2.4 (16 Jun 2016)
+
+  16 Jun 2016; Jeroen Roovers <jer@gentoo.org> -chrony-2.4_pre1.ebuild,
+  -chrony-2.4_pre1-r3.ebuild, +chrony-2.4.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0_rc1
+

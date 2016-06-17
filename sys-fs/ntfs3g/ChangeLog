@@ -143,3 +143,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  16 Jun 2016; Jeroen Roovers <jer@gentoo.org> ntfs3g-2015.3.14.ebuild:
+  Stable for PPC64 (bug #550970).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

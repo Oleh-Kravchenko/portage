@@ -425,3 +425,14 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*shorewall-5.0.9.2 (16 Jun 2016)
+
+  16 Jun 2016; Patrice Clement <monsieurp@gentoo.org> -shorewall-5.0.9.ebuild,
+  +shorewall-5.0.9.2.ebuild:
+  Version bump to v5.0.9.2
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1665
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -267,3 +267,18 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  16 Jun 2016; Yixun Lan <dlan@gentoo.org> ceph-9.2.1-r1.ebuild,
+  +files/ceph-9.2.1-libxfs.patch:
+  fix missing xfs header err when USE=xfs enabled
+
+  Gentoo-Bug: 585988
+
+  Package-Manager: portage-2.3.0_rc1
+
+*ceph-10.2.2 (16 Jun 2016)
+
+  16 Jun 2016; Yixun Lan <dlan@gentoo.org> +ceph-10.2.2.ebuild:
+  version bump 10.2.2
+
+  Package-Manager: portage-2.3.0_rc1
+

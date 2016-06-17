@@ -264,3 +264,26 @@
   files/syndic-initd-4:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*salt-2015.8.10 (16 Jun 2016)
+
+  16 Jun 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/salt-2015.8.10-remove-failing-boto-test.patch,
+  +salt-2015.8.10.ebuild:
+  Version bump to 2015.8.10
+
+  Package-Manager: portage-2.3.0_rc1
+
+*salt-2015.5.10 (16 Jun 2016)
+
+  16 Jun 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/salt-2015.5.10-buggy-tests.patch, +salt-2015.5.10.ebuild:
+  Version bump to 2015.5.10
+
+  Package-Manager: portage-2.3.0_rc1
+
+  16 Jun 2016; Patrick McLean <chutzpah@gentoo.org> -salt-2015.5.8.ebuild,
+  -salt-2015.8.3.ebuild, -salt-2015.8.5.ebuild, -salt-2015.8.7.ebuild:
+  Remove old versions
+
+  Package-Manager: portage-2.3.0_rc1
+

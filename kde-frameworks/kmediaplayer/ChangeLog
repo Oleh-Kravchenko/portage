@@ -212,3 +212,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*kmediaplayer-5.23.0 (16 Jun 2016)
+
+  16 Jun 2016; Michael Palimaka <kensington@gentoo.org>
+  +kmediaplayer-5.23.0.ebuild:
+  kde-frameworks: version bump 5.23.0
+
+  Package-Manager: portage-2.3.0_rc1
+

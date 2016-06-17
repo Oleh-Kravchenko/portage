@@ -104,3 +104,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  16 Jun 2016; Patrice Clement <monsieurp@gentoo.org> bleachbit-1.11.2.ebuild:
+  Sort dependencies.
+
+  Gentoo-Bug: https://bugs.gentoo.org/585676
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1668
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

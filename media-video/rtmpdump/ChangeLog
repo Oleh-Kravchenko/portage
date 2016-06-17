@@ -93,3 +93,14 @@
   Pull-Request: https://github.com/gentoo/gentoo/pull/1644
   Package-Manager: portage-2.3.0_rc1
 
+  16 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  rtmpdump-2.4_p20131018.ebuild, rtmpdump-9999.ebuild:
+  Depend on net-libs/gnutls when USE=gnutls is on.
+
+  Gentoo-Bug: https://bugs.gentoo.org/498840
+
+  Package-Manager: portage-2.3.0_rc1
+  Closes: https://github.com/gentoo/gentoo/pull/1634
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

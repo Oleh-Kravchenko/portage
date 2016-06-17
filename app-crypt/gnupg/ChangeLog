@@ -324,3 +324,35 @@
   08 Jun 2016; Mike Frysinger <vapier@gentoo.org> gnupg-2.1.12.ebuild:
   restore m68k/s390/sh keywords to 2.1.x
 
+*gnupg-2.1.12-r1 (15 Jun 2016)
+
+  15 Jun 2016; Kristian Fiskerstrand <k_f@gentoo.org> +gnupg-2.1.12-r1.ebuild:
+  Change minimum libgcrypt version to 1.7.1
+
+  Change minimum libgcrypt version to 1.7.1. This servers at least two
+  purposes; (i) it ensures gnupg 2.1 is build with curve25519 support
+  for Gentoo users; and (ii) threads use flag is removed in this
+  version (as it is required to always be on), and due to (i) this makes
+  more sense than specifying a default interprentation for missing use
+  flag.
+
+  Package-Manager: portage-2.3.0_rc1
+
+*gnupg-2.1.13 (16 Jun 2016)
+
+  16 Jun 2016; Kristian Fiskerstrand <k_f@gentoo.org> +gnupg-2.1.13.ebuild:
+  New modern upstream release 2.1.13
+
+  New modern upstream release 2.1.13 released
+
+  Package-Manager: portage-2.3.0_rc1
+
+  16 Jun 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  -files/gnupg-2.1.11-tests.patch, -gnupg-2.1.11-r1.ebuild,
+  -gnupg-2.1.12.ebuild:
+  Clean up old modern versions
+
+  Clean up old versions from modern branch
+
+  Package-Manager: portage-2.3.0_rc1
+

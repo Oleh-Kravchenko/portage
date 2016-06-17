@@ -168,3 +168,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  16 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  Reorder maintainers in metadata.xml and fix indents
+
+  Update the metadata.xml file so that it conforms with the current
+  Gentoo policy.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1678
+  Package-Manager: portage-2.3.0_rc1
+

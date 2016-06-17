@@ -191,3 +191,12 @@
   -files/opensmtpd-5.7.3p2-libressl-arc4random-circularity.patch:
   remove old patches
 
+*opensmtpd-5.9.2.201606152203_p1 (16 Jun 2016)
+
+  16 Jun 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  -opensmtpd-5.9.2.201606071034_p1.ebuild,
+  +opensmtpd-5.9.2.201606152203_p1.ebuild:
+  snapshot version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

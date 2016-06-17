@@ -1016,3 +1016,18 @@
 
   Package-Manager: portage-2.3.0_rc1_p20
 
+*chrome-binary-plugins-53.0.2767.4_alpha (16 Jun 2016)
+*chrome-binary-plugins-52.0.2743.41_beta (16 Jun 2016)
+*chrome-binary-plugins-51.0.2704.103 (16 Jun 2016)
+
+  16 Jun 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-51.0.2704.84.ebuild,
+  +chrome-binary-plugins-51.0.2704.103.ebuild,
+  -chrome-binary-plugins-52.0.2743.33_beta.ebuild,
+  +chrome-binary-plugins-52.0.2743.41_beta.ebuild,
+  -chrome-binary-plugins-53.0.2763.0_alpha.ebuild,
+  +chrome-binary-plugins-53.0.2767.4_alpha.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_rc1_p20
+
