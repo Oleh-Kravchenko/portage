@@ -116,3 +116,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  17 Jun 2016; Kacper Kowalik <xarthisius@gentoo.org> i3-9999.ebuild:
+  Add missing dependency on x11-libs/xcb-util-xrm
+
+  Package-Manager: portage-2.2.28
+

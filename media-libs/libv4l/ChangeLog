@@ -99,3 +99,14 @@
   15 Mar 2016; Mike Frysinger <vapier@gentoo.org> +libv4l-1.10.0.ebuild:
   version bump to 1.10.0
 
+*libv4l-1.10.1 (17 Jun 2016)
+
+  17 Jun 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  +libv4l-1.10.1.ebuild:
+  bump to 1.10.1 and eapi6-ify (bug #586016)
+
+  Fixes incompatibility with libjpeg-turbo-1.5.0, reported by
+  Oleg and others in bug #586016.
+
+  Package-Manager: portage-2.3.0_rc1
+

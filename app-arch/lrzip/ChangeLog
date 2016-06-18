@@ -78,3 +78,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Jun 2016; Patrice Clement <monsieurp@gentoo.org> lrzip-0.614.ebuild,
+  lrzip-0.616.ebuild, lrzip-0.621.ebuild:
+  update Homepage
+
+  Closes: https://github.com/gentoo/gentoo/pull/1687
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

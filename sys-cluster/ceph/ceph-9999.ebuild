@@ -30,11 +30,11 @@ IUSE+=" libatomic lttng +nss +radosgw static-libs tcmalloc test xfs zfs"
 
 COMMON_DEPEND="
 	app-arch/snappy
+	app-arch/lz4:=
+	app-arch/bzip2
 	dev-libs/boost:=[threads]
 	dev-libs/fcgi
 	dev-libs/libaio
-	dev-libs/libedit
-	dev-python/sphinx[$(python_gen_usedep 'python2*')]
 	dev-libs/leveldb[snappy]
 	nss? ( dev-libs/nss )
 	libatomic? ( dev-libs/libatomic_ops )
@@ -67,6 +67,7 @@ DEPEND="${COMMON_DEPEND}
 	app-arch/cpio
 	sys-apps/lsb-release
 	virtual/pkgconfig
+	dev-python/sphinx
 	test? (
 		sys-fs/btrfs-progs
 		sys-apps/grep[pcre]
@@ -74,12 +75,10 @@ DEPEND="${COMMON_DEPEND}
 		dev-python/virtualenv[${PYTHON_USEDEP}]
 	)"
 RDEPEND="${COMMON_DEPEND}
-	sys-apps/which
 	sys-apps/hdparm
 	sys-block/parted
 	sys-fs/cryptsetup
 	sys-apps/gptfdisk
-	sys-apps/findutils
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	"

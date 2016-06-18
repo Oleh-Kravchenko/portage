@@ -172,3 +172,37 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*wxGTK-3.0.2.0-r301 (17 Jun 2016)
+
+  17 Jun 2016; Ryan Hill <rhill@gentoo.org> +wxGTK-3.0.2.0-r301.ebuild:
+  Fix webkit-gtk dependency.
+
+  We need webkitgtk-3.0 for GTK 3.
+
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Ryan Hill <rhill@gentoo.org>
+
+*wxGTK-3.0.2.0-r3 (17 Jun 2016)
+
+  17 Jun 2016; Ryan Hill <rhill@gentoo.org>
+  +files/wxGTK-3.0.2.0-webview-fixes.patch, +wxGTK-3.0.2.0-r3.ebuild,
+  wxGTK-3.0.2.0-r301.ebuild:
+  Backport various webkit-related build fixes.
+
+  a309157a Don't include "webview" in "standard" libraries
+  d24f711f Only link webview library with libwebkitgtk in wxGTK
+  bde287ba Rebake webview sample makefile after EXTRALIBS_WEBVIEW addition
+  037f6977 Report libraries in EXTRALIBS_WEBVIEW in wx-config output
+
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Ryan Hill <rhill@gentoo.org>
+
+  17 Jun 2016; Ryan Hill <rhill@gentoo.org> wxGTK-2.8.12.1-r1.ebuild,
+  wxGTK-2.8.12.1-r2.ebuild, wxGTK-2.9.4.1-r1.ebuild, wxGTK-3.0.2.0-r1.ebuild,
+  wxGTK-3.0.2.0-r2.ebuild, wxGTK-3.0.2.0-r3.ebuild, wxGTK-3.0.2.0-r300.ebuild,
+  wxGTK-3.0.2.0-r301.ebuild:
+  Pay the repoman.
+
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Ryan Hill <rhill@gentoo.org>
+

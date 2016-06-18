@@ -282,3 +282,34 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  17 Jun 2016; Alexis Ballier <aballier@gentoo.org> ceph-10.2.2.ebuild,
+  ceph-9999.ebuild:
+  remove dependency on libedit.
+
+  See commit f5da15945760d6a914077367b7b865e175746d72 upstream.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  17 Jun 2016; Alexis Ballier <aballier@gentoo.org> ceph-10.2.2.ebuild,
+  ceph-9999.ebuild:
+  sphinx is only needed to build manpages, at build time.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  17 Jun 2016; Alexis Ballier <aballier@gentoo.org> ceph-10.2.2.ebuild,
+  ceph-9999.ebuild:
+  Drop which & findutils deps.
+
+  Those are in @system and cause me conflicts with busybox[make-symlinks]
+
+  Package-Manager: portage-2.3.0_rc1
+
+  17 Jun 2016; Alexis Ballier <aballier@gentoo.org> ceph-10.2.2.ebuild,
+  ceph-9999.ebuild:
+  Add missing dep on lz4 & bzip2.
+
+  Those are needed by librocksdb-static currently enabled by default in
+  configure.
+
+  Package-Manager: portage-2.3.0_rc1
+

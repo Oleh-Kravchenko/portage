@@ -287,3 +287,20 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*salt-2016.3.1 (16 Jun 2016)
+
+  16 Jun 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/salt-2016.3.1-broken-tests.patch,
+  +files/salt-2016.3.1-dont-realpath-tmpdir.patch, +salt-2016.3.1.ebuild:
+  Version bump to 2016.3.1
+
+  Package-Manager: portage-2.3.0_rc1
+
+  16 Jun 2016; Patrick McLean <chutzpah@gentoo.org> metadata.xml,
+  salt-2015.5.10.ebuild, salt-2015.8.10.ebuild, salt-2016.3.1.ebuild:
+  Add "portage" USE flag to pull in sys-apps/portage
+
+  Gentoo-Bug: 585164
+
+  Package-Manager: portage-2.3.0_rc1
+

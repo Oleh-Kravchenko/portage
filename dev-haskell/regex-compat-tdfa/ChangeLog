@@ -77,3 +77,12 @@
 
   Package-Manager: portage-2.2.28
 
+  16 Jun 2016; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml,
+  regex-compat-tdfa-0.95.1.4.ebuild:
+  drop ghc-switching USE flags, bug #584826
+
+  Reported-by: Thomas Beutin
+  Bug: https://bugs.gentoo.org/584826
+
+  Package-Manager: portage-2.3.0_rc1
+
