@@ -196,3 +196,10 @@
 
   Package-Manager: portage-2.2.28
 
+*docker-py-1.8.1 (18 Jun 2016)
+
+  18 Jun 2016; Alex Brandt <alunduil@gentoo.org> +docker-py-1.8.1.ebuild:
+  add version 1.8.1
+
+  Package-Manager: portage-2.3.0_rc1
+

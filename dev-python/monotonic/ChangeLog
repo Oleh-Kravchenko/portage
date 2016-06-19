@@ -133,3 +133,10 @@
   05 Jun 2016; Matthew Thode <prometheanfire@gentoo.org> monotonic-1.0.ebuild:
   openstack mass stable for mitaka, x86 and amd64 for bug 582170
 
+*monotonic-1.1 (18 Jun 2016)
+
+  18 Jun 2016; Alex Brandt <alunduil@gentoo.org> +monotonic-1.1.ebuild:
+  add version 1.1
+
+  Package-Manager: portage-2.3.0_rc1
+

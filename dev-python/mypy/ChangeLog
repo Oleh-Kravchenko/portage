@@ -76,3 +76,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*mypy-0.4.2 (18 Jun 2016)
+
+  18 Jun 2016; Alex Brandt <alunduil@gentoo.org> +mypy-0.4.2.ebuild:
+  add version 0.4.2
+
+  Package-Manager: portage-2.3.0_rc1
+
+  18 Jun 2016; Alex Brandt <alunduil@gentoo.org> -mypy-0.2.0.ebuild:
+  remove version 0.2.0
+
+  Package-Manager: portage-2.3.0_rc1
+

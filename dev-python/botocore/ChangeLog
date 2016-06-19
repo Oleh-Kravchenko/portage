@@ -337,3 +337,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*botocore-1.4.27 (18 Jun 2016)
+
+  18 Jun 2016; Alex Brandt <alunduil@gentoo.org> +botocore-1.4.27.ebuild:
+  add version 1.4.27
+
+  Package-Manager: portage-2.3.0_rc1
+
+  18 Jun 2016; Alex Brandt <alunduil@gentoo.org> -botocore-1.4.19.ebuild:
+  remove version 1.4.19
+
+  Package-Manager: portage-2.3.0_rc1
+

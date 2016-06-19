@@ -205,3 +205,10 @@
   21 May 2016; Matt Turner <mattst88@gentoo.org> dhcpcd-6.10.1.ebuild:
   added alpha, bug 575240.
 
+*dhcpcd-6.11.1 (18 Jun 2016)
+
+  18 Jun 2016; William Hubbs <williamh@gentoo.org> +dhcpcd-6.11.1.ebuild:
+  version bump to 6.11.1
+
+  Package-Manager: portage-2.2.28
+

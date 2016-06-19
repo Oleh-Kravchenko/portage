@@ -380,3 +380,8 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  18 Jun 2016; Michał Górny <mgorny@gentoo.org> glib-2.44.1-r1.ebuild,
+  glib-2.46.2-r2.ebuild, glib-2.46.2-r3.ebuild, glib-2.48.0.ebuild,
+  glib-2.48.0-r1.ebuild:
+  Use virtual/libelf
+

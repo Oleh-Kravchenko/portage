@@ -21,3 +21,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*multidict-1.1.0_beta4 (18 Jun 2016)
+
+  18 Jun 2016; Alex Brandt <alunduil@gentoo.org>
+  +multidict-1.1.0_beta4.ebuild:
+  add version 1.1.0_beta4
+
+  Package-Manager: portage-2.3.0_rc1
+
