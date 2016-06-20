@@ -110,3 +110,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  19 Jun 2016; Tobias Klausmann <klausman@gentoo.org> libv4l-1.10.1.ebuild:
+  1.10.1-r0: add alpha keyword
+
+  Gentoo-Bug: 586192
+
+  Package-Manager: portage-2.3.0_rc1
+

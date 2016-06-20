@@ -258,3 +258,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*kdelibs4support-5.23.0-r1 (19 Jun 2016)
+
+  19 Jun 2016; Michael Palimaka <kensington@gentoo.org>
+  +kdelibs4support-5.23.0-r1.ebuild:
+  revision bump to add Qt subslot operator
+
+  Package-Manager: portage-2.3.0_rc1
+

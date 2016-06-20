@@ -218,3 +218,9 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  19 Jun 2016; Sergei Trofimovich <slyfox@gentoo.org> seamonkey-2.38.ebuild,
+  seamonkey-2.39.ebuild, seamonkey-2.40.ebuild:
+  fix typo 's/dir/die/'
+
+  Package-Manager: portage-2.3.0_rc1
+

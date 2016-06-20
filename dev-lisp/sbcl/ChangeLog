@@ -284,3 +284,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  19 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  Update maintainer description in metadata
+
+  Metadata incorrectly lists nvinson234@gmail.com as a proxy maintainer
+  in the description. This commit corrects the description for
+  nvinson234@gmail.com.
+
+  Package-Manager: portage-2.3.0_rc1
+

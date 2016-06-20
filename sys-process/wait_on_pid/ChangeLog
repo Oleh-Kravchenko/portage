@@ -63,3 +63,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  19 Jun 2016; Joerg Bornkessel <hd_brummy@gentoo.org>
+  wait_on_pid-0.0.2.ebuild:
+  keyword ~arm64, wrt bug 586364; thx to T.Reufer for testing
+
+  Package-Manager: portage-2.3.0_rc1
+

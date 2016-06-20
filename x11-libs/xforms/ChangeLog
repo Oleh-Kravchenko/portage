@@ -76,3 +76,10 @@
 
   Package-Manager: portage-2.2.28
 
+  19 Jun 2016; Patrice Clement <monsieurp@gentoo.org> xforms-1.2.4.ebuild:
+  Regenerate Manifest file.
+
+  Package-Manager: portage-2.2.28
+  Gentoo-Bug: https://bugs.gentoo.org/585936
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -108,3 +108,10 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/openfire-initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  19 Jun 2016; Sergei Trofimovich <slyfox@gentoo.org> openfire-3.10.0.ebuild,
+  openfire-3.10.1.ebuild, openfire-3.10.2.ebuild, openfire-3.10.3.ebuild,
+  openfire-4.0.0.ebuild, openfire-4.0.1.ebuild, openfire-4.0.2.ebuild:
+  fix typo 's/dir/die/'
+
+  Package-Manager: portage-2.3.0_rc1
+

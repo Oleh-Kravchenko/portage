@@ -188,3 +188,8 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*exiftool-10.20 (19 Jun 2016)
+
+  19 Jun 2016; Tim Harder <radhermit@gentoo.org> +exiftool-10.20.ebuild:
+  version bump to 10.20
+

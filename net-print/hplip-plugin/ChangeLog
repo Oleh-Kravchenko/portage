@@ -52,3 +52,8 @@
 
   Package-Manager: portage-2.2.28
 
+  19 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  drop unnecessary <description/> from metadata
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -43,3 +43,13 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*purpose-1.1-r1 (19 Jun 2016)
+
+  19 Jun 2016; Michael Palimaka <kensington@gentoo.org>
+  +purpose-1.1-r1.ebuild:
+  revision bump to add Qt subslot operator
+
+  The QT_VERSION_CHECK macro is used at build-time.
+
+  Package-Manager: portage-2.3.0_rc1
+

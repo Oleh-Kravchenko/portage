@@ -159,3 +159,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*icedtea-web-1.6.2 (19 Jun 2016)
+
+  19 Jun 2016; James Le Cuirot <chewi@gentoo.org> +icedtea-web-1.6.2.ebuild:
+  Version bump to 1.6.2
+
+  Package-Manager: portage-2.3.0_rc1
+
