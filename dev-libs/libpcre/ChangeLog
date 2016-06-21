@@ -190,3 +190,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  20 Jun 2016; Tobias Klausmann <klausman@gentoo.org> libpcre-8.38-r1.ebuild:
+  8.38-r1: add alpha keyword
+
+  Gentoo-Bug: 575546
+
+  Package-Manager: portage-2.3.0_rc1
+

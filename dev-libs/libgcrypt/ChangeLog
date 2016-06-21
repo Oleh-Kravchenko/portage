@@ -420,3 +420,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  20 Jun 2016; Tobias Klausmann <klausman@gentoo.org> libgcrypt-1.7.1.ebuild:
+  1.7.1-r0: add alpha keyword
+
+  Gentoo-Bug: 586056
+
+  Package-Manager: portage-2.3.0_rc1
+

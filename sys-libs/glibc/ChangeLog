@@ -421,3 +421,13 @@
 
     do not hardcode /usr/${CTARGET}.
 
+  19 Jun 2016; Benda Xu <heroxbd@gentoo.org> files/eblits/src_configure.eblit:
+  specify sbin in src_configure.
+
+    In configure when prefix=/usr, libc_cv_rootsbindir
+    is set to /sbin instead of /usr/sbin.  The same does
+    not apply if prefix=EPREFIX/usr.  We force it in Prefix
+    to be consistant.
+
+  Package-Manager: portage-2.2.28
+

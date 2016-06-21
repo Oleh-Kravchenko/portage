@@ -128,3 +128,9 @@
 
   Package-Manager: portage-2.2.28
 
+  20 Jun 2016; Amy Winston <amynka@gentoo.org> -gdal-2.0.0.ebuild,
+  gdal-2.0.0-r1.ebuild, gdal-2.0.1.ebuild, gdal-2.0.2.ebuild:
+  remove old, add missing die. Thanks K_F
+
+  Package-Manager: portage-2.2.28
+

@@ -254,3 +254,7 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  20 Jun 2016; Mike Frysinger <vapier@gentoo.org> pciutils-3.3.1.ebuild,
+  pciutils-3.4.1.ebuild, pciutils-3.5.1.ebuild:
+  set up a sane pkg-config value #584812
+

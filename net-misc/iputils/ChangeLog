@@ -209,3 +209,11 @@
   iputils-20151218.ebuild, iputils-20160308.ebuild, iputils-99999999.ebuild:
   update traceroute blocker after package move #584362
 
+  19 Jun 2016; Benda Xu <heroxbd@gentoo.org> iputils-20151218.ebuild,
+  iputils-20160308.ebuild, iputils-99999999.ebuild:
+  remove EPREFIX from dosym.
+
+    ebuild helpers includes EPREFIX by default.
+
+  Package-Manager: portage-2.2.28
+

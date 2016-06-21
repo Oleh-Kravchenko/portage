@@ -137,3 +137,14 @@
   Package-Manager: portage-2.3.0_rc1
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+  20 Jun 2016; Andrew Savchenko <bircoph@gentoo.org>
+  +files/root-docs-6.04.06-tightlist.patch, root-docs-6.04.06.ebuild:
+  fix bug 564482
+
+  pandoc-1.14 has problems with \tightlist command (it is referenced,
+  but not included), this can be fixed by introducing manual definition.
+  Patch by Juergen Rose <rose@rz.uni-potsdam.de>.
+
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+

@@ -369,3 +369,12 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  20 Jun 2016; Hans de Graaff <graaff@gentoo.org> ruby-2.1.10.ebuild,
+  ruby-2.2.5.ebuild, ruby-2.3.1.ebuild:
+  add back tk support
+
+  Initial patches by  Arfrever Frehtes Taifersar Arahesis
+  in bug 497130
+
+  Package-Manager: portage-2.2.28
+

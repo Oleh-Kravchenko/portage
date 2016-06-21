@@ -144,3 +144,11 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*js_of_ocaml-2.8 (20 Jun 2016)
+
+  20 Jun 2016; Alexis Ballier <aballier@gentoo.org> +js_of_ocaml-2.8.ebuild,
+  metadata.xml:
+  bump to 2.8
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -83,3 +83,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*runc-1.0.0_rc1 (20 Jun 2016)
+
+  20 Jun 2016; William Hubbs <williamh@gentoo.org> metadata.xml,
+  +runc-1.0.0_rc1.ebuild:
+  version bump to 1.0.0_rc1
+
+  Package-Manager: portage-2.2.28
+

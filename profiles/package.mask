@@ -254,8 +254,9 @@ dev-python/buildutils
 kde-apps/pairs
 
 # Alexis Ballier <aballier@gentoo.org> (24 May 2016)
-# API change, breaks e.g. js_of_ocaml
+# API change, breaks e.g. ocsigenserver
 >=dev-ml/tyxml-4
+>=dev-ml/js_of_ocaml-2.8
 
 # Michał Górny <mgorny@gentoo.org> (24 May 2016)
 # No longer maintained upstream, no longer works with libzpaq-7*.
@@ -340,12 +341,6 @@ net-libs/hubbub
 # No release in 6 years and segfaults on modern systems. (bug #311809)
 # Masked for removal on 20160519
 games-sports/toycars
-
-# Sergey Popov <pinkbyte@gentoo.org> (19 Apr 2016)
-# Security mask, wrt bug #577156
-# Should be kept in tree for some time
-# for users, that may experience problems with new versions
-<net-misc/quagga-1.0.20160315
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (16 Apr 2016)
 # Masked because of security bug 580210
