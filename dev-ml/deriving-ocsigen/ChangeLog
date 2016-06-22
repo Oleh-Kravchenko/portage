@@ -71,3 +71,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Jun 2016; Michał Górny <mgorny@gentoo.org> deriving-ocsigen-0.3c.ebuild:
+  dev-ml/*: Remove := slot ops from || deps, #586304
+

@@ -138,3 +138,6 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  21 Jun 2016; Mike Frysinger <vapier@gentoo.org> dropbear-2016.73.ebuild:
+  mark 2016.73 arm64/hppa/ia64/m68k/ppc/ppc64/s390/sh/sparc/x86 stable #577050
+

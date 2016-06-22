@@ -181,3 +181,7 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  21 Jun 2016; Michał Górny <mgorny@gentoo.org> tracker-1.6.1.ebuild,
+  tracker-1.6.2.ebuild:
+  Remove := slot op inside ||, #586302
+

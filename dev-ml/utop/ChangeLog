@@ -115,3 +115,7 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  21 Jun 2016; Michał Górny <mgorny@gentoo.org> utop-1.18.2.ebuild,
+  utop-1.19.ebuild, utop-1.19.1.ebuild, utop-1.19.2.ebuild:
+  dev-ml/*: Remove := slot ops from || deps, #586304
+

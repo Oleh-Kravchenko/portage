@@ -223,3 +223,10 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/quasselcore.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  21 Jun 2016; Johannes Huber <johu@gentoo.org> quassel-9999.ebuild:
+  Update use phonon
+
+  Upstream commit 680565f39c50f27cc339cb3e96bbd0abc6f47144
+
+  Package-Manager: portage-2.3.0_rc1
+

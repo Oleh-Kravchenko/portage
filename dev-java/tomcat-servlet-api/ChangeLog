@@ -460,3 +460,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*tomcat-servlet-api-7.0.70 (21 Jun 2016)
+
+  21 Jun 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +tomcat-servlet-api-7.0.70.ebuild:
+  version bump for Tomcat 7.0.x
+
+  Package-Manager: portage-2.3.0_rc1
+

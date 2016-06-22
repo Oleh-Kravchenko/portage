@@ -65,3 +65,6 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Jun 2016; Michał Górny <mgorny@gentoo.org> wyrd-1.4.6.ebuild:
+  Remove := slot op from || dep, #586304
+

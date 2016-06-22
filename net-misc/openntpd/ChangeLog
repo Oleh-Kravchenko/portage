@@ -199,3 +199,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  21 Jun 2016; Jeroen Roovers <jer@gentoo.org> openntpd-6.0_p1.ebuild:
+  Stable for HPPA (bug #584508).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+

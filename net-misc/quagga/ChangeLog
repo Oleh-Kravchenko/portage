@@ -158,3 +158,22 @@
   files/quagga-services.init.3:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*quagga-1.0.20160315-r2 (20 Jun 2016)
+
+  20 Jun 2016; Sergey Popov <pinkbyte@gentoo.org>
+  +files/quagga-1.0.20160315-ospfd-dangling-pointer-fix.patch,
+  -quagga-1.0.20160315-r1.ebuild, +quagga-1.0.20160315-r2.ebuild:
+  revision bump
+
+  Fix dangling pointer dereference in ospfd,
+  making it useable again on p2p links
+  Commited straight to stable
+
+  Package-Manager: portage-2.3.0_rc1
+
+  20 Jun 2016; Sergey Popov <pinkbyte@gentoo.org> -quagga-0.99.23.1.ebuild,
+  -quagga-0.99.24.1-r1.ebuild:
+  drop old vulnerable versions
+
+  Package-Manager: portage-2.3.0_rc1
+

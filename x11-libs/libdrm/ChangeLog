@@ -225,3 +225,7 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  21 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/libdrm-2.4.68-sysmacros.patch, libdrm-2.4.68.ebuild:
+  fix building w/newer glibc #580088
+

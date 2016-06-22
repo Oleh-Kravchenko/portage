@@ -178,3 +178,13 @@
   25 May 2016; Matt Turner <mattst88@gentoo.org> sysstat-11.2.2.ebuild:
   alpha stable, bug 579824.
 
+*sysstat-11.3.4-r1 (21 Jun 2016)
+*sysstat-11.2.4-r1 (21 Jun 2016)
+
+  21 Jun 2016; Jeroen Roovers <jer@gentoo.org> +sysstat-11.2.4-r1.ebuild,
+  +sysstat-11.3.4-r1.ebuild:
+  Drop USE=doc as it now only controls man page installation (bug #585702 by
+  latenite).
+
+  Package-Manager: portage-2.3.0_rc1
+

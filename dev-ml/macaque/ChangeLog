@@ -77,3 +77,6 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  21 Jun 2016; Michał Górny <mgorny@gentoo.org> macaque-0.7.2.ebuild:
+  dev-ml/*: Remove := slot ops from || deps, #586304
+

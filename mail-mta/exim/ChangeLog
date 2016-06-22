@@ -293,3 +293,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Jun 2016; Fabian Groffen <grobian@gentoo.org> exim-4.87.ebuild:
+  4.87 has proper fix for missing ECDH in OpenSSL, no need for bindist
+  requirement, bug #585938
+
+  Package-Manager: portage-2.2.28
+

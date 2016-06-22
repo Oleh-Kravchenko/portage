@@ -108,3 +108,7 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  21 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/parted-3.2-sysmacros.patch, parted-3.2-r1.ebuild:
+  fix building w/newer glibc #580022
+

@@ -72,3 +72,9 @@
   particular bug assignment/CC to ensure that the requested assignee
   always goes first, in order to match the bug wrangling policies.
 
+  21 Jun 2016; Markus Meier <maekke@gentoo.org> antiword-0.37-r1.ebuild:
+  add ~arm, bug #584274
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

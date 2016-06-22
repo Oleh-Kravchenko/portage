@@ -224,3 +224,10 @@
   Closes: https://github.com/gentoo/gentoo/pull/1565
   Package-Manager: portage-2.3.0_rc1
 
+  21 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> fwknop-2.6.8-r2.ebuild,
+  fwknop-2.6.9.ebuild:
+  respect EPREFIX in DOC_CONTENTS
+
+  Closes: https://github.com/gentoo/gentoo/pull/1703
+  Package-Manager: portage-2.3.0_rc1
+

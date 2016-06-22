@@ -94,3 +94,9 @@
   Package-Manager: portage-2.2.28
   Closes: https://github.com/gentoo/gentoo/pull/1049
 
+  21 Jun 2016; Markus Meier <maekke@gentoo.org> libestr-0.1.10.ebuild:
+  arm stable, bug #585640
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

@@ -116,3 +116,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  21 Jun 2016; Markus Meier <maekke@gentoo.org> p11-kit-0.23.2.ebuild:
+  arm stable, bug #585694
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

@@ -154,3 +154,22 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  21 Jun 2016; Jeroen Roovers <jer@gentoo.org> expat-2.1.1-r2.ebuild:
+  Stable for HPPA (bug #577928).
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --ignore-arches
+
+*expat-2.2.0 (21 Jun 2016)
+
+  21 Jun 2016; Sebastian Pipping <sping@gentoo.org> +expat-2.2.0.ebuild:
+  2.2.0
+
+  Package-Manager: portage-2.3.0_rc1
+
+  21 Jun 2016; Markus Meier <maekke@gentoo.org> expat-2.1.1-r2.ebuild:
+  arm stable, bug #577928
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

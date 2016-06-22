@@ -67,3 +67,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/rar2fs-1.22.0-sysmacros.patch, rar2fs-1.22.0.ebuild:
+  fix building w/newer glibc #580852
+

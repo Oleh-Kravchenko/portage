@@ -638,3 +638,10 @@
   qemu-9999.ebuild:
   depend on jpeg SLOT=0 for building
 
+  07 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/qemu-2.6.0-crypto-static.patch, qemu-2.6.0.ebuild, qemu-9999.ebuild:
+  fix static linking errors w/curl[ssl,curl_ssl_openssl]
+
+  21 Jun 2016; Mike Frysinger <vapier@gentoo.org> qemu-9999.ebuild:
+  drop kvm_stat to match upstream #586158
+

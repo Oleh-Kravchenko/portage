@@ -148,3 +148,11 @@
 
   Package-Manager: portage-2.2.28
 
+*icingaweb2-2.3.4 (21 Jun 2016)
+
+  21 Jun 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +icingaweb2-2.3.4.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

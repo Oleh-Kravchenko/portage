@@ -150,3 +150,7 @@
   files/varnishncsa.initd, files/varnishncsa.initd-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  21 Jun 2016; Michał Górny <mgorny@gentoo.org> varnish-3.0.7.ebuild,
+  varnish-4.0.3.ebuild, varnish-4.1.2.ebuild:
+  Remove invalid := slotop from || (), #586330
+

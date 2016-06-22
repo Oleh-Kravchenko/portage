@@ -79,3 +79,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  21 Jun 2016; Alexis Ballier <aballier@gentoo.org> tyxml-4.0.0.ebuild:
+  enable camlp4 by default; still needed by ocsigenserver
+
+  Package-Manager: portage-2.3.0_rc1
+

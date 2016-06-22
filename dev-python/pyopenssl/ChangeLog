@@ -204,3 +204,6 @@
 
   This matches the requirements in the setup.py source.
 
+  21 Jun 2016; Mike Frysinger <vapier@gentoo.org> pyopenssl-0.15.1-r1.ebuild:
+  mark 0.15.1-r1 arm64/m68k/s390/sh stable #560894
+

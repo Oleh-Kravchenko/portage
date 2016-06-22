@@ -231,3 +231,9 @@
   files/rstudio-server.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  21 Jun 2016; Michał Górny <mgorny@gentoo.org> rstudio-0.99.473-r1.ebuild,
+  rstudio-0.99.482.ebuild, rstudio-0.99.483.ebuild, rstudio-0.99.484.ebuild,
+  rstudio-0.99.486-r1.ebuild, rstudio-0.99.491.ebuild,
+  rstudio-0.99.879.ebuild:
+  Backport JRE/JDK := dep fix, #586322
+
