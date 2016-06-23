@@ -1,0 +1,12 @@
+# ChangeLog for app-misc/rundeck-cli-bin
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*rundeck-cli-bin-0.1.8 (21 Jun 2016)
+
+  21 Jun 2016; William Hubbs <williamh@gentoo.org> +metadata.xml,
+  +rundeck-cli-bin-0.1.8.ebuild:
+  new package
+
+  Package-Manager: portage-2.2.28
+

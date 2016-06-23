@@ -115,3 +115,8 @@
   files/spice-webdavd.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  22 Jun 2016; Pacho Ramos <pacho@gentoo.org> -phodav-0.4.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+

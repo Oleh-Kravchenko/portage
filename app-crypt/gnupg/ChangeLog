@@ -356,3 +356,13 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  22 Jun 2016; Austin English <wizardedit@gentoo.org> gnupg-2.0.26-r3.ebuild,
+  gnupg-2.0.28.ebuild:
+  fix remaining ebuilds building with Clang
+
+  Gentoo-Bug: https://bugs.gentoo.org/458154
+
+  Reviewed-by: Robin H. Johnson <robbat2@gentoo.org>
+
+  Package-Manager: portage-2.2.28
+

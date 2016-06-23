@@ -25,3 +25,46 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  22 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> -kakoune-2016.05.05.ebuild:
+  drop version 2016.05.05
+
+*kakoune-0_pre20160515 (22 Jun 2016)
+
+  22 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  +kakoune-0_pre20160515.ebuild, -kakoune-2016.05.15.ebuild:
+  fix the versioning scheme
+
+  Change the versioning scheme from YYYY.MM.DD to 0_preYYYYMMDD to
+  comply with the snapshot naming rules.
+
+  Package-Manager: portage-2.2.28
+
+*kakoune-0_pre20160515-r1 (22 Jun 2016)
+
+  22 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  files/kakoune-makefile.patch, -kakoune-0_pre20160515.ebuild,
+  +kakoune-0_pre20160515-r1.ebuild, kakoune-9999.ebuild:
+  fix a linking bug
+
+  Fix a ncurses[tinfo] linking bug
+  (see upstream https://github.com/mawww/kakoune/issues/695):
+  moved configuration of ncurses linker libs to ebuild, until
+  upstream supports pkg-config
+
+  bind to current ncurses slot
+
+*kakoune-0_pre20160620 (22 Jun 2016)
+
+  22 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  +kakoune-0_pre20160620.ebuild:
+  bump to 0_pre20160620
+
+  22 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  -kakoune-0_pre20160515-r1.ebuild:
+  drop 0_pre20160515
+
+  22 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> kakoune-9999.ebuild:
+  fix docdir for the live ebuild
+
+  Package-Manager: portage-2.2.28
+

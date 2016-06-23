@@ -132,3 +132,14 @@
 
   Package-Manager: portage-2.2.27
 
+*gimp-2.9.2-r1 (22 Jun 2016)
+*gimp-2.8.16-r1 (22 Jun 2016)
+*gimp-2.8.14-r2 (22 Jun 2016)
+
+  22 Jun 2016; Sebastian Pipping <sping@gentoo.org>
+  +files/gimp-2.9.2-CVE-2016-4994.patch, +gimp-2.8.14-r2.ebuild,
+  +gimp-2.8.16-r1.ebuild, +gimp-2.9.2-r1.ebuild:
+  CVE-2016-4994 (bug #586666)
+
+  Package-Manager: portage-2.2.28
+

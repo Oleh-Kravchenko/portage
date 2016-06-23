@@ -1134,3 +1134,17 @@
 
   Package-Manager: portage-2.2.26
 
+*chromium-51.0.2704.103 (22 Jun 2016)
+
+  22 Jun 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-51.0.2704.103.ebuild:
+  stable channel bump (51.0.2704.103)
+
+  Package-Manager: portage-2.3.0_rc1_p27
+
+  22 Jun 2016; Mike Gilbert <floppym@gentoo.org>
+  -chromium-50.0.2661.102.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1_p27
+

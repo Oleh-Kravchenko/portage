@@ -18,3 +18,11 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/amc.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*aerospike-amc-community-3.6.8.2 (22 Jun 2016)
+
+  22 Jun 2016; Patrick Lauer <patrick@gentoo.org>
+  +aerospike-amc-community-3.6.8.2.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0_rc1
+
