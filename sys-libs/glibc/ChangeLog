@@ -431,3 +431,7 @@
 
   Package-Manager: portage-2.2.28
 
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  files/eblits/pkg_pretend.eblit, files/eblits/src_prepare.eblit:
+  sourceware: convert to https:// URIs
+

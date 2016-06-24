@@ -209,3 +209,7 @@
   freebsd-sources-10.3-r3.ebuild:
   Fix the issue that can not build bmake.
 
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  freebsd-sources-8.2-r2.ebuild:
+  sourceware: convert to https:// URIs
+

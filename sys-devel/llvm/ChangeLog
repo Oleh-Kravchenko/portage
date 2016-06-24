@@ -609,3 +609,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  23 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/clang-3.8-compiler-rt-fbsd.patch, llvm-3.8.0-r2.ebuild:
+  Fix build fails on Gentoo/FreeBSD.
+
+  Gentoo-Bug: https://bugs.gentoo.org/578064
+  Closes: https://github.com/gentoo/gentoo/pull/1693
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

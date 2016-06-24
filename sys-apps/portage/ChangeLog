@@ -374,3 +374,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*portage-2.3.0 (23 Jun 2016)
+
+  23 Jun 2016; Brian Dolbec <dolsen@gentoo.org> -portage-2.2.20.1.ebuild,
+  -portage-2.2.27.ebuild, +portage-2.3.0.ebuild:
+  Bump, final release
+
+  Includes bug fixes for: 576888, 579626, 579292, 578204, 577862, 582388,
+  576788
+  583560, 577720, 583164, 584530, 572494, 582802, 583754, 574626, 586410.
+
+  Package-Manager: portage-2.3.0
+

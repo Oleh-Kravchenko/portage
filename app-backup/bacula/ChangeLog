@@ -138,3 +138,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*bacula-7.4.0-r1 (23 Jun 2016)
+
+  23 Jun 2016; Thomas Beierlein <tomjbe@gentoo.org> +bacula-7.4.0-r1.ebuild:
+  Let bacula-dir start successful under systemd (Bug #584442)
+
+  Change systemd's bacula-dir.service so that bacula-dir is run as
+  root:bacula.
+  While not perfect from a security point it makes bacula under systemd
+  compatible with OpenRC environment.
+
+  Package-Manager: portage-2.3.0_rc1
+

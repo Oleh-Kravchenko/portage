@@ -386,3 +386,22 @@
 
   Package-Manager: portage-2.2.28
 
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org> files/bashrc:
+  bashrc: clean up ls_colors var too #572582
+
+*bash-4.3_p46 (23 Jun 2016)
+
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org> +bash-4.3_p46.ebuild,
+  +files/bash-4.3-protos.patch:
+  version bump to 4.3_p46
+
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org> files/bashrc:
+  bashrc: back out clearing of default LS_COLORS #583814
+
+  The behavior of ls in the default case (when LS_COLORS isn't set) isn't
+  documented well.  The manual leads you to believe the defaults will be
+  used when in reality they are not.  A scan of the source shows this.  So
+  back out some the attempts to optimize the env and go back to exporting
+  LS_COLORS all the time.  We'll just have to live with incompat warnings
+  when coreutils upgrades & changes behavior.
+

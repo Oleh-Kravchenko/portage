@@ -208,3 +208,10 @@
 
   Package-Manager: portage-2.2.28
 
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org> timezone-data-2016d.ebuild:
+  stabilize 2016d for all
+
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  -files/timezone-data-2016a-makefile.patch, -timezone-data-2016c.ebuild:
+  drop old <2016d versions
+

@@ -111,3 +111,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  files/libffi-3.1-execstack.patch, files/libffi-3.1-typing_error.patch,
+  libffi-3.0.13-r1.ebuild, libffi-3.1-r3.ebuild, libffi-3.2.ebuild,
+  libffi-3.2.1.ebuild:
+  sourceware: convert to https:// URIs
+

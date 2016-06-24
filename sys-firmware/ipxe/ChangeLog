@@ -107,3 +107,15 @@
   +files/ipxe-1.0.0_p20160620-no-pie.patch, +ipxe-1.0.0_p20160620.ebuild:
   version bump
 
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  change maintainer to qemu
+
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  files/ipxe-1.0.0_p20130925-no-pie.patch,
+  files/ipxe-1.0.0_p20160620-no-pie.patch:
+  fix building with current stable hardened toolchains #586558
+
+  Current Gentoo stable hardened toolchains utilize "-nopie" while upstream
+  has standardized "-no-pie".  Hack the pie patch to support both until we
+  can update our gcc patchsets to use the newer name.
+

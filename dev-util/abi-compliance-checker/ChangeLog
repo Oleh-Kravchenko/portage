@@ -165,3 +165,9 @@
 
   Package-Manager: portage-2.2.28_p107_p1126137
 
+*abi-compliance-checker-1.99.21 (23 Jun 2016)
+
+  23 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  +abi-compliance-checker-1.99.21.ebuild:
+  Bump to 1.99.21
+

@@ -86,3 +86,14 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  17 Jun 2016; Patrice Clement <monsieurp@gentoo.org> lrzip-0.614.ebuild,
+  lrzip-0.616.ebuild:
+  Fix copyright year.
+
+  Package-Manager: portage-2.2.28
+
+  23 Jun 2016; Michael Palimaka <kensington@gentoo.org> -lrzip-0.616.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

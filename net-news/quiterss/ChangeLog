@@ -117,3 +117,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  23 Jun 2016; Michael Palimaka <kensington@gentoo.org>
+  quiterss-0.18.4.ebuild:
+  amd64/x86 stable
+
+  Gentoo-bug: 585872
+
+  Package-Manager: portage-2.3.0_rc1
+
+  23 Jun 2016; Michael Palimaka <kensington@gentoo.org>
+  -quiterss-0.16.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+

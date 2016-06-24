@@ -107,3 +107,7 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/initd-0.997a:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  23 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  files/rbldnsd-0.997a-robust-ipv6-test-support.patch:
+  sourceware: convert to https:// URIs
+

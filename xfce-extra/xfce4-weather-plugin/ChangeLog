@@ -66,3 +66,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xfce4-weather-plugin-0.8.7 (23 Jun 2016)
+
+  23 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  +xfce4-weather-plugin-0.8.7.ebuild:
+  Bump to 0.8.7 (sunrise API update)
+

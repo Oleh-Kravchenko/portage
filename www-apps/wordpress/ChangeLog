@@ -125,3 +125,11 @@
 
   Package-Manager: portage-2.2.26
 
+*wordpress-4.5.3 (23 Jun 2016)
+
+  23 Jun 2016; Anthony G. Basile <blueness@gentoo.org> -wordpress-4.5.ebuild,
+  -wordpress-4.5.1.ebuild, -wordpress-4.5.2.ebuild, +wordpress-4.5.3.ebuild:
+  bump to 4.5.3 and drop older in the 4.5 series
+
+  Package-Manager: portage-2.2.28
+

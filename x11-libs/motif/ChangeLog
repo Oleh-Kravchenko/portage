@@ -92,3 +92,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*motif-2.3.6 (22 Jun 2016)
+
+  22 Jun 2016; Ulrich Müller <ulm@gentoo.org> +motif-2.3.6.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0_rc1
+

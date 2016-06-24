@@ -109,3 +109,9 @@
   the user to copy it to a temporary location, convert it, then copy to
   the media.
 
+*systemrescuecd-x86-4.7.3 (23 Jun 2016)
+
+  23 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  +systemrescuecd-x86-4.7.3.ebuild:
+  Bump to 4.7.3
+

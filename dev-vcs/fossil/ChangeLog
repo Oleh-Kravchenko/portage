@@ -78,3 +78,12 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*fossil-1.35 (23 Jun 2016)
+
+  23 Jun 2016; Aaron W. Swenson <titanofold@gentoo.org> +fossil-1.35.ebuild:
+  Version Bump
+
+  Upstream released 1.35.
+
+  Package-Manager: portage-2.2.28
+

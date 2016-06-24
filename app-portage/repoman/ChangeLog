@@ -30,3 +30,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*repoman-2.3.0 (23 Jun 2016)
+
+  23 Jun 2016; Brian Dolbec <dolsen@gentoo.org> +repoman-2.3.0.ebuild:
+  Bump, final release
+
+  Includes bug fixes for: 584786, 585864, 585388.
+
+  Package-Manager: portage-2.3.0
+

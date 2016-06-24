@@ -169,3 +169,9 @@
   11 May 2016; Mike Frysinger <vapier@gentoo.org> man-pages-4.05.ebuild:
   stabilize for arm64/m68k/s390/sh too
 
+  23 Jun 2016; Ulrich Müller <ulm@gentoo.org> man-pages-4.04.ebuild,
+  man-pages-4.05.ebuild, man-pages-4.06.ebuild:
+  Migrate from LINGUAS to L10N.
+
+  Package-Manager: portage-2.3.0_rc1
+

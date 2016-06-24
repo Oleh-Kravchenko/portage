@@ -215,3 +215,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*puppetdb-4.1.2 (23 Jun 2016)
+
+  23 Jun 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +puppetdb-4.1.2.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+
