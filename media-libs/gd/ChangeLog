@@ -212,3 +212,12 @@
   +gd-2.2.1.ebuild:
   version bump to 2.2.1
 
+*gd-2.2.2 (24 Jun 2016)
+
+  24 Jun 2016; Mike Frysinger <vapier@gentoo.org> +gd-2.2.2.ebuild:
+  version bump to 2.2.2
+
+  24 Jun 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/gd-2.2.2-osx-libtool.patch, gd-2.2.2.ebuild:
+  add upstream fix for building under OS X #583584
+

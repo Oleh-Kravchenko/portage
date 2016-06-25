@@ -222,3 +222,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*syncthing-0.13.7-r1 (24 Jun 2016)
+
+  24 Jun 2016; Dirkjan Ochtman <djc@gentoo.org> +files/relaysrv.systemd.patch,
+  +files/syncthing-relaysrv.confd, +files/syncthing-relaysrv.initd,
+  +files/syncthing-relaysrv.logrotate, files/syncthing.logrotate,
+  metadata.xml, +syncthing-0.13.7-r1.ebuild:
+  add tools flag
+
+  Thanks to Alexey Korepanov for implementing this.
+
+  Package-Manager: portage-2.2.28
+

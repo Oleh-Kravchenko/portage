@@ -96,3 +96,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*vdr-2.2.0-r1 (24 Jun 2016)
+
+  24 Jun 2016; Joerg Bornkessel <hd_brummy@gentoo.org> +vdr-2.2.0-r1.ebuild:
+  fixed systemd compile, wrt bug 586070
+
+  Package-Manager: portage-2.3.0_rc1
+

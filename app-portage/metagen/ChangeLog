@@ -106,3 +106,10 @@
 
   Package-Manager: portage-2.2.27
 
+*metagen-0.6.5 (23 Jun 2016)
+
+  23 Jun 2016; Sebastian Pipping <sping@gentoo.org> +metagen-0.6.5.ebuild:
+  0.6.5 (bug #577148)
+
+  Package-Manager: portage-2.2.28
+

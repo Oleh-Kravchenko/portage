@@ -182,3 +182,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*at-spi2-atk-2.20.1 (24 Jun 2016)
+
+  24 Jun 2016; Pacho Ramos <pacho@gentoo.org> +at-spi2-atk-2.20.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

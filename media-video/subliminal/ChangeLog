@@ -127,3 +127,45 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  23 Jun 2016; Patrice Clement <monsieurp@gentoo.org> subliminal-9999.ebuild:
+  sync deps with upstream in 9999
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  23 Jun 2016; Patrice Clement <monsieurp@gentoo.org> subliminal-9999.ebuild:
+  update comment re tests in 9999
+
+  All tests pass successfully now, but still require network access.
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  23 Jun 2016; Patrice Clement <monsieurp@gentoo.org> subliminal-9999.ebuild:
+  add missing PYTHON_REQ_USE to 9999
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*subliminal-2.0.3 (23 Jun 2016)
+
+  23 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  +subliminal-2.0.3.ebuild:
+  verbump to 2.0.3
+
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  23 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -subliminal-1.1.1-r1.ebuild, -subliminal-2.0_rc1.ebuild:
+  remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/1661
+  Package-Manager: portage-2.3.0_rc1
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

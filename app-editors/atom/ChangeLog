@@ -153,3 +153,14 @@
   Closes: https://github.com/gentoo/gentoo/pull/1664
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*atom-1.8.0 (23 Jun 2016)
+
+  23 Jun 2016; Patrice Clement <monsieurp@gentoo.org> +atom-1.8.0.ebuild:
+  Version bump to 1.8.0.
+
+  Gentoo-Bug: https://bugs.gentoo.org/586156
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1701
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

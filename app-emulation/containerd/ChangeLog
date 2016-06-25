@@ -43,3 +43,11 @@
 
   Package-Manager: portage-2.2.28
 
+*containerd-0.2.2_p20160622 (24 Jun 2016)
+
+  24 Jun 2016; William Hubbs <williamh@gentoo.org>
+  +containerd-0.2.2_p20160622.ebuild:
+  temporary 0.2.2 snapshot release
+
+  Package-Manager: portage-2.2.28
+

@@ -96,3 +96,16 @@
 
   Package-Manager: portage-2.2.28
 
+*rmilter-1.8.6 (24 Jun 2016)
+
+  24 Jun 2016; Dirkjan Ochtman <djc@gentoo.org> +rmilter-1.8.6.ebuild:
+  version bump to 1.8.6
+
+  Package-Manager: portage-2.2.28
+
+  24 Jun 2016; Dirkjan Ochtman <djc@gentoo.org> -rmilter-1.7.5.ebuild,
+  -rmilter-1.8.4.ebuild:
+  remove old versions
+
+  Package-Manager: portage-2.2.28
+

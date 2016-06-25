@@ -79,3 +79,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*taskcoach-1.4.3 (24 Jun 2016)
+
+  24 Jun 2016; Sebastian Pipping <sping@gentoo.org>
+  +files/taskcoach-1.4.3-version-check.patch, +taskcoach-1.4.3.ebuild:
+  1.4.3 (bug #576950)
+
+  Package-Manager: portage-2.2.28
+

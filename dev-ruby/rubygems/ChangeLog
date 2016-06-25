@@ -157,3 +157,16 @@
   files/init.d-gem_server2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*rubygems-2.6.6 (24 Jun 2016)
+
+  24 Jun 2016; Hans de Graaff <graaff@gentoo.org> +rubygems-2.6.6.ebuild:
+  add 2.6.6
+
+  Package-Manager: portage-2.2.28
+
+  24 Jun 2016; Hans de Graaff <graaff@gentoo.org> -rubygems-2.5.1.ebuild,
+  -rubygems-2.6.1.ebuild, -rubygems-2.6.2.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

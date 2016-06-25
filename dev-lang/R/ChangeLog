@@ -152,3 +152,8 @@
   08 May 2016; Denis Dupeyron <calchan@gentoo.org> +R-3.3.0.ebuild:
   bump to 3.3.0, fix bug #567488
 
+*R-3.3.1 (24 Jun 2016)
+
+  24 Jun 2016; Denis Dupeyron <calchan@gentoo.org> +R-3.3.1.ebuild:
+  bump to 3.3.1
+

@@ -125,3 +125,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  24 Jun 2016; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  add myself to maintainers
+
+  Package-Manager: portage-2.3.0
+
+*elixir-1.3.0-r1 (24 Jun 2016)
+
+  24 Jun 2016; Sergei Trofimovich <slyfox@gentoo.org> +elixir-1.3.0-r1.ebuild:
+  added CODE_OF_CONDUCT.md by Mikhail S. Pobolovets
+
+  Bug: https://bugs.gentoo.org/586844
+
+  Package-Manager: portage-2.3.0
+

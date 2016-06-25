@@ -99,3 +99,12 @@
   tree
   nor needlessly preventing future stabilization of packages.
 
+*camomile-0.8.5-r1 (24 Jun 2016)
+
+  24 Jun 2016; Alexis Ballier <aballier@gentoo.org> -camomile-0.8.5.ebuild,
+  +camomile-0.8.5-r1.ebuild:
+  drop backward compat camlp4 dep
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --force
+

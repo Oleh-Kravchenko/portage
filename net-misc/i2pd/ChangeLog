@@ -300,3 +300,20 @@
 
   Signed-off-by: Anthony G. Basile <blueness@gentoo.org>
 
+  23 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/i2pd-2.5.0-fix_installed_components.patch, -files/i2pd-2.5.0.confd,
+  -files/i2pd-2.5.0.initd, -files/i2pd-2.5.0.logrotate,
+  -files/i2pd-2.5.0.service,
+  -files/i2pd-2.5.1-disable_ipv6_in_i2pd_conf.patch, -files/i2pd-2.5.1.confd,
+  -files/i2pd-2.5.1.initd, -files/i2pd-2.5.1.service,
+  -files/i2pd-2.6.0-r2.confd, -files/i2pd-2.6.0-r2.initd,
+  -files/i2pd-2.6.0-r2.service, -files/i2pd-2.6.0.confd,
+  -files/i2pd-2.6.0.service, -files/i2pd.1, -files/tunnels.cfg,
+  -i2pd-2.5.0-r4.ebuild, -i2pd-2.5.1-r3.ebuild, -i2pd-2.6.0-r1.ebuild,
+  -i2pd-2.6.0-r2.ebuild:
+  remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/1719
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

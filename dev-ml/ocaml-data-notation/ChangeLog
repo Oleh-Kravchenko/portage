@@ -100,3 +100,11 @@
   tree
   nor needlessly preventing future stabilization of packages.
 
+*ocaml-data-notation-0.0.11-r1 (24 Jun 2016)
+
+  24 Jun 2016; Alexis Ballier <aballier@gentoo.org>
+  -ocaml-data-notation-0.0.11.ebuild, +ocaml-data-notation-0.0.11-r1.ebuild:
+  drop backward compat dep on camlp4
+
+  Package-Manager: portage-2.3.0
+

@@ -196,3 +196,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*criu-2.3 (24 Jun 2016)
+
+  24 Jun 2016; Yixun Lan <dlan@gentoo.org> +criu-2.3.ebuild,
+  +files/2.3/criu-2.3-no-git.patch:
+  version bump 2.3
+
+  Package-Manager: portage-2.3.0_rc1
+

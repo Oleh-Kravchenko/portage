@@ -1219,8 +1219,6 @@ app-text/stardict:espeak - Enable text to speech synthesizer using espeak engine
 app-text/stardict:pronounce - Install WyabdcRealPeopleTTS package (it is just many .wav files) to make StarDict pronounce English words
 app-text/stardict:qqwry - Enable QQWry plugin, which provides information (in Chinese language) about geographical positions, owner, etc. for IP addresses
 app-text/stardict:tools - Build and install the extra stardict tools
-app-text/tesseract:linguas_chr - Enable support for the Cherokee language.
-app-text/tesseract:linguas_ja - Enable support for Japanese.
 app-text/tesseract:math - Enable support for recognition of equations.
 app-text/tesseract:opencl - Enable opencl support for speedup using GPU computation.
 app-text/tesseract:osd - Enable support orientation and script detection.
@@ -6515,6 +6513,7 @@ net-p2p/retroshare:links-cloud - Enables LinkClouds plugin
 net-p2p/retroshare:qt4 - Enables the GUI using qt4
 net-p2p/retroshare:voip - Enables VOIP plugin
 net-p2p/rtorrent:daemon - Uses app-misc/screen to daemonize this application
+net-p2p/syncthing:tools - Install discosrv, relaysrv and other tools to /usr/libexec/synsthing/.
 net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
 net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
 net-p2p/transmission-remote-gtk:libproxy - Use net-libs/libproxy for getting the HTTP/HTTPS/SOCKS proxy configuration.
@@ -7257,9 +7256,6 @@ sys-apps/man-db:manpager - Enable manpager wrapper for colorizing output
 sys-apps/memtest86:serial - Compile with serial console support
 sys-apps/memtest86+:floppy - Install a script to create floppy disks containing memtest86+ binaries.
 sys-apps/memtest86+:serial - Compile with serial console support
-sys-apps/microcode-data:initramfs - install a small initramfs for use with CONFIG_MICROCODE_EARLY
-sys-apps/microcode-data:monolithic - install the large text microcode.dat (used by older kernels via microcode_ctl)
-sys-apps/microcode-data:split-ucode - install the split binary ucode files (used by the kernel directly)
 sys-apps/moreutils:perl - Install scripts written in Perl
 sys-apps/net-tools:arp - build the arp and rarp tools (for manipulating the ARP cache)
 sys-apps/net-tools:hostname - build the hostname and dnsdomainname tools
@@ -7604,6 +7600,9 @@ sys-devel/sparse:gtk - Build the test-inspect utility (requires x11-libs/gtk+ ve
 sys-devel/sparse:llvm - Build the sparse-llvm utility
 sys-devel/sparse:xml - Build the c2xml utility (requires dev-libs/libxml2).
 sys-firmware/amdgpu-ucode:legacy - Install firmware for older chipsets which are optionally supported by AMDGPU
+sys-firmware/intel-microcode:initramfs - install a small initramfs for use with CONFIG_MICROCODE_EARLY
+sys-firmware/intel-microcode:monolithic - install the large text microcode.dat (used by older kernels via microcode_ctl)
+sys-firmware/intel-microcode:split-ucode - install the split binary ucode files (used by the kernel directly)
 sys-firmware/ipxe:efi - Build an EFI program for using PXE
 sys-firmware/ipxe:iso - Build a bootable ISO for using PXE
 sys-firmware/ipxe:lkrn - Build a linux kernel bootable file for using with grub/etc...
@@ -7674,6 +7673,8 @@ sys-fs/ecryptfs-utils:gpg - Enable app-crypt/gnupg key module
 sys-fs/ecryptfs-utils:openssl - Enable dev-libs/openssl key module
 sys-fs/ecryptfs-utils:pkcs11 - Enable PKCS#11 (Smartcards) key module
 sys-fs/ecryptfs-utils:tpm - Enable support for Trusted Platform Module (TPM) using app-crypt/trousers
+sys-fs/eudev:blkid - enable blkid support
+sys-fs/eudev:efi - enable EFI support
 sys-fs/eudev:gudev - enable libudev gobject interface
 sys-fs/eudev:hwdb - read vendor/device string database and add it to udev database
 sys-fs/eudev:keymap - map custom hardware's multimedia keys
@@ -7681,6 +7682,7 @@ sys-fs/eudev:kmod - enable module loading through libkmod
 sys-fs/eudev:modutils - enable module loading support - use modutils calls if kmod not enabled
 sys-fs/eudev:openrc - install the OpenRC init scripts
 sys-fs/eudev:rule-generator - install legacy rule generator rules and support scripts - note that the functionality within was dropped from sys-fs/udev as it is not stable in all cases; use at your own risk
+sys-fs/eudev:smack - enable SMACK security model
 sys-fs/ext4magic:expert-mode - Builds ext4magic with expert mode. Highly useful in recovering data from a corrupted filesystem
 sys-fs/ext4magic:file-attr - Enable the recovery of file attributes (append, immutable, nodump etc)
 sys-fs/fur:void-chmod - Enable fake hook for "chmod" that will only return 0

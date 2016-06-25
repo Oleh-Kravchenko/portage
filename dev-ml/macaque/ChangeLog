@@ -104,3 +104,8 @@
   tree
   nor needlessly preventing future stabilization of packages.
 
+  24 Jun 2016; Alexis Ballier <aballier@gentoo.org> -macaque-0.7.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

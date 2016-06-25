@@ -166,3 +166,12 @@
   tree
   nor needlessly preventing future stabilization of packages.
 
+*lablgtk-2.18.4-r1 (24 Jun 2016)
+
+  24 Jun 2016; Alexis Ballier <aballier@gentoo.org> -lablgtk-2.18.4.ebuild,
+  +lablgtk-2.18.4-r1.ebuild:
+  drop backward compat dep on camlp4
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --force
+

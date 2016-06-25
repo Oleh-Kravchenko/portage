@@ -185,3 +185,15 @@
   tracker-1.6.2.ebuild:
   Remove := slot op inside ||, #586302
 
+  24 Jun 2016; Pacho Ramos <pacho@gentoo.org> -tracker-1.6.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*tracker-1.8.0 (24 Jun 2016)
+
+  24 Jun 2016; Pacho Ramos <pacho@gentoo.org> +tracker-1.8.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+
