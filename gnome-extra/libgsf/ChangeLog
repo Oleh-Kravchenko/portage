@@ -180,3 +180,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*libgsf-1.14.37 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +libgsf-1.14.37.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

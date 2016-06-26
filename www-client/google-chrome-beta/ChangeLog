@@ -510,3 +510,12 @@
 
   Package-Manager: portage-2.3.0_rc1_p20
 
+*google-chrome-beta-52.0.2743.49 (25 Jun 2016)
+
+  25 Jun 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-beta-52.0.2743.41.ebuild,
+  +google-chrome-beta-52.0.2743.49.ebuild:
+  automated update
+
+  Package-Manager: portage-portage_p2.3.0
+

@@ -156,3 +156,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 Jun 2016; Agostino Sarubbo <ago@gentoo.org>
+  Test-SharedFork-0.350.0.ebuild:
+  x86 stable wrt bug #585498
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

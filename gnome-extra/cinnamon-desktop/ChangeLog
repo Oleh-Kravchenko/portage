@@ -129,3 +129,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> -cinnamon-desktop-2.8.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*cinnamon-desktop-3.0.2 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +cinnamon-desktop-3.0.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

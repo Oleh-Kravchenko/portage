@@ -211,3 +211,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+*glibmm-2.48.1 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +glibmm-2.48.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

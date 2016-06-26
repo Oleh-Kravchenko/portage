@@ -540,3 +540,14 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*openssl-1.0.2h-r2 (25 Jun 2016)
+
+  25 Jun 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/openssl-1.0.2h-CVE-2016-2177.patch,
+  +files/openssl-1.0.2h-CVE-2016-2178.patch, +openssl-1.0.2h-r2.ebuild:
+  Revision bump to 1.0.2h-r2 to fix bug 585142 & bug 585276
+
+  This fixes CVE-2016-2177 and CVE-2016-2178.
+
+  Package-Manager: portage-2.3.0
+

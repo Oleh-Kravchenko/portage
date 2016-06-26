@@ -146,3 +146,19 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/irkerd.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*irker-2.17 (25 Jun 2016)
+
+  25 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/2.17-irkerhook-Remove-file-listing.patch, +irker-2.17.ebuild:
+  Version bump
+
+  Add an option USE flag for new SOCKS support.
+  Update irkerhook-Remove-file-listing.patch with a rebased version that apply
+  on this new version
+
+  Package-Manager: portage-2.2.26
+  Gentoo-Bug: https://bugs.gentoo.org/579524
+  Closes: https://github.com/gentoo/gentoo/pull/1223
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

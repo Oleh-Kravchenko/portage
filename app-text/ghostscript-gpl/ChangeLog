@@ -120,3 +120,10 @@
   the makefiles.  Since we point it to a bogus place, that fails.  Change it
   to an empty value since checking it for deps is pointless for our builds.
 
+  25 Jun 2016; Ulrich Müller <ulm@gentoo.org> ghostscript-gpl-9.10-r2.ebuild,
+  ghostscript-gpl-9.10-r4.ebuild, ghostscript-gpl-9.15-r1.ebuild,
+  ghostscript-gpl-9.18.ebuild:
+  Migrate from LINGUAS to L10N.
+
+  Package-Manager: portage-2.3.0
+

@@ -202,3 +202,21 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> -cinnamon-2.8.6.ebuild,
+  -files/cinnamon-2.4.5-background.patch,
+  -files/cinnamon-2.4.5-gnome-3.14.patch,
+  -files/cinnamon-2.4.5-optional-networkmanager.patch,
+  -files/cinnamon-2.4.5-set-wheel.patch,
+  -files/cinnamon-2.6.13-test-recorder-includes.patch,
+  -files/cinnamon-2.6.7-set-wheel.patch:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*cinnamon-3.0.6 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +cinnamon-3.0.6.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

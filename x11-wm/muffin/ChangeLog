@@ -152,3 +152,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> -muffin-2.8.4.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*muffin-3.0.5 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +muffin-3.0.5.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

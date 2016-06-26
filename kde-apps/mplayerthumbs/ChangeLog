@@ -148,3 +148,11 @@
   mplayerthumbs-4.14.3.ebuild:
   Drop ppc and ppc64 to testing in KDE-related packages.
 
+  25 Jun 2016; Michael Palimaka <kensington@gentoo.org>
+  -mplayerthumbs-15.08.3.ebuild:
+  kde-apps: remove 15.08.3
+
+  This removes KDE Applications 15.08.3, excluding packages for which there is
+  no
+  later version.
+

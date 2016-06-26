@@ -106,3 +106,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*cinnamon-menus-3.0.2 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +cinnamon-menus-3.0.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

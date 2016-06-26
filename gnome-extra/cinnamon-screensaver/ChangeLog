@@ -122,3 +122,13 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*cinnamon-screensaver-3.0.1 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org>
+  +cinnamon-screensaver-3.0.1.ebuild,
+  files/cinnamon-screensaver-2.8.0-webkit4.patch,
+  +files/cinnamon-screensaver-3.0.1-automagic-logind.patch:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

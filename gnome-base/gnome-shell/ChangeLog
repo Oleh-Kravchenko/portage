@@ -186,3 +186,19 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org>
+  -files/gnome-shell-3.18-fix-crash.patch, -gnome-shell-3.16.4.ebuild,
+  -gnome-shell-3.18.3.ebuild, -gnome-shell-3.18.4.ebuild,
+  -gnome-shell-3.18.4-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*gnome-shell-3.20.2 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +gnome-shell-3.20.2.ebuild,
+  metadata.xml:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

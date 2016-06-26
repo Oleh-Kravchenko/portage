@@ -168,3 +168,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*atk-2.20.0 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +atk-2.20.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

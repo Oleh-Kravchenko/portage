@@ -105,3 +105,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 Jun 2016; Patrice Clement <monsieurp@gentoo.org> wyrd-1.4.6-r1.ebuild:
+  Stable for amd64. Retroactively mark stable for the remaining arches using
+  the ALLARCHES policy.
+
+  Package-Manager: portage-2.2.28
+  Gentoo-Bug: https://bugs.gentoo.org/586900
+
+  25 Jun 2016; Patrice Clement <monsieurp@gentoo.org> -wyrd-1.4.6.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.28
+

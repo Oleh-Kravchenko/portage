@@ -163,3 +163,11 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  25 Jun 2016; Mike Frysinger <vapier@gentoo.org> file-5.28.ebuild,
+  file-9999.ebuild:
+  build magic.h before libmagic.la #586444
+
+  Since the header is a BUILT_SOURCES which is normally created only when
+  you run `make all`, make sure we generate it by hand before building the
+  library in the multilib case.
+

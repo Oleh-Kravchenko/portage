@@ -162,3 +162,16 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> -gitg-3.16.1.ebuild,
+  -gitg-3.18.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*gitg-3.20.0 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +gitg-3.20.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

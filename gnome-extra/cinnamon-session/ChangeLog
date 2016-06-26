@@ -131,3 +131,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+*cinnamon-session-3.0.1 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +cinnamon-session-3.0.1.ebuild,
+  +files/cinnamon-session-3.0.1-automagic.patch:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

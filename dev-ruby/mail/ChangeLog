@@ -88,3 +88,8 @@
 
   Package-Manager: portage-2.2.26
 
+  25 Jun 2016; Hans de Graaff <graaff@gentoo.org> -mail-2.6.3.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

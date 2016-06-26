@@ -200,3 +200,14 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*opensmtpd-5.9.2.201606220754_p1 (25 Jun 2016)
+
+  25 Jun 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  -files/opensmtpd-5.9.2.201606071034_p1-ipv6-net-pton.patch,
+  -opensmtpd-5.9.2.201606071034_p1-r1.ebuild,
+  -opensmtpd-5.9.2.201606152203_p1.ebuild,
+  +opensmtpd-5.9.2.201606220754_p1.ebuild:
+  snapshot version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

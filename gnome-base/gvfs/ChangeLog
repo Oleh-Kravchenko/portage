@@ -287,3 +287,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> -gvfs-1.26.2-r1.ebuild,
+  -gvfs-1.28.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*gvfs-1.28.2 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +gvfs-1.28.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

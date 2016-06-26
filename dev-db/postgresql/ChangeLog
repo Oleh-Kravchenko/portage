@@ -733,3 +733,26 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org>
+  postgresql-9.3.12.ebuild:
+  9.3.12-r0: add alpha keyword
+
+  Gentoo-Bug: 578680
+
+  Package-Manager: portage-2.3.0_rc1
+
+  20 May 2016; Tobias Klausmann <klausman@gentoo.org> postgresql-9.4.7.ebuild:
+  9.4.7-r0: add alpha keyword
+
+  Gentoo-Bug: 578680
+
+  Package-Manager: portage-2.3.0_rc1
+
+*postgresql-9.6_beta2 (25 Jun 2016)
+
+  25 Jun 2016; Patrick Lauer <patrick@gentoo.org>
+  -postgresql-9.6_beta1.ebuild, +postgresql-9.6_beta2.ebuild:
+  Bump 9.6beta
+
+  Package-Manager: portage-2.3.0
+

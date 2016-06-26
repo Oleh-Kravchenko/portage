@@ -198,3 +198,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> -pygobject-3.14.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*pygobject-3.20.1 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org> +pygobject-3.20.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

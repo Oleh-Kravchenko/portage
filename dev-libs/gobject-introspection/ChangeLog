@@ -183,3 +183,23 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org>
+  -gobject-introspection-1.42.0-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*gobject-introspection-1.48.0 (25 Jun 2016)
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org>
+  +gobject-introspection-1.48.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+
+  25 Jun 2016; Pacho Ramos <pacho@gentoo.org>
+  gobject-introspection-1.48.0.ebuild:
+  Use a shorter description as repoman suggests
+
+  Package-Manager: portage-2.3.0_rc1
+

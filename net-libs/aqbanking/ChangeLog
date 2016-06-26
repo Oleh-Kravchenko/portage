@@ -79,3 +79,11 @@
 
   Package-Manager: portage-2.2.26
 
+  25 Jun 2016; Hanno <hanno@gentoo.org> aqbanking-5.6.10.ebuild:
+  fix deletion of doc dir
+
+  This fixes bug #582842 and also does not try to build
+  the obsolete paypal backend.
+
+  Package-Manager: portage-2.3.0
+

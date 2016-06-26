@@ -163,3 +163,11 @@
   Search-Xapian-1.2.23.0-r1.ebuild:
   added ~alpha, bug 581856.
 
+  25 Jun 2016; Agostino Sarubbo <ago@gentoo.org>
+  Search-Xapian-1.2.23.0.ebuild:
+  x86 stable wrt bug #581854
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

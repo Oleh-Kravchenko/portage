@@ -184,3 +184,10 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Jun 2016; Agostino Sarubbo <ago@gentoo.org> cdrtools-3.02_alpha06.ebuild:
+  x86 stable wrt bug #581286
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
