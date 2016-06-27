@@ -120,3 +120,7 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Jun 2016; Aaron Bauman <bman@gentoo.org> -optipng-0.7.3.ebuild,
+  -optipng-0.7.3-r1.ebuild, -optipng-0.7.4.ebuild, -optipng-0.7.5.ebuild:
+  cleanup vulnerable versions per security bug #561882
+

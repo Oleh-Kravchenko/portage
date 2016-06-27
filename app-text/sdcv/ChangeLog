@@ -118,3 +118,12 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Jun 2016; Andrew Savchenko <bircoph@gentoo.org>
+  -files/sdcv-0.4.2-crash.patch, -files/sdcv-0.4.2-dash.patch,
+  -files/sdcv-0.4.2-g-handling.patch, -files/sdcv-0.4.2-missing-headers.patch,
+  -files/sdcv-0.4.2-respect-HOME.patch, -sdcv-0.4.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+

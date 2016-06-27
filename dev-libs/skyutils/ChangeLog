@@ -66,3 +66,11 @@
 
   Bug: 575810
 
+*skyutils-2.8-r3 (26 Jun 2016)
+
+  26 Jun 2016; Anthony G. Basile <blueness@gentoo.org>
+  +skyutils-2.8-r3.ebuild:
+  add libressl support
+
+  Package-Manager: portage-2.2.28
+

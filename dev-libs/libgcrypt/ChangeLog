@@ -427,3 +427,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  26 Jun 2016; Markus Meier <maekke@gentoo.org> libgcrypt-1.7.1.ebuild:
+  arm stable, bug #586056
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

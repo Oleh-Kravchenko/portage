@@ -102,3 +102,7 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Jun 2016; Aaron Bauman <bman@gentoo.org> -bcron-0.09.ebuild,
+  -bcron-0.09-r2.ebuild:
+  cleanup vulnerable versions per security bug #453310
+

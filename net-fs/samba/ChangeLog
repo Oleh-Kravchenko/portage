@@ -716,3 +716,18 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  26 Jun 2016; Michał Górny <mgorny@gentoo.org> -files/3.5/lmhosts,
+  -files/3.5/nsswitch.conf-winbind, -files/3.5/nsswitch.conf-wins,
+  -files/3.5/samba-3.5.6-kerberos-dummy.patch,
+  -files/3.5/samba-3.5.8-uclib-build.patch, -files/3.5/samba.confd,
+  -files/3.5/samba.initd, -files/3.5/samba.pam, -files/3.5/smb.conf.default,
+  -files/3.5/smb.conf.default.patch, -files/3.5/smbusers,
+  -files/3.5/swat.xinetd, -files/3.5/system-auth-winbind.pam,
+  -samba-3.5.21.ebuild, -samba-3.5.22.ebuild:
+  Remove <3.6, bonsaikitten approved
+
+  26 Jun 2016; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Remove unneeded useflag description from metadata.xml
+
+  Package-Manager: portage-2.3.0
+

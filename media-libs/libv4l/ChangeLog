@@ -117,3 +117,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  26 Jun 2016; Markus Meier <maekke@gentoo.org> libv4l-1.10.1.ebuild:
+  arm stable, bug #586192
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+

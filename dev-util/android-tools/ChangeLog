@@ -108,3 +108,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Jun 2016; Zac Medico <zmedico@gentoo.org>
+  -android-tools-0_p20130218.ebuild:
+  remove old version 0_p20130218
+
+  Package-Manager: portage-2.3.0
+

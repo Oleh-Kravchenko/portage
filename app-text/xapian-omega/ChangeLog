@@ -269,3 +269,11 @@
 
   Package-Manager: portage-2.2.28
 
+*xapian-omega-1.4.0 (26 Jun 2016)
+
+  26 Jun 2016; Anthony G. Basile <blueness@gentoo.org>
+  +xapian-omega-1.4.0.ebuild:
+  version bump to 1.4.0
+
+  Package-Manager: portage-2.2.28
+

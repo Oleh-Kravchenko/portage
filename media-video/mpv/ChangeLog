@@ -1179,3 +1179,15 @@
   Closes: https://github.com/gentoo/gentoo/pull/1710
   Package-Manager: portage-2.3.0_rc1
 
+  26 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  reorder maintainers in metadata, remove yngwin
+
+  Remove yngwin from the metadata per his request and list Coacher as
+  the first maintainer.
+
+  See also https://bugs.gentoo.org/show_bug.cgi?id=586318#c1
+
+  Closes: https://github.com/gentoo/gentoo/pull/1709
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --force
+

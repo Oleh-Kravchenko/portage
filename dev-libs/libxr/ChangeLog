@@ -62,3 +62,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 Jun 2016; Anthony G. Basile <blueness@gentoo.org> libxr-1.0.ebuild:
+  bump EAPI and add libressl support
+
+  Package-Manager: portage-2.2.28
+

@@ -91,3 +91,9 @@
 
   Package-Manager: portage-2.3.0
 
+  26 Jun 2016; Ulrich Müller <ulm@gentoo.org> netbeans-8.0.2.ebuild,
+  netbeans-8.1.ebuild:
+  Fix l10n_* flags in IUSE and SRC_URI.
+
+  Package-Manager: portage-2.3.0
+

@@ -70,3 +70,9 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  26 Jun 2016; Anthony G. Basile <blueness@gentoo.org> yaz-3.0.53.ebuild,
+  yaz-4.2.30.ebuild, yaz-4.2.51.ebuild:
+  bump EAPI and add libressl support
+
+  Package-Manager: portage-2.2.28
+

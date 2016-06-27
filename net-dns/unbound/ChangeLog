@@ -119,3 +119,6 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/unbound.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  26 Jun 2016; Aaron Bauman <bman@gentoo.org> -unbound-1.4.22-r1.ebuild:
+  cleanup vulnerable versions per security bug #532000
+

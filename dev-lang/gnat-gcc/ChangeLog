@@ -126,3 +126,10 @@
 
   Package-Manager: portage-2.2.28
 
+  26 Jun 2016; Stephen L Arnold <nerdboy@gentoo.org> gnat-gcc-4.3.6.ebuild,
+  gnat-gcc-4.3.6-r1.ebuild, gnat-gcc-4.6.4.ebuild, gnat-gcc-4.6.4-r1.ebuild,
+  metadata.xml:
+  remove lto use flag, fix headers, sync up gnat-gcc
+
+  Package-Manager: portage-2.2.28
+

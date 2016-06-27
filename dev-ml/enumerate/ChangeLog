@@ -92,3 +92,13 @@
   tree
   nor needlessly preventing future stabilization of packages.
 
+*enumerate-111.08.00-r1 (26 Jun 2016)
+
+  26 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -enumerate-111.08.00.ebuild, +enumerate-111.08.00-r1.ebuild:
+  Fix || operator error and depend on dev-ml/camlp4 only instead.
+
+  Gentoo-Bug: https://bugs.gentoo.org/586908
+
+  Package-Manager: portage-2.2.28
+

@@ -99,3 +99,7 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --force
 
+  25 Jun 2016; Michał Górny <mgorny@gentoo.org> -ocamldsort-0.16.0.ebuild,
+  ocamldsort-0.16.0-r1.ebuild:
+  Move stable kw for minor dep change, #586920
+

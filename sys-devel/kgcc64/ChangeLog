@@ -148,3 +148,10 @@
   Both cases are invalid use of USE flags, considering that the flag does
   not affect the installed files in any way.
 
+*kgcc64-5.4.0 (25 Jun 2016)
+
+  25 Jun 2016; Jeroen Roovers <jer@gentoo.org> +kgcc64-5.4.0.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

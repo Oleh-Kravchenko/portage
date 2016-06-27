@@ -145,3 +145,23 @@
   tree
   nor needlessly preventing future stabilization of packages.
 
+  25 Jun 2016; Patrice Clement <monsieurp@gentoo.org> coq-8.5.ebuild:
+  Stable for amd64. Retroactively mark stable for the remaining arches using
+  the ALLARCHES policy.
+
+  Package-Manager: portage-2.2.28
+  Gentoo-Bug: https://bugs.gentoo.org/586932
+
+  25 Jun 2016; Patrice Clement <monsieurp@gentoo.org> -coq-8.4_p5.ebuild,
+  -coq-8.4_p6.ebuild:
+  Clean up old.
+
+  Package-Manager: portage-2.2.28
+
+  25 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/coq-8.4_p5-do-not-install-revision.patch,
+  -files/coq-8.4_p5-hevea.patch, -files/coqide.desktop:
+  Clean up old.
+
+  Package-Manager: portage-2.2.28
+

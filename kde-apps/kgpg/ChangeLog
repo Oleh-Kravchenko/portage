@@ -174,3 +174,10 @@
   no
   later version.
 
+*kgpg-16.04.2 (26 Jun 2016)
+
+  26 Jun 2016; Michael Palimaka <kensington@gentoo.org> +kgpg-16.04.2.ebuild:
+  kde-apps: version bump 16.04.2
+
+  Package-Manager: portage-2.3.0
+

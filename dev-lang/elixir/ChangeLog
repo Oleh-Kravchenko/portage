@@ -139,3 +139,9 @@
 
   Package-Manager: portage-2.3.0
 
+  26 Jun 2016; Markus Meier <maekke@gentoo.org> elixir-1.2.5.ebuild:
+  add ~arm, bug #585230
+
+  Package-Manager: portage-2.3.0_rc1
+  RepoMan-Options: --include-arches="arm"
+
