@@ -15,3 +15,11 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*jaraco-stream-1.1.1 (27 Jun 2016)
+
+  27 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  +jaraco-stream-1.1.1.ebuild:
+  bump to 1.1.1
+
+  Package-Manager: portage-2.3.0_rc1
+

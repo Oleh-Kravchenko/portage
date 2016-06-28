@@ -124,3 +124,8 @@
   ebuilds to EAPI 6. Disable building static libraries. Work-around
   implicit ccache use that upstream added in 1.7*.
 
+*jsoncpp-1.7.3 (27 Jun 2016)
+
+  27 Jun 2016; Michał Górny <mgorny@gentoo.org> +jsoncpp-1.7.3.ebuild:
+  Bump to 1.7.3
+

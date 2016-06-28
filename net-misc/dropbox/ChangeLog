@@ -167,3 +167,10 @@
 
   Package-Manager: portage-2.2.28
 
+*dropbox-6.3.13 (27 Jun 2016)
+
+  27 Jun 2016; Jason Zaman <perfinion@gentoo.org> +dropbox-6.3.13.ebuild:
+  bump to 6.3.13, add python-single-r1 eclass
+
+  Package-Manager: portage-2.2.28
+

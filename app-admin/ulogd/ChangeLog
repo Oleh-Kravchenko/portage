@@ -287,3 +287,18 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  remove unneeded USE descriptions
+
+  Package-Manager: portage-2.3.0
+
+  27 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  remove unneeded periods from USE descriptions
+
+  Package-Manager: portage-2.3.0
+
+  27 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  fix and sort USE descriptions
+
+  Package-Manager: portage-2.3.0
+

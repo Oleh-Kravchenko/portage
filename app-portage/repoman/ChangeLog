@@ -39,3 +39,9 @@
 
   Package-Manager: portage-2.3.0
 
+  27 Jun 2016; Zac Medico <zmedico@gentoo.org> repoman-2.3.0_rc1-r1.ebuild,
+  repoman-2.3.0.ebuild, repoman-9999.ebuild:
+  fix EPREFIX support
+
+  Package-Manager: portage-2.3.0
+

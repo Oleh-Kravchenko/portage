@@ -145,3 +145,11 @@
   05 Jun 2016; Matthew Thode <prometheanfire@gentoo.org> keyring-8.6.ebuild:
   openstack mass stable for mitaka, x86 and amd64 for bug 582170
 
+*keyring-9.2.1 (27 Jun 2016)
+
+  27 Jun 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +keyring-9.2.1.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

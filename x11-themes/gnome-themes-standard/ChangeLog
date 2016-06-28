@@ -180,3 +180,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="alpha"
 
+*gnome-themes-standard-3.20.2 (27 Jun 2016)
+
+  27 Jun 2016; Alexandre Rostovtsev <tetromino@gentoo.org>
+  +gnome-themes-standard-3.20.2.ebuild:
+  bump to 3.20.2
+
+  Package-Manager: portage-2.3.0
+

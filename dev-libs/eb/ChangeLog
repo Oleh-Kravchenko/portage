@@ -75,3 +75,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  27 Jun 2016; Ulrich Müller <ulm@gentoo.org> eb-4.4.1-r1.ebuild:
+  Use the nls flag rather than linguas_ja to enable NLS.
+
+  Also use nls for conditional dependencies on gettext and libintl.
+
+  Package-Manager: portage-2.3.0
+

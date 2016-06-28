@@ -162,3 +162,8 @@
 
   Package-Manager: portage-2.3.0
 
+*krfb-15.08.3 (26 Jun 2016)
+
+  26 Jun 2016; Maciej Mrozowski <reavertm@gentoo.org> +krfb-15.08.3.ebuild:
+  restore 15.08.3
+

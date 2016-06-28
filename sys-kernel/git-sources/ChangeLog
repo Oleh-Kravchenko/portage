@@ -382,3 +382,11 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*git-sources-4.7_rc5 (27 Jun 2016)
+
+  27 Jun 2016; Agostino Sarubbo <ago@gentoo.org> +git-sources-4.7_rc5.ebuild:
+  Automated version bump to 4.7_rc5
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

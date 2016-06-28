@@ -156,3 +156,18 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*owncloud-client-2.2.2 (27 Jun 2016)
+
+  27 Jun 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +owncloud-client-2.2.2.ebuild:
+  2.2.2 version bump
+
+  Package-Manager: portage-2.3.0
+
+  27 Jun 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  -owncloud-client-2.1.0.ebuild, -owncloud-client-2.1.1.ebuild,
+  -owncloud-client-2.2.0.ebuild:
+  drop some old versions
+
+  Package-Manager: portage-2.3.0
+

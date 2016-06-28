@@ -96,3 +96,11 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*libfilezilla-0.5.3 (27 Jun 2016)
+
+  27 Jun 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +libfilezilla-0.5.3.ebuild:
+  version bump to 0.5.3
+
+  Package-Manager: portage-2.3.0
+

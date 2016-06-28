@@ -149,3 +149,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*memcached-1.4.27 (27 Jun 2016)
+
+  27 Jun 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +memcached-1.4.27.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

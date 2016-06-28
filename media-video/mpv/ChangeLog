@@ -1191,3 +1191,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --force
 
+  27 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  cleanup maintainer list
+
+  Acked-By: Maxim Koltsov <maksbotan@gentoo.org>
+
+  Package-Manager: portage-2.3.0
+
