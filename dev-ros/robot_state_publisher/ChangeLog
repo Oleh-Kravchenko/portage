@@ -80,3 +80,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*robot_state_publisher-1.13.2 (28 Jun 2016)
+
+  28 Jun 2016; Alexis Ballier <aballier@gentoo.org>
+  +robot_state_publisher-1.13.2.ebuild:
+  bump to 1.13.2
+
+  Package-Manager: portage-2.3.0
+

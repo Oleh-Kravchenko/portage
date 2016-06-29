@@ -331,3 +331,17 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*rt-sources-4.1.27_p30 (28 Jun 2016)
+*rt-sources-3.18.36_p37 (28 Jun 2016)
+*rt-sources-3.14.72_p75 (28 Jun 2016)
+
+  28 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  +rt-sources-3.14.72_p75.ebuild, +rt-sources-3.18.36_p37.ebuild,
+  +rt-sources-4.1.27_p30.ebuild:
+  version bump to {3.14.72_p75,3.18.36_p37,4.1.27_p30}
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1782
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -141,3 +141,8 @@
   21 Jun 2016; Mike Frysinger <vapier@gentoo.org> dropbear-2016.73.ebuild:
   mark 2016.73 arm64/hppa/ia64/m68k/ppc/ppc64/s390/sh/sparc/x86 stable #577050
 
+  27 Jun 2016; Mike Frysinger <vapier@gentoo.org> -dropbear-2014.66.ebuild,
+  -dropbear-2015.67.ebuild, -dropbear-2015.68.ebuild,
+  -dropbear-2015.71.ebuild, -dropbear-2016.72.ebuild:
+  drop old <2016.73 versions
+

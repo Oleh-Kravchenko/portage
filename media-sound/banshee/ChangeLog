@@ -122,3 +122,14 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  28 Jun 2016; Pacho Ramos <pacho@gentoo.org> -banshee-2.6.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+  28 Jun 2016; Pacho Ramos <pacho@gentoo.org> banshee-2.6.2-r1.ebuild,
+  metadata.xml:
+  Make repoman happier
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -135,3 +135,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  28 Jun 2016; Tobias Klausmann <klausman@gentoo.org> -prosody-0.9.8.ebuild,
+  -prosody-0.9.9.ebuild:
+  Remove old, vulnerable versions (0.9.{8,9})
+
+  Gentoo-Bug: 573158
+
+  Package-Manager: portage-2.3.0
+

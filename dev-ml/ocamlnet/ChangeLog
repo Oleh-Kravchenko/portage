@@ -180,3 +180,18 @@
 
   Package-Manager: portage-2.2.28
 
+*ocamlnet-3.7.7 (28 Jun 2016)
+
+  28 Jun 2016; Michał Górny <mgorny@gentoo.org> metadata.xml,
+  +ocamlnet-3.7.7.ebuild:
+  Partially revert "Clean up old"
+
+  Restore dev-ml/ocamlnet-3* package since it is required for
+  net-misc/libres3.
+
+*ocamlnet-3.7.7-r1 (28 Jun 2016)
+
+  28 Jun 2016; Michał Górny <mgorny@gentoo.org> -ocamlnet-3.7.7.ebuild,
+  +ocamlnet-3.7.7-r1.ebuild:
+  Copy ||+:= dep fix from newer version
+

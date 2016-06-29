@@ -57,3 +57,16 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*mpv-bash-completion-3.0 (28 Jun 2016)
+
+  28 Jun 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml,
+  +mpv-bash-completion-3.0.ebuild:
+  verbump to 3.0
+
+  Upstream has rewritten generator script in Lua.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1775
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -180,3 +180,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  28 Jun 2016; Pacho Ramos <pacho@gentoo.org> -pango-1.36.8.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*pango-1.40.1 (28 Jun 2016)
+
+  28 Jun 2016; Pacho Ramos <pacho@gentoo.org> +pango-1.40.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

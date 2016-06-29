@@ -99,3 +99,6 @@
   tree
   nor needlessly preventing future stabilization of packages.
 
+  28 Jun 2016; Michał Górny <mgorny@gentoo.org> deriving-ocsigen-0.3c.ebuild:
+  Dep only on camlp4, #586906
+

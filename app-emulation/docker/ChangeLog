@@ -240,3 +240,50 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Jun 2016; William Hubbs <williamh@gentoo.org> docker-9999.ebuild:
+  live ebuild updates based on upstream
+
+  - use symlinks for docker-runc and docker-containerd instead of patching
+  - add kernel checks for CONFIG_IP_VS, CONFIG_XFRM_ALGO and CONFIG_XFRM_USER
+
+  Package-Manager: portage-2.2.28
+
+*docker-1.12.0_rc2-r1 (27 Jun 2016)
+
+  27 Jun 2016; William Hubbs <williamh@gentoo.org>
+  +docker-1.12.0_rc2-r1.ebuild:
+  1.12.0_rc2-r1 revbump
+
+  This is for #587180 and #587242.
+
+  Package-Manager: portage-2.2.28
+
+  27 Jun 2016; William Hubbs <williamh@gentoo.org> -docker-1.12.0_rc2.ebuild:
+  remove 1.12.0_rc1 since it is broken
+
+  Package-Manager: portage-2.2.28
+
+  27 Jun 2016; William Hubbs <williamh@gentoo.org> docker-9999.ebuild:
+  sync live ebuild
+
+  Package-Manager: portage-2.2.28
+
+*docker-1.12.0_rc2-r2 (28 Jun 2016)
+
+  28 Jun 2016; William Hubbs <williamh@gentoo.org>
+  +docker-1.12.0_rc2-r2.ebuild:
+  1.12.0_rc2-r2 revbump for bug #587404
+
+  Package-Manager: portage-2.2.28
+
+  28 Jun 2016; William Hubbs <williamh@gentoo.org> docker-9999.ebuild:
+  sync live ebuild
+
+  Package-Manager: portage-2.2.28
+
+  28 Jun 2016; William Hubbs <williamh@gentoo.org>
+  -docker-1.12.0_rc2-r1.ebuild:
+  remove old version
+
+  Package-Manager: portage-2.2.28
+

@@ -104,3 +104,10 @@
 
   Package-Manager: portage-2.2.28
 
+*css_parser-1.4.4 (28 Jun 2016)
+
+  28 Jun 2016; Hans de Graaff <graaff@gentoo.org> +css_parser-1.4.4.ebuild:
+  add 1.4.4
+
+  Package-Manager: portage-2.2.28
+

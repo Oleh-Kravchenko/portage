@@ -53,3 +53,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  28 Jun 2016; Alexis Ballier <aballier@gentoo.org> -costmap_2d-1.13.0.ebuild,
+  -costmap_2d-1.13.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+*costmap_2d-1.14.0-r1 (28 Jun 2016)
+
+  28 Jun 2016; Alexis Ballier <aballier@gentoo.org> -costmap_2d-1.14.0.ebuild,
+  +costmap_2d-1.14.0-r1.ebuild, costmap_2d-9999.ebuild:
+  add := dep on pcl
+
+  Package-Manager: portage-2.3.0
+

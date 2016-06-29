@@ -154,3 +154,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  28 Jun 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -files/stone-soup-0.14.2-build.patch, -stone-soup-0.14.2-r1.ebuild:
+  old
+
+  Package-Manager: portage-2.2.28
+

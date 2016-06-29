@@ -45,3 +45,9 @@
 
   Package-Manager: portage-2.3.0
 
+  28 Jun 2016; Johannes Huber <johu@gentoo.org>
+  -kdesdk-thumbnailers-16.04.1.ebuild:
+  kde-apps: Remove KDE Applications 16.04.1
+
+  Package-Manager: portage-2.3.0
+

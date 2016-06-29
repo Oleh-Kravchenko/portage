@@ -36,3 +36,11 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*ignition-math-2.4.0 (28 Jun 2016)
+
+  28 Jun 2016; Alexis Ballier <aballier@gentoo.org>
+  +ignition-math-2.4.0.ebuild:
+  bump to 2.4.0
+
+  Package-Manager: portage-2.3.0
+

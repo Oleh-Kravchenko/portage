@@ -186,3 +186,10 @@
   02 Jun 2016; Amy Winston <amynka@gentoo.org> nqp-9999.ebuild:
   update 9999 to reflect 2016.05
 
+*nqp-2016.06 (28 Jun 2016)
+
+  28 Jun 2016; Patrick Lauer <patrick@gentoo.org> +nqp-2016.06.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

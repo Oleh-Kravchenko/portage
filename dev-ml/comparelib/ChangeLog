@@ -108,3 +108,7 @@
   tree
   nor needlessly preventing future stabilization of packages.
 
+  28 Jun 2016; Michał Górny <mgorny@gentoo.org> comparelib-109.60.00.ebuild,
+  comparelib-113.00.00.ebuild:
+  Dep only on camlp4, #586904
+

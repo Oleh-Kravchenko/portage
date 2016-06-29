@@ -77,3 +77,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*nutcracker-0.4.1-r1 (28 Jun 2016)
+
+  28 Jun 2016; Patrick Lauer <patrick@gentoo.org> +files/nutcracker.confd.2,
+  +files/nutcracker.initd.2, -nutcracker-0.4.1.ebuild,
+  +nutcracker-0.4.1-r1.ebuild:
+  Fix init script
+
+  Package-Manager: portage-2.3.0
+

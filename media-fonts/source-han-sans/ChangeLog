@@ -83,3 +83,14 @@
 
   Package-Manager: portage-2.3.0
 
+  28 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  source-han-sans-1.001.ebuild:
+  otf does not exist
+
+  The directory containing the .otf files should be "${S}/source-han-sans-
+  zh_TW-1.001", for example, instead of "${S}/source-han-sans-zh-TW-1.001"
+  (zh_TW instead of zh-TW).
+  Closes: https://github.com/gentoo/gentoo/pull/1771
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

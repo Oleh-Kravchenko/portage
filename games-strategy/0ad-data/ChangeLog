@@ -99,3 +99,9 @@
 
   Package-Manager: portage-2.2.28
 
+  28 Jun 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  0ad-data-0.0.20_alpha.ebuild:
+  update HOMEPAGE
+
+  Package-Manager: portage-2.2.28
+

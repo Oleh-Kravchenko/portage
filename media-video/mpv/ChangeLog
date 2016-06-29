@@ -1198,3 +1198,15 @@
 
   Package-Manager: portage-2.3.0
 
+*mpv-0.18.0 (28 Jun 2016)
+
+  28 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/0.18.0/mpv-0.18.0-fix-height-alignment-on-xv.patch,
+  +mpv-0.18.0.ebuild:
+  verbump to 0.18.0.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1765
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -101,3 +101,9 @@
 
   Package-Manager: portage-2.2.28_p106
 
+  28 Jun 2016; Ulrich Müller <ulm@gentoo.org> w3m-0.5.3-r5.ebuild,
+  w3m-0.5.3-r8.ebuild:
+  Migrate from LINGUAS to L10N.
+
+  Package-Manager: portage-2.3.0
+

@@ -97,3 +97,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  28 Jun 2016; Michael Sterrett <mr_bones_@gentoo.org>
+  -fortune-mod-flashrider-1.00.ebuild:
+  old
+
+  Package-Manager: portage-2.2.28
+

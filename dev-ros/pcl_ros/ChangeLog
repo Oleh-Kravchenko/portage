@@ -57,3 +57,16 @@
 
   Package-Manager: portage-2.2.28
 
+*pcl_ros-1.4.1-r1 (28 Jun 2016)
+
+  28 Jun 2016; Alexis Ballier <aballier@gentoo.org> -pcl_ros-1.4.1.ebuild,
+  +pcl_ros-1.4.1-r1.ebuild, pcl_ros-9999.ebuild:
+  add := dep on pcl
+
+  Package-Manager: portage-2.3.0
+
+  28 Jun 2016; Alexis Ballier <aballier@gentoo.org> -pcl_ros-1.4.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

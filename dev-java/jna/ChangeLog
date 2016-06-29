@@ -94,3 +94,8 @@
 
   Package-Manager: portage-2.2.28
 
+  28 Jun 2016; Patrick Lauer <patrick@gentoo.org> jna-4.2.2.ebuild:
+  Add missing Xt dependency
+
+  Package-Manager: portage-2.3.0
+

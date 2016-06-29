@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*grafana-bin-3.1.0_beta1 (28 Jun 2016)
+
+  28 Jun 2016; Patrick Lauer <patrick@gentoo.org>
+  +grafana-bin-3.1.0_beta1.ebuild:
+  Bump to 3.1_beta
+
+  Package-Manager: portage-2.3.0
+

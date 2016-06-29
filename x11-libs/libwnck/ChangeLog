@@ -111,3 +111,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="alpha"
 
+*libwnck-3.20.0 (28 Jun 2016)
+
+  28 Jun 2016; Pacho Ramos <pacho@gentoo.org> +libwnck-3.20.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

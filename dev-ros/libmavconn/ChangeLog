@@ -136,3 +136,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*libmavconn-0.18.1 (28 Jun 2016)
+
+  28 Jun 2016; Alexis Ballier <aballier@gentoo.org> +libmavconn-0.18.1.ebuild:
+  Bump to 0.18.1.
+
+  Package-Manager: portage-2.3.0
+
+  28 Jun 2016; Alexis Ballier <aballier@gentoo.org> libmavconn-0.18.1.ebuild,
+  libmavconn-9999.ebuild:
+  bump mavlink-gbp-release dep
+
+  Package-Manager: portage-2.3.0
+
