@@ -313,3 +313,24 @@
 
   Package-Manager: portage-2.2.27
 
+  29 Jun 2016; Mike Gilbert <floppym@gentoo.org> grub-2.02_beta3-r1.ebuild,
+  grub-9999-r1.ebuild:
+  add xen-32 platform
+
+  This builds 32-bit Xen on amd64.
+
+  Bug: https://bugs.gentoo.org/586996
+
+  29 Jun 2016; Mike Gilbert <floppym@gentoo.org> grub-2.02_beta3-r1.ebuild,
+  grub-9999-r1.ebuild:
+  refactor platform logic
+
+  Package-Manager: portage-2.3.0_p7
+
+  29 Jun 2016; Mike Gilbert <floppym@gentoo.org> grub-2.02_beta3-r1.ebuild,
+  grub-9999-r1.ebuild:
+  Revert "sys-boot/grub: populate MULTIBUILD_VARIANTS in a more PMS-defined
+  way"
+
+  This reverts commit e1374135af76bf31a01ff4ecb6696d8bbe041f31.
+

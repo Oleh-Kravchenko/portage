@@ -1,0 +1,12 @@
+# ChangeLog for app-crypt/libu2f-server
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*libu2f-server-1.0.1 (28 Jun 2016)
+
+  28 Jun 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  +libu2f-server-1.0.1.ebuild, +metadata.xml:
+  initial commit of U2F server library in C
+
+  Package-Manager: portage-2.2.28
+

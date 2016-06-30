@@ -246,3 +246,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*btrfs-progs-4.6.1 (29 Jun 2016)
+
+  29 Jun 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +btrfs-progs-4.6.1.ebuild:
+  bump up to 4.6.1
+
+  Package-Manager: portage-2.3.0
+

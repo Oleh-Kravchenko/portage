@@ -139,3 +139,18 @@
 
   Package-Manager: portage-2.2.28
 
+*dosbox-0.74_p20160629 (29 Jun 2016)
+
+  29 Jun 2016; William Hubbs <williamh@gentoo.org>
+  +dosbox-0.74_p20160629.ebuild, -dosbox-3989.ebuild,
+  files/dosbox-0.74-gcc46.patch:
+  qa]: create a snapshot release to fix multiple bugs
+
+  This snapshot release fixes the following bugs:
+
+  https://bugs.gentoo.org/show_bug.cgi?id=449060
+  https://bugs.gentoo.org/show_bug.cgi?id=586650
+  https://bugs.gentoo.org/show_bug.cgi?id=587382
+
+  Package-Manager: portage-2.2.28
+

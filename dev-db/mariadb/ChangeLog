@@ -527,3 +527,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*mariadb-10.0.26 (29 Jun 2016)
+
+  29 Jun 2016; Brian Evans <grknight@gentoo.org> +mariadb-10.0.26.ebuild:
+  Version bump to 10.0.26
+
+  Package-Manager: portage-2.3.0
+

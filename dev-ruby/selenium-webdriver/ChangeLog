@@ -167,3 +167,11 @@
 
   Package-Manager: portage-2.2.28
 
+*selenium-webdriver-2.53.4 (29 Jun 2016)
+
+  29 Jun 2016; Hans de Graaff <graaff@gentoo.org>
+  +selenium-webdriver-2.53.4.ebuild:
+  add 2.53.4
+
+  Package-Manager: portage-2.2.28
+

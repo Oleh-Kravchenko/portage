@@ -95,3 +95,11 @@
 
   Package-Manager: portage-2.2.28
 
+*radeon-ucode-20160628 (28 Jun 2016)
+
+  28 Jun 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +radeon-ucode-20160628.ebuild:
+  update snapshot to 20160628
+
+  Package-Manager: portage-2.2.28
+

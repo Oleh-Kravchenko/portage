@@ -76,3 +76,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  29 Jun 2016; Brian Evans <grknight@gentoo.org>
+  pecl-libevent-0.1.0-r1.ebuild:
+  Replace php5-4 USE with php5-6
+
+  Builds fine with PHP 5.6 API
+
+  Package-Manager: portage-2.3.0
+

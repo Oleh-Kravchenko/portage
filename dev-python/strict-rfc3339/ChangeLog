@@ -69,3 +69,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*strict-rfc3339-0.7 (29 Jun 2016)
+
+  29 Jun 2016; Patrick Lauer <patrick@gentoo.org> +strict-rfc3339-0.7.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

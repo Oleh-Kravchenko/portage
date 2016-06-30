@@ -132,3 +132,12 @@
   particular bug assignment/CC to ensure that the requested assignee
   always goes first, in order to match the bug wrangling policies.
 
+  29 Jun 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/packagekit-base-0.7.x-npapi-api-change.patch,
+  -files/packagekit-base-0.7.x-npapi-sdk.patch:
+  remove unused patches
+
+  Closes: https://github.com/gentoo/gentoo/pull/1788
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

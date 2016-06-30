@@ -69,3 +69,17 @@
 
   Package-Manager: portage-2.2.28
 
+*amdgpu-ucode-20160628 (28 Jun 2016)
+
+  28 Jun 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +amdgpu-ucode-20160628.ebuild:
+  update snapshot to 20160628
+
+  Package-Manager: portage-2.2.28
+
+  28 Jun 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  -amdgpu-ucode-20160331.ebuild, -amdgpu-ucode-20160616.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+

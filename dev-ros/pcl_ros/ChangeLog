@@ -70,3 +70,10 @@
 
   Package-Manager: portage-2.3.0
 
+  29 Jun 2016; Alexis Ballier <aballier@gentoo.org> pcl_ros-1.4.1-r1.ebuild,
+  pcl_ros-9999.ebuild:
+  bump dep on pcl_conversions to ensure it is rebuilt after a pcl update. Bug
+  #587468
+
+  Package-Manager: portage-2.3.0
+

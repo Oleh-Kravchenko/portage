@@ -74,3 +74,8 @@
 
   Package-Manager: portage-2.2.26
 
+  29 Jun 2016; Hans de Graaff <graaff@gentoo.org> yard-0.8.7.3.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.2.28
+

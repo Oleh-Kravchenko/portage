@@ -173,3 +173,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*libevdev-1.5.2 (29 Jun 2016)
+
+  29 Jun 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +libevdev-1.5.2.ebuild:
+  bump to 1.5.2
+
+  Package-Manager: portage-2.2.28
+
+  29 Jun 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  -libevdev-1.4.5.ebuild, -libevdev-1.4.6.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+

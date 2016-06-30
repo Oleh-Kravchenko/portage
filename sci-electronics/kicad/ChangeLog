@@ -232,3 +232,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*kicad-4.0.2-r3 (29 Jun 2016)
+
+  29 Jun 2016; Michał Górny <mgorny@gentoo.org>
+  +files/kicad-swig-import-helper.patch, +kicad-4.0.2-r3.ebuild:
+  Fix swig import fixer script for build, #586406
+
+  Fix the broken swig import fixer script that did not work with
+  newer Python versions. Also correct ebuild licensing.
+
+  Bug: https://bugs.gentoo.org/586406
+  Closes: https://github.com/gentoo/gentoo/pull/1745
+  Package-Manager: portage-2.3.0_rc1
+

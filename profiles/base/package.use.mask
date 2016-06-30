@@ -5,6 +5,10 @@
 # This file requires >=portage-2.1.1
 # New entries go on top.
 
+# Mike Gilbert <floppym@gentoo.org> (23 Jun 2016)
+# This flag only has meaning on amd64
+sys-boot/grub:2 grub_platforms_xen-32
+
 # Brian Evans <grknight@gentoo.org> (14 Jun 2016)
 # Igbinary is not ready for php 7
 >=dev-php/pecl-redis-3.0 igbinary
@@ -411,7 +415,7 @@ media-video/rtmpdump polarssl
 
 # Alexey Shvetsov <alexxy@gentoo.org> (16 Apr 2014)
 # libehca only works on ppc*
-sys-infiniband/ofed ofed_drivers_ehca
+sys-fabric/ofed ofed_drivers_ehca
 
 # Andreas K. Huettel <dilfridge@gentoo.org> (12 Apr 2014)
 # Upstream regularly forgets to update the bindings after changes in API,

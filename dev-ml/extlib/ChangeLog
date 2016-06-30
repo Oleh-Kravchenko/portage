@@ -123,3 +123,9 @@
   tree
   nor needlessly preventing future stabilization of packages.
 
+*extlib-1.6.1-r1 (29 Jun 2016)
+
+  29 Jun 2016; Michał Górny <mgorny@gentoo.org> -extlib-1.6.1.ebuild,
+  +extlib-1.6.1-r1.ebuild:
+  Drop non-camlp4 support, #586910
+

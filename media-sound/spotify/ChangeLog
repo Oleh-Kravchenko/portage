@@ -272,3 +272,17 @@
 
   Package-Manager: portage-2.2.28
 
+*spotify-1.0.32 (29 Jun 2016)
+
+  29 Jun 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -spotify-1.0.31.ebuild, +spotify-1.0.32.ebuild:
+  bup for bug 585042
+
+  Package-Manager: portage-2.2.28
+
+  29 Jun 2016; Matthew Thode <prometheanfire@gentoo.org>
+  spotify-1.0.32.ebuild:
+  fast stable due to stupid upstream
+
+  Package-Manager: portage-2.2.28
+
