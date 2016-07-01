@@ -1202,3 +1202,11 @@
 
   Package-Manager: portage-2.2.28
 
+  30 Jun 2016; Mike Gilbert <floppym@gentoo.org> chromium-53.0.2774.3.ebuild:
+  depend on >=app-arch/gzip-1.7
+
+  The build process calls gzip --rsyncable, which was added in gzip-1.7.
+  Thanks to Andrew Waters for the research.
+
+  Package-Manager: portage-2.3.0_p7
+

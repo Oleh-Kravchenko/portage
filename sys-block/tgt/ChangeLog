@@ -143,3 +143,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Jun 2016; Alexey Shvetsov <alexxy@gentoo.org> tgt-1.0.60.ebuild,
+  tgt-1.0.63.ebuild, tgt-1.0.64.ebuild, tgt-1.0.65.ebuild:
+  adapt sys-infiniband to sys-fabric rename
+
+  Package-Manager: portage-2.3.0_rc1
+

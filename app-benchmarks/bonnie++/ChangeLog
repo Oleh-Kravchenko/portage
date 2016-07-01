@@ -153,3 +153,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org> bonnie++-1.97-r1.ebuild:
+  1.97-r1: add alpha keyword
+
+  Gentoo-Bug: 577830
+
+  Package-Manager: portage-2.3.0
+

@@ -181,3 +181,13 @@
   files/1.8.0/asterisk.initd7:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  30 Jun 2016; Tony Vroon <chainsaw@gentoo.org> asterisk-13.8.2.ebuild,
+  metadata.xml:
+  asterisk pjsip (pjprotect) support.
+
+*asterisk-13.9.1 (30 Jun 2016)
+
+  30 Jun 2016; Tony Vroon <chainsaw@gentoo.org> -asterisk-13.7.2.ebuild,
+  -asterisk-13.8.2.ebuild, +asterisk-13.9.1.ebuild:
+  Version bump to 13.9.1 with full PJPROJECT support.
+

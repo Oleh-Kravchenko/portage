@@ -198,3 +198,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 Jun 2016; Alexis Ballier <aballier@gentoo.org> -live-2016.02.09.ebuild,
+  -live-2016.02.22.ebuild, -live-2016.03.16.ebuild, -live-2016.04.01.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+*live-2016.06.26 (30 Jun 2016)
+
+  30 Jun 2016; Alexis Ballier <aballier@gentoo.org> +live-2016.06.26.ebuild:
+  bump to 2016.06.26
+
+  Package-Manager: portage-2.3.0
+

@@ -176,3 +176,9 @@
   files/open-iscsi-2.0.872-init.d-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  29 Jun 2016; Alexey Shvetsov <alexxy@gentoo.org>
+  open-iscsi-2.0.873-r2.ebuild:
+  adapt sys-infiniband to sys-fabric rename
+
+  Package-Manager: portage-2.3.0_rc1
+

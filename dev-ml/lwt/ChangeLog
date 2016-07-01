@@ -139,3 +139,6 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  29 Jun 2016; Michał Górny <mgorny@gentoo.org> -lwt-2.5.1.ebuild:
+  Drop interim version w/ same kw, #586918
+

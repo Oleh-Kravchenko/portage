@@ -194,3 +194,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  sysstat-11.2.4-r1.ebuild:
+  11.2.4-r1: add alpha keyword
+
+  Gentoo-Bug: 586566
+
+  Package-Manager: portage-2.3.0
+

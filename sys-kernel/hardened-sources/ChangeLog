@@ -1163,3 +1163,19 @@
 
   Package-Manager: portage-2.2.28
 
+  29 Jun 2016; Anthony G. Basile <blueness@gentoo.org>
+  -hardened-sources-4.5.7-r3.ebuild, -hardened-sources-4.5.7-r4.ebuild:
+  remove older unstable versions
+
+  Package-Manager: portage-2.2.28
+
+*hardened-sources-4.5.7-r6 (30 Jun 2016)
+
+  30 Jun 2016; Anthony G. Basile <blueness@gentoo.org>
+  +hardened-sources-4.5.7-r6.ebuild:
+  version bump to 4.5.7-r6
+
+  vanilla-4.5.7 + genpatches-4.5-9 + grsecurity-3.1-4.5.7-201606292300
+
+  Package-Manager: portage-2.2.28
+

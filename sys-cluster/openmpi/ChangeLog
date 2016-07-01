@@ -103,3 +103,10 @@
 
   Package-Manager: portage-2.2.26
 
+  29 Jun 2016; Alexey Shvetsov <alexxy@gentoo.org> openmpi-1.6.5-r1.ebuild,
+  openmpi-1.7.5-r1.ebuild, openmpi-1.8.4-r4.ebuild, openmpi-1.8.7-r1.ebuild,
+  openmpi-1.8.8.ebuild, openmpi-1.10.0.ebuild, openmpi-1.10.2.ebuild:
+  adapt sys-infiniband to sys-fabric rename
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -190,3 +190,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 Jun 2016; Jeroen Roovers <jer@gentoo.org> net-snmp-5.7.3-r5.ebuild:
+  Serialise some of the make targets (maybe bug #536460).
+
+  Package-Manager: portage-2.3.0
+

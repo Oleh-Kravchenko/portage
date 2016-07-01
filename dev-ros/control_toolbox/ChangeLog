@@ -45,3 +45,17 @@
 
   Package-Manager: portage-2.2.28
 
+  30 Jun 2016; Alexis Ballier <aballier@gentoo.org>
+  -control_toolbox-1.13.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+*control_toolbox-1.15.0 (30 Jun 2016)
+
+  30 Jun 2016; Alexis Ballier <aballier@gentoo.org>
+  +control_toolbox-1.15.0.ebuild:
+  bump to 1.15.0
+
+  Package-Manager: portage-2.3.0
+

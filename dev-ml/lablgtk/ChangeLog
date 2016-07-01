@@ -175,3 +175,14 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --force
 
+*lablgtk-2.18.3-r1 (29 Jun 2016)
+
+  29 Jun 2016; Michał Górny <mgorny@gentoo.org> lablgtk-2.18.3.ebuild,
+  +lablgtk-2.18.3-r1.ebuild:
+  Split stable into old OCaml & camlp4 variants, #586916
+
+  Split the stable version into a variant supporting old OCaml and one
+  supporting camlp4, in order to solve :=-in-|| problem. The old ebuild
+  is only targeted at stable ia64 & sparc users that do not have camlp4
+  stable.
+

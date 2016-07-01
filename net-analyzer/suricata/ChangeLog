@@ -64,3 +64,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 Jun 2016; Slawomir Lis <slis@gentoo.org> suricata-3.1.ebuild:
+  fixed #587548
+
+  Package-Manager: portage-2.3.0_rc1
+

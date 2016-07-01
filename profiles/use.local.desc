@@ -1706,7 +1706,6 @@ dev-java/ant:regexp - Enable Apache Regexp Ant tasks
 dev-java/ant:resolver - Enable Apache Resolver Ant tasks
 dev-java/ant:testutil - Enable optional test util classes
 dev-java/antlr:gunit - gUnit is a "Unit Test" framework for ANTLR grammars
-dev-java/bcel:findbugs - Include performance patch for findbugs package.
 dev-java/commons-collections:test-framework - Install the test framework
 dev-java/commons-logging:avalon-framework - Add optional support for avalon-framework
 dev-java/commons-logging:avalon-logkit - Add optional support for avalon-logkit
@@ -4172,7 +4171,6 @@ media-plugins/audacious-plugins:scrobbler - Build with scrobbler/LastFM submissi
 media-plugins/audacious-plugins:sid - Build with SID (Commodore 64 Audio) support
 media-plugins/banshee-community-extensions:lastfmfingerprint - Enable support to ientify your music automatically, using the Last.fm online service.
 media-plugins/banshee-community-extensions:lirc - Enable the remote control plugin (uses app-misc/lirc)
-media-plugins/banshee-community-extensions:lyrics - Enable support for automatically fetching lyrics
 media-plugins/banshee-community-extensions:mirage - Enable the Mirage plugin which automatically, and intelligently generates playlists for you
 media-plugins/banshee-community-extensions:telepathy - Enables the Telepathy plugin which lets you to share and stream music with IM buddies
 media-plugins/banshee-community-extensions:zeitgeist - Build the plugin to inject events to gnome-extra/zeitgeist
@@ -5809,6 +5807,20 @@ net-libs/ortp:ntp-timestamp - Turn on NTP timestamping on received packet
 net-libs/ortp:srtp - Add support for Secure RTP
 net-libs/ortp:zrtp - Add support for ZRTP key negotiation
 net-libs/phodav:spice - Install the spice-webdavd guest agent
+net-libs/pjproject:amr - Inlcude AMR codec in the build
+net-libs/pjproject:epoll - Use /dev/epoll ioqueue on Linux (experimental)
+net-libs/pjproject:g711 - Include G.711 codecs in the build
+net-libs/pjproject:g722 - Include G.722 codec in the build
+net-libs/pjproject:g7221 - Include G.722.1 codec in the build
+net-libs/pjproject:ilbc - Include iLBC codec in the build
+net-libs/pjproject:l16 - Include Linear/L16 codec family in the build
+net-libs/pjproject:libyuv - Include libyuv in the build
+net-libs/pjproject:openh264 - Include Open H.264 support in the build
+net-libs/pjproject:opus - Include OPUS support in the build
+net-libs/pjproject:resample - Include resampling implementations in the build
+net-libs/pjproject:silk - Include SILK support in the build
+net-libs/pjproject:v4l2 - Include Video4Linux v2 support in the build
+net-libs/pjproject:webrtc - Enable WebRTC support
 net-libs/polarssl:havege - Enable the HAVEGE random generator. Warning: the HAVEGE random generator is not suitable for virtualized environments
 net-libs/polarssl:programs - Build PolarSSL programs
 net-libs/ptlib:asn - Enable ASN decoding/encoding support
@@ -5937,6 +5949,7 @@ net-misc/asterisk:http - Enable embedded web server
 net-misc/asterisk:ilbc - Enable the Internet Low Bitrate Codec (iLBC)
 net-misc/asterisk:newt - Include additional tools that require redhats windowing toolkit
 net-misc/asterisk:osplookup - Support secure peering using the Open Settlement Protocol
+net-misc/asterisk:pjproject - Enable support for pjproject (pjsip)
 net-misc/asterisk:samples - Install sample sound and configuration files (default: on)
 net-misc/asterisk:span - Enable support for the spandsp codec
 net-misc/asterisk:srtp - Enable support for encrypted voice transmission (secure RTP)
@@ -6545,6 +6558,7 @@ net-proxy/privoxy:whitelists - Support trust files (white lists)
 net-proxy/rejik:banlists - Install upstream provided simple banlists
 net-proxy/shadowsocks-libev:openssl - Use dev-libs/openssl as crypto backend
 net-proxy/shadowsocks-libev:polarssl - Use net-libs/polarssl as crypto backend
+net-proxy/shadowsocks-libev:system-libs - Use system libraries instead of the ones included in the upstream distribution
 net-proxy/squid:ecap - Adds support for loadable content adaptation modules (http://www.e-cap.org)
 net-proxy/squid:esi - Enable ESI for accelerators, will cause squid reverse proxies to be capable of the Edge Acceleration Specification (www.esi.org)
 net-proxy/squid:htcp - Enable HTCP protocol
@@ -7584,7 +7598,6 @@ sys-devel/llvm:udis86 - Enable support for dev-libs/udis86 disassembler library
 sys-devel/sparse:gtk - Build the test-inspect utility (requires x11-libs/gtk+ version 2)
 sys-devel/sparse:llvm - Build the sparse-llvm utility
 sys-devel/sparse:xml - Build the c2xml utility (requires dev-libs/libxml2).
-sys-fabric/ofed:compat-dapl - Add support for DAPL v1.2 abstraction layer
 sys-fabric/ofed:dapl - Add support for DAPL abstraction layer
 sys-fabric/ofed:diags - Add dignostic tools for infiniband
 sys-fabric/ofed:ibacm - Add support for userspace pre-connection services
@@ -7593,7 +7606,6 @@ sys-fabric/ofed:opensm - Add OpenSM - Subnet manager for infiniband
 sys-fabric/ofed:perftest - Add perftest utils
 sys-fabric/ofed:qperf - Add rdma tests
 sys-fabric/ofed:rds - Tools to manage rds sockets
-sys-fabric/ofed:sdp - Add SDP tools
 sys-fabric/ofed:srp - Suport for userspace part for srp initiator
 sys-fabric/opensm:tools - Install ssld extra tool
 sys-firmware/amdgpu-ucode:legacy - Install firmware for older chipsets which are optionally supported by AMDGPU

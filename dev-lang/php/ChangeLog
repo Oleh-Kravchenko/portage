@@ -1378,3 +1378,47 @@
 
   Package-Manager: portage-2.2.28
 
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org> php-5.5.36.ebuild:
+  5.5.36-r0: add alpha keyword
+
+  Gentoo-Bug: 584204
+
+  Package-Manager: portage-2.3.0
+
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org> php-5.6.22.ebuild:
+  5.6.22-r0: add alpha keyword
+
+  Gentoo-Bug: 584204
+
+  Package-Manager: portage-2.3.0
+
+  30 Jun 2016; Agostino Sarubbo <ago@gentoo.org> php-5.5.37.ebuild,
+  php-5.6.23.ebuild:
+  amd64 stable wrt bug #587246
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  30 Jun 2016; Agostino Sarubbo <ago@gentoo.org> php-5.5.37.ebuild,
+  php-5.6.23.ebuild:
+  x86 stable wrt bug #587246
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org> php-5.5.37.ebuild:
+  5.5.37-r0: add alpha keyword
+
+  Gentoo-Bug: 584204
+
+  Package-Manager: portage-2.3.0
+
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org> php-5.6.23.ebuild:
+  5.6.23-r0: add alpha keyword
+
+  Gentoo-Bug: 584204
+
+  Package-Manager: portage-2.3.0
+

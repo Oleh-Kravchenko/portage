@@ -221,3 +221,10 @@
   +files/gd-2.2.2-osx-libtool.patch, gd-2.2.2.ebuild:
   add upstream fix for building under OS X #583584
 
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org> gd-2.2.2.ebuild:
+  2.2.2-r0: add alpha keyword
+
+  Gentoo-Bug: 581942
+
+  Package-Manager: portage-2.3.0
+

@@ -49,3 +49,17 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+  30 Jun 2016; Alexis Ballier <aballier@gentoo.org>
+  -resource_retriever-1.11.6.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+*resource_retriever-1.12.2 (30 Jun 2016)
+
+  30 Jun 2016; Alexis Ballier <aballier@gentoo.org>
+  +resource_retriever-1.12.2.ebuild:
+  bump to 1.12.2
+
+  Package-Manager: portage-2.3.0
+

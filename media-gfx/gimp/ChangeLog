@@ -157,3 +157,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org> gimp-2.8.14-r2.ebuild:
+  2.8.14-r2: add alpha keyword
+
+  Gentoo-Bug: 586666
+
+  Package-Manager: portage-2.3.0
+

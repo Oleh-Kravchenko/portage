@@ -133,3 +133,10 @@
   25 Jun 2016; Michał Górny <mgorny@gentoo.org> lablgl-1.05-r1.ebuild:
   Copy stable keywords over for minor dep change, #586914
 
+  29 Jun 2016; Michał Górny <mgorny@gentoo.org> lablgl-1.05.ebuild:
+  Support camlp4/labltk in -r1 only, #586914
+
+  Restrict the 1.05 ebuild to support old OCaml only to solve the :=-in-||
+  problem. 1.05-r1 is stable on all architectures supporting camlp4,
+  and -r0 is only kept for stable ia64 & sparc users.
+

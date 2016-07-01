@@ -73,3 +73,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org>
+  xfce4-verve-plugin-1.1.0.ebuild:
+  1.1.0-r0: add alpha keyword
+
+  Gentoo-Bug: 586614
+
+  Package-Manager: portage-2.3.0
+

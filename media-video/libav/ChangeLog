@@ -153,3 +153,15 @@
 
   Package-Manager: portage-2.2.26
 
+*libav-11.7 (29 May 2016)
+
+  29 May 2016; Luca Barbato <lu_zero@gentoo.org> +libav-11.7.ebuild:
+  Add version 11.7
+
+  Security fixes as usual.
+
+  Package-Manager: portage-2.2.26
+
+  30 Jun 2016; Aaron Bauman <bman@gentoo.org> -libav-9.14.ebuild:
+  cleanup vulnerable version per security bug #531832
+

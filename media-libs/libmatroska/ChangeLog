@@ -127,3 +127,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  30 Jun 2016; Aaron Bauman <bman@gentoo.org> -libmatroska-1.4.0.ebuild,
+  -libmatroska-1.4.1.ebuild, -libmatroska-1.4.2.ebuild:
+  cleanup vulnerable versions per security bug #564426
+

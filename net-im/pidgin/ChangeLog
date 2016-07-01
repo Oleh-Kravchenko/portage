@@ -164,3 +164,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org> pidgin-2.11.0.ebuild:
+  2.11.0-r0: add alpha keyword
+
+  Gentoo-Bug: 586698
+
+  Package-Manager: portage-2.3.0
+

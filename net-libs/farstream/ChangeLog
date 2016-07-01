@@ -137,3 +137,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  30 Jun 2016; Tobias Klausmann <klausman@gentoo.org> farstream-0.2.8.ebuild:
+  0.2.8-r0: add alpha keyword
+
+  Gentoo-Bug: 586698
+
+  Package-Manager: portage-2.3.0
+

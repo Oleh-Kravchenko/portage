@@ -579,3 +579,16 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*wireshark-2.1.0 (30 Jun 2016)
+
+  30 Jun 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/wireshark-2.1.0-sse4_2-r1.patch, +wireshark-2.1.0.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+
+  30 Jun 2016; Jeroen Roovers <jer@gentoo.org> wireshark-2.1.0.ebuild:
+  Drop color.h.
+
+  Package-Manager: portage-2.3.0
+

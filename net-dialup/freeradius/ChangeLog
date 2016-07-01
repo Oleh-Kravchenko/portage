@@ -132,3 +132,6 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Jun 2016; Aaron Bauman <bman@gentoo.org> -freeradius-2.2.5-r1.ebuild:
+  cleanup vulnerable versions per security bug #553308.
+

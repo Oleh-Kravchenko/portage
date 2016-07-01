@@ -74,3 +74,8 @@
 
   Package-Manager: portage-2.2.28
 
+  30 Jun 2016; Patrice Clement <monsieurp@gentoo.org> cmatrix-1.2a-r2.ebuild:
+  Stable for amd64.
+
+  Package-Manager: portage-2.2.28
+
