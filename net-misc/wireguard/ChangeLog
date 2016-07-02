@@ -24,3 +24,9 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Jul 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  wireguard-0.0.20160630.ebuild, wireguard-9999.ebuild:
+  src change
+
+  Package-Manager: portage-2.3.0
+

@@ -943,7 +943,12 @@ app-misc/lcdproc:lcd_devices_vlsys_m428 - Enable support for VLSYS M428 display
 app-misc/lcdproc:nfs - Adds support for NFS file system
 app-misc/lcdproc:seamless-hbars - Try to avoid gaps in horizontal bars
 app-misc/linux-logo:nls - Add Native Language Support (using gettext - GNU locale utilities)
+app-misc/lirc:audio - Support using an audio device connected to an IR receiver
+app-misc/lirc:ftdi - Support FTDI devices
 app-misc/lirc:hardware-carrier - The transmitter device generates its clock signal in hardware
+app-misc/lirc:iguanair - Support iguanaIR devices
+app-misc/lirc:inputlirc - Add a dependency on app-misc/inputlircd
+app-misc/lirc:irman - Add a dependency on media-libs/libirman
 app-misc/lirc:transmitter - Add transmitter support to some lirc-drivers (e.g. serial)
 app-misc/mc:edit - Compile and install the mcedit application
 app-misc/mc:mclib - Compile and install the libmc.so shared library
@@ -2198,7 +2203,6 @@ dev-ml/lablgtk:sourceview - Enable GtkSourceView support
 dev-ml/lwt:ppx - Enables the ppx syntax extension
 dev-ml/lwt:react - Enables support for dev-ml/react: Functional reactive programming (signals, events, etc.).
 dev-ml/ocaml-cstruct:async - Support for asynchronous execution
-dev-ml/ocaml-cstruct:camlp4 - Enable support for camlp4
 dev-ml/ocaml-cstruct:lwt - Enable threads via lwt
 dev-ml/ocaml-cstruct:ppx - Enable the ppx syntax extension
 dev-ml/ocaml-dns:async - support for asynchronous execution
@@ -5080,6 +5084,9 @@ net-analyzer/net-snmp:pci - Use libpci (from sys-apps/pciutils) to look up netwo
 net-analyzer/net-snmp:rpm - Enable monitoring of app-arch/rpm. This flag requires the bzip2 and zlib flags to be enabled as well.
 net-analyzer/net-snmp:smux - Enable support for the legacy smux protocol (superseded by agentx)
 net-analyzer/net-snmp:ucd-compat - Build UCD compatibility library. Increases significantly the install size.
+net-analyzer/netdata:compression - Enable compression via zlib
+net-analyzer/netdata:nfacct - Enable the nfacct plugin
+net-analyzer/netdata:nodejs - Enable use of nodejs (which some plugins use)
 net-analyzer/netperf:demo - Emit interim results during the run. May affect results
 net-analyzer/netperf:sctp - Include tests to measure SCTP performance
 net-analyzer/nfdump:compat15 - Enable read support for nfdump data files created with nfdump 1.5.x

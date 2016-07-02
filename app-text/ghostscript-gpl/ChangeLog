@@ -145,3 +145,11 @@
   Closes: https://github.com/gentoo/gentoo/pull/1729
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  01 Jul 2016; Ulrich Müller <ulm@gentoo.org> ghostscript-gpl-9.19.ebuild:
+  QA] Reapply L10N changes.
+
+  The ghostscript-gpl-9.19 version bump had reverted the previously
+  committed LINGUAS to L10N conversion, so apply these changes again.
+
+  Package-Manager: portage-2.3.0
+

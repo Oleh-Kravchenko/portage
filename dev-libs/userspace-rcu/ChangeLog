@@ -104,3 +104,22 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  01 Jul 2016; Yixun Lan <dlan@gentoo.org> userspace-rcu-0.9.1.ebuild:
+  amd64 x86 stable
+
+  Gentoo-Bug: 586126
+
+  Package-Manager: portage-2.3.0_rc1
+
+  01 Jul 2016; Jeroen Roovers <jer@gentoo.org> userspace-rcu-0.9.1.ebuild:
+  Stable for HPPA (bug #586126).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  01 Jul 2016; Jeroen Roovers <jer@gentoo.org> userspace-rcu-0.9.1.ebuild:
+  Stable for PPC64 (bug #586126).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

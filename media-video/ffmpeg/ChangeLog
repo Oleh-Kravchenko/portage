@@ -624,3 +624,11 @@
 
   Package-Manager: portage-2.3.0
 
+*ffmpeg-3.1.1 (01 Jul 2016)
+
+  01 Jul 2016; Alexis Ballier <aballier@gentoo.org> -ffmpeg-3.1.ebuild,
+  +ffmpeg-3.1.1.ebuild:
+  bump to 3.1.1
+
+  Package-Manager: portage-2.3.0
+

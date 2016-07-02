@@ -70,3 +70,18 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*conkeror-1.0.3 (01 Jul 2016)
+
+  01 Jul 2016; Ulrich Müller <ulm@gentoo.org> +conkeror-1.0.3.ebuild:
+  Version bump.
+
+  Bug: 587478.
+
+  Package-Manager: portage-2.3.0
+
+  01 Jul 2016; Ulrich Müller <ulm@gentoo.org>
+  -conkeror-1.0_pre20141005.ebuild, -conkeror-1.0_pre20150227.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.3.0
+

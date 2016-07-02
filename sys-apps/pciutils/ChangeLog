@@ -258,3 +258,9 @@
   pciutils-3.4.1.ebuild, pciutils-3.5.1.ebuild:
   set up a sane pkg-config value #584812
 
+  01 Jul 2016; Jeroen Roovers <jer@gentoo.org> pciutils-3.4.1.ebuild:
+  Stable for HPPA (bug #583796).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

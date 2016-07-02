@@ -304,3 +304,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  01 Jul 2016; Patrice Clement <monsieurp@gentoo.org> -files/api-initd-3,
+  -files/master-initd-3, -files/minion-initd-3,
+  -files/salt-2014.7.5-archive-test.patch,
+  -files/salt-2015.5.0-archive-test.patch,
+  -files/salt-2015.5.1-skip-libvirt-test-on-nonroot.patch,
+  -files/salt-2015.8.0-remove-pydsl-includes-test.patch,
+  -files/salt-2015.8.4-boto-vpc-test.patch, -files/syndic-initd-3:
+  remove unused patches
+
+  Closes: https://github.com/gentoo/gentoo/pull/1802
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

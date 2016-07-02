@@ -309,3 +309,9 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Jul 2016; Jeroen Roovers <jer@gentoo.org> lftp-4.7.2.ebuild:
+  Stable for HPPA PPC64 (bug #583566).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

@@ -163,3 +163,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  01 Jul 2016; Jeroen Roovers <jer@gentoo.org> fbida-2.12.ebuild:
+  Stable for HPPA (bug #583568).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

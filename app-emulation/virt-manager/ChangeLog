@@ -166,3 +166,10 @@
 
   Package-Manager: portage-2.2.26
 
+*virt-manager-1.4.0 (30 Jun 2016)
+
+  30 Jun 2016; Matthias Maier <tamiko@gentoo.org> +virt-manager-1.4.0.ebuild:
+  version bump to 1.4.0
+
+  Package-Manager: portage-2.2.28
+

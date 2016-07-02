@@ -139,3 +139,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Jun 2016; Matthew Thode <prometheanfire@gentoo.org> files/radvd.service:
+  systemd hardening
+
+  Improve the systemd unit by having radvd never run as root, restricting
+  capabilities as much as possible, and limiting file system access.
+
+  Gentoo-bug: 587588
+

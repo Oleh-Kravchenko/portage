@@ -41,3 +41,11 @@
 
   Package-Manager: portage-2.2.28
 
+*savagewheels-1.6.1-r1 (01 Jul 2016)
+
+  01 Jul 2016; Nicholas Vinson <nvinson234@gmail.com>
+  -savagewheels-1.6.1.ebuild, +savagewheels-1.6.1-r1.ebuild:
+  Remove games directory from paths
+
+  Package-Manager: portage-2.3.0
+

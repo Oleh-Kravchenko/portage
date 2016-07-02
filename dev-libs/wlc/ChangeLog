@@ -50,3 +50,13 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*wlc-0.0.3 (01 Jul 2016)
+
+  01 Jul 2016; Patrice Clement <monsieurp@gentoo.org> -wlc-0.0.2.ebuild,
+  +wlc-0.0.3.ebuild:
+  dev-libs/sway: bump version 0.8
+
+  Closes: https://github.com/gentoo/gentoo/pull/1747
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

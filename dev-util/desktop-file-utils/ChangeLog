@@ -133,3 +133,9 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Jul 2016; Jeroen Roovers <jer@gentoo.org> desktop-file-utils-0.23.ebuild:
+  Stable for HPPA PPC64 (bug #586576).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

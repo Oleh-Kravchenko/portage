@@ -156,3 +156,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*calamares-2.3 (01 Jul 2016)
+
+  01 Jul 2016; Johannes Huber <johu@gentoo.org> +calamares-2.3.ebuild:
+  Version bump 2.3
+
+  Package-Manager: portage-2.3.0
+
+  01 Jul 2016; Johannes Huber <johu@gentoo.org> -calamares-2.2.2-r1.ebuild:
+  Remove 2.2.2 (r1)
+
+  Package-Manager: portage-2.3.0
+

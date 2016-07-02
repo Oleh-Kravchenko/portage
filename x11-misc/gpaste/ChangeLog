@@ -79,3 +79,10 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  01 Jul 2016; Michał Górny <mgorny@gentoo.org> gpaste-3.18.3.ebuild,
+  gpaste-3.20.3.ebuild:
+  VALA_MIN_API_VERSION 0.30, fixes #582644
+
+  Bug: https://bugs.gentoo.org/582644
+  Pull-Request: https://github.com/gentoo/gentoo/pull/1794
+

@@ -202,3 +202,9 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Jul 2016; Jeroen Roovers <jer@gentoo.org> sysstat-11.2.4-r1.ebuild:
+  Stable for HPPA PPC64 (bug #586566).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

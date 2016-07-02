@@ -136,3 +136,16 @@
 
   Package-Manager: portage-2.2.26
 
+*lirc-0.9.4 (01 Jul 2016)
+
+  01 Jul 2016; David Seifert <soap@gentoo.org> +files/irexec-initd,
+  +lirc-0.9.4.ebuild, metadata.xml:
+  0.9.4: version bump
+
+  Significantly cleaned up and uses upstream's systemd units.
+
+  Gentoo-bug: 515902, 579478
+  Closes: https://github.com/gentoo/gentoo/pull/1774
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

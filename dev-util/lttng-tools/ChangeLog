@@ -92,3 +92,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  01 Jul 2016; Yixun Lan <dlan@gentoo.org> lttng-tools-2.7.1.ebuild:
+  amd64 x86 stable
+
+  Gentoo-Bug: 586128
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -44,3 +44,13 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*sway-0.8 (01 Jul 2016)
+
+  01 Jul 2016; Patrice Clement <monsieurp@gentoo.org> -sway-0.6.ebuild,
+  +sway-0.8.ebuild:
+  bump version 0.8
+
+  Closes: https://github.com/gentoo/gentoo/pull/1747
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

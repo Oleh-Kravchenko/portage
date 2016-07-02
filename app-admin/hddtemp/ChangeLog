@@ -98,3 +98,9 @@
   hddtemp-0.3_beta15-r25.ebuild:
   savannah: switch to https URLs
 
+  01 Jul 2016; Michał Górny <mgorny@gentoo.org> files/hddgentoo.db:
+  Add drives to hddtemp.db, #573380
+
+  Bug: https://bugs.gentoo.org/573380
+  Pull-Request: https://github.com/gentoo/gentoo/pull/1783
+

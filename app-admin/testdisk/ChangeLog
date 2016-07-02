@@ -128,3 +128,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  01 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/fix_rare_crash-6.14.patch, -files/install-gentoo.patch:
+  remove unused patches
+
+  Closes: https://github.com/gentoo/gentoo/pull/1805
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
