@@ -230,3 +230,29 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*burp-1.4.40-r2 (02 Jul 2016)
+
+  02 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +burp-1.4.40-r2.ebuild,
+  files/burp.initd:
+  Move scripts out of /etc
+
+  Burp needs /etc/burp directory to be writable for its daemon (at least
+  first time it runs). On the other hand an executable cannot be placed
+  into a group-writable directory and this is where Burp scripts are
+  installed by default. Move all scripts to /usr/share/burp/scripts. /etc
+  is not a good place for scripts anyway.
+
+  Gentoo-Bug: 562470
+
+  Package-Manager: portage-2.3.0
+
+*burp-1.4.40-r3 (02 Jul 2016)
+
+  02 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +burp-1.4.40-r3.ebuild,
+  files/burp.initd:
+  Correct permissions
+
+  Remove autoupgrade configuration.
+
+  Package-Manager: portage-2.3.0
+

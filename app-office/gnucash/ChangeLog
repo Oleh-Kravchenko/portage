@@ -196,3 +196,16 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  -files/gnucash-2.6.9-automagic-guile.patch, -gnucash-2.6.11.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*gnucash-2.6.13 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +gnucash-2.6.13.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

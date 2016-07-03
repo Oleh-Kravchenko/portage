@@ -410,3 +410,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*nss-3.25 (02 Jul 2016)
+
+  02 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +nss-3.25.ebuild:
+  Bump to version 3.25
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

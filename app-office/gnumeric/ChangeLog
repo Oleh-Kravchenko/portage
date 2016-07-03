@@ -200,3 +200,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> -gnumeric-1.12.27.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*gnumeric-1.12.31 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +gnumeric-1.12.31.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

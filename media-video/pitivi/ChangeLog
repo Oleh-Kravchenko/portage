@@ -92,3 +92,10 @@
 
   Package-Manager: portage-2.2.26
 
+*pitivi-0.96 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +pitivi-0.96.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

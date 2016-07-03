@@ -207,3 +207,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*vala-0.32.1 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +vala-0.32.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

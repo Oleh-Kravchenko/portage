@@ -592,3 +592,14 @@
 
   Package-Manager: portage-2.3.0
 
+  02 Jul 2016; Jeroen Roovers <jer@gentoo.org> wireshark-2.0.4.ebuild:
+  Stable for HPPA (bug #585348).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  02 Jul 2016; Jeroen Roovers <jer@gentoo.org> -wireshark-2.0.3.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

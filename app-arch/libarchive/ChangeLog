@@ -173,3 +173,15 @@
 
   This reverts commit fc9dc7a13724115678d2df7acb93fc5ae30609b4.
 
+*libarchive-3.2.1 (01 Jul 2016)
+
+  01 Jul 2016; William Hubbs <williamh@gentoo.org> +libarchive-3.2.1.ebuild:
+  3.2.1 version bump for #582710
+
+  Package-Manager: portage-2.2.28
+
+  02 Jul 2016; Fabian Groffen <grobian@gentoo.org> libarchive-3.1.2-r5.ebuild:
+  fix compilation on OSX, it needs acl enabled
+
+  Package-Manager: portage-2.2.28
+

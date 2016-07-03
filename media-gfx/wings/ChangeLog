@@ -166,3 +166,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  02 Jul 2016; Jeroen Roovers <jer@gentoo.org> wings-1.5.4-r1.ebuild:
+  Fix include_lib (bug #585654) in 1.5.4.
+
+*wings-2.0.4-r4 (02 Jul 2016)
+*wings-1.5.4-r2 (02 Jul 2016)
+
+  02 Jul 2016; Jeroen Roovers <jer@gentoo.org> files/wings.sh,
+  files/wings.sh-r1, -wings-1.5.4-r1.ebuild, +wings-1.5.4-r2.ebuild,
+  -wings-2.0.4-r3.ebuild, +wings-2.0.4-r4.ebuild:
+  Use sh instead of bash.
+
+  Package-Manager: portage-2.3.0
+

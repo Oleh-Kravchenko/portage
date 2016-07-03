@@ -10,3 +10,8 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Jul 2016; William Hubbs <williamh@gentoo.org> metadata.xml:
+  fix metadata
+
+  Package-Manager: portage-2.2.28
+

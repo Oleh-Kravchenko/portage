@@ -70,3 +70,19 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/xboxdrv.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*xboxdrv-0.8.8 (02 Jul 2016)
+
+  02 Jul 2016; James Le Cuirot <chewi@gentoo.org> +files/github-144.patch,
+  +files/xboxdrv-0.8.8-scons.patch, +xboxdrv-0.8.8.ebuild:
+  Version bump to 0.8.8, EAPI bump to 6, bug #567182
+
+  Includes patch to fix 60 second delay, upstream GitHub issue #144.
+
+  Package-Manager: portage-2.3.0
+
+  02 Jul 2016; James Le Cuirot <chewi@gentoo.org>
+  -files/xboxdrv-0.8.4-libusbx-1.0.13-fix.patch, -xboxdrv-0.8.5-r2.ebuild:
+  Remove old 0.8.5-r2
+
+  Package-Manager: portage-2.3.0
+

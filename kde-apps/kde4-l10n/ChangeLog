@@ -292,3 +292,12 @@
 
   Package-Manager: portage-2.3.0
 
+  02 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  -kde4-l10n-4.14.3.ebuild, -kde4-l10n-4.14.3-r1.ebuild:
+  Drop old, conflicting versions
+
+  15.12.3-r1 is stable while current stable kdepim-l10n ebuilds have
+  !<kde-apps/kde4-l10n-4.14.3-r1, so no need to keep old version around.
+
+  Package-Manager: portage-2.2.28
+

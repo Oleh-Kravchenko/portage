@@ -110,3 +110,11 @@
   files/atd.rc7:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*at-3.1.20 (02 Jul 2016)
+
+  02 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +at-3.1.20.ebuild:
+  Bump to version 3.1.20
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

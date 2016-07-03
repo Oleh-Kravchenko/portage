@@ -1422,3 +1422,10 @@
 
   Package-Manager: portage-2.3.0
 
+  02 Jul 2016; Jeroen Roovers <jer@gentoo.org> php-5.5.37.ebuild,
+  php-5.6.23.ebuild:
+  Stable for HPPA (bug #584204).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

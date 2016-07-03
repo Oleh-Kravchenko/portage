@@ -295,3 +295,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  -files/librsvg-2.40.13-filters-crash.patch, -librsvg-2.40.13.ebuild,
+  -librsvg-2.40.13-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*librsvg-2.40.16 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +librsvg-2.40.16.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

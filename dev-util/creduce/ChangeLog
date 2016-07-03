@@ -89,3 +89,11 @@
   Package-Manager: portage-2.3.0_rc1
   Signed-off-by: Ryan Hill <rhill@gentoo.org>
 
+*creduce-2.5.0 (02 Jul 2016)
+
+  02 Jul 2016; Ryan Hill <rhill@gentoo.org> +creduce-2.5.0.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Ryan Hill <rhill@gentoo.org>
+

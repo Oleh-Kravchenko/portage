@@ -194,3 +194,31 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  02 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> metadata.xml,
+  notmuch-0.22-r2.ebuild:
+  Rename debug flag to valgrind (in testing ebuild only)
+
+  Require valgrind only for build. 'debug' flag was actually misused.
+
+  Gentoo-Bug: 587560
+
+  Package-Manager: portage-2.3.0
+
+  02 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> notmuch-0.22-r2.ebuild:
+  Make tests verbose
+
+  02 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> notmuch-0.22-r2.ebuild:
+  Let package manager download test database
+
+  Put test notmuch database into SRC_URI and copy it to test directory
+  rather than downloading it in src_test phase.
+
+  Package-Manager: portage-2.3.0
+
+  02 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> notmuch-0.18.2.ebuild,
+  notmuch-0.19-r1.ebuild, notmuch-0.20.2.ebuild, notmuch-0.21.ebuild,
+  notmuch-0.22.ebuild:
+  Make tests verbose in stable ebuilds as well
+
+  Package-Manager: portage-2.3.0
+

@@ -191,3 +191,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> -vala-common-0.30.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*vala-common-0.32.1 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +vala-common-0.32.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

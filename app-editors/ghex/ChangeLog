@@ -111,3 +111,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> -ghex-3.18.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*ghex-3.18.2 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +ghex-3.18.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

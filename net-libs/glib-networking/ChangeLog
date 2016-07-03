@@ -201,3 +201,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="alpha"
 
+*glib-networking-2.48.2 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +glib-networking-2.48.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

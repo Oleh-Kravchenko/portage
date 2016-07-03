@@ -131,3 +131,9 @@
   files/gsad.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  02 Jul 2016; Hanno <hanno@gentoo.org>
+  -greenbone-security-assistant-6.0.8.ebuild:
+  Remove vulnerable version
+
+  Package-Manager: portage-2.3.0
+

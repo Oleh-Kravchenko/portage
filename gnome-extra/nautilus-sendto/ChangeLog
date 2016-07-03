@@ -122,3 +122,16 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  -nautilus-sendto-3.8.2-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*nautilus-sendto-3.8.4 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +nautilus-sendto-3.8.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

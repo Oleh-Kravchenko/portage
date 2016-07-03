@@ -115,3 +115,9 @@
   +systemrescuecd-x86-4.7.3.ebuild:
   Bump to 4.7.3
 
+*systemrescuecd-x86-4.8.0 (01 Jul 2016)
+
+  01 Jul 2016; Michał Górny <mgorny@gentoo.org>
+  +systemrescuecd-x86-4.8.0.ebuild:
+  Bump to 4.8.0
+

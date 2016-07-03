@@ -279,3 +279,26 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> -appstream-glib-0.5.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*appstream-glib-0.5.16 (02 Jul 2016)
+
+  02 Jul 2016; Pacho Ramos <pacho@gentoo.org> +appstream-glib-0.5.16.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+
+*appstream-glib-0.5.0 (02 Jul 2016)
+
+  02 Jul 2016; Michał Górny <mgorny@gentoo.org> +appstream-glib-0.5.0.ebuild:
+  Revert "Drop old"
+
+  Restore the last version that was stable on ppc & sparc. Its removal
+  breaks reverse dependencies that are stable on those architectures:
+  dev-util/appdata-tools and games-puzzle/atomix.
+
+  Reverts: fb7179696 (dev-libs/appstream-glib: Drop old)
+
