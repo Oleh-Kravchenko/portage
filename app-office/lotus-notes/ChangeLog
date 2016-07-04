@@ -67,3 +67,7 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  03 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org> metadata.xml:
+  package.mask, metadata: drop lotus-notes to maintainer-needed and mask for
+  removal
+

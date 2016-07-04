@@ -174,3 +174,16 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="alpha"
 
+  03 Jul 2016; Pacho Ramos <pacho@gentoo.org> -libsoup-2.48.1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*libsoup-2.54.1 (03 Jul 2016)
+
+  03 Jul 2016; Pacho Ramos <pacho@gentoo.org> +libsoup-2.54.1.ebuild,
+  metadata.xml:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

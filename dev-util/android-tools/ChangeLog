@@ -114,3 +114,8 @@
 
   Package-Manager: portage-2.3.0
 
+  03 Jul 2016; Zac Medico <zmedico@gentoo.org> android-tools-5.1.1_p13.ebuild:
+  add ${EPREFIX} to emake DESTDIR
+
+  Package-Manager: portage-2.3.0
+

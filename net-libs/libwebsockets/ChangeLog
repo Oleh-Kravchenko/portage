@@ -90,3 +90,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  03 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -libwebsockets-2.0.1.ebuild, metadata.xml:
+  drop 2.0.1
+
+  Closes: https://github.com/gentoo/gentoo/pull/1818
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

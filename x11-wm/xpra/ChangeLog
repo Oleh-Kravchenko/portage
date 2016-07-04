@@ -218,3 +218,17 @@
 
   Package-Manager: portage-2.2.28
 
+*xpra-0.17.4 (03 Jul 2016)
+
+  03 Jul 2016; Michael Weber <xmw@gentoo.org> +xpra-0.17.4.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+
+  03 Jul 2016; Michael Weber <xmw@gentoo.org> -xpra-0.17.3.ebuild,
+  xpra-0.17.4.ebuild:
+  REQUIRE_USE dec_av2 for x264 and x265 decoding (thanks Christohper
+  Harrington, bug 586338), drop old.
+
+  Package-Manager: portage-2.2.28
+

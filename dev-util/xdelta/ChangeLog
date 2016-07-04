@@ -98,3 +98,7 @@
   24 May 2016; Michał Górny <mgorny@gentoo.org> +xdelta-3.0.11.ebuild:
   Bump to 3.0.11
 
+  02 Jul 2016; Michał Górny <mgorny@gentoo.org> xdelta-3.0.10.ebuild,
+  xdelta-3.0.11.ebuild:
+  Remove unnecessary USE=test
+

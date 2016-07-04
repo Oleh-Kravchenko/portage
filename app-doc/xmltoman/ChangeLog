@@ -91,3 +91,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  03 Jul 2016; Zac Medico <zmedico@gentoo.org> xmltoman-0.4.ebuild:
+  add ${EPREFIX} to emake PREFIX
+
+  Package-Manager: portage-2.3.0
+

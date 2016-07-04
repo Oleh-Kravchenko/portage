@@ -137,3 +137,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+*gssdp-0.14.16 (03 Jul 2016)
+
+  03 Jul 2016; Pacho Ramos <pacho@gentoo.org> +gssdp-0.14.16.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -382,3 +382,20 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  03 Jul 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml,
+  -webkit-gtk-2.4.10.ebuild, -webkit-gtk-2.4.10-r200.ebuild,
+  -webkit-gtk-2.8.5.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*webkit-gtk-2.12.3 (03 Jul 2016)
+
+  03 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  files/webkit-gtk-2.8.5-fix-alpha-build.patch,
+  files/webkit-gtk-2.8.5-webkit2gtkinjectedbundle-j1.patch,
+  +webkit-gtk-2.12.3.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

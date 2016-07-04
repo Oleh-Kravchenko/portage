@@ -119,3 +119,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*gnome-color-manager-3.20.0 (03 Jul 2016)
+
+  03 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  +gnome-color-manager-3.20.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

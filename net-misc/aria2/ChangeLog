@@ -110,3 +110,11 @@
   23 Jun 2016; Michał Górny <mgorny@gentoo.org> +aria2-1.24.0.ebuild:
   Bump to 1.24.0
 
+  02 Jul 2016; Michał Górny <mgorny@gentoo.org> -aria2-1.19.0.ebuild,
+  -aria2-1.19.2.ebuild, -aria2-1.21.0.ebuild:
+  Drop old
+
+  02 Jul 2016; Michał Górny <mgorny@gentoo.org> aria2-1.15.2.ebuild,
+  aria2-1.23.0.ebuild, aria2-1.24.0.ebuild:
+  Add missing cond RESTRICT=test
+

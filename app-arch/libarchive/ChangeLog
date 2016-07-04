@@ -185,3 +185,16 @@
 
   Package-Manager: portage-2.2.28
 
+*libarchive-3.2.1-r2 (03 Jul 2016)
+*libarchive-3.2.1-r1 (03 Jul 2016)
+
+  03 Jul 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +files/libarchive-3.2.1-fix-tests-gnu99.patch, -libarchive-3.2.1.ebuild,
+  +libarchive-3.2.1-r1.ebuild, +libarchive-3.2.1-r2.ebuild, metadata.xml:
+  Add lz4, fix up EAPI6, fix test, minor formatting
+
+  3.2.1-r2 makes bsdcat and bsdcpio the default for BSD must like bsdtar
+  already is.
+
+  Package-Manager: portage-2.2.28
+

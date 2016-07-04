@@ -105,3 +105,8 @@
   09 Jun 2016; Michał Górny <mgorny@gentoo.org> +pypy-5.3.0.ebuild:
   Add 5.3.0
 
+*pypy-5.3.1 (03 Jul 2016)
+
+  03 Jul 2016; Michał Górny <mgorny@gentoo.org> +pypy-5.3.1.ebuild:
+  dev-virtual/pypy: Bump to 5.3.1
+

@@ -325,6 +325,7 @@ app-arch/innoextract:debug - Enable debug logging and the --debug command-line o
 app-arch/innoextract:lzma - Enable support for extracting lzma-compressed installers using app-arch/xz-utils.
 app-arch/libarchive:bzip2 - Allow accessing bzip2-compressed archives through libbz2 (which comes with app-arch/bzip2). This only affects libarchive's native support: bsdtar will keep using bunzip2 as a filter if that's not built-in.
 app-arch/libarchive:e2fsprogs - Use file flags from sys-fs/e2fsprogs headers instead of virtual/os-headers headers
+app-arch/libarchive:lz4 - Enable support for LZ4 compression using app-arch/lz4
 app-arch/libarchive:nettle - Use dev-libs/nettle as crypto backend
 app-arch/libarchive:zlib - Allow accessing gzip-compressed archives through sys-libs/zlib. This only affects libarchive's native support: bsdtar will keep using gunzip as a filter if that's not built-in. It's also needed for supporting extraction of ZIP files.
 app-arch/libzpaq:jit - Enable just-in-time compilation for faster compression (requires SSE2)
@@ -1074,6 +1075,7 @@ app-office/libreoffice:google - Enable support for remote files on Google Drive
 app-office/libreoffice:gtk3 - Enable highly experimental gtk3 frontend
 app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
 app-office/libreoffice:odk - Build the Office Development Kit
+app-office/libreoffice:quickstarter - Build the system tray quickstarter
 app-office/libreoffice:telepathy - Enable document colaboration features using telepathy communication framework.
 app-office/libreoffice:vlc - Use media-video/vlc for video embedding
 app-office/libreoffice-l10n:offlinehelp - Install help files locally instead of using the LibreOffice Wiki
@@ -4326,9 +4328,11 @@ media-sound/clementine:googledrive - Enable Google Drive support
 media-sound/clementine:lastfm - Use liblastfm for fetching song info, scrobbling and radio streams
 media-sound/clementine:moodbar - Enable moodbar support
 media-sound/clementine:projectm - Build with ProjectM visualization
+media-sound/clementine:seafile - Enable support for seafile: a file sync service
 media-sound/clementine:skydrive - Enable Skydrive support
 media-sound/clementine:system-sqlite - Use the system-wide dev-db/sqlite installation
 media-sound/clementine:ubuntu-one - Enable Ubuntu One support
+media-sound/clementine:udisks_legacy - Enable storage management support via legacy sys-fs/udisks:0
 media-sound/clementine:vkontakte - Enable vk.com support
 media-sound/clementine:wiimote - Enable support for Wii remote
 media-sound/cmus:cdio - use libcdio for CD support
@@ -4862,6 +4866,8 @@ media-video/mpv:vf-dlopen - Install additional video filters to be used with -vf
 media-video/noad:libmpeg2 - Support for libmpeg2 library
 media-video/nvidia-settings:gtk3 - Additionally build the GTK 3 library
 media-video/nvidia_video_sdk:tools - Build and install example tools.
+media-video/obs-studio:fdk - Enable libfdk support for AAC encoding.
+media-video/obs-studio:imagemagick - Use ImageMagick for image loading instead of FFmpeg.
 media-video/ogmrip:ogm - Support for OGM container format
 media-video/ogmrip:srt - Support for SRT subtitle format
 media-video/parole:clutter - Compile in Clutter GTK+ support
@@ -5755,6 +5761,7 @@ net-libs/libproxy:gnome - Enable support for reading proxy settings from GNOME
 net-libs/libproxy:kde - Enable support for reading proxy settings from KDE
 net-libs/libproxy:spidermonkey - Use libmozjs from dev-lang/spidermonkey for PAC parsing
 net-libs/libproxy:webkit - Use libjavascriptcoregtk from net-libs/webkit-gtk for PAC parsing
+net-libs/libsoup:gssapi - Enable GSSAPI support
 net-libs/libsoup:samba - Use net-fs/samba for NTLM Single Sign-On
 net-libs/libsrtp:aesicm - Use AES ICM cryptographic algorithm
 net-libs/libsrtp:console - Use /dev/console instead of stdout for error messages
@@ -5868,7 +5875,6 @@ net-libs/webkit-gtk:coverage - Enable code coverage support
 net-libs/webkit-gtk:egl - Enable EGL support.
 net-libs/webkit-gtk:geoloc - Enable geolocation support through app-misc/geoclue
 net-libs/webkit-gtk:gles2 - Enable GLESv2 support.
-net-libs/webkit-gtk:libsecret - Enable libsecret support to store login credentials
 net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
 net-libs/wt:extjs - Build Wt Ext library with JavaScript-only widgets (http://extjs.com/)
 net-libs/wt:fcgi - Compile in FCGI connector

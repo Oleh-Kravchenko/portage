@@ -187,3 +187,11 @@
 
   Package-Manager: portage-2.2.26
 
+*rspec-expectations-3.5.0 (03 Jul 2016)
+
+  03 Jul 2016; Hans de Graaff <graaff@gentoo.org>
+  +rspec-expectations-3.5.0.ebuild:
+  add rspec 3.5
+
+  Package-Manager: portage-2.2.28
+

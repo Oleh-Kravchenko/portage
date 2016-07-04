@@ -132,3 +132,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  02 Jul 2016; Zac Medico <zmedico@gentoo.org> geany-1.27.ebuild:
+  add ${EPREFIX} to econf --docdir argument
+
+  Package-Manager: portage-2.3.0
+

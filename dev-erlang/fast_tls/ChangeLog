@@ -15,3 +15,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  03 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> fast_tls-1.0.3.ebuild:
+  dev-erlang: Add ~ia64 and ~sparc keywords back
+
+  These packages have been debundled from ejabberd which used to have
+  ~ia64 ~sparc keywords. These had to be removed temporarily until
+  dev-util/rebar has these keywords.
+

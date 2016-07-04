@@ -1,0 +1,24 @@
+# ChangeLog for media-video/obs-studio
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*obs-studio-9999 (03 Jul 2016)
+*obs-studio-0.14.2 (03 Jul 2016)
+
+  03 Jul 2016; Patrice Clement <monsieurp@gentoo.org> +metadata.xml,
+  +obs-studio-0.14.2.ebuild, +obs-studio-9999.ebuild:
+  New package.
+
+  OBS Studio provides a simple to use Qt5 user interface for video and
+  audio capturing, including live-streaming them to on-line services
+  such as Twitch.tv.
+
+  Base for ebuild from https://github.com/saintdev/obs-studio-overlay.
+
+  Gentoo-Bug: https://bugs.gentoo.org/575226
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1690
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -166,3 +166,9 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  03 Jul 2016; Jeroen Roovers <jer@gentoo.org> exiv2-0.25-r2.ebuild:
+  Stable for HPPA (bug #565826).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

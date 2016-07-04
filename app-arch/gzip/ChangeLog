@@ -116,3 +116,17 @@
 
   Package-Manager: portage-2.3.0
 
+  03 Jul 2016; Jeroen Roovers <jer@gentoo.org> gzip-1.8.ebuild:
+  Stable for HPPA PPC64 (bug #587592).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  03 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/gzip-1.4-assembler.patch, -files/gzip-1.4-no-gets.patch:
+  remove unused patches
+
+  Closes: https://github.com/gentoo/gentoo/pull/1812
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

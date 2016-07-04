@@ -218,3 +218,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  03 Jul 2016; Pacho Ramos <pacho@gentoo.org> -goffice-0.10.27.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*goffice-0.10.31 (03 Jul 2016)
+
+  03 Jul 2016; Pacho Ramos <pacho@gentoo.org> +goffice-0.10.31.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -498,3 +498,73 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  02 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.1.9999.ebuild, libreoffice-5.2.9999.ebuild,
+  libreoffice-9999.ebuild:
+  Sort and cleanup *DEPENDs
+
+  Package-Manager: portage-2.2.28
+
+  02 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.1.9999.ebuild, libreoffice-5.2.9999.ebuild,
+  libreoffice-9999.ebuild, metadata.xml:
+  Add USE=google, GAPI auth for gdrive integration
+
+  Existing ID and secret taken from www-client/chromium
+
+  Gentoo-bug: 584168
+
+  02 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.1.9999.ebuild, libreoffice-5.2.9999.ebuild,
+  libreoffice-9999.ebuild:
+  Drop EXT_URI and old comment
+
+  That stuff was apparently last used in 3.4.4.2, URI works but contains
+  downloads that haven't been updated in 5 years.
+
+  Package-Manager: portage-2.2.28
+
+  02 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.1.9999.ebuild, libreoffice-5.2.9999.ebuild,
+  libreoffice-9999.ebuild:
+  Exclude clang from GCC version check
+
+  Gentoo-bug: 460902
+
+  Package-Manager: portage-2.2.28
+
+  02 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.2.9999.ebuild, libreoffice-9999.ebuild:
+  Old crashdump option removed in master
+
+  Package-Manager: portage-2.2.28
+
+*libreoffice-5.1.4.2 (02 Jul 2016)
+
+  02 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +libreoffice-5.1.4.2.ebuild:
+  Version bump to 5.1.4.2
+
+  Package-Manager: portage-2.2.28
+
+  02 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.1.4.2.ebuild, libreoffice-5.1.9999.ebuild,
+  libreoffice-5.2.9999.ebuild, libreoffice-9999.ebuild:
+  Fix automagic dependency on gnome-base/dconf, bug 582632
+
+  Package-Manager: portage-2.3.0
+
+  03 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.1.9999.ebuild, libreoffice-5.2.9999.ebuild,
+  libreoffice-9999.ebuild, metadata.xml:
+  Optionally enable the system tray quickstarter, bug 561842
+
+  Package-Manager: portage-2.3.0
+
+  03 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/libreoffice-5.1.4.2-gcc6.patch, libreoffice-5.1.4.2.ebuild,
+  libreoffice-5.1.9999.ebuild:
+  Fix build with gcc-6, bug 584892
+
+  Package-Manager: portage-2.3.0
+

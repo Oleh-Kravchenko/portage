@@ -333,3 +333,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  03 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -harfbuzz-1.2.6.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

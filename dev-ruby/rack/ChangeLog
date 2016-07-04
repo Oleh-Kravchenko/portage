@@ -221,3 +221,8 @@
 
   Package-Manager: portage-2.2.28
 
+  03 Jul 2016; Hans de Graaff <graaff@gentoo.org> rack-2.0.1.ebuild:
+  add missing slot to blocker
+
+  Package-Manager: portage-2.2.28
+

@@ -171,3 +171,9 @@
 
   Package-Manager: portage-2.3.0
 
+  03 Jul 2016; Jeroen Roovers <jer@gentoo.org> pidgin-2.11.0.ebuild:
+  Stable for HPPA (bug #586698).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
