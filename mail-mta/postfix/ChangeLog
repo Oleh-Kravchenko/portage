@@ -453,3 +453,16 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*postfix-3.2_pre20160612-r1 (04 Jul 2016)
+*postfix-3.1.1-r2 (04 Jul 2016)
+*postfix-3.1.0-r1 (04 Jul 2016)
+
+  04 Jul 2016; Patrick Lauer <patrick@gentoo.org> -postfix-3.1.0.ebuild,
+  +postfix-3.1.0-r1.ebuild, -postfix-3.1.1-r1.ebuild,
+  +postfix-3.1.1-r2.ebuild, -postfix-3.2_pre20160612.ebuild,
+  +postfix-3.2_pre20160612-r1.ebuild:
+  Don't screw user config in pkg_config #587496
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --force
+

@@ -93,3 +93,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  03 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  django-tastypie-0.13.3.ebuild:
+  bump ebuild copyright year
+
+  Package-Manager: portage-2.2.28
+

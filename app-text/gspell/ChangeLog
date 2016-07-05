@@ -71,3 +71,10 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Jul 2016; Tobias Klausmann <klausman@gentoo.org> gspell-1.0.2.ebuild:
+  1.0.2-r0: add ~alpha keyword
+
+  Gentoo-Bug: 587368
+
+  Package-Manager: portage-2.3.0
+

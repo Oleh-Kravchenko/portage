@@ -129,3 +129,7 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="alpha"
 
+  04 Jul 2016; Mart Raudsepp <leio@gentoo.org> -gst-plugins-cdio-1.6.1.ebuild,
+  -gst-plugins-cdio-1.6.2.ebuild:
+  media-libs/gst-plugins-ugly and its splits: Drop old
+

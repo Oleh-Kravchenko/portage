@@ -204,3 +204,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Jul 2016; Steev Klimaszewski <steev@gentoo.org> criu-2.3.ebuild:
+  Fix passing arch to fix build on arm64
+
+  Upstream wants to do the aarch64 replacement themselves, so don't pass
+  aarch64
+  in the ebuild, otherwise we end up with the following type error:
+
+  make -j8 -l10 CC=aarch64-unknown-linux-gnu-gcc LD=aarch64-unknown-linux-gnu-
+  ld OBJCOPY=aarch64-unknown-linux-gnu-objcopy LIBDIR=/usr/lib64 ARCH=aarch64
+  V=1 WERROR=0 DEBUG=0 SETPROCTITLE=no PYCRIU=no all docs
+  Makefile:29: *** "The architecture aarch64 isn't supported".  Stop.
+
+  Package-Manager: portage-2.3.0
+

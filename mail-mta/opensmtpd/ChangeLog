@@ -211,3 +211,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*opensmtpd-5.9.2.201607021504_p1 (04 Jul 2016)
+
+  04 Jul 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  -opensmtpd-5.9.2.201606220754_p1.ebuild,
+  +opensmtpd-5.9.2.201607021504_p1.ebuild:
+  snapshot version bump
+
+  Package-Manager: portage-2.3.0
+

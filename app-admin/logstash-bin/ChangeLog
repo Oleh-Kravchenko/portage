@@ -242,3 +242,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> -logstash-bin-2.2.4.ebuild,
+  -logstash-bin-2.3.1.ebuild:
+  drop old
+
+  Package-Manager: portage-2.3.0
+
+  04 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> logstash-bin-2.3.3.ebuild,
+  metadata.xml:
+  add support for all-plugins distribution
+
+  Package-Manager: portage-2.3.0
+

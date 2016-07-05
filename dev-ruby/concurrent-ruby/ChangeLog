@@ -43,3 +43,13 @@
 
   Package-Manager: portage-2.2.26
 
+*concurrent-ruby-1.0.2-r1 (04 Jul 2016)
+
+  04 Jul 2016; Hans de Graaff <graaff@gentoo.org>
+  +concurrent-ruby-1.0.2-r1.ebuild, +files/concurrent-ruby-1.0.2-alpha.patch:
+  add patch for alpha, bug 587986
+
+  Add a patch for alpha to determine processor_count.
+
+  Package-Manager: portage-2.2.28
+

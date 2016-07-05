@@ -98,3 +98,9 @@
 
   Package-Manager: portage-2.2.28
 
+  03 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  myspell-ru-20150711-r1.ebuild:
+  bump ebuild copyright year
+
+  Package-Manager: portage-2.2.28
+

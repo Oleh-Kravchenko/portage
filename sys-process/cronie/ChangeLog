@@ -101,3 +101,10 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  04 Jul 2016; Tobias Klausmann <klausman@gentoo.org> cronie-1.5.0-r1.ebuild:
+  1.5.0-r1: add alpha keyword
+
+  Gentoo-Bug: 587796
+
+  Package-Manager: portage-2.3.0
+

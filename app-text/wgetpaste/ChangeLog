@@ -70,3 +70,13 @@
 
   Package-Manager: portage-2.2.27
 
+*wgetpaste-2.27 (04 Jul 2016)
+
+  04 Jul 2016; Maxim Koltsov <maksbotan@gentoo.org> metadata.xml,
+  -wgetpaste-2.22.ebuild, -wgetpaste-2.25-r2.ebuild, +wgetpaste-2.27.ebuild:
+  bump to 2.27, clean old
+
+  Gentoo-Bug: 577242
+
+  Package-Manager: portage-2.3.0
+

@@ -177,3 +177,39 @@
   Closes: https://github.com/gentoo/gentoo/pull/1678
   Package-Manager: portage-2.3.0_rc1
 
+*nftables-0.6 (03 Jul 2016)
+
+  03 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  files/nftables-0.5-pdf-doc.patch, +nftables-0.6.ebuild:
+  version bump to 0.6
+
+  Fixes bug #584898 and updates the nftables-0.5-pdf-doc.patch to match
+  upstream submission.
+
+  Gentoo-bug: 584898
+  Package-Manager: portage-2.3.0_rc1
+
+  03 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> -files/nftables.init,
+  -files/nftables.init-r1, -files/systemd/nftables-restore.service,
+  -files/systemd/nftables-store.service, -files/systemd/nftables.service,
+  -nftables-0.5-r4.ebuild:
+  Remove outdated files
+
+  Package-Manager: portage-2.3.0_rc1
+
+*nftables-0.6-r1 (03 Jul 2016)
+
+  03 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> files/libexec/nftables.sh,
+  +files/nftables.init, -files/nftables.init-r2,
+  +files/systemd/nftables-restore.service, -nftables-0.6.ebuild,
+  +nftables-0.6-r1.ebuild:
+  Update support & service files
+
+      - remove extraneous "exit $?" from files/libexec/nftables.sh
+      - rename nftables.init-r2 to nftables.init
+      - recreate & rewrite files/systemd/nftables.service into a proper
+  systemd service
+      - Update nftables-0.6.ebuild to use new file names.
+
+  Package-Manager: portage-2.3.0_rc1
+

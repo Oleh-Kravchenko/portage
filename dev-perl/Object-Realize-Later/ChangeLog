@@ -87,3 +87,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Jul 2016; Tobias Klausmann <klausman@gentoo.org>
+  Object-Realize-Later-0.190.0.ebuild:
+  0.190.0-r0: add ~alpha keyword
+
+  Gentoo-Bug: 587560
+

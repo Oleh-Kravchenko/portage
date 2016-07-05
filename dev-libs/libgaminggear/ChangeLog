@@ -97,3 +97,9 @@
   Closes: https://github.com/gentoo/gentoo/pull/1456
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  03 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  libgaminggear-0.11.2.ebuild:
+  bump ebuild copyright year
+
+  Package-Manager: portage-2.2.28
+

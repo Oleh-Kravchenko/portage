@@ -113,3 +113,11 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  04 Jul 2016; Tobias Klausmann <klausman@gentoo.org>
+  autotrace-0.31.1-r7.ebuild:
+  0.31.1-r7: add alpha keyword
+
+  Gentoo-Bug: 466078
+
+  Package-Manager: portage-2.3.0
+

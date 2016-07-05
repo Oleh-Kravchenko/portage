@@ -186,3 +186,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  04 Jul 2016; Tobias Klausmann <klausman@gentoo.org> dnsmasq-2.76.ebuild:
+  2.76-r0: add alpha keyword
+
+  Gentoo-Bug: 585280
+
+  Package-Manager: portage-2.3.0
+
