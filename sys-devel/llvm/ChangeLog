@@ -648,3 +648,19 @@
   llvm-9999.ebuild:
   Improve cross-compiler support, #442958
 
+  05 Jul 2016; Michał Górny <mgorny@gentoo.org>
+  -files/clang-3.7-strip_doc_refs.patch, -files/llvm-2.7-nodoctargz.patch,
+  -files/llvm-2.9-nodoctargz.patch, -files/llvm-3.3-gentoo-install.patch,
+  -files/llvm-3.3-insecure-rpath.patch, -files/llvm-3.4-fix_varargs.patch,
+  -files/llvm-3.7-nodoctargz.patch:
+  Clean up obsolete patches
+
+  05 Jul 2016; Michał Górny <mgorny@gentoo.org>
+  -files/clang-3.1-gentoo-runtime-gcc-detection-v3.patch,
+  -files/clang-3.4-darwin_build_fix.patch,
+  -files/clang-3.4-gentoo-install.patch,
+  -files/llvm-3.3-cmake-modulepath.patch,
+  -files/llvm-3.4-cmake-configparser.patch,
+  -files/llvm-3.4-gentoo-install.patch, -llvm-3.4.2.ebuild, metadata.xml:
+  Drop 3.4.2
+

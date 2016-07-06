@@ -175,3 +175,18 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  05 Jul 2016; Michael Weber <xmw@gentoo.org> -pycharm-community-3.4.1.ebuild,
+  -pycharm-community-4.0.6.ebuild, -pycharm-community-4.5.4.ebuild,
+  -pycharm-community-5.0.4.ebuild, -pycharm-community-2016.1.2.ebuild:
+  Drop old.
+
+  Package-Manager: portage-2.2.28
+
+*pycharm-community-2016.1.4 (05 Jul 2016)
+
+  05 Jul 2016; Michael Weber <xmw@gentoo.org>
+  +pycharm-community-2016.1.4.ebuild:
+  Version bump (bug 584740), update to readme.gentoo-r1 (bug 582438).
+
+  Package-Manager: portage-2.2.28
+

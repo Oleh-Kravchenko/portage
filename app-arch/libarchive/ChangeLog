@@ -198,3 +198,17 @@
 
   Package-Manager: portage-2.2.28
 
+*libarchive-3.2.1-r3 (05 Jul 2016)
+
+  05 Jul 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +files/libarchive-3.2.1-osx-fix-acl.patch, -libarchive-3.2.1-r2.ebuild,
+  +libarchive-3.2.1-r3.ebuild:
+  Add src_prepare w/ eautoreconf, fix OSX acl #587890
+
+  Package-Manager: portage-2.2.28
+
+  05 Jul 2016; NP-Hardass <NP-Hardass@gentoo.org> libarchive-3.2.1-r3.ebuild:
+  Add comment
+
+  Package-Manager: portage-2.2.28
+

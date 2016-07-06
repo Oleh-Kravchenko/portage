@@ -244,3 +244,6 @@
   27 Jun 2016; Austin English <wizardedit@gentoo.org> metadata.xml:
   sys-devel/{clang,llvm}: add myself as maintainer
 
+  05 Jul 2016; Michał Górny <mgorny@gentoo.org> -clang-3.4.2-r100.ebuild:
+  Remove 3.4.2
+

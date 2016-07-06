@@ -215,3 +215,10 @@
   -files/timezone-data-2016a-makefile.patch, -timezone-data-2016c.ebuild:
   drop old <2016d versions
 
+*timezone-data-2016f (05 Jul 2016)
+
+  05 Jul 2016; Dirkjan Ochtman <djc@gentoo.org> +timezone-data-2016f.ebuild:
+  version bump to 2016f
+
+  Package-Manager: portage-2.2.28
+

@@ -157,3 +157,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*erlang-19.0 (05 Jul 2016)
+
+  05 Jul 2016; Dirkjan Ochtman <djc@gentoo.org> +erlang-19.0.ebuild:
+  version bump to 19.0 (fixes bug 586730)
+
+  Package-Manager: portage-2.2.28
+

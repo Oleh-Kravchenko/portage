@@ -310,3 +310,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*plasma-mediacenter-5.7.0 (05 Jul 2016)
+
+  05 Jul 2016; Johannes Huber <johu@gentoo.org>
+  +plasma-mediacenter-5.7.0.ebuild:
+  kde-plasma: Version bump KDE Plasma 5.7.0
+
+  Package-Manager: portage-2.3.0
+

@@ -30,6 +30,17 @@
 
 #--- END OF EXAMPLES ---
 
+# Alexey Korepanov <kaikaikai@yandex.ru> (5 Jul 2016)
+# net-p2p/syncthing-relaysrv has been merged into net-p2p/syncthing
+# both upstream and in Gentoo.
+# Removal in 30 days.
+net-p2p/syncthing-relaysrv
+
+# Agostino Sarubbo <ago@gentoo.org> (5 Jul 2016)
+# Dead upstream and fails to compile, wrt bug #587766
+# Masked for removal in 30 days.
+app-mobilephone/freesmee
+
 # Andreas K. Hüttel <dilfridge@gentoo.org> (3 Jul 2016)
 # One of the last reverse dependencies of the deprecated libgnomeprint*
 # libs and some others; unmaintained; obsolete version.
@@ -262,11 +273,6 @@ dev-util/filepp
 dev-util/kdoc
 dev-util/skelgen
 dev-util/ftncheck
-
-# Aaron Bauman <bman@gentoo.org> (5 Jun 2016)
-# Unpatched security vulnerability and dead upstream
-# per bug #500970.  Removal in 30 days
-sys-apps/9base
 
 # Hans de Graaff <graaff@gentoo.org> (4 Jun 2016)
 # Name-versioned dependency that was not used in any

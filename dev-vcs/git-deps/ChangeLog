@@ -15,3 +15,14 @@
 
   Package-Manager: portage-2.2.28
 
+  05 Jul 2016; Nicolas Bock <nicolasbock@gentoo.org> git-deps-9999.ebuild:
+  Added instructions for html pages
+
+  Package-Manager: portage-2.2.28
+
+  05 Jul 2016; Nicolas Bock <nicolasbock@gentoo.org>
+  +files/html_location.patch, git-deps-9999.ebuild:
+  Add patch for html pages
+
+  Package-Manager: portage-2.2.28
+

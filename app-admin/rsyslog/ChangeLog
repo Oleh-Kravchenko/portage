@@ -309,3 +309,10 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  05 Jul 2016; Yixun Lan <dlan@gentoo.org> rsyslog-8.19.0.ebuild:
+  pp-admin/rsyslog: keyword ~arm64
+
+  Gentoo-Bug: 587688
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -220,3 +220,14 @@
 
   Package-Manager: portage-2.3.0
 
+*opensmtpd-5.9.2.201607021504_p1-r1 (05 Jul 2016)
+*opensmtpd-5.9.2_p1-r2 (05 Jul 2016)
+
+  05 Jul 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  -opensmtpd-5.9.2_p1.ebuild, opensmtpd-5.9.2_p1-r1.ebuild,
+  +opensmtpd-5.9.2_p1-r2.ebuild, -opensmtpd-5.9.2.201607021504_p1.ebuild,
+  +opensmtpd-5.9.2.201607021504_p1-r1.ebuild:
+  bring back makemap and newaliases
+
+  Package-Manager: portage-2.3.0
+

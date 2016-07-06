@@ -603,3 +603,9 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Jul 2016; Jeroen Roovers <jer@gentoo.org> wireshark-2.1.0.ebuild,
+  wireshark-99999999.ebuild:
+  Clean up USE flags / configure options (bug #587922).
+
+  Package-Manager: portage-2.3.0
+

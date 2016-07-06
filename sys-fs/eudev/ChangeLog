@@ -272,3 +272,8 @@
 
   Package-Manager: portage-2.2.28
 
+  05 Jul 2016; Anthony G. Basile <blueness@gentoo.org> eudev-4.9999.ebuild:
+  update configure --prefix
+
+  Package-Manager: portage-2.2.28
+

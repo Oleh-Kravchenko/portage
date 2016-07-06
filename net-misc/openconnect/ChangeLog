@@ -194,3 +194,25 @@
 
   Package-Manager: portage-2.2.28_p106
 
+  05 Jul 2016; Mike Gilbert <floppym@gentoo.org> openconnect-9999.ebuild:
+  ebuild improvements
+
+  EAPI=6.
+  Drop linguas from IUSE.
+  Move python_setup from pkg_setup to src_configure.
+
+  Package-Manager: portage-2.3.0_p11
+
+*openconnect-7.06_p20160614 (05 Jul 2016)
+
+  05 Jul 2016; William Hubbs <williamh@gentoo.org>
+  +openconnect-7.06_p20160614.ebuild:
+  add 20160614 snapshot release
+
+  The date of this snapshot is taken from the upstream git log; it is the
+  date of the most recent commit when the snapshot was created.
+
+  This snapshot includes several upstream changes since the last release.
+
+  Package-Manager: portage-2.2.28
+

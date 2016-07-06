@@ -218,3 +218,11 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Jul 2016; Yixun Lan <dlan@gentoo.org> criu-2.3.ebuild,
+  +files/2.3/criu-2.3-aarch64.patch:
+  revert to ARCH=aarch64
+
+  upstream try to parse ARCH=arm64, but internally still using ARCH=aarch64
+
+  Package-Manager: portage-2.3.0_rc1
+

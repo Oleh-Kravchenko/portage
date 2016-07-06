@@ -248,3 +248,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  05 Jul 2016; Markus Meier <maekke@gentoo.org> gd-2.2.2.ebuild:
+  arm stable, bug #581942
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

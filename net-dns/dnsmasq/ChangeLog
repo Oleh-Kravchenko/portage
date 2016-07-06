@@ -193,3 +193,9 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Jul 2016; Markus Meier <maekke@gentoo.org> dnsmasq-2.76.ebuild:
+  arm stable, bug #585280
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

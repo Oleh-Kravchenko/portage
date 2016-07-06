@@ -731,3 +731,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*nvidia-drivers-361.45.18 (05 Jul 2016)
+
+  05 Jul 2016; Jeroen Roovers <jer@gentoo.org>
+  +nvidia-drivers-361.45.18.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

@@ -106,3 +106,9 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Jul 2016; Tobias Klausmann <klausman@gentoo.org>
+  povray-3.7.0.0-r1.ebuild:
+  3.7.0.0-r1: add alpha keyword
+
+  Gentoo-Bug: 550018
+

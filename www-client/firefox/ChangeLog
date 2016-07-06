@@ -768,3 +768,14 @@
 
   Package-Manager: portage-2.2.28
 
+  05 Jul 2016; Jeroen Roovers <jer@gentoo.org> firefox-38.7.0.ebuild,
+  firefox-38.8.0.ebuild, firefox-45.2.0.ebuild, firefox-47.0.ebuild:
+  Drop HPPA keywording (bug #588044).
+
+  Package-Manager: portage-2.3.0
+
+  05 Jul 2016; Jeroen Roovers <jer@gentoo.org> -files/jit-none-branch64.patch:
+  Drop unused patch.
+
+  Package-Manager: portage-2.3.0
+

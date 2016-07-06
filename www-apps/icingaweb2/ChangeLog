@@ -170,3 +170,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  05 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  icingaweb2-2.2.0.ebuild, icingaweb2-2.3.2.ebuild, icingaweb2-2.3.3.ebuild,
+  icingaweb2-2.3.4.ebuild, icingaweb2-9999.ebuild:
+  fixing bug 587964 (apache vs apache2 user)
+
+  Package-Manager: portage-2.2.28
+

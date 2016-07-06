@@ -119,3 +119,10 @@
   02 May 2016; Matt Turner <mattst88@gentoo.org> json-c-0.12.ebuild:
   alpha stable, bug 507218.
 
+  05 Jul 2016; Yixun Lan <dlan@gentoo.org> json-c-0.12.ebuild:
+  keyword ~arm64
+
+  Gentoo-Bug: 587690
+
+  Package-Manager: portage-2.3.0_rc1
+

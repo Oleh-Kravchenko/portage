@@ -100,3 +100,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  05 Jul 2016; Yixun Lan <dlan@gentoo.org> libestr-0.1.10.ebuild:
+  keyword ~arm64
+
+  Gentoo-Bug: 587692
+
+  Package-Manager: portage-2.3.0_rc1
+

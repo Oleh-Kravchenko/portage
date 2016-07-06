@@ -104,3 +104,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --ignore-arches
 
+  05 Jul 2016; Yixun Lan <dlan@gentoo.org> liblogging-1.0.5.ebuild:
+  keyword ~arm64
+
+  Gentoo-Bug: 587684
+
+  Package-Manager: portage-2.3.0_rc1
+

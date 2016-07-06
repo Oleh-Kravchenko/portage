@@ -124,3 +124,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*kismet-2016.07.1 (05 Jul 2016)
+
+  05 Jul 2016; Zero_Chaos <zerochaos@gentoo.org> +kismet-2016.07.1.ebuild:
+  new release with minor fixes for tinfo and channel setting
+
+  Package-Manager: portage-2.3.0_rc1
+

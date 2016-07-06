@@ -13,3 +13,7 @@
   Closes: https://github.com/gentoo/gentoo/pull/1525
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  05 Jul 2016; Dirkjan Ochtman <djc@gentoo.org>
+  files/syncthing-relaysrv.confd, files/syncthing-relaysrv.initd:
+  mask for removal
+
