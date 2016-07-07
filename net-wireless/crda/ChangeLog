@@ -119,3 +119,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  06 Jul 2016; Agostino Sarubbo <ago@gentoo.org> crda-3.18-r1.ebuild:
+  ppc stable wrt bug #582076
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -257,3 +257,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  05 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> ganeti-2.15.2-r4.ebuild:
+  add upstream stable tweak
+
+  Upstream commit b3c0fb0b allows slightly more versions of json & lens.
+
+  X-URL: http://git.ganeti.org/?p=ganeti.git;a=commit;h=b3c0fb0b
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
+

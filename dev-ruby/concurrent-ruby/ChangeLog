@@ -65,3 +65,9 @@
 
   Gentoo-Bug: 587756
 
+  06 Jul 2016; Hans de Graaff <graaff@gentoo.org>
+  concurrent-ruby-1.0.2-r1.ebuild:
+  also keyword latest revision for alpha
+
+  Package-Manager: portage-2.2.28
+

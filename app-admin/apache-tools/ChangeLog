@@ -225,3 +225,33 @@
   apache-tools-2.4.18.ebuild, apache-tools-2.4.20.ebuild:
   apache: switch to https:// URI
 
+*apache-tools-2.4.23 (06 Jul 2016)
+
+  06 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +apache-tools-2.4.23.ebuild:
+  Bump to version 2.4.23 (bug #588138).
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  06 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -apache-tools-2.4.18.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  06 Jul 2016; Agostino Sarubbo <ago@gentoo.org> apache-tools-2.4.23.ebuild:
+  amd64 stable wrt bug #588138
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  06 Jul 2016; Agostino Sarubbo <ago@gentoo.org> apache-tools-2.4.23.ebuild:
+  x86 stable wrt bug #588138
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

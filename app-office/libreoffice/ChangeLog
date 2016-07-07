@@ -568,3 +568,9 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.1.4.2.ebuild:
+  Optionally enable quickstarter in 5.1.4.2 already
+
+  Package-Manager: portage-2.3.0
+

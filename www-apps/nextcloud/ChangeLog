@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*nextcloud-9.0.52 (06 Jul 2016)
+
+  06 Jul 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +nextcloud-9.0.52.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0
+

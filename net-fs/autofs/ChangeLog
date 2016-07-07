@@ -149,3 +149,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  05 Jul 2016; Yixun Lan <dlan@gentoo.org> autofs-5.1.2.ebuild,
+  +files/autofs-5.1.2-libtirpc-as-need.patch:
+  fix --as-need issue USE=libtirpc
+
+  thanks Martin von Gagern for reporting & the patch
+
+  http://wiki.gentoo.org/wiki/Project:Quality_Assurance/As-needed
+
+  Gentoo-Bug: 588106
+
+  Package-Manager: portage-2.3.0_rc1
+

@@ -142,3 +142,10 @@
 
   Package-Manager: portage-2.2.28
 
+*ox-2.4.3 (06 Jul 2016)
+
+  06 Jul 2016; Hans de Graaff <graaff@gentoo.org> +ox-2.4.3.ebuild:
+  add 2.4.3
+
+  Package-Manager: portage-2.2.28
+

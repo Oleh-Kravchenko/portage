@@ -293,3 +293,19 @@
 
   Package-Manager: portage-2.3.0
 
+*kwallet-pam-5.7.0-r1 (06 Jul 2016)
+*kwallet-pam-5.6.5-r1 (06 Jul 2016)
+
+  06 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  -kwallet-pam-5.6.5.ebuild, +kwallet-pam-5.6.5-r1.ebuild,
+  -kwallet-pam-5.7.0.ebuild, +kwallet-pam-5.7.0-r1.ebuild:
+  export explicit src_test
+
+  The default phase causes BUILD_DIR to be overwritten with an incorrect
+  value,
+  breaking the multibuild configuration causing one build to not be installed.
+
+  Gentoo-bug: 588136
+
+  Package-Manager: portage-2.3.0
+

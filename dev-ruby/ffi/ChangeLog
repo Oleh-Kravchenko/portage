@@ -104,3 +104,10 @@
 
   Package-Manager: portage-2.2.26
 
+*ffi-1.9.12 (06 Jul 2016)
+
+  06 Jul 2016; Hans de Graaff <graaff@gentoo.org> +ffi-1.9.12.ebuild:
+  add 1.9.12
+
+  Package-Manager: portage-2.2.28
+

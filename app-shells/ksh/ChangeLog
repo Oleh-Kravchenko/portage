@@ -98,3 +98,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Jul 2016; Agostino Sarubbo <ago@gentoo.org> ksh-93.20140625.ebuild:
+  ppc stable wrt bug #580346
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

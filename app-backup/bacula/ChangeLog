@@ -163,3 +163,12 @@
 
   Package-Manager: portage-2.3.0
 
+*bacula-7.0.5-r2 (06 Jul 2016)
+*bacula-5.2.13-r5 (06 Jul 2016)
+
+  06 Jul 2016; Thomas Beierlein <tomjbe@gentoo.org> +bacula-5.2.13-r5.ebuild,
+  +bacula-7.0.5-r2.ebuild:
+  Backport fixes from bug #584442 to let bacula-dir start under systemd
+
+  Package-Manager: portage-2.3.0
+
