@@ -64,3 +64,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*tmpwatch-2.11-r2 (07 Jul 2016)
+
+  07 Jul 2016; Austin English <wizardedit@gentoo.org> metadata.xml,
+  +tmpwatch-2.11-r2.ebuild:
+  bump to EAPI 6, add maintainer-needed
+
+  Package-Manager: portage-2.2.28
+

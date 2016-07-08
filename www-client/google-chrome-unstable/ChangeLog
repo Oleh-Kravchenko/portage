@@ -599,3 +599,11 @@
 
   Package-Manager: portage-2.3.0_p7
 
+  07 Jul 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-unstable-53.0.2783.2.ebuild, metadata.xml:
+  drop l10n_fake-bidi
+
+  Bug: https://bugs.gentoo.org/588198
+
+  Package-Manager: portage-2.3.0_p11
+

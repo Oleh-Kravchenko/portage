@@ -351,3 +351,20 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+  07 Jul 2016; Pacho Ramos <pacho@gentoo.org> -networkmanager-1.0.12.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+
+*networkmanager-1.2.2 (07 Jul 2016)
+
+  07 Jul 2016; Pacho Ramos <pacho@gentoo.org> +networkmanager-1.2.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+
+  07 Jul 2016; Pacho Ramos <pacho@gentoo.org> networkmanager-1.2.2.ebuild:
+  Drop unused eclass
+
+  Package-Manager: portage-2.3.0
+

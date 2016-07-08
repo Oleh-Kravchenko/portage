@@ -198,3 +198,9 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  07 Jul 2016; Tobias Klausmann <klausman@gentoo.org>
+  uchardet-0.0.5-r1.ebuild:
+  0.0.5-r1: add alpha keyword
+
+  Gentoo-Bug: 581200
+

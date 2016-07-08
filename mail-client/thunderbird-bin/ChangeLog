@@ -252,3 +252,14 @@
 
   Closes: https://github.com/gentoo/gentoo/pull/1666
 
+*thunderbird-bin-45.2.0 (06 Jul 2016)
+
+  06 Jul 2016; Ian Stakenvicius <axs@gentoo.org>
+  -thunderbird-bin-45.1.1.ebuild, +thunderbird-bin-45.2.0.ebuild:
+  version bump, migrate LINGUAS to L10N
+
+  Bug: http://bugs.gentoo.org/588072
+  Bug: http://bugs.gentoo.org/587334
+
+  Package-Manager: portage-2.2.28
+

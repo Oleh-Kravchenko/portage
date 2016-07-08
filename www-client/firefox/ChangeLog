@@ -779,3 +779,35 @@
 
   Package-Manager: portage-2.3.0
 
+  06 Jul 2016; Ian Stakenvicius <axs@gentoo.org> firefox-47.0.ebuild:
+  migrate LINGUAS to L10N
+
+  Bug: http://bugs.gentoo.org/587334
+
+  Package-Manager: portage-2.2.28
+
+*firefox-47.0.1 (06 Jul 2016)
+
+  06 Jul 2016; Ian Stakenvicius <axs@gentoo.org>
+  +files/firefox-47.0-crashreporter.patch,
+  +files/firefox-47.0-define-HUNSPELL_STATIC-conditionally.patch,
+  -firefox-47.0.ebuild, +firefox-47.0.1.ebuild:
+  minor version bump, fix musl
+
+  Bug: http://bugs.gentoo.org/585560
+
+  Package-Manager: portage-2.2.28
+
+  06 Jul 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-38.7.0.ebuild,
+  firefox-38.8.0.ebuild:
+  38.8: stabilize for ppc after AT timeout, drop 38.7
+
+  Bug: http://bugs.gentoo.org/581326
+
+  Package-Manager: portage-2.2.28
+
+  06 Jul 2016; Ian Stakenvicius <axs@gentoo.org> firefox-45.2.0.ebuild:
+  removed default-enable from IUSE=gtk3, too many issues
+
+  Package-Manager: portage-2.2.28
+

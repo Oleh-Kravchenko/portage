@@ -75,3 +75,8 @@
 
   Closes: https://github.com/gentoo/gentoo/pull/1702
 
+  07 Jul 2016; Austin English <wizardedit@gentoo.org> metadata.xml:
+  add maintainer-needed
+
+  Package-Manager: portage-2.2.28
+

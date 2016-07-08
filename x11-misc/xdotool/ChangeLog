@@ -86,3 +86,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*xdotool-3.20150503.1-r1 (07 Jul 2016)
+
+  07 Jul 2016; Austin English <wizardedit@gentoo.org> metadata.xml,
+  +xdotool-3.20150503.1-r1.ebuild:
+  bump to EAPI 6, add maintainer-needed
+
+  Package-Manager: portage-2.2.28
+

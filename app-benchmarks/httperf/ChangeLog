@@ -95,3 +95,12 @@
 
   Package-Manager: portage-2.2.28
 
+  07 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/httperf-0.8-optional-ssl.diff,
+  -files/httperf-0.8-respect-DESTDIR.diff:
+  remove unused patches
+
+  Closes: https://github.com/gentoo/gentoo/pull/1826
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

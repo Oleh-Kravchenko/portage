@@ -466,3 +466,16 @@
 
   Package-Manager: portage-2.2.28
 
+*thunderbird-45.2.0 (06 Jul 2016)
+
+  06 Jul 2016; Ian Stakenvicius <axs@gentoo.org> -thunderbird-45.1.1.ebuild,
+  +thunderbird-45.2.0.ebuild:
+  version bump, migrate LINGUAS to L10N
+
+  This will be the new stable candidate
+
+  Bug: http://bugs.gentoo.org/588072
+  Bug: http://bugs.gentoo.org/587334
+
+  Package-Manager: portage-2.2.28
+

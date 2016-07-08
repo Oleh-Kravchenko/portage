@@ -95,3 +95,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Test-LongString-0.150.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

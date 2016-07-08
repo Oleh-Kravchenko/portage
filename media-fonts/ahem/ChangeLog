@@ -62,3 +62,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  07 Jul 2016; Austin English <wizardedit@gentoo.org> ahem-1.0.ebuild,
+  metadata.xml:
+  add missing maintainer-needed, bump to EAPI 6
+
+  Package-Manager: portage-2.2.28
+

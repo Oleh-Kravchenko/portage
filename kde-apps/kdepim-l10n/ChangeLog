@@ -153,3 +153,11 @@
   kdepim-l10n-15.12.3.ebuild:
   Migrate to L10N
 
+  07 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  kdepim-l10n-4.4.11.1-r2.ebuild:
+  kde-apps: restore ~arm keyword on KDE4-based packages
+
+  07 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  kdepim-l10n-4.4.11.1-r2.ebuild, kdepim-l10n-4.14.3-r1.ebuild:
+  kde-apps: drop ~ppc/~ppc64 keyword
+

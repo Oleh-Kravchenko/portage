@@ -1210,3 +1210,20 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*mpv-0.17.0-r6 (07 Jul 2016)
+
+  07 Jul 2016; Yixun Lan <dlan@gentoo.org> +mpv-0.17.0-r6.ebuild:
+  backport two more patches for big memleaks in 0.17.0-r5
+
+  Backport patches for huge memleaks fixed after -r5 was added to the
+  tree. This revbump contains only very minor changes compared to -r5.
+  Thus there's no need to wait another 30 days prior to stabilization.
+
+  There will be no more revbumps for 0.17.0 because 0.18.0 is out and
+  this is the perfect time to stabilize 0.17.0.
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1776
+
+  Signed-off-by: Yixun Lan <dlan@gentoo.org>
+

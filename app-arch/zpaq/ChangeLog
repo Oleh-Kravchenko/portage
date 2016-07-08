@@ -78,3 +78,7 @@
   03 Jul 2016; Michał Górny <mgorny@gentoo.org> zpaq-7.13-r1.ebuild:
   Fix Hardened w/ USE=jit, #411521
 
+  07 Jul 2016; Michał Górny <mgorny@gentoo.org> -files/zpaq-4-autotools.patch,
+  -zpaq-6.53.ebuild, -zpaq-7.04.ebuild, -zpaq-7.13.ebuild:
+  Prune old
+

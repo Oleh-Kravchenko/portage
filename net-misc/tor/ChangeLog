@@ -239,3 +239,10 @@
 
   Package-Manager: portage-2.2.28
 
+*tor-0.2.8.5_rc (07 Jul 2016)
+
+  07 Jul 2016; Anthony G. Basile <blueness@gentoo.org> +tor-0.2.8.5_rc.ebuild:
+  version bump to 0.2.8.5_rc
+
+  Package-Manager: portage-2.2.28
+

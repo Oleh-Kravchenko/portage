@@ -1,0 +1,29 @@
+# ChangeLog for app-admin/needrestart
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*needrestart-9999 (07 Jul 2016)
+*needrestart-2.8 (07 Jul 2016)
+
+  07 Jul 2016; Patrice Clement <monsieurp@gentoo.org> +metadata.xml,
+  +needrestart-2.8.ebuild, +needrestart-9999.ebuild:
+  Add ebuild to the tree.
+
+  needrestart checks which daemons need to be restarted after library
+  upgrades.
+  It is inspired by checkrestart from the debian-goodies package.
+
+  needrestart supports but does not require systemd. If systemd is not
+  available
+  or does not return a service name needrestart uses hooks to identify the
+  corresponding System V init script. If a process inside a container (LXC,
+  docker) it suggests to restart the entire container. needrestart contains a
+  heuristic for different interpreter languages: it tries to detect if
+  outdated
+  script code/modules are in use (Java, Perl, Python, Ruby).
+
+  Gentoo-Bug: https://bugs.gentoo.org/588010
+  Closes: https://github.com/gentoo/gentoo/pull/1825
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

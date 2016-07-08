@@ -64,3 +64,11 @@
 
   Package-Manager: portage-2.3.0
 
+*colorsvn-0.3.2-r3 (07 Jul 2016)
+
+  07 Jul 2016; Austin English <wizardedit@gentoo.org>
+  +colorsvn-0.3.2-r3.ebuild:
+  update to EAPI 6
+
+  Package-Manager: portage-2.2.28
+
