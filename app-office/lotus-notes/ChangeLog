@@ -71,3 +71,8 @@
   package.mask, metadata: drop lotus-notes to maintainer-needed and mask for
   removal
 
+  07 Jul 2016; Austin English <wizardedit@gentoo.org> metadata.xml:
+  add maintainer-needed
+
+  Package-Manager: portage-2.2.28
+

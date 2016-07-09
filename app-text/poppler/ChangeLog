@@ -301,3 +301,24 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> poppler-0.42.0.ebuild:
+  ppc stable wrt bug #579752
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> poppler-0.42.0.ebuild:
+  sparc stable wrt bug #579752
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> poppler-0.42.0.ebuild:
+  ia64 stable wrt bug #579752
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

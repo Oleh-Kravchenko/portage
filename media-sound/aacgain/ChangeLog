@@ -88,3 +88,18 @@
 
   Package-Manager: portage-2.3.0
 
+*aacgain-1.9-r1 (07 Jul 2016)
+
+  07 Jul 2016; Austin English <wizardedit@gentoo.org> +aacgain-1.9-r1.ebuild,
+  metadata.xml:
+  bump to EAPI 6, add maintainer-needed
+
+  Package-Manager: portage-2.2.28
+
+  08 Jul 2016; Austin English <wizardedit@gentoo.org> aacgain-1.9-r1.ebuild:
+  fix path to mp4v2.patch
+
+  Gentoo-Bug: https://bugs.gentoo.org/588294
+
+  Package-Manager: portage-2.2.28
+

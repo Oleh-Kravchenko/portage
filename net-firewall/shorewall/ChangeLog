@@ -450,3 +450,14 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*shorewall-5.0.10 (08 Jul 2016)
+
+  08 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  +shorewall-5.0.10.ebuild:
+  version bump to v5.0.10.
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1844
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

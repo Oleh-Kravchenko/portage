@@ -1226,3 +1226,11 @@
 
   Package-Manager: portage-2.3.0_p11
 
+*chromium-53.0.2785.8 (08 Jul 2016)
+
+  08 Jul 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-53.0.2774.3.ebuild, +chromium-53.0.2785.8.ebuild:
+  dev channel bump (53.0.2785.8)
+
+  Package-Manager: portage-2.2.28
+

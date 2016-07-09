@@ -122,3 +122,8 @@
   files/litecoin.initd-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  08 Jul 2016; Anthony G. Basile <blueness@gentoo.org> metadata.xml:
+  transfer maintainership to Marc Popp
+
+  Package-Manager: portage-2.2.28
+

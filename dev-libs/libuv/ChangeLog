@@ -156,3 +156,11 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*libuv-1.9.1-r1 (08 Jul 2016)
+
+  08 Jul 2016; Austin English <wizardedit@gentoo.org> +libuv-1.9.1-r1.ebuild,
+  metadata.xml:
+  bump to EAPI 6, add maintainer-needed
+
+  Package-Manager: portage-2.2.28
+

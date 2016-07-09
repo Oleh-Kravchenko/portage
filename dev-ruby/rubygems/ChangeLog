@@ -177,3 +177,9 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Jul 2016; Markus Meier <maekke@gentoo.org> rubygems-2.5.2.ebuild:
+  arm stable, bug #586862
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

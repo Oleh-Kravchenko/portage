@@ -192,3 +192,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*classified-ads-0.11 (08 Jul 2016)
+
+  08 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  +classified-ads-0.11.ebuild:
+  version bump to 0.11.
+
+  Bugfixes and OpenSSL 1.1 API changes.
+
+  Package-Manager: portage-2.2.26
+  Closes: https://github.com/gentoo/gentoo/pull/1831
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -2931,6 +2931,7 @@ games-emulation/dolphin:log - Increase logging output
 games-emulation/dolphin:lto - Add support for link-time optimizations.
 games-emulation/fceux:logo - Enable the ability to add a logo screen when creating AVIs
 games-emulation/generator:sdlaudio - Enable SDL Audio
+games-emulation/higan:icarus - Build icarus library manager
 games-emulation/higan:profile_accuracy - Compile a binary optimized for accuracy
 games-emulation/higan:profile_balanced - Compile a binary with balanced optimization
 games-emulation/higan:profile_performance - Compile a binary optimized for performance
@@ -3270,8 +3271,6 @@ kde-apps/kdeartwork-kscreensaver:eigen - Enable various arithmetic screensavers 
 kde-apps/kdeartwork-kscreensaver:kexiv2 - Enable image rotation based on exif tags with libkexiv2.
 kde-apps/kdebase-data:wallpapers - Install the KDE wallpapers
 kde-apps/kdebase-kioslaves:sftp - Enable SFTP protocol support using net-libs/libssh
-kde-apps/kdebase-runtime-meta:crash-reporter - Builds a gui tool to submit crash information to the upstream backtracker
-kde-apps/kdebase-runtime-meta:minimal - Install a Plasma 5 compatible subset of the package
 kde-apps/kdebase-runtime-meta:oldwallet - Install kde-apps/kwalletd on a minimal setup for migration purposes
 kde-apps/kdecore-meta:minimal - Disable install of various KDE SC 4 based packages
 kde-apps/kdecore-meta:wallpapers - Install the KDE wallpapers
@@ -3279,7 +3278,6 @@ kde-apps/kdenetwork-meta:ppp - Enable support for net-dialup/ppp.
 kde-apps/kdenetwork-meta:telepathy - Enable build of kde-apps/plasma-telepathy-meta, otherwise kde-apps/kopete.
 kde-apps/kdenlive:gles2 - Use GLES 2.0 or later instead of full OpenGL
 kde-apps/kdepim-common-libs:google - Google service integration via net-libs/libkgapi
-kde-apps/kdepim-runtime:facebook - Facebook service integration via net-libs/libkfbapi
 kde-apps/kdepim-runtime:google - Google service integration via net-libs/libkgapi
 kde-apps/kdepimlibs:prison - Enable support for QRcodes in contacts
 kde-apps/kdeutils-meta:floppy - Install kde-apps/kfloppy to format and create DOS or ext2fs filesystems in a floppy.

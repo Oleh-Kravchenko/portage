@@ -96,3 +96,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*photoqt-1.4.1 (08 Jul 2016)
+
+  08 Jul 2016; Michael Palimaka <kensington@gentoo.org> +photoqt-1.4.1.ebuild:
+  version bump
+
+  Gentoo-bug: 588280
+
+  Package-Manager: portage-2.3.0
+
+  08 Jul 2016; Michael Palimaka <kensington@gentoo.org> -photoqt-1.3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

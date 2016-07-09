@@ -241,3 +241,15 @@
   kdebase-runtime-meta-4.14.3.ebuild:
   kde-apps: drop ~ppc/~ppc64 keyword
 
+  08 Jul 2016; Johannes Huber <johu@gentoo.org>
+  kdebase-runtime-meta-15.12.3.ebuild, kdebase-runtime-meta-16.04.2.ebuild:
+  Restore ~arm
+
+  Package-Manager: portage-2.3.0
+
+  08 Jul 2016; Johannes Huber <johu@gentoo.org>
+  -kdebase-runtime-meta-4.14.3.ebuild, metadata.xml:
+  Remove 4.14.3
+
+  Package-Manager: portage-2.3.0
+

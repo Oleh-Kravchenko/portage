@@ -176,3 +176,9 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Jul 2016; Markus Meier <maekke@gentoo.org> minitest-5.8.4.ebuild:
+  arm stable, bug #586862
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

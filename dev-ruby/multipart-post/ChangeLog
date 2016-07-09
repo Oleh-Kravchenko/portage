@@ -82,3 +82,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  08 Jul 2016; Hans de Graaff <graaff@gentoo.org>
+  multipart-post-2.0.0-r1.ebuild:
+  add ruby23, enable tests
+
+  Package-Manager: portage-2.2.28
+

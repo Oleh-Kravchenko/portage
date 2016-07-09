@@ -72,3 +72,11 @@
 
   Package-Manager: portage-2.2.28
 
+  08 Jul 2016; Austin English <wizardedit@gentoo.org>
+  files/gramps-3.4.0-use_bsddb3.patch, gramps-3.4.9-r1.ebuild:
+  fix gramps-3.4.0-use_bsddb3.patch for EAPI 6
+
+  Gentoo-Bug: https://bugs.gentoo.org/588292
+
+  Package-Manager: portage-2.2.28
+

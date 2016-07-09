@@ -125,3 +125,9 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Jul 2016; Markus Meier <maekke@gentoo.org> at-3.1.18-r1.ebuild:
+  arm stable, bug #587798
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

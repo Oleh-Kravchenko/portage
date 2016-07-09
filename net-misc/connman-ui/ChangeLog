@@ -29,3 +29,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  07 Jul 2016; Austin English <wizardedit@gentoo.org> connman-ui-9999.ebuild,
+  metadata.xml:
+  bump to EAPI 6, add maintainer-needed
+
+  Package-Manager: portage-2.2.28
+

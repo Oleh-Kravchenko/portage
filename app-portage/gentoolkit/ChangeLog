@@ -140,3 +140,12 @@
 
   Package-Manager: portage-2.3.0_rc1_p19
 
+*gentoolkit-0.3.2 (08 Jul 2016)
+
+  08 Jul 2016; Brian Dolbec <dolsen@gentoo.org> -gentoolkit-0.3.0.9.ebuild,
+  -gentoolkit-0.3.0.9-r1.ebuild, -gentoolkit-0.3.1-r1.ebuild,
+  +gentoolkit-0.3.2.ebuild:
+  Version bump, clean up older unstable versions
+
+  Package-Manager: portage-2.3.0
+

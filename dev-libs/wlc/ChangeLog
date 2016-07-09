@@ -60,3 +60,13 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*wlc-0.0.3-r1 (08 Jul 2016)
+
+  08 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> -wlc-0.0.3.ebuild,
+  +wlc-0.0.3-r1.ebuild, wlc-9999.ebuild:
+  fix missing RDEPEND and X configuration
+
+  Gentoo-Bug: 584462
+
+  Package-Manager: portage-2.3.0
+

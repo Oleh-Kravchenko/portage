@@ -285,3 +285,51 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> apache-2.4.20.ebuild:
+  ppc stable wrt bug #583276
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> apache-2.4.23.ebuild:
+  ppc stable wrt bug #588138
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> apache-2.4.20.ebuild:
+  sparc stable wrt bug #583276
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> apache-2.4.23.ebuild:
+  sparc stable wrt bug #588138
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> apache-2.4.23.ebuild:
+  ppc64 stable wrt bug #588138
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ppc64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> apache-2.4.23.ebuild:
+  ia64 stable wrt bug #588138
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Markus Meier <maekke@gentoo.org> apache-2.4.23.ebuild:
+  arm stable, bug #588138
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

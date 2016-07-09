@@ -226,3 +226,11 @@
 
   Package-Manager: portage-2.2.28
 
+*mono-4.4.1.0 (08 Jul 2016)
+
+  08 Jul 2016; Mikhail Pukhlikov <cynede@gentoo.org> -mono-4.4.0.40.ebuild,
+  +mono-4.4.1.0.ebuild:
+  4.4.1.0
+
+  Package-Manager: portage-2.3.0
+

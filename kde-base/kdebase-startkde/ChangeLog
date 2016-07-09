@@ -145,3 +145,9 @@
   kdebase-startkde-4.11.22.ebuild, kdebase-startkde-4.11.22-r1.ebuild:
   kde-base: drop ~ppc/~ppc64 keyword
 
+  08 Jul 2016; Johannes Huber <johu@gentoo.org>
+  kdebase-startkde-4.11.22.ebuild, kdebase-startkde-4.11.22-r1.ebuild:
+  Update dependency on kde-base/kdebase-startkde
+
+  Package-Manager: portage-2.3.0
+

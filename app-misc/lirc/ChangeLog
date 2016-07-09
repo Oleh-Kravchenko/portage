@@ -149,3 +149,31 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*lirc-0.9.4a (08 Jul 2016)
+
+  08 Jul 2016; Patrice Clement <monsieurp@gentoo.org> +lirc-0.9.4a.ebuild:
+  version bump to-0.9.4a
+
+  Gentoo-Bug: https://bugs.gentoo.org/588242
+  Closes: https://github.com/gentoo/gentoo/pull/1842
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  08 Jul 2016; Patrice Clement <monsieurp@gentoo.org> lirc-0.9.4.ebuild:
+  0.9.4: don't try to install doc/images
+
+  upstream removed doc/images, so don't try to install it
+
+  Gentoo-Bug: https://bugs.gentoo.org/587788
+  Closes: https://github.com/gentoo/gentoo/pull/1838
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  08 Jul 2016; Patrice Clement <monsieurp@gentoo.org> lirc-0.9.4.ebuild:
+  0.9.4: add dependency on virtual/libusb:0
+
+  Gentoo-Bug: https://bugs.gentoo.org/587840
+  Closes: https://github.com/gentoo/gentoo/pull/1837
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -110,3 +110,6 @@
   kactivities-4.13.3-r2.ebuild:
   kde-base: drop ~ppc/~ppc64 keyword
 
+  08 Jul 2016; Johannes Huber <johu@gentoo.org> kactivities-4.13.3-r2.ebuild:
+  kde-base/kactivitymanagerd -> kde-plasma/kactivitymanagerd
+

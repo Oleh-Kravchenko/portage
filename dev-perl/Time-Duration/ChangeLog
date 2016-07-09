@@ -86,3 +86,9 @@
 
   Gentoo-Bug: 588028
 
+  08 Jul 2016; Markus Meier <maekke@gentoo.org> Time-Duration-1.200.0.ebuild:
+  amd64/arm/hppa/ia64/ppc64/ppc/sparc/x86 stable, bug #588028
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="amd64 arm hppa ia64 ppc ppc64 sparc x86"
+

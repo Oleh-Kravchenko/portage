@@ -24,3 +24,7 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  08 Jul 2016; Johannes Huber <johu@gentoo.org>
+  kactivities-workspace-5.5.0.ebuild:
+  kde-base/kactivitymanagerd -> kde-plasma/kactivitymanagerd
+

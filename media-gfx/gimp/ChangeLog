@@ -176,3 +176,30 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> gimp-2.8.14-r2.ebuild:
+  ppc stable wrt bug #586666
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ppc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> gimp-2.8.14-r2.ebuild:
+  sparc stable wrt bug #586666
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Agostino Sarubbo <ago@gentoo.org> gimp-2.8.14-r2.ebuild:
+  ia64 stable wrt bug #586666
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="ia64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  08 Jul 2016; Sebastian Pipping <sping@gentoo.org> -gimp-2.8.10-r1.ebuild,
+  -gimp-2.8.10-r2.ebuild, -gimp-2.8.14.ebuild, -gimp-2.8.14-r1.ebuild:
+  Remove insecure (bug #586666)
+
+  Package-Manager: portage-2.2.28
+

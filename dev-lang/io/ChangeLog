@@ -72,3 +72,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*io-2011.09.12-r3 (07 Jul 2016)
+
+  07 Jul 2016; Austin English <wizardedit@gentoo.org>
+  +io-2011.09.12-r3.ebuild, metadata.xml:
+  bump to EAPI 6, add maintainer-needed
+
+  Package-Manager: portage-2.2.28
+
