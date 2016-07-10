@@ -204,3 +204,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  gsettings-desktop-schemas-3.18.1.ebuild:
+  ppc stable, bug 584468
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="ppc"
+

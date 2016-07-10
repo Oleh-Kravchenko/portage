@@ -215,3 +215,22 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="alpha"
 
+*gstreamer-1.8.2 (09 Jul 2016)
+
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org> +gstreamer-1.8.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org> gstreamer-1.6.3.ebuild:
+  ppc stable, bug 584468
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="ppc"
+
+  09 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  gstreamer-1.6.3.ebuild:
+  Pointless commit to enforce regeneration of the rsync Manifest
+
+  Package-Manager: portage-2.3.0
+

@@ -195,3 +195,9 @@
   by
   revdeps or otherwise still needed by Plasma 4.
 
+  08 Jul 2016; Johannes Huber <johu@gentoo.org>
+  -files/kdebase-kioslaves-CVE-2014-8600.patch:
+  Remove unused patch
+
+  Package-Manager: portage-2.3.0
+

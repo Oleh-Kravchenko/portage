@@ -425,3 +425,18 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*nss-3.25-r1 (09 Jul 2016)
+
+  09 Jul 2016; Ian Stakenvicius <axs@gentoo.org> -nss-3.25.ebuild,
+  +nss-3.25-r1.ebuild:
+  dropped SPI certificates and changed cacert default to off
+
+  Bug: http://bugs.gentoo.org/580722
+
+  Package-Manager: portage-2.2.28
+
+  09 Jul 2016; Ian Stakenvicius <axs@gentoo.org> metadata.xml:
+  dropped SPI description on cacert flag in metadata.xml
+
+  Package-Manager: portage-2.2.28
+

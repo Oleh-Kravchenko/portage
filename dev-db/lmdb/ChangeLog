@@ -188,3 +188,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jul 2016; Zac Medico <zmedico@gentoo.org> lmdb-0.9.18.ebuild:
+  fix prefix bugs
+
+  Package-Manager: portage-2.3.0
+

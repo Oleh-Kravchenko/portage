@@ -33,3 +33,20 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*nvme-cli-0.8 (09 Jul 2016)
+
+  09 Jul 2016; Zac Medico <zmedico@gentoo.org> +nvme-cli-0.8.ebuild:
+  version bump to 0.8
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Zac Medico <zmedico@gentoo.org> nvme-cli-0.6.ebuild:
+  add ${PN} to 0.6 tarball name
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Zac Medico <zmedico@gentoo.org> -nvme-cli-0_pre20150821.ebuild:
+  remove old version 0_pre20150821
+
+  Package-Manager: portage-2.3.0
+

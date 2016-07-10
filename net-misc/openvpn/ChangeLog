@@ -323,3 +323,11 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  09 Jul 2016; Manuel Rüger <mrueg@gentoo.org>
+  -files/2.3.6-disable-compression.patch, -files/2.3.6-null-cipher.patch,
+  -files/openvpn-2.3.10-fix-libressl.patch, -openvpn-2.3.8.ebuild,
+  -openvpn-2.3.10-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

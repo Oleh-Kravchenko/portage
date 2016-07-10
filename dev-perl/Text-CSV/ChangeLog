@@ -77,3 +77,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  08 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  Text-CSV-1.330.0.ebuild:
+  Retroactively stable for remaining arches (ALLARCHES), bug 585610
+
+  Package-Manager: portage-2.3.0
+
+  08 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -Text-CSV-1.320.0-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

@@ -165,3 +165,21 @@
   -gst-plugins-pulse-1.6.1.ebuild, -gst-plugins-pulse-1.6.2.ebuild:
   media-libs/gst-plugins-good and its splits: Drop old
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  -gst-plugins-pulse-1.6.2-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+
+*gst-plugins-pulse-1.8.2 (09 Jul 2016)
+
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org> +gst-plugins-pulse-1.8.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org> gst-plugins-pulse-1.8.2.ebuild:
+  gst-plugins-base is needed (#563470)
+
+  Package-Manager: portage-2.3.0
+

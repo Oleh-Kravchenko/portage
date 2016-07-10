@@ -238,3 +238,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  09 Jul 2016; Ian Stakenvicius <axs@gentoo.org> -seamonkey-2.38.ebuild:
+  2.38: drop old and vulnerable versions
+
+  Also drop mozconfig-v6.41.eclass as this ebuild was the last consumer
+
+  Package-Manager: portage-2.2.28
+

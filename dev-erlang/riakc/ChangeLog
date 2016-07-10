@@ -23,3 +23,11 @@
   ~ia64 ~sparc keywords. These had to be removed temporarily until
   dev-util/rebar has these keywords.
 
+  09 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  riakc-2.1.1_p20151111.ebuild:
+  Restrict Erlang version to <19
+
+  It doesn't build with >=dev-lang/erlang-19.0.
+
+  Package-Manager: portage-2.3.0
+

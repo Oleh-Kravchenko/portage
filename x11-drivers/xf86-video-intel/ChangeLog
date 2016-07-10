@@ -397,3 +397,11 @@
 
   Package-Manager: portage-2.2.28
 
+*xf86-video-intel-2.99.917_p20160704 (09 Jul 2016)
+
+  09 Jul 2016; Manuel Rüger <mrueg@gentoo.org>
+  +xf86-video-intel-2.99.917_p20160704.ebuild:
+  Update snapshot
+
+  Package-Manager: portage-2.3.0
+

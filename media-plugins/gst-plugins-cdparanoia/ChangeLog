@@ -140,3 +140,17 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="alpha"
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  -gst-plugins-cdparanoia-1.6.1.ebuild, -gst-plugins-cdparanoia-1.6.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+
+*gst-plugins-cdparanoia-1.8.2 (09 Jul 2016)
+
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  +gst-plugins-cdparanoia-1.8.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

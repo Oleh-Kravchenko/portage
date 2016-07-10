@@ -128,3 +128,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="alpha"
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org> -gst-plugins-faac-1.6.1.ebuild,
+  -gst-plugins-faac-1.6.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+

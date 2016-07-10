@@ -79,3 +79,16 @@
 
   Package-Manager: portage-2.2.28
 
+  09 Jul 2016; Manuel Rüger <mrueg@gentoo.org> thefuck-3.10.ebuild:
+  Keyword ~x86
+
+  Gentoo-Bug: #577556
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Manuel Rüger <mrueg@gentoo.org> -thefuck-3.8.ebuild,
+  -thefuck-3.9.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

@@ -179,3 +179,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  16 Jun 2016; Davide Pesavento <pesa@gentoo.org> -qbs-1.4.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_rc1
+
+*qbs-1.5.2 (09 Jul 2016)
+
+  09 Jul 2016; Davide Pesavento <pesa@gentoo.org> -qbs-1.5.1.ebuild,
+  +qbs-1.5.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0
+

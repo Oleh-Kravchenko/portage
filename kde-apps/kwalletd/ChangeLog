@@ -219,3 +219,10 @@
   by
   revdeps or otherwise still needed by Plasma 4.
 
+  08 Jul 2016; Johannes Huber <johu@gentoo.org>
+  -files/kwalletd-4.14.3-CVE-2013-7252.patch,
+  -files/kwalletd-4.14.3-fix-random-open.patch:
+  Remove unused patches
+
+  Package-Manager: portage-2.3.0
+

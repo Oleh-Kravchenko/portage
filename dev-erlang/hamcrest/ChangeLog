@@ -23,3 +23,28 @@
   ~ia64 ~sparc keywords. These had to be removed temporarily until
   dev-util/rebar has these keywords.
 
+  09 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  hamcrest-0.1.0_p20150103.ebuild:
+  Restrict Erlang version to <19
+
+  It doesn't build with >=dev-lang/erlang-19.0.
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +files/0.1.0_p20150103-0001-OTP-19-support.patch,
+  hamcrest-0.1.0_p20150103.ebuild:
+  Restore unit tests
+
+  Apply patch from https://github.com/hyperthunk/hamcrest-erlang/pull/24
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +files/0.1.0_p20150103-0001-Fix-unittests.patch,
+  -files/0.1.0_p20150103-0001-OTP-19-support.patch,
+  hamcrest-0.1.0_p20150103.ebuild:
+  Change patch name
+
+  Package-Manager: portage-2.3.0
+

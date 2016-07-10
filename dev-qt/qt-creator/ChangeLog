@@ -227,3 +227,19 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*qt-creator-4.0.3 (09 Jul 2016)
+
+  09 Jul 2016; Davide Pesavento <pesa@gentoo.org> -qt-creator-4.0.2.ebuild,
+  +qt-creator-4.0.3.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Davide Pesavento <pesa@gentoo.org> qt-creator-9999.ebuild:
+  update build requirements for 9999
+
+  http://code.qt.io/cgit/qt-creator/qt-
+  creator.git/commit/?id=7812390b0bdb31aec113fef317e4e83c4f822872
+
+  Package-Manager: portage-2.3.0
+

@@ -479,3 +479,14 @@
 
   Package-Manager: portage-2.2.28
 
+  09 Jul 2016; Ian Stakenvicius <axs@gentoo.org> thunderbird-24.8.0.ebuild:
+  24.8.0: swallowed mozconfig-3.eclass
+
+  This ebuild is and has for quite some time been the last of the
+  consumers of mozconfig-3.eclass.  Although the package is masked
+  there may still be a need for it to allow migration of user
+  data.  This commit moves all relevant portions of the eclass
+  into the ebuild and expunges the eclass from the repo.
+
+  Package-Manager: portage-2.2.28
+

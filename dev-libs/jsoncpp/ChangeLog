@@ -134,3 +134,9 @@
   jsoncpp-1.7.3.ebuild:
   Add missing cond RESTRICT=test
 
+*jsoncpp-1.7.4 (09 Jul 2016)
+
+  09 Jul 2016; Michał Górny <mgorny@gentoo.org> -jsoncpp-1.7.3.ebuild,
+  +jsoncpp-1.7.4.ebuild:
+  Bump to 1.7.4 w/ pkg-config fix
+

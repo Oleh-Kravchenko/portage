@@ -126,3 +126,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*redcloth-4.3.2 (09 Jul 2016)
+
+  09 Jul 2016; Manuel Rüger <mrueg@gentoo.org> +redcloth-4.3.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Manuel Rüger <mrueg@gentoo.org> -redcloth-4.3.0.ebuild,
+  -redcloth-4.3.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

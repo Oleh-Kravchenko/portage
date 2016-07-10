@@ -138,3 +138,23 @@
   13 Jun 2016; Amy Winston <amynka@gentoo.org> -.metadata.xml.kate-swp:
   cleaning after github pr
 
+  09 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  Update metadata.xml file
+
+  09 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> -opencollada-9999.ebuild:
+  Remove live ebuild as it's no longer needed
+
+*opencollada-1.6.18-r1 (09 Jul 2016)
+
+  09 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> -opencollada-1.6.18.ebuild,
+  +opencollada-1.6.18-r1.ebuild:
+  Rev bump to fix insecure runpath vulnerability
+
+  Closes Gentoo Bug 439530
+  Also, remove live ebuild logic
+
+*opencollada-1.6.23 (09 Jul 2016)
+
+  09 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> +opencollada-1.6.23.ebuild:
+  Version bump to 1.6.23
+

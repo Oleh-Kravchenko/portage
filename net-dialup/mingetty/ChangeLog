@@ -139,3 +139,6 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  09 Jul 2016; Aaron Bauman <bman@gentoo.org> -mingetty-1.08.ebuild:
+  cleanup vulnerable versions wrt bug #339338
+

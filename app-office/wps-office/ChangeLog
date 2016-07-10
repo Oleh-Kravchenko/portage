@@ -128,3 +128,9 @@
 
   Package-Manager: portage-2.3.0
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  wps-office-10.1.0.5672_alpha21.ebuild:
+  Bump eapi
+
+  Package-Manager: portage-2.3.0
+

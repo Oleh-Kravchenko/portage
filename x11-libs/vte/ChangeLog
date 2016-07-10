@@ -305,3 +305,9 @@
 
   Package-Manager: portage-2.3.0
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org> vte-0.44.2.ebuild:
+  vala support is conditional, also DOCS declaration is not needed anymore
+  (#587500 by Amaroun)
+
+  Package-Manager: portage-2.3.0
+

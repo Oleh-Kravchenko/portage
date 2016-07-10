@@ -195,3 +195,9 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Jul 2016; Craig Andrews <candrews@integralblue.com>
+  ejabberd-2.1.13-r2.ebuild, ejabberd-16.01-r1.ebuild, ejabberd-16.04.ebuild:
+  require <dev-lang/erlang-19
+
+  Gentoo-bug: 588272
+

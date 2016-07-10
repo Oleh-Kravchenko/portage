@@ -84,3 +84,14 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  09 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  cndrvcups-common-lb-3.20.ebuild:
+  net-print/cndrvcups-lb: correct 3.20 SRC_URI, fixup c505277.
+
+  Props toralf.foerster!
+
+  Gentoo-Bug: https://bugs.gentoo.org/587162
+  Closes: https://github.com/gentoo/gentoo/pull/1850
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

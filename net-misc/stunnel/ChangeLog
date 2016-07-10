@@ -357,3 +357,9 @@
   RepoMan-Options: --include-arches="ppc64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  09 Jul 2016; Jeroen Roovers <jer@gentoo.org> stunnel-5.34-r1.ebuild:
+  Stable for HPPA (bug #588150).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

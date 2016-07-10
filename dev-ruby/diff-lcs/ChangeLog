@@ -156,3 +156,8 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  09 Jul 2016; Hans de Graaff <graaff@gentoo.org> -diff-lcs-1.2.5.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

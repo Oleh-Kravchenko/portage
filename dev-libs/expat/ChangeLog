@@ -213,3 +213,8 @@
 
   Package-Manager: portage-2.2.28
 
+  09 Jul 2016; Sebastian Pipping <sping@gentoo.org> -expat-2.1.0-r5.ebuild:
+  Remove 2.1.0-r5 (bug #583268)
+
+  Package-Manager: portage-2.2.28
+

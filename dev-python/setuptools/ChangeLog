@@ -490,3 +490,9 @@
 
   Package-Manager: portage-2.2.28
 
+  09 Jul 2016; Dirkjan Ochtman <djc@gentoo.org> setuptools-24.0.2.ebuild,
+  setuptools-9999.ebuild:
+  fix dependency, update 9999 (thanks to dolsen)
+
+  Package-Manager: portage-2.2.28
+

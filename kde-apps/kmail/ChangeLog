@@ -142,3 +142,9 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Jul 2016; Johannes Huber <johu@gentoo.org>
+  -files/kdepim-4.14.10-fix-cmake-3.4.patch, -kmail-4.14.10.ebuild:
+  kde-apps: Remove KDE PIM 4.14.10
+
+  Package-Manager: portage-2.3.0
+

@@ -225,3 +225,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*kdoctools-5.24.0 (09 Jul 2016)
+
+  09 Jul 2016; Johannes Huber <johu@gentoo.org> +kdoctools-5.24.0.ebuild:
+  kde-frameworks: Version bump KDE Frameworks 5.24.0
+
+  Package-Manager: portage-2.3.0
+
+  09 Jul 2016; Maciej Mrozowski <reavertm@gentoo.org> kdoctools-5.23.0.ebuild,
+  kdoctools-5.24.0.ebuild:
+  add sgml-common dep, bug 588428
+
+  Package-Manager: portage-2.2.28
+

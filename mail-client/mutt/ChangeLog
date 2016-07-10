@@ -264,3 +264,10 @@
 
   Gentoo-Bug: 587560
 
+*mutt-1.6.2 (09 Jul 2016)
+
+  09 Jul 2016; Fabian Groffen <grobian@gentoo.org> +mutt-1.6.2.ebuild:
+  version bump to 1.6.2, neomutt-20160709
+
+  Package-Manager: portage-2.2.28
+

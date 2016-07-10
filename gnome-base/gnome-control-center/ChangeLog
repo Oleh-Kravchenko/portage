@@ -180,3 +180,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  gnome-control-center-3.20.1.ebuild:
+  Rebuilding with NM subslot bump will be needed when it's bumped (likely when
+  we are ready to kill the obsolete dbus-glib support from NM)
+
+  Package-Manager: portage-2.3.0
+

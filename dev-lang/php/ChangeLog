@@ -1508,3 +1508,16 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  09 Jul 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.5.33.ebuild,
+  -php-5.5.34.ebuild, -php-5.5.35.ebuild, -php-5.5.36.ebuild,
+  -php-5.6.19.ebuild, -php-5.6.20.ebuild, -php-5.6.21.ebuild,
+  -php-5.6.22.ebuild:
+  remove old versions with security issues.
+
+  Gentoo-Bug: 578734
+  Gentoo-Bug: 581834
+  Gentoo-Bug: 584204
+  Gentoo-Bug: 587246
+
+  Package-Manager: portage-2.2.28
+
