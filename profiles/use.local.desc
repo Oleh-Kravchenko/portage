@@ -2272,10 +2272,12 @@ dev-php/pecl-memcached:json - Enable support for json serialization
 dev-php/pecl-mysqlnd_qc:memcached - Use dev-libs/libmemcached as a storage handler
 dev-php/pecl-mysqlnd_qc:sqlite - Use dev-db/sqlite as a storage handler
 dev-php/pecl-redis:igbinary - Enables igbinary serialisation support
+dev-php/xcache:coverage - Enable the coverager module (not recommended for production servers).
 dev-python/Kivy:camera - Install libraries needed to support camera
 dev-python/Kivy:garden - Install garden tool to manage user maintained widgets
 dev-python/PyFoam:extras - Enable optional dependencies
 dev-python/PyQt4:X - Build bindings for the QtGui module
+dev-python/PyQt4:compat - Install the deprecated pyqtconfig module for backward compatibility
 dev-python/PyQt4:dbus - Build bindings for the QtDBus module
 dev-python/PyQt4:declarative - Build bindings for the QtDeclarative module
 dev-python/PyQt4:designer - Build bindings for the QtDesigner module and enable the designer plugin
@@ -3791,10 +3793,14 @@ media-gfx/darktable:slideshow - Build the opengl slideshow viewer
 media-gfx/darktable:squish - Enable thumbnail compression via libsquish
 media-gfx/darktable:web-services - Add support for uploading photos to facebook and picasa
 media-gfx/darktable:webp - Enable WebP export support
-media-gfx/digikam:addressbook - Add support for kdepim
+media-gfx/digikam:addressbook - Enable akonadi contact integration
+media-gfx/digikam:kipi - Enable support for media-plugins/kipi-plugins
+media-gfx/digikam:lensfun - Enable support for media-libs/lensfun
+media-gfx/digikam:marble - Enable support for geolocation using kde-apps/marble
+media-gfx/digikam:semantic-desktop - Enable kde-frameworks/kfilemetadata support
 media-gfx/digikam:themedesigner - Build the digikam theme designer
 media-gfx/digikam:thumbnails - Enable thumbnails database support
-media-gfx/digikam:video - Pull in mplayerthumbs to enable video thumbnails
+media-gfx/digikam:video - Enable video player support
 media-gfx/enblend:gpu - GPU support for Enblend
 media-gfx/enblend:image-cache - allow for processing of large images
 media-gfx/eog-plugins:flickr - Enable uploading to Flickr
@@ -4197,6 +4203,7 @@ media-plugins/hexter:gtk2 - Enable x11-libs/gtk+:2 based GUI
 media-plugins/imlib2_loaders:eet - Enable Eet image loader
 media-plugins/imlib2_loaders:xcf - Enable XCF image loader
 media-plugins/kipi-plugins:expoblending - Build the expoblending plugin, which requires media-gfx/hugin
+media-plugins/kipi-plugins:flashexport - Build the flash export plugin
 media-plugins/kipi-plugins:gpssync - Build the gpssync plugin, which requires kde-apps/libkgeomap and thereby marble
 media-plugins/kipi-plugins:mediawiki - Build the mediawiki export plugin
 media-plugins/kipi-plugins:panorama - Pull in dependencies needed by panorama plugin
@@ -8151,7 +8158,6 @@ www-servers/uwsgi:yajl - Use dev-libs/yajl instead of dev-libs/jansson for parsi
 www-servers/uwsgi:yaml - Support yaml as a configuration file format.
 www-servers/uwsgi:zeromq - Enable logging and deployment via ZeroMQ.
 www-servers/varnish:jemalloc - Use dev-libs/jemalloc for allocations
-www-servers/varnish:tools - Build additional tools: varnishhist, varnishstat, varnishtop, varnishsizes
 www-servers/xsp:developer - creates .mdb files for either Release and Debug
 www-servers/xsp:net35 - use .NET 3.5 Framework
 www-servers/xsp:net40 - use .NET 4.0 Framework

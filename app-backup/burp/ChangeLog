@@ -279,3 +279,16 @@
 
   Package-Manager: portage-2.3.0
 
+*burp-1.4.40-r6 (10 Jul 2016)
+*burp-1.4.40-r5 (10 Jul 2016)
+
+  10 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> -burp-1.4.40-r4.ebuild,
+  +burp-1.4.40-r5.ebuild, +burp-1.4.40-r6.ebuild:
+  Depend on librsync-0.9.7 or >librsync-2.0.0
+
+  Burp segfaults with any version between 1.0.0 and 2.0.0 (inclusive).
+  ebuild depending on 0.9.7 will be removed as soon as librsync-2.0.0-r1
+  gets stable keywords.
+
+  Package-Manager: portage-2.3.0
+

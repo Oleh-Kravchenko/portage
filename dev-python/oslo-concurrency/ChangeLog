@@ -136,3 +136,21 @@
 
   Package-Manager: portage-2.2.28
 
+  10 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  oslo-concurrency-3.7.1.ebuild:
+  amd64 / x86 stable
+
+  Package-Manager: portage-2.2.28
+
+  10 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -oslo-concurrency-3.7.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+
+  10 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -oslo-concurrency-1.8.0.ebuild, -oslo-concurrency-1.8.1.ebuild:
+  more cleanup
+
+  Package-Manager: portage-2.2.28
+

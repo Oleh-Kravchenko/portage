@@ -333,3 +333,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  10 Jul 2016; Jeroen Roovers <jer@gentoo.org> apache-2.4.23.ebuild:
+  Stable for HPPA (bug #588138).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

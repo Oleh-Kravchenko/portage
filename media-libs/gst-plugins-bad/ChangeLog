@@ -335,3 +335,15 @@
 
   Package-Manager: portage-2.3.0
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org> gst-plugins-bad-1.6.3.ebuild:
+  ppc stable, bug 584468
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="ppc"
+
+  10 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  gst-plugins-bad-1.6.3.ebuild:
+  Pointless commit to enforce regeneration of the rsync Manifest, bug 577722
+
+  Package-Manager: portage-2.3.0
+

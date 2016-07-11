@@ -142,3 +142,8 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  10 Jul 2016; Markus Meier <maekke@gentoo.org> -autotrace-0.31.1-r6.ebuild:
+  remove vulnerable versions for bug #466078
+
+  Package-Manager: portage-2.3.0
+

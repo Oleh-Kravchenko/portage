@@ -363,3 +363,11 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  10 Jul 2016; Markus Meier <maekke@gentoo.org> -imagemagick-6.9.0.3.ebuild,
+  -imagemagick-6.9.1.8.ebuild, -imagemagick-6.9.2.10.ebuild,
+  -imagemagick-6.9.3.10.ebuild, -imagemagick-6.9.4.1.ebuild,
+  -imagemagick-6.9.4.5.ebuild:
+  remove vulnerable versions for bug #584512
+
+  Package-Manager: portage-2.3.0
+

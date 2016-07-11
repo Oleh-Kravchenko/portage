@@ -313,3 +313,14 @@
   kde4-l10n-15.12.3-r1.ebuild:
   kde-apps: drop ~ppc/~ppc64 keyword
 
+  10 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  kde4-l10n-15.12.3-r1.ebuild:
+  enable minimal USE flag by default
+
+  Enabling the minimal USE flag by default will help resolve blockers while
+  upgrading KDE packages in situations where the plasma profile is not in use.
+
+  Gentoo-bug: 588496
+
+  Package-Manager: portage-2.3.0
+

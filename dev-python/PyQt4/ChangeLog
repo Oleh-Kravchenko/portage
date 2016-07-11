@@ -112,3 +112,21 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*PyQt4-4.12_pre1606101416-r1 (10 Jul 2016)
+*PyQt4-4.11.4-r1 (10 Jul 2016)
+
+  10 Jul 2016; Davide Pesavento <pesa@gentoo.org> +PyQt4-4.11.4-r1.ebuild,
+  -PyQt4-4.12_pre1606101416.ebuild, +PyQt4-4.12_pre1606101416-r1.ebuild,
+  metadata.xml:
+  introduce USE=compat to install deprecated pyqtconfig
+
+  A few PyQt4 revdeps still require the deprecated pyqtconfig module at
+  build time. USE=compat re-enables the installation of pyqtconfig, so that
+  those packages continue to build against newer versions of PyQt4.
+
+  Gentoo-Bug: 526524
+  Gentoo-Bug: 527572
+  Gentoo-Bug: 536948
+
+  Package-Manager: portage-2.3.0
+

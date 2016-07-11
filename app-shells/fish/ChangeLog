@@ -103,3 +103,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  10 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> fish-2.3.1.ebuild:
+  Use official release tarball that doesn't require eautoreconf.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

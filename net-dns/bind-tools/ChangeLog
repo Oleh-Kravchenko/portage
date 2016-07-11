@@ -237,3 +237,6 @@
   02 May 2016; Matt Turner <mattst88@gentoo.org> bind-tools-9.10.3_p4.ebuild:
   alpha stable, bug 576902.
 
+  10 Jul 2016; Aaron Bauman <bman@gentoo.org> -bind-tools-9.10.1_p1.ebuild:
+  remove vulnerable versions per bug #568982
+
