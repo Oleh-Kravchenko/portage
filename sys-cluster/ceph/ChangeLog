@@ -349,3 +349,16 @@
 
   Package-Manager: portage-2.3.0
 
+*ceph-0.94.7 (11 Jul 2016)
+
+  11 Jul 2016; Yixun Lan <dlan@gentoo.org> +ceph-0.94.7.ebuild,
+  +files/ceph-0.94.7-monitor-security.patch:
+  restore 0.94.x (hammer)
+
+  we decided to keep at least two LTS versions
+  also, allow user upgrade from old versions (sidely)
+
+  Gentoo-Bug: 587568
+
+  Package-Manager: portage-2.3.0_rc1
+

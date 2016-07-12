@@ -162,3 +162,14 @@
 
   Package-Manager: portage-2.2.28
 
+*lxc-2.0.3 (11 Jul 2016)
+
+  11 Jul 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxc-2.0.3-bash-completion.patch,
+  +files/lxc-2.0.3-omit-sysconfig.patch, +lxc-2.0.3.ebuild, metadata.xml:
+  Bump to 2.0.3
+
+  removes devsetup script
+
+  Package-Manager: portage-2.3.0
+

@@ -119,3 +119,10 @@
 
   Package-Manager: portage-2.2.28
 
+*sass-rails-5.0.5-r1 (11 Jul 2016)
+
+  11 Jul 2016; Hans de Graaff <graaff@gentoo.org> +sass-rails-5.0.5-r1.ebuild:
+  install proper gemspec, fixing bug 588542
+
+  Package-Manager: portage-2.2.28
+

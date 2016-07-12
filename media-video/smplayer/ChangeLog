@@ -208,3 +208,14 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*smplayer-16.7.0 (11 Jul 2016)
+
+  11 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> -smplayer-16.6.0.ebuild,
+  +smplayer-16.7.0.ebuild:
+  Bump to version 16.7.0 (bug #588574).
+
+  Removed old. This should also fix bug #585806.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

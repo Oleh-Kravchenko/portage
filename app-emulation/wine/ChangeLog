@@ -642,3 +642,13 @@
 
   Package-Manager: portage-2.2.28
 
+  11 Jul 2016; NP-Hardass <NP-Hardass@gentoo.org> wine-1.8-r2.ebuild,
+  wine-1.8.1-r2.ebuild, wine-1.8.2.ebuild, wine-1.8.2-r1.ebuild,
+  wine-1.8.3.ebuild, wine-1.9.4-r2.ebuild, wine-1.9.5-r2.ebuild,
+  wine-1.9.6-r2.ebuild, wine-1.9.7-r2.ebuild, wine-1.9.8-r1.ebuild,
+  wine-1.9.9-r1.ebuild, wine-1.9.10-r1.ebuild, wine-1.9.11-r1.ebuild,
+  wine-1.9.12.ebuild, wine-1.9.13.ebuild, wine-9999.ebuild:
+  Fix two QA issues, #588604
+
+  Package-Manager: portage-2.2.28
+

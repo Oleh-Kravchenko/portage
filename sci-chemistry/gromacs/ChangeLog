@@ -88,3 +88,22 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gromacs-5.1.2 (11 Jul 2016)
+
+  11 Jul 2016; Alexey Shvetsov <alexxy@gentoo.org> +gromacs-5.1.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+
+  11 Jul 2016; Alexey Shvetsov <alexxy@gentoo.org> -gromacs-5.0.4-r1.ebuild,
+  -gromacs-5.0.5.ebuild, -gromacs-5.0.6.ebuild, -gromacs-5.1.ebuild,
+  -gromacs-5.1.1.ebuild:
+  Clean up old version
+
+  Package-Manager: portage-2.3.0
+
+  11 Jul 2016; Alexey Shvetsov <alexxy@gentoo.org> metadata.xml:
+  Add my as maintainer
+
+  Package-Manager: portage-2.3.0
+

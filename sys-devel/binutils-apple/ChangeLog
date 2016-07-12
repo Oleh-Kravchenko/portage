@@ -244,3 +244,9 @@
 
   Package-Manager: portage-2.2.28
 
+  10 Jul 2016; Patrick Lauer <patrick@gentoo.org> binutils-apple-7.1.ebuild,
+  binutils-apple-7.1-r1.ebuild:
+  Whitespace
+
+  Package-Manager: portage-2.3.0
+

@@ -188,3 +188,11 @@
 
   Package-Manager: portage-2.2.28
 
+*moodle-3.1.1 (11 Jul 2016)
+
+  11 Jul 2016; Anthony G. Basile <blueness@gentoo.org> -moodle-3.1.ebuild,
+  +moodle-3.1.1.ebuild:
+  version bump to 3.1.1, drop older 3.1
+
+  Package-Manager: portage-2.2.28
+

@@ -74,3 +74,11 @@
 
   Package-Manager: portage-2.3.0
 
+*mavlink-gbp-release-2016.7.7 (11 Jul 2016)
+
+  11 Jul 2016; Alexis Ballier <aballier@gentoo.org>
+  +mavlink-gbp-release-2016.7.7.ebuild:
+  bump to 2016.7.7
+
+  Package-Manager: portage-2.3.0
+

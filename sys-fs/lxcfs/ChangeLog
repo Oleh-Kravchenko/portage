@@ -92,3 +92,14 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*lxcfs-2.0.2 (11 Jul 2016)
+
+  11 Jul 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxcfs-2.0.2-fusermount-path.patch, +files/lxcfs-2.0.2.initd,
+  +lxcfs-2.0.2.ebuild:
+  Bump to 2.0.2
+
+  Adds pam use flag, uses (patched) upstream systemd service file not our own
+
+  Package-Manager: portage-2.3.0
+

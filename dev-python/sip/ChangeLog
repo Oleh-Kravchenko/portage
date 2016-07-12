@@ -178,3 +178,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  11 Jul 2016; Davide Pesavento <pesa@gentoo.org> -sip-4.17-r1.ebuild:
+  drop old
+
+  Package-Manager: portage-2.3.0
+

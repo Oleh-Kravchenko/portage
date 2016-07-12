@@ -124,3 +124,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  11 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  qtx11extras-5.6.1.ebuild:
+  keyword ~ppc
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=584860
+
+  Package-Manager: portage-2.2.28
+

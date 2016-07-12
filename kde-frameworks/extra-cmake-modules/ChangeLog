@@ -287,3 +287,11 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  extra-cmake-modules-5.24.0.ebuild:
+  keyword ~ppc
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=584874
+
+  Package-Manager: portage-2.2.28
+

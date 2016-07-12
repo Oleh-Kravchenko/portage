@@ -213,3 +213,21 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*nftables-0.6-r2 (11 Jul 2016)
+
+  11 Jul 2016; Sam Jorna <wraeth@gentoo.org>
+  +files/nftables-0.6-null-payload-desc-fix.patch, -nftables-0.6-r1.ebuild,
+  +nftables-0.6-r2.ebuild:
+  backport null payload desc fix
+
+  nftables-0.6 handling of payload context descriptions was changed from
+  version 0.5.  This change causes the code to segfault when the desc
+  variable in payload_expr_pctx_update() is set to null.  The issue
+  appears to be fixed with upstream commit
+  3503738f77cdbe521da1054a37f59ac2e442b4cf.  Therefore, backporting that
+  commit to 0.6 to fix this issue.
+
+  Gentoo-bug: 588192
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1865
+

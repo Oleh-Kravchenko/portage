@@ -1521,3 +1521,43 @@
 
   Package-Manager: portage-2.2.28
 
+*php-5.6.23-r1 (11 Jul 2016)
+
+  11 Jul 2016; Michael Orlitzky <mjo@gentoo.org> +php-5.6.23-r1.ebuild,
+  php-7.0.8.ebuild:
+  new edit/revision to hide some elog messages when possible.
+
+  Two of the elog messages that we show only need to be dealt with
+  once. If the user has the recently-emerged slot of PHP in his
+  PHP_TARGETS already, then we don't need to bug him about that. And if
+  he has PHP_INI_VERSION set to a legal value, then we don't need to
+  inform him about that either.
+
+  A new revision is made for the php-5.6.x series. The 7.x series is not
+  stable, so an in-place edit was made.
+
+  Gentoo-Bug: 440574
+
+  Package-Manager: portage-2.2.28
+
+*php-7.0.8-r1 (11 Jul 2016)
+*php-5.6.23-r2 (11 Jul 2016)
+
+  11 Jul 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.6.23-r1.ebuild,
+  +php-5.6.23-r2.ebuild, -php-7.0.8.ebuild, +php-7.0.8-r1.ebuild:
+  new revisions fixing opcache installation location logic.
+
+  We install the opcache extension with a call to dolib.so, which
+  requires an earlier call to "into" to set its installation
+  location. If the user enables any SAPIs other than apache2, that
+  happens incidentally. However, if only the apache2 SAPI is enabled,
+  the installation location is never set, ultimately causing the
+  extension to fail to load. This is fixed by adding a call to "into"
+  directly before the dolib.so call.
+
+  Two calls to use_if_iuse were also replaced with the simpler "use".
+
+  Gentoo-Bug: 550676
+
+  Package-Manager: portage-2.2.28
+

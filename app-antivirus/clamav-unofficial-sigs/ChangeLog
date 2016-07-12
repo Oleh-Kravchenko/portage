@@ -120,3 +120,11 @@
 
   Package-Manager: portage-2.2.26
 
+*clamav-unofficial-sigs-5.3.2 (10 Jul 2016)
+
+  10 Jul 2016; Michael Orlitzky <mjo@gentoo.org>
+  -clamav-unofficial-sigs-5.3.1.ebuild, +clamav-unofficial-sigs-5.3.2.ebuild:
+  version bump v5.3.1 -> v5.3.2.
+
+  Package-Manager: portage-2.2.28
+

@@ -51,3 +51,9 @@
 
   Package-Manager: portage-2.2.28
 
+  11 Jul 2016; Anthony G. Basile <blueness@gentoo.org>
+  containerd-0.2.2_p20160622.ebuild, containerd-9999.ebuild:
+  keyword ~ppc64
+
+  Package-Manager: portage-2.2.28
+

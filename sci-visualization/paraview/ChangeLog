@@ -190,3 +190,14 @@
 
   Package-Manager: portage-2.2.28
 
+  11 Jul 2016; Matthias Maier <tamiko@gentoo.org>
+  +files/paraview-5.1.0-only-require-cmake-3.3.patch, paraview-5.1.0.ebuild:
+  add DEPEND on >=cmake-3.3, bug #588516
+
+   * Require >=dev-util/cmake-3.3
+   * Apply upstream patch to lower the version requirement for cmake to 3.3
+
+  Thanks to Markus Kaindl.
+
+  Package-Manager: portage-2.2.28
+

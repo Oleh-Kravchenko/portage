@@ -53,3 +53,11 @@
 
   Package-Manager: portage-2.3.0
 
+*wireguard-0.0.20160711 (11 Jul 2016)
+
+  11 Jul 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  -wireguard-0.0.20160708.1.ebuild, +wireguard-0.0.20160711.ebuild:
+  snapshot bump
+
+  Package-Manager: portage-2.3.0
+

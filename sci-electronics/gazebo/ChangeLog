@@ -130,3 +130,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  11 Jul 2016; Alexis Ballier <aballier@gentoo.org> -gazebo-7.1.0.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

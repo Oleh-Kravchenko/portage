@@ -530,3 +530,13 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  11 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  aegisub-3.2.2_p20160518.ebuild, aegisub-9999.ebuild:
+  add setup-wxwidgets call wrt bug 587530
+
+  Gentoo-Bug: https://bugs.gento.org/587530
+  Closes: https://github.com/gentoo/gentoo/pull/1839
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

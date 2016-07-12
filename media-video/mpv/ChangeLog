@@ -1227,3 +1227,11 @@
 
   Signed-off-by: Yixun Lan <dlan@gentoo.org>
 
+  11 Jul 2016; Patrice Clement <monsieurp@gentoo.org> -mpv-0.17.0-r5.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1868
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
