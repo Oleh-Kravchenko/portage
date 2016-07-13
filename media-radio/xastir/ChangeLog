@@ -67,3 +67,12 @@
 
   Package-Manager: portage-2.2.28
 
+*xastir-2.0.8 (12 Jul 2016)
+
+  12 Jul 2016; Thomas Beierlein <tomjbe@gentoo.org>
+  +files/xastir-2.0.8-no-builtin-shapelib.diff,
+  +files/xastir-2.0.8-scripts.diff, +xastir-2.0.8.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

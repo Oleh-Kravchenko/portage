@@ -29,7 +29,6 @@ else
 	  "${WORKDIR}"/debian/patches/do-not-backup-export-dir.patch
 	  "${WORKDIR}"/debian/patches/Makefile.am-use-C.UTF-8
 	  "${WORKDIR}"/debian/patches/relax-deps
-	  "${WORKDIR}"/debian/patches/ghc-7.10-compatibility.patch
 	  "${WORKDIR}"/debian/patches/zlib-0.6-compatibility
 	  "${WORKDIR}"/debian/patches/fix_FTBFS_with_sphinx-1.3.5
 	  "${WORKDIR}"/debian/patches/fix_ftbfs_with_sphinx_1.4
@@ -41,7 +40,7 @@ HOMEPAGE="http://www.ganeti.org/"
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="drbd haskell-daemons htools ipv6 kvm lxc monitoring multiple-users rbd syslog test xen"
+IUSE="drbd haskell-daemons htools ipv6 kvm lxc monitoring multiple-users rbd syslog test xen restricted-commands"
 
 REQUIRED_USE="|| ( kvm xen lxc )
 	test? ( ipv6 )
@@ -121,9 +120,6 @@ DEPEND="
 	>=dev-haskell/case-insensitive-0.4.0.1
 
 	dev-haskell/vector:0=
-	<dev-haskell/semigroupoids-4.1:0=
-	<dev-haskell/contravariant-0.6
-	<dev-haskell/transformers-compat-0.4[three]
 	xen? ( >=app-emulation/xen-3.0 )
 	kvm? (
 		dev-python/psutil
@@ -144,7 +140,7 @@ RDEPEND="${DEPEND}
 DEPEND+="
 	sys-devel/m4
 	app-text/pandoc
-	<dev-python/sphinx-1.3[${PYTHON_USEDEP}]
+	<=dev-python/sphinx-1.3.5[${PYTHON_USEDEP}]
 	media-fonts/urw-fonts
 	media-gfx/graphviz
 	>=dev-haskell/test-framework-0.6:0=
@@ -160,9 +156,9 @@ DEPEND+="
 		>=dev-haskell/hunit-1.2.4.2:0=
 		<dev-haskell/hunit-1.3:0=
 		>=dev-haskell/quickcheck-2.4.2:2=
-		<dev-haskell/quickcheck-2.8:2=
+		<dev-haskell/quickcheck-2.8.3:2=
 		sys-apps/fakeroot
-		net-misc/socat
+		>=net-misc/socat-1.7
 		dev-util/shelltestrunner
 	)"
 
@@ -208,7 +204,23 @@ pkg_setup () {
 
 src_prepare() {
 	local testfile
+	if has_version '>=dev-lang/ghc-7.10'; then
+		# Breaks the build on 7.8
+		PATCHES+=( 
+			"${WORKDIR}"/debian/patches/ghc-7.10-compatibility.patch 
+		)
+	fi
 	eapply "${PATCHES[@]}"
+	# Upstream commits:
+	# 4c3c2ca2a97a69c0287a3d23e064bc17978105eb
+	# 24618882737fd7c189adf99f4acc767d48f572c3
+	sed -i \
+		-e '/QuickCheck/s,< 2.8,< 2.8.3,g' \
+		cabal/ganeti.template.cabal
+	# Neuter -Werror
+	sed -i \
+		-e '/^if DEVELOPER_MODE/,/^endif/s/-Werror//' \
+		Makefile.am
 
 	# not sure why these tests are failing
 	# should remove this on next version bump if possible
@@ -244,6 +256,7 @@ src_configure () {
 		--with-ssh-initscript=/etc/init.d/sshd \
 		--with-export-dir=/var/lib/ganeti-storage/export \
 		--with-os-search-path=/usr/share/${PN}/os \
+		$(use_enable restricted-commands) \
 		$(use_enable test haskell-tests) \
 		$(usex multiple-users "--with-default-user=" "" "gnt-daemons" "") \
 		$(usex multiple-users "--with-user-prefix=" "" "${USER_PREFIX}" "") \
@@ -252,7 +265,10 @@ src_configure () {
 		$(use_enable syslog) \
 		$(use_enable monitoring) \
 		$(usex kvm '--with-kvm-path=' '' "/usr/bin/qemu-system-${kvm_arch}" '') \
-		$(usex haskell-daemons "--enable-confd=haskell" '' '' '')
+		$(usex haskell-daemons "--enable-confd=haskell" '' '' '') \
+		--with-haskell-flags="-optl -Wl,-z,relro -optl -Wl,--as-needed" \
+		--enable-socat-escape \
+		--enable-socat-compress
 }
 
 src_install () {

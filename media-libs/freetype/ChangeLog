@@ -183,3 +183,18 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*freetype-2.6.5 (12 Jul 2016)
+
+  12 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +freetype-2.6.5.ebuild,
+  metadata.xml:
+  Bump to version 2.6.5
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  12 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> -freetype-2.6.2.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

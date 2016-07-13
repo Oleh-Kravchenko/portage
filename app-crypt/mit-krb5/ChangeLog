@@ -318,3 +318,8 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  12 Jul 2016; Eray Aslan <eras@gentoo.org> -mit-krb5-1.14.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

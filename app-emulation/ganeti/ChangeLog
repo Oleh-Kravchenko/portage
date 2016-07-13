@@ -266,3 +266,38 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
 
+  11 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> ganeti-2.15.2-r4.ebuild:
+  Revert "app-emulation/ganeti: add upstream stable tweak"
+
+  This reverts commit 7ea446f8b1b02298bc946bb2bce50c6a075f563d; applying
+  an Ubuntu patch in a revbump instead.
+
+*ganeti-2.15.2-r5 (11 Jul 2016)
+
+  11 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> +ganeti-2.15.2-r5.ebuild:
+  add Debian patch series, including haskell dep tweaks
+
+  Package-Manager: portage-2.2.28
+
+  12 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> ganeti-2.15.2-r5.ebuild:
+  match dependencies used in Ubuntu.
+
+  Package-Manager: portage-2.2.28
+
+  12 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> ganeti-2.15.2-r5.ebuild,
+  metadata.xml:
+  support USE=restricted-commands, tweak haskell flags and socat.
+
+  Package-Manager: portage-2.2.28
+
+  12 Jul 2016; Robin H. Johnson <robbat2@gentoo.org>
+  files/ganeti-kvm-poweroff.initd, files/ganeti.initd-r3:
+  fix bashisms.
+
+  Package-Manager: portage-2.2.28
+
+  12 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> ganeti-2.15.2-r5.ebuild:
+  tweak one dep back down for easier merge.
+
+  Package-Manager: portage-2.2.28
+

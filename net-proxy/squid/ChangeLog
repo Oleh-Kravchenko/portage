@@ -348,3 +348,16 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  12 Jul 2016; Eray Aslan <eras@gentoo.org> -files/squid-3.5-14022.patch,
+  -squid-3.5.15.ebuild, -squid-3.5.17.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+*squid-3.5.20 (12 Jul 2016)
+
+  12 Jul 2016; Eray Aslan <eras@gentoo.org> +squid-3.5.20.ebuild:
+  version bump to squid-3.5.20 - bug 588064
+
+  Package-Manager: portage-2.3.0
+

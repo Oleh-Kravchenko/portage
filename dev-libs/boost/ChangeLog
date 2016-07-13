@@ -237,3 +237,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  12 Jul 2016; Fabian Groffen <grobian@gentoo.org> boost-1.61.0.ebuild:
+  fix argument handling in 1.61 for Prefix by William Throwe in bug #582612
+
+  Package-Manager: portage-2.2.28
+

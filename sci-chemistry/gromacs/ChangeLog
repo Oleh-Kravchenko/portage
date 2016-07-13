@@ -107,3 +107,8 @@
 
   Package-Manager: portage-2.3.0
 
+  12 Jul 2016; Christoph Junghans <ottxor@gentoo.org> gromacs-5.1.2.ebuild:
+  sync with sci overlay (bug #588648)
+
+  Package-Manager: portage-2.2.28
+

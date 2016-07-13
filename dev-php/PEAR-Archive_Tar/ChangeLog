@@ -92,3 +92,17 @@
 
   Package-Manager: portage-2.2.27
 
+*PEAR-Archive_Tar-1.4.2-r1 (11 Jul 2016)
+
+  11 Jul 2016; Michael Orlitzky <mjo@gentoo.org>
+  -PEAR-Archive_Tar-1.4.2.ebuild, +PEAR-Archive_Tar-1.4.2-r1.ebuild:
+  new revision dropping php[posix] USE dependency.
+
+  These days, upstream is checking for the existence of the posix_*
+  functions before trying to use them. Thus we no longer need to require
+  dev-lang/php[posix] at runtime.
+
+  Gentoo-Bug: 573810
+
+  Package-Manager: portage-2.2.28
+

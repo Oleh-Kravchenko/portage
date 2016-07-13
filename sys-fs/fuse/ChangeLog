@@ -91,3 +91,8 @@
   files/fuse.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*fuse-2.9.7 (12 Jul 2016)
+
+  12 Jul 2016; Tim Harder <radhermit@gentoo.org> +fuse-2.9.7.ebuild:
+  version bump to 2.9.7
+
