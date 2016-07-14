@@ -110,3 +110,11 @@
 
   Package-Manager: portage-2.2.26
 
+  13 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/magicpoint-1.13a-implicit-declaration.patch:
+  remove unused patch
+
+  Closes: https://github.com/gentoo/gentoo/pull/1876
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

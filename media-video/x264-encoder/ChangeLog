@@ -110,3 +110,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*x264-encoder-0.0.20160712 (13 Jul 2016)
+
+  13 Jul 2016; Alexis Ballier <aballier@gentoo.org>
+  +x264-encoder-0.0.20160712.ebuild:
+  bump a new snapshot
+
+  Package-Manager: portage-2.3.0
+

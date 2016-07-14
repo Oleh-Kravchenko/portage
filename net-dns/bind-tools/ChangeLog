@@ -240,3 +240,9 @@
   10 Jul 2016; Aaron Bauman <bman@gentoo.org> -bind-tools-9.10.1_p1.ebuild:
   remove vulnerable versions per bug #568982
 
+  13 Jul 2016; Jeroen Roovers <jer@gentoo.org> bind-tools-9.10.3_p4.ebuild:
+  Stable for HPPA PPC64 (bug #576902).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

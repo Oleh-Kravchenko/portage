@@ -301,3 +301,13 @@
 
   Package-Manager: portage-2.2.28
 
+  12 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> ganeti-2.15.2-r5.ebuild:
+  only use GHC 7.10 patch when present, causes failures on older GHC.
+
+  Package-Manager: portage-2.2.28
+
+  13 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> ganeti-2.15.2-r5.ebuild:
+  hotplug requires missing dep dev-python/fdsend.
+
+  Package-Manager: portage-2.2.28
+

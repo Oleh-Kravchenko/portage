@@ -305,3 +305,10 @@
 
   Package-Manager: portage-2.2.28
 
+*docker-1.12.0_rc4 (13 Jul 2016)
+
+  13 Jul 2016; William Hubbs <williamh@gentoo.org> +docker-1.12.0_rc4.ebuild:
+  1.12.0_rc4 version bump
+
+  Package-Manager: portage-2.2.28
+

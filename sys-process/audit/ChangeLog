@@ -132,3 +132,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  13 Jul 2016; Jeroen Roovers <jer@gentoo.org> audit-2.4.3-r1.ebuild:
+  Stable for HPPA (bug #577770).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

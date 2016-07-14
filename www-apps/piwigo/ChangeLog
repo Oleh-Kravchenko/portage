@@ -17,3 +17,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*piwigo-2.8.2 (13 Jul 2016)
+
+  13 Jul 2016; Bernard Cafarelli <voyageur@gentoo.org> +piwigo-2.8.2.ebuild:
+  version bump to 2.8.2
+
+  Package-Manager: portage-2.3.0
+

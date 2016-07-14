@@ -167,3 +167,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  13 Jul 2016; Jeroen Roovers <jer@gentoo.org> PyQt5-5.5.1.ebuild,
+  PyQt5-5.6.1_pre1604271126.ebuild:
+  Mark ~ppc64 too.
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

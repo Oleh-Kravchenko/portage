@@ -216,3 +216,10 @@
 
   Package-Manager: portage-2.2.28
 
+*openconnect-7.07 (13 Jul 2016)
+
+  13 Jul 2016; William Hubbs <williamh@gentoo.org> +openconnect-7.07.ebuild:
+  7.07 version bump
+
+  Package-Manager: portage-2.2.28
+

@@ -162,3 +162,23 @@
 
   Package-Manager: portage-2.3.0
 
+  13 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  phonon-4.8.3-r1.ebuild, phonon-4.9.0.ebuild, phonon-9999.ebuild:
+  ensure zeitgeist is always disabled on a foreign ABI
+
+  dev-libs/libqzeitgeist is not multilib-enabled, so if not explicitly
+  disabled
+  the native library may be detected during a foreign ABI build causing a
+  build
+  failure.
+
+  Package-Manager: portage-2.3.0
+
+  13 Jul 2016; Michael Palimaka <kensington@gentoo.org> phonon-4.9.0.ebuild,
+  phonon-9999.ebuild:
+  fix multilib build by explicitly specifying the path to qmake
+
+  Gentoo-bug: 580304
+
+  Package-Manager: portage-2.3.0
+

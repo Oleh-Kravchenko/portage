@@ -36,3 +36,11 @@
   legacy-icons-4.11.22.ebuild, legacy-icons-4.11.22-r1.ebuild:
   kde-base: drop ~ppc/~ppc64 keyword
 
+  13 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  legacy-icons-4.11.22-r1.ebuild:
+  Add missing slot 5 blockers
+
+  Gentoo-bug: 588362
+
+  Package-Manager: portage-2.2.28
+

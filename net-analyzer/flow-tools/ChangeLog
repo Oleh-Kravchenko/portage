@@ -91,3 +91,10 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/flowcapture.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  13 Jul 2016; Anthony G. Basile <blueness@gentoo.org>
+  -flow-tools-0.68.5.1-r4.ebuild, -flow-tools-0.68.5.1-r5.ebuild,
+  flow-tools-0.68.5.1-r6.ebuild:
+  add libressl support
+
+  Package-Manager: portage-2.2.28
+

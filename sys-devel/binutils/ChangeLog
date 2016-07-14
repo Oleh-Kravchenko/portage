@@ -148,3 +148,12 @@
   time). Considering that the flag does not control the installed files or
   the package in any other way, it is an invalid use of USE flags.
 
+*binutils-2.26.1 (13 Jul 2016)
+
+  13 Jul 2016; Patrice Clement <monsieurp@gentoo.org> +binutils-2.26.1.ebuild:
+  version bump to 2.26.1.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1874
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

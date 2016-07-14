@@ -165,3 +165,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*kid3-3.4.1 (13 Jul 2016)
+
+  13 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +kid3-3.4.1.ebuild:
+  Bump to version 3.4.1
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

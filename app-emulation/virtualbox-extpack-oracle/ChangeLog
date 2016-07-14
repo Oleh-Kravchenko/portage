@@ -275,3 +275,16 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*virtualbox-extpack-oracle-5.1.0.108711 (13 Jul 2016)
+*virtualbox-extpack-oracle-5.0.24.108355 (13 Jul 2016)
+
+  13 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +virtualbox-extpack-oracle-5.0.24.108355.ebuild,
+  +virtualbox-extpack-oracle-5.1.0.108711.ebuild:
+  Bump to versions 5.0.24 and 5.1.0
+
+  bug #586630
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

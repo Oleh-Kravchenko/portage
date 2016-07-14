@@ -114,3 +114,17 @@
   kactivitymanagerd-5.7.0.ebuild:
   kde-base/kactivitymanagerd -> kde-plasma/kactivitymanagerd
 
+*kactivitymanagerd-5.7.1 (13 Jul 2016)
+
+  13 Jul 2016; Johannes Huber <johu@gentoo.org>
+  +kactivitymanagerd-5.7.1.ebuild:
+  kde-plasma: Version bump KDE Plasma 5.7.1
+
+  Package-Manager: portage-2.3.0
+
+  13 Jul 2016; Johannes Huber <johu@gentoo.org>
+  -kactivitymanagerd-5.7.0.ebuild:
+  kde-plasma: Remove KDE Plasma 5.7.0
+
+  Package-Manager: portage-2.3.0
+

@@ -61,6 +61,7 @@ DEPEND="
 	dev-python/ipaddr[${PYTHON_USEDEP}]
 	dev-python/bitarray[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
+	dev-python/fdsend[${PYTHON_USEDEP}]
 	net-analyzer/arping
 	net-analyzer/fping
 	net-misc/bridge-utils
@@ -206,8 +207,8 @@ src_prepare() {
 	local testfile
 	if has_version '>=dev-lang/ghc-7.10'; then
 		# Breaks the build on 7.8
-		PATCHES+=( 
-			"${WORKDIR}"/debian/patches/ghc-7.10-compatibility.patch 
+		PATCHES+=(
+			"${WORKDIR}"/debian/patches/ghc-7.10-compatibility.patch
 		)
 	fi
 	eapply "${PATCHES[@]}"

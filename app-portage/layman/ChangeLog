@@ -159,3 +159,6 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  13 Jul 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  drop redundant entries from metadata.xml
+

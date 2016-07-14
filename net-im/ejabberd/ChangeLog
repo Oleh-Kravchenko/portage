@@ -201,3 +201,10 @@
 
   Gentoo-bug: 588272
 
+  13 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> ejabberd-16.04.ebuild:
+  Add warning about pubsub data migration
+
+  Gentoo-Bug: 588244
+
+  Package-Manager: portage-2.3.0
+

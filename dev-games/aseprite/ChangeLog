@@ -154,3 +154,17 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*aseprite-1.1.6 (13 Jul 2016)
+
+  13 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -aseprite-1.1.5.1.ebuild, +aseprite-1.1.6.ebuild:
+  Version bump 1.1.6, remove old 1.1.5
+
+  * Fix installation KDE thumbnailer into right place
+  * Add pixmap for desktop entry
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1875
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -359,3 +359,27 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*lxd-2.0.3 (12 Jul 2016)
+
+  12 Jul 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxd-2.0.3-dont-go-get.patch, +files/lxd-2.0.3.confd,
+  +files/lxd-2.0.3.initd, +lxd-2.0.3.ebuild:
+  Bump to 2.0.3
+
+  EAPI=6
+
+  Package-Manager: portage-2.3.0
+
+  12 Jul 2016; Erik Mackdanz <stasibear@gentoo.org>
+  -files/lxd-2.0.0-dont-go-get.patch, -files/lxd-2.0.0-nc-binary-name.patch,
+  -files/lxd-2.0.0.confd, -files/lxd-2.0.0.initd,
+  -files/lxd-2.0.0_beta4-dont-go-get.patch,
+  -files/lxd-2.0.0_beta4-nc-binary-name.patch, -files/lxd-2.0.0_beta4.confd,
+  -files/lxd-2.0.0_beta4.initd, -files/lxd-2.0.0_rc2-dont-go-get.patch,
+  -files/lxd-2.0.0_rc2-nc-binary-name.patch, -files/lxd-2.0.0_rc2.confd,
+  -files/lxd-2.0.0_rc2.initd, -lxd-2.0.0_beta4.ebuild, -lxd-2.0.0_rc2.ebuild,
+  -lxd-2.0.0.ebuild:
+  Remove old versions
+
+  Package-Manager: portage-2.3.0
+
