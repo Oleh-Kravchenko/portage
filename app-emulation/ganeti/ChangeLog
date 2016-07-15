@@ -311,3 +311,13 @@
 
   Package-Manager: portage-2.2.28
 
+  13 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> files/ganeti.initd-r3:
+  make it easier to restart a downed cluster
+
+  Package-Manager: portage-2.2.28
+
+  13 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> ganeti-2.15.2-r5.ebuild:
+  whitespace.
+
+  Package-Manager: portage-2.2.28
+

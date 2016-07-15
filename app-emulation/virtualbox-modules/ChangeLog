@@ -289,3 +289,27 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*virtualbox-modules-4.3.38 (14 Jul 2016)
+
+  14 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +virtualbox-modules-4.3.38.ebuild:
+  Bump to version 4.3.38
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+*virtualbox-modules-5.1.0-r1 (14 Jul 2016)
+*virtualbox-modules-5.0.24-r1 (14 Jul 2016)
+
+  14 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> files/virtualbox.conf,
+  -virtualbox-modules-5.0.24.ebuild, +virtualbox-modules-5.0.24-r1.ebuild,
+  -virtualbox-modules-5.1.0.ebuild, +virtualbox-modules-5.1.0-r1.ebuild:
+  Added vboxpci to virtualbox.conf
+
+  and mention it in the pkg_postinst elog messages.
+
+  Change suggested by masterzorag.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

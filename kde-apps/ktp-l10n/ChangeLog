@@ -159,3 +159,15 @@
   ktp-l10n-16.04.2.ebuild:
   Migrate to L10N
 
+*ktp-l10n-16.04.3 (14 Jul 2016)
+
+  14 Jul 2016; Johannes Huber <johu@gentoo.org> +ktp-l10n-16.04.3.ebuild:
+  kde-apps: Version bump KDE Applications 16.04.3
+
+  Package-Manager: portage-2.3.0
+
+  14 Jul 2016; Johannes Huber <johu@gentoo.org> -ktp-l10n-16.04.2.ebuild:
+  kde-apps: Remove KDE Applications 16.04.2
+
+  Package-Manager: portage-2.3.0
+

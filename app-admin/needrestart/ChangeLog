@@ -36,3 +36,31 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  14 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> needrestart-2.8.ebuild,
+  needrestart-9999.ebuild:
+  correct the license to GPL-2+
+
+*needrestart-2.8-r1 (14 Jul 2016)
+
+  14 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> -needrestart-2.8.ebuild,
+  +needrestart-2.8-r1.ebuild, needrestart-9999.ebuild:
+  fix dependencies
+
+  needrestart installs and uses scripts that call sed with '-z' option:
+    https://github.com/liske/needrestart/blob/1a3b68a38e0691ca82e894ef591b23af
+  666cc14d/lib/notify.d.sh#L34
+    https://github.com/liske/needrestart/blob/1c17aa96ed455c6f10b496fa6a5c17da
+  f96558ac/ex/notify.d/400-notify-send#L34
+  This option was introduced in sed-4.2.2:
+  http://article.gmane.org/gmane.comp.lang.smalltalk.gnu.general/7873
+  Thus needrestart must depend on >=sys-apps/sed-4.2.2.
+
+  needrestart needs sys-devel/gettext to build so add that dependency.
+
+  needrestart depends on dev-perl/TermReadKey so add that runtime dependency.
+
+  needrestart does not depend on dev-perl/Term-ProgressBar-Simple so remove
+  that dependency.
+
+  Gentoo-bug: 588416
+

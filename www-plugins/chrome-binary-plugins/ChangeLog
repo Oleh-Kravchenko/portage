@@ -1081,3 +1081,12 @@
 
   Package-Manager: portage-2.3.0_p11
 
+*chrome-binary-plugins-52.0.2743.75_beta (14 Jul 2016)
+
+  14 Jul 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-52.0.2743.60_beta.ebuild,
+  +chrome-binary-plugins-52.0.2743.75_beta.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_p11
+

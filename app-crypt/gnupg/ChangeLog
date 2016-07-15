@@ -366,3 +366,10 @@
 
   Package-Manager: portage-2.2.28
 
+*gnupg-2.1.14 (14 Jul 2016)
+
+  14 Jul 2016; Kristian Fiskerstrand <k_f@gentoo.org> +gnupg-2.1.14.ebuild:
+  New upstream version 2.1.14
+
+  Package-Manager: portage-2.3.0
+

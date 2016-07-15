@@ -168,3 +168,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  14 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> aseprite-1.1.6.ebuild:
+  add missing dep on pkgconfig for webp and gtk3 flags
+
+  From the source:
+  CMakeLists.txt:204:    pkg_check_modules(WEBP libwebp)
+  CMakeLists.txt:368:    pkg_check_modules(GTKMM gtkmm-3.0)
+
+  Package-Manager: portage-2.2.28
+

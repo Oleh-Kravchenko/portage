@@ -106,3 +106,16 @@
 
   Package-Manager: portage-2.2.28
 
+*g-cpan-0.16.9 (14 Jul 2016)
+
+  14 Jul 2016; Patrice Clement <monsieurp@gentoo.org> +g-cpan-0.16.9.ebuild,
+  g-cpan-9999.ebuild:
+  version bump to 0.16.9.
+
+  * Use github tag generated archive instead of uploaded release file.
+  * Trim away extraneous tabs.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1872
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

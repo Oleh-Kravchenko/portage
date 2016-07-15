@@ -383,3 +383,12 @@
 
   Package-Manager: portage-2.3.0
 
+*lxd-2.0.3-r1 (14 Jul 2016)
+
+  14 Jul 2016; Erik Mackdanz <stasibear@gentoo.org> +lxd-2.0.3-r1.ebuild:
+  Revbump to add missing dep
+
+  Gentoo-bug: 588754
+
+  Package-Manager: portage-2.3.0
+

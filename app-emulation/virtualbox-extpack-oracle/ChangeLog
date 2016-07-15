@@ -288,3 +288,12 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*virtualbox-extpack-oracle-4.3.38.106717 (14 Jul 2016)
+
+  14 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +virtualbox-extpack-oracle-4.3.38.106717.ebuild:
+  Bump to version 4.3.38
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

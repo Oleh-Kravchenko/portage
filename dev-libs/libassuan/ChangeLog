@@ -143,3 +143,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+*libassuan-2.4.3 (14 Jul 2016)
+
+  14 Jul 2016; Kristian Fiskerstrand <k_f@gentoo.org> +libassuan-2.4.3.ebuild:
+  New upstream version 2.4.3
+
+  Package-Manager: portage-2.3.0
+

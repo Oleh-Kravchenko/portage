@@ -78,3 +78,14 @@
 
   Package-Manager: portage-2.3.0
 
+*eric-6.1.7 (14 Jul 2016)
+
+  14 Jul 2016; Davide Pesavento <pesa@gentoo.org> +eric-6.1.7.ebuild:
+  new major version (SLOT=6)
+
+  Stop supporting side-by-side installation with previous SLOTs.
+
+  Gentoo-Bug: 548684
+
+  Package-Manager: portage-2.3.0
+

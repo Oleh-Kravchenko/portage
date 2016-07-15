@@ -305,3 +305,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*emacs-24.5-r2 (14 Jul 2016)
+
+  14 Jul 2016; Ulrich Müller <ulm@gentoo.org> +emacs-24.5-r2.ebuild:
+  Fix icons in toolbar with GTK+ 3.20.6.
+
+  Bug: 588704
+
+  Package-Manager: portage-2.3.0
+

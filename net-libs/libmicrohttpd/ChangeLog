@@ -265,3 +265,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Jul 2016; Jeroen Roovers <jer@gentoo.org> libmicrohttpd-0.9.49.ebuild:
+  Stable for PPC64 (bug #584884).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

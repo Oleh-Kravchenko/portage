@@ -60,3 +60,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  14 Jul 2016; Hans de Graaff <graaff@gentoo.org>
+  minitest-bonus-assertions-2.0.ebuild:
+  add ruby23
+
+  Package-Manager: portage-2.2.28
+

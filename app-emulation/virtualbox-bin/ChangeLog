@@ -325,3 +325,26 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*virtualbox-bin-4.3.38.106717 (14 Jul 2016)
+
+  14 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +virtualbox-bin-4.3.38.106717.ebuild:
+  Bump to version 4.3.38
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+*virtualbox-bin-5.1.0.108711-r1 (14 Jul 2016)
+*virtualbox-bin-5.0.24.108355-r1 (14 Jul 2016)
+
+  14 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -virtualbox-bin-5.0.24.108355.ebuild,
+  +virtualbox-bin-5.0.24.108355-r1.ebuild,
+  -virtualbox-bin-5.1.0.108711.ebuild, +virtualbox-bin-5.1.0.108711-r1.ebuild:
+  Install more icons and mime-type definitions.
+
+  bug #572012
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

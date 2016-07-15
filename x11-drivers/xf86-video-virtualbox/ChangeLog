@@ -362,3 +362,12 @@
 
   Package-Manager: portage-2.2.26
 
+*xf86-video-virtualbox-4.3.38 (14 Jul 2016)
+
+  14 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +xf86-video-virtualbox-4.3.38.ebuild:
+  Bump to version 4.3.38
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

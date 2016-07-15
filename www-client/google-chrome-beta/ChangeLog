@@ -528,3 +528,18 @@
 
   Package-Manager: portage-2.3.0_p7
 
+*google-chrome-beta-52.0.2743.75 (14 Jul 2016)
+
+  14 Jul 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-beta-52.0.2743.60.ebuild,
+  +google-chrome-beta-52.0.2743.75.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_p11
+
+  14 Jul 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-beta-52.0.2743.75.ebuild, metadata.xml:
+  convert to chromium-2 eclass
+
+  Package-Manager: portage-2.3.0_p11
+

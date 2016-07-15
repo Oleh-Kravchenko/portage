@@ -164,3 +164,13 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+*mime-types-3.1 (14 Jul 2016)
+
+  14 Jul 2016; Hans de Graaff <graaff@gentoo.org> +mime-types-3.1.ebuild:
+  add 3.1
+
+  Drop alpha, arm and prefix keywords due to a new
+  test dependency on dev-ruby/minitest-hooks, bug 588796
+
+  Package-Manager: portage-2.2.28
+

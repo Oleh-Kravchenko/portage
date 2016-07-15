@@ -157,3 +157,12 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  14 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/elogviewer-0.5.2-clear_warning.patch,
+  -files/elogviewer-0.5.2-timesort.patch:
+  remove unused patches
+
+  Closes: https://github.com/gentoo/gentoo/pull/1883
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

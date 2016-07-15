@@ -433,3 +433,17 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+*libgcrypt-1.7.2 (14 Jul 2016)
+
+  14 Jul 2016; Kristian Fiskerstrand <k_f@gentoo.org> +libgcrypt-1.7.2.ebuild:
+  New upstream version 1.7.2
+
+  Package-Manager: portage-2.3.0
+
+  14 Jul 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  -libgcrypt-1.6.3-r4.ebuild, -libgcrypt-1.6.3-r5.ebuild,
+  -libgcrypt-1.6.4.ebuild, -libgcrypt-1.7.0.ebuild:
+  Cleanup old versions
+
+  Package-Manager: portage-2.3.0
+
