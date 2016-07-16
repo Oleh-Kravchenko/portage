@@ -87,3 +87,8 @@
 
   Package-Manager: portage-2.3.0
 
+  14 Jul 2016; Brian Evans <grknight@gentoo.org> -pecl-rrd-1.1.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+

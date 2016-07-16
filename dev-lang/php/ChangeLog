@@ -1561,3 +1561,12 @@
 
   Package-Manager: portage-2.2.28
 
+*php-7.0.8-r2 (15 Jul 2016)
+*php-5.6.23-r3 (15 Jul 2016)
+
+  15 Jul 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.6.23-r2.ebuild,
+  +php-5.6.23-r3.ebuild, -php-7.0.8-r1.ebuild, +php-7.0.8-r2.ebuild:
+  new revisions dropping depend.apache/apache-module.eclass.
+
+  Package-Manager: portage-2.2.28
+

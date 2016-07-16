@@ -71,3 +71,11 @@
 
   Package-Manager: portage-2.2.28
 
+*af_alg-0.0.1 (15 Jul 2016)
+
+  15 Jul 2016; Stephen L Arnold <nerdboy@gentoo.org> +af_alg-0.0.1.ebuild,
+  metadata.xml:
+  app-crypt/openssl-af_alg-engine: renamed to app-crypt/af_alg
+
+  * This addresses bug #587514
+

@@ -118,3 +118,8 @@
   aria2-1.23.0.ebuild, aria2-1.24.0.ebuild:
   Add missing cond RESTRICT=test
 
+*aria2-1.25.0 (15 Jul 2016)
+
+  15 Jul 2016; Michał Górny <mgorny@gentoo.org> +aria2-1.25.0.ebuild:
+  Bump to 1.25.0 (bugfix release)
+

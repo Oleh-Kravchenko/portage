@@ -152,3 +152,16 @@
 
   Package-Manager: portage-2.3.0
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  telepathy-mission-control-5.16.3-r1.ebuild:
+  ppc stable, bug 584468
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="ppc"
+
+  15 Jul 2016; Andreas K. Huettel <dilfridge@gentoo.org>
+  telepathy-mission-control-5.16.3-r1.ebuild:
+  Pointless commit to enforce regeneration of the rsync Manifest, bug 577722
+
+  Package-Manager: portage-2.3.0
+

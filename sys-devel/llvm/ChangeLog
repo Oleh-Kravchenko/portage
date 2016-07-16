@@ -664,3 +664,8 @@
   -files/llvm-3.4-gentoo-install.patch, -llvm-3.4.2.ebuild, metadata.xml:
   Drop 3.4.2
 
+*llvm-3.8.1 (15 Jul 2016)
+
+  15 Jul 2016; Michał Górny <mgorny@gentoo.org> +llvm-3.8.1.ebuild:
+  Bump to 3.8.1
+

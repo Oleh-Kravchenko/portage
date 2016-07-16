@@ -86,3 +86,9 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Jul 2016; Brian Evans <grknight@gentoo.org>
+  pecl-mysqlnd_ms-1.6.0_pre20141127.ebuild:
+  Drop php 5.5 support wrt bug 588732; Add tests
+
+  Package-Manager: portage-2.3.0
+

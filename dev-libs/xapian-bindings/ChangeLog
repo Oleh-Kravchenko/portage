@@ -290,3 +290,9 @@
 
   Package-Manager: portage-2.2.28
 
+  15 Jul 2016; Brian Evans <grknight@gentoo.org>
+  xapian-bindings-1.2.23.ebuild:
+  Add php 5.6 target to 1.2.23
+
+  Package-Manager: portage-2.3.0
+

@@ -91,3 +91,14 @@
 
   Package-Manager: portage-2.2.28
 
+*tuned-2.6.0-r2 (15 Jul 2016)
+
+  15 Jul 2016; Yixun Lan <dlan@gentoo.org> +files/tuned-2.6.0-pygobject.patch,
+  +tuned-2.6.0-r2.ebuild:
+  fix missing dev-python/pygobject dep
+
+  Gentoo-Bug: 587636
+
+  Package-Manager: portage-2.3.0_rc1
+  Signed-off-by: Yixun Lan <dlan@gentoo.org>
+

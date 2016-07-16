@@ -87,3 +87,10 @@
 
   Package-Manager: portage-2.2.28
 
+*stringex-2.6.1 (15 Jul 2016)
+
+  15 Jul 2016; Hans de Graaff <graaff@gentoo.org> +stringex-2.6.1.ebuild:
+  add ruby23
+
+  Package-Manager: portage-2.2.28
+

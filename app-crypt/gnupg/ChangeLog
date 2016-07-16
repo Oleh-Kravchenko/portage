@@ -373,3 +373,11 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Jul 2016; Kristian Fiskerstrand <k_f@gentoo.org> gnupg-2.1.14.ebuild:
+  Version 2.1.14 requires a min dep of npth 1.2
+
+  Trying to install version 2.1.14 with lower version of npth than 1.2
+  causes build failure
+
+  Package-Manager: portage-2.3.0
+

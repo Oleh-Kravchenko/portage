@@ -521,3 +521,13 @@
 
   Package-Manager: portage-2.2.28
 
+  15 Jul 2016; Matthew Thode <prometheanfire@gentoo.org> nova-13.1.0.ebuild:
+  stable amd64 and x86
+
+  Package-Manager: portage-2.2.28
+
+  15 Jul 2016; Matthew Thode <prometheanfire@gentoo.org> -nova-13.0.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

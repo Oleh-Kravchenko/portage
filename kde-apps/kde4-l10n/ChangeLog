@@ -337,3 +337,9 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Jul 2016; Johannes Huber <johu@gentoo.org>
+  -files/kde4-l10n-16.04.1-remove-dirs:
+  Remove unused file
+
+  Package-Manager: portage-2.3.0
+

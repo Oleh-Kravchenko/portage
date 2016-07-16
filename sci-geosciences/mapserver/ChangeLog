@@ -123,3 +123,15 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Jul 2016; Brian Evans <grknight@gentoo.org>
+  -files/mapserver-7.0.0-correct-min-max-calls.patch,
+  -files/mapserver-7.0.0-disabled-ogr.patch,
+  -files/mapserver-7.0.0-giflib51.patch,
+  -files/mapserver-7.0.0-mapwcs-disabled-libxml2.patch,
+  -mapserver-7.0.0.ebuild, -mapserver-7.0.1.ebuild:
+  Drop broken versions and associated patches
+
+  Requested by Amynka on IRC
+
+  Package-Manager: portage-2.3.0
+
