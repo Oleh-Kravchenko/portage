@@ -790,3 +790,17 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*git-2.9.2 (16 Jul 2016)
+
+  16 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +git-2.9.2.ebuild:
+  Bump to version 2.9.2
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  16 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> -git-2.9.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

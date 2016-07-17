@@ -185,3 +185,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  16 Jul 2016; Johannes Huber <johu@gentoo.org>
+  -akonadi-server-1.13.0-r2.ebuild:
+  Remove 1.13.0
+
+  Package-Manager: portage-2.3.0
+

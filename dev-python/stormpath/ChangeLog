@@ -139,3 +139,15 @@
 
   Package-Manager: portage-2.3.0
 
+*stormpath-2.4.1 (16 Jul 2016)
+
+  16 Jul 2016; Alex Brandt <alunduil@gentoo.org> +stormpath-2.4.1.ebuild:
+  add version 2.4.1
+
+  Package-Manager: portage-2.3.0
+
+  16 Jul 2016; Alex Brandt <alunduil@gentoo.org> -stormpath-2.1.6.ebuild:
+  remove version 2.1.6
+
+  Package-Manager: portage-2.3.0
+

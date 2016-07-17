@@ -158,3 +158,13 @@
   09 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> +opencollada-1.6.23.ebuild:
   Version bump to 1.6.23
 
+*opencollada-1.6.25 (16 Jul 2016)
+
+  16 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -opencollada-1.6.23.ebuild, +opencollada-1.6.25.ebuild:
+  version bump to 1.6.25.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1890
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

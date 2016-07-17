@@ -137,3 +137,15 @@
 
   Package-Manager: portage-2.2.28
 
+*liblangtag-0.6.0 (16 Jul 2016)
+
+  16 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  +liblangtag-0.6.0.ebuild:
+  version bump to 0.6.0.
+
+  Gentoo-Bug: http://bugs.gentoo.org/571880
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1626
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

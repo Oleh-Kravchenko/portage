@@ -68,3 +68,15 @@
 
   Package-Manager: portage-2.2.28
 
+  16 Jul 2016; Mike Auty <ikelos@gentoo.org>
+  +files/ophcrack-openssl-des.patch, -ophcrack-3.1.0-r2.ebuild,
+  -ophcrack-3.3.0.ebuild, -ophcrack-3.3.1.ebuild, ophcrack-3.6.0.ebuild:
+  Fix issue 588902 (deprecated ssl functions).
+
+  This fixes the deprecation of the des_ functions in favour of
+  DES_ functions in openssl (and libressl which appears to have
+  done the deprecation early).  The revision was not bumped since
+  this is an issue that exhibits at build time only.
+
+  Package-Manager: portage-2.3.0
+

@@ -117,3 +117,11 @@
   16 May 2016; Aaron Bauman <bman@gentoo.org> +gns3-gui-1.4.6.ebuild:
   bump to 1.4.6
 
+*gns3-gui-1.5.1 (16 Jul 2016)
+
+  16 Jul 2016; Aaron Bauman <bman@gentoo.org> +gns3-gui-1.5.1.ebuild:
+  bump package
+
+  16 Jul 2016; Aaron Bauman <bman@gentoo.org> -gns3-gui-1.4.4-r2.ebuild:
+  remove old
+

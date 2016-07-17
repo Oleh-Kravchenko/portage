@@ -669,3 +669,6 @@
   15 Jul 2016; Michał Górny <mgorny@gentoo.org> +llvm-3.8.1.ebuild:
   Bump to 3.8.1
 
+  16 Jul 2016; Michał Górny <mgorny@gentoo.org> llvm-3.8.1.ebuild:
+  Change subslot of 3.8.1 to match 3.8.0
+

@@ -176,3 +176,9 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Jul 2016; Jeroen Roovers <jer@gentoo.org> -cacti-0.8.8f-r1.ebuild,
+  -files/cacti-0.8.8f-CVE-2015-8369.patch:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

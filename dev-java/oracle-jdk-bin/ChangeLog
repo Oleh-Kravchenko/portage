@@ -355,3 +355,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  16 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -oracle-jdk-bin-1.8.0.91.ebuild:
+  Clean up vulnerable version.
+
+  Gentoo-Bug: https://bugs.gentoo.org/580608
+
+  Package-Manager: portage-2.2.28
+

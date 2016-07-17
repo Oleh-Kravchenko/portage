@@ -405,3 +405,11 @@
   LS_COLORS all the time.  We'll just have to live with incompat warnings
   when coreutils upgrades & changes behavior.
 
+  16 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/bash-3.0-read-e-segfault.patch:
+  remove unused patch
+
+  Closes: https://github.com/gentoo/gentoo/pull/1887
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

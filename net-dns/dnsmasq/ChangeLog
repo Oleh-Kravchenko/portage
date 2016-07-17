@@ -220,3 +220,8 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Jul 2016; Patrick McLean <chutzpah@gentoo.org> -dnsmasq-2.75.ebuild:
+  Remove version 2.75 for security bug #585280
+
+  Package-Manager: portage-2.3.0
+

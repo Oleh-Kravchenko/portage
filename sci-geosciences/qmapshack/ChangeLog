@@ -71,3 +71,10 @@
 
   Package-Manager: portage-2.3.0
 
+*qmapshack-1.6.3 (16 Jul 2016)
+
+  16 Jul 2016; Andrey Grozin <grozin@gentoo.org> +qmapshack-1.6.3.ebuild:
+  bump to 1.6.3
+
+  Package-Manager: portage-2.3.0
+

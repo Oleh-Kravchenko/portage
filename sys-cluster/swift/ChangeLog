@@ -222,3 +222,10 @@
 
   Package-Manager: portage-2.2.28
 
+*swift-2.9.0 (16 Jul 2016)
+
+  16 Jul 2016; Matthew Thode <prometheanfire@gentoo.org> +swift-2.9.0.ebuild:
+  bup, adds at rest encryption
+
+  Package-Manager: portage-2.2.28
+

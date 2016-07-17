@@ -203,3 +203,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*docker-py-1.9.0_rc2 (16 Jul 2016)
+
+  16 Jul 2016; Alex Brandt <alunduil@gentoo.org> +docker-py-1.9.0_rc2.ebuild:
+  add version 1.9.0_rc2
+
+  Package-Manager: portage-2.3.0
+
+  16 Jul 2016; Alex Brandt <alunduil@gentoo.org> -docker-py-1.8.0_rc2.ebuild:
+  remove version 1.8.0_rc2
+
+  Package-Manager: portage-2.3.0
+

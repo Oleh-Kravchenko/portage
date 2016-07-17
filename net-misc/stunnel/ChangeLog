@@ -363,3 +363,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  16 Jul 2016; Tobias Klausmann <klausman@gentoo.org> stunnel-5.34-r1.ebuild:
+  5.34-r1: add alpha keyword
+
+  Gentoo-Bug: 588150
+

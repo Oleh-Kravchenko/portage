@@ -739,3 +739,11 @@
 
   Package-Manager: portage-2.3.0
 
+*nvidia-drivers-367.35 (16 Jul 2016)
+
+  16 Jul 2016; Jeroen Roovers <jer@gentoo.org> nvidia-drivers-367.27.ebuild,
+  +nvidia-drivers-367.35.ebuild:
+  Version bump. Add ARM resources to SRC_URI (bug #588864).
+
+  Package-Manager: portage-2.3.0
+
