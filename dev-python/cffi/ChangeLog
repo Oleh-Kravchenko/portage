@@ -369,3 +369,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*cffi-1.7.0 (17 Jul 2016)
+
+  17 Jul 2016; Patrick Lauer <patrick@gentoo.org> +cffi-1.7.0.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

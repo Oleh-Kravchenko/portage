@@ -165,3 +165,11 @@
   30 Jun 2016; Aaron Bauman <bman@gentoo.org> -libav-9.14.ebuild:
   cleanup vulnerable version per security bug #531832
 
+  17 Jul 2016; Sergei Trofimovich <slyfox@gentoo.org> libav-11.3.ebuild:
+  fix for libvpx-1.5.0, bug #565696
+
+  Pulls commit 4e0515713cdef6345aeb04bc57df0468df492bed
+  into stable as libvpx-1.5.0 is now stable.
+
+  Package-Manager: portage-2.3.0
+

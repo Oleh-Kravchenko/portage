@@ -149,3 +149,15 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*liblangtag-0.6.0-r1 (17 Jul 2016)
+
+  17 Jul 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +files/liblangtag-0.6.0-enum.patch, -liblangtag-0.6.0.ebuild,
+  +liblangtag-0.6.0-r1.ebuild:
+  fix broken enum declaration, bug #588966
+
+  Reported-by: Cynede
+  Bug: https://bugs.gentoo.org/588966
+
+  Package-Manager: portage-2.3.0
+

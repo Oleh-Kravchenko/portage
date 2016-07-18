@@ -112,3 +112,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Jul 2016; Tobias Klausmann <klausman@gentoo.org>
+  Canary-Stability-2006.ebuild:
+  2006-r0: add alpha keyword
+
+  Gentoo-Bug: 588382
+

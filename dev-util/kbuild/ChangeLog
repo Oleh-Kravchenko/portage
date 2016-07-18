@@ -93,3 +93,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  17 Jul 2016; Maciej Mrozowski <reavertm@gentoo.org>
+  kbuild-0.1.9998_pre20131130.ebuild, kbuild-0.1.9998_pre20131130-r1.ebuild:
+  Add missing texinfo dependcy, bug 572160
+
+  Package-Manager: portage-2.2.28
+

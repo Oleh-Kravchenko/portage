@@ -337,3 +337,10 @@
 
   Package-Manager: portage-2.3.0
 
+*nodejs-6.3.0 (17 Jul 2016)
+
+  17 Jul 2016; Patrick Lauer <patrick@gentoo.org> +nodejs-6.3.0.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

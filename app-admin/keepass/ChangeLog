@@ -172,3 +172,17 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Jul 2016; Michael Palimaka <kensington@gentoo.org> keepass-2.34.ebuild:
+  x86 stable
+
+  Gentoo-bug: 585140
+
+  Package-Manager: portage-2.3.0
+
+  17 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  -files/keepass-2.30-mono-4-support.patch, -keepass-2.30.ebuild,
+  -keepass-2.31.ebuild, -keepass-2.32.ebuild, -keepass-2.33.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

@@ -649,3 +649,15 @@
 
   Package-Manager: portage-2.3.0
 
+  17 Jul 2016; Jeroen Roovers <jer@gentoo.org> wireshark-2.1.1.ebuild,
+  wireshark-99999999.ebuild:
+  DEPEND on dev-qt/linguist-tools (bug #588876).
+
+  Package-Manager: portage-2.3.0
+
+  17 Jul 2016; Jeroen Roovers <jer@gentoo.org> wireshark-2.1.1.ebuild,
+  wireshark-99999999.ebuild:
+  Drop sub-SLOT on dev-qt/linguist-tools.
+
+  Package-Manager: portage-2.3.0
+

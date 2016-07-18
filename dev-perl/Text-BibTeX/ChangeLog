@@ -76,3 +76,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*Text-BibTeX-0.760.0 (16 Jul 2016)
+
+  16 Jul 2016; Manuel Rüger <mrueg@gentoo.org> +Text-BibTeX-0.760.0.ebuild:
+  Version bump to 0.76
+
+  Package-Manager: portage-2.3.0
+

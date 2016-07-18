@@ -64,3 +64,11 @@
 
   Gentoo-bug: 588416
 
+  17 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  minor metadata cleanup
+
+  - Remove redundant maintainer description
+  - Remove empty use block
+
+  Package-Manager: portage-2.2.28
+

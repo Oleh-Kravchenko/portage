@@ -25,3 +25,10 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*dominate-2.2.1 (17 Jul 2016)
+
+  17 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> +dominate-2.2.1.ebuild:
+  bump to 2.2.1
+
+  Package-Manager: portage-2.3.0
+

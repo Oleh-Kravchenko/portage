@@ -102,3 +102,11 @@
 
   Package-Manager: portage-2.3.0
 
+*PEAR-PHP_CodeSniffer-2.5.1-r1 (16 Jul 2016)
+
+  16 Jul 2016; Michael Orlitzky <mjo@gentoo.org>
+  -PEAR-PHP_CodeSniffer-2.5.1.ebuild, +PEAR-PHP_CodeSniffer-2.5.1-r1.ebuild:
+  new v2.5.1 revision fixing the test suite.
+
+  Package-Manager: portage-2.2.28
+

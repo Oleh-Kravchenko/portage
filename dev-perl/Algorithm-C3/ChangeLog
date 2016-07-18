@@ -91,3 +91,9 @@
   RepoMan-Options: --include-arches="alpha amd64 amd64-fbsd arm arm64 hppa
   ia64 m68k mips nios2 ppc ppc64 riscv s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
+  17 Jul 2016; Tobias Klausmann <klausman@gentoo.org>
+  Algorithm-C3-0.100.0.ebuild:
+  0.100.0-r0: add alpha keyword
+
+  Gentoo-Bug: 588380
+

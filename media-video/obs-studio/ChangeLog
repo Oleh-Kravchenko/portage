@@ -22,3 +22,21 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*obs-studio-0.15.1 (17 Jul 2016)
+
+  17 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  +obs-studio-0.15.1.ebuild:
+  Version bump to 0.15.1.
+
+  Also, following a suggestion by 'username234', change depending
+  directly on 'media-libs/x264' to 'media-video/ffmpeg:=[x264]'.
+
+  Furthermore, add 'default' to 'src_prepare()', which was somehow
+  working without it.
+
+  Package-Manager: portage-2.3.0
+
+  Closes: https://github.com/gentoo/gentoo/pull/1891
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

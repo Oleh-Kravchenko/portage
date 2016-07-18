@@ -92,3 +92,10 @@
 
   Package-Manager: portage-2.2.28
 
+  17 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/qpdfview-0.4.12-no_sql.patch,
+  -files/qpdfview-0.4.7-fix-sqlite-build.patch:
+  remove unused patches
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

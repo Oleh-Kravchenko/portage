@@ -138,3 +138,27 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*audit-2.4.4 (17 Jul 2016)
+
+  17 Jul 2016; Jason Zaman <perfinion@gentoo.org> +audit-2.4.4.ebuild:
+  bump to 2.4.4 bug 588734
+
+  Package-Manager: portage-2.2.28
+
+*audit-2.6.4 (17 Jul 2016)
+
+  17 Jul 2016; Jason Zaman <perfinion@gentoo.org> +audit-2.6.4.ebuild:
+  bump to 2.6.4 bug 588734
+
+  Package-Manager: portage-2.2.28
+
+  17 Jul 2016; Jason Zaman <perfinion@gentoo.org> audit-2.4.4.ebuild:
+  stable for alpha amd64 hppa ppc x86 (bug 588734)
+
+  Package-Manager: portage-2.2.28
+
+  17 Jul 2016; Jeroen Roovers <jer@gentoo.org> audit-2.4.4.ebuild:
+  Back to ~arch.
+
+  Package-Manager: portage-2.3.0
+

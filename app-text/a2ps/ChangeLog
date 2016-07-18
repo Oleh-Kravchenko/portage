@@ -81,3 +81,11 @@
   Package-Manager: portage-2.3.0_rc1
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+  17 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/a2ps-4.13c-psset.patch:
+  remove unused patch
+
+  Closes: https://github.com/gentoo/gentoo/pull/1903
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
