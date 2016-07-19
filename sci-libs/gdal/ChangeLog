@@ -158,3 +158,11 @@
 
   Package-Manager: portage-2.2.28
 
+  18 Jul 2016; Sven Wegener <swegener@gentoo.org>
+  +files/gdal-1.11-swig-3.0.6.patch, gdal-1.11.1-r3.ebuild,
+  gdal-1.11.2.ebuild:
+  Fix building with >=swig-3.0.6
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Sven Wegener <swegener@gentoo.org>
+

@@ -243,3 +243,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  18 Jul 2016; Markus Meier <maekke@gentoo.org> monkeyd-1.6.9-r1.ebuild:
+  arm stable, bug #585064
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

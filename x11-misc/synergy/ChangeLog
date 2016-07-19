@@ -137,3 +137,17 @@
 
   Package-Manager: portage-2.3.0
 
+*synergy-1.8.1-r2 (17 Jul 2016)
+
+  17 Jul 2016; Jeroen Roovers <jer@gentoo.org> -synergy-1.8.1-r1.ebuild,
+  +synergy-1.8.1-r2.ebuild:
+  Make libns.so executable (bug #550692).
+
+  Package-Manager: portage-2.3.0
+
+  18 Jul 2016; Jeroen Roovers <jer@gentoo.org> synergy-1.6.3.ebuild,
+  synergy-1.7.5-r1.ebuild, synergy-1.7.6.ebuild, synergy-1.8.1-r2.ebuild:
+  Replace dead URL.
+
+  Package-Manager: portage-2.3.0
+

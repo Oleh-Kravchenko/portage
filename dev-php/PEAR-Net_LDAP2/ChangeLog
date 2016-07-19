@@ -82,3 +82,19 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*PEAR-Net_LDAP2-2.2.0 (18 Jul 2016)
+
+  18 Jul 2016; Michael Orlitzky <mjo@gentoo.org> +PEAR-Net_LDAP2-2.2.0.ebuild:
+  new version 2.2.0 to fix a Roundcube issue.
+
+  A user reported the following error on the roundcube forums:
+
+    http://www.roundcubeforum.net/index.php?topic=23182.0
+
+  This is fixed in the latest version of Net_LDAP2.
+
+  Gentoo-Bug: 589070
+  Reported-By: Stefan Briesenick
+
+  Package-Manager: portage-2.2.28
+

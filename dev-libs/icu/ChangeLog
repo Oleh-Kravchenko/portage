@@ -139,3 +139,9 @@
   25 May 2016; Matt Turner <mattst88@gentoo.org> icu-57.1.ebuild:
   alpha stable, bug 580674.
 
+  18 Jul 2016; Jeroen Roovers <jer@gentoo.org> icu-57.1.ebuild:
+  Stable for HPPA PPC64 (bug #580674).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

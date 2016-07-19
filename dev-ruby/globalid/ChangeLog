@@ -86,3 +86,10 @@
 
   Package-Manager: portage-2.2.28
 
+*globalid-0.3.6-r1 (18 Jul 2016)
+
+  18 Jul 2016; Hans de Graaff <graaff@gentoo.org> +globalid-0.3.6-r1.ebuild:
+  add ruby23 revision
+
+  Package-Manager: portage-2.2.28
+

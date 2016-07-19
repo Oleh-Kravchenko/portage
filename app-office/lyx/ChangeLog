@@ -149,3 +149,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  18 Jul 2016; Yixun Lan <dlan@gentoo.org> lyx-2.2.0.ebuild:
+  fix missing dev-qt/qtconcurrent dep
+
+  Gentoo-Bug: 588972
+
+  Author-By: Pavel Sanda <ps@twin.jikos.cz>
+
+  Package-Manager: portage-2.3.0_rc1
+

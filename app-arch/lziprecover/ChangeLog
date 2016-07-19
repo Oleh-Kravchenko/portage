@@ -101,3 +101,19 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*lziprecover-1.19_pre1 (18 Jul 2016)
+
+  18 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +lziprecover-1.19_pre1.ebuild:
+  Bump to version 1.19_pre1
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  18 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -lziprecover-1.16.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

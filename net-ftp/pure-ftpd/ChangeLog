@@ -104,3 +104,9 @@
 
   Gentoo-Bug: 588300
 
+  18 Jul 2016; Markus Meier <maekke@gentoo.org> pure-ftpd-1.0.42-r1.ebuild:
+  arm stable, bug #588300
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

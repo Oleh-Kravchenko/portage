@@ -96,3 +96,7 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Jul 2016; Aaron Bauman <bman@gentoo.org> -mod_security-2.7.4.ebuild,
+  -mod_security-2.7.5.ebuild:
+  cleanup vulnerable versions wrt bug 506454
+

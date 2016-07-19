@@ -172,3 +172,10 @@
 
   Package-Manager: portage-2.3.0_rc1_p27
 
+*cython-0.24.1 (17 Jul 2016)
+
+  17 Jul 2016; Patrick Lauer <patrick@gentoo.org> +cython-0.24.1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

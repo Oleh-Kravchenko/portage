@@ -502,3 +502,9 @@
 
   Gentoo-Bug: 588284
 
+  18 Jul 2016; Markus Meier <maekke@gentoo.org> setuptools-20.6.7.ebuild:
+  arm stable, bug #588284
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

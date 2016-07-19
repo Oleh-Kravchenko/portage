@@ -245,3 +245,11 @@
 
   Package-Manager: portage-2.2.28
 
+  18 Jul 2016; Ian Stakenvicius <axs@gentoo.org> seamonkey-2.39.ebuild,
+  seamonkey-2.40.ebuild:
+  fix install path related to USE="-gmp-autoupdate"
+
+  Bug: http://bugs.gentoo.org/588070
+
+  Package-Manager: portage-2.2.28
+

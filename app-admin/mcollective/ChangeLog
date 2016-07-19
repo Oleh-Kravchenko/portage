@@ -71,3 +71,8 @@
   files/mcollectived.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  18 Jul 2016; Hans de Graaff <graaff@gentoo.org> mcollective-2.8.0.ebuild:
+  add ruby21, ruby22, ruby23
+
+  Package-Manager: portage-2.2.28
+

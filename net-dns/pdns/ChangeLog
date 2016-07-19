@@ -135,3 +135,11 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Sven Wegener <swegener@gentoo.org>
 
+*pdns-4.0.0 (18 Jul 2016)
+
+  18 Jul 2016; Sven Wegener <swegener@gentoo.org> metadata.xml,
+  +pdns-4.0.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

@@ -209,3 +209,10 @@
 
   Package-Manager: portage-2.2.28
 
+*actionview-4.2.7 (18 Jul 2016)
+
+  18 Jul 2016; Hans de Graaff <graaff@gentoo.org> +actionview-4.2.7.ebuild:
+  add rails 4.2.7 with ruby23
+
+  Package-Manager: portage-2.2.28
+

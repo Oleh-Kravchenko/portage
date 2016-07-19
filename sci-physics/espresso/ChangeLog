@@ -63,3 +63,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*espresso-3.3.1 (18 Jul 2016)
+
+  18 Jul 2016; Christoph Junghans <ottxor@gentoo.org> +espresso-3.3.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.28
+

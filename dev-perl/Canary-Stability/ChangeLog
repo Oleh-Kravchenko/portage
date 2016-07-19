@@ -118,3 +118,9 @@
 
   Gentoo-Bug: 588382
 
+  18 Jul 2016; Markus Meier <maekke@gentoo.org> Canary-Stability-2006.ebuild:
+  arm stable, bug #588382
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

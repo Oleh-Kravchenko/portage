@@ -45,3 +45,9 @@
 
   Gentoo-Bug: 588304
 
+  18 Jul 2016; Markus Meier <maekke@gentoo.org> PyContracts-1.7.9.ebuild:
+  arm stable, bug #588304
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

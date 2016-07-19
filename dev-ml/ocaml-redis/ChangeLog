@@ -24,3 +24,15 @@
 
   Package-Manager: portage-2.3.0
 
+  18 Jul 2016; Alexis Ballier <aballier@gentoo.org> -ocaml-redis-0.2.3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+*ocaml-redis-0.3.1 (18 Jul 2016)
+
+  18 Jul 2016; Alexis Ballier <aballier@gentoo.org> +ocaml-redis-0.3.1.ebuild:
+  bump to 0.3.1
+
+  Package-Manager: portage-2.3.0
+

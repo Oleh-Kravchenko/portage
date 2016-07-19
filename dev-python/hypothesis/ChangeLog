@@ -287,3 +287,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*hypothesis-3.4.2 (18 Jul 2016)
+
+  18 Jul 2016; Patrick Lauer <patrick@gentoo.org> +hypothesis-3.4.2.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

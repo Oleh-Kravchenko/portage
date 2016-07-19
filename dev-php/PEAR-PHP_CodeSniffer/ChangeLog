@@ -110,3 +110,15 @@
 
   Package-Manager: portage-2.2.28
 
+*PEAR-PHP_CodeSniffer-2.6.2-r1 (18 Jul 2016)
+
+  18 Jul 2016; Brian Evans <grknight@gentoo.org>
+  -PEAR-PHP_CodeSniffer-2.6.2.ebuild, +PEAR-PHP_CodeSniffer-2.6.2-r1.ebuild:
+  Revbump to remove PEAR eclass
+
+  As per mjo's comments on IRC, this package may be better off
+  in its own namepace.  None of the includes are meant to be used outside
+  of the script
+
+  Package-Manager: portage-2.3.0
+

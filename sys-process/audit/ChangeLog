@@ -162,3 +162,9 @@
 
   Package-Manager: portage-2.3.0
 
+  18 Jul 2016; Markus Meier <maekke@gentoo.org> audit-2.4.3-r1.ebuild:
+  arm stable, bug #577770
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

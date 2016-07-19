@@ -68,3 +68,15 @@
 
   Package-Manager: portage-2.2.26
 
+*tuxtype-1.8.1-r1 (18 Jul 2016)
+
+  18 Jul 2016; Austin English <wizardedit@gentoo.org>
+  +tuxtype-1.8.1-r1.ebuild:
+  remove deprecated games eclass
+
+  Also update to EAPI 6
+
+  Gentoo-Bug: https://bugs.gentoo.org/574082
+
+  Package-Manager: portage-2.3.0
+

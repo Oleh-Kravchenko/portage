@@ -252,3 +252,9 @@
   25 May 2016; Matt Turner <mattst88@gentoo.org> logrotate-3.9.2.ebuild:
   alpha stable, bug 575618.
 
+  18 Jul 2016; Jeroen Roovers <jer@gentoo.org> logrotate-3.9.2.ebuild:
+  Stable for HPPA (bug #575618).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

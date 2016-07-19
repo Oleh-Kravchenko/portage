@@ -114,3 +114,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  18 Jul 2016; Jeroen Roovers <jer@gentoo.org> cronie-1.5.0-r1.ebuild:
+  Stable for HPPA PPC64 (bug #587796).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

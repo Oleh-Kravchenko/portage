@@ -315,3 +315,15 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*lftp-4.7.3 (18 Jul 2016)
+
+  18 Jul 2016; Jeroen Roovers <jer@gentoo.org> +lftp-4.7.3.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+
+  18 Jul 2016; Jeroen Roovers <jer@gentoo.org> -lftp-4.7.2-r1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+
