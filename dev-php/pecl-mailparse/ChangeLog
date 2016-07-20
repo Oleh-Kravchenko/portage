@@ -92,3 +92,17 @@
 
   Package-Manager: portage-2.2.28
 
+*pecl-mailparse-3.0.1-r1 (19 Jul 2016)
+
+  19 Jul 2016; Brian Evans <grknight@gentoo.org>
+  +pecl-mailparse-3.0.1-r1.ebuild:
+  Revbump into a new slot
+
+  Package-Manager: portage-2.3.0
+
+  19 Jul 2016; Brian Evans <grknight@gentoo.org> -pecl-mailparse-3.0.0.ebuild,
+  -pecl-mailparse-3.0.1.ebuild:
+  Drop old versions
+
+  Package-Manager: portage-2.3.0
+

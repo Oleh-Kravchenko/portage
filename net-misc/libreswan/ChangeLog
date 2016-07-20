@@ -146,3 +146,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Jul 2016; Mike Gilbert <floppym@gentoo.org> -libreswan-3.15.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_p13
+

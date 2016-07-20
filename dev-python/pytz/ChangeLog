@@ -182,3 +182,7 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  19 Jul 2016; Mike Frysinger <vapier@gentoo.org> pytz-2016.3.ebuild,
+  pytz-2016.6.1.ebuild:
+  also allow glibc[vanilla] #588424
+

@@ -145,3 +145,14 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*rkt-1.10.1 (19 Jul 2016)
+
+  19 Jul 2016; Zac Medico <zmedico@gentoo.org> +rkt-1.10.1.ebuild:
+  version bump to 1.10.1 (fixes bug 585208)
+
+  This includes the patch from https://github.com/coreos/rkt/pull/2868
+  and --enable-sdjournal=no is passed to econf when USE=systemd is
+  not enabled.
+
+  Package-Manager: portage-2.3.0
+

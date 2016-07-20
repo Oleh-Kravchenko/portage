@@ -175,3 +175,20 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*man-pages-4.07 (19 Jul 2016)
+
+  19 Jul 2016; Anthony G. Basile <blueness@gentoo.org> +man-pages-4.07.ebuild:
+  version bump to 4.07
+
+  Package-Manager: portage-2.2.28
+
+  19 Jul 2016; Anthony G. Basile <blueness@gentoo.org> man-pages-4.06.ebuild:
+  stabilize 4.06 for all arches
+
+  Package-Manager: portage-2.2.28
+
+  19 Jul 2016; Anthony G. Basile <blueness@gentoo.org> -man-pages-4.04.ebuild:
+  remove old stable version
+
+  Package-Manager: portage-2.2.28
+

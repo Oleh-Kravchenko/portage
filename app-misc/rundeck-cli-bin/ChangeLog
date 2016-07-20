@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.2.28
 
+*rundeck-cli-bin-0.1.11 (19 Jul 2016)
+
+  19 Jul 2016; William Hubbs <williamh@gentoo.org>
+  +rundeck-cli-bin-0.1.11.ebuild:
+  0.1.11 version bump
+
+  Package-Manager: portage-2.2.28
+

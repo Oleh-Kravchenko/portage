@@ -227,3 +227,23 @@
 
   Gentoo-Bug: 587560
 
+  19 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> notmuch-0.22-r2.ebuild:
+  Put database to correct directory
+
+  Package-Manager: portage-2.3.0
+
+*notmuch-0.22.1 (19 Jul 2016)
+
+  19 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +notmuch-0.22.1.ebuild:
+  Bump version to 0.22.1
+
+  Package-Manager: portage-2.3.0
+
+  19 Jul 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> notmuch-0.22-r2.ebuild,
+  notmuch-0.22.1.ebuild:
+  Don't die on unpack
+
+  Copy test database only for test.
+
+  Package-Manager: portage-2.3.0
+
