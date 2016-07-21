@@ -258,3 +258,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Jul 2016; Sergey Popov <pinkbyte@gentoo.org> -ansible-1.9.4.ebuild:
+  drop old version
+
+  Package-Manager: portage-2.2.28
+

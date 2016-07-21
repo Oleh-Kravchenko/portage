@@ -200,3 +200,13 @@
 
   Package-Manager: portage-2.3.0
 
+*konqueror-16.04.3-r1 (20 Jul 2016)
+
+  20 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  -konqueror-16.04.3.ebuild, +konqueror-16.04.3-r1.ebuild:
+  avoid installing dolphin stuff with USE="-filemanager"
+
+  Gentoo-bug: 589126
+
+  Package-Manager: portage-2.3.0
+

@@ -123,3 +123,10 @@
 
   Package-Manager: portage-2.2.28
 
+*arel-7.1.0 (20 Jul 2016)
+
+  20 Jul 2016; Hans de Graaff <graaff@gentoo.org> +arel-7.1.0.ebuild:
+  add 7.1.0
+
+  Package-Manager: portage-2.2.28
+

@@ -260,3 +260,14 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+*openafs-1.6.18.2 (20 Jul 2016)
+
+  20 Jul 2016; NP-Hardass <NP-Hardass@gentoo.org> +openafs-1.6.18.2.ebuild:
+  Vbump to 1.6.18.2, Support dyn cachedir from config file
+
+  Previously, config scripts ignored the setting in /etc/openafs/cacheinfo
+  and assumed the default /var/cache/openafs.  Now we pull the value
+  dynamically from the config file
+
+  Package-Manager: portage-2.2.28
+

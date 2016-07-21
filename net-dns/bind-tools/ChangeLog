@@ -246,3 +246,17 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*bind-tools-9.10.4_p2 (20 Jul 2016)
+
+  20 Jul 2016; Christian Ruppert <idl0r@gentoo.org>
+  +bind-tools-9.10.4_p2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+
+  20 Jul 2016; Christian Ruppert <idl0r@gentoo.org>
+  -bind-tools-9.10.3_p2.ebuild:
+  Remove old Version
+
+  Package-Manager: portage-2.3.0
+

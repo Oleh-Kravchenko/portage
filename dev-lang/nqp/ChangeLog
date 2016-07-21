@@ -193,3 +193,10 @@
 
   Package-Manager: portage-2.3.0
 
+*nqp-2016.07 (20 Jul 2016)
+
+  20 Jul 2016; Patrick Lauer <patrick@gentoo.org> +nqp-2016.07.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

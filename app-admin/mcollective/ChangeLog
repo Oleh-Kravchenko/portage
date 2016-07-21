@@ -76,3 +76,11 @@
 
   Package-Manager: portage-2.2.28
 
+*mcollective-2.8.8 (20 Jul 2016)
+
+  20 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +mcollective-2.8.8.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

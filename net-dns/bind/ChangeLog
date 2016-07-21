@@ -306,3 +306,23 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Jul 2016; Christian Ruppert <idl0r@gentoo.org> -bind-9.10.3_p2.ebuild:
+  Remove old version
+
+  Package-Manager: portage-2.3.0
+
+*bind-9.10.4_p1 (20 Jul 2016)
+
+  20 Jul 2016; Christian Ruppert <idl0r@gentoo.org> +bind-9.10.4_p1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+
+*bind-9.10.4_p2 (20 Jul 2016)
+
+  20 Jul 2016; Christian Ruppert <idl0r@gentoo.org> -bind-9.10.4_p1.ebuild,
+  +bind-9.10.4_p2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

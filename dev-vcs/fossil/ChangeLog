@@ -94,3 +94,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  20 Jul 2016; Aaron W. Swenson <titanofold@gentoo.org>
+  -fossil-20150119112900.ebuild:
+  Remove old
+
+  Clean up outdated.
+
+  Package-Manager: portage-2.2.28
+

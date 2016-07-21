@@ -107,3 +107,18 @@
 
   Package-Manager: portage-2.3.0
 
+*kdiff3-0.9.97-r2 (20 Jul 2016)
+
+  20 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/kdiff3-0.9.97-relativepath.patch, +kdiff3-0.9.97-r2.ebuild:
+  restore 0.9.97-r2
+
+  This reverts commit 047c73f0b2503ad56a6de2ef46ec6b2df727d94b.
+
+  Gentoo-bug: 546494
+
+  20 Jul 2016; Michael Palimaka <kensington@gentoo.org> metadata.xml:
+  drop kde project
+
+  Package-Manager: portage-2.3.0
+

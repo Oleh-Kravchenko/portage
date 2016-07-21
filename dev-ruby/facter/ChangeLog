@@ -226,3 +226,10 @@
 
   Package-Manager: portage-2.2.28
 
+*facter-3.3.0 (20 Jul 2016)
+
+  20 Jul 2016; Matthew Thode <prometheanfire@gentoo.org> +facter-3.3.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

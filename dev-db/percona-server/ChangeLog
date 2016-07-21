@@ -209,3 +209,17 @@
 
   Package-Manager: portage-2.3.0
 
+*percona-server-5.6.31.77.0 (20 Jul 2016)
+
+  20 Jul 2016; Brian Evans <grknight@gentoo.org>
+  +percona-server-5.6.31.77.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+
+  20 Jul 2016; Brian Evans <grknight@gentoo.org>
+  -percona-server-5.6.30.76.3.ebuild:
+  Drop security vulnerable version
+
+  Package-Manager: portage-2.3.0
+

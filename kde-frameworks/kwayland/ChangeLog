@@ -40,3 +40,13 @@
 
   Package-Manager: portage-2.3.0
 
+  20 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  kwayland-5.24.0.ebuild:
+  add RDEPEND on dev-qt/qtwayland.
+
+  dev-qt/qtwayland is required at runtime for the platform plugin.
+
+  Gentoo-bug: 589184
+
+  Package-Manager: portage-2.3.0
+

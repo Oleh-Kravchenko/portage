@@ -381,3 +381,22 @@
 
   Package-Manager: portage-2.3.0
 
+*mysql-5.6.31 (20 Jul 2016)
+
+  20 Jul 2016; Brian Evans <grknight@gentoo.org> +mysql-5.6.31.ebuild:
+  Security version bump wrt bug 589238
+
+  Package-Manager: portage-2.3.0
+
+*mysql-5.5.50 (20 Jul 2016)
+
+  20 Jul 2016; Brian Evans <grknight@gentoo.org> +mysql-5.5.50.ebuild:
+  Version bump for 5.5.50
+
+  Package-Manager: portage-2.3.0
+
+  20 Jul 2016; Brian Evans <grknight@gentoo.org> -mysql-5.5.49.ebuild:
+  Drop security vulnerable 5.5.49 wrt bug 589238
+
+  Package-Manager: portage-2.3.0
+
