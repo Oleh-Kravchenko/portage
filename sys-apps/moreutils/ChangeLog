@@ -83,3 +83,8 @@
   12 Mar 2016; Tim Harder <radhermit@gentoo.org> +moreutils-0.58.ebuild:
   version bump to 0.58
 
+*moreutils-0.59 (21 Jul 2016)
+
+  21 Jul 2016; Tim Harder <radhermit@gentoo.org> +moreutils-0.59.ebuild:
+  version bump to 0.59
+

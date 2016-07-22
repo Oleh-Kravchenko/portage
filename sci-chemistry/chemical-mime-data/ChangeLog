@@ -108,3 +108,10 @@
 
   Package-Manager: portage-2.3.0
 
+  20 Jul 2016; Justin Lecher <jlec@gentoo.org>
+  chemical-mime-data-0.1.94-r3.ebuild:
+  Drop unecessary or unfunctional deps
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

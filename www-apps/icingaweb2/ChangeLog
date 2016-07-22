@@ -189,3 +189,9 @@
 
   Package-Manager: portage-2.2.28
 
+  21 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  icingaweb2-2.3.4.ebuild:
+  stable amd64 / x86
+
+  Package-Manager: portage-2.2.28
+

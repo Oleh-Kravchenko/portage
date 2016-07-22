@@ -404,3 +404,30 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*cups-filters-1.10.0 (21 Jul 2016)
+
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +cups-filters-1.10.0.ebuild:
+  Bump to version 1.10.0
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  cups-filters-9999.ebuild:
+  Sync live ebuild with latest release ebuild.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -cups-filters-1.6.0.ebuild, -cups-filters-1.8.2-r1.ebuild,
+  cups-filters-9999.ebuild, -files/cups-browsed.service,
+  -files/cups-filters-1.8.2-configure-PKG_CONFIG.patch,
+  -files/cups-filters-1.8.2-disable-ijs.patch,
+  -files/cups-filters-1.8.2-gstoraster.patch:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

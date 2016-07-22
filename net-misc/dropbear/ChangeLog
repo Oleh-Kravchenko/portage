@@ -146,3 +146,8 @@
   -dropbear-2015.71.ebuild, -dropbear-2016.72.ebuild:
   drop old <2016.73 versions
 
+*dropbear-2016.74 (21 Jul 2016)
+
+  21 Jul 2016; Mike Frysinger <vapier@gentoo.org> +dropbear-2016.74.ebuild:
+  version bump to 2016.74
+

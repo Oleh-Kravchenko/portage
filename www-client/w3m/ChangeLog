@@ -107,3 +107,8 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Jul 2016; Benda Xu <heroxbd@gentoo.org> w3m-0.5.3-r8.ebuild:
+  prefixify search paths of acinclude.m4.
+
+  Package-Manager: portage-2.2.28
+

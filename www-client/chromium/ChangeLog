@@ -1240,3 +1240,39 @@
 
   Package-Manager: portage-2.3.0_p13
 
+*chromium-52.0.2743.82 (21 Jul 2016)
+
+  21 Jul 2016; Mike Gilbert <floppym@gentoo.org>
+  -chromium-52.0.2743.49.ebuild, +chromium-52.0.2743.82.ebuild:
+  stable channel bump (52.0.2743.82)
+
+  Package-Manager: portage-2.3.0_p15
+
+  21 Jul 2016; Agostino Sarubbo <ago@gentoo.org> chromium-52.0.2743.82.ebuild:
+  amd64 stable wrt bug #589278
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  21 Jul 2016; Agostino Sarubbo <ago@gentoo.org> chromium-52.0.2743.82.ebuild:
+  x86 stable wrt bug #589278
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  21 Jul 2016; Mike Gilbert <floppym@gentoo.org>
+  -chromium-51.0.2704.103.ebuild, -chromium-52.0.2743.60.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_p15
+
+*chromium-53.0.2785.21 (21 Jul 2016)
+
+  21 Jul 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-53.0.2783.2.ebuild, +chromium-53.0.2785.21.ebuild:
+  dev channel bump (53.0.2785.21)
+
+  Package-Manager: portage-2.2.28
+

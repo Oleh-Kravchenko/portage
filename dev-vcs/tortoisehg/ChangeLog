@@ -250,3 +250,19 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*tortoisehg-3.8.4 (21 Jul 2016)
+
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +tortoisehg-3.8.4.ebuild:
+  Bump to version 3.8.4
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -tortoisehg-3.3.2.ebuild, -tortoisehg-3.8.1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -229,3 +229,8 @@
   +files/libdrm-2.4.68-sysmacros.patch, libdrm-2.4.68.ebuild:
   fix building w/newer glibc #580088
 
+*libdrm-2.4.69 (21 Jul 2016)
+
+  21 Jul 2016; Matt Turner <mattst88@gentoo.org> +libdrm-2.4.69.ebuild:
+  Version bump to 2.4.69.
+

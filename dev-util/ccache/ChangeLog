@@ -130,3 +130,8 @@
   -files/ccache-config, -files/ccache-config-2:
   drop old <3.2.4 versions
 
+*ccache-3.2.7 (21 Jul 2016)
+
+  21 Jul 2016; Mike Frysinger <vapier@gentoo.org> +ccache-3.2.7.ebuild:
+  version bump to 3.2.7
+

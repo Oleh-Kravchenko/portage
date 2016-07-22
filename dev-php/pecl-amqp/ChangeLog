@@ -78,3 +78,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*pecl-amqp-1.7.1 (21 Jul 2016)
+
+  21 Jul 2016; Brian Evans <grknight@gentoo.org> +pecl-amqp-1.7.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

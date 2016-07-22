@@ -257,3 +257,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> clementine-1.2.3.ebuild,
+  clementine-1.2.3-r2.ebuild, clementine-1.3.1-r2.ebuild,
+  clementine-9999.ebuild:
+  media-libs/taglib-1.11 dropped mp4 USE flag.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

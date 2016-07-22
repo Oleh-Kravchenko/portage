@@ -223,3 +223,11 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Jul 2016; Brian Evans <grknight@gentoo.org>
+  percona-server-5.6.31.77.0.ebuild:
+  Mark 2 tests as false positives wrt bug 589280
+
+  Tests fixed upstream in next version
+
+  Package-Manager: portage-2.3.0
+

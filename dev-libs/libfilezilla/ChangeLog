@@ -104,3 +104,20 @@
 
   Package-Manager: portage-2.3.0
 
+*libfilezilla-0.6.0 (21 Jul 2016)
+
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +libfilezilla-0.6.0.ebuild:
+  Bump to version 0.6.0
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -libfilezilla-0.4.0.1.ebuild, -libfilezilla-0.5.1.ebuild,
+  -libfilezilla-0.5.2.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

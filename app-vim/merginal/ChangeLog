@@ -18,3 +18,8 @@
   05 May 2016; Tim Harder <radhermit@gentoo.org> +merginal-2.0.1.ebuild:
   version bump to 2.0.1
 
+*merginal-2.0.2 (21 Jul 2016)
+
+  21 Jul 2016; Tim Harder <radhermit@gentoo.org> +merginal-2.0.2.ebuild:
+  version bump to 2.0.2
+

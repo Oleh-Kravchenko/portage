@@ -21,3 +21,6 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  21 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
+  add upstream remote-id
+

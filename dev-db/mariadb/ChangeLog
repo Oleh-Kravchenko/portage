@@ -561,3 +561,12 @@
 
   Package-Manager: portage-2.3.0
 
+*mariadb-10.1.16 (21 Jul 2016)
+*mariadb-5.5.50 (21 Jul 2016)
+
+  21 Jul 2016; Brian Evans <grknight@gentoo.org> +mariadb-5.5.50.ebuild,
+  +mariadb-10.1.16.ebuild:
+  Version bumps
+
+  Package-Manager: portage-2.3.0
+

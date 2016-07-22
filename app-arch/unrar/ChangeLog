@@ -219,3 +219,18 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*unrar-5.4.3 (21 Jul 2016)
+
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +unrar-5.4.3.ebuild:
+  Bump to version 5.4.3
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  21 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> -unrar-5.1.6.ebuild,
+  -unrar-5.2.7.ebuild, -unrar-5.4.1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

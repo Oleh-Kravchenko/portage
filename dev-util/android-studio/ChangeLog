@@ -225,3 +225,16 @@
 
   Package-Manager: portage-2.2.28
 
+  21 Jul 2016; Jason Zaman <perfinion@gentoo.org>
+  android-studio-2.1.2.0.143.2915827.ebuild:
+  stable 2.1.2
+
+  Package-Manager: portage-2.2.28
+
+  21 Jul 2016; Jason Zaman <perfinion@gentoo.org>
+  -android-studio-1.5.2.0.141.2836215.ebuild,
+  -android-studio-2.1.1.0.143.2821654.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.28
+

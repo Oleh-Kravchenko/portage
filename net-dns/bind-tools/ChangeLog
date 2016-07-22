@@ -260,3 +260,12 @@
 
   Package-Manager: portage-2.3.0
 
+*bind-tools-9.10.3_p2 (21 Jul 2016)
+
+  21 Jul 2016; Mike Gilbert <floppym@gentoo.org> +bind-tools-9.10.3_p2.ebuild:
+  Revert "net-dns/bind-tools: Remove old Version"
+
+  This reverts commit 12974f31750e1da06d20a302a8b958023d1b6078.
+
+  This broke the stable depgraph for ppc and sparc.
+

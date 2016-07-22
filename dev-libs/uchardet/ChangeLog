@@ -204,3 +204,21 @@
 
   Gentoo-Bug: 581200
 
+  21 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml,
+  uchardet-0.0.5-r1.ebuild, uchardet-9999.ebuild:
+  migrate to the new freedesktop upstream
+
+  See https://github.com/BYVoid/uchardet/issues/22
+  and https://www.freedesktop.org/wiki/Software/uchardet/
+
+  Package-Manager: portage-2.3.0
+
+*uchardet-0.0.6 (21 Jul 2016)
+
+  21 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> +uchardet-0.0.6.ebuild:
+  verbump to 0.0.6
+
+  Gentoo-Bug: 589268
+  Closes: https://github.com/gentoo/gentoo/pull/1929
+  Package-Manager: portage-2.3.0
+

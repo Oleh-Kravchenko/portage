@@ -84,3 +84,11 @@
 
   Package-Manager: portage-2.2.28
 
+  21 Jul 2016; Stephen L Arnold <nerdboy@gentoo.org>
+  eselect-gnat-1.5-r1.ebuild:
+  add S for EAPI compliance
+
+  This addresses bug 585004 from recent EAPI update.
+
+  Package-Manager: portage-2.2.28
+
