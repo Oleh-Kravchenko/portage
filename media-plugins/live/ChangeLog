@@ -211,3 +211,10 @@
 
   Package-Manager: portage-2.3.0
 
+*live-2016.07.19 (22 Jul 2016)
+
+  22 Jul 2016; Alexis Ballier <aballier@gentoo.org> +live-2016.07.19.ebuild:
+  bump to 2016.07.19
+
+  Package-Manager: portage-2.3.0
+

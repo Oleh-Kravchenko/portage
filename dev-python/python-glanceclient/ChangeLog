@@ -175,3 +175,19 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  22 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  python-glanceclient-2.0.1.ebuild:
+  stable amd64 / x86
+
+  Package-Manager: portage-2.2.28
+
+  22 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -python-glanceclient-0.13.1.ebuild, -python-glanceclient-0.14.2.ebuild,
+  -python-glanceclient-0.17.0.ebuild, -python-glanceclient-0.17.1.ebuild,
+  -python-glanceclient-0.17.2.ebuild, -python-glanceclient-0.18.0.ebuild,
+  -python-glanceclient-0.19.0.ebuild, -python-glanceclient-0.19.0-r1.ebuild,
+  -python-glanceclient-1.0.0.ebuild, -python-glanceclient-1.1.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

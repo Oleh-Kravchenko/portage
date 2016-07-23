@@ -591,3 +591,27 @@
   10 Jun 2016; Michał Górny <mgorny@gentoo.org> +python-3.4.4.ebuild:
   Bump to 3.4.4
 
+*python-3.5.2 (21 Jul 2016)
+
+  21 Jul 2016; Mike Gilbert <floppym@gentoo.org> +python-3.5.2.ebuild:
+  bump to 3.5.2
+
+  Package-Manager: portage-2.3.0_p15
+
+*python-3.4.5 (21 Jul 2016)
+
+  21 Jul 2016; Mike Gilbert <floppym@gentoo.org> +python-3.4.5.ebuild:
+  bump to 3.4.5
+
+  Package-Manager: portage-2.3.0_p15
+
+  21 Jul 2016; Mike Gilbert <floppym@gentoo.org> python-3.4.5.ebuild:
+  fix SRC_URI
+
+*python-2.7.12 (22 Jul 2016)
+
+  22 Jul 2016; Mike Gilbert <floppym@gentoo.org> +python-2.7.12.ebuild:
+  bump to 2.7.12
+
+  Package-Manager: portage-2.3.0_p15
+

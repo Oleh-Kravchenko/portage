@@ -269,3 +269,9 @@
 
   This broke the stable depgraph for ppc and sparc.
 
+  22 Jul 2016; Agostino Sarubbo <ago@gentoo.org> bind-tools-9.10.3_p4.ebuild:
+  Stable for ia64/ppc/sparc wrt bug #576902
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

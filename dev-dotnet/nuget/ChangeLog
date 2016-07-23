@@ -54,3 +54,10 @@
 
   Package-Manager: portage-2.3.0
 
+*nuget-2.8.7-r1 (22 Jul 2016)
+
+  22 Jul 2016; Mikhail Pukhlikov <cynede@gentoo.org> +nuget-2.8.7-r1.ebuild:
+  port bdouxx's fix for certificates problem
+
+  Package-Manager: portage-2.3.0
+

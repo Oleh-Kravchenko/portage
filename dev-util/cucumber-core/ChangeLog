@@ -102,3 +102,10 @@
 
   Package-Manager: portage-2.2.28
 
+*cucumber-core-1.5.0 (22 Jul 2016)
+
+  22 Jul 2016; Hans de Graaff <graaff@gentoo.org> +cucumber-core-1.5.0.ebuild:
+  add 1.5.0
+
+  Package-Manager: portage-2.2.28
+

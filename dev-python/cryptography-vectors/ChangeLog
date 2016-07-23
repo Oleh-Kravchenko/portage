@@ -395,3 +395,9 @@
   cryptography-vectors-1.3.1.ebuild:
   mark 1.3.1 arm64/ia64/m68k/ppc/ppc64/s390/sh/sparc stable #583884
 
+  22 Jul 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  cryptography-vectors-1.3.1.ebuild:
+  x86 stable wrt bug #583884
+
+  Package-Manager: portage-2.3.0
+

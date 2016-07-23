@@ -70,3 +70,22 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*mpv-bash-completion-3.3.3 (22 Jul 2016)
+
+  22 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  +mpv-bash-completion-3.3.3.ebuild:
+  verbump to 3.3.3
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  22 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -mpv-bash-completion-3.0.ebuild:
+  remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/1925
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

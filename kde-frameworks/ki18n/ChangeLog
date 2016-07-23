@@ -243,3 +243,8 @@
 
   Package-Manager: portage-2.3.0
 
+  22 Jul 2016; Benda Xu <heroxbd@gentoo.org> ki18n-5.24.0.ebuild:
+  use the correct directory for Prefix
+
+  Package-Manager: portage-2.3.0
+

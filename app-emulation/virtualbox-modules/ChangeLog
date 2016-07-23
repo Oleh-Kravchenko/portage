@@ -319,3 +319,20 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*virtualbox-modules-5.1.2 (22 Jul 2016)
+*virtualbox-modules-5.0.26 (22 Jul 2016)
+
+  22 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +virtualbox-modules-5.0.26.ebuild, +virtualbox-modules-5.1.2.ebuild:
+  virtualbox host packages: Bump to versions 5.0.26 and 5.1.2
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  22 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -virtualbox-modules-5.0.20.ebuild:
+  virtualbox host packages: Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

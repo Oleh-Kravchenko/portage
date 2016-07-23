@@ -303,3 +303,21 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*virtualbox-extpack-oracle-5.1.2.108956 (22 Jul 2016)
+*virtualbox-extpack-oracle-5.0.26.108824 (22 Jul 2016)
+
+  22 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +virtualbox-extpack-oracle-5.0.26.108824.ebuild,
+  +virtualbox-extpack-oracle-5.1.2.108956.ebuild:
+  virtualbox host packages: Bump to versions 5.0.26 and 5.1.2
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  22 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -virtualbox-extpack-oracle-5.0.20.106931.ebuild:
+  virtualbox host packages: Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -18,3 +18,12 @@
   21 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> metadata.xml:
   add upstream info
 
+  22 Jul 2016; Patrice Clement <monsieurp@gentoo.org> btrbk-0.23.3.ebuild:
+  Keyword for the arm platform.
+
+  Courtesy of Andrius Štikonas <andrius@stikonas.eu>.
+
+  Gentoo-Bug: https://bugs.gentoo.org/588854
+
+  Package-Manager: portage-2.2.28
+

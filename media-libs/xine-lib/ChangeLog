@@ -84,3 +84,19 @@
   xine-lib-1.2.9999.ebuild:
   Remove := slot op from ||, #586316
 
+  22 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/xine-lib-1.2.6-libxcb-1.12.patch, xine-lib-1.2.6-r1.ebuild:
+  Fixed compilation with >=x11-libs/libxcb-1.12
+
+  Gentoo bug #584640
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  22 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> -xine-lib-1.2.3.ebuild,
+  -xine-lib-1.2.6.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

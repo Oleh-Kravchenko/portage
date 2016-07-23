@@ -74,3 +74,10 @@
 
   Package-Manager: portage-2.2.28
 
+  22 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> fftw-3.3.4.ebuild,
+  fftw-9999.ebuild:
+  Don't check for openmp toolchain when installing a binpkg.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -79,3 +79,17 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*free42-1.5.8 (22 Jul 2016)
+
+  22 Jul 2016; Chema Alonso Josa <nimiux@gentoo.org>
+  +files/free42-1.5.8-fix-makefile.patch, +free42-1.5.8.ebuild:
+  Bump to version 1.5.8
+
+  Package-Manager: portage-2.2.28
+
+  22 Jul 2016; Chema Alonso Josa <nimiux@gentoo.org>
+  -files/free42-1.5.5-fix-makefile.patch, -free42-1.5.5.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.28
+
