@@ -753,3 +753,15 @@
 
   Package-Manager: portage-2.3.0
 
+*youtube-dl-2016.07.22 (23 Jul 2016)
+
+  23 Jul 2016; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2016.07.22.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+
+  23 Jul 2016; Jeroen Roovers <jer@gentoo.org> -youtube-dl-2016.07.13.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

@@ -148,3 +148,10 @@
   Package-Manager: portage-2.3.0_rc1
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+*root-docs-5.34.36 (23 Jul 2016)
+
+  23 Jul 2016; Benda Xu <heroxbd@gentoo.org> +root-docs-5.34.36.ebuild:
+  bump to 5.34.36.
+
+  Package-Manager: portage-2.3.0
+

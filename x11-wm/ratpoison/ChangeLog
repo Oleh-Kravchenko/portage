@@ -71,3 +71,9 @@
   04 Jun 2016; Mike Frysinger <vapier@gentoo.org> ratpoison-1.4.8.ebuild:
   savannah: switch to https URLs
 
+  23 Jul 2016; Jeroen Roovers <jer@gentoo.org> ratpoison-1.4.8-r1.ebuild:
+  Stable for HPPA (bug #588564).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

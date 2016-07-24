@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.3.0
 
+*socket-burst-dampener-1.1.0 (23 Jul 2016)
+
+  23 Jul 2016; Zac Medico <zmedico@gentoo.org>
+  -socket-burst-dampener-1.0.0.ebuild, +socket-burst-dampener-1.1.0.ebuild:
+  version bump to 1.1.0
+
+  Package-Manager: portage-2.3.0
+

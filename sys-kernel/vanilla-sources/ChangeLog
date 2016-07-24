@@ -913,3 +913,11 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*vanilla-sources-3.12.62 (23 Jul 2016)
+
+  23 Jul 2016; Mike Pagano <mpagano@gentoo.org>
+  -vanilla-sources-3.12.61.ebuild, +vanilla-sources-3.12.62.ebuild:
+  Linux version 3.12.62. Remove old.
+
+  Package-Manager: portage-2.2.28
+

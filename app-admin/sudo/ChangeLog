@@ -222,3 +222,11 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*sudo-1.8.17_p1 (23 Jul 2016)
+
+  23 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +sudo-1.8.17_p1.ebuild:
+  Bump to version 1.8.17_p1
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

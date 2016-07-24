@@ -161,3 +161,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*radvd-2.14 (23 Jul 2016)
+
+  23 Jul 2016; Matthew Thode <prometheanfire@gentoo.org> +radvd-2.14.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

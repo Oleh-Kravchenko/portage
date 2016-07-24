@@ -1712,3 +1712,11 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-3.12.62 (23 Jul 2016)
+
+  23 Jul 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.12.62.ebuild:
+  Linux patch 3.12.62
+
+  Package-Manager: portage-2.2.28
+

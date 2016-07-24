@@ -301,3 +301,13 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Jul 2016; Jeroen Roovers <jer@gentoo.org> opera-38.0.2220.41.ebuild:
+  Fix src_prepare() on x86 (bug #589438).
+
+  Package-Manager: portage-2.3.0
+
+  23 Jul 2016; Jeroen Roovers <jer@gentoo.org> -opera-38.0.2220.31.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

@@ -672,3 +672,14 @@
   16 Jul 2016; Michał Górny <mgorny@gentoo.org> llvm-3.8.1.ebuild:
   Change subslot of 3.8.1 to match 3.8.0
 
+  23 Jul 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Strip third version component for subslot, in -9999
+
+  Strip the third version component (if there is any) for subslot value,
+  therefore ensuring that e.g. 3.9.* will have subslot 3.9. This is not
+  relevant to the -9999 ebuild but hopefully it will prevent me from
+  forgetting to finally do this on next release.
+
+  23 Jul 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Bump clang version in -9999 to 4.0, #589368
+
