@@ -67,3 +67,10 @@
   11 May 2016; Anthony G. Basile <blueness@gentoo.org> podofo-0.9.3.ebuild:
   add libressl useflag
 
+*podofo-0.9.4 (24 Jul 2016)
+
+  24 Jul 2016; Zac Medico <zmedico@gentoo.org> +podofo-0.9.4.ebuild:
+  version bump to 0.9.4
+
+  Package-Manager: portage-2.3.0
+

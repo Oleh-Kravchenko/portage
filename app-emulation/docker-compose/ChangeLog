@@ -169,3 +169,16 @@
 
   Package-Manager: portage-2.3.0
 
+*docker-compose-1.8.0_rc2 (24 Jul 2016)
+
+  24 Jul 2016; Alex Brandt <alunduil@gentoo.org>
+  +docker-compose-1.8.0_rc2.ebuild:
+  add version 1.8.0_rc2
+
+  Package-Manager: portage-2.3.0
+
+  24 Jul 2016; Alex Brandt <alunduil@gentoo.org> -docker-compose-1.7.0.ebuild:
+  remove version 1.7.0
+
+  Package-Manager: portage-2.3.0
+

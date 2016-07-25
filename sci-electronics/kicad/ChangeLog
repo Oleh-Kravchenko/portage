@@ -245,3 +245,15 @@
   Closes: https://github.com/gentoo/gentoo/pull/1745
   Package-Manager: portage-2.3.0_rc1
 
+*kicad-4.0.2-r4 (24 Jul 2016)
+
+  24 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org> +kicad-4.0.2-r4.ebuild:
+  Reduce minimal installation, add libressl
+
+  In minimal install do not download footprints source. Add switch
+  to build with libressl.
+
+  Gentoo Bugs: #587504, #569764
+
+  Package-Manager: portage-2.3.0
+

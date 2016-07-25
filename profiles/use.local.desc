@@ -497,6 +497,7 @@ app-editors/emacs:pax_kernel - Enable building under a PaX enabled kernel
 app-editors/emacs:source - Install C source files and make them available for find-function
 app-editors/emacs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
 app-editors/emacs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
+app-editors/emacs:xwidgets - Enable use of GTK widgets in Emacs buffers (requires GTK3)
 app-editors/emacs-vcs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
 app-editors/emacs-vcs:games - Support shared score files for games
 app-editors/emacs-vcs:gconf - Use gnome-base/gconf to read the system font name
@@ -2186,7 +2187,6 @@ dev-lua/luvit:bundled-libs - Use bundled versions of some libraries.
 dev-lua/messagepack:luajit - Use the lua just-in-time compiler dev-lang/luajit instead of dev-lang/lua
 dev-lua/mpack:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-ml/cairo-ocaml:pango - Enable support for x11-libs/pango
-dev-ml/deriving-ocsigen:type-conv - Enable type-conv for the syntax extention.
 dev-ml/dose3:parmap - Adds multi-core CPU support via dev-ml/parmap.
 dev-ml/dose3:rpm4 - Adds support for handling rpm4 files.
 dev-ml/dose3:zip - Adds support for handling zip files.
@@ -2431,7 +2431,7 @@ dev-python/rarfile:compressed - Enables the module to support compressed v3 arch
 dev-python/rdflib:redland - enable support for Redland triplestore
 dev-python/restkit:cli - Install the restcli command line interface/tool, based on dev-python/ipython
 dev-python/scrapy:boto - Add support for Amazon S3 via dev-python/boto
-dev-python/scrapy:ibl - Use Instace Based Learning alrogirithm for automatic extraction
+dev-python/scrapy:ibl - Use Instace Based Learning algorithm for automatic extraction
 dev-python/simplecv:shell - Enable the iPython SimpleCV shell
 dev-python/spyder:ipython - Add support for dev-python/ipython
 dev-python/spyder:matplotlib - Add support for dev-python/matplotlib
@@ -2779,7 +2779,6 @@ dev-util/pkgconf:pkg-config - Install as a replacement for dev-util/pkgconfig
 dev-util/pkgconf:strict - Adhere to POSIX pkg-config specification. Useful for finding uses of non-standard pkg-config invocations
 dev-util/pkgconfig:internal-glib - Use internal copy of dev-libs/glib
 dev-util/pkgconfig-openbsd:pkg-config - Install as a replacement for dev-util/pkgconfig
-dev-util/qdevelop:plugins - Build and install additional plugins
 dev-util/scanmem:gui - Enable the GameConqueror GUI
 dev-util/schroot:btrfs - Enable support for chroots using btrfs snapshots.
 dev-util/schroot:dchroot - Enables the building of a wrapper named "dchroot", replacing sys-apps/dchroot.
@@ -4585,8 +4584,6 @@ media-sound/xwax:jack - Adds support for audio input/output via the JACK Audio C
 media-sound/xwax:mp3 - Sets runtime dependencies to support decoding MP3 audio.
 media-sound/xwax:oss - Adds support for OSS (open sound system) audio input/output.
 media-sound/yoshimi:lv2 - Add support for Ladspa V2
-media-tv/freevo:mixer - Enable support for adjusting volume via media-sound/aumix
-media-tv/freevo:tv - Enable support for the tv guide plugin
 media-tv/gentoo-vdr-scripts:nvram - Add support for using nvram-wakeup to set wakeup time in bios
 media-tv/kodi:airplay - enable AirPlay support
 media-tv/kodi:bluray - Enable playback of Blu-ray filesystems

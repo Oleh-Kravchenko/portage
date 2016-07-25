@@ -783,3 +783,18 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*postgresql-9.6_beta3 (24 Jul 2016)
+
+  24 Jul 2016; Patrick Lauer <patrick@gentoo.org> postgresql-9.2.14-r1.ebuild,
+  postgresql-9.2.15.ebuild, postgresql-9.2.16.ebuild,
+  postgresql-9.2.17.ebuild, postgresql-9.3.10-r1.ebuild,
+  postgresql-9.3.10-r2.ebuild, postgresql-9.3.11.ebuild,
+  postgresql-9.3.12.ebuild, postgresql-9.3.13.ebuild,
+  postgresql-9.4.5-r1.ebuild, postgresql-9.4.5-r2.ebuild,
+  postgresql-9.4.6.ebuild, postgresql-9.4.7.ebuild, postgresql-9.4.8.ebuild,
+  postgresql-9.5.1.ebuild, postgresql-9.5.2.ebuild, postgresql-9.5.3.ebuild,
+  -postgresql-9.6_beta2.ebuild, +postgresql-9.6_beta3.ebuild:
+  Remove unneeded einfo, bump 9.6 to beta3
+
+  Package-Manager: portage-2.3.0
+

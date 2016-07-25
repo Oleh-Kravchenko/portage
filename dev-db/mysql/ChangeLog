@@ -400,3 +400,15 @@
 
   Package-Manager: portage-2.3.0
 
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> mysql-5.6.31.ebuild:
+  Stable for PPC64 (bug #589238).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> mysql-5.6.31.ebuild:
+  Stable for HPPA (bug #589238).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

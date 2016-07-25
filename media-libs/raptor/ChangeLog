@@ -85,3 +85,15 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> raptor-2.0.14.ebuild:
+  Stable for PPC64 (bug #530654).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> raptor-2.0.14.ebuild:
+  Stable for HPPA (bug #530654).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

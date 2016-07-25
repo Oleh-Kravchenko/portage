@@ -106,3 +106,6 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  24 Jul 2016; Aaron Bauman <bman@gentoo.org> -pgpdump-0.29.ebuild:
+  remove vulnerable versions wrt bug #580518
+

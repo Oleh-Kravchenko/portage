@@ -275,3 +275,9 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> ldb-1.1.26.ebuild:
+  Stable for HPPA (bug #578498).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

@@ -239,3 +239,10 @@
   keystonemiddleware-4.4.0.ebuild:
   openstack mass stable for mitaka, x86 and amd64 for bug 582170
 
+  24 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -keystonemiddleware-1.5.0.ebuild, -keystonemiddleware-1.5.2.ebuild,
+  -keystonemiddleware-2.2.0.ebuild:
+  removed for bug 573660
+
+  Package-Manager: portage-2.2.28
+

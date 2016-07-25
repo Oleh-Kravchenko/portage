@@ -22,3 +22,9 @@
   Test-MockRandom-1.10.0.ebuild:
   added ~alpha, bug 579360.
 
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> Test-MockRandom-1.10.0.ebuild:
+  Mark ~hppa (bug #577646).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

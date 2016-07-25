@@ -380,3 +380,11 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+*libinput-1.4.0 (24 Jul 2016)
+
+  24 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +libinput-1.4.0.ebuild:
+  bump to 1.4.0
+
+  Package-Manager: portage-2.2.28
+

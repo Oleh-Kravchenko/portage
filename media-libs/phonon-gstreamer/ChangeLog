@@ -199,3 +199,18 @@
 
   Package-Manager: portage-2.3.0
 
+  24 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  phonon-gstreamer-4.9.0.ebuild, phonon-gstreamer-9999.ebuild:
+  dev-qt/qtwebkit:4 blocker is only required with USE="qt4"
+
+  Gentoo-bug: 522880
+
+  Package-Manager: portage-2.3.0
+
+  24 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  -files/phonon-gstreamer-4.8.2-gstreamer-1.6.0.patch,
+  -phonon-gstreamer-4.8.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

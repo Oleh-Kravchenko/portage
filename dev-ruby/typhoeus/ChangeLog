@@ -124,3 +124,10 @@
 
   Package-Manager: portage-2.2.26
 
+*typhoeus-1.1.0 (24 Jul 2016)
+
+  24 Jul 2016; Hans de Graaff <graaff@gentoo.org> +typhoeus-1.1.0.ebuild:
+  add 1.1.0
+
+  Package-Manager: portage-2.2.28
+

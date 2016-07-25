@@ -400,3 +400,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  24 Jul 2016; Markus Meier <maekke@gentoo.org> cmake-3.5.2-r1.ebuild:
+  arm stable, bug #587666
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

@@ -103,3 +103,16 @@
   time). Considering that the flag does not control the installed files or
   the package in any other way, it is an invalid use of USE flags.
 
+*binutils-hppa64-2.26.1 (24 Jul 2016)
+
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> +binutils-hppa64-2.26.1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> -binutils-hppa64-2.23.1.ebuild,
+  -binutils-hppa64-2.25.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

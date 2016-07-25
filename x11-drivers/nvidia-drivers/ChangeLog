@@ -747,3 +747,17 @@
 
   Package-Manager: portage-2.3.0
 
+*nvidia-drivers-367.35-r1 (24 Jul 2016)
+
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/nvidia-drivers-367.35-profiles-rc.patch,
+  +nvidia-drivers-367.35-r1.ebuild:
+  Patch nvidia-settings profiles by oleg (bug #589590).
+
+  Package-Manager: portage-2.3.0
+
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> -nvidia-drivers-367.35.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

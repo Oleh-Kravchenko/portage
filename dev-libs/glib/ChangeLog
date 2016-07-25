@@ -408,3 +408,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> glib-2.46.2-r3.ebuild:
+  Stable for HPPA PPC64 (bug #581778).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

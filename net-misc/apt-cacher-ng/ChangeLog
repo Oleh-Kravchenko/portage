@@ -178,3 +178,15 @@
 
   Package-Manager: portage-2.3.0
 
+*apt-cacher-ng-0.9.3.2 (24 Jul 2016)
+
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> +apt-cacher-ng-0.9.3.2.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> -apt-cacher-ng-0.9.3.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

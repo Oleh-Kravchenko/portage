@@ -240,3 +240,10 @@
 
   Package-Manager: portage-2.2.28
 
+*test-unit-3.2.1 (24 Jul 2016)
+
+  24 Jul 2016; Hans de Graaff <graaff@gentoo.org> +test-unit-3.2.1.ebuild:
+  add 3.2.1
+
+  Package-Manager: portage-2.2.28
+

@@ -366,3 +366,9 @@
 
   Gentoo-Bug: 588306
 
+  24 Jul 2016; Markus Meier <maekke@gentoo.org> gnutls-3.3.24.ebuild:
+  arm stable, bug #588306
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

@@ -425,3 +425,9 @@
 
   Package-Manager: portage-2.2.28
 
+  24 Jul 2016; Markus Meier <maekke@gentoo.org> go-1.6.3.ebuild:
+  arm stable, bug #589230
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

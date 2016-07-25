@@ -155,3 +155,9 @@
 
   Package-Manager: portage-2.3.0
 
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> libgpg-error-1.22.ebuild:
+  Stable for HPPA (bug #586440).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

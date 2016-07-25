@@ -87,3 +87,15 @@
 
   Package-Manager: portage-2.2.28
 
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> sed-4.2.2.ebuild:
+  Stable for HPPA (bug #588162).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  24 Jul 2016; Jeroen Roovers <jer@gentoo.org> sed-4.2.2.ebuild:
+  Stable for PPC64 (bug #588162).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

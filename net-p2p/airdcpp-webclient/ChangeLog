@@ -109,3 +109,20 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*airdcpp-webclient-1.0.7 (23 Jul 2016)
+
+  23 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  +airdcpp-webclient-1.0.7.ebuild:
+  bump to 1.0.7
+
+  Require openssl to be built with USE="-bindist", see:
+  https://forums.gentoo.org/viewtopic-p-7916882.html
+
+  Package-Manager: portage-2.3.0
+
+  23 Jul 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  -airdcpp-webclient-1.0.4.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

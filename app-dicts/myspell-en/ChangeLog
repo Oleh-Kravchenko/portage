@@ -111,3 +111,9 @@
 
   Package-Manager: portage-2.3.0
 
+  24 Jul 2016; Markus Meier <maekke@gentoo.org> myspell-en-20160201.ebuild:
+  arm stable, bug #586898
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+
