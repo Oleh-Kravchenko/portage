@@ -89,3 +89,8 @@
 
   Package-Manager: portage-2.2.26
 
+  25 Jul 2016; NP-Hardass <NP-Hardass@gentoo.org> caja-dropbox-1.10.1.ebuild:
+  amd64 x86 stable wrt bug #579644
+
+  Package-Manager: portage-2.2.28
+

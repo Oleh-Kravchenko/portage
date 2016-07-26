@@ -170,3 +170,11 @@
 
   Package-Manager: portage-2.3.0
 
+*kstars-16.04.3-r1 (25 Jul 2016)
+
+  25 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  -kstars-16.04.3.ebuild, +kstars-16.04.3-r1.ebuild:
+  raise sci-libs/indilib dependency
+
+  Package-Manager: portage-2.3.0
+

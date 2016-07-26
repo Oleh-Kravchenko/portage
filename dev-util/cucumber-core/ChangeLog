@@ -109,3 +109,8 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Jul 2016; Hans de Graaff <graaff@gentoo.org> cucumber-core-1.5.0.ebuild:
+  depend on currect gherkin slot
+
+  Package-Manager: portage-2.2.28
+

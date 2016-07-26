@@ -87,3 +87,9 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  libnsfb-0.1.4.ebuild:
+  keyword ~ppc
+
+  Package-Manager: portage-2.2.28
+

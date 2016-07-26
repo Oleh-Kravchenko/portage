@@ -431,3 +431,13 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  25 Jul 2016; William Hubbs <williamh@gentoo.org> go-9999.ebuild:
+  remove elog for release notes for #589464
+
+  Package-Manager: portage-2.2.28
+
+  25 Jul 2016; William Hubbs <williamh@gentoo.org> go-1.6.3.ebuild:
+  sync 1.6.3 with live ebuild
+
+  Package-Manager: portage-2.2.28
+

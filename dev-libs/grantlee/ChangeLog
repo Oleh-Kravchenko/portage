@@ -113,3 +113,11 @@
 
   Package-Manager: portage-2.3.0
 
+  25 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  grantlee-5.1.0.ebuild:
+  keyword ~ppc
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=553426
+
+  Package-Manager: portage-2.2.28
+

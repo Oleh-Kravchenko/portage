@@ -1235,3 +1235,55 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  25 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/mpv-0.18.1-make-ffmpeg-version-check-non-fatal.patch,
+  mpv-9999.ebuild:
+  warn re softvol, non-fatal ffmpeg version check in 9999
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*mpv-0.18.1 (25 Jul 2016)
+
+  25 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/0.18.1/mpv-0.18.1-fix-audio-uninit-crash.patch,
+  +files/0.18.1/mpv-0.18.1-fix-doc-build.patch,
+  +files/0.18.1/mpv-0.18.1-fix-high-CPU-on-wayland.patch,
+  +files/0.18.1/mpv-0.18.1-fix-stuck-volume-on-pulseaudio.patch,
+  +files/0.18.1/mpv-0.18.1-handle-ffmpeg-ABI-changes.patch,
+  +files/0.18.1/mpv-0.18.1-respect-deinterlace-auto.patch,
+  +files/0.18.1/mpv-0.18.1-show-osd-with-ao-volume.patch, +mpv-0.18.1.ebuild:
+  verbump to 0.18.1
+
+  Gentoo-Bug: 588492
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*mpv-0.18.0-r1 (25 Jul 2016)
+
+  25 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/0.18.0/mpv-0.18.0-fix-doc-build.patch,
+  +files/0.18.0/mpv-0.18.0-fix-fbo-resize-memleak.patch,
+  files/0.18.0/mpv-0.18.0-fix-height-alignment-on-xv.patch,
+  +files/0.18.0/mpv-0.18.0-fix-initial-av-sync.patch, +mpv-0.18.0-r1.ebuild:
+  backport build, memleak, AV sync fixes for 0.18.0
+
+  We'll keep 0.18.0 longer than usual as 0.18.1 changed how volume
+  levels work in a partially incompatible way.
+  This causes problems at least in smplayer, see Gentoo bug 588584.
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  25 Jul 2016; Patrice Clement <monsieurp@gentoo.org> -mpv-0.18.0.ebuild:
+  remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/1947
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

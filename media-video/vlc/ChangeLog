@@ -298,3 +298,15 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  24 Jul 2016; Amy Winston <amynka@gentoo.org> vlc-2.2.1-r1.ebuild,
+  vlc-2.2.4.ebuild, vlc-2.2.9999.ebuild, vlc-9999.ebuild:
+  Revert "media-video/vlc: fix compiler type check"
+
+  This reverts commit d8bdcbc565535962f5579c4693784b1ee1547525.
+
+  25 Jul 2016; Amy Winston <amynka@gentoo.org> vlc-2.2.1-r1.ebuild,
+  vlc-2.2.4.ebuild, vlc-2.2.9999.ebuild, vlc-9999.ebuild:
+  fix compiler type check
+
+  Package-Manager: portage-2.2.28
+

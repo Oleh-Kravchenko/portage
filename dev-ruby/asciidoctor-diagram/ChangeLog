@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.2.28
 
+*asciidoctor-diagram-1.5.1 (25 Jul 2016)
+
+  25 Jul 2016; Hans de Graaff <graaff@gentoo.org>
+  +asciidoctor-diagram-1.5.1.ebuild:
+  add 1.5.1
+
+  Package-Manager: portage-2.2.28
+

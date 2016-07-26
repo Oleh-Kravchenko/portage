@@ -179,3 +179,10 @@
 
   Package-Manager: portage-2.2.28
 
+*mime-types-2.99.2 (25 Jul 2016)
+
+  25 Jul 2016; Hans de Graaff <graaff@gentoo.org> +mime-types-2.99.2.ebuild:
+  add 2.99.2
+
+  Package-Manager: portage-2.2.28
+

@@ -148,3 +148,9 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  netsurf-3.5.ebuild:
+  keyword ~ppc
+
+  Package-Manager: portage-2.2.28
+

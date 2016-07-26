@@ -151,3 +151,9 @@
 
   Package-Manager: portage-2.3.0
 
+  25 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  qtquickcontrols-5.6.1.ebuild:
+  keyword ~ppc
+
+  Package-Manager: portage-2.2.28
+

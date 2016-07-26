@@ -323,3 +323,10 @@
 
   Package-Manager: portage-2.3.0
 
+*mit-krb5-1.14.3 (25 Jul 2016)
+
+  25 Jul 2016; Eray Aslan <eras@gentoo.org> +mit-krb5-1.14.3.ebuild:
+  version bump to mit-krb5-1.14.3
+
+  Package-Manager: portage-2.3.0
+

@@ -21,3 +21,14 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*widgetsnbextension-1.2.6 (25 Jul 2016)
+
+  25 Jul 2016; David Seifert <soap@gentoo.org>
+  +widgetsnbextension-1.2.6.ebuild:
+  Version bump to 1.2.6
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1962
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

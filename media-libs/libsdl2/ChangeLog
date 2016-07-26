@@ -133,3 +133,11 @@
 
   Package-Manager: portage-2.2.26
 
+  25 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  libsdl2-2.0.4.ebuild:
+  keyword ~ppc
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=508226
+
+  Package-Manager: portage-2.2.28
+

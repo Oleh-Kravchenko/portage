@@ -1276,3 +1276,12 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Jul 2016; Mike Gilbert <floppym@gentoo.org> chromium-52.0.2743.82.ebuild,
+  chromium-53.0.2785.21.ebuild:
+  depend on a recent version of bs4
+
+  Old versions seem to be incompatible.
+
+  Bug: https://bugs.gentoo.org/565730
+  Package-Manager: portage-2.3.0_p15
+

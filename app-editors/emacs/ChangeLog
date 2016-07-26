@@ -314,3 +314,26 @@
 
   Package-Manager: portage-2.3.0
 
+*emacs-25.1_rc1 (24 Jul 2016)
+
+  24 Jul 2016; Ulrich Müller <ulm@gentoo.org> +emacs-25.1_rc1.ebuild,
+  metadata.xml:
+  Version bump.
+
+  First release candidate for Emacs 25.1.
+
+  Package-Manager: portage-2.3.0
+
+*emacs-24.5-r3 (24 Jul 2016)
+
+  24 Jul 2016; Ulrich Müller <ulm@gentoo.org> -emacs-24.5-r2.ebuild,
+  +emacs-24.5-r3.ebuild:
+  EAPI bump.
+
+  Package-Manager: portage-2.3.0
+
+  24 Jul 2016; Ulrich Müller <ulm@gentoo.org> emacs-25.1_rc1.ebuild:
+  Remove version test which is meaningless for slot 25.
+
+  Package-Manager: portage-2.3.0
+

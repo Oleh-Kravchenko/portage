@@ -112,3 +112,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*cyrus-imapd-2.5.9 (25 Jul 2016)
+
+  25 Jul 2016; Eray Aslan <eras@gentoo.org> +cyrus-imapd-2.5.9.ebuild:
+  version bump to cyrus-imapd-2.5.9
+
+  Fix: sqlite is required for http - bug 583746
+
+  Package-Manager: portage-2.3.0
+

@@ -148,3 +148,16 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*pecl-imagick-3.4.2 (25 Jul 2016)
+
+  25 Jul 2016; Brian Evans <grknight@gentoo.org> +pecl-imagick-3.4.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+
+  25 Jul 2016; Brian Evans <grknight@gentoo.org>
+  -pecl-imagick-3.1.2-r1.ebuild, -pecl-imagick-3.3.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+

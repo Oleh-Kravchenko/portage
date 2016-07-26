@@ -659,3 +659,26 @@
 
   Package-Manager: portage-2.2.28
 
+*wine-1.9.14-r1 (24 Jul 2016)
+*wine-1.9.13-r1 (24 Jul 2016)
+*wine-1.9.12-r1 (24 Jul 2016)
+*wine-1.9.11-r2 (24 Jul 2016)
+*wine-1.9.10-r2 (24 Jul 2016)
+*wine-1.9.9-r2 (24 Jul 2016)
+
+  24 Jul 2016; NP-Hardass <NP-Hardass@gentoo.org> -wine-1.9.9-r1.ebuild,
+  +wine-1.9.9-r2.ebuild, -wine-1.9.10-r1.ebuild, +wine-1.9.10-r2.ebuild,
+  -wine-1.9.11-r1.ebuild, +wine-1.9.11-r2.ebuild, -wine-1.9.12.ebuild,
+  +wine-1.9.12-r1.ebuild, -wine-1.9.13.ebuild, +wine-1.9.13-r1.ebuild,
+  -wine-1.9.14.ebuild, +wine-1.9.14-r1.ebuild, wine-9999.ebuild:
+  Update d3d9 deps, #588550
+
+  Package-Manager: portage-2.2.28
+
+*wine-1.9.15 (24 Jul 2016)
+
+  24 Jul 2016; NP-Hardass <NP-Hardass@gentoo.org> +wine-1.9.15.ebuild:
+  Version bump to 1.9.15
+
+  Package-Manager: portage-2.2.28
+

@@ -302,3 +302,13 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*qmmp-1.1.2 (25 Jul 2016)
+*qmmp-0.10.2 (25 Jul 2016)
+
+  25 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +qmmp-0.10.2.ebuild,
+  +qmmp-1.1.2.ebuild:
+  Bump to versions 0.10.2 and 1.1.2
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

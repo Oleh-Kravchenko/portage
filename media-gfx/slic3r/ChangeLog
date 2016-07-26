@@ -58,3 +58,9 @@
 
   Package-Manager: portage-2.2.26
 
+  25 Jul 2016; Ian Stakenvicius <axs@gentoo.org>
+  files/slic3r-9999-adjust_var_path.patch:
+  9999: fix patch so it applies against git head
+
+  Package-Manager: portage-2.2.28
+

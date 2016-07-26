@@ -157,3 +157,20 @@
 
   Package-Manager: portage-2.2.28
 
+*makemkv-1.10.0 (24 Jul 2016)
+
+  24 Jul 2016; James Le Cuirot <chewi@gentoo.org> -makemkv-1.9.10.ebuild,
+  +makemkv-1.10.0.ebuild:
+  Version bump to 1.10.0, undo locales, amend Qt
+
+  The locale flags were a nice idea but Gentoo is moving away from
+  LINGUAS-based USE flags. These will be replaced by L10N-based flags
+  but not for this particular use case. The new INSTALL_MASK mechanism
+  won't support the non-standard locations used by this package. We may
+  as well just install them all as they only take up 150KB.
+
+  Also prefer qt5 over qt4 without REQUIRED_USE in accordance with
+  Gentoo's Qt policy.
+
+  Package-Manager: portage-2.3.0
+
