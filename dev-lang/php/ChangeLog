@@ -1570,3 +1570,15 @@
 
   Package-Manager: portage-2.2.28
 
+*php-7.0.9 (26 Jul 2016)
+*php-5.6.24 (26 Jul 2016)
+*php-5.5.38 (26 Jul 2016)
+
+  26 Jul 2016; Brian Evans <grknight@gentoo.org> +php-5.5.38.ebuild,
+  +php-5.6.24.ebuild, -php-7.0.8-r2.ebuild, +php-7.0.9.ebuild:
+  Security version bump wrt bug 587246
+
+  Also use .xz from upstream wrt bug 589692
+
+  Package-Manager: portage-2.3.0
+

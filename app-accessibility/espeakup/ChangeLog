@@ -110,3 +110,10 @@
 
   Package-Manager: portage-2.2.28
 
+*espeakup-0.80 (26 Jul 2016)
+
+  26 Jul 2016; William Hubbs <williamh@gentoo.org> +espeakup-0.80.ebuild:
+  0.80 version bump
+
+  Package-Manager: portage-2.2.28
+

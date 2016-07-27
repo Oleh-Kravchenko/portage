@@ -192,3 +192,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*connman-1.33 (26 Jul 2016)
+
+  26 Jul 2016; Yixun Lan <dlan@gentoo.org> +connman-1.33.ebuild:
+  version bump 1.33
+
+  Package-Manager: portage-2.3.0
+

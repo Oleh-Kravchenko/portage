@@ -412,3 +412,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  26 Jul 2016; Tobias Klausmann <klausman@gentoo.org> mysql-5.6.31.ebuild:
+  5.6.31-r0: add alpha keyword
+
+  Gentoo-Bug: 589238
+

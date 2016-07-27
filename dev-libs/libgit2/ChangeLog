@@ -206,3 +206,9 @@
 
   Package-Manager: portage-2.2.26
 
+  26 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  libgit2-0.24.0.ebuild:
+  keyword ~ppc
+
+  Package-Manager: portage-2.2.28
+

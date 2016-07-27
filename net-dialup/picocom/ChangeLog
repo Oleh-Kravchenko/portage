@@ -88,3 +88,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*picocom-2.1 (25 Jul 2016)
+
+  25 Jul 2016; Tim Harder <radhermit@gentoo.org> +picocom-2.1.ebuild:
+  version bump to 2.1
+

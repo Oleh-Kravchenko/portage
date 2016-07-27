@@ -70,6 +70,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*equo-302 (03 Jun 2016)
+
+  03 Jun 2016; mudler <mudler@sabayon.org> -equo-254.ebuild, +equo-302.ebuild:
+  version bump to 302
+
+  drop version 254, old and bugged
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=527306
+
+  Package-Manager: portage-2.2.26
+
   19 Jun 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Multiple metadata.xml: reorder to make sure assignee goes first
 

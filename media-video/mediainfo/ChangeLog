@@ -121,3 +121,8 @@
   -mediainfo-0.7.83.ebuild, -mediainfo-0.7.84.ebuild:
   remove old
 
+*mediainfo-0.7.87 (26 Jul 2016)
+
+  26 Jul 2016; Tim Harder <radhermit@gentoo.org> +mediainfo-0.7.87.ebuild:
+  version bump to 0.7.87
+

@@ -421,3 +421,48 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*nginx-1.11.2 (26 Jul 2016)
+
+  26 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/http-sticky-nginx-1.11.2.patch, +nginx-1.11.2.ebuild:
+  Bump to v1.11.2 (bug #588816)
+
+  Bug: https://bugs.gentoo.org/588816
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> -files/nginx.conf,
+  -files/nginx.initd-r2, -files/rtmp-nginx-1.11.0.patch, -nginx-1.11.1.ebuild:
+  Cleanup
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+*nginx-1.10.1-r1 (26 Jul 2016)
+
+  26 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/nginx-httpoxy-mitigation.patch, +nginx-1.10.1-r1.ebuild,
+  nginx-1.11.2.ebuild:
+  HTTPoxy mitigation added
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> nginx-1.10.1-r1.ebuild,
+  nginx-1.11.2.ebuild:
+  Fix user/group configure argument (bug #588000)
+
+  Bug: https://bugs.gentoo.org/588000
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> nginx-1.10.1-r1.ebuild,
+  nginx-1.11.2.ebuild:
+  Drop AJP HTTP module leftovers
+
+  Bug: https://bugs.gentoo.org/587844
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

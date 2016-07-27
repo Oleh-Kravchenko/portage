@@ -191,3 +191,14 @@
   -asterisk-13.8.2.ebuild, +asterisk-13.9.1.ebuild:
   Version bump to 13.9.1 with full PJPROJECT support.
 
+*asterisk-13.10.0 (26 Jul 2016)
+*asterisk-11.23.0 (26 Jul 2016)
+
+  26 Jul 2016; Tony Vroon <chainsaw@gentoo.org> +asterisk-11.23.0.ebuild,
+  +asterisk-13.10.0.ebuild, +files/1.8.0/asterisk.initd8:
+  Bugfix releases on both branches (11 & 13)
+
+  This adds 11.23.0 & 13.10.0 to the tree. Init script updates by
+  Jaco Kroon allow faster start-up with a large spool directory,
+  closes bug #582512
+

@@ -149,3 +149,14 @@
 
   Package-Manager: portage-2.3.0
 
+*gentoolkit-0.3.2-r1 (26 Jul 2016)
+
+  26 Jul 2016; Paul Varner <fuzzyray@gentoo.org>
+  +files/0.3.2-helpers.py-589686.patch, +gentoolkit-0.3.2-r1.ebuild:
+  Revision bump to add patch
+
+  Add patch to fix compatability with python2.7 and equery changes.
+  This patch fixes Bug 589686
+
+  Package-Manager: portage-2.3.0
+

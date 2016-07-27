@@ -258,3 +258,13 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*logrotate-3.9.2-r1 (26 Jul 2016)
+
+  26 Jul 2016; Chema Alonso Josa <nimiux@gentoo.org>
+  +logrotate-3.9.2-r1.ebuild:
+  Bump to install binary under /usr/bin
+
+  Fixes bug #588156
+
+  Package-Manager: portage-2.2.28
+

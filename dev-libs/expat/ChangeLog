@@ -218,3 +218,13 @@
 
   Package-Manager: portage-2.2.28
 
+*expat-2.2.0-r1 (26 Jul 2016)
+*expat-2.1.1-r3 (26 Jul 2016)
+
+  26 Jul 2016; Sebastian Pipping <sping@gentoo.org> +expat-2.1.1-r3.ebuild,
+  -expat-2.2.0.ebuild, +expat-2.2.0-r1.ebuild,
+  +files/expat-2.1.1-CVE-2016-0718-regression.patch:
+  CVE-2016-0718 regression fix
+
+  Package-Manager: portage-2.2.28
+

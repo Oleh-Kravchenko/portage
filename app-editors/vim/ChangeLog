@@ -186,3 +186,9 @@
   -vim-7.4.1229.ebuild, -vim-7.4.1342.ebuild:
   remove old
 
+*vim-7.4.2102 (26 Jul 2016)
+
+  26 Jul 2016; Tim Harder <radhermit@gentoo.org> +vim-7.4.2102.ebuild,
+  vim-9999.ebuild:
+  version bump to 7.4.2102
+

@@ -574,3 +574,12 @@
 
   Package-Manager: portage-2.3.0
 
+  26 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/libreoffice-curl-7.50.0.patch, libreoffice-5.1.4.2.ebuild:
+  Fixed building with >=net-misc/curl-7.50.0
+
+  Gentoo bug #589578
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

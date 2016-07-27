@@ -185,3 +185,21 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*p7zip-16.02-r1 (25 Jul 2016)
+
+  25 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  files/p7zip-16.02-darwin.patch, -p7zip-16.02.ebuild, +p7zip-16.02-r1.ebuild:
+  Drop kdelibs (R)DEPEND, sort DEPEND/IUSE, EAPI=6
+
+  kde-base/kdelibs:4 is not required here as p7zip only (manually) installs
+  a bunch of desktop files that may or may not be picked up by applications.
+  wxGTK[X] is already enforced by REQUIRED_USE, so there is no reason
+  to duplicate that.
+
+  Reversed symlink logic for ServiceMenu as kservices5 is here to stay and
+  kde4/services is deprecated.
+
+  Package-Manager: portage-2.2.28
+
+  Signed-off-by: Matthew Thode <prometheanfire@gentoo.org>
+

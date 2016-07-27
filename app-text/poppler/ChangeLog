@@ -322,3 +322,8 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Jul 2016; Tobias Klausmann <klausman@gentoo.org> poppler-0.45.0.ebuild:
+  0.45.0-r0: add alpha keyword
+
+  Gentoo-Bug: 588142
+

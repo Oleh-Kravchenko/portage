@@ -158,3 +158,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*lyx-2.2.1 (26 Jul 2016)
+
+  26 Jul 2016; Yixun Lan <dlan@gentoo.org> +lyx-2.2.1.ebuild:
+  version bump 2.2.1
+
+  Author-By: Pavel Sanda <ps@twin.jikos.cz>
+
+  Package-Manager: portage-2.3.0
+

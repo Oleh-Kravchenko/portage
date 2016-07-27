@@ -117,3 +117,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  26 Jul 2016; Tobias Klausmann <klausman@gentoo.org>
+  myspell-en-20160201.ebuild:
+  20160201-r0: add alpha keyword
+
+  Gentoo-Bug: 586898
+

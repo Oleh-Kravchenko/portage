@@ -96,3 +96,18 @@
 
   Package-Manager: portage-2.3.0
 
+  26 Jul 2016; Alexis Ballier <aballier@gentoo.org>
+  -urdfdom_headers-0.3.0.ebuild, -urdfdom_headers-0.4.0.ebuild,
+  -urdfdom_headers-0.4.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+*urdfdom_headers-1.0.0 (26 Jul 2016)
+
+  26 Jul 2016; Alexis Ballier <aballier@gentoo.org>
+  +urdfdom_headers-1.0.0.ebuild:
+  bump to 1.0.0
+
+  Package-Manager: portage-2.3.0
+
