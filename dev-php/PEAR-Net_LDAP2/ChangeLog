@@ -98,3 +98,11 @@
 
   Package-Manager: portage-2.2.28
 
+*PEAR-Net_LDAP2-2.2.0-r1 (27 Jul 2016)
+
+  27 Jul 2016; Michael Orlitzky <mjo@gentoo.org> -PEAR-Net_LDAP2-2.2.0.ebuild,
+  +PEAR-Net_LDAP2-2.2.0-r1.ebuild:
+  new revision to add missing RDEPEND dev-php/PEAR-PEAR.
+
+  Package-Manager: portage-2.2.28
+

@@ -88,3 +88,7 @@
 
   Package-Manager: portage-2.2.27
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  phpldapadmin-1.2.3-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

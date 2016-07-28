@@ -82,3 +82,7 @@
   +g15daemon-1.9.5.3-r21.ebuild, g15daemon-9999.ebuild:
   Convert to python-r1
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  files/g15daemon-1.9.5.3-g510-keys.patch:
+  sourceforge: switch to https:// URIs
+

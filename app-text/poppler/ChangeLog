@@ -327,3 +327,17 @@
 
   Gentoo-Bug: 588142
 
+*poppler-0.46.0 (26 Jul 2016)
+
+  26 Jul 2016; Johannes Huber <johu@gentoo.org> +poppler-0.46.0.ebuild,
+  poppler-9999.ebuild:
+  Version bump 0.46.0
+
+  Package-Manager: portage-2.3.0
+
+  26 Jul 2016; Johannes Huber <johu@gentoo.org> -poppler-0.43.0.ebuild,
+  -poppler-0.44.0.ebuild:
+  Remove 0.4{3,4}.0
+
+  Package-Manager: portage-2.3.0
+

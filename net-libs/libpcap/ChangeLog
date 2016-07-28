@@ -87,3 +87,8 @@
 
   Package-Manager: portage-2.3.0
 
+  27 Jul 2016; Jeroen Roovers <jer@gentoo.org> libpcap-1.8.0.ebuild:
+  Remove USE=ipv6 (bug #589778).
+
+  Package-Manager: portage-2.3.0
+

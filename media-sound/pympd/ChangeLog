@@ -76,3 +76,7 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> pympd-0.08.1.ebuild,
+  pympd-0.08.1-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

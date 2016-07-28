@@ -110,3 +110,7 @@
   The REQUIRED_USE settings handles the acl/ldap logic,
   so no need to duplicate the checks.
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  files/netatalk-3.1.7-zeroconf-prefer-native-Avahi-support.patch:
+  sourceforge: switch to https:// URIs
+

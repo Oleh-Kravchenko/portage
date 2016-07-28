@@ -112,3 +112,7 @@
   RepoMan-Options: --include-arches="sparc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> libmms-0.6.2.ebuild,
+  libmms-0.6.2-r1.ebuild, libmms-0.6.4.ebuild:
+  sourceforge: switch to https:// URIs
+

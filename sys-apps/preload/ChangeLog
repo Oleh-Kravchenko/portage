@@ -74,3 +74,6 @@
   files/preload-0.6.4.init.in-r2:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> preload-0.6.4-r3.ebuild:
+  sourceforge: switch to https:// URIs
+

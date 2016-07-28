@@ -69,3 +69,9 @@
 
   Bug: 575810
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  files/pytvshows-0.2-ezrss.it.patch, files/pytvshows-0.2-feedurl.patch,
+  files/pytvshows-0.2-improved-re.patch, pytvshows-0.2-r1.ebuild,
+  pytvshows-0.2-r2.ebuild:
+  sourceforge: switch to https:// URIs
+

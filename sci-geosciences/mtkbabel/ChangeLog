@@ -88,3 +88,7 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> mtkbabel-0.8.2-r1.ebuild,
+  mtkbabel-0.8.3.1-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

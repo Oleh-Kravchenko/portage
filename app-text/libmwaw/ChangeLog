@@ -107,3 +107,7 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> libmwaw-0.3.6.ebuild,
+  libmwaw-0.3.7.ebuild, libmwaw-9999.ebuild:
+  sourceforge: switch to https:// URIs
+

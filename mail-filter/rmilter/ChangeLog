@@ -117,3 +117,8 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Jul 2016; Dirkjan Ochtman <djc@gentoo.org> rmilter-1.9.0.ebuild:
+  fix handling of dkim USE flag
+
+  Package-Manager: portage-2.2.28
+

@@ -75,3 +75,7 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> matio-1.5.1.ebuild,
+  matio-1.5.2.ebuild, matio-1.5.7.ebuild:
+  sourceforge: switch to https:// URIs
+

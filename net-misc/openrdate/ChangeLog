@@ -61,3 +61,6 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/openrdate-initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> openrdate-1.2.ebuild:
+  sourceforge: switch to https:// URIs
+

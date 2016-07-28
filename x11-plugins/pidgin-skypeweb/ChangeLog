@@ -28,3 +28,9 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  27 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  pidgin-skypeweb-1.2.ebuild:
+  Fix typo in SRC_URI.
+
+  Package-Manager: portage-2.2.28
+

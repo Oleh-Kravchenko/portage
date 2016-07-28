@@ -101,3 +101,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*hunspell-1.4.1-r1 (27 Jul 2016)
+
+  27 Jul 2016; Johannes Huber <johu@gentoo.org> -hunspell-1.4.1.ebuild,
+  +hunspell-1.4.1-r1.ebuild:
+  Introduce subslot
+
+  Package-Manager: portage-2.3.0
+

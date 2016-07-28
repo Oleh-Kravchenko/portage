@@ -148,3 +148,29 @@
 
   Package-Manager: portage-2.3.0
 
+  27 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  kmail-4.14.11_pre20160211.ebuild:
+  kde-apps: Add WEBKIT_REQUIRED=always based on libQtWebKit.so.4 in NEEDED
+
+  kde-apps/kdepim-common-libs:
+  In file included from composereditor-ng/composerview.h:24:0, [...]
+  /usr/include/KDE/KWebView:1:25: fatal error: ../kwebview.h: No such file or
+  directory
+
+  kde-apps/plasma-runtime:
+  graphicswidgetsbindingsplugin.dir/graphicswidgetsbindingsplugin.cpp.o:
+  undefined reference to `non-virtual thunk to Plasma::WebView::sizeHint(
+          Qt::SizeHint, QSizeF const&) const'
+  collect2: error: ld returned 1 exit status
+  make[2]: *** [plasma/declarativeimports/graphicswidgets/CMakeFiles/
+          graphicswidgetsbindingsplugin.dir/build.make:140:
+          lib/libgraphicswidgetsbindingsplugin.so] Error 1
+
+  kde-apps/kdebase-kioslaves:
+  >>> package: kde-base/kdelibs-4.14.22
+   *  - /usr/lib64/libkdewebkit.so.5
+   *  - /usr/lib64/libkdewebkit.so.5.14.21
+   *      used by /usr/lib64/kde4/htmlthumbnail.so
+
+  Package-Manager: portage-2.2.28
+

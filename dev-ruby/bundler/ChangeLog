@@ -162,3 +162,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  27 Jul 2016; Markus Meier <maekke@gentoo.org> bundler-1.12.5.ebuild:
+  arm stable, bug #556372
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

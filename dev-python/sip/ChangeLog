@@ -190,3 +190,10 @@
 
   Package-Manager: portage-2.3.0
 
+*sip-4.18.1 (27 Jul 2016)
+
+  27 Jul 2016; Davide Pesavento <pesa@gentoo.org> +sip-4.18.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0
+

@@ -123,3 +123,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  27 Jul 2016; Markus Meier <maekke@gentoo.org> userspace-rcu-0.9.1.ebuild:
+  arm stable, bug #586126
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

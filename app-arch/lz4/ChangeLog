@@ -125,3 +125,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jul 2016; Markus Meier <maekke@gentoo.org> lz4-0_p131.ebuild:
+  arm stable, bug #586182
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

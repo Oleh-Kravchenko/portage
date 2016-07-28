@@ -234,3 +234,11 @@
   21 Jul 2016; Matt Turner <mattst88@gentoo.org> +libdrm-2.4.69.ebuild:
   Version bump to 2.4.69.
 
+*libdrm-2.4.70 (26 Jul 2016)
+
+  26 Jul 2016; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +libdrm-2.4.70.ebuild:
+  version bump to 2.4.70
+
+  Package-Manager: portage-2.2.28
+

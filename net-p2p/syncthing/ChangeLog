@@ -294,3 +294,10 @@
 
   Package-Manager: portage-2.3.0
 
+*syncthing-0.14.0-r1 (27 Jul 2016)
+
+  27 Jul 2016; Dirkjan Ochtman <djc@gentoo.org> +files/strelaysrv.confd,
+  +files/strelaysrv.initd, +files/strelaysrv.logrotate,
+  -syncthing-0.14.0.ebuild, +syncthing-0.14.0-r1.ebuild:
+  net-p2p/syncting: fix init scripts for strelaysrv
+

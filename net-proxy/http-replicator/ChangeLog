@@ -135,3 +135,8 @@
 
   Package-Manager: portage-2.2.26
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  http-replicator-3.0-r4.ebuild, http-replicator-3.0-r6.ebuild,
+  http-replicator-4.0_alpha2-r5.ebuild:
+  sourceforge: switch to https:// URIs
+

@@ -198,3 +198,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  cdrtools-3.01_alpha17.ebuild, cdrtools-3.01_alpha17-r1.ebuild,
+  cdrtools-3.01_alpha24.ebuild, cdrtools-3.02_alpha06.ebuild,
+  cdrtools-3.02_alpha06-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

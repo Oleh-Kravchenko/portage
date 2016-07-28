@@ -123,3 +123,7 @@
   files/rpc.rquotad.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> quota-3.17-r1.ebuild,
+  quota-4.02.ebuild, quota-4.03.ebuild:
+  sourceforge: switch to https:// URIs
+

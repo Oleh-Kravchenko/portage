@@ -480,3 +480,14 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*xen-4.7.0-r1 (27 Jul 2016)
+*xen-4.6.3-r1 (27 Jul 2016)
+
+  27 Jul 2016; Yixun Lan <dlan@gentoo.org> +xen-4.6.3-r1.ebuild,
+  +xen-4.7.0-r1.ebuild:
+  security bump, fix XSA-182,183
+
+  Gentoo-Bug: 588780
+
+  Package-Manager: portage-2.3.0
+

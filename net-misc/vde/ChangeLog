@@ -134,3 +134,7 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> vde-2.2.2.ebuild,
+  vde-2.2.2-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

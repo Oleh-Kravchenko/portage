@@ -167,3 +167,9 @@
 
   Gentoo-Bug: 586440
 
+  27 Jul 2016; Markus Meier <maekke@gentoo.org> libgpg-error-1.22.ebuild:
+  arm stable, bug #586440
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

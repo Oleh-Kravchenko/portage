@@ -86,3 +86,7 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  vdr-dvd-0.3.7_pre20090106-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

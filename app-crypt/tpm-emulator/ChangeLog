@@ -86,3 +86,7 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  tpm-emulator-0.7.4-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

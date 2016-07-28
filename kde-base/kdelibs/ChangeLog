@@ -382,3 +382,12 @@
 
   Package-Manager: portage-2.3.0
 
+  27 Jul 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/kdelibs-4.14.22-webkit.patch, kdelibs-4.14.20-r2.ebuild,
+  kdelibs-4.14.21.ebuild, kdelibs-4.14.22.ebuild:
+  Patch to use WEBKIT_REQUIRED=optional
+
+  Add WEBKIT_REQUIRED="always" to <4.14.22 - these were not patched.
+
+  Package-Manager: portage-2.2.28
+

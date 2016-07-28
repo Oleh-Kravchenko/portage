@@ -142,3 +142,7 @@
   09 Jul 2016; Aaron Bauman <bman@gentoo.org> -mingetty-1.08.ebuild:
   cleanup vulnerable versions wrt bug #339338
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  files/mingetty-1.08-check_chroot_chdir_nice.patch, mingetty-1.08-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

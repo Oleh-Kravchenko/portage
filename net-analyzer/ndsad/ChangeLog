@@ -69,3 +69,6 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/ndsad.init:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> ndsad-1.33-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

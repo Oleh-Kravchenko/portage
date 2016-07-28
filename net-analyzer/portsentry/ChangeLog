@@ -69,3 +69,6 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/portsentry.rc6:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> portsentry-1.2-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

@@ -68,3 +68,6 @@
   files/swatch-initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> swatch-3.2.3-r2.ebuild:
+  sourceforge: switch to https:// URIs
+

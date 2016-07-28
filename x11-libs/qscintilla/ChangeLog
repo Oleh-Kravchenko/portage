@@ -102,3 +102,10 @@
 
   Package-Manager: portage-2.3.0
 
+*qscintilla-2.9.3 (27 Jul 2016)
+
+  27 Jul 2016; Davide Pesavento <pesa@gentoo.org> +qscintilla-2.9.3.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0
+

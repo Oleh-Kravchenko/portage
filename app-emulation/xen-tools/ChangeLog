@@ -521,3 +521,12 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*xen-tools-4.7.0-r1 (27 Jul 2016)
+*xen-tools-4.6.3-r1 (27 Jul 2016)
+
+  27 Jul 2016; Yixun Lan <dlan@gentoo.org> +xen-tools-4.6.3-r1.ebuild,
+  +xen-tools-4.7.0-r1.ebuild:
+  security bump, XSA-184
+
+  Package-Manager: portage-2.3.0
+

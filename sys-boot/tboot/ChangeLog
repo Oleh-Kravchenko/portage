@@ -71,3 +71,7 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> tboot-1.8.3.ebuild,
+  tboot-1.9.4.ebuild:
+  sourceforge: switch to https:// URIs
+

@@ -103,3 +103,6 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> asio-1.4.8-r1.ebuild:
+  sourceforge: switch to https:// URIs
+

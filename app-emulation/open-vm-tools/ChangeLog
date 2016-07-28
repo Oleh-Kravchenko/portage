@@ -123,3 +123,7 @@
 
   Package-Manager: portage-2.3.0_p15
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  open-vm-tools-9.4.0.1280544.ebuild:
+  sourceforge: switch to https:// URIs
+

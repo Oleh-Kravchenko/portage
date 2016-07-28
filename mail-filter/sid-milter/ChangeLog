@@ -81,3 +81,7 @@
   files/sid-filter.init-r1:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> sid-milter-1.0.0-r6.ebuild,
+  sid-milter-1.0.0-r7.ebuild:
+  sourceforge: switch to https:// URIs
+

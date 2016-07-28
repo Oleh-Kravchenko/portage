@@ -135,3 +135,7 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> cracklib-2.9.1-r1.ebuild,
+  cracklib-2.9.4.ebuild, cracklib-2.9.5.ebuild:
+  sourceforge: switch to https:// URIs
+

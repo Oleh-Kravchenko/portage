@@ -74,3 +74,6 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> nwipe-0.14.ebuild:
+  sourceforge: switch to https:// URIs
+

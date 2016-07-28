@@ -98,3 +98,7 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/watchdog-init.d:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> watchdog-5.14.ebuild,
+  watchdog-5.15.ebuild:
+  sourceforge: switch to https:// URIs
+

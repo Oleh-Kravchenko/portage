@@ -205,3 +205,7 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org>
+  files/conky-1.9.0-apcupsd.patch:
+  sourceforge: switch to https:// URIs
+

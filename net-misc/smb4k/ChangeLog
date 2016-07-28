@@ -94,3 +94,7 @@
 
   Package-Manager: portage-2.3.0
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml,
+  smb4k-1.2.1.ebuild:
+  sourceforge: switch to https:// URIs
+

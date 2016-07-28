@@ -101,3 +101,6 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> performous-1.0.ebuild:
+  sourceforge: switch to https:// URIs
+

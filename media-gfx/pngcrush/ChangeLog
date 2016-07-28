@@ -75,3 +75,6 @@
   01 Feb 2016; Tim Harder <radhermit@gentoo.org> +pngcrush-1.8.0.ebuild:
   version bump to 1.8.0
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  sourceforge: switch to https:// URIs
+

@@ -287,3 +287,10 @@
 
   Package-Manager: portage-2.3.0
 
+  27 Jul 2016; Jeroen Roovers <jer@gentoo.org> nmap-7.12.ebuild,
+  nmap-7.25_beta1.ebuild, nmap-9999.ebuild:
+  Alternatively depend on >=net-libs/libpcap-1.8.0 without a USE flag
+  restriction (iamben).
+
+  Package-Manager: portage-2.3.0
+

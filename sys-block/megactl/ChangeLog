@@ -80,3 +80,7 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Jul 2016; Mike Frysinger <vapier@gentoo.org> megactl-0.4.1-r1.ebuild,
+  megactl-0.4.1-r2.ebuild:
+  sourceforge: switch to https:// URIs
+
