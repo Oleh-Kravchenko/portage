@@ -98,3 +98,11 @@
 
   Package-Manager: portage-2.2.28
 
+*flow-tools-0.68.5.1-r7 (27 Jul 2016)
+
+  27 Jul 2016; Robin H. Johnson <robbat2@gentoo.org> files/flowcapture.confd,
+  files/flowcapture.initd, +flow-tools-0.68.5.1-r7.ebuild:
+  fix pidfile port suffix to match in both confd and initd.
+
+  Package-Manager: portage-2.2.28
+

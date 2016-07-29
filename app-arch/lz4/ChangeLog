@@ -131,3 +131,14 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  28 Jul 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Add myself as co-maintainer
+
+*lz4-0_p131-r1 (28 Jul 2016)
+
+  28 Jul 2016; Michał Górny <mgorny@gentoo.org> +lz4-0_p131-r1.ebuild:
+  fix paths in .pc and install_name (for Darwin)
+
+  Bug: https://bugs.gentoo.org/587892
+  Closes: https://github.com/gentoo/gentoo/pull/1967
+

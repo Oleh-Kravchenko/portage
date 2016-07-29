@@ -332,3 +332,42 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Jul 2016; William Hubbs <williamh@gentoo.org> docker-1.12.0_rc5.ebuild:
+  1.12.0_rc5: adjust CONFIG_MEMCG_KMEM check for #589552
+
+  Package-Manager: portage-2.2.28
+
+  27 Jul 2016; William Hubbs <williamh@gentoo.org> docker-9999.ebuild:
+  sync live ebuild
+
+  Package-Manager: portage-2.2.28
+
+  27 Jul 2016; William Hubbs <williamh@gentoo.org> -docker-1.12.0_rc3.ebuild,
+  -docker-1.12.0_rc4.ebuild, -docker-1.12.0_rc4-r1.ebuild:
+  remove older 1.12.0 release candidates
+
+  Package-Manager: portage-2.2.28
+
+  27 Jul 2016; William Hubbs <williamh@gentoo.org> docker-1.12.0_rc5.ebuild:
+  1.12.0-rc5: apply hardened patch for #587726
+
+  Package-Manager: portage-2.2.28
+
+*docker-1.12.0_rc5-r1 (28 Jul 2016)
+
+  28 Jul 2016; William Hubbs <williamh@gentoo.org>
+  +docker-1.12.0_rc5-r1.ebuild:
+  1.12.0_rc5-r1 bump for #589298 and to fix DOCKER_GITCOMMIT
+
+  Package-Manager: portage-2.2.28
+
+  28 Jul 2016; William Hubbs <williamh@gentoo.org> -docker-1.12.0_rc5.ebuild:
+  remove old
+
+  Package-Manager: portage-2.2.28
+
+  28 Jul 2016; William Hubbs <williamh@gentoo.org> docker-9999.ebuild:
+  sync live ebuild
+
+  Package-Manager: portage-2.2.28
+

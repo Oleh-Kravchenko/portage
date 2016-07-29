@@ -43,3 +43,11 @@
   * dev-util/wstool-0.1.13 (upstream tarball changed)
   * dev-util/rosdep-0.11.5 (upstream tarball deleted)
 
+*github-backup-utils-2.6.3 (28 Jul 2016)
+
+  28 Jul 2016; Austin English <wizardedit@gentoo.org>
+  +github-backup-utils-2.6.3.ebuild:
+  version bump to 2.6.3
+
+  Package-Manager: portage-2.3.0
+

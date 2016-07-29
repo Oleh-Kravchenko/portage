@@ -43,3 +43,10 @@
 
   Package-Manager: portage-2.2.26
 
+*vdirsyncer-0.11.2 (28 Jul 2016)
+
+  28 Jul 2016; Amy Winston <amynka@gentoo.org> +vdirsyncer-0.11.2.ebuild:
+  version bump 0.11.2 bug #589870
+
+  Package-Manager: portage-2.2.28
+

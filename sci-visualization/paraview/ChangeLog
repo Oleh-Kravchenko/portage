@@ -201,3 +201,12 @@
 
   Package-Manager: portage-2.2.28
 
+  28 Jul 2016; Matthias Maier <tamiko@gentoo.org> paraview-5.1.0.ebuild:
+  fix dependencies on qt5, bug #582864
+
+  *ouch*
+
+  Thanks to timeraider for bug report and patch.
+
+  Package-Manager: portage-2.2.28
+

@@ -45,3 +45,11 @@
 
   Package-Manager: portage-2.3.0
 
+*repoman-2.3.0-r1 (27 Jul 2016)
+
+  27 Jul 2016; Zac Medico <zmedico@gentoo.org> -repoman-2.3.0.ebuild,
+  +repoman-2.3.0-r1.ebuild:
+  2.3.0-r1 revbump with patch for bug 586864
+
+  Package-Manager: portage-2.3.0
+

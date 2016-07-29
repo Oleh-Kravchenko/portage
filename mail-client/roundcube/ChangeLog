@@ -260,3 +260,21 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  28 Jul 2016; Sergey Popov <pinkbyte@gentoo.org> roundcube-1.1.4.ebuild,
+  roundcube-1.2_beta.ebuild, roundcube-1.2.0.ebuild:
+  fix dependency on LDAP plugin
+
+  Current in-tree versions of mail-client/roundcube use
+  dev-php/PEAR-Net_LDAP3 for LDAP addressbook
+
+  Reported-by: Tomáš Mózes <hydrapolic@gmail.com>
+  Gentoo-Bug: 577456
+
+  Package-Manager: portage-2.2.28
+
+  28 Jul 2016; Sergey Popov <pinkbyte@gentoo.org> roundcube-1.1.4.ebuild,
+  roundcube-1.2_beta.ebuild, roundcube-1.2.0.ebuild:
+  dev-php/PEAR-Net_LDAP2 is still needed for some LDAP operations
+
+  Package-Manager: portage-2.2.28
+

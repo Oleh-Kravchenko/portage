@@ -71,3 +71,11 @@
 
   Package-Manager: portage-2.2.28
 
+*rest-client-1.8.0-r2 (28 Jul 2016)
+
+  28 Jul 2016; Hans de Graaff <graaff@gentoo.org>
+  +rest-client-1.8.0-r2.ebuild:
+  add ruby22 revision
+
+  Package-Manager: portage-2.2.28
+

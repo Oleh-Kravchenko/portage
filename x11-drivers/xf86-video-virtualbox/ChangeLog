@@ -377,3 +377,12 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  28 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  xf86-video-virtualbox-5.0.20-r1.ebuild:
+  Removed gcc version check.
+
+  Gentoo bug #586796
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
