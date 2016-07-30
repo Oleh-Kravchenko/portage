@@ -156,3 +156,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*coverage-4.2 (29 Jul 2016)
+
+  29 Jul 2016; Dirkjan Ochtman <djc@gentoo.org> +coverage-4.2.ebuild:
+  version bump to 4.2
+
+  Package-Manager: portage-2.2.28
+

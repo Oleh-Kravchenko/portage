@@ -604,3 +604,11 @@
 
   Package-Manager: portage-2.3.0
 
+  29 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  libreoffice-5.1.4.2.ebuild, libreoffice-5.1.9999.ebuild,
+  libreoffice-5.2.9999.ebuild, libreoffice-9999.ebuild:
+  Added subslot dependency for media-libs/glew.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -45,3 +45,10 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+  29 Jul 2016; Marek Szuba <marecki@gentoo.org> metadata.xml:
+  update metadata.
+
+  Update maintainer e-mail, remove the g-p-m project.
+
+  Package-Manager: portage-2.3.0
+

@@ -53,3 +53,8 @@
 
   Package-Manager: portage-2.2.28
 
+  29 Jul 2016; Marek Szuba <marecki@gentoo.org> metadata.xml:
+  update maintainer e-mail.
+
+  Package-Manager: portage-2.3.0
+

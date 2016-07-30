@@ -192,3 +192,11 @@
 
   Package-Manager: portage-2.3.0
 
+  29 Jul 2016; Johannes Huber <johu@gentoo.org>
+  kdebase-startkde-4.11.22-r2.ebuild, metadata.xml:
+  Update wallpaper use flag
+
+  Replace kde-apps/kde-wallpapers with kde-plasma/plasma-workspace-wallpapers.
+
+  Package-Manager: portage-2.3.0
+

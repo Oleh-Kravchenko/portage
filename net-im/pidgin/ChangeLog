@@ -210,3 +210,13 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  29 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> -pidgin-2.10.11.ebuild,
+  -pidgin-2.10.12-r2.ebuild, pidgin-2.11.0.ebuild:
+  Fixed python_fix_shebang call (bug #578102).
+
+  Thanks to wizardedit for tracking down and providing a fix.
+  Removed old ebuilds.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

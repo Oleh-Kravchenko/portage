@@ -87,3 +87,12 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*cdlabelgen-4.3.0 (28 Jul 2016)
+
+  28 Jul 2016; Michael Orlitzky <mjo@gentoo.org> +cdlabelgen-4.3.0.ebuild:
+  new version 4.3.0.
+
+  Gentoo-Bug: 451702
+
+  Package-Manager: portage-2.2.28
+

@@ -218,3 +218,17 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*tevent-0.9.29 (29 Jul 2016)
+
+  29 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +tevent-0.9.29.ebuild:
+  Bump to version 0.9.29
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  29 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> -tevent-0.9.27.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

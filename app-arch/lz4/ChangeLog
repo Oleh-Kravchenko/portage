@@ -142,3 +142,6 @@
   Bug: https://bugs.gentoo.org/587892
   Closes: https://github.com/gentoo/gentoo/pull/1967
 
+  29 Jul 2016; Michał Górny <mgorny@gentoo.org> lz4-9999.ebuild:
+  Copy the libdir/prefix fix to -9999
+

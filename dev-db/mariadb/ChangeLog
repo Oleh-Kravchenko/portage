@@ -590,3 +590,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  29 Jul 2016; Brian Evans <grknight@gentoo.org> mariadb-10.0.26.ebuild:
+  Add additional multilib wrapped headers wrt bug 590030
+
+  Package-Manager: portage-2.3.0
+

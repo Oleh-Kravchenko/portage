@@ -1285,3 +1285,10 @@
   Bug: https://bugs.gentoo.org/565730
   Package-Manager: portage-2.3.0_p15
 
+  29 Jul 2016; Mike Gilbert <floppym@gentoo.org> chromium-53.0.2785.21.ebuild:
+  set target_arch=x32 when appropriate
+
+  Bug: https://bugs.gentoo.org/589978
+
+  Package-Manager: portage-2.3.0_p16
+

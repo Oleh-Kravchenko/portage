@@ -199,3 +199,8 @@
 
   Package-Manager: portage-2.3.0
 
+  29 Jul 2016; Johannes Huber <johu@gentoo.org> -thumbnailers-15.08.3.ebuild:
+  Remove 15.08.3
+
+  Package-Manager: portage-2.3.0
+

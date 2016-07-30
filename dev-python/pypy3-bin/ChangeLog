@@ -195,3 +195,9 @@
   installed by dev-python/pypy3 (where the install layout follows upstream
   scripts rather than being coded in ebuild).
 
+*pypy3-bin-5.2.0_alpha1-r1 (29 Jul 2016)
+
+  29 Jul 2016; Michał Górny <mgorny@gentoo.org> pypy3-bin-2.4.0-r4.ebuild,
+  -pypy3-bin-5.2.0_alpha1.ebuild, +pypy3-bin-5.2.0_alpha1-r1.ebuild:
+  Remove unnecessary PDEP on python-updater
+

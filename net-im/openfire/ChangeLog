@@ -129,3 +129,12 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Jul 2016; Sergei Trofimovich <slyfox@gentoo.org> -openfire-3.10.0.ebuild,
+  -openfire-3.10.1.ebuild, -openfire-3.10.2.ebuild, -openfire-3.10.3.ebuild,
+  -openfire-4.0.0.ebuild, -openfire-4.0.1.ebuild:
+  drop old vulnerable versions, bug #588312
+
+  Bug: https://bugs.gentoo.org/588312
+
+  Package-Manager: portage-2.3.0
+

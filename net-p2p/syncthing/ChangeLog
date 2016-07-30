@@ -301,3 +301,16 @@
   -syncthing-0.14.0.ebuild, +syncthing-0.14.0-r1.ebuild:
   net-p2p/syncting: fix init scripts for strelaysrv
 
+  29 Jul 2016; Dirkjan Ochtman <djc@gentoo.org> metadata.xml:
+  update tools names in metadata
+
+*syncthing-0.14.3 (29 Jul 2016)
+
+  29 Jul 2016; Dirkjan Ochtman <djc@gentoo.org> +syncthing-0.14.3.ebuild:
+  bump to 0.14.3
+
+  29 Jul 2016; Dirkjan Ochtman <djc@gentoo.org> syncthing-0.14.3.ebuild:
+  add missed einstalldocs call
+
+  also refactor use E-vars at start
+

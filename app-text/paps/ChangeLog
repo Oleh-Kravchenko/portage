@@ -100,3 +100,8 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Jul 2016; Michael Weber <xmw@gentoo.org> -paps-0.6.8-r1.ebuild:
+  drop old revision (bug 566050).
+
+  Package-Manager: portage-2.2.28
+

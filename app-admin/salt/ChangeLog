@@ -327,3 +327,11 @@
 
   Package-Manager: portage-2.3.0
 
+*salt-2016.3.2 (29 Jul 2016)
+
+  29 Jul 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/salt-2016.3.2-broken-tests.patch, +salt-2016.3.2.ebuild:
+  Version bump to 2016.3.2
+
+  Package-Manager: portage-2.3.0
+

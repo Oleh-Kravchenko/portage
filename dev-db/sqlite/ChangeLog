@@ -333,3 +333,9 @@
   17 Jul 2016; Aaron Bauman <bman@gentoo.org> -sqlite-3.11.1.ebuild:
   remove vulnerable versions wrt bug #578940
 
+  29 Jul 2016; Mike Gilbert <floppym@gentoo.org> -files/sqlite-3.11.0-full_tar
+  ball-SQLITE_DBCONFIG_ENABLE_FTS3_TOKENIZER.patch, -files/sqlite-3.11.0-nonfu
+  ll_tarball-SQLITE_DBCONFIG_ENABLE_FTS3_TOKENIZER.patch,
+  -files/sqlite-3.11.0-nonfull_tarball-build.patch:
+  Delete old patches.
+

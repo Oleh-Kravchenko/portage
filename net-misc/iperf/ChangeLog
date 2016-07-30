@@ -166,3 +166,10 @@
   files/iperf-bidirectional-tcp-server.patch:
   sourceforge: switch to https:// URIs
 
+*iperf-2.0.9 (29 Jul 2016)
+
+  29 Jul 2016; Jeroen Roovers <jer@gentoo.org> +iperf-2.0.9.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

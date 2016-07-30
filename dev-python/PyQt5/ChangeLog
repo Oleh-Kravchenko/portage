@@ -174,3 +174,11 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*PyQt5-5.7 (29 Jul 2016)
+
+  29 Jul 2016; Davide Pesavento <pesa@gentoo.org> +PyQt5-5.7.ebuild,
+  metadata.xml:
+  version bump, added bluetooth/location/webengine support
+
+  Package-Manager: portage-2.3.0
+

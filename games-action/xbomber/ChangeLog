@@ -86,3 +86,10 @@
 
   Package-Manager: portage-2.3.0
 
+  28 Jul 2016; Austin English <wizardedit@gentoo.org> xbomber-101-r1.ebuild:
+  add a blocker for sci-biology/emboss #589918
+
+  Gentoo-Bug: https://bugs.gentoo.org/589918
+
+  Package-Manager: portage-2.3.0
+

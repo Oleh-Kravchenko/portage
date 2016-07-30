@@ -200,3 +200,19 @@
 
   Package-Manager: portage-2.3.0
 
+  29 Jul 2016; Johannes Huber <johu@gentoo.org> -krfb-15.08.3.ebuild,
+  metadata.xml:
+  Remove 15.08.3
+
+  Package-Manager: portage-2.3.0
+
+*krfb-15.08.3 (29 Jul 2016)
+
+  29 Jul 2016; Johannes Huber <johu@gentoo.org> +krfb-15.08.3.ebuild,
+  metadata.xml:
+  Restore 15.08.3
+
+  This reverts commit a8c154274fdd8dd9b1503515de0f69106b389d5f.
+
+  Upstream bug: https://bugs.kde.org/show_bug.cgi?id=356782
+

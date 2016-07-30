@@ -778,3 +778,17 @@
 
   Package-Manager: portage-2.3.0
 
+*samba-4.5.0_rc1 (29 Jul 2016)
+
+  29 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> +samba-4.5.0_rc1.ebuild:
+  Bump to version 4.5.0_rc1
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  29 Jul 2016; Lars Wendler <polynomial-c@gentoo.org> -samba-4.2.9.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

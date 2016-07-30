@@ -138,3 +138,8 @@
 
   Package-Manager: portage-2.3.0
 
+  29 Jul 2016; Davide Pesavento <pesa@gentoo.org> -PyQt4-4.11.4.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

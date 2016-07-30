@@ -167,3 +167,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Jul 2016; Amy Winston <amynka@gentoo.org>
+  -files/guile-2.0.0-clang-apicontrol-texi.patch, -guile-2.0.0.ebuild:
+  remove broken version 2.0.0
+
+  Package-Manager: portage-2.2.28
+

@@ -203,3 +203,7 @@
   09 Jun 2016; Michał Górny <mgorny@gentoo.org> +pypy3-5.2.0_alpha1.ebuild:
   Version bump to 5.2.0-alpha1
 
+  29 Jul 2016; Michał Górny <mgorny@gentoo.org> pypy3-2.4.0-r2.ebuild,
+  pypy3-5.2.0_alpha1.ebuild, pypy3-9999.ebuild:
+  Remove unnecessary PDEP on python-updater
+

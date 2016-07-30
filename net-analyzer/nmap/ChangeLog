@@ -294,3 +294,9 @@
 
   Package-Manager: portage-2.3.0
 
+  29 Jul 2016; Jeroen Roovers <jer@gentoo.org> +files/nmap-7.25-EC.patch,
+  nmap-7.25_beta1.ebuild, nmap-9999.ebuild:
+  Detect EC support in dev-libs/openssl (bug #589658).
+
+  Package-Manager: portage-2.3.0
+

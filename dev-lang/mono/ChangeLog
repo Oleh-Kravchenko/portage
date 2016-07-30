@@ -248,3 +248,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Jul 2016; Mikhail Pukhlikov <cynede@gentoo.org> mono-4.4.1.0.ebuild:
+  generic cleanup
+
+  29 Jul 2016; Mikhail Pukhlikov <cynede@gentoo.org> mono-4.4.1.0.ebuild:
+  multilib support
+
