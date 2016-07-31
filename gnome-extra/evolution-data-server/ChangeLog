@@ -203,3 +203,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*evolution-data-server-3.20.4 (30 Jul 2016)
+
+  30 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  +evolution-data-server-3.20.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

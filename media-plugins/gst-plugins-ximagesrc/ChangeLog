@@ -160,3 +160,16 @@
 
   Package-Manager: portage-2.3.0
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  gst-plugins-ximagesrc-0.10.31-r2.ebuild, gst-plugins-ximagesrc-1.6.3.ebuild:
+  ppc stable, bug 584468
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="ppc"
+
+  30 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  gst-plugins-ximagesrc-1.8.2.ebuild:
+  media-libs/gst-plugins-base is needed (#563470)
+
+  Package-Manager: portage-2.3.0
+

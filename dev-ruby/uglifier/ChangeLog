@@ -104,3 +104,10 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+*uglifier-3.0.1 (30 Jul 2016)
+
+  30 Jul 2016; Hans de Graaff <graaff@gentoo.org> +uglifier-3.0.1.ebuild:
+  add 3.0.1
+
+  Package-Manager: portage-2.2.28
+

@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.3.0
 
+*rex-random_identifier-0.1.0-r1 (30 Jul 2016)
+
+  30 Jul 2016; Zero_Chaos <zerochaos@gentoo.org>
+  -rex-random_identifier-0.1.0.ebuild, +rex-random_identifier-0.1.0-r1.ebuild:
+  drop random bins
+
+  Package-Manager: portage-2.3.0
+

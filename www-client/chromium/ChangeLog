@@ -1292,3 +1292,18 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  29 Jul 2016; Mike Gilbert <floppym@gentoo.org> chromium-53.0.2785.21.ebuild:
+  Revert "www-client/chromium: set target_arch=x32 when appropriate"
+
+  This reverts commit 85bd6a2e4790671fd6adea1d973ff8ea1ac99ff2.
+
+  x32 isn't really supported, so let's not pretend here.
+
+*chromium-53.0.2785.34 (30 Jul 2016)
+
+  30 Jul 2016; Mike Gilbert <floppym@gentoo.org> -chromium-53.0.2785.8.ebuild,
+  +chromium-53.0.2785.34.ebuild:
+  beta channel bump (53.0.2785.34)
+
+  Package-Manager: portage-2.3.0_p16
+

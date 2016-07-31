@@ -353,3 +353,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  30 Jul 2016; Jeroen Roovers <jer@gentoo.org> harfbuzz-1.2.7.ebuild:
+  Stable for HPPA PPC64 (bug #584468).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

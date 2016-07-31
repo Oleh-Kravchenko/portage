@@ -295,3 +295,13 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  30 Jul 2016; Jeroen Roovers <jer@gentoo.org> ldb-1.1.27.ebuild:
+  Fix version dependency on sys-libs/tdb (bug #590024).
+
+  Package-Manager: portage-2.3.0
+
+  30 Jul 2016; Jeroen Roovers <jer@gentoo.org> ldb-1.1.27.ebuild:
+  Set higher version dependency on sys-libs/tevent.
+
+  Package-Manager: portage-2.3.0
+

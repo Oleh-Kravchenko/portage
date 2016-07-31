@@ -116,3 +116,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 Jul 2016; Jeroen Roovers <jer@gentoo.org> rest-0.8.0.ebuild:
+  Stable for HPPA (bug #584468).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

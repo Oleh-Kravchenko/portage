@@ -115,3 +115,12 @@
   particular bug assignment/CC to ensure that the requested assignee
   always goes first, in order to match the bug wrangling policies.
 
+  30 Jul 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/firebird-2.5.1.26351.0-deps-flags.patch:
+  dev-db/*: remove unused patches.
+
+  Squash all commit messages into a single one.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1936
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

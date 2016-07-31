@@ -105,3 +105,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+  30 Jul 2016; Jeroen Roovers <jer@gentoo.org> gtk-doc-am-1.25.ebuild:
+  Stable for HPPA PPC64 (bug #584468).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

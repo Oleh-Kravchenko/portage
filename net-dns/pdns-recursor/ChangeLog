@@ -154,3 +154,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Sven Wegener <swegener@gentoo.org>
 
+*pdns-recursor-4.0.1 (30 Jul 2016)
+
+  30 Jul 2016; Sven Wegener <swegener@gentoo.org> +pdns-recursor-4.0.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

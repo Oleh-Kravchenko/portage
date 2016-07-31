@@ -116,3 +116,27 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+  30 Jul 2016; Jeroen Roovers <jer@gentoo.org> json-glib-1.2.0.ebuild:
+  Stable for HPPA (bug #584468).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  30 Jul 2016; Jeroen Roovers <jer@gentoo.org> json-glib-1.2.0.ebuild:
+  Stable for PPC64 (bug #584468).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  30 Jul 2016; Pacho Ramos <pacho@gentoo.org> -json-glib-1.1.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+
+*json-glib-1.2.2 (30 Jul 2016)
+
+  30 Jul 2016; Pacho Ramos <pacho@gentoo.org> +json-glib-1.2.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

@@ -414,3 +414,18 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  30 Jul 2016; Pacho Ramos <pacho@gentoo.org> -glib-2.46.2-r2.ebuild,
+  -glib-2.48.0-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+
+*glib-2.48.1-r1 (30 Jul 2016)
+
+  30 Jul 2016; Pacho Ramos <pacho@gentoo.org> -glib-2.48.1.ebuild,
+  +glib-2.48.1-r1.ebuild:
+  libpcre static-libs USE needs to be sync with glib (#588082 by Jordan
+  Yelloz), libintl is needed (#589336 by Gerhard Bräunlich).
+
+  Package-Manager: portage-2.3.0
+

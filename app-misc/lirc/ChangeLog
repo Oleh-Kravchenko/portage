@@ -177,3 +177,28 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  30 Jul 2016; David Seifert <soap@gentoo.org> lirc-0.9.4a.ebuild:
+  0.9.4a: workaround parallel make bug
+
+  Gentoo-bug: 588864
+  Closes: https://github.com/gentoo/gentoo/pull/1911
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+*lirc-0.9.4a-r1 (30 Jul 2016)
+
+  30 Jul 2016; David Seifert <soap@gentoo.org> +files/irexec-initd-0.9.4a-r1,
+  +files/lirc-0.9.4-doc-path-fix.patch, +lirc-0.9.4a-r1.ebuild:
+  0.9.4a-r1 fix documentation and socket directories
+
+  set localstatedir to /var so lirc correctly uses /var/run instead of
+  /var/lib/run
+  install documentation to /usr/share/doc/lirc-${PF}
+  use irexec-initd-0.9.4a-r1 instead of irexec-initd as the irexec initd
+  script to resolve a QA notice
+
+  Gentoo-bug: 589246
+  Closes: https://github.com/gentoo/gentoo/pull/1922
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

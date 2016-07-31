@@ -167,3 +167,25 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  30 Jul 2016; Patrice Clement <monsieurp@gentoo.org> guessit-1.0.3-r1.ebuild:
+  add missing dev-python/pygments test dep for 1.0.3
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1964
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  30 Jul 2016; Patrice Clement <monsieurp@gentoo.org> guessit-1.0.3-r1.ebuild,
+  guessit-2.0.5-r1.ebuild:
+  add python-3.5 support
+
+  Tested by me against dev-lang/python-3.5.2:3.5/3.5m
+
+  guessit-9999 is omitted as upstream repo is in borked state.
+  Can't build it properly even with Python-3.4 atm.
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1964
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -164,3 +164,20 @@
   30 May 2016; Aaron Bauman <bman@gentoo.org> aiohttp-0.21.6.ebuild:
   add ~x86 keyword
 
+*aiohttp-0.22.2 (30 Jul 2016)
+
+  30 Jul 2016; Alex Brandt <alunduil@gentoo.org> +aiohttp-0.22.2.ebuild:
+  add version 0.22.2
+
+  Package-Manager: portage-2.3.0
+
+  30 Jul 2016; Alex Brandt <alunduil@gentoo.org> -aiohttp-0.20.2.ebuild:
+  remove version 0.20.2
+
+  Package-Manager: portage-2.3.0
+
+  30 Jul 2016; Alex Brandt <alunduil@gentoo.org> -aiohttp-0.21.4.ebuild:
+  remove version 0.21.4
+
+  Package-Manager: portage-2.3.0
+

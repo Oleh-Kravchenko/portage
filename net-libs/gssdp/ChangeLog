@@ -144,3 +144,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 Jul 2016; Jeroen Roovers <jer@gentoo.org> gssdp-0.14.15.ebuild:
+  Stable for HPPA PPC64 (bug #584468).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

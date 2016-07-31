@@ -493,3 +493,24 @@
 
   Package-Manager: portage-2.3.0_rc1_p20
 
+  30 Jul 2016; Mike Gilbert <floppym@gentoo.org> systemd-9999.ebuild:
+  update resolv.conf warning
+
+  Package-Manager: portage-2.3.0_p16
+
+  30 Jul 2016; Mike Gilbert <floppym@gentoo.org> systemd-9999.ebuild:
+  drop migrate_net_name_slot
+
+  30 Jul 2016; Mike Gilbert <floppym@gentoo.org> systemd-9999.ebuild:
+  drop reenable_unit
+
+  30 Jul 2016; Mike Gilbert <floppym@gentoo.org> systemd-9999.ebuild:
+  drop kdbus
+
+*systemd-231 (30 Jul 2016)
+
+  30 Jul 2016; Mike Gilbert <floppym@gentoo.org> +systemd-231.ebuild:
+  bump to 231
+
+  Package-Manager: portage-2.3.0_p16
+

@@ -156,3 +156,32 @@
 
   Package-Manager: portage-2.3.0
 
+*rkt-1.11.0 (30 Jul 2016)
+
+  30 Jul 2016; Zac Medico <zmedico@gentoo.org> +rkt-1.11.0.ebuild:
+  version bump to 1.11.0
+
+  Package-Manager: portage-2.3.0
+
+  30 Jul 2016; Zac Medico <zmedico@gentoo.org> -rkt-1.6.0.ebuild,
+  -rkt-1.7.0.ebuild:
+  remove old versions
+
+  Package-Manager: portage-2.3.0
+
+  30 Jul 2016; Zac Medico <zmedico@gentoo.org> -rkt-9999.ebuild:
+  drop 9999 ebuild
+
+  Package-Manager: portage-2.3.0
+
+  30 Jul 2016; Zac Medico <zmedico@gentoo.org> rkt-1.10.1.ebuild,
+  rkt-1.11.0.ebuild:
+  reduce DESCRIPTION lenght
+
+  Package-Manager: portage-2.3.0
+
+  30 Jul 2016; Zac Medico <zmedico@gentoo.org> metadata.xml:
+  update longdescription
+
+  Package-Manager: portage-2.3.0
+

@@ -267,3 +267,15 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Jul 2016; Zero_Chaos <zerochaos@gentoo.org> metasploit-9999.ebuild:
+  finish updating live deps, mettle isn't detected though :-(
+
+  Package-Manager: portage-2.3.0
+
+*metasploit-4.12.16 (30 Jul 2016)
+
+  30 Jul 2016; Zero_Chaos <zerochaos@gentoo.org> +metasploit-4.12.16.ebuild:
+  new snapshot, woo
+
+  Package-Manager: portage-2.3.0
+

@@ -122,3 +122,14 @@
   Closes: https://github.com/gentoo/gentoo/pull/1630
   Package-Manager: portage-2.3.0_rc1
 
+  30 Jul 2016; Patrice Clement <monsieurp@gentoo.org> enzyme-0.4.1-r2.ebuild,
+  enzyme-9999.ebuild:
+  add python-3.5 support
+
+  Tested by me against dev-lang/python-3.5.2:3.5/3.5m
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1964
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

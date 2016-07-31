@@ -234,3 +234,8 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Jul 2016; Pacho Ramos <pacho@gentoo.org> gstreamer-1.8.2.ebuild:
+  inherit eutils was dropped by mistake (#588610 by Coacher)
+
+  Package-Manager: portage-2.3.0
+

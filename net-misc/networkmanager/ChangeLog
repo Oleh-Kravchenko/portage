@@ -421,3 +421,9 @@
 
   Package-Manager: portage-2.3.0_p13
 
+  30 Jul 2016; Pacho Ramos <pacho@gentoo.org> networkmanager-1.2.2.ebuild:
+  Fix the disabling of examples building and prevent qt automagic dep (#588828
+  by Eugene Shalygin), drop old migration messages (#589496 by mgorny).
+
+  Package-Manager: portage-2.3.0
+

@@ -268,3 +268,22 @@
 
   Package-Manager: portage-2.2.28
 
+  30 Jul 2016; Zero_Chaos <zerochaos@gentoo.org> logrotate-3.9.2-r1.ebuild:
+  simple safe sed line to fix bug 589854
+
+  Package-Manager: portage-2.3.0
+
+*logrotate-3.9.2-r2 (30 Jul 2016)
+
+  30 Jul 2016; Zero_Chaos <zerochaos@gentoo.org> -logrotate-3.9.2-r1.ebuild,
+  +logrotate-3.9.2-r2.ebuild:
+  ha, while trying to fix the same bug floppym reminded me to bump
+
+  Package-Manager: portage-2.3.0
+
+  30 Jul 2016; Mike Gilbert <floppym@gentoo.org> logrotate-3.9.2.ebuild,
+  logrotate-3.9.2-r2.ebuild:
+  PV}.tar.gz -> ${P}.tar.gz
+
+  Package-Manager: portage-2.3.0_p16
+

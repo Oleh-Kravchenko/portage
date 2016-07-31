@@ -143,3 +143,8 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Jul 2016; Mike Gilbert <floppym@gentoo.org> genkernel-next-64.ebuild:
+  PV}.tar.gz -> ${P}.tar.gz
+
+  Package-Manager: portage-2.3.0_p16
+

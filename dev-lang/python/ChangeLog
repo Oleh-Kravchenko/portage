@@ -615,3 +615,20 @@
 
   Package-Manager: portage-2.3.0_p15
 
+  30 Jul 2016; Michał Górny <mgorny@gentoo.org> python-2.7.10-r1.ebuild,
+  python-2.7.11-r2.ebuild, python-2.7.12.ebuild, python-3.3.5-r3.ebuild,
+  python-3.3.5-r8.ebuild, python-3.4.3-r1.ebuild, python-3.4.3-r7.ebuild,
+  python-3.4.4.ebuild, python-3.4.5.ebuild:
+  Remove remnants of python-updater
+
+  Remove the remaining dependencies on deprecated python-updater,
+  and update the postinst messages appropriately. For Python 2.7,
+  the message has been removed altogether since it is the oldest version
+  supported by PYTHON_TARGETS. For the remaining versions, just inform
+  about potential PYTHON_TARGETS changes necessary.
+
+  The modified versions are not revision-bumped to avoid unnecessary
+  rebuilds due to a minor change. The versions that are still
+  newest-visible (i.e. not replaced by another version or revision bump)
+  will be bumped when python-updater is lastrited.
+

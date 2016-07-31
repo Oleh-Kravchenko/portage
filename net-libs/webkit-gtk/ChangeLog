@@ -399,3 +399,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  30 Jul 2016; Pacho Ramos <pacho@gentoo.org> webkit-gtk-2.12.3.ebuild:
+  ACCELERATED_2D_CANVAS is not compatible with gles2 (#588698 by skobk.in)
+
+  Package-Manager: portage-2.3.0
+
