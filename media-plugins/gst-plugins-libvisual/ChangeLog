@@ -145,3 +145,18 @@
 
   This reverts commit b019aa20f8b5879fadf8853f19a6d960330225d7.
 
+  09 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  gst-plugins-libvisual-1.6.3.ebuild:
+  ppc stable, bug 584468
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="ppc"
+
+*gst-plugins-libvisual-1.8.2 (31 Jul 2016)
+
+  31 Jul 2016; Pacho Ramos <pacho@gentoo.org>
+  +gst-plugins-libvisual-1.8.2.ebuild:
+  Version bump, thanks to eva for the help (#588410)
+
+  Package-Manager: portage-2.3.0
+

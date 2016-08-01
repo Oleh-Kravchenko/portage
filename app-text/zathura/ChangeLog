@@ -130,3 +130,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*zathura-0.3.6 (31 Jul 2016)
+
+  31 Jul 2016; Maxim Koltsov <maksbotan@gentoo.org> +zathura-0.3.6.ebuild:
+  bump to 0.3.6
+
+  Gentoo-Bug: 589962
+
+  Package-Manager: portage-2.3.0
+

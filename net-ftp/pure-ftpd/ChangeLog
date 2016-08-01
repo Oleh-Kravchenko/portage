@@ -110,3 +110,12 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*pure-ftpd-1.0.43 (31 Jul 2016)
+
+  31 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  files/pure-ftpd-1.0.28-pam.patch, +pure-ftpd-1.0.43.ebuild:
+  Bump to version 1.0.43
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

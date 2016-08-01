@@ -111,3 +111,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*five-or-more-3.20.1 (31 Jul 2016)
+
+  31 Jul 2016; Pacho Ramos <pacho@gentoo.org> +five-or-more-3.20.1.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

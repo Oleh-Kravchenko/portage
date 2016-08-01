@@ -361,3 +361,12 @@
 
   Package-Manager: portage-2.3.0
 
+*poppler-0.46.0-r1 (31 Jul 2016)
+
+  31 Jul 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +files/poppler-0.46.0-crashfix-1.patch,
+  +files/poppler-0.46.0-crashfix-2.patch, +poppler-0.46.0-r1.ebuild:
+  Backport two crash fixes from upstream git
+
+  Package-Manager: portage-2.3.0
+

@@ -176,3 +176,9 @@
 
   Package-Manager: portage-2.3.0
 
+  31 Jul 2016; Pacho Ramos <pacho@gentoo.org> gst-plugins-vaapi-1.8.2.ebuild,
+  metadata.xml:
+  Make egl support optional (#588498 by Toralf Förster and Coacher).
+
+  Package-Manager: portage-2.3.0
+

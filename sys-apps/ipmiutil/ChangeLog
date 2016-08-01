@@ -90,3 +90,20 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*ipmiutil-2.9.9 (31 Jul 2016)
+
+  31 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/ipmiutil-2.9.9-lib_symlink.patch, +ipmiutil-2.9.9.ebuild:
+  Bump to version 2.9.9
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  31 Jul 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/ipmiutil-2.9.3-flags.patch, -files/ipmiutil-2.9.3-tmpdir.patch,
+  -ipmiutil-2.9.3.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

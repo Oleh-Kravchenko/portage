@@ -115,3 +115,11 @@
 
   Package-Manager: portage-2.2.28
 
+*leatherman-0.7.5-r2 (31 Jul 2016)
+
+  31 Jul 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -leatherman-0.7.5-r1.ebuild, +leatherman-0.7.5-r2.ebuild:
+  capping curl based off bug 590020
+
+  Package-Manager: portage-2.2.28
+

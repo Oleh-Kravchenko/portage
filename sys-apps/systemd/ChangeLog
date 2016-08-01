@@ -514,3 +514,23 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  31 Jul 2016; Mike Gilbert <floppym@gentoo.org> systemd-231.ebuild,
+  systemd-9999.ebuild:
+  fix resolv.conf message
+
+  Thanks to novns in #gentoo-systemd.
+
+  31 Jul 2016; Mike Gilbert <floppym@gentoo.org> systemd-226-r2.ebuild,
+  systemd-228-r1.ebuild, systemd-229.ebuild, systemd-230-r2.ebuild,
+  systemd-231.ebuild, systemd-9999.ebuild:
+  skip DEVPTS_MULTIPLE_INSTANCES check for Linux >= 4.7
+
+  Thanks to novns in #gentoo-systemd.
+
+  31 Jul 2016; Mike Gilbert <floppym@gentoo.org> systemd-231.ebuild:
+  disable resolv.conf warning
+
+  systemd-resolved currently returns broken responses via 127.0.0.53.
+
+  Bug: https://github.com/systemd/systemd/issues/3826
+

@@ -79,3 +79,10 @@
 
   Package-Manager: portage-2.3.0
 
+*blaze-0.10.1 (31 Jul 2016)
+
+  31 Jul 2016; Patrick Lauer <patrick@gentoo.org> +blaze-0.10.1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

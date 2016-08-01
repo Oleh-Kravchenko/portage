@@ -86,3 +86,23 @@
 
   Package-Manager: portage-2.2.28
 
+*freetds-1.00.13 (31 Jul 2016)
+
+  31 Jul 2016; Michael Orlitzky <mjo@gentoo.org> +freetds-1.00.13.ebuild:
+  new version 1.00.13.
+
+  This new version fixes some bugs and adds a few new features. At some
+  point, the upstream project added support for compiling with
+  -Werror=format-security, so that takes care of our bug 521270.
+
+  The ebuild now has support for GnuTLS, OpenSSL/LibreSSL (bug 490554),
+  and iconv. These were all present upstream, but missing from the
+  ebuild until now. It also adds a runtime dependency on bind-tools,
+  which is used by the "osql" script (bug 487176).
+
+  Gentoo-Bug: 487176
+  Gentoo-Bug: 490554
+  Gentoo-Bug: 521270
+
+  Package-Manager: portage-2.2.28
+

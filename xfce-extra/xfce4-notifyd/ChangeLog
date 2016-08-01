@@ -68,3 +68,6 @@
   29 Jul 2016; Michał Górny <mgorny@gentoo.org> +xfce4-notifyd-0.3.0.ebuild:
   Bump to 0.3.0, first GTK+3/gdbus release
 
+  31 Jul 2016; Michał Górny <mgorny@gentoo.org> xfce4-notifyd-0.3.0.ebuild:
+  Raise GTK+3 dep to fix build failure, #590112
+

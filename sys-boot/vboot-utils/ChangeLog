@@ -86,3 +86,9 @@
   vboot-utils-51_p20160427.ebuild:
   update -Werror disabling #582610
 
+  31 Jul 2016; Anthony G. Basile <blueness@gentoo.org>
+  vboot-utils-42_p20150219.ebuild, vboot-utils-51_p20160427.ebuild:
+  add libressl support
+
+  Package-Manager: portage-2.2.28
+

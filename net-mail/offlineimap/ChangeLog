@@ -67,3 +67,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*offlineimap-7.0.3 (31 Jul 2016)
+
+  31 Jul 2016; Jason Zaman <perfinion@gentoo.org>
+  +files/offlineimap-7.0.3-ConfigHelperMixin-must-be-new-style-class.patch,
+  +files/offlineimap-7.0.3-darwin10.patch, +offlineimap-7.0.3.ebuild:
+  bump to 7.0.3 and EAPI6
+
+  Package-Manager: portage-2.2.28
+

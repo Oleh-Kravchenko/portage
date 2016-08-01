@@ -200,3 +200,9 @@
 
   Package-Manager: portage-2.3.0
 
+  31 Jul 2016; Pacho Ramos <pacho@gentoo.org> gst-plugins-base-1.8.2.ebuild,
+  metadata.xml:
+  Enable opus support (#589440 by holgersson)
+
+  Package-Manager: portage-2.3.0
+

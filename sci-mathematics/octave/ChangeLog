@@ -176,3 +176,15 @@
   -files/octave-3.8.0-llvm-configure.patch, octave-3.8.2.ebuild:
   Remove jit from 3* as it requires llvm < 3.5
 
+  31 Jul 2016; David Seifert <soap@gentoo.org> metadata.xml,
+  octave-3.6.4.ebuild, octave-3.6.4-r1.ebuild, octave-3.8.2.ebuild,
+  octave-4.0.0.ebuild, octave-4.0.0-r1.ebuild, octave-4.0.1.ebuild,
+  octave-4.0.1-r1.ebuild, octave-4.0.2-r1.ebuild:
+  Add subslot operator for media-gfx/imagemagick
+
+  Gentoo-bug: 584104
+  * Also add USE="graphicsmagick" and add subslot
+    operator for media-gfx/graphicsmagick
+
+  Package-Manager: portage-2.3.0
+

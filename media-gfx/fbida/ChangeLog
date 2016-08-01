@@ -169,3 +169,32 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  31 Jul 2016; Jeroen Roovers <jer@gentoo.org> fbida-2.12.ebuild:
+  Add missing dependencies for fbpdf.
+
+  Package-Manager: portage-2.3.0
+
+*fbida-9999 (31 Jul 2016)
+
+  31 Jul 2016; Jeroen Roovers <jer@gentoo.org> +fbida-9999.ebuild:
+  Add live ebuild.
+
+  Package-Manager: portage-2.3.0
+
+  31 Jul 2016; Jeroen Roovers <jer@gentoo.org> fbida-2.12.ebuild,
+  fbida-9999.ebuild:
+  Add another missing dependency for USE=pdf.
+
+  Package-Manager: portage-2.3.0
+
+  31 Jul 2016; Jeroen Roovers <jer@gentoo.org> fbida-2.12.ebuild,
+  fbida-9999.ebuild, metadata.xml:
+  Replace USE=pdf with USE=ghostscript
+
+   - Currently fbpdf is not optional, so make all its dependencies
+  unconditional
+   - fbgs is optional, so make that RDEPEND on app-text/ghostscript-gpl again
+     when USE=ghostscript
+
+  Package-Manager: portage-2.3.0
+

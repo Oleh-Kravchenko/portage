@@ -26,3 +26,10 @@
 
   Package-Manager: portage-2.3.0
 
+*awscli-1.10.51 (31 Jul 2016)
+
+  31 Jul 2016; Patrick Lauer <patrick@gentoo.org> +awscli-1.10.51.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+
