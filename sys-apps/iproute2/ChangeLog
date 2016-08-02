@@ -261,3 +261,10 @@
   25 May 2016; Matt Turner <mattst88@gentoo.org> iproute2-4.4.0.ebuild:
   alpha stable, bug 576618.
 
+  01 Aug 2016; Mike Frysinger <vapier@gentoo.org> iproute2-2.6.38.ebuild,
+  iproute2-3.3.0.ebuild, iproute2-3.8.0.ebuild, iproute2-3.17.0.ebuild,
+  iproute2-3.19.0.ebuild, iproute2-4.0.0-r2.ebuild, iproute2-4.1.1.ebuild,
+  iproute2-4.2.0.ebuild, iproute2-4.3.0.ebuild, iproute2-4.4.0.ebuild,
+  iproute2-4.5.0.ebuild, iproute2-4.6.0.ebuild, iproute2-9999.ebuild:
+  linuxfoundation: switch http:// URIs to https://
+

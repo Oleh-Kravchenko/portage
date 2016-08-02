@@ -324,3 +324,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  01 Aug 2016; Mike Gilbert <floppym@gentoo.org> vlc-2.2.1-r1.ebuild,
+  vlc-2.2.4.ebuild:
+  depend on <net-misc/freerdp-2
+
+  Bug: https://bugs.gentoo.org/590164
+  Package-Manager: portage-2.3.0_p16
+

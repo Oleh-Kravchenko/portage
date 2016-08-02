@@ -98,3 +98,10 @@
   +files/squashfs-tools-4.3-xattrs.patch, +squashfs-tools-4.3-r2.ebuild:
   add a few more various fixes
 
+*squashfs-tools-9999 (01 Aug 2016)
+
+  01 Aug 2016; Jeroen Roovers <jer@gentoo.org> +squashfs-tools-9999.ebuild:
+  Add live ebuild.
+
+  Package-Manager: portage-2.3.0
+

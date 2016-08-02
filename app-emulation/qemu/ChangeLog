@@ -652,3 +652,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  01 Aug 2016; Mike Frysinger <vapier@gentoo.org> qemu-2.5.1.ebuild,
+  qemu-2.6.0.ebuild, qemu-9999.ebuild:
+  handle bzip2 dep #589968
+
+  The block layer uses it to support bzip2 compression in dmg images.
+  That code makes it into softmmu binaries and userland utils.
+

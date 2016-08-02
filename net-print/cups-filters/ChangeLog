@@ -431,3 +431,8 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  01 Aug 2016; Mike Frysinger <vapier@gentoo.org> cups-filters-1.5.0.ebuild,
+  cups-filters-1.8.3.ebuild, cups-filters-1.10.0.ebuild,
+  cups-filters-9999.ebuild:
+  linuxfoundation: switch http:// URIs to https://
+

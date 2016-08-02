@@ -217,3 +217,8 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Aug 2016; Mike Frysinger <vapier@gentoo.org> iputils-20121221-r1.ebuild,
+  iputils-20121221-r2.ebuild, iputils-20151218.ebuild,
+  iputils-20160308.ebuild, iputils-99999999.ebuild:
+  linuxfoundation: switch http:// URIs to https://
+

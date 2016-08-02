@@ -47,3 +47,17 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Aug 2016; Alexis Ballier <aballier@gentoo.org> -pycapnp-0.5.7.ebuild,
+  -pycapnp-0.5.8.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+*pycapnp-0.5.9-r1 (01 Aug 2016)
+
+  01 Aug 2016; Alexis Ballier <aballier@gentoo.org> -pycapnp-0.5.9.ebuild,
+  +pycapnp-0.5.9-r1.ebuild:
+  cython is not needed at runtime
+
+  Package-Manager: portage-2.3.0
+

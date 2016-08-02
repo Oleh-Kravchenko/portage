@@ -76,3 +76,8 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Aug 2016; Hans de Graaff <graaff@gentoo.org> -best_in_place-3.0.3.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

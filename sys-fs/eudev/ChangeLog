@@ -304,3 +304,8 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Aug 2016; Benda Xu <heroxbd@gentoo.org> eudev-3.2.ebuild:
+  Prefix support.
+
+  Bug: 589796
+

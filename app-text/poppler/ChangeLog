@@ -370,3 +370,8 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Aug 2016; Johannes Huber <johu@gentoo.org> -poppler-0.46.0.ebuild:
+  Remove 0.46.0 (r0)
+
+  Package-Manager: portage-2.3.0
+

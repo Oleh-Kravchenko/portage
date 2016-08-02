@@ -136,3 +136,9 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Aug 2016; Johannes Huber <johu@gentoo.org>
+  kde-apps-meta-15.12.3-r3.ebuild, kde-apps-meta-16.04.3.ebuild:
+  Drop kde-apps/kdeartwork-meta for removal
+
+  Package-Manager: portage-2.3.0
+

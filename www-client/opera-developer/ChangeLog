@@ -465,3 +465,17 @@
 
   Package-Manager: portage-2.3.0
 
+*opera-developer-40.0.2306.0 (01 Aug 2016)
+
+  01 Aug 2016; Jeroen Roovers <jer@gentoo.org>
+  +opera-developer-40.0.2306.0.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+
+  01 Aug 2016; Jeroen Roovers <jer@gentoo.org>
+  -opera-developer-40.0.2296.0.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

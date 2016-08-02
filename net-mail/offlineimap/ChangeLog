@@ -76,3 +76,11 @@
 
   Package-Manager: portage-2.2.28
 
+*offlineimap-7.0.3-r1 (01 Aug 2016)
+
+  01 Aug 2016; Jason Zaman <perfinion@gentoo.org> -offlineimap-7.0.3.ebuild,
+  +offlineimap-7.0.3-r1.ebuild:
+  sqlite is unconditional, bug 590180
+
+  Package-Manager: portage-2.2.28
+

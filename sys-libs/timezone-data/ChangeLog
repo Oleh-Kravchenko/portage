@@ -222,3 +222,9 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Aug 2016; Mike Frysinger <vapier@gentoo.org> timezone-data-2016e.ebuild:
+  mark 2016e stable for all
+
+  01 Aug 2016; Mike Frysinger <vapier@gentoo.org> -timezone-data-2016d.ebuild:
+  drop old <2016e versions
+

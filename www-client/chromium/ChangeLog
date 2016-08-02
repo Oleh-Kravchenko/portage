@@ -1307,3 +1307,18 @@
 
   Package-Manager: portage-2.3.0_p16
 
+*chromium-54.0.2810.2 (01 Aug 2016)
+
+  01 Aug 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  +chromium-54.0.2810.2.ebuild, +files/chromium-gn-r3.patch,
+  +files/chromium-last-commit-position-r1.patch,
+  files/chromium-system-ffmpeg-r3.patch,
+  +files/chromium-system-jinja-r12.patch:
+  dev channel bump (54.0.2810.2)
+
+  Fix build with system libpng (bug #578212).
+
+  Fix build with system libvpx (bug #567652 by Rok Kralj).
+
+  Package-Manager: portage-2.2.28
+

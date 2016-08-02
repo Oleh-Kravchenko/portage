@@ -497,3 +497,7 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Aug 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/mesa-12.0-sysmacros.patch, mesa-12.0.1.ebuild:
+  fix build w/newer glibc #580392
+

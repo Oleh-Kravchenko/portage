@@ -262,3 +262,17 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+  01 Aug 2016; Andrew Savchenko <bircoph@gentoo.org>
+  -openafs-kernel-1.6.18.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+
+  01 Aug 2016; Andrew Savchenko <bircoph@gentoo.org>
+  openafs-kernel-1.6.17.ebuild, openafs-kernel-1.6.18.2.ebuild:
+  sync with openafs patches
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+

@@ -12,3 +12,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  01 Aug 2016; Alexis Ballier <aballier@gentoo.org>
+  combined_robot_hw-0.11.0.ebuild, combined_robot_hw-9999.ebuild:
+  bump dep on hw interface.
+
+  Bug #583984
+
+  Package-Manager: portage-2.3.0
+

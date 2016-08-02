@@ -271,3 +271,18 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Aug 2016; Andrew Savchenko <bircoph@gentoo.org> -openafs-1.6.18.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+
+  01 Aug 2016; Andrew Savchenko <bircoph@gentoo.org> openafs-1.6.17.ebuild,
+  openafs-1.6.18.2.ebuild:
+  update patchset
+
+  In init scripts runscript is replaced by openrc-run.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+
