@@ -168,3 +168,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  02 Aug 2016; Jeroen Roovers <jer@gentoo.org> stellarium-0.14.3.ebuild:
+  Stable for PPC64 (bug #582292).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

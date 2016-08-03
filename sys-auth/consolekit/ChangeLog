@@ -315,3 +315,22 @@
 
   Package-Manager: portage-2.2.28
 
+*consolekit-1.1.0-r1 (02 Aug 2016)
+
+  02 Aug 2016; Jason Zaman <perfinion@gentoo.org> +consolekit-1.1.0-r1.ebuild,
+  +files/consolekit-1.1.0-Remove-the-root-restriction-for-runtime-dirs.patch:
+  Remove root restrictions, bug 585688
+
+  Package-Manager: portage-2.2.28
+
+  02 Aug 2016; Jason Zaman <perfinion@gentoo.org> consolekit-1.0.0-r1.ebuild,
+  consolekit-1.0.1.ebuild, consolekit-1.1.0.ebuild, consolekit-9999.ebuild:
+  logrotate file is already in the package
+
+  Package-Manager: portage-2.2.28
+
+  02 Aug 2016; Jason Zaman <perfinion@gentoo.org> -consolekit-1.0.0-r1.ebuild:
+  drop old
+
+  Package-Manager: portage-2.2.28
+

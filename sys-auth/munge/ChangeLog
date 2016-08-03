@@ -84,3 +84,10 @@
 
   Package-Manager: portage-2.2.26
 
+  02 Aug 2016; Benda Xu <heroxbd@gentoo.org> munge-0.5.11.ebuild:
+  Prefix support.
+
+  Bug: 590106
+
+  Package-Manager: portage-2.3.0
+

@@ -446,3 +446,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  02 Aug 2016; Jeroen Roovers <jer@gentoo.org> nss-3.23.ebuild:
+  Stable for PPC64 (bug #585372).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

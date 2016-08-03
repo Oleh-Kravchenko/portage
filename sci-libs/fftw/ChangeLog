@@ -96,3 +96,13 @@
 
   Package-Manager: portage-2.2.28
 
+*fftw-3.3.5-r1 (02 Aug 2016)
+
+  02 Aug 2016; David Seifert <soap@gentoo.org> -fftw-3.3.5.ebuild,
+  +fftw-3.3.5-r1.ebuild, fftw-9999.ebuild:
+  Fix missing .so files due to incomplete autotools-utils.eclass porting
+
+  * Also reintroduce USE="neon" flag
+
+  Package-Manager: portage-2.3.0
+

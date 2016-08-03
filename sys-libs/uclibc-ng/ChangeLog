@@ -77,3 +77,11 @@
 
   Package-Manager: portage-2.2.28
 
+*uclibc-ng-1.0.17 (01 Aug 2016)
+
+  01 Aug 2016; Anthony G. Basile <blueness@gentoo.org>
+  +uclibc-ng-1.0.17.ebuild:
+  version bump to 1.0.17
+
+  Package-Manager: portage-2.2.28
+

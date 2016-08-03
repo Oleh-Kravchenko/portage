@@ -75,3 +75,22 @@
 
   Package-Manager: portage-2.2.28
 
+*mod_limitipconn-0.24-r2 (02 Aug 2016)
+
+  02 Aug 2016; Michael Orlitzky <mjo@gentoo.org>
+  -mod_limitipconn-0.24-r1.ebuild, +mod_limitipconn-0.24-r2.ebuild:
+  new revision to fix the postinst instructions.
+
+  The pkg_postinst() for this module used to suggest setting,
+
+    APACHE2_OPTS="... -D LIMITIPCONN -D INFO"
+
+  in your apache2 conf file. The "INFO" was a mistake; it should have
+  been "STATUS" (to enable ExtendedStatus, as needed by mod_limitipconn).
+  This commit fixes the postinst message, and adds a runtime dependency
+  on mod_status for apache2 (previously missing).
+
+  Gentoo-Bug: 479360
+
+  Package-Manager: portage-2.2.28
+

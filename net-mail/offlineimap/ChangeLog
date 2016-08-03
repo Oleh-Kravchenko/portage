@@ -84,3 +84,11 @@
 
   Package-Manager: portage-2.2.28
 
+  02 Aug 2016; Tim Harder <radhermit@gentoo.org> offlineimap-7.0.3-r1.ebuild:
+  only show postinst message for new installs
+
+  Also, fix dev-python/six dep to use proper python versions.
+
+  02 Aug 2016; Tim Harder <radhermit@gentoo.org> -offlineimap-6.5.5.ebuild:
+  remove old
+

@@ -195,3 +195,8 @@
   17 May 2016; Mike Frysinger <vapier@gentoo.org> +linux-headers-4.6.ebuild:
   version bump to 4.6
 
+*linux-headers-4.7 (02 Aug 2016)
+
+  02 Aug 2016; Mike Frysinger <vapier@gentoo.org> +linux-headers-4.7.ebuild:
+  version bump to 4.7
+

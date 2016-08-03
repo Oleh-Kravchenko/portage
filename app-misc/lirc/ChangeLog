@@ -202,3 +202,16 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*lirc-0.9.4a-r2 (02 Aug 2016)
+
+  02 Aug 2016; David Seifert <soap@gentoo.org> +files/irexec-initd-0.9.4a-r2,
+  +files/lircmd-0.9.4a-r2, +files/lircmd.conf, -lirc-0.9.4.ebuild,
+  -lirc-0.9.4a.ebuild, lirc-0.9.4a-r1.ebuild, +lirc-0.9.4a-r2.ebuild:
+  0.9.4a-r2: cleanup old ebuild, init script improvements, remove la files,
+  don't set docdir unnecessarily (EAPI 6 does that automatically)
+
+  Gentoo-bug: 454466, 353774
+  Closes: https://github.com/gentoo/gentoo/pull/1988
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

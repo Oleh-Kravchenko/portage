@@ -106,3 +106,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  02 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/hg-git-0.3.4-git_handler-bookmarks-hg25.patch, -hg-git-0.7.0.ebuild,
+  -hg-git-0.8.2.ebuild, -hg-git-0.8.3.ebuild, -hg-git-0.8.4.ebuild:
+  Removed old (QA fix).
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

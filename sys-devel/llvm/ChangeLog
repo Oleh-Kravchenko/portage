@@ -683,3 +683,35 @@
   23 Jul 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
   Bump clang version in -9999 to 4.0, #589368
 
+*llvm-3.8.1-r1 (01 Aug 2016)
+
+  01 Aug 2016; Michał Górny <mgorny@gentoo.org>
+  +files/clang-3.8-default-libs.patch, +files/clang-3.8-musl-support.patch,
+  +files/llvm-3.8-musl-fixes.patch, +files/llvm-3.8-musl-support.patch,
+  +llvm-3.8.1-r1.ebuild, metadata.xml:
+  musl & default runtime lib switches, #589352
+
+  - add support for building llvm against musl
+  - enable clang to build binaries against musl
+  - introduce USE flag "sanitize" to control the building of compiler-rt's
+    sanitizers (they cause problem on musl)
+  - be able to override default values of -stdlib and -rtlib for clang
+    * USE="default-libcxx" implies -stdlib=libc++ (originally libstdc++)
+    * USE="default-compiler-rt" implies -rtlib=compiler-rt (originally libgcc)
+
+  02 Aug 2016; Matthias Maier <tamiko@gentoo.org>
+  +files/clang-3.8-abi-tag-support-mangler.patch,
+  +files/clang-3.8-abi-tag-support-sema.patch, llvm-3.8.1-r1.ebuild:
+  Backport abi-tag support, bug #571600
+
+  This applies the abi-tag support patches to 3.8.1-r1.
+
+  Unfortunately, gcc-5* and gcc-6* have slightly ABI incompatible
+  implementations of the abi-tag feature (basically a bugfix in gcc-6*) [1].
+  The patchset for clang implements the gcc-6* version and is thus not fully
+  compatible with gcc-5*.
+
+  [1] https://llvm.org/bugs/show_bug.cgi?id=28511
+
+  Package-Manager: portage-2.2.28
+

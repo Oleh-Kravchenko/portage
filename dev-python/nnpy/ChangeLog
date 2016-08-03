@@ -10,3 +10,10 @@
 
   Package-Manager: portage-2.2.28
 
+*nnpy-1.2 (02 Aug 2016)
+
+  02 Aug 2016; Dirkjan Ochtman <djc@gentoo.org> +nnpy-1.2.ebuild:
+  version bump to 1.2
+
+  Package-Manager: portage-2.2.28
+

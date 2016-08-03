@@ -10,3 +10,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*c-capnproto-0.2 (02 Aug 2016)
+
+  02 Aug 2016; Alexis Ballier <aballier@gentoo.org> +c-capnproto-0.2.ebuild:
+  bump to 0.2
+
+  Package-Manager: portage-2.3.0
+

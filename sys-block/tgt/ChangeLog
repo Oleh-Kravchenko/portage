@@ -149,3 +149,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*tgt-1.0.66 (02 Aug 2016)
+
+  02 Aug 2016; Matthew Thode <prometheanfire@gentoo.org> +tgt-1.0.66.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

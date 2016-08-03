@@ -147,3 +147,7 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  01 Aug 2016; Mike Gilbert <floppym@gentoo.org>
+  freerdp-2.0.0_pre20160722.ebuild, freerdp-9999.ebuild:
+  drop the onoff function
+

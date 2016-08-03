@@ -380,3 +380,14 @@
 
   Package-Manager: portage-2.2.28
 
+*openssh-7.3_p1 (02 Aug 2016)
+
+  02 Aug 2016; Mike Frysinger <vapier@gentoo.org> +openssh-7.3_p1.ebuild:
+  version bump to 7.3_p1
+
+  02 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> openssh-7.3_p1.ebuild:
+  Re-added $Id$ header line.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -107,3 +107,14 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  02 Aug 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  drop tristan from maintainers
+
+  Package-Manager: portage-2.3.0_p16
+
+  02 Aug 2016; Mike Gilbert <floppym@gentoo.org> remmina-1.2.0_rc3.ebuild,
+  remmina-1.2.0_rc3-r1.ebuild:
+  depend on <net-misc/freerdp-2
+
+  Package-Manager: portage-2.3.0_p16
+
