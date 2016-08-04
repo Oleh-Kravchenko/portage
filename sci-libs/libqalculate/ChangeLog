@@ -68,3 +68,13 @@
 
   Package-Manager: portage-2.2.28
 
+*libqalculate-0.9.9 (03 Aug 2016)
+
+  03 Aug 2016; Matthias Maier <tamiko@gentoo.org> +libqalculate-0.9.9.ebuild:
+  version bump
+
+  * EAPI=6
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Matthias Maier <tamiko@gentoo.org>
+

@@ -68,3 +68,9 @@
   26 May 2016; Matt Turner <mattst88@gentoo.org> +libXfixes-5.0.2.ebuild:
   version bump to 5.0.2, bug 576844.
 
+  03 Aug 2016; Jeroen Roovers <jer@gentoo.org> libXfixes-5.0.2.ebuild:
+  Stable for HPPA (bug #579266).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

@@ -101,3 +101,10 @@
 
   Package-Manager: portage-2.3.0
 
+*hevea-2.29 (03 Aug 2016)
+
+  03 Aug 2016; Alexis Ballier <aballier@gentoo.org> +hevea-2.29.ebuild:
+  bump to 2.29
+
+  Package-Manager: portage-2.3.0
+

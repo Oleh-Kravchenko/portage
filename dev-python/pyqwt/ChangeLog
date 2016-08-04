@@ -95,3 +95,11 @@
 
   Package-Manager: portage-2.3.0
 
+*pyqwt-5.2.0-r2 (03 Aug 2016)
+
+  03 Aug 2016; Mike Gilbert <floppym@gentoo.org> -pyqwt-5.2.0-r1.ebuild,
+  +pyqwt-5.2.0-r2.ebuild:
+  simplify dependency on PyQt4
+
+  Package-Manager: portage-2.3.0_p16
+

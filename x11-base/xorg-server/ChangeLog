@@ -293,3 +293,9 @@
   21 Jul 2016; Matt Turner <mattst88@gentoo.org> +xorg-server-1.18.4.ebuild:
   Version bump to 1.18.4.
 
+  03 Aug 2016; Jeroen Roovers <jer@gentoo.org> xorg-server-1.18.4.ebuild:
+  Stable for HPPA (bug #579266).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

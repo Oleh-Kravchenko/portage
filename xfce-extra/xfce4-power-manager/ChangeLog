@@ -84,3 +84,6 @@
   -xfce4-power-manager-1.4.4.ebuild, -xfce4-power-manager-1.5.0.ebuild:
   Prune old
 
+  03 Aug 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Prune obsolete USE flag description
+

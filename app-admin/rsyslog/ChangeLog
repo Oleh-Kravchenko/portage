@@ -316,3 +316,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  03 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  rsyslog-8.16.0-r1.ebuild, rsyslog-8.18.0.ebuild, rsyslog-8.19.0.ebuild:
+  Fix REPLACING_VERSIONS usage
+
+  We no longer need this check because the previous major version was already
+  removed in 2015.
+
+  Gentoo-Bug: https://bugs.gentoo.org/589448
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2001
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -501,3 +501,10 @@
   +files/mesa-12.0-sysmacros.patch, mesa-12.0.1.ebuild:
   fix build w/newer glibc #580392
 
+  03 Aug 2016; Jeroen Roovers <jer@gentoo.org> mesa-11.2.2.ebuild,
+  mesa-12.0.1.ebuild:
+  Stable for HPPA (bug #579266).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

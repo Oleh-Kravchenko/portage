@@ -207,3 +207,6 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  03 Aug 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  drop unused USE flags
+

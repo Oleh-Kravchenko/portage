@@ -461,3 +461,34 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  03 Aug 2016; Patrice Clement <monsieurp@gentoo.org> shorewall-5.0.4.ebuild,
+  shorewall-5.0.7.2.ebuild, shorewall-5.0.9.2.ebuild, shorewall-5.0.10.ebuild:
+  Fix REPLACING_VERSIONS usage
+
+  Gentoo-Bug: https://bugs.gentoo.org/589482
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2000
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*shorewall-5.0.10.1 (03 Aug 2016)
+
+  03 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  +shorewall-5.0.10.1.ebuild:
+  Bumped to v5.0.10.1
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2000
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  03 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  -shorewall-5.0.10.ebuild:
+  Cleanup old version
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2000
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -215,3 +215,11 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*eselect-python-20160516 (03 Aug 2016)
+
+  03 Aug 2016; Mike Gilbert <floppym@gentoo.org>
+  +eselect-python-20160516.ebuild, eselect-python-99999999.ebuild:
+  bump to 20160516
+
+  Package-Manager: portage-2.3.0_p16
+

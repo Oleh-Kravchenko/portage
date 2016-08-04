@@ -339,3 +339,9 @@
   -files/sqlite-3.11.0-nonfull_tarball-build.patch:
   Delete old patches.
 
+  03 Aug 2016; Jeroen Roovers <jer@gentoo.org> sqlite-3.13.0.ebuild:
+  Stable for HPPA (bug #590178).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

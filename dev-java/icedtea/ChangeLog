@@ -310,3 +310,16 @@
 
   Package-Manager: portage-2.2.28
 
+*icedtea-3.1.0 (02 Aug 2016)
+
+  02 Aug 2016; James Le Cuirot <chewi@gentoo.org> +files/icedtea.env.sh,
+  +icedtea-3.1.0.ebuild, metadata.xml:
+  Version bump to 3.1.0
+
+  Package-Manager: portage-2.3.0
+
+  02 Aug 2016; James Le Cuirot <chewi@gentoo.org> -icedtea-3.0.1.ebuild:
+  Remove old 3.0.1
+
+  Package-Manager: portage-2.3.0
+

@@ -161,3 +161,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  03 Aug 2016; Yixun Lan <dlan@gentoo.org> autofs-5.1.2.ebuild:
+  amd64,x86 stable
+
+  Gentoo-Bug: 590304
+
+  Package-Manager: portage-2.3.0
+

@@ -85,3 +85,18 @@
   files/libsigrokdecode-0.3.0-no-check-linkage.patch:
   sourceforge: switch to https:// URIs
 
+  03 Aug 2016; Sven Wegener <swegener@gentoo.org> libsigrokdecode-9999.ebuild:
+  Bump to EAPI 6
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Sven Wegener <swegener@gentoo.org>
+
+*libsigrokdecode-0.4.0 (03 Aug 2016)
+
+  03 Aug 2016; Sven Wegener <swegener@gentoo.org>
+  +libsigrokdecode-0.4.0.ebuild:
+  Version bump, bug #579898
+
+  Package-Manager: portage-2.2.28
+  Signed-off-by: Sven Wegener <swegener@gentoo.org>
+

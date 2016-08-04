@@ -1126,3 +1126,12 @@
 
   Package-Manager: portage-2.3.0_p16
 
+*chrome-binary-plugins-54.0.2816.0_alpha (03 Aug 2016)
+
+  03 Aug 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-54.0.2810.2_alpha.ebuild,
+  +chrome-binary-plugins-54.0.2816.0_alpha.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_p16
+

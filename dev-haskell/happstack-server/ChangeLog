@@ -106,3 +106,10 @@
   files/happstack-server-7.4.2-time-1.5.patch:
   apache: switch to https:// URI
 
+  03 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/happstack-server-7.4.2-ghc-7.10.patch,
+  -files/happstack-server-7.4.2-time-1.5.patch:
+  remove unused patches
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

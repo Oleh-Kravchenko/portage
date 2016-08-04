@@ -447,3 +447,9 @@
 
   Package-Manager: portage-2.3.0
 
+  03 Aug 2016; Jeroen Roovers <jer@gentoo.org> libgcrypt-1.7.1.ebuild:
+  Stable for HPPA (bug #586056).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

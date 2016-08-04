@@ -139,3 +139,8 @@
 
   Package-Manager: portage-2.3.0
 
+  03 Aug 2016; Michael Weber <xmw@gentoo.org> zathura-0.3.6.ebuild:
+  bump girara dependency (bug 590182, thanks Toralf Förster).
+
+  Package-Manager: portage-2.2.28
+

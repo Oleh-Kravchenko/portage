@@ -89,3 +89,8 @@
 
   Package-Manager: portage-2.2.28
 
+  03 Aug 2016; Alexis Ballier <aballier@gentoo.org> asciidoctor-1.5.4.ebuild:
+  keyword ~arm
+
+  Package-Manager: portage-2.3.0
+

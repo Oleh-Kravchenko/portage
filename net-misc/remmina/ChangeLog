@@ -118,3 +118,19 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  02 Aug 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  update metadata
+
+  - Add myself as proxy maintainer.
+  - Add a long description.
+  - Remove old SourceForge remote-id.
+
+*remmina-1.2.0_rc14 (02 Aug 2016)
+
+  02 Aug 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml,
+  +remmina-1.2.0_rc14.ebuild:
+  version bump to 1.2.0_rc14
+
+  Gentoo-Bug: 571026
+  Closes: https://github.com/gentoo/gentoo/pull/2006
+

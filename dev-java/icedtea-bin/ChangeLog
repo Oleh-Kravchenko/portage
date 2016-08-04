@@ -491,3 +491,11 @@
 
   Package-Manager: portage-2.3.0
 
+*icedtea-bin-3.1.0 (02 Aug 2016)
+
+  02 Aug 2016; James Le Cuirot <chewi@gentoo.org> +files/icedtea-bin.env.sh,
+  +icedtea-bin-3.1.0.ebuild:
+  Bump to 3.1.0, adds multilib for amd64
+
+  Package-Manager: portage-2.3.0
+

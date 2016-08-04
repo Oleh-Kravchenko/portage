@@ -81,3 +81,10 @@
 
   Package-Manager: portage-2.3.0
 
+*greybird-9999 (03 Aug 2016)
+
+  03 Aug 2016; Jeroen Roovers <jer@gentoo.org> +greybird-9999.ebuild:
+  Add live ebuild.
+
+  Package-Manager: portage-2.3.0
+

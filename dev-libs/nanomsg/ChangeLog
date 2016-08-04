@@ -95,3 +95,8 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  03 Aug 2016; Alexis Ballier <aballier@gentoo.org> nanomsg-1.0.0.ebuild:
+  keyword ~arm
+
+  Package-Manager: portage-2.3.0
+

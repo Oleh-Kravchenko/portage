@@ -136,3 +136,17 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*alsa-lib-1.1.2 (03 Aug 2016)
+
+  03 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +alsa-lib-1.1.2.ebuild:
+  Bump to version 1.1.2
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  03 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> -alsa-lib-1.1.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

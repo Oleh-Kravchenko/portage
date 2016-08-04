@@ -99,3 +99,8 @@
 
   Package-Manager: portage-2.2.28
 
+  03 Aug 2016; Alexis Ballier <aballier@gentoo.org> slim-3.0.7.ebuild:
+  keyword ~arm
+
+  Package-Manager: portage-2.3.0
+

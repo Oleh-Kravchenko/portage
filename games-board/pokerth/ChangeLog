@@ -102,3 +102,15 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*pokerth-1.1.1-r2 (02 Aug 2016)
+
+  02 Aug 2016; Austin English <wizardedit@gentoo.org>
+  +pokerth-1.1.1-r2.ebuild:
+  remove deprecated games eclass
+
+  Also update to EAPI 6
+
+  Gentoo-Bug: https://bugs.gentoo.org/574082
+
+  Package-Manager: portage-2.3.0
+

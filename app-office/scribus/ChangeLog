@@ -198,3 +198,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*scribus-1.5.1 (03 Aug 2016)
+
+  03 Aug 2016; Michael Weber <xmw@gentoo.org> +scribus-1.5.1.ebuild:
+  Version bump (bug 576018).
+
+  Package-Manager: portage-2.2.28
+
