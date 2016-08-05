@@ -831,3 +831,54 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*firefox-45.3.0 (03 Aug 2016)
+
+  03 Aug 2016; Ian Stakenvicius <axs@gentoo.org> +firefox-45.3.0.ebuild:
+  bump ESR to 45.3.0, drop the unstable gtk3 support
+
+  Package-Manager: portage-2.2.28
+
+*firefox-48.0 (03 Aug 2016)
+
+  03 Aug 2016; Ian Stakenvicius <axs@gentoo.org>
+  +files/xpcom-components-binutils-26.patch, +firefox-48.0.ebuild,
+  metadata.xml:
+  version bump to 48.0 with improved gtk+-3.20 support
+
+  - GTK3 support is much improved with using 3.20 and above.
+  - A workaround patch exists that will address ld.bfd linker failures on
+  xpcom
+  - various security fixes (to be announced)
+
+  Bug: http://bugs.gentoo.org/578326
+  Bug: http://bugs.gentoo.org/588906
+
+  Package-Manager: portage-2.2.28
+
+  04 Aug 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-47.0.1.ebuild:
+  drop firefox-47 as it has been superceded by 48.0
+
+  Package-Manager: portage-2.2.28
+
+  04 Aug 2016; Ian Stakenvicius <axs@gentoo.org> firefox-48.0.ebuild:
+  48: drop egl USE flag from gentoo-repo version, again.
+
+  Bug: http://bugs.gentoo.org/571180
+
+  Package-Manager: portage-2.2.28
+
+  04 Aug 2016; Ian Stakenvicius <axs@gentoo.org> firefox-48.0.ebuild:
+  48.0: fix dependencies
+
+  Bug: http://bugs.gentoo.org/590424
+  Bug: http://bugs.gentoo.org/590426
+
+  Package-Manager: portage-2.2.28
+
+  04 Aug 2016; Ian Stakenvicius <axs@gentoo.org> firefox-45.3.0.ebuild:
+  45.3.0: convert LINGUAS to L10N
+
+  Bug: http://bugs.gentoo.org/587334
+
+  Package-Manager: portage-2.2.28
+

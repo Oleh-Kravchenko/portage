@@ -279,3 +279,11 @@
   Closes: https://github.com/gentoo/gentoo/pull/1936
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*mongodb-3.2.8 (04 Aug 2016)
+
+  04 Aug 2016; Ultrabug <ultrabug@gentoo.org> -mongodb-3.2.4.ebuild,
+  -mongodb-3.2.5.ebuild, +mongodb-3.2.8.ebuild:
+  version bump, drop old
+
+  Package-Manager: portage-2.2.27
+

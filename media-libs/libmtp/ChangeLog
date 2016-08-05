@@ -117,3 +117,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  04 Aug 2016; Jeroen Roovers <jer@gentoo.org> libmtp-1.1.11.ebuild:
+  Stable for HPPA (bug #568266).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

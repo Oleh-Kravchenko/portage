@@ -499,3 +499,9 @@
 
   Package-Manager: portage-2.3.0
 
+  03 Aug 2016; Austin English <wizardedit@gentoo.org>
+  icedtea-bin-3.0.1.ebuild, icedtea-bin-3.1.0.ebuild,
+  icedtea-bin-7.2.6.6-r1.ebuild:
+  license should be GPL-2-with-classpath-exception, not GPL-2-with-linking-
+  exception
+

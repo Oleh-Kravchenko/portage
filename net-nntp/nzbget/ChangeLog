@@ -208,3 +208,22 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*nzbget-17.0 (04 Aug 2016)
+
+  04 Aug 2016; Göktürk Yüksek <gokturk@gentoo.org> +nzbget-17.0.ebuild:
+  bump to 17.0, update LICENSE
+
+  Package-Manager: portage-2.3.0
+
+  04 Aug 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  -nzbget-17.0_pre1686.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+  04 Aug 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  +files/nzbget-17.0_parcheck-tests-fix.patch, nzbget-17.0.ebuild:
+  fix tests with USE="-parcheck" for version 17.0
+
+  Package-Manager: portage-2.2.28
+

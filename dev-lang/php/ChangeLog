@@ -1640,3 +1640,23 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*php-7.0.9-r2 (04 Aug 2016)
+
+  04 Aug 2016; Michael Orlitzky <mjo@gentoo.org>
+  +files/fix-x86-build-bug_571658.patch, -php-7.0.9.ebuild,
+  -php-7.0.9-r1.ebuild, +php-7.0.9-r2.ebuild:
+  new 7.x revision to fix the build on x86.
+
+  There is an upstream bug that causes the build to fail on x86 with
+  gcc-4.9. There was an earlier fix for gcc-4.8, and this new revision
+  has a fix that also works for gcc-4.9.
+
+  And, since we're no longer inheriting depend.apache.eclass, I was
+  finally able to update the ebuild to EAPI=6.
+
+  A redundant earlier ebuild for php-7.0.9 was also removed.
+
+  Gentoo-Bug: 571658
+
+  Package-Manager: portage-2.2.28
+

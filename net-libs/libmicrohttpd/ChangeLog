@@ -271,3 +271,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  04 Aug 2016; Jeroen Roovers <jer@gentoo.org> libmicrohttpd-0.9.49.ebuild:
+  Stable for HPPA (bug #584884).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

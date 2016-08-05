@@ -391,3 +391,15 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*openssh-7.3_p1-r1 (03 Aug 2016)
+
+  03 Aug 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/openssh-7.3_p1-sctp-x509-glue.patch, +openssh-7.3_p1-r1.ebuild:
+  Revision bump, enable the X509 patch
+
+  Package-Manager: portage-2.3.0
+
+  04 Aug 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/openssh-7.3_p1-GSSAPI-dns.patch, openssh-7.3_p1-r1.ebuild:
+  fix USE=kerberos build #590382
+

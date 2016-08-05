@@ -17,3 +17,8 @@
 
   Package-Manager: portage-2.2.28
 
+  04 Aug 2016; Alexis Ballier <aballier@gentoo.org> nnpy-1.2.ebuild:
+  keyword ~arm
+
+  Package-Manager: portage-2.3.0
+

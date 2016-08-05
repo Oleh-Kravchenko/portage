@@ -142,3 +142,9 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Aug 2016; Alexis Ballier <aballier@gentoo.org> +files/tinyxml2.patch,
+  gazebo-7.3.1.ebuild:
+  fix build with tinyxml2 4.0
+
+  Package-Manager: portage-2.3.0
+

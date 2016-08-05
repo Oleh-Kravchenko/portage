@@ -8,3 +8,6 @@
   +metadata.xml, +sedutil-1.12.ebuild:
   new package for Chromium OS
 
+  04 Aug 2016; Mike Frysinger <vapier@gentoo.org> sedutil-1.12.ebuild:
+  only apply nvme.h fix w/newer linux-headers #590486
+

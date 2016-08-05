@@ -116,3 +116,16 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  04 Aug 2016; Kent Fredric <kentnl@gentoo.org> Test-Warn-0.240.0-r1.ebuild:
+  Remove POD Author tests
+
+  This slightly improves the keywording situation on arm64, s390 and sh,
+  and reduces the dependency tree from unnecessary complexity for everyone
+  else.
+
+  ( arm64, s390 and sh are all still unsatisfied for Sub-UpLevel )
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="alpha amd64 amd64-fbsd arm hppa ia64 m68k
+  mips nios2 ppc ppc64 riscv sparc sparc-fbsd x86 x86-fbsd"
+

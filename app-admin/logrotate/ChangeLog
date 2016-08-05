@@ -287,3 +287,16 @@
 
   Package-Manager: portage-2.3.0_p16
 
+*logrotate-3.10.0 (03 Aug 2016)
+
+  03 Aug 2016; Chema Alonso Josa <nimiux@gentoo.org>
+  +files/logrotate-3.10.0-Werror.patch,
+  +files/logrotate-3.10.0-atomic-create.patch,
+  +files/logrotate-3.10.0-fbsd.patch,
+  +files/logrotate-3.10.0-ignore-hidden.patch,
+  +files/logrotate-3.10.0-lfs.patch, +files/logrotate-3.10.0-noasprintf.patch,
+  +logrotate-3.10.0.ebuild:
+  Bump to version 3.10.0
+
+  Package-Manager: portage-2.2.28
+

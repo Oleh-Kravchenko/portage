@@ -143,3 +143,8 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Aug 2016; Pacho Ramos <pacho@gentoo.org> libchamplain-0.12.13.ebuild:
+  Missing DEPEND for gdk-3.0 provider (#589374 by Toralf Förster)
+
+  Package-Manager: portage-2.3.0
+

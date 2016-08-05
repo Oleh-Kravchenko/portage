@@ -318,3 +318,10 @@
 
   Package-Manager: portage-2.3.0
 
+*opera-39.0.2256.48 (04 Aug 2016)
+
+  04 Aug 2016; Jeroen Roovers <jer@gentoo.org> +opera-39.0.2256.48.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

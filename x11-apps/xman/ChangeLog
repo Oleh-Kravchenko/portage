@@ -84,3 +84,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  04 Aug 2016; Jeroen Roovers <jer@gentoo.org> xman-1.1.4.ebuild:
+  Stable for HPPA (bug #560532).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

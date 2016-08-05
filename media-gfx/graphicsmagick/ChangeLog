@@ -160,3 +160,7 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Aug 2016; Mike Frysinger <vapier@gentoo.org>
+  graphicsmagick-1.3.24.ebuild:
+  switch to libltdl for runtime #590336
+

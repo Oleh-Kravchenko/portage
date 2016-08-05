@@ -197,3 +197,15 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  04 Aug 2016; Jeroen Roovers <jer@gentoo.org> cryptsetup-1.7.2.ebuild:
+  Stable for HPPA (bug #590246).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  04 Aug 2016; Jeroen Roovers <jer@gentoo.org> cryptsetup-1.7.2.ebuild:
+  Stable for PPC64 (bug #590246).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

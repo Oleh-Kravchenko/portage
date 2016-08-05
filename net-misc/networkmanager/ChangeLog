@@ -427,3 +427,25 @@
 
   Package-Manager: portage-2.3.0
 
+*networkmanager-1.2.4 (04 Aug 2016)
+
+  04 Aug 2016; Mike Gilbert <floppym@gentoo.org> +networkmanager-1.2.4.ebuild:
+  bump to 1.2.4
+
+  Package-Manager: portage-2.3.0_p16
+
+  04 Aug 2016; Mike Gilbert <floppym@gentoo.org> networkmanager-1.2.4.ebuild:
+  disable examples by stubbing out the Makefile
+
+  Package-Manager: portage-2.3.0_p16
+
+  04 Aug 2016; Mike Gilbert <floppym@gentoo.org> +files/1.2.4-upower.patch,
+  networkmanager-1.2.4.ebuild:
+  fix build with USE=-systemd
+
+  Thanks to Ben Kohler for getting this sorted with upstream.
+
+  Bug: https://bugs.gentoo.org/590432
+
+  Package-Manager: portage-2.3.0_p16
+

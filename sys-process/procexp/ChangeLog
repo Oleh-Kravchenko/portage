@@ -66,3 +66,8 @@
   27 Jul 2016; Mike Frysinger <vapier@gentoo.org> procexp-1.5.277.ebuild:
   sourceforge: switch to https:// URIs
 
+  04 Aug 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  drop python from maintainers
+
+  Package-Manager: portage-2.3.0_p16
+

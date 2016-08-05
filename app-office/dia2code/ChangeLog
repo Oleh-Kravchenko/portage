@@ -71,3 +71,10 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*dia2code-0.8.8 (04 Aug 2016)
+
+  04 Aug 2016; Pacho Ramos <pacho@gentoo.org> +dia2code-0.8.8.ebuild:
+  Version bump (#590258 by Pál Csányi)
+
+  Package-Manager: portage-2.3.0
+

@@ -164,3 +164,12 @@
   +liblognorm-1.1.3-r1.ebuild:
   Fix := in || and automagic dep on fastjson, #586312
 
+  21 Jun 2016; Michał Górny <mgorny@gentoo.org> liblognorm-1.1.3-r1.ebuild:
+  Revert premature stabilization due to fastjson
+
+  04 Aug 2016; Jeroen Roovers <jer@gentoo.org> liblognorm-1.1.3-r1.ebuild:
+  Stable for HPPA (bug #585644).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

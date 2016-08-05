@@ -440,3 +440,9 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Aug 2016; Pacho Ramos <pacho@gentoo.org> gtk+-2.24.30.ebuild,
+  gtk+-3.18.9.ebuild:
+  ppc64 stable, bug #584468
+
+  Package-Manager: portage-2.3.0
+
