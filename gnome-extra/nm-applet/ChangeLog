@@ -143,3 +143,10 @@
 
   Package-Manager: portage-2.3.0
 
+*nm-applet-1.2.4 (04 Aug 2016)
+
+  04 Aug 2016; Mike Gilbert <floppym@gentoo.org> +nm-applet-1.2.4.ebuild:
+  bump to 1.2.4
+
+  Package-Manager: portage-2.3.0_p16
+

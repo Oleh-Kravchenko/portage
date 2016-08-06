@@ -143,3 +143,9 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Aug 2016; Markus Meier <maekke@gentoo.org> PyQt4-4.11.4-r1.ebuild:
+  arm stable, bug #552122
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

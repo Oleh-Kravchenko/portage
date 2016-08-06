@@ -188,3 +188,13 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Aug 2016; David Seifert <soap@gentoo.org> octave-3.6.4.ebuild,
+  octave-3.6.4-r1.ebuild, octave-3.8.2.ebuild, octave-4.0.0.ebuild,
+  octave-4.0.0-r1.ebuild, octave-4.0.1.ebuild, octave-4.0.1-r1.ebuild,
+  octave-4.0.2-r1.ebuild:
+  Switch to media-gfx/imagemagick by default
+
+  Gentoo-bug: 590280
+
+  Package-Manager: portage-2.3.0
+

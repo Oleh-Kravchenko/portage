@@ -249,3 +249,9 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Aug 2016; Maciej Mrozowski <reavertm@gentoo.org>
+  dolphin-15.12.3-r1.ebuild, dolphin-16.04.3.ebuild:
+  Do not offer media-video/ffmpegthumbnailer as thumbnailer alternative.
+
+  Package-Manager: portage-2.2.28
+

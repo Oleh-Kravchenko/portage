@@ -333,3 +333,17 @@
 
   Package-Manager: portage-2.3.0
 
+*icedtea-7.2.6.7 (05 Aug 2016)
+
+  05 Aug 2016; James Le Cuirot <chewi@gentoo.org> +icedtea-7.2.6.7.ebuild:
+  Version bump to 7.2.6.7
+
+  arm is still broken so we're going to drop Java 7 there.
+
+  Package-Manager: portage-2.3.0
+
+  05 Aug 2016; James Le Cuirot <chewi@gentoo.org> -icedtea-7.2.6.6.ebuild:
+  Remove old 7.2.6.6
+
+  Package-Manager: portage-2.3.0
+

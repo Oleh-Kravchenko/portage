@@ -80,3 +80,16 @@
   mt_ncurses_client-0.1.98.ebuild:
   savannah: switch to https URLs
 
+*mt_ncurses_client-0.1.98-r1 (05 Aug 2016)
+
+  05 Aug 2016; Austin English <wizardedit@gentoo.org>
+  files/mt_ncurses_client-0.1.98-format.patch,
+  +mt_ncurses_client-0.1.98-r1.ebuild:
+  remove deprecated games eclass
+
+  Also update to EAPI 6
+
+  Gentoo-Bug: https://bugs.gentoo.org/574082
+
+  Package-Manager: portage-2.3.0
+

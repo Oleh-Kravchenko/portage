@@ -108,3 +108,11 @@
 
   Package-Manager: portage-2.2.28
 
+*opendkim-2.10.3-r2 (05 Aug 2016)
+
+  05 Aug 2016; Michał Górny <mgorny@gentoo.org> -opendkim-2.10.3-r1.ebuild,
+  +opendkim-2.10.3-r2.ebuild:
+  2.10.3-r2: fix systemd unit name, #589794
+
+  Closes: https://github.com/gentoo/gentoo/pull/1977
+

@@ -19,6 +19,7 @@ RDEPEND="
 	dev-libs/gmp:=
 	virtual/libffi
 	dev-libs/libltdl:=
+	dev-libs/libunistring
 	sys-devel/libtool
 	sys-libs/ncurses:="
 DEPEND="${RDEPEND}
@@ -74,7 +75,7 @@ pkg_postinst() {
 }
 
 pkg_config() {
-	if has_version '>dev-scheme/slib-3.2.4'; then
+	if has_version '>=dev-scheme/slib-3.2.4'; then
 		einfo "Registering slib with guile"
 		install_slib_for_guile
 	fi

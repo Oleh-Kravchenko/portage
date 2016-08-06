@@ -240,3 +240,11 @@
 
   Package-Manager: portage-2.3.0
 
+*breeze-gtk-5.7.3-r1 (05 Aug 2016)
+
+  05 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  +breeze-gtk-5.7.3-r1.ebuild:
+  revision bump adds support for gtk-3.20
+
+  Package-Manager: portage-2.3.0
+

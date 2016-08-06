@@ -17,3 +17,8 @@
   particular bug assignment/CC to ensure that the requested assignee
   always goes first, in order to match the bug wrangling policies.
 
+  05 Aug 2016; Sergey Popov <pinkbyte@gentoo.org> metadata.xml:
+  drop package to maintainer-needed
+
+  Package-Manager: portage-2.3.0
+

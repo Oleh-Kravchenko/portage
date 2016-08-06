@@ -197,3 +197,13 @@
 
   Package-Manager: portage-2.2.28
 
+  05 Aug 2016; Amy Winston <amynka@gentoo.org> guile-2.0.12.ebuild:
+  add missing dep bug #590516
+
+  Package-Manager: portage-2.2.28
+
+  05 Aug 2016; Amy Winston <amynka@gentoo.org> guile-2.0.12.ebuild:
+  change > to >= for slib
+
+  Package-Manager: portage-2.2.28
+

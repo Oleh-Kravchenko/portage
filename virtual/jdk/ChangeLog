@@ -183,3 +183,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  05 Aug 2016; James Le Cuirot <chewi@gentoo.org> jdk-1.7.0-r2.ebuild:
+  Drop Java 7 on arm
+
+  Package-Manager: portage-2.3.0
+
