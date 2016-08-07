@@ -1,0 +1,12 @@
+# ChangeLog for media-plugins/gst-transcoder
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*gst-transcoder-1.8.1 (06 Aug 2016)
+
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> +gst-transcoder-1.8.1.ebuild,
+  +metadata.xml:
+  new package needed by pitivi (#588394 by poncho)
+
+  Package-Manager: portage-2.3.0
+

@@ -80,3 +80,8 @@
   31 Jul 2016; Maxim Koltsov <maksbotan@gentoo.org> +girara-0.2.6.ebuild:
   bump to 0.2.6
 
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup per bug #131259
+
+  Package-Manager: portage-2.3.0
+

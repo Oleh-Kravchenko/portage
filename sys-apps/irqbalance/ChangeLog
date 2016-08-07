@@ -130,3 +130,10 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*irqbalance-1.1.0 (06 Aug 2016)
+
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> +irqbalance-1.1.0.ebuild:
+  Version bump, rely on upstream systemd service file
+
+  Package-Manager: portage-2.3.0
+

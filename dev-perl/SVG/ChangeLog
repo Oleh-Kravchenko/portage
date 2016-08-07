@@ -98,3 +98,15 @@
 
   Package-Manager: portage-2.3.0
 
+  06 Aug 2016; Kent Fredric <kentnl@gentoo.org> SVG-2.640.0.ebuild:
+  Remove POD and other author-tests.
+
+  POD tests are usually harmless, but when they fail its nothing
+  that matters to a user, but imply extra deps for no benefit anyway.
+
+  But Critic Tests and Tidy tests are just asking for trouble.
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="alpha amd64 amd64-fbsd arm arm64 hppa
+  ia64 m68k mips nios2 ppc ppc64 riscv s390 sh sparc sparc-fbsd x86 x86-fbsd"
+

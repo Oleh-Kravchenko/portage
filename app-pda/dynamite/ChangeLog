@@ -82,3 +82,8 @@
   dynamite-0.1.1_p20120512.ebuild:
   sourceforge: switch to https:// URIs
 
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup per bug #131259
+
+  Package-Manager: portage-2.3.0
+

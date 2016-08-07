@@ -282,3 +282,14 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Aug 2016; Thomas Sachau <tommy@gentoo.org> -subversion-1.7.21.ebuild:
+  Remove the 1.7 series of subversion, no longer maintained and with security
+  vulnerabilities, bug 567810
+
+  Package-Manager: portage-2.2.27
+
+  06 Aug 2016; Thomas Sachau <tommy@gentoo.org> metadata.xml:
+  Drop unused useflags, drop myself as maintainer with removed 1.7 series
+
+  Package-Manager: portage-2.2.27
+

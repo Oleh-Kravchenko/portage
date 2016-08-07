@@ -132,3 +132,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*gnome-calculator-3.20.2 (06 Aug 2016)
+
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> +gnome-calculator-3.20.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

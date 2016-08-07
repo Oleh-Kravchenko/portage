@@ -65,3 +65,16 @@
 
   Package-Manager: portage-2.2.28
 
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup per bug #151880
+
+  Package-Manager: portage-2.3.0
+
+*python-stdnum-1.4 (06 Aug 2016)
+
+  06 Aug 2016; Cédric Krier <cedk@gentoo.org> metadata.xml,
+  +python-stdnum-1.4.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.2.28
+

@@ -93,3 +93,8 @@
 
   Package-Manager: portage-2.3.0
 
+  06 Aug 2016; Maciej Mrozowski <reavertm@gentoo.org> kadu-3.0.ebuild:
+  Version bump 3.0, bug 579532
+
+  Package-Manager: portage-2.2.28
+

@@ -1660,3 +1660,23 @@
 
   Package-Manager: portage-2.2.28
 
+*php-5.6.24-r2 (04 Aug 2016)
+
+  04 Aug 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.6.23-r3.ebuild,
+  -php-5.6.24-r1.ebuild, +php-5.6.24-r2.ebuild:
+  new revision of the 5.6 series updated to EAPI=6.
+
+  This new revision doesn't add any new features; it merely gets us on
+  EAPI=6 moving forward. An "unused" 5.6 series ebuild was removed at
+  the same time.
+
+  Package-Manager: portage-2.2.28
+
+  05 Aug 2016; Michael Orlitzky <mjo@gentoo.org> php-5.6.24-r2.ebuild,
+  php-7.0.9-r2.ebuild:
+  use apxs from /usr/bin instead of /usr/sbin.
+
+  Gentoo-Bug: 502384
+
+  Package-Manager: portage-2.2.28
+

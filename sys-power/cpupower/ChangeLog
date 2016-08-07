@@ -134,3 +134,8 @@
 
   Package-Manager: portage-2.3.0_rc1_p14
 
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup per bug #131259
+
+  Package-Manager: portage-2.3.0
+

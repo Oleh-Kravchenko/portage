@@ -140,3 +140,10 @@
   +files/autoconf-archive-2016.03.20-include.patch:
   fix include statements #581346
 
+  06 Aug 2016; Markus Meier <maekke@gentoo.org>
+  autoconf-archive-2016.03.20-r1.ebuild:
+  arm stable, bug #589390
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

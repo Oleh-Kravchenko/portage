@@ -110,3 +110,10 @@
 
   Package-Manager: portage-2.3.0
 
+*focuswriter-1.5.7 (06 Aug 2016)
+
+  06 Aug 2016; Davide Pesavento <pesa@gentoo.org> +focuswriter-1.5.7.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0
+

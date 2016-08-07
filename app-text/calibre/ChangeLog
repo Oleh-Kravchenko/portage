@@ -204,3 +204,10 @@
   27 Jul 2016; Mike Frysinger <vapier@gentoo.org> calibre-1.20.ebuild:
   sourceforge: switch to https:// URIs
 
+*calibre-2.63.0 (06 Aug 2016)
+
+  06 Aug 2016; Zac Medico <zmedico@gentoo.org> +calibre-2.63.0.ebuild:
+  version bump to 2.63.0
+
+  Package-Manager: portage-2.3.0
+

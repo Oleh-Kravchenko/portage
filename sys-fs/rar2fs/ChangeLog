@@ -71,3 +71,8 @@
   +files/rar2fs-1.22.0-sysmacros.patch, rar2fs-1.22.0.ebuild:
   fix building w/newer glibc #580852
 
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup per bug #131259
+
+  Package-Manager: portage-2.3.0
+

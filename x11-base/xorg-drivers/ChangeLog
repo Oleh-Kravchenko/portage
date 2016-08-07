@@ -144,3 +144,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  05 Aug 2016; Markus Meier <maekke@gentoo.org> xorg-drivers-1.18-r1.ebuild:
+  arm stable, bug #579266
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

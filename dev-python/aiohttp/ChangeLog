@@ -181,3 +181,15 @@
 
   Package-Manager: portage-2.3.0
 
+*aiohttp-0.22.4 (06 Aug 2016)
+
+  06 Aug 2016; Alex Brandt <alunduil@gentoo.org> +aiohttp-0.22.4.ebuild:
+  add version 0.22.4
+
+  Package-Manager: portage-2.3.0
+
+  06 Aug 2016; Alex Brandt <alunduil@gentoo.org> -aiohttp-0.21.6.ebuild:
+  remove version 0.21.6
+
+  Package-Manager: portage-2.3.0
+

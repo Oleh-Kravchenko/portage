@@ -61,3 +61,6 @@
 
   Package-Manager: portage-2.3.0
 
+  06 Aug 2016; Michał Górny <mgorny@gentoo.org> nuget-2.8.3.ebuild:
+  whitespace
+

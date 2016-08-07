@@ -311,3 +311,8 @@
 
   Package-Manager: portage-2.2.28
 
+  06 Aug 2016; Michał Górny <mgorny@gentoo.org> opencv-2.4.11.ebuild,
+  opencv-2.4.12.ebuild, opencv-2.4.12-r1.ebuild, opencv-3.1.0-r1.ebuild,
+  opencv-3.1.0-r4.ebuild:
+  whitespace
+

@@ -9,3 +9,6 @@
   +sx-2.0.ebuild, +sx-2.1.ebuild:
   net-misc/sx: renamed to sys-cluster/sx
 
+  06 Aug 2016; Michał Górny <mgorny@gentoo.org> sx-2.0.ebuild, sx-2.1.ebuild:
+  whitespace
+

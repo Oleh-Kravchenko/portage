@@ -134,3 +134,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  05 Aug 2016; Markus Meier <maekke@gentoo.org>
+  xf86-input-wacom-0.33.0.ebuild:
+  arm stable, bug #579266
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

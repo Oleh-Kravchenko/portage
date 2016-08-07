@@ -194,3 +194,14 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup per bug #189156
+
+  Package-Manager: portage-2.3.0
+
+  06 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> metadata.xml:
+  Took over maintenance.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

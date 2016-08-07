@@ -119,3 +119,9 @@
 
   Package-Manager: portage-2.2.26
 
+  06 Aug 2016; Markus Meier <maekke@gentoo.org> ruby_parser-3.8.2.ebuild:
+  arm stable, bug #589690
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

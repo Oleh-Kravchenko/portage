@@ -107,3 +107,6 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  06 Aug 2016; Michał Górny <mgorny@gentoo.org> mixxx-2.0.0-r1.ebuild:
+  whitespace
+

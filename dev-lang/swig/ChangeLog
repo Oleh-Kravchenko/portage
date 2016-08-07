@@ -91,3 +91,8 @@
   -swig-3.0.4.ebuild, -swig-3.0.6.ebuild, -swig-3.0.7.ebuild:
   remove old
 
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup per bug #154183
+
+  Package-Manager: portage-2.3.0
+

@@ -60,3 +60,8 @@
   27 Jul 2016; Mike Frysinger <vapier@gentoo.org> pet2tgz-0.3.ebuild:
   sourceforge: switch to https:// URIs
 
+  06 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup per bug #131259
+
+  Package-Manager: portage-2.3.0
+

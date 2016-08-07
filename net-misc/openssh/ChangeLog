@@ -403,3 +403,7 @@
   +files/openssh-7.3_p1-GSSAPI-dns.patch, openssh-7.3_p1-r1.ebuild:
   fix USE=kerberos build #590382
 
+  06 Aug 2016; Mike Frysinger <vapier@gentoo.org>
+  files/openssh-7.3_p1-GSSAPI-dns.patch:
+  fix implicit prototype warning w/USE=kerberos #590382
+
