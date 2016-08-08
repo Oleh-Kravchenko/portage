@@ -207,3 +207,12 @@
 
   Package-Manager: portage-2.2.28
 
+  07 Aug 2016; Amy Winston <amynka@gentoo.org>
+  +files/guile-2.0.12-build-includes.patch, guile-2.0.12.ebuild:
+  fixes for bug #590528,#590660
+
+  - Added patch for built_includes by upstream Andy Wingo
+  - Symlink path changed
+
+  Package-Manager: portage-2.2.28
+

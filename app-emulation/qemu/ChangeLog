@@ -659,3 +659,11 @@
   The block layer uses it to support bzip2 compression in dmg images.
   That code makes it into softmmu binaries and userland utils.
 
+  07 Aug 2016; Luca Barbato <lu_zero@gentoo.org>
+  +files/qemu-2.6.0-glib-size_t.patch, qemu-2.6.0.ebuild:
+  Drop a -Werror when it could cause a false positive
+
+  The check code could trigger recent compiler warnings.
+
+  Package-Manager: portage-2.2.26
+

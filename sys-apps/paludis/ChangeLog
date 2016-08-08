@@ -137,3 +137,8 @@
   paludis-2.4.0.ebuild, paludis-2.6.0.ebuild, paludis-9999.ebuild:
   Add missing cond RESTRICT=test
 
+  07 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup per bug #390203
+
+  Package-Manager: portage-2.3.0
+

@@ -103,3 +103,10 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*augeas-1.6.0 (07 Aug 2016)
+
+  07 Aug 2016; Matthew Thode <prometheanfire@gentoo.org> +augeas-1.6.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

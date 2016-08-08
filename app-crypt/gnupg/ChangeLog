@@ -391,3 +391,10 @@
 
   Package-Manager: portage-2.3.0
 
+  06 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> metadata.xml:
+  Add myself as maintainer
+
+  Add myself as maintainer to ensure being assigned/notified on bugs
+
+  Package-Manager: portage-2.3.0
+

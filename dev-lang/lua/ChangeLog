@@ -112,3 +112,8 @@
 
   Package-Manager: portage-2.3.0
 
+  07 Aug 2016; William Hubbs <williamh@gentoo.org> metadata.xml:
+  Add myself as co-maintainer
+
+  Package-Manager: portage-2.2.28
+

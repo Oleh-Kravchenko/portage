@@ -79,3 +79,7 @@
   mozldap-6.0.7.ebuild:
   whitespace
 
+  06 Aug 2016; Michał Górny <mgorny@gentoo.org> mozldap-6.0.6-r2.ebuild,
+  mozldap-6.0.7.ebuild:
+  More whitespace fixes
+

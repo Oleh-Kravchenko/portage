@@ -390,3 +390,15 @@
 
   Package-Manager: portage-2.2.28
 
+  07 Aug 2016; Matthew Thode <prometheanfire@gentoo.org>
+  keystone-9.1.0.ebuild:
+  stable 9.1.0
+
+  Package-Manager: portage-2.2.28
+
+  07 Aug 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -keystone-9.0.0-r1.ebuild, -keystone-9.0.2.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

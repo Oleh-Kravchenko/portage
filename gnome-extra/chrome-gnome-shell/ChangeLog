@@ -28,3 +28,13 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*chrome-gnome-shell-6.2 (07 Aug 2016)
+
+  07 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  -chrome-gnome-shell-6.ebuild, +chrome-gnome-shell-6.2.ebuild:
+  version bump, remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/2030
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

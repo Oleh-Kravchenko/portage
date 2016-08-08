@@ -10,3 +10,8 @@
 
   Package-Manager: portage-2.3.0
 
+  07 Aug 2016; Pacho Ramos <pacho@gentoo.org> gst-transcoder-1.8.1.ebuild:
+  Use xdg.eclass to clean environment (#590638 by Toralf Förster)
+
+  Package-Manager: portage-2.3.0
+

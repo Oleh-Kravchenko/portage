@@ -1287,3 +1287,31 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  07 Aug 2016; Patrice Clement <monsieurp@gentoo.org> mpv-9999.ebuild:
+  tell users about all default volume keybindings in 9999
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  07 Aug 2016; Patrice Clement <monsieurp@gentoo.org> mpv-9999.ebuild:
+  always install HTML doc in 9999 wrt bug 589702
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*mpv-0.18.1-r1 (07 Aug 2016)
+
+  07 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/0.18.1/mpv-0.18.1-add-htmldir-option.patch, -mpv-0.18.1.ebuild,
+  +mpv-0.18.1-r1.ebuild:
+  always install HTML doc in 0.18.1 wrt bug 589702
+
+  Gentoo-Bug: https://bugs.gentoo.org/589702
+  Closes: https://github.com/gentoo/gentoo/pull/1987
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -111,3 +111,10 @@
   files/rbldnsd-0.997a-robust-ipv6-test-support.patch:
   sourceware: convert to https:// URIs
 
+*rbldnsd-0.998-r1 (07 Aug 2016)
+
+  07 Aug 2016; Michael Orlitzky <mjo@gentoo.org> +rbldnsd-0.998-r1.ebuild:
+  new revision with EAPI=6 and dropping eutils.
+
+  Package-Manager: portage-2.2.28
+

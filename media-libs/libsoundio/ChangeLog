@@ -35,3 +35,15 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  07 Aug 2016; David Seifert <soap@gentoo.org>
+  +files/libsoundio-1.1.0_missing_include.patch, libsoundio-1.1.0.ebuild:
+  fix build failure in 1.1.0
+
+  Fix a build error when no backends are enabled.
+
+  Gentoo-Bug: 589704
+  Reported-by: Toralf Förster <toralf.foerster@gmx.de>
+  Closes: https://github.com/gentoo/gentoo/pull/1994
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

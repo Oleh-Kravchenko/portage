@@ -274,3 +274,8 @@
 
   Also fixes some tabs vs spaces issues
 
+*deluge-1.3.13 (06 Aug 2016)
+
+  06 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> +deluge-1.3.13.ebuild:
+  version bump to 1.3.13
+

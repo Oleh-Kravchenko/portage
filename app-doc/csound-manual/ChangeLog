@@ -97,3 +97,13 @@
 
   Package-Manager: portage-2.3.0
 
+*csound-manual-6.07 (07 Aug 2016)
+
+  07 Aug 2016; Tim Harder <radhermit@gentoo.org> +csound-manual-6.07.ebuild:
+  version bump to 6.07
+
+  07 Aug 2016; Tim Harder <radhermit@gentoo.org> -csound-manual-6.01.ebuild,
+  -csound-manual-6.03.ebuild, -csound-manual-6.04.ebuild,
+  -csound-manual-6.05.ebuild:
+  remove old
+

@@ -135,3 +135,7 @@
   08 Jun 2016; Mike Frysinger <vapier@gentoo.org> npth-1.2.ebuild:
   add m68k/s390/sh love to 1.2
 
+  07 Aug 2016; Tim Harder <radhermit@gentoo.org> npth-1.1.ebuild,
+  npth-1.2.ebuild:
+  use a better homepage
+
