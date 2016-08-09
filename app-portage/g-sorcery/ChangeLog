@@ -99,3 +99,10 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Aug 2016; Benda Xu <heroxbd@gentoo.org> g-sorcery-0.2.1-r1.ebuild:
+  Prefix support.
+
+  Bug: 589354
+
+  Package-Manager: portage-2.3.0
+

@@ -371,3 +371,16 @@
 
   Package-Manager: portage-2.3.0
 
+*imagemagick-7.0.2.7 (07 Aug 2016)
+*imagemagick-6.9.5.5 (07 Aug 2016)
+
+  07 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +imagemagick-6.9.5.5.ebuild, -imagemagick-7.0.1.9.ebuild,
+  +imagemagick-7.0.2.7.ebuild:
+  Bump to versions 6.9.5.5 and 7.0.2.7
+
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

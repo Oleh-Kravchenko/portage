@@ -364,3 +364,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  08 Aug 2016; Jeroen Roovers <jer@gentoo.org> curl-7.50.1.ebuild:
+  Stable for HPPA PPC64 (bug #590482).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

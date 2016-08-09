@@ -457,3 +457,17 @@
 
   Closes: https://github.com/gentoo/gentoo/pull/2017
 
+*nss-3.26 (08 Aug 2016)
+
+  08 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +nss-3.26.ebuild:
+  Bump to version 3.26
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  08 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> -nss-3.24.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

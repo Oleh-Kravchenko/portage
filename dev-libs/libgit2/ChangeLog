@@ -221,3 +221,6 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Aug 2016; Tim Harder <radhermit@gentoo.org> libgit2-9999.ebuild:
+  update live ebuild
+

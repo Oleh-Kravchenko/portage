@@ -172,3 +172,10 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  07 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  files/tiff-4.0.6-gif2tiff_removal.patch:
+  Also remove gif2tiff test (bug #590708).
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

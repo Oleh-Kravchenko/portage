@@ -161,3 +161,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  08 Aug 2016; Tim Harder <radhermit@gentoo.org> libbluray-0.9.3.ebuild,
+  libbluray-9999.ebuild:
+  simplify vcs eclass inherit
+
+  Multiple eclass inherit lines have always worked.
+

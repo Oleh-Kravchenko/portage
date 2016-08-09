@@ -73,3 +73,15 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Aug 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  vbindiff-3.0_beta4-r1.ebuild:
+  stable on amd64, x86
+
+  Package-Manager: portage-2.3.0
+
+  08 Aug 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  -vbindiff-3.0_beta1.ebuild, -vbindiff-3.0_beta4.ebuild:
+  drop old
+
+  Package-Manager: portage-2.3.0
+

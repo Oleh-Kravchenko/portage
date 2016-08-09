@@ -268,3 +268,11 @@
   iproute2-4.5.0.ebuild, iproute2-4.6.0.ebuild, iproute2-9999.ebuild:
   linuxfoundation: switch http:// URIs to https://
 
+*iproute2-4.7.0 (08 Aug 2016)
+
+  08 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +iproute2-4.7.0.ebuild:
+  Bump to version 4.7.0
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

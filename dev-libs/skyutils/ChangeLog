@@ -92,3 +92,27 @@
 
   Package-Manager: portage-2.2.28
 
+*skyutils-2.8-r5 (07 Aug 2016)
+
+  07 Aug 2016; Michael Orlitzky <mjo@gentoo.org> metadata.xml,
+  -skyutils-2.8-r4.ebuild, +skyutils-2.8-r5.ebuild:
+  app-mobilephone/smssend, dev-libs/skyutils: fix SSLv3 support.
+
+  In commits 790eacc and ac28332, I added an "sslv3" USE flag to
+  dev-libs/skyutils and revisioned app-mobilephone/smssend to depend on
+  it. This fix was insufficient; any other programs linking to
+  libskyutils would suffer the same problem, as Michał Górny pointed
+  out.
+
+  Two new revisions of the affected packages remove the "sslv3" option
+  for dev-libs/skyutils, and make it depend on openssl[sslv3] when the
+  user asks for SSL support. Note: this required the removal of LibreSSL
+  support on skyutils. The new revision of app-mobilephone/smssend now
+  depends on the fixed revision of skyutils.
+
+  An additional fix was made, and now smssend depends on
+  skyutils[ssl]. Without SSL support in libskyutils, many SMS providers
+  simply don't work.
+
+  Gentoo-Bug: 588326
+

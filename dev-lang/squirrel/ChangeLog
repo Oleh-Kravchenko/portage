@@ -66,3 +66,20 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Aug 2016; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  add myself to maintainers
+
+  Package-Manager: portage-2.3.0
+
+  08 Aug 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  squirrel-2.2.4-r2.ebuild:
+  stable on amd64, x86
+
+  Package-Manager: portage-2.3.0
+
+  08 Aug 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  -squirrel-2.2.4-r1.ebuild:
+  drop old
+
+  Package-Manager: portage-2.3.0
+

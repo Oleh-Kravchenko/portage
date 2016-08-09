@@ -168,3 +168,8 @@
 
   Package-Manager: portage-2.2.28
 
+  08 Aug 2016; Matthew Thode <prometheanfire@gentoo.org> files/radvd.service:
+  fixing the systemd unit
+
+  Package-Manager: portage-2.2.28
+

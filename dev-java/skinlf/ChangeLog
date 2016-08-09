@@ -82,3 +82,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  05 Aug 2016; Michael Mair-Keimberger (asterix) <m.mairkeimberger@gmail.com>
+  -files/skinlf-1.2.12-build.xml, -files/skinlf-1.2.12-common-devjavanet.xml,
+  -files/skinlf-1.2.12-common.xml,
+  -files/skinlf-1.2.12-image-utils-without-jimi.patch,
+  -files/skinlf-1.2.12-image-utils.patch:
+  remove unused patches/files
+

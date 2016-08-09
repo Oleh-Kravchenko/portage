@@ -449,3 +449,21 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  08 Aug 2016; Mike Gilbert <floppym@gentoo.org> networkmanager-1.2.4.ebuild:
+  add 'check' target to stub Makefile
+
+  Patch by tka.
+
+  Bug: https://bugs.gentoo.org/590718
+  Package-Manager: portage-2.3.0_p16
+
+  08 Aug 2016; Mike Gilbert <floppym@gentoo.org> networkmanager-1.2.4.ebuild:
+  remove empty /run/NetworkManager only
+
+  Instead of removing all empty directories, just remove /run/NetworkManager
+  and its parent.
+
+  https://bugs.gentoo.org/590718#c5
+
+  Package-Manager: portage-2.3.0_p16
+

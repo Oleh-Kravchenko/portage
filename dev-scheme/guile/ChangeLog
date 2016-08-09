@@ -216,3 +216,11 @@
 
   Package-Manager: portage-2.2.28
 
+*guile-2.0.12-r1 (08 Aug 2016)
+
+  08 Aug 2016; Pacho Ramos <pacho@gentoo.org> -guile-2.0.12.ebuild,
+  +guile-2.0.12-r1.ebuild:
+  Bump subslot (#590710)
+
+  Package-Manager: portage-2.3.0
+

@@ -89,3 +89,9 @@
 
   Package-Manager: portage-2.3.0
 
+*glew-2.0.0 (08 Aug 2016)
+
+  08 Aug 2016; Tim Harder <radhermit@gentoo.org>
+  +files/glew-2.0.0-install-headers.patch, +glew-2.0.0.ebuild:
+  version bump to 2.0.0
+

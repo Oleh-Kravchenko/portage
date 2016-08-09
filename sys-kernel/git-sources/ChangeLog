@@ -405,3 +405,14 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*git-sources-4.8_rc1 (08 Aug 2016)
+
+  08 Aug 2016; Mike Pagano <mpagano@gentoo.org> -git-sources-4.7_rc1.ebuild,
+  -git-sources-4.7_rc2.ebuild, -git-sources-4.7_rc3.ebuild,
+  -git-sources-4.7_rc4.ebuild, -git-sources-4.7_rc5.ebuild,
+  -git-sources-4.7_rc6.ebuild, -git-sources-4.7_rc7.ebuild,
+  +git-sources-4.8_rc1.ebuild:
+  Linux patch 4.8 rc1. Removal of old version.
+
+  Package-Manager: portage-2.2.28
+

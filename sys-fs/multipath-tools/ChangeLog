@@ -113,3 +113,12 @@
   Closes: https://bugs.gentoo.org/590228
   Package-Manager: portage-2.2.28
 
+*multipath-tools-0.6.2-r1 (08 Aug 2016)
+
+  08 Aug 2016; Robin H. Johnson <robbat2@gentoo.org>
+  files/multipath-tools-0.6.2-makefile.patch,
+  +multipath-tools-0.6.2-r1.ebuild:
+  fix LDFLAGS on mpathpersist.
+
+  Package-Manager: portage-2.2.28
+

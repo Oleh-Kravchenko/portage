@@ -91,3 +91,13 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Aug 2016; Austin English <wizardedit@gentoo.org> tf-50_beta8-r2.ebuild:
+  fix installation path
+
+  An unremoved $GAMES_DATADIR entry caused some files to be installed to / by
+  mistake
+
+  Gentoo-Bug: https://bugs.gentoo.org/590662
+
+  Package-Manager: portage-2.3.0
+
