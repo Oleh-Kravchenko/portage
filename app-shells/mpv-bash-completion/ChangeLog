@@ -108,3 +108,16 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  09 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  mpv-bash-completion-3.3.4.ebuild:
+  require mpv>=0.14.0 for 3.3.4.
+
+  mpv-bash-completion-3.3.4 doesn't build otherwise.
+
+  Gentoo-Bug: https://bugs.gentoo.org/590794
+  Closes: https://github.com/gentoo/gentoo/pull/2047
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

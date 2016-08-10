@@ -213,3 +213,11 @@
 
   Package-Manager: portage-2.3.0
 
+*elasticsearch-2.3.5 (09 Aug 2016)
+
+  09 Aug 2016; Patrick Lauer <patrick@gentoo.org> +elasticsearch-2.3.5.ebuild,
+  +files/elasticsearch.sysctl.d, +files/elasticsearch.tmpfiles.d:
+  Bump, fix #585824
+
+  Package-Manager: portage-2.3.0
+

@@ -194,3 +194,20 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*xfsprogs-4.7.0 (09 Aug 2016)
+
+  09 Aug 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/xfsprogs-4.7.0-libxcmd-link.patch,
+  +files/xfsprogs-4.7.0-sharedlibs.patch, +xfsprogs-4.7.0.ebuild:
+  version bump to 4.7.0
+
+  09 Aug 2016; Mike Frysinger <vapier@gentoo.org> xfsprogs-4.5.0.ebuild:
+  mark 4.5.0 ia64/s390/sh/sparc stable #583706
+
+  09 Aug 2016; Mike Frysinger <vapier@gentoo.org>
+  -files/xfsprogs-3.1.10-sharedlibs.patch,
+  -files/xfsprogs-3.1.11-sharedlibs.patch,
+  -files/xfsprogs-4.2.0-sharedlibs.patch, -xfsprogs-3.1.10.ebuild,
+  -xfsprogs-3.1.11-r1.ebuild, -xfsprogs-4.2.0.ebuild, -xfsprogs-4.3.0.ebuild:
+  drop some older versions
+

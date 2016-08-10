@@ -350,3 +350,17 @@
 
   Package-Manager: portage-2.3.0
 
+  09 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  rt-sources-3.14.65_p68.ebuild, rt-sources-3.14.72_p75.ebuild,
+  rt-sources-3.18.29_p30.ebuild, rt-sources-3.18.36_p37.ebuild,
+  rt-sources-4.1.20_p23.ebuild, rt-sources-4.1.27_p30.ebuild,
+  rt-sources-4.4.9_p17.ebuild, rt-sources-4.4.12_p19.ebuild,
+  rt-sources-4.6.1_p3.ebuild, rt-sources-4.6.2_p5.ebuild:
+  K_SECURITY_UNSUPPORTED="1" rather than "yes".
+
+  Gentoo-Bug: https://bugs.gentoo.org/587910
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2025
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -121,3 +121,8 @@
 
   Package-Manager: portage-2.2.26
 
+*libsfml-2.4.0 (09 Aug 2016)
+
+  09 Aug 2016; Tim Harder <radhermit@gentoo.org> +libsfml-2.4.0.ebuild:
+  version bump to 2.4.0
+

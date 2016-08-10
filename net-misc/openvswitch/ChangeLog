@@ -134,3 +134,9 @@
 
   Package-Manager: portage-2.2.28
 
+  09 Aug 2016; Matthew Thode <prometheanfire@gentoo.org>
+  openvswitch-2.5.0.ebuild:
+  Fix deps for pure systemd env.
+
+  Signed-off-by: Matthew Thode <prometheanfire@gentoo.org>
+

@@ -145,3 +145,13 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*amavisd-new-2.11.0-r2 (08 Aug 2016)
+
+  08 Aug 2016; Mike Gilbert <floppym@gentoo.org>
+  -amavisd-new-2.11.0-r1.ebuild, +amavisd-new-2.11.0-r2.ebuild,
+  files/amavisd.service:
+  2.11.0-r2: additional systemd hardening
+
+  Gentoo-bug: 587540
+  Closes: https://github.com/gentoo/gentoo/pull/1797
+

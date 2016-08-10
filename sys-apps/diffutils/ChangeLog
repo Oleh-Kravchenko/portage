@@ -87,3 +87,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*diffutils-3.4 (09 Aug 2016)
+
+  09 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +diffutils-3.4.ebuild:
+  Bump to version 3.4
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

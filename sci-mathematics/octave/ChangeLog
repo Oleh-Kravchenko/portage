@@ -198,3 +198,18 @@
 
   Package-Manager: portage-2.3.0
 
+*octave-4.0.2-r2 (09 Aug 2016)
+*octave-3.8.2-r1 (09 Aug 2016)
+
+  09 Aug 2016; David Seifert <soap@gentoo.org> octave-3.6.4.ebuild,
+  octave-3.6.4-r1.ebuild, -octave-3.8.2.ebuild, +octave-3.8.2-r1.ebuild,
+  octave-4.0.0.ebuild, octave-4.0.0-r1.ebuild, octave-4.0.1.ebuild,
+  octave-4.0.1-r1.ebuild, -octave-4.0.2-r1.ebuild, +octave-4.0.2-r2.ebuild:
+  Remove automagic dep on media-gfx/graphicsmagick
+
+  Gentoo-Bug: 590280
+  * Explicitly select dependency on the basis of USE="graphicsmagick"
+    vs USE="imagemagick" only.
+
+  Package-Manager: portage-2.3.0
+

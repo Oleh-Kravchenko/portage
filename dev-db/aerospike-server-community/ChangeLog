@@ -96,3 +96,15 @@
 
   Package-Manager: portage-2.3.0
 
+*aerospike-server-community-3.9.0.3 (09 Aug 2016)
+
+  09 Aug 2016; Patrick Lauer <patrick@gentoo.org>
+  -aerospike-server-community-3.8.1.ebuild,
+  -aerospike-server-community-3.8.1.2.ebuild,
+  -aerospike-server-community-3.8.2.2.ebuild,
+  -aerospike-server-community-3.9.0.ebuild,
+  +aerospike-server-community-3.9.0.3.ebuild:
+  Bump, remove old
+
+  Package-Manager: portage-2.3.0
+

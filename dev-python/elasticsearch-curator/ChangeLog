@@ -190,3 +190,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*elasticsearch-curator-4.0.5 (09 Aug 2016)
+
+  09 Aug 2016; Patrick Lauer <patrick@gentoo.org>
+  +elasticsearch-curator-4.0.5.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

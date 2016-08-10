@@ -91,3 +91,10 @@
 
   Package-Manager: portage-2.3.0
 
+*pyte-0.5.2-r1 (09 Aug 2016)
+
+  09 Aug 2016; Andrey Grozin <grozin@gentoo.org> +pyte-0.5.2-r1.ebuild:
+  python3_5 added
+
+  Package-Manager: portage-2.3.0
+

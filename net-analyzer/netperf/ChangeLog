@@ -89,3 +89,11 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+*netperf-2.7.0-r1 (09 Aug 2016)
+
+  09 Aug 2016; Jeroen Roovers <jer@gentoo.org> +files/netperf-2.7.0-init,
+  +files/netperf-2.7.0-space.patch, metadata.xml, +netperf-2.7.0-r1.ebuild:
+  Fix permissions on debug output file (bug #389975).
+
+  Package-Manager: portage-2.3.0
+

@@ -466,3 +466,23 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*nginx-1.11.3 (09 Aug 2016)
+
+  09 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/nginx-1.11.3-fix-build-without-stream_ssl_module.patch,
+  +nginx-1.11.3.ebuild:
+  version bump to v1.11.3.
+
+  * Upstream added 3 new STREAM modules:
+   - geo
+   - geoip
+   - split_clients
+
+  * Each HTTP/STREAM upstream module can now be enabled/disabled using a
+    dedicated USE flag
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1999
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -374,3 +374,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*stunnel-5.35 (09 Aug 2016)
+
+  09 Aug 2016; Anthony G. Basile <blueness@gentoo.org> +stunnel-5.35.ebuild:
+  version bump to 5.35
+
+  Package-Manager: portage-2.2.28
+

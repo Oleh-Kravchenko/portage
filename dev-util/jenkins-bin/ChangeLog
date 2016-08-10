@@ -504,3 +504,45 @@
 
   Package-Manager: portage-2.2.28
 
+*jenkins-bin-2.11 (09 Aug 2016)
+
+  09 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  +jenkins-bin-2.11.ebuild:
+  version bump 2.11.
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1852
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*jenkins-bin-2.12 (09 Aug 2016)
+
+  09 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  +jenkins-bin-2.12.ebuild:
+  version bump 2.12.
+
+  - Enable the DescriptorVisibilityFilters for ComputerLauncher,
+  RetentionStrategy and NodeProperty. (Issue 36280)
+  - Before starting a process, ensure that its working directory exists.
+  (Issue 36277)
+  - Prevent NullPointerException during SCM polling if SCMDecisionHandler
+  returns null veto. (Issue 36232, regression in 2.11)
+  - Ensure that SCMDescriptor.newInstance overrides are honored when creating
+  new SCM entries. (Issue 36043, Issue 35906 , regression in 2.10)
+  - Performance: Improve configuration page load times by removing the
+  CodeMirror reloading cycle. (Issue 32027)
+  - Fix optional plugin dependency version resolution. (Issue 21486, previous
+  fix was reverted in Jenkins 2)
+  - When creating a tar file, ensure that the final size does not exceed the
+  value in header in the case of growing files. (Issue 20187)
+  - Do not inject build variables into Maven process by default for new
+  projects. (Issue 25416, Issue 28790)
+  - Update BUILD_TAG environment variable description to mention the
+  replacement of slashes with dashes. (PR #2417)
+  - Internal API: Make BulkChange auto-closeable. (PR #2428)
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/1852
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
