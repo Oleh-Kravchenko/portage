@@ -130,3 +130,11 @@
   29 May 2016; Mike Frysinger <vapier@gentoo.org> perl-cleaner-2.20.ebuild:
   mark 2.20 arm64/m68k/s390/sh stable
 
+  10 Aug 2016; Mike Frysinger <vapier@gentoo.org> perl-cleaner-2.20.ebuild,
+  perl-cleaner-2.21.ebuild, perl-cleaner-2.22.ebuild,
+  perl-cleaner-9999.ebuild:
+  drop old coreutils/realpath deps
+
+  The realpath dep migrated years ago into coreutils, so we can drop this
+  old dep as it's part of the @system.
+

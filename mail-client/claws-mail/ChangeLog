@@ -232,3 +232,13 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  10 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  claws-mail-3.13.2.ebuild, claws-mail-3.14.0.ebuild:
+  Don't run python phases unconditionally.
+
+  Fixing bug #590914.
+  Refactored latest ebuild a bit.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

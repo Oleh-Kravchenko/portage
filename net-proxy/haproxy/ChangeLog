@@ -169,3 +169,9 @@
 
   Package-Manager: portage-2.3.0
 
+  10 Aug 2016; Anthony G. Basile <blueness@gentoo.org> haproxy-1.5.18.ebuild,
+  haproxy-1.6.7.ebuild, haproxy-9999.ebuild:
+  add libressl support
+
+  Package-Manager: portage-2.2.28
+

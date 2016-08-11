@@ -113,3 +113,21 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  10 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> metadata.xml:
+  Updating maintainer details
+
+  Updating my own maintainer details to reflect that I am now a Gentoo
+  developer.
+
+  Gentoo-Bug: 581174
+
+  Package-Manager: portage-2.3.0
+
+  10 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> metadata.xml:
+  Removing proxy-maintainer
+
+  Now that I am a Gentoo developer this package is no longer maintained
+  through proxy-maintainer project.
+
+  Package-Manager: portage-2.3.0
+

@@ -330,3 +330,13 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  10 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> metadata.xml:
+  Updating maintainer details
+
+  Updating my own maintainer details to reflect that I am now a Gentoo
+  developer.
+
+  Gentoo-Bug: 581174
+
+  Package-Manager: portage-2.3.0
+

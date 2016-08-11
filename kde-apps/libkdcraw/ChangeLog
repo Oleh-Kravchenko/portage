@@ -254,3 +254,9 @@
 
   Package-Manager: portage-2.3.0
 
+  10 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  -files/libkdcraw-4.14.3-libraw-0.16.1.patch, -libkdcraw-4.14.3-r1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

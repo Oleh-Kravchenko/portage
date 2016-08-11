@@ -151,3 +151,8 @@
   -autogen-5.18.2.ebuild, -files/autogen-5.17.3-libintl.patch:
   drop old <5.18.4 versions
 
+*autogen-5.18.10 (10 Aug 2016)
+
+  10 Aug 2016; Mike Frysinger <vapier@gentoo.org> +autogen-5.18.10.ebuild:
+  version bump to 5.18.10 #584092
+

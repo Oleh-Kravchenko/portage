@@ -467,3 +467,13 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  10 Aug 2016; Pacho Ramos <pacho@gentoo.org> -networkmanager-1.2.2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+
+  10 Aug 2016; Pacho Ramos <pacho@gentoo.org> networkmanager-1.2.4.ebuild:
+  Add bug reference for examples disabling switch
+
+  Package-Manager: portage-2.3.0
+

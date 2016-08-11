@@ -1361,3 +1361,13 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*chromium-54.0.2824.0 (10 Aug 2016)
+
+  10 Aug 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  +chromium-54.0.2824.0.ebuild, +files/chromium-gn-r4.patch:
+  dev channel bump (54.0.2824.0)
+
+  Make SUID sandbox optional - fixes bug #550290 by Karol Herbst.
+
+  Package-Manager: portage-2.2.28
+

@@ -15,3 +15,9 @@
 
   Package-Manager: portage-2.3.0
 
+  10 Aug 2016; Pacho Ramos <pacho@gentoo.org> gst-transcoder-1.8.1.ebuild:
+  Workaround the usual sandbox access violations due to offending gst plugins
+  (#590848 by Nick)
+
+  Package-Manager: portage-2.3.0
+

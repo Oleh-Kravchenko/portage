@@ -1680,3 +1680,15 @@
 
   Package-Manager: portage-2.2.28
 
+  10 Aug 2016; Markus Meier <maekke@gentoo.org> php-5.5.38.ebuild:
+  arm stable, bug #589232
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+
+  10 Aug 2016; Markus Meier <maekke@gentoo.org> php-5.6.24.ebuild:
+  arm stable, bug #589232
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

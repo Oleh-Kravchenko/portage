@@ -97,3 +97,8 @@
   09 Aug 2016; Tim Harder <radhermit@gentoo.org> +offlineimap-7.0.4.ebuild:
   version bump to 7.0.4
 
+*offlineimap-7.0.5 (10 Aug 2016)
+
+  10 Aug 2016; Tim Harder <radhermit@gentoo.org> +offlineimap-7.0.5.ebuild:
+  version bump to 7.0.5
+

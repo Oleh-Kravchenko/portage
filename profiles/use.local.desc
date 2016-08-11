@@ -2145,6 +2145,7 @@ dev-libs/wlc:X - Enable X11 backend and XWayland support.
 dev-libs/wlc:systemd - Enable support for systemd-logind.
 dev-libs/xapian:brass - Enabled brass backend db support
 dev-libs/xapian:chert - Enabled chert backend db support
+dev-libs/xapian:glass - Enabled glass backend db support
 dev-libs/xapian:inmemory - Enabled inmemory backend db support
 dev-libs/xerces-c:iconv - Use iconv (virtual/libiconv) as message loader and transcoder (in general it would be possible to use iconv only as message loader and something else like icu or the native method as transcoder and vice-versa, but this is a less common case and hard to handle)
 dev-libs/xerces-c:threads - Enable threading support through pthread (or other libraries on AIX, IRIX, HPUX, Solars). Highly recommended
@@ -3302,7 +3303,6 @@ kde-apps/kopete:otr - Allows crypting your chat (drugs and talking nonsense are 
 kde-apps/kopete:pipes - Send messages to external pipe.
 kde-apps/kopete:privacy - Filter for incoming messages
 kde-apps/kopete:skype - Enable Skype protocol handler (not fully functional yet).
-kde-apps/kopete:sms - Enable SMS sendinge functionality.
 kde-apps/kopete:statistics - Everybody loves statistic graphs, especially cake ones. ;]
 kde-apps/kopete:testbed - Enable the testbed protocol.
 kde-apps/kopete:texteffect - Various fancy text effects for your messages (don't ever consider writing us with this enabled ;]).
@@ -4162,6 +4162,7 @@ media-plugins/kipi-plugins:gpssync - Build the gpssync plugin, which requires kd
 media-plugins/kipi-plugins:mediawiki - Build the mediawiki export plugin
 media-plugins/kipi-plugins:panorama - Pull in dependencies needed by panorama plugin
 media-plugins/kipi-plugins:redeyes - Add redeyes removal support
+media-plugins/kipi-plugins:remotestorage - Build plugin for remote storage using network protocols such as FTP, SSH, SAMBA via kde-frameworks/kio
 media-plugins/kipi-plugins:videoslideshow - Build videoslideshow plugin
 media-plugins/kipi-plugins:vkontakte - Build plugin for vkontakte.ru
 media-plugins/mediastreamer-ilbc:20ms-frames - enable 20ms frame size (default is 30ms). Some VOIP providers such as Gizmo5 (aka Sipphone) require the codec to be compiled with the 30ms setting.
@@ -4257,13 +4258,10 @@ media-sound/banshee:cdda - Build with audio CD support
 media-sound/banshee:daap - Build with Daap support
 media-sound/banshee:karma - Build with karma support
 media-sound/banshee:youtube - Enable the Youtube plugin
-media-sound/beets:beatport - Enable support for beatport.com API
 media-sound/beets:bpd - Enable support for media-sound/mpd server emulation
 media-sound/beets:chroma - Enable support for acoustic fingerprinting plugin using media-libs/chromaprint
 media-sound/beets:convert - Enable support for the convert plugin which makes it possible to transcode files
 media-sound/beets:discogs - Enable support for the discogs API plugin
-media-sound/beets:echonest - Enable support for fetching and storing acoustic attributes of a track from Echo Nest
-media-sound/beets:echonest_tempo - Enable support for writing the BPM of a track into its metadata
 media-sound/beets:lastgenre - Enable support for importing music genres from last.fm tags
 media-sound/beets:mpdstats - Enable support for collecting statistic about listening habits from media-sound/mpd
 media-sound/beets:opus - Enable opus support in gstreamer-based replaygain
@@ -7970,8 +7968,6 @@ www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installatio
 www-client/google-chrome:plugins - Add system plugins path to launcher
 www-client/google-chrome-beta:plugins - Add system plugins path to launcher
 www-client/google-chrome-unstable:plugins - Add system plugins path to launcher
-www-client/luakit:luajit - Use the lua just-in-time compiler dev-lang/luajit instead of dev-lang/lua, which should make luakit faster.
-www-client/luakit:pax_kernel - Use paxctl to mark the luakit binary.
 www-client/lynx:gnutls - Use gnutls library for HTTPS support (openssl is the default library for HTTPS support).
 www-client/lynx:ssl - Enable HTTPS support.
 www-client/midori:deprecated - Enable GTK+-2 instead of GTK+-3 because of external plugins like adobe-flash

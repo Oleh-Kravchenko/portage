@@ -160,3 +160,12 @@
 
   Package-Manager: portage-2.3.0
 
+  10 Aug 2016; Mike Frysinger <vapier@gentoo.org>
+  gentoolkit-0.3.0.8-r2.ebuild, gentoolkit-0.3.0.9-r2.ebuild,
+  gentoolkit-0.3.1.1.ebuild, gentoolkit-0.3.2.ebuild,
+  gentoolkit-0.3.2-r1.ebuild, gentoolkit-9999.ebuild:
+  drop old coreutils/realpath/grep deps
+
+  The realpath dep migrated years ago into coreutils, so we can drop this
+  old dep as it's part of the @system.
+

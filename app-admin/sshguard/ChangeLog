@@ -107,3 +107,10 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*sshguard-1.7.0 (10 Aug 2016)
+
+  10 Aug 2016; Jeroen Roovers <jer@gentoo.org> +sshguard-1.7.0.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

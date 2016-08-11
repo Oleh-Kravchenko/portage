@@ -73,3 +73,8 @@
 
   Package-Manager: portage-2.2.28
 
+  10 Aug 2016; Marek Szuba <marecki@gentoo.org> metadata.xml:
+  reorder maintainers in metadata
+
+  Package-Manager: portage-2.3.0
+

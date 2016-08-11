@@ -13,3 +13,11 @@
   Prelude-Correlator allows conducting multi-stream correlations thanks
   to a powerful programming language for writing correlation rules.
 
+*prelude-correlator-3.0.1-r1 (10 Aug 2016)
+
+  10 Aug 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  -prelude-correlator-3.0.1.ebuild, +prelude-correlator-3.0.1-r1.ebuild:
+  fix runtime dep, requires libprelude[python]
+
+  Package-Manager: portage-2.2.28
+

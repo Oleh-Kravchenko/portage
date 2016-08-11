@@ -687,3 +687,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  10 Aug 2016; Markus Meier <maekke@gentoo.org> wireshark-2.0.5.ebuild:
+  arm stable, bug #589926
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

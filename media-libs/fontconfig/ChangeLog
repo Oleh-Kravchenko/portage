@@ -132,3 +132,19 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*fontconfig-2.12.1 (10 Aug 2016)
+
+  10 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +fontconfig-2.12.1.ebuild:
+  Bump to version 2.12.1
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  10 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -fontconfig-2.11.95.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

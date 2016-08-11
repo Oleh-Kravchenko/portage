@@ -152,3 +152,18 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/buildmaster.initd:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+*buildbot-0.9.0_rc1 (09 Aug 2016)
+
+  09 Aug 2016; Brian Dolbec <dolsen@gentoo.org> +buildbot-0.9.0_rc1.ebuild,
+  buildbot-9999.ebuild, +files/buildbot9..service, +files/buildmaster.confd.9,
+  +files/buildmaster.initd.9, metadata.xml:
+  Version bump, update live ebuild
+
+  This version is a major change from previous version.
+
+  10 Aug 2016; Brian Dolbec <dolsen@gentoo.org> -files/buildbot9..service,
+  +files/buildbot9.service:
+  Fix typo in files/buildbot9.service filename bug 590958
+
+  Package-Manager: portage-2.3.0
+

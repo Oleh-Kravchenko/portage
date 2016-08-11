@@ -106,3 +106,8 @@
   -sshuttle-0.77.2.ebuild:
   remove old
 
+*sshuttle-0.78.1 (10 Aug 2016)
+
+  10 Aug 2016; Tim Harder <radhermit@gentoo.org> +sshuttle-0.78.1.ebuild:
+  version bump to 0.78.1
+

@@ -203,3 +203,13 @@
 
   Package-Manager: portage-2.3.0
 
+  10 Aug 2016; Michael Palimaka <kensington@gentoo.org> kopete-15.12.3.ebuild,
+  kopete-16.04.3.ebuild, metadata.xml:
+  remove sms USE flag
+
+  app-mobilephone/smssend is going away.
+
+  Gentoo-bug: 590732
+
+  Package-Manager: portage-2.3.0
+
