@@ -117,3 +117,16 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Aug 2016; Andrey Grozin <grozin@gentoo.org> -texmacs-1.0.7.21.ebuild,
+  -texmacs-1.99.1.ebuild, -texmacs-1.99.2.ebuild:
+  cleaning all
+
+  Package-Manager: portage-2.3.0
+
+  11 Aug 2016; Andrey Grozin <grozin@gentoo.org> texmacs-1.99.5.ebuild:
+  changed dependency to <dev-scheme/guile-1.9[deprecated]
+
+  Bug: 590952
+
+  Package-Manager: portage-2.3.0
+

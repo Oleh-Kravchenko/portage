@@ -11,3 +11,11 @@
   Prewikka is the graphical front-end analysis console for the Prelude
   Universal SIM.
 
+*prewikka-3.0.0-r1 (11 Aug 2016)
+
+  11 Aug 2016; Göktürk Yüksek <gokturk@gentoo.org> -prewikka-3.0.0.ebuild,
+  +prewikka-3.0.0-r1.ebuild:
+  fix runtime deps, requires libprelude{,db}[python]
+
+  Package-Manager: portage-2.2.28
+

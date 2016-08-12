@@ -18,3 +18,20 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  11 Aug 2016; Michael Palimaka <kensington@gentoo.org> metadata.xml:
+  add Michał Zając as maintainer
+
+  Package-Manager: portage-2.3.0
+
+  11 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  percona-xtrabackup-2.4.4.ebuild:
+  add missing dep on app-editors/vim-core, #590408
+
+  Package-Manager: portage-2.3.0
+
+  11 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  percona-xtrabackup-2.4.4.ebuild:
+  add missing dep on dev-perl/DBD-mysql, #590522
+
+  Package-Manager: portage-2.3.0
+

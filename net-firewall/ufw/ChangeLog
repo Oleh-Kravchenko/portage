@@ -111,3 +111,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  11 Aug 2016; Patrice Clement <monsieurp@gentoo.org> ufw-0.35.ebuild:
+  Properly handle cases where |RV| > 1.
+
+  Properly handle cases where REPLACING_VERSIONS has more than 1 element.
+
+  Gentoo-Bug: https://bugs.gentoo.org/589484
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/1946
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

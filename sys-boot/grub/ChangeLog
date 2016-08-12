@@ -345,3 +345,7 @@
   This reverts commit bd29c07ee1edf51553ced4ff9d57076b3ce6732c.
   I need to wait another day for this.
 
+  11 Aug 2016; William Hubbs <williamh@gentoo.org> grub-2.02_beta2-r8.ebuild,
+  grub-2.02_beta2-r9.ebuild, grub-2.02_beta3-r1.ebuild, grub-9999-r1.ebuild:
+  do not force multislot use flag on
+

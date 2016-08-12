@@ -69,3 +69,9 @@
   srm-1.2.15.ebuild:
   sourceforge: switch to https:// URIs
 
+  11 Aug 2016; Patrice Clement <monsieurp@gentoo.org> -files/cflags.patch,
+  -files/srm-1.2.8-remove-mount.patch:
+  remove unused patches
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

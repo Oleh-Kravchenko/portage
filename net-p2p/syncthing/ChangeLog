@@ -314,3 +314,15 @@
 
   also refactor use E-vars at start
 
+*syncthing-0.14.4 (11 Aug 2016)
+
+  11 Aug 2016; Dirkjan Ochtman <djc@gentoo.org> +syncthing-0.14.4.ebuild:
+  bump to 0.14.4
+
+  Package-Manager: portage-2.3.0
+
+  11 Aug 2016; Dirkjan Ochtman <djc@gentoo.org> -syncthing-0.13.9.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

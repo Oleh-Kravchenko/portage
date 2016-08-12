@@ -331,3 +331,10 @@
   Bug: https://bugs.gentoo.org/590164
   Package-Manager: portage-2.3.0_p16
 
+  11 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> vlc-2.2.1-r1.ebuild,
+  vlc-2.2.4.ebuild, vlc-2.2.9999.ebuild, vlc-9999.ebuild:
+  Added sub-slot dep for media-libs/libvpx.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

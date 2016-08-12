@@ -286,3 +286,10 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+*openafs-1.6.18.3 (11 Aug 2016)
+
+  11 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org> +openafs-1.6.18.3.ebuild:
+  vbump 1.6.18.3
+
+  Package-Manager: portage-2.3.0
+

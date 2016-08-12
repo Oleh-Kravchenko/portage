@@ -491,3 +491,30 @@
 
   Package-Manager: portage-2.3.0
 
+*nginx-1.11.3-r1 (10 Aug 2016)
+*nginx-1.10.1-r2 (10 Aug 2016)
+
+  10 Aug 2016; Thomas Deutschmann <whissi@gentoo.org>
+  +files/nginx-httpoxy-mitigation-r1.patch, +nginx-1.10.1-r2.ebuild,
+  +nginx-1.11.3-r1.ebuild:
+  Revision bump to update HTTPoxy mitigation
+
+  Commit c4b897dc39a9 ("www-servers/nginx: HTTPoxy mitigation added") only
+  added HTTPoxy mitigation for fastcgi protocol.
+
+  This commit will add mitigation for similar protocols like scgi and uwsgi
+  as well.
+
+  Reported-by: Valentin V. Bartenev <vbart@nginx.com>
+
+  Package-Manager: portage-2.3.0
+
+  10 Aug 2016; Thomas Deutschmann <whissi@gentoo.org>
+  -files/nginx-httpoxy-mitigation.patch, -nginx-1.10.1-r1.ebuild,
+  -nginx-1.11.2.ebuild, -nginx-1.11.3.ebuild:
+  Cleanup
+
+  Removing previous ebuilds with incomplete HTTPoxy mitigation.
+
+  Package-Manager: portage-2.3.0
+

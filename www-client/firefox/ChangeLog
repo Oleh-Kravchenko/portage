@@ -900,3 +900,14 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  11 Aug 2016; Andrew Savchenko <bircoph@gentoo.org>
+  +files/firefox-48.0-pgo.patch, firefox-48.0.ebuild:
+  fix PGO build, bug 388585
+
+  Fix PGO build by providing proper pgo-run target.
+  Patches are based on Daniel Rammelt's patches, bug 499650.
+  Tested on ~amd64.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
+

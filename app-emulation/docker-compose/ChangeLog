@@ -194,3 +194,9 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/expand-request-versions.patch, -files/requests-requirements.patch:
+  remove unused patches
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -191,3 +191,26 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Aug 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  remove maintainer description in metadata.xml
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2067
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*kibana-bin-4.5.4 (11 Aug 2016)
+*kibana-bin-4.1.11 (11 Aug 2016)
+
+  11 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  -kibana-bin-4.1.7.ebuild, -kibana-bin-4.1.9.ebuild,
+  -kibana-bin-4.1.10.ebuild, +kibana-bin-4.1.11.ebuild,
+  -kibana-bin-4.5.1.ebuild, -kibana-bin-4.5.2.ebuild,
+  -kibana-bin-4.5.3.ebuild, +kibana-bin-4.5.4.ebuild:
+  bump to 4.1.11/4.5.4, drop old
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2067
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

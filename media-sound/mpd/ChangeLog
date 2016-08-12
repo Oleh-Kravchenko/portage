@@ -221,3 +221,16 @@
 
   Package-Manager: portage-2.3.0
 
+*mpd-0.19.18 (11 Aug 2016)
+
+  11 Aug 2016; Jeroen Roovers <jer@gentoo.org> +mpd-0.19.18.ebuild:
+  Version bump (bug #590074 by Perfect Gentleman).
+
+  Package-Manager: portage-2.3.0
+
+  11 Aug 2016; Jeroen Roovers <jer@gentoo.org> mpd-0.19.18.ebuild:
+  Add support for media-libs/libsidplayfp as alternative to media-
+  libs/libsidplay:2.
+
+  Package-Manager: portage-2.3.0
+

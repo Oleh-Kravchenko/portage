@@ -464,3 +464,11 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Aug 2016; Pacho Ramos <pacho@gentoo.org> gtk+-2.24.30.ebuild,
+  gtk+-3.20.8.ebuild:
+  Restrict tests and add a note explaining that upstream doesn't care about
+  them as soon as we are not fixing them, and they are aware of all this test
+  failures... even if they don't care.
+
+  Package-Manager: portage-2.3.0
+

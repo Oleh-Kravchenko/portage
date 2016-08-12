@@ -260,3 +260,11 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  11 Aug 2016; Mike Frysinger <vapier@gentoo.org> imlib2-1.4.9.ebuild:
+  mark 1.4.9 sh stable
+
+  11 Aug 2016; Mike Frysinger <vapier@gentoo.org>
+  -files/imlib2-1.4.7-headers.patch, -files/imlib2-1.4.8-gif-oob.patch,
+  -imlib2-1.4.7.ebuild, -imlib2-1.4.8-r1.ebuild:
+  drop old <1.4.9 versions
+

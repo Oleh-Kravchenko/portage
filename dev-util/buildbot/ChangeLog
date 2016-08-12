@@ -167,3 +167,16 @@
 
   Package-Manager: portage-2.3.0
 
+*buildbot-0.9.1_rc1-r1 (11 Aug 2016)
+
+  11 Aug 2016; Brian Dolbec <dolsen@gentoo.org> -buildbot-0.9.0_rc1.ebuild,
+  +buildbot-0.9.1_rc1-r1.ebuild, buildbot-9999.ebuild,
+  -files/buildbot9.service, -files/buildmaster.confd.9,
+  -files/buildmaster.initd.9:
+  Update the 0.9.0_rc1 and 9999 versions with changes made in 0.8.12-r2
+
+  Clean up the files/ directory, remove the no longer needed .9 versions of
+  the files.
+
+  Package-Manager: portage-2.3.0
+

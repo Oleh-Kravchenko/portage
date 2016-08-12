@@ -682,3 +682,65 @@
 
   Package-Manager: portage-2.2.28
 
+*wine-1.9.15-r1 (11 Aug 2016)
+*wine-1.9.14-r2 (11 Aug 2016)
+*wine-1.9.13-r2 (11 Aug 2016)
+*wine-1.9.12-r2 (11 Aug 2016)
+*wine-1.9.11-r3 (11 Aug 2016)
+*wine-1.9.10-r3 (11 Aug 2016)
+*wine-1.9.9-r3 (11 Aug 2016)
+*wine-1.9.8-r2 (11 Aug 2016)
+*wine-1.9.7-r3 (11 Aug 2016)
+*wine-1.9.6-r3 (11 Aug 2016)
+*wine-1.9.5-r3 (11 Aug 2016)
+*wine-1.9.4-r3 (11 Aug 2016)
+*wine-1.8.3-r1 (11 Aug 2016)
+*wine-1.8.2-r2 (11 Aug 2016)
+*wine-1.8.1-r3 (11 Aug 2016)
+*wine-1.8-r3 (11 Aug 2016)
+
+  11 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org> metadata.xml,
+  -wine-1.8-r2.ebuild, +wine-1.8-r3.ebuild, -wine-1.8.1-r2.ebuild,
+  +wine-1.8.1-r3.ebuild, -wine-1.8.2-r1.ebuild, +wine-1.8.2-r2.ebuild,
+  +wine-1.8.3-r1.ebuild, -wine-1.9.4-r2.ebuild, +wine-1.9.4-r3.ebuild,
+  -wine-1.9.5-r2.ebuild, +wine-1.9.5-r3.ebuild, -wine-1.9.6-r2.ebuild,
+  +wine-1.9.6-r3.ebuild, -wine-1.9.7-r2.ebuild, +wine-1.9.7-r3.ebuild,
+  -wine-1.9.8-r1.ebuild, +wine-1.9.8-r2.ebuild, -wine-1.9.9-r2.ebuild,
+  +wine-1.9.9-r3.ebuild, -wine-1.9.10-r2.ebuild, +wine-1.9.10-r3.ebuild,
+  -wine-1.9.11-r2.ebuild, +wine-1.9.11-r3.ebuild, -wine-1.9.12-r1.ebuild,
+  +wine-1.9.12-r2.ebuild, -wine-1.9.13-r1.ebuild, +wine-1.9.13-r2.ebuild,
+  -wine-1.9.14-r1.ebuild, +wine-1.9.14-r2.ebuild, -wine-1.9.15.ebuild,
+  +wine-1.9.15-r1.ebuild, wine-9999.ebuild:
+  Fix staging gtk theming dependency and adjust syntax
+
+  Package-Manager: portage-2.3.0
+
+*wine-1.9.16 (11 Aug 2016)
+
+  11 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org> +wine-1.9.16.ebuild:
+  Version bump to 1.9.16
+
+  Package-Manager: portage-2.3.0
+
+  11 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org> wine-9999.ebuild:
+  Switch to new eapply backend for staging
+
+  Package-Manager: portage-2.3.0
+
+  11 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -files/wine-1.5.17-osmesa-check.patch,
+  -files/wine-1.7.0-freetype-header-location.patch,
+  -files/wine-1.7.19-makefile-race-cond.patch,
+  -files/wine-1.7.2-osmesa-check.patch,
+  -files/wine-1.7.38-gstreamer-v5-staging-post.patch,
+  -files/wine-1.7.38-gstreamer-v5-staging-pre.patch,
+  -files/wine-1.7.39-gstreamer-v5-staging-post.patch,
+  -files/wine-1.7.39-gstreamer-v5-staging-pre.patch,
+  -files/wine-1.7.45-libunwind-osx-only.patch,
+  -files/wine-1.7.47-critical-security-cookie-fix.patch,
+  -files/wine-1.7.55-gstreamer-v5-staging-post.patch,
+  -files/wine-1.7.55-gstreamer-v5-staging-pre.patch:
+  Drop orphaned patches
+
+  Package-Manager: portage-2.3.0
+

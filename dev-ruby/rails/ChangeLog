@@ -205,3 +205,10 @@
   07 Aug 2016; Michał Górny <mgorny@gentoo.org> -rails-3.2.22.2.ebuild:
   Prune slot 3.2
 
+*rails-4.2.7.1 (11 Aug 2016)
+
+  11 Aug 2016; Hans de Graaff <graaff@gentoo.org> +rails-4.2.7.1.ebuild:
+  add rails 4.2.7.1
+
+  Package-Manager: portage-2.2.28
+

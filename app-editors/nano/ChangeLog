@@ -217,3 +217,8 @@
   nano-9999.ebuild:
   version bump to 2.6.1
 
+*nano-2.6.3 (11 Aug 2016)
+
+  11 Aug 2016; Mike Frysinger <vapier@gentoo.org> +nano-2.6.3.ebuild:
+  version bump to 2.6.3
+

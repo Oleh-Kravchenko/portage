@@ -100,3 +100,10 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  11 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  xine-lib-1.2.6-r1.ebuild, xine-lib-1.2.9999.ebuild:
+  Added sub-slot dep for media-libs/libvpx.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
