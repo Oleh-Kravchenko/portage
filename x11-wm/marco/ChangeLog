@@ -103,3 +103,11 @@
 
   Package-Manager: portage-2.2.26
 
+*marco-1.12.1 (12 Aug 2016)
+
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org> +marco-1.12.1.ebuild,
+  metadata.xml:
+  1.12.x vbump, add gtk3 support, import from project repo
+
+  Package-Manager: portage-2.3.0
+

@@ -120,3 +120,11 @@
 
   Package-Manager: portage-2.2.26
 
+*eom-1.12.2-r2 (12 Aug 2016)
+
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org> +eom-1.12.2-r2.ebuild,
+  metadata.xml:
+  1.12.x vbump, add gtk3 support, import from project repo
+
+  Package-Manager: portage-2.3.0
+

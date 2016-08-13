@@ -91,3 +91,19 @@
 
   Package-Manager: portage-2.2.26
 
+*libmateweather-1.12.1-r1 (12 Aug 2016)
+
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +libmateweather-1.12.1-r1.ebuild, metadata.xml:
+  1.12.x vbump, add gtk3 support, import from project repo
+
+  Package-Manager: portage-2.3.0
+
+*libmateweather-1.12.1-r2 (12 Aug 2016)
+
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -libmateweather-1.12.1-r1.ebuild, +libmateweather-1.12.1-r2.ebuild:
+  Fix compilation bug
+
+  Package-Manager: portage-2.3.0
+

@@ -224,3 +224,14 @@
 
   Package-Manager: portage-2.3.0
 
+  12 Aug 2016; Amy Winston <amynka@gentoo.org>
+  -files/guile-2.0.12-build-includes.patch,
+  +files/guile-2.0.12-build_includes2.patch, guile-2.0.12-r1.ebuild:
+  fix bug #590528
+
+  - Added patch from upstream for bug #590528
+  - Added +nls +networking recommended by upstream
+  - Removed old patch from upstream
+
+  Package-Manager: portage-2.2.28
+

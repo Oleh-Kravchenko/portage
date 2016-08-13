@@ -140,3 +140,13 @@
 
   Package-Manager: portage-2.2.26
 
+*mate-themes-3.20.10 (12 Aug 2016)
+*mate-themes-3.18.3 (12 Aug 2016)
+*mate-themes-3.16.3 (12 Aug 2016)
+
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org> +mate-themes-3.16.3.ebuild,
+  +mate-themes-3.18.3.ebuild, +mate-themes-3.20.10.ebuild:
+  Add new versioning scheme
+
+  Package-Manager: portage-2.3.0
+

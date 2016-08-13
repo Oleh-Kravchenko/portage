@@ -80,3 +80,14 @@
 
   Package-Manager: portage-2.2.28
 
+  12 Aug 2016; Marek Szuba <marecki@gentoo.org> gramps-3.4.9.ebuild,
+  gramps-3.4.9-r1.ebuild:
+  sci-geosciences/osm-gps-map: move version 0.7.3 to slot 2
+
+  This is to make room for ebuilds of version 1.0.0 and newer, which among
+  other
+  changes are linked against gtk3 instead of gtk2 and have a different library
+  name.
+
+  Package-Manager: portage-2.3.0
+

@@ -342,3 +342,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  12 Aug 2016; Markus Meier <maekke@gentoo.org> chrony-2.4.ebuild:
+  add ~arm, bug #583390
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

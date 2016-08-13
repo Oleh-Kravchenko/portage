@@ -134,3 +134,19 @@
 
   Package-Manager: portage-2.2.26
 
+*mate-power-manager-1.12.1-r1 (12 Aug 2016)
+
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +mate-power-manager-1.12.1-r1.ebuild, metadata.xml:
+  1.12.x vbump, add gtk3, import from project repo
+
+  Package-Manager: portage-2.3.0
+
+*mate-power-manager-1.12.1-r2 (12 Aug 2016)
+
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -mate-power-manager-1.12.1-r1.ebuild, +mate-power-manager-1.12.1-r2.ebuild:
+  Drop dependency on gtk3 for mate-polkit
+
+  Package-Manager: portage-2.3.0
+

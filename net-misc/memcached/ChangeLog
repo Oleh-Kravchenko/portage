@@ -178,3 +178,11 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*memcached-1.4.30 (12 Aug 2016)
+
+  12 Aug 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +memcached-1.4.30.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

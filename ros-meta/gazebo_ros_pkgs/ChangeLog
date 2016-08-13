@@ -66,3 +66,11 @@
 
   Package-Manager: portage-2.3.0
 
+*gazebo_ros_pkgs-2.6.0 (12 Aug 2016)
+
+  12 Aug 2016; Alexis Ballier <aballier@gentoo.org>
+  +gazebo_ros_pkgs-2.6.0.ebuild:
+  Bump to 2.6.0.
+
+  Package-Manager: portage-2.3.0
+

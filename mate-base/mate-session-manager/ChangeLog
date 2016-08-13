@@ -99,3 +99,20 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -files/mate-session-manager-1.2.0-idle-transition.patch,
+  -files/mate-session-manager-1.6-gnome-keyring.patch,
+  -files/mate-session-manager-1.6.1-login1.patch:
+  Drop orphaned patches
+
+  Package-Manager: portage-2.3.0
+
+*mate-session-manager-1.12.2-r1 (12 Aug 2016)
+
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  +files/mate-session-manager-1.12.2-save-session-ui.patch,
+  +mate-session-manager-1.12.2-r1.ebuild, metadata.xml:
+  1.12.x vbump, add gtk3, import from project repo
+
+  Package-Manager: portage-2.3.0
+

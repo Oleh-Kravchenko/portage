@@ -98,3 +98,11 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  12 Aug 2016; David Seifert <soap@gentoo.org>
+  files/metis-4.0.1-autotools.patch, metis-4.0.3.ebuild:
+  Make all patches -p1 compliant
+
+  Gentoo-bug: 591090
+
+  Package-Manager: portage-2.3.0
+

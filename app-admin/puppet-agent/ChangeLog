@@ -318,3 +318,11 @@
 
   Package-Manager: portage-2.2.28
 
+*puppet-agent-1.6.0 (12 Aug 2016)
+
+  12 Aug 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +puppet-agent-1.6.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

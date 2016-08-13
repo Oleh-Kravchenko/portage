@@ -11,3 +11,9 @@
 
   Package-Manager: portage-2.2.28
 
+  12 Aug 2016; Alexis Ballier <aballier@gentoo.org> tf2_eigen-0.5.13.ebuild,
+  tf2_eigen-9999.ebuild:
+  add missing build dep on cmake_modules; bug #590886
+
+  Package-Manager: portage-2.3.0
+

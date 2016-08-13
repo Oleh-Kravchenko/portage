@@ -195,3 +195,9 @@
   +ocamlnet-3.7.7-r1.ebuild:
   Copy ||+:= dep fix from newer version
 
+  12 Aug 2016; Alexis Ballier <aballier@gentoo.org> -files/oc43.patch,
+  ocamlnet-4.1.2.ebuild:
+  drop ocaml 4.03 patch; it is not needed anymore.
+
+  Package-Manager: portage-2.3.0
+

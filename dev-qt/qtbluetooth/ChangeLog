@@ -73,3 +73,11 @@
 
   Package-Manager: portage-2.3.0
 
+*qtbluetooth-5.7.0 (12 Aug 2016)
+
+  12 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  +qtbluetooth-5.7.0.ebuild:
+  dev-qt: version bump 5.7.0
+
+  Package-Manager: portage-2.3.0
+

@@ -22,3 +22,11 @@
 
   Package-Manager: portage-2.2.28
 
+*mate-themes-meta-3 (12 Aug 2016)
+
+  12 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org> +mate-themes-meta-3.ebuild,
+  metadata.xml:
+  Use new versioning scheme
+
+  Package-Manager: portage-2.3.0
+
