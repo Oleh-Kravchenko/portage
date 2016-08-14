@@ -102,3 +102,9 @@
   25 May 2016; Matt Turner <mattst88@gentoo.org> Role-Tiny-2.0.1.ebuild:
   added ~alpha, bug 579360.
 
+  13 Aug 2016; Jeroen Roovers <jer@gentoo.org> Role-Tiny-2.0.1.ebuild:
+  Stable for HPPA (bug #573536).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

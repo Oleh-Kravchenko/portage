@@ -140,3 +140,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*monotonic-1.2 (13 Aug 2016)
+
+  13 Aug 2016; Alex Brandt <alunduil@gentoo.org> +monotonic-1.2.ebuild:
+  add version 1.2
+
+  Package-Manager: portage-2.3.0
+
+  13 Aug 2016; Alex Brandt <alunduil@gentoo.org> -monotonic-0.2.ebuild:
+  remove version 0.2
+
+  Package-Manager: portage-2.3.0
+

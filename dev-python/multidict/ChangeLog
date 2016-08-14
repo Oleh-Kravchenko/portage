@@ -69,3 +69,15 @@
 
   Package-Manager: portage-2.3.0
 
+*multidict-2.0.1 (13 Aug 2016)
+
+  13 Aug 2016; Alex Brandt <alunduil@gentoo.org> +multidict-2.0.1.ebuild:
+  add version 2.0.1
+
+  Package-Manager: portage-2.3.0
+
+  13 Aug 2016; Alex Brandt <alunduil@gentoo.org> -multidict-1.2.0.ebuild:
+  remove version 1.2.0
+
+  Package-Manager: portage-2.3.0
+

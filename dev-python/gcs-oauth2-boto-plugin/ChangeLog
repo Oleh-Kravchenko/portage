@@ -111,3 +111,9 @@
   +gcs-oauth2-boto-plugin-1.13.ebuild:
   version bump to 1.13
 
+*gcs-oauth2-boto-plugin-1.14 (13 Aug 2016)
+
+  13 Aug 2016; Mike Frysinger <vapier@gentoo.org>
+  +gcs-oauth2-boto-plugin-1.14.ebuild:
+  version bump to 1.14
+

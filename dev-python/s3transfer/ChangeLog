@@ -17,3 +17,9 @@
 
   Package-Manager: portage-2.3.0
 
+  13 Aug 2016; Alex Brandt <alunduil@gentoo.org> metadata.xml,
+  s3transfer-0.1.1.ebuild:
+  add version 0.0.1
+
+  Package-Manager: portage-2.3.0
+

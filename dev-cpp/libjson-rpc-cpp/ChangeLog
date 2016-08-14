@@ -79,3 +79,11 @@
   libjson-rpc-cpp-0.6.0.ebuild, libjson-rpc-cpp-9999.ebuild:
   Add missing cond RESTRICT=test
 
+*libjson-rpc-cpp-0.7.0 (13 Aug 2016)
+
+  13 Aug 2016; Michał Górny <mgorny@gentoo.org> +libjson-rpc-cpp-0.7.0.ebuild:
+  Bump to 0.7.0
+
+  13 Aug 2016; Michał Górny <mgorny@gentoo.org> libjson-rpc-cpp-9999.ebuild:
+  Sync the live ebuild
+

@@ -194,3 +194,15 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*xscreensaver-5.35-r1 (13 Aug 2016)
+
+  13 Aug 2016; Jeroen Roovers <jer@gentoo.org>
+  files/xscreensaver-5.20-blurb-hndl-test-passwd.patch,
+  files/xscreensaver-5.20-test-passwd-segv-tty.patch,
+  files/xscreensaver-5.20-tests-miscfix.patch,
+  +files/xscreensaver-5.35-gentoo.patch,
+  +files/xscreensaver-5.35-offensive.patch, +xscreensaver-5.35-r1.ebuild:
+  Add USE=offensive (bug #591146 by godzil).
+
+  Package-Manager: portage-2.3.0
+

@@ -151,3 +151,9 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  13 Aug 2016; Jeroen Roovers <jer@gentoo.org> glib-perl-1.314.0.ebuild:
+  Stable for HPPA (bug #573496).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

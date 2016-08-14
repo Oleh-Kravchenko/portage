@@ -112,3 +112,16 @@
 
   Package-Manager: portage-2.2.28
 
+*allpathslg-52488-r2 (13 Aug 2016)
+
+  13 Aug 2016; David Seifert <soap@gentoo.org> -allpathslg-52488-r1.ebuild,
+  +allpathslg-52488-r2.ebuild:
+  Unconditionally require OpenMP support
+
+  Gentoo-bug: 591166
+  * The configure script of sci-biology/allpathslg allows for
+    specifying --enable/--disable-openmp, without it actually
+    being optional.
+
+  Package-Manager: portage-2.3.0
+

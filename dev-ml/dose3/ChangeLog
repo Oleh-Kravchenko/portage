@@ -116,3 +116,10 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*dose3-5.0.1 (13 Aug 2016)
+
+  13 Aug 2016; Alexis Ballier <aballier@gentoo.org> +dose3-5.0.1.ebuild:
+  bump to 5.0.1
+
+  Package-Manager: portage-2.3.0
+

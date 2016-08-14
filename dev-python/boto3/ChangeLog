@@ -139,3 +139,15 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*boto3-1.4.0 (13 Aug 2016)
+
+  13 Aug 2016; Alex Brandt <alunduil@gentoo.org> +boto3-1.4.0.ebuild:
+  add version 1.4.0
+
+  Package-Manager: portage-2.3.0
+
+  13 Aug 2016; Alex Brandt <alunduil@gentoo.org> -boto3-1.2.3.ebuild:
+  remove version 1.2.3
+
+  Package-Manager: portage-2.3.0
+

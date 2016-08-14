@@ -177,3 +177,19 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*quagga-1.0.20160315-r3 (13 Aug 2016)
+
+  13 Aug 2016; Sergey Popov <pinkbyte@gentoo.org>
+  +files/quagga-1.0.20160315-bgpd-logging-fix.patch,
+  +quagga-1.0.20160315-r3.ebuild:
+  revision bump
+
+  Currently, bgpd logs enormous amount of errors about
+  AFI/SAFI does not set, which is wrong, so we should
+  backport upstream patch to fix this
+
+  Reported-by: Arnaud Launay <asl@launay.org>
+  Gentoo-Bug: 589946
+
+  Package-Manager: portage-2.3.0
+

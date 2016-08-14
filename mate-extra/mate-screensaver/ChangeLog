@@ -158,3 +158,11 @@
 
   Package-Manager: portage-2.3.0
 
+*mate-screensaver-1.12.0-r1 (13 Aug 2016)
+
+  13 Aug 2016; NP-Hardass <NP-Hardass@gentoo.org>
+  -mate-screensaver-1.12.0.ebuild, +mate-screensaver-1.12.0-r1.ebuild:
+  Drop gtk3 dep for mate-session-manager
+
+  Package-Manager: portage-2.3.0
+
