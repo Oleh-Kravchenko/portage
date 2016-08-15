@@ -911,3 +911,8 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+  14 Aug 2016; Jory A. Pratt <anarchy@gentoo.org> firefox-48.0.ebuild:
+  Fix build install issues with pax-marking xpcshell
+
+  Signed-off-by: Jory A. Pratt <anarchy@gentoo.org>
+

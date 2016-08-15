@@ -209,3 +209,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  14 Aug 2016; Markus Meier <maekke@gentoo.org> cryptsetup-1.7.2.ebuild:
+  arm stable, bug #590246
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

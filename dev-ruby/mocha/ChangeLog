@@ -167,3 +167,15 @@
 
   Package-Manager: portage-2.2.28
 
+  14 Aug 2016; Markus Meier <maekke@gentoo.org> mocha-0.14.0.ebuild:
+  arm stable, bug #589432
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+
+  14 Aug 2016; Markus Meier <maekke@gentoo.org> mocha-1.1.0.ebuild:
+  arm stable, bug #589432
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

@@ -39,3 +39,21 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*qt5ct-0.25 (14 Aug 2016)
+
+  14 Aug 2016; Michael Palimaka <kensington@gentoo.org> +qt5ct-0.25.ebuild:
+  verbump to 0.25
+
+  Also fix SLOT operators on Qt deps.
+  qt5ct uses private headers from dev-qt/qtgui only
+  (qpa/qplatformtheme{,plugin}.h).
+
+  Package-Manager: portage-2.3.0
+
+  14 Aug 2016; Michael Palimaka <kensington@gentoo.org> -qt5ct-0.24.ebuild:
+  remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/2074
+
+  Package-Manager: portage-2.3.0
+

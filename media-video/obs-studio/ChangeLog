@@ -40,3 +40,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*obs-studio-0.15.3 (14 Aug 2016)
+
+  14 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  +obs-studio-0.15.3.ebuild:
+  Version bump to 0.15.3.
+
+  Package-Manager: portage-2.3.0
+

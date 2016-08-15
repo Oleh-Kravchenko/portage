@@ -241,3 +241,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  14 Aug 2016; Markus Meier <maekke@gentoo.org> lxml-3.6.0.ebuild:
+  arm stable, bug #591088
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

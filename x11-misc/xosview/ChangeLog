@@ -140,3 +140,11 @@
 
   Package-Manager: portage-2.3.0
 
+*xosview-1.18 (14 Aug 2016)
+
+  14 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +xosview-1.18.ebuild:
+  Bump to version 1.18
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

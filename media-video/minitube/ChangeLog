@@ -80,3 +80,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*minitube-2.5.2 (14 Aug 2016)
+
+  14 Aug 2016; Sebastian Pipping <sping@gentoo.org>
+  +files/minitube-2.5.1-disable-updates.patch, +minitube-2.5.2.ebuild:
+  2.5.2 (bug #567516)
+
+  Package-Manager: portage-2.2.28
+
+  14 Aug 2016; Sebastian Pipping <sping@gentoo.org> minitube-2.5.2.ebuild:
+  Missing dependencies
+
+  Package-Manager: portage-2.2.28
+

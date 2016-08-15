@@ -530,3 +530,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Aug 2016; Jeroen Roovers <jer@gentoo.org> icedtea-bin-3.1.0.ebuild:
+  Stable for PPC64 (bug #590590).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

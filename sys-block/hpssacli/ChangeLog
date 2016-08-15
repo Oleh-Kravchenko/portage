@@ -21,3 +21,11 @@
 
   Package-Manager: portage-2.3.0
 
+*hpssacli-2.40.13.0-r1 (14 Aug 2016)
+
+  14 Aug 2016; Thomas Deutschmann <whissi@gentoo.org>
+  -hpssacli-2.40.13.0.ebuild, +hpssacli-2.40.13.0-r1.ebuild:
+  Add missing x86 SRC
+
+  Package-Manager: portage-2.3.0
+

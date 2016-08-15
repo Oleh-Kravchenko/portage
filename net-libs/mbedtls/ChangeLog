@@ -182,3 +182,19 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*mbedtls-2.3.0-r1 (13 Aug 2016)
+
+  13 Aug 2016; David Seifert <soap@gentoo.org>
+  +files/mbedtls-2.3.0-include-guards.patch,
+  +files/mbedtls-2.3.0-move-to-header.patch, +files/mbedtls-2.3.0-tests.patch,
+  +mbedtls-2.3.0-r1.ebuild:
+  Integrate upstream patches for bug 588818
+
+  Gentoo-bug: 588818
+  * EAPI=6
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2080
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

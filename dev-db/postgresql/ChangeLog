@@ -824,3 +824,11 @@
 
   Bugs: 591052
 
+  14 Aug 2016; Jeroen Roovers <jer@gentoo.org> postgresql-9.1.23.ebuild,
+  postgresql-9.2.18.ebuild, postgresql-9.3.14.ebuild, postgresql-9.4.9.ebuild,
+  postgresql-9.5.4.ebuild:
+  Stable for HPPA PPC64 (bug #591052).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

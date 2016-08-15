@@ -225,3 +225,9 @@
 
   Package-Manager: portage-2.3.0
 
+  14 Aug 2016; Markus Meier <maekke@gentoo.org> wpa_supplicant-2.5-r2.ebuild:
+  arm stable, bug #590050
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

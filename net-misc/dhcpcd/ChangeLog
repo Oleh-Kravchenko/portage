@@ -258,3 +258,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  14 Aug 2016; Markus Meier <maekke@gentoo.org> dhcpcd-6.11.1-r1.ebuild:
+  arm stable, bug #589384
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

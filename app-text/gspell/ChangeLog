@@ -91,3 +91,9 @@
 
   Package-Manager: portage-2.3.0
 
+  14 Aug 2016; Markus Meier <maekke@gentoo.org> gspell-1.0.3.ebuild:
+  add ~arm, bug #587368
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+
