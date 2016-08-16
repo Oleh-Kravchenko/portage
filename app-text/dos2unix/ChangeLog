@@ -201,3 +201,11 @@
   dos2unix-7.3.3.ebuild, dos2unix-7.3.4.ebuild:
   sourceforge: switch to https:// URIs
 
+  15 Aug 2016; Anthony G. Basile <blueness@gentoo.org> dos2unix-7.3.3.ebuild,
+  dos2unix-7.3.4.ebuild:
+  update libintl check
+
+  musl also does not need -lintl.
+
+  Gentoo-Bug: https://bugs.gentoo.org/590994
+

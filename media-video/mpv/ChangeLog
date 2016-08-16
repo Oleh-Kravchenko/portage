@@ -1315,3 +1315,41 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*mpv-0.19.0 (15 Aug 2016)
+
+  15 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  +files/mpv-0.19.0-make-ffmpeg-version-check-non-fatal.patch,
+  +mpv-0.19.0.ebuild:
+  verbump to 0.19.0
+
+  Also update ffmpeg patch to apply cleanly.
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  15 Aug 2016; Patrice Clement <monsieurp@gentoo.org> mpv-9999.ebuild:
+  sync 9999 with 0.19.0
+
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  15 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/0.18.1/mpv-0.18.1-add-htmldir-option.patch,
+  -files/0.18.1/mpv-0.18.1-fix-audio-uninit-crash.patch,
+  -files/0.18.1/mpv-0.18.1-fix-doc-build.patch,
+  -files/0.18.1/mpv-0.18.1-fix-high-CPU-on-wayland.patch,
+  -files/0.18.1/mpv-0.18.1-fix-stuck-volume-on-pulseaudio.patch,
+  -files/0.18.1/mpv-0.18.1-handle-ffmpeg-ABI-changes.patch,
+  -files/0.18.1/mpv-0.18.1-respect-deinterlace-auto.patch,
+  -files/0.18.1/mpv-0.18.1-show-osd-with-ao-volume.patch,
+  -files/mpv-0.18.1-make-ffmpeg-version-check-non-fatal.patch,
+  -mpv-0.18.1-r1.ebuild:
+  remove old
+
+  Closes: https://github.com/gentoo/gentoo/pull/2086
+  Package-Manager: portage-2.3.0
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

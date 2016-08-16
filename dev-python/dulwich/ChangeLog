@@ -158,3 +158,13 @@
 
   Signed-off-by: Ian Delaney <idella4@gentoo.org>
 
+*dulwich-0.14.1 (15 Aug 2016)
+
+  15 Aug 2016; Patrice Clement <monsieurp@gentoo.org> +dulwich-0.14.1.ebuild:
+  bump to 0.14.1
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2085
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

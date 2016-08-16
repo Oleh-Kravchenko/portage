@@ -103,3 +103,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  15 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  freebsd-libexec-10.3.ebuild:
+  Added some define for upgrade.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2083
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

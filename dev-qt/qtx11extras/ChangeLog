@@ -148,3 +148,9 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Aug 2016; Jeroen Roovers <jer@gentoo.org> qtx11extras-5.6.1.ebuild:
+  Stable for HPPA PPC64 (bug #586180).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

@@ -667,3 +667,10 @@
 
   Package-Manager: portage-2.2.26
 
+  15 Aug 2016; Luca Barbato <lu_zero@gentoo.org> files/qemu-binfmt.initd-r1:
+  Update ppc magic mask
+
+  Unbreak using qemu-user with current stage3.
+
+  Package-Manager: portage-2.3.0
+

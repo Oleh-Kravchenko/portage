@@ -91,3 +91,12 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Aug 2016; Marek Szuba <marecki@gentoo.org> gramps-3.4.9.ebuild,
+  gramps-3.4.9-r1.ebuild:
+  Revert "sci-geosciences/osm-gps-map: move version 0.7.3 to slot 2"
+
+  Return to original state until the new version can really be installed
+  in parallel with this one.
+
+  This reverts commit 7b88e7dd798f0a6e11e4f242c33f98543ec9a9c4.
+

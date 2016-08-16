@@ -100,3 +100,10 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Aug 2016; Brian Evans <grknight@gentoo.org> -dokuwiki-20140929d.ebuild:
+  Drop old version
+
+  Remove last consumer of dead depend.php eclass
+
+  Package-Manager: portage-2.3.0
+

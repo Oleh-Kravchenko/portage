@@ -219,3 +219,13 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*ibus-1.5.14 (15 Aug 2016)
+
+  15 Aug 2016; Yixun Lan <dlan@gentoo.org> +ibus-1.5.14.ebuild:
+  version bump 1.5.14
+
+  but disable emoji-dist for now, since it require
+  nodejs (emojione) support
+
+  Package-Manager: portage-2.3.0
+

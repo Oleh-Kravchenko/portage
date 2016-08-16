@@ -91,3 +91,38 @@
 
   Package-Manager: portage-2.2.28
 
+*ucblogo-6.0-r2 (14 Aug 2016)
+
+  14 Aug 2016; Michael Orlitzky <mjo@gentoo.org>
+  +files/ucblogo-6.0-optimization-flags.patch, +ucblogo-6.0-r2.ebuild:
+  new revision to fix a few open bugs.
+
+  The build system for this package forces -O0, and we have an ancient
+  bug for that. The only way to fix it is with a patch, and this new
+  revision adds a patch stripping the -O0.
+
+  There is also a build failure in the existing 6.x series
+  ebuilds. There is wxWidgets support hidden behind USE=X, but we make a
+  call to some wxWidgets stuff unconditionally and it crashes when
+  wxWidgets is not present (i.e. with USE="-X").
+
+  The elisp-common eclass is no longer used and has been dropped. A call
+  to strip-flags has been removed, and flag-o-matic "downgraded" to
+  toolchain-funcs.
+
+  Gentoo-Bug: 327359
+  Gentoo-Bug: 584602
+
+  Package-Manager: portage-2.2.28
+
+  14 Aug 2016; Michael Orlitzky <mjo@gentoo.org> -files/50ucblogo-gentoo.el,
+  -files/ucblogo-5.5-destdir.patch,
+  -files/ucblogo-5.5-dont-require-tetex.patch, -files/ucblogo-5.5-fhs.patch,
+  -files/ucblogo-5.5-no-emacs.patch, -ucblogo-5.5.ebuild,
+  -ucblogo-5.5-r1.ebuild, -ucblogo-6.0.ebuild, -ucblogo-6.0-r1.ebuild:
+  remove older versions and files.
+
+  Gentoo-Bug: 565122
+
+  Package-Manager: portage-2.2.28
+

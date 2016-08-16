@@ -518,3 +518,13 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> metadata.xml:
+  Dropping proxy-maintainer project; Rearranging maintainer order
+
+  Now that I am a Gentoo developer this package is no longer maintained
+  through proxy-maintainer project.
+
+  Rearranging maintainer order for proper bug assignment.
+
+  Package-Manager: portage-2.3.0
+

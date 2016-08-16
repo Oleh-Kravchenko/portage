@@ -221,3 +221,20 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*freebsd-sources-10.3-r4 (15 Aug 2016)
+
+  15 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  -freebsd-sources-10.3-r3.ebuild, +freebsd-sources-10.3-r4.ebuild:
+  Fix multiple Errata.
+
+  * FreeBSD-EN-16:11.vmbus
+  * FreeBSD-EN-16:12.hv_storvsc
+  * FreeBSD-EN-16:13.vmbus
+  * FreeBSD-EN-16:14.hv_storvsc
+  * FreeBSD-EN-16:15.vmbus
+  * FreeBSD-EN-16:16.hv_storvsc
+
+  Closes: https://github.com/gentoo/gentoo/pull/2084
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

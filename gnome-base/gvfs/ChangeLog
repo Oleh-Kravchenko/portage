@@ -306,3 +306,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+*gvfs-1.28.3 (15 Aug 2016)
+
+  15 Aug 2016; Pacho Ramos <pacho@gentoo.org> +gvfs-1.28.3.ebuild:
+  Version bump, try to avoid issues with paludis (#549576)
+
+  Package-Manager: portage-2.3.0
+

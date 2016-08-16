@@ -254,3 +254,10 @@
   29 Jul 2016; Mikhail Pukhlikov <cynede@gentoo.org> mono-4.4.1.0.ebuild:
   multilib support
 
+*mono-4.6.0.125 (15 Aug 2016)
+
+  15 Aug 2016; Mikhail Pukhlikov <cynede@gentoo.org> +mono-4.6.0.125.ebuild:
+  bump to 4.6.0.125
+
+  Package-Manager: portage-2.3.0
+

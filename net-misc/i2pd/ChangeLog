@@ -317,3 +317,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*i2pd-2.9.0 (15 Aug 2016)
+
+  15 Aug 2016; Anthony G. Basile <blueness@gentoo.org> +i2pd-2.9.0.ebuild:
+  2.9.0 version bump
+
+  15 Aug 2016; Anthony G. Basile <blueness@gentoo.org> i2pd-2.9.0.ebuild:
+  use PATCHES (cosmetic)
+

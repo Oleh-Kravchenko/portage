@@ -362,3 +362,11 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  14 Aug 2016; Mike Gilbert <floppym@gentoo.org> grub-9999.ebuild:
+  set RESTRICT=strip
+
+  STRIP_MASK is not documented in PMS, so avoid using it.
+  Also further simplify QA variables.
+
+  Package-Manager: portage-2.3.0_p16
+

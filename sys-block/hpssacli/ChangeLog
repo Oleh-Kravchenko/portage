@@ -29,3 +29,12 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Aug 2016; Thomas Deutschmann <whissi@gentoo.org>
+  hpssacli-2.40.13.0-r1.ebuild:
+  Change SRC_URI to use HTTPS
+
+  This wasn't possible until today due to an upstream configuration issue
+  which was fixed today.
+
+  Package-Manager: portage-2.3.0
+

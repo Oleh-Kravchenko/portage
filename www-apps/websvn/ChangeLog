@@ -89,3 +89,11 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Aug 2016; Brian Evans <grknight@gentoo.org> websvn-2.3.2.ebuild:
+  Drop depend.php eclass and insert the DEPENDs it added
+
+  This effectively does not change the vdb as the DEPEND and RDEPEND values
+  are the same as they were previously
+
+  Package-Manager: portage-2.3.0
+

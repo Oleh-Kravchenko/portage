@@ -317,3 +317,10 @@
   Both cases are invalid use of USE flags, considering that the flag does
   not affect the installed files in any way.
 
+*gcc-4.9.4 (15 Aug 2016)
+
+  15 Aug 2016; Anthony G. Basile <blueness@gentoo.org> +gcc-4.9.4.ebuild:
+  version bump to 4.9.4, bug #590966
+
+  Package-Manager: portage-2.2.28
+

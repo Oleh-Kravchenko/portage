@@ -182,3 +182,9 @@
   -abi-compliance-checker-1.99.20.ebuild:
   Drop old
 
+*abi-compliance-checker-1.99.23 (15 Aug 2016)
+
+  15 Aug 2016; Michał Górny <mgorny@gentoo.org>
+  +abi-compliance-checker-1.99.23.ebuild:
+  Bump to 1.99.23
+
