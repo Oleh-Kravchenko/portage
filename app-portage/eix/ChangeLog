@@ -241,3 +241,24 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*eix-0.31.8 (16 Aug 2016)
+
+  16 Aug 2016; Manuel Rüger <mrueg@gentoo.org> +eix-0.31.8.ebuild:
+  Version bump to 0.31.8
+
+  Package-Manager: portage-2.3.0
+
+*eix-0.31.8-r1 (16 Aug 2016)
+
+  16 Aug 2016; Manuel Rüger <mrueg@gentoo.org> -eix-0.30.10.ebuild,
+  -eix-0.31.4.ebuild, -eix-0.31.6.ebuild, -eix-0.31.7.ebuild,
+  +eix-0.31.8-r1.ebuild:
+  Update from -r1
+
+  Package-Manager: portage-2.3.0
+
+  16 Aug 2016; Manuel Rüger <mrueg@gentoo.org> -eix-0.31.8.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

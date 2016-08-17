@@ -151,3 +151,21 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*dar-2.5.5-r1 (16 Aug 2016)
+
+  16 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +dar-2.5.5-r1.ebuild,
+  metadata.xml:
+  Revbump to fix static build (bug #591098).
+
+  Renamed "gpgme" USE flag to "gpg".
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  16 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> -dar-2.4.21.ebuild,
+  -dar-2.5.4.ebuild, -dar-2.5.5.ebuild, metadata.xml:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

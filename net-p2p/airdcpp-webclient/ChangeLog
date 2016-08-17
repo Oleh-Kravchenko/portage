@@ -126,3 +126,23 @@
 
   Package-Manager: portage-2.3.0
 
+*airdcpp-webclient-1.1.0 (16 Aug 2016)
+
+  16 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  +airdcpp-webclient-1.1.0.ebuild:
+  version bump to 1.1.0.
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2068
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  16 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  -airdcpp-webclient-1.0.6.ebuild:
+  remove old.
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2068
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -215,3 +215,17 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*dbus-1.10.10 (16 Aug 2016)
+
+  16 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +dbus-1.10.10.ebuild:
+  Bump to version 1.10.10
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  16 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> -dbus-1.10.6.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

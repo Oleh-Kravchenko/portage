@@ -292,3 +292,8 @@
 
   Gentoo-Bug: 588448
 
+  16 Aug 2016; Matthias Maier <tamiko@gentoo.org> doxygen-1.8.11-r2.ebuild:
+  stabilize amd64 and x86, bug #588448
+
+  Package-Manager: portage-2.2.28
+

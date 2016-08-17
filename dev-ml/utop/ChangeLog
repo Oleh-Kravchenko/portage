@@ -158,3 +158,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*utop-1.19.3 (16 Aug 2016)
+
+  16 Aug 2016; Alexis Ballier <aballier@gentoo.org> +utop-1.19.3.ebuild:
+  bump to 1.19.3
+
+  Package-Manager: portage-2.3.0
+

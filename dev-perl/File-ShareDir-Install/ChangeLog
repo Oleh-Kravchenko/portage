@@ -67,3 +67,11 @@
   File-ShareDir-Install-0.90.0.ebuild:
   added ~alpha, bug 576058.
 
+  16 Aug 2016; Kent Fredric <kentnl@gentoo.org>
+  File-ShareDir-Install-0.90.0.ebuild:
+  Disable parallel testing
+
+  Upstream is still broken on this.
+
+  Package-Manager: portage-2.3.0
+

@@ -204,3 +204,18 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  15 Aug 2016; William Hubbs <williamh@gentoo.org> -kmod-21.ebuild:
+  remove 21 from the tree for #581562
+
+  Package-Manager: portage-2.2.28
+
+*kmod-21 (16 Aug 2016)
+
+  16 Aug 2016; William Hubbs <williamh@gentoo.org> +kmod-21.ebuild:
+  Revert "sys-apps/kmod: remove 21 from the tree for #581562"
+
+  This reverts commit 4e07661c63bed19bbce76d0bbec8fca485bfaf66.
+
+  Restore old kmod per arch team request, the stabilization of kmod 22
+  will happen this week.
+

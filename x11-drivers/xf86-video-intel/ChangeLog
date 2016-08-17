@@ -413,3 +413,20 @@
 
   Package-Manager: portage-2.3.0
 
+  16 Aug 2016; Manuel Rüger <mrueg@gentoo.org>
+  -xf86-video-intel-2.99.917_p20160423.ebuild,
+  -xf86-video-intel-2.99.917_p20160507.ebuild,
+  -xf86-video-intel-2.99.917_p20160518.ebuild,
+  -xf86-video-intel-2.99.917_p20160621.ebuild:
+  Remove old snapshots
+
+  Package-Manager: portage-2.3.0
+
+*xf86-video-intel-2.99.917_p20160812 (16 Aug 2016)
+
+  16 Aug 2016; Manuel Rüger <mrueg@gentoo.org>
+  +xf86-video-intel-2.99.917_p20160812.ebuild:
+  Update snapshot
+
+  Package-Manager: portage-2.3.0
+

@@ -351,3 +351,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*sqlite-3.14.1 (16 Aug 2016)
+
+  16 Aug 2016; Mike Gilbert <floppym@gentoo.org>
+  +files/sqlite-3.14.0-full_tarball-build.patch, +sqlite-3.14.1.ebuild:
+  Version bump.
+

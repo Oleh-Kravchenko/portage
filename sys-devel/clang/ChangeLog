@@ -252,3 +252,6 @@
   15 Jul 2016; Michał Górny <mgorny@gentoo.org> +clang-3.8.1-r100.ebuild:
   Bump meta to 3.8.1
 
+  16 Aug 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
+  Transfer maintenance to LLVM project
+

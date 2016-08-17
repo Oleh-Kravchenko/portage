@@ -202,3 +202,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*hplip-3.16.7 (16 Aug 2016)
+
+  16 Aug 2016; Manuel Rüger <mrueg@gentoo.org> +hplip-3.16.7.ebuild:
+  Version bump to 3.16.7
+
+  Package-Manager: portage-2.3.0
+

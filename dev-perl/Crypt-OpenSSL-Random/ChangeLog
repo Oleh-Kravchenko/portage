@@ -97,3 +97,12 @@
   RepoMan-Options: --include-arches="alpha amd64 amd64-fbsd arm arm64 hppa
   ia64 m6mips nios2 ppc ppc64 riscv sparc sparc-fbsd x86"
 
+  16 Aug 2016; Kent Fredric <kentnl@gentoo.org>
+  Crypt-OpenSSL-Random-0.40.0-r2.ebuild:
+  Remove unneeded stable bits on exp arches
+
+  Keyword notes:
+   ~m68k ~s390 ~sh ~x86-fbsd still broken vs libressl
+
+  Package-Manager: portage-2.3.0
+

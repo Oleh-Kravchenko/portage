@@ -198,3 +198,11 @@
 
   Package-Manager: portage-2.3.0
 
+  16 Aug 2016; Patrice Clement <monsieurp@gentoo.org>
+  -elasticsearch-curator-4.0.1.ebuild, elasticsearch-curator-4.0.5.ebuild:
+  add missing '|| die's, drop old.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2056
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

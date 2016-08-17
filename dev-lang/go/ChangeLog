@@ -455,3 +455,13 @@
 
   Package-Manager: portage-2.2.28
 
+*go-1.7 (16 Aug 2016)
+
+  16 Aug 2016; William Hubbs <williamh@gentoo.org> +go-1.7.ebuild:
+  1.7 version bump for #591390
+
+  I have removed the pre/postinst functions in this version; I do not believe
+  that functionality is needed any longer.
+
+  Package-Manager: portage-2.2.28
+
