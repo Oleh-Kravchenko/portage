@@ -30,3 +30,9 @@
   25 May 2016; Matt Turner <mattst88@gentoo.org> LWP-Online-1.80.0-r2.ebuild:
   added ~alpha, bug 577020.
 
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> LWP-Online-1.80.0-r2.ebuild:
+  Mark ~hppa (bug #577020).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

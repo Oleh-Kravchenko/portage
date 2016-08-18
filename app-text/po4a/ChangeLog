@@ -117,3 +117,20 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> po4a-0.45-r3.ebuild:
+  Stable for HPPA (bug #582428).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  17 Aug 2016; Pacho Ramos <pacho@gentoo.org> po4a-0.45-r3.ebuild:
+  ia64/ppc64/sparc stable, bug #582428
+
+  Package-Manager: portage-2.3.0
+
+  17 Aug 2016; Pacho Ramos <pacho@gentoo.org> -po4a-0.45-r1.ebuild,
+  -po4a-0.45-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+

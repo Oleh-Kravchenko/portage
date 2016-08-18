@@ -132,3 +132,9 @@
 
   Package-Manager: portage-2.3.0
 
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> Test-MockModule-0.110.0.ebuild:
+  Mark ~hppa (bug #580156).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

@@ -132,3 +132,17 @@
 
   Package-Manager: portage-2.2.28
 
+*firewalld-0.4.3.3 (17 Aug 2016)
+
+  17 Aug 2016; Matthias Maier <tamiko@gentoo.org> +firewalld-0.4.3.3.ebuild:
+  version bump to 0.4.3.3 (CVE-2016-5410), bug #591458
+
+  Version 0.4.3.3 contains upstream fixes for CVE-2016-5410
+
+  Package-Manager: portage-2.2.28
+
+  17 Aug 2016; Matthias Maier <tamiko@gentoo.org> -firewalld-0.4.2-r1.ebuild:
+  drop vulnerable 0.4.2-r1, bug #591458
+
+  Package-Manager: portage-2.2.28
+

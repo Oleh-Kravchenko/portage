@@ -460,3 +460,12 @@
 
   Package-Manager: portage-2.3.0
 
+*libgcrypt-1.7.3 (17 Aug 2016)
+
+  17 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> +libgcrypt-1.7.3.ebuild:
+  Critical security version bump to 1.7.3
+
+  Gentoo-Bug: 591534
+
+  Package-Manager: portage-2.3.0
+

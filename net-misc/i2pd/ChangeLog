@@ -325,3 +325,9 @@
   15 Aug 2016; Anthony G. Basile <blueness@gentoo.org> i2pd-2.9.0.ebuild:
   use PATCHES (cosmetic)
 
+*i2pd-2.9.0-r1 (16 Aug 2016)
+
+  16 Aug 2016; Anthony G. Basile <blueness@gentoo.org>
+  +files/i2pd-2.9.0-static.patch, -i2pd-2.9.0.ebuild, +i2pd-2.9.0-r1.ebuild:
+  fix static build #591334
+

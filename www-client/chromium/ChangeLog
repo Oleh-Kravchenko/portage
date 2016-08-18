@@ -1371,3 +1371,11 @@
 
   Package-Manager: portage-2.2.28
 
+  17 Aug 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2824.0.ebuild:
+  adjust library deps
+
+  Several system libs are now supported by gn, so move them out of the gn
+  conditional.
+
+  Package-Manager: portage-2.3.0_p16
+

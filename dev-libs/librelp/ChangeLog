@@ -109,3 +109,28 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*librelp-1.2.12 (17 Aug 2016)
+
+  17 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> +librelp-1.2.12.ebuild:
+  Bump to v1.2.12
+
+  Package-Manager: portage-2.3.0
+
+  17 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> -librelp-1.2.9.ebuild:
+  Dropping old version
+
+  Package-Manager: portage-2.3.0
+
+  17 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> librelp-1.2.10.ebuild,
+  librelp-1.2.12.ebuild:
+  arm64 keyword added (#587688)
+
+  Gentoo-Bug: https://bugs.gentoo.org/587688
+
+  Package-Manager: portage-2.3.0
+
+  17 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> metadata.xml:
+  Add myself as maintainer
+
+  Package-Manager: portage-2.3.0
+

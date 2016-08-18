@@ -187,3 +187,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  17 Aug 2016; Pacho Ramos <pacho@gentoo.org> gitg-3.20.1.ebuild:
+  Needs libsoup (#591532 by Konstantin (elxa))
+
+  Package-Manager: portage-2.3.0
+

@@ -95,3 +95,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> qrencode-3.4.4-r1.ebuild:
+  Stable for HPPA (bug #589142).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

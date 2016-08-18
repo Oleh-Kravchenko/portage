@@ -169,3 +169,15 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*dar-2.5.5-r2 (17 Aug 2016)
+
+  17 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> -dar-2.5.5-r1.ebuild,
+  +dar-2.5.5-r2.ebuild:
+  Revbump to fix ebuild problems (bug #591538).
+
+  Renamed "acl" USE flag to "xattr".
+  Thanks to Klaus Kusche for reporting these issues.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

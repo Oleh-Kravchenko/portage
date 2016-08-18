@@ -131,3 +131,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> at-3.1.18-r1.ebuild:
+  Stable for HPPA PPC64 (bug #587798).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

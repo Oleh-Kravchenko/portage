@@ -326,3 +326,9 @@
 
   Package-Manager: portage-2.3.0
 
+*syncthing-0.14.4-r1 (17 Aug 2016)
+
+  17 Aug 2016; Dirkjan Ochtman <djc@gentoo.org> files/strelaysrv.logrotate,
+  -syncthing-0.14.4.ebuild, +syncthing-0.14.4-r1.ebuild:
+  relaysrv logrotate fix
+

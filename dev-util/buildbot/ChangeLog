@@ -188,3 +188,16 @@
 
   Package-Manager: portage-2.3.0
 
+*buildbot-0.9.0_rc1-r2 (17 Aug 2016)
+*buildbot-0.8.12-r3 (17 Aug 2016)
+
+  17 Aug 2016; Brian Dolbec <dolsen@gentoo.org> -buildbot-0.8.12-r2.ebuild,
+  +buildbot-0.8.12-r3.ebuild, -buildbot-0.9.0_rc1-r1.ebuild,
+  +buildbot-0.9.0_rc1-r2.ebuild, files/buildmaster.initd:
+  Use python2 in the buildmaster.initd startup (bug 591150)
+
+  This allows a proper startup if a python3 version is the system default.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Brian Dolbec <dolsen@gentoo.org>
+

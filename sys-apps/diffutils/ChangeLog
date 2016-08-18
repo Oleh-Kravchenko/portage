@@ -112,3 +112,9 @@
 
   Most recent releases are not found on the gnu-alpha mirrors.
 
+  17 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> -diffutils-3.4.ebuild:
+  Removed broken version (bug #591044).
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

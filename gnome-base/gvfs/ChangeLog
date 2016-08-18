@@ -313,3 +313,11 @@
 
   Package-Manager: portage-2.3.0
 
+*gvfs-1.28.3-r1 (17 Aug 2016)
+
+  17 Aug 2016; Pacho Ramos <pacho@gentoo.org> -gvfs-1.28.3.ebuild,
+  +gvfs-1.28.3-r1.ebuild:
+  Restore the old samba behavior allowing from samba-3 (#549576#c13)
+
+  Package-Manager: portage-2.3.0
+

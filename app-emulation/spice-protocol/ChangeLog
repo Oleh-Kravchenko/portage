@@ -213,3 +213,15 @@
 
   Package-Manager: portage-2.2.28
 
+*spice-protocol-0.12.12 (17 Aug 2016)
+
+  17 Aug 2016; Yixun Lan <dlan@gentoo.org> +spice-protocol-0.12.12.ebuild:
+  version bump 0.12.12, EAPI=6
+
+  Package-Manager: portage-2.3.0
+
+  17 Aug 2016; Yixun Lan <dlan@gentoo.org> spice-protocol-9999.ebuild:
+  switch git-r3.eclass and EAPI=6
+
+  Package-Manager: portage-2.3.0
+

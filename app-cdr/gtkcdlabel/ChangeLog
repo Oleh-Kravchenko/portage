@@ -96,3 +96,8 @@
 
   Package-Manager: portage-2.2.28
 
+  17 Aug 2016; Pacho Ramos <pacho@gentoo.org> -gtkcdlabel-1.12.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+

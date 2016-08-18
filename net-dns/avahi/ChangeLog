@@ -217,3 +217,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> avahi-0.6.32.ebuild:
+  Stable for HPPA PPC64 (bug #578838).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

@@ -228,3 +228,22 @@
 
   Package-Manager: portage-2.3.0
 
+*sysstat-11.4.0 (17 Aug 2016)
+
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> +sysstat-11.4.0.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> -sysstat-11.3.5.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+
+*sysstat-11.2.6 (17 Aug 2016)
+
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> +sysstat-11.2.6.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

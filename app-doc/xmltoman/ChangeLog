@@ -99,3 +99,9 @@
   27 Jul 2016; Mike Frysinger <vapier@gentoo.org> xmltoman-0.4.ebuild:
   sourceforge: switch to https:// URIs
 
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> xmltoman-0.4.ebuild:
+  Stable for HPPA PPC64 (bug #578838).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

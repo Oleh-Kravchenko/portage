@@ -1816,3 +1816,34 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-4.7.1 (16 Aug 2016)
+
+  16 Aug 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.7.1.ebuild:
+  Linux patch 4.7.1. Patch to enable control of the unaligned access control
+  policy from sysctl. Thanks to Tobias Klausmann (klausman@gentoo.org). BFQ
+  patches for 4.7.
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-4.6.7 (17 Aug 2016)
+
+  17 Aug 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.6.7.ebuild:
+  Linux patch 4.6.7
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-4.4.18 (17 Aug 2016)
+
+  17 Aug 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.18.ebuild:
+  Linux patch 4.4.18
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-3.14.76 (17 Aug 2016)
+
+  17 Aug 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.76.ebuild:
+  Linux patch 3.14.76
+
+  Package-Manager: portage-2.2.28
+

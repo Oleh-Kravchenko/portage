@@ -437,3 +437,17 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*mysql-5.5.51 (17 Aug 2016)
+
+  17 Aug 2016; Brian Evans <grknight@gentoo.org> +mysql-5.5.51.ebuild:
+  Version bump for 5.5.51
+
+  Package-Manager: portage-2.3.0
+
+*mysql-5.6.32 (17 Aug 2016)
+
+  17 Aug 2016; Brian Evans <grknight@gentoo.org> +mysql-5.6.32.ebuild:
+  Verison bump for 5.6.32
+
+  Package-Manager: portage-2.3.0
+

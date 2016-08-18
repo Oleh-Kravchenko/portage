@@ -116,3 +116,9 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="arm"
 
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> ccid-1.4.24.ebuild:
+  Stable for HPPA (bug #585414).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

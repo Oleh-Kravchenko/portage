@@ -195,3 +195,8 @@
   Package-Manager: portage-2.2.26
   RepoMan-Options: --ignore-arches
 
+  17 Aug 2016; Mike Pagano <mpagano@gentoo.org> metadata.xml:
+  Remove myself as maintainer.
+
+  Package-Manager: portage-2.2.28
+

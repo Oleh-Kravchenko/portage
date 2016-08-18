@@ -229,3 +229,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  17 Aug 2016; Jeroen Roovers <jer@gentoo.org> dbus-1.10.8-r1.ebuild:
+  Stable for HPPA (bug #578946).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
