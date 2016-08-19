@@ -162,3 +162,22 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*remmina-1.2.0_rc15 (18 Aug 2016)
+
+  18 Aug 2016; Yixun Lan <dlan@gentoo.org> metadata.xml,
+  +remmina-1.2.0_rc15.ebuild:
+  bump to version 1.2.0_rc15
+
+  - Change license to GPL-2+
+  - Remove RDEPEND on xorg-server[kdrive] (optional runtime dependency)
+  - Remove 'debug' USE flag (unused)
+  - Remove 'vte' USE flag (now controlled by the 'ssh' USE flag)
+  - Add 'spice' USE flag (support for the SPICE remote-display protocol)
+
+  Gentoo-Bug: 591518
+  Package-Manager: portage-2.3.0
+
+  Closes: https://github.com/gentoo/gentoo/pull/2096
+
+  Signed-off-by: Yixun Lan <dlan@gentoo.org>
+

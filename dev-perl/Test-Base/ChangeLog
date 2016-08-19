@@ -92,3 +92,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Aug 2016; Kent Fredric <kentnl@gentoo.org> Test-Base-0.600.0-r1.ebuild:
+  remove unneeded stable on exp arches
+
+  Keywording note:
+   ~mips ~s390 ~sh ~x86-fbsd still broken via Text-Diff
+
+  Package-Manager: portage-2.3.0
+

@@ -119,3 +119,14 @@
   splashutils-1.5.4.4-r7.ebuild:
   sourceforge: switch to https:// URIs
 
+  18 Aug 2016; Pacho Ramos <pacho@gentoo.org> splashutils-1.5.4.4-r7.ebuild:
+  x86 stable, bug #567524
+
+  Package-Manager: portage-2.3.0
+
+  18 Aug 2016; Pacho Ramos <pacho@gentoo.org> -splashutils-1.5.4.4-r5.ebuild,
+  -splashutils-1.5.4.4-r6.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+

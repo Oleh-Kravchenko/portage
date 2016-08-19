@@ -298,3 +298,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  18 Aug 2016; Christoph Junghans <ottxor@gentoo.org>
+  virtualbox-guest-additions-5.0.20.ebuild:
+  disable pointless gcc check
+
+  Package-Manager: portage-2.2.28
+

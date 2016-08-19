@@ -91,3 +91,10 @@
 
   Package-Manager: portage-2.2.26
 
+  18 Aug 2016; Justin Bronder <jsbronder@gentoo.org> sabnzbd-1.0.3.ebuild:
+  REPLACING_VERSIONS is a list
+
+  Fixes #589500
+
+  Package-Manager: portage-2.2.28
+

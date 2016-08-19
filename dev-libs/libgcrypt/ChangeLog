@@ -469,3 +469,34 @@
 
   Package-Manager: portage-2.3.0
 
+*libgcrypt-1.5.6-r101 (18 Aug 2016)
+
+  18 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  +libgcrypt-1.5.6-r101.ebuild:
+  Security bump of 11/11 slot to 1.5.6
+
+  Package-Manager: portage-2.3.0
+
+  18 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org>
+  -libgcrypt-1.5.4-r101.ebuild:
+  Cleanup vulnerable version in 11/11
+
+  Package-Manager: portage-2.3.0
+
+  18 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> -libgcrypt-1.5.5.ebuild:
+  Remove vulnerable 1.5.5 in 0/11 slot
+
+  This is the final package version in 0/11 slot
+
+  Gentoo-Bug: 567382
+  Gentoo-Bug: 591534
+
+  Package-Manager: portage-2.3.0
+
+  18 Aug 2016; Agostino Sarubbo <ago@gentoo.org> libgcrypt-1.7.3.ebuild:
+  amd64 stable wrt bug #591534
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

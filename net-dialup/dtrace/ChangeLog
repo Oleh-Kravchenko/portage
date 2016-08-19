@@ -76,3 +76,13 @@
 
   Package-Manager: portage-2.2.28
 
+  18 Aug 2016; Pacho Ramos <pacho@gentoo.org> dtrace-2.01-r3.ebuild:
+  Stabilize
+
+  Package-Manager: portage-2.3.0
+
+  18 Aug 2016; Pacho Ramos <pacho@gentoo.org> -dtrace-2.01-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+

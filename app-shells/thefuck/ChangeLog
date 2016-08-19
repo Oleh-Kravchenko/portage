@@ -92,3 +92,10 @@
 
   Package-Manager: portage-2.3.0
 
+*thefuck-3.11 (17 Aug 2016)
+
+  17 Aug 2016; Manuel Rüger <mrueg@gentoo.org> +thefuck-3.11.ebuild:
+  Version bump to 3.11
+
+  Package-Manager: portage-2.3.0
+

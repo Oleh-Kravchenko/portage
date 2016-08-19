@@ -92,3 +92,11 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*libnfs-1.10.0 (18 Aug 2016)
+
+  18 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +libnfs-1.10.0.ebuild:
+  Bump to version 1.10.0
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

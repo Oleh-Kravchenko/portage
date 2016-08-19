@@ -146,3 +146,11 @@
 
   Package-Manager: portage-2.3.0
 
+*ocaml-cstruct-2.3.0 (18 Aug 2016)
+
+  18 Aug 2016; Alexis Ballier <aballier@gentoo.org>
+  +ocaml-cstruct-2.3.0.ebuild:
+  bump to 2.3.0
+
+  Package-Manager: portage-2.3.0
+

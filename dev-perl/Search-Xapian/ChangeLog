@@ -179,3 +179,9 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Aug 2016; Anthony G. Basile <blueness@gentoo.org>
+  Search-Xapian-1.2.23.0.ebuild:
+  stabe on ppc64, bug #581854
+
+  Package-Manager: portage-2.2.28
+

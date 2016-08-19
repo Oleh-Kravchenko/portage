@@ -79,3 +79,17 @@
 
   Package-Manager: portage-2.3.0
 
+  18 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  libsignon-glib-1.13-r1.ebuild:
+  amd64/x86 stable
+
+  Gentoo-bug: 590488
+
+  Package-Manager: portage-2.3.0
+
+  18 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  -libsignon-glib-1.13.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

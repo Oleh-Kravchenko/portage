@@ -140,3 +140,12 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  18 Aug 2016; Kent Fredric <kentnl@gentoo.org>
+  Params-Validate-1.70.0-r1.ebuild:
+  Remove unneeded stable bits on exp arches
+
+  Keyword note:
+  ~m68k still broken by virtual/perl-XSLoader
+
+  Package-Manager: portage-2.3.0
+

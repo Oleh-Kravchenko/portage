@@ -91,3 +91,15 @@
 
   Package-Manager: portage-2.2.28
 
+*dvd+rw-tools-7.1-r3 (18 Aug 2016)
+
+  18 Aug 2016; Pacho Ramos <pacho@gentoo.org> +dvd+rw-tools-7.1-r3.ebuild,
+  +files/dvd+rw-tools-7.0-reload.patch,
+  +files/dvd+rw-tools-7.1-bluray_pow_freespace.patch,
+  +files/dvd+rw-tools-7.1-bluray_srm+pow.patch,
+  +files/dvd+rw-tools-7.1-lastshort.patch,
+  +files/dvd+rw-tools-7.1-noevent.patch:
+  Apply more Fedora patches fixing more bugs (#230648 also)
+
+  Package-Manager: portage-2.3.0
+

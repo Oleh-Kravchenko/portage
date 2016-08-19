@@ -175,3 +175,11 @@
 
   Package-Manager: portage-2.2.28
 
+*haproxy-1.6.8 (18 Aug 2016)
+
+  18 Aug 2016; Christian Ruppert <idl0r@gentoo.org> -haproxy-1.6.7.ebuild,
+  +haproxy-1.6.8.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

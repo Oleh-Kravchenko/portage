@@ -25,3 +25,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  18 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> pamix-9999.ebuild:
+  Prepare live ebuild for next release.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

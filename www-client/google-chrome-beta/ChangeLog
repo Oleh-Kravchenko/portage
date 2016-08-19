@@ -579,3 +579,12 @@
 
   Package-Manager: portage-2.3.0_p16
 
+*google-chrome-beta-53.0.2785.70 (18 Aug 2016)
+
+  18 Aug 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-beta-53.0.2785.57.ebuild,
+  +google-chrome-beta-53.0.2785.70.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_p16
+

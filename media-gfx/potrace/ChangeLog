@@ -103,3 +103,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  18 Aug 2016; Markus Meier <maekke@gentoo.org> potrace-1.13.ebuild:
+  arm stable, bug #564874
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

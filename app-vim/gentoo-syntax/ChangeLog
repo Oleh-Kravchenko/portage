@@ -109,3 +109,11 @@
 
   Also, minor trimming of DESCRIPTION.
 
+  18 Aug 2016; Tim Harder <radhermit@gentoo.org>
+  gentoo-syntax-20160530.ebuild:
+  stabilize 20160530
+
+  18 Aug 2016; Tim Harder <radhermit@gentoo.org>
+  -gentoo-syntax-20150823.ebuild:
+  remove old
+

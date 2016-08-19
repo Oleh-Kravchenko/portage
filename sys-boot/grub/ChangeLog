@@ -370,3 +370,24 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  18 Aug 2016; Mike Gilbert <floppym@gentoo.org> grub-2.02_beta2-r9.ebuild,
+  grub-2.02_beta3-r1.ebuild, grub-9999.ebuild:
+  block sys-boot/grub-static when multislot is disabled
+
+  Bug: https://bugs.gentoo.org/591574
+
+  Package-Manager: portage-2.3.0_p16
+
+  18 Aug 2016; Mike Gilbert <floppym@gentoo.org> grub-0.97-r16.ebuild,
+  grub-0.97-r17.ebuild:
+  block sys-boot/grub:2[-multislot]
+
+  Bug: https://bugs.gentoo.org/591574
+
+  Package-Manager: portage-2.3.0_p16
+
+  18 Aug 2016; Mike Gilbert <floppym@gentoo.org> -grub-2.02_beta2-r8.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_p16
+

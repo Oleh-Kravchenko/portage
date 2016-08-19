@@ -17,3 +17,9 @@
 
   Package-Manager: portage-2.2.28
 
+  18 Aug 2016; Markus Meier <maekke@gentoo.org> ruby_dep-1.4.0.ebuild:
+  add ~arm, bug #589798
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

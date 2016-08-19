@@ -607,3 +607,18 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*mariadb-5.5.51 (18 Aug 2016)
+
+  18 Aug 2016; Brian Evans <grknight@gentoo.org> +mariadb-5.5.51.ebuild:
+  Version bump for 5.5.51
+
+  Package-Manager: portage-2.3.0
+
+*mariadb-10.2.1_alpha (18 Aug 2016)
+
+  18 Aug 2016; Brian Evans <grknight@gentoo.org> +mariadb-10.2.1_alpha.ebuild,
+  metadata.xml:
+  Version bump the new alpha masked
+
+  Package-Manager: portage-2.3.0
+

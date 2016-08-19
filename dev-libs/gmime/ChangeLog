@@ -106,3 +106,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  18 Aug 2016; Pacho Ramos <pacho@gentoo.org> -gmime-2.6.20-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+
