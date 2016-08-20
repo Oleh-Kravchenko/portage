@@ -151,3 +151,19 @@
   particular bug assignment/CC to ensure that the requested assignee
   always goes first, in order to match the bug wrangling policies.
 
+  19 Aug 2016; Ultrabug <ultrabug@gentoo.org> -pymongo-2.9.ebuild,
+  pymongo-2.9.3.ebuild:
+  fix 2.9 doc generation fixes #568514
+
+  Package-Manager: portage-2.2.27
+
+*pymongo-3.3.0 (19 Aug 2016)
+*pymongo-3.1.1 (19 Aug 2016)
+
+  19 Aug 2016; Ultrabug <ultrabug@gentoo.org> -pymongo-3.1.ebuild,
+  +pymongo-3.1.1.ebuild, -pymongo-3.2.ebuild, -pymongo-3.2.1.ebuild,
+  +pymongo-3.3.0.ebuild:
+  ebuild cleanup and version bump
+
+  Package-Manager: portage-2.2.27
+

@@ -60,3 +60,8 @@
   04 Jun 2016; Mike Frysinger <vapier@gentoo.org> atool-0.39.0.ebuild:
   savannah: switch to https URLs
 
+  19 Aug 2016; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup due to bug #143241
+
+  Package-Manager: portage-2.3.0
+

@@ -120,3 +120,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  19 Aug 2016; Brian Evans <grknight@gentoo.org> pecl-redis-3.0.0.ebuild:
+  Add unit tests
+
+  Package-Manager: portage-2.3.0
+

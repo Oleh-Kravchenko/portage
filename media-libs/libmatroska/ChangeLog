@@ -131,3 +131,8 @@
   -libmatroska-1.4.1.ebuild, -libmatroska-1.4.2.ebuild:
   cleanup vulnerable versions per security bug #564426
 
+*libmatroska-1.4.5 (19 Aug 2016)
+
+  19 Aug 2016; Tim Harder <radhermit@gentoo.org> +libmatroska-1.4.5.ebuild:
+  version bump to 1.4.5
+

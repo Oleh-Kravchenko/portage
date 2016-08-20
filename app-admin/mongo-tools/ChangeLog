@@ -168,3 +168,10 @@
 
   Package-Manager: portage-2.2.27
 
+*mongo-tools-3.2.9 (19 Aug 2016)
+
+  19 Aug 2016; Ultrabug <ultrabug@gentoo.org> +mongo-tools-3.2.9.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.27
+

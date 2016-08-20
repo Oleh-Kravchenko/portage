@@ -235,3 +235,21 @@
 
   Package-Manager: portage-2.2.28
 
+  19 Aug 2016; Matthias Maier <tamiko@gentoo.org> paraview-5.1.0-r1.ebuild:
+  add missing dependency on dev-qt/qttest:5, bug #591228
+
+  Thanks to Thomas Haschka
+
+  Package-Manager: portage-2.2.28
+
+*paraview-5.1.2 (19 Aug 2016)
+
+  19 Aug 2016; Matthias Maier <tamiko@gentoo.org> +paraview-5.1.2.ebuild:
+  ver bump, enable openmp support, bug #590746
+
+  - version bump to 5.1.0
+  - add USE=openmp to control openmp support
+  - switch to OpenGL2 rendering engine.
+
+  Package-Manager: portage-2.2.28
+

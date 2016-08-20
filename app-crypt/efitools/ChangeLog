@@ -84,3 +84,11 @@
   26 Jun 2016; Michał Górny <mgorny@gentoo.org> efitools-1.7.0.ebuild:
   Use snapshot for building, #585714
 
+  19 Aug 2016; Pacho Ramos <pacho@gentoo.org> -efitools-1.4.1.ebuild,
+  -efitools-1.4.1-r1.ebuild, -efitools-1.4.1-r2.ebuild,
+  -efitools-1.4.2.ebuild, -efitools-1.4.2-r1.ebuild, -files/xxdi.patch,
+  metadata.xml:
+  Cleanup due to bug #42273
+
+  Package-Manager: portage-2.3.0
+

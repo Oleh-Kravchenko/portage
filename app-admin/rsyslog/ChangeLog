@@ -340,3 +340,8 @@
 
   Package-Manager: portage-2.3.0
 
+  19 Aug 2016; Ultrabug <ultrabug@gentoo.org> metadata.xml:
+  drop myself from maintainer
+
+  Package-Manager: portage-2.2.27
+

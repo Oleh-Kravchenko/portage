@@ -287,3 +287,24 @@
 
   Package-Manager: portage-2.2.27
 
+*mongodb-3.2.9 (19 Aug 2016)
+
+  19 Aug 2016; Ultrabug <ultrabug@gentoo.org> mongodb-2.6.12.ebuild,
+  +mongodb-3.2.9.ebuild:
+  version bump and copyright fix
+
+  Package-Manager: portage-2.2.27
+
+  19 Aug 2016; Ultrabug <ultrabug@gentoo.org> mongodb-2.6.8.ebuild,
+  mongodb-2.6.11.ebuild, mongodb-2.6.12.ebuild, mongodb-3.0.10.ebuild,
+  mongodb-3.0.12.ebuild, mongodb-3.2.8.ebuild:
+  fix REPLACING_VERSION detection #589458
+
+  Package-Manager: portage-2.2.27
+
+  19 Aug 2016; Ultrabug <ultrabug@gentoo.org> -mongodb-2.6.11.ebuild,
+  -mongodb-3.0.10.ebuild:
+  drop old ebuilds
+
+  Package-Manager: portage-2.2.27
+
