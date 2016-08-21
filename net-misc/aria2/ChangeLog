@@ -123,3 +123,8 @@
   15 Jul 2016; Michał Górny <mgorny@gentoo.org> +aria2-1.25.0.ebuild:
   Bump to 1.25.0 (bugfix release)
 
+*aria2-1.26.0 (20 Aug 2016)
+
+  20 Aug 2016; Michał Górny <mgorny@gentoo.org> +aria2-1.26.0.ebuild:
+  Bump to 1.26.0
+

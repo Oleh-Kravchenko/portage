@@ -31,3 +31,9 @@
 
   Package-Manager: portage-2.3.0
 
+  20 Aug 2016; Matthias Maier <tamiko@gentoo.org>
+  riakc-2.1.1_p20151111.ebuild:
+  stabilize 2.1.1_p20151111 on amd64/x86, bug #587908
+
+  Package-Manager: portage-2.2.28
+

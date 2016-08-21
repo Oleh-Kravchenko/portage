@@ -1847,3 +1847,47 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-3.14.77 (20 Aug 2016)
+
+  20 Aug 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.77.ebuild:
+  Linux patch 3.14.77
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-4.4.19 (20 Aug 2016)
+
+  20 Aug 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.19.ebuild:
+  Linux patch 4.4.19
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-4.7.2 (20 Aug 2016)
+
+  20 Aug 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.7.2.ebuild:
+  Linux patch 4.7.2
+
+  Package-Manager: portage-2.2.28
+
+  20 Aug 2016; Mike Pagano <mpagano@gentoo.org> -gentoo-sources-4.4.12.ebuild,
+  -gentoo-sources-4.4.13.ebuild, -gentoo-sources-4.4.14.ebuild,
+  -gentoo-sources-4.4.15.ebuild, -gentoo-sources-4.4.16.ebuild,
+  -gentoo-sources-4.4.17.ebuild, -gentoo-sources-4.4.18.ebuild:
+  Remove old, unsupported versions.
+
+  Package-Manager: portage-2.2.28
+
+  20 Aug 2016; Mike Pagano <mpagano@gentoo.org> -gentoo-sources-4.4.6.ebuild,
+  -gentoo-sources-4.6.3.ebuild, -gentoo-sources-4.6.4.ebuild,
+  -gentoo-sources-4.6.5.ebuild, -gentoo-sources-4.6.6.ebuild,
+  -gentoo-sources-4.6.6-r1.ebuild, -gentoo-sources-4.6.7.ebuild:
+  Remove old, unsupported versions.
+
+  Package-Manager: portage-2.2.28
+
+  20 Aug 2016; Mike Pagano <mpagano@gentoo.org> -gentoo-sources-4.7.0.ebuild,
+  -gentoo-sources-4.7.1.ebuild:
+  Remove old, unsupported versions.
+
+  Package-Manager: portage-2.2.28
+

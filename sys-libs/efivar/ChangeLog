@@ -157,3 +157,8 @@
 
   Package-Manager: portage-2.3.0_p16
 
+  20 Aug 2016; Mike Gilbert <floppym@gentoo.org> efivar-27.ebuild:
+  disable -Werror
+
+  Package-Manager: portage-2.3.0_p16
+

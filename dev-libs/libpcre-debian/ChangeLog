@@ -12,3 +12,11 @@
 
   Package-Manager: portage-2.3.0
 
+*libpcre-debian-8-r1 (20 Aug 2016)
+
+  20 Aug 2016; James Le Cuirot <chewi@gentoo.org> -libpcre-debian-8.ebuild,
+  +libpcre-debian-8-r1.ebuild:
+  Add libpcreposix.so.3 symlink
+
+  Package-Manager: portage-2.3.0
+

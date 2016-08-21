@@ -73,3 +73,9 @@
 
   Package-Manager: portage-2.2.28
 
+  20 Aug 2016; Johann Schmitz <ercpe@gentoo.org>
+  requests-oauthlib-0.6.2.ebuild:
+  Added Python 3.5 support wrt #591426
+
+  Package-Manager: portage-2.2.28
+

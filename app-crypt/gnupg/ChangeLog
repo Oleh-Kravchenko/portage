@@ -420,3 +420,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*gnupg-2.1.15 (19 Aug 2016)
+
+  19 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> +gnupg-2.1.15.ebuild:
+  Version bump to 2.1.15
+
+  Package-Manager: portage-2.3.0
+

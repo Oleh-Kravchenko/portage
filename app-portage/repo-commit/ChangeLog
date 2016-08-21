@@ -78,3 +78,8 @@
 
   Package-Manager: portage-2.3.0
 
+  20 Aug 2016; Nathan Phillip Brink <binki@gentoo.org> metadata.xml:
+  Take repo-commit.
+
+  Package-Manager: portage-2.2.28
+

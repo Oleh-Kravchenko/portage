@@ -13,3 +13,10 @@
   01 May 2016; Ulrich Müller <ulm@gentoo.org> metadata.xml:
   app-emacs/revive and dependencies: Update maintainer description.
 
+  20 Aug 2016; Patrice Clement <monsieurp@gentoo.org> windows-2.49.ebuild:
+  cosmetic fix.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2092
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

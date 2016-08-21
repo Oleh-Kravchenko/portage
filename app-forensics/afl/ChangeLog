@@ -95,3 +95,10 @@
 
   Package-Manager: portage-2.3.0
 
+*afl-2.32b (20 Aug 2016)
+
+  20 Aug 2016; Hanno <hanno@gentoo.org> +afl-2.32b.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

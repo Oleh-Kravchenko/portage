@@ -128,3 +128,13 @@
 
   Package-Manager: portage-2.3.0
 
+  20 Aug 2016; Matthias Maier <tamiko@gentoo.org> rebar-2.6.1.ebuild:
+  stabilize 2.6.1 on amd64/x86, bug #587914
+
+  Package-Manager: portage-2.2.28
+
+  20 Aug 2016; Anthony G. Basile <blueness@gentoo.org> rebar-2.6.1.ebuild:
+  stabilize 2.6.1 on ppc, bug #587914
+
+  Package-Manager: portage-2.2.28
+

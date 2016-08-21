@@ -219,3 +219,8 @@
 
   Package-Manager: portage-2.3.0
 
+  20 Aug 2016; Matthias Maier <tamiko@gentoo.org> ejabberd-16.04.ebuild:
+  stabilize 16.04 on amd64/x86, bug #576398
+
+  Package-Manager: portage-2.2.28
+

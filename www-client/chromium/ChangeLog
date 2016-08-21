@@ -1387,3 +1387,12 @@
 
   Package-Manager: portage-2.3.0_p16
 
+*chromium-54.0.2832.2 (20 Aug 2016)
+
+  20 Aug 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-54.0.2810.2.ebuild, +chromium-54.0.2832.2.ebuild,
+  +files/chromium-system-jinja-r13.patch:
+  dev channel bump (54.0.2832.2)
+
+  Package-Manager: portage-2.2.28
+

@@ -22,3 +22,13 @@
   ~ia64 ~sparc keywords. These had to be removed temporarily until
   dev-util/rebar has these keywords.
 
+  20 Aug 2016; Matthias Maier <tamiko@gentoo.org> meck-0.8.3.ebuild:
+  stabilize 0.8.3 on amd64/x86, bug #587908
+
+  Package-Manager: portage-2.2.28
+
+  20 Aug 2016; Anthony G. Basile <blueness@gentoo.org> meck-0.8.3.ebuild:
+  stabilize 0.8.3 on ppc, bug #587908
+
+  Package-Manager: portage-2.2.28
+

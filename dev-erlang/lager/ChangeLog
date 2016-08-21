@@ -26,3 +26,8 @@
   ~ia64 ~sparc keywords. These had to be removed temporarily until
   dev-util/rebar has these keywords.
 
+  20 Aug 2016; Matthias Maier <tamiko@gentoo.org> lager-3.2.0.ebuild:
+  stabilize 3.2.0 on amd64/x86, bug #587908
+
+  Package-Manager: portage-2.2.28
+
