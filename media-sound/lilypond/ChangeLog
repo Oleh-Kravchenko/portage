@@ -164,3 +164,6 @@
   lilypond-2.19.46.ebuild:
   keyword ~arm (bug #565880)
 
+  20 Aug 2016; Tim Harder <radhermit@gentoo.org> lilypond-9999.ebuild:
+  sync keywords to live ebuild
+

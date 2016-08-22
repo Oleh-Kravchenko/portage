@@ -135,3 +135,12 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*xcffib-0.4.2 (21 Aug 2016)
+
+  21 Aug 2016; Tim Harder <radhermit@gentoo.org>
+  +files/xcffib-0.4.2-test-imports.patch, +xcffib-0.4.2.ebuild:
+  version bump to 0.4.2
+
+  21 Aug 2016; Tim Harder <radhermit@gentoo.org> -xcffib-0.3.4.ebuild:
+  remove old
+

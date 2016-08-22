@@ -173,3 +173,9 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Aug 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  gst-plugins-ximagesrc-1.8.2.ebuild:
+  fix a typo in gst-plugins-base dependency
+
+  Package-Manager: portage-2.3.0
+

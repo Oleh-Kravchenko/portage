@@ -674,3 +674,15 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Aug 2016; Luca Barbato <lu_zero@gentoo.org> qemu-9999.ebuild:
+  Update the languages list
+
+  Package-Manager: portage-2.3.0
+
+  21 Aug 2016; Luca Barbato <lu_zero@gentoo.org> qemu-9999.ebuild:
+  Drop a patch
+
+  It is already upstreamed.
+
+  Package-Manager: portage-2.3.0
+

@@ -37,3 +37,9 @@
 
   Package-Manager: portage-2.2.28
 
+  20 Aug 2016; Anthony G. Basile <blueness@gentoo.org>
+  riakc-2.1.1_p20151111.ebuild:
+  stabilize 2.1.1_p20151111 on ppc, bug #587908
+
+  Package-Manager: portage-2.2.28
+

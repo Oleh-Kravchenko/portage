@@ -92,3 +92,10 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Aug 2016; Pacho Ramos <pacho@gentoo.org>
+  -files/yaz-4.2.30-icu-automagic.patch, -yaz-4.2.30.ebuild,
+  -yaz-4.2.51.ebuild:
+  drop hard masked versions (#587144)
+
+  Package-Manager: portage-2.3.0
+

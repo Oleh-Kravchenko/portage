@@ -1396,3 +1396,40 @@
 
   Package-Manager: portage-2.2.28
 
+  20 Aug 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2832.2.ebuild:
+  simplify CHROMIUM_HOME
+
+  We no longer have a "live" slot, so this code is unnecessary.
+
+  20 Aug 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2832.2.ebuild:
+  rearrange dependencies
+
+  Using COMMON_DEPEND improves readability.
+
+  20 Aug 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2832.2.ebuild:
+  simplify gcc version check
+
+  20 Aug 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2832.2.ebuild:
+  use a bash array for bundled libs
+
+  This looks much cleaner and is less error-prone since we do not need
+  to escape line breaks.
+
+  20 Aug 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2832.2.ebuild:
+  use tc-is-clang
+
+  20 Aug 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2832.2.ebuild:
+  check MERGE_TYPE before gcc version
+
+  21 Aug 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  chromium-54.0.2832.2.ebuild:
+  depend on >=ffmpeg-3.0.1 (bug #591722)
+
+  Package-Manager: portage-2.2.28
+
+  21 Aug 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  chromium-54.0.2832.2.ebuild:
+  build with system re2 (bug #571156)
+
+  Package-Manager: portage-2.2.28
+

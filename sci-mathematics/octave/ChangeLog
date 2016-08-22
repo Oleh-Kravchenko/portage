@@ -213,3 +213,17 @@
 
   Package-Manager: portage-2.3.0
 
+*octave-4.0.3 (21 Aug 2016)
+
+  21 Aug 2016; David Seifert <soap@gentoo.org> files/octave-3.4.3-texi.patch,
+  files/octave-3.8.1-pkgbuilddir.patch, +files/octave-4.0.3-imagemagick.patch,
+  +files/octave-4.0.3-ncurses-pkgconfig.patch, +octave-4.0.3.ebuild:
+  version bump
+
+  Gentoo-bug: 590676, 590792
+  * EAPI=6
+  * Make patches -p1 compliant
+  * Use pkg-config for finding curses flags
+
+  Package-Manager: portage-2.3.0
+

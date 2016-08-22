@@ -347,3 +347,12 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Aug 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  gst-plugins-bad-1.8.2.ebuild:
+  fix a typo in glib dependency
+
+  Not a big problem since gstreamer and gst-plugins-base do depend on this
+  version anyway but fixing for correctness.
+
+  Package-Manager: portage-2.3.0
+

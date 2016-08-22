@@ -27,3 +27,8 @@
 
   Package-Manager: portage-2.2.28
 
+  20 Aug 2016; Anthony G. Basile <blueness@gentoo.org> fast_yaml-1.0.3.ebuild:
+  stabilize 1.0.3 on ppc, bug #587908
+
+  Package-Manager: portage-2.2.28
+

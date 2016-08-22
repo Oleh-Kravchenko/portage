@@ -148,3 +148,11 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+*gst-plugins-meta-1.8.2 (21 Aug 2016)
+
+  21 Aug 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gst-plugins-meta-1.8.2.ebuild:
+  bump to 1.8.2
+
+  Package-Manager: portage-2.3.0
+

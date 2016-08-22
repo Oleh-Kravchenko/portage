@@ -724,3 +724,24 @@
   16 Aug 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Transfer maintenance to LLVM project
 
+  21 Aug 2016; Michał Górny <mgorny@gentoo.org>
+  +files/llvm-3.8-llvm-config-r1.patch, files/llvm-3.9-llvm-config.patch,
+  llvm-3.8.1-r1.ebuild:
+  Improve llvm-config upstream compatibility, #591690
+
+  Improve the llvm-config installed by 3.8.1-r1 (masked) and the live
+  ebuild to match upstream behavior better, and be more compatible with
+  packages. Restore --obj-root to return prefix on installed package, and
+  make --src-root return invalid /dev/null path instead of failing.
+
+  Bug: https://bugs.gentoo.org/591690
+
+  21 Aug 2016; Michał Górny <mgorny@gentoo.org> llvm-3.8.1-r1.ebuild:
+  Reduce keywords on 3.8.1-r1 to match sys-libs/libcxx
+
+*llvm-3.8.1-r2 (21 Aug 2016)
+
+  21 Aug 2016; Michał Górny <mgorny@gentoo.org> -llvm-3.8.1-r1.ebuild,
+  +llvm-3.8.1-r2.ebuild:
+  Revbump and unleash 3.8.1-r1
+

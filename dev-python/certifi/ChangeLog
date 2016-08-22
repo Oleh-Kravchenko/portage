@@ -200,3 +200,8 @@
 
   Package-Manager: portage-2.2.26
 
+*certifi-2016.8.8 (21 Aug 2016)
+
+  21 Aug 2016; Tim Harder <radhermit@gentoo.org> +certifi-2016.8.8.ebuild:
+  version bump to 2016.8.8
+

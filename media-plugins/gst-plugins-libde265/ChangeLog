@@ -54,3 +54,11 @@
 
   Package-Manager: portage-2.3.0
 
+*gst-plugins-libde265-1.8.2 (21 Aug 2016)
+
+  21 Aug 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gst-plugins-libde265-1.8.2.ebuild:
+  add missing 1.8 version bump
+
+  Package-Manager: portage-2.3.0
+

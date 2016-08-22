@@ -79,3 +79,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  21 Aug 2016; Pacho Ramos <pacho@gentoo.org> -glade-3.8.5.ebuild:
+  drop old (#575216)
+
+  Package-Manager: portage-2.3.0
+

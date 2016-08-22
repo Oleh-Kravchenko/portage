@@ -122,3 +122,8 @@
   19 Aug 2016; Tim Harder <radhermit@gentoo.org> +cdk-5.0.20150928.ebuild:
   version bump to 5.0.20150928
 
+*cdk-5.0.20160131 (20 Aug 2016)
+
+  20 Aug 2016; Tim Harder <radhermit@gentoo.org> +cdk-5.0.20160131.ebuild:
+  version bump to 5.0.20160131
+

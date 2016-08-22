@@ -118,3 +118,10 @@
 
   Package-Manager: portage-2.3.0
 
+*highlight-3.31 (21 Aug 2016)
+
+  21 Aug 2016; Alexis Ballier <aballier@gentoo.org> +highlight-3.31.ebuild:
+  bump to 3.31
+
+  Package-Manager: portage-2.3.0
+

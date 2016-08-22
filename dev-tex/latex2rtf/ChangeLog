@@ -67,3 +67,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  21 Aug 2016; Pacho Ramos <pacho@gentoo.org> -latex2rtf-2.3.1.ebuild,
+  -latex2rtf-2.3.3.ebuild:
+  drop old
+
+  Package-Manager: portage-2.3.0
+
+*latex2rtf-2.3.11 (21 Aug 2016)
+
+  21 Aug 2016; Pacho Ramos <pacho@gentoo.org> +latex2rtf-2.3.11.ebuild:
+  Version bump (security bug #566032)
+
+  Package-Manager: portage-2.3.0
+
