@@ -745,3 +745,93 @@
   +llvm-3.8.1-r2.ebuild:
   Revbump and unleash 3.8.1-r1
 
+  22 Aug 2016; Michał Górny <mgorny@gentoo.org>
+  +files/9999/0009-cmake-Use-system-llvm-lit-when-lit.py-does-not-exist.patch,
+  +files/9999/0010-lit-setup.py-Install-as-llvm-lit-as-cmake-expects-it.patch,
+  -files/cmake/compiler-rt-3.9-cmake-Install-compiler-rt-into-usr-lib-without-
+  suffi.patch, llvm-9999.ebuild:
+  Strip external projects off the live ebuild
+
+  22 Aug 2016; Michał Górny <mgorny@gentoo.org>
+  +files/3.5.0/fix_LLVMExports_cmake.patch,
+  +files/3.5.2/clang/gentoo-install.patch, +files/3.5.2/gcc-5.1.patch,
+  +files/3.5.2/gentoo-install.patch, +files/3.6.2/clang/fbsd-gcc49.patch,
+  +files/3.6.2/gcc-4.9.patch, +files/3.6.2/gentoo-install.patch,
+  +files/3.6.2/nodoctargz.patch, +files/3.6.2/ocaml-ctypes-0.4.0.patch, +files
+  /3.7.1/clang/0001-Install-clang-runtime-into-usr-lib-without-suffix.patch,
+  +files/3.7.1/clang/ccc-analyzer-isystem.patch,
+  +files/3.7.1/clang/gentoo-install.patch,
+  +files/3.7.1/compiler-rt/arm_march_flags.patch,
+  +files/3.7.1/compiler-rt/msan-fix.patch, +files/3.7.1/lldb/python.patch,
+  +files/3.7.1/lldb/tinfo.patch, +files/3.7.1/llvm-config-0.patch,
+  +files/3.7.1/llvm-config-1.patch, +files/3.7.1/llvm-config-2.patch,
+  +files/3.7.1/llvm-config-3.patch, +files/3.7.1/msan-fix.patch, +files/3.8.1/
+  clang/0001-Install-clang-runtime-into-usr-lib-without-suffix.patch,
+  +files/3.8.1/clang/0002-cmake-Make-CLANG_LIBDIR_SUFFIX-overridable.patch,
+  +files/3.8.1/clang/abi-tag-support-mangler.patch,
+  +files/3.8.1/clang/abi-tag-support-sema.patch,
+  +files/3.8.1/clang/darwin_prefix-include-paths.patch,
+  +files/3.8.1/clang/default-libs.patch,
+  +files/3.8.1/clang/gcc4.9-search-path.patch,
+  +files/3.8.1/clang/gentoo-runtime-gcc-detection-v3.patch,
+  +files/3.8.1/clang/musl-support.patch, +files/3.8.1/compiler-rt/0001-cmake-I
+  nstall-compiler-rt-into-usr-lib-without-suffi.patch,
+  +files/3.8.1/compiler-rt/arm_march_flags.patch,
+  +files/3.8.1/compiler-rt/fbsd.patch, +files/3.8.1/lldb/six.patch,
+  +files/3.8.1/llvm-config-r1.patch, +files/3.8.1/llvm-config.patch,
+  +files/3.8.1/musl-env-support.patch,
+  +files/9999/0001-cmake-Install-OCaml-modules-into-correct-package-loc.patch,
+  +files/9999/0002-cmake-Make-OCaml-docs-dependent-on-LLVM_BUILD_DOCS.patch,
+  +files/9999/0003-cmake-Support-overriding-Sphinx-HTML-doc-install-dir.patch,
+  +files/9999/0004-cmake-Add-an-ordering-dep-between-HTML-man-Sphinx-ta.patch,
+  +files/9999/0005-cmake-Do-not-install-libgtest.patch,
+  +files/9999/0006-cmake-Remove-the-CMAKE_BUILD_TYPE-assertion.patch,
+  +files/9999/0007-llvm-config-Clean-up-exported-values-update-for-shar.patch,
+  +files/9999/0008-cmake-Restore-SOVERSIONs-on-shared-libraries.patch,
+  +files/9999/musl-fixes.patch,
+  -files/clang-3.4-darwin_prefix-include-paths.patch,
+  -files/clang-3.5-gentoo-install.patch,
+  -files/clang-3.5-gentoo-runtime-gcc-detection-v3.patch,
+  -files/clang-3.6-fbsd-gcc49.patch, -files/clang-3.6-gentoo-install.patch,
+  -files/clang-3.7.1-ccc-analyzer-isystem.patch,
+  -files/clang-3.8-abi-tag-support-mangler.patch,
+  -files/clang-3.8-abi-tag-support-sema.patch,
+  -files/clang-3.8-compiler-rt-fbsd.patch,
+  -files/clang-3.8-default-libs.patch,
+  -files/clang-3.8-gcc4.9-search-path.patch,
+  -files/clang-3.8-musl-support.patch, -files/cmake/0002-cmake-Support-overrid
+  ing-Sphinx-HTML-doc-install-dir.patch, -files/cmake/0003-cmake-Add-an-orderi
+  ng-dep-between-HTML-man-Sphinx-ta.patch,
+  -files/cmake/0004-cmake-Do-not-install-libgtest.patch, -files/cmake/clang-00
+  01-Install-clang-runtime-into-usr-lib-without-suffix-3.8.patch, -files/cmake
+  /clang-0001-Install-clang-runtime-into-usr-lib-without-suffix.patch,
+  -files/cmake/clang-0002-cmake-Make-CLANG_LIBDIR_SUFFIX-overridable.patch, -f
+  iles/cmake/compiler-rt-0001-cmake-Install-compiler-rt-into-usr-lib-without-s
+  uffi.patch, -files/cmake/llvm-3.7.0-compiler_rt_arm_march_flags.patch,
+  -files/cmake/llvm-3.7.0-lldb_tinfo.patch,
+  -files/cmake/llvm-3.7.0-ocaml-build_doc.patch,
+  -files/cmake/llvm-3.7.0-ocaml-multilib.patch,
+  -files/cmake/llvm-3.8-allow_custom_cmake_build_types.patch,
+  -files/cmake/llvm-3.8.0-compiler_rt_arm_march_flags.patch,
+  -files/compiler-rt-3.7-msan-fix.patch, -files/llvm-3.2-nodoctargz.patch,
+  -files/llvm-3.5-gcc-4.9.patch, -files/llvm-3.5-gentoo-install.patch,
+  -files/llvm-3.5.0-fix_LLVMExports_cmake.patch,
+  -files/llvm-3.5.2-gcc-5.1.patch, -files/llvm-3.6-gentoo-install.patch,
+  -files/llvm-3.6.0-ocaml-ctypes-0.4.0.patch,
+  -files/llvm-3.7-lldb_python.patch, -files/llvm-3.7-msan-fix.patch,
+  -files/llvm-3.7.1-llvm-config-0.patch,
+  -files/llvm-3.7.1-llvm-config-1.patch,
+  -files/llvm-3.7.1-llvm-config-2.patch,
+  -files/llvm-3.7.1-llvm-config-3.patch, -files/llvm-3.8-lldb_six.patch,
+  -files/llvm-3.8-llvm-config-r1.patch, -files/llvm-3.8-llvm-config.patch,
+  -files/llvm-3.8-musl-fixes.patch, -files/llvm-3.8-musl-support.patch,
+  -files/llvm-3.8-soversion.patch, -files/llvm-3.9-llvm-config.patch,
+  llvm-3.5.0.ebuild, llvm-3.5.2.ebuild, llvm-3.6.2.ebuild,
+  llvm-3.7.1-r3.ebuild, llvm-3.8.0-r3.ebuild, llvm-3.8.1.ebuild,
+  llvm-3.8.1-r2.ebuild, llvm-9999.ebuild:
+  Group all patches by newest version applicable
+
+  22 Aug 2016; Michał Górny <mgorny@gentoo.org>
+  -files/llvm-3.7-llvm-config.patch:
+  Remove unused patch
+

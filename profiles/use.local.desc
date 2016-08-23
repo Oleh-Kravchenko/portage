@@ -7554,6 +7554,8 @@ sys-devel/binutils-apple:libcxx - Add support for libcxx
 sys-devel/binutils-apple:lto - Add support for Link-Time Optimization with LLVM
 sys-devel/binutils-apple:multitarget - Compile for non-standard target architectures (ppc and ppc64) -- experimental, Gentoo only
 sys-devel/binutils-hppa64:multitarget - Adds support to binutils for cross compiling (does not work with gas)
+sys-devel/clang:default-compiler-rt - Use compiler-rt instead of libgcc as the default rtlib for clang
+sys-devel/clang:default-libcxx - Use libc++ instead of libstdc++ as the default stdlib for clang
 sys-devel/clang:multitarget - Build all host targets (default: host only)
 sys-devel/clang:static-analyzer - Install the Clang static analyzer
 sys-devel/distcc:crossdev - Enable support for sys-devel/crossdev
@@ -7775,6 +7777,7 @@ sys-kernel/spl:debug-log - Enable additional diagnostics
 sys-kernel/tuxonice-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
 sys-libs/binutils-libs:64-bit-bfd - Support 64-bit targets even on 32-bit hosts (is ignored on 64-bit hosts)
 sys-libs/binutils-libs:multitarget - Enable all possible targets in libbfd
+sys-libs/compiler-rt:sanitize - Build compiler-rt's sanitizers
 sys-libs/db:rpc - Enable rpc client/server
 sys-libs/freeipmi:nagios - Install a nagios plugin to check sensors' status.
 sys-libs/gdbm:berkdb - enable compatibility layer for UNIX-like dbm and ndbm interfaces
@@ -8007,9 +8010,7 @@ www-client/google-chrome-beta:plugins - Add system plugins path to launcher
 www-client/google-chrome-unstable:plugins - Add system plugins path to launcher
 www-client/lynx:gnutls - Use gnutls library for HTTPS support (openssl is the default library for HTTPS support).
 www-client/lynx:ssl - Enable HTTPS support.
-www-client/midori:deprecated - Enable GTK+-2 instead of GTK+-3 because of external plugins like adobe-flash
 www-client/midori:granite - Enable support for the elementary library dev-libs/granite
-www-client/midori:webkit2 - Enable WebKit2 API that splits web content rendering and application UI into separate processes
 www-client/midori:zeitgeist - Add support for Zeitgeist event tracking system
 www-client/netsurf:bmp - BMP bitmap image support (media-libs/libnsbmp)
 www-client/netsurf:duktape - Use duktape.org javascript engine
@@ -8285,7 +8286,6 @@ x11-misc/rss-glx:quesoglc - Enable support for OpenGL Character Renderer
 x11-misc/sddm:consolekit - Use ck-launch-session from sys-auth/consolekit by default in Xsession (no native support)
 x11-misc/sent:savedconfig - Without a saved config.h, this package depends on media-gfx/farbfeld for image conversions
 x11-misc/shutter:drawing - Enables drawing tool
-x11-misc/shutter:webphoto - Enables screenshots of websites
 x11-misc/slim:consolekit - Enable native consolekit support
 x11-misc/spacefm:gtk2 - Support GTK+ 2.x instead of GTK+ 3.x
 x11-misc/spacefm:gtk3 - Support GTK+ 3.x instead of GTK+ 2.x

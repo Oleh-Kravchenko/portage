@@ -1,0 +1,10 @@
+# ChangeLog for sys-libs/compiler-rt
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*compiler-rt-9999 (22 Aug 2016)
+
+  22 Aug 2016; Michał Górny <mgorny@gentoo.org> +compiler-rt-9999.ebuild,
+  +metadata.xml:
+  Add a stand-alone ebuild for compiler-rt
+

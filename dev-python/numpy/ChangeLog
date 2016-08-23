@@ -321,3 +321,16 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*numpy-1.11.0 (22 Aug 2016)
+
+  22 Aug 2016; David Seifert <soap@gentoo.org> +numpy-1.11.0.ebuild:
+  version bump to 1.11.0
+
+  Gentoo-Bug: 580790
+  Also bump to EAPI version 6
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/2108
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

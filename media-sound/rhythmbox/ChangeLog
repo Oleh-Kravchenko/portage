@@ -111,3 +111,16 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+*rhythmbox-3.4 (21 Aug 2016)
+
+  21 Aug 2016; Gilles Dartiguelongue <eva@gentoo.org> +rhythmbox-3.4.ebuild:
+  bump to 3.4
+
+  Re-enable unittests, it seems they do pass fine provided some extra time to
+  complete.
+  Switch to EAPI 6. Webkit plugin was removed. Drop unused GST_INSPECT
+  variable.
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --force
+

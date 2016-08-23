@@ -337,3 +337,15 @@
 
   Package-Manager: portage-2.3.0
 
+  22 Aug 2016; Ulrich Müller <ulm@gentoo.org> emacs-25.1_rc1.ebuild:
+  Add keywords to release candidate.
+
+  Package-Manager: portage-2.3.0
+
+*emacs-25.1_rc2 (22 Aug 2016)
+
+  22 Aug 2016; Ulrich Müller <ulm@gentoo.org> +emacs-25.1_rc2.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

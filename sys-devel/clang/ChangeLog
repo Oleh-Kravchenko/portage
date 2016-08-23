@@ -255,3 +255,17 @@
   16 Aug 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Transfer maintenance to LLVM project
 
+*clang-9999 (22 Aug 2016)
+
+  22 Aug 2016; Michał Górny <mgorny@gentoo.org> +clang-9999.ebuild,
+  -clang-9999-r100.ebuild,
+  +files/9999/0001-cmake-Add-ordering-dep-between-HTML-Sphinx-docs-and-.patch,
+  +files/9999/0002-driver-Support-obtaining-active-toolchain-from-gcc-c.patch,
+  +files/9999/0003-driver-Support-checking-for-rlimits-via-cmake-when-b.patch,
+  +files/9999/0004-cmake-Adjust-llvm-lit-search-to-match-the-one-in-LLV.patch,
+  +files/9999/0005-cmake-Supporting-overriding-runtime-libdir-via-CLANG.patch,
+  +files/9999/0006-cmake-Add-CLANG_GOLD_LIBDIR_SUFFIX-to-specify-loc-of.patch,
+  +files/9999/0007-cmake-Support-stand-alone-Sphinx-doxygen-doc-build.patch,
+  metadata.xml:
+  Enable stand-alone builds against sys-devel/llvm
+

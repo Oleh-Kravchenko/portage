@@ -83,3 +83,8 @@
 
   Package-Manager: portage-2.3.0
 
+  22 Aug 2016; Zero_Chaos <zerochaos@gentoo.org> metadata.xml:
+  add maintainer per bug 591114
+
+  Package-Manager: portage-2.3.0
+

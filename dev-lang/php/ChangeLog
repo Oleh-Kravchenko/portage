@@ -1692,3 +1692,23 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*php-5.6.25 (22 Aug 2016)
+
+  22 Aug 2016; Brian Evans <grknight@gentoo.org> +php-5.6.25.ebuild:
+  Version bump to 5.6.25
+
+  Package-Manager: portage-2.3.0
+
+*php-7.0.10 (22 Aug 2016)
+
+  22 Aug 2016; Brian Evans <grknight@gentoo.org> +php-7.0.10.ebuild:
+  Version bump to 7.0.10
+
+  Package-Manager: portage-2.3.0
+
+  22 Aug 2016; Brian Evans <grknight@gentoo.org> -php-5.6.24-r2.ebuild,
+  -php-7.0.9-r2.ebuild:
+  Drop old versions
+
+  Package-Manager: portage-2.3.0
+

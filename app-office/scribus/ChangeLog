@@ -205,3 +205,10 @@
 
   Package-Manager: portage-2.2.28
 
+*scribus-1.5.2 (22 Aug 2016)
+
+  22 Aug 2016; Michael Weber <xmw@gentoo.org> +scribus-1.5.2.ebuild:
+  Version bump (bug 590386).
+
+  Package-Manager: portage-2.2.28
+
