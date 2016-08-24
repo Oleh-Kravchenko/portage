@@ -198,3 +198,10 @@
   -net-tools-1.60_p20141019041918.ebuild:
   drop old versions <net-tools-1.60_p20141019041918-r1
 
+  23 Aug 2016; Markus Meier <maekke@gentoo.org>
+  net-tools-1.60_p20160215155418.ebuild:
+  arm stable, bug #591430
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

@@ -269,3 +269,7 @@
   metadata.xml:
   Enable stand-alone builds against sys-devel/llvm
 
+  23 Aug 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild,
+  -files/9999/0003-driver-Support-checking-for-rlimits-via-cmake-when-b.patch:
+  rlimits check patch has been applied upstream
+

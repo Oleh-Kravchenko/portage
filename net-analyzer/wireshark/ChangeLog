@@ -693,3 +693,22 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*wireshark-2.2.0_rc1 (23 Aug 2016)
+
+  23 Aug 2016; Jeroen Roovers <jer@gentoo.org> metadata.xml,
+  +wireshark-2.2.0_rc1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+
+  23 Aug 2016; Jeroen Roovers <jer@gentoo.org> wireshark-2.2.0_rc1.ebuild,
+  wireshark-99999999.ebuild:
+  Update live ebuild.
+
+  Package-Manager: portage-2.3.0
+
+  23 Aug 2016; Jeroen Roovers <jer@gentoo.org> -wireshark-2.1.1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

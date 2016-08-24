@@ -133,3 +133,9 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Aug 2016; Mike Gilbert <floppym@gentoo.org> metagen-0.6.5-r1.ebuild,
+  metagen-9999.ebuild:
+  add missing PYTHON_USEDEP
+
+  Package-Manager: portage-2.3.0_p16
+

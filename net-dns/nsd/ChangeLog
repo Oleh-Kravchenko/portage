@@ -124,3 +124,18 @@
   06 Aug 2016; Michał Górny <mgorny@gentoo.org> nsd-3.2.20.ebuild:
   whitespace
 
+*nsd-4.1.11 (23 Aug 2016)
+
+  23 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +nsd-4.1.11.ebuild:
+  Bump to version 4.1.11
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  23 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> -nsd-3.2.20.ebuild,
+  -nsd-3.2.21.ebuild, -nsd-4.1.9.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

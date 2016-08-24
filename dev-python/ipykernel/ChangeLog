@@ -58,3 +58,13 @@
 
   Package-Manager: portage-2.2.26
 
+*ipykernel-4.4.1 (23 Aug 2016)
+
+  23 Aug 2016; David Seifert <soap@gentoo.org> +ipykernel-4.4.1.ebuild:
+  Version bump to 4.4.1
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/2127
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

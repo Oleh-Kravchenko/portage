@@ -92,3 +92,12 @@
 
   Package-Manager: portage-2.2.28
 
+  23 Aug 2016; Stephen L Arnold <nerdboy@gentoo.org>
+  files/gnat-common-1.5.bash:
+  remove bogus path variable
+
+  This *should* fix Bug 587678, not sure why that's still there (other
+  than legacy cruft clogging up the pipe).
+
+  Package-Manager: portage-2.3.0
+

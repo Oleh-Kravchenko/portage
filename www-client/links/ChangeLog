@@ -89,3 +89,11 @@
 
   Package-Manager: portage-2.3.0
 
+*links-2.12-r2 (23 Aug 2016)
+
+  23 Aug 2016; Anthony G. Basile <blueness@gentoo.org> -links-2.12-r1.ebuild,
+  +links-2.12-r2.ebuild:
+  fix slot number and operator for openssl/libressl
+
+  Package-Manager: portage-2.2.28
+
