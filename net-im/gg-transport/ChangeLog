@@ -90,3 +90,10 @@
 
   Package-Manager: portage-2.2.26
 
+*gg-transport-2.2.6 (24 Aug 2016)
+
+  24 Aug 2016; Pacho Ramos <pacho@gentoo.org> +gg-transport-2.2.6.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

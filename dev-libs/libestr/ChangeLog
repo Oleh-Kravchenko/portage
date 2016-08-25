@@ -131,3 +131,10 @@
 
   Package-Manager: portage-2.3.0
 
+  24 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> libestr-0.1.10.ebuild:
+  Stabilization of v0.1.10
+
+  Gentoo-Bug: https://bugs.gentoo.org/585640
+
+  Package-Manager: portage-2.3.0
+

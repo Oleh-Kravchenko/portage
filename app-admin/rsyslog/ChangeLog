@@ -345,3 +345,17 @@
 
   Package-Manager: portage-2.2.27
 
+*rsyslog-8.21.0 (24 Aug 2016)
+
+  24 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> +rsyslog-8.21.0.ebuild:
+  Bump to v8.21.0
+
+  Package-Manager: portage-2.3.0
+
+  24 Aug 2016; Thomas Deutschmann <whissi@gentoo.org>
+  -files/8-stable/50-rsyslog-8.18.0-issue963.patch,
+  -files/8-stable/50-rsyslog-8.18.0-issue964.patch, -rsyslog-8.18.0.ebuild:
+  Drop old version
+
+  Package-Manager: portage-2.3.0
+

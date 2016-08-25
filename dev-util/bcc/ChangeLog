@@ -23,3 +23,16 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  24 Aug 2016; Zac Medico <zmedico@gentoo.org> bcc-0.1.8-r1.ebuild:
+  fix llvm[clang] dep for bug 592006
+
+  Package-Manager: portage-2.3.0
+
+*bcc-0.1.8-r2 (24 Aug 2016)
+
+  24 Aug 2016; Zac Medico <zmedico@gentoo.org> -bcc-0.1.8-r1.ebuild,
+  +bcc-0.1.8-r2.ebuild:
+  revbump to 0.1.8-r2 for changed RDEPEND
+
+  Package-Manager: portage-2.3.0
+

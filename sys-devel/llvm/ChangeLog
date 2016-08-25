@@ -842,3 +842,7 @@
   llvm-3.8.1-r2.ebuild, llvm-9999.ebuild:
   OCaml doc patch has been applied upstream
 
+  24 Aug 2016; Michał Górny <mgorny@gentoo.org>
+  -files/9999/0005-cmake-Do-not-install-libgtest.patch, llvm-9999.ebuild:
+  Remove unnecessary gtest patch
+

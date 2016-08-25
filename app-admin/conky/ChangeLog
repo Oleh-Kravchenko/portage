@@ -209,3 +209,12 @@
   files/conky-1.9.0-apcupsd.patch:
   sourceforge: switch to https:// URIs
 
+*conky-1.10.3 (24 Aug 2016)
+
+  24 Aug 2016; Daniel Pielmeier <billie@gentoo.org> +conky-1.10.3.ebuild:
+  Version bump, fixes bug #590878.
+
+  Thanks to Perfect Gentleman for the report.
+
+  Package-Manager: portage-2.2.28
+

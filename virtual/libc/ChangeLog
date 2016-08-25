@@ -68,3 +68,8 @@
 
   Package-Manager: portage-2.2.26
 
+  24 Aug 2016; Benda Xu <heroxbd@gentoo.org> libc-0.ebuild:
+  not necessary only for prefix-guest.
+
+  Package-Manager: portage-2.3.0
+

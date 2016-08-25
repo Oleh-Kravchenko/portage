@@ -78,3 +78,14 @@
 
   Package-Manager: portage-2.3.0
 
+*hiredis-0.13.3 (24 Aug 2016)
+
+  24 Aug 2016; Thomas Deutschmann <whissi@gentoo.org>
+  +files/hiredis-0.13.3-disable-network-tests.patch, +hiredis-0.13.3.ebuild,
+  metadata.xml:
+  Bump to v0.13.3
+
+  Gentoo-Bug: https://bugs.gentoo.org/585648
+
+  Package-Manager: portage-2.3.0
+

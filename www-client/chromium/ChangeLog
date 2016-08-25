@@ -1433,3 +1433,14 @@
 
   Package-Manager: portage-2.2.28
 
+*chromium-54.0.2837.0 (24 Aug 2016)
+
+  24 Aug 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-54.0.2824.0.ebuild, +chromium-54.0.2837.0.ebuild,
+  +files/chromium-gn-r5.patch:
+  dev channel bump (54.0.2837.0)
+
+  Fix build with system libjpeg (bug #584518).
+
+  Package-Manager: portage-2.2.28
+

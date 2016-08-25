@@ -95,3 +95,8 @@
   19 Aug 2016; Tim Harder <radhermit@gentoo.org> +pngcrush-1.8.4.ebuild:
   version bump to 1.8.4
 
+*pngcrush-1.8.5 (24 Aug 2016)
+
+  24 Aug 2016; Tim Harder <radhermit@gentoo.org> +pngcrush-1.8.5.ebuild:
+  version bump to 1.8.5
+

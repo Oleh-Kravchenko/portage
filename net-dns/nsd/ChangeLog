@@ -139,3 +139,16 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  24 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +files/nsd.initd-r1,
+  nsd-4.1.11.ebuild:
+  Added partially rewritten init scrip with "reload" target.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  24 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> metadata.xml:
+  Added myself as maintainer.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

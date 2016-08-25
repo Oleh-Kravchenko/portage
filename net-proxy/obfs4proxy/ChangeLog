@@ -56,3 +56,12 @@
 
   Package-Manager: portage-2.3.0
 
+  24 Aug 2016; Marek Szuba <marecki@gentoo.org> metadata.xml:
+  dev-python/pyicu: update metadata
+
+  * add the upstream remote-id for the Github project
+  * add the upstream remote-id for the PyPI entry
+  * indent with tabs instead of spaces
+
+  Package-Manager: portage-2.3.0
+

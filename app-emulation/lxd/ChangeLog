@@ -392,3 +392,12 @@
 
   Package-Manager: portage-2.3.0
 
+  24 Aug 2016; Pacho Ramos <pacho@gentoo.org>
+  -files/lxd-2.0.1-dont-go-get.patch, -files/lxd-2.0.1.confd,
+  -files/lxd-2.0.1.initd, -files/lxd-2.0.2-dont-go-get.patch,
+  -files/lxd-2.0.2.confd, -files/lxd-2.0.2.initd, -lxd-2.0.1.ebuild,
+  -lxd-2.0.2.ebuild, -lxd-2.0.3.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+

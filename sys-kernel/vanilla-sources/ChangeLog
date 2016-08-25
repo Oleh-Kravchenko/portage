@@ -992,3 +992,22 @@
 
   Package-Manager: portage-2.3.0
 
+*vanilla-sources-4.4.19 (24 Aug 2016)
+*vanilla-sources-4.1.31 (24 Aug 2016)
+*vanilla-sources-3.18.40 (24 Aug 2016)
+*vanilla-sources-3.16.37 (24 Aug 2016)
+*vanilla-sources-3.14.77 (24 Aug 2016)
+*vanilla-sources-3.2.82 (24 Aug 2016)
+
+  24 Aug 2016; Mike Pagano <mpagano@gentoo.org>
+  -vanilla-sources-3.2.81.ebuild, +vanilla-sources-3.2.82.ebuild,
+  -vanilla-sources-3.14.76.ebuild, +vanilla-sources-3.14.77.ebuild,
+  -vanilla-sources-3.16.36.ebuild, +vanilla-sources-3.16.37.ebuild,
+  -vanilla-sources-3.18.39.ebuild, +vanilla-sources-3.18.40.ebuild,
+  -vanilla-sources-4.1.30.ebuild, +vanilla-sources-4.1.31.ebuild,
+  -vanilla-sources-4.4.18.ebuild, +vanilla-sources-4.4.19.ebuild,
+  -vanilla-sources-4.7.1.ebuild:
+  Linux version bumps. Remove old.
+
+  Package-Manager: portage-2.2.28
+
