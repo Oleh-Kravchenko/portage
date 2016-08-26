@@ -91,3 +91,10 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Aug 2016; David Seifert <soap@gentoo.org> metadata.xml:
+  Add upstream to metadata.xml
+
+  Closes: https://github.com/gentoo/gentoo/pull/2133
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

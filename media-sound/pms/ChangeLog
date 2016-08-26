@@ -96,3 +96,25 @@
 
   Signed-off-by: Marek Szuba <marecki@gentoo.org>
 
+*pms-0.42-r2 (25 Aug 2016)
+
+  25 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> +pms-0.42-r2.ebuild:
+  revbump to 0.42-r2
+
+  EAPI bump to 6
+
+  fixed bug #526530 (build with ncurses[tinfo])
+
+  fixed bug #351996 (a buffer overflow)
+
+  updated HOMEPAGE, SRC_URI and the year in the header
+
+  25 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> pms-9999.ebuild:
+  9999: match ncurses slot
+
+  25 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> -pms-0.42.ebuild:
+  dropped old 0.42 from the tree
+
+  25 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> -pms-0.42-r1.ebuild:
+  dropped old 0.42-r1 from the tree
+

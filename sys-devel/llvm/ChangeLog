@@ -846,3 +846,8 @@
   -files/9999/0005-cmake-Do-not-install-libgtest.patch, llvm-9999.ebuild:
   Remove unnecessary gtest patch
 
+  25 Aug 2016; Michał Górny <mgorny@gentoo.org>
+  +files/3.8.1/0005-cmake-Do-not-install-libgtest.patch, llvm-3.7.1-r3.ebuild,
+  llvm-3.8.0-r3.ebuild, llvm-3.8.1.ebuild, llvm-3.8.1-r2.ebuild:
+  Restore gtest patch for <9999, #592046
+

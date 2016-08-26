@@ -1350,3 +1350,9 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Aug 2016; Anthony G. Basile <blueness@gentoo.org>
+  -hardened-sources-4.6.4-r1.ebuild, -hardened-sources-4.6.5-r1.ebuild:
+  remove 4.6.4-r1 and 4.6.5-r1, bug #589838
+
+  Package-Manager: portage-2.2.28
+

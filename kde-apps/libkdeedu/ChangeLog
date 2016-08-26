@@ -99,3 +99,7 @@
   by
   revdeps or otherwise still needed by Plasma 4.
 
+  25 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  -libkdeedu-15.12.3.ebuild:
+  kde-apps: remove 15.12.3
+

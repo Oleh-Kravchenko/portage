@@ -119,3 +119,6 @@
   08 Aug 2016; Tim Harder <radhermit@gentoo.org> weechat-9999.ebuild:
   fix doc install, update guile dep, update to EAPI 6
 
+  25 Aug 2016; Tim Harder <radhermit@gentoo.org> weechat-9999.ebuild:
+  drop old gtk comments
+

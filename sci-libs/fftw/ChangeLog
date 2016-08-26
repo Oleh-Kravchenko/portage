@@ -121,3 +121,8 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  25 Aug 2016; David Seifert <soap@gentoo.org> fftw-3.3.5-r2.ebuild:
+  Restore QA-checked multilib-minimal_src_install
+
+  Package-Manager: portage-2.3.0
+

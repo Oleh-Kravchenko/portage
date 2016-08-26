@@ -86,3 +86,14 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Aug 2016; Pacho Ramos <pacho@gentoo.org> -klibc-2.0.2.ebuild,
+  -klibc-2.0.2-r1.ebuild, -klibc-2.0.3.ebuild, -klibc-2.0.3-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+
+  25 Aug 2016; Pacho Ramos <pacho@gentoo.org> klibc-2.0.4.ebuild:
+  Fix build on Raspberry PI (#446700 by Adam Martak)
+
+  Package-Manager: portage-2.3.0
+

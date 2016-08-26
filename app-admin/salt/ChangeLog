@@ -335,3 +335,10 @@
 
   Package-Manager: portage-2.3.0
 
+*salt-2015.8.12 (24 Aug 2016)
+
+  24 Aug 2016; Patrick McLean <chutzpah@gentoo.org> +salt-2015.8.12.ebuild:
+  Version bump to 2015.8.12
+
+  Package-Manager: portage-2.3.0
+

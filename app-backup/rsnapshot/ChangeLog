@@ -115,3 +115,23 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  25 Aug 2016; Patrice Clement <monsieurp@gentoo.org> rsnapshot-1.4.2.ebuild:
+  do not compress rsnapshot.conf.default.
+
+  Courtesy of Louis Sautier <sautier.louis@gmail.com>.
+
+  Gentoo-Bug: https://bugs.gentoo.org/551762
+  Closes: https://github.com/gentoo/gentoo/pull/2120
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+  25 Aug 2016; Patrice Clement <monsieurp@gentoo.org> rsnapshot-1.4.2.ebuild:
+  strip rsnapshot.conf.default of a hardcoded path.
+
+  remove '/etc/' since we don't place it here.
+
+  Gentoo-Bug: https://bugs.gentoo.org/461554
+  Closes: https://github.com/gentoo/gentoo/pull/2120
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

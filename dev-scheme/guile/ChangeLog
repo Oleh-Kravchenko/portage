@@ -235,3 +235,8 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Aug 2016; Benda Xu <heroxbd@gentoo.org> guile-2.0.12-r1.ebuild:
+  always use mv (non ebuild helpers) with ED.
+
+  Package-Manager: portage-2.3.0
+
