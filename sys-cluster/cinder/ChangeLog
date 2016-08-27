@@ -290,3 +290,7 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Aug 2016; Matthew Thode <prometheanfire@gentoo.org> -cinder-7.0.1.ebuild,
+  -cinder-7.0.2.ebuild:
+  cleanup of liberty tags in openstack
+

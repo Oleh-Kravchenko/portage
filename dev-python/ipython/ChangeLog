@@ -333,3 +333,8 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  25 Aug 2016; Mike Gilbert <floppym@gentoo.org> ipython-5.1.0.ebuild:
+  restore python 3.3
+
+  Package-Manager: portage-2.3.0_p22
+

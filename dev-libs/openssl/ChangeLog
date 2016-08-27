@@ -639,3 +639,27 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Andrew Savchenko <bircoph@gentoo.org>
 
+*openssl-1.1.0 (26 Aug 2016)
+
+  26 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/openssl-1.1.0-threads.patch, +files/openssl-1.1.0_pre4-ldflags.patch,
+  +openssl-1.1.0.ebuild:
+  Bump to version 1.1.0
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/openssl-1.1.0-threads.patch, +files/openssl-1.1.01-ldflags.patch,
+  -files/openssl-1.1.0_pre4-ldflags.patch, openssl-1.1.0.ebuild:
+  Fixed broken ldflags patch (thanks to floppym).
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 Aug 2016; Mike Gilbert <floppym@gentoo.org>
+  +files/openssl-1.1.0-ldflags.patch, -files/openssl-1.1.01-ldflags.patch:
+  fix typo in patch filename
+
+  Package-Manager: portage-2.3.0_p22
+

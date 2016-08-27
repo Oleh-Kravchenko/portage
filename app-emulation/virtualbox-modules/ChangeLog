@@ -384,3 +384,12 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  26 Aug 2016; Lars Wendler <polynomial-c@gentoo.org>
+  virtualbox-modules-4.3.40.ebuild, virtualbox-modules-5.1.4.ebuild:
+  CONFIG_TRIM_UNUSED_KSYMS breaks modules.
+
+  See bug #592138.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

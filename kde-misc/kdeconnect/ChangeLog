@@ -141,3 +141,7 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  25 Aug 2016; Tim Harder <radhermit@gentoo.org> kdeconnect-0.8-r1.ebuild,
+  kdeconnect-0.9g.ebuild:
+  net-fs/sshfs: moved from sys-fs/sshfs
+

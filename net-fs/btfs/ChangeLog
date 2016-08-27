@@ -8,3 +8,6 @@
   +metadata.xml:
   move from sys-fs/btfs
 
+  26 Aug 2016; Tim Harder <radhermit@gentoo.org> btfs-2.11.ebuild:
+  add slot dep for net-libs/rb_libtorrent
+

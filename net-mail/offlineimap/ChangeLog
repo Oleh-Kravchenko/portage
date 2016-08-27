@@ -107,3 +107,8 @@
   17 Aug 2016; Tim Harder <radhermit@gentoo.org> +offlineimap-6.7.0.3.ebuild:
   version bump for old 6.x series (bug #591094)
 
+*offlineimap-7.0.6 (25 Aug 2016)
+
+  25 Aug 2016; Tim Harder <radhermit@gentoo.org> +offlineimap-7.0.6.ebuild:
+  version bump to 7.0.6
+

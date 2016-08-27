@@ -161,3 +161,14 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*nsd-4.1.11-r2 (26 Aug 2016)
+
+  26 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> files/nsd.initd-r1,
+  -nsd-4.1.11-r1.ebuild, +nsd-4.1.11-r2.ebuild:
+  Another bugfix in new init script.
+
+  Revbump so users get the fix.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

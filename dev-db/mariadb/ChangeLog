@@ -622,3 +622,10 @@
 
   Package-Manager: portage-2.3.0
 
+*mariadb-10.0.27 (26 Aug 2016)
+
+  26 Aug 2016; Brian Evans <grknight@gentoo.org> +mariadb-10.0.27.ebuild:
+  Version bump to 10.0.27
+
+  Package-Manager: portage-2.3.0
+
