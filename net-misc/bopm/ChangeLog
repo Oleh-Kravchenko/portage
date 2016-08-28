@@ -76,3 +76,10 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/bopm.init.d:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  27 Aug 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  transfert maintainership over to Shentino <shentino@gmail.com>.
+
+  Gentoo-Bug: https://bugs.gentoo.org/592150
+
+  Package-Manager: portage-2.2.28
+

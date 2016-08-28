@@ -218,3 +218,10 @@
 
   Package-Manager: portage-2.2.28
 
+*conky-1.10.4 (27 Aug 2016)
+
+  27 Aug 2016; Daniel Pielmeier <billie@gentoo.org> +conky-1.10.4.ebuild:
+  Fix bug #590878.
+
+  Package-Manager: portage-2.2.28
+

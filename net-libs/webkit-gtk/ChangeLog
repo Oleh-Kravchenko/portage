@@ -412,3 +412,15 @@
 
   Package-Manager: portage-2.3.0
 
+  27 Aug 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +files/webkit-gtk-2.4.9-gcc-6.patch, webkit-gtk-2.4.11.ebuild,
+  webkit-gtk-2.4.11-r1.ebuild, webkit-gtk-2.4.11-r200.ebuild:
+  tweak for gcc-6, bug #592048
+
+  Adopt Fedora patch to build successfully against gcc-6.1.0.
+
+  Bug: https://bugs.gentoo.org/show_bug.cgi?id=592048
+  Bug: https://bugs.webkit.org/show_bug.cgi?id=159124
+
+  Package-Manager: portage-2.3.0
+

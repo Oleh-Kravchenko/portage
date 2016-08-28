@@ -140,3 +140,10 @@
 
   Package-Manager: portage-2.2.28
 
+*capybara-2.8.1 (27 Aug 2016)
+
+  27 Aug 2016; Hans de Graaff <graaff@gentoo.org> +capybara-2.8.1.ebuild:
+  add 2.8.1
+
+  Package-Manager: portage-2.2.28
+

@@ -85,3 +85,12 @@
 
   Package-Manager: portage-2.2.26
 
+*libisoburn-1.4.4 (27 Aug 2016)
+
+  27 Aug 2016; Daniel Pielmeier <billie@gentoo.org> +libisoburn-1.4.4.ebuild:
+  Version bump. Fix bug #591900.
+
+  Thanks to Lars Wendler for the report.
+
+  Package-Manager: portage-2.2.28
+
