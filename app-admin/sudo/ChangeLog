@@ -236,3 +236,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  27 Aug 2016; Anthony G. Basile <blueness@gentoo.org> sudo-9999.ebuild:
+  fix typo in comment
+
+  Package-Manager: portage-2.2.28
+

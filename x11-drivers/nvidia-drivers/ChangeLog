@@ -775,3 +775,12 @@
 
   Package-Manager: portage-2.3.0
 
+*nvidia-drivers-367.44 (28 Aug 2016)
+
+  28 Aug 2016; Jeroen Roovers <jer@gentoo.org>
+  +files/nvidia-drivers-367.44-profiles-rc.patch,
+  +nvidia-drivers-367.44.ebuild:
+  Version bump (bug #592254 by josef.95).
+
+  Package-Manager: portage-2.3.0
+

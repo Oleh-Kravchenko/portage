@@ -297,3 +297,9 @@
 
   Package-Manager: portage-2.2.28
 
+  28 Aug 2016; Jeroen Roovers <jer@gentoo.org> doxygen-1.8.11-r2.ebuild:
+  Stable for HPPA (bug #588448).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

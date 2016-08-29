@@ -359,3 +359,23 @@
 
   Package-Manager: portage-2.3.0
 
+  28 Aug 2016; Thomas Deutschmann <whissi@gentoo.org>
+  +files/8-stable/50-rsyslog-8.16.0-restrict-build-deps.patch,
+  rsyslog-8.16.0-r1.ebuild:
+  Restricting build depedencies for v8.16.0
+
+  While this version builds against =dev-libs/libfastjson-0.99.2 it does not
+  build against >dev-libs/libfastjson-0.99.2.
+
+  Additional, if you build rsyslog against dev-libs/json-c but build also
+  against
+  dev-libs/liblognorm which was build against >dev-libs/libfastjson-0.99.2
+  you will get runtime errors.
+
+  To solve this problem we are restricting rsyslog-8.16.0 to build only
+  against
+  dev-libs/json-c and also restricting to =dev-libs/liblognorm-1.1.2* (last
+  version which builds against dev-libs/json-c).
+
+  Package-Manager: portage-2.3.0
+
