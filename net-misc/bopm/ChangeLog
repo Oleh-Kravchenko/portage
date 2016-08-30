@@ -83,3 +83,38 @@
 
   Package-Manager: portage-2.2.28
 
+*bopm-3.1.3-r2 (29 Aug 2016)
+
+  29 Aug 2016; David Seifert <soap@gentoo.org> +bopm-3.1.3-r2.ebuild,
+  +files/bopm-3.1.3-autotools.patch, +files/bopm-3.1.3-remove-njabl.patch:
+  revbump, patch config file, and huge cleanup
+
+  Fix these issues with r1:
+
+  * Upgrade to EAPI 6
+  * Update the homepage
+  * Formatting cleanups in the ebuild
+  * Remove a redundant inherit
+  * Use fowners and fperms instead of raw chown and chperm
+  * Nix an unneeded "|| die" call
+  * Use einstalldocs instead of dodoc
+  * Use ED instead of D
+  * Document usage of datadir to store example config file
+  * Move various operations to the proper ebuild functions
+
+  And finally:
+
+  * Add patch to remove njabl from example config file
+  Closes: https://github.com/gentoo/gentoo/pull/2151
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+*bopm-3.1.3-r3 (29 Aug 2016)
+
+  29 Aug 2016; David Seifert <soap@gentoo.org> -bopm-3.1.3-r2.ebuild,
+  +bopm-3.1.3-r3.ebuild, files/bopm-3.1.3-autotools.patch,
+  files/bopm-3.1.3-remove-njabl.patch:
+  Install bopm.conf.sample in docdir too
+
+  Package-Manager: portage-2.3.0
+

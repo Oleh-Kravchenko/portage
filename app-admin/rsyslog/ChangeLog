@@ -379,3 +379,17 @@
 
   Package-Manager: portage-2.3.0
 
+  28 Aug 2016; Thomas Deutschmann <whissi@gentoo.org> rsyslog-8.19.0.ebuild,
+  rsyslog-8.21.0.ebuild:
+  Enforce >=dev-libs/liblognorm-2.0.1 usage
+
+  >=app-admin/rsyslog-8.19.0 builds against dev-libs/libfastjson instead of
+  dev-libs/json-c like
+  previous versions. To avoid runtime errors when mixing with depedencies
+  which were build
+  against dev-libs/json-c we are now enforcing >=dev-libs/liblognorm-2.0.1
+  (first liblognorm
+  version in repository which requires dev-libs/libfastjson) dependency.
+
+  Package-Manager: portage-2.3.0
+

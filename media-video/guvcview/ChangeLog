@@ -83,3 +83,10 @@
   Package-Manager: portage-2.2.27
   Signed-off-by: Alexis Ballier <aballier@gentoo.org>
 
+*guvcview-2.0.4 (29 Aug 2016)
+
+  29 Aug 2016; Alexis Ballier <aballier@gentoo.org> +guvcview-2.0.4.ebuild:
+  bump to 2.0.4
+
+  Package-Manager: portage-2.3.0
+

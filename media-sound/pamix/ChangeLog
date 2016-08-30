@@ -31,3 +31,23 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  29 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> pamix-9999.ebuild:
+  Added unicode USE flag to live ebuild.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+*pamix-1.3 (29 Aug 2016)
+
+  29 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> +pamix-1.3.ebuild:
+  Bump to version 1.3
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  29 Aug 2016; Lars Wendler <polynomial-c@gentoo.org> -pamix-1.1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
