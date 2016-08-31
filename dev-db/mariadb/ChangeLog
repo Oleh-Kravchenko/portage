@@ -629,3 +629,20 @@
 
   Package-Manager: portage-2.3.0
 
+*mariadb-10.1.17 (30 Aug 2016)
+
+  30 Aug 2016; Brian Evans <grknight@gentoo.org> +mariadb-10.1.17.ebuild:
+  Version bump to 10.1.17
+
+  Clean up tests
+  Add in jdbc for connect engine
+  Allow both versions of percona xtrabackup to satisfy the sst-xtrabackup
+
+  Package-Manager: portage-2.3.0
+
+  30 Aug 2016; Brian Evans <grknight@gentoo.org> -mariadb-5.5.49.ebuild,
+  -mariadb-10.1.12.ebuild, -mariadb-10.1.13.ebuild, -mariadb-10.1.14.ebuild:
+  Drop old security vulnerable versions
+
+  Package-Manager: portage-2.3.0
+

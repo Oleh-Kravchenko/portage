@@ -99,3 +99,9 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Aug 2016; Markus Meier <maekke@gentoo.org> yaz-3.0.53.ebuild:
+  arm stable, bug #522674
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

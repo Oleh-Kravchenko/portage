@@ -334,3 +334,20 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*numpy-1.11.1 (30 Aug 2016)
+
+  30 Aug 2016; David Seifert <soap@gentoo.org>
+  +files/numpy-1.11.1-no-hardcode-blas.patch, -numpy-1.11.0.ebuild,
+  +numpy-1.11.1.ebuild:
+  Version bump
+
+  Gentoo-bug: 590464, 591936
+  * Re-add py3.3 support to prevent depgraph breakage
+  * Fix QA bug installing non-compiled files #590464
+  * Fix linking due to adding unnecessary -lblas to
+    build system #591936
+  * Move dev-python/setuptools to DEPEND instead of
+    RDEPEND
+
+  Package-Manager: portage-2.3.0
+

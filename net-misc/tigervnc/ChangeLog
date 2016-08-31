@@ -167,3 +167,9 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Aug 2016; Markus Meier <maekke@gentoo.org> tigervnc-1.6.0-r1.ebuild:
+  arm stable, bug #584482
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

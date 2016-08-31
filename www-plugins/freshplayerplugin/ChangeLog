@@ -130,3 +130,11 @@
 
   Package-Manager: portage-2.2.27
 
+*freshplayerplugin-0.3.5 (29 Aug 2016)
+
+  29 Aug 2016; Brian Evans <grknight@gentoo.org> +files/0.3.5-cmake.patch,
+  +freshplayerplugin-0.3.5.ebuild:
+  Version bump wrt bug 581228
+
+  Package-Manager: portage-2.3.0
+

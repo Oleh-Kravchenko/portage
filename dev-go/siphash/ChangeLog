@@ -57,3 +57,9 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Aug 2016; Markus Meier <maekke@gentoo.org> siphash-1.0.0.ebuild:
+  add ~arm, bug #590778
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

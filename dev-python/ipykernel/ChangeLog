@@ -68,3 +68,8 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  30 Aug 2016; David Seifert <soap@gentoo.org> ipykernel-4.4.1.ebuild:
+  restore python 3.3
+
+  Package-Manager: portage-2.3.0
+

@@ -252,3 +252,8 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  29 Aug 2016; Christoph Junghans <ottxor@gentoo.org> boost-1.61.0-r1.ebuild:
+  re-add keywords for mpi multilib ebuild
+
+  Package-Manager: portage-2.2.28
+

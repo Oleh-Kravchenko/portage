@@ -35,3 +35,8 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  30 Aug 2016; David Seifert <soap@gentoo.org> nbformat-4.1.0.ebuild:
+  restore python 3.3
+
+  Package-Manager: portage-2.3.0
+

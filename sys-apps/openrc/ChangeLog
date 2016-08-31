@@ -410,3 +410,10 @@
 
   Package-Manager: portage-2.2.28
 
+*openrc-0.21.5 (30 Aug 2016)
+
+  30 Aug 2016; William Hubbs <williamh@gentoo.org> +openrc-0.21.5.ebuild:
+  0.21.5 version bump
+
+  Package-Manager: portage-2.2.28
+

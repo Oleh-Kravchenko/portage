@@ -388,3 +388,11 @@
   -neutron-7.0.4.ebuild, -neutron-7.1.0.ebuild, -neutron-7.1.1.ebuild:
   cleanup of liberty tags in openstack
 
+*neutron-8.2.0 (30 Aug 2016)
+
+  30 Aug 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +neutron-8.2.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

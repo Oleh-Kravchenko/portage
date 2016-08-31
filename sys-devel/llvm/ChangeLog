@@ -875,3 +875,6 @@
   llvm-3.8.1-r2.ebuild, +llvm-3.9.0_rc3.ebuild, llvm-9999.ebuild:
   Bump to 3.9.0rc3
 
+  29 Aug 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Fix cmake unused arg warnings with USE=-doc
+

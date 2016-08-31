@@ -278,3 +278,9 @@
   28 Aug 2016; Michał Górny <mgorny@gentoo.org> +clang-3.9.0_rc3-r100.ebuild:
   Bump to 3.9.0rc3
 
+  29 Aug 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Fetch llvm src with USE=test, to support unittests
+
+  29 Aug 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Fix cmake unused arg warnings with USE=-doc
+

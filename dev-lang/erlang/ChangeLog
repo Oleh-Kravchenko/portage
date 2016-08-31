@@ -200,3 +200,10 @@
 
   Package-Manager: portage-2.2.28
 
+  30 Aug 2016; Göktürk Yüksek <gokturk@gentoo.org> -files/16.2-tinfo.patch,
+  -files/17.0-systemd.patch:
+  remove unused patches
+
+  Acked-By: Dirkjan Ochtman <djc@gentoo.org>
+  Closes: https://github.com/gentoo/gentoo/pull/2161
+
