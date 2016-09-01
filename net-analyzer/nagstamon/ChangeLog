@@ -92,3 +92,12 @@
 
   Package-Manager: portage-2.3.0
 
+*nagstamon-2.0-r1 (31 Aug 2016)
+
+  31 Aug 2016; Christian Ruppert <idl0r@gentoo.org>
+  +files/nagstamon-2.0-EWMH.patch, -nagstamon-2.0.ebuild,
+  +nagstamon-2.0-r1.ebuild:
+  Revbump, fixes https://github.com/HenriWahl/Nagstamon/issues/296
+
+  Package-Manager: portage-2.3.0
+

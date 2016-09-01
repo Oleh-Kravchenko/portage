@@ -118,3 +118,11 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*mendeleydesktop-1.16.3 (31 Aug 2016)
+
+  31 Aug 2016; Michael Weber <xmw@gentoo.org> -mendeleydesktop-1.16.2.ebuild,
+  +mendeleydesktop-1.16.3.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+

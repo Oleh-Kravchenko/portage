@@ -199,3 +199,12 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*libevdev-1.5.4 (31 Aug 2016)
+
+  31 Aug 2016; Manuel Rüger <mrueg@gentoo.org> +libevdev-1.5.4.ebuild:
+  Version bump to 1.5.4
+
+  Gentoo-Bug: #592564
+
+  Package-Manager: portage-2.3.0
+

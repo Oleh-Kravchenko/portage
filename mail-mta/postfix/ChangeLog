@@ -486,3 +486,22 @@
 
   Package-Manager: portage-2.3.0
 
+*postfix-3.1.2 (31 Aug 2016)
+
+  31 Aug 2016; Eray Aslan <eras@gentoo.org> +postfix-3.1.2.ebuild:
+  version bump to 3.1.2
+
+  Package-Manager: portage-2.3.0
+
+  31 Aug 2016; Eray Aslan <eras@gentoo.org> postfix-3.1.2.ebuild:
+  QA: leading space
+
+  Package-Manager: portage-2.3.0
+
+*postfix-3.0.6 (31 Aug 2016)
+
+  31 Aug 2016; Eray Aslan <eras@gentoo.org> +postfix-3.0.6.ebuild:
+  version bump to 3.0.6
+
+  Package-Manager: portage-2.3.0
+

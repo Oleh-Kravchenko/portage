@@ -512,3 +512,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  31 Aug 2016; Tobias Klausmann <klausman@gentoo.org> libgcrypt-1.7.3.ebuild:
+  1.7.3-r0: add alpha keyword
+
+  Gentoo-Bug: 591534
+

@@ -105,3 +105,11 @@
 
   Package-Manager: portage-2.3.0
 
+*scapy-9999 (31 Aug 2016)
+
+  31 Aug 2016; Jeroen Roovers <jer@gentoo.org> metadata.xml,
+  +scapy-9999.ebuild:
+  Add live ebuild.
+
+  Package-Manager: portage-2.3.0
+

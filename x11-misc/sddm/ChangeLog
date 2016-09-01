@@ -281,3 +281,16 @@
 
   Package-Manager: portage-2.3.0
 
+  31 Aug 2016; Michael Palimaka <kensington@gentoo.org>
+  -sddm-0.13.0-r4.ebuild, -sddm-0.14.0.ebuild:
+  remove old revisions
+
+  Package-Manager: portage-2.3.0
+
+  31 Aug 2016; Michael Palimaka <kensington@gentoo.org> sddm-0.13.0-r3.ebuild:
+  backport cec1882183eee8385b9d4b3b13a04c1fc2201860 to stable
+
+  Gentoo-bug: 592520
+
+  Package-Manager: portage-2.3.0
+

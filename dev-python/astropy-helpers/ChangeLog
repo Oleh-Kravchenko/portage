@@ -123,3 +123,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*astropy-helpers-1.2 (31 Aug 2016)
+
+  31 Aug 2016; Sébastien Fabbro <bicatali@gentoo.org>
+  +astropy-helpers-1.2.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0
+

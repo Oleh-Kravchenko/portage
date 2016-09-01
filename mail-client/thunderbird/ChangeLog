@@ -510,3 +510,21 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*thunderbird-45.3.0 (31 Aug 2016)
+
+  31 Aug 2016; Ian Stakenvicius <axs@gentoo.org> +thunderbird-45.3.0.ebuild:
+  bump to 45.3.0
+
+  Package-Manager: portage-2.2.28
+
+  31 Aug 2016; Ian Stakenvicius <axs@gentoo.org> -thunderbird-38.7.0.ebuild,
+  thunderbird-38.8.0.ebuild:
+  38: drop 38.7 and migrate stable keywords to 38.8, p.mask 38.x
+
+  Package-Manager: portage-2.2.28
+
+  31 Aug 2016; Ian Stakenvicius <axs@gentoo.org> thunderbird-45.3.0.ebuild:
+  45.3.0: stabilize on amd64 for security bug 590330
+
+  Package-Manager: portage-2.2.28
+

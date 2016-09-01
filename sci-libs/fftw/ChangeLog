@@ -131,3 +131,16 @@
 
   Package-Manager: portage-2.2.28
 
+*fftw-2.1.5-r9 (31 Aug 2016)
+
+  31 Aug 2016; David Seifert <soap@gentoo.org> +fftw-2.1.5-r9.ebuild,
+  files/fftw-2.1.5-as-needed.patch, files/fftw-2.1.5-configure.in.patch,
+  files/fftw-2.1.5-no-test.patch:
+  Rewrite ebuild to EAPI=6 standards
+
+  * Use multibuild.eclass for single/double precision
+  * Make patches -p1 compliant
+  * Simplify src_configure phase
+
+  Package-Manager: portage-2.3.0
+

@@ -262,3 +262,15 @@
 
   Package-Manager: portage-2.3.0
 
+*eix-0.31.9 (31 Aug 2016)
+
+  31 Aug 2016; Manuel Rüger <mrueg@gentoo.org> +eix-0.31.9.ebuild:
+  Version bump to 0.31.9
+
+  Package-Manager: portage-2.3.0
+
+  31 Aug 2016; Manuel Rüger <mrueg@gentoo.org> -eix-0.31.8-r1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

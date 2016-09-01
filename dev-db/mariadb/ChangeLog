@@ -646,3 +646,8 @@
 
   Package-Manager: portage-2.3.0
 
+  31 Aug 2016; Brian Evans <grknight@gentoo.org> mariadb-10.1.17.ebuild:
+  Add missing if operator in tests
+
+  Package-Manager: portage-2.3.0
+

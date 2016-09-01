@@ -219,3 +219,10 @@
 
   Package-Manager: portage-2.2.28
 
+*hplip-3.16.8 (31 Aug 2016)
+
+  31 Aug 2016; Manuel Rüger <mrueg@gentoo.org> +hplip-3.16.8.ebuild:
+  Version bump to 3.16.8
+
+  Package-Manager: portage-2.3.0
+
