@@ -138,3 +138,10 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Sep 2016; Jeroen Roovers <jer@gentoo.org>
+  shadowsocks-libev-2.4.3-r2.ebuild, shadowsocks-libev-2.4.5.ebuild,
+  shadowsocks-libev-2.4.7-r1.ebuild:
+  Typo.
+
+  Package-Manager: portage-2.3.0
+

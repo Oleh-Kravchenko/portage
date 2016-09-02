@@ -122,3 +122,21 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Sep 2016; Jason Zaman <perfinion@gentoo.org>
+  -files/0002-libsemanage-Add-policy-binary-and-file_contexts.loca.patch,
+  -files/0003-libsemanage-Add-file_contexts-and-seusers-to-the-sto.patch,
+  -files/0004-libsemanage-save-homedir_template-in-the-policy-stor.patch,
+  -files/0005-libsemanage-store-users_extra-in-the-policy-store.patch,
+  -libsemanage-2.2-r2.ebuild, -libsemanage-2.3-r4.ebuild,
+  -libsemanage-2.4-r1.ebuild, -libsemanage-2.4-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.28
+
+  01 Sep 2016; Jason Zaman <perfinion@gentoo.org>
+  -files/0001-libsemanage-do-not-copy-contexts-in-semanage_migrate.patch,
+  libsemanage-9999.ebuild:
+  Remove unneeded patch
+
+  Package-Manager: portage-2.2.28
+

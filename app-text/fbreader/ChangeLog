@@ -74,3 +74,11 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Sep 2016; Andrey Grozin <grozin@gentoo.org> fbreader-0.99.4-r2.ebuild,
+  +files/fbreader-0.99.4-gcc6.patch:
+  make gcc6 happy
+
+  Bug: 592588
+
+  Package-Manager: portage-2.3.0
+

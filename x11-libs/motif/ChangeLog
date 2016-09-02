@@ -123,3 +123,9 @@
   motif-2.3.5.ebuild, motif-2.3.6.ebuild:
   sourceforge: switch to https:// URIs
 
+  01 Sep 2016; Markus Meier <maekke@gentoo.org> motif-2.3.6.ebuild:
+  arm stable, bug #591808
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

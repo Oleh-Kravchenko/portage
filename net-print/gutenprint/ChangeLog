@@ -72,3 +72,10 @@
 
   Gentoo-Bug: 585296
 
+*gutenprint-5.2.11 (01 Sep 2016)
+
+  01 Sep 2016; Tim Harder <radhermit@gentoo.org>
+  +files/gutenprint-switch-from-ijs-config-to-pkg-config.patch,
+  +gutenprint-5.2.11.ebuild:
+  version bump to 5.2.11
+

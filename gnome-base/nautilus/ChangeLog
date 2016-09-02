@@ -157,3 +157,20 @@
 
   Package-Manager: portage-2.3.0
 
+*nautilus-3.20.3 (01 Sep 2016)
+
+  01 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +nautilus-3.20.3.ebuild:
+  version bump to 3.20.3
+
+  Package-Manager: portage-2.3.0
+
+  01 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> -nautilus-3.20.1.ebuild:
+  drop 3.20.1 revision
+
+  Package-Manager: portage-2.3.0
+
+  01 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> nautilus-3.20.2.ebuild:
+  fix gtk+ dependency in 3.20.2
+
+  Package-Manager: portage-2.3.0
+

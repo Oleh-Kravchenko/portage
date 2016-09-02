@@ -114,3 +114,17 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Sep 2016; Jason Zaman <perfinion@gentoo.org>
+  -files/0006-build-related-fixes-bug-500674.patch,
+  -libselinux-2.2.2-r5.ebuild, -libselinux-2.3-r2.ebuild,
+  -libselinux-2.4.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.28
+
+  01 Sep 2016; Jason Zaman <perfinion@gentoo.org> libselinux-2.5.ebuild,
+  libselinux-9999.ebuild:
+  Drop ruby20 bug 589422
+
+  Package-Manager: portage-2.2.28
+

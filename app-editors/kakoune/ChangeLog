@@ -68,3 +68,14 @@
 
   Package-Manager: portage-2.2.28
 
+*kakoune-0_pre20160826 (01 Sep 2016)
+
+  01 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  +kakoune-0_pre20160826.ebuild:
+  version bump to 0_pre20160826
+
+  01 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org> kakoune-9999.ebuild:
+  9999: add GCC version check
+
+  correct usage of pkg-config
+

@@ -606,3 +606,11 @@
 
   Package-Manager: portage-2.3.0_p22
 
+  01 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-beta-53.0.2785.89.ebuild:
+  www-client/google-chrome: ignore desktop file validation
+
+  01 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  google-chrome-beta-53.0.2785.89.ebuild:
+  www-client/google-chrome: do all the work in src_install
+

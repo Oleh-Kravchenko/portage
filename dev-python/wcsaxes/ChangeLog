@@ -96,3 +96,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*wcsaxes-0.9 (01 Sep 2016)
+
+  01 Sep 2016; Sébastien Fabbro <bicatali@gentoo.org> +wcsaxes-0.9.ebuild:
+  version bump and fix xdg sandbox violation
+  Gentoo-Bug: 586610
+
+  Package-Manager: portage-2.3.0
+

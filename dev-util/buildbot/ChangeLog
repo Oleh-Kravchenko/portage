@@ -201,3 +201,11 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Brian Dolbec <dolsen@gentoo.org>
 
+*buildbot-0.9.0_rc2 (01 Sep 2016)
+
+  01 Sep 2016; Brian Dolbec <dolsen@gentoo.org> +buildbot-0.9.0_rc2.ebuild,
+  buildbot-9999.ebuild:
+  Version bump, syncronize deps in 9999
+
+  Package-Manager: portage-2.3.0
+

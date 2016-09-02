@@ -95,3 +95,11 @@
 
   Package-Manager: portage-2.3.0
 
+*will_paginate-3.1.0-r1 (01 Sep 2016)
+
+  01 Sep 2016; Hans de Graaff <graaff@gentoo.org> will_paginate-3.1.0.ebuild,
+  +will_paginate-3.1.0-r1.ebuild:
+  fix tests, add ruby23 revision
+
+  Package-Manager: portage-2.2.28
+

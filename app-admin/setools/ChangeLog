@@ -133,3 +133,8 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  01 Sep 2016; Jason Zaman <perfinion@gentoo.org> -setools-3.3.8-r5.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.28
+

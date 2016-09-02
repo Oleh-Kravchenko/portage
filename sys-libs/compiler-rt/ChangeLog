@@ -8,3 +8,6 @@
   +metadata.xml:
   Add a stand-alone ebuild for compiler-rt
 
+  31 Aug 2016; Michał Górny <mgorny@gentoo.org> compiler-rt-9999.ebuild:
+  Support running tests
+

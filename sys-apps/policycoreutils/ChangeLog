@@ -142,3 +142,11 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Sep 2016; Jason Zaman <perfinion@gentoo.org>
+  -policycoreutils-2.2.5-r4.ebuild, -policycoreutils-2.3-r3.ebuild,
+  -policycoreutils-2.4.ebuild, -policycoreutils-2.4-r1.ebuild,
+  -policycoreutils-2.4-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.2.28
+

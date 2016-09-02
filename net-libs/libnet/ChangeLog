@@ -85,3 +85,9 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Sep 2016; Markus Meier <maekke@gentoo.org> libnet-1.2_rc3-r1.ebuild:
+  arm stable, bug #591978
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

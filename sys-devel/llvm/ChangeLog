@@ -878,3 +878,7 @@
   29 Aug 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
   Fix cmake unused arg warnings with USE=-doc
 
+  31 Aug 2016; Michał Górny <mgorny@gentoo.org>
+  files/9999/0007-llvm-config-Clean-up-exported-values-update-for-shar.patch:
+  Fix llvm-config --obj-root on the live ebuild
+
