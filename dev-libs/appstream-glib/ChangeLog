@@ -319,3 +319,14 @@
 
   Package-Manager: portage-2.3.0
 
+  02 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  appstream-glib-0.5.16.ebuild:
+  keyword for ~arm64.
+
+  Tested on cortex-a53.
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2184
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

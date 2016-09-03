@@ -232,3 +232,13 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  02 Sep 2016; Patrice Clement <monsieurp@gentoo.org> rust-1.9.0.ebuild,
+  rust-1.10.0.ebuild, rust-1.11.0.ebuild:
+  app-vim/rust-mode: rename to app-vim/rust-vim.
+
+  Update package metadata.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2157
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

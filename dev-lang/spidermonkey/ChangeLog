@@ -157,3 +157,13 @@
   Gentoo-Bug: https://bugs.gentoo.org/458142
   Closes: https://github.com/gentoo/gentoo/pull/1589
 
+*spidermonkey-1.8.5-r6 (01 Sep 2016)
+
+  01 Sep 2016; Ian Stakenvicius <axs@gentoo.org>
+  +files/spidermonkey-1.8.5-gcc6.patch, +spidermonkey-1.8.5-r6.ebuild:
+  patch 1.8.5 to build with gcc6
+
+  Bug: http://bugs.gentoo.org/582478
+
+  Package-Manager: portage-2.2.28
+

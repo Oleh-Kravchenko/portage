@@ -1490,3 +1490,8 @@
 
   Package-Manager: portage-2.3.0_p22
 
+  02 Sep 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2840.6.ebuild:
+  Add media-fonts/noto to the suggestion list
+
+  Package-Manager: portage-2.3.0_p22
+

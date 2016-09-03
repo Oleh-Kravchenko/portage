@@ -258,3 +258,14 @@
 
   Package-Manager: portage-2.2.28
 
+*spamassassin-3.4.1-r7 (02 Sep 2016)
+
+  02 Sep 2016; Michael Orlitzky <mjo@gentoo.org>
+  -spamassassin-3.4.1-r6.ebuild, +spamassassin-3.4.1-r7.ebuild:
+  new revision adding a Net-CIDR-Lite dependency.
+
+  The Net::CIDR::Lite Perl module is used by SpamAssassin's URILocalBL
+  plugin, so it has been added to RDEPEND (dev-perl/Net-CIDR-Lite).
+
+  Package-Manager: portage-2.2.28
+

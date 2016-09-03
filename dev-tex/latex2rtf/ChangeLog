@@ -86,3 +86,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  02 Sep 2016; Tobias Klausmann <klausman@gentoo.org> latex2rtf-2.3.11.ebuild:
+  2.3.11-r0: add alpha keyword
+
+  Gentoo-Bug: 566032
+

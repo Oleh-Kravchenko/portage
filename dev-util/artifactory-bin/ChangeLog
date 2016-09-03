@@ -103,3 +103,11 @@
 
   Package-Manager: portage-2.3.0
 
+*artifactory-bin-4.12.0.1 (01 Sep 2016)
+
+  01 Sep 2016; Austin English <wizardedit@gentoo.org>
+  +artifactory-bin-4.12.0.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0
+

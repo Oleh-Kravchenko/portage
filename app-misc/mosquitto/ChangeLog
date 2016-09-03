@@ -29,3 +29,14 @@
 
   Package-Manager: portage-2.3.0
 
+*mosquitto-1.4.10 (01 Sep 2016)
+
+  01 Sep 2016; Manuel Rüger <mrueg@gentoo.org> +mosquitto-1.4.10.ebuild:
+  Version bump to 1.4.10
+
+  Proxy commit for Neil Bothwick
+
+  Gentoo-Bug: #592622
+
+  Package-Manager: portage-2.3.0
+

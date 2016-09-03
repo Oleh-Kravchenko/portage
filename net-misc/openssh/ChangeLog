@@ -426,3 +426,22 @@
 
   Package-Manager: portage-2.3.0
 
+*openssh-7.3_p1-r3 (02 Sep 2016)
+
+  02 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/openssh-7.3_p1-hpn-update.patch,
+  +files/openssh-7.3_p1-hpn-x509-glue.patch, +openssh-7.3_p1-r3.ebuild:
+  Revision bump, re-enable the hpn USE flag
+
+  This is hard masked for now for further testing, see bug #577768, All
+  the tests pass on all of my machines with USE="hpn" and USE="hpn X509".
+
+  Since there does not appear to be a tarball for the upstream hpn for
+  openssh-7.2+, this ebuild downloads the kitchensink diff, then patches
+  it to apply against openssh-7.3p1 and remove the server logging stuff
+  that get dropped from other hpn patchsets.
+
+  We can unmask this once more people test it and sign off that is looks good.
+
+  Package-Manager: portage-2.3.0
+

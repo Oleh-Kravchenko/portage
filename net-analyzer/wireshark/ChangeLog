@@ -724,3 +724,8 @@
 
   Package-Manager: portage-2.3.0
 
+  02 Sep 2016; Tobias Klausmann <klausman@gentoo.org> wireshark-2.0.5.ebuild:
+  2.0.5-r0: add alpha keyword
+
+  Gentoo-Bug: 589926
+

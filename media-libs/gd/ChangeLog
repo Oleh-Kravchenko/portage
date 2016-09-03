@@ -288,3 +288,8 @@
   22 Jul 2016; Mike Frysinger <vapier@gentoo.org> +gd-2.2.3.ebuild:
   version bump to 2.2.3
 
+  02 Sep 2016; Tobias Klausmann <klausman@gentoo.org> gd-2.2.3.ebuild:
+  2.2.3-r0: add alpha keyword
+
+  Gentoo-Bug: 587662
+
