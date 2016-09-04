@@ -433,3 +433,11 @@
   google-chrome-53.0.2785.89.ebuild:
   do all the work in src_install
 
+*google-chrome-53.0.2785.92 (03 Sep 2016)
+
+  03 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-53.0.2785.89.ebuild, +google-chrome-53.0.2785.92.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_p24
+

@@ -99,3 +99,9 @@
 
   Package-Manager: portage-2.3.0
 
+  03 Sep 2016; Mike Gilbert <floppym@gentoo.org> thefuck-3.10.ebuild,
+  thefuck-3.11.ebuild:
+  depend on virtual/python-pathlib
+
+  Package-Manager: portage-2.3.0_p24
+

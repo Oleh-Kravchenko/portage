@@ -236,3 +236,8 @@
   pypy-9999.ebuild:
   Remove unnecessary PDEP on python-updater
 
+*pypy-5.4.0 (03 Sep 2016)
+
+  03 Sep 2016; Michał Górny <mgorny@gentoo.org> +pypy-5.4.0.ebuild:
+  Bump to 5.4.0
+

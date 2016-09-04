@@ -1222,3 +1222,24 @@
 
   Package-Manager: portage-2.3.0_p22
 
+*chrome-binary-plugins-54.0.2840.8_alpha (03 Sep 2016)
+*chrome-binary-plugins-53.0.2785.92 (03 Sep 2016)
+*chrome-binary-plugins-53.0.2785.92_beta (03 Sep 2016)
+
+  03 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-53.0.2785.89_beta.ebuild,
+  -chrome-binary-plugins-53.0.2785.89.ebuild,
+  +chrome-binary-plugins-53.0.2785.92_beta.ebuild,
+  +chrome-binary-plugins-53.0.2785.92.ebuild,
+  -chrome-binary-plugins-54.0.2840.6_alpha.ebuild,
+  +chrome-binary-plugins-54.0.2840.8_alpha.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_p24
+
+  03 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  chrome-binary-plugins-54.0.2840.8_alpha.ebuild:
+  drop flash support
+
+  Package-Manager: portage-2.3.0_p24
+

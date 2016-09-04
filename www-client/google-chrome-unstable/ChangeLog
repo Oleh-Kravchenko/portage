@@ -710,3 +710,12 @@
   google-chrome-unstable-54.0.2840.6.ebuild:
   www-client/google-chrome: do all the work in src_install
 
+*google-chrome-unstable-54.0.2840.8 (03 Sep 2016)
+
+  03 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-unstable-54.0.2840.6.ebuild,
+  +google-chrome-unstable-54.0.2840.8.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_p24
+

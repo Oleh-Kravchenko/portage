@@ -284,3 +284,20 @@
   29 Aug 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
   Fix cmake unused arg warnings with USE=-doc
 
+  02 Sep 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild,
+  -files/9999/0004-cmake-Adjust-llvm-lit-search-to-match-the-one-in-LLV.patch:
+  Remove unnecessary llvm-lit search patch
+
+  Remove the llvm-lit search patch since it is no longer necessary and its
+  correctness is doubtful. Per https://reviews.llvm.org/D23743 the name
+  llvm-lit is not intended for system-wide install of lit. However, this
+  does not matter since the internal copy of lit is used when LLVM source
+  checkout is available, and unittests require this checkout to be
+  available when running tests.
+
+*clang-3.9.0-r100 (03 Sep 2016)
+
+  03 Sep 2016; Michał Górny <mgorny@gentoo.org> -clang-3.9.0_rc3-r100.ebuild,
+  +clang-3.9.0-r100.ebuild:
+  Bump to 3.9.0
+

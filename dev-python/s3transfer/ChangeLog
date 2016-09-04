@@ -30,3 +30,15 @@
 
   Package-Manager: portage-2.3.0
 
+  03 Sep 2016; Alex Brandt <alunduil@gentoo.org> metadata.xml:
+  rectify metadata overwrite
+
+  xiamao pointed out that I accidentally threw this work overtop of
+  existing work.  He suggested I at least merge the metadata with that in
+  6d3d8a71c0e825a77ced7588ddd5133026e07992 and this commit does that.
+
+  If there are any other problems due to this error, I'm sorry and feel
+  free to perform any necessary cleanups.
+
+  Package-Manager: portage-2.3.0
+

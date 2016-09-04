@@ -11,3 +11,10 @@
   31 Aug 2016; Michał Górny <mgorny@gentoo.org> compiler-rt-9999.ebuild:
   Support running tests
 
+  01 Sep 2016; Michał Górny <mgorny@gentoo.org> compiler-rt-9999.ebuild:
+  Disable sandbox during the tests
+
+  02 Sep 2016; Michał Górny <mgorny@gentoo.org>
+  +files/9999/0001-compiler-rt-cmake-Support-overriding-llvm-config-que.patch:
+  Add missing (not committed) patch
+

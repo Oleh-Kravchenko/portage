@@ -226,3 +226,8 @@
   -pypy-bin-5.3.1.ebuild, +pypy-bin-5.3.1-r1.ebuild:
   Remove unnecessary PDEP on python-updater
 
+*pypy-bin-5.4.0 (03 Sep 2016)
+
+  03 Sep 2016; Michał Górny <mgorny@gentoo.org> +pypy-bin-5.4.0.ebuild:
+  Bump to 5.4.0
+

@@ -916,3 +916,11 @@
 
   Signed-off-by: Jory A. Pratt <anarchy@gentoo.org>
 
+*firefox-48.0.1 (03 Sep 2016)
+
+  03 Sep 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-48.0.ebuild,
+  +firefox-48.0.1.ebuild:
+  bump 48.0 to 48.0.1
+
+  Package-Manager: portage-2.2.28
+

@@ -81,3 +81,10 @@
 
   Package-Manager: portage-2.2.28
 
+*biopython-1.68 (03 Sep 2016)
+
+  03 Sep 2016; David Seifert <soap@gentoo.org> +biopython-1.68.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

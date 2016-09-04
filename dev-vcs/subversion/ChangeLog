@@ -314,3 +314,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  03 Sep 2016; Tobias Klausmann <klausman@gentoo.org> subversion-1.9.4.ebuild:
+  1.9.4-r0: add alpha keyword
+
+  Gentoo-Bug: 586046
+

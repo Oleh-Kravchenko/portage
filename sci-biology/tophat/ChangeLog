@@ -101,3 +101,17 @@
 
   Package-Manager: portage-2.2.28
 
+*tophat-2.1.1-r1 (03 Sep 2016)
+
+  03 Sep 2016; David Seifert <soap@gentoo.org> -tophat-2.1.1.ebuild,
+  +tophat-2.1.1-r1.ebuild:
+  Various QA fixes, handle python properly
+
+  * Add subslot operator := for dev-libs/boost
+  * DEPEND on virtual/pkgconfig
+  * Add missing ${PYTHON_REQUIRED_USE} and ${PYTHON_DEPS}
+  * Install python scripts and modules properly using
+    'python_doscript' and 'python_domodule'
+
+  Package-Manager: portage-2.3.0
+
