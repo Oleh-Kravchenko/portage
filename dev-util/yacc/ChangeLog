@@ -92,3 +92,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  04 Sep 2016; Tobias Klausmann <klausman@gentoo.org> yacc-1.9.1-r6.ebuild:
+  1.9.1-r6: add alpha keyword
+
+  Gentoo-Bug: 591024
+

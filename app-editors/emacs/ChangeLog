@@ -349,3 +349,8 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Sep 2016; Tobias Klausmann <klausman@gentoo.org> emacs-24.5-r3.ebuild:
+  24.5-r3: add alpha keyword
+
+  Gentoo-Bug: 591746
+

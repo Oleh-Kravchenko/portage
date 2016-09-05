@@ -177,3 +177,8 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Sep 2016; Tobias Klausmann <klausman@gentoo.org> ebuild-mode-1.31.ebuild:
+  1.31-r0: add alpha keyword
+
+  Gentoo-Bug: 591804
+

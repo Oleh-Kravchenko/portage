@@ -87,3 +87,10 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Sep 2016; David Seifert <soap@gentoo.org> xdmf2-1.0_p141226-r2.ebuild:
+  Call 'python_optimize' only when USE=python
+
+  Gentoo-bug: 592848
+
+  Package-Manager: portage-2.3.0
+

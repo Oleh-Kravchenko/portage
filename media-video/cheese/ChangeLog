@@ -135,3 +135,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> cheese-3.20.2.ebuild:
+  raise gstreamer dependencies to 1.4, drop unused libgudev
+
+  gstreamer-1.4 is needed for GstDeviceMonitor which is used to drop libgudev.
+  Bring all gstreamer components up at the same time.
+
+  Package-Manager: portage-2.3.0
+

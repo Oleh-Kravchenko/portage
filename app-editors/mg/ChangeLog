@@ -99,3 +99,13 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Sep 2016; Fabian Groffen <grobian@gentoo.org> mg-20110905-r1.ebuild:
+  drop Prefix keywords, bug #503166
+
+  Package-Manager: portage-2.2.28
+
+  04 Sep 2016; Fabian Groffen <grobian@gentoo.org> mg-20110905-r1.ebuild:
+  fix copyright header
+
+  Package-Manager: portage-2.2.28
+

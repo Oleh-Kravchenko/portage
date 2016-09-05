@@ -29,3 +29,17 @@
 
   Package-Manager: portage-2.3.0
 
+*jaraco-itertools-2.0 (04 Sep 2016)
+
+  04 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  +jaraco-itertools-2.0.ebuild, metadata.xml:
+  bump to 2.0, add changelog
+
+  Package-Manager: portage-2.3.0
+
+  04 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  -jaraco-itertools-1.8.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

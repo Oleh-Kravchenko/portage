@@ -208,3 +208,15 @@
 
   Package-Manager: portage-2.3.0
 
+*lxc-2.0.4 (04 Sep 2016)
+
+  04 Sep 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxc-2.0.4-bash-completion.patch,
+  +files/lxc-2.0.4-omit-sysconfig.patch, +lxc-2.0.4.ebuild:
+  bump to 2.0.4
+
+  EAPI=6.  Also add a condition around a removed kernel
+  config option.
+
+  Package-Manager: portage-2.3.0
+

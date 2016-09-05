@@ -73,3 +73,8 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Sep 2016; Jeroen Roovers <jer@gentoo.org> servicelog-1.1.14.ebuild:
+  Bug #592846.
+
+  Package-Manager: portage-2.3.0
+

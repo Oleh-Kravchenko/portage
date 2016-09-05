@@ -388,3 +388,8 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Sep 2016; Fabian Groffen <grobian@gentoo.org> poppler-0.47.0.ebuild:
+  extend clang check to cover chost-clang as well
+
+  Package-Manager: portage-2.2.28
+

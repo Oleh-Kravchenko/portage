@@ -79,3 +79,9 @@
   01 Aug 2016; Mike Gilbert <floppym@gentoo.org> unicode-data-9.0.0.ebuild:
   Include ${P} in names of downloaded archives.
 
+  04 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  unicode-data-9.0.0.ebuild:
+  9.0.0-r0: add alpha keyword
+
+  Gentoo-Bug: 591592
+

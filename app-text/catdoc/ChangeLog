@@ -66,3 +66,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*catdoc-0.95 (04 Sep 2016)
+
+  04 Sep 2016; Patrice Clement <monsieurp@gentoo.org> +catdoc-0.95.ebuild,
+  +files/catdoc-0.95-parallel-make.patch:
+  version bump to 0.95.
+
+  * modernize ebuild
+  * fix parallel make install
+  * add arm keyword
+
+  Gentoo-Bug: https://bugs.gentoo.org/591362
+  Closes: https://github.com/gentoo/gentoo/pull/2204
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

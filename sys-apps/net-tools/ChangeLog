@@ -205,3 +205,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  04 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  net-tools-1.60_p20160215155418.ebuild:
+  1.60_p20160215155418-r0: add alpha keyword
+
+  Gentoo-Bug: 591430
+

@@ -114,3 +114,23 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*libgweather-3.18.2 (03 Sep 2016)
+
+  03 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +libgweather-3.18.2.ebuild:
+  bump from 3.18.1 to 3.18.2
+
+  NOAA shut down their METAR provider service, switch to another provider.
+
+  Package-Manager: portage-2.3.0
+
+*libgweather-3.20.3 (03 Sep 2016)
+
+  03 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +libgweather-3.20.3.ebuild:
+  bump from 3.20.1 to 3.20.3
+
+  NOAA shut down their METAR provider service, switch to another provider.
+
+  Package-Manager: portage-2.3.0
+

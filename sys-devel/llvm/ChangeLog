@@ -904,3 +904,16 @@
   03 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-3.9.0.ebuild:
   Readd WX stack fix to 3.9.0
 
+  04 Sep 2016; Fabian Groffen <grobian@gentoo.org>
+  +files/3.8.1/compiler-rt/darwin-default-sysroot.patch, llvm-3.8.1.ebuild,
+  llvm-3.9.0.ebuild:
+  add patch for compiler-rt on Darwin/Prefix
+
+  Package-Manager: portage-2.2.28
+
+  04 Sep 2016; Fabian Groffen <grobian@gentoo.org> llvm-3.8.1.ebuild,
+  llvm-3.9.0.ebuild:
+  remove trailing whitespace
+
+  Package-Manager: portage-2.2.28
+

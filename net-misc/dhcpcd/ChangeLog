@@ -271,3 +271,8 @@
 
   Package-Manager: portage-2.2.28
 
+  04 Sep 2016; Tobias Klausmann <klausman@gentoo.org> dhcpcd-6.11.1-r1.ebuild:
+  6.11.1-r1: add alpha keyword
+
+  Gentoo-Bug: 589384
+

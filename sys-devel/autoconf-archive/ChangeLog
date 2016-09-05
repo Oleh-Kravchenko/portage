@@ -152,3 +152,9 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  autoconf-archive-2016.03.20-r1.ebuild:
+  2016.03.20-r1: add alpha keyword
+
+  Gentoo-Bug: 589390
+

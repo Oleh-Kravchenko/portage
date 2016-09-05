@@ -401,3 +401,12 @@
 
   Package-Manager: portage-2.3.0
 
+*lxd-2.1 (04 Sep 2016)
+
+  04 Sep 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxd-2.1-dont-go-get.patch, +files/lxd-2.1.confd,
+  +files/lxd-2.1.initd, +lxd-2.1.ebuild:
+  bump to 2.1
+
+  Package-Manager: portage-2.3.0
+

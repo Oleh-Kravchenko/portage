@@ -129,3 +129,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  04 Sep 2016; Tobias Klausmann <klausman@gentoo.org> motif-2.3.6.ebuild:
+  2.3.6-r0: add alpha keyword
+
+  Gentoo-Bug: 591808
+
