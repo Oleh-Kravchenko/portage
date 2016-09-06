@@ -129,3 +129,12 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  gnome-characters-3.20.1.ebuild:
+  raise gtk+ to 3.20 and fix test deps again
+
+  gtk+-3.20 is required for the app to start at all, otherwise only garbage
+  gjs error messages are shown.
+
+  Package-Manager: portage-2.3.0
+

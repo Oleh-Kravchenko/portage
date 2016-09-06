@@ -193,3 +193,14 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+*libsoup-2.54.1-r1 (04 Sep 2016)
+
+  04 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +libsoup-2.54.1-r1.ebuild:
+  add missing dependency for USE=gssapi
+
+  gssapi support requires a kerberos implementation.
+  Also raise gtk-doc dependency per configure.
+
+  Package-Manager: portage-2.3.0
+

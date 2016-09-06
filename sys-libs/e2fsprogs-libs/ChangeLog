@@ -132,3 +132,12 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*e2fsprogs-libs-1.43.3 (05 Sep 2016)
+
+  05 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +e2fsprogs-libs-1.43.3.ebuild:
+  Bump to version 1.43.3
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

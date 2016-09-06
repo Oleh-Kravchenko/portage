@@ -116,3 +116,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  05 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> mixxx-2.0.0-r1.ebuild:
+  Fixed compilation with ffmpeg-3.x
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

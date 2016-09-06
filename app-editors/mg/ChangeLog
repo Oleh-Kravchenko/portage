@@ -109,3 +109,16 @@
 
   Package-Manager: portage-2.2.28
 
+  05 Sep 2016; Ulrich Müller <ulm@gentoo.org> -mg-20110905-r1.ebuild,
+  -mg-20160118.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.3.0
+
+*mg-20160905 (05 Sep 2016)
+
+  05 Sep 2016; Ulrich Müller <ulm@gentoo.org> +mg-20160905.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

@@ -178,3 +178,14 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Sep 2016; Jeroen Roovers <jer@gentoo.org> units-2.13-r1.ebuild:
+  Fix whitespace.
+
+  Package-Manager: portage-2.3.0
+
+  05 Sep 2016; Jeroen Roovers <jer@gentoo.org>
+  -files/units-2.13-fix-python.patch, -units-2.13-r1.ebuild:
+  Drop unsupported patch.
+
+  Package-Manager: portage-2.3.0
+

@@ -120,3 +120,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  04 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  gnome-weather-3.20.1.ebuild:
+  fix support for unittests
+
+  Package-Manager: portage-2.3.0
+

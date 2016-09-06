@@ -11,3 +11,8 @@
 
   Package-Manager: portage-2.2.27
 
+  05 Sep 2016; Ultrabug <ultrabug@gentoo.org> rethinkdb-2.3.4.ebuild:
+  compilation should use python2 fix #592726
+
+  Package-Manager: portage-2.2.27
+

@@ -528,3 +528,20 @@
 
   Package-Manager: portage-2.2.28
 
+*thunderbird-45.3.0-r1 (05 Sep 2016)
+
+  05 Sep 2016; Jory A. Pratt <anarchy@gentoo.org>
+  +thunderbird-45.3.0-r1.ebuild:
+  Install icons into hicolor theme
+
+  Based on www-client/firefox ebuild.
+
+  Gentoo-Bug: https://bugs.gentoo.org/464010
+  Closes: https://github.com/gentoo/gentoo/pull/1928
+
+  Signed-off-by: Jory A. Pratt <anarchy@gentoo.org>
+
+  05 Sep 2016; Jory A. Pratt <anarchy@gentoo.org>
+  thunderbird-45.3.0-r1.ebuild:
+  Fix whitespace issues
+

@@ -499,6 +499,16 @@
     </member>
   </project>
   <project>
+    <email>k_f@gentoo.org</email>
+    <name>Cinnamon</name>
+    <url>https://wiki.gentoo.org/wiki/Project:Cinnamon</url>
+    <description>Cinnamon is a desktop environment that is based on the GTK+ 3 toolkit. It was released in 2011. Cinnamon originally started as a fork of GNOME Shell.</description>
+    <member>
+      <email>k_f@gentoo.org</email>
+      <name>Kristian Fiskerstrand</name>
+    </member>
+  </project>
+  <project>
     <email>cjk@gentoo.org</email>
     <name>Cjk</name>
     <url>https://wiki.gentoo.org/wiki/Project:Cjk</url>
@@ -1149,7 +1159,7 @@
     <member>
       <email>antarus@gentoo.org</email>
       <name>Alec Warner</name>
-      <role>Board member</role>
+      <role>Board Member</role>
     </member>
     <member>
       <email>dabbott@gentoo.org</email>
@@ -1162,6 +1172,11 @@
       <role>Board Member: President</role>
     </member>
     <member>
+      <email>prometheanfire@gentoo.org</email>
+      <name>Matthew Thode</name>
+      <role>Board Member</role>
+    </member>
+    <member>
       <email>robbat2@gentoo.org</email>
       <name>Robin Johnson</name>
       <role>Board member: Infra Liaison, Treasurer</role>
@@ -1169,7 +1184,7 @@
     <member>
       <email>swift@gentoo.org</email>
       <name>Sven Vermeulen</name>
-      <role>Board member</role>
+      <role>Board Member</role>
     </member>
   </project>
   <project>

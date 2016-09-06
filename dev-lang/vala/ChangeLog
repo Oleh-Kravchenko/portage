@@ -231,3 +231,8 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> vala-0.32.1.ebuild:
+  raise glib dependency per configure
+
+  Package-Manager: portage-2.3.0
+

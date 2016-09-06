@@ -145,3 +145,19 @@
 
   Package-Manager: portage-2.3.0
 
+*shadowsocks-libev-2.5.0 (05 Sep 2016)
+
+  05 Sep 2016; Yixun Lan <dlan@gentoo.org> metadata.xml,
+  +shadowsocks-libev-2.5.0.ebuild:
+  version bump
+
+  Gentoo-Bug: 592652
+
+  Package-Manager: portage-2.3.0
+
+  05 Sep 2016; Yixun Lan <dlan@gentoo.org> -shadowsocks-libev-2.4.3-r2.ebuild,
+  -shadowsocks-libev-2.4.5.ebuild:
+  drop old
+
+  Package-Manager: portage-2.3.0
+

@@ -76,3 +76,6 @@
 
   Package-Manager: portage-2.2.28
 
+  05 Sep 2016; Aaron Bauman <bman@gentoo.org> swing-layout-1.0.4-r1.ebuild:
+  fix SRC_URI
+
