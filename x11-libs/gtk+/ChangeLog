@@ -482,3 +482,10 @@
   17 Aug 2016; Michał Górny <mgorny@gentoo.org> gtk+-3.20.8.ebuild:
   Call eapply_user (implicitly) before eautoreconf
 
+*gtk+-3.20.9 (05 Sep 2016)
+
+  05 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +gtk+-3.20.9.ebuild:
+  version bump to 3.20.9
+
+  Package-Manager: portage-2.3.0
+

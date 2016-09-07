@@ -168,3 +168,13 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*opencollada-1.6.31 (05 Sep 2016)
+
+  05 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  +opencollada-1.6.31.ebuild:
+  version bump to 1.6.31.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2245
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

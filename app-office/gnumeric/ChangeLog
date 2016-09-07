@@ -212,3 +212,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*gnumeric-1.12.32 (05 Sep 2016)
+
+  05 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnumeric-1.12.32.ebuild:
+  version bump to 1.12.32
+
+  Package-Manager: portage-2.3.0
+

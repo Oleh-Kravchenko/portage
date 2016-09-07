@@ -151,3 +151,19 @@
 
   Package-Manager: portage-2.2.27
 
+  18 Feb 2016; Patrick Lauer <patrick@gentoo.org> flake8-2.5.4.ebuild:
+  Fix mccabe dep
+
+  Package-Manager: portage-2.2.27
+
+*flake8-3.0.4 (06 Sep 2016)
+
+  06 Sep 2016; Tobias Klausmann <klausman@gentoo.org> +flake8-3.0.4.ebuild:
+  dev-python/{mccabe,flake8}: Version bump and fixes
+
+  This version of flake8 now depends on the recently-added pycodestyle.
+  Also, I changed the way the test suite is run to avoid a name collision.
+
+  06 Sep 2016; Tobias Klausmann <klausman@gentoo.org> flake8-3.0.4.ebuild:
+  make blockers revbump-tolerant and drop PY_USEDEP
+

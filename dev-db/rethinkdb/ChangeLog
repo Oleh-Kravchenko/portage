@@ -16,3 +16,8 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Sep 2016; Ultrabug <ultrabug@gentoo.org> rethinkdb-2.3.4.ebuild:
+  update jemalloc dependency fix #592734
+
+  Package-Manager: portage-2.2.27
+

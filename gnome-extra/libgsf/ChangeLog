@@ -205,3 +205,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+*libgsf-1.14.40 (05 Sep 2016)
+
+  05 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +libgsf-1.14.40.ebuild:
+  version bump to 1.14.40
+
+  Package-Manager: portage-2.3.0
+

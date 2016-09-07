@@ -194,3 +194,8 @@
 
   Package-Manager: portage-2.2.28
 
+  06 Sep 2016; Tobias Klausmann <klausman@gentoo.org> memcached-1.4.31.ebuild:
+  1.4.31-r0: add alpha keyword
+
+  Gentoo-Bug: 589120
+

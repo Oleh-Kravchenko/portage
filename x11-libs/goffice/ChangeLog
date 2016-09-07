@@ -230,3 +230,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*goffice-0.10.32 (05 Sep 2016)
+
+  05 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +goffice-0.10.32.ebuild:
+  version bump to 0.10.32
+
+  Package-Manager: portage-2.3.0
+

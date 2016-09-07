@@ -424,3 +424,11 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  webkit-gtk-2.12.3.ebuild:
+  raise gst-plugins-bad to 1.6
+
+  Per .cmake, needed for gst-plugins-gl.
+
+  Package-Manager: portage-2.3.0
+

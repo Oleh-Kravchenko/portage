@@ -112,3 +112,20 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*assimp-3.2-r3 (06 Sep 2016)
+
+  06 Sep 2016; Slawomir Lis <slis@gentoo.org> +assimp-3.2-r3.ebuild:
+  install Findassimp cmake module
+
+  As reported in bug 592892 there is need to install Findassimp.cmake
+  file in target system
+
+  Reported-by: Grygoriy I. Fuchedzhy <grygoriy.fuchedzhy@gmail.com>
+
+  Package-Manager: portage-2.3.0
+
+  06 Sep 2016; Slawomir Lis <slis@gentoo.org> +files/findassimp.patch:
+  included forgotten patch file
+
+  Package-Manager: portage-2.3.0
+

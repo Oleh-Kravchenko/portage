@@ -172,3 +172,17 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*nsd-4.1.12 (06 Sep 2016)
+
+  06 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> +nsd-4.1.12.ebuild:
+  Bump to version 4.1.12
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  06 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> -nsd-4.1.7.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

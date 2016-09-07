@@ -135,3 +135,10 @@
 
   Package-Manager: portage-2.3.0
 
+*eliom-9999 (06 Sep 2016)
+
+  06 Sep 2016; Alexis Ballier <aballier@gentoo.org> +eliom-9999.ebuild:
+  add live ebuild
+
+  Package-Manager: portage-2.3.0
+
