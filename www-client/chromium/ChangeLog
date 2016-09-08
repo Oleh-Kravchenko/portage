@@ -1511,3 +1511,11 @@
 
   Package-Manager: portage-2.2.28
 
+*chromium-54.0.2840.14 (07 Sep 2016)
+
+  07 Sep 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-54.0.2840.6.ebuild, +chromium-54.0.2840.14.ebuild:
+  dev channel bump (54.0.2840.14)
+
+  Package-Manager: portage-2.2.28
+

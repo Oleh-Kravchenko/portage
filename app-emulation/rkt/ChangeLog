@@ -202,3 +202,10 @@
 
   Package-Manager: portage-2.3.0
 
+*rkt-1.14.0 (07 Sep 2016)
+
+  07 Sep 2016; Zac Medico <zmedico@gentoo.org> +rkt-1.14.0.ebuild:
+  version bump to 1.14.0
+
+  Package-Manager: portage-2.3.0
+

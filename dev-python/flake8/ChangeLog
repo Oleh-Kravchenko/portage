@@ -167,3 +167,10 @@
   06 Sep 2016; Tobias Klausmann <klausman@gentoo.org> flake8-3.0.4.ebuild:
   make blockers revbump-tolerant and drop PY_USEDEP
 
+  07 Sep 2016; Tobias Klausmann <klausman@gentoo.org> flake8-3.0.4.ebuild:
+  Stop build from trying to install pytest-runner
+
+  The build system unconditionally requires pytest-runner, which we may
+  not install (if test is not in FEATURES). I then "helpfully" tries to
+  install it, causing sandbox violations.
+

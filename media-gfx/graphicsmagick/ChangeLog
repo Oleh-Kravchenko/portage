@@ -164,3 +164,19 @@
   graphicsmagick-1.3.24.ebuild:
   switch to libltdl for runtime #590336
 
+*graphicsmagick-1.3.25 (07 Sep 2016)
+
+  07 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +graphicsmagick-1.3.25.ebuild:
+  Security bump to version 1.3.25
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  07 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  graphicsmagick-1.3.25.ebuild:
+  Some qa fixes suggested by Soap__.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -445,3 +445,38 @@
 
   Package-Manager: portage-2.3.0
 
+  07 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/openssh-7.3_p1-hpn-update.patch:
+  Update hpn update patch to add fix for deadlock
+
+  Package-Manager: portage-2.3.0
+
+  07 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/openssh-7.3_p1-hpn-update.patch:
+  Update hpn patch in another attempt to fix the deadlock being seen on OSX
+
+  Package-Manager: portage-2.3.0
+
+  07 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/openssh-7.3_p1-hpn-update.patch:
+  Add a workaround to HPN for the OSX threading implemntation
+
+  The MT AES-CTR has a section of code that compares the currently running
+  thread's
+  thread id with the first thread created. It seems on OSX, the first thread
+  will
+  sometimes run before the thread ID is filled in (hence is zero), so this
+  test
+  will fail, and the initialization code does not get run. This makes the test
+  also check if the thread ID of the first thread is 0, and run the
+  initialization
+  code in that case as well.
+
+  Package-Manager: portage-2.3.0
+
+  07 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/openssh-7.3_p1-hpn-update.patch:
+  Final fix for deadlocks in the CTR-MT cipher
+
+  Package-Manager: portage-2.3.0
+

@@ -118,3 +118,11 @@
 
   Package-Manager: portage-2.2.26
 
+*cogl-1.22.2 (07 Sep 2016)
+
+  07 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +cogl-1.22.2.ebuild,
+  files/cogl-1.22.0-fglrx.patch:
+  version bump from 1.22.0-r1 to 1.22.2
+
+  Package-Manager: portage-2.3.0
+

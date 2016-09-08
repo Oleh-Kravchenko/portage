@@ -103,3 +103,8 @@
 
   Package-Manager: portage-2.3.0
 
+  07 Sep 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  remove java@ from the list of maintainers.
+
+  Package-Manager: portage-2.2.28
+

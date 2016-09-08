@@ -843,3 +843,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*vivaldi-1.4.589.4_p1 (07 Sep 2016)
+
+  07 Sep 2016; Jeroen Roovers <jer@gentoo.org> +vivaldi-1.4.589.4_p1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

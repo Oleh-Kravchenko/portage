@@ -474,3 +474,17 @@
 
   Package-Manager: portage-2.3.0
 
+  07 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  opera-beta-40.0.2308.15.ebuild, opera-beta-40.0.2308.26.ebuild:
+  replace me with sr-ME
+
+  Bug: https://bugs.gentoo.org/583762
+
+  07 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  opera-beta-40.0.2308.15.ebuild, opera-beta-40.0.2308.26.ebuild:
+  drop en-US from CHROMIUM_LANGS
+
+  chromium-2.eclass is hard-coded to include en-US.
+
+  Package-Manager: portage-2.3.0_p23
+

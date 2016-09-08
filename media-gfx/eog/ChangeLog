@@ -137,3 +137,21 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*eog-3.18.3 (06 Sep 2016)
+
+  06 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +eog-3.18.3.ebuild:
+  version bump from 3.18.2 to 3.18.3
+
+  CVE-2016-6855 and memory leaks.
+
+  Package-Manager: portage-2.3.0
+
+*eog-3.20.4 (06 Sep 2016)
+
+  06 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +eog-3.20.4.ebuild:
+  version bump from 3.20.3 to 3.20.4
+
+  CVE-2016-6855 and memory leaks.
+
+  Package-Manager: portage-2.3.0
+

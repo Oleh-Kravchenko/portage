@@ -140,3 +140,10 @@
 
   Package-Manager: portage-2.2.28
 
+*wordpress-4.6.1 (07 Sep 2016)
+
+  07 Sep 2016; Sebastian Pipping <sping@gentoo.org> +wordpress-4.6.1.ebuild:
+  4.6.1
+
+  Package-Manager: portage-2.3.0
+

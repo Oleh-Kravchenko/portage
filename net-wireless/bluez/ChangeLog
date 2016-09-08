@@ -350,3 +350,12 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*bluez-5.41 (07 Sep 2016)
+
+  07 Sep 2016; Manuel Rüger <mrueg@gentoo.org> +bluez-5.41.ebuild:
+  Version bump to 5.41
+
+  Gentoo-Bug: 587522
+
+  Package-Manager: portage-2.3.0
+

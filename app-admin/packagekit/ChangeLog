@@ -104,3 +104,12 @@
   particular bug assignment/CC to ensure that the requested assignee
   always goes first, in order to match the bug wrangling policies.
 
+*packagekit-1.1.1 (05 Sep 2016)
+
+  05 Sep 2016; mudler <mudler@sabayon.org> +packagekit-1.1.1.ebuild:
+  version bump to 1.1.1
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=587070
+
+  Package-Manager: portage-2.2.26
+

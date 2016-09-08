@@ -386,3 +386,10 @@
 
   Gentoo-Bug: 590482
 
+*curl-7.50.2 (07 Sep 2016)
+
+  07 Sep 2016; Anthony G. Basile <blueness@gentoo.org> +curl-7.50.2.ebuild:
+  version bump to 7.50.2
+
+  Package-Manager: portage-2.2.28
+
