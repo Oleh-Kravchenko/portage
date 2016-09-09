@@ -480,3 +480,21 @@
 
   Package-Manager: portage-2.3.0
 
+  07 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/openssh-7.3_p1-hpn-update.patch, openssh-7.3_p1-r3.ebuild:
+  Update hpn patch to remove another theoretic race
+
+  Package-Manager: portage-2.3.0
+
+  08 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/openssh-7.3_p1-hpn-update.patch:
+  Update patch to avoid hangs at exit
+
+  Package-Manager: portage-2.3.0
+
+  08 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/openssh-7.3_p1-hpn-update.patch:
+  Make hpn patch in 7.3_p1 reliable on all platforms
+
+  Package-Manager: portage-2.3.0
+

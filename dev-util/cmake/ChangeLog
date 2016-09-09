@@ -419,3 +419,25 @@
   +files/cmake-3.6.1-find_library-lib32.patch:
   Backport find_library() lib32 fix, #338492
 
+*cmake-3.6.2 (08 Sep 2016)
+
+  08 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> +cmake-3.6.2.ebuild:
+  Bump to version 3.6.2
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  08 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> cmake-3.6.2.ebuild:
+  use system cmake to build when available
+
+  Closes: https://github.com/gentoo/gentoo/pull/2236
+
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  08 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> -cmake-3.6.0.ebuild,
+  -cmake-3.6.1.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

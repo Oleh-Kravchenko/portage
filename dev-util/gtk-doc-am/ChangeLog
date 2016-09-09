@@ -111,3 +111,14 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*gtk-doc-am-1.25-r1 (07 Sep 2016)
+
+  07 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gtk-doc-am-1.25-r1.ebuild:
+  version bump to 1.25-r1
+
+  Switch to EAPI=6.
+  Fix dependencies per configure.
+
+  Package-Manager: portage-2.3.0
+

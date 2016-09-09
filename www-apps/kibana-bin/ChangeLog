@@ -226,3 +226,16 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Sep 2016; Patrice Clement <monsieurp@gentoo.org> kibana-bin-4.6.0.ebuild:
+  improve ebuild.
+
+  * Bump to EAPI 6.
+  * Fix indent.
+  * Add missing die()'s.
+  * Remove double slashes.
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2241
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -148,3 +148,13 @@
 
   Package-Manager: portage-2.3.0
 
+*libchamplain-0.12.14 (08 Sep 2016)
+
+  08 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +libchamplain-0.12.14.ebuild:
+  version bump from 0.12.13 to 0.12.14
+
+  Switch to EAPI=6 and fix vala USE flag handling.
+
+  Package-Manager: portage-2.3.0
+

@@ -597,7 +597,7 @@ dev-libs/skyutils
 # Mike Gilbert <floppym@gentoo.org> (07 Aug 2016)
 # Fails to switch cpufreq governor.
 # https://bugs.gentoo.org/590780
-=sys-power/cpupower-4.7.0
+~sys-power/cpupower-4.7.0
 
 # Pacho Ramos <pacho@gentoo.org> (7 Aug 2016)
 # Upstream dead, depends on old gstreamer, old webkit, many unresolved bug
@@ -662,10 +662,6 @@ net-dns/namecoin-qt
 # (on behalf of QA & proxy-maint)
 # Major QA violations, bug #587342 (#585722 in particular).
 games-emulation/ppsspp
-
-# Alexis Ballier <aballier@gentoo.org> (27 Jun 2016)
-# Breaks dev-ml/ppx_type_conv
->=dev-ml/ppx_deriving-4
 
 # Aaron Bauman <bman@gentoo.org> (26 Jun 2016)
 # Unpatched security vulnerability per bug #475120

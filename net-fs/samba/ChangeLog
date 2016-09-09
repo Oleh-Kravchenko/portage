@@ -826,3 +826,14 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*samba-4.5.0 (08 Sep 2016)
+
+  08 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> -samba-4.5.0_rc3.ebuild,
+  +samba-4.5.0.ebuild:
+  Bump to version 4.5.0
+
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -921,3 +921,6 @@
   llvm-3.9.0.ebuild:
   Move libcxx to PDEP, to avoid circular deps
 
+  08 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Fix disabling OCaml docs in -9999
+

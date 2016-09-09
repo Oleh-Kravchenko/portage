@@ -129,3 +129,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*gnome-sudoku-3.20.5 (08 Sep 2016)
+
+  08 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-sudoku-3.20.5.ebuild:
+  version bump from 3.20.4 to 3.20.5
+
+  Package-Manager: portage-2.3.0
+

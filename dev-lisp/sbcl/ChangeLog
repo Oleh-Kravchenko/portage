@@ -300,3 +300,10 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Sep 2016; Amy Winston <amynka@gentoo.org>
+  -files/bsd-sockets-test-1.2.patch:
+  remove unused patch
+
+  Patch name: bsd-sockets-test-1.2-patch
+  Closes: #2250
+

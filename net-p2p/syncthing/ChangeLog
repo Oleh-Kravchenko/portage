@@ -344,3 +344,17 @@
 
   Package-Manager: portage-2.3.0
 
+*syncthing-0.14.6 (08 Sep 2016)
+
+  08 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org> +syncthing-0.14.6.ebuild:
+  bump to 0.14.6
+
+  Acked-By: Dirkjan Ochtman <djc@gentoo.org>
+
+  Package-Manager: portage-2.3.0
+
+  08 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org> -syncthing-0.14.3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

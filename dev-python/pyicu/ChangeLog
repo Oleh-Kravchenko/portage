@@ -22,3 +22,8 @@
 
   Package-Manager: portage-2.3.0
 
+  08 Sep 2016; Marek Szuba <marecki@gentoo.org> pyicu-1.9.3.ebuild:
+  use HTML_DOCS instead of deprecated dohtml
+
+  Package-Manager: portage-2.3.0
+

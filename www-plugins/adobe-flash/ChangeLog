@@ -449,3 +449,16 @@
 
   Package-Manager: portage-2.3.0
 
+*adobe-flash-22.0.0.209 (08 Sep 2016)
+
+  08 Sep 2016; Jeroen Roovers <jer@gentoo.org> +adobe-flash-22.0.0.209.ebuild,
+  +files/pepper-flash:
+  Version bump (bug #593004).
+
+  Package-Manager: portage-2.3.0
+
+  08 Sep 2016; Jeroen Roovers <jer@gentoo.org> adobe-flash-22.0.0.209.ebuild:
+  Clean up ebuild.
+
+  Package-Manager: portage-2.3.0
+

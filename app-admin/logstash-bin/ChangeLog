@@ -281,3 +281,32 @@
 
   Package-Manager: portage-2.3.0
 
+*logstash-bin-2.4.0 (08 Sep 2016)
+
+  08 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  -logstash-bin-2.3.2.ebuild, -logstash-bin-2.3.3.ebuild,
+  logstash-bin-2.3.4.ebuild, +logstash-bin-2.4.0.ebuild,
+  -logstash-bin-2.4.0-r1.ebuild:
+  drop old.
+
+  Gentoo-Bug: https://bugs.gentoo.org/592544
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2242
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
+*logstash-bin-2.4.0-r2 (08 Sep 2016)
+
+  08 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  +logstash-bin-2.4.0-r2.ebuild:
+  revbump to make Patrick happy.
+
+  Package-Manager: portage-2.2.28
+
+  08 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  -logstash-bin-2.4.0.ebuild:
+  clean up old.
+
+  Package-Manager: portage-2.2.28
+

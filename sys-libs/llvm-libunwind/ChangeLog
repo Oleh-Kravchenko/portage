@@ -35,3 +35,10 @@
 
   Patch-by: Lei Zhang <zhanglei.april@gmail.com>
 
+  08 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-libunwind-3.9.0.ebuild,
+  llvm-libunwind-9999.ebuild:
+  Add missing MULTILIB_USEDEP on sys-devel/llvm
+
+  Add MULTILIB_USEDEP on sys-devel/llvm since the needed CMake files are
+  installed in ABI-specific lib* directory.
+

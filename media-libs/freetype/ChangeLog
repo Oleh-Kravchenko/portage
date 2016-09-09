@@ -198,3 +198,12 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*freetype-2.7 (08 Sep 2016)
+
+  08 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/freetype-2.7-enable-valid.patch, +freetype-2.7.ebuild:
+  Bump to version 2.7
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

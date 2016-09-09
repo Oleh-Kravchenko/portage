@@ -129,3 +129,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+*pangomm-2.40.1 (08 Sep 2016)
+
+  08 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +pangomm-2.40.1.ebuild:
+  version bump from 2.40.0 to 2.40.1
+
+  Package-Manager: portage-2.3.0
+

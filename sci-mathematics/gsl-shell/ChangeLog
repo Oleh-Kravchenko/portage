@@ -78,3 +78,11 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  07 Sep 2016; David Seifert <soap@gentoo.org> -gsl-shell-2.2.0.ebuild:
+  Removing EAPI 4 ebuild gsl-shell-2.2.0.ebuild
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/2268
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
