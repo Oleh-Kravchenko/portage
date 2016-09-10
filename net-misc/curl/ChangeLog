@@ -393,3 +393,9 @@
 
   Package-Manager: portage-2.2.28
 
+  09 Sep 2016; Jeroen Roovers <jer@gentoo.org> curl-7.50.2.ebuild:
+  Stable for HPPA (bug #592974).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

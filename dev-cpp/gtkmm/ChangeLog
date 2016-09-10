@@ -281,3 +281,20 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*gtkmm-2.24.5 (08 Sep 2016)
+
+  08 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +gtkmm-2.24.5.ebuild:
+  version bump from 2.24.4-r3 to 2.24.5
+
+  Basically a release of r3. Switched to EAPI=6. Add missing multilib
+  dependency on pkgconfig.
+
+  Package-Manager: portage-2.3.0
+
+  08 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  -files/gtkmm-3.18.0-gcc47.patch, -gtkmm-3.16.0.ebuild,
+  -gtkmm-3.18.0-r1.ebuild:
+  cleanup old revisions
+
+  Package-Manager: portage-2.3.0
+

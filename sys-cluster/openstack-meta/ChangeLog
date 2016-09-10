@@ -84,3 +84,7 @@
 
   Package-Manager: portage-2.2.26
 
+  09 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -openstack-meta-2015.2.9999.ebuild:
+  clean up liberty openstack
+

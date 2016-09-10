@@ -405,3 +405,7 @@
   -glance-11.0.1-r1.ebuild:
   cleanup of liberty tags in openstack
 
+  09 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -glance-2015.2.9999.ebuild:
+  clean up liberty openstack
+

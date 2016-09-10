@@ -174,3 +174,9 @@
   not install (if test is not in FEATURES). I then "helpfully" tries to
   install it, causing sandbox violations.
 
+*flake8-3.0.4-r1 (09 Sep 2016)
+
+  09 Sep 2016; Tobias Klausmann <klausman@gentoo.org> -flake8-3.0.4.ebuild,
+  +flake8-3.0.4-r1.ebuild:
+  add missing dep on d-p/configparser
+

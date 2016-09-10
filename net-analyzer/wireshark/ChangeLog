@@ -741,3 +741,10 @@
 
   Package-Manager: portage-2.3.0
 
+*wireshark-2.0.6 (09 Sep 2016)
+
+  09 Sep 2016; Jeroen Roovers <jer@gentoo.org> +wireshark-2.0.6.ebuild:
+  Version bump (bug #593258).
+
+  Package-Manager: portage-2.3.0
+

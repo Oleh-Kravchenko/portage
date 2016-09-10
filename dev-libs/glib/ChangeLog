@@ -429,3 +429,12 @@
 
   Package-Manager: portage-2.3.0
 
+*glib-2.48.2 (08 Sep 2016)
+
+  08 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +glib-2.48.2.ebuild:
+  version bump from 2.48.1-r1 to 2.48.2
+
+  Truly fix static-libs dependency on libpcre this time, bug #588082.
+
+  Package-Manager: portage-2.3.0
+

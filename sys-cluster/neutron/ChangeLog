@@ -396,3 +396,7 @@
 
   Package-Manager: portage-2.2.28
 
+  09 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -neutron-2015.2.9999.ebuild:
+  clean up liberty openstack
+

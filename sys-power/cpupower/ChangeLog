@@ -157,3 +157,9 @@
 
   Bug: https://bugs.gentoo.org/531360
 
+  09 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  files/cpupower-frequency-set.service:
+  fix typo in cpupower-frequency-set.service
+
+  Package-Manager: portage-2.3.0_p24
+

@@ -790,3 +790,22 @@
 
   Package-Manager: portage-2.2.28
 
+*qemu-2.7.0-r1 (09 Sep 2016)
+
+  09 Sep 2016; Matthias Maier <tamiko@gentoo.org>
+  +files/qemu-2.7.0-CVE-2016-7155.patch,
+  +files/qemu-2.7.0-CVE-2016-7156.patch,
+  +files/qemu-2.7.0-CVE-2016-7157-1.patch,
+  +files/qemu-2.7.0-CVE-2016-7157-2.patch, +qemu-2.7.0-r1.ebuild:
+  fix static-user dep, security patches, bug #593038
+
+  This commit resolves
+
+    bug #591202
+    bug #593024
+    bug #593034 CVE-2016-7155
+    bug #593036 CVE-2016-7156
+    bug #593038 CVE-2016-7157
+
+  Package-Manager: portage-2.2.28
+

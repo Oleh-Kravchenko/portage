@@ -1930,3 +1930,26 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-4.4.20 (09 Sep 2016)
+
+  09 Sep 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.20.ebuild:
+  Linux patch 4.4.20
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-3.12.63 (09 Sep 2016)
+
+  09 Sep 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.12.63.ebuild:
+  Linux patch 3.12.63
+
+  Package-Manager: portage-2.2.28
+
+*gentoo-sources-3.14.78 (09 Sep 2016)
+
+  09 Sep 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.78.ebuild:
+  Linux patch 3.14.78
+
+  Package-Manager: portage-2.2.28
+

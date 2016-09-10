@@ -197,3 +197,11 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+*gdbus-codegen-2.48.2 (08 Sep 2016)
+
+  08 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gdbus-codegen-2.48.2.ebuild:
+  version bump to 2.48.2
+
+  Package-Manager: portage-2.3.0
+

@@ -924,3 +924,7 @@
   08 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
   Fix disabling OCaml docs in -9999
 
+  09 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-3.8.1-r2.ebuild,
+  llvm-3.9.0.ebuild, llvm-9999.ebuild:
+  Improve OCaml deps as suggested by aballier
+

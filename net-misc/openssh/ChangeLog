@@ -498,3 +498,25 @@
 
   Package-Manager: portage-2.3.0
 
+  09 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/openssh-7.3_p1-hpn-cipher-ctr-mt-no-deadlocks.patch,
+  -files/openssh-7.3_p1-hpn-update.patch,
+  files/openssh-7.3_p1-hpn-x509-glue.patch, openssh-7.3_p1-r3.ebuild:
+  Refactor new HPN patch to be it's own patch
+
+  Make my own patch rather than going with the patches on patches approach
+
+  Package-Manager: portage-2.3.0
+
+  09 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/openssh-7.3_p1-hpn-cipher-ctr-mt-no-deadlocks.patch:
+  Update the ctr-mt patch to the final version upstream
+
+  Package-Manager: portage-2.3.0
+
+  09 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  files/openssh-7.3_p1-hpn-cipher-ctr-mt-no-deadlocks.patch:
+  Minor bugfix in 7.3_p1-r1 for OSX
+
+  Package-Manager: portage-2.3.0
+

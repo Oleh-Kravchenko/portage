@@ -67,3 +67,11 @@
 
   Package-Manager: portage-2.3.0_p22
 
+*cli53-0.8.2 (09 Sep 2016)
+
+  09 Sep 2016; Mike Gilbert <floppym@gentoo.org> -cli53-0.7.4.ebuild,
+  -cli53-0.8.0.ebuild, +cli53-0.8.2.ebuild, cli53-9999.ebuild:
+  bump to 0.8.2
+
+  Package-Manager: portage-2.3.0_p24
+

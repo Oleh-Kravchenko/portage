@@ -462,3 +462,16 @@
 
   Package-Manager: portage-2.3.0
 
+*adobe-flash-22.0.0.209-r1 (09 Sep 2016)
+
+  09 Sep 2016; Jeroen Roovers <jer@gentoo.org>
+  +adobe-flash-22.0.0.209-r1.ebuild:
+  Install manifest.json properly (bug #593260 by Ortwin Glueck).
+
+  Package-Manager: portage-2.3.0
+
+  09 Sep 2016; Jeroen Roovers <jer@gentoo.org> -adobe-flash-22.0.0.209.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+
