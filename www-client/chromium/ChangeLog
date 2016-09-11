@@ -1527,3 +1527,38 @@
 
   Package-Manager: portage-2.3.0_p24
 
+*chromium-54.0.2840.16 (09 Sep 2016)
+
+  09 Sep 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  -chromium-54.0.2840.8.ebuild, +chromium-54.0.2840.16.ebuild:
+  beta channel bump (54.0.2840.16)
+
+  Package-Manager: portage-2.2.28
+
+*chromium-55.0.2853.0 (09 Sep 2016)
+
+  09 Sep 2016; Pawel Hajdan, Jr <phajdan.jr@gentoo.org>
+  +chromium-55.0.2853.0.ebuild, +files/chromium-system-ffmpeg-r4.patch,
+  +files/chromium-system-jinja-r14.patch:
+  dev channel bump (55.0.2853.0)
+
+  Package-Manager: portage-2.2.28
+
+  10 Sep 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2840.16.ebuild,
+  chromium-55.0.2853.0.ebuild:
+  enable gnome and gnome-keyring by default
+
+  Bug: https://bugs.gentoo.org/593342
+
+  Package-Manager: portage-2.3.0_p24
+
+  10 Sep 2016; Mike Gilbert <floppym@gentoo.org> chromium-55.0.2853.0.ebuild:
+  make gnome and gnome-keyring optional for M55
+
+  Package-Manager: portage-2.3.0_p24
+
+  10 Sep 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2840.16.ebuild:
+  make gnome and gnome-keyring optional for M54
+
+  Package-Manager: portage-2.3.0_p24
+

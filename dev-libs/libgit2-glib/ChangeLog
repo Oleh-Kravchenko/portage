@@ -161,3 +161,13 @@
 
   Package-Manager: portage-2.3.0
 
+*libgit2-glib-0.24.4 (09 Sep 2016)
+
+  09 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +libgit2-glib-0.24.4.ebuild:
+  version bump 0.24.3 → 0.24.4
+
+  Fix multiple python installation, bug #571368.
+
+  Package-Manager: portage-2.3.0
+

@@ -307,3 +307,16 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*iso-codes-3.70 (09 Sep 2016)
+
+  09 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +iso-codes-3.70.ebuild:
+  version bump 3.68 → 3.70
+
+  Package-Manager: portage-2.3.0
+
+  09 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> iso-codes-3.63.ebuild,
+  -iso-codes-3.65.ebuild:
+  cleanup old revisions
+
+  Package-Manager: portage-2.3.0
+

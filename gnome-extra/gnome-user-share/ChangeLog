@@ -128,3 +128,11 @@
   Package-Manager: portage-2.3.0_rc1
   RepoMan-Options: --include-arches="x86"
 
+*gnome-user-share-3.18.2 (09 Sep 2016)
+
+  09 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-user-share-3.18.2.ebuild:
+  version bump from 3.18.1-r1 to 3.18.2
+
+  Package-Manager: portage-2.3.0
+

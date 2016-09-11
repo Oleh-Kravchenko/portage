@@ -225,3 +225,17 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Aug 2016; Daniel Pielmeier <billie@gentoo.org> -conky-1.10.1.ebuild,
+  -conky-1.10.3.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.2.28
+
+  10 Sep 2016; Daniel Pielmeier <billie@gentoo.org> conky-1.10.4.ebuild,
+  +files/conky-1.10.4-x11-build.patch:
+  Fix build without X11. Bug #592252.
+
+  Thanks to Toralf Förster for the report.
+
+  Package-Manager: portage-2.2.28
+

@@ -301,3 +301,18 @@
   +clang-3.9.0-r100.ebuild:
   Bump to 3.9.0
 
+*clang-3.4.2-r100 (10 Sep 2016)
+
+  10 Sep 2016; Fabian Groffen <grobian@gentoo.org> +clang-3.4.2-r100.ebuild:
+  restore clang-3.4.2 for Prefix bootstraps, bug #588132
+
+  Package-Manager: portage-2.2.28
+
+  10 Sep 2016; Fabian Groffen <grobian@gentoo.org> clang-3.4.2-r100.ebuild,
+  clang-3.5.0-r100.ebuild, clang-3.5.2-r100.ebuild, clang-3.6.2-r100.ebuild,
+  clang-3.7.1-r100.ebuild, clang-3.8.0-r100.ebuild, clang-3.8.1-r100.ebuild,
+  clang-3.9.0-r100.ebuild:
+  marked ~x86-macos
+
+  Package-Manager: portage-2.2.28
+

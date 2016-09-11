@@ -362,3 +362,13 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  10 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  virtualbox-extpack-oracle-4.3.38.106717.ebuild,
+  virtualbox-extpack-oracle-4.3.40.110317.ebuild:
+  Don't call get_libdir in global scope.
+
+  Gentoo bug #593430
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

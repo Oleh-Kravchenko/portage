@@ -134,3 +134,9 @@
 
   Gentoo-Bug: 591808
 
+  10 Sep 2016; Jeroen Roovers <jer@gentoo.org> motif-2.3.6.ebuild:
+  Stable for HPPA PPC64 (bug #591808).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

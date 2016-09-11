@@ -210,3 +210,11 @@
 
   Package-Manager: portage-2.2.28
 
+*puppetserver-2.6.0 (09 Sep 2016)
+
+  09 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +puppetserver-2.6.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

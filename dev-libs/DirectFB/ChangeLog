@@ -87,3 +87,8 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Sep 2016; Michael Palimaka <kensington@gentoo.org>
+  -files/DirectFB-1.6.3-build.patch, -files/DirectFB-1.6.3-flags.patch,
+  -files/DirectFB-1.7.1-flags.patch:
+  dev-libs/DircetFB: remove unused patches
+

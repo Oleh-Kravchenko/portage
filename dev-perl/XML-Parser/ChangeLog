@@ -64,3 +64,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  10 Sep 2016; Kent Fredric <kentnl@gentoo.org> XML-Parser-2.410.0-r2.ebuild,
+  XML-Parser-2.440.0.ebuild:
+  fix get_libdir in global scope, bug #593370
+
+  Bug: https://bugs.gentoo.org/593370
+
+  Package-Manager: portage-2.3.0
+

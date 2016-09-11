@@ -546,3 +546,19 @@
   -nova-2015.2.9999.ebuild:
   clean up liberty openstack
 
+  10 Sep 2016; Matthew Thode <prometheanfire@gentoo.org> nova-13.1.1.ebuild:
+  stable
+
+  Package-Manager: portage-2.2.28
+
+  10 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -files/etc.liberty/api-paste.ini, -files/etc.liberty/cells.json,
+  -files/etc.liberty/logging_sample.conf, -files/etc.liberty/policy.json,
+  -files/etc.liberty/rootwrap.conf,
+  -files/etc.liberty/rootwrap.d/api-metadata.filters,
+  -files/etc.liberty/rootwrap.d/compute.filters,
+  -files/etc.liberty/rootwrap.d/network.filters, -nova-13.1.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.2.28
+

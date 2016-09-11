@@ -330,3 +330,17 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*appstream-glib-0.6.3 (09 Sep 2016)
+
+  09 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +appstream-glib-0.6.3.ebuild, metadata.xml:
+  version bump 0.5.16 → 0.6.3
+
+  Package-Manager: portage-2.3.0
+
+  10 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  appstream-glib-0.6.3.ebuild:
+  re-add libyaml, bug #593352
+
+  Package-Manager: portage-2.3.0
+

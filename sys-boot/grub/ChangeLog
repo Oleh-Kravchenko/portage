@@ -396,3 +396,8 @@
 
   Package-Manager: portage-2.3.0_p22
 
+  10 Sep 2016; Mike Gilbert <floppym@gentoo.org> grub-9999.ebuild:
+  unifont 9.0.02
+
+  Package-Manager: portage-2.3.0_p24
+

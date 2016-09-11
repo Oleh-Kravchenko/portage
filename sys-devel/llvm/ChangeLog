@@ -928,3 +928,43 @@
   llvm-3.9.0.ebuild, llvm-9999.ebuild:
   Improve OCaml deps as suggested by aballier
 
+  10 Sep 2016; Fabian Groffen <grobian@gentoo.org> llvm-3.5.2.ebuild,
+  llvm-3.7.1-r3.ebuild, llvm-3.8.1.ebuild, llvm-3.8.1-r2.ebuild,
+  llvm-3.9.0.ebuild:
+  move libcxx into PDEPEND for Darwin
+
+  llvm needs libcxx-headers at most, but not the library, however, llvm
+  does segfault if the matching libcxx isn't available at runtime, so make
+  sure we install a matching version after installing llvm on Darwin.
+
+  Package-Manager: portage-2.2.28
+
+*llvm-3.4.2-r100 (10 Sep 2016)
+
+  10 Sep 2016; Fabian Groffen <grobian@gentoo.org>
+  +files/clang-3.1-gentoo-runtime-gcc-detection-v3.patch,
+  +files/clang-3.4-darwin_build_fix.patch,
+  +files/clang-3.4-gentoo-install.patch, +files/llvm-3.4-gentoo-install.patch,
+  +llvm-3.4.2-r100.ebuild:
+  restore llvm-3.4.2 for Prefix bootstraps, bug #588132
+
+  Package-Manager: portage-2.2.28
+
+  10 Sep 2016; Fabian Groffen <grobian@gentoo.org>
+  +files/3.4.2/clang/darwin_build_fix.patch,
+  +files/3.4.2/clang/gentoo-install.patch,
+  +files/3.4.2/clang/gentoo-runtime-gcc-detection-v3.patch,
+  +files/3.4.2/gentoo-install.patch,
+  -files/clang-3.1-gentoo-runtime-gcc-detection-v3.patch,
+  -files/clang-3.4-darwin_build_fix.patch,
+  -files/clang-3.4-gentoo-install.patch, -files/llvm-3.4-gentoo-install.patch,
+  llvm-3.4.2-r100.ebuild:
+  fix patches for 3.4.2
+
+  Package-Manager: portage-2.2.28
+
+  10 Sep 2016; Fabian Groffen <grobian@gentoo.org> llvm-3.4.2-r100.ebuild:
+  make 3.4.2 work post-Prefix bootstrap too
+
+  Package-Manager: portage-2.2.28
+
