@@ -140,3 +140,8 @@
   oslo-log-3.3.0.ebuild:
   openstack mass stable for mitaka, x86 and amd64 for bug 582170
 
+  11 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -oslo-log-0.3.0.ebuild, -oslo-log-1.0.0.ebuild, -oslo-log-1.1.0.ebuild,
+  -oslo-log-1.10.0.ebuild:
+  massive cleanup of old openstack stuff
+

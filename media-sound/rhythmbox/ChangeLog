@@ -124,3 +124,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --force
 
+*rhythmbox-3.4.1 (11 Sep 2016)
+
+  11 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +rhythmbox-3.4.1.ebuild:
+  version bump 3.4 → 3.4.1
+
+  Package-Manager: portage-2.3.0
+

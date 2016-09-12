@@ -125,3 +125,13 @@
 
   Package-Manager: portage-2.2.27
 
+*libgudev-230-r1 (11 Sep 2016)
+
+  11 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +libgudev-230-r1.ebuild:
+  fix missing multilib dependencies
+
+  add missing build dependencies, add subslot to introspection, bump to
+  EAPI=6.
+
+  Package-Manager: portage-2.3.0
+

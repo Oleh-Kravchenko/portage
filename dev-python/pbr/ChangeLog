@@ -403,3 +403,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  11 Sep 2016; Jeroen Roovers <jer@gentoo.org> pbr-1.9.1.ebuild:
+  Stable for HPPA PPC64 (bug #582704).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

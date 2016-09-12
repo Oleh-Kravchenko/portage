@@ -313,3 +313,19 @@
 
   Gentoo-Bug: 592218
 
+*ejabberd-16.08 (29 Aug 2016)
+
+  29 Aug 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +ejabberd-16.08.ebuild,
+  +files/ejabberd-16.08-ejabberdctl.patch:
+  Bump version to 16.08
+
+  Thanks for Craig Andrews <candrews@integralblue.com> for initial GitHub
+  pull request #2015 <https://github.com/gentoo/gentoo/pull/2015>. It
+  required rebasing changes on top of ejabberd-16.04-r1.ebuild and
+  correcting typo in fast_xml version. Pull request includes changes in
+  dev-erlang category but these has been split into separate commits.
+
+  Gentoo-Bug: 590502
+
+  Package-Manager: portage-2.3.0
+

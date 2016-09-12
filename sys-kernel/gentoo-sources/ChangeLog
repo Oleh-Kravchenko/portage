@@ -1953,3 +1953,11 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-3.14.79 (11 Sep 2016)
+
+  11 Sep 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.14.79.ebuild:
+  Linux patch 3.14.79
+
+  Package-Manager: portage-2.2.28
+

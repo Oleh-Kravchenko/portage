@@ -110,3 +110,37 @@
 
   Package-Manager: portage-2.2.28
 
+  20 Aug 2016; Nathan Phillip Brink <binki@gentoo.org>
+  unrealircd-4.0.5.ebuild:
+  Precreate tune/logfile for bug #560790.
+
+  If you run a program as root and it creates files those will be
+  owned by root instead of the intended user. Since unrealircd was
+  not intended to be run directly as root but it is easy to do so
+  by accident, this change precreates some files so that it is easier
+  to switch back to running unrealircd as an unprivileged user.
+
+  Package-Manager: portage-2.2.28
+
+  11 Sep 2016; Nathan Phillip Brink <binki@gentoo.org>
+  unrealircd-4.0.5.ebuild:
+  ssl is required in the 4.x branch for bug #593202.
+
+  Package-Manager: portage-2.2.28
+
+*unrealircd-4.0.6 (11 Sep 2016)
+
+  11 Sep 2016; Nathan Phillip Brink <binki@gentoo.org>
+  -unrealircd-4.0.5.ebuild, +unrealircd-4.0.6.ebuild:
+  Bump to unrealircd-4.0.6.
+
+  Package-Manager: portage-2.2.28
+
+*unrealircd-3.2.10.7 (11 Sep 2016)
+
+  11 Sep 2016; Nathan Phillip Brink <binki@gentoo.org>
+  +unrealircd-3.2.10.7.ebuild:
+  Bump 3.x to unrealircd-3.2.10.7 for bug #593294.
+
+  Package-Manager: portage-2.2.28
+

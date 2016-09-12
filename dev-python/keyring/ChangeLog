@@ -161,3 +161,9 @@
 
   Package-Manager: portage-2.2.28
 
+  11 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -files/setup-1.0.patch, -keyring-3.7.ebuild, -keyring-9.2.1.ebuild:
+  clean up more openstack related stuff
+
+  Thanks to mm1ke for the proding
+

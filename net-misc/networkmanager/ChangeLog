@@ -477,3 +477,23 @@
 
   Package-Manager: portage-2.3.0
 
+*networkmanager-1.4.0 (11 Sep 2016)
+
+  11 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> metadata.xml,
+  +networkmanager-1.4.0.ebuild:
+  version bump 1.2.4 → 1.4.0
+
+  Allow consolekit as an alternative for suspend/resume handling,
+  it is now promoted to a RDEPEND. Add missing libaudit support.
+  Add missing REQUIRED_USE for vala. Add missing libselinux dependency.
+
+  Package-Manager: portage-2.3.0
+
+  11 Sep 2016; Mike Gilbert <floppym@gentoo.org> networkmanager-1.4.0.ebuild:
+  depend on >=sys-auth/consolekit-1.0.0
+
+  Needed for suspend/resume support.
+
+  Bug: https://bugs.gentoo.org/590432
+  Package-Manager: portage-2.3.0_p24
+

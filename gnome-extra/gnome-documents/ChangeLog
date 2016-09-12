@@ -195,3 +195,11 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*gnome-documents-3.20.1 (11 Sep 2016)
+
+  11 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-documents-3.20.1.ebuild:
+  version bump 3.20.0 → 3.20.1
+
+  Package-Manager: portage-2.3.0
+

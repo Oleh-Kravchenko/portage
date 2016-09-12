@@ -114,3 +114,10 @@
 
   Package-Manager: portage-2.2.26
 
+  11 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -files/CVE-2014-4615.patch, -pycadf-0.6.0.ebuild, -pycadf-0.8.0.ebuild,
+  -pycadf-1.0.0.ebuild, -pycadf-1.1.0.ebuild:
+  clean up more openstack related stuff
+
+  Thanks to mm1ke for the proding
+

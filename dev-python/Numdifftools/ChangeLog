@@ -121,3 +121,11 @@
 
   Package-Manager: portage-2.3.0
 
+*Numdifftools-0.9.17 (11 Sep 2016)
+
+  11 Sep 2016; David Seifert <soap@gentoo.org> -Numdifftools-0.9.16.ebuild,
+  +Numdifftools-0.9.17.ebuild:
+  Version bump to 0.9.17, switch back to PyPI
+
+  Package-Manager: portage-2.3.0
+

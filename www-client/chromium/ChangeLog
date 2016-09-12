@@ -1562,3 +1562,17 @@
 
   Package-Manager: portage-2.3.0_p24
 
+  11 Sep 2016; Mike Gilbert <floppym@gentoo.org> chromium-55.0.2853.0.ebuild:
+  invoke generate_gn.py for system-ffmpeg
+
+  Bug: https://bugs.gentoo.org/593356
+
+  Package-Manager: portage-2.3.0_p24
+
+  11 Sep 2016; Mike Gilbert <floppym@gentoo.org> chromium-54.0.2840.16.ebuild,
+  chromium-55.0.2853.0.ebuild:
+  depend on dev-vcs/git
+
+  Bug: https://bugs.gentoo.org/593476
+  Package-Manager: portage-2.3.0_p24
+

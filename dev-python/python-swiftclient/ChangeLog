@@ -82,3 +82,8 @@
 
   Package-Manager: portage-2.2.26
 
+  11 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -python-swiftclient-2.0.3.ebuild, -python-swiftclient-2.1.0.ebuild,
+  -python-swiftclient-2.2.0-r1.ebuild, python-swiftclient-3.0.0.ebuild:
+  massive cleanup of old openstack stuff
+

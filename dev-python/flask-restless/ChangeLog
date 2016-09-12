@@ -70,3 +70,10 @@
   flask-restless-0.16.0.ebuild, flask-restless-0.17.0.ebuild:
   update HOMEPAGE
 
+  11 Sep 2016; David Seifert <soap@gentoo.org> -files/docbuild.patch:
+  remove unused patch
+
+  Closes: https://github.com/gentoo/gentoo/pull/2291
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

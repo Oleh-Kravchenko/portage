@@ -119,3 +119,8 @@
 
   Package-Manager: portage-2.3.0
 
+  10 Sep 2016; Sergei Trofimovich <slyfox@gentoo.org> crystal-0.19.1.ebuild:
+  drop unused 'multilib' eclass, noticed by Soap
+
+  Package-Manager: portage-2.3.0
+

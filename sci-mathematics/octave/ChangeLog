@@ -227,3 +227,20 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Sep 2016; David Seifert <soap@gentoo.org>
+  -files/octave-4.0.0-llvm-3.5-gnulib-hg.patch,
+  -files/octave-4.0.0-llvm-3.5.patch, metadata.xml, octave-4.0.0.ebuild,
+  octave-4.0.0-r1.ebuild, octave-4.0.1.ebuild, octave-4.0.1-r1.ebuild,
+  octave-4.0.2-r2.ebuild, octave-4.0.3.ebuild:
+  Remove USE=jit
+
+  Gentoo-Bug: 588098
+  * USE=jit has become a liability instead of a feature for
+    Gentoo. The JIT support within octave requires old versions
+    of LLVM, which are broken and unsupported.
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2288
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

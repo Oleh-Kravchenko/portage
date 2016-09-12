@@ -247,3 +247,10 @@
 
   Package-Manager: portage-2.3.0
 
+*notmuch-0.22.2 (10 Sep 2016)
+
+  10 Sep 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +notmuch-0.22.2.ebuild:
+  Bump version to 0.22.2
+
+  Package-Manager: portage-2.3.0
+

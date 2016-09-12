@@ -900,3 +900,21 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Sep 2016; Jeroen Roovers <jer@gentoo.org> youtube-dl-2016.09.03.ebuild,
+  youtube-dl-2016.09.04.1.ebuild, youtube-dl-99999999.ebuild:
+  RDEPEND on dev-python/setuptools.
+
+  Package-Manager: portage-2.3.0
+
+  11 Sep 2016; Jeroen Roovers <jer@gentoo.org> -youtube-dl-2016.09.03.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+
+*youtube-dl-2016.09.08 (11 Sep 2016)
+
+  11 Sep 2016; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2016.09.08.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

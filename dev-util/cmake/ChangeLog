@@ -441,3 +441,11 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  11 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> cmake-3.6.2.ebuild:
+  Stick with bootsrapping when <cmake-3.4.0_rc1 is installed.
+
+  This should fix Gentoo bug #593490
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
