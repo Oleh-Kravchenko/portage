@@ -234,3 +234,7 @@
 
   Package-Manager: portage-2.2.28
 
+  12 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -swift-2.5.0-r2.ebuild, -swift-2.8.0.ebuild:
+  doing the test
+

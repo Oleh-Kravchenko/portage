@@ -799,3 +799,8 @@
 
   Package-Manager: portage-2.3.0
 
+  12 Sep 2016; NP-Hardass <NP-Hardass@gentoo.org> -foo.patch:
+  Remove accidentally committed temp file
+
+  Package-Manager: portage-2.3.0
+

@@ -223,3 +223,22 @@
 
   Package-Manager: portage-2.2.28
 
+*openconnect-7.07-r1 (12 Sep 2016)
+
+  12 Sep 2016; Mike Gilbert <floppym@gentoo.org> -openconnect-7.07.ebuild,
+  +openconnect-7.07-r1.ebuild, openconnect-9999.ebuild:
+  use vpnc-scripts-20160829
+
+  Bug: https://bugs.gentoo.org/591774
+
+  Package-Manager: portage-2.3.0_p24
+
+  12 Sep 2016; Mike Gilbert <floppym@gentoo.org> openconnect-7.06-r4.ebuild,
+  openconnect-7.06_p20160614.ebuild, openconnect-7.07-r1.ebuild,
+  openconnect-9999.ebuild:
+  drop broken libressl support
+
+  Bug: https://bugs.gentoo.org/593546
+
+  Package-Manager: portage-2.3.0_p24
+

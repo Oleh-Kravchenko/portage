@@ -139,3 +139,10 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +files/data-3.20.2/history-entry.ui, +files/data-3.20.2/history-view.ui,
+  gnome-calculator-3.20.2.ebuild:
+  add missing data files, bug #593438
+
+  Package-Manager: portage-2.3.0
+

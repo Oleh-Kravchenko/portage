@@ -129,3 +129,9 @@
 
   Package-Manager: portage-2.3.0
 
+  12 Sep 2016; Kent Fredric <kentnl@gentoo.org> Crypt-OpenPGP-1.70.0.ebuild,
+  Crypt-OpenPGP-1.120.0.ebuild:
+  Fix dependency on dev-perl/Data-Buffer
+
+  Package-Manager: portage-2.3.0
+

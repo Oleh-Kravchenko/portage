@@ -59,3 +59,7 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Sep 2016; Matthew Thode <prometheanfire@gentoo.org> -pecan-1.0.2.ebuild,
+  -pecan-1.0.3.ebuild, pecan-1.0.4.ebuild:
+  doing the test
+

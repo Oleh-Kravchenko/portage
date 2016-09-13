@@ -409,3 +409,6 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  12 Sep 2016; Matthew Thode <prometheanfire@gentoo.org> -pbr-1.8.1-r1.ebuild:
+  doing the test
+

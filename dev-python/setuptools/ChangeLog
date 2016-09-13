@@ -514,3 +514,9 @@
   setuptools-9999.ebuild:
   version bump to 26.1.1
 
+*setuptools-27.1.2 (12 Sep 2016)
+
+  12 Sep 2016; Tim Harder <radhermit@gentoo.org> +setuptools-27.1.2.ebuild,
+  setuptools-9999.ebuild:
+  version bump to 27.1.2
+

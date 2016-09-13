@@ -77,3 +77,14 @@
 
   Package-Manager: portage-2.3.0
 
+  12 Sep 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  Remove nvinson & proxy-maint from metadata.xml.
+
+  Removing myself as the listed maintainer.
+  Removing proxy-maint as there are no other proxied maintainers listed.
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2301
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -100,3 +100,7 @@
   09 May 2016; Mike Frysinger <vapier@gentoo.org> rtslib-fb-2.1.57.ebuild:
   add arm/mips love
 
+  12 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -rtslib-fb-2.1.47.ebuild:
+  doing the test
+

@@ -1576,3 +1576,8 @@
   Bug: https://bugs.gentoo.org/593476
   Package-Manager: portage-2.3.0_p24
 
+  12 Sep 2016; Jason A. Donenfeld <zx2c4@gentoo.org> metadata.xml:
+  document suid USE flag
+
+  Package-Manager: portage-2.3.0
+

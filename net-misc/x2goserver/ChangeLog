@@ -160,3 +160,12 @@
   x2goserver-4.0.1.19-r3.ebuild:
   net-fs/sshfs: moved from sys-fs/sshfs
 
+  12 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  x2goserver-4.0.1.19.ebuild, x2goserver-4.0.1.19-r2.ebuild,
+  x2goserver-4.0.1.19-r3.ebuild:
+  fix typo 'databse'->'database'.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2308
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

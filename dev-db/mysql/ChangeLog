@@ -451,3 +451,23 @@
 
   Package-Manager: portage-2.3.0
 
+*mysql-5.6.33 (12 Sep 2016)
+
+  12 Sep 2016; Brian Evans <grknight@gentoo.org> +mysql-5.6.33.ebuild:
+  Version bump for 5.6.33
+
+  Package-Manager: portage-2.3.0
+
+*mysql-5.5.52 (12 Sep 2016)
+
+  12 Sep 2016; Brian Evans <grknight@gentoo.org> +mysql-5.5.52.ebuild:
+  Version bump for 5.5.52
+
+  Package-Manager: portage-2.3.0
+
+  12 Sep 2016; Brian Evans <grknight@gentoo.org> -mysql-5.5.50.ebuild,
+  -mysql-5.5.51.ebuild:
+  Drop old versions
+
+  Package-Manager: portage-2.3.0
+

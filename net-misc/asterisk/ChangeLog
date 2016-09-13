@@ -202,3 +202,12 @@
   Jaco Kroon allow faster start-up with a large spool directory,
   closes bug #582512
 
+*asterisk-13.11.2 (12 Sep 2016)
+*asterisk-11.23.1 (12 Sep 2016)
+
+  12 Sep 2016; Tony Vroon <chainsaw@gentoo.org> +asterisk-11.23.1.ebuild,
+  +asterisk-13.11.2.ebuild:
+  New releases on branches 11 & 13.
+
+  Package-Manager: portage-2.3.0
+

@@ -122,3 +122,10 @@
 
   Package-Manager: portage-2.3.0
 
+*mg-20160912 (12 Sep 2016)
+
+  12 Sep 2016; Ulrich Müller <ulm@gentoo.org> +mg-20160912.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+

@@ -208,3 +208,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  12 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  -freebsd-lib-9.1-r10.ebuild:
+  remove old.
+
+  Gentoo-Bug: https://bugs.gentoo.org/593386
+  Closes: https://github.com/gentoo/gentoo/pull/2299
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

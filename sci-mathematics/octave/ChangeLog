@@ -244,3 +244,13 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  11 Sep 2016; David Seifert <soap@gentoo.org>
+  -files/octave-3.8.0-fix-compile.patch, octave-4.0.0.ebuild,
+  octave-4.0.0-r1.ebuild, octave-4.0.1.ebuild, octave-4.0.1-r1.ebuild,
+  octave-4.0.2-r2.ebuild, octave-4.0.3.ebuild:
+  Remove left-over 'use jit' calls
+
+  * https://github.com/gentoo/gentoo/pull/2288
+
+  Package-Manager: portage-2.3.0
+

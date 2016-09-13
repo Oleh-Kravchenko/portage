@@ -525,3 +525,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  12 Sep 2016; Yixun Lan <dlan@gentoo.org> -xen-4.6.3-r1.ebuild,
+  -xen-4.7.0-r1.ebuild:
+  drop old vulnerable versions
+
+  Package-Manager: portage-2.3.0
+

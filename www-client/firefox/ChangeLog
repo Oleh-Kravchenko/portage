@@ -924,3 +924,13 @@
 
   Package-Manager: portage-2.2.28
 
+  12 Sep 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-45.2.0.ebuild:
+  drop old/vulnerable 45.2.0
+
+  Package-Manager: portage-2.2.28
+
+  12 Sep 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  drop gtk3 USE flag description
+
+  Package-Manager: portage-2.3.0_p24
+

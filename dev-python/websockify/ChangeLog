@@ -91,3 +91,7 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -websockify-0.6.0.ebuild:
+  doing the test
+
