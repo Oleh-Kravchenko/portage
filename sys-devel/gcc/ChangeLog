@@ -324,3 +324,15 @@
 
   Package-Manager: portage-2.2.28
 
+*gcc-6.2.0 (12 Sep 2016)
+
+  12 Sep 2016; Magnus Granberg <zorry@gentoo.org> +gcc-6.2.0.ebuild,
+  metadata.xml:
+  add gcc 6.2.0
+
+  13 Sep 2016; Jason A. Donenfeld <zx2c4@gentoo.org> gcc-6.2.0.ebuild,
+  metadata.xml:
+  fix english
+
+  Package-Manager: portage-2.3.0
+

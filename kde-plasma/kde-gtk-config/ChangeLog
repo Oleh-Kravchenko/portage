@@ -364,3 +364,18 @@
 
   Package-Manager: portage-2.3.0
 
+*kde-gtk-config-5.7.4-r1 (13 Sep 2016)
+
+  13 Sep 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  +files/kde-gtk-config-5.7.4-look-for-cursors-in-right-place.patch,
+  -kde-gtk-config-5.7.4.ebuild, +kde-gtk-config-5.7.4-r1.ebuild:
+  ensure we use gentoo cursor paths by importing upstream patch
+
+  Package-Manager: portage-2.3.0
+
+  13 Sep 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  files/kde-gtk-config-5.7.4-look-for-cursors-in-right-place.patch:
+  Actually use upstream patch
+
+  Package-Manager: portage-2.3.0
+

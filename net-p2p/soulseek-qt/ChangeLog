@@ -65,3 +65,9 @@
 
   Package-Manager: portage-2.3.0
 
+  13 Sep 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  soulseek-qt-20160117.ebuild:
+  update URLs correctly
+
+  Package-Manager: portage-2.3.0
+

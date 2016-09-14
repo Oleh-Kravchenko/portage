@@ -249,3 +249,12 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*sudo-1.8.18_rc2 (13 Sep 2016)
+
+  13 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> -sudo-1.8.18_rc1.ebuild,
+  +sudo-1.8.18_rc2.ebuild:
+  Bump to version 1.8.18_rc2. Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

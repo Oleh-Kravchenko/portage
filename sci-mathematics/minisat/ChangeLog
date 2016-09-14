@@ -84,3 +84,22 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  13 Sep 2016; David Seifert <soap@gentoo.org> minisat-2.2.0-r4.ebuild:
+  Unsiliencing makefile
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/2282
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+*minisat-2.2.0_p20130925 (13 Sep 2016)
+
+  13 Sep 2016; David Seifert <soap@gentoo.org>
+  +files/minisat-2.2.0_p20130925-nusmv.patch, +minisat-2.2.0_p20130925.ebuild:
+  Adding minisat-2.2.0_p20130925
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/2282
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

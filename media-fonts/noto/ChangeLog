@@ -122,3 +122,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*noto-20160531 (12 Sep 2016)
+
+  12 Sep 2016; Mike Gilbert <floppym@gentoo.org> +noto-20160531.ebuild:
+  bump to 20160531
+
+  Splits the CJK fonts into a separate package.
+

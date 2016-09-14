@@ -58,3 +58,8 @@
 
   Package-Manager: portage-2.3.0
 
+  13 Sep 2016; Alexis Ballier <aballier@gentoo.org> ppx_deriving-4.0.ebuild:
+  add missing build dep on cppo, bug #593620
+
+  Package-Manager: portage-2.3.0
+

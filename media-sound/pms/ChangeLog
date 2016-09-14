@@ -118,3 +118,34 @@
   25 Aug 2016; Kristian Fiskerstrand <k_f@gentoo.org> -pms-0.42-r1.ebuild:
   dropped old 0.42-r1 from the tree
 
+  13 Sep 2016; Marek Szuba <marecki@gentoo.org> pms-0.42-r2.ebuild:
+  fix numerous QA issues in 0.42-r2
+
+  specify correct license
+
+  fix ncurses slot depend
+
+  add missing virtual/libintl depend and sys-devel/gettext rdepend
+
+  use tc-getPKG_CONFIG from toolchain funcs
+
+  Signed-off-by: Marek Szuba <marecki@gentoo.org>
+
+  13 Sep 2016; Marek Szuba <marecki@gentoo.org>
+  +files/pms-9999-fix-automagic-dep.patch, pms-9999.ebuild:
+  live ebuild overhaul
+
+  fix ncurses slot dep
+
+  specify correct license
+
+  fix automagic dependency on autodoc
+
+  add missing depends (dev-util/intltool and dev-util/gettext)
+
+  add missing rdepend on virtual/libintl
+
+  specify gcc 4.9 as the minimal gcc version
+
+  Signed-off-by: Marek Szuba <marecki@gentoo.org>
+

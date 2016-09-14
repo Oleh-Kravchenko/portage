@@ -520,3 +520,16 @@
 
   Package-Manager: portage-2.3.0
 
+*openssh-7.3_p1-r4 (13 Sep 2016)
+
+  13 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/openssh-7.3_p1-fix-segfault-with-x509.patch,
+  +openssh-7.3_p1-r4.ebuild:
+  Revision bump, add a patch to fix a bug in the X509 patch
+
+  The X509 patch would segfault when connecting to a server that had a X509
+  host key and was in the known_hosts file due to an uninitialized variable.
+  This adds a patch to fix the problem.
+
+  Package-Manager: portage-2.3.0
+
