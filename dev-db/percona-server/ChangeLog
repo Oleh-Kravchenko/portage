@@ -250,3 +250,11 @@
 
   Package-Manager: portage-2.3.0
 
+  14 Sep 2016; Thomas Deutschmann <whissi@gentoo.org>
+  -percona-server-5.6.31.77.0.ebuild:
+  Drop old security vulnerable versions
+
+  Gentoo-Bug: https://bugs.gentoo.org/593610
+
+  Package-Manager: portage-2.3.0
+

@@ -562,3 +562,10 @@
 
   Package-Manager: portage-2.3.0
 
+*nginx-1.11.4 (14 Sep 2016)
+
+  14 Sep 2016; Thomas Deutschmann <whissi@gentoo.org> +nginx-1.11.4.ebuild:
+  Bump to v1.11.4
+
+  Package-Manager: portage-2.3.0
+

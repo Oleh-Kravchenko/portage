@@ -112,3 +112,15 @@
 
   Package-Manager: portage-2.3.0
 
+*cockatrice-20160506-r1 (14 Sep 2016)
+
+  14 Sep 2016; Austin English <wizardedit@gentoo.org>
+  +cockatrice-20160506-r1.ebuild:
+  remove deprecated games eclass
+
+  Also update to EAPI 6
+
+  Gentoo-Bug: https://bugs.gentoo.org/574082
+
+  Package-Manager: portage-2.3.0
+

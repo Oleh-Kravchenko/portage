@@ -1735,3 +1735,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Sep 2016; Jeroen Roovers <jer@gentoo.org> php-5.6.25.ebuild:
+  Stable for PPC64 (bug #591710).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

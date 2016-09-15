@@ -79,3 +79,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*ocurl-0.7.8 (14 Sep 2016)
+
+  14 Sep 2016; Alexis Ballier <aballier@gentoo.org> +ocurl-0.7.8.ebuild:
+  bump to 0.7.8 and use github source
+
+  Package-Manager: portage-2.3.0
+

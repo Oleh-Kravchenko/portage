@@ -296,6 +296,11 @@
       <role>LILO</role>
     </member>
     <member>
+      <email>chutzpah@gentoo.org</email>
+      <name>Patrick McLean</name>
+      <role>Misc stuff that needs to get done</role>
+    </member>
+    <member>
       <email>hwoarang@gentoo.org</email>
       <name>Markos Chandras</name>
     </member>
@@ -1823,10 +1828,10 @@
       <name>Luca Barbato</name>
       <role>Member</role>
     </member>
-    <member>
+    <member is-lead="1">
       <email>mgorny@gentoo.org</email>
       <name>Michał Górny</name>
-      <role>Member, core LLVM/clang</role>
+      <role>Lead, core LLVM/clang</role>
     </member>
     <member>
       <email>williamh@gentoo.org</email>

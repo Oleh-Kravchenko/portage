@@ -475,3 +475,24 @@
 
   Package-Manager: portage-2.3.0
 
+*adobe-flash-23.0.0.162 (14 Sep 2016)
+*adobe-flash-11.2.202.635 (14 Sep 2016)
+
+  14 Sep 2016; Jeroen Roovers <jer@gentoo.org>
+  +adobe-flash-11.2.202.635.ebuild, +adobe-flash-23.0.0.162.ebuild:
+  Version bump (bug #593684).
+
+  Package-Manager: portage-2.3.0
+
+  14 Sep 2016; Jeroen Roovers <jer@gentoo.org>
+  -adobe-flash-22.0.0.209-r1.ebuild:
+  Old (bug #593684).
+
+  Package-Manager: portage-2.3.0
+
+  14 Sep 2016; Jeroen Roovers <jer@gentoo.org>
+  adobe-flash-11.2.202.635.ebuild:
+  Update HOMEPAGE.
+
+  Package-Manager: portage-2.3.0
+

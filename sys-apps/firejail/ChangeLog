@@ -91,3 +91,20 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*firejail-0.9.38.2 (14 Sep 2016)
+
+  14 Sep 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +firejail-0.9.38.2.ebuild:
+  Add version 0.9.38.2
+
+  It comes with security fixes. 0.9.38 is stable there this one should be
+  stabilized ASAP.
+
+  Package-Manager: portage-2.3.0
+
+  14 Sep 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +files/firejail-0.9.38.2-sysmacros.patch:
+  Add missing patch for 0.9.38.2
+
+  Package-Manager: portage-2.3.0
+

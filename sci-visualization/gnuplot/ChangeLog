@@ -177,3 +177,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*gnuplot-5.0.4 (14 Sep 2016)
+
+  14 Sep 2016; Christoph Junghans <ottxor@gentoo.org> +gnuplot-5.0.4.ebuild:
+  version bump (bug #577828)
+
+  Package-Manager: portage-2.2.28
+

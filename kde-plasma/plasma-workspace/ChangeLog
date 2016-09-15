@@ -546,3 +546,12 @@
 
   Package-Manager: portage-2.3.0
 
+*plasma-workspace-5.7.5 (14 Sep 2016)
+
+  14 Sep 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/plasma-workspace-5.7.5-klipper-autostart.patch,
+  +plasma-workspace-5.7.5.ebuild:
+  kde-plasma: version bump 5.7.5
+
+  Package-Manager: portage-2.3.0
+

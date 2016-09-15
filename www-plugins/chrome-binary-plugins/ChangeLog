@@ -1291,3 +1291,15 @@
 
   Package-Manager: portage-2.3.0_p24
 
+*chrome-binary-plugins-55.0.2859.0_alpha (14 Sep 2016)
+*chrome-binary-plugins-53.0.2785.113 (14 Sep 2016)
+
+  14 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-53.0.2785.101.ebuild,
+  +chrome-binary-plugins-53.0.2785.113.ebuild,
+  -chrome-binary-plugins-55.0.2853.0_alpha.ebuild,
+  +chrome-binary-plugins-55.0.2859.0_alpha.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.0_p24
+

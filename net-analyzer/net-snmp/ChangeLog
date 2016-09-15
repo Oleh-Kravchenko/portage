@@ -195,3 +195,15 @@
 
   Package-Manager: portage-2.3.0
 
+*net-snmp-5.7.3-r6 (14 Sep 2016)
+
+  14 Sep 2016; Jeroen Roovers <jer@gentoo.org> +net-snmp-5.7.3-r6.ebuild:
+  Prune libtool files (bug #593752).
+
+  Package-Manager: portage-2.3.0
+
+  14 Sep 2016; Jeroen Roovers <jer@gentoo.org> -net-snmp-5.7.3-r4.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

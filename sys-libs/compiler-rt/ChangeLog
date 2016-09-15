@@ -18,3 +18,10 @@
   +files/9999/0001-compiler-rt-cmake-Support-overriding-llvm-config-que.patch:
   Add missing (not committed) patch
 
+  13 Sep 2016; Michał Górny <mgorny@gentoo.org> compiler-rt-9999.ebuild:
+  Remove unnecessary RDEP on llvm
+
+  14 Sep 2016; Michał Górny <mgorny@gentoo.org> compiler-rt-9999.ebuild,
+  -files/9999/0001-compiler-rt-cmake-Support-overriding-llvm-config-que.patch:
+  Remove the patch applied upstream
+

@@ -21,3 +21,6 @@
 
   Package-Manager: portage-2.2.27
 
+  14 Sep 2016; Ultrabug <ultrabug@gentoo.org> rethinkdb-2.3.4.ebuild:
+  minor fix on --config message
+

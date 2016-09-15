@@ -139,3 +139,15 @@
   cracklib-2.9.4.ebuild, cracklib-2.9.5.ebuild:
   sourceforge: switch to https:// URIs
 
+*cracklib-2.9.6-r1 (14 Sep 2016)
+
+  14 Sep 2016; Thomas Deutschmann <whissi@gentoo.org>
+  +cracklib-2.9.6-r1.ebuild, +files/cracklib-2.9.6-CVE-2016-6318.patch,
+  +files/cracklib-2.9.6-fix-long-word-bufferoverflow.patch:
+  Revision bump to address CVE-2016-6318 and another buffer overflow
+
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+  Gentoo-Bug: https://bugs.gentoo.org/591456
+
+  Package-Manager: portage-2.3.0
+

@@ -223,3 +223,15 @@
 
   Package-Manager: portage-2.3.0
 
+*baloo-5.26.0-r1 (14 Sep 2016)
+
+  14 Sep 2016; Michael Palimaka <kensington@gentoo.org>
+  +baloo-5.26.0-r1.ebuild, +files/baloo-5.26.0-dont-corrupt.patch,
+  +files/baloo-5.26.0-runtime-crash.patch,
+  +files/baloo-5.26.0-size-limit.patch,
+  +files/baloo-5.26.0-thread-safety.patch,
+  +files/baloo-5.26.0-zerotimestamp-crash.patch:
+  kde-frameworks: version bump 5.26.0
+
+  Package-Manager: portage-2.3.0
+
