@@ -1589,3 +1589,63 @@
 
   Package-Manager: portage-2.3.0_p24
 
+*chromium-55.0.2859.0 (15 Sep 2016)
+
+  15 Sep 2016; Mike Gilbert <floppym@gentoo.org> +chromium-55.0.2859.0.ebuild,
+  +files/chromium-ffmpeg-generate_gn.patch:
+  dev channel bump (55.0.2859.0)
+
+  Use bundled libevent to resolve segfaults and instability.
+  Thanks to Matthias Dahl for troubleshooting this.
+
+  Bug: https://bugs.gentoo.org/591938
+  Bug: https://bugs.gentoo.org/593458
+
+  Package-Manager: portage-2.3.0_p31
+
+*chromium-53.0.2785.116 (15 Sep 2016)
+
+  15 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-53.0.2785.116.ebuild:
+  stable channel bump (53.0.2785.116)
+
+  Package-Manager: portage-2.3.0_p31
+
+  15 Sep 2016; Agostino Sarubbo <ago@gentoo.org>
+  chromium-53.0.2785.116.ebuild:
+  amd64 stable wrt bug #593708
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  15 Sep 2016; Agostino Sarubbo <ago@gentoo.org>
+  chromium-53.0.2785.116.ebuild:
+  x86 stable wrt bug #593708
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+*chromium-54.0.2840.27 (15 Sep 2016)
+
+  15 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-54.0.2840.27.ebuild:
+  beta channel bump (54.0.2840.27)
+
+  Use bundled libevent to resolve segfaults and instability.
+  Thanks to Matthias Dahl for troubleshooting this.
+
+  Bug: https://bugs.gentoo.org/591938
+  Bug: https://bugs.gentoo.org/593458
+
+  Package-Manager: portage-2.3.0_p31
+
+  15 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  -chromium-53.0.2785.89.ebuild, -chromium-53.0.2785.92.ebuild,
+  -chromium-53.0.2785.101.ebuild, -chromium-53.0.2785.113.ebuild,
+  -chromium-54.0.2840.14.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_p31
+

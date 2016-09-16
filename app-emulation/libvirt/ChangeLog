@@ -758,3 +758,10 @@
 
   Package-Manager: portage-2.2.28
 
+*libvirt-2.2.0 (14 Sep 2016)
+
+  14 Sep 2016; Matthias Maier <tamiko@gentoo.org> +libvirt-2.2.0.ebuild:
+  version bump to 2.2.0
+
+  Package-Manager: portage-2.2.28
+

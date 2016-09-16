@@ -406,3 +406,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*curl-7.50.3 (15 Sep 2016)
+
+  15 Sep 2016; Anthony G. Basile <blueness@gentoo.org> +curl-7.50.3.ebuild:
+  version bump to 7.50.3, CVE-2016-7167, bug #593716
+
+  Package-Manager: portage-2.2.28
+

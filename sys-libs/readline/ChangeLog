@@ -158,3 +158,18 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*readline-7.0 (15 Sep 2016)
+
+  15 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> +readline-7.0.ebuild:
+  Bump to version 7.0
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  15 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -readline-7.0_beta2.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -185,3 +185,19 @@
   vim-core-9999.ebuild:
   version bump to 7.4.2102
 
+*vim-core-8.0.0004 (15 Sep 2016)
+
+  15 Sep 2016; Tim Harder <radhermit@gentoo.org> +vim-core-8.0.0004.ebuild,
+  vim-core-9999.ebuild:
+  version bump to 8.0.0004
+
+*vim-core-8.0.0005 (15 Sep 2016)
+
+  15 Sep 2016; Tim Harder <radhermit@gentoo.org> +vim-core-8.0.0005.ebuild,
+  vim-core-9999.ebuild:
+  version bump to 8.0.0005
+
+  15 Sep 2016; Tim Harder <radhermit@gentoo.org> -vim-core-7.4.1583.ebuild,
+  -vim-core-7.4.1821.ebuild, -vim-core-8.0.0004.ebuild:
+  remove old
+

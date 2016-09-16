@@ -15,3 +15,10 @@
 
   Package-Manager: portage-2.3.0
 
+*honggfuzz-0.8 (15 Sep 2016)
+
+  15 Sep 2016; Sergei Trofimovich <slyfox@gentoo.org> +honggfuzz-0.8.ebuild:
+  bump up to 0.8
+
+  Package-Manager: portage-2.3.0
+

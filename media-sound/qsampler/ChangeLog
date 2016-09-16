@@ -103,3 +103,17 @@
 
   Package-Manager: portage-2.3.0
 
+*qsampler-0.4.0-r1 (15 Sep 2016)
+
+  15 Sep 2016; Alexis Ballier <aballier@gentoo.org> -qsampler-0.4.0.ebuild,
+  +qsampler-0.4.0-r1.ebuild:
+  use eqmake5 to avoid stripping (bug #439528), compile with proper CC/CXX,
+  etc.
+
+  Package-Manager: portage-2.3.0
+
+  15 Sep 2016; Alexis Ballier <aballier@gentoo.org> qsampler-0.4.0-r1.ebuild:
+  add missing dep on qt x11 extras, bug #593690
+
+  Package-Manager: portage-2.3.0
+

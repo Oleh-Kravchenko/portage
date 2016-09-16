@@ -496,3 +496,16 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Sep 2016; Jeroen Roovers <jer@gentoo.org>
+  adobe-flash-11.2.202.635.ebuild:
+  Stable for AMD64 x86 (bug #593684).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+
+  15 Sep 2016; Jeroen Roovers <jer@gentoo.org>
+  -adobe-flash-11.2.202.632.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.0
+

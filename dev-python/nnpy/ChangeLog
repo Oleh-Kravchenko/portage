@@ -22,3 +22,16 @@
 
   Package-Manager: portage-2.3.0
 
+  15 Sep 2016; Alexis Ballier <aballier@gentoo.org> -nnpy-1.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+
+*nnpy-1.2-r1 (15 Sep 2016)
+
+  15 Sep 2016; Alexis Ballier <aballier@gentoo.org> -nnpy-1.2.ebuild,
+  +nnpy-1.2-r1.ebuild:
+  add := dep on nanomsg and cffi
+
+  Package-Manager: portage-2.3.0
+

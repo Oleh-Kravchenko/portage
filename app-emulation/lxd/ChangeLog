@@ -410,3 +410,12 @@
 
   Package-Manager: portage-2.3.0
 
+*lxd-2.2 (15 Sep 2016)
+
+  15 Sep 2016; Erik Mackdanz <stasibear@gentoo.org>
+  +files/lxd-2.2-dont-go-get.patch, +files/lxd-2.2.confd,
+  +files/lxd-2.2.initd, +lxd-2.2.ebuild:
+  bump to 2.2
+
+  Package-Manager: portage-2.3.0
+

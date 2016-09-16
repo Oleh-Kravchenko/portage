@@ -384,3 +384,8 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*cffi-1.8.2 (15 Sep 2016)
+
+  15 Sep 2016; Tim Harder <radhermit@gentoo.org> +cffi-1.8.2.ebuild:
+  version bump to 1.8.2
+

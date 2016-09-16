@@ -450,3 +450,14 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  15 Sep 2016; William Hubbs <williamh@gentoo.org> -openrc-0.20.4.ebuild,
+  -openrc-0.20.5.ebuild:
+  remove unstable versions
+
+  Package-Manager: portage-2.2.28
+
+  15 Sep 2016; William Hubbs <williamh@gentoo.org> openrc-0.21.3.ebuild:
+  Stable 0.21.3 on ia64 ppc and sparc per #588786.
+
+  Package-Manager: portage-2.2.28
+
