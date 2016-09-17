@@ -461,3 +461,17 @@
 
   Package-Manager: portage-2.2.28
 
+  15 Sep 2016; William Hubbs <williamh@gentoo.org> openrc-0.21.7.ebuild:
+  stabilize 0.21.7 for #588786
+
+  After discussion on irc, it was determined by myself and axs that this is
+  a small bug fix release and can be stabilized on every arch where 0.21.3 is
+  stabilized. No one objected, so I am going ahead with this plan.
+
+  I am stabilizing this version on the following architectures:
+  alpha amd64 arm hppa ia64 ppc ppc64 sparc
+
+  I will ask x86 to stabilize 0.21.7 instead of 0.21.3.
+
+  Package-Manager: portage-2.2.28
+

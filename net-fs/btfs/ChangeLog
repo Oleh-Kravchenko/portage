@@ -11,3 +11,8 @@
   26 Aug 2016; Tim Harder <radhermit@gentoo.org> btfs-2.11.ebuild:
   add slot dep for net-libs/rb_libtorrent
 
+*btfs-2.12 (16 Sep 2016)
+
+  16 Sep 2016; Tim Harder <radhermit@gentoo.org> +btfs-2.12.ebuild:
+  version bump to 2.12
+

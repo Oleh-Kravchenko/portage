@@ -1961,3 +1961,10 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-4.7.4 (15 Sep 2016)
+
+  15 Sep 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.7.4.ebuild:
+  BFQ Version bump v8r3. Linux patch 4.7.4
+
+  Package-Manager: portage-2.2.28
+

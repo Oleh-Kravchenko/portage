@@ -124,3 +124,10 @@
 
   Package-Manager: portage-2.3.0
 
+*crystal-0.19.2 (16 Sep 2016)
+
+  16 Sep 2016; Sergei Trofimovich <slyfox@gentoo.org> +crystal-0.19.2.ebuild:
+  bump up to 0.19.2
+
+  Package-Manager: portage-2.3.0
+

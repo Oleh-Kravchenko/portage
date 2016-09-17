@@ -536,3 +536,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  16 Sep 2016; Benda Xu <heroxbd@gentoo.org> icedtea-bin-7.2.6.7.ebuild:
+  hprefixify before mv.
+
+  Package-Manager: portage-2.3.0
+

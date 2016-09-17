@@ -663,3 +663,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*mariadb-5.5.52 (16 Sep 2016)
+
+  16 Sep 2016; Brian Evans <grknight@gentoo.org> +mariadb-5.5.52.ebuild:
+  Version bump for 5.5 series
+
+  Package-Manager: portage-2.3.0
+
+  16 Sep 2016; Brian Evans <grknight@gentoo.org> -mariadb-5.5.50.ebuild,
+  -mariadb-5.5.51.ebuild:
+  Drop old 5.5 versions
+
+  Package-Manager: portage-2.3.0
+

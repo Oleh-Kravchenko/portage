@@ -36,3 +36,10 @@
 
   Package-Manager: portage-2.3.0
 
+*bcc-0.2.0 (16 Sep 2016)
+
+  16 Sep 2016; Zac Medico <zmedico@gentoo.org> +bcc-0.2.0.ebuild:
+  version bump to 0.2.0
+
+  Package-Manager: portage-2.3.0
+

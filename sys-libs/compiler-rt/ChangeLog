@@ -25,3 +25,6 @@
   -files/9999/0001-compiler-rt-cmake-Support-overriding-llvm-config-que.patch:
   Remove the patch applied upstream
 
+  15 Sep 2016; Michał Górny <mgorny@gentoo.org> compiler-rt-9999.ebuild:
+  Fix sandbox disabling to work-around LD_PRELOAD
+

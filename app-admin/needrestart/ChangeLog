@@ -82,3 +82,16 @@
 
   Gentoo-bug: 593014
 
+*needrestart-2.9-r1 (16 Sep 2016)
+
+  16 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org> +needrestart-2.9-r1.ebuild,
+  needrestart-9999.ebuild:
+  add dependency on dev-lang/perl:=
+
+  Gentoo-bug: 593882
+
+  16 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org> -needrestart-2.9.ebuild:
+  remove 2.9-r0
+
+  Package-Manager: portage-2.2.28
+

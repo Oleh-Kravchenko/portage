@@ -31,3 +31,12 @@
 
   Package-Manager: portage-2.3.0
 
+*beignet-1.2.0 (16 Sep 2016)
+
+  16 Sep 2016; Marek Szuba <marecki@gentoo.org> +beignet-1.2.0.ebuild,
+  +files/beignet-1.2.0_no-hardcoded-cflags.patch:
+  version bump to 1.2.0
+
+  Gentoo-Bug: 593596
+  Package-Manager: portage-2.3.0
+
