@@ -97,3 +97,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  16 Sep 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  -biosdevname-0.6.2.ebuild, -biosdevname-0.7.1.ebuild:
+  Remove old testing versions
+
+  Package-Manager: portage-2.3.0
+

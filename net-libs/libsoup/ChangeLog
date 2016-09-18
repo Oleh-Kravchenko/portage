@@ -204,3 +204,9 @@
 
   Package-Manager: portage-2.3.0
 
+  17 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> libsoup-2.52.2.ebuild,
+  libsoup-2.54.1.ebuild, libsoup-2.54.1-r1.ebuild:
+  fix a typo in REQUIRED_USE, bug #593944
+
+  Package-Manager: portage-2.3.0
+

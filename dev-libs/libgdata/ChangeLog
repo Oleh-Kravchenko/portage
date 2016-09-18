@@ -186,3 +186,9 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+  17 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  libgdata-0.17.4-r1.ebuild, libgdata-0.17.5.ebuild:
+  fix a typo in REQUIRED_USE, bug #593944
+
+  Package-Manager: portage-2.3.0
+

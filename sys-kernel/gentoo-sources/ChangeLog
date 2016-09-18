@@ -1968,3 +1968,10 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-4.4.21 (16 Sep 2016)
+
+  16 Sep 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.21.ebuild:
+  Linux patch 4.4.21. BFQ Bump to fix bug #593648
+
+  Package-Manager: portage-2.2.28
+

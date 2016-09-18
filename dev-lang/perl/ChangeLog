@@ -232,3 +232,44 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Sep 2016; Kent Fredric <kentnl@gentoo.org>
+  files/eblits/pkg_setup-v50160001.eblit,
+  files/eblits/pkg_setup-v50220001.eblit,
+  files/eblits/pkg_setup-v50240001.eblit, perl-5.24.0-r1.ebuild:
+  Update upgrade prose to encourage depclean
+
+  Depcleans really do help a lot and you should do them lots.
+
+  Note: the 5.24.0-r1 version ( which is patched here ) is not displayed
+  to the user due to some mistakes made when flattening it, this will be
+  rectified in a future commit.
+
+  Note: Patching apparently "Old" eblits because due to a lack of clarity
+  on how eblits actually work, it turns out that all eblit-using
+  dev-lang/perl ebuilds are sourcing *BOTH* their own eblit entries *AND*
+  the eblit for v5016001!!.
+
+  The use of eblits here has made it impossible to clearly discern which
+  code is actually running, and that perl 5.22* and 5.20* actually work
+  at all is more a case of amazing amounts of good luck than actual
+  planning.
+
+  Package-Manager: portage-2.3.0
+
+  17 Sep 2016; Kent Fredric <kentnl@gentoo.org> perl-5.24.0-r1.ebuild:
+  Restore missing call to check_rebuild
+
+  In the process of flattening perl-5.24.0-r1.ebuild, the call
+  to check_rebuild was omitted unintentionally, removing the ability
+  for this message to be displayed.
+
+  This commit reinserts the displaying of said message at the pkg_preinst
+  phase the last possible moment before the system perl gets updated for real.
+
+  Package-Manager: portage-2.3.0
+
+  17 Sep 2016; Kent Fredric <kentnl@gentoo.org> perl-5.24.0-r1.ebuild:
+  use REPLACING_VERSIONS instead of has_version where possible
+
+  Package-Manager: portage-2.3.0
+

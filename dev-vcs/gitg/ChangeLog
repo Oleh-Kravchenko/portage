@@ -199,3 +199,13 @@
 
   Package-Manager: portage-2.3.0
 
+*gitg-3.20.3 (17 Sep 2016)
+
+  17 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +gitg-3.20.3.ebuild:
+  version bump 3.20.2 → 3.20.3
+
+  Fix multiple python installation support, python only controls
+  gobject-introspection overrides installation, nothing to do with libpeas.
+
+  Package-Manager: portage-2.3.0
+

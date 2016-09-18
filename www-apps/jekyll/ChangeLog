@@ -140,3 +140,18 @@
 
   Package-Manager: portage-2.3.0
 
+*jekyll-3.2.1-r1 (17 Sep 2016)
+
+  17 Sep 2016; Manuel Rüger <mrueg@gentoo.org> +jekyll-3.2.1-r1.ebuild:
+  Install jekyll binary again
+
+  Patch by Nicolas Porcel
+  Gentoo-Bug: #592990
+
+  Package-Manager: portage-2.3.0
+
+  17 Sep 2016; Manuel Rüger <mrueg@gentoo.org> -jekyll-3.2.1.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

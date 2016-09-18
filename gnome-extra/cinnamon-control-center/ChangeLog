@@ -192,3 +192,8 @@
 
   Package-Manager: portage-2.3.0
 
+  17 Sep 2016; Kristian Fiskerstrand <k_f@gentoo.org> metadata.xml:
+  Reassigning to new Cinnamon Project
+
+  Package-Manager: portage-2.3.0
+

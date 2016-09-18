@@ -64,3 +64,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  17 Sep 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  WWW-Curl-4.150.0-r1.ebuild, WWW-Curl-4.170.0.ebuild,
+  +files/WWW-Curl-4.150.0-curl-7.50.2.patch:
+  fix build failure against curl-7.50.2 and upper, bug #593280
+
+  Reported-by: Toralf Förster
+  Bug: https://bugs.gentoo.org/593280
+
+  Package-Manager: portage-2.3.0
+

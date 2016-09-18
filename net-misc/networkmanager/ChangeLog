@@ -497,3 +497,14 @@
   Bug: https://bugs.gentoo.org/590432
   Package-Manager: portage-2.3.0_p24
 
+*networkmanager-1.4.0-r1 (17 Sep 2016)
+
+  17 Sep 2016; Pacho Ramos <pacho@gentoo.org>
+  +files/networkmanager-1.4.0-dhcp-helper.patch,
+  +files/networkmanager-1.4.0-wifi-mac1.patch,
+  +files/networkmanager-1.4.0-wifi-mac2.patch,
+  +networkmanager-1.4.0-r1.ebuild:
+  Fix issues with wifi connection and dhcp (#593518 by Sven)
+
+  Package-Manager: portage-2.3.0
+

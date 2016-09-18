@@ -220,3 +220,12 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  16 Sep 2016; David Seifert <soap@gentoo.org>
+  +files/wxGTK-2.8.12.1-fix-c++14.patch, wxGTK-2.8.12.1-r2.ebuild:
+  Allow for compiling with GCC 6
+
+  Gentoo-bug: 592442
+  * Patch by Francesco Turco
+
+  Package-Manager: portage-2.3.0
+

@@ -38,3 +38,13 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*chrome-gnome-shell-7 (17 Sep 2016)
+
+  17 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  -chrome-gnome-shell-6.2.ebuild, +chrome-gnome-shell-7.ebuild:
+  version bump, remove old.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2252
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

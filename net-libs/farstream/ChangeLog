@@ -177,3 +177,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+*farstream-0.2.8-r1 (17 Sep 2016)
+
+  17 Sep 2016; Pacho Ramos <pacho@gentoo.org> +farstream-0.2.8-r1.ebuild:
+  Build more plugins (#592154 by Joakim Tjernlund)
+
+  Package-Manager: portage-2.3.0
+

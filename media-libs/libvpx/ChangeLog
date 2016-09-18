@@ -168,3 +168,13 @@
 
   Package-Manager: portage-2.3.0
 
+*libvpx-1.6.0-r1 (17 Sep 2016)
+
+  17 Sep 2016; Luca Barbato <lu_zero@gentoo.org> +libvpx-1.6.0-r1.ebuild,
+  metadata.xml:
+  Support the VP9 high bitdepth profile option
+
+  And make it default on.
+
+  Package-Manager: portage-2.3.0
+

@@ -173,3 +173,15 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+*tigervnc-1.6.0-r2 (17 Sep 2016)
+
+  17 Sep 2016; Pacho Ramos <pacho@gentoo.org> +tigervnc-1.6.0-r2.ebuild:
+  Use newer xorg-server to fix compilation (#586552)
+
+  Package-Manager: portage-2.3.0
+
+  17 Sep 2016; Pacho Ramos <pacho@gentoo.org> tigervnc-1.6.0-r2.ebuild:
+  amd64/x86 stable, bug #584482
+
+  Package-Manager: portage-2.3.0
+

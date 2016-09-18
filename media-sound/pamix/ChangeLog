@@ -65,3 +65,10 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  17 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> pamix-1.4.1.ebuild,
+  pamix-9999.ebuild:
+  Added sys-devel/autoconf-archive to DEPEND (bug #593682).
+
+  Package-Manager: portage-2.3.0
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
