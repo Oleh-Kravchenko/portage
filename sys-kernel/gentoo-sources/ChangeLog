@@ -1975,3 +1975,10 @@
 
   Package-Manager: portage-2.2.28
 
+*gentoo-sources-4.1.33 (18 Sep 2016)
+
+  18 Sep 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.1.33.ebuild:
+  Linux patches 4.1.32 and 4.1.33
+
+  Package-Manager: portage-2.2.28
+

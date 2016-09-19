@@ -681,3 +681,9 @@
 
   Gentoo-Bug: 593608
 
+  18 Sep 2016; Jeroen Roovers <jer@gentoo.org> mariadb-10.0.27.ebuild:
+  Stable for HPPA PPC64 (bug #593608).
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --ignore-arches
+

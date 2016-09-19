@@ -10,3 +10,8 @@
 
   Package-Manager: portage-2.2.28
 
+  17 Sep 2016; Nicolas Bock <nicolasbock@gentoo.org> kbfs-9999.ebuild:
+  Updated dependencies
+
+  Package-Manager: portage-2.2.28
+

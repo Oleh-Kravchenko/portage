@@ -389,3 +389,8 @@
   15 Sep 2016; Tim Harder <radhermit@gentoo.org> +cffi-1.8.2.ebuild:
   version bump to 1.8.2
 
+*cffi-1.8.3 (18 Sep 2016)
+
+  18 Sep 2016; Tim Harder <radhermit@gentoo.org> +cffi-1.8.3.ebuild:
+  version bump to 1.8.3
+

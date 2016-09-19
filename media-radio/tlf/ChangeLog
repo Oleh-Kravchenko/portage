@@ -113,3 +113,10 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*tlf-1.2.4.3 (18 Sep 2016)
+
+  18 Sep 2016; Thomas Beierlein <tomjbe@gentoo.org> +tlf-1.2.4.3.ebuild:
+  Minor version bump
+
+  Package-Manager: portage-2.3.0
+

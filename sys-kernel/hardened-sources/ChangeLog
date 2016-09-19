@@ -1386,3 +1386,11 @@
 
   Package-Manager: portage-2.2.28
 
+  18 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  hardened-sources-4.7.3.ebuild, hardened-sources-4.7.4.ebuild:
+  EAPI 6 -> 5
+
+  kernel-2.eclass is not ready for EAPI 6.
+
+  Package-Manager: portage-2.3.0_p31
+

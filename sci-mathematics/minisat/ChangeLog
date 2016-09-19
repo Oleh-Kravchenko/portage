@@ -103,3 +103,11 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  17 Sep 2016; David Seifert <soap@gentoo.org>
+  files/minisat-2.2.0_p20130925-nusmv.patch:
+  Allow for compiling with GCC 6
+
+  Gentoo-bug: 594158
+
+  Package-Manager: portage-2.3.0
+

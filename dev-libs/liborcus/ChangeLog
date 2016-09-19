@@ -150,3 +150,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  17 Sep 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  liborcus-0.11.2.ebuild:
+  Restore keywords
+
+  Package-Manager: portage-2.2.28
+

@@ -302,3 +302,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  18 Sep 2016; Sebastian Pipping <sping@gentoo.org> gimp-2.9.2-r2.ebuild,
+  gimp-2.9.4.ebuild, gimp-9999.ebuild:
+  Graphics device access (bug #569738)
+
+  Package-Manager: portage-2.3.0
+
