@@ -422,3 +422,11 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  19 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> ruby-2.0.0_p648.ebuild,
+  ruby-2.1.9.ebuild, ruby-2.1.10.ebuild, ruby-2.2.5.ebuild, ruby-2.3.0.ebuild,
+  ruby-2.3.1.ebuild:
+  Added sub-slot dependency for sys-libs/readline.
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -1746,3 +1746,22 @@
 
   Gentoo-Bug: 591710
 
+*php-7.0.11 (19 Sep 2016)
+
+  19 Sep 2016; Brian Evans <grknight@gentoo.org> +php-7.0.11.ebuild:
+  Version bump for 7.0.11
+
+  Package-Manager: portage-2.3.0
+
+  19 Sep 2016; Brian Evans <grknight@gentoo.org> -php-7.0.10.ebuild:
+  Drop old 7.0.10
+
+  Package-Manager: portage-2.3.0
+
+*php-5.6.26 (19 Sep 2016)
+
+  19 Sep 2016; Brian Evans <grknight@gentoo.org> +php-5.6.26.ebuild:
+  Version bump for 5.6.26
+
+  Package-Manager: portage-2.3.0
+

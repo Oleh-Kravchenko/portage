@@ -425,3 +425,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="amd64"
 
+*libinput-1.5.0 (19 Sep 2016)
+
+  19 Sep 2016; Manuel Rüger <mrueg@gentoo.org> +libinput-1.5.0.ebuild:
+  Version bump to 1.5.0
+
+  Package-Manager: portage-2.3.0
+

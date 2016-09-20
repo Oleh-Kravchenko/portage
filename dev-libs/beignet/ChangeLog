@@ -40,3 +40,32 @@
   Gentoo-Bug: 593596
   Package-Manager: portage-2.3.0
 
+  19 Sep 2016; Marek Szuba <marecki@gentoo.org> beignet-1.1.2.ebuild:
+  1.1.2 requires <sys-devel/llvm-3.8
+
+  Newer versions are not supported by upstream.
+
+  Package-Manager: portage-2.3.1
+
+  19 Sep 2016; Marek Szuba <marecki@gentoo.org> beignet-1.2.0.ebuild:
+  1.2.0 requires <sys-devel/llvm-3.8
+
+  According to upstream llvm-3.8 should be supported, however using that
+  version
+  causes compile-time segmentation faults.
+
+  Gentoo-Bug: 593968
+
+  Package-Manager: portage-2.3.1
+
+  19 Sep 2016; Marek Szuba <marecki@gentoo.org> beignet-1.2.0.ebuild:
+  fix linking of 1.2.0 against LLVM-3.8
+
+  Without adding -fPIC to compiler flags one the temporary executables invoked
+  at
+  build time segfaults.
+
+  Gentoo-Bug: 593968
+
+  Package-Manager: portage-2.3.1
+

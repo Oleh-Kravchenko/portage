@@ -240,3 +240,11 @@
 
   Package-Manager: portage-2.3.0
 
+  19 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> guile-2.0.12-r1.ebuild:
+  Re-added sys-libs/readline to RDEPEND.
+
+  With kind permission from Amynka.
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

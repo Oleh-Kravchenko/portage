@@ -401,3 +401,8 @@
 
   Package-Manager: portage-2.3.0_p24
 
+  18 Sep 2016; Mike Gilbert <floppym@gentoo.org> grub-0.97-r17.ebuild:
+  Allow user patchset
+
+  Package-Manager: portage-2.2.28
+

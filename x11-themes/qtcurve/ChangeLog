@@ -141,3 +141,9 @@
 
   Gentoo-Bug: 431848
 
+  19 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  files/qtcurve-1.8.18-std_isnan.patch:
+  Fix broken isnan patch
+
+  Gentoo-Bug: 593472
+

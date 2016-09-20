@@ -508,3 +508,11 @@
 
   Package-Manager: portage-2.3.0
 
+  19 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  networkmanager-1.0.12-r1.ebuild, networkmanager-1.2.4.ebuild,
+  networkmanager-1.4.0.ebuild, networkmanager-1.4.0-r1.ebuild:
+  Added sub-slot dependency for sys-libs/readline.
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

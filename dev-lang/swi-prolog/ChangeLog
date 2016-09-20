@@ -339,3 +339,10 @@
 
   Package-Manager: portage-2.2.26
 
+*swi-prolog-7.3.26 (19 Sep 2016)
+
+  19 Sep 2016; Keri Harris <keri@gentoo.org> +swi-prolog-7.3.26.ebuild:
+  bump 7.3 development version
+
+  Package-Manager: portage-2.2.26
+

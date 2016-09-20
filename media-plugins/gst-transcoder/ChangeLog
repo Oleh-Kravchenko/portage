@@ -21,3 +21,13 @@
 
   Package-Manager: portage-2.3.0
 
+*gst-transcoder-1.8.2 (18 Sep 2016)
+
+  18 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gst-transcoder-1.8.2.ebuild:
+  version bump 1.8.1 → 1.8.2
+
+  configure is now using python. Fix missing introspection USE-dependencies.
+
+  Package-Manager: portage-2.3.0
+

@@ -143,3 +143,8 @@
 
   Package-Manager: portage-2.3.0
 
+  19 Sep 2016; Mike Gilbert <floppym@gentoo.org> noto-20160305-r1.ebuild:
+  add blocker on noto-cjk
+
+  Package-Manager: portage-2.3.0_p43
+

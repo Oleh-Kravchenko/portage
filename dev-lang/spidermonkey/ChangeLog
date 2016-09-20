@@ -180,3 +180,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  19 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  spidermonkey-1.8.5-r4.ebuild, spidermonkey-1.8.5-r5.ebuild,
+  spidermonkey-1.8.5-r6.ebuild, spidermonkey-17.0.0-r4.ebuild,
+  spidermonkey-17.0.0-r5.ebuild, spidermonkey-24.2.0-r3.ebuild:
+  Added sub-slot dependency for sys-libs/readline.
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

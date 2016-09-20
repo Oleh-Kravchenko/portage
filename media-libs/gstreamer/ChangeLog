@@ -239,3 +239,10 @@
 
   Package-Manager: portage-2.3.0
 
+*gstreamer-1.8.3 (18 Sep 2016)
+
+  18 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +gstreamer-1.8.3.ebuild:
+  version bump 1.8.2 → 1.8.3
+
+  Package-Manager: portage-2.3.0
+

@@ -94,3 +94,10 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  18 Sep 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -WWW-Dict-Leo-Org-1.360.0.ebuild, -WWW-Dict-Leo-Org-1.370.0.ebuild,
+  -WWW-Dict-Leo-Org-1.390.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.0
+

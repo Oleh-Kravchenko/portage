@@ -79,3 +79,10 @@
 
   Package-Manager: portage-2.2.27
 
+*hdf5-1.8.17 (19 Sep 2016)
+
+  19 Sep 2016; Kacper Kowalik <xarthisius@gentoo.org> +hdf5-1.8.17.ebuild:
+  version bump
+
+  Package-Manager: portage-2.2.28
+

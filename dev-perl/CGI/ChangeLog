@@ -171,3 +171,10 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*CGI-4.330.0 (18 Sep 2016)
+
+  18 Sep 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +CGI-4.330.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

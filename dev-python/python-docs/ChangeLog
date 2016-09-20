@@ -133,3 +133,12 @@
 
   Package-Manager: portage-2.3.0
 
+  19 Sep 2016; Mike Gilbert <floppym@gentoo.org> -python-docs-3.5.2.ebuild:
+  drop 3.5.2
+
+  The tarball referenced in SRC_URI is unstable.
+
+  Bug: https://bugs.gentoo.org/594412
+
+  Package-Manager: portage-2.3.0_p43
+

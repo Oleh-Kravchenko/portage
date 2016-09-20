@@ -10,3 +10,8 @@
 
   Splits the CJK fonts into a separate package.
 
+  19 Sep 2016; Mike Gilbert <floppym@gentoo.org> noto-cjk-20150615.ebuild:
+  add blocker on older versions of noto
+
+  Package-Manager: portage-2.3.0_p43
+

@@ -461,3 +461,10 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*cups-filters-1.11.3 (19 Sep 2016)
+
+  19 Sep 2016; Manuel Rüger <mrueg@gentoo.org> +cups-filters-1.11.3.ebuild:
+  Version bump to 1.11.3
+
+  Package-Manager: portage-2.3.0
+
