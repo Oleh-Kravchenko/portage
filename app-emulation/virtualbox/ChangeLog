@@ -538,3 +538,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  20 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> virtualbox-5.1.6.ebuild:
+  New patchset with qt-5.7 build fix (bug #589392).
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

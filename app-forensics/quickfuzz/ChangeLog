@@ -50,3 +50,24 @@
 
   Package-Manager: portage-2.3.0
 
+*quickfuzz-0.1_p20160920 (20 Sep 2016)
+
+  20 Sep 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  -files/quickfuzz-0.1-QC-2.9.patch,
+  -files/quickfuzz-0.1_p20160909-megadeth-better-erroro.patch,
+  -files/quickfuzz-0.1_p20160909-megadeth-ghc-8-gadt.patch,
+  -files/quickfuzz-0.1_p20160909-megadeth-ghc-8.patch,
+  -files/quickfuzz-0.1_p20160909-th-2.11-1.patch,
+  -files/quickfuzz-0.1_p20160909-th-2.11-2.patch,
+  -files/quickfuzz-0.1_p20160909-ttasm-layout.patch,
+  -files/quickfuzz-9999-megadeth-better-erroro.patch,
+  -files/quickfuzz-9999-megadeth-ghc-8-gadt.patch,
+  -files/quickfuzz-9999-megadeth-ghc-8.patch,
+  -files/quickfuzz-9999-th-2.11-1.patch,
+  -files/quickfuzz-9999-th-2.11-2.patch,
+  -files/quickfuzz-9999-ttasm-layout.patch, -quickfuzz-0.1_p20160909.ebuild,
+  +quickfuzz-0.1_p20160920.ebuild, quickfuzz-9999.ebuild:
+  update snapshot and live ebuild. all patches are upstreamed \o/
+
+  Package-Manager: portage-2.3.1
+

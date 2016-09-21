@@ -201,3 +201,11 @@
   -vim-core-7.4.1821.ebuild, -vim-core-8.0.0004.ebuild:
   remove old
 
+*vim-core-8.0.0005-r1 (20 Sep 2016)
+
+  20 Sep 2016; Jason A. Donenfeld <zx2c4@gentoo.org> +files/vimrc-r5,
+  +vim-core-8.0.0005-r1.ebuild:
+  don't use vim's defaults (bug #594292)
+
+  Package-Manager: portage-2.3.1
+

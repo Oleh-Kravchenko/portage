@@ -308,3 +308,10 @@
 
   Package-Manager: portage-2.3.0
 
+*gimp-2.8.18 (20 Sep 2016)
+
+  20 Sep 2016; Sebastian Pipping <sping@gentoo.org> +gimp-2.8.18.ebuild:
+  2.8.18 (bug #594486)
+
+  Package-Manager: portage-2.3.0
+

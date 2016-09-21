@@ -446,3 +446,11 @@
   Package-Manager: portage-2.2.28
   Pull-Request: https://github.com/gentoo/gentoo/pull/2278
 
+*glib-2.50.0 (19 Sep 2016)
+
+  19 Sep 2016; Rémi Cardona <remi@gentoo.org>
+  +files/glib-2.50.0-external-gdbus-codegen.patch, +glib-2.50.0.ebuild:
+  bump to 2.50.0
+
+  Package-Manager: portage-2.3.0
+

@@ -452,3 +452,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="amd64"
 
+  20 Sep 2016; Zero_Chaos <zerochaos@gentoo.org>
+  xf86-video-intel-2.99.917_p20160621-r1.ebuild,
+  xf86-video-intel-2.99.917_p20160829.ebuild:
+  fix for bug #582910 for latest stable and testing ebuild
+
+  Package-Manager: portage-2.3.0
+

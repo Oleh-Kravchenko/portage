@@ -540,3 +540,20 @@
 
   Package-Manager: portage-2.3.0
 
+*openssh-7.3_p1-r5 (20 Sep 2016)
+
+  20 Sep 2016; Patrick McLean <chutzpah@gentoo.org>
+  +files/openssh-7.3-mips-seccomp-n32.patch,
+  +files/openssh-7.3_p1-fix-ssh1-with-no-ssh1-host-key.patch,
+  +files/openssh-7.3_p1-hpn-x509-9.2-glue.patch,
+  +files/openssh-7.3_p1-x509-9.2-warnings.patch, +openssh-7.3_p1-r5.ebuild:
+  Revision bump, update to version 9.2 of the X509 patch
+
+  - Clean up some warnings introduced by the X509 patch
+  - Add patch to fix compilation on MIPS64/N32 (bug #591392)
+  - Pull in patch from upstream cvs to fix ssh1 support (bug #592122)
+
+  Also bump the HPN patch to remove an unused function
+
+  Package-Manager: portage-2.3.1
+

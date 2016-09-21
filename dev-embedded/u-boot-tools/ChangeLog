@@ -95,3 +95,9 @@
   -u-boot-tools-2015.04.ebuild:
   remove old
 
+*u-boot-tools-2016.09.01 (20 Sep 2016)
+
+  20 Sep 2016; Tim Harder <radhermit@gentoo.org>
+  +u-boot-tools-2016.09.01.ebuild:
+  version bump to 2016.09.01
+

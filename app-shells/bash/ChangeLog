@@ -447,3 +447,12 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*bash-4.3_p46-r1 (20 Sep 2016)
+
+  20 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> +bash-4.3_p46-r1.ebuild,
+  +files/bash-4.3-prompt-string-comsub.patch:
+  Revbump to fix CVE-2016-0634 (bug #594496).
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

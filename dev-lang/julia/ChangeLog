@@ -116,3 +116,11 @@
 
   Package-Manager: portage-2.2.28
 
+*julia-0.5.0 (20 Sep 2016)
+
+  20 Sep 2016; Matthias Maier <tamiko@gentoo.org>
+  +files/julia-0.5.0-fix_build_system.patch, +julia-0.5.0.ebuild:
+  version bump to 0.5.0
+
+  Package-Manager: portage-2.2.28
+

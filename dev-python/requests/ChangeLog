@@ -241,3 +241,11 @@
   21 Jun 2016; Mike Frysinger <vapier@gentoo.org> requests-2.8.1.ebuild:
   mark 2.8.1 arm64/m68k/s390/sh stable #560894
 
+  19 Sep 2016; David Seifert <soap@gentoo.org>
+  -files/requests-2.4.0-system-cacerts.patch:
+  remove unused patch
+
+  Closes: https://github.com/gentoo/gentoo/pull/2362
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

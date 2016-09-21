@@ -242,3 +242,8 @@
 
   Package-Manager: portage-2.3.0_p24
 
+  20 Sep 2016; William Hubbs <williamh@gentoo.org> openconnect-7.07-r1.ebuild:
+  stabilize 7.07-r1 on amd64 for #594524
+
+  Package-Manager: portage-2.2.28
+

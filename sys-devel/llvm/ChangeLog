@@ -968,3 +968,6 @@
 
   Package-Manager: portage-2.2.28
 
+  20 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Disable ocamldoc due to wrong install path
+

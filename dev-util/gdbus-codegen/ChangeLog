@@ -205,3 +205,10 @@
 
   Package-Manager: portage-2.3.0
 
+*gdbus-codegen-2.50.0 (19 Sep 2016)
+
+  19 Sep 2016; Rémi Cardona <remi@gentoo.org> +gdbus-codegen-2.50.0.ebuild:
+  bump to 2.50.0
+
+  Package-Manager: portage-2.3.0
+

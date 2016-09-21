@@ -175,3 +175,10 @@
 
   Package-Manager: portage-2.2.28
 
+*quodlibet-3.7.0 (20 Sep 2016)
+
+  20 Sep 2016; Matthias Maier <tamiko@gentoo.org> +quodlibet-3.7.0.ebuild:
+  version bump to 3.7.0
+
+  Package-Manager: portage-2.2.28
+

@@ -142,3 +142,10 @@
 
   Package-Manager: portage-2.3.0_p43
 
+*python-docs-3.5.2 (19 Sep 2016)
+
+  19 Sep 2016; Zac Medico <zmedico@gentoo.org> +python-docs-3.5.2.ebuild:
+  re-add 3.5.2 with mirror://gentoo SRC_URI for bug 594412
+
+  Package-Manager: portage-2.3.1
+

@@ -111,3 +111,12 @@
 
   Package-Manager: portage-2.2.28
 
+  19 Sep 2016; David Seifert <soap@gentoo.org>
+  -files/rope-0.9.3-fix_tests_results.patch,
+  -files/rope-0.9.3-python2.7.patch:
+  remove unused patches
+
+  Closes: https://github.com/gentoo/gentoo/pull/2362
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

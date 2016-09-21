@@ -148,3 +148,8 @@
 
   Package-Manager: portage-2.3.0_p43
 
+  19 Sep 2016; Mike Gilbert <floppym@gentoo.org> noto-20160305-r1.ebuild:
+  Revert "media-fonts/noto: add blocker on noto-cjk"
+
+  This reverts commit 49f7a0e817ee159d6839980fd257d95a88141ad9.
+

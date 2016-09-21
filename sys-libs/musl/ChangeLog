@@ -239,3 +239,8 @@
 
   Package-Manager: portage-2.2.28
 
+  20 Sep 2016; Anthony G. Basile <blueness@gentoo.org> musl-1.1.15.ebuild:
+  version 1.1.15 stable on all arches
+
+  Package-Manager: portage-2.2.28
+

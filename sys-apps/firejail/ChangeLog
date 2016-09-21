@@ -108,3 +108,13 @@
 
   Package-Manager: portage-2.3.0
 
+*firejail-0.9.42 (19 Sep 2016)
+
+  19 Sep 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +files/firejail-0.9.42-libstdc++.patch,
+  +files/firejail-0.9.42-sysmacros.patch, +firejail-0.9.42.ebuild,
+  metadata.xml:
+  Bump version to 0.9.42
+
+  Package-Manager: portage-2.3.0
+
