@@ -27,3 +27,15 @@
 
   Package-Manager: portage-2.3.0
 
+*pyicu-1.9.3-r1 (21 Sep 2016)
+
+  21 Sep 2016; Marek Szuba <marecki@gentoo.org> +pyicu-1.9.3-r1.ebuild:
+  fix generation of API documentation
+
+  PyICU API documentation is generated using epydoc, which cannot process
+  python3
+  binary modules. It is therefore necessary to force the use of
+  python_targets_python2_7 if USE=doc is enabled.
+
+  Package-Manager: portage-2.3.1
+

@@ -545,3 +545,11 @@
   thunderbird-45.3.0-r1.ebuild:
   Fix whitespace issues
 
+*thunderbird-45.3.0-r2 (21 Sep 2016)
+
+  21 Sep 2016; Ian Stakenvicius <axs@gentoo.org>
+  -thunderbird-45.3.0-r1.ebuild, +thunderbird-45.3.0-r2.ebuild:
+  revbump, fix binutils-2.26.1 ld.bfd linking, localizations
+
+  Package-Manager: portage-2.2.28
+

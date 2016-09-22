@@ -103,3 +103,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org> links-2.12-r2.ebuild:
+  2.12-r2: add alpha keyword
+
+  Gentoo-Bug: 591910
+

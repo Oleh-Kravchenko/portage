@@ -71,3 +71,12 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  21 Sep 2016; Marek Szuba <marecki@gentoo.org> obfs4proxy-0.0.6.ebuild:
+  add ~x86 keyword
+
+  Tested on a x86 virtual machine.
+
+  Gentoo-Bug: 590766
+
+  Package-Manager: portage-2.3.1
+

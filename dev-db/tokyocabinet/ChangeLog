@@ -81,3 +81,9 @@
   Closes: https://github.com/gentoo/gentoo/pull/1936
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  tokyocabinet-1.4.48-r1.ebuild:
+  1.4.48-r1: add alpha keyword
+
+  Gentoo-Bug: 592032
+

@@ -95,3 +95,17 @@
 
   Package-Manager: portage-2.3.0
 
+*jaraco-functools-1.15.1 (21 Sep 2016)
+
+  21 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  +jaraco-functools-1.15.1.ebuild:
+  bump to 1.15.1
+
+  Package-Manager: portage-2.3.0
+
+  21 Sep 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  -jaraco-functools-1.12.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

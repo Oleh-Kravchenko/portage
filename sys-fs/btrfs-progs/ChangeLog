@@ -287,3 +287,20 @@
 
   Package-Manager: portage-2.3.0
 
+*btrfs-progs-4.7.2 (21 Sep 2016)
+
+  21 Sep 2016; Mike Gilbert <floppym@gentoo.org> +btrfs-progs-4.7.2.ebuild:
+  bump to 4.7.2
+
+  Bug: https://bugs.gentoo.org/594306
+
+  Package-Manager: portage-2.3.0_p43
+
+  21 Sep 2016; Mike Gilbert <floppym@gentoo.org> -btrfs-progs-4.0.ebuild,
+  -btrfs-progs-4.1.ebuild, -btrfs-progs-4.2.ebuild, -btrfs-progs-4.5.1.ebuild,
+  -btrfs-progs-4.5.2.ebuild, -btrfs-progs-4.7.ebuild,
+  -btrfs-progs-4.7.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_p43
+

@@ -210,3 +210,9 @@
   03 Aug 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
   drop unused USE flags
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  fontforge-20160404.ebuild:
+  20160404-r0: add alpha keyword
+
+  Gentoo-Bug: 593602
+

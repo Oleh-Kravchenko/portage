@@ -135,3 +135,8 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org> rsnapshot-1.4.1.ebuild:
+  1.4.1-r0: add alpha keyword
+
+  Gentoo-Bug: 591860
+

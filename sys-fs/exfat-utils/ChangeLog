@@ -175,3 +175,9 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Sep 2016; Mike Gilbert <floppym@gentoo.org> -exfat-utils-1.0.1.ebuild,
+  -exfat-utils-1.1.1.ebuild, -exfat-utils-1.2.3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0_p43
+

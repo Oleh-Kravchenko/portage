@@ -66,3 +66,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  20 Sep 2016; David Seifert <soap@gentoo.org>
+  +files/iqpnni-3.3.2-cpp14.patch, iqpnni-3.3.2.ebuild:
+  fix cpp14 compilation; bug #594332
+
+  Closes: https://github.com/gentoo/gentoo/pull/2365
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

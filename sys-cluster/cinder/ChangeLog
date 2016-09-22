@@ -308,3 +308,10 @@
 
   Package-Manager: portage-2.2.28
 
+*cinder-8.1.1 (21 Sep 2016)
+
+  21 Sep 2016; Matthew Thode <prometheanfire@gentoo.org> +cinder-8.1.1.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+

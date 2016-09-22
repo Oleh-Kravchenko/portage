@@ -90,3 +90,9 @@
 
   Package-Manager: portage-2.2.26
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  bittornado-0.3.18-r4.ebuild:
+  0.3.18-r4: add alpha keyword
+
+  Gentoo-Bug: 593166
+

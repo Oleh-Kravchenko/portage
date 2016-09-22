@@ -100,3 +100,8 @@
   files/fuse-2.9.3-kernel-types.patch:
   sourceforge: switch to https:// URIs
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org> fuse-2.9.7.ebuild:
+  2.9.7-r0: add alpha keyword
+
+  Gentoo-Bug: 592142
+

@@ -110,3 +110,11 @@
 
   Package-Manager: portage-2.2.26
 
+  20 Sep 2016; David Seifert <soap@gentoo.org>
+  -files/routes-2.0-setup.py.patch:
+  remove unused patch
+
+  Closes: https://github.com/gentoo/gentoo/pull/2375
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

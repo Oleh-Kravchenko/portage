@@ -76,3 +76,12 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Sep 2016; Marek Szuba <marecki@gentoo.org> ed25519-0_pre20160420.ebuild:
+  add ~x86 keyword
+
+  Tested on a x86 virtual machine.
+
+  Gentoo-Bug: 590768
+
+  Package-Manager: portage-2.3.1
+

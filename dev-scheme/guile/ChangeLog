@@ -248,3 +248,10 @@
   Package-Manager: portage-2.3.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  21 Sep 2016; Amy Winston <amynka@gentoo.org>
+  +files/guile-2.0.12-workaround-ice-ssa-corruption.patch,
+  guile-2.0.12-r1.ebuild:
+  add patch for bug #594010
+
+  Package-Manager: portage-2.2.28
+

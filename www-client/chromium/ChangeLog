@@ -1649,3 +1649,9 @@
 
   Package-Manager: portage-2.3.0_p31
 
+  21 Sep 2016; Mike Gilbert <floppym@gentoo.org> chromium-55.0.2859.0.ebuild,
+  +files/toolchain/BUILD.gn:
+  use custom toolchain for GN builds
+
+  Bug: https://bugs.gentoo.org/587408
+

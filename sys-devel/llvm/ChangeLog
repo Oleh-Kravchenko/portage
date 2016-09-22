@@ -971,3 +971,6 @@
   20 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
   Disable ocamldoc due to wrong install path
 
+  21 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Remove the remnants of OCaml documentation
+

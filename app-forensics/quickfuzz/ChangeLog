@@ -71,3 +71,12 @@
 
   Package-Manager: portage-2.3.1
 
+  21 Sep 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  quickfuzz-0.1_p20160920.ebuild, quickfuzz-9999.ebuild:
+  add missing process-extras depend
+
+  Reported-by: Toralf Förster
+  Bug: https://bugs.gentoo.org/594666
+
+  Package-Manager: portage-2.3.1
+

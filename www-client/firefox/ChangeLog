@@ -934,3 +934,32 @@
 
   Package-Manager: portage-2.3.0_p24
 
+*firefox-49.0 (21 Sep 2016)
+
+  21 Sep 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-48.0.1.ebuild,
+  +firefox-49.0.ebuild:
+  version bump to 49.0, security bug 594616
+
+  Package-Manager: portage-2.2.28
+
+*firefox-45.4.0 (21 Sep 2016)
+
+  21 Sep 2016; Ian Stakenvicius <axs@gentoo.org> -firefox-45.3.0.ebuild,
+  +firefox-45.4.0.ebuild:
+  45: version bump to 45.4.0, security bug 594616
+
+  Changed visibility of xpcom components to address bug 588906
+  (upstream bug 1242901)
+
+  Package-Manager: portage-2.2.28
+
+*firefox-45.3.0 (21 Sep 2016)
+
+  21 Sep 2016; Ian Stakenvicius <axs@gentoo.org> +firefox-45.3.0.ebuild:
+  45: don't remove stable 45.3 when bumping to 45.4
+
+  21 Sep 2016; Ian Stakenvicius <axs@gentoo.org> metadata.xml:
+  add 'jemalloc' flag to metadata.xml
+
+  Package-Manager: portage-2.2.28
+

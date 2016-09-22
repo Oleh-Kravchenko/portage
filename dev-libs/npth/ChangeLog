@@ -139,3 +139,8 @@
   npth-1.2.ebuild:
   use a better homepage
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org> npth-1.2.ebuild:
+  1.2-r0: add alpha keyword
+
+  Gentoo-Bug: 590654
+

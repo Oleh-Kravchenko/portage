@@ -456,3 +456,15 @@
   Package-Manager: portage-2.3.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org> bash-4.3_p46-r1.ebuild:
+  4.3_p46-r1: add alpha keyword
+
+  Gentoo-Bug: 594496
+
+  21 Sep 2016; Agostino Sarubbo <ago@gentoo.org> bash-4.3_p46-r1.ebuild:
+  amd64 stable wrt bug #594496
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

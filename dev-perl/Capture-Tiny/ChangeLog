@@ -114,3 +114,9 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  Capture-Tiny-0.360.0.ebuild:
+  0.360.0-r0: add alpha keyword
+
+  Gentoo-Bug: 590830
+

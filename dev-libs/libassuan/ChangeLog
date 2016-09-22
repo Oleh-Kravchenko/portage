@@ -150,3 +150,8 @@
 
   Package-Manager: portage-2.3.0
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org> libassuan-2.4.3.ebuild:
+  2.4.3-r0: add alpha keyword
+
+  Gentoo-Bug: 590652
+

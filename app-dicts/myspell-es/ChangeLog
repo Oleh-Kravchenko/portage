@@ -72,3 +72,8 @@
   +myspell-es-0.7.ebuild:
   update to 0.7
 
+  21 Sep 2016; Tobias Klausmann <klausman@gentoo.org> myspell-es-0.7.ebuild:
+  0.7-r0: add alpha keyword
+
+  Gentoo-Bug: 592072
+
