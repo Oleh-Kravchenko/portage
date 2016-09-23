@@ -158,3 +158,12 @@
 
   Gentoo-Bug: 589390
 
+*autoconf-archive-2016.09.16 (22 Sep 2016)
+
+  22 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +autoconf-archive-2016.09.16.ebuild:
+  Bump to version 2016.09.16
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

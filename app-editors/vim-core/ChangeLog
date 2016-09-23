@@ -209,3 +209,8 @@
 
   Package-Manager: portage-2.3.1
 
+  22 Sep 2016; Jason A. Donenfeld <zx2c4@gentoo.org> vim-core-9999.ebuild:
+  forgot about 9999 for vimrc-r5
+
+  Package-Manager: portage-2.3.1
+

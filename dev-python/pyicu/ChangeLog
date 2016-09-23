@@ -39,3 +39,10 @@
 
   Package-Manager: portage-2.3.1
 
+  22 Sep 2016; Marek Szuba <marecki@gentoo.org> pyicu-1.9.3-r1.ebuild:
+  add ~x86 keyword
+
+  Many thanks to Dracwyrm <j.scruggs@gmail.com> for having run the tests.
+
+  Package-Manager: portage-2.3.1
+

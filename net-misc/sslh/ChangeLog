@@ -132,3 +132,12 @@
 
   Package-Manager: portage-2.3.0
 
+  22 Sep 2016; Michael Palimaka <kensington@gentoo.org>
+  -files/sslh-1.17-version-deps.patch, files/sslh-1.18-version-deps.patch,
+  sslh-1.18-r1.ebuild:
+  new patch to solve Makefile dependencies issue
+
+  Gentoo-bug: 594586
+
+  Package-Manager: portage-2.3.1
+

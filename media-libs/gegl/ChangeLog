@@ -171,3 +171,8 @@
 
   Package-Manager: portage-2.3.0
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org> gegl-0.3.8.ebuild:
+  0.3.8-r0: add alpha keyword
+
+  Gentoo-Bug: 591618
+

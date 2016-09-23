@@ -109,3 +109,8 @@
 
   Package-Manager: portage-2.3.0
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org> qscintilla-2.9.2.ebuild:
+  2.9.2-r0: add alpha keyword
+
+  Gentoo-Bug: 552122
+

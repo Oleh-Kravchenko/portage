@@ -149,3 +149,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org> PyQt4-4.11.4-r1.ebuild:
+  4.11.4-r1: add alpha keyword
+
+  Gentoo-Bug: 552122
+

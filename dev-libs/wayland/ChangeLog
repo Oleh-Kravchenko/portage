@@ -299,3 +299,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="amd64"
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org> wayland-1.11.0.ebuild:
+  1.11.0-r0: add alpha keyword
+
+  Gentoo-Bug: 579266
+

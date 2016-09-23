@@ -663,3 +663,36 @@
 
   Package-Manager: portage-2.3.0_p22
 
+*openssl-1.1.0a (22 Sep 2016)
+*openssl-1.0.2i (22 Sep 2016)
+
+  22 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/openssl-1.0.2i-parallel-build.patch, +openssl-1.0.2i.ebuild,
+  +openssl-1.1.0a.ebuild:
+  Sec bump to versions 1.0.2i and 1.1.0a (bug #594500).
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  22 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -openssl-1.0.2g-r2.ebuild, -openssl-1.0.2h.ebuild,
+  -openssl-1.0.2h-r1.ebuild, -openssl-1.1.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  22 Sep 2016; Agostino Sarubbo <ago@gentoo.org> openssl-1.0.2i.ebuild:
+  amd64 stable wrt bug #594500
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  22 Sep 2016; Agostino Sarubbo <ago@gentoo.org> openssl-1.0.2i.ebuild:
+  x86 stable wrt bug #594500
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

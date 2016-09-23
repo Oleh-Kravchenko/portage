@@ -70,3 +70,8 @@
 
   Package-Manager: portage-2.3.1
 
+  22 Sep 2016; Jeroen Roovers <jer@gentoo.org> flowgrind-0.8.0.ebuild:
+  Depend on sys-apps/util-linux by Christian Samsel (bug #594766).
+
+  Package-Manager: portage-2.3.1
+

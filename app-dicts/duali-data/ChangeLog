@@ -90,3 +90,9 @@
 
   Package-Manager: portage-2.2.28
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  duali-data-0.1b-r1.ebuild:
+  0.1b-r1: add alpha keyword
+
+  Gentoo-Bug: 593214
+

@@ -113,3 +113,8 @@
 
   Package-Manager: portage-2.3.0
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org> babl-0.1.18.ebuild:
+  0.1.18-r0: add alpha keyword
+
+  Gentoo-Bug: 591618
+

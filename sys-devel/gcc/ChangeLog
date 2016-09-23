@@ -336,3 +336,11 @@
 
   Package-Manager: portage-2.3.0
 
+*gcc-6.2.0-r1 (21 Sep 2016)
+
+  21 Sep 2016; Magnus Granberg <zorry@gentoo.org> -gcc-6.2.0.ebuild,
+  +gcc-6.2.0-r1.ebuild:
+  Bump gcc 6.2 for default ssp support
+
+  Package-Manager: portage-2.3.0
+

@@ -92,3 +92,11 @@
 
   Package-Manager: portage-2.2.28
 
+  22 Sep 2016; Kacper Kowalik <xarthisius@gentoo.org> hdf5-1.8.17.ebuild,
+  metadata.xml:
+  add use flag for enabling high level API
+
+  Fixes bug #594560 reported by eroen <gentoo@eroen.eu>
+
+  Package-Manager: portage-2.2.28
+

@@ -195,3 +195,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="amd64"
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  xkeyboard-config-2.17.ebuild:
+  2.17-r0: add alpha keyword
+
+  Gentoo-Bug: 579266
+

@@ -133,3 +133,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="amd64"
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org> xproto-7.0.29.ebuild:
+  7.0.29-r0: add alpha keyword
+
+  Gentoo-Bug: 579266
+

@@ -79,3 +79,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  introspection-0.0.3.ebuild:
+  0.0.3-r0: add alpha keyword
+
+  Gentoo-Bug: 589432
+

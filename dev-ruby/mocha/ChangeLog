@@ -179,3 +179,13 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org> mocha-0.14.0.ebuild:
+  0.14.0-r0: add alpha keyword
+
+  Gentoo-Bug: 589432
+
+  22 Sep 2016; Tobias Klausmann <klausman@gentoo.org> mocha-1.1.0.ebuild:
+  1.1.0-r0: add alpha keyword
+
+  Gentoo-Bug: 589432
+

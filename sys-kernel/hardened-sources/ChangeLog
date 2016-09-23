@@ -1394,3 +1394,13 @@
 
   Package-Manager: portage-2.3.0_p31
 
+*hardened-sources-4.7.4-r1 (22 Sep 2016)
+
+  22 Sep 2016; Anthony G. Basile <blueness@gentoo.org>
+  -hardened-sources-4.7.4.ebuild, +hardened-sources-4.7.4-r1.ebuild:
+  version bump to 4.7.4-r1, remove 4.7.4
+
+  vanilla-4.7 + genpatches-4.7-1 + grsecurity-3.1-4.7.4-201609211951
+
+  Package-Manager: portage-2.2.28
+
