@@ -212,3 +212,8 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org> pango-1.40.3.ebuild:
+  1.40.3-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+

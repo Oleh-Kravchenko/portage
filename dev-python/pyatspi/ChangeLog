@@ -187,3 +187,8 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="ppc"
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org> pyatspi-2.20.2.ebuild:
+  2.20.2-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+

@@ -93,3 +93,11 @@
 
   Package-Manager: portage-2.3.0
 
+*txaio-2.5.1-r1 (23 Sep 2016)
+
+  23 Sep 2016; Brian Dolbec <dolsen@gentoo.org> -txaio-2.5.1.ebuild,
+  +txaio-2.5.1-r1.ebuild:
+  Fix deps, bump eapi to 6
+
+  Package-Manager: portage-2.3.1
+

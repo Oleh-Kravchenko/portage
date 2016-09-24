@@ -331,3 +331,11 @@
 
   Package-Manager: portage-2.2.28
 
+*mutt-1.7.0-r5 (23 Sep 2016)
+
+  23 Sep 2016; Fabian Groffen <grobian@gentoo.org> -mutt-1.7.0-r4.ebuild,
+  +mutt-1.7.0-r5.ebuild:
+  revbump to include upstream fixes, bug #593692
+
+  Package-Manager: portage-2.2.28
+

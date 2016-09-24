@@ -118,3 +118,8 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org> gtk-doc-1.25-r1.ebuild:
+  1.25-r1: add alpha keyword
+
+  Gentoo-Bug: 587010
+

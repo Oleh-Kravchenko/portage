@@ -88,3 +88,9 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Sep 2016; Alexis Ballier <aballier@gentoo.org>
+  -lcdf-typetools-2.104.ebuild, -lcdf-typetools-2.105.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.1
+

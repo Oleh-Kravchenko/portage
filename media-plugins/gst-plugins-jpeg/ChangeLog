@@ -166,3 +166,9 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  gst-plugins-jpeg-1.8.2.ebuild:
+  1.8.2-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+

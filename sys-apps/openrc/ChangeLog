@@ -485,3 +485,8 @@
 
   Package-Manager: portage-2.2.28
 
+  23 Sep 2016; William Hubbs <williamh@gentoo.org> openrc-9999.ebuild:
+  adjust the release src_uri to pull from github
+
+  Package-Manager: portage-2.2.28
+

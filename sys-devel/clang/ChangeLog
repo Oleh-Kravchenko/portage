@@ -328,3 +328,6 @@
   -clang-3.9.0-r101.ebuild:
   Un-bump the newest rev to satisfy LLVM deps
 
+  23 Sep 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Update for the Sphinx install dir patch applied upstream
+

@@ -437,3 +437,8 @@
 
   Gentoo-Bug: 579266
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org> libinput-1.4.2.ebuild:
+  1.4.2-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+

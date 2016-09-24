@@ -974,3 +974,13 @@
   21 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
   Remove the remnants of OCaml documentation
 
+  23 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Update for the Sphinx install dir patch applied upstream
+
+  23 Sep 2016; Michał Górny <mgorny@gentoo.org> +files/3.9.0/0003-cmake-Suppor
+  t-overriding-Sphinx-HTML-doc-install-dir.patch,
+  -files/9999/0003-cmake-Support-overriding-Sphinx-HTML-doc-install-dir.patch,
+  llvm-3.7.1-r3.ebuild, llvm-3.8.0-r3.ebuild, llvm-3.8.1.ebuild,
+  llvm-3.8.1-r2.ebuild, llvm-3.9.0.ebuild:
+  Move the old Sphinx install patch to <=3.9.0
+

@@ -169,3 +169,9 @@
   The realpath dep migrated years ago into coreutils, so we can drop this
   old dep as it's part of the @system.
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  gentoolkit-0.3.2-r1.ebuild:
+  0.3.2-r1: add alpha keyword
+
+  Gentoo-Bug: 590170
+

@@ -258,3 +258,20 @@
 
   Package-Manager: portage-2.3.0
 
+*percona-server-5.6.32.78.1 (22 Sep 2016)
+
+  22 Sep 2016; Thomas Deutschmann <whissi@gentoo.org>
+  +percona-server-5.6.32.78.1.ebuild:
+  Bump to v5.6.32-78.1
+
+  Link: https://www.percona.com/blog/2016/09/21/percona-server-5-6-32-78-1-is-
+  now-available/
+
+  Package-Manager: portage-2.3.1
+
+  22 Sep 2016; Thomas Deutschmann <whissi@gentoo.org>
+  -percona-server-5.6.32.78.0.ebuild:
+  Drop old version
+
+  Package-Manager: portage-2.3.1
+

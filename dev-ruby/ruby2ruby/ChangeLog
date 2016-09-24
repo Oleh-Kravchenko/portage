@@ -120,3 +120,8 @@
 
   Package-Manager: portage-2.2.28
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org> ruby2ruby-2.3.0.ebuild:
+  2.3.0-r0: add alpha keyword
+
+  Gentoo-Bug: 589690
+

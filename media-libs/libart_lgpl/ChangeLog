@@ -72,3 +72,9 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  libart_lgpl-2.3.21-r3.ebuild:
+  2.3.21-r3: add alpha keyword
+
+  Gentoo-Bug: 587010
+

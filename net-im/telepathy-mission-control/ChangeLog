@@ -180,3 +180,9 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  telepathy-mission-control-5.16.4.ebuild:
+  5.16.4-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+

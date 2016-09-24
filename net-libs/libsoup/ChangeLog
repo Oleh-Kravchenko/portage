@@ -210,3 +210,9 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  libsoup-2.54.1-r1.ebuild:
+  2.54.1-r1: add alpha keyword
+
+  Gentoo-Bug: 587010
+

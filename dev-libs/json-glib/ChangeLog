@@ -150,3 +150,8 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org> json-glib-1.2.2.ebuild:
+  1.2.2-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+

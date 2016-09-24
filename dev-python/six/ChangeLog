@@ -261,3 +261,6 @@
 
   Package-Manager: portage-2.3.0_rc1_p20
 
+  23 Sep 2016; Tim Harder <radhermit@gentoo.org> -six-1.9.0-r1.ebuild:
+  remove old
+

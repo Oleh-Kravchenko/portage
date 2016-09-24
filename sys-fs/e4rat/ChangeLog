@@ -78,3 +78,9 @@
   e4rat-0.2.4_pre20141201.ebuild, +files/e4rat-0.2.4-sysmacros.patch:
   fix build w/newer glibc #580534
 
+  23 Sep 2016; Pacho Ramos <pacho@gentoo.org> e4rat-0.2.4_pre20141201.ebuild,
+  +files/e4rat-0.2.4-gcc6.patch:
+  Fix compilation with gcc6 (#594046 by Peter Levine)
+
+  Package-Manager: portage-2.3.0
+

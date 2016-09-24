@@ -177,3 +177,9 @@
   +files/gnome-vfs-2.24.4-gnutls34.patch, +gnome-vfs-2.24.4-r5.ebuild:
   Fix gnutls-3.4+ compatibility, #560084
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  gnome-vfs-2.24.4-r5.ebuild:
+  2.24.4-r5: add alpha keyword
+
+  Gentoo-Bug: 587010
+

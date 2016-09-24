@@ -135,3 +135,8 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org> libgtop-2.34.1.ebuild:
+  2.34.1-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+

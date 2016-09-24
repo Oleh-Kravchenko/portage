@@ -125,3 +125,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  ruby_parser-3.8.2.ebuild:
+  3.8.2-r0: add alpha keyword
+
+  Gentoo-Bug: 589690
+

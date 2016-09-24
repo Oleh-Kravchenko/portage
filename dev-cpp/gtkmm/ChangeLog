@@ -298,3 +298,13 @@
 
   Package-Manager: portage-2.3.0
 
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org> gtkmm-3.20.1.ebuild:
+  3.20.1-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+
+  23 Sep 2016; Tobias Klausmann <klausman@gentoo.org> gtkmm-2.24.5.ebuild:
+  2.24.5-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+

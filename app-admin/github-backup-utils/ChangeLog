@@ -74,3 +74,11 @@
 
   Package-Manager: portage-2.3.0
 
+*github-backup-utils-2.7.1 (22 Sep 2016)
+
+  22 Sep 2016; Austin English <wizardedit@gentoo.org>
+  +github-backup-utils-2.7.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.0
+

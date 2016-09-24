@@ -153,3 +153,9 @@
 
   Gentoo-Bug: 594724
 
+  23 Sep 2016; Jeroen Roovers <jer@gentoo.org> irssi-0.8.20.ebuild:
+  Stable for HPPA PPC64 (bug #594724).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

@@ -141,3 +141,7 @@
   * drop skype support, use libpurple and x11-plugins/pidgin-skypeweb
     instead (https://wiki.bitlbee.org/HowtoSkypeWeb)
 
+  23 Sep 2016; Tim Harder <radhermit@gentoo.org> -bitlbee-3.4.2.ebuild,
+  -files/bitlbee.confd, -files/bitlbee.initd:
+  remove old
+

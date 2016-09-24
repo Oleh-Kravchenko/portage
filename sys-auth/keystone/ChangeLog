@@ -414,3 +414,11 @@
   keystone-9.1.0.ebuild, keystone-2016.1.9999.ebuild:
   doing the test
 
+*keystone-9.2.0 (23 Sep 2016)
+
+  23 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +keystone-9.2.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.2.28
+
