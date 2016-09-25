@@ -247,3 +247,20 @@
 
   Package-Manager: portage-2.2.28
 
+*openconnect-7.07-r2 (24 Sep 2016)
+
+  24 Sep 2016; William Hubbs <williamh@gentoo.org>
+  +files/openconnect-7.07-mimic-pulse-client.patch,
+  +openconnect-7.07-r2.ebuild:
+  7.07-r2 revbump to fix pulse secure
+
+  Current stable openconnect is broken for newer releases of pulse secure [1].
+  This revbump fixes that issue. I have verified it on amd64 so I'm going
+  straight to stable since the previous revision is stable.
+
+  [1] http://lists.infradead.org/pipermail/openconnect-
+  devel/2016-September/003952.html
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --force
+

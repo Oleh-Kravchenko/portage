@@ -306,3 +306,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  24 Sep 2016; Markus Meier <maekke@gentoo.org> gd-2.2.3.ebuild:
+  arm stable, bug #587662
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

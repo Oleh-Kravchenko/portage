@@ -483,3 +483,15 @@
 
   Gentoo-Bug: 593614
 
+  24 Sep 2016; Jeroen Roovers <jer@gentoo.org> mysql-5.6.33.ebuild:
+  Stable for HPPA PPC64 (bug #593614).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+
+  24 Sep 2016; Markus Meier <maekke@gentoo.org> mysql-5.6.33.ebuild:
+  arm stable, bug #593614
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

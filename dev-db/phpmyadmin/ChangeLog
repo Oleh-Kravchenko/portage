@@ -532,3 +532,21 @@
 
   Gentoo-Bug: 593582
 
+  24 Sep 2016; Jeroen Roovers <jer@gentoo.org> phpmyadmin-4.4.15.8.ebuild:
+  Stable for HPPA (bug #593582).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+
+  24 Sep 2016; Jeroen Roovers <jer@gentoo.org> phpmyadmin-4.4.15.8.ebuild:
+  Stable for PPC64 (bug #593582).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+
+  24 Sep 2016; Jeroen Roovers <jer@gentoo.org> phpmyadmin-4.0.10.17.ebuild:
+  Stable for HPPA PPC64 (bug #593582).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

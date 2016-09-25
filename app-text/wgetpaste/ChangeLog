@@ -101,3 +101,10 @@
 
   Gentoo-Bug: 591544
 
+  24 Sep 2016; Agostino Sarubbo <ago@gentoo.org> wgetpaste-2.28.ebuild:
+  amd64 stable wrt bug #591544
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

@@ -676,3 +676,10 @@
 
   Package-Manager: portage-2.3.0_p43
 
+  24 Sep 2016; Mike Gilbert <floppym@gentoo.org> python-2.7.10-r1.ebuild,
+  python-2.7.12.ebuild, python-3.4.3-r1.ebuild, python-3.4.5.ebuild,
+  python-3.5.2.ebuild:
+  set LC_ALL=C in src_compile
+
+  Package-Manager: portage-2.3.0_p43
+

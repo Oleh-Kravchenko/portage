@@ -212,3 +212,9 @@
 
   Package-Manager: portage-2.2.28
 
+  24 Sep 2016; Jeroen Roovers <jer@gentoo.org> scribus-1.4.6.ebuild:
+  Stable for HPPA PPC64 (bug #582334).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

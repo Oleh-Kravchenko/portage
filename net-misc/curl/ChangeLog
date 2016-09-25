@@ -437,3 +437,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  24 Sep 2016; Markus Meier <maekke@gentoo.org> curl-7.50.3.ebuild:
+  arm stable, bug #593716
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

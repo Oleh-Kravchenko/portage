@@ -1783,3 +1783,9 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  24 Sep 2016; Jeroen Roovers <jer@gentoo.org> php-5.6.26.ebuild:
+  Stable for PPC64 (bug #594498).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

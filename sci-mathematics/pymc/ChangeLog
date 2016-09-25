@@ -75,3 +75,12 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  24 Sep 2016; David Seifert <soap@gentoo.org> -pymc-2.2.ebuild,
+  -pymc-9999.ebuild:
+  Remove EAPI 4 ebuilds
+
+  Package-Manager: portage-2.2.28
+  Closes: https://github.com/gentoo/gentoo/pull/2398
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

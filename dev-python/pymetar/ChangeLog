@@ -76,3 +76,6 @@
   -pymetar-0.20.ebuild, +pymetar-0.21.ebuild:
   Actually bump to the latest version
 
+  24 Sep 2016; Tobias Klausmann <klausman@gentoo.org> pymetar-0.21.ebuild:
+  Mark v0.21 stable on amd64
+

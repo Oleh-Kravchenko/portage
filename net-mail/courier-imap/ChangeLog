@@ -142,3 +142,9 @@
 
   Package-Manager: portage-2.2.28
 
+  24 Sep 2016; Jeroen Roovers <jer@gentoo.org> courier-imap-4.16.2-r1.ebuild:
+  Stable for HPPA (bug #590970).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

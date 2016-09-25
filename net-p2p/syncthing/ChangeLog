@@ -358,3 +358,15 @@
 
   Package-Manager: portage-2.3.0
 
+*syncthing-0.14.7 (24 Sep 2016)
+
+  24 Sep 2016; Dirkjan Ochtman <djc@gentoo.org> +syncthing-0.14.7.ebuild:
+  bump to 0.14.7
+
+  Package-Manager: portage-2.3.0
+
+  24 Sep 2016; Dirkjan Ochtman <djc@gentoo.org> -syncthing-0.14.4-r1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

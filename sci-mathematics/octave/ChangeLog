@@ -254,3 +254,13 @@
 
   Package-Manager: portage-2.3.0
 
+  24 Sep 2016; David Seifert <soap@gentoo.org>
+  +files/octave-4.0.3-zlib-underlinking.patch, octave-4.0.3.ebuild:
+  Fix zlib underlinking
+
+  Gentoo-bug: 593670
+  * [QA] Add -Wl,-z,defs to LDFLAGS
+  * Make dependency on sys-libs/zlib unconditional
+
+  Package-Manager: portage-2.3.1
+
