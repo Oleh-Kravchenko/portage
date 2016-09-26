@@ -368,3 +368,11 @@
 
   Package-Manager: portage-2.2.28
 
+*exim-4.88_rc1 (25 Sep 2016)
+
+  25 Sep 2016; Fabian Groffen <grobian@gentoo.org> +exim-4.88_rc1.ebuild,
+  +files/exim-4.88-as-needed-ldflags.patch:
+  version bump to 4.88_rc1 (masked)
+
+  Package-Manager: portage-2.2.28
+

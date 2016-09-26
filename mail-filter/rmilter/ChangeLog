@@ -136,3 +136,8 @@
 
   Package-Manager: portage-2.2.28
 
+  25 Sep 2016; Anthony G. Basile <blueness@gentoo.org> rmilter-1.9.2.ebuild:
+  add libressl support, bug #595092
+
+  Package-Manager: portage-2.2.28
+

@@ -86,3 +86,9 @@
   Package-Manager: portage-2.3.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  24 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> darkice-1.2.ebuild:
+  Fixed RQUIReD_USE for input codecs (bug #593790).
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
