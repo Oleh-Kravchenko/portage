@@ -265,3 +265,11 @@
 
   Package-Manager: portage-2.3.0
 
+  26 Sep 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> -notmuch-0.22.ebuild,
+  -notmuch-0.22-r2.ebuild, -notmuch-0.22.1.ebuild:
+  Remove older versions
+
+  0.22.2 contains bugfixes and supersedes 0.22 and 0.22.1.
+
+  Package-Manager: portage-2.3.1
+

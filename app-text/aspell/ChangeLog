@@ -132,3 +132,9 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  26 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  aspell-0.60.6.1-r3.ebuild:
+  0.60.6.1-r3: add alpha keyword
+
+  Gentoo-Bug: 591812
+

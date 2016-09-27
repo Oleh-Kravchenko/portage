@@ -269,3 +269,6 @@
 
   Package-Manager: portage-2.2.28
 
+  26 Sep 2016; Ian Stakenvicius <axs@gentoo.org> metadata.xml:
+  mozilla packages: clarified description of USE=custom-optimization
+

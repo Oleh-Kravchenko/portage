@@ -118,3 +118,22 @@
 
   Package-Manager: portage-2.3.0
 
+  26 Sep 2016; Agostino Sarubbo <ago@gentoo.org> firejail-0.9.40-r2.ebuild:
+  amd64 stable wrt bug #588258
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  26 Sep 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  -firejail-0.9.36.ebuild:
+  Remove oldest version
+
+  Package-Manager: portage-2.3.1
+
+  26 Sep 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  -firejail-0.9.40.ebuild:
+  Remove older revision of 0.9.40
+
+  Package-Manager: portage-2.3.1
+

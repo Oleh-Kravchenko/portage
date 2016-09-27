@@ -63,3 +63,10 @@
 
   Package-Manager: portage-2.3.0
 
+*ppx_deriving-4.1 (26 Sep 2016)
+
+  26 Sep 2016; Alexis Ballier <aballier@gentoo.org> +ppx_deriving-4.1.ebuild:
+  bump to 4.1
+
+  Package-Manager: portage-2.3.1
+

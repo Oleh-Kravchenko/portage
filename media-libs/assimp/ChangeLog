@@ -140,3 +140,14 @@
 
   Package-Manager: portage-2.3.0
 
+  26 Sep 2016; Slawomir Lis <slis@gentoo.org> assimp-3.3.1.ebuild,
+  +files/findassimp-3.3.1.patch:
+  patch that fixes Findassimp cmake module path
+
+  In default assimp installation there are hardcoded paths for /usr/local/lib
+  Reported in bug 595066
+
+  Reported-By: Patrick Nicolas <patricknicolas@laposte.net>
+
+  Package-Manager: portage-2.3.1
+

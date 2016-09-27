@@ -467,3 +467,10 @@
 
   Package-Manager: portage-2.2.28
 
+*git-sources-4.8_rc8 (26 Sep 2016)
+
+  26 Sep 2016; Mike Pagano <mpagano@gentoo.org> +git-sources-4.8_rc8.ebuild:
+  Linux patch 4.8-rc8
+
+  Package-Manager: portage-2.2.28
+

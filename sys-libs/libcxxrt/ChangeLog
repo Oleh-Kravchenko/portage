@@ -90,3 +90,8 @@
 
   Package-Manager: portage-2.3.1
 
+  26 Sep 2016; Alexis Ballier <aballier@gentoo.org>
+  libcxxrt-0.0_p20140322.ebuild, libcxxrt-0.0_p20150423-r1.ebuild,
+  libcxxrt-0.0_p20160922.ebuild, libcxxrt-9999.ebuild:
+  Add missing MULTILIB_USEDEP, bug 594032
+

@@ -1676,3 +1676,12 @@
 
   Package-Manager: portage-2.3.0_p43
 
+*chromium-55.0.2868.3 (26 Sep 2016)
+
+  26 Sep 2016; Mike Gilbert <floppym@gentoo.org> -chromium-55.0.2853.0.ebuild,
+  +chromium-55.0.2868.3.ebuild, +files/chromium-gn-r6.patch,
+  +files/chromium-system-zlib-r1.patch:
+  dev channel bump (55.0.2868.3)
+
+  Package-Manager: portage-2.3.1_p4_p152503
+

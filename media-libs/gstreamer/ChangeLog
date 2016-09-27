@@ -251,3 +251,8 @@
 
   Gentoo-Bug: 587010
 
+  26 Sep 2016; Tobias Klausmann <klausman@gentoo.org> gstreamer-1.8.3.ebuild:
+  1.8.3-r0: add alpha keyword
+
+  Gentoo-Bug: 587010
+

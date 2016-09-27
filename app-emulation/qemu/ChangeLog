@@ -853,3 +853,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Sep 2016; Matthias Maier <tamiko@gentoo.org> -qemu-2.7.0.ebuild,
+  -qemu-2.7.0-r2.ebuild:
+  drop vulnerable versions 2.7.0, 2.7.0-r2
+
+  Package-Manager: portage-2.2.28
+

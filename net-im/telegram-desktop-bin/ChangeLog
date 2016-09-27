@@ -72,3 +72,13 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*telegram-desktop-bin-0.10.7 (26 Sep 2016)
+
+  26 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  +telegram-desktop-bin-0.10.7.ebuild:
+  version bump to 0.10.7.
+
+  Signed-off-by: Henning Schild <henning@hennsch.de>
+  Closes: https://github.com/gentoo/gentoo/pull/2402
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

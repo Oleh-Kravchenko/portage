@@ -66,3 +66,9 @@
 
   Bug: 575810
 
+  26 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  aspell-hu-0.99.4.2.ebuild:
+  0.99.4.2-r0: add alpha keyword
+
+  Gentoo-Bug: 591812
+

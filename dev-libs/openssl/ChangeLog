@@ -702,3 +702,29 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+*openssl-1.1.0b (26 Sep 2016)
+*openssl-1.0.2j (26 Sep 2016)
+
+  26 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> +openssl-1.0.2j.ebuild,
+  -openssl-1.1.0a.ebuild, +openssl-1.1.0b.ebuild:
+  Sec bump to versions 1.0.2j and 1.1.0b (bug #595186).
+
+  Removed old.
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  26 Sep 2016; Agostino Sarubbo <ago@gentoo.org> openssl-1.0.2j.ebuild:
+  amd64 stable wrt bug #595186
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  26 Sep 2016; Agostino Sarubbo <ago@gentoo.org> openssl-1.0.2j.ebuild:
+  x86 stable wrt bug #595186
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

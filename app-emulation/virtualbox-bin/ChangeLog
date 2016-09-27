@@ -428,3 +428,12 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  26 Sep 2016; Marek Szuba <marecki@gentoo.org> metadata.xml:
+  add proxy-maint to metadata
+
+  This package is maintained by proxy but it didn't have the proxy-maint
+  project
+  in metadata. Fixed.
+
+  Package-Manager: portage-2.3.1
+

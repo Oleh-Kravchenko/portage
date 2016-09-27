@@ -974,3 +974,6 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  26 Sep 2016; Ian Stakenvicius <axs@gentoo.org> metadata.xml:
+  mozilla packages: clarified description of USE=custom-optimization
+

@@ -159,3 +159,23 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  26 Sep 2016; William Hubbs <williamh@gentoo.org>
+  +files/irssi-0.8.20-tinfo.patch, irssi-0.8.20.ebuild:
+  clean up 0.8.20 ebuild
+
+  - don't quote eapi
+  - munge the patch so the default src_prepare can be used
+
+  This change was approved by monsieurp.
+
+  Package-Manager: portage-2.2.28
+
+*irssi-0.8.20-r1 (26 Sep 2016)
+
+  26 Sep 2016; Sven Wegener <swegener@gentoo.org>
+  +files/irssi-0.8.20-buf.pl-2.20-CVE-2016-7553.patch,
+  +irssi-0.8.20-r1.ebuild:
+  Revision bump, security bug #595172
+
+  Package-Manager: portage-2.2.28
+

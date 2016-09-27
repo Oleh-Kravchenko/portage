@@ -389,3 +389,10 @@
 
   Package-Manager: portage-2.3.1
 
+  25 Sep 2016; Thomas Deutschmann <whissi@gentoo.org> metadata.xml:
+  Move collectd_plugins_* flags from metadata.xml to collectd_plugins.desc
+
+  Gentoo-Bug: https://bugs.gentoo.org/588250
+
+  Package-Manager: portage-2.3.1
+

@@ -535,3 +535,11 @@
 
   Package-Manager: portage-2.3.1
 
+*postfix-3.2_pre20160925 (26 Sep 2016)
+
+  26 Sep 2016; Eray Aslan <eras@gentoo.org> -postfix-3.2_pre20160924.ebuild,
+  +postfix-3.2_pre20160925.ebuild:
+  version bump to 3.2_pre20160925
+
+  Package-Manager: portage-2.3.1
+

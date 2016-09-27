@@ -241,3 +241,9 @@
 
   Gentoo-bug: 589440
 
+  26 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  gst-plugins-base-1.8.3-r1.ebuild:
+  1.8.3-r1: add alpha keyword
+
+  Gentoo-Bug: 587010
+

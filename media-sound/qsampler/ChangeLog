@@ -117,3 +117,16 @@
 
   Package-Manager: portage-2.3.0
 
+  26 Sep 2016; Alexis Ballier <aballier@gentoo.org>
+  -qsampler-0.2.2_p2345.ebuild, -qsampler-0.3.1.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.1
+
+*qsampler-0.4.1 (26 Sep 2016)
+
+  26 Sep 2016; Alexis Ballier <aballier@gentoo.org> +qsampler-0.4.1.ebuild:
+  bump to 0.4.1
+
+  Package-Manager: portage-2.3.1
+

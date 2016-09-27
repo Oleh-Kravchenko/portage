@@ -331,3 +331,7 @@
   23 Sep 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
   Update for the Sphinx install dir patch applied upstream
 
+  26 Sep 2016; Michał Górny <mgorny@gentoo.org>
+  files/9999/0002-driver-Support-obtaining-active-toolchain-from-gcc-c.patch:
+  Fix the gcc-config patch not to break --gcc-toolchain
+

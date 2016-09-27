@@ -140,3 +140,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  26 Sep 2016; Agostino Sarubbo <ago@gentoo.org> motif-2.3.6.ebuild:
+  amd64 stable wrt bug #591808
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

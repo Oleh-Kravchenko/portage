@@ -10,3 +10,9 @@
 
   Package-Manager: portage-2.3.0
 
+  26 Sep 2016; Alexis Ballier <aballier@gentoo.org>
+  ppx_deriving_yojson-3.0.ebuild:
+  fix homepage
+
+  Package-Manager: portage-2.3.1
+

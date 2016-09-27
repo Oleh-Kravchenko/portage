@@ -10,3 +10,11 @@
 
   Package-Manager: portage-2.3.0
 
+*zstd-1.0.0-r1 (26 Sep 2016)
+
+  26 Sep 2016; Patrick Lauer <patrick@gentoo.org> -zstd-1.0.0.ebuild,
+  +zstd-1.0.0-r1.ebuild:
+  Fix install prefix #593632
+
+  Package-Manager: portage-2.3.0
+

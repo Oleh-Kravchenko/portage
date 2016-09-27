@@ -101,3 +101,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  26 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  lcdf-typetools-2.106.ebuild:
+  2.106-r0: add alpha keyword
+
+  Gentoo-Bug: 594726
+
