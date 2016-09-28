@@ -728,3 +728,14 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Sep 2016; Jeroen Roovers <jer@gentoo.org> openssl-1.0.2j.ebuild:
+  Stable for HPPA PPC64 (bug #595186).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+
+  27 Sep 2016; Tobias Klausmann <klausman@gentoo.org> openssl-1.0.2j.ebuild:
+  1.0.2j-r0: stable on alpha
+
+  Gentoo-Bug: 595186
+

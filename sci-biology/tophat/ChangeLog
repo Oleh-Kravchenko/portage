@@ -136,3 +136,8 @@
 
   Package-Manager: portage-2.3.1
 
+  27 Sep 2016; David Seifert <soap@gentoo.org> -tophat-1.0.12.ebuild:
+  Remove old and ancient 1.0 ebuilds
+
+  Package-Manager: portage-2.3.1
+

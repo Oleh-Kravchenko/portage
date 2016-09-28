@@ -170,3 +170,15 @@
 
   Package-Manager: portage-2.3.0
 
+*packagekit-base-1.1.4 (26 Sep 2016)
+
+  26 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +packagekit-base-1.1.4.ebuild:
+  version bump 1.1.1 → 1.1.4
+
+  Also inherit xdg eclass.
+
+  Gentoo-bug: 586758
+
+  Package-Manager: portage-2.3.1
+

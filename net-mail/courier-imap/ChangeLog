@@ -148,3 +148,9 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  27 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  courier-imap-4.16.2-r1.ebuild:
+  4.16.2-r1: stable on alpha
+
+  Gentoo-Bug: 590970
+

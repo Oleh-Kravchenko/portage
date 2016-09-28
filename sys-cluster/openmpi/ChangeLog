@@ -179,3 +179,9 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  openmpi-1.10.3-r1.ebuild:
+  1.10.3-r1: keyworded for ~alpha
+
+  Gentoo-Bug: 592468
+

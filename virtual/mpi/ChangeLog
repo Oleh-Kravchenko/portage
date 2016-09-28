@@ -96,3 +96,8 @@
 
   Package-Manager: portage-2.2.28
 
+  27 Sep 2016; Christoph Junghans <ottxor@gentoo.org> mpi-2.0-r4.ebuild:
+  re-added ~alpha (bug 592468)
+
+  Package-Manager: portage-2.2.28
+

@@ -438,3 +438,9 @@
 
   Gentoo-Bug: 591536
 
+  27 Sep 2016; Kristian Fiskerstrand <k_f@gentoo.org> -gnupg-2.0.26-r3.ebuild,
+  -gnupg-2.1.12-r1.ebuild, -gnupg-2.1.13.ebuild, -gnupg-2.1.14-r1.ebuild:
+  Cleanup old
+
+  Package-Manager: portage-2.3.0
+

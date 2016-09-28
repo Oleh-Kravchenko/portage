@@ -127,3 +127,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Sep 2016; Markus Meier <maekke@gentoo.org> Capture-Tiny-0.360.0.ebuild:
+  arm stable, bug #590830
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

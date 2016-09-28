@@ -687,3 +687,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --ignore-arches
 
+  27 Sep 2016; Markus Meier <maekke@gentoo.org> mariadb-10.0.27.ebuild:
+  arm stable, bug #593608
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

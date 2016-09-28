@@ -138,3 +138,10 @@
 
   Gentoo-Bug: 579266
 
+*xproto-7.0.31 (26 Sep 2016)
+
+  26 Sep 2016; Manuel Rüger <mrueg@gentoo.org> +xproto-7.0.31.ebuild:
+  Version bump to 7.0.31
+
+  Package-Manager: portage-2.3.1
+

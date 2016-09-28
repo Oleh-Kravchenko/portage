@@ -175,3 +175,9 @@
 
   Gentoo-Bug: 590170
 
+  27 Sep 2016; Markus Meier <maekke@gentoo.org> gentoolkit-0.3.2-r1.ebuild:
+  arm stable, bug #590170
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="arm"
+

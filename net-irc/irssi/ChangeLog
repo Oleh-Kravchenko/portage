@@ -179,3 +179,8 @@
 
   Package-Manager: portage-2.2.28
 
+  26 Sep 2016; Sven Wegener <swegener@gentoo.org> irssi-0.8.20-r1.ebuild:
+  Forward-port keywords
+
+  Package-Manager: portage-2.3.0
+

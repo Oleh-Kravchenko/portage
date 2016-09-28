@@ -259,3 +259,12 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*sysstat-11.5.1 (27 Sep 2016)
+*sysstat-11.4.1 (27 Sep 2016)
+
+  27 Sep 2016; Jeroen Roovers <jer@gentoo.org> +sysstat-11.4.1.ebuild,
+  +sysstat-11.5.1.ebuild:
+  Development branch version bump.
+
+  Package-Manager: portage-2.3.1
+

@@ -147,3 +147,16 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  27 Sep 2016; Jeroen Roovers <jer@gentoo.org>
+  openjpeg-2.1.1_p20160922.ebuild:
+  Stable for HPPA PPC64 (bug #594740).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+
+  27 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  openjpeg-2.1.1_p20160922.ebuild:
+  2.1.1_p20160922-r0: stable on alpha
+
+  Gentoo-Bug: 594740
+

@@ -82,3 +82,11 @@
   Closes: https://github.com/gentoo/gentoo/pull/2402
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  26 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  -telegram-desktop-bin-0.10.1.ebuild:
+  cleanup old.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2415
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+
