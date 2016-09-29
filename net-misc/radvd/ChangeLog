@@ -180,3 +180,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*radvd-2.15 (27 Sep 2016)
+
+  27 Sep 2016; Michael Weber <xmw@gentoo.org> +radvd-2.15.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.2.28
+
+  27 Sep 2016; Michael Weber <xmw@gentoo.org>
+  -files/radvd-2.10-musl-libc-fix.patch, -radvd-2.12.ebuild:
+  drop old.
+
+  Package-Manager: portage-2.2.28
+

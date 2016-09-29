@@ -30,3 +30,8 @@
 
   Package-Manager: portage-2.3.0
 
+  28 Sep 2016; Tobias Klausmann <klausman@gentoo.org> future-0.15.2.ebuild:
+  0.15.2-r0: keyworded for ~alpha
+
+  Gentoo-Bug: 592910
+

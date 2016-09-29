@@ -315,3 +315,8 @@
 
   Package-Manager: portage-2.3.0
 
+  28 Sep 2016; Tobias Klausmann <klausman@gentoo.org> gimp-2.9.4.ebuild:
+  2.9.4-r0: keyworded for ~alpha
+
+  Gentoo-Bug: 589098
+

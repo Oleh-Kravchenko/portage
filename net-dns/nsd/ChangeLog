@@ -194,3 +194,19 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*nsd-4.1.13 (27 Sep 2016)
+
+  27 Sep 2016; Lars Wendler <polynomial-c@gentoo.org> +nsd-4.1.13.ebuild:
+  Bump to version 4.1.13
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  27 Sep 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -files/nsd-4.1.10-r4644-build-without-ipv6.patch, -files/nsd.initd,
+  -nsd-4.1.10.ebuild, -nsd-4.1.11-r2.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

@@ -326,3 +326,11 @@
 
   Package-Manager: portage-2.3.0
 
+*bind-9.10.4_p3 (28 Sep 2016)
+
+  28 Sep 2016; Christian Ruppert <idl0r@gentoo.org> -bind-9.10.4_p2.ebuild,
+  +bind-9.10.4_p3.ebuild:
+  Version bump to 9.10.4-P3, bug 595340
+
+  Package-Manager: portage-2.3.1
+

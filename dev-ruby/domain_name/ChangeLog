@@ -161,3 +161,9 @@
 
   Package-Manager: portage-2.2.28
 
+  28 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  domain_name-0.5.20160826.ebuild:
+  0.5.20160826-r0: keyworded for ~alpha
+
+  Gentoo-Bug: 592756
+

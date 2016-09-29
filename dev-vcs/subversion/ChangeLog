@@ -326,3 +326,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  28 Sep 2016; Jeroen Roovers <jer@gentoo.org> subversion-1.9.4.ebuild:
+  Stable for PPC64 (bug #586046).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

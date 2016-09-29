@@ -195,3 +195,13 @@
 
   Package-Manager: portage-2.3.0
 
+*libressl-2.5.0 (28 Sep 2016)
+*libressl-2.4.3 (28 Sep 2016)
+*libressl-2.3.8 (28 Sep 2016)
+
+  28 Sep 2016; Anthony G. Basile <blueness@gentoo.org> +libressl-2.3.8.ebuild,
+  +libressl-2.4.3.ebuild, +libressl-2.5.0.ebuild:
+  version bumps to 2.3.8, 2.4.3, 2.5.0
+
+  Package-Manager: portage-2.2.28
+

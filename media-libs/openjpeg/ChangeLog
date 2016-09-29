@@ -160,3 +160,10 @@
 
   Gentoo-Bug: 594740
 
+*openjpeg-2.1.2 (28 Sep 2016)
+
+  28 Sep 2016; Thomas Deutschmann <whissi@gentoo.org> +openjpeg-2.1.2.ebuild:
+  Bump to v2.1.2
+
+  Package-Manager: portage-2.3.1
+
