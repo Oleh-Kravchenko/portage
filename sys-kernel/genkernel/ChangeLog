@@ -339,3 +339,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  29 Sep 2016; Jeroen Roovers <jer@gentoo.org> genkernel-3.4.52.4-r2.ebuild:
+  Stable for HPPA PPC64 (bug #591224).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

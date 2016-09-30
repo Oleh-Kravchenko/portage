@@ -149,3 +149,10 @@
 
   Gentoo-Bug: 579266
 
+  29 Sep 2016; Pacho Ramos <pacho@gentoo.org> libXi-1.7.6.ebuild:
+  Drop useless warning message, if this is needed again in a future version,
+  subslots rebuilding could be used instead of requiring manual action
+  (#487130)
+
+  Package-Manager: portage-2.3.0
+

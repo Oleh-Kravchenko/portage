@@ -91,3 +91,8 @@
 
   Package-Manager: portage-2.2.28
 
+  29 Sep 2016; Tobias Klausmann <klausman@gentoo.org> check-0.10.0-r1.ebuild:
+  0.10.0-r1: stable on alpha
+
+  Gentoo-Bug: 595364
+

@@ -96,3 +96,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="arm"
 
+  29 Sep 2016; Jeroen Roovers <jer@gentoo.org> unicode-data-9.0.0.ebuild:
+  Stable for PPC64 (bug #591592).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

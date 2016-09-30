@@ -123,3 +123,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*AnyEvent-7.130.0 (29 Sep 2016)
+
+  29 Sep 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +AnyEvent-7.130.0.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.0
+

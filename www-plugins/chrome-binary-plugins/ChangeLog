@@ -1342,3 +1342,12 @@
 
   Package-Manager: portage-2.3.1_p4_p327096
 
+*chrome-binary-plugins-54.0.2840.41_beta (28 Sep 2016)
+
+  28 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  -chrome-binary-plugins-54.0.2840.34_beta.ebuild,
+  +chrome-binary-plugins-54.0.2840.41_beta.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.1_p4_p395228
+

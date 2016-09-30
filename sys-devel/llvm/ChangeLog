@@ -984,3 +984,9 @@
   llvm-3.8.1-r2.ebuild, llvm-3.9.0.ebuild:
   Move the old Sphinx install patch to <=3.9.0
 
+  29 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Use LLVM_TARGETS flags
+
+  29 Sep 2016; Michał Górny <mgorny@gentoo.org> llvm-3.9.0.ebuild:
+  Backport LLVM_TARGETS to 3.9.0
+

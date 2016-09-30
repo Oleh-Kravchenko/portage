@@ -561,3 +561,13 @@
 
   Package-Manager: portage-2.3.1
 
+  28 Sep 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/plasma-workspace-5.6.5.1-unused-dep.patch,
+  +files/plasma-workspace-5.7.3-unused-dep.patch,
+  plasma-workspace-5.6.5.1-r2.ebuild, plasma-workspace-5.7.5.ebuild:
+  Drop unused libXcomposite DEPEND
+
+  Reported-by: awilfox (irc)
+
+  Package-Manager: portage-2.2.28
+

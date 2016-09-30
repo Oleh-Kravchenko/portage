@@ -228,3 +228,9 @@
 
   Package-Manager: portage-2.2.28
 
+  28 Sep 2016; Anthony G. Basile <blueness@gentoo.org> moodle-2.7.16.ebuild,
+  moodle-2.9.8.ebuild, moodle-3.0.6.ebuild, moodle-3.1.2.ebuild:
+  remove einfo banner header
+
+  Package-Manager: portage-2.2.28
+

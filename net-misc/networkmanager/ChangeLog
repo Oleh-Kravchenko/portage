@@ -516,3 +516,26 @@
   Package-Manager: portage-2.3.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  29 Sep 2016; Pacho Ramos <pacho@gentoo.org> -files/1.2.4-upower.patch,
+  -files/networkmanager-1.2.2-sleep-monitor-upower-include.patch,
+  -networkmanager-1.2.4.ebuild, -networkmanager-1.4.0.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+
+  29 Sep 2016; Pacho Ramos <pacho@gentoo.org> networkmanager-1.4.0-r1.ebuild:
+  util-linux is needed as it uses uuid (#595118 by Gordon Pettey)
+
+  Package-Manager: portage-2.3.0
+
+*networkmanager-1.4.0 (29 Sep 2016)
+*networkmanager-1.2.4 (29 Sep 2016)
+
+  29 Sep 2016; Pacho Ramos <pacho@gentoo.org> +files/1.2.4-upower.patch,
+  +files/networkmanager-1.2.2-sleep-monitor-upower-include.patch,
+  +networkmanager-1.2.4.ebuild, +networkmanager-1.4.0.ebuild:
+  Revert "net-misc/networkmanager: Drop old"
+  Old versions still needed by some arches
+
+  This reverts commit e9606f0e918e2ade8431684f3e40bc800cd0efcb.
+

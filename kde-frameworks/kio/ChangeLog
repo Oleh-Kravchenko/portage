@@ -263,3 +263,12 @@
 
   Package-Manager: portage-2.3.1
 
+*kio-5.26.0-r2 (29 Sep 2016)
+
+  29 Sep 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/kio-5.26.0-fix-abi-break.patch,
+  +files/kio-5.26.0-secureprotocols.patch, +kio-5.26.0-r2.ebuild:
+  Fix ABI break and limitation to TLS 1.0
+
+  Package-Manager: portage-2.3.0
+

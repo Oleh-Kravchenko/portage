@@ -335,3 +335,9 @@
   files/9999/0002-driver-Support-obtaining-active-toolchain-from-gcc-c.patch:
   Fix the gcc-config patch not to break --gcc-toolchain
 
+  29 Sep 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Use LLVM_TARGETS flags
+
+  29 Sep 2016; Michał Górny <mgorny@gentoo.org> clang-3.9.0-r100.ebuild:
+  Backport LLVM_TARGETS to 3.9.0
+

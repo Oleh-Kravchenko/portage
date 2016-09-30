@@ -40,3 +40,10 @@
 
   Package-Manager: portage-2.3.0
 
+  28 Sep 2016; Patrice Clement <monsieurp@gentoo.org> mosquitto-1.4.10.ebuild:
+  do not call get_libdir in global scope.
+
+  Gentoo-Bug: https://bugs.gentoo.org/593422
+
+  Package-Manager: portage-2.2.28
+

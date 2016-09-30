@@ -1685,3 +1685,11 @@
 
   Package-Manager: portage-2.3.1_p4_p152503
 
+*chromium-55.0.2873.0 (29 Sep 2016)
+
+  29 Sep 2016; Mike Gilbert <floppym@gentoo.org> -chromium-55.0.2859.0.ebuild,
+  +chromium-55.0.2873.0.ebuild, +files/chromium-gn-r7.patch:
+  dev channel bump (55.0.2873.0)
+
+  Package-Manager: portage-2.3.1_p4_p413991
+

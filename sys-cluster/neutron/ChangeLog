@@ -400,3 +400,14 @@
   -neutron-2015.2.9999.ebuild:
   clean up liberty openstack
 
+  29 Sep 2016; Matthew Thode <prometheanfire@gentoo.org> neutron-8.2.0.ebuild:
+  8.2.0 stable amd64 and x86
+
+  Package-Manager: portage-2.3.0
+
+  29 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -neutron-8.1.2.ebuild:
+  removing old
+
+  Package-Manager: portage-2.3.0
+

@@ -49,3 +49,15 @@
   26 Sep 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild:
   Disable copying exports back to srcdir
 
+*libomp-3.9.0 (29 Sep 2016)
+
+  29 Sep 2016; Michał Górny <mgorny@gentoo.org>
+  +files/libomp-3.9.0-optional-aliases.patch, +libomp-3.9.0.ebuild:
+  bump to 3.9.0
+
+  Closes: https://github.com/gentoo/gentoo/pull/2426
+  Package-Manager: portage-2.3.0
+
+  29 Sep 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild:
+  Enable tests
+

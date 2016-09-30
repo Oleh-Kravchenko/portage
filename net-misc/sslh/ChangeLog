@@ -141,3 +141,12 @@
 
   Package-Manager: portage-2.3.1
 
+  28 Sep 2016; David Seifert <soap@gentoo.org> sslh-1.18-r1.ebuild:
+  Explicitly build using GNU99 C variant
+
+  Gentoo-bug: 595426
+  * Build using -std=gnu99 due to within-for-loop initializers
+    and __USE_XOPEN2K macro for struct addrinfo.
+
+  Package-Manager: portage-2.3.1
+
