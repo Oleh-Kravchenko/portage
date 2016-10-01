@@ -233,3 +233,9 @@
 
   Package-Manager: portage-2.3.1
 
+  30 Sep 2016; Daniel Pielmeier <billie@gentoo.org> -hplip-3.16.7.ebuild,
+  -hplip-3.16.8.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.3.0
+

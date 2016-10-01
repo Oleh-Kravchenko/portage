@@ -140,3 +140,11 @@
   -oslo-config-2.4.0.ebuild:
   massive cleanup of old openstack stuff
 
+*oslo-config-3.14.0 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-config-3.14.0.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+

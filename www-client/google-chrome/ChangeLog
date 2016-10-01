@@ -465,3 +465,11 @@
 
   Package-Manager: portage-2.3.0_p31
 
+*google-chrome-53.0.2785.143 (30 Sep 2016)
+
+  30 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-53.0.2785.116.ebuild, +google-chrome-53.0.2785.143.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.1_p4_p500636
+

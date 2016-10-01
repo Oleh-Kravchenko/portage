@@ -81,3 +81,9 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  YAML-Tiny-1.690.0.ebuild:
+  1.690.0-r0: stable on alpha
+
+  Gentoo-Bug: 595578
+

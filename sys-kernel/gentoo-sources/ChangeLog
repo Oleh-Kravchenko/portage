@@ -2015,3 +2015,39 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Sep 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-3.14.73.ebuild, -gentoo-sources-3.14.74.ebuild,
+  -gentoo-sources-3.14.75.ebuild, -gentoo-sources-3.14.76.ebuild,
+  -gentoo-sources-3.14.77.ebuild, -gentoo-sources-3.14.78.ebuild:
+  Cleanup of 3.14.X series
+
+  Package-Manager: portage-2.3.0
+
+  30 Sep 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-3.18.36.ebuild, -gentoo-sources-3.18.38.ebuild,
+  -gentoo-sources-3.18.39.ebuild, -gentoo-sources-3.18.40.ebuild:
+  Cleanup of 3.18.X patches
+
+  Package-Manager: portage-2.3.0
+
+  30 Sep 2016; Mike Pagano <mpagano@gentoo.org>
+  -gentoo-sources-3.12.60.ebuild, -gentoo-sources-3.12.61.ebuild,
+  -gentoo-sources-3.12.62.ebuild:
+  Cleanup of 3.12.X patchset
+
+  Package-Manager: portage-2.3.0
+
+  30 Sep 2016; Mike Pagano <mpagano@gentoo.org> -gentoo-sources-4.1.27.ebuild,
+  -gentoo-sources-4.1.29.ebuild, -gentoo-sources-4.1.30.ebuild,
+  -gentoo-sources-4.1.31.ebuild:
+  Cleanup of 4.1.X patchset
+
+  Package-Manager: portage-2.3.0
+
+*gentoo-sources-4.4.23 (30 Sep 2016)
+
+  30 Sep 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.4.23.ebuild:
+  Linux patch 4.4.23
+
+  Package-Manager: portage-2.3.0
+

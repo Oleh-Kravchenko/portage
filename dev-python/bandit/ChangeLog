@@ -184,3 +184,10 @@
   -bandit-0.17.3.ebuild:
   doing the test
 
+*bandit-1.1.0 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org> +bandit-1.1.0.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+

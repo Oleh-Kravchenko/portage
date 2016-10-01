@@ -61,3 +61,20 @@
   29 Sep 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild:
   Enable tests
 
+  29 Sep 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild,
+  metadata.xml:
+  Add hwloc support
+
+  29 Sep 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild,
+  metadata.xml:
+  Add OpenMP Tools Interface support
+
+  30 Sep 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild:
+  Add MULTILIB_USEDEP on sys-apps/hwloc to -9999
+
+  30 Sep 2016; Michał Górny <mgorny@gentoo.org> libomp-3.9.0.ebuild:
+  Backport hwloc & ompt support to 3.9.0
+
+  30 Sep 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild:
+  lit search has been fixed upstream
+

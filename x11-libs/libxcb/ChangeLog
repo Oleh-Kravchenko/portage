@@ -221,3 +221,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  30 Sep 2016; Alexis Ballier <aballier@gentoo.org> libxcb-1.12-r1.ebuild:
+  use proper phase for removing man pages.
+
+  Removing files from $D has nothing to do with pkg_preinst and moreover it
+  breaks with FEATURES=noman...
+
+  Package-Manager: portage-2.3.1
+

@@ -20,7 +20,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE="hwloc ompt test"
 
-RDEPEND="hwloc? ( sys-apps/hwloc:0= )"
+RDEPEND="hwloc? ( sys-apps/hwloc:0=[${MULTILIB_USEDEP}] )"
 # tests:
 # - dev-python/lit provides the test runner
 # - sys-devel/llvm provide test utils (e.g. FileCheck)
@@ -51,7 +51,6 @@ multilib_src_configure() {
 		-DLIBOMP_INSTALL_ALIASES=OFF
 		# disable unnecessary hack copying stuff back to srcdir
 		-DLIBOMP_COPY_EXPORTS=OFF
-		-DLIBOMP_LLVM_LIT_EXECUTABLE="${EPREFIX}/usr/bin/lit"
 		-DLIBOMP_TEST_COMPILER="${EPREFIX}/usr/bin/${CHOST}-clang"
 	)
 	cmake-utils_src_configure

@@ -98,3 +98,15 @@
 
   Package-Manager: portage-2.2.28
 
+*libburn-1.4.6 (30 Sep 2016)
+
+  30 Sep 2016; Daniel Pielmeier <billie@gentoo.org> +libburn-1.4.6.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.0
+
+  30 Sep 2016; Daniel Pielmeier <billie@gentoo.org> -libburn-1.4.2_p01.ebuild:
+  Remove old.
+
+  Package-Manager: portage-2.3.0
+

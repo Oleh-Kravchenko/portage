@@ -215,3 +215,13 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Sep 2016; Patrice Clement <monsieurp@gentoo.org>
+  -files/texstudio-2.6.0-desktop.patch,
+  -files/texstudio-2.6.0-hunspell-quazip.patch:
+  remove unused patches.
+
+  Courtesy of Michael Mair-Keimberger <m.mairkeimberger@gmail.com>.
+
+  Closes: https://github.com/gentoo/gentoo/pull/1916
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -1693,3 +1693,11 @@
 
   Package-Manager: portage-2.3.1_p4_p413991
 
+*chromium-53.0.2785.143 (30 Sep 2016)
+
+  30 Sep 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-53.0.2785.143.ebuild:
+  stable channel bump (53.0.2785.143)
+
+  Package-Manager: portage-2.3.1_p4_p507647
+

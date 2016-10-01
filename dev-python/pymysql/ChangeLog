@@ -80,3 +80,11 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*pymysql-0.7.6 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +pymysql-0.7.6.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+

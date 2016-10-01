@@ -165,3 +165,11 @@
   -oslo-i18n-2.6.0.ebuild, -oslo-i18n-2.7.0.ebuild:
   massive cleanup of old openstack stuff
 
+*oslo-i18n-3.9.0 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -oslo-i18n-1.4.0.ebuild, +oslo-i18n-3.9.0.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+

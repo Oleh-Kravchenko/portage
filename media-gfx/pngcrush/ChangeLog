@@ -112,3 +112,8 @@
   -pngcrush-1.8.2.ebuild, -pngcrush-1.8.4.ebuild:
   remove old
 
+*pngcrush-1.8.7 (30 Sep 2016)
+
+  30 Sep 2016; Tim Harder <radhermit@gentoo.org> +pngcrush-1.8.7.ebuild:
+  version bump to 1.8.7
+

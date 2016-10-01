@@ -192,3 +192,9 @@
 
   Package-Manager: portage-2.2.28
 
+  30 Sep 2016; Matthias Maier <tamiko@gentoo.org>
+  blas-reference-20151113-r1.ebuild:
+  ebuild maintenance, cleanup
+
+  Package-Manager: portage-2.3.0
+

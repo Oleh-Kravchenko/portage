@@ -360,3 +360,9 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Sep 2016; Jeroen Roovers <jer@gentoo.org> bind-9.10.4_p3.ebuild:
+  Stable for HPPA PPC64 (bug #595340).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

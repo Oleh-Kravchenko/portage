@@ -899,3 +899,10 @@
 
   Package-Manager: portage-2.3.1
 
+*vivaldi-1.5.618.8_p1 (30 Sep 2016)
+
+  30 Sep 2016; Jeroen Roovers <jer@gentoo.org> +vivaldi-1.5.618.8_p1.ebuild:
+  Snapshot version bump.
+
+  Package-Manager: portage-2.3.1
+

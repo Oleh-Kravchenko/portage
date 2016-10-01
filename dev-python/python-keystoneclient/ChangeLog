@@ -231,3 +231,11 @@
 
   Thanks to mm1ke for the proding
 
+*python-keystoneclient-3.5.0 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +python-keystoneclient-3.5.0.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+

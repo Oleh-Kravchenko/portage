@@ -72,3 +72,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Sep 2016; Thomas Beierlein <tomjbe@gentoo.org> drawtiming-0.7.1.ebuild,
+  drawtiming-0.7.1-r1.ebuild:
+  requires imagemagick to be build with USE=cxx. Bug 595222. Thanks Thoralf
+
+  Package-Manager: portage-2.3.1
+

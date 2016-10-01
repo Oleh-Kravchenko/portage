@@ -136,3 +136,8 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  30 Sep 2016; Eray Aslan <eras@gentoo.org> -cdb-0.75-r3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.1
+

@@ -212,3 +212,15 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Sep 2016; Sven Wegener <swegener@gentoo.org> irssi-0.8.20-r1.ebuild:
+  Forward-port keywords
+
+  Package-Manager: portage-2.3.0
+
+  30 Sep 2016; Sven Wegener <swegener@gentoo.org>
+  -files/irssi-0.8.15-tinfo.patch, -irssi-0.8.17.ebuild, -irssi-0.8.18.ebuild,
+  -irssi-0.8.19.ebuild, -irssi-0.8.20.ebuild:
+  Cleanup
+
+  Package-Manager: portage-2.3.0
+

@@ -141,3 +141,11 @@
   -oslo-db-2.6.0.ebuild, -oslo-db-4.7.0.ebuild, oslo-db-4.7.1.ebuild:
   massive cleanup of old openstack stuff
 
+*oslo-db-4.13.3 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-db-4.13.3.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+

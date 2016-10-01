@@ -1824,3 +1824,28 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*php-7.0.11-r1 (30 Sep 2016)
+*php-5.6.26-r1 (30 Sep 2016)
+
+  30 Sep 2016; Michael Orlitzky <mjo@gentoo.org>
+  +files/php-5.6-no-bison-warnings.patch, +php-5.6.26-r1.ebuild,
+  -php-7.0.11.ebuild, +php-7.0.11-r1.ebuild:
+  new 5.6 and 7.0 revisions with bison dependencies.
+
+  The PHP build system checks for the presence of bison (even if it will
+  not be needed), and it emits a warning if an appropriate version is
+  not found. In the 7.0.x series, this is easy to address by simply
+  adding a newish version of bison to DEPEND.
+
+  In the 5.6.x series, however, there is a bug in the bison version
+  check. A warning is emitted even when a suitable version of bison
+  (>= 3.0.1) is present on the system. So in that series, we have added
+  >=sys-devel/bison-3.0.1 to DEPEND, but also added a new patch. The
+  patch disables the buggy bison version check, eliminating the
+  warning. There should be no danger in doing so now that a newer bison
+  is in DEPEND.
+
+  Gentoo-Bug: 593278
+
+  Package-Manager: portage-2.3.0
+

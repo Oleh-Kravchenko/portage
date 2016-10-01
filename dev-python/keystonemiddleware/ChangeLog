@@ -255,3 +255,11 @@
 
   Thanks to mm1ke for the proding
 
+*keystonemiddleware-4.9.0 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -files/CVE-2015-7546_2.3.2.patch, +keystonemiddleware-4.9.0.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+

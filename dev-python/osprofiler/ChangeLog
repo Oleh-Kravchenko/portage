@@ -92,3 +92,11 @@
   -osprofiler-0.3.0.ebuild:
   doing the test
 
+*osprofiler-1.4.0 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +osprofiler-1.4.0.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+

@@ -72,3 +72,9 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Sep 2016; Tobias Klausmann <klausman@gentoo.org>
+  YAML-Syck-1.290.0.ebuild:
+  1.290.0-r0: stable on alpha
+
+  Gentoo-Bug: 595576
+

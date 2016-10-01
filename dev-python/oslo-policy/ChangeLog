@@ -130,3 +130,11 @@
   -oslo-policy-0.12.0.ebuild:
   massive cleanup of old openstack stuff
 
+*oslo-policy-1.14.0 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-policy-1.14.0.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+

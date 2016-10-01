@@ -172,3 +172,8 @@
   01 Sep 2016; Tim Harder <radhermit@gentoo.org> +lilypond-2.19.47.ebuild:
   version bump to 2.19.47
 
+*lilypond-2.19.48 (30 Sep 2016)
+
+  30 Sep 2016; Tim Harder <radhermit@gentoo.org> +lilypond-2.19.48.ebuild:
+  version bump to 2.19.48
+

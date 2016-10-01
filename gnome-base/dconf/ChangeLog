@@ -159,3 +159,15 @@
 
   Gentoo-Bug: 587010
 
+*dconf-0.26.0-r1 (30 Sep 2016)
+
+  30 Sep 2016; Gilles Dartiguelongue <eva@gentoo.org> +dconf-0.26.0-r1.ebuild:
+  add dependency on dbus
+
+  dconf is a DBus based service. It is needed through GDBus at runtime
+  and its presence is required for unittests as well.
+
+  Gentoo-Bug: 594018
+
+  Package-Manager: portage-2.3.1
+

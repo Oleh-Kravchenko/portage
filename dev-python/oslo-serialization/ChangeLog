@@ -149,3 +149,11 @@
   -oslo-serialization-1.9.0.ebuild:
   massive cleanup of old openstack stuff
 
+*oslo-serialization-2.13.0 (30 Sep 2016)
+
+  30 Sep 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-serialization-2.13.0.ebuild:
+  add initial support for newton (keystone)
+
+  dropped py3.3 and updated most (maybe all) to eapi6
+
