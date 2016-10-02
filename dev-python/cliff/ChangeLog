@@ -106,3 +106,8 @@
   -cliff-1.14.0.ebuild:
   doing the test
 
+*cliff-2.2.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org> +cliff-2.2.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

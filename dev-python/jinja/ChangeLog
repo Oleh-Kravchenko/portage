@@ -124,3 +124,9 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> jinja-2.8.ebuild:
+  Stable for HPPA PPC64 (bug #583264).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

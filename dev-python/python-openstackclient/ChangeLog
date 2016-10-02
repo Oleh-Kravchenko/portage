@@ -150,3 +150,9 @@
   -python-openstackclient-1.7.2.ebuild:
   massive cleanup of old openstack stuff
 
+*python-openstackclient-3.2.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +python-openstackclient-3.2.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

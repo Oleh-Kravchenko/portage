@@ -393,3 +393,9 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> poppler-0.45.0.ebuild:
+  Stable for HPPA PPC64 (bug #588142).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

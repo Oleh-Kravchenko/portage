@@ -372,3 +372,15 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Oct 2016; Markus Meier <maekke@gentoo.org> emacs-24.5-r3.ebuild:
+  arm stable, bug #591746
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --include-arches="arm"
+
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> emacs-24.5-r3.ebuild:
+  Stable for HPPA PPC64 (bug #591746).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

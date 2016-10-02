@@ -449,3 +449,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> cmake-3.5.2-r1.ebuild:
+  Stable for HPPA PPC64 (bug #587666).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

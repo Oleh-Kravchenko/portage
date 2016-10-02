@@ -118,3 +118,9 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Oct 2016; Markus Meier <maekke@gentoo.org> boto-2.41.0.ebuild:
+  arm stable, bug #592086
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --include-arches="arm"
+

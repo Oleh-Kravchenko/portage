@@ -96,3 +96,9 @@
 
   Gentoo-Bug: 595364
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> check-0.10.0-r1.ebuild:
+  Stable for HPPA PPC64 (bug #595364).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

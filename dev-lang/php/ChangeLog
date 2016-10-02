@@ -1849,3 +1849,30 @@
 
   Package-Manager: portage-2.3.0
 
+*php-7.0.11-r2 (30 Sep 2016)
+*php-5.6.26-r2 (30 Sep 2016)
+
+  30 Sep 2016; Michael Orlitzky <mjo@gentoo.org> -php-5.6.26-r1.ebuild,
+  +php-5.6.26-r2.ebuild, -php-7.0.11-r1.ebuild, +php-7.0.11-r2.ebuild:
+  new 5.6 and 7.0 revisions with additional LICENSE entries.
+
+  The main license under which PHP is distributed is the "PHP license."
+  But, a lot of files, functions, and libraries have been inlined and
+  bring with them the associated license from the upstream project. This
+  commit adds the following unconditionally:
+
+    * BSD (thread-safe resource manager, probably other places)
+    * Zend-2.0 (used by the Zend engine, everything under ${S}/Zend/)
+
+  and the following USE-conditionally:
+
+    * LGPL-2.1+, used by the bcmath extension.
+    * BSD-2, used by the fpm SAPI and mbstring extension.
+    * gd, used by gd.
+    * LGPL-2.1, used by the mbstring extension.
+
+  The main license was also updated from "PHP-3" to "PHP-3.01", because
+  that's what it is.
+
+  Package-Manager: portage-2.3.0
+

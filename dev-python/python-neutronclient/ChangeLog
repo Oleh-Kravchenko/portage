@@ -134,3 +134,9 @@
   -python-neutronclient-3.1.1.ebuild:
   massive cleanup of old openstack stuff
 
+*python-neutronclient-6.0.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +python-neutronclient-6.0.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

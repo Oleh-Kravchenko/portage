@@ -1428,3 +1428,9 @@
 
   Gentoo-Bug: 581204
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> mpv-0.18.0-r1.ebuild:
+  Stable for HPPA (bug #581204).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

@@ -1075,3 +1075,8 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  30 Sep 2016; Mike Pagano <mpagano@gentoo.org> -vanilla-sources-4.6.7.ebuild:
+  Remove EOL'ed 4.6.7. Please upgrade to a supported version.
+
+  Package-Manager: portage-2.3.0
+

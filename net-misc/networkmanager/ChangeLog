@@ -539,3 +539,15 @@
 
   This reverts commit e9606f0e918e2ade8431684f3e40bc800cd0efcb.
 
+  01 Oct 2016; Pacho Ramos <pacho@gentoo.org> networkmanager-1.4.0-r1.ebuild:
+  amd64 stable, bug 587010
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="amd64"
+
+  01 Oct 2016; Pacho Ramos <pacho@gentoo.org> networkmanager-1.4.0-r1.ebuild:
+  x86 stable, bug 587010
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="x86"
+

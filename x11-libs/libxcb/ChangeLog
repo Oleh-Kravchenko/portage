@@ -229,3 +229,27 @@
 
   Package-Manager: portage-2.3.1
 
+  01 Oct 2016; Mart Raudsepp <leio@gentoo.org> -libxcb-1.12-r1.ebuild:
+  Revert USE=doc controlling man pages
+
+  FEATURES=noman is for skipping man pages, not doc USE flag.
+  This change seems to not have been acknowledge by any libxcb maintainers.
+  It may be discussed on bugzilla on the premise of these being development
+  docs, some of which are already behind USE=doc due to extra deps.
+
+  Package-Manager: portage-2.3.1
+
+*libxcb-1.12-r2 (01 Oct 2016)
+
+  01 Oct 2016; Mart Raudsepp <leio@gentoo.org> +libxcb-1.12-r2.ebuild:
+  Lock subslot to 1.12 for now
+
+  As it was before, a simple bugfix release of 1.12.1 would force
+  a huge set of rebuilds unnecessarily. We'll need to decide if we
+  need subslot 1.13 upon such a release appearing or not.
+  This is a revbump due to a -r1 having just been reverted and so
+  avoids it looking like a downgrade.
+
+  Gentoo-bug: 576890
+  Package-Manager: portage-2.3.1
+

@@ -195,3 +195,9 @@
   -python-glanceclient-1.1.1.ebuild, -python-glanceclient-2.0.0.ebuild:
   massive cleanup of old openstack stuff
 
+*python-glanceclient-2.5.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +python-glanceclient-2.5.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

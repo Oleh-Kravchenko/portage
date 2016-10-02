@@ -28,3 +28,10 @@
   15 Sep 2016; Michał Górny <mgorny@gentoo.org> compiler-rt-9999.ebuild:
   Fix sandbox disabling to work-around LD_PRELOAD
 
+  01 Oct 2016; Michał Górny <mgorny@gentoo.org> compiler-rt-9999.ebuild,
+  metadata.xml:
+  Strip sanitizers & xray off to separate pkg
+
+  01 Oct 2016; Michał Górny <mgorny@gentoo.org> compiler-rt-9999.ebuild:
+  Support bootstrapping with runtime-less clang
+

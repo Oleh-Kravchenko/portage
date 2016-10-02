@@ -201,3 +201,10 @@
 
   Gentoo-Bug: 579266
 
+*xkeyboard-config-2.19 (01 Oct 2016)
+
+  01 Oct 2016; Manuel Rüger <mrueg@gentoo.org> +xkeyboard-config-2.19.ebuild:
+  Version bump to 2.19
+
+  Package-Manager: portage-2.3.1
+

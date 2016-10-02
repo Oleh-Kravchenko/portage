@@ -315,3 +315,9 @@
 
   Package-Manager: portage-2.2.28
 
+*cinder-2016.2.9999 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org> cinder-8.1.0.ebuild,
+  cinder-8.1.1.ebuild, cinder-2016.1.9999.ebuild, +cinder-2016.2.9999.ebuild:
+  openstack p2, newton is done, will add heat later
+

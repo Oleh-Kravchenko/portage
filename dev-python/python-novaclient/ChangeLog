@@ -173,3 +173,9 @@
 
   Package-Manager: portage-2.2.28
 
+*python-novaclient-6.0.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +python-novaclient-6.0.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

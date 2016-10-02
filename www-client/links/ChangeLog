@@ -115,3 +115,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> links-2.12-r2.ebuild:
+  Stable for HPPA (bug #591910).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

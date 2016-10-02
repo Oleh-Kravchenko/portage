@@ -138,3 +138,9 @@
 
   Gentoo-Bug: 591812
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> aspell-0.60.6.1-r3.ebuild:
+  Stable for HPPA PPC64 (bug #591812).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

@@ -104,3 +104,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> libpcap-1.8.0.ebuild:
+  Stable for HPPA PPC64 (bug #594600).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

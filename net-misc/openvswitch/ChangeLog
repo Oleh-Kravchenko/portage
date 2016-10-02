@@ -140,3 +140,9 @@
 
   Signed-off-by: Matthew Thode <prometheanfire@gentoo.org>
 
+*openvswitch-2.6.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +openvswitch-2.6.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

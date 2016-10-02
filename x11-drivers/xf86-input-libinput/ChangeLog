@@ -255,3 +255,17 @@
 
   Gentoo-Bug: 579266
 
+*xf86-input-libinput-0.20.0 (01 Oct 2016)
+
+  01 Oct 2016; Manuel Rüger <mrueg@gentoo.org>
+  +xf86-input-libinput-0.20.0.ebuild:
+  Version bump to 0.20.0
+
+  Package-Manager: portage-2.3.1
+
+  01 Oct 2016; Manuel Rüger <mrueg@gentoo.org>
+  -xf86-input-libinput-0.18.0.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.1
+

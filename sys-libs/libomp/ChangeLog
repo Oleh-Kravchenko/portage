@@ -78,3 +78,13 @@
   30 Sep 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild:
   lit search has been fixed upstream
 
+  01 Oct 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild:
+  Update clang dep for unconditional wrapper install
+
+  Depend on sys-devel/clang >= 3.9 since this version installs all ABI
+  wrappers unconditionally now, therefore removing the need for
+  MULTILIB_USEDEP and unnecessarily forcing all ABIs on libclang*.
+
+  01 Oct 2016; Michał Górny <mgorny@gentoo.org> libomp-9999.ebuild:
+  Force lit to respect TMPDIR
+

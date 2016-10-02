@@ -99,3 +99,17 @@
 
   Package-Manager: portage-2.3.0
 
+*hplip-plugin-3.16.8 (01 Oct 2016)
+*hplip-plugin-3.16.7 (01 Oct 2016)
+
+  01 Oct 2016; Manuel Rüger <mrueg@gentoo.org> +hplip-plugin-3.16.7.ebuild,
+  +hplip-plugin-3.16.8.ebuild:
+  Revert "net-print/hplip-plugin: Remove old."
+
+  This reverts commit f74e81113e347cefafab9d75cb18965870a7b718.
+
+  01 Oct 2016; Manuel Rüger <mrueg@gentoo.org> -hplip-plugin-3.16.7.ebuild:
+  Remove 3.16.7 only
+
+  Package-Manager: portage-2.3.1
+

@@ -13,3 +13,8 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Oct 2016; Manuel Rüger <mrueg@gentoo.org> kafka-bin-0.10.0.1.ebuild:
+  Add missing || die
+
+  Package-Manager: portage-2.3.1
+

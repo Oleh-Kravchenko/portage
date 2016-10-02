@@ -211,3 +211,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> debhelper-9.20160814.ebuild:
+  Stable for HPPA PPC64 (bug #593768).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+
+*debhelper-10-r1 (01 Oct 2016)
+
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> +debhelper-10-r1.ebuild:
+  Add test dependency on sys-apps/fakeroot.
+
+  Package-Manager: portage-2.3.1
+

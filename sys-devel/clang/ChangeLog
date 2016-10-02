@@ -341,3 +341,18 @@
   29 Sep 2016; Michał Górny <mgorny@gentoo.org> clang-3.9.0-r100.ebuild:
   Backport LLVM_TARGETS to 3.9.0
 
+  01 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Always install wrappers for all ABIs
+
+  Install wrappers for all ABIs supported by the current profile rather
+  than explicitly enabled via ABI_* flags. This makes them more consistent
+  with ABIs supported by the compiler (it always supports all ABIs for
+  the target) and avoids enforcing [${MULTILIB_USEDEP}] when you just need
+  the wrappers (e.g. in tests of sys-libs/libcxx).
+
+  01 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Remove leftover "use clang" on BSD
+
+  01 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Use installed lit for tests
+

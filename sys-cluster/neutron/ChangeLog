@@ -411,3 +411,9 @@
 
   Package-Manager: portage-2.3.0
 
+*neutron-2016.2.9999 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +neutron-2016.2.9999.ebuild:
+  openstack p2, newton is done, will add heat later
+

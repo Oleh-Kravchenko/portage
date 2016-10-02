@@ -66,3 +66,9 @@
   -os-testr-0.3.0.ebuild:
   doing the test
 
+*os-testr-0.7.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +os-testr-0.7.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

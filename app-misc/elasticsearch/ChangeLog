@@ -233,3 +233,18 @@
 
   Package-Manager: portage-2.3.0
 
+*elasticsearch-5.0.0_beta1 (01 Oct 2016)
+
+  01 Oct 2016; Patrick Lauer <patrick@gentoo.org>
+  +elasticsearch-5.0.0_beta1.ebuild:
+  Add 5.0.0_beta1
+
+  Package-Manager: portage-2.3.0
+
+*elasticsearch-2.4.1 (01 Oct 2016)
+
+  01 Oct 2016; Patrick Lauer <patrick@gentoo.org> +elasticsearch-2.4.1.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

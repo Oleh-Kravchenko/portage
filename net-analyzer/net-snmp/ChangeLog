@@ -220,3 +220,15 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  01 Oct 2016; Markus Meier <maekke@gentoo.org> net-snmp-5.7.3-r5.ebuild:
+  arm stable, bug #591984
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --include-arches="arm"
+
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> net-snmp-5.7.3-r5.ebuild:
+  Stable for HPPA PPC64 (bug #591984).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

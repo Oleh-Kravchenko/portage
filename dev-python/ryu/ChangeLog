@@ -58,3 +58,8 @@
   12 Sep 2016; Matthew Thode <prometheanfire@gentoo.org> -ryu-3.26.ebuild:
   doing the test
 
+*ryu-4.5 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org> +ryu-4.5.ebuild:
+  openstack p2, newton is done, will add heat later
+

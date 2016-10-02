@@ -299,3 +299,9 @@
 
   Gentoo-Bug: 594430
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> spamassassin-3.4.1-r8.ebuild:
+  Stable for HPPA PPC64 (bug #594430).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

@@ -176,3 +176,9 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> cgmanager-0.41.ebuild:
+  Stable for HPPA PPC64 (bug #584650).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

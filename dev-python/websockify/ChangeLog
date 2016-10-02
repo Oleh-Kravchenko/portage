@@ -95,3 +95,9 @@
   -websockify-0.6.0.ebuild:
   doing the test
 
+*websockify-0.8.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +websockify-0.8.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

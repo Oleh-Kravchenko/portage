@@ -977,3 +977,20 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*youtube-dl-2016.09.27 (01 Oct 2016)
+
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> +youtube-dl-2016.09.27.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.1
+
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> -youtube-dl-2016.09.15.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.1
+
+  01 Oct 2016; Jeroen Roovers <jer@gentoo.org> youtube-dl-2016.09.27.ebuild:
+  Quote variable.
+
+  Package-Manager: portage-2.3.1
+

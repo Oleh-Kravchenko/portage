@@ -363,3 +363,21 @@
 
   Package-Manager: portage-2.2.28
 
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  files/mcollective.service:
+  Fix app-admin/puppet-agent service unit for mcollective
+
+  The mcollective.service unit uses a path in ExecStart that doesn't
+  exist. This commit updates the service unit to reference the path
+  actually included by the package.
+
+  Gentoo bug #595718
+
+*puppet-agent-1.7.0-r1 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -puppet-agent-1.7.0.ebuild, +puppet-agent-1.7.0-r1.ebuild:
+  bup for previous patch
+
+  Package-Manager: portage-2.3.0
+

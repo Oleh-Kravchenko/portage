@@ -239,3 +239,7 @@
 
   dropped py3.3 and updated most (maybe all) to eapi6
 
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  python-keystoneclient-3.5.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

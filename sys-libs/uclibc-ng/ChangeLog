@@ -97,3 +97,12 @@
 
   Package-Manager: portage-2.2.28
 
+*uclibc-ng-1.0.18 (01 Oct 2016)
+
+  01 Oct 2016; Anthony G. Basile <blueness@gentoo.org>
+  +files/uclibc-compat-r1.patch, +uclibc-ng-1.0.18.ebuild,
+  uclibc-ng-9999.ebuild:
+  version bump to 1.0.18
+
+  Package-Manager: portage-2.2.28
+

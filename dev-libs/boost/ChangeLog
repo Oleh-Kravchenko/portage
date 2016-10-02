@@ -257,3 +257,13 @@
 
   Package-Manager: portage-2.2.28
 
+*boost-1.62.0 (01 Oct 2016)
+
+  01 Oct 2016; David Seifert <soap@gentoo.org> +boost-1.62.0.ebuild:
+  Version bump to 1.62.0
+
+  * Various QA cleanups
+  * Switch to building in ISO C++14 mode (-std=c++14)
+
+  Package-Manager: portage-2.3.1
+

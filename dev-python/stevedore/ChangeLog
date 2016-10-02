@@ -120,3 +120,7 @@
 
   dropped py3.3 and updated most (maybe all) to eapi6
 
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  stevedore-1.17.1.ebuild:
+  openstack p2, newton is done, will add heat later
+

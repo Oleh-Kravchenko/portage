@@ -80,3 +80,9 @@
   -oslo-versionedobjects-0.10.0.ebuild, -oslo-versionedobjects-0.11.0.ebuild:
   massive cleanup of old openstack stuff
 
+*oslo-versionedobjects-1.17.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  oslo-versionedobjects-1.8.0.ebuild, +oslo-versionedobjects-1.17.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

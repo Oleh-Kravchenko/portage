@@ -30,7 +30,7 @@ DEPEND="${RDEPEND}
 	test? (
 		$(python_gen_any_dep 'dev-python/lit[${PYTHON_USEDEP}]')
 		sys-devel/llvm
-		sys-devel/clang[${MULTILIB_USEDEP}]
+		>=sys-devel/clang-3.9.0
 	)"
 
 python_check_deps() {
@@ -57,5 +57,8 @@ multilib_src_configure() {
 }
 
 multilib_src_test() {
+	# respect TMPDIR!
+	local -x LIT_PRESERVES_TMP=1
+
 	cmake-utils_src_make check-libomp
 }

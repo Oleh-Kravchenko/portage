@@ -70,3 +70,9 @@
   -os-brick-0.5.0.ebuild:
   doing the test
 
+*os-brick-1.6.1 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +os-brick-1.6.1.ebuild:
+  openstack p2, newton is done, will add heat later
+

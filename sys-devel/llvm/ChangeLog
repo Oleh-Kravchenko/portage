@@ -997,3 +997,9 @@
   llvm-3.8.1-r2.ebuild, llvm-3.9.0.ebuild, llvm-9999.ebuild:
   OCaml install path patch has been merged upstream
 
+  01 Oct 2016; Michał Górny <mgorny@gentoo.org> llvm-3.9.0.ebuild:
+  Backport uncond wrapper install to 3.9.0
+
+  01 Oct 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Use installed lit for tests
+

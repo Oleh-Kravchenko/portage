@@ -232,3 +232,16 @@
 
   Gentoo-Bug: 579266
 
+*xterm-326 (01 Oct 2016)
+
+  01 Oct 2016; Manuel Rüger <mrueg@gentoo.org> +xterm-326.ebuild:
+  Version bump to 326
+
+  Package-Manager: portage-2.3.1
+
+  01 Oct 2016; Manuel Rüger <mrueg@gentoo.org> -xterm-323.ebuild,
+  -xterm-324.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.1
+

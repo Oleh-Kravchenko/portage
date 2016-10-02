@@ -129,3 +129,9 @@
   -oslo-rootwrap-2.4.0.ebuild:
   massive cleanup of old openstack stuff
 
+*oslo-rootwrap-5.1.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  oslo-rootwrap-4.1.0.ebuild, +oslo-rootwrap-5.1.0.ebuild:
+  openstack p2, newton is done, will add heat later
+

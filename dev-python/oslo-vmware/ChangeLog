@@ -148,3 +148,9 @@
   -oslo-vmware-0.11.2.ebuild, -oslo-vmware-1.21.0.ebuild:
   massive cleanup of old openstack stuff
 
+*oslo-vmware-2.14.0 (01 Oct 2016)
+
+  01 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +oslo-vmware-2.14.0.ebuild:
+  openstack p2, newton is done, will add heat later
+
