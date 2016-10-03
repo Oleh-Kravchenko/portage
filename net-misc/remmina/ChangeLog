@@ -181,3 +181,8 @@
 
   Signed-off-by: Yixun Lan <dlan@gentoo.org>
 
+  02 Oct 2016; Pacho Ramos <pacho@gentoo.org> remmina-9999.ebuild:
+  Use zeroconf instead of avahi USE flag (#477620)
+
+  Package-Manager: portage-2.3.1
+

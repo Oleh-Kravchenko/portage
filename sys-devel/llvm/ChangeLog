@@ -1003,3 +1003,6 @@
   01 Oct 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
   Use installed lit for tests
 
+  02 Oct 2016; Michał Górny <mgorny@gentoo.org> llvm-3.9.0.ebuild:
+  Backport target syms from sys-devel/clang
+

@@ -255,3 +255,8 @@
 
   Package-Manager: portage-2.2.28
 
+  02 Oct 2016; Amy Winston <amynka@gentoo.org> guile-2.0.12-r1.ebuild:
+  fix cross compiling bug #595942
+
+  Package-Manager: portage-2.2.28
+

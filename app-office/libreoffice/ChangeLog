@@ -683,3 +683,26 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Oct 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-9999.ebuild:
+  Add new dependencies
+
+  Gentoo-bug: 587980
+  Gentoo-bug: 592354
+
+  Package-Manager: portage-2.3.0
+
+  01 Oct 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.2.1.2.ebuild, libreoffice-5.2.9999.ebuild:
+  Pin DEPEND to =liborcus-0.11*
+
+  Package-Manager: portage-2.3.0
+
+*libreoffice-5.2.2.2 (01 Oct 2016)
+
+  01 Oct 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +libreoffice-5.2.2.2.ebuild:
+  Version bump to 5.2.2.2
+
+  Package-Manager: portage-2.3.0
+

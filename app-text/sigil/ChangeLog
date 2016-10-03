@@ -226,3 +226,9 @@
 
   Gentoo-Bug: 592738
 
+  02 Oct 2016; Amy Winston <amynka@gentoo.org> sigil-0.9.5-r2.ebuild,
+  sigil-0.9.6.ebuild:
+  fix dep bug #594886. By arthurzam
+
+  Package-Manager: portage-2.2.28
+

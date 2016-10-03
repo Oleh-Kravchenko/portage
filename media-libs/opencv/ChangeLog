@@ -350,3 +350,8 @@
 
   Signed off by Jonathan Scruggs (j.scruggs@gmail.com, irc: Dracwyrm)
 
+  02 Oct 2016; Amy Winston <amynka@gentoo.org> opencv-2.4.12-r1.ebuild:
+  add gles patch bug #554478
+
+  Package-Manager: portage-2.2.28
+

@@ -229,3 +229,22 @@
 
   Package-Manager: portage-2.3.0
 
+  02 Oct 2016; David Seifert <soap@gentoo.org>
+  +files/wxGTK-3.0.2.0-gcc6.patch, wxGTK-3.0.2.0-r3.ebuild:
+  Allow for compiling with GCC 6
+
+  Gentoo-bug: 592436
+
+  Acked-by: Ryan Hill <rhill@gentoo.org>
+
+  Package-Manager: portage-2.3.1
+
+  02 Oct 2016; David Seifert <soap@gentoo.org> wxGTK-3.0.2.0-r301.ebuild:
+  Allow for compiling with GCC 6
+
+  Gentoo-bug: 592436
+
+  Acked-by: Ryan Hill <rhill@gentoo.org>
+
+  Package-Manager: portage-2.3.1
+

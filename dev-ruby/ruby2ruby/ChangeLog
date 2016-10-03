@@ -125,3 +125,9 @@
 
   Gentoo-Bug: 589690
 
+  02 Oct 2016; Jeroen Roovers <jer@gentoo.org> ruby2ruby-2.3.0.ebuild:
+  Stable for HPPA (bug #589690).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

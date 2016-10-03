@@ -107,3 +107,9 @@
 
   Gentoo-Bug: 594726
 
+  02 Oct 2016; Jeroen Roovers <jer@gentoo.org> lcdf-typetools-2.106.ebuild:
+  Stable for HPPA PPC64 (bug #594726).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

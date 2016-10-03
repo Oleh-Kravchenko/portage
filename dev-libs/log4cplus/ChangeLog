@@ -92,3 +92,11 @@
 
   Package-Manager: portage-2.3.0
 
+  02 Oct 2016; David Seifert <soap@gentoo.org>
+  +files/log4cplus-1.2.0-fix-c++14.patch, log4cplus-1.2.0.ebuild:
+  Make dtors conditionally noexcept(false)
+
+  Gentoo-bug: 595424
+
+  Package-Manager: portage-2.3.1
+

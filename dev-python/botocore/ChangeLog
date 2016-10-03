@@ -510,3 +510,15 @@
 
   Package-Manager: portage-2.3.1
 
+*botocore-1.4.56 (01 Oct 2016)
+
+  01 Oct 2016; Alex Brandt <alunduil@gentoo.org> +botocore-1.4.56.ebuild:
+  add version 1.4.56
+
+  Package-Manager: portage-2.3.1
+
+  01 Oct 2016; Alex Brandt <alunduil@gentoo.org> -botocore-1.4.51.ebuild:
+  remove version 1.4.51
+
+  Package-Manager: portage-2.3.1
+

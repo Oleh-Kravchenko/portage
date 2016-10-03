@@ -765,3 +765,8 @@
 
   Package-Manager: portage-2.2.28
 
+  02 Oct 2016; Pacho Ramos <pacho@gentoo.org> libvirt-2.2.0.ebuild:
+  Use zeroconf instead of avahi USE flag (#477620)
+
+  Package-Manager: portage-2.3.1
+

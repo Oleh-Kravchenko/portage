@@ -235,3 +235,9 @@
   Package-Manager: portage-2.3.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  02 Oct 2016; Jeroen Roovers <jer@gentoo.org> smplayer-16.1.0.ebuild:
+  Stable for HPPA (bug #576200).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

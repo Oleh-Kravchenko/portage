@@ -551,3 +551,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+*networkmanager-1.4.2 (02 Oct 2016)
+
+  02 Oct 2016; Pacho Ramos <pacho@gentoo.org> +networkmanager-1.4.2.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.1
+

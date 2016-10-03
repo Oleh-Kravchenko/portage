@@ -356,3 +356,9 @@
   01 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
   Use installed lit for tests
 
+  02 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Use target symlinks instead of wrappers
+
+  Create symlinks for ABI targets instead of wrappers since clang already
+  processes target prefixes in argv[0].
+

@@ -85,3 +85,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  02 Oct 2016; Patrick Lauer <patrick@gentoo.org> seekwatcher-0.6.ebuild,
+  seekwatcher-0.12.ebuild, seekwatcher-0.12_p20091015.ebuild,
+  seekwatcher-0.12_p20091015-r1.ebuild:
+  Fix dependency naming after partial package move
+
+  Package-Manager: portage-2.3.0
+

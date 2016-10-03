@@ -430,3 +430,14 @@
   Package-Manager: portage-2.3.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  02 Oct 2016; Hans de Graaff <graaff@gentoo.org> -ruby-2.3.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.3.0
+
+  02 Oct 2016; Hans de Graaff <graaff@gentoo.org> ruby-2.0.0_p648.ebuild,
+  ruby-2.1.9.ebuild, ruby-2.1.10.ebuild, ruby-2.2.5.ebuild:
+  Use rm -f consistently, addressing bug 594206
+
+  Package-Manager: portage-2.3.0
+

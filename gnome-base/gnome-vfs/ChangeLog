@@ -195,3 +195,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+  02 Oct 2016; Pacho Ramos <pacho@gentoo.org> -gnome-vfs-2.24.4-r2.ebuild,
+  -gnome-vfs-2.24.4-r3.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.1
+

@@ -504,3 +504,13 @@
 
   Package-Manager: portage-2.3.0
 
+  02 Oct 2016; William Hubbs <williamh@gentoo.org> -openrc-0.22.ebuild:
+  Remove 0.22
+
+  Package-Manager: portage-2.3.0
+
+  02 Oct 2016; William Hubbs <williamh@gentoo.org> openrc-0.22.1.ebuild:
+  Add back runit dependency pending resolution for #595956
+
+  Package-Manager: portage-2.3.0
+

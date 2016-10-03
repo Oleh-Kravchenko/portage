@@ -494,3 +494,10 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+*cryptography-1.5.2 (01 Oct 2016)
+
+  01 Oct 2016; Patrick Lauer <patrick@gentoo.org> +cryptography-1.5.2.ebuild:
+  Bump
+
+  Package-Manager: portage-2.3.0
+

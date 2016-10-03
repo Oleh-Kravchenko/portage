@@ -112,3 +112,9 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  02 Oct 2016; Jeroen Roovers <jer@gentoo.org> pycups-1.9.73.ebuild:
+  Stable for HPPA (bug #563104).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

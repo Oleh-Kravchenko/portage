@@ -199,3 +199,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  02 Oct 2016; Jeroen Roovers <jer@gentoo.org> rake-10.5.0.ebuild:
+  Stable for HPPA (bug #586862).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

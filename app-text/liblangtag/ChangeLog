@@ -180,3 +180,17 @@
 
   Package-Manager: portage-2.3.0
 
+*liblangtag-0.6.1 (01 Oct 2016)
+
+  01 Oct 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  +liblangtag-0.6.1.ebuild:
+  Version bump to 0.6.1
+
+  Package-Manager: portage-2.3.0
+
+  01 Oct 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  -files/liblangtag-0.6.0-enum.patch, -liblangtag-0.6.0-r2.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.0
+

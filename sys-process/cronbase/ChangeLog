@@ -176,3 +176,14 @@
 
   This change should dodge that scenario.
 
+*cronbase-0.3.7-r4 (02 Oct 2016)
+
+  02 Oct 2016; Tobias Klausmann <klausman@gentoo.org>
+  -cronbase-0.3.7-r3.ebuild, +cronbase-0.3.7-r4.ebuild, files/run-crons-0.3.7:
+  More fixes
+
+  The tr approach is racy, even with the test -r before it. Since tr can't
+  be told to read from a file and we can't redirect the subshell's warning
+  message, switch to sed and a file argument, then redirect stderr of
+  that.
+

@@ -36,3 +36,9 @@
 
   Package-Manager: portage-2.2.28
 
+  02 Oct 2016; Nicolas Bock <nicolasbock@gentoo.org>
+  -files/html_location.patch, git-deps-9999.ebuild:
+  Clean up of ebuild
+
+  Package-Manager: portage-2.3.0
+
