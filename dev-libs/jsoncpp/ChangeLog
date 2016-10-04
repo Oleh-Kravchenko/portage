@@ -150,3 +150,9 @@
   26 Sep 2016; Michał Górny <mgorny@gentoo.org> +jsoncpp-1.7.6.ebuild:
   Bump to 1.7.6 (minor bugfix)
 
+*jsoncpp-1.7.7 (02 Oct 2016)
+
+  02 Oct 2016; Michał Górny <mgorny@gentoo.org> -jsoncpp-1.7.6.ebuild,
+  +jsoncpp-1.7.7.ebuild:
+  Bump to 1.7.7 (upst missed SOVERSION bump)
+

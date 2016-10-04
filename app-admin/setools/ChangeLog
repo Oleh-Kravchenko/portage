@@ -138,3 +138,8 @@
 
   Package-Manager: portage-2.2.28
 
+  03 Oct 2016; Jason Zaman <perfinion@gentoo.org> setools-4.0.1.ebuild:
+  Add back keywords to setools-4 now that selinux userspace supports it
+
+  Package-Manager: portage-2.3.0
+

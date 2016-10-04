@@ -362,3 +362,12 @@
   Create symlinks for ABI targets instead of wrappers since clang already
   processes target prefixes in argv[0].
 
+  02 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Wrap the new clang-cpp symlink, #478810
+
+  03 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Add PDEP on sys-devel/clang-runtime meta
+
+  03 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Remove stale libomp check, it is PDEP now
+

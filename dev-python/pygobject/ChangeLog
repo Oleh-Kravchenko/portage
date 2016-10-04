@@ -233,3 +233,9 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+  03 Oct 2016; Jeroen Roovers <jer@gentoo.org> pygobject-3.20.1.ebuild:
+  Stable for HPPA (bug #587010).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

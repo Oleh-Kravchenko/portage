@@ -819,3 +819,10 @@
 
   Package-Manager: portage-2.3.0
 
+*wine-1.9.20 (03 Oct 2016)
+
+  03 Oct 2016; NP-Hardass <NP-Hardass@gentoo.org> +wine-1.9.20.ebuild:
+  Version bump to 1.9.20
+
+  Package-Manager: portage-2.3.0
+

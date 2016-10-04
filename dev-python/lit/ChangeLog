@@ -8,3 +8,6 @@
   +metadata.xml:
   Add stand-alone ebuild for LLVM integrated tester
 
+  03 Oct 2016; Michał Górny <mgorny@gentoo.org> lit-9999.ebuild:
+  Support running self-tests
+

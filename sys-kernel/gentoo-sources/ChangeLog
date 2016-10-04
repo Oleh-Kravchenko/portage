@@ -2051,3 +2051,17 @@
 
   Package-Manager: portage-2.3.0
 
+*gentoo-sources-4.8.0 (03 Oct 2016)
+
+  03 Oct 2016; Mike Pagano <mpagano@gentoo.org> +gentoo-sources-4.8.0.ebuild:
+  Linux 4.8.0. Gentoo Linux support config settings and defaults. Patch to add
+  support for namespace user.pax.* on tmpfs. Patch to enable link security
+  restrictions by default. Patch to ensure that /dev/root doesn't appear in
+  /proc/mounts when bootint without an initramfs. Patch to enable control of
+  the unaligned access control policy from sysctl. Update gentoo kconfig patch
+  to remove DEVPTS_MULTIPLE_INSTANCES. See kernel upstream commit:
+  eedf265aa003b4781de24cfed40a655a664457e6.Rename gcc optimization patch for
+  more clarity.
+
+  Package-Manager: portage-2.3.0
+

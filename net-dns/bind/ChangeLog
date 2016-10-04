@@ -366,3 +366,10 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  03 Oct 2016; Richard Freeman <rich0@gentoo.org> bind-9.10.4_p3.ebuild:
+  amd64 stable
+
+  Bug: 595340
+
+  Package-Manager: portage-2.3.0
+

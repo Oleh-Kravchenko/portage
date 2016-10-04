@@ -321,3 +321,9 @@
   cinder-8.1.1.ebuild, cinder-2016.1.9999.ebuild, +cinder-2016.2.9999.ebuild:
   openstack p2, newton is done, will add heat later
 
+  03 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  cinder-2016.2.9999.ebuild:
+  fixing db deps
+
+  Package-Manager: portage-2.3.0
+

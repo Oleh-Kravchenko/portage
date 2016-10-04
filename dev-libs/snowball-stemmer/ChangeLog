@@ -72,3 +72,10 @@
 
   Package-Manager: portage-2.2.28
 
+  03 Oct 2016; Jeroen Roovers <jer@gentoo.org>
+  snowball-stemmer-0.20140325.ebuild:
+  Stable for HPPA (bug #587010).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

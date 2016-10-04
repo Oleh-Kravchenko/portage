@@ -269,3 +269,8 @@
 
   Package-Manager: portage-2.3.1_p4_p56819
 
+  03 Oct 2016; Mike Gilbert <floppym@gentoo.org> six-1.10.0.ebuild:
+  cd "${HOME}" in pkg_preinst
+
+  Package-Manager: portage-2.3.1_p4_p808957
+

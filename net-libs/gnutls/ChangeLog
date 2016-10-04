@@ -510,3 +510,14 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*gnutls-3.5.4-r1 (03 Oct 2016)
+*gnutls-3.3.24-r2 (03 Oct 2016)
+
+  03 Oct 2016; Alon Bar-Lev <alonbl@gentoo.org> +gnutls-3.3.24-r2.ebuild,
+  +gnutls-3.5.4-r1.ebuild:
+  disable lib prefix magic
+
+  Bug: 438222
+
+  Package-Manager: portage-2.3.0
+

@@ -81,3 +81,11 @@
   -python-troveclient-1.0.5.ebuild:
   massive cleanup of old openstack stuff
 
+*python-troveclient-2.5.0 (03 Oct 2016)
+
+  03 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  python-troveclient-1.3.0.ebuild, +python-troveclient-2.5.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.3.0
+

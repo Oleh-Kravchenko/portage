@@ -671,3 +671,15 @@
 
   Package-Manager: portage-2.3.1
 
+  03 Oct 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  remove faac (dropped upstream)
+
+  Package-Manager: portage-2.3.1
+
+*ffmpeg-3.1.4 (03 Oct 2016)
+
+  03 Oct 2016; Alexis Ballier <aballier@gentoo.org> +ffmpeg-3.1.4.ebuild:
+  bump to 3.1.4
+
+  Package-Manager: portage-2.3.1
+

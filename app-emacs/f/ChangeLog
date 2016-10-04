@@ -16,3 +16,12 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*f-0.19.0 (03 Oct 2016)
+
+  03 Oct 2016; Patrice Clement <monsieurp@gentoo.org> +f-0.19.0.ebuild:
+  bump version to 0.19.0.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2461
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

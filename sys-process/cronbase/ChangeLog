@@ -187,3 +187,13 @@
   message, switch to sed and a file argument, then redirect stderr of
   that.
 
+*cronbase-0.3.7-r5 (03 Oct 2016)
+
+  03 Oct 2016; Tobias Klausmann <klausman@gentoo.org>
+  -cronbase-0.3.7-r4.ebuild, +cronbase-0.3.7-r5.ebuild, files/run-crons-0.3.7:
+  Fix the parall-job check once and for all.
+
+  Thanks to Dan Goodliffe for suggesting this approach.
+
+  Gentoo-Bug: 595492
+

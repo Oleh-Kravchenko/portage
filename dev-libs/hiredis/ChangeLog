@@ -96,3 +96,14 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  03 Oct 2016; Tobias Klausmann <klausman@gentoo.org> hiredis-0.13.1.ebuild:
+  0.13.1-r0: stable on alpha
+
+  Gentoo-Bug: 585646
+
+  03 Oct 2016; Jeroen Roovers <jer@gentoo.org> hiredis-0.13.1.ebuild:
+  Stable for HPPA PPC64 (bug #585646).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

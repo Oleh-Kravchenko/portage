@@ -201,3 +201,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+  03 Oct 2016; Jeroen Roovers <jer@gentoo.org>
+  gst-plugins-resindvd-1.8.3.ebuild:
+  Stable for HPPA (bug #587010).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

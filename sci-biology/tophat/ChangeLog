@@ -141,3 +141,11 @@
 
   Package-Manager: portage-2.3.1
 
+*tophat-2.1.1-r3 (03 Oct 2016)
+
+  03 Oct 2016; David Seifert <soap@gentoo.org> -tophat-2.1.1-r2.ebuild,
+  +tophat-2.1.1-r3.ebuild:
+  Do not wrap scripts
+
+  Package-Manager: portage-2.3.1
+
