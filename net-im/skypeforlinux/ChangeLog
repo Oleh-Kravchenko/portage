@@ -12,3 +12,31 @@
 
   Package-Manager: portage-2.2.28
 
+*skypeforlinux-1.8.0.2-r1 (23 Sep 2016)
+
+  23 Sep 2016; Wolfram Schlich <wschlich@gentoo.org>
+  -skypeforlinux-1.8.0.2.ebuild, +skypeforlinux-1.8.0.2-r1.ebuild:
+  addes missing RDEPEND on gnome-base/libgnome-keyring
+
+  Reported-by: Jason A. Donenfeld <zx2c4@gentoo.org>
+
+  Package-Manager: portage-2.2.28
+
+*skypeforlinux-1.9.0.2 (04 Oct 2016)
+
+  04 Oct 2016; David Seifert <soap@gentoo.org>
+  -skypeforlinux-1.8.0.2-r1.ebuild, +skypeforlinux-1.9.0.2.ebuild:
+  Update to new version
+
+  * Remove obsolete ebuild after upstream rpm removal
+  * Add new upstream build
+  * Remove spurious dependencies on gcc and glibc
+  * Fix dodoc calls
+  * Slash-endy finagle EROOT
+  * Fix src_prepare()
+    - Add call to default
+    - Add || die to sed calls
+  Closes: https://github.com/gentoo/gentoo/pull/2451
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

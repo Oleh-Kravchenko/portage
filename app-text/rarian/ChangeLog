@@ -113,3 +113,8 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  04 Oct 2016; Tobias Klausmann <klausman@gentoo.org> rarian-0.8.1-r3.ebuild:
+  0.8.1-r3: keyworded for ~alpha
+
+  Gentoo-Bug: 595732
+

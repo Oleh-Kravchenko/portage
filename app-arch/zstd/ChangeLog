@@ -18,3 +18,23 @@
 
   Package-Manager: portage-2.3.0
 
+*zstd-1.1.0 (03 Oct 2016)
+
+  03 Oct 2016; Matthias Maier <tamiko@gentoo.org>
+  +files/zstd-1.1.0-fix_build_system.patch, +zstd-1.1.0.ebuild:
+  version bump to 1.1.0, fix a a number of bugs:
+
+   - respect "$(get_libdir)"
+   - introduce USE=static-libs, bug #593634
+   - do not compile library a second time, bug #594514
+   - respect CC, bug #593630
+   - prefix support
+   - keyword for x86
+
+  Package-Manager: portage-2.3.0
+
+  03 Oct 2016; Matthias Maier <tamiko@gentoo.org> -zstd-1.0.0-r1.ebuild:
+  drop 1.1.0-r1
+
+  Package-Manager: portage-2.3.0
+

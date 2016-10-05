@@ -371,3 +371,8 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Oct 2016; Keri Harris <keri@gentoo.org> swi-prolog-7.3.28.ebuild:
+  support compiling with patent-unencumbered openssl
+
+  Package-Manager: portage-2.3.0
+

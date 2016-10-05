@@ -267,3 +267,8 @@
 
   Package-Manager: portage-2.3.1
 
+  04 Oct 2016; David Seifert <soap@gentoo.org> boost-1.62.0.ebuild:
+  Rekeyword and unleash into unstable
+
+  Package-Manager: portage-2.3.1
+

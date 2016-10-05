@@ -154,3 +154,8 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Oct 2016; Jason Zaman <perfinion@gentoo.org> metadata.xml:
+  Fix incorrect metadata
+
+  Package-Manager: portage-2.3.0
+

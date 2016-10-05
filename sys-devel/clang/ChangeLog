@@ -371,3 +371,10 @@
   03 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
   Remove stale libomp check, it is PDEP now
 
+  04 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild,
+  -files/9999/0001-cmake-Add-ordering-dep-between-HTML-Sphinx-docs-and-.patch:
+  Sphinx race conditions fixed upstream
+
+  04 Oct 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  cross-linux test was solved already
+

@@ -176,3 +176,10 @@
 
   Package-Manager: portage-2.2.28
 
+*uwsgi-2.0.14 (04 Oct 2016)
+
+  04 Oct 2016; Ultrabug <ultrabug@gentoo.org> +uwsgi-2.0.14.ebuild:
+  version bump with fixes for #589012 #594230
+
+  Package-Manager: portage-2.3.0
+

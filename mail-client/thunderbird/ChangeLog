@@ -570,3 +570,19 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*thunderbird-45.4.0 (04 Oct 2016)
+
+  04 Oct 2016; Ian Stakenvicius <axs@gentoo.org> +files/firefox-45-gcc6.patch,
+  +thunderbird-45.4.0.ebuild:
+  version bump to 45.4.0
+
+  Contains experimenta patch to fix build errors for gcc-6
+
+  Package-Manager: portage-2.2.28
+
+  04 Oct 2016; Ian Stakenvicius <axs@gentoo.org>
+  -thunderbird-45.3.0-r2.ebuild:
+  remove old/vuln 45.3.0-r2
+
+  Package-Manager: portage-2.2.28
+

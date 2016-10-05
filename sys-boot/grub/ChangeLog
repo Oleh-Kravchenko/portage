@@ -413,3 +413,9 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  04 Oct 2016; Ian Stakenvicius <axs@gentoo.org> grub-0.97-r16.ebuild,
+  grub-0.97-r17.ebuild:
+  0: drop old handbook URL in favor of wiki URL
+
+  Package-Manager: portage-2.2.28
+

@@ -156,3 +156,10 @@
 
   Package-Manager: portage-2.3.0
 
+*libXi-1.7.7 (04 Oct 2016)
+
+  04 Oct 2016; Manuel Rüger <mrueg@gentoo.org> +libXi-1.7.7.ebuild:
+  Security bump to 1.7.7
+
+  Package-Manager: portage-2.3.1
+

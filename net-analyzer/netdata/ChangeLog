@@ -44,3 +44,14 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*netdata-1.4.0 (04 Oct 2016)
+
+  04 Oct 2016; Patrice Clement <monsieurp@gentoo.org> +netdata-1.4.0.ebuild,
+  netdata-9999.ebuild:
+  version bump to 1.4.0.
+
+  Gentoo-Bug: https://bugs.gentoo.org/596142
+  Closes: https://github.com/gentoo/gentoo/pull/2471
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -146,3 +146,9 @@
   +openvswitch-2.6.0.ebuild:
   openstack p2, newton is done, will add heat later
 
+  04 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  openvswitch-2.6.0.ebuild:
+  fixing install when using monitor
+
+  Package-Manager: portage-2.3.0
+

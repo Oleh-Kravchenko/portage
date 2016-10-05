@@ -435,3 +435,9 @@
   keystone-2016.2.9999.ebuild:
   openstack p2, newton is done, will add heat later
 
+  04 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  keystone-2016.2.9999.ebuild:
+  fixing paste dep
+
+  Package-Manager: portage-2.3.0
+

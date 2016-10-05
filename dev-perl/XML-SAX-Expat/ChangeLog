@@ -72,3 +72,9 @@
 
   Package-Manager: portage-2.3.0
 
+  04 Oct 2016; Tobias Klausmann <klausman@gentoo.org>
+  XML-SAX-Expat-0.510.0.ebuild:
+  0.510.0-r0: keyworded for ~alpha
+
+  Gentoo-Bug: 595562
+

@@ -97,3 +97,10 @@
 
   Gentoo-Bug: 579266
 
+*libXfixes-5.0.3 (04 Oct 2016)
+
+  04 Oct 2016; Manuel Rüger <mrueg@gentoo.org> +libXfixes-5.0.3.ebuild:
+  Security bump to 5.0.3
+
+  Package-Manager: portage-2.3.1
+

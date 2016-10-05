@@ -125,3 +125,7 @@
   Package-Manager: portage-2.3.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  04 Oct 2016; William Hubbs <williamh@gentoo.org> -files/lua-5.1-make.patch,
+  -files/lua-5.1-make_static.patch, -files/lua-5.2-make.patch:
+  remove unused patches
+

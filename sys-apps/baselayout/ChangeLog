@@ -118,3 +118,8 @@
   in the new no-lib-symlink profile while preserving the check on regular
   lib+lib64 profile.
 
+  04 Oct 2016; Tobias Klausmann <klausman@gentoo.org> baselayout-2.3.ebuild:
+  2.3-r0: stable on alpha
+
+  Gentoo-Bug: 596104
+

@@ -315,3 +315,8 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*mongodb-3.2.10 (04 Oct 2016)
+
+  04 Oct 2016; Ultrabug <ultrabug@gentoo.org> +mongodb-3.2.10.ebuild:
+  version bump
+
