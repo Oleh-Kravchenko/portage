@@ -5561,10 +5561,7 @@ net-irc/iroffer-dinoex:memsave - Compile with memory protection
 net-irc/iroffer-dinoex:telnet - Compile with Telnet server support
 net-irc/irssi:proxy - Adds support for a loadable IRC proxy module
 net-irc/kvirc:dcc_video - Support video connections over DCC protocol
-net-irc/kvirc:dcc_voice - Support voice connections over DCC protocol
-net-irc/kvirc:ipc - Support inter-process communication between KVIrc processes
 net-irc/kvirc:phonon - Support Phonon for audio output
-net-irc/kvirc:transparency - Support pseudo-transparency
 net-irc/limnoria:crypt - Enables user authentication with GPG
 net-irc/ngircd:ident - Enables support for net-libs/libident
 net-irc/psybnc:multinetwork - Adds support for multiple networks
@@ -7741,8 +7738,10 @@ sys-libs/glibc:rpc - Enable obsolete RPC/NIS layers (disabling is experimental -
 sys-libs/glibc:suid - Make internal pt_chown helper setuid -- not needed if using Linux and have /dev/pts mounted with gid=5
 sys-libs/glibc:systemtap - enable systemtap static probe points
 sys-libs/gwenhywfar:fox - Use x11-libs/fox graphical toolkit
+sys-libs/libcxx:libcxxabi - Build on top of sys-libs/libcxxabi instead of gcc's libsupc++ (avoids depending on gcc).
 sys-libs/libcxx:libcxxrt - Build on top of sys-libs/libcxxrt instead of gcc's libsupc++ (avoids depending on gcc).
 sys-libs/libcxx:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependence on gcc.
+sys-libs/libcxxabi:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependency on gcc
 sys-libs/libcxxrt:libunwind - Use libunwind instead of libgcc_s for unwinding. This should allow avoiding relying on sys-devel/gcc but for now clang is setup to use libgcc_s.
 sys-libs/libhugetlbfs:perl - Install the cpupcstat tool and some perl modules
 sys-libs/libomp:hwloc - Enable CPU affinity support via hwloc

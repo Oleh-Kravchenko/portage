@@ -309,3 +309,11 @@
 
   Package-Manager: portage-2.3.1
 
+*plasma-pa-5.8.0 (05 Oct 2016)
+
+  05 Oct 2016; Michael Palimaka <kensington@gentoo.org>
+  +plasma-pa-5.8.0.ebuild:
+  kde-plasma: version bump 5.8.0
+
+  Package-Manager: portage-2.3.1
+

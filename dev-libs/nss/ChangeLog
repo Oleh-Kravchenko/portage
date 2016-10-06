@@ -481,3 +481,17 @@
   Package-Manager: portage-2.3.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*nss-3.27.1 (05 Oct 2016)
+
+  05 Oct 2016; Lars Wendler <polynomial-c@gentoo.org> +nss-3.27.1.ebuild:
+  Bump to version 3.27.1
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+
+  05 Oct 2016; Lars Wendler <polynomial-c@gentoo.org> -nss-3.26.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.1
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

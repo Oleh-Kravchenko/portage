@@ -152,3 +152,20 @@
 
   Package-Manager: portage-2.3.0
 
+  05 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  openvswitch-2.6.0.ebuild:
+  fixing bunch of small things
+
+  Package-Manager: portage-2.3.0
+
+  05 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  openvswitch-2.6.0.ebuild:
+  fixing it for the last time I hope
+
+  Package-Manager: portage-2.3.0
+
+  05 Oct 2016; David Seifert <soap@gentoo.org> openvswitch-2.6.0.ebuild:
+  Fix minor QA issues
+
+  Package-Manager: portage-2.3.1
+

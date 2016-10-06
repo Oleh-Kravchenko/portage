@@ -1014,3 +1014,17 @@
 
   Package-Manager: portage-2.3.1
 
+*youtube-dl-2016.10.02-r1 (05 Oct 2016)
+
+  05 Oct 2016; Jeroen Roovers <jer@gentoo.org> -youtube-dl-2016.10.02.ebuild,
+  +youtube-dl-2016.10.02-r1.ebuild, youtube-dl-99999999.ebuild:
+  Fix installing in Prefix by Jonathan Lovelace (bug #596188).
+
+  Package-Manager: portage-2.3.1
+
+  05 Oct 2016; Jeroen Roovers <jer@gentoo.org>
+  -youtube-dl-2016.09.27-r1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.1
+

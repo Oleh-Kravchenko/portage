@@ -159,3 +159,12 @@
 
   Package-Manager: portage-2.3.0
 
+*libselinux-2.6_rc1-r1 (05 Oct 2016)
+
+  05 Oct 2016; Jason Zaman <perfinion@gentoo.org> +files/libselinux-2.6-0001-l
+  ibselinux-selinux_restorecon-fix-realpath-logic.patch,
+  -libselinux-2.6_rc1.ebuild, +libselinux-2.6_rc1-r1.ebuild:
+  fix selinux_restorecon realpath logic
+
+  Package-Manager: portage-2.3.0
+

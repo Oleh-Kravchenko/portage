@@ -191,3 +191,11 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+*networkmanager-openvpn-1.2.6 (04 Oct 2016)
+
+  04 Oct 2016; Manuel Rüger <mrueg@gentoo.org>
+  +networkmanager-openvpn-1.2.6.ebuild:
+  Version bump to 1.2.6
+
+  Package-Manager: portage-2.3.1
+

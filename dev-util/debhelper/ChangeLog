@@ -232,3 +232,10 @@
 
   Gentoo-Bug: 593768
 
+*debhelper-10.2.1 (05 Oct 2016)
+
+  05 Oct 2016; Jeroen Roovers <jer@gentoo.org> +debhelper-10.2.1.ebuild:
+  Version bump.
+
+  Package-Manager: portage-2.3.1
+

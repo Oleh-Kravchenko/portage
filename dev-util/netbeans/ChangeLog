@@ -97,3 +97,10 @@
 
   Package-Manager: portage-2.3.0
 
+*netbeans-8.2 (05 Oct 2016)
+
+  05 Oct 2016; Miroslav Šulc <fordfrog@gentoo.org> +netbeans-8.2.ebuild:
+  version bump to version 8.2
+
+  Package-Manager: portage-2.3.1
+
