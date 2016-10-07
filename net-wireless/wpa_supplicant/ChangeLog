@@ -256,3 +256,9 @@
 
   Package-Manager: portage-2.3.1
 
+  06 Oct 2016; Jeroen Roovers <jer@gentoo.org> wpa_supplicant-2.6.ebuild:
+  Stable for PPC64 (bug #596042).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

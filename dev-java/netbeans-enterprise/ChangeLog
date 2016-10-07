@@ -111,3 +111,9 @@
 
   Package-Manager: portage-2.3.1
 
+  06 Oct 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-enterprise-8.2.ebuild:
+  fixed eapi 6 issue
+
+  Package-Manager: portage-2.3.1
+
