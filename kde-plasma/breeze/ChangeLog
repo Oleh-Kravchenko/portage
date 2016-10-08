@@ -400,3 +400,10 @@
 
   Package-Manager: portage-2.3.1
 
+  07 Oct 2016; Michael Palimaka <kensington@gentoo.org> breeze-5.7.5.ebuild:
+  kde-plasma: stabilise 5.7.5 for amd64/x86
+
+  Gentoo-bug: 596284
+
+  Package-Manager: portage-2.3.1
+

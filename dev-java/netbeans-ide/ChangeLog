@@ -119,3 +119,8 @@
 
   Package-Manager: portage-2.3.1
 
+  07 Oct 2016; Miroslav Šulc <fordfrog@gentoo.org> netbeans-ide-8.2.ebuild:
+  fixed issue #596362
+
+  Package-Manager: portage-2.3.1
+
