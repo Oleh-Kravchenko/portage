@@ -3317,6 +3317,7 @@ kde-misc/kdeconnect:telepathy - Enable net-libs/telepathy-qt support to receive 
 kde-misc/kdeconnect:wayland - Enable kwin_wayland support for mousepad plugin using kde-frameworks/kwayland
 kde-misc/kepas:oscar - Enables ICQ (AIM) support.
 kde-misc/kimtoy:scim - Enable Smart Common Input Method support
+kde-misc/kio-gdrive:dolphin - Enable integration with kde-apps/dolphin
 kde-misc/krusader:bookmarks - Add dependency on bookmark package.
 kde-misc/networkmanagement:openconnect - Build support for the OpenConnect VPN client
 kde-misc/plasma-nm:modemmanager - Enable support for mobile broadband devices
@@ -3344,11 +3345,14 @@ kde-plasma/plasma-desktop:packagekit - Add support for packagekit integration
 kde-plasma/plasma-desktop:scim - Enable applets that use app-i18n/scim
 kde-plasma/plasma-meta:display-manager - Pull in a graphical display manager
 kde-plasma/plasma-meta:grub - Pull in Breeze theme for sys-boot/grub
+kde-plasma/plasma-meta:gtk - Enable Breeze widget style and KCM for GTK2 and GTK3
 kde-plasma/plasma-meta:mediacenter - Pull in kde-plasma/plasma-mediacenter
+kde-plasma/plasma-meta:pam - Enable support for kwallet auto-unlocking
 kde-plasma/plasma-meta:plymouth - Pull in Breeze theme for sys-boot/plymouth
+kde-plasma/plasma-meta:pulseaudio - Install Plasma applet for PulseAudio volume management
 kde-plasma/plasma-meta:sddm - Pull in the x11-misc/sddm display manager and KCM
-kde-plasma/plasma-meta:sdk - Pull in kde-plasma/plasma-sdk
-kde-plasma/plasma-meta:wallpapers - Install the KDE wallpapers
+kde-plasma/plasma-meta:sdk - Pull in kde-plasma/plasma-sdk for Plasma development
+kde-plasma/plasma-meta:wallpapers - Install wallpapers for the Plasma Workspace
 kde-plasma/plasma-nm:modemmanager - Enable support for mobile broadband devices
 kde-plasma/plasma-nm:openconnect - Build support for the OpenConnect VPN client
 kde-plasma/plasma-nm:teamd - Enable Teamd control support
@@ -5091,8 +5095,8 @@ net-analyzer/tcpreplay:pcapnav - Enable if you want the jump to byte offset feat
 net-analyzer/tcpreplay:tcpdump - Use net-analyzer/tcpdump for packet decoding feature
 net-analyzer/testssl:bundled-openssl - Install precompiled versions of OpenSSL for greater testing coverage
 net-analyzer/wireshark:adns - Use the GNU net-dns/c-ares library to resolve DNS names
-net-analyzer/wireshark:androiddump - Install androiddump
-net-analyzer/wireshark:ciscodump - Install ciscodump
+net-analyzer/wireshark:androiddump - Install androiddump, an extcap interface to capture from Android devices
+net-analyzer/wireshark:ciscodump - Install ciscodump, extcap interface to capture from a remote Cisco router
 net-analyzer/wireshark:crypt - Use dev-libs/libgcrypt to decrypt traffic
 net-analyzer/wireshark:doc-pdf - Build documentation in pdf format (US and a4 paper sizes)
 net-analyzer/wireshark:gtk3 - Build the wireshark executable with a GTK+ UI version 3.
@@ -5100,12 +5104,12 @@ net-analyzer/wireshark:libssh - Use net-libs/libssh (for sshdump)
 net-analyzer/wireshark:netlink - Use dev-libs/libnl
 net-analyzer/wireshark:pcap - Use net-libs/libpcap for network packet capturing (build dumpcap, rawshark)
 net-analyzer/wireshark:qt4 - Build the wireshark executable with an experimental Qt UI instead of GTK+.
-net-analyzer/wireshark:randpkt - Install randpkt
-net-analyzer/wireshark:randpktdump - Install randpktdump
+net-analyzer/wireshark:randpkt - Install randpkt, a utility for creating pcap trace files full of random packets
+net-analyzer/wireshark:randpktdump - Install randpktdump, an extcap interface to provide access to the random packet generator (randpkt)
 net-analyzer/wireshark:sbc - Use media-libs/sbc for playing back SBC encoded packets
 net-analyzer/wireshark:smi - Use net-libs/libsmi to resolve numeric OIDs into human readable format
-net-analyzer/wireshark:sshdump - Install sshdump
-net-analyzer/wireshark:tfshark - Install tfshark
+net-analyzer/wireshark:sshdump - Install sshdump, an extcap interface to capture from a remote host through SSH
+net-analyzer/wireshark:tfshark - Install tfshark, a terminal-based version of the FileShark capability
 net-analyzer/zabbix:agent - Enable zabbix agent (for to-be-monitored machines)
 net-analyzer/zabbix:frontend - Enable zabbix web frontend
 net-analyzer/zabbix:ipv6 - Turn on support of IPv6
@@ -6900,7 +6904,6 @@ sci-libs/pcl:pcap - Adds pcap file capabilities in some drivers.
 sci-libs/pcl:qhull - Adds convex-hull operation support via media-libs/qhull.
 sci-libs/pcl:tutorials - Builds and installs tutorials.
 sci-libs/pcl:vtk - Adds support for VTK-Visualizations.
-sci-libs/plplot:ada - Add bindings for the ADA programming language
 sci-libs/plplot:dynamic - Build with dynamic drivers
 sci-libs/plplot:octave - Add bindings for sci-mathematics/octave
 sci-libs/plplot:pdl - Add bindings for dev-perl/PDL
@@ -8336,6 +8339,13 @@ x11-themes/redhat-artwork:icons - Install Bluecurve icons
 x11-themes/redhat-artwork:kdm - Install Bluecurve kde-base/kdm theme
 x11-themes/redhat-artwork:nautilus - Install Bluecurve gnome-base/nautilus icons
 x11-themes/skinenigmang-logos:dxr3 - Install logos for lower osd color depth on dxr3 cards
+x11-themes/vertex-theme:cinnamon - Install theme for gnome-extra/cinnamon
+x11-themes/vertex-theme:gnome-shell - Install theme for gnome-base/gnome-shell
+x11-themes/vertex-theme:mate - Install Metacity theme for mate-base/mate
+x11-themes/vertex-theme:xfce - Install theme for xfce-base/xfwm4
+x11-themes/zuki-themes:gnome-shell - Install theme for gnome-base/gnome-shell
+x11-themes/zuki-themes:mate - Install Metacity theme for mate-base/mate
+x11-themes/zuki-themes:xfce - Install theme for xfce-base/xfwm4
 x11-themes/zukitwo:gnome-shell - Install theme for gnome-base/gnome-shell
 x11-wm/compiz:fuse - Enables support for the filesystem in userspace plugin through sys-fs/fuse.
 x11-wm/compiz:gconf - Enable the GConf-based configuration backend; it is not required to work with GNOME, and might actually be faster if it's not used.
