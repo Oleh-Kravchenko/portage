@@ -367,3 +367,9 @@
 
   Package-Manager: portage-2.3.1
 
+  09 Oct 2016; Jeroen Roovers <jer@gentoo.org> numpy-1.10.4.ebuild:
+  Stable for PPC64 (bug #572858).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

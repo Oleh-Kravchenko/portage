@@ -331,3 +331,14 @@
 
   Package-Manager: portage-2.3.1
 
+*networkmanager-qt-5.26.0-r2 (09 Oct 2016)
+
+  09 Oct 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/networkmanager-qt-5.27.0-tests.patch,
+  +networkmanager-qt-5.26.0-r2.ebuild, networkmanager-qt-5.27.0.ebuild:
+  More fixes for NM-1.4.0
+
+  Let's install kde-frameworks/networkmanager-qt-5.27.0 behind the scenes.
+
+  Package-Manager: portage-2.3.0
+

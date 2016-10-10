@@ -214,3 +214,8 @@
 
   Package-Manager: portage-2.3.1
 
+  09 Oct 2016; Pacho Ramos <pacho@gentoo.org> gucharmap-3.0.1-r200.ebuild:
+  Bump eapi and update ebuild
+
+  Package-Manager: portage-2.3.1
+
