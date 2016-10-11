@@ -187,3 +187,9 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  10 Oct 2016; Jeroen Roovers <jer@gentoo.org> puppet-3.8.7.ebuild:
+  Stable for HPPA (bug #575610).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+
