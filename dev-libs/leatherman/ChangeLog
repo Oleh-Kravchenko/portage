@@ -160,3 +160,9 @@
 
   Package-Manager: portage-2.2.28
 
+  11 Oct 2016; Jeroen Roovers <jer@gentoo.org> leatherman-0.9.0.ebuild:
+  Stable for PPC64 (bug #593512).
+
+  Package-Manager: portage-2.3.1
+  RepoMan-Options: --ignore-arches
+

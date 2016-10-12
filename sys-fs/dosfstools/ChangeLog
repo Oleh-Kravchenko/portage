@@ -173,3 +173,9 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Oct 2016; Tobias Klausmann <klausman@gentoo.org>
+  dosfstools-4.0-r1.ebuild:
+  4.0-r1: stable on alpha
+
+  Gentoo-Bug: 582530
+

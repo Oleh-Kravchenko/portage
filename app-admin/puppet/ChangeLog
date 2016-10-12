@@ -193,3 +193,11 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+*puppet-4.7.0 (11 Oct 2016)
+
+  11 Oct 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +files/puppet-fix-tests-4.7.0.patch, +puppet-4.7.0.ebuild:
+  bup
+
+  Package-Manager: portage-2.3.0
+

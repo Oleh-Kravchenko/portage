@@ -1087,3 +1087,17 @@
 
   Package-Manager: portage-2.3.0
 
+*vanilla-sources-4.8.1 (11 Oct 2016)
+
+  11 Oct 2016; Patrick McLean <chutzpah@gentoo.org>
+  +vanilla-sources-4.8.1.ebuild:
+  Version bump to 4.8.1
+
+  Package-Manager: portage-2.3.1
+
+  11 Oct 2016; Patrick McLean <chutzpah@gentoo.org>
+  -vanilla-sources-4.8.0.ebuild:
+  Clean out ebuild for version 4.8.0
+
+  Package-Manager: portage-2.3.1
+

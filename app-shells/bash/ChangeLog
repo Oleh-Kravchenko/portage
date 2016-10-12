@@ -551,3 +551,8 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  11 Oct 2016; Tobias Klausmann <klausman@gentoo.org> bash-4.3_p48.ebuild:
+  4.3_p48-r0: stable on alpha
+
+  Gentoo-Bug: 595268
+
