@@ -113,3 +113,18 @@
 
   Package-Manager: portage-2.3.0
 
+*greybird-3.20.1-r2 (12 Oct 2016)
+
+  12 Oct 2016; Ian Stakenvicius <axs@gentoo.org> -greybird-3.20.1-r1.ebuild,
+  +greybird-3.20.1-r2.ebuild, greybird-9999.ebuild:
+  add slot to gtk+3 dependency atom
+
+  Package-Manager: portage-2.3.0
+
+  12 Oct 2016; Ian Stakenvicius <axs@gentoo.org> greybird-3.20.1-r2.ebuild:
+  3.20.1-r2: stable for amd64
+
+  Bug: http://bugs.gentoo.org/596908
+
+  Package-Manager: portage-2.3.0
+

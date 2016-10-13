@@ -161,3 +161,9 @@
   +files/freebsd-usbin-11.0-workaround.patch, +freebsd-usbin-11.0.ebuild:
   sys-freebsd: bump to 11.0
 
+*freebsd-usbin-10.3-r1 (12 Oct 2016)
+
+  12 Oct 2016; Alexis Ballier <aballier@gentoo.org>
+  -freebsd-usbin-10.3.ebuild, +freebsd-usbin-10.3-r1.ebuild:
+  fix FreeBSD-SA-16:30.portsnap
+
