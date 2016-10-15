@@ -229,3 +229,8 @@
 
   Package-Manager: portage-2.3.2
 
+  13 Oct 2016; Zac Medico <zmedico@gentoo.org> libreoffice-bin-5.1.4.2.ebuild:
+  COMMON_DEPEND: add hunspell for consistency with source ebuilds
+
+  Package-Manager: portage-2.3.2
+

@@ -259,3 +259,10 @@
 
   Gentoo-Bug: 591088
 
+  14 Oct 2016; Agostino Sarubbo <ago@gentoo.org> lxml-3.6.0.ebuild:
+  amd64 stable wrt bug #591088
+
+  Package-Manager: portage-2.2.28
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
