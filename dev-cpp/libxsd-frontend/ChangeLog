@@ -58,3 +58,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*libxsd-frontend-2.0.0 (15 Oct 2016)
+
+  15 Oct 2016; David Seifert <soap@gentoo.org> +libxsd-frontend-2.0.0.ebuild,
+  metadata.xml:
+  Version bump to 2.0.0
+
+  Gentoo-bug: 585738, 594542
+  * EAPI=6
+
+  Package-Manager: portage-2.3.2
+
