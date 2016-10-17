@@ -68,3 +68,24 @@
 
   Package-Manager: portage-2.3.2
 
+*build-0.3.9-r1 (16 Oct 2016)
+
+  16 Oct 2016; David Seifert <soap@gentoo.org> -build-0.3.9.ebuild,
+  +build-0.3.9-r1.ebuild:
+  Remove SLOT=0.3
+
+  Gentoo-bug: 597246
+
+  Package-Manager: portage-2.3.2
+
+  16 Oct 2016; David Seifert <soap@gentoo.org> build-0.3.9-r1.ebuild:
+  Replace SLOT in SRC_URI
+
+  Package-Manager: portage-2.3.2
+
+  16 Oct 2016; David Seifert <soap@gentoo.org> build-0.3.9-r1.ebuild,
+  build-0.3.10.ebuild:
+  Add blockers for SLOT=0.3
+
+  Package-Manager: portage-2.3.2
+
