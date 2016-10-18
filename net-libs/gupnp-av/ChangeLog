@@ -99,3 +99,11 @@
 
   Package-Manager: portage-2.3.1
 
+  17 Oct 2016; Gilles Dartiguelongue <eva@gentoo.org> gupnp-av-0.12.10.ebuild:
+  raise glib dependency to 2.34 per configure
+
+  Also raise gobject-introspection since the lowest vala version in tree
+  is now 0.26. Drop unneeded eutils eclass.
+
+  Package-Manager: portage-2.3.1
+

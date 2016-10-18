@@ -168,6 +168,7 @@ PATCHES=(
 	"${FILESDIR}/${PN}-54-ffmpeg2compat.patch"
 	"${FILESDIR}/${PN}-gn-r7.patch"
 	"${FILESDIR}/${PN}-system-zlib-r1.patch"
+	"${FILESDIR}/${PN}-gn-bootstrap-ld.patch"
 )
 
 pkg_pretend() {

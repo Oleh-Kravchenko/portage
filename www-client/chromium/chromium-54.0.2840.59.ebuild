@@ -165,6 +165,7 @@ PATCHES=(
 	"${FILESDIR}/${PN}-system-jinja-r13.patch"
 	"${FILESDIR}/${PN}-widevine-r1.patch"
 	"${FILESDIR}/chromium-54-ffmpeg2compat.patch"
+	"${FILESDIR}/${PN}-gn-bootstrap-ld.patch"
 )
 
 pkg_pretend() {

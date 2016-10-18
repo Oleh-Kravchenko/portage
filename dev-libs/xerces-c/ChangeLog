@@ -119,3 +119,9 @@
 
   Gentoo-Bug: 584506
 
+  17 Oct 2016; Jeroen Roovers <jer@gentoo.org> xerces-c-3.1.4-r1.ebuild:
+  Stable for HPPA PPC64 (bug #584506).
+
+  Package-Manager: portage-2.3.2
+  RepoMan-Options: --ignore-arches
+
