@@ -451,3 +451,14 @@
   Package-Manager: portage-2.3.2
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*aufs-sources-3.18.43-r1 (18 Oct 2016)
+
+  18 Oct 2016; Justin Lecher <jlec@gentoo.org> -aufs-sources-3.18.43.ebuild,
+  +aufs-sources-3.18.43-r1.ebuild:
+  Correct K_GENPATCHES_VER
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=597396
+
+  Package-Manager: portage-2.3.2
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

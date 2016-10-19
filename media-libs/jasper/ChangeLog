@@ -100,3 +100,22 @@
 
   Package-Manager: portage-2.3.2
 
+*jasper-1.900.6 (18 Oct 2016)
+
+  18 Oct 2016; David Seifert <soap@gentoo.org>
+  -files/jasper-1.900.3-remove-stdbool-checks.patch,
+  +files/jasper-1.900.6-fix-build-system.patch, -jasper-1.900.5.ebuild,
+  +jasper-1.900.6.ebuild:
+  Version bump to 1.900.6
+
+  Gentoo-bug: 597208
+
+  Package-Manager: portage-2.3.2
+
+*jasper-9999 (18 Oct 2016)
+
+  18 Oct 2016; David Seifert <soap@gentoo.org> +jasper-9999.ebuild:
+  Add live ebuild
+
+  Package-Manager: portage-2.3.2
+

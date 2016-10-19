@@ -201,3 +201,18 @@
 
   Package-Manager: portage-2.2.28
 
+*quagga-1.0.20160315-r4 (18 Oct 2016)
+
+  18 Oct 2016; Sergey Popov <pinkbyte@gentoo.org>
+  +files/quagga-1.0.20160315-zebra-ipv6-ra-overflow.patch,
+  +quagga-1.0.20160315-r4.ebuild:
+  revision bump
+
+  Backport upstream security fix for stack overrun
+  in IPv6 RA receive code in zebra daemon.
+
+  Reported-by: Agostino Sarubbo <ago@gentoo.org>
+  Gentoo-Bug: 597410
+
+  Package-Manager: portage-2.3.2
+

@@ -142,3 +142,15 @@
 
   Package-Manager: portage-2.3.0
 
+*gpgme-1.7.1 (18 Oct 2016)
+
+  18 Oct 2016; Kristian Fiskerstrand <k_f@gentoo.org> +gpgme-1.7.1.ebuild:
+  New upstream version 1.7.1
+
+  New upstream version 1.7.1
+
+  fixes:
+  Gentoo-Bug: 595296
+
+  Package-Manager: portage-2.3.1
+
