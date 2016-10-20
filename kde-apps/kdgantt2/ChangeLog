@@ -22,3 +22,11 @@
 
   Package-Manager: portage-2.3.2
 
+  19 Oct 2016; Michael Palimaka <kensington@gentoo.org>
+  kdgantt2-16.08.2.ebuild:
+  disable bogus dependency
+
+  Gentoo-bug: 597558
+
+  Package-Manager: portage-2.3.2
+

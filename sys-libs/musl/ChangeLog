@@ -262,3 +262,18 @@
 
   Signed-off-by: Anthony G. Basile <blueness@gentoo.org>
 
+*musl-1.1.15-r2 (18 Oct 2016)
+
+  18 Oct 2016; Anthony G. Basile <blueness@gentoo.org>
+  +files/musl-1.1.15-CVE.patch, +files/musl-1.1.15-assert.patch,
+  -musl-1.1.15-r1.ebuild, +musl-1.1.15-r2.ebuild:
+  add two upstream patches
+
+  The first patch fixes the bug reported at
+
+  https://lists.freedesktop.org/archives/xcb/2016-October/010864.html
+
+  A CVE has been requested for the second patch:
+
+  http://www.openwall.com/lists/musl/2016/10/18/2
+
