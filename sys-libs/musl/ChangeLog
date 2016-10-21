@@ -277,3 +277,14 @@
 
   http://www.openwall.com/lists/musl/2016/10/18/2
 
+  20 Oct 2016; Anthony G. Basile <blueness@gentoo.org> musl-1.1.15-r2.ebuild:
+  1.1.15-r2 stable on amd64 and x86, bug #597498
+
+  Package-Manager: portage-2.2.28
+
+  20 Oct 2016; Anthony G. Basile <blueness@gentoo.org> -musl-1.1.12.ebuild,
+  -musl-1.1.14.ebuild, -musl-1.1.14-r2.ebuild:
+  remove older unstable versions
+
+  Package-Manager: portage-2.2.28
+
