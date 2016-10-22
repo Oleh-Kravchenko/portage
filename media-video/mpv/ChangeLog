@@ -1456,3 +1456,20 @@
   Closes: https://github.com/gentoo/gentoo/pull/2572
   Package-Manager: portage-2.3.2
 
+  20 Oct 2016; David Seifert <soap@gentoo.org> mpv-9999.ebuild:
+  do compiler checks in pkg_setup() too
+
+  Also reorder compiler check conditions for clarity.
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+*mpv-0.21.0 (20 Oct 2016)
+
+  20 Oct 2016; David Seifert <soap@gentoo.org> +mpv-0.21.0.ebuild:
+  verbump to 0.21.0
+
+  Closes: https://github.com/gentoo/gentoo/pull/2604
+  Package-Manager: portage-2.3.2
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

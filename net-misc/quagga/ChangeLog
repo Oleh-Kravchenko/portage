@@ -232,3 +232,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  21 Oct 2016; Tobias Klausmann <klausman@gentoo.org>
+  quagga-1.0.20160315-r4.ebuild:
+  1.0.20160315-r4: stable on alpha
+
+  Gentoo-Bug: 597410
+
