@@ -198,3 +198,11 @@
 
   Package-Manager: portage-2.3.2
 
+  21 Oct 2016; Andreas K. Hüttel <dilfridge@gentoo.org> gnuplot-4.6.5.ebuild:
+  Drop 4.6.5 to ~arm
+
+  Gentoo-Bug: https://bugs.gentoo.org/587828
+  Closes: https://github.com/gentoo/gentoo/pull/2558
+
+  Signed-off-by: Andreas K. Hüttel <dilfridge@gentoo.org>
+
