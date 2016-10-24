@@ -317,3 +317,12 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --include-arches="arm"
 
+*btrfs-progs-4.8.1 (23 Oct 2016)
+*btrfs-progs-4.7.3 (23 Oct 2016)
+
+  23 Oct 2016; Mike Gilbert <floppym@gentoo.org> -btrfs-progs-4.7.2.ebuild,
+  +btrfs-progs-4.7.3.ebuild, +btrfs-progs-4.8.1.ebuild:
+  bump 4.7.3 and 4.8.1
+
+  Package-Manager: portage-2.3.2
+
