@@ -131,3 +131,8 @@
   Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=537306
   Package-Manager: portage-2.3.1
 
+  24 Oct 2016; Ettore Di Giacinto <mudler@gentoo.org> -slib-3.1.5-r1.ebuild:
+  Drop old
+
+  Package-Manager: portage-2.3.1
+
