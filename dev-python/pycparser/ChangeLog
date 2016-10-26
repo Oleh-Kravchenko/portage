@@ -155,3 +155,11 @@
 
   Package-Manager: portage-2.3.2
 
+  25 Oct 2016; Mike Gilbert <floppym@gentoo.org> pycparser-2.16-r1.ebuild:
+  add pkg_pretend check for broken version
+
+  Having the broken pycparser-2.16 installed breaks installation of
+  all setuptools packages, including the 2.16-r1 revbump.
+
+  Package-Manager: portage-2.3.2
+

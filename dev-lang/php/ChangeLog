@@ -1922,3 +1922,10 @@
 
   Package-Manager: portage-2.3.0
 
+*php-7.0.12 (25 Oct 2016)
+
+  25 Oct 2016; Brian Evans <grknight@gentoo.org> +php-7.0.12.ebuild:
+  Security version bump for 7.0 series
+
+  Package-Manager: portage-2.3.2
+

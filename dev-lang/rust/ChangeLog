@@ -284,3 +284,12 @@
 
   Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
 
+  25 Oct 2016; Doug Goldstein <cardoe@gentoo.org> rust-1.12.1.ebuild:
+  PDEPEND on dev-util/cargo
+
+  A number of people have pointed out to me that on most distros
+  installing Rust results in a fully working environment (e.g. includes
+  Cargo) so we should really provide the same.
+
+  Signed-off-by: Doug Goldstein <cardoe@gentoo.org>
+
