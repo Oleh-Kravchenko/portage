@@ -125,3 +125,10 @@
   Package-Manager: portage-2.3.2
   Signed-off-by: Robin H. Johnson <robbat2@gentoo.org>
 
+*netifrc-0.5.1 (26 Oct 2016)
+
+  26 Oct 2016; Robin H. Johnson <robbat2@gentoo.org> +netifrc-0.5.1.ebuild:
+  bump, fixes #598078
+
+  Package-Manager: portage-2.3.2
+

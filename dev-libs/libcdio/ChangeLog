@@ -92,3 +92,12 @@
   Package-Manager: portage-2.3.2
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*libcdio-0.94-r1 (26 Oct 2016)
+
+  26 Oct 2016; Lars Wendler <polynomial-c@gentoo.org> -libcdio-0.94.ebuild,
+  +libcdio-0.94-r1.ebuild:
+  Revbump to fix sub-slot. Removed old.
+
+  Package-Manager: portage-2.3.2
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

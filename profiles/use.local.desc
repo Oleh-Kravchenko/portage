@@ -4599,6 +4599,7 @@ media-tv/xmltv:no_gf - Norway Gfeed tv listing grabber
 media-tv/xmltv:pt - Portugal tv listing grabber
 media-tv/xmltv:pt_meo - Grabber for Portugal (MEO)
 media-tv/xmltv:re - Reunion Island (France) tv listing grabber
+media-tv/xmltv:sd_json - Grabber for schedulesDirect.org SD-JSON service (many countries)
 media-tv/xmltv:se_swedb - Sweden tv listing grabber
 media-tv/xmltv:se_tvzon - Sweden (tvzon.se) tv listing grabber
 media-tv/xmltv:tr - Turkey (Digiturk) tv listing grabber
@@ -7966,7 +7967,6 @@ www-client/elinks:gc - Enable garbage collection support via dev-libs/boehm-gc
 www-client/elinks:gopher - Enable support for the gopher protocol
 www-client/elinks:mouse - Make elinks to grab all mouse events
 www-client/elinks:xml - Enable support for bookmarks via dev-libs/expat
-www-client/epiphany:nss - Import passwords from older gecko based www-client/epiphany keyring.
 www-client/firefox:bindist - Disable official Firefox branding (icons, name) which are not binary-redistributable according to upstream.
 www-client/firefox:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles

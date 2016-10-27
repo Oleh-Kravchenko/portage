@@ -1489,3 +1489,9 @@
 
   Package-Manager: portage-2.2.28
 
+  26 Oct 2016; Anthony G. Basile <blueness@gentoo.org>
+  hardened-sources-4.7.10.ebuild:
+  rapid stabilize 4.7.10 on amd64, x86 for CVE-2016-5195
+
+  Package-Manager: portage-2.3.0
+
