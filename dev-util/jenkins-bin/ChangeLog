@@ -610,3 +610,10 @@
 
   Package-Manager: portage-2.3.2
 
+*jenkins-bin-2.19.1 (28 Oct 2016)
+
+  28 Oct 2016; Patrick Lauer <patrick@gentoo.org> +jenkins-bin-2.19.1.ebuild:
+  Bump LTS #597598
+
+  Package-Manager: portage-2.3.2
+

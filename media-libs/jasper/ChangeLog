@@ -205,3 +205,10 @@
 
   Package-Manager: portage-2.3.2
 
+  29 Oct 2016; David Seifert <soap@gentoo.org> jasper-1.900.15.ebuild:
+  Require C11 support
+
+  Gentoo-bug: 598418
+
+  Package-Manager: portage-2.3.2
+
