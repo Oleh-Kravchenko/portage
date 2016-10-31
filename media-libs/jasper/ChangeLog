@@ -212,3 +212,11 @@
 
   Package-Manager: portage-2.3.2
 
+*jasper-1.900.18 (30 Oct 2016)
+
+  30 Oct 2016; David Seifert <soap@gentoo.org> -jasper-1.900.15.ebuild,
+  +jasper-1.900.18.ebuild:
+  Version bump to 1.900.18
+
+  Package-Manager: portage-2.3.2
+

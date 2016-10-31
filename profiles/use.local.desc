@@ -7154,7 +7154,6 @@ sys-apps/etckeeper:bazaar - Support dev-vcs/bzr based repository
 sys-apps/etckeeper:cron - Install cron script
 sys-apps/firejail:apparmor - Enable support for custom AppArmor profiles
 sys-apps/firejail:bind - Enable custom bind mounts
-sys-apps/firejail:busybox - Enable support (workaround) for busybox
 sys-apps/firejail:chroot - Enable chrooting to custom directory
 sys-apps/firejail:file-transfer - Enable file transfers between sandboxes and the host system
 sys-apps/firejail:network - Enable networking features
@@ -7797,6 +7796,7 @@ sys-libs/uclibc:ssp - Force the use of ssp to be built into a hardened uclibc se
 sys-libs/uclibc:uclibc-compat - Build uclibc with backwards compatible options
 sys-libs/uclibc:wordexp - Add support for word expansion (wordexp.h)
 sys-libs/uclibc-ng:rpc - Enable sun nis/rpc support (you should use libtirpc though)
+sys-libs/uclibc-ng:symlink-compat - Explicitly add sym links for libdl.so.0, libm.so.0, and friends for backward compatibility with sys-libs/uclibc-ng-1.0.17 and earlier
 sys-libs/zlib:minizip - include the minizip library for quick and dirty zip extraction
 sys-power/cpupower:cpufreq_bench - Build and install the cpufreq_bench binary
 sys-power/nut:ipmi - Support IPMI-based UPSes.

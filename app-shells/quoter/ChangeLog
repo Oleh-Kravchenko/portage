@@ -10,3 +10,8 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Oct 2016; Benda Xu <heroxbd@gentoo.org> quoter-2.0_p2.ebuild:
+  fix for Prefix.
+
+  Package-Manager: portage-2.3.0
+
