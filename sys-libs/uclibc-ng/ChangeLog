@@ -123,3 +123,9 @@
 
   Package-Manager: portage-2.3.0
 
+  30 Oct 2016; Anthony G. Basile <blueness@gentoo.org> metadata.xml,
+  uclibc-ng-9999.ebuild:
+  make compat sym links for libm.so and friends optional
+
+  Package-Manager: portage-2.3.0
+
