@@ -61,3 +61,13 @@
 
   Package-Manager: portage-2.3.0_rc1
 
+*libebur128-1.2.0 (01 Nov 2016)
+
+  01 Nov 2016; Amy Winston <amynka@gentoo.org> +libebur128-1.2.0.ebuild:
+  bump to 1.2.0
+
+  - Bump to EAPI 6
+  - Drop the dependency on media-libs/speex
+
+  Closes: #2713
+

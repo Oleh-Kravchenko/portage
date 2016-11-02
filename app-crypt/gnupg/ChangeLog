@@ -497,3 +497,10 @@
 
   Package-Manager: portage-2.3.2
 
+  01 Nov 2016; Kristian Fiskerstrand <k_f@gentoo.org> gnupg-2.1.15-r1.ebuild:
+  Change default value of system-cert-store
+
+  Enable the use of system cert store for TLS in hkps:// by default
+
+  Package-Manager: portage-2.3.2
+
