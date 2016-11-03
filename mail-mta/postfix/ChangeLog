@@ -613,3 +613,11 @@
 
   Package-Manager: portage-2.3.2
 
+*postfix-3.2_pre20161101 (02 Nov 2016)
+
+  02 Nov 2016; Eray Aslan <eras@gentoo.org> -postfix-3.2_pre20161031.ebuild,
+  +postfix-3.2_pre20161101.ebuild:
+  version bump to 3.2_pre20161101
+
+  Package-Manager: portage-2.3.2
+

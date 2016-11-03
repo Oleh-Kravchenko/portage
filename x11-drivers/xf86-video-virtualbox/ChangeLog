@@ -430,3 +430,10 @@
   Package-Manager: portage-2.3.2
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  01 Nov 2016; Lars Wendler <polynomial-c@gentoo.org>
+  xf86-video-virtualbox-5.1.6.ebuild, xf86-video-virtualbox-5.1.8.ebuild:
+  Fixed typo again (bug #598712).
+
+  Package-Manager: portage-2.3.2
+  Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
+

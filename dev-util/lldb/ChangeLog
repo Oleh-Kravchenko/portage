@@ -13,3 +13,9 @@
   ebuilds. Tests are not yet implemented, Python readline module needs to
   be thought over and static libraries need to be replaced with shared.
 
+  01 Nov 2016; Michał Górny <mgorny@gentoo.org> lldb-9999.ebuild:
+  Restrict to <swig-3.0.9 due to #598708
+
+  02 Nov 2016; Michał Górny <mgorny@gentoo.org> lldb-9999.ebuild:
+  Enable tests (need more upstream fixes though)
+

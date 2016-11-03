@@ -240,3 +240,11 @@
   gdbus-codegen-2.46.2.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+*gdbus-codegen-2.50.1 (01 Nov 2016)
+
+  01 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gdbus-codegen-2.50.1.ebuild:
+  version bump 2.50.0 → 2.50.1
+
+  Package-Manager: portage-2.3.2
+

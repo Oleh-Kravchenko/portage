@@ -457,3 +457,9 @@
 
   Package-Manager: portage-2.3.0
 
+  01 Nov 2016; William Hubbs <williamh@gentoo.org> -docker-1.12.0.ebuild,
+  -docker-1.12.1.ebuild, -docker-1.12.2.ebuild:
+  Remove old 1.12.x versions
+
+  Package-Manager: portage-2.3.0
+
