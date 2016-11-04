@@ -182,3 +182,7 @@
   systemsettings-4.11.22-r2.ebuild:
   kde-base: drop ~ppc/~ppc64 keyword
 
+  03 Nov 2016; Johannes Huber <johu@gentoo.org>
+  systemsettings-4.11.22-r2.ebuild:
+  kde-misc/kde-gtk-config -> kde-plasma/kde-gtk-config
+

@@ -401,3 +401,11 @@
 
   Package-Manager: portage-2.3.2
 
+*ceph-10.2.3-r2 (03 Nov 2016)
+
+  03 Nov 2016; Patrick McLean <chutzpah@gentoo.org> -ceph-10.2.3-r1.ebuild,
+  +ceph-10.2.3-r2.ebuild:
+  Revision bump to 10.2.3-r1 fix shebang issue
+
+  Package-Manager: portage-2.3.2
+
