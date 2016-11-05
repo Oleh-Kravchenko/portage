@@ -160,3 +160,11 @@
 
   Package-Manager: portage-2.3.2
 
+*wireguard-0.0.20161103 (04 Nov 2016)
+
+  04 Nov 2016; Jason A. Donenfeld <zx2c4@gentoo.org>
+  -wireguard-0.0.20161102.ebuild, +wireguard-0.0.20161103.ebuild:
+  bump
+
+  Package-Manager: portage-2.3.2
+
