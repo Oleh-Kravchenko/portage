@@ -3259,7 +3259,7 @@ kde-apps/marble:positioning - Enable position information via dev-qt/qtpositioni
 kde-apps/marble:shapefile - Enable support for ESRI shapefiles
 kde-apps/marble:zip - Enable support for reading and displaying .kmz files
 kde-apps/okular:chm - Enable support for Microsoft Compiled HTML Help files
-kde-apps/okular:dpi - DPI detection support for PDF rendering via x11-libs/libkscreen
+kde-apps/okular:dpi - DPI detection support for PDF rendering via kde-plasma/libkscreen
 kde-apps/okular:ebook - Add E-Book support
 kde-apps/okular:mobi - Add mobipocket support
 kde-apps/pimcommon:designer - Build plugins for dev-qt/designer
@@ -3279,7 +3279,7 @@ kde-base/plasma-workspace:json - Enable JSON support via dev-libs/qjson
 kde-base/plasma-workspace:kdepim - KDE PIM integration via kde-apps/kdepimlibs
 kde-base/plasma-workspace:qalculate - Enable Qalculate runner using sci-libs/libqalculate
 kde-base/pykde4:akonadi - Compile bindings for Akonadi
-kde-base/systemsettings:kscreen - Use kde-misc/kscreen for screen management
+kde-base/systemsettings:kscreen - Use kde-plasma/kscreen for screen management
 kde-frameworks/kconfigwidgets:man - Build and install man pages
 kde-frameworks/kded:man - Build and install man pages
 kde-frameworks/kdesignerplugin:designer - Build KF5 widgets plugin for QtDesigner
@@ -7735,6 +7735,10 @@ sys-kernel/aufs-sources:experimental - Apply experimental patches; for more info
 sys-kernel/aufs-sources:kdbus - Apply the kdbus patch. This also requires the "experimental" use flag.
 sys-kernel/aufs-sources:module - Patch kernel to allow aufs being build as a module.
 sys-kernel/aufs-sources:vanilla - Use vanilla kernel sources without applying genpatches. WARNING: This flag will drop all support from the Gentoo Kernel Security team
+sys-kernel/bliss-initramfs:luks - Encryption support
+sys-kernel/bliss-initramfs:lvm - Logical Volume support
+sys-kernel/bliss-initramfs:raid - RAID support
+sys-kernel/bliss-initramfs:zfs - ZFS support
 sys-kernel/ck-sources:bfsonly - BFS by itself vs the full ck patchset
 sys-kernel/ck-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
 sys-kernel/ck-sources:experimental - Allow experimental code. Can break or degrade performance. (UNSUPPORTED)

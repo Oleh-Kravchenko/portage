@@ -186,3 +186,7 @@
   systemsettings-4.11.22-r2.ebuild:
   kde-misc/kde-gtk-config -> kde-plasma/kde-gtk-config
 
+  05 Nov 2016; Johannes Huber <johu@gentoo.org> metadata.xml,
+  systemsettings-4.11.22-r2.ebuild:
+  kde-misc/kscreen -> kde-plasma/kscreen
+

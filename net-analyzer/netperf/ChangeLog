@@ -129,3 +129,8 @@
 
   Package-Manager: portage-2.3.2
 
+  05 Nov 2016; Jeroen Roovers <jer@gentoo.org> netperf-2.7.0-r2.ebuild:
+  Revert going straight to stable.
+
+  Package-Manager: portage-2.3.2
+
