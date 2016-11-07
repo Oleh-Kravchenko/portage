@@ -268,3 +268,7 @@
 
   Package-Manager: portage-2.3.2
 
+  06 Nov 2016; Johannes Huber <johu@gentoo.org> digikam-4.4.0-r1.ebuild,
+  digikam-4.14.0-r1.ebuild:
+  kde-base/baloo -> kde-frameworks/baloo
+

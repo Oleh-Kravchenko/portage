@@ -322,3 +322,11 @@
 
   Package-Manager: portage-2.3.2
 
+  06 Nov 2016; David Seifert <soap@gentoo.org>
+  -files/mono-2.10.1-ppc-len.patch:
+  remove unused patches
+
+  Closes: https://github.com/gentoo/gentoo/pull/2167
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

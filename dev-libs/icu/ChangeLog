@@ -164,3 +164,15 @@
 
   Package-Manager: portage-2.3.2
 
+  06 Nov 2016; Andreas K. Hüttel <dilfridge@gentoo.org> icu-58.1.ebuild:
+  Disable layoutex engine, provided by dev-libs/icu-layoutex
+
+  Package-Manager: portage-2.3.2
+
+  06 Nov 2016; Lars Wendler <polynomial-c@gentoo.org> icu-58.1.ebuild:
+  don't automagically link against dev-libs/icu-le-hb.
+
+  There's dev-libs/icu-layoutex for this.
+
+  Package-Manager: portage-2.3.2
+
