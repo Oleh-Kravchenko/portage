@@ -588,3 +588,21 @@
 
   Package-Manager: portage-2.3.2
 
+*adobe-flash-24.0.0.145 (07 Nov 2016)
+
+  07 Nov 2016; Jeroen Roovers <jer@gentoo.org> +adobe-flash-24.0.0.145.ebuild,
+  metadata.xml:
+  Add NPAPI/PPAPI beta (bug #593650).
+
+  Package-Manager: portage-2.3.2
+
+  07 Nov 2016; Jeroen Roovers <jer@gentoo.org> adobe-flash-24.0.0.145.ebuild:
+  Replace one ugly hack with another.
+
+  Package-Manager: portage-2.3.2
+
+  07 Nov 2016; Jeroen Roovers <jer@gentoo.org> adobe-flash-24.0.0.145.ebuild:
+  SLOT=0 should be weakly blocked.
+
+  Package-Manager: portage-2.3.2
+

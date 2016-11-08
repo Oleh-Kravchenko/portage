@@ -167,3 +167,17 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  07 Nov 2016; David Seifert <soap@gentoo.org> hugin-2016.2.0.ebuild:
+  Let eclass delete superfluous modules
+
+  Gentoo-bug: 599108
+
+  Package-Manager: portage-2.3.2
+
+  07 Nov 2016; David Seifert <soap@gentoo.org> hugin-9999.ebuild:
+  Let eclass delete superfluous modules
+
+  Gentoo-bug: 599108
+
+  Package-Manager: portage-2.3.2
+

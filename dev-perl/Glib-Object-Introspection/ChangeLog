@@ -13,3 +13,11 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  07 Nov 2016; David Seifert <soap@gentoo.org>
+  Glib-Object-Introspection-0.40.0.ebuild:
+  fix sandbox issue (bug #599128)
+
+  Closes: https://github.com/gentoo/gentoo/pull/2770
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

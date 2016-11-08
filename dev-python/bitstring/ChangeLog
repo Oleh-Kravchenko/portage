@@ -96,3 +96,8 @@
 
   Package-Manager: portage-2.3.2
 
+  07 Nov 2016; Andrey Grozin <grozin@gentoo.org> -bitstring-3.1.1.ebuild:
+  cleaning 3.1.1 which was on googlecode
+
+  Package-Manager: portage-2.3.0
+

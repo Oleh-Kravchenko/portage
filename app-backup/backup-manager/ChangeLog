@@ -93,3 +93,15 @@
 
   The forced upgrade has been moved to @system now.
 
+*backup-manager-0.7.12 (07 Nov 2016)
+
+  07 Nov 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +backup-manager-0.7.12.ebuild,
+  files/backup-manager-0.7.9-parallel_install.patch:
+  version bump to 0.7.12, bug #597020
+
+  Simplify ebuild (should also fix #336428 again)
+  Doc requires a debian tool to build, so we do not ship it
+
+  Package-Manager: portage-2.3.2
+

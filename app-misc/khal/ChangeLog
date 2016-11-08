@@ -28,3 +28,8 @@
 
   Package-Manager: portage-2.3.0
 
+  06 Nov 2016; Amy Winston <amynka@gentoo.org> khal-0.8.3.ebuild:
+  fix python_compat
+
+  Package-Manager: portage-2.3.0
+

@@ -292,3 +292,10 @@
 
   Package-Manager: portage-2.3.0
 
+  07 Nov 2016; Agostino Sarubbo <ago@gentoo.org> guile-1.8.8-r3.ebuild:
+  amd64 stable wrt bug #596864
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
