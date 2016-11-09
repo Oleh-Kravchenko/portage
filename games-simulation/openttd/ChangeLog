@@ -154,3 +154,8 @@
 
   Package-Manager: portage-2.3.2
 
+  08 Nov 2016; Lars Wendler <polynomial-c@gentoo.org> openttd-1.6.1.ebuild:
+  Fixed dependency for >=icu-58.1
+
+  Package-Manager: portage-2.3.2
+
