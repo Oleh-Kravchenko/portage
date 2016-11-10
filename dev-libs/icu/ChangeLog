@@ -190,3 +190,8 @@
 
   Package-Manager: portage-2.3.2
 
+  09 Nov 2016; Lars Wendler <polynomial-c@gentoo.org> -icu-58.1.ebuild:
+  Removed broken version.
+
+  Package-Manager: portage-2.3.2
+
