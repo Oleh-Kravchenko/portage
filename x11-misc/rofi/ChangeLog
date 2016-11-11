@@ -176,3 +176,13 @@
 
   Package-Manager: portage-2.3.0
 
+  10 Nov 2016; Jeroen Roovers <jer@gentoo.org> -rofi-1.1.0.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.2
+
+  10 Nov 2016; Jeroen Roovers <jer@gentoo.org> metadata.xml:
+  Remove unused USE flag description.
+
+  Package-Manager: portage-2.3.2
+

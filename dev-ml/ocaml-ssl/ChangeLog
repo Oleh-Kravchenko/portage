@@ -73,3 +73,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*ocaml-ssl-0.5.3 (10 Nov 2016)
+
+  10 Nov 2016; Alexis Ballier <aballier@gentoo.org> +ocaml-ssl-0.5.3.ebuild:
+  bump to 0.5.3; switch to github
+
+  Package-Manager: portage-2.3.2
+

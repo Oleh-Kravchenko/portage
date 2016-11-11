@@ -98,3 +98,13 @@
   RepoMan-Options: --include-arches="ppc"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*scummvm-1.8.1-r1 (10 Nov 2016)
+
+  10 Nov 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +scummvm-1.8.1-r1.ebuild:
+  Use libsdl2 (bug #599394).
+
+  Bump to EAPI-6.
+
+  Package-Manager: portage-2.3.2
+

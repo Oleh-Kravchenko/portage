@@ -391,3 +391,23 @@
 
   Package-Manager: portage-2.3.0
 
+*spotify-1.0.42-r1 (10 Nov 2016)
+
+  10 Nov 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -spotify-1.0.42.ebuild, +spotify-1.0.42-r1.ebuild:
+  bup
+
+  Package-Manager: portage-2.3.0
+
+  10 Nov 2016; Matthew Thode <prometheanfire@gentoo.org>
+  spotify-1.0.42-r1.ebuild:
+  stable amd64 and x86 for disappearing src bug 598936
+
+  Package-Manager: portage-2.3.0
+
+  10 Nov 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -spotify-1.0.38.ebuild:
+  cleanup for disapearing stuff
+
+  Package-Manager: portage-2.3.0
+

@@ -63,3 +63,17 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Data-Dumper-Concise-2.22.0 (10 Nov 2016)
+
+  10 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +Data-Dumper-Concise-2.22.0.ebuild:
+  Bump to version 2.22.0
+
+  - EAPI6
+  - Parallel Testing
+
+  Upstream:
+  - Make Dwarn output all arguments even in scalar context
+
+  Package-Manager: portage-2.3.2
+

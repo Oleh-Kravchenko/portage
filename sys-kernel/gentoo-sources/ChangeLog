@@ -2350,3 +2350,11 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*gentoo-sources-4.8.7 (10 Nov 2016)
+
+  10 Nov 2016; Alice Ferrazzi <alicef@gentoo.org>
+  +gentoo-sources-4.8.7.ebuild:
+  Linux patch 4.8.7
+
+  Package-Manager: portage-2.3.2
+

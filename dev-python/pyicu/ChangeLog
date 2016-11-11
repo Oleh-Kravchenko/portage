@@ -50,3 +50,15 @@
   pyicu-1.9.3-r1.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+*pyicu-1.9.4 (10 Nov 2016)
+
+  10 Nov 2016; Marek Szuba <marecki@gentoo.org>
+  +files/pyicu-1.9.4-exclude_libicule.patch, +pyicu-1.9.4.ebuild:
+  version bump to 1.9.4.
+
+  Includes backported icu-58.1 support from master.
+
+  Gentoo-Bug: 599102
+
+  Package-Manager: portage-2.3.2
+

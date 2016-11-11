@@ -12,3 +12,9 @@
 
   Package-Manager: portage-2.3.0
 
+  10 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  DBIx-SearchBuilder-1.660.0.ebuild:
+  Remove POD Authortest
+
+  Package-Manager: portage-2.3.2
+

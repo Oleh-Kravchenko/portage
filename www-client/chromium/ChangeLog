@@ -1854,3 +1854,9 @@
 
   Package-Manager: portage-2.3.2_p5
 
+  09 Nov 2016; Mike Gilbert <floppym@gentoo.org> chromium-56.0.2906.0.ebuild:
+  depend on both gtk2 and gtk3 at build time
+
+  Bug: https://bugs.gentoo.org/599340
+  Package-Manager: portage-2.3.2_p5
+

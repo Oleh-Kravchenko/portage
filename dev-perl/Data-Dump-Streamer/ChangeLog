@@ -73,3 +73,15 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Data-Dump-Streamer-2.400.0 (10 Nov 2016)
+
+  10 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +Data-Dump-Streamer-2.400.0.ebuild:
+  Bump to version 2.400.0
+
+  Upstream:
+  - Fix JSON handling errors in padwalkerless environements
+  - Various perl portability fixes
+
+  Package-Manager: portage-2.3.2
+

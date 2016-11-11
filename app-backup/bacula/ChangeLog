@@ -211,3 +211,13 @@
   -files/5.0.3/bacula-5.0.3-openssl-1.patch:
   Drop old
 
+*bacula-7.4.4-r1 (10 Nov 2016)
+
+  10 Nov 2016; Thomas Beierlein <tomjbe@gentoo.org> +bacula-7.4.4-r1.ebuild,
+  +files/newscripts/bacula-dir.initd, +files/newscripts/bacula-fd.initd,
+  +files/newscripts/bacula-sd.initd:
+  Update init.d service scripts bug #595044
+  and fix slot operator for dev-db/postgresql bug #597666
+
+  Package-Manager: portage-2.3.2
+

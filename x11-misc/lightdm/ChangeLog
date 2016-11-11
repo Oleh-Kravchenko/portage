@@ -373,3 +373,9 @@
   Package-Manager: portage-2.3.2
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  10 Nov 2016; Markus Meier <maekke@gentoo.org> lightdm-1.16.7.ebuild:
+  arm stable, bug #578998
+
+  Package-Manager: portage-2.3.2
+  RepoMan-Options: --include-arches="arm"
+

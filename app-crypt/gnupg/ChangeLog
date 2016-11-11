@@ -512,3 +512,15 @@
 
   Package-Manager: portage-2.3.2
 
+  10 Nov 2016; Markus Meier <maekke@gentoo.org> gnupg-2.1.15.ebuild:
+  arm stable, bug #552936
+
+  Package-Manager: portage-2.3.2
+  RepoMan-Options: --include-arches="arm"
+
+  10 Nov 2016; Alon Bar-Lev <alonbl@gentoo.org> -gnupg-1.4.19.ebuild,
+  -gnupg-1.4.20.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.3.0
+

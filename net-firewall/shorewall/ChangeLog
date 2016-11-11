@@ -635,3 +635,11 @@
 
   Package-Manager: portage-2.3.2
 
+*shorewall-5.0.14.1 (10 Nov 2016)
+
+  10 Nov 2016; Thomas Deutschmann <whissi@gentoo.org>
+  -shorewall-5.0.14.ebuild, +shorewall-5.0.14.1.ebuild:
+  Bumped to v5.0.14.1
+
+  Package-Manager: portage-2.3.2
+

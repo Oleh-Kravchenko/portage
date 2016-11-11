@@ -28,3 +28,11 @@
 
   Package-Manager: portage-2.2.28
 
+  10 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  Data-Page-Pageset-1.20.0-r1.ebuild, metadata.xml:
+  Remove POD Author tests
+
+  Update metadata.xml while were here.
+
+  Package-Manager: portage-2.3.2
+

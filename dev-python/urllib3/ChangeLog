@@ -296,3 +296,10 @@
 
   Package-Manager: portage-2.3.0
 
+  10 Nov 2016; Manuel Rüger <mrueg@gentoo.org> urllib3-1.19.ebuild:
+  Add mock dependency on IUSE=doc
+
+  Gentoo-Bug: 599348
+
+  Package-Manager: portage-2.3.2
+

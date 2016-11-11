@@ -77,3 +77,11 @@
 
   Package-Manager: portage-2.2.28
 
+*udev-init-scripts-32 (10 Nov 2016)
+
+  10 Nov 2016; William Hubbs <williamh@gentoo.org>
+  +udev-init-scripts-32.ebuild:
+  bump for version 32
+
+  Package-Manager: portage-2.3.0
+

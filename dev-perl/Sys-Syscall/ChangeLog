@@ -63,3 +63,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Sys-Syscall-0.250.0-r2 (10 Nov 2016)
+
+  10 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  -Sys-Syscall-0.250.0-r1.ebuild, +Sys-Syscall-0.250.0-r2.ebuild,
+  +files/Sys-Syscall-0.25-INSTALL.SKIP:
+  Avoid installed README.pod to vendor/
+
+  Package-Manager: portage-2.3.2
+

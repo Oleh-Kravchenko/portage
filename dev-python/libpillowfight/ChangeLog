@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/libpillowfight
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*libpillowfight-0.2.1 (10 Nov 2016)
+
+  10 Nov 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +libpillowfight-0.2.1.ebuild, +metadata.xml:
+  initial commit
+
+  New dep for app-text/paperwork
+
+  Package-Manager: portage-2.3.2
+

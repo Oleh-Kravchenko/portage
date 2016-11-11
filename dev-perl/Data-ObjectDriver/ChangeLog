@@ -63,3 +63,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*Data-ObjectDriver-0.140.0 (10 Nov 2016)
+
+  10 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +Data-ObjectDriver-0.140.0.ebuild:
+  bump to 0.140.0
+
+  - EAPI6
+
+  Upstream:
+  - Fix broken tests
+  - Fallback driver now passed all args
+  - Remove a joined table from the "FROM" phase to avoid errors with
+    mysql.
+  - Fix broken statement handler at inserting new records
+  - Fixes for SQLite 3.10 compat
+
+  Package-Manager: portage-2.3.2
+

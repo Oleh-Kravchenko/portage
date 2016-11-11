@@ -93,3 +93,15 @@
 
   Package-Manager: portage-2.3.1
 
+*beignet-1.2.1 (10 Nov 2016)
+
+  10 Nov 2016; Marek Szuba <marecki@gentoo.org> +beignet-1.2.1.ebuild:
+  version bump to 1.2.1
+
+  Among other things, this version adds support for LLVM-3.9.
+
+  Provided-By: Russell Knighton <russell@annunaki2k2.co.uk>
+  Gentoo-Bug: 598236
+
+  Package-Manager: portage-2.3.2
+

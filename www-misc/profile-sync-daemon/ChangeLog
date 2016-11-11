@@ -66,3 +66,11 @@
 
   Bug: 575810
 
+*profile-sync-daemon-9999 (10 Nov 2016)
+*profile-sync-daemon-6.28 (10 Nov 2016)
+
+  10 Nov 2016; Göktürk Yüksek <gokturk@gentoo.org>
+  profile-sync-daemon-5.45.1.ebuild, +profile-sync-daemon-6.28.ebuild,
+  +profile-sync-daemon-9999.ebuild:
+  add 6.28 and 9999 version
+

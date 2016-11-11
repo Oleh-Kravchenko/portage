@@ -293,3 +293,6 @@
   libxml2-2.9.3.ebuild, libxml2-2.9.4.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  10 Nov 2016; Mike Frysinger <vapier@gentoo.org> libxml2-2.9.4.ebuild:
+  mark 2.9.4 arm64/ia64/m68k/s390/sh/sparc stable #584468
+

@@ -629,3 +629,15 @@
 
   Package-Manager: portage-2.3.2
 
+*tomcat-9.0.0_alpha13 (10 Nov 2016)
+*tomcat-8.5.8 (10 Nov 2016)
+
+  10 Nov 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  +files/tomcat-8.5.8-build.xml.patch,
+  -files/tomcat-9.0.0_alpha11-build.xml.patch,
+  +files/tomcat-9.0.0_alpha13-build.xml.patch, +tomcat-8.5.8.ebuild,
+  -tomcat-9.0.0_alpha11.ebuild, +tomcat-9.0.0_alpha13.ebuild:
+  version bump for version 8.5.x and slot 9
+
+  Package-Manager: portage-2.3.2
+

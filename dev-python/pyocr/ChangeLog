@@ -89,3 +89,9 @@
 
   Package-Manager: portage-2.3.2
 
+  10 Nov 2016; Bernard Cafarelli <voyageur@gentoo.org> -pyocr-0.2.4.ebuild,
+  -pyocr-0.3.0.ebuild, -pyocr-0.3.1.ebuild:
+  drop old versions
+
+  Package-Manager: portage-2.3.2
+

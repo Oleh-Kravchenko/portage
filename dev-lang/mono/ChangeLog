@@ -330,3 +330,10 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*mono-4.9.0.729 (10 Nov 2016)
+
+  10 Nov 2016; Mikhail Pukhlikov <cynede@gentoo.org> +mono-4.9.0.729.ebuild:
+  4.9 version
+
+  Package-Manager: portage-2.3.2
+

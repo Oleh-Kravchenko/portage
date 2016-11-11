@@ -1,0 +1,12 @@
+# ChangeLog for sys-apps/opentmpfiles
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*opentmpfiles-9999 (10 Nov 2016)
+
+  10 Nov 2016; William Hubbs <williamh@gentoo.org> +metadata.xml,
+  +opentmpfiles-9999.ebuild:
+  rename sys-apps/tmpfiles to this package
+
+  Package-Manager: portage-2.3.0
+

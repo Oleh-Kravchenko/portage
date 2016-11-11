@@ -65,3 +65,20 @@
   01 Nov 2016; Michał Górny <mgorny@gentoo.org> pyinsane-1.3.8.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+*pyinsane-2.0.3 (10 Nov 2016)
+*pyinsane-1.4.0 (10 Nov 2016)
+
+  10 Nov 2016; Bernard Cafarelli <voyageur@gentoo.org> -pyinsane-1.3.8.ebuild,
+  +pyinsane-1.4.0.ebuild, +pyinsane-2.0.3.ebuild:
+  version bumps to 1.4.0 and 2.0.3
+
+  Introduce slotted versions (2.0.x install pyinsane2)
+
+  Package-Manager: portage-2.3.2
+
+  10 Nov 2016; Bernard Cafarelli <voyageur@gentoo.org> pyinsane-1.4.0.ebuild,
+  pyinsane-2.0.3.ebuild:
+  more explicit pillow dep
+
+  Package-Manager: portage-2.3.2
+

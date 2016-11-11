@@ -32,3 +32,11 @@
 
   Package-Manager: portage-2.3.2
 
+*ocaml-containers-0.21 (10 Nov 2016)
+
+  10 Nov 2016; Alexis Ballier <aballier@gentoo.org>
+  +ocaml-containers-0.21.ebuild:
+  bump to 0.21
+
+  Package-Manager: portage-2.3.2
+

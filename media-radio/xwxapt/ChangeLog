@@ -78,3 +78,8 @@
 
   Package-Manager: portage-2.3.1
 
+  10 Nov 2016; Thomas Beierlein <tomjbe@gentoo.org> xwxapt-2.7.ebuild:
+  add missing dependency bug #597898
+
+  Package-Manager: portage-2.3.2
+

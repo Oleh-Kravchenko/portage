@@ -107,3 +107,13 @@
 
   Package-Manager: portage-2.3.0
 
+*Test-MockObject-1.201.505.270-r1 (10 Nov 2016)
+
+  10 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  -Test-MockObject-1.201.505.270.ebuild,
+  +Test-MockObject-1.201.505.270-r1.ebuild,
+  +files/Test-MockObject-1.20150527-INSTALL.SKIP:
+  Remove README.pod from vendor/
+
+  Package-Manager: portage-2.3.2
+

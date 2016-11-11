@@ -95,3 +95,28 @@
 
   Package-Manager: portage-2.2.28
 
+  10 Nov 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  -paperwork-0.2.5.ebuild:
+  drop old version
+
+  Package-Manager: portage-2.3.2
+
+*paperwork-0.3.2-r1 (10 Nov 2016)
+
+  10 Nov 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  -paperwork-0.3.0.1.ebuild, -paperwork-0.3.2.ebuild,
+  +paperwork-0.3.2-r1.ebuild:
+  update pyinsane dep to slotted version
+
+  Package-Manager: portage-2.3.2
+
+*paperwork-1.0.1 (10 Nov 2016)
+
+  10 Nov 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +paperwork-1.0.1.ebuild:
+  version bump to 1.0.1
+
+  Lots of internal and dependencies changes in this version
+
+  Package-Manager: portage-2.3.2
+
