@@ -337,3 +337,17 @@
 
   Package-Manager: portage-2.3.1
 
+  10 Nov 2016; Mike Frysinger <vapier@gentoo.org> mit-krb5-1.14.2.ebuild,
+  mit-krb5-1.14.3.ebuild, mit-krb5-1.14.4.ebuild:
+  drop old com_err include
+
+  Starting with the 1.42 e2fsprogs releases, com_err.h has been symlinked
+  into /usr/include directly.  That means we no longer need to set the -I
+  path by hand to get it.
+
+  10 Nov 2016; Mike Frysinger <vapier@gentoo.org> mit-krb5-1.14.4.ebuild:
+  delete local lib code to guarantee system usage
+
+  These libs are already pulled from the system, but delete the source
+  just to guarantee we don't accidentally regress in the future.
+

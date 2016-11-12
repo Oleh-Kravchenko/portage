@@ -1975,3 +1975,36 @@
   Package-Manager: portage-2.3.2
   RepoMan-Options: --include-arches="arm"
 
+*php-7.0.13 (10 Nov 2016)
+
+  10 Nov 2016; Michael Orlitzky <mjo@gentoo.org> -php-7.0.12.ebuild,
+  +php-7.0.13.ebuild:
+  new version 7.0.13 replacing 7.0.12 to fix security issues.
+
+  Gentoo-Bug: 599326
+
+  Package-Manager: portage-2.3.0
+
+*php-5.6.28 (10 Nov 2016)
+
+  10 Nov 2016; Michael Orlitzky <mjo@gentoo.org> +php-5.6.28.ebuild:
+  new version 5.6.28 to fix security issues.
+
+  Gentoo-Bug: 599326
+
+  Package-Manager: portage-2.3.0
+
+  11 Nov 2016; Agostino Sarubbo <ago@gentoo.org> php-5.6.28.ebuild:
+  amd64 stable wrt bug #599326
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  11 Nov 2016; Agostino Sarubbo <ago@gentoo.org> php-5.6.28.ebuild:
+  x86 stable wrt bug #599326
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

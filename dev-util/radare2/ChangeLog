@@ -135,3 +135,19 @@
 
   Package-Manager: portage-2.3.1
 
+*radare2-1.0.2 (10 Nov 2016)
+
+  10 Nov 2016; Sergei Trofimovich <slyfox@gentoo.org> +radare2-1.0.2.ebuild:
+  bump up to 1.0.2, bug #599418
+
+  Reported-by: merlin@hspaz.org
+  Bug: https://bugs.gentoo.org/599418
+
+  Package-Manager: portage-2.3.2
+
+  10 Nov 2016; Sergei Trofimovich <slyfox@gentoo.org> -radare2-0.10.3.ebuild,
+  -radare2-0.10.4.ebuild, -radare2-0.10.5.ebuild:
+  drop old
+
+  Package-Manager: portage-2.3.2
+

@@ -81,3 +81,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*runit-2.1.2-r1 (10 Nov 2016)
+
+  10 Nov 2016; William Hubbs <williamh@gentoo.org> +files/1-2.1.2,
+  files/2-2.1.2, files/3-2.1.2, files/run.getty-2.1.2, +runit-2.1.2-r1.ebuild:
+  2.1.2-r1 revision bump
+
+  This fixes the following issues:
+
+  https://bugs.gentoo.org/show_bug.cgi?id=562702
+  https://bugs.gentoo.org/show_bug.cgi?id=575478
+  https://bugs.gentoo.org/show_bug.cgi?id=588950
+  https://bugs.gentoo.org/show_bug.cgi?id=589532
+
+  Package-Manager: portage-2.3.0
+
+  11 Nov 2016; William Hubbs <williamh@gentoo.org> runit-2.1.2-r1.ebuild:
+  Complete migrating 2.1.2-r1 to EAPI 6
+
+  Package-Manager: portage-2.3.0
+

@@ -153,3 +153,17 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+*gnome-session-3.22.1 (11 Nov 2016)
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-session-3.22.1.ebuild:
+  version bump 3.20.2 → 3.22.1
+
+  Package-Manager: portage-2.3.2
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  -gnome-session-3.18.1.2.ebuild, -gnome-session-3.20.1.ebuild:
+  cleanup old revisions
+
+  Package-Manager: portage-2.3.2
+

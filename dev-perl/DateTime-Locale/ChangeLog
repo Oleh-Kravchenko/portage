@@ -93,3 +93,59 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*DateTime-Locale-1.30.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +DateTime-Locale-1.30.0.ebuild, metadata.xml:
+  Bump to 1.30.0
+
+  This is the lowest version we can bump to without needing to bump
+  virtual/perl-Scalar-List-Utils to something that would need perl-5.26
+  or perl-core/
+
+  - Added USE=Examples
+
+  Upstream:
+  - Rebuilt with CLDR/2016-03-19
+  - new locales: es_BR, pt_CH, pt_GQ, pt_LU, yue, yue_HK
+
+  Package-Manager: portage-2.3.2
+
+*DateTime-Locale-1.50.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +DateTime-Locale-1.50.0.ebuild:
+  Bump to 1.50.0
+
+  This version requires a newer Scalar-List-Util
+
+  Upstream:
+  - Replace List::MoreUtils with newer List::Util
+  - Improve stability of loading Locale::Data from DATA handle by
+    pre-caching all the raw data, at a cost of increased memory
+    usage.
+
+  Package-Manager: portage-2.3.2
+
+*DateTime-Locale-1.100.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +DateTime-Locale-1.100.0.ebuild:
+  Bump to 1.100.0 (masked)
+
+  Requires new virtual/perl-Test-Simple (via Params-ValidationCompiler)
+
+  Keywords:
+  - Dropped basically all keywords bar ~x86 and ~amd64 to due lots of
+   brand new dependencies.
+  - Dropping: ~alpha ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh
+    ~sparc ~x86-fbsd
+
+  Upstream:
+  - Replace Params::Validate with Params::ValidationCompiler
+  - use namespace::autoclean
+  - Rebuild locale data with CLDR 30/2016-10-05
+  - New Locales: de_IT, nds, nds_DE, nds_NL
+
+  Package-Manager: portage-2.3.2
+

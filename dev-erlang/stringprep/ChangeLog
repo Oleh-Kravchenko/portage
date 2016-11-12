@@ -42,3 +42,11 @@
 
   Package-Manager: portage-2.3.0
 
+*stringprep-1.0.6 (11 Nov 2016)
+
+  11 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +stringprep-1.0.6.ebuild:
+  Bump version to 1.0.6
+
+  Package-Manager: portage-2.3.2
+

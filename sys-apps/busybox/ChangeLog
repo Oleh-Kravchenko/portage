@@ -276,3 +276,11 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*busybox-1.25.1 (11 Nov 2016)
+
+  11 Nov 2016; Anthony G. Basile <blueness@gentoo.org> +busybox-1.25.1.ebuild,
+  busybox-9999.ebuild:
+  version bump to 1.25.1, bug #598784
+
+  Package-Manager: portage-2.3.0
+

@@ -32,3 +32,10 @@
 
   Package-Manager: portage-2.2.28
 
+*meck-0.8.4 (11 Nov 2016)
+
+  11 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +meck-0.8.4.ebuild:
+  Bump version to 0.8.4
+
+  Package-Manager: portage-2.3.2
+

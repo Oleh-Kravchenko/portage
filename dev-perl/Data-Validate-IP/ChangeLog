@@ -75,3 +75,23 @@
 
   Package-Manager: portage-2.2.28
 
+*Data-Validate-IP-0.260.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +Data-Validate-IP-0.260.0.ebuild, metadata.xml:
+  Bump to version 0.260.0
+
+  - EAPI6
+  - Added USE="examples"
+  - Enable Parallel testing
+
+  Upstream:
+  - No longer deems invalid IPv6 strings like ::0000000 to be valid.
+  - Added is_ip, is_public_ip, is_private_ip, is_linklocal_ip,
+    is_loopback_ip and is_multicast_ip functions which are IP address
+    family agnostic.
+  - No longer returns an empty list in scalar context when validation
+    fails
+
+  Package-Manager: portage-2.3.2
+

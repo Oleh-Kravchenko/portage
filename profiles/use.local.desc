@@ -3252,6 +3252,8 @@ kde-apps/ktp-common-internals:otr - Enable support for encrypted conversations u
 kde-apps/ktp-common-internals:sso - Enable support for Single sign-on through KAccounts
 kde-apps/ktp-text-ui:speech - Enable incoming messages to be read out using text-to-speech
 kde-apps/kwalletd:gpg - Support wallets with GnuPG encryption additionally to default blowfish-encrypted file
+kde-apps/kwave:opus - Enable Opus audio codec support
+kde-apps/kwave:qtmedia - Enable playback via Qt5Multimedia
 kde-apps/libkdepim:designer - Build plugins for dev-qt/designer
 kde-apps/mailcommon:designer - Build plugins for dev-qt/designer
 kde-apps/marble:aprs - Enable support for APRS data sources
@@ -3993,6 +3995,7 @@ media-libs/mesa:gbm - Enable the Graphics Buffer Manager for EGL on KMS.
 media-libs/mesa:gcrypt - Use dev-libs/libgcrypt for low level sha1 utility functions.
 media-libs/mesa:gles1 - Enable GLESv1 support.
 media-libs/mesa:gles2 - Enable GLESv2 support.
+media-libs/mesa:libressl - Use dev-libs/libressl for low level sha1 utility functions.
 media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
 media-libs/mesa:nettle - Use dev-libs/nettle for low level sha1 utility functions.
 media-libs/mesa:opencl - Enable the Clover Gallium OpenCL state tracker.
@@ -4343,8 +4346,6 @@ media-sound/jalv:gtkmm - Adds support for dev-cpp/gtkmm: C++ interface for GTK+2
 media-sound/kid3:acoustid - Enable support for acoustic fingerprinting plugin using (media-libs/chromaprint)
 media-sound/kid3:phonon - Enable sound support via media-libs/phonon or dev-qt/qtphonon
 media-sound/klick:rubberband - Enable rubberband support
-media-sound/kwave:opus - Enable Opus audio codec support
-media-sound/kwave:qtmedia - Enable playback via Qt5Multimedia
 media-sound/lame:frontend - Build and install the 'lame' executable frontend to lame libraries.
 media-sound/lame:mp3rtp - Build the mp3-to-RTP streaming utility. **UNSUPPORTED**
 media-sound/linuxsampler:lv2 - Add support for Ladspa V2
@@ -8470,6 +8471,7 @@ x11-wm/i3:pango - Use x11-libs/pango to render text in order to support fonts wh
 x11-wm/marco:gtk3 - Build with GTK+3 instead of GTK+2
 x11-wm/musca:apis - Optionally install the experimental `apis' window manager
 x11-wm/musca:xlisten - Optionally install the xlisten utility
+x11-wm/mutter:gles2 - Enable OpenGL ES 2.0 support
 x11-wm/mutter:kms - Enable KMS support.
 x11-wm/notion:xrandr - Add support for xrandr
 x11-wm/openbox:session - Enables support for session managers

@@ -503,3 +503,11 @@
 
   Package-Manager: portage-2.3.2
 
+*xf86-video-intel-2.99.917_p20161110 (11 Nov 2016)
+
+  11 Nov 2016; Manuel Rüger <mrueg@gentoo.org>
+  +xf86-video-intel-2.99.917_p20161110.ebuild:
+  Update snapshot
+
+  Package-Manager: portage-2.3.0
+

@@ -74,3 +74,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*snes9x-1.54.1 (11 Nov 2016)
+
+  11 Nov 2016; Lars Wendler <polynomial-c@gentoo.org>
+  +files/snes9x-1.54.1-build.patch, +files/snes9x-1.54.1-system-zlib.patch,
+  +snes9x-1.54.1.ebuild:
+  Bump to version 1.54.1
+
+  Package-Manager: portage-2.3.2
+
+  11 Nov 2016; Lars Wendler <polynomial-c@gentoo.org>
+  files/snes9x-1.54.1-system-zlib.patch:
+  Minor fixes in the system-zlib patch.
+
+  Package-Manager: portage-2.3.2
+

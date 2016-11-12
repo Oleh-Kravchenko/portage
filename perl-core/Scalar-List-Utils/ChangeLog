@@ -1,0 +1,16 @@
+# ChangeLog for perl-core/Scalar-List-Utils
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*Scalar-List-Utils-1.460.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +Scalar-List-Utils-1.460.0.ebuild, +metadata.xml:
+  Add 1.460.0
+
+  Various things on CPAN now need newer Scalar::List::Utils.
+
+  Keywords copied from virtual/perl-Scalar-List-Utils
+
+  Package-Manager: portage-2.3.2
+

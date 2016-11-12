@@ -243,3 +243,8 @@
   Upstream doesn't expect mount-eeze to ever be disabled,
   so drop the option to allow it to be.
 
+  10 Nov 2016; Mike Gilbert <floppym@gentoo.org> metadata.xml:
+  drop description for 'udev'
+
+  Package-Manager: portage-2.3.2_p5
+

@@ -114,3 +114,10 @@
 
   Package-Manager: portage-2.3.2
 
+*hunspell-1.4.2 (11 Nov 2016)
+
+  11 Nov 2016; Lars Wendler <polynomial-c@gentoo.org> +hunspell-1.4.2.ebuild:
+  Bump to version 1.4.2
+
+  Package-Manager: portage-2.3.2
+

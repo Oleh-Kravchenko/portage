@@ -41,3 +41,10 @@
 
   Package-Manager: portage-2.3.0
 
+*fast_tls-1.0.7 (11 Nov 2016)
+
+  11 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +fast_tls-1.0.7.ebuild:
+  Bump version to 1.0.7
+
+  Package-Manager: portage-2.3.0
+

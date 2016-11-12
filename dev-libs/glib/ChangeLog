@@ -503,3 +503,24 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*glib-2.50.2 (11 Nov 2016)
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> +glib-2.50.2.ebuild:
+  add glib-2.50.2.ebuild
+
+  Simple bump, as no relevant changes (glib_interface_age increased, so no
+  interface change)
+
+  https://git.gnome.org/browse/glib/diff/?id=2.50.2&&id2=2.50.1
+  https://git.gnome.org/browse/glib/diff/configure.ac?id=2.50.2&id2=2.50.1
+  Closes: https://github.com/gentoo/gentoo/pull/2788
+
+  Signed-off-by: Gilles Dartiguelongue <eva@gentoo.org>
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  -files/glib-2.34.0-testsuite-skip-thread4.patch, glib-2.44.1-r1.ebuild,
+  -glib-2.48.1-r1.ebuild:
+  cleanup old revisions
+
+  Package-Manager: portage-2.3.2
+

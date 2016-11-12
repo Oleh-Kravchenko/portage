@@ -82,3 +82,16 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*frotz-2.43-r1 (11 Nov 2016)
+
+  11 Nov 2016; Austin English <wizardedit@gentoo.org>
+  files/frotz-2.43-glibc2.10.patch, files/frotz-2.43-ldflags.patch,
+  +frotz-2.43-r1.ebuild:
+  remove deprecated games eclass
+
+  Also update to EAPI 6
+
+  Gentoo-Bug: https://bugs.gentoo.org/574082
+
+  Package-Manager: portage-2.3.2
+

@@ -1051,3 +1051,6 @@
   llvm-3.8.1-r2.ebuild, llvm-3.9.0-r1.ebuild, llvm-9999.ebuild:
   Add missing licenses, #598106
 
+  11 Nov 2016; Michał Górny <mgorny@gentoo.org> llvm-9999.ebuild:
+  Enable RISCV target on -9999
+

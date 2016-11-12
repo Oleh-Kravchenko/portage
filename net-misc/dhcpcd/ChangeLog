@@ -314,3 +314,11 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Nov 2016; William Hubbs <williamh@gentoo.org> dhcpcd-9999.ebuild:
+  copy files to new locations for dhcpcd-7 for #599396
+
+  Note from WilliamH:
+  The original patch was modified to use "${EROOT%/}"/ instead of "${ROOT}"/.
+
+  Package-Manager: portage-2.3.0
+

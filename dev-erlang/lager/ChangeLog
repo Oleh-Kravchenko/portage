@@ -49,3 +49,25 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  -files/0001-Support-typed-records-newly-exposed-in-OTP-19.patch,
+  -files/0002-Fix-get_env-bug.patch, -files/0003-Add-get_env-unit-test.patch,
+  -files/0004-Undo-unnecessary-whitespace.patch,
+  -files/0005-R15-does-not-appear-to-properly-handle-the-export.patch,
+  +files/3.2.0-0001-Support-typed-records-newly-exposed-in-OTP-19.patch,
+  +files/3.2.0-0002-Fix-get_env-bug.patch,
+  +files/3.2.0-0003-Add-get_env-unit-test.patch,
+  +files/3.2.0-0004-Undo-unnecessary-whitespace.patch,
+  +files/3.2.0-0005-R15-does-not-appear-to-properly-handle-the-export.patch,
+  lager-3.2.0.ebuild:
+  Prefix patches file names with package version
+
+  Package-Manager: portage-2.3.2
+
+*lager-3.2.2 (11 Nov 2016)
+
+  11 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +lager-3.2.2.ebuild:
+  Bump version to 3.2.2
+
+  Package-Manager: portage-2.3.2
+

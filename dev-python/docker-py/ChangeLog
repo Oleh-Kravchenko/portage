@@ -251,3 +251,10 @@
   docker-py-1.10.4.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+*docker-py-1.10.6 (11 Nov 2016)
+
+  11 Nov 2016; Manuel Rüger <mrueg@gentoo.org> +docker-py-1.10.6.ebuild:
+  Version bump to 1.10.6
+
+  Package-Manager: portage-2.3.0
+

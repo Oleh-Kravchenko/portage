@@ -164,3 +164,17 @@
 
   Package-Manager: portage-2.3.1
 
+*gnome-sudoku-3.22.2 (11 Nov 2016)
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-sudoku-3.22.2.ebuild:
+  add gnome-sudoku-3.22.2.ebuild
+
+  From, 3.22.0, dropped intltool and added gettext version
+
+  https://git.gnome.org/browse/gnome-
+  sudoku/diff/configure.ac?id=3.22.2&id2=3.22.0
+  Closes: https://github.com/gentoo/gentoo/pull/2792
+
+  Signed-off-by: Gilles Dartiguelongue <eva@gentoo.org>
+

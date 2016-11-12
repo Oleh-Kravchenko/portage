@@ -153,3 +153,16 @@
 
   Package-Manager: portage-2.3.2
 
+*gnome-desktop-3.22.2 (11 Nov 2016)
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-desktop-3.22.2.ebuild:
+  add gnome-desktop-3.22.2.ebuild
+
+  Simple bump, no relevant changes as per
+
+  https://git.gnome.org/browse/gnome-desktop/diff/?id=3.22.2&&id2=3.22.1
+  Closes: https://github.com/gentoo/gentoo/pull/2788
+
+  Signed-off-by: Gilles Dartiguelongue <eva@gentoo.org>
+

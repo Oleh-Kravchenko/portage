@@ -40,3 +40,11 @@
 
   Package-Manager: portage-2.3.0
 
+*riak_pb-2.2.0.0 (11 Nov 2016)
+
+  11 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +riak_pb-2.2.0.0.ebuild:
+  Bump version to 2.2.0.0
+
+  Package-Manager: portage-2.3.2
+

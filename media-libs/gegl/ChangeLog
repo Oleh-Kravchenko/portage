@@ -189,3 +189,10 @@
   Package-Manager: portage-2.3.1
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*gegl-0.3.10 (10 Nov 2016)
+
+  10 Nov 2016; Sebastian Pipping <sping@gentoo.org> +gegl-0.3.10.ebuild:
+  0.3.10
+
+  Package-Manager: portage-2.3.2
+

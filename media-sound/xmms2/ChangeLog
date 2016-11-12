@@ -163,3 +163,20 @@
   xmms2-0.8-r4.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  11 Nov 2016; Sergei Trofimovich <slyfox@gentoo.org> xmms2-0.8-r4.ebuild:
+  drop broken python3.5 support, bug #599426
+
+  This fails:
+      PYTHON_SINGLE_TARGET="python3_5" PYTHON_TARGETS="python3_5" emerge -v1
+  xmms2
+  This works:
+      PYTHON_SINGLE_TARGET="python3_4" PYTHON_TARGETS="python3_4" emerge -v1
+  xmms2
+      PYTHON_SINGLE_TARGET="python2_7" PYTHON_TARGETS="python2_7" emerge -v1
+  xmms2
+
+  Reported-by: Petross404(Petros S)
+  Bug: https://bugs.gentoo.org/599426
+
+  Package-Manager: portage-2.3.2
+

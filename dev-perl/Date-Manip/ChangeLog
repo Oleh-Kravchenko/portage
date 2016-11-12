@@ -42,3 +42,21 @@
 
   Package-Manager: portage-2.3.2
 
+*Date-Manip-6.560.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org> +Date-Manip-6.560.0.ebuild,
+  +files/Date-Manip-6.56-dirname-version.patch:
+  Bump to version 6.560.0
+
+  Upstream:
+  - Fix bug where $::TZ was unused
+  - Fixed bug in parsing recurrences
+  - Methods that return derived objects now more-correctly use existing
+    object.
+  - Updated tzdata
+  - 5.xx tests disabled by default
+  - Fixed bug in parsing TZ abbreviations
+  - Fixed bug in Date::Manip::Delta::cmp
+
+  Package-Manager: portage-2.3.2
+

@@ -1158,3 +1158,17 @@
 
   Package-Manager: portage-2.3.2
 
+*youtube-dl-2016.11.08.1-r1 (11 Nov 2016)
+
+  11 Nov 2016; Jeroen Roovers <jer@gentoo.org>
+  +youtube-dl-2016.11.08.1-r1.ebuild:
+  Fix USE=-offensive (bug #599428 by Coacher).
+
+  Package-Manager: portage-2.3.2
+
+  11 Nov 2016; Jeroen Roovers <jer@gentoo.org>
+  -youtube-dl-2016.11.08.1.ebuild:
+  Old.
+
+  Package-Manager: portage-2.3.2
+

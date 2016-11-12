@@ -168,3 +168,7 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  11 Nov 2016; Mike Frysinger <vapier@gentoo.org>
+  +files/rp-pppoe-3.12-linux-headers.patch, rp-pppoe-3.12.ebuild:
+  fix build w/linux-headers-4.8+
+

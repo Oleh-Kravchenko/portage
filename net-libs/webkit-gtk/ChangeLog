@@ -469,3 +469,15 @@
 
   Package-Manager: portage-2.3.2
 
+*webkit-gtk-2.14.2 (11 Nov 2016)
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +webkit-gtk-2.14.2.ebuild:
+  add webkit-gtk-2.14.2.ebuild
+
+  Simple bump from 2.14.1, no relevant changes when comparing 2.14.2 and
+  2.14.1 tarballs
+  Closes: https://github.com/gentoo/gentoo/pull/2788
+
+  Signed-off-by: Gilles Dartiguelongue <eva@gentoo.org>
+

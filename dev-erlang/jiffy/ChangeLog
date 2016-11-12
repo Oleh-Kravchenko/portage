@@ -32,3 +32,10 @@
 
   Package-Manager: portage-2.2.28
 
+*jiffy-0.14.8 (11 Nov 2016)
+
+  11 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +jiffy-0.14.8.ebuild:
+  Bump version to 0.14.8
+
+  Package-Manager: portage-2.3.2
+

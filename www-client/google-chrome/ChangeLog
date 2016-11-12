@@ -497,3 +497,11 @@
 
   Package-Manager: portage-2.3.2_p1
 
+*google-chrome-54.0.2840.100 (11 Nov 2016)
+
+  11 Nov 2016; Mike Gilbert <floppym@gentoo.org>
+  -google-chrome-54.0.2840.90.ebuild, +google-chrome-54.0.2840.100.ebuild:
+  automated update
+
+  Package-Manager: portage-2.3.2_p5
+

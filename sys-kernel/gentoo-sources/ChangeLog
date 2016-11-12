@@ -2358,3 +2358,25 @@
 
   Package-Manager: portage-2.3.2
 
+*gentoo-sources-4.4.31 (10 Nov 2016)
+
+  10 Nov 2016; Alice Ferrazzi <alicef@gentoo.org>
+  +gentoo-sources-4.4.31.ebuild:
+  Linux patch 4.4.31
+
+  Package-Manager: portage-2.3.2
+
+*gentoo-sources-3.12.67 (11 Nov 2016)
+
+  11 Nov 2016; Mike Pagano <mpagano@gentoo.org>
+  +gentoo-sources-3.12.67.ebuild:
+  Linux patch 3.12.67
+
+  Package-Manager: portage-2.3.0
+
+  11 Nov 2016; Mike Pagano <mpagano@gentoo.org> -gentoo-sources-4.7.9.ebuild,
+  -gentoo-sources-4.7.10.ebuild:
+  Remove old, vulnerable kernels that are EOL'd upstream.
+
+  Package-Manager: portage-2.3.0
+

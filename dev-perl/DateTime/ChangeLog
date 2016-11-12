@@ -152,3 +152,47 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*DateTime-1.280.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org> +DateTime-1.280.0.ebuild,
+  metadata.xml:
+  Bump to 1.280.0
+
+  This is the last version we can bump to without needing to warp to
+  Test2 infrastructure.
+
+  Upstream:
+  - Fix problems with floating point epoch handling
+  - Added support for PERL_DATETIME_DEFAULT_TZ ENV flag
+  - Migrated to EUMM
+  - DateTime->from_object(DateTime::Infinite) now returns
+    DateTime::Infinite
+  - DateTime::Infinite returns system representation of positive/
+    negative infinity for methods like year(), month(), etc.
+  - Support negative and scientific-notation values for from_epoch
+
+  Package-Manager: portage-2.3.2
+
+*DateTime-1.360.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org> +DateTime-1.360.0.ebuild:
+  Bump to 1.360.0
+
+  1.280.0 was actually the last version that can be bumped without
+  bumping Scalar-List-Utils
+
+  1.360.0 requires bumping Scalar-List-Utils, but not Test-Simple.
+
+  Keywording:
+  - 2 new dependencies, namespace-autoclean and Specio
+  - Keywords dropped: ~alpha ~arm ~arm64 ~hppa ~ia64 ~m68k ~ppc
+      ~ppc64 ~s390 ~sh ~sparc ~x86-fbsd
+
+  Upstream:
+  - Passing a locale to $dt->set now gives warnings indicating
+    $dt->set_locale should be used
+  - Added future leapsecond for Dec 31-2016
+  - cleanup imported methods with namespace::autoclean
+
+  Package-Manager: portage-2.3.2
+

@@ -1,0 +1,16 @@
+# ChangeLog for dev-perl/Test2-Plugin-NoWarnings
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*Test2-Plugin-NoWarnings-0.50.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +Test2-Plugin-NoWarnings-0.50.0.ebuild, +metadata.xml:
+  Added to tree at 0.50.0 (masked)
+
+  Needed for deep dependencies of new DateTime versions.
+
+  P.Masked due to Test2 Rollout freeze
+
+  Package-Manager: portage-2.3.2
+

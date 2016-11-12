@@ -97,3 +97,25 @@
 
   Package-Manager: portage-2.2.28
 
+*Data-Validate-Domain-0.140.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +Data-Validate-Domain-0.140.0.ebuild, metadata.xml:
+  Bump to 0.140.0 ( Masked )
+
+  0.140.0 Requires a newer Test-Simple which is currently masked for
+  rollout purposes
+
+  - EAPI6
+
+  Upstream:
+  - Accept absolute DNS names like "example.com." for domains and hosts
+  - Added option domain_disable_tld_validation to permit "too new" TLD's
+    to exist.
+  - Require newer Net::Domain::TLD to maximise TLD coverage
+
+  Keywording:
+  - dropped ~hppa due to new dependency Test2-Suite
+
+  Package-Manager: portage-2.3.2
+

@@ -96,3 +96,29 @@
   RepoMan-Options: --include-arches="alpha amd64 amd64-fbsd arm arm64 hppa
   ia64 m68k mips nios2 ppc ppc64 riscv s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
+*Test-Simple-1.302.62 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org> +Test-Simple-1.302.62.ebuild:
+  Bump to 1.302.62
+
+  Upstream:
+  - fix setting "hub" while getting context
+  - fix "skip_all" in require in intercept
+  - make ctx->send_event detect termination events
+  - allow "#" and "\n" in "ok" names
+  - fix "ok" ending in '\'
+  - Win32 Color support in Test::Builder::Tester
+  - v-strings comparison supported in is_deeply
+  - streamed subtests in buffered subtests are now buffered subtests.
+  - Mask warning comparing with $@ in Test2::API::Context
+  - Formatters now have terminate() and finalize() methods
+  - Removed warning when using a non-TAP formatter under
+    Test::Builder
+
+  Package-Manager: portage-2.3.2
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org> -Test-Simple-1.302.49.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.3.2
+

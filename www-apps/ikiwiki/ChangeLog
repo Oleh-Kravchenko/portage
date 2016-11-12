@@ -90,3 +90,16 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  11 Nov 2016; Alice Ferrazzi <alicef@gentoo.org> -ikiwiki-3.20140227.ebuild,
+  -ikiwiki-3.20140916.ebuild, -ikiwiki-3.20150107.ebuild:
+  remove <3.20160905
+  Closing vulnerability bugs.
+  Gentoo-bug: 582528, 545040
+
+  Package-Manager: portage-2.3.0
+
+  11 Nov 2016; Alice Ferrazzi <alicef@gentoo.org> ikiwiki-3.20160905.ebuild:
+  add ~x86
+
+  Package-Manager: portage-2.3.0
+

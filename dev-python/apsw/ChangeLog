@@ -141,3 +141,8 @@
   apsw-3.13.0_p1.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+*apsw-3.15.0_p1 (10 Nov 2016)
+
+  10 Nov 2016; Tim Harder <radhermit@gentoo.org> +apsw-3.15.0_p1.ebuild:
+  version bump to 3.15.0_p1
+

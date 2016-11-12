@@ -93,3 +93,11 @@
 
   Package-Manager: portage-2.3.0
 
+*libical-2.0.0-r2 (11 Nov 2016)
+
+  11 Nov 2016; Lars Wendler <polynomial-c@gentoo.org>
+  -libical-2.0.0-r1.ebuild, +libical-2.0.0-r2.ebuild:
+  Revbump to add dev-libs/icu to RDEPEND (bug #599246).
+
+  Package-Manager: portage-2.3.2
+

@@ -589,3 +589,11 @@
 
   Package-Manager: portage-2.3.2
 
+*xen-tools-4.7.1 (11 Nov 2016)
+
+  11 Nov 2016; Yixun Lan <dlan@gentoo.org> files/gentoo-patches.conf,
+  +xen-tools-4.7.1.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.2
+

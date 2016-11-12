@@ -248,3 +248,17 @@
 
   Package-Manager: portage-2.3.2
 
+*gdbus-codegen-2.50.2 (11 Nov 2016)
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gdbus-codegen-2.50.2.ebuild:
+  version bump 2.50.1 → 2.50.2
+
+  Package-Manager: portage-2.3.2
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  -gdbus-codegen-2.48.0.ebuild, -gdbus-codegen-2.48.1.ebuild:
+  cleanup old revisions
+
+  Package-Manager: portage-2.3.2
+

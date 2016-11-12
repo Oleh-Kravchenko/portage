@@ -205,3 +205,10 @@
   flake8-3.0.4-r2.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  11 Nov 2016; Mike Gilbert <floppym@gentoo.org> flake8-3.0.4-r2.ebuild:
+  fix pycodestyle dependency
+
+  Bug: https://bugs.gentoo.org/599500
+
+  Package-Manager: portage-2.3.2_p5
+

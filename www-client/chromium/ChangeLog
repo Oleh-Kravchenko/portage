@@ -1860,3 +1860,11 @@
   Bug: https://bugs.gentoo.org/599340
   Package-Manager: portage-2.3.2_p5
 
+*chromium-54.0.2840.100 (11 Nov 2016)
+
+  11 Nov 2016; Mike Gilbert <floppym@gentoo.org>
+  +chromium-54.0.2840.100.ebuild:
+  stable channel bump (54.0.2840.100)
+
+  Package-Manager: portage-2.3.2_p5
+

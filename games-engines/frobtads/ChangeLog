@@ -89,3 +89,15 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*frobtads-1.2.3-r1 (11 Nov 2016)
+
+  11 Nov 2016; Austin English <wizardedit@gentoo.org>
+  +frobtads-1.2.3-r1.ebuild:
+  remove deprecated games eclass
+
+  Also update to EAPI 6
+
+  Gentoo-Bug: https://bugs.gentoo.org/574082
+
+  Package-Manager: portage-2.3.2
+

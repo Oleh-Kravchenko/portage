@@ -853,3 +853,9 @@
 
   Package-Manager: portage-2.3.2
 
+  11 Nov 2016; Jeroen Roovers <jer@gentoo.org>
+  nvidia-drivers-375.10-r1.ebuild:
+  Set up libnvidia-ml.so symlinks (bug #598874).
+
+  Package-Manager: portage-2.3.2
+

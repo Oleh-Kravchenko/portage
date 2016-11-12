@@ -476,3 +476,14 @@
 
   Package-Manager: portage-2.3.0
 
+  11 Nov 2016; Matthew Thode <prometheanfire@gentoo.org> neutron-8.3.0.ebuild:
+  8.3.0 amd64 and x86 stable
+
+  Package-Manager: portage-2.3.0
+
+  11 Nov 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -neutron-8.2.0.ebuild:
+  8.2.0 cleanup
+
+  Package-Manager: portage-2.3.0
+

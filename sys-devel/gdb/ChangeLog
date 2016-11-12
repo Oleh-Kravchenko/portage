@@ -301,3 +301,9 @@
   gdb-7.10.1.ebuild, gdb-7.11.ebuild, gdb-7.11.1.ebuild, gdb-9999.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+*gdb-7.12 (11 Nov 2016)
+
+  11 Nov 2016; Mike Frysinger <vapier@gentoo.org> +gdb-7.12.ebuild,
+  gdb-9999.ebuild:
+  version bump to 7.12
+

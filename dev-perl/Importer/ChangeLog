@@ -1,0 +1,16 @@
+# ChangeLog for dev-perl/Importer
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*Importer-0.24.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org> +Importer-0.24.0.ebuild,
+  +metadata.xml:
+  Added to tree at 0.24.0
+
+  Required by:
+   -dev-perl/Test2-Suite
+    -dev-perl/Data-Validate-Domain-0.140.0
+
+  Package-Manager: portage-2.3.2
+

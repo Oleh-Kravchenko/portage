@@ -227,3 +227,18 @@
 
   Package-Manager: portage-2.3.2
 
+  11 Nov 2016; Manuel Rüger <mrueg@gentoo.org> metadata.xml:
+  Add myself as maintainer
+
+  Package-Manager: portage-2.3.0
+
+*docker-compose-1.9.0_rc4 (11 Nov 2016)
+
+  11 Nov 2016; Manuel Rüger <mrueg@gentoo.org>
+  +docker-compose-1.9.0_rc4.ebuild:
+  Version bump to 1.9.0_rc4
+
+  Gentoo-Bug: 599312
+
+  Package-Manager: portage-2.3.0
+

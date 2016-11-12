@@ -16,3 +16,17 @@
 
   Package-Manager: portage-2.2.28
 
+*cpp-hocon-0.1.4 (11 Nov 2016)
+
+  11 Nov 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +cpp-hocon-0.1.4.ebuild:
+  updating deps more in line with the actual code
+
+  Package-Manager: portage-2.3.0
+
+  11 Nov 2016; Matthew Thode <prometheanfire@gentoo.org>
+  -cpp-hocon-0.1.2.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.0
+

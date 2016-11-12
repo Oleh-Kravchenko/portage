@@ -609,3 +609,16 @@
   -mesa-13.0.0_rc2.ebuild, -mesa-13.0.0_rc3.ebuild:
   Drop 13.0.0 RCs.
 
+  10 Nov 2016; Mike Frysinger <vapier@gentoo.org> mesa-13.0.0.ebuild,
+  mesa-9999.ebuild, metadata.xml:
+  add USE flags to control sha1 dep #539266
+
+  The sha1 usage in mesa is a bit convoluted and can leverage a number of
+  sublibs to satisfy things.  Add USE flags to control them directly.  This
+  covers the common cases but can probably be further refined.  We'll look
+  more into it via the bug.
+
+  11 Nov 2016; Mike Frysinger <vapier@gentoo.org> mesa-13.0.0.ebuild,
+  mesa-9999.ebuild, metadata.xml:
+  allow USE=libressl too for sha1 funcs #591246
+

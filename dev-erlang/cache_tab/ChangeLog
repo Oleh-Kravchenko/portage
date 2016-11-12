@@ -40,3 +40,11 @@
 
   Package-Manager: portage-2.3.0
 
+*cache_tab-1.0.4 (11 Nov 2016)
+
+  11 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +cache_tab-1.0.4.ebuild:
+  Bump version to 1.0.4
+
+  Package-Manager: portage-2.3.0
+

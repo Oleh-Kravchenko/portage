@@ -83,3 +83,14 @@
   18 May 2016; Austin English <wizardedit@gentoo.org> files/ntopng.init.d:
   use #!/sbin/openrc-run instead of #!/sbin/runscript
 
+  11 Nov 2016; Slawomir Lis <slis@gentoo.org> ntopng-2.0.ebuild:
+  fixed bug with configuration
+
+  Fixed a bug (#599528) caused when building without libpcap.
+  Configuration script does not return an error code, so configure
+  phase was completed succesfully.
+
+  Reported-By: Toralf Förster <toralf.foerster@gmx.de>
+
+  Package-Manager: portage-2.3.2
+

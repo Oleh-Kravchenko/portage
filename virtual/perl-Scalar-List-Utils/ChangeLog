@@ -138,3 +138,15 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*perl-Scalar-List-Utils-1.460.0 (11 Nov 2016)
+
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +perl-Scalar-List-Utils-1.460.0.ebuild:
+  perl-core/Scalar-List-Utils: Add 1.460.0
+
+  Various things on CPAN now need newer Scalar::List::Utils.
+
+  Keywords copied from virtual/perl-Scalar-List-Utils
+
+  Package-Manager: portage-2.3.2
+

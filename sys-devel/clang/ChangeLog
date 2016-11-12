@@ -416,3 +416,6 @@
   02 Nov 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
   Remove stray "fi" in CMake args
 
+  11 Nov 2016; Michał Górny <mgorny@gentoo.org> clang-9999.ebuild:
+  Enable RISCV target on -9999
+

@@ -510,3 +510,16 @@
   Package-Manager: portage-2.3.2
   Signed-off-by: Justin Lecher <jlec@gentoo.org>
 
+*aufs-sources-4.8.7 (11 Nov 2016)
+*aufs-sources-4.4.31 (11 Nov 2016)
+
+  11 Nov 2016; Justin Lecher <jlec@gentoo.org> +aufs-sources-4.4.31.ebuild,
+  -aufs-sources-4.7.9.ebuild, -aufs-sources-4.7.10.ebuild,
+  +aufs-sources-4.8.7.ebuild:
+  Bump to latest genpatches and linux release
+
+  Drop old
+
+  Package-Manager: portage-2.3.2
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

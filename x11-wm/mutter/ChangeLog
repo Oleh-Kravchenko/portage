@@ -272,3 +272,18 @@
 
   Package-Manager: portage-2.3.2
 
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> metadata.xml,
+  mutter-3.22.1.ebuild:
+  fix dependencies and option combinations
+
+  Checked with upstream, native backend without wayland is not useful and
+  the opposite would have limited use.
+
+  See upstream reports for not enabling these possibilities anyway:
+  https://bugzilla.gnome.org/show_bug.cgi?id=771638
+  https://bugzilla.gnome.org/show_bug.cgi?id=772681
+
+  Gentoo-bug: 598846
+
+  Package-Manager: portage-2.3.2
+

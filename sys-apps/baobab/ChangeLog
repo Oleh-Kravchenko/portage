@@ -135,3 +135,15 @@
 
   Package-Manager: portage-2.3.1
 
+*baobab-3.22.1 (11 Nov 2016)
+
+  11 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> +baobab-3.22.1.ebuild:
+  add baobab-3.22.1.ebuild
+
+  Simple bump, no relevant changes
+
+  https://git.gnome.org/browse/baobab/diff/?id=3.22.1&&id2=3.22.0
+  Closes: https://github.com/gentoo/gentoo/pull/2788
+
+  Signed-off-by: Gilles Dartiguelongue <eva@gentoo.org>
+
