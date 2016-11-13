@@ -1,0 +1,18 @@
+# ChangeLog for dev-ml/llvm-ocaml
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*llvm-ocaml-9999 (12 Nov 2016)
+
+  12 Nov 2016; Michał Górny <mgorny@gentoo.org>
+  +files/llvm-cmake-Remove-the-CMAKE_BUILD_TYPE-assertion.patch,
+  +llvm-ocaml-9999.ebuild, +metadata.xml:
+  Split OCaml bindings out of LLVM
+
+  Introduce an ebuild to build LLVM OCaml bindings separately from LLVM
+  itself. As pointed out by our OCaml team, the OCaml bindings have to be
+  rebuilt much more frequently than LLVM itself (that is, on every
+  dependency upgrade). Furthermore, OCaml tests seem to have problems
+  running from build dir without LLVM installed. Therefore, use
+  the LLVM_OCAML_OUT_OF_TREE build logic that was added for OPAM.
+

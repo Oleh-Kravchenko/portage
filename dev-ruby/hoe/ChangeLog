@@ -156,3 +156,30 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*hoe-3.15.2 (12 Nov 2016)
+
+  12 Nov 2016; Hans de Graaff <graaff@gentoo.org> +hoe-3.15.2.ebuild:
+  add 3.15.2
+
+  Package-Manager: portage-2.3.0
+
+  12 Nov 2016; Hans de Graaff <graaff@gentoo.org> -hoe-3.13.1.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.3.0
+
+  12 Nov 2016; Hans de Graaff <graaff@gentoo.org> hoe-3.15.2.ebuild:
+  update minitest test dependency
+
+  Package-Manager: portage-2.3.0
+
+  12 Nov 2016; Hans de Graaff <graaff@gentoo.org> hoe-3.13.0-r1.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.3.0
+
+  12 Nov 2016; Hans de Graaff <graaff@gentoo.org> hoe-3.14.1.ebuild:
+  update rake dependency to include upper bound, bug 599382
+
+  Package-Manager: portage-2.3.0
+

@@ -266,3 +266,22 @@
   gnome-shell-3.20.4.ebuild, gnome-shell-3.22.1.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +files/gnome-shell-3.22.0-defaults.patch,
+  +files/gnome-shell-3.22.0-gir-build-fix.patch, gnome-shell-3.22.1.ebuild:
+  version bump 3.20.4 → 3.22.1
+
+  Cleanup unused dependencies. Add missing dependencies with
+  introspection support. Make nsplugin optional as there is the chrome
+  extension in tree too. Update comments.
+
+  Package-Manager: portage-2.3.2
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  -files/gnome-shell-3.14.0-bluetooth-gold.patch,
+  -files/gnome-shell-3.20.2-st-nvidia.patch, -gnome-shell-3.18.5.ebuild,
+  -gnome-shell-3.20.2-r1.ebuild, -gnome-shell-3.20.3.ebuild:
+  cleanup old revisions
+
+  Package-Manager: portage-2.3.2
+

@@ -182,3 +182,12 @@
   26 Oct 2016; Tim Harder <radhermit@gentoo.org> +lilypond-2.19.49.ebuild:
   version bump to 2.19.49
 
+*lilypond-2.19.50 (12 Nov 2016)
+
+  12 Nov 2016; Tim Harder <radhermit@gentoo.org> +lilypond-2.19.50.ebuild:
+  version bump to 2.19.50
+
+  12 Nov 2016; Tim Harder <radhermit@gentoo.org> -lilypond-2.19.46.ebuild,
+  -lilypond-2.19.47.ebuild, -lilypond-2.19.48.ebuild:
+  remove old
+

@@ -256,3 +256,11 @@
   -kwalletd-15.12.3.ebuild:
   kde-apps: remove 15.12.3
 
+*kwalletd-16.04.3-r1 (12 Nov 2016)
+
+  12 Nov 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/kwalletd-16.04.3-gpgmepp.patch, +kwalletd-16.04.3-r1.ebuild:
+  Port to app-crypt/gpgme[cxx]
+
+  Package-Manager: portage-2.3.0
+

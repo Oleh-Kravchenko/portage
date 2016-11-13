@@ -355,3 +355,6 @@
   lxml-3.5.0.ebuild, lxml-3.6.0.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  12 Nov 2016; Mike Frysinger <vapier@gentoo.org> lxml-3.6.0.ebuild:
+  mark 3.6.0 arm64/ia64/ppc/s390/sh/sparc stable #591088
+

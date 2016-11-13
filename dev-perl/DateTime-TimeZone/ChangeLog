@@ -103,3 +103,33 @@
 
   Package-Manager: portage-2.3.2
 
+*DateTime-TimeZone-2.10.0 (12 Nov 2016)
+
+  12 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  -DateTime-TimeZone-2.010.0.ebuild, +DateTime-TimeZone-2.10.0.ebuild:
+  Fix wrongly normalised version
+
+  And minor dep fixes.
+
+  Package-Manager: portage-2.3.2
+
+*DateTime-TimeZone-2.70.0 (12 Nov 2016)
+
+  12 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +DateTime-TimeZone-2.70.0.ebuild, metadata.xml:
+  Bump to 2.70.0 (masked)
+
+  Needs newer Test2 Infrastructure via Params::ValidationCompiler
+
+  Keywording:
+  - New dependencies, some shared with DateTime's new dependencies
+  - Keywords dropped: ~alpha ~arm ~arm64 ~hppa ~ia64 ~m68k ~pcc ~ppc64 ~s390
+  ~sh ~sparc ~x86-fbsd
+
+  Upstream:
+  - Replace Params::Validate with Params::ValidationCompiler
+  - Upgrade to 2016i Olson database
+  - Now includes: Asia/Famagusta, Asia/Yangon,
+
+  Package-Manager: portage-2.3.2
+

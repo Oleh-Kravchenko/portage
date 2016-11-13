@@ -74,3 +74,9 @@
 
   Package-Manager: portage-2.2.28
 
+  12 Nov 2016; Justin Lecher <jlec@gentoo.org> quickplot-0.10.8.ebuild:
+  Add new HOMPAGE
+
+  Package-Manager: portage-2.3.2
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

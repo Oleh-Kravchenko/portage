@@ -62,3 +62,11 @@
 
   Package-Manager: portage-2.3.1
 
+*gnome-software-3.22.2 (12 Nov 2016)
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-software-3.22.2.ebuild:
+  version bump 3.22.1 → 3.22.2
+
+  Package-Manager: portage-2.3.2
+

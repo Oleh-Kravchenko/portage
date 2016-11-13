@@ -123,3 +123,9 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-enterprise-8.2.ebuild:
+  fixed typo in CDEPEND variable name
+
+  Package-Manager: portage-2.3.2
+

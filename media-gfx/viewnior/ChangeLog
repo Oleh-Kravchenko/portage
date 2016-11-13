@@ -88,3 +88,9 @@
   07 Aug 2016; Tim Harder <radhermit@gentoo.org> -viewnior-1.3.ebuild:
   remove old
 
+  12 Nov 2016; Tim Harder <radhermit@gentoo.org> viewnior-1.6.ebuild:
+  stabilize 1.6
+
+  12 Nov 2016; Tim Harder <radhermit@gentoo.org> -viewnior-1.4.ebuild:
+  remove old
+

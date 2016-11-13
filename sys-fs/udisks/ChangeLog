@@ -192,3 +192,10 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> udisks-2.1.7-r1.ebuild:
+  fix sandbox issue
+
+  Gentoo-Bug: 587810
+
+  Package-Manager: portage-2.3.2
+

@@ -362,3 +362,11 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+*appstream-glib-0.6.5 (12 Nov 2016)
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +appstream-glib-0.6.5.ebuild:
+  version bump 0.6.3 → 0.6.5
+
+  Package-Manager: portage-2.3.2
+

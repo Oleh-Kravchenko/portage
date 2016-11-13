@@ -208,3 +208,10 @@
 
   Fixes a crash introduced in 1.7.7, so commit straight to stable.
 
+  12 Nov 2016; Agostino Sarubbo <ago@gentoo.org> libXi-1.7.5.ebuild:
+  sparc stable wrt bug #559062
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

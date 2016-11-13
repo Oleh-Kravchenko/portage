@@ -65,3 +65,16 @@
 
   Package-Manager: portage-2.3.0
 
+*thepeg-2.0.4 (11 Nov 2016)
+
+  11 Nov 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  files/thepeg-1.8.3-java.patch, +thepeg-2.0.4.ebuild:
+  Version bump to 2.0.4, EAPI bump 5 -> 6
+
+  Package-Manager: portage-2.3.0
+
+  11 Nov 2016; Andreas K. Hüttel <dilfridge@gentoo.org> thepeg-2.0.4.ebuild:
+  Pin slots
+
+  Package-Manager: portage-2.3.2
+

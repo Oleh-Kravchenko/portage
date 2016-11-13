@@ -650,3 +650,6 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; Mike Frysinger <vapier@gentoo.org> openssh-7.3_p1-r6.ebuild:
+  mark 7.3_p1-r6 arm64/m68k/s390/sh stable #597360
+

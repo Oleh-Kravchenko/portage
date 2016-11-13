@@ -73,3 +73,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  12 Nov 2016; Patrice Clement <monsieurp@gentoo.org> phpmp-0.11.0-r1.ebuild:
+  */*: musicpd.org http to https.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2787
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

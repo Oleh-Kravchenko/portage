@@ -92,3 +92,7 @@
   01 Nov 2016; Michał Górny <mgorny@gentoo.org> gprof2dot-0_p20130517.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  12 Nov 2016; Sebastian Pipping <sping@gentoo.org>
+  -files/gprof2dot-0_p20100216-python3.patch:
+  remove unused patch
+

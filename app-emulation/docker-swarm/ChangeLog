@@ -82,3 +82,8 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; Manuel Rüger <mrueg@gentoo.org> docker-swarm-1.2.5.ebuild:
+  Fix SRC_URI
+
+  Package-Manager: portage-2.3.2
+

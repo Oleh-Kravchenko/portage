@@ -461,3 +461,19 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+*rt-sources-4.4.30_p41 (12 Nov 2016)
+*rt-sources-4.1.35_p41 (12 Nov 2016)
+*rt-sources-3.18.44_p48 (12 Nov 2016)
+
+  12 Nov 2016; Patrice Clement <monsieurp@gentoo.org>
+  -rt-sources-3.18.40_p42.ebuild, +rt-sources-3.18.44_p48.ebuild,
+  -rt-sources-4.1.31_p35.ebuild, +rt-sources-4.1.35_p41.ebuild,
+  -rt-sources-4.4.19_p27.ebuild, +rt-sources-4.4.30_p41.ebuild,
+  -rt-sources-4.6.7_p11.ebuild:
+  version bump to {3.18.44_p48,4.1.35_p41,4.4.30_p41} and remove old.
+
+  Package-Manager: portage-2.3.2
+  Closes: https://github.com/gentoo/gentoo/pull/2800
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

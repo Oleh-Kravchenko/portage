@@ -93,3 +93,7 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  12 Nov 2016; Mike Frysinger <vapier@gentoo.org> repoman-2.3.0-r1.ebuild:
+  sys-apps/repoman: mark 2.3.0-r1 arm64/ia64/m68k/ppc/s390/sh/sparc stable
+  #589878
+

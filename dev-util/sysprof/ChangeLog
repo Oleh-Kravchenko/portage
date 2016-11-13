@@ -57,3 +57,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*sysprof-3.22.2 (12 Nov 2016)
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> +sysprof-3.22.2.ebuild:
+  version bump 1.2.0 → 3.22.2
+
+  Mostly a rewrite so some bugs might be expected.
+
+  Package-Manager: portage-2.3.2
+

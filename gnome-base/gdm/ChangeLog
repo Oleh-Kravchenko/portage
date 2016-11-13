@@ -190,3 +190,16 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+*gdm-3.22.1 (12 Nov 2016)
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> +gdm-3.22.1.ebuild:
+  version bump 3.20.1 → 3.22.1
+
+  Package-Manager: portage-2.3.2
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  -files/gdm-3.2.1.1-custom-session.patch, -gdm-3.18.3.ebuild:
+  cleanup old revision
+
+  Package-Manager: portage-2.3.2
+

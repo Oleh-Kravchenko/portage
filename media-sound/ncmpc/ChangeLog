@@ -95,3 +95,11 @@
   21 Aug 2016; Tim Harder <radhermit@gentoo.org> +ncmpc-0.25.ebuild:
   version bump to 0.25
 
+  12 Nov 2016; Patrice Clement <monsieurp@gentoo.org> ncmpc-0.24.ebuild,
+  ncmpc-0.24-r2.ebuild:
+  */*: musicpd.org http to https.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2787
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

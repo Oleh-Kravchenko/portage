@@ -641,3 +641,22 @@
 
   Package-Manager: portage-2.3.2
 
+*plasma-workspace-5.8.3-r1 (12 Nov 2016)
+
+  12 Nov 2016; Michael Palimaka <kensington@gentoo.org>
+  +files/plasma-workspace-5.8.3-all-outputs-known.patch,
+  +files/plasma-workspace-5.8.3-dont-connect-twice.patch,
+  +files/plasma-workspace-5.8.3-screenpool-screenchange.patch,
+  +files/plasma-workspace-5.8.3-sync-app-w-applets-config.patch,
+  +files/plasma-workspace-5.8.3-systray-cpuload.patch,
+  +plasma-workspace-5.8.3-r1.ebuild:
+  Add several multiscreen fixes
+
+  Each of those closes several bugs.
+  Also adding a fix from master about too high cpuload with systray.
+  Dropped subslot operator from kde-frameworks/plasma.
+
+  Gentoo-bug: 598128, 569556
+
+  Package-Manager: portage-2.3.0
+

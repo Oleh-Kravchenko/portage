@@ -177,3 +177,7 @@
   libcxx-9999.ebuild:
   Always pass compiler runtime libs
 
+  12 Nov 2016; Michał Górny <mgorny@gentoo.org> -libcxx-3.7.0.ebuild,
+  -libcxx-3.8.0.ebuild:
+  Drop a few old versions
+

@@ -241,3 +241,12 @@
 
   Package-Manager: portage-2.3.1
 
+  12 Nov 2016; Patrice Clement <monsieurp@gentoo.org> mpd-0.19.10.ebuild,
+  mpd-0.19.11.ebuild, mpd-0.19.12.ebuild, mpd-0.19.14.ebuild,
+  mpd-0.19.15.ebuild, mpd-0.19.18.ebuild, mpd-0.19.19.ebuild:
+  */*: musicpd.org http to https.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2787
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

@@ -136,3 +136,18 @@
 
   Package-Manager: portage-2.3.1
 
+*gnome-core-libs-3.22.0 (12 Nov 2016)
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-core-libs-3.22.0.ebuild:
+  version bump 3.20.0-r1 → 3.22.0
+
+  Package-Manager: portage-2.3.2
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  -gnome-core-libs-3.14.0.ebuild, -gnome-core-libs-3.16.0.ebuild,
+  -gnome-core-libs-3.18.0.ebuild:
+  cleanup old revisions
+
+  Package-Manager: portage-2.3.2
+

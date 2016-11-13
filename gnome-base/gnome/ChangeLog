@@ -118,3 +118,25 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+*gnome-3.22.0 (12 Nov 2016)
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> +gnome-3.22.0.ebuild:
+  version bump 3.20.0 → 3.22.0
+
+  Package-Manager: portage-2.3.2
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> -gnome-3.14.0.ebuild,
+  -gnome-3.16.0.ebuild, -gnome-3.18.0.ebuild:
+  cleanup old revisions
+
+  Package-Manager: portage-2.3.2
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> gnome-3.22.0.ebuild:
+  drop keywords for ~arm and ~ia64
+
+  Missing keywords for grilo blocks totem to 3.18.
+
+  Gentoo-Bug: 521972
+
+  Package-Manager: portage-2.3.2
+

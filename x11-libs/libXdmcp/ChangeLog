@@ -154,3 +154,10 @@
 
   Gentoo-Bug: 579266
 
+  12 Nov 2016; Agostino Sarubbo <ago@gentoo.org> libXdmcp-1.1.2.ebuild:
+  sparc stable wrt bug #559062
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

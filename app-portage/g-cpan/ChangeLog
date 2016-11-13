@@ -119,3 +119,6 @@
 
   Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
 
+  11 Nov 2016; Andreas K. Hüttel <dilfridge@gentoo.org> g-cpan-9999.ebuild:
+  add new deps required for git (last revision)
+

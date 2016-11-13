@@ -87,3 +87,12 @@
 
   Package-Manager: portage-2.3.0
 
+  12 Nov 2016; Justin Lecher <jlec@gentoo.org> metadata.xml,
+  mosh-1.2.6.ebuild:
+  Add missing slotoperator
+
+  Bump EAPI to 6
+
+  Package-Manager: portage-2.3.2
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

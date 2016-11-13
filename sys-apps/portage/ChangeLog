@@ -488,3 +488,6 @@
 
   Package-Manager: portage-2.3.1
 
+  12 Nov 2016; Mike Frysinger <vapier@gentoo.org> portage-2.3.0.ebuild:
+  mark 2.3.0 arm64/ia64/m68k/ppc/s390/sh/sparc stable #589822
+

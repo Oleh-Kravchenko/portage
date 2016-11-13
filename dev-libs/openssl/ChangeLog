@@ -787,3 +787,6 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; Mike Frysinger <vapier@gentoo.org> openssl-1.0.2j.ebuild:
+  mark 1.0.2j arm64/m68k/s390/sh stable
+

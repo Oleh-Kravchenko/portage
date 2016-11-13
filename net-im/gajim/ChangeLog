@@ -199,3 +199,11 @@
 
   Package-Manager: portage-2.3.1
 
+*gajim-0.16.6-r1 (11 Nov 2016)
+
+  11 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  +files/gajim-0.16.6-otr-cleartext-leak-fix.patch, +gajim-0.16.6-r1.ebuild:
+  Apply fix for OTR plugin cleartext leak (CVE-2016-9107)
+
+  Gentoo-Bug: 598774
+

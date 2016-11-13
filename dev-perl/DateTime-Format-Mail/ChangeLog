@@ -99,3 +99,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*DateTime-Format-Mail-0.403.0 (12 Nov 2016)
+
+  12 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  +DateTime-Format-Mail-0.403.0.ebuild:
+  Bump to 0.403.0
+
+  - EAPI6
+  - Parallel Testing
+
+  Upstream:
+  - Use ->set_locale instead of ->set to set the locale in order to
+    avoid unintentionally changing local time.
+
+  Package-Manager: portage-2.3.2
+

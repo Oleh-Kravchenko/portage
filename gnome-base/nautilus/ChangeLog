@@ -200,3 +200,10 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> nautilus-3.22.1.ebuild:
+  drop keywords not satisfying gnome-autoar
+
+  Gentoo-Bug: 599574
+
+  Package-Manager: portage-2.3.2
+

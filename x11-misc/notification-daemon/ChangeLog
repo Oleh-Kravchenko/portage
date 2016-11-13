@@ -107,3 +107,11 @@
 
   Package-Manager: portage-2.3.0
 
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  notification-daemon-3.18.2.ebuild, notification-daemon-3.20.0.ebuild:
+  add missing X for gtk+:3
+
+  Gentoo-Bug: 586488
+
+  Package-Manager: portage-2.3.2
+

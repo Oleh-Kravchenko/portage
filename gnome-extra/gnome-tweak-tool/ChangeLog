@@ -170,3 +170,17 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+*gnome-tweak-tool-3.22.0 (12 Nov 2016)
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-tweak-tool-3.22.0.ebuild:
+  version bump 3.20.1 → 3.22.0
+
+  Package-Manager: portage-2.3.2
+
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  -gnome-tweak-tool-3.18.1-r2.ebuild:
+  cleanup old revision
+
+  Package-Manager: portage-2.3.2
+

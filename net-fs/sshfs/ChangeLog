@@ -29,3 +29,10 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  12 Nov 2016; Tim Harder <radhermit@gentoo.org> sshfs-2.8.ebuild:
+  stabilize 2.8 for x86
+
+  12 Nov 2016; Tim Harder <radhermit@gentoo.org> -sshfs-2.5.ebuild,
+  -sshfs-2.7.ebuild:
+  remove old
+

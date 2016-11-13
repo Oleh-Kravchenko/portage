@@ -71,3 +71,18 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*abiword-3.0.2 (12 Nov 2016)
+
+  12 Nov 2016; David Seifert <soap@gentoo.org> +abiword-3.0.2.ebuild,
+  +files/abiword-2.6.0-boolean.patch, +files/abiword-2.8.3-desktop.patch,
+  +files/abiword-3.0.0-librevenge.patch, +files/abiword-3.0.0-libwp.patch,
+  +files/abiword-3.0.0-link-grammar-5-second.patch,
+  +files/abiword-3.0.1-fixwps.patch, +files/abiword-3.0.1-libwps-0.4.patch,
+  +files/abiword-3.0.2-fix-installing-readme.patch:
+  Version bump to 3.0.2
+
+  Gentoo-bug: 488462, 582788, 595250
+  * EAPI=6
+
+  Package-Manager: portage-2.3.2
+

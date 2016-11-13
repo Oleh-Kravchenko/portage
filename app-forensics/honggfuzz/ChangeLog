@@ -22,3 +22,23 @@
 
   Package-Manager: portage-2.3.0
 
+*honggfuzz-0.8-r1 (11 Nov 2016)
+
+  11 Nov 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +files/honggfuzz-0.8-bts-perms.patch, +honggfuzz-0.8-r1.ebuild:
+  unbreak --linux_perf_bts_block flag
+
+  Workaround --linux_perf_bts_block flag breakage.
+
+  Mateusz reports that running honggfuzz fails as:
+      [2016-11-11T21:54:27+0000][W][1190] arch_perfOpen():223 mmap(mmapAuxBuf)
+  failed,
+      try increasing the kernel.perf_event_mlock_kb sysctl (up to even
+  300000000): Cannot allocate memory
+
+  It seems aux data also needs WRITE permissions.
+
+  Reported-by: Mateusz Lenik
+
+  Package-Manager: portage-2.3.2
+

@@ -622,3 +622,10 @@
   mesa-9999.ebuild, metadata.xml:
   allow USE=libressl too for sha1 funcs #591246
 
+  12 Nov 2016; Agostino Sarubbo <ago@gentoo.org> mesa-11.0.6.ebuild:
+  sparc stable wrt bug #559062
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

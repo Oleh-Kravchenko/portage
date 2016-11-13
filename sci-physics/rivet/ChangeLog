@@ -45,3 +45,11 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> rivet-2.5.2.ebuild:
+  Fixing URL for refs.bib
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2807
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

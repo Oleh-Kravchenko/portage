@@ -72,3 +72,9 @@
   Package-Manager: portage-2.3.0
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  12 Nov 2016; Justin Lecher <jlec@gentoo.org> enchant-1.6.0.ebuild:
+  Add missing slotoperator
+
+  Package-Manager: portage-2.3.2
+  Signed-off-by: Justin Lecher <jlec@gentoo.org>
+

@@ -107,3 +107,10 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; Patrice Clement <monsieurp@gentoo.org> metadata.xml:
+  */*: musicpd.org http to https.
+
+  Closes: https://github.com/gentoo/gentoo/pull/2787
+
+  Signed-off-by: Patrice Clement <monsieurp@gentoo.org>
+

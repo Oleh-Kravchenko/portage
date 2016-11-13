@@ -199,3 +199,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+  12 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> geoclue-2.4.4.ebuild:
+  add missing gnome2_src_prepare
+
+  Gentoo-Bug; 587034
+
+  Package-Manager: portage-2.3.2
+

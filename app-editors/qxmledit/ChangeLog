@@ -161,3 +161,11 @@
 
   Package-Manager: portage-2.3.0
 
+*qxmledit-0.9.5 (12 Nov 2016)
+
+  12 Nov 2016; Michael Palimaka <kensington@gentoo.org>
+  +qxmledit-0.9.5.ebuild:
+  version bump
+
+  Package-Manager: portage-2.3.2
+

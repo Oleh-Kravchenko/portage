@@ -155,3 +155,10 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  11 Nov 2016; Kent Fredric <kentnl@gentoo.org>
+  perl-Storable-2.490.100-r1.ebuild, perl-Storable-2.530.0-r1.ebuild,
+  perl-Storable-2.530.100-r1.ebuild, perl-Storable-2.560.0.ebuild:
+  Copy ~m68k support from dev-lang/perl
+
+  Package-Manager: portage-2.3.2
+

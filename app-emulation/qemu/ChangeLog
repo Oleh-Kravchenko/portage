@@ -944,3 +944,34 @@
 
   Package-Manager: portage-2.3.0
 
+*qemu-2.7.0-r6 (12 Nov 2016)
+
+  12 Nov 2016; Matthias Maier <tamiko@gentoo.org>
+  +files/qemu-2.7.0-CVE-2016-9102.patch,
+  +files/qemu-2.7.0-CVE-2016-9103.patch,
+  +files/qemu-2.7.0-CVE-2016-9104.patch,
+  +files/qemu-2.7.0-CVE-2016-9105.patch,
+  +files/qemu-2.7.0-CVE-2016-9106.patch, +qemu-2.7.0-r6.ebuild:
+  security fixes, bug #598772
+
+      CVE-2016-9102, bug #598328
+      CVE-2016-9103, bug #598328
+      CVE-2016-9104, bug #598328
+      CVE-2016-9105, bug #598328
+      CVE-2016-9106, bug #598772
+
+  Package-Manager: portage-2.3.0
+
+*qemu-2.7.0-r7 (12 Nov 2016)
+
+  12 Nov 2016; Matthias Maier <tamiko@gentoo.org> -qemu-2.7.0-r6.ebuild,
+  +qemu-2.7.0-r7.ebuild:
+  update build dependency to vte:2.91, bug #595890
+
+  Package-Manager: portage-2.3.0
+
+  12 Nov 2016; Matthias Maier <tamiko@gentoo.org> qemu-9999.ebuild:
+  update build dependency to vte:2.91, bug #595890
+
+  Package-Manager: portage-2.3.0
+

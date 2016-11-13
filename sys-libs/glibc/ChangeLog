@@ -442,3 +442,13 @@
   prevent the function from redefining profile-defined variables such as
   LIBDIR_*.
 
+*glibc-2.23-r3 (12 Nov 2016)
+
+  12 Nov 2016; Mike Frysinger <vapier@gentoo.org> +glibc-2.23-r3.ebuild:
+  add a lot of upstream patches for 2.23
+
+*glibc-2.24 (12 Nov 2016)
+
+  12 Nov 2016; Mike Frysinger <vapier@gentoo.org> +glibc-2.24.ebuild:
+  version bump to 2.24
+

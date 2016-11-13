@@ -94,3 +94,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  12 Nov 2016; Agostino Sarubbo <ago@gentoo.org> showfont-1.0.5.ebuild:
+  sparc stable wrt bug #559062
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="sparc"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

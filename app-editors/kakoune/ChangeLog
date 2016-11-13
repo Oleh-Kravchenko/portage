@@ -86,3 +86,29 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*kakoune-0_pre20161111 (12 Nov 2016)
+
+  12 Nov 2016; David Seifert <soap@gentoo.org>
+  +files/kakoune-0_pre20161111-makefile.patch, +kakoune-0_pre20161111.ebuild:
+  version bump to 0_pre20161111
+
+  introduce static use flag
+  Closes: https://github.com/gentoo/gentoo/pull/2802
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+  12 Nov 2016; David Seifert <soap@gentoo.org> kakoune-9999.ebuild:
+  update live ebuild
+
+  introduce static use flag
+  Closes: https://github.com/gentoo/gentoo/pull/2802
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+  12 Nov 2016; David Seifert <soap@gentoo.org> -kakoune-0_pre20160826.ebuild:
+  drop old 0_pre20160826
+
+  Closes: https://github.com/gentoo/gentoo/pull/2802
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
