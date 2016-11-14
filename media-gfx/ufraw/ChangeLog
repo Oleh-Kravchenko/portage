@@ -71,3 +71,9 @@
   27 Jul 2016; Mike Frysinger <vapier@gentoo.org> files/ufraw-0.20-gimp.patch:
   sourceforge: switch to https:// URIs
 
+  13 Nov 2016; Markus Meier <maekke@gentoo.org> ufraw-0.22.ebuild:
+  arm stable, bug #591210
+
+  Package-Manager: portage-2.3.2
+  RepoMan-Options: --include-arches="arm"
+

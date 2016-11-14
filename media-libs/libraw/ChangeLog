@@ -163,3 +163,9 @@
   Package-Manager: portage-2.2.28
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> libraw-0.16.2.ebuild,
+  libraw-0.17.1.ebuild, libraw-0.17.2.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

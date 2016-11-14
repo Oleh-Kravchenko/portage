@@ -204,3 +204,14 @@
 
   Signed-off-by: Gilles Dartiguelongue <eva@gentoo.org>
 
+*gnome-terminal-3.20.3 (13 Nov 2016)
+
+  13 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +gnome-terminal-3.20.3.ebuild:
+  bump 3.20.2 -> 3.20.3
+
+  bump vte dependency to 0.44.3
+  Closes: https://github.com/gentoo/gentoo/pull/2810
+
+  Signed-off-by: Gilles Dartiguelongue <eva@gentoo.org>
+

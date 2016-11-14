@@ -358,3 +358,13 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+*linux-firmware-20161005 (13 Nov 2016)
+
+  13 Nov 2016; Manuel Rüger <mrueg@gentoo.org>
+  +linux-firmware-20161005.ebuild:
+  Add new snapshot
+
+  Gentoo-Bug: 596550
+
+  Package-Manager: portage-2.3.2
+

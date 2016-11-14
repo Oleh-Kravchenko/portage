@@ -385,3 +385,13 @@
 
   Signed-off-by: Gilles Dartiguelongue <eva@gentoo.org>
 
+*vte-0.44.3 (13 Nov 2016)
+
+  13 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> +vte-0.44.3.ebuild:
+  0.44.2 -> 0.44.3
+
+  Also bump vala dependency
+  Closes: https://github.com/gentoo/gentoo/pull/2810
+
+  Signed-off-by: Gilles Dartiguelongue <eva@gentoo.org>
+

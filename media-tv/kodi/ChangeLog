@@ -255,3 +255,10 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> kodi-14.1.ebuild,
+  kodi-15.2.ebuild, kodi-16.0.ebuild, kodi-16.1.ebuild,
+  kodi-17.0_beta4-r1.ebuild, kodi-9999.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

@@ -144,3 +144,9 @@
 
   Signed-off-by: Yixun Lan <dlan@gentoo.org>
 
+  13 Nov 2016; Markus Meier <maekke@gentoo.org> enca-1.19-r1.ebuild:
+  arm stable, bug #594442
+
+  Package-Manager: portage-2.3.2
+  RepoMan-Options: --include-arches="arm"
+

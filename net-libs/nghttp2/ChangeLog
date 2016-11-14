@@ -468,3 +468,15 @@
   Package-Manager: portage-2.3.2
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+*nghttp2-1.16.1 (13 Nov 2016)
+
+  13 Nov 2016; Lars Wendler <polynomial-c@gentoo.org> +nghttp2-1.16.1.ebuild:
+  Bump to version 1.16.1
+
+  Package-Manager: portage-2.3.2
+
+  13 Nov 2016; Lars Wendler <polynomial-c@gentoo.org> -nghttp2-1.15.0.ebuild:
+  Removed old.
+
+  Package-Manager: portage-2.3.2
+

@@ -1,0 +1,26 @@
+# ChangeLog for dev-python/fedmsg
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*fedmsg-0.18.0 (12 Nov 2016)
+
+  12 Nov 2016; Kent Fredric <kentnl@gentoo.org> +fedmsg-0.18.0.ebuild,
+  +files/0.18.0-endpoints.patch, +files/0.18.0-no_signatures.patch,
+  +metadata.xml:
+  Added at version 0.18.0
+
+  Configuration optimised for making anitya
+  (https://release-monitoring.org) work out of the box: This includes
+  disabling verification by default, as its currently impossible to
+  get x509 verification working on Python 3.5
+
+  People who want signature verification enabled are encouraged to
+  install for python 2.7, and RDEPEND is configured to automatically
+  pull in m2crypto if you opt to build for python 2.7
+
+  However, getting it working will still require m2ext being added to
+  tree somewhere, which is dubious given m2ext hasn't been touched
+  since 2012
+
+  Package-Manager: portage-2.3.2
+

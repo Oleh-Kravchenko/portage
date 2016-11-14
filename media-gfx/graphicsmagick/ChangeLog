@@ -234,3 +234,9 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> graphicsmagick-1.3.24.ebuild,
+  graphicsmagick-1.3.25.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

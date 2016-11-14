@@ -80,3 +80,17 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+*dee-1.2.7-r1 (13 Nov 2016)
+
+  13 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> dee-1.2.7.ebuild,
+  +dee-1.2.7-r1.ebuild, +files/dee-1.2.7-gcc-6-build.patch:
+  fix sandbox issue and build with gcc-6
+
+  Port to gnome2.eclass and EAPI=6. Fix to follow Gnome team conventions.
+  Apply patch submitted upstream to fix build with gcc-6.
+
+  Gentoo-Bug: 586604
+  Gentoo-Bug: 594112
+
+  Package-Manager: portage-2.3.2
+

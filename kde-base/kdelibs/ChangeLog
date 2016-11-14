@@ -481,3 +481,9 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> kdelibs-4.14.24.ebuild,
+  kdelibs-4.14.25.ebuild, kdelibs-4.14.26.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

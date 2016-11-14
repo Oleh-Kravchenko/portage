@@ -93,3 +93,8 @@
 
   Package-Manager: portage-2.2.26
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> devil-1.7.8-r2.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

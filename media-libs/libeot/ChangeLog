@@ -1,0 +1,13 @@
+# ChangeLog for media-libs/libeot
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*libeot-9999 (12 Nov 2016)
+*libeot-0.01 (12 Nov 2016)
+
+  12 Nov 2016; Andreas K. Hüttel <dilfridge@gentoo.org> +libeot-0.01.ebuild,
+  +libeot-9999.ebuild, +metadata.xml:
+  New package, needed for app-text/writeperfect
+
+  Package-Manager: portage-2.3.2
+

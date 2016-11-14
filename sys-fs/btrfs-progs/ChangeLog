@@ -337,3 +337,11 @@
 
   Package-Manager: portage-2.3.2
 
+*btrfs-progs-4.8.3 (12 Nov 2016)
+
+  12 Nov 2016; Sergei Trofimovich <slyfox@gentoo.org>
+  +btrfs-progs-4.8.3.ebuild, +files/btrfs-progs-4.8.3-fix-ioctl-again.patch:
+  bump up to 4.8.3
+
+  Package-Manager: portage-2.3.2
+

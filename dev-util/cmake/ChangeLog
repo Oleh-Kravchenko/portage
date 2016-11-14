@@ -500,3 +500,11 @@
 
   Package-Manager: portage-2.3.2
 
+*cmake-3.7.0 (13 Nov 2016)
+
+  13 Nov 2016; Lars Wendler <polynomial-c@gentoo.org> -cmake-3.7.0_rc3.ebuild,
+  +cmake-3.7.0.ebuild:
+  Bumped to version 3.7.0. Removed old.
+
+  Package-Manager: portage-2.3.2
+

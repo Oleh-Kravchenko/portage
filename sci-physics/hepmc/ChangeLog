@@ -86,3 +86,12 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  13 Nov 2016; David Seifert <soap@gentoo.org> -hepmc-2.06.03.ebuild,
+  -hepmc-2.06.08.ebuild:
+  Removing EAPI 4 versions 2.06.03 and 2.06.08
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2823
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

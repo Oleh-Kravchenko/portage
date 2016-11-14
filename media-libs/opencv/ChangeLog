@@ -428,3 +428,9 @@
 
   Signed-off by: Jonathan Scruggs (j.scruggs@gmail.com)
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> opencv-2.4.12-r1.ebuild,
+  opencv-3.1.0-r6.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

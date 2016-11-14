@@ -111,3 +111,11 @@
 
   Package-Manager: portage-2.3.2
 
+  13 Nov 2016; David Seifert <soap@gentoo.org> files/nvi-1.81.6-db44.patch:
+  fix compilation with sys-libs/db-6.0.35
+
+  Gentoo-Bug: https://bugs.gentoo.org/599318
+  Closes: https://github.com/gentoo/gentoo/pull/2794
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

@@ -205,3 +205,9 @@
 
   Package-Manager: portage-2.3.1
 
+  13 Nov 2016; Markus Meier <maekke@gentoo.org> radvd-2.14.ebuild:
+  arm stable, bug #594620
+
+  Package-Manager: portage-2.3.2
+  RepoMan-Options: --include-arches="arm"
+

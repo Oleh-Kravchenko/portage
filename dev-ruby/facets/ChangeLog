@@ -63,3 +63,13 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+  13 Nov 2016; Hans de Graaff <graaff@gentoo.org> facets-2.9.3.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.3.0
+
+  13 Nov 2016; Hans de Graaff <graaff@gentoo.org> facets-2.9.3.ebuild:
+  document ruby22 status
+
+  Package-Manager: portage-2.3.0
+

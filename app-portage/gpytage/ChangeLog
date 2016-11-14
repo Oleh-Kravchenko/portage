@@ -71,3 +71,11 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*gpytage-0.3.0_rc1-r1 (13 Nov 2016)
+
+  13 Nov 2016; Brian Dolbec <dolsen@gentoo.org> -gpytage-0.3.0_rc1.ebuild,
+  +gpytage-0.3.0_rc1-r1.ebuild:
+  Update ebuild to eapi 6
+
+  Package-Manager: portage-2.3.2_p3
+

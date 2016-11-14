@@ -130,3 +130,8 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  13 Nov 2016; Hans de Graaff <graaff@gentoo.org> pkg-config-1.1.6.ebuild:
+  drop ruby19
+
+  Package-Manager: portage-2.3.0
+

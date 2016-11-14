@@ -1868,3 +1868,54 @@
 
   Package-Manager: portage-2.3.2_p5
 
+  13 Nov 2016; Agostino Sarubbo <ago@gentoo.org>
+  chromium-54.0.2840.100.ebuild:
+  amd64 stable wrt bug #599416
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  13 Nov 2016; Agostino Sarubbo <ago@gentoo.org>
+  chromium-54.0.2840.100.ebuild:
+  x86 stable wrt bug #599416
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+*chromium-56.0.2914.3 (13 Nov 2016)
+
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org> -chromium-56.0.2897.0.ebuild,
+  +chromium-56.0.2914.3.ebuild:
+  dev channel bump (56.0.2914.3)
+
+  Addresses a couple bugs:
+
+  - Null pointer deref in V8 (bug 588596).
+  - Crash with old harfbuzz (bug 599098).
+
+  Bug: https://bugs.gentoo.org/588596
+  Bug: https://bugs.gentoo.org/599098
+  Package-Manager: portage-2.3.2_p5
+
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org> chromium-56.0.2914.3.ebuild:
+  use test-flags-CXX -fno-delete-null-pointer-checks
+
+  Package-Manager: portage-2.3.2_p5
+
+*chromium-55.0.2883.44 (13 Nov 2016)
+
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org>
+  -chromium-55.0.2883.28.ebuild, +chromium-55.0.2883.44.ebuild:
+  beta channel bump (55.0.2883.44)
+
+  Addresses a couple bugs:
+
+  - Null pointer deref in V8 (bug 588596).
+  - Crash with old harfbuzz (bug 599098).
+
+  Bug: https://bugs.gentoo.org/588596
+  Bug: https://bugs.gentoo.org/599098
+  Package-Manager: portage-2.3.2_p5
+

@@ -744,3 +744,10 @@
 
   Package-Manager: portage-2.3.2
 
+  13 Nov 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  libreoffice-5.2.3.3.ebuild, libreoffice-5.2.9999.ebuild,
+  libreoffice-9999.ebuild:
+  Force Qt4 moc and qmake, bug 599076
+
+  Package-Manager: portage-2.3.2
+

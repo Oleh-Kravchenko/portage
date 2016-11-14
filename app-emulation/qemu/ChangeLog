@@ -975,3 +975,22 @@
 
   Package-Manager: portage-2.3.0
 
+  13 Nov 2016; Agostino Sarubbo <ago@gentoo.org> qemu-2.7.0-r7.ebuild:
+  amd64 stable wrt bug #598772
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  13 Nov 2016; Agostino Sarubbo <ago@gentoo.org> qemu-2.7.0-r7.ebuild:
+  x86 stable wrt bug #598772
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  13 Nov 2016; Matthias Maier <tamiko@gentoo.org> -qemu-2.7.0-r5.ebuild:
+  drop vulnerable 2.7.0-r5, bug #598772
+
+  Package-Manager: portage-2.3.0
+

@@ -207,3 +207,12 @@
 
   Gentoo-Bug: 598774
 
+  13 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org>
+  -files/gajim-0.16.6-otr-cleartext-leak-fix.patch, -gajim-0.16.6-r1.ebuild:
+  Revert "Apply fix for OTR plugin cleartext leak..."
+
+  This reverts commit 58063b87243ca240d80c94f0564833a5d5e8b0ad.
+
+  OTR is a plugin not managed within Portage. It is installed via Gajim
+  plugin installer.
+

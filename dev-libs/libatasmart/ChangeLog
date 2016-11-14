@@ -78,3 +78,15 @@
 
   Package-Manager: portage-2.3.1
 
+*libatasmart-0.19-r2 (13 Nov 2016)
+
+  13 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org>
+  +libatasmart-0.19-r2.ebuild:
+  fix dependency on udev
+
+  And switch to EAPI=6.
+
+  Gentoo-Bug: 562750
+
+  Package-Manager: portage-2.3.2
+

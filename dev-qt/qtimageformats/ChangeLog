@@ -169,3 +169,10 @@
 
   Package-Manager: portage-2.3.1
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> qtimageformats-5.5.1-r1.ebuild,
+  qtimageformats-5.6.1.ebuild, qtimageformats-5.6.2.ebuild,
+  qtimageformats-5.7.0.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

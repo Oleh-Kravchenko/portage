@@ -513,3 +513,11 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; Andreas K. Hüttel <dilfridge@gentoo.org>
+  cups-filters-9999.ebuild:
+  depend on app-text/mupdf
+
+  Closes: https://github.com/gentoo/gentoo/pull/2814
+
+  Signed-off-by: Andreas K. Hüttel <dilfridge@gentoo.org>
+

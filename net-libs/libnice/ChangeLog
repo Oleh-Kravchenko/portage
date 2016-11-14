@@ -94,3 +94,16 @@
   * x11-misc/driconf-0.9.1-r1
   * x11-misc/xdg-utils-1.1.0_rc2-r1
 
+  13 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> libnice-0.1.13.ebuild:
+  add call to xdg_environment_reset
+
+  Gentoo-Bug: 587834
+
+  Package-Manager: portage-2.3.2
+
+  13 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> -libnice-0.1.8.ebuild,
+  -libnice-0.1.10.ebuild:
+  cleanup old revisions
+
+  Package-Manager: portage-2.3.2
+

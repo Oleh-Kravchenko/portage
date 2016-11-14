@@ -12,3 +12,9 @@
 
   Package-Manager: portage-2.3.2
 
+  13 Nov 2016; Jonathan Vasquez <fearedbliss@gentoo.org>
+  plex-media-server-1.2.7.ebuild:
+  Adding 'bindist' to RESTRICT
+
+  Package-Manager: portage-2.3.2
+

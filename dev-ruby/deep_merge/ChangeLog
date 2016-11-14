@@ -86,3 +86,8 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  13 Nov 2016; Hans de Graaff <graaff@gentoo.org> deep_merge-1.0.1.ebuild:
+  amd64 stable, bug 575610
+
+  Package-Manager: portage-2.3.0
+

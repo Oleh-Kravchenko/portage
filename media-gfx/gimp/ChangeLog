@@ -338,3 +338,11 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> gimp-2.8.14-r2.ebuild,
+  gimp-2.8.16.ebuild, gimp-2.8.16-r1.ebuild, gimp-2.8.18.ebuild,
+  gimp-2.9.2.ebuild, gimp-2.9.2-r1.ebuild, gimp-2.9.2-r2.ebuild,
+  gimp-2.9.4.ebuild, gimp-2.9.4-r1.ebuild, gimp-9999.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

@@ -137,3 +137,8 @@
   Package-Manager: portage-2.3.1
   RepoMan-Options: --ignore-arches
 
+  13 Nov 2016; Manuel Rüger <mrueg@gentoo.org> ruby-shadow-2.4.1.ebuild:
+  Remove ruby19
+
+  Package-Manager: portage-2.3.2
+

@@ -125,3 +125,10 @@
   Package-Manager: portage-2.3.0
   RepoMan-Options: --include-arches="x86"
 
+*gspell-1.2.1 (13 Nov 2016)
+
+  13 Nov 2016; Gilles Dartiguelongue <eva@gentoo.org> +gspell-1.2.1.ebuild:
+  version bump 1.0.3 → 1.2.1
+
+  Package-Manager: portage-2.3.2
+

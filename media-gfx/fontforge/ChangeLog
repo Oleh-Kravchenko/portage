@@ -239,3 +239,27 @@
   fontforge-20150824.ebuild, fontforge-20160404.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org> fontforge-20150824.ebuild,
+  fontforge-20160404.ebuild:
+  restrict test
+
+  Bug: https://bugs.gentoo.org/575856
+
+  Package-Manager: portage-2.3.2_p5
+
+*fontforge-20161005 (13 Nov 2016)
+
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org> +fontforge-20161005.ebuild:
+  bump to 20161005
+
+  Package-Manager: portage-2.3.2_p5
+
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org>
+  -files/fontforge-20110222-libz.so-linkage.patch,
+  -files/fontforge-20110222-lxkbui.patch,
+  -files/fontforge-20110222-remove-useless-extern.patch,
+  -files/fontforge-desktop.patch, -files/fontforge-py27.diff:
+  remove obsolete patches
+
+  Package-Manager: portage-2.3.2_p5
+

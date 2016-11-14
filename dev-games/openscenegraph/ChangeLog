@@ -125,3 +125,10 @@
 
   Package-Manager: portage-2.3.0
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> openscenegraph-3.2.1.ebuild,
+  openscenegraph-3.2.1-r1.ebuild, openscenegraph-3.2.1-r2.ebuild,
+  openscenegraph-3.4.0.ebuild, openscenegraph-3.5.1.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

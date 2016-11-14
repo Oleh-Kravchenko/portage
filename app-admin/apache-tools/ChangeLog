@@ -315,3 +315,13 @@
 
   Gentoo-Bug: 588138
 
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org> apache-tools-2.4.20.ebuild,
+  apache-tools-2.4.23.ebuild:
+  fix pcre-config wrapper script
+
+  Thanks to Robert Förster for noticing the error.
+
+  Bug: https://bugs.gentoo.org/597868
+
+  Package-Manager: portage-2.3.2_p5
+

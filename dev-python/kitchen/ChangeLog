@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/kitchen
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*kitchen-1.2.4 (12 Nov 2016)
+
+  12 Nov 2016; Kent Fredric <kentnl@gentoo.org> +kitchen-1.2.4.ebuild,
+  +metadata.xml:
+  Added at 1.2.4
+
+  Required for dev-python/fedmsg
+
+  Package-Manager: portage-2.3.2
+

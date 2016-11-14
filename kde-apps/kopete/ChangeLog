@@ -252,3 +252,9 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> kopete-16.04.3.ebuild,
+  kopete-16.08.2.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

@@ -196,3 +196,10 @@
 
   Package-Manager: portage-2.3.2
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> gegl-0.2.0-r2.ebuild,
+  gegl-0.3.0.ebuild, gegl-0.3.4.ebuild, gegl-0.3.8.ebuild, gegl-0.3.10.ebuild,
+  gegl-9999.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

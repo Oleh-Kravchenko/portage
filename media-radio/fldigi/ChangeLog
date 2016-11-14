@@ -237,3 +237,10 @@
 
   Package-Manager: portage-2.3.2
 
+*fldigi-3.23.16 (13 Nov 2016)
+
+  13 Nov 2016; Thomas Beierlein <tomjbe@gentoo.org> +fldigi-3.23.16.ebuild:
+  Version bump
+
+  Package-Manager: portage-2.3.2
+

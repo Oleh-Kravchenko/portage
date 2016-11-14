@@ -120,3 +120,10 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> qsstv-8.2.12.ebuild,
+  qsstv-9.1.5.ebuild, qsstv-9.1.6.ebuild, qsstv-9.1.7.ebuild,
+  qsstv-9.1.8.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

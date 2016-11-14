@@ -514,3 +514,9 @@
 
   Package-Manager: portage-2.3.0
 
+  13 Nov 2016; Anthony G. Basile <blueness@gentoo.org> curl-7.51.0.ebuild,
+  +files/curl-fix-mbedtls.patch:
+  fix build with <net-libs/mbedtls-2.4.0, bug #599092
+
+  Package-Manager: portage-2.3.0
+

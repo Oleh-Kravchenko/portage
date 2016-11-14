@@ -104,3 +104,8 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> DirectFB-1.7.6.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

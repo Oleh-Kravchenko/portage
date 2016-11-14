@@ -392,3 +392,10 @@
   extra-cmake-modules-5.26.0.ebuild, extra-cmake-modules-5.27.0.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  13 Nov 2016; Markus Meier <maekke@gentoo.org>
+  extra-cmake-modules-5.26.0.ebuild:
+  arm stable, bug #587346
+
+  Package-Manager: portage-2.3.2
+  RepoMan-Options: --include-arches="arm"
+

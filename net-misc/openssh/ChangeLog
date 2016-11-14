@@ -653,3 +653,17 @@
   12 Nov 2016; Mike Frysinger <vapier@gentoo.org> openssh-7.3_p1-r6.ebuild:
   mark 7.3_p1-r6 arm64/m68k/s390/sh stable #597360
 
+  13 Nov 2016; Agostino Sarubbo <ago@gentoo.org> openssh-7.3_p1-r7.ebuild:
+  amd64 stable wrt bug #597360
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="amd64"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+
+  13 Nov 2016; Agostino Sarubbo <ago@gentoo.org> openssh-7.3_p1-r7.ebuild:
+  x86 stable wrt bug #597360
+
+  Package-Manager: portage-2.3.0
+  RepoMan-Options: --include-arches="x86"
+  Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
+

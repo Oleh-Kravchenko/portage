@@ -329,3 +329,11 @@
 
   Package-Manager: portage-2.3.0
 
+*ejabberd-16.09 (13 Nov 2016)
+
+  13 Nov 2016; Amadeusz Żołnowski <aidecoe@gentoo.org> +ejabberd-16.09.ebuild,
+  +files/ejabberd-16.09-ejabberdctl.patch:
+  Bump version to 16.09
+
+  Package-Manager: portage-2.3.2
+

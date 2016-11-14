@@ -109,3 +109,8 @@
 
   Package-Manager: portage-2.3.0
 
+  13 Nov 2016; Hans de Graaff <graaff@gentoo.org> -ruby-gio2-2.2.3.ebuild:
+  cleanup; drops x86 stable keyword, bug 587024
+
+  Package-Manager: portage-2.3.0
+

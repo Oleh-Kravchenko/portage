@@ -143,3 +143,10 @@
 
   Package-Manager: portage-2.3.0
 
+*fakefs-0.10.0 (13 Nov 2016)
+
+  13 Nov 2016; Hans de Graaff <graaff@gentoo.org> +fakefs-0.10.0.ebuild:
+  add 0.10.0
+
+  Package-Manager: portage-2.3.0
+

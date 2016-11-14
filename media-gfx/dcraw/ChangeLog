@@ -73,3 +73,9 @@
 
   Summarize DESCRIPTION.
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> dcraw-9.24.4.ebuild,
+  dcraw-9.25.0.ebuild, dcraw-9.26.0.ebuild, dcraw-9.27.0.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+

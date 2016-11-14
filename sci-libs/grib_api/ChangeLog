@@ -91,3 +91,8 @@
   01 Nov 2016; Michał Górny <mgorny@gentoo.org> grib_api-1.11.0.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  12 Nov 2016; David Seifert <soap@gentoo.org> grib_api-1.11.0.ebuild:
+  Add subslot operator on media-libs/jasper
+
+  Package-Manager: portage-2.3.2
+
