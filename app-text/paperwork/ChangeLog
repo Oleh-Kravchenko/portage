@@ -120,3 +120,13 @@
 
   Package-Manager: portage-2.3.2
 
+*paperwork-1.0.2 (14 Nov 2016)
+
+  14 Nov 2016; Bernard Cafarelli <voyageur@gentoo.org>
+  +paperwork-1.0.2.ebuild:
+  bump to 1.0.2
+
+  Tighten dependency on paperwork-backend
+
+  Package-Manager: portage-2.3.2
+

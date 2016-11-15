@@ -105,3 +105,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*bullet-2.85 (13 Nov 2016)
+
+  13 Nov 2016; David Seifert <soap@gentoo.org> +bullet-2.85.ebuild,
+  +files/bullet-2.85-soversion.patch:
+  Version bump to 2.85, EAPI bump 5 -> 6
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2820
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

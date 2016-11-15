@@ -1919,3 +1919,25 @@
   Bug: https://bugs.gentoo.org/599098
   Package-Manager: portage-2.3.2_p5
 
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org>
+  -chromium-54.0.2840.59.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.2_p5
+
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org>
+  chromium-54.0.2840.100.ebuild:
+  depend on newer harfbuzz
+
+  Bug: https://bugs.gentoo.org/599098
+
+  Package-Manager: portage-2.3.2_p5
+
+  13 Nov 2016; Mike Gilbert <floppym@gentoo.org>
+  chromium-54.0.2840.100.ebuild:
+  fix null pointer deref in V8 with gcc-6
+
+  Bug: https://bugs.gentoo.org/588596
+
+  Package-Manager: portage-2.3.2_p5
+

@@ -97,3 +97,10 @@
   vcrpy-1.7.3.ebuild, vcrpy-1.7.4.ebuild, vcrpy-1.10.0.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+*vcrpy-1.10.3 (14 Nov 2016)
+
+  14 Nov 2016; Manuel Rüger <mrueg@gentoo.org> +vcrpy-1.10.3.ebuild:
+  Version bump to 1.10.3
+
+  Package-Manager: portage-2.3.2
+

@@ -170,3 +170,16 @@
 
   Package-Manager: portage-2.3.2
 
+*msgpack-1.0.2 (14 Nov 2016)
+
+  14 Nov 2016; Hans de Graaff <graaff@gentoo.org> +msgpack-1.0.2.ebuild:
+  add 1.0.2
+
+  Package-Manager: portage-2.3.0
+
+  14 Nov 2016; Hans de Graaff <graaff@gentoo.org> -msgpack-0.7.4.ebuild,
+  -msgpack-0.7.5.ebuild, -msgpack-1.0.0.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.3.0
+

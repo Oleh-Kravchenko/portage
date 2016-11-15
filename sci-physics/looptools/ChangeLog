@@ -52,3 +52,14 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*looptools-2.13 (14 Nov 2016)
+
+  14 Nov 2016; David Seifert <soap@gentoo.org>
+  files/looptools-2.10-makefile.patch, +looptools-2.13.ebuild:
+  Version bump to 2.13
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2825
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

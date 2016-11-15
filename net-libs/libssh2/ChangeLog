@@ -169,3 +169,14 @@
 
   Package-Manager: portage-2.3.2
 
+  14 Nov 2016; Jeroen Roovers <jer@gentoo.org> libssh2-9999.ebuild:
+  Drop upstream patch (bug #599716 by Tomáš Mózes). Fix various issues.
+
+  Package-Manager: portage-2.3.2
+
+  14 Nov 2016; Jeroen Roovers <jer@gentoo.org>
+  -files/libssh2-1.4.2-pkgconfig.patch:
+  Drop obsolete patch.
+
+  Package-Manager: portage-2.3.2
+

@@ -1,0 +1,23 @@
+# ChangeLog for app-misc/ddcutil
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*ddcutil-0.6.0 (14 Nov 2016)
+
+  14 Nov 2016; David Seifert <soap@gentoo.org> +ddcutil-0.6.0.ebuild,
+  +metadata.xml:
+  Renamed from ddctool, bump to 0.6.0
+
+  This release strictly dealt with changing the name with no new
+  bug fixes or features.
+
+  Reason for rename from upstream:
+  As of release 0.6, the name of this program is changing from ddctool
+  to ddcutil to avoid confusion with a commerical datacenter program
+  also named ddctool.
+
+  Signed off by: Jonathan Scruggs (j.scruggs@gmail.com. irc: Dracwyrm)
+  Closes: https://github.com/gentoo/gentoo/pull/2830
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

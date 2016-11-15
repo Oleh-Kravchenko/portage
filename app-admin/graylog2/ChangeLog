@@ -1,0 +1,22 @@
+# ChangeLog for app-admin/graylog2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*graylog2-2.1.2 (14 Nov 2016)
+
+  14 Nov 2016; Tony Vroon <chainsaw@gentoo.org> +files/confd, +files/initd,
+  +graylog2-2.1.2.ebuild:
+  New addition. Original ebuild by Guillaume Ceccarelli with some minor
+  changes by me. Reviewed by dwfreed, iamben & K_F in #gentoo-dev.
+
+  14 Nov 2016; Tony Vroon <chainsaw@gentoo.org> +metadata.xml:
+  New addition. Original ebuild by Guillaume Ceccarelli with some minor
+  changes by me. Reviewed by dwfreed, iamben & K_F in #gentoo-dev.
+
+  Package-Manager: portage-2.3.2
+
+  14 Nov 2016; Tony Vroon <chainsaw@gentoo.org> graylog2-2.1.2.ebuild:
+  Drop usage of ${S} in src_prepare as suggested by dwfreed.
+
+  Package-Manager: portage-2.3.2
+

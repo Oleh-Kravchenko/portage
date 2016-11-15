@@ -225,3 +225,11 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*puppetserver-2.7.0 (14 Nov 2016)
+
+  14 Nov 2016; Matthew Thode <prometheanfire@gentoo.org>
+  +puppetserver-2.7.0.ebuild:
+  bup 2.7.0
+
+  Package-Manager: portage-2.3.0
+

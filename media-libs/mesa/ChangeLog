@@ -636,3 +636,10 @@
   RepoMan-Options: --include-arches="ia64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+*mesa-13.0.1 (14 Nov 2016)
+
+  14 Nov 2016; Manuel Rüger <mrueg@gentoo.org> +mesa-13.0.1.ebuild:
+  Version bump to 13.0.1
+
+  Package-Manager: portage-2.3.2
+

@@ -142,3 +142,8 @@
 
   Package-Manager: portage-2.3.0
 
+  14 Nov 2016; Christoph Junghans <junghans@gentoo.org> metadata.xml:
+  update metadata
+
+  Package-Manager: portage-2.3.0
+

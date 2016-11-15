@@ -23,3 +23,15 @@
 
   Package-Manager: portage-2.3.2
 
+*tini-0.13.0 (14 Nov 2016)
+
+  14 Nov 2016; Zac Medico <zmedico@gentoo.org> +tini-0.13.0.ebuild:
+  version bump to 0.13.0
+
+  Package-Manager: portage-2.3.2
+
+  14 Nov 2016; Manuel Rüger <mrueg@gentoo.org> metadata.xml:
+  Add myself as a maintainer
+
+  Package-Manager: portage-2.3.2
+

@@ -64,3 +64,23 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*xfoil-6.97-r1 (13 Nov 2016)
+
+  13 Nov 2016; David Seifert <soap@gentoo.org>
+  files/xfoil-6.96-gfortran.patch, files/xfoil-6.97-overflow.patch,
+  +xfoil-6.97-r1.ebuild:
+  EAPI bump 4 -> 6
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2826
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+  13 Nov 2016; David Seifert <soap@gentoo.org> -xfoil-6.97.ebuild:
+  Removing EAPI version 6.97
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2826
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

@@ -376,3 +376,9 @@
   Package-Manager: portage-2.3.2
   RepoMan-Options: --ignore-arches
 
+  14 Nov 2016; Mike Frysinger <vapier@gentoo.org> libpng-1.6.21.ebuild:
+  mark 1.6.21 arm64/ia64/m68k/s390/sh/sparc stable #583948
+
+  14 Nov 2016; Mike Frysinger <vapier@gentoo.org> libpng-1.6.25.ebuild:
+  mark 1.6.25 arm/arm64/ia64/m68k/ppc/s390/sh/sparc stable #597348
+

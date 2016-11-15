@@ -508,3 +508,9 @@
 
   Package-Manager: portage-2.3.2
 
+  14 Nov 2016; Jeroen Roovers <jer@gentoo.org> cmake-3.7.0.ebuild:
+  Mark ~hppa (bug #599668).
+
+  Package-Manager: portage-2.3.2
+  RepoMan-Options: --ignore-arches
+

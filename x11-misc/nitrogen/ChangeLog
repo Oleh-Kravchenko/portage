@@ -68,3 +68,10 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*nitrogen-1.6.0 (14 Nov 2016)
+
+  14 Nov 2016; Jeroen Roovers <jer@gentoo.org> +nitrogen-1.6.0.ebuild:
+  Version bump (bug #599698 by José Romildo Malaquias).
+
+  Package-Manager: portage-2.3.2
+

@@ -100,3 +100,14 @@
   10 Nov 2016; Mike Frysinger <vapier@gentoo.org> eselect-awk-0.2.ebuild:
   update EAPI and stabilize for all
 
+  14 Nov 2016; Christoph Junghans <junghans@gentoo.org> metadata.xml:
+  update metadata
+
+  Package-Manager: portage-2.3.0
+
+  14 Nov 2016; Christoph Junghans <junghans@gentoo.org>
+  eselect-awk-0.2.ebuild:
+  update SRC_URI
+
+  Package-Manager: portage-2.3.0
+

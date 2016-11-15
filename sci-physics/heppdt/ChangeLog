@@ -63,3 +63,21 @@
   24 Jan 2016; Michał Górny <mgorny@gentoo.org> metadata.xml:
   Set appropriate maintainer types in metadata.xml (GLEP 67)
 
+*heppdt-3.04.01-r1 (14 Nov 2016)
+
+  14 Nov 2016; David Seifert <soap@gentoo.org> +heppdt-3.04.01-r1.ebuild:
+  3.04.01-r1: EAPI bump 4 -> 6
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2824
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+
+  14 Nov 2016; David Seifert <soap@gentoo.org> -heppdt-3.04.01.ebuild:
+  Removing EAPI 4 version 3.04.01
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2824
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

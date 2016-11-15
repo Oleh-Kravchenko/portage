@@ -149,3 +149,21 @@
 
   This reverts commit 7b88e7dd798f0a6e11e4f242c33f98543ec9a9c4.
 
+*osm-gps-map-1.1.0 (13 Nov 2016)
+
+  13 Nov 2016; Marek Szuba <marecki@gentoo.org>
+  +files/osm-gps-map-1.1.0-gtk-doc-module.patch,
+  +files/osm-gps-map-1.1.0-no-maintainer-mode.patch,
+  +osm-gps-map-1.1.0.ebuild:
+  version bump to 1.1.0
+
+  There are no longer any ebuilds in the tree which depend on version 0.7.3 so
+  do
+  not bother with slots and just have 1.1.0 replace the former.
+
+  Committed with permission of the maintainers.
+
+  Gentoo-Bug: 499592
+
+  Package-Manager: portage-2.3.2
+

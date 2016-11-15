@@ -713,3 +713,8 @@
 
   Package-Manager: portage-2.3.2
 
+  14 Nov 2016; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
+  drop ebur useflag in live ebuild, bug #599662
+
+  Package-Manager: portage-2.3.2
+

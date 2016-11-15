@@ -179,3 +179,6 @@
   Package-Manager: portage-2.3.2
   Signed-off-by: Lars Wendler <polynomial-c@gentoo.org>
 
+  14 Nov 2016; Mike Frysinger <vapier@gentoo.org> db-4.8.30-r2.ebuild:
+  mark 4.8.30-r2 arm64/m68k/s390/sh stable
+

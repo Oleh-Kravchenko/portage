@@ -92,3 +92,12 @@
 
   Signed-off-by: David Seifert <soap@gentoo.org>
 
+  14 Nov 2016; David Seifert <soap@gentoo.org> -meep-1.1.1.ebuild,
+  -meep-1.2-r1.ebuild:
+  Removing EAPI 4 versions 1.1.1 and 1.2-r1
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2827
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

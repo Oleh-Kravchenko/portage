@@ -195,3 +195,23 @@
 
   Package-Manager: portage-2.3.0
 
+*mavros-0.18.4 (14 Nov 2016)
+
+  14 Nov 2016; Alexis Ballier <aballier@gentoo.org> +mavros-0.18.4.ebuild:
+  Bump to 0.18.4.
+
+  Package-Manager: portage-2.3.2
+
+  14 Nov 2016; Alexis Ballier <aballier@gentoo.org> mavros-0.18.4.ebuild,
+  mavros-9999.ebuild:
+  bump mavlink dep
+
+  Package-Manager: portage-2.3.2
+
+  14 Nov 2016; Alexis Ballier <aballier@gentoo.org> -mavros-0.17.2.ebuild,
+  -mavros-0.17.3.ebuild, -mavros-0.18.1.ebuild, -mavros-0.18.2.ebuild,
+  -mavros-0.18.3.ebuild:
+  remove old
+
+  Package-Manager: portage-2.3.2
+

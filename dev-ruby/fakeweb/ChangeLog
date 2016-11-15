@@ -102,3 +102,8 @@
 
   Package-Manager: portage-2.3.0
 
+  14 Nov 2016; Hans de Graaff <graaff@gentoo.org> -fakeweb-1.3.0-r1.ebuild:
+  cleanup
+
+  Package-Manager: portage-2.3.0
+

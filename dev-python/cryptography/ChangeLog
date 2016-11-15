@@ -538,3 +538,24 @@
   Package-Manager: portage-2.3.2
   RepoMan-Options: --include-arches="arm"
 
+*cryptography-1.5.3-r1 (14 Nov 2016)
+
+  14 Nov 2016; David Seifert <soap@gentoo.org> -cryptography-1.5.2.ebuild,
+  -cryptography-1.5.3.ebuild, +cryptography-1.5.3-r1.ebuild:
+  bump 1.5.3-r1, eapi update, fix test on first install
+
+  On first install the test would fail because it uses introspection but the
+  egg-info was not available. On second install it would work because
+  introspection
+  would (wrongly) inspect the system installed package.
+
+  Added distutils_install_for_testing to have a complete install available for
+  testing.
+
+  Gentoo-Bug: https://bugs.gentoo.org/show_bug.cgi?id=595272
+
+  Package-Manager: portage-2.3.0
+  Closes: https://github.com/gentoo/gentoo/pull/2746
+
+  Signed-off-by: David Seifert <soap@gentoo.org>
+

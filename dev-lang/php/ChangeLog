@@ -2008,3 +2008,19 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Nov 2016; Jeroen Roovers <jer@gentoo.org> php-5.6.28.ebuild:
+  Stable for PPC64 (bug #599326).
+
+  Package-Manager: portage-2.3.2
+  RepoMan-Options: --ignore-arches
+
+  14 Nov 2016; Tobias Klausmann <klausman@gentoo.org> php-5.6.28.ebuild:
+  5.6.28-r0: stable on alpha
+
+  Gentoo-Bug: 599326
+
+  14 Nov 2016; Tobias Klausmann <klausman@gentoo.org> php-7.0.13.ebuild:
+  7.0.13-r0: stable on alpha
+
+  Gentoo-Bug: 599326
+

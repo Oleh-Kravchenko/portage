@@ -215,3 +215,6 @@
   RepoMan-Options: --include-arches="amd64"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Nov 2016; Mike Frysinger <vapier@gentoo.org> gmp-6.1.0.ebuild:
+  mark 6.1.0 arm64/ia64/m68k/ppc/s390/sh/sparc/x86 stable
+

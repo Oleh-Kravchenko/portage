@@ -130,3 +130,8 @@
   hoomd-blue-9999.ebuild:
   global: Drop dead implementations from PYTHON_COMPAT
 
+  14 Nov 2016; Christoph Junghans <junghans@gentoo.org> metadata.xml:
+  update metadata
+
+  Package-Manager: portage-2.3.0
+

@@ -283,3 +283,8 @@
 
   Package-Manager: portage-2.3.2
 
+  14 Nov 2016; Tobias Klausmann <klausman@gentoo.org> memcached-1.4.33.ebuild:
+  1.4.33-r0: stable on alpha
+
+  Gentoo-Bug: 598836
+

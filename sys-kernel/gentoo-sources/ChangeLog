@@ -2380,3 +2380,9 @@
 
   Package-Manager: portage-2.3.0
 
+  14 Nov 2016; Tobias Klausmann <klausman@gentoo.org>
+  gentoo-sources-4.1.35.ebuild:
+  4.1.35-r0: stable on alpha
+
+  Gentoo-Bug: 598378
+

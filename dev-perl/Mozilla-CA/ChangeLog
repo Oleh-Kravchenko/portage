@@ -165,3 +165,9 @@
   RepoMan-Options: --include-arches="x86"
   Signed-off-by: Agostino Sarubbo <ago@gentoo.org>
 
+  14 Nov 2016; Tobias Klausmann <klausman@gentoo.org>
+  Mozilla-CA-20999999.ebuild:
+  20999999-r0: stable on alpha
+
+  Gentoo-Bug: 598686
+

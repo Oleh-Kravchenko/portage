@@ -787,3 +787,26 @@
   Package-Manager: portage-2.3.2
   RepoMan-Options: --include-arches="arm"
 
+*mariadb-10.1.19-r1 (14 Nov 2016)
+
+  14 Nov 2016; Brian Evans <grknight@gentoo.org> mariadb-10.0.28.ebuild,
+  +mariadb-10.1.19-r1.ebuild, mariadb-10.2.1_alpha.ebuild:
+  Revbump 10.1.19 and fix REQUIRED_USE for jdbc
+
+  The 10.1 and 10.2 series were not given the correct cmake values to the
+  options
+  to enable or disable innodb lzo, lz4 and snappy compression
+
+  Also added REQUIRED_USE for jdbc USE to make the error messages more user
+  friendly
+  as the java-pkg-opt-2 eclass would bail out unexpectedly and cryptically to
+  a user
+  if the correct options were not set
+
+  Package-Manager: portage-2.3.2
+
+  14 Nov 2016; Tobias Klausmann <klausman@gentoo.org> mariadb-10.0.28.ebuild:
+  10.0.28-r0: stable on alpha
+
+  Gentoo-Bug: 598704
+
