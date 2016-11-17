@@ -824,6 +824,7 @@ app-misc/gourmet:pdf - Enable export to PDF
 app-misc/gourmet:print - Enable pretty Python printing
 app-misc/gourmet:spell - Enable support for the spell check plugin
 app-misc/gourmet:web - Enable support for the web import plugin
+app-misc/gramps:geo - Enable rendering of geographical data using sci-geosciences/osm-gps-map.
 app-misc/gramps:reports - All external software that is needed for graphical reports will be installed
 app-misc/gramps:webkit - Use Webkit-based rendering for geographical data view.
 app-misc/graphlcd-base:g15 - Add support for app-misc/g15daemon driver (e.g. Logitech G15 Keybord)
@@ -2021,6 +2022,19 @@ dev-libs/openssl:sslv2 - Support for the old/insecure SSLv2 protocol -- note: no
 dev-libs/openssl:sslv3 - Support for the old/insecure SSLv3 protocol -- note: not required for TLS/https
 dev-libs/openssl:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
 dev-libs/pkcs11-helper:nss - Enable NSS crypto engine
+dev-libs/poco:7z - Add Support for the 7z archive format
+dev-libs/poco:apache - Enable support to write Apache modules using POCO
+dev-libs/poco:cppparser - Build and install a minimal C++ parser
+dev-libs/poco:crypto - Encryption and digital signing classes
+dev-libs/poco:data - Database abstraction layer to easily send/retrieve data to/from various databases
+dev-libs/poco:file2pagecompiler - Utility to convert ordinary files to Page Compiler source files
+dev-libs/poco:json - Add JSON support
+dev-libs/poco:mongodb - Add dev-db/mongodb support
+dev-libs/poco:net - Classes to write network clients & servers
+dev-libs/poco:pagecompiler - Simple compiler translating HTML pages containing embedded C++ code into HTTPRequestHandler classes
+dev-libs/poco:pocodoc - POCO documentation generator
+dev-libs/poco:util - Several utility classes (like logger, timer, config file parser)
+dev-libs/poco:zip - Add support for the zip & gz archive formats
 dev-libs/ppl:lpsol - Build the ppl_lpsol linear programming problem solver
 dev-libs/protobuf:java - Builds the Java implementation. This is not needed for Java support in protoc.
 dev-libs/protobuf:python - Builds the Python implementation. This is not needed for Python support in protoc.
@@ -2309,8 +2323,6 @@ dev-python/paste:openid - enable OpenID support
 dev-python/pillow:webp - Enable support for webp image format.
 dev-python/py-amqp:extras - Install extra tools to generate initial Python mod from an AMQP XML file
 dev-python/pyhamcrest:numpy - Enable optional dependence on dev-python/numpy
-dev-python/pylons:genshi - Add optional genshi support
-dev-python/pylons:jinja - Add optional jinja support
 dev-python/pymongo:mod_wsgi - Disable the C extension to work with mod_wsgi.
 dev-python/pyocr:cuneiform - Enable support for the app-text/cuneiform OCR engine
 dev-python/pyocr:tesseract - Enable support for the app-text/tesseract OCR engine
@@ -7758,8 +7770,6 @@ sys-kernel/ck-sources:deblob - Remove binary blobs from kernel sources to provid
 sys-kernel/ck-sources:experimental - Allow experimental code. Can break or degrade performance. (UNSUPPORTED)
 sys-kernel/ck-sources:urwlocks - Use upgradable read/write locks in place of the grq spinlock. (EXPERIMENTAL)
 sys-kernel/dracut:debug - Module installing additional tools like strace, file editor, ssh and more
-sys-kernel/dracut:device-mapper - Set of helper modules providing support for device mapper. You need to enable this only if emerge says so.
-sys-kernel/dracut:net - Set of helper modules providing networking support. You need to enable this only if emerge says so.
 sys-kernel/genkernel:crypt - Obsolete USE flag. Use cryptsetup for LUKS support. (bug ##414523)
 sys-kernel/genkernel:cryptsetup - Enable support for Luks disk encryption using sys-fs/cryptsetup
 sys-kernel/genkernel:firmware - Prefer system firmware sys-kernel/linux-firmware over local copy.
@@ -8016,6 +8026,7 @@ www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installatio
 www-client/google-chrome:plugins - Add system plugins path to launcher
 www-client/google-chrome-beta:plugins - Add system plugins path to launcher
 www-client/google-chrome-unstable:plugins - Add system plugins path to launcher
+www-client/links:libevent - Enable dev-libs/libevent support
 www-client/lynx:gnutls - Use gnutls library for HTTPS support (openssl is the default library for HTTPS support).
 www-client/lynx:ssl - Enable HTTPS support.
 www-client/midori:granite - Enable support for the elementary library dev-libs/granite

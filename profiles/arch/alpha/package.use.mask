@@ -3,8 +3,9 @@
 # $Id$
 
 # Tobias Klausmann <klausman@gentoo.org> (15 Nov 2016)
-# JITing is not supported on Alpha
+# JITing for libpcre{,2} is not supported on Alpha
 dev-libs/libpcre jit
+dev-libs/libpcre2 jit
 
 # Tobias Klausmann <klausman@gentoo.org> (22 Oct 2016)
 # Pulls in dev-db/redis which is not keyworded on alpha.
@@ -216,9 +217,6 @@ media-video/mpv doc-pdf
 # Pacho Ramos <pacho@gentoo.org> (22 Feb 2014)
 # Missing keywords, bug #495250
 >=gnome-base/gnome-extra-apps-3.10 tracker
-
-# Pacho Ramos <pacho@gentoo.org> (11 Jan 2014)
-sys-kernel/dracut -dracut_modules_systemd
 
 # Pacho Ramos <pacho@gentoo.org> (02 Dec 2013)
 # Missing keywords, bug #493156
