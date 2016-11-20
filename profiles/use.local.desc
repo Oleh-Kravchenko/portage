@@ -1901,6 +1901,8 @@ dev-libs/gobject-introspection:doctool - Install g-ir-doc-tool for generating do
 dev-libs/hidapi:fox - Build a x11-libs/fox GUI
 dev-libs/intel-common:compiler - Install the libraries needed for the icc and ifort compilers
 dev-libs/jemalloc:stats - Enable statistics calculation/reporting
+dev-libs/kreport:marble - Enable displaying of maps using kde-apps/marble
+dev-libs/kreport:scripting - Support Qml scripting using dev-qt/qtdeclarative
 dev-libs/leveldb:snappy - support the snappy compression library
 dev-libs/libRocket:samples - Build samples
 dev-libs/libbase58:tools - Build command line base58 tool
@@ -7298,6 +7300,7 @@ sys-apps/razercfg:pm-utils - Installs the pm-utils hooks for suspend/resume and 
 sys-apps/razercfg:qt4 - Installs a qt UI. Requires dev-python/pyside
 sys-apps/roccat-tools:lua - Build support for Lua scripting for RyosMKPro ripple effects
 sys-apps/s390-tools:fuse - build cmsfs-fuse to read files stored on a z/VM CMS disk
+sys-apps/s390-tools:ncurses - build hyptop monitoring program
 sys-apps/s390-tools:zfcpdump - build the kernel disk dumping utility
 sys-apps/smartmontools:minimal - Do not install the monitoring daemon and associated scripts.
 sys-apps/smartmontools:update_drivedb - Install a script to update the drivedb file.
