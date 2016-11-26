@@ -504,7 +504,6 @@ app-emulation/libvirt:xen - Support management of Xen virtualisation (app-emulat
 app-emulation/lxc:cgmanager - Enable support for cgroup management using app-admin/cgmanager
 app-emulation/lxd:daemon - Build the system daemon, not just the client tool
 app-emulation/open-vm-tools:doc - Generate API documentation
-app-emulation/open-vm-tools:fuse - Build vmblock-fuse in favor of FUSE based blocking mechanism for DnD
 app-emulation/open-vm-tools:grabbitmqproxy - Enable grabbitmqproxy
 app-emulation/open-vm-tools:pic - Force shared libraries to be built as PIC
 app-emulation/open-vm-tools:vgauth - Enable vgauth
@@ -959,7 +958,9 @@ app-office/kexi:marble - Enable displaying of maps using kde-apps/marble
 app-office/kexi:mdb - Enable support for Microsoft Access database
 app-office/kexi:webkit - Enable web form designer widget using dev-qt/qtwebkit
 app-office/kmymoney:hbci - Enable HBCI support using net-libs/aqbanking
+app-office/kmymoney:pim - Enable KDE PIM integration via kde-apps/kdepimlibs
 app-office/kmymoney:quotes - Enable Online Stock Quote retrieval
+app-office/kmymoney:weboob - Enable import of online banking transactions extracted by www-client/weboob
 app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
 app-office/libreoffice:collada - Enable Collada for rendering 3D models stored in *.dae and *.kmz format
 app-office/libreoffice:gltf - Use media-libs/libgltf for inserting 3D models in the glTF format into presentations
@@ -6883,7 +6884,7 @@ sci-libs/ceres-solver:schur - Enable fixed-size schur specializations (disable i
 sci-libs/ceres-solver:sparse - Enable support for sparse matrix algebra with various packages from SuiteSparse
 sci-libs/cfitsio:tools - Build execs fpack, funpack, imcopy, fitscopy, listhead
 sci-libs/cgnslib:legacy - Enable or disable building legacy code (3.0 compatible)
-sci-libs/cgnslib:tools - Build tools for
+sci-libs/cgnslib:tools - A number of utility programs: cgnscheck, cgnscompress, cgnsdiff, cgnslist, cgnsnames, cgnsupdate, cgnsconvert, adf2hdf, hdf2adf.
 sci-libs/chemkit:applications - Build also applications not only the libraries
 sci-libs/cholmod:cuda - Use nvidia cuda toolkit for speeding up computations
 sci-libs/cholmod:metis - Enable the Partition module to cholmod using sci-libs/metis
