@@ -17,10 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="X doc grabbitmqproxy icu pam +pic vgauth xinerama"
 
-RDEPEND="
+COMMON_DEPEND="
 	dev-libs/glib:2
 	dev-libs/libdnet
-	sys-apps/ethtool
 	sys-fs/fuse
 	>=sys-process/procps-3.3.2
 	grabbitmqproxy? ( dev-libs/openssl:0 )
@@ -33,11 +32,7 @@ RDEPEND="
 	)
 	X? (
 		dev-cpp/gtkmm:3.0
-		x11-base/xorg-server
-		x11-drivers/xf86-input-vmmouse
-		x11-drivers/xf86-video-vmware
 		x11-libs/gtk+:3
-		x11-libs/libnotify
 		x11-libs/libICE
 		x11-libs/libSM
 		x11-libs/libX11
@@ -51,13 +46,21 @@ RDEPEND="
 	)
 "
 
-DEPEND="${RDEPEND}
+DEPEND="${COMMON_DEPEND}
 	doc? ( app-doc/doxygen )
 	virtual/pkgconfig
-	sys-apps/findutils
+"
+
+RDEPEND="${COMMON_DEPEND}
 "
 
 S="${WORKDIR}/${MY_P}/open-vm-tools"
+
+PATCHES=(
+	"${FILESDIR}/10.1.0-mount.vmhgfs.patch"
+	"${FILESDIR}/10.1.0-vgauth.patch"
+	"${FILESDIR}/10.1.0-Werror.patch"
+)
 
 pkg_setup() {
 	linux-info_get_any_version
@@ -73,8 +76,8 @@ pkg_setup() {
 }
 
 src_prepare() {
-	eapply -p2 "${FILESDIR}/10.1.0-vgauth.patch"
-	default
+	eapply -p2 "${PATCHES[@]}"
+	eapply_user
 	eautoreconf
 }
 
@@ -104,9 +107,6 @@ src_configure() {
 	)
 
 	econf "${myeconfargs[@]}"
-
-	# Bugs 260878, 326761
-	find . -name Makefile -exec sed -i -e 's/-Werror//g' '{}' +  || die "sed out Werror failed"
 }
 
 src_compile() {
@@ -126,11 +126,8 @@ src_install() {
 	systemd_dounit "${FILESDIR}"/vmtoolsd.service
 
 	if use X; then
-		fperms 4755 /usr/bin/vmware-user-suid-wrapper
+		fperms 4711 /usr/bin/vmware-user-suid-wrapper
 		dobin scripts/common/vmware-xdg-detect-de
-
-		insinto /etc/xdg/autostart
-		doins "${FILESDIR}"/open-vm-tools.desktop
 
 		elog "To be able to use the drag'n'drop feature of VMware for file"
 		elog "exchange, please add the users to the 'vmware' group."
