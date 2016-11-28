@@ -288,7 +288,7 @@ app-crypt/ekeyd:usb - Build the libusb-based userland daemon for accessing the E
 app-crypt/gnupg:mta - Build mta support using virtual/mta.
 app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd. Bring in dev-libs/libusb as a dependency; enable scdaemon.
 app-crypt/gnupg:tofu - Enable support for Trust of First use trust model; requires dev-db/sqlite.
-app-crypt/gnupg:tools - Install extra tools.
+app-crypt/gnupg:tools - Install extra tools (including gpgsplit and gpg-zip).
 app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
 app-crypt/gnupg:wks-server - Install the wks-server
 app-crypt/gpgme:common-lisp - Install common-lisp files
@@ -4120,7 +4120,7 @@ media-libs/x265:pic - Disable optimized assembly code that is not PIC friendly
 media-libs/xine-lib:bluray - Enable playback of Blu-ray filesystems using media-libs/libbluray
 media-libs/xine-lib:dxr3 - Enable support for DXR3 mpeg acceleration cards.
 media-libs/xine-lib:flac - Build the media-libs/flac based FLAC demuxer and decoder. This flag is not needed for playing FLAC content, neither standalone nor in Ogg container (OggFLAC), but might have better support for exotic features like 24-bit samples or 96kHz sample rates.
-media-libs/xine-lib:fusion - Enable support for the Fusion audio sub system
+media-libs/xine-lib:fusionsound - Enable support for the Fusion audio sub system
 media-libs/xine-lib:gtk - Build the gdkpixbuf-based image decoder plugin.
 media-libs/xine-lib:imagemagick - Build the ImageMagick-based image decoder plugin.
 media-libs/xine-lib:mad - Build the media-libs/libmad based mp3 decoder. This mp3 decoder has superior support compared to the one coming from FFmpeg that is used as a fallback. If you experience any bad behaviour with mp3 files (skipping, distorted sound) make sure you enabled this USE flag.
@@ -4386,7 +4386,6 @@ media-sound/moc:sid - Build with SID (Commodore 64 Audio) support
 media-sound/moc:tremor - Build vorbis support using an integer implementation of the vorbis library (media-libs/tremor)
 media-sound/mp3blaster:sid - Build with SID (Commodore 64 Audio) support
 media-sound/mp3splt-gtk:audacious - Include media-sound/audacious support
-media-sound/mp3splt-gtk:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 media-sound/mpd:adplug - Enable the AdPlug decoder plugin
 media-sound/mpd:cdio - Use libcdio for ISO9660 parsing support
 media-sound/mpd:curl - Support for web stream listening
@@ -6737,8 +6736,6 @@ sci-biology/clustalw-mpi:mpi_njtree - Use MPI (as opposed to serial) code for co
 sci-biology/clustalw-mpi:static_pairalign - Use static (as opposed to dynamic) scheduling for pair alignments
 sci-biology/exonerate:utils - Install all utilities
 sci-biology/fasttree:double-precision - use double precision instead of single-precision floating point (2x memroy required)
-sci-biology/gmap:goby - Enable support for goby
-sci-biology/gmap:samtools - Enable support for samtools
 sci-biology/goby:cpp - Compile C/C++ API
 sci-biology/mcl:blast - add support for NCBI BLAST data
 sci-biology/plink:R - add support R language
@@ -7795,8 +7792,6 @@ sys-kernel/mips-sources:cobalt - Enables support for Cobalt Microserver hardware
 sys-kernel/mips-sources:ip27 - Enables support for SGI Origin (IP27)
 sys-kernel/mips-sources:ip28 - Enables support for SGI Indigo2 Impact R10000 (IP28)
 sys-kernel/mips-sources:ip30 - Enables support for SGI Octane (IP30, 'Speedracer')
-sys-kernel/pf-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
-sys-kernel/pf-sources:experimental - Apply patches that are considered experimental. For more information, check out the ChangeLog or the ebuild that interests you.
 sys-kernel/rt-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
 sys-kernel/spl:debug-log - Enable additional diagnostics
 sys-kernel/tuxonice-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".

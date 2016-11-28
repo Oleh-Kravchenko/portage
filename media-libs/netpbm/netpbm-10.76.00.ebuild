@@ -12,12 +12,13 @@ SRC_URI="mirror://gentoo/${P}.tar.xz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux"
-IUSE="doc jbig jpeg jpeg2k png rle cpu_flags_x86_sse2 static-libs svga tiff X xml zlib"
+IUSE="doc jbig jpeg jpeg2k png postscript rle cpu_flags_x86_sse2 static-libs svga tiff X xml zlib"
 
 RDEPEND="jbig? ( media-libs/jbigkit )
 	jpeg? ( virtual/jpeg:0 )
 	jpeg2k? ( media-libs/jasper )
 	png? ( >=media-libs/libpng-1.4:0 )
+	postscript? ( app-text/ghostscript-gpl )
 	rle? ( media-libs/urt )
 	svga? ( media-libs/svgalib )
 	tiff? ( >=media-libs/tiff-3.5.5:0 )
@@ -55,31 +56,12 @@ netpbm_config() {
 src_prepare() {
 	epatch "${FILESDIR}"/netpbm-10.76.00-build.patch
 	epatch "${FILESDIR}"/netpbm-10.76.00-test.patch #450530
+	epatch "${FILESDIR}"/netpbm-10.76.00-misc-deps.patch
+	epatch "${FILESDIR}"/netpbm-10.76.00-pbmtext-test.patch #601012
 
 	# make sure we use system libs
 	sed -i '/SUPPORT_SUBDIRS/s:urt::' GNUmakefile || die
 	rm -r urt converter/other/jbig/libjbig converter/other/jpeg2000/libjasper || die
-
-	# disable certain tests based on active USE flags
-	local del=(
-		$(usex jbig '' 'jbigtopnm pnmtojbig jbig-roundtrip')
-		$(usex rle '' 'utahrle-roundtrip')
-		$(usex tiff '' 'tiff-roundtrip')
-	)
-	if [[ ${#del[@]} -gt 0 ]] ; then
-		sed -i -r $(printf -- ' -e /%s.test/d' "${del[@]}") test/Test-Order || die
-	fi
-	del=(
-		pnmtofiasco fiascotopnm # We always disable fiasco
-		$(usex jbig '' 'jbigtopnm pnmtojbig')
-		$(usex jpeg2k '' 'jpeg2ktopam pamtojpeg2k')
-		$(usex rle '' 'pnmtorle rletopnm')
-		$(usex tiff '' 'pamtotiff pnmtotiff pnmtotiffcmyk tifftopnm')
-	)
-	if [[ ${#del[@]} -gt 0 ]] ; then
-		sed -i -r $(printf -- ' -e s/\<%s\>(:.ok)?//' "${del[@]}") test/all-in-place.{ok,test} || die
-		sed -i '/^$/d' test/all-in-place.ok || die
-	fi
 
 	# take care of the importinc stuff ourselves by only doing it once
 	# at the top level and having all subdirs use that one set #149843
@@ -90,6 +72,21 @@ src_prepare() {
 	sed -i \
 		-e '/%.c/s: importinc$::' \
 		common.mk lib/Makefile lib/util/Makefile || die
+	sed -i \
+		-e 's:pkg-config:$(PKG_CONFIG):' \
+		GNUmakefile converter/other/Makefile other/pamx/Makefile || die
+
+	# The postscript knob is currently bound up with a fork test.
+	if ! use postscript ; then
+		sed -i \
+			-e 's:$(DONT_HAVE_PROCESS_MGMT):Y:' \
+			converter/other/Makefile generator/Makefile || die
+		sed -i -r \
+			-e 's:(pbmtextps|pnmtops|pstopnm).*::' \
+			test/all-in-place.{ok,test} || die
+		sed -i -e '/^$/d' test/all-in-place.ok || die
+		sed -i '2iexit 80' test/ps-{alt-,}roundtrip.test || die
+	fi
 
 	# avoid ugly depend.mk warnings
 	touch $(find . -name Makefile | sed s:Makefile:depend.mk:g)
@@ -112,6 +109,7 @@ src_configure() {
 	LD_FOR_BUILD = \$(CC_FOR_BUILD)
 	AR = $(tc-getAR)
 	RANLIB = $(tc-getRANLIB)
+	PKG_CONFIG = $(tc-getPKG_CONFIG)
 
 	STRIPFLAG =
 	CFLAGS_SHLIB = -fPIC
