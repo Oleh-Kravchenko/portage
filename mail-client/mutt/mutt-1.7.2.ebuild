@@ -18,7 +18,7 @@ SRC_URI="ftp://ftp.mutt.org/pub/mutt/${P}.tar.gz
 IUSE="berkdb crypt debug doc gdbm gnutls gpg idn imap kerberos libressl mbox nls nntp notmuch pop qdbm sasl selinux sidebar slang smime smtp ssl tokyocabinet vanilla"
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~alpha ~amd64 ~x86 ~x64-freebsd ~x86-freebsd ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd ~x64-freebsd ~x86-freebsd ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 CDEPEND="
 	app-misc/mime-types
 	nls? ( virtual/libintl )
@@ -31,45 +31,45 @@ CDEPEND="
 		)
 	)
 	imap?    (
-		gnutls?  ( >=net-libs/gnutls-1.0.17 )
+		gnutls?  ( >=net-libs/gnutls-1.0.17:= )
 		!gnutls? (
 			ssl? (
-				!libressl? ( >=dev-libs/openssl-0.9.6:0 )
-				libressl? ( dev-libs/libressl )
+				!libressl? ( >=dev-libs/openssl-0.9.6:0= )
+				libressl? ( dev-libs/libressl:= )
 			)
 		)
 		sasl?    ( >=dev-libs/cyrus-sasl-2 )
 	)
 	kerberos? ( virtual/krb5 )
 	pop?     (
-		gnutls?  ( >=net-libs/gnutls-1.0.17 )
+		gnutls?  ( >=net-libs/gnutls-1.0.17:= )
 		!gnutls? (
 			ssl? (
-				!libressl? ( >=dev-libs/openssl-0.9.6:0 )
-				libressl? ( dev-libs/libressl )
+				!libressl? ( >=dev-libs/openssl-0.9.6:0= )
+				libressl? ( dev-libs/libressl:= )
 			)
 		)
 		sasl?    ( >=dev-libs/cyrus-sasl-2 )
 	)
 	smtp?     (
-		gnutls?  ( >=net-libs/gnutls-1.0.17 )
+		gnutls?  ( >=net-libs/gnutls-1.0.17:= )
 		!gnutls? (
 			ssl? (
-				!libressl? ( >=dev-libs/openssl-0.9.6:0 )
-				libressl? ( dev-libs/libressl )
+				!libressl? ( >=dev-libs/openssl-0.9.6:0= )
+				libressl? ( dev-libs/libressl:= )
 			)
 		)
 		sasl?    ( >=dev-libs/cyrus-sasl-2 )
 	)
 	idn?     ( net-dns/libidn )
-	gpg?     ( >=app-crypt/gpgme-0.9.0 )
+	gpg?     ( >=app-crypt/gpgme-0.9.0:= )
 	smime?   (
-		!libressl? ( >=dev-libs/openssl-0.9.6:0 )
-		libressl? ( dev-libs/libressl )
+		!libressl? ( >=dev-libs/openssl-0.9.6:0= )
+		libressl? ( dev-libs/libressl:= )
 	)
-	notmuch? ( net-mail/notmuch )
+	notmuch? ( net-mail/notmuch:= )
 	slang? ( sys-libs/slang )
-	!slang? ( >=sys-libs/ncurses-5.2:0 )
+	!slang? ( >=sys-libs/ncurses-5.2:0= )
 "
 DEPEND="${CDEPEND}
 	net-mail/mailbase
