@@ -1093,9 +1093,12 @@ app-text/groonga:zeromq - Enable net-libs/zeromq used for suggestion
 app-text/hyperestraier:mecab - Enable app-text/mecab support for Estraier
 app-text/jmupdf:system-mupdf - Link against system version of app-text/mupdf
 app-text/lcdf-typetools:kpathsea - Enable integration with kpathsea search library (TeX related)
+app-text/libebook:tools - Build file conversion tools
+app-text/libmwaw:tools - Build file conversion tools
 app-text/libstaroffice:tools - Build conversion tools
 app-text/libstaroffice:zlib - Enable support for compressed data
-app-text/libwpd:tools - Build miscellaneous tools
+app-text/libwpd:tools - Build file conversion tools
+app-text/libwps:tools - Build file conversion tools
 app-text/mathtex:png - Generate png images by default instead of gif
 app-text/mupdf:openssl - Use dev-libs/openssl crypto backend
 app-text/pandoc:embed_data_files - Embed data files in binary for relocatable executable.
@@ -1971,7 +1974,7 @@ dev-libs/libnl:doc - Install development documentation
 dev-libs/libnl:python - Install experimental dev-lang/python bindings
 dev-libs/libnl:utils - Install command line interface utils
 dev-libs/liborcus:spreadsheet-model - Enable the spreadsheet model implementation
-dev-libs/liborcus:tools - Build miscellaneous tools
+dev-libs/liborcus:tools - Build various low-level parsers
 dev-libs/libowfat:diet - Compile against dev-libs/dietlibc
 dev-libs/libp11:doc - Generate and install API documentation for the package.
 dev-libs/libpcre:bzip2 - Add support for pcregrep command to search within bzip2-compressed files (via app-arch/bzip2).
@@ -7787,7 +7790,6 @@ sys-fs/zfs:test-suite - Install regression test suite
 sys-fs/zfs-kmod:rootfs - Install zfs-shutdown script to support exporting a pool containing rootfs
 sys-kernel/aufs-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
 sys-kernel/aufs-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
-sys-kernel/aufs-sources:kdbus - Apply the kdbus patch. This also requires the "experimental" use flag.
 sys-kernel/aufs-sources:module - Patch kernel to allow aufs being build as a module.
 sys-kernel/aufs-sources:vanilla - Use vanilla kernel sources without applying genpatches. WARNING: This flag will drop all support from the Gentoo Kernel Security team
 sys-kernel/bliss-initramfs:luks - Encryption support
