@@ -30,6 +30,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Göktürk Yüksek <gokturk@gentoo.org> (22 Dec 2016)
+# Dead upstream, no more hosted on googlecode
+# No reverse dependencies. Masked for removal in 30 days.
+app-admin/phpsyslogng
+
 # Davide Pesavento <pesa@gentoo.org> (21 Dec 2016)
 # Fails to install (bug 587376 and 584988), upstream stopped maintaining
 # the 5.x release series 2 years ago. Use dev-util/eric:6 instead.
@@ -104,10 +109,6 @@ dev-python/pygtkspellcheck
 # Duplicate package, see sci-libs/Shapely.
 # Removal in 30 days.
 dev-python/shapely
-
-# Eray Aslan <eras@gentoo.org> (01 Dec 2016)
-# Mask release candidates
-=app-crypt/heimdal-7.0*
 
 # Bernard Cafarelli <voyageur@gentoo.org> (30 Nov 2016)
 # Do not support gnustep-make v2 mode, last release more than 10 years ago
