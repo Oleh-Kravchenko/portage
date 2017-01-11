@@ -1191,7 +1191,6 @@ app-text/writerperfect:wpd - Add support for wpd format using app-text/libwpd
 app-text/writerperfect:wpg - Add support for wpg format using app-text/libwpg
 app-text/writerperfect:wps - Add support for wps format using app-text/libwps
 app-text/wv:tools - Install optional utilities considered deprecated in favor of using AbiWord.
-app-text/xiphos:webkit - Use net-libs/webkit-gtk instead of gnome-extra/gtkhtml
 app-text/xmlto:text - Support conversion from XML to plain text
 app-text/yagf:cuneiform - Enable support for the app-text/cuneiform OCR engine.
 app-text/yagf:tesseract - Enable support for the app-text/tesseract OCR engine.
@@ -1949,6 +1948,7 @@ dev-libs/libdbusmenu:gtk - Enable support for GTK+2
 dev-libs/libdbusmenu:gtk3 - Enable support for GTK+3
 dev-libs/libdivecomputer:tools - Install tools that can be used to test the library.
 dev-libs/libdynd:cuda - Enable NVIDIA CUDA toolkit support
+dev-libs/libdynd:mkl - Enable a plugin for Intel Math Kernel Library sci-libs/mkl
 dev-libs/libevent:debug - Support runtime debug mode and malloc hooks (for programmers)
 dev-libs/libffi:pax_kernel - Use PaX emulated trampolines, for we can't use PROT_EXEC
 dev-libs/libflatarray:cuda - Enables plugins for NVIDIA GPUs (e.g. CUDAAllocator)
@@ -2226,6 +2226,7 @@ dev-php/PEAR-HTTP_Request2:curl - Force dev-lang/php to be compiled with curl ex
 dev-php/PEAR-HTTP_Request2:fileinfo - Force dev-lang/php to be compiled with fileinfo extension
 dev-php/PEAR-HTTP_Request2:ssl - Force dev-lang/php to be compiled with ssl extension
 dev-php/PEAR-HTTP_Request2:zlib - Force dev-lang/php to be compiled with zlib extension
+dev-php/PEAR-PHP_Beautifier:cli - Require dev-lang/php to be built with the "cli" SAPI and install the php_beautifier script.
 dev-php/PEAR-PHP_Shell:auto-completion - Enable tab-completion
 dev-php/ZendFramework:cli - Enables the CLI
 dev-php/ZendFramework:doc - Installs the documentation
@@ -6511,16 +6512,11 @@ net-p2p/i2p:nls - Adds Native Language Support using GNU gettext.
 net-p2p/ktorrent:bwscheduler - Schedule upload and download limits over a period of a week
 net-p2p/ktorrent:downloadorder - Specify the download order of a multi-file torrent
 net-p2p/ktorrent:infowidget - Displays general information about a torrent in several tabs
-net-p2p/ktorrent:ipfilter - Filter IP addresses through a blocklist
 net-p2p/ktorrent:logviewer - Displays the logging output
 net-p2p/ktorrent:magnetgenerator - Generates magnet URI's
 net-p2p/ktorrent:mediaplayer - Phonon-based media player
-net-p2p/ktorrent:rss - Syndication plugin for KTorrent, supporting RSS and Atom feeds
-net-p2p/ktorrent:scanfolder - Scan folders for torrent files and load them
-net-p2p/ktorrent:search - Search for torrents
 net-p2p/ktorrent:shutdown - Shutdown when done
 net-p2p/ktorrent:stats - Shows statistics about torrents in several graphs
-net-p2p/ktorrent:webinterface - Allows control of KTorrent via a web interface
 net-p2p/ktorrent:zeroconf - Discover peers on the local network using the Zeroconf protocol
 net-p2p/litecoin-qt:qrcode - Enable generation of QR Codes for receiving payments
 net-p2p/litecoind:logrotate - Use app-admin/logrotate for rotating logs
@@ -6574,17 +6570,23 @@ net-proxy/haproxy:pcre-jit - Use JIT support for PCRE
 net-proxy/haproxy:slz - Use dev-libs/libslz compression library
 net-proxy/haproxy:tools - Install additional tools (halog, iprange)
 net-proxy/haproxy:wurfl - Device Detection using WURFL
+net-proxy/privoxy:client-tags - Enable support for client-specific tags
+net-proxy/privoxy:compression - Allow privoxy to compress buffered content before sending to the client, if it supports it
 net-proxy/privoxy:editor - Enable the web-based actions file editor
+net-proxy/privoxy:extended-host-patterns - Enable and require PCRE syntax in host patterns. You must convert action files to PCRE, see privoxy-url-pattern-translator.pl Use at your own risk!
 net-proxy/privoxy:external-filters - Allow to filter content with scripts and programs. Experimental
 net-proxy/privoxy:fast-redirects - Support fast redirects
 net-proxy/privoxy:force - Allow single-page disable (force load)
 net-proxy/privoxy:graceful-termination - Allow to shutdown Privoxy through the webinterface
+net-proxy/privoxy:ie-images - Enable a quick but not always reliable auto-detect whether requests from MS Internet Explorer are for an image or not
 net-proxy/privoxy:image-blocking - Allows the +handle-as-image action, to send "blocked" images instead of HTML
 net-proxy/privoxy:lfs - Support large files (>2GB) on 32-bit systems
 net-proxy/privoxy:png-images - Use PNG format instead of GIF for built-in images
 net-proxy/privoxy:stats - Keep statistics
 net-proxy/privoxy:toggle - Support temporary disable toggle via web interface
+net-proxy/privoxy:tools - Install log parser, regression tester and user agent generator tools
 net-proxy/privoxy:whitelists - Support trust files (white lists)
+net-proxy/privoxy:zlib - Use sys-libs/zlib to decompress data before filtering
 net-proxy/rejik:banlists - Install upstream provided simple banlists
 net-proxy/shadowsocks-libev:mbedtls - Use net-libs/mbedtls as crypto backend
 net-proxy/shadowsocks-libev:openssl - Use dev-libs/openssl as crypto backend
@@ -7354,7 +7356,6 @@ sys-apps/systemd:doc - Generate systemd.index.7 and systemd.directives.7
 sys-apps/systemd:elfutils - Enable coredump stacktraces in the journal
 sys-apps/systemd:gcrypt - Enable sealing of journal files using gcrypt; required to build systemd-import/systemd-pull
 sys-apps/systemd:gnuefi - Enable EFI boot manager and stub loader (built using sys-boot/gnu-efi)
-sys-apps/systemd:gudev - enable libudev gobject interface
 sys-apps/systemd:http - Enable embedded HTTP server in journald
 sys-apps/systemd:importd - Enable import daemon
 sys-apps/systemd:kdbus - Connect to kernel dbus (KDBUS) instead of userspace dbus if available
@@ -7363,7 +7364,6 @@ sys-apps/systemd:lz4 - Enable lz4 compression for the journal
 sys-apps/systemd:nat - Enable support for network address translation in networkd
 sys-apps/systemd:qrcode - Enable qrcode output support in journal
 sys-apps/systemd:sysv-utils - Install sysvinit compatibility symlinks and manpages for init, telinit, halt, poweroff, reboot, runlevel, and shutdown
-sys-apps/systemd:terminal - Enable experimental userspace virtual terminal support
 sys-apps/systemd:vanilla - Disable Gentoo-specific behavior and compatibility quirks
 sys-apps/systemd:xkb - Validate XKB keymap in logind
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
