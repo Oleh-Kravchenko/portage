@@ -3,7 +3,6 @@ amd64
 amd64-fbsd
 arm
 arm64
-arm64-linux
 hppa
 ia64
 m68k
@@ -29,6 +28,7 @@ ia64-hpux
 x86-interix
 amd64-linux
 arm-linux
+arm64-linux
 ia64-linux
 ppc64-linux
 x86-linux
