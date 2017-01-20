@@ -2418,6 +2418,7 @@ dev-python/restkit:cli - Install the restcli command line interface/tool, based 
 dev-python/scrapy:boto - Add support for Amazon S3 via dev-python/boto
 dev-python/scrapy:ibl - Use Instace Based Learning algorithm for automatic extraction
 dev-python/simplecv:shell - Enable the iPython SimpleCV shell
+dev-python/sphinx:net - enable internet capabilities
 dev-python/spyder:ipython - Add support for dev-python/ipython
 dev-python/spyder:matplotlib - Add support for dev-python/matplotlib
 dev-python/spyder:numpy - Add support for dev-python/numpy
@@ -4839,6 +4840,7 @@ media-video/mpv:bluray - Enable playback of Blu-ray filesystems
 media-video/mpv:bs2b - Enable Bauer stereophonic-to-binaural headphone filter
 media-video/mpv:cdio - Enable CDDA support via dev-libs/libcdio-paranoia
 media-video/mpv:cli - Build mpv CLI player
+media-video/mpv:cuda - Enable hardware video decoding via Nvidia CUDA
 media-video/mpv:doc-pdf - Build documentation in pdf format
 media-video/mpv:drm - Enable Kernel Mode Setting / Direct Rendering Manager based video output
 media-video/mpv:egl - Enable support for various EGL-based video outputs
@@ -5387,8 +5389,10 @@ net-fs/samba:aio - Enable asynchronous IO support
 net-fs/samba:client - Enables the client part
 net-fs/samba:cluster - Enable support for clustering
 net-fs/samba:dmapi - Enable support for DMAPI. This currently works only in combination with XFS.
+net-fs/samba:gpg - Use app-crypt/gpgme for AD DC
 net-fs/samba:iprint - Enabling iPrint technology by Novell
 net-fs/samba:quota - Enables support for user quotas
+net-fs/samba:system-heimdal - Use app-crypt/heimdal instead of bundled heimdal.
 net-fs/samba:system-mitkrb5 - Use app-crypt/mit-krb5 instead of app-crypt/heimdal.
 net-fs/samba:winbind - Enables support for the winbind auth daemon
 net-fs/smbnetfs:gnome - Use the gnome-base/gnome-keyring for password management.
