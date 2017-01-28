@@ -2002,6 +2002,7 @@ dev-libs/libpcre2:recursion-limit - Limit match recursion to 8192; if disabled, 
 dev-libs/libpcre2:zlib - Add support for pcregrep command to search within gzip-compressed files (via sys-libs/zlib).
 dev-libs/libpeas:glade - Install the glade catalog
 dev-libs/libpeas:python - Build support for loading dev-lang/python plugins
+dev-libs/librdkafka:lz4 - Enable support for Kafka's LZ4 compression based on KIP-57 (uses app-arch/lz4)
 dev-libs/libressl:asm - Enables assembly
 dev-libs/libsecp256k1:asm - Enable x86_64 assembly optimisation
 dev-libs/libsecp256k1:ecdh - Enable ECDH shared secret computation
@@ -8033,7 +8034,6 @@ www-client/firefox:custom-optimization - Build with user-specified compiler opti
 www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
 www-client/firefox:gstreamer-0 - Use gstreamer:0.10 instead of gstreamer:1 for media support
 www-client/firefox:gtk2 - Use the cairo-gtk2 rendering engine
-www-client/firefox:gtk3 - Use the cairo-gtk3 rendering engine
 www-client/firefox:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
 www-client/firefox:jemalloc - Enable or disable jemalloc
 www-client/firefox:jemalloc3 - Enable or disable jemalloc3 (forced-on when supported prior to 38.0)
