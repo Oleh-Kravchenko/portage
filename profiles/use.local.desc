@@ -4830,10 +4830,11 @@ media-video/mpv:bluray - Enable playback of Blu-ray filesystems
 media-video/mpv:bs2b - Enable Bauer stereophonic-to-binaural headphone filter
 media-video/mpv:cdio - Enable CDDA support via dev-libs/libcdio-paranoia
 media-video/mpv:cli - Build mpv CLI player
+media-video/mpv:cplugins - Enable C plugins support
 media-video/mpv:cuda - Enable hardware video decoding via Nvidia CUDA
 media-video/mpv:doc-pdf - Build documentation in pdf format
 media-video/mpv:drm - Enable Kernel Mode Setting / Direct Rendering Manager based video output
-media-video/mpv:egl - Enable support for various EGL-based video outputs
+media-video/mpv:egl - Enable support for various EGL-based video outputs / backends
 media-video/mpv:enca - Enable subtitles charset discovery via app-i18n/enca
 media-video/mpv:gbm - Enable Graphics Buffer Manager based EGL video output
 media-video/mpv:jpeg - Enable support for saving screenshots in JPEG format
@@ -8012,6 +8013,7 @@ www-apps/wordpress:akismet - Installs Akismet comment spam plug-in
 www-apps/wordpress:themes - Installs themes (including default theme)
 www-client/chromium:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 www-client/chromium:gconf - Enable support for GConf to retrieve system settings
+www-client/chromium:gn - Use GN (generate ninja) instead of GYP for building
 www-client/chromium:gtk3 - Use gtk3 instead of gtk2
 www-client/chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
 www-client/chromium:pic - Disable optimized assembly code that is not PIC friendly
