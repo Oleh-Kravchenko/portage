@@ -35,11 +35,11 @@ COMMON_DEPEND=""${PYTHON_DEPS}"
 	x11-libs/libXrandr
 	x11-libs/libXtst
 	csc? (
-		!libav? ( >=media-video/ffmpeg-1.2.2:0= )
+		!libav? ( >=media-video/ffmpeg-3.2.2:0= )
 		libav? ( media-video/libav:0= )
 	)
 	dec_av2? (
-		!libav? ( >=media-video/ffmpeg-2:0= )
+		!libav? ( >=media-video/ffmpeg-3.2.2:0= )
 		libav? ( media-video/libav:0= )
 	)
 	opengl? ( dev-python/pygtkglext )
@@ -50,11 +50,11 @@ COMMON_DEPEND=""${PYTHON_DEPS}"
 	vpx? ( media-libs/libvpx virtual/ffmpeg )
 	webp? ( media-libs/libwebp )
 	x264? ( media-libs/x264
-		!libav? ( >=media-video/ffmpeg-1.0.4:0= )
+		!libav? ( >=media-video/ffmpeg-3.2.2:0= )
 		libav? ( media-video/libav:0= )
 	)
 	x265? ( media-libs/x265
-		!libav? ( >=media-video/ffmpeg-2:0= )
+		!libav? ( >=media-video/ffmpeg-3.2.2:0= )
 		libav? ( media-video/libav:0= )
 	)"
 
@@ -91,7 +91,8 @@ python_prepare_all() {
 
 	epatch \
 		"${FILESDIR}"/${PN}-0.13.1-ignore-gentoo-no-compile.patch \
-		"${FILESDIR}"/${PN}-0.17.4-deprecated-avcodec.patch
+		"${FILESDIR}"/${PN}-0.17.4-deprecated-avcodec.patch \
+		"${FILESDIR}"/${PN}-1.0.1-cflags-param.patch
 
 	if use libav ; then
 		if ! has_version ">=media-video/libav-9" ; then
