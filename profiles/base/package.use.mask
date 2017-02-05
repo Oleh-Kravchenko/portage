@@ -5,6 +5,11 @@
 # This file requires >=portage-2.1.1
 # New entries go on top.
 
+# Ulrich Müller <ulm@gentoo.org> (4 Feb 2017)
+# Uses old and vulnerable net-libs/webkit-gtk:3, bug #584156.
+app-editors/emacs:25 xwidgets
+app-editors/emacs-vcs:25 xwidgets
+
 # Alexis Ballier <aballier@gentoo.org> (31 Jan 2017)
 # nvenc requires nvidia drivers, apply same mask logic
 media-video/ffmpeg nvenc
@@ -29,10 +34,6 @@ dev-lang/python-exec -python_targets_python3_6
 # Matt Turner <mattst88@gentoo.org> (25 Jan 2017)
 # xf86-video-??? masked for removal
 x11-base/xorg-drivers video_cards_v4l
-
-# Ilya Tumaykin <itumaykin+gentoo@gmail.com> (19 Jan 2017)
-# Requires x11-drivers/nvidia-drivers available on selected few arches.
-media-video/mpv cuda
 
 # Lars Wendler <polynomial-c@gentoo.org> (19 Jan 2017)
 # Masked until system heimdal can finally be used with AD DC
@@ -132,10 +133,6 @@ media-plugins/grilo-plugins chromaprint
 # Pacho Ramos <pacho@gentoo.org> (21 Aug 2016)
 # x11-libs/libsvg-cairo is being removed, bug #537918
 dev-ml/cairo-ocaml svg
-
-# Pacho Ramos <pacho@gentoo.org> (21 Aug 2016)
-# net-libs/libzrtpcpp will be removed, bug #528514
-net-libs/ortp zrtp
 
 # Lars Wendler <polynomial-c@gentoo.org> (19 Aug 2016)
 # gnutls is broken for years
@@ -389,12 +386,6 @@ dev-libs/DirectFB swfdec
 # Masked since skype isn't stable
 net-im/bitlbee skype
 
-# Michał Górny <mgorny@gentoo.org> (15 Sep 2014)
-# Unsuccessful version bump of net-libs/libzrtpcpp, seems to cause
-# undefined references few layers deeper. Need further investigation,
-# if anybody cares.
-net-libs/ortp zrtp
-
 # Rick Farina <zerochaos@gentoo.org> (26 Aug 2014)
 # mirisdr does not seem to like making releases
 <net-wireless/gr-osmosdr-9999 mirisdr
@@ -582,8 +573,8 @@ sci-libs/flann cuda
 <media-sound/audacity-2.1.0 ffmpeg
 
 # Alexandre Rostovtsev <tetromino@gentoo.org> (30 Dec 2012)
-# chromium and mono are keyworded only on a few arches
-gnome-extra/zeitgeist-datasources chromium tomboy
+# chromium is keyworded only on a few arches
+gnome-extra/zeitgeist-datasources chromium
 
 # Christoph Junghans <junghans@gentoo.org> (26 Dec 2012)
 # cuda/mkl only works on x86/amd64
