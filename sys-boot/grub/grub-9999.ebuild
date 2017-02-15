@@ -26,7 +26,7 @@ if [[ ${PV} != 9999 ]]; then
 		SRC_URI="mirror://gnu/${PN}/${P}.tar.xz"
 		S=${WORKDIR}/${P%_*}
 	fi
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="~amd64 ~arm64 ~x86"
 else
 	inherit git-r3
 	EGIT_REPO_URI="git://git.sv.gnu.org/grub.git
@@ -95,8 +95,14 @@ DEPEND="${RDEPEND}
 		)
 	)
 	test? (
-		dev-libs/libisoburn
+		app-admin/genromfs
+		app-arch/cpio
+		app-arch/lzop
 		app-emulation/qemu
+		dev-libs/libisoburn
+		sys-apps/miscfiles
+		sys-block/parted
+		sys-fs/squashfs-tools
 	)
 	themes? (
 		app-arch/unzip
@@ -136,6 +142,14 @@ src_prepare() {
 		# fix texinfo file name, bug 416035
 		sed -i -e 's/^\* GRUB:/* GRUB2:/' -e 's/(grub)/(grub2)/' docs/grub.texi || die
 	fi
+
+	# Nothing in Gentoo packages 'american-english' in the exact path
+	# wanted for the test, but all that is needed is a compressible text
+	# file, and we do have 'words' from miscfiles in the same path.
+	sed -i \
+		-e '/CFILESSRC.*=/s,american-english,words,' \
+		tests/util/grub-fs-tester.in \
+		|| die
 
 	if [[ -n ${GRUB_AUTOGEN} ]]; then
 		python_setup
