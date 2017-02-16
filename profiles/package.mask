@@ -252,13 +252,16 @@ x11-drivers/xf86-video-v4l
 # Michał Górny <mgorny@gentoo.org> (24 Jan 2017)
 # Mask 4.0.0 RCs (then final) for initial testing, and updating most
 # important revdeps. Also revdeps that require 4.0.
+=app-vim/llvm-vim-4.0.0*
 =dev-ml/llvm-ocaml-4.0.0*
+=dev-python/clang-python-4.0.0*
 =dev-python/lit-4.0.0*
 =dev-util/lldb-4.0.0*
 =sys-devel/clang-4.0.0*
 =sys-devel/clang-runtime-4.0.0*
 =sys-devel/lld-4.0.0*
 =sys-devel/llvm-4.0.0*
+=sys-devel/llvmgold-4
 =sys-libs/compiler-rt-4.0.0*
 =sys-libs/compiler-rt-sanitizers-4.0.0*
 =sys-libs/libcxx-4.0.0*
@@ -420,11 +423,6 @@ x11-misc/ksuperkey
 # We mask it instead of removing them, due user may need them while
 # upgrade from old versions (<0.94.x)
 <sys-cluster/ceph-10.2.3-r1
-
-# Patrice Clement <monsieurp@gentoo.org> (15 Jan 2017)
-# Upstream dead a while ago. Sources are nowhere to be found.
-# Masked for removal in 30 days.
-net-misc/raccess
 
 # Jeroen Roovers <jer@gentoo.org> (12 Jan 2017)
 # Use x11-drivers/nvidia-drivers[tools] instead.
