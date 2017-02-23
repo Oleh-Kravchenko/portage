@@ -30,6 +30,23 @@
 
 #--- END OF EXAMPLES ---
 
+# Michael Palimaka <kensington@gentoo.org> (22 Feb 2017)
+# Fails to build. Dead upstream.
+# Masked for removal in 30 days. Bug #520890.
+x11-misc/xrmap
+
+# Michał Górny <mgorny@gentoo.org> (22 Feb 2017)
+# The Ada subsystem in Gentoo is not maintained for a long time.
+# Therefore, it is being reduced to the minimal set of packages needed.
+# Removal in 30 days. Bug #593398.
+dev-ada/asis-gcc
+dev-ada/charles
+
+# Michael Palimaka <kensington@gentoo.org> (22 Feb 2017)
+# Doesn't work. Dead upstream. Unmaintained.
+# Masked for removal on 30 days. Bug #609754.
+x11-misc/bbappconf
+
 # Michał Górny <mgorny@gentoo.org> (20 Feb 2017)
 # The Gentoo packages are roughly 300 releases behind upstream, and are
 # unmaintained. They do not build anymore, #545148, #558570, #597312.
@@ -470,11 +487,6 @@ x11-libs/gtk+:1
 # Tim Harder <radhermit@gentoo.org> (03 Nov 2016)
 # Masked for testing
 =sys-fs/fuse-3.0.0*
-
-# Sergey Popov <pinkbyte@gentoo.org> (01 Nov 2016)
-# Project is dead.
-# Please migrate to it's successor - net-misc/bgpq3
-net-misc/bgpq
 
 # Julian Ospald <hasufell@gentoo.org> (21 Jul 2013)
 # Mask all unfetchable versions and those with tons of random
