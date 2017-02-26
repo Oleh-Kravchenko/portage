@@ -8,6 +8,11 @@
 # This file is only for generic masks. For arch-specific masks (i.e.
 # mask everywhere, unmask on arch/*) use arch/base.
 
+# Matt Turner <mattst88@gentoo.org> (25 Feb 2017)
+# Has caused no end of problems. See bugs 441878, 476306, 477444, 477530,
+# 508232.
+x11-libs/cairo xlib-xcb
+
 # Michał Górny <mgorny@gentoo.org> (17 Feb 2017)
 # Python 2 package relies on gedit[python] which is py3 only.
 dev-vcs/rabbitvcs gedit
@@ -29,10 +34,6 @@ media-libs/opensubdiv opencl
 # Ian Stakenvicius (25 Jan 2017)
 # rust on mozilla packages is experimental
 www-client/firefox rust
-
-# Michał Górny <mgorny@gentoo.org> (25 Jan 2017)
-# Unmask python-exec support for experimental dev-lang/python:3.6
-dev-lang/python-exec -python_targets_python3_6
 
 # Matt Turner <mattst88@gentoo.org> (25 Jan 2017)
 # xf86-video-??? masked for removal

@@ -327,10 +327,9 @@ app-crypt/rhash:openssl - Add support for hashes from dev-libs/openssl
 app-crypt/seahorse:ldap - Enable seahorse to manipulate GPG keys on a LDAP server.
 app-crypt/tpm-tools:pkcs11 - Build Token data management utilities based on OpenCryptoki's (dev-libs/opencryptoki) PKCS#11 implementation.
 app-crypt/veracrypt:asm - Enable assembly for optimization
-app-crypt/zuluCrypt:gnome - Enable support for the freedesktop.org Secret Service API via app-crypt/libsecret. This does not control the gui!
-app-crypt/zuluCrypt:gui - Whether to build the QT gui. Highly recommended.
-app-crypt/zuluCrypt:kde - Enable support for KDE, e.g. via kde-apps/kwalletd. This does not control the gui, but NEEDS GUI ENABLED!
-app-crypt/zuluCrypt:udev - Whether udev will be consulted when deciding if a volume is system or not.
+app-crypt/zuluCrypt:gnome - Enable support for the freedesktop.org Secret Service API via app-crypt/libsecret
+app-crypt/zuluCrypt:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
+app-crypt/zuluCrypt:udev - Whether udev will be consulted when deciding if a volume is system or not
 app-dicts/aspell-be:classic - Support classic spelling by default
 app-dicts/gwaei:hunspell - Enable app-text/hunspell spellchecking and morphological analysis
 app-dicts/gwaei:mecab - Enable app-text/mecab support
@@ -949,7 +948,6 @@ app-office/calligra:gsf - Enable support for ODT structures extraction via gnome
 app-office/calligra:import-filter - Enable support for various import filter file formats like WordPerfect, Visio and Apple Keynote
 app-office/calligra:kdcraw - Enable support for KDE image manipulating interface via kde-apps/libkdcraw
 app-office/calligra:lcms - Build colorengine plugins using media-libs/lcms
-app-office/calligra:marble - Enable displaying of maps using Marble
 app-office/calligra:okular - Enable bindings for kde-apps/okular
 app-office/calligra:phonon - Build stage/eventplugins and videoshape plugin using media-libs/phonon
 app-office/calligra:pim - Enable support for KDE PIM resources integration
@@ -2839,6 +2837,7 @@ dev-vcs/git:curl - Support fetching and pushing (requires webdav too) over http:
 dev-vcs/git:gpg - Pull in gnupg for signing -- without gnupg, attempts at signing will fail at runtime!
 dev-vcs/git:gtk - Include the gitview contrib tool
 dev-vcs/git:highlight - GitWeb support for app-text/highlight
+dev-vcs/git:libsecret - Enable libsecret support to store login credentials
 dev-vcs/git:mediawiki - Support pulling and pushing from MediaWiki
 dev-vcs/git:mediawiki-experimental - Add experimental patches for improved MediaWiki support
 dev-vcs/git:ppcsha1 - Make use of a bundled routine that is optimized for the PPC arch
@@ -2880,6 +2879,7 @@ dev-vcs/subversion:ctypes-python - Build and install Ctypes Python bindings
 dev-vcs/subversion:dso - Enable runtime module search
 dev-vcs/subversion:extras - Install extra scripts (examples, tools, hooks)
 dev-vcs/subversion:http - Enable http support using net-libs/serf
+dev-vcs/subversion:kwallet - Enable encrypted storage of passwords with kde-apps/kwalletd
 games-action/beathazardultra:bundled-libs - Use the upstream provided bundled libraries.
 games-action/chromium-bsu:mixer - Enables media-libs/sdl-mixer sound backend instead of media-libs/openal one.
 games-action/d1x-rebirth:demo - Use the demo data instead of the full game
@@ -3362,11 +3362,9 @@ kde-apps/libkdepim:designer - Build plugins for dev-qt/designer
 kde-apps/mailcommon:designer - Build plugins for dev-qt/designer
 kde-apps/marble:aprs - Enable support for APRS data sources
 kde-apps/marble:designer - Install plugin for dev-qt/designer
-kde-apps/marble:designer-plugin - Enable designer plugin
 kde-apps/marble:phonon - Enable sound support via media-libs/phonon
 kde-apps/marble:positioning - Enable position information via dev-qt/qtpositioning and dev-qt/qtlocation
 kde-apps/marble:shapefile - Enable support for ESRI shapefiles
-kde-apps/marble:zip - Enable support for reading and displaying .kmz files
 kde-apps/okular:chm - Enable support for Microsoft Compiled HTML Help files
 kde-apps/okular:ebook - Add E-Book support
 kde-apps/okular:mobi - Add mobipocket support
@@ -3783,6 +3781,7 @@ media-gfx/cura:usb - Access 3D printers via USB
 media-gfx/darktable:colord - Support color management using x11-misc/colord
 media-gfx/darktable:flickr - Add support for uploading photos to flickr
 media-gfx/darktable:geo - Enable geotagging support
+media-gfx/darktable:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
 media-gfx/darktable:libsecret - Enable libsecret support to store login credentials
 media-gfx/darktable:opencl - Enable opencl support
 media-gfx/darktable:pax_kernel - Triggers paxmarking of main darktable binary
@@ -4366,10 +4365,6 @@ media-sound/easytag:opus - Enable support for media-libs/opus and media-libs/opu
 media-sound/ecasound:lv2 - Add support for Ladspa V2
 media-sound/ecasound:oil - Use dev-libs/liboil for inner loop optimizations
 media-sound/fapg:xspf - Enable support for saving XSPF playlists.
-media-sound/flacon:mac - Add support for Monkey's Audio input files
-media-sound/flacon:opus - Add support for Opus output files
-media-sound/flacon:replaygain - Support Replay Gain metadata for relative volume adjustment
-media-sound/flacon:tta - Add support for True Audio input files
 media-sound/forked-daapd:itunes - Enable support for iTunes library XML
 media-sound/forked-daapd:lastfm - Enable LastFM scrobbling support
 media-sound/forked-daapd:mpd - Enable streaming to mpd
@@ -4507,8 +4502,10 @@ media-sound/qmmp:bs2b - Enable Bauer stereophonic-to-binaural headphone filter
 media-sound/qmmp:cover - Enable album cover support
 media-sound/qmmp:crossfade - Enable crossfade effect when switching tracks
 media-sound/qmmp:cue - enable CUE sheet parsing
+media-sound/qmmp:dbus - Enable DBus notifiications and MPRIS support
 media-sound/qmmp:enca - Detects the character encoding automatically
 media-sound/qmmp:game - Enable Game music support
+media-sound/qmmp:gnome - Enable Gnome hotkey support (requires Qt5DBus)
 media-sound/qmmp:kde - Use kde4 notifier system
 media-sound/qmmp:lyrics - Fetch track lyrics from the web
 media-sound/qmmp:midi - Enable midi support using wildmidi library
@@ -4517,7 +4514,9 @@ media-sound/qmmp:notifier - Enable qmmps' notifier system
 media-sound/qmmp:opus - Enable the opus plugin
 media-sound/qmmp:projectm - Enable projectm music visualization plugin
 media-sound/qmmp:qsui - Enable QMMP simple UI
+media-sound/qmmp:qtmedia - Enable playback via dev-qt/qtmultimedia
 media-sound/qmmp:scrobbler - Enable audioscrobbler/last.fm support
+media-sound/qmmp:sid - Build with SID (Commodore 64 Audio) support
 media-sound/qmmp:soxr - Use the SoX resampling library
 media-sound/qmmp:stereo - Enable stereo effect
 media-sound/qmmp:tray - Build tray icon
@@ -6413,7 +6412,6 @@ net-misc/wireguard:module - Compile the actual WireGuard kernel module. Most cer
 net-misc/wireguard:module-src - Install the module source code to /usr/src, in case you like building kernel modules yourself.
 net-misc/wireguard:tools - Compile the wg(8) tool and related helpers. You probably want this enabled.
 net-misc/x2goserver:fuse - Use net-fs/sshfs to allow shared folders
-net-misc/xrdp:fuse - Enable clipboard file / device redirection via sys-fs/fuse
 net-misc/youtube-viewer:gtk - Install the gtk GUI, called gtk-youtube-viewer
 net-nds/389-ds-base:auto-dn-suffix - Enable auto bind with auto dn suffix over unix domain socket (LDAPI) support
 net-nds/389-ds-base:autobind - Enable auto bind over unix domain socket (LDAPI) support
@@ -7797,7 +7795,6 @@ sys-fs/zfs:kernel-builtin - Disable dependency on sys-fs/zfs-kmod under the assu
 sys-fs/zfs:rootfs - Enable dependencies required for booting off a pool containing a rootfs
 sys-fs/zfs:test-suite - Install regression test suite
 sys-fs/zfs-kmod:rootfs - Install zfs-shutdown script to support exporting a pool containing rootfs
-sys-kernel/aufs-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
 sys-kernel/aufs-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
 sys-kernel/aufs-sources:module - Patch kernel to allow aufs being build as a module.
 sys-kernel/aufs-sources:vanilla - Use vanilla kernel sources without applying genpatches. WARNING: This flag will drop all support from the Gentoo Kernel Security team
@@ -8075,6 +8072,7 @@ www-client/netsurf:svgtiny - SVG image support via media-libs/svgatiny instead o
 www-client/netsurf:webp - WebP image support (media-libs/libwebp)
 www-client/opera:gtk - Install support libraries and runtime dependencies to support GTK+/GNOME desktop integration
 www-client/opera:kde - Install support libraries and runtime dependencies to support KDE desktop integration
+www-client/qupzilla:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
 www-client/qupzilla:nonblockdialogs - Enable fancy non-blocking JavaScript dialogs shown inside the page, not blocking the application window. When closing browser windows with open dialogs, this can crash the application.
 www-client/seamonkey:calendar - Build Mozilla's calendar
 www-client/seamonkey:chatzilla - Build Mozilla's IRC client (default on)
@@ -8250,9 +8248,10 @@ x11-drivers/xf86-video-nouveau:glamor - Enable Glamor OpenGL 2D acceleration
 x11-drivers/xf86-video-openchrome:viaregtool - Install registers dumper tool
 x11-drivers/xf86-video-qxl:xspice - Build the xspice driver
 x11-libs/agg:gpc - Enable gpc polygon clipper library
-x11-libs/cairo:gles2 - Use OpenGL ES 2 backend for acceleration.
+x11-libs/cairo:gles2 - Build the OpenGL ES 2 backend
 x11-libs/cairo:glib - Compile with GLib Object System support
-x11-libs/cairo:opengl - Use Mesa backend for acceleration
+x11-libs/cairo:opengl - Build the OpenGL backend
+x11-libs/cairo:utils - Build support for Cairo script and trace utilities
 x11-libs/cairo:valgrind - Built-in support to mark memory regions
 x11-libs/cairo:xlib-xcb - Use XCB renderer backend for acceleration over xlib. Enabling this may solve or introduce display corruption problems.
 x11-libs/fltk:games - Builds and installs some extra games
