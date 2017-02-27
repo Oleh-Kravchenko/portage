@@ -30,6 +30,23 @@
 
 #--- END OF EXAMPLES ---
 
+# Matt Turner <mattst88@gentoo.org> (26 Feb 2017)
+# Integrated into xorg-server since 1.17. Removal in 30 days.
+# Bug #611058
+x11-libs/glamor
+
+# Johannes Huber <johu@gentoo.org> (26 Feb 2017)
+# Masked for removal in 30 days. No maintainer. Dead upstream.
+# Current version is outdated. Open QA issues (#522676,#526284).
+# Bug #607998.
+dev-vcs/veracity
+
+# Davide Pesavento <pesa@gentoo.org> (25 Feb 2017)
+# Library name changed in 2.10, breaking many consumers.
+# Needs full revdep testing.
+>=dev-python/qscintilla-python-2.10
+>=x11-libs/qscintilla-2.10
+
 # Michael Palimaka <kensington@gentoo.org> (22 Feb 2017)
 # Fails to build. Dead upstream.
 # Masked for removal in 30 days. Bug #520890.

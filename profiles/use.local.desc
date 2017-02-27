@@ -724,7 +724,6 @@ app-laptop/pbbuttonsd:ibam - Enable support for Intelligent Battery Monitoring
 app-laptop/pbbuttonsd:macbook - Enable support for the Macbook and Macbook Pro
 app-laptop/thinkfan:atasmart - include libatasmart support to get disc temperature
 app-laptop/tp_smapi:hdaps - Install a compatible HDAPS module
-app-leechcraft/lc-aggregator:webaccess - Enables web interface submodule for Aggregator
 app-leechcraft/lc-azoth:acetamide - Build Acetamide, the IRC protocol support
 app-leechcraft/lc-azoth:adiumstyles - Build support for Adium styles
 app-leechcraft/lc-azoth:astrality - Build Astrality, support for protocols provided by Telepathy
@@ -761,7 +760,7 @@ app-leechcraft/lc-blogique:metida - Support for the LiveJournal blogging platfor
 app-leechcraft/lc-core:qwt - Support for QML plotting item through x11-libs/qwt
 app-leechcraft/lc-gmailnotifier:notify - Pull in a plugin to show notifications from GMail Notiifer
 app-leechcraft/lc-gmailnotifier:quark - Pull in a plugin to show GMail Notifier's quark
-app-leechcraft/lc-liznoo:systemd - Pull in correct UPower dependencies for systemd and non-systemd users.
+app-leechcraft/lc-kbswitch:quark - Provide sidebar quark
 app-leechcraft/lc-lmp:fradj - Build FrAdj, the equalizer effect module
 app-leechcraft/lc-lmp:graffiti - Build media tags editor plugin
 app-leechcraft/lc-lmp:guess - Enable tags encoding guessing via the libguess library
@@ -771,19 +770,20 @@ app-leechcraft/lc-lmp:potorchu - Enable the projectM-based visualization effects
 app-leechcraft/lc-monocle:fb2 - Enable support for FictionBook format
 app-leechcraft/lc-monocle:mobi - Enable support for MOBI format
 app-leechcraft/lc-musiczombie:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
-app-leechcraft/lc-netstoremanager:googledrive - Support Google Drive storage backend
-app-leechcraft/lc-netstoremanager:yandexdisk - Support Yandex.Disk storage backend
+app-leechcraft/lc-netstoremanager:dropbox - Build Dropbox storage backend
+app-leechcraft/lc-netstoremanager:googledrive - Build Google Drive storage backend
 app-leechcraft/lc-poshuku:autosearch - Provide automatic search suggestions for Poshuku.
 app-leechcraft/lc-poshuku:cleanweb - Build CleanWeb for ad blocking compatible with Firefox's AdBlock+.
 app-leechcraft/lc-poshuku:dcac - Build color inverter module providing a night mode.
 app-leechcraft/lc-poshuku:fatape - Build FatApe, GreaseMonkey userscripts support layer.
 app-leechcraft/lc-poshuku:filescheme - Build FileScheme for accessing local URLs.
+app-leechcraft/lc-poshuku:foc - Build FOC for Flash-on-Click functionality.
 app-leechcraft/lc-poshuku:fua - Build FUA for faking user agents for different hosts.
 app-leechcraft/lc-poshuku:keywords - Build Keywords for adjusting search shortcuts.
 app-leechcraft/lc-poshuku:onlinebookmarks - Build OnlineBookmarks for syncing bookmarks with social bookmarking services like Read It Later.
-app-leechcraft/lc-poshuku:pcre - Use dev-libs/libpcre for rules matching in CleanWeb instead of slower QRegExp.
 app-leechcraft/lc-poshuku:qrd - Build module for displaying the QR code of a web page.
-app-leechcraft/lc-poshuku:wyfv - Build WYFV for replacing Flash-based video players on some sites.
+app-leechcraft/lc-poshuku:speeddial - Build SpeedDial module.
+app-leechcraft/lc-poshuku:webengine - Build WebEngine- (that is, Chromium-)based rendering backend.
 app-leechcraft/leechcraft-meta:de - Install components, that allow using Leechcraft as Desktop Environment
 app-misc/anki:recording - Enable support for audio recording
 app-misc/anki:sound - Enable support for adding sound to cards
@@ -6847,6 +6847,7 @@ sci-geosciences/gmt:metric - Use SI (cm) units instead of US (inches) ones
 sci-geosciences/gmt:mex - Enable compilation of mex supplement which requires Octave/Matlab
 sci-geosciences/gmt:octave - Enable octave support
 sci-geosciences/googleearth:bundled-libs - Use bundled libraries.
+sci-geosciences/gpsbabel:gui - Enable the graphical user interface (requires dev-qt/qtwebengine)
 sci-geosciences/gpsd:dbus - export gpsd data over dbus connections
 sci-geosciences/gpsd:latency_timing - support latency timing information
 sci-geosciences/gpsd:ntp - Enable net-misc/ntp shared memory interface and PPS kernel support for GPS time
@@ -7597,9 +7598,11 @@ sys-cluster/vzctl:ploop - Add support for ploop devices via sys-cluster/ploop
 sys-cluster/vzctl:vzmigrate - Add support for container migration
 sys-devel/autogen:libopts - install the libopts tarball (a few packages want this for developing)
 sys-devel/binutils:multitarget - Adds support to binutils for cross compiling (does not work with gas)
+sys-devel/binutils-apple:classic - Use nm, otool, etc. from this ebuild instead of llvm-based tools
 sys-devel/binutils-apple:libcxx - Add support for libcxx
 sys-devel/binutils-apple:lto - Add support for Link-Time Optimization with LLVM
 sys-devel/binutils-apple:multitarget - Compile for non-standard target architectures (ppc and ppc64) -- experimental, Gentoo only
+sys-devel/binutils-apple:tapi - Build against sys-libs/tapi
 sys-devel/binutils-hppa64:multitarget - Adds support to binutils for cross compiling (does not work with gas)
 sys-devel/clang:default-compiler-rt - Use compiler-rt instead of libgcc as the default rtlib for clang
 sys-devel/clang:default-libcxx - Use libc++ instead of libstdc++ as the default stdlib for clang
