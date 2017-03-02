@@ -1151,6 +1151,11 @@
       <name>David Abbott</name>
       <role>Board Member, Officer:Secretary, Chairman</role>
     </member>
+    <member>
+      <email>maffblaster@gentoo.org</email>
+      <name>Matthew Marchese</name>
+      <role>Foundation Wiki Editor</role>
+    </member>
     <member is-lead="1">
       <email>prometheanfire@gentoo.org</email>
       <name>Matthew Thode</name>
@@ -1317,6 +1322,11 @@
       <email>vapier@gentoo.org</email>
       <name>Mike Frysinger</name>
       <role>Lead ( Team Lead )</role>
+    </member>
+    <member>
+      <email>wizardedit@gentoo.org</email>
+      <name>Austin English</name>
+      <role>Member ( general, eclass cleanup )</role>
     </member>
   </project>
   <project>
@@ -2567,7 +2577,7 @@ developers and volunteer mentors.</description>
     </member>
   </project>
   <project>
-    <email>pms-bugs@gentoo.org</email>
+    <email>pms@gentoo.org</email>
     <name>Package Manager Specification</name>
     <url>https://wiki.gentoo.org/wiki/Project:Package_Manager_Specification</url>
     <description>The Package Manager Specification aims to document what is required of a Gentoo package manager, and what ebuilds may assume about their environment.</description>
@@ -3219,7 +3229,7 @@ developers and volunteer mentors.</description>
     <subproject ref="maintainer-wanted@gentoo.org"/>
     <subproject ref="bug-wranglers@gentoo.org"/>
     <subproject ref="devmanual@gentoo.org"/>
-    <subproject ref="pms-bugs@gentoo.org"/>
+    <subproject ref="pms@gentoo.org"/>
     <subproject ref="proxy-maint@gentoo.org"/>
     <subproject ref="treecleaner@gentoo.org"/>
     <member>

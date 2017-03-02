@@ -1,6 +1,5 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -37,7 +36,7 @@ COMMON_DEPEND="
 	dev-qt/qtscript:4
 	dev-qt/qtsvg:4
 	dev-qt/qtsql:4
-	sci-libs/gdal:=[geos,oracle?,python?,${PYTHON_USEDEP}]
+	sci-libs/gdal:=[geos,python?,${PYTHON_USEDEP}]
 	sci-libs/geos
 	sci-libs/libspatialindex:=
 	sci-libs/proj
@@ -47,7 +46,10 @@ COMMON_DEPEND="
 	georeferencer? ( sci-libs/gsl:= )
 	grass? ( >=sci-geosciences/grass-7.0.0:= )
 	mapserver? ( dev-libs/fcgi )
-	oracle? ( dev-db/oracle-instantclient:= )
+	oracle? (
+		dev-db/oracle-instantclient:=
+		sci-libs/gdal:=[oracle]
+	)
 	postgres? ( dev-db/postgresql:= )
 	python? ( ${PYTHON_DEPS}
 		dev-python/future[${PYTHON_USEDEP}]

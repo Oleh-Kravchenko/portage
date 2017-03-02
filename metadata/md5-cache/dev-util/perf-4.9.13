@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst prepare setup test unpack
+DEPEND=audit? ( sys-process/audit ) demangle? ( sys-devel/binutils:= ) gtk? ( x11-libs/gtk+:2 ) numa? ( sys-process/numactl ) perl? ( dev-lang/perl ) slang? ( dev-libs/newt ) unwind? ( sys-libs/libunwind ) dev-libs/elfutils >=sys-kernel/linux-headers-4.4 dev-util/patchutils sys-devel/bison sys-devel/flex doc? ( app-text/asciidoc app-text/sgml-common app-text/xmlto sys-process/time ) python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] )
+DESCRIPTION=Userland tools for Linux Performance Counters
+EAPI=5
+HOMEPAGE=https://perf.wiki.kernel.org/
+IUSE=audit debug +demangle +doc gtk numa perl python slang unwind python_targets_python2_7
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=audit? ( sys-process/audit ) demangle? ( sys-devel/binutils:= ) gtk? ( x11-libs/gtk+:2 ) numa? ( sys-process/numactl ) perl? ( dev-lang/perl ) slang? ( dev-libs/newt ) unwind? ( sys-libs/libunwind ) dev-libs/elfutils
+REQUIRED_USE=python? ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=mirror://kernel/linux/kernel/v4.x/patch-4.9.13.xz mirror://kernel/linux/kernel/v4.x/linux-4.9.tar.xz
+_eclasses_=bash-completion-r1	8e447753aaf658afa609fbf961d80ab7	eutils	3c847a0129fed780bd709b98e426f89c	linux-info	ca370deef9d44125d829f2eb6ebc83e0	multilib	0236be304ee52e7f179ed2f337075515	python-single-r1	4346485bdd137b2d301e993dad734668	python-utils-r1	316c531873247e48befb99900e5aa2ed	toolchain-funcs	53b75b4a49cf3e61530a523804045432	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=9401238e179a89f3acfd474e322bbdbe

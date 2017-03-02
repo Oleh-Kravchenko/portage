@@ -119,6 +119,7 @@ app-admin/rsyslog:jemalloc - Use dev-libs/jemalloc for allocations.
 app-admin/rsyslog:kafka - Build the Apache Kafka output module (requires dev-libs/librdkafka)
 app-admin/rsyslog:kerberos - Build the GSSAPI input and output module (requires virtual/krb5)
 app-admin/rsyslog:libressl - Use dev-libs/libressl for building the rfc5424hmac modify module (requires rfc5424hmac USE flag)
+app-admin/rsyslog:mdblookup - Build the MaxMind DB lookup message modify plugin using dev-libs/libmaxminddb
 app-admin/rsyslog:mongodb - Build the MongoDB output module (requires dev-libs/libmongo-client)
 app-admin/rsyslog:mysql - Build the MySQL database output module (requires virtual/mysql)
 app-admin/rsyslog:normalize - Build the normalize modify module (requires dev-libs/libee and dev-libs/liblognorm)
@@ -543,8 +544,8 @@ app-emulation/qemu:sdl2 - Use libsdl2 instead of libsdl
 app-emulation/qemu:snappy - Enable support for snappy compression
 app-emulation/qemu:spice - Enable Spice protocol support via app-emulation/spice
 app-emulation/qemu:ssh - Enable SSH based block device support via net-libs/libssh2
-app-emulation/qemu:static - Enables both 'static-softmmu' and 'static-user'
-app-emulation/qemu:static-softmmu - Builds the Software MMU (system) targets as static binaries
+app-emulation/qemu:static - Build the User and Software MMU (system) targets as well as tools as static binaries
+app-emulation/qemu:static-softmmu - Build the Software MMU (system) targets as static binaries
 app-emulation/qemu:static-user - Build the User targets as static binaries
 app-emulation/qemu:systemtap - Enable SystemTAP/DTrace tracing
 app-emulation/qemu:tci - Enable the TCG Interpreter which can speed up or slowdown workloads depending on the host and guest CPUs being emulated. In the future it will be a runtime option but for now its compile time.
@@ -1831,6 +1832,7 @@ dev-lang/rust:clang - Use sys-devel/clang for building
 dev-lang/rust:libcxx - Use sys-libs/libcxx as standard library when building with sys-devel/clang
 dev-lang/rust:system-llvm - Use system sys-devel/llvm in place of the bundled one
 dev-lang/scala:binary - Install from (Gentoo-compiled) binary instead of building from sources. Set this when you run out of memory during build.
+dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 dev-lang/spidermonkey:debug - Enable assertions to allow for easier debugging of programs that link to spidermonkey -- note this will often crash software on regular end-user systems
 dev-lang/spidermonkey:system-icu - Use the system-wide dev-libs/icu instead of bundled -- note, only takes effect when icu flag is enabled
 dev-lang/spidermonkey:threadsafe - Build a threadsafe version of spidermonkey
@@ -2175,6 +2177,7 @@ dev-lua/luvit:bundled-libs - Use bundled versions of some libraries.
 dev-lua/messagepack:luajit - Use the lua just-in-time compiler dev-lang/luajit instead of dev-lang/lua
 dev-lua/mpack:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-ml/cairo-ocaml:pango - Enable support for x11-libs/pango
+dev-ml/csv:lwt - Enables the Lwt-based library for asynchronous operations.
 dev-ml/dose3:parmap - Adds multi-core CPU support via dev-ml/parmap.
 dev-ml/dose3:rpm4 - Adds support for handling rpm4 files.
 dev-ml/dose3:zip - Adds support for handling zip files.
@@ -2642,6 +2645,7 @@ dev-ruby/faraday_middleware:oauth - Include FaradayMiddleware::OAuth
 dev-ruby/faraday_middleware:parsexml - Include FaradayMiddleware::ParseXml
 dev-ruby/faraday_middleware:rashify - Include FaradayMiddleware::Rashify
 dev-ruby/maruku:highlight - Enable source code highlighting via dev-ruby/syntax
+dev-ruby/net-ssh:sodium - Use dev-libs/libsodium via dev-ruby/rbnacl for Ed25519 support.
 dev-ruby/rails:asset-pipeline - Also install the default components for the asset pipeline. These are not required but they are activated automatically in new Rails projects by default.
 dev-ruby/rrdtool-bindings:graph - Enable support for graphing functions
 dev-ruby/rspec-core:highlight - Enable source code highlighting via dev-ruby/coderay
@@ -6281,6 +6285,7 @@ net-misc/ptpd:snmp - Require net-analyzer/net-snmp to enable SNMP configuration
 net-misc/ptpd:statistics - Enable compution of statistics
 net-misc/putty:gtk - Build the PuTTY client which requires x11-libs/gtk+:2. Otherwise only the CLI tools puttygen, plink, pscp and psftp will be built.
 net-misc/quagga:bgpclassless - Apply unofficial patch to enable classless prefixes for BGP. Patch and information to be found at http://hasso.linux.ee/doku.php/english:network:quagga
+net-misc/quagga:fpm - Enable Forwarding Plane Manager support
 net-misc/quagga:multipath - Enable multipath routes support for any number of routes
 net-misc/quagga:ospfapi - Enable OSPFAPI support for client applications accessing the OSPF link state database
 net-misc/quagga:pam - Add support for PAM (via sys-libs/pam) to the Quagga Virtual Terminal Interface Shell (vtysh); if the readline USE flag is disabled, this flag is ignored

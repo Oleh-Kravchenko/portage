@@ -1,6 +1,5 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 inherit autotools eutils gnome2-utils toolchain-funcs
@@ -10,7 +9,7 @@ HOMEPAGE="http://www.chiark.greenend.org.uk/~sgtatham/putty/"
 LICENSE="MIT"
 
 SLOT="0"
-KEYWORDS="~alpha amd64 hppa ppc ppc64 sparc x86"
+KEYWORDS="alpha amd64 hppa ppc ppc64 sparc x86"
 IUSE="doc +gtk ipv6 kerberos"
 SRC_URI="
 	https://dev.gentoo.org/~jer/${PN}-icons.tar.bz2
@@ -21,7 +20,7 @@ RDEPEND="
 	!net-misc/pssh
 	gtk? (
 		dev-libs/glib:2
-		x11-libs/gdk-pixbuf
+		x11-libs/gdk-pixbuf[X]
 		x11-libs/gtk+:3
 		x11-libs/libX11
 		x11-libs/pango
