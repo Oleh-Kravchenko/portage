@@ -2083,7 +2083,6 @@ dev-libs/openct:pcsc-lite - Build a driver library for sys-apps/pcsc-lite, provi
 dev-libs/openct:udev - Install rules for sys-fs/udev to auto-start openct.
 dev-libs/openobex:irda - Enable IrDA support
 dev-libs/opensc:ctapi - Use CT-API for accessing Smartcard hardware.
-dev-libs/opensc:libtool - Use sys-devel/libtool for dynamically loading libraries rather than the host libdl/dlopen helpers.
 dev-libs/opensc:openct - Use dev-libs/openct (and CT-API) for accessing Smartcard hardware.
 dev-libs/opensc:pcsc-lite - Use sys-apps/pcsc-lite (and PC/SC API) for accessing Smartcard hardware.
 dev-libs/opensc:secure-messaging - Enable secure messaging.
@@ -3232,8 +3231,8 @@ gnome-extra/cinnamon-control-center:colord - Support color management using x11-
 gnome-extra/cinnamon-settings-daemon:colord - Support color management using x11-misc/colord
 gnome-extra/evolution-data-server:api-doc-extras - Build documentation for private APIs
 gnome-extra/evolution-data-server:berkdb - sys-libs/db support needed to migrate old (pre-3.12 evolution versions) addressbook data
-gnome-extra/evolution-data-server:gnome-online-accounts - Enable using net-libs/gnome-online-accounts for authorization
-gnome-extra/evolution-data-server:google - Enable Google Contacts support. This will also enable the internal Google authentication support. Please note this last one relies on a deprecated (and vulnerable) net-libs/webkit-gtk slot. If you want to avoid this dependency, you can disable this support and rely on gnome-online-accounts instead
+gnome-extra/evolution-data-server:gnome-online-accounts - Enable net-libs/gnome-online-accounts based Google authentication support
+gnome-extra/evolution-data-server:google - Enable internal Google authentication support. If gnome-online-accounts is enabled and used, this is not necessary, but both can be supported at the same time with different setup at runtime
 gnome-extra/evolution-data-server:weather - Enable optional weather calendar support
 gnome-extra/gnome-boxes:usbredir - Use sys-apps/usbredir to redirect USB devices to another machine over TCP
 gnome-extra/gnome-builder:clang - Provide integration with sys-devel/clang for best possible C/C++ autocompletion, semantic highlighting, symbol resolving, and diagnostics support
@@ -3525,6 +3524,7 @@ mail-client/claws-mail:spam-report - Enable plugin for spam reporting to various
 mail-client/claws-mail:spamassassin - Build mail-filter/spamassassin plugin
 mail-client/claws-mail:valgrind - Add support for memory debugging using valgrind
 mail-client/claws-mail:webkit - Enables HTML e-mail rendering by using the net-libs/webkit-gtk library.
+mail-client/evolution:archive - Enable archives support in attachments via app-arch/gnome-autoar
 mail-client/evolution:bogofilter - Build mail-filter/bogofilter plugin
 mail-client/evolution:crypt - Enable GPG encryption support using app-crypt/gnupg and app-crypt/pinentry
 mail-client/evolution:geolocation - Enable support for displaying contacts on a map inside evolution using media-libs/libchamplain
@@ -8264,10 +8264,6 @@ x11-base/xorg-server:xephyr - Build the Xephyr server
 x11-base/xorg-server:xnest - Build the Xnest server
 x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
 x11-base/xorg-server:xvfb - Build the Xvfb server
-x11-drivers/ati-drivers:gdm-hack - Do a potentially dangerous binary search and replace to fix gdm compatibility
-x11-drivers/ati-drivers:modules - Build the kernel modules
-x11-drivers/ati-drivers:pax_kernel - Enable pax kernel specific patches
-x11-drivers/ati-drivers:qt4 - Install qt4 dependent optional tools (e.g Catalyst Control Panel)
 x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
 x11-drivers/nvidia-drivers:compat - Install non-GLVND libGL for backwards compatibility
 x11-drivers/nvidia-drivers:driver - Install the kernel driver module
@@ -8285,7 +8281,6 @@ x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful
 x11-drivers/xf86-video-intel:tools - Build the intel-virtual-output tool
 x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
 x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
-x11-drivers/xf86-video-nouveau:glamor - Enable Glamor OpenGL 2D acceleration
 x11-drivers/xf86-video-openchrome:viaregtool - Install registers dumper tool
 x11-drivers/xf86-video-qxl:xspice - Build the xspice driver
 x11-libs/agg:gpc - Enable gpc polygon clipper library
@@ -8479,6 +8474,7 @@ x11-themes/zuki-themes:gnome-shell - Install theme for gnome-base/gnome-shell
 x11-themes/zuki-themes:mate - Install Metacity theme for mate-base/mate
 x11-themes/zuki-themes:xfce - Install theme for xfce-base/xfwm4
 x11-themes/zukitwo:gnome-shell - Install theme for gnome-base/gnome-shell
+x11-wm/awesome:luajit - Use dev-lang/luajit instead of dev-lang/lua
 x11-wm/compiz:fuse - Enables support for the filesystem in userspace plugin through sys-fs/fuse.
 x11-wm/compiz:gconf - Enable the GConf-based configuration backend; it is not required to work with GNOME, and might actually be faster if it's not used.
 x11-wm/compiz-fusion:emerald - Install the x11-wm/emerald package.
