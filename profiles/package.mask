@@ -29,10 +29,16 @@
 
 #--- END OF EXAMPLES ---
 
-# Andreas K. Hüttel <dilfridge@gentoo.org> (16 Mar 2017)
-# Replaced by dev-perl/Monitoring-Plugin, bug 575986
+# Andreas K. Hüttel <dilfridge@gentoo.org> (17 Mar 2017)
+# Requires obsolete gstreamer:0.10, bug 604686
 # Removal in 30 days
-dev-perl/Nagios-Plugin
+dev-perl/GStreamer
+dev-perl/GStreamer-Interfaces
+
+# Patrice Clement <monsieurp@gentoo.org> (17 Mar 2017)
+# Does not compile anymore. Upstream dead.
+# Removal in 30 days.
+dev-java/jrrd
 
 # Michael Palimaka <kensington@gentoo.org> (13 Mar 2017)
 # Testing x32 patch backports from 3.9
@@ -258,12 +264,6 @@ media-fonts/acroread-asianfonts
 # Awful codebase, pointer-to-int-casts, SDL1
 # Masked for removal in 30 days
 games-puzzle/kiki
-
-# Kent Fredric <kentnl@gentoo.org> (18 Feb 2017)
-# Renamed upstream to Monitoring::Plugin due to Trademark dispute.
-# Please use dev-perl/Monitoring-Plugin instead. Bug #575986.
-# Masked for removal in 30 days.
-dev-perl/Nagios-Plugin
 
 # Michael Palimaka <kensington@gentoo.org> (18 Feb 2017)
 # Dead upstream. Relies on vala slot. Unmaintained. Bug #601346.
