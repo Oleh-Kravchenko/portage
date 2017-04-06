@@ -1204,6 +1204,11 @@ app-vim/youcompleteme:clang - Enable semantic support for C-family languages usi
 dev-ada/gnat_util:shared - Build gnat_util shared library
 dev-ada/gnat_util:static - Build gnat_util static library
 dev-ada/gnat_util:static-pic - Build gnat_util static library with pic code
+dev-ada/gnatcoll:postgresql - Adds support for postgresql
+dev-ada/gnatcoll:projects - Adds support for projects
+dev-ada/gnatcoll:pygobject - Adds support for pygobject
+dev-ada/gnatcoll:shared - Build shared library
+dev-ada/gnatcoll:static - Build static library
 dev-ada/gprbuild:shared - Build shared library
 dev-ada/gprbuild:static - Build static library
 dev-ada/gprbuild:static-pic - Build static library with pic code
@@ -1955,9 +1960,7 @@ dev-libs/efl:xim - Enable X Input Method
 dev-libs/elfutils:lzma - Support automatic decompression of LZMA-compressed files and kernel images
 dev-libs/elfutils:threads - Build the libraries with thread safe support
 dev-libs/elfutils:utils - Install command-line utilities (all the eu-* programs)
-dev-libs/fampp2:stlport - Include support for dev-libs/STLport
 dev-libs/fcgi:html - Install HTML documentation
-dev-libs/ferrisloki:stlport - Include support for dev-libs/STLport
 dev-libs/folks:telepathy - Load contacts from the Telepathy framework
 dev-libs/folks:tracker - Load contacts from app-misc/tracker index
 dev-libs/folks:utils - Build the folks-inspect utility
