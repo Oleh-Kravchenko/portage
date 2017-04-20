@@ -201,7 +201,7 @@ mozconfig_config() {
 		fi
 	fi
 
-	# Enable position independent executables 
+	# Enable position independent executables
 	mozconfig_annotate 'enabled by Gentoo' --enable-pie
 	mozconfig_use_enable debug
 	mozconfig_use_enable debug tests
@@ -262,9 +262,9 @@ mozconfig_config() {
 	local toolkit="cairo-gtk2"
 	local toolkit_comment=""
 	if [[ -n ${MOZCONFIG_OPTIONAL_GTK3} ]]; then
-		if use gtk3; then
+		if use force-gtk3; then
 			toolkit="cairo-gtk3"
-			toolkit_comment="gtk3 use flag"
+			toolkit_comment="force-gtk3 use flag"
 		fi
 	fi
 	if [[ -n ${MOZCONFIG_OPTIONAL_GTK2ONLY} ]]; then
@@ -328,10 +328,6 @@ mozconfig_config() {
 	fi
 	if [[ ${CHOST} == armv* ]] ; then
 		mozconfig_annotate '' --with-float-abi=hard
-		if ! use skia ; then
-			mozconfig_annotate 'Gentoo forces skia for arm' --enable-skia
-		fi
-
 		if ! use system-libvpx ; then
 			sed -i -e "s|softfp|hard|" \
 				"${S}"/media/libvpx/moz.build
