@@ -2285,7 +2285,6 @@ dev-ml/logs:fmt - Enables the Logs_fmt reporter.
 dev-ml/logs:lwt - Enables the Logs_lwt library that provides Lwt logging functions.
 dev-ml/lwt:camlp4 - Enable camlp4 syntax extension
 dev-ml/lwt:ppx - Enables the ppx syntax extension
-dev-ml/lwt:react - Enables support for dev-ml/react: Functional reactive programming (signals, events, etc.).
 dev-ml/ocaml-cohttp:async - Enables support for the dev-ml/async asynchronous execution library.
 dev-ml/ocaml-cohttp:lwt - Enables support for the dev-ml/lwt cooperative light-weight thread library.
 dev-ml/ocaml-cstruct:async - Support for asynchronous execution
@@ -2297,7 +2296,6 @@ dev-ml/ocaml-redis:lwt - Enable lwt bindings for asynchronous processing.
 dev-ml/ocaml-uri:allservices - Compile support for all service types
 dev-ml/ocaml-websocket:async - Enables support for the dev-ml/async asynchronous execution library.
 dev-ml/ocaml-websocket:lwt - Enables support for the dev-ml/lwt cooperative light-weight thread library.
-dev-ml/ocamlnet:cryptokit - Enables encryption support via dev-ml/cryptokit
 dev-ml/ocamlnet:httpd - Enables net-httpd web server component
 dev-ml/ocamlnet:zip - Enables netzip support to read/write gzip data using object channels
 dev-ml/onanomsg:lwt - Enables lwt support.
@@ -3367,6 +3365,7 @@ kde-apps/akonadi:designer - Install plugin for dev-qt/designer
 kde-apps/akonadi:tools - Install tools for developers and testing
 kde-apps/akonadi-contacts:prison - Enable support for QRcodes in contacts
 kde-apps/analitza:eigen - Enable dev-cpp/eigen mathematical templates support
+kde-apps/ark:zip - Enable ZIP archive support via dev-libs/libzip
 kde-apps/artikulate:qtmedia - Enable playback via Qt5Multimedia
 kde-apps/blogilo:google - Google service integration via kde-apps/libkgapi
 kde-apps/cantor:R - Enable dev-lang/R backend support
@@ -3398,6 +3397,7 @@ kde-apps/kdenlive:jogshuttle - Enable support for Jog-Shuttle devices
 kde-apps/kdepim-addons:google - Google service integration via kde-apps/libkgapi
 kde-apps/kdepim-apps-libs:prison - Enable support for QRcodes in contacts
 kde-apps/kdepim-common-libs:google - Google service integration via kde-apps/libkgapi
+kde-apps/kdepim-meta:google - Google service integration via kde-apps/libkgapi
 kde-apps/kdepim-runtime:google - Google service integration via kde-apps/libkgapi
 kde-apps/kdepimlibs:prison - Enable support for QRcodes in contacts
 kde-apps/kdeutils-meta:floppy - Install kde-apps/kfloppy to format and create DOS or ext2fs filesystems in a floppy.
