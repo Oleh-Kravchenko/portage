@@ -942,22 +942,8 @@ app-misc/openastro:jpeg - Enable exporting Astrological Charts to jpeg
 app-misc/openastro:png - Enable exporting Astrological Charts to png
 app-misc/pax-utils:python - Install a more powerful/faster version of lddtree
 app-misc/recoll:camelcase - Enable indexing for camelCase sentences and words
-app-misc/recoll:chm - Index chm files
-app-misc/recoll:dvi - Index dvi files
-app-misc/recoll:ics - Index iCalendar files
-app-misc/recoll:info - Index GNU info files
 app-misc/recoll:inotify - Use the Linux Kernel notification subsystem for monitoring file alterations in realtime
-app-misc/recoll:lyx - Index Latex lyx files
-app-misc/recoll:msdoc - Index Microsoft Word documents
-app-misc/recoll:msppt - Index Microsoft PowerPoint documents
-app-misc/recoll:msxls - Index Microsoft Excel documents
-app-misc/recoll:pdf - Index PDF documents
-app-misc/recoll:rtf - Index Microsoft RTF documents
 app-misc/recoll:session - Stop monitoring file alterations when X11 session terminates
-app-misc/recoll:sound - Index audio files
-app-misc/recoll:tex - Index TeX files
-app-misc/recoll:wordperfect - Index WordPerfect documents
-app-misc/recoll:xml - Index several XML-based formats (Abiword, FictionBook, Kword, Office OpenXML, OpenDocument, SVG)
 app-misc/rlwrap:debug - Enable debug
 app-misc/screen:multiuser - Enable multiuser support (by setting correct permissions)
 app-misc/screen:nethack - Express error messages in nethack style
@@ -2503,6 +2489,7 @@ dev-python/paste:flup - enable support for flup (and therefore for various wgsi 
 dev-python/paste:openid - enable OpenID support
 dev-python/pillow:webp - Enable support for webp image format.
 dev-python/py-amqp:extras - Install extra tools to generate initial Python mod from an AMQP XML file
+dev-python/pygame:midi - Enable midi support using media-libs/portmidi
 dev-python/pygpu:cuda - Enable NVIDIA CUDA toolkit support
 dev-python/pygpu:opencl - Enable OpenCL support
 dev-python/pyhamcrest:numpy - Enable optional dependence on dev-python/numpy
@@ -2536,9 +2523,10 @@ dev-python/pyside:webkit - Build QtWebKit module
 dev-python/pyside:xmlpatterns - Build QtXmlPatterns module
 dev-python/python-caja:gtk3 - Build with GTK+3 instead of GTK+2
 dev-python/python-stdnum:vies - Enable VIES
-dev-python/pyudev:pygobject - Install PyGobject binding
-dev-python/pyudev:pyqt4 - Install PyQt4 binding
-dev-python/pyudev:pyside - Install PySide binding
+dev-python/pyudev:pygobject - Install PyGobject bindings
+dev-python/pyudev:pyside - Install PySide bindings
+dev-python/pyudev:qt4 - Install PyQt4 bindings
+dev-python/pyudev:qt5 - Install PyQt5 bindings
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
 dev-python/pyzmq:green - Enable gevent compatibility with zeromq
 dev-python/pyzor:gevent - Enable support for the gevent based handler
@@ -3003,6 +2991,14 @@ games-action/d2x-rebirth:l10n_de - Provides German translations for the game's b
 games-action/d2x-rebirth:music - Support for ingame music
 games-action/d2x-rebirth:opl3-musicpack - Include alternate version of the game's music, recorded with the Yamaha YMF262 OPL3 soundchip
 games-action/d2x-rebirth:sc55-musicpack - Include alternate version of the game's music, recorded with the Roland Sound Canvas SC-55 MIDI module
+games-action/dxx-rebirth:data - Install data files
+games-action/dxx-rebirth:descent1 - Install Descent 1 resources and executable
+games-action/dxx-rebirth:descent2 - Install Descent 2 resources and executable
+games-action/dxx-rebirth:l10n_de - Provides German translations for the game's briefings, robot descriptions, and outro of the original campaign
+games-action/dxx-rebirth:music - Enable music support
+games-action/dxx-rebirth:opl3-musicpack - Include alternate version of the game's music, recorded with the Yamaha YMF262 OPL3 soundchip
+games-action/dxx-rebirth:sc55-musicpack - Include alternate version of the game's music, recorded with the Roland Sound Canvas SC-55 MIDI module
+games-action/dxx-rebirth:textures - Include high resolution (640x480) backgrounds, briefing images and fonts (Descent 1)
 games-action/hotline-miami:bundled-libs - Use bundled libraries.
 games-action/hotline-miami:launcher - Install qt launcher
 games-action/minetest:leveldb - Enable LevelDB backend
@@ -3896,7 +3892,6 @@ media-gfx/digikam:lensfun - Enable support for media-libs/lensfun
 media-gfx/digikam:marble - Enable support for geolocation using kde-apps/marble
 media-gfx/digikam:panorama - Build the panorama plugin which requires media-gfx/hugin
 media-gfx/digikam:semantic-desktop - Enable kde-frameworks/kfilemetadata support
-media-gfx/digikam:video - Enable video player support
 media-gfx/enblend:gpu - GPU support for Enblend
 media-gfx/enblend:image-cache - allow for processing of large images
 media-gfx/eog-plugins:flickr - Enable uploading to Flickr
@@ -6469,6 +6464,7 @@ net-misc/stunnel:stunnel3 - Install the stunnel3 wrapper.
 net-misc/teamviewer:system-wine - Use app-emulation/wine instead of bundled wine.
 net-misc/termpkg:uucp - Adds support for uucp style device locking
 net-misc/tigervnc:drm - build with DRM support
+net-misc/tigervnc:nls - Add Native Language Support
 net-misc/tigervnc:server - Build TigerVNC server
 net-misc/tigervnc:xorgmodule - Build the Xorg module
 net-misc/uftp:server - Install uftp server daemon
@@ -7724,11 +7720,13 @@ sys-cluster/sx:client - Access the SX Cluster from this machine via its Nginx se
 sys-cluster/sx:ipv6 - Enable support for communication via IPv6.
 sys-cluster/sx:server - Enable SX's server component.
 sys-cluster/sx:ssl - Enable communication security via OpenSSL.
+sys-cluster/torque:autorun - Enable the AUTORUN_JOBS codebase
 sys-cluster/torque:cgroups - Enable pbs_mom to use linux cgroups to isolate jobs
 sys-cluster/torque:cpusets - Enable pbs_mom to utilize linux cpusets if available
 sys-cluster/torque:drmaa - Enable the Distributed Resource Management Application API
 sys-cluster/torque:munge - Enable authentication via munge
 sys-cluster/torque:nvidia - Enable management of Nvidia GPUs
+sys-cluster/torque:quickcommit - Enable the QUICKCOMMIT codebase
 sys-cluster/torque:server - Enable compilation of pbs_server and pbs_sched
 sys-cluster/vzctl:ploop - Add support for ploop devices via sys-cluster/ploop
 sys-cluster/vzctl:vzmigrate - Add support for container migration
