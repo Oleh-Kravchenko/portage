@@ -427,6 +427,7 @@ app-editors/vim:vim-pager - Install vimpager and vimmanpager links
 app-editors/vim-qt:lto - Enable configure workaround for -flto
 app-editors/vim-qt:luajit - Use dev-lang/luajit instead of dev-lang/lua
 app-editors/vim-qt:racket - Enable support for Scheme using dev-scheme/racket
+app-editors/vis:tre - more memory efficient regex search using dev-libs/tre
 app-editors/xemacs:athena - Chooses the MIT Athena widget set
 app-editors/xemacs:dnd - Enables support for the x11-libs/dnd drag-n-drop library
 app-editors/xemacs:eolconv - Support detection and translation of newline conventions
@@ -1944,7 +1945,6 @@ dev-libs/DirectFB:sawman - enable SaWMan (window manager and application manager
 dev-libs/DirectFB:swfdec - build Swfdec (Flash decoder) video provider
 dev-libs/DirectFB:tremor - build Ogg/Vorbis music provider using Tremor
 dev-libs/DirectFB:webp - build WebP image provider
-dev-libs/STLport:boost - Enable the usage of dev-libs/boost
 dev-libs/ace:ciao - Include Component Intergraced Ace ORB into the build of ace
 dev-libs/ace:tao - Include the ACE ORB (CORBA stuff) (called tao) into the build of ace
 dev-libs/actor-framework:benchmarks - Due to the number of out-of-tree deps, these only get installed as docs
@@ -3330,6 +3330,7 @@ gnome-extra/gnome-commander:pdf - Add metadata support for PDF
 gnome-extra/gnome-commander:python - Add support for python plugins
 gnome-extra/gnome-commander:samba - Add support for SAMBA (Windows File and Printer sharing)
 gnome-extra/gnome-commander:taglib - Add metadata support for ID3, Vorbis, FLAC and APE
+gnome-extra/gnome-commander:unique - Enable single instance support using dev-libs/libunique
 gnome-extra/gnome-dvb-daemon:totem - Build a plugin for media-video/totem
 gnome-extra/gnome-system-monitor:systemd - Display sys-apps/systemd metadata, e.g. unit names, for running processes
 gnome-extra/libgda:canvas - Enable support for x11-libs/goocanvas
@@ -3883,7 +3884,6 @@ media-gfx/darktable:kwallet - Enable encrypted storage of passwords with kde-fra
 media-gfx/darktable:libsecret - Enable libsecret support to store login credentials
 media-gfx/darktable:opencl - Enable opencl support
 media-gfx/darktable:pax_kernel - Triggers paxmarking of main darktable binary
-media-gfx/darktable:slideshow - Build the opengl slideshow viewer
 media-gfx/darktable:webp - Enable WebP export support
 media-gfx/digikam:addressbook - Enable akonadi contact integration
 media-gfx/digikam:kipi - Enable support for media-plugins/kipi-plugins
@@ -6244,7 +6244,6 @@ net-misc/eventd:speech - Enable plugin for Text-To-Speech support
 net-misc/eventd:websocket - Enable support for WebSocket protocol
 net-misc/fatrat:bittorrent - Use the bittorrent protocol via net-libs/libtorrent-rasterbar.
 net-misc/fatrat:webinterface - Enable builtin webinterface.
-net-misc/flexget:transmission - Support comminucation with net-p2p/transmission
 net-misc/freerdp:client - Build client binaries
 net-misc/freerdp:server - Build server binaries
 net-misc/gnome-online-miners:flickr - Enable Flickr support
