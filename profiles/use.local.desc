@@ -3719,7 +3719,7 @@ mail-filter/rmilter:memcached - Enable support for memcached
 mail-filter/rspamd:fann - Enable neural network plugin (requires sci-mathematics/fann).
 mail-filter/rspamd:jemalloc - Use dev-libs/jemalloc for allocations
 mail-filter/rspamd:pcre2 - Use dev-libs/libpcre2
-mail-filter/spamassassin:bayes - Require a database (MySQL, SQLite, Postgres, or BerkDB) backend to enable the Bayesian filtering database.
+mail-filter/spamassassin:bayes - Require a database (MySQL, SQLite, Postgres, or BerkDB) backend to enable the Bayesian filtering database. If you use the Redis backend, you do not need to enable this flag (Redis support is enabled automatically, and has no external dependencies).
 mail-filter/spamassassin:cron - Install a cron job to update SpamAssassin's rules daily.
 mail-filter/spamassassin:qmail - Build qmail functionality and docs
 mail-filter/spamdyke:ssl - Enables TLS protocol for spamdyke
@@ -8703,6 +8703,7 @@ xfce-base/xfce4-settings:libcanberra - Enable sound event support using media-li
 xfce-base/xfce4-settings:libinput - Enable libinput Xorg driver (x11-drivers/xf86-input-libinput) support
 xfce-base/xfce4-settings:xklavier - Enable keyboard layout selection support using x11-libs/libxklavier
 xfce-base/xfdesktop:thunar - Build support for desktop icons (for example, launchers and folders)
+xfce-base/xfwm4:xpresent - Enable the XPresent extension for sync to vblank
 xfce-extra/multiload-nandhp:lxpanel - Build the applet for lxde-base/lxpanel, you can set XFCE_PLUGINS="" if you don't want the Xfce dependencies.
 xfce-extra/tumbler:odf - Enable support for .odf thumbnailers by using gnome-extra/libgsf
 xfce-extra/xfce4-clipman-plugin:qrcode - Enable support for media-gfx/qrencode
