@@ -106,6 +106,7 @@ app-admin/puppet:augeas - Enable augeas support
 app-admin/puppet:diff - Enable diff support
 app-admin/puppet:rrdtool - Enable rrdtool support
 app-admin/puppet:shadow - Enable shadow support
+app-admin/puppet-agent:experimental - Add patches for things in testing
 app-admin/puppet-agent:puppetdb - Adds puppetdb support
 app-admin/puppetserver:puppetdb - Adds support for connecting to puppetdb
 app-admin/pwgen:livecd - Install init script for root password scrambling on boot
@@ -3159,9 +3160,13 @@ games-fps/turtlearena:mumble - Adds player-location (positional audio) support t
 games-fps/turtlearena:server - Build server target
 games-fps/turtlearena:voice - Adds VoIP support
 games-fps/unreal-tournament-goty:S3TC - Add the extra fancy textures to UT ... only works on certain cards (nvidia/ati/s3)
-games-fps/urbanterror:altgamma - Clearskies - X11-based gamma for Linux
+games-fps/urbanterror:altgamma - Alternative way for gamma setting with modesetting driver
+games-fps/urbanterror:client - Build binary for client (includes code for non-dedicated server)
+games-fps/urbanterror:mumble - Use Mumble for ingame VoIP (experimental)
+games-fps/urbanterror:opus - Use opus as sound codec
 games-fps/urbanterror:pax_kernel - Triggers a paxmarking of the binary
-games-fps/urbanterror:server - Build server target
+games-fps/urbanterror:server - Build binary for dedicated server
+games-fps/urbanterror:voip - Use ioq3 ingame VoIP (experimental)
 games-fps/warsow:irc - Enable IRC support
 games-fps/warsow:server - Build server binaries additionally
 games-fps/worldofpadman:maps - Install extra maps (PadPack)
@@ -5152,6 +5157,8 @@ net-analyzer/ipsumdump:nanotimestamp - Enable timestamps with nano-second resolu
 net-analyzer/linkchecker:sqlite - Mozilla Bookmark parsing
 net-analyzer/mate-netspeed:gtk3 - Build with GTK+3 instead of GTK+2
 net-analyzer/metasploit:development - Install dependencies needed for metasploit and exploit development
+net-analyzer/metasploit:nexpose - Enable the plugin to integrate with nexpose
+net-analyzer/metasploit:openvas - Enable the plugin to integrate net-analyzer/openvas
 net-analyzer/metasploit:oracle - Enable restricted oracle modules which have additional deps
 net-analyzer/metasploit:pcap - Enable libpcap for packet sniffing
 net-analyzer/mk-livestatus:nagios4 - Generate a net-analyzer/nagios-4 compatible plugin
@@ -7411,7 +7418,6 @@ sys-apps/hwids:usb - Install the usb.ids database
 sys-apps/hwloc:cuda - Enable CUDA device discovery
 sys-apps/hwloc:gl - Enable GL display device discovery (NVCtrl)
 sys-apps/hwloc:numa - Add support for numa memory allocation
-sys-apps/hwloc:opencl - Enable OpenCL device discovery (AMD only)
 sys-apps/hwloc:pci - Enable PCI device discovery using libpci
 sys-apps/hwloc:plugins - Build hwloc components as plugins so that the hwloc core library does not directly depend on their dependencies (for instance the libpci library)
 sys-apps/ibm-powerpc-utils:rtas - Add support for the Run Time Abstraction Services (RTAS)
@@ -7515,6 +7521,7 @@ sys-apps/v86d:x86emu - Use x86emu for Video BIOS calls
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
 sys-apps/xinetd:rpc - support RPC services
 sys-auth/consolekit:cgroups - Use the kernel to track processes instead of the session cookie.
+sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:pm-utils - Adds support for suspend/resume using sys-power/pm-utils
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
 sys-auth/consolekit:systemd-units - Install systemd unit files to replace the modern functionality of logind in sys-apps/systemd. Not recommended.
