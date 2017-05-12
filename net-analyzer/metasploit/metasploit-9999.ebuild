@@ -15,9 +15,6 @@ if [[ ${PV} == "9999" ]] ; then
 	SLOT="9999"
 else
 	##Tags https://github.com/rapid7/metasploit-framework/releases
-	##Releases https://github.com/rapid7/metasploit-framework/wiki/Downloads-by-Version
-	#SRC_URI="https://github.com/rapid7/metasploit-framework/archive/${PV}.tar.gz -> ${P}.tar.gz"
-	##Snapshots
 	MY_PV=${PV/_p/-}
 	SRC_URI="https://github.com/rapid7/metasploit-framework/archive/${MY_PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~x86"
@@ -185,7 +182,9 @@ all_ruby_prepare() {
 	rm Gemfile.lock
 	#The Gemfile contains real known deps
 	sed -i "/gem 'fivemat'/s/, '1.2.1'//" Gemfile || die
-	sed -i "s/1.1.13.pre/1.1.13/" metasploit-framework.gemspec || die
+	#git gems are only for ruby24 support and we are not there yet
+	sed -i "/git:/d" Gemfile || die
+
 	#now we edit the Gemfile based on use flags
 	if ! use pcap; then
 		sed -i -e "/^group :pcap do/,/^end$/d" Gemfile || die
