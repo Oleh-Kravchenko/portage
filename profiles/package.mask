@@ -29,6 +29,11 @@
 
 #--- END OF EXAMPLES ---
 
+# David Seifert <soap@gentoo.org> (14 May 2017)
+# Unmaintained upstream, awful codebase. No reverse
+# dependencies. See #594134. To be removed in 30 days.
+sys-fabric/libibvpp
+
 # Andreas K. Hüttel <dilfridge@gentoo.org> (13 May 2017)
 # Work in progress
 =dev-db/firebird-3*
@@ -45,12 +50,6 @@
 # either. See bugs 618130 and 618140. To be removed in 30 days.
 app-arch/undms
 app-arch/unlzx
-
-# Michael Orlitzky <mjo@gentoo.org> (11 May 2017)
-# This is nice to have in the tree for testing, but there
-# are random build failures with USE=jit, so it's not ready
-# for mass consumption just yet.
-=dev-scheme/racket-6.9
 
 # Bernard Cafarelli <voyageur@gentoo.org> (8 May 2017)
 # Coordinated conversion to wxGTK:3.0-gtk3
@@ -237,13 +236,6 @@ dev-java/jdbc-oracle-bin
 # James Le Cuirot <chewi@gentoo.org> (14 Apr 2017)
 # Ancient, unused by anything, fetch restricted. Removal in 30 days.
 dev-java/sun-j2ee-deployment-bin
-
-# Johannes Huber <johu@gentoo.org> (14 Apr 2017)
-# Masked for removal in 30 days. Dead upstream since
-# KDELibs 4 port several years ago. Repository gone.
-# Superseded by gwenview and okular. Fails to build
-# with gcc 6 (bug #614304).
-media-gfx/kuickshow
 
 # NP-Hardass <NP-Hardass@gentoo.org> (10 Apr 2017)
 # Masked for testing
