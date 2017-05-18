@@ -29,6 +29,27 @@
 
 #--- END OF EXAMPLES ---
 
+# Thomas Deutschmann <whissi@gentoo.org> (17 May 2017)
+# Unpatched security vulnerability per bug #616700
+# Removal in 30 days.
+mail-client/squirrelmail
+
+# Thomas Deutschmann <whissi@gentoo.org> (17 May 2017)
+# Multiple unpatched security vulnerabilitie (see bug #603756, #610696, #612650 ...)
+# Removal in 30 days.
+www-apps/joomla
+
+# Eray Aslan <eras@gentoo.org> (17 May 2017)
+# Functionality merged to cyrus-imapd-2.5.x series.
+# cyrus-imapd-2.5.10 was stabilized in Jan 2017.  Upgrade
+# if you haven't already done so.  Removal in 30 days.
+net-mail/cyrus-imap-admin
+dev-libs/cyrus-imap-dev
+# Masking for end-user convenience.  Will be dropped once
+# net-mail/cyrus-imap-admin and dev-libs/cyrus-imap-dev
+# are tree cleaned.
+=net-mail/cyrus-imapd-2.4*
+
 # Jason A. Donenfeld <zx2c4@gentoo.org> (16 May 2017)
 # This package has no upstream and has likely security vulnerabilities.
 # Users can trivially upgrade to x11-terms/rxvt-unicode, which is its
@@ -273,10 +294,6 @@ app-emulation/wine-any
 # Michael Weber <xmw@gentoo.org> (08 Apr 2017)
 # Experimental version.
 >=net-wireless/gnuradio-3.7.11
-
-# Patrice Clement <monsieurp@gentoo.org> (07 Apr 2017)
-# Part of the JDK since Java 6. Removal in 30 days.
-dev-java/jaxme
 
 # Amadeusz Zolnowski <aidecoe@gentoo.org> (2 Apr 2017)
 # Masked, committed accidentally. It's not tested yet, possibly broken.
