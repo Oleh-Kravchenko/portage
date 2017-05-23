@@ -29,6 +29,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (22 May 2017)
+# for Maciej S. Szmigiero <mail@maciej.szmigiero.name>
+# Any version above 5.100.138 breaks b43 driver in various ways.
+# Also, b43 wiki page says to use 5.100.138. Bug #541080.
+>=sys-firmware/b43-firmware-6.30.163.46
+
 # Michał Górny <mgorny@gentoo.org>, Andreas K. Hüttel <dilfridge@gentoo.org>,
 # Matthias Maier <tamiko@gentoo.org> (21 May 2017)
 # Those old versions of GCC are no longer really supported and are not
@@ -462,12 +468,6 @@ media-plugins/gst-plugins-ffmpeg
 # Alon Bar-Lev <alonbl@gentoo.org> (06 Feb 2017)
 # Needs openssl-1.1
 >=dev-libs/opencryptoki-3.6
-
-# Andreas Sturmlechner <asturm@gentoo.org> (03 Feb 2017)
-# Drops USE=firebird because it requires not yet packaged Firebird-3.0.
-# Affects libreoffice-base.
-# Bug #586634.
-=app-office/libreoffice-5.3.3.2
 
 # Bernard Cafarelli <voyageur@gentoo.org> (30 Jan 2017)
 # Alpha release with new features, masked for testing
