@@ -29,6 +29,10 @@
 
 #--- END OF EXAMPLES ---
 
+# Mike Gilbert <floppym@gentoo.org> (23 May 2017)
+# Needs more testing.
+~net-misc/networkmanager-1.8.0
+
 # Michał Górny <mgorny@gentoo.org> (22 May 2017)
 # for Maciej S. Szmigiero <mail@maciej.szmigiero.name>
 # Any version above 5.100.138 breaks b43 driver in various ways.
@@ -323,10 +327,6 @@ app-emulation/wine-staging
 app-emulation/wine-d3d9
 app-emulation/wine-any
 
-# Michael Weber <xmw@gentoo.org> (08 Apr 2017)
-# Experimental version.
->=net-wireless/gnuradio-3.7.11
-
 # Yixun Lan <dlan@gentoo.org> (30 Mar 2017)
 # Masked, broken due to emoji support which requre npm package installed (bug #612218)
 =app-i18n/ibus-1.5.15
@@ -620,10 +620,6 @@ www-apps/egroupware
 # The webkit-gtk:4 backend for Xiphos has known text display issues.
 # Use at your own risk.
 =app-text/xiphos-4.0.4-r1
-
-# Lars Wendler <polynomial-c@gentoo.org> (2 May 2016)
-# Broken reverse deps. At least one header file has been moved around.
->=media-gfx/imagemagick-7.0.1.0
 
 # Richard Freeman <rich0@gentoo.org> (16 Apr 2016)
 # Masked for extended testing, and porting of openrc scripts
