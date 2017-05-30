@@ -2326,6 +2326,7 @@ dev-perl/GD:fcgi - Build for FastCGI compatibility via dev-libs/fcgi instead of 
 dev-perl/Graphics-ColorNames:recommended - Install recommended support modules
 dev-perl/HTML-Mason:modperl - Enable www-apache/mod_perl support
 dev-perl/HTTP-Entity-Parser:xs - Install C-Based dependieces for faster performance
+dev-perl/JSON:xs - Install C-based dev-perl/JSON-XS for faster performance
 dev-perl/JSON-MaybeXS:xs - Install a C-Based backend to make JSON encode/decode fast
 dev-perl/Lab-Measurement:xpression - Install the Xpression measurement framework
 dev-perl/List-MoreUtils:xs - Install C-Based backend implementation for performance
@@ -6279,6 +6280,11 @@ net-misc/fatrat:bittorrent - Use the bittorrent protocol via net-libs/libtorrent
 net-misc/fatrat:webinterface - Enable builtin webinterface.
 net-misc/freerdp:client - Build client binaries
 net-misc/freerdp:server - Build server binaries
+net-misc/gerbera:curl - Support YouTube and external media sources (e.g. internet radio)
+net-misc/gerbera:lastfm - Enable last.fm support
+net-misc/gerbera:magic - Use libmagic to determine file types
+net-misc/gerbera:mysql - Use dev-db/mysql as backend rather than SQLite3
+net-misc/gerbera:taglib - Use media-libs/taglib for reading files' metadata rather than id3lib
 net-misc/gnome-online-miners:flickr - Enable Flickr support
 net-misc/gsasl:gcrypt - Use dev-libs/libgcrypt for low-level crypto
 net-misc/gsasl:ntlm - Add support for Microsoft's NTLM mechanism using net-libs/libntlm
@@ -7400,6 +7406,7 @@ sys-apps/etckeeper:cron - Install cron script
 sys-apps/firejail:apparmor - Enable support for custom AppArmor profiles
 sys-apps/firejail:bind - Enable custom bind mounts
 sys-apps/firejail:chroot - Enable chrooting to custom directory
+sys-apps/firejail:contrib - Install contrib scripts
 sys-apps/firejail:file-transfer - Enable file transfers between sandboxes and the host system
 sys-apps/firejail:network - Enable networking features
 sys-apps/firejail:network-restricted - Grant access to --interface, --net=ethXXX and --netfilter only to root user; regular users are only allowed --net=none
@@ -7847,7 +7854,6 @@ sys-fabric/ofed:qperf - Add rdma tests
 sys-fabric/ofed:rds - Tools to manage rds sockets
 sys-fabric/ofed:srp - Suport for userspace part for srp initiator
 sys-fabric/opensm:tools - Install ssld extra tool
-sys-firmware/amdgpu-ucode:legacy - Install firmware for older chipsets which are optionally supported by AMDGPU
 sys-firmware/edk2-ovmf:binary - Use pre-built binaries
 sys-firmware/intel-microcode:initramfs - install a small initramfs for use with CONFIG_MICROCODE_EARLY
 sys-firmware/intel-microcode:monolithic - install the large text microcode.dat (used by older kernels via microcode_ctl)
