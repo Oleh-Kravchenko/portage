@@ -68,10 +68,11 @@ DEPEND="${RDEPEND}
 PDEPEND="
 	>=app-admin/perl-cleaner-2.5
 	>=virtual/perl-File-Temp-0.230.400-r2
+	>=virtual/perl-File-Path-2.130.0
 	>=virtual/perl-Data-Dumper-2.154.0
 	virtual/perl-Test-Harness
 "
-# bug 390719, bug 523624
+# bug 390719, bug 523624, bug 620304
 # virtual/perl-Test-Harness is here for the bundled ExtUtils::MakeMaker
 
 S="${WORKDIR}/${MY_P}"
