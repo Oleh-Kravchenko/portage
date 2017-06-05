@@ -860,6 +860,7 @@ app-leechcraft/lc-poshuku:onlinebookmarks - Build OnlineBookmarks for syncing bo
 app-leechcraft/lc-poshuku:qrd - Build module for displaying the QR code of a web page.
 app-leechcraft/lc-poshuku:speeddial - Build SpeedDial module.
 app-leechcraft/lc-poshuku:webengine - Build WebEngine- (that is, Chromium-)based rendering backend.
+app-leechcraft/lc-secman:exposecontents - Build the GUI for viewing the stored data.
 app-leechcraft/leechcraft-meta:de - Install components, that allow using Leechcraft as Desktop Environment
 app-misc/anki:recording - Enable support for audio recording
 app-misc/anki:sound - Enable support for adding sound to cards
@@ -2888,7 +2889,6 @@ dev-util/mingw64-runtime:idl - Install idl files.
 dev-util/mingw64-runtime:libraries - Build extra libraries.
 dev-util/mingw64-runtime:tools - Build extra tools.
 dev-util/molecule:plugins - Add plugins provided by dev-util/molecule-plugins
-dev-util/monkeystudio:plugins - Build and install additional plugins
 dev-util/nemiver:memoryview - Enable the optional hexadecimal memory inspection with app-editors/ghex.
 dev-util/nvidia-cuda-sdk:cuda - Build CUDA binaries.
 dev-util/nvidia-cuda-sdk:opencl - Build OpenCL binaries.
@@ -3801,6 +3801,7 @@ mate-base/mate-control-center:gtk3 - Build with GTK+3 instead of GTK+2
 mate-base/mate-desktop:gtk3 - Build with GTK+3 instead of GTK+2
 mate-base/mate-panel:gtk3 - Build with GTK+3 instead of GTK+2
 mate-base/mate-session-manager:gtk3 - Build with GTK+3 instead of GTK+2
+mate-base/mate-session-manager:xtrans - Build with Xtrans support
 mate-base/mate-settings-daemon:gtk3 - Build with GTK+3 instead of GTK+2
 mate-extra/caja-extensions:cdr - Add an extension to burn files to cds using app-cdr/brasero.
 mate-extra/caja-extensions:gajim - Add an extension to support net-im/gajim.
@@ -5656,7 +5657,6 @@ net-im/psi:extras - Enables extra non official patches
 net-im/psi:iconsets - Install additional iconsets, some of them has not clear licensing
 net-im/psi:plugins - Enable plugins support
 net-im/psi:powersave - Disable some non critical timers for much less CPU usage
-net-im/psi:webkit - Enable chatlog rendering using webkit
 net-im/psi:whiteboarding - Enable experimental interactive SVG drawing
 net-im/psi:xscreensaver - Use X screensaver protocol extension to monitor idle/active status based on mouse/keyboard events
 net-im/psimedia:demo - build simple test application for the PsiMedia system
@@ -6553,7 +6553,6 @@ net-nds/openldap:smbkrb5passwd - Enable overlay for syncing ldap, unix and lanma
 net-nds/rpcbind:warmstarts - Enables rpcbind to cache configuration for warm restarts
 net-nds/tac_plus:finger - Adds support for checking user counts via fingering the NAS
 net-nds/tac_plus:maxsess - Enforce a limit on maximum sessions per user
-net-news/quiterss:phonon - Enable sound support via media-libs/phonon or dev-qt/qtphonon
 net-news/rssguard:webengine - Use dev-qt/qtwebengine for embedded web browser
 net-nntp/inn:innkeywords - Enable automatic keyword generation support
 net-nntp/inn:inntaggedhash - Use tagged hash table for history (disables large file support)
@@ -7050,7 +7049,6 @@ sci-geosciences/mapserver:postgis - Enable dev-db/postgis support
 sci-geosciences/mapserver:proj - Enable sci-libs/proj library support (geographic projections)
 sci-geosciences/mapserver:xslt - Enable xslt and exslt support xml-mapfile support
 sci-geosciences/merkaartor:libproxy - Use net-libs/libproxy for getting the HTTP/HTTPS/SOCKS proxy configuration
-sci-geosciences/merkaartor:qrcode - Enable QR code scanning with media-gfx/zbar
 sci-geosciences/merkaartor:webengine - Enable dev-qt/qtwebengine in some plugins
 sci-geosciences/qgis:designer - Build custom widgets for dev-qt/designer
 sci-geosciences/qgis:georeferencer - Determines whether georeferencer plugin should be built
