@@ -1008,7 +1008,6 @@ app-office/calligra:glew - Enable media-libs/glew opengl extension library suppo
 app-office/calligra:glib - Enable support for C library routines from dev-libs/glib
 app-office/calligra:gsf - Enable support for ODT structures extraction via gnome-extra/libgsf
 app-office/calligra:import-filter - Enable support for various import filter file formats like WordPerfect, Visio and Apple Keynote
-app-office/calligra:kdcraw - Enable support for KDE image manipulating interface via kde-apps/libkdcraw
 app-office/calligra:lcms - Build colorengine plugins using media-libs/lcms
 app-office/calligra:okular - Enable bindings for kde-apps/okular
 app-office/calligra:phonon - Build stage/eventplugins and videoshape plugin using media-libs/phonon
@@ -2879,7 +2878,6 @@ dev-util/kdevelop:ninja - Enable support for Ninja build system
 dev-util/kdevelop:okteta - Enable hex editor plugin
 dev-util/kdevelop:qmake - Enable support for QMake build system
 dev-util/kdevelop:qthelp - Enable support for QtHelp documentation browsing
-dev-util/kdevelop-qmake:tools - Build and install the qmake-parser debugging tool
 dev-util/kdevplatform:reviewboard - Enable reviewboard support
 dev-util/kdevplatform:welcomepage - Enable welcome page, requires dev-qt/qtdeclarative
 dev-util/ltrace:unwind - Use sys-libs/libunwind for frame unwinding support
@@ -2914,6 +2912,7 @@ dev-util/strace:aio - Enable dev-libs/libaio support for tracing Asynchronous I/
 dev-util/strace:unwind - Enable stack backtraces (-k flag) via sys-libs/libunwind
 dev-util/suse-build:symlink - Provide compatibility symlinks with original openSUSE package (might clash with other packages)
 dev-util/sysdig:modules - Build kernel modules needed for tracing local events. Disable this only if you intend to use sysdig purely to work with dumpfiles.
+dev-util/sysprof:systemd - Build the sysprofd daemon service, required to run the UI without root permissions. Relies on sys-apps/systemd running as the init system.
 dev-util/systemtap:libvirt - Support probing of libvirt domains.
 dev-util/trace-cmd:udis86 - Enable support for dev-libs/udis86 disassembler library
 dev-util/universalindentgui:html - Add support for HTML files
@@ -4088,7 +4087,6 @@ media-libs/leptonica:utils - Install command-line utilities
 media-libs/leptonica:webp - Adds support for the WebP image format
 media-libs/libafterimage:shaping - Use MIT shaped X windows extention.
 media-libs/libafterimage:shm - Use MIT shared memory extention for X image transfer.
-media-libs/libass:enca - Enables support for charset discovery and conversion.
 media-libs/libass:harfbuzz - Enables OpenType shaping via media-libs/harfbuzz.
 media-libs/libbdplus:aacs - Add support for decryption of AACS
 media-libs/libbluray:aacs - Add support for decryption of AACS
@@ -7370,6 +7368,7 @@ sci-visualization/veusz:minuit - Use Minuit during fitting viadev-python/pyminui
 sci-visualization/veusz:vo - Add Virtual Observatory tools via dev-python/astropy
 sci-visualization/visit:cgns - Builds the reader for the CFD General Notation System file format.
 sci-visualization/visit:silo - Adds support for reading .silo files.
+sci-visualization/visit:xdmf2 - Support for xdmf2 formated data.
 sec-policy/selinux-base:open_perms - Enable the open permissions for file object classes (SELinux policy capability).
 sec-policy/selinux-base:peer_perms - Enable the labeled networking peer permissions (SELinux policy capability).
 sec-policy/selinux-base:ubac - Enable User Based Access Control (UBAC) in the SELinux policy
@@ -8507,7 +8506,6 @@ x11-misc/light-locker:dpms - Turn on the display on screensaver deactivation.
 x11-misc/light-locker:gtk3 - Build with GTK+ 3 instead of GTK+ 2.
 x11-misc/light-locker:screensaver - Lock the screen on screensaver activation.
 x11-misc/lightdm:gtk - Pull in the gtk+ greeter
-x11-misc/lightdm:kde - Pull in the kde greeter
 x11-misc/mate-notification-daemon:gtk3 - Build with GTK+3 instead of GTK+2
 x11-misc/mozo:gtk3 - Build with GTK+3 instead of GTK+2
 x11-misc/openbox-menu:icons - Enable support for icons in menus
