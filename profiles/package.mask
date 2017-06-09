@@ -29,6 +29,17 @@
 
 #--- END OF EXAMPLES ---
 
+# Thomas Deutschmann <whissi@gentoo.org> (08 Jun 2017)
+# Unmaintained in Gentoo; Unpatched security bugs.
+# Removal in 30 days. Bug #608726
+www-apps/postfixadmin
+
+# Sergey Popov <pinkbyte@gentoo.org> (08 Jun 2017)
+# Dead upstream, relies on ancient and vulnerable qtwebkit
+# See bug #620690
+# Removal in 30 days
+app-editors/fb2edit
+
 # Michał Górny <mgorny@gentoo.org> (07 Jun 2017)
 # The new release changes API and *breaks* core Xfce components.
 # Upstream lists xfce-base/xfce4-settings and xfce-base/xfce4-panel
@@ -506,13 +517,6 @@ net-im/licq
 # bugs (603716 and 603720). Upgrade to latest version.
 =dev-db/postgresql-9.1.24
 
-# Kent Fredric <kentnl@gentoo.org> (17 Apr 2017)
-# Should be provided by dev-lang/perl or a virtual since perl 5.9,
-# But was added accidentally in 2012. Don't depend on this,
-# and if you need a version newer than 0.11, ask perl project
-# for a virtual
-dev-perl/encoding-warnings
-
 # NP-Hardass <NP-Hardass@gentoo.org> (10 Apr 2017)
 # Masked for testing
 virtual/wine
@@ -629,10 +633,11 @@ app-emulation/wine-any
 >=dev-python/qscintilla-python-2.10
 >=x11-libs/qscintilla-2.10
 
-# Andreas K. Hüttel <dilfridge@gentoo.org> (19 Feb 2017)
+# Andreas K. Hüttel <dilfridge@gentoo.org> (8 June 2017)
 # Dead upstream for >3 years. Closed source. Bundles outdated
 # libraries that certainly have known security issues (e.g.,
-# icu-36 (!) or curl). Use at your own risk.
+# icu-36 (!) or curl). Does not start anymore but segfaults.
+# Removal in 30 days.
 app-text/acroread
 media-fonts/acroread-asianfonts
 
@@ -842,10 +847,6 @@ dev-java/spring-instrument
 # commons-dbcp:0 as that requires Java 6. Note that the 2.0 in the
 # tree should have actually been 2.0_beta1. There are no revdeps.
 dev-java/jcs
-
-# Andreas K. Hüttel <dilfridge@gentoo.org> (9 Jan 2016)
-# Errorneously added. Is already in perl-core. Please uninstall.
-dev-perl/ExtUtils-Constant
 
 # Andrey Grozin <grozin@gentoo.org> (04 Jan 2016)
 # Needs a bump and substantial ebuild rewrite
