@@ -3095,6 +3095,7 @@ games-emulation/nestopia:gui - Enable GUI
 games-emulation/pcsxr:cdio - Use libcdio for CD support
 games-emulation/pcsxr:sdl - Use SDL sound backend (other parts of SDL are used unconditionally)
 games-emulation/ppsspp:headless - Build headless version of the PPSSPP
+games-emulation/ppsspp:system-ffmpeg - Use the system-wide media-video/ffmpeg instead of bundled
 games-emulation/sdlmame:arcade - Enable the Multiple Arcade Machine Emulator for arcade games support
 games-emulation/sdlmame:mess - Enable the Multi Emulator Super System for game system support
 games-emulation/sdlmame:tools - Build development tools shared between sdlmame and sdlmess
@@ -4504,6 +4505,7 @@ media-sound/jack-audio-connection-kit:coreaudio - Build the CoreAudio driver on 
 media-sound/jack-audio-connection-kit:cpudetection - Enables runtime cpudetection
 media-sound/jack-audio-connection-kit:pam - Add basic realtime configuration via sys-auth/realtime-base
 media-sound/jack2:celt - Support CELT low delay audio codec (media-libs/celt)
+media-sound/jack2:classic - Enable building of jackd"
 media-sound/jack2:opus - Support media-libs/opus
 media-sound/jack2:pam - Add basic realtime configuration via sys-auth/realtime-base
 media-sound/jalv:gtk2 - Adds support for GTK+2 in addition to GTK+3 controlled by the gtk useflag.
@@ -5747,7 +5749,6 @@ net-im/vacuum:shortcutmanager - Allows to setup user defined shortcuts
 net-im/vacuum:socksstreams - Enable initiating SOCKS5 data streams between two XMPP entities
 net-im/vacuum:urlprocessor - Allows other plugins to load data from custom types of URLs
 net-im/vacuum:vcard - Enable obtaining peer's personal contact information
-net-im/vacuum:vcs-revision - Add VCS revision to version number, INSECURE.
 net-im/vacuum:xmppuriqueries - Allow other plugins to handle XMPP URI queries
 net-irc/atheme-services:cracklib - Enable nickserv/cracklib module for enforcing strong account passwords
 net-irc/atheme-services:largenet - Enable support/tweaks for large networks
@@ -6657,7 +6658,6 @@ net-p2p/transmission:lightweight - Optimize transmission for low-resource system
 net-p2p/transmission:mbedtls - Use mbed TLS instead of OpenSSL
 net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
 net-p2p/transmission-remote-gtk:libproxy - Use net-libs/libproxy for getting the HTTP/HTTPS/SOCKS proxy configuration.
-net-p2p/transmission-remote-gtk:unique - Enable single instance support using dev-libs/libunique
 net-p2p/tribler:vlc - Enable vlc support.
 net-print/cups:java - Add support for the Java interpeter in the web server CGIs.
 net-print/cups:lprng-compat - Do not install lp... binaries so cups and lprng can coexist.
@@ -7450,6 +7450,7 @@ sys-apps/flashrom:wiki - Enable wiki informations, like supported devices etc.
 sys-apps/fwupd:colorhug - Enable ColorHug support through x11-misc/colord package.
 sys-apps/fwupd:dell - Enable Dell-specific support.
 sys-apps/fwupd:elf - Enable libelf support through dev-libs/libelf package.
+sys-apps/fwupd:man - Build and install man pages
 sys-apps/fwupd:uefi - Enable UEFI support
 sys-apps/gawk:mpfr - use mpfr for high precision arithmetic (-M / --bignum)
 sys-apps/gnome-disk-utility:fat - Include FAT16/FAT32 support (sys-fs/dosfstools)
