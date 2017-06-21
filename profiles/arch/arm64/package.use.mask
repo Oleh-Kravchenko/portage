@@ -1,6 +1,11 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
+# Alexis Ballier <aballier@gentoo.org> (20 Jun 2017)
+# Appends -mfpu=neon which is only valid for arm32 and suggests this is arm32
+# only
+media-sound/pulseaudio neon
+
 # Alexis Ballier <aballier@gentoo.org> (19 Jun 2017)
 # This is for arm32 only neon asm
 media-libs/vo-aacenc cpu_flags_arm_neon
@@ -252,10 +257,6 @@ net-libs/webkit-gtk -jit
 # Mask the vde flag on tinc because net-misc/vde is not
 # keyworded for arm
 net-vpn/tinc vde
-
-# Patrick McLean <chutzpah@gentoo.org> (08 Nov 2011)
-# mask conntrack USE flag for dnsmasq as dep is not keyworded
-net-dns/dnsmasq conntrack
 
 # Tobias Klausmann <klausman@gentoo.org> (02 Nov 2011)
 # libpcre jit is not supported on alpha
