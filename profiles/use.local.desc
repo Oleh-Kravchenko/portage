@@ -465,7 +465,8 @@ app-emulation/docker:device-mapper - Enables dependencies for the "devicemapper"
 app-emulation/docker:experimental - Enable features labelled by upstream to be of "experimental" quality and not yet ready for general consumption.
 app-emulation/docker:overlay - Enables dependencies for the "overlay" graph driver, including necessary kernel flags.
 app-emulation/docker:pkcs11 - Enables pkcs-11 support.
-app-emulation/docker-runc:apparmor - Enable AppArmor support.
+app-emulation/docker-runc:ambient - Enable support for ambient capability
+app-emulation/docker-runc:apparmor - Enable AppArmor support
 app-emulation/dosemu:fluidsynth - use media-sound/fluidsynth for MIDI emulation
 app-emulation/e-uae:capslib - Add CAPS library support
 app-emulation/e-uae:sdl-sound - Use media-libs/sdl-sound for audio output
@@ -1258,6 +1259,8 @@ app-vim/gentoo-syntax:ignore-glep31 - Remove GLEP 31 (UTF-8 file encodings) sett
 app-vim/vim-latex:html - Install HTML documentation
 app-vim/vim-latex:python - Enable python support which can help speed up some functionality
 app-vim/youcompleteme:clang - Enable semantic support for C-family languages using sys-devel/clang
+dev-ada/gnat_util:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
+dev-ada/gnat_util:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/gnat_util:shared - Build gnat_util shared library
 dev-ada/gnat_util:static - Build gnat_util static library
 dev-ada/gnat_util:static-pic - Build gnat_util static library with pic code
