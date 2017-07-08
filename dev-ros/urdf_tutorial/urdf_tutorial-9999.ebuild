@@ -4,6 +4,8 @@
 EAPI=5
 ROS_REPO_URI="https://github.com/ros/urdf_tutorial"
 KEYWORDS="~amd64"
+ROS_SUBDIR="${PN}"
+PYTHON_COMPAT=( python2_7 )
 
 inherit ros-catkin
 
@@ -11,7 +13,6 @@ DESCRIPTION="URDF tutorials"
 LICENSE="BSD"
 SLOT="0"
 IUSE=""
-ROS_SUBDIR="${PN}"
 
 RDEPEND="
 	dev-ros/urdf
@@ -20,4 +21,6 @@ RDEPEND="
 	dev-ros/rviz
 	dev-ros/xacro
 "
-DEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}
+	test? ( dev-ros/roslaunch[${PYTHON_USEDEP}] )
+"
