@@ -2734,6 +2734,11 @@ developers and volunteer mentors.</description>
     <url>https://wiki.gentoo.org/wiki/Project:PostgreSQL</url>
     <description>This project is focused on maintaining ebuilds and utilities that are closely tied to PostgreSQL including PostgreSQL itself.</description>
     <member>
+      <email>mjo@gentoo.org</email>
+      <name>Michael Orlitzky</name>
+      <role>Member</role>
+    </member>
+    <member>
       <email>patrick@gentoo.org</email>
       <name>Patrick Lauer</name>
       <role>Member</role>
@@ -2924,10 +2929,10 @@ developers and volunteer mentors.</description>
       <name>Marek Szuba</name>
       <role>Member</role>
     </member>
-    <member>
+    <member is-lead="1">
       <email>mgorny@gentoo.org</email>
       <name>Michał Górny</name>
-      <role>Member</role>
+      <role>Lead</role>
     </member>
     <member>
       <email>monsieurp@gentoo.org</email>
@@ -3772,27 +3777,6 @@ developers and volunteer mentors.</description>
       <email>soap@gentoo.org</email>
       <name>David Seifert</name>
       <role>Member ( misc )</role>
-    </member>
-  </project>
-  <project>
-    <email>sunrise@gentoo.org</email>
-    <name>Sunrise</name>
-    <url>https://wiki.gentoo.org/wiki/Project:Sunrise</url>
-    <description>Project Sunrise is a starting point for gentoo users to contribute. The team members encourage users to write ebuilds and make sure that they follow Gentoo QA standards.</description>
-    <member>
-      <email>chithanh@gentoo.org</email>
-      <name>Chí-Thanh Christopher Nguyễn</name>
-      <role>Ebuild review</role>
-    </member>
-    <member>
-      <email>mgorny@gentoo.org</email>
-      <name>Michał Górny</name>
-      <role>Project pre-removal cleanup</role>
-    </member>
-    <member is-lead="1">
-      <email>tommy@gentoo.org</email>
-      <name>Thomas Sachau</name>
-      <role>Administration and ebuild review</role>
     </member>
   </project>
   <project>
