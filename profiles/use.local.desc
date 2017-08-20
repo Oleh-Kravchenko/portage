@@ -2954,6 +2954,7 @@ dev-vcs/fossil:json - Enable the JSON API of Fossil's wiki
 dev-vcs/fossil:legacy-mv-rm - Enable legacy behavior for mv/rm (skip checkout files)
 dev-vcs/fossil:miniz - Use the bundled miniz for compression instead of zlib
 dev-vcs/fossil:sqlite - Use the system SQLite instead of the bundled one
+dev-vcs/fossil:system-sqlite - Use the system SQLite instead of the bundled one
 dev-vcs/fossil:th1-docs - Enable TH1 for embedded documentation pages
 dev-vcs/fossil:th1-hooks - Enable TH1 hooks for commands and web pages
 dev-vcs/git:blksha1 - Use the new optimized SHA1 implementation
@@ -4333,7 +4334,6 @@ media-plugins/grilo-plugins:daap - Enable dmap support through net-libs/libdmaps
 media-plugins/grilo-plugins:flickr - Enable Flickr support
 media-plugins/grilo-plugins:freebox - Build support for viewing TV channels using Freebox
 media-plugins/grilo-plugins:gnome-online-accounts - Enable net-libs/gnome-online-accounts support
-media-plugins/grilo-plugins:pocket - Support for showing content from Pocket
 media-plugins/grilo-plugins:subtitles - Enables support for subtitle from OpenSubtitles
 media-plugins/grilo-plugins:thetvdb - Build support for thetvdb.com
 media-plugins/grilo-plugins:tracker - Build support for content discovery using the app-misc/tracker indexer
@@ -7646,6 +7646,7 @@ sys-block/gparted:mdadm - Support for Linux software RAID.
 sys-block/gparted:ntfs - Include NTFS support (sys-fs/ntfs3g)
 sys-block/gparted:reiser4 - Include ReiserFS4 support (sys-fs/reiser4progs)
 sys-block/gparted:reiserfs - Include ReiserFS support (sys-fs/reiserfsprogs)
+sys-block/gparted:udf - Include UDF support (sys-fs/udftools)
 sys-block/gparted:xfs - Include XFS support (sys-fs/xfsprogs, sys-fs/xfsdump)
 sys-block/open-iscsi:rdma - Support iSCSI over RDMA
 sys-block/open-iscsi:tcp - Support iSCSI over TCP
