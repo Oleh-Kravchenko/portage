@@ -89,6 +89,7 @@ pkg_setup() {
 }
 
 src_prepare() {
+	eapply "${FILESDIR}"/${P}-underlinking.patch  # from 629304
 	eapply_user
 
 	sed -i -e 's/== "xquartz"/= "xquartz"/' configure.ac || die #494864
@@ -164,7 +165,7 @@ _clean_up_locales() {
 }
 
 src_test() {
-	Xemake check
+	virtx emake check
 }
 
 src_install() {

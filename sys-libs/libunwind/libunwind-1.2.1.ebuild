@@ -13,7 +13,7 @@ SRC_URI="mirror://nongnu/libunwind/${MY_P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="7"
-KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~hppa ia64 ~mips ~ppc ~ppc64 ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux"
 IUSE="debug debug-frame doc libatomic lzma static-libs"
 
 RESTRICT="test" # half of tests are broken (toolchain version dependent)
@@ -22,6 +22,9 @@ RESTRICT="test" # half of tests are broken (toolchain version dependent)
 RDEPEND="lzma? ( app-arch/xz-utils )"
 DEPEND="${RDEPEND}
 	libatomic? ( dev-libs/libatomic_ops )"
+
+# Bug 586208
+CCACHE_NODIRECT=1
 
 S="${WORKDIR}/${MY_P}"
 
