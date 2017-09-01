@@ -15,6 +15,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
+# restrict tests because pyperclip is fairly unstable...
+RESTRICT="test"
+
 RDEPEND="
 	>=dev-python/pyparsing-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
@@ -27,13 +30,6 @@ DEPEND="${RDEPEND}
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)
 "
-
-python_prepare_all() {
-	# Disable failing test
-	[[ ${PV} == 0.7.0 ]] || die "Please remove the sed from python_prepare_all"
-	sed -i -e 's:test_input_redirection:_&:' tests/test_cmd2.py || die
-	distutils-r1_python_prepare_all
-}
 
 python_test() {
 	py.test -vv || die
