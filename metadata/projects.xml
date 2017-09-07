@@ -2909,11 +2909,6 @@ developers and volunteer mentors.</description>
       <role>Member</role>
     </member>
     <member>
-      <email>gokturk@gentoo.org</email>
-      <name>Göktürk Yüksek</name>
-      <role>On sabbatical</role>
-    </member>
-    <member>
       <email>jstein@gentoo.org</email>
       <name>Jonas Stein</name>
       <role>Deputy Lead</role>
@@ -3884,6 +3879,11 @@ developers and volunteer mentors.</description>
     <member>
       <email>dilfridge@gentoo.org</email>
       <name>Andreas K. Hüttel</name>
+      <role>Member</role>
+    </member>
+    <member>
+      <email>jstein@gentoo.org</email>
+      <name>Jonas Stein</name>
       <role>Member</role>
     </member>
   </project>
