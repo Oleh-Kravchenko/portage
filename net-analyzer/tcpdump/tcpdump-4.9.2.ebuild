@@ -10,12 +10,12 @@ HOMEPAGE="
 	https://github.com/the-tcpdump-group/tcpdump
 "
 SRC_URI="
-	https://sources.archlinux.org/other/packages/${PN}/${P}.tar.gz
+	http://www.tcpdump.org/release/${P}.tar.gz
 "
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux"
 IUSE="+drop-root libressl smi ssl samba suid test"
 
 RDEPEND="
@@ -43,6 +43,15 @@ pkg_setup() {
 	fi
 }
 
+src_prepare() {
+	default
+
+	sed -i -e '/^eapon1/d;' tests/TESTLIST || die
+
+	# bug 630394
+	sed -i -e '/^nbns-valgrind/d' tests/TESTLIST || die
+}
+
 src_configure() {
 	if use drop-root; then
 		append-cppflags -DHAVE_CAP_NG_H
@@ -59,7 +68,6 @@ src_configure() {
 
 src_test() {
 	if [[ ${EUID} -ne 0 ]] || ! use drop-root; then
-		sed -i -e '/^\(espudp1\|eapon1\)/d;' tests/TESTLIST || die
 		emake check
 	else
 		ewarn "If you want to run the test suite, make sure you either"
