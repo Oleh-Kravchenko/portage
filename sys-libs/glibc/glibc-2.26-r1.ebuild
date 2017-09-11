@@ -108,8 +108,6 @@ fi
 #
 
 pkg_pretend() {
-	die "This is work in progress. DONT try to use it. dilfridge"
-
 	# Make sure devpts is mounted correctly for use w/out setuid pt_chown
 	check_devpts
 
@@ -242,7 +240,6 @@ src_prepare() {
 	gnuconfig_update
 
 	cd "${WORKDIR}"
-	find . -type f '(' -size 0 -o -name "*.orig" ')' -delete
 	find . -name configure -exec touch {} +
 
 	eprefixify extra/locale/locale-gen
@@ -282,16 +279,25 @@ glibc_do_configure() {
 	# Glibc does not work with gold (for various reasons) #269274.
 	tc-ld-disable-gold
 
+	# CXX isnt handled by the multilib system, so if we dont unset here
+	# we accumulate crap across abis
+	unset CXX
+
 	einfo "Configuring glibc for $1"
 
 	local v
-	for v in ABI CBUILD CHOST CTARGET CBUILD_OPT CTARGET_OPT CC LD {AS,C,CPP,CXX,LD}FLAGS ; do
+	for v in ABI CBUILD CHOST CTARGET CBUILD_OPT CTARGET_OPT CC CXX LD {AS,C,CPP,CXX,LD}FLAGS ; do
 		einfo " $(printf '%15s' ${v}:)   ${!v}"
 	done
 
 	# The glibc configure script doesn't properly use LDFLAGS all the time.
 	export CC="$(tc-getCC ${CTARGET}) ${LDFLAGS}"
 	einfo " $(printf '%15s' 'Manual CC:')   ${CC}"
+
+	# Some of the tests are written in C++, so we need to force our multlib abis in, bug 623548
+	export CXX="$(tc-getCXX ${CTARGET}) $(get_abi_CFLAGS)"
+	einfo " $(printf '%15s' 'Manual CXX:')   ${CXX}"
+
 	echo
 
 	local myconf=()
@@ -308,7 +314,19 @@ glibc_do_configure() {
 	[[ -d ports ]] && addons+=",ports"
 	popd > /dev/null
 
-	myconf+=( --enable-stack-protector=all )
+	case ${CTARGET} in
+		powerpc-*)
+			# Currently gcc on powerpc32 generates invalid code for
+			# __builtin_return_address(0) calls. Normally programs
+			# don't do that but malloc hooks in glibc do:
+			# https://gcc.gnu.org/PR81996
+			# https://bugs.gentoo.org/629054
+			myconf+=( --enable-stack-protector=no )
+			;;
+		*)
+			myconf+=( --enable-stack-protector=all )
+			;;
+	esac
 	myconf+=( --enable-stackguard-randomization )
 
 	[[ $(tc-is-softfloat) == "yes" ]] && myconf+=( --without-fp )
