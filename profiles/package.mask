@@ -29,6 +29,17 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas K. Huettel <dilfridge@gentoo.org> (23 Sep 2017)
+# Broken on Perl 5.26 (bug 623096), no fix in sight. No consumers.
+# Removal in 30 days.
+dev-perl/rpm-build-perl
+
+# Hans de Graaff <graaff@gentoo.org> (23 Sep 2017) Mask old
+# unmaintained slots for removal in 30 days. Upgrade to the newer
+# slots.
+dev-ruby/capybara:0
+dev-ruby/xpath:0
+
 # Bernard Cafarelli <voyageur@gentoo.org> (20 Sep 2017)
 # Requires qt 5.8, not yet in tree. Bug #631570
 >=media-video/orion-1.6.0
@@ -91,14 +102,6 @@ dev-util/universalindentgui
 # Use net-misc/dropbox or kde-apps/dolphin-plugins instead.
 # Masked for removal in 30 days.
 kde-misc/kfilebox
-
-# Kent Fredric <kentnl@gentoo.org> (10 Sep 2017)
-# Staging block for Perl 5.24.3
-=dev-lang/perl-5.24.3_rc1
-=dev-lang/perl-5.24.3_rc2
-=dev-lang/perl-5.24.3_rc3
-=virtual/perl-Module-CoreList-5.201.709.220
-=virtual/perl-Time-HiRes-1.974.100-r1
 
 # Andreas Sturmlechner <asturm@gentoo.org> (10 Sep 2017)
 # Requires dead Qt 4. Dead upstream. Unmaintained.
@@ -289,18 +292,6 @@ app-arch/unrar-gpl
 # dev-cpp/libjson-rpc-cpp is fixed, whichever happens first.
 >=dev-cpp/catch-2
 
-# Hans de Graaff <graaff@gentoo.org> (20 Aug 2017)
-# Mask Ruby 2.1 for removal, bug 615822
-# This version is no longer supported by upstream
-# since March 2017.
-# This mask also includes all remaining ruby21-only packages.
-dev-lang/ruby:2.1
-dev-ruby/activeresource:4.1
-dev-ruby/builder:3
-dev-ruby/rails-observers
-dev-ruby/samuel
-games-rpg/a-bird-story
-
 # Sébastien Fabbro <bicatali@gentoo.org> (19 Aug 2017)
 # ipython-6 is python-3 only and causes circular dependencies
 # Unset python_targets_python2_7 for ipykernel and ipyparallel if needed.
@@ -458,6 +449,7 @@ dev-ruby/poltergeist
 # Andreas K. Hüttel <dilfridge@gentoo.org> (5 June 2017)
 # Masked for initial testing.
 =dev-lang/perl-5.26.0
+=dev-lang/perl-5.26.1
 =virtual/perl-Archive-Tar-2.240.0
 =virtual/perl-B-Debug-1.240.0
 =virtual/perl-CPAN-2.180.0
