@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -55,6 +55,11 @@ S="${WORKDIR}/${PN}-${MY_PV}"
 src_prepare() {
 	default
 
+	# disable git
+	sed -i \
+		-e '/git describe/s/^/#/' \
+		${PN}.pro || die
+
 	# fix installation path
 	sed -i \
 		-e '/PREFIX = /s:/usr/local:/usr:' \
@@ -67,7 +72,7 @@ src_prepare() {
 src_configure() {
 	local myconf=()
 
-	if ! use ffmpeg && ! use libav ; then
+	if ! use ffmpeg ; then
 		myconf+=( DISABLE_INTERNAL_PLAYER=1 )
 	fi
 
