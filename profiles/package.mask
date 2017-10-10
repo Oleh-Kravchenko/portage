@@ -162,18 +162,6 @@ dev-util/monkeystudio
 # Masked for removal in 30 days. Bug #628234.
 dev-util/universalindentgui
 
-# Andreas Sturmlechner <asturm@gentoo.org> (10 Sep 2017)
-# Requires dead Qt 4. Dead upstream. Does not work.
-# Use net-misc/dropbox or kde-apps/dolphin-plugins instead.
-# Masked for removal in 30 days.
-kde-misc/kfilebox
-
-# Andreas Sturmlechner <asturm@gentoo.org> (10 Sep 2017)
-# Requires dead Qt 4. Dead upstream. Unmaintained.
-# Use media-video/kmplayer or kde-apps/dragon instead.
-# Masked for removal in 30 days.
-media-video/kplayer
-
 # Michael Palimaka <kensington@gentoo.org> (10 Sep 2017)
 # Requires dead Qt 4. Dead upstream. Build failures.
 # Bug #622548, #623574. Masked for removal in 30 days.
@@ -615,17 +603,6 @@ x11-libs/gtk+:1
 # Markos Chandras <hwoarang@gentoo.org> (10 Dec 2016)
 # Reverse dependencies need testing, wrt bug #580760
 >=net-libs/libtorrent-rasterbar-1.1.1
-
-# Robin H. Johnson <robbat2@gentoo.org> (18 Nov 2016)
-# Depends on slotted lua, 
-# odd revisions are slotted lua, 
-# even revisions are unslotted lua
-=dev-db/redis-3.2.5-r1
-=dev-db/redis-3.2.5-r5
-=dev-db/redis-3.2.6-r1
-=dev-db/redis-3.2.6-r5
-=dev-db/redis-3.2.8-r1
-=dev-db/redis-3.2.8-r3
 
 # Michał Górny <mgorny@gentoo.org> (17 Nov 2016)
 # New version masked for testing. It supports source-window buffer size
