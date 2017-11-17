@@ -1032,7 +1032,6 @@ app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
 app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:quickstarter - Build the system tray quickstarter
-app-office/libreoffice:telepathy - Enable document colaboration features using telepathy communication framework.
 app-office/libreoffice:vlc - Use media-video/vlc for video embedding
 app-office/libreoffice-l10n:offlinehelp - Install help files locally instead of using the LibreOffice Wiki
 app-office/lyx:aspell - Add support for aspell spellchecking
@@ -1421,7 +1420,10 @@ dev-db/pgpool2:memcached - Use memcached for query caching.
 dev-db/pgrouting:drivingdistance - Enable to calculate driving distance
 dev-db/pgrouting:html - Install HTML formatted documentation
 dev-db/phpmyadmin:setup - Installs the phpMyAdmin setup utility. Users who don't use the utility should disable this USE flag for security reasons as the setup tool was the target of various exploits in the past.
-dev-db/postgis:gtk - Build shp2pgsql-gui a graphical interface to shp2pgsql
+dev-db/postgis:address-standardizer - Normalize US and CA postal addresses
+dev-db/postgis:gtk - Build graphical interface for shp2pgsql (shp2pgsql-gui)
+dev-db/postgis:mapbox - Add capability to transform geometry into Mapbox Vector Tile
+dev-db/postgis:topology - Build topology spatial types and functions
 dev-db/postgresql:pg_legacytimestamp - Use double precision floating-point numbers instead of 64-bit integers for timestamp storage.
 dev-db/postgresql:server - Disable to build and install the clients and libraries only.
 dev-db/postgresql:uuid - Enable server side UUID generation (via dev-libs/ossp-uuid).
