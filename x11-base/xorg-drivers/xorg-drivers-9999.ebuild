@@ -34,7 +34,6 @@ IUSE_VIDEO_CARDS="
 	video_cards_amdgpu
 	video_cards_ast
 	video_cards_dummy
-	video_cards_epson
 	video_cards_fbdev
 	video_cards_freedreno
 	video_cards_geode
@@ -59,7 +58,6 @@ IUSE_VIDEO_CARDS="
 	video_cards_virtualbox
 	video_cards_vmware
 	video_cards_voodoo
-	video_cards_fglrx
 	video_cards_nvidia
 "
 

@@ -1861,8 +1861,8 @@ dev-lang/gdl:hdf - Add support for the Hierarchical Data Format v.4
 dev-lang/gdl:proj - Add support for sci-libs/proj (geographic projections)
 dev-lang/gdl:udunits - Add support for manipulating units of physical quantities
 dev-lang/ghc:binary - Install the binary version directly, rather than using it to build the source version.
-dev-lang/ghc:ghcbootstrap - Bootstrap from an existing GHC installation.
-dev-lang/ghc:ghcmakebinary - Build with less runtime depends (bundle libffi for building bootstrap binaries).
+dev-lang/ghc:ghcbootstrap - Internal: Bootstrap GHC from an existing GHC installation.
+dev-lang/ghc:ghcmakebinary - Internal: Build binary friendly for redistribution.
 dev-lang/gnat-gpl:awt - Useful only when building GCJ, this enables Abstract Window Toolkit (AWT) peer support on top of GTK+
 dev-lang/gnat-gpl:cilk - Support the Cilk Plus language (C/C++ based languages for parallel programming)
 dev-lang/gnat-gpl:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
@@ -4626,7 +4626,6 @@ media-sound/ncmpcpp:outputs - Enable outputs screen
 media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/frequency spectrum modes
 media-sound/patchage:jack-dbus - Use Jack via D-Bus instead of libjack
 media-sound/patchage:session - Include experimental Jack session management (save/restore) support
-media-sound/picard:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
 media-sound/pithos:appindicator - Enable usage of appindicator to export menu options in to unity
 media-sound/pithos:keybinder - Use keybinder to enable global key bindings
 media-sound/pms:regex - Enable regular expression searches
