@@ -752,7 +752,6 @@ app-i18n/fcitx:opencc - Enable OpenCC engine (using app-i18n/opencc) for convert
 app-i18n/fcitx:pango - Enable support for x11-libs/pango
 app-i18n/fcitx:qt4 - Install input method module for Qt 4
 app-i18n/fcitx:table - Install table input methods for Simplified Chinese
-app-i18n/fcitx-configtool:gtk3 - Use GTK+3 instead of 2
 app-i18n/fcitx-libpinyin:dictionary-manager - Install dictionary manager
 app-i18n/fcitx-unikey:macro-editor - Install macro editor
 app-i18n/freewnn:uum - Build uum
@@ -2371,7 +2370,6 @@ dev-perl/HTML-Mason:modperl - Enable www-apache/mod_perl support
 dev-perl/HTTP-Entity-Parser:xs - Install C-Based dependieces for faster performance
 dev-perl/JSON:xs - Install C-based dev-perl/JSON-XS for faster performance
 dev-perl/JSON-MaybeXS:xs - Install a C-Based backend to make JSON encode/decode fast
-dev-perl/Lab-Measurement:xpression - Install the Xpression measurement framework
 dev-perl/Lab-VXI11:libtirpc - Build against net-libs/libtirpc for RPC support
 dev-perl/List-MoreUtils:xs - Install C-Based backend implementation for performance
 dev-perl/MCE:sereal - Install dev-perl/Sereal-Encoder and decoder for faster worker IPC
@@ -5513,6 +5511,7 @@ net-dns/pdns:tinydns - Use a TinyDNS CDB database as backend.
 net-dns/pdns:tools - Build optional tools (dnsscan, dnsscope, etc..).
 net-dns/pdns-recursor:luajit - Enable support for dev-lang/luajit.
 net-dns/pdns-recursor:protobuf - Enable support for dev-libs/protobuf.
+net-dns/pdns-recursor:sodium - Use dev-libs/libsodium for cryptography
 net-dns/pdnsd:isdn - Linux-only: check status of ippp interfaces with ISDN-specific system calls.
 net-dns/pdnsd:urandom - Linux-only: use /dev/urandom (pseudo-random number generation) instead of the default use of random() PRNG.
 net-dns/resolvconf-symlink:symlink - Actually replace /etc/resolv.conf with a symlink. Without this flag, the ebuild is a no-op.
