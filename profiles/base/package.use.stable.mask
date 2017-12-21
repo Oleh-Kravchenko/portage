@@ -8,10 +8,6 @@
 # Dependencies have no stable keyword
 app-backup/backup-manager s3
 
-# Andreas Sturmlechner <asturm@gentoo.org> (16 Nov 2017)
-# Requires PYTHON_TARGETS="python3_5", bug #620940
-kde-apps/kdegames-meta python
-
 # Brian Evans <grknight@gentoo.org (6 Nov 2017)
 # Requires stable phpunit
 dev-php/PEAR-Text_Password test
@@ -39,10 +35,6 @@ sci-libs/gdal mdb
 # Tim Harder <radhermit@gentoo.org> (11 Sep 2017)
 # Requires guile-2 which is still unstable.
 >=net-irc/weechat-1.7 guile
-
-# Andreas Sturmlechner <asturm@gentoo.org> (17 Aug 2017)
-# Unstable dependencies.
-kde-apps/kopete cryptography
 
 # Andreas Sturmlechner <asturm@gentoo.org> (12 Aug 2017)
 # Not operational, bug #619534

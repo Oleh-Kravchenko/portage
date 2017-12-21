@@ -11,13 +11,13 @@ SRC_URI="https://www.clamav.net/downloads/production/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 ~arm ~hppa ia64 ppc ppc64 ~sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris"
+KEYWORDS="alpha amd64 ~arm hppa ia64 ppc ppc64 ~sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris"
 IUSE="bzip2 clamdtop iconv ipv6 libressl milter metadata-analysis-api selinux static-libs uclibc"
 
 CDEPEND="bzip2? ( app-arch/bzip2 )
 	clamdtop? ( sys-libs/ncurses:0 )
 	iconv? ( virtual/libiconv )
-	metadata-analysis-api? ( dev-libs/json-c )
+	metadata-analysis-api? ( dev-libs/json-c:= )
 	milter? ( || ( mail-filter/libmilter mail-mta/sendmail ) )
 	dev-libs/libtommath
 	>=sys-libs/zlib-1.2.2

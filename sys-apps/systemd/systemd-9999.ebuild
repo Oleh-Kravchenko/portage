@@ -20,7 +20,7 @@ HOMEPAGE="https://www.freedesktop.org/wiki/Software/systemd"
 
 LICENSE="GPL-2 LGPL-2.1 MIT public-domain"
 SLOT="0/2"
-IUSE="acl apparmor audit build cryptsetup curl elfutils +gcrypt gnuefi http idn importd +kmod libidn2 +lz4 lzma nat pam policykit qrcode +seccomp selinux ssl sysv-utils test usrmerge vanilla xkb"
+IUSE="acl apparmor audit build cryptsetup curl elfutils +gcrypt gnuefi http idn importd +kmod libidn2 +lz4 lzma nat pam policykit qrcode +seccomp selinux ssl +sysv-utils test usrmerge vanilla xkb"
 
 REQUIRED_USE="importd? ( curl gcrypt lzma )"
 RESTRICT="!test? ( test )"
@@ -57,9 +57,8 @@ COMMON_DEPEND=">=sys-apps/util-linux-2.30:0=[${MULTILIB_USEDEP}]
 	qrcode? ( media-gfx/qrencode:0= )
 	seccomp? ( >=sys-libs/libseccomp-2.3.1:0= )
 	selinux? ( sys-libs/libselinux:0= )
-	sysv-utils? (
-		!sys-apps/systemd-sysv-utils
-		!sys-apps/sysvinit )
+	sysv-utils? ( !sys-apps/sysvinit )
+	!sysv-utils? ( sys-apps/sysvinit )
 	xkb? ( >=x11-libs/libxkbcommon-0.4.1:0= )
 	abi_x86_32? ( !<=app-emulation/emul-linux-x86-baselibs-20130224-r9
 		!app-emulation/emul-linux-x86-baselibs[-abi_x86_32(-)] )"
@@ -202,6 +201,7 @@ multilib_src_configure() {
 		-Dbashcompletiondir="$(get_bashcompdir)"
 		# make sure we get /bin:/sbin in PATH
 		-Dsplit-usr=$(usex usrmerge false true)
+		-Drootprefix="$(usex usrmerge "${EPREFIX}/usr" "${EPREFIX:-/}")"
 		-Dsysvinit-path=
 		-Dsysvrcnd-path=
 		# no deps
@@ -216,7 +216,7 @@ multilib_src_configure() {
 		-Delfutils=$(meson_multilib_native_use elfutils)
 		-Dgcrypt=$(meson_use gcrypt)
 		-Dgnu-efi=$(meson_multilib_native_use gnuefi)
-		-Defi-libdir="/usr/$(get_libdir)"
+		-Defi-libdir="${EPREFIX}/usr/$(get_libdir)"
 		-Dmicrohttpd=$(meson_multilib_native_use http)
 		$(usex http -Dgnutls=$(meson_multilib_native_use ssl) -Dgnutls=false)
 		-Dimportd=$(meson_multilib_native_use importd)
@@ -328,7 +328,10 @@ multilib_src_install_all() {
 	rm -fr "${ED%/}"/etc/systemd/system/sockets.target.wants || die
 	rm -fr "${ED%/}"/etc/systemd/system/sysinit.target.wants || die
 
-	rm -r "${ED%/}"/lib/udev/hwdb.d || die
+	local udevdir=/lib/udev
+	use usrmerge && udevdir=/usr/lib/udev
+
+	rm -r "${ED%/}${udevdir}/hwdb.d" || die
 
 	if ! use usrmerge; then
 		# Avoid breaking boot/reboot

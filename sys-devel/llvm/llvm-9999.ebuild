@@ -37,8 +37,9 @@ LICENSE="UoI-NCSA rc BSD public-domain
 	llvm_targets_ARM? ( LLVM-Grant )"
 SLOT="6"
 KEYWORDS=""
-IUSE="debug +doc gold libedit +libffi ncurses test
+IUSE="debug doc gold libedit +libffi ncurses test
 	kernel_Darwin ${ALL_LLVM_TARGETS[*]}"
+RESTRICT="!test? ( test )"
 
 RDEPEND="
 	sys-libs/zlib:0=

@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python{2_7,3_4,3_5} )
+PYTHON_COMPAT=( python{2_7,3_4,3_5,3_6} )
 PYTHON_REQ_USE='threads(+)'
 
 WAF_PV=1.9.8
@@ -140,7 +140,7 @@ pkg_setup() {
 src_prepare() {
 	cp "${DISTDIR}/waf-${WAF_PV}" "${S}"/waf || die
 	chmod +x "${S}"/waf || die
-	default_src_prepare
+	default
 }
 
 src_configure() {

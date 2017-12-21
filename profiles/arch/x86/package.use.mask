@@ -3,6 +3,12 @@
 
 # This file requires >=portage-2.1.1
 
+# Hans de Graaff <graaff@gentoo.org> (8 Dec 2017)
+# Test dependencies are no longer keyworded due to dropped Rails
+# keyword.
+dev-ruby/asciidoctor test
+dev-ruby/tilt:0 test
+
 # Tim Harder <radhermit@gentoo.org> (11 Sep 2017)
 # Pulls in dev-ruby/asciidoctor which has too large of a ruby testing
 # dep tree that is unkeyworded at this time.
@@ -105,10 +111,6 @@ net-im/telepathy-connection-managers -steam
 # Jeroen Roovers <jer@gentoo.org> (31 Jan 2015)
 # >x11-drivers/nvidia-drivers-346 on x86 has no UVM support (bug #534156)
 >x11-drivers/nvidia-drivers-346 uvm
-
-# Tim Harder <radhermit@gentoo.org> (11 Oct 2014)
-# Unmask skype support for unstable keywords
-net-im/bitlbee -skype
 
 # Mike Frysinger <vapier@gentoo.org> (04 Aug 2014)
 # Unmask flashrom drivers that only work on x86 due to in/out asm insns #454024

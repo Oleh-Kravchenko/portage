@@ -35,8 +35,9 @@ LICENSE="UoI-NCSA rc BSD public-domain
 	llvm_targets_ARM? ( LLVM-Grant )"
 SLOT="$(ver_cut 1)"
 KEYWORDS=""
-IUSE="debug +doc gold libedit +libffi ncurses test
+IUSE="debug doc gold libedit +libffi ncurses test
 	kernel_Darwin ${ALL_LLVM_TARGETS[*]}"
+RESTRICT="!test? ( test )"
 
 RDEPEND="
 	sys-libs/zlib:0=
@@ -74,6 +75,10 @@ src_prepare() {
 	# Fix llvm-config for shared linking and sane flags
 	# https://bugs.gentoo.org/show_bug.cgi?id=565358
 	eapply "${FILESDIR}"/9999/0007-llvm-config-Clean-up-exported-values-update-for-shar.patch
+
+	# Backport the fix for dlclose() causing option parser mess
+	# e.g. https://bugs.gentoo.org/617154
+	eapply "${FILESDIR}"/5.0.1/0001-cmake-Pass-Wl-z-nodelete-on-Linux-to-prevent-unloadi.patch
 
 	# disable use of SDK on OSX, bug #568758
 	sed -i -e 's/xcrun/false/' utils/lit/lit/util.py || die

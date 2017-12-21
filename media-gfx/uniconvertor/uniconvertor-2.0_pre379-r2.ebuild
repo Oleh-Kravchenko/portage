@@ -11,7 +11,7 @@ DESCRIPTION="Convert vector graphic file formats like .cdr, .svg, wmf and more."
 HOMEPAGE="https://sk1project.net/modules.php?name=Products&product=uniconvertor"
 SRC_URI="https://dev.gentoo.org/~jlec/distfiles/${P}.tar.xz"
 
-KEYWORDS="~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~sparc-solaris ~x86-solaris"
+KEYWORDS="amd64 ~arm ~hppa ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~x64-macos ~sparc-solaris ~x86-solaris"
 SLOT="0"
 LICENSE="GPL-2 LGPL-2"
 IUSE=""
@@ -29,6 +29,7 @@ PATCHES=(
 	"${FILESDIR}"/${P}-import.patch
 	"${FILESDIR}"/${P}-libimg.patch
 	"${FILESDIR}"/${P}-test.patch
+	"${FILESDIR}"/${P}-abs.patch
 	)
 
 python_prepare_all() {

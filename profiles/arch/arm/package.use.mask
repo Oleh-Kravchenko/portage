@@ -1,6 +1,15 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
+# Andreas Sturmlechner <asturm@gentoo.org> (29 Nov 2017)
+# kde-plasma/plasma-vault is not keyworded, which depends on also
+# not yet keyworded sys-fs/{encfs,cryfs}: bugs #630486 and #633882
+kde-plasma/plasma-meta crypt
+
+# Michał Górny <mgorny@gentoo.org> (29 Nov 2017)
+# All current clang versions are broken on ARM.
+app-doc/doxygen clang
+
 # Thomas Deutschmann <whissi@gentoo.org> (28 Nov 2017)
 # Requires dev-libs/mongo-c-driver which isn't keyworded
 >=app-admin/rsyslog-8.31 mongodb
@@ -394,7 +403,7 @@ dev-libs/xapian-bindings java
 
 # Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org> (20 Feb 2013)
 # Mask flags of calligra and dependencies due to lack of keywords
-app-office/calligra color-management openexr postgres spacenav vc
+app-office/calligra openexr spacenav
 media-gfx/pstoedit emf
 
 # Rick Farina <zerochaos@gentoo.org> (05 Feb 2013)
@@ -436,10 +445,8 @@ app-accessibility/speech-dispatcher flite
 # Markus Meier <maekke@gentoo.org> (23 Dec 2012)
 # mask kde-apps/* flags due to unkeyworded dependencies
 kde-apps/kalzium editor solver
-kde-apps/kopete jingle
 kde-apps/kstars indi
 kde-apps/kdeutils-meta floppy
-kde-apps/kdenetwork-meta ppp
 
 # Markus Meier <maekke@gentoo.org> (08 Dec 2012)
 # mask app-office/libreoffice java extensions

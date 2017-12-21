@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python{2_7,3_4,3_5,3_6} )
 inherit git-r3 python-r1
 
 DESCRIPTION="Python bindings for sys-devel/clang"
@@ -17,6 +17,7 @@ LICENSE="UoI-NCSA"
 SLOT="0"
 KEYWORDS=""
 IUSE="test"
+RESTRICT="!test? ( test )"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 # The module is opening libclang.so directly, and doing some blasphemy

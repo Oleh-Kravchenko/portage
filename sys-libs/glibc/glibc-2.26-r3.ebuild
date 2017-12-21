@@ -32,10 +32,10 @@ PATCH_VER=4
 SRC_URI+=" https://dev.gentoo.org/~dilfridge/distfiles/${P}-patches-${PATCH_VER}.tar.bz2"
 SRC_URI+=" multilib? ( https://dev.gentoo.org/~dilfridge/distfiles/gcc-${GCC_BOOTSTRAP_VER}-multilib-bootstrap.tar.bz2 )"
 
-IUSE="audit caps debug gd hardened multilib nscd selinux systemtap profile suid vanilla crosscompile_opts_headers-only"
+IUSE="audit caps debug doc gd hardened multilib nscd selinux systemtap profile suid vanilla crosscompile_opts_headers-only"
 
-# Min kernel version nptl requires
-: ${NPTL_KERN_VER:="2.6.32"}
+# Min kernel version glibc requires
+: ${NPTL_KERN_VER:="3.2.0"}
 
 # Here's how the cross-compile logic breaks down ...
 #  CTARGET - machine that will target the binaries
@@ -80,6 +80,7 @@ DEPEND="${COMMON_DEPEND}
 	>=app-misc/pax-utils-0.1.10
 	!<sys-apps/sandbox-1.6
 	!<sys-apps/portage-2.1.2
+	doc? ( sys-apps/texinfo )
 "
 RDEPEND="${COMMON_DEPEND}
 	!sys-kernel/ps3-sources
@@ -286,8 +287,14 @@ glibc_do_configure() {
 
 	einfo "Configuring glibc for $1"
 
+	if use doc ; then
+		export MAKEINFO=makeinfo
+	else
+		export MAKEINFO=/dev/null
+	fi
+
 	local v
-	for v in ABI CBUILD CHOST CTARGET CBUILD_OPT CTARGET_OPT CC CXX LD {AS,C,CPP,CXX,LD}FLAGS ; do
+	for v in ABI CBUILD CHOST CTARGET CBUILD_OPT CTARGET_OPT CC CXX LD {AS,C,CPP,CXX,LD}FLAGS MAKEINFO ; do
 		einfo " $(printf '%15s' ${v}:)   ${!v}"
 	done
 
@@ -316,6 +323,11 @@ glibc_do_configure() {
 	popd > /dev/null
 
 	case ${CTARGET} in
+		mips*)
+			# dlopen() detects stack smash on mips n32 ABI.
+			# Cause is unknown: https://bugs.gentoo.org/640130
+			myconf+=( --enable-stack-protector=no )
+			;;
 		powerpc-*)
 			# Currently gcc on powerpc32 generates invalid code for
 			# __builtin_return_address(0) calls. Normally programs
@@ -329,6 +341,17 @@ glibc_do_configure() {
 			;;
 	esac
 	myconf+=( --enable-stackguard-randomization )
+
+	# Keep a whitelist of targets supporing IFUNC. glibc's ./configure
+	# is not robust enough to detect proper support:
+	#    https://bugs.gentoo.org/641216
+	#    https://sourceware.org/PR22634#c0
+	case $(tc-arch ${CTARGET}) in
+		# Keep whitelist of targets where autodetection mostly works.
+		amd64|x86|sparc|ppc|ppc64|arm|arm64|s390) ;;
+		# Blacklist everywhere else
+		*) myconf+=( libc_cv_ld_gnu_indirect_function=no ) ;;
+	esac
 
 	[[ $(tc-is-softfloat) == "yes" ]] && myconf+=( --without-fp )
 
@@ -770,7 +793,7 @@ pkg_preinst() {
 	# Default /etc/hosts.conf:multi to on for systems with small dbs.
 	if [[ $(wc -l < "${EROOT}"/etc/hosts) -lt 1000 ]] ; then
 		sed -i '/^multi off/s:off:on:' "${ED}"/etc/host.conf
-		elog "Defaulting /etc/host.conf:multi to on"
+		einfo "Defaulting /etc/host.conf:multi to on"
 	fi
 
 	[[ ${ROOT} != "/" ]] && return 0

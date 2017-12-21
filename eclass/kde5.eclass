@@ -102,9 +102,8 @@ EXPORT_FUNCTIONS pkg_setup pkg_nofetch src_unpack src_prepare src_configure src_
 # and install Qt compressed help files with -DBUILD_QCH=ON when USE=doc.
 if [[ ${CATEGORY} = kde-frameworks ]]; then
 	: ${KDE_QTHELP:=true}
-else
-	: ${KDE_QTHELP:=false}
 fi
+: ${KDE_QTHELP:=false}
 
 # @ECLASS-VARIABLE: KDE_TESTPATTERN
 # @DESCRIPTION:
@@ -127,9 +126,8 @@ fi
 # fix and creates ${T}/${P}-tests-optional.patch to refine and submit upstream.
 if [[ ${CATEGORY} = kde-frameworks ]]; then
 	: ${KDE_TEST:=true}
-else
-	: ${KDE_TEST:=false}
 fi
+: ${KDE_TEST:=false}
 
 # @ECLASS-VARIABLE: KDE_SELINUX_MODULE
 # @DESCRIPTION:
@@ -230,10 +228,9 @@ case ${KDE_DESIGNERPLUGIN} in
 	false)  ;;
 	*)
 		IUSE+=" designer"
-		DEPEND+=" designer? (
-			$(add_frameworks_dep kdesignerplugin)
-			$(add_qt_dep designer)
-		)"
+		DEPEND+=" designer? ( $(add_frameworks_dep kdesignerplugin) )"
+		[[ ${PV} = 17.08* ]] && \
+			DEPEND+=" designer? ( $(add_qt_dep designer) )"
 		;;
 esac
 
@@ -638,7 +635,11 @@ kde5_src_configure() {
 	fi
 
 	if ! use_if_iuse designer && [[ ${KDE_DESIGNERPLUGIN} != false ]] ; then
-		cmakeargs+=( -DCMAKE_DISABLE_FIND_PACKAGE_Qt5Designer=ON )
+		if [[ ${PV} = 17.08* ]]; then
+			cmakeargs+=( -DCMAKE_DISABLE_FIND_PACKAGE_Qt5Designer=ON )
+		else
+			cmakeargs+=( -DCMAKE_DISABLE_FIND_PACKAGE_KF5DesignerPlugin=ON )
+		fi
 	fi
 
 	if [[ ${KDE_QTHELP} != false ]]; then

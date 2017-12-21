@@ -12,7 +12,7 @@ if [[ ${PV} == "9999" ]]; then
 	inherit git-r3
 else
 	SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.zip"
-	KEYWORDS="~amd64 ~ia64 ~ppc ~ppc64 ~x86"
+	KEYWORDS="~amd64 ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86"
 fi
 
 DESCRIPTION="Collection of extensions to Distutils"
@@ -28,7 +28,7 @@ DEPEND="${RDEPEND}
 	app-arch/unzip
 	test? (
 		dev-python/pip[${PYTHON_USEDEP}]
-		>=dev-python/pytest-2.8[${PYTHON_USEDEP}]
+		>=dev-python/pytest-3.1.0[${PYTHON_USEDEP}]
 		dev-python/pytest-fixture-config[${PYTHON_USEDEP}]
 		dev-python/pytest-virtualenv[${PYTHON_USEDEP}]
 		>=dev-python/backports-unittest-mock-1.2[${PYTHON_USEDEP}]
