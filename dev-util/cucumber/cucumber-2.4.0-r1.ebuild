@@ -17,7 +17,7 @@ DESCRIPTION="Executable feature scenarios"
 HOMEPAGE="https://github.com/aslakhellesoy/cucumber/wikis"
 LICENSE="Ruby"
 
-KEYWORDS="amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86"
+KEYWORDS="amd64 ~arm ~arm64 ia64 ~ppc ~ppc64 sparc x86"
 SLOT="0"
 IUSE="examples test"
 
@@ -63,8 +63,7 @@ all_ruby_prepare() {
 	sed -i -e '/executables/ s/=.*/= ["cucumber"]/' \
 		-e '/git ls-files/d' cucumber.gemspec || die
 
-	sed -i -e '/pry/ s:^:#:' spec/spec_helper.rb || die
-
+	sed -i -e '/pry/ s:^:#:' cucumber.gemspec spec/spec_helper.rb || die
 }
 
 each_ruby_prepare() {

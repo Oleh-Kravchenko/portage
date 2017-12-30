@@ -6,13 +6,14 @@ EAPI=6
 COMMIT=4ce7c51f163508f293c3fd39a716770cbb14ef7d
 KDE_HANDBOOK="optional"
 KDE_TEST="true"
+VIRTUALX_REQUIRED="test"
 inherit kde5 vcs-snapshot
 
 DESCRIPTION="BibTeX editor to edit bibliographies used with LaTeX"
 HOMEPAGE="https://userbase.kde.org/KBibTeX"
 if [[ ${KDE_BUILD_TYPE} != live ]]; then
 	SRC_URI="https://github.com/KDE/${PN}/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="amd64 x86"
 fi
 
 LICENSE="GPL-2"
@@ -58,6 +59,8 @@ RDEPEND="${DEPEND}
 	dev-tex/bibtex2html
 	x11-misc/shared-mime-info
 "
+
+RESTRICT+=" test"
 
 src_configure() {
 	local mycmakeargs=(

@@ -340,6 +340,10 @@
       <role>Misc stuff, toolchain</role>
     </member>
     <member>
+      <email>floppym@gentoo.org</email>
+      <name>Mike Gilbert</name>
+    </member>
+    <member>
       <email>hwoarang@gentoo.org</email>
       <name>Markos Chandras</name>
     </member>
@@ -731,6 +735,10 @@
     <member>
       <email>blueness@gentoo.org</email>
       <name>Anthony G. Basile</name>
+    </member>
+    <member>
+      <email>monsieurp@gentoo.org</email>
+      <name>Patrice Clement</name>
     </member>
     <member>
       <email>perfinion@gentoo.org</email>
@@ -1673,6 +1681,10 @@
       <role>General system administration, Blogs, Planet</role>
     </member>
     <member>
+      <email>grknight@gentoo.org</email>
+      <name>Brian Evans</name>
+    </member>
+    <member>
       <email>idl0r@gentoo.org</email>
       <name>Christian Ruppert</name>
       <role>Bugzilla, General System Administration</role>
@@ -1814,11 +1826,6 @@
     <member>
       <email>mschiff@gentoo.org</email>
       <name>Marc Schiffbauer</name>
-      <role>Developer</role>
-    </member>
-    <member>
-      <email>scarabeus@gentoo.org</email>
-      <name>Tomáš Chvátal</name>
       <role>Developer</role>
     </member>
   </project>
@@ -2383,11 +2390,6 @@ developers and volunteer mentors.</description>
     <member>
       <email>dilfridge@gentoo.org</email>
       <name>Andreas K. Hüttel</name>
-      <role>member</role>
-    </member>
-    <member>
-      <email>scarabeus@gentoo.org</email>
-      <name>Tomáš Chvátal</name>
       <role>member</role>
     </member>
   </project>
@@ -2956,6 +2958,11 @@ developers and volunteer mentors.</description>
       <role>Member</role>
     </member>
     <member>
+      <email>mgorny@gentoo.org</email>
+      <name>Michał Górny</name>
+      <role>Minor helper</role>
+    </member>
+    <member>
       <email>monsieurp@gentoo.org</email>
       <name>Patrice Clement</name>
       <role>Member</role>
@@ -3305,12 +3312,12 @@ developers and volunteer mentors.</description>
     <name>Gentoo Developer Recruiters</name>
     <url>https://wiki.gentoo.org/wiki/Project:Recruiters</url>
     <description>The Recruiters subproject provides a central location for information about developer recruitment and recruiter policy.</description>
-    <member>
+    <member is-lead="1">
       <email>amynka@gentoo.org</email>
       <name>Amy Liffey</name>
       <role>Recruiter</role>
     </member>
-    <member is-lead="1">
+    <member>
       <email>zlogene@gentoo.org</email>
       <name>Mikle Kolyada</name>
       <role>Recruiter</role>
@@ -3564,11 +3571,6 @@ developers and volunteer mentors.</description>
     <member>
       <email>miska@gentoo.org</email>
       <name>Michal Hrušecký</name>
-      <role>Updates, Documentation</role>
-    </member>
-    <member>
-      <email>scarabeus@gentoo.org</email>
-      <name>Tomáš Chvátal</name>
       <role>Updates, Documentation</role>
     </member>
   </project>

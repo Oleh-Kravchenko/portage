@@ -23,14 +23,14 @@ else
 fi
 inherit autotools flag-o-matic gnome2-utils toolchain-funcs versionator virtualx xdg-utils ${SCM}
 
-DESCRIPTION="VLC media player - Video player and streamer"
+DESCRIPTION="Media player and framework with support for most multimedia files and streaming"
 HOMEPAGE="https://www.videolan.org/vlc/"
 
 LICENSE="LGPL-2.1 GPL-2"
 SLOT="0/5-8" # vlc - vlccore
 
 IUSE="a52 aalib alsa altivec atmo +audioqueue +avcodec +avformat bidi bluray cdda
-	cddb chromaprint dbus dc1394 debug directfb directx dts dvb +dvbpsi dvd dxva2
+	cddb chromaprint dbus dc1394 debug directx dts dvb +dvbpsi dvd dxva2
 	elibc_glibc +encode faad fdk fluidsynth +ffmpeg flac fontconfig +gcrypt gme
 	gnome gnutls growl gstreamer httpd ieee1394 jack jpeg kate libass libav
 	libcaca libnotify +libsamplerate libtiger linsys libtar lirc live lua
@@ -85,7 +85,6 @@ RDEPEND="
 	chromaprint? ( >=media-libs/chromaprint-0.6:0 )
 	dbus? ( >=sys-apps/dbus-1.6:0 )
 	dc1394? ( >=sys-libs/libraw1394-2.0.1:0 >=media-libs/libdc1394-2.1:2 )
-	directfb? ( dev-libs/DirectFB:0 )
 	dts? ( >=media-libs/libdca-0.0.5:0 )
 	dvbpsi? ( >=media-libs/libdvbpsi-1.0.0:0= )
 	dvd? ( >=media-libs/libdvdread-4.9:0 >=media-libs/libdvdnav-4.9:0 )
@@ -133,7 +132,7 @@ RDEPEND="
 	projectm? ( media-libs/libprojectm:0 media-fonts/dejavu:0 )
 	pulseaudio? ( >=media-sound/pulseaudio-1:0 )
 	qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 )
-	rdp? ( =net-misc/freerdp-1*:0=[client] )
+	rdp? ( >=net-misc/freerdp-2.0.0_rc0:0=[client] )
 	samba? ( >=net-fs/samba-4.0.0:0[client,-debug(-)] )
 	schroedinger? ( >=media-libs/schroedinger-1.0.10:0 )
 	sdl? ( >=media-libs/libsdl-1.2.10:0
@@ -213,6 +212,9 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-2.2.4-libav-11.7.patch
 
 	"${FILESDIR}"/${P}-libupnp-compat.patch
+
+	# Bug 590164
+	"${FILESDIR}"/${PN}-2.2.8-freerdp-2.patch
 )
 
 DOCS=( AUTHORS THANKS NEWS README doc/fortunes.txt doc/intf-vcd.txt )
@@ -258,8 +260,12 @@ src_configure() {
 	# Compatibility fix for Samba 4.
 	use samba && append-cppflags "-I/usr/include/samba-4.0"
 
-	# We need to disable -fstack-check if use >=gcc 4.8.0. bug #499996
-	use x86 && append-cflags $(test-flags-CC -fno-stack-check)
+	if use x86; then
+		# We need to disable -fstack-check if use >=gcc 4.8.0. bug #499996
+		append-cflags $(test-flags-CC -fno-stack-check)
+		# Bug 569774
+		replace-flags -Os -O2
+	fi
 
 	# FIXME: Needs libresid-builder from libsidplay:2 which is in another directory...
 	append-ldflags "-L/usr/$(get_libdir)/sidplay/builders/"
@@ -303,7 +309,6 @@ src_configure() {
 		$(use_enable cddb libcddb) \
 		$(use_enable chromaprint) \
 		$(use_enable dbus) \
-		$(use_enable directfb) \
 		$(use_enable directx) \
 		$(use_enable dc1394) \
 		$(use_enable debug) \
@@ -407,6 +412,7 @@ src_configure() {
 		--disable-cprof \
 		--disable-crystalhd \
 		--disable-decklink \
+		--disable-directfb \
 		--disable-gles1 \
 		--disable-gles2 \
 		--disable-goom \
