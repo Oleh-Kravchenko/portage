@@ -5168,6 +5168,11 @@ media-video/vlc:x265 - Support X265 Encoder.
 media-video/vlc:xcb - Support the X C-language Binding, a replacement for Xlib; !!! you will need this option to be able to integrate video in the Qt interface, see bug #500678.
 media-video/vlc:zeroconf - Enables support for zero-configuration networking via avahi.
 media-video/vlc:zvbi - Enables support for teletext subtitles via the zvbi library.
+media-video/webcamoid:headers - Install development headers
+media-video/webcamoid:libuvc - Build with libuvc support
+media-video/webcamoid:qtaudio - Enable audio capture/play via dev-qt/qtmultimedia
+media-video/webcamoid:v4lutils - Build with V4L-utils support
+media-video/webcamoid:videoeffects - Build video effects
 media-video/x264-encoder:10bit - Set output bit depth to 10
 media-video/x264-encoder:avs - enable AvxSynth support in the AviSynth input module
 media-video/x264-encoder:ffmpegsource - Enable ffmpegsource aka ffms support, disables lavf
