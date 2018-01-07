@@ -649,38 +649,15 @@ games-kids/crayon-physics
 # Mask beta gromacs version
 =sci-chemistry/gromacs-2018_beta*
 
-# Sergey Popov <pinkbyte@gentoo.org> (30 Nov 2017)
-# Depends on dead Qt4, no release in two years
-# Masked for removal in 30 days, bug #625110
-dev-util/qfsm
-
 # Jonas Stein <jstein@gentoo.org> (29 Nov 2017)
-# The old yafaray-0.1.1 depends on qt4 and has bugs we can not fix. 
+# The old yafaray-0.1.1 depends on qt4 and has bugs we can not fix.
 # (bug #321169) and (bug #595684)
 # Users of yafaray may be interested in >=yafaray-3.3.0 (bug #639046)
 # and its fork TheBounty (#639158) which require completely new ebuilds.
-# 
-# The old and for now the last version in the tree is 
+#
+# The old and for now the last version in the tree is
 # masked for removal on 2018-02-30
 =media-gfx/yafaray-0.1.1
-
-# Michał Górny <mgorny@gentoo.org> (28 Nov 2017)
-# Replaced by split packages. Please install one of:
-# - app-emulation/wine-vanilla (the only choice for stable)
-# - app-emulation/wine-staging
-# - app-emulation/wine-d3d9
-# - app-emulation/wine-any
-# For more information, please read the news item:
-# https://www.gentoo.org/support/news-items/2017-04-10-split-and-slotted-wine.html
-# If you really need the old ebuilds, you can use the 'wine' repository.
-# Removal in 30 days.
-app-emulation/wine
-
-# Jonas Stein <jstein@gentoo.org> (26 Nov 2017)
-# The latest version of this LaTeX package is part of 
-# dev-texlive/texlive-latexextra (bug #421881)
-# Masked for removal on 2017-12-30
-dev-tex/isotope
 
 # Michał Górny <mgorny@gentoo.org> (25 Nov 2017)
 # Testing branch GTK+3 release. Changes API, breaks xfce-base/xfdesktop.
@@ -688,12 +665,6 @@ dev-tex/isotope
 >=dev-python/thunarx-python-0.4.0
 >=xfce-base/thunar-1.7
 >=xfce-extra/thunar-archive-plugin-0.4.0
-
-# Jonas Stein <jstein@gentoo.org> (25 Nov 2017)
-# The latest version of this LaTeX package is part of 
-# dev-texlive/texlive-latexextra
-# Masked for removal on 2017-12-30
-dev-tex/notoccite
 
 # Andreas Sturmlechner <asturm@gentoo.org> (16 Nov 2017)
 # Qt4WebKit is ancient and full of security holes.
@@ -705,30 +676,14 @@ dev-qt/qtwebkit:4
 <media-gfx/freecad-0.17
 =media-gfx/freecad-9999
 
-# Anthony G. Basile <blueness@gentoo.org> (13 Nov 2017)
-# Masked for removal in 30 days. Deprecated in favor of net-misc/nyx.
-net-misc/arm
-
-# Mike Gilbert <floppym@gentoo.org> (13 Nov 2017)
-# python-updater is obsolete. Utilize PYTHON_TARGETS and
-# emerge --changed-use to rebuild packages instead.
-# Removal in 30 days.
-app-admin/python-updater
-
 # Jonas Stein <jstein@gentoo.org> (11 Nov 2017)
-# The upstream developer and former maintainer asked to treeclean these 
-# packages, because they can be used only with the Siemens Mediacenter 
+# The upstream developer and former maintainer asked to treeclean these
+# packages, because they can be used only with the Siemens Mediacenter
 # Activy 3xx which was produced till 2005. He confirmed, that no user
 # is left who needs the package from our tree for this special hardware.
 # See also bug #633098. Masked for removal on 2018-01-31
 app-misc/activylircd
 media-plugins/vdr-alcd
-
-# Jonas Stein <jstein@gentoo.org> (10 Nov 2017)
-# sci-geosciences/gmapcatcher violates the license of several images.
-# The package is unmaintained. Upstream will not / can not fix this problem.
-# See also bug #624046. Masked for removal on 2017-12-12
-sci-geosciences/gmapcatcher
 
 # Mike Gilbert <floppym@gentoo.org> (05 Nov 2017)
 # Breaks several reverse dependencies.
@@ -746,26 +701,9 @@ dev-java/icedtea-bin:7
 virtual/jdk:1.7
 virtual/jre:1.7
 
-# Marc Schiffbauer <mschiff@gentoo.org> (01 Nov 2017)
-# Upstream abandoned obnam as of the end of the year
-# Masked for removal in 30 days.
-app-backup/obnam
-
-# Mike Gilbert <floppym@gentoo.org> (28 Oct 2017)
-# Tests segfault, bug 635732.
-# No updates upstream since 2013.
-# Removal in 30 days.
-dev-python/whirlpool
-
 # Patrice Clement <monsieurp@gentoo.org> (28 Oct 2017)
 # Missing dependencies.
 >=dev-python/scrapy-1.4.0
-
-# Agostino Sarubbo <ago@gentoo.org> (23 Oct 2017)
-# It was a fresmee RDEPENDS. Freesmee has been removed since a while
-# so it is not a depend of any package. No upstream releases
-# Masked for removal in 30 days. Reference in bug #634536
-dev-util/ticpp
 
 # Robin H. Johnson <robbat2@gentoo.org> (22 Oct 2017)
 # Masking for testing, contains Fedora Hobbled-EC for USE=bindist
@@ -781,12 +719,6 @@ sys-devel/autoconf:2.63
 sys-devel/autoconf:2.65
 sys-devel/autoconf:2.67
 sys-devel/autoconf:2.68
-
-# Andreas K. Hüttel <dilfridge@gentoo.org> (20 Oct 2017)
-# Doesn't build with glibc-2.25, doesn't build, needs a
-# version bump, needs a maintainer. Bugs 604364, 599004,
-# 627064. Removal in 30 days.
-app-crypt/zuluCrypt
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (18 Oct 2017)
 # sys-devel/automake versions 1.4, 1.5, 1.6, 1.7, 1.8
@@ -817,11 +749,6 @@ net-im/pyaim-t
 net-im/pork
 net-im/reaim
 
-# Aaron Bauman <bman@gentoo.org> (8 October 2017)
-# severely vulnerable and unmaintained sources.
-# Masked for removal in 30 days. Bug #627924
-sys-kernel/tuxonice-sources
-
 # Michał Górny <mgorny@gentoo.org> (05 Oct 2017)
 # (on behalf of QA)
 # Rogue version bumps that reintroduce QA violations that were fixed
@@ -848,11 +775,6 @@ app-editors/atom:beta
 # Gilles Dartiguelongue <eva@gentoo.org> (2 Sep 1017)
 # Gnome 3.26 package mask
 >=app-text/libgepub-0.5
-
-# Aaron Bauman <bman@gentoo.org> (1 Sep 2017)
-# vulnerable per bug #513818 and dead upstream
-# net-analyzer/ntopng is available
-net-analyzer/ntop
 
 # Anthony G. Basile <blueness@gentoo.org> (27 Aug 2017)
 # Upstream is no longer providing public patches
