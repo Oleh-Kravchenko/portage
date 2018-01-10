@@ -29,6 +29,15 @@
 
 #--- END OF EXAMPLES ---
 
+# Richard Freeman <rich0@gentoo.org> (09 Jan 2018)
+# Bug 644048 - temp QA mask until it can get sorted out
+>=sys-apps/attr-2.4.48
+
+# Andreas Sturmlechner <asturm@gentoo.org> (09 Jan 2018)
+# Dead upstream, depends on dead Qt4.
+# Bug #643976. Masked for removal in 30 days.
+media-video/2mandvd
+
 # Andreas Sturmlechner <asturm@gentoo.org> (07 Jan 2018)
 # Masked for removal in 30 days, no more rdeps, bug #602816
 dev-python/python-poppler-qt4
@@ -917,6 +926,7 @@ net-wireless/cpyrit-cuda
 # Coordinated conversion to wxGTK:3.0-gtk3
 # Drop mask after migration of existing wxGTK:3.0 users
 =net-ftp/filezilla-3.29.0-r300
+=net-ftp/filezilla-3.30.0-r300
 
 # Rick Farina <zerochaos@gentoo.org> (17 Apr 2017)
 # Masking old versions because upstream changed versioning
