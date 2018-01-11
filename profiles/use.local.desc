@@ -6225,6 +6225,7 @@ net-misc/batman-adv:dat - B.A.T.M.A.N. distributed arp table
 net-misc/batman-adv:mcast - B.A.T.M.A.N. multicast optimizations
 net-misc/batman-adv:nc - B.A.T.M.A.N. network coding
 net-misc/bfgminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library
+net-misc/bfgminer:alchemist - Enable support for mining with AlcheMist
 net-misc/bfgminer:antminer - Enable support for mining with AntMiner U1 sticks
 net-misc/bfgminer:avalon - Enable support for mining with Avalon 1 ASIC modules
 net-misc/bfgminer:avalonmm - Enable support for mining with Avalon 2/3 ASIC modules
@@ -6234,6 +6235,7 @@ net-misc/bfgminer:bifury - Enable support for mining with Bi*fury USB sticks
 net-misc/bfgminer:bigpic - Enable support for mining with Big Picture Mining USB sticks (Red/BlueFury, BF1, etc)
 net-misc/bfgminer:bitforce - Enable support for mining with ButterFly Labs BitFORCE ASICs and/or FPGAs
 net-misc/bfgminer:bitfury - Enable support for mining with 55nm Bitfury-based devices
+net-misc/bfgminer:bitmain - Enable support for mining with Bitmain Antminer S* series
 net-misc/bfgminer:cointerra - Enable support for mining with CoinTerra TerraMiner.
 net-misc/bfgminer:cpumining - Enable support for mining with CPUs
 net-misc/bfgminer:drillbit - Enable support for mining with Drillbit boards

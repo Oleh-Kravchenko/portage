@@ -29,9 +29,26 @@
 
 #--- END OF EXAMPLES ---
 
+# Kent Fredric <kentnl@gentoo.org> (10 Jan 2018)
+# Dead upstream, Broken since 2009.
+# Bug #644146. Removal in 30 days
+dev-perl/SVN-Simple
+
+# Michał Górny <mgorny@gentoo.org> (10 Jan 2018)
+# The Fuzzer library is now installed as part of core LLVM. That's
+# sys-devel/llvm in LLVM 5, and sys-libs/compiler-rt-sanitizers
+# in LLVM 6 and newer. The separate ebuild was never approved by LLVM
+# maintainers or actually maintained, and is obsolete for a long time.
+# Removal in 30 days.
+dev-libs/libFuzzer
+
 # Richard Freeman <rich0@gentoo.org> (09 Jan 2018)
 # Bug 644048 - temp QA mask until it can get sorted out
->=sys-apps/attr-2.4.48
+~sys-apps/attr-2.4.48
+# Lars Wendler <polynomial-c@gentoo.org> (10 Jan 2018)
+# Mask followup bugfixes for =sys-apps/attr-2.4.48 as well until proper
+# testing has been conducted.
+=sys-apps/acl-2.2.52-r2
 
 # Andreas Sturmlechner <asturm@gentoo.org> (09 Jan 2018)
 # Dead upstream, depends on dead Qt4.
@@ -839,10 +856,10 @@ dev-lang/spidermonkey:52
 >=media-gfx/shotwell-0.27
 
 # Nicolas Bock <nicolasbock@gentoo.org> (31 Oct 2017)
-# There are multiple unresolved upstream issues with jabref-bin-4.0 (#636036).
+# There are multiple unresolved upstream issues with >=jabref-bin-4.0 (#636036).
 # If you still would like to use this version, please report any issues to
 # upstream.
-=app-text/jabref-bin-4.0
+>=app-text/jabref-bin-4.0
 
 # Nicolas Bock <nicolasbock@gentoo.org> (6 Dec 2017)
 # Development has ceased, the last commit to the upstream repository was
