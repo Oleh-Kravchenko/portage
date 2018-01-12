@@ -113,6 +113,7 @@ app-admin/puppet-agent:experimental - Add patches for things in testing
 app-admin/puppet-agent:puppetdb - Adds puppetdb support
 app-admin/puppetserver:puppetdb - Adds support for connecting to puppetdb
 app-admin/pwgen:livecd - Install init script for root password scrambling on boot
+app-admin/rsyslog:curl - Enable http_request() function in RainerScript (requires net-misc/curl)
 app-admin/rsyslog:dbi - Build the general database output module (requires dev-db/libdbi)
 app-admin/rsyslog:elasticsearch - Build the Elasticsearch output module (requires net-misc/curl)
 app-admin/rsyslog:gcrypt - Add support for encrypted log files using dev-libs/libgcrypt
@@ -3425,7 +3426,6 @@ kde-apps/kate:addons - Build and install additional plugins
 kde-apps/kde-apps-meta:pim - Pull in KDE PIM suite
 kde-apps/kde-apps-meta:sdk - Pull in developer-specific meta-packages
 kde-apps/kdeadmin-meta:cron - Installs KDE application for virtual/cron configuration
-kde-apps/kdebase-kioslaves:sftp - Enable SFTP protocol support using net-libs/libssh
 kde-apps/kdegraphics-mobipocket:thumbnail - Enables thumbnail generation
 kde-apps/kdemultimedia-meta:cdrom - Include packages for optical discs
 kde-apps/kdenlive:freesound - Enable freesound.org credentials support via dev-qt/qtwebkit to download files
@@ -4440,12 +4440,6 @@ media-sound/alsa-utils:bat - install basic audio tester (BAT) util
 media-sound/alsa-utils:libsamplerate - install utils that use libsamplerate (e.g. alsaloop)
 media-sound/alsa-utils:ncurses - install utils that use ncurses (e.g. alsamixer)
 media-sound/alsaplayer:id3tag - Enables ID3 tagging with id3tag library
-media-sound/amarok:embedded - Use libmysqld, MySQL embedded server library. Try disabling this if you encounter -PIC related in amarok, it will make amarok rely only on standalone MySQL server.
-media-sound/amarok:lastfm - Enable Last.fm streaming services support through media-libs/liblastfm
-media-sound/amarok:mp3tunes - Enable mp3tunes integration
-media-sound/amarok:mtp - Enable support for libMTP (Plays4Sure) devices access through libmtp
-media-sound/amarok:ofa - Use media-libs/libofa to compute MusicDNS acoustic fingerprints (used by MusicBrainz)
-media-sound/amarok:utils - Build the utils - old media-sound/amarok-utils
 media-sound/amsynth:dssi - Enable support for DSSI Soft Synth Interface
 media-sound/aqualung:ifp - Enable support for iRiver iFP portable audio players
 media-sound/aqualung:lua - Enable support for programmable title formatting with dev-lang/lua
@@ -5940,7 +5934,6 @@ net-libs/ldns:gost - Enable GOST support
 net-libs/libbitcoinconsensus:asm - Enable assembly for optimization
 net-libs/libbitcoinconsensus:knots - Build enhanced Bitcoin Knots version, rather than Bitcoin Core
 net-libs/libbtbb:extras - Install pcapdump and btaptap tools
-net-libs/libbtbb:pcap - Add support for network packet capture via net-libs/libpcap
 net-libs/libbtbb:wireshark-plugins - Build the wireshark plugins for bluetooth baseband sniffing
 net-libs/libeXosip:srv - enable support for SRV records DNS queries
 net-libs/libesmtp:ntlm - Enable support for NTLM authentication
@@ -7766,7 +7759,6 @@ sys-apps/flashrom:usbblaster_spi - Enable support for Altera USB-Blaster dongles
 sys-apps/flashrom:wiki - Enable wiki informations, like supported devices etc.
 sys-apps/fwupd:colorhug - Enable ColorHug support through x11-misc/colord package.
 sys-apps/fwupd:dell - Enable Dell-specific support.
-sys-apps/fwupd:elf - Enable libelf support through dev-libs/libelf package.
 sys-apps/fwupd:gpg - Enable GPG support.
 sys-apps/fwupd:man - Build and install man pages
 sys-apps/fwupd:uefi - Enable UEFI support
