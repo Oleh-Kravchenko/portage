@@ -222,6 +222,10 @@ app-arch/pigz:symlink - Install symlinks which override app-arch/gzip implementa
 app-arch/rar:all_sfx - Install all SFX (Self-Extracting) files rather than just the native format (allows creation of Windows EXEs on Linux ELF systems)
 app-arch/tar:minimal - just install `tar`
 app-arch/unzip:natspec - Use dev-libs/libnatspec to correctly decode non-ascii file names archived in Windows.
+app-arch/wimlib:fuse - Use fuse libraries
+app-arch/wimlib:ntfs - Use libntfs-3g library from sys-fs/ntfs3g
+app-arch/wimlib:openssl - Use the SHA-1 message digest from libcrypto instead of compilling another implementation
+app-arch/wimlib:yasm - Use yasm assembler instead of nasm
 app-arch/xz-utils:extra-filters - Build additional filters that are not used in any of the default xz presets. This includes delta and BCJ coders, additional match finders and SHA256 checks.
 app-arch/zip:natspec - Use dev-libs/libnatspec to correctly decode non-ascii file names archived in Windows.
 app-backup/amanda:ndmp - Support for the NDMP protocol
@@ -2822,6 +2826,7 @@ dev-util/apitrace:system-snappy - Link dynamic against app-arch/snappy
 dev-util/bazel:tools - Install extra bazel tools to build from sources
 dev-util/bitcoin-tx:knots - Build enhanced Bitcoin Knots version, rather than Bitcoin Core
 dev-util/bitcoin-tx:ljr - Enable Luke Dashjr's patches
+dev-util/buildbot:docker - Add support for worker docker command steps
 dev-util/buildbot:irc - Add support for status delivery through an ircbot.
 dev-util/buildbot:mail - Add support for watching a maildir for commits.
 dev-util/buildbot:manhole - Add support for manhole (debug over ssh)
@@ -6267,6 +6272,7 @@ net-misc/bfgminer:udev-broad-rules - Enable broader udev rules that may match no
 net-misc/bfgminer:x6500 - Enable support for mining with X6500 FPGAs
 net-misc/bfgminer:zeusminer - Enable support for mining with ZeusMiner units
 net-misc/bfgminer:ztex - Enable support for mining with Ztex FPGAs
+net-misc/bird:client - Build the ncurses/readline full featured CLI
 net-misc/cfengine:html - Install HTML documentation
 net-misc/cfengine:libvirt - Enable support for virtual machine management through app-emulation/libvirt
 net-misc/cfengine:masterfiles - Install the Masterfiles Policy Framework
@@ -6320,6 +6326,7 @@ net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/connman-gtk:openconnect - Support easier authentication to AnyConnect VPNs
 net-misc/crossbar:tor - include tor services connections support
 net-misc/csync:sftp - Enable sftp transfer support via net-libs/libssh
+net-misc/curl:brotli - Enable brotli compression support
 net-misc/curl:http2 - Enabled HTTP/2.0 support
 net-misc/curl:metalink - Enable metalink support
 net-misc/curl:rtmp - Enable RTMP Streaming Media support
@@ -8668,6 +8675,7 @@ www-servers/apache:apache2_modules_access_compat - Group authorizations based on
 www-servers/apache:apache2_modules_authn_core - Provides core authentication capabilities common to all authentication providers (functionality provided by authn_alias in previous versions).
 www-servers/apache:apache2_modules_authz_core - Provides core authorization capabilities to various authorization/authorization modules, such as authn_file and authz_user.
 www-servers/apache:apache2_modules_authz_dbd - Provides authorization capabilities via SQL database so that authenticated users can be allowed or denied access to portions of the web site by group membership.
+www-servers/apache:apache2_modules_brotli - Enable brotli compression support
 www-servers/apache:apache2_modules_cache_disk - Disk based storage module for the HTTP caching filter (similar to mem_cache in previous versions).
 www-servers/apache:apache2_modules_cache_socache - Shared object cache (socache) based storage module for the HTTP caching filter.
 www-servers/apache:apache2_modules_http2 - Enable http2/alpn module
