@@ -5044,6 +5044,7 @@ media-video/ogmrip:ogm - Support for OGM container format
 media-video/ogmrip:srt - Support for SRT subtitle format
 media-video/orion:mpv - Use the media-video/mpv player (upstream default) instead of the dev-qt/qtmultimedia one
 media-video/parole:clutter - Compile in Clutter GTK+ support
+media-video/peek:keybinder - Enable support for global hotkeys using dev-libs/keybinder
 media-video/qgifer:imagemagick - Use imagemagick for image operations
 media-video/qgifer:opencv3 - Use media-libs/opencv:0/3.0 for video operations instead media-libs/opencv:0/2.4
 media-video/rtmpdump:gnutls - Use GnuTLS library instead of the default OpenSSL
@@ -6679,7 +6680,6 @@ net-p2p/bitcoin-qt:linguas_ar - Arabic locale
 net-p2p/bitcoin-qt:linguas_be_BY - Belarusian locale for Belarus
 net-p2p/bitcoin-qt:linguas_bg - Bulgarian locale
 net-p2p/bitcoin-qt:linguas_bg_BG - Bulgarian locale for Bulgaria
-net-p2p/bitcoin-qt:linguas_bs - Bosnian locale
 net-p2p/bitcoin-qt:linguas_ca - Catalan locale
 net-p2p/bitcoin-qt:linguas_ca@valencia - Catalan (Valencian) locale
 net-p2p/bitcoin-qt:linguas_ca_ES - Catalan locale for Spain
@@ -8176,6 +8176,7 @@ sys-devel/llvm:multitarget - Build all host targets (default: host only)
 sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
 sys-devel/llvm:sanitize - Build compiler-rt's sanitizers
 sys-devel/llvm:static-analyzer - Install the Clang static analyzer (requires USE=clang)
+sys-devel/llvm:xar - Support dumping LLVM bitcode sections in Mach-O files (uses app-arch/libxar)
 sys-devel/sparse:gtk - Build the test-inspect utility (requires x11-libs/gtk+ version 2)
 sys-devel/sparse:llvm - Build the sparse-llvm utility
 sys-devel/sparse:xml - Build the c2xml utility (requires dev-libs/libxml2)

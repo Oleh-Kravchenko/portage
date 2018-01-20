@@ -29,6 +29,19 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (19 Jan 2018)
+# Outdated and broken for a long time, holding up several cleanups.
+# Masked for removal in 30 days. Bug #513564
+sci-physics/geant-python
+
+# Jeroen Roovers <jer@gentoo.org> (19 Jan 2018)
+# Breaks net-libs/nodejs (bug #645018)
+=dev-libs/libuv-1.19.0
+
+# Patrice Clement <monsieurp@gentoo.org> (18 Jan 2018)
+# mpv-0.28.0 requires changes currently only available in ffmpeg-9999.
+=media-video/mpv-0.28.0
+
 # Andreas Sturmlechner <asturm@gentoo.org> (18 Jan 2018)
 # Broken by >=kde-apps/kcalcore-17.12.0, but also merged into
 # kdepim-runtime 17.12 as an official feature. Bug #642926
@@ -690,16 +703,6 @@ x11-misc/qsynergy
 # Dead upstream. Requires dead Qt 4.
 # Masked for removal in 30 days.
 app-editors/znotes
-
-# Andreas Sturmlechner <asturm@gentoo.org> (21 Dec 2017)
-# Dead upstream, depends on dead Qt4.
-# Bug #629032. Masked for removal in 30 days.
-media-gfx/wally
-
-# Andreas Sturmlechner <asturm@gentoo.org> (21 Dec 2017)
-# Dead upstream, depends on dead Qt4.
-# Bug #637108. Masked for removal in 30 days.
-app-cdr/qpxtool
 
 # Patrice Clement <monsieurp@gentoo.org> (19 Dec 2017)
 # A slightly better syntax file for PAM configuration files is shipped with Vim
