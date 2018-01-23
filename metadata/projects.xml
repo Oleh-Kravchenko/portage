@@ -1741,6 +1741,7 @@
     <member>
       <email>zlogene@gentoo.org</email>
       <name>Mikle Kolyada</name>
+      <role>General system administration</role>
     </member>
     <member>
       <email>zx2c4@gentoo.org</email>
@@ -2120,10 +2121,6 @@
     <name>Gentoo LiveCD Project</name>
     <url>https://wiki.gentoo.org/wiki/Project:LiveCD</url>
     <description>Maintains packages used in the creation of LiveCDs.</description>
-    <member>
-      <email>blackace@gentoo.org</email>
-      <name>Matt Kasa</name>
-    </member>
     <member>
       <email>jer@gentoo.org</email>
       <name>Jeroen Roovers</name>
