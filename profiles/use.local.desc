@@ -1935,6 +1935,7 @@ dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
 dev-lang/ruby:readline - Use the sys-libs/readline library to provide the readline extension, used for instance by the irb tool. This flag is meaningful only if the libedit USE flag is disabled. If neither libedit nor readline USE flags are enabled, the readline extension will not be built (and irb will lose line editing functionality).
 dev-lang/ruby:rubytests - Install ruby tests that can only be run after ruby is installed
 dev-lang/rust:clang - Use sys-devel/clang for building
+dev-lang/rust:extended - Build and install rls, rustfmt and cargo alongside the compiler and stdlib
 dev-lang/rust:jemalloc - Use sys-libs/jemalloc as the standard memory allocator
 dev-lang/rust:libcxx - Use sys-libs/libcxx as standard library when building with sys-devel/clang
 dev-lang/rust:system-llvm - Use system sys-devel/llvm in place of the bundled one
@@ -3205,6 +3206,7 @@ games-fps/qudos:demo - Install the demo files (quake2-demodata) and configure fo
 games-fps/qudos:mods - Build support for the quake2 mission packs
 games-fps/qudos:qmax - Build the pretty version (quake max)
 games-fps/qudos:textures - Install the enhanced textures (quake2-textures)
+games-fps/redeclipse:dedicated - Install only as a dedicated game server
 games-fps/rott:demo - Install the shareware version
 games-fps/sauerbraten:server - Compile server support
 games-fps/turtlearena:mumble - Adds player-location (positional audio) support to VoIP
