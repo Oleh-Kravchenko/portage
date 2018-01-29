@@ -29,6 +29,21 @@
 
 #--- END OF EXAMPLES ---
 
+# Lars Wendler <polynomial-c@gentoo.org> (28 Jan 2018)
+# Masked for testing.
+# At least app-misc/mc is broken when using a 256color TERM setting.
+=sys-libs/ncurses-6.1
+
+# Patrice Clement <monsieurp@gentoo.org> (28 Jan 2018)
+# Duplicate of app-admin/clog. My apologies.
+# Masked for removal in 30 days.
+app-misc/clog
+
+# Andreas Sturmlechner <asturm@gentoo.org> (28 Jan 2018)
+# Dead upstream, depends on deprecated Qt4.
+# Masked for removal in 30 days. Bug #644558
+media-video/qgifer
+
 # Patrice Clement <monsieurp@gentoo.org> (26 Jan 2018)
 # Has different symbols. Known to cause issues with i3bar/swaybar.
 media-fonts/fontawesome:0/5
@@ -68,7 +83,6 @@ dev-ruby/test-unit:0
 dev-ruby/tilt:0
 virtual/ruby-minitest
 www-apps/jekyll-gist
-
 
 # Andreas Sturmlechner <asturm@gentoo.org> (23 Jan 2018)
 # Depends on deprecated Qt4, no revdeps left.
@@ -463,97 +477,6 @@ dev-util/conan
 # Last release in 2003, EAPI 0, C++ extremely broken
 # Removal in 30 days
 app-admin/jinit
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Dead since 2005, nothing requires it, installs object files in
-# /usr/share/doc (#451792). Removal in a month.
-media-libs/libdvb
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Fails to build (#595706), nothing requires it. Removal in a month.
-dev-lang/blassic
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Needs to be migrated to pycryptodome, this was merged into paramiko
-# (#611616). Removal in a month.
-dev-python/ssh
-dev-python/starcluster
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Fails with recent boost (#617060, #598702). Removal in a month.
-media-gfx/aqsis
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# A major version bump is needed (#412447), fails with multilib-strict
-# (#613542), not compatible with newer imagemagick (#619514), cannot be
-# downloaded (#635566). Removal in a month.
-media-libs/vips
-media-gfx/nip2
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Multiple build failures and bugs (#634316), fails with recent lua
-# (#434242), init script is buggy (#496724), bash completion files installed
-# wrongly (#526280), fails with newer botan (#537572). Removal in a month.
-dev-vcs/monotone
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Fails to build (#622110), upstream dead for years. Removal in a month.
-app-misc/tasque
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Sebastian Pipping <sping@gentoo.org> (12 Jan 2018)
-# Needs a major version bump and relies on lots of dead libs (#624160).
-# Removal in a month.
-<x11-terms/terminator-1.91
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Requires dead gnome2 python bindings (#629180) and old gstreamer, also all
-# zeitgeist stack has important bugs and upstream is gone (#629180#c2):
-# zeitgeist-explorer doesn't start (#622084), activity-log-manager fails to
-# build (#625140), 
-gnome-extra/gnome-activity-journal
-gnome-extra/zeitgeist-explorer
-gnome-extra/activity-log-manager
-gnome-extra/zeitgeist
-dev-libs/libzeitgeist
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Dead for ages, relies on old gnome2 python bindings (#640036). Removal in
-# a month.
-gnome-extra/cameramonitor
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Upstream gone, relies on old gnome2 python bindings (#640042). Removal in
-# a month.
-media-gfx/gnome-specimen
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Upstream dead for ages, relies on old gnome2 python bindings (#640050).
-# Removal in a month.
-net-misc/polly
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Upstream gone, relies on old gnome2 python bindings (#640052). Removal in
-# a month.
-sys-apps/pyrenamer
-
-# Pacho Ramos <pacho@gentoo.org> (28 Dec 2017)
-# Upstream dead since 2006, relies on old gnome2 python bindings and many
-# other dead libs (#640068). Removal in a month.
-media-sound/ifp-gnome
-
-# David Seifert <soap@gentoo.org> (28 Dec 2017)
-# Last release in 2001, doesn't support amd64, EAPI 2.
-# Removal in 30 days
-app-crypt/nistp224
-
-# Jonas Stein <jstein@gentoo.org> (28 Dec 2017)
-# Upstream deleted all files more than 6 years ago and is inactive. 
-# See also bug #628960
-# Masked for removal on 2018-02-01
-app-doc/linux-gazette-base
-app-doc/linux-gazette-all
-app-doc/linux-gazette
 
 # Pacho Ramos <pacho@gentoo.org> (27 Dec 2017)
 # Out ebuild is completely obsolete (#381073), download manually PPD is
