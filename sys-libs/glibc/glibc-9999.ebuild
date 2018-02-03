@@ -73,6 +73,7 @@ DEPEND="${COMMON_DEPEND}
 	>=app-misc/pax-utils-0.1.10
 	!<sys-apps/sandbox-1.6
 	!<sys-apps/portage-2.1.2
+	!<sys-devel/bison-2.7
 	doc? ( sys-apps/texinfo )
 "
 RDEPEND="${COMMON_DEPEND}
@@ -515,8 +516,8 @@ check_devpts() {
 # functions are just not provided.
 
 g_get_running_KV() {
-        uname -r
-        return $?
+	uname -r
+	return $?
 }
 
 g_KV_major() {
@@ -540,7 +541,7 @@ g_KV_micro() {
 }
 
 g_KV_to_int() {
-    [[ -z $1 ]] && return 1
+	[[ -z $1 ]] && return 1
 	local KV_MAJOR=$(g_KV_major "$1")
 	local KV_MINOR=$(g_KV_minor "$1")
 	local KV_MICRO=$(g_KV_micro "$1")
@@ -552,7 +553,7 @@ g_KV_to_int() {
 		echo "${KV_int}"
 		return 0
 	fi
-    return 1
+	return 1
 }
 
 g_int_to_KV() {
