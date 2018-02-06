@@ -1066,7 +1066,6 @@ app-portage/eix:sqlite - Compile in support for portage's sqlite backend; to act
 app-portage/g-sorcery:bson - Support BSON file format for package DB
 app-portage/gemato:blake2 - Install dependencies needed for BLAKE2 hash functions
 app-portage/gemato:gpg - Install dependencies needed for OpenPGP signature verification support
-app-portage/gemato:portage-postsync - Install a Portage hook to verify the repository after fetching via rsync
 app-portage/gemato:sha3 - Install dependencies needed for SHA3 hash functions
 app-portage/grs:server - Install all the tools building systems
 app-portage/layman:bazaar - Support dev-vcs/bzr based overlays
@@ -8402,7 +8401,6 @@ sys-process/fcron:debug - Enable debug code and output. Since version 3.0.5 this
 sys-process/fcron:mta - Enable mta support for sending emails from fcron
 sys-process/fcron:pam - Enable PAM support for fcron. This means that fcron will pass through the "fcron" stack before executing the jobs, and fcrontab will use the "fcrontab" stack to authenticate the user before editing its crontab file.
 sys-process/fcron:system-crontab - Set up fcron to respect /etc/crontab and /etc/cron.d. If this flag is disabled, /etc/cron.d and /etc/crontab will be ignored, but /etc/cron.{hourly,daily,weekly,monthly} will still be respected.
-sys-process/htop:oom - Add column to track the OOM-killer score of processes
 sys-process/htop:openvz - Enable openvz support
 sys-process/htop:vserver - Enable vserver support
 sys-process/lsof:rpc - support looking up RPC service info
@@ -8845,6 +8843,7 @@ x11-terms/eterm:utempter - Include libutempter support
 x11-terms/gnome-terminal:gnome-shell - Integrate with gnome-base/gnome-shell search
 x11-terms/gnome-terminal:nautilus - Build gnome-base/nautilus extension
 x11-terms/hanterm:utempter - Records user logins. Useful on multi-user systems
+x11-terms/kitty:imagemagick - Support displaying images in the terminal with icat
 x11-terms/mate-terminal:gtk3 - Build with GTK+3 instead of GTK+2
 x11-terms/mlterm:fcitx - Enable support for app-i18n/fcitx
 x11-terms/mlterm:gtk2 - Build with x11-libs/gtk+:2 instead of x11-libs/gtk+:3
