@@ -4839,11 +4839,6 @@ media-tv/xmltv:uk_rt - Britain alternative tv listing grabber
 media-tv/xmltv:uk_tvguide - UK and Ireland tv listing grabber using TV Guide website
 media-tv/xmltv:za - South Africa tv listing grabber
 media-tv/xmltv:zz_sdjson - Grabber for schedulesDirect.org SD-JSON service (many countries)
-media-video/2mandvd:linguas_cs - Czech locale
-media-video/2mandvd:linguas_de - German locale
-media-video/2mandvd:linguas_en - English locale
-media-video/2mandvd:linguas_it - Italian locale
-media-video/2mandvd:linguas_ru - Russian locale
 media-video/aegisub:uchardet - Enable charset discovery via app-i18n/uchardet
 media-video/aravis:X - Build the GTK+-based video viewer for aravis. This requires GStreamer and a few plugins but technically not the GST plugin for aravis.
 media-video/aravis:gstreamer - Build the GStreamer plugin for aravis, but not the video viewer.
