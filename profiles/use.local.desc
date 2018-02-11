@@ -4037,6 +4037,7 @@ media-gfx/krita:vc - Enable support for dev-libs/vc, could be a significant spee
 media-gfx/librecad:3d - Require all 2D coordinates stored as 3D
 media-gfx/librecad:tools - Build additional tool programs: tff2lff
 media-gfx/luminance-hdr:fits - Enable support for the FITS format
+media-gfx/mandelbulber:opencl - Enable GPU rendering support using OpenCL
 media-gfx/nomacs:opencv - Build support for media-libs/opencv
 media-gfx/nomacs:zip - Build support for zip archives
 media-gfx/nvidia-texture-tools:cg - Enable NVIDIA C graphics compiler toolkit plug-in
@@ -6953,7 +6954,6 @@ net-voip/telepathy-gabble:plugins - Enable plugin loader
 net-voip/yate:amrnb - use AMR-NB
 net-voip/yate:dahdi - Enable Dahdi driver
 net-voip/yate:gsm - use GSM codec
-net-voip/yate:h323 - use OpenH323
 net-voip/yate:ilbc - Enable iLBC codec
 net-voip/yate:ilbc-webrtc - Enable iLBC webrtc codec
 net-voip/yate:isac-fixed - Enable iSAC fixed codec
