@@ -454,7 +454,6 @@ app-emacs/bbdb:vm - Add support for app-emacs/vm
 app-emacs/calfw:howm - Add support for the app-emacs/howm note-taking tool
 app-emacs/company-mode:ropemacs - Install backend for dev-python/ropemacs
 app-emacs/emacs-common-gentoo:games - Support shared score files for games
-app-emacs/emhacks:jde - Enable support for Java Development Environment
 app-emacs/org-mode:contrib - Install user-contributed files
 app-emacs/org-mode:odt-schema - Install non-free schema files for OpenDocument Text exporter
 app-emacs/remember:bbdb - Include support for app-emacs/bbdb
@@ -1264,14 +1263,12 @@ dev-ada/aws:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/gnat_util:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/gnat_util:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/gnat_util:shared - Build gnat_util shared library
-dev-ada/gnat_util:static - Build gnat_util static library
 dev-ada/gnat_util:static-pic - Build gnat_util static library with pic code
 dev-ada/gnatcoll:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/gnatcoll:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/gnatcoll:projects - Adds support for projects
 dev-ada/gnatcoll:pygobject - Adds support for pygobject
 dev-ada/gnatcoll:shared - Build shared library
-dev-ada/gnatcoll:static - Build static library
 dev-ada/gnatcoll:tools - Build associated tools
 dev-ada/gnatmem:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/gnatmem:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
@@ -2074,7 +2071,6 @@ dev-libs/kreport:marble - Enable displaying of maps using kde-apps/marble
 dev-libs/kreport:scripting - Support Qml scripting using dev-qt/qtdeclarative
 dev-libs/leveldb:snappy - support the snappy compression library
 dev-libs/libbase58:tools - Build command line base58 tool
-dev-libs/libburn:track-src-odirect - Read track input with O_DIRECT (see man 2 open), this may deliver a better write performance in some situations
 dev-libs/libcdio:minimal - Only build the libcdio library and little more, just to be used to link against from multimedia players. With this USE flag enabled, none of the command-line utilities are built, nor is the CDDA library.
 dev-libs/libcec:cubox - Enable support for enable support for the TDA995x
 dev-libs/libcec:exynos - Enable support for Exynos chipsets
@@ -8134,6 +8130,7 @@ sys-firmware/ipxe:usb - Build a bootable USB image for using PXE
 sys-firmware/ipxe:vmware - Build the PXE ROM images that VMWare uses
 sys-firmware/seabios:binary - Use official upstream pre-built binaries
 sys-firmware/seabios:seavgabios - Include SeaVGABIOS binaries (replacement for vgabios)
+sys-firmware/sgabios:binary - Use pre-built binaries
 sys-firmware/sigrok-firmware-fx2lafw:binary - Use official upstream pre-built binaries
 sys-firmware/vgabios:binary - Use official upstream pre-built binaries (only default and cirrus images)
 sys-freebsd/boot0:tftp - Enable PXE/TFTP boot support.
@@ -8292,7 +8289,12 @@ sys-libs/glibc:nscd - Build, and enable support for, the Name Service Cache Daem
 sys-libs/glibc:rpc - Enable obsolete RPC/NIS layers
 sys-libs/glibc:suid - Make internal pt_chown helper setuid -- not needed if using Linux and have /dev/pts mounted with gid=5
 sys-libs/glibc:systemtap - enable systemtap static probe points
+sys-libs/gwenhywfar:designer - Build plugins for dev-qt/designer
 sys-libs/gwenhywfar:fox - Use x11-libs/fox graphical toolkit
+sys-libs/gwenhywfar:qml - Enable support for plugins using QML
+sys-libs/gwenhywfar:sensors - Enable support for dev-qt/qtsensors module
+sys-libs/gwenhywfar:serialport - Enable support for dev-qt/qtserialport module
+sys-libs/gwenhywfar:webkit - Enable support for dev-qt/qtwebkit
 sys-libs/libblockdev:bcache - Enable block device cache support.
 sys-libs/libblockdev:cryptsetup - Enable sys-fs/cryptsetup support
 sys-libs/libblockdev:dmraid - Support for dmraid devices, also known as ATA-RAID, or Fake RAID.
