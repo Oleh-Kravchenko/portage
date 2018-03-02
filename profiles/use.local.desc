@@ -5121,6 +5121,7 @@ media-video/vlc:macosx-notifications - Enable Mac OS X notifications module (for
 media-video/vlc:macosx-qtkit - Enable Mac OS X qtkit module: qtcapture (video) and qtsound (audio) module
 media-video/vlc:macosx-quartztext - Enable Mac OS X quartz text module
 media-video/vlc:matroska - Enable matroska support using reference libraries (fallback on other existing matroska support if disabled, i.e., matroska enabled FFmpeg)
+media-video/vlc:microdns - Enable Chromecast auto-detection using net-libs/libmicrodns
 media-video/vlc:mpeg - Add libmpeg2 support for mpeg-1 and mpeg-2 video streams
 media-video/vlc:nfs - Enable support for nfs protocol via net-fs/libnfs
 media-video/vlc:omxil - Enable OpenMAX Integration Layer codec module
@@ -5497,6 +5498,7 @@ net-dns/dnssec-validator:ecdsa-check - Requires openssl[-bindist]
 net-dns/hash-slinger:ipsec - Enable support for IPSECKEY records (ipseckey)
 net-dns/hash-slinger:openpgp - Enable support for OPENPGPKEY records (openpgpkey)
 net-dns/hash-slinger:ssh - Enable support for SSHFP records (sshfp)
+net-dns/idnkit:liteonly - Compile and install lite library only
 net-dns/knot:dnsproxy - Enable the tiny DNS proxy module
 net-dns/knot:dnstap - Include support for the dnstap binary log format (http://dnstap.info/)
 net-dns/knot:fastparser - Use a zone file parser that is faster, but requires more memory and CPU time to compile
@@ -6859,9 +6861,6 @@ net-proxy/privoxy:tools - Install log parser, regression tester and user agent g
 net-proxy/privoxy:whitelists - Support trust files (white lists)
 net-proxy/privoxy:zlib - Use sys-libs/zlib to decompress data before filtering
 net-proxy/rejik:banlists - Install upstream provided simple banlists
-net-proxy/shadowsocks-libev:mbedtls - Use net-libs/mbedtls as crypto backend
-net-proxy/shadowsocks-libev:openssl - Use dev-libs/openssl as crypto backend
-net-proxy/shadowsocks-libev:system-libs - Use system libraries instead of the ones included in the upstream distribution
 net-proxy/squid:ecap - Adds support for loadable content adaptation modules (http://www.e-cap.org)
 net-proxy/squid:esi - Enable ESI for accelerators, will cause squid reverse proxies to be capable of the Edge Acceleration Specification (www.esi.org)
 net-proxy/squid:htcp - Enable HTCP protocol
