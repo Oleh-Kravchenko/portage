@@ -33,6 +33,14 @@
 #-video_cards_vmware
 -input_devices_vmmouse
 
+# Michał Górny <mgorny@gentoo.org> (02 Mar 2018)
+# Requires dev-libs/libressl (not yet tested).
+curl_ssl_libressl
+
+# Michał Górny <mgorny@gentoo.org> (02 Mar 2018)
+# Someone needs to test them.
+input_devices_libinput
+
 # Michał Górny <mgorny@gentoo.org> (01 Mar 2018)
 # virtual/mpi not keyworded at the moment.
 mpi
