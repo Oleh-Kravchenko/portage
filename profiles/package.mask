@@ -29,6 +29,23 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas K. Hüttel <dilfridge@gentoo.org> (03 Mar 2018)
+# Fails to build without rpc support in glibc (bug 631044);
+# no maintainer, requires obsolete hardware. Removal in
+# 30 days.
+app-pda/p3nfs
+
+# Andreas K. Hüttel <dilfridge@gentoo.org> (03 Mar 2018)
+# Fails to build without rpc support in glibc (bug 377867);
+# fails to build with libtirpc; apparently functionality is
+# now included in libtirpc. No consumers. Removal in 30 days.
+net-libs/librpcsecgss
+
+# Andreas K. Hüttel <dilfridge@gentoo.org> (03 Mar 2018)
+# Marked obsolete on CTAN. EAPI=3 ebuild. No consumers.
+# Masked for removal in 30 days. Bug 644258
+app-text/noweb
+
 # Jason Zaman <perfinion@gentoo.org> (02 Mar 2018)
 # Became sys-apps/selinux-python in release 2.7
 # Masked for removal in 30 days.
@@ -37,6 +54,15 @@ dev-python/sepolgen
 # Tim Harder <radhermit@gentoo.org> (01 Mar 2018)
 # Masked for testing.
 >=dev-python/aiohttp-3
+
+# Ulrich Müller <ulm@gentoo.org> (01 Mar 2018)
+# Very old (Open)Motif version 2.2 installing libXm.so.3.
+# Released in 2004. Non-free. No revdeps in Gentoo repo.
+# Depends on x11-libs/libXp which is on its way out.
+# If you still need this for third-party binaries, try the
+# workaround outlined in https://bugs.gentoo.org/210021#c19.
+# Masked for removal in 90 days. Bug #649080.
+x11-libs/motif:2.2
 
 # Andreas Sturmlechner <asturm@gentoo.org> (28 Feb 2018)
 # Dead upstream, depends on dead Qt4.
@@ -308,21 +334,6 @@ app-misc/misterhouse
 # Configure hangs (#628726), a major version bump is needed (#510050).
 # Removal in a month.
 app-forensics/autopsy
-
-# Pacho Ramos <pacho@gentoo.org> (04 Jan 2018)
-# Multiple security issues, init scripts need a major rework (#629416,
-# #629412, #631068, #623806). Removal in a month.
-net-im/jabberd2
-net-im/mu-conference
-
-# Pacho Ramos <pacho@gentoo.org> (04 Jan 2018)
-# Not compatible with current libmowgli, no reverse deps (#630030). Removal
-# in a month.
-dev-libs/libmcs
-
-# Pacho Ramos <pacho@gentoo.org> (04 Jan 2018)
-# No reverse deps, fails to build (#630866). Removal in a month.
-dev-libs/libmowgli-glib
 
 # Pacho Ramos <pacho@gentoo.org> (04 Jan 2018)
 # Deprecated tools replace by dev-python/awscli (#633374). Removal in a
