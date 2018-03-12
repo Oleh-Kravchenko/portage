@@ -1527,6 +1527,11 @@
       <role>Member (security)</role>
     </member>
     <member>
+      <email>mattst88@gentoo.org</email>
+      <name>Matt Turner</name>
+      <role>Member</role>
+    </member>
+    <member>
       <email>slyfox@gentoo.org</email>
       <name>Sergei Trofimovich</name>
       <role>Member</role>
@@ -1829,11 +1834,6 @@
     <member>
       <email>creffett@gentoo.org</email>
       <name>Chris Reffett</name>
-      <role>Developer</role>
-    </member>
-    <member>
-      <email>jcallen@gentoo.org</email>
-      <name>Jonathan Callen</name>
       <role>Developer</role>
     </member>
     <member>
@@ -2156,7 +2156,7 @@
   </project>
   <project>
     <email>mips@gentoo.org</email>
-    <name>Gentoo/MIPS Port</name>
+    <name>Gentoo/MIPS Development</name>
     <url>https://wiki.gentoo.org/wiki/Project:MIPS</url>
     <description>Gentoo/MIPS is a port of the Gentoo GNU/Linux and the Gentoo Portage package management system to mips-based platforms.</description>
     <subproject ref="gentoo-yeeloong@gentoo.org"/>
@@ -2840,11 +2840,6 @@ developers and volunteer mentors.</description>
     <member>
       <email>heroxbd@gentoo.org</email>
       <name>Benda Xu</name>
-      <role>Developer</role>
-    </member>
-    <member>
-      <email>jcallen@gentoo.org</email>
-      <name>Jonathan Callen</name>
       <role>Developer</role>
     </member>
   </project>
