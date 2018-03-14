@@ -27,5 +27,6 @@ DEPEND="${RDEPEND}
 DOCS=( AUTHORS.rst HISTORY.rst README.rst )
 
 python_test() {
-	py.test -v || die "Tests fail with ${EPYTHON}"
+	py.test -v || die "Tests failed with ${EPYTHON}"
 }
+
