@@ -18,11 +18,14 @@ RDEPEND="!<sys-fs/fuse-2.9.7-r1:0"
 
 S=${WORKDIR}/fuse-${PV}
 
+# tests run in sys-fs/fuse
+RESTRICT="test"
+
 src_prepare() {
 	default
 
 	# lto not supported yet -- https://github.com/libfuse/libfuse/issues/198
-	filter-flags -flto
+	filter-flags -flto*
 }
 
 src_install() {
