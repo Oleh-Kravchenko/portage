@@ -5161,6 +5161,7 @@ media-video/vlc:sftp - Enable libssh2 to support SFTP file transfer
 media-video/vlc:shout - Enable libshout output
 media-video/vlc:sid - Adds support for playing C64 SID files through media-libs/libsidplay:2
 media-video/vlc:skins - Enable support for the skins2 interface
+media-video/vlc:soxr - Enable SoX Resampler support via media-libs/soxr
 media-video/vlc:swscale - Enable image scaling and conversion via libswscale (part of FFmpeg)
 media-video/vlc:tremor - Enable tremor, a fixed-point version of the Ogg Vorbis decoder
 media-video/vlc:twolame - Enable twolame support (MPEG Audio Layer 2 encoder)
@@ -7657,7 +7658,6 @@ sys-apps/proot:care - Build dynamic CARE binary (more info - http://reproducible
 sys-apps/qingy:consolekit - Enable native consolekit support
 sys-apps/qingy:opensslcrypt - Encrypt communications between qingy and its GUI using dev-libs/openssl
 sys-apps/razercfg:pm-utils - Installs the pm-utils hooks for suspend/resume and requires sys-power/pm-utils
-sys-apps/razercfg:qt4 - Installs a qt UI. Requires dev-python/pyside
 sys-apps/rng-tools:nistbeacon - Enable NIST beacon entropy support
 sys-apps/roccat-tools:input_devices_roccat_ryosmkfx - Enable support for Ryos Mk FX keyboard.
 sys-apps/roccat-tools:input_devices_roccat_skeltr - Enable support for Skeltr keyboard.
