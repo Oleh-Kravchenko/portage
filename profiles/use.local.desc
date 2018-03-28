@@ -3305,6 +3305,7 @@ games-simulation/openttd:lzo - Enables LZO compression for savegames. This is on
 games-simulation/openttd:openmedia - Enables the free open media sets: OpenGFX, OpenSFX, OpenMSX, removing the requirement for proprietary TTD assets to play OpenTTD.
 games-simulation/singularity:music - Install music files
 games-sports/speed-dreams:xrandr - Enable support for the X xrandr extension
+games-sports/xmoto:double-precision - more precise calculations at the expense of speed
 games-sports/xmoto:editor - Depend on inkscape, scripts to convert svg to level (svg2lvl)
 games-strategy/0ad:editor - Include Atlas scenario editor projects
 games-strategy/0ad:lobby - Enable the use of net-libs/gloox and the multiplayer lobby

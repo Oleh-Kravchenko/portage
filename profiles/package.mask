@@ -29,6 +29,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Lars Wendler <polynomial-c@gentoo.org> (27 Mar 2018)
+# Breaks a couple of revdeps. See tracker bug at
+# https://bugs.gentoo.org/651698
+=dev-libs/icu-61.1
+=dev-libs/icu-layoutex-61.1
+
 # Tony Vroon <chainsaw@gentoo.org> (24 Mar 2018)
 # This is a vulnerable version of Asterisk and should not be used except
 # to troubleshoot a purported memory leak in the 11.25.3 release.
@@ -178,10 +184,6 @@ dev-python/adodb-py
 # Pacho Ramos <pacho@gentoo.org> (18 Mar 2018)
 # Requires old whoosh (#643690). Removal in a month.
 dev-python/flask-whooshalchemy
-
-# Pacho Ramos <pacho@gentoo.org> (18 Mar 2018)
-# Requires old redis-py and gevent (#643692). Removal in a month.
-dev-python/pyzor
 
 # Pacho Ramos <pacho@gentoo.org> (18 Mar 2018)
 # Requires old leveldb, live ebuild, dead since 2013 (#644310). Removal in a
