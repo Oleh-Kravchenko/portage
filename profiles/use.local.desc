@@ -1859,7 +1859,6 @@ dev-lang/ekopath:openmpi - Include pre-built OpenMPI 1.x libraries
 dev-lang/ekopath:openmpi2 - Include pre-built OpenMPI 2.x libraries
 dev-lang/erlang:compat-ethread - Enable compatibility with pre-pentium 4 CPUs in the ethread library.
 dev-lang/erlang:dirty-schedulers - Enable dirty schedulers
-dev-lang/erlang:halfword - Enable halfword emulator
 dev-lang/erlang:hipe - HIgh Performance Erlang extension
 dev-lang/erlang:kpoll - Enable kernel polling support
 dev-lang/fpc:ide - Build and install the Free Pascal Compiler IDE
@@ -4935,6 +4934,7 @@ media-video/ffmpeg:mipsfpu - Enables floating point MIPS optimizations.
 media-video/ffmpeg:mmal - Enables Multi-Media Abstraction Layer (MMAL) decoding support: Available e.g. on the Raspberry Pi.
 media-video/ffmpeg:network - Enables network streaming support
 media-video/ffmpeg:nvenc - Adds support for NVIDIA Encoder (NVENC) API for hardware accelerated encoding on NVIDIA cards.
+media-video/ffmpeg:opencl - Enable OpenCL support
 media-video/ffmpeg:openh264 - Enables H.264 encoding suppoprt via media-libs/openh264.
 media-video/ffmpeg:openssl - Enables dev-libs/openssl support. Adds support for encrypted network protocols (TLS/HTTPS).
 media-video/ffmpeg:opus - Adds (decoding) support for the Opus codec via media-libs/opus.
@@ -6019,10 +6019,14 @@ net-libs/libwebsockets:http-proxy - Support for rewriting HTTP proxying
 net-libs/libwebsockets:http2 - Support the HTTP/2 protocol
 net-libs/libwebsockets:lejp - With the Lightweight JSON Parser
 net-libs/libwebsockets:libev - Support event loops via dev-libs/libev
+net-libs/libwebsockets:libevent - Support event loops via dev-libs/libevent
 net-libs/libwebsockets:libuv - Support asynchronous I/O via dev-libs/libuv
+net-libs/libwebsockets:peer-limits - Track peers and restrict resources a single peer can allocate
 net-libs/libwebsockets:server-status - Support json + jscript server monitoring
 net-libs/libwebsockets:smtp - Provide SMTP support
+net-libs/libwebsockets:socks5 - Allow use of SOCKS5 proxy on client connections
 net-libs/libwebsockets:sqlite3 - Require SQLITE3 support
+net-libs/libwebsockets:zip - Support serving pre-zipped files
 net-libs/loudmouth:asyncns - Use net-libs/libasyncns for asynchronous name resolution.
 net-libs/loudmouth:openssl - Enable dev-libs/openssl support instead of gnutls (which is the default).
 net-libs/mbedtls:havege - Enable the HAVEGE random generator. Warning: the HAVEGE random generator is not suitable for virtualized environments
