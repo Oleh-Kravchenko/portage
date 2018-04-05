@@ -29,6 +29,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Rick Farina <zerochaos@gentoo.org> (04 Apr 2018)
+# Violates PMS and does not work with stable portage.
+# Masked for removal in 60 days, lift mask if bug #650126 is fixed
+sys-fs/aufs3
+sys-fs/aufs4
+
 # Andreas Sturmlechner <asturm@gentoo.org> (03 Mar 2018)
 # Dead upstream, depends on dead PyQt4.
 # Masked for removal in 30 days. Bugs #649118, #510066
@@ -598,11 +604,6 @@ dev-db/maxscale
 # Masked for removal in 30 days. Bug 598651, 635192, 644396
 media-gfx/photivo
 
-# Andreas Sturmlechner <asturm@gentoo.org> (05 Mar 2018)
-# Dead upstream, depends on deprecated Qt4.
-# Masked for removal in 30 days. Bug 644404
-net-fs/smbtatools
-
 # Andreas K. Hüttel <dilfridge@gentoo.org> (03 Mar 2018)
 # Fails to build without rpc support in glibc (bug 631044);
 # no maintainer, requires obsolete hardware. Removal in
@@ -635,7 +636,7 @@ dev-python/sepolgen
 # Depends on x11-libs/libXp which is on its way out.
 # If you still need this for third-party binaries, try the
 # workaround outlined in https://bugs.gentoo.org/210021#c19.
-# Masked for removal in 90 days. Bug #649080.
+# Masked for removal in 30 days. Bug #649080.
 x11-libs/motif:2.2
 
 # Anthony G. Basile <blueness@gentoo.org> (25 Feb 2018)
