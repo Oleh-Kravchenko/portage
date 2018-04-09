@@ -29,6 +29,20 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (08 Apr 2018)
+# Depends on dead Qt4. Masked for removal in 30 days. Bug #649124
+dev-python/PyFoam
+
+# Andreas Sturmlechner <asturm@gentoo.org> (08 Apr 2018)
+# Depends on dead Qt4. Use sci-chemistry/avogadro2 instead.
+# Masked for removal in 30 days. Bug #645030
+sci-chemistry/avogadro
+
+# Jason Zaman <perfinion@gentoo.org> (08 Apr 2018)
+# Dead upstream, for an old version of Xfce
+# Masked for removal in 30 days.
+xfce-extra/xfce-theme-manager
+
 # Andreas Sturmlechner <asturm@gentoo.org> (06 Apr 2018)
 # Dead upstream, depends on dead Qt4.
 # Masked for removal in 30 days. Bugs #644478
@@ -584,17 +598,6 @@ net-p2p/tribler
 # Andreas Sturmlechner <asturm@gentoo.org> (11 Mar 2018)
 # Dead upstream, no revdeps left. Bug #639358
 app-i18n/libguess
-
-# José María Alonso <nimiux@gentoo.org> (09 Mar 2018)
-# Obsolete package
-# Masked for removal in 30 days. Bug #646742
-dev-lisp/common-lisp-controller
-dev-lisp/asdf-binary-locations
-
-# José María Alonso <nimiux@gentoo.org> (08 Mar 2018)
-# Obsolete package
-# Masked for removal in 30 days. Bug #648448
-dev-lisp/gentoo-init
 
 # Brian Evans <grknight@gentoo.org> (06 Mar 2018)
 # MariaDB MaxScale 1.x depends on the deprecated libmysqld

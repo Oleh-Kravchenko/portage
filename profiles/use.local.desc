@@ -7177,8 +7177,9 @@ sci-libs/armadillo:superlu - Use SuperLU for sparse linear equation solving sci-
 sci-libs/armadillo:tbb - Use matrix allocation from the Threads Building Blocks dev-cpp/tbb
 sci-libs/arprec:qd - Use sci-libs/qd for quad-double datatype
 sci-libs/atlas:generic - Build atlas assuming a fairly generic architecture (sse2 for x86, core2 for amd64)
+sci-libs/avogadrolibs:archive - Enable archive support using app-arch/libarchive
 sci-libs/avogadrolibs:static-plugins - Build all plugins statically into main plugin modules
-sci-libs/avogadrolibs:vtk - include vtk support
+sci-libs/avogadrolibs:vtk - Enable sci-libs/vtk support
 sci-libs/cddlib:tools - Add a few executables and tests for cddlib
 sci-libs/ceres-solver:c++11 - Build ceres-solver using the C++11 standard
 sci-libs/ceres-solver:cxsparse - Enable simple support for sparse matrix algebra from sci-libs/cxsparse with no LAPACK dependencies
@@ -8368,6 +8369,7 @@ www-apps/nikola:webmedia - Use dev-python/micawber to extract metadata from web 
 www-apps/nikola:websocket - Add websocket support thru dev-python/ws4py
 www-apps/otrs:mod_perl - Provide all dependencies for use of mod_perl instead of cgi
 www-apps/postfixadmin:vacation - Install vacation.pl script and dependencies
+www-apps/radicale:bcrypt - Depend on passlib to enable bcrypt and md5 authentication methods
 www-apps/redmine:markdown - Enable support for Markdown
 www-apps/redmine:passenger - Enable support for www-apache/passenger
 www-apps/rt:lighttpd - Add www-servers/lighttpd support
