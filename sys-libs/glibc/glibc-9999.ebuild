@@ -962,6 +962,7 @@ glibc_headers_configure() {
 		libc_cv_asm_cfi_directives=yes
 		libc_cv_broken_visibility_attribute=no
 		libc_cv_c_cleanup=yes
+		libc_cv_compiler_powerpc64le_binary128_ok=yes
 		libc_cv_forced_unwind=yes
 		libc_cv_gcc___thread=yes
 		libc_cv_mlong_double_128=yes
@@ -969,6 +970,7 @@ glibc_headers_configure() {
 		libc_cv_ppc_machine=yes
 		libc_cv_ppc_rel16=yes
 		libc_cv_predef_fortify_source=no
+		libc_cv_target_power8_ok=yes
 		libc_cv_visibility_attribute=yes
 		libc_cv_z_combreloc=yes
 		libc_cv_z_execstack=yes
@@ -1322,7 +1324,7 @@ src_strip() {
 	# if user has stripping enabled and does not have split debug turned on,
 	# then leave the debugging sections in libpthread.
 	if ! has nostrip ${FEATURES} && ! has splitdebug ${FEATURES} ; then
-		${STRIP:-${CTARGET}-strip} --strip-debug "${ED}"/*/libpthread-*.so
+		${STRIP:-${CTARGET}-strip} --strip-debug "${ED}"$(alt_prefix)/*/libpthread-*.so
 	fi
 }
 
