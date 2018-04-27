@@ -1082,6 +1082,11 @@
       <role>Member</role>
     </member>
     <member>
+      <email>johu@gentoo.org</email>
+      <name>Johannes Huber</name>
+      <role>Member</role>
+    </member>
+    <member>
       <email>jstein@gentoo.org</email>
       <name>Jonas Stein</name>
       <role>Member</role>
@@ -1781,11 +1786,6 @@
     <member is-lead="1">
       <email>chewi@gentoo.org</email>
       <name>James Le Cuirot</name>
-      <role>Developer</role>
-    </member>
-    <member>
-      <email>ercpe@gentoo.org</email>
-      <name>Johann Schmitz</name>
       <role>Developer</role>
     </member>
     <member>
@@ -3578,6 +3578,11 @@ developers and volunteer mentors.</description>
     <name>Gentoo Scheme Project</name>
     <url>https://wiki.gentoo.org/wiki/Project:Scheme</url>
     <description>The Gentoo Scheme Project handles Scheme related packages in the Gentoo package tree.</description>
+    <member>
+      <email>amynka@gentoo.org</email>
+      <name>Amy Liffey</name>
+      <role>Member</role>
+    </member>
   </project>
   <project>
     <email>sci@gentoo.org</email>
