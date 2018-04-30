@@ -262,9 +262,6 @@ app-backup/deja-dup:nautilus - Build gnome-base/nautilus extension
 app-backup/duplicity:s3 - Support for backing up to the Amazon S3 system
 app-backup/fsarchiver:lz4 - Enable lz4 compression support
 app-backup/fsarchiver:zstd - Enable zstd compression support
-app-backup/holland-backup-mysql-meta:lvm - Install Holland LVM Plugin
-app-backup/holland-backup-mysql-meta:mysqldump - Install Holland mysqldump Plugin
-app-backup/holland-backup-mysql-meta:mysqlhotcopy - Install Holland mysqlhotcopy Plugin
 app-backup/rear:udev - Have ReaR start backup when attaching your USB drive.
 app-backup/snapper:btrfs - Include Btrfs support sys-fs/btrfs-progs
 app-backup/snapper:ext4 - Include Ext4 support sys-fs/e2fsprogs
@@ -1037,7 +1034,7 @@ app-office/kexi:webkit - Enable web form designer widget using dev-qt/qtwebkit
 app-office/kmymoney:activities - Enable kde-frameworks/kactivities integration
 app-office/kmymoney:addressbook - Enable kde-apps/akonadi contact integration
 app-office/kmymoney:hbci - Enable HBCI support using net-libs/aqbanking
-app-office/kmymoney:holidays - Enable kde-apps/kholidays integration
+app-office/kmymoney:holidays - Enable kde-frameworks/kholidays integration
 app-office/kmymoney:quotes - Enable Online Stock Quote retrieval
 app-office/kmymoney:weboob - Enable import of online banking transactions extracted by www-client/weboob
 app-office/kraft:pim - Enable support for KDE PIM resources integration
@@ -1112,7 +1109,6 @@ app-shells/bash:net - Enable /dev/tcp/host/port redirection
 app-shells/bash:plugins - Add support for loading builtins at runtime via 'enable'
 app-shells/dash:vanilla - Support echo -n, and enable echo -e all the time (unsupported)
 app-shells/pdsh:rsh - This allows the use of rsh (remote shell) and rcp (remote copy) for authoring websites. sftp is a much more secure protocol and is preferred.
-app-shells/scsh-install-lib:scsh - Use a non-FHS directory layout
 app-shells/shish:diet - Use dev-libs/dietlibc
 app-text/asciidoc:highlight - Enable source code highlighting
 app-text/atril:caja - Enable property page extension in mate-base/caja
@@ -1500,12 +1496,6 @@ dev-games/cegui:ogre - Enable the OGRE renderer
 dev-games/cegui:tinyxml - Enable the Tiny XML parser module
 dev-games/cegui:xerces-c - Enable the Xerces-C++ XML parser module
 dev-games/cegui:zip - Enable the Minizip resource provider
-dev-games/crystalspace:3ds - Enables support for .3DS files in CrystalSpace
-dev-games/crystalspace:bullet - include support for Bullet library
-dev-games/crystalspace:cal3d - include support for skeleton animation
-dev-games/crystalspace:cegui - include support for Crazy Eddie GUI
-dev-games/crystalspace:cg - NVIDIA toolkit plugin
-dev-games/crystalspace:ode - include support for Open Dynamics Engine
 dev-games/guichan:allegro - Build the Allegro frontend
 dev-games/mygui:l10n_ru - Install some additional russian docs if 'doc' useflag enabled
 dev-games/mygui:ogre - Use the ogre render subsystem. (cannot combine with opengl)
@@ -1951,7 +1941,6 @@ dev-lang/python:wininst - Install Windows executables required to create an exec
 dev-lang/qu-prolog:pedro - Pedro subscription/notification communications system
 dev-lang/rakudo:clang - Use Clang to compile the MoarVM backend
 dev-lang/rakudo:moar - Use the MoarVM as backend
-dev-lang/rubinius:llvm - Build with llvm. Currently the package only builds against old versions of llvm.
 dev-lang/ruby:jemalloc - Use dev-libs/jemalloc for memory allocation.
 dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
 dev-lang/ruby:readline - Use the sys-libs/readline library to provide the readline extension, used for instance by the irb tool. This flag is meaningful only if the libedit USE flag is disabled. If neither libedit nor readline USE flags are enabled, the readline extension will not be built (and irb will lose line editing functionality).
@@ -3053,11 +3042,6 @@ games-action/d1x-rebirth:l10n_de - Provides German translations for the game's b
 games-action/d1x-rebirth:music - Support for ingame music
 games-action/d1x-rebirth:opl3-musicpack - Include alternate version of the game's music, recorded with the Yamaha YMF262 OPL3 soundchip
 games-action/d1x-rebirth:sc55-musicpack - Include alternate version of the game's music, recorded with the Roland Sound Canvas SC-55 MIDI module
-games-action/d2x-rebirth:demo - Install games-action/descent2-demodata as well
-games-action/d2x-rebirth:l10n_de - Provides German translations for the game's briefings, robot descriptions, and outro of the original campaign
-games-action/d2x-rebirth:music - Support for ingame music
-games-action/d2x-rebirth:opl3-musicpack - Include alternate version of the game's music, recorded with the Yamaha YMF262 OPL3 soundchip
-games-action/d2x-rebirth:sc55-musicpack - Include alternate version of the game's music, recorded with the Roland Sound Canvas SC-55 MIDI module
 games-action/dxx-rebirth:data - Install data files
 games-action/dxx-rebirth:descent1 - Install Descent 1 resources and executable
 games-action/dxx-rebirth:descent2 - Install Descent 2 resources and executable
@@ -3156,9 +3140,6 @@ games-emulation/pcsxr:cdio - Use libcdio for CD support
 games-emulation/pcsxr:sdl - Use SDL sound backend (other parts of SDL are used unconditionally)
 games-emulation/ppsspp:headless - Build headless version of the PPSSPP
 games-emulation/ppsspp:system-ffmpeg - Use the system-wide media-video/ffmpeg instead of bundled
-games-emulation/sdlmame:arcade - Enable the Multiple Arcade Machine Emulator for arcade games support
-games-emulation/sdlmame:mess - Enable the Multi Emulator Super System for game system support
-games-emulation/sdlmame:tools - Build development tools shared between sdlmame and sdlmess
 games-emulation/snes9x:netplay - Enable playing ROMs over the network (not recommended)
 games-emulation/snes9x:xrandr - Enable support for the X xrandr extension
 games-emulation/vbam:link - Enable GBA linking functionality
@@ -3189,11 +3170,10 @@ games-fps/doom3:roe - Adds support for the Resurrection of Evil expansion
 games-fps/doomsday:demo - Install launcher dor doom1.wad from games-fps/doom-data
 games-fps/doomsday:doom - Install launcher for jdoom game
 games-fps/doomsday:fluidsynth - Build the FluidSynth sound driver
+games-fps/doomsday:fmod - Enable support for fmod music and sound effects lib
 games-fps/doomsday:freedoom - Install launcher for doom1.wad from games-fps/freedoom
 games-fps/doomsday:heretic - Install launcher for jheretic game
 games-fps/doomsday:hexen - Install launcher for jhexen game
-games-fps/doomsday:resources - Enable support for games-fps/doomsday-resources in jdoom launcher
-games-fps/doomsday:snowberry - Install Snowberry doomsday front-end
 games-fps/doomsday:tools - Build additional tools such as doomsday-shell, md2tool and texc
 games-fps/duke3d:demo - Install the demo files
 games-fps/duke3d:pic - disable optimized assembly code that is not PIC friendly
@@ -3794,7 +3774,6 @@ mail-filter/opensmtpd-extras:table-sqlite - table for lookups with dev-db/sqlite
 mail-filter/opensmtpd-extras:table-stub - stub table
 mail-filter/postfwd:tools - Install additional tools for testing postfwd
 mail-filter/postgrey:targrey - Enables the targrey patch
-mail-filter/qmail-scanner:spamassassin - Build faster mail-filter/spamassassin checks into qmail-scanner
 mail-filter/rmilter:dkim - Enable support for DomainKeys Identified Mail
 mail-filter/rmilter:memcached - Enable support for memcached
 mail-filter/rspamd:fann - Enable neural network plugin (requires sci-mathematics/fann).
@@ -3985,7 +3964,6 @@ media-gfx/digikam:panorama - Build the panorama plugin which requires media-gfx/
 media-gfx/digikam:semantic-desktop - Enable kde-frameworks/kfilemetadata support
 media-gfx/enblend:gpu - GPU support for Enblend
 media-gfx/enblend:image-cache - allow for processing of large images
-media-gfx/eog-plugins:flickr - Enable uploading to Flickr
 media-gfx/eog-plugins:map - Enable world map display using media-libs/libchamplain
 media-gfx/eog-plugins:picasa - Enable uploading to Google's Picasa Web Albums
 media-gfx/eom:gtk3 - Build with GTK+3 instead of GTK+2
@@ -4051,9 +4029,6 @@ media-gfx/inkscape:visio - Enable support for Microsoft Visio Diagrams
 media-gfx/inkscape:wpg - Enable support for WordPerfect Graphics
 media-gfx/iscan-plugin-gt-f500:minimal - Install the firmware only, and not the plugin.
 media-gfx/jpeg2ps:metric - Default to A4 paper size
-media-gfx/k3d:3ds - Enable support for 3D Studio models
-media-gfx/k3d:cuda - Use nvidia cuda toolkit for speeding up computations
-media-gfx/k3d:gts - Add Support for the GNU Triangulated Surface Library sci-libs/gts
 media-gfx/kphotoalbum:kipi - Support for the KDE Image Plugin Interface
 media-gfx/kphotoalbum:map - Enable map display support using kde-apps/libkgeomap
 media-gfx/krita:color-management - Enable color management via media-libs/opencolorio
@@ -4441,12 +4416,6 @@ media-plugins/vdr-epgsearch:conflictcheckonly - ToDo
 media-plugins/vdr-epgsearch:epgsearchonly - ToDo
 media-plugins/vdr-epgsearch:quicksearch - ToDo
 media-plugins/vdr-epgsearch:tre - Add support for unlimited fuzzy searching with help of dev-libs/tre library
-media-plugins/vdr-graphtft:graphtft-fe - Install external x11 remote frontend
-media-plugins/vdr-graphtft:theme_avp - graphTFT Alien vs. Predato theme
-media-plugins/vdr-graphtft:theme_deepblue - graphTFT default theme
-media-plugins/vdr-graphtft:theme_deeppurple - graphTFT Deep Purple theme
-media-plugins/vdr-graphtft:theme_poetter - graphTFT Poetter theme
-media-plugins/vdr-graphtft:touchscreen - Enable Touchscreen support
 media-plugins/vdr-music:graphtft - Enable support for media-plugins/vdr-graphtft
 media-plugins/vdr-pvr350:yaepg - Enables full support for the output format of vdr-yaepg
 media-plugins/vdr-streamdev:client - Compile the VDR plugin vdr-streamdev-client that acts like a dvb-budget card
@@ -4551,8 +4520,6 @@ media-sound/darkice:opus - Enable Opus audio codec support
 media-sound/darkice:twolame - Build with twolame support
 media-sound/deinvert:liquid - improve sound quality using net-libs/liquid-dsp
 media-sound/deinvert:wav - wav file support using media-libs/libsndfile
-media-sound/denemo:fluidsynth - Enable Fluidsynth MIDI software synthesis
-media-sound/denemo:portmidi - Enable support for the portmidi backend
 media-sound/dir2ogg:mac - Add support for decoding Monkey's Audio files
 media-sound/dir2ogg:wma - Add support for wma files through mplayer
 media-sound/drumstick:fluidsynth - Enable support for media-sound/fluidsynth
@@ -4715,9 +4682,7 @@ media-sound/qmmp:tray - Build tray icon
 media-sound/qsampler:libgig - Enable libgig support for loading Gigasampler files and DLS (Downloadable Sounds) Level 1/2 files
 media-sound/qtractor:dssi - Enable support for DSSI Soft Synth Interface
 media-sound/qtractor:rubberband - Enable support for in-place audio clip pitch-shifting through the rubberband library
-media-sound/quark:gnome - Provides tray-icon and enables gconf support
 media-sound/rhythmbox:daap - Build the local network music sharing plugin which uses the DAAP protocol using net-libs/libdmapsharing
-media-sound/rhythmbox:visualizer - Enable support for visualizations using media-plugins/gst-plugins-libvisual
 media-sound/shntool:alac - Add support for Apple Lossless Audio Codec files
 media-sound/shntool:mac - Add support for Monkey's Audio files
 media-sound/snd:s7 - Enable the s7 extension language (a version of Scheme)
@@ -5961,7 +5926,6 @@ net-libs/gnutls:test-full - Enable full test mode
 net-libs/gnutls:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
 net-libs/gnutls:tools - Build extra tools
 net-libs/gnutls:valgrind - Enable usage of dev-util/valgrind in debug
-net-libs/gtk-vnc:gtk3 - Build the gtk3 gtk-vnc library and other gtk3 assets
 net-libs/iax:snomhack - Use slower memset for SNOM phoneem
 net-libs/ldns:dane - Enable DNS-based Authentication of Named Entities (DANE) support
 net-libs/ldns:ecdsa - Enable ECDSA support
@@ -6520,7 +6484,6 @@ net-misc/owncloud-client:dolphin - Install the kde-apps/dolphin extension
 net-misc/owncloud-client:nautilus - Install the gnome-base/nautilus extension
 net-misc/owncloud-client:sftp - Enable sftp transfer support via net-libs/libssh
 net-misc/owncloud-client:shibboleth - Build support for Shibboleth single sign-on
-net-misc/pavuk:hammer - Turn on chunky/hammer mode (DoS) in pavuk: when specified, pavuk will include features to stress test web sites using an ultrahigh performancereplay mechanism
 net-misc/plowshare:view-captcha - View captcha with aview
 net-misc/ps3mediaserver:multiuser - Allow renderer customization per-user.
 net-misc/ps3mediaserver:transcode - Install optional dependencies for transcoding support via media-video/mplayer
@@ -6693,7 +6656,6 @@ net-p2p/bitcoind:knots - Build enhanced Bitcoin Knots version, rather than Bitco
 net-p2p/bitcoind:upnp - Enable Universal Plug and Play
 net-p2p/bitcoind:wallet - Enable wallet support
 net-p2p/bitcoind:zeromq - Report blocks and transactions via zeromq
-net-p2p/datacoin-hp:logrotate - Use app-admin/logrotate for rotating logs
 net-p2p/dbhub:switch_user - Enable support for switching user
 net-p2p/deluge:console - Enable default console UI
 net-p2p/deluge:webinterface - Install dependencies needed for the web interface
@@ -6745,7 +6707,6 @@ net-p2p/transmission:lightweight - Optimize transmission for low-resource system
 net-p2p/transmission:mbedtls - Use mbed TLS instead of OpenSSL
 net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
 net-p2p/transmission-remote-gtk:libproxy - Use net-libs/libproxy for getting the HTTP/HTTPS/SOCKS proxy configuration.
-net-p2p/tribler:vlc - Enable vlc support.
 net-p2p/xmr-stak:cuda - Enable NVIDIA CUDA toolkit support
 net-p2p/xmr-stak:devfee - Enable payment of devfee to the developer
 net-p2p/xmr-stak:hwloc - Enable CPU affinity support via hwloc
@@ -7862,15 +7823,10 @@ sys-cluster/cinder:tgt - Enable tgt storage backend support
 sys-cluster/cinder:volume - Installs the initscripts for the cinder volume service
 sys-cluster/cluster-glue:libnet - Force use of net-libs/libnet
 sys-cluster/corosync:infiniband - Enable Infiniband RDMA transport support
-sys-cluster/drbd:heartbeat - Enable Heartbeat integration
-sys-cluster/drbd:pacemaker - Enable Pacemaker integration
-sys-cluster/drbd:xen - Enable Xen integration
 sys-cluster/drbd-utils:heartbeat - Enable Heartbeat integration
 sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
 sys-cluster/drbd-utils:xen - Enable Xen integration
 sys-cluster/galera:garbd - Install Galera Arbitrator - a stateless daemon which acts as a lightweight group member
-sys-cluster/gearmand:memcache - Support memcache daemon (via dev-libs/libmemcached) for the queue storage.
-sys-cluster/gearmand:tokyocabinet - Support dev-db/tokyocabinet for the queue storage.
 sys-cluster/glusterfs:bd-xlator - Enable the blockdevice translator (requires sys-fs/lvm2)
 sys-cluster/glusterfs:crypt-xlator - Enable the encryption translator
 sys-cluster/glusterfs:fuse - Add FUSE mount helper
@@ -8494,8 +8450,6 @@ www-client/w3m:lynxkeymap - If you prefer Lynx-like key binding
 www-client/weboob:deprecated - Enable dev-python/mechanize support (deprecated in favor of dev-python/requests
 www-client/weboob:fast-libs - Enable fast libs
 www-client/weboob:secure-updates - Enable secure updates
-www-misc/gurlchecker:json - Enable support for parsing Google Chrome and derivatives bookmarks.
-www-misc/gurlchecker:sqlite - Enable support for parsing Firefox and derivatives bookmarks.
 www-misc/litmus:libproxy - Support for automatic proxy configuratino management through net-libs/libproxy.
 www-misc/litmus:libxml2 - Use dev-libs/libxml2 to parse XML
 www-misc/litmus:pkcs11 - Support for PKCS #11 through PaKChoiS (dev-libs/pakchois).
@@ -8668,8 +8622,6 @@ x11-libs/libXfont2:bzip2 - Support bzip2 compressed PCF fonts.
 x11-libs/libXfont2:truetype - Use media-libs/freetype for font rasterization.
 x11-libs/libaosd:pango - Enable the textual helpers (requires pangocairo).
 x11-libs/libaosd:tools - Install the aosd_cat tool (requires glib-2.0).
-x11-libs/libdesktop-agnostic:gconf - Enable GConf as configuration backend
-x11-libs/libdesktop-agnostic:glade - Install the Glade catalog for the desktop-agnotstic GTK widgets.
 x11-libs/libdlo:test-program - Build the program for testing Displaylink devices
 x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
 x11-libs/libdrm:valgrind - Compile in valgrind memory hints
