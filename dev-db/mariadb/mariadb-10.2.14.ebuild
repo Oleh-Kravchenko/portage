@@ -43,7 +43,7 @@ REQUIRED_USE="jdbc? ( extraengine server !static )
 	?? ( tcmalloc jemalloc )
 	static? ( yassl !pam )"
 
-KEYWORDS="~amd64 ~arm ~hppa ~ia64 ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos ~x64-solaris ~x86-solaris"
+KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos ~x64-solaris ~x86-solaris"
 
 # Shorten the path because the socket path length must be shorter than 107 chars
 # and we will run a mysql server during test phase
@@ -86,13 +86,9 @@ COMMON_DEPEND="
 		)
 	)
 	client-libs? ( >=sys-libs/zlib-1.2.3:0=[${MULTILIB_USEDEP},static-libs?]
-		net-libs/libnsl:0=[${MULTILIB_USEDEP}]
 		kerberos? ( virtual/krb5[${MULTILIB_USEDEP}] )
 	)
-	!client-libs? ( >=sys-libs/zlib-1.2.3:0=
-		net-libs/libnsl:0=
-		kerberos? ( virtual/krb5 )
-	)
+	!client-libs? ( >=sys-libs/zlib-1.2.3:0= kerberos? ( virtual/krb5 ) )
 	sys-libs/ncurses:0=
 	!bindist? (
 		sys-libs/binutils-libs:0=
