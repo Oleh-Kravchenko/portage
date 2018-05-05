@@ -2300,6 +2300,8 @@ dev-lisp/clisp:hyperspec - Use local hyperspec instead of online version
 dev-lisp/clisp:new-clx - Build CLISP with support for the NEW-CLX module which is a -C binding to the Xorg libraries
 dev-lisp/clisp:svm - Build CLISP with support for the Support Vector Machine module
 dev-lisp/clx:doc - Builds documentation
+dev-lisp/cmucl:X - Build CLX, CLM, or Hemlock
+dev-lisp/cmucl:doc - Installs package documentation
 dev-lisp/cmucl:source - Include source code for CMUCL in installation
 dev-lisp/ecls:gengc - Use generational garbage collection (experimental)
 dev-lisp/ecls:libatomic - Use dev-libs/libatomic_ops library
@@ -8678,6 +8680,10 @@ x11-misc/mate-notification-daemon:gtk3 - Build with GTK+3 instead of GTK+2
 x11-misc/mozo:gtk3 - Build with GTK+3 instead of GTK+2
 x11-misc/openbox-menu:icons - Enable support for icons in menus
 x11-misc/openbox-menu:svg - Support SVG icons
+x11-misc/polybar:i3wm - Add support for i3 window manager
+x11-misc/polybar:ipc - Add support for Inter-Process Messaging
+x11-misc/polybar:mpd - Add support for Music Player Daemon
+x11-misc/polybar:network - Enable network support
 x11-misc/qt5ct:dbus - Enable system tray and global menu support
 x11-misc/qt5ct:systray - Enable system tray support
 x11-misc/redshift:geoclue - Control dependency on app-misc/geoclue
