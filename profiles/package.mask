@@ -83,11 +83,6 @@ dev-python/kiwi
 # instead of its own.  Removal in 30 days.  Bug #526552.
 dev-python/tdaemon
 
-# Arfrever Frehtes Taifersar Arahesis <arfrever.fta@gmail.com> (26 Apr 2018)
-# Merged into >=dev-cpp/gtest-1.8.0.
-# Masked for removal in 30 days.
-dev-cpp/gmock
-
 # Andreas Sturmlechner <asturm@gentoo.org> (26 Apr 2018)
 # Depends on dead Qt4, no more revdeps. Masked for removal in 30 days.
 dev-libs/qjson
@@ -107,10 +102,6 @@ x11-libs/xpyb
 # Removal in 30 days. Bug #649076.
 x11-proto/printproto
 x11-libs/libXp
-
-# Andreas Sturmlechner <asturm@gentoo.org> (21 Apr 2018)
-# Package moved into kde-apps/kate as a feature. Masked for removal.
-kde-misc/ktexteditorpreviewplugin
 
 # Alexis Ballier <aballier@gentoo.org> (21 Apr 2018)
 # Needs porting of revdeps
@@ -251,21 +242,6 @@ sci-chemistry/cyana
 # Requires >=dev-libs/openssl-1.1.0
 =net-libs/nodejs-10*
 
-# Arfrever Frehtes Taifersar Arahesis <arfrever.fta@gmail.com> (3 Apr 2018)
-# Merged into >=dev-db/m17n-db-1.7.0.
-# Masked for removal in 30 days.
-dev-db/m17n-contrib
-
-# Aaron Bauman <bman@gentoo.org> (1 Apr 2018)
-# Unmaintained upstream. Relies on old PHP. EAPI=0.
-# Masked for removal in 30 days.
-www-apps/freeradius-dialupadmin
-
-# Andreas K. Hüttel <dilfridge@gentoo.org> (30 Mar 2018)
-# Fails to build (bug 408463). EAPI=3 (bug 648452).
-# Masked for removal in 30 days.
-dev-scheme/ikarus
-
 # Mart Raudsepp <leio@gentoo.org> (30 Mar 2018)
 # GStreamer mp3 decoder plugin based on libmad is removed with gstreamer-1.12.
 # media-plugins/gst-plugins-mpg123 is the suggested replacement.
@@ -322,11 +298,6 @@ sys-libs/uclibc
 # extra notification of the security vulnerabilities. Bug #577068.
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
-
-# Steve Dibb <beandog@gentoo.org> (22 Feb 2018)
-# Dead upstream, long since replaced by libaacs for functionality.
-# Masked for removal in 30 days. Bug #648560
-media-video/aacskeys
 
 # Eray Aslan <eras@gentoo.org> (08 Feb 2018)
 # Mask experimental software
@@ -475,11 +446,6 @@ sys-kernel/hardened-sources
 # Package testing tracked in bug #611022.
 >=dev-libs/msgpack-1.4.2
 
-# Hanno Boeck <hanno@gentoo.org> (21 Aug 2017)
-# Open security bugs, no upstream, bug 628432
-# Alternatives: app-arch/libarchive, app-arch/unar
-app-arch/unrar-gpl
-
 # Sébastien Fabbro <bicatali@gentoo.org> (19 Aug 2017)
 # ipython-6 is python-3 only and causes circular dependencies
 # Unset python_targets_python2_7 for ipykernel and ipyparallel if needed.
@@ -576,6 +542,7 @@ net-wireless/cpyrit-cuda
 # Drop mask after migration of existing wxGTK:3.0 users
 =net-ftp/filezilla-3.30.0-r300
 =net-ftp/filezilla-3.31.0-r300
+=dev-util/codeblocks-17.12-r300
 
 # Mart Raudsepp <leio@gentoo.org> (16 Feb 2017)
 # Old gstreamer 0.10 version, which is security vulnerable.
