@@ -760,6 +760,7 @@ app-i18n/freewnn:uum - Build uum
 app-i18n/ibus:emoji - Enable support for Emoji
 app-i18n/ibus:gconf - Enable support for gnome-base/gconf
 app-i18n/ibus:gtk2 - Enable support for x11-libs/gtk+:2
+app-i18n/ibus:unicode - Enable support for Unicode choice
 app-i18n/ibus-chewing:gconf - Enable support for gnome-base/gconf
 app-i18n/ibus-handwrite:zinnia - Enable support for app-i18n/zinnia
 app-i18n/ibus-libpinyin:boost - Compile against dev-libs/boost libraries
@@ -7038,7 +7039,6 @@ sci-chemistry/apbs:fast - APBS fast mode (experimental)
 sci-chemistry/apbs:fetk - Include support for FeTK
 sci-chemistry/apbs:iapbs - C/C++/Fortran interface
 sci-chemistry/apbs:tools - Install optional tools
-sci-chemistry/avogadro:glsl - Enable glsl features via GLEW.
 sci-chemistry/avogadro2:rpc - Enable RPC server
 sci-chemistry/avogadro2:vtk - include vtk support
 sci-chemistry/ball:cuda - Include cuda support
