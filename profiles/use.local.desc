@@ -2424,7 +2424,6 @@ dev-php/twig:extension - Build the C extension (only for php-5.6.x).
 dev-php/xcache:coverage - Enable the coverager module (not recommended for production servers).
 dev-python/Kivy:camera - Install libraries needed to support camera
 dev-python/Kivy:garden - Install garden tool to manage user maintained widgets
-dev-python/PyFoam:extras - Enable optional dependencies
 dev-python/PyQt4:X - Build bindings for the QtGui module
 dev-python/PyQt4:compat - Install the deprecated pyqtconfig module for backward compatibility
 dev-python/PyQt4:dbus - Build bindings for the QtDBus module
@@ -8590,6 +8589,7 @@ x11-base/xorg-server:xephyr - Build the Xephyr server
 x11-base/xorg-server:xnest - Build the Xnest server
 x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
 x11-base/xorg-server:xvfb - Build the Xvfb server
+x11-base/xorg-x11:fonts - Install fonts from X.Org
 x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
 x11-drivers/nvidia-drivers:compat - Install non-GLVND libGL for backwards compatibility
 x11-drivers/nvidia-drivers:driver - Install the kernel driver module
