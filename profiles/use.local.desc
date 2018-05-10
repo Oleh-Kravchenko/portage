@@ -5730,6 +5730,8 @@ net-im/kadu:otr - Enable char encryption via OTR library
 net-im/kadu:phonon - Enables phonon audio plugin
 net-im/kadu:sdk - Install Kadu SDK (cmake module, API headers)
 net-im/kadu:speech - Enables speech module
+net-im/libcommuni:qml - Install optional qml files.
+net-im/libcommuni:uchardet - Use app-i18n/uchardet, which is upstreams default, instead of dev-libs/icu, which makes impossible to run tests.
 net-im/mcabber:aspell - Adds support for app-text/aspell spell checker.
 net-im/mcabber:otr - Enable encrypted conversations using Off-The-Records messaging
 net-im/pidgin:gadu - Enable Gadu Gadu protocol support
