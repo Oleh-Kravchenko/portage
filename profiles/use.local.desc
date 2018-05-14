@@ -3176,16 +3176,18 @@ games-fps/doomsday:tools - Build additional tools such as doomsday-shell, md2too
 games-fps/duke3d:demo - Install the demo files
 games-fps/duke3d:pic - disable optimized assembly code that is not PIC friendly
 games-fps/duke3d-data:gog - Extract the data from the GOG.com installer.
-games-fps/eduke32:demo - Install games-fps/duke3d-demodata as well
-games-fps/eduke32:gtk - Compile with gtk launcher
-games-fps/eduke32:offensive - Include optional XXX texture pack (needs USE 'textures')
-games-fps/eduke32:opl-musicpack - Include optional OPL (AdLib) music pack
-games-fps/eduke32:samples - Install samples
-games-fps/eduke32:sc55-musicpack - Include optional Roland SC-55 music pack
-games-fps/eduke32:server - Compile with server support
-games-fps/eduke32:textures - Include optional high-resolution textures (needs USE 'opengl')
-games-fps/eduke32:tools - Build several tools for modding and development
-games-fps/eduke32:vpx - Enable support for WebM VP8 Codecs (needs USE 'opengl')
+games-fps/eduke32:demo - Install the Duke Nukem 3D demo files, provided by games-fps/duke3d-demodata.
+games-fps/eduke32:fluidsynth - Install media-libs/sdl2-mixer with fluidsynth support.
+games-fps/eduke32:hrp - Install the Duke Nukem 3D High Resolution Pack.
+games-fps/eduke32:offensive - Install the Duke Nukem 3D XXX Pack.
+games-fps/eduke32:opl - Install the Duke Nukem 3D OPL music files.
+games-fps/eduke32:psx - Install the Duke Nukem 3D PSX high resolution voice files.
+games-fps/eduke32:sc-55 - Install the Duke Nukem 3D Roland SC-55 music files.
+games-fps/eduke32:sdk - Install the SDK files.
+games-fps/eduke32:server - Enable support for multiplayer.
+games-fps/eduke32:tools - Install the support tools for mapster32.
+games-fps/eduke32:vpx - Enable support for media-libs/libvpx.
+games-fps/eduke32:xmp - Enable support for media-libs/exempi.
 games-fps/lsdldoom:freedoom - Install games-fps/freedoom wad file
 games-fps/lsdldoom:net - Enables network game support
 games-fps/lsdldoom:shareware - Install games-fps/doom-data for shareware wad file
@@ -5023,7 +5025,6 @@ media-video/mpv:rubberband - Enable high quality pitch correction via media-libs
 media-video/mpv:sdl - Enable media-libs/libsdl2 based video and audio outputs (Note: these outputs exist for compatibility reasons only, avoid if possible)
 media-video/mpv:tools - Install extra tools: mpv_identify.sh, mpv_idet.sh, and umpv
 media-video/mpv:uchardet - Enable subtitles charset discovery via app-i18n/uchardet
-media-video/mpv:vf-dlopen - Install additional video filters to be used with -vf dlopen
 media-video/noad:libmpeg2 - Support for libmpeg2 library
 media-video/nvidia-settings:gtk3 - Additionally build the GTK 3 library
 media-video/nvidia_video_sdk:tools - Build and install example tools.
@@ -5306,14 +5307,19 @@ net-analyzer/pchar:pcap - Use the net-libs/libpcap library
 net-analyzer/pinger:gtk2 - Install the gtkpinger GUI utility based on x11-libs/gtk+:2
 net-analyzer/pinger:gtk3 - Install the gtkpinger GUI utility based on x11-libs/gtk+:3
 net-analyzer/pmacct:64bit - Use 64bit counters instead of 32bit ones
+net-analyzer/pmacct:bgp-bins - Link BGP daemon binaries
+net-analyzer/pmacct:bmp-bins - Link BMP daemon binaries
 net-analyzer/pmacct:geoipv2 - Enable support for GeoIP2 through dev-libs/libmaxminddb
 net-analyzer/pmacct:jansson - Enable support for JSON through dev-libs/jansson
 net-analyzer/pmacct:kafka - Enable support for Apache Kafka through dev-libs/librdkafka
+net-analyzer/pmacct:l2 - Enable Layer-2 features and support
 net-analyzer/pmacct:mongodb - Enable support for MongoDB through dev-libs/mongo-c-driver
 net-analyzer/pmacct:ndpi - Enable support for nDPI through net-libs/nDPI
 net-analyzer/pmacct:nflog - Enable support for NFLOG through uacctd
+net-analyzer/pmacct:plabel - Enable IP prefix labels
 net-analyzer/pmacct:rabbitmq - Enable support for RabbitMQ through net-libs/rabbitmq-c
-net-analyzer/pmacct:ulog - Enable support for ULOG in older kernels (deprecated)
+net-analyzer/pmacct:st-bins - Link Streaming Telemetry daemon binaries
+net-analyzer/pmacct:traffic-bins - Link IPv4/IPv6 traffic accounting binaries
 net-analyzer/pmacct:zmq - Enable support for ZeroMQ through net-libs/zeromq
 net-analyzer/pnp4nagios:icinga - Build against net-analyzer/icinga2 or net-analyzer/icinga instead of net-analyzer/nagios-core
 net-analyzer/pnp4nagios:nagios - Build against net-analyzer/nagios-core (the default)
@@ -7808,6 +7814,7 @@ sys-cluster/ceph:radosgw - Add radosgw support
 sys-cluster/ceph:system-boost - Use system dev-libs/boost instead of the bundled one
 sys-cluster/ceph:xfs - Add xfs support
 sys-cluster/ceph:zfs - Add zfs support
+sys-cluster/charliecloud:pv - Use sys-apps/pv to enable progress bar functionality
 sys-cluster/charm:ampi - Build implementation of MPI on top of Charm++
 sys-cluster/charm:charmdebug - Enable the charm debugger
 sys-cluster/charm:charmproduction - Optimize performance of Charm++ runtime
@@ -8680,7 +8687,6 @@ x11-misc/polybar:ipc - Add support for Inter-Process Messaging
 x11-misc/polybar:mpd - Add support for Music Player Daemon
 x11-misc/polybar:network - Enable network support
 x11-misc/qt5ct:dbus - Enable system tray and global menu support
-x11-misc/qt5ct:systray - Enable system tray support
 x11-misc/redshift:geoclue - Control dependency on app-misc/geoclue
 x11-misc/rofi:windowmode - Enable normal window mode
 x11-misc/rss-glx:quesoglc - Enable support for OpenGL Character Renderer
