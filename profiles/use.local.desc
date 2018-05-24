@@ -7493,7 +7493,7 @@ sec-policy/selinux-base:unconfined - Enable support for the unconfined SELinux m
 sec-policy/selinux-base-policy:unconfined - Enable support for the unconfined SELinux policy module
 sys-apps/accountsservice:elogind - Use sys-auth/elogind instead of sys-auth/consolekit for session tracking
 sys-apps/accountsservice:systemd - Use sys-apps/systemd instead of sys-auth/consolekit for session tracking
-sys-apps/baselayout:usrmerge - Activate the /usr merge when stages are built
+sys-apps/baselayout:split-usr - Enable this if /bin and /usr/bin are separate directories
 sys-apps/busybox:make-symlinks - Create all the appropriate symlinks in /bin and /sbin.
 sys-apps/busybox:math - Enable math support in gawk (requires libm)
 sys-apps/busybox:mdev - Create the appropriate symlink in /sbin and install mdev.conf and support files
@@ -8006,6 +8006,7 @@ sys-firmware/edk2-ovmf:binary - Use pre-built binaries
 sys-firmware/intel-microcode:initramfs - install a small initramfs for use with CONFIG_MICROCODE_EARLY
 sys-firmware/intel-microcode:monolithic - install the large text microcode.dat (used by older kernels via microcode_ctl)
 sys-firmware/intel-microcode:split-ucode - install the split binary ucode files (used by the kernel directly)
+sys-firmware/intel-microcode:vanilla - install only microcode updates from Intel's official microcode tarball
 sys-firmware/ipxe:binary - Use pre-built binaries
 sys-firmware/ipxe:efi - Build an EFI program for using PXE
 sys-firmware/ipxe:iso - Build a bootable ISO for using PXE
