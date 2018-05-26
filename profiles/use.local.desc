@@ -11,7 +11,6 @@ app-accessibility/brltty:pcm - support for sound card digital audio
 app-accessibility/brltty:speech - speech support
 app-accessibility/eflite:16k_voice - Use a higher-quality voice.
 app-accessibility/emacspeak:espeak - Adds support for the espeak tts engine
-app-accessibility/epos:voices - Adds additional voices
 app-accessibility/festival-it:mbrola - Adds support for mbrola voices
 app-accessibility/freetts:jsapi - build Java Speech API (JSAPI)
 app-accessibility/freetts:mbrola - Adds support for mbrola voices
@@ -4255,6 +4254,7 @@ media-libs/opencv:contrib_hdf - HDF module requires sci-libs/hdf5
 media-libs/opencv:contrib_sfm - SFM module requires eigen, gflags, and glog
 media-libs/opencv:contrib_xfeatures2d - Enables xfeatures2d and autodownload of samples in contrib
 media-libs/opencv:cuda - Enable NVIDIA Cuda computations support (Experimental!)
+media-libs/opencv:dnn_samples - Download dnn caffeemodel samples
 media-libs/opencv:eigen - Enable usage of dev-cpp/eigen for computations
 media-libs/opencv:gdal - Enable support for sci-libs/gdal library
 media-libs/opencv:gflags - Use Google's C++ argument parsing library
@@ -8793,6 +8793,7 @@ x11-themes/zuki-themes:mate - Install Metacity theme for mate-base/mate
 x11-themes/zuki-themes:xfce - Install theme for xfce-base/xfwm4
 x11-themes/zukitwo:gnome-shell - Install theme for gnome-base/gnome-shell
 x11-wm/echinus:xrandr - Enable support for multihead configuration
+x11-wm/enlightenment:egl - Enable EGL rendering
 x11-wm/enlightenment:enlightenment_modules_appmenu - Gadget that holds the menubar of the foreground application
 x11-wm/enlightenment:enlightenment_modules_backlight - Backlight control slider gadget
 x11-wm/enlightenment:enlightenment_modules_battery - A gadget to visualize your battery status
