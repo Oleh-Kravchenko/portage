@@ -226,6 +226,7 @@ DEPEND="${COMMON_DEPEND}
 	)
 	odk? ( >=app-doc/doxygen-1.8.4 )
 	test? (
+		app-crypt/gnupg
 		dev-util/cppunit
 		media-fonts/dejavu
 	)
@@ -244,11 +245,13 @@ PATCHES=(
 	# not upstreamable stuff
 	"${FILESDIR}/${PN}-5.4-system-pyuno.patch"
 	"${FILESDIR}/${PN}-5.3.4.2-kioclient5.patch"
+	"${FILESDIR}/${PN}-6.0.3.2-disable-flaky-tests.patch" #bug 656676
 	# 6.0 branch
 	"${FILESDIR}/${P}-poppler-0.64.patch"
 
 	# TODO: upstream
 	"${FILESDIR}/${PN}-5.2.5.1-glibc-2.24.patch"
+	"${FILESDIR}/${PN}-6.0.3.2-testTdf108947.patch" #bug 656600
 
 	# gtk3-kde5 vcl plugin backported from master
 	"${WORKDIR}"/${PATCHSET/.tar.xz/}

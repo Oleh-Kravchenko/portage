@@ -26,9 +26,5 @@ src_prepare() {
 
 src_configure() {
 	econf \
-		--datadir=/usr/share/commonbox
-}
-
-src_install() {
-	emake DESTDIR="${D}" install || die
+		--datadir="${EPREFIX}"/usr/share/commonbox
 }
