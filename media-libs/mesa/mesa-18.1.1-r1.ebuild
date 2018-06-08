@@ -3,7 +3,7 @@
 
 EAPI=6
 
-EGIT_REPO_URI="https://anongit.freedesktop.org/git/mesa/mesa.git"
+EGIT_REPO_URI="https://gitlab.freedesktop.org/mesa/mesa.git"
 
 if [[ ${PV} = 9999 ]]; then
 	GIT_ECLASS="git-r3"
@@ -399,13 +399,15 @@ multilib_src_configure() {
 }
 
 multilib_src_install() {
-	# These files are now provided by >=dev-libs/wayland-1.15.0
-	rm "${ED}/usr/$(get_libdir)/libwayland-egl.so" || die
-	rm "${ED}/usr/$(get_libdir)/libwayland-egl.so.1" || die
-	rm "${ED}/usr/$(get_libdir)/libwayland-egl.so.1.0.0" || die
-	rm "${ED}/usr/$(get_libdir)/pkgconfig/wayland-egl.pc" || die
-
 	emake install DESTDIR="${D}"
+
+	if use wayland; then
+		# These files are now provided by >=dev-libs/wayland-1.15.0
+		rm "${ED}/usr/$(get_libdir)/libwayland-egl.so" || die
+		rm "${ED}/usr/$(get_libdir)/libwayland-egl.so.1" || die
+		rm "${ED}/usr/$(get_libdir)/libwayland-egl.so.1.0.0" || die
+		rm "${ED}/usr/$(get_libdir)/pkgconfig/wayland-egl.pc" || die
+	fi
 
 	if use opencl; then
 		ebegin "Moving Gallium/Clover OpenCL implementation for dynamic switching"
