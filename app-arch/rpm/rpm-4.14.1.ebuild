@@ -14,7 +14,7 @@ SRC_URI="http://ftp.rpm.org/releases/rpm-$(ver_cut 1-2).x/${P}.tar.bz2"
 
 LICENSE="GPL-2 LGPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~alpha amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux"
 
 IUSE="acl caps doc lua nls python selinux test"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
@@ -108,6 +108,12 @@ src_install() {
 }
 
 src_test() {
+	# Known to fail with FEATURES=usersandbox (bug #657500):
+	if has usersandbox $FEATURES ; then
+		ewarn "You are emerging ${P} with 'usersandbox' enabled." \
+			"Expect some test failures or emerge with 'FEATURES=-usersandbox'!"
+	fi
+
 	emake check
 }
 
