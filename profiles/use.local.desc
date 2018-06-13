@@ -420,6 +420,7 @@ app-editors/neovim:jemalloc - Use dev-libs/jemalloc for allocations
 app-editors/neovim:nvimpager - Install nvimpager symlink to less.sh macro
 app-editors/neovim:remote - Enable support for remote options using nvr
 app-editors/neovim:tui - Build the neovim unix tui
+app-editors/okteta:designer - Build plugins for dev-qt/designer
 app-editors/pluma:gtk3 - Build with GTK+3 instead of GTK+2
 app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-editors/tea:aspell - Enable spellchecking using app-text/aspell
@@ -1288,6 +1289,11 @@ dev-ada/gnatcoll:projects - Adds support for projects
 dev-ada/gnatcoll:pygobject - Adds support for pygobject
 dev-ada/gnatcoll:shared - Build shared library
 dev-ada/gnatcoll:tools - Build associated tools
+dev-ada/gnatcoll-core:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
+dev-ada/gnatcoll-core:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
+dev-ada/gnatcoll-core:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
+dev-ada/gnatcoll-core:shared - Build shared library
+dev-ada/gnatcoll-core:static-pic - Build static library with pic code
 dev-ada/gnatmem:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/gnatmem:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/gprbuild:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
@@ -2938,7 +2944,7 @@ dev-util/intel-ocl-sdk:system-clang - Use system clang (sys-devel/clang) instead
 dev-util/intel-ocl-sdk:system-tbb - Use system Thread Building Blocks (dev-cpp/tbb) instead of bundled one
 dev-util/intel-ocl-sdk:tools - Install Intel Offline Compiler
 dev-util/kdevelop:gdbui - Enable GUI for attaching GDB to a running process
-dev-util/kdevelop:okteta - Enable hex editor plugin via kde-apps/okteta
+dev-util/kdevelop:hex - Enable hex editor plugin via app-editors/okteta
 dev-util/kdevelop:qmake - Enable support for QMake build system
 dev-util/kdevelop:reviewboard - Enable reviewboard support
 dev-util/kdevelop:webkit - Enable deprecated dev-qt/qtwebkit instead of dev-qt/qtwebengine for integrated documentation
@@ -3511,7 +3517,6 @@ kde-apps/marble:aprs - Enable support for APRS data sources
 kde-apps/marble:designer - Install plugin for dev-qt/designer
 kde-apps/marble:phonon - Enable sound support via media-libs/phonon
 kde-apps/marble:shapefile - Enable support for ESRI shapefiles
-kde-apps/okteta:designer - Build plugins for dev-qt/designer
 kde-apps/okular:chm - Enable support for Microsoft Compiled HTML Help files
 kde-apps/okular:epub - Enable E-Book support via app-text/ebook-tools
 kde-apps/okular:image-backend - Enable image viewing support
@@ -4824,7 +4829,6 @@ media-tv/xmltv:ee - Estonia tv listing grabber
 media-tv/xmltv:es_laguiatv - Spain alternative grabber
 media-tv/xmltv:es_miguiatv - Spain alternative grabber
 media-tv/xmltv:eu_dotmedia - Grabber for Europe (xmltv.se / dotmedia)
-media-tv/xmltv:eu_egon - Grabber for german speaking area (Egon zappt)
 media-tv/xmltv:eu_epg - EPG grabber for some European countries.
 media-tv/xmltv:fi - Finland tv listing grabber
 media-tv/xmltv:fi_sv - Grabber for Finland (Swedish)
@@ -4845,14 +4849,12 @@ media-tv/xmltv:no_gf - Norway Gfeed tv listing grabber
 media-tv/xmltv:pt - Portugal tv listing grabber
 media-tv/xmltv:pt_meo - Grabber for Portugal (MEO)
 media-tv/xmltv:re - Reunion Island (France) tv listing grabber
-media-tv/xmltv:sd_json - Grabber for schedulesDirect.org SD-JSON service (many countries)
 media-tv/xmltv:se_swedb - Sweden tv listing grabber
 media-tv/xmltv:se_tvzon - Sweden (tvzon.se) tv listing grabber
 media-tv/xmltv:tr - Turkey (Digiturk) tv listing grabber
 media-tv/xmltv:tv_check - enable GUI checking
 media-tv/xmltv:tv_combiner - enable grabbers combiner
 media-tv/xmltv:tv_pick_cgi - enable CGI support
-media-tv/xmltv:uk_atlas - Fast UK and Ireland tv listing grabber
 media-tv/xmltv:uk_bleb - Britain tv listing grabber
 media-tv/xmltv:uk_rt - Britain alternative tv listing grabber
 media-tv/xmltv:uk_tvguide - UK and Ireland tv listing grabber using TV Guide website
@@ -5951,6 +5953,8 @@ net-libs/gnutls:test-full - Enable full test mode
 net-libs/gnutls:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
 net-libs/gnutls:tools - Build extra tools
 net-libs/gnutls:valgrind - Enable usage of dev-util/valgrind in debug
+net-libs/grpc:systemtap - Enable SystemTAP/DTrace tracing
+net-libs/grpc:tools - Install gRPC python tools
 net-libs/iax:snomhack - Use slower memset for SNOM phoneem
 net-libs/ldns:dane - Enable DNS-based Authentication of Named Entities (DANE) support
 net-libs/ldns:ecdsa - Enable ECDSA support
@@ -8207,6 +8211,10 @@ sys-libs/gwenhywfar:qml - Enable support for plugins using QML
 sys-libs/gwenhywfar:sensors - Enable support for dev-qt/qtsensors module
 sys-libs/gwenhywfar:serialport - Enable support for dev-qt/qtserialport module
 sys-libs/gwenhywfar:webkit - Enable support for dev-qt/qtwebkit
+sys-libs/ldb:doc - Builds documentation
+sys-libs/ldb:ldap - Enable LDAP support
+sys-libs/ldb:lmdb - Enable LMDB backend
+sys-libs/ldb:python - Enable Python support
 sys-libs/libblockdev:bcache - Enable block device cache support.
 sys-libs/libblockdev:cryptsetup - Enable sys-fs/cryptsetup support
 sys-libs/libblockdev:dmraid - Support for dmraid devices, also known as ATA-RAID, or Fake RAID.
