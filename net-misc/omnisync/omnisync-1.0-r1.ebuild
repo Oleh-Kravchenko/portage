@@ -21,6 +21,7 @@ PATCHES=(
 	"${FILESDIR}"/omnisync-1.0-help.patch
 	"${FILESDIR}"/omnisync-1.0-maxshm.patch
 	"${FILESDIR}"/omnisync-1.0-statfile.patch
+	"${FILESDIR}"/omnisync-1.0-openssl11.patch
 )
 
 src_prepare() {
