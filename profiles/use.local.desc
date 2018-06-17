@@ -526,6 +526,7 @@ app-emulation/libvirt:wireshark-plugins - Build the net-analyzer/wireshark plugi
 app-emulation/libvirt:xen - Support management of Xen virtualisation (app-emulation/xen)
 app-emulation/libvirt:zfs - Enable ZFS backend storage sys-fs/zfs
 app-emulation/lxc:cgmanager - Enable support for cgroup management using app-admin/cgmanager
+app-emulation/lxc:templates - Install old style templates through app-emulation/lxc-templates
 app-emulation/lxd:daemon - Build the system daemon, not just the client tool
 app-emulation/lxd:dnsmasq - Depend on dnsmasq to provide DHCP and DNS.
 app-emulation/nemu:ovf - Adds support for OVA/OVF import
@@ -4154,8 +4155,14 @@ media-libs/grilo:playlist - Enable support for playlists through dev-libs/totem-
 media-libs/gst-plugins-bad:bzip2 - Enable bzip2 encoder/decoder plugin
 media-libs/gst-plugins-bad:egl - Enable EGL support
 media-libs/gst-plugins-bad:gles2 - Enable GLES2 support
+media-libs/gst-plugins-base:X - Enable ximagesink and xvimagesink plugins; build GLX platform support if USE=opengl is enabled; build x11 windowing system support if USE=egl is enabled
+media-libs/gst-plugins-base:egl - Enable EGL platform support
+media-libs/gst-plugins-base:gbm - Enable Graphics Buffer Manager based EGL windowing system support (requires egl and at least one of gles or opengl)
+media-libs/gst-plugins-base:gles2 - Enable OpenGL library and plugin via GLESv2 API (requires egl)
 media-libs/gst-plugins-base:ivorbis - Enable integer based vorbis decoder
+media-libs/gst-plugins-base:opengl - Enable OpenGL library and plugin via desktop OpenGL API
 media-libs/gst-plugins-base:pango - Enable pango GStreamer plugin
+media-libs/gst-plugins-base:wayland - Enable Wayland EGL windowing system support (requires egl and at least one of gles2 or opengl)
 media-libs/gstreamer:orc - Disable some PaX memory protections to allow plugins that use dev-lang/orc for runtime optimization to be used on hardened PaX systems
 media-libs/gstreamer:unwind - Enable sys-libs/libunwind usage for better backtrace support in leaks tracer module
 media-libs/harfbuzz:glib - Compile with GLib Unicode support
@@ -4408,12 +4415,16 @@ media-plugins/grilo-plugins:tracker - Build support for content discovery using 
 media-plugins/grilo-plugins:vimeo - Build support for Vimeo content discovery using net-libs/libsoup and dev-libs/libgcrypt
 media-plugins/grilo-plugins:youtube - Build support for YouTube content discovery using dev-libs/libgdata
 media-plugins/gst-plugins-gl:libvisual - Enable visualization effects via media-libs/libvisual
+media-plugins/gst-plugins-gtk:egl - Enable EGL platform usage
+media-plugins/gst-plugins-gtk:gles2 - Enable gtkglsink OpenGL sink based on GLESv2 API
+media-plugins/gst-plugins-gtk:opengl - Enable gtkglsink OpenGL sink based on desktop OpenGL API
 media-plugins/gst-plugins-meta:http - Enable http streaming via net-libs/libsoup
 media-plugins/gst-plugins-meta:libvisual - Enable visualization effects via media-libs/libvisual
 media-plugins/gst-plugins-meta:opus - Enable Opus audio codec support
 media-plugins/gst-plugins-meta:vpx - Enables vp8 codec support using libvpx, required to play some HTML5 videos
 media-plugins/gst-plugins-vaapi:drm - Enable DRM renderer
 media-plugins/gst-plugins-vaapi:egl - Enable EGL support
+media-plugins/gst-plugins-vaapi:gles2 - Enable GLESv2 and GLESv3 support
 media-plugins/hexter:gtk2 - Enable x11-libs/gtk+:2 based GUI
 media-plugins/imlib2_loaders:eet - Enable Eet image loader
 media-plugins/imlib2_loaders:xcf - Enable XCF image loader
@@ -7689,7 +7700,6 @@ sys-apps/roccat-tools:input_devices_roccat_suora - Enable support for Suora keyb
 sys-apps/s390-tools:fuse - build cmsfs-fuse to read files stored on a z/VM CMS disk
 sys-apps/s390-tools:ncurses - build hyptop monitoring program
 sys-apps/s390-tools:pfm - build the cpacfstats tool
-sys-apps/s390-tools:zfcpdump - build the kernel disk dumping utility
 sys-apps/s390-tools:zlib - build the zgetdump utility
 sys-apps/sed:forced-sandbox - Always enable --sandbox mode for simpler/secure runtime (disables e/r/w commands). Note: This may break many configure scripts, so it should be avoided on dev systems (and generally used on binpkg/final systems only).
 sys-apps/selinux-python:audit - Enable support for sys-process/audit and use the audit_* functions (like audit_getuid instead of getuid())
