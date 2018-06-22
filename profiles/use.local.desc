@@ -1295,6 +1295,11 @@ dev-ada/gnatcoll:projects - Adds support for projects
 dev-ada/gnatcoll:pygobject - Adds support for pygobject
 dev-ada/gnatcoll:shared - Build shared library
 dev-ada/gnatcoll:tools - Build associated tools
+dev-ada/gnatcoll-bindings:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
+dev-ada/gnatcoll-bindings:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
+dev-ada/gnatcoll-bindings:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
+dev-ada/gnatcoll-bindings:shared - Build shared library
+dev-ada/gnatcoll-bindings:static-pic - Build shared library
 dev-ada/gnatcoll-core:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/gnatcoll-core:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/gnatcoll-core:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
@@ -4681,6 +4686,7 @@ media-sound/pulseaudio:alsa-plugin - Request installing media-plugins/alsa-plugi
 media-sound/pulseaudio:asyncns - Use libasyncns for asynchronous name resolution.
 media-sound/pulseaudio:doc - Build the doxygen-described API documentation.
 media-sound/pulseaudio:equalizer - Enable the equalizer module (requires sci-libs/fftw).
+media-sound/pulseaudio:gconf - Ensure gnome-base/gconf is present for pulseaudio GConf to GSettings module automatic migration (keeping the user configuration)
 media-sound/pulseaudio:gdbm - Use sys-libs/gdbm to store PulseAudio databases. Recommended for desktop usage. This flag causes the whole package to be licensed under GPL-2 or later.
 media-sound/pulseaudio:glib - Add support to dev-libs/glib-based mainloop for the libpulse client library, to allow using libpulse on glib-based programs.
 media-sound/pulseaudio:gnome - Use GConf to store user preferences on streams and so on. Don't enable this flag if you want to use a system wide instance. If unsure, enable this flag.

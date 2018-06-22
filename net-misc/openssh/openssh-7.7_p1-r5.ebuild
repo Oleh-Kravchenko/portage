@@ -31,7 +31,7 @@ SRC_URI="mirror://openbsd/OpenSSH/portable/${PARCH}.tar.gz
 
 LICENSE="BSD GPL-2"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~arm64 ~hppa ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh sparc x86 ~ppc-aix ~x64-cygwin ~amd64-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="~alpha amd64 ~arm ~arm64 hppa ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh sparc x86 ~ppc-aix ~x64-cygwin ~amd64-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 # Probably want to drop ssl defaulting to on in a future version.
 IUSE="abi_mips_n32 audit bindist debug hpn kerberos kernel_linux ldap ldns libedit libressl livecd pam +pie sctp selinux skey +ssl static test X X509"
 REQUIRED_USE="ldns? ( ssl )
@@ -328,14 +328,22 @@ src_test() {
 	[[ ${#failed[@]}  -gt 0 ]] && die "Some tests failed: ${failed[*]}"
 }
 
-src_install() {
-	emake install-nokeys DESTDIR="${D}"
-	fperms 600 /etc/ssh/sshd_config
-	dobin contrib/ssh-copy-id
-	newinitd "${FILESDIR}"/sshd.rc6.5 sshd
-	newconfd "${FILESDIR}"/sshd-r1.confd sshd
+# Gentoo tweaks to default config files.
+tweak_ssh_configs() {
+	# First the server config.
+	cat <<-EOF >> "${ED%/}"/etc/ssh/sshd_config
 
-	newpamd "${FILESDIR}"/sshd.pam_include.2 sshd
+	# Allow client to pass locale environment variables #367017
+	AcceptEnv LANG LC_*
+	EOF
+
+	# Then the client config.
+	cat <<-EOF >> "${ED%/}"/etc/ssh/ssh_config
+
+	# Send locale environment variables #367017
+	SendEnv LANG LC_*
+	EOF
+
 	if use pam ; then
 		sed -i \
 			-e "/^#UsePAM /s:.*:UsePAM yes:" \
@@ -345,23 +353,23 @@ src_install() {
 			"${ED%/}"/etc/ssh/sshd_config || die
 	fi
 
-	# Gentoo tweaks to default config files
-	cat <<-EOF >> "${ED%/}"/etc/ssh/sshd_config
-
-	# Allow client to pass locale environment variables #367017
-	AcceptEnv LANG LC_*
-	EOF
-	cat <<-EOF >> "${ED%/}"/etc/ssh/ssh_config
-
-	# Send locale environment variables #367017
-	SendEnv LANG LC_*
-	EOF
-
 	if use livecd ; then
 		sed -i \
 			-e '/^#PermitRootLogin/c# Allow root login with password on livecds.\nPermitRootLogin Yes' \
 			"${ED%/}"/etc/ssh/sshd_config || die
 	fi
+}
+
+src_install() {
+	emake install-nokeys DESTDIR="${D}"
+	fperms 600 /etc/ssh/sshd_config
+	dobin contrib/ssh-copy-id
+	newinitd "${FILESDIR}"/sshd.rc6.5 sshd
+	newconfd "${FILESDIR}"/sshd-r1.confd sshd
+
+	newpamd "${FILESDIR}"/sshd.pam_include.2 sshd
+
+	tweak_ssh_configs
 
 	if use ldap && [[ -n ${LDAP_PATCH} ]] ; then
 		insinto /etc/openldap/schema/
