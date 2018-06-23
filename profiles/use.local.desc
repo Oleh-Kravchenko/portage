@@ -924,7 +924,47 @@ app-misc/gramps:reports - All external software that is needed for graphical rep
 app-misc/graphlcd-base:g15 - Add support for app-misc/g15daemon driver (e.g. Logitech G15 Keybord)
 app-misc/irtrans-irserver:mono - Enable mono support
 app-misc/jq:oniguruma - Use dev-libs/oniguruma for regular expression support
-app-misc/lcd4linux:mpd - Add support for display of mpd controlled music (media-libs/libmpd)
+app-misc/kryoflux-dtc:demos - Install example floppy game files.
+app-misc/kryoflux-dtc:fast-firmware - Install fast firmware instead of slow firmware.
+app-misc/kryoflux-dtc:gui - Install the Kryoflux GUI
+app-misc/lcd4linux:apm - Enable the APM plugin.
+app-misc/lcd4linux:asterisk - Enable the Asterisk plugin.
+app-misc/lcd4linux:button_exec - Enable the Button plugin, to execute something on keypress.
+app-misc/lcd4linux:cpuinfo - Enable the cpuinfo plugin.
+app-misc/lcd4linux:dbus - Enable the dbus plugin.
+app-misc/lcd4linux:diskstats - Enable the diskstats plugin.
+app-misc/lcd4linux:dmalloc - Enable dmalloc for debugging.
+app-misc/lcd4linux:dvb - Enable support for the DVB plugin.
+app-misc/lcd4linux:event - Enable the event plugin.
+app-misc/lcd4linux:exec - Enable the exec plugin, to read output from external programs.
+app-misc/lcd4linux:fifo - Enable the FIFO (First-In, First-Out) plugin.
+app-misc/lcd4linux:file - Enable the file plugin, to read from input from files.
+app-misc/lcd4linux:gps - Enable the gps plugin, for reading gps coordinates.
+app-misc/lcd4linux:hddtemp - Enable the hddtemp plugin, to read from the hddtemp daemon.
+app-misc/lcd4linux:huawei - Enable the huawei plugin, to read from a huawei device.
+app-misc/lcd4linux:i2c_sensors - Enable the i2c_sensors plugin, to read sensor data.
+app-misc/lcd4linux:iconv - Enable the iconv plugin, to convert between encodings.
+app-misc/lcd4linux:isdn - Enable the isdn plugin, to get information about ISDN.
+app-misc/lcd4linux:kvv - Enable the kvv plugin, to get realtime train schedule from the Karlsruher Verkehrsverbund.
+app-misc/lcd4linux:loadavg - Enable the loadavg plugin, to get stats load
+app-misc/lcd4linux:meminfo - Enable the meminfo plugin, to get memory statistics.
+app-misc/lcd4linux:mpd - Enable the mpd plugin, to read from the Music Player Daemon.
+app-misc/lcd4linux:mpris_dbus - Enable the mpris plugin, to read data via dbus for mpris.
+app-misc/lcd4linux:mysql - Enable the mysql plugin, to get mysql database information.
+app-misc/lcd4linux:netdev - Enable the netdev plugin, to get interface statistics.
+app-misc/lcd4linux:netinfo - Enable the netinfo plugin, to get more interface statistic.
+app-misc/lcd4linux:outb - Enable raw i/o access.
+app-misc/lcd4linux:pop3 - Enable the pop3 plugin, to get notified about new mails.
+app-misc/lcd4linux:proc_stat - Enable the proc_stat plugin, to read data from the proc file system.
+app-misc/lcd4linux:python - Enable support for dev-lang/python and enable the python plugin, to execute own python scripts.
+app-misc/lcd4linux:qnaplog - Enable the qnaplog plugin, to read a log from a QNAP device.
+app-misc/lcd4linux:raspi - Enable the raspi plugin, to read sensor data from a Raspberry Pi.
+app-misc/lcd4linux:sample - Enable the sample plugin.
+app-misc/lcd4linux:statfs - Enable the statfs plugin, to get statistics about the file system.
+app-misc/lcd4linux:uname - Enable the uname plugin, to get the output of uname.
+app-misc/lcd4linux:uptime - Enable the uptime plugin.
+app-misc/lcd4linux:w1retap - Enable the w1retap plugin.
+app-misc/lcd4linux:wireless - Enable the wireless plugin, to get wireless statistics.
 app-misc/lcdproc:ftdi - Enable support for FTDI connections in some selected LCD_DEVICES (currently hd44780)
 app-misc/lcdproc:hid - Enable HID support using libhid
 app-misc/lcdproc:irman - Enable support for IRMan (media-libs/libirman)
@@ -5905,7 +5945,7 @@ net-irc/psybnc:multinetwork - Adds support for multiple networks
 net-irc/psybnc:oidentd - Adds support for oidentd
 net-irc/psybnc:scripting - Adds scripting support
 net-irc/quassel:X - Build the Qt5 GUI client for quassel. If this USE flag is disabled, the GUI is not built, and cannot be used. You might want to disable this on the server, but you need it enabled on the client.
-net-irc/quassel:breeze - Support the Breeze and Breeze-Dark icon sets (default for Plasma 5).
+net-irc/quassel:bundled-icons - Use icon themes bundled with Quassel, rather than depending on system packages.
 net-irc/quassel:crypt - Support core->network per-channel and per-query blowfish encryption via app-crypt/qca SLOT 2.
 net-irc/quassel:dbus - Support desktop notifications via the StatusNotifier D-Bus service (used by most modern desktop environments).
 net-irc/quassel:monolithic - Build standalone client with integrated core, no external quasselcore needed. Only useful if you don't want to use Quassel's client/server model. The server and X flags are not needed in this case but it is possible to enable them too.
@@ -8249,6 +8289,7 @@ sys-libs/libblockdev:dmraid - Support for dmraid devices, also known as ATA-RAID
 sys-libs/libblockdev:escrow - Support for building crypto plugin with escrow device support
 sys-libs/libblockdev:kbd - Enable kernel block device support.
 sys-libs/libblockdev:lvm - Enable support for Logical Volume Management via sys-fs/lvm2.
+sys-libs/libblockdev:vdo - Enable Virtual Data Optimizer support.
 sys-libs/libcxx:libcxxabi - Build on top of sys-libs/libcxxabi instead of gcc's libsupc++ (avoids depending on gcc).
 sys-libs/libcxx:libcxxrt - Build on top of sys-libs/libcxxrt instead of gcc's libsupc++ (avoids depending on gcc).
 sys-libs/libcxx:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependence on gcc.
@@ -8922,9 +8963,7 @@ x11-wm/enlightenment:enlightenment_modules_wl-wl - Wayland-in-Wayland module
 x11-wm/enlightenment:enlightenment_modules_wl-x11 - Wayland-in-X11 module
 x11-wm/enlightenment:enlightenment_modules_xkbswitch - Keyboard layout configuration and switcher
 x11-wm/enlightenment:enlightenment_modules_xwayland - X/Wayland integration
-x11-wm/enlightenment:pango - Enable pango font rendering
 x11-wm/enlightenment:ukit - Use upower/udisks to automount devices
-x11-wm/enlightenment:xrandr - Enable support for the X xrandr extension
 x11-wm/fluxbox:bidi - Enable bidirectional language support with dev-libs/fribidi
 x11-wm/fluxbox:slit - Enables the Fluxbox slit (or dock)
 x11-wm/fluxbox:systray - Enables the system tray in the Fluxbox toolbar
