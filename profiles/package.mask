@@ -40,6 +40,7 @@
 
 # Mike Auty <ikelos@gentoo.org> (22 Jun 2018)
 # Not maintained upstream, at least one bug and three upstream bugs
+# Alternatives include gitg and git-cola.
 # Removal in 30 days. Bug #658264
 dev-vcs/giggle
 
@@ -334,11 +335,6 @@ app-crypt/openpgp-keys-gentoo-mirror
 # Upstream is dead.
 # Masked for removal in 30 days. Bug #646118
 net-misc/urlview
-
-# Andreas Sturmlechner <asturm@gentoo.org> (27 May 2018)
-# Depends on dead Qt4. No more revdeps. Masked for removal in 30 days.
-dev-util/automoc
-media-libs/phonon-qt7
 
 # Kent Fredric <kentnl@gentoo.org> (27 May 2018)
 # Subject to Man-in-the-middle security bypass vulnerability.
