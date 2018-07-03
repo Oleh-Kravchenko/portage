@@ -1327,6 +1327,7 @@ dev-ada/aunit:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/aunit:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
 dev-ada/aws:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/aws:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
+dev-ada/aws:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
 dev-ada/gnat_util:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/gnat_util:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/gnat_util:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
@@ -1365,6 +1366,7 @@ dev-ada/gprbuild:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/gprbuild:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
 dev-ada/gtkada:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/gtkada:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
+dev-ada/gtkada:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
 dev-ada/gtkada:shared - Build gtkada as shared library
 dev-ada/libadalang:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/libadalang:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
@@ -3314,7 +3316,6 @@ games-fps/yamagi-quake2:client - Build client
 games-fps/yamagi-quake2:ctf - Build support for the 'Capture The Flag' addon
 games-fps/yamagi-quake2:rogue - Build support for the 'Ground Zero' Mission Pack
 games-fps/yamagi-quake2:xatrix - Build support for the 'The Reckoning' Mission Pack
-games-kids/crayon-physics:bundled-libs - Use the upstream provided bundled libraries.
 games-misc/katawa-shoujo:system-renpy - Use games-engines/renpy instead of the bundled one (experimental)
 games-misc/little-inferno:bundled-libs - Use bundled libraries.
 games-misc/ponysay:fish-completion - Enable fish completion support
