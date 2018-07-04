@@ -14,9 +14,9 @@ if [[ ${PV} = *9999* ]]; then
 else
 	# Versions with 4 numbers are stable updates:
 	if [[ ${PV} =~ ^[0-9]+(\.[0-9]+){3} ]]; then
-		SRC_URI="http://libvirt.org/sources/stable_updates/${P}.tar.xz"
+		SRC_URI="https://libvirt.org/sources/stable_updates/${P}.tar.xz"
 	else
-		SRC_URI="http://libvirt.org/sources/${P}.tar.xz"
+		SRC_URI="https://libvirt.org/sources/${P}.tar.xz"
 	fi
 	KEYWORDS="~amd64 ~arm64 ~x86"
 	SLOT="0/${PV}"
@@ -105,7 +105,7 @@ RDEPEND="
 	wireshark-plugins? ( net-analyzer/wireshark:= )
 	xen? (
 		app-emulation/xen
-		app-emulation/xen-tools:=[api,hvm]
+		app-emulation/xen-tools:=
 	)
 	udev? (
 		virtual/udev
@@ -272,7 +272,6 @@ src_configure() {
 		$(use_with vepa virtualport)
 		$(use_with virt-network network)
 		$(use_with wireshark-plugins wireshark-dissector)
-		$(use_with xen xenapi)
 		$(use_with xen libxl)
 		$(use_with zeroconf avahi)
 		$(use_with zfs storage-zfs)
@@ -280,6 +279,7 @@ src_configure() {
 		--without-hal
 		--without-netcf
 		--without-sanlock
+		--without-xenapi
 
 		--with-esx
 		--with-init-script=systemd
