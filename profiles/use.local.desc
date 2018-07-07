@@ -5722,6 +5722,7 @@ net-fs/cvmfs:aufs - Use AUFS instead of OverlayFS for the server
 net-fs/cvmfs:preload - Install the cvmfs cache preloader for distributed file systems
 net-fs/cvmfs:server - Install the cvmfsd program and init script
 net-fs/cvmfs:test-programs - Install unit test programs
+net-fs/libnfs:utils - Build/install nfs-{cat,ls,cp} utils
 net-fs/netatalk:pgp - Add support pgp authentication module
 net-fs/netatalk:quota - Add support for user quota on various filesystems
 net-fs/netatalk:shadow - Add shadow support
@@ -7795,6 +7796,7 @@ sys-apps/proot:care - Build dynamic CARE binary (more info - http://reproducible
 sys-apps/qingy:consolekit - Enable native consolekit support
 sys-apps/qingy:opensslcrypt - Encrypt communications between qingy and its GUI using dev-libs/openssl
 sys-apps/razercfg:pm-utils - Installs the pm-utils hooks for suspend/resume and requires sys-power/pm-utils
+sys-apps/rng-tools:jitterentropy - Enable Jitter RNG entropy support
 sys-apps/rng-tools:nistbeacon - Enable NIST beacon entropy support
 sys-apps/roccat-tools:input_devices_roccat_ryosmkfx - Enable support for Ryos Mk FX keyboard.
 sys-apps/roccat-tools:input_devices_roccat_skeltr - Enable support for Skeltr keyboard.
