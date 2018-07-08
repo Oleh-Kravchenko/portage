@@ -214,7 +214,6 @@ app-arch/engrampa:packagekit - Enable support for installing via app-admin/packa
 app-arch/file-roller:nautilus - Build contextual menu extension for gnome-base/nautilus.
 app-arch/file-roller:packagekit - Enable support for the distro-neutral package manager GUI app-admin/packagekit
 app-arch/gzip:pic - disable optimized assembly code that is not PIC friendly
-app-arch/innoextract:c++0x - Compile innoextract using the C++11 standard
 app-arch/innoextract:debug - Enable debug logging and the --debug command-line option
 app-arch/innoextract:lzma - Enable support for extracting lzma-compressed installers using app-arch/xz-utils
 app-arch/libarchive:bzip2 - Allow accessing bzip2-compressed archives through libbz2 (which comes with app-arch/bzip2). This only affects libarchive's native support: bsdtar will keep using bunzip2 as a filter if that's not built-in.
@@ -236,6 +235,7 @@ app-arch/wimlib:openssl - Use the SHA-1 message digest from libcrypto instead of
 app-arch/wimlib:yasm - Use yasm assembler instead of nasm
 app-arch/xz-utils:extra-filters - Build additional filters that are not used in any of the default xz presets. This includes delta and BCJ coders, additional match finders and SHA256 checks.
 app-arch/zip:natspec - Use dev-libs/libnatspec to correctly decode non-ascii file names archived in Windows.
+app-arch/zstd:lz4 - Enable support for LZ4 compression using app-arch/lz4
 app-backup/amanda:ndmp - Support for the NDMP protocol
 app-backup/amanda:s3 - Support for backing up to the Amazon S3 system
 app-backup/amanda:xfs - Support for backing up raw XFS filesystems using xfsdump
