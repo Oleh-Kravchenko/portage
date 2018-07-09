@@ -1379,6 +1379,10 @@ dev-ada/gtkada:shared - Build gtkada as shared library
 dev-ada/libadalang:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/libadalang:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/libadalang:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
+dev-ada/libadalang:shared - Build shared library
+dev-ada/libadalang-tools:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
+dev-ada/libadalang-tools:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
+dev-ada/libadalang-tools:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
 dev-ada/libgpr:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/libgpr:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/libgpr:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
@@ -2954,6 +2958,8 @@ dev-util/cppcheck:htmlreport - install cppcheck-htmlreport
 dev-util/ctags:json - Enable JSON output support
 dev-util/ctags:xml - Enable XML parsing support
 dev-util/ctags:yaml - Enable YAML parsing support
+dev-util/cutter:jupyter - Add support for jupyter notebook
+dev-util/cutter:webengine - Use dev-qt/qtwebengine for in-app jupyter browser
 dev-util/cwdiff:a2ps - install app-text/a2ps for postscript output
 dev-util/cwdiff:mercurial - install hg wdiff alias for dev-vcs/mercurial
 dev-util/devhelp:gedit - Install plugin for app-editors/gedit
@@ -4757,10 +4763,6 @@ media-sound/pragha:peas - Enable various plugins that will pull in dev-libs/libp
 media-sound/pragha:playlist - Enable enhanced playlist support using dev-libs/totem-pl-parser
 media-sound/pragha:rygel - Share music on DLNA using net-misc/rygel
 media-sound/pragha:soup - Search metadata on AcoustID and radios on TuneIn using net-libs/libsoup
-media-sound/puddletag:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
-media-sound/puddletag:cover - Enables editing of FLAC cover art
-media-sound/puddletag:musicbrainz - Enables support for musicbrainz, needs dev-python/python-musicbrainz
-media-sound/puddletag:quodlibet - Enables support for editing media-sound/quodlibet databases
 media-sound/pulseaudio:X - Build the X11 publish module to export PulseAudio information through X11 protocol for clients to make use. Don't enable this flag if you want to use a system wide instance. If unsure, enable this flag.
 media-sound/pulseaudio:alsa-plugin - Request installing media-plugins/alsa-plugins with PulseAudio plugin enabled. This ensures that clients supporting ALSA only will use PulseAudio.
 media-sound/pulseaudio:asyncns - Use libasyncns for asynchronous name resolution.
