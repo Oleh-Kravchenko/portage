@@ -2050,6 +2050,7 @@ dev-lang/rust:extended - Build and install rls, rustfmt and cargo alongside the 
 dev-lang/rust:jemalloc - Use dev-libs/jemalloc as the standard memory allocator
 dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-lang/rust-bin:cargo - Install cargo component
+dev-lang/rust-bin:rustfmt - Install rustfmt component
 dev-lang/scala:binary - Install from (Gentoo-compiled) binary instead of building from sources. Set this when you run out of memory during build.
 dev-lang/smlnj:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
@@ -3084,6 +3085,8 @@ dev-util/sysdig:modules - Build kernel modules needed for tracing local events. 
 dev-util/sysprof:systemd - Build the sysprofd daemon service, required to run the UI without root permissions. Relies on sys-apps/systemd running as the init system.
 dev-util/systemtap:libvirt - Support probing of libvirt domains.
 dev-util/trace-cmd:udis86 - Enable support for dev-libs/udis86 disassembler library
+dev-util/vulkan-tools:cube - Build the cube/cubepp demos
+dev-util/vulkan-tools:vulkaninfo - Build the vulkaninfo utility
 dev-vcs/bzr:sftp - Enable sftp support
 dev-vcs/cssc:valgrind - Enable usage of dev-util/valgrind in tests
 dev-vcs/cvs:server - Enable server support
@@ -3597,7 +3600,6 @@ kde-apps/kopete:translator - Translate incoming and outgoing messages.
 kde-apps/kopete:urlpicpreview - Enables in conversation pictures preview.
 kde-apps/kopete:webpresence - Show your status and some more information on web.
 kde-apps/kopete:winpopup - Enable pop-up messages sending on windows. (same as good old "net send" messages ;])
-kde-apps/kopete:yahoo - Enable yahoo protocol support.
 kde-apps/kopete:zeroconf - Enable Link-Local Messaging via the bonjour protocol.
 kde-apps/kpimtextedit:designer - Build plugins for dev-qt/designer
 kde-apps/kpimtextedit:speech - Enable text-to-speech support
@@ -4785,6 +4787,10 @@ media-sound/pulseaudio:ssl - Use dev-libs/openssl to provide support for RAOP (A
 media-sound/pulseaudio:system-wide - Allow preparation and installation of the system-wide init script for PulseAudio. Since this support is only supported for embedded situations, do not enable without reading the upstream instructions at https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide/ .
 media-sound/pulseaudio:systemd - Build with sys-apps/systemd support to replace standalone ConsoleKit.
 media-sound/pulseaudio:webrtc-aec - Uses the webrtc.org AudioProcessing library for enhancing VoIP calls greatly in applications that support it by performing acoustic echo cancellation, analog gain control, noise suppression and other processing.
+media-sound/pulseeffects:bs2b - Enable use of media-libs/libbs2b
+media-sound/pulseeffects:calf - Enable use of media-plugins/calf for adding various FX
+media-sound/pulseeffects:mda-lv2 - Enable use of media-plugins/mda-lv2 for the loudness FX
+media-sound/pulseeffects:rubberband - Enable usse of media-libs/rubberband for the pitch shifting FX
 media-sound/qmidiarp:lv2 - Enables Ladspa V2 plugins.
 media-sound/qmmp:analyzer - Enable visual analyzer
 media-sound/qmmp:archive - Enable archiving plugin via app-arch/libarchive.
@@ -5149,7 +5155,7 @@ media-video/mpv:sdl - Enable media-libs/libsdl2 based video and audio outputs (N
 media-video/mpv:tools - Install extra tools: mpv_identify.sh, mpv_idet.sh, and umpv
 media-video/mpv:uchardet - Enable subtitles charset discovery via app-i18n/uchardet
 media-video/mpv:vulkan - Enable support for various Vulkan-based video backends
-media-video/noad:libmpeg2 - Support for libmpeg2 library
+media-video/noad:libmpeg2 - Build support for mpeg2 over media-libs/libmpeg2 rather than using ffmpeg
 media-video/nvidia-settings:gtk3 - Additionally build the GTK 3 library
 media-video/nvidia_video_sdk:tools - Build and install example tools.
 media-video/obs-studio:fdk - Enable libfdk support for AAC encoding.
@@ -7716,6 +7722,7 @@ sys-apps/fwupd:dell - Enable Dell-specific support.
 sys-apps/fwupd:gpg - Enable GPG support.
 sys-apps/fwupd:man - Build and install man pages
 sys-apps/fwupd:pkcs7 - Enable PKCS7 verification support via net-libs/gnutls.
+sys-apps/fwupd:redfish - Install redfish plugin
 sys-apps/fwupd:uefi - Enable UEFI support
 sys-apps/fwupd:uefi_labels - Enable UEFI labels support
 sys-apps/gawk:forced-sandbox - Always enable --sandbox mode for simpler/secure runtime (disables e/r/w commands)
