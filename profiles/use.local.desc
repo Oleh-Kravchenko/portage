@@ -2046,8 +2046,11 @@ dev-lang/ruby:jemalloc - Use dev-libs/jemalloc for memory allocation.
 dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
 dev-lang/ruby:readline - Use the sys-libs/readline library to provide the readline extension, used for instance by the irb tool. This flag is meaningful only if the libedit USE flag is disabled. If neither libedit nor readline USE flags are enabled, the readline extension will not be built (and irb will lose line editing functionality).
 dev-lang/ruby:rubytests - Install ruby tests that can only be run after ruby is installed
+dev-lang/rust:cargo - Install cargo component
 dev-lang/rust:extended - Build and install rls, rustfmt and cargo alongside the compiler and stdlib
 dev-lang/rust:jemalloc - Use dev-libs/jemalloc as the standard memory allocator
+dev-lang/rust:rls - Install rls component
+dev-lang/rust:rustfmt - Install rustfmt component
 dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-lang/rust-bin:cargo - Install cargo component
 dev-lang/rust-bin:rustfmt - Install rustfmt component
@@ -3231,6 +3234,7 @@ games-emulation/dolphin:lto - Add support for link-time optimizations.
 games-emulation/dosbox:glide - Enable unofficial Glide emulation via media-libs/openglide
 games-emulation/fceux:logo - Enable the ability to add a logo screen when creating AVIs
 games-emulation/generator:sdlaudio - Enable SDL Audio
+games-emulation/hatari:sdl2 - Use libsdl2 instead of libsdl
 games-emulation/higan:icarus - Build icarus library manager
 games-emulation/higan:udev - Enable udev based input
 games-emulation/m64py:7z - Ensure support for .7z archives.
@@ -5160,7 +5164,10 @@ media-video/nvidia-settings:gtk3 - Additionally build the GTK 3 library
 media-video/nvidia_video_sdk:tools - Build and install example tools.
 media-video/obs-studio:fdk - Enable libfdk support for AAC encoding.
 media-video/obs-studio:imagemagick - Use ImageMagick for image loading instead of FFmpeg.
-media-video/obs-studio:nvenc - Enable NVENC encoding for nVidia video cards
+media-video/obs-studio:luajit - Build support for scripting via Luajit.
+media-video/obs-studio:nvenc - Enable NVENC encoding for nVidia video cards.
+media-video/obs-studio:python - Build support for scripting via Python 3.
+media-video/obs-studio:speexdsp - Enable noise suppression filter support via media-libs/speexdsp.
 media-video/ogmrip:ogm - Support for OGM container format
 media-video/ogmrip:srt - Support for SRT subtitle format
 media-video/orion:mpv - Use the media-video/mpv player (upstream default) instead of the dev-qt/qtmultimedia one
@@ -5768,6 +5775,7 @@ net-fs/samba:cluster - Enable support for clustering
 net-fs/samba:dmapi - Enable support for DMAPI. This currently works only in combination with XFS.
 net-fs/samba:gpg - Use app-crypt/gpgme for AD DC
 net-fs/samba:iprint - Enabling iPrint technology by Novell
+net-fs/samba:json - Enable json audit support through dev-libs/jansson
 net-fs/samba:quota - Enables support for user quotas
 net-fs/samba:system-heimdal - Use app-crypt/heimdal instead of bundled heimdal.
 net-fs/samba:system-mitkrb5 - Use app-crypt/mit-krb5 instead of app-crypt/heimdal.
@@ -7335,6 +7343,7 @@ sci-libs/coinor-utils:glpk - Enable GNU Linear Programming Kit sci-mathematics/g
 sci-libs/dlib:cblas - Build with CBLAS virtual/cblas
 sci-libs/dlib:cuda - Enable support for CUDA for Deep Neural Networks (cuDNN) on GPU (experimental)
 sci-libs/dlib:mkl - Enable support for Intel FFT sci-libs/mkl
+sci-libs/dlib:python - Enable support for Python API bindings
 sci-libs/dmlc-core:s3 - Support for the Amazon Simple Storage Service
 sci-libs/fftw:float - Link default library to single precision instead of double (symlinks only and fftw-2.1)
 sci-libs/fftw:quad - Build quadruple precision lib
@@ -8520,6 +8529,7 @@ www-apps/drupal:uploadprogress - Install dev-php/pecl-uploadprogress package
 www-apps/gitit:network-uri - Get Network.URI from the network-uri package.
 www-apps/gitit:plugins - enables optional plugin runtime loader
 www-apps/guacamole:noauth - enable support for leaving out any authentication on the webinterface
+www-apps/hugo:sass - Enable SASS/SCSS support
 www-apps/icingaweb2:nginx - Adds support for nginx
 www-apps/ikiwiki:extras - Installs additional modules used by ikiwiki plugins
 www-apps/klaus:ctags - Enable support for Exuberant ctags; makes all source code symbols hyperlinks to their definitions
@@ -8533,6 +8543,21 @@ www-apps/nikola:watchdog - Use dev-python/watchdog to monitor file system events
 www-apps/nikola:webmedia - Use dev-python/micawber to extract metadata from web media links
 www-apps/nikola:websocket - Add websocket support thru dev-python/ws4py
 www-apps/otrs:mod_perl - Provide all dependencies for use of mod_perl instead of cgi
+www-apps/phpsysinfo:apcupsd - Install sys-power/apcupsd to display those stats.
+www-apps/phpsysinfo:dmraid - Install sys-fs/dmraid to display those stats.
+www-apps/phpsysinfo:freeipmi - Install sys-libs/freeipmi to display those stats.
+www-apps/phpsysinfo:hddtemp - Install app-admin/hddtemp to display those stats.
+www-apps/phpsysinfo:ipmitool - Install sys-apps/ipmitool to display those stats.
+www-apps/phpsysinfo:ipmiutil - Install sys-apps/ipmiutil to display those stats.
+www-apps/phpsysinfo:iptables - Install net-firewall/iptables to display those stats.
+www-apps/phpsysinfo:lm_sensors - Install sys-apps/lm_sensors to display those stats.
+www-apps/phpsysinfo:mdadm - Install sys-fs/mdadm to display those stats.
+www-apps/phpsysinfo:megactl - Install sys-block/megactl to display those stats.
+www-apps/phpsysinfo:nut - Install sys-power/nut to display those stats.
+www-apps/phpsysinfo:quota - Install sys-fs/quota to display those stats.
+www-apps/phpsysinfo:smart - Install sys-apps/smartmontools to display those stats.
+www-apps/phpsysinfo:snmp - Install net-analyzer/net-snmp to display those stats.
+www-apps/phpsysinfo:uptime - Install app-misc/uptimed to display those stats.
 www-apps/postfixadmin:vacation - Install vacation.pl script and dependencies
 www-apps/radicale:bcrypt - Depend on passlib to enable bcrypt and md5 authentication methods
 www-apps/redmine:markdown - Enable support for Markdown
