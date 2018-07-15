@@ -1106,7 +1106,6 @@ app-office/kraft:pim - Enable support for KDE PIM resources integration
 app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
 app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
 app-office/libreoffice:gtk2 - Enable legacy gtk2 frontend
-app-office/libreoffice:gtk3 - Enable experimental gtk3 frontend
 app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
 app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
@@ -2062,6 +2061,7 @@ dev-lang/spidermonkey:system-icu - Use the system-wide dev-libs/icu instead of b
 dev-lang/spidermonkey:threadsafe - Build a threadsafe version of spidermonkey
 dev-lang/swi-prolog:archive - Use libarchive for extension packs
 dev-lang/swi-prolog:uuid - Use ossp-uuid for UUID pack
+dev-lang/swi-prolog:yaml - Use libyaml for YAML pack
 dev-lang/swig:ccache - build ccache-swig(a fast compiler cache)
 dev-lang/yap:R - Enable support for connecting R to Prolog
 dev-libs/DirectFB:bmp - build BMP image provider
