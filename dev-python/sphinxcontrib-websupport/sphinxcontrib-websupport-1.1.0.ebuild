@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python2_7 python3_{4,5,6} pypy{,3} )
+PYTHON_COMPAT=( python2_7 python3_{4,5,6,7} pypy{,3} )
 
 inherit distutils-r1
 
@@ -37,6 +37,11 @@ python_install_all() {
 	find "${ED}" -name '*.pth' -delete || die
 }
 
+src_test() {
+	cd tests || die
+	distutils-r1_src_test
+}
+
 python_test() {
-	pytest -vv tests || die "Tests fail with ${EPYTHON}"
+	pytest -vv || die "Tests fail with ${EPYTHON}"
 }
