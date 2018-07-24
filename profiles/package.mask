@@ -29,6 +29,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Virgil Dupras <vdupras@gentoo.org> (22 Jul 2018)
+# Depends on an unsupported version of django (1.8, will be removed soon) and
+# is rendered obsolete by the direct inclusion of django support in
+# >=dev-python/celery-4.0. Removal in 30 days. Bug #661804
+dev-python/django-celery
+
 # Mart Raudsepp <leio@gentoo.org> (16 Jul 2018)
 # Obsolete early GNOME 2 era print libraries. Applications
 # use printing support found directly in x11-libs/gtk+ now.
@@ -201,12 +207,6 @@ app-i18n/qimhangul
 # Doesn't pass QA full boot test
 =sys-kernel/ck-sources-4.16.17
 
-# Mike Auty <ikelos@gentoo.org> (22 Jun 2018)
-# Not maintained upstream, at least one bug and three upstream bugs
-# Alternatives include gitg and git-cola.
-# Removal in 30 days. Bug #658264
-dev-vcs/giggle
-
 # Matt Turner <mattst88@gentoo.org> (20 Jun 2018)
 # No reverse deps after removal of app-i18n/fbiterm
 # Removal in 30 days. Bug #658528
@@ -315,28 +315,8 @@ app-misc/wyrd
 app-doc/mkdoxy
 
 # Pacho Ramos <pacho@gentoo.org> (17 Jun 2018)
-# Not compatible with recent PHP, upstream dead for ages (#650870, #650934)
-#, removal in a month.
-www-apps/gnopaste
-www-apps/openwebstats
-
-# Pacho Ramos <pacho@gentoo.org> (17 Jun 2018)
-# Upstream dead, security vulnerable (#650936). Removal in a month.
-www-apps/phprojekt
-
-# Pacho Ramos <pacho@gentoo.org> (17 Jun 2018)
 # Doesn't run, cannot bump it (#651146). Removal in a month.
 games-emulation/hatari
-
-# Pacho Ramos <pacho@gentoo.org> (17 Jun 2018)
-# Doesn't work even with current PHP versions, upstream dead (#651148),
-# removal in a month.
-www-apps/mypictures
-
-# Pacho Ramos <pacho@gentoo.org> (17 Jun 2018)
-# Doesn't work with PHP7, dead upstream (#651184, #651194), removal in a month.
-www-apps/phpmp
-www-apps/polarblog
 
 # Pacho Ramos <pacho@gentoo.org> (17 Jun 2018)
 # Multiple bugs (#424383, #554944), upstream dead (#651340). Removal in a
@@ -695,17 +675,6 @@ app-xemacs/xemacs-packages-all
 # See: https://github.com/perl5-dbi/DBD-mysql/issues/117
 =dev-perl/DBD-mysql-4.42.0
 
-# Ian Stakenvicius <axs@gentoo.org> (19 Jul 2017)
-# Mask spidermonkey:52 as it is a self-rolled release, no official
-# release has been rolled.  Is only committed to support development
-# versions of gjs.  Will unmask when gnome-3.26 is ready for testing
-# or when upstream releases an official tarball.
-dev-lang/spidermonkey:52
-# Lars Wendler <polynomial-c@gentoo.org> (09 May 2018)
-# Depends on masked spidermonkey:52.
-# Please remove both masks together.
->=sys-auth/polkit-0.114
-
 # Nicolas Bock <nicolasbock@gentoo.org> (17 Jul 2017)
 # Keep shotwell development series masked.
 >=media-gfx/shotwell-0.29
@@ -767,8 +736,8 @@ net-wireless/cpyrit-cuda
 # Bernard Cafarelli <voyageur@gentoo.org> (8 May 2017)
 # Coordinated conversion to wxGTK:3.0-gtk3
 # Drop mask after migration of existing wxGTK:3.0 users
-=net-ftp/filezilla-3.33.0-r300
 =net-ftp/filezilla-3.34.0-r300
+=net-ftp/filezilla-3.35.1-r300
 =dev-util/codeblocks-17.12-r300
 =dev-util/codeblocks-17.12-r301
 
