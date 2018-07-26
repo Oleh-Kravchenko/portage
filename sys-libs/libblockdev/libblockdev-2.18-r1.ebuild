@@ -10,8 +10,8 @@ MY_PV="${PV}-1"
 MY_P="${PN}-${MY_PV}"
 
 DESCRIPTION="A library for manipulating block devices"
-HOMEPAGE="https://github.com/rhinstaller/libblockdev"
-SRC_URI="https://github.com/rhinstaller/${PN}/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
+HOMEPAGE="https://github.com/storaged-project/libblockdev"
+SRC_URI="https://github.com/storaged-project/${PN}/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
 LICENSE="LGPL-2+"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86"
@@ -78,9 +78,18 @@ src_configure() {
 		$(use_with lvm lvm)
 		$(use_with lvm lvm-dbus)
 		$(use_with kbd)
-		$(use_with python_single_target_python2_7 python2)
-		$(use_with !python_single_target_python2_7 python3)
 		$(use_with vdo)
 	)
+	if python_is_python3 ; then
+		myeconfargs+=(
+			--without-python2
+			--with-python3
+		)
+	else
+		myeconfargs+=(
+			--with-python2
+			--without-python3
+		)
+	fi
 	econf "${myeconfargs[@]}"
 }
