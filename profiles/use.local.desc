@@ -6050,8 +6050,9 @@ net-libs/libsrtp:aesicm - Use AES ICM cryptographic algorithm
 net-libs/libsrtp:console - Use /dev/console instead of stdout for error messages
 net-libs/libsrtp:openssl - Use OpenSSL crypto primitives
 net-libs/libsrtp:syslog - Use syslog for error messages
-net-libs/libssh:gcrypt - Prefer dev-libs/libgcrypt over dev-libs/openssl for encryption
+net-libs/libssh:gcrypt - Use dev-libs/libgcrypt as TLS provider
 net-libs/libssh:gssapi - Enable gssapi support
+net-libs/libssh:mbedtls - Use net-libs/mbedtls as TLS provider
 net-libs/libssh:pcap - Build with PCAP output support
 net-libs/libssh:server - Build with SSH server support
 net-libs/libssh:sftp - Build with SFTP support
@@ -6516,7 +6517,6 @@ net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security using
 net-misc/networkmanager-strongswan:glib - Enable libnm-glib compatibility.
 net-misc/nextcloud-client:dolphin - Install the kde-apps/dolphin extension
 net-misc/nextcloud-client:nautilus - Install the gnome-base/nautilus extension
-net-misc/nextcloud-client:sftp - Enable sftp transfer support via net-libs/libssh
 net-misc/nextcloud-client:shibboleth - Build support for Shibboleth single sign-on
 net-misc/ntp:openntpd - Allow ntp to be installed alongside openntpd
 net-misc/ntp:parse-clocks - Add support for PARSE clocks
@@ -6568,7 +6568,6 @@ net-misc/openssh:ssl - Enable additional crypto algorithms via OpenSSL
 net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
 net-misc/owncloud-client:dolphin - Install the kde-apps/dolphin extension
 net-misc/owncloud-client:nautilus - Install the gnome-base/nautilus extension
-net-misc/owncloud-client:sftp - Enable sftp transfer support via net-libs/libssh
 net-misc/owncloud-client:shibboleth - Build support for Shibboleth single sign-on
 net-misc/plowshare:view-captcha - View captcha with aview
 net-misc/ps3mediaserver:multiuser - Allow renderer customization per-user.
