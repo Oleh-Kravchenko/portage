@@ -5,7 +5,7 @@ EAPI=6
 
 inherit desktop gnome2-utils java-vm-2 prefix versionator
 
-KEYWORDS="-* ~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~sparc64-solaris ~x64-solaris"
+KEYWORDS="-* amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~sparc64-solaris ~x64-solaris"
 
 if [[ "$(get_version_component_range 4)" == 0 ]] ; then
 	S_PV="$(get_version_component_range 1-3)"
@@ -43,7 +43,7 @@ DESCRIPTION="Oracle's Java SE Development Kit"
 HOMEPAGE="http://www.oracle.com/technetwork/java/javase/"
 LICENSE="Oracle-BCLA-JavaSE examples? ( BSD )"
 SLOT="1.8"
-IUSE="alsa commercial cups derby doc examples +fontconfig headless-awt javafx jce nsplugin selinux source visualvm"
+IUSE="alsa commercial cups doc examples +fontconfig headless-awt javafx jce nsplugin selinux source visualvm"
 REQUIRED_USE="javafx? ( alsa fontconfig )"
 RESTRICT="fetch preserve-libs strip"
 QA_PREBUILT="*"
@@ -215,10 +215,6 @@ src_install() {
 	dodoc COPYRIGHT
 	dodir "${dest}"
 	cp -pPR bin include jre lib man "${ddest}" || die
-
-	if use derby ; then
-		cp -pPR	db "${ddest}" || die
-	fi
 
 	if use examples && [[ ${A} = *-demos.* ]] ; then
 		cp -pPR demo sample "${ddest}" || die
