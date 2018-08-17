@@ -29,6 +29,16 @@
 
 #--- END OF EXAMPLES ---
 
+# Michael Orlitzky <mjo@gentoo.org> (16 Aug 2018)
+# Obsolete! Use net-analyzer/nagios-icinga-openvpn instead.
+# Will be removed in 30 days (bug 663774).
+net-analyzer/nagios-check_openvpn-simple
+
+# Sergey Popov <pinkbyte@gentoo.org> (16 Aug 2018)
+# Upstream is dead, no consumers in tree
+# Masked for removal in 30 days
+dev-python/pyfire
+
 # Bernard Cafarelli <voyageur@gentoo.org> (13 Aug 2018)
 # Beta release with new features, masked for testing
 =app-text/tesseract-4.0.0_beta*
@@ -89,16 +99,11 @@ x11-themes/ethemes
 dev-python/django-celery
 
 # Mart Raudsepp <leio@gentoo.org> (16 Jul 2018)
-# Obsolete early GNOME 2 era print libraries. Applications
-# use printing support found directly in x11-libs/gtk+ now.
-# Removal in 30 days. Bug #352952
-gnome-base/libgnomeprintui
-gnome-base/libgnomeprint
-
-# Mart Raudsepp <leio@gentoo.org> (16 Jul 2018)
 # Parallel-installable old versions with no remaining consumers
 # in main tree. Use applications ported to wxGTK:3.0 and
-# wxpython:3.0 instead. Bug #661284
+# wxpython:3.0 instead.
+# Please keep this package.mask entry until at least 16th Oct 2018
+# for extra notification of the unmerge need. Bug #661284
 x11-libs/wxGTK:2.8
 dev-python/wxpython:2.8
 
