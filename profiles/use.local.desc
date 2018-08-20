@@ -540,7 +540,8 @@ app-emulation/libvirt:zfs - Enable ZFS backend storage sys-fs/zfs
 app-emulation/lxc:cgmanager - Enable support for cgroup management using app-admin/cgmanager
 app-emulation/lxc:templates - Install old style templates through app-emulation/lxc-templates
 app-emulation/lxd:daemon - Build the system daemon, not just the client tool
-app-emulation/lxd:dnsmasq - Depend on dnsmasq to provide DHCP and DNS.
+app-emulation/lxd:dnsmasq - Depend on dnsmasq to provide DHCP and DNS
+app-emulation/lxd:tools - Build and install optional tools
 app-emulation/nemu:ovf - Adds support for OVA/OVF import
 app-emulation/nemu:savevm - Adds support for QEMU savevm snapshots (experimental, QEMU must be patched)
 app-emulation/nemu:vnc-client - Adds support for external VNC client
@@ -2449,6 +2450,7 @@ dev-ml/zarith:mpir - Use MPIR library instead of GMP.
 dev-perl/App-Nopaste:browser - Spawn browser with pasted page
 dev-perl/App-Nopaste:clipboard - copying of URLs with -x/--copy
 dev-perl/App-Nopaste:github - Github authentication
+dev-perl/App-Nopaste:gitlab - Ensure git is installed for reading/passing GitLab authentication
 dev-perl/App-Nopaste:pastebin - pastebin.com support
 dev-perl/Business-ISBN:barcode - Install dev-perl/GD-Barcode for rendering ISBN numbers as barcodes
 dev-perl/Config-Any:conf - Install dev-perl/Config-General to support decoding .conf/.cnf files
@@ -6426,8 +6428,6 @@ net-misc/gerbera:taglib - Use media-libs/taglib for reading files' metadata
 net-misc/gnome-online-miners:flickr - Enable Flickr support
 net-misc/gsasl:gcrypt - Use dev-libs/libgcrypt for low-level crypto
 net-misc/gsasl:ntlm - Add support for Microsoft's NTLM mechanism using net-libs/libntlm
-net-misc/guacamole-server:ssh - enable support for ssh connections
-net-misc/guacamole-server:telnet - enable support for telnet connections
 net-misc/gwget:epiphany - Build epiphany extensions
 net-misc/hotot:chrome - Build chrome browser extension
 net-misc/htbinit:esfq - Add support for Enhanced Stochastic Fairness queueing discipline.
@@ -8441,7 +8441,6 @@ www-apps/drupal:accelerator - Add dependency on a php accelerator
 www-apps/drupal:uploadprogress - Install dev-php/pecl-uploadprogress package
 www-apps/gitit:network-uri - Get Network.URI from the network-uri package.
 www-apps/gitit:plugins - enables optional plugin runtime loader
-www-apps/guacamole:noauth - enable support for leaving out any authentication on the webinterface
 www-apps/hugo:sass - Enable SASS/SCSS support
 www-apps/icingaweb2:nginx - Adds support for nginx
 www-apps/ikiwiki:extras - Installs additional modules used by ikiwiki plugins
@@ -8807,7 +8806,6 @@ x11-misc/mate-notification-daemon:gtk3 - Build with GTK+3 instead of GTK+2
 x11-misc/mozo:gtk3 - Build with GTK+3 instead of GTK+2
 x11-misc/mugshot:gnome - Add support for gnome-base/gnome-control-center
 x11-misc/mugshot:libreoffice - Add support for app-office/libreoffice and app-office/libreoffice-bin
-x11-misc/mugshot:pidgin - Add support for setting the avatar in net-im/pidgin
 x11-misc/mugshot:webcam - Add support for setting a profile photo in media-video/cheese
 x11-misc/openbox-menu:icons - Enable support for icons in menus
 x11-misc/openbox-menu:svg - Support SVG icons
