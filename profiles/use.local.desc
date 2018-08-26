@@ -471,6 +471,7 @@ app-emulation/buildah:ostree - Enables dependencies for handling of OSTree image
 app-emulation/containerd:apparmor - Support for AppArmor
 app-emulation/containerd:btrfs - Support for BTRFS snapshot driver
 app-emulation/containerd:cri - Support for Kubernetes CRI
+app-emulation/containers-storage:ostree - Enables dependencies for handling of OSTree images.
 app-emulation/cri-o:btrfs - Enables dependencies for the "btrfs" graph driver, including necessary kernel flags.
 app-emulation/cri-o:device-mapper - Enables dependencies for the "devicemapper" graph driver, including necessary kernel flags.
 app-emulation/cri-o:ostree - Enables dependencies for handling of OSTree images.
@@ -789,7 +790,6 @@ app-i18n/fcitx:gtk2 - Install input method module for GTK+ 2
 app-i18n/fcitx:gtk3 - Install input method module for GTK+ 3
 app-i18n/fcitx:opencc - Enable OpenCC engine (using app-i18n/opencc) for converter between Simplified Chinese and Traditional Chinese
 app-i18n/fcitx:pango - Enable support for x11-libs/pango
-app-i18n/fcitx:qt4 - Install input method module for Qt 4
 app-i18n/fcitx:table - Install table input methods for Simplified Chinese
 app-i18n/fcitx-libpinyin:dictionary-manager - Install dictionary manager
 app-i18n/fcitx-rime:configuration_tool - Install configuration tool
@@ -5954,7 +5954,6 @@ net-im/gajim:xhtml - Enable XHTML support
 net-im/kadu:gadu - Enables Gadu communication protocol
 net-im/kadu:mpd - Enables Music Player Daemon support
 net-im/kadu:otr - Enable char encryption via OTR library
-net-im/kadu:phonon - Enables phonon audio plugin
 net-im/kadu:sdk - Install Kadu SDK (cmake module, API headers)
 net-im/kadu:speech - Enables speech module
 net-im/libcommuni:qml - Install optional qml files.
@@ -7164,6 +7163,7 @@ net-wireless/gr-osmosdr:hackrf - Build with Great Scott Gadgets HackRF support
 net-wireless/gr-osmosdr:iqbalance - Enable support for I/Q balancing using gr-iqbal
 net-wireless/gr-osmosdr:mirisdr - Build with Mirics MSi2500 + MSi001 SDR support
 net-wireless/gr-osmosdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
+net-wireless/gr-osmosdr:sdrplay - Enable support for SDRplay devices through net-wireless/sdrplay
 net-wireless/gr-osmosdr:soapy - Build with SoapySDR support
 net-wireless/gr-osmosdr:uhd - Build with Ettus Research USRP Hardware Driver support
 net-wireless/horst:pcap - Add support for network packet capture via net-libs/libpcap
