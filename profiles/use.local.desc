@@ -5395,6 +5395,7 @@ net-analyzer/check_mk:smart - Install check_mk-agent S.M.A.R.T plugin.
 net-analyzer/check_mk:wato - Enable check_mk WATO - check_mk's Web Administration Tool.
 net-analyzer/check_mk:zypper - Install check_mk-agent zypper plugin.
 net-analyzer/check_mk_agent:apache_status - Install check_mk-agent apache-status plugin.
+net-analyzer/check_mk_agent:inventory - Install check_mk-agent linux inventory plugin.
 net-analyzer/check_mk_agent:logwatch - Install check_mk-agent logwatch plugin.
 net-analyzer/check_mk_agent:mysql - Install check_mk-agent mysql plugin.
 net-analyzer/check_mk_agent:nfsexports - Install check_mk-agent nfsexports plugin.
