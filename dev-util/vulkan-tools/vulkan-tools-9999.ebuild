@@ -46,6 +46,23 @@ MULTILIB_CHOST_TOOLS=(
 	/usr/bin/vulkaninfo
 )
 
+pkg_setup() {
+	   MULTILIB_CHOST_TOOLS=()
+
+	   if use vulkaninfo; then
+			   MULTILIB_CHOST_TOOLS+=( /usr/bin/vulkaninfo )
+	   fi
+
+	   if use cube; then
+			   MULTILIB_CHOST_TOOLS+=(
+					   /usr/bin/vulkancube
+					   /usr/bin/vulkancubecpp
+			   )
+	   fi
+
+	   python-any-r1_pkg_setup
+}
+
 multilib_src_configure() {
 	local mycmakeargs=(
 		-DCMAKE_SKIP_RPATH=True
