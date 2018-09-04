@@ -2732,7 +2732,6 @@ dev-python/django-cms:picture - Install djangocms picture plugin
 dev-python/django-cms:snippet - Install djangocms snippet plugin
 dev-python/django-cms:teaser - Install djangocms teaser plugin
 dev-python/django-cms:video - Install djangocms video plugin
-dev-python/django-tastypie:bip - An optional serialiser dev-python/biplist
 dev-python/editorconfig-core-py:cli - Install command line interface as well as python library
 dev-python/fabric:fab2 - Install as "fab2", allowing side-by-side install with fabric 1.x
 dev-python/falcon:cython - Build cython-based python modules
@@ -5279,17 +5278,26 @@ media-video/transcode:pic - disable optimized assembly code that is not PIC frie
 media-video/transcode:postproc - Build with ffmpeg libpostproc support
 media-video/vdr:alternatechannel - Use alternate channel on record
 media-video/vdr:bidi - fribidi support, for languages, written from right to left
+media-video/vdr:ddepgentry - remove duplicate EPG entries
+media-video/vdr:dvlvidprefer - controls video-dir choice on recording
 media-video/vdr:graphtft - support for vdr-graphtft plugin up from version 0.1.7
 media-video/vdr:html - Install HTML documentation
+media-video/vdr:jumpingseconds - skip seconds in played records
+media-video/vdr:jumpplay - Enables automatic jumping over cut marks while watching a recording
 media-video/vdr:kbd - enable keyboard support as remote device
 media-video/vdr:mainmenuhooks - Allows to replace main menu entries by some special plugins (like epgsearch, extrecmenu, ...)
 media-video/vdr:menuorg - Enables support for the media-plugins/vdr-menuorg
 media-video/vdr:menuselection - adds support for menu hotkeys of double digits
 media-video/vdr:naludump - Removes NALU fill data from h.264-Streams of TS files
+media-video/vdr:permashift - permanent timeshift by recording live TV on hard disk, need plugin media-plugins/vdr-permashift
 media-video/vdr:permashift_v1 - permanent timeshift by recording live TV on RAM, need plugin >=mediaplugins/vdr-permashift-1
 media-video/vdr:pinplugin - Support for media-plugins/vdr-pin
 media-video/vdr:resumereset - rreset resume of EOF
+media-video/vdr:rotor - Enable support for plugin media-plugins/vdr-rotor for dish-positioner.
 media-video/vdr:ttxtsubs - support for media-plugins/vdr-ttxtsubs
+media-video/vdr:vasarajanauloja - replacement for the liemikuutio patch, adds some nice must haves features
+media-video/vdr:wareagleicon - Replace original icon set in menu
+media-video/vdr:yaepg - Enables support for the vdr-yaepg plugin
 media-video/vlc:X - Enable support for e.g. fullscreen mode via X and the X C-language binding. It does not build a graphical interface
 media-video/vlc:aom - Enable experimental support for AV1 codec
 media-video/vlc:archive - Enable support for libarchive stream extractor
@@ -7710,6 +7718,8 @@ sci-visualization/gwyddion:fits - Enable FITS image import via sci-libs/cfitsio
 sci-visualization/gwyddion:sourceview - Enable support for x11-libs/gtksourceview
 sci-visualization/labplot:cantor - Enable support for different open-source computer algebra systems via kde-apps/cantor
 sci-visualization/labplot:fits - Enable support for NASA's sci-libs/cfitsio library
+sci-visualization/labplot:libcerf - Enable special functions from sci-libs/libcerf
+sci-visualization/labplot:root - Enable support for CERN's ROOT file type
 sci-visualization/opendx:cdf - Add support for sci-libs/cdf data exchange format
 sci-visualization/opendx:hdf - Add support for the Hierarchical Data Format (sci-libs/hdf)
 sci-visualization/paraview:boost - Enable the usage of dev-libs/boost
