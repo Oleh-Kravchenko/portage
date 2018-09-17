@@ -79,7 +79,6 @@ COMMON_DEPEND="
 # For nvidia-drivers blocker, see bug #413637 .
 RDEPEND="${COMMON_DEPEND}
 	!<www-plugins/chrome-binary-plugins-57
-	dev-util/gn
 	x11-misc/xdg-utils
 	virtual/opengl
 	virtual/ttf-fonts
@@ -95,12 +94,14 @@ DEPEND="${COMMON_DEPEND}
 		dev-lang/yasm
 	)
 	dev-lang/perl
+	dev-util/gn
 	>=dev-util/gperf-3.0.3
 	>=dev-util/ninja-1.7.2
 	>=net-libs/nodejs-6.9.4
 	sys-apps/hwids[usb(+)]
 	>=sys-devel/bison-2.4.3
 	sys-devel/flex
+	>=sys-devel/clang-5
 	virtual/pkgconfig
 	dev-vcs/git
 "
@@ -370,12 +371,12 @@ src_configure() {
 	# Make sure the build system will use the right tools, bug #340795.
 	tc-export AR CC CXX NM
 
-	#if ! tc-is-clang; then
-	#	# Force clang since gcc is pretty broken at the moment.
-	#	CC=${CHOST}-clang
-	#	CXX=${CHOST}-clang++
-	#	strip-unsupported-flags
-	#fi
+	if ! tc-is-clang; then
+		# Force clang since gcc is pretty broken at the moment.
+		CC=${CHOST}-clang
+		CXX=${CHOST}-clang++
+		strip-unsupported-flags
+	fi
 
 	if tc-is-clang; then
 		myconf_gn+=" is_clang=true clang_use_chrome_plugins=false"
