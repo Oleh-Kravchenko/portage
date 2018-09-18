@@ -1442,7 +1442,6 @@ dev-db/firebird:xinetd - Install ClassicServer
 dev-db/maatkit:udf - Build the MySQL UDFs shipped with maatkit, requires non-minimal MySQL
 dev-db/mariadb:backup - Build mariadb-backup which supports SST and hot backup of InnoDB, Aria and MyISAM including compression and encryption
 dev-db/mariadb:client-libs - Build the client libraries from the server package instead of the C Connector packages
-dev-db/mariadb:embedded - Build embedded server (libmysqld)
 dev-db/mariadb:extraengine - Add support for alternative storage engines (Archive, CSV, Blackhole, Federated(X), Partition)
 dev-db/mariadb:galera - Enables galera replication
 dev-db/mariadb:innodb-lz4 - Enables lz4 compression methods for InnoDB/XtraDB
@@ -1454,7 +1453,6 @@ dev-db/mariadb:latin1 - Use LATIN1 encoding instead of UTF8
 dev-db/mariadb:libressl - Enable SSL connections and crypto functions using dev-libs/libressl
 dev-db/mariadb:mroonga - Add support for the Mroonga engine for interfacing with the Groonga text search
 dev-db/mariadb:numa - Enable NUMA support using sys-process/numactl (NUMA kernel support is also required)
-dev-db/mariadb:openssl - Enable SSL connections and crypto functions using dev-libs/openssl
 dev-db/mariadb:oqgraph - Add support for the Open Query GRAPH engine
 dev-db/mariadb:pam - Enable the optional PAM authentication plugin for the server
 dev-db/mariadb:profiling - Add support for statement profiling (requires USE=community).
@@ -1489,17 +1487,11 @@ dev-db/mariadb-galera:yassl - Enable SSL connections and crypto functions using 
 dev-db/mongodb:mms-agent - Install the MongoDB Monitoring Service agent
 dev-db/mongodb:tools - Install the MongoDB tools (mongoimport, mongodump...) from app-admin/mongo-tools
 dev-db/mysql:client-libs - Build the client libraries from the server package instead of the C Connector packages (not recommended)
-dev-db/mysql:cluster - Add support for NDB clustering (deprecated)
-dev-db/mysql:community - Enables the community features from upstream.
-dev-db/mysql:embedded - Build embedded server (libmysqld)
 dev-db/mysql:extraengine - Add support for alternative storage engines (Archive, CSV, Blackhole, Federated(X), Partition)
 dev-db/mysql:jemalloc - Use dev-libs/jemalloc for allocations.
 dev-db/mysql:latin1 - Use LATIN1 encoding instead of UTF8
 dev-db/mysql:libressl - Enable SSL connections and crypto functions using dev-libs/libressl
-dev-db/mysql:max-idx-128 - Raise the max index per table limit from 64 to 128
-dev-db/mysql:minimal - Install client programs only, no server
 dev-db/mysql:numa - Enable NUMA support using sys-process/numactl (NUMA kernel support is also required)
-dev-db/mysql:openssl - Enable SSL connections and crypto functions using dev-libs/openssl
 dev-db/mysql:profiling - Add support for statement profiling (requires USE=community).
 dev-db/mysql:server - Build the server program
 dev-db/mysql:systemtap - Build support for profiling and tracing using dev-util/systemtap
@@ -8223,6 +8215,7 @@ sys-cluster/ucx:numa - Add support for numa memory allocation
 sys-cluster/vzctl:ploop - Add support for ploop devices via sys-cluster/ploop
 sys-cluster/vzctl:vzmigrate - Add support for container migration
 sys-devel/autogen:libopts - install the libopts tarball (a few packages want this for developing)
+sys-devel/bc:forced-sandbox - Always enable --sandbox mode for simpler/secure runtime (disables the ! command in dc)
 sys-devel/binutils:multitarget - Adds support to binutils for cross compiling (does not work with gas)
 sys-devel/binutils-apple:classic - Use nm, otool, etc. from this ebuild instead of llvm-based tools
 sys-devel/binutils-apple:libcxx - Add support for libcxx
