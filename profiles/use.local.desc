@@ -109,7 +109,6 @@ app-admin/puppet:diff - Enable diff support
 app-admin/puppet:experimental - Add patches for things in testing
 app-admin/puppet:rrdtool - Enable rrdtool support
 app-admin/puppet:shadow - Enable shadow support
-app-admin/puppet-agent:experimental - Add patches for things in testing
 app-admin/puppet-agent:puppetdb - Adds puppetdb support
 app-admin/puppetserver:puppetdb - Adds support for connecting to puppetdb
 app-admin/pwgen:livecd - Install init script for root password scrambling on boot
@@ -4670,7 +4669,7 @@ media-sound/alsa-utils:libsamplerate - install utils that use libsamplerate (e.g
 media-sound/alsa-utils:ncurses - install utils that use ncurses (e.g. alsamixer)
 media-sound/alsaplayer:id3tag - Enables ID3 tagging with id3tag library
 media-sound/amsynth:dssi - Enable support for DSSI Soft Synth Interface
-media-sound/apulse:pa-headers - Install PulseAudio headers
+media-sound/apulse:sdk - Install PulseAudio headers and pkg-config files. Be aware apulse is not a full PulseAudio replacement by design and some functionality may be missing.
 media-sound/aqualung:ifp - Enable support for iRiver iFP portable audio players
 media-sound/aqualung:lua - Enable support for programmable title formatting with dev-lang/lua
 media-sound/aqualung:mac - Enable support for decoding Monkey's Audio files
@@ -7917,6 +7916,7 @@ sys-apps/proot:care - Build dynamic CARE binary (more info - http://reproducible
 sys-apps/qingy:consolekit - Enable native consolekit support
 sys-apps/qingy:opensslcrypt - Encrypt communications between qingy and its GUI using dev-libs/openssl
 sys-apps/razercfg:pm-utils - Installs the pm-utils hooks for suspend/resume and requires sys-power/pm-utils
+sys-apps/ripgrep:man - Build and install man pages.
 sys-apps/rng-tools:jitterentropy - Enable Jitter RNG entropy support
 sys-apps/rng-tools:nistbeacon - Enable NIST beacon entropy support
 sys-apps/roccat-tools:input_devices_roccat_ryosmkfx - Enable support for Ryos Mk FX keyboard.
