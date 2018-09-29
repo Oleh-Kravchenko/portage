@@ -8,6 +8,9 @@ MOZ_ESR=""
 MOZ_LIGHTNING_VER="6.2"
 MOZ_LIGHTNING_GDATA_VER="4.4.1"
 
+PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_REQ_USE='ncurses,sqlite,ssl,threads'
+
 # This list can be updated using scripts/get_langs.sh from the mozilla overlay
 MOZ_LANGS=(ar ast be bg br ca cs cy da de el en en-GB en-US es-AR
 es-ES et eu fi fr fy-NL ga-IE gd gl he hr hsb hu hy-AM id is it ja ko lt
@@ -195,6 +198,7 @@ src_prepare() {
 		|| die
 	eapply "${WORKDIR}/firefox"
 	eapply "${FILESDIR}"/${PN}-60.0-blessings-TERM.patch # 654316
+	eapply "${FILESDIR}"/${PN}-60.0-rust-1.29-comp.patch
 
 	# Ensure that are plugins dir is enabled as default
 	sed -i -e "s:/usr/lib/mozilla/plugins:/usr/lib/nsbrowser/plugins:" \
