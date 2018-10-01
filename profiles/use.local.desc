@@ -1965,6 +1965,7 @@ dev-lang/erlang:compat-ethread - Enable compatibility with pre-pentium 4 CPUs in
 dev-lang/erlang:dirty-schedulers - Enable dirty schedulers
 dev-lang/erlang:hipe - HIgh Performance Erlang extension
 dev-lang/erlang:kpoll - Enable kernel polling support
+dev-lang/erlang:pgo - Build erts with profile-guided optimizations
 dev-lang/fpc:ide - Build and install the Free Pascal Compiler IDE
 dev-lang/gdl:eigen - Build matrix manipulation with dev-cpp/eigen
 dev-lang/gdl:grib - Add support for the meteorological GRIB format with sci-libs/grib_api
@@ -8111,6 +8112,7 @@ sys-cluster/cinder:scheduler - Installs the initscripts for the cinder scheduler
 sys-cluster/cinder:tcp - Enables tcp support for the iscsi backend
 sys-cluster/cinder:tgt - Enable tgt storage backend support
 sys-cluster/cinder:volume - Installs the initscripts for the cinder volume service
+sys-cluster/cluster-glue:ipmilan - Install the ipmilan plugin (requires sys-libs/openipmi)
 sys-cluster/cluster-glue:libnet - Force use of net-libs/libnet
 sys-cluster/corosync:infiniband - Enable Infiniband RDMA transport support
 sys-cluster/drbd-utils:heartbeat - Enable Heartbeat integration

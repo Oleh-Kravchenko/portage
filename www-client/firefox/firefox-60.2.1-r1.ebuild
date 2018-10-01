@@ -7,7 +7,7 @@ WANT_AUTOCONF="2.1"
 MOZ_ESR="1"
 
 PYTHON_COMPAT=( python3_{5,6,7} )
-PYTHON_REQ_USE='ncurses,sqlite,ssl,threads'
+PYTHON_REQ_USE='ncurses,sqlite,ssl,threads(+)'
 
 # This list can be updated with scripts/get_langs.sh from the mozilla overlay
 MOZ_LANGS=( ach af an ar as ast az bg bn-BD bn-IN br bs ca cak cs cy da de dsb
@@ -239,6 +239,11 @@ src_configure() {
 	mozconfig_annotate '' --with-google-api-keyfile="${S}/google-api-key"
 
 	mozconfig_annotate '' --enable-extensions="${MEXTENSIONS}"
+
+	if use clang ; then
+		# https://bugzilla.mozilla.org/show_bug.cgi?id=1423822
+		mozconfig_annotate 'elf-hack is broken when using Clang' --disable-elf-hack
+	fi
 
 	echo "mk_add_options MOZ_OBJDIR=${BUILD_OBJ_DIR}" >> "${S}"/.mozconfig
 	echo "mk_add_options XARGS=/usr/bin/xargs" >> "${S}"/.mozconfig
