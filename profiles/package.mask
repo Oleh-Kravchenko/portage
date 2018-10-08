@@ -29,6 +29,18 @@
 
 #--- END OF EXAMPLES ---
 
+# Virgil Dupras <vdupras@gentoo.org> (07 Oct 2018)
+# Masked for removal, along with orphans, because it's unmaintained
+# and vulnerable. Bug #629270
+app-office/openerp
+dev-python/pychart
+dev-python/pywebdav
+dev-python/vatnumber
+
+# Andreas Sturmlechner <asturm@gentoo.org> (07 Oct 2018)
+# Masked for more testing especially of reverse-deps.
+>=dev-games/ogre-1.11.2
+
 # Mart Raudsepp <leio@gentoo.org> (06 Oct 2018)
 # Netspeed applet moved into mate-base/mate-applets since v1.14,
 # use that instead. Bug #667910
@@ -70,11 +82,6 @@ app-eselect/eselect-mesa
 # Outdated, unmaintained, no revdeps.
 # Removal in 30 days, bug #623292
 dev-python/tinydb
-
-# Mike Gilbert <floppym@gentoo.org> (24 Sep 2018)
-# Breaks multilib builds.
-# https://bugs.gentoo.org/666968
-=dev-util/meson-0.48.0
 
 # Michał Górny <mgorny@gentoo.org> (24 Sep 2018)
 # Apparently breaks sys-devel/gcc.  Bug #666954.

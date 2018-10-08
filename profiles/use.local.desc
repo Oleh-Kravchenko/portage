@@ -1620,11 +1620,14 @@ dev-games/ogre:cache - Enable GL state cache support
 dev-games/ogre:cg - NVIDIA toolkit plugin
 dev-games/ogre:double-precision - More precise calculations at the expense of speed
 dev-games/ogre:egl - Use egl instead of glx
-dev-games/ogre:experimental - Build experimental BETA components 'Bites' and 'HLMS'
+dev-games/ogre:experimental - Build experimental BETA component 'HLMS'
 dev-games/ogre:freeimage - Support images via media-libs/freeimage
 dev-games/ogre:gl3plus - Build OpenGL 3+ RenderSystem (EXPERIMENTAL)
 dev-games/ogre:gles2 - Build OpenGL ES 2.x RenderSystem
 dev-games/ogre:gles3 - Enable OpenGL ES 3.x Features
+dev-games/ogre:json - Use dev-libs/rapidjson (needed by Hlms JSON materials)
+dev-games/ogre:legacy-animations - Use the skeletal animation from 1.x. It's much slower, but the new system is still experimental.
+dev-games/ogre:mobile - Build for OpenGL ES 2.0 only and use the mobile variants of the PBS and unlit material systems.
 dev-games/ogre:ois - Pull in Object-oriented Input System library dev-games/ois for samples
 dev-games/ogre:poco - When USE=threads, use poco for threading
 dev-games/ogre:resman-pedantic - Resource Manager PEDANTIC : require an explicit resource group. Case sensitive lookup. Some demos might not work with this setting. (default: case-insensitive + sensitive lookup in all groups)
@@ -3080,6 +3083,7 @@ dev-util/diffoscope:zip - Use app-arch/unzip
 dev-util/edb-debugger:graphviz - Add support for the Graphviz library
 dev-util/edb-debugger:legacy-mem-write - Probe if writes to /proc/PID/mem are broken.
 dev-util/edb-debugger:pax_kernel - Enable building under a PaX enabled kernel
+dev-util/edi:clang - Provide integration with sys-devel/clang for autocompletion and inline errors
 dev-util/electron:gconf - Use gnome-base/gconf
 dev-util/electron:gtk3 - Use GTK+3 instead of GTK+2
 dev-util/electron:lto - Build with link time optimization enabled
@@ -4900,6 +4904,13 @@ media-sound/qtractor:rubberband - Enable support for in-place audio clip pitch-s
 media-sound/rhythmbox:daap - Build the local network music sharing plugin which uses the DAAP protocol using net-libs/libdmapsharing
 media-sound/shntool:alac - Add support for Apple Lossless Audio Codec files
 media-sound/shntool:mac - Add support for Monkey's Audio files
+media-sound/snapcast:avahi - Build with avahi support
+media-sound/snapcast:client - Build and install Snapcast client component
+media-sound/snapcast:flac - Build with FLAC compression support
+media-sound/snapcast:server - Build and install Snapcast server component
+media-sound/snapcast:static-libs - Build static libs
+media-sound/snapcast:tremor - Build with TREMOR version of vorbis
+media-sound/snapcast:vorbis - Build with libvorbis support
 media-sound/snd:s7 - Enable the s7 extension language (a version of Scheme)
 media-sound/sonata:lyrics - Support for lyrics fetching
 media-sound/sonata:trayicon - Enable support for trayicon
@@ -6950,6 +6961,7 @@ net-print/hplip:fax - Enable fax on multifunction devices which support it
 net-print/hplip:hpcups - Build the hpcups driver for cups (by HP)
 net-print/hplip:hpijs - Build the IJS driver for cups (Foomatic)
 net-print/hplip:kde - Enables kde-misc/skanlite as scanner GUI with USE="scanner X"
+net-print/hplip:libnotify - Enables desktop notifications
 net-print/hplip:libusb0 - Depend on virtual/libusb SLOT 0. Some old printers do not work with virtual/libusb SLOT 1.
 net-print/hplip:minimal - Only build internal hpijs/hpcups driver (not recommended at all, make sure you know what you are doing)
 net-print/hplip:parport - Enable parallel port for devices which require it
