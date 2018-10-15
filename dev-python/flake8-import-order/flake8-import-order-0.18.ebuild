@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
+PYTHON_COMPAT=( python2_7 python3_{5,6} )
 
 inherit distutils-r1
 
@@ -25,6 +25,7 @@ DEPEND="${RDEPEND}
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/flake8[${PYTHON_USEDEP}]
 		dev-python/pycodestyle[${PYTHON_USEDEP}]
+		dev-python/pylama[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
