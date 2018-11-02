@@ -29,6 +29,60 @@
 
 #--- END OF EXAMPLES ---
 
+# Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
+# Outdated, security issues (#629442), dead since 2014 (#405527).
+# Removal in a month.
+mail-filter/assp
+
+# Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
+# Outdated, needs to be bumped to latest release to fix multiple security
+# bugs (#444368). Removal in a month.
+www-apps/lxr
+
+# Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
+# Needs to be bumped (#475330), build issues (#521094), install files in
+# /dev (#452248), ignores CFLAGS (#452244). Removal in a month.
+app-misc/iguanaIR
+
+# Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
+# Needs a major version bump to a version that is security audited
+# (#477742). Removal in a month.
+net-analyzer/nagvis
+
+# Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
+# Buggy (#499298), upstream is dead for a long time, maybe a switch to one
+# of the existing forks would be needed, abi_x86_32 doesn't work (#524498).
+# Removal in a month.
+media-plugins/alsaequal
+
+# Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
+# Unmaintained, installs files in runtime dirs (#520626), requires old
+# libosip. Removal in a month.
+net-misc/siproxd
+
+# Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
+# Needs a major version bump to work with recent db versions (#529966).
+# Removal in a month.
+net-proxy/c-icap-modules
+
+# Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
+# 2.90 slot of VTE is deprecated for a long time in favor of 2.91, no
+# reverse deps (#538140). Removal in a month.
+=x11-libs/vte-0.36.5
+
+# Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
+# All this packages are broken and need major version bumps to fix them. See
+# bug #504114, #486510, #510550, #511096, #517260, #551784, #616490, #
+net-voip/linphone
+net-libs/libeXosip
+net-libs/libosip
+
+# Aaron W. Swenson <titanofold@gentoo.org> (25 Oct 2018)
+# Fails to build against up to date OpenSSL library (Bug 663966). No longer
+# supported upstream. Use dev-db/pgadmin4.
+# Masked for removal on 2018-11-24, bug #669650.
+dev-db/pgadmin3
+
 # Ulrich Müller <ulm@gentoo.org> (23 Oct 2018)
 # Depends on <www-client/firefox-57 which is package masked.
 # Use www-client/surf or www-client/qutebrowser as replacement.
@@ -55,11 +109,6 @@ media-gfx/splash-themes-livedvd
 # Fails to build with glibc-2.27, bug 648620. No reverse
 # dependencies. Removal in 30 days.
 dev-tcltk/ck
-
-# Matt Turner <mattst88@gentoo.org> (17 Oct 2018)
-# Multiple regressions causing pain for users and developers alike: Bug
-# Bugs #666892, #667686
-=sys-fs/eudev-3.2.6
 
 # Matt Turner <mattst88@gentoo.org> (16 Oct 2018)
 # Unmaintained. Unused. Removal in 30 days. Bug #668826
@@ -135,20 +184,10 @@ dev-python/pywebdav
 # use that instead. Bug #667910
 net-analyzer/mate-netspeed
 
-# Mart Raudsepp <leio@gentoo.org> (06 Oct 2018)
-# Crashes on Youtube MSE videos, while older versions lack support
-# for higher resolution MSE videos. Pending further investigation.
-=www-client/epiphany-3.30.1
-
 # Thomas Deutschmann <whissi@gentoo.org> (06 Oct 2018)
 # Outdated and vulnerable snapshot; libav-12.3 is the better
 # version for now
 =media-video/libav-13_pre20171219
-
-# Virgil Dupras <vdupras@gentoo.org> (30 Sep 2018)
-# Dead upstream, unmaintained, no revdeps.
-# Removal in 30 days, bug #611614
-dev-python/recaptcha-client
 
 # Michał Górny <mgorny@gentoo.org> (30 Sep 2018)
 # Poor quality NIH ebuilds with multiple issues and lack of test suites.
@@ -162,15 +201,6 @@ dev-python/python-eventlib
 dev-python/python-gnutls
 dev-python/python-msrplib
 dev-python/python-xcaplib
-
-# Matt Turner <mattst88@gentoo.org> (29 Sep 2018)
-# Removal in 30 days, bug #576334
-app-eselect/eselect-mesa
-
-# Virgil Dupras <vdupras@gentoo.org> (27 Sep 2018)
-# Outdated, unmaintained, no revdeps.
-# Removal in 30 days, bug #623292
-dev-python/tinydb
 
 # Michał Górny <mgorny@gentoo.org> (24 Sep 2018)
 # Apparently breaks sys-devel/gcc.  Bug #666954.
