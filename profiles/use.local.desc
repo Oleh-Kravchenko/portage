@@ -3771,6 +3771,7 @@ kde-plasma/kscreenlocker:consolekit - Add support for killing the screenlocker w
 kde-plasma/kwin:gles2 - Use OpenGL ES 2 instead of full GL
 kde-plasma/kwin:multimedia - Enable effect video button in desktop effects KCM
 kde-plasma/libksysguard:detailedmemory - Enable display of detailed memory information using dev-qt/qtwebkit.
+kde-plasma/libksysguard:webkit - Enable display of detailed memory information using dev-qt/qtwebkit.
 kde-plasma/plasma-desktop:appstream - Enable AppStream software metadata support
 kde-plasma/plasma-desktop:ibus - Use ibus input method via app-i18n/ibus
 kde-plasma/plasma-desktop:mouse - Enable mouse KCM
@@ -8035,6 +8036,7 @@ sys-boot/lilo:pxeserial - Avoid character echo on PXE serial console
 sys-boot/plymouth:gdm - Enables smooth transition to GDM
 sys-boot/plymouth:libkms - Provides abstraction to the DRM drivers (intel, nouveau and vmwgfx at this moment)
 sys-boot/plymouth:pango - Adds support for printing text on splash screen and text prompts, e.g. for password
+sys-boot/plymouth:split-usr - Enable this if /bin and /usr/bin are separate directories
 sys-boot/refind:btrfs - Builds the EFI binary btrfs filesystem driver
 sys-boot/refind:ext2 - Builds the EFI binary ext2 filesystem driver
 sys-boot/refind:ext4 - Builds the EFI binary ext4 filesystem driver
