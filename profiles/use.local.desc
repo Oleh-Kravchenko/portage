@@ -764,9 +764,7 @@ app-forensics/aide:e2fs - Enable support for checking file attributes on ext2/ex
 app-forensics/aide:prelink - Bypass prelinking when calculating checksums
 app-forensics/chkrootkit:cron - Install cron script for weekly rootkit scans
 app-forensics/libewf:bfio - Enables libbfio for chaining file in file handling
-app-forensics/libewf:ewf - Enables the v1 API
 app-forensics/libewf:fuse - Enable fuse support for ewfmount
-app-forensics/libewf:rawio - Enables raw IO handling
 app-forensics/libewf:uuid - Enable UUID support in the ewftools
 app-forensics/openscap:gconf - Build the gconf independant probes
 app-forensics/openscap:nss - Prefer NSS over libgcrypt as the crypto engine
@@ -4539,6 +4537,7 @@ media-libs/speex:utils - Enables speex commandline utilities (speexenc, speexdec
 media-libs/speex:vbr - Enable VBR support.
 media-libs/svgalib:kernel-helper - Build the helper kernel module
 media-libs/taglib:boost - Use dev-libs/boost instead of GCC built-ins
+media-libs/tiff:zstd - Enable zstd compression support.
 media-libs/tremor:low-accuracy - enable 32bit only multiply operations
 media-libs/urt:tools - Install tools
 media-libs/vigra:valgrind - Enable valgrind in make check
@@ -5166,7 +5165,6 @@ media-video/libav:schroedinger - Enable Dirac video support (an advanced royalty
 media-video/libav:ssl - Enable SSL/TLS support using dev-libs/openssl or net-libs/gnutls.
 media-video/libav:tools - Build and install small tools like aviocat, cws2fws, graph2dot, ismindex, qt-faststart.
 media-video/libav:twolame - Enable MP2 encoding via media-sound/twolame as an alternative to the internal encoder
-media-video/libav:vis - Adds support for SIMD optimizations for UltraSPARC processors.
 media-video/libav:vpx - Enable vp8 encoding support using media-libs/libvpx.
 media-video/libav:x265 - Enable HEVC encoding with media-libs/x265.
 media-video/libva-utils:drm - Enables VA/DRM API support.
@@ -5249,7 +5247,6 @@ media-video/ogmrip:srt - Support for SRT subtitle format
 media-video/orion:mpv - Use the media-video/mpv player (upstream default)
 media-video/orion:qtav - Use the media-libs/qtav player
 media-video/orion:qtmedia - Use the dev-qt/qtmultimedia
-media-video/parole:clutter - Compile in Clutter GTK+ support
 media-video/peek:keybinder - Enable support for global hotkeys using dev-libs/keybinder
 media-video/simplescreenrecorder:asm - Enable x86 assembly optimisation.
 media-video/simplescreenrecorder:vpx - Enable VP8 codec support via media-libs/libvpx.
@@ -5896,7 +5893,6 @@ net-im/bitlbee:twitter - Enable Twitter protocol support
 net-im/choqok:attica - Build Open Collaboration Services plugin using kde-frameworks/attica
 net-im/choqok:konqueror - Build Konqueror Choqok plugin
 net-im/choqok:telepathy - Enable support for the real-time communication framework telepathy
-net-im/corebird:glade - Install glade catalogs for corebird
 net-im/corebird:spellcheck - Support spell checking
 net-im/coturn:mongodb - Enable support for the mongodb database
 net-im/coturn:redis - Enable support for the redis database
