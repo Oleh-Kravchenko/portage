@@ -1,11 +1,11 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
 MY_P="${P/_/-}"
 
-DESCRIPTION="Audacious Player - Your music, your way, no exceptions"
+DESCRIPTION="Lightweight and versatile audio player"
 HOMEPAGE="https://audacious-media-player.org/"
 
 if [[ ${PV} == *9999 ]]; then
@@ -20,11 +20,11 @@ fi
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="aac +adplug alsa ampache aosd bs2b cdda cue ffmpeg flac fluidsynth gnome hotkeys http gme gtk gtk3 jack lame libav
+IUSE="aac +adplug alsa ampache aosd bs2b cdda cue ffmpeg flac fluidsynth hotkeys http gme gtk gtk3 jack lame libav
 	libnotify libsamplerate lirc mms modplug mp3 nls pulseaudio qt5 scrobbler sdl sid sndfile soxr speedpitch vorbis wavpack"
 REQUIRED_USE="
 	^^ ( gtk gtk3 qt5 )
-	qt5? ( !libnotify )
+	qt5? ( !hotkeys !libnotify )
 	|| ( alsa jack pulseaudio sdl )
 	ampache? ( qt5 http )"
 
@@ -61,6 +61,7 @@ RDEPEND="
 	bs2b? ( media-libs/libbs2b )
 	cdda? (
 		>=media-libs/libcddb-1.2.1
+		dev-libs/libcdio:=
 		dev-libs/libcdio-paranoia
 	)
 	cue? ( media-libs/libcue )
@@ -136,7 +137,6 @@ src_configure() {
 		--enable-mpris2 \
 		--enable-songchange \
 		--disable-oss4 \
-		--disable-qtaudio \
 		--disable-qtglspectrum \
 		--disable-coreaudio \
 		--disable-sndio \
@@ -155,7 +155,6 @@ src_configure() {
 		$(use_enable hotkeys hotkey) \
 		$(use_enable http neon) \
 		$(use_enable jack) \
-		$(use_enable gnome gnomeshortcuts) \
 		$(use_enable lame filewriter_mp3) \
 		$(use_enable libnotify notify) \
 		$(use_enable libsamplerate resample) \
@@ -166,6 +165,7 @@ src_configure() {
 		$(use_enable nls) \
 		$(use_enable pulseaudio pulse) \
 		$(use_enable qt5 qt) \
+		$(use_enable qt5 qtaudio) \
 		$(use_enable scrobbler scrobbler2) \
 		$(use_enable sdl sdlout) \
 		$(use_enable sid) \

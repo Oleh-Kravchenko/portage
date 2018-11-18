@@ -16,10 +16,6 @@ input_devices_tslib
 # Mask PostgreSQL 12 while in (pre-)alpha.
 postgres_targets_postgres12
 
-# Aaron W. Swenson <titanofold@gentoo.org> (09 Sep 2018)
-# Mask PostgreSQL 11 while in beta/RC.
-postgres_targets_postgres11
-
 # Brian Evans <grknight@gentoo.org> (10 Aug 2018)
 # Mask PHP 7.3 target while in beta
 php_targets_php7-3
@@ -34,7 +30,7 @@ mumble
 video_cards_tdfx
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (04 Nov 2017)
-# ... since audacious is being last-rited ... bug 632513
+# Unkeyworded on most arches, unmasked in supported arch profiles.
 audacious
 
 # Michael Palimaka <kensington@gentoo.org> (03 Jun 2017)
