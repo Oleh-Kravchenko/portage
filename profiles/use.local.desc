@@ -1023,7 +1023,6 @@ app-misc/mosquitto:srv - Include SRV lookup support.
 app-misc/mosquitto:websockets - Support the WebSocket protocol.
 app-misc/muttprint:doc - Builds documentation
 app-misc/neofetch:X - Enable support for detecting DEs, WMs, screen resolutions, and showing images from an X terminal
-app-misc/nnn:fish-completion - Enable fish completion support
 app-misc/note:general - Add support for ascii flatfile backend
 app-misc/note:text - Add support for text backend
 app-misc/openastro:jpeg - Enable exporting Astrological Charts to jpeg
@@ -4611,6 +4610,7 @@ media-plugins/gst-plugins-gl:libvisual - Enable visualization effects via media-
 media-plugins/gst-plugins-gtk:egl - Enable EGL platform usage
 media-plugins/gst-plugins-gtk:gles2 - Enable gtkglsink OpenGL sink based on GLESv2 API
 media-plugins/gst-plugins-gtk:opengl - Enable gtkglsink OpenGL sink based on desktop OpenGL API
+media-plugins/gst-plugins-libav:libav - Use bundled ffmpeg to support systems using media-video/libav globally instead of media-video/ffmpeg
 media-plugins/gst-plugins-meta:http - Enable http streaming via net-libs/libsoup
 media-plugins/gst-plugins-meta:libvisual - Enable visualization effects via media-libs/libvisual
 media-plugins/gst-plugins-meta:vpx - Enables vp8 codec support using libvpx, required to play some HTML5 videos
@@ -5973,6 +5973,14 @@ net-im/qtox:X - Adds support for X11
 net-im/qtox:notification - Adds support for GTK Status Notifier tray backends
 net-im/skypeforlinux:pax_kernel - Triggers a paxmarking of the main skype binary
 net-im/slack-bin:pax_kernel - Triggers a paxmarking of the binary
+net-im/spectrum2:frotz - Enables the Z-Engine backend.
+net-im/spectrum2:irc - Enables the IRC backend, based on net-im/libcommuni.
+net-im/spectrum2:purple - Enables the libpurple backend, based on net-im/pidgin.
+net-im/spectrum2:sms - Enables the SMS backend, based on app-mobilephone/smstools.
+net-im/spectrum2:twitter - Enables the Twitter backend.
+net-im/spectrum2:whatsapp - Enables the WhatsApp backend, based on net-im/transwhat.
+net-im/swift:client - Build the full graphical XMPP client.
+net-im/swift:gconf - Enable configuration through gnome-base/gconf.
 net-im/telepathy-connection-managers:gadu - Enable Gadu Gadu protocol support.
 net-im/telepathy-connection-managers:irc - Enable Internet Relay Chat (IRC) support.
 net-im/telepathy-connection-managers:meanwhile - Enable meanwhile support for Sametime protocol.
