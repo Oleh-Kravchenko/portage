@@ -1033,6 +1033,9 @@ app-misc/note:text - Add support for text backend
 app-misc/openastro:jpeg - Enable exporting Astrological Charts to jpeg
 app-misc/openastro:png - Enable exporting Astrological Charts to png
 app-misc/pax-utils:python - Install a more powerful/faster version of lddtree
+app-misc/pip3line:distorm - Compile the Distorm plugin
+app-misc/pip3line:qscintilla - Use QScintilla for more efficient text display
+app-misc/pip3line:ssl - Compile the plugin adding miscellaneous hashes from OpenSSL
 app-misc/recoll:camelcase - Enable indexing for camelCase sentences and words
 app-misc/recoll:inotify - Use the Linux Kernel notification subsystem for monitoring file alterations in realtime
 app-misc/recoll:session - Stop monitoring file alterations when X11 session terminates
@@ -4451,7 +4454,6 @@ media-libs/mediastreamer:ortp - Enable usage of net-libs/ortp
 media-libs/mediastreamer:pcap - Enable usage of net-libs/libpcap
 media-libs/mediastreamer:silk - Use silk (skype protocol) codec plugin
 media-libs/mediastreamer:video - Enable video support
-media-libs/mesa:bindist - Disable patent-encumbered ARB_texture_float, EXT_texture_shared_exponent, and EXT_packed_float extensions.
 media-libs/mesa:classic - Build drivers based on the classic architecture.
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
 media-libs/mesa:dri3 - Enable DRI3 support.
@@ -4462,7 +4464,6 @@ media-libs/mesa:gles1 - Enable GLESv1 support.
 media-libs/mesa:gles2 - Enable GLESv2 support.
 media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
 media-libs/mesa:opencl - Enable the Clover Gallium OpenCL state tracker.
-media-libs/mesa:openmax - Enable OpenMAX video decode/encode acceleration for Gallium3D.
 media-libs/mesa:osmesa - Build the Mesa library for off-screen rendering.
 media-libs/mesa:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 media-libs/mesa:pic - disable optimized assembly code that is not PIC friendly
