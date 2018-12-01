@@ -119,7 +119,7 @@ COMMON_DEPEND="
 	collectd_plugins_routeros?		( net-libs/librouteros )
 	collectd_plugins_rrdcached?		( net-analyzer/rrdtool:= )
 	collectd_plugins_rrdtool?		( net-analyzer/rrdtool:= )
-	collectd_plugins_sensors?		( sys-apps/lm_sensors )
+	collectd_plugins_sensors?		( sys-apps/lm_sensors:= )
 	collectd_plugins_sigrok?		( <sci-libs/libsigrok-0.4:= dev-libs/glib:2 )
 	collectd_plugins_smart?			( dev-libs/libatasmart )
 	collectd_plugins_snmp?			( net-analyzer/net-snmp )
@@ -158,6 +158,8 @@ RDEPEND="${COMMON_DEPEND}
 REQUIRED_USE="
 	collectd_plugins_python?		( ${PYTHON_REQUIRED_USE} )
 	collectd_plugins_smart?			( udev )"
+
+PATCHES=( "${FILESDIR}"/${PN}-5.8.1-lm_sensors-4.5.0-compatibility.patch )
 
 # @FUNCTION: collectd_plugin_kernel_linux
 # @DESCRIPTION:
