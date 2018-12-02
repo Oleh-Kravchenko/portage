@@ -2534,8 +2534,10 @@ dev-libs/sway:gdk-pixbuf - Enable additional image format support via the x11-li
 dev-libs/sway:swaybar - Install 'swaybar': sway's status bar component
 dev-libs/sway:swaybg - Install 'swaybg': allows to set a desktop background image
 dev-libs/sway:swaygrab - Install 'swaygrab': allows taking screenshots or screencasts
+dev-libs/sway:swayidle - Install 'swayidle': idle manager to run commands when user is inactive
 dev-libs/sway:swaylock - Install 'swaylock': sway's screen locker
 dev-libs/sway:swaymsg - Install 'swaymsg': tool for communicating with a running sway instance
+dev-libs/sway:swaynag - Install 'swaynag': shows a message with buttons
 dev-libs/sway:tray - Enable support for StatusNotifierItem tray specification
 dev-libs/sway:wallpapers - Install sway's default wallpaper image
 dev-libs/tinyxml:stl - Compile with TIXML_USE_STL support
@@ -3802,7 +3804,6 @@ kde-plasma/kinfocenter:pci - Show advanced PCI information
 kde-plasma/kmenuedit:hotkeys - Enable support for hotkey editing
 kde-plasma/kwin:gles2 - Use OpenGL ES 2 instead of full GL
 kde-plasma/kwin:multimedia - Enable effect video button in desktop effects KCM
-kde-plasma/libksysguard:detailedmemory - Enable display of detailed memory information using dev-qt/qtwebkit.
 kde-plasma/libksysguard:webkit - Enable display of detailed memory information using dev-qt/qtwebkit.
 kde-plasma/plasma-desktop:appstream - Enable AppStream software metadata support
 kde-plasma/plasma-desktop:ibus - Use ibus input method via app-i18n/ibus
@@ -3832,7 +3833,6 @@ kde-plasma/plasma-workspace:geolocation - Enables dataengine providing location 
 kde-plasma/plasma-workspace:prison - Enable support for barcodes/QRcodes
 kde-plasma/plasma-workspace:qalculate - Enable Qalculate runner using sci-libs/libqalculate
 kde-plasma/powerdevil:brightness-control - Enable screen brightness control using app-misc/ddcutil
-kde-plasma/powerdevil:consolekit - Enable sys-auth/consolekit support instead of logind session tracking
 kde-plasma/powerdevil:wireless - Enable wireless energy saving actions via kde-frameworks/bluez-qt and kde-frameworks/networkmanager-qt
 kde-plasma/systemsettings:classic - Enable classic mode plugin, requires kde-frameworks/khtml
 lxde-base/lxdm:consolekit - Enables support for authorization using consolekit
@@ -3968,8 +3968,6 @@ mail-filter/amavisd-new:razor - Add support for mail-filter/razor
 mail-filter/amavisd-new:spamassassin - Add support for mail-filter/spamassassin
 mail-filter/amavisd-new:zmq - Add support for zeromq sockets
 mail-filter/ask:procmail - Adds support for mail-filter/procmail
-mail-filter/assp:spf - Adds support for Sender Policy Framework
-mail-filter/assp:srs - Adds support for Sender Rewriting Scheme
 mail-filter/bogofilter:tokyocabinet - Enable Tokyo Cabinet database support
 mail-filter/clamassassin:clamd - Use the app-antivirus/clamav daemon for virus checking
 mail-filter/clamassassin:subject-rewrite - Adds support for subject rewriting
@@ -5473,7 +5471,6 @@ net-analyzer/nagios-plugins:nagios-ping - Install net-analyzer/fping required fo
 net-analyzer/nagios-plugins:snmp - Install dev-perl/Net-SNMP required for monitoring SNMP values. Disabling the flag does not remove any plugin file.
 net-analyzer/nagios-plugins:ssh - Install net-misc/openssh required for monitoring SSH servers. Disabling the flag does not remove any plugin file.
 net-analyzer/nagios-plugins-flameeyes:smart - Install sys-apps/smartmontools required for S.M.A.R.T. disk monitoring. Disabling the flag removes the plugin file. This plugin also requires the sudo flag to be enable.
-net-analyzer/nagvis:automap - Enable automated map generation using media-gfx/graphviz
 net-analyzer/net-snmp:elf - Enable the use of elf utils to check uptime on some systems
 net-analyzer/net-snmp:mfd-rewrites - Use MFD rewrites of mib modules where available
 net-analyzer/net-snmp:netlink - Use dev-libs/libnl to fetch TCP statistics instead of using /proc/net/tcp (Linux only).
@@ -7796,6 +7793,7 @@ sys-apps/dbus:user-session - Enable user-session semantics for session bus under
 sys-apps/dbus-broker:launcher - dbus-daemon compatibility launcher
 sys-apps/debianutils:installkernel - Install /sbin/installkernel script (for Linux)
 sys-apps/dstat:wifi - Enable wireless network functions
+sys-apps/dtc:valgrind - Use dev-util/valgrind in test phase
 sys-apps/duc:X - Use X11 for the GUI instead of OpenGL. This is the recommended option
 sys-apps/duc:cairo - Build support for exporting to PNG and PDF with x11-libs/cairo
 sys-apps/duc:gui - Build support for a graphical client
