@@ -9,11 +9,11 @@ inherit flag-o-matic multilib-minimal
 
 DESCRIPTION="High performance/quality MPEG-4 video de-/encoding solution"
 HOMEPAGE="https://www.xvid.org/"
-SRC_URI="https://downloads.xvid.org/downloads/${MY_P}.tar.bz2"
+SRC_URI="http://downloads.xvid.org/downloads/${MY_P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~arm64 hppa ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x86-solaris"
+KEYWORDS="~alpha amd64 ~arm ~arm64 hppa ia64 ~mips ~ppc ~ppc64 sparc ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x86-solaris"
 IUSE="elibc_FreeBSD examples pic +threads"
 
 NASM=">=dev-lang/nasm-2"

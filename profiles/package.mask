@@ -449,17 +449,6 @@ sys-cluster/liblogthread
 # See tracker: https://bugs.gentoo.org/670222
 >=app-text/poppler-0.71.0
 
-# Matt Turner <mattst88@gentoo.org> (02 Nov 2018)
-# Dead and unusable with latest xserver. Masked for removal in 30 days.
-# Bug #664096
-x11-drivers/xf86-input-tslib
-
-# Mart Raudsepp <leio@gentoo.org> (02 Nov 2018)
-# Old x11-libs/goocanvas:0 SLOT python bindings, not used by anything.
-# New x11-libs/goocanvas:2.0 with introspection should be used instead.
-# Removal in a month. Bug #670142
-dev-python/pygoocanvas
-
 # Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
 # All this packages are broken and need major version bumps to fix them. See
 # bug #504114, #486510, #510550, #511096, #517260, #551784, #616490, #
@@ -625,11 +614,6 @@ media-libs/libglvnd
 =net-libs/nodejs-10*
 =net-libs/nodejs-11*
 
-# Michał Górny <mgorny@gentoo.org> (20 Mar 2018)
-# Poorly tested version bump followed by a series of quick hacks
-# that do not make it any more working. Bug #651030.
->=sys-devel/distcc-3.3
-
 # Eray Aslan <eras@gentoo.org> (08 Feb 2018)
 # Mask experimental software
 =mail-mta/postfix-3.4*
@@ -694,10 +678,6 @@ sys-devel/automake:1.8
 # Gilles Dartiguelongue <eva@gentoo.org> (2 Sep 1017)
 # Gnome 3.26 package mask
 >=app-text/libgepub-0.5
-
-# Anthony G. Basile <blueness@gentoo.org> (27 Aug 2017)
-# Upstream is no longer providing public patches
-sys-kernel/hardened-sources
 
 # Patrice Clement <monsieurp@gentoo.org> (23 Aug 2017)
 # Packages depending on this library need to be tested first before
