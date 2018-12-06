@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit autotools flag-o-matic java-pkg-opt-2 multilib-minimal python-single-r1 virtualx
 
 DESCRIPTION="Library and tools for reading barcodes from images or video"
-HOMEPAGE="https://github.com/procxx/zbar"
+HOMEPAGE="https://github.com/mchehab/zbar"
 SRC_URI="https://linuxtv.org/downloads/${PN}/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
@@ -125,17 +125,30 @@ multilib_src_configure() {
 		else
 			myeconfargs+=( --without-qt )
 		fi
+	else
+			myeconfargs+=( --without-qt )
 	fi
 
 	ECONF_SOURCE=${S} \
 		econf "${myeconfargs[@]}"
 
-	# work-around out-of-source build issue
-	mkdir gtk pygtk qt test || die
+	# work around out-of-source build issues for multilib systems
+	# https://bugs.gentoo.org/672184
+	mkdir gtk pygtk qt test zbarcam || die
 }
 
 src_test() {
 	virtx multilib-minimal_src_test
+}
+
+src_install() {
+	if use qt5; then
+		local MULTILIB_WRAPPED_HEADERS=(
+			/usr/include/zbar/QZBar.h
+			/usr/include/zbar/QZBarImage.h
+		)
+	fi
+	multilib-minimal_src_install
 }
 
 multilib_src_install_all() {
