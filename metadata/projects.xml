@@ -1869,11 +1869,6 @@
     <url>https://wiki.gentoo.org/wiki/Project-3AKernel_Security</url>
     <description>The Gentoo Linux Kernel Security Project handles patching our many kernel sources and informing our users about global kernel security status.</description>
     <member>
-      <email>alicef@gentoo.org</email>
-      <name>Alice Ferrazzi</name>
-      <role>Member</role>
-    </member>
-    <member>
       <email>blueknight@gentoo.org</email>
       <name>Yury German</name>
       <role>Member</role>
@@ -2174,12 +2169,7 @@
     <email>mentors@gentoo.org</email>
     <name>Mentors</name>
     <url>https://wiki.gentoo.org/wiki/Project-3AMentors</url>
-    <description>The Mentors project acts as a matchmaking service between prospective
-developers and volunteer mentors.</description>
-    <member>
-      <email>alicef@gentoo.org</email>
-      <name>Alice Ferrazzi</name>
-    </member>
+    <description>The Mentors project acts as a matchmaking service between prospective developers and volunteer mentors.</description>
   </project>
   <project>
     <email>mozilla@gentoo.org</email>
@@ -2851,11 +2841,6 @@ developers and volunteer mentors.</description>
     <name>Proxy Maintainers</name>
     <url>https://wiki.gentoo.org/wiki/Project-3AProxy_Maintainers</url>
     <description>Proxy Maintainers facilitates high quality user contributions and works to enhance user-developer cooperation in maintaining packages.</description>
-    <member>
-      <email>alicef@gentoo.org</email>
-      <name>Alice Ferrazzi</name>
-      <role>Member</role>
-    </member>
     <member>
       <email>amynka@gentoo.org</email>
       <name>Amy Liffey</name>
