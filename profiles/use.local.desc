@@ -2923,7 +2923,6 @@ dev-qt/qt-docs:networkauth - Install documentation for dev-qt/qtnetworkauth
 dev-qt/qt-docs:qch - Install documentation in QCH format
 dev-qt/qt-docs:script - Install documentation for dev-qt/qtscript
 dev-qt/qt-docs:sensors - Install documentation for dev-qt/qtsensors
-dev-qt/qt-docs:speech - Install documentation for dev-qt/qtspeech
 dev-qt/qt-docs:virtualkeyboard - Install documentation for dev-qt/qtvirtualkeyboard
 dev-qt/qt-docs:webengine - Install documentation for dev-qt/qtwebengine
 dev-qt/qt3d:gles2 - Use GLES 2.0 or later instead of full OpenGL
@@ -4102,7 +4101,6 @@ mate-extra/caja-extensions:wallpaper - Add an extension to support setting an im
 mate-extra/mate-polkit:accountsservice - Support extraction of data from AccountsService
 mate-extra/mate-polkit:appindicator - Add support for AppIndicator
 mate-extra/mate-power-manager:applet - Enable building of the MATE applet.
-mate-extra/mate-power-manager:pm-utils - Adds support for suspend/resume using upower-pm-utils instead of sys-power/upower
 mate-extra/mate-screensaver:consolekit - Enable support for sys-auth/consolekit
 mate-extra/mate-utils:applet - Enable the mate dictionary applet
 media-fonts/corefonts:tahoma - Also install the Tahoma font. Due to the lack of a free bold variant, this may render badly. See bug 184790.
