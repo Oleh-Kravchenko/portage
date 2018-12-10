@@ -3632,6 +3632,7 @@ gnome-extra/gnome-commander:python - Add support for python plugins
 gnome-extra/gnome-commander:samba - Add support for SAMBA (Windows File and Printer sharing)
 gnome-extra/gnome-commander:taglib - Add metadata support for ID3, Vorbis, FLAC and APE
 gnome-extra/gnome-commander:unique - Enable single instance support using dev-libs/libunique
+gnome-extra/gnome-contacts:telepathy - Start chat from contact details
 gnome-extra/gnome-dvb-daemon:totem - Build a plugin for media-video/totem
 gnome-extra/gnome-system-monitor:systemd - Display sys-apps/systemd metadata, e.g. unit names, for running processes
 gnome-extra/libgda:canvas - Enable support for x11-libs/goocanvas
@@ -5998,9 +5999,7 @@ net-im/telepathy-connection-managers:xmpp - Enable XMPP protocol handler (this i
 net-im/telepathy-connection-managers:yahoo - Enable Yahoo! messaging support.
 net-im/telepathy-connection-managers:zeroconf - Enable Link-Local Messaging via the zeroconf or Bonjour protocol.
 net-im/tkabber:plugins - Enables installation the extra plugins
-net-im/toxic:audio - Enables audio calling
 net-im/toxic:notification - Enables desktop notifications with libnotify, with sound support.
-net-im/toxic:notifications - Enables desktop notifications with libnotify, with sound support.
 net-im/toxic:qrcode - Enables QR code support
 net-im/toxic:sound - Enables audio calling
 net-im/toxic:video - Enables video calling
