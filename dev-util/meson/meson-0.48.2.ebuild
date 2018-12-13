@@ -24,6 +24,14 @@ IUSE=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
 
+python_prepare_all() {
+	# ASAN and sandbox both want control over LD_PRELOAD
+	# https://bugs.gentoo.org/673016
+	sed -i -e 's/test_generate_gir_with_address_sanitizer/_&/' run_unittests.py || die
+
+	distutils-r1_python_prepare_all
+}
+
 python_test() {
 	(
 		# test_meson_installed
