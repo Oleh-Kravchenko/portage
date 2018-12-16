@@ -8442,7 +8442,6 @@ sys-kernel/genkernel-next:iscsi - Enable support for open-iscsi (include open-is
 sys-kernel/genkernel-next:mdadm - Enable support for mdadm (include mdadm dependency)
 sys-kernel/genkernel-next:plymouth - Enable support for Plymouth (include Plymouth dependency)
 sys-kernel/gentoo-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
-sys-kernel/linux-docs:html - Install HTML documentation
 sys-kernel/linux-firmware:savedconfig - Allows individual selection of firmware files
 sys-kernel/mips-sources:experimental - Apply experimental (80xx) patches.
 sys-kernel/mips-sources:ip27 - Enables additional support for SGI Origin (IP27)
