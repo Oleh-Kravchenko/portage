@@ -2761,16 +2761,6 @@ dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
 dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
 dev-python/dap:server - Enable OpenDAP server support
 dev-python/dask:distributed - Add support for distributed computing with dev-python/distributed
-dev-python/django-cms:admin-style - Install plugin customizing admin panel styles
-dev-python/django-cms:ckeditor - Install text-ckeditor plugin for rich text editing
-dev-python/django-cms:file - Install djangocms file plugin
-dev-python/django-cms:flash - Install djangocms flash plugin
-dev-python/django-cms:inherit - Install djangocms inherit plugin
-dev-python/django-cms:link - Install djangocms link plugin
-dev-python/django-cms:picture - Install djangocms picture plugin
-dev-python/django-cms:snippet - Install djangocms snippet plugin
-dev-python/django-cms:teaser - Install djangocms teaser plugin
-dev-python/django-cms:video - Install djangocms video plugin
 dev-python/editorconfig-core-py:cli - Install command line interface as well as python library
 dev-python/fabric:fab2 - Install as "fab2", allowing side-by-side install with fabric 1.x
 dev-python/falcon:cython - Build cython-based python modules
@@ -5138,6 +5128,7 @@ media-video/ffmpeg:zimg - Enables media-libs/zimg based scale filter.
 media-video/ffmpeg:zvbi - Enables media-libs/zvbi based teletext decoder.
 media-video/ffmpeg2theora:kate - Adds support for Ogg Kate subtitles via libkate.
 media-video/google2srt:html - Install HTML documentation
+media-video/guvcview:qt5 - Build with Qt5 interface instead Gtk+
 media-video/h264enc:ogm - Support for OGM container format
 media-video/handbrake:fdk - Support for encoding AAC using media-libs/fdk-aac.
 media-video/handbrake:gstreamer - Support for the streaming media framework from media-libs/gstreamer.
