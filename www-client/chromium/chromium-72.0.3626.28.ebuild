@@ -98,14 +98,15 @@ BDEPEND="
 	)
 	dev-lang/perl
 	dev-util/gn
+	dev-vcs/git
 	>=dev-util/gperf-3.0.3
 	>=dev-util/ninja-1.7.2
 	>=net-libs/nodejs-7.6.0[inspector]
 	sys-apps/hwids[usb(+)]
 	>=sys-devel/bison-2.4.3
 	sys-devel/flex
+	virtual/jre
 	virtual/pkgconfig
-	dev-vcs/git
 "
 
 : ${CHROMIUM_FORCE_CLANG=no}
@@ -595,7 +596,6 @@ src_compile() {
 	# Work around broken deps
 	eninja -C out/Release gen/ui/accessibility/ax_enums.mojom{,-shared}.h
 
-if false; then
 	# Build mksnapshot and pax-mark it.
 	local x
 	for x in mksnapshot v8_context_snapshot_generator; do
@@ -607,7 +607,6 @@ if false; then
 			pax-mark m "out/Release/${x}"
 		fi
 	done
-fi
 
 	# Even though ninja autodetects number of CPUs, we respect
 	# user's options, for debugging with -j 1 or any other reason.
