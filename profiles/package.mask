@@ -29,6 +29,10 @@
 
 #--- END OF EXAMPLES ---
 
+# Lars Wendler <polynomial-c@gentoo.org> (28 Dec 2018)
+# Masked while being tested and reverse deps aren't fully compatible
+=dev-libs/openssl-1.1.1*
+
 # Mike Gilbert <floppym@gentoo.org> (25 Dec 2018)
 # Dev channel releases are only for people who are developers or want more
 # experimental features and accept a more unstable release.
@@ -64,10 +68,6 @@ dev-tex/revtex
 =x11-drivers/nvidia-drivers-396*
 <x11-base/xorg-server-1.20.3
 <x11-base/xorg-drivers-1.20
-
-# Georgy Yakovlev <gyakovlev@gentoo.org> (12 Dec 2018)
-# mask new cmake based fish for testing while in beta
->=app-shells/fish-3.0_beta1
 
 # Mikle Kolyada <zlogene@gentoo.org> (12 Dec 2018)
 # grub:0 is dead and not being developed by upstream.
@@ -169,10 +169,6 @@ net-misc/netctl
 <mail-client/thunderbird-60.0
 <mail-client/thunderbird-bin-60.0
 
-# Craig Andrews <candrews@gentoo.org> (06 Nov 2018)
-# Requires >=dev-libs/openssl-1.1.0
-dev-libs/gost-engine
-
 # Brian Evans <grknight@gentoo.org> (05 Nov 2018)
 # Causes a dependency loop in the OpenRC script. Bug #651998
 =sys-fs/cryptsetup-2.0.5-r1
@@ -240,10 +236,6 @@ net-analyzer/mate-netspeed
 # made it into the tree, bug #665192
 ~dev-lang/julia-0.7.0
 ~dev-lang/julia-1.0.1
-
-# Bernard Cafarelli <voyageur@gentoo.org> (20 Aug 2018)
-# Requires >=dev-libs/openssl-1.1.0
->=net-misc/nextcloud-client-2.5.0_beta1
 
 # Bernard Cafarelli <voyageur@gentoo.org> (13 Aug 2018)
 # Beta release with new features, masked for testing
@@ -334,11 +326,6 @@ media-libs/libglvnd
 # Masked for initial testing
 >=dev-db/mysql-connector-c++-8.0.0
 
-# Jeroen Roovers <jer@gentoo.org> (6 Apr 2018)
-# Requires >=dev-libs/openssl-1.1.0
-=net-libs/nodejs-10*
-=net-libs/nodejs-11*
-
 # Eray Aslan <eras@gentoo.org> (08 Feb 2018)
 # Mask experimental software
 =mail-mta/postfix-3.4*
@@ -399,12 +386,6 @@ sys-devel/automake:1.8
 # Gilles Dartiguelongue <eva@gentoo.org> (2 Sep 1017)
 # Gnome 3.26 package mask
 >=app-text/libgepub-0.5
-
-# Patrice Clement <monsieurp@gentoo.org> (23 Aug 2017)
-# Packages depending on this library need to be tested first before
-# it is unmasked. Possibly some slotting is still needed.
-# Package testing tracked in bug #611022.
->=dev-libs/msgpack-1.4.2
 
 # Sébastien Fabbro <bicatali@gentoo.org> (19 Aug 2017)
 # ipython-6 is python-3 only and causes circular dependencies
@@ -485,10 +466,6 @@ media-plugins/gst-plugins-ffmpeg
 # Bug: #604678
 <dev-perl/DBD-mysql-4.41.0
 
-# Alon Bar-Lev <alonbl@gentoo.org> (06 Feb 2017)
-# Needs openssl-1.1
->=dev-libs/opencryptoki-3.6
-
 # Michael Orlitzky <mjo@gentoo.org> (07 Jan 2017)
 # This package has some dangerous quality and security issues, but
 # people may still find it useful. It is masked to prevent accidental
@@ -514,10 +491,6 @@ app-admin/amazon-ec2-init
 # Denis Dupeyron <calchan@gentoo.org> (12 Sep 2016)
 # Masked for testing, see bug #588894.
 =x11-misc/light-locker-1.7.0-r1
-
-# Lars Wendler <polynomial-c@gentoo.org> (26 Aug 2016)
-# Masked while being tested and reverse deps aren't fully compatible
-=dev-libs/openssl-1.1*
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (03 Apr 2016)
 # Can exhaust all available memory depending on task
