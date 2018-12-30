@@ -1542,7 +1542,6 @@ dev-db/percona-server:profiling - Add support for statement profiling (requires 
 dev-db/percona-server:rocksdb - Add support for RocksDB; a key/value, LSM database optimized for flash storage
 dev-db/percona-server:server - Build the server program
 dev-db/percona-server:systemtap - Build support for profiling and tracing using dev-util/systemtap
-dev-db/percona-server:test-suite - Install upstream testsuites for end use.
 dev-db/percona-server:tokudb - Add support for TokuDB storage engine
 dev-db/percona-server:tokudb-backup-plugin - Builds the TokuDB backup plugin
 dev-db/percona-server:yassl - Enable SSL connections and crypto functions using the bundled yaSSL
@@ -3353,6 +3352,7 @@ games-emulation/dolphin:egl - Enable EGL support
 games-emulation/dolphin:evdev - Enable evdev input support
 games-emulation/dolphin:log - Increase logging output
 games-emulation/dolphin:lto - Add support for link-time optimizations.
+games-emulation/dosbox:core-inline - Enable memory-increasing inlines for better performance but requiring more build time
 games-emulation/dosbox:glide - Enable unofficial Glide emulation via media-libs/openglide
 games-emulation/fceux:logo - Enable the ability to add a logo screen when creating AVIs
 games-emulation/generator:sdlaudio - Enable SDL Audio
@@ -4193,6 +4193,7 @@ media-gfx/blender:player - Build the Blender Player. THis requires the Game engi
 media-gfx/blender:redcode - This flag add support for RED CODE camera digital format (5K HD images *.r3d) - EXPERIMENTAL.
 media-gfx/blender:test - Build the provided unit tests.
 media-gfx/blender:valgrind - Add support for memory debugging using dev-util/valgrind
+media-gfx/chafa:tools - Build command-line tools
 media-gfx/comix:rar - Pulls app-arch/unrar for rar file support
 media-gfx/cura:usb - Access 3D printers via USB
 media-gfx/darktable:colord - Support color management using x11-misc/colord
@@ -4280,6 +4281,7 @@ media-gfx/librecad:3d - Require all 2D coordinates stored as 3D
 media-gfx/librecad:tools - Build additional tool programs: tff2lff
 media-gfx/luminance-hdr:fits - Enable support for the FITS format
 media-gfx/mandelbulber:opencl - Enable GPU rendering support using OpenCL
+media-gfx/nomacs:heif - Enable support for ISO/IEC 23008-12:2017 HEIF/HEIC image format using media-libs/libheif
 media-gfx/nomacs:opencv - Build support for media-libs/opencv
 media-gfx/nvidia-texture-tools:cg - Enable NVIDIA C graphics compiler toolkit plug-in
 media-gfx/nvidia-texture-tools:cuda - Enable NVIDIA CUDA toolkit support
@@ -4289,7 +4291,6 @@ media-gfx/openexr_viewers:cg - Add support for nvidia's cg shaders
 media-gfx/openvdb:abi3-compat - Disables newer features to maintain compatibility with ABI3. Enabled by default.
 media-gfx/openvdb:abi4-compat - Disables newer features to maintain compatibility with ABI4. Enabled by default.
 media-gfx/photoqt:devil - Support additional image formats using media-libs/devil
-media-gfx/photoqt:exiv2 - Use media-gfx/exiv2 as optional dependency
 media-gfx/photoqt:freeimage - Support additional iamge formats using media-libs/freeimage
 media-gfx/pngcrush:system-libs - Use libpng and libz provided by system
 media-gfx/potrace:metric - default to a4 paper size and metric measurement
