@@ -349,7 +349,7 @@ app-crypt/qca:softstore - Enable softstore plugin
 app-crypt/seahorse:ldap - Enable seahorse to manipulate GPG keys on a LDAP server.
 app-crypt/tpm-emulator:mtm-emulator - Build the MTM emulator
 app-crypt/tpm-tools:pkcs11 - Build Token data management utilities based on OpenCryptoki's (dev-libs/opencryptoki) PKCS#11 implementation.
-app-crypt/tpm2-tss:gcrypt - Use dev-libs/gcrypt as crypto engine
+app-crypt/tpm2-tss:gcrypt - Use dev-libs/libgcrypt as crypto engine
 app-crypt/tpm2-tss:openssl - Use dev-libs/openssl as crypto engine
 app-crypt/veracrypt:asm - Enable assembly for optimization
 app-crypt/zulucrypt:gnome - Enable support for the freedesktop.org Secret Service API via app-crypt/libsecret
@@ -7948,7 +7948,6 @@ sys-apps/sed:forced-sandbox - Always enable --sandbox mode for simpler/secure ru
 sys-apps/selinux-python:audit - Enable support for sys-process/audit and use the audit_* functions (like audit_getuid instead of getuid())
 sys-apps/smartmontools:caps - Build against sys-libs/libcap-ng to allow smartd to drop its privileges.
 sys-apps/smartmontools:daemon - Install the monitoring daemon (smartd) and associated scripts.
-sys-apps/smartmontools:minimal - Do not install the monitoring daemon and associated scripts.
 sys-apps/smartmontools:update_drivedb - Install a script to update the drivedb file.
 sys-apps/superdiag:iso - Install an iso image, which can be used with sys-apps/smc-sum.
 sys-apps/superdiag:usb - Install all files, which are needed for an installation on an usb thumb drive.
@@ -8725,9 +8724,6 @@ www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo in
 www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
 www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
-www-client/google-chrome:plugins - Add system plugins path to launcher
-www-client/google-chrome-beta:plugins - Add system plugins path to launcher
-www-client/google-chrome-unstable:plugins - Add system plugins path to launcher
 www-client/jd:migemo - Enable migemo support for Japanese
 www-client/jd:oniguruma - Use dev-libs/oniguruma for regular expression
 www-client/links:libevent - Enable dev-libs/libevent support
