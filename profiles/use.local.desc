@@ -524,6 +524,9 @@ app-emulation/libguestfs:fuse - Enable image mount support via fuse
 app-emulation/libguestfs:inspect-icons - Use media-gfx/icoutils for acces icon file in image and inspect it
 app-emulation/libguestfs:libvirt - Use app-emulation/libvirt to manipulate VMs
 app-emulation/libguestfs:systemtap - Use dev-util/systemtap to inspect VM via "probes" way
+app-emulation/libpod:apparmor - Enable AppArmor support.
+app-emulation/libpod:btrfs - Enables dependencies for the "btrfs" graph driver, including necessary kernel flags.
+app-emulation/libpod:ostree - Enables dependencies for handling of OSTree images.
 app-emulation/libspectrum:gcrypt - Use dev-libs/libgcrypt for low-level crypto of some features, including logfiles.
 app-emulation/libvirt:apparmor - Enable AppArmor support
 app-emulation/libvirt:firewalld - DBus interface to iptables/ebtables allowing for better runtime management of your firewall.
@@ -917,7 +920,6 @@ app-misc/blink1:server - Build and install REST API server (currently hard-coded
 app-misc/blink1:tool - Build and install command-line tool blink1-tool
 app-misc/byobu:screen - Use app-misc/screen as the default backend
 app-misc/ca-certificates:cacert - Include root certificates from CAcert (http://www.cacert.org/) and Software in the Public Interest (http://www.spi-inc.org/)
-app-misc/ca-certificates:insecure_certs - Install certificates which are known to be untrustworthy.
 app-misc/carbon-c-relay:lz4 - add support for LZ4 compressed transport
 app-misc/carbon-c-relay:oniguruma - use dev-libs/oniguruma as regex implementation
 app-misc/carbon-c-relay:pcre2 - use dev-libs/libpcre2 as regex implementation
