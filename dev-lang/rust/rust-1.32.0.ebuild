@@ -59,12 +59,12 @@ RDEPEND="${COMMON_DEPEND}
 REQUIRED_USE="|| ( ${ALL_LLVM_TARGETS[*]} )
 				x86? ( cpu_flags_x86_sse2 )"
 
-# bug #675752
-REQUIRED_USE+=" !system-llvm"
-
 S="${WORKDIR}/${MY_P}-src"
 
-PATCHES=( "${FILESDIR}"/1.30.1-clippy-sysroot.patch )
+PATCHES=(
+	"${FILESDIR}"/1.30.1-clippy-sysroot.patch
+	"${FILESDIR}"/1.32.0-fix-configure-of-bundled-llvm.patch
+)
 
 toml_usex() {
 	usex "$1" true false
