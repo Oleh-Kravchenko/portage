@@ -3,6 +3,7 @@
 
 EAPI=6
 
+CMAKE_MIN_VERSION="3.11"
 inherit git-r3 cmake-utils xdg-utils gnome2-utils
 
 DESCRIPTION="WYSIWYG Music Score Typesetter"
@@ -59,7 +60,7 @@ src_unpack() {
 }
 
 src_prepare() {
-	default
+	cmake-utils_src_prepare
 
 	# Move soundfonts to the correct directory
 	mv "${WORKDIR}"/sound/* "${S}"/share/sound/ || die "Failed to move soundfont files"
