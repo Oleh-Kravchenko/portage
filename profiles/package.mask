@@ -29,6 +29,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Brian Evans <grknight@gentoo.org> (5 Feb 2019)
+# Unsolvable dependencies
+# Bug 677284
+=gnome-extra/gucharmap-11.0.3
+
 # Jeroen Roovers <jer@gentoo.org> (31 Jan 2019)
 # Depends on =dev-libs/openssl-1.1.1*
 # bug #670574
@@ -197,10 +202,6 @@ dev-db/pgadmin3
 # Firefox 60 or newer if you can.
 <www-client/firefox-60
 <www-client/firefox-bin-60
-
-# Sergei Trofimovich <slyfox@gentoo.org> (09 Oct 2018)
-# Upstream is not actively maintained. Needs a port to mupdf-1.14.
-app-text/fbpdf
 
 # Andreas Sturmlechner <asturm@gentoo.org> (07 Oct 2018)
 # Masked for more testing especially of reverse-deps.
