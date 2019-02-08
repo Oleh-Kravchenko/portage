@@ -1,5 +1,5 @@
 #!/sbin/openrc-run
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 extra_commands="forcestart is_master"
@@ -10,7 +10,7 @@ depend() {
 	use net
 }
 
-DAEMON_UTIL="/usr/lib/ganeti/daemon-util"
+DAEMON_UTIL="/usr/lib64/ganeti/daemon-util"
 
 is_master() {
 	[ -z "${ganeti_master}" ] && ganeti_master="$(gnt-cluster getmaster)"

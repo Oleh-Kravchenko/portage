@@ -3366,6 +3366,11 @@ games-board/stockfish:general-32 - Generic unoptimized 32-bits build
 games-board/stockfish:general-64 - Generic unoptimized 64-bits build
 games-board/stockfish:optimize - Enable upstream -O3 optimizations (default enabled)
 games-board/tablebase-syzygy:6-pieces - Install tablebases for 6 pieces (huge!)
+games-board/teg:client - Compile the client
+games-board/teg:debug - Turn on debugging
+games-board/teg:ggz - Enable GGZ Gaming Zone support
+games-board/teg:robot - Compile the robot
+games-board/teg:server - Compile the server
 games-board/xboard:default-font - Install the default font that xboard uses
 games-board/xboard:zippy - Enable experimental zippy client
 games-emulation/dolphin:discord-presence - Enables Discord Rich Presence, show the current game on Discord
@@ -5895,6 +5900,7 @@ net-ftp/proftpd:rewrite - Enable support for the rewrite module
 net-ftp/proftpd:sftp - Enable support for the mod_sftp module and optionally mod_sftp_sql and mod_sftp_pam if matching USE flags are enabled
 net-ftp/proftpd:shaper - Enable support for the mod_shaper module
 net-ftp/proftpd:sitemisc - Enable support for the sitemisc module
+net-ftp/proftpd:sodium - Use dev-libs/libsodium for password encryption an key exchange
 net-ftp/proftpd:softquota - Enable support for the quotatab module
 net-ftp/proftpd:trace - Build with trace support. Should not be enabled on production servers
 net-ftp/proftpd:unique_id - Enable support for the mod_unique_id module, every connection gets unique ID.
