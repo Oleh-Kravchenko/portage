@@ -1,8 +1,8 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-inherit autotools eutils
+EAPI=7
+inherit autotools
 
 DESCRIPTION="display bandwidth usage on an interface"
 SRC_URI="http://www.ex-parrot.com/pdw/iftop/download/${P/_/}.tar.gz"
@@ -20,14 +20,14 @@ DEPEND="
 	${RDEPEND}
 	virtual/pkgconfig
 "
-S="${WORKDIR}"/${P/_/}
 PATCHES=(
-	"${FILESDIR}"/${P}-configure.ac.patch
-	"${FILESDIR}"/${P}-Makefile.am.patch
-	"${FILESDIR}"/${P}-tsent-set-but-not-used.patch
-	"${FILESDIR}"/${P}-ip6.arpa.patch
-	"${FILESDIR}"/${P}-fix-MAC-formatting.patch
+	"${FILESDIR}"/${PN}-1.0_pre4-configure.ac.patch
+	"${FILESDIR}"/${PN}-1.0_pre4-Makefile.am.patch
+	"${FILESDIR}"/${PN}-1.0_pre4-tsent-set-but-not-used.patch
+	"${FILESDIR}"/${PN}-1.0_pre4-ip6.arpa.patch
+	"${FILESDIR}"/${PN}-1.0_pre4-fix-MAC-formatting.patch
 )
+S="${WORKDIR}"/${P/_/}
 
 src_prepare() {
 	default
