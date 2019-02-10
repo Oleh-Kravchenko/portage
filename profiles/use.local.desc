@@ -2541,6 +2541,7 @@ dev-libs/starpu:opencl - Enable OpenCL support
 dev-libs/starpu:spinlock-check - Enable spinlock check
 dev-libs/starpu:valgrind - Enable dev-util/valgrind support
 dev-libs/sway:X - Enable support for X11 applications (XWayland)
+dev-libs/sway:clipboard - Install 'wl-clipboard': clipboard management
 dev-libs/sway:elogind - Enable support for rootless session via elogind
 dev-libs/sway:filecaps - Use Linux capability SYS_CAP_ADMIN rather than set*id for sway binary
 dev-libs/sway:fish-completion - Enable fish completion support
@@ -2554,6 +2555,10 @@ dev-libs/sway:swaymsg - Install 'swaymsg': tool for communicating with a running
 dev-libs/sway:swaynag - Install 'swaynag': shows a message with buttons
 dev-libs/sway:tray - Enable support for StatusNotifierItem tray specification
 dev-libs/sway:wallpapers - Install sway's default wallpaper image
+dev-libs/swayidle:elogind - Enable support for rootless session via elogind
+dev-libs/swayidle:fish-completion - Enable fish completion support
+dev-libs/swaylock:fish-completion - Enable fish completion support
+dev-libs/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
 dev-libs/tinyxml:stl - Compile with TIXML_USE_STL support
 dev-libs/tntnet:server - Enable tntnet server daemon
 dev-libs/totem-pl-parser:archive - Enables ISO detection with app-arch/libarchive
@@ -4876,6 +4881,7 @@ media-sound/ncmpc:async-connect - Enable asynchronous connect
 media-sound/ncmpc:chat-screen - Enable the chat screen
 media-sound/ncmpc:help-screen - Enable the help screen
 media-sound/ncmpc:key-screen - Enable key editor screen
+media-sound/ncmpc:library-screen - Enable library screen
 media-sound/ncmpc:lyrics-screen - Enable lyrics screen
 media-sound/ncmpc:mouse - Enable curses getmouse support
 media-sound/ncmpc:outputs-screen - Enable the outputs screen
@@ -5008,6 +5014,7 @@ media-sound/xwax:mp3 - Sets runtime dependencies to support decoding MP3 audio.
 media-sound/xwax:oss - Adds support for OSS (open sound system) audio input/output.
 media-sound/yarock:phonon - Use media-libs/phonon backend instead of media-video/vlc
 media-sound/yoshimi:lv2 - Add support for Ladspa V2
+media-sound/zynaddsubfx:dssi - Enable support for DSSI Soft Synth Interface
 media-tv/gentoo-vdr-scripts:nvram - Add support for using nvram-wakeup to set wakeup time in bios
 media-tv/kodi:airplay - enable AirPlay support
 media-tv/kodi:bluray - Enable playback of Blu-ray filesystems
