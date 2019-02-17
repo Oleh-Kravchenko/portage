@@ -29,16 +29,6 @@
 
 #--- END OF EXAMPLES ---
 
-# Michał Górny <mgorny@gentoo.org> (14 Feb 2019)
-# Upstream switched install paths, and we no longer use Gentoo patches
-# for that.  Masked for testing, and for binary package builds.
-=dev-python/pypy-7.0.0
-=dev-python/pypy-bin-7.0.0
-=dev-python/pypy3-7.0.0
-=dev-python/pypy3-bin-7.0.0
-=virtual/pypy-7.0.0
-=virtual/pypy3-7.0.0
-
 # Michał Górny <mgorny@gentoo.org> (13 Feb 2019)
 # Release candidate, masked for testing.
 =sys-devel/llvm-common-8.0.0_rc*
@@ -139,10 +129,6 @@ app-crypt/etcd-ca
 # Removal in 30 days, bug #675220.
 app-emulation/ganeti-htools
 
-# Mikle Kolyada <zlogene@gentoo.org> (10 Jan 2019)
-# Masked due to QA violation (bug #672054)
-sci-electronics/librepcb
-
 # Craig Andrews <candrews@gentoo.org> (1 Jan 2019)
 # Requires dev-libs/openssl-1.1.1, Bug 674148
 dev-libs/gost-engine
@@ -211,7 +197,8 @@ dev-go/sarama
 # Andreas Sturmlechner <asturm@gentoo.org> (03 Nov 2018)
 # Breaks revdeps (GDir and GDirEntry split from gfile.h into new gdir.h)
 # See tracker: https://bugs.gentoo.org/670222
->=app-text/poppler-0.71.0
+=app-text/poppler-0.71.0
+=app-text/poppler-0.72.0
 
 # Pacho Ramos <pacho@gentoo.org> (01 Nov 2018)
 # All this packages are broken and need major version bumps to fix them. See
@@ -287,8 +274,6 @@ media-libs/libglvnd
 
 # Aaron Bauman <bman@gentoo.org> (30 Apr 2018)
 # Masked for testing
-=dev-libs/libressl-2.7*
-=dev-libs/libressl-2.8*
 =dev-libs/libressl-2.9*
 
 # Brian Evans <grknight@gentoo.org> (20 Apr 2018)

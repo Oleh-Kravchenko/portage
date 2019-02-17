@@ -8282,7 +8282,10 @@ sys-devel/binutils-apple:libcxx - Add support for libcxx
 sys-devel/binutils-apple:lto - Add support for Link-Time Optimization with LLVM
 sys-devel/binutils-apple:multitarget - Compile for non-standard target architectures (ppc and ppc64) -- experimental, Gentoo only
 sys-devel/binutils-apple:tapi - Build against sys-libs/tapi
+sys-devel/binutils-hppa64:default-gold - Set ld to point to ld.gold instead of ld.bfd
+sys-devel/binutils-hppa64:gold - Build ld.gold linker
 sys-devel/binutils-hppa64:multitarget - Adds support to binutils for cross compiling (does not work with gas)
+sys-devel/binutils-hppa64:plugins - Enable plugin support in tools
 sys-devel/clang:default-compiler-rt - Use compiler-rt instead of libgcc as the default rtlib for clang
 sys-devel/clang:default-libcxx - Use libc++ instead of libstdc++ as the default stdlib for clang
 sys-devel/clang:multitarget - Build all host targets (default: host only)
@@ -8852,8 +8855,6 @@ www-plugins/freshplayerplugin:v4l - Use libv4l2 for colorspace conversion
 www-plugins/lightspark:gles - Replace default OpenGL renderer with GLESv2
 www-plugins/lightspark:ppapi - Install the PPAPI plugin (for Chromium)
 www-plugins/lightspark:rtmp - Enable Real Time Messaging Protocol using librtmp
-www-plugins/passff:firefox - Install plugin for www-client/firefox
-www-plugins/passff:firefox-bin - Install plugin for www-client/firefox-bin
 www-plugins/passff-host:chrome - Install plugin for chrome (which also includes opera)
 www-plugins/passff-host:chromium - Install plugin for chromium
 www-plugins/passff-host:firefox - Install plugin for firefox
