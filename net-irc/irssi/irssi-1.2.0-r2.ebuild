@@ -23,7 +23,7 @@ COMMON_DEPEND="
 	sys-libs/ncurses:0=
 	>=dev-libs/glib-2.6.0
 	!libressl? ( dev-libs/openssl:= )
-	libressl? ( dev-libs/libressl:= )
+	libressl? ( >=dev-libs/libressl-2.7.4:= )
 	otr? ( >=dev-libs/libgcrypt-1.2.0:0=
 		>=net-libs/libotr-4.1.0
 		!net-irc/irssi-otr )
@@ -42,13 +42,6 @@ RDEPEND="
 RESTRICT="test"
 
 S="${WORKDIR}/${MY_P}"
-
-src_prepare() {
-	default
-	if has_version '>=dev-libs/libressl-2.7.3' ; then
-		eapply "${FILESDIR}"/libressl.patch
-	fi
-}
 
 src_configure() {
 	# Disable automagic dependency on dev-libs/libutf8proc (bug #677804)
