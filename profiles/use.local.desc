@@ -3343,7 +3343,6 @@ games-arcade/performous:songs - Install a few demo songs
 games-arcade/performous:tools - Enable building of song extraction utilities for SingStar and Guitar Hero
 games-arcade/performous:webcam - Enable Webcam support
 games-arcade/savagewheels:fmod - Enable the fmod music and sound effects library
-games-arcade/slimevolley:net - Enable network support
 games-arcade/tuxanci:physfs - Use dev-games/physfs instead of dev-libs/libzip to load compressed data
 games-arcade/tuxanci:sound - Enable sound
 games-board/cockatrice:client - Build with client
@@ -4234,7 +4233,6 @@ media-gfx/darktable:kwallet - Enable encrypted storage of passwords with kde-fra
 media-gfx/darktable:opencl - Enable opencl support
 media-gfx/darktable:pax_kernel - Triggers paxmarking of main darktable binary
 media-gfx/digikam:addressbook - Enable akonadi contact integration
-media-gfx/digikam:kipi - Enable support for media-plugins/kipi-plugins
 media-gfx/digikam:lensfun - Enable support for media-libs/lensfun
 media-gfx/digikam:marble - Enable support for geolocation using kde-apps/marble
 media-gfx/digikam:mediaplayer - Enable support for media player using media-libs/qtav
