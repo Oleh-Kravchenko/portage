@@ -2536,24 +2536,6 @@ dev-libs/starpu:gcc-plugin - Enable GCC extension plugin (experimental)
 dev-libs/starpu:opencl - Enable OpenCL support
 dev-libs/starpu:spinlock-check - Enable spinlock check
 dev-libs/starpu:valgrind - Enable dev-util/valgrind support
-dev-libs/sway:X - Enable support for X11 applications (XWayland)
-dev-libs/sway:elogind - Enable support for rootless session via elogind
-dev-libs/sway:fish-completion - Enable fish completion support
-dev-libs/sway:man - Build and install man pages
-dev-libs/sway:swaybar - Install 'swaybar': sway's status bar component
-dev-libs/sway:swaybg - Install 'swaybg': allows to set a desktop background image
-dev-libs/sway:swayidle - Install 'swayidle': idle manager to run commands when user is inactive
-dev-libs/sway:swaylock - Install 'swaylock': sway's screen locker
-dev-libs/sway:swaymsg - Install 'swaymsg': tool for communicating with a running sway instance
-dev-libs/sway:swaynag - Install 'swaynag': shows a message with buttons
-dev-libs/sway:tray - Enable support for StatusNotifierItem tray specification
-dev-libs/sway:wallpapers - Install sway's default wallpaper image
-dev-libs/swayidle:elogind - Enable support for rootless session via elogind
-dev-libs/swayidle:fish-completion - Enable fish completion support
-dev-libs/swayidle:man - Build and install man pages
-dev-libs/swaylock:fish-completion - Enable fish completion support
-dev-libs/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
-dev-libs/swaylock:man - Build and install man pages
 dev-libs/tinyxml:stl - Compile with TIXML_USE_STL support
 dev-libs/tntnet:server - Enable tntnet server daemon
 dev-libs/totem-pl-parser:archive - Enables ISO detection with app-arch/libarchive
@@ -2581,11 +2563,6 @@ dev-libs/weston:xwayland - Enable ability support native X11 applications
 dev-libs/wlc:X - Enable X11 backend.
 dev-libs/wlc:systemd - Enable support for systemd-logind.
 dev-libs/wlc:xwayland - Enable XWayland application support.
-dev-libs/wlroots:X - Enable support for X11 applications (XWayland)
-dev-libs/wlroots:elogind - Enable support for rootless session via elogind
-dev-libs/wlroots:icccm - Use xcb-icccm (from x11-libs/xcb-util-wm) util library for improved Xwayland introspection
-dev-libs/wlroots:rootston - Build the rootston example compositor
-dev-libs/wlroots:x11-backend - Enable support for handling input/output devices through x11-libs/libxcb
 dev-libs/xapian:brass - Enabled brass backend db support
 dev-libs/xapian:chert - Enabled chert backend db support
 dev-libs/xapian:glass - Enabled glass backend db support
@@ -3647,6 +3624,7 @@ gnome-extra/evolution-data-server:api-doc-extras - Build documentation for priva
 gnome-extra/evolution-data-server:berkdb - sys-libs/db support needed to migrate old (pre-3.12 evolution versions) addressbook data
 gnome-extra/evolution-data-server:gnome-online-accounts - Enable net-libs/gnome-online-accounts based Google authentication support
 gnome-extra/evolution-data-server:google - Enable internal Google authentication support. If gnome-online-accounts is enabled and used, this is not necessary, but both can be supported at the same time with different setup at runtime
+gnome-extra/evolution-data-server:oauth - Enable internal OAuth2 authentication support for Google and Outlook.com. If gnome-online-accounts is enabled and used, this is not necessary, but both can be supported at the same time with different setup at runtime
 gnome-extra/evolution-data-server:weather - Enable optional weather calendar support
 gnome-extra/gnome-color-manager:packagekit - Enable support for the distro-neutral package manager GUI app-admin/packagekit
 gnome-extra/gnome-commander:chm - Enable metadata support for Microsoft Compiled HTML Help files
@@ -3684,6 +3662,29 @@ gnustep-base/gnustep-gui:speech - Audio support using app-accessibility/flite
 gnustep-base/gnustep-make:libobjc2 - Enables use of the GNUstep Objective-C runtime (gnustep-base/libobjc2) with non-fragile ABI and sys-devel/clang compiler
 gnustep-base/gnustep-make:native-exceptions - Enables use of the native Objective-C exception support (@try/@catch/@finally) built-in objective-c exceptions with compilers that support it
 gnustep-base/libobjc2:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc). Not recommended by upstream
+gui-apps/swayidle:elogind - Enable support for rootless session via elogind
+gui-apps/swayidle:fish-completion - Enable fish completion support
+gui-apps/swayidle:man - Build and install man pages
+gui-apps/swaylock:fish-completion - Enable fish completion support
+gui-apps/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
+gui-apps/swaylock:man - Build and install man pages
+gui-libs/wlroots:X - Enable support for X11 applications (XWayland)
+gui-libs/wlroots:elogind - Enable support for rootless session via elogind
+gui-libs/wlroots:icccm - Use xcb-icccm (from x11-libs/xcb-util-wm) util library for improved Xwayland introspection
+gui-libs/wlroots:rootston - Build the rootston example compositor
+gui-libs/wlroots:x11-backend - Enable support for handling input/output devices through x11-libs/libxcb
+gui-wm/sway:X - Enable support for X11 applications (XWayland)
+gui-wm/sway:elogind - Enable support for rootless session via elogind
+gui-wm/sway:fish-completion - Enable fish completion support
+gui-wm/sway:man - Build and install man pages
+gui-wm/sway:swaybar - Install 'swaybar': sway's status bar component
+gui-wm/sway:swaybg - Install 'swaybg': allows to set a desktop background image
+gui-wm/sway:swayidle - Install 'swayidle': idle manager to run commands when user is inactive
+gui-wm/sway:swaylock - Install 'swaylock': sway's screen locker
+gui-wm/sway:swaymsg - Install 'swaymsg': tool for communicating with a running sway instance
+gui-wm/sway:swaynag - Install 'swaynag': shows a message with buttons
+gui-wm/sway:tray - Enable support for StatusNotifierItem tray specification
+gui-wm/sway:wallpapers - Install sway's default wallpaper image
 kde-apps/akonadi:designer - Install plugin for dev-qt/designer
 kde-apps/akonadi:tools - Install tools for developers and testing
 kde-apps/analitza:eigen - Enable dev-cpp/eigen mathematical templates support
@@ -4156,6 +4157,8 @@ media-fonts/culmus:taamey - Install taamey fonts
 media-fonts/dejavu:fontforge - Use media-gfx/fontforge to build fonts from source
 media-fonts/fontawesome:otf - Install the OpenType version of the font
 media-fonts/fontawesome:ttf - Install the TrueType version of the font
+media-fonts/ibm-plex:otf - Install OTF fonts
+media-fonts/ibm-plex:ttf - Install TTF fonts
 media-fonts/infinality-ultimate-meta:free - Install fonts for the "free" preset
 media-fonts/infinality-ultimate-meta:latin - Install additional latin fonts
 media-fonts/infinality-ultimate-meta:minimal - Install a minimal set of fonts
@@ -9096,6 +9099,7 @@ x11-plugins/vicious:contrib - Install extra widgets, some for less common hardwa
 x11-plugins/wmfire:session - Enable session management
 x11-plugins/wmudmount:gcr - Enable support for secure memory with app-crypt/gcr
 x11-plugins/wmudmount:secret - Enable support for secret service with app-crypt/libsecret
+x11-terms/alacritty:terminfo - Use tic from sys-libs/ncurses to generate alacritty terminfo files
 x11-terms/aterm:background - Enable background image support via media-libs/libafterimage
 x11-terms/aterm:xgetdefault - Enable resources via X instead of aterm small version
 x11-terms/eterm:escreen - Enable built-in app-misc/screen support
