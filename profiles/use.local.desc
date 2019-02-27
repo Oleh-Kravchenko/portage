@@ -3623,7 +3623,7 @@ gnome-extra/cinnamon-control-center:colord - Support color management using x11-
 gnome-extra/cinnamon-settings-daemon:colord - Support color management using x11-misc/colord
 gnome-extra/eiciel:nautilus - Build gnome-base/nautilus extension
 gnome-extra/evolution-data-server:api-doc-extras - Build documentation for private APIs
-gnome-extra/evolution-data-server:berkdb - sys-libs/db support needed to migrate old (pre-3.12 evolution versions) addressbook data
+gnome-extra/evolution-data-server:berkdb - sys-libs/db support needed to migrate old (pre-3.13 evolution versions) addressbook data
 gnome-extra/evolution-data-server:gnome-online-accounts - Enable net-libs/gnome-online-accounts based Google authentication support
 gnome-extra/evolution-data-server:google - Enable internal Google authentication support. If gnome-online-accounts is enabled and used, this is not necessary, but both can be supported at the same time with different setup at runtime
 gnome-extra/evolution-data-server:oauth - Enable internal OAuth2 authentication support for Google and Outlook.com. If gnome-online-accounts is enabled and used, this is not necessary, but both can be supported at the same time with different setup at runtime
@@ -6715,7 +6715,6 @@ net-misc/networkmanager:resolvconf - Use net-dns/openresolv for managing DNS inf
 net-misc/networkmanager:teamd - Enable Teamd control support
 net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
 net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security
-net-misc/networkmanager-strongswan:glib - Enable libnm-glib compatibility.
 net-misc/nextcloud-client:dolphin - Install the kde-apps/dolphin extension
 net-misc/nextcloud-client:nautilus - Install the gnome-base/nautilus extension
 net-misc/nextcloud-client:shibboleth - Build support for Shibboleth single sign-on
@@ -7113,6 +7112,7 @@ net-vpn/ipsec-tools:nat - Enable NAT-Traversal
 net-vpn/ipsec-tools:rc5 - Enable support for the patented RC5 algorithm
 net-vpn/ipsec-tools:stats - Enable statistics reporting
 net-vpn/libreswan:dnssec - Use DNSSEC resolver (requires net-dns/unbound)
+net-vpn/networkmanager-strongswan:glib - Enable libnm-glib compatibility.
 net-vpn/openconnect:gssapi - Build GSSAPI support
 net-vpn/openconnect:java - Build JNI bindings using jni.h
 net-vpn/openconnect:libproxy - Enable proxy support
