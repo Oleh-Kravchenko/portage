@@ -5073,6 +5073,7 @@ media-tv/tvheadend:x264 - Enable transcoding with the H.264 video codec
 media-tv/tvheadend:x265 - Enable transcoding with the HEVC video codec
 media-tv/tvheadend:xmltv - Use media-tv/xmltv
 media-tv/v4l-dvb-saa716x:firmware - Install firmware
+media-tv/v4l-utils:bpf - Enables support for IR BPF decoders.
 media-tv/xmltv:ar - Argentina tv listing grabber
 media-tv/xmltv:ch_search - Grabber for Switzerland
 media-tv/xmltv:dk - Denmark tv listing grabber
@@ -9202,6 +9203,7 @@ x11-wm/i3:doc - Build and install the HTML documentation and regenerate the man 
 x11-wm/lumina:desktop-utils - Build and install lumina's desktop-utils
 x11-wm/musca:apis - Optionally install the experimental `apis' window manager
 x11-wm/musca:xlisten - Optionally install the xlisten utility
+x11-wm/mutter:elogind - Rely on sys-auth/elogind as logind provider for Wayland sessions
 x11-wm/mutter:gles2 - Enable OpenGL ES 2.0 support
 x11-wm/notion:xrandr - Add support for xrandr
 x11-wm/openbox:session - Enables support for session managers
