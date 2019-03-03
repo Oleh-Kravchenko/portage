@@ -42,12 +42,6 @@ python_prepare_all() {
 }
 
 src_test() {
-	if tc-is-gcc; then
-		# LTO fails for static libs because the bfd plugin in missing.
-		# Remove this workaround after sys-devel/gcc-config-2.0 is stable.
-		# https://bugs.gentoo.org/672706
-		tc-getPROG AR gcc-ar >/dev/null
-	fi
 	distutils-r1_src_test
 }
 
