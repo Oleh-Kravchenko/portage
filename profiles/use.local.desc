@@ -1509,6 +1509,7 @@ dev-db/mariadb-galera:systemtap - Build support for profiling and tracing using 
 dev-db/mariadb-galera:test - Install upstream testsuites for end use.
 dev-db/mariadb-galera:tokudb - Add support for TokuDB storage engine
 dev-db/mariadb-galera:yassl - Enable SSL connections and crypto functions using the bundled yaSSL
+dev-db/mongodb:lto - Adds support for link time optimization
 dev-db/mongodb:mms-agent - Install the MongoDB Monitoring Service agent
 dev-db/mongodb:tools - Install the MongoDB tools (mongoimport, mongodump...) from app-admin/mongo-tools
 dev-db/mycli:ssh - Add support for connection over SSH tunnel
@@ -3587,6 +3588,7 @@ gnome-base/gdm:plymouth - Enable support for smooth transition from sys-boot/ply
 gnome-base/gnome:classic - Install gnome-extra/gnome-shell-extensions for the Gnome Shell Classic mode
 gnome-base/gnome:extras - Install additional GNOME applications
 gnome-base/gnome-control-center:colord - Support color management using x11-misc/colord
+gnome-base/gnome-control-center:flickr - Add support for using photos from flickr as desktop background
 gnome-base/gnome-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
 gnome-base/gnome-control-center:ibus - Enable support for enhanced input methods through app-i18n/ibus
 gnome-base/gnome-desktop:license-docs - Install help files documenting GNOME's licenses
@@ -4527,6 +4529,7 @@ media-libs/mesa:unwind - Add support for stack trace unwinding and function name
 media-libs/mesa:valgrind - Compile in valgrind memory hints
 media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3D Video Layer.
 media-libs/mesa:vulkan - Enable Vulkan drivers
+media-libs/mesa:vulkan-overlay - Enable vulkan-overlay-layer for vulkan stats"
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
