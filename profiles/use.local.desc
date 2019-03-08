@@ -4530,7 +4530,7 @@ media-libs/mesa:unwind - Add support for stack trace unwinding and function name
 media-libs/mesa:valgrind - Compile in valgrind memory hints
 media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3D Video Layer.
 media-libs/mesa:vulkan - Enable Vulkan drivers
-media-libs/mesa:vulkan-overlay - Enable vulkan-overlay-layer for vulkan stats"
+media-libs/mesa:vulkan-overlay - Build vulkan-overlay-layer which displays Frames Per Second and other statistics
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
@@ -5953,7 +5953,7 @@ net-im/choqok:telepathy - Enable support for the real-time communication framewo
 net-im/corebird:spellcheck - Support spell checking
 net-im/coturn:mongodb - Enable support for the mongodb database
 net-im/coturn:redis - Enable support for the redis database
-net-im/dino:gnupg - Enable OpenPGP encryption plugin
+net-im/dino:gpg - Enable OpenPGP encryption plugin
 net-im/dino:http - Enable HTTP file upload plugin
 net-im/dino:omemo - Enable OMEMO encryption plugin
 net-im/discord-bin:pax_kernel - Triggers a paxmarking of the binary
