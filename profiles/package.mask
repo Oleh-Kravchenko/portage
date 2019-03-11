@@ -29,6 +29,10 @@
 
 #--- END OF EXAMPLES ---
 
+# Virgil Dupras <vdupras@gentoo.org> (10 Mar 2019)
+# Merged in pytest, no revdep. Removal in 30 days. Bug #668746
+dev-python/pytest-capturelog
+
 # Michał Górny <mgorny@gentoo.org> (09 Mar 2019)
 # According to bug #678914, our version is over 5 years old.  It has
 # open bugs (#671742, #671990) and is non-trivial to bump due to being
@@ -86,11 +90,6 @@ media-libs/libsub
 # Eray Aslan <eras@gentoo.org> (01 Mar 2019)
 # Mask experimental software
 =mail-mta/postfix-3.5*
-
-# Michał Górny <mgorny@gentoo.org> (24 Feb 2019)
-# Making releng key cert-only broke validating old releases.  Mask
-# the relevant version until the key is fixed.  Bug #678660.
-=app-crypt/openpgp-keys-gentoo-release-20190223
 
 # Andreas K. Huettel <dilfridge@gentoo.org> (23 Feb 2019)
 # Fails to build with glibc-2.28, bug 669206.
