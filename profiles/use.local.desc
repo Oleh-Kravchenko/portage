@@ -503,6 +503,10 @@ app-emulation/docker-runc:apparmor - Enable AppArmor support
 app-emulation/dosemu:fluidsynth - use media-sound/fluidsynth for MIDI emulation
 app-emulation/e-uae:capslib - Add CAPS library support
 app-emulation/e-uae:sdl-sound - Use media-libs/sdl-sound for audio output
+app-emulation/faudio:ffmpeg - FAudio has optional support for decoding xWMA resources using FFmpeg, requiring: media-video/ffmpeg (note: this feature is not supported by media-video/libav).
+app-emulation/faudio:test - Build and run faudio testsuite.
+app-emulation/faudio:utils - Build all faudio utilties.
+app-emulation/faudio:xnasong - Build support for optional XNG_SONG component (note: this not required by app-emulation/wine-staging, app-emulation/wine-vanilla for faudio XAudio support).
 app-emulation/free42:alsa - Adds support for Advanced Linux Sound Architecture
 app-emulation/fuse:backend-X - Use X11 rendering backend
 app-emulation/fuse:backend-fbcon - Use framebuffer rendering backend
@@ -712,6 +716,7 @@ app-emulation/wine-d3d9:vulkan - Enable Vulkan drivers
 app-emulation/wine-staging:capi - Enable ISDN support via CAPI
 app-emulation/wine-staging:custom-cflags - Bypass strip-flags; use at your own peril
 app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-staging:faudio - Pull in app-emulation/faudio to provide XAudio2 functionality
 app-emulation/wine-staging:ffmpeg - Use media-video/ffmpeg to decode WMA formats
 app-emulation/wine-staging:gecko - Add support for the Gecko engine when using iexplore
 app-emulation/wine-staging:gssapi - Use GSSAPI (Kerberos SSP support)
@@ -736,6 +741,7 @@ app-emulation/wine-staging:vulkan - Enable Vulkan drivers
 app-emulation/wine-vanilla:capi - Enable ISDN support via CAPI
 app-emulation/wine-vanilla:custom-cflags - Bypass strip-flags; use at your own peril
 app-emulation/wine-vanilla:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-vanilla:faudio - Pull in app-emulation/faudio to provide XAudio2 functionality
 app-emulation/wine-vanilla:gecko - Add support for the Gecko engine when using iexplore
 app-emulation/wine-vanilla:gssapi - Use GSSAPI (Kerberos SSP support)
 app-emulation/wine-vanilla:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
