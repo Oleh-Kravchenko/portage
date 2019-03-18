@@ -505,7 +505,7 @@ app-emulation/e-uae:capslib - Add CAPS library support
 app-emulation/e-uae:sdl-sound - Use media-libs/sdl-sound for audio output
 app-emulation/faudio:ffmpeg - FAudio has optional support for decoding xWMA resources using FFmpeg, requiring: media-video/ffmpeg (note: this feature is not supported by media-video/libav).
 app-emulation/faudio:test - Build and run faudio testsuite.
-app-emulation/faudio:utils - Build all faudio utilties.
+app-emulation/faudio:utils - Build all faudio utilities.
 app-emulation/faudio:xnasong - Build support for optional XNG_SONG component (note: this not required by app-emulation/wine-staging, app-emulation/wine-vanilla for faudio XAudio support).
 app-emulation/free42:alsa - Adds support for Advanced Linux Sound Architecture
 app-emulation/fuse:backend-X - Use X11 rendering backend
@@ -2499,6 +2499,7 @@ dev-libs/libverto:libevent - Support event loops using dev-libs/libevent
 dev-libs/libverto:tevent - Support event loops using sys-libs/tevent
 dev-libs/libxmlb:stemmer - Enable language stemming support
 dev-libs/libzia:ftdi - Enable support for FTDI USB chips
+dev-libs/libzip:mbedtls - Use net-libs/mbedtls as TLS provider
 dev-libs/link-grammar:aspell - Adds support for app-text/aspell spell checker
 dev-libs/link-grammar:hunspell - Adds support for app-text/hunspell spell checker
 dev-libs/log4cplus:iconv - Use inconv for wchar_t <-> char conversions. See also log4cplus's unicode.txt documentation
@@ -2996,6 +2997,7 @@ dev-qt/qtwebkit:printsupport - Enable printing via dev-qt/qtprintsupport
 dev-qt/qtwebkit:qml - Build QML/QtQuick bindings
 dev-qt/qtwebsockets:qml - Build QML bindings
 dev-qt/qtwidgets:gles2 - Use GLES 2.0 or later instead of full OpenGL
+dev-qt/qtxmlpatterns:qml - Build the XmlListModel import for QtQuick (requires QtDeclarative)
 dev-ros/rosbag:lz4 - Add support for lz4 compressed bags.
 dev-ros/rosconsole:glog - Use dev-cpp/glog as log backend.
 dev-ros/rosconsole:log4cxx - Use dev-libs/log4cxx as log backend.
@@ -3029,7 +3031,6 @@ dev-scheme/guile:discouraged - (implied by deprecated) enable merely discouraged
 dev-scheme/guile:networking - Include networking interfaces
 dev-scheme/guile:regex - Include regular expression interfaces
 dev-scheme/kawa:awt - Assume AWT is available
-dev-scheme/kawa:echo2 - Enable support for the Echo2 web toolkit with dev-java/echo2
 dev-scheme/kawa:frontend - Build "kawa" front-end program using sys-libs/readline
 dev-scheme/kawa:jemacs - Build JEmacs
 dev-scheme/kawa:krl - Build BRL emulation and KRL
@@ -3645,6 +3646,7 @@ gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files 
 gnome-base/nautilus:tracker - Add support for app-misc/tracker search
 gnome-base/orbit:pic - Force libname-server-2 to be built as PIC; needed on hardened systems
 gnome-extra/cinnamon-control-center:colord - Support color management using x11-misc/colord
+gnome-extra/cinnamon-session:elogind - Rely on sys-auth/elogind as runtime logind provider
 gnome-extra/cinnamon-settings-daemon:colord - Support color management using x11-misc/colord
 gnome-extra/eiciel:nautilus - Build gnome-base/nautilus extension
 gnome-extra/evolution-data-server:api-doc-extras - Build documentation for private APIs
@@ -4369,6 +4371,7 @@ media-gfx/pstoedit:flash - Enable media-libs/ming SWF support
 media-gfx/pstoedit:pptx - Enable support for generating PowerPoint pptx files
 media-gfx/qimgv:video - Add support for gif/webm playback via libmpv
 media-gfx/qiv:magic - Use libmagic to determine mimetypes
+media-gfx/shotwell:opencv - Enable face detection via media-libs/opencv
 media-gfx/sigal:s3 - Enables support for the Amazon S3 service.
 media-gfx/simple-scan:colord - Support color management using x11-misc/colord
 media-gfx/slic3r:gui - Enable GUI
@@ -6823,7 +6826,8 @@ net-misc/ptpd:slave-only - Enable slave only operation (remove master mode funct
 net-misc/ptpd:snmp - Require net-analyzer/net-snmp to enable SNMP configuration
 net-misc/ptpd:statistics - Enable compution of statistics
 net-misc/putty:gssapi - Enable support for GSSAPI (virtual/krb5)
-net-misc/putty:gtk - Build the PuTTY client which requires x11-libs/gtk+:3. If disabled only the CLI tools puttygen, plink, pscp and psftp will be built.
+net-misc/putty:gtk - Build the PuTTY client which requires x11-libs/gtk+. If disabled only the CLI tools puttygen, plink, pscp and psftp will be built
+net-misc/putty:gtk2 - Build the PuTTY client with x11-libs/gtk+:2 instead of x11-libs/gtk+:3
 net-misc/quagga:bgpclassless - Apply unofficial patch to enable classless prefixes for BGP. Patch and information to be found at http://hasso.linux.ee/doku.php/english:network:quagga
 net-misc/quagga:fpm - Enable Forwarding Plane Manager support
 net-misc/quagga:multipath - Enable multipath routes support for any number of routes
