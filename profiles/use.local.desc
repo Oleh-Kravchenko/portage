@@ -2782,6 +2782,7 @@ dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
 dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
 dev-python/dap:server - Enable OpenDAP server support
 dev-python/dask:distributed - Add support for distributed computing with dev-python/distributed
+dev-python/drf-yasg:validation - Enable swagger spec validation using swagger-spec-validator
 dev-python/editorconfig-core-py:cli - Install command line interface as well as python library
 dev-python/fabric:fab2 - Install as "fab2", allowing side-by-side install with fabric 1.x
 dev-python/falcon:cython - Build cython-based python modules
@@ -4793,11 +4794,13 @@ media-sound/clementine:projectm - Build with ProjectM visualization
 media-sound/clementine:seafile - Enable support for seafile: a file sync service
 media-sound/clementine:skydrive - Enable Skydrive support
 media-sound/clementine:wiimote - Enable support for Wii remote
-media-sound/cmus:cdio - use libcdio for CD support
-media-sound/cmus:cue - enable CUE sheet parsing
-media-sound/cmus:discid - enable reading the ID of the inserted CD
-media-sound/cmus:pidgin - install support script for net-im/pidgin
-media-sound/cmus:tremor - use libivorbis from media-libs/tremor instead of media-libs/libvorbis
+media-sound/cmus:cdio - Use libcdio for CD support
+media-sound/cmus:cue - Enable CUE sheet parsing
+media-sound/cmus:discid - Enable reading the ID of the inserted CD
+media-sound/cmus:elogind - Enable MPRIS support via sys-auth/elogind
+media-sound/cmus:pidgin - Install support script for net-im/pidgin
+media-sound/cmus:systemd - Enable MPRIS support via sys-apps/systemd
+media-sound/cmus:tremor - Use libivorbis from media-libs/tremor instead of media-libs/libvorbis
 media-sound/csound:beats - Build the beats score frontend
 media-sound/csound:chua - Build the chua opcodes
 media-sound/csound:csoundac - Build the CsoundAC extension module
@@ -7572,6 +7575,12 @@ sci-libs/lapack-reference:deprecated - Build deprecated routines
 sci-libs/lemon:coin - Enable the sci-libs/coinor-clp and sci-libs/coinor-cbc graph algorithms
 sci-libs/lemon:glpk - Enable GNU Linear Programming Kit sci-mathematics/glpk support
 sci-libs/libccd:double - Use double precision floats.
+sci-libs/libgeodecomp:cuda - Enables plugins for NVIDIA GPUs
+sci-libs/libgeodecomp:hpx - Enables HPX backend
+sci-libs/libgeodecomp:opencl - Enables OpenCL backend
+sci-libs/libgeodecomp:opencv - Enables OpenCV related code
+sci-libs/libgeodecomp:silo - Enables SILO related code
+sci-libs/libgeodecomp:visit - Enables VisIt related code
 sci-libs/libghemical:mopac7 - Use sci-chemistry/mopac7 for semi-empirical calculations
 sci-libs/libghemical:mpqc - Use sci-chemistry/mpqc for quantum-mechanical calculations
 sci-libs/libsc:romio - Build with support for the ROMIO MPI-IO component
@@ -8194,11 +8203,14 @@ sys-cluster/ceph:cephfs - Build support for cephfs, a POSIX compatible filesyste
 sys-cluster/ceph:cryptopp - Use dev-libs/crypto++ for cryptography
 sys-cluster/ceph:dpdk - Enable DPDK messaging
 sys-cluster/ceph:fuse - Build fuse client
+sys-cluster/ceph:grafana - Install grafana dashboards
 sys-cluster/ceph:libaio - Use libaio as asynchronous input/output library
 sys-cluster/ceph:libatomic - Use libatomic instead of builtin atomic operations
 sys-cluster/ceph:lttng - Add support for LTTng
 sys-cluster/ceph:mgr - Build the ceph-mgr daemon
 sys-cluster/ceph:nss - Use dev-libs/nss for cryptography
+sys-cluster/ceph:numa - Use sys-process/numactl for numa support in rocksdb
+sys-cluster/ceph:rabbitmq - Use rabbitmq-c to build rgw amqp push endpoint
 sys-cluster/ceph:radosgw - Add radosgw support
 sys-cluster/ceph:system-boost - Use system dev-libs/boost instead of the bundled one
 sys-cluster/ceph:xfs - Add xfs support
@@ -8831,6 +8843,7 @@ www-client/firefox:lto - Enable Link Time Optimization (LTO). Requires Gold link
 www-client/firefox:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
 www-client/firefox:rust - Enable support for using rust compiler (experimental)
 www-client/firefox:screenshot - Allow to disable screenshot extension in global profile
+www-client/firefox:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
 www-client/firefox:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
 www-client/firefox:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
 www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled.

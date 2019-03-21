@@ -29,6 +29,13 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (20 Mar 2019)
+# Unmaintained since 2015, with occasional uncoordinated updates
+# by varying developers.  The current version is outdated, and fails
+# to build.
+# Removal in 30 days.  Bug #669604.
+dev-util/trinity
+
 # Miroslav Šulc <fordfrog@gentoo.org> (19 Mar 2019)
 # Depends on >=virtual/{jdk,jre}-11 which is masked
 =www-servers/tomcat-9.0.17
@@ -70,12 +77,6 @@ dev-vcs/bzr-fastimport
 dev-vcs/git-bzr-ng
 
 # Michał Górny <mgorny@gentoo.org> (17 Mar 2019)
-# Live ebuild adde in 2012 and not touched by the maintainer since.
-# Never seen a release ebuild or a snapshot.
-# Removal in 30 days.  Bug #680790.
-x11-misc/simpleswitcher
-
-# Michał Górny <mgorny@gentoo.org> (17 Mar 2019)
 # Added in 2012, started to fail at digest verification shortly
 # afterwards and not mirrored by Gentoo.  Not touched by maintainer
 # since.
@@ -89,10 +90,6 @@ x11-misc/xwinwrap
 # is a suitable (and more frequently updated) replacement.
 # Removal in 30 days.  Bug #407381.
 media-video/get_flash_videos
-
-# Lars Wendler <polynomial-c@gentoo.org> (17 Mar 2019)
-# Breaks user crontab (#680764)
-=sys-process/cronie-1.5.3-r1
 
 # Michał Górny <mgorny@gentoo.org> (16 Mar 2019)
 # The current Gentoo version has been added in 2011, and a bump is
@@ -414,26 +411,6 @@ media-libs/libsub
 # Fails to build with glibc-2.28, bug 669206.
 # Removal in 30 days.
 app-arch/freeze
-
-# Michał Górny <mgorny@gentoo.org> (13 Feb 2019)
-# Release candidate, masked for testing.
-=sys-devel/llvm-common-8.0.0_rc*
-=sys-devel/llvm-8.0.0_rc*
-=sys-devel/llvmgold-8
-=dev-python/lit-8.0.0_rc*
-=dev-ml/llvm-ocaml-8.0.0_rc*
-=sys-devel/lld-8.0.0_rc*
-=sys-devel/clang-common-8.0.0_rc*
-=sys-devel/clang-8.0.0_rc*
-=dev-python/clang-python-8.0.0_rc*
-=dev-util/lldb-8.0.0_rc*
-=sys-libs/compiler-rt-8.0.0_rc*
-=sys-libs/compiler-rt-sanitizers-8.0.0_rc*
-=sys-libs/llvm-libunwind-8.0.0_rc*
-=sys-libs/libcxxabi-8.0.0_rc*
-=sys-libs/libcxx-8.0.0_rc*
-=sys-libs/libomp-8.0.0_rc*
-=sys-devel/clang-runtime-8.0.0_rc*
 
 # Miroslav Šulc <fordfrog@gentoo.org> (10 Feb 2019)
 # Depends on >=virtual/{jdk,jre}-11 which is masked
