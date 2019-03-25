@@ -4780,6 +4780,8 @@ media-sound/beets:replaygain - Enable support for Replay Gain metadata calculati
 media-sound/beets:thumbnail - Enable album thumbnails generation
 media-sound/beets:webserver - Enable embedded webserver support through dev-python/flask
 media-sound/bluez-alsa:hcitop - Enable top-like monitoring tool for HCI
+media-sound/bluez-alsa:ldac - Enable support for AOSP media-libs/libldac dispatcher
+media-sound/bluez-alsa:ofono - Enable ofono elephony support
 media-sound/cantata:cdio - Use dev-libs/libcdio-paranoia for CD support (instead of cdparanoia)
 media-sound/cantata:http-server - Enable internal HTTP server to play non-MPD files
 media-sound/cantata:replaygain - Enable ReplayGain support, for relative volume adjustments
@@ -6020,9 +6022,20 @@ net-im/ekg2:sqlite - Support logging messages into SQLite3 database.
 net-im/empathy:gnome-online-accounts - Enable using net-libs/gnome-online-accounts for authorization (e.g. for Google Talk)
 net-im/empathy:map - Enable world map support through media-libs/libchamplain
 net-im/err:irc - Pull optional dependencies, needed for IRC backend
+net-im/gajim:crypt - End to end encryption and GPG encryption
+net-im/gajim:geolocation - Sharing your location
 net-im/gajim:idle - Enable idle module
+net-im/gajim:jingle - Audio and video calls
+net-im/gajim:keyring - Saving your password to your system keyring
+net-im/gajim:networkmanager - Network lose detection using NetworkManager
+net-im/gajim:remote - Controling Gajim instance from command line with gajim-remote
+net-im/gajim:rst - Generating XHTML output from RST code
+net-im/gajim:spell - Spellchecking of composed messages
 net-im/gajim:srv - SRV capabilities
+net-im/gajim:upnp - Ability to request your router to forward port for file transfer
+net-im/gajim:webp - Support WebP avatars
 net-im/gajim:xhtml - Enable XHTML support
+net-im/gajim:zeroconf - Serverless chatting with autodetected clients in a local network
 net-im/gitter-bin:pax_kernel - Triggers a paxmarking of the binary
 net-im/kadu:gadu - Enables Gadu communication protocol
 net-im/kadu:mpd - Enables Music Player Daemon support
@@ -7203,7 +7216,6 @@ net-vpn/tinc:uml - Enable support for User Mode Linux Sockets
 net-vpn/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
 net-vpn/tor:scrypt - Use app-crypt/libscrypt for the scrypt algorithm
 net-vpn/tor:tor-hardening - Compile tor with hardening on vanilla compilers/linkers
-net-vpn/tor:web - Build a tor2web service instead of a tor client
 net-vpn/tor:zstd - Use app-arch/zstd for compression
 net-vpn/vpnc:resolvconf - Enable support for DNS managing framework net-dns/openresolv
 net-vpn/wireguard:debug - Enable verbose debug reporting in dmesg of various WireGuard peer and device information.
