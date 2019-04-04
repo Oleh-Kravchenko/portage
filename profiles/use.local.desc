@@ -3693,6 +3693,7 @@ gnome-extra/synapse:indicator - Build support for application indicators using d
 gnome-extra/synapse:plugins - Build support for plugins using net-libs/rest
 gnustep-apps/gemas:projectcenter - Build and install plugin for gnustep-apps/projectcenter
 gnustep-apps/gworkspace:gwmetadata - Enable the metadata indexing and searching system
+gnustep-apps/sogo:activesync - Build the ActiveSync support code
 gnustep-base/gnustep-back-art:xim - Enable X11 XiM input method
 gnustep-base/gnustep-back-cairo:xim - Enable X11 XiM input method
 gnustep-base/gnustep-back-xlib:xim - Enable X11 XiM input method
@@ -4501,6 +4502,10 @@ media-libs/libmypaint:gegl - Add support for media-libs/gegl
 media-libs/libopenglrecorder:openh264 - Enable H.264 support using media-libs/openh264
 media-libs/libopenglrecorder:vpx - Enable VP8/VP9 codec support via media-libs/libvpx
 media-libs/libpagemaker:tools - Build command line file format conversion tools
+media-libs/libplacebo:glslang - Use dev-util/glslang to compile GLSL
+media-libs/libplacebo:lcms - Add support for color management via media-libs/lcms
+media-libs/libplacebo:shaderc - Use media-libs/shaderc to compile GLSL
+media-libs/libplacebo:vulkan - Add support for the vulkan graphics API
 media-libs/libpng:apng - support unofficial APNG (Animated PNG) spec
 media-libs/libpostproc:pic - Force shared libraries to be built as PIC (this is slower).
 media-libs/libprojectm:gles2 - Provide support for OpenGL ES 2 and 3
