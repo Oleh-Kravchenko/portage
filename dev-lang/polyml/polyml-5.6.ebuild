@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="6"
@@ -19,6 +19,11 @@ RDEPEND="X? ( x11-libs/motif:0 )
 		elibc_glibc? ( threads? ( >=sys-libs/glibc-2.13 ) )
 		virtual/libffi"
 DEPEND="${RDEPEND}"
+
+PATCHES=(
+	"${FILESDIR}"/${P}-configure.patch
+	"${FILESDIR}"/${P}-ffi3.patch
+)
 
 src_prepare() {
 	default
