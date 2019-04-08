@@ -5,7 +5,7 @@ EAPI=6
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib multiprocessing
 
-PATCH_VER=1
+PATCH_VER=2
 CROSS_VER=1.2.2
 PATCH_BASE="perl-5.28.2-patches-${PATCH_VER}"
 PATCH_DEV=dilfridge
@@ -15,7 +15,8 @@ DIST_AUTHOR=XSAWYERX
 # Greatest first, don't include yourself
 # Devel point-releases are not ABI-intercompatible, but stable point releases are
 # BIN_OLDVERSEN is contains only C-ABI-intercompatible versions
-PERL_BIN_OLDVERSEN=""
+PERL_BIN_OLDVERSEN="5.28.0"
+
 if [[ "${PV##*.}" == "9999" ]]; then
 	DIST_VERSION=5.28.0
 else
