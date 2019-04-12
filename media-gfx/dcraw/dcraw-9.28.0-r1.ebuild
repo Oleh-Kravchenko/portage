@@ -22,7 +22,8 @@ COMMON_DEPEND="
 	jpeg2k? ( media-libs/jasper:= )
 	gimp? ( media-gfx/gimp )
 "
-DEPEND="${COMMON_DEPEND}
+DEPEND="${COMMON_DEPEND}"
+BDEPEND="
 	nls? ( sys-devel/gettext )
 	gimp? ( virtual/pkgconfig )
 "
@@ -45,11 +46,6 @@ DOC_CONTENTS="
 	camera formats that have them, and shows table contents.
 "
 
-PATCHES=(
-	# Support gimp-2.10, bug #655390
-	"${FILESDIR}"/${PN}-9.28.0-gimp-2.10.patch
-)
-
 run_build() {
 	einfo "${@}"
 	${@} || die
@@ -57,6 +53,10 @@ run_build() {
 
 src_prepare() {
 	default
+
+	# Support gimp-2.10, bug #655390
+	use gimp && eapply "${FILESDIR}"/${PN}-9.28.0-gimp-2.10.patch
+
 	rename dcraw_ dcraw. dcraw_*.1 || die "Failed to rename"
 }
 
