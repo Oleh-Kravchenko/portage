@@ -425,6 +425,7 @@ app-editors/gedit-plugins:terminal - Embed a terminal in the bottom pane
 app-editors/gnome-latex:latexmk - Install dev-tex/latexmk (used by default for the build tools)
 app-editors/gnome-latex:rubber - Install dev-tex/rubber (can be used for the build tools)
 app-editors/gvim:cscope - Enable cscope interface
+app-editors/gvim:gtk2 - Enable GTK+2 interface
 app-editors/gvim:gtk3 - Enable GTK+3 interface
 app-editors/gvim:netbeans - Include netbeans external editor integration support
 app-editors/gvim:racket - Enable support for Scheme using dev-scheme/racket
@@ -2872,6 +2873,12 @@ dev-python/sympy:symengine - Add support for a dev-python/symengine backend
 dev-python/sympy:texmacs - Add app-office/texmacs interface
 dev-python/sympy:theano - Add support for dev-python/theano
 dev-python/tappy:yaml - Pull dependencies needed to support YAML blocks associated with test results.
+dev-python/tinyrpc:gevent - Add support for gevent
+dev-python/tinyrpc:httpclient - Add support for httpclient
+dev-python/tinyrpc:jsonext - Add support for jsonext
+dev-python/tinyrpc:websocket - Add support for websocket
+dev-python/tinyrpc:wsgi - Add support for wsgi
+dev-python/tinyrpc:zmq - Add support for zmq
 dev-python/translate-toolkit:html - Support conversion between po and html files
 dev-python/translate-toolkit:ical - Support conversion between po and ical files
 dev-python/translate-toolkit:ini - Support conversion between po and ini files
@@ -8322,6 +8329,7 @@ sys-cluster/openstack-meta:heat - Installs Openstack Heat
 sys-cluster/openstack-meta:keystone - Installs Openstack Keystone
 sys-cluster/openstack-meta:neutron - Installs Openstack Neutron
 sys-cluster/openstack-meta:nova - Installs Openstack Nova
+sys-cluster/openstack-meta:placement - Installs Openstack Placement
 sys-cluster/openstack-meta:swift - Installs Openstack Swift
 sys-cluster/pacemaker:heartbeat - Enable sys-cluster/heartbeat support.
 sys-cluster/pacemaker:smtp - Enable SMTP support via net-libs/libesmtp
