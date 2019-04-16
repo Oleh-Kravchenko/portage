@@ -2320,8 +2320,10 @@ dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) l
 dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
 dev-libs/boost:nls - Build libboost_locale. This library requires compatible C library interfaces, which might not be provided by uClibc or other embedded libraries.
+dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
 dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
+dev-libs/boost:zstd - Enable zstd compression support in Boost.Iostreams
 dev-libs/botan:boost - use dev-libs/boost
 dev-libs/c-blosc:lz4 - Enable lz4 compression
 dev-libs/c-blosc:snappy - Enable snappy compression
@@ -3296,6 +3298,7 @@ dev-vcs/gitolite-gentoo:contrib - Install user-contributed files
 dev-vcs/gitolite-gentoo:tools - Install tools to e.g. convert a Gitosis config to gitolite or one to check if your setup is gitolite >= 3.x compatible
 dev-vcs/kdesvn:man - Build and install man pages
 dev-vcs/mercurial:bugzilla - Support bugzilla integration.
+dev-vcs/mercurial:chg - Support Mercurial command server client
 dev-vcs/mercurial:gpg - Support signing with GnuPG.
 dev-vcs/mercurial:tk - Install dev-lang/tk for hgk script.
 dev-vcs/rabbitvcs:caja - Enable extension for mate-base/caja
@@ -8221,12 +8224,9 @@ sys-boot/refind:reiserfs - Builds the EFI binary reiserfs filesystem driver
 sys-boot/woeusb:minimal - Install only woeusb tool
 sys-cluster/ceph:babeltrace - Add support for LTTng babeltrace
 sys-cluster/ceph:cephfs - Build support for cephfs, a POSIX compatible filesystem built on top of ceph
-sys-cluster/ceph:cryptopp - Use dev-libs/crypto++ for cryptography
 sys-cluster/ceph:dpdk - Enable DPDK messaging
 sys-cluster/ceph:fuse - Build fuse client
 sys-cluster/ceph:grafana - Install grafana dashboards
-sys-cluster/ceph:libaio - Use libaio as asynchronous input/output library
-sys-cluster/ceph:libatomic - Use libatomic instead of builtin atomic operations
 sys-cluster/ceph:lttng - Add support for LTTng
 sys-cluster/ceph:mgr - Build the ceph-mgr daemon
 sys-cluster/ceph:nss - Use dev-libs/nss for cryptography
