@@ -15,7 +15,7 @@ if [[ ${PV} == *9999* ]]; then
 	SRC_URI=""
 else
 	SRC_URI="https://download.ceph.com/tarballs/${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="~amd64 ~arm64 ~x86"
 fi
 
 DESCRIPTION="Ceph distributed filesystem"
@@ -72,7 +72,7 @@ COMMON_DEPEND="
 		)
 	)
 	system-boost? (
-		>=dev-libs/boost-1.67:=[threads,context,python,static-libs?,${PYTHON_USEDEP}]
+		~dev-libs/boost-1.67:=[threads,context,python,static-libs?,${PYTHON_USEDEP}]
 	)
 	jemalloc? ( dev-libs/jemalloc:=[static-libs?] )
 	!jemalloc? ( >=dev-util/google-perftools-2.4:=[static-libs?] )
