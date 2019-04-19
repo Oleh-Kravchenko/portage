@@ -27,10 +27,10 @@ REQUIRED_USE="
 
 # most unconditional dependencies are for plugins.d/charts.d.plugin:
 RDEPEND="
+	app-misc/jq
 	>=app-shells/bash-4:0
 	|| (
 		net-analyzer/openbsd-netcat
-		net-analyzer/netcat6
 		net-analyzer/netcat
 	)
 	net-analyzer/tcpdump
