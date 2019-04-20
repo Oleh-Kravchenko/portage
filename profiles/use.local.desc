@@ -2005,7 +2005,6 @@ dev-java/oracle-jre-bin:headless-awt - Don't install the X backend for AWT, need
 dev-java/oracle-jre-bin:javafx - Install JavaFX libraries
 dev-java/oracle-jre-bin:jce - Install Java Cryptographic Extension Unlimited Strength Jurisdiction Policy Files
 dev-java/proguard:ant - Ant task for using ProGuard in build.xml scripts
-dev-java/protobuf-java:nano - Enable code generator and runtime library designed specifically for resource-constrained systems, like Android
 dev-java/rxtx:lfd - Installs and uses LockFileServer daemon (lfd)
 dev-java/sbt:binary - Install from (Gentoo-compiled) binary instead of building from sources. Set this when you run out of memory during build.
 dev-lang/bas:lr0 - Use the LR0 parser instead of the recursive descending parser
@@ -5571,6 +5570,7 @@ net-analyzer/netdata:ipmi - Install sys-apps/ipmitool required for monitoring IP
 net-analyzer/netdata:nfacct - Enable the nfacct plugin
 net-analyzer/netdata:nodejs - Enable use of nodejs (which some plugins use)
 net-analyzer/netdata:tor - Enable monitoring of tor
+net-analyzer/netdata:xen - Enable monitoring of xen
 net-analyzer/netperf:demo - Emit interim results during the run. May affect results
 net-analyzer/nfdump:compat15 - Enable read support for nfdump data files created with nfdump 1.5.x
 net-analyzer/nfdump:ftconv - Build the flow-tools to nfdump converter
@@ -5754,6 +5754,7 @@ net-dialup/ppp:ipv6 - Enables support for IP version 6
 net-dialup/ppp:pam - Enables PAM (Pluggable Authentication Modules) support
 net-dialup/ppp:radius - Enables RADIUS support
 net-dialup/xl2tpd:dnsretry - Patch for host lookup retries, activated by redial feature
+net-dialup/xl2tpd:kernel - Enable kernel interface for PPPoL2TP
 net-dns/avahi:autoipd - Build and install the IPv4LL (RFC3927) network address configuration daemon
 net-dns/avahi:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted-core and dev-python/twisted-web)
 net-dns/avahi:gtk3 - Build the avahi-ui-gtk3 library, and use gtk3 for the avahi utilities under USE=utils
@@ -5812,7 +5813,6 @@ net-dns/knot:libidn2 - If IDN support is enabled, use net-dns/libidn2 instead of
 net-dns/knot:noudp - Enable the module which can send empty truncated responses to UDP queries
 net-dns/knot:onlinesign - Enable the module that sign zones on the fly instead of pre-signing zone
 net-dns/knot:queryacl - Enable the module for query access control
-net-dns/knot:rosedb - Enable the module that staticaly override certain responses
 net-dns/knot:rrl - Enable the response rate limiting module
 net-dns/knot:stats - Enable the server statistics module
 net-dns/knot:synthrecord - Enable the automatic forward/reverse records module
@@ -6435,15 +6435,10 @@ net-mail/cyrus-imapd:sphinx - Enable Sphinx search engine support
 net-mail/cyrus-imapd:xapian - Enable Xapian search engine support
 net-mail/dbmail:sieve - Enable sieve filter support
 net-mail/dovecot:argon2 - Add support for ARGON2 password schemes
-net-mail/dovecot:cydir - Add cydir storage support
-net-mail/dovecot:imapc - Add imap client storage support
 net-mail/dovecot:lucene - Add lucene full text search (FTS) support using dev-cpp/clucene
 net-mail/dovecot:lz4 - Add support for lz4 (de)compression
 net-mail/dovecot:lzma - Add support for lzma (de)compression
 net-mail/dovecot:managesieve - Add managesieve protocol support
-net-mail/dovecot:mdbox - Add mdbox storage support
-net-mail/dovecot:pop3c - Add pop3 client storage support
-net-mail/dovecot:sdbox - Add sdbox storage support
 net-mail/dovecot:sieve - Add sieve support
 net-mail/dovecot:solr - Add solr full text search (FTS) support
 net-mail/dovecot:textcat - Add libtextcat language guessing support for full text search (FTS)
