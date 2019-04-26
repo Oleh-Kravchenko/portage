@@ -1731,7 +1731,7 @@
       <name>Alexey Shvetsov</name>
       <role>Developer</role>
     </member>
-    <member>
+    <member is-lead="1">
       <email>asturm@gentoo.org</email>
       <name>Andreas Sturmlechner</name>
       <role>Developer</role>
@@ -2979,10 +2979,10 @@
       <name>Michael Palimaka</name>
       <role>Developer</role>
     </member>
-    <member is-lead="1">
+    <member>
       <email>pesa@gentoo.org</email>
       <name>Davide Pesavento</name>
-      <role>Lead</role>
+      <role>Developer</role>
     </member>
   </project>
   <project>
