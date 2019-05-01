@@ -3615,6 +3615,7 @@ games-strategy/uqm:voice - download and install voice files (large)
 games-strategy/wesnoth:fribidi - Support for right-to-left languages
 games-strategy/wesnoth:server - Enable compilation of server
 games-util/gslist:web - Enable the web interface
+games-util/lgogdownloader:gui - Enable GUI login support for passing reCAPTCHA
 games-util/pyfa:graph - Enable support for graphs
 games-util/wit:fuse - Enable image mount support via fuse
 gnome-base/gconf:ldap - Build backend which enables default mail accounts, addressbooks and calendars for Evolution to be configured using each user's LDAP entry."
@@ -3712,6 +3713,7 @@ gnustep-base/gnustep-make:libobjc2 - Enables use of the GNUstep Objective-C runt
 gnustep-base/gnustep-make:native-exceptions - Enables use of the native Objective-C exception support (@try/@catch/@finally) built-in objective-c exceptions with compilers that support it
 gnustep-base/libobjc2:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc). Not recommended by upstream
 gui-apps/mako:icons - Enable support for icons
+gui-apps/swaybg:man - Build and install man pages
 gui-apps/swayidle:elogind - Enable support for rootless session via elogind
 gui-apps/swayidle:fish-completion - Enable fish completion support
 gui-apps/swayidle:man - Build and install man pages
