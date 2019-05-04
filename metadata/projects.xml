@@ -1634,13 +1634,13 @@
       <role>General system administration, Blogs, Planet</role>
     </member>
     <member>
-      <email>grknight@gentoo.org</email>
-      <name>Brian Evans</name>
+      <email>bman@gentoo.org</email>
+      <name>Aaron Bauman</name>
+      <role>Minion</role>
     </member>
     <member>
-      <email>idl0r@gentoo.org</email>
-      <name>Christian Ruppert</name>
-      <role>Bugzilla, General system administration</role>
+      <email>grknight@gentoo.org</email>
+      <name>Brian Evans</name>
     </member>
     <member>
       <email>jmbsvicetto@gentoo.org</email>
@@ -1671,11 +1671,6 @@
       <email>zlogene@gentoo.org</email>
       <name>Mikle Kolyada</name>
       <role>General system administration</role>
-    </member>
-    <member>
-      <email>zx2c4@gentoo.org</email>
-      <name>Jason A. Donenfeld</name>
-      <role>General system administration, git</role>
     </member>
   </project>
   <project>
@@ -3983,21 +3978,19 @@
     <name>Wine</name>
     <url>https://wiki.gentoo.org/wiki/Project:Wine</url>
     <description>Maintenance of Wine and Wine-related Packages</description>
-    <member is-lead="1">
+    <member>
       <email>chiitoo@gentoo.org</email>
       <name>Jimi Huotari</name>
-      <role>Non-Technical Lead</role>
     </member>
-    <member is-lead="1">
+    <member>
       <email>NP-Hardass@gentoo.org</email>
       <name>NP-Hardass</name>
-      <role>Technical Lead</role>
     </member>
     <member>
       <email>ryao@gentoo.org</email>
       <name>Richard Yao</name>
     </member>
-    <member>
+    <member is-lead="1">
       <email>sarnex@gentoo.org</email>
       <name>Nick Sarnie</name>
     </member>
