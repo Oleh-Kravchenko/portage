@@ -457,7 +457,6 @@ app-editors/xemacs:mule - Add multi-language support to XEmacs
 app-editors/xemacs:pop - Support POP for mail retrieval
 app-editors/xemacs:xim - Enable X11 XiM input method
 app-editors/zile:valgrind - Enable usage of dev-util/valgrind in tests
-app-emacs/anything:extensions - Install optional extensions
 app-emacs/auctex:preview-latex - Use bundled preview-latex
 app-emacs/bbdb:tex - Install plain TeX support files
 app-emacs/bbdb:vm - Add support for app-emacs/vm
@@ -7193,6 +7192,7 @@ net-vpn/strongswan:strongswan_plugins_vici - Enable support for the vici plugin
 net-vpn/strongswan:strongswan_plugins_whitelist - Enable support for the whitelist plugin
 net-vpn/tinc:uml - Enable support for User Mode Linux Sockets
 net-vpn/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
+net-vpn/tor:man - Build and install man pages
 net-vpn/tor:scrypt - Use app-crypt/libscrypt for the scrypt algorithm
 net-vpn/tor:tor-hardening - Compile tor with hardening on vanilla compilers/linkers
 net-vpn/vpnc:resolvconf - Enable support for DNS managing framework net-dns/openresolv

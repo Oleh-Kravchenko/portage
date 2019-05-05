@@ -6,3 +6,20 @@
 
 # The required library has not been ported to riscv yet.
 seccomp
+
+# Not tested yet
+elogind
+emacs
+fuse
+gtk
+gtk2
+gtk3
+introspection
+java
+libedit
+libressl
+qt5
+slang
+sqlite
+systemtap
+X
