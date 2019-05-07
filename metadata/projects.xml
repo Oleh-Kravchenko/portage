@@ -1282,6 +1282,11 @@
       <name>David Seifert</name>
       <role>Member ( general )</role>
     </member>
+    <member>
+      <email>steils@gentoo.org</email>
+      <name>Stefan Strogin</name>
+      <role>Member ( general )</role>
+    </member>
     <member is-lead="1">
       <email>vapier@gentoo.org</email>
       <name>Mike Frysinger</name>
@@ -1941,6 +1946,11 @@
     <member>
       <email>soap@gentoo.org</email>
       <name>David Seifert</name>
+      <role>Developer</role>
+    </member>
+    <member>
+      <email>steils@gentoo.org</email>
+      <name>Stefan Strogin</name>
       <role>Developer</role>
     </member>
     <member>
@@ -2689,17 +2699,17 @@
       <name>Guilherme Amadio</name>
       <role>Developer</role>
     </member>
-    <member is-lead="1">
+    <member>
       <email>grobian@gentoo.org</email>
       <name>Fabian Groffen</name>
-      <role>Lead, maintainer prefix portage</role>
+      <role>Maintainer prefix portage</role>
     </member>
     <member>
       <email>haubi@gentoo.org</email>
       <name>Michael Haubenwallner</name>
       <role>Developer</role>
     </member>
-    <member>
+    <member is-lead="1">
       <email>heroxbd@gentoo.org</email>
       <name>Benda Xu</name>
       <role>Developer</role>
@@ -3035,6 +3045,10 @@
     <name>RISC-V project</name>
     <url>https://wiki.gentoo.org/wiki/Project:RISC-V</url>
     <description>RISC-V architecture support project</description>
+    <member>
+      <email>alexxy@gentoo.org</email>
+      <name>Alexey Shvetsov</name>
+    </member>
     <member>
       <email>dilfridge@gentoo.org</email>
       <name>Andreas K. Hüttel</name>
