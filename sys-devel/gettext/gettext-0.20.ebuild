@@ -51,6 +51,8 @@ MULTILIB_WRAPPED_HEADERS=(
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-0.19.7-disable-libintl.patch #564168
+	"${FILESDIR}"/${PN}-0.20-parallel_install.patch #685530
+	"${FILESDIR}"/${PN}-0.20-avoid_eautomake.patch
 )
 
 pkg_setup() {
@@ -127,7 +129,6 @@ multilib_src_install_all() {
 		rm "${ED}"/usr/share/${PN}/*.class || die
 		if use doc ; then
 			java-pkg_dojavadoc "${ED}"/usr/share/doc/${PF}/javadoc2
-			rm -r"${ED}"/usr/share/doc/${PF}/javadoc2 || die
 		fi
 	fi
 
