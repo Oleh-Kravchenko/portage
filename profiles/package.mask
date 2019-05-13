@@ -30,6 +30,18 @@
 #--- END OF EXAMPLES ---
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (11 May 2019)
+# Perl 5.30 preparation block. DO NOT USE YET!
+=dev-lang/perl-5.30*
+~virtual/perl-Archive-Tar-2.320.0
+~virtual/perl-CPAN-2.220.0
+~virtual/perl-Compress-Raw-Bzip2-2.84.0
+~virtual/perl-Compress-Raw-Zlib-2.84.0
+~virtual/perl-DB_File-1.843.0
+~virtual/perl-Data-Dumper-2.174.0
+~virtual/perl-Devel-PPPort-3.510.0
+~virtual/perl-Digest-SHA-6.20.0
+
+# Andreas K. Hüttel <dilfridge@gentoo.org> (11 May 2019)
 # Perl 5.24 will be removed soon. Please upgrade.
 <dev-lang/perl-5.26.2
 =virtual/perl-Archive-Tar-2.40.100_rc-r6
@@ -447,24 +459,6 @@ dev-util/cucumber-expressions:5.0
 >=dev-util/boost-build-1.70.0
 >=net-mail/libpst-0.6.66-r2
 
-# Patrice Clement <monsieurp@gentoo.org> (14 Apr 2019)
-# Old, unmaintained and sometimes abandoned Java libraries/programs.
-# Removal in 30 days.
-dev-java/idm-console-framework
-dev-java/matrix-toolkits-java
-dev-java/sat4j-pseudo
-dev-java/sat4j-core
-dev-java/swarmcache
-dev-java/dbus-java
-dev-java/jinklevel
-dev-java/proguard
-dev-java/nailgun
-dev-java/jgroups
-dev-java/libmso
-dev-java/jicmp
-media-sound/jtagger
-app-admin/389-console
-
 # Michał Górny <mgorny@gentoo.org> (14 Apr 2019)
 # The ebuild violates EAPI and relies on STRIP_MASK.  The default
 # behavior makes it capable of executing arbitrary commands when running
@@ -555,32 +549,6 @@ dev-ruby/mysql2:0.3
 dev-ruby/sprockets-rails:2.3
 dev-ruby/uglifier:0
 dev-ruby/uglifier:3
-
-# Hans de Graaff <graaff@gentoo.org> (13 Apr 2019)
-# No longer maintained upstream. Does not work
-# with ruby25.
-# Masked for removal in 30 days.
-dev-ruby/celluloid
-dev-ruby/celluloid-essentials
-dev-ruby/celluloid-extras
-dev-ruby/celluloid-fsm
-dev-ruby/celluloid-io
-dev-ruby/celluloid-pool
-dev-ruby/celluloid-supervision
-
-# Aaron Bauman <bman@gentoo.org> (12 Apr 2019)
-# Multiple security vulnerabilities
-# No revbumps in several years.
-# Removal in 30 days. Bug #675682
-dev-java/jackson-databind
-dev-java/jackson-dataformat-xml
-dev-java/jackson-dataformat-yaml
-dev-java/jackson-module-jaxb-annotations
-
-# Virgil Dupras <vdupras@gentoo.org> (12 Apr 2019)
-# Dead upstream, no revdeps.
-# Removal in 30 days. Bug #683146
-dev-python/readme
 
 # Robin H. Johnson <robbat2@gentoo.org> (25 Mar 2019)
 # Requires >=dev-lang/lua-5.3 which is masked
