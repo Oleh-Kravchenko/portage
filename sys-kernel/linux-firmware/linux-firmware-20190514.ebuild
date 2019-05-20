@@ -6,12 +6,11 @@ inherit savedconfig
 
 if [[ ${PV} == 99999999* ]]; then
 	inherit git-r3
-	SRC_URI=""
 	EGIT_REPO_URI="https://git.kernel.org/pub/scm/linux/kernel/git/firmware/${PN}.git"
 else
 	GIT_COMMIT="711d3297bac870af42088a467459a0634c1970ca"
 	SRC_URI="https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git/snapshot/linux-firmware-${GIT_COMMIT}.tar.gz -> ${P}.tar.gz"
-	#KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
+	KEYWORDS="alpha amd64 arm arm64 hppa ia64 mips ppc ppc64 s390 sh sparc x86"
 fi
 
 DESCRIPTION="Linux firmware files"
@@ -19,23 +18,16 @@ HOMEPAGE="https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git
 
 LICENSE="GPL-2 GPL-2+ GPL-3 BSD MIT || ( MPL-1.1 GPL-2 )
 	redistributable? (
-		linux-fw-redistributable ( BSD-2 BSD BSD-4 ISC MIT no-source-code )
-		unknown-license? ( all-rights-reserved )
-	)"
+		linux-fw-redistributable ( BSD-2 BSD BSD-4 ISC MIT no-source-code ) )
+	unknown-license? ( all-rights-reserved )"
 SLOT="0"
 IUSE="+redistributable savedconfig unknown-license"
 RESTRICT="binchecks strip
-	redistributable? ( unknown-license? ( bindist ) )"
+	unknown-license? ( bindist )"
 
 RDEPEND="!savedconfig? (
 		redistributable? (
 			!sys-firmware/alsa-firmware[alsa_cards_ca0132]
-			unknown-license? (
-				!sys-firmware/alsa-firmware[alsa_cards_korg1212]
-				!sys-firmware/alsa-firmware[alsa_cards_maestro3]
-				!sys-firmware/alsa-firmware[alsa_cards_sb16]
-				!sys-firmware/alsa-firmware[alsa_cards_ymfpci]
-			)
 			!media-tv/cx18-firmware
 			!<sys-firmware/ivtv-firmware-20080701-r1
 			!media-tv/linuxtv-dvb-firmware[dvb_cards_cx231xx]
@@ -69,7 +61,14 @@ RDEPEND="!savedconfig? (
 			!sys-firmware/iwl3160-7260-bt-ucode
 			!sys-firmware/radeon-ucode
 		)
+		unknown-license? (
+			!sys-firmware/alsa-firmware[alsa_cards_korg1212]
+			!sys-firmware/alsa-firmware[alsa_cards_maestro3]
+			!sys-firmware/alsa-firmware[alsa_cards_sb16]
+			!sys-firmware/alsa-firmware[alsa_cards_ymfpci]
+		)
 	)"
+
 #add anything else that collides to this
 
 src_unpack() {
@@ -149,7 +148,7 @@ src_prepare() {
 		brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt
 		brcm/brcmfmac43362-sdio.lemaker,bananapro.txt
 		brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt
-		brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt
+		"brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt"
 		brcm/brcmfmac43430-sdio.AP6212.txt
 		brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt
 		brcm/brcmfmac43430-sdio.MUR1DX.txt
@@ -228,21 +227,21 @@ src_prepare() {
 	# remove sources and documentation (wildcards are expanded)
 	rm -r ${source_files[@]} || die
 
+	if use !unknown-license; then
+		# remove files in unknown_license
+		rm "${unknown_license[@]}" || die
+	fi
+
 	if use !redistributable; then
-		# remove files _not_ in the free_software whitelist
+		# remove files _not_ in the free_software or unknown_license lists
+		# everything else is confirmed (or assumed) to be redistributable
+		# based on upstream acceptance policy
 		local file remove=()
 		while IFS= read -d "" -r file; do
-			has "${file#./}" "${free_software[@]}" || remove+=("${file}")
+			has "${file#./}" "${free_software[@]}" "${unknown_license[@]}" \
+				|| remove+=("${file}")
 		done < <(find * ! -type d -print0 || die)
 		printf "%s\0" "${remove[@]}" | xargs -0 rm || die
-
-		if use unknown-license; then
-			ewarn 'The "unknown-license" flag is set, while "-redistributable"'
-			ewarn 'asks for free software only. Ignoring "unknown-license".'
-		fi
-	elif use !unknown-license; then
-		# remove files in the unknown_license blacklist
-		rm "${unknown_license[@]}" || die
 	fi
 
 	echo "# Remove files that shall not be installed from this list." > ${PN}.conf
@@ -253,6 +252,7 @@ src_prepare() {
 
 		local file preserved_files=() remove=()
 
+		ebegin "Removing all files not listed in config"
 		while IFS= read -r file; do
 			# Ignore comments.
 			if [[ ${file} != "#"* ]]; then
@@ -263,7 +263,10 @@ src_prepare() {
 		while IFS= read -d "" -r file; do
 			has "${file}" "${preserved_files[@]}" || remove+=("${file}")
 		done < <(find * ! -type d ! -name ${PN}.conf -print0 || die)
-		printf "%s\0" "${remove[@]}" | xargs -0 --no-run-if-empty rm || die
+		if [[ ${#remove[@]} -gt 0 ]]; then
+			printf "%s\0" "${remove[@]}" | xargs -0 rm || die
+		fi
+		eend 0
 	fi
 
 	# remove empty directories, bug #396073
@@ -275,6 +278,13 @@ src_install() {
 		save_config ${PN}.conf
 	fi
 	rm ${PN}.conf || die
+
+	if ! ( shopt -s failglob; : * ) 2>/dev/null; then
+		eerror "No files to install. Check your USE flag settings"
+		eerror "and the list of files in your saved configuration."
+		die "Refusing to install an empty package"
+	fi
+
 	insinto /lib/firmware/
 	doins -r *
 }
