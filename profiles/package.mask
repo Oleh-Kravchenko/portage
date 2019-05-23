@@ -29,6 +29,16 @@
 
 #--- END OF EXAMPLES ---
 
+# Jonas Stein <jstein@gentoo.org> (22 May 2019)
+# Masked for removal after 2019-06-23. (bug #686260)
+# Wrong license, ships non-GPL image, maintainer needed.
+x11-plugins/gkrellflynn
+
+# Sebastian Pipping <sping@gentoo.org> (22 May 2019)
+# Masked for removal in 30 days (bug #686562)
+# Unfixed bug, dead upstream, not relevant enough
+sys-fs/pytagsfs
+
 # Lars Wendler <polynomial-c@gentoo.org> (21 May 2019)
 # Masked for testing
 =sys-libs/ncurses-6.1_p20181020
@@ -127,6 +137,7 @@ dev-python/detox
 ~virtual/perl-Math-BigInt-FastCalc-0.500.800
 ~virtual/perl-Math-BigRat-0.261.400
 ~virtual/perl-Module-CoreList-5.201.905.200
+~virtual/perl-Module-CoreList-5.201.905.220
 ~virtual/perl-Module-Load-0.340.0
 ~virtual/perl-Module-Metadata-1.0.36
 ~virtual/perl-Net-Ping-2.710.0
