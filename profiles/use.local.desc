@@ -3330,11 +3330,12 @@ games-action/dxx-rebirth:sc55-musicpack - Include alternate version of the game'
 games-action/dxx-rebirth:textures - Include high resolution (640x480) backgrounds, briefing images and fonts (Descent 1)
 games-action/hotline-miami:bundled-libs - Use bundled libraries.
 games-action/hotline-miami:launcher - Install qt launcher
+games-action/minetest:client - Build Minetest client
 games-action/minetest:jsoncpp - Enable using a system-wide JSONCPP
 games-action/minetest:leveldb - Enable LevelDB backend
 games-action/minetest:postgres - Optionally use PostgreSQL as map backend
 games-action/minetest:redis - Enable redis backend via dev-libs/hiredis
-games-action/minetest:server - Build minetest server
+games-action/minetest:server - Build Minetest server
 games-action/minetest:spatial - Enable SpatialIndex AreaStore backend
 games-action/solar2:bundled-libs - Use the upstream provided bundled libraries.
 games-action/supermariowar:server - Compile and install Super Mario War server files
@@ -9129,6 +9130,7 @@ x11-misc/polybar:network - Enable network support
 x11-misc/py3status:gevent - Install extra requirement dev-python/gevent to enable green threads.
 x11-misc/py3status:udev - Install extra requirement dev-python/pyudev to enable udev events monitoring on modules.
 x11-misc/qt5ct:dbus - Enable system tray and global menu support
+x11-misc/qtfm:dbus - Install the qtfm-tray removable device manager
 x11-misc/qtfm:shared - Install the libQtFM shared library and headers
 x11-misc/redshift:geoclue - Control dependency on app-misc/geoclue
 x11-misc/rofi:windowmode - Enable normal window mode
