@@ -7065,6 +7065,7 @@ net-print/cups:python - Add support for the Python interpeter in the web server 
 net-print/cups-filters:foomatic - Build the included foomatic-rip printer driver. Strongly recommended.
 net-print/cups-filters:ipp_autosetup - Let cups-browsed automatically set up IPP network printers by default.
 net-print/cups-filters:pclm - Enable PCLm support
+net-print/dymo-cups-drivers:usb_modeswitch - Include usb_modeswitch for some hardware (bug #601242)
 net-print/fax4cups:efax - Install net-misc/efax backend
 net-print/fax4cups:hylafax - Install net-misc/hylafax backend
 net-print/fax4cups:mgetty-fax - Install net-dialup/mgetty backend
