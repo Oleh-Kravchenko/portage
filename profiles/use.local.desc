@@ -2544,6 +2544,12 @@ dev-libs/openssl:rfc3779 - Enable support for RFC 3779 (X.509 Extensions for IP 
 dev-libs/openssl:sslv2 - Support for the old/insecure SSLv2 protocol -- note: not required for TLS/https
 dev-libs/openssl:sslv3 - Support for the old/insecure SSLv3 protocol -- note: not required for TLS/https
 dev-libs/openssl:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
+dev-libs/openssl-compat:asm - Support assembly hand optimized crypto functions (i.e. faster run time)
+dev-libs/openssl-compat:bindist - Disable/Restrict EC algorithms (as they seem to be patented) -- note: changes the ABI
+dev-libs/openssl-compat:rfc3779 - Enable support for RFC 3779 (X.509 Extensions for IP Addresses and AS Identifiers)
+dev-libs/openssl-compat:sslv2 - Support for the old/insecure SSLv2 protocol -- note: not required for TLS/https
+dev-libs/openssl-compat:sslv3 - Support for the old/insecure SSLv3 protocol -- note: not required for TLS/https
+dev-libs/openssl-compat:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
 dev-libs/pkcs11-helper:nss - Enable NSS crypto engine
 dev-libs/poco:7z - Add Support for the 7z archive format
 dev-libs/poco:apache - Enable support to write Apache modules using POCO
@@ -3097,7 +3103,6 @@ dev-util/catalyst:system-bootloader - Pulls in the depends needed to setup livec
 dev-util/cccc:apidoc - Build software docs with doxygen/graphviz and metrics with cccc
 dev-util/cccc:mfc - Add patch for MFC dialect options
 dev-util/clion:custom-jdk - Install and use IntelliJ's custom JRE.
-dev-util/cmake:server - Enable cmake-server support.
 dev-util/cmake:system-jsoncpp - Use system copy of dev-libs/jsoncpp instead of bundled one.
 dev-util/coccigrep:vim - Install the coccigrep vim plugin
 dev-util/codeblocks:contrib - Build additional contrib components
@@ -5835,6 +5840,7 @@ net-dns/opendnssec:opensc - Enables support for storing DNSSEC keys through a de
 net-dns/opendnssec:signer - Enables signing capabilities for OpenDNSSEC
 net-dns/opendnssec:softhsm - Enables support for storing DNSSEC keys in a dev-libs/softhsm PKCS#11 object
 net-dns/pdns:botan - Make it possible to use the dev-libs/botan library for crypto-related stuff (like DNSSec) which can be significantly faster than PolarSSL.
+net-dns/pdns:lua-records - Enable LUA records.
 net-dns/pdns:mydns - Making it possible to use a MyDNS MySQL database with PowerDNS (not recommended for new deployments).
 net-dns/pdns:opendbx - Use a database supported by dev-db/opendbx as backend.
 net-dns/pdns:protobuf - Enable support for dev-libs/protobuf.
@@ -9313,6 +9319,7 @@ x11-wm/xpra:pillow - Enable pillow support
 x11-wm/xpra:server - Build server-side code
 x11-wm/xpra:vpx - Enable vpx image format support
 x11-wm/xpra:webcam - Enable webcam support via opencv
+xfce-base/exo:gtk2 - Build deprecated GTK+2 libexo-1 library.
 xfce-base/garcon:gtk2 - Build the garcon-gtk2-1 library (required for xfce-base/xfce4-panel < 4.13 only).
 xfce-base/libxfce4ui:glade - Build support for Glade 3's GtkBuilder implementation
 xfce-base/thunar:trash-panel-plugin - Build the trash status indicator plugin for the XFCE panel
