@@ -1516,22 +1516,6 @@ dev-db/mariadb:test - Install upstream testsuites for end use.
 dev-db/mariadb:tokudb - Add support for TokuDB storage engine
 dev-db/mariadb:yassl - Enable SSL connections and crypto functions using the bundled yaSSL
 dev-db/mariadb-connector-c:mysqlcompat - Enable mysqlclient library symbolic links
-dev-db/mariadb-galera:client-libs - Build the client libraries from the server package instead of the C Connector packages
-dev-db/mariadb-galera:extraengine - Add support for alternative storage engines (Archive, CSV, Blackhole, Federated(X), Partition)
-dev-db/mariadb-galera:jdbc - Enable the CONNECT engine to access foreign databases via JDBC
-dev-db/mariadb-galera:latin1 - Use LATIN1 encoding instead of UTF8
-dev-db/mariadb-galera:libressl - Enable SSL connections and crypto functions using dev-libs/libressl
-dev-db/mariadb-galera:numa - Enable NUMA support using sys-process/numactl (NUMA kernel support is also required)
-dev-db/mariadb-galera:oqgraph - Add support for the Open Query GRAPH engine
-dev-db/mariadb-galera:profiling - Add support for statement profiling (requires USE=community).
-dev-db/mariadb-galera:server - Build the server program
-dev-db/mariadb-galera:sphinx - Add suport for the sphinx full-text search engine
-dev-db/mariadb-galera:sst-rsync - Add tools needed to support the rsync SST method
-dev-db/mariadb-galera:sst-xtrabackup - Add tools needed to support the xtrabackup and xtrabackup-v2 SST methods
-dev-db/mariadb-galera:systemtap - Build support for profiling and tracing using dev-util/systemtap
-dev-db/mariadb-galera:test - Install upstream testsuites for end use.
-dev-db/mariadb-galera:tokudb - Add support for TokuDB storage engine
-dev-db/mariadb-galera:yassl - Enable SSL connections and crypto functions using the bundled yaSSL
 dev-db/mongodb:lto - Adds support for link time optimization
 dev-db/mongodb:mms-agent - Install the MongoDB Monitoring Service agent
 dev-db/mongodb:tools - Install the MongoDB tools (mongoimport, mongodump...) from app-admin/mongo-tools
@@ -2619,7 +2603,6 @@ dev-libs/xmlsec:nss - Install xmlsec-nss library
 dev-libs/xmlsec:openssl - Install xmlsec-openssl library
 dev-libs/yaz:ziffy - Install ziffy, a promiscuous Z39.50 APDU sniffer
 dev-lisp/clisp:hyperspec - Use local hyperspec instead of online version
-dev-lisp/clisp:new-clx - Build CLISP with support for the NEW-CLX module which is a -C binding to the Xorg libraries
 dev-lisp/clisp:svm - Build CLISP with support for the Support Vector Machine module
 dev-lisp/clx:doc - Builds documentation
 dev-lisp/cmucl:X - Build CLX, CLM, or Hemlock
@@ -4084,7 +4067,6 @@ mail-filter/maildrop:authlib - Add courier-authlib support
 mail-filter/maildrop:dovecot - Add dovecot authentication support
 mail-filter/maildrop:tools - Install maildirmake and deliverquota tools
 mail-filter/maildrop:trashquota - Count deleted messages as part of the maildir quota
-mail-filter/mimedefang:poll - Use poll instead of select
 mail-filter/opendkim:ldap - Enable openldap as a dataset facilitator or keys, determining domains to sign for, and any other dataset that opendkim supports.
 mail-filter/opendkim:lmdb - Add support for using dev-db/lmdb
 mail-filter/opendkim:lua - Enables control over signature verification, filtering and policy to be controlled by user defined lua scripts.
@@ -5111,7 +5093,6 @@ media-tv/mythtv:mythlogserver - Enable support for syslog and file logging. Not 
 media-tv/mythtv:perl - Builds the perl bindings for MythTV. Allows you to write scripts in Perl to control your MythTV setup or communicate with it.
 media-tv/mythtv:wrapper - Use Ubuntu mythtfrontend wrapper.
 media-tv/mythtv:xmltv - Pulls in the media-tv/xmltv TV listing grabbers for users not using Schedules Direct.
-media-tv/tvbrowser:themes - Install extra theme packs
 media-tv/tvheadend:capmt - Enable support for capmt (dvbapi) protocol
 media-tv/tvheadend:constcw - Enable support for the constcw protocol
 media-tv/tvheadend:cwc - Enable support for the cwc (newcamd) protocol
@@ -6670,7 +6651,6 @@ net-misc/electrum-ltc:email - Enable plugin to support emailing invoices
 net-misc/electrum-ltc:qrcode - Enable QR code scanning with media-gfx/zbar
 net-misc/electrum-ltc:sync - Enable plugin to sync wallet metadata across multiple Electrum clients
 net-misc/electrum-ltc:vkb - Enable plugin for virtual keyboard
-net-misc/endlessh:tools - Install additional python script which can be used to parse logs and save summary to sqlite database
 net-misc/eventd:libcanberra - Enable plugin for sounds via media-libs/libcanberra
 net-misc/eventd:libnotify - Enable plugin to relay events to notification daemon (Note: not required for local notifications via net-misc/eventd)
 net-misc/eventd:notification - Enable plugin to display on-screen notifications
@@ -8100,6 +8080,7 @@ sys-apps/usermode-utilities:fuse - Build tools (currently umlmount) needing fuse
 sys-apps/util-linux:caps - build setpriv helper (run programs with diff capabilities)
 sys-apps/util-linux:cramfs - build mkfs/fsck helpers for cramfs filesystems
 sys-apps/util-linux:fdformat - build fdformat (floppy disk format)
+sys-apps/util-linux:hardlink - build hardlink program
 sys-apps/util-linux:kill - build the kill program
 sys-apps/util-linux:pam - build runuser helper
 sys-apps/util-linux:suid - install mount/umount as setuid so non-root users may mount/umount devices, and wall/write as setgid so non-root users can notify other users
