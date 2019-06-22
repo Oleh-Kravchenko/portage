@@ -1454,6 +1454,7 @@ dev-ada/libadalang:shared - Build shared library
 dev-ada/libadalang-tools:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/libadalang-tools:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/libadalang-tools:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
+dev-ada/libadalang-tools:gnat_2019 - Compile with dev-lang/gnat-gpl-2018
 dev-ada/libgpr:gnat_2016 - Compile with dev-lang/gnat-gpl-2016
 dev-ada/libgpr:gnat_2017 - Compile with dev-lang/gnat-gpl-2017
 dev-ada/libgpr:gnat_2018 - Compile with dev-lang/gnat-gpl-2018
@@ -1567,7 +1568,6 @@ dev-db/percona-server:systemtap - Build support for profiling and tracing using 
 dev-db/percona-server:tokudb - Add support for TokuDB storage engine
 dev-db/percona-server:tokudb-backup-plugin - Builds the TokuDB backup plugin
 dev-db/percona-server:yassl - Enable SSL connections and crypto functions using the bundled yaSSL
-dev-db/pgadmin3:databasedesigner - Enable the Database Designer component
 dev-db/pgbouncer:c-ares - Use c-ares as the DNS backend instead of evdns (libevent).
 dev-db/pgbouncer:udns - Use udns as the DNS backend instead of evdns (libevent). Supports IPv4 only.
 dev-db/pgpool2:memcached - Use memcached for query caching.
@@ -3614,6 +3614,7 @@ gnome-base/gdm:fprint - Enables experimental fingerprint authentication using sy
 gnome-base/gdm:plymouth - Enable support for smooth transition from sys-boot/plymouth
 gnome-base/gnome:classic - Install gnome-extra/gnome-shell-extensions for the Gnome Shell Classic mode
 gnome-base/gnome:extras - Install additional GNOME applications
+gnome-base/gnome-applets:tracker - Build the tracker search bar applet
 gnome-base/gnome-control-center:flickr - Add support for using photos from flickr as desktop background
 gnome-base/gnome-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
 gnome-base/gnome-control-center:ibus - Enable support for enhanced input methods through app-i18n/ibus
@@ -9264,6 +9265,8 @@ x11-wm/fvwm:rplay - Enable rplay support
 x11-wm/fvwm:stroke - Mouse Gesture support
 x11-wm/i3:doc - Build and install the HTML documentation and regenerate the man pages
 x11-wm/lumina:desktop-utils - Build and install lumina's desktop-utils
+x11-wm/metacity:libcanberra - Enable sound event support using media-libs/libcanberra
+x11-wm/metacity:vulkan - Enable Vulkan based compositor support via META_COMPOSITOR=vulkan environment variable
 x11-wm/musca:apis - Optionally install the experimental `apis' window manager
 x11-wm/musca:xlisten - Optionally install the xlisten utility
 x11-wm/mutter:elogind - Rely on sys-auth/elogind as logind provider for Wayland sessions
