@@ -29,9 +29,39 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas K. Hüttel <dilfridge@gentoo.org> (23 Jun 2019)
+# EAPI2, broken HOMEPAGE, maintainer-needed, lots of QA warnings,
+# for hardware that was EOL'ed <=2007. Removal in 30 days. Bug 681060
+sys-apps/cobalt-panel-utils
+
+# Andreas K. Hüttel <dilfridge@gentoo.org> (23 Jun 2019)
+# last release was 2006, EAPI2, maintainer-needed, depends on
+# app-text/htmltidy; removal in 30 days, bug 686324
+www-apache/mod_tidy
+
+# Jimi Huotari <chiitoo@gentoo.org> (22 Jun 2019)
+# Deprecated package with no consumers left.
+# Removal in 30 days.
+lxqt-base/lxqt-l10n
+
+# David Seifert <soap@gentoo.org> (22 Jun 2019)
+# Abandoned upstream, last release 5 years ago,
+# extremely brittle codebase, requires constant
+# patching, removal in 30 days
+# Bug #664700, #685980
+sci-biology/vaal
+
+# David Seifert <soap@gentoo.org> (22 Jun 2019)
+# Abandoned upstream, last release 5 years ago,
+# extremely brittle codebase, requires constant
+# patching, removal in 30 days
+# Bug #664708, #685924
+sci-biology/allpathslg
+
 # Sobhan Mohammadpour <sobhan@gentoo.org> (19 Jun 2019)
 # this is new and it needs testing
 >=app-misc/geoclue-2.5.3
+=sys-apps/xdg-desktop-portal-1.4.2
 
 # Georgy Yakovlev <gyakovlev@gentoo.org> (17 Jun 2019)
 # this is now provided by dev-lang/rust{-bin}[rustfmt]
@@ -84,11 +114,6 @@ dev-libs/liblazy
 # Removal in 30 days unless updated.
 dev-util/antlrworks
 
-# Andreas K. Hüttel <dilfridge@gentoo.org> (5 Jun 2019)
-# Fails to build, bug 680252. EAPI=2. Removal in 30 days
-# unless fixed.
-dev-java/glassfish-connector-api
-
 # Hans de Graaff <graaff@gentoo.org> (2 Jun 2019)
 # Test version with all new Gentoo defaults. 
 # Fixes bug 676946 bug may break other things.
@@ -108,16 +133,6 @@ lxde-base/lxsession-edit
 # Virgil Dupras <vdupras@gentoo.org> (24 May 2019)
 # py2 only, dead upstream, removal in 30 days. Bug #686668
 dev-python/drpython
-
-# Aaron Bauman <bman@gentoo.org> (23 May 2019)
-# Upstreami now requires registration to download
-# EAPI2. Removal in 30 days.
-net-misc/mindterm
-
-# Aaron Bauman <bman@gentoo.org> (23 May 2019)
-# Unmaintained, EAPI2, updates available upstream
-# Oh yea, removal in 30 days
-dev-util/pmd
 
 # Patrick Lauer <patrick@gentoo.org> (23 May 2019)
 # PostgreSQL beta and release candidate releases are pre-release testing
@@ -140,11 +155,6 @@ x11-plugins/gkrellflynn
 # Masked for removal in 30 days (bug #686562)
 # Unfixed bug, dead upstream, not relevant enough
 sys-fs/pytagsfs
-
-# Stefan Strogin <steils@gentoo.org> (21 May 2019)
-# Unmaintained. Last release in 2005. Does not build with
-# >=dev-libs/bglibs-2.04. Bug #686438.
-net-mail/qmail-qfilter
 
 # Hans de Graaff <graaff@gentoo.org> (18 May 2019)
 # Old, ruby24-only, slots of ruby packages without any reverse
