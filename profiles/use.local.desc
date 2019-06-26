@@ -463,6 +463,7 @@ app-emacs/bbdb:vm - Add support for app-emacs/vm
 app-emacs/calfw:howm - Add support for the app-emacs/howm note-taking tool
 app-emacs/company-mode:ropemacs - Install backend for dev-python/ropemacs
 app-emacs/emacs-common-gentoo:games - Support shared score files for games
+app-emacs/mu-cite:bbdb - Include support for app-emacs/bbdb
 app-emacs/org-mode:contrib - Install user-contributed files
 app-emacs/org-mode:odt-schema - Install non-free schema files for OpenDocument Text exporter
 app-emacs/remember:bbdb - Include support for app-emacs/bbdb
@@ -4615,6 +4616,7 @@ media-libs/opusfile:http - Enable http connections
 media-libs/osl:cpu_flags_x86_avx512f - SIMD Optimization
 media-libs/osl:cpu_flags_x86_f16c - SIMD Optimization
 media-libs/osl:partio - Use media-libs/partio
+media-libs/osl:qt5 - Build the osltoy binary
 media-libs/phonon:designer - Install plugin for dev-qt/designer
 media-libs/phonon:vlc - Install VLC Phonon backend
 media-libs/phonon-gstreamer:network - Enable network streaming support via libsoup
