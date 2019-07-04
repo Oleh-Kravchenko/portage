@@ -7240,6 +7240,8 @@ net-wireless/bluez:test-programs - Install tools for testing of various Bluetoot
 net-wireless/bluez:user-session - Allow compatibility with user-session semantics for session bus under systemd
 net-wireless/chirp:radioreference - support downloading data from radioreference.com (premium users only)
 net-wireless/crda:gcrypt - Use libgcrypt instead of openssl for key checking
+net-wireless/dump1090:bladerf - Build with Nuand BladeRF support
+net-wireless/dump1090:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
 net-wireless/gnuradio:analog - enable analog signal processing blocks
 net-wireless/gnuradio:atsc - enable ATSC (HDTV) transmitter and receiver blocks
 net-wireless/gnuradio:audio - enable blocks to connect to audio sources (mic-in) and sinks (speaker-out) ports on a computer
@@ -8743,7 +8745,11 @@ sys-process/systemd-cron:minutely - Support /etc/cron.minutely
 sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
 sys-process/systemd-cron:yearly - Support /etc/cron.yearly
 sys-process/tini:args - Enable argument parsing.
+virtual/blas:eselect-ldso - Enable runtime library switching by eselect and ld.so.
+virtual/cblas:eselect-ldso - Enable runtime library switching by eselect and ld.so.
 virtual/ffmpeg:opus - Use the external opus library for encoding and decoding.
+virtual/lapack:eselect-ldso - Enable runtime library switching by eselect and ld.so.
+virtual/lapacke:eselect-ldso - Enable runtime library switching by eselect and ld.so.
 virtual/linux-sources:firmware - Install linux kernel firmware
 virtual/mpi:romio - Enable romio, a high-performance portable MPI-IO
 virtual/mysql:embedded - Build embedded server (libmysqld)
