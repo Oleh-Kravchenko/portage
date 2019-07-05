@@ -1,6 +1,10 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
+# Craig Andrews <candrews@gentoo.org> (2019-07-03)
+# Unmask Raspberry Pi support on arm.
+media-tv/kodi -raspberry-pi
+
 # Matt Turner <mattst88@gentoo.org> (2019-06-20)
 # dev-lang/spidermonkey:60[jit] fails to build on most platforms, but does
 # build on arm.
@@ -345,7 +349,9 @@ lxqt-base/lxqt-meta lximage
 
 # Markus Meier <maekke@gentoo.org> (2014-05-04)
 # Unkeyworded deps, bug #509082
-mail-filter/opendkim opendbx
+# Ralph Seichter <gentoo@seichter.de> (2019-06-29)
+# Added 'stats' because it requires 'opendbx'
+mail-filter/opendkim opendbx stats
 
 # S. Suominen <ssuominen@g.o> (2014-04-17)
 # First GTK+-3.x version of EasyTAG!
