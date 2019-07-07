@@ -29,6 +29,10 @@
 
 #--- END OF EXAMPLES ---
 
+# Daniel Pielmeier <billie@gentoo.org> (2019-07-06)
+# Requires >=dev-lang/lua-5.2 which is masked
+>=app-admin/conky-1.11.4
+
 # Ulrich Müller <ulm@gentoo.org> (2019-07-05)
 # Fetch restricted, SRC_URI is gone, last release in 2008.
 # Binary-only 32 bit package. Program fails with SIGSEGV.
@@ -169,11 +173,6 @@ dev-libs/liblazy
 # Upstream is dead and there are multiple security vulnerabilities.
 # Removal in 30 days. Bug #687100.
 app-emulation/rkt
-
-# Hanno Boeck <hanno@gentoo.org> (2019-05-27)
-# Obsolete LXDE modules, see #652658, #651964
-lxde-base/lxshortcut
-lxde-base/lxsession-edit
 
 # Patrick Lauer <patrick@gentoo.org> (2019-05-23)
 # PostgreSQL beta and release candidate releases are pre-release testing
