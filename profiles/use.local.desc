@@ -8079,10 +8079,6 @@ sys-apps/ripgrep:man - Build and install man pages.
 sys-apps/rng-tools:jitterentropy - Enable Jitter RNG entropy support
 sys-apps/rng-tools:nistbeacon - Enable NIST beacon entropy support
 sys-apps/rng-tools:pkcs11 - Enable PKCS11 entropy support
-sys-apps/roccat-tools:input_devices_roccat_ryosmkfx - Enable support for Ryos Mk FX keyboard.
-sys-apps/roccat-tools:input_devices_roccat_skeltr - Enable support for Skeltr keyboard.
-sys-apps/roccat-tools:input_devices_roccat_sova - Enable support for Sova keyboard.
-sys-apps/roccat-tools:input_devices_roccat_suora - Enable support for Suora keyboard.
 sys-apps/rtl-entropy:bladerf - Build with Nuand BladeRF support
 sys-apps/s390-tools:fuse - build cmsfs-fuse to read files stored on a z/VM CMS disk
 sys-apps/s390-tools:ncurses - build hyptop monitoring program
@@ -9187,7 +9183,6 @@ x11-plugins/vicious:contrib - Install extra widgets, some for less common hardwa
 x11-plugins/wmfire:session - Enable session management
 x11-plugins/wmudmount:gcr - Enable support for secure memory with app-crypt/gcr
 x11-plugins/wmudmount:secret - Enable support for secret service with app-crypt/libsecret
-x11-terms/alacritty:terminfo - Use tic from sys-libs/ncurses to generate alacritty terminfo files
 x11-terms/aterm:background - Enable background image support via media-libs/libafterimage
 x11-terms/aterm:xgetdefault - Enable resources via X instead of aterm small version
 x11-terms/eterm:escreen - Enable built-in app-misc/screen support
