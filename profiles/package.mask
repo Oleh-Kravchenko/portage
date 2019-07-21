@@ -29,6 +29,18 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (2019-07-20)
+# Ancient theme for KDE SC 4.4, useless for Plasma 5
+# Removal in 15 days
+x11-themes/korilla
+x11-themes/noia
+x11-themes/oxygen-molecule
+
+# Sergei Trofimovich <slyfox@gentoo.org> (2019-07-20)
+# Mask linux-headers-5.2 as it breaks at least firefox
+# and qemu. See bug #690296.
+>=sys-kernel/linux-headers-5.2
+
 # Hans de Graaff <graaff@gentoo.org> (2019-07-17)
 # Mask ruby24-only slots for removal in 30 days. These slots do not
 # have any reverse dependencies. Please migrate to or use a newer slot.
