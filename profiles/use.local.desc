@@ -3198,6 +3198,7 @@ dev-util/kdevelop:hex - Enable hex editor plugin via app-editors/okteta
 dev-util/kdevelop:qmake - Enable support for QMake build system
 dev-util/kdevelop:reviewboard - Enable reviewboard support
 dev-util/kdevelop:webkit - Enable deprecated dev-qt/qtwebkit instead of dev-qt/qtwebengine for integrated documentation
+dev-util/kernelshark:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS
 dev-util/ltrace:unwind - Use sys-libs/libunwind for frame unwinding support
 dev-util/lttng-tools:ust - Support LTTng-UST (Userspace Tracing)
 dev-util/massif-visualizer:callgraph - Enable detailed snapshot analysis using media-gfx/kgraphviewer
@@ -3994,6 +3995,7 @@ mail-client/claws-mail:gtk3 - Build support for GTK+3
 mail-client/claws-mail:libcanberra - Enable sound notification in connection with USE=notification
 mail-client/claws-mail:libindicate - Enable notification through DBUS in connection with USE=notification
 mail-client/claws-mail:libnotify - Enable notification on the desktop in connection with USE=notification
+mail-client/claws-mail:litehtml - Enable dev-libs/gumbo html viewer plugin
 mail-client/claws-mail:notification - Notification for new mail in different way, see also USE flags libcanberra, libindicate and libnotify
 mail-client/claws-mail:pgp - Enable PGP support
 mail-client/claws-mail:sieve - Build plugin for sieve filter support

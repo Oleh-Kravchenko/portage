@@ -29,6 +29,10 @@
 
 #--- END OF EXAMPLES ---
 
+# Georgy Yakovlev <gyakovlev@gentoo.org> (2019-07-26)
+# Mask new version until more deps keyworded
+>=dev-python/pytest-5.0.1
+
 # Brian Evans <grknight@gentoo.org> (2019-07-25)
 # Mask new beta versions until release
 dev-lang/php:7.4
@@ -152,14 +156,6 @@ sys-freebsd/freebsd-sources
 sys-freebsd/freebsd-ubin
 sys-freebsd/freebsd-usbin
 sys-freebsd/ubin-wrappers
-
-# Ulrich Müller <ulm@gentoo.org> (2019-06-24)
-# Byte-compilation with recent Emacs versions fails.
-# SRC_URI is gone. Last visible upstream activity in 2008.
-# Use app-emacs/flim as replacement.
-# Masked for removal in 30 days, bug #688596.
-app-emacs/limit
-virtual/emacs-flim
 
 # Jonas Stein <jstein@gentoo.org> (2019-06-24)
 # Source is broken. Upstream is dead since 2011.

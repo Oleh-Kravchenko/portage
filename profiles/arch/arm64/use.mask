@@ -94,15 +94,10 @@ prelude
 mssql
 
 # havent tested yet
-ctypes-python
 libproxy
-pkcs11
 bazaar
 darcs
 mercurial
-gpg
-emacs
-gphoto2
 afs
 mono
 lirc
@@ -139,7 +134,6 @@ aacplus
 devil
 gts
 anthy
-R
 sdl
 vim-syntax
 
