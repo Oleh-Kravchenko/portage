@@ -6293,7 +6293,6 @@ net-libs/gnutls:tools - Build extra tools
 net-libs/gnutls:valgrind - Enable usage of dev-util/valgrind in debug
 net-libs/grpc:perftools - Enable profiling using dev-util/google-perftools
 net-libs/grpc:systemtap - Enable SystemTAP/DTrace tracing
-net-libs/grpc:tools - Install gRPC python tools
 net-libs/iax:snomhack - Use slower memset for SNOM phoneem
 net-libs/ldns:dane - Enable DNS-based Authentication of Named Entities (DANE) support
 net-libs/ldns:ecdsa - Enable ECDSA support
