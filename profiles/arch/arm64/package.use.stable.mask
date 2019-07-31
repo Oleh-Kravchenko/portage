@@ -16,27 +16,15 @@ net-im/pidgin eds
 
 # Aaron Bauman <bman@gentoo.org> (2019-05-20)
 # deps are not stable yet
-virtual/notification-daemon gnome kde
+virtual/notification-daemon gnome
 
 # Aaron Bauman <bman@gentoo.org> (2019-05-15)
 # packages for these USE flags fail tests
 media-libs/opencv contrib_cvv contrib_hdf contrib_sfm glog gstreamer
 
-# Andreas Sturmlechner <asturm@gentoo.org> (2019-02-10)
-# kde-frameworks/kconfig is not stable for arm64
-net-libs/libproxy kde
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2019-02-10)
-# kde-plasma/polkit-kde-agent is not stable for arm64
-sys-auth/polkit kde
-
 # Mart Raudsepp <leio@gentoo.org> (2019-01-18)
 # Respective x11-drivers/ not tested and stable yet
 x11-base/xorg-drivers input_devices_elographics input_devices_joystick input_devices_void video_cards_dummy video_cards_fbdev video_cards_nouveau
-
-# Mart Raudsepp <leio@gentoo.org> (2018-09-11)
-# net-wireless/bluez not stable yet
-dev-lang/python bluetooth
 
 # Mart Raudsepp <leio@gentoo.org> (2018-07-24)
 # Temporary mask due to test failures in sys-libs/libcxxabi
