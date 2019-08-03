@@ -295,6 +295,11 @@ src_prepare() {
 		_disable_engine mroonga
 	fi
 
+	# Don't clash with dev-db/mysql-connector-c
+	sed -i -e 's/ my_print_defaults.1//' \
+		-e 's/ perror.1//' \
+		"${S}"/man/CMakeLists.txt || die
+
 	cmake-utils_src_prepare
 	java-pkg-opt-2_src_prepare
 }
@@ -663,6 +668,7 @@ src_test() {
 	done
 
 	_disable_test main.plugin_auth "Needs client libraries built"
+	_disable_test plugins.auth_ed25519 "Needs client libraries built"
 
 	_disable_test main.func_time "Dependent on time test was written"
 

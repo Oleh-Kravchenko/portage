@@ -350,6 +350,7 @@ app-crypt/qca:pkcs11 - Enable PKCS#11 plugin
 app-crypt/qca:sasl - Enable SASL plugin
 app-crypt/qca:softstore - Enable softstore plugin
 app-crypt/seahorse:ldap - Enable seahorse to manipulate GPG keys on a LDAP server.
+app-crypt/swtpm:fuse - Support sys-fs/fuse based /dev/tpm interface
 app-crypt/tpm-emulator:mtm-emulator - Build the MTM emulator
 app-crypt/tpm-tools:pkcs11 - Build Token data management utilities based on OpenCryptoki's (dev-libs/opencryptoki) PKCS#11 implementation.
 app-crypt/tpm2-tss:gcrypt - Use dev-libs/libgcrypt as crypto engine
@@ -1542,6 +1543,7 @@ dev-db/mysql:latin1 - Use LATIN1 encoding instead of UTF8
 dev-db/mysql:libressl - Enable SSL connections and crypto functions using dev-libs/libressl
 dev-db/mysql:numa - Enable NUMA support using sys-process/numactl (NUMA kernel support is also required)
 dev-db/mysql:profiling - Add support for statement profiling (requires USE=community).
+dev-db/mysql:router - Build the MySQL router program
 dev-db/mysql:server - Build the server program
 dev-db/mysql:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-db/mysql:test - Install upstream testsuites for end use.
@@ -2150,6 +2152,7 @@ dev-lang/swi-prolog:yaml - Use libyaml for YAML pack
 dev-lang/swig:ccache - build ccache-swig(a fast compiler cache)
 dev-lang/vala:valadoc - Installs valadoc documentation generation tool
 dev-lang/yap:R - Enable support for connecting R to Prolog
+dev-lang/zig:experimental - Enable builds that do not support all of LLVM's target architectures
 dev-libs/actor-framework:benchmarks - Due to the number of out-of-tree deps, these only get installed as docs
 dev-libs/actor-framework:boost - Make use of Boost's ASIO functionality
 dev-libs/actor-framework:cash - Build the C Actor Shell for introspection and debugging
@@ -3148,11 +3151,11 @@ dev-util/edb-debugger:legacy-mem-write - Probe if writes to /proc/PID/mem are br
 dev-util/edb-debugger:pax_kernel - Enable building under a PaX enabled kernel
 dev-util/edi:clang - Provide integration with sys-devel/clang for autocompletion and inline errors
 dev-util/electron:gconf - Use gnome-base/gconf
-dev-util/electron:gtk3 - Use GTK+3 instead of GTK+2
 dev-util/electron:lto - Build with link time optimization enabled
 dev-util/electron:pic - Disable optimized assembly code that is not PIC friendly
 dev-util/electron:proprietary-codecs - Enable proprietary codecs like H.264, MP3
 dev-util/electron:system-ffmpeg - Use system ffmpeg instead of the bundled one
+dev-util/electron:system-libvpx - Use system libvpx instead of the bundled one
 dev-util/electron:system-ssl - Use system OpenSSL instead of the bundled one
 dev-util/electron:tcmalloc - Use bundled tcmalloc instead of system malloc
 dev-util/emilpro:system-binutils - Use the gentoo binutils instead of building against an unpatched vanilla version
@@ -3579,6 +3582,7 @@ games-simulation/openttd:dedicated - Build only the openttd server, and not the 
 games-simulation/openttd:lzo - Enables LZO compression for savegames. This is only needed to load extremely old savegames. (versions before 0.2)
 games-simulation/openttd:openmedia - Enables the free open media sets: OpenGFX, OpenSFX, OpenMSX, removing the requirement for proprietary TTD assets to play OpenTTD.
 games-simulation/singularity:music - Install music files
+games-simulation/train-valley:gui - Install the GUI for configuring screen resolution and input
 games-sports/speed-dreams:xrandr - Enable support for the X xrandr extension
 games-sports/xmoto:double-precision - more precise calculations at the expense of speed
 games-sports/xmoto:editor - Depend on inkscape, scripts to convert svg to level (svg2lvl)
@@ -8103,6 +8107,7 @@ sys-apps/superdiag:usb - Install all files, which are needed for an installation
 sys-apps/superiotool:pci - Support for PCI-attached "Super I/Os" (e.g. in VIA VT82686A/B).
 sys-apps/systemd:apparmor - Enable AppArmor support
 sys-apps/systemd:audit - Enable support for sys-process/audit
+sys-apps/systemd:cgroup-hybrid - Default to hybrid cgroup hierarchy instead of unified.
 sys-apps/systemd:cryptsetup - Enable cryptsetup tools (includes unit generator for crypttab)
 sys-apps/systemd:curl - Enable support for uploading journals
 sys-apps/systemd:dns-over-tls - Enable DNS-over-TLS support
