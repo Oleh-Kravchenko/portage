@@ -29,6 +29,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Aaron Bauman <bman@gentoo.org> (2019-08-04)
+# multiple open sec bugs. no response from upstream
+# Masked for removal in 30 days
+media-libs/ming
+dev-php/ming-php
+
 # Hans de Graaff <graaff@gentoo.org> (2019-08-03)
 # ruby24-only, no longer compiles with gcc 9, last release in 2009,
 # upstream gone, no reverse dependencies.
@@ -127,13 +133,6 @@ kde-misc/plasma-active-window-control
 # Lars Wendler <polynomial-c@gentoo.org> (2019-07-21)
 # Requires >=mail-client/thunderbird-68_beta1 which is not in the tree yet
 >=x11-plugins/enigmail-2.1
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2019-07-20)
-# Ancient theme for KDE SC 4.4, useless for Plasma 5
-# Removal in 15 days
-x11-themes/korilla
-x11-themes/noia
-x11-themes/oxygen-molecule
 
 # Sergei Trofimovich <slyfox@gentoo.org> (2019-07-20)
 # Mask linux-headers-5.2 as it breaks at least firefox

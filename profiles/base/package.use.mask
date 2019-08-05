@@ -7,6 +7,11 @@
 # This file is only for generic masks. For arch-specific masks (i.e.
 # mask everywhere, unmask on arch/*) use arch/base.
 
+# Aaron Bauman <bman@gentoo.org> (2019-08-04)
+# media-libs/ming will be removed in 30 days
+media-gfx/pstoedit flash
+sci-chemistry/wxmacmolplt flash
+
 # Thomas Deutschmann <whissi@gentoo.org> (2019-08-03)
 # Early microcode loading is only supported on amd64 & x86
 sys-kernel/linux-firmware initramfs
@@ -243,8 +248,8 @@ dev-db/mysql client-libs
 dev-db/percona-server client-libs
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (2018-02-02)
-# This feature is not ready yet, see bug 146882 comment 26
-sys-libs/glibc compile-locales
+# This feature is not ready yet pre-2.30, see bug 146882 comment 26
+<sys-libs/glibc-2.30 compile-locales
 
 # Mart Raudsepp <leio@gentoo.org> (2018-01-10)
 # Failing tests, with extra deps that aren't keyworded due to that
