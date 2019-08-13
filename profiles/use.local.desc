@@ -3741,6 +3741,10 @@ gui-apps/swayidle:man - Build and install man pages
 gui-apps/swaylock:fish-completion - Enable fish completion support
 gui-apps/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
 gui-apps/swaylock:man - Build and install man pages
+gui-apps/waybar:libcxx - Build with Clang's libc++ instead of libstdc++ on Linux.
+gui-apps/waybar:mpd - Enable support for the Music Player Daemon
+gui-apps/waybar:network - Enable libnl support for network related features
+gui-apps/waybar:tray - Enable support for tray
 gui-libs/wlroots:X - Enable support for X11 applications (XWayland)
 gui-libs/wlroots:elogind - Enable support for rootless session via elogind
 gui-libs/wlroots:icccm - Use xcb-icccm (from x11-libs/xcb-util-wm) util library for improved Xwayland introspection
@@ -8526,6 +8530,7 @@ sys-devel/parity:vc11_0 - Enable support for Visual Studio 2012
 sys-devel/parity:vc12_0 - Enable support for Visual Studio 2013
 sys-devel/parity:vc14_0 - Enable support for Visual Studio 2015
 sys-devel/parity:vc15_0 - Enable support for Visual Studio 2017
+sys-devel/parity:vc16_2 - Enable support for Visual Studio 2019
 sys-devel/parity:vc7_0 - Enable support for Visual Studio 2002
 sys-devel/parity:vc7_1 - Enable support for Visual Studio 2003
 sys-devel/parity:vc8_0 - Enable support for Visual Studio 2005
