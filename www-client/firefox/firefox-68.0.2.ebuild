@@ -70,7 +70,7 @@ CDEPEND="
 	dev-libs/expat
 	>=x11-libs/cairo-1.10[X]
 	>=x11-libs/gtk+-2.18:2
-	>=x11-libs/gtk+-3.4.0:3=[X]
+	>=x11-libs/gtk+-3.4.0:3[X]
 	x11-libs/gdk-pixbuf
 	>=x11-libs/pango-1.22.0
 	>=media-libs/libpng-1.6.35:0=[apng]
@@ -167,12 +167,8 @@ DEPEND="${CDEPEND}
 		x86? ( >=dev-lang/nasm-2.13 )
 	)"
 
-# We use virtx eclass which cannot handle wayland
 REQUIRED_USE="wifi? ( dbus )
-	pgo? (
-		lto
-		!wayland
-	)"
+	pgo? ( lto )"
 
 S="${WORKDIR}/firefox-${PV%_*}"
 
@@ -259,7 +255,6 @@ src_unpack() {
 }
 
 src_prepare() {
-	use !wayland && rm -f "${WORKDIR}/firefox/2019_mozilla-bug1539471.patch"
 	eapply "${WORKDIR}/firefox"
 
 	# Allow user to apply any additional patches without modifing ebuild
@@ -586,8 +581,13 @@ src_compile() {
 		addpredict /etc/gconf
 	fi
 
-	MOZ_MAKE_FLAGS="${MAKEOPTS} -O" SHELL="${SHELL:-${EPREFIX}/bin/bash}" MOZ_NOSPAM=1 ${_virtx} \
-	./mach build --verbose || die
+	GDK_BACKEND=x11 \
+		MOZ_MAKE_FLAGS="${MAKEOPTS} -O" \
+		SHELL="${SHELL:-${EPREFIX}/bin/bash}" \
+		MOZ_NOSPAM=1 \
+		${_virtx} \
+		./mach build --verbose \
+		|| die
 }
 
 src_install() {

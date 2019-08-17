@@ -1118,13 +1118,12 @@ app-office/abiword:redland - Enables support redland and raptor libs.
 app-office/abiword:thesaurus - Enable thesaurus support
 app-office/abiword:wordperfect - Enable wordperfect file support via app-text/libwpd
 app-office/calligra:activities - Enable kactivities support
-app-office/calligra:charts - Build chartshape plugin for creating business charts with dev-libs/kreport
+app-office/calligra:charts - Build chartshape plugin for creating business charts with dev-libs/kdiagram
 app-office/calligra:gemini - Enable tablet and 2:1 devices support
 app-office/calligra:import-filter - Enable support for various import filter file formats like WordPerfect, Visio and Apple Keynote
 app-office/calligra:lcms - Build colorengine plugins using media-libs/lcms
 app-office/calligra:okular - Enable bindings for kde-apps/okular
 app-office/calligra:phonon - Build stage/eventplugins and videoshape plugin using media-libs/phonon
-app-office/calligra:pim - Enable support for KDE PIM resources integration
 app-office/calligra:spacenav - Enable support for the 3Dconnexion spacenav input device via dev-libs/libspnav
 app-office/calligraplan:activities - Enable kactivities support
 app-office/calligraplan:holidays - Enable kde-frameworks/kholidays integration
@@ -2441,6 +2440,7 @@ dev-libs/libgpiod:tools - Build some useful gpio tools that use libgpiod.
 dev-libs/libgpuarray:cuda - Enable NVIDIA CUDA toolkit support
 dev-libs/libgpuarray:opencl - Enable OpenCL support
 dev-libs/libgweather:glade - Installs catalog files for dev-util/glade
+dev-libs/libical:glib - Enable dev-libs/glib interface support
 dev-libs/libisoburn:external-filters - Allow the use of external processes as file content filters (Note: this is a potential security risk)
 dev-libs/libisoburn:external-filters-setuid - Also allow the use of external setuid processes as file content filters (Note: this is a potential security risk)
 dev-libs/libisoburn:frontend-optional - Use dev-tcltk/bwidget which is not strictly required for the frontend
@@ -3294,6 +3294,7 @@ dev-vcs/git:highlight - GitWeb support for app-text/highlight
 dev-vcs/git:mediawiki - Support pulling and pushing from MediaWiki
 dev-vcs/git:mediawiki-experimental - Add experimental patches for improved MediaWiki support
 dev-vcs/git:pcre-jit - Enable JIT for pcre
+dev-vcs/git:perforce - Add support for Perforce version control system (requires manual installation of Perforce client)
 dev-vcs/git:ppcsha1 - Make use of a bundled routine that is optimized for the PPC arch
 dev-vcs/git:subversion - Include git-svn for dev-vcs/subversion support
 dev-vcs/git:tk - Include the 'gitk' and 'git gui' tools
