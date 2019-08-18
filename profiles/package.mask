@@ -29,6 +29,19 @@
 
 #--- END OF EXAMPLES ---
 
+# Aaron Bauman <bman@gentoo.org> (2019-08-17)
+# Relies on vulnerable automake:{1.9,1.10}
+# Removal in 30 days
+games-simulation/crrcsim
+media-gfx/pixie
+net-irc/eiwic
+net-misc/openrdate
+
+# Aaron Bauman <bman@gentoo.org> (2019-08-17)
+# Unmaintained, outstanding sec vuln bug #540360
+# Lots of new versions upstream. Removal in 30 days.
+dev-embedded/bitbake
+
 # Michał Górny <mgorny@gentoo.org> (2019-08-15)
 # Unmaintained, PPC-only.  The Gentoo version is outdated, ebuild
 # is still EAPI=0 and has QA violations.  Last upstream release in 2009,
@@ -171,10 +184,6 @@ sci-physics/meep
 # Masked for removal in 30 days, Bugs #641864, #647536, #688244
 x11-libs/guile-gtk
 
-# Thomas Deutschmann <whissi@gentoo.org> (2019-08-02)
-# Ebuild is still in development and shouldn't be used.
-=dev-db/mysql-8*
-
 # Michał Górny <mgorny@gentoo.org> (2019-08-01)
 # Discontinued upstream in July 2017.  Has irritating bugs, and is hard
 # to build from source (we have binary package only).  Upstream
@@ -280,11 +289,6 @@ dev-perl/File-Slurp-Unicode
 # matching genkernel work?
 >=sys-fs/lvm2-2.03
 
-# Andreas Sturmlechner <asturm@gentoo.org> (2019-07-07)
-# Initial package version, no potential revdeps have been tested yet
-# or amended for support. Please do test.
-media-video/pipewire
-
 # Daniel Pielmeier <billie@gentoo.org> (2019-07-06)
 # Requires >=dev-lang/lua-5.2 which is masked
 >=app-admin/conky-1.11.4
@@ -335,14 +339,6 @@ dev-tex/quotchap
 # Miroslav Šulc <fordfrog@gentoo.org> (2019-06-12)
 # Depends on >=virtual/{jdk,jre}-11 which is masked
 =www-servers/tomcat-9.0.21
-
-# Brian Evans <grknight@gentoo.org> (2019-06-11)
-# Mask these packages for further testing
-# There is known API breakage and some packages fail,
-# particuarly with "my_bool" dropped for "bool"
->=dev-db/myodbc-8.0
->=dev-db/mysql-connector-c-8.0
-~virtual/libmysqlclient-21
 
 # Zac Medico <zmedico@gentoo.org> (2019-05-31)
 # Upstream is dead and there are multiple security vulnerabilities.
@@ -537,10 +533,6 @@ x11-drivers/xf86-video-voodoo
 # Craig Andrews <candrews@gentoo.org> (2019-01-01)
 # Requires dev-libs/openssl-1.1.1, Bug 674148
 dev-libs/gost-engine
-
-# Lars Wendler <polynomial-c@gentoo.org> (2018-12-28)
-# Masked while being tested and reverse deps aren't fully compatible
-=dev-libs/openssl-1.1.1*
 
 # Hanno Boeck <hanno@gentoo.org (2018-12-23)
 # Needs new OpenSSL, should be unmasked together with
