@@ -29,6 +29,21 @@
 
 #--- END OF EXAMPLES ---
 
+# Michael Orlitzky <mjo@gentoo.org> (2019-08-18)
+# Ebuilds contain a two-year old root exploit. Less-than-maintained
+# since robbat2's announcement on 2017-11-30. Binary package to begin
+# with. Masked for removal eventually, https://bugs.gentoo.org/630808
+app-misc/dnetc
+
+# Mart Raudsepp <leio@gentoo.org> (2019-08-18)
+# Fails to dbus activate properly for me. Help welcome figuring it out.
+net-misc/gnome-remote-desktop
+
+# Georgy Yakovlev <gyakovlev@gentoo.org> (2019-08-17)
+# Unmaintained both upstream and in gentoo, author retired
+# Removal in 30 days
+sys-kernel/bliss-initramfs
+
 # Aaron Bauman <bman@gentoo.org> (2019-08-17)
 # Relies on vulnerable automake:{1.9,1.10}
 # Removal in 30 days
@@ -251,17 +266,6 @@ kde-misc/plasma-active-window-control
 # Requires >=mail-client/thunderbird-68_beta1 which is not in the tree yet
 >=x11-plugins/enigmail-2.1
 
-# Hans de Graaff <graaff@gentoo.org> (2019-07-17)
-# Mask ruby24-only slots for removal in 30 days. These slots do not
-# have any reverse dependencies. Please migrate to or use a newer slot.
-dev-ruby/gherkin:4
-dev-ruby/net-http-persistent:0
-dev-ruby/net-ssh-gateway:2
-dev-ruby/rouge:0
-dev-ruby/vcr:2
-#dev-ruby/webmock:2
-dev-util/cucumber-core:0
-
 # Sobhan Mohammadpour <sobhan@gentoo.org> (2019-07-14)
 # Masked for testing
 >=media-video/totem-3.32.1
@@ -323,12 +327,6 @@ sys-freebsd/ubin-wrappers
 # Source is broken. Upstream is dead since 2011.
 # Removal after 2019-08-01. (bug #688552)
 media-sound/sfc
-
-# Georgy Yakovlev <gyakovlev@gentoo.org> (2019-06-17)
-# this is now provided by dev-lang/rust{-bin}[rustfmt]
-# it's tightly integrated with rust toolchain, eselect-rust
-# and it no longer makes sense ship this as standalone pkg
-dev-util/rustfmt
 
 # Mikle Kolyada <zlogene@gentoo.org> (2019-06-15)
 # Part of dev-texlive/texlive-latexextra
@@ -443,13 +441,6 @@ app-accessibility/perlbox-voice
 app-accessibility/pidgin-festival
 dev-ros/sound_play
 
-# Jeroen Roovers <jer@gentoo.org> (2019-04-24)
-# Depends on =dev-libs/openssl-1.1.1* due to newly introduced
-# support for EVP_PKEY_ED25519 and EVP_PKEY_ED448 (bug #670574).
-=net-libs/nodejs-10.16*
-=net-libs/nodejs-11.15.0
-=net-libs/nodejs-12*
-
 # Michał Górny <mgorny@gentoo.org> (2019-04-18)
 # All current versions of SystemRescueCD contain vulnerable packages.
 # Bug #683724.
@@ -529,15 +520,6 @@ x11-drivers/xf86-video-voodoo
 # Depends on >=virtual/{jdk,jre}-11 which is masked
 =dev-java/ant-eclipse-ecj-4.10
 =dev-java/eclipse-ecj-4.10
-
-# Craig Andrews <candrews@gentoo.org> (2019-01-01)
-# Requires dev-libs/openssl-1.1.1, Bug 674148
-dev-libs/gost-engine
-
-# Hanno Boeck <hanno@gentoo.org (2018-12-23)
-# Needs new OpenSSL, should be unmasked together with
-# OpenSSL 1.1.1
->=app-crypt/osslsigncode-2.0
 
 # Thomas Deutschmann <whissi@gentoo.org> (2018-12-10)
 # Requires >=dev-lang/lua-5.2 which is masked
