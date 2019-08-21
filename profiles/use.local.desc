@@ -2393,6 +2393,7 @@ dev-libs/gmp:asm - Enable use of hand optimized assembly routines (faster execut
 dev-libs/gobject-introspection:doctool - Install g-ir-doc-tool for generating documentation from introspected data
 dev-libs/granite:demo - Build the Granite demo application (to present all available UI features provided by the library)
 dev-libs/hidapi:fox - Build a x11-libs/fox GUI
+dev-libs/hsa-ext-rocr:deprecated - Install the deprecated debug/trace/profiling library
 dev-libs/input-pad:eekboard - Enable support for dev-libs/eekboard
 dev-libs/input-pad:xtest - Enable support for x11-libs/libXtst
 dev-libs/intel-neo:vaapi - Support the sharing of surfaces with Video Acceleration API (OpenCL Extension #36)
@@ -2557,6 +2558,7 @@ dev-libs/poco:pocodoc - POCO documentation generator
 dev-libs/poco:util - Several utility classes (like logger, timer, config file parser)
 dev-libs/poco:zip - Add support for the zip & gz archive formats
 dev-libs/ppl:lpsol - Build the ppl_lpsol linear programming problem solver
+dev-libs/rocr-runtime:nonfree - Enables HSA image support using dev-libs/hsa-ext-rocr
 dev-libs/serdisplib:tools - Build optional tools.
 dev-libs/softhsm:gost - Enable gost algorithm
 dev-libs/softhsm:migration-tool - Build db migration tool
@@ -3540,6 +3542,7 @@ games-puzzle/sgt-puzzles:gtk3 - Use x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 games-puzzle/tiny-and-big:bundled-libs - Use the upstream provided bundled libraries.
 games-puzzle/xlogical:alt_gfx - Use alternate graphics which are closer to the original Amiga version
 games-roguelike/FTL:bundled-libs - Use bundled libraries.
+games-roguelike/angband:sdl2 - Use libsdl2 instead of libsdl
 games-roguelike/angband:sound - Enable and install sounds
 games-roguelike/nethack:experimental - Enable experimental features (showscore and status_hilite)
 games-roguelike/stone-soup:ncurses - Enable for console (uses ncurses) based build. (can be enabled on top of tiles)
