@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # Maintainer: Toolchain Ninjas <toolchain@gentoo.org>
@@ -1238,10 +1238,11 @@ toolchain_src_configure() {
 	### library options
 
 	if tc_version_is_between 3.0 7.0 ; then
-		if ! is_gcj ; then
+		if is_gcj ; then
+			confgcc+=( --disable-gjdoc )
+			use awt && confgcc+=( --enable-java-awt=gtk )
+		else
 			confgcc+=( --disable-libgcj )
-		elif use awt ; then
-			confgcc+=( --enable-java-awt=gtk )
 		fi
 	fi
 
@@ -1961,8 +1962,8 @@ toolchain_src_install() {
 	# for people who are testing as non-root.
 	chown -R root:0 "${D}${LIBPATH}" 2>/dev/null
 
-	# Move pretty-printers to gdb datadir to shut ldconfig up
-	local py gdbdir=/usr/share/gdb/auto-load${LIBPATH/\/lib\//\/$(get_libdir)\/}
+	# Installing gdb pretty-printers into gdb-specific location.
+	local py gdbdir=/usr/share/gdb/auto-load${LIBPATH}
 	pushd "${D}${LIBPATH}" >/dev/null
 	for py in $(find . -name '*-gdb.py') ; do
 		local multidir=${py%/*}
