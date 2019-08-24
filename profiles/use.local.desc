@@ -389,7 +389,6 @@ app-editors/emacs:gconf - Use gnome-base/gconf to read the system font name
 app-editors/emacs:gfile - Use gfile (dev-libs/glib) for file notification
 app-editors/emacs:gsettings - Use gsettings (dev-libs/glib) to read the system font name
 app-editors/emacs:gtk2 - Prefer version 2 of the GIMP Toolkit to version 3 (x11-libs/gtk+)
-app-editors/emacs:gtk3 - Prefer version 3 of the GIMP Toolkit to version 2 (x11-libs/gtk+)
 app-editors/emacs:gzip-el - Compress bundled Emacs Lisp source
 app-editors/emacs:imagemagick - Use media-gfx/imagemagick for image processing
 app-editors/emacs:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal Lisp implementations
@@ -6747,7 +6746,6 @@ net-misc/lldpd:dot3 - Enable Dot3 extension (PHY stuff)
 net-misc/lldpd:edp - Enable Extreme Discovery Protocol
 net-misc/lldpd:fdp - Enable Foundry Discovery Protocol
 net-misc/lldpd:graph - Create dot graphs in documentations
-net-misc/lldpd:jansson - Enable JSON output via Jansson
 net-misc/lldpd:lldpmed - Enable LLDP-MED extension
 net-misc/lldpd:old-kernel - Enable compatibility with Linux kernel older than 2.6.39
 net-misc/lldpd:sanitizers - Enable code instrumentation with selected sanitizers
@@ -8526,6 +8524,7 @@ sys-devel/parity:vc7_0 - Enable support for Visual Studio 2002
 sys-devel/parity:vc7_1 - Enable support for Visual Studio 2003
 sys-devel/parity:vc8_0 - Enable support for Visual Studio 2005
 sys-devel/parity:vc9_0 - Enable support for Visual Studio 2008
+sys-devel/parity:vc_x64 - Enable support for 64bit Visual Studio compilers
 sys-devel/parity:vc_x86 - Enable support for 32bit Visual Studio compilers
 sys-devel/sparse:gtk - Build the test-inspect utility (requires x11-libs/gtk+ version 2)
 sys-devel/sparse:llvm - Build the sparse-llvm utility
