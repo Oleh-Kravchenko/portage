@@ -29,6 +29,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2019-08-25)
+# Discontinued upstream in 2015, and not touched in Gentoo since.
+# Has series of build failures reported due to growing incompatibility
+# with new kernels.  Removal in 30 days.  Bug #677618.
+sys-cluster/open-mx
+
 # Brian Evans <grknight@gentoo.org> (2019-08-23)
 # These packages are incompatible with current versions of PHP (7 or higher)
 # They need a maintainer but no one has volunteered.
@@ -316,10 +322,6 @@ dev-perl/File-Slurp-Unicode
 # Daniel Pielmeier <billie@gentoo.org> (2019-07-06)
 # Requires >=dev-lang/lua-5.2 which is masked
 >=app-admin/conky-1.11.4
-
-# Sobhan Mohammadpour <sobhan@gentoo.org> (2019-07-04)
-# Mask until further testing is done
-=dev-libs/libgdata-0.17.10
 
 # Michał Górny <mgorny@gentoo.org> (2019-07-04)
 # The core FreeBSD packages are outdated, and have not been subject
