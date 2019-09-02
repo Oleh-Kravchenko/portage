@@ -4020,15 +4020,19 @@ mail-client/s-nail:kerberos - If network is enabled, this adds support for GSSAP
 mail-client/s-nail:net - Enable support for network protocols (POP, IMAP and SMTP). If you only need to send mail with the local Transport Agent, disabling this will get you support for only /usr/sbin/sendmail call.
 mail-client/s-nail:ssl - If network is enabled, this adds support for S/MIME and SSL/TLS-powered protocols through dev-libs/openssl.
 mail-client/sylpheed:oniguruma - Use dev-libs/oniguruma for regular expression
-mail-client/thunderbird:bindist - Disable official Thunderbird branding (icons, name) which are not binary-redistributable according to upstream.
+mail-client/thunderbird:bindist - Disable official Firefox/Thunderbird branding (icons, name) which are not binary-redistributable according to upstream.
 mail-client/thunderbird:clang - Use Clang compiler instead of GCC
-mail-client/thunderbird:crypt - Enable encryption support with enigmail
 mail-client/thunderbird:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
+mail-client/thunderbird:eme-free - Disable EME (DRM plugin) cabability at build time
+mail-client/thunderbird:geckodriver - Enable WebDriver support
+mail-client/thunderbird:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
 mail-client/thunderbird:gtk2 - Use the cairo-gtk2 rendering engine instead of the default cairo-gtk3
 mail-client/thunderbird:lightning - Enable app-global calendar support (note 38.0 and above bundles calendar support when this flag is off)
-mail-client/thunderbird:minimal - Remove the software development kit and headers
+mail-client/thunderbird:lto - Enable Link Time Optimization (LTO). Requires Gold linker when using GCC or LDD linker when using Clang
 mail-client/thunderbird:mozdom - Enable Mozilla's DOM inspector
+mail-client/thunderbird:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
 mail-client/thunderbird:rust - Enable support for using rust compiler (experimental)
+mail-client/thunderbird:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
 mail-client/thunderbird:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
 mail-client/thunderbird:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
 mail-client/thunderbird:system-icu - Use the system-wide dev-libs/icu instead of bundled.
@@ -4036,6 +4040,7 @@ mail-client/thunderbird:system-jpeg - Use the system-wide media-libs/libjpeg-tur
 mail-client/thunderbird:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
 mail-client/thunderbird:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 mail-client/thunderbird:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
+mail-client/thunderbird:system-webp - Use the system-wide media-libs/libwebp instead of bundled.
 mail-client/thunderbird-bin:crashreporter - Enable crash reporter for bugs
 mail-client/trojita:addressbook - Build kde-apps/akonadi addressbook plugin
 mail-client/trojita:password - Store passwords securely via dev-libs/qtkeychain
@@ -5423,6 +5428,8 @@ media-video/x264-encoder:avs - enable AvxSynth support in the AviSynth input mod
 media-video/x264-encoder:ffmpegsource - Enable ffmpegsource aka ffms support, disables lavf
 media-video/x264-encoder:interlaced - Enable interlaced encoding support, this can decrease encoding speed by up to 2%
 media-video/xine-ui:vdr - Enables Video Disk Recorder support
+media-video/yle-dl:php - Use a PHP script as download backend
+media-video/yle-dl:youtube-dl - Use youtube-dl script as a download backend
 net-analyzer/2ping:server - Install the server init scripts.
 net-analyzer/argus:libtirpc - Build against net-libs/libtirpc for RPC support
 net-analyzer/argus-clients:ft - Enable support for flow packets through net-analyzer/flow-tools
@@ -5737,6 +5744,7 @@ net-dns/bind:dlz - Enables dynamic loaded zones, 3rd party extension
 net-dns/bind:dnsrps - Enable the DNS Response Policy Service (DNSRPS) API, a mechanism to allow an external response policy provider
 net-dns/bind:dnstap - Enables dnstap packet logging
 net-dns/bind:fixed-rrset - Enables fixed rrset-order option
+net-dns/bind:geoip2 - Enable GeoIP2 API from MaxMind
 net-dns/bind:gost - Enables gost OpenSSL engine support
 net-dns/bind:gssapi - Enable gssapi support
 net-dns/bind:json - Enable JSON statistics channel
