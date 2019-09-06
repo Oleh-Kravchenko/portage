@@ -3436,6 +3436,7 @@ games-fps/eduke32:voxels - Install the Duke Nukem 3D Voxels Pack.
 games-fps/eduke32:vpx - Enable support for media-libs/libvpx.
 games-fps/eduke32:xmp - Enable support for media-libs/exempi.
 games-fps/gzdoom:gtk2 - Enable support for GTK+2 instead of GTK+3
+games-fps/gzdoom:nonfree - Enable non-free components
 games-fps/nexuiz:maps - Install the community map pack
 games-fps/prboom-plus:dumb - Enable support for various tracker-style music formats via media-libs/dumb
 games-fps/prboom-plus:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
@@ -5064,9 +5065,7 @@ media-tv/kodi:libusb - Use virtual/libusb for usb device hotplug support. This f
 media-tv/kodi:lirc - Enable support for controlling Totem with a remote control using app-misc/lirc
 media-tv/kodi:mariadb - Add MariaDB support
 media-tv/kodi:nfs - Enable NFS client support
-media-tv/kodi:nonfree - Enable non-free components
 media-tv/kodi:raspberry-pi - Enable support for the Raspberry Pi
-media-tv/kodi:sftp - Support browsing files over SFTP
 media-tv/kodi:system-ffmpeg - Use system ffmpeg instead of the bundled one
 media-tv/kodi:udev - Use sys-fs/udev rules to handle devices' permissions and hotplug support. Unless you know what you're doing do not disable this flag on Linux kernels. This is provided as an option for completeness.
 media-tv/kodi:webserver - Enable internal webserver
@@ -7609,7 +7608,7 @@ sci-libs/magma:kepler - Compile for GPU NVIDIA Kepler family (GF 6xx cards)
 sci-libs/mathgl:hdf - Add support for the Hierarchical Data Format v.4 sci-libs/hdf
 sci-libs/mathgl:octave - Add bindings for sci-mathematics/octave
 sci-libs/matio:sparse - Extend formats for sparse matrix (not matlab)
-sci-libs/med:hdf5_16_api - Use -DH5_USE_16_API to build the package against old 1.6 API of HDF5
+sci-libs/med:hdf5-16-api - Use -DH5_USE_16_API to build the package against old 1.6 API of HDF5
 sci-libs/mkl:fortran95 - Installs the BLAS/LAPACK FORTRAN95 static libraries
 sci-libs/mkl:int64 - Installs the 64 bits integer libraries
 sci-libs/mkl-rt:eselect-ldso - Enable runtime library switching by eselect and ld.so.
