@@ -5535,6 +5535,7 @@ net-analyzer/net-snmp:elf - Enable the use of elf utils to check uptime on some 
 net-analyzer/net-snmp:kmem - Enable usage of /dev/kmem
 net-analyzer/net-snmp:mfd-rewrites - Use MFD rewrites of mib modules where available
 net-analyzer/net-snmp:netlink - Use dev-libs/libnl to fetch TCP statistics instead of using /proc/net/tcp (Linux only).
+net-analyzer/net-snmp:pcap - Install snmppcap which reads from PCAP files and writes to the SNMP transport
 net-analyzer/net-snmp:pci - Use libpci (from sys-apps/pciutils) to look up network interface description. This feature is only available on Linux.
 net-analyzer/net-snmp:rpm - Enable monitoring of app-arch/rpm. This flag requires the bzip2 and zlib flags to be enabled as well.
 net-analyzer/net-snmp:smux - Enable support for the legacy smux protocol (superseded by agentx)
@@ -6626,19 +6627,8 @@ net-misc/electron-cash:email - Enable plugin to support emailing invoices
 net-misc/electron-cash:qrcode - Enable QR code scanning with media-gfx/zbar
 net-misc/electron-cash:sync - Enable plugin to sync wallet metadata across multiple Electrum clients
 net-misc/electron-cash:vkb - Enable plugin for virtual keyboard
-net-misc/electrum:audio_modem - Enable plugin to support Audio Modem
 net-misc/electrum:cli - Enables the CLI interface
-net-misc/electrum:coldcard - Enable plugin to support Coldcard Hardware Wallet
-net-misc/electrum:cosign - Enable plugin to support multisig wallets between multiple Electrum clients
-net-misc/electrum:digitalbitbox - Enable plugin to support Digital Bitbox hardware wallet
-net-misc/electrum:email - Enable plugin to support emailing invoices
-net-misc/electrum:greenaddress_it - Enable plugin to verify GreenAddress.it instant transactions
 net-misc/electrum:qrcode - Enable QR code scanning with media-gfx/zbar
-net-misc/electrum:revealer - Enable revealer plugin for extra security. https://revealer.cc/
-net-misc/electrum:safe_t - Enable plugin to support Safe-T mini Wallet
-net-misc/electrum:sync - Enable plugin to sync wallet metadata across multiple Electrum clients
-net-misc/electrum:trustedcoin_com - Enable plugin to use two-factor service by TrustedCoin.com
-net-misc/electrum:vkb - Enable plugin for virtual keyboard
 net-misc/electrum-ltc:audio_modem - Enable plugin to support Audio Modem
 net-misc/electrum-ltc:cli - Enables the CLI interface
 net-misc/electrum-ltc:cosign - Enable plugin to support multisig wallets between multiple Electrum clients
