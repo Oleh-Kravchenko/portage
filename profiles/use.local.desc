@@ -6602,6 +6602,7 @@ net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/connman-gtk:openconnect - Support easier authentication to AnyConnect VPNs
 net-misc/crossbar:tor - include tor services connections support
 net-misc/csync:sftp - Enable sftp transfer support via net-libs/libssh
+net-misc/curl:alt-svc - Enable alt-svc support
 net-misc/curl:brotli - Enable brotli compression support
 net-misc/curl:http2 - Enabled HTTP/2.0 support
 net-misc/curl:metalink - Enable metalink support
@@ -7683,6 +7684,7 @@ sci-libs/symengine:mpc - Add support for multiprecision complex arithmetic(dev-l
 sci-libs/symengine:mpfr - Add support for multiprecision floating point rouding(dev-libs/mpfr)
 sci-libs/taucs:cilk - Enable multithreading using dev-lang/cilk
 sci-libs/tensorflow:cuda - Enable support for nVidia CUDA
+sci-libs/tensorflow:xla - XLA (Accelerated Linear Algebra) Optimizing Compiler for TensorFlow
 sci-libs/trilinos:adolc - Add support for adolc (sci-libs/adolc)
 sci-libs/trilinos:arprec - Add support for arprec (sci-libs/arprec)
 sci-libs/trilinos:boost - Add support for boost (dev-libs/boost)
@@ -9110,11 +9112,9 @@ x11-libs/libfm:automount - Use gnome-base/gvfs for automounting
 x11-libs/libfm:udisks - Use libfm's udisks-based volume monitor implementation instead of using the one from gvfs
 x11-libs/libfm:vala - Support custom actions in menus
 x11-libs/libva:drm - Enables VA/DRM API support.
-x11-libs/libva:egl - Enables EGL support.
 x11-libs/libva:utils - Install VA-API utility programs.
 x11-libs/libva-compat:drm - Enables VA/DRM API support.
 x11-libs/libva-compat:egl - Enables EGL support.
-x11-libs/libva-intel-driver:drm - Enables VA/DRM API support.
 x11-libs/libwnck:tools - Install wnckprop-3 and wnck-urgency-monitor-3 command-line tools
 x11-libs/libxcb:xkb - Enable the XCB keyboard extension
 x11-libs/motif:motif22-compatibility - Compatibility with Open Motif 2.2
