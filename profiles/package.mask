@@ -29,6 +29,10 @@
 
 #--- END OF EXAMPLES ---
 
+# Miroslav Šulc <fordfrog@gentoo.org> (2019-09-21)
+# Depends on >=virtual/{jdk,jre}-11 which is masked
+=www-servers/tomcat-9.0.26
+
 # James Le Cuirot <chewi@gentoo.org> (2019-09-19)
 # Minetest Game is now installed and managed through the Minetest
 # engine in games-action/minetest. Removal in 30 days.
@@ -1162,13 +1166,6 @@ www-apps/sitebar
 # server, http://www.webmin.com/exploit.html
 app-admin/webmin
 
-# Hans de Graaff <graaff@gentoo.org> (2019-08-21)
-# This virtual was useful when jruby was still around but this
-# has not been the case for a long time and there are no
-# reverse dependencies for this package anymore.
-# Removal in 30 days.
-virtual/ruby-ffi
-
 # Miroslav Šulc <fordfrog@gentoo.org> (2019-08-19)
 # Depends on >=virtual/{jdk,jre}-11 which is masked
 =www-servers/tomcat-9.0.24
@@ -1182,10 +1179,6 @@ net-misc/gnome-remote-desktop
 # are developers or want more experimental features
 # and accept a more unstable release.
 >=www-client/chromium-78
-
-# Miroslav Šulc <fordfrog@gentoo.org> (2019-07-30)
-# Depends on >=virtual/{jdk,jre}-11 which is masked
-=www-servers/tomcat-9.0.22
 
 # Mart Raudsepp <leio@gentoo.org> (2019-07-28)
 # GNOME 3.33 development release packages
@@ -1210,10 +1203,6 @@ dev-lang/php:7.4
 # Daniel Pielmeier <billie@gentoo.org> (2019-07-06)
 # Requires >=dev-lang/lua-5.2 which is masked
 >=app-admin/conky-1.11.4
-
-# Miroslav Šulc <fordfrog@gentoo.org> (2019-06-12)
-# Depends on >=virtual/{jdk,jre}-11 which is masked
-=www-servers/tomcat-9.0.21
 
 # Patrick Lauer <patrick@gentoo.org> (2019-05-23)
 # PostgreSQL beta and release candidate releases are pre-release testing

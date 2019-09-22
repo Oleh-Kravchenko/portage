@@ -6,7 +6,7 @@ EAPI=7
 : ${CMAKE_MAKEFILE_GENERATOR:=ninja}
 # (needed due to CMAKE_BUILD_TYPE != Gentoo)
 CMAKE_MIN_VERSION=3.7.0-r1
-PYTHON_COMPAT=( python{2_7,3_{5,6,7}} )
+PYTHON_COMPAT=( python{2_7,3_{5,6}} )
 
 inherit cmake-utils llvm multiprocessing python-single-r1 \
 	toolchain-funcs
@@ -18,11 +18,13 @@ DESCRIPTION="The LLVM debugger"
 HOMEPAGE="https://llvm.org/"
 SRC_URI="https://releases.llvm.org/${PV}/${MY_P}.tar.xz
 	test? ( https://releases.llvm.org/${PV}/${LLVM_P}.tar.xz )"
+S=${WORKDIR}/${MY_P}
 
 LICENSE="Apache-2.0-with-LLVM-exceptions UoI-NCSA"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 IUSE="libedit ncurses +python test"
+REQUIRED_USE=${PYTHON_REQUIRED_USE}
 RESTRICT="!test? ( test )"
 
 RDEPEND="
@@ -40,10 +42,6 @@ BDEPEND="
 		~dev-python/lit-${PV}[${PYTHON_USEDEP}]
 		sys-devel/lld )
 	${PYTHON_DEPS}"
-
-REQUIRED_USE=${PYTHON_REQUIRED_USE}
-
-S=${WORKDIR}/${MY_P}
 
 # least intrusive of all
 CMAKE_BUILD_TYPE=RelWithDebInfo
