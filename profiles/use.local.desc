@@ -1674,7 +1674,7 @@ dev-haskell/gtk3:fmode-binary - Set the default file translation mode for file I
 dev-haskell/gtk3:gio - Depend on GIO package, thereby enabling certain features.
 dev-haskell/hackage-security:use-network-uri - Get Network.URI from the network-uri package.
 dev-haskell/happstack-server:network-uri - Get Network.URI from the network-uri package
-dev-haskell/happstack-server:template_haskell - Description: Template Haskell is available on this system
+dev-haskell/happstack-server:template-haskell - Description: Template Haskell is available on this system
 dev-haskell/hashed-storage:diff - Provide the Storage.Hashed.Diff module.
 dev-haskell/hashed-storage:hpc - Compile with the profiling ghc flag -fhpc.
 dev-haskell/hashtables:bounds-checking - if on, use bounds-checking array accesses
@@ -5594,7 +5594,7 @@ net-analyzer/wireshark:minizip - Build with zip file compression support
 net-analyzer/wireshark:netlink - Use dev-libs/libnl
 net-analyzer/wireshark:nghttp2 - Use net-libs/nghttp2 for HTTP/2 support
 net-analyzer/wireshark:pcap - Use net-libs/libpcap for network packet capturing (build dumpcap, rawshark)
-net-analyzer/wireshark:plugin_ifdemo - Install plugin interface demo
+net-analyzer/wireshark:plugin-ifdemo - Install plugin interface demo
 net-analyzer/wireshark:plugins - Install plugins
 net-analyzer/wireshark:randpkt - Install randpkt, a utility for creating pcap trace files full of random packets
 net-analyzer/wireshark:randpktdump - Install randpktdump, an extcap interface to provide access to the random packet generator (randpkt)
