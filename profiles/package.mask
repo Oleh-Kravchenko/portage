@@ -270,11 +270,6 @@ app-portage/hashgen
 # Removal in 30 days.  Bug #694390.
 dev-go/go-oauth2
 
-# Zac Medico <zmedico@gentoo.org> (2019-09-14)
-# No reverse dependencies.
-# Removal in 30 days.  Bug #694392.
-dev-go/go-protobuf
-
 # Michał Górny <mgorny@gentoo.org> (2019-09-14)
 # Unmaintained.  All of them were not bumped since 2016.  No reverse
 # dependencies.
@@ -1130,18 +1125,6 @@ dev-lang/php:7.4
 # Daniel Pielmeier <billie@gentoo.org> (2019-07-06)
 # Requires >=dev-lang/lua-5.2 which is masked
 >=app-admin/conky-1.11.4
-
-# Patrick Lauer <patrick@gentoo.org> (2019-05-23)
-# PostgreSQL beta and release candidate releases are pre-release testing
-# versions, not meant for production use. They are feature-frozen, and are
-# released to the public for testing before final release
-#
-# NOTE: Successive beta or candidate releases may not be backwards compatible,
-# so it is important that you review the release notes before upgrading.
-#
-# For more information about beta and release candidate versions, see:
-#     https://www.postgresql.org/developer/beta/
-dev-db/postgresql:12
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (2019-05-11)
 # Perl 5.24 will be removed soon. Please upgrade.
