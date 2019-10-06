@@ -29,6 +29,27 @@
 
 #--- END OF EXAMPLES ---
 
+# Stefan Strogin <steils@gentoo.org> (2019-10-05)
+# Masked for testing
+>=dev-libs/libressl-3.0.1
+
+# Michał Górny <mgorny@gentoo.org> (2019-10-05)
+# Apparently included in apache-2.4, rendering split package obsolete.
+# Removal in 30 days.  Bug #680768.
+www-apache/mod_xml2enc
+
+# Michał Górny <mgorny@gentoo.org> (2019-10-05)
+# Does not support kernels >3.11 (oldest gentoo-sources is 4.4 atm).
+# Not bumped since 2013.  Bump request waiting since 2014.
+# Removal in 30 days.  Bug #696376.
+sys-block/iscsitarget
+
+# Michał Górny <mgorny@gentoo.org> (2019-10-05)
+# Open vulnerability for two years.  No maintainer activity since 2017.
+# Upstream is not making any new releases, and patches are accumulating.
+# Removal in 30 days.  Bug #662878.
+net-libs/openslp
+
 # Michał Górny <mgorny@gentoo.org> (2019-10-04)
 # Unmaintained, EAPI 0 packages.  No reverse dependencies.  If you want
 # them to stay, please port them to EAPI 7, and preferably become
