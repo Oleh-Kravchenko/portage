@@ -4,7 +4,7 @@
 EAPI=7
 PYTHON_COMPAT=( python2_7 )
 PYTHON_REQ_USE="threads"
-inherit bash-completion-r1 flag-o-matic pax-utils python-any-r1 toolchain-funcs
+inherit bash-completion-r1 flag-o-matic pax-utils python-any-r1 toolchain-funcs xdg-utils
 
 DESCRIPTION="A JavaScript runtime built on Chrome's V8 JavaScript engine"
 HOMEPAGE="https://nodejs.org/"
@@ -24,7 +24,7 @@ REQUIRED_USE="
 RDEPEND="
 	>=dev-libs/libuv-1.31.0:=
 	>=net-dns/c-ares-1.15.0
-	>=net-libs/http-parser-2.8.0:=
+	>=net-libs/http-parser-2.9.0:=
 	>=net-libs/nghttp2-1.39.2
 	sys-libs/zlib
 	icu? ( >=dev-libs/icu-64.2:= )
@@ -92,6 +92,8 @@ src_prepare() {
 }
 
 src_configure() {
+	xdg_environment_reset
+
 	local myconf=(
 		--shared-cares --shared-http-parser --shared-libuv --shared-nghttp2
 		--shared-zlib
