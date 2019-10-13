@@ -128,7 +128,7 @@ app-admin/rsyslog:kerberos - Build the GSSAPI input and output module (requires 
 app-admin/rsyslog:kubernetes - Build the kubernetes modify plugin (requires net-misc/curl)
 app-admin/rsyslog:libressl - Use dev-libs/libressl instead of dev-libs/openssl (you still need to enable functionality which requires OpenSSL)
 app-admin/rsyslog:mdblookup - Build the MaxMind DB lookup message modify plugin using dev-libs/libmaxminddb
-app-admin/rsyslog:mongodb - Build the MongoDB output module (requires dev-libs/libmongo-client)
+app-admin/rsyslog:mongodb - Build the MongoDB output module (requires dev-libs/mongo-c-driver)
 app-admin/rsyslog:mysql - Build the MySQL database output module (requires virtual/mysql)
 app-admin/rsyslog:normalize - Build the normalize modify module (requires dev-libs/libee and dev-libs/liblognorm)
 app-admin/rsyslog:omhttp - Build the http output module (requires net-misc/curl)
@@ -2055,18 +2055,6 @@ dev-lang/swig:ccache - build ccache-swig(a fast compiler cache)
 dev-lang/vala:valadoc - Installs valadoc documentation generation tool
 dev-lang/yap:R - Enable support for connecting R to Prolog
 dev-lang/zig:experimental - Enable builds that do not support all of LLVM's target architectures
-dev-libs/actor-framework:benchmarks - Due to the number of out-of-tree deps, these only get installed as docs
-dev-libs/actor-framework:boost - Make use of Boost's ASIO functionality
-dev-libs/actor-framework:cash - Build the C Actor Shell for introspection and debugging
-dev-libs/actor-framework:debug - Raises log-level to DEBUG, enables runtime checks and address sanitizer
-dev-libs/actor-framework:doc - Compiles and installs the documentation as PDF and HTML
-dev-libs/actor-framework:examples - Installs the provided example source files
-dev-libs/actor-framework:mem_management - Enables built-in memory management
-dev-libs/actor-framework:nexus - Nexus is the central component for CAF's runtime inspection
-dev-libs/actor-framework:opencl - Compiles against the provided opencl implementation
-dev-libs/actor-framework:riac - Runtime inspection and configuration
-dev-libs/actor-framework:static - Provides a static build
-dev-libs/actor-framework:test - Builds the provided unit tests
 dev-libs/antlr-c:debugger - Compiles debug info into the library
 dev-libs/appstream:apt - Enables Debians APT support
 dev-libs/appstream-glib:fonts - Enable fonts support for appstream-builder.
@@ -2272,7 +2260,6 @@ dev-libs/libisoburn:launch-frontend-setuid - Enable the tcl gui for xorriso unde
 dev-libs/libisofs:verbose-debug - Enable verbose debug messages
 dev-libs/liblogging:rfc3195 - Enables RFC 3195 protocol (aka syslog-reliable) support. If you don't know what this is, you don't need it!
 dev-libs/liblogging:stdlog - Enables liblogging's core component (think of it as a the next version of the syslog(3) API).
-dev-libs/libmail:apop - Enables the APOP authentication method
 dev-libs/libmemcached:hsieh - Use Hsieh hash algorithm.
 dev-libs/libmemcached:libevent - Use the libevent event loop interface.
 dev-libs/libmemcached:sasl - Use sasl auth for communications.
@@ -2314,13 +2301,8 @@ dev-libs/libslz:tools - Install additional tools (zenc, zdec)
 dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
 dev-libs/libspt:libtirpc - Build against net-libs/libtirpc for RPC support
-dev-libs/libsqlora8:orathreads - Use Oracle threads
 dev-libs/libtasn1:valgrind - Enable usage of dev-util/valgrind in debug
 dev-libs/libtermkey:demos - Install demos, which pulls in dev-libs/glib
-dev-libs/libucl:regex - Enable regex checking for schema
-dev-libs/libucl:signatures - Enable signatures check
-dev-libs/libucl:urlfetch - Enable URLs fetch
-dev-libs/libucl:utils - Install the chargen and objdump utilities
 dev-libs/libunibreak:doc - Install html API documentation.
 dev-libs/libunibreak:man - Generate man pages with doxygen.
 dev-libs/libverto:glib - Support event loops using dev-libs/glib
@@ -2430,8 +2412,6 @@ dev-libs/xapian:inmemory - Enabled inmemory backend db support
 dev-libs/xapian:remote - Enabled remote backend db support
 dev-libs/xerces-c:iconv - Use iconv (virtual/libiconv) as message loader and transcoder (in general it would be possible to use iconv only as message loader and something else like icu or the native method as transcoder and vice-versa, but this is a less common case and hard to handle)
 dev-libs/xerces-c:threads - Enable threading support through pthread (or other libraries on AIX, IRIX, HPUX, Solars). Highly recommended
-dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (configureable at runtime)
-dev-libs/xml-security-c:xalan - Enable support for XSLT and XPath parsing by dev-libs/xalan-c
 dev-libs/xmlrpc-c:abyss - Build the Abyss mini web-server.
 dev-libs/xmlrpc-c:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal expat library.
 dev-libs/xmlrpc-c:threads - Controls whether to build the Abyss web-server with pthreads or fork 'threading'.
@@ -5348,7 +5328,7 @@ net-analyzer/hexinject:tools - Install hex2raw and prettypacket tools
 net-analyzer/httping:tfo - Enable support for TCP Fast Open
 net-analyzer/hydra:gcrypt - Enable radmin2 support through dev-libs/libgcrypt
 net-analyzer/hydra:libssh - Enable SSH support through net-libs/libssh
-net-analyzer/hydra:mongodb - MongoDB support through dev-libs/libmongo-client
+net-analyzer/hydra:mongodb - MongoDB support through dev-libs/mongo-c-driver
 net-analyzer/hydra:ncp - NCP protocol (NetWare) support through net-fs/ncpfs
 net-analyzer/icinga:contrib - additional scripts
 net-analyzer/icinga:eventhandler - Adds support for running custom scripts whenever a host or service state change occurs
@@ -7854,39 +7834,37 @@ sys-apps/firejail-lts:whitelist - Enable file and directory whitelisting
 sys-apps/flashrom:atahpt - Highpoint (HPT) ATA/RAID controller support
 sys-apps/flashrom:atapromise - Support for Promise PDC2026x (FastTrak/Ultra)
 sys-apps/flashrom:atavia - Support for VIA VT6421A SATA controllers
-sys-apps/flashrom:bitbang_spi - Bitbanging SPI infrastructure
-sys-apps/flashrom:buspirate_spi - Enable Bus Pirate SPI programmer
-sys-apps/flashrom:ch341a_spi - Enable WCH CH341A SPI programmer
+sys-apps/flashrom:buspirate-spi - Enable Bus Pirate SPI programmer
+sys-apps/flashrom:ch341a-spi - Enable WCH CH341A SPI programmer
 sys-apps/flashrom:dediprog - Dediprog SF100 support
-sys-apps/flashrom:developerbox_spi - Enable Devloperbox SPI recovery support
-sys-apps/flashrom:digilent_spi - Enable support for Digilent iCEblink40 development board
+sys-apps/flashrom:developerbox-spi - Enable Devloperbox SPI recovery support
+sys-apps/flashrom:digilent-spi - Enable support for Digilent iCEblink40 development board
 sys-apps/flashrom:drkaiser - Enable Dr. Kaiser programmer
 sys-apps/flashrom:dummy - Enable dummy tracing
-sys-apps/flashrom:ft2232_spi - Enable ftdi programmer, flashing through FTDI/SPI USB interface
+sys-apps/flashrom:ft2232-spi - Enable ftdi programmer, flashing through FTDI/SPI USB interface
 sys-apps/flashrom:gfxnvidia - Enable NVIDIA programmer
 sys-apps/flashrom:internal - Enable internal/onboard support
-sys-apps/flashrom:internal_dmi - Enable internal DMI decoding rather than use sys-apps/dmidecode
+sys-apps/flashrom:internal-dmi - Enable internal DMI decoding rather than use sys-apps/dmidecode
 sys-apps/flashrom:it8212 - Support for ITE IT8212F ATA/RAID controllers
-sys-apps/flashrom:jlink_spi - Support for SEGGER J-Link and compatible devices
-sys-apps/flashrom:linux_mtd - Enable support for Linux mtd SPI flash devices
-sys-apps/flashrom:linux_spi - Enable support for Linux userspace spidev interface
-sys-apps/flashrom:mstarddc_spi - Support for SPI flash ROMs accessible through DDC in MSTAR-equipped displays
+sys-apps/flashrom:jlink-spi - Support for SEGGER J-Link and compatible devices
+sys-apps/flashrom:linux-mtd - Enable support for Linux mtd SPI flash devices
+sys-apps/flashrom:linux-spi - Enable support for Linux userspace spidev interface
+sys-apps/flashrom:mstarddc-spi - Support for SPI flash ROMs accessible through DDC in MSTAR-equipped displays
 sys-apps/flashrom:nic3com - Enable 3Com NIC programmer
 sys-apps/flashrom:nicintel - Support for Intel NICs
-sys-apps/flashrom:nicintel_eeprom - Support for EEPROMs on Intel Gigabit network cards
-sys-apps/flashrom:nicintel_spi - Support for SPI on Intel NICs
+sys-apps/flashrom:nicintel-eeprom - Support for EEPROMs on Intel Gigabit network cards
+sys-apps/flashrom:nicintel-spi - Support for SPI on Intel NICs
 sys-apps/flashrom:nicnatsemi - Support for National Semiconductor NICs
 sys-apps/flashrom:nicrealtek - Support for Realtek NICs
-sys-apps/flashrom:ogp_spi - Enable support for OGP (Open Graphics Project) SPI flashing
-sys-apps/flashrom:pickit2_spi - SUpport for SPI flash ROMs accessible via Microchip PICkit2
-sys-apps/flashrom:pony_spi - Enable support for SI-Prog like hardware by Lancos
-sys-apps/flashrom:rayer_spi - RayeR SPIPGM hardware support
+sys-apps/flashrom:ogp-spi - Enable support for OGP (Open Graphics Project) SPI flashing
+sys-apps/flashrom:pickit2-spi - SUpport for SPI flash ROMs accessible via Microchip PICkit2
+sys-apps/flashrom:pony-spi - Enable support for SI-Prog like hardware by Lancos
+sys-apps/flashrom:rayer-spi - RayeR SPIPGM hardware support
 sys-apps/flashrom:satamv - Enable programmer for Marvell SATA controllers
 sys-apps/flashrom:satasii - Enable programmer for SiI SATA controllers
 sys-apps/flashrom:serprog - Enable Serial Flasher programmer
 sys-apps/flashrom:tools - Install additional tools
-sys-apps/flashrom:usbblaster - Enable support for Altera USB-Blaster dongles
-sys-apps/flashrom:usbblaster_spi - Enable support for Altera USB-Blaster dongles
+sys-apps/flashrom:usbblaster-spi - Enable support for Altera USB-Blaster dongles
 sys-apps/flashrom:wiki - Enable wiki informations, like supported devices etc.
 sys-apps/fwupd:agent - Enable update notification agent
 sys-apps/fwupd:colorhug - Enable ColorHug support throughx11-misc/colord package
