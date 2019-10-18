@@ -29,6 +29,22 @@
 
 #--- END OF EXAMPLES ---
 
+# Thomas Deutschmann <whissi@gentoo.org> (2019-10-17)
+# clamav-milter completely broken, #697688
+~app-antivirus/clamav-0.102.0
+
+# Michał Górny <mgorny@gentoo.org> (2019-10-17)
+# Homepage gone.  EAPI 0.  Used to be used with old versions
+# of www-apps/gallery that were removed back in 2016.
+# Removal in 30 days.  Bug #697280.
+media-gfx/galleryadd
+
+# David Seifert <soap@gentoo.org> (2019-10-17)
+# Dead upstream, EAPI 0, low quality ebuild,
+# hasn't been touched in ages
+# Removal in 30 days.  Bug #697274.
+media-sound/mserv
+
 # Mikle Kolyada <zlogene@gentoo.org> (2019-10-16)
 # not needed due to openpam removal. Please
 # update your packages running emerge with the
@@ -148,10 +164,6 @@ net-misc/ipsc
 # Unmaintained.  Does not build.  EAPI 0.
 # Removal in 30 days.  Bug #696294.
 mail-mta/qmail-ldap
-
-# Matt Turner <mattst88@gentoo.org> (2019-10-09)
-# Needs unreleased xorgproto. Bug #697098.
-=x11-libs/libX11-1.6.9
 
 # Michał Górny <mgorny@gentoo.org> (2019-10-07)
 # Unmaintained.  A few versions behind upstream.  Forces an old version
@@ -400,10 +412,6 @@ games-server/ut2004-ded
 # Removal in 30 days.
 virtual/python-pmw
 
-# Ulrich Müller <ulm@gentoo.org> (2019-09-26)
-# Blocks its own dependency. Bug #695606.
-=x11-libs/libXvMC-1.0.12
-
 # Joonas Niilola <juippis@gentoo.org> (2019-09-24)
 # Upstream decided to deprecate this service, and app. Removal in 
 # ~30 days. Bug #695562
@@ -437,32 +445,6 @@ sci-chemistry/azara
 # Removal in 30 days.  Bug #683724.
 app-admin/systemrescuecd-x86
 sys-boot/systemrescuecd-x86-grub
-
-# Michał Górny <mgorny@gentoo.org> (2019-09-17)
-# Unmaintained EAPI 0 Apache modules + mod_access_dnsbl as a revdep.
-# Removal in 30 days.  Bug #694608.
-www-apache/mod_access_dnsbl
-www-apache/mod_authn_sasl
-www-apache/mod_depends
-www-apache/mod_dnsbl_lookup
-www-apache/mod_flvx
-www-apache/mod_geoip2
-www-apache/mod_macro
-www-apache/mod_umask
-
-# Michał Górny <mgorny@gentoo.org> (2019-09-17)
-# Unmaintained libraries with no reverse dependencies.
-# Removal in 30 days.  Bug #694602.
-dev-db/cppdb
-dev-db/odbtp
-dev-db/soci
-dev-db/xbase
-dev-db/xbsql
-
-# Michał Górny <mgorny@gentoo.org> (2019-09-17)
-# Last touched in 2005.  EAPI 0.  No clearly defined license.
-# Removal in 30 days.  Bug #694598.
-sys-fs/wpflash
 
 # Michał Górny <mgorny@gentoo.org> (2019-09-16)
 # Unmaintained.  Fails to build.  Last release in 2004.  EAPI 0.
