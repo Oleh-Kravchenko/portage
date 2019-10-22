@@ -3,8 +3,6 @@
 
 EAPI="7"
 
-inherit eutils
-
 DESCRIPTION="Red Hat crash utility; used for analyzing kernel core dumps"
 HOMEPAGE="https://people.redhat.com/anderson/"
 SRC_URI="https://people.redhat.com/anderson/${P}.tar.gz"
@@ -16,4 +14,3 @@ IUSE=""
 # there is no "make test" target, but there is a test.c so the automatic
 # make rules catch it and tests fail
 RESTRICT="test"
-

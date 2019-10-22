@@ -29,6 +29,15 @@
 
 #--- END OF EXAMPLES ---
 
+# Matt Turner <mattst88@gentoo.org> (2019-10-21)
+# Replaced by introspection bindings. Bug #628938
+# Removal in 30 days
+dev-python/gnome-keyring-python
+
+# Matthew Thode <prometheanfire@gentoo.org> (2019-10-20)
+# defunct upstream, removal in 30 days. Bug #611580
+app-emulation/openstack-guest-agents-unix
+
 # Michał Górny <mgorny@gentoo.org> (2019-10-20)
 # Fails to build.  Last release in 2009.  The stable version is EAPI 0.
 # Removal in 30 days.  Bug #698162.
@@ -60,7 +69,6 @@ dev-ruby/escape_utils
 dev-ruby/ruby-beautify
 dev-ruby/termcolor
 dev-ruby/terrapin
-dev-ruby/vcard
 www-servers/thin
 
 # Michał Górny <mgorny@gentoo.org> (2019-10-20)
@@ -423,7 +431,7 @@ dev-php/pecl-svn
 dev-php/pecl-xrange
 dev-php/suhosin
 dev-php/xcache
-dev-php/xhprof
+<dev-php/xhprof-0.9.10
 
 # Matt Turner <mattst88@gentoo.org> (2019-09-28)
 # Merged into Mesa. No reverse dependencies. Bug #654464
