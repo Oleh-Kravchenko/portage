@@ -29,6 +29,22 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (2019-10-26)
+# Version in Gentoo is years old, does not work, no one stepped up
+# to maintain it. Package needs Google API key to actually work.
+# Removal in 30 days. Bug #608334
+media-video/minitube
+
+# Lars Wendler <polynomial-c@gentoo.org> (2019-10-26)
+# Breaks at least libreoffice (and perhaps more revdeps)
+~app-text/poppler-0.82.0
+
+# Michał Górny <mgorny@gentoo.org> (2019-10-26)
+# Incorrect LICENSE entry, and no clear license information to be found.
+# Homepage gone, and source of some of the files unknown.
+# Removal in 30 days.  Bug #698050.
+media-fonts/vc-fonts
+
 # Stephan Hartmann <stha09@googlemail.com> (2019-10-25)
 # Dev channel releases are only for people who
 # are developers or want more experimental features
@@ -474,7 +490,6 @@ sys-libs/libstdc++-v3-bin
 # All of the following packages are unfetchable and mirror-restricted.
 #
 # games-fps/enemy-territory-etpro: #638092
-# games-fps/ut2003-bonuspack-cm: #640552
 # games-rpg/runescape-launcher: #625884
 # games-server/bf1942-lnxded: #640576
 # games-server/nwn-ded: #640578
@@ -486,7 +501,6 @@ sys-libs/libstdc++-v3-bin
 #
 # Removal in 30 days.
 games-fps/enemy-territory-etpro
-games-fps/ut2003-bonuspack-cm
 games-rpg/runescape-launcher
 games-server/bf1942-lnxded
 games-server/nwn-ded
@@ -531,11 +545,6 @@ games-server/ut2004-ded
 # dependencies on dev-python/pmw.
 # Removal in 30 days.
 virtual/python-pmw
-
-# Joonas Niilola <juippis@gentoo.org> (2019-09-24)
-# Upstream decided to deprecate this service, and app. Removal in 
-# ~30 days. Bug #695562
-x11-misc/enlightenment-extra
 
 # Miroslav Šulc <fordfrog@gentoo.org> (2019-09-21)
 # Depends on >=virtual/{jdk,jre}-11 which is masked
