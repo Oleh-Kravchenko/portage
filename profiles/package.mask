@@ -539,13 +539,6 @@ games-server/ut2004-ded
 # Requires >=dev-lang/lua-5.3 which is masked
 >=dev-util/bam-0.5.0
 
-# Michał Górny <mgorny@gentoo.org> (2019-09-27)
-# The virtual is not really useful since all reverse dependencies
-# support only Python 2.7.  All its uses were replaced with direct
-# dependencies on dev-python/pmw.
-# Removal in 30 days.
-virtual/python-pmw
-
 # Miroslav Šulc <fordfrog@gentoo.org> (2019-09-21)
 # Depends on >=virtual/{jdk,jre}-11 which is masked
 =www-servers/tomcat-9.0.26
@@ -753,10 +746,6 @@ dev-java/eclipse-ecj:4.10
 # see security bug 670102
 <mail-client/thunderbird-60.0
 <mail-client/thunderbird-bin-60.0
-
-# Brian Evans <grknight@gentoo.org> (2018-11-05)
-# Causes a dependency loop in the OpenRC script. Bug #651998
-=sys-fs/cryptsetup-2.0.5-r1
 
 # Thomas Deutschmann <whissi@gentoo.org> (2018-10-12)
 # EOL and has known vulnerabilities. Please move to
