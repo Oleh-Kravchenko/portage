@@ -24,7 +24,7 @@ HOMEPAGE="http://www.gegl.org/"
 LICENSE="|| ( GPL-3+ LGPL-3 )"
 SLOT="0.4"
 
-IUSE="cairo debug ffmpeg +introspection lcms lensfun libav openexr pdf raw sdl svg test tiff umfpack vala v4l webp"
+IUSE="cairo debug ffmpeg introspection lcms lensfun libav openexr pdf raw sdl svg test tiff umfpack vala v4l webp"
 REQUIRED_USE="
 	svg? ( cairo )
 	vala? ( introspection )
@@ -80,6 +80,7 @@ DOCS=( AUTHORS docs/ChangeLog docs/NEWS.txt )
 PATCHES=(
 	"${FILESDIR}"/${PN}-0.4.18-drop-failing-tests.patch
 	"${FILESDIR}"/${PN}-0.4.18-program-suffix.patch
+	"${FILESDIR}"/${PN}-0.4.18-arch.patch
 )
 
 pkg_setup() {
