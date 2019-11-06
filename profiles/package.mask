@@ -29,6 +29,22 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (2019-11-05)
+# Ships broken libssh-config module breaking build of revdeps, bug #698940
+=net-libs/libssh-0.9.1
+
+# Michał Górny <mgorny@gentoo.org> (2019-11-05)
+# The following packages are unmaintained and have incorrect LICENSE
+# entries.  All of them have additional bugs reported.
+#
+# app-admin/certmgr: #694690
+# app-admin/ksonnet: #694710
+# dev-go/delve: #694382
+# Removal in 30 days.
+app-admin/certmgr
+app-admin/ksonnet
+dev-go/delve
+
 # Mikle Kolyada <zlogene@gentoo.org> (2019-11-04)
 # xcolor has been a part of dev-texlive/texlive-latexrecommended
 # for a long time, removal in 10 days.
@@ -61,10 +77,7 @@ sys-devel/systemd-m4
 dev-ada/gps-bin
 
 # Michał Górny <mgorny@gentoo.org> (2019-11-01)
-# Both make no sense with dev-embedded/gnap removed.
 # Removal in 14 days.  Bug #699072.
-dev-embedded/gnap-dev
-dev-embedded/gnap-ext
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (2019-10-30)
 # In preparation...
@@ -343,75 +356,13 @@ mail-mta/qmail-ldap
 # Removal in 30 days.  Bug #696916.
 net-im/openfire
 
-# Michał Górny <mgorny@gentoo.org> (2019-10-05)
-# Apparently included in apache-2.4, rendering split package obsolete.
-# Removal in 30 days.  Bug #680768.
-www-apache/mod_xml2enc
-
-# Michał Górny <mgorny@gentoo.org> (2019-10-05)
-# Does not support kernels >3.11 (oldest gentoo-sources is 4.4 atm).
-# Not bumped since 2013.  Bump request waiting since 2014.
-# Removal in 30 days.  Bug #696376.
-sys-block/iscsitarget
-
-# Michał Górny <mgorny@gentoo.org> (2019-10-05)
-# Open vulnerability for two years.  No maintainer activity since 2017.
-# Upstream is not making any new releases, and patches are accumulating.
-# Removal in 30 days.  Bug #662878.
-net-libs/openslp
-
 # Michał Górny <mgorny@gentoo.org> (2019-10-04)
 # Unmaintained, EAPI 0 packages.  No reverse dependencies.  If you want
 # them to stay, please port them to EAPI 7, and preferably become
 # the maintainer.
 # Removal in 30 days.  Bug #696252.
-app-benchmarks/volanomark
-app-cdr/mode2cdmaker
-app-cdr/xdvdfs-tools
-app-mobilephone/cobex
-app-office/tedia2sql
-app-text/mht-rip
-dev-embedded/gnap
-dev-libs/xplc
-dev-vcs/cvsd
-dev-vcs/cvsq
-mail-client/biabam
-mail-client/pinepgp
-mail-filter/clamassassin
 mail-filter/clamsmtp
-mail-filter/disspam
-media-gfx/cthumb
-media-gfx/fblogo
-net-dialup/globespan-adsl
-net-dns/bind-dns-keygen
-net-firewall/fwanalog
-net-firewall/fwipsec
-net-firewall/quicktables
-net-firewall/shapecfg
-net-irc/dircproxy
-net-irc/jircii
-net-irc/miau
-net-mail/hotwayd
-net-mail/popick
-net-mail/poppassd_ceti
-net-mail/spamcup
-net-mail/yosucker
-net-misc/cgterm
-net-misc/clockspeed-conf
-net-misc/fmirror
-net-misc/ng-utils
-net-misc/sendfile
-net-news/yencode
-net-nntp/slrnconf
-net-nntp/ubh
-net-p2p/ctcs
-net-proxy/ratproxy
-net-wireless/airsnort
-sys-apps/hwdata-redhat
-sys-auth/pam-afs-session
-sys-auth/pam_chroot
 sys-auth/pam_require
-sys-block/dellmgr
 
 # Michał Górny <mgorny@gentoo.org> (2019-10-04)
 # Unmaintained, EAPI 0 packages.  No reverse dependencies.  If you want
@@ -426,19 +377,6 @@ app-dicts/dictd-gazetteer
 app-dicts/dictd-jargon
 app-dicts/dictd-misc
 app-dicts/dictd-web1913
-
-# Michał Górny <mgorny@gentoo.org> (2019-10-04)
-# Unmaintained.  EAPI 0.  Last release in 2009.  No reverse
-# dependencies.
-# Removal in 30 days.  Bug #696176.
-mail-filter/procmail-lib
-
-# Patrice Clement <monsieurp@gentoo.org> (2019-10-02)
-# OTR support is fully integrated within irssi since version 1.2.0. Type /help otr
-# at the command prompt to find out more. The OTR module is therefore obsolete
-# and can be tree-cleaned.
-# Masked for removal in 30 days. Bug #696074.
-net-irc/irssi-otr
 
 # Brian Evans <grknight@gentoo.org> (2019-10-01)
 # End of life.  Please upgrade.
