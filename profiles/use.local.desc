@@ -3579,7 +3579,6 @@ gui-libs/libhandy:glade - Install module and catalog for dev-util/glade
 gui-libs/wlroots:X - Enable support for X11 applications (XWayland)
 gui-libs/wlroots:elogind - Enable support for rootless session via elogind
 gui-libs/wlroots:icccm - Use xcb-icccm (from x11-libs/xcb-util-wm) util library for improved Xwayland introspection
-gui-libs/wlroots:rootston - Build the rootston example compositor
 gui-libs/wlroots:x11-backend - Enable support for handling input/output devices through x11-libs/libxcb
 gui-wm/sway:X - Enable support for X11 applications (XWayland)
 gui-wm/sway:elogind - Enable support for rootless session via elogind
@@ -4369,6 +4368,7 @@ media-libs/libplacebo:lcms - Add support for color management via media-libs/lcm
 media-libs/libplacebo:shaderc - Use media-libs/shaderc to compile GLSL
 media-libs/libplacebo:vulkan - Add support for the vulkan graphics API
 media-libs/libpng:apng - support unofficial APNG (Animated PNG) spec
+media-libs/libpng-compat:apng - support unofficial APNG (Animated PNG) spec
 media-libs/libpostproc:pic - Force shared libraries to be built as PIC (this is slower).
 media-libs/libprojectm:gles2 - Provide support for OpenGL ES 2 and 3
 media-libs/libsdl:joystick - Control joystick support (disable at your own risk)
@@ -6488,6 +6488,7 @@ net-misc/crossbar:tor - include tor services connections support
 net-misc/csync:sftp - Enable sftp transfer support via net-libs/libssh
 net-misc/curl:alt-svc - Enable alt-svc support
 net-misc/curl:brotli - Enable brotli compression support
+net-misc/curl:esni - Enable Encrypted Server Name Indication support
 net-misc/curl:http2 - Enable HTTP/2.0 support
 net-misc/curl:metalink - Enable metalink support
 net-misc/curl:nghttp3 - Enable HTTP/3.0 support using net-libs/nghttp3 and net-libs/ngtcp2
