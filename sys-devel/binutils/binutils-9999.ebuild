@@ -82,6 +82,8 @@ DEPEND="${RDEPEND}
 	virtual/yacc
 "
 
+RESTRICT="!test? ( test )"
+
 MY_BUILDDIR=${WORKDIR}/build
 
 src_unpack() {
@@ -286,8 +288,7 @@ src_test() {
 	# bug 637066
 	filter-flags -Wall -Wreturn-type
 
-	# enable verbose test run and result logging
-	emake -k check RUNTESTFLAGS='-a -v' VERBOSE=1
+	emake -k check
 }
 
 src_install() {

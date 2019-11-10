@@ -29,6 +29,47 @@
 
 #--- END OF EXAMPLES ---
 
+# Aaron Bauman <bman@gentoo.org> (2019-11-09)
+# EAPI=0, source archives are crazy
+# Removal in 30 days
+dev-tex/bera
+dev-tex/ppower4
+dev-tex/prosper
+
+# Michał Górny <mgorny@gentoo.org> (2019-11-09)
+# Remnants of 'Cluster Suite', with no external revdeps.  dlm-lib
+# does not build with modern kernels anymore.  EAPI 0.
+# Removal in 30 days.  Bug #533122.
+sys-cluster/cman-lib
+sys-cluster/dlm
+sys-cluster/dlm-lib
+
+# Michał Górny <mgorny@gentoo.org> (2019-11-09)
+# Multimedia distribution with last release in 2005.  Its usefulness
+# with modern media is doubtful.
+# Removal in 30 days.  Bug #699694.
+media-video/emovix
+
+# Aaron Bauman <bman@gentoo.org> (2019-11-09)
+# upstream moved to Github. not bumped in years
+# EAPI=4 and maintainer-needed. Removal in 30 days
+app-laptop/hdaps-gl
+
+# Aaron Bauman <bman@gentoo.org> (2019-11-09)
+# homepage dead, maintainer-needed
+# EAPI=4. Removal in 30 days
+app-forensics/magicrescue
+
+# Aaron Bauman <bman@gentoo.org> (2019-11-09)
+# maintainer-needed, no known upstream homepage
+# what does it even do? EAPI=4  Removal in 30 days
+app-backup/furball
+
+# Aaron Bauman <bman@gentoo.org> (2019-11-09)
+# maintainer-need, upstream website is dead
+# EAPI=4. Removal in 30 days
+app-admin/durep
+
 # Michał Górny <mgorny@gentoo.org> (2019-11-08)
 # Ancient vulnerable version of NumPy, plus all its revdeps.
 # Removal in 30 days.  Bug #627962.
@@ -169,10 +210,6 @@ dev-ruby/openvas-omp
 # to maintain it. Package needs Google API key to actually work.
 # Removal in 30 days. Bug #608334
 media-video/minitube
-
-# Lars Wendler <polynomial-c@gentoo.org> (2019-10-26)
-# Breaks at least libreoffice (and perhaps more revdeps)
-~app-text/poppler-0.82.0
 
 # Michał Górny <mgorny@gentoo.org> (2019-10-26)
 # Incorrect LICENSE entry, and no clear license information to be found.
