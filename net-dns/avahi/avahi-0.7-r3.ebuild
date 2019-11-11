@@ -1,7 +1,7 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI="7"
 
 PYTHON_COMPAT=( python2_7 )
 PYTHON_REQ_USE="gdbm"
@@ -25,7 +25,7 @@ REQUIRED_USE="
 	systemd? ( dbus )
 "
 
-COMMON_DEPEND="
+DEPEND="
 	dev-libs/libdaemon
 	dev-libs/expat
 	dev-libs/glib:2[${MULTILIB_USEDEP}]
@@ -50,9 +50,12 @@ COMMON_DEPEND="
 		>=dev-python/twisted-16.0.0[${PYTHON_USEDEP}]
 	)
 "
-
-DEPEND="
-	${COMMON_DEPEND}
+RDEPEND="${DEPEND}
+	howl-compat? ( !net-misc/howl )
+	mdnsresponder-compat? ( !net-misc/mDNSResponder )
+	selinux? ( sec-policy/selinux-avahi )
+"
+BDEPEND="
 	dev-util/glib-utils
 	doc? ( app-doc/doxygen )
 	app-doc/xmltoman
@@ -60,12 +63,6 @@ DEPEND="
 	virtual/pkgconfig[${MULTILIB_USEDEP}]
 "
 
-RDEPEND="
-	${COMMON_DEPEND}
-	howl-compat? ( !net-misc/howl )
-	mdnsresponder-compat? ( !net-misc/mDNSResponder )
-	selinux? ( sec-policy/selinux-avahi )
-"
 
 MULTILIB_WRAPPED_HEADERS=( /usr/include/avahi-qt5/qt-watch.h )
 
@@ -194,7 +191,7 @@ multilib_src_install() {
 	fi
 
 	# The build system creates an empty "/run" directory, so we clean it up here
-	rmdir "${ED}"/run
+	rmdir "${ED}"/run || die
 }
 
 multilib_src_install_all() {
@@ -208,7 +205,7 @@ multilib_src_install_all() {
 
 	dodoc docs/{AUTHORS,NEWS,README,TODO}
 
-	prune_libtool_files --all
+	find "${ED}" -name '*.la' -type f -delete || die
 }
 
 pkg_postinst() {
