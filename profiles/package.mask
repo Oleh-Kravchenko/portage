@@ -58,16 +58,12 @@ dev-libs/cygwin
 # sys-apps/ibm-powerpc-utils-papr (ppc*): bug #697210
 # sys-apps/lkcdutils (s390): bug #697212
 # sys-block/nwutil (arm): bug #697198
-# sys-boot/aboot (alpha): bug #697182
-# sys-boot/milo (alpha): bug #697180
 # sys-libs/libspe2 & sys-libs/mars (ppc64): bug #697158
 #
 # Removal in 30 days.
 sys-apps/ibm-powerpc-utils-papr
 sys-apps/lkcdutils
 sys-block/nwutil
-sys-boot/aboot
-sys-boot/milo
 sys-libs/libspe2
 sys-libs/mars
 
@@ -222,11 +218,6 @@ dev-tex/xcolor
 # Removal in 30 days.
 dev-ada/gnatcoll
 
-# Thomas Deutschmann <whissi@gentoo.org> (2019-11-03)
-# Infinite loop in TAILQ_FOREACH_SAFE when running for some time
-# Bug #698856
-=net-misc/dhcpcd-8.1.1
-
 # Michał Górny <mgorny@gentoo.org> (2019-11-03)
 # Discontinued upstream.  Relies on app-portage/flaggie make.conf
 # editing support that was fragile and therefore was removed.
@@ -248,12 +239,6 @@ dev-ada/gps-bin
 # Removal in 14 days.  Bug #699072.
 dev-embedded/gnap-dev
 dev-embedded/gnap-ext
-
-# Andreas K. Hüttel <dilfridge@gentoo.org> (2019-10-30)
-# In preparation...
-=dev-lang/perl-5.30.1*
-~virtual/perl-Module-CoreList-5.201.910.270
-~virtual/perl-Module-CoreList-5.201.911.100
 
 # Hasan ÇALIŞIR <hasan.calisir@psauxit.com> (2019-10-28)
 # OpenVAS project name has been renamed in

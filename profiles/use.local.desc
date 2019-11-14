@@ -506,7 +506,6 @@ app-emulation/faudio:ffmpeg - FAudio has optional support for decoding xWMA reso
 app-emulation/faudio:test - Build and run faudio testsuite.
 app-emulation/faudio:utils - Build all faudio utilities.
 app-emulation/faudio:xnasong - Build support for optional XNG_SONG component (note: this not required by app-emulation/wine-staging, app-emulation/wine-vanilla for faudio XAudio support).
-app-emulation/free42:alsa - Adds support for Advanced Linux Sound Architecture
 app-emulation/fs-uae:fmv - Enable support for CD32 FMV (full motion video)
 app-emulation/fs-uae:glew - Enable support for The OpenGL Extension Wrangler Library (media-libs/glew)
 app-emulation/fs-uae-launcher:lha - Enable LHA archive support
@@ -3374,7 +3373,6 @@ games-fps/yamagi-quake2:ctf - Build support for the 'Capture The Flag' addon
 games-fps/yamagi-quake2:rogue - Build support for the 'Ground Zero' Mission Pack
 games-fps/yamagi-quake2:softrender - Build software renderer
 games-fps/yamagi-quake2:xatrix - Build support for the 'The Reckoning' Mission Pack
-games-misc/katawa-shoujo:system-renpy - Use games-engines/renpy instead of the bundled one (experimental)
 games-misc/little-inferno:bundled-libs - Use bundled libraries.
 games-misc/ponysay:fish-completion - Enable fish completion support
 games-misc/ponysay:non-free - Install non-free ponies (i.e. from the MLP franchise)
@@ -4645,6 +4643,7 @@ media-sound/beets:webserver - Enable embedded webserver support through dev-pyth
 media-sound/bluez-alsa:hcitop - Enable top-like monitoring tool for HCI
 media-sound/bluez-alsa:ldac - Enable support for AOSP media-libs/libldac dispatcher
 media-sound/bluez-alsa:ofono - Enable ofono elephony support
+media-sound/cadence:a2jmidid - Enables support for legacy ALSA sequencer applications in JACK MIDI system
 media-sound/cantata:cdio - Use dev-libs/libcdio-paranoia for CD support (instead of cdparanoia)
 media-sound/cantata:http-server - Enable internal HTTP server to play non-MPD files
 media-sound/cantata:replaygain - Enable ReplayGain support, for relative volume adjustments
