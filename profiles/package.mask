@@ -29,6 +29,17 @@
 
 #--- END OF EXAMPLES ---
 
+# Lars Wendler <polynomial-c@gentoo.org> (2019-11-18)
+# Brand new release with a couple of hiccups like:
+#   syslogd: Failed writing to /var/log/auth.log: Bad file descriptor
+# Also no log rotation currently available. Use at your own risk!
+>=app-admin/sysklogd-2.0
+
+# Alfredo Tupone <tupone@gentoo.org> (2019-11-18)
+# No more needed.
+# Removal in 30 days.
+media-libs/skstream
+
 # Mart Raudsepp <leio@gentoo.org> (2019-11-17)
 # Obsolete library with no remaining consumers.
 # Only older dev-libs/libreport versions used it.
@@ -851,11 +862,6 @@ app-admin/amazon-ec2-init
 # over 2G but it 'currently performs 3-5% slower and has 1-2% worse
 # compression'.
 >=dev-util/xdelta-3.1.0
-
-# Tim Harder <radhermit@gentoo.org> (2016-11-03)
-# Masked for testing
-=sys-fs/fuse-3*
-=net-fs/sshfs-3*
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (2016-04-03)
 # Can exhaust all available memory depending on task
