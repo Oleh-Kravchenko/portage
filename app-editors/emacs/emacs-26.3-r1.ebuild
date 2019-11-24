@@ -11,7 +11,7 @@ SRC_URI="mirror://gnu/emacs/${P}.tar.xz"
 
 LICENSE="GPL-3+ FDL-1.3+ BSD HPND MIT W3C unicode PSF-2"
 SLOT="26"
-KEYWORDS="~alpha amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~riscv ~sh ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="~alpha amd64 ~arm arm64 ~hppa ia64 ~mips ppc ppc64 ~riscv ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
 IUSE="acl alsa aqua athena cairo dbus dynamic-loading games gconf gfile gif gpm gsettings gtk gtk2 gzip-el imagemagick +inotify jpeg kerberos lcms libxml2 livecd m17n-lib mailutils motif png selinux sound source ssl svg systemd +threads tiff toolkit-scroll-bars wide-int X Xaw3d xft +xpm xwidgets zlib"
 REQUIRED_USE="?? ( aqua X )"
 
@@ -316,9 +316,9 @@ src_install () {
 	Y	"${EPREFIX}${cdir}")
 	X  (let ((path (getenv "INFOPATH"))
 	X	(dir "${EPREFIX}/usr/share/info/${EMACS_SUFFIX}")
-	X	(re "\\\\\`${EPREFIX}/usr/share/info\\\\>"))
+	X	(re "\\\\\`${EPREFIX}/usr/share\\\\>"))
 	X    (and path
-	X	 ;; move Emacs Info dir before anything else in /usr/share/info
+	X	 ;; move Emacs Info dir before anything else in /usr/share
 	X	 (let* ((p (cons nil (split-string path ":" t))) (q p))
 	X	   (while (and (cdr q) (not (string-match re (cadr q))))
 	X	     (setq q (cdr q)))
