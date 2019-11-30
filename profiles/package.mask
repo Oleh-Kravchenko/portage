@@ -29,11 +29,64 @@
 
 #--- END OF EXAMPLES ---
 
+# Bernard Cafarelli <voyageur@gentoo.org> (2019-11-29)
+# Beta for new major version with initial Python 3 support
+=app-backup/rdiff-backup-1.4.0_beta*
+
+# Lars Wendler <polynomial-c@gentoo.org> (2019-11-29)
+# Breaks at least libreoffice, inkscape and perhaps more revdeps
+~app-text/poppler-0.83.0
+
+# Michał Górny <mgorny@gentoo.org> (2019-11-29)
+# Astronomy-related Python packages and their revdeps.  They are
+# unmaintained.  Most of them are outdated.  None of them were tested
+# on Python 3.7, some even on 3.6.  The leaf packages are 2.7-only.
+# All of them depend on astropy which has an unconditional dependency
+# on ipython, which in turn dropped py2 support.
+# Bug #701454.  Removal in 30 days.
+dev-python/aplpy
+dev-python/asdf
+dev-python/astlib
+dev-python/astrodendro
+dev-python/astroml-addons
+dev-python/astroml
+dev-python/astroplan
+dev-python/astropy-helpers
+dev-python/astropy
+dev-python/astroquery
+dev-python/astroscrappy
+dev-python/atpy
+dev-python/ccdproc
+dev-python/gammapy
+dev-python/ginga
+dev-python/glue-vispy-viewers
+dev-python/glueviz
+dev-python/gwcs
+dev-python/healpy
+dev-python/imexam
+dev-python/montage-wrapper
+dev-python/naima
+dev-python/photutils
+dev-python/pyavm
+dev-python/pydl
+dev-python/pyfits
+dev-python/pymoc
+dev-python/pyregion
+dev-python/regions
+dev-python/reproject
+dev-python/spectral-cube
+dev-python/specutils
+dev-python/stsci-distutils
+dev-python/stsci-sphinxext
+dev-python/sunpy
+dev-python/wcsaxes
+sci-astronomy/astrometry
+sci-astronomy/kapteyn
+
 # David Seifert <soap@gentoo.org> (2019-11-28)
 # No revdeps, blocking move to python 3.7, unnecessary maintenance
 # burden, bug #701426. Removal in 30 days.
 dev-python/pytest-datafiles
-dev-python/pytest-html
 dev-python/pytest-pythonpath
 dev-python/pytest-qt
 
@@ -296,38 +349,10 @@ dev-ada/gnatcoll
 # Removal in 30 days.  Bug #699244.
 app-portage/install-mask
 
-# Michał Górny <mgorny@gentoo.org> (2019-11-03)
-# This was only used by my packages, and the last revdep is gone now.
-# Removal in 14 days.  Bug #699238.
-sys-devel/systemd-m4
-
 # Alfredo Tupone <tupone@gentoo.org> (2019-11-03)
 # The binary for gps are included in dev-ada/gnat-suite-bin
 # Removal in 30 days.
 dev-ada/gps-bin
-
-# Michał Górny <mgorny@gentoo.org> (2019-11-01)
-# Both make no sense with dev-embedded/gnap removed.
-# Removal in 14 days.  Bug #699072.
-dev-embedded/gnap-dev
-dev-embedded/gnap-ext
-
-# Hasan ÇALIŞIR <hasan.calisir@psauxit.com> (2019-10-28)
-# OpenVAS project name has been renamed in
-# Greenbone Vulnerability Management (GVM).
-# New loader package is net-analyzer/gvm.
-# Masked for removal in 30 days. Bugs #692004 #692076
-net-analyzer/openvas
-<=net-analyzer/openvas-libraries-8.0.0
-net-analyzer/openvas-cli
-net-analyzer/openvas-tools
-dev-ruby/openvas-omp
-
-# Michał Górny <mgorny@gentoo.org> (2019-10-26)
-# Incorrect LICENSE entry, and no clear license information to be found.
-# Homepage gone, and source of some of the files unknown.
-# Removal in 30 days.  Bug #698050.
-media-fonts/vc-fonts
 
 # Hans de Graaff <graaff@gentoo.org> (2019-10-25)
 # ruby24-only, no longer supported by upstream.
