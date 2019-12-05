@@ -2611,8 +2611,6 @@ dev-python/icalendar:doc - Generate examples and other extra documentation
 dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
 dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
 dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
-dev-python/jira:filemagic - Include filemagic support (for identifying uploaded filetypes)
-dev-python/jira:ipython - Include Interactive Python (IPython)
 dev-python/jira:jirashell - Include dependencies for jirashell (ipython, oauthlib)
 dev-python/jira:kerberos - Support Kerberos authentication
 dev-python/jira:oauth - Support OAuth authentication
@@ -3879,6 +3877,7 @@ mail-client/evolution:ldap - Enable support for fetching contacts from an LDAP o
 mail-client/evolution:spamassassin - Build mail-filter/spamassassin plugin
 mail-client/evolution:weather - Enable optional weather calendar support
 mail-client/evolution:ytnef - Enable optional TNEF attachments parser support using net-mail/ytnef
+mail-client/geary:ytnef - Enable optional TNEF attachments parser support using net-mail/ytnef
 mail-client/mail-notification:sylpheed - Enable support for MH mailboxes used by mail-client/sylpheed
 mail-client/mutt:berkdb - Enable sys-libs/db database backend for header caching
 mail-client/mutt:gdbm - Enable sys-libs/gdbm database backend for header caching
@@ -7484,6 +7483,7 @@ sci-libs/gsl:deprecated - Enable deprecated functions
 sci-libs/hdf5:hl - Enable high level API (https://support.hdfgroup.org/HDF5/doc/HL/index.html)
 sci-libs/hypre:fei - Build the internal Finite Element Interface routines
 sci-libs/hypre:int64 - Build the 64 bits integer library
+sci-libs/indilib:websocket - Enable support for WebSocket protocol
 sci-libs/ipopt:hsl - hsl
 sci-libs/ipopt:mumps - Enable sci-libs/mumps support
 sci-libs/lapack:eselect-ldso - Enable runtime library switching by eselect and ld.so.
@@ -7808,7 +7808,6 @@ sci-visualization/paraview:development - Install development files including hea
 sci-visualization/paraview:nvcontrol - Add NVCONTROL support for OpenGL options
 sci-visualization/paraview:offscreen - Offscreen rendering through OSMesa
 sci-visualization/paraview:plugins - Build and install additional plugins
-sci-visualization/veusz:emf - Add FITS format via dev-python/pyemf
 sci-visualization/veusz:fits - Add FITS format via dev-python/astropy
 sci-visualization/veusz:minuit - Use Minuit during fitting viadev-python/pyminuit
 sci-visualization/visit:cgns - Builds the reader for the CFD General Notation System file format.
