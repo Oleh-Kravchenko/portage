@@ -29,10 +29,25 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2019-12-05)
+# Last maintainer activity in 2016.  Does not build for quite some time
+# already.  Needs a version bump, at the very least.
+# Removal in 30 days.  Bug #602024.
+app-laptop/nvidiabl
+
+# Michał Górny <mgorny@gentoo.org> (2019-12-05)
+# Unmaintained since 2016.  Last touched in 2018.  Pending bump since
+# Feb 2019.  Does not build anymore.
+# Removal in 30 days.  Bug #695580.
+net-wireless/ndiswrapper
+
 # Aaron Bauman <bman@gentoo.org> (2019-12-04)
 # These are (mostly) leaf packages with only py2.7
 # Please review commit msg. Removal in 30 days
-net-misc/trackma
+# THIS MASK HAS BEEN CONFIRMED BY THE QA TEAM VIA
+# MAJORITY VOTE. YOU CAN REMOVE SINGLE PACKAGES
+# IF YOU PERSONALLY STEP IN TO MAINTAIN THEM (AND
+# ADD YOURSELF TO THEIR METADATA).
 dev-python/inotifyx
 dev-python/disqus-python
 dev-python/figleaf
@@ -41,8 +56,6 @@ dev-python/sphinxcontrib-ditaa
 dev-python/pyrax
 dev-python/tgmochikit
 dev-python/pyndex
-dev-python/nototools
-media-fonts/noto-emoji
 dev-python/python-mhash
 dev-python/guppy
 dev-python/dib-utils
@@ -70,7 +83,6 @@ dev-python/snakefood
 dev-python/sqlitecachec
 dev-python/supervisor-quick
 dev-python/python-cdb
-dev-python/fabric
 dev-python/foolscap
 net-fs/tahoe-lafs
 dev-python/pyvtk
@@ -85,9 +97,7 @@ media-sound/beets
 dev-python/numdisplay
 dev-python/python-fastcgi
 dev-python/workerpool
-dev-python/eyeD3
 media-sound/abcde
-media-sound/gpodder
 dev-python/py-smbpasswd
 dev-python/cherrytemplate
 dev-python/python-catcher
@@ -103,7 +113,6 @@ www-apps/blohg-tumblelog
 dev-python/webhelpers
 dev-python/optcomplete
 dev-python/hcs-utils
-dev-python/python-prctl
 net-p2p/pybitmessage
 dev-python/asciitree
 net-misc/irrtree
@@ -402,11 +411,6 @@ dev-libs/qof
 # Aaron Bauman <bman@gentoo.org> (2019-11-16)
 # EAPI=4 and fails to build
 dev-util/ccglue
-
-# Aaron Bauman <bman@gentoo.org> (2019-11-16)
-# EAPI=4. If anyone has this hardware then speak up.
-# Removal in 15 days
-app-misc/rioutil
 
 # Lars Wendler <polynomial-c@gentoo.org> (2019-11-14)
 # Breaks archives containing relative paths
@@ -925,11 +929,6 @@ dev-java/eclipse-ecj:4.10
 # wrong.  Bug #647964.
 ~app-portage/gemato-14.1m
 ~app-portage/gemato-9999m
-
-# Matt Turner <mattst88@gentoo.org> (2018-05-25)
-# New package. Needs to interact with media-libs/mesa and
-# x11-drivers/nvidia-drivers. Work in progress.
-media-libs/libglvnd
 
 # James Le Cuirot <chewi@gentoo.org> (2017-12-17)
 # Java 9+ is not yet fully supported on Gentoo. Packages cannot depend
