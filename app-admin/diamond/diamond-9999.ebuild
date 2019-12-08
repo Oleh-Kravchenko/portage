@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=6
 
 if [[ ${PV} = 9999* ]]; then
 	inherit git-r3
@@ -13,7 +13,7 @@ else
 	S=${WORKDIR}/Diamond-${PV}
 fi
 
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python3_6 )
 
 inherit distutils-r1 prefix
 
@@ -55,6 +55,7 @@ python_test() {
 python_install() {
 	export VIRTUAL_ENV=1
 	distutils-r1_python_install
+	python_optimize
 	mv "${ED}"/usr/etc "${ED}"/ || die
 	rm "${ED}"/etc/diamond/*.windows  # won't need these
 	sed -i \
