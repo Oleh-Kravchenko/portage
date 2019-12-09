@@ -29,7 +29,7 @@ LLVM_TARGET_USEDEPS=${ALL_LLVM_TARGETS[@]/%/?}
 
 LICENSE="Apache-2.0-with-LLVM-exceptions UoI-NCSA MIT"
 SLOT="$(ver_cut 1)"
-KEYWORDS=""
+KEYWORDS="~amd64 ~arm ~arm64 ~ppc64 ~x86 ~amd64-linux"
 IUSE="debug default-compiler-rt default-libcxx doc +static-analyzer
 	test xml kernel_FreeBSD ${ALL_LLVM_TARGETS[*]}"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}
@@ -57,12 +57,6 @@ PDEPEND="
 
 # least intrusive of all
 CMAKE_BUILD_TYPE=RelWithDebInfo
-
-PATCHES=(
-	# fix build with gcc-9.0.0
-	# https://bugs.llvm.org/show_bug.cgi?id=40547
-	"${FILESDIR}"/9.0.0/0002-Initialize-all-fields-in-ABIArgInfo.patch
-)
 
 # Multilib notes:
 # 1. ABI_* flags control ABIs libclang* is built for only.

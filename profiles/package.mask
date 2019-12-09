@@ -33,6 +33,23 @@
 #--- END OF EXAMPLES ---
 
 # David Seifert <soap@gentoo.org> (2019-12-08)
+# Unmaintained, build hangs, tons of other build failures, missing
+# dependencies.  Bug #663794, #666916, #666922, #667062, #678068,
+# #681678, #684420, #694488. Removal in 30 days.
+dev-db/clickhouse
+
+# David Seifert <soap@gentoo.org> (2019-12-08)
+# No revdeps, py2 only, needs version bump, practically unmaintained
+# in Gentoo. Removal in 30 days.
+sci-chemistry/pymol-plugins-psico
+
+# Michał Górny <mgorny@gentoo.org> (2019-12-08)
+# Not touched by maintainer since mid-2018.  Fails to build with gcc-9.
+# Requires llvm:6 (which is being removed).  Pending version bump.
+# Removal in 30 days.  Bug #686162.
+sys-devel/byfl
+
+# David Seifert <soap@gentoo.org> (2019-12-08)
 # No revdeps, py2 only (the py3 targets don't work properly), last
 # release in 2015. Use sci-mathematics/pymc3 as modern replacement.
 # Removal in 30 days.
@@ -91,10 +108,6 @@ x11-misc/calise
 # Bug 624222, removal in 30 days.
 sci-astronomy/casacore
 
-# Fabian Groffen <grobian@gentoo.org> (2019-12-07)
-# doesn't quite work well, needs fixing
->=app-admin/diamond-4.0.515.20180315
-
 # Michał Górny <mgorny@gentoo.org> (2019-12-05)
 # Last maintainer activity in 2016.  Does not build for quite some time
 # already.  Needs a version bump, at the very least.
@@ -152,11 +165,10 @@ dev-python/python-cdb
 dev-python/foolscap
 net-fs/tahoe-lafs
 dev-python/pyvtk
-dev-python/pycdio
+<dev-python/pycdio-2.1.0
 media-sound/whipper
 dev-python/hachoir-regex
 app-misc/hachoir-subfile
-dev-python/pymad
 dev-python/numdisplay
 dev-python/python-fastcgi
 dev-python/workerpool
@@ -524,62 +536,6 @@ dev-dotnet/gsf-sharp
 # Removal in 30 days.  Bug #618464.
 sys-cluster/osc-mpiexec
 
-# Aaron Bauman <bman@gentoo.org> (2019-11-09)
-# EAPI=0, source archives are crazy
-# Removal in 30 days
-dev-tex/bera
-dev-tex/ppower4
-dev-tex/prosper
-
-# Michał Górny <mgorny@gentoo.org> (2019-11-09)
-# Remnants of 'Cluster Suite', with no external revdeps.  dlm-lib
-# does not build with modern kernels anymore.  EAPI 0.
-# Removal in 30 days.  Bug #533122.
-sys-cluster/cman-lib
-sys-cluster/dlm
-sys-cluster/dlm-lib
-
-# Michał Górny <mgorny@gentoo.org> (2019-11-09)
-# Multimedia distribution with last release in 2005.  Its usefulness
-# with modern media is doubtful.
-# Removal in 30 days.  Bug #699694.
-media-video/emovix
-
-# Aaron Bauman <bman@gentoo.org> (2019-11-09)
-# maintainer-needed, no known upstream homepage
-# what does it even do? EAPI=4  Removal in 30 days
-app-backup/furball
-
-# Aaron Bauman <bman@gentoo.org> (2019-11-09)
-# maintainer-need, upstream website is dead
-# EAPI=4. Removal in 30 days
-app-admin/durep
-
-# Michał Górny <mgorny@gentoo.org> (2019-11-08)
-# Ancient vulnerable version of NumPy, plus all its revdeps.
-# Removal in 30 days.  Bug #627962.
-<dev-python/numpy-1.14.5
-dev-python/pyclimate
-dev-python/scientificpython
-sci-chemistry/parassign
-sci-chemistry/pymol-plugins-psico
-sci-libs/mmtk
-
-# Michał Górny <mgorny@gentoo.org> (2019-11-08)
-# Obsolete binary version.  Please use www-apps/trickster instead.
-# Removal in 30 days.  Bug #694884.
-www-apps/trickster-bin
-
-# Sergei Trofimovich <slyfox@gentoo.org> (2019-11-07)
-# Development stalled. Fails to build against modern
-# postgresql: bug #697452. Masked for removal in 30 days.
-dev-haskell/hsql-postgresql
-
-# Thomas Deutschmann <whissi@gentoo.org> (2019-11-07)
-# EAPI 0. It's been almost a decade since that openssl bug.
-# Removal in 30 days.  Bug #697218.
-net-misc/openssh-blacklist
-
 # Michał Górny <mgorny@gentoo.org> (2019-10-20)
 # Testing version that breaks multiple plugins.  Let's keep it masked
 # until upstream releases fixed versions.
@@ -622,29 +578,11 @@ dev-libs/mpfr:1
 # Masked for removal in a year.
 dev-libs/gmp:3
 
-# Andreas K. Hüttel <dilfridge@gentoo.org> (2019-10-15)
-# Fails self-tests badly, no revdeps, upstream doesnt care
-# since 1999. Removal in 30 days. Bug 641530.
-dev-perl/NetxAP
-
-# Nick Sarnie <sarnex@gentoo.org> (2019-10-14)
-# No longer updated or supported by the Wine project
-# wine-any has no value without wine-d3d9
-# Please use app-emulation/gallium-nine-standalone instead
-# Removal in 30 days
-app-emulation/wine-any
-
 # Mike Gilbert <floppym@gentoo.org> (2019-10-11)
 # Inactive upstream for many years.
 # Several open bugs.
 # Please migrate to sys-apps/man-db.
 sys-apps/man
-
-# Mike Pagano <mpagano@gentoo.org> (2019-10-11)
-# kenel incorrectly specifics a version
-# not included in enpatches tarball 
-# This can be removed in 2019-11-11
-=sys-kernel/gentoo-sources-5.3.6
 
 # Brian Evans <grknight@gentoo.org> (2019-10-01)
 # End of life.  Please upgrade.
@@ -957,14 +895,6 @@ sys-devel/automake:1.10
 # upstream.
 >=app-text/jabref-bin-4.0
 
-# Hans de Graaff <graaff@gentoo.org> (2017-06-05)
-# Bundles obsolete and vulnerable webkit version.
-# Upstream has stopped development and recommends using
-# headless mode in >=www-client/chromium-59.
-# Masked for removal in 90 days. Bug #589994.
-www-client/phantomjs
-dev-ruby/poltergeist
-
 # Michał Górny <mgorny@gentoo.org> (2017-05-22)
 # for Maciej S. Szmigiero <mail@maciej.szmigiero.name>
 # Any version above 5.100.138 breaks b43 driver in various ways.
@@ -1032,20 +962,6 @@ app-admin/amazon-ec2-init
 =sys-libs/db-6.2*
 =sys-libs/db-18.1*
 
-# Ulrich Müller <ulm@gentoo.org> (2014-07-15)
-# Permanently mask sys-libs/lib-compat and its reverse dependencies,
-# pending multiple security vulnerabilities and QA issues.
-# See bugs #515926 and #510960.
-# Aaron Bauman <bman@gentoo.org> (updated 2019-11-09)
-# Removal in 10 days.
-sys-libs/lib-compat
-sys-libs/lib-compat-loki
-games-action/phobiaii
-games-fps/rtcw
-games-fps/unreal
-games-strategy/heroes3
-games-strategy/smac
-
 # Mikle Kolyada <zlogene@gentoo.org> (2014-06-27)
 # Masked for proper testing. (Major updates in the code).
 ~dev-perl/PortageXS-0.2.12
@@ -1089,33 +1005,3 @@ dev-libs/cygwin
 dev-util/mingw64-runtime
 sys-libs/newlib
 dev-embedded/avr-libc
-
-# Chris Gianelloni <wolf31o2@gentoo.org> (2008-03-03)
-# Masking due to security bug #194607 and security bug #204067
-# Removal in 10 days
-games-fps/doom3
-games-fps/doom3-cdoom
-games-fps/doom3-chextrek
-games-fps/doom3-data
-games-fps/doom3-demo
-games-fps/doom3-ducttape
-games-fps/doom3-eventhorizon
-games-fps/doom3-hellcampaign
-games-fps/doom3-inhell
-games-fps/doom3-lms
-games-fps/doom3-mitm
-games-fps/doom3-roe
-games-fps/quake4-bin
-games-fps/quake4-data
-games-fps/quake4-demo
-
-# <klieber@gentoo.org> (2004-04-01)
-# The following packages contain a remotely-exploitable
-# security vulnerability and have been hard masked accordingly.
-#
-# Please see https://bugs.gentoo.org/show_bug.cgi?id=44351 for more info
-#
-games-fps/unreal-tournament-goty
-games-fps/unreal-tournament-strikeforce
-games-fps/unreal-tournament-bonuspacks
-games-fps/aaut
