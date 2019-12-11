@@ -475,6 +475,12 @@ app-emacs/slime:xref - Install xref.lisp cross-referencing tool
 app-emacs/vm:bbdb - Include support for app-emacs/bbdb
 app-emacs/wanderlust:bbdb - Include support for app-emacs/bbdb
 app-emacs/wikipedia-mode:outline-magic - Enable support for outline-mode extensions (app-emacs/outline-magic)
+app-emulation/aranym:clipboard - Enable bidirectional clipboard transfer between the host and FreeMiNT
+app-emulation/aranym:jit - Build Just-In-Time compiler variant with increased performance
+app-emulation/aranym:lilo - Enable support for directly booting kernels such as Linux
+app-emulation/aranym:osmesa - Allow images to be rendered in memory using the host CPU
+app-emulation/aranym:pmmu - Build full PMMU variant, required for running mainline Linux
+app-emulation/aranym:standard - Build standard (no JIT or PMMU) variant
 app-emulation/bochs:3dnow - Enable support for emulating 3DNow! instructions (incomplete)
 app-emulation/bochs:avx - Enable support for emulating Advanced Vector Extensions (AVX)
 app-emulation/bochs:debugger - Enable debugger (slows down emulation)
@@ -3002,7 +3008,6 @@ dev-util/google-perftools:optimisememory - To build libtcmalloc with smaller int
 dev-util/gtk-doc:highlight - Enable source code highlighting
 dev-util/gtk-doc:vim - Enable source code highlighting through app-editors/vim
 dev-util/heaptrack:gui - Install Qt5-based analyzer tool
-dev-util/idea-community:custom-jdk - Install and use IntelliJ's custom JRE.
 dev-util/idea-community:jbr11 - Install and use the Java 11 based version of JetBrains Runtime.
 dev-util/idea-community:jbr8 - Install and use the Java 8 based version of JetBrains Runtime.
 dev-util/intel-ocl-sdk:android - Install android related files
@@ -7227,8 +7232,6 @@ sci-biology/clustalw-mpi:static_pairalign - Use static (as opposed to dynamic) s
 sci-biology/exonerate:utils - Install all utilities
 sci-biology/fasttree:double-precision - use double precision instead of single-precision floating point (2x memroy required)
 sci-biology/mcl:blast - Add support for NCBI BLAST data
-sci-biology/plink:R - add support R language
-sci-biology/plink:webcheck - add support for online update checking every time the program starts
 sci-biology/seqan:tools - Build and install SeqAn commandline tools, such as the Yara aligner
 sci-biology/ucsc-genome-browser:server - Install genome browser Web application. If this flag is off, only libraries and utilities from the suite are installed.
 sci-biology/yass:dmalloc - Enable debugging with the dmalloc library
