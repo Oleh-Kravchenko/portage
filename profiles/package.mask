@@ -32,6 +32,68 @@
 
 #--- END OF EXAMPLES ---
 
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, dead upstream, no py3 port in sight.
+# Removal in 30 days.  Bug #703792.
+games-rpg/dragonhunt
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, dead upstream, no py3 port in sight.
+# Removal in 30 days.  Bug #703784.
+games-puzzle/jools
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, dead upstream, no py3 port in sight.
+# Removal in 30 days.  Bug #703782.
+games-puzzle/hexamine
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, dead upstream, no py3 port in sight.
+# Removal in 30 days.  Bug #703780.
+games-puzzle/4stattack
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, dead upstream, no py3 port in sight.
+# Removal in 30 days.  Bug #703774.
+games-arcade/watermelons
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, dead upstream, no py3 port in sight.
+# Removal in 30 days.  Bug #703772.
+games-arcade/triplexinvaders
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, dead upstream, no py3 port in sight.
+# Removal in 30 days.  Bug #703770.
+games-arcade/pydance
+games-arcade/pydance-songs
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, no other distro packages it anymore.
+# Removal in 30 days.  Bug #703768.
+games-arcade/pycadia
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, no other distro packages it anymore.
+# Removal in 30 days.  Bug #703764.
+games-arcade/bub-n-bros
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, upstream abandoned since 2005.
+# Removal in 30 days.  Bug #703762.
+games-action/accelerator3d
+
+# David Seifert <soap@gentoo.org> (2019-12-25)
+# Py2 only, upstream abandoned further development, Broken.
+# Removal in 30 days.  Bug #693032.
+games-kids/tuxmathscrabble
+
+# Ulrich Müller <ulm@gentoo.org> (2019-12-25)
+# Broken SRC_URI. Most distfiles have no license,
+# so we cannot distribute them on mirrors.
+# Masked for removal in 30 days. Bug #635372.
+x11-themes/audacious-themes
+
 # David Seifert <soap@gentoo.org> (2019-12-24)
 # Unmaintained, uses dead POSIX streams interface, EAPI 4.
 # Bug #692228, Removal in 30 days.
@@ -707,29 +769,11 @@ sci-libs/vtkdata
 # Removal after 2020-01-01
 net-wireless/bcm43xx-fwcutter
 
-# Ulrich Müller <ulm@gentoo.org> (2019-11-26)
-# Upstream says: "Elib has been decommissioned as a separate package
-# since its useful functions have long since been included in Emacs."
-# Last release in 1995. Byte-compilation fails with Emacs 27.
-# Masked for removal in 30 days. Bug #701160.
-app-emacs/elib
-
 # Sergei Trofimovich <slyfox@gentoo.org> (2019-11-25)
 # Mask for removal from main tree into ::nix-guix overlay.
 # Removal in 30 days.
 sys-apps/nix
 sys-apps/guix
-
-# Mart Raudsepp <leio@gentoo.org> (2019-11-17)
-# Obsolete library with no remaining consumers.
-# Only older dev-libs/libreport versions used it.
-# Removal in 30 days.  Bug #700380.
-dev-libs/btparser
-
-# Mart Raudsepp <leio@gentoo.org> (2019-11-17)
-# Obsolete library with no consumers.
-# Removal in 30 days.  Bug #700332.
-dev-libs/qof
 
 # Aaron Bauman <bman@gentoo.org> (2019-11-16)
 # EAPI=4 and fails to build
