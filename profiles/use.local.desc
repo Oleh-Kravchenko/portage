@@ -3379,7 +3379,6 @@ games-simulation/openttd:aplaymidi - Enables midi music in game, using aplaymidi
 games-simulation/openttd:dedicated - Build only the openttd server, and not the client.
 games-simulation/openttd:lzo - Enables LZO compression for savegames. This is only needed to load extremely old savegames. (versions before 0.2)
 games-simulation/openttd:openmedia - Enables the free open media sets: OpenGFX, OpenSFX, OpenMSX, removing the requirement for proprietary TTD assets to play OpenTTD.
-games-simulation/singularity:music - Install music files
 games-simulation/train-valley:gui - Install the GUI for configuring screen resolution and input
 games-sports/speed-dreams:xrandr - Enable support for the X xrandr extension
 games-sports/xmoto:double-precision - more precise calculations at the expense of speed
@@ -3390,8 +3389,6 @@ games-strategy/0ad:nvtt - Support for some uncompressed data formats via media-g
 games-strategy/colobot:devbuild - TODO
 games-strategy/colobot:tools - Build tools
 games-strategy/colobot-data:music - Enable music support
-games-strategy/colobot-data:music-flac-convert - Fetch flac music and convert it to ogg
-games-strategy/colobot-data:music-ogg - Fetch ogg music
 games-strategy/defcon-demo:system-libs - Use system libraries instead of the ones included in the upstream distribution.
 games-strategy/freeciv:aimodules - Support for dynamically loadable AI modules (server-side)
 games-strategy/freeciv:auth - Add authentication capability via mysql, postgres or sqlite3
@@ -5468,7 +5465,9 @@ net-analyzer/rrdtool:graph - Enable support for graphing functions
 net-analyzer/rrdtool:rados - Enable support for librados from sys-cluster/ceph
 net-analyzer/rrdtool:rrdcgi - Build rrdcgi support
 net-analyzer/sancp:sguil - Enable sguil (The Analyst Console for Network Security Monitoring) support
+net-analyzer/sarg:doublecheck - Make sarg double check the data it manipulates and output a warning if an error is found
 net-analyzer/sarg:gd - Enable support for graphs in reports through media-libs/gd
+net-analyzer/sarg:glob - Disable to ignore wildcards in file names
 net-analyzer/sarg:pcre - Enable support for regular expressions in the hostalias file through dev-libs/libpcre
 net-analyzer/scanlogd:nids - Use net-libs/libnids for packet capturing
 net-analyzer/scanlogd:pcap - Use net-libs/libpcap for packet capturing
@@ -7063,6 +7062,9 @@ net-vpn/wireguard:debug - Enable verbose debug reporting in dmesg of various Wir
 net-vpn/wireguard:module - Compile the actual WireGuard kernel module. Most certainly you want this enabled, unless you're doing something strange.
 net-vpn/wireguard:module-src - Install the module source code to /usr/src, in case you like building kernel modules yourself.
 net-vpn/wireguard:tools - Compile the wg(8) tool and related helpers. You probably want this enabled.
+net-vpn/wireguard-modules:debug - Enable verbose debug reporting in dmesg of various WireGuard peer and device information.
+net-vpn/wireguard-modules:module - Compile the actual WireGuard kernel module. Most certainly you want this enabled, unless you're doing something strange.
+net-vpn/wireguard-modules:module-src - Install the module source code to /usr/src, in case you like building kernel modules yourself.
 net-wireless/aircrack-ng:airdrop-ng - Build airdrop-ng
 net-wireless/aircrack-ng:airgraph-ng - Build airgraph-ng
 net-wireless/aircrack-ng:experimental - Build the "experimental" tools which may randomly fail to run properly
