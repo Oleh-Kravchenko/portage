@@ -2510,7 +2510,6 @@ dev-php/pecl-zmq:czmq - Use the czmq high level bindings
 dev-php/phing:zip - Support zip archives by requiring said support in dev-lang/php.
 dev-php/swoole:http2 - Add support for HTTP/2 protocol via net-libs/nghttp2
 dev-php/xcache:coverage - Enable the coverager module (not recommended for production servers).
-dev-python/Kivy:camera - Install libraries needed to support camera
 dev-python/Kivy:garden - Install garden tool to manage user maintained widgets
 dev-python/PyQt5:bluetooth - Build bindings for the QtBluetooth module
 dev-python/PyQt5:dbus - Build bindings for the QtDBus module
@@ -2628,7 +2627,6 @@ dev-python/pyudev:qt5 - Install PyQt5 bindings
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
 dev-python/pyzor:gdbm - Enables the Gdbm back-end database engine for pyzord
 dev-python/pyzor:gevent - Use dev-python/gevent to enable asynchronous operation
-dev-python/pyzor:mysql - Enables the MySQL back-end database engine for pyzord through dev-python/mysql-python. Only works with python-2.x!
 dev-python/pyzor:pyzord - Enable the pyzord server daemon
 dev-python/pyzor:redis - Enables the redis back-end database engine for pyzord through dev-python/redis-py
 dev-python/rarfile:compressed - Enables the module to support compressed v3 archives by calling the app-arch/unrar.
@@ -7063,6 +7061,7 @@ net-vpn/vpnc:resolvconf - Enable support for DNS managing framework net-dns/open
 net-vpn/wireguard-modules:debug - Enable verbose debug reporting in dmesg of various WireGuard peer and device information.
 net-vpn/wireguard-modules:module - Compile the actual WireGuard kernel module. Most certainly you want this enabled, unless you're doing something strange.
 net-vpn/wireguard-modules:module-src - Install the module source code to /usr/src, in case you like building kernel modules yourself.
+net-vpn/wireguard-tools:wg-quick - Install the wg-quick(8) helper tool. Most users want to use this.
 net-wireless/aircrack-ng:airdrop-ng - Build airdrop-ng
 net-wireless/aircrack-ng:airgraph-ng - Build airgraph-ng
 net-wireless/aircrack-ng:experimental - Build the "experimental" tools which may randomly fail to run properly
@@ -7435,11 +7434,10 @@ sci-libs/fftw:zbus - Adds support for ZBus cycle-counter of mips
 sci-libs/flann:cuda - Enable support for nVidia CUDA
 sci-libs/flann:octave - Add bindings for sci-mathematics/octave
 sci-libs/gdal:armadillo - Use sci-libs/armadillo for faster TPS transform computation
-sci-libs/gdal:aux_xml - Enable Portable Auxilliary Metadata generation
+sci-libs/gdal:aux-xml - Enable Portable Auxilliary Metadata generation
 sci-libs/gdal:fits - Enable support for NASA's sci-libs/cfitsio library
 sci-libs/gdal:geos - Add support for geometry engine (sci-libs/geos)
 sci-libs/gdal:gml - Enable support for dev-libs/xerces-c C++ API
-sci-libs/gdal:hdf5 - Add support for the Hierarchical Data Format v5 (sci-libs/hdf5)
 sci-libs/gdal:mdb - Enable support for Microsoft Access database
 sci-libs/gdal:ogdi - Enable support for the open geographic datastore interface (sci-libs/ogdi)
 sci-libs/gdal:opencl - Enable OpenCL support
@@ -7560,6 +7558,7 @@ sci-libs/superlu_mt:int64 - Build the 64 bits integer library
 sci-libs/symengine:arb - Add support for arb (sci-mathematics/arb)
 sci-libs/symengine:benchmarks - Build benchmarks
 sci-libs/symengine:boost - Add support for boost integers(dev-libs/boost)
+sci-libs/symengine:ecm - Add support for ECM integer factorization library (sci-mathematics/gmp-ecm)
 sci-libs/symengine:flint - Add support for (sci-mathematics/flint)
 sci-libs/symengine:llvm - Build with LLVM
 sci-libs/symengine:mpc - Add support for multiprecision complex arithmetic(dev-libs/mpc)
@@ -7783,9 +7782,6 @@ sci-visualization/paraview:offscreen - Offscreen rendering through OSMesa
 sci-visualization/paraview:plugins - Build and install additional plugins
 sci-visualization/veusz:fits - Add FITS format via dev-python/astropy
 sci-visualization/veusz:minuit - Use Minuit during fitting viadev-python/pyminuit
-sci-visualization/visit:cgns - Builds the reader for the CFD General Notation System file format.
-sci-visualization/visit:silo - Adds support for reading .silo files.
-sci-visualization/visit:xdmf2 - Support for xdmf2 formatted data.
 sci-visualization/yt:hub - Connect to the yt hub with dev-python/girder-client
 sec-policy/selinux-base:open_perms - Enable the open permissions for file object classes (SELinux policy capability).
 sec-policy/selinux-base:peer_perms - Enable the labeled networking peer permissions (SELinux policy capability).
@@ -8671,9 +8667,7 @@ virtual/podofo-build:boost - Add support for boost
 virtual/podofo-build:tools - Build and install commandline tools.
 virtual/ssh:minimal - Prefer net-misc/dropbear over net-misc/openssh
 virtual/wine:staging - Enable Wine-Staging's Patchset
-virtual/wireguard:debug - Enable verbose debug reporting in dmesg of various WireGuard peer and device information.
 virtual/wireguard:module - Compile the actual WireGuard kernel module. Most certainly you want this enabled, unless you're doing something strange.
-virtual/wireguard:module-src - Install the module source code to /usr/src, in case you like building kernel modules yourself.
 virtual/wireguard:tools - Compile the wg(8) tool and related helpers. You probably want this enabled.
 www-apache/mod_backtrace:unwind - Use sys-libs/libunwind to provide better resolution of function names.
 www-apache/mod_extract_forwarded:mod-proxy - Enable support for Apache's internal proxy
@@ -8947,6 +8941,7 @@ x11-libs/cairo:opengl - Build the OpenGL backend
 x11-libs/cairo:utils - Build support for Cairo script and trace utilities
 x11-libs/cairo:valgrind - Built-in support to mark memory regions
 x11-libs/fltk:games - Builds and installs some extra games
+x11-libs/fox:tools - Install adie, calculator, shutterbug, and pathfinder apps.
 x11-libs/gdk-pixbuf:X - Build and install the legacy gdk_pixbuf_xlib-2.0 library
 x11-libs/gtk+:broadway - Enable the GDK Broadway backend.
 x11-libs/gtk+:cloudprint - Enable printing via Google Cloud Print.

@@ -36,7 +36,7 @@ RDEPEND="
 		sys-kernel/installkernel-gentoo
 		sys-kernel/installkernel-systemd-boot
 	)
-	initramfs? ( sys-kernel/dracut )"
+	initramfs? ( >=sys-kernel/dracut-049-r2 )"
 BDEPEND="
 	sys-devel/bc
 	virtual/libelf"
@@ -174,8 +174,9 @@ pkg_postinst() {
 	fi
 
 	local symlink_target=$(readlink "${EROOT}"/usr/src/linux)
-	if [[ ${symlink_target} == linux-[0-9]* ]]; then
-		local symlink_ver=${symlink_target#linux-}
+	local symlink_ver=${symlink_target#linux-}
+	if [[ ${symlink_target} == linux-* && -z ${symlink_ver//[0-9.]/} ]]
+	then
 		local symlink_pkg=${CATEGORY}/${PN}-${symlink_ver}
 		# if the current target is either being replaced, or still
 		# installed (probably depclean candidate), update the symlink
