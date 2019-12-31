@@ -11,7 +11,7 @@ SRC_URI="https://download.enlightenment.org/rel/libs/${PN}/${P}.tar.xz"
 
 LICENSE="BSD-2 GPL-2 LGPL-2.1 ZLIB"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~hppa ~x86"
+KEYWORDS="amd64 ~arm ~hppa ~ppc x86"
 IUSE="X bmp connman dds debug doc +drm +eet elogind examples fbcon fontconfig
 	fribidi gif gles2 gnutls glib +gstreamer harfbuzz hyphen ibus ico libressl
 	lua +luajit jpeg2k json nls mono opengl +pdf physics pmaps postscript psd
@@ -269,8 +269,8 @@ src_compile() {
 	meson_src_compile
 
 	if use doc; then
-		cd doc/ || die "Failed to switch into doc/ dir."
-		doxygen . || die "Doxygen failed to run."
+		cd doc/ || die "Failed to switch into doc/ dir."
+		doxygen . || die "Doxygen failed to run."
 	fi
 }
 
