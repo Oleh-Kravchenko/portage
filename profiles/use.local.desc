@@ -2610,9 +2610,7 @@ dev-python/pyocr:tesseract - Enable support for the app-text/tesseract OCR engin
 dev-python/pypax:ptpax - Enable PT_PAX_FLAGS support.
 dev-python/pypax:xtpax - Enable XATTR_PAX_FLAGS support.
 dev-python/pypy-exe:low-memory - Build using PyPy with the engine configured towards low memory footprint. This makes it possible to build PyPy using ~3.5G of RAM on amd64 and ~half of that on x86, at the cost of lengthened build time.
-dev-python/pypy-exe:sandbox - Enable sandboxing functionality
 dev-python/pypy3-exe:low-memory - Build using PyPy with the engine configured towards low memory footprint. This makes it possible to build PyPy using ~3.5G of RAM on amd64 and ~half of that on x86, at the cost of lengthened build time.
-dev-python/pypy3-exe:sandbox - Enable sandboxing functionality
 dev-python/python-mpd:twisted - Enable twisted support
 dev-python/python-stdnum:vies - Enable VIES
 dev-python/pyudev:pygobject - Install PyGobject bindings
@@ -7874,6 +7872,7 @@ sys-apps/fwupd:pkcs7 - Enable PKCS7 verification support via net-libs/gnutls
 sys-apps/fwupd:redfish - Install redfish plugin
 sys-apps/fwupd:synaptics - Install synaptics plugin
 sys-apps/fwupd:thunderbolt - Install Thunderbolt plugin
+sys-apps/fwupd:tpm - Install Trusted Platform Module plugin
 sys-apps/fwupd:uefi - Enable UEFI support
 sys-apps/gawk:forced-sandbox - Always enable --sandbox mode for simpler/secure runtime (disables e/r/w commands)
 sys-apps/gawk:mpfr - use mpfr for high precision arithmetic (-M / --bignum)
@@ -9143,7 +9142,6 @@ x11-wm/e16:zoom - Support resolution change of current window (zoom) usingx11-li
 x11-wm/echinus:xrandr - Enable support for multihead configuration
 x11-wm/enlightenment:packagekit - Enable module for package manager integration
 x11-wm/enlightenment:xwayland - Enable XWayland application support
-x11-wm/fluxbox:bidi - Enable bidirectional language support with dev-libs/fribidi
 x11-wm/fluxbox:slit - Enables the Fluxbox slit (or dock)
 x11-wm/fluxbox:systray - Enables the system tray in the Fluxbox toolbar
 x11-wm/fluxbox:toolbar - Enables the Fluxbox toolbar
