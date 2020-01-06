@@ -3032,6 +3032,7 @@ dev-util/sccache:s3 - Enable Amazon S3 support
 dev-util/schroot:btrfs - Enable support for chroots using btrfs snapshots
 dev-util/schroot:dchroot - Enables the building of a wrapper named "dchroot", replacing sys-apps/dchroot
 dev-util/schroot:lvm - Enable support for chroots using LVM snapshots
+dev-util/schroot:zfs - Enable support for chroots using ZFS shapshots/clones
 dev-util/spirv-llvm-translator:tools - Install the command-line translator llvm-spirv
 dev-util/strace:aio - Enable dev-libs/libaio support for tracing Asynchronous I/O operations
 dev-util/strace:elfutils - Enable stack backtraces (-k flag) via dev-libs/elfutils
@@ -4112,6 +4113,7 @@ media-gfx/gimp:vector-icons - Enable support for vector icons (experimental)
 media-gfx/gmic:cli - Build CLI interface
 media-gfx/gmic:krita - Build media-gfx/krita plugin
 media-gfx/gmic:opencv - Enable support for webcams using the OpenCV library
+media-gfx/gnofract4d:doc - Install user manual
 media-gfx/gnome-photos:flickr - Ensure runtime Flickr support
 media-gfx/graphicsmagick:fpx - Enable FlashPix support with media-libs/libfpx
 media-gfx/graphicsmagick:modules - Compile graphicsmagick with dynamically loadable modules
@@ -4137,6 +4139,7 @@ media-gfx/imagemagick:pango - Enable Pango support using x11-libs/pango
 media-gfx/imagemagick:q32 - Set quantum depth value to 32
 media-gfx/imagemagick:q8 - Set quantum depth value to 8
 media-gfx/imv:freeimage - Use media-libs/freeimage as image library
+media-gfx/imv:libnsgif - Use media-libs/libnsgif as image library
 media-gfx/inkscape:cdr - Enable support for CorelDRAW Diagrams via media-libs/libcdr
 media-gfx/inkscape:dia - pull in app-office/dia for dia import extension
 media-gfx/inkscape:inkjar - Enable support for OpenOffice.org SVG jar files
@@ -5381,8 +5384,12 @@ net-analyzer/net-snmp:ucd-compat - Build UCD compatibility library. Increases si
 net-analyzer/netdata:compression - Enable compression via zlib
 net-analyzer/netdata:dbengine - Enable the Netdata database engine
 net-analyzer/netdata:ipmi - Install sys-apps/ipmitool required for monitoring IPMI sensors.
+net-analyzer/netdata:jsonc - Enable optimization of JSON using dev-libs/json-c
+net-analyzer/netdata:kinesis - Enable support for Amazon Kenesis as a backend
+net-analyzer/netdata:mongodb - Enable support for the mongodb backend
 net-analyzer/netdata:nfacct - Enable the nfacct plugin
 net-analyzer/netdata:nodejs - Enable use of nodejs (which some plugins use)
+net-analyzer/netdata:prometheus - Enable support for the Prometheus remote write backend
 net-analyzer/netdata:tor - Enable monitoring of tor
 net-analyzer/netdata:xen - Enable monitoring of xen
 net-analyzer/netperf:demo - Emit interim results during the run. May affect results
@@ -7929,6 +7936,7 @@ sys-apps/pciutils:dns - Enable support for querying the central database of PCI 
 sys-apps/pciutils:kmod - Enable sys-apps/kmod support for the -k switch in lspci command
 sys-apps/pciutils:zlib - Support compressed pci.ids database
 sys-apps/pcmciautils:staticsocket - Add support for static sockets
+sys-apps/pcsc-lite:embedded - limit RAM and CPU ressources by disabling features
 sys-apps/pcsc-lite:libusb - Use dev-libs/libusb detection to hotplug new smartcard readers. This flag should only be enabled if you're running a non-Linux kernel or you don't want to use sys-fs/udev.
 sys-apps/pcsc-lite:policykit - Uses sys-auth/polkit to restrict access to smartcard readers or smartcars to given users.
 sys-apps/pcsc-lite:udev - Use sys-fs/udev rules to handle devices' permissions and hotplug support. Unless you know what you're doing do not disable this flag on Linux kernels. This is provided as an option for completeness.
@@ -8820,13 +8828,6 @@ www-servers/civetweb:server - Build standalone server
 www-servers/fnord:auth - Enable HTTP authentication support
 www-servers/gatling:diet - Compile against dev-libs/dietlibc
 www-servers/h2o:mruby - Enable support for mruby
-www-servers/hiawatha:cache - Enable caching of content
-www-servers/hiawatha:monitor - Pull in www-apps/hiawatha-monitor
-www-servers/hiawatha:rewrite - Enable the rewrite toolkit
-www-servers/hiawatha:rproxy - Enable reverse proxy support
-www-servers/hiawatha:ssl - Enable TLS support via net-libs/mbedtls
-www-servers/hiawatha:tomahawk - Enable Tomahawk control server
-www-servers/hiawatha:xslt - Enable XSLT support. This is also needed for directory listings
 www-servers/lighttpd:libev - Enable fdevent handler
 www-servers/lighttpd:mmap - Use mmap with files owned by lighttpd. This is a dangerous option as it may allow local users to trigger SIGBUS crashes.
 www-servers/lighttpd:rrdtool - Enable rrdtool support via mod_rrdtool

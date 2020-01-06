@@ -1,9 +1,9 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( python{2_7,3_{5,6,7}} )
+PYTHON_COMPAT=( python{2_7,3_{6,7}} )
 inherit cmake-utils flag-o-matic llvm llvm.org multiprocessing \
 	python-any-r1 toolchain-funcs
 
@@ -37,6 +37,10 @@ PATCHES=(
 	# https://bugs.gentoo.org/698086
 	"${FILESDIR}"/9.0.0/0001-compiler-rt-crt-make-test-case-nontrivial-in-check_c.patch
 )
+
+python_check_deps() {
+	has_version "dev-python/lit[${PYTHON_USEDEP}]"
+}
 
 pkg_pretend() {
 	if ! use clang && ! tc-is-clang; then
