@@ -5680,6 +5680,7 @@ net-dns/unbound:ecs - Enable EDNS client subnet support
 net-dns/unbound:gost - Enable GOST support
 net-dns/unbound:redis - Enable cache db backend which uses dev-libs/hiredis
 net-firewall/arno-iptables-firewall:plugins - Install optional plugins
+net-firewall/arno-iptables-firewall:rsyslog - Install configuration snippet for app-admin/rsyslog
 net-firewall/conntrack-tools:cthelper - Use net-libs/libnetfilter_cthelper for userspace conntrack helper support
 net-firewall/conntrack-tools:cttimeout - Use net-libs/libnetfilter_cttimeout for conntrack timeout support
 net-firewall/conntrack-tools:libtirpc - Use net-libs/libtirpc for RPC support
@@ -6133,6 +6134,8 @@ net-libs/liboping:ncurses - Build ncurses-based version of oping utility (requir
 net-libs/libosmocore:embedded - Build for embedded use and disable unsupported features
 net-libs/libosmocore:pcsc-lite - Enable smartcard support with sys-apps/pcsc-lite
 net-libs/libpcap:netlink - Use dev-libs/libnl to put wireless interfaces in monitor mode.
+net-libs/libpcap:remote - Enable remote packet capture which may expose libpcap-based applications to attacks by malicious remote capture servers!
+net-libs/libpcap:yydebug - Enable parser debugging code
 net-libs/libprotoident:tools - Build and install command-line tools
 net-libs/libproxy:gnome - Enable support for reading proxy settings from GNOME
 net-libs/libproxy:kde - Enable support for reading proxy settings from KDE
@@ -8820,6 +8823,7 @@ www-servers/cherokee:rrdtool - Enable rrdtool support
 www-servers/civetweb:server - Build standalone server
 www-servers/fnord:auth - Enable HTTP authentication support
 www-servers/gatling:diet - Compile against dev-libs/dietlibc
+www-servers/h2o:libh2o - Build and install libh2o
 www-servers/h2o:mruby - Enable support for mruby
 www-servers/lighttpd:libev - Enable fdevent handler
 www-servers/lighttpd:mmap - Use mmap with files owned by lighttpd. This is a dangerous option as it may allow local users to trigger SIGBUS crashes.
