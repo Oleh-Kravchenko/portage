@@ -52,7 +52,7 @@ dev-python/statsmodels doc
 sci-visualization/veusz fits
 
 # Andreas Sturmlechner <asturm@gentoo.org> (2019-11-28)
-# sci-visualization/visit is on the way out, bug #657952
+# sci-visualization/visit was last-rited, bug #657952
 sci-libs/libgeodecomp visit
 
 # Michał Górny <mgorny@gentoo.org> (2019-11-25)
@@ -92,10 +92,6 @@ app-i18n/xcin unicode
 # see https://github.com/openssl/openssl/pull/8797
 net-libs/ngtcp2 ssl
 net-misc/curl nghttp3
-
-# Michał Górny <mgorny@gentoo.org> (2019-09-08)
-# LLVM 5 is being removed.
-~dev-ada/gps-2018 gnat_2017
 
 # Michał Górny <mgorny@gentoo.org> (2019-09-07)
 # media-libs/libnut is slated for removal.
