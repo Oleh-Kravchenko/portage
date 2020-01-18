@@ -403,24 +403,6 @@ app-editors/emacs:threads - Add elisp threading support
 app-editors/emacs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
 app-editors/emacs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
 app-editors/emacs:xwidgets - Enable use of GTK widgets in Emacs buffers (requires GTK3)
-app-editors/emacs-vcs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
-app-editors/emacs-vcs:dynamic-loading - Enable loading of dynamic libraries at runtime
-app-editors/emacs-vcs:games - Support shared score files for games
-app-editors/emacs-vcs:gconf - Use gnome-base/gconf to read the system font name
-app-editors/emacs-vcs:gfile - Use gfile (dev-libs/glib) for file notification
-app-editors/emacs-vcs:gsettings - Use gsettings (dev-libs/glib) to read the system font name
-app-editors/emacs-vcs:gtk2 - Prefer version 2 of the GIMP Toolkit to version 3 (x11-libs/gtk+)
-app-editors/emacs-vcs:gzip-el - Compress bundled Emacs Lisp source
-app-editors/emacs-vcs:harfbuzz - Use media-libs/harfbuzz as text shaping engine
-app-editors/emacs-vcs:imagemagick - Use media-gfx/imagemagick for image processing
-app-editors/emacs-vcs:json - Compile with native JSON support using dev-libs/jansson
-app-editors/emacs-vcs:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal Lisp implementations
-app-editors/emacs-vcs:mailutils - Retrieve e-mail using net-mail/mailutils instead of the internal movemail substitute
-app-editors/emacs-vcs:source - Install C source files and make them available for find-function
-app-editors/emacs-vcs:threads - Add elisp threading support
-app-editors/emacs-vcs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
-app-editors/emacs-vcs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
-app-editors/emacs-vcs:xwidgets - Enable use of GTK widgets in Emacs buffers (requires GTK3)
 app-editors/fe:sendmail - Send mail after editor abend
 app-editors/gedit-plugins:charmap - Insert special characters just by clicking on them
 app-editors/gedit-plugins:git - Shows document changes related to git's HEAD
@@ -7854,7 +7836,6 @@ sys-apps/fwupd:synaptics - Install synaptics plugin
 sys-apps/fwupd:thunderbolt - Install Thunderbolt plugin
 sys-apps/fwupd:tpm - Install Trusted Platform Module plugin
 sys-apps/fwupd:uefi - Enable UEFI support
-sys-apps/gawk:forced-sandbox - Always enable --sandbox mode for simpler/secure runtime (disables e/r/w commands)
 sys-apps/gawk:mpfr - use mpfr for high precision arithmetic (-M / --bignum)
 sys-apps/gnome-disk-utility:fat - Include FAT16/FAT32 support (sys-fs/dosfstools)
 sys-apps/hwdata-gentoo:binary-drivers - Adds support for ATI/NVIDIA binary drivers
@@ -7894,7 +7875,6 @@ sys-apps/linux-misc-apps:usbip - Include USB/IP binaries to replace net-misc/usb
 sys-apps/lm-sensors:contrib - Installs user contributed configuration files so you don't need to find settings on your own for your system if somebody else has already created such a configuration for sensors/mainboards you are using.
 sys-apps/lm-sensors:sensord - Enable sensord - a daemon that can be used to periodically log sensor readings from hardware health-monitoring chips
 sys-apps/man-db:manpager - Enable manpager wrapper for colorizing output
-sys-apps/mawk:forced-sandbox - Always enable -W sandbox mode for simpler/secure runtime
 sys-apps/memtest86:serial - Compile with serial console support
 sys-apps/memtest86+:boot - Also install to /boot instead of just /usr/share/memtest86+/
 sys-apps/memtest86+:floppy - Install a script to create floppy disks containing memtest86+ binaries.
@@ -7944,7 +7924,6 @@ sys-apps/s390-tools:openssl - build the zkey utility
 sys-apps/s390-tools:pfm - build the cpacfstats tool
 sys-apps/s390-tools:zlib - build the zgetdump and dump2tar utilities
 sys-apps/s6-linux-init:sysv-utils - Install sysvinit compatibility symlinks for telinit, halt, poweroff, reboot, and shutdown
-sys-apps/sed:forced-sandbox - Always enable --sandbox mode for simpler/secure runtime (disables e/r/w commands). Note: This may break many configure scripts, so it should be avoided on dev systems (and generally used on binpkg/final systems only).
 sys-apps/shadow:bcrypt - build the bcrypt password encryption algorithm
 sys-apps/shadow:su - build the su program
 sys-apps/smartmontools:caps - Build against sys-libs/libcap-ng to allow smartd to drop its privileges.
@@ -8245,7 +8224,6 @@ sys-cluster/ucx:numa - Add support for numa memory allocation
 sys-cluster/vzctl:ploop - Add support for ploop devices via sys-cluster/ploop
 sys-cluster/vzctl:vzmigrate - Add support for container migration
 sys-devel/autogen:libopts - install the libopts tarball (a few packages want this for developing)
-sys-devel/bc:forced-sandbox - Always enable --sandbox mode for simpler/secure runtime (disables the ! command in dc)
 sys-devel/binutils:default-gold - Set ld to point to ld.gold instead of ld.bfd
 sys-devel/binutils:gold - Build ld.gold linker
 sys-devel/binutils:multitarget - Adds support to binutils for cross compiling (does not work with gas)
