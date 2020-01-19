@@ -1302,6 +1302,7 @@ app-text/wv:tools - Install optional utilities considered deprecated in favor of
 app-text/xmlto:text - Support conversion from XML to plain text
 app-text/xpdf:cmyk - Include support for CMYK rasterization
 app-text/xpdf:i18n - Enable support non-UTF8 national charsets
+app-text/xpdf:icons - Generate desktop PNG icons using media-gfx/inkscape
 app-text/xpdf:libpaper - Use app-text/libpaper to get paper preferences
 app-text/xpdf:metric - Use A4 instead of US Letter paper size by default for PostScript output. This option has effect only if libpaper USE flag is disabled
 app-text/xpdf:opi - Include support for OPI (Open Prepress Interface) comments
@@ -5859,7 +5860,6 @@ net-im/pidgin:meanwhile - Enable meanwhile support for Sametime protocol
 net-im/pidgin:ncurses - Build finch, console interface
 net-im/pidgin:prediction - Enable Contact Availability Prediction plugin
 net-im/pidgin:python - Build libgnt (GLib Ncurses Toolkit used by finch) with python scripting support
-net-im/pidgin:silc - Enable SILC protocol support
 net-im/pidgin:xscreensaver - Use X screensaver protocol extension to monitor idle/active status based on mouse/keyboard events
 net-im/pidgin:zephyr - Enable Zephyr protocol support
 net-im/profanity:gpg - Enable OpenPGP encryption
@@ -8339,7 +8339,6 @@ sys-fs/btrfs-progs:reiserfs - Enable reiserfs support in btrfs-convert tool.
 sys-fs/btrfs-progs:static - Build static binaries in addition to the dynamic ones
 sys-fs/btrfsmaintenance:systemd - Enable systemd services and timers instead of cron timers
 sys-fs/cryfs:custom-optimization - Use user-defined compiler optimization level
-sys-fs/cryfs:update-check - Enable automatic checking for updates and security vulnerabilities
 sys-fs/cryptmount:argv0switch - Default action given by progname.
 sys-fs/cryptmount:cswap - Enable support for encrypted swap.
 sys-fs/cryptmount:fsck - Check filesystems before mounting.
