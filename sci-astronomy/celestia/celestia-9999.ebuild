@@ -3,6 +3,8 @@
 
 EAPI=7
 
+inherit desktop flag-o-matic xdg cmake
+
 if [[ "${PV}" = 9999 ]] ; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/CelestiaProject/Celestia.git"
@@ -10,7 +12,6 @@ else
 	SRC_URI="https://github.com/${PN^}Project/${PN^}/archive/${PV/_/-}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux"
 fi
-inherit desktop flag-o-matic xdg cmake
 
 DESCRIPTION="OpenGL 3D space simulator"
 HOMEPAGE="https://celestia.space"
@@ -87,12 +88,14 @@ src_install() {
 	for size in 16 22 32 48 ; do
 		newicon -s ${size} "${S}"/src/celestia/kde/data/hi${size}-app-${PN}.png ${PN}.png
 	done
+	newicon -s 128 "${S}"/src/celestia/gtk/data/${PN}-logo.png ${PN}.png
+	doicon -s scalable "${S}"/src/celestia/gtk/data/${PN}.svg
 
 	use glut && domenu ${PN}.desktop
 	if use qt5 ; then
 		sed \
 			-e "/^Name/s@\$@ (qt5 interface)@" \
-			-e "/^Exec/s@${PN}@${PN}-${ui/qt5/qt}@" \
+			-e "/^Exec/s@${PN}@${PN}-qt@" \
 			${PN}.desktop > "${T}"/${PN}-qt5.desktop || die
 		domenu "${T}"/${PN}-qt5.desktop
 	fi
