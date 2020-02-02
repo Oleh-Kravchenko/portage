@@ -30,10 +30,11 @@ src_test() {
 
 src_install() {
 	emake DESTDIR="${D}" install
-	rm -f "${D}"usr/lib/*.la
+	rm -f "${D}"/usr/lib/*.la
 	dodoc AUTHORS ChangeLog
 
 	if use doc; then
-		dohtml reference/html/*
+		docinto html
+		dodoc -r reference/html/.
 	fi
 }
