@@ -5483,7 +5483,6 @@ net-analyzer/tcpreplay:tcpdump - Use net-analyzer/tcpdump for packet decoding fe
 net-analyzer/testssl:bundled-openssl - Install precompiled versions of OpenSSL for greater testing coverage
 net-analyzer/wapiti:kerberos - Support Kerberos authentication
 net-analyzer/wapiti:ntlm - Support NTLM authentication
-net-analyzer/wireshark:adns - Use net-dns/c-ares to resolve DNS names
 net-analyzer/wireshark:androiddump - Install androiddump, an extcap interface to capture from Android devices
 net-analyzer/wireshark:bcg729 - Use media-libs/bcg729 for G.729 codec support in RTP Player
 net-analyzer/wireshark:brotli - Use app-arch/brotli for compression/decompression
@@ -6411,7 +6410,6 @@ net-misc/cgminer:minion - Enable support for mining with BlackArrow Bitfury
 net-misc/cgminer:modminer - Enable support for mining with ModMiner FPGAs
 net-misc/cgminer:sp10 - Enable support for Spondoolies SP10
 net-misc/cgminer:sp30 - Enable support for Spondoolies SP30
-net-misc/chrome-remote-desktop:xrandr - Enable support for the XRandR extension for dynamic desktop resizing
 net-misc/chrony:adns - Support for asynchronous DNS
 net-misc/chrony:cmdmon - Support for command and monitoring
 net-misc/chrony:html - Install HTML documentation
@@ -6643,6 +6641,7 @@ net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applic
 net-misc/owncloud-client:dolphin - Install the kde-apps/dolphin extension
 net-misc/owncloud-client:nautilus - Install the gnome-base/nautilus extension
 net-misc/owncloud-client:shibboleth - Build support for Shibboleth single sign-on
+net-misc/packETH:cli - Build and install packETHcli
 net-misc/plowshare:view-captcha - View captcha with aview
 net-misc/ps3mediaserver:multiuser - Allow renderer customization per-user.
 net-misc/ps3mediaserver:transcode - Install optional dependencies for transcoding support via media-video/mplayer
