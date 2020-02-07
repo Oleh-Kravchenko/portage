@@ -32,6 +32,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-05)
+# Blocks dev-python/pygtk removal, bug #706478. Masked for removal in 30 days.
+dev-libs/libappindicator:2
+dev-perl/Gtk2-AppIndicator
+x11-plugins/pidgin-indicator
+
 # Michał Górny <mgorny@gentoo.org> (2020-02-05)
 # Unmaintained.  No Python 3 support.  Last release ~2014, homepage
 # gone.
@@ -609,11 +615,6 @@ dev-lang/vala:0.42
 # over CCID.
 # Removal in 30 days.
 app-crypt/libykneomgr
-
-# Ulrich Müller <ulm@gentoo.org> (2020-01-07)
-# No upstream SRC_URI. No license, so it cannot be mirrored.
-# Masked for removal in 30 days. Bug #702936.
-media-fonts/nepali-fonts
 
 # Ulrich Müller <ulm@gentoo.org> (2020-01-06)
 # Snapshots from Git, masked for testing.
