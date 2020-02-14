@@ -5,14 +5,14 @@ EAPI=7
 
 inherit cmake flag-o-matic
 
-DESCRIPTION="Converts OSM data to SQL and insert into PostgreSQL db"
+DESCRIPTION="Converts OSM planet.osm data to a PostgreSQL/PostGIS database"
 HOMEPAGE="https://wiki.openstreetmap.org/wiki/Osm2pgsql
-		  https://github.com/openstreetmap/osm2pgsql"
+	https://github.com/openstreetmap/osm2pgsql"
 SRC_URI="https://github.com/openstreetmap/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="+lua"
 
 COMMON_DEPEND="
