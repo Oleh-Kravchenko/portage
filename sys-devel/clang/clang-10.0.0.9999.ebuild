@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python{2_7,3_{6,7}} )
+PYTHON_COMPAT=( python{2_7,3_{6,7,8}} )
 inherit cmake-utils llvm llvm.org multilib-minimal multiprocessing \
 	pax-utils python-single-r1 toolchain-funcs
 
@@ -300,7 +300,7 @@ multilib_src_test() {
 	local -x LIT_PRESERVES_TMP=1
 	cmake-utils_src_make check-clang
 	multilib_is_native_abi &&
-		cmake-utils_src_make check-clang-tools check-clangd
+		cmake-utils_src_make check-clang-tools
 }
 
 src_install() {
