@@ -59,9 +59,9 @@ RDEPEND="${CDEPEND}
 DOC_CONTENTS="
 	If this is a clean installation of wpa_supplicant, you
 	have to create a configuration file named
-	${EROOT%/}/etc/wpa_supplicant/wpa_supplicant.conf
+	${EROOT}/etc/wpa_supplicant/wpa_supplicant.conf
 	An example configuration file is available for reference in
-	${EROOT%/}/usr/share/doc/${PF}/
+	${EROOT}/usr/share/doc/${PF}/
 "
 
 S="${WORKDIR}/${P}/${PN}"
@@ -247,8 +247,10 @@ src_configure() {
 		Kconfig_style_config OWE
 		Kconfig_style_config SAE
 		Kconfig_style_config DPP
-		Kconfig_style_config SUITEB
 		Kconfig_style_config SUITEB192
+	fi
+	if ! use bindist && ! use libressl; then
+		Kconfig_style_config SUITEB
 	fi
 
 	if use smartcard ; then
@@ -440,10 +442,10 @@ src_install() {
 pkg_postinst() {
 	readme.gentoo_print_elog
 
-	if [[ -e "${EROOT%/}"/etc/wpa_supplicant.conf ]] ; then
+	if [[ -e "${EROOT}"/etc/wpa_supplicant.conf ]] ; then
 		echo
-		ewarn "WARNING: your old configuration file ${EROOT%/}/etc/wpa_supplicant.conf"
-		ewarn "needs to be moved to ${EROOT%/}/etc/wpa_supplicant/wpa_supplicant.conf"
+		ewarn "WARNING: your old configuration file ${EROOT}/etc/wpa_supplicant.conf"
+		ewarn "needs to be moved to ${EROOT}/etc/wpa_supplicant/wpa_supplicant.conf"
 	fi
 
 	if use bindist; then
@@ -452,15 +454,20 @@ pkg_postinst() {
 			ewarn "This is incredibly undesirable"
 		fi
 	fi
+	if use libressl; then
+		ewarn "Libressl doesn't support SUITEB (part of WPA3)"
+		ewarn "but it does support SUITEB192 (the upgraded strength version of the same)"
+		ewarn "You probably don't care.  Patches welcome"
+	fi
 
 	# Mea culpa, feel free to remove that after some time --mgorny.
 	local fn
 	for fn in wpa_supplicant{,@wlan0}.service; do
-		if [[ -e "${EROOT%/}"/etc/systemd/system/network.target.wants/${fn} ]]
+		if [[ -e "${EROOT}"/etc/systemd/system/network.target.wants/${fn} ]]
 		then
 			ebegin "Moving ${fn} to multi-user.target"
-			mv "${EROOT%/}"/etc/systemd/system/network.target.wants/${fn} \
-				"${EROOT%/}"/etc/systemd/system/multi-user.target.wants/ || die
+			mv "${EROOT}"/etc/systemd/system/network.target.wants/${fn} \
+				"${EROOT}"/etc/systemd/system/multi-user.target.wants/ || die
 			eend ${?} \
 				"Please try to re-enable ${fn}"
 		fi
