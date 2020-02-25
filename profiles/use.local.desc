@@ -3669,8 +3669,6 @@ kde-frameworks/sonnet:aspell - Enable the app-text/aspell spell-checking backend
 kde-frameworks/sonnet:designer - Build plugins for dev-qt/designer
 kde-frameworks/sonnet:hunspell - Enable the app-text/hunspell spell-checking backend
 kde-misc/kdeconnect:X - Enable remote input mousepad plugin using x11-libs/libfakekey
-kde-misc/kdeconnect:app - Enable experimental kcapp frontend
-kde-misc/kdeconnect:mousepad - Enable remote mousepad plugin using x11-libs/libfakekey
 kde-misc/kdeconnect:pulseaudio - Enable system volume control plugin using media-sound/pulseaudio
 kde-misc/kdeconnect:wayland - Enable remote input mousepad plugin using kde-frameworks/kwayland
 kde-misc/kimtoy:scim - Enable Smart Common Input Method support
@@ -4849,7 +4847,6 @@ media-sound/yarock:phonon - Enable media-libs/phonon backend
 media-sound/yarock:vlc - Enable media-video/vlc backend
 media-sound/yoshimi:lv2 - Add support for Ladspa V2
 media-sound/zynaddsubfx:dssi - Enable support for DSSI Soft Synth Interface
-media-tv/gentoo-vdr-scripts:nvram - Add support for using nvram-wakeup to set wakeup time in bios
 media-tv/kodi:airplay - enable AirPlay support
 media-tv/kodi:bluray - Enable playback of Blu-ray filesystems
 media-tv/kodi:cec - Enable support for HDMI-CEC devices via libcec
