@@ -2516,7 +2516,6 @@ dev-python/QtPy:gui - Build bindings for the QtGui module
 dev-python/QtPy:svg - Build bindings for the QtSvg module
 dev-python/QtPy:testlib - Build bindings for the QtTest module
 dev-python/QtPy:webengine - Build bindings for the QtWebEngine module
-dev-python/QtPy:webkit - Build bindings for the QtWebKit module
 dev-python/amqplib:extras - Install extra tools to generate initial Python mod from an AMQP XML file
 dev-python/cryptography:idna - enable support for the old, deprecated IDNA specification (RFC 3490)
 dev-python/ctypescrypto:gost - Build with support for GOST Message Authentication Code
@@ -2623,14 +2622,12 @@ dev-python/translate-toolkit:yaml - Support YAML format
 dev-python/twisted:conch - include Twisted SSHv2 implementation
 dev-python/twisted:http2 - include http2 support
 dev-python/twisted:serial - include serial port support
-dev-python/twisted-core:serial - include serial port support
 dev-python/urllib3:brotli - Enable support for brotli compression
 dev-python/ws4py:client - Install client modules
 dev-python/ws4py:server - Install server modules
 dev-python/wxpython:examples - Install interactive demo module browser and sample applets.
 dev-python/zeep:async - Add async support
 dev-python/zeep:tornado - Add tornado support
-dev-python/zsi:twisted - add support for python-twisted (needs dev-python/twisted-core and dev-python/twisted-web)
 dev-qt/designer:declarative - Build the qdeclarativeview plugin
 dev-qt/designer:webkit - Build the qwebview plugin
 dev-qt/linguist-tools:qml - Enable QML support in lupdate
@@ -3142,7 +3139,6 @@ games-board/pioneers:help - Enable gnome ingame help via scrollkeeper
 games-board/pysolfc:extra-cardsets - Install extra cardsets
 games-board/pysolfc:sound - Enable sound support using dev-python/pygame
 games-board/spider:athena - Enable athena widgets
-games-board/stockfish:armv7 - Build for armv7; enables PIE
 games-board/stockfish:general-32 - Generic unoptimized 32-bits build
 games-board/stockfish:general-64 - Generic unoptimized 64-bits build
 games-board/stockfish:optimize - Enable upstream -O3 optimizations (default enabled)
@@ -7059,9 +7055,6 @@ net-wireless/gnuradio:vocoder - enable blocks for audio voice encoders
 net-wireless/gnuradio:wavelet - enable wavelet signal processing blocks
 net-wireless/gnuradio:zeromq - enable zeromq message passing blocks
 net-wireless/gqrx:gr-audio - Use audio support from net-wireless/gnuradio
-net-wireless/gr-air-modes:fgfs - Support FlightGear
-net-wireless/gr-air-modes:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
-net-wireless/gr-air-modes:uhd - Build with Ettus Research USRP Hardware Driver support
 net-wireless/gr-baz:armadillo - install MUSIC DOA estimator block
 net-wireless/gr-baz:rtlsdr - install rtlsdr source block
 net-wireless/gr-baz:uhd - install UHD aware blocks
@@ -7620,7 +7613,6 @@ sci-mathematics/polymake:lrs - Enable sci-libs/lrslib interface for convex hull 
 sci-mathematics/polymake:ppl - Enable dev-libs/ppl interface for convex hull computations.
 sci-mathematics/polymake:singular - Enable the interface to sci-mathematics/singular for ideal related computations.
 sci-mathematics/rstudio:server - Build and install the RStudio server
-sci-mathematics/rw:executable - Build the 'rw' program.
 sci-mathematics/singular:boost - Compile against external boost headers (dev-libs/boost)
 sci-mathematics/slepc:complex-scalars - Make scalars complex
 sci-mathematics/unuran:prng - Use sci-mathematics/prng library
