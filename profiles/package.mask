@@ -111,7 +111,6 @@ dev-python/iso_639
 dev-python/jog
 dev-python/jpype
 dev-python/jsmin
-dev-python/json-rpc
 dev-python/json-tools
 dev-python/keepassx
 dev-python/kitchen
@@ -146,7 +145,6 @@ dev-python/pycobertura
 dev-python/pydot-ng
 dev-python/pyee
 dev-python/pyev
-dev-python/pyfeyn
 dev-python/pyfiglet
 dev-python/pygcrypt
 dev-python/pygeocoder
@@ -168,7 +166,6 @@ dev-python/pytest-mpl
 dev-python/python-afl
 dev-python/python-cluster
 dev-python/python-ddp
-dev-python/python-discid
 dev-python/python-ebtables
 dev-python/python-engineio
 dev-python/python-hpilo
@@ -179,8 +176,7 @@ dev-python/python-socketio
 dev-python/python-twitter
 dev-python/python-uinput
 dev-python/pythonmagick
-dev-python/pyx
-dev-python/pyzor
+<dev-python/pyx-0.15
 dev-python/rackspace-monitoring
 dev-python/readlike
 dev-python/redis-py-cluster
@@ -253,6 +249,7 @@ dev-libs/rocm-opencl-driver
 # Breaks at least app-text/texlive-core and app-office/libreoffice right now,
 # bugs 711096, 711102.
 ~app-text/poppler-0.86.0
+~app-text/poppler-0.86.1
 
 # Miroslav Šulc <fordfrog@gentoo.org> (2020-02-27)
 # Depends on dev-java/eclipse-ecj:4.13 which
