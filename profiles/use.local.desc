@@ -4360,6 +4360,7 @@ media-libs/opencv:features2d - Enable features2d module
 media-libs/opencv:gdal - Enable support for sci-libs/gdal library
 media-libs/opencv:gflags - Use Google's C++ argument parsing library
 media-libs/opencv:glog - Use Google's C++ loggin library
+media-libs/opencv:gtk3 - Enable x11-libs/gtk+:3 support
 media-libs/opencv:opencl - Add support for OpenCL
 media-libs/opencv:opencvapps - Enable compilation with opencvapps
 media-libs/opencv:tesseract - Use Google's OCR Engine
@@ -7381,6 +7382,9 @@ sci-libs/dlib:cuda - Enable support for CUDA for Deep Neural Networks (cuDNN) on
 sci-libs/dlib:mkl - Enable support for Intel FFT sci-libs/mkl
 sci-libs/dlib:python - Enable support for Python API bindings
 sci-libs/dmlc-core:s3 - Support for the Amazon Simple Storage Service
+sci-libs/eccodes:defs - Install full set of definition files.
+sci-libs/eccodes:extra-test - Install full set of test data (large).
+sci-libs/eccodes:memfs - Enable memory based access to definition/sample files (conflicts with tests).
 sci-libs/fftw:float - Link default library to single precision instead of double (symlinks only and fftw-2.1)
 sci-libs/fftw:quad - Build quadruple precision lib
 sci-libs/fftw:zbus - Adds support for ZBus cycle-counter of mips
@@ -7732,6 +7736,7 @@ sci-visualization/paraview:development - Install development files including hea
 sci-visualization/paraview:nvcontrol - Add NVCONTROL support for OpenGL options
 sci-visualization/paraview:offscreen - Offscreen rendering through OSMesa
 sci-visualization/paraview:plugins - Build and install additional plugins
+sci-visualization/paraview:webengine - Add support for dev-qt/qtwebengine
 sci-visualization/veusz:minuit - Use Minuit during fitting viadev-python/pyminuit
 sci-visualization/yt:hub - Connect to the yt hub with dev-python/girder-client
 sec-policy/selinux-base:open_perms - Enable the open permissions for file object classes (SELinux policy capability).
@@ -8307,8 +8312,8 @@ sys-devel/parity:vc7_0 - Enable support for Visual Studio 2002
 sys-devel/parity:vc7_1 - Enable support for Visual Studio 2003
 sys-devel/parity:vc8_0 - Enable support for Visual Studio 2005
 sys-devel/parity:vc9_0 - Enable support for Visual Studio 2008
-sys-devel/parity:vc_x64 - Enable support for 64bit Visual Studio compilers
-sys-devel/parity:vc_x86 - Enable support for 32bit Visual Studio compilers
+sys-devel/parity:vcx64 - Enable support for 64bit Visual Studio compilers
+sys-devel/parity:vcx86 - Enable support for 32bit Visual Studio compilers
 sys-devel/sparse:gtk - Build the test-inspect utility (requires x11-libs/gtk+ version 2)
 sys-devel/sparse:llvm - Build the sparse-llvm utility
 sys-devel/sparse:xml - Build the c2xml utility (requires dev-libs/libxml2)
