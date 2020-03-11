@@ -32,6 +32,20 @@
 
 #--- END OF EXAMPLES ---
 
+# Alexander Tsoy <alexander@tsoy.me> (2020-03-10)
+# media-sound/gtklick: last commit in 2014, python 2 only, blocks
+# dev-python/pygtk removal.
+# Alternatives: media-sound/kmetronome, media-sound/gtick,
+# media-sound/klick (cli)
+#
+# media-libs/pyliblo: last commit in 2015, the only revdep is
+# media-sound/gtklick, there is an actively maintained fork named
+# pyliblo3.
+#
+# Removal in 30 days.  Bug #708172.
+media-sound/gtklick
+media-libs/pyliblo
+
 # Eray Aslan <eras@gentoo.org> (2020-03-09)
 # Mask experimental software
 =mail-mta/postfix-3.6*
@@ -77,7 +91,6 @@ dev-python/columnize
 dev-python/common
 dev-python/crumbs
 dev-python/cssselect2
-dev-python/cx_Freeze
 dev-python/d2to1
 dev-python/datashape
 dev-python/deform
@@ -589,10 +602,6 @@ dev-lang/rebol-bin
 # undefined symbols in the shared object, upstream gone, no other distro
 # packages this anymore, no revdeps. Removal in 30 days.
 sys-apps/hbaapi
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-09)
-# Dead upstream, broken by Qt 5.14, bug #703930. Masked for removal in 30 days.
-net-nntp/kwooty
 
 # Patrick McLean <chutzpah@gentoo.org> (2020-02-07)
 # Mask until sys-libs/libxcrypt[system] is unmasked
