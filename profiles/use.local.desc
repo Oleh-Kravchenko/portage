@@ -3393,6 +3393,7 @@ gnome-base/gnome-light:gnome-shell - Install gnome-base/gnome-shell and x11-wm/m
 gnome-base/gnome-session:consolekit - Support sys-auth/consolekit for session tracking
 gnome-base/gnome-session:elogind - Support sys-auth/elogind for session tracking
 gnome-base/gnome-settings-daemon:elogind - Rely on sys-auth/elogind as runtime logind provider
+gnome-base/gnome-settings-daemon:modemmanager - Enable WWAN support via net-misc/modemmanager
 gnome-base/gnome-settings-daemon:systemd - Rely on sys-apps/systemd as runtime logind provider
 gnome-base/gnome-shell:browser-extension - Ensure the presence of extensions.gnome.org native connector gnome-extra/chrome-gnome-shell
 gnome-base/gnome-shell:elogind - Use sys-auth/elogind for session tracking and suspend support.
@@ -7679,6 +7680,7 @@ sci-physics/hepmc:gev - Build with GeV instead of default MeV for momentum units
 sci-physics/herwig++:c++11 - Build Herwig++ using the C++11 standard. Experimental feature, not for production use.
 sci-physics/herwig++:fastjet - Adds support for sci-physics/fastjet
 sci-physics/lammps:cuda - Enable cuda non-bonded kernels
+sci-physics/lammps:kokkos - Enable kokkos non-bonded kernels
 sci-physics/lammps:lammps-memalign - Enables the use of the posix_memalign() call instead of malloc() when large chunks or memory are allocated by LAMMPS. Aliengnment is on 16 byte boundaries.
 sci-physics/lhapdf:octave - Add bindings for sci-mathematics/octave
 sci-physics/pythia:fastjet - Build jets using the sci-physics/fastjet package
@@ -8076,7 +8078,6 @@ sys-boot/grub:efiemu - Build and install the efiemu runtimes
 sys-boot/grub:fonts - Build and install fonts for the gfxterm module
 sys-boot/grub:libzfs - Enable support for sys-fs/zfs
 sys-boot/grub:mount - Build and install the grub-mount utility
-sys-boot/grub:multislot - Allow concurrent installation of sys-boot/grub SLOT 0 and sys-boot/grub SLOT 2 by renaming all programs.
 sys-boot/grub:themes - Build and install GRUB themes (starfield)
 sys-boot/grub:truetype - Build and install grub-mkfont conversion utility
 sys-boot/lilo:device-mapper - Enable support for device-mapper from sys-fs/lvm2
@@ -8460,7 +8461,6 @@ sys-kernel/mips-sources:ip28 - Enables additional support for SGI Indigo2 Impact
 sys-kernel/mips-sources:ip30 - Enables support for SGI Octane (IP30, 'Speedracer')
 sys-kernel/rt-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
 sys-kernel/vanilla-kernel:initramfs - Build initramfs along with the kernel.
-sys-kernel/vanilla-kernel-bin:initramfs - Build initramfs along with the kernel.
 sys-kernel/xnu-headers:man - Install the manpages
 sys-libs/binutils-libs:64-bit-bfd - Support 64-bit targets even on 32-bit hosts (is ignored on 64-bit hosts)
 sys-libs/binutils-libs:multitarget - Enable all possible targets in libbfd
