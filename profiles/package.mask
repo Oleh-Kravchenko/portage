@@ -588,11 +588,6 @@ net-misc/gnome-remote-desktop
 # and accept a more unstable release.
 >=www-client/chromium-82
 
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-16)
-# No more revdeps, abandoned upstream, depends on deprecated dev-qt/qtwebkit.
-# Masked for removal in 30 days.
-kde-misc/kwebkitpart
-
 # Mart Raudsepp <leio@gentoo.org> (2020-02-12)
 # GNOME 3.35 development release packages
 >=dev-libs/vala-common-0.47
@@ -779,10 +774,6 @@ x11-drivers/xf86-video-tga
 x11-drivers/xf86-video-trident
 x11-drivers/xf86-video-tseng
 x11-drivers/xf86-video-voodoo
-
-# Eray Aslan <eras@gentoo.org> (2019-03-01)
-# Mask experimental software
-=mail-mta/postfix-3.5*
 
 # Miroslav Šulc <fordfrog@gentoo.org> (2019-01-23)
 # Depends on >=virtual/{jdk,jre}-11 which is masked
