@@ -25,7 +25,6 @@ SRC_URI="https://hg.openjdk.java.net/${PN}/${SLOT}-dev/rt/archive/${MY_PV}.tar.b
 "
 
 LICENSE="GPL-2-with-classpath-exception"
-SLOT="$(ver_cut 1)"
 KEYWORDS="-* ~amd64"
 
 IUSE="cpu_flags_x86_sse2 debug doc source +media"
@@ -193,7 +192,7 @@ src_configure() {
 		LINT = none
 		CONF = $(usex debug DebugNative Release)
 		NUM_COMPILE_THREADS = $(makeopts_jobs)
-		JFX_DEPS_URL = "${T}"/jars
+		JFX_DEPS_URL = ${T}/jars
 		COMPANY_NAME = "Gentoo"
 	_EOF_
 }
