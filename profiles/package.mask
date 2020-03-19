@@ -32,6 +32,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2020-03-18)
+# Unmaintained.  Version bump pending.  No Python 3 support upstream.
+# Removal in 30 days.  Bug #708268.
+app-backup/buttersink
+
 # Michał Górny <mgorny@gentoo.org> (2020-03-17)
 # Abandoned.  Python 2 only.  Upstream recommends dev-python/suds
 # instead.
@@ -675,11 +680,6 @@ app-backup/tob
 # dependencies.  Bug #663794, #666916, #666922, #667062, #678068,
 # #681678, #684420, #694488. Removal in 30 days.
 dev-db/clickhouse
-
-# Bernard Cafarelli <voyageur@gentoo.org> (2019-11-29)
-# Beta for new major version with initial Python 3 support
-# Remove mask when stable version is released
->=app-backup/rdiff-backup-1.4.0_beta
 
 # Lars Wendler <polynomial-c@gentoo.org> (2019-11-14)
 # Breaks archives containing relative paths
