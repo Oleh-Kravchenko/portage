@@ -4028,7 +4028,6 @@ media-gfx/blender:player - Build the Blender Player. THis requires the Game engi
 media-gfx/blender:test - Build the provided unit tests.
 media-gfx/blender:valgrind - Add support for memory debugging using dev-util/valgrind
 media-gfx/chafa:tools - Build command-line tools
-media-gfx/comix:rar - Pulls app-arch/unrar for rar file support
 media-gfx/cura:usb - Access 3D printers via USB
 media-gfx/darktable:flickr - Add support for uploading photos to flickr
 media-gfx/darktable:geolocation - Enable geotagging support
@@ -4781,7 +4780,6 @@ media-sound/snapcast:client - Build and install Snapcast client component
 media-sound/snapcast:server - Build and install Snapcast server component
 media-sound/snapcast:tremor - Build with TREMOR version of vorbis
 media-sound/snd:s7 - Enable the s7 extension language (a version of Scheme)
-media-sound/sonata:lyrics - Support for lyrics fetching
 media-sound/sonic-visualiser:id3tag - Enables ID3 tagging with id3tag library
 media-sound/sox:amr - Enables Adaptive Multi-Rate Audio support
 media-sound/sox:id3tag - Enables ID3 tagging with id3tag library
