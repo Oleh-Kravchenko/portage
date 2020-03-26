@@ -14,7 +14,7 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 arm ~arm64 ~ia64 ~x86"
+KEYWORDS="~alpha amd64 arm ~arm64 ~ia64 x86"
 IUSE="brotli test"
 RESTRICT="!test? ( test )"
 
@@ -33,14 +33,14 @@ RDEPEND="
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
-		${RDEPEND}
-		dev-python/brotlipy[${PYTHON_USEDEP}]
-		dev-python/mock[${PYTHON_USEDEP}]
-		dev-python/pytest[${PYTHON_USEDEP}]
-		>=dev-python/trustme-0.5.3[${PYTHON_USEDEP}]
-		$(python_gen_cond_dep '
-			>=www-servers/tornado-4.2.1[${PYTHON_USEDEP}]
-		' 'python*')
+		$(python_gen_cond_dep "
+			${RDEPEND}
+			dev-python/brotlipy[\${PYTHON_USEDEP}]
+			dev-python/mock[\${PYTHON_USEDEP}]
+			dev-python/pytest[\${PYTHON_USEDEP}]
+			>=dev-python/trustme-0.5.3[\${PYTHON_USEDEP}]
+			>=www-servers/tornado-4.2.1[\${PYTHON_USEDEP}]
+		" 'python3*')
 	)
 "
 
@@ -73,7 +73,12 @@ python_test() {
 	local -x CI=1
 	# FIXME: get tornado ported
 	case ${EPYTHON} in
-		python*)
+		python2*)
+			ewarn "Tests are being skipped for Python 2 in order to reduce the number"
+			ewarn "of circular dependencies for Python 2 removal.  Please test"
+			ewarn "manually in a virtualenv."
+			;;
+		python3*)
 			pytest -vv || die "Tests fail with ${EPYTHON}"
 			;;
 	esac
