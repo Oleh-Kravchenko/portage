@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<!-- maintainer-needed -->
+	<maintainer type="person">
+		<email>marecki@gentoo.org</email>
+		<name>Marek Szuba</name>
+	</maintainer>
 	<use>
 		<flag name="atahpt">Highpoint (HPT) ATA/RAID controller support</flag>
 		<flag name="atapromise">Support for Promise PDC2026x (FastTrak/Ultra)</flag>
@@ -36,7 +39,7 @@
 		<flag name="satamv">Enable programmer for Marvell SATA controllers</flag>
 		<flag name="stlinkv3-spi">Enable SPI programmer using STLINK-V3</flag>
 		<flag name="serprog">Enable Serial Flasher programmer</flag>
-		<flag name="tools">Install additional tools</flag>
+		<flag name="tools">Install ich_descriptor_tool, a tool for reading descriptor-mode SPI-flash images for Intel chipsets</flag>
 		<flag name="usbblaster-spi">Enable support for Altera USB-Blaster dongles</flag>
 		<flag name="wiki">Enable wiki informations, like supported devices etc.</flag>
 	</use>

@@ -32,6 +32,34 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas K. Hüttel <dilfridge@gentoo.org> (2020-03-26)
+# Fail to build with glibc-2.30; no maintainer. Removal in 30days.
+# Bugs 691756, 691710
+x11-terms/aterm
+x11-terms/xvt
+
+# Michał Górny <mgorny@gentoo.org> (2020-03-26)
+# dev-python/aiohttp-cors is dead upstream and does not support
+# Python 3.7 and newer.
+#
+# net-misc/gns3-* are effectively unmaintained and stuck with py3.6.
+# gns3-server is the only revdep of aiohttp-cors, as well as the only
+# blocker for removal of old dev-python/{aiohttp,async_timeout}
+# (bug #714840).  Some of those issues might be fixed by a version bump
+# that's pending for a long time (bug #688016) but not aiohttp-cors dep.
+#
+# Removal in 30 days.  Bug #712964.
+dev-python/aiohttp-cors
+net-misc/gns3-converter
+net-misc/gns3-gui
+net-misc/gns3-server
+
+# Matt Turner <mattst88@gentoo.org> (2020-03-25)
+# No releases in two years. No commits in upstream git in last six months.
+# Many open security bugs. Masked for removal in 30 days.
+media-video/libav
+media-libs/libpostproc
+
 # Michał Górny <mgorny@gentoo.org> (2020-03-25)
 # Unmaintained.  Python 2 only.  Last commit in 2013.
 # Removal in 30 days.  Bug #714632.
@@ -416,42 +444,6 @@ www-servers/tomcat:9
 # provides quite a good replacement.
 # Removal in 30 days.  Bug #709458.
 app-portage/euscan
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-26)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# Last release in 2011, bug #708106, masked for removal in 30 days.
-app-cdr/gtkcdlabel
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-26)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# No plans upstream to port away from pygtk, suggested alternative dupeguru
-# not packaged in Gentoo, bug #708112. Masked for removal in 30 days.
-app-misc/fslint
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-26)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# Last release in 2012, bug #708124, masked for removal in 30 days.
-app-text/keepnote
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-26)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# Last release in 2012, bug #708142, masked for removal in 30 days.
-x11-misc/revelation
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-26)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# Last release in 2011, bug #708150, masked for removal in 30 days.
-x11-misc/tintwizard
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-26)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# Last activity in 2013, bug #710162, masked for removal in 30 days.
-sci-misc/pythoncad
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-02-26)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# Last release in 2013, bug #710164, masked for removal in 30 days.
-sci-electronics/gresistor
 
 # Michał Górny <mgorny@gentoo.org> (2020-02-24)
 # app-admin/packagekit-base is Python 2 only and behind upstream.
