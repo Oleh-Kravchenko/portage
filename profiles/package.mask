@@ -32,6 +32,34 @@
 
 #--- END OF EXAMPLES ---
 
+# Rafael G. Martins <rafaelmartins@gentoo.org> (2020-03-27)
+# Python 2 only. Uses old version of DNSimple API.
+# Removal in 30 days.  Bug #712960
+net-dns/dnsimple-dyndns
+
+# Michał Górny <mgorny@gentoo.org> (2020-03-27)
+# Unmaintained.  Not tested for py3.7.  Last bumped in 2015.
+# Bad quality ebuild.
+# Removal in 30 days.  Bug #710230.
+dev-vcs/pwclient
+
+# Michał Górny <mgorny@gentoo.org> (2020-03-27)
+# Unmaintained.  Not tested for py3.7.  Last bumped in 2017.
+# Bad quality ebuild.
+# Removal in 30 days.  Bug #710226.
+dev-util/fatrace
+
+# Michał Górny <mgorny@gentoo.org> (2020-03-27)
+# It was integrated into dev-python/fonttools, and has no reverse
+# dependencies.
+# Removal in 30 days.  Bug #682146.
+dev-python/ufoLib
+
+# Michał Górny <mgorny@gentoo.org> (2020-03-27)
+# No Python 3 support.  Last touched by maintainer in 2014.
+# Removal in 30 days.  Bug #674734.
+www-client/weboob
+
 # Andreas K. Hüttel <dilfridge@gentoo.org> (2020-03-26)
 # Fail to build with glibc-2.30; no maintainer. Removal in 30days.
 # Bugs 691756, 691710
@@ -178,10 +206,6 @@ mail-filter/spambayes
 # and 1.8.25 being an old development release
 >=gnome-extra/nm-applet-1.8.25
 
-# Matthew Thode <prometheanfire@gentoo.org> (2020-03-13)
-# masked for removal in 14 days. Bug #712310
-dev-python/cliff-tablib
-
 # Matt Turner <mattst88@gentoo.org> (2020-03-11)
 # Masked for testing due to removal of libnm-glib (bug #665338)
 >=net-misc/networkmanager-1.20
@@ -255,7 +279,6 @@ dev-python/bcolz
 dev-python/beaker
 dev-python/biplist
 dev-python/blaze
-dev-python/cgroup-utils
 dev-python/colander
 dev-python/colorful
 dev-python/columnize
@@ -460,15 +483,6 @@ app-admin/packagekit-gtk
 app-admin/packagekit-qt
 app-backup/deja-dup
 gnome-extra/gnome-packagekit
-
-# Michał Górny <mgorny@gentoo.org> (2020-02-24)
-# Effectively unmaintained in Gentoo.  Multiple versions behind
-# upstream.  Python 2 only.
-# Removal in 30 days.  Bug #709466.
-app-admin/equo
-app-admin/matter
-sys-apps/entropy
-sys-apps/entropy-server
 
 # David Seifert <soap@gentoo.org> (2020-02-23)
 # Last release in 2013, the scons SConstruct script uses variables
