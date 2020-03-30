@@ -1905,6 +1905,7 @@ dev-lang/lua:test-complete - Run the complete (non-portable) testsuite
 dev-lang/luajit:lua52compat - Enable some upwards-compatible features from Lua 5.2 that are unlikely to break existing code.
 dev-lang/mercury:erlang - Support Mercury Erlang grade
 dev-lang/mercury:trail - Support Mercury trail grades
+dev-lang/mercury-extras:tommath - Enable support for tommath library
 dev-lang/mlton:binary - install a binary version
 dev-lang/mlton:bootstrap-smlnj - Boostrap mlton with dev-lang/smlnj (takes a long time)
 dev-lang/mlton:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
@@ -2590,7 +2591,6 @@ dev-python/rarfile:compressed - Enables the module to support compressed v3 arch
 dev-python/rdflib:redland - enable support for Redland triplestore
 dev-python/restkit:cli - Install the restcli command line interface/tool, based on dev-python/ipython
 dev-python/rfc3986:idna - enable support for the IDNA specification (RFC 5891)
-dev-python/setuptools_scm:mercurial - Enables mercurial backend
 dev-python/simplespectral:faster - Use sci-libs/scipy to speed up drawing
 dev-python/simplespectral:fastest - Use dev-python/pyFFTW to speed up drawing to the max
 dev-python/sphinx:net - enable internet capabilities
@@ -4061,6 +4061,7 @@ media-gfx/fim:imagemagick - Use convert from media-gfx/imagemagick as fallback f
 media-gfx/fim:pcx - Enable PCX file support
 media-gfx/fim:xfig - Enable FIG file support via media-gfx/xfig
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
+media-gfx/fontforge:woff2 - Enable support for WOFF2 format
 media-gfx/fotowall:webcam - Enable webcam support
 media-gfx/freewrl:glew - Enable glew extensions
 media-gfx/freewrl:java - Build and install java EAI/SAI support library
@@ -5342,7 +5343,6 @@ net-analyzer/netdata:prometheus - Enable support for the Prometheus remote write
 net-analyzer/netdata:tor - Enable monitoring of tor
 net-analyzer/netdata:xen - Enable monitoring of xen
 net-analyzer/netperf:demo - Emit interim results during the run. May affect results
-net-analyzer/nfdump:compat15 - Enable read support for nfdump data files created with nfdump 1.5.x
 net-analyzer/nfdump:ftconv - Build the flow-tools to nfdump converter
 net-analyzer/nfdump:nfprofile - Build nfprofile used by NfSen
 net-analyzer/nfdump:nftrack - Build nfprofile used by PortTracker
