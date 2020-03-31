@@ -1970,17 +1970,17 @@ dev-lang/rakudo:clang - Use Clang to compile the MoarVM backend
 dev-lang/rakudo:moar - Use the MoarVM as backend
 dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
 dev-lang/ruby:rubytests - Install ruby tests that can only be run after ruby is installed
-dev-lang/rust:clippy - Install clippy component
-dev-lang/rust:miri - Install miri component (requires USE=nightly)
+dev-lang/rust:clippy - Install clippy, Rust code linter
+dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly)
 dev-lang/rust:nightly - Enable nightly (UNSTABLE) features
 dev-lang/rust:parallel-compiler - Build a multi-threaded rustc
-dev-lang/rust:rls - Install rls component
-dev-lang/rust:rustfmt - Install rustfmt component
+dev-lang/rust:rls - Install rls, Rust Language Server (used with IDEs supporting RLS protocol)
+dev-lang/rust:rustfmt - Install rustfmt, Rust code formatter
 dev-lang/rust:system-bootstrap - Bootstrap using installed rust compiler
 dev-lang/rust:system-llvm - Use the system LLVM install
 dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
-dev-lang/rust-bin:clippy - Install clippy component
-dev-lang/rust-bin:rustfmt - Install rustfmt component
+dev-lang/rust-bin:clippy - Install clippy, Rust code linter
+dev-lang/rust-bin:rustfmt - Install rustfmt, Rust code formatter
 dev-lang/scala:binary - Install from (Gentoo-compiled) binary instead of building from sources. Set this when you run out of memory during build.
 dev-lang/smlnj:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
@@ -2197,6 +2197,9 @@ dev-libs/libisoburn:frontend-optional - Use dev-tcltk/bwidget which is not stric
 dev-libs/libisoburn:launch-frontend - Enable the tcl gui for xorriso
 dev-libs/libisoburn:launch-frontend-setuid - Enable the tcl gui for xorriso under setuid
 dev-libs/libisofs:verbose-debug - Enable verbose debug messages
+dev-libs/libjcat:gpg - Enable GPG verification support via app-crypt/gpgme
+dev-libs/libjcat:man - Generate and install man pages
+dev-libs/libjcat:pkcs7 - Enable PKCS7 verification support via net-libs/gnutls
 dev-libs/liblogging:rfc3195 - Enables RFC 3195 protocol (aka syslog-reliable) support. If you don't know what this is, you don't need it!
 dev-libs/liblogging:stdlog - Enables liblogging's core component (think of it as a the next version of the syslog(3) API).
 dev-libs/libmemcached:hsieh - Use Hsieh hash algorithm.
@@ -8144,6 +8147,13 @@ sys-cluster/hpx:tbb - Use dev-cpp/tbb for memory allocation
 sys-cluster/keepalived:bfd - compile with support for Bidirectional Forwarding Detection (BFD).
 sys-cluster/keepalived:json - compile with signal to dump configuration and stats as JSON.
 sys-cluster/keepalived:regex - compile with support for regex in health checks
+sys-cluster/kubernetes:kube-apiserver - Kubernetes API server
+sys-cluster/kubernetes:kube-controller-manager - Kubernetes controller manager
+sys-cluster/kubernetes:kube-proxy - Kubernetes proxy service
+sys-cluster/kubernetes:kube-scheduler - Kubernetes scheduler
+sys-cluster/kubernetes:kubeadm - CLI to bootstrap a secure Kubernetes cluster
+sys-cluster/kubernetes:kubectl - CLI to run commands against Kubernetes clusters
+sys-cluster/kubernetes:kubelet - Kubernetes node agent
 sys-cluster/legion:gasnet - Enable GASNet lib support
 sys-cluster/legion:hwloc - Enable HWLoc lib support
 sys-cluster/lustre:client - Enable kernel client modules
