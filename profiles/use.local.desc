@@ -1371,7 +1371,6 @@ dev-db/mariadb:systemtap - Build support for profiling and tracing using dev-uti
 dev-db/mariadb:test - Install upstream testsuites for end use.
 dev-db/mariadb:tokudb - Add support for TokuDB storage engine
 dev-db/mariadb:yassl - Enable SSL connections and crypto functions using the bundled yaSSL
-dev-db/mariadb-connector-c:mysqlcompat - Enable mysqlclient library symbolic links
 dev-db/mongodb:lto - Adds support for link time optimization
 dev-db/mongodb:mms-agent - Install the MongoDB Monitoring Service agent
 dev-db/mongodb:tools - Install the MongoDB tools (mongoimport, mongodump...) from app-admin/mongo-tools
@@ -4744,6 +4743,11 @@ media-sound/pulseaudio:ssl - Use dev-libs/openssl to provide support for RAOP (A
 media-sound/pulseaudio:system-wide - Allow preparation and installation of the system-wide init script for PulseAudio. Since this support is only supported for embedded situations, do not enable without reading the upstream instructions at https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide/ .
 media-sound/pulseaudio:systemd - Build with sys-apps/systemd support to replace standalone ConsoleKit.
 media-sound/pulseaudio:webrtc-aec - Uses the webrtc.org AudioProcessing library for enhancing VoIP calls greatly in applications that support it by performing acoustic echo cancellation, analog gain control, noise suppression and other processing.
+media-sound/pulseaudio-modules-bt:fdk - AAC encoding support using media-libs/fdk-aac
+media-sound/pulseaudio-modules-bt:ffmpeg - APTX, APTX-HD encoding support
+media-sound/pulseaudio-modules-bt:ldac - LDAC encoding support, using media-libs/libldac
+media-sound/pulseaudio-modules-bt:native-headset - Build with native HSP (Headset Profile) headset for bluez 5
+media-sound/pulseaudio-modules-bt:ofono-headset - Build with oFono HFP (Hands Free Profile) headset for bluez 5, requires net-misc/ofono.
 media-sound/pulseeffects:bs2b - Enable use of media-libs/libbs2b
 media-sound/pulseeffects:calf - Enable use of media-plugins/calf for adding various FX
 media-sound/pulseeffects:mda-lv2 - Enable use of media-plugins/mda-lv2 for the loudness FX
@@ -7458,7 +7462,6 @@ sci-libs/openblas:eselect-ldso - Enable BLAS/LAPACK runtime switching
 sci-libs/openblas:index-64bit - Compile a separate INTERFACE64 OpenBLAS
 sci-libs/openblas:pthread - Build with pthread threading model
 sci-libs/opencascade:freeimage - Enable support for image i/o via media-libs/freeimage
-sci-libs/opencascade:gl2ps - Use gl2ps PostScript printing library
 sci-libs/opencascade:gles2 - Use OpenGL ES 2.0
 sci-libs/opencascade:inspector - Build the OCCT inspector tool for low-level data inspection
 sci-libs/opencascade:optimize - Don't clear allocated memory. Use optimized memory manager unless tbb USE flag is set.
