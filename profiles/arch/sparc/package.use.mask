@@ -1,6 +1,10 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
+# Rolf Eike Beer <eike@sf-mail.de> (2020-04-09)
+# dependencies not keyworded
+dev-python/stevedore doc
+
 # Rolf Eike Beer <eike@sf-mail.de> (2020-04-06)
 # ghc does not build, which is needed for darcs, bug #711944
 app-portage/layman darcs
@@ -36,10 +40,6 @@ net-misc/openssh security-key
 # Joonas Niilola <juippis@gentoo.org> (2020-02-08)
 # Dependency not keyworded on this arch.
 dev-libs/dbus-c++ ecore
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-01-26)
-# media-libs/libheif is not keyworded
-media-gfx/gimp heif
 
 # Robin H. Johnson <robbat2@gentoo.org> (2019-12-06)
 # PPS should work on all arches, but only keyworded on some arches
