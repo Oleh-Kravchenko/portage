@@ -32,6 +32,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas K. Hüttel <dilfridge@gentoo.org> (2020-04-11)
+# Work in progress, will be unmasked when ready
+~dev-lang/perl-5.30.2
+~virtual/perl-Compress-Raw-Bzip2-2.89.0
+~virtual/perl-Module-CoreList-5.202.003.140
+
 # Alfredo Tupone <tupone@gentoo.org> (2020-04-10)
 # Masked for removal
 # Last release 2002
@@ -213,10 +219,6 @@ games-puzzle/skoosh
 # No consumers. Dead project. Blocks removal of gnome-base/libgnome-keyring
 # Bug #713020
 dev-dotnet/gnome-keyring-sharp
-
-# Matthew Thode <prometheanfire@gentoo.org> (2020-03-28)
-# No consumers. requires old dev-python/pika, bug 715152. Removal in 14 days.
-dev-python/pika-pool
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (2020-03-27)
 # No consumers. Build problems, bug 668244. Removal in 30 days.
