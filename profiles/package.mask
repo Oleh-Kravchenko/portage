@@ -32,6 +32,25 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2020-04-18)
+# Long dead, vulnerable.  All revdeps have either been ported away,
+# removed or had their optional deps removed.
+# Removal in 30 days.  Bug #703682.
+dev-python/pycrypto
+
+# Michał Górny <mgorny@gentoo.org> (2020-04-18)
+# Practically dead.  Last blocker for dev-python/pycrypto removal.
+# Upstream is struggling to port away from it for 3 years now.
+# Removal in 30 days.  Bug #611608.
+dev-python/potr
+
+# Ulrich Müller <ulm@gentoo.org> (2020-04-17)
+# Upstream has moved the manpages-de project to manpages-l10n.
+# We cannot move multiple packages to one, therefore removing the
+# old package. Use app-i18n/man-pages-l10n[l10n_de] as replacement.
+# Masked for removal in 30 days. Bug #717744.
+app-i18n/man-pages-de
+
 # Mattéo Rossillol‑‑Laruelle <beatussum@protonmail.com> (2020-04-17)
 # Very little activity for almost a year and the link to download the
 # "compiled" man-pages is dead.
@@ -39,7 +58,7 @@
 # Masked for removal in 30 days (bug #717744).
 app-i18n/man-pages-fr
 
-# Jeroen Roovers <jer@gentoo.org> (2020-04-26)
+# Jeroen Roovers <jer@gentoo.org> (2020-04-16)
 # Breaks API, see https://bugs.gentoo.org/717728
 =dev-libs/libuv-1.36.0
 
