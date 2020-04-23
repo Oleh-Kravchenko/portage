@@ -32,6 +32,47 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2020-04-22)
+# Unmaintained.  Stuck at Python 3.6.  The only revdep last rited.
+# Removal in 30 days.  Bug #718896.
+dev-python/cligj
+
+# Ulrich Müller <ulm@gentoo.org> (2020-04-22)
+# Package is no longer being updated upstream.
+# Replaced by app-i18n/man-pages-l10n[l10n_pl].
+# Masked for removal in 30 days. Bug #717744.
+app-i18n/man-pages-pl
+
+# Michał Górny <mgorny@gentoo.org> (2020-04-22)
+# Unmaintained.  Stuck at Python 3.6.  The only revdep was last rited
+# already.
+# Removal in 30 days.  Bug #718854.
+dev-python/URLObject
+
+# Michał Górny <mgorny@gentoo.org> (2020-04-22)
+# Effectively unmaintained and stuck on Python 3.6.
+#
+# dev-python/bokeh does not work because of missing dependencies
+# (bug #607778).  It has no reverse dependencies
+#
+# dev-python/flexx tries to fetch data from Internet during build.
+# Its only revdep is dev-python/bokeh.
+#
+# Removal in 30 days.  Bug #607778.
+dev-python/bokeh
+dev-python/flexx
+
+# Michał Górny <mgorny@gentoo.org> (2020-04-22)
+# Unmaintained.  After adding tests, it turns out it's completely
+# broken (can't find magic file).
+# Removal in 30 days.  Bug #718822.
+dev-python/filemagic
+
+# Michał Górny <mgorny@gentoo.org> (2020-04-22)
+# Multiple unresolved vulnerabilities.  No reverse dependencies.
+# Removal in 30 days.  Bug #711016.
+dev-lua/lua-openssl
+
 # Michał Górny <mgorny@gentoo.org> (2020-04-21)
 # Unmaintained.  Stuck on Python 3.6.  Missing tests.  Bad quality
 # package.  No revdeps.
@@ -63,7 +104,7 @@ dev-python/demjson
 
 # Louis Sautier <sbraz@gentoo.org> (2020-04-20)
 # No revdeps, no release in 3 years, doesn't support Bootstrap 4.
-# Removal in 30 days.
+# Removal in 30 days. Bug #718832
 dev-python/flask-bootstrap
 
 # Michał Górny <mgorny@gentoo.org> (2020-04-20)
@@ -354,21 +395,6 @@ dev-tcltk/tcl-mccp
 # Masked for testing
 >=dev-libs/libressl-3.1.0
 
-# Marek Szuba <marecki@gentoo.org> (2020-04-08)
-# All of these block app-eselect/eselect-opencl in order to prevent
-# file collisions in /usr/include/CL and on /usr/lib/libOpenCL.so* .
-# However, eselect-opencl is still required by x11-drivers/nvidia-drivers
-# (even with USE=-uvm, i.e. when it does NOT handle OpenCL) - which by design
-# does not appear in virtual/opencl-3.
-# Moreover, upgrading to either of the loader ebuilds listed here
-# will on systems using FEATURES=collision-protect require prior manual
-# clean-up of libOpenCL links created by eselect-opencl so even with the Nvidia
-# situation taken care of, we should probably publish an appropriate news item
-# before unmasking these.
->=dev-libs/ocl-icd-2.2.12-r3
-dev-libs/opencl-icd-loader
-dev-util/opencl-headers
-
 # Joonas Niilola <juippis@gentoo.org> (2020-04-05)
 # Not maintained in Gentoo, doesn't build for 2 years, has only
 # deprecated version present in Gentoo. Has a huge number of open
@@ -539,7 +565,9 @@ net-dns/dnsimple-dyndns
 
 # Georgy Yakovlev <gyakovlev@gentoo.org> (2020-03-27)
 # Vulnerable old version of icedtea-web #711392
-# new version uses maven + rust
+# new version is not packaged yet
+# package is not going away anytime soon, just masked
+# for security. unmask as needed.
 dev-java/icedtea-web
 
 # Michał Górny <mgorny@gentoo.org> (2020-03-27)
@@ -610,22 +638,6 @@ media-video/syncplay
 net-im/pyicq-t
 dev-python/nevow
 
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-03-22)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# Possible alternative: media-video/simplescreenrecorder
-# Bug #710172, masked for removal in 30 days.
-media-video/gtk-recordmydesktop
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-03-22)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# Bug #708164, masked for removal in 30 days.
-media-video/pymp
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-03-22)
-# Unmaintained revdep on dev-python/pygtk blocking its removal, py2-only
-# No signs of porting work, bug #708076, masked for removal in 30 days.
-x11-misc/xplanetFX
-
 # Jonas Stein <jstein@gentoo.org> (2020-03-21)
 # Package masked for removal. Broken SRC_URI,
 # upstream is dead.
@@ -638,10 +650,6 @@ games-misc/OilWar
 # Include the last remaining revdep, which was last updated in 2004.
 x11-libs/gtkglarea
 media-sound/galan
-
-# Matt Turner <mattst88@gentoo.org> (2020-03-20)
-# No reverse deps. GNOME 2 era slot. Removal in 30 days
-gnome-base/gnome-desktop:2
 
 # Andreas Sturmlechner <asturm@gentoo.org> (2020-03-14)
 # Breaks at least dev-games/simgear right now, bug #709878.
