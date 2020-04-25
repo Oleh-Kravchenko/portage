@@ -2960,8 +2960,6 @@ dev-util/perf:numa - Enable NUMA support
 dev-util/perf:perl - Add support for Perl as a scripting language for perf tools.
 dev-util/perf:systemtap - Add support to define SDT event in perf tools.
 dev-util/perf:unwind - Use sys-libs/libunwind for frame unwinding support.
-dev-util/pkgcheck:network - Enable support for network checks using dev-python/requests
-dev-util/pkgcheck:perl - Enable support for perl checks using dev-perl/Gentoo-PerlMod-Version
 dev-util/pkgconf:pkg-config - Install as a replacement for dev-util/pkgconfig
 dev-util/pkgconfig:internal-glib - Use internal copy of dev-libs/glib
 dev-util/scanmem:gui - Enable the GameConqueror GUI
@@ -4962,7 +4960,6 @@ media-video/ffmpeg:zvbi - Enables media-libs/zvbi based teletext decoder.
 media-video/ffmpeg2theora:kate - Adds support for Ogg Kate subtitles via libkate.
 media-video/google2srt:html - Install HTML documentation
 media-video/guvcview:qt5 - Build with Qt5 interface instead Gtk+
-media-video/h264enc:ogm - Support for OGM container format
 media-video/handbrake:fdk - Support for encoding AAC using media-libs/fdk-aac.
 media-video/handbrake:gstreamer - Support for the streaming media framework from media-libs/gstreamer.
 media-video/handbrake:gtk - Install the GTK UI, ghb.
