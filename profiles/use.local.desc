@@ -1105,7 +1105,6 @@ app-portage/gemato:gpg - Install dependencies needed for OpenPGP signature verif
 app-portage/gemato:sha3 - Install dependencies needed for SHA3 hash functions
 app-portage/gemato:tools - Install additional utilities (benchmarks, hash testing tools, fast Manifest generators) to /usr/share/gemato.
 app-portage/grs:server - Install all the tools building systems
-app-portage/layman:bazaar - Support dev-vcs/bzr based overlays
 app-portage/layman:cvs - Support dev-vcs/cvs based overlays
 app-portage/layman:darcs - Support dev-vcs/darcs based overlays
 app-portage/layman:g-sorcery - Support app-portage/g-sorcery based overlays
@@ -2621,7 +2620,6 @@ dev-qt/qt-creator:android - Build plugin for Android devices
 dev-qt/qt-creator:autotest - Enable integration with popular unit testing frameworks (QtTest, Google Test, Boost.Test)
 dev-qt/qt-creator:autotools - Enable autotools project manager plugin
 dev-qt/qt-creator:baremetal - Build plugin for bare metal devices
-dev-qt/qt-creator:bazaar - Add support for dev-vcs/bzr version control system
 dev-qt/qt-creator:beautifier - Build the beautifier plugin (supports astyle, clang-format, and uncrustify)
 dev-qt/qt-creator:boot2qt - Build plugin for Boot2Qt devices
 dev-qt/qt-creator:clang - Build clang-based plugins (code model, formatting, refactoring, static analysis)
@@ -2889,7 +2887,6 @@ dev-util/electron:system-libvpx - Use system libvpx instead of the bundled one
 dev-util/electron:system-ssl - Use system OpenSSL instead of the bundled one
 dev-util/electron:tcmalloc - Use bundled tcmalloc instead of system malloc
 dev-util/emilpro:system-binutils - Use the gentoo binutils instead of building against an unpatched vanilla version
-dev-util/fatrace:powertop - Add powetop integration
 dev-util/geany:gtk3 - Use GTK+3 instead of GTK+2
 dev-util/geany:vte - Enable Terminal support (x11-libs/vte)
 dev-util/geany-plugins:ctags - Enable ctags plugin
@@ -2984,7 +2981,6 @@ dev-util/trace-cmd:udis86 - Enable support for dev-libs/udis86 disassembler libr
 dev-util/uftrace:capstone - Use capstone to provide dynamic tracing without recompilation
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 dev-util/vulkan-tools:vulkaninfo - Build the vulkaninfo utility
-dev-vcs/bzr:sftp - Enable sftp support
 dev-vcs/cssc:valgrind - Enable usage of dev-util/valgrind in tests
 dev-vcs/cvs:server - Enable server support
 dev-vcs/cvs2svn:bazaar - Support for dev-vcs/bzr
@@ -3499,7 +3495,6 @@ kde-apps/kdepim-addons:markdown - Enable Markdown support via app-text/discount
 kde-apps/kdepim-meta:bogofilter - Install mail-filter/bogofilter for spam filter support in kde-apps/kmail
 kde-apps/kdepim-meta:clamav - Install app-antivirus/clamav for virus detection support in kde-apps/kmail
 kde-apps/kdepim-meta:spamassassin - Install mail-filter/spamassassin for spam filter support in kde-apps/kmail
-kde-apps/kdesdk-meta:bazaar - Enable support for Bazaar VCS in kde-apps/dolphin via kde-apps/dolphin-plugins-bazaar
 kde-apps/kdesdk-meta:git - Enable support for Git VCS in kde-apps/dolphin via kde-apps/dolphin-plugins-git
 kde-apps/kdesdk-meta:mercurial - Enable support for Mercurial VCS in kde-apps/dolphin via kde-apps/dolphin-plugins-mercurial
 kde-apps/kdesdk-meta:subversion - Enable support for Apache Subversion VCS in kde-apps/dolphin via kde-apps/dolphin-plugins-subversion
@@ -5073,9 +5068,6 @@ media-video/simplescreenrecorder:vpx - Enable VP8 codec support via media-libs/l
 media-video/smplayer:autoshutdown - Enable the option to shutdown your computer after finishing the playlist. This requires dev-qt/qtdbus as dependency.
 media-video/smplayer:mpris - Enable support for MPRIS2 (Media Player Remote Interfacing Specification, version 2), a DBus interface for remote control, which requires dev-qt/qtdbus as dependency.
 media-video/subtitlecomposer:mpv - Build mpv backend support
-media-video/syncplay:client - Install Syncplay client
-media-video/syncplay:server - Install Syncplay server
-media-video/syncplay:vlc - Enable VLC2.x support
 media-video/totem:python - Build dev-lang/python using plugins (dbusservice for notifications and MPRIS control, interactive python console and opensubtitles lookup)
 media-video/transcode:mjpeg - Enables mjpegtools support
 media-video/transcode:nuv - NuppelVideo container format demuxing
@@ -5787,7 +5779,6 @@ net-im/psi:webkit - Enable themed, html-based chatlogs using dev-qt/qtwebkit
 net-im/psi:whiteboarding - Enable experimental interactive SVG drawing
 net-im/psi:xscreensaver - Use X screensaver protocol extension to monitor idle/active status based on mouse/keyboard events
 net-im/psimedia:extras - Enable Psi+ mode (required when built for Psi+)
-net-im/pyicq-t:webinterface - Install dependencies needed for the web interface
 net-im/qtox:X - Adds support for X11
 net-im/qtox:notification - Adds support for GTK Status Notifier tray backends
 net-im/spectrum2:frotz - Enables the Z-Engine backend.
@@ -8717,9 +8708,6 @@ www-client/uget:openssl - Use dev-libs/openssl instead of net-libs/gnutls
 www-client/uget:rss - Enable uGet feed messages
 www-client/w3m:gdk-pixbuf - Enable support for x11-libs/gdk-pixbuf
 www-client/w3m:lynxkeymap - If you prefer Lynx-like key binding
-www-client/weboob:deprecated - Enable dev-python/mechanize support (deprecated in favor of dev-python/requests
-www-client/weboob:fast-libs - Enable fast libs
-www-client/weboob:secure-updates - Enable secure updates
 www-misc/litmus:libproxy - Support for automatic proxy configuratino management through net-libs/libproxy.
 www-misc/litmus:libxml2 - Use dev-libs/libxml2 to parse XML
 www-misc/litmus:pkcs11 - Support for PKCS #11 through PaKChoiS (dev-libs/pakchois).
