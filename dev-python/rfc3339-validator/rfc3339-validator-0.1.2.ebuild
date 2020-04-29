@@ -12,12 +12,12 @@ SRC_URI="https://github.com/naimetti/rfc3339-validator/archive/v0.1.2.tar.gz -> 
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc64 ~sparc ~x86"
 
 RDEPEND="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/strict-rfc3339[${PYTHON_USEDEP}]"
 BDEPEND="${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 "
 
 PATCHES=(
