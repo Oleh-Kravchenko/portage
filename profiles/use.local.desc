@@ -471,6 +471,9 @@ app-emulation/cri-o:device-mapper - Enables dependencies for the "devicemapper" 
 app-emulation/cri-o:ostree - Enables dependencies for handling of OSTree images.
 app-emulation/crossover-bin:capi - Enable ISDN support via CAPI
 app-emulation/crossover-bin:opencl - Enable OpenCL support
+app-emulation/crossover-bin:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/crossover-bin:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/crossover-bin:vulkan - Enable Vulkan drivers
 app-emulation/crun:bpf - Enable in Kernel, eBPF (enhanced Berkley Packet Filter) support for managing device controllers.
 app-emulation/docker:apparmor - Enable AppArmor support.
 app-emulation/docker:aufs - Enables dependencies for the "aufs" graph driver, including necessary kernel flags.
@@ -6048,24 +6051,18 @@ net-libs/libvncserver:lzo - Enable LZO support via dev-libs/lzo instead of using
 net-libs/libwebsockets:access-log - Support generating Apache-compatible access logs
 net-libs/libwebsockets:cgi - Include CGI (spawn process with network-connected stdin/out/err) APIs
 net-libs/libwebsockets:client - The client part of the library and libwebsockets-test-client
-net-libs/libwebsockets:dir - Enable directory scanning api support
-net-libs/libwebsockets:extensions - Compile with extensions
-net-libs/libwebsockets:file-ops - Support file operations vfs
 net-libs/libwebsockets:generic-sessions - With the Generic Sessions plugin
 net-libs/libwebsockets:http-proxy - Support for rewriting HTTP proxying
-net-libs/libwebsockets:http-uncommon-headers - Inlude less common http header support
 net-libs/libwebsockets:http2 - Support the HTTP/2 protocol
 net-libs/libwebsockets:lejp - With the Lightweight JSON Parser
 net-libs/libwebsockets:libev - Support event loops via dev-libs/libev
 net-libs/libwebsockets:libevent - Support event loops via dev-libs/libevent
 net-libs/libwebsockets:libuv - Support asynchronous I/O via dev-libs/libuv
-net-libs/libwebsockets:mbedtls - Use mbedTLS replacement for OpenSSL
 net-libs/libwebsockets:peer-limits - Track peers and restrict resources a single peer can allocate
 net-libs/libwebsockets:server-status - Support json + jscript server monitoring
 net-libs/libwebsockets:smtp - Provide SMTP support
 net-libs/libwebsockets:socks5 - Allow use of SOCKS5 proxy on client connections
 net-libs/libwebsockets:sqlite3 - Require SQLITE3 support
-net-libs/libwebsockets:testapps - Build the libwebsocket-test-apps
 net-libs/libwebsockets:zip - Support serving pre-zipped files
 net-libs/loudmouth:asyncns - Use net-libs/libasyncns for asynchronous name resolution.
 net-libs/loudmouth:openssl - Enable dev-libs/openssl support instead of gnutls (which is the default).

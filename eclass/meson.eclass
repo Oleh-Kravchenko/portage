@@ -43,6 +43,10 @@ if [[ -z ${_MESON_ECLASS} ]]; then
 
 inherit multiprocessing ninja-utils python-utils-r1 toolchain-funcs
 
+if [[ ${EAPI} == 6 ]]; then
+	inherit eapi7-ver
+fi
+
 fi
 
 EXPORT_FUNCTIONS src_configure src_compile src_test src_install
@@ -165,7 +169,7 @@ _meson_create_cross_file() {
 	local system cpu_family cpu
 	_meson_get_machine_info "${CHOST}"
 
-	local fn=${T}/meson.${CHOST}.ini
+	local fn=${T}/meson.${CHOST}.${ABI}.ini
 
 	cat > "${fn}" <<-EOF
 	[binaries]
@@ -193,7 +197,7 @@ _meson_create_cross_file() {
 	objcpp_link_args = $(_meson_env_array "${OBJCXXFLAGS} ${LDFLAGS}")
 	needs_exe_wrapper = true
 	sys_root = '${SYSROOT}'
-	pkg_config_libdir = '${EPREFIX}/usr/$(get_libdir)/pkgconfig'
+	pkg_config_libdir = '${PKG_CONFIG_LIBDIR:-${EPREFIX}/usr/$(get_libdir)/pkgconfig}'
 
 	[host_machine]
 	system = '${system}'
@@ -215,7 +219,7 @@ _meson_create_native_file() {
 	local system cpu_family cpu
 	_meson_get_machine_info "${CBUILD}"
 
-	local fn=${T}/meson.${CBUILD}.ini
+	local fn=${T}/meson.${CBUILD}.${ABI}.ini
 
 	cat > "${fn}" <<-EOF
 	[binaries]
@@ -242,13 +246,13 @@ _meson_create_native_file() {
 	objcpp_args = $(_meson_env_array "${BUILD_OBJCXXFLAGS} ${BUILD_CPPFLAGS}")
 	objcpp_link_args = $(_meson_env_array "${BUILD_OBJCXXFLAGS} ${BUILD_LDFLAGS}")
 	needs_exe_wrapper = false
-	pkg_config_libdir = '${EPREFIX}/usr/$(get_libdir)/pkgconfig'
+	pkg_config_libdir = '${BUILD_PKG_CONFIG_LIBDIR:-${EPREFIX}/usr/$(get_libdir)/pkgconfig}'
 
 	[build_machine]
 	system = '${system}'
 	cpu_family = '${cpu_family}'
 	cpu = '${cpu}'
-	endian = '$(tc-endian "${CHOST}")'
+	endian = '$(tc-endian "${CBUILD}")'
 	EOF
 
 	echo "${fn}"
@@ -287,10 +291,33 @@ meson_feature() {
 meson_src_configure() {
 	debug-print-function ${FUNCNAME} "$@"
 
-	tc-export_build_env
-	: ${BUILD_FCFLAGS:=${FCFLAGS}}
-	: ${BUILD_OBJCFLAGS:=${OBJCFLAGS}}
-	: ${BUILD_OBJCXXFLAGS:=${OBJCXXFLAGS}}
+	local BUILD_CFLAGS=${BUILD_CFLAGS}
+	local BUILD_CPPFLAGS=${BUILD_CPPFLAGS}
+	local BUILD_CXXFLAGS=${BUILD_CXXFLAGS}
+	local BUILD_FCFLAGS=${BUILD_FCFLAGS}
+	local BUILD_OBJCFLAGS=${BUILD_OBJCFLAGS}
+	local BUILD_OBJCXXFLAGS=${BUILD_OBJCXXFLAGS}
+	local BUILD_LDFLAGS=${BUILD_LDFLAGS}
+	local BUILD_PKG_CONFIG_LIBDIR=${BUILD_PKG_CONFIG_LIBDIR}
+	local BUILD_PKG_CONFIG_PATH=${BUILD_PKG_CONFIG_PATH}
+
+	if tc-is-cross-compiler; then
+		: ${BUILD_CFLAGS:=-O1 -pipe}
+		: ${BUILD_CXXFLAGS:=-O1 -pipe}
+		: ${BUILD_FCFLAGS:=-O1 -pipe}
+		: ${BUILD_OBJCFLAGS:=-O1 -pipe}
+		: ${BUILD_OBJCXXFLAGS:=-O1 -pipe}
+	else
+		: ${BUILD_CFLAGS:=${CFLAGS}}
+		: ${BUILD_CPPFLAGS:=${CPPFLAGS}}
+		: ${BUILD_CXXFLAGS:=${CXXFLAGS}}
+		: ${BUILD_FCFLAGS:=${FCFLAGS}}
+		: ${BUILD_LDFLAGS:=${LDFLAGS}}
+		: ${BUILD_OBJCFLAGS:=${OBJCFLAGS}}
+		: ${BUILD_OBJCXXFLAGS:=${OBJCXXFLAGS}}
+		: ${BUILD_PKG_CONFIG_LIBDIR:=${PKG_CONFIG_LIBDIR}}
+		: ${BUILD_PKG_CONFIG_PATH:=${PKG_CONFIG_PATH}}
+	fi
 
 	local mesonargs=(
 		meson setup
@@ -300,8 +327,8 @@ meson_src_configure() {
 		--prefix "${EPREFIX}/usr"
 		--sysconfdir "${EPREFIX}/etc"
 		--wrap-mode nodownload
-		--build.pkg-config-path="${EPREFIX}/usr/share/pkgconfig"
-		--pkg-config-path="${EPREFIX}/usr/share/pkgconfig"
+		--build.pkg-config-path "${EPREFIX}/usr/share/pkgconfig"
+		--pkg-config-path "${EPREFIX}/usr/share/pkgconfig"
 		--native-file "$(_meson_create_native_file)"
 	)
 
@@ -339,8 +366,24 @@ meson_src_configure() {
 	# https://bugs.gentoo.org/625396
 	python_export_utf8_locale
 
-	echo "${mesonargs[@]}" >&2
-	"${mesonargs[@]}" || die
+	(
+		# https://bugs.gentoo.org/720860
+		if ver_test "$(meson --version)" -lt "0.54"; then
+			local -x CFLAGS=${BUILD_CFLAGS}
+			local -x CPPFLAGS=${BUILD_CPPFLAGS}
+			local -x CXXFLAGS=${BUILD_CXXFLAGS}
+			local -x FFLAGS=${BUILD_FCFLAGS}
+			local -x OBJCFLAGS=${BUILD_OBJCFLAGS}
+			local -x OBJCXXFLAGS=${BUILD_OBJCXXFLAGS}
+			local -x LDFLAGS=${BUILD_LDFLAGS}
+		else
+			# https://bugs.gentoo.org/720818
+			export -n {C,CPP,CXX,F,OBJC,OBJCXX,LD}FLAGS PKG_CONFIG_{LIBDIR,PATH}
+		fi
+
+		echo "${mesonargs[@]}" >&2
+		"${mesonargs[@]}"
+	) || die
 }
 
 # @FUNCTION: meson_src_compile
