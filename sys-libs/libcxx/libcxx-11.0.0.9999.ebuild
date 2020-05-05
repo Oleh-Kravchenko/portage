@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 inherit cmake-multilib llvm llvm.org multiprocessing python-any-r1 \
 	toolchain-funcs
 
@@ -147,7 +147,7 @@ multilib_src_configure() {
 
 multilib_src_test() {
 	local -x LIT_PRESERVES_TMP=1
-	cmake-utils_src_make check-libcxx
+	cmake-utils_src_make check-cxx
 }
 
 # Usage: deps
