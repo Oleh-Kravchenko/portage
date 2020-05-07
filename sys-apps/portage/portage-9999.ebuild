@@ -15,7 +15,7 @@ HOMEPAGE="https://wiki.gentoo.org/wiki/Project:Portage"
 LICENSE="GPL-2"
 KEYWORDS=""
 SLOT="0"
-IUSE="apidoc build doc gentoo-dev +ipc +native-extensions +rsync-verify selinux xattr"
+IUSE="apidoc build doc gentoo-dev +ipc +native-extensions +rsync-verify selinux xattr zstd"
 
 DEPEND="!build? ( $(python_gen_impl_dep 'ssl(+)') )
 	>=app-arch/tar-1.27
@@ -44,7 +44,6 @@ RDEPEND="
 			>=app-crypt/gnupg-2.2.4-r2[ssl(-)]
 		)
 	)
-	elibc_FreeBSD? ( sys-freebsd/freebsd-bin )
 	elibc_glibc? ( >=sys-apps/sandbox-2.2 )
 	elibc_musl? ( >=sys-apps/sandbox-2.2 )
 	elibc_uclibc? ( >=sys-apps/sandbox-2.2 )
@@ -54,6 +53,7 @@ RDEPEND="
 	xattr? ( kernel_linux? (
 		>=sys-apps/install-xattr-0.3
 	) )
+	zstd? ( app-arch/zstd )
 	!<app-admin/logrotate-3.8.0"
 PDEPEND="
 	!build? (
@@ -112,6 +112,12 @@ python_prepare_all() {
 	if use xattr && use kernel_linux ; then
 		einfo "Adding FEATURES=xattr to make.globals ..."
 		echo -e '\nFEATURES="${FEATURES} xattr"' >> cnf/make.globals \
+			|| die "failed to append to make.globals"
+	fi
+
+	if use zstd ; then
+		einfo "Adding BINGPKG_COMPRESS=\"zstd\" to make.globals ..."
+		echo -e '\nBINGPKG_COMPRESS="zstd"' >> cnf/make.globals \
 			|| die "failed to append to make.globals"
 	fi
 
