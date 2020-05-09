@@ -201,7 +201,6 @@ app-antivirus/clamav:clamsubmit - A tool to submit false positives / negatives
 app-antivirus/clamav:libclamav-only - Bypass building of libfreshclam and the ClamAV CLI applications.
 app-antivirus/clamav:metadata-analysis-api - Enables collection of file property metadata using ClamAV API for analysis by ClamAV bytecode programs.
 app-antivirus/clamav:xml - DMG and XAR support
-app-antivirus/clamav-unofficial-sigs:cron - Install an hourly cron job to /etc/cron.d that runs the updates as the clamav user (instead of root), with an appropriate home directory and shell. The same cron job is installed as documentation when this flag is disabled.
 app-antivirus/clamtk:kde - Install the Dolphin plugin.
 app-antivirus/clamtk:nautilus - Install the Nautilus plugin.
 app-antivirus/clamtk:nemo - Install the Nemo plugin.
@@ -5971,6 +5970,10 @@ net-libs/c-client:chappa - Enable Eduardo Chappa's patches for use with mail-cli
 net-libs/c-client:doc - Install RFCs related to IMAP
 net-libs/c-client:topal - Enable support for net-mail/topal for use with mail-client/alpine
 net-libs/cvm:vpopmail - Enable vpopmail support
+net-libs/czmq:drafts - Build draft API, which may change at any time without any notice, and is therefore not recommended for normal use. (requires draft support in net-libs/zeromq as well)
+net-libs/czmq:http-client - Build support for HTTP client using net-misc/curl
+net-libs/czmq:http-server - Build support for HTTP server using net-libs/libmicrohttpd
+net-libs/czmq:uuid - Enable UUID support using sys-apps/util-linux
 net-libs/daq:afpacket - Build the AFPacket data acquisition module. Functions similar to the PCAP module but with better performance. Snort can run unprivileged when using this module. AFpacket supports both inline and passive modes.
 net-libs/daq:dump - Build the Dump data acquisition module. The dump DAQ allows you to test the various inline mode features available in 2.9 Snort like injection and normalization.
 net-libs/daq:ipq - Build the IPQ data acquisition module. IPQ is the old way to process iptables packets for inline deployments. Snort can not run unprivileged when using this module.
@@ -7282,7 +7285,6 @@ sci-libs/coinor-clp:glpk - Enable GNU Linear Programming Kit sci-mathematics/glp
 sci-libs/coinor-clp:metis - Enable partitioning with sci-libs/metis
 sci-libs/coinor-clp:mumps - Enable sci-libs/mumps support
 sci-libs/coinor-clp:sparse - Enable support for sparse matrix with sci-libs/cholmod
-sci-libs/coinor-osi:glpk - Enable GNU Linear Programming Kit sci-mathematics/glpk support
 sci-libs/coinor-symphony:glpk - Enable GNU Linear Programming Kit sci-mathematics/glpk support
 sci-libs/coinor-utils:glpk - Enable GNU Linear Programming Kit sci-mathematics/glpk support
 sci-libs/dealii:adolc - Adds support for ADOL-C (sci-libs/adolc)
