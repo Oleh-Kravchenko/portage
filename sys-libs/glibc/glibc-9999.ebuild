@@ -28,10 +28,14 @@ RELEASE_VER=${PV}
 
 GCC_BOOTSTRAP_VER=20180511
 
+LOCALE_GEN_VER=2.00
+
 # Gentoo patchset
 PATCH_VER=16
+PATCH_DEV=slyfox
 
-SRC_URI+=" https://dev.gentoo.org/~slyfox/distfiles/${P}-patches-${PATCH_VER}.tar.xz"
+SRC_URI+=" https://dev.gentoo.org/~${PATCH_DEV}/distfiles/${P}-patches-${PATCH_VER}.tar.xz"
+SRC_URI+=" https://gitweb.gentoo.org/proj/locale-gen.git/snapshot/locale-gen-${LOCALE_GEN_VER}.tar.gz"
 SRC_URI+=" multilib? ( https://dev.gentoo.org/~dilfridge/distfiles/gcc-multilib-bootstrap-${GCC_BOOTSTRAP_VER}.tar.xz )"
 
 IUSE="audit caps cet compile-locales +crypt custom-cflags doc gd headers-only +multiarch multilib nscd profile selinux +ssp +static-libs static-pie suid systemtap test vanilla"
@@ -728,6 +732,8 @@ src_unpack() {
 
 	cd "${WORKDIR}" || die
 	unpack glibc-${RELEASE_VER}-patches-${PATCH_VER}.tar.xz
+
+	unpack locale-gen-${LOCALE_GEN_VER}.tar.gz
 }
 
 src_prepare() {
@@ -743,6 +749,12 @@ src_prepare() {
 
 	cd "${WORKDIR}"
 	find . -name configure -exec touch {} +
+
+	# until the patchset is updated
+	rm -rf extra/locale || die
+
+	# move the external locale-gen to its old place
+	mv locale-gen-${LOCALE_GEN_VER} extra/locale || die
 
 	eprefixify extra/locale/locale-gen
 
@@ -1304,11 +1316,15 @@ glibc_do_src_install() {
 
 	# Install misc network config files
 	insinto /etc
-	doins nscd/nscd.conf posix/gai.conf nss/nsswitch.conf
-	doins "${WORKDIR}"/extra/etc/*.conf
+	doins posix/gai.conf nss/nsswitch.conf
+
+	# Gentoo-specific
+	newins "${FILESDIR}"/host.conf-1 host.conf
 
 	if use nscd ; then
-		doinitd "$(prefixify_ro "${WORKDIR}"/extra/etc/nscd)"
+		doins nscd/nscd.conf
+
+		newinitd "$(prefixify_ro "${FILESDIR}"/nscd-1)" nscd
 
 		local nscd_args=(
 			-e "s:@PIDFILE@:$(strings "${ED}"/usr/sbin/nscd | grep nscd.pid):"
@@ -1318,9 +1334,6 @@ glibc_do_src_install() {
 
 		systemd_dounit nscd/nscd.service
 		systemd_newtmpfilesd nscd/nscd.tmpfiles nscd.conf
-	else
-		# Do this since extra/etc/*.conf above might have nscd.conf.
-		rm -f "${ED}"/etc/nscd.conf
 	fi
 
 	echo 'LDPATH="include ld.so.conf.d/*.conf"' > "${T}"/00glibc
