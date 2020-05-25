@@ -32,6 +32,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Hans de Graaff <graaff@gentoo.org> (2020-05-24)
+# No releases since 2011, upstream is gone, fails tests,
+# no reverse dependencies.
+# Masked for removal in 30 days.
+dev-ruby/rack-mount
+
 # Andreas Sturmlechner <asturm@gentoo.org> (2020-05-23)
 # Obsolete GNOME 2 era packages, stuck on Python 2 and pygtk,
 # bugs #640022, #708094. Masked for removal in 30 days.
@@ -515,21 +521,6 @@ net-misc/ipx-utils
 # package is not going away anytime soon, just masked
 # for security. unmask as needed.
 dev-java/icedtea-web
-
-# Michał Górny <mgorny@gentoo.org> (2020-03-26)
-# dev-python/aiohttp-cors is dead upstream and does not support
-# Python 3.7 and newer.
-#
-# net-misc/gns3-* are effectively unmaintained and stuck with py3.6.
-# gns3-server is the only revdep of aiohttp-cors, as well as the only
-# blocker for removal of old dev-python/{aiohttp,async_timeout}
-# (bug #714840).  Some of those issues might be fixed by a version bump
-# that's pending for a long time (bug #688016) but not aiohttp-cors dep.
-#
-# Removal in 30 days.  Bug #712964.
-net-misc/gns3-converter
-net-misc/gns3-gui
-net-misc/gns3-server
 
 # Andreas Sturmlechner <asturm@gentoo.org> (2020-03-14)
 # Breaks at least dev-games/simgear right now, bug #709878.
