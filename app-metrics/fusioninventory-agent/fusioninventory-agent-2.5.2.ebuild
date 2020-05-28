@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit perl-module
+inherit perl-module systemd
 
 DESCRIPTION="The FusionInventory agent is a generic management agent"
 HOMEPAGE="http://fusioninventory.org/"
@@ -21,6 +21,7 @@ DEPEND="
 	dev-perl/Text-Template
 	dev-perl/UNIVERSAL-require
 	dev-perl/XML-TreePP
+	dev-perl/XML-XPath
 	virtual/perl-IO-Compress
 	dev-perl/HTTP-Daemon
 	dev-perl/IO-Socket-SSL
@@ -31,9 +32,12 @@ RDEPEND="${DEPEND}"
 BDEPEND="
 	dev-perl/Module-Install
 	"
+PATCHES=( "${FILESDIR}/${P}-dirs.patch" )
 
-src_prepare() {
-	sed -e 's:\$(PREFIX)/etc:/etc:g' \
-		-i Makefile.PL || die "sed failed"
+src_install() {
 	default
+	systemd_dounit contrib/unix/fusioninventory-agent.service
+	newinitd "${FILESDIR}/${PN}.initd" ${PN}
+	newconfd "${FILESDIR}/${PN}.confd" ${PN}
+	keepdir /var/lib/fusioninventory
 }
