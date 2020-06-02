@@ -17,7 +17,7 @@ if [[ ${PV} == *9999* ]]; then
 	SRC_URI=""
 else
 	SRC_URI="https://download.ceph.com/tarballs/${P}.tar.gz"
-	KEYWORDS="~amd64"
+	KEYWORDS="~amd64 ~ppc64"
 fi
 
 DESCRIPTION="Ceph distributed filesystem"
@@ -194,6 +194,7 @@ PATCHES=(
 	"${FILESDIR}/ceph-14.2.0-cython-0.29.patch"
 	"${FILESDIR}/ceph-15.2.0-rocksdb-cmake.patch"
 	"${FILESDIR}/ceph-15.2.2-systemd-unit.patch"
+	"${FILESDIR}/ceph-15.2.3-spdk-compile.patch"
 )
 
 check-reqs_export_vars() {
