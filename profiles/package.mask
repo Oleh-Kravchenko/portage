@@ -32,6 +32,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Aaron Bauman <bman@gentoo.org> (2020-06-07)
+# py2 only. dead upstream. m-n. rdep.
+# Masked for removal in 15 days
+net-misc/charm
+sys-cluster/polysh
+
 # Jonas Stein <jstein@gentoo.org> (2020-06-07)
 # Last rite unusable package.
 # Removal after 2020-08-01
@@ -67,7 +73,6 @@ dev-libs/svrcore
 # Masked for removal in 15 days
 app-cdr/sync2cd
 app-text/getxbook
-app-text/pdfsandwich
 dev-python/assets
 dev-python/bz2file
 dev-python/kid
@@ -76,7 +81,6 @@ dev-python/python-urljr
 dev-python/selectors34
 dev-python/stomper
 dev-python/YURL
-media-gfx/exact-image
 x11-themes/fvwm-crystal
 
 # Stefan Strogin <steils@gentoo.org> (2020-06-03)
@@ -370,11 +374,6 @@ dev-java/icedtea-web
 # Andreas Sturmlechner <asturm@gentoo.org> (2020-03-14)
 # Breaks at least dev-games/simgear right now, bug #709878.
 ~dev-games/openscenegraph-3.6.5
-
-# Mart Raudsepp <leio@gentoo.org> (2020-03-13)
-# Masked for testing due to split of libnma needing migration
-# and 1.8.25 being an old development release
->=gnome-extra/nm-applet-1.8.25
 
 # Eray Aslan <eras@gentoo.org> (2020-03-09)
 # Mask experimental software
