@@ -1262,7 +1262,6 @@ app-text/texlive:science - Add typesetting support for natural and computer scie
 app-text/texlive:tex4ht - Add support for dev-tex/tex4ht (for converting (La)TeX to (X)HTML, XML and OO.org)
 app-text/texlive:texi2html - Add support for app-text/texi2html which converts texi files to HTML
 app-text/texlive:xetex - Add support for XeTeX macros (dev-texlive/texlive-xetex)
-app-text/texlive:xindy - Add support for app-text/xindy, a flexible indexing system
 app-text/texlive-core:luajittex - Add support for LuaJitTeX: LuaTeX based on LuaJIT which is usually faster.
 app-text/texlive-core:xetex - Add support for XeTeX: a TeX system with Unicode and modern font technologies.
 app-text/texlive-core:xindy - Add support for Xindy: A general-purpose index processor.
@@ -6785,7 +6784,6 @@ net-p2p/fms:frost - Add support for frost boards
 net-p2p/fms:ssl - Add support for FCP connection over SSL
 net-p2p/freenet:nss - Use nss for crypto operations, if it is the fastest way
 net-p2p/go-ethereum:devtools - Build Ethereum development tools (evm, abigen, puppeth, ...)
-net-p2p/go-ethereum:opencl - Add OpenCL GPU mining support
 net-p2p/ktorrent:bwscheduler - Schedule upload and download limits over a period of a week
 net-p2p/ktorrent:downloadorder - Specify the download order of a multi-file torrent
 net-p2p/ktorrent:infowidget - Displays general information about a torrent in several tabs
