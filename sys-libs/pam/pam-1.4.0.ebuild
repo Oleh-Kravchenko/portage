@@ -33,7 +33,7 @@ DEPEND="
 
 RDEPEND="${DEPEND}"
 
-PDEPEND="sys-auth/pambase"
+PDEPEND=">=sys-auth/pambase-20200616"
 
 S="${WORKDIR}/linux-${P}"
 
@@ -77,7 +77,7 @@ multilib_src_configure() {
 		$(use_enable static-libs static)
 		--enable-isadir='.' #464016
 		)
-	ECONF_SOURCE="${S}" econf ${myconf[@]}
+	ECONF_SOURCE="${S}" econf "${myconf[@]}"
 }
 
 multilib_src_compile() {
