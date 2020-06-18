@@ -1066,6 +1066,7 @@ app-office/kmymoney:holidays - Enable kde-frameworks/kholidays integration
 app-office/kmymoney:quotes - Enable Online Stock Quote retrieval
 app-office/kmymoney:weboob - Enable import of online banking transactions extracted by www-client/weboob
 app-office/kraft:pim - Enable support for KDE PIM resources integration
+app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
 app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
 app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
 app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
@@ -3016,7 +3017,6 @@ dev-util/unrpyc:proto0 - Use pickle protocol 0 for un-rpyc module. May be useful
 dev-util/unrpyc:proto1 - Use pickle protocol 1 for un-rpyc module. Default if no protocol is selected
 dev-util/unrpyc:proto2 - Use pickle protocol 2 for un-rpyc module
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
-dev-util/vulkan-tools:vulkaninfo - Build the vulkaninfo utility
 dev-vcs/cssc:valgrind - Enable usage of dev-util/valgrind in tests
 dev-vcs/cvs:server - Enable server support
 dev-vcs/cvs2svn:bazaar - Support for dev-vcs/bzr
@@ -5051,6 +5051,7 @@ media-video/mplayer:md5sum - Enables md5sum video output
 media-video/mplayer:mng - MNG input support
 media-video/mplayer:network - Enables network streaming support
 media-video/mplayer:nut - Enables support for the NUT container format
+media-video/mplayer:openssl - Request OpenSSL support in media-video/ffmpeg to enable encrypted network protocols (TLS/HTTPS)
 media-video/mplayer:osdmenu - Enables support for on-screen display (OSD) menus
 media-video/mplayer:pnm - Add PNM video output option, to create PPM/PGM/PGMYUV images
 media-video/mplayer:pvr - Enable Video4Linux2 MPEG PVR
@@ -8925,7 +8926,6 @@ x11-libs/qwt:designer - Installs dev-qt/designer plugin.
 x11-libs/qwt:mathml - Use the MathML renderer of the Qt solutions package.
 x11-libs/tslib:evdev - Build experimental input module
 x11-libs/tslib:uinput - Provide alternative ts_uinput evdev device
-x11-libs/vte:glade - Provide integration with dev-util/glade.
 x11-libs/wxGTK:gstreamer - Enable the wxMediaCtrl class for playing audio and video through gstreamer.
 x11-libs/wxGTK:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio.
 x11-misc/alock:doc - Build and install manpage with app-text/asciidoc.
