@@ -1164,7 +1164,6 @@ app-text/evince:postscript - Enable support for PostScript and Adobe Illustrator
 app-text/evince:spell - Enable inline spell check for annotations via app-text/gspell
 app-text/evince:t1lib - Enable the Type-1 fonts for the built-in DVI viewer (media-libs/t1lib)
 app-text/evince:xps - Enable XPS viewer using app-text/libgxps
-app-text/getxbook:ocr - Use app-text/tesseract for optical character recognition
 app-text/ghostscript-gpl:unicode - Add support for unicode passwords via net-dns/libidn
 app-text/groonga:abort - Enable query abortion
 app-text/groonga:benchmark - Build benchmark programs
@@ -4036,8 +4035,10 @@ media-gfx/cura:usb - Access 3D printers via USB
 media-gfx/darktable:flickr - Add support for uploading photos to flickr
 media-gfx/darktable:geolocation - Enable geotagging support
 media-gfx/darktable:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
+media-gfx/darktable:lto - Enable link-time optimisations in the RawSpeed library
 media-gfx/darktable:opencl - Enable opencl support
 media-gfx/darktable:pax_kernel - Triggers paxmarking of main darktable binary
+media-gfx/darktable:tools - Install tools for generating base curves and noise profiles
 media-gfx/digikam:addressbook - Enable akonadi contact integration
 media-gfx/digikam:dnn - Build neural network faces engine module
 media-gfx/digikam:heif - Enable support for ISO/IEC 23008-12:2017 HEIF files using media-libs/x265
@@ -5051,7 +5052,6 @@ media-video/mplayer:md5sum - Enables md5sum video output
 media-video/mplayer:mng - MNG input support
 media-video/mplayer:network - Enables network streaming support
 media-video/mplayer:nut - Enables support for the NUT container format
-media-video/mplayer:openssl - Request OpenSSL support in media-video/ffmpeg to enable encrypted network protocols (TLS/HTTPS)
 media-video/mplayer:osdmenu - Enables support for on-screen display (OSD) menus
 media-video/mplayer:pnm - Add PNM video output option, to create PPM/PGM/PGMYUV images
 media-video/mplayer:pvr - Enable Video4Linux2 MPEG PVR
