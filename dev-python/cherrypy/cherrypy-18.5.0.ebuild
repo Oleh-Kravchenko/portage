@@ -16,7 +16,7 @@ S="${WORKDIR}/${MY_P}"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm arm64 ~ia64 ~ppc ~ppc64 ~x86"
 IUSE="ssl test"
 
 RDEPEND=">=dev-python/cheroot-8.2.1[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ BDEPEND="
 		dev-python/objgraph[${PYTHON_USEDEP}]
 		dev-python/path-py[${PYTHON_USEDEP}]
 		dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+		>=dev-python/pytest-5.3.5[${PYTHON_USEDEP}]
 		dev-python/pytest-services[${PYTHON_USEDEP}]
 	)
 "
