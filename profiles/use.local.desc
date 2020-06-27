@@ -555,9 +555,6 @@ app-emulation/libvirt:zfs - Enable ZFS backend storage sys-fs/zfs
 app-emulation/lxc:apparmor - Enable AppArmor support
 app-emulation/lxc:templates - Install old style templates through app-emulation/lxc-templates
 app-emulation/lxc:tools - Build and install additional command line tools
-app-emulation/lxd:daemon - Build the system daemon, not just the client tool
-app-emulation/lxd:dnsmasq - Depend on dnsmasq to provide DHCP and DNS
-app-emulation/lxd:tools - Build and install optional tools
 app-emulation/nemu:network-map - Adds possibility of exporting network map to SVG
 app-emulation/nemu:ovf - Adds support for OVA/OVF import
 app-emulation/nemu:savevm - Adds support for QEMU savevm snapshots (experimental, QEMU must be patched)
@@ -2813,6 +2810,7 @@ dev-ruby/ruby-sdl:image - Enable media-libs/sdl-image support
 dev-ruby/ruby-sdl:mixer - Enable media-libs/sdl-mixer support
 dev-ruby/ruby-sdl:sge - Enable sdl-sge support
 dev-ruby/rubygems:server - Install support for the rubygems server
+dev-ruby/vcr:json - Add support for casettes serialized with JSON
 dev-scheme/gauche:mbedtls - Enable support for net-libs/mbedtls
 dev-scheme/gauche-gl:cg - Enable NVidia Cg binding
 dev-scheme/guile:debug-freelist - Include garbage collector freelist debugging code
@@ -5597,6 +5595,7 @@ net-dns/pdns:remote - Use a generic socket or pipe as a backend (via JSON RPC re
 net-dns/pdns:sodium - Use dev-libs/libsodium for cryptography
 net-dns/pdns:tinydns - Use a TinyDNS CDB database as backend.
 net-dns/pdns:tools - Build optional tools (dnsscan, dnsscope, etc..).
+net-dns/pdns-recursor:dnstap - Enable support for dnstap
 net-dns/pdns-recursor:protobuf - Enable support for dev-libs/protobuf.
 net-dns/pdns-recursor:sodium - Use dev-libs/libsodium for cryptography
 net-dns/pdnsd:isdn - Linux-only: check status of ippp interfaces with ISDN-specific system calls.
@@ -6184,7 +6183,6 @@ net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/o
 net-libs/wvstreams:boost - Use dev-libs/boost to provide TR1-compatible functional interface. This USE flag is only needed with GCC earlier than version 4.1, or with other compilares not providing said interface.
 net-libs/xrootd:fuse - Enable the sys-fs/fuse filesystem driver
 net-libs/xrootd:http - Enable http protocol support
-net-libs/xrootd:rbd - Enable rados block device support via sys-cluster/ceph
 net-libs/zeromq:drafts - Build draft API, which may change at any time without any notice, and is therefore not recommended for normal use.
 net-libs/zeromq:pgm - Build PGM (Pragmatic General Multicast)extention, a protocol for reliable multicast transport of data over IP networks.
 net-libs/zeromq:sodium - Use dev-libs/libsodium for cryptography
@@ -6833,11 +6831,8 @@ net-p2p/xmr-stak-rx:cuda - Enable NVIDIA CUDA toolkit support
 net-p2p/xmr-stak-rx:hwloc - Enable CPU affinity support via hwloc
 net-p2p/xmr-stak-rx:opencl - Enable OpenCL support
 net-p2p/xmr-stak-rx:webserver - Enable internal webserver
-net-print/cups:java - Add support for the Java interpeter in the web server CGIs.
 net-print/cups:lprng-compat - Do not install lp... binaries so cups and lprng can coexist.
-net-print/cups:python - Add support for the Python interpeter in the web server CGIs.
 net-print/cups-filters:foomatic - Build the included foomatic-rip printer driver. Strongly recommended.
-net-print/cups-filters:ipp_autosetup - Let cups-browsed automatically set up IPP network printers by default.
 net-print/cups-filters:pclm - Enable PCLm support
 net-print/dymo-cups-drivers:usb_modeswitch - Include usb_modeswitch for some hardware (bug #601242)
 net-print/fax4cups:efax - Install net-misc/efax backend
