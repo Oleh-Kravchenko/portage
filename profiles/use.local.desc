@@ -2144,6 +2144,7 @@ dev-libs/jemalloc:lazy-lock - Enable lazy locking (only lock when multi-threaded
 dev-libs/jemalloc:prof - Enable allocation profiling
 dev-libs/jemalloc:stats - Enable statistics calculation/reporting
 dev-libs/jemalloc:xmalloc - Add support for xmalloc (abort-on-out-of-memory)
+dev-libs/json-c:cpu-flags-x86-rdrand - Enable RDRAND Hardware RNG Hash Seed
 dev-libs/kreport:marble - Enable displaying of maps using kde-apps/marble
 dev-libs/kreport:scripting - Support Qml scripting using dev-qt/qtdeclarative
 dev-libs/libbase58:tools - Build command line base58 tool
@@ -2161,7 +2162,10 @@ dev-libs/libclsync:extra-hardened - Enable extra security checks. This may hurt 
 dev-libs/libdbusmenu:gtk - Enable support for GTK+2
 dev-libs/libdbusmenu:gtk3 - Enable support for GTK+3
 dev-libs/libdynd:cuda - Enable NVIDIA CUDA toolkit support
-dev-libs/libevent:debug - Support runtime debug mode and malloc hooks (for programmers)
+dev-libs/libevent:clock-gettime - Disable use of clock_gettime even if it is available
+dev-libs/libevent:debug - Support for running in debug mode
+dev-libs/libevent:malloc-replacement - Support for replacing the memory management functions
+dev-libs/libevent:verbose-debug - Support for verbose debug logging
 dev-libs/libffi:pax_kernel - Use PaX emulated trampolines, for we can't use PROT_EXEC
 dev-libs/libffi:test-bhaible - Run extended regression tests (very slow).
 dev-libs/libffi-compat:pax_kernel - Use PaX emulated trampolines, for we can't use PROT_EXEC
@@ -4153,6 +4157,7 @@ media-gfx/povray:mkl - Enable support for Intel Vector Math Library, part of sci
 media-gfx/pqiv:archive - Enable support for images in archives and cbX comic book files
 media-gfx/pstoedit:emf - Enable media-libs/libemf support
 media-gfx/pstoedit:pptx - Enable support for generating PowerPoint pptx files
+media-gfx/qimgv:opencv - Enable HQ scaling via media-libs/opencv
 media-gfx/qimgv:video - Add support for gif/webm playback via libmpv
 media-gfx/shotwell:opencv - Enable face detection via media-libs/opencv
 media-gfx/sigal:s3 - Enables support for the Amazon S3 service.
@@ -8991,7 +8996,6 @@ x11-misc/rss-glx:quesoglc - Enable support for OpenGL Character Renderer
 x11-misc/sddm:consolekit - Use ck-launch-session from sys-auth/consolekit by default in Xsession (no native support)
 x11-misc/sddm:elogind - Use sys-auth/elogind for session tracking.
 x11-misc/sent:savedconfig - Without a saved config.h, this package depends on media-gfx/farbfeld for image conversions
-x11-misc/shutter:drawing - Enables drawing tool
 x11-misc/slim:consolekit - Enable native consolekit support
 x11-misc/spacefm:gtk2 - Support GTK+ 2.x instead of GTK+ 3.x
 x11-misc/spacefm:gtk3 - Support GTK+ 3.x instead of GTK+ 2.x

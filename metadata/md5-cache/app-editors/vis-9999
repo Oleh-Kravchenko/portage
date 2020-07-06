@@ -1,7 +1,8 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure postinst postrm prepare unpack
-DEPEND=dev-libs/libtermkey ncurses? ( sys-libs/ncurses:0= ) tre? ( dev-libs/tre:= ) >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=dev-libs/libtermkey ncurses? ( sys-libs/ncurses:0= ) tre? ( dev-libs/tre:= )
 DESCRIPTION=modern, legacy free, simple yet efficient vim-like editor
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/martanne/vis
 IUSE=+ncurses selinux test tre
 LICENSE=ISC
@@ -10,4 +11,4 @@ RDEPEND=dev-libs/libtermkey ncurses? ( sys-libs/ncurses:0= ) tre? ( dev-libs/tre
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
-_md5_=cc13d485aa5c69de81167037da856086
+_md5_=6123359bdad263bbd2377346c5835c55
