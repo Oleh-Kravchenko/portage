@@ -32,6 +32,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-07-09)
+# Dead upstream, no reverse dependencies.
+# Removal in 30 days.
+kde-apps/kblog
+
 # Sergei Trofimovich <slyfox@gentoo.org> (2020-07-05)
 # No upstream activity in past few years.
 # Needs porting to gtk3/fxce4panel-4.15: bug #729492.
@@ -376,13 +381,7 @@ app-misc/ifp-line
 # Removal in 30 days.  Bug #710538.
 dev-util/cdiff
 
-# Sam James <sam@cmpct.info> (2020-06-04)
-# Large number of vulnerabilities (Bug #692398, Bug #664326)
-# Unmaintained.
-# Masked for removal in 30 days.
-www-apps/otrs
-
-# Sam James <sam@cmpct.info> (2020-06-04)
+# Sam James <sam@gentoo.org> (2020-06-04)
 # Multiple vulnerabilities (Bug #655176, Bug #701812)
 # Misc. other bugs, out of date, no maintainer.
 # Masked for removal in 30 days.
