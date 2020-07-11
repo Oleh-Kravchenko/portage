@@ -17,7 +17,7 @@ HOMEPAGE="
 SRC_URI="mirror://pypi/${PN::1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
-KEYWORDS="~amd64 ~ia64 ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~ia64 ~x86"
 SLOT="0"
 IUSE="test"
 RESTRICT="!test? ( test )"
@@ -46,6 +46,7 @@ BDEPEND="
 		${RDEPEND}
 		$(python_gen_cond_dep '
 			dev-python/coverage[${PYTHON_USEDEP}]
+			dev-python/flaky[${PYTHON_USEDEP}]
 			>=dev-python/pip-20.0.2[${PYTHON_USEDEP}]
 			>=dev-python/pytest-5[${PYTHON_USEDEP}]
 			>=dev-python/pytest-freezegun-0.4.1[${PYTHON_USEDEP}]
