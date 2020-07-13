@@ -2567,8 +2567,6 @@ dev-python/paramiko:server - Enable server feature
 dev-python/passlib:bcrypt - bcrpyt hash algoryptm support
 dev-python/passlib:scrypt - accelerated scrypt algoythm support
 dev-python/passlib:totp - time based one time password support
-dev-python/paste:flup - enable support for flup (and therefore for various wgsi servers and middleware)
-dev-python/paste:openid - enable OpenID support
 dev-python/pillow:imagequant - Build with Image Quantization Library support
 dev-python/py-amqp:extras - Install extra tools to generate initial Python mod from an AMQP XML file
 dev-python/pygame:midi - Enable midi support using media-libs/portmidi
@@ -2662,35 +2660,36 @@ dev-qt/linguist-tools:qml - Enable QML support in lupdate
 dev-qt/qdoc:qml - Enable QML/JS parsing support
 dev-qt/qt-creator:android - Build plugin for Android devices
 dev-qt/qt-creator:autotest - Enable integration with popular unit testing frameworks (QtTest, Google Test, Boost.Test)
-dev-qt/qt-creator:autotools - Enable autotools project manager plugin
+dev-qt/qt-creator:autotools - Build plugin for autotools-based projects
 dev-qt/qt-creator:baremetal - Build plugin for bare metal devices
 dev-qt/qt-creator:bazaar - Add support for GNU Bazaar version control system (requires manual installation of Bazaar client)
 dev-qt/qt-creator:beautifier - Build the beautifier plugin (supports astyle, clang-format, and uncrustify)
 dev-qt/qt-creator:boot2qt - Build plugin for Boot2Qt devices
-dev-qt/qt-creator:clang - Build clang-based plugins (code model, formatting, refactoring, static analysis)
+dev-qt/qt-creator:clang - Build clang-based plugins (code model, formatting, static analysis)
 dev-qt/qt-creator:clearcase - Add support for IBM ClearCase version control system (requires manual installation of ClearCase client)
-dev-qt/qt-creator:cmake - Enable cmake project manager plugin
+dev-qt/qt-creator:cmake - Build plugin for CMake-based projects
 dev-qt/qt-creator:cppcheck - Enable integration with dev-util/cppcheck
 dev-qt/qt-creator:ctfvisualizer - Build the Chrome Trace Format visualizer plugin
 dev-qt/qt-creator:designer - Enable designer for QtWidgets-based UIs
-dev-qt/qt-creator:glsl - Enable GLSL editor
+dev-qt/qt-creator:glsl - Build the GLSL editor plugin
 dev-qt/qt-creator:help - Enable the integrated documentation viewer
 dev-qt/qt-creator:ios - Build plugin for Apple iOS devices
 dev-qt/qt-creator:lsp - Add support for the Language Server Protocol (LSP)
 dev-qt/qt-creator:mcu - Build plugin for MCU devices
 dev-qt/qt-creator:mercurial - Add support for dev-vcs/mercurial version control system
-dev-qt/qt-creator:modeling - Enable graphical model editor
+dev-qt/qt-creator:modeling - Build the graphical model editor plugin
 dev-qt/qt-creator:nim - Build plugin for Nim language support
 dev-qt/qt-creator:perforce - Add support for Perforce version control system (requires manual installation of Perforce client)
 dev-qt/qt-creator:perfprofiler - Build the Linux Perf-based profiler plugin
 dev-qt/qt-creator:python - Build plugin for Python language support
-dev-qt/qt-creator:qbs - Enable QBS project manager plugin
+dev-qt/qt-creator:qbs - Build plugin for QBS-based projects
 dev-qt/qt-creator:qmldesigner - Enable designer for QML/QtQuick-based UIs
+dev-qt/qt-creator:qmljs - Build the QML/JavaScript editor plugin
 dev-qt/qt-creator:qmlprofiler - Build the QML profiler plugin
 dev-qt/qt-creator:qnx - Build plugin for QNX devices
 dev-qt/qt-creator:remotelinux - Add support for deployment and execution on a remote Linux host
-dev-qt/qt-creator:scxml - Enable graphical SCXML editor
-dev-qt/qt-creator:serialterminal - Build serial terminal plugin
+dev-qt/qt-creator:scxml - Build the graphical SCXML editor plugin
+dev-qt/qt-creator:serialterminal - Build the serial terminal plugin
 dev-qt/qt-creator:silversearcher - Enable integration with sys-apps/the_silver_searcher
 dev-qt/qt-creator:systemd - Add support for retrieving application output from journald
 dev-qt/qt-creator:valgrind - Enable integration with dev-util/valgrind
@@ -7284,11 +7283,8 @@ sci-geosciences/liblas:gdal - Add support for the sci-libs/gdal geospatial raste
 sci-geosciences/mapnik:gdal - Enable sci-libs/gdal library support
 sci-geosciences/mapnik:osmfonts - Enable openstreetmaps font styles
 sci-geosciences/mapserver:apache - Enable mapserver to run under apache
-sci-geosciences/mapserver:gdal - Enable sci-libs/gdal library support; deprecated
 sci-geosciences/mapserver:geos - Enable sci-libs/geos library support
 sci-geosciences/mapserver:postgis - Enable dev-db/postgis support
-sci-geosciences/mapserver:proj - Enable sci-libs/proj library support (geographic projections); deprecated
-sci-geosciences/mapserver:xslt - Enable xslt and exslt support xml-mapfile support; deprecated
 sci-geosciences/merkaartor:libproxy - Use net-libs/libproxy for getting the HTTP/HTTPS/SOCKS proxy configuration
 sci-geosciences/merkaartor:webengine - Enable dev-qt/qtwebengine in some plugins
 sci-geosciences/qgis:3d - Build QGIS 3D library using dev-qt/qt3d
