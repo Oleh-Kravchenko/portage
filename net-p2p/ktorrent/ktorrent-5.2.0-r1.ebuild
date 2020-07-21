@@ -16,7 +16,7 @@ HOMEPAGE="https://kde.org/applications/internet/org.kde.ktorrent"
 
 LICENSE="GPL-2"
 SLOT="5"
-KEYWORDS="~amd64 arm64 ~x86"
+KEYWORDS="amd64 arm64 ~x86"
 IUSE="+bwscheduler +downloadorder +infowidget +ipfilter +kross +logviewer +magnetgenerator
 +mediaplayer rss +scanfolder +search +shutdown +stats +upnp +zeroconf"
 
@@ -80,6 +80,11 @@ PATCHES=(
 	"${FILESDIR}/${P}-fix-start-in-systray.patch" # 5.2 branch
 	"${FILESDIR}/${P}-taglib-linking.patch" # 5.2 branch
 )
+
+src_prepare() {
+	ecm_src_prepare
+	ecm_punt_bogus_dep Qt Script
+}
 
 src_configure() {
 	local mycmakeargs=(
