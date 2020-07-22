@@ -32,6 +32,14 @@
 
 #--- END OF EXAMPLES ---
 
+# Aaron Bauman <bman@gentoo.org> (2020-07-20)
+# continuous version constraints causing issues
+# Cisco images are rare to find that are supported
+# dropping to p-m. Removal in 30 days
+net-misc/gns3-gui
+net-misc/gns3-server
+net-misc/ubridge
+
 # Sam James <sam@gentoo.org> (2020-07-20)
 # Serious security vulnerabilities, including
 # remote code execution. Upstream have not yet
@@ -70,6 +78,7 @@ net-libs/osptoolkit
 # Use a newer slot of the same package instead.
 dev-ruby/i18n:0.9
 dev-ruby/net-ssh:4
+dev-ruby/nokogumbo:0
 dev-ruby/zeitwerk:1
 
 # Andreas Sturmlechner <asturm@gentoo.org> (2020-07-19)
