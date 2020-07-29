@@ -32,6 +32,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Andrey Utkin <andrey_utkin@gentoo.org> (2020-07-28)
+# Not used by other packages anymore.
+# Removal in 30 days.
+dev-python/ruamel-std-pathlib
+
 # Marek Szuba <marecki@gentoo.org> (2020-07-27)
 # No longer available upstream. Potentially copyrighted.
 # Removal in 30 days. Bug #734116.
@@ -312,44 +317,6 @@ dev-tex/cjk-latex
 # patch exists, but we won't become new upstream. Masked for removal in 30 days.
 games-board/teg
 
-# Aaron Bauman <bman@gentoo.org> (2020-06-29)
-# More Py2 only stuff. Plz see -dev ML for discussions
-# Remove bindings, port to Py3, etc
-# Removal in 30 days
-app-dicts/opendict
-app-editors/editra
-app-office/taskcoach
-app-backup/holland
-app-backup/holland-backup-example
-app-backup/holland-backup-pgdump
-app-backup/holland-backup-random
-app-backup/holland-backup-sqlite
-app-backup/holland-lib-common
-app-backup/holland-lib-lvm
-app-cdr/burn-cd
-app-editors/leo
-app-emulation/playonlinux
-app-text/bibus
-dev-db/SchemaSync
-dev-python/squaremap
-dev-util/wxglade
-media-gfx/fontypython
-media-gfx/fr0st
-sci-chemistry/apbs
-sci-chemistry/eden
-sci-chemistry/p3d
-sci-chemistry/pdb2pqr
-sci-chemistry/pdb-tools
-sci-chemistry/prodecomp
-sci-chemistry/pymol-plugins-caver
-sci-chemistry/pymol-plugins-dssp
-sci-chemistry/pymol-plugins-promol
-sci-chemistry/relax
-sci-chemistry/sparky
-www-apps/viewvc
-www-misc/surl
-x11-misc/nts
-
 # Stephan Hartmann <stha09@googlemail.com> (2020-06-29)
 # Dev channel releases are only for people who
 # are developers or want more experimental features
@@ -361,41 +328,6 @@ x11-misc/nts
 # Suggested replacement: sys-apps/portage (just kidding).
 # Removal in 30 days.  Bug #711134.
 sys-apps/pacman
-
-# Aaron Bauman <bman@gentoo.org> (2020-06-28)
-# More Py2 only stuff. Plz see -dev ML for discussions
-# Remove bindings, port to Py3, etc
-# Removal in 30 days
-app-arch/deltarpm
-app-crypt/virtualsmartcard
-app-text/duali
-app-text/duali-data
-app-dicts/duali-data
-app-text/mftrace
-app-text/queequeg
-app-text/referencer
-dev-libs/libmacaroons
-dev-libs/tut
-dev-python/elib-intl
-dev-python/eunuchs
-dev-python/medusa
-dev-python/python-iwscan
-dev-util/confix
-dev-util/qmtest
-dev-util/unrpyc
-games-engines/gemrb
-media-sound/lilycomp
-media-video/tovid
-net-mail/archivemail
-net-mail/getmail
-net-wireless/airpwn
-sci-chemistry/bkchem
-sci-chemistry/pymol-plugins-bni-tools
-sci-chemistry/pymol-plugins-emovie
-sci-chemistry/viewmol
-sci-libs/chemkit
-www-misc/surl
-x11-wm/plwm
 
 # Mikle Kolyada <zlogene@gentoo.org> (2020-06-28)
 # Obsolete package.
