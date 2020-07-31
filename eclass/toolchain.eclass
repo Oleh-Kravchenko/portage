@@ -1030,6 +1030,9 @@ toolchain_src_configure() {
 		esac
 		if [[ -n ${needed_libc} ]] ; then
 			local confgcc_no_libc=( --disable-shared )
+			# requires libc: bug #734820
+			tc_version_is_at_least 4.6 && confgcc_no_libc+=( --disable-libquadmath )
+			# requires libc
 			tc_version_is_at_least 4.8 && confgcc_no_libc+=( --disable-libatomic )
 			if ! has_version ${CATEGORY}/${needed_libc} ; then
 				confgcc+=(
@@ -1297,12 +1300,6 @@ toolchain_src_configure() {
 
 	if in_iuse zstd ; then
 		confgcc+=( $(use_with zstd) )
-	fi
-
-	# newer gcc's come with libquadmath, but only fortran uses
-	# it, so auto punt it when we don't care
-	if tc_version_is_at_least 4.6 && ! is_fortran ; then
-		confgcc+=( --disable-libquadmath )
 	fi
 
 	if tc_version_is_at_least 4.6 ; then
@@ -2232,6 +2229,7 @@ toolchain_pkg_postinst() {
 		# gcc stopped installing .la files fixer in June 2020.
 		# Cleaning can be removed in June 2022.
 		rm -f "${EROOT%/}"/sbin/fix_libtool_files.sh
+		rm -f "${EROOT%/}"/usr/sbin/fix_libtool_files.sh
 		rm -f "${EROOT%/}"/usr/share/gcc-data/fixlafiles.awk
 
 		mkdir -p "${EROOT%/}"/usr/bin
