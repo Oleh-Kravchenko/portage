@@ -32,6 +32,127 @@
 
 #--- END OF EXAMPLES ---
 
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Py2 only. m-n. Bug #735340
+# Removal in 30 days
+dev-vcs/rapidsvn
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Py2 only. m-n. Bug #735364
+# Removal in 30 days
+media-gfx/cptutils
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Py2 only. m-n. Bug #709932
+# Removal in 30 days
+net-wireless/cpyrit-cuda
+net-wireless/cpyrit-opencl
+net-wireless/pyrit
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Py2 only. m-n. Bug #735466
+# Removal in 30 days
+sys-apps/biosdisk
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Py2 only. m-n. Bug #735486
+# Removal in 30 days
+sys-fs/ecryptfs-utils
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Py2 only. m-n. Bug #735502. rdep.
+# Removal in 30 days
+app-metrics/collectd
+sys-fs/owfs
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Py2 only. m-n. Bug #735524
+# Removal in 30 days
+www-misc/nx_util
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Unmaintained. New release upstream. Py3.6 only.
+# Removal in 30 days. Bug #696484,#718466
+sci-biology/HTSeq
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Dead upstream. Py3.6 only. Build issues.
+# Removal in 30 days. Bug #677900,#716384
+# #722408,723344
+app-mobilephone/obexftp
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Dead upstream. Py3.6 only.
+# Removal in 30 days. Bug #722334,#713686
+app-misc/evemu
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Needs bump. Py3 tests fail. Last release 2yrs.
+# Removal in 30 days. Bug #718196
+app-backup/cachedir
+
+# Michał Górny <mgorny@gentoo.org> (2020-08-02)
+# Discontinued.  Last patch in 2008.  Py2 only.
+# Removal in 30 days.  Bug #734632.
+x11-misc/pypanel
+
+# Michał Górny <mgorny@gentoo.org> (2020-08-02)
+# Stuck on py2.  Last release in 2010, last commit in 2014.  No revdeps.
+# Blocks dev-python/mysql-python removal.
+# Removal in 30 days.  Bug #735178.
+dev-python/python-openid
+
+# Michał Górny <mgorny@gentoo.org> (2020-08-02)
+# Discontinued upstream in favor of dev-python/mock.  Py2 only.
+# The only revdep is last rited now.
+# Removal in 30 days.  Bug #735158.
+dev-python/mox
+
+# Michał Górny <mgorny@gentoo.org> (2020-08-02)
+# Discontinued upstream in 2015.  Python 2 only.  No revdeps.
+# abseil-py (not package) is the suggested replacement.
+# Removal in 30 days.  Bug #735156.
+dev-python/google-apputils
+
+# Mikle Kolyada <zlogene@gentoo.org> (2020-08-02)
+# consolekit is abandoned upstream.
+# People are encouraged to switch to any logind
+# implementation (systemd/elogind).
+# Removal in 60 days (bug #727730)
+sys-auth/consolekit
+sec-policy/selinux-consolekit
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-02)
+# Py3.6 backport for dataclasses. No rdeps left.
+# Removal in 30 days
+dev-python/dataclasses
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-01)
+# Py3.6 only. Dead upstream.
+# Removal in 30 days. Bug #718898
+dev-python/cloudlib
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-01)
+# Py2 only. Dead upstream.
+# Removal in 30 days. Bug #722060
+app-arch/cfv
+app-arch/ipkg-utils
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-01)
+# Py2 only. Dead upstream.
+# Removal in 30 days
+# Bug #568602,#340164,#560840,#716420,#560254
+# #476424,#643982
+app-accessibility/SphinxTrain
+app-accessibility/sphinx3
+app-accessibility/sphinxbase
+
+# Aaron Bauman <bman@gentoo.org> (2020-08-01)
+# Py2 only. Upstream has py3 versions
+# m-n. Removal in 30 days.
+www-apps/scgi
+www-apache/mod_scgi
+
 # Aaron Bauman <bman@gentoo.org> (2020-08-01)
 # Py2 only. Dead upstream.
 # Removal in 30 days
@@ -341,11 +462,6 @@ dev-perl/Data-Diver
 # Removal in 30 days.
 app-admin/denyhosts
 
-# Matt Turner <mattst88@gentoo.org> (2019-09-01)
-# Icons look funny. E.g., the X (close) icon is wrong. I suspect files are
-# installed incorrectly
->=x11-themes/adwaita-icon-theme-3.36
-
 # William Hubbs <williamh@gentoo.org> (2020-07-14)
 # The kubernetes split packages are old versions with known security
 # issues.
@@ -474,12 +590,6 @@ dev-tex/cjk-latex
 # and accept a more unstable release.
 >=www-client/chromium-86
 
-# Mart Raudsepp <leio@gentoo.org> (2020-06-27)
-# Disappeared upstream and download locations. Potential replacements:
-# media-sound/quimup, xfce-extra/xfce4-mpc-plugin, media-sound/xfmpc
-# Bug 729822. Removal in 30 days.
-media-sound/guimup
-
 # Hans de Graaff <graaff@gentoo.org> (2020-06-14)
 # Ruby 2.4 is no longer supported by upstream and no longer gets
 # security updates since the 2.4.10 release. Use ruby 2.5 or later
@@ -545,10 +655,6 @@ sci-mathematics/geogebra
 # package is not going away anytime soon, just masked
 # for security. unmask as needed.
 dev-java/icedtea-web
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-03-14)
-# Breaks at least dev-games/simgear right now, bug #709878.
-~dev-games/openscenegraph-3.6.5
 
 # Eray Aslan <eras@gentoo.org> (2020-03-09)
 # Mask experimental software
