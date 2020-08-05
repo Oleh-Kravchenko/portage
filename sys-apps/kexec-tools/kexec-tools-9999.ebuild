@@ -87,7 +87,7 @@ src_install() {
 
 	dodoc "${FILESDIR}"/README.Gentoo
 
-	newinitd "${FILESDIR}"/kexec.init-2.0.13-r1 kexec
+	newinitd "${FILESDIR}"/kexec-r2.init kexec
 	newconfd "${FILESDIR}"/kexec.conf-2.0.4 kexec
 
 	insinto /etc
