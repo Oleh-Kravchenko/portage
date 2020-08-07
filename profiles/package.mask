@@ -32,6 +32,17 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2020-08-06)
+# Py2.7 only.  Last release in 2009.  No reverse dependencies left.
+# Removal in 30 days.  Bug #735610.
+dev-python/pythonutils
+
+# Michał Górny <mgorny@gentoo.org> (2020-08-06)
+# Py3.6 only.  Apparently randomly fails to build (bug #515736).
+# Last release in 2016.  No reverse dependencies left.
+# Removal in 30 days.  Bug #718968.
+dev-python/gntp
+
 # Jimi Huotari <chiitoo@gentoo.org> (2020-08-04)
 # No consumers since 2015, and no known stand-alone use.
 # Removal in 30 days.
@@ -306,12 +317,6 @@ dev-python/distributed
 # Removal in 30 days.
 dev-tex/herm-pic
 
-# Jason A. Donenfeld <zx2c4@gentoo.org> (2020-07-31)
-# This package has been deprecated for 8 months now, in addition to
-# loud ewarns upon every install. It is replaced with explicitly
-# installing net-vpn/wireguard-tools. Removal in 7 days.
-virtual/wireguard
-
 # Michał Górny <mgorny@gentoo.org> (2020-07-28)
 # Masked for the time being due to dep on LLVM 8.  Bug #720236.
 <=dev-ada/gps-2019-r1
@@ -504,12 +509,6 @@ media-video/plasma-mediacenter
 # bugs #685576, #726818, no reverse dependencies. Removal in 30 days.
 app-text/glosung
 
-# Kent Fredric <kentnl@gentoo.org> (2020-07-15)
-# No LICENSE declaration by upstream, and no response from upstream
-# since at least 2013 as to what license to use (bug #732710)
-# Removal in 30 days.
-dev-perl/Data-Diver
-
 # Andreas K. Hüttel <dilfridge@gentoo.org> (2020-07-15)
 # In preparation; do not use yet.
 =dev-lang/perl-5.32*
@@ -534,6 +533,13 @@ dev-perl/Data-Diver
 ~virtual/perl-IPC-Cmd-1.40.0
 ~virtual/perl-JSON-PP-4.40.0
 ~virtual/perl-Math-BigInt-1.999.818
+~virtual/perl-Math-BigInt-FastCalc-0.500.900
+~virtual/perl-Module-CoreList-5.202.6.200
+~virtual/perl-Module-Load-Conditional-0.700.0
+~virtual/perl-Module-Metadata-1.0.37
+~virtual/perl-Net-Ping-2.720.0
+~virtual/perl-parent-0.238.0
+~virtual/perl-podlators-4.140.0
 
 # Christoph Junghans <junghans@gentoo.org> (2020-07-14)
 # Unmaintained upstream and does not support systemd or firewalld.
@@ -549,7 +555,13 @@ app-admin/denyhosts
 #
 # https://www.gentoo.org/support/news-items/2020-04-03-kubernetes-moving-to-single-package.html
 #
+# dev-lang/go-1.12.17 has been added to this mask because it will be
+# removed at the same time since it has been out of support upstream for
+# months and was kept only to allow these kubernetes split packages to
+# build.
+#
 # Removal in 60 days. Bug #731804
+=dev-lang/go-1.12*
 sys-cluster/kubeadm
 sys-cluster/kube-apiserver
 sys-cluster/kube-controller-manager
