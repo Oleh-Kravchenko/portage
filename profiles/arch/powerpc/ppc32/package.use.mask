@@ -77,10 +77,6 @@ sci-libs/libgeodecomp hpx silo
 # app-text/libwpd and app-text/libwpg are not keyworded
 media-gfx/inkscape cdr visio wpg
 
-# Matt Turner <mattst88@gentoo.org> (2018-10-07)
-# media-libs/x265[power8] fails to build on 32-bit ppc.
-media-libs/x265 power8
-
 # Mikle Kolyada <zlogene@gentoo.org> (2018-09-01)
 # The dependency is not keyworded
 net-analyzer/wireshark bcg729

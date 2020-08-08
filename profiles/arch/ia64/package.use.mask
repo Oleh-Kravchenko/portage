@@ -261,10 +261,6 @@ dev-python/pyquery test
 # Tests require non-keyworded qt5
 dev-qt/qtchooser test
 
-# Justin Lecher <jlec@gentoo.org> (2015-10-14)
-# Requires dev-python/ipython which triggers a long dep chain
-dev-python/restkit cli
-
 # Brian Evans <grknight@gentoo.org> (2015-09-14)
 # Mask new USE flags for mariadb which all arches do not yet have dependencies
 >=dev-db/mariadb-10.1.0 innodb-snappy

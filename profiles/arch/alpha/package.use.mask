@@ -255,10 +255,6 @@ media-sound/rhythmbox upnp-av
 # Tests require non-keyworded qt5
 dev-qt/qtchooser test
 
-# Justin Lecher <jlec@gentoo.org> (2015-10-14)
-# Requires dev-python/ipython which triggers a long dep chain
-dev-python/restkit cli
-
 # Alexandre Rostovtsev <tetromino@gentoo.org> (2015-09-10)
 # Requires wifi USE flag, which is masked for this arch
 net-misc/networkmanager wext

@@ -1743,6 +1743,7 @@ dev-haskell/snap-server:openssl - enable https support using dev-haskell/hsopens
 dev-haskell/snap-server:portable - no non-haskell unportable code.
 dev-haskell/splitmix:optimised-mixer - Use JavaScript for mix32
 dev-haskell/splitmix:random - Providen RandomGen SMGen instance
+dev-haskell/stack:developer-mode - By default, should extra developer information be output?
 dev-haskell/store-core:force-alignment - No description
 dev-haskell/tagsoup:download - Build with Download module.
 dev-haskell/tagsoup:testprog - Build the test program.
@@ -3990,6 +3991,7 @@ mate-extra/caja-extensions:share - Add an extension to support sharing files.
 mate-extra/caja-extensions:wallpaper - Add an extension to support setting an image as the current wallpaper
 mate-extra/mate-polkit:accountsservice - Support extraction of data from AccountsService
 mate-extra/mate-power-manager:applet - Enable building of the MATE applet.
+mate-extra/mate-power-manager:libsecret - Support locking of keyring via app-crypt/libsecret
 mate-extra/mate-screensaver:consolekit - Enable support for sys-auth/consolekit
 mate-extra/mate-utils:applet - Enable the mate dictionary applet
 media-fonts/corefonts:tahoma - Also install the Tahoma font. Due to the lack of a free bold variant, this may render badly. See bug 184790.
@@ -4311,6 +4313,7 @@ media-libs/libextractor:archive - Enable archive support using app-arch/libarchi
 media-libs/libextractor:gsf - Enable OLE2 (MS Office) plug-in support using gnome-extra/libgsf
 media-libs/libextractor:midi - Enable MIDI support through media-libs/libsmf
 media-libs/libffado:test-programs - Install standalone test programs
+media-libs/libggi:3dfx - Enables support for Voodoo chipsets, also called 3DFX and TDFX
 media-libs/libggi:vis - Enables sparc vis support for libggi
 media-libs/libgphoto2:serial - Enable serial port support
 media-libs/libgpod:gtk - Enable ArtworkDB support
