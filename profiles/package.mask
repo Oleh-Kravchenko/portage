@@ -32,6 +32,17 @@
 
 #--- END OF EXAMPLES ---
 
+# Kent Fredric <kentnl@gentoo.org> (2020-08-17)
+# No reverse dependencies, and Gtk support is becomming
+# obsolete in Gentoo
+# Removal in 30 days
+dev-perl/gnome2-vfs-perl
+
+# Michał Górny <mgorny@gentoo.org> (2020-08-17)
+# Dead pygtk-2 era library.  No reverse dependencies left.
+# Removal in 30 days.  Bug #706480.
+dev-python/notify-python
+
 # Mart Raudsepp <leio@gentoo.org> (2020-08-16)
 # Temporary mask until accidentally missed app-crypt/gcr
 # bump is finalized
@@ -96,12 +107,6 @@ dev-python/pygpu
 # Removal in 30 days.  Bug #718522.
 dev-python/maintboot
 sys-block/blocks
-
-# Michał Górny <mgorny@gentoo.org> (2020-08-16)
-# Outdated.  Not tested (successfully) on py3.7.  The current version
-# fails tests.  No reverse dependencies.
-# Removal in 30 days.  Bug #718814.
-dev-python/emcee
 
 # Sergei Trofimovich <slyfox@gentoo.org> (2020-08-16)
 # Obsolete package without reverse dependencies.
@@ -366,11 +371,6 @@ media-gfx/cptutils
 net-wireless/cpyrit-cuda
 net-wireless/cpyrit-opencl
 net-wireless/pyrit
-
-# Aaron Bauman <bman@gentoo.org> (2020-08-02)
-# Py2 only. m-n. Bug #735486
-# Removal in 30 days
-sys-fs/ecryptfs-utils
 
 # Aaron Bauman <bman@gentoo.org> (2020-08-02)
 # Py2 only. m-n. Bug #735524
@@ -841,12 +841,6 @@ sys-kernel/genkernel-next
 # dependencies have long since switched to vendoring.
 # Removal in 30 days. Bug #732136.
 dev-go/goptlib
-
-# Kent Fredric <kentnl@gentoo.org> (2020-07-10)
-# No reverse dependencies, and Gtk2 support is becomming
-# obsolete in Gentoo.
-# Removal in 30 days
-dev-perl/gnome2-perl
 
 # Michał Górny <mgorny@gentoo.org> (2020-07-04)
 # Unmaintained.  Requires scipy-python2.  Current version is from 2015,
