@@ -378,7 +378,6 @@ app-doc/tldp-howto:pdf - Install pdf docs
 app-doc/tldp-howto:text - Install plain-text docs
 app-editors/bluefish:gtk3 - Enable GTK3 interface (default)
 app-editors/bluefish:gucharmap - Enable gucharmap dictionary plugin
-app-editors/bluefish:python - Enable Python integration for zen-coding plugin
 app-editors/bluefish:spell - Enable spell checking capabilities via enchant library
 app-editors/emacs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
 app-editors/emacs:dynamic-loading - Enable loading of dynamic libraries at runtime
@@ -1559,6 +1558,7 @@ dev-haskell/certificate:executable - Build the executable
 dev-haskell/cgi:extensible-exceptions-in-base - Required to be enabled for >=dev-lang/ghc-7.
 dev-haskell/cgi:network-uri - Get Network.URI from the network-uri package.
 dev-haskell/chell:color-output - use colors in program output
+dev-haskell/chimera:representable - Define Representable instance from adjunctions package
 dev-haskell/citeproc-hs:bibutils - use Chris Putnam's app-text/bibutils
 dev-haskell/citeproc-hs:embed-data-files - Embed locale files into the library (needed for windows packaging)
 dev-haskell/citeproc-hs:hexpat - use dev-haskell/hexpat instead of dev-haskell/xml for XML parsing
@@ -1578,6 +1578,7 @@ dev-haskell/contravariant:semigroups - You can disable the use of the `semigroup
 dev-haskell/contravariant:statevar - You can disable the use of the `StateVar` package using `-f-StateVar`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/contravariant:tagged - You can disable the use of the `tagged` package on older versons of GHC using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/cpu:executable - build 'cpuid' tool
+dev-haskell/criterion:embed-data-files - Embed the data files in the binary for a relocatable executable
 dev-haskell/crypto-api:all-cpolys - Build all the CMAC polynomes up to 10000 bits instead of just the usual ones
 dev-haskell/crypto-conduit:conduit11 - Use conduit >= 1.1.
 dev-haskell/cryptohash:cryptoapi - Defines crypto-api instances
@@ -1655,6 +1656,7 @@ dev-haskell/lifted-async:monad-control-1 - Use moand-control == 1.*
 dev-haskell/linear:template-haskell - You can disable the use of the `template-haskell` package using `-f-template-haskell`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/lukko:ofd-locking - Enable open file descriptor locking. Available on Linux (kernel 3.15, released Jun 8, 2014).
 dev-haskell/missingh:network-3 - Use network-3
+dev-haskell/mod:semirings - Derive semiring instances
 dev-haskell/monad-control:instancest - If enabled this package will export MonadBaseControl instances for the lazy and strict ST monad. If disabled these instances are only exported when base >= 4.4. If enabled it is required that the transformer-base package exports MonadBase instances for ST. It will do this by default.
 dev-haskell/monad-logger:template-haskell - Enable Template Haskell support.
 dev-haskell/monad-par:chaselev - Use Chase-Lev Deques for higher-perf work-stealing.
@@ -1686,6 +1688,14 @@ dev-haskell/pointed:unordered-containers - optional instances
 dev-haskell/publicsuffixlist:create - export Network.PublicSuffixList.Create module
 dev-haskell/publicsuffixlist:runtimelist - read suffix list from dist at startup instead of embedding list into library
 dev-haskell/quickcheck:template-haskell - Enable additional test modules requiring Template Haskell support.
+dev-haskell/quickcheck-classes:aeson - Enable the use of the `aeson` package. This may be useful for accelerating builds in sandboxes for expert users.
+dev-haskell/quickcheck-classes:binary-laws - Include infrastructure for testing class laws of binary type constructors. Disabling `unary-laws` while keeping `binary-laws` enabled is an unsupported configuration.
+dev-haskell/quickcheck-classes:semigroupoids - Enable the use of the `semigroupoids` package. This may be useful for accelerating builds in sandboxes for expert users.
+dev-haskell/quickcheck-classes:semirings - Enable the use of the `semirings` package. This may be useful for accelerating builds in sandboxes for expert users.
+dev-haskell/quickcheck-classes:unary-laws - Include infrastructure for testing class laws of unary type constructors.
+dev-haskell/quickcheck-classes:vector - Enable the use of the `vector` package. This may be useful for accelerating builds in sandboxes for expert users.
+dev-haskell/quickcheck-classes-base:binary-laws - Include infrastructure for testing class laws of binary type constructors. Disabling `unary-laws` while keeping `binary-laws` enabled is an unsupported configuration.
+dev-haskell/quickcheck-classes-base:unary-laws - Include infrastructure for testing class laws of unary type constructors.
 dev-haskell/recaptcha:network-uri - Get Network.URI from the network-uri package.
 dev-haskell/reflection:template-haskell - Enable template haskell.
 dev-haskell/rfc5051:mkunicodedata - build codes generator itself
@@ -1706,6 +1716,9 @@ dev-haskell/semigroups:hashable - You can disable the use of the `hashable` pack
 dev-haskell/semigroups:text - You can disable the use of the `text` package using USE=-text. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/semigroups:transformers - provide instances for transformers package.
 dev-haskell/semigroups:unordered-containers - You can disable the use of the `unordered-containers` package using USE=-unordered-containers. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
+dev-haskell/semirings:containers - Enable the use of the `containers` package. Disabling this may be useful for accelerating builds in sandboxes for expert users.
+dev-haskell/semirings:hashable - Enisable the use of the `hashable` package. Disabling this may be useful for accelerating builds in sandboxes for expert users. Note: `-hashable` implies `-unordered-containers`, as we are necessarily not able to supply those instances as well.
+dev-haskell/semirings:unordered-containers - Enable the use of the `unordered-containers` package. Disabling this may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/sendfile:portable - Explicitly enable portable sendfile support (implemented in Haskell)
 dev-haskell/sha:exe - Build a sha1 and a sha384 executable similar to 'md5sum'.
 dev-haskell/shakespeare:test-coffee - Render tests through coffeescript render function.
@@ -2649,7 +2662,6 @@ dev-python/simplespectral:faster - Use sci-libs/scipy to speed up drawing
 dev-python/simplespectral:fastest - Use dev-python/pyFFTW to speed up drawing to the max
 dev-python/socketpool:eventlet - Install dev-python/eventlet as needed for the eventlet backend.
 dev-python/socketpool:gevent - Install dev-python/gevent as needed for the gevent backend.
-dev-python/sphinx:net - enable internet capabilities
 dev-python/sympy:imaging - Add support for dev-python/pillow
 dev-python/sympy:ipython - Add support for dev-python/ipython
 dev-python/sympy:mathml - Add support for mathml
@@ -4029,7 +4041,6 @@ media-gfx/alembic:examples - Install alembic examples
 media-gfx/alembic:hdf5 - Add support sci-libs/hdf5
 media-gfx/alembic:maya - Compile Alembic plugin for Maya (experimental)
 media-gfx/alembic:prman - Compile Alembic plugin for Renderman (experimental)
-media-gfx/alembic:python - Build pyalembic python bindings (needs dev-python/pyilmbase)
 media-gfx/alembic:test - Build and run the test-suite
 media-gfx/alembic:zlib - Use sys-libs/zlib for compressions
 media-gfx/apngasm:7z - Enable support for 7zip compression
@@ -4106,7 +4117,6 @@ media-gfx/geeqie:gpu-accel - Enable GPU acceleration support - experimental
 media-gfx/geeqie:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 media-gfx/geeqie:map - Enable items map display - experimental
 media-gfx/gimp:heif - Enable support for ISO/IEC 23008-12:2017 HEIF files
-media-gfx/gimp:smp - Enable support for multiprocessors
 media-gfx/gimp:vector-icons - Enable support for vector icons (experimental)
 media-gfx/gmic:cli - Build CLI interface
 media-gfx/gmic:krita - Build media-gfx/krita plugin
@@ -5708,7 +5718,6 @@ net-fs/netatalk:quota - Add support for user quota on various filesystems
 net-fs/netatalk:shadow - Add shadow support
 net-fs/netatalk:ssl - Use dev-libs/openssl to provide DHX User Access Modules. These are not used with most recent versions of OS X and can be kept disabled without risks.
 net-fs/netatalk:tracker - Add support for spotlight like tracker
-net-fs/netatalk:utils - Install afpstats script
 net-fs/nfs-utils:junction - Enable NFS junction support in nfsref
 net-fs/nfs-utils:ldap - Add ldap support
 net-fs/nfs-utils:libmount - Link mount.nfs with libmount
@@ -8567,7 +8576,6 @@ sys-libs/uclibc-ng:symlink-compat - Explicitly add sym links for libdl.so.0, lib
 sys-libs/zlib:minizip - include the minizip library for quick and dirty zip extraction
 sys-power/apcupsd:modbus - Enable MODBUS support over USB
 sys-power/intel-undervolt:elogind - Use elogind hook to apply voltage after system sleep
-sys-power/nut:gui - Install NUT-Monitor python gui
 sys-power/nut:ipmi - Support IPMI-based UPSes.
 sys-power/nut:ups_drivers_al175 - Driver for Eltek UPS models with AL175 alarm module
 sys-power/nut:ups_drivers_apcsmart - Driver for American Power Conversion Smart Protocol UPS equipment
@@ -8691,12 +8699,13 @@ www-apps/icingaweb2:nginx - Adds support for nginx
 www-apps/ikiwiki:extras - Installs additional modules used by ikiwiki plugins
 www-apps/kibana-bin:x-pack - Enable additional features (may need a license)
 www-apps/klaus:ctags - Enable support for Exuberant ctags; makes all source code symbols hyperlinks to their definitions
-www-apps/nikola:assets - Support web asset management through dev-python/assets
+www-apps/nikola:assets - Support web asset management
 www-apps/nikola:charts - Support chart generation through dev-python/pygal
-www-apps/nikola:ghpages - Add support for direct uploading to github pages thru dev-vcs/ghp-import
+www-apps/nikola:ghpages - Add support for direct uploading to github pages
 www-apps/nikola:hyphenation - Add hyphenation support through dev-python/pyphen
 www-apps/nikola:ipython - Add IPython notebook compilation and LESS support
 www-apps/nikola:jinja - Add support for dev-python/jinja as alternative templating engine to Mako
+www-apps/nikola:server - Enable support for built-in web server using dev-python/aiohttp
 www-apps/nikola:watchdog - Use dev-python/watchdog to monitor file system events
 www-apps/nikola:webmedia - Use dev-python/micawber to extract metadata from web media links
 www-apps/nikola:websocket - Add websocket support thru dev-python/ws4py
