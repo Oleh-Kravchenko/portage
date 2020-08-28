@@ -7736,7 +7736,6 @@ sci-physics/root:pythia8 - Build the interface for sci-physics/pythia version 8.
 sci-physics/root:roofit - Build RooFit function fitting package
 sci-physics/root:root7 - Build experimental features to be released with ROOT 7
 sci-physics/root:shadow - Enable shadow authentication in rootd and proofd
-sci-physics/root:table - Build libTable contrib library
 sci-physics/root:tbb - Enable implicit multi-threading (IMT) with dev-cpp/tbb
 sci-physics/root:tmva - Built TMVA (ROOT's multi-variate analysis toolkit for machine learning)
 sci-physics/root:unuran - Enable support for sci-mathematics/unuran
@@ -8489,6 +8488,7 @@ sys-fs/udisks:systemd - Support sys-apps/systemd's logind
 sys-fs/udisks:vdo - Enable Virtual Data Optimizer support.
 sys-fs/udisks:zram - Enable ZRAM support (requires sys-apps/systemd).
 sys-fs/zfs:kernel-builtin - Disable dependency on sys-fs/zfs-kmod under the assumption that ZFS is part of the kernel source tree
+sys-fs/zfs:minimal - Don't install python scripts (arcstat, dbufstat etc) and avoid dependency on dev-lang/python
 sys-fs/zfs:pam - Install zfs_key pam module, for automatically loading zfs encryption keys for home datasets
 sys-fs/zfs:rootfs - Enable dependencies required for booting off a pool containing a rootfs
 sys-fs/zfs:test-suite - Install regression test suite
