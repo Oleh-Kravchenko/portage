@@ -32,6 +32,26 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-09-04)
+# No maintainer, defunct with modern browsers, bug #694024.
+# Masked for removal in 30 days.
+www-plugins/freshplayerplugin
+
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-09-04)
+# Depends on deprecated dev-qt/qtwebkit, maintainer unresponsive for 1.5 yr.;
+# Upstream dead, fork available, bug #684678. Masked for removal in 30 days.
+app-text/cutemarked
+
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-09-04)
+# Depends on deprecated dev-qt/qtwebkit, no more revdeps; bug #737928
+# Masked for removal in 30 days.
+kde-apps/libkgeomap
+
+# Louis Sautier <sbraz@gentoo.org> (2020-09-04)
+# Masked for removal in 30 days, no revdeps. Dependency of
+# previously removed dev-python/flask-bootstrap
+dev-python/flask-appconfig
+
 # Georgy Yakovlev <gyakovlev@gentoo.org> (2020-09-02)
 # Masked for removal. No revdeps.
 dev-python/ansimarkup
@@ -277,7 +297,6 @@ dev-python/pydotplus
 dev-python/pyds9
 dev-python/pyflann
 dev-python/pygsl
-dev-python/pyqt-distutils
 dev-python/python-ntpdshm
 dev-python/sphinxcontrib-napoleon
 dev-python/textfsm
@@ -616,34 +635,6 @@ dev-haskell/dbus-core
 # activity since January 2018.
 dev-haskell/hans
 
-# Sam James <sam@gentoo.org> (2020-08-04)
-# Dead upstream, unmaintained.
-# Open security bug. Large number of other bugs.
-# Removal in 30 days. bug #630884.
-# bug #520844, bug #665910, bug #626474,
-# bug #490322, bug #692436, bug #707274,
-# bug #713404. bug #680486, bug #459724.
-mail-filter/dspam
-www-apps/dspam-web
-
-# Sam James <sam@gentoo.org> (2020-08-04)
-# Dead upstream and now obsolete.
-# Not likely to work with newer rspam (>= 1.7)
-# Removal in 30 days. bug #630990
-mail-filter/rmilter
-
-# Sam James <sam@gentoo.org> (2020-08-04)
-# Unmaintained and out of date in Gentoo.
-# Has outstanding security issue.
-# Removal in 30 days. bug #710728, bug #588606
-sys-auth/pam_radius
-
-# Sam James <sam@gentoo.org> (2020-08-04)
-# Unmaintained, out of date, serious security
-# issue.
-# Removal in 30 days. bug #658448.
-net-analyzer/nikto
-
 # Mikle Kolyada <zlogene@gentoo.org> (2020-08-02)
 # consolekit is abandoned upstream.
 # People are encouraged to switch to any logind
@@ -651,11 +642,6 @@ net-analyzer/nikto
 # Removal in 60 days (bug #727730)
 sys-auth/consolekit
 sec-policy/selinux-consolekit
-
-# Aaron Bauman <bman@gentoo.org> (2020-08-01)
-# Py2 only. Last upstream release 2013.
-# Removal in 30 days. Last 2 have deps on cddb.
-<media-sound/jack-4.0.0_pre
 
 # Michał Górny <mgorny@gentoo.org> (2020-07-28)
 # Masked for the time being due to dep on LLVM 8.  Bug #720236.
