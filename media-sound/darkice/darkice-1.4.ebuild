@@ -9,7 +9,7 @@ SRC_URI="https://github.com/rafael2k/${PN}/releases/download/v${PV}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~hppa ~ppc ~sparc x86"
 IUSE="aac aacplus alsa debug jack libsamplerate mp3 opus pulseaudio twolame vorbis"
 
 RDEPEND="aac? ( media-libs/faac )
@@ -28,6 +28,10 @@ REQUIRED_USE="|| ( aac aacplus mp3 opus twolame vorbis )
 		|| ( alsa jack pulseaudio )"
 
 DOCS=( AUTHORS ChangeLog FAQ NEWS README TODO )
+
+PATCHES=(
+	"${FILESDIR}/${PN}-1.3-include.patch"
+)
 
 src_configure() {
 	local myeconfargs=(
