@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit eutils flag-o-matic toolchain-funcs
+inherit flag-o-matic optfeature toolchain-funcs
 
 DESCRIPTION="Tail with multiple windows"
 HOMEPAGE="http://www.vanheusden.com/multitail/"
@@ -11,7 +11,7 @@ SRC_URI="http://www.vanheusden.com/multitail/${P}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ~ia64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~hppa ~ia64 ~ppc ~sparc x86 ~amd64-linux ~x86-linux"
 IUSE="debug examples unicode"
 RESTRICT="test" # bug 492270
 
