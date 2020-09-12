@@ -32,6 +32,33 @@
 
 #--- END OF EXAMPLES ---
 
+# Zac Medico <zmedico@gentoo.org> (2020-09-11)
+# Upstream is inactive and does not support OpenSSL 1.1.
+# Removal in 30 days. Bug #741614.
+net-vpn/peervpn
+
+# Thomas Deutschmann <whissi@gentoo.org> (2020-09-11)
+# These versions are not compatible with current stable
+# dev-libs/openssl version, bug #741622.
+# Removal in 30 days. Please migrate to newer slots.
+=virtual/mysql-5.5-r2
+dev-db/mariadb:5.5
+dev-db/mariadb:10.1
+
+# Michał Górny <mgorny@gentoo.org> (2020-09-11)
+# 7.3.2 release candidates.  Masked for testing.
+=dev-python/pypy-7.3.2_rc*
+=dev-python/pypy3-7.3.2_rc*
+=dev-python/pypy-exe-7.3.2_rc*
+=dev-python/pypy3-exe-7.3.2_rc*
+
+# Thomas Beierlein <tomjbe@gentoo.org> (2020-09-09)
+# Depends on obsolete gnome-base/libgnomeui. 
+# Upstream promised to have a better version 
+# for nearly a year now, but no release in sight.
+# Masked for removal in 30 days.
+sci-electronics/linsmith
+
 # Louis Sautier <sbraz@gentoo.org> (2020-09-10)
 # Masked for removal in 30 days, no revdeps.
 # All former consumers now use os.sendfile available in Python >= 3.3.
@@ -103,12 +130,10 @@ x11-misc/dsx
 #
 # net-analyzer/mk-livestatus: py3 bug #735394, build failure bug #705430
 # sci-biology/vienna-rna: py3 bug #735438, build failure bug #707158
-# sci-libs/gmsh: py3 bug #735478, build failure bug #708386
 # sys-cluster/ganglia: py3 bug #735496, build failure bug #631270
 # sys-fs/owfs: py3 bug #735502, build failure bug #707438
 net-analyzer/mk-livestatus
 sci-biology/vienna-rna
-sci-libs/gmsh
 sys-cluster/ganglia
 sys-cluster/ganglia-web
 sys-fs/owfs
@@ -616,11 +641,6 @@ dev-tex/crosstex
 # Masked for removal after 2020-10-01.
 # Bug #629272
 app-admin/apg
-
-# Sam James <sam@gentoo.org> (2020-08-12)
-# Obsolete. Now included in texlive.
-# Removal in 30 days.
-app-text/vlna
 
 # Matt Turner <mattst88@gentoo.org> (2020-08-11)
 # No longer needed with virtual/opencl-3
