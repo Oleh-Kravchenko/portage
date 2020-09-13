@@ -32,6 +32,33 @@
 
 #--- END OF EXAMPLES ---
 
+# Sam James <sam@gentoo.org> (2020-09-12)
+# Merged into dev-texlive/texlive-bibtexextra
+# Removal in 30 days
+dev-tex/biblatex-apa
+
+# Mikle Kolyada <zlogene@gentoo.org> (2020-09-12)
+# Merged into the texlive-core package.
+# Removal in 30 days
+dev-tex/detex
+
+# Mikle Kolyada <zlogene@gentoo.org> (2020-09-12)
+# Has been a part of a cstex macro for a long time.
+# The cste xmacro is provided by the
+# dev-texlive/texlive-langczechslovak package.
+# Removal in 30 days
+dev-tex/csindex
+
+# Mikle Kolyada <zlogene@gentoo.org> (2020-09-12)
+# Dead upstream and does not build.
+# Removal in 30 days
+dev-tex/dvipost
+
+# Louis Sautier <sbraz@gentoo.org> (2020-09-12)
+# Masked for removal in 30 days, unmaintained, no revdeps.
+# Former dependency of app-admin/supervisor.
+dev-python/meld3
+
 # Zac Medico <zmedico@gentoo.org> (2020-09-11)
 # Upstream is inactive and does not support OpenSSL 1.1.
 # Removal in 30 days. Bug #741614.
@@ -314,12 +341,6 @@ net-mail/maildirtree
 # Does not compile against ghc-8.8. Removal in 30 days.
 dev-haskell/bio
 
-# Sergei Trofimovich <slyfox@gentoo.org> (2020-08-27)
-# Abandoned upstream.
-# Does not compile against ghc-8.8. Removal in 30 days.
-# Bug #735844.
-dev-haskell/chell-quickcheck
-
 # Piotr Karbowski <slashbeast@gentoo.org> (2020-08-28)
 # Temporary mask due to multiple reports of segfaults at startup, bug #739056 
 =x11-base/xorg-server-1.20.9
@@ -371,12 +392,6 @@ dev-haskell/certificate
 # Obsolete package without reverse dependencies.
 # Does not compile against ghc-8.8. Removal in 30 days.
 dev-lang/epic
-
-# Sergei Trofimovich <slyfox@gentoo.org> (2020-08-22)
-# Obsolete package without reverse dependencies.
-# Does not compile against ghc-8.8. Removal in 30 days.
-# Bug #735868.
-dev-haskell/cmdlib
 
 # Michał Górny <mgorny@gentoo.org> (2020-08-22)
 # Dead since 2011.  Frowned upon for years now.  Python 2 only.
@@ -595,21 +610,11 @@ dev-ruby/mysql2:0.4
 dev-ruby/regexp_property_values:0
 dev-ruby/request_store:1.0.5
 
-# Sergei Trofimovich <slyfox@gentoo.org> (2020-08-15)
-# Obsolete package without reverse dependencies.
-# Does not compile against current ghc-8.8. Removal in 30 days.
-dev-haskell/crypto-conduit
-
 # Mart Raudsepp <leio@gentoo.org> (2020-08-15)
 # Development release, needs testing to ensure valac-0.50
 # works for existing packages
 >=dev-libs/vala-common-0.49
 dev-lang/vala:0.50
-
-# Sergei Trofimovich <slyfox@gentoo.org> (2020-08-15)
-# Obsolete package without reverse dependencies.
-# Does not compile against current ghc-8.8. Removal in 30 days.
-dev-haskell/blaze-builder-enumerator
 
 # Sergei Trofimovich <slyfox@gentoo.org> (2020-08-14)
 # Was subsumed by dev-haskell/network. Use that instead.
@@ -641,27 +646,6 @@ dev-tex/crosstex
 # Masked for removal after 2020-10-01.
 # Bug #629272
 app-admin/apg
-
-# Matt Turner <mattst88@gentoo.org> (2020-08-11)
-# No longer needed with virtual/opencl-3
-# Masked for removal in 30 days. Bug #728284
-app-eselect/eselect-opencl
-
-# Matt Turner <mattst88@gentoo.org> (2020-08-11)
-# Replaced by media-libs/libglvnd.
-# Masked for removal in 30 days. Bug #728286
-app-eselect/eselect-opengl
-
-# Matt Turner <mattst88@gentoo.org> (2020-08-11)
-# NVIDIA declared this branch to have reached end of life about six months ago.
-# Blocks removal of app-eselect/eselect-opengl and app-eselect/eselect-opencl.
-# Masked for removal in 30 days. Bug #728290
-x11-drivers/nvidia-drivers:0/340
-
-# Miroslav Šulc <fordfrog@gentoo.org> (2020-08-11)
-# Package dead. No consumers in the tree.
-# Removal in 30 days. Bug #735518
-x11-libs/flowcanvas
 
 # Michał Górny <mgorny@gentoo.org> (2020-08-09)
 # Build tool with no revdeps left.
@@ -789,12 +773,6 @@ sys-cluster/kube-scheduler
 <net-wireless/gr-ieee802154-0.0_p20191006
 <net-wireless/gr-iqbal-0.38.1
 <net-wireless/gr-osmosdr-0.2.0
-
-# Jonas Stein <jstein@gentoo.org> (2020-07-04)
-# Last rite, dead upstream, several open bugs.
-# Removal after 2020-09-01
-# Bug #730640
-net-misc/termpkg
 
 # Stephan Hartmann <sultan@gentoo.org> (2020-09-06)
 # Dev channel releases are only for people who
