@@ -32,6 +32,38 @@
 
 #--- END OF EXAMPLES ---
 
+# James Le Cuirot <chewi@gentoo.org> (2020-09-13)
+# License issues. app-arch/arj is a better alternative. Removal in 30
+# days. See bug #694746.
+app-arch/unarj
+
+# Jonas Stein <jstein@gentoo.org> (2020-09-13)
+# mpv bash completion is no longer needed and the package is not
+# compatible with the remaining packages.
+# Masked for removal after 2020-11-01.
+# Bug #742395
+app-shells/mpv-bash-completion
+
+# Louis Sautier <sbraz@gentoo.org> (2020-09-13)
+# Masked for removal in 30 days, unmaintained, no more revdeps.
+dev-python/args
+
+# Sam James <sam@gentoo.org> (2020-09-13)
+# Dead upstream, EAPI 4, no maintainer
+# Removal in 30 days
+net-dialup/tkvoice
+
+# Sam James <sam@gentoo.org> (2020-09-13)
+# Dead upstream, EAPI 4, no maintainer
+# Removal in 30 days
+# bug #740954
+dev-lang/cll1h
+
+# Sam James <sam@gentoo.org> (2020-09-12)
+# Merged into app-text/texlive-core
+# Removal in 30 days
+dev-tex/chktex
+
 # Sam James <sam@gentoo.org> (2020-09-12)
 # Merged into dev-texlive/texlive-bibtexextra
 # Removal in 30 days
@@ -755,7 +787,6 @@ net-libs/nDPI
 # https://www.gentoo.org/support/news-items/2020-04-03-kubernetes-moving-to-single-package.html
 #
 # Removal in 60 days. Bug #731804
-sys-cluster/kubeadm
 sys-cluster/kube-apiserver
 sys-cluster/kube-controller-manager
 sys-cluster/kubectl
