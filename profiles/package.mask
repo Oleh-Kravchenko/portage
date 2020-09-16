@@ -32,6 +32,19 @@
 
 #--- END OF EXAMPLES ---
 
+# Sam James <sam@gentoo.org> (2020-09-15)
+# No longer exists upstream, stuck on long-obsolete EAPI 4,
+# and fails to build with glibc-2.32.
+# Vestige of Gentoo/FreeBSD.
+# bug #715506, #737892, #740916, #547244.
+sys-fs/ufsutils
+
+# Stephan Hartmann <sultan@gentoo.org> (2020-09-15)
+# Stuck on EAPI 4, does not build, homepage gone, no maintainer.
+# Removal in 30 days. See bugs #717188, #725212, #736607,
+# #742158.
+net-nntp/sn
+
 # James Le Cuirot <chewi@gentoo.org> (2020-09-13)
 # License issues. app-arch/arj is a better alternative. Removal in 30
 # days. See bug #694746.
@@ -112,8 +125,8 @@ dev-db/mariadb:10.1
 =dev-python/pypy3-exe-7.3.2_rc*
 
 # Thomas Beierlein <tomjbe@gentoo.org> (2020-09-09)
-# Depends on obsolete gnome-base/libgnomeui. 
-# Upstream promised to have a better version 
+# Depends on obsolete gnome-base/libgnomeui.
+# Upstream promised to have a better version
 # for nearly a year now, but no release in sight.
 # Masked for removal in 30 days.
 sci-electronics/linsmith
@@ -374,7 +387,7 @@ net-mail/maildirtree
 dev-haskell/bio
 
 # Piotr Karbowski <slashbeast@gentoo.org> (2020-08-28)
-# Temporary mask due to multiple reports of segfaults at startup, bug #739056 
+# Temporary mask due to multiple reports of segfaults at startup, bug #739056
 =x11-base/xorg-server-1.20.9
 
 # Marek Szuba <marecki@gentoo.org> (2020-08-26)
@@ -755,6 +768,7 @@ sys-cluster/kube-scheduler
 
 # Michał Górny <mgorny@gentoo.org> (2020-07-13)
 # Python 2 dev-python/pillow revdeps with extended removal time.
+# Also the only revdeps of dev-python/matplotlib-python2.
 # Removal in 90 days.  Bug #729672.
 <net-wireless/gnuradio-3.8
 <net-wireless/gr-iio-0.3_p20191219-r1
@@ -763,6 +777,7 @@ sys-cluster/kube-scheduler
 <net-wireless/gr-ieee802154-0.0_p20191006
 <net-wireless/gr-iqbal-0.38.1
 <net-wireless/gr-osmosdr-0.2.0
+dev-python/matplotlib-python2
 
 # Stephan Hartmann <sultan@gentoo.org> (2020-09-06)
 # Dev channel releases are only for people who
