@@ -5475,7 +5475,9 @@ net-analyzer/wireshark:dpauxmon - Install dpauxmon, an external capture interfac
 net-analyzer/wireshark:dumpcap - Install dumpcap, to dump network traffic from inside wireshark
 net-analyzer/wireshark:editcap - Install editcap, to edit and/or translate the format of capture files
 net-analyzer/wireshark:http2 - Use net-libs/nghttp2 for HTTP/2 support
+net-analyzer/wireshark:ilbc - Build with iLBC support in RTP Player using media-libs/libilbc
 net-analyzer/wireshark:libxml2 - Use dev-libs/libxml2 for handling XML configuration in dissectors
+net-analyzer/wireshark:lto - Enable link time optimization
 net-analyzer/wireshark:maxminddb - Use dev-libs/libmaxminddb for IP address geolocation
 net-analyzer/wireshark:mergecap - Install mergecap, to merge two or more capture files into one
 net-analyzer/wireshark:minizip - Build with zip file compression support
@@ -7633,6 +7635,7 @@ sci-misc/tango:zeromq - Allow to use ZeroMQ broker via net-libs/zeromq
 sci-physics/bullet:bullet3 - Build Bullet 3
 sci-physics/bullet:double-precision - Build libraries in double precision
 sci-physics/bullet:extras - Build additional libraries
+sci-physics/bullet:tbb - Enable multithreading with the Intel Threads Building Block dev-cpp/tbb
 sci-physics/cernlib-montecarlo:herwig - Build Herwig internal event generator, newer version available in sci-physics/herwig
 sci-physics/espresso:cuda - Enable cuda support
 sci-physics/espresso:examples - Installs the examples
