@@ -199,6 +199,7 @@ app-admin/vault:webui - Enable the Web UI
 app-admin/webalizer:xtended - Include the 404 extension
 app-admin/webapp-config:portage - Propagete python_targets dependencies to sys-apps/portage
 app-antivirus/clamav:clamdtop - A Top like tool which shows what clamd is currently scanning amongst other things
+app-antivirus/clamav:clamonacc - Build the clamonacc on-access scanner
 app-antivirus/clamav:clamsubmit - A tool to submit false positives / negatives
 app-antivirus/clamav:libclamav-only - Bypass building of libfreshclam and the ClamAV CLI applications.
 app-antivirus/clamav:metadata-analysis-api - Enables collection of file property metadata using ClamAV API for analysis by ClamAV bytecode programs.
@@ -1872,8 +1873,6 @@ dev-lang/gnat-gpl:sanitize - Build support for various sanitizer functions (ASAN
 dev-lang/gnat-gpl:ssp - Build packages with stack smashing protector on by default
 dev-lang/gnat-gpl:systemtap - enable systemtap static probe points
 dev-lang/gnat-gpl:vtv - Build support for virtual table verification (a C++ hardening feature)
-dev-lang/go:gccgo - Bootstrap using sys-devel/gcc[go]
-dev-lang/go:system-bootstrap - Bootstrap using previously installed dev-lang/go
 dev-lang/icon:iplsrc - install the icon programming library source
 dev-lang/janet:static-libs - install janet static library archive, you must enable this flag for using `jpm build`
 dev-lang/jsonnet:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
@@ -1969,13 +1968,13 @@ dev-lang/smlnj:pax_kernel - Enable if the user plans to run the package under a 
 dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 dev-lang/spidermonkey:debug - Enable assertions to allow for easier debugging of programs that link to spidermonkey -- note this will often crash software on regular end-user systems
 dev-lang/spidermonkey:system-icu - Use the system-wide dev-libs/icu instead of bundled -- note, only takes effect when icu flag is enabled
-dev-lang/spidermonkey:threadsafe - Build a threadsafe version of spidermonkey
 dev-lang/swi-prolog:archive - Use libarchive for extension packs
 dev-lang/swi-prolog:uuid - Use ossp-uuid for UUID pack
 dev-lang/swi-prolog:yaml - Use libyaml for YAML pack
 dev-lang/swig:ccache - build ccache-swig(a fast compiler cache)
 dev-lang/vala:valadoc - Installs valadoc documentation generation tool
 dev-lang/yap:R - Enable support for connecting R to Prolog
+dev-lang/yap:raptor - Enable support for Raptor RDF syntax libarary
 dev-lang/zig:experimental - Enable builds that do not support all of LLVM's target architectures
 dev-libs/antlr-c:debugger - Compiles debug info into the library
 dev-libs/appstream:apt - Enables Debians APT support
@@ -2544,7 +2543,6 @@ dev-python/kombu:msgpack - Enables MessagePack (de)serializer for Python
 dev-python/kombu:redis - Enables Redis backend
 dev-python/kombu:sqs - Enables Amazon SQS transport module for Kombu
 dev-python/kombu:yaml - Enables yaml backend
-dev-python/markdown:pygments - Enable fancy pygments support
 dev-python/matplotlib:excel - Pull dev-python/xlwt for the exceltools toolkit
 dev-python/matplotlib:gtk3 - Enable x11-libs/gtk+:3 support
 dev-python/matplotlib-python2:excel - Pull dev-python/xlwt for the exceltools toolkit
@@ -2965,9 +2963,12 @@ dev-util/molecule:plugins - Add plugins provided by dev-util/molecule-plugins
 dev-util/nemiver:memoryview - Enable the optional hexadecimal memory inspection with app-editors/ghex
 dev-util/nvidia-cuda-sdk:cuda - Build CUDA binaries
 dev-util/nvidia-cuda-sdk:opencl - Build OpenCL binaries
-dev-util/nvidia-cuda-toolkit:debugger - Installs the CUDA debugger
-dev-util/nvidia-cuda-toolkit:eclipse - Install plugins for eclipse
-dev-util/nvidia-cuda-toolkit:profiler - Installs the NVIDIA CUDA visual profiler
+dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
+dev-util/nvidia-cuda-toolkit:eclipse - Install Eclipse plugins
+dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
+dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
+dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitiazer tool
+dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 dev-util/oprofile:apidoc - Provide doxygen generated API docs.
 dev-util/ostree:archive - Use libarchive
 dev-util/ostree:dracut - Install dracut module
@@ -4400,6 +4401,8 @@ media-libs/qtav:gui - Build a video player gui
 media-libs/quvi:json - Enable support for JSON output
 media-libs/raptor:json - Enable support for JSON parsing
 media-libs/raspberrypi-userland-bin:hardfp - Use armv6 hardfp ABI
+media-libs/rubberband:programs - Builds also executable applications
+media-libs/rubberband:vamp - Enables vamp plugins support (Audio analysing plugins)
 media-libs/sdl-mixer:fluidsynth - Use media-sound/fluidsynth for MIDI support
 media-libs/sdl-mixer:midi - basic support for MIDI files
 media-libs/sdl-mixer:mod - basic support for MOD files
@@ -5525,7 +5528,6 @@ net-dns/avahi:autoipd - Build and install the IPv4LL (RFC3927) network address c
 net-dns/avahi:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted)
 net-dns/avahi:gtk - Use gtk3 for the avahi utilities (overrides USE=gtk2) and build the avahi-ui-gtk3 library
 net-dns/avahi:gtk2 - Use gtk2 for the avahi utilities (overridden by USE=gtk) and build the avahi-ui library
-net-dns/avahi:gtk3 - Use gtk3 for the avahi utilities (overrides USE=gtk) and build the avahi-ui-gtk3 library
 net-dns/avahi:howl-compat - Enable compat libraries for howl
 net-dns/avahi:mdnsresponder-compat - Enable compat libraries for mDNSResponder
 net-dns/bind:dlz - Enables dynamic loaded zones, 3rd party extension
@@ -7213,6 +7215,7 @@ sci-electronics/kicad:python - Enable python scripting support
 sci-electronics/kicad-meta:minimal - Do not install extra data like 3D packages and templates.
 sci-electronics/kicad-packages3d:occ - Use sci-libs/opencascade for data exchange
 sci-electronics/kicad-packages3d:oce - Use sci-libs/oce for data exchange
+sci-electronics/ktechlab:gpsim - Enable support for Microchip PIC microcontrollers similation using dev-embedded/gpsim
 sci-electronics/ngspice:deprecated - Build old and deprecated apps
 sci-electronics/ngspice:shared - Build ngspice as a shared library
 sci-electronics/pcb:gcode - gcode file export
