@@ -501,17 +501,6 @@ app-emulation/fuse:backend-sdl - Use SDL rendering backend
 app-emulation/fuse:backend-svga - Use svgalib rendering backend
 app-emulation/fuse:memlimit - Add compile-time memory usage limiting
 app-emulation/fuse-utils:gcrypt - Use dev-libs/libgcrypt for low-level crypto of some features, including logfiles.
-app-emulation/ganeti:drbd - Enable DRBD support
-app-emulation/ganeti:experimental - Enable experimental patches. Warning! This will break RPC within major versions if the patches applied differ!
-app-emulation/ganeti:haskell-daemons - Build haskell daemons instead of python
-app-emulation/ganeti:htools - Enable htools support
-app-emulation/ganeti:kvm - Enable KVM support
-app-emulation/ganeti:lxc - Enable Linux Countainers support
-app-emulation/ganeti:monitoring - Enable the ganeti monitoring daemon
-app-emulation/ganeti:multiple-users - Enable support for running VMs as different users
-app-emulation/ganeti:rbd - Enable rados block device support via sys-cluster/ceph
-app-emulation/ganeti:restricted-commands - Enable restricted commands in the node daemon
-app-emulation/ganeti:xen - Enable Xen support
 app-emulation/hyperd:libvirt - Enable support for KVM via libvirt
 app-emulation/hyperd:xen - Enable support for the Xen Hypervisor
 app-emulation/libcacard:passthrough - Enable smartcard passthrough support via sys-apps/pcsc-lite
@@ -546,7 +535,7 @@ app-emulation/libvirt:qemu - Support management of QEMU virtualisation (app-emul
 app-emulation/libvirt:rbd - Enable rados block device support via sys-cluster/ceph
 app-emulation/libvirt:vepa - Virtual Ethernet Port Aggregator (VEPA) / 802.1Qbg support. Relies on macvtap support.
 app-emulation/libvirt:virt-network - Enable virtual networking (NAT) support for guests. Includes all the dependencies for NATed network mode. Effectively any network setup that relies on libvirt to setup and configure network interfaces on your host. This can include bridged and routed networks ONLY if you are allowing libvirt to create and manage the underlying devices for you. In some cases this requires enabling the 'netcf' USE flag (currently unavailable).
-app-emulation/libvirt:virtualbox - Support management of VirtualBox virtualisation (one of app-emulation/virtualbox or app-emulation/virtualbox-bin)
+app-emulation/libvirt:virtualbox - Support management of VirtualBox virtualisation (app-emulation/virtualbox)
 app-emulation/libvirt:wireshark-plugins - Build the net-analyzer/wireshark plugin for the Libvirt RPC protocol
 app-emulation/libvirt:xen - Support management of Xen virtualisation (app-emulation/xen)
 app-emulation/libvirt:zfs - Enable ZFS backend storage sys-fs/zfs
@@ -643,12 +632,6 @@ app-emulation/virtualbox:pax_kernel - Apply patch needed for pax enabled kernels
 app-emulation/virtualbox:sdk - Enable building of SDK
 app-emulation/virtualbox:udev - Controls installation of special USB udev rules.
 app-emulation/virtualbox:vboxwebsrv - Build and install the VirtualBox webservice
-app-emulation/virtualbox-bin:additions - Install Guest System Tools ISO
-app-emulation/virtualbox-bin:chm - Install kchmviewer binary to enable online help (in MS CHM format)
-app-emulation/virtualbox-bin:headless - Install without any graphic frontend
-app-emulation/virtualbox-bin:rdesktop-vrdp - Install the rdesktop client integration
-app-emulation/virtualbox-bin:sdk - Enable building of SDK
-app-emulation/virtualbox-bin:vboxwebsrv - Install the VirtualBox webservice
 app-emulation/virtualbox-modules:pax_kernel - Apply patch needed for pax enabled kernels
 app-emulation/vkd3d:spirv-tools - Enable SPIRV shader debugging support using dev-util/spirv-tools
 app-emulation/wine-staging:capi - Enable ISDN support via CAPI
@@ -732,11 +715,6 @@ app-forensics/honggfuzz:clang - Enable clang support (pull sys-libs/blocksruntim
 app-forensics/libewf:bfio - Enables libbfio for chaining file in file handling
 app-forensics/libewf:fuse - Enable fuse support for ewfmount
 app-forensics/libewf:uuid - Enable UUID support in the ewftools
-app-forensics/openscap:gconf - Build the gconf independant probes
-app-forensics/openscap:nss - Prefer NSS over libgcrypt as the crypto engine
-app-forensics/openscap:rpm - Compiles the RPM probes
-app-forensics/openscap:sce - Enables Script Check Engine (SCE) support
-app-forensics/openscap:sql - Build the sql independant probes
 app-forensics/quickfuzz:archs - support archive formats
 app-forensics/quickfuzz:codes - support cource code formats
 app-forensics/quickfuzz:docs - support document formats
@@ -1009,8 +987,6 @@ app-misc/vifm:extended-keys - Support for extended keys (arrows, home etc)
 app-misc/vifm:gtk - Use gtk+ to determine mimetypes
 app-misc/vifm:vim - Install the vifm vim plugin and vim-compatible documentation
 app-misc/worker:avfs - Enable support for sys-fs/avfs
-app-misc/workrave:mate - Add support for MATE panel
-app-misc/workrave:xfce - Add support for XFCE panel
 app-misc/zygrib:maps - Installs additional GSHHS maps for high resolution coastline data and cities
 app-mobilephone/adb-sync:channel - Install the adb-channel script
 app-mobilephone/gammu:bluetooth - Enables bluetooth support
@@ -1484,6 +1460,7 @@ dev-games/mygui:samples - Install MyGUI demos (needs ogre USE flag)
 dev-games/mygui:tools - Build the tools for development
 dev-games/ode:double-precision - more precise calculations at the expense of speed
 dev-games/ode:gyroscopic - enable gyroscopic term (may cause instability)
+dev-games/ogre:assimp - Use media-libs/assimp to import assets from 3D files
 dev-games/ogre:boost - Enable boost support
 dev-games/ogre:cache - Enable GL state cache support
 dev-games/ogre:cg - NVIDIA toolkit plugin
@@ -1501,7 +1478,7 @@ dev-games/ogre:ois - Pull in Object-oriented Input System library dev-games/ois 
 dev-games/ogre:poco - When USE=threads, use poco for threading
 dev-games/ogre:resman-pedantic - Resource Manager PEDANTIC : require an explicit resource group. Case sensitive lookup. Some demos might not work with this setting. (default: case-insensitive + sensitive lookup in all groups)
 dev-games/ogre:tbb - When USE=threads, use tbb for threading
-dev-games/ogre:tools - Build and install MeshUpgrader, VRMLConverter and XMLConverter
+dev-games/ogre:tools - Build and install AssimpConverter (assimp USE flag is enabled), MeshUpgrader, VRMLConverter and XMLConverter
 dev-games/openscenegraph:asio - Enable support for dev-cpp/asio library
 dev-games/openscenegraph:dicom - Enable DICOM medical image file support via sci-libs/dcmtk
 dev-games/openscenegraph:egl - Enable EGL support
@@ -1550,7 +1527,6 @@ dev-haskell/bytedump:executable - build executable file
 dev-haskell/bytes:test-doctests - Enable the doctest suite when using the enable-tests option for cabal.
 dev-haskell/c2hs:regression - run regression tests
 dev-haskell/cabal-install:native-dns - Enable use of the resolv and windns packages for performing DNS lookups
-dev-haskell/certificate:executable - Build the executable
 dev-haskell/chaselev-deque:debug - Enable the extra internal checks.
 dev-haskell/chell:color-output - use colors in program output
 dev-haskell/chimera:representable - Define Representable instance from adjunctions package
@@ -2535,9 +2511,6 @@ dev-python/icalendar:doc - Generate examples and other extra documentation
 dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
 dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
 dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
-dev-python/jira:jirashell - Include dependencies for jirashell (ipython, oauthlib)
-dev-python/jira:kerberos - Support Kerberos authentication
-dev-python/jira:oauth - Support OAuth authentication
 dev-python/kombu:mongodb - Enables MongoDB backend
 dev-python/kombu:msgpack - Enables MessagePack (de)serializer for Python
 dev-python/kombu:redis - Enables Redis backend
@@ -2942,7 +2915,6 @@ dev-util/idea-community:jbr11 - Install and use the Java 11 based version of Jet
 dev-util/idea-community:jbr8 - Install and use the Java 8 based version of JetBrains Runtime.
 dev-util/intel-ocl-sdk:android - Install android related files
 dev-util/intel-ocl-sdk:system-boost - Use system boost (dev-libs/boost) instead of bundled one
-dev-util/intel-ocl-sdk:system-clang - Use system clang (sys-devel/clang) instead of bundled one
 dev-util/intel-ocl-sdk:system-tbb - Use system Thread Building Blocks (dev-cpp/tbb) instead of bundled one
 dev-util/kdevelop:gdbui - Enable GUI for attaching GDB to a running process
 dev-util/kdevelop:hex - Enable hex editor plugin via app-editors/okteta
@@ -2959,7 +2931,6 @@ dev-util/mingw64-runtime:idl - Install idl files.
 dev-util/mingw64-runtime:libraries - Build extra libraries: mangle, pseh, winpthreads.
 dev-util/mingw64-runtime:secure-api - Expose secure API (*_s function) by default.
 dev-util/mingw64-runtime:tools - Build extra tools: gendef, genidl.
-dev-util/molecule:plugins - Add plugins provided by dev-util/molecule-plugins
 dev-util/nemiver:memoryview - Enable the optional hexadecimal memory inspection with app-editors/ghex
 dev-util/nvidia-cuda-sdk:cuda - Build CUDA binaries
 dev-util/nvidia-cuda-sdk:opencl - Build OpenCL binaries
@@ -4150,7 +4121,6 @@ media-gfx/pstoedit:pptx - Enable support for generating PowerPoint pptx files
 media-gfx/qimgv:opencv - Enable HQ scaling via media-libs/opencv
 media-gfx/qimgv:video - Add support for gif/webm playback via libmpv
 media-gfx/shotwell:opencv - Enable face detection via media-libs/opencv
-media-gfx/sigal:s3 - Enables support for the Amazon S3 service.
 media-gfx/ufraw:contrast - enable contrast setting option
 media-gfx/ufraw:fits - Enable support for the FITS image format through sci-libs/cfitsio
 media-gfx/ufraw:timezone - enable DST correction for file timestamps
@@ -5707,7 +5677,6 @@ net-fs/s3fs:gnutls - Enable net-libs/gnutls crypto backend
 net-fs/s3fs:nettle - Use dev-libs/nettle network functions with GnuTLS.
 net-fs/s3fs:nss - Enable dev-libs/nss crypto backend
 net-fs/s3fs:openssl - Enable dev-libs/openssl crypto backend
-net-fs/s3ql:contrib - Install additional contributed scripts
 net-fs/samba:addc - Enable Active Directory Domain Controller support
 net-fs/samba:addns - Enable AD DNS integration
 net-fs/samba:ads - Enable Active Directory support
@@ -7001,7 +6970,6 @@ net-wireless/bluez:midi - Enable MIDI support
 net-wireless/bluez:obex - Enable OBEX transfer support
 net-wireless/bluez:test-programs - Install tools for testing of various Bluetooth functions
 net-wireless/bluez:user-session - Allow compatibility with user-session semantics for session bus under systemd
-net-wireless/chirp:radioreference - support downloading data from radioreference.com (premium users only)
 net-wireless/crda:gcrypt - Use libgcrypt instead of openssl for key checking
 net-wireless/dump1090:bladerf - Build with Nuand BladeRF support
 net-wireless/dump1090:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
@@ -7230,7 +7198,6 @@ sci-electronics/pcb:toporouter - Build toporouter
 sci-electronics/pulseview:decode - Enable decoding of protocols while capturing
 sci-electronics/sigrok-cli:decode - Enable decoding of protocols while capturing
 sci-electronics/splat:hires - Builds additional high resolution application 'rfsplat-hd'
-sci-geosciences/gdal-grass:postgres - Include support for dev-db/postgresql
 sci-geosciences/gmt:gdal - Enable sci-libs/gdal library support
 sci-geosciences/gmt:gmttria - Non GNU triangulation method, more efficient
 sci-geosciences/gmt:gshhg - Install coastline database
@@ -7245,9 +7212,6 @@ sci-geosciences/gpsd:latency-timing - support latency timing information
 sci-geosciences/gpsd:ntp - Enable net-misc/ntp shared memory interface and PPS kernel support for GPS time
 sci-geosciences/gpsd:shm - export gpsd over shared memory
 sci-geosciences/gpsd:sockets - export gpsd over unix sockets
-sci-geosciences/grass:geos - Use sci-libs/geos for v.buffer and adds extended options to the v.select module
-sci-geosciences/grass:liblas - Include support for LAS and LAZ encoded LiDAR files through sci-geosciences/liblas
-sci-geosciences/grass:opencl - Enable OpenCL support
 sci-geosciences/gshhs:data - Add earth data with sci-geosciences/gshhs-data
 sci-geosciences/liblas:gdal - Add support for the sci-libs/gdal geospatial raster library
 sci-geosciences/mapnik:gdal - Enable sci-libs/gdal library support
@@ -7259,7 +7223,7 @@ sci-geosciences/merkaartor:libproxy - Use net-libs/libproxy for getting the HTTP
 sci-geosciences/merkaartor:webengine - Enable dev-qt/qtwebengine in some plugins
 sci-geosciences/qgis:3d - Build QGIS 3D library using dev-qt/qt3d
 sci-geosciences/qgis:georeferencer - Determines whether georeferencer plugin should be built
-sci-geosciences/qgis:grass - Add support for sci-geosciences/grass
+sci-geosciences/qgis:grass - Add support for grass
 sci-geosciences/qgis:hdf5 - Enable MDAL support for sci-libs/hdf5
 sci-geosciences/qgis:mapserver - Determines whether mapserver should be built
 sci-geosciences/qgis:netcdf - Enable MDAL support for GRIB and XMDF formats
@@ -7715,7 +7679,6 @@ sci-visualization/paraview:nvcontrol - Add NVCONTROL support for OpenGL options
 sci-visualization/paraview:offscreen - Offscreen rendering through OSMesa
 sci-visualization/paraview:plugins - Build and install additional plugins
 sci-visualization/paraview:webengine - Add support for dev-qt/qtwebengine
-sci-visualization/yt:hub - Connect to the yt hub with dev-python/girder-client
 sec-policy/selinux-base:open_perms - Enable the open permissions for file object classes (SELinux policy capability).
 sec-policy/selinux-base:peer_perms - Enable the labeled networking peer permissions (SELinux policy capability).
 sec-policy/selinux-base:ubac - Enable User Based Access Control (UBAC) in the SELinux policy
@@ -8677,9 +8640,6 @@ www-apps/roundup:tz - Enable full support of timezone
 www-apps/roundup:whoosh - Enable Whoosh full-text indexer
 www-apps/roundup:xapian - Enable Xapian full-text indexer
 www-apps/rt:lighttpd - Add www-servers/lighttpd support
-www-apps/trac:highlight - Enable syntax highlighting
-www-apps/trac:i18n - Enable support for i18n with dev-python/Babel
-www-apps/trac:restructuredtext - Enable support for reStructuredText for wiki formatting
 www-apps/tt-rss:daemon - Install additional init scripts for automated RSS updates
 www-apps/webdavcgi:rcs - Adds support for a revision controlled backend with RCS (dev-vcs/rcs)
 www-apps/websvn:enscript - Add enscript support to colorize code stored in the repository
