@@ -1108,7 +1108,6 @@ app-shells/bash-completion:eselect - Support blacklisting of completions via 'es
 app-shells/mksh:lksh - variant that uses POSIX-compliant arithmetics with the host “long” data type and is automatically in POSIX mode when called as /bin/sh
 app-shells/pdsh:rsh - This allows the use of rsh (remote shell) and rcp (remote copy) for authoring websites. sftp is a much more secure protocol and is preferred.
 app-shells/shish:diet - Use dev-libs/dietlibc
-app-text/asciidoc:highlight - Enable source code highlighting
 app-text/atril:caja - Enable property page extension in mate-base/caja
 app-text/atril:dvi - Enable build-in DVI viewer
 app-text/atril:epub - Enable build-in DVI viewer using net-libs/webkit-gtk
@@ -2065,10 +2064,12 @@ dev-libs/dbus-c++:ecore - Use Ecore integration
 dev-libs/dbus-c++:glib - Use glib integration
 dev-libs/eekboard:libcanberra - Enable support for media-libs/libcanberra
 dev-libs/eekboard:xtest - Enable support for x11-libs/libXtst
+dev-libs/efl:avif - Enable AVIF image loader
 dev-libs/efl:bmp - Enable WBMP image loader
 dev-libs/efl:dds - Enable DDS image loader
 dev-libs/efl:drm - Enable DRM engine
 dev-libs/efl:eet - Enable Eet image loader
+dev-libs/efl:efl-one - Combine multiple core libraries into one libefl.so
 dev-libs/efl:fribidi - Enable bidirectional text support
 dev-libs/efl:glib - Enable dev-libs/glib support
 dev-libs/efl:harfbuzz - Enable complex text shaping and layout support
@@ -3178,6 +3179,7 @@ games-engines/openmw:osg-fork - Use OpenSceneGraph forked by OpenMW instead of u
 games-engines/renpy:development - Install IDE for game developers and an empty game template
 games-engines/residualvm:mpeg2 - enable mpeg2 codec for cutscenes
 games-engines/scummvm:fluidsynth - compile with support for fluidsynth
+games-engines/scummvm:fribidi - Support for right-to-left languages via dev-libs/fribidi
 games-engines/scummvm:mpeg2 - enable mpeg2 codec for cutscenes
 games-engines/scummvm:net - enable cloud support via media-libs/sdl2-net
 games-engines/scummvm:speech - enable text-to-speech support through app-accessibility/speech-dispatcher
@@ -3298,7 +3300,6 @@ games-simulation/flightgear:udev - Enable event-based Input devices through virt
 games-simulation/flightgear:utils - Build various utilities (fgpanel, fgviewer among others)
 games-simulation/openrct2:lightfx - Enables LightFX for better lightning effects.
 games-simulation/openrct2:scripting - Enable the dev-lang/duktape scripting engine for executing user scripts.
-games-simulation/openrct2:twitch - Enables streaming of ingame content to Twitch.
 games-simulation/openttd:aplaymidi - Enables midi music in game, using aplaymidi as an external player
 games-simulation/openttd:dedicated - Build only the openttd server, and not the client.
 games-simulation/openttd:lzo - Enables LZO compression for savegames. This is only needed to load extremely old savegames. (versions before 0.2)
@@ -7980,6 +7981,7 @@ sys-auth/ssh-ldap-pubkey:schema - Install a copy of the LPK schema, only needed 
 sys-auth/sssd:acl - Build and use the cifsidmap plugin
 sys-auth/sssd:autofs - Build helper to let net-fs/autofs use sssd provided information
 sys-auth/sssd:locator - Install sssd's Kerberos plugin
+sys-auth/sssd:man - Build man pages with dev-libs/libxslt
 sys-auth/sssd:manpages - Build man pages with dev-libs/libxslt
 sys-auth/sssd:netlink - Add support for netlink protocol via dev-libs/libnl
 sys-auth/sssd:nfsv4 - Add support for the nfsv4 idmapd plugin provided by net-libs/libnfsidmap
