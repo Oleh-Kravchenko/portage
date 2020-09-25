@@ -79,6 +79,11 @@ src_configure() {
 	# Gold linker generates invalid object file when used with criu's custom
 	# linker script.  Use the bfd linker instead. See https://crbug.com/839665#c3
 	tc-ld-disable-gold
+
+	# Build system uses this variable as a trigger to append coverage flags
+	# we'd like to avoid it. https://bugs.gentoo.org/744244
+	unset GCOV
+
 	python_setup
 }
 
