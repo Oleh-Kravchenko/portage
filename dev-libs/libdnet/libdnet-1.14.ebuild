@@ -13,7 +13,7 @@ SRC_URI="https://github.com/ofalk/${PN}/archive/${P}.tar.gz"
 LICENSE="LGPL-2"
 
 SLOT="0"
-KEYWORDS="~alpha amd64 arm ~hppa ~ia64 ~mips ppc ppc64 sparc x86"
+KEYWORDS="~alpha amd64 arm hppa ~ia64 ~mips ppc ppc64 sparc x86"
 IUSE="python static-libs test"
 
 DEPEND="
@@ -26,6 +26,9 @@ RESTRICT="test"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 DOCS=( README.md THANKS TODO )
 S=${WORKDIR}/${PN}-${P}
+PATCHES=(
+	"${FILESDIR}"/${PN}-1.14-strlcpy.patch
+)
 
 src_prepare() {
 	default
