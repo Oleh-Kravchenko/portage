@@ -32,6 +32,17 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-09-27)
+# Obsolete package blocking unmasking of >=x11-libs/pango-1.44, dead upstream.
+# No reverse dependencies, bug #698922. Removal in 30 days.
+x11-libs/pangox-compat
+
+# Michał Górny <mgorny@gentoo.org> (2020-09-27)
+# Discontinued upstream.  Not ported to Python 3, and no patches seem
+# readily available.
+# Removal in 30 days.  Bug #714636.
+net-voip/telepathy-haze
+
 # Michał Górny <mgorny@gentoo.org> (2020-09-26)
 # These packages still require Python 2.7, or are dependencies of py2.7
 # packages.  They are either dead upstream, their Python 3 porting
@@ -39,14 +50,10 @@
 # unresponsive.  Please do not remove any packages from this list unless
 # you actually port them to Python 3.
 # Removal in 30 days.  Please find relevant bugs on tracker bug #694800.
-app-misc/klavaro
-dev-util/gtk-builder-convert
 games-arcade/diameter
 games-board/gnome-hearts
 net-analyzer/sguil-server
 net-analyzer/tcpflow
-sci-chemistry/rasmol
-sys-apps/gsmartcontrol
 
 # Michał Górny <mgorny@gentoo.org> (2020-09-26)
 # Dead Python 2-only package.  No significant revdeps left.
@@ -842,7 +849,7 @@ net-misc/gnome-remote-desktop
 >=virtual/libcrypt-2
 
 # Mart Raudsepp <leio@gentoo.org> (2020-02-03)
-# Known breakages that need to be handled first, bug 698922
+# Needs news item, known breakages that need to be handled first, bug 698922
 >=x11-libs/pango-1.43
 
 # Robin H. Johnson <robbat2@gentoo.org> (2020-01-26)
@@ -860,12 +867,6 @@ net-misc/gnome-remote-desktop
 =dev-lang/lua-5.1.5-r103
 =dev-lang/lua-5.2.4-r2
 =dev-lang/lua-5.3.5-r2
-
-# Michał Górny <mgorny@gentoo.org> (2020-01-16)
-# The new version loses Python 2 support but does not introduce any real
-# changes.  Let's mask it to reduce the noise, and hopefully try to get
-# python2_7 out of default PYTHON_TARGETS first.
->=dev-python/setuptools-47
 
 # Lars Wendler <polynomial-c@gentoo.org> (2019-11-14)
 # Breaks archives containing relative paths
