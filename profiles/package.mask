@@ -32,10 +32,23 @@
 
 #--- END OF EXAMPLES ---
 
+# David Seifert <soap@gentoo.org> (2020-10-03)
+# Broken for over 2 years, declared EOL by upstream,
+# the only revdep is media-gfx/pinta, which is also
+# broken. Bug #612592, #644232, #659436, #688722,
+# Removal in 30 days.
+dev-dotnet/mono-addins
+media-gfx/pinta
+
 # Andreas Sturmlechner <asturm@gentoo.org> (2020-09-27)
 # Obsolete package blocking unmasking of >=x11-libs/pango-1.44, dead upstream.
 # No reverse dependencies, bug #698922. Removal in 30 days.
 x11-libs/pangox-compat
+
+# Alexey Sokolov <alexey+gentoo@asokolov.org> (2020-10-03)
+# Package with no available HOMEPAGE, SRC_URI and multiple compilation issues.
+# Bug #741468, removal in 30 days.
+games-board/spider
 
 # Michał Górny <mgorny@gentoo.org> (2020-09-27)
 # Discontinued upstream.  Not ported to Python 3, and no patches seem
@@ -678,22 +691,6 @@ net-libs/nDPI
 ~virtual/perl-Time-HiRes-1.976.400
 ~virtual/perl-Time-Piece-1.340.100
 ~virtual/perl-Unicode-Normalize-1.270.0
-
-# William Hubbs <williamh@gentoo.org> (2020-07-14)
-# The kubernetes split packages are old versions with known security
-# issues.
-#
-#If you haven't already, please upgrade and migrate to sys-cluster/kubernetes:
-#
-# https://www.gentoo.org/support/news-items/2020-04-03-kubernetes-moving-to-single-package.html
-#
-# Removal in 60 days. Bug #731804
-sys-cluster/kube-apiserver
-sys-cluster/kube-controller-manager
-sys-cluster/kubectl
-sys-cluster/kubelet
-sys-cluster/kube-proxy
-sys-cluster/kube-scheduler
 
 # Michał Górny <mgorny@gentoo.org> (2020-07-13)
 # Python 2 dev-python/pillow revdeps with extended removal time.
