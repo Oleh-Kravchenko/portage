@@ -32,6 +32,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Ulrich Müller <ulm@gentoo.org> (2020-10-04)
+# Version 1.11 introduced different startup conventions for the server
+# which breaks the OpenRC init script. Bug #746227.
+>=net-misc/tigervnc-1.11.0
+
 # David Seifert <soap@gentoo.org> (2020-10-03)
 # Broken for over 2 years, declared EOL by upstream,
 # the only revdep is media-gfx/pinta, which is also
@@ -543,21 +548,6 @@ www-servers/cherokee
 # Nothing in the tree uses this lib anymore. Removing as redundant.
 # Removal in ~30 days. Bug #740868.
 dev-python/mini-amf
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-09-04)
-# No maintainer, defunct with modern browsers, bug #694024.
-# Masked for removal in 30 days.
-www-plugins/freshplayerplugin
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-09-04)
-# Depends on deprecated dev-qt/qtwebkit, maintainer unresponsive for 1.5 yr.;
-# Upstream dead, fork available, bug #684678. Masked for removal in 30 days.
-app-text/cutemarked
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-09-04)
-# Depends on deprecated dev-qt/qtwebkit, no more revdeps; bug #737928
-# Masked for removal in 30 days.
-kde-apps/libkgeomap
 
 # Louis Sautier <sbraz@gentoo.org> (2020-09-04)
 # Masked for removal in 30 days, no revdeps. Dependency of

@@ -18,7 +18,7 @@ fi
 MOZ_PN="${PN%-bin}"
 MOZ_P="${MOZ_PN}-${MOZ_PV}"
 
-inherit desktop pax-utils
+inherit desktop pax-utils xdg
 
 MOZ_SRC_BASE_URI="https://archive.mozilla.org/pub/${MOZ_PN}/releases/${MOZ_PV}"
 
@@ -35,12 +35,7 @@ IUSE="+alsa +ffmpeg +gmp-autoupdate +pulseaudio selinux wayland"
 
 RESTRICT="strip"
 
-BDEPEND="app-arch/unzip
-	alsa? (
-		!pulseaudio? (
-			dev-util/patchelf
-		)
-	)"
+BDEPEND="app-arch/unzip"
 
 CDEPEND="alsa? (
 		!pulseaudio? (

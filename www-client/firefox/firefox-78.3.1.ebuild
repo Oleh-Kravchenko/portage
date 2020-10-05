@@ -7,7 +7,7 @@ FIREFOX_PATCHSET="firefox-esr-78-patches-02.tar.xz"
 
 LLVM_MAX_SLOT=11
 
-PYTHON_COMPAT=( python3_{6..9} )
+PYTHON_COMPAT=( python3_{7..9} )
 PYTHON_REQ_USE="ncurses,sqlite,ssl"
 
 WANT_AUTOCONF="2.1"
@@ -49,7 +49,7 @@ SRC_URI="${MOZ_SRC_BASE_URI}/source/${MOZ_P}.source.tar.xz
 DESCRIPTION="Firefox Web Browser"
 HOMEPAGE="https://www.mozilla.com/firefox"
 
-KEYWORDS="amd64 arm64 ~ppc64 ~x86"
+KEYWORDS="amd64 arm64 ~ppc64 x86"
 
 SLOT="0/esr$(ver_cut 1)"
 LICENSE="MPL-2.0 GPL-2 LGPL-2.1"
@@ -566,7 +566,11 @@ src_configure() {
 		mozconfig_add_options_ac '+debug' --disable-optimize
 	else
 		if is-flag '-g*' ; then
-			mozconfig_add_options_ac 'from CFLAGS' --enable-debug-symbols=$(get-flag '-g*')
+			if use clang ; then
+				mozconfig_add_options_ac 'from CFLAGS' --enable-debug-symbols=$(get-flag '-g*')
+			else
+				mozconfig_add_options_ac 'from CFLAGS' --enable-debug-symbols
+			fi
 		else
 			mozconfig_add_options_ac 'Gentoo default' --disable-debug-symbols
 		fi
