@@ -2975,7 +2975,6 @@ dev-util/uftrace:capstone - Use capstone to provide dynamic tracing without reco
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 dev-vcs/cssc:valgrind - Enable usage of dev-util/valgrind in tests
 dev-vcs/cvs:server - Enable server support
-dev-vcs/cvs2svn:bazaar - Support for dev-vcs/bzr
 dev-vcs/cvsync:gcrypt - Use dev-libs/libgcrypt for hash functions.
 dev-vcs/cvsync:mhash - Use app-crypt/mhash for hash functions.
 dev-vcs/cvsync:openssl - Use dev-libs/openssl for hash functions.
@@ -3587,6 +3586,7 @@ kde-apps/okular:markdown - Enable Markdown support via app-text/discount
 kde-apps/okular:mobi - Enable mobipocket support
 kde-apps/okular:mobile - Enable Plasma mobile support
 kde-apps/okular:plucker - Enable Plucker E-Book for Palm OS devices support
+kde-apps/okular:qml - Install Okular Qml components
 kde-apps/okular:share - Enable support for a share menu using kde-frameworks/purpose
 kde-apps/okular:speech - Enable text-to-speech support
 kde-apps/pimcommon:designer - Build plugins for dev-qt/designer
@@ -5261,9 +5261,6 @@ net-analyzer/icinga2:nano-syntax - Adds support for syntax used in the nano edit
 net-analyzer/icinga2:plugins - Adds support for nagios plugins
 net-analyzer/ipsumdump:nanotimestamp - Enable timestamps with nano-second resolution
 net-analyzer/linkchecker:sqlite - Mozilla Bookmark parsing
-net-analyzer/mk-livestatus:boost - Use dev-libs/boost for ASIO support
-net-analyzer/mk-livestatus:nagios4 - Generate a net-analyzer/nagios-4 compatible plugin
-net-analyzer/mk-livestatus:re2 - Use dev-libs/re2 for regex support
 net-analyzer/monitoring-plugins:dns - Install net-dns/bind-tools required for monitoring DNS servers. Disabling the flag does not remove any plugins.
 net-analyzer/monitoring-plugins:fping - Install net-analyzer/fping required for fancy ping monitoring. Disabling the flag does not remove any plugins.
 net-analyzer/monitoring-plugins:game - Install games-util/qstat required for monitoring FPS servers. Disabling the flag does not remove any plugins.
@@ -5835,6 +5832,8 @@ net-im/spectrum2:twitter - Enables the Twitter backend.
 net-im/spectrum2:whatsapp - Enables the WhatsApp backend, based on net-im/transwhat.
 net-im/swift:client - Build the full graphical XMPP client.
 net-im/swift:gconf - Enable configuration through gnome-base/gconf.
+net-im/teams:system-ffmpeg - Use the system-wide media-video/ffmpeg instead of bundled.
+net-im/teams:system-mesa - Use the system-wide media-libs/mesa instead of bundled.
 net-im/telegram-desktop:enchant - Enable the app-text/aspell spell-checking backend
 net-im/telegram-desktop:hunspell - Enable the app-text/hunspell spell-checking backend
 net-im/telepathy-connection-managers:gadu - Enable Gadu Gadu protocol support.
@@ -6632,10 +6631,6 @@ net-misc/sitecopy:rsh - This allows the use of rsh (remote shell) and rcp (remot
 net-misc/sitecopy:webdav - Enable WebDav (Web-based Distributed Authoring and Versioning) support. This system allows users to collaborate on websites using a web based interface. See the ebuild for an FAQ page. Enables neon as well to handle webdav support.
 net-misc/sks:optimize - Enables bytecode optimization
 net-misc/sntpd:adjtimex - Install adjtimex for the clock adjustment algorithm.
-net-misc/sntpd:debug - Enable analysis code path and debugging of NTP protocol.
-net-misc/sntpd:embedded - Build a very small ntpclient, from OpenWRT project.
-net-misc/sntpd:obsolete - Enable obsolete features, to use with kernel versions older than 3.0
-net-misc/sntpd:syslog - Enable logging to syslog instead of logging to stderr.
 net-misc/spice-gtk:gtk3 - Build the spice client (spicy), requires x11-libs/gtk+:3
 net-misc/spice-gtk:mjpeg - Enable builtin mjpeg video decoder
 net-misc/spice-gtk:policykit - Enable sys-auth/polkit support for the usbredir acl helper
@@ -7025,18 +7020,9 @@ net-wireless/iwd:ofono - Enable support for oFono SIM authentication
 net-wireless/iwd:standalone - Enable standalone mode with built-in DHCP client and DNS handling"
 net-wireless/iwd:systemd - Use systemd-resolve rather than resolvconf for DNS handling in standalone mode
 net-wireless/iwd:wired - Enable ethernet authentication daemon
-net-wireless/kismet:client - Build the ncurses-based user interface
 net-wireless/kismet:libusb - Support libusb based capture sources such as mousejack, cc2540(ble), and nrf51822(ble)
 net-wireless/kismet:pcre - Build with pcre support
-net-wireless/kismet:plugin-autowep - Build the autowep plugin
-net-wireless/kismet:plugin-btscan - Build the btscan plugin
-net-wireless/kismet:plugin-dot15d4 - Build the dot15d4 plugin
-net-wireless/kismet:plugin-ptw - Build the ptw plugin
-net-wireless/kismet:plugin-spectools - Build the spectools plugin. This uses net-wireless/spectools
-net-wireless/kismet:plugin-syslog - Build the syslog plugin.
 net-wireless/kismet:rtlsdr - Enable rtlsdr based kismet capture sources
-net-wireless/kismet:ruby - Build extras which are written in ruby, example plugins and the like.
-net-wireless/kismet:speech - Audio support using app-accessibility/flite
 net-wireless/kismet:suid - Install a setuid root helper binary with limited functionality; this allows running kismet as a normal user, significantly reducing security risks
 net-wireless/kismet:ubertooth - Enable capture source for ubertooth to sniff bluetooth low energy
 net-wireless/neard:tools - build and install extra helper utilities
@@ -7651,7 +7637,6 @@ sci-physics/thepeg:c++11 - Build ThePEG using the C++11 standard. Experimental f
 sci-physics/thepeg:fastjet - Adds support for sci-physics/fastjet
 sci-physics/thepeg:hepmc - Adds support for High Energy Physics Monte Carlo Generators sci-physics/hepmc
 sci-physics/thepeg:lhapdf - Adds support for sci-physics/lhapdf
-sci-physics/thepeg:rivet - Adds support for sci-physics/rivet
 sci-physics/vgm:c++11 - Build using the C++11 standard
 sci-physics/vgm:c++14 - Build using the C++14 standard
 sci-physics/vgm:c++17 - Build using the C++17 standard
@@ -8162,7 +8147,6 @@ sys-cluster/openstack-meta:neutron - Installs Openstack Neutron
 sys-cluster/openstack-meta:nova - Installs Openstack Nova
 sys-cluster/openstack-meta:placement - Installs Openstack Placement
 sys-cluster/openstack-meta:swift - Installs Openstack Swift
-sys-cluster/pacemaker:heartbeat - Enable sys-cluster/heartbeat support.
 sys-cluster/pacemaker:smtp - Enable SMTP support via net-libs/libesmtp
 sys-cluster/pmix:munge - Enable authentication via munge
 sys-cluster/pmix:pmi - Build PMI1 and PMI2 interface
@@ -8369,12 +8353,6 @@ sys-fs/multipath-tools:rbd - Enable Rados block device support via sys-cluster/c
 sys-fs/ntfs3g:external-fuse - Use external FUSE library instead of internal one. Must be disabled for unprivileged mounting to work.
 sys-fs/ntfs3g:ntfsdecrypt - Build and install the ntfsdecrypt application.
 sys-fs/ntfs3g:ntfsprogs - Include internal version of ntfsprogs.
-sys-fs/owfs:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
-sys-fs/owfs:ftpd - Enable building the OWFS FTP server (owftpd)
-sys-fs/owfs:fuse - Enable building the FUSE-based OWFS client (owfs)
-sys-fs/owfs:httpd - Enable building the OWFS web server (owhttpd)
-sys-fs/owfs:parport - Enable support for the DS1410E parallel port adapter
-sys-fs/owfs:zeroconf - Enables support for zero-configuration networking via net-dns/avahi
 sys-fs/quota:netlink - Compile daemon receiving quota messages via netlink
 sys-fs/quota:rpc - Enable quota interaction via RPC
 sys-fs/squashfs-tools:xz - Enable support for XZ ("LZMA2") compression using app-arch/xz-utils
@@ -8737,8 +8715,6 @@ www-servers/apache:static - Link in apache2 modules statically rather then plugi
 www-servers/apache:suexec - Install suexec with apache
 www-servers/apache:suexec-caps - Install suexec with capabilities instead of SUID
 www-servers/apache:suexec-syslog - Log suexec to syslog instead of to a separate file
-www-servers/cherokee:admin - Install web based cherokee conf tool
-www-servers/cherokee:rrdtool - Enable rrdtool support
 www-servers/civetweb:server - Build standalone server
 www-servers/fnord:auth - Enable HTTP authentication support
 www-servers/gatling:diet - Compile against dev-libs/dietlibc
