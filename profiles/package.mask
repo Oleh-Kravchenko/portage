@@ -32,6 +32,23 @@
 
 #--- END OF EXAMPLES ---
 
+# Andrew Savchenko <bircoph@gentoo.org> (2020-10-11)
+# Mask old openafs version and corresponding openafs-kernel with
+# multiple CVEs.
+# All kernel module functionality is merged back in the single
+# net-fs/openafs package using USE="modules" starting from 1.8 branch.
+# No reverse dependencies, bug #719136. Removal in 30 days.
+net-fs/openafs-kernel
+<net-fs/openafs-1.8
+
+# Sam James <sam@gentoo.org> (2020-10-11)
+# Current Wireshark in ~arch is vulnerable.
+# Not updated yet due to maintainer inactivity.
+# This forces a downgrade to the fixed, stable
+# version of Wireshark.
+# bug #744592
+=net-analyzer/wireshark-3.3.0
+
 # Sergei Trofimovich <slyfox@gentoo.org> (2020-10-11)
 # Mask new version until calendar apps are sorted out:
 # bug #747538.
@@ -39,7 +56,7 @@
 
 # Mikle Kolyada <zlogene@gentoo.org> (2020-10-09)
 # pam module separated from
-# the sys-auth/pam_passwdqc package
+# the sys-auth/passwdqc package
 # (now merged back).
 # Removal in 30 days
 sys-auth/pam_passwdqc
@@ -48,13 +65,6 @@ sys-auth/pam_passwdqc
 # Mask older erlang releases for removal.
 # Bug #740894.
 <dev-lang/erlang-23
-
-# Georgy Yakovlev <gyakovlev@gentoo.org> (2020-10-09)
-# Regressions, can't build firefox/thunderbird
-# Masking until fixes land to FF or Rust itself.
-=dev-lang/rust-1.47.0
-=dev-lang/rust-bin-1.47.0
-=virtual/rust-1.47.0
 
 # Azamat H. Hackimov <azamat.hackimov@gmail.com> (2020-10-06)
 # 1.3.3 is broken and failing unittests for net-im/prosody. Bug #746782.
@@ -601,24 +611,16 @@ net-libs/nDPI
 ~virtual/perl-Time-Piece-1.340.100
 ~virtual/perl-Unicode-Normalize-1.270.0
 
-# Michał Górny <mgorny@gentoo.org> (2020-07-13)
-# Python 2 dev-python/pillow revdeps with extended removal time.
-# Also the only revdeps of dev-python/matplotlib-python2.
-# Removal in 90 days.  Bug #729672.
-<net-wireless/gnuradio-3.8
-<net-wireless/gr-iio-0.3_p20191219-r1
-<net-wireless/gr-paint-0.0_p20200517
-<net-analyzer/gr-fosphor-0.0_p20200131
-<net-wireless/gr-ieee802154-0.0_p20191006
-<net-wireless/gr-iqbal-0.38.1
-<net-wireless/gr-osmosdr-0.2.0
-dev-python/matplotlib-python2
-
 # Stephan Hartmann <sultan@gentoo.org> (2020-09-06)
 # Dev channel releases are only for people who
 # are developers or want more experimental features
 # and accept a more unstable release.
 >=www-client/chromium-87
+
+# Mart Raudsepp <leio@gentoo.org> (2020-06-06)
+# Meson port does not handle multilib yet and has issues
+# regarding runstatedir (not using /run).
+=net-misc/networkmanager-1.22*
 
 # Georgy Yakovlev <gyakovlev@gentoo.org> (2020-03-27)
 # Vulnerable old version of icedtea-web #711392
