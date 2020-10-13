@@ -11,7 +11,7 @@ SRC_URI="https://luadbi.googlecode.com/files/${PN}.${PV}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86"
+KEYWORDS="amd64 arm ~arm64 x86"
 IUSE="mysql postgres +sqlite"
 REQUIRED_USE="|| ( mysql postgres sqlite )"
 
@@ -24,7 +24,10 @@ DEPEND="${RDEPEND}
 
 S="${WORKDIR}"
 
-PATCHES=( "${FILESDIR}"/${PV}-r2-Makefile.patch )
+PATCHES=(
+	"${FILESDIR}"/${P}-makefile.patch
+	"${FILESDIR}"/${P}-mysql-8.patch
+)
 
 src_prepare() {
 	default

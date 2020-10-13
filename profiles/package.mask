@@ -430,11 +430,6 @@ sys-fs/ufsutils
 # #742158.
 net-nntp/sn
 
-# James Le Cuirot <chewi@gentoo.org> (2020-09-13)
-# License issues. app-arch/arj is a better alternative. Removal in 30
-# days. See bug #694746.
-app-arch/unarj
-
 # Jonas Stein <jstein@gentoo.org> (2020-09-13)
 # mpv bash completion is no longer needed and the package is not
 # compatible with the remaining packages.
@@ -450,43 +445,6 @@ dev-python/args
 # Dead upstream, EAPI 4, no maintainer
 # Removal in 30 days
 net-dialup/tkvoice
-
-# Sam James <sam@gentoo.org> (2020-09-12)
-# Merged into app-text/texlive-core
-# Removal in 30 days
-dev-tex/chktex
-
-# Sam James <sam@gentoo.org> (2020-09-12)
-# Merged into dev-texlive/texlive-bibtexextra
-# Removal in 30 days
-dev-tex/biblatex-apa
-
-# Mikle Kolyada <zlogene@gentoo.org> (2020-09-12)
-# Merged into the texlive-core package.
-# Removal in 30 days
-dev-tex/detex
-
-# Mikle Kolyada <zlogene@gentoo.org> (2020-09-12)
-# Has been a part of a cstex macro for a long time.
-# The cste xmacro is provided by the
-# dev-texlive/texlive-langczechslovak package.
-# Removal in 30 days
-dev-tex/csindex
-
-# Mikle Kolyada <zlogene@gentoo.org> (2020-09-12)
-# Dead upstream and does not build.
-# Removal in 30 days
-dev-tex/dvipost
-
-# Louis Sautier <sbraz@gentoo.org> (2020-09-12)
-# Masked for removal in 30 days, unmaintained, no revdeps.
-# Former dependency of app-admin/supervisor.
-dev-python/meld3
-
-# Zac Medico <zmedico@gentoo.org> (2020-09-11)
-# Upstream is inactive and does not support OpenSSL 1.1.
-# Removal in 30 days. Bug #741614.
-net-vpn/peervpn
 
 # Thomas Deutschmann <whissi@gentoo.org> (2020-09-11)
 # These versions are not compatible with current stable
