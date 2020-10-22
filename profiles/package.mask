@@ -32,6 +32,13 @@
 
 #--- END OF EXAMPLES ---
 
+# David Seifert <soap@gentoo.org> (2020-10-21)
+# No releases in over 3 years, no more revdeps in tree
+# upstream mostly unresponsive to requests for proper
+# tarballs. Removed from Fedora and Ubuntu already.
+# Bug #708700, Removal in 30 days.
+dev-python/PythonQt
+
 # Andreas Sturmlechner <asturm@gentoo.org> (2020-10-18)
 # Dead upstream, fails to build against libfprint-2, multiple longstanding bugs
 # #490234, #678232, #705496, #718642 and no maintainer. Removal in 30 days.
@@ -183,37 +190,6 @@ sys-apps/lcdtest
 # build failures reported.  No reverse dependencies.
 # Removal in 30 days.  Bug #737412.
 sci-libs/shogun
-
-# Aaron Bauman <bman@gentoo.org> (2020-09-22)
-# Fails to build with new Python or at all.
-# QA issues (byte compiling etc). All live ebuilds.
-# Removal in 30 days
-net-wireless/gr-baz
-net-wireless/gr-doa
-net-wireless/gr-foo
-net-wireless/gr-ntsc
-net-wireless/gr-ntsc-rc
-net-wireless/gr-ppm-wiegand
-net-wireless/gr-rftap
-net-wireless/gr-specest
-
-# Michał Górny <mgorny@gentoo.org> (2020-09-22)
-# sci-libs/plotmm is unmaintained.  It had its last release in 2005.
-# It has no chances of porting to GTK+3.  It suffers from major compiler
-# warnings.
-#
-# sci-physics/h2o-gtk is its only reverse dependency.  It crashes
-# on start, possibly because of problems with plotmm.  I have
-# no intention of rewriting it right now.
-#
-# Removal in 30 days.  Bug #744073.
-sci-libs/plotmm
-sci-physics/h2o-gtk
-
-# Michał Górny <mgorny@gentoo.org> (2020-09-22)
-# No activity since Jan 2019.  Broken with current versions of werkzeug.
-# Removal in 30 days.  Bug #743259.
-dev-python/flask-themes
 
 # Michał Górny <mgorny@gentoo.org> (2020-09-09)
 # These packages (or package versions) still require Python 2.7.
