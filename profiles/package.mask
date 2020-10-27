@@ -32,6 +32,47 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-10-26)
+# Historical metapackage that exists in slot 5 only for transition from KDE SC4.
+# Masked for removal on 2021-08-31. Replaced by:
+# emerge --noreplace kde-plasma/plasma-meta kde-apps/kde-apps-meta
+kde-apps/kde-meta:5
+
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-10-26)
+# Historical metapackage that exists in slot 5 only for transition from KDE SC4.
+# Masked for removal on 2021-08-31. Replaced by:
+# emerge --noreplace kde-plasma/plasma-meta kde-apps/kdecore-meta
+kde-apps/kdebase-meta:5
+
+# Michał Górny <mgorny@gentoo.org> (2020-10-26)
+# This packages makes little sense without sci-geosciences/mapnik.
+# It has not been updated in 11 years, so it has been useless anyway.
+# Removal in 14 days.  Bug #559060.
+sci-geosciences/mapnik-world-boundaries
+
+# Wiliam Hubbs <williamh@gentoo.org> (2020-10-26)
+# Combining kubernetes into one package breaks upgrades, so it is split
+# into separate packages. You need to upgrade and install the following
+# packages based on the needs of your cluster:
+#
+# sys-cluster/kubeadm, sys-cluster/kube-apiserver
+# sys-cluster/kube-controller-manager, sys-cluster/kubectl
+# sys-cluster/kubelet, sys-cluster/kube-proxy
+# sys-cluster/kube-scheduler
+#
+# This package is being removed in 30 days. bug #741572
+sys-cluster/kubernetes
+
+# Thomas Deutschmann <whissi@gentoo.org> (2020-10-26)
+# Depends on net-libs/zeromq-3 which is scheduled for removal.
+# Removal in 30 days.  Bug #741454.
+dev-perl/ZMQ-LibZMQ3
+
+# Thomas Deutschmann <whissi@gentoo.org> (2020-10-26)
+# Depends on net-libs/zeromq-2 which is scheduled for removal.
+# Removal in 30 days.  Bug #741454.
+dev-perl/ZMQ-LibZMQ2
+
 # Sam James <sam@gentoo.org> (2020-10-25)
 # EAPI 4, fails to build for some time.
 # Removal in 30 days.
@@ -192,11 +233,6 @@ sys-auth/pam_passwdqc
 dev-dotnet/mono-addins
 media-gfx/pinta
 
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-09-27)
-# Obsolete package blocking unmasking of >=x11-libs/pango-1.44, dead upstream.
-# No reverse dependencies, bug #698922. Removal in 30 days.
-x11-libs/pangox-compat
-
 # Alexey Sokolov <alexey+gentoo@asokolov.org> (2020-10-03)
 # Package with no available HOMEPAGE, SRC_URI and multiple compilation issues.
 # Bug #741468, removal in 30 days.
@@ -207,45 +243,6 @@ games-board/spider
 # readily available.
 # Removal in 30 days.  Bug #714636.
 net-voip/telepathy-haze
-
-# Michał Górny <mgorny@gentoo.org> (2020-09-26)
-# These packages still require Python 2.7, or are dependencies of py2.7
-# packages.  They are either dead upstream, their Python 3 porting
-# efforts are not progressing or their maintainers are simply
-# unresponsive.  Please do not remove any packages from this list unless
-# you actually port them to Python 3.
-# Removal in 30 days.  Please find relevant bugs on tracker bug #694800.
-games-arcade/diameter
-games-board/gnome-hearts
-net-analyzer/sguil-server
-net-analyzer/tcpflow
-
-# Michał Górny <mgorny@gentoo.org> (2020-09-26)
-# Dead Python 2-only package.  No significant revdeps left.
-# Removal in 30 days.  Bug #710024.
-dev-python/mysql-python
-
-# Michał Górny <mgorny@gentoo.org> (2020-09-26)
-# Python 2.7 backport with no revdeps left.
-# Removal in 30 days.  Bug #734636.
-dev-python/singledispatch
-
-# Michał Górny <mgorny@gentoo.org> (2020-09-26)
-# These packages either use obsolete scons-utils.eclass API that
-# does not support Python 3, or do not support Python 3 at all.
-# Their maintainers are unresponsive.  Please do not remove any packages
-# from this list unless you actually port them to Python 3.
-# Removal in 30 days.  Please find relevant bugs on tracker bug #635934.
-dev-libs/mongo-cxx-driver
-games-action/btanks
-games-emulation/gambatte
-games-sports/vdrift
-games-strategy/endless-sky
-games-strategy/glob2
-net-vpn/freelan
-sci-geosciences/mapnik
-sci-visualization/nonolith-connect
-sys-apps/lcdtest
 
 # Michał Górny <mgorny@gentoo.org> (2020-09-25)
 # PyPy3.7 alpha.  Known to break a few packages.  Masked until it
