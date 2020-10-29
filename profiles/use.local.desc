@@ -2128,6 +2128,7 @@ dev-libs/libpcre2:recursion-limit - Limit match recursion to 8192; if disabled, 
 dev-libs/libpcre2:zlib - Add support for pcregrep command to search within gzip-compressed files (via sys-libs/zlib).
 dev-libs/libpeas:glade - Install the glade catalog
 dev-libs/libpeas:python - Build support for loading dev-lang/python plugins
+dev-libs/libpy:sparsehash - Include libpy wrappers for dev-cpp/sparsehash
 dev-libs/librdkafka:lz4 - Enable support for Kafka's LZ4 compression based on KIP-57 (uses app-arch/lz4)
 dev-libs/librelp:gnutls - Use GnuTLS
 dev-libs/librelp:libressl - Use LibreSSL
@@ -2816,6 +2817,7 @@ dev-util/geany-plugins:ctags - Enable ctags plugin
 dev-util/geany-plugins:debugger - Enable the debugger plugin which interfaces with sys-devel/gdb
 dev-util/geany-plugins:enchant - Enable spell checking using enchant
 dev-util/geany-plugins:gpg - Enable geanypg plugin which integrates GPG using app-crypt/gpgme
+dev-util/geany-plugins:gtk2 - Use GTK+2 instead of GTK+3
 dev-util/geany-plugins:gtk3 - Use GTK+3 instead of GTK+2
 dev-util/geany-plugins:gtkspell - Use gtkspell for dictionary support in GeanyVC
 dev-util/geany-plugins:markdown - Enable the markdown plugin
@@ -6031,7 +6033,6 @@ net-libs/libvncserver:filetransfer - Enable support for TightVNC's file transfer
 net-libs/libvncserver:gcrypt - Use dev-libs/libgcrypt as crypto backend
 net-libs/libvncserver:lzo - Enable LZO support via dev-libs/lzo instead of using internal miniLZO implementation
 net-libs/libwebsockets:access-log - Support generating Apache-compatible access logs
-net-libs/libwebsockets:cgi - Include CGI (spawn process with network-connected stdin/out/err) APIs
 net-libs/libwebsockets:client - The client part of the library and libwebsockets-test-client
 net-libs/libwebsockets:generic-sessions - With the Generic Sessions plugin
 net-libs/libwebsockets:http-proxy - Support for rewriting HTTP proxying
@@ -6044,9 +6045,7 @@ net-libs/libwebsockets:mbedtls - Use mbedTLS replacement for OpenSSL
 net-libs/libwebsockets:peer-limits - Track peers and restrict resources a single peer can allocate
 net-libs/libwebsockets:server-status - Support json + jscript server monitoring
 net-libs/libwebsockets:smtp - Provide SMTP support
-net-libs/libwebsockets:socks5 - Allow use of SOCKS5 proxy on client connections
 net-libs/libwebsockets:sqlite3 - Require SQLITE3 support
-net-libs/libwebsockets:zip - Support serving pre-zipped files
 net-libs/loudmouth:asyncns - Use net-libs/libasyncns for asynchronous name resolution.
 net-libs/loudmouth:openssl - Enable dev-libs/openssl support instead of gnutls (which is the default).
 net-libs/mbedtls:havege - Enable the HAVEGE random generator. Warning: the HAVEGE random generator is not suitable for virtualized environments
