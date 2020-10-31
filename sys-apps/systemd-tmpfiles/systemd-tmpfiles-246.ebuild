@@ -4,20 +4,24 @@
 EAPI=7
 
 MINKV="3.11"
-inherit meson
+PYTHON_COMPAT=( python3_{7..9} )
+inherit meson python-any-r1
 
 DESCRIPTION="Creates, deletes and cleans up volatile and temporary files and directories"
 HOMEPAGE="https://www.freedesktop.org/wiki/Software/systemd"
-SRC_URI="https://github.com/systemd/systemd/archive/v${PV}.tar.gz -> systemd-${PV}.tar.gz"
+SRC_URI="https://github.com/systemd/systemd/archive/v${PV}.tar.gz -> systemd-${PV}.tar.gz
+	elibc_musl? ( https://dev.gentoo.org/~gyakovlev/distfiles/${P}-musl.tar.xz )"
 
 LICENSE="BSD-2 GPL-2 LGPL-2.1 MIT public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~ppc64"
+KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~ppc64 ~sparc ~x86"
+IUSE="test"
+RESTRICT="!test? ( test )"
 
 DEPEND="
-	>=sys-kernel/linux-headers-${MINKV}
 	sys-apps/acl:0=
 	>=sys-apps/util-linux-2.30:0=
+	>=sys-kernel/linux-headers-${MINKV}
 	sys-libs/libcap:0=
 "
 RDEPEND="${DEPEND}
@@ -35,9 +39,21 @@ BDEPEND="
 	>=sys-apps/coreutils-8.16
 	sys-devel/m4
 	virtual/pkgconfig
+	test? ( ${PYTHON_DEPS} )
 "
 
 S="${WORKDIR}/systemd-${PV}"
+
+pkg_setup() {
+	use test && python-any-r1_pkg_setup
+}
+
+src_prepare() {
+	# musl patchset from:
+	# http://cgit.openembedded.org/openembedded-core/tree/meta/recipes-core/systemd/systemd
+	use elibc_musl && eapply "${WORKDIR}/${P}-musl"
+	default
+}
 
 src_configure() {
 	# disable everything until configure says "enabled features: ACL, tmpfiles"
@@ -125,8 +141,8 @@ src_configure() {
 	systemd_disable_options=( ${systemd_disable_options[@]/%/=false} )
 
 	local emesonargs=(
-		-Dtmpfiles=true
 		-Dacl=true
+		-Dtmpfiles=true
 		-Dstandalone-binaries=true # this and below option does the magic
 		-Dstatic-libsystemd=true
 		-Dsysvinit-path=''
@@ -169,11 +185,10 @@ src_install() {
 }
 
 src_test() {
-	# selection of relevant tests
-	# unfortunately full suite will be built to run tests, but we still
-	# install just what we need and not a bit more.
-	local tests=( test-{acl-util,tmpfiles,chase-symlinks,path} )
-	meson_src_test "${tests[@]}"
+	# 'meson test' will compile full systemd, but we can still outsmart it
+	python_fix_shebang src/test/test-systemd-tmpfiles.py
+	"${EPYTHON}" src/test/test-systemd-tmpfiles.py \
+		"${BUILD_DIR}"/systemd-tmpfiles.standalone || die "${FUNCNAME} failed"
 }
 
 # adapted from opentmpfiles ebuild
