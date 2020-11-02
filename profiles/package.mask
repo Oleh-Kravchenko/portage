@@ -150,9 +150,13 @@ gnome-base/libgnome-keyring
 gnome-base/orbit
 
 # Andreas Sturmlechner <asturm@gentoo.org> (2020-10-23)
-# Depends on deprecated QtWebKit with no work towards QtWebEngine port at all.
+# Depends on deprecated QtWebKit, needs a new maintainer and version bump.
 # Bug #688850, security bug #744199. Removal in 30 days.
 media-video/shotcut
+
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-10-23)
+# Depends on deprecated QtWebKit with no work towards QtWebEngine port at all.
+# Bug #688850. Removal in 30 days.
 media-libs/webvfx
 
 # Michał Górny <mgorny@gentoo.org> (2020-10-23)
@@ -165,11 +169,6 @@ games-strategy/asc
 # Needs a version bump.
 # Removal in 30 days.  Bug #614408.
 games-strategy/megaglest
-
-# Michał Górny <mgorny@gentoo.org> (2020-10-23)
-# Committed with missing patch mid-2018.  Not fixed since.
-# Removal in 30 days.  Bug #653310.
-games-arcade/ceferino
 
 # Maciej Mrozowski <reavertm@gentoo.org> (2020-10-23)
 # Crashes at startup - bug #750770, dead upstream - bug #737936
