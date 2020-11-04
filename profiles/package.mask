@@ -32,6 +32,30 @@
 
 #--- END OF EXAMPLES ---
 
+# Sergei Trofimovich <slyfox@gentoo.org> (2020-11-03)
+# Hackage release does not build against gcc-8:
+# https://github.com/Helium4Haskell/helium/issues/4
+# Masked for removal. Bugs: #751757, #736054
+dev-lang/helium
+dev-haskell/lvmlib
+
+# Joonas Niilola <juippis@gentoo.org> (2020-11-03)
+# Dead upstream, or broken for a long time, not maintained in Gentoo.
+# Removal in 30 days. Bug #752462
+app-emulation/rex-client
+app-i18n/kde-l10n-scripts
+media-plugins/xbmc-addon-xvdr
+net-analyzer/nagios-plugins-flameeyes
+net-libs/libosmo-abis
+net-libs/libosmo-netif
+net-misc/lcr
+net-misc/srf-ip-conn-srv
+net-wireless/dump978
+net-wireless/openbsc
+net-wireless/openggsn
+net-wireless/osmobts
+net-wireless/osmocom-bb
+
 # Aisha Tammy <gentoo@aisha.cc> (2020-10-31)
 # Redundant historical packages now being provided
 # together by sci-libs/lapack
@@ -198,6 +222,7 @@ dev-lua/luacrypto
 >=app-misc/worker-3.8.3-r100
 >=dev-lua/luv-1.32.0.0-r100
 >=dev-lua/luadbi-0.7.2-r100
+>=dev-lua/lutok-0.4-r10
 >=dev-lua/messagepack-0.3.2-r100
 >=dev-lua/toluapp-1.0.93_p20190513-r100
 >=games-engines/love-0.7.2-r100:0.7
@@ -207,6 +232,8 @@ dev-lua/luacrypto
 >=net-analyzer/suricata-6.0.0-r100
 >=net-p2p/eiskaltdcpp-2.2.10-r100
 >=www-servers/lighttpd-1.4.55-r100
+>=app-admin/conky-1.11.4
+>=media-sound/aqualung-1.1-r1
 
 # Andrew Savchenko <bircoph@gentoo.org> (2020-10-11)
 # Mask old openafs version and corresponding openafs-kernel with
@@ -239,19 +266,6 @@ sys-auth/pam_passwdqc
 # Version 1.11 introduced different startup conventions for the server
 # which breaks the OpenRC init script. Bug #746227.
 >=net-misc/tigervnc-1.11.0
-
-# David Seifert <soap@gentoo.org> (2020-10-03)
-# Broken for over 2 years, declared EOL by upstream,
-# the only revdep is media-gfx/pinta, which is also
-# broken. Bug #612592, #644232, #659436, #688722,
-# Removal in 30 days.
-dev-dotnet/mono-addins
-media-gfx/pinta
-
-# Alexey Sokolov <alexey+gentoo@asokolov.org> (2020-10-03)
-# Package with no available HOMEPAGE, SRC_URI and multiple compilation issues.
-# Bug #741468, removal in 30 days.
-games-board/spider
 
 # Michał Górny <mgorny@gentoo.org> (2020-09-25)
 # PyPy3.7 alpha.  Known to break a few packages.  Masked until it
@@ -444,10 +458,6 @@ app-office/texmacs
 # Needs LOTS of testing, broke boot on my laptop in early attempts, maybe needs
 # matching genkernel work?
 >=sys-fs/lvm2-2.03
-
-# Daniel Pielmeier <billie@gentoo.org> (2019-07-06)
-# Requires >=dev-lang/lua-5.2 which is masked
->=app-admin/conky-1.11.4
 
 # Robin H. Johnson <robbat2@gentoo.org> (2019-03-25)
 # Requires >=dev-lang/lua-5.3 which is masked
