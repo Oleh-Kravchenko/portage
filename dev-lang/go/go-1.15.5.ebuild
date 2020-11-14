@@ -21,7 +21,7 @@ case ${PV}  in
 	case ${PV} in
 	*_beta*|*_rc*) ;;
 	*)
-		KEYWORDS="-* ~amd64 ~arm ~arm64 ~ppc64 ~s390 x86 ~amd64-linux ~x86-linux ~x64-macos ~x64-solaris"
+		KEYWORDS="-* amd64 arm arm64 ~ppc64 ~s390 x86 ~amd64-linux ~x86-linux ~x64-macos ~x64-solaris"
 		;;
 	esac
 esac
@@ -198,6 +198,6 @@ pkg_postinst() {
 	einfo "version of the compiler will not be updated until they are"
 	einfo "updated individually, which could mean they will have"
 	einfo "vulnerabilities."
-	einfo "Run 'emerge @go-rebuild' to rebuild all 'go' packages"
+	einfo "Run 'emerge @golang-rebuild' to rebuild all 'go' packages"
 	einfo "See https://bugs.gentoo.org/752153 for more info"
 }

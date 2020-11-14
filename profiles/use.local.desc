@@ -4293,7 +4293,6 @@ media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/
 media-libs/openexr:utils - Build several utility binaries for verifying and manipulating EXR files.
 media-libs/openh264:plugin - Install the Gecko Media Plugin (GMP) for use with Mozilla packages
 media-libs/openh264:utils - Install the CLI encoder and decoder utilities
-media-libs/openimageio:color-management - Enable color management via media-libs/opencolorio
 media-libs/openimageio:dicom - Enable DICOM medical image file support via sci-libs/dcmtk
 media-libs/openimageio:field3d - Enable f3d file (write) support via media-libs/Field3D
 media-libs/openimageio:opencv - Enable OpenCV support via media-libs/opencv
@@ -5995,10 +5994,6 @@ net-libs/libmicrohttpd:messages - enable error messages
 net-libs/libnids:glib - Use dev-libs/glib for multiprocessing support
 net-libs/libnids:libnet - Include code requiring net-libs/libnet
 net-libs/libnma:pkcs11 - Enable PKCS#11 support in certificate chooser via app-crypt/gcr
-net-libs/libnpupnp:client - control point code (client)
-net-libs/libnpupnp:optssdp - optional SSDP headers support
-net-libs/libnpupnp:reuseaddr - bind the miniserver socket with reuseaddr
-net-libs/libnpupnp:tools - helper APIs in upnptools.h
 net-libs/liboauth:bindist - Alias for the nss USE flag, since there are license compliancy trouble when using OpenSSL.
 net-libs/liboauth:curl - If enabled, net-misc/curl is used thorugh the libcurl library; if it's not, the curl command is used instead. Some features are only available when using the library, but using it as library requires matching SSL implementations.
 net-libs/liboauth:nss - Use Mozilla NSS (dev-libs/nss) as hash library; if this is disabled, dev-libs/openssl is used instead.
@@ -6067,7 +6062,6 @@ net-libs/nghttp2:hpack-tools - Install HPACK (header compression) helper tools
 net-libs/nghttp2:utils - Install nghttp, nghttpd and nghttpx
 net-libs/nodejs:inspector - Enable V8 inspector
 net-libs/nodejs:npm - Enable NPM package manager
-net-libs/nodejs:pax_kernel - Enable building under a PaX enabled kernel
 net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
 net-libs/nodejs:system-icu - Use system dev-libs/icu instead of the bundled version
 net-libs/nodejs:system-ssl - Use system OpenSSL instead of the bundled one
@@ -7357,8 +7351,8 @@ sci-libs/plplot:qhull - Add bindings for media-libs/qhull
 sci-libs/plplot:shapefile - Enable support for ESRI shapefiles
 sci-libs/proj:europe - Install the PROJ collection of European grids and init-files
 sci-libs/rtabmap:openni2 - Adds support for Kinect-like 3D sensors devices with dev-libs/OpenNI2.
-sci-libs/scikits_image:freeimage - Enable support for image i/o via media-libs/freeimage
-sci-libs/scikits_image:pyamg - Enable support for algebraic solvers via dev-python/pyamg
+sci-libs/scikit-image:freeimage - Enable support for image i/o viamedia-libs/freeimage
+sci-libs/scikit-image:pyamg - Enable support for algebraic solvers via dev-python/pyamg
 sci-libs/scotch:int64 - Build the 64 bits integer library (needed for > 2^31 vertices)
 sci-libs/scotch:tools - Provides the graph, mesh, architecture, mapping/ordering, output handling programs (see Scotch User's Guide).
 sci-libs/silo:silex - Build silex data browser
