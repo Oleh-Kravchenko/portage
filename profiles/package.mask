@@ -32,6 +32,10 @@
 
 #--- END OF EXAMPLES ---
 
+# Sergei Trofimovich <slyfox@gentoo.org> (2020-11-03)
+# Not compatible with ghc-8.8 or above: #754285
+# No revdeps. Masked for removal.
+dev-haskell/ghc-syb-utils
 
 # Aisha Tammy <gentoo@aisha.cc> (2020-11-13)
 # dead packages with latest releases before 2013
@@ -346,6 +350,7 @@ dev-lua/luacrypto
 # Added sci-visualization/gnuplot.
 >=app-misc/worker-3.8.3-r100
 =dev-libs/efl-1.25.1-r10
+>=dev-lua/lua-bit32-5.3.5-r100
 >=dev-lua/lua-zlib-1.2-r100
 >=dev-lua/luaevent-0.4.6-r100
 >=dev-lua/luv-1.32.0.0-r100
@@ -367,6 +372,7 @@ dev-lua/luacrypto
 >=www-servers/lighttpd-1.4.55-r100
 >=app-admin/conky-1.11.4
 >=media-sound/aqualung-1.1-r100
+>=games-roguelike/stone-soup-0.25.1-r100
 
 # Andrew Savchenko <bircoph@gentoo.org> (2020-10-11)
 # Mask old openafs version and corresponding openafs-kernel with
@@ -701,13 +707,9 @@ app-admin/amazon-ec2-init
 # Masked slotted lua for testing
 # William Hubbs <williamh@gentoo.org> (2016-08-07)
 # Taking this mask since Mabi is retired
-# Rafael Martins <rafaelmartins@gentoo.org> (2016-12-04)
-# Adding Lua 5.3 to mask
+# consolidating all slotted lua masks
 app-eselect/eselect-lua
-=dev-lang/lua-5.1.5-r103
-=dev-lang/lua-5.1.5-r104
-=dev-lang/lua-5.2.4-r2
-=dev-lang/lua-5.3.5-r2
+>=dev-lang/lua-5.1.5-r100
 
 # Samuli Suominen <ssuominen@gentoo.org> (2012-03-06)
 # Masked for testing since this is known to break nearly
