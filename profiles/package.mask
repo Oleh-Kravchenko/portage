@@ -32,6 +32,19 @@
 
 #--- END OF EXAMPLES ---
 
+# Sergei Trofimovich <slyfox@gentoo.org> (2020-11-05)
+# Does not compile against ghc-8.8: #754675, #611988
+# Masked for removal
+dev-haskell/shuffle
+dev-haskell/uhc-light
+dev-haskell/uhc-util
+
+# Michał Górny <mgorny@gentoo.org> (2020-11-15)
+# Fails to build.  Lots of bugs filed.  Not touched by maintainer
+# since 2018.
+# Removal in 30 days.  Bug #721990.
+media-video/cinelerra
+
 # Sergei Trofimovich <slyfox@gentoo.org> (2020-11-03)
 # Not compatible with ghc-8.8 or above: #754285
 # No revdeps. Masked for removal.
@@ -182,14 +195,6 @@ net-wireless/openbsc
 net-wireless/openggsn
 net-wireless/osmobts
 net-wireless/osmocom-bb
-
-# Aisha Tammy <gentoo@aisha.cc> (2020-10-31)
-# Redundant historical packages now being provided
-# together by sci-libs/lapack
-# Removal in 14 days. Bug #746962.
-sci-libs/blas-reference
-sci-libs/cblas-reference
-sci-libs/lapack-reference
 
 # Lars Wendler <polynomial-c@gentoo.org> (2020-10-30)
 # Removed public macro definitions for TRUE and FALSE which breaks lots of
