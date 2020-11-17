@@ -3139,6 +3139,7 @@ games-fps/eduke32:sc-55 - Install the Duke Nukem 3D Roland SC-55 music files.
 games-fps/eduke32:sdk - Install the SDK files.
 games-fps/eduke32:server - Enable support for multiplayer.
 games-fps/eduke32:tools - Install the support tools for mapster32.
+games-fps/eduke32:voidsw - Enable support for Shadow Warrior (Classic) through VoidSW.
 games-fps/eduke32:voxels - Install the Duke Nukem 3D Voxels Pack.
 games-fps/eduke32:vpx - Enable support for media-libs/libvpx.
 games-fps/eduke32:xmp - Enable support for media-libs/exempi.
@@ -8237,6 +8238,7 @@ sys-firmware/sgabios:binary - Use pre-built binaries
 sys-firmware/sigrok-firmware-fx2lafw:binary - Use official upstream pre-built binaries
 sys-firmware/vgabios:binary - Use official upstream pre-built binaries (only default and cirrus images)
 sys-fs/android-file-transfer-linux:fuse - Add FUSE mount helper
+sys-fs/android-file-transfer-linux:zune - Enable support for Microsoft Zune
 sys-fs/bees:tools - Build extra tools useful for debugging (fiemap, fiewalk)
 sys-fs/btrfs-progs:convert - Build ext2 conversion utility (btrfs-convert)
 sys-fs/btrfs-progs:reiserfs - Enable reiserfs support in btrfs-convert tool.
