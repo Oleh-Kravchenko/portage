@@ -32,6 +32,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Andreas Sturmlechner <asturm@gentoo.org> (2020-11-21)
+# Dead upstream, depends on deprecated kde-frameworks/kmediaplayer
+# Masked for removal in 30 days.
+media-video/kmplayer
+
 # Michał Górny <mgorny@gentoo.org> (2020-11-19)
 # These packages are maintained by the Python project, or have
 # no maintainer.  They have not been ported to Python 3.8 yet.
@@ -442,16 +447,6 @@ gnome-base/libbonobo
 gnome-base/libgnome-keyring
 gnome-base/orbit
 
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-10-23)
-# Depends on deprecated QtWebKit, needs a new maintainer and version bump.
-# Bug #688850, security bug #744199. Removal in 30 days.
-media-video/shotcut
-
-# Andreas Sturmlechner <asturm@gentoo.org> (2020-10-23)
-# Depends on deprecated QtWebKit with no work towards QtWebEngine port at all.
-# Bug #688850. Removal in 30 days.
-media-libs/webvfx
-
 # Michał Górny <mgorny@gentoo.org> (2020-10-23)
 # Fails to build.  Needs a dedicated maintainer and a version bump.
 # Removal in 30 days.  Bug #635592.
@@ -503,6 +498,7 @@ dev-lua/luacrypto
 >=games-engines/love-11.3-r100:0
 >=mail-filter/imapfilter-2.6.16-r100
 >=net-analyzer/suricata-6.0.0-r100
+>=net-im/swift-4.0.2-r100
 >=net-p2p/eiskaltdcpp-2.2.10-r100
 >=sci-visualization/gnuplot-5.4.0-r100
 >=www-apache/mod_security-2.9.3-r100
