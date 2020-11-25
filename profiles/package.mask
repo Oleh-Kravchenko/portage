@@ -32,6 +32,51 @@
 
 #--- END OF EXAMPLES ---
 
+# Marek Szuba <marecki@gentoo.org> (2020-11-24)
+# No releases since 2008, deprecated upstream in favour of dev-lua/ldoc,
+# unmaintained, no revdeps. Removal in 30 days (Bug #756343).
+dev-lua/luadoc
+
+# Thomas Deutschmann <whissi@gentoo.org> (2020-11-24)
+# Serious data corruption bug when using XFS, see https://www.spinics.net/lists/linux-xfs/msg47004.html
+# Feel free to manually unmask when not using XFS.
+=sys-kernel/gentoo-sources-5.9.10
+=sys-kernel/gentoo-sources-5.9.9
+=sys-kernel/gentoo-sources-5.4.79
+=sys-kernel/gentoo-sources-5.4.78
+=sys-kernel/gentoo-sources-4.19.159
+=sys-kernel/gentoo-sources-4.19.158
+=sys-kernel/gentoo-sources-4.14.208
+=sys-kernel/gentoo-sources-4.14.207
+=sys-kernel/gentoo-sources-4.9.245
+=sys-kernel/gentoo-sources-4.9.244
+=sys-kernel/vanilla-sources-5.9.10
+=sys-kernel/vanilla-sources-5.9.9
+=sys-kernel/vanilla-sources-5.4.79
+=sys-kernel/vanilla-sources-5.4.78
+=sys-kernel/vanilla-sources-4.19.159
+=sys-kernel/vanilla-sources-4.19.158
+=sys-kernel/vanilla-sources-4.14.208
+=sys-kernel/vanilla-sources-4.14.207
+=sys-kernel/vanilla-sources-4.9.245
+=sys-kernel/vanilla-sources-4.9.244
+=sys-kernel/vanilla-kernel-5.9.10
+=sys-kernel/vanilla-kernel-5.9.9
+=sys-kernel/vanilla-kernel-5.4.79
+=sys-kernel/vanilla-kernel-5.4.78
+=sys-kernel/gentoo-kernel-5.9.10
+=sys-kernel/gentoo-kernel-5.9.9
+=sys-kernel/gentoo-kernel-5.4.79
+=sys-kernel/gentoo-kernel-5.4.78
+=sys-kernel/gentoo-kernel-bin-5.9.10-r1
+=sys-kernel/gentoo-kernel-bin-5.9.10
+=sys-kernel/gentoo-kernel-bin-5.9.9-r1
+=sys-kernel/gentoo-kernel-bin-5.9.9
+=sys-kernel/gentoo-kernel-bin-5.4.79-r1
+=sys-kernel/gentoo-kernel-bin-5.4.79
+=sys-kernel/gentoo-kernel-bin-5.4.78-r1
+=sys-kernel/gentoo-kernel-bin-5.4.78
+
 # Fabian Groffen <grobian@gentoo.org> (2020-11-23)
 # No longer used, not really functional either, noone should be using
 # this, removal in 30 days.
@@ -458,6 +503,7 @@ dev-lua/luacrypto
 >=app-admin/conky-1.11.4
 >=app-benchmarks/sysbench-1.0.20-r100
 >=app-benchmarks/wrk-4.1.0-r100
+>=app-crypt/ekeyd-1.1.5-r100
 >=app-misc/worker-3.8.3-r100
 =dev-games/openscenegraph-openmw-3.4_p20200425-r100
 =dev-libs/efl-1.25.1-r10
@@ -655,12 +701,10 @@ net-libs/nDPI
 =mail-mta/postfix-3.6*
 
 # Miroslav Šulc <fordfrog@gentoo.org> (2020-02-27)
-# dev-java/ant-eclipse-ecj:4.10 depends on masked >=virtual/{jdk,jre}-11
-# www-servers/tomcat:9 depends on masked dev-java/eclipse-ecj:4.13
-dev-java/ant-eclipse-ecj:4.13
-dev-java/eclipse-ecj:4.13
-dev-java/ant-eclipse-ecj:4.10
-dev-java/eclipse-ecj:4.10
+# >=dev-java/ant-eclipse-ecj-4.10 depends on masked >=virtual/{jdk,jre}-11
+# www-servers/tomcat:9 depends on masked dev-java/eclipse-ecj
+>=dev-java/ant-eclipse-ecj-4.10
+>=dev-java/eclipse-ecj-4.10
 www-servers/tomcat:9
 
 # Mart Raudsepp <leio@gentoo.org> (2020-02-16)
