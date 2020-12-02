@@ -177,7 +177,7 @@ src_configure() {
 		$(meson_use gstreamer)
 		$(meson_use harfbuzz)
 		$(meson_use hyphen)
-		$(meson_use lua_targets_luajit elua)
+		$(meson_use lua_single_target_luajit elua)
 		$(meson_use nls)
 		$(meson_use physics)
 		$(meson_use pulseaudio)
@@ -251,13 +251,13 @@ src_configure() {
 	emesonargs+=( -D ecore-imf-loaders-disabler="${disabledImfLoaders}" )
 
 	local bindingsList="cxx,"
-	use lua_targets_luajit && bindingsList+="lua,"
+	use lua_single_target_luajit && bindingsList+="lua,"
 	use mono && bindingsList+="mono,"
 	[[ ! -z "$bindingsList" ]] && bindingsList=${bindingsList::-1}
 	emesonargs+=( -D bindings="${bindingsList}" )
 
 	local luaChoice=""
-	if use lua_targets_luajit; then
+	if use lua_single_target_luajit; then
 		luaChoice+="luajit"
 	else
 		luaChoice+="lua"
