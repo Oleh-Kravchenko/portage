@@ -32,6 +32,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Aaron Bauman <bman@gentoo.org> (2020-12-02)
+# Deprecated. Functionality is native to dev-python/pytest now
+# Removal in 14 days
+dev-python/pytest-catchlog
+
 # Joonas Niilola <juippis@gentoo.org> (2020-12-01)
 # Not maintained in Gentoo, multiple versions behind, unsafe, EAPI-5,
 # Use other kernel source / binary packages instead,
@@ -551,6 +556,8 @@ dev-lua/luacrypto
 >=dev-lua/luafilesystem-1.8.0-r100
 >=dev-lua/lualdap-1.2.5-r100
 >=dev-lua/luajson-1.3.4
+>=dev-lua/luaossl-20200709-r100
+>=dev-lua/luaposix-35.0-r100
 >=dev-lua/luarocks-3.4.0-r100
 >=dev-lua/luasec-0.9-r100
 >=dev-lua/luasocket-3.0_rc1_p20200328-r100
@@ -581,6 +588,8 @@ dev-lua/luacrypto
 >=games-sports/xmoto-0.6.1-r100
 >=games-strategy/hedgewars-1.0.0-r100
 >=games-strategy/naev-0.7.0-r100
+>=games-strategy/openra-20190314-r100
+>=games-strategy/s25rttr-0.9.0_pre20200723-r100
 >=games-util/slade-3.1.12a-r100
 >=mail-filter/imapfilter-2.6.16-r100
 >=media-gfx/geeqie-1.5.1-r1
