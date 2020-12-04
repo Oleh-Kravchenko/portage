@@ -12,13 +12,13 @@ S="${WORKDIR}/${PN//-/}-${PV}"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm arm64 ppc ppc64 x86"
+KEYWORDS="~amd64 arm arm64 ppc ppc64 x86"
 IUSE="luajit test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
 	luajit? ( dev-lang/luajit:2 )
-	!luajit? ( >=dev-lang/lua-5.1:= )
+	!luajit? ( >=dev-lang/lua-5.1:0= )
 "
 DEPEND="${RDEPEND}"
 BDEPEND="virtual/pkgconfig"

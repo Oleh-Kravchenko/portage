@@ -10,7 +10,7 @@ SRC_URI="https://github.com/mpeterv/luacheck/archive/${PV}.tar.gz -> ${P}.tar.gz
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ppc64"
+KEYWORDS="~amd64 arm ppc64"
 IUSE="doc luajit test"
 RESTRICT="!test? ( test )"
 
@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lua/lua-argparse[luajit(-)=]
 	dev-lua/luafilesystem[luajit(-)=]
 	dev-lua/lua-utf8[luajit(-)=]
-	!luajit? ( >=dev-lang/lua-5.1:= )
+	!luajit? ( >=dev-lang/lua-5.1:0= )
 	luajit? ( dev-lang/luajit:2 )"
 BDEPEND="
 	virtual/pkgconfig
