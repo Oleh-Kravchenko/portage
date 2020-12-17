@@ -5792,6 +5792,8 @@ net-im/telepathy-connection-managers:xmpp - Enable XMPP protocol handler (this i
 net-im/telepathy-connection-managers:yahoo - Enable Yahoo! messaging support.
 net-im/telepathy-connection-managers:zeroconf - Enable Link-Local Messaging via the zeroconf or Bonjour protocol.
 net-im/tkabber:plugins - Enables installation the extra plugins
+net-im/toxic:audio-notify - Enables native sound notifications
+net-im/toxic:llvm - Enables support for LLVM Address Sanitizer
 net-im/toxic:notification - Enables desktop notifications with libnotify, with sound support.
 net-im/toxic:qrcode - Enables QR code support
 net-im/toxic:sound - Enables audio calling
@@ -8574,6 +8576,8 @@ www-client/netsurf:gtk2 - Build GTK2 GUI
 www-client/netsurf:psl - Use public suffix list via media-libs/libnspsl
 www-client/netsurf:rosprite - RISC OS Sprite bitmap image support (media-libs/librosprite)
 www-client/netsurf:svgtiny - SVG image support via media-libs/svgatiny instead of gnome-base/librsvg
+www-client/opera:proprietary-codecs - Enable codecs for patent-encumbered audio and video formats.
+www-client/opera:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
 www-client/qutebrowser:scripts - Installs userscripts from the misc/userscripts directory to /usr/share/qutebrowser/userscripts.
 www-client/seamonkey:calendar - Build Mozilla's calendar
 www-client/seamonkey:chatzilla - Build Mozilla's IRC client (default on)
@@ -8981,7 +8985,6 @@ xfce-base/exo:gtk2 - Build deprecated GTK+2 libexo-1 library.
 xfce-base/garcon:gtk2 - Build the garcon-gtk2-1 library (required for xfce-base/xfce4-panel < 4.13 only).
 xfce-base/libxfce4ui:glade - Build support for Glade 3's GtkBuilder implementation
 xfce-base/libxfce4ui:gtk2 - Build deprecated GTK+2 libxfce4ui-1 library.
-xfce-base/libxfce4ui:libgtop - Enable system information via gnome-base/libgtop.
 xfce-base/libxfce4ui:system-info - Enable system information in xfce4-about.
 xfce-base/thunar:trash-panel-plugin - Build the trash status indicator plugin for the XFCE panel
 xfce-base/xfce4-panel:dbusmenu - Enable dev-libs/libdbusmenu integration (in status notifier plugin)
