@@ -32,6 +32,53 @@
 
 #--- END OF EXAMPLES ---
 
+# Mike Pagano <mpagano@gentoo.org> (2020-12-18)
+# Serious data corruption bug when using F2FS,
+# see https://bugzilla.kernel.org/show_bug.cgi?id=210765
+# Feel free to manually unmask when not using F2FS.
+=sys-kernel/gentoo-sources-5.10.0
+=sys-kernel/gentoo-sources-5.10.1
+=sys-kernel/vanilla-sources-5.10.1
+=sys-kernel/vanilla-sources-5.10.0
+
+# Michał Górny <mgorny@gentoo.org> (2020-12-18)
+# Unmaintained.  Last bumped in 2008.  Last upstream (beta) in 2014.
+# The current Gentoo version fails to install.
+# Removal in 30 days.  Bug #701044.
+net-mail/vacation
+
+# Michał Górny <mgorny@gentoo.org> (2020-12-18)
+# Unmaintained.  Homepage gone.  Last bumped in 2008.  Carries multiple
+# patches.  Fails to build again.
+# Removal in 30 days.  Bug #675364.
+net-ftp/tlswrap
+
+# Michał Górny <mgorny@gentoo.org> (2020-12-18)
+# Upstream gone.  Last bumped in 2007.  Fails to build, again.
+# Removal in 30 days.  Bug #648964.
+app-text/ots
+
+# Michał Górny <mgorny@gentoo.org> (2020-12-18)
+# Unmaintained.  The current Gentoo version fails to build, it needs
+# a version bump.
+# Removal in 30 days.  Bug #669452.
+net-misc/dhcpd-pools
+
+# Michał Górny <mgorny@gentoo.org> (2020-12-18)
+# Unmaintained.  Last bumped in 2018.  Vulnerable.  No revdeps.
+# Removal in 30 days.  Bug #736050.
+dev-db/aerospike-server-community
+
+# Michał Górny <mgorny@gentoo.org> (2020-12-18)
+# Abandoned upstream, circa 2013.  Vulnerable.  No revdeps.
+# Removal in 30 days.  Bug #744217.
+app-text/peg-markdown
+
+# Michał Górny <mgorny@gentoo.org> (2020-12-18)
+# Abandoned in 2008.  No reverse dependencies left.
+# Removal in 30 days.  Bug #652192.
+dev-libs/ustr
+
 # Jack Todaro <solpeth@posteo.org> (2020-12-17)
 # Old and redundant package. Has not been kept
 # up to date and no longer works. Masked for removal.
@@ -114,18 +161,6 @@ media-plugins/kodi-screensaver-rsxs
 net-wireless/qradiolink
 net-libs/liba53
 app-emulation/qt-virt-manager
-
-# Michał Górny <mgorny@gentoo.org> (2020-12-03)
-# Explicit namespace support was necessary for Python 2 only.  Empty
-# directories work best for Python 3.
-# Removal in 14 days.
-dev-python/backports
-dev-python/namespace-jaraco
-
-# Aaron Bauman <bman@gentoo.org> (2020-12-02)
-# Deprecated. Functionality is native to dev-python/pytest now
-# Removal in 14 days
-dev-python/pytest-catchlog
 
 # Joonas Niilola <juippis@gentoo.org> (2020-12-01)
 # Not maintained in Gentoo, multiple versions behind, unsafe, EAPI-5,
