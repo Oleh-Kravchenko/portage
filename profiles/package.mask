@@ -32,6 +32,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2020-12-19)
+# Made redundant by compiler-rt's crt implementation.  No revdeps left.
+# Removal in 30 days.  Bug #760711.
+sys-libs/netbsd-csu
+
 # Mike Pagano <mpagano@gentoo.org> (2020-12-18)
 # Serious data corruption bug when using F2FS,
 # see https://bugzilla.kernel.org/show_bug.cgi?id=210765
@@ -502,7 +507,7 @@ kde-apps/kdebase-meta:5
 >=games-engines/love-0.8.0-r100:0.8
 >=games-engines/love-11.3-r100:0
 >=games-engines/solarus-1.3.1-r100
->=games-engines/stratagus-2.4.3-r100
+=games-engines/stratagus-2.4.3-r100
 >=games-puzzle/fish-fillets-1.0.1-r100
 >=games-roguelike/crossfire-client-1.71.0-r100
 >=games-roguelike/stone-soup-0.25.1-r100
