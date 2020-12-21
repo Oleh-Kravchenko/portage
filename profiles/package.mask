@@ -32,6 +32,22 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2020-12-20)
+# Causes segfaults, pending investigation.  Bug #760917.
+=dev-lang/python-3.8.7_rc1
+
+# Michał Górny <mgorny@gentoo.org> (2020-12-20)
+# Requires old dev-python/unidecode.  Last commit in 2017.  No revdeps.
+# Suggested replacement: dev-python/python-slugify.
+# Removal in 30 days.  Bug #714718.
+dev-python/awesome-slugify
+
+# Sergei Trofimovich <slyfox@gentoo.org> (2020-12-20)
+# Needs a port to haskell-src-exts compatible with ghc-8.8.
+# https://github.com/ndmitchell/derive/pull/37
+dev-haskell/derive
+app-forensics/quickfuzz
+
 # Michał Górny <mgorny@gentoo.org> (2020-12-19)
 # Made redundant by compiler-rt's crt implementation.  No revdeps left.
 # Removal in 30 days.  Bug #760711.
@@ -101,11 +117,6 @@ mail-filter/dovecot_deleted_to_trash
 # of Sphinx.  No revdeps.  Alternative: dev-python/sphinx-issues.
 # Removal in 30 days.  Bug #720066.
 dev-python/sphinxcontrib-issuetracker
-
-# Michael Palimaka <kensington@gentoo.org> (2020-12-13)
-# Buggy. Uncooperative upstream.
-# Masked for removal in 30 days.
-x11-misc/albert
 
 # Sam James <sam@gentoo.org> (2020-12-13)
 # This new version of libcap-ng seems to (still)
@@ -319,13 +330,6 @@ dev-python/vcversioner
 dev-python/xlutils
 dev-python/zict
 
-# Matt Turner <mattst88@gentoo.org> (2020-11-19)
-# Ancient packages long since deprecated in the age of udev.
-# Removal in 30 days. Bug #755617
-sys-apps/hwdata-gentoo
-sys-apps/hwsetup
-sys-libs/libkudzu
-
 # Jonas Stein <jstein@gentoo.org> (2020-11-12)
 # Adobe will stop distributing Flash Player after 2020-12-31.
 # Masked for removal after 2020-12-31
@@ -531,10 +535,18 @@ kde-apps/kdebase-meta:5
 >=net-analyzer/rrdtool-1.7.2-r100
 >=net-analyzer/snort-2.9.16-r100
 >=net-analyzer/suricata-6.0.1-r100
+>=net-analyzer/wireshark-3.4.2-r100
 >=net-im/prosody-0.11.7-r100
 >=net-im/swift-4.0.2-r100
+>=net-irc/hexchat-2.14.3-r100
+>=net-irc/weechat-3.0-r100
+>=net-libs/axtls-2.1.5-r100
+>=net-misc/asterisk-16.14.0-r100
+>=net-mail/dovecot-2.3.11.3-r100
 >=net-p2p/eiskaltdcpp-2.2.10-r100
 >=sci-astronomy/celestia-1.7.0_pre20200316-r100
+>=sci-libs/libsc-2.2-r100
+>=sci-libs/p4est-2.2-r100
 >=sci-libs/plplot-5.15.0-r100
 =sci-visualization/gnuplot-5.4.0-r100
 =sci-visualization/gnuplot-5.4.1-r1

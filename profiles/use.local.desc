@@ -1313,8 +1313,6 @@ dev-db/oracle-instantclient:sdk - Header files and an example makefile for devel
 dev-db/oracle-instantclient:sqlplus - The SQL*Plus command line tool for SQL and PL/SQL queries
 dev-db/oracle-instantclient:tools - Data Pump, SQL*Loader and Workload Replay Client
 dev-db/percona-server:cjk - Add CJK support for InnoDB fulltext search using app-text/mecab
-dev-db/percona-server:client-libs - Build the libmysqlclient libraries
-dev-db/percona-server:experimental - Build experimental features aka "rapid" plugins
 dev-db/percona-server:latin1 - Use LATIN1 encoding instead of UTF8
 dev-db/percona-server:libressl - Enable SSL connections and crypto functions using dev-libs/libressl
 dev-db/percona-server:numa - Enable NUMA support using sys-process/numactl (NUMA kernel support is also required)
@@ -1322,10 +1320,8 @@ dev-db/percona-server:profiling - Add support for statement profiling (requires 
 dev-db/percona-server:rocksdb - Add support for RocksDB; a key/value, LSM database optimized for flash storage
 dev-db/percona-server:router - Build the MySQL router program
 dev-db/percona-server:server - Build the server program
-dev-db/percona-server:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-db/percona-server:tokudb - Add support for TokuDB storage engine
 dev-db/percona-server:tokudb-backup-plugin - Builds the TokuDB backup plugin
-dev-db/percona-server:yassl - Enable SSL connections and crypto functions using the bundled yaSSL
 dev-db/pgbouncer:c-ares - Use c-ares as the DNS backend instead of evdns (libevent).
 dev-db/pgbouncer:udns - Use udns as the DNS backend instead of evdns (libevent). Supports IPv4 only.
 dev-db/pgpool2:memcached - Use memcached for query caching.
@@ -2156,6 +2152,8 @@ dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
 dev-libs/libtasn1:valgrind - Enable usage of dev-util/valgrind in debug
 dev-libs/libtermkey:demos - Install demos, which pulls in dev-libs/glib
+dev-libs/libtomcrypt:libtommath - Uses dev-libs/libtommath for mathematical operations
+dev-libs/libtomcrypt:tomsfastmath - Uses dev-libs/tomsfastmath for mathematical operations
 dev-libs/libucl:regex - Enable regex support
 dev-libs/libucl:sign - Enable signatures check
 dev-libs/libucl:urls - Enable URLs fetch
@@ -3274,6 +3272,7 @@ games-strategy/ufoai:server - Build the dedicated server
 games-strategy/uqm:music - download and install music files (large)
 games-strategy/uqm:remix - download and install music remix files (large)
 games-strategy/uqm:voice - download and install voice files (large)
+games-strategy/wargus:bne - Support extracting data from the Battle.net Edition
 games-strategy/wesnoth:fribidi - Support for right-to-left languages
 games-strategy/wesnoth:server - Enable compilation of server
 games-util/deutex:man - Build and install man pages
@@ -7705,7 +7704,6 @@ sys-apps/fwupd:tpm - Install Trusted Platform Module plugin
 sys-apps/fwupd:uefi - Enable UEFI support
 sys-apps/gawk:mpfr - use mpfr for high precision arithmetic (-M / --bignum)
 sys-apps/gnome-disk-utility:fat - Include FAT16/FAT32 support (sys-fs/dosfstools)
-sys-apps/hwdata-gentoo:binary-drivers - Adds support for ATI/NVIDIA binary drivers
 sys-apps/hwids:net - Install the oui.txt and iab.txt databases
 sys-apps/hwids:pci - Install the pci.ids database
 sys-apps/hwids:udev - Install hwdb.d rules for udev
@@ -8273,7 +8271,6 @@ sys-fs/ntfs3g:ntfsdecrypt - Build and install the ntfsdecrypt application.
 sys-fs/ntfs3g:ntfsprogs - Include internal version of ntfsprogs.
 sys-fs/quota:netlink - Compile daemon receiving quota messages via netlink
 sys-fs/quota:rpc - Enable quota interaction via RPC
-sys-fs/squashfs-tools:xz - Enable support for XZ ("LZMA2") compression using app-arch/xz-utils
 sys-fs/squashfs-tools-ng:tools - Build the gensquashfs, rdsquashfs, sqfs2tar, sqfsdiff, and tar2sqfs tools
 sys-fs/squashfs-tools-ng:xz - Enable support for XZ ("LZMA2") compression using app-arch/xz-utils
 sys-fs/udev:kmod - Enable kernel module loading/unloading support using sys-apps/kmod
