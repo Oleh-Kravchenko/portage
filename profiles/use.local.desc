@@ -2510,6 +2510,7 @@ dev-python/pyside2:widgets - Build QtWidgets module
 dev-python/pyside2:x11extras - Build QtX11Extras module
 dev-python/pyside2:xml - Build QtXml module
 dev-python/pyside2:xmlpatterns - Build QtXmlPatterns module
+dev-python/pyside2-tools:tools - Install supplementary tools (rcc, uic, designer)
 dev-python/python-mpd:twisted - Enable twisted support
 dev-python/python-stdnum:vies - Enable VIES
 dev-python/pyudev:qt5 - Install PyQt5 bindings
@@ -3939,6 +3940,7 @@ media-gfx/blender:valgrind - Add support for memory debugging using dev-util/val
 media-gfx/chafa:tools - Build command-line tools
 media-gfx/cura:usb - Access 3D printers via USB
 media-gfx/curaengine:arcus - Build with support for communication library between internal components for Ultimaker software
+media-gfx/darktable:avif - Support importing and exporting AVIF images
 media-gfx/darktable:flickr - Add support for uploading photos to flickr
 media-gfx/darktable:geolocation - Enable geotagging support
 media-gfx/darktable:gmic - Use the G'MIC image-processing framework (media-gfx/gmic), e.g. to support Colour LUTs compressed using their compression scheme
