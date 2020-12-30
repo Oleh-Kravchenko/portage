@@ -32,6 +32,26 @@
 
 #--- END OF EXAMPLES ---
 
+# Hans de Graaff <graaff@gentoo.org> (2020-12-29)
+# These slots masked for removal in 30 days due to
+# security issues, bug 730786
+# Use a newer slot instead.
+dev-ruby/rack:2.0
+dev-ruby/rack:2.1
+
+# Sam James <sam@gentoo.org> (2020-12-29)
+# ABI may have been broken in 8.3.0.
+# Masking for now to avoid rebuilds from
+# a subslot bump in case a new release occurs.
+# bug 762241
+=dev-libs/crypto++-8.3.0
+
+# Jonas Stein <jstein@gentoo.org> (2020-12-29)
+# Unusable without alsa.
+# Masked for removal after 2021-02-01
+# Bug #762361
+media-sound/takcd
+
 # Alfredo Tupone <tupone@gentoo.org> (2020-12-28)
 # Masked for testing
 >=dev-lang/tk-8.6.10
@@ -224,16 +244,6 @@ media-plugins/kodi-screensaver-rsxs
 net-wireless/qradiolink
 net-libs/liba53
 app-emulation/qt-virt-manager
-
-# Joonas Niilola <juippis@gentoo.org> (2020-12-01)
-# Not maintained in Gentoo, multiple versions behind, unsafe, EAPI-5,
-# Use other kernel source / binary packages instead,
-# https://packages.gentoo.org/categories/sys-kernel
-# Removal in ~30 days.
-# Bugs: #716490 (aufs), #739782 (-ck), #757843 (-xbox)
-sys-kernel/aufs-sources
-sys-kernel/ck-sources
-sys-kernel/xbox-sources
 
 # Aaron Bauman <bman@gentoo.org> (2020-11-30)
 # EAPI=5. Multiple open bugs #603866 #713620
@@ -508,10 +518,6 @@ net-misc/gnome-remote-desktop
 # Mart Raudsepp <leio@gentoo.org> (2020-02-03)
 # Needs news item, known breakages that need to be handled first, bug 698922
 >=x11-libs/pango-1.43
-
-# Robin H. Johnson <robbat2@gentoo.org> (2020-01-26)
-# EAPI conversion caused some regressions, need to redesign old ebuilds.
-=dev-lang/lua-5.1.5-r5
 
 # Andrew Ammerlaan <andrewammerlaan@riseup.net> (2020-01-26)
 # Proxy Maintainers <proxy-maint@gentoo.org>
