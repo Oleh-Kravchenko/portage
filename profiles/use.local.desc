@@ -4030,6 +4030,7 @@ media-gfx/librecad:3d - Require all 2D coordinates stored as 3D
 media-gfx/librecad:tools - Build additional tool programs: tff2lff
 media-gfx/luminance-hdr:fits - Enable support for the FITS format
 media-gfx/mandelbulber:opencl - Enable GPU rendering support using OpenCL
+media-gfx/meshlab:double-precision - Use double type instead of float type for scalars
 media-gfx/nomacs:opencv - Build support for media-libs/opencv
 media-gfx/nomacs:plugins - Build officially support plugins
 media-gfx/nvidia-texture-tools:cg - Enable NVIDIA C graphics compiler toolkit plug-in
@@ -7677,7 +7678,7 @@ sys-apps/flashrom:nicrealtek - Support for Realtek NICs
 sys-apps/flashrom:ogp-spi - Enable support for OGP (Open Graphics Project) SPI flashing
 sys-apps/flashrom:pickit2-spi - SUpport for SPI flash ROMs accessible via Microchip PICkit2
 sys-apps/flashrom:pony-spi - Enable support for SI-Prog like hardware by Lancos
-sys-apps/flashrom:raiden - Enable ChromiumOS Servo DUT debug board
+sys-apps/flashrom:raiden-debug-spi - Enable ChromiumOS Servo DUT debug board
 sys-apps/flashrom:rayer-spi - RayeR SPIPGM hardware support
 sys-apps/flashrom:realtek-mst-i2c-spi - Enable support for Realtek MultiStream Transport (MST)
 sys-apps/flashrom:satamv - Enable programmer for Marvell SATA controllers
@@ -8686,7 +8687,6 @@ x11-apps/xsm:rsh - This allows the use of rsh (remote shell) and rcp (remote cop
 x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
 x11-base/xorg-server:elogind - Use elogind to get control over framebuffer when running as regular user
 x11-base/xorg-server:kdrive - Build the kdrive X servers
-x11-base/xorg-server:libglvnd - Use libglvnd for dispatch.
 x11-base/xorg-server:unwind - Enable libunwind usage for backtraces
 x11-base/xorg-server:xcsecurity - Build Security extension
 x11-base/xorg-server:xephyr - Build the Xephyr server
@@ -8882,6 +8882,7 @@ x11-terms/rxvt-unicode:gdk-pixbuf - Enable transparency support using x11-libs/g
 x11-terms/rxvt-unicode:iso14755 - Enable ISO-14755 support
 x11-terms/rxvt-unicode:mousewheel - Enable scrolling via mouse wheel or buttons 4 and 5
 x11-terms/rxvt-unicode:perl - Enable perl script support. You can still disable this at runtime with -pe ""
+x11-terms/rxvt-unicode:sgrmouse - Enable unofficial support for the xterm SGR 1006 mouse-tracking extension. Needed to properly support mouse events for terminals with more than 223 rows or columns, in applications not supporting the urxvt 1015 extension.
 x11-terms/rxvt-unicode:unicode3 - Use 21 instead of 16 bits to represent unicode characters
 x11-terms/rxvt-unicode:utmp - Enable utmp support
 x11-terms/rxvt-unicode:wtmp - Enable wtmp support

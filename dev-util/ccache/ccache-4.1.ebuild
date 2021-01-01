@@ -11,7 +11,7 @@ SRC_URI="https://github.com/ccache/ccache/releases/download/v${PV}/ccache-${PV}.
 
 LICENSE="GPL-3 LGPL-3"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
+KEYWORDS="~alpha amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 sparc ~x86"
 IUSE="test"
 
 DEPEND=""
@@ -45,6 +45,14 @@ src_prepare() {
 	sed \
 		-e "/^EPREFIX=/s:'':'${EPREFIX}':" \
 		"${FILESDIR}"/ccache-config-3 > ccache-config || die
+
+	# Avoid non-ASCII double quotes as they fail on
+	# LANG=fr_FR.iso885915@euro: #762814.
+	sed \
+		-e 's/\xE2\x80\x99/'\''/g' \
+		-e 's/\xE2\x80\x9C/"/g' \
+		-e 's/\xE2\x80\x9D/"/g' \
+		-i doc/MANUAL.adoc || die
 
 	# mainly used in tests
 	tc-export CC OBJDUMP
