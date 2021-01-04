@@ -4258,8 +4258,9 @@ media-libs/mlt:lua - Build SWIG bindings for Lua
 media-libs/mlt:melt - Build the melt commandline tool
 media-libs/mlt:opencv - Build motion tracking module using media-libs/opencv
 media-libs/mlt:python - Build SWIG bindings for Python
-media-libs/mlt:rtaudio - Builds rtaudio consumer for native audio support on multiple platforms.
-media-libs/mlt:vidstab - Enabled video stabilization with media-libs/vidstab.
+media-libs/mlt:rtaudio - Builds rtaudio consumer for native audio support on multiple platforms
+media-libs/mlt:rubberband - Enable audio pitch-shifting using media-libs/rubberband
+media-libs/mlt:vidstab - Enabled video stabilization with media-libs/vidstab
 media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit)
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contribcvv - CVV module requires Qt5
@@ -5746,7 +5747,6 @@ net-im/pidgin:zephyr - Enable Zephyr protocol support
 net-im/profanity:gpg - Enable OpenPGP encryption
 net-im/profanity:omemo - Enable OMEMO encryption
 net-im/profanity:otr - Enable encrypted conversations using Off-The-Records messaging
-net-im/prosody:jit - Use LuaJIT instead of vanilla Lua
 net-im/prosody:libevent - Use libevent for event handling
 net-im/psi:aspell - Enable spellchecking using app-text/aspell
 net-im/psi:enchant - Enable spellchecking using app-text/enchant
@@ -5974,8 +5974,9 @@ net-libs/libgsasl:gcrypt - Use dev-libs/libgcrypt for low-level crypto
 net-libs/libgsasl:ntlm - Add support for Microsoft's NTLM mechanism using net-libs/libntlm
 net-libs/libiio:aio - Enable asynchronous IO support
 net-libs/libisds:openssl - Use dev-libs/openssl as crypto backend instead of app-crypt/gpgme and dev-libs/libgcrypt
-net-libs/libmicrohttpd:epoll - use epoll() system call
+net-libs/libmicrohttpd:epoll - Use epoll() system call
 net-libs/libmicrohttpd:messages - enable error messages
+net-libs/libmicrohttpd:thread-names - Assign thread names to internal threads
 net-libs/libnids:glib - Use dev-libs/glib for multiprocessing support
 net-libs/libnids:libnet - Include code requiring net-libs/libnet
 net-libs/libnma:pkcs11 - Enable PKCS#11 support in certificate chooser via app-crypt/gcr
@@ -8608,8 +8609,6 @@ www-misc/litmus:libproxy - Support for automatic proxy configuratino management 
 www-misc/litmus:libxml2 - Use dev-libs/libxml2 to parse XML
 www-misc/litmus:pkcs11 - Support for PKCS #11 through PaKChoiS (dev-libs/pakchois).
 www-misc/xxv:themes - Enable more themes via x11-themes/xxv-skins
-www-plugins/adobe-flash:nsplugin - Install the Netscape Flash API plugin (for Firefox and similar browsers)
-www-plugins/adobe-flash:ppapi - Install the Pepper Flash API plugin (for Chrome and similar browsers)
 www-plugins/lightspark:ppapi - Install the PPAPI plugin (for Chromium)
 www-plugins/lightspark:rtmp - Enable Real Time Messaging Protocol using librtmp
 www-plugins/passff-host:chrome - Install plugin for chrome (which also includes opera)
