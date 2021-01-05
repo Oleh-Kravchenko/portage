@@ -32,6 +32,19 @@
 
 #--- END OF EXAMPLES ---
 
+# Jaco Kroon <jaco@uls.co.za> (2021-01-04)
+# media-libs/libilbc is (for every package I manage) a drop-in for
+# dev-libs/ilbc-rfc3951. The latter had net-misc/asterisk,
+# net-libs/pjproject and net-voip/yate as dependencies.
+# (All of which has been bumped to no longer have this dependency.)
+# Removal in 30 days, bug #444470
+dev-libs/ilbc-rfc3951
+
+# Mikle Kolyada <zlogene@gentoo.org> (2021-01-04)
+# This release is broken multiple ways.
+# Do not use
+=app-admin/terraform-0.14.3
+
 # Jakov Smolic <jakov.smolic@sartura.hr> (2021-01-02)
 # sci-physics/cernlib fails to build with gcc-10, last release in 2006,
 # multiple open bugs, all revdeps also broken and declared EOL upstream.
