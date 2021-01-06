@@ -607,7 +607,6 @@ app-emulation/qemu:xattr - Add support for getting and setting POSIX extended at
 app-emulation/qemu:xen - Enables support for Xen backends
 app-emulation/qemu:xfs - Support xfsctl() notification and syncing for XFS backed virtual disks.
 app-emulation/qemu:xkb - Depend on x11-libs/libxkbcommon to build qemu-keymap tool for converting xkb keymaps
-app-emulation/qt-virt-manager:smartcard - Enable smartcard remoting using app-emulation/libcacard
 app-emulation/runc:ambient - Enable support for ambient capabilities set (Requires Linux kernel 4.3 or later).
 app-emulation/runc:apparmor - Enable AppArmor support.
 app-emulation/runc:kmem - Enable Kernel Memory Accounting.
@@ -6505,6 +6504,7 @@ net-misc/ofono:qmimodem - Enable Qualcomm QMI modem support
 net-misc/ofono:tools - Enable testing tools
 net-misc/oidentd:masquerade - Enable support for masqueraded/NAT connections
 net-misc/olsrd:pud - Install the Node Position Update plugin
+net-misc/openntpd:constraints - Enable HTTPS TLS time constraint support
 net-misc/openntpd:libressl - Enable HTTPS TLS time constraint support using dev-libs/libressl
 net-misc/openssh:X509 - Adds support for X.509 certificate authentication
 net-misc/openssh:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
@@ -7342,8 +7342,6 @@ sci-libs/plplot:qhull - Add bindings for media-libs/qhull
 sci-libs/plplot:shapefile - Enable support for ESRI shapefiles
 sci-libs/proj:europe - Install the PROJ collection of European grids and init-files
 sci-libs/rtabmap:openni2 - Adds support for Kinect-like 3D sensors devices with dev-libs/OpenNI2.
-sci-libs/scikit-image:freeimage - Enable support for image i/o viamedia-libs/freeimage
-sci-libs/scikit-image:pyamg - Enable support for algebraic solvers via dev-python/pyamg
 sci-libs/scotch:int64 - Build the 64 bits integer library (needed for > 2^31 vertices)
 sci-libs/scotch:tools - Provides the graph, mesh, architecture, mapping/ordering, output handling programs (see Scotch User's Guide).
 sci-libs/silo:silex - Build silex data browser
@@ -8143,6 +8141,7 @@ sys-devel/gcc-apple:objc - Build support for the Objective C code language
 sys-devel/gcc-apple:objc++ - Build support for the Objective C++ language
 sys-devel/gcc-config:cc-wrappers - Install and manage 'cc' and 'f77' wrappers in /usr/bin. Otherwise ignore them.
 sys-devel/gcc-config:native-symlinks - Install native symlinks like 'gcc' or 'g++' to /usr/bin. Otherwise keep only ${CTARGET}-gcc and friends.
+sys-devel/gdb:cet - Enable Intel Control-flow Enforcement Technology.
 sys-devel/gdb:client - Install the main "gdb" program (most people want this)
 sys-devel/gdb:lzma - Support lzma compression in ELF debug info
 sys-devel/gdb:multitarget - Support all known targets in one gdb binary
@@ -8797,7 +8796,6 @@ x11-misc/rss-glx:quesoglc - Enable support for OpenGL Character Renderer
 x11-misc/sddm:elogind - Use sys-auth/elogind for session tracking.
 x11-misc/sent:savedconfig - Without a saved config.h, this package depends on media-gfx/farbfeld for image conversions
 x11-misc/spacefm:video-thumbnails - Support video thumbnails with media-video/ffmpegthumbnailer
-x11-misc/splatmoji:json - Escape output in JSON style using app-misc/jq
 x11-misc/stalonetray:graceful-exit - use non-portable hack to exit gracefuly on signal
 x11-misc/tint2:battery - Enable battery status plugin
 x11-misc/tint2:tint2conf - Build/Install tint2conf as well
