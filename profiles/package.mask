@@ -32,6 +32,14 @@
 
 #--- END OF EXAMPLES ---
 
+# Conrad Kostecki <conikost@gentoo.org> (2021-01-10)
+# The Duke Nukem 3D demo data files will be now handled by the
+# 'games-fps/duke3d-data' package, so this package isn't
+# needed anymore. Just remove it and switch to the above one.
+# Enable use flag 'demo' for demo data files.
+# Removal in 14 days.
+games-fps/duke3d-demodata
+
 # Miroslav Šulc <fordfrog@gentoo.org> (2021-01-09)
 # media-sound/patchage used to depend on it but the dependency
 # has been dropped in v1.0.0. There are no other packages in the tree
@@ -73,7 +81,8 @@ sys-libs/libnih
 
 # Andreas Sturmlechner <asturm@gentoo.org> (2021-01-06)
 # Abandoned upstream, countless bugs. Replaced by builtin functionality in
-# elogind or systemd. Removal in 30 days. Bug #659616.
+# elogind or systemd. Alternative: sys-power/suspend.
+# Removal in 30 days. Bug #659616
 sys-power/pm-utils
 sys-power/pm-quirks
 
@@ -93,11 +102,6 @@ app-crypt/acme-client
 # (All of which has been bumped to no longer have this dependency.)
 # Removal in 30 days, bug #444470
 dev-libs/ilbc-rfc3951
-
-# Mikle Kolyada <zlogene@gentoo.org> (2021-01-04)
-# This release is broken multiple ways.
-# Do not use
-=app-admin/terraform-0.14.3
 
 # Jakov Smolic <jakov.smolic@sartura.hr> (2021-01-02)
 # sci-physics/cernlib fails to build with gcc-10, last release in 2006,
