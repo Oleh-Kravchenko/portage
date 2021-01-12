@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -39,6 +39,7 @@ BDEPEND="
 		>=dev-python/flask-mail-0.9.1[${PYTHON_USEDEP}]
 		>=dev-python/flask-mongoengine-0.9.5[${PYTHON_USEDEP}]
 		>=dev-python/flask-sqlalchemy-2.3[${PYTHON_USEDEP}]
+		dev-python/mock[${PYTHON_USEDEP}]
 		>=dev-python/mongomock-3.19.0[${PYTHON_USEDEP}]
 		>=dev-python/peewee-3.11.2[${PYTHON_USEDEP}]
 		>=dev-python/phonenumbers-8.11.1[${PYTHON_USEDEP}]
@@ -59,7 +60,7 @@ PATCHES=(
 
 src_prepare() {
 	sed -i -e '/setup_requires/d' setup.py || die
-	sed -e 's:--cov flask_security::' \
+	sed -e 's@--cov flask_security@-p no:httpbin@' \
 		-e 's:--cov-report term-missing::' \
 		-e 's:--black::' \
 		-e 's:--flake8::' \

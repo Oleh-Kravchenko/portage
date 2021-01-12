@@ -14,7 +14,8 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND=""
+DEPEND="dev-ml/topkg
+	dev-ml/uutf"
 RDEPEND="${DEPEND}"
 BDEPEND="dev-ml/findlib"
 OPAM_FILE=opam
