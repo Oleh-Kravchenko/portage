@@ -1,9 +1,10 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
+PYTHON_COMPAT=(python3_{6,7,8,9})
 
-inherit readme.gentoo-r1
+inherit python-any-r1 readme.gentoo-r1
 
 DESCRIPTION="The Gentoo Development Guide"
 HOMEPAGE="https://devmanual.gentoo.org/"
@@ -24,7 +25,8 @@ IUSE="+offline"
 BDEPEND="dev-libs/libxml2
 	dev-libs/libxslt
 	gnome-base/librsvg
-	media-fonts/open-sans"
+	media-fonts/open-sans
+	${PYTHON_DEPS}"
 
 PATCHES=( "${FILESDIR}"/${PN}-eclasses.patch )
 
