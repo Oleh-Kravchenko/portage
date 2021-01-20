@@ -11,8 +11,8 @@ SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="+ocamlopt"
-RESTRICT="strip"
+IUSE="+ocamlopt test"
+RESTRICT="strip !test? ( test )"
 
 RDEPEND="dev-lang/ocaml[ocamlopt?]
 	<dev-ml/camlp5-8:=[ocamlopt?]
@@ -24,21 +24,10 @@ RDEPEND="dev-lang/ocaml[ocamlopt?]
 	dev-ml/unidecode:=
 	dev-ml/calendars:="
 DEPEND="${RDEPEND}
-	dev-ml/cppo"
+	dev-ml/cppo
+	test? ( dev-ml/ounit )"
 
-QA_FLAGS_IGNORED=(
-	/usr/bin/gwb2ged
-	/usr/bin/update_nldb
-	/usr/bin/consang
-	/usr/bin/gwd
-	/usr/bin/gwsetup
-	/usr/bin/gwc
-	/usr/bin/ged2gwb
-	/usr/bin/gwu
-	/usr/bin/connex
-	/usr/bin/gwdiff
-	/usr/bin/gwgc
-)
+QA_FLAGS_IGNORED='.*'
 
 src_configure() {
 	ocaml ./configure.ml
