@@ -2048,7 +2048,6 @@ dev-libs/input-pad:eekboard - Enable support for dev-libs/eekboard
 dev-libs/input-pad:xtest - Enable support for x11-libs/libXtst
 dev-libs/intel-neo:l0 - Install the oneAPI Level Zero driver alongside the OpenCL one
 dev-libs/intel-neo:vaapi - Support the sharing of surfaces with Video Acceleration API (OpenCL Extension #36)
-dev-libs/jemalloc:hugepages - Enable transparent huge page support
 dev-libs/jemalloc:lazy-lock - Enable lazy locking (only lock when multi-threaded)
 dev-libs/jemalloc:prof - Enable allocation profiling
 dev-libs/jemalloc:stats - Enable statistics calculation/reporting
@@ -2083,6 +2082,7 @@ dev-libs/libevent:verbose-debug - Support for verbose debug logging
 dev-libs/libffi:pax_kernel - Use PaX emulated trampolines, for we can't use PROT_EXEC
 dev-libs/libffi-compat:pax_kernel - Use PaX emulated trampolines, for we can't use PROT_EXEC
 dev-libs/libflatarray:cuda - Enables plugins for NVIDIA GPUs (e.g. CUDAAllocator)
+dev-libs/libgcrypt:asm - Enable assembly for optimization
 dev-libs/libgcrypt:o-flag-munging - Enable O-flag mangling during build
 dev-libs/libgdata:crypt - Use app-crypt/gcr for keeping tokens and passwords in non-pageable memory for improved security
 dev-libs/libgdata:gnome-online-accounts - Enable net-libs/gnome-online-accounts support
@@ -4199,8 +4199,12 @@ media-libs/libgpod:gtk - Enable ArtworkDB support
 media-libs/libgroove:chromaprint - Enable audio fingerprinting using media-libs/chromaprint.
 media-libs/libgroove:loudness - Enable loudness detection according to the EBU R128 standard using media-libs/libebur128.
 media-libs/libgroove:sound - Enable audio playing.
+media-libs/libheif:aom - Use media-libs/libaom for AVIF encoding/decoding
 media-libs/libheif:gdk-pixbuf - Enable x11-libs/gdk-pixbuf plugin
 media-libs/libheif:go - Enable building dev-lang/go code/examples
+media-libs/libheif:libde265 - Use media-libs/libde265 for HEIF decoding
+media-libs/libheif:rav1e - Use media-video/rav1e for AVIF encoding
+media-libs/libheif:x265 - Use media-libs/x265 for HEIF encoding
 media-libs/liblastfm:fingerprint - Build the lastfm-fingerprint library
 media-libs/libmp4v2:utils - Install command-line utilities
 media-libs/libmypaint:gegl - Add support for media-libs/gegl
@@ -4342,7 +4346,6 @@ media-libs/sdl2-mixer:fluidsynth - Use media-sound/fluidsynth for MIDI support
 media-libs/sdl2-mixer:midi - basic support for MIDI files
 media-libs/sdl2-mixer:mod - basic support for MOD files
 media-libs/sdl2-mixer:playtools - Install playwave and playmus tools (useful for testing)
-media-libs/sdl2-mixer:smpeg - Use media-libs/smpeg for MP3 support
 media-libs/sdl2-mixer:tremor - enable OGG Vorbis music via libtremor
 media-libs/sdl2-mixer:wav - support WAVE files
 media-libs/sge:image - enable sdl-image support
