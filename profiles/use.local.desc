@@ -1523,7 +1523,6 @@ dev-haskell/http-streams:network-uri - Get Network.URI from the network-uri pack
 dev-haskell/httpd-shed:buildexamples - Build example executables.
 dev-haskell/httpd-shed:network-bsd - Get Network.BSD from the network-bsd package.
 dev-haskell/httpd-shed:network-uri - Get Network.URI from the network-uri package.
-dev-haskell/icalendar:network-uri - use network-uri package
 dev-haskell/io-streams:network - Include network support
 dev-haskell/io-streams:zlib - Include zlib support
 dev-haskell/json:mapdict - Encode Haskell maps as JSON dicts
@@ -4281,9 +4280,7 @@ media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D 
 media-libs/mesa:zink - Enable the Zink OpenGL-over-Vulkan Gallium driver
 media-libs/mlt:compressed-lumas - Compress the luma files in png.
 media-libs/mlt:frei0r - Build the module for media-plugins/frei0r-plugins
-media-libs/mlt:kdenlive - Build support for kde-apps/kdenlive
 media-libs/mlt:lua - Build SWIG bindings for Lua
-media-libs/mlt:melt - Build the melt commandline tool
 media-libs/mlt:opencv - Build motion tracking module using media-libs/opencv
 media-libs/mlt:python - Build SWIG bindings for Python
 media-libs/mlt:rtaudio - Builds rtaudio consumer for native audio support on multiple platforms
@@ -5786,8 +5783,6 @@ net-im/spectrum2:purple - Enables the libpurple backend, based on net-im/pidgin.
 net-im/spectrum2:sms - Enables the SMS backend, based on app-mobilephone/smstools.
 net-im/spectrum2:twitter - Enables the Twitter backend.
 net-im/spectrum2:whatsapp - Enables the WhatsApp backend, based on net-im/transwhat.
-net-im/swift:client - Build the full graphical XMPP client.
-net-im/swift:gconf - Enable configuration through gnome-base/gconf.
 net-im/teams:system-ffmpeg - Use the system-wide media-video/ffmpeg instead of bundled.
 net-im/teams:system-mesa - Use the system-wide media-libs/mesa instead of bundled.
 net-im/telegram-desktop:enchant - Enable the app-text/aspell spell-checking backend
@@ -8605,7 +8600,6 @@ www-client/opera-beta:widevine - Unsupported closed-source DRM capability (requi
 www-client/opera-developer:proprietary-codecs - Enable codecs for patent-encumbered audio and video formats.
 www-client/opera-developer:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
 www-client/qutebrowser:scripts - Installs userscripts from the misc/userscripts directory to /usr/share/qutebrowser/userscripts.
-www-client/seamonkey:calendar - Build Mozilla's calendar
 www-client/seamonkey:chatzilla - Build Mozilla's IRC client (default on)
 www-client/seamonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 www-client/seamonkey:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
