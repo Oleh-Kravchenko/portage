@@ -5746,7 +5746,6 @@ net-im/gajim:rst - Generating XHTML output from RST code
 net-im/gajim:spell - Spellchecking of composed messages
 net-im/gajim:upnp - Ability to request your router to forward port for file transfer
 net-im/gajim:webp - Support WebP avatars
-net-im/gitter-bin:pax_kernel - Triggers a paxmarking of the binary
 net-im/libcommuni:qml - Install optional qml files.
 net-im/libcommuni:uchardet - Use app-i18n/uchardet, which is upstreams default, instead of dev-libs/icu, which makes impossible to run tests.
 net-im/mcabber:aspell - Adds support for app-text/aspell spell checker.
@@ -8325,6 +8324,7 @@ sys-libs/compiler-rt-sanitizers:gwp-asan - Build GWP-ASAN runtime.
 sys-libs/compiler-rt-sanitizers:hwasan - Build Hardware ASAN runtime.
 sys-libs/compiler-rt-sanitizers:libfuzzer - Build fuzzing runtime.
 sys-libs/compiler-rt-sanitizers:lsan - Build Leak Sanitizer runtime.
+sys-libs/compiler-rt-sanitizers:memprof - Build memory profiler runtime.
 sys-libs/compiler-rt-sanitizers:msan - Build Memory Sanitizer runtime.
 sys-libs/compiler-rt-sanitizers:profile - Build profiling runtime.
 sys-libs/compiler-rt-sanitizers:safestack - Build SafeStack runtime.

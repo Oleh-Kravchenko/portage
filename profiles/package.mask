@@ -32,6 +32,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Ulrich Müller <ulm@gentoo.org> (2021-01-29)
+# Pretest versions, masked for testing.
+~app-editors/emacs-27.1.91
+~app-editors/emacs-27.1.92
+~app-editors/emacs-27.1.93
+
 # Michał Górny <mgorny@gentoo.org> (2021-01-28)
 # The new pkgcheck version triggers lots of false positives due
 # to Prefix profiles being broken.  Bug #720224.
@@ -39,7 +45,7 @@
 >=sys-apps/pkgcore-0.11
 
 # Azamat H. Hackimov <azamat.hackimov@gmail.com> (2021-01-26)
-# Dead upstream (last release 2007), unmaintained, multiple issues, 
+# Dead upstream (last release 2007), unmaintained, multiple issues,
 # no reverse dependencies.
 # Removal in 30 days. Bug #744019
 sys-power/ncpufreqd
@@ -311,11 +317,11 @@ www-apps/webmcp
 # https://bugs.gentoo.org/751739
 =sys-apps/opentmpfiles-0.3.1
 
-# Stephan Hartmann <sultan@gentoo.org> (2020-12-06)
+# Stephan Hartmann <sultan@gentoo.org> (2021-01-29)
 # Dev channel releases are only for people who
 # are developers or want more experimental features
 # and accept a more unstable release.
->=www-client/chromium-89
+>=www-client/chromium-90
 
 # Andreas Sturmlechner <asturm@gentoo.org> (2020-10-26)
 # Historical metapackage that exists in slot 5 only for transition from KDE SC4.
