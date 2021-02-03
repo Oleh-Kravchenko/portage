@@ -481,7 +481,6 @@ app-emulation/crossover-bin:pcap - Support packet capture software (e.g. wiresha
 app-emulation/crossover-bin:vulkan - Enable Vulkan drivers
 app-emulation/crun:bpf - Enable in Kernel, eBPF (enhanced Berkley Packet Filter) support for managing device controllers.
 app-emulation/crun:criu - Enable CRIU based checkpoint/restore support
-app-emulation/crun:man - Build and install man pages
 app-emulation/docker:apparmor - Enable AppArmor support.
 app-emulation/docker:aufs - Enables dependencies for the "aufs" graph driver, including necessary kernel flags.
 app-emulation/docker:btrfs - Enables dependencies for the "btrfs" graph driver, including necessary kernel flags.
@@ -982,7 +981,6 @@ app-office/kmymoney:activities - Enable kde-frameworks/kactivities integration
 app-office/kmymoney:addressbook - Enable kde-apps/akonadi contact integration
 app-office/kmymoney:hbci - Enable HBCI support using net-libs/aqbanking
 app-office/kmymoney:holidays - Enable kde-frameworks/kholidays integration
-app-office/kmymoney:quotes - Enable Online Stock Quote retrieval
 app-office/kraft:pim - Enable support for KDE PIM resources integration
 app-office/libalkimia:webengine - Use dev-qt/qtwebengine for embedded web browser widget
 app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
@@ -4789,7 +4787,6 @@ media-sound/zynaddsubfx:dssi - Enable support for DSSI Soft Synth Interface
 media-tv/kodi:airplay - enable AirPlay support
 media-tv/kodi:bluray - Enable playback of Blu-ray filesystems
 media-tv/kodi:caps - Use sys-libs/libcap to bind to privileged ports as non-root
-media-tv/kodi:cdio - Enable reading of Audio-CD, Video-CD, and CD-ROM disks and images by dev-libs/libcdio
 media-tv/kodi:cec - Enable support for HDMI-CEC devices via libcec
 media-tv/kodi:dav1d - Enables AV1 decoding via media-libs/dav1d
 media-tv/kodi:dvd - Enable optical (CD/DVD drive) support
