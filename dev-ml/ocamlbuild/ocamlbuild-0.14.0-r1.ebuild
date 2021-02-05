@@ -9,7 +9,7 @@ SRC_URI="https://github.com/ocaml/ocamlbuild/archive/${PV}.tar.gz -> ${P}.tar.gz
 
 LICENSE="LGPL-2.1-with-linking-exception"
 SLOT="0/${PV}"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ppc ppc64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~alpha amd64 arm ~arm64 ~hppa ~ia64 ~mips ppc ppc64 x86 ~amd64-linux ~x86-linux"
 IUSE="+ocamlopt test"
 RESTRICT="!test? ( test )"
 
@@ -25,6 +25,13 @@ PATCHES=(
 )
 
 QA_FLAGS_IGNORED='.*'
+src_prepare() {
+	sed -i \
+		-e "/package_exists/s:camlp4.macro:xxxxxx:" \
+		-e "/package_exists/s:menhirLib:xxxxxx:" \
+		testsuite/external.ml || die
+	default
+}
 
 src_configure() {
 	emake -f configure.make Makefile.config \
@@ -34,6 +41,11 @@ src_configure() {
 		OCAML_NATIVE=$(usex ocamlopt true false) \
 		OCAML_NATIVE_TOOLS=$(usex ocamlopt true false) \
 		NATDYNLINK=$(usex ocamlopt true false)
+}
+
+src_compile() {
+	emake src/ocamlbuild_config.cmo
+	default
 }
 
 src_install() {
