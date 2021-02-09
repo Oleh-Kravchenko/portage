@@ -32,6 +32,17 @@
 
 #--- END OF EXAMPLES ---
 
+# Sergei Trofimovich <slyfox@gentoo.org> (2020-02-08)
+# Abandoned upstream. Was never ported from gtk-2.
+# A possible alternative is media-gfx/geeqie (gqview fork).
+# Removal in 3 months. Bug #769440.
+media-gfx/gqview
+
+# Alexys Jacob <ultrabug@gentoo.org> (2021-02-08)
+# Multiple QA issues, CVE affected, unmaintained for packaging upstream.
+# Removal on 2021-03-08.  Bug #769509
+app-admin/mms-agent
+
 # Michał Górny <mgorny@gentoo.org> (2021-02-07)
 # Fails tests (and does not seem to test the old installed version
 # at least partially).  Needs further testing.
@@ -50,7 +61,6 @@ app-office/orage
 xfce-extra/multiload-nandhp
 xfce-extra/xfce4-embed-plugin
 xfce-extra/xfce4-equake-plugin
-xfce-extra/xfce4-hdaps
 xfce-extra/xfce4-kbdleds-plugin
 xfce-extra/xfce4-windowck-plugin
 
@@ -161,12 +171,6 @@ x11-misc/rss-glx
 # Masked for removal in 30 days.
 kde-frameworks/kdesignerplugin
 
-# Miroslav Šulc <fordfrog@gentoo.org> (2021-01-09)
-# media-sound/patchage used to depend on it but the dependency
-# has been dropped in v1.0.0. There are no other packages in the tree
-# depending on it. Also having issues compiling it. Removal in 30 days.
-media-libs/raul
-
 # Brian Evans <grknight@gentoo.org> (2021-01-07)
 # PHP 7.2 is security vulnerable and end-of-life
 # Please upgrade to a newer slot
@@ -200,12 +204,6 @@ app-crypt/acme-client
 # (All of which has been bumped to no longer have this dependency.)
 # Removal in 30 days, bug #444470
 dev-libs/ilbc-rfc3951
-
-# Sergei Trofimovich <slyfox@gentoo.org> (2020-12-20)
-# Needs a port to haskell-src-exts compatible with ghc-8.8.
-# https://github.com/ndmitchell/derive/pull/37
-dev-haskell/derive
-app-forensics/quickfuzz
 
 # Lars Wendler <polynomial-c@gentoo.org> (2020-12-09)
 # Masked until most broken packages have been fixed (bug #732648)

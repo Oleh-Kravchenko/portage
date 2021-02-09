@@ -721,13 +721,6 @@ app-forensics/honggfuzz:clang - Enable clang support (pull sys-libs/blocksruntim
 app-forensics/libewf:bfio - Enables libbfio for chaining file in file handling
 app-forensics/libewf:fuse - Enable fuse support for ewfmount
 app-forensics/libewf:uuid - Enable UUID support in the ewftools
-app-forensics/quickfuzz:archs - support archive formats
-app-forensics/quickfuzz:codes - support cource code formats
-app-forensics/quickfuzz:docs - support document formats
-app-forensics/quickfuzz:imgs - support image formats
-app-forensics/quickfuzz:media - support media formats
-app-forensics/quickfuzz:net - support networking formats
-app-forensics/quickfuzz:pki - support PKI formats
 app-forensics/sleuthkit:aff - Enable extra aff formats
 app-forensics/sleuthkit:ewf - Enable libewf support
 app-i18n/anthy:canna-2ch - Enable support for app-dicts/canna-2ch
@@ -3134,7 +3127,6 @@ games-fps/eduke32:voidsw - Enable support for Shadow Warrior (Classic) through V
 games-fps/eduke32:voxels - Install the Duke Nukem 3D Voxels Pack.
 games-fps/eduke32:vpx - Enable support for media-libs/libvpx.
 games-fps/eduke32:xmp - Enable support for media-libs/exempi.
-games-fps/gzdoom:gtk2 - Enable support for GTK+2 instead of GTK+3
 games-fps/gzdoom:non-free - Enable non-free components
 games-fps/nexuiz:maps - Install the community map pack
 games-fps/prboom-plus:dumb - Enable support for various tracker-style music formats via media-libs/dumb
@@ -4575,7 +4567,6 @@ media-sound/jack-audio-connection-kit:pam - Add basic realtime configuration via
 media-sound/jack2:classic - Enable building of jackd
 media-sound/jack2:metadata - Enable metadata API
 media-sound/jack2:pam - Add basic realtime configuration via sys-auth/realtime-base
-media-sound/jalv:gtk2 - Adds support for GTK+2 in addition to GTK+3 controlled by the gtk useflag.
 media-sound/jalv:gtkmm - Adds support for dev-cpp/gtkmm: C++ interface for GTK+2
 media-sound/kid3:acoustid - Build acoustic fingerprinting plugin using media-libs/chromaprint
 media-sound/kid3:mpris - Enable support for MPRIS2 interface using dev-qt/qtdbus
@@ -6282,9 +6273,13 @@ net-misc/cgminer:modminer - Enable support for mining with ModMiner FPGAs
 net-misc/cgminer:sp10 - Enable support for Spondoolies SP10
 net-misc/cgminer:sp30 - Enable support for Spondoolies SP30
 net-misc/chrony:cmdmon - Support for command and monitoring
+net-misc/chrony:debug - Get DEBUG_LOG output from chronyd when passing -dd parameter
 net-misc/chrony:html - Install HTML documentation
-net-misc/chrony:nettle - Use dev-libs/nettle for hash functions
+net-misc/chrony:libtomcrypt - Support different hashes via dev-libs/libtomcrypt
+net-misc/chrony:nettle - Use dev-libs/nettle for hash functions or nts
+net-misc/chrony:nss - Use dev-libs/nss for hash functions
 net-misc/chrony:ntp - Support for the Network Time Protocol (NTP)
+net-misc/chrony:nts - Support for Network Time Security (NTS). Uses net-libs/gnutls
 net-misc/chrony:phc - Support for the PTP (Precision Time Protocol) Hardware Clock (PHC) interface
 net-misc/chrony:pps - Support for the Linux Pulse Per Second (PPS) interface
 net-misc/chrony:refclock - Support for reference clocks
@@ -6325,6 +6320,7 @@ net-misc/curl:rtmp - Enable RTMP Streaming Media support
 net-misc/curl:smtp - Enable Simple Mail Transfer Protocol support
 net-misc/curl:ssh - Enable SSH urls in curl using libssh2
 net-misc/curl:ssl - Enable crypto engine support (via openssl if USE='-gnutls -nss')
+net-misc/curl:sslv3 - Support for the old/insecure SSLv3 protocol
 net-misc/curl:telnet - Enable Telnet protocol support
 net-misc/curl:tftp - Enable TFTP support
 net-misc/curl:winssl - Enable winssl ssl backend
@@ -6406,6 +6402,7 @@ net-misc/iputils:rdisc - Build and install rdisc -- server for the client side o
 net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
 net-misc/iputils:tracepath - Build and install tracepath -- tool for tracing network paths for discovering MTU values
 net-misc/iputils:traceroute6 - Build and install deprecated traceroute6 tool. It's recommended to use net-analyzer/traceroute instead.
+net-misc/kafka-bin:connect - Install init for Kafka Connect Distributed mode
 net-misc/kafka-bin:internal-zookeeper - Use bundled local zookeeper instance
 net-misc/kafkacat:avro - Enable avro serialization/deserialization support
 net-misc/kafkacat:json - Enable json support
