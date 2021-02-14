@@ -385,7 +385,6 @@ app-editors/emacs:games - Support shared score files for games
 app-editors/emacs:gconf - Use gnome-base/gconf to read the system font name
 app-editors/emacs:gfile - Use gfile (dev-libs/glib) for file notification
 app-editors/emacs:gsettings - Use gsettings (dev-libs/glib) to read the system font name
-app-editors/emacs:gtk2 - Prefer version 2 of the GIMP Toolkit to version 3 (x11-libs/gtk+)
 app-editors/emacs:gzip-el - Compress bundled Emacs Lisp source
 app-editors/emacs:harfbuzz - Use media-libs/harfbuzz as text shaping engine
 app-editors/emacs:imagemagick - Use media-gfx/imagemagick for image processing
@@ -4173,7 +4172,6 @@ media-libs/libcanberra:tdb - Enables Trivial Database support for caching purpos
 media-libs/libde265:dec265 - Enable build of dec265 example program
 media-libs/libde265:enc265 - Enable build of enc265 tool
 media-libs/libde265:sdl - Enable video output of dec265 example program with media-libs/libsdl
-media-libs/libde265:static-libs - Enable build of static libraries
 media-libs/libde265:tools - Enable installation of varous binary tools
 media-libs/libepoxy:egl - Enable EGL support.
 media-libs/libextractor:apparmor - Enable apparmor support using sys-libs/libapparmor
@@ -8710,6 +8708,7 @@ x11-drivers/xf86-video-intel:tools - Build the intel-virtual-output tool
 x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
 x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
 x11-drivers/xf86-video-openchrome:viaregtool - Install registers dumper tool
+x11-drivers/xf86-video-qxl:xspice - Include Xspice, a standard X server that is also a Spice server
 x11-libs/agg:gpc - Enable gpc polygon clipper library
 x11-libs/cairo:gles2-only - Build the OpenGL ES 2 backend
 x11-libs/cairo:glib - Compile with GLib Object System support
