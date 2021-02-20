@@ -34,6 +34,7 @@ RDEPEND="
 	x11-libs/gtk+:3[X]
 	x11-libs/libX11
 	x11-libs/libxcb
+	x11-libs/libxkbcommon
 	x11-libs/libXcomposite
 	x11-libs/libXcursor
 	x11-libs/libXdamage
@@ -44,7 +45,6 @@ RDEPEND="
 	x11-libs/libXrender
 	x11-libs/libXScrnSaver
 	x11-libs/libXtst
-	x11-libs/libxkbcommon
 	x11-libs/pango
 	sound? (
 		|| (
@@ -110,6 +110,6 @@ src_install() {
 
 pkg_postinst() {
 	xdg_pkg_postinst
-	elog "For using the tray icon on compatible desktop environments,"
-	elog "start Signal with '--start-in-tray' or '--use-tray-icon'."
+	elog "For using the tray icon on compatible desktop environments, start Signal with"
+	elog " '--start-in-tray' or '--use-tray-icon'."
 }
