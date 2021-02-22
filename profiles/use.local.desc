@@ -4923,6 +4923,7 @@ media-video/ffmpeg:postproc - Build and install libpostproc.
 media-video/ffmpeg:rav1e - Enables AV1 encoding support via media-video/rav1e.
 media-video/ffmpeg:rubberband - Adds time-stretching and pitch-shifting audio filter based on media-libs/rubberband.
 media-video/ffmpeg:snappy - Enable app-arch/snappy support. Required for e.g. Vidvox Hap encoder.
+media-video/ffmpeg:sndio - Enable support for the media-sound/sndio backend
 media-video/ffmpeg:srt - Enable support for Secure Reliable Transport (SRT) via net-libs/srt
 media-video/ffmpeg:ssh - Enable SSH/sftp support via net-libs/libssh.
 media-video/ffmpeg:twolame - Enables MP2 encoding via media-sound/twolame as an alternative to the internal encoder.
@@ -8418,8 +8419,6 @@ sys-power/nut:ups_drivers_usbhid-ups - Driver for USB/HID UPS equipment
 sys-power/nut:ups_drivers_victronups - Driver for IMV/Victron UPS unit Match, Match Lite, NetUps
 sys-power/nvclock:gtk - Install the GTK+ based graphical interface
 sys-power/nvclock:nvcontrol - Add NVCONTROL support for OpenGL options
-sys-power/pm-utils:ntp - Install support for net-misc/ntp
-sys-power/powermgmt-base:pm-utils - Adds support for on_ac_power through sys-power/pm-utils
 sys-power/sispmctl:gemplug - Install gemplug (management script)
 sys-power/suspend:crypt - Allows suspend and resume from encrypted disk
 sys-process/audit:gssapi - Enable GSSAPI support
@@ -8489,14 +8488,12 @@ www-apps/kibana-bin:x-pack - Enable additional features (may need a license)
 www-apps/klaus:ctags - Enable support for Exuberant ctags; makes all source code symbols hyperlinks to their definitions
 www-apps/nikola:assets - Support web asset management
 www-apps/nikola:charts - Support chart generation through dev-python/pygal
-www-apps/nikola:ghpages - Add support for direct uploading to github pages
 www-apps/nikola:hyphenation - Add hyphenation support through dev-python/pyphen
 www-apps/nikola:ipython - Add IPython notebook compilation and LESS support
 www-apps/nikola:jinja - Add support for dev-python/jinja as alternative templating engine to Mako
 www-apps/nikola:server - Enable support for built-in web server using dev-python/aiohttp
 www-apps/nikola:watchdog - Use dev-python/watchdog to monitor file system events
 www-apps/nikola:webmedia - Use dev-python/micawber to extract metadata from web media links
-www-apps/nikola:websocket - Add websocket support thru dev-python/ws4py
 www-apps/postfixadmin:vacation - Install vacation.pl script and dependencies
 www-apps/radicale:bcrypt - Depend on passlib to enable bcrypt and md5 authentication methods
 www-apps/redmine:markdown - Enable support for Markdown
