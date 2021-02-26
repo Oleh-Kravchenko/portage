@@ -3069,6 +3069,7 @@ games-emulation/snes9x:libretro - Build libretro port
 games-emulation/snes9x:netplay - Enable playing ROMs over the network (not recommended)
 games-emulation/vbam:link - Enable GBA linking functionality
 games-emulation/zsnes:debug - Enable the builtin debugger
+games-engines/devilutionx:hellfire - Enable support for Diablo Hellfire Expansion
 games-engines/devilutionx:lto - Build with link time optimization enabled
 games-engines/exult:fluidsynth - Compile with support for FluidSynth
 games-engines/exult:sdl2 - Use libsdl2 instead of libsdl
@@ -6187,7 +6188,6 @@ net-misc/asterisk-moh-opsound:ulaw - Install the sounds files for the ulaw codec
 net-misc/asterisk-moh-opsound:wav - Install the sounds files for the wav codec.
 net-misc/bfgminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library
 net-misc/bfgminer:alchemist - Enable support for mining with AlcheMist
-net-misc/bfgminer:antminer - Enable support for mining with AntMiner U1 sticks
 net-misc/bfgminer:avalon - Enable support for mining with Avalon 1 ASIC modules
 net-misc/bfgminer:avalonmm - Enable support for mining with Avalon 2/3 ASIC modules
 net-misc/bfgminer:bfsb - Enable support for mining on BFSB host Raspberry Pi
@@ -7231,7 +7231,6 @@ sci-libs/eccodes:memfs - Enable memory based access to definition/sample files (
 sci-libs/fcl:octomap - OctoMap library support
 sci-libs/fcl:profiling - Enable profiling
 sci-libs/fftw:float - Link default library to single precision instead of double (symlinks only and fftw-2.1)
-sci-libs/fftw:quad - Build quadruple precision lib
 sci-libs/fftw:zbus - Adds support for ZBus cycle-counter of mips
 sci-libs/flann:cuda - Enable support for nVidia CUDA
 sci-libs/flann:octave - Add bindings for sci-mathematics/octave
