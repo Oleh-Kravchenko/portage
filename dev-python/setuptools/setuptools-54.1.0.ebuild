@@ -15,7 +15,7 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~hppa ~ppc ~x86"
 
 BDEPEND="
 	test? (
@@ -23,6 +23,7 @@ BDEPEND="
 		>=dev-python/jaraco-path-3.2.0[${PYTHON_USEDEP}]
 		dev-python/mock[${PYTHON_USEDEP}]
 		dev-python/pip[${PYTHON_USEDEP}]
+		dev-python/sphinx[${PYTHON_USEDEP}]
 		dev-python/pytest-fixture-config[${PYTHON_USEDEP}]
 		dev-python/pytest-virtualenv[${PYTHON_USEDEP}]
 		dev-python/pytest-xdist[${PYTHON_USEDEP}]

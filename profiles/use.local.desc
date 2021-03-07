@@ -2738,6 +2738,7 @@ dev-util/android-studio:custom-jdk - Install and use Android Studio's custom JRE
 dev-util/anjuta:devhelp - Enable devhelp integration
 dev-util/anjuta:glade - Build glade plugin for anjuta
 dev-util/anjuta:terminal - Enable terminal plugin based on x11-libs/vte
+dev-util/bazel:static-libs - Link libstdc++ statically
 dev-util/bazel:tools - Install extra bazel tools to build from sources
 dev-util/bitcoin-tx:knots - Build enhanced Bitcoin Knots version, rather than Bitcoin Core
 dev-util/buildbot:docker - Add support for worker docker command steps
@@ -3101,7 +3102,6 @@ games-fps/darkplaces:lights - Install and setup the updated light maps
 games-fps/darkplaces:textures - Install and setup the updated textures
 games-fps/doomsday:demo - Install launcher dor doom1.wad from games-fps/doom-data
 games-fps/doomsday:fluidsynth - Build the FluidSynth sound driver
-games-fps/doomsday:fmod - Enable support for fmod music and sound effects lib
 games-fps/doomsday:freedoom - Install launcher for doom1.wad from games-fps/freedoom
 games-fps/doomsday:tools - Build additional tools such as doomsday-shell, md2tool and texc
 games-fps/duke3d-data:demo - Extract data files from the shareware version.
@@ -4112,6 +4112,7 @@ media-libs/freetype:utils - Install utilities and examples from ft2demos
 media-libs/freeverb3:forcefpu - Disable assembly code
 media-libs/freeverb3:plugdouble - Build plugins in double precision mode (default is float)
 media-libs/ganv:fdgl - Use experimental force-directed graph layout
+media-libs/gd:heif - Enable support for the heif format via media-libs/libheif
 media-libs/gd:webp - Enable support for the webp format
 media-libs/gegl:lensfun - Enable support for media-libs/lensfun.
 media-libs/gegl:umfpack - Enable sparse solving via sci-libs/umfpack.
@@ -8352,7 +8353,6 @@ sys-libs/libblockdev:lvm - Enable support for Logical Volume Management via sys-
 sys-libs/libblockdev:tools - Build tools
 sys-libs/libblockdev:vdo - Enable Virtual Data Optimizer support.
 sys-libs/libcxx:libcxxabi - Build on top of sys-libs/libcxxabi instead of gcc's libsupc++ (avoids depending on gcc).
-sys-libs/libcxx:libcxxrt - Build on top of libcxxrt instead of gcc's libsupc++ (avoids depending on gcc).
 sys-libs/libcxx:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependence on gcc.
 sys-libs/libcxxabi:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependency on gcc
 sys-libs/libomp:cuda - Build CUDA offloading plugin (only with USE=offload)
@@ -8909,7 +8909,6 @@ x11-themes/gtk-engines-murrine:animation-rtl - Progressbar animation from right 
 x11-themes/gtk-engines-murrine:themes - Pull in themes via x11-themes/murrine-themes
 x11-themes/gtk-engines-nodoka:animation-rtl - Progressbar animation from right to left
 x11-themes/kfaenza:additional - Install additional KFaenza icons. See third homepage for details
-x11-themes/light-themes:gtk3 - Support GTK 3.x, too
 x11-themes/mate-themes-meta:gtk2-only - Allow dependency-resolution for a system without GTK+3
 x11-themes/redhat-artwork:audacious - Install media-sound/audacious theme
 x11-themes/redhat-artwork:cursors - Install Bluecurve cursors
