@@ -299,7 +299,6 @@ app-crypt/dehydrated:cron - Install cron job to sign/renew non-existent/changed/
 app-crypt/eid-mw:dialogs - Enable "askaccess" dialog box, by using x11-libs/gtk+
 app-crypt/eid-mw:gtk - All dialogs are available, by using x11-libs/gtk+
 app-crypt/eid-mw:p11-kit - Support for app-crypt/p11-kit.
-app-crypt/eid-mw:p11v220 - Enable PKCS#11 v2.20 features.
 app-crypt/ekeyd:minimal - Only install the ekey-egd-linux service rather than the full ekeyd package.
 app-crypt/ekeyd:munin - Install a plugin for net-analyzer/munin to graph statistical data from ekeyd.
 app-crypt/ekeyd:usb - Build the libusb-based userland daemon for accessing the EntropyKey (alternative to the CDC USB driver). It is suggested to use this option by default, as the CDC driver in the kernel often seems to be fragile (or the gadget implementation on the EntropyKey is too buggy), and can cause various problems.
@@ -3687,6 +3686,7 @@ mail-client/mutt:pop - Enable support for POP3 mailboxes
 mail-client/mutt:smime-classic - Build classic_smime backend to support S/MIME
 mail-client/mutt:smtp - Enable support for direct SMTP delivery
 mail-client/mutt:tokyocabinet - Enable dev-db/tokyocabinet database backend for header caching
+mail-client/neomutt:autocrypt - Enable autocrypt.org support
 mail-client/neomutt:berkdb - Enable BDB (Berkley DB) backend for header caching
 mail-client/neomutt:gdbm - Enable GDBM (GNU dbm) backend for header caching
 mail-client/neomutt:gpgme - Build gpgme backend to support S/MIME, PGP/MIME and traditional/inline PGP
@@ -8434,7 +8434,6 @@ sys-power/nut:ups_drivers_usbhid-ups - Driver for USB/HID UPS equipment
 sys-power/nut:ups_drivers_victronups - Driver for IMV/Victron UPS unit Match, Match Lite, NetUps
 sys-power/nvclock:gtk - Install the GTK+ based graphical interface
 sys-power/nvclock:nvcontrol - Add NVCONTROL support for OpenGL options
-sys-power/sispmctl:gemplug - Install gemplug (management script)
 sys-power/suspend:crypt - Allows suspend and resume from encrypted disk
 sys-process/audit:gssapi - Enable GSSAPI support
 sys-process/criu:setproctitle - Make process titles of service workers to be more verbose
