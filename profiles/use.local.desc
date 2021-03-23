@@ -441,7 +441,7 @@ app-emacs/bbdb:tex - Install plain TeX support files
 app-emacs/bbdb:vm - Add support for app-emacs/vm
 app-emacs/calfw:howm - Add support for the app-emacs/howm note-taking tool
 app-emacs/elscreen:wanderlust - Include support for app-emacs/wanderlust
-app-emacs/emacs-common-gentoo:games - Support shared score files for games
+app-emacs/emacs-common:games - Support shared score files for games
 app-emacs/emacs-w3m:gzip-el - Compress bundled Emacs Lisp source
 app-emacs/mu-cite:bbdb - Include support for app-emacs/bbdb
 app-emacs/org-mode:contrib - Install user-contributed files
@@ -5299,6 +5299,7 @@ net-analyzer/nsca:crypt - Build support for crypted communication with nsca, thr
 net-analyzer/nsca:minimal - Only build and install the send_nsca command and not the daemon. This allows a very minimal install with no overhead when setting up a node.
 net-analyzer/openvas-scanner:cron - Install a cron job to update GVM's feed daily.
 net-analyzer/openvas-scanner:extras - Html docs support
+net-analyzer/openvas-scanner:snmp - Build againts net-analyzer/net-snmp for "improved SNMP support"
 net-analyzer/ospd:extras - Html docs support
 net-analyzer/ossec-hids:agent - Build "agent" installation target (see package description)
 net-analyzer/ossec-hids:hybrid - Build "hybrid" installation target
