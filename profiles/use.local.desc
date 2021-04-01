@@ -3089,7 +3089,6 @@ games-emulation/snes9x:libretro - Build libretro port
 games-emulation/snes9x:netplay - Enable playing ROMs over the network (not recommended)
 games-emulation/vbam:link - Enable GBA linking functionality
 games-emulation/zsnes:debug - Enable the builtin debugger
-games-engines/devilutionx:hellfire - Enable support for Diablo Hellfire Expansion
 games-engines/devilutionx:lto - Build with link time optimization enabled
 games-engines/exult:fluidsynth - Compile with support for FluidSynth
 games-engines/exult:sdl2 - Use libsdl2 instead of libsdl
@@ -4052,7 +4051,6 @@ media-gfx/nomacs:plugins - Build officially support plugins
 media-gfx/nvidia-texture-tools:cg - Enable NVIDIA C graphics compiler toolkit plug-in
 media-gfx/nvidia-texture-tools:glew - Enable support for The OpenGL Extension Wrangler Library (media-libs/glew)
 media-gfx/openclipart:gzip - Compresses clip art using gzip
-media-gfx/openexr_viewers:cg - Add support for nvidia's cg shaders
 media-gfx/openscad:ccache - Use dev-util/ccache to speed up rebuilds
 media-gfx/openscad:gamepad - Add support for gamepads through dev-qt/qtgamepad
 media-gfx/openscad:headless - Build a binary without GUI
@@ -5072,6 +5070,7 @@ media-video/qmplay2:gme - Build Chiptune with GME support
 media-video/qmplay2:inputs - Build with Inputs module
 media-video/qmplay2:libass - Build with SSA/ASS subtitles rendering support
 media-video/qmplay2:notifications - Build additional notifications module
+media-video/qmplay2:pipewire - Build with PipeWire support
 media-video/qmplay2:shaders - Compile Vulkan shaders using media-libs/shaderc
 media-video/qmplay2:sid - Build Chiptune with SIDPLAY support
 media-video/qmplay2:videofilters - Build with VideoFilters module

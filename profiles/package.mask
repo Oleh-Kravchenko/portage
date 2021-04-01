@@ -32,6 +32,12 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2021-03-31)
+# New versions remove PORTAGE_CONFIGROOT support, breaking a lot
+# of scripts.
+>=dev-util/pkgdev-0.1.3
+>=sys-apps/pkgcore-0.11.7
+
 # Rick Farina <zerochaos@gentoo.org> (2021-03-30)
 # Gentoo doesn't use this package, and the one package which needs it now uses the bundled version
 # Masked for removal in 30 days
@@ -373,22 +379,6 @@ dev-ml/core_extended
 # which haven't yet ported.
 # bug #729098
 ~sci-libs/proj-8.0.0
-
-# Bernd Waibel <waebbl-gentoo@posteo.net> (2021-02-27)
-# Mask until removal of media-gfx/openexr_viewers.
-# Version has several vulnerabilities. See #717474
-=media-libs/ilmbase-2.3.0
-
-# Bernd Waibel <waebbl-gentoo@posteo.net> (2021-02-27)
-# Mask until removal of media-gfx/openexr_viewers.
-# Version has several vulnerabilities. See #717474
-=media-libs/openexr-2.3.0
-
-# Bernd Waibel <waebbl-gentoo@posteo.net> (2021-02-27)
-# No longer actively supported upstream.
-# Removal needed to clean-up {ilmbase,openexr}-2.3.0
-# Masked for removal in 30 days.
-media-gfx/openexr_viewers
 
 # Sam James <sam@gentoo.org> (2021-02-18)
 # 0.9.27 included a regression wrt deletes
