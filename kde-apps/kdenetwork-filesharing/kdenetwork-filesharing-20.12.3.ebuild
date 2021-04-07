@@ -7,12 +7,12 @@ KFMIN=5.75.0
 QTMIN=5.15.2
 inherit ecm kde.org
 
-DESCRIPTION="SMB filesharing config module for systemsettings"
+DESCRIPTION="Samba filesharing plugin for file properties"
 HOMEPAGE="https://apps.kde.org/en/kdenetwork_filesharing"
 
 LICENSE="GPL-2" # TODO: CHECK
 SLOT="5"
-KEYWORDS="~amd64 ~arm64 ~ppc64 x86"
+KEYWORDS="amd64 arm64 ~ppc64 x86"
 IUSE=""
 
 DEPEND="
