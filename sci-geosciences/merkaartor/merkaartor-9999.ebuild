@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -71,6 +71,11 @@ src_prepare() {
 }
 
 src_configure() {
+	if has_version "<sci-libs/proj-8.0.0" ; then
+		# bug #685234
+		append-cppflags -DACCEPT_USE_OF_DEPRECATED_PROJ_API_H
+	fi
+
 	# TRANSDIR_SYSTEM is for bug #385671
 	local myeqmakeargs=(
 		PREFIX="${ED}/usr"

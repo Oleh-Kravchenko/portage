@@ -4145,6 +4145,7 @@ media-libs/imlib2:tiff - TIFF image loader support
 media-libs/imlib2:webp - WEBP image loader support
 media-libs/imlib2:zlib - Zlib loader support
 media-libs/leptonica:utils - Install command-line utilities
+media-libs/lib3mf:system-act - Use system-provided dev-go/act as code generator instead of package provided binaries. This flag will be removed after some time used for testing!
 media-libs/libafterimage:shaping - Use MIT shaped X windows extention.
 media-libs/libafterimage:shm - Use MIT shared memory extention for X image transfer.
 media-libs/libavif:aom - Enable support for the AOM codec encoding and decoding
@@ -5295,7 +5296,6 @@ net-analyzer/pmacct:kafka - Enable support for Apache Kafka through dev-libs/lib
 net-analyzer/pmacct:l2 - Enable Layer-2 features and support
 net-analyzer/pmacct:ndpi - Enable support for nDPI through net-libs/nDPI
 net-analyzer/pmacct:nflog - Enable support for NFLOG through uacctd
-net-analyzer/pmacct:plabel - Enable IP prefix labels
 net-analyzer/pmacct:rabbitmq - Enable support for RabbitMQ through net-libs/rabbitmq-c
 net-analyzer/pmacct:st-bins - Link Streaming Telemetry daemon binaries
 net-analyzer/pmacct:traffic-bins - Link IPv4/IPv6 traffic accounting binaries
