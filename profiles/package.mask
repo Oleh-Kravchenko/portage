@@ -32,6 +32,13 @@
 
 #--- END OF EXAMPLES ---
 
+# Matt Turner <mattst88@gentoo.org> (2021-04-13)
+# Masked for testing
+>=app-misc/tracker-3
+>=app-misc/tracker-miners-3
+>=gnome-base/nautilus-40
+>=sys-process/gnome-usage-3.38
+
 # Michał Górny <mgorny@gentoo.org> (2021-04-10)
 # Obsolete backport to Python < 3.4.  No reverse dependencies left.
 # Removal on 2021-05-10.  Bug #781902.
@@ -226,12 +233,13 @@ sys-devel/autoconf:2.71
 # Many reverse dependencies need to be ported due to changes in new glib
 # Masking until they've been updated, see tracker bug for details
 # bug #777675
-=dev-libs/gobject-introspection-common-1.68.0
-=dev-libs/gobject-introspection-1.68.0
-=dev-util/gdbus-codegen-2.68.0
-=dev-util/glib-utils-2.68.0
-=dev-libs/glib-2.68.0
-=net-libs/glib-networking-2.68.0
+>=dev-libs/gobject-introspection-common-1.68.0
+>=dev-libs/gobject-introspection-1.68.0
+>=dev-util/gdbus-codegen-2.68.0
+>=dev-util/glib-utils-2.68.0
+>=dev-libs/glib-2.68.0
+>=net-libs/glib-networking-2.68.0
+>=gnome-base/nautilus-40
 
 # Marek Szuba <marecki@gentoo.org> (2021-03-19)
 # Depends on bundled out-of-date Qt5 libraries, and even with those
@@ -394,22 +402,6 @@ dev-lang/spark
 # works for existing packages
 >=dev-libs/vala-common-0.49
 dev-lang/vala:0.50
-
-# Sam James <sam@gentoo.org> (2020-07-20)
-# Serious security vulnerabilities, including
-# remote code execution. Upstream have not yet
-# made a stable release in response to numerous
-# CVEs. Applying patches is not a workable
-# solution for now because of the fragility
-# of reverse dependencies.
-# Indefinitely masking until we have a solution
-# for this.
-# bug #719084
-# Furthermore, ntopng ebuilds depending directly on dev-lang/lua{,jit}
-# must be migrated to lua eclasses before unmasking (bug #752777).
-net-analyzer/ntopng
-net-analyzer/pmacct
-net-libs/nDPI
 
 # Mart Raudsepp <leio@gentoo.org> (2020-06-06)
 # Meson port does not handle multilib yet and has issues
