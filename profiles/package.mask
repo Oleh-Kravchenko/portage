@@ -32,6 +32,26 @@
 
 #--- END OF EXAMPLES ---
 
+# Miroslav Šulc <fordfrog@gentoo.org> (2021-04-14)
+# java libraries not used by any other package,
+# masked for removal
+dev-java/odfdom
+dev-java/saaj
+
+# Andreas K. Hüttel <dilfridge@gentoo.org> (2021-04-14)
+# QA: Mask sys-apps/openrc-0.43 because of bug 782808
+=sys-apps/openrc-0.43*
+
+# Jonas Stein <jstein@gentoo.org> (2021-04-14)
+# Open bugs, dead upstream.
+# Removal on 2021-06-01.  Bug #782730.
+x11-misc/superswitcher
+
+# Jonas Stein <jstein@gentoo.org> (2021-04-14)
+# dead upstream, no valid SRC_URI
+# Removal on 2021-06-01.  Bug #782727.
+x11-misc/xstroke
+
 # Matt Turner <mattst88@gentoo.org> (2021-04-13)
 # Masked for testing
 >=app-misc/tracker-3
@@ -249,11 +269,6 @@ sys-devel/autoconf:2.71
 # Removal in 30 days. Bug #768228.
 mail-mta/protonmail-bridge-bin
 
-# Joonas Niilola <juippis@gentoo.org> (2021-03-16)
-# A library without consumers, unbuildable for years, ebuilds not
-# touched in years either. Bugs #664776, #747592. Removal in ~30 days.
-dev-libs/zookeeper-c
-
 # Andreas Sturmlechner <asturm@gentoo.org> (2021-03-15)
 # Unmaintained for >1 year, blocking cleanup of deprecated libraries.
 # Succeeded by LXQt many years ago (see also: lxqt-base/lxqt-meta).
@@ -282,23 +297,6 @@ dev-libs/zookeeper-c
 # Removal in 60 days to allow people extra time
 # for transitioning out. Bug #776262.
 app-admin/lastpass-cli
-
-# Brian Evans <grknight@gentoo.org> (2021-03-08)
-# No longer consistently maintained, severely broken with PHP 8
-# No reverse dependencies, fails tests
-# Removal in 30 days.
-dev-php/PEAR-Config
-
-# Andreas K. Hüttel <dilfridge@gentoo.org> (2021-03-06)
-# Fails to build, multiple bugs, outdated, nontrival, unmaintained
-# Bug 729876 and several others; removal in 30days
-dev-libs/klibc
-
-# Sam James <sam@gentoo.org> (2021-03-03)
-# Declared abandoned upstream and stuck
-# on Python 3.7.
-# Removal in 30 days.
-app-office/moneyguru
 
 # Sam James <sam@gentoo.org> (2021-03-03)
 # Doesn't seem to sync clock correctly
