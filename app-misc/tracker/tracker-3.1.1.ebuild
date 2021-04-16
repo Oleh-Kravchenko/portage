@@ -12,9 +12,9 @@ HOMEPAGE="https://wiki.gnome.org/Projects/Tracker"
 
 LICENSE="GPL-2+ LGPL-2.1+"
 SLOT="3/0" # libtracker-sparql-3.0 soname version
-IUSE="gtk-doc +miners stemmer test"
-
 KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+IUSE="gtk-doc +miners stemmer test"
+RESTRICT="!test? ( test )"
 
 PV_SERIES=$(ver_cut 1-2)
 
@@ -67,6 +67,7 @@ function inotify_enabled() {
 }
 
 python_check_deps() {
+	use test || return 0
 	has_version -b "dev-python/tappy[${PYTHON_USEDEP}]"
 }
 
