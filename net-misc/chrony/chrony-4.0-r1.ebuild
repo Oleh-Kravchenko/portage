@@ -3,16 +3,18 @@
 
 EAPI=7
 
-inherit systemd tmpfiles toolchain-funcs
+VERIFY_SIG_OPENPGP_KEY_PATH=/usr/share/openpgp-keys/mlichvar.asc
+inherit systemd tmpfiles toolchain-funcs verify-sig
 
 DESCRIPTION="NTP client and server programs"
 HOMEPAGE="https://chrony.tuxfamily.org/ https://git.tuxfamily.org/chrony/chrony.git"
 
 if [[ ${PV} == "9999" ]]; then
-	inherit git-r3
 	EGIT_REPO_URI="https://git.tuxfamily.org/chrony/chrony.git"
+	inherit git-r3
 else
 	SRC_URI="https://download.tuxfamily.org/${PN}/${P/_/-}.tar.gz"
+	SRC_URI+=" verify-sig? ( https://download.tuxfamily.org/chrony/${P}-tar-gz-asc.txt -> ${P}.tar.gz.asc )"
 	KEYWORDS="~alpha amd64 arm arm64 ~hppa ~mips ppc ppc64 sparc x86"
 fi
 
@@ -33,7 +35,10 @@ REQUIRED_USE="
 "
 RESTRICT="test"
 
-BDEPEND="nettle? ( virtual/pkgconfig )"
+BDEPEND="
+	nettle? ( virtual/pkgconfig )
+	verify-sig? ( app-crypt/openpgp-keys-mlichvar )
+"
 
 if [[ ${PV} == "9999" ]]; then
 	# Needed for doc generation in 9999
