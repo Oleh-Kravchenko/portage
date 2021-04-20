@@ -36,6 +36,7 @@ src_prepare() {
 
 src_compile() {
 	emake \
+		PKG_CONFIG="$(tc-getPKG_CONFIG)"
 		platform="x" \
 		compiler="$(tc-getCXX)" \
 		phoenix="gtk"
