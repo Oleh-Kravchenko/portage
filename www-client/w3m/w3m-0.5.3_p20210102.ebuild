@@ -42,14 +42,14 @@ RDEPEND="
 	)
 	xface? ( media-libs/compface )
 "
-
+DEPEND="${RDEPEND}"
 BDEPEND="
-	${RDEPEND}
 	virtual/pkgconfig
 "
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-0.5.3_p20210102-restore-gettext-macro.patch
+	"${FILESDIR}"/${PN}-0.5.3_p20210102-fix-configure-gettext.patch
 )
 
 src_prepare() {
