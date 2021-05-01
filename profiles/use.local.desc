@@ -161,7 +161,6 @@ app-admin/salt:raet - Add support for the new RAET transport.
 app-admin/salt:redis - Support returning data to a redis database.
 app-admin/salt:zeromq - Add support for the zeromq transport.
 app-admin/sudo:gcrypt - Use message digest functions from dev-libs/libgcrypt instead of sudo's
-app-admin/sudo:libressl - Use message digest functions from dev-libs/libressl instead of sudo's
 app-admin/sudo:offensive - Let sudo print insults when the user types the wrong password
 app-admin/sudo:secure-path - Replace PATH variable with compile time secure paths
 app-admin/sudo:sendmail - Allow sudo to send emails with sendmail
@@ -1857,7 +1856,6 @@ dev-libs/appstream-glib:fonts - Enable fonts support for appstream-builder.
 dev-libs/appstream-glib:stemmer - Add word stemming via dev-libs/snowball-stemmer.
 dev-libs/apr:older-kernels-compatibility - Enable binary compatibility with older kernels
 dev-libs/apr:urandom - Use /dev/urandom instead of /dev/random
-dev-libs/apr-util:libressl - Use dev-libs/libressl instead of dev-libs/openssl for 'openssl' USE flag
 dev-libs/apr-util:nss - Install apr_crypto_nss module
 dev-libs/apr-util:openssl - Install apr_crypto_openssl module
 dev-libs/atcore:gui - Build test GUI
@@ -2106,7 +2104,6 @@ dev-libs/librdkafka:lz4 - Enable support for Kafka's LZ4 compression based on KI
 dev-libs/librelp:gnutls - Use GnuTLS
 dev-libs/librelp:libressl - Use LibreSSL
 dev-libs/librelp:openssl - Use OpenSSL
-dev-libs/libressl:asm - Enables assembly
 dev-libs/libsecp256k1:asm - Enable x86_64 assembly optimisation
 dev-libs/libsecp256k1:ecdh - Enable ECDH shared secret computation
 dev-libs/libsecp256k1:endomorphism - Enable endomorphism
@@ -2855,6 +2852,7 @@ dev-util/ostree:httpd - Enable ostree trivial-httpd entrypoint
 dev-util/ostree:libmount - Use libmount
 dev-util/ostree:sodium - Use libsodium for ed25519
 dev-util/ostree:soup - Use libsoup for networking
+dev-util/perf:babeltrace - Enable dev-util/babeltrace support
 dev-util/perf:clang - Enable builtin clang and LLVM support
 dev-util/perf:demangle - Enable C++ symbol name demangling, using libbfd from sys-devel/binutils. When this flag is enabled, the package will have to be rebuilt after every version bump of binutils.
 dev-util/perf:doc - Build documentation and man pages. With this USE flag disabled, the --help parameter for perf and its sub-tools will not be available. This is optional because it depends on a few documentation handling tools that are not always welcome on user systems.
@@ -6510,7 +6508,6 @@ net-misc/ofono:tools - Enable testing tools
 net-misc/oidentd:masquerade - Enable support for masqueraded/NAT connections
 net-misc/olsrd:pud - Install the Node Position Update plugin
 net-misc/openntpd:constraints - Enable HTTPS TLS time constraint support
-net-misc/openntpd:libressl - Enable HTTPS TLS time constraint support using dev-libs/libressl
 net-misc/openssh:X509 - Adds support for X.509 certificate authentication
 net-misc/openssh:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
 net-misc/openssh:hpn - Enable high performance ssh
@@ -6853,7 +6850,6 @@ net-vpn/openconnect:libproxy - Enable proxy support
 net-vpn/openconnect:stoken - Enable stoken support
 net-vpn/openvpn:down-root - Enable the down-root plugin
 net-vpn/openvpn:iproute2 - Enabled iproute2 support instead of net-tools
-net-vpn/openvpn:libressl - Use OpenSSL as the backend crypto library
 net-vpn/openvpn:mbedtls - Use mbed TLS as the backend crypto library
 net-vpn/openvpn:openssl - Use OpenSSL as the backend crypto library
 net-vpn/openvpn:pkcs11 - Enable PKCS#11 smartcard support
