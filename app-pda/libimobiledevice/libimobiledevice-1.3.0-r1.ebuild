@@ -46,6 +46,11 @@ BDEPEND="
 
 BUILD_DIR="${S}_build"
 
+PATCHES=(
+	"${FILESDIR}/${P}-slibtool.patch"
+	"${FILESDIR}/${P}-missing_libflags.patch" #787962
+)
+
 src_prepare() {
 	default
 	eautoreconf
