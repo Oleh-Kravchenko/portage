@@ -22,15 +22,12 @@ LICENSE+=" Apache-2.0"
 # admin icons, jquery, xregexp.js
 LICENSE+=" MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~ppc64 ~sparc ~x86 ~x64-macos"
+KEYWORDS="amd64 arm arm64 ~ppc ~ppc64 ~sparc x86 ~x64-macos"
 IUSE="doc sqlite test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-	|| (
-		>=dev-python/asgiref-3.3.4[${PYTHON_USEDEP}]
-		<dev-python/asgiref-3.3.2[${PYTHON_USEDEP}]
-	)
+	>=dev-python/asgiref-3.3.4[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	>=dev-python/sqlparse-0.2.2[${PYTHON_USEDEP}]"
 BDEPEND="
