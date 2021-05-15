@@ -405,11 +405,6 @@ dev-java/jarbundler
 # see bug: https://bugs.gentoo.org/786234
 dev-java/j2ssh
 
-# Andreas Sturmlechner <asturm@gentoo.org> (2021-04-27)
-# Unmaintained, dead service, EAPI-5.
-# Removal on 2021-05-14
-app-misc/mediacrush-cli
-
 # Miroslav Šulc <fordfrog@gentoo.org> (2021-04-27)
 # library with no consumer
 # removal in 30 days
@@ -658,12 +653,6 @@ media-video/orion
 # Depends on gtk2, which is EOL
 # Removal on 2021-06-01.  Bug #782904.
 x11-themes/gtk-engines-aurora
-
-# Miroslav Šulc <fordfrog@gentoo.org> (2021-04-14)
-# java libraries not used by any other package,
-# masked for removal
-dev-java/odfdom
-dev-java/saaj
 
 # Jonas Stein <jstein@gentoo.org> (2021-04-14)
 # Open bugs, dead upstream.
