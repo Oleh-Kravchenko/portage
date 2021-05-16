@@ -18,7 +18,7 @@ SRC_URI="
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86"
 
 DEPEND="
 	test? (
@@ -36,5 +36,7 @@ DEPEND="
 distutils_enable_tests pytest
 
 python_test() {
+	# the default portage tempdir is too long for AF_UNIX sockets
+	local -x TMPDIR=/tmp
 	epytest -p no:httpbin tests
 }

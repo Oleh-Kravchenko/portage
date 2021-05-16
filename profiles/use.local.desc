@@ -58,11 +58,6 @@ app-admin/diamond:redis - Enable Redis support
 app-admin/diradm:automount - Support for automount data in LDAP
 app-admin/diradm:irixpasswd - Support for storing separate IRIX passwords
 app-admin/doas:persist - Adds support for "persist" feature (experimental)
-app-admin/elektra:augeas - Enable plugin for reading and writing configuration files with help from Augeas
-app-admin/elektra:ini - Enable new, advanced ini support
-app-admin/elektra:simpleini - Enable simpleini support
-app-admin/elektra:uname - Enable uname information for the key database
-app-admin/elektra:yajl - Enable yajl support
 app-admin/gkrellm:X - Build both the X11 gui (gkrellm) and the server (gkrellmd). Disabling this flag builds the server only
 app-admin/gkrellm:gnutls - Enable SSL support for mail checking with net-libs/gnutls (overrides 'ssl' USE flag)
 app-admin/gkrellm:hddtemp - Enable monitoring harddrive temperatures via app-admin/hddtemp
@@ -803,6 +798,7 @@ app-misc/gcstar:stats - Enable statistics reporting
 app-misc/gcstar:tellico - Enable support for kde-misc/tellico files
 app-misc/geoclue:modemmanager - Enable geolocation through 3G or GPS enabled hardware through net-misc/modemmanager.
 app-misc/geoclue:zeroconf - Enable retrieval of GPS location from Android devices with https://wiki.gnome.org/Apps/GeoclueShare
+app-misc/gramps:berkdb - Support BerkeleyDB-based family trees produced by older versions of Gramps
 app-misc/gramps:geo - Enable rendering of geographical data using sci-geosciences/osm-gps-map
 app-misc/gramps:rcs - Adds support for family tree archives via dev-vcs/rcs
 app-misc/gramps:reports - All external software that is needed for graphical reports will be installed
@@ -7872,14 +7868,12 @@ sys-auth/polkit:elogind - Use sys-auth/elogind for session tracking
 sys-auth/polkit:systemd - Use sys-apps/systemd for session tracking
 sys-auth/ssh-ldap-pubkey:schema - Install a copy of the LPK schema, only needed on LDAP servers.
 sys-auth/sssd:acl - Build and use the cifsidmap plugin
-sys-auth/sssd:autofs - Build helper to let net-fs/autofs use sssd provided information
 sys-auth/sssd:locator - Install sssd's Kerberos plugin
-sys-auth/sssd:manpages - Build man pages with dev-libs/libxslt
 sys-auth/sssd:netlink - Add support for netlink protocol via dev-libs/libnl
 sys-auth/sssd:nfsv4 - Add support for the nfsv4 idmapd plugin provided by net-libs/libnfsidmap
 sys-auth/sssd:pac - Add Privileged Attribute Certificate Support for Kerberos
-sys-auth/sssd:ssh - Build helper to let net-misc/openssh use sssd provided information
 sys-auth/sssd:sudo - Build helper to let app-admin/sudo use sssd provided information
+sys-auth/sssd:systemtap - Enable SystemTAP/DTrace tracing
 sys-auth/sssd:valgrind - Depend on dev-util/valgrind for test suite
 sys-block/f3:extra - Build the additional f3probe, f3brew and f3fix utility (requires sys-block/parted and virtual/udev)
 sys-block/fio:aio - Enable AIO ioengine
