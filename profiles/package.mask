@@ -32,7 +32,29 @@
 
 #--- END OF EXAMPLES ---
 
-# Georgy Yakovlev <gyakovlev@gentoo.org> (2011-05-15)
+# Zac Medico <zmedico@gentoo.org> (2021-05-16)
+# Obsoleted by go modules. Masked for removal in 30 days. Bug #790470.
+dev-go/godep
+
+# Miroslav Šulc <fordfrog@gentoo.org> (2021-05-16)
+# no consumer, does not compile, not with jdk-11
+# and not even with openjdk:8
+# see bug: https://bugs.gentoo.org/790551
+dev-java/freemarker
+
+# Sergei Trofimovich <slyfox@gentoo.org> (2021-05-16)
+# Mask gcc-7 branch (ended upstream support). Please switch
+# to a freshed gcc branch.
+<sys-devel/gcc-8
+<dev-util/nvidia-cuda-toolkit-10
+<dev-util/nvidia-cuda-sdk-10
+
+# Sergei Trofimovich <slyfox@gentoo.org> (2021-05-16)
+# Mask gcc-6 branch (ended upstream support). Please switch
+# to a freshed gcc branch.
+<sys-devel/gcc-7
+
+# Georgy Yakovlev <gyakovlev@gentoo.org> (2021-05-15)
 # Dead upstream, homepage missing, EAPI=5, no systemd units.
 # https://bugs.gentoo.org/790413 , #434900, #552760
 # Use any of or combination of the following instead:
@@ -895,8 +917,8 @@ sys-devel/automake:1.10
 # switch the compiler / the binutils) ASAP. If you need them for a specific
 # (isolated) use case, feel free to unmask them on your system.
 <sys-libs/glibc-2.32-r3
-<sys-devel/binutils-2.34
-<sys-devel/binutils-hppa64-2.34
+<sys-devel/binutils-2.35.2
+<sys-devel/binutils-hppa64-2.35.2
 
 # Michael Orlitzky <mjo@gentoo.org> (2017-01-07)
 # This package has some dangerous quality and security issues, but
