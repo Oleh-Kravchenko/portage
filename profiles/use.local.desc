@@ -74,8 +74,6 @@ app-admin/keepassxc:ccache - Use dev-util/ccache to build keepassxc
 app-admin/keepassxc:keeshare - Enable KeeShare sharing integration
 app-admin/keepassxc:network - Enable network support
 app-admin/keepassxc:yubikey - Enable database unlocking via YubiKey.
-app-admin/lastpass-cli:X - Use x11-misc/xclip or x11-misc/xsel to copy passwords to the clipboard.
-app-admin/lastpass-cli:pinentry - Use app-crypt/pinentry to prompt for passwords.
 app-admin/logrotate:acl - Installs acl support
 app-admin/logrotate:cron - Installs cron file
 app-admin/logrotate:selinux - Installs Security Enhanced Linux support
@@ -382,6 +380,7 @@ app-editors/emacs:gsettings - Use gsettings (dev-libs/glib) to read the system f
 app-editors/emacs:gzip-el - Compress bundled Emacs Lisp source
 app-editors/emacs:harfbuzz - Use media-libs/harfbuzz as text shaping engine
 app-editors/emacs:imagemagick - Use media-gfx/imagemagick for image processing
+app-editors/emacs:jit - Compile with Emacs Lisp native compiler support via libgccjit
 app-editors/emacs:json - Compile with native JSON support using dev-libs/jansson
 app-editors/emacs:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal Lisp implementations
 app-editors/emacs:mailutils - Retrieve e-mail using net-mail/mailutils instead of the internal movemail substitute
@@ -1439,7 +1438,6 @@ dev-haskell/comonad:indexed-traversable - You can disable the use of the `indexe
 dev-haskell/contravariant:semigroups - You can disable the use of the `semigroups` package using `-f-semigroups`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/contravariant:statevar - You can disable the use of the `StateVar` package using `-f-StateVar`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/contravariant:tagged - You can disable the use of the `tagged` package on older versons of GHC using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
-dev-haskell/cpu:executable - build 'cpuid' tool
 dev-haskell/criterion:embed-data-files - Embed the data files in the binary for a relocatable executable
 dev-haskell/crypto-api:all-cpolys - Build all the CMAC polynomes up to 10000 bits instead of just the usual ones
 dev-haskell/cryptonite:integer-gmp - Whether or not to use GMP for some functions
@@ -4643,6 +4641,7 @@ media-sound/ncmpc:outputs-screen - Enable the outputs screen
 media-sound/ncmpc:search-screen - Enable search screen
 media-sound/ncmpc:song-screen - Enable song viewer screen
 media-sound/ncmpcpp:clock - Enable clock screen
+media-sound/ncmpcpp:lto - Build with link-time optimisation
 media-sound/ncmpcpp:outputs - Enable outputs screen
 media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/frequency spectrum modes
 media-sound/patchage:jack-dbus - Use Jack via D-Bus instead of libjack
@@ -5041,9 +5040,6 @@ media-video/obs-studio:ssl - Build with TLS/SSL support for RTMPS connections.
 media-video/obs-studio:vlc - Build with VLC media source support.
 media-video/ogmrip:ogm - Support for OGM container format
 media-video/ogmrip:srt - Support for SRT subtitle format
-media-video/orion:mpv - Use the media-video/mpv player (upstream default)
-media-video/orion:qtav - Use the media-libs/qtav player
-media-video/orion:qtmedia - Use the dev-qt/qtmultimedia
 media-video/peek:keybinder - Enable support for global hotkeys using dev-libs/keybinder
 media-video/pipewire:aac - AAC over Bluetooth (iPhone compatible headphones)
 media-video/pipewire:aptx - aptX (HD) over Bluetooth (many Android compatible headphones)
@@ -5422,6 +5418,7 @@ net-analyzer/zabbix:static - Build statically linked binaries
 net-analyzer/zmap:mongo - Add support for storing in a mongo DB via dev-db/mongodb
 net-analyzer/zmap:redis - Add support for storing in a redis DB via dev-libs/hiredis
 net-dialup/accel-ppp:ipoe - Build IPoE kernel module
+net-dialup/accel-ppp:libtomcrypt - Support crypto algorithms through dev-libs/libtomcrypt instead of dev-libs/openssl
 net-dialup/accel-ppp:shaper - Support for traffic shaping
 net-dialup/accel-ppp:valgrind - Compile in valgrind hints
 net-dialup/freeradius:memcached - Include dev-libs/libmemcached in caching drivers
@@ -5974,7 +5971,7 @@ net-libs/libgsasl:ntlm - Add support for Microsoft's NTLM mechanism using net-li
 net-libs/libiio:aio - Enable asynchronous IO support
 net-libs/libisds:openssl - Use dev-libs/openssl as crypto backend instead of app-crypt/gpgme and dev-libs/libgcrypt
 net-libs/libmicrohttpd:epoll - Use epoll() system call
-net-libs/libmicrohttpd:thread-names - Assign thread names to internal threads
+net-libs/libmicrohttpd:thread-names - Assign thread names to internal threads, useful for dependent apps debugging
 net-libs/libnids:glib - Use dev-libs/glib for multiprocessing support
 net-libs/libnids:libnet - Include code requiring net-libs/libnet
 net-libs/libnma:pkcs11 - Enable PKCS#11 support in certificate chooser via app-crypt/gcr
@@ -7154,6 +7151,7 @@ sci-geosciences/qgis:netcdf - Enable MDAL support for GRIB and XMDF formats
 sci-geosciences/qgis:opencl - Enable OpenCL support
 sci-geosciences/qgis:polar - Enable support for the polar coordinate system via x11-libs/qwtpolar
 sci-geosciences/qgis:qml - Enable support Qml-based plugins using dev-qt/qtdeclarative
+sci-geosciences/qgis:serial - Enable support for serial GPS using dev-qt/qtserialport
 sci-geosciences/viking:geoclue - Use app-misc/geoclue to determine current location
 sci-geosciences/viking:libexif - Use media-libs/libexif for EXIF support
 sci-geosciences/viking:oauth - Enable OAuth authentication for OSM
