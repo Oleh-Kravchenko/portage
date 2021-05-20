@@ -32,6 +32,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Miroslav Šulc <fordfrog@gentoo.org> (2021-05-19)
+# no consumer, removal in 30 days
+# see bug: https://bugs.gentoo.org/784065
+dev-java/werken-xpath
+
 # Zac Medico <zmedico@gentoo.org> (2021-05-16)
 # Obsoleted by go modules. Masked for removal in 30 days. Bug #790470.
 dev-go/godep
@@ -813,7 +818,7 @@ dev-lang/spark
 # Mask until sys-libs/libxcrypt[system] is unmasked
 >=virtual/libcrypt-2
 
-# Andrew Ammerlaan <andrewammerlaan@riseup.net> (2020-01-26)
+# Andrew Ammerlaan <andrewammerlaan@gentoo.org> (2020-01-26)
 # v3.6.4 uses huge amounts of memory: Bug #705682
 # v3.6.1 is the latest version without this issue
 >=dev-libs/libsass-3.6.2

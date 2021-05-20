@@ -253,6 +253,7 @@ app-backup/bareos:sql-pooling - Enable SQL pooling support
 app-backup/bareos:storage-daemon - Install storage daemon (bareos-sd)
 app-backup/btrbk:lsbtr - Enable the lsbtr command-line tool
 app-backup/btrbk:mbuffer - Use sys-block/mbuffer to enable progress bar and buffering/limiting functionality
+app-backup/dar:argon2 - Enable password hashing algorithm from app-crypt/argon2
 app-backup/dar:dar32 - Enables --enable-mode=32 option, which replace infinite by 32 bit integers
 app-backup/dar:dar64 - Enables --enable-mode=64 option, which replace infinite by 64 bit integers
 app-backup/dar:gcrypt - Enables strong encryption support
@@ -1931,6 +1932,7 @@ dev-libs/aws-sdk-cpp:unity-build - Build using a single unified .cpp file for ea
 dev-libs/aws-sdk-cpp:waf - The Web Application Firewall (WAF) can monitor web requests that are forwarded to Amazon CloudFront distributions or an Application Load Balancer. Can also be used to block or allow requests based on conditions such as the IP addresses that requests originate from or values in the requests. Also enables fms, network-firewall, waf-regional and wafv2
 dev-libs/aws-sdk-cpp:wellarchitected - Use the AWS Well-Architected Tool to review your workloads against current AWS architectural best practices. The AWS Well-Architected Tool measures the workload and provides recommendations on how to improve your architecture.
 dev-libs/bitset:tcmalloc - Use tcmalloc from dev-util/google-perftools for allocations
+dev-libs/boehm-gc:large - optimize for large heap size (also increases max root sets)x
 dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
 dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
@@ -4437,6 +4439,8 @@ media-sound/alsa-utils:ncurses - install utils that use ncurses (e.g. alsamixer)
 media-sound/alsaplayer:id3tag - Enables ID3 tagging with id3tag library
 media-sound/amsynth:dssi - Enable support for DSSI Soft Synth Interface
 media-sound/amsynth:lv2 - Add support for Ladspa V2
+media-sound/amsynth:nsm - Build support for Non Session Manager
+media-sound/amsynth:vst - Build VST plug-in
 media-sound/apulse:sdk - Install PulseAudio headers and pkg-config files. Be aware apulse is not a full PulseAudio replacement by design and some functionality may be missing.
 media-sound/aqualung:ifp - Enable support for iRiver iFP portable audio players
 media-sound/aqualung:lua - Enable support for programmable title formatting with dev-lang/lua
