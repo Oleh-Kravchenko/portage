@@ -32,6 +32,29 @@
 
 #--- END OF EXAMPLES ---
 
+# Andrew Ammmerlaan <andrewammerlaan@gentoo.org> (2021-05-20)
+# dev-python/QtPy-1.9.0-r4 now uses USE flags to control if it uses
+# PySide2 or PyQt5. With the removal of -r3, this eselect module does
+# not do anything and will only lead to confusion and possibly breakage.
+# See also: https://bugs.gentoo.org/790764
+# Removal in 30 days.
+app-eselect/eselect-QtPy
+
+# Miroslav Šulc <fordfrog@gentoo.org> (2021-05-20)
+# no non-masked consumer, removal in 30 days
+# see bug: https://bugs.gentoo.org/786852
+dev-java/sun-jimi
+
+# Miroslav Šulc <fordfrog@gentoo.org> (2021-05-20)
+# no non-masked consumer, removal in 30 days
+# see bug: https://bugs.gentoo.org/786828
+dev-java/squareness-jlf
+
+# Sam James <sam@gentoo.org> (2021-05-20)
+# Need to ditch Meson or investigate consumers.
+# https://bugs.gentoo.org/791163
+=dev-libs/tinyxml2-8.1.0
+
 # Miroslav Šulc <fordfrog@gentoo.org> (2021-05-19)
 # no consumer, removal in 30 days
 # see bug: https://bugs.gentoo.org/784065
@@ -135,6 +158,31 @@ dev-perl/gtk2-spell
 ~virtual/perl-File-Temp-0.231.100
 ~virtual/perl-Getopt-Long-2.520.0
 ~virtual/perl-I18N-LangTags-0.450.0
+~virtual/perl-if-0.60.900
+~virtual/perl-IO-1.460.0
+~virtual/perl-IO-Compress-2.102.0
+~virtual/perl-IO-Socket-IP-0.410.0
+~virtual/perl-IO-Zlib-1.110.0
+~virtual/perl-JSON-PP-4.60.0
+~virtual/perl-libnet-3.130.0
+~virtual/perl-Math-Complex-1.590.200
+~virtual/perl-MIME-Base64-3.160.0
+~virtual/perl-Module-CoreList-5.202.105.200
+~virtual/perl-Module-Load-Conditional-0.740.0
+~virtual/perl-Net-Ping-2.740.0
+~virtual/perl-Pod-Simple-3.420.0
+~virtual/perl-Safe-2.430.0
+~virtual/perl-Socket-2.31.0
+~virtual/perl-Storable-3.230.0
+~virtual/perl-Test-Harness-3.430.0
+~virtual/perl-Text-Balanced-2.40.0
+~virtual/perl-threads-2.260.0
+~virtual/perl-threads-shared-1.620.0
+~virtual/perl-Tie-RefHash-1.400.0
+~virtual/perl-Time-HiRes-1.976.700
+~virtual/perl-Time-Local-1.300.0
+~virtual/perl-Unicode-Normalize-1.280.0
+~virtual/perl-version-0.992.800
 
 # David Seifert <soap@gentoo.org> (2021-05-09)
 # All revdeps masked, last release in 1999, needs to do now.
