@@ -276,7 +276,6 @@ app-benchmarks/sysbench:drizzle - Add support for Drizzles.
 app-benchmarks/sysbench:largefile - Add support for large files.
 app-cdr/brasero:libburn - Enable dev-libs/libburn backend
 app-cdr/brasero:nautilus - Build the gnome-base/nautilus extension
-app-cdr/brasero:packagekit - Enable support for the distro-neutral package manager GUI PackageKit
 app-cdr/brasero:playlist - Enable support for playlists through dev-libs/totem-pl-parser
 app-cdr/brasero:tracker - Enable audio playlist search using the app-misc/tracker indexer
 app-cdr/cdemu:cdemu-daemon - Pull app-cdr/cdemu-daemon dependency, useful in chroot environment (bug #315491). Do not disable until you know what you are doing.
@@ -1991,7 +1990,6 @@ dev-libs/elfutils:valgrind - Add support for memory debugging using dev-util/val
 dev-libs/ell:glib - Enable dev-libs/glib support
 dev-libs/fcgi:html - Install HTML documentation
 dev-libs/folks:telepathy - Load contacts from the Telepathy framework
-dev-libs/folks:tracker - Load contacts from app-misc/tracker index
 dev-libs/folks:utils - Build the folks-inspect utility
 dev-libs/fstrm:utils - Build fstrm utility programs
 dev-libs/gf2x:custom-tune - Extra long compile time for tuning hardware specific low-level routines
@@ -2143,6 +2141,8 @@ dev-libs/m17n-lib:gd - Build API and utilities based on media-libs/gd. This flag
 dev-libs/m17n-lib:libotf - Use dev-libs/libotf to handle OpenType fonts
 dev-libs/m17n-lib:libxml2 - Use dev-libs/libxml2 to parse XML
 dev-libs/msgpack:boost - Enable boost support
+dev-libs/ncnn:tools - Enable installation of various tools in addition to the library
+dev-libs/ncnn:vulkan - Enable vulkan compute support
 dev-libs/nettle:asm - Support assembly hand optimized crypto functions (i.e. faster run time)
 dev-libs/nss:cacert - Include root/class3 certs from CAcert (https://www.cacert.org/)
 dev-libs/nss:utils - Install utilities included with the library
@@ -3993,6 +3993,12 @@ media-gfx/graphviz:lasi - Enables PostScript output via media-libs/lasi, for plu
 media-gfx/gthumb:http - Enable webservice integration through net-libs/webkit-gtk
 media-gfx/gthumb:slideshow - Enable slideshow plugin
 media-gfx/hugin:sift - automatically align images with media-gfx/autopano-sift-C
+media-gfx/hydrus:charts - Support for bandwidth charts
+media-gfx/hydrus:cloudscraper - Support working around cloudflare anti-bot page
+media-gfx/hydrus:ffmpeg - Show duration and other information on video thumbnails
+media-gfx/hydrus:lz4 - Enable memory compression in the client
+media-gfx/hydrus:mpv - Support playing videos with libmpv
+media-gfx/hydrus:socks - Support SOCKS proxies
 media-gfx/imagemagick:corefonts - Use media-fonts/corefonts which is required by some commands
 media-gfx/imagemagick:fpx - Enable media-libs/libfpx support
 media-gfx/imagemagick:hdri - Enable High Dynamic Range Images formats
@@ -4112,7 +4118,6 @@ media-libs/gegl:lensfun - Enable support for media-libs/lensfun.
 media-libs/gegl:umfpack - Enable sparse solving via sci-libs/umfpack.
 media-libs/gmmlib:custom-cflags - Do not override user CFLAGS like -march, -msse and similar with lib defaults. Not tested by upstream.
 media-libs/gmtk:dconf - Enable support for gnome-base/dconf
-media-libs/grilo:network - Enable network access for media discovery using net-libs/libsoup
 media-libs/grilo:playlist - Enable support for playlists through dev-libs/totem-pl-parser
 media-libs/gst-plugins-bad:bzip2 - Enable bzip2 encoder/decoder plugin
 media-libs/gst-plugins-bad:egl - Enable EGL support
@@ -6063,7 +6068,6 @@ net-libs/onion:libevent - Use dev-libs/libevent as thread poller instead of libe
 net-libs/onion:redis - Add support for redis sessions.
 net-libs/ortp:ntp-timestamp - Turn on NTP timestamping on received packet
 net-libs/ortp:srtp - Add support for Secure RTP
-net-libs/phodav:spice - Install the spice-webdavd guest agent
 net-libs/pjproject:amr - Inlcude AMR codec in the build
 net-libs/pjproject:epoll - Use /dev/epoll ioqueue on Linux (experimental)
 net-libs/pjproject:g711 - Include G.711 codecs in the build
@@ -6451,15 +6455,11 @@ net-misc/mrouted:rsrr - Enable Routing Support for Resource Reservations, for RS
 net-misc/mulk:checksum - Enable checksum verification for Metalink from dev-libs/openssl
 net-misc/mulk:metalink - Enable support for media-libs/libmetalink
 net-misc/netkit-bootparamd:libtirpc - Build against net-libs/libtirpc for RPC support
-net-misc/networkmanager:concheck - Enable connectivity checking support
 net-misc/networkmanager:connection-sharing - Use net-dns/dnsmasq and net-firewall/iptables for connection sharing
 net-misc/networkmanager:dhclient - Use dhclient from net-misc/dhcp for getting ip
 net-misc/networkmanager:dhcpcd - Use net-misc/dhcpcd for getting ip
 net-misc/networkmanager:elogind - Use sys-auth/elogind for session tracking
 net-misc/networkmanager:iwd - Use net-wireless/iwd instead of net-wireless/wpa_supplicant for wifi support by default
-net-misc/networkmanager:json - Enable JSON validation via dev-libs/jansson in libnm.
-net-misc/networkmanager:libpsl - Link against libpsl
-net-misc/networkmanager:lto - Link-time optimization
 net-misc/networkmanager:modemmanager - Enable support for mobile broadband devices using net-misc/modemmanager
 net-misc/networkmanager:nss - Use dev-libs/nss for cryptography
 net-misc/networkmanager:ofono - Use net-misc/ofono for telephony support.
@@ -6467,7 +6467,6 @@ net-misc/networkmanager:ovs - Enable OpenVSwitch support
 net-misc/networkmanager:ppp - Enable support for mobile broadband and PPPoE connections using net-dialup/ppp
 net-misc/networkmanager:resolvconf - Use net-dns/openresolv for managing DNS information in /etc/resolv.conf. Generally, a symlink to /run/NetworkManager/resolv.conf is simpler. On systems running systemd-resolved, disable this flag and create a symlink to /run/systemd/resolve/stub-resolv.conf.
 net-misc/networkmanager:teamd - Enable Teamd control support
-net-misc/networkmanager:tools - Build cli tools such as nmcli, nmtui and nm_cloud_setup
 net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
 net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security
 net-misc/nextcloud-client:dolphin - Install the kde-apps/dolphin extension
@@ -7398,10 +7397,13 @@ sci-libs/umfpack:cholmod - Use sci-libs/cholmod for matrix ordering
 sci-libs/vtk:R - Enable support for dev-lang/R
 sci-libs/vtk:all-modules - Build all modules
 sci-libs/vtk:boost - Add support for boost
+sci-libs/vtk:cuda - Add support for CUDA
 sci-libs/vtk:gdal - Support for gdal formated data
 sci-libs/vtk:imaging - Building Imaging modules
 sci-libs/vtk:json - Support for json formatted data
+sci-libs/vtk:kits - Build kits in addition to modules
 sci-libs/vtk:offscreen - Offscreen rendering through OSMesa
+sci-libs/vtk:pegtl - Use pegtl to build parsers
 sci-libs/vtk:rendering - Building Redering modules
 sci-libs/vtk:tbb - Use dev-cpp/tbb to handle smp support
 sci-libs/vtk:views - Building Views modules
@@ -7894,20 +7896,7 @@ sys-block/fio:rbd - Enable Rados block device support via sys-cluster/ceph
 sys-block/fio:rdma - Enable infiniband support via sys-fabric/librdmacm
 sys-block/fio:tcmalloc - Link against dev-util/google-perftools by default which will speed up USE=rbd up to 20%
 sys-block/fio:zbc - Enable ZBC & ZAC disks via sys-block/libzbc.
-sys-block/gparted:btrfs - Include Btrfs support (sys-fs/btrfs-progs)
-sys-block/gparted:cryptsetup - Include LUKS volume support (sys-fs/cryptsetup)
-sys-block/gparted:dmraid - Support for dmraid devices, also known as ATA-RAID, or Fake RAID.
-sys-block/gparted:f2fs - Include F2FS support (sys-fs/f2fs-tools)
-sys-block/gparted:fat - Include FAT16/FAT32 support (sys-fs/dosfstools)
-sys-block/gparted:hfs - Include HFS support (sys-fs/hfsutils)
-sys-block/gparted:jfs - Include JFS support (sys-fs/jfsutils)
-sys-block/gparted:mdadm - Support for Linux software RAID.
-sys-block/gparted:ntfs - Include NTFS support (sys-fs/ntfs3g)
-sys-block/gparted:reiser4 - Include ReiserFS4 support (sys-fs/reiser4progs)
-sys-block/gparted:reiserfs - Include ReiserFS support (sys-fs/reiserfsprogs)
-sys-block/gparted:udf - Include UDF support (sys-fs/udftools)
 sys-block/gparted:wayland - Enable interim workaround to allow running GParted under Wayland by granting permission to the X11 display using x11-apps/xhost.
-sys-block/gparted:xfs - Include XFS support (sys-fs/xfsprogs, sys-fs/xfsdump)
 sys-block/libfabric:cuda - Enable for CUDA provider
 sys-block/libfabric:efa - Enable Amazon EC2 Elastic Fabric Adapter provider
 sys-block/libfabric:rocr - Enable Radeon Open Compute provider
@@ -8764,7 +8753,6 @@ x11-misc/alock:doc - Build and install manpage with app-text/asciidoc.
 x11-misc/bumblebee:bbswitch - Add dependency on sys-power/bbswitch for PM feature
 x11-misc/colord:argyllcms - Enable ArgyllCMS sensor
 x11-misc/colord:extra-print-profiles - Generate extra print profiles. Warning: significant build time and memory requirements.
-x11-misc/colord:gusb - Enable dev-libs/libgusb support, needed for colorimeter drivers
 x11-misc/compton:drm - Enable VSync with DRM_IOCTL_WAIT_VBLANK
 x11-misc/compton:opengl - Enable VSync with SGI_swap_control OpenGL extension
 x11-misc/dunst:dunstify - Experimental replacement for notify-send.
