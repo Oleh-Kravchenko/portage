@@ -2343,7 +2343,7 @@ dev-php/phing:zip - Support zip archives by requiring said support in dev-lang/p
 dev-php/swoole:http2 - Add support for HTTP/2 protocol via net-libs/nghttp2
 dev-python/PyQt5:bluetooth - Build bindings for the QtBluetooth module
 dev-python/PyQt5:dbus - Build bindings for the QtDBus module
-dev-python/PyQt5:declarative - Build bindings for the QtQml/QtQuick modules and enable the qmlscene plugin
+dev-python/PyQt5:declarative - Build bindings for the QtQml and QtQuick modules and enable the qmlscene plugin
 dev-python/PyQt5:designer - Build bindings for the QtDesigner module and enable the designer plugin
 dev-python/PyQt5:gui - Build bindings for the QtGui module
 dev-python/PyQt5:help - Build bindings for the QtHelp module
@@ -2356,6 +2356,7 @@ dev-python/PyQt5:positioning - Build bindings for the QtPositioning module
 dev-python/PyQt5:printsupport - Build bindings for the QtPrintSupport module
 dev-python/PyQt5:sensors - Build bindings for the QtSensors module
 dev-python/PyQt5:serialport - Build bindings for the QtSerialPort module
+dev-python/PyQt5:speech - Build bindings for the QtTextToSpeech module
 dev-python/PyQt5:sql - Build bindings for the QtSql module
 dev-python/PyQt5:svg - Build bindings for the QtSvg module
 dev-python/PyQt5:testlib - Build bindings for the QtTest module
@@ -2365,7 +2366,7 @@ dev-python/PyQt5:websockets - Build bindings for the QtWebSockets module
 dev-python/PyQt5:widgets - Build bindings for the QtWidgets module
 dev-python/PyQt5:x11extras - Build bindings for the QtX11Extras module
 dev-python/PyQt5:xmlpatterns - Build bindings for the QtXmlPatterns module
-dev-python/QtPy:declarative - Pull in bindings for the QtQml/QtQuick modules and enable the qmlscene plugin
+dev-python/QtPy:declarative - Build bindings for the QtQml and QtQuick modules and enable the qmlscene plugin
 dev-python/QtPy:designer - Pull in bindings for the QtDesigner module and enable the designer plugin
 dev-python/QtPy:gui - Pull in bindings for the QtGui module
 dev-python/QtPy:help - Pull in bindings for the QtHelp module
@@ -2379,6 +2380,7 @@ dev-python/QtPy:pyqt5 - Use dev-python/PyQt5 as Qt for Python implementation
 dev-python/QtPy:pyside2 - Use dev-python/pyside2 as Qt for Python implementation
 dev-python/QtPy:sensors - Pull in bindings for the QtSensors module
 dev-python/QtPy:serialport - Pull in bindings for the QtSerialPort module
+dev-python/QtPy:speech - Build bindings for the QtTextToSpeech module
 dev-python/QtPy:sql - Pull in bindings for the QtSql module
 dev-python/QtPy:svg - Pull in bindings for the QtSvg module
 dev-python/QtPy:testlib - Pull in bindings for the QtTest module
@@ -3012,6 +3014,9 @@ games-board/stockfish:optimize - Enable upstream -O3 optimizations (default enab
 games-board/tablebase-syzygy:6-pieces - Install tablebases for 6 pieces (huge!)
 games-board/xboard:default-font - Install the default font that xboard uses
 games-board/xboard:zippy - Enable experimental zippy client
+games-emulation/desmume:gdb - Enable support for the remote GDB stub
+games-emulation/desmume:openal - Use media-libs/openal for microphone input
+games-emulation/desmume:wifi - Enable support for Wi-Fi (experimental and discouraged)
 games-emulation/dolphin:discord-presence - Enables Discord Rich Presence, show the current game on Discord
 games-emulation/dolphin:evdev - Enable evdev input support
 games-emulation/dolphin:log - Increase logging output
@@ -3023,7 +3028,6 @@ games-emulation/dosbox-staging:dynrec - Use recompiling cpu core instead of dyna
 games-emulation/dosbox-staging:fluidsynth - use media-sound/fluidsynth for MIDI emulation
 games-emulation/dosbox-staging:network - Enable networking features (modem, ipx)
 games-emulation/dosbox-staging:opus - Support compressed audio tracks (.opus) used with CDROM images
-games-emulation/fceux:logo - Enable the ability to add a logo screen when creating AVIs
 games-emulation/generator:sdlaudio - Enable SDL Audio
 games-emulation/hatari:capsimage - Use dev-libs/spsdeclib to read .IPF, .RAW, and .CTR disk images
 games-emulation/hatari:microphone - Use media-libs/portaudio for Falcon microphone handling
@@ -3032,7 +3036,6 @@ games-emulation/hatari:sdl2 - Use libsdl2 instead of libsdl
 games-emulation/higan:gtk - Use GTK3 (Qt5 if disabled) user interface backend
 games-emulation/m64py:7z - Ensure support for .7z archives.
 games-emulation/m64py:rar - Ensure support for .rar archives.
-games-emulation/mednafen:debugger - Build with internal debugger
 games-emulation/mgba:discord - Enable Discord RPC support
 games-emulation/mgba:elf - Enable the use of elf utils via dev-libs/elfutils
 games-emulation/mgba:gles2 - Build OpenGL ES 2.x RenderSystem
@@ -4833,6 +4836,7 @@ media-tv/mythtv:vpx - Enable VP8/VP9 support for media-libs/libvpx
 media-tv/mythtv:wrapper - Use Ubuntu mythtfrontend wrapper
 media-tv/mythtv:x265 - Enable h265 encoding using x265
 media-tv/mythtv:xmltv - Support media-tv/xmltv TV listing - not used by Schedules Direct]
+media-tv/plex-media-server:system-openssl - Use system copy of dev-libs/openssl instead of the bundled one. Unsupported upstream.
 media-tv/tvheadend:capmt - Enable support for capmt (dvbapi) protocol
 media-tv/tvheadend:constcw - Enable support for the constcw protocol
 media-tv/tvheadend:cwc - Enable support for the cwc (newcamd) protocol
@@ -6938,7 +6942,6 @@ net-wireless/gr-osmosdr:airspy - Build with Airspy support
 net-wireless/gr-osmosdr:bladerf - Build with Nuand BladeRF support
 net-wireless/gr-osmosdr:hackrf - Build with Great Scott Gadgets HackRF support
 net-wireless/gr-osmosdr:iqbalance - Enable support for I/Q balancing using gr-iqbal
-net-wireless/gr-osmosdr:mirisdr - Build with Mirics MSi2500 + MSi001 SDR support
 net-wireless/gr-osmosdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
 net-wireless/gr-osmosdr:sdrplay - Enable support for SDRplay devices through net-wireless/sdrplay
 net-wireless/gr-osmosdr:soapy - Build with SoapySDR support
@@ -7495,6 +7498,7 @@ sci-misc/tango:dbserver - Enable build of tango dbserver
 sci-misc/tango:mariadb - Use dev-db/mariadb
 sci-misc/tango:zeromq - Allow to use ZeroMQ broker via net-libs/zeromq
 sci-physics/bullet:double-precision - Build libraries in double precision
+sci-physics/bullet:extras - Build the extras
 sci-physics/bullet:tbb - Enable multithreading with the Intel Threads Building Block dev-cpp/tbb
 sci-physics/espresso:cuda - Enable cuda support
 sci-physics/espresso:examples - Installs the examples
