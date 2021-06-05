@@ -32,6 +32,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Bernard Cafarelli <voyageur@gentoo.org> (2021-06-04)
+# Alpha versions of fetchmail 7
+# Add support for OAUTH2 for those needing it
+=net-mail/fetchmail-7.0.0_alpha*
+
 # Michał Górny <mgorny@gentoo.org> (2021-06-02)
 # This is Python 2/3 compatibility layer that was used shortly
 # by dev-python/pip.  No revdeps left.
@@ -448,12 +453,6 @@ dev-python/pytest-testmon
 # Eray Aslan <eras@gentoo.org> (2021-04-29)
 # Mask experimental software
 =mail-mta/postfix-3.7*
-
-# Stephan Hartmann <sultan@gentoo.org> (2021-04-24)
-# Dev channel releases are only for people who
-# are developers or want more experimental features
-# and accept a more unstable release.
->=www-client/chromium-92
 
 # Ulrich Müller <ulm@gentoo.org> (2021-04-20)
 # Version 3.15 is broken with Emacs 27.2.
