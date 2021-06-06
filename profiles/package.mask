@@ -32,6 +32,17 @@
 
 #--- END OF EXAMPLES ---
 
+# Michał Górny <mgorny@gentoo.org> (2021-06-05)
+# A backport for 'older Python versions' with no revdeps.
+# Removal on 2021-07-05.  Bug #794268.
+dev-python/chainmap
+
+# Stephan Hartmann <sultan@gentoo.org> (2021-06-05)
+# Dev channel releases are only for people who
+# are developers or want more experimental features
+# and accept a more unstable release.
+>=www-client/chromium-93
+
 # Bernard Cafarelli <voyageur@gentoo.org> (2021-06-04)
 # Alpha versions of fetchmail 7
 # Add support for OAUTH2 for those needing it
@@ -46,11 +57,11 @@ dev-python/csv23
 # Sam James <sam@gentoo.org> (2021-06-01)
 # Possible issues with new ALSA release
 # See bug #793410
-=media-libs/alsa-lib-1.2.5
+=media-libs/alsa-lib-1.2.5_p20210604
 =media-libs/alsa-topology-conf-1.2.5
-=media-libs/alsa-ucm-conf-1.2.5
-=media-sound/alsa-utils-1.2.5
-=sys-firmware/alsa-firmware-1.2.5
+=media-libs/alsa-ucm-conf-1.2.5-r1
+=media-plugins/alsa-plugins-1.2.5
+=media-sound/alsa-utils-1.2.5-r1
 
 # Michał Górny <mgorny@gentoo.org> (2021-05-31)
 # Requires removed media-libs/opencv version.
