@@ -24,9 +24,17 @@ RDEPEND="
 	$(python_gen_cond_dep '
 		dev-python/numpy[${PYTHON_USEDEP}]
 		dev-python/numexpr[${PYTHON_USEDEP}]
-		dev-python/pytables[${PYTHON_MULTI_USEDEP}]
-		dev-python/QtPy[gui,${PYTHON_MULTI_USEDEP}]
+		dev-python/pytables[${PYTHON_USEDEP}]
+		dev-python/QtPy[gui,${PYTHON_USEDEP}]
 	')"
 DEPEND="${RDEPEND}"
+BDEPEND="
+	test? (
+		$(python_gen_cond_dep '
+			<dev-python/sip-5[${PYTHON_USEDEP}]
+			dev-python/nose[${PYTHON_USEDEP}]
+	')
+	)
+"
 
 distutils_enable_tests pytest
