@@ -26,9 +26,11 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-libs/glib
+	media-libs/glu
 	media-libs/lv2
-	virtual/opengl
 	x11-libs/cairo[X]
+	media-libs/libglvnd[X]
+	x11-libs/libX11
 	x11-libs/pango
 "
 DEPEND="${RDEPEND}"
