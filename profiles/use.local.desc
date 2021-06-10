@@ -1666,8 +1666,6 @@ dev-java/icedtea-bin:headless-awt - Don't install the X backend for AWT, needed 
 dev-java/jaxen:dom4j - Includes org.jaxen.dom4j package
 dev-java/jaxen:jdom - Includes org.jaxen.jdom package
 dev-java/jaxen:xom - Includes org.jaxen.xom package
-dev-java/jdbc-mysql:c3p0 - Enable c3p0 support
-dev-java/jdbc-mysql:log4j - Enable log4 support
 dev-java/jfreesvg:debug - Enable debugging during compilation.
 dev-java/jna:awt - Enables support for Java AWT
 dev-java/jna:nio-buffers - Enables support for NIO buffers
@@ -4712,6 +4710,7 @@ media-sound/qmmp:gnome - Enable Gnome hotkey support (requires Qt5DBus)
 media-sound/qmmp:lyrics - Fetch track lyrics from the web
 media-sound/qmmp:midi - Enable midi support using wildmidi library
 media-sound/qmmp:notifier - Enable qmmps' notifier system
+media-sound/qmmp:pipewire - Enable PipeWire output plugin
 media-sound/qmmp:projectm - Enable projectm music visualization plugin
 media-sound/qmmp:qsui - Enable QMMP simple UI
 media-sound/qmmp:qtmedia - Enable playback via dev-qt/qtmultimedia
@@ -6637,6 +6636,8 @@ net-misc/wget2:psl - Use public suffix list via media-libs/libnspsl
 net-misc/wget2:valgrind - Depend on dev-util/vagrind for test suite
 net-misc/whois:xcrypt - Enable crypt through sys-libs/libxcrypt package
 net-misc/x2goserver:fuse - Use net-fs/sshfs to allow shared folders
+net-misc/xmrig:donate - Set the default donation level to 1% instead of 0
+net-misc/xmrig:hwloc - Use sys-apps/hwloc for CPU affinity support
 net-misc/youtube-viewer:gtk - Install the gtk3 GUI
 net-misc/youtube-viewer:gtk2 - Use the old gtk2 GUI instead of the gtk3 one
 net-misc/zerotier:clang - Use Clang compiler instead of GCC
@@ -7835,7 +7836,6 @@ sys-apps/systemd:vanilla - Disable Gentoo-specific behavior and compatibility qu
 sys-apps/systemd:xkb - Depend on x11-libs/libxkbcommon to allow logind to control the X11 keymap
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/texinfo:standalone - Build standalone version that survives all Portage bugs
-sys-apps/timer_entropyd:debug - Enable printf debugging and logging to the syslog at DEBUG level
 sys-apps/ucspi-ssl:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
 sys-apps/usbguard:umockdev - Enables support for dev-util/umockdev
 sys-apps/usermode-utilities:fuse - Build tools (currently umlmount) needing fuse
