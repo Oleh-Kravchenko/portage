@@ -32,6 +32,18 @@
 
 #--- END OF EXAMPLES ---
 
+# Joonas Niilola <juippis@gentoo.org> (2021-06-12)
+# A library without consumers, old dep of tree-cleaned gnome-mplayer,
+# EAPI-5. Removal in ~30 days. #776898
+media-libs/gmtk
+
+# Sam James <sam@gentoo.org> (2021-06-12)
+# Masked until all reverse dependencies support
+# OCaml 4.12.
+# bug #795138
+>=dev-lang/ocaml-4.12
+=dev-ml/camlp4-4.12
+
 # Alfredo Tupone <tupone@gentoo.org> (2021-06-11)
 # Masked for removal in 30 days. No more supported
 <dev-lang/gnat-gpl-2017
