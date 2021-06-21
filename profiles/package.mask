@@ -32,6 +32,31 @@
 
 #--- END OF EXAMPLES ---
 
+# David Seifert <soap@gentoo.org> (2021-06-20)
+# Abandoned upstream, last release 17 years ago, unmaintained, tons of
+# QA bugs, eclass is terrible. Bug #796878, removal in 30 days.
+app-dicts/canna-cannadic
+app-dicts/canna-2ch
+app-emacs/yc
+app-i18n/canna
+app-i18n/canfep
+app-i18n/im-canna
+
+# Volkmar W. Pogatzki <gentoo@pogatzki.net> (2021-06-20)
+# no consumer, removal in 30 days
+# see bug: https://bugs.gentoo.org/796587
+# and https://bugs.gentoo.org/561504
+dev-java/annogen
+dev-java/xml-xmlbeans
+java-virtuals/stax-api
+dev-java/jsr173
+dev-java/jibx-tools
+
+# Conrad Kostecki <conikost@gentoo.org> (2021-06-20)
+# New Minecraft server release needs at least Java 16,
+# which is currently not available in Gentoo.
+>=games-server/minecraft-server-1.17
+
 # Zac Medico <zmedico@gentoo.org> (2021-06-19)
 # Upstream inactive and fails to compile.
 # Removal on 2021-07-19.  Bug #786279.
@@ -275,14 +300,6 @@ app-admin/diamond
 # see bug: https://bugs.gentoo.org/791106
 app-editors/jext
 dev-java/jgoodies-looks:1.2
-
-# Andrew Ammmerlaan <andrewammerlaan@gentoo.org> (2021-05-20)
-# dev-python/QtPy-1.9.0-r4 now uses USE flags to control if it uses
-# PySide2 or PyQt5. With the removal of -r3, this eselect module does
-# not do anything and will only lead to confusion and possibly breakage.
-# See also: https://bugs.gentoo.org/790764
-# Removal in 30 days.
-app-eselect/eselect-QtPy
 
 # Miroslav Šulc <fordfrog@gentoo.org> (2021-05-20)
 # no non-masked consumer, removal in 30 days
