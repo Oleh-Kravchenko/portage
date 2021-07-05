@@ -15,7 +15,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
 
-CDEPEND="
+DEPEND="
 	>=x11-libs/pixman-0.27.2
 	dev-libs/libbsd
 	>=x11-libs/libXfont2-2.0.1
@@ -36,15 +36,12 @@ CDEPEND="
 	x11-libs/libxkbfile
 	>=x11-libs/xtrans-1.3.5
 	x11-base/xorg-proto
-"
-
-DEPEND="
-	${CDEPEND}
-	!<=x11-base/xorg-server-1.20.11
+	>=x11-misc/xkeyboard-config-2.4.1-r3
 "
 
 RDEPEND="
 	${DEPEND}
+	!<=x11-base/xorg-server-1.20.11
 	selinux? ( sec-policy/selinux-xserver )
 "
 BDEPEND="
