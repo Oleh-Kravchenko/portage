@@ -1640,6 +1640,11 @@
       <role>Lead, core LLVM/clang</role>
     </member>
     <member>
+      <email>soap@gentoo.org</email>
+      <name>David Seifert</name>
+      <role>Toolchain liaison</role>
+    </member>
+    <member>
       <email>williamh@gentoo.org</email>
       <name>William Hubbs</name>
     </member>
@@ -2370,6 +2375,10 @@
     <member>
       <email>gyakovlev@gentoo.org</email>
       <name>Georgy Yakovlev</name>
+    </member>
+    <member>
+      <email>ionen@gentoo.org</email>
+      <name>Ionen Wolkens</name>
     </member>
     <member>
       <email>jstein@gentoo.org</email>
