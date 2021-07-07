@@ -3026,7 +3026,7 @@ games-emulation/dosbox:core-inline - Enable memory-increasing inlines for better
 games-emulation/dosbox:glide - Enable unofficial Glide emulation via media-libs/openglide
 games-emulation/dosbox-staging:dynrec - Use recompiling cpu core instead of dynamic x86/x64 specific cpu core
 games-emulation/dosbox-staging:fluidsynth - use media-sound/fluidsynth for MIDI emulation
-games-emulation/dosbox-staging:mt-32 - use media-sound/munt for MT-32 emulation
+games-emulation/dosbox-staging:mt-32 - use media-libs/munt-mt32emu for MT-32 emulation
 games-emulation/dosbox-staging:network - Enable networking features (modem, ipx)
 games-emulation/dosbox-staging:opus - Support compressed audio tracks (.opus) used with CDROM images
 games-emulation/generator:sdlaudio - Enable SDL Audio
@@ -3707,6 +3707,7 @@ mail-client/neomutt:smime-classic - Build classic-smime backend to support S/MIM
 mail-client/neomutt:tokyocabinet - Enable Tokyo Cabinet database backend for header caching
 mail-client/roundcube:change-password - Allow users to change passwords through Roundcube
 mail-client/roundcube:enigma - Add dependencies to support server-side GnuPG signing and/or encryption through the enigma plugin
+mail-client/roundcube:fileinfo - Use the dev-lang/php fileinfo extension to guess the mime_type of attachments
 mail-client/roundcube:ldap - Add dependencies to support connecting to an LDAP address book server
 mail-client/s-nail:kerberos - If network is enabled, this adds support for GSSAPI login on IMAP through virtual/krb5.
 mail-client/s-nail:net - Enable support for network protocols (POP, IMAP and SMTP). If you only need to send mail with the local Transport Agent, disabling this will get you support for only /usr/sbin/sendmail call.
