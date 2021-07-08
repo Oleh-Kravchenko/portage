@@ -2049,6 +2049,7 @@ dev-libs/libevent:malloc-replacement - Support for replacing the memory manageme
 dev-libs/libevent:mbedtls - Support for net-libs/mbedtls encryption
 dev-libs/libevent:ssl - Support for dev-libs/openssl encryption
 dev-libs/libevent:verbose-debug - Support for verbose debug logging
+dev-libs/libffi:exec-static-trampoline - Don't rely on dynamic code generation for trampolines.
 dev-libs/libffi:pax-kernel - Use PaX emulated trampolines, for we can't use PROT_EXEC
 dev-libs/libffi:pax_kernel - DEPRECATED alias for 'pax-kernel'. Do not use.
 dev-libs/libffi-compat:pax-kernel - Use PaX emulated trampolines, for we can't use PROT_EXEC
@@ -3326,6 +3327,7 @@ gnome-extra/synapse:plugins - Build support for plugins using net-libs/rest
 gnustep-apps/gemas:projectcenter - Build and install plugin for gnustep-apps/projectcenter
 gnustep-apps/gworkspace:gwmetadata - Enable the metadata indexing and searching system
 gnustep-apps/sogo:activesync - Build the ActiveSync support code
+gnustep-apps/sogo:sodium - Enable support for Argon2 password schemes using dev-libs/libsodium
 gnustep-base/gnustep-back-art:xim - Enable X11 XiM input method
 gnustep-base/gnustep-back-cairo:xim - Enable X11 XiM input method
 gnustep-base/gnustep-back-xlib:xim - Enable X11 XiM input method
@@ -6496,6 +6498,7 @@ net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless 
 net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security
 net-misc/nextcloud-client:dolphin - Install the kde-apps/dolphin extension
 net-misc/nextcloud-client:nautilus - Install the gnome-base/nautilus extension
+net-misc/nextcloud-client:webengine - Enable old Flow1 login using dev-qt/qtwebengine
 net-misc/ntp:openntpd - Allow ntp to be installed alongside openntpd
 net-misc/ntp:parse-clocks - Add support for PARSE clocks
 net-misc/ntp:samba - Provide support for Samba's signing daemon (needed for Active Directory domain controllers)
@@ -7443,6 +7446,7 @@ sci-mathematics/agda:stdlib - Install the standard library.
 sci-mathematics/bertini:optimization - Accept upstream's choices for -O option.
 sci-mathematics/cgal:mpfi - Enable support for multiple recision interval arithmetic via sci-libs/mpfi
 sci-mathematics/cgal:ntl - Enable support for dev-libs/ntl
+sci-mathematics/cgal:shared - Build shared library
 sci-mathematics/cvc4:cln - Use sci-libs/cln
 sci-mathematics/cvc4:proofs - Support for proof generation
 sci-mathematics/cvc4:replay - Turn on the replay feature
