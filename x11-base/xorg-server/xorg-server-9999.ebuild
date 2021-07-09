@@ -4,6 +4,7 @@
 EAPI=7
 
 XORG_DOC=doc
+XORG_TARBALL_SUFFIX="xz"
 inherit xorg-3 multilib flag-o-matic toolchain-funcs
 EGIT_REPO_URI="https://gitlab.freedesktop.org/xorg/xserver.git"
 
@@ -200,6 +201,10 @@ src_install() {
 	if ! use minimal && use xorg; then
 		# Install xorg.conf.example into docs
 		dodoc "${S}"/hw/xfree86/xorg.conf.example
+
+		rm \
+			"${ED}"/usr/bin/cvt \
+			"${ED}"/usr/share/man/man1/cvt.1 || die
 	fi
 
 	# install the @x11-module-rebuild set for Portage
