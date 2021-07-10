@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=CA NetConsole Daemon receives output from the Linux netconsole driver
+EAPI=7
+HOMEPAGE=http://oss.oracle.com/projects/cancd/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=acct-user/cancd
+SLOT=0
+SRC_URI=http://oss.oracle.com/projects/cancd/dist/files/source/cancd-0.1.0.tar.gz
+_md5_=63dff70763c7d8e02d49cc84544b6623
