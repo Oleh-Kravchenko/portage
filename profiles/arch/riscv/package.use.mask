@@ -1,6 +1,11 @@
 # Copyright 2019-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
+# Marek Szuba <marecki@gentoo.org> (2021-07-14)
+# LuaJIT does not support riscv
+app-text/texlive-core luajittex
+dev-texlive/texlive-basic luajittex
+
 # Marek Szuba <marecki@gentoo.org> (2021-07-11)
 # Causes 35 tests to fail with "fatal llvm error"
 dev-db/postgresql llvm
@@ -34,10 +39,10 @@ app-editors/emacs gconf m17n-lib xwidgets
 app-crypt/heimdal afs
 #  - MANY, to be reviewed
 dev-cpp/eigen doc test
+#  - sci-libs/hdf5
+dev-libs/starpu hdf5
 #  - dev-python/pygraphviz & sci-libs/gdal, dev-python/pandas
 dev-python/networkx extras pandas
-#  - sci-libs/umfpack (and a lot of its own deps in turn)
-dev-python/scipy sparse
 #  - sys-cluster/ceph
 net-analyzer/rrdtool rados
 #  - sys-cluster/rdma-core | sys-fabric/ofed, sys-cluster/knem, sys-fabric/infinipath-psm, sys-fabric/librdmacm
