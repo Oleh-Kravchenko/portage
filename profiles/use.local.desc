@@ -7322,6 +7322,8 @@ sci-libs/lis:saamg - Build the Smoothed Aggregation Algebraic MultiGrid precondi
 sci-libs/mathgl:hdf - Add support for the Hierarchical Data Format v.4 sci-libs/hdf
 sci-libs/mathgl:octave - Add bindings for sci-mathematics/octave
 sci-libs/matio:sparse - Extend formats for sparse matrix (not matlab)
+sci-libs/metis:double-precision - Use double- rather than single-precision floating-point representation
+sci-libs/metis:int64 - Use 64- rather than 32-bit integer representation (needed for > 2^31 vertices)
 sci-libs/mpir:cpudetection - Enables runtime cpudetection (useful for bindist, compatability on other CPUs)
 sci-libs/mumps:metis - Enable matrix ordering with METIS (sci-libs/metis, sci-libs/parmetis)
 sci-libs/mumps:scotch - Enable matrix ordering with sci-libs/scotch
@@ -7964,7 +7966,6 @@ sys-boot/refind:ntfs - Builds the EFI binary ntfs filesystem driver
 sys-boot/refind:reiserfs - Builds the EFI binary reiserfs filesystem driver
 sys-boot/silo:tilo-only - Install only the tilo netboot tool
 sys-boot/vboot-utils:libzip - Use dev-libs/libzip.
-sys-boot/woeusb:minimal - Install only woeusb tool
 sys-cluster/ceph:babeltrace - Add support for LTTng babeltrace
 sys-cluster/ceph:cephfs - Build support for cephfs, a POSIX compatible filesystem built on top of ceph
 sys-cluster/ceph:diskprediction - Enable local diskprediction module to predict disk failures
@@ -8446,6 +8447,7 @@ sys-process/systemd-cron:yearly - Support /etc/cron.yearly
 sys-process/tini:args - Enable argument parsing.
 virtual/blas:eselect-ldso - Enable runtime library switching by eselect and ld.so.
 virtual/cblas:eselect-ldso - Enable runtime library switching by eselect and ld.so.
+virtual/jdk:headless-awt - Don't install the X backend for AWT, needed by some GUIs
 virtual/lapack:eselect-ldso - Enable runtime library switching by eselect and ld.so.
 virtual/lapacke:eselect-ldso - Enable runtime library switching by eselect and ld.so.
 virtual/linux-sources:firmware - Install linux kernel firmware
