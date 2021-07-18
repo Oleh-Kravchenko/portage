@@ -32,6 +32,45 @@
 
 #--- END OF EXAMPLES ---
 
+# William Hubbs <williamh@gentoo.org> (2021-07-17)
+# Does not build and has multiple open bugs including a security issue.
+# Dead upstream (last release in 2006).
+# Removal in 30 days (2021-08-16) (bug #602594).
+app-accessibility/eflite
+
+# Andreas K. Hüttel <dilfridge@gentoo.org> (2021-07-17)
+# Obsolete; all versions in current Perl core distributions
+# are newer, and no virtuals currently pull these packages.
+# Removal in 30 days.
+perl-core/Archive-Tar
+perl-core/CPAN-Meta
+perl-core/CPAN-Meta-Requirements
+perl-core/Data-Dumper
+perl-core/Digest
+perl-core/Digest-MD5
+perl-core/Digest-SHA
+perl-core/Dumpvalue
+perl-core/Encode
+perl-core/ExtUtils-Constant
+
+# Andreas K. Hüttel <dilfridge@gentoo.org> (2021-07-17)
+# Obsolete virtual; package was removed from the Perl
+# core distribution. Please depend on dev-perl/Pod-Parser
+# instead. Removal in 30 days.
+virtual/perl-Pod-Parser
+
+# Hans de Graaff <graaff@gentoo.org> (2021-07-17)
+# Deprecated upstream, replaced with factory_bot.
+# Last release in 2017, no dependencies.
+# Masked for removal in 30 days.
+dev-ruby/factory_girl
+
+# Hans de Graaff <graaff@gentoo.org> (2021-07-17)
+# Deprecated upstream, no longer needed with rspec 2+
+# Last release in 2016, factory_girl was last dependency.
+# Masked for removal in 30 days.
+dev-ruby/bourne
+
 # Volkmar W. Pogatzki <gentoo@pogatzki.net> (2021-07-16)
 # library with no consumer, multiple vulnerabilities
 # removal in 30 days (bug #713098)
@@ -286,16 +325,6 @@ dev-java/bytelist
 dev-java/jcodings
 dev-java/joni
 dev-java/jvyamlb
-
-# David Seifert <soap@gentoo.org> (2021-06-20)
-# Abandoned upstream, last release 17 years ago, unmaintained, tons of
-# QA bugs, eclass is terrible. Bug #796878, removal in 30 days.
-app-dicts/canna-cannadic
-app-dicts/canna-2ch
-app-emacs/yc
-app-i18n/canna
-app-i18n/canfep
-app-i18n/im-canna
 
 # Volkmar W. Pogatzki <gentoo@pogatzki.net> (2021-06-20)
 # no consumer, removal in 30 days

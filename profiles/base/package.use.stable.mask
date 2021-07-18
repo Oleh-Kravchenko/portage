@@ -4,15 +4,16 @@
 # This file requires eapi 5 or later. New entries go on top.
 # Please use the same syntax as in package.use.mask
 
+# Conrad Kostecki <conikost@gentoo.org> (2021-07-18)
+# For docs, app-text/pandoc is needed, which is currently
+# not stabilized and probably will not be in near future.
+# Bug #737612
+x11-wm/xpra doc
+
 # Patrick McLean <chutzpah@gentoo.org> (2021-07-13)
 # Pulls in dev-libs/pmdk which has Haskell deps, a dep on rocr-runtime
 # all of which are not stable anywhere.
 sys-cluster/ceph pmdk rbd-rwl
-
-# Sam James <sam@gentoo.org> (2021-07-12)
-# Haskell isn't stable on amd64 (or anywhere)
-# bug #801649
-dev-util/diffoscope haskell
 
 # Andreas K. Hüttel <dilfridge@gentoo.org> (2021-05-30)
 # dev-perl/Net-Netmask-2.0.100 needs ... and ... which ends
